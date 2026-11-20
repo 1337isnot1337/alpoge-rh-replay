@@ -29,7 +29,7 @@ The claim command opens a public issue. You can also open an issue manually with
 
 ## Choosing a task
 
-Depth is project-import depth: it counts the chain of project modules a module imports. Mathlib arrives prebuilt from the pinned cache, but project modules do not. On a cold machine Lake builds the transitive project imports of your target locally before the target itself, so cold build cost grows quickly with depth. A shallow packet or a single shallow module is the right first task; a depth-100 packet can mean building hundreds of project modules first. A first build on a new machine also pays the one-time prepare step: the archive download and the Mathlib cache fill a volume of roughly 11 GB.
+Depth is project-import depth: it counts the chain of project modules a module imports. Mathlib arrives prebuilt from the pinned cache, but project modules do not. On a cold machine Lake builds the transitive project imports of your target locally before the target itself, so cold build cost grows quickly with depth. A shallow packet or a single shallow module is the right first task; a depth-100 packet can mean building thousands of project modules first. A first build on a new machine also pays the one-time prepare step: the archive download and the Mathlib cache fill a volume of roughly 11 GB.
 
 `next` suggests packets whose modules are all still open. Once any module in a packet has evidence, the packet leaves those suggestions even though its remaining modules are still open work. Run
 
