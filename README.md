@@ -826,10 +826,14 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M163042](https://github.com/rohanarun/alpoge-rh-replay/issues/2554) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115151](https://github.com/rohanarun/alpoge-rh-replay/issues/2556) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M091051](https://github.com/rohanarun/alpoge-rh-replay/issues/2558) | Claimed |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M041806](https://github.com/rohanarun/alpoge-rh-replay/issues/2559) | Claimed |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M040276](https://github.com/rohanarun/alpoge-rh-replay/issues/2560) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M113356](https://github.com/rohanarun/alpoge-rh-replay/issues/2561) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M077428](https://github.com/rohanarun/alpoge-rh-replay/issues/2562) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M085774](https://github.com/rohanarun/alpoge-rh-replay/issues/2568) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M041773](https://github.com/rohanarun/alpoge-rh-replay/issues/2570) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M104092](https://github.com/rohanarun/alpoge-rh-replay/issues/2571) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M102184](https://github.com/rohanarun/alpoge-rh-replay/issues/2572) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M101501](https://github.com/rohanarun/alpoge-rh-replay/issues/2573) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M102997](https://github.com/rohanarun/alpoge-rh-replay/issues/2574) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M039731](https://github.com/rohanarun/alpoge-rh-replay/issues/2576) | Claimed |
 
 <!-- active-volunteers-end -->
 
@@ -1090,7 +1094,15 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 | [@mu-mei](https://github.com/mu-mei) | [M002214](https://github.com/rohanarun/alpoge-rh-replay/issues/2553#issuecomment-7050198800) | Pending review |
 | [@maddoxjack](https://github.com/maddoxjack) | [M034294](https://github.com/rohanarun/alpoge-rh-replay/issues/2555#issuecomment-7050195010) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M041118](https://github.com/rohanarun/alpoge-rh-replay/issues/2557#issuecomment-7050206957) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M041806](https://github.com/rohanarun/alpoge-rh-replay/issues/2559#issuecomment-7050207356) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M040276](https://github.com/rohanarun/alpoge-rh-replay/issues/2560#issuecomment-7050210538) | Pending review |
+| [@BenCaunt](https://github.com/BenCaunt) | [M113356](https://github.com/rohanarun/alpoge-rh-replay/issues/2561#issuecomment-7050217026) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M019328](https://github.com/rohanarun/alpoge-rh-replay/issues/2563#issuecomment-7050200331) | Pending review |
+| [@gabeldev](https://github.com/gabeldev) | [M164621](https://github.com/rohanarun/alpoge-rh-replay/issues/2564#issuecomment-7050215982) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M003903](https://github.com/rohanarun/alpoge-rh-replay/issues/2565#issuecomment-7050216756) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M042398](https://github.com/rohanarun/alpoge-rh-replay/issues/2567#issuecomment-7050220419) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M031687](https://github.com/rohanarun/alpoge-rh-replay/issues/2569#issuecomment-7050220403) | Pending review |
+| [@maddoxjack](https://github.com/maddoxjack) | [M038631](https://github.com/rohanarun/alpoge-rh-replay/issues/2575#issuecomment-7050216155) | Pending review |
 
 <!-- pending-volunteers-end -->
 
