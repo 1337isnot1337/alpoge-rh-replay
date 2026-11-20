@@ -381,6 +381,7 @@
 | M016364 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveResidueCompEtaleHenselianStatement` | wave-reused |
 | M016871 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardInertiaEqRamificationIdxOfPerfectResidue` | wave-reused |
 | M016872 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardInertiaEqRamificationIdxOfPerfectResidueStatement` | wave-reused |
+| M016897 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardMultisetWordsMulFactorialStatement` | volunteer-build-reviewed |
 | M016967 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CartanQuasiIsoOfLocalQuasiIsoBoundedBelowDescent` | wave-reused |
 | M016968 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CartanQuasiIsoOfLocalQuasiIsoBoundedBelowDescentStatement` | wave-reused |
 | M016971 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CartanZero` | wave-reused |
@@ -401,4 +402,3 @@
 | M017342 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsIsoOfFreeIso` | wave-reused |
 | M017346 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsQuasiIsoOfSections` | wave-reused |
 | M017730 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafBasicProperti` | wave-reused |
-| M017731 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafBasicPropertiStatement` | wave-reused |
