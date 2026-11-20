@@ -102,7 +102,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T17:23:43Z	grant	134	JanSimeonMetzger
 2026-11-20T17:23:44Z	grant	135	JanSimeonMetzger
 2026-11-20T17:23:46Z	grant	136	dgahelper
-2026-11-20T17:23:46Z	grant	136	dgahelper
 2026-11-20T17:24:24Z	grant	138	TVSuchty
 2026-11-20T17:25:13Z	grant	139	varo6
 2026-11-20T17:25:13Z	volunteer	139	varo6
@@ -136,7 +135,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T17:29:44Z	submission	105	shardmods
 2026-11-20T17:29:48Z	submission	157	varo6
 2026-11-20T17:29:50Z	submission	106	shardmods
-2026-11-20T17:29:52Z	submission	136	dgahelper
 2026-11-20T17:29:52Z	submission	136	dgahelper
 2026-11-20T17:29:56Z	submission	107	shardmods
 2026-11-20T17:30:01Z	submission	108	shardmods
@@ -562,3 +560,13 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:35:30Z	submission	528	BenCaunt
 2026-11-20T18:35:31Z	submission	550	Amahane-Hikari
 2026-11-20T18:35:43Z	submission	552	gabeldev
+2026-11-20T18:35:51Z	grant	554	Amahane-Hikari
+2026-11-20T18:35:51Z	submission	551	Amahane-Hikari
+2026-11-20T18:35:52Z	grant	555	Amahane-Hikari
+2026-11-20T18:35:54Z	submission	553	Amahane-Hikari
+2026-11-20T18:36:02Z	submission	509	emsi
+2026-11-20T18:36:11Z	grant	556	shardmods
+2026-11-20T18:36:12Z	grant	557	shardmods
+2026-11-20T18:36:13Z	grant	558	shardmods
+2026-11-20T18:36:14Z	grant	559	Amahane-Hikari
+2026-11-20T18:36:15Z	grant	560	gabeldev
