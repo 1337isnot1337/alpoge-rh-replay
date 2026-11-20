@@ -692,6 +692,10 @@ The script compares every archive part with its SHA-256 digest, checks the toolc
 
 A completed report should include the exit status, all three outputs, the printed theorem and axioms, and a checksum for the archived transcript. A machine or storage failure leaves the mathematical claim unresolved.
 
+## Optional determinant check
+
+The [M115707 example](examples/M115707/README.md) compares a shorter local Gram determinant argument with the published module. This check runs separately from the volunteer replay.
+
 ## Volunteer activity
 
 ![Cumulative chart of volunteers, granted claims, and replay submissions](tracker/activity.svg)
