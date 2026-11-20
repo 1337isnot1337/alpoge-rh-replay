@@ -1,6 +1,4 @@
 timestamp_utc	event	issue	volunteer
-2026-11-20T17:07:51Z	grant	86	TVSuchty
-2026-11-20T17:07:51Z	volunteer	86	TVSuchty
 2026-11-20T17:07:52Z	grant	87	MLTQ
 2026-11-20T17:07:52Z	volunteer	87	MLTQ
 2026-11-20T17:08:23Z	grant	88	krisyotam
@@ -45,7 +43,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T17:13:46Z	grant	121	shardmods
 2026-11-20T17:13:48Z	grant	122	shardmods
 2026-11-20T17:16:14Z	submission	92	JanSimeonMetzger
-2026-11-20T17:16:25Z	submission	86	TVSuchty
 2026-11-20T17:16:47Z	grant	124	SeriousRising
 2026-11-20T17:16:47Z	volunteer	124	SeriousRising
 2026-11-20T17:17:26Z	grant	125	JanSimeonMetzger
@@ -69,6 +66,7 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T17:23:44Z	grant	135	JanSimeonMetzger
 2026-11-20T17:23:46Z	grant	136	dgahelper
 2026-11-20T17:24:24Z	grant	138	TVSuchty
+2026-11-20T17:24:24Z	volunteer	138	TVSuchty
 2026-11-20T17:25:13Z	grant	139	varo6
 2026-11-20T17:25:13Z	volunteer	139	varo6
 2026-11-20T17:25:47Z	submission	96	gabeldev
@@ -947,7 +945,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T19:01:04Z	grant	891	WilmervH
 2026-11-20T19:01:09Z	grant	896	WilmervH
 2026-11-20T19:01:13Z	grant	900	WilmervH
-2026-11-20T19:01:13Z	grant	900	WilmervH
 2026-11-20T19:01:55Z	submission	888	gabeldev
 2026-11-20T19:01:57Z	grant	920	maddoxjack
 2026-11-20T19:01:58Z	grant	921	Amahane-Hikari
@@ -1201,3 +1198,14 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T19:15:27Z	grant	1100	jjjhenriksen
 2026-11-20T19:15:27Z	submission	1097	user42245
 2026-11-20T19:15:28Z	grant	1101	BenCaunt
+2026-11-20T19:15:28Z	grant	1102	gabeldev
+2026-11-20T19:15:38Z	submission	1099	maddoxjack
+2026-11-20T19:15:51Z	submission	1087	Amahane-Hikari
+2026-11-20T19:15:53Z	submission	1098	BenCaunt
+2026-11-20T19:15:56Z	grant	1103	BenCaunt
+2026-11-20T19:15:57Z	grant	1104	vivekshivarajkumar
+2026-11-20T19:15:59Z	submission	1102	gabeldev
+2026-11-20T19:16:23Z	grant	1105	maddoxjack
+2026-11-20T19:16:24Z	grant	1106	vivekshivarajkumar
+2026-11-20T19:16:24Z	grant	1107	jaykobdetar
+2026-11-20T19:16:24Z	volunteer	1107	jaykobdetar
