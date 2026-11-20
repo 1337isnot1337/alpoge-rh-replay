@@ -185,8 +185,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:08:30Z	grant	185	BenCaunt
 2026-11-20T18:08:31Z	grant	186	shardmods
 2026-11-20T18:08:32Z	grant	187	shardmods
-2026-11-20T18:08:32Z	grant	187	shardmods
-2026-11-20T18:08:34Z	grant	189	shardmods
 2026-11-20T18:08:34Z	grant	189	shardmods
 2026-11-20T18:08:40Z	grant	195	shardmods
 2026-11-20T18:08:41Z	grant	196	roonastgames
@@ -593,7 +591,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:37:41Z	submission	565	hipotures
 2026-11-20T18:37:45Z	submission	564	Amahane-Hikari
 2026-11-20T18:37:49Z	submission	187	shardmods
-2026-11-20T18:37:49Z	submission	187	shardmods
 2026-11-20T18:37:53Z	grant	568	Amahane-Hikari
 2026-11-20T18:37:54Z	grant	570	Amahane-Hikari
 2026-11-20T18:37:55Z	grant	571	Wronskode
@@ -647,7 +644,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:41:20Z	grant	599	Amahane-Hikari
 2026-11-20T18:41:21Z	submission	591	Amahane-Hikari
 2026-11-20T18:41:23Z	submission	189	shardmods
-2026-11-20T18:41:23Z	submission	189	shardmods
 2026-11-20T18:41:36Z	grant	601	BenCaunt
 2026-11-20T18:41:36Z	submission	272	shardmods
 2026-11-20T18:41:37Z	grant	602	Ethan-prog-netizen
@@ -668,6 +664,7 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:42:17Z	grant	613	Amahane-Hikari
 2026-11-20T18:42:33Z	submission	606	Amahane-Hikari
 2026-11-20T18:42:43Z	grant	614	hipotures
+2026-11-20T18:42:43Z	grant	614	hipotures
 2026-11-20T18:42:44Z	grant	615	Amahane-Hikari
 2026-11-20T18:42:45Z	grant	616	BenCaunt
 2026-11-20T18:42:47Z	grant	618	BenCaunt
@@ -682,6 +679,7 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:43:13Z	grant	622	Amahane-Hikari
 2026-11-20T18:43:14Z	grant	623	BenCaunt
 2026-11-20T18:43:15Z	grant	624	Amahane-Hikari
+2026-11-20T18:43:16Z	submission	614	hipotures
 2026-11-20T18:43:16Z	submission	614	hipotures
 2026-11-20T18:43:20Z	submission	615	Amahane-Hikari
 2026-11-20T18:43:21Z	submission	474	jjjhenriksen
@@ -808,3 +806,26 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:51:00Z	grant	699	Amahane-Hikari
 2026-11-20T18:51:16Z	grant	700	Amahane-Hikari
 2026-11-20T18:51:20Z	submission	696	maddoxjack
+2026-11-20T18:51:32Z	grant	701	Amahane-Hikari
+2026-11-20T18:51:33Z	grant	702	BenCaunt
+2026-11-20T18:51:33Z	submission	697	gabeldev
+2026-11-20T18:51:36Z	submission	699	Amahane-Hikari
+2026-11-20T18:51:45Z	submission	700	Amahane-Hikari
+2026-11-20T18:51:47Z	grant	703	Amahane-Hikari
+2026-11-20T18:51:48Z	grant	704	maddoxjack
+2026-11-20T18:51:50Z	submission	693	BenCaunt
+2026-11-20T18:51:50Z	submission	694	BenCaunt
+2026-11-20T18:51:52Z	submission	695	BenCaunt
+2026-11-20T18:52:04Z	grant	705	Amahane-Hikari
+2026-11-20T18:52:05Z	grant	706	BenCaunt
+2026-11-20T18:52:06Z	grant	707	gabeldev
+2026-11-20T18:52:07Z	grant	708	Amahane-Hikari
+2026-11-20T18:52:08Z	grant	709	BenCaunt
+2026-11-20T18:52:24Z	submission	704	maddoxjack
+2026-11-20T18:52:31Z	grant	710	Amahane-Hikari
+2026-11-20T18:52:32Z	grant	711	BenCaunt
+2026-11-20T18:52:32Z	submission	672	Wronskode
+2026-11-20T18:52:33Z	grant	712	Amahane-Hikari
+2026-11-20T18:52:33Z	submission	701	Amahane-Hikari
+2026-11-20T18:52:34Z	grant	713	dhudakk
+2026-11-20T18:52:34Z	volunteer	713	dhudakk
