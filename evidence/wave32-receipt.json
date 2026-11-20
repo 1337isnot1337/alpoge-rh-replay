@@ -1,0 +1,152 @@
+{
+  "workers": {
+    "primary": 1,
+    "helpers_started": 31,
+    "helpers_included": 29,
+    "helpers_removed": 31
+  },
+  "started_utc": "2026-11-20T15:56:34.726847+00:00",
+  "reuse_check_passed_utc": "2026-11-20T16:59:43.839318201Z",
+  "cleanup_confirmed_utc": "2026-11-20T17:00:35.131657+00:00",
+  "distinct_modules_in_bundles": 11114,
+  "new_modules_imported": 9847,
+  "lake_no_build_passed": true,
+  "round_cost_estimate_usd": {
+    "helper_compute_and_storage_range": [
+      34.71,
+      37.32
+    ],
+    "primary_compute_and_storage_during_trial": 1.26,
+    "basis": "Published Render compute and disk rates. Treat cleanup as simultaneous and use the observed fleet provisioning window for start times. Rounded operational estimate."
+  },
+  "events": [
+    {
+      "timestamp": "2026-11-20T16:50:24.67409404Z",
+      "message": "WAVE_BUNDLE_VERIFIED 2 689 655"
+    },
+    {
+      "timestamp": "2026-11-20T16:50:47.640759856Z",
+      "message": "WAVE_BUNDLE_VERIFIED 5 593 1188"
+    },
+    {
+      "timestamp": "2026-11-20T16:51:06.336829475Z",
+      "message": "WAVE_BUNDLE_VERIFIED 6 424 1612"
+    },
+    {
+      "timestamp": "2026-11-20T16:51:34.296424762Z",
+      "message": "WAVE_BUNDLE_VERIFIED 3 689 2158"
+    },
+    {
+      "timestamp": "2026-11-20T16:52:08.182328008Z",
+      "message": "WAVE_BUNDLE_VERIFIED 4 797 2835"
+    },
+    {
+      "timestamp": "2026-11-20T16:52:24.048030763Z",
+      "message": "WAVE_BUNDLE_VERIFIED 7 376 3145"
+    },
+    {
+      "timestamp": "2026-11-20T16:52:36.127858779Z",
+      "message": "WAVE_BUNDLE_VERIFIED 10 327 3414"
+    },
+    {
+      "timestamp": "2026-11-20T16:52:50.228113954Z",
+      "message": "WAVE_BUNDLE_VERIFIED 9 404 3723"
+    },
+    {
+      "timestamp": "2026-11-20T16:53:10.726733685Z",
+      "message": "WAVE_BUNDLE_VERIFIED 8 422 4145"
+    },
+    {
+      "timestamp": "2026-11-20T16:53:25.754432814Z",
+      "message": "WAVE_BUNDLE_VERIFIED 11 404 4458"
+    },
+    {
+      "timestamp": "2026-11-20T16:53:37.675930538Z",
+      "message": "WAVE_BUNDLE_VERIFIED 12 340 4726"
+    },
+    {
+      "timestamp": "2026-11-20T16:53:51.36266121Z",
+      "message": "WAVE_BUNDLE_VERIFIED 13 398 5022"
+    },
+    {
+      "timestamp": "2026-11-20T16:54:02.798379553Z",
+      "message": "WAVE_BUNDLE_VERIFIED 16 328 5263"
+    },
+    {
+      "timestamp": "2026-11-20T16:54:14.62756041Z",
+      "message": "WAVE_BUNDLE_VERIFIED 14 332 5513"
+    },
+    {
+      "timestamp": "2026-11-20T16:54:32.571445185Z",
+      "message": "WAVE_BUNDLE_VERIFIED 15 560 5906"
+    },
+    {
+      "timestamp": "2026-11-20T16:54:41.381082312Z",
+      "message": "WAVE_BUNDLE_VERIFIED 20 330 6106"
+    },
+    {
+      "timestamp": "2026-11-20T16:54:57.167939221Z",
+      "message": "WAVE_BUNDLE_VERIFIED 18 399 6444"
+    },
+    {
+      "timestamp": "2026-11-20T16:55:20.704361386Z",
+      "message": "WAVE_BUNDLE_VERIFIED 17 746 6945"
+    },
+    {
+      "timestamp": "2026-11-20T16:55:39.432626396Z",
+      "message": "WAVE_BUNDLE_VERIFIED 19 658 7358"
+    },
+    {
+      "timestamp": "2026-11-20T16:55:47.334980567Z",
+      "message": "WAVE_BUNDLE_VERIFIED 24 306 7532"
+    },
+    {
+      "timestamp": "2026-11-20T16:55:58.213088146Z",
+      "message": "WAVE_BUNDLE_VERIFIED 22 411 7780"
+    },
+    {
+      "timestamp": "2026-11-20T16:56:11.509276313Z",
+      "message": "WAVE_BUNDLE_VERIFIED 25 362 8071"
+    },
+    {
+      "timestamp": "2026-11-20T16:56:35.712067658Z",
+      "message": "WAVE_BUNDLE_VERIFIED 21 799 8500"
+    },
+    {
+      "timestamp": "2026-11-20T16:56:47.380854642Z",
+      "message": "WAVE_BUNDLE_VERIFIED 26 462 8765"
+    },
+    {
+      "timestamp": "2026-11-20T16:56:55.388423362Z",
+      "message": "WAVE_BUNDLE_VERIFIED 27 301 8916"
+    },
+    {
+      "timestamp": "2026-11-20T16:57:08.32186078Z",
+      "message": "WAVE_BUNDLE_VERIFIED 28 423 9141"
+    },
+    {
+      "timestamp": "2026-11-20T16:57:19.825460523Z",
+      "message": "WAVE_BUNDLE_VERIFIED 29 705 9242"
+    },
+    {
+      "timestamp": "2026-11-20T16:57:31.536934414Z",
+      "message": "WAVE_BUNDLE_VERIFIED 31 528 9512"
+    },
+    {
+      "timestamp": "2026-11-20T16:57:50.01437941Z",
+      "message": "WAVE_BUNDLE_VERIFIED 30 622 9847"
+    },
+    {
+      "timestamp": "2026-11-20T16:57:50.03060818Z",
+      "message": "WAVE_UNIQUE 11114 WAVE_NEW 9847 WAVE_TARGETS 29"
+    },
+    {
+      "timestamp": "2026-11-20T16:59:43.839318201Z",
+      "message": "WAVE_NO_BUILD_PASSED 29 11114 9847"
+    },
+    {
+      "timestamp": "2026-11-20T16:59:43.855550013Z",
+      "message": "WAVE_MERGE_EXIT=0"
+    }
+  ]
+}

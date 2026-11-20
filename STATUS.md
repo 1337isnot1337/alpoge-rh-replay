@@ -1,6 +1,6 @@
 # Coordinator progress
 
-Updated 2026-11-20 16:50 UTC.
+Updated 2026-11-20 17:02 UTC.
 
 The full source build, axiom audit and fresh-kernel verification of RH are pending. Volunteers can claim work using the [contributor guide](CONTRIBUTING.md).
 
@@ -43,5 +43,18 @@ The coordinator provisioned one primary and 31 helpers. The first wave reserved 
 | 29 | `Formalism.SharpRestriction.GrowthBounds.FockGramWindow.RestWinOfLvl` | 705 | ready |
 | 30 | `Formalism.SharpRestriction.LevelLetterCocycles.LocalTheoremOfInputs` | 622 | ready |
 | 31 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NefLineBundleNumericalTheoremsProofStatement` | 528 | ready |
+
+## First wave result
+
+The primary accepted all 29 transferred targets with rebuilding disabled. The batches contained 11,114 distinct modules and added 9,847 modules the primary did not already have. All 31 helper services were removed after the check.
+
+Helper compute and storage are estimated at $35–$37. The primary used about $1.26 during the same interval. [Render pricing](https://render.com/pricing) · [Wave receipt](evidence/wave32-receipt.json)
+
+Consumer log excerpts
+
+```text
+WAVE_NO_BUILD_PASSED 29 11114 9847
+WAVE_MERGE_EXIT=0
+```
 
 The earlier two-worker trial transferred 150 previously unbuilt modules. The receiver compiled one original downstream module and replayed its declarations with the Lean kernel. [Pilot receipt](evidence/pilot-receipt.json)
