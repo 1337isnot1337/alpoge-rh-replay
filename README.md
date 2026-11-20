@@ -18,9 +18,9 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- volunteer-roster-start -->
 
-**Replay volunteers (78)**
+**Replay volunteers (79)**
 
-[@123454321bobbob-tech](https://github.com/123454321bobbob-tech), [@aapolipponen](https://github.com/aapolipponen), [@agi-for-my-llama](https://github.com/agi-for-my-llama), [@Amahane-Hikari](https://github.com/Amahane-Hikari), [@amrehan](https://github.com/amrehan), [@ANdATIon](https://github.com/ANdATIon), [@angusbarry](https://github.com/angusbarry), [@arxhr007](https://github.com/arxhr007), [@BenCaunt](https://github.com/BenCaunt), [@Brendon-Hablutzel](https://github.com/Brendon-Hablutzel), [@burbon](https://github.com/burbon), [@chriswilson413](https://github.com/chriswilson413), [@CubeJerry](https://github.com/CubeJerry), [@DanieleCorso](https://github.com/DanieleCorso), [@dga471](https://github.com/dga471), [@dgahelper](https://github.com/dgahelper), [@dh5at](https://github.com/dh5at), [@dhudakk](https://github.com/dhudakk), [@drew2apps](https://github.com/drew2apps), [@EF-Code](https://github.com/EF-Code), [@egergerfg](https://github.com/egergerfg), [@emsi](https://github.com/emsi), [@Ethan-prog-netizen](https://github.com/Ethan-prog-netizen), [@florianmodel](https://github.com/florianmodel), [@gabeldev](https://github.com/gabeldev), [@galakurpi](https://github.com/galakurpi), [@Genius-Cai-wen-zheng](https://github.com/Genius-Cai-wen-zheng), [@gilad12-coder](https://github.com/gilad12-coder), [@gniax](https://github.com/gniax), [@hipotures](https://github.com/hipotures), [@iAndyHD3](https://github.com/iAndyHD3), [@JamCh01](https://github.com/JamCh01), [@JanSimeonMetzger](https://github.com/JanSimeonMetzger), [@jaykobdetar](https://github.com/jaykobdetar), [@jdenwood](https://github.com/jdenwood), [@jjjhenriksen](https://github.com/jjjhenriksen), [@jsnider3](https://github.com/jsnider3), [@juanfers1](https://github.com/juanfers1), [@jwr404](https://github.com/jwr404), [@krisyotam](https://github.com/krisyotam), [@loremcdmx](https://github.com/loremcdmx), [@Lv-00-ANI](https://github.com/Lv-00-ANI), [@m4tthewdavis](https://github.com/m4tthewdavis), [@mabdelazim](https://github.com/mabdelazim), [@maddoxjack](https://github.com/maddoxjack), [@matan1905](https://github.com/matan1905), [@maxime-fleury](https://github.com/maxime-fleury), [@misuadn-laplace](https://github.com/misuadn-laplace), [@MLEARNER701](https://github.com/MLEARNER701), [@MLTQ](https://github.com/MLTQ), [@mu-mei](https://github.com/mu-mei), [@Mzzj114](https://github.com/Mzzj114), [@nicu-chiciuc](https://github.com/nicu-chiciuc), [@Paulee314](https://github.com/Paulee314), [@rahulsundar477-star](https://github.com/rahulsundar477-star), [@rayy3535](https://github.com/rayy3535), [@RobertBarnettProjects](https://github.com/RobertBarnettProjects), [@roonastgames](https://github.com/roonastgames), [@sat3n](https://github.com/sat3n), [@SeriousRising](https://github.com/SeriousRising), [@shardmods](https://github.com/shardmods), [@sp20262026](https://github.com/sp20262026), [@surfyhou](https://github.com/surfyhou), [@t-choudhury](https://github.com/t-choudhury), [@TomMoeras](https://github.com/TomMoeras), [@Trefoiler](https://github.com/Trefoiler), [@TVSuchty](https://github.com/TVSuchty), [@twaldin](https://github.com/twaldin), [@unhingedpanda](https://github.com/unhingedpanda), [@user42245](https://github.com/user42245), [@varo6](https://github.com/varo6), [@vivekshivarajkumar](https://github.com/vivekshivarajkumar), [@walkingsophie](https://github.com/walkingsophie), [@whitegrave1917-web](https://github.com/whitegrave1917-web), [@WilmervH](https://github.com/WilmervH), [@WorldianAI](https://github.com/WorldianAI), [@Wronskode](https://github.com/Wronskode), [@zediir](https://github.com/zediir)
+[@123454321bobbob-tech](https://github.com/123454321bobbob-tech), [@aapolipponen](https://github.com/aapolipponen), [@agi-for-my-llama](https://github.com/agi-for-my-llama), [@Amahane-Hikari](https://github.com/Amahane-Hikari), [@amrehan](https://github.com/amrehan), [@ANdATIon](https://github.com/ANdATIon), [@angusbarry](https://github.com/angusbarry), [@arxhr007](https://github.com/arxhr007), [@BenCaunt](https://github.com/BenCaunt), [@Brendon-Hablutzel](https://github.com/Brendon-Hablutzel), [@burbon](https://github.com/burbon), [@chriswilson413](https://github.com/chriswilson413), [@CubeJerry](https://github.com/CubeJerry), [@DanieleCorso](https://github.com/DanieleCorso), [@dga471](https://github.com/dga471), [@dgahelper](https://github.com/dgahelper), [@dh5at](https://github.com/dh5at), [@dhudakk](https://github.com/dhudakk), [@drew2apps](https://github.com/drew2apps), [@EF-Code](https://github.com/EF-Code), [@egergerfg](https://github.com/egergerfg), [@emsi](https://github.com/emsi), [@Ethan-prog-netizen](https://github.com/Ethan-prog-netizen), [@florianmodel](https://github.com/florianmodel), [@gabeldev](https://github.com/gabeldev), [@galakurpi](https://github.com/galakurpi), [@Genius-Cai-wen-zheng](https://github.com/Genius-Cai-wen-zheng), [@gilad12-coder](https://github.com/gilad12-coder), [@gniax](https://github.com/gniax), [@hipotures](https://github.com/hipotures), [@iAndyHD3](https://github.com/iAndyHD3), [@JamCh01](https://github.com/JamCh01), [@JanSimeonMetzger](https://github.com/JanSimeonMetzger), [@jaykobdetar](https://github.com/jaykobdetar), [@jdenwood](https://github.com/jdenwood), [@jjjhenriksen](https://github.com/jjjhenriksen), [@jsnider3](https://github.com/jsnider3), [@juanfers1](https://github.com/juanfers1), [@jwr404](https://github.com/jwr404), [@krisyotam](https://github.com/krisyotam), [@loremcdmx](https://github.com/loremcdmx), [@Lv-00-ANI](https://github.com/Lv-00-ANI), [@m4tthewdavis](https://github.com/m4tthewdavis), [@mabdelazim](https://github.com/mabdelazim), [@maddoxjack](https://github.com/maddoxjack), [@matan1905](https://github.com/matan1905), [@maxime-fleury](https://github.com/maxime-fleury), [@misuadn-laplace](https://github.com/misuadn-laplace), [@MLEARNER701](https://github.com/MLEARNER701), [@MLTQ](https://github.com/MLTQ), [@mu-mei](https://github.com/mu-mei), [@Mzzj114](https://github.com/Mzzj114), [@nicu-chiciuc](https://github.com/nicu-chiciuc), [@Paulee314](https://github.com/Paulee314), [@rahulsundar477-star](https://github.com/rahulsundar477-star), [@rayy3535](https://github.com/rayy3535), [@rishabh-16](https://github.com/rishabh-16), [@RobertBarnettProjects](https://github.com/RobertBarnettProjects), [@roonastgames](https://github.com/roonastgames), [@sat3n](https://github.com/sat3n), [@SeriousRising](https://github.com/SeriousRising), [@shardmods](https://github.com/shardmods), [@sp20262026](https://github.com/sp20262026), [@surfyhou](https://github.com/surfyhou), [@t-choudhury](https://github.com/t-choudhury), [@TomMoeras](https://github.com/TomMoeras), [@Trefoiler](https://github.com/Trefoiler), [@TVSuchty](https://github.com/TVSuchty), [@twaldin](https://github.com/twaldin), [@unhingedpanda](https://github.com/unhingedpanda), [@user42245](https://github.com/user42245), [@varo6](https://github.com/varo6), [@vivekshivarajkumar](https://github.com/vivekshivarajkumar), [@walkingsophie](https://github.com/walkingsophie), [@whitegrave1917-web](https://github.com/whitegrave1917-web), [@WilmervH](https://github.com/WilmervH), [@WorldianAI](https://github.com/WorldianAI), [@Wronskode](https://github.com/Wronskode), [@zediir](https://github.com/zediir)
 
 <!-- volunteer-roster-end -->
 
@@ -35,30 +35,30 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- active-volunteers-start -->
 
-[1,067 entries. View the full table](tracker/volunteer-tables/active/README.md).
+[1,050 entries. View the full table](tracker/volunteer-tables/active/README.md).
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M140447](https://github.com/rohanarun/alpoge-rh-replay/issues/6398) | Claimed |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M043021](https://github.com/rohanarun/alpoge-rh-replay/issues/6402) | Claimed |
-| [@jwr404](https://github.com/jwr404) | [M126265](https://github.com/rohanarun/alpoge-rh-replay/issues/6403) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M173199](https://github.com/rohanarun/alpoge-rh-replay/issues/6404) | Claimed |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M102216](https://github.com/rohanarun/alpoge-rh-replay/issues/6405) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M114944](https://github.com/rohanarun/alpoge-rh-replay/issues/6406) | Claimed |
-| [@jwr404](https://github.com/jwr404) | [M131988](https://github.com/rohanarun/alpoge-rh-replay/issues/6407) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M102955](https://github.com/rohanarun/alpoge-rh-replay/issues/6408) | Claimed |
-| [@WilmervH](https://github.com/WilmervH) | [P1875](https://github.com/rohanarun/alpoge-rh-replay/issues/6409) | Claimed |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M115525](https://github.com/rohanarun/alpoge-rh-replay/issues/6410) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115694](https://github.com/rohanarun/alpoge-rh-replay/issues/6413) | Claimed |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M161110](https://github.com/rohanarun/alpoge-rh-replay/issues/6415) | Claimed |
-| [@jwr404](https://github.com/jwr404) | [M138513](https://github.com/rohanarun/alpoge-rh-replay/issues/6418) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M028363](https://github.com/rohanarun/alpoge-rh-replay/issues/6419) | Claimed |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M108287](https://github.com/rohanarun/alpoge-rh-replay/issues/6421) | Claimed |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M158928](https://github.com/rohanarun/alpoge-rh-replay/issues/6422) | Claimed |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M104089](https://github.com/rohanarun/alpoge-rh-replay/issues/6427) | Claimed |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M115730](https://github.com/rohanarun/alpoge-rh-replay/issues/6430) | Claimed |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M115229](https://github.com/rohanarun/alpoge-rh-replay/issues/6432) | Claimed |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M110102](https://github.com/rohanarun/alpoge-rh-replay/issues/6434) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M037373](https://github.com/rohanarun/alpoge-rh-replay/issues/6487) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M140907](https://github.com/rohanarun/alpoge-rh-replay/issues/6489) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115607](https://github.com/rohanarun/alpoge-rh-replay/issues/6490) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M058570](https://github.com/rohanarun/alpoge-rh-replay/issues/6491) | Claimed |
+| [@WilmervH](https://github.com/WilmervH) | [P1906](https://github.com/rohanarun/alpoge-rh-replay/issues/6514) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M108686](https://github.com/rohanarun/alpoge-rh-replay/issues/6517) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115469](https://github.com/rohanarun/alpoge-rh-replay/issues/6522) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M050911](https://github.com/rohanarun/alpoge-rh-replay/issues/6524) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M101601](https://github.com/rohanarun/alpoge-rh-replay/issues/6530) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M044247](https://github.com/rohanarun/alpoge-rh-replay/issues/6531) | Claimed |
+| [@WilmervH](https://github.com/WilmervH) | [P1840](https://github.com/rohanarun/alpoge-rh-replay/issues/6532) | Claimed |
+| [@emsi](https://github.com/emsi) | [P1777](https://github.com/rohanarun/alpoge-rh-replay/issues/6537) | Claimed |
+| [@WilmervH](https://github.com/WilmervH) | [P1818](https://github.com/rohanarun/alpoge-rh-replay/issues/6538) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M141515](https://github.com/rohanarun/alpoge-rh-replay/issues/6539) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M170784](https://github.com/rohanarun/alpoge-rh-replay/issues/6541) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M085042](https://github.com/rohanarun/alpoge-rh-replay/issues/6543) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M128765](https://github.com/rohanarun/alpoge-rh-replay/issues/6544) | Claimed |
+| [@surfyhou](https://github.com/surfyhou) | [P1802](https://github.com/rohanarun/alpoge-rh-replay/issues/6546) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M170879](https://github.com/rohanarun/alpoge-rh-replay/issues/6567) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M152579](https://github.com/rohanarun/alpoge-rh-replay/issues/6570) | Claimed |
 
 <!-- active-volunteers-end -->
 
@@ -69,30 +69,30 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- pending-volunteers-start -->
 
-[962 entries. View the full table](tracker/volunteer-tables/pending/README.md).
+[750 entries. View the full table](tracker/volunteer-tables/pending/README.md).
 
 | Contributor | Task | Review |
 |---|---|---|
-| [@ANdATIon](https://github.com/ANdATIon) | [M069558](https://github.com/rohanarun/alpoge-rh-replay/issues/6384#issuecomment-7053152881) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M058567](https://github.com/rohanarun/alpoge-rh-replay/issues/6385#issuecomment-7053138125) | Pending review |
-| [@galakurpi](https://github.com/galakurpi) | [M088042](https://github.com/rohanarun/alpoge-rh-replay/issues/6395#issuecomment-7053156871) | Pending review |
-| [@drew2apps](https://github.com/drew2apps) | [M165923](https://github.com/rohanarun/alpoge-rh-replay/issues/6399#issuecomment-7053143627) | Pending review |
-| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M103314](https://github.com/rohanarun/alpoge-rh-replay/issues/6400#issuecomment-7053142570) | Pending review |
-| [@galakurpi](https://github.com/galakurpi) | [M115800](https://github.com/rohanarun/alpoge-rh-replay/issues/6411#issuecomment-7053158701) | Pending review |
-| [@gilad12-coder](https://github.com/gilad12-coder) | [M090995](https://github.com/rohanarun/alpoge-rh-replay/issues/6412#issuecomment-7053145010) | Pending review |
-| [@galakurpi](https://github.com/galakurpi) | [M115593](https://github.com/rohanarun/alpoge-rh-replay/issues/6414#issuecomment-7053160040) | Pending review |
-| [@mu-mei](https://github.com/mu-mei) | [M002019](https://github.com/rohanarun/alpoge-rh-replay/issues/6416#issuecomment-7053145104) | Pending review |
-| [@roonastgames](https://github.com/roonastgames) | [M164722](https://github.com/rohanarun/alpoge-rh-replay/issues/6417#issuecomment-7053153562) | Pending review |
-| [@Trefoiler](https://github.com/Trefoiler) | [M057592](https://github.com/rohanarun/alpoge-rh-replay/issues/6420#issuecomment-7053146472) | Pending review |
-| [@rayy3535](https://github.com/rayy3535) | [M015116](https://github.com/rohanarun/alpoge-rh-replay/issues/6423#issuecomment-7053145833) | Pending review |
-| [@rayy3535](https://github.com/rayy3535) | [M037382](https://github.com/rohanarun/alpoge-rh-replay/issues/6424#issuecomment-7053146957) | Pending review |
-| [@rayy3535](https://github.com/rayy3535) | [M038820](https://github.com/rohanarun/alpoge-rh-replay/issues/6425#issuecomment-7053148117) | Pending review |
-| [@rayy3535](https://github.com/rayy3535) | [M038883](https://github.com/rohanarun/alpoge-rh-replay/issues/6426#issuecomment-7053149274) | Pending review |
-| [@mu-mei](https://github.com/mu-mei) | [M001442](https://github.com/rohanarun/alpoge-rh-replay/issues/6428#issuecomment-7053151375) | Pending review |
-| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M103321](https://github.com/rohanarun/alpoge-rh-replay/issues/6429#issuecomment-7053148856) | Pending review |
-| [@mu-mei](https://github.com/mu-mei) | [M168696](https://github.com/rohanarun/alpoge-rh-replay/issues/6431#issuecomment-7053148681) | Pending review |
-| [@rayy3535](https://github.com/rayy3535) | [M101641](https://github.com/rohanarun/alpoge-rh-replay/issues/6435#issuecomment-7053148365) | Pending review |
-| [@rayy3535](https://github.com/rayy3535) | [M101525](https://github.com/rohanarun/alpoge-rh-replay/issues/6436#issuecomment-7053149659) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M062404](https://github.com/rohanarun/alpoge-rh-replay/issues/6547#issuecomment-7053225324) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M002025](https://github.com/rohanarun/alpoge-rh-replay/issues/6548#issuecomment-7053223492) | Pending review |
+| [@drew2apps](https://github.com/drew2apps) | [M165927](https://github.com/rohanarun/alpoge-rh-replay/issues/6549#issuecomment-7053226325) | Pending review |
+| [@maxime-fleury](https://github.com/maxime-fleury) | [M010327](https://github.com/rohanarun/alpoge-rh-replay/issues/6550#issuecomment-7053233587) | Pending review |
+| [@roonastgames](https://github.com/roonastgames) | [M164131](https://github.com/rohanarun/alpoge-rh-replay/issues/6551#issuecomment-7053235615) | Pending review |
+| [@amrehan](https://github.com/amrehan) | [M157283](https://github.com/rohanarun/alpoge-rh-replay/issues/6552#issuecomment-7053221724) | Pending review |
+| [@amrehan](https://github.com/amrehan) | [M059992](https://github.com/rohanarun/alpoge-rh-replay/issues/6553#issuecomment-7053232563) | Pending review |
+| [@amrehan](https://github.com/amrehan) | [M174906](https://github.com/rohanarun/alpoge-rh-replay/issues/6554#issuecomment-7053227269) | Pending review |
+| [@rayy3535](https://github.com/rayy3535) | [M101324](https://github.com/rohanarun/alpoge-rh-replay/issues/6555#issuecomment-7053223009) | Pending review |
+| [@rayy3535](https://github.com/rayy3535) | [M103006](https://github.com/rohanarun/alpoge-rh-replay/issues/6556#issuecomment-7053224367) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M001446](https://github.com/rohanarun/alpoge-rh-replay/issues/6557#issuecomment-7053228688) | Pending review |
+| [@rayy3535](https://github.com/rayy3535) | [M156676](https://github.com/rohanarun/alpoge-rh-replay/issues/6559#issuecomment-7053229105) | Pending review |
+| [@rayy3535](https://github.com/rayy3535) | [M156801](https://github.com/rohanarun/alpoge-rh-replay/issues/6560#issuecomment-7053230417) | Pending review |
+| [@rayy3535](https://github.com/rayy3535) | [M161153](https://github.com/rohanarun/alpoge-rh-replay/issues/6561#issuecomment-7053231529) | Pending review |
+| [@roonastgames](https://github.com/roonastgames) | [M064791](https://github.com/rohanarun/alpoge-rh-replay/issues/6562#issuecomment-7053242283) | Pending review |
+| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M103340](https://github.com/rohanarun/alpoge-rh-replay/issues/6564#issuecomment-7053231215) | Pending review |
+| [@drew2apps](https://github.com/drew2apps) | [M165928](https://github.com/rohanarun/alpoge-rh-replay/issues/6565#issuecomment-7053241294) | Pending review |
+| [@roonastgames](https://github.com/roonastgames) | [M064836](https://github.com/rohanarun/alpoge-rh-replay/issues/6568#issuecomment-7053248664) | Pending review |
+| [@galakurpi](https://github.com/galakurpi) | [M089722](https://github.com/rohanarun/alpoge-rh-replay/issues/6569#issuecomment-7053241452) | Pending review |
+| [@galakurpi](https://github.com/galakurpi) | [M115548](https://github.com/rohanarun/alpoge-rh-replay/issues/6571#issuecomment-7053234152) | Pending review |
 
 <!-- pending-volunteers-end -->
 
