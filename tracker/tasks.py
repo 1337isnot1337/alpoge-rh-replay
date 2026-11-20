@@ -52,7 +52,7 @@ def claims():
    match=re.search(r'<([^>]+)>; rel="next"',response.headers.get('Link',''))
    url=match[1] if match else None
  return refs
-def run(targets,checkout,out,bundle):
+def run(targets,checkout,out,bundle,fast_bundle=False):
  project=checkout.resolve();output=out.resolve();output.mkdir(parents=True,exist_ok=False)
  dirs=project.parent
  env={**os.environ,'ELAN_HOME':str(dirs/'elan'),'XDG_CACHE_HOME':str(dirs/'cache')}
@@ -71,9 +71,10 @@ def run(targets,checkout,out,bundle):
  build=project/'.lake/build'
  if result.returncode==0:
   for r in targets:receipt['objects'][r['id']]=digest(build/'lib/lean'/(r['module'].replace('.','/')+'.olean'))
-  if bundle:
+  if bundle or fast_bundle:
    artifact=output/'targets.tar.gz'
-   with tarfile.open(artifact,'w:gz') as tar:
+   options = {'compresslevel': 1} if fast_bundle else {}
+   with tarfile.open(artifact,'w:gz',**options) as tar:
     for r in targets:
      stem=r['module'].replace('.','/')
      for prefix in ['lib/lean','ir']:
@@ -92,6 +93,7 @@ def main():
   sub=s.add_parser(n);sub.add_argument('target')
   if n=='build':
    sub.add_argument('checkout',type=Path);sub.add_argument('output',type=Path);sub.add_argument('--bundle',action='store_true')
+   sub.add_argument('--fast-bundle',action='store_true',help='write the same tar members with gzip level 1 for faster packaging')
  a=p.parse_args();rows=load()
  if a.action=='next':
   busy=claims()
@@ -112,6 +114,6 @@ def main():
   busy=claims()
   if any(r['id'] in busy or r['packet'] in busy or r['state']!='open' for r in sel):raise SystemExit('One or more modules are already claimed, observed, or assigned.')
   subprocess.run(['gh','issue','create','--repo',repo,'--title','Claim '+a.target,'--body','I am working on '+a.target+'. I will attach the input hashes, build transcript and receipt, or close this claim if I stop.'],check=True)
- else:return run(sel,a.checkout,a.output,a.bundle)
+ else:return run(sel,a.checkout,a.output,a.bundle,a.fast_bundle)
  return 0
 if __name__=='__main__':sys.exit(main())
