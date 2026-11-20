@@ -1,0 +1,25 @@
+name: Coordinate replay claims
+on:
+  issues:
+    types: [opened, edited, closed, reopened]
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['tracker/completed.tsv', 'tracker/modules.jsonl.gz', 'tracker/grants.py', '.github/workflows/claims.yml']
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: replay-claim-ledger
+  cancel-in-progress: false
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Reconcile all open reservations
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 tracker/grants.py

@@ -10,7 +10,14 @@ def digest(path):
   for block in iter(lambda:f.read(1024*1024),b''):h.update(block)
  return h.hexdigest()
 def load():
- with gzip.open(base/'modules.jsonl.gz','rt') as f:return [json.loads(s) for s in f]
+ with gzip.open(base/'modules.jsonl.gz','rt') as f:rows=[json.loads(s) for s in f]
+ completed=base/'completed.tsv'
+ if completed.exists():
+  import csv
+  with completed.open() as f:done={r['id']:r['evidence'] for r in csv.DictReader(f,delimiter='\t')}
+  for r in rows:
+   if r['id'] in done:r['state']=done[r['id']]
+ return rows
 def select(rows,target):
  out=[r for r in rows if target in (r['id'],r['packet'],r['module'])]
  if not out:raise SystemExit('Unknown task or packet: '+target)

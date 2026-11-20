@@ -12,6 +12,28 @@ Current cloud progress is recorded in the [worker status report](STATUS.md).
 
 Choose any of **175,187 module tasks** or one of **2,858 work packets**. Each module has a source digest, direct dependencies, import depth, and a coordinator snapshot state. Use the [contributor guide](CONTRIBUTING.md) to find an available packet, claim it, build it, and return evidence. Browse the [packet index](tracker/packets.tsv), [snapshot totals](tracker/summary.json), or [open volunteer claims](https://github.com/rohanarun/alpoge-rh-replay/issues?q=is%3Aissue%20is%3Aopen%20in%3Atitle%20Claim).
 
+## Completed parts
+
+<!-- completed-start -->
+
+| Evidence for distinct module IDs | Count |
+|---|---:|
+| Successful source build observed | 2,104 |
+| Pilot proof object reused | 150 |
+| Pilot downstream module kernel-checked | 1 |
+| Distributed proof object reused | 0 |
+| **Total with recorded module evidence** | **2,255 / 175,187** |
+
+[See each completed part and its evidence](completed/README.md) · [Machine-readable ledger](tracker/completed.tsv)
+
+<!-- completed-end -->
+
+## Give this prompt to an agent
+
+> Help independently replay the claimed RH proof using https://github.com/rohanarun/alpoge-rh-replay. Read auto-research.md and fast-forward to the latest main commit. Run `python3 tracker/tasks.py next` and inspect an open packet. Claim exactly one open packet or module. Wait for the claim-granted label and matching bot comment before starting. Reproduce the pinned inputs, build the assigned targets and their required imports, and attach the receipt, log, and artifact hashes to your issue. If you stop, release the claim. Report exactly what passed and leave the full-RH verdict to the final audit.
+
+[Full instructions for agents](auto-research.md) · [Claims and conflicts](https://github.com/rohanarun/alpoge-rh-replay/issues?q=is%3Aissue+is%3Aopen+in%3Atitle+Claim)
+
 ## Reproduce the check
 
 On Linux, install the elan launcher and ensure its `lean` and `lake` commands are on your PATH. The script also requires Bash, Git, curl, GNU tar, sha256sum, a C toolchain, network access, and a large writable build volume. Run from this repository with a fresh output directory.
