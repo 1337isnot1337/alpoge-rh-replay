@@ -18,7 +18,9 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 
 <!-- pending-volunteers-start -->
 
-No submissions awaiting review.
+| Contributor | Task | Review |
+|---|---|---|
+| [@krisyotam](https://github.com/krisyotam) | [P0060](https://github.com/rohanarun/alpoge-rh-replay/issues/7#issuecomment-7045297630) | Pending review |
 
 <!-- pending-volunteers-end -->
 
