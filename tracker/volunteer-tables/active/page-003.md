@@ -201,9 +201,6 @@
 | [@dga471](https://github.com/dga471) | [M031373](https://github.com/rohanarun/alpoge-rh-replay/issues/2620) | Claimed |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P1679](https://github.com/rohanarun/alpoge-rh-replay/issues/2632) | Claimed |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P1749](https://github.com/rohanarun/alpoge-rh-replay/issues/2702) | Claimed |
-| [@sat3n](https://github.com/sat3n) | [M109314](https://github.com/rohanarun/alpoge-rh-replay/issues/2889) | Claimed |
-| [@sat3n](https://github.com/sat3n) | [M109991](https://github.com/rohanarun/alpoge-rh-replay/issues/2894) | Claimed |
-| [@sat3n](https://github.com/sat3n) | [M114989](https://github.com/rohanarun/alpoge-rh-replay/issues/2902) | Claimed |
 | [@sat3n](https://github.com/sat3n) | [M115030](https://github.com/rohanarun/alpoge-rh-replay/issues/2903) | Claimed |
 | [@sat3n](https://github.com/sat3n) | [M115134](https://github.com/rohanarun/alpoge-rh-replay/issues/2904) | Claimed |
 | [@sat3n](https://github.com/sat3n) | [M115213](https://github.com/rohanarun/alpoge-rh-replay/issues/2906) | Claimed |
@@ -254,3 +251,6 @@
 | [@emsi](https://github.com/emsi) | [P1689](https://github.com/rohanarun/alpoge-rh-replay/issues/3123) | Claimed |
 | [@SeriousRising](https://github.com/SeriousRising) | [P1871](https://github.com/rohanarun/alpoge-rh-replay/issues/3145) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M054717](https://github.com/rohanarun/alpoge-rh-replay/issues/3150) | Claimed |
+| [@WilmervH](https://github.com/WilmervH) | [P1563](https://github.com/rohanarun/alpoge-rh-replay/issues/3155) | Claimed |
+| [@dgahelper](https://github.com/dgahelper) | [P1598](https://github.com/rohanarun/alpoge-rh-replay/issues/3191) | Claimed |
+| [@emsi](https://github.com/emsi) | [P1768](https://github.com/rohanarun/alpoge-rh-replay/issues/3205) | Claimed |
