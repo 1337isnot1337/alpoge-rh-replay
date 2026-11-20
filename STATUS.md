@@ -1,6 +1,6 @@
 # Coordinator progress
 
-Updated 2026-11-20 21:49 UTC.
+Updated 2026-11-20 22:21 UTC.
 
 The full source build, axiom audit and fresh-kernel verification of RH are pending. Volunteers can claim work using the [contributor guide](CONTRIBUTING.md).
 
@@ -9,10 +9,12 @@ The full source build, axiom audit and fresh-kernel verification of RH are pendi
 | Wave | Observed progress |
 | --- | --- |
 | Completed Render wave | All 20 targets passed the primary reuse check, adding 2,312 modules. |
-| Current Render wave | All 20 helper bundles are ready and their backups passed checksum checks. The primary import is pending. |
+| Preserved Render wave | All 20 helper bundles were backed up. The original helpers were removed and the primary import is queued. |
+| Follow-up Render wave | All 20 helpers provisioned with public grants. 3 have verified archived bundles and 17 are compiling. |
 | First Google wave | All 100 workers completed. The imports passed digest checks, and Lake required source rebuilding. |
 | Separate 100-worker Google wave | 99 succeeded and one failed. The primary checked 98 bundles and is running the source builds Lake required. The final successful bundle has been checked separately. |
 | 500-task Google campaign | All 500 assigned tasks produced successful build transcripts. 471 succeeded on the first attempt and 29 needed a retry. Matching those transcripts against the exact assignment scopes gives 29,797 distinct compiled project modules across the workers. Primary imports are queued. |
+| Follow-up Google wave | 100 tasks submitted with public grants. Most recent Batch counts show 1 succeeded, 99 running. |
 
 The [module ledger](completed/README.md) reports accepted project coverage. The Google worker total above includes shared prerequisites and overlaps the ledger. The final proof still requires Main's end-to-end checks.
 
