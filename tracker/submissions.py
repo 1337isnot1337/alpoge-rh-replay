@@ -5,18 +5,41 @@ import os
 from pathlib import Path
 import re
 import subprocess
+import sys
+import time
 
 from claim_comments import COMMENT_FEED, comments_by_issue
 
 ROOT = Path(__file__).resolve().parents[1]
+ATTEMPTS = 4
+
+
+def rate_limit_delay(stderr, attempt):
+    """Seconds to wait before retrying a rate-limited gh call, or None for other failures."""
+    if 'rate limit' not in stderr.lower():
+        return None
+    try:
+        core = json.loads(subprocess.check_output(['gh', 'api', 'rate_limit'], text=True))['resources']['core']
+    except (subprocess.CalledProcessError, KeyError, TypeError, ValueError):
+        core = {}
+    if core.get('remaining') == 0 and core.get('reset'):
+        return max(1, int(core['reset']) - int(time.time()) + 1)
+    return 60 * 2 ** attempt
 
 
 def pages(repo, route):
-    output = subprocess.check_output(
-        ['gh', 'api', '--paginate', '--slurp', f'repos/{repo}/{route}'],
-        text=True,
-    )
-    for page in json.loads(output):
+    command = ['gh', 'api', '--paginate', '--slurp', f'repos/{repo}/{route}']
+    for attempt in range(ATTEMPTS):
+        result = subprocess.run(command, capture_output=True, text=True)
+        if result.returncode == 0:
+            break
+        delay = rate_limit_delay(result.stderr, attempt)
+        if delay is None or attempt == ATTEMPTS - 1:
+            sys.stderr.write(result.stderr)
+            raise subprocess.CalledProcessError(result.returncode, command, result.stdout, result.stderr)
+        print(f'GitHub rate limit while reading {route}. Retrying after {delay}s.', file=sys.stderr, flush=True)
+        time.sleep(delay)
+    for page in json.loads(result.stdout):
         yield from page
 
 

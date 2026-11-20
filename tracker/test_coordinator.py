@@ -1,4 +1,6 @@
 import io
+import json
+import subprocess
 import unittest
 from unittest.mock import patch
 from urllib.error import HTTPError
@@ -100,3 +102,35 @@ class CoordinatorTests(unittest.TestCase):
             with self.assertRaises(HTTPError):
                 grants.main()
             sleep.assert_not_called()
+
+    def test_credit_scan_waits_for_rate_limit_reset_but_other_failures_fail_immediately(self):
+        def gh(code, stdout='', stderr=''):
+            return subprocess.CompletedProcess([], code, stdout, stderr)
+
+        limited = gh(1, stderr='gh: API rate limit exceeded for installation. (HTTP 403)')
+        quota = json.dumps({'resources': {'core': {'remaining': 0, 'reset': 4600}}})
+        with patch.object(submissions.subprocess, 'run', side_effect=[limited, gh(0, '[[{"n": 1}], [{"n": 2}]]')]) as run, \
+                patch.object(submissions.subprocess, 'check_output', return_value=quota), \
+                patch('time.time', return_value=1000), patch('time.sleep') as sleep:
+            self.assertEqual(list(submissions.pages('r/p', 'issues?per_page=100')), [{'n': 1}, {'n': 2}])
+            sleep.assert_called_once_with(3601)
+            self.assertEqual(run.call_count, 2)
+
+        quota = json.dumps({'resources': {'core': {'remaining': 4000, 'reset': 4600}}})
+        with patch.object(submissions.subprocess, 'check_output', return_value=quota):
+            self.assertEqual(submissions.rate_limit_delay('You have exceeded a secondary rate limit', 1), 120)
+        self.assertIsNone(submissions.rate_limit_delay('gh: Not Found (HTTP 404)', 0))
+
+        with patch.object(submissions.subprocess, 'run', return_value=gh(1, stderr='gh: Not Found (HTTP 404)')), \
+                patch('time.sleep') as sleep, patch('sys.stderr', io.StringIO()):
+            with self.assertRaises(subprocess.CalledProcessError):
+                list(submissions.pages('r/p', 'issues?per_page=100'))
+            sleep.assert_not_called()
+
+        with patch.object(submissions.subprocess, 'run', return_value=limited) as run, \
+                patch.object(submissions.subprocess, 'check_output', side_effect=subprocess.CalledProcessError(1, [])), \
+                patch('time.sleep') as sleep, patch('sys.stderr', io.StringIO()):
+            with self.assertRaises(subprocess.CalledProcessError):
+                list(submissions.pages('r/p', 'issues?per_page=100'))
+            self.assertEqual(run.call_count, submissions.ATTEMPTS)
+            self.assertEqual([c.args[0] for c in sleep.call_args_list], [60, 120, 240])
