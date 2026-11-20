@@ -400,7 +400,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:24:30Z	grant	466	Amahane-Hikari
 2026-11-20T18:24:41Z	submission	465	Amahane-Hikari
 2026-11-20T18:24:50Z	grant	467	Amahane-Hikari
-2026-11-20T18:24:50Z	grant	467	Amahane-Hikari
 2026-11-20T18:24:51Z	grant	468	gabeldev
 2026-11-20T18:25:02Z	submission	440	BenCaunt
 2026-11-20T18:25:02Z	submission	466	Amahane-Hikari
@@ -408,11 +407,11 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:25:05Z	submission	436	BenCaunt
 2026-11-20T18:25:09Z	grant	469	shardmods
 2026-11-20T18:25:10Z	grant	470	shardmods
+2026-11-20T18:25:10Z	grant	470	shardmods
 2026-11-20T18:25:11Z	grant	471	shardmods
 2026-11-20T18:25:12Z	grant	472	Amahane-Hikari
 2026-11-20T18:25:13Z	grant	473	Paulee314
 2026-11-20T18:25:21Z	submission	452	BenCaunt
-2026-11-20T18:25:21Z	submission	467	Amahane-Hikari
 2026-11-20T18:25:21Z	submission	467	Amahane-Hikari
 2026-11-20T18:25:31Z	grant	474	jjjhenriksen
 2026-11-20T18:25:31Z	volunteer	474	jjjhenriksen
@@ -588,5 +587,16 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:37:16Z	submission	562	Amahane-Hikari
 2026-11-20T18:37:17Z	submission	561	Amahane-Hikari
 2026-11-20T18:37:33Z	grant	566	gabeldev
+2026-11-20T18:37:34Z	grant	567	Amahane-Hikari
 2026-11-20T18:37:35Z	submission	563	Amahane-Hikari
+2026-11-20T18:37:41Z	submission	565	hipotures
+2026-11-20T18:37:45Z	submission	564	Amahane-Hikari
 2026-11-20T18:37:49Z	submission	187	shardmods
+2026-11-20T18:37:53Z	grant	568	Amahane-Hikari
+2026-11-20T18:37:54Z	grant	570	Amahane-Hikari
+2026-11-20T18:37:55Z	grant	571	Wronskode
+2026-11-20T18:37:59Z	submission	566	gabeldev
+2026-11-20T18:38:01Z	submission	530	BenCaunt
+2026-11-20T18:38:04Z	submission	510	BenCaunt
+2026-11-20T18:38:08Z	submission	514	BenCaunt
+2026-11-20T18:38:14Z	submission	567	Amahane-Hikari
