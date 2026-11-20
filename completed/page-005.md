@@ -2,6 +2,26 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005804 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ProdAbsNormPowValuationTwoLeStatement` | wave-reused |
+| M005805 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ProdLeftEqMaps` | build-observed |
+| M005818 | P1194 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RationalHermitianRankOneLatticeSelfDual` | build-observed |
+| M005819 | P1218 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RationalHermitianRankOneLatticeSelfDualStatement` | build-observed |
+| M005828 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexHigherUnitsSuccLeCard` | wave-reused |
+| M005829 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexHigherUnitsSuccLeCardStatement` | wave-reused |
+| M005830 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexNormMulRelIndexSqsKer` | wave-reused |
+| M005831 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexNormMulRelIndexSqsKerStatement` | wave-reused |
+| M005832 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexOneUnitsMulEqCardQuotient` | wave-reused |
+| M005833 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexOneUnitsMulEqCardQuotientStatement` | wave-reused |
+| M005834 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexSquaresLeTwoMulOfSubgroup` | wave-reused |
+| M005835 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexSquaresLeTwoMulOfSubgroupStatement` | wave-reused |
+| M005836 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexSquaresSUnitsNumberField` | wave-reused |
+| M005837 | P0348 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexSquaresSUnitsNumberFieldStatement` | wave-reused |
+| M005840 | P0732 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitMemGlobalNormOfMemLocalNorms` | wave-reused |
+| M005841 | P0759 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitMemGlobalNormOfMemLocalNormsStatement` | wave-reused |
+| M005844 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsNumberFieldFg` | wave-reused |
+| M005845 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsNumberFieldFgStatement` | wave-reused |
+| M005846 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsPlacesOverAndQuadraticConj` | wave-reused |
+| M005847 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsPlacesOverAndQuadraticConjStatement` | wave-reused |
 | M005850 | P0550 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsSupUnitsLocalNormsSqrtNeTop` | wave-reused |
 | M005851 | P0583 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsSupUnitsLocalNormsSqrtNeTopStatement` | wave-reused |
 | M005852 | P0583 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsUnionSupLocalSquaresEqTop` | wave-reused |
@@ -261,6 +281,7 @@
 | M006195 | P0678 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CechLBPullIsoOfIsOpenImmersion` | wave-reused |
 | M006196 | P0394 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CechModulesFunctorShortExactOfAcyclic` | wave-reused |
 | M006197 | P0475 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CechModulesFunctorShortExactOfIsAffineOpen` | wave-reused |
+| M006199 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CoeConjEquivSymm` | volunteer-build-reviewed |
 | M006200 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CohomologyPresheafFunctorMapAppApply` | wave-reused |
 | M006201 | P1144 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CokerDualMapEquivResidueFieldOfOrigin` | wave-reused |
 | M006204 | P0678 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CstSmoothAndFlat` | wave-reused |
@@ -381,24 +402,3 @@
 | M006338 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MemSaturationOfPowSmulMem` | wave-reused |
 | M006339 | P0583 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MemSpanOfSaturatingOfLe` | wave-reused |
 | M006340 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MonomialCountAndBinomialEstimates` | wave-reused |
-| M006341 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MonomialMemReesAlgIff` | wave-reused |
-| M006343 | P1616 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MumfordBundleCechCohomologyFinrank` | wave-reused |
-| M006344 | P1643 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MumfordBundleCechCohomologyFinrankStatement` | wave-reused |
-| M006345 | P1531 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MumfordBundleCechFiniteVanishesOffOrigin` | wave-reused |
-| M006346 | P1559 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MumfordBundleCechFiniteVanishesOffOriginStatement` | wave-reused |
-| M006347 | P1473 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MumfordBundleFibreCechAcyclicOffOrigin` | wave-reused |
-| M006348 | P1502 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MumfordBundleFibreCechAcyclicOffOriginStatement` | wave-reused |
-| M006349 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.NatCardAlgHomEqFinrankOfIsReducedOfIsFractionRin` | wave-reused |
-| M006350 | P0296 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.NonemptyBaseChangeGrCubeIso` | wave-reused |
-| M006351 | P0436 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.NonemptyBasisPolyGrading` | wave-reused |
-| M006352 | P0296 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.NonemptyHomLocSingletonEquivQuotSMulTop` | wave-reused |
-| M006353 | P1299 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.NonemptyPerfectSectionsComplexOfNoetherian` | build-observed |
-| M006354 | P1324 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.NonemptyPerfectSectionsComplexOfNoetherianStatement` | build-observed |
-| M006355 | P1395 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.OneLeFinrankSecM` | wave-reused |
-| M006356 | P1420 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.OneLeFinrankSecMStatement` | wave-reused |
-| M006359 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.PredMulSumPadicValNatFactorialAddCardLe` | wave-reused |
-| M006360 | P0348 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.PresheafCubeExactAtSuccOfSurjective` | wave-reused |
-| M006361 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ProjectiveOfIsLocallyConstantFinrankFiber` | wave-reused |
-| M006362 | P0176 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.PushComparisonBijectiveOfIsClosedEmbedding` | wave-reused |
-| M006363 | P1372 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.RelAmpleNearFibreFlatProjective` | build-observed |
-| M006365 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.RelLengthSpanEqAddValDet` | wave-reused |

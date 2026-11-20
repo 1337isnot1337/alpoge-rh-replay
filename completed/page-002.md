@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001037 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarModularCharacterOfContinuousAction` | volunteer-build-reviewed |
+| M001038 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarModularCharacterOfContinuousActionStatement` | volunteer-build-reviewed |
+| M001041 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HarrisTaylorCardKilledByIdealEqAbsNormPow` | volunteer-build-reviewed |
+| M001042 | P0974 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianDiagonalizeOverReducedTensor` | build-observed |
+| M001043 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianFormDiagonalizesOverField` | volunteer-build-reviewed |
 | M001044 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianFormDiagonalizesOverFieldStatement` | volunteer-build-reviewed |
 | M001047 | P0515 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianLocalContinuousCongruenceSection` | build-observed |
 | M001048 | P0549 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianLocalContinuousCongruenceSectionStatement` | build-observed |
@@ -286,6 +291,7 @@
 | M002075 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.PositiveSignKForm` | volunteer-build-reviewed |
 | M002078 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.ProjectiveSpaceOverSpec` | wave-reused |
 | M002084 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.ThetaTowerRecognition` | volunteer-build-reviewed |
+| M002095 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.AdelicScalarMultiplier` | volunteer-build-reviewed |
 | M002097 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.BadPlacesGoodCoefficients` | build-observed |
 | M002100 | P0810 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.BlockEmbeddingFactors` | build-observed |
 | M002103 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.BracketAbsoluteSums` | volunteer-build-reviewed |
@@ -396,9 +402,3 @@
 | M002473 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.SelmerSumLargePrime` | volunteer-build-reviewed |
 | M002474 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.SemisimplificationConstituents` | volunteer-build-reviewed |
 | M002477 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.SplitPlaceTypes` | volunteer-build-reviewed |
-| M002478 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.SplitPlacesEmbeddingType` | volunteer-build-reviewed |
-| M002482 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.TwistedGLEmbedding` | volunteer-build-reviewed |
-| M002489 | P0515 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.CurvatureFamilyNorm` | wave-reused |
-| M002500 | P0549 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.SpanSubtraction` | wave-reused |
-| M002504 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.UnitriangularCharts` | wave-reused |
-| M002514 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.SiegelEisenstein.LocalOrderMatrix` | volunteer-build-reviewed |

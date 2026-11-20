@@ -101,8 +101,12 @@
 | M000249 | P1271 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilySetupCayleyMomentStatement` | build-observed |
 | M000250 | P1298 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilySetupCayleyRecursion` | build-observed |
 | M000251 | P1323 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilySetupCayleyRecursionStatement` | build-observed |
+| M000252 | P1394 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilySetupMomentClosure` | build-observed |
+| M000253 | P1419 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilySetupMomentClosureStatement` | build-observed |
 | M000254 | P1193 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilySetupMomentGrowth` | build-observed |
 | M000255 | P1217 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilySetupMomentGrowthStatement` | volunteer-build-reviewed |
+| M000256 | P1349 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilySetupMomentRecursion` | build-observed |
+| M000257 | P1372 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilySetupMomentRecursionStatement` | build-observed |
 | M000259 | P0974 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FrechetContinuousContinuousOnOrbitHasDerivAt` | build-observed |
 | M000260 | P1001 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FrechetContinuousContinuousOnOrbitHasDerivAtStatement` | build-observed |
 | M000261 | P0917 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FrepDiscreteSeriesSum` | build-observed |
@@ -114,6 +118,7 @@
 | M000267 | P1114 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.GapCoefficientDerivativeBound` | build-observed |
 | M000268 | P1143 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.GapCoefficientDerivativeBoundStatement` | build-observed |
 | M000269 | P0945 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.HaarEqSmul` | volunteer-build-reviewed |
+| M000270 | P1444 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.HsqNonneg` | build-observed |
 | M000272 | P0891 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.IsDSOfIsDG` | build-observed |
 | M000273 | P1143 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.IsometricBesselCompare` | build-observed |
 | M000274 | P1169 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.IsometricBesselCompareStatement` | build-observed |
@@ -397,8 +402,3 @@
 | M001034 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMeasureIwasawaDecompositionStatement` | volunteer-build-reviewed |
 | M001035 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMeasureProdOfAddGroups` | volunteer-build-reviewed |
 | M001036 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMeasureProdOfAddGroupsStatement` | volunteer-build-reviewed |
-| M001037 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarModularCharacterOfContinuousAction` | volunteer-build-reviewed |
-| M001038 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarModularCharacterOfContinuousActionStatement` | volunteer-build-reviewed |
-| M001041 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HarrisTaylorCardKilledByIdealEqAbsNormPow` | volunteer-build-reviewed |
-| M001042 | P0974 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianDiagonalizeOverReducedTensor` | build-observed |
-| M001043 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianFormDiagonalizesOverField` | volunteer-build-reviewed |
