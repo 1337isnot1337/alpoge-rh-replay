@@ -1,0 +1,999 @@
+{
+  "scope": "Selected shared prerequisites flagged as stale by the combined 99-target Lake no-build check.",
+  "method": "Two original archive streams were checked against their receipt SHA-256. The selected regular-file members of each archive were hashed without extraction.",
+  "source_digests": [
+    "1b0173b16382624e403e2439a78243566319ba052e26ddb869482d21b8834230",
+    "64bb0344e2583055c64b57f92bcfb2b12228721ff5ec551b15dd4bb64b643b72"
+  ],
+  "shared_stale_modules": [
+    "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms\u2082.ExistsUniqueHcharOfFiniteOrder",
+    "Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.CoprimeTwoPow",
+    "Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.DiscrB",
+    "Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.EqZeroOfNegEq",
+    "Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.Inertia",
+    "Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.MuCardLeTwo",
+    "Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.SplitK",
+    "Formalism.GradedWeylDivisibility.FockSpaceTableaux.BlockActTensor",
+    "Formalism.GradedWeylDivisibility.FockSpaceTableaux.LDbasisLemmas",
+    "Formalism.GradedWeylDivisibility.FockSpaceTableaux.LDlatLemmas",
+    "Formalism.GradedWeylDivisibility.FockSpaceTableaux.LDrowLemmas",
+    "Formalism.GradedWeylDivisibility.FockSpaceTableaux.NablaLTwMem",
+    "Formalism.GradedWeylDivisibility.FockSpaceTableaux.NablaLTwist",
+    "Formalism.GradedWeylDivisibility.FockSpaceTableaux.RowActMul",
+    "Formalism.GradedWeylDivisibility.FockSpaceTableaux.SSIdxFinite",
+    "Formalism.GradedWeylDivisibility.FockSpaceTableaux.TensorBasis",
+    "Formalism.HarderNarasimhan.DefsPl",
+    "Formalism.HarderNarasimhan.HarderNarasimhanProofs.DiscreteSpanOfLinIndep",
+    "Formalism.HarderNarasimhan.HarderNarasimhanProofs.SizeIneq",
+    "Formalism.HarderNarasimhan.HarderNarasimhanProofs.TwistFinrankEq",
+    "Formalism.HarderNarasimhan.StatementFrameF",
+    "Formalism.HermitianLattices.HermitianLatticesProofs.MajLattice",
+    "Formalism.HermitianLattices.HermitianLatticesProofs.OpBound",
+    "Formalism.LocalToGlobal.UnitaryNorms.RealCyclotomicTwoPower",
+    "Formalism.QuotientMetricDivisors.Statement",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.Actions",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.AfsplitA",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.AssocFin",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.AutomorphicFormsDecompositionHolds",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.DualWeylModuleStable",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.FiniteCosetsInDoset",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.GlintPrincRelIndexNeZero",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.HeckeActMem",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.Heckebasic",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.InclusionInjective",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.Ipindep",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.LinSubstIsHomogeneous",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.Nabladual",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.RationalPointsLeHolds",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.SignatureConjugationInvariant",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.SignatureExists",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.SplitUnitaryGroupIso",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.Stabfin",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.Stabstd",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.Transport",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.Upqcpt",
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.Wlocal",
+    "Formalism.SatakeDualWeyl.StatementB",
+    "Formalism.SatakeDualWeyl.StatementE",
+    "Formalism.SatakeDualWeyl.StatementF",
+    "Formalism.ThetaLiftIndependence.ThetaOrbitSums.ChainScalar",
+    "Formalism.ThetaLiftIndependence.ThetaOrbitSums.DetSwap",
+    "Formalism.ThetaLiftIndependence.ThetaOrbitSums.EigenSwap",
+    "Formalism.ThetaLiftIndependence.ThetaOrbitSums.FFPlancherel",
+    "Formalism.ThetaLiftIndependence.ThetaOrbitSums.GaussOp",
+    "Formalism.ThetaLiftIndependence.ThetaOrbitSums.LatLiftIndep",
+    "Formalism.ThetaLiftIndependence.ThetaOrbitSums.OrbitSum"
+  ],
+  "comparison": {
+    "lib/lean/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms\u2082/ExistsUniqueHcharOfFiniteOrder.ilean": [
+      "3e16e790712ad942d05c9fcc86c62fcb610c69c7d414efb3c289a4a9ac897003",
+      "3e16e790712ad942d05c9fcc86c62fcb610c69c7d414efb3c289a4a9ac897003"
+    ],
+    "lib/lean/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms\u2082/ExistsUniqueHcharOfFiniteOrder.olean": [
+      "c84d2cd3202299c4b208c9d27faac7cf8a199a4c8254a53c83c462cb4f724282",
+      "c84d2cd3202299c4b208c9d27faac7cf8a199a4c8254a53c83c462cb4f724282"
+    ],
+    "lib/lean/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms\u2082/ExistsUniqueHcharOfFiniteOrder.olean.hash": [
+      "af6ef06922ab7b51ce5395c6f6c205d9fd54a0d25255b7ad1b222c79d34bd862",
+      "af6ef06922ab7b51ce5395c6f6c205d9fd54a0d25255b7ad1b222c79d34bd862"
+    ],
+    "lib/lean/Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms\u2082/ExistsUniqueHcharOfFiniteOrder.trace": [
+      "33152f02cc5b1a96214a03308fe0eeaf52a32dc7d9588f066c24ee0c2c712a9f",
+      "956e885376977d840940e71687420efad202d051874e9b408381f51213609104"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/CoprimeTwoPow.ilean": [
+      "3c3bbd08088033fb5ffc8f74f443fa8ebc4b8ed3c8b6d99e1050165d2cf294af",
+      "3c3bbd08088033fb5ffc8f74f443fa8ebc4b8ed3c8b6d99e1050165d2cf294af"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/CoprimeTwoPow.olean": [
+      "920c6abe48fd476dd8e531469554b45d85857b6f3473183a069c6156dc249064",
+      "cfed2859742eddca764855c8791859c01430b896417d614f65df4df3d3a75026"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/CoprimeTwoPow.olean.hash": [
+      "2960b169b29f54c9b00c96160353be66c3943cea87a09c3563eab87618f72af4",
+      "3217e6bd30bdb12459149ad9951e8c797c3acf0a442ad3cc8d4055104fc9e9c1"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/CoprimeTwoPow.trace": [
+      "b74aa9b7331e4fe745f6a82b597fd5da02d12d91d851d1c846e56c45809c6f51",
+      "de55704aa40265ca597844ea216c56f88b02a656916b5d5acdde71a27580dc56"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/DiscrB.ilean": [
+      "5320ead2eb95febfd8267de5bcc93e89978b40d75933f5a9c9f238fc4dd7604a",
+      "5320ead2eb95febfd8267de5bcc93e89978b40d75933f5a9c9f238fc4dd7604a"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/DiscrB.olean": [
+      "4f3cf59847526f77c203fb4d090eecf8b362cd0a0175aa0c73dcc6585e8f422b",
+      "4f3cf59847526f77c203fb4d090eecf8b362cd0a0175aa0c73dcc6585e8f422b"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/DiscrB.olean.hash": [
+      "cc8036ecb24ad09e34c31fdad8ddae67856b20f40cbc026a028324b4e3299358",
+      "cc8036ecb24ad09e34c31fdad8ddae67856b20f40cbc026a028324b4e3299358"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/DiscrB.trace": [
+      "9a704cc525122f406f3c63e9d66a63ef34abdad9ee0747592df8d13dd37c50f9",
+      "0b969ed52044c4489d5977140d9039676c5a8fc83e64b2a75f87859c77eb9825"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/EqZeroOfNegEq.ilean": [
+      "72e2188c41e9da79e29c5103ea11ee6e8dc67107168a11337bf14c8412c07602",
+      "72e2188c41e9da79e29c5103ea11ee6e8dc67107168a11337bf14c8412c07602"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/EqZeroOfNegEq.olean": [
+      "91daee6502e86cb2aba9ac1d5071a36fa24cf7d14807e4159ea491c37efd9724",
+      "62952be7b5d5f19c50626e6b8e1858b0e361e632a9c65e1c97a06dd3393bf3e5"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/EqZeroOfNegEq.olean.hash": [
+      "09037ff78fe5f2135b0d683c6fdb7df91bac3f7b3819db72d9614738c5bc0369",
+      "032ba4b4f79ab0e14ab9b8261af91b97c962c43a2b215705b66cfe259f869d29"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/EqZeroOfNegEq.trace": [
+      "007afce37a95d7e34da46b245a037c62b550b5148a199d112ad3bfa34e9ad993",
+      "ab24d4493937da23130454ad50efc6f45765570dbe8854b8d0ccd675efda7f81"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/Inertia.ilean": [
+      "1da17a3de39e3234b910373a7e828981bd0c09690a537dab651a1a972ed43f1d",
+      "1da17a3de39e3234b910373a7e828981bd0c09690a537dab651a1a972ed43f1d"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/Inertia.olean": [
+      "fb587380c371ff9406ca9f4c9bf37105ece7940a22337754cfa8c4c96c3a3a9f",
+      "c5a9f5c86d76e11198babdc9d6580189b2a5499f9be3f05ecfe04c9217659193"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/Inertia.olean.hash": [
+      "2414acfdfec5bdd2f37bc0549e88866455e5c269259dee5d86e891e7fb9d62e1",
+      "867adfef8cdc605d37063f1238d541f5e904daec4662dfc49a4daddfdcf054f5"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/Inertia.trace": [
+      "9380bc0d723aeb9c65c628f01320c9a3176a030a2bf59a886b35e67b9d650047",
+      "e82c5b3b004101b9d8adf774eee2ba0050a684329b7d4327d843e1b0e70bf815"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/MuCardLeTwo.ilean": [
+      "9d6e73a105fce02df8cfefafe0ffb1e7318bbe8d361b53b53f17d8c3a4eb8cfe",
+      "9d6e73a105fce02df8cfefafe0ffb1e7318bbe8d361b53b53f17d8c3a4eb8cfe"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/MuCardLeTwo.olean": [
+      "144fdc354466e90a7f22f706b4d5f1709ec5af7f09a36413ed4c6e1dfb214b73",
+      "896412783da3deffbb669a0b3c6cd856ecf384c309408f594b03650508151004"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/MuCardLeTwo.olean.hash": [
+      "689f5562ee6660cad2c98c7d69dcaed868d5f602332b71e40b213a22247bb4af",
+      "43f39b85ef8277223ec882ef1453ca75417d5cf556066891c4946981355e456f"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/MuCardLeTwo.trace": [
+      "0f9a5fefce5ece25618a3c7eda6dd954eefbf656d218fc5ec91424bcddc68c04",
+      "8be04ba247a347cad9fe9b48be1615bfe336d62033704f13624d72d9ca55856a"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/SplitK.ilean": [
+      "dc7e0ed0e96a514f240c734a71eac2a3f513a146c5274a545e2db4dd5ef431d0",
+      "dc7e0ed0e96a514f240c734a71eac2a3f513a146c5274a545e2db4dd5ef431d0"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/SplitK.olean": [
+      "e6dbcd9f0d0a7b12f17b5867a40f5876ed0f52e36ae0aeb49de0874d1a1f6168",
+      "965ec72e730fae643eb527f3dcc6581a41d8c12dcb406e79a78553ec93817787"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/SplitK.olean.hash": [
+      "4a998c4f2d0e7a55ba6db524c2a6776389fad9dec1a02309d4b733d1661ce6e8",
+      "d41003f4ef59bf0b4ccffa2776680d09031e6298efb459ce38d24814f5014e25"
+    ],
+    "lib/lean/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/SplitK.trace": [
+      "f31ca095c93f1374eafccfe933e1aa7500c14153585e7728aa66480a230de61b",
+      "e97c9e931668d97dd7e746642c46fe9648698c7089e127388b31513a70c1210e"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/BlockActTensor.ilean": [
+      "1420f44539b170616aa35d46720f4656c37b1702ed481261581b659c7d039e76",
+      "1420f44539b170616aa35d46720f4656c37b1702ed481261581b659c7d039e76"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/BlockActTensor.olean": [
+      "6395a680ba8037a9216a2dd1e2f0f76cf5a4c031e1be8eadbe4a61c2ca940682",
+      "982de607d668b7e3ed46dd1ab76b9c458ce0f30941e17480809afc8f5b7a7e88"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/BlockActTensor.olean.hash": [
+      "c119b0ab38c2244e946c1cb25a2ac1a34411023c852a92ed5ed511b43d2f8cbb",
+      "388c174979578f91faca46e25ed0b60694e6a727a4ab5a65c6a40e62565d3225"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/BlockActTensor.trace": [
+      "315740743eb44287eea22ae03241126b867b30efdf83614f4dad48e0ed240f62",
+      "fc48482cbed5267b5e2a068f95d1222946f477a7a4194d6d8f3c6f846e768ced"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LDbasisLemmas.ilean": [
+      "0eb5156d621c3c66bca3d2816d81f9fd2e87148a8f29a13ba5d12f98feaf14b8",
+      "0eb5156d621c3c66bca3d2816d81f9fd2e87148a8f29a13ba5d12f98feaf14b8"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LDbasisLemmas.olean": [
+      "4e58dbc77619a75aabfb4fde955214de8cab9c169c13364803b82e100b8f3e1e",
+      "4e58dbc77619a75aabfb4fde955214de8cab9c169c13364803b82e100b8f3e1e"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LDbasisLemmas.olean.hash": [
+      "85b679b61dc7f6ab594fe181f1057c76783e08487639a194b217b5c4abca0215",
+      "85b679b61dc7f6ab594fe181f1057c76783e08487639a194b217b5c4abca0215"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LDbasisLemmas.trace": [
+      "034674534745b841d75fd92b8f78b315f352447da5aa3413b34c0cc03d7d47db",
+      "46bb5eb1242771d5c468c764b4500cad808e0927e01f39a312ce8b15594b509e"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LDlatLemmas.ilean": [
+      "e9aaa40f39ebfb4d67d03e7039e7a849ae41c1a84d8e40fd3237e6e71c0594d2",
+      "e9aaa40f39ebfb4d67d03e7039e7a849ae41c1a84d8e40fd3237e6e71c0594d2"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LDlatLemmas.olean": [
+      "444b80522eb0b41ee8bb006737dd7eb9e125472e220ca78f61a4a023fc67cc8e",
+      "9e94237ce25d41e98eed32b96f15b028151f9110a4ac6e8bff9a655a308d7d02"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LDlatLemmas.olean.hash": [
+      "17b53651929c5784ec7f677adc87aa8a8d09e17e44ceb3020086122ff58e5e9c",
+      "83f95ca1c5a3ede2337383ca8f4792a046cdaedea6aad537e8683192021e2dc4"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LDlatLemmas.trace": [
+      "7be16c49c0d8c99547b750771942f5fb1d86f9582035b588b8c477590c47a9f9",
+      "2cdee6caa8da2925a50692d15812cb7fb356a016750392d083566ecccde7b9e2"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LDrowLemmas.ilean": [
+      "76a4bc5c02a8a44a0d84f9047a74d88fd45a46bbd13fdc960dea27d54c6b2e47",
+      "76a4bc5c02a8a44a0d84f9047a74d88fd45a46bbd13fdc960dea27d54c6b2e47"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LDrowLemmas.olean": [
+      "91854567708c9a4f15338d006d7bcb4db3745442266a4867c4de66ea57e39cb1",
+      "802378570605826625e311dad9d150dbf3812367a87143115748305c609708e9"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LDrowLemmas.olean.hash": [
+      "7b8641d14e605797693661d1638fc68d74331d5a0ff60a0bcfeb4bca384f01dc",
+      "284b328f3076e46c2ca5055cde07ee4cd71f972d62027276362c7af48f8f66b8"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/LDrowLemmas.trace": [
+      "f5118d9b621a70331b379892ba4951051097f52a25a308163c979beed79b02f4",
+      "a7dc6c0c1117e3b76d7230b61f2f8df9b40ffffc33cc2162ae4db37b7e467bb6"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/NablaLTwMem.ilean": [
+      "2f09eb2cf83bd1e3646da9ae40e3e411220d065017948376cb58f538895fe275",
+      "2f09eb2cf83bd1e3646da9ae40e3e411220d065017948376cb58f538895fe275"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/NablaLTwMem.olean": [
+      "4a988c1f4aa1f4fc869ff277e4a2da93734734fc1999583d375201353eeda92c",
+      "4a988c1f4aa1f4fc869ff277e4a2da93734734fc1999583d375201353eeda92c"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/NablaLTwMem.olean.hash": [
+      "c78ce3fdda185df5ebcaade5d580f7f974d5bbf12a99215b2064cc131c247166",
+      "c78ce3fdda185df5ebcaade5d580f7f974d5bbf12a99215b2064cc131c247166"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/NablaLTwMem.trace": [
+      "ea9f1318d971217449d026041272269916114c11dce1568b17ca2510fb682ed4",
+      "5440d1c33f35aeca6ac668d142dac7a46c493ac6c10922aeb669dff86961a5af"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/NablaLTwist.ilean": [
+      "fd253efeb09a6977414eb73db57879288ee6004f1256fb9cbf9fc26f5d837b28",
+      "fd253efeb09a6977414eb73db57879288ee6004f1256fb9cbf9fc26f5d837b28"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/NablaLTwist.olean": [
+      "e1035f5913b04fb18ab3c47df1f91766d9678ec03eb8a0ca26dc453bf536fe6d",
+      "e1035f5913b04fb18ab3c47df1f91766d9678ec03eb8a0ca26dc453bf536fe6d"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/NablaLTwist.olean.hash": [
+      "ae8dc9f5083736793849deeb57b8453f70f2e3056cd372ad0079c5c6d3f8ba7f",
+      "ae8dc9f5083736793849deeb57b8453f70f2e3056cd372ad0079c5c6d3f8ba7f"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/NablaLTwist.trace": [
+      "d5337410927b70c2ebfec76939c24c6f0d55a0e10225120e89fafa834a4f4c18",
+      "e6504c5d17c9ff0aa156e76ac1cfda0903b9545c1652e57d5fb428150a1941ca"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/RowActMul.ilean": [
+      "14196c4aee63cfd1e87c25f0584be95e3de27778e7dbd936baf0488576b36333",
+      "14196c4aee63cfd1e87c25f0584be95e3de27778e7dbd936baf0488576b36333"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/RowActMul.olean": [
+      "037d48184176401e4efbdd80a2040c86532136857009ab399748e17093d2e21a",
+      "037d48184176401e4efbdd80a2040c86532136857009ab399748e17093d2e21a"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/RowActMul.olean.hash": [
+      "b237c0016a3caf3ec3d9d68275b89e1d02d4b8dfb455a270224704911ff2665d",
+      "b237c0016a3caf3ec3d9d68275b89e1d02d4b8dfb455a270224704911ff2665d"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/RowActMul.trace": [
+      "4a182673ee42ff45a9b097a9c54efb7435ee05f8bd7574f0f4612815a154c8da",
+      "1e7a8f62698b74ef2e491c6a808f9a87a0e0922bfbf5978efe08425cad6ec228"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/SSIdxFinite.ilean": [
+      "66c65545140bc78cb0753d77ebafde2477cf45c215438257cd43315d1375b635",
+      "66c65545140bc78cb0753d77ebafde2477cf45c215438257cd43315d1375b635"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/SSIdxFinite.olean": [
+      "e4743e68bf6a728a9b18d7013f5c55de8b061201717d4c1796a47b1b3aa1e6a6",
+      "e4743e68bf6a728a9b18d7013f5c55de8b061201717d4c1796a47b1b3aa1e6a6"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/SSIdxFinite.olean.hash": [
+      "12049227f0d6be30192fbb74893cbaa5dc59ab295cb204c27c6f45e63e499ce0",
+      "12049227f0d6be30192fbb74893cbaa5dc59ab295cb204c27c6f45e63e499ce0"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/SSIdxFinite.trace": [
+      "ac112c84e0c38af543c7c297fd5e02613cec3761379a2ef98881002e94727435",
+      "849d2fc59ce9e4836999da967e8bf67e6c7e63519daf7124f2807a5cbe2970e1"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/TensorBasis.ilean": [
+      "f039ff0516b31a8c5c248b57e11b310b37f009db1861fe3ca2da860ca593092d",
+      "f039ff0516b31a8c5c248b57e11b310b37f009db1861fe3ca2da860ca593092d"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/TensorBasis.olean": [
+      "896b32fbe288e88e48fc057d2a46e6c22f58b3e240fcb3c5f92908a4c29a2df3",
+      "98836a8e027edd1cd6b26ddb3f451607a7e1b69c6c557782c6ab2409d8a9a510"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/TensorBasis.olean.hash": [
+      "b52a48aa5bbf6ba8dd8cfc76d9aaf025b76ef9bfd28afe2e9b0124366e5e23b6",
+      "945cc2fc78d694a9f4b2cd0b548ef8fd43c126d1d00b1a271b151ab175edb349"
+    ],
+    "lib/lean/Formalism/GradedWeylDivisibility/FockSpaceTableaux/TensorBasis.trace": [
+      "d63d7c97725653ec3d2bf9ec8751844f52076f2917018673ebf52e0b5ca48075",
+      "6b36090d32dd5df4403f06495baf40220dbdcc23dd36699ac3fe26628e757e21"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/DefsPl.ilean": [
+      "9c1ae0847b1056f979c1c7ad2977a8768597e9c05218676525b51eb8800e654c",
+      "9c1ae0847b1056f979c1c7ad2977a8768597e9c05218676525b51eb8800e654c"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/DefsPl.olean": [
+      "ec7a57abba2372326ba01e590a2e0c929538b97b53cfc4de0a30406027c5ca51",
+      "ec7a57abba2372326ba01e590a2e0c929538b97b53cfc4de0a30406027c5ca51"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/DefsPl.olean.hash": [
+      "0353e8d5f12c93979778eeebe2854eaa60afe640557f52047656a6d5bed595f6",
+      "0353e8d5f12c93979778eeebe2854eaa60afe640557f52047656a6d5bed595f6"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/DefsPl.trace": [
+      "5b1d5018f51306ba54a4d006e200ee039e39fff5a976624ece7f930aefbee5a4",
+      "435345933cd0206bed0de92d11352f2f596ef9d1a0f8d2f3048f852f7eb78c4e"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/HarderNarasimhanProofs/DiscreteSpanOfLinIndep.ilean": [
+      "be4588863e907766b40472794ac3e1fd4013877f613446bdff57b4100e1afe51",
+      "be4588863e907766b40472794ac3e1fd4013877f613446bdff57b4100e1afe51"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/HarderNarasimhanProofs/DiscreteSpanOfLinIndep.olean": [
+      "84c5fff1fe27008ebc47efcd44a377f546d28285cf042d175ac50797bc62bb28",
+      "5f9e95e72d52e2ece567c3add7c7f2ae9199646ffa76e523b42c0a8faf0e40e1"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/HarderNarasimhanProofs/DiscreteSpanOfLinIndep.olean.hash": [
+      "103364fda68d96d278743921f3a09d00ff5469f639f1a6bc5cc9b52864285979",
+      "74de7426b63c6e350fd2c93cba3aed3c363ba54cdef023c953db27257ddce7cc"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/HarderNarasimhanProofs/DiscreteSpanOfLinIndep.trace": [
+      "9f9a383ef867be96de3dd271351bc48d05b88dfd783ee7ea7bfa274b17a80bfa",
+      "a7c5efbb2c5fd0b23dba33bb2c8e6af66fe5e31291be97f2ccaeb44a30db4e42"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/HarderNarasimhanProofs/SizeIneq.ilean": [
+      "1d33830ed26df85508f227e34040c40fded63e2a6f18ac49c18600f114916309",
+      "1d33830ed26df85508f227e34040c40fded63e2a6f18ac49c18600f114916309"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/HarderNarasimhanProofs/SizeIneq.olean": [
+      "217867e1cc10a1bbce06071a49f791bcc7c29f498de356691b583a6b1d8710b8",
+      "7f54cd8673200f1b35f11102aa3858731306d99657a61b7cb3d9e87c7c2267a4"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/HarderNarasimhanProofs/SizeIneq.olean.hash": [
+      "7acc8377bb9a1747b046dc631a3c90b51a794a66fc0abcf21828e2450dd2be25",
+      "9f28098154e7f93f559876f9e788fdbbdb268d3c2c1cfb1f1900085bf0733dcf"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/HarderNarasimhanProofs/SizeIneq.trace": [
+      "ba90f16ca06e86876260560924a420dc35394fc2d755e1733c96615c01eb5ff3",
+      "5a2ea3225aba68768528b9102f47425791b7de2c90dafbff70f03f8007b5252d"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/HarderNarasimhanProofs/TwistFinrankEq.ilean": [
+      "1204aafb0806a2e5fefd8ad90e8226e0ae6f551dd2d94d96a09278ee1a46278f",
+      "1204aafb0806a2e5fefd8ad90e8226e0ae6f551dd2d94d96a09278ee1a46278f"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/HarderNarasimhanProofs/TwistFinrankEq.olean": [
+      "ee7a52cd815a22430f708998dd1cf1be1356c925b3b1167589aa24de5bb957b6",
+      "a7c3f3823747a8b5631b2ce5019987b093d47e5120f627db96c81614e69aefb1"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/HarderNarasimhanProofs/TwistFinrankEq.olean.hash": [
+      "c50c7cb9e343e8f96643740cdc9a48bb3e1dbb236674c2dafbd7d35ee7644157",
+      "0cc0c13419dec2dd3f8743a7ca8f3b51390f97d27e2dea818c86f4a3b5038369"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/HarderNarasimhanProofs/TwistFinrankEq.trace": [
+      "3994062617987c87a6100ce3459077c22dab26cf9587018659a729b183d6f2d2",
+      "a42a18f0a353dc522d265b48c31519ec96cd286936330d261850c1613f2c68a9"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/StatementFrameF.ilean": [
+      "886a9d09bdd35993399e1b68b9ca70bcce528394298cec0d031a2b47be44b1e8",
+      "886a9d09bdd35993399e1b68b9ca70bcce528394298cec0d031a2b47be44b1e8"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/StatementFrameF.olean": [
+      "664bc2d768e7d4662ce3127b8f4bd884ce9f8fe26e5762b1b6d0e538c8cf0e4c",
+      "664bc2d768e7d4662ce3127b8f4bd884ce9f8fe26e5762b1b6d0e538c8cf0e4c"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/StatementFrameF.olean.hash": [
+      "706842cbde965f8562afa554b4ee75f7f112bc34e197d7bcea43879da9fd72d0",
+      "706842cbde965f8562afa554b4ee75f7f112bc34e197d7bcea43879da9fd72d0"
+    ],
+    "lib/lean/Formalism/HarderNarasimhan/StatementFrameF.trace": [
+      "8a4ee1c6398c2f67399b91dbbc16b201c162424e568b171b382886f5f7e8e9c9",
+      "f51e79d479a1c0e1a0f62089fdeaec355afb3ecc4482dabb7b8a6fa9f50d2428"
+    ],
+    "lib/lean/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.ilean": [
+      "8f71589f6d302779f3d30b51b74013efb599e12d294f00814ed6ac0b06de347a",
+      "8f71589f6d302779f3d30b51b74013efb599e12d294f00814ed6ac0b06de347a"
+    ],
+    "lib/lean/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.olean": [
+      "421c4f8493496b8bce5dc618dbc5260c3edf224e01ce41b6b0bdfc063e458b77",
+      "282f2aa80e3a6241f9228cc03a4d6c0806d85152209c84b388e4523ae0bec19b"
+    ],
+    "lib/lean/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.olean.hash": [
+      "8f359c88078aaee85a379693d0473240bbd1d071cd4e89f4a30b31f43e757ed3",
+      "14ec4f5ca2b15bcfeac247440ac8928b084a90ca00cacecc53908c8e71139b79"
+    ],
+    "lib/lean/Formalism/HermitianLattices/HermitianLatticesProofs/MajLattice.trace": [
+      "3071d42867048da47d17dcc2d558ce2ca0ad7cec3ff46b4dde35211464573f3e",
+      "ca17002459149bef21ffd5a94cbb4b196a65a3df49810631809dfbcd4ae97e38"
+    ],
+    "lib/lean/Formalism/HermitianLattices/HermitianLatticesProofs/OpBound.ilean": [
+      "6ee106be0efd8c4f07b3fb3c8b1bf7c9a92ecaeab637977686f4a4d16d4b79e5",
+      "6ee106be0efd8c4f07b3fb3c8b1bf7c9a92ecaeab637977686f4a4d16d4b79e5"
+    ],
+    "lib/lean/Formalism/HermitianLattices/HermitianLatticesProofs/OpBound.olean": [
+      "e60c39f54cd5ec0c72ba83c203cde1c70466a3e07030a00d84baac702eb16d24",
+      "5e15b9f43a3d4a8dc0793914d59c4608fb45bbbdc7bd30a0c3f6ce6e62866274"
+    ],
+    "lib/lean/Formalism/HermitianLattices/HermitianLatticesProofs/OpBound.olean.hash": [
+      "61647337d686161e5776453424fb016dc760eada36fe04f41766686993dd4b8c",
+      "3ecae6f94f2be406011d8d4f30a6a99e26f7d6887748d22d0ffb8970a4066536"
+    ],
+    "lib/lean/Formalism/HermitianLattices/HermitianLatticesProofs/OpBound.trace": [
+      "6655c6862bae250e9a26ea524d44b2c78fa416366ee45edb5764b35890f17b4d",
+      "73e4ab2e7c65a7eb3b50e45e281c3bb4319e60534211f151b408cfd180894a2f"
+    ],
+    "lib/lean/Formalism/LocalToGlobal/UnitaryNorms/RealCyclotomicTwoPower.ilean": [
+      "19d88db8cb267a1c643ac412d9e485c8c01c2f1077dcf5d816855423724d5ff7",
+      "19d88db8cb267a1c643ac412d9e485c8c01c2f1077dcf5d816855423724d5ff7"
+    ],
+    "lib/lean/Formalism/LocalToGlobal/UnitaryNorms/RealCyclotomicTwoPower.olean": [
+      "e00a7027e592843ee5bdccaabd78ac4fa17addce3342923b7764b5f31b3ba9f1",
+      "e00a7027e592843ee5bdccaabd78ac4fa17addce3342923b7764b5f31b3ba9f1"
+    ],
+    "lib/lean/Formalism/LocalToGlobal/UnitaryNorms/RealCyclotomicTwoPower.olean.hash": [
+      "258de672014323740de361199d56035a846c847067930bfdf22aef766191ebbb",
+      "258de672014323740de361199d56035a846c847067930bfdf22aef766191ebbb"
+    ],
+    "lib/lean/Formalism/LocalToGlobal/UnitaryNorms/RealCyclotomicTwoPower.trace": [
+      "b4269382dac5547e0901e8fb01384d48d655741004dc7918dfd32bb610be6d45",
+      "116205d64e8a767de9478dc4457de317faeb170467e39d022e84dc4d55bf0f1d"
+    ],
+    "lib/lean/Formalism/QuotientMetricDivisors/Statement.ilean": [
+      "ec01ac00d7980e1e56c3b3f8d6faafecdbccc03c2cd8a7c65361b1c4f038e764",
+      "ec01ac00d7980e1e56c3b3f8d6faafecdbccc03c2cd8a7c65361b1c4f038e764"
+    ],
+    "lib/lean/Formalism/QuotientMetricDivisors/Statement.olean": [
+      "8bc8aea2c20a5a360da3cbe3f0ca26e41b18e05bf5be87df26e00bcddaf97da5",
+      "8bc8aea2c20a5a360da3cbe3f0ca26e41b18e05bf5be87df26e00bcddaf97da5"
+    ],
+    "lib/lean/Formalism/QuotientMetricDivisors/Statement.olean.hash": [
+      "10f9359dbc9825d214f63682869765c99ec18aadc2d319969ebda31358669852",
+      "10f9359dbc9825d214f63682869765c99ec18aadc2d319969ebda31358669852"
+    ],
+    "lib/lean/Formalism/QuotientMetricDivisors/Statement.trace": [
+      "e48247f8de5546c168ed9be7419c2a2f697006e7135c6df1e0ce3c0229e3dd1f",
+      "df76168cf96f12b07a17310202669f71bdf972a96d4d8fc620dda828b9198e48"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Actions.ilean": [
+      "2c9e09be05385bdbb2acb115d276af670ffd15b919d5f23c00148210bd538fb9",
+      "2c9e09be05385bdbb2acb115d276af670ffd15b919d5f23c00148210bd538fb9"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Actions.olean": [
+      "da035b0d168051836330be1a0c2081565f1239fcebb6bd797675f5270d1833b4",
+      "da035b0d168051836330be1a0c2081565f1239fcebb6bd797675f5270d1833b4"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Actions.olean.hash": [
+      "b0ec34d3cda46c8c742219ee418d4af6799d06b10e7c5d7f25716e8b4e6fff2a",
+      "b0ec34d3cda46c8c742219ee418d4af6799d06b10e7c5d7f25716e8b4e6fff2a"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Actions.trace": [
+      "db4db2750e312ae50108df81fbe08f625a8ed90bfb2880e99b697d326ef944dc",
+      "57bba94b31486f22b5c7199f1b9c03353abcd43e64f728f135dd2c0cc708c126"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/AfsplitA.ilean": [
+      "a85504a19859239e102a796a90b580f533b79bb51b7256dbdb7d804642367fb4",
+      "a85504a19859239e102a796a90b580f533b79bb51b7256dbdb7d804642367fb4"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/AfsplitA.olean": [
+      "edaedef8202b68d260303deb740a0b0c447ee6ab5a81afc69f893df6a713b91c",
+      "edaedef8202b68d260303deb740a0b0c447ee6ab5a81afc69f893df6a713b91c"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/AfsplitA.olean.hash": [
+      "071719968d979ebbfb51f8cada7a3a1466cdd281c1faee990de1e946765e557c",
+      "071719968d979ebbfb51f8cada7a3a1466cdd281c1faee990de1e946765e557c"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/AfsplitA.trace": [
+      "0e65f804c59189cafba3d6fd7db7f3f8d1e992652aa5cc001adaa94636636443",
+      "1e8f8b1141b9e7d7a4dd9dab393fd37b57e803c5dd93e66e09a5f73fe2167ba6"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/AssocFin.ilean": [
+      "daa6b32558eebec24b804cab942ba2f18edbe40670685191bc9c8ff5c1ce9157",
+      "daa6b32558eebec24b804cab942ba2f18edbe40670685191bc9c8ff5c1ce9157"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/AssocFin.olean": [
+      "fdaa53ec6b3cd5a700c69185b0ee89e89df5d94e827f01df46c0caeedb54548c",
+      "46f3d2138ac20e26f40a78d6c106592f5c4b0d484cffc26b523328bb41e87b96"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/AssocFin.olean.hash": [
+      "0d04c84f0352f2350f2edb489cb6e7bd11cd91b908caf7dd8a9d9b7b7f8ee499",
+      "33e65ac38bf8d705805165bbe012184d02924f83bb5c8c1df070906c34e1ad7b"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/AssocFin.trace": [
+      "3d287c885d28664f2b085a2f03df2a00a0c85a691107af8ccffa29fc5310d7a1",
+      "f4d10d341025841404e933c84a03655b2c18dfb15597acd9acfaca64edc8e771"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/AutomorphicFormsDecompositionHolds.ilean": [
+      "91df867e991059fd39bdbe734b6b22029ac62ec9cc8d35d780abe3941e87bd25",
+      "91df867e991059fd39bdbe734b6b22029ac62ec9cc8d35d780abe3941e87bd25"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/AutomorphicFormsDecompositionHolds.olean": [
+      "cc65c77d845cc5de15a0858a3325c0e176adb319cdff9d62c25ee8f7d23407fe",
+      "cc65c77d845cc5de15a0858a3325c0e176adb319cdff9d62c25ee8f7d23407fe"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/AutomorphicFormsDecompositionHolds.olean.hash": [
+      "843e30001f9ab493c3be6492b6a01361ce3707370579067780eeab6f1d66a491",
+      "843e30001f9ab493c3be6492b6a01361ce3707370579067780eeab6f1d66a491"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/AutomorphicFormsDecompositionHolds.trace": [
+      "7e3a422b1d5f481187d20bea35e11511b13a7226b2288f301e7924de26055f63",
+      "bdd9244cb81f6e91c852500d904bfd12e519fa18977e900dddc236a738836381"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/DualWeylModuleStable.ilean": [
+      "d22bf2ef72f952420a19aebae34cc788bf68c8daf0cfb88746fd9d36235b3864",
+      "d22bf2ef72f952420a19aebae34cc788bf68c8daf0cfb88746fd9d36235b3864"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/DualWeylModuleStable.olean": [
+      "23449f7bdfa853b0a6d5d16c0fa8d42e7d3f3344cb20852ab707a421532ace78",
+      "6c1c89ce6b87a2ac295b6858e1d8b3d4c4c9cdade9533494ff7c5c8a3ad52498"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/DualWeylModuleStable.olean.hash": [
+      "9f173a3bd4c6ca3eaa37ceba58edd13b35869a5e32dba8b3cc92c60d6c2737c2",
+      "513bc333d7b42106d3788da7a6bbee803cea223b7a88765a5573b87941e80840"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/DualWeylModuleStable.trace": [
+      "f5df7ecf9df492408dbde49e1120f568c473c310bb7f30fe90e0c1453d9bb383",
+      "e14eefebc19a8e95df11653628cb24e092f33584e92e46863bac88eb37bbcd16"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/FiniteCosetsInDoset.ilean": [
+      "3164501470ef1974eeb719326fb2ef36bae0787bc9433736bce4ea6b057f075b",
+      "3164501470ef1974eeb719326fb2ef36bae0787bc9433736bce4ea6b057f075b"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/FiniteCosetsInDoset.olean": [
+      "78ec20dfd3049cd39d5a99449507f4b2e6e02f2831801bdc3a62ac83f7e16261",
+      "8f700f1371c93135124350856f31c93d909273b20a7582a1acabcc0e6d15309a"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/FiniteCosetsInDoset.olean.hash": [
+      "788a4794eea86c6529a9a6f689dd0d58a9d96cbd20e2cabd63533e9cd4907dc2",
+      "7d580dcd6a789374e070b0213ad89a0cbfeb8b4aefc63fc64d6cab2556ae11a9"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/FiniteCosetsInDoset.trace": [
+      "df98fbe715389e9fd1089d738b43402d3eea7c13bbc46a885c6209742da57391",
+      "ca37e0925c8eb76f61cb275ff1ae6b2c06ec3b951f6b326cf79cf5bee55b826d"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/GlintPrincRelIndexNeZero.ilean": [
+      "64a04b514740ceb88dde8986072af716a040d12a0a139ae9786d86fd8e6682aa",
+      "64a04b514740ceb88dde8986072af716a040d12a0a139ae9786d86fd8e6682aa"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/GlintPrincRelIndexNeZero.olean": [
+      "956274296c9d32ce08452882a20c28d8d50f19e337706e14ad0abffcec79c729",
+      "a5d556647a6e7e0d5d82343d98ce139ec4da621724053e0403577f89ec81a6e3"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/GlintPrincRelIndexNeZero.olean.hash": [
+      "70d5afa604dddfba8ee8f5afac6b1b2669830f01e4a99d4f098845f8b7d2310b",
+      "43bb800b577cebc47cbafd775b266ffb236ee9c144040a8b59c1bb0b52309294"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/GlintPrincRelIndexNeZero.trace": [
+      "cacc37ce24f3c2b3c91c351893ee0426e0a66c533dcd2bac6edd1bc2036c1b0a",
+      "41ef0e71abf0e0cf677f4d718eeb680040dad8334ec644bfc630814d3ad9c13f"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/HeckeActMem.ilean": [
+      "93d271366fd98ba927c91fcf7dea030c1563f63b71fc38536cf8f69918a1e90e",
+      "93d271366fd98ba927c91fcf7dea030c1563f63b71fc38536cf8f69918a1e90e"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/HeckeActMem.olean": [
+      "bc7b8c92a9030763910993791f63045ff2fc04d8f0c03938ee45c227144d5b09",
+      "9b333a1d40b2bb9d8315f170a7b1be94ebdebca93a253d5b2c4acd71a0e18775"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/HeckeActMem.olean.hash": [
+      "cd5cd46d66fe1b2c790b060e6cc954fdfe7c09a4fab3dd6db6deb3712e79b6a9",
+      "eb22e7ee27ef9b7cc1e7683b6c9b947c979024de22bcfd6aec2435122c792cc2"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/HeckeActMem.trace": [
+      "7fbc75e2fc9c6e30c5cf6be84a42b25323c2ebff32e4441280a9ecc1c07fcd13",
+      "5432ce6fbfc08cc3090f32fdfd8bac979cb8d611754a99b691bb3725d495d283"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Heckebasic.ilean": [
+      "57d24954d5640700b28e7bbf909df5029094c1a0b80af5ea55ef0fc4064e75f3",
+      "57d24954d5640700b28e7bbf909df5029094c1a0b80af5ea55ef0fc4064e75f3"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Heckebasic.olean": [
+      "ae6c202666014ce21aec181190768f60d89f435188ad87f5044b223232c2bc09",
+      "0f4768406bc29ce69a145cf20cc2f604c2053ca841f5eac5b7f6b463ab360c4c"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Heckebasic.olean.hash": [
+      "53dd782ab4ed0bcb8143b5c522de8000b546f2b9b86faf26f7f2a859c905f55c",
+      "8852913c80d0882f5b8c7d30485007c54c85ee93dd0f390f3a5a7b75a77f9813"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Heckebasic.trace": [
+      "375934340c08736cad806306de37f7d34daf5a069cd5ae1bec70050d563d2c5e",
+      "ca902bbd948dadaeed4d118bf0dd2001bbb31921f25966bd436d44b74ddc99a5"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/InclusionInjective.ilean": [
+      "6fda5a152bd5b18adf35dc60543b42f4bd31c936148c1f22a930496c9bbe7f99",
+      "6fda5a152bd5b18adf35dc60543b42f4bd31c936148c1f22a930496c9bbe7f99"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/InclusionInjective.olean": [
+      "0410e5fec2b5e338e12ab3636550fa223e331c8304f67fe0c1aadaf5ab9b5f54",
+      "e37be7abd716b677974d3bc5afb33dba7ee7b9c31185c0a9ce64324f810de729"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/InclusionInjective.olean.hash": [
+      "1f8db83fd8530e94d551eb67fe5f8ad68385964792118b6fcf05a3b85a92bab2",
+      "e6b1c9c5de57021a3fe53907f47d3a9d8ede30ff5e3f39810b36982744048194"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/InclusionInjective.trace": [
+      "33bb4006f1161f8ff2a9b9bad34e75d5024523b03dfefa9566c4a7b24276289c",
+      "ec0fb63460a20dc85d2d40da079bc179b3fbd529f322a1711a92a1e466154c6c"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Ipindep.ilean": [
+      "3cea56b564800675a07dc65ea36568e0d8951a1cedeb373146ec3b7909dfaf73",
+      "3cea56b564800675a07dc65ea36568e0d8951a1cedeb373146ec3b7909dfaf73"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Ipindep.olean": [
+      "f8825b7c9cc4a2c8407bbb05d7432e9efe018884eb55525d301066ec8e4fdd2f",
+      "f8825b7c9cc4a2c8407bbb05d7432e9efe018884eb55525d301066ec8e4fdd2f"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Ipindep.olean.hash": [
+      "a8a8601e628a2500040c94296106cbdec6d1d09615f173e637651ee0a460b36a",
+      "a8a8601e628a2500040c94296106cbdec6d1d09615f173e637651ee0a460b36a"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Ipindep.trace": [
+      "8b50b35e9b7941667409875e1ed2ce1706c114a2d6ebd4de2527b5f1a2f79109",
+      "63abf536f7f5352455e82f93a374131dc412841fc00ae869bbd678c44a148926"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/LinSubstIsHomogeneous.ilean": [
+      "4a30ff98371e8cd8167ec904cfab21d915c8ad7dc4087ee4ab0612930fee2f59",
+      "4a30ff98371e8cd8167ec904cfab21d915c8ad7dc4087ee4ab0612930fee2f59"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/LinSubstIsHomogeneous.olean": [
+      "9f64dd72351bac3558560f33c8a44316afb434f73142cb41faebf1398bf98c3b",
+      "a1cde43d0a4624ae6d75d17a83285b1c9d27b3d153a685ee1379de5b4b90c530"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/LinSubstIsHomogeneous.olean.hash": [
+      "89c4c6cbdec58bc3c1c12add21ad81e6f48f9f6bc4822f2187ae964a15f188b9",
+      "aa91b9ed0b9f4870151c77cb450af1c910606a8dcefdb64c01720a9db634eaf0"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/LinSubstIsHomogeneous.trace": [
+      "8b8dce0ce01e3ef26516a50e7bd4f2b2a4befa832dca1cb4de635968c7726dce",
+      "6dbaafbf221d7a27cca440fc5071a0ab7bf71bbbe526afe4a3d40e8c81820369"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Nabladual.ilean": [
+      "0ac6cc12cc7d0b5573709c8e8797febe3e4c6c56f513cde2a592f1a097948443",
+      "0ac6cc12cc7d0b5573709c8e8797febe3e4c6c56f513cde2a592f1a097948443"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Nabladual.olean": [
+      "9eaf1d55e21ac7fac30355805c5403b984da01551312aa785afa5f2960b92a0b",
+      "0b81c84d0346662613fa8b31f5d644d9545e00623f188a62da80416dc8aba596"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Nabladual.olean.hash": [
+      "875311144e186a9978211a63ec251d6f22124674224e15128f94df85258eb384",
+      "a5f8917e417e657ae4e4cc3dc83adc2da8fbd3f20076662ec403909b8e9edfbc"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Nabladual.trace": [
+      "555e03685be450e6783a1401418523992aaf1407656bea643b3a74ce6031f547",
+      "a9e7006c78aa000fa33bccde448053650bffc78b150456a681df0e6eb60e91e4"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/RationalPointsLeHolds.ilean": [
+      "5f6a169cb558070ad63ca83143d81fdf9a31a5032ee510d3d2198088adb21663",
+      "5f6a169cb558070ad63ca83143d81fdf9a31a5032ee510d3d2198088adb21663"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/RationalPointsLeHolds.olean": [
+      "9d4b0c073f3c0d8157fd3aa42f64899afa5692e643cf15c96d6a8c84bfcedd32",
+      "90bbbdab529b76e8ddc2a325e1846734011e3a6789f51b8d9b79e4640e418b4b"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/RationalPointsLeHolds.olean.hash": [
+      "9293eecffa4ecbc1a961d8f2d3ce5da596b3935495627cdae752aee7f5d8deb7",
+      "4ef63b25180288f5b23a9da8acaff8fedc1ec67821fc8bd4e0a597360d8d1520"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/RationalPointsLeHolds.trace": [
+      "1b782d76e710f768e4cac2535aed459665e95c5f6fd9e9e35a6a17c6f1acea5b",
+      "88c37204a77fd68f130b930382d3ef276abe01bc10326b76e98b9538f3409c7c"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/SignatureConjugationInvariant.ilean": [
+      "d7d4505797996d58762477c781e28fd1a0662fb45d5981d6fe930425f63800e7",
+      "d7d4505797996d58762477c781e28fd1a0662fb45d5981d6fe930425f63800e7"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/SignatureConjugationInvariant.olean": [
+      "e2e5e64819f2f50e9a90c5af9f9a87864030589e701d4496e20f97566f976542",
+      "b627091b432f6cd0e03dbebf96a3b78c19ebb4c6a93dcfea7175888c7fcd6e91"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/SignatureConjugationInvariant.olean.hash": [
+      "f5df0dc262701e2047724cce8eda4bcc16e9820c544e34d7a6222ee2dd661283",
+      "dba9b6be8fc25f7cdefab2ab9e2d4c5487c4259470ab33418df471b4f3c7acf5"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/SignatureConjugationInvariant.trace": [
+      "75803c23362c33703b26541dca60a63670994496ba4df7225d8c332bab595ced",
+      "c0bb25c4e3d280302728b135f6ef3b383c7aac171b302663be4d1fabd4d2c7d7"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/SignatureExists.ilean": [
+      "8ebc905784b7c525b25773197b18af87b62d1ccc8b3e0be0a89c8bcb9645fdd8",
+      "8ebc905784b7c525b25773197b18af87b62d1ccc8b3e0be0a89c8bcb9645fdd8"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/SignatureExists.olean": [
+      "80f2a1119cf7e8c0946aeca8ca49faa34b7aefdc05e3c6ce6182fa996c6f92e9",
+      "f700cec446222a67854d0b43a826ca7b8f19c9a6131d12922b97165a21398282"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/SignatureExists.olean.hash": [
+      "a938da22092b879b8fd6943fb1d20fd85b95f5284517b41675ca09b1ad9bc84b",
+      "afb9bd85af0e8b09614d0e5709e9b3c3af60302c26279595cdc2cdaab66152a7"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/SignatureExists.trace": [
+      "2e41c21bd7911a748ccd59775446eb89f0a4482d3bb4ba29f62d7bfd42a98c98",
+      "2d2afc232208dd59446f2f723196901b7f5c61a895d7e99b1ecb46bab2686a45"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/SplitUnitaryGroupIso.ilean": [
+      "ccfa4d323fd3da82aeedf5319dea75f69113b3bc1d87fa1a017e448e7dc6ee7a",
+      "ccfa4d323fd3da82aeedf5319dea75f69113b3bc1d87fa1a017e448e7dc6ee7a"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/SplitUnitaryGroupIso.olean": [
+      "ebde73969ed3f4d4d612606c1a614a500bcbe085eba4732158994773bcf9189c",
+      "5b8f8d2d63404ccdbfb78cf292d18e1ebdc94c60be191e9ba557b07fef37ca21"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/SplitUnitaryGroupIso.olean.hash": [
+      "798f9ba67df91f689f0783bed80e844ee13a402c1dbc2d3f9deba65d1a22c620",
+      "5781187271e277a4aefa514fb1875f050b57616d6ff6a640cbe06f36f5fe0c01"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/SplitUnitaryGroupIso.trace": [
+      "b7022219bff44bb0c20e774980f8720d574fca7b2fd80f156863d3aa77c3216d",
+      "dd052a52ad37da699b61333f1ea9e7001eacddfbbfa33b9d601adc3f0d2ad9f7"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Stabfin.ilean": [
+      "036c68a1ebcd7ec8e5a73bd0d66089f2f41f9bf068f6613410aa0edca3045324",
+      "036c68a1ebcd7ec8e5a73bd0d66089f2f41f9bf068f6613410aa0edca3045324"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Stabfin.olean": [
+      "ca45cb5dba58960cb159cf156e7ec0de3db1d76a99ca9a5fbfa98dcaddde5b5c",
+      "d979e858462f7109e92057fa2d5e9714dff93e1b967ef2ec0e8bef547fe637ab"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Stabfin.olean.hash": [
+      "4641084530f3b9a534169c1af0b611a36d67b374eba30047a04b30ed63457511",
+      "977d60f0619cf7e605d403eb81f7700e6b43d2610ed5b558c9b76531b643713c"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Stabfin.trace": [
+      "e3e4e432d5d5d675a96ba268e22033b214596500f7b3b5582dd5845d03a4e474",
+      "f10f70f302b9c304b18936f465cbce78987fde3f30e14cdbc43c83146ab6d704"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Stabstd.ilean": [
+      "031046c5de76f173aeb6213ec437aab4d6eb9b45fb323963cbe9f36616522169",
+      "031046c5de76f173aeb6213ec437aab4d6eb9b45fb323963cbe9f36616522169"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Stabstd.olean": [
+      "9e4e44a6c21d4225fecdd50a66613489a4f45ea2c6bda8c9578696a230c05a54",
+      "dc5743ed4b0f55dd26b4ddad486b851943e928e92267bccf27853657a86ff4e4"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Stabstd.olean.hash": [
+      "d9ba72171643bba76d73b10504d7636e4aea2e8c3a9c2fd76fc92576e37a5d99",
+      "7277f52c4576a0a1b6cad8d8b29f353aa524a8d1d043819f65290c4dd0be960f"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Stabstd.trace": [
+      "89421ef12bec88f28fece631562e75a7631bb1397d06b4b8c805d6c4124d20a6",
+      "5dce52f449215895fb38fa7e52a1d1ae928df6e288f3687720fc8cdf10188748"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Transport.ilean": [
+      "b8b656ee508ac39a64d986a81c14181640949e13b3fccba4cc4ed2b31b9dd169",
+      "b8b656ee508ac39a64d986a81c14181640949e13b3fccba4cc4ed2b31b9dd169"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Transport.olean": [
+      "444b999f7abccb293c0ce19aad6b14caed0c138252b4d8303fe4502e60be5eb5",
+      "444b999f7abccb293c0ce19aad6b14caed0c138252b4d8303fe4502e60be5eb5"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Transport.olean.hash": [
+      "2aa6557e5a30d62018f99f655dd78fa20db7bdf1750703bd34b4eee06a8022a9",
+      "2aa6557e5a30d62018f99f655dd78fa20db7bdf1750703bd34b4eee06a8022a9"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Transport.trace": [
+      "fd5ad297ce08daeb3e7798a107c68b1911eb7f26c20a326450749278beaa9e89",
+      "379619fe42acc8ec368a2877d4f27a819b3eef1070980773006b6b6e44ea02aa"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Upqcpt.ilean": [
+      "c19d93ed3bc095d5d413a7f019bc1ea1249a9242b7bf740a806dad6c9ce35ac6",
+      "c19d93ed3bc095d5d413a7f019bc1ea1249a9242b7bf740a806dad6c9ce35ac6"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Upqcpt.olean": [
+      "d15bfe1d49742caf295bf77b649c22a6d1aceaa328060161b3569ae5892ad15c",
+      "a782cd1034f64a1d04d9467258d81897141299226a67454ea8d827818db59e4c"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Upqcpt.olean.hash": [
+      "1b042c22f7c3ac93b8553f15cfc86acdc5bda782ae58b96539efe6d3f0abc52a",
+      "2c2b39f82e29aba34158461c0e52929a94ab33984882db91a6360b786580f345"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Upqcpt.trace": [
+      "5c476b8df7656a283f390252df8b0ef02feb037a6b47ebcede26a864fc52a0a9",
+      "f84e7e2f919db20d73affaff71d7fcd4fc68cf401a72a5a8eebd8457f63fb201"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Wlocal.ilean": [
+      "848c531077db8ca4362490cc59dd787de2dfff7b435369bb483f7901353cd052",
+      "848c531077db8ca4362490cc59dd787de2dfff7b435369bb483f7901353cd052"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Wlocal.olean": [
+      "3814cd942b8791991d5c850896adacae58830c69de7cba16c3d4642419f7119a",
+      "8b91fca0f0d20b3c7b2e7b01212f6a7b26f227fb51ef5b6975c2d17940a0b91b"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Wlocal.olean.hash": [
+      "0da71e750d4b4fb633e0b256776e887f116dc8e98dfc358c0ec5c7995165fe45",
+      "6bde3a2e0443ac460b8fc25a78e1fb2d857303a483c52506df27211e7f090aaf"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/AdelicIwasawaHecke/Wlocal.trace": [
+      "f74e07f50d40346b594946ab44ed5b10fe483aa4e6cb4a0bff282c60b070fde7",
+      "cc4ecf1f0532bb8145c5595f7714290be4147fbdd5104ed8d47071a7e08fcf64"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/StatementB.ilean": [
+      "08359c99aa6caba2916e7674fe12ded3a4cf3ad19aa765242a4ce4a886b0d4fc",
+      "08359c99aa6caba2916e7674fe12ded3a4cf3ad19aa765242a4ce4a886b0d4fc"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/StatementB.olean": [
+      "983ac63bb6b55e6abe8424aa877de4ea0d7649c305cadb30ea7ec1b197ec9022",
+      "983ac63bb6b55e6abe8424aa877de4ea0d7649c305cadb30ea7ec1b197ec9022"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/StatementB.olean.hash": [
+      "114eb3c7ec59c614bbb17e11b1a6f6c31aac017b1a9229fe41fc64fd50981f0a",
+      "114eb3c7ec59c614bbb17e11b1a6f6c31aac017b1a9229fe41fc64fd50981f0a"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/StatementB.trace": [
+      "e4166608df714e5f2022c6deea82c73668373951d3026c1e9be3105512fef13e",
+      "5691b2e04efdbc2f9b35a834927f6527c4a3fc91df9c6ac61e8fa2a2c709f3c0"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/StatementE.ilean": [
+      "69a1647a9448d9bfd34584eb51a6da570bd466a2dc9d136fe35be6f80396f3c5",
+      "69a1647a9448d9bfd34584eb51a6da570bd466a2dc9d136fe35be6f80396f3c5"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/StatementE.olean": [
+      "3ffd9d84a553a836de732333ce8b75e5f1ad360820b25b7813af49a17e838ea6",
+      "3ffd9d84a553a836de732333ce8b75e5f1ad360820b25b7813af49a17e838ea6"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/StatementE.olean.hash": [
+      "372a27cc9bb59c27b19b9b16ea9d9107e7a3262ac0a6387312263de6ef981dd0",
+      "372a27cc9bb59c27b19b9b16ea9d9107e7a3262ac0a6387312263de6ef981dd0"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/StatementE.trace": [
+      "b09778a0cb28cd89ab74f44a5d0c48c20825ba8f48e91e2169871f40d8013910",
+      "097c8dda974817efb08a1986aaa73dc0eba5900457e9ff9cc220cdac770e770b"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/StatementF.ilean": [
+      "2e76956e5d8ed1184d797819a0ad479e6148e806fa5cc38727a43b4091bd0f35",
+      "2e76956e5d8ed1184d797819a0ad479e6148e806fa5cc38727a43b4091bd0f35"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/StatementF.olean": [
+      "018dbff54ce4ff0ba77e3cbb4f82397a376d680653b96f2af46f8b1baf89b710",
+      "018dbff54ce4ff0ba77e3cbb4f82397a376d680653b96f2af46f8b1baf89b710"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/StatementF.olean.hash": [
+      "a5154fe9f1a8e6f2f76c54a91c7d60113c49cf9b7bf4b9824ba193c1b3d1f1ec",
+      "a5154fe9f1a8e6f2f76c54a91c7d60113c49cf9b7bf4b9824ba193c1b3d1f1ec"
+    ],
+    "lib/lean/Formalism/SatakeDualWeyl/StatementF.trace": [
+      "b90abff108136922b313a3fcba462f272fe521fd6d274748f086f940f3aaa153",
+      "7efbecac771e958973fa3b8481db1cc7ba17cf3b4e0c457c15764eef394712f6"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/ChainScalar.ilean": [
+      "e4a55cdcb93eeae30e7bfb054e1cc1de1853dc6eea613692769f243697f2d402",
+      "e4a55cdcb93eeae30e7bfb054e1cc1de1853dc6eea613692769f243697f2d402"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/ChainScalar.olean": [
+      "ba38695d5ffff4b89878dfd2baa2f67d14b18fc6b7148cc9cf9dc1b2434c46c9",
+      "ba38695d5ffff4b89878dfd2baa2f67d14b18fc6b7148cc9cf9dc1b2434c46c9"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/ChainScalar.olean.hash": [
+      "f78b99c56ab373b4dc36697b6d8c96480ea2387d6f6e28e742e225ac6c510ce3",
+      "f78b99c56ab373b4dc36697b6d8c96480ea2387d6f6e28e742e225ac6c510ce3"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/ChainScalar.trace": [
+      "5714afebea5dbacb25af7d77afea201c1b6657a49ae1bfd42c0ba9a238dbbb2f",
+      "a040a7952d463c3f952cf3c4e5ebfa86f40df2dc1c0e19b793dcbba6b8399237"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/DetSwap.ilean": [
+      "b4affe89ffd726100f8bca9f204e2fe8188099cd13950303453d6e60da591e10",
+      "b4affe89ffd726100f8bca9f204e2fe8188099cd13950303453d6e60da591e10"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/DetSwap.olean": [
+      "bd0a2f73b99e05b88091f5992be607498e605f8e1c8c314ec54fecbd02357199",
+      "856ac3c7da4c95293ab455dbd6dac5b573d8484961eee73951837f8d0f98378d"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/DetSwap.olean.hash": [
+      "7efebc64b8733bd446e9c8b9d852b30f478b7036244b66bf4247e80e3f947b94",
+      "abb7e6204b1fdde4cf402e1e55142eb2ff8191c321e96a427671ae3f16e7a7eb"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/DetSwap.trace": [
+      "7d6e7f90f0d0bbd4f3b01e6778edc187b98465cf80bf42715fd6fc128feea7af",
+      "f020a8ffc3a8039c8ab2554c68f44514205e2823e6f5f1f3b1f1395b69326996"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/EigenSwap.ilean": [
+      "7ae85c9b705baa8db4284e04909eaefa0087d5b26acfac0dfa567d99cc9be5e2",
+      "7ae85c9b705baa8db4284e04909eaefa0087d5b26acfac0dfa567d99cc9be5e2"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/EigenSwap.olean": [
+      "8980c497eb0d9992fc0496404a123cf4bd38665ef08221d78df6209c50490509",
+      "8980c497eb0d9992fc0496404a123cf4bd38665ef08221d78df6209c50490509"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/EigenSwap.olean.hash": [
+      "8663ae2f25493f23f3bd6bc5732999152fb5d41b49ee2a53bda0b2a5ce16a2bf",
+      "8663ae2f25493f23f3bd6bc5732999152fb5d41b49ee2a53bda0b2a5ce16a2bf"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/EigenSwap.trace": [
+      "0752047918d93ff16bbc7d445faf4dd06d9ff4bd91dcba28ee89533d9bb8bd46",
+      "5adaff1a9745746af7f7fcf6d6a329793feb4958a438d86bb7c59c2a3cdea02d"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/FFPlancherel.ilean": [
+      "77c938fd35ebb44f23e21f912a172113c89210b780846f64a2633aabe9005fbd",
+      "77c938fd35ebb44f23e21f912a172113c89210b780846f64a2633aabe9005fbd"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/FFPlancherel.olean": [
+      "2ccdfefd408ad6d327bdc202b64860e9b923bc80e101f9f258f5fba3d05a7bbb",
+      "2ccdfefd408ad6d327bdc202b64860e9b923bc80e101f9f258f5fba3d05a7bbb"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/FFPlancherel.olean.hash": [
+      "bac3556887cc886dd5691ca81db536a8d0a9c5165ba872069d1606847c6e7770",
+      "bac3556887cc886dd5691ca81db536a8d0a9c5165ba872069d1606847c6e7770"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/FFPlancherel.trace": [
+      "46ef4eddc4876af97a5f9a8a9705feb12d29c774045cf8d89428a1fa730c2ab6",
+      "9d12d288628ba332281acdaaab73032c8c3d84c53f186f7d713b3a0b3b98a283"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/GaussOp.ilean": [
+      "b838c311e5f2ea351b174bd7204c924ec69e3eb25eb1a380e5512f244c325e5c",
+      "b838c311e5f2ea351b174bd7204c924ec69e3eb25eb1a380e5512f244c325e5c"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/GaussOp.olean": [
+      "06cee861e0eb43d94bdba9291bd06533cd712cb8ce186dd9914e9c3d4b4d98a5",
+      "06cee861e0eb43d94bdba9291bd06533cd712cb8ce186dd9914e9c3d4b4d98a5"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/GaussOp.olean.hash": [
+      "18e59cabbc10ee6810b237b5ad648f7232fd1ae571df4f96776aed7540f1834d",
+      "18e59cabbc10ee6810b237b5ad648f7232fd1ae571df4f96776aed7540f1834d"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/GaussOp.trace": [
+      "c9ea17af9b89531e77086fb70463252096f1db703088f67eb62ee6a022476baa",
+      "6ec27f2bbc108e030f0928c82b139413a618b30308a2b4e93c07fa7742f15181"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/LatLiftIndep.ilean": [
+      "5c9fb97b4b717872b4b90c9d4a41be7b6032405d4dc1d5021573347fd3c0edb0",
+      "5c9fb97b4b717872b4b90c9d4a41be7b6032405d4dc1d5021573347fd3c0edb0"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/LatLiftIndep.olean": [
+      "e4c21da0a3c1e2263aaf7c88caa937b0ea1c74c7198371795ef075f97baf8a24",
+      "fe820263274157debe8c33cba623921c0ff8d34d5b9d4e642d2d030f128c7ecb"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/LatLiftIndep.olean.hash": [
+      "ca07c5153112fd911fd11d3290dd133d3bbf156d3e44a5493ba797afa73289a4",
+      "7fac847db5c07c8da1ca86e233a57850b95225baf5af1ecb491f0d178f25d47f"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/LatLiftIndep.trace": [
+      "26c1a68efbf698f4887174831e89101541d13040610624ea155ac8ab096ed5cb",
+      "9d16bbe3289a4e518b7c27e8b24412cbbab24b7f9e6434f4b77db1cc1681744d"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/OrbitSum.ilean": [
+      "8cb35de8f701c1c5a1b1f4370aceb9e110743883777b634eab89b3eaef87c755",
+      "8cb35de8f701c1c5a1b1f4370aceb9e110743883777b634eab89b3eaef87c755"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/OrbitSum.olean": [
+      "e32a917a5c0d6b5f954f8a715c1a5420e1525ef349ec8229fcb7e55434e40615",
+      "e32a917a5c0d6b5f954f8a715c1a5420e1525ef349ec8229fcb7e55434e40615"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/OrbitSum.olean.hash": [
+      "d3ca7805bb5369311c1792c2b07bd6b7f273ff083602ed158da25b764b5bfbd1",
+      "d3ca7805bb5369311c1792c2b07bd6b7f273ff083602ed158da25b764b5bfbd1"
+    ],
+    "lib/lean/Formalism/ThetaLiftIndependence/ThetaOrbitSums/OrbitSum.trace": [
+      "182c4deee988788602566ffee41b02c0fbbdec3107ef5b0f0c22bdc7ee8b4817",
+      "b766de0dc01056fa38d52846fe844bdd8a6275a2db89ad9b54cf487956be70ed"
+    ]
+  },
+  "member_counts": {
+    ".olean": {
+      "compared": 57,
+      "different": 33
+    },
+    ".olean.hash": {
+      "compared": 57,
+      "different": 33
+    },
+    ".ilean": {
+      "compared": 57,
+      "different": 0
+    },
+    ".trace": {
+      "compared": 57,
+      "different": 57
+    }
+  }
+}

@@ -24,6 +24,8 @@ A separate worker restored the pinned Google build environment, verified the agg
 
 In a follow-up, Lake required rebuilding 704 prerequisites from a combined 99-target archive. One original worker archive contained 84 of those prerequisites. Loaded by itself with the same pinned seed, it passed the no-build check and the selected target passed module-level kernel replay. This shows that the combined and isolated archives can behave differently. The isolated check covers one target. [Isolated check receipt](evidence/google-isolated-reuse-check.json)
 
+Two original worker archives contained 57 of the same prerequisites flagged by the combined build. The SHA-256 digests differed for 33 compiled objects and all 57 Lake trace files. All 57 interface files matched. This measures binary and build-trace differences between the workers. [Member comparison](evidence/google-archive-member-comparison.json)
+
 ## First Render wave
 
 The coordinator provisioned one primary and 31 helpers. The first wave reserved up to 11,114 project modules beyond its initial build snapshot. A completed helper bundle becomes evidence of successful reuse when the primary accepts it with rebuilding disabled.
