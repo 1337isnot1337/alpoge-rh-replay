@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005256 | P1712 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FinrankSectionsPrincipalPolarisationEqOne` | wave-reused |
 | M005257 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FinrankTotalDegreeImageGrowth` | wave-reused |
 | M005258 | P0732 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FirstCohomologyVanishesDescent` | wave-reused |
 | M005259 | P0648 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FirstCohomologyVanishesOfIsoOfIsGen` | wave-reused |
@@ -401,4 +402,3 @@
 | M006940 | P0476 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.SurjectiveOfComplexPointsLiftOfUniversallyClosed` | volunteer-build-reviewed |
 | M007057 | P0476 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.CoordLetterEquivApplyConjugate` | volunteer-build-reviewed |
 | M007077 | P0946 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.DifferentiableOnDetHMat` | wave-reused |
-| M007080 | P0241 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.EmbeddingHermSelf` | wave-reused |

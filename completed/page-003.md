@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M007080 | P0241 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.EmbeddingHermSelf` | wave-reused |
 | M007108 | P0476 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsBasisSpanEqOfCommensurable` | volunteer-build-reviewed |
 | M007115 | P0516 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsCoeEqSpanDetOfIntVecLe` | wave-reused |
 | M007133 | P0583 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsFinsetMeetingFibres` | wave-reused |
@@ -401,4 +402,3 @@
 | M027027 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftEtaleSheafOfLinearMapsExact` | wave-reused |
 | M027028 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftEtaleSheafOfLinearMapsExactStatement` | wave-reused |
 | M027039 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftGeometricPointOfFaithfullyFlatFiniteTyStatement` | volunteer-build-reviewed |
-| M027209 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLinearIndependentAdaptedToDecreasingChainAStatement` | volunteer-build-reviewed |

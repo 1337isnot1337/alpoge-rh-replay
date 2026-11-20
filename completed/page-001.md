@@ -11,6 +11,7 @@
 | M000465 | P0549 | `CompanionTheory.EightfoldTheory.VariationTheory.AutomorphicForms.Newform` | wave-reused |
 | M000497 | P0172 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.InPCommutatorOfInK` | volunteer-build-reviewed |
 | M000529 | P0172 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.MapStdPoly` | volunteer-build-reviewed |
+| M000757 | P0001 | `CompanionTheory.SpectralGeometry.CountingDefinitions.AdelicEulerProducts.CountData` | volunteer-build-reviewed |
 | M000759 | P0172 | `CompanionTheory.SpectralGeometry.CountingDefinitions.AdelicEulerProducts.IsEulerProd` | volunteer-build-reviewed |
 | M000772 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicCharacterExponentialFormula` | volunteer-build-reviewed |
 | M000805 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AnnihilatorOfAnnihilatorLeStatement` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M005253 | P0648 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FiniteOfNotLinearIndependent` | wave-reused |
 | M005254 | P1057 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FinrankOfIsSecBasis` | wave-reused |
 | M005255 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FinrankSectionsLineBundlePowEqPow` | wave-reused |
-| M005256 | P1712 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FinrankSectionsPrincipalPolarisationEqOne` | wave-reused |
