@@ -247,10 +247,10 @@
 | [@sat3n](https://github.com/sat3n) | [M119913](https://github.com/rohanarun/alpoge-rh-replay/issues/2931#issuecomment-7051187770) | Pending review |
 | [@sat3n](https://github.com/sat3n) | [M126823](https://github.com/rohanarun/alpoge-rh-replay/issues/2935#issuecomment-7051191339) | Pending review |
 | [@sat3n](https://github.com/sat3n) | [M131101](https://github.com/rohanarun/alpoge-rh-replay/issues/2936#issuecomment-7051192840) | Pending review |
+| [@sat3n](https://github.com/sat3n) | [M138011](https://github.com/rohanarun/alpoge-rh-replay/issues/2939#issuecomment-7051194371) | Pending review |
+| [@sat3n](https://github.com/sat3n) | [M140386](https://github.com/rohanarun/alpoge-rh-replay/issues/2940#issuecomment-7051195912) | Pending review |
+| [@sat3n](https://github.com/sat3n) | [M146390](https://github.com/rohanarun/alpoge-rh-replay/issues/2941#issuecomment-7051197450) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M146831](https://github.com/rohanarun/alpoge-rh-replay/issues/2943#issuecomment-7050644805) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M054203](https://github.com/rohanarun/alpoge-rh-replay/issues/2944#issuecomment-7050640299) | Pending review |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M001678](https://github.com/rohanarun/alpoge-rh-replay/issues/2945#issuecomment-7050656243) | Pending review |
-| [@user42245](https://github.com/user42245) | [M040266](https://github.com/rohanarun/alpoge-rh-replay/issues/2955#issuecomment-7050645628) | Pending review |
-| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M042138](https://github.com/rohanarun/alpoge-rh-replay/issues/2956#issuecomment-7050667931) | Pending review |
-| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M041750](https://github.com/rohanarun/alpoge-rh-replay/issues/2961#issuecomment-7050671703) | Pending review |
-| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M042124](https://github.com/rohanarun/alpoge-rh-replay/issues/2965#issuecomment-7050674903) | Pending review |
+| [@sat3n](https://github.com/sat3n) | [M147655](https://github.com/rohanarun/alpoge-rh-replay/issues/2947#issuecomment-7051198662) | Pending review |
