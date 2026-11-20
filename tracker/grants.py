@@ -17,10 +17,11 @@ def pages(route):
         page += 1
 
 
-def prior_decisions(issues):
+def prior_decisions(issues, get_pages=None):
+    get_pages = get_pages or pages
     labels = {i['number']: {label['name'] for label in i['labels']} for i in issues}
     decided = [i for i in issues if labels[i['number']] & {'claim-granted', 'claim-conflict'}]
-    histories = comments_by_issue(decided, pages('/' + COMMENT_FEED))
+    histories = comments_by_issue(decided, get_pages('/' + COMMENT_FEED))
     prior = {}
     conflicts = set()
     for number, comments in histories.items():
@@ -37,15 +38,17 @@ def prior_decisions(issues):
     return prior, conflicts
 
 
-def reconcile():
+def reconcile(get_pages=None, mutate=None):
+ get_pages = get_pages or pages
+ mutate = mutate or api
  rows=load();groups=defaultdict(set);reserved=set()
  for r in rows:
   groups[r['id']].add(r['id']);groups[r['packet']].add(r['id'])
   if r['state']!='open':reserved.add(r['id'])
- issues=[i for i in pages('/issues?state=open&per_page=100') if 'pull_request' not in i]
+ issues=[i for i in get_pages('/issues?state=open&per_page=100') if 'pull_request' not in i]
  planned=[];taken=set()
  # Preserve valid grants first, then use issue number as a deterministic tie-breaker.
- prior,conflicts=prior_decisions(issues)
+ prior,conflicts=prior_decisions(issues,get_pages)
  for i in sorted(issues,key=lambda z:(prior.get(z['number'])!=z['title'].removeprefix('Claim '),z['number'])):
   labels={l['name'] for l in i['labels']};m=re.fullmatch(r'Claim (P\d{4}|M\d{6})',i['title'])
   if not m and not labels.intersection({'claim-granted','claim-conflict','claim'}):continue
@@ -58,13 +61,13 @@ def reconcile():
   planned.append((i['number'],labels,target,desired))
  for number,labels,target,desired in planned:
   other='claim-conflict' if desired=='claim-granted' else 'claim-granted'
-  if other in labels:api(f'/issues/{number}/labels/{other}','DELETE')
+  if other in labels:mutate(f'/issues/{number}/labels/{other}','DELETE')
  for number,labels,target,desired in planned:
-  if desired not in labels or 'claim' not in labels:api(f'/issues/{number}/labels','POST',{'labels':['claim',desired]})
+  if desired not in labels or 'claim' not in labels:mutate(f'/issues/{number}/labels','POST',{'labels':['claim',desired]})
   if desired=='claim-granted' and (desired not in labels or prior.get(number)!=target):
-   api(f'/issues/{number}/comments','POST',{'body':f'Granted `{target}`. Begin this reservation. Attach your receipt and log to this issue, or close it to release the work.'})
+   mutate(f'/issues/{number}/comments','POST',{'body':f'Granted `{target}`. Begin this reservation. Attach your receipt and log to this issue, or close it to release the work.'})
   elif desired=='claim-conflict' and (desired not in labels or number not in conflicts):
-   api(f'/issues/{number}/comments','POST',{'body':'No grant. This selection is unavailable or overlaps existing work. Close this issue and choose a new open module or packet with `python3 tracker/tasks.py next`.'})
+   mutate(f'/issues/{number}/comments','POST',{'body':'No grant. This selection is unavailable or overlaps existing work. Close this issue and choose a new open module or packet with `python3 tracker/tasks.py next`.'})
 def rate_limit_delay(error, attempt):
     if error.code not in (403, 429):
         return None
@@ -84,6 +87,9 @@ def rate_limit_delay(error, attempt):
 def main():
     for attempt in range(4):
         try:
+            if '--graphql' in sys.argv:
+                import claims_graphql
+                return claims_graphql.reconcile(reconcile)
             return reconcile()
         except urllib.error.HTTPError as error:
             delay = rate_limit_delay(error, attempt)
