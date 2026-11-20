@@ -115,6 +115,10 @@ Begin a comment on your claim with `Replay submission` on its own first line. In
 
 The final acceptance record separately checks the standard RH proposition, its axiom dependencies and the fresh kernel replay of Main. Module receipts are evidence of partial progress.
 
+For work on new proofs, the [proof reuse example](examples/proof-reuse/README.md)
+includes a duplicate-proof scanner, two reusable Lean lemmas and a pinned
+compiler check against 33 archive declarations.
+
 ## Coordinator and cloud helpers
 
 A targeted cloud helper uses the same public claim queue as volunteers. Open a standard module or packet claim and wait for both the `claim-granted` label and the matching GitHub Actions bot comment. Before provisioning, the coordinator runs `python3 tracker/check_grant.py BATCH.json ISSUE_NUMBER` using the GitHub account that opened the claim. The batch's `targets` must exactly match the claimed module or packet. When a worker has multiple grants, pass every issue number. GitHub lookup failures stop provisioning.
