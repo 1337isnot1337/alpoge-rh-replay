@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M046512 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveFunctionCharpolyGLHarishChandraRecursio` | wave-reused |
+| M046513 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveFunctionCharpolyGLHarishChandraRecursioStatement` | wave-reused |
+| M046514 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveFunctionCharpolyPairProdRootSum` | wave-reused |
+| M046515 | P0651 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveFunctionCharpolyPairProdRootSumStatement` | wave-reused |
+| M046524 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootFreeActionFinsuppSum` | wave-reused |
+| M046525 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootFreeActionFinsuppSumStatement` | wave-reused |
 | M046526 | P0399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootPowUnitSubProdProperties` | wave-reused |
 | M046527 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootPowUnitSubProdPropertiesStatement` | wave-reused |
 | M046528 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootTiltLatticeBound` | wave-reused |
@@ -396,9 +402,3 @@
 | M050622 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpanEvalEqTop` | volunteer-build-reviewed |
 | M050624 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpanFiniteDimensionalOfBoundedForms` | volunteer-build-reviewed |
 | M050625 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpanFiniteDimensionalOfBoundedFormsStatement` | volunteer-build-reviewed |
-| M050633 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpanImageInfOfLinearIndependent` | volunteer-build-reviewed |
-| M050642 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpanOneTmulEqTop` | volunteer-build-reviewed |
-| M050643 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpanOneTmulEqTopAlt` | volunteer-build-reviewed |
-| M050662 | P0248 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpanTopOfResidueSpanTop` | wave-reused |
-| M050679 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecLocalHomFactorsAffineOpenStatement` | volunteer-build-reviewed |
-| M050686 | P0443 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecMapSmoothSurjectiveOfIsSeparable` | wave-reused |

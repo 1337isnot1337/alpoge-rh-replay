@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M058429 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFamilyTraceVolumeConstStatement` | wave-reused |
+| M058433 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFourInverseMul` | wave-reused |
+| M058434 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassTermsLeOverlatticeMasses` | wave-reused |
+| M058435 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassTermsLeOverlatticeMassesStatement` | wave-reused |
+| M058436 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassesTotalWeightLe` | wave-reused |
+| M058437 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassesTotalWeightLeStatement` | wave-reused |
 | M058438 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameCoordinatesTransportInnerLattices` | wave-reused |
 | M058439 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameCoordinatesTransportInnerLatticesStatement` | wave-reused |
 | M058440 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramePairAmplitudeMassRepsEqOrbits` | wave-reused |
@@ -396,9 +402,3 @@
 | M060981 | P0355 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardGeneralLinearGroupPrimeFieldStatement` | wave-reused |
 | M060982 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardIrreducibleSamePrimeToPartRootsLe` | wave-reused |
 | M060983 | P0304 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardIrreducibleSamePrimeToPartRootsLeStatement` | wave-reused |
-| M060985 | P0304 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardLevelDatumGroupMulPow` | wave-reused |
-| M060986 | P0355 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardLevelDatumGroupMulPowStatement` | wave-reused |
-| M060987 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardMonicSquarefreeUnitConstPolysGe` | wave-reused |
-| M060988 | P0304 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardMonicSquarefreeUnitConstPolysGeStatement` | wave-reused |
-| M060994 | P0355 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardPermExistsStableSubsetLe` | wave-reused |
-| M060995 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardPermPartitionPartsMulCentralizer` | wave-reused |

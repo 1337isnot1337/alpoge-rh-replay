@@ -228,6 +228,7 @@
 | M003326 | P0810 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SpreadLe` | build-observed |
 | M003369 | P0002 | `Development.AbelianVarietyTheory.Definitions.CommutativeAlgebra.AbByPOfComm` | volunteer-build-reviewed |
 | M003371 | P0002 | `Development.AbelianVarietyTheory.Definitions.CommutativeAlgebra.InvariantSubspaceMobiusInverseRecEqOfFinrankLt` | volunteer-build-reviewed |
+| M003372 | P1218 | `Development.AbelianVarietyTheory.Definitions.Degenerations.AdmissibleBaseOfCompleteDvr` | volunteer-build-reviewed |
 | M003376 | P0946 | `Development.AbelianVarietyTheory.Definitions.Degenerations.ArithBase` | wave-reused |
 | M003377 | P1028 | `Development.AbelianVarietyTheory.Definitions.Degenerations.BaseFacts` | wave-reused |
 | M003379 | P0731 | `Development.AbelianVarietyTheory.Definitions.Degenerations.CompanionTheory` | wave-reused |
@@ -314,6 +315,7 @@
 | M003974 | P0865 | `Development.AbelianVarietyTheory.Definitions.Divisors.WittOnFalse` | wave-reused |
 | M003976 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.XiMulNu` | wave-reused |
 | M003978 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.ZetaActRefl` | wave-reused |
+| M003980 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.ZetaPair` | volunteer-build-reviewed |
 | M003983 | P1193 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.CoeSelfDualLatticeInFrameCoordinatesEq` | build-observed |
 | M003986 | P0002 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.Hat1` | wave-reused |
 | M003987 | P1169 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.MarkSpec` | build-observed |
@@ -344,6 +346,7 @@
 | M004103 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.LocallyConstantTwoCochain` | wave-reused |
 | M004112 | P0295 | `Development.AbelianVarietyTheory.Definitions.Foundations.MemRingOfInR` | wave-reused |
 | M004115 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.MultipliableAndSgNeZero` | wave-reused |
+| M004121 | P0974 | `Development.AbelianVarietyTheory.Definitions.Foundations.NormSumPairRankZeroOfCurveCoordNorm` | volunteer-build-reviewed |
 | M004122 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.NotCoboundaryConstantOne` | wave-reused |
 | M004131 | P0173 | `Development.AbelianVarietyTheory.Definitions.Foundations.OpLDOneSubMemTriv` | wave-reused |
 | M004133 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.PetEqRelIndexMulPetProd` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M004445 | P0003 | `Development.AbelianVarietyTheory.Definitions.Jets.PowerSeriesHasSumAt` | volunteer-build-reviewed |
 | M004447 | P0758 | `Development.AbelianVarietyTheory.Definitions.Jets.SideFam` | wave-reused |
 | M004448 | P0295 | `Development.AbelianVarietyTheory.Definitions.Jets.SumIoPr` | wave-reused |
-| M004449 | P0705 | `Development.AbelianVarietyTheory.Definitions.Jets.SumIoPrAlt` | wave-reused |
-| M004451 | P1084 | `Development.AbelianVarietyTheory.Definitions.Jets.SurjectiveAppTopSqCube` | wave-reused |
-| M004455 | P0003 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.DegProd` | wave-reused |

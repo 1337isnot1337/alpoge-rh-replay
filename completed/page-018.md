@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M075380 | P0900 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WhittakerDimensionHarishChandraInductionMulStatement` | wave-reused |
+| M075384 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WhittakerFunctionalWeylVanishOfWeylUnipotentZeroStatement` | volunteer-build-reviewed |
+| M075385 | P0765 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WhittakerJacquetIdempotentsPropertiesPrimeField` | wave-reused |
+| M075386 | P0791 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WhittakerJacquetIdempotentsPropertiesPrimeFieldStatement` | wave-reused |
+| M075393 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WhittakerSwapStatement` | volunteer-build-reviewed |
+| M075408 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WindowSummedRowPowEqAdditiveSystemPowerSumStatement` | volunteer-build-reviewed |
+| M075409 | P1201 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittCompletedTiltColumnsOfRightInverseModPow` | wave-reused |
+| M075410 | P1227 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittCompletedTiltColumnsOfRightInverseModPowStatement` | wave-reused |
 | M075420 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorGaussNormMul` | volunteer-build-reviewed |
 | M075421 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorGaussNormMulStatement` | volunteer-build-reviewed |
 | M075424 | P0957 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorMapBreuilKisinEvEq` | wave-reused |
@@ -394,11 +402,3 @@
 | M083852 | P1284 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FnEigenEquationOfForallGeometricPoint` | wave-reused |
 | M083853 | P1310 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FnEigenEquationOfForallGeometricPointStatement` | wave-reused |
 | M083879 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FrameWConjMatrixUnits` | wave-reused |
-| M083880 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FrameWConjMatrixUnitsStatement` | volunteer-build-reviewed |
-| M083884 | P0848 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FrechetContinuousContinuousOnOrbitHasDerivAt` | wave-reused |
-| M083885 | P0874 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FrechetContinuousContinuousOnOrbitHasDerivAtStatement` | wave-reused |
-| M083886 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FreeAlgebraActionCapelliDeterminantEqOperator` | wave-reused |
-| M083887 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FreeAlgebraActionCapelliDeterminantEqOperatorStatement` | volunteer-build-reviewed |
-| M083888 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FrepDiscreteSeriesSum` | wave-reused |
-| M083889 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FrepDiscreteSeriesSumStatement` | volunteer-build-reviewed |
-| M083892 | P1014 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GapCoefficientDerivativeBound` | wave-reused |

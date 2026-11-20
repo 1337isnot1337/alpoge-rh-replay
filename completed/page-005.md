@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006422 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsIsUnitEvalOfMapResidueNeZero` | wave-reused |
+| M006434 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FderivIntegralApplyOfHolomorphicOfDominated` | volunteer-build-reviewed |
+| M006436 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FiniteAndNcardSetOfSubmoduleLeRelIndexEqLe` | wave-reused |
+| M006437 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FiniteInterClosedBallOfSeparated` | volunteer-build-reviewed |
 | M006438 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FinrankMulDiscrRpowLeSumSqOfMemTraceDual` | wave-reused |
 | M006439 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FormalExpMulFormalExpNeg` | wave-reused |
 | M006440 | P0177 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FormalLogEqSumOfMultiplicativeParam` | wave-reused |
@@ -15,6 +19,8 @@
 | M006462 | P1084 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsProjOverMorphismRestrictOfRelAmple` | wave-reused |
 | M006463 | P1114 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsProjOverOfIsPullback` | wave-reused |
 | M006468 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.LatticeFourierOfContDiffFiniteDimensional` | wave-reused |
+| M006469 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.LineDerivListEqIteratedFDeriv` | volunteer-build-reviewed |
+| M006470 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.LinearIndependentRealOfIntOfDiscrete` | volunteer-build-reviewed |
 | M006478 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.MulConjTransposeEqOneOfOrthonormal` | wave-reused |
 | M006479 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.NatCastMulCoeffOfPderivEq` | wave-reused |
 | M006484 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.OneLeDetOneAdd` | wave-reused |
@@ -396,9 +402,3 @@
 | M013496 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.FullTorsionObjectExistsUniqueModuliPointStatement` | volunteer-build-reviewed |
 | M013498 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.FullTorsionPolarizedCMObjectExtendsAlgClosedStatement` | volunteer-build-reviewed |
 | M013501 | P0679 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GaloisOfPrimePowerDegree` | wave-reused |
-| M013502 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GenRelNeZero` | volunteer-build-reviewed |
-| M013503 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GeneratingSectionFiniteExtNormalDomainIsBasis` | volunteer-build-reviewed |
-| M013515 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GeometricallyConnectedBasePointFreeGenericFibre` | volunteer-build-reviewed |
-| M013518 | P0839 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GeometricallyConnectedOfIsPullbackOfSurjective` | wave-reused |
-| M013520 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GeometricallyConnectedOfSection` | volunteer-build-reviewed |
-| M013526 | P0007 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GroupAlgebraSingleOneMemOfSpan` | wave-reused |

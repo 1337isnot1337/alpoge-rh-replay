@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M050633 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpanImageInfOfLinearIndependent` | volunteer-build-reviewed |
+| M050642 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpanOneTmulEqTop` | volunteer-build-reviewed |
+| M050643 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpanOneTmulEqTopAlt` | volunteer-build-reviewed |
+| M050662 | P0248 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpanTopOfResidueSpanTop` | wave-reused |
+| M050679 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecLocalHomFactorsAffineOpenStatement` | volunteer-build-reviewed |
+| M050686 | P0443 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecMapSmoothSurjectiveOfIsSeparable` | wave-reused |
 | M050687 | P0481 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecMapSmoothSurjectiveOfIsSeparableStatement` | wave-reused |
 | M050690 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecPiCofanIsColimitOfRingEquiv` | wave-reused |
 | M050691 | P0443 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecPiCofanIsColimitOfRingEquivStatement` | wave-reused |
@@ -396,9 +402,3 @@
 | M058420 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianDoubleCosetTermBasicFacts` | wave-reused |
 | M058421 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianDoubleCosetTermBasicFactsStatement` | wave-reused |
 | M058428 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFamilyTraceVolumeConst` | wave-reused |
-| M058429 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFamilyTraceVolumeConstStatement` | wave-reused |
-| M058433 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFourInverseMul` | wave-reused |
-| M058434 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassTermsLeOverlatticeMasses` | wave-reused |
-| M058435 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassTermsLeOverlatticeMassesStatement` | wave-reused |
-| M058436 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassesTotalWeightLe` | wave-reused |
-| M058437 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassesTotalWeightLeStatement` | wave-reused |

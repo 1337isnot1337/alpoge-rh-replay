@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M031220 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteFibreAndEqOfSpecializesOfIsFinite` | volunteer-build-reviewed |
+| M031242 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteFlatSurjectiveClosedSubschemeOfOpenCover` | volunteer-build-reviewed |
+| M031263 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteGaloisFractionRingOfIsFractionRing` | volunteer-build-reviewed |
+| M031308 | P0105 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteIntegralClosureOfFormallyUnramified` | wave-reused |
+| M031309 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteIntegralClosureOverGenericFibreOfEtale` | wave-reused |
+| M031310 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteIntegralClosureOverGenericFibreOfEtaleStatement` | wave-reused |
 | M031313 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteJointEigensystems` | volunteer-build-reviewed |
 | M031324 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteLengthCokerOfEtalePuncturedSpectrum` | wave-reused |
 | M031325 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteLengthCokerOfEtalePuncturedSpectrumStatement` | wave-reused |
@@ -396,9 +402,3 @@
 | M038760 | P1508 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPsEffPullReducedClosedOfDimLe` | wave-reused |
 | M038761 | P1538 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPsEffPullReducedClosedOfDimLeStatement` | wave-reused |
 | M038762 | P1508 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPseudoEffectiveReducedUnivOfSectionPow` | wave-reused |
-| M038763 | P1538 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPseudoEffectiveReducedUnivOfSectionPowStatement` | wave-reused |
-| M038800 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPullbackOfForallIsPushoutAppStatement` | volunteer-build-reviewed |
-| M038881 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsReducedOfFormallyEtale` | volunteer-build-reviewed |
-| M038888 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsRegFamConst` | volunteer-build-reviewed |
-| M038891 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsRegularAdjoinRoots` | wave-reused |
-| M038926 | P0109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSLTwoPermutedModularFamilyAlgebraClosure` | wave-reused |

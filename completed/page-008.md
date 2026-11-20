@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M024051 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoactionEqAddOfPrimitiveStatement` | wave-reused |
+| M024059 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoboundaryOfNormOneInSubalgebra` | wave-reused |
+| M024060 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoboundaryOfNormOneInSubalgebraStatement` | wave-reused |
+| M024064 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCochainEvEqOfNatural` | wave-reused |
+| M024065 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCochainEvEqOfNaturalStatement` | wave-reused |
+| M024070 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleLiftingLineBundleTransitionUnits` | wave-reused |
 | M024071 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleLiftingLineBundleTransitionUnitsStatement` | wave-reused |
 | M024072 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleOfMapToDegreeOneTerm` | wave-reused |
 | M024073 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleOfMapToDegreeOneTermStatement` | wave-reused |
@@ -396,9 +402,3 @@
 | M031190 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteDimensionalTranslatesDecomposition` | volunteer-build-reviewed |
 | M031207 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteEigenFiltrationPiecesAddValInt` | wave-reused |
 | M031208 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteEigenFiltrationPiecesAddValIntStatement` | wave-reused |
-| M031220 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteFibreAndEqOfSpecializesOfIsFinite` | volunteer-build-reviewed |
-| M031242 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteFlatSurjectiveClosedSubschemeOfOpenCover` | volunteer-build-reviewed |
-| M031263 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteGaloisFractionRingOfIsFractionRing` | volunteer-build-reviewed |
-| M031308 | P0105 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteIntegralClosureOfFormallyUnramified` | wave-reused |
-| M031309 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteIntegralClosureOverGenericFibreOfEtale` | wave-reused |
-| M031310 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteIntegralClosureOverGenericFibreOfEtaleStatement` | wave-reused |

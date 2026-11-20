@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M038763 | P1538 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPseudoEffectiveReducedUnivOfSectionPowStatement` | wave-reused |
+| M038800 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPullbackOfForallIsPushoutAppStatement` | volunteer-build-reviewed |
+| M038881 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsReducedOfFormallyEtale` | volunteer-build-reviewed |
+| M038888 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsRegFamConst` | volunteer-build-reviewed |
+| M038891 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsRegularAdjoinRoots` | wave-reused |
+| M038926 | P0109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSLTwoPermutedModularFamilyAlgebraClosure` | wave-reused |
 | M038927 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSLTwoPermutedModularFamilyAlgebraClosureStatement` | wave-reused |
 | M038928 | P0109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSLTwoPermutedModularFamilyIffValues` | wave-reused |
 | M038929 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSLTwoPermutedModularFamilyIffValuesStatement` | wave-reused |
@@ -396,9 +402,3 @@
 | M046502 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveElementCoordinatePolynomials` | volunteer-build-reviewed |
 | M046504 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveElementDenominatorClearing` | volunteer-build-reviewed |
 | M046506 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveElementFiniteAlgebraic` | volunteer-build-reviewed |
-| M046512 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveFunctionCharpolyGLHarishChandraRecursio` | wave-reused |
-| M046513 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveFunctionCharpolyGLHarishChandraRecursioStatement` | wave-reused |
-| M046514 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveFunctionCharpolyPairProdRootSum` | wave-reused |
-| M046515 | P0651 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveFunctionCharpolyPairProdRootSumStatement` | wave-reused |
-| M046524 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootFreeActionFinsuppSum` | wave-reused |
-| M046525 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootFreeActionFinsuppSumStatement` | wave-reused |

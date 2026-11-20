@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M066624 | P1037 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdicCompletionRegularAndTorsionBounded` | wave-reused |
+| M066625 | P1065 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdicCompletionRegularAndTorsionBoundedStatement` | wave-reused |
+| M066626 | P0029 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdicCompletionValuationRingCompleteValuationDoma` | wave-reused |
+| M066627 | P0120 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdicCompletionValuationRingCompleteValuationDomaStatement` | wave-reused |
+| M066628 | P0981 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdicTopologicalBasisBasisModPow` | wave-reused |
+| M066629 | P1009 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdicTopologicalBasisBasisModPowStatement` | wave-reused |
+| M066726 | P0190 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AevalEqZeroOfDvd` | wave-reused |
+| M066734 | P0029 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AevalLogDefect` | volunteer-build-reviewed |
 | M066740 | P1009 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfAdicTopologicalBasisOverBreuilKisin` | wave-reused |
 | M066741 | P1037 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfAdicTopologicalBasisOverBreuilKisinStatement` | wave-reused |
 | M066744 | P1037 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfClosedMembershipLimit` | wave-reused |
@@ -394,11 +402,3 @@
 | M070877 | P1357 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HarishChandraSeriesWeightLeSquarefree` | wave-reused |
 | M070878 | P1381 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HarishChandraSeriesWeightLeSquarefreeStatement` | wave-reused |
 | M070879 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HarishChandraSeriesWeightLowerComparison` | wave-reused |
-| M070880 | P1226 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HarishChandraSeriesWeightLowerComparisonStatement` | wave-reused |
-| M070881 | P0764 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HarishChandraSeriesWeightNonnegOfIdempotentGlnPr` | wave-reused |
-| M070882 | P0790 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HarishChandraSeriesWeightNonnegOfIdempotentGlnPrStatement` | wave-reused |
-| M070883 | P1332 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HarishChandraSeriesWeightSquarefreeLabelGelfandG` | wave-reused |
-| M070884 | P1357 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HarishChandraSeriesWeightSquarefreeLabelGelfandGStatement` | wave-reused |
-| M070892 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HasCompactSupportJacquetRallisOrbitalIntegrand` | volunteer-build-reviewed |
-| M070895 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HasCompactSupportPartialFourierGLBlockStatement` | volunteer-build-reviewed |
-| M071011 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HermitianBlockHasInvariantsOfLiftMatch` | volunteer-build-reviewed |

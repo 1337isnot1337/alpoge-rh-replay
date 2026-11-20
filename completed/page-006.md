@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013502 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GenRelNeZero` | volunteer-build-reviewed |
+| M013503 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GeneratingSectionFiniteExtNormalDomainIsBasis` | volunteer-build-reviewed |
+| M013515 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GeometricallyConnectedBasePointFreeGenericFibre` | volunteer-build-reviewed |
+| M013518 | P0839 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GeometricallyConnectedOfIsPullbackOfSurjective` | wave-reused |
+| M013520 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GeometricallyConnectedOfSection` | volunteer-build-reviewed |
+| M013526 | P0007 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GroupAlgebraSingleOneMemOfSpan` | wave-reused |
 | M013534 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GtAddIotaSubExist` | volunteer-build-reviewed |
 | M013543 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HasSumOfAdicSumUnitBallExtensionStatement` | volunteer-build-reviewed |
 | M013544 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HasTorusWeightIffTorusEquivariant` | volunteer-build-reviewed |
@@ -396,9 +402,3 @@
 | M018220 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffEvalTwoGroupsThreeGroupsEqZeroOfNeZero` | wave-reused |
 | M018221 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffEvalTwoGroupsThreeGroupsEqZeroOfNeZeroStatement` | wave-reused |
 | M018225 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffFormalGroupLawEvalPointsOfDegreeLeOne` | wave-reused |
-| M018226 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffFormalGroupLawEvalPointsOfDegreeLeOneStatement` | wave-reused |
-| M018234 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffMemSpanOfWeightedHomogeneousRelationQuasiReStatement` | volunteer-build-reviewed |
-| M018247 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPowerSeriesEvalTwoGroupsSecondThirdEqZero` | wave-reused |
-| M018248 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPowerSeriesEvalTwoGroupsSecondThirdEqZeroStatement` | wave-reused |
-| M018251 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowFirstAddSecondThreeGroups` | wave-reused |
-| M018252 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowFirstAddSecondThreeGroupsStatement` | wave-reused |

@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M060985 | P0304 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardLevelDatumGroupMulPow` | wave-reused |
+| M060986 | P0355 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardLevelDatumGroupMulPowStatement` | wave-reused |
+| M060987 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardMonicSquarefreeUnitConstPolysGe` | wave-reused |
+| M060988 | P0304 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardMonicSquarefreeUnitConstPolysGeStatement` | wave-reused |
+| M060994 | P0355 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardPermExistsStableSubsetLe` | wave-reused |
+| M060995 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardPermPartitionPartsMulCentralizer` | wave-reused |
 | M060996 | P0304 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardPermPartitionPartsMulCentralizerStatement` | wave-reused |
 | M061011 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CentralBinomLePowCardPrimesBetween` | wave-reused |
 | M061012 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CentralIdempotentIrreducibleCharacterProps` | wave-reused |
@@ -275,6 +281,7 @@
 | M062502 | P0188 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumCompOfIntermediateLatti` | volunteer-build-reviewed |
 | M062503 | P0251 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumCompOfIntermediateLattiStatement` | volunteer-build-reviewed |
 | M062504 | P0188 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumsCompEqIndex` | volunteer-build-reviewed |
+| M062505 | P0251 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumsCompEqIndexStatement` | volunteer-build-reviewed |
 | M062535 | P0118 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IdealEqBotOfFlatQuotientOfMapMaximalIdeal` | wave-reused |
 | M062554 | P0026 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ImportsMore` | wave-reused |
 | M062590 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnFdImPowMulExp` | wave-reused |
@@ -395,10 +402,3 @@
 | M063129 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFormCoeffSeqMulAndQExpansionStatement` | wave-reused |
 | M063132 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFormGammaOneOfCoeffSeq` | wave-reused |
 | M063133 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFormGammaOneOfCoeffSeqStatement` | wave-reused |
-| M063134 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFormSymmetricFunctionDecomp` | wave-reused |
-| M063135 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFormSymmetricFunctionDecompStatement` | wave-reused |
-| M063136 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldAnSlGerm` | wave-reused |
-| M063137 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldAnSlGermStatement` | wave-reused |
-| M063138 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldBoundedDenominators` | wave-reused |
-| M063139 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldBoundedDenominatorsStatement` | wave-reused |
-| M063140 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldClearDenominators` | wave-reused |

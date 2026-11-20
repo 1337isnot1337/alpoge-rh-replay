@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M085865 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ProjRepGraphSegreCoordinatesFibre` | volunteer-build-reviewed |
+| M085868 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ProjectiveRepresentationPullbackCoordinatesStatement` | volunteer-build-reviewed |
+| M085871 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.PullInvClsOfFibres` | volunteer-build-reviewed |
+| M085873 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.PulledSectionsFormBasisIdOfPulledSectionsFormBas` | volunteer-build-reviewed |
+| M085875 | P0903 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.PushEquivSymmLeft` | wave-reused |
+| M085879 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.PushforwardPolarisationBundleInvertibleOnModel` | volunteer-build-reviewed |
+| M085897 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleDiagonalBiadditiveOfE8Form` | volunteer-build-reviewed |
+| M085903 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleKTrivOfFiniteEtaleCover` | volunteer-build-reviewed |
 | M085909 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleOfCubeDivGeneratedFieldStatement` | volunteer-build-reviewed |
 | M085910 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleOfFaithfullyFlat` | volunteer-build-reviewed |
 | M085912 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleOfFieldExtensionBaseChange` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M090770 | P1336 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.KoszulSectionsExactAlgClosedPolarisedAV` | wave-reused |
 | M090771 | P1361 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.KoszulSectionsExactAlgClosedPolarisedAVStatement` | wave-reused |
 | M090776 | P0794 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.LePreimageOfClosedPoint` | volunteer-build-reviewed |
-| M090784 | P0794 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.LineBundlePowSectionsEqThetaLevel` | volunteer-build-reviewed |
-| M090785 | P0822 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.LineBundlePowSectionsEqThetaLevelStatement` | wave-reused |
-| M090786 | P1232 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.LinearMapCompEqOnSmulOfEq` | wave-reused |
-| M090790 | P1573 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.MemNonzeroLocusOfVia` | wave-reused |
-| M090791 | P0590 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.MemNonzeroLocusProdSec` | wave-reused |
-| M090793 | P0767 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.MemNonzeroLocusVia` | wave-reused |
-| M090794 | P0767 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.MemSpanOfForallGermMemSpan` | wave-reused |
-| M090797 | P0039 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.MulTransposeEqOfTransposeMulEq` | wave-reused |

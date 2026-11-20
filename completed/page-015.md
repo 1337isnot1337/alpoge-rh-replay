@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M063134 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFormSymmetricFunctionDecomp` | wave-reused |
+| M063135 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFormSymmetricFunctionDecompStatement` | wave-reused |
+| M063136 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldAnSlGerm` | wave-reused |
+| M063137 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldAnSlGermStatement` | wave-reused |
+| M063138 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldBoundedDenominators` | wave-reused |
+| M063139 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldBoundedDenominatorsStatement` | wave-reused |
+| M063140 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldClearDenominators` | wave-reused |
 | M063141 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldClearDenominatorsStatement` | wave-reused |
 | M063142 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldConstAndQuotient` | wave-reused |
 | M063143 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldConstAndQuotientStatement` | wave-reused |
@@ -395,10 +402,3 @@
 | M066575 | P0029 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AddMulInvMem` | wave-reused |
 | M066622 | P0029 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdicCompletionPrincipalPerfect` | wave-reused |
 | M066623 | P0120 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdicCompletionPrincipalPerfectStatement` | wave-reused |
-| M066624 | P1037 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdicCompletionRegularAndTorsionBounded` | wave-reused |
-| M066625 | P1065 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdicCompletionRegularAndTorsionBoundedStatement` | wave-reused |
-| M066626 | P0029 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdicCompletionValuationRingCompleteValuationDoma` | wave-reused |
-| M066627 | P0120 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdicCompletionValuationRingCompleteValuationDomaStatement` | wave-reused |
-| M066628 | P0981 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdicTopologicalBasisBasisModPow` | wave-reused |
-| M066629 | P1009 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdicTopologicalBasisBasisModPowStatement` | wave-reused |
-| M066726 | P0190 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AevalEqZeroOfDvd` | wave-reused |

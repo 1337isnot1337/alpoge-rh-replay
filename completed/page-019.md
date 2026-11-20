@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M083880 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FrameWConjMatrixUnitsStatement` | volunteer-build-reviewed |
+| M083884 | P0848 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FrechetContinuousContinuousOnOrbitHasDerivAt` | wave-reused |
+| M083885 | P0874 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FrechetContinuousContinuousOnOrbitHasDerivAtStatement` | wave-reused |
+| M083886 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FreeAlgebraActionCapelliDeterminantEqOperator` | wave-reused |
+| M083887 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FreeAlgebraActionCapelliDeterminantEqOperatorStatement` | volunteer-build-reviewed |
+| M083888 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FrepDiscreteSeriesSum` | wave-reused |
+| M083889 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FrepDiscreteSeriesSumStatement` | volunteer-build-reviewed |
+| M083892 | P1014 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GapCoefficientDerivativeBound` | wave-reused |
 | M083893 | P1042 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GapCoefficientDerivativeBoundStatement` | wave-reused |
 | M083895 | P0361 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GapSubsetOfSetBoundIntegral` | wave-reused |
 | M083900 | P1100 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GermExistsUniqueLinear` | wave-reused |
@@ -394,11 +402,3 @@
 | M085854 | P0793 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.PrimitiveRegularOnSectionNonzeroLocus` | wave-reused |
 | M085855 | P0821 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.PrimitiveRegularOnSectionNonzeroLocusStatement` | wave-reused |
 | M085864 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ProjCoordRepresentationGeometricFibreSpanningStatement` | volunteer-build-reviewed |
-| M085865 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ProjRepGraphSegreCoordinatesFibre` | volunteer-build-reviewed |
-| M085868 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ProjectiveRepresentationPullbackCoordinatesStatement` | volunteer-build-reviewed |
-| M085871 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.PullInvClsOfFibres` | volunteer-build-reviewed |
-| M085873 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.PulledSectionsFormBasisIdOfPulledSectionsFormBas` | volunteer-build-reviewed |
-| M085875 | P0903 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.PushEquivSymmLeft` | wave-reused |
-| M085879 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.PushforwardPolarisationBundleInvertibleOnModel` | volunteer-build-reviewed |
-| M085897 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleDiagonalBiadditiveOfE8Form` | volunteer-build-reviewed |
-| M085903 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleKTrivOfFiniteEtaleCover` | volunteer-build-reviewed |
