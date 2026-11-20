@@ -629,6 +629,11 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@hipotures](https://github.com/hipotures) | [P1521](https://github.com/rohanarun/alpoge-rh-replay/issues/1752) | Claimed |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M098089](https://github.com/rohanarun/alpoge-rh-replay/issues/1753) | Claimed |
 | [@egergerfg](https://github.com/egergerfg) | [M063220](https://github.com/rohanarun/alpoge-rh-replay/issues/1754) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M124811](https://github.com/rohanarun/alpoge-rh-replay/issues/1755) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M164483](https://github.com/rohanarun/alpoge-rh-replay/issues/1756) | Claimed |
+| [@dga471](https://github.com/dga471) | [M079958](https://github.com/rohanarun/alpoge-rh-replay/issues/1759) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M154133](https://github.com/rohanarun/alpoge-rh-replay/issues/1761) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M019287](https://github.com/rohanarun/alpoge-rh-replay/issues/1762) | Claimed |
 
 <!-- active-volunteers-end -->
 
@@ -793,6 +798,9 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@mu-mei](https://github.com/mu-mei) | [M084869](https://github.com/rohanarun/alpoge-rh-replay/issues/1746#issuecomment-7049241632) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M004802](https://github.com/rohanarun/alpoge-rh-replay/issues/1749#issuecomment-7049245854) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M003363](https://github.com/rohanarun/alpoge-rh-replay/issues/1750#issuecomment-7049245844) | Pending review |
+| [@maddoxjack](https://github.com/maddoxjack) | [M106538](https://github.com/rohanarun/alpoge-rh-replay/issues/1757#issuecomment-7049255321) | Pending review |
+| [@gabeldev](https://github.com/gabeldev) | [M109796](https://github.com/rohanarun/alpoge-rh-replay/issues/1758#issuecomment-7049256734) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M085038](https://github.com/rohanarun/alpoge-rh-replay/issues/1760#issuecomment-7049259310) | Pending review |
 
 <!-- pending-volunteers-end -->
 
