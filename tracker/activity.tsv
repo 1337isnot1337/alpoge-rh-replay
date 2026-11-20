@@ -279,9 +279,7 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:14:23Z	submission	223	BenCaunt
 2026-11-20T18:14:28Z	submission	222	BenCaunt
 2026-11-20T18:14:35Z	grant	307	gabeldev
-2026-11-20T18:14:35Z	grant	307	gabeldev
 2026-11-20T18:14:50Z	grant	320	Amahane-Hikari
-2026-11-20T18:15:02Z	submission	307	gabeldev
 2026-11-20T18:15:02Z	submission	307	gabeldev
 2026-11-20T18:15:26Z	grant	339	Wronskode
 2026-11-20T18:15:26Z	submission	320	Amahane-Hikari
@@ -660,3 +658,14 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:41:58Z	grant	608	BenCaunt
 2026-11-20T18:42:01Z	submission	599	Amahane-Hikari
 2026-11-20T18:42:08Z	submission	596	BenCaunt
+2026-11-20T18:42:14Z	grant	609	Amahane-Hikari
+2026-11-20T18:42:15Z	grant	611	dh5at
+2026-11-20T18:42:16Z	grant	612	BenCaunt
+2026-11-20T18:42:17Z	grant	613	Amahane-Hikari
+2026-11-20T18:42:33Z	submission	606	Amahane-Hikari
+2026-11-20T18:42:43Z	grant	614	hipotures
+2026-11-20T18:42:44Z	grant	615	Amahane-Hikari
+2026-11-20T18:42:45Z	grant	616	BenCaunt
+2026-11-20T18:42:47Z	grant	618	BenCaunt
+2026-11-20T18:42:48Z	grant	620	Amahane-Hikari
+2026-11-20T18:42:54Z	submission	609	Amahane-Hikari
