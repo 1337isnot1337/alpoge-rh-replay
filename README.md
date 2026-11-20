@@ -829,6 +829,8 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M000004](https://github.com/rohanarun/alpoge-rh-replay/issues/413#issuecomment-7047349062) | 1 | [Build evidence verified](evidence/volunteers/M000004.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M000005](https://github.com/rohanarun/alpoge-rh-replay/issues/432#issuecomment-7047356174) | 1 | [Build evidence verified](evidence/volunteers/M000005.json) |
 | [@dgahelper](https://github.com/dgahelper) | [M000028](https://github.com/rohanarun/alpoge-rh-replay/issues/136#issuecomment-7046171466) | 1 | [Build evidence verified](evidence/volunteers/M000028.json) |
+| [@123454321bobbob-tech](https://github.com/123454321bobbob-tech) | [M000029](https://github.com/rohanarun/alpoge-rh-replay/issues/1185#issuecomment-7049040375) | 1 | [Build evidence verified](evidence/volunteers/M000029.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M000032](https://github.com/rohanarun/alpoge-rh-replay/issues/1645#issuecomment-7049155700) | 1 | [Build evidence verified](evidence/volunteers/M000032.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M000425](https://github.com/rohanarun/alpoge-rh-replay/issues/563#issuecomment-7047632092) | 1 | [Build evidence verified](evidence/volunteers/M000425.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M000495](https://github.com/rohanarun/alpoge-rh-replay/issues/675#issuecomment-7047855431) | 1 | [Build evidence verified](evidence/volunteers/M000495.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M000526](https://github.com/rohanarun/alpoge-rh-replay/issues/677#issuecomment-7047858635) | 1 | [Build evidence verified](evidence/volunteers/M000526.json) |
@@ -838,6 +840,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@varo6](https://github.com/varo6) | [M000756](https://github.com/rohanarun/alpoge-rh-replay/issues/157#issuecomment-7046169778) | 1 | [Build evidence verified](evidence/volunteers/M000756.json) |
 | [@varo6](https://github.com/varo6) | [M000757](https://github.com/rohanarun/alpoge-rh-replay/issues/139#issuecomment-7046108657) | 1 | [Build evidence verified](evidence/volunteers/M000757.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M000920](https://github.com/rohanarun/alpoge-rh-replay/issues/590#issuecomment-7047701736) | 1 | [Build evidence verified](evidence/volunteers/M000920.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M001021](https://github.com/rohanarun/alpoge-rh-replay/issues/1499#issuecomment-7049037864) | 1 | [Build evidence verified](evidence/volunteers/M001021.json) |
 | [@hipotures](https://github.com/hipotures) | [M001082](https://github.com/rohanarun/alpoge-rh-replay/issues/587#issuecomment-7047693999) | 1 | [Build evidence verified](evidence/volunteers/M001082.json) |
 | [@Wronskode](https://github.com/Wronskode) | [M001169](https://github.com/rohanarun/alpoge-rh-replay/issues/545#issuecomment-7047608539) | 1 | [Build evidence verified](evidence/volunteers/M001169.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M001271](https://github.com/rohanarun/alpoge-rh-replay/issues/641#issuecomment-7047883785) | 1 | [Build evidence verified](evidence/volunteers/M001271.json) |
@@ -847,10 +850,12 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@BenCaunt](https://github.com/BenCaunt) | [M002164](https://github.com/rohanarun/alpoge-rh-replay/issues/198#issuecomment-7047062219) | 1 | [Build evidence verified](evidence/volunteers/M002164.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M002186](https://github.com/rohanarun/alpoge-rh-replay/issues/924#issuecomment-7048330680) | 1 | [Build evidence verified](evidence/volunteers/M002186.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M002218](https://github.com/rohanarun/alpoge-rh-replay/issues/960#issuecomment-7048241195) | 1 | [Build evidence verified](evidence/volunteers/M002218.json) |
+| [@BenCaunt](https://github.com/BenCaunt) | [M002271](https://github.com/rohanarun/alpoge-rh-replay/issues/1659#issuecomment-7049184092) | 1 | [Build evidence verified](evidence/volunteers/M002271.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M002272](https://github.com/rohanarun/alpoge-rh-replay/issues/1495#issuecomment-7048997803) | 1 | [Build evidence verified](evidence/volunteers/M002272.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M002278](https://github.com/rohanarun/alpoge-rh-replay/issues/1368#issuecomment-7048885020) | 1 | [Build evidence verified](evidence/volunteers/M002278.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M002284](https://github.com/rohanarun/alpoge-rh-replay/issues/468#issuecomment-7047388113) | 1 | [Build evidence verified](evidence/volunteers/M002284.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M002301](https://github.com/rohanarun/alpoge-rh-replay/issues/1392#issuecomment-7048904255) | 1 | [Build evidence verified](evidence/volunteers/M002301.json) |
+| [@BenCaunt](https://github.com/BenCaunt) | [M002309](https://github.com/rohanarun/alpoge-rh-replay/issues/1515#issuecomment-7049050302) | 1 | [Build evidence verified](evidence/volunteers/M002309.json) |
 | [@user42245](https://github.com/user42245) | [M002374](https://github.com/rohanarun/alpoge-rh-replay/issues/1312#issuecomment-7048847951) | 1 | [Build evidence verified](evidence/volunteers/M002374.json) |
 | [@jjjhenriksen](https://github.com/jjjhenriksen) | [M002416](https://github.com/rohanarun/alpoge-rh-replay/issues/1061#issuecomment-7048316089) | 1 | [Build evidence verified](evidence/volunteers/M002416.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M002605](https://github.com/rohanarun/alpoge-rh-replay/issues/513#issuecomment-7047616017) | 1 | [Build evidence verified](evidence/volunteers/M002605.json) |
@@ -861,6 +866,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@SeriousRising](https://github.com/SeriousRising) | [M002998](https://github.com/rohanarun/alpoge-rh-replay/issues/124#issuecomment-7045969982) | 1 | [Build evidence verified](evidence/volunteers/M002998.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M002999](https://github.com/rohanarun/alpoge-rh-replay/issues/957#issuecomment-7048359496) | 1 | [Build evidence verified](evidence/volunteers/M002999.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M003000](https://github.com/rohanarun/alpoge-rh-replay/issues/444#issuecomment-7047343855) | 1 | [Build evidence verified](evidence/volunteers/M003000.json) |
+| [@mu-mei](https://github.com/mu-mei) | [M003209](https://github.com/rohanarun/alpoge-rh-replay/issues/1695#issuecomment-7049182622) | 1 | [Build evidence verified](evidence/volunteers/M003209.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M003246](https://github.com/rohanarun/alpoge-rh-replay/issues/520#issuecomment-7047535869) | 1 | [Build evidence verified](evidence/volunteers/M003246.json) |
 | [@varo6](https://github.com/varo6) | [M003369](https://github.com/rohanarun/alpoge-rh-replay/issues/164#issuecomment-7046219921) | 1 | [Build evidence verified](evidence/volunteers/M003369.json) |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M003371](https://github.com/rohanarun/alpoge-rh-replay/issues/144#issuecomment-7046484735) | 1 | [Build evidence verified](evidence/volunteers/M003371.json) |
@@ -918,6 +924,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@BenCaunt](https://github.com/BenCaunt) | [M005507](https://github.com/rohanarun/alpoge-rh-replay/issues/694#issuecomment-7047928862) | 1 | [Build evidence verified](evidence/volunteers/M005507.json) |
 | [@user42245](https://github.com/user42245) | [M005725](https://github.com/rohanarun/alpoge-rh-replay/issues/1095#issuecomment-7048406795) | 1 | [Build evidence verified](evidence/volunteers/M005725.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M005733](https://github.com/rohanarun/alpoge-rh-replay/issues/577#issuecomment-7047676357) | 1 | [Build evidence verified](evidence/volunteers/M005733.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M006057](https://github.com/rohanarun/alpoge-rh-replay/issues/1707#issuecomment-7049203865) | 1 | [Build evidence verified](evidence/volunteers/M006057.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M006215](https://github.com/rohanarun/alpoge-rh-replay/issues/936#issuecomment-7048163195) | 1 | [Build evidence verified](evidence/volunteers/M006215.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M006320](https://github.com/rohanarun/alpoge-rh-replay/issues/1155#issuecomment-7048554147) | 1 | [Build evidence verified](evidence/volunteers/M006320.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M006409](https://github.com/rohanarun/alpoge-rh-replay/issues/933#issuecomment-7048155050) | 1 | [Build evidence verified](evidence/volunteers/M006409.json) |
@@ -934,22 +941,29 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@BenCaunt](https://github.com/BenCaunt) | [M007501](https://github.com/rohanarun/alpoge-rh-replay/issues/807#issuecomment-7048087432) | 1 | [Build evidence verified](evidence/volunteers/M007501.json) |
 | [@user42245](https://github.com/user42245) | [M007629](https://github.com/rohanarun/alpoge-rh-replay/issues/1360#issuecomment-7048887539) | 1 | [Build evidence verified](evidence/volunteers/M007629.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M008019](https://github.com/rohanarun/alpoge-rh-replay/issues/1465#issuecomment-7048951903) | 1 | [Build evidence verified](evidence/volunteers/M008019.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M008237](https://github.com/rohanarun/alpoge-rh-replay/issues/1606#issuecomment-7049220694) | 1 | [Build evidence verified](evidence/volunteers/M008237.json) |
 | [@hipotures](https://github.com/hipotures) | [M009521](https://github.com/rohanarun/alpoge-rh-replay/issues/598#issuecomment-7047713233) | 1 | [Build evidence verified](evidence/volunteers/M009521.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M009701](https://github.com/rohanarun/alpoge-rh-replay/issues/1503#issuecomment-7049038353) | 1 | [Build evidence verified](evidence/volunteers/M009701.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M009829](https://github.com/rohanarun/alpoge-rh-replay/issues/643#issuecomment-7047855468) | 1 | [Build evidence verified](evidence/volunteers/M009829.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M010367](https://github.com/rohanarun/alpoge-rh-replay/issues/1093#issuecomment-7048396561) | 1 | [Build evidence verified](evidence/volunteers/M010367.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M010368](https://github.com/rohanarun/alpoge-rh-replay/issues/1099#issuecomment-7048414722) | 1 | [Build evidence verified](evidence/volunteers/M010368.json) |
 | [@user42245](https://github.com/user42245) | [M010383](https://github.com/rohanarun/alpoge-rh-replay/issues/1418#issuecomment-7048918488) | 1 | [Build evidence verified](evidence/volunteers/M010383.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M010384](https://github.com/rohanarun/alpoge-rh-replay/issues/1535#issuecomment-7049114248) | 1 | [Build evidence verified](evidence/volunteers/M010384.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M010471](https://github.com/rohanarun/alpoge-rh-replay/issues/1002#issuecomment-7048258789) | 1 | [Build evidence verified](evidence/volunteers/M010471.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M010828](https://github.com/rohanarun/alpoge-rh-replay/issues/647#issuecomment-7047826560) | 1 | [Build evidence verified](evidence/volunteers/M010828.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M011956](https://github.com/rohanarun/alpoge-rh-replay/issues/1162#issuecomment-7048586688) | 1 | [Build evidence verified](evidence/volunteers/M011956.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M012745](https://github.com/rohanarun/alpoge-rh-replay/issues/1673#issuecomment-7049175516) | 1 | [Build evidence verified](evidence/volunteers/M012745.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M013482](https://github.com/rohanarun/alpoge-rh-replay/issues/1064#issuecomment-7048335962) | 1 | [Build evidence verified](evidence/volunteers/M013482.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M014516](https://github.com/rohanarun/alpoge-rh-replay/issues/1342#issuecomment-7048871070) | 1 | [Build evidence verified](evidence/volunteers/M014516.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M014783](https://github.com/rohanarun/alpoge-rh-replay/issues/1105#issuecomment-7048441048) | 1 | [Build evidence verified](evidence/volunteers/M014783.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M014784](https://github.com/rohanarun/alpoge-rh-replay/issues/1112#issuecomment-7048460240) | 1 | [Build evidence verified](evidence/volunteers/M014784.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M015083](https://github.com/rohanarun/alpoge-rh-replay/issues/1350#issuecomment-7048873255) | 1 | [Build evidence verified](evidence/volunteers/M015083.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M015143](https://github.com/rohanarun/alpoge-rh-replay/issues/533#issuecomment-7047548536) | 1 | [Build evidence verified](evidence/volunteers/M015143.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M015291](https://github.com/rohanarun/alpoge-rh-replay/issues/1712#issuecomment-7049207822) | 1 | [Build evidence verified](evidence/volunteers/M015291.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M015316](https://github.com/rohanarun/alpoge-rh-replay/issues/549#issuecomment-7047582789) | 1 | [Build evidence verified](evidence/volunteers/M015316.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M015397](https://github.com/rohanarun/alpoge-rh-replay/issues/1534#issuecomment-7049096690) | 1 | [Build evidence verified](evidence/volunteers/M015397.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M015464](https://github.com/rohanarun/alpoge-rh-replay/issues/1161#issuecomment-7048609953) | 1 | [Build evidence verified](evidence/volunteers/M015464.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M015501](https://github.com/rohanarun/alpoge-rh-replay/issues/1713#issuecomment-7049208011) | 1 | [Build evidence verified](evidence/volunteers/M015501.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M016067](https://github.com/rohanarun/alpoge-rh-replay/issues/695#issuecomment-7047929452) | 1 | [Build evidence verified](evidence/volunteers/M016067.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M016172](https://github.com/rohanarun/alpoge-rh-replay/issues/1340#issuecomment-7048876426) | 1 | [Build evidence verified](evidence/volunteers/M016172.json) |
 | [@hipotures](https://github.com/hipotures) | [M016244](https://github.com/rohanarun/alpoge-rh-replay/issues/614#issuecomment-7047747028) | 1 | [Build evidence verified](evidence/volunteers/M016244.json) |
@@ -990,6 +1004,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M031784](https://github.com/rohanarun/alpoge-rh-replay/issues/606#issuecomment-7047732297) | 1 | [Build evidence verified](evidence/volunteers/M031784.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M032078](https://github.com/rohanarun/alpoge-rh-replay/issues/1437#issuecomment-7048922557) | 1 | [Build evidence verified](evidence/volunteers/M032078.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M032777](https://github.com/rohanarun/alpoge-rh-replay/issues/949#issuecomment-7048183265) | 1 | [Build evidence verified](evidence/volunteers/M032777.json) |
+| [@BenCaunt](https://github.com/BenCaunt) | [M032882](https://github.com/rohanarun/alpoge-rh-replay/issues/1586#issuecomment-7049118126) | 1 | [Build evidence verified](evidence/volunteers/M032882.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M033156](https://github.com/rohanarun/alpoge-rh-replay/issues/718#issuecomment-7047992314) | 1 | [Build evidence verified](evidence/volunteers/M033156.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M033272](https://github.com/rohanarun/alpoge-rh-replay/issues/1322#issuecomment-7048830862) | 1 | [Build evidence verified](evidence/volunteers/M033272.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M033281](https://github.com/rohanarun/alpoge-rh-replay/issues/1297#issuecomment-7048826512) | 1 | [Build evidence verified](evidence/volunteers/M033281.json) |
@@ -999,6 +1014,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@BenCaunt](https://github.com/BenCaunt) | [M033875](https://github.com/rohanarun/alpoge-rh-replay/issues/455#issuecomment-7047454127) | 1 | [Build evidence verified](evidence/volunteers/M033875.json) |
 | [@unhingedpanda](https://github.com/unhingedpanda) | [M034064](https://github.com/rohanarun/alpoge-rh-replay/issues/741#issuecomment-7048061167) | 1 | [Build evidence verified](evidence/volunteers/M034064.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M034256](https://github.com/rohanarun/alpoge-rh-replay/issues/645#issuecomment-7047808008) | 1 | [Build evidence verified](evidence/volunteers/M034256.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M034302](https://github.com/rohanarun/alpoge-rh-replay/issues/1474#issuecomment-7049100289) | 1 | [Build evidence verified](evidence/volunteers/M034302.json) |
 | [@user42245](https://github.com/user42245) | [M034591](https://github.com/rohanarun/alpoge-rh-replay/issues/1097#issuecomment-7048410983) | 1 | [Build evidence verified](evidence/volunteers/M034591.json) |
 | [@user42245](https://github.com/user42245) | [M034606](https://github.com/rohanarun/alpoge-rh-replay/issues/1485#issuecomment-7048971446) | 1 | [Build evidence verified](evidence/volunteers/M034606.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M034815](https://github.com/rohanarun/alpoge-rh-replay/issues/627#issuecomment-7047797597) | 1 | [Build evidence verified](evidence/volunteers/M034815.json) |
@@ -1035,6 +1051,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M051622](https://github.com/rohanarun/alpoge-rh-replay/issues/609#issuecomment-7047739682) | 1 | [Build evidence verified](evidence/volunteers/M051622.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M051628](https://github.com/rohanarun/alpoge-rh-replay/issues/1114#issuecomment-7048488572) | 1 | [Build evidence verified](evidence/volunteers/M051628.json) |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M051660](https://github.com/rohanarun/alpoge-rh-replay/issues/1375#issuecomment-7048907050) | 1 | [Build evidence verified](evidence/volunteers/M051660.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M052314](https://github.com/rohanarun/alpoge-rh-replay/issues/1506#issuecomment-7049068397) | 1 | [Build evidence verified](evidence/volunteers/M052314.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M053169](https://github.com/rohanarun/alpoge-rh-replay/issues/1491#issuecomment-7048985792) | 1 | [Build evidence verified](evidence/volunteers/M053169.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M053214](https://github.com/rohanarun/alpoge-rh-replay/issues/527#issuecomment-7047541568) | 1 | [Build evidence verified](evidence/volunteers/M053214.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M053490](https://github.com/rohanarun/alpoge-rh-replay/issues/355#issuecomment-7047232735) | 1 | [Build evidence verified](evidence/volunteers/M053490.json) |
@@ -1057,14 +1074,19 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M059463](https://github.com/rohanarun/alpoge-rh-replay/issues/1014#issuecomment-7048267476) | 1 | [Build evidence verified](evidence/volunteers/M059463.json) |
 | [@jjjhenriksen](https://github.com/jjjhenriksen) | [M059621](https://github.com/rohanarun/alpoge-rh-replay/issues/1100#issuecomment-7048446575) | 1 | [Build evidence verified](evidence/volunteers/M059621.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M060133](https://github.com/rohanarun/alpoge-rh-replay/issues/955#issuecomment-7048198985) | 1 | [Build evidence verified](evidence/volunteers/M060133.json) |
+| [@gabeldev](https://github.com/gabeldev) | [M060222](https://github.com/rohanarun/alpoge-rh-replay/issues/1527#issuecomment-7049042416) | 1 | [Build evidence verified](evidence/volunteers/M060222.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M060527](https://github.com/rohanarun/alpoge-rh-replay/issues/525#issuecomment-7047562566) | 1 | [Build evidence verified](evidence/volunteers/M060527.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M060556](https://github.com/rohanarun/alpoge-rh-replay/issues/534#issuecomment-7047555462) | 1 | [Build evidence verified](evidence/volunteers/M060556.json) |
+| [@user42245](https://github.com/user42245) | [M060770](https://github.com/rohanarun/alpoge-rh-replay/issues/1549#issuecomment-7049079338) | 1 | [Build evidence verified](evidence/volunteers/M060770.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M060853](https://github.com/rohanarun/alpoge-rh-replay/issues/651#issuecomment-7047883903) | 1 | [Build evidence verified](evidence/volunteers/M060853.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M060871](https://github.com/rohanarun/alpoge-rh-replay/issues/686#issuecomment-7047882340) | 1 | [Build evidence verified](evidence/volunteers/M060871.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M060872](https://github.com/rohanarun/alpoge-rh-replay/issues/691#issuecomment-7047900441) | 1 | [Build evidence verified](evidence/volunteers/M060872.json) |
+| [@gabeldev](https://github.com/gabeldev) | [M061187](https://github.com/rohanarun/alpoge-rh-replay/issues/1547#issuecomment-7049070083) | 1 | [Build evidence verified](evidence/volunteers/M061187.json) |
+| [@BenCaunt](https://github.com/BenCaunt) | [M061307](https://github.com/rohanarun/alpoge-rh-replay/issues/1650#issuecomment-7049181694) | 1 | [Build evidence verified](evidence/volunteers/M061307.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M061489](https://github.com/rohanarun/alpoge-rh-replay/issues/725#issuecomment-7047979307) | 1 | [Build evidence verified](evidence/volunteers/M061489.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M061490](https://github.com/rohanarun/alpoge-rh-replay/issues/745#issuecomment-7048018401) | 1 | [Build evidence verified](evidence/volunteers/M061490.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M061656](https://github.com/rohanarun/alpoge-rh-replay/issues/756#issuecomment-7048038269) | 1 | [Build evidence verified](evidence/volunteers/M061656.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M061834](https://github.com/rohanarun/alpoge-rh-replay/issues/1538#issuecomment-7049115889) | 1 | [Build evidence verified](evidence/volunteers/M061834.json) |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M061875](https://github.com/rohanarun/alpoge-rh-replay/issues/1458#issuecomment-7048963029) | 1 | [Build evidence verified](evidence/volunteers/M061875.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M061929](https://github.com/rohanarun/alpoge-rh-replay/issues/653#issuecomment-7047820003) | 1 | [Build evidence verified](evidence/volunteers/M061929.json) |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M062129](https://github.com/rohanarun/alpoge-rh-replay/issues/147#issuecomment-7046486614) | 1 | [Build evidence verified](evidence/volunteers/M062129.json) |
@@ -1076,7 +1098,9 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@maddoxjack](https://github.com/maddoxjack) | [M062512](https://github.com/rohanarun/alpoge-rh-replay/issues/938#issuecomment-7048162673) | 1 | [Build evidence verified](evidence/volunteers/M062512.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M062513](https://github.com/rohanarun/alpoge-rh-replay/issues/950#issuecomment-7048187611) | 1 | [Build evidence verified](evidence/volunteers/M062513.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M062705](https://github.com/rohanarun/alpoge-rh-replay/issues/410#issuecomment-7047417775) | 1 | [Build evidence verified](evidence/volunteers/M062705.json) |
+| [@user42245](https://github.com/user42245) | [M062731](https://github.com/rohanarun/alpoge-rh-replay/issues/1561#issuecomment-7049088456) | 1 | [Build evidence verified](evidence/volunteers/M062731.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M062907](https://github.com/rohanarun/alpoge-rh-replay/issues/1313#issuecomment-7048837245) | 1 | [Build evidence verified](evidence/volunteers/M062907.json) |
+| [@user42245](https://github.com/user42245) | [M063060](https://github.com/rohanarun/alpoge-rh-replay/issues/1639#issuecomment-7049139867) | 1 | [Build evidence verified](evidence/volunteers/M063060.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M063293](https://github.com/rohanarun/alpoge-rh-replay/issues/999#issuecomment-7048251870) | 1 | [Build evidence verified](evidence/volunteers/M063293.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M063294](https://github.com/rohanarun/alpoge-rh-replay/issues/962#issuecomment-7048205528) | 1 | [Build evidence verified](evidence/volunteers/M063294.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M063295](https://github.com/rohanarun/alpoge-rh-replay/issues/978#issuecomment-7048224140) | 1 | [Build evidence verified](evidence/volunteers/M063295.json) |
@@ -1096,14 +1120,19 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@gabeldev](https://github.com/gabeldev) | [M064363](https://github.com/rohanarun/alpoge-rh-replay/issues/1186#issuecomment-7048641379) | 1 | [Build evidence verified](evidence/volunteers/M064363.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M064440](https://github.com/rohanarun/alpoge-rh-replay/issues/748#issuecomment-7048031591) | 1 | [Build evidence verified](evidence/volunteers/M064440.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M064639](https://github.com/rohanarun/alpoge-rh-replay/issues/990#issuecomment-7048237206) | 1 | [Build evidence verified](evidence/volunteers/M064639.json) |
+| [@BenCaunt](https://github.com/BenCaunt) | [M064644](https://github.com/rohanarun/alpoge-rh-replay/issues/1578#issuecomment-7049118336) | 1 | [Build evidence verified](evidence/volunteers/M064644.json) |
 | [@unhingedpanda](https://github.com/unhingedpanda) | [M065131](https://github.com/rohanarun/alpoge-rh-replay/issues/747#issuecomment-7048061681) | 1 | [Build evidence verified](evidence/volunteers/M065131.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M065412](https://github.com/rohanarun/alpoge-rh-replay/issues/717#issuecomment-7047961353) | 1 | [Build evidence verified](evidence/volunteers/M065412.json) |
+| [@gabeldev](https://github.com/gabeldev) | [M065677](https://github.com/rohanarun/alpoge-rh-replay/issues/1584#issuecomment-7049100026) | 1 | [Build evidence verified](evidence/volunteers/M065677.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M065991](https://github.com/rohanarun/alpoge-rh-replay/issues/1585#issuecomment-7049175689) | 1 | [Build evidence verified](evidence/volunteers/M065991.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M066012](https://github.com/rohanarun/alpoge-rh-replay/issues/539#issuecomment-7047554536) | 1 | [Build evidence verified](evidence/volunteers/M066012.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M066154](https://github.com/rohanarun/alpoge-rh-replay/issues/765#issuecomment-7048072100) | 1 | [Build evidence verified](evidence/volunteers/M066154.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M066174](https://github.com/rohanarun/alpoge-rh-replay/issues/1146#issuecomment-7048551690) | 1 | [Build evidence verified](evidence/volunteers/M066174.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M066213](https://github.com/rohanarun/alpoge-rh-replay/issues/505#issuecomment-7047511768) | 1 | [Build evidence verified](evidence/volunteers/M066213.json) |
 | [@user42245](https://github.com/user42245) | [M066371](https://github.com/rohanarun/alpoge-rh-replay/issues/1058#issuecomment-7048306963) | 1 | [Build evidence verified](evidence/volunteers/M066371.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M066450](https://github.com/rohanarun/alpoge-rh-replay/issues/462#issuecomment-7047360435) | 1 | [Build evidence verified](evidence/volunteers/M066450.json) |
+| [@gabeldev](https://github.com/gabeldev) | [M066459](https://github.com/rohanarun/alpoge-rh-replay/issues/1622#issuecomment-7049130818) | 1 | [Build evidence verified](evidence/volunteers/M066459.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M066480](https://github.com/rohanarun/alpoge-rh-replay/issues/1524#issuecomment-7049096442) | 1 | [Build evidence verified](evidence/volunteers/M066480.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M066515](https://github.com/rohanarun/alpoge-rh-replay/issues/707#issuecomment-7047946193) | 1 | [Build evidence verified](evidence/volunteers/M066515.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M066734](https://github.com/rohanarun/alpoge-rh-replay/issues/932#issuecomment-7048154869) | 1 | [Build evidence verified](evidence/volunteers/M066734.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M066812](https://github.com/rohanarun/alpoge-rh-replay/issues/823#issuecomment-7048094986) | 1 | [Build evidence verified](evidence/volunteers/M066812.json) |
@@ -1111,13 +1140,19 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@BenCaunt](https://github.com/BenCaunt) | [M066992](https://github.com/rohanarun/alpoge-rh-replay/issues/621#issuecomment-7047797614) | 1 | [Build evidence verified](evidence/volunteers/M066992.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M066999](https://github.com/rohanarun/alpoge-rh-replay/issues/629#issuecomment-7047797213) | 1 | [Build evidence verified](evidence/volunteers/M066999.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M067253](https://github.com/rohanarun/alpoge-rh-replay/issues/678#issuecomment-7047858957) | 1 | [Build evidence verified](evidence/volunteers/M067253.json) |
+| [@user42245](https://github.com/user42245) | [M067505](https://github.com/rohanarun/alpoge-rh-replay/issues/1653#issuecomment-7049179073) | 1 | [Build evidence verified](evidence/volunteers/M067505.json) |
+| [@user42245](https://github.com/user42245) | [M068206](https://github.com/rohanarun/alpoge-rh-replay/issues/1662#issuecomment-7049187692) | 1 | [Build evidence verified](evidence/volunteers/M068206.json) |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M068383](https://github.com/rohanarun/alpoge-rh-replay/issues/1076#issuecomment-7048373943) | 1 | [Build evidence verified](evidence/volunteers/M068383.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M068732](https://github.com/rohanarun/alpoge-rh-replay/issues/1475#issuecomment-7049101376) | 1 | [Build evidence verified](evidence/volunteers/M068732.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M069127](https://github.com/rohanarun/alpoge-rh-replay/issues/1324#issuecomment-7048843566) | 1 | [Build evidence verified](evidence/volunteers/M069127.json) |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M069562](https://github.com/rohanarun/alpoge-rh-replay/issues/1079#issuecomment-7048393204) | 1 | [Build evidence verified](evidence/volunteers/M069562.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M070055](https://github.com/rohanarun/alpoge-rh-replay/issues/1203#issuecomment-7048696144) | 1 | [Build evidence verified](evidence/volunteers/M070055.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M070227](https://github.com/rohanarun/alpoge-rh-replay/issues/1173#issuecomment-7048758391) | 1 | [Build evidence verified](evidence/volunteers/M070227.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M070284](https://github.com/rohanarun/alpoge-rh-replay/issues/1085#issuecomment-7048363550) | 1 | [Build evidence verified](evidence/volunteers/M070284.json) |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M070302](https://github.com/rohanarun/alpoge-rh-replay/issues/1508#issuecomment-7049043182) | 1 | [Build evidence verified](evidence/volunteers/M070302.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M070304](https://github.com/rohanarun/alpoge-rh-replay/issues/632#issuecomment-7047855511) | 1 | [Build evidence verified](evidence/volunteers/M070304.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M070470](https://github.com/rohanarun/alpoge-rh-replay/issues/1631#issuecomment-7049155839) | 1 | [Build evidence verified](evidence/volunteers/M070470.json) |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M070521](https://github.com/rohanarun/alpoge-rh-replay/issues/1510#issuecomment-7049070748) | 1 | [Build evidence verified](evidence/volunteers/M070521.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M070564](https://github.com/rohanarun/alpoge-rh-replay/issues/524#issuecomment-7047562768) | 1 | [Build evidence verified](evidence/volunteers/M070564.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M071746](https://github.com/rohanarun/alpoge-rh-replay/issues/506#issuecomment-7047511171) | 1 | [Build evidence verified](evidence/volunteers/M071746.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M071970](https://github.com/rohanarun/alpoge-rh-replay/issues/697#issuecomment-7047923400) | 1 | [Build evidence verified](evidence/volunteers/M071970.json) |
@@ -1139,9 +1174,11 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@BenCaunt](https://github.com/BenCaunt) | [M076498](https://github.com/rohanarun/alpoge-rh-replay/issues/526#issuecomment-7047589670) | 1 | [Build evidence verified](evidence/volunteers/M076498.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M076932](https://github.com/rohanarun/alpoge-rh-replay/issues/654#issuecomment-7047855748) | 1 | [Build evidence verified](evidence/volunteers/M076932.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M078075](https://github.com/rohanarun/alpoge-rh-replay/issues/1326#issuecomment-7048843671) | 1 | [Build evidence verified](evidence/volunteers/M078075.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M079729](https://github.com/rohanarun/alpoge-rh-replay/issues/1705#issuecomment-7049189407) | 1 | [Build evidence verified](evidence/volunteers/M079729.json) |
 | [@TVSuchty](https://github.com/TVSuchty) | [M080008](https://github.com/rohanarun/alpoge-rh-replay/issues/86#issuecomment-7045864795) | 1 | [Build evidence verified](evidence/volunteers/M080008.json) |
 | [@TVSuchty](https://github.com/TVSuchty) | [M080009](https://github.com/rohanarun/alpoge-rh-replay/issues/138#issuecomment-7046218293) | 1 | [Build evidence verified](evidence/volunteers/M080009.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M080275](https://github.com/rohanarun/alpoge-rh-replay/issues/1108#issuecomment-7048446756) | 1 | [Build evidence verified](evidence/volunteers/M080275.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M080709](https://github.com/rohanarun/alpoge-rh-replay/issues/1518#issuecomment-7049068263) | 1 | [Build evidence verified](evidence/volunteers/M080709.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M081032](https://github.com/rohanarun/alpoge-rh-replay/issues/1295#issuecomment-7048955859) | 1 | [Build evidence verified](evidence/volunteers/M081032.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M081419](https://github.com/rohanarun/alpoge-rh-replay/issues/552#issuecomment-7047593720) | 1 | [Build evidence verified](evidence/volunteers/M081419.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M081483](https://github.com/rohanarun/alpoge-rh-replay/issues/979#issuecomment-7048231644) | 1 | [Build evidence verified](evidence/volunteers/M081483.json) |
@@ -1163,15 +1200,24 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@mu-mei](https://github.com/mu-mei) | [M084709](https://github.com/rohanarun/alpoge-rh-replay/issues/1479#issuecomment-7048973650) | 1 | [Build evidence verified](evidence/volunteers/M084709.json) |
 | [@mu-mei](https://github.com/mu-mei) | [M084741](https://github.com/rohanarun/alpoge-rh-replay/issues/1500#issuecomment-7048994687) | 1 | [Build evidence verified](evidence/volunteers/M084741.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M084788](https://github.com/rohanarun/alpoge-rh-replay/issues/613#issuecomment-7047741713) | 1 | [Build evidence verified](evidence/volunteers/M084788.json) |
+| [@mu-mei](https://github.com/mu-mei) | [M084795](https://github.com/rohanarun/alpoge-rh-replay/issues/1554#issuecomment-7049086537) | 1 | [Build evidence verified](evidence/volunteers/M084795.json) |
+| [@mu-mei](https://github.com/mu-mei) | [M084799](https://github.com/rohanarun/alpoge-rh-replay/issues/1599#issuecomment-7049113453) | 1 | [Build evidence verified](evidence/volunteers/M084799.json) |
+| [@mu-mei](https://github.com/mu-mei) | [M084803](https://github.com/rohanarun/alpoge-rh-replay/issues/1636#issuecomment-7049141372) | 1 | [Build evidence verified](evidence/volunteers/M084803.json) |
 | [@mu-mei](https://github.com/mu-mei) | [M085098](https://github.com/rohanarun/alpoge-rh-replay/issues/1345#issuecomment-7048850221) | 1 | [Build evidence verified](evidence/volunteers/M085098.json) |
 | [@mu-mei](https://github.com/mu-mei) | [M085100](https://github.com/rohanarun/alpoge-rh-replay/issues/1394#issuecomment-7048892300) | 1 | [Build evidence verified](evidence/volunteers/M085100.json) |
 | [@mu-mei](https://github.com/mu-mei) | [M085122](https://github.com/rohanarun/alpoge-rh-replay/issues/1460#issuecomment-7048938145) | 1 | [Build evidence verified](evidence/volunteers/M085122.json) |
 | [@mu-mei](https://github.com/mu-mei) | [M085128](https://github.com/rohanarun/alpoge-rh-replay/issues/1476#issuecomment-7048962058) | 1 | [Build evidence verified](evidence/volunteers/M085128.json) |
 | [@mu-mei](https://github.com/mu-mei) | [M085218](https://github.com/rohanarun/alpoge-rh-replay/issues/1513#issuecomment-7049019541) | 1 | [Build evidence verified](evidence/volunteers/M085218.json) |
+| [@mu-mei](https://github.com/mu-mei) | [M085240](https://github.com/rohanarun/alpoge-rh-replay/issues/1551#issuecomment-7049087467) | 1 | [Build evidence verified](evidence/volunteers/M085240.json) |
+| [@mu-mei](https://github.com/mu-mei) | [M085278](https://github.com/rohanarun/alpoge-rh-replay/issues/1722#issuecomment-7049202764) | 1 | [Build evidence verified](evidence/volunteers/M085278.json) |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M086950](https://github.com/rohanarun/alpoge-rh-replay/issues/1679#issuecomment-7049205839) | 1 | [Build evidence verified](evidence/volunteers/M086950.json) |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M087191](https://github.com/rohanarun/alpoge-rh-replay/issues/1690#issuecomment-7049217654) | 1 | [Build evidence verified](evidence/volunteers/M087191.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M087716](https://github.com/rohanarun/alpoge-rh-replay/issues/724#issuecomment-7047984161) | 1 | [Build evidence verified](evidence/volunteers/M087716.json) |
+| [@mu-mei](https://github.com/mu-mei) | [M088601](https://github.com/rohanarun/alpoge-rh-replay/issues/1642#issuecomment-7049144252) | 1 | [Build evidence verified](evidence/volunteers/M088601.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M089185](https://github.com/rohanarun/alpoge-rh-replay/issues/753#issuecomment-7048046424) | 1 | [Build evidence verified](evidence/volunteers/M089185.json) |
 | [@user42245](https://github.com/user42245) | [M089317](https://github.com/rohanarun/alpoge-rh-replay/issues/1110#issuecomment-7048451993) | 1 | [Build evidence verified](evidence/volunteers/M089317.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M090976](https://github.com/rohanarun/alpoge-rh-replay/issues/1043#issuecomment-7048293407) | 1 | [Build evidence verified](evidence/volunteers/M090976.json) |
+| [@gabeldev](https://github.com/gabeldev) | [M091378](https://github.com/rohanarun/alpoge-rh-replay/issues/1669#issuecomment-7049161839) | 1 | [Build evidence verified](evidence/volunteers/M091378.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M091388](https://github.com/rohanarun/alpoge-rh-replay/issues/1200#issuecomment-7048665489) | 1 | [Build evidence verified](evidence/volunteers/M091388.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M091830](https://github.com/rohanarun/alpoge-rh-replay/issues/1168#issuecomment-7048658384) | 1 | [Build evidence verified](evidence/volunteers/M091830.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M094256](https://github.com/rohanarun/alpoge-rh-replay/issues/693#issuecomment-7047928962) | 1 | [Build evidence verified](evidence/volunteers/M094256.json) |
@@ -1195,6 +1241,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@mu-mei](https://github.com/mu-mei) | [M101074](https://github.com/rohanarun/alpoge-rh-replay/issues/1264#issuecomment-7048773102) | 1 | [Build evidence verified](evidence/volunteers/M101074.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M101079](https://github.com/rohanarun/alpoge-rh-replay/issues/226#issuecomment-7047180646) | 1 | [Build evidence verified](evidence/volunteers/M101079.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M101080](https://github.com/rohanarun/alpoge-rh-replay/issues/222#issuecomment-7047150416) | 1 | [Build evidence verified](evidence/volunteers/M101080.json) |
+| [@mu-mei](https://github.com/mu-mei) | [M101102](https://github.com/rohanarun/alpoge-rh-replay/issues/1727#issuecomment-7049215046) | 1 | [Build evidence verified](evidence/volunteers/M101102.json) |
 | [@Wronskode](https://github.com/Wronskode) | [M101325](https://github.com/rohanarun/alpoge-rh-replay/issues/274#issuecomment-7047137132) | 1 | [Build evidence verified](evidence/volunteers/M101325.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M101429](https://github.com/rohanarun/alpoge-rh-replay/issues/528#issuecomment-7047589506) | 1 | [Build evidence verified](evidence/volunteers/M101429.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M101433](https://github.com/rohanarun/alpoge-rh-replay/issues/721#issuecomment-7047963382) | 1 | [Build evidence verified](evidence/volunteers/M101433.json) |
@@ -1208,9 +1255,11 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@BenCaunt](https://github.com/BenCaunt) | [M101647](https://github.com/rohanarun/alpoge-rh-replay/issues/605#issuecomment-7047745022) | 1 | [Build evidence verified](evidence/volunteers/M101647.json) |
 | [@user42245](https://github.com/user42245) | [M102943](https://github.com/rohanarun/alpoge-rh-replay/issues/239#issuecomment-7047092708) | 1 | [Build evidence verified](evidence/volunteers/M102943.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M102980](https://github.com/rohanarun/alpoge-rh-replay/issues/459#issuecomment-7047354307) | 1 | [Build evidence verified](evidence/volunteers/M102980.json) |
+| [@gabeldev](https://github.com/gabeldev) | [M103037](https://github.com/rohanarun/alpoge-rh-replay/issues/1709#issuecomment-7049195568) | 1 | [Build evidence verified](evidence/volunteers/M103037.json) |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M103332](https://github.com/rohanarun/alpoge-rh-replay/issues/143#issuecomment-7046484168) | 1 | [Build evidence verified](evidence/volunteers/M103332.json) |
 | [@Genius-Cai-wen-zheng](https://github.com/Genius-Cai-wen-zheng) | [M103506](https://github.com/rohanarun/alpoge-rh-replay/issues/126#issuecomment-7045987064) | 1 | [Build evidence verified](evidence/volunteers/M103506.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M103882](https://github.com/rohanarun/alpoge-rh-replay/issues/1164#issuecomment-7048613090) | 1 | [Build evidence verified](evidence/volunteers/M103882.json) |
+| [@BenCaunt](https://github.com/BenCaunt) | [M103935](https://github.com/rohanarun/alpoge-rh-replay/issues/1525#issuecomment-7049052475) | 1 | [Build evidence verified](evidence/volunteers/M103935.json) |
 | [@user42245](https://github.com/user42245) | [M104090](https://github.com/rohanarun/alpoge-rh-replay/issues/1113#issuecomment-7048491730) | 1 | [Build evidence verified](evidence/volunteers/M104090.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M104576](https://github.com/rohanarun/alpoge-rh-replay/issues/461#issuecomment-7047361580) | 1 | [Build evidence verified](evidence/volunteers/M104576.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M104579](https://github.com/rohanarun/alpoge-rh-replay/issues/403#issuecomment-7047224614) | 1 | [Build evidence verified](evidence/volunteers/M104579.json) |
@@ -1223,9 +1272,16 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@maddoxjack](https://github.com/maddoxjack) | [M106523](https://github.com/rohanarun/alpoge-rh-replay/issues/1358#issuecomment-7048862974) | 1 | [Build evidence verified](evidence/volunteers/M106523.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M106524](https://github.com/rohanarun/alpoge-rh-replay/issues/1404#issuecomment-7048897215) | 1 | [Build evidence verified](evidence/volunteers/M106524.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M106526](https://github.com/rohanarun/alpoge-rh-replay/issues/1450#issuecomment-7048930300) | 1 | [Build evidence verified](evidence/volunteers/M106526.json) |
+| [@maddoxjack](https://github.com/maddoxjack) | [M106527](https://github.com/rohanarun/alpoge-rh-replay/issues/1528#issuecomment-7049043886) | 1 | [Build evidence verified](evidence/volunteers/M106527.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M106529](https://github.com/rohanarun/alpoge-rh-replay/issues/1471#issuecomment-7048949895) | 1 | [Build evidence verified](evidence/volunteers/M106529.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M106530](https://github.com/rohanarun/alpoge-rh-replay/issues/1497#issuecomment-7048996318) | 1 | [Build evidence verified](evidence/volunteers/M106530.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M106531](https://github.com/rohanarun/alpoge-rh-replay/issues/1514#issuecomment-7049023857) | 1 | [Build evidence verified](evidence/volunteers/M106531.json) |
+| [@maddoxjack](https://github.com/maddoxjack) | [M106532](https://github.com/rohanarun/alpoge-rh-replay/issues/1545#issuecomment-7049063621) | 1 | [Build evidence verified](evidence/volunteers/M106532.json) |
+| [@maddoxjack](https://github.com/maddoxjack) | [M106533](https://github.com/rohanarun/alpoge-rh-replay/issues/1570#issuecomment-7049088851) | 1 | [Build evidence verified](evidence/volunteers/M106533.json) |
+| [@maddoxjack](https://github.com/maddoxjack) | [M106534](https://github.com/rohanarun/alpoge-rh-replay/issues/1602#issuecomment-7049114852) | 1 | [Build evidence verified](evidence/volunteers/M106534.json) |
+| [@maddoxjack](https://github.com/maddoxjack) | [M106535](https://github.com/rohanarun/alpoge-rh-replay/issues/1638#issuecomment-7049141266) | 1 | [Build evidence verified](evidence/volunteers/M106535.json) |
+| [@maddoxjack](https://github.com/maddoxjack) | [M106536](https://github.com/rohanarun/alpoge-rh-replay/issues/1682#issuecomment-7049174507) | 1 | [Build evidence verified](evidence/volunteers/M106536.json) |
+| [@maddoxjack](https://github.com/maddoxjack) | [M106537](https://github.com/rohanarun/alpoge-rh-replay/issues/1716#issuecomment-7049202229) | 1 | [Build evidence verified](evidence/volunteers/M106537.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M106654](https://github.com/rohanarun/alpoge-rh-replay/issues/218#issuecomment-7047090799) | 1 | [Build evidence verified](evidence/volunteers/M106654.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M107338](https://github.com/rohanarun/alpoge-rh-replay/issues/447#issuecomment-7047343971) | 1 | [Build evidence verified](evidence/volunteers/M107338.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M107351](https://github.com/rohanarun/alpoge-rh-replay/issues/709#issuecomment-7047964702) | 1 | [Build evidence verified](evidence/volunteers/M107351.json) |
@@ -1283,8 +1339,12 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@gabeldev](https://github.com/gabeldev) | [M129533](https://github.com/rohanarun/alpoge-rh-replay/issues/487#issuecomment-7047429842) | 1 | [Build evidence verified](evidence/volunteers/M129533.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M129547](https://github.com/rohanarun/alpoge-rh-replay/issues/601#issuecomment-7047743052) | 1 | [Build evidence verified](evidence/volunteers/M129547.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M130653](https://github.com/rohanarun/alpoge-rh-replay/issues/1260#issuecomment-7048756042) | 1 | [Build evidence verified](evidence/volunteers/M130653.json) |
+| [@BenCaunt](https://github.com/BenCaunt) | [M130655](https://github.com/rohanarun/alpoge-rh-replay/issues/1522#issuecomment-7049052572) | 1 | [Build evidence verified](evidence/volunteers/M130655.json) |
+| [@BenCaunt](https://github.com/BenCaunt) | [M130656](https://github.com/rohanarun/alpoge-rh-replay/issues/1665#issuecomment-7049192437) | 1 | [Build evidence verified](evidence/volunteers/M130656.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M130687](https://github.com/rohanarun/alpoge-rh-replay/issues/608#issuecomment-7047745254) | 1 | [Build evidence verified](evidence/volunteers/M130687.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M130796](https://github.com/rohanarun/alpoge-rh-replay/issues/1488#issuecomment-7049006442) | 1 | [Build evidence verified](evidence/volunteers/M130796.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M131116](https://github.com/rohanarun/alpoge-rh-replay/issues/1470#issuecomment-7049102117) | 1 | [Build evidence verified](evidence/volunteers/M131116.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M131156](https://github.com/rohanarun/alpoge-rh-replay/issues/1519#issuecomment-7049068463) | 1 | [Build evidence verified](evidence/volunteers/M131156.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M131210](https://github.com/rohanarun/alpoge-rh-replay/issues/1229#issuecomment-7048740534) | 1 | [Build evidence verified](evidence/volunteers/M131210.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M131551](https://github.com/rohanarun/alpoge-rh-replay/issues/612#issuecomment-7047768593) | 1 | [Build evidence verified](evidence/volunteers/M131551.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M131569](https://github.com/rohanarun/alpoge-rh-replay/issues/1170#issuecomment-7048743781) | 1 | [Build evidence verified](evidence/volunteers/M131569.json) |
@@ -1294,6 +1354,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@BenCaunt](https://github.com/BenCaunt) | [M133332](https://github.com/rohanarun/alpoge-rh-replay/issues/517#issuecomment-7047535181) | 1 | [Build evidence verified](evidence/volunteers/M133332.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M133679](https://github.com/rohanarun/alpoge-rh-replay/issues/754#issuecomment-7048052149) | 1 | [Build evidence verified](evidence/volunteers/M133679.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M133914](https://github.com/rohanarun/alpoge-rh-replay/issues/628#issuecomment-7047766629) | 1 | [Build evidence verified](evidence/volunteers/M133914.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M134148](https://github.com/rohanarun/alpoge-rh-replay/issues/1719#issuecomment-7049217529) | 1 | [Build evidence verified](evidence/volunteers/M134148.json) |
 | [@jjjhenriksen](https://github.com/jjjhenriksen) | [M137737](https://github.com/rohanarun/alpoge-rh-replay/issues/951#issuecomment-7048189547) | 1 | [Build evidence verified](evidence/volunteers/M137737.json) |
 | [@jjjhenriksen](https://github.com/jjjhenriksen) | [M137843](https://github.com/rohanarun/alpoge-rh-replay/issues/975#issuecomment-7048227321) | 1 | [Build evidence verified](evidence/volunteers/M137843.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M137896](https://github.com/rohanarun/alpoge-rh-replay/issues/437#issuecomment-7047430547) | 1 | [Build evidence verified](evidence/volunteers/M137896.json) |
@@ -1313,11 +1374,13 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M141831](https://github.com/rohanarun/alpoge-rh-replay/issues/683#issuecomment-7047870288) | 1 | [Build evidence verified](evidence/volunteers/M141831.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M141904](https://github.com/rohanarun/alpoge-rh-replay/issues/551#issuecomment-7047596488) | 1 | [Build evidence verified](evidence/volunteers/M141904.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M142079](https://github.com/rohanarun/alpoge-rh-replay/issues/663#issuecomment-7047829183) | 1 | [Build evidence verified](evidence/volunteers/M142079.json) |
+| [@BenCaunt](https://github.com/BenCaunt) | [M142193](https://github.com/rohanarun/alpoge-rh-replay/issues/1568#issuecomment-7049118322) | 1 | [Build evidence verified](evidence/volunteers/M142193.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M142727](https://github.com/rohanarun/alpoge-rh-replay/issues/738#issuecomment-7048018632) | 1 | [Build evidence verified](evidence/volunteers/M142727.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M143195](https://github.com/rohanarun/alpoge-rh-replay/issues/1118#issuecomment-7048466698) | 1 | [Build evidence verified](evidence/volunteers/M143195.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M143889](https://github.com/rohanarun/alpoge-rh-replay/issues/726#issuecomment-7047979502) | 1 | [Build evidence verified](evidence/volunteers/M143889.json) |
 | [@arxhr007](https://github.com/arxhr007) | [M144073](https://github.com/rohanarun/alpoge-rh-replay/issues/420#issuecomment-7047503983) | 1 | [Build evidence verified](evidence/volunteers/M144073.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M144618](https://github.com/rohanarun/alpoge-rh-replay/issues/1069#issuecomment-7048338047) | 1 | [Build evidence verified](evidence/volunteers/M144618.json) |
+| [@dhudakk](https://github.com/dhudakk) | [M146474](https://github.com/rohanarun/alpoge-rh-replay/issues/1677#issuecomment-7049221713) | 1 | [Build evidence verified](evidence/volunteers/M146474.json) |
 | [@dhudakk](https://github.com/dhudakk) | [M148528](https://github.com/rohanarun/alpoge-rh-replay/issues/713#issuecomment-7048027894) | 1 | [Build evidence verified](evidence/volunteers/M148528.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M148604](https://github.com/rohanarun/alpoge-rh-replay/issues/684#issuecomment-7047875922) | 1 | [Build evidence verified](evidence/volunteers/M148604.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M149215](https://github.com/rohanarun/alpoge-rh-replay/issues/216#issuecomment-7047090981) | 1 | [Build evidence verified](evidence/volunteers/M149215.json) |
@@ -1342,6 +1405,8 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M153470](https://github.com/rohanarun/alpoge-rh-replay/issues/1489#issuecomment-7049006735) | 1 | [Build evidence verified](evidence/volunteers/M153470.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M153474](https://github.com/rohanarun/alpoge-rh-replay/issues/597#issuecomment-7047718846) | 1 | [Build evidence verified](evidence/volunteers/M153474.json) |
 | [@user42245](https://github.com/user42245) | [M153489](https://github.com/rohanarun/alpoge-rh-replay/issues/1082#issuecomment-7048354621) | 1 | [Build evidence verified](evidence/volunteers/M153489.json) |
+| [@dhudakk](https://github.com/dhudakk) | [M153492](https://github.com/rohanarun/alpoge-rh-replay/issues/1007#issuecomment-7049083378) | 1 | [Build evidence verified](evidence/volunteers/M153492.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M153497](https://github.com/rohanarun/alpoge-rh-replay/issues/1574#issuecomment-7049116780) | 1 | [Build evidence verified](evidence/volunteers/M153497.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M153502](https://github.com/rohanarun/alpoge-rh-replay/issues/943#issuecomment-7048178974) | 1 | [Build evidence verified](evidence/volunteers/M153502.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M153503](https://github.com/rohanarun/alpoge-rh-replay/issues/546#issuecomment-7047580792) | 1 | [Build evidence verified](evidence/volunteers/M153503.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M153517](https://github.com/rohanarun/alpoge-rh-replay/issues/1278#issuecomment-7048773524) | 1 | [Build evidence verified](evidence/volunteers/M153517.json) |
@@ -1363,6 +1428,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M153621](https://github.com/rohanarun/alpoge-rh-replay/issues/449#issuecomment-7047329268) | 1 | [Build evidence verified](evidence/volunteers/M153621.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M153641](https://github.com/rohanarun/alpoge-rh-replay/issues/1452#issuecomment-7048945602) | 1 | [Build evidence verified](evidence/volunteers/M153641.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M154036](https://github.com/rohanarun/alpoge-rh-replay/issues/582#issuecomment-7047686340) | 1 | [Build evidence verified](evidence/volunteers/M154036.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M154059](https://github.com/rohanarun/alpoge-rh-replay/issues/1577#issuecomment-7049116800) | 1 | [Build evidence verified](evidence/volunteers/M154059.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M154068](https://github.com/rohanarun/alpoge-rh-replay/issues/307#issuecomment-7047163938) | 1 | [Build evidence verified](evidence/volunteers/M154068.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M154072](https://github.com/rohanarun/alpoge-rh-replay/issues/761#issuecomment-7048060671) | 1 | [Build evidence verified](evidence/volunteers/M154072.json) |
 | [@unhingedpanda](https://github.com/unhingedpanda) | [M154073](https://github.com/rohanarun/alpoge-rh-replay/issues/288#issuecomment-7047359947) | 1 | [Build evidence verified](evidence/volunteers/M154073.json) |
@@ -1377,6 +1443,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M154131](https://github.com/rohanarun/alpoge-rh-replay/issues/559#issuecomment-7047621988) | 1 | [Build evidence verified](evidence/volunteers/M154131.json) |
 | [@user42245](https://github.com/user42245) | [M154136](https://github.com/rohanarun/alpoge-rh-replay/issues/1156#issuecomment-7048552464) | 1 | [Build evidence verified](evidence/volunteers/M154136.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M154148](https://github.com/rohanarun/alpoge-rh-replay/issues/986#issuecomment-7048236678) | 1 | [Build evidence verified](evidence/volunteers/M154148.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M154165](https://github.com/rohanarun/alpoge-rh-replay/issues/1674#issuecomment-7049175268) | 1 | [Build evidence verified](evidence/volunteers/M154165.json) |
 | [@Wronskode](https://github.com/Wronskode) | [M154276](https://github.com/rohanarun/alpoge-rh-replay/issues/571#issuecomment-7047713338) | 1 | [Build evidence verified](evidence/volunteers/M154276.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M154854](https://github.com/rohanarun/alpoge-rh-replay/issues/817#issuecomment-7048085117) | 1 | [Build evidence verified](evidence/volunteers/M154854.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M154911](https://github.com/rohanarun/alpoge-rh-replay/issues/921#issuecomment-7048143926) | 1 | [Build evidence verified](evidence/volunteers/M154911.json) |
@@ -1417,8 +1484,10 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M162908](https://github.com/rohanarun/alpoge-rh-replay/issues/991#issuecomment-7048249238) | 1 | [Build evidence verified](evidence/volunteers/M162908.json) |
 | [@hipotures](https://github.com/hipotures) | [M163043](https://github.com/rohanarun/alpoge-rh-replay/issues/541#issuecomment-7047573917) | 1 | [Build evidence verified](evidence/volunteers/M163043.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M163112](https://github.com/rohanarun/alpoge-rh-replay/issues/941#issuecomment-7048168766) | 1 | [Build evidence verified](evidence/volunteers/M163112.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M163144](https://github.com/rohanarun/alpoge-rh-replay/issues/1654#issuecomment-7049171563) | 1 | [Build evidence verified](evidence/volunteers/M163144.json) |
 | [@user42245](https://github.com/user42245) | [M163161](https://github.com/rohanarun/alpoge-rh-replay/issues/1088#issuecomment-7048395473) | 1 | [Build evidence verified](evidence/volunteers/M163161.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M163790](https://github.com/rohanarun/alpoge-rh-replay/issues/1487#issuecomment-7049004645) | 1 | [Build evidence verified](evidence/volunteers/M163790.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M163816](https://github.com/rohanarun/alpoge-rh-replay/issues/1480#issuecomment-7049123239) | 1 | [Build evidence verified](evidence/volunteers/M163816.json) |
 | [@jjjhenriksen](https://github.com/jjjhenriksen) | [M163892](https://github.com/rohanarun/alpoge-rh-replay/issues/474#issuecomment-7047748678) | 1 | [Build evidence verified](evidence/volunteers/M163892.json) |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M163942](https://github.com/rohanarun/alpoge-rh-replay/issues/145#issuecomment-7046485257) | 1 | [Build evidence verified](evidence/volunteers/M163942.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M163954](https://github.com/rohanarun/alpoge-rh-replay/issues/703#issuecomment-7047946066) | 1 | [Build evidence verified](evidence/volunteers/M163954.json) |
@@ -1435,6 +1504,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M164680](https://github.com/rohanarun/alpoge-rh-replay/issues/1373#issuecomment-7048898674) | 1 | [Build evidence verified](evidence/volunteers/M164680.json) |
 | [@roonastgames](https://github.com/roonastgames) | [M164707](https://github.com/rohanarun/alpoge-rh-replay/issues/196#issuecomment-7047745703) | 1 | [Build evidence verified](evidence/volunteers/M164707.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M164743](https://github.com/rohanarun/alpoge-rh-replay/issues/1482#issuecomment-7049002682) | 1 | [Build evidence verified](evidence/volunteers/M164743.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M164750](https://github.com/rohanarun/alpoge-rh-replay/issues/1493#issuecomment-7049123293) | 1 | [Build evidence verified](evidence/volunteers/M164750.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M164772](https://github.com/rohanarun/alpoge-rh-replay/issues/1341#issuecomment-7048869298) | 1 | [Build evidence verified](evidence/volunteers/M164772.json) |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M164889](https://github.com/rohanarun/alpoge-rh-replay/issues/1160#issuecomment-7048603163) | 1 | [Build evidence verified](evidence/volunteers/M164889.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M164893](https://github.com/rohanarun/alpoge-rh-replay/issues/1317#issuecomment-7048820626) | 1 | [Build evidence verified](evidence/volunteers/M164893.json) |
@@ -1442,24 +1512,35 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@roonastgames](https://github.com/roonastgames) | [M164917](https://github.com/rohanarun/alpoge-rh-replay/issues/714#issuecomment-7048042505) | 1 | [Build evidence verified](evidence/volunteers/M164917.json) |
 | [@roonastgames](https://github.com/roonastgames) | [M164918](https://github.com/rohanarun/alpoge-rh-replay/issues/983#issuecomment-7048285556) | 1 | [Build evidence verified](evidence/volunteers/M164918.json) |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M164962](https://github.com/rohanarun/alpoge-rh-replay/issues/150#issuecomment-7046491107) | 1 | [Build evidence verified](evidence/volunteers/M164962.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M165310](https://github.com/rohanarun/alpoge-rh-replay/issues/1501#issuecomment-7049037363) | 1 | [Build evidence verified](evidence/volunteers/M165310.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M165361](https://github.com/rohanarun/alpoge-rh-replay/issues/1189#issuecomment-7048657532) | 1 | [Build evidence verified](evidence/volunteers/M165361.json) |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M165403](https://github.com/rohanarun/alpoge-rh-replay/issues/1163#issuecomment-7048614123) | 1 | [Build evidence verified](evidence/volunteers/M165403.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M165429](https://github.com/rohanarun/alpoge-rh-replay/issues/1613#issuecomment-7049130227) | 1 | [Build evidence verified](evidence/volunteers/M165429.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M165431](https://github.com/rohanarun/alpoge-rh-replay/issues/575#issuecomment-7047666320) | 1 | [Build evidence verified](evidence/volunteers/M165431.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M165433](https://github.com/rohanarun/alpoge-rh-replay/issues/1463#issuecomment-7049097782) | 1 | [Build evidence verified](evidence/volunteers/M165433.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M166188](https://github.com/rohanarun/alpoge-rh-replay/issues/1065#issuecomment-7048326246) | 1 | [Build evidence verified](evidence/volunteers/M166188.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M166375](https://github.com/rohanarun/alpoge-rh-replay/issues/1054#issuecomment-7048305759) | 1 | [Build evidence verified](evidence/volunteers/M166375.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M166384](https://github.com/rohanarun/alpoge-rh-replay/issues/1614#issuecomment-7049130439) | 1 | [Build evidence verified](evidence/volunteers/M166384.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M166508](https://github.com/rohanarun/alpoge-rh-replay/issues/1416#issuecomment-7048917217) | 1 | [Build evidence verified](evidence/volunteers/M166508.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M166510](https://github.com/rohanarun/alpoge-rh-replay/issues/1190#issuecomment-7048657698) | 1 | [Build evidence verified](evidence/volunteers/M166510.json) |
 | [@user42245](https://github.com/user42245) | [M166990](https://github.com/rohanarun/alpoge-rh-replay/issues/1197#issuecomment-7048673655) | 1 | [Build evidence verified](evidence/volunteers/M166990.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M167001](https://github.com/rohanarun/alpoge-rh-replay/issues/1721#issuecomment-7049216611) | 1 | [Build evidence verified](evidence/volunteers/M167001.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M167129](https://github.com/rohanarun/alpoge-rh-replay/issues/1372#issuecomment-7048900231) | 1 | [Build evidence verified](evidence/volunteers/M167129.json) |
 | [@user42245](https://github.com/user42245) | [M167131](https://github.com/rohanarun/alpoge-rh-replay/issues/1199#issuecomment-7048677779) | 1 | [Build evidence verified](evidence/volunteers/M167131.json) |
 | [@user42245](https://github.com/user42245) | [M167140](https://github.com/rohanarun/alpoge-rh-replay/issues/1210#issuecomment-7048681832) | 1 | [Build evidence verified](evidence/volunteers/M167140.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M167189](https://github.com/rohanarun/alpoge-rh-replay/issues/1687#issuecomment-7049186533) | 1 | [Build evidence verified](evidence/volunteers/M167189.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M167488](https://github.com/rohanarun/alpoge-rh-replay/issues/1381#issuecomment-7048900861) | 1 | [Build evidence verified](evidence/volunteers/M167488.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M167489](https://github.com/rohanarun/alpoge-rh-replay/issues/1520#issuecomment-7049091181) | 1 | [Build evidence verified](evidence/volunteers/M167489.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M167543](https://github.com/rohanarun/alpoge-rh-replay/issues/1646#issuecomment-7049153978) | 1 | [Build evidence verified](evidence/volunteers/M167543.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M167959](https://github.com/rohanarun/alpoge-rh-replay/issues/1706#issuecomment-7049203366) | 1 | [Build evidence verified](evidence/volunteers/M167959.json) |
 | [@user42245](https://github.com/user42245) | [M167991](https://github.com/rohanarun/alpoge-rh-replay/issues/1238#issuecomment-7048723235) | 1 | [Build evidence verified](evidence/volunteers/M167991.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M167992](https://github.com/rohanarun/alpoge-rh-replay/issues/1414#issuecomment-7048920112) | 1 | [Build evidence verified](evidence/volunteers/M167992.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M168029](https://github.com/rohanarun/alpoge-rh-replay/issues/928#issuecomment-7048170151) | 1 | [Build evidence verified](evidence/volunteers/M168029.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M168032](https://github.com/rohanarun/alpoge-rh-replay/issues/1575#issuecomment-7049149098) | 1 | [Build evidence verified](evidence/volunteers/M168032.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M168066](https://github.com/rohanarun/alpoge-rh-replay/issues/414#issuecomment-7047252079) | 1 | [Build evidence verified](evidence/volunteers/M168066.json) |
 | [@Paulee314](https://github.com/Paulee314) | [M168067](https://github.com/rohanarun/alpoge-rh-replay/issues/477#issuecomment-7047442237) | 1 | [Build evidence verified](evidence/volunteers/M168067.json) |
 | [@unhingedpanda](https://github.com/unhingedpanda) | [M168738](https://github.com/rohanarun/alpoge-rh-replay/issues/665#issuecomment-7047896649) | 1 | [Build evidence verified](evidence/volunteers/M168738.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M168740](https://github.com/rohanarun/alpoge-rh-replay/issues/1504#issuecomment-7049066946) | 1 | [Build evidence verified](evidence/volunteers/M168740.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M169166](https://github.com/rohanarun/alpoge-rh-replay/issues/1459#issuecomment-7048972735) | 1 | [Build evidence verified](evidence/volunteers/M169166.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M169429](https://github.com/rohanarun/alpoge-rh-replay/issues/228#issuecomment-7047210594) | 1 | [Build evidence verified](evidence/volunteers/M169429.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M169517](https://github.com/rohanarun/alpoge-rh-replay/issues/553#issuecomment-7047597566) | 1 | [Build evidence verified](evidence/volunteers/M169517.json) |
@@ -1471,6 +1552,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M171553](https://github.com/rohanarun/alpoge-rh-replay/issues/806#issuecomment-7048080162) | 1 | [Build evidence verified](evidence/volunteers/M171553.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M171564](https://github.com/rohanarun/alpoge-rh-replay/issues/418#issuecomment-7047262461) | 1 | [Build evidence verified](evidence/volunteers/M171564.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M171874](https://github.com/rohanarun/alpoge-rh-replay/issues/424#issuecomment-7047266733) | 1 | [Build evidence verified](evidence/volunteers/M171874.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M171888](https://github.com/rohanarun/alpoge-rh-replay/issues/1490#issuecomment-7049037347) | 1 | [Build evidence verified](evidence/volunteers/M171888.json) |
 | [@jjjhenriksen](https://github.com/jjjhenriksen) | [M171914](https://github.com/rohanarun/alpoge-rh-replay/issues/1032#issuecomment-7048282682) | 1 | [Build evidence verified](evidence/volunteers/M171914.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M171920](https://github.com/rohanarun/alpoge-rh-replay/issues/566#issuecomment-7047640129) | 1 | [Build evidence verified](evidence/volunteers/M171920.json) |
 | [@gabeldev](https://github.com/gabeldev) | [M172226](https://github.com/rohanarun/alpoge-rh-replay/issues/1134#issuecomment-7048493135) | 1 | [Build evidence verified](evidence/volunteers/M172226.json) |
@@ -1555,14 +1637,20 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@shardmods](https://github.com/shardmods) | [P1016](https://github.com/rohanarun/alpoge-rh-replay/issues/122#issuecomment-7046960866) | 64 | [Build evidence verified](evidence/volunteers/P1016.json) |
 | [@shardmods](https://github.com/shardmods) | [P1030](https://github.com/rohanarun/alpoge-rh-replay/issues/206#issuecomment-7047704062) | 64 | [Build evidence verified](evidence/volunteers/P1030.json) |
 | [@SeriousRising](https://github.com/SeriousRising) | [P1058](https://github.com/rohanarun/alpoge-rh-replay/issues/140#issuecomment-7046460455) | 64 | [Build evidence verified](evidence/volunteers/P1058.json) |
+| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P1069](https://github.com/rohanarun/alpoge-rh-replay/issues/281#issuecomment-7049138444) | 64 | [Build evidence verified](evidence/volunteers/P1069.json) |
+| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P1115](https://github.com/rohanarun/alpoge-rh-replay/issues/289#issuecomment-7049151570) | 64 | [Build evidence verified](evidence/volunteers/P1115.json) |
+| [@mu-mei](https://github.com/mu-mei) | [P1195](https://github.com/rohanarun/alpoge-rh-replay/issues/460#issuecomment-7049058738) | 64 | [Build evidence verified](evidence/volunteers/P1195.json) |
+| [@aapolipponen](https://github.com/aapolipponen) | [P1217](https://github.com/rohanarun/alpoge-rh-replay/issues/732#issuecomment-7048733015) | 64 | [Build evidence verified](evidence/volunteers/P1217.json) |
 | [@shardmods](https://github.com/shardmods) | [P1219](https://github.com/rohanarun/alpoge-rh-replay/issues/187#issuecomment-7047636691) | 64 | [Build evidence verified](evidence/volunteers/P1219.json) |
 | [@shardmods](https://github.com/shardmods) | [P1224](https://github.com/rohanarun/alpoge-rh-replay/issues/294#issuecomment-7047909377) | 64 | [Build evidence verified](evidence/volunteers/P1224.json) |
 | [@Genius-Cai-wen-zheng](https://github.com/Genius-Cai-wen-zheng) | [P1230](https://github.com/rohanarun/alpoge-rh-replay/issues/158#issuecomment-7047054079) | 64 | [Build evidence verified](evidence/volunteers/P1230.json) |
 | [@shardmods](https://github.com/shardmods) | [P1233](https://github.com/rohanarun/alpoge-rh-replay/issues/470#issuecomment-7048921686) | 64 | [Build evidence verified](evidence/volunteers/P1233.json) |
+| [@hipotures](https://github.com/hipotures) | [P1236](https://github.com/rohanarun/alpoge-rh-replay/issues/755#issuecomment-7049217409) | 64 | [Build evidence verified](evidence/volunteers/P1236.json) |
 | [@SeriousRising](https://github.com/SeriousRising) | [P1250](https://github.com/rohanarun/alpoge-rh-replay/issues/543#issuecomment-7048507239) | 64 | [Build evidence verified](evidence/volunteers/P1250.json) |
 | [@surfyhou](https://github.com/surfyhou) | [P1252](https://github.com/rohanarun/alpoge-rh-replay/issues/364#issuecomment-7048963863) | 64 | [Build evidence verified](evidence/volunteers/P1252.json) |
 | [@shardmods](https://github.com/shardmods) | [P1261](https://github.com/rohanarun/alpoge-rh-replay/issues/202#issuecomment-7047810649) | 64 | [Build evidence verified](evidence/volunteers/P1261.json) |
 | [@shardmods](https://github.com/shardmods) | [P1274](https://github.com/rohanarun/alpoge-rh-replay/issues/186#issuecomment-7047507728) | 64 | [Build evidence verified](evidence/volunteers/P1274.json) |
+| [@surfyhou](https://github.com/surfyhou) | [P1279](https://github.com/rohanarun/alpoge-rh-replay/issues/248#issuecomment-7049113116) | 64 | [Build evidence verified](evidence/volunteers/P1279.json) |
 | [@shardmods](https://github.com/shardmods) | [P1300](https://github.com/rohanarun/alpoge-rh-replay/issues/471#issuecomment-7048934848) | 64 | [Build evidence verified](evidence/volunteers/P1300.json) |
 | [@shardmods](https://github.com/shardmods) | [P1337](https://github.com/rohanarun/alpoge-rh-replay/issues/296#issuecomment-7048161999) | 64 | [Build evidence verified](evidence/volunteers/P1337.json) |
 | [@shardmods](https://github.com/shardmods) | [P1340](https://github.com/rohanarun/alpoge-rh-replay/issues/181#issuecomment-7047779186) | 64 | [Build evidence verified](evidence/volunteers/P1340.json) |
@@ -1584,12 +1672,12 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 
 | Evidence for distinct module IDs | Count |
 |---|---:|
-| Successful source build observed | 8,157 |
+| Successful source build observed | 8,612 |
 | Pilot proof object reused | 150 |
 | Pilot downstream module kernel-checked | 1 |
-| Distributed proof object reused | 16,987 |
-| Volunteer build evidence reviewed | 5,915 |
-| **Total with recorded module evidence** | **31,210 / 175,187** |
+| Distributed proof object reused | 16,976 |
+| Volunteer build evidence reviewed | 6,381 |
+| **Total with recorded module evidence** | **32,120 / 175,187** |
 
 [See each completed part and its evidence](completed/README.md) · [Machine-readable ledger](tracker/completed.tsv)
 
