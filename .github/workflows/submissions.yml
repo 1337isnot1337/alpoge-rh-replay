@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['evidence/volunteers/**', 'tracker/submissions.py', 'tracker/claim_comments.py', 'tracker/activity.py', 'tracker/credit_commit.py', '.github/workflows/submissions.yml']
+    paths: ['evidence/volunteers/**', 'tracker/submissions.py', 'tracker/volunteer_tables.py', 'tracker/claim_comments.py', 'tracker/activity.py', 'tracker/credit_commit.py', '.github/workflows/submissions.yml']
 permissions:
   contents: write
   issues: read
@@ -37,7 +37,7 @@ jobs:
             git fetch origin main
             git checkout --detach FETCH_HEAD
             python3 tracker/submissions.py --update-activity --issue-authors "$RUNNER_TEMP/issue-authors.json"
-            git add README.md tracker/activity.tsv tracker/activity.svg
+            git add README.md tracker/activity.tsv tracker/activity.svg tracker/volunteer-tables
             if git diff --cached --quiet; then exit 0; fi
             python3 tracker/credit_commit.py "$RUNNER_TEMP/issue-authors.json" > "$RUNNER_TEMP/credit-message"
             git commit -F "$RUNNER_TEMP/credit-message"

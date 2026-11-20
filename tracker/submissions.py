@@ -10,6 +10,7 @@ import sys
 import time
 
 from claim_comments import COMMENT_FEED, comments_by_issue
+from volunteer_tables import update_reviewed, update_table
 
 ROOT = Path(__file__).resolve().parents[1]
 ATTEMPTS = 4
@@ -97,13 +98,6 @@ def volunteer_updates(repo, issue_authors, snapshot=None):
                 yield number, login, target, None
 
 
-def replace_section(text, marker, lines, empty):
-    start = f'<!-- {marker}-start -->'
-    end = f'<!-- {marker}-end -->'
-    rendered = '\n'.join(lines) if len(lines) > 2 else empty
-    return text[:text.index(start) + len(start)] + '\n\n' + rendered + '\n\n' + text[text.index(end):]
-
-
 def main(update_activity=False):
     repo = os.environ['GITHUB_REPOSITORY']
     snapshot = claim_snapshot(repo)
@@ -120,8 +114,9 @@ def main(update_activity=False):
 
     readme = ROOT / 'README.md'
     current = readme.read_text()
-    updated = replace_section(current, 'active-volunteers', claimed, 'No active claims awaiting evidence.')
-    updated = replace_section(updated, 'pending-volunteers', pending, 'No submissions awaiting review.')
+    updated = update_table(ROOT, current, 'active-volunteers', claimed)
+    updated = update_table(ROOT, updated, 'pending-volunteers', pending)
+    updated = update_reviewed(ROOT, updated)
     if updated != current:
         readme.write_text(updated)
     if update_activity:
