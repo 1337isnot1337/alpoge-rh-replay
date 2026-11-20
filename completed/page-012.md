@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M051392 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubharmonicLogConvexityQuotient` | volunteer-build-reviewed |
+| M051401 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubmoduleFgOfLocallyLeFgStatement` | volunteer-build-reviewed |
+| M051420 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubsingletonEtaleHypercohomologyOfRetract` | wave-reused |
 | M051421 | P0443 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubsingletonEtaleHypercohomologyOfRetractStatement` | wave-reused |
 | M051422 | P0553 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubsingletonHypercohomologyOfLocallyExactOnSuppo` | wave-reused |
 | M051423 | P0586 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubsingletonHypercohomologyOfLocallyExactOnSuppoStatement` | wave-reused |
@@ -118,6 +121,7 @@
 | M054628 | P0520 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwoFormExistsPowSmulEqZeroOfIsLocalization` | wave-reused |
 | M054913 | P0023 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UniformizerEqPowRamificationIdxMulUnitIntegralCl` | wave-reused |
 | M054914 | P0115 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UniformizerEqPowRamificationIdxMulUnitIntegralClStatement` | wave-reused |
+| M055325 | P0023 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryGroupSecondKindCoordinatesNearOne` | volunteer-build-reviewed |
 | M055485 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitsLocalizationDescendAway` | wave-reused |
 | M055486 | P0443 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitsLocalizationDescendAwayStatement` | wave-reused |
 | M055516 | P0023 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramSub` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M058484 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianMassEqSumFrameClasses` | wave-reused |
 | M058485 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianMassEqSumFrameClassesStatement` | wave-reused |
 | M058486 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianMatrixCongruenceContentJacobian` | wave-reused |
-| M058487 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianMatrixCongruenceContentJacobianStatement` | wave-reused |
-| M058488 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianMovePreservesFrameLatticeLevels` | wave-reused |
-| M058489 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianMovePreservesFrameLatticeLevelsStatement` | wave-reused |
-| M058490 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianMovesTotalMeasureEstimates` | wave-reused |

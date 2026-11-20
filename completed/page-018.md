@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M078128 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsNormOneCmFieldDetOneAddNeZeroCharZeroStatement` | volunteer-build-reviewed |
+| M078129 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsNormOneCmFieldDetOneAddNeZeroStatement` | volunteer-build-reviewed |
+| M078157 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsOpenAvoidingNonGenericStatement` | volunteer-build-reviewed |
+| M078179 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsPadicAlgClRingEquivComplexCompEqOfCountabl` | volunteer-build-reviewed |
+| M078227 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsPosSmulEqOfLinearIndependentConeStatement` | volunteer-build-reviewed |
+| M078231 | P0406 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsPowEqPowOfWeilDegreeEqSmooth` | wave-reused |
+| M078232 | P0447 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsPowEqPowOfWeilDegreeEqSmoothStatement` | wave-reused |
+| M078239 | P1333 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsPowVanishingIdealLeAnnihilator` | wave-reused |
+| M078264 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsPrimitiveElementCompleteStatement` | volunteer-build-reviewed |
 | M078266 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsPrimitiveElementUnramifiedStatement` | volunteer-build-reviewed |
 | M078285 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsQuasiFinitePolynomialMapStatement` | volunteer-build-reviewed |
 | M078393 | P0035 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsSaturated` | wave-reused |
@@ -243,6 +252,7 @@
 | M083716 | P1310 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ExistsLiftPointTranslationFieldPointStatement` | wave-reused |
 | M083717 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ExistsLimitPowerSeriesAgreeOnAnnulusPoints` | volunteer-build-reviewed |
 | M083718 | P0309 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ExistsLimitPowerSeriesAgreeOnAnnulusPointsStatement` | volunteer-build-reviewed |
+| M083736 | P0037 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ExistsNormSubEqOne` | volunteer-build-reviewed |
 | M083742 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ExistsOrthogonalFrameNormsCoprimeOfUnimodular` | volunteer-build-reviewed |
 | M083744 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ExistsPadicIntFrameChangeEtaleBasis` | volunteer-build-reviewed |
 | M083752 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ExistsPosZsmulMemRange` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M084553 | P0848 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TranslatePullbackEigensection` | wave-reused |
 | M084559 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TwistedMeasureMomentsEqShiftedSeriesJets` | volunteer-build-reviewed |
 | M084568 | P0524 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.UnitaryGlModuleLevelOffDiagNormSqLe` | wave-reused |
-| M084572 | P0590 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.UnitaryGlModuleProjComponentsLevelAddTwo` | wave-reused |
-| M084573 | P0623 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.UnitaryGlModuleProjComponentsLevelAddTwoStatement` | wave-reused |
-| M084574 | P0590 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.UnitaryGlModuleProjDualTensorLevelAddTwo` | wave-reused |
-| M084575 | P0623 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.UnitaryGlModuleProjDualTensorLevelAddTwoStatement` | wave-reused |
-| M084576 | P0793 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.UnitaryGlProjectionLevelSumSqLe` | wave-reused |
-| M084577 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.UnitaryGlProjectionLevelSumSqLeStatement` | volunteer-build-reviewed |
-| M084593 | P0875 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ValLeOfMemSpan` | wave-reused |
-| M084598 | P1128 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ValueAtZeroLinearCombinationIntegralSections` | wave-reused |
-| M084599 | P0930 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ValueAtZeroOfSectionValue` | wave-reused |
-| M084611 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.WeightCompactDominanceOfMemHighestWeightSpanStatement` | volunteer-build-reviewed |

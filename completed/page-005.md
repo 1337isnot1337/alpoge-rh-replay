@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006459 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsHarmonicProdOfDisjointColumns` | wave-reused |
 | M006460 | P1144 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsProjOverCompOfIsClosedImmersion` | wave-reused |
 | M006461 | P1170 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsProjOverIffIsProperAndExistsIsAmpleLB` | wave-reused |
 | M006462 | P1084 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsProjOverMorphismRestrictOfRelAmple` | wave-reused |
@@ -401,4 +402,3 @@
 | M013567 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ImmByWeightZero` | wave-reused |
 | M013568 | P1171 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ImmByWeightZeroStatement` | wave-reused |
 | M013571 | P0649 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IndepOfNestedSpecialFibreImages` | wave-reused |
-| M013572 | P0679 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IndepOfNestedSpecialFibreImagesStatement` | wave-reused |

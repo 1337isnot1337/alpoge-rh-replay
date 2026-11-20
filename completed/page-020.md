@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M087025 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CyclicWordNoThreeMarkedOfAtMostOne` | volunteer-build-reviewed |
+| M087027 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CyclicWordNoThreeMarkedOfAtMostTwoInWindow` | volunteer-build-reviewed |
+| M087111 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.DownMemRecOfTies` | volunteer-build-reviewed |
+| M087172 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.EmbeddingMapsIntoGoodExtension` | volunteer-build-reviewed |
+| M087173 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.EmbeddingSignAlternateOfSignNeg` | volunteer-build-reviewed |
+| M087175 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.EndSpannedByRepMatricesOfScalarExtension` | volunteer-build-reviewed |
+| M087305 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsConjDoubleBlockOfIsoSubspacesStatement` | volunteer-build-reviewed |
+| M087415 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsInternalStableDecompositionDescendsToSubfi` | volunteer-build-reviewed |
+| M087447 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsLetterOfLocalEmbedding` | volunteer-build-reviewed |
+| M087517 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsPlaceOverPrimeOfPadicAlgClEmbedding` | volunteer-build-reviewed |
 | M087546 | P0767 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsRingHomOfIsStrictHenselisation` | wave-reused |
 | M087658 | P0127 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.FaceFaceApply` | wave-reused |
 | M087725 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.FinrankAddOfBiprod` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M091628 | P0850 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.LeviFormWeightMetricOrthonormalDiagonal` | wave-reused |
 | M091632 | P0851 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.LintegralImageLeConst` | wave-reused |
 | M091633 | P0851 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.LintegralLeDensity` | wave-reused |
-| M091634 | P0591 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.LintegralLeOfSection` | wave-reused |
-| M091635 | P0988 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.LintegralLtTopOfCutoff` | wave-reused |
-| M091638 | P0767 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MajLactRmul` | wave-reused |
-| M091641 | P0851 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MeasurableIndicatorOfContOn` | wave-reused |
-| M091643 | P0822 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MeasurableSetBorSat` | wave-reused |
-| M091644 | P0822 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MeasurableSetSatFrames` | wave-reused |
-| M091645 | P0959 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MeasureStatements` | wave-reused |
-| M091647 | P0851 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MuFLtTopOfIsCompact` | wave-reused |
-| M091648 | P1102 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MuFSublevelLtTop` | wave-reused |
-| M091650 | P1072 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MulSgnMatMulConjTranspose` | wave-reused |

@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M061590 | P0554 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspExpansionDiscriminantIntegerLeadingOneStatement` | wave-reused |
+| M061591 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspFormGamma1OfIsCuspFormCoeffSeq` | wave-reused |
+| M061592 | P0735 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspFormGamma1OfIsCuspFormCoeffSeqStatement` | wave-reused |
+| M061598 | P0444 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsDecompositionGroupCyclotomicCharacterZpowN` | wave-reused |
 | M061604 | P0444 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsDeltaPowQExpansionIffLaurentSeries` | wave-reused |
 | M061605 | P0483 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsDeltaPowQExpansionIffLaurentSeriesStatement` | wave-reused |
 | M061648 | P0304 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsEqExpOfRat` | wave-reused |
@@ -36,6 +40,7 @@
 | M061852 | P0980 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsMuModelMeasureOfEigenfunctional` | wave-reused |
 | M061853 | P1007 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsMuModelMeasureOfEigenfunctionalStatement` | wave-reused |
 | M061868 | P0554 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsNeZeroForallPointExtendSubalgebra` | wave-reused |
+| M061929 | P0026 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsPowSmulMemRangeOfSurjectiveBaseChange` | volunteer-build-reviewed |
 | M061939 | P0980 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsPrimitiveExpansionQuotientLevelOne` | wave-reused |
 | M061940 | P1007 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsPrimitiveExpansionQuotientLevelOneStatement` | wave-reused |
 | M061960 | P0356 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsReducedBasisOfLinearIndependent` | wave-reused |
@@ -167,6 +172,7 @@
 | M062454 | P0789 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeRootsNePrimePowMulRootOfUnityStatement` | wave-reused |
 | M062480 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeULeftRepresentativesLevelChange` | wave-reused |
 | M062481 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeULeftRepresentativesLevelChangeStatement` | wave-reused |
+| M062504 | P0188 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumsCompEqIndex` | volunteer-build-reviewed |
 | M062535 | P0118 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IdealEqBotOfFlatQuotientOfMapMaximalIdeal` | wave-reused |
 | M062554 | P0026 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ImportsMore` | wave-reused |
 | M062590 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnFdImPowMulExp` | wave-reused |
@@ -334,6 +340,7 @@
 | M063334 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.OneSubTwoDivLeSquarefreeLabelMass` | wave-reused |
 | M063335 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.OneSubTwoDivLeSquarefreeLabelMassStatement` | wave-reused |
 | M063343 | P1149 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.OrdinaryEisensteinEigenfunctionalExists` | wave-reused |
+| M063402 | P0119 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PerfectPairingQuotients` | volunteer-build-reviewed |
 | M063405 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PermutedModularFamilyMonicPolyCoeffInvariant` | wave-reused |
 | M063406 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PermutedModularFamilyMonicPolyCoeffInvariantStatement` | wave-reused |
 | M063415 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PeterssonDoubleCosetAdjoint` | wave-reused |
@@ -395,10 +402,3 @@
 | M063578 | P1149 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ReciprocityLargeLevelStatement` | wave-reused |
 | M063587 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumDilate` | wave-reused |
 | M063588 | P0684 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumDilateStatement` | wave-reused |
-| M063589 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumDirectionIndep` | wave-reused |
-| M063590 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumDirectionIndepStatement` | wave-reused |
-| M063591 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumEqTsumOfKills` | wave-reused |
-| M063592 | P0684 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumEqTsumOfKillsStatement` | wave-reused |
-| M063593 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumModerateMeasurabl` | wave-reused |
-| M063594 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumModerateMeasurablStatement` | wave-reused |
-| M063595 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumQExpansion` | wave-reused |

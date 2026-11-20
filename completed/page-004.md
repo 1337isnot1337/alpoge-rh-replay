@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005883 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SubgroupPowRelIndexUnitsOfIsAdicComplete` | wave-reused |
 | M005884 | P0348 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SubgroupPowRelIndexUnitsOfIsAdicCompleteStatement` | wave-reused |
 | M005902 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoMulCardInfinitePlaceLeQuadratic` | wave-reused |
 | M005903 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoMulCardInfinitePlaceLeQuadraticStatement` | wave-reused |
@@ -401,4 +402,3 @@
 | M006455 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegralConjInnerMulInnerOfIsEmptyEquiv` | volunteer-build-reviewed |
 | M006457 | P0759 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsClosedImmersionIffPullRatio` | wave-reused |
 | M006458 | P0784 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsClosedImmersionSigmaDesc` | wave-reused |
-| M006459 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsHarmonicProdOfDisjointColumns` | wave-reused |

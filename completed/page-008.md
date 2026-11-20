@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M024377 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConnectingCocycleHypercohomologyLesStatement` | wave-reused |
 | M024441 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsContinuousRepresentativeAverage` | volunteer-build-reviewed |
 | M024457 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoordinateProjectionComplexStatement` | volunteer-build-reviewed |
 | M024471 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoordsRangeIdempotentOfRetractStatement` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M031776 | P0786 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumSemidirectCosetPairingNeZeroStatement` | wave-reused |
 | M031782 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsuppMapDomainEqZeroAtFilteredStage` | wave-reused |
 | M031783 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsuppMapDomainEqZeroAtFilteredStageStatement` | wave-reused |
-| M031784 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstAndFinite` | volunteer-build-reviewed |

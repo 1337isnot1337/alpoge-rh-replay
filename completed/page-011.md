@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M046890 | P0922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantEigenPropertyStatement` | wave-reused |
+| M046891 | P0786 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantElementProperty` | wave-reused |
+| M046892 | P0813 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantElementPropertyStatement` | wave-reused |
 | M046893 | P0841 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantOrdersProperty` | wave-reused |
 | M046894 | P0868 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantOrdersPropertyStatement` | wave-reused |
 | M046895 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantRankProperty` | wave-reused |
@@ -399,6 +402,3 @@
 | M051317 | P0787 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrictlyHenselianIff` | wave-reused |
 | M051319 | P0868 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrictlyHenselianLocalRingAcyclicEverySheaf` | wave-reused |
 | M051320 | P0895 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrictlyHenselianLocalRingAcyclicEverySheafStatement` | wave-reused |
-| M051392 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubharmonicLogConvexityQuotient` | volunteer-build-reviewed |
-| M051401 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubmoduleFgOfLocallyLeFgStatement` | volunteer-build-reviewed |
-| M051420 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubsingletonEtaleHypercohomologyOfRetract` | wave-reused |

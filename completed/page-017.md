@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M072037 | P1428 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LatticeApproximationMittagLefflerStatement` | wave-reused |
+| M072064 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LatticeHomSubmoduleFgAndSpanEqTopStatement` | volunteer-build-reviewed |
+| M072099 | P0192 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LeftMulTau` | volunteer-build-reviewed |
+| M072100 | P1405 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LemmaLSeriesWeightsOfGreenCuspidalParametrisatio` | wave-reused |
+| M072123 | P0818 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LengthCyclotomicBlockCocyclesLeSha` | wave-reused |
+| M072145 | P0032 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LevRepZApply` | volunteer-build-reviewed |
+| M072174 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LieLatticeProdComapInlAndMapSnd` | volunteer-build-reviewed |
+| M072208 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LiftStratifiedSolutionSuccOfCover` | wave-reused |
+| M072209 | P1227 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LiftStratifiedSolutionSuccOfCoverStatement` | wave-reused |
 | M072226 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LimitBreuilKisinBasisInvariantEtale` | wave-reused |
 | M072227 | P1227 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LimitBreuilKisinBasisInvariantEtaleStatement` | wave-reused |
 | M072228 | P1405 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LimitVectorMemOEAndAinf` | wave-reused |
@@ -393,12 +402,3 @@
 | M078027 | P0711 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMaxUnramifiedEmbeddingIntoBcrisStatement` | wave-reused |
 | M078032 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMemOfListProdMem` | volunteer-build-reviewed |
 | M078034 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMemPairingEqSingleNonradicalStatement` | volunteer-build-reviewed |
-| M078128 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsNormOneCmFieldDetOneAddNeZeroCharZeroStatement` | volunteer-build-reviewed |
-| M078129 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsNormOneCmFieldDetOneAddNeZeroStatement` | volunteer-build-reviewed |
-| M078157 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsOpenAvoidingNonGenericStatement` | volunteer-build-reviewed |
-| M078179 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsPadicAlgClRingEquivComplexCompEqOfCountabl` | volunteer-build-reviewed |
-| M078227 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsPosSmulEqOfLinearIndependentConeStatement` | volunteer-build-reviewed |
-| M078231 | P0406 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsPowEqPowOfWeilDegreeEqSmooth` | wave-reused |
-| M078232 | P0447 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsPowEqPowOfWeilDegreeEqSmoothStatement` | wave-reused |
-| M078239 | P1333 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsPowVanishingIdealLeAnnihilator` | wave-reused |
-| M078264 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsPrimitiveElementCompleteStatement` | volunteer-build-reviewed |

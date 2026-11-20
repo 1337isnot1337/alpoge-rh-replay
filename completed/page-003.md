@@ -290,6 +290,7 @@
 | M005369 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CardQuotSpanAlgebraMap` | wave-reused |
 | M005370 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CardRingHomRealEqNrRealPlaces` | wave-reused |
 | M005371 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CardRingHomRealEqNrRealPlacesStatement` | wave-reused |
+| M005375 | P0003 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CircleHomEqZpow` | volunteer-build-reviewed |
 | M005406 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CyclicKummerNormFixedHilbert90` | wave-reused |
 | M005425 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.EvenOrderNormsOneAddFourMulOfNoRoot` | wave-reused |
 | M005426 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.EvenOrderNormsOneAddFourMulOfNoRootStatement` | wave-reused |
@@ -401,4 +402,3 @@
 | M005880 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SubgroupPowImageUnitsCongruentOneModOfIsAdicComp` | wave-reused |
 | M005881 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SubgroupPowImageUnitsCongruentOneModOfIsAdicCompStatement` | wave-reused |
 | M005882 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SubgroupPowRelIndexTopOfGroupFg` | wave-reused |
-| M005883 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SubgroupPowRelIndexUnitsOfIsAdicComplete` | wave-reused |

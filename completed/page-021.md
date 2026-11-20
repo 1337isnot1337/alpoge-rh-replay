@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M091634 | P0591 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.LintegralLeOfSection` | wave-reused |
+| M091635 | P0988 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.LintegralLtTopOfCutoff` | wave-reused |
+| M091638 | P0767 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MajLactRmul` | wave-reused |
+| M091641 | P0851 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MeasurableIndicatorOfContOn` | wave-reused |
+| M091643 | P0822 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MeasurableSetBorSat` | wave-reused |
+| M091644 | P0822 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MeasurableSetSatFrames` | wave-reused |
+| M091645 | P0959 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MeasureStatements` | wave-reused |
+| M091647 | P0851 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MuFLtTopOfIsCompact` | wave-reused |
+| M091648 | P1102 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MuFSublevelLtTop` | wave-reused |
+| M091650 | P1072 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MulSgnMatMulConjTranspose` | wave-reused |
 | M091652 | P0795 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.NormBcharMulNfacRmul` | wave-reused |
 | M091654 | P0591 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.NormFderivLeOfClosedBallSubset` | wave-reused |
 | M091655 | P0988 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.NormLeOfDet` | wave-reused |
@@ -392,13 +402,3 @@
 | M098712 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIntegralFamiliesSpanGenerateValuationRingsStatement` | volunteer-build-reviewed |
 | M098713 | P0960 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIntegralFamiliesSpanPullDegeneration` | wave-reused |
 | M098714 | P0989 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIntegralFamiliesSpanPullDegenerationStatement` | wave-reused |
-| M098721 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIsProdB` | volunteer-build-reviewed |
-| M098723 | P1232 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIsoOfCompatibleAbelianThickenings` | wave-reused |
-| M098724 | P1260 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIsoOfCompatibleAbelianThickeningsStatement` | wave-reused |
-| M098725 | P1072 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIsoOfSectionRing` | wave-reused |
-| M098727 | P1181 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIsoOfSectionRingEquiv` | wave-reused |
-| M098728 | P1206 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIsoOfSectionRingEquivStatement` | wave-reused |
-| M098733 | P1044 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsLevelPoint` | wave-reused |
-| M098735 | P0877 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsLiftOfRetraction` | wave-reused |
-| M098738 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsLimitUnit` | volunteer-build-reviewed |
-| M098740 | P1157 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsLinearFourierJacobiExpansionFamily` | wave-reused |

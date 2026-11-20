@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M101078 | P0042 | `Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.QuadraticClassFieldTheory` | wave-reused |
+| M101079 | P0042 | `Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.RadfordShufflePolynomialHolds` | volunteer-build-reviewed |
+| M101080 | P0042 | `Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.RealMetaplecticRepresentation` | volunteer-build-reviewed |
+| M101099 | P0592 | `Development.AbelianVarietyTheory.Statements.ChartPoints.ChartPt` | wave-reused |
+| M101108 | P0592 | `Development.AbelianVarietyTheory.Statements.CuspidalUnitaryTwists.Chapter` | wave-reused |
+| M101109 | P0624 | `Development.AbelianVarietyTheory.Statements.CuspidalUnitaryTwists.ChapterMu` | wave-reused |
+| M101110 | P0656 | `Development.AbelianVarietyTheory.Statements.CuspidalUnitaryTwists.CuspidalUnitaryTwistsClaim` | wave-reused |
+| M101131 | P1104 | `Development.AbelianVarietyTheory.Statements.FundamentalDomains.ExistsIsAddFundamentalDomain` | wave-reused |
+| M101132 | P1158 | `Development.AbelianVarietyTheory.Statements.FundamentalDomains.IsLocalModelOfIntegral` | wave-reused |
+| M101133 | P1132 | `Development.AbelianVarietyTheory.Statements.FundamentalDomains.KeyFormulaPowOfKeyFormula` | wave-reused |
 | M101148 | P0624 | `Development.AbelianVarietyTheory.Statements.HyperbolicHypotheses.HypothesesInhabitedHyperbolic` | wave-reused |
 | M101198 | P0768 | `Development.AbelianVarietyTheory.Statements.PrincipalLattices.FiniteDimensionalBase` | build-observed |
 | M101199 | P1104 | `Development.AbelianVarietyTheory.Statements.PrincipalLattices.LogHermFormOfUnitDiscriminant` | wave-reused |
@@ -282,6 +292,14 @@
 | M103282 | P0488 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.ValSubOneMap` | wave-reused |
 | M103283 | P0450 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.ZeroOfNeg` | wave-reused |
 | M103284 | P0525 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.ZpowWNe` | wave-reused |
+| M103297 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisCochains.H2RightExactModL` | volunteer-build-reviewed |
+| M103299 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisCochains.InflKer` | volunteer-build-reviewed |
+| M103300 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisCochains.IsClosedOfClosedFiniteIndex` | volunteer-build-reviewed |
+| M103301 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisCochains.LevelS` | volunteer-build-reviewed |
+| M103302 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisCochains.LocEuler` | volunteer-build-reviewed |
+| M103303 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisCochains.PhiGam` | volunteer-build-reviewed |
+| M103305 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisCochains.PtTail` | volunteer-build-reviewed |
+| M103307 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisCochains.StrGen` | volunteer-build-reviewed |
 | M103332 | P0044 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.BernoulliNumbers.MapGenBChar` | volunteer-build-reviewed |
 | M103506 | P0044 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.FerreroWashingtonIndex.TwSingle` | volunteer-build-reviewed |
 | M103511 | P0450 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.GaloisCohomologyLength.ClassFix` | wave-reused |
@@ -342,6 +360,8 @@
 | M104057 | P0713 | `Development.AutomorphicArithmetic.AutomorphicVarieties.HeightAndVanishing.PartOrd` | wave-reused |
 | M104060 | P0713 | `Development.AutomorphicArithmetic.AutomorphicVarieties.HeightAndVanishing.ProjFacts` | wave-reused |
 | M104061 | P0741 | `Development.AutomorphicArithmetic.AutomorphicVarieties.HeightAndVanishing.ProjProd` | wave-reused |
+| M104064 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.HeightAndVanishing.RedAll` | volunteer-build-reviewed |
+| M104068 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.HeightAndVanishing.SumOut` | volunteer-build-reviewed |
 | M104078 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Cntconj` | volunteer-build-reviewed |
 | M104083 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Exbasis` | volunteer-build-reviewed |
 | M104084 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Faceexact` | volunteer-build-reviewed |
@@ -361,6 +381,12 @@
 | M104120 | P0559 | `Development.AutomorphicArithmetic.AutomorphicVarieties.IdeleGenerators.ConstSmall` | wave-reused |
 | M104237 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.IntegralityNearIdentity.ExistsContDiffEventuallyEq` | volunteer-build-reviewed |
 | M104265 | P0526 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LengthEqAddEigen` | wave-reused |
+| M104267 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LevelCohomology.CobDown` | volunteer-build-reviewed |
+| M104274 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LevelCohomology.H1cZero` | volunteer-build-reviewed |
+| M104284 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LevelCohomology.HcGalTail` | volunteer-build-reviewed |
+| M104291 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LevelCohomology.HcSpAct` | volunteer-build-reviewed |
+| M104292 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LevelCohomology.HcSpDim` | volunteer-build-reviewed |
+| M104293 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LevelCohomology.HcSpKer` | volunteer-build-reviewed |
 | M104314 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LevelCohomology.LxCore` | volunteer-build-reviewed |
 | M104415 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.AbsMain` | volunteer-build-reviewed |
 | M104416 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.Acyclic` | volunteer-build-reviewed |
@@ -376,29 +402,3 @@
 | M104448 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.InclFacts` | volunteer-build-reviewed |
 | M104455 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ParamDeriv` | volunteer-build-reviewed |
 | M104456 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ParamSmooth` | volunteer-build-reviewed |
-| M104457 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.PoinPt` | volunteer-build-reviewed |
-| M104458 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.Poincare` | volunteer-build-reviewed |
-| M104459 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.PullB` | volunteer-build-reviewed |
-| M104460 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.PullEquiv` | volunteer-build-reviewed |
-| M104464 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ShiftOne` | volunteer-build-reviewed |
-| M104465 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ShiftUp` | volunteer-build-reviewed |
-| M104466 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ShiftZero` | volunteer-build-reviewed |
-| M104467 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.Window` | volunteer-build-reviewed |
-| M104468 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.WindowOne` | volunteer-build-reviewed |
-| M104479 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.ConsMemUniMIffMapSubSmul` | volunteer-build-reviewed |
-| M104480 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.ExactAtLinkInSplitSeqOfExactAtSplitSeq` | volunteer-build-reviewed |
-| M104482 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.ExactAtLinkInUniMOfExactAtMapLinearEquiv` | volunteer-build-reviewed |
-| M104486 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.ExactAtUniSeqOrthogonalSplitSeqOfExactAtUniSeq` | volunteer-build-reviewed |
-| M104488 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.ExactAtUnimodularSeqsOfLinkNilCoordSubspace` | volunteer-build-reviewed |
-| M104489 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.ExactHMapOneZeroOfStaircase` | volunteer-build-reviewed |
-| M104490 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.ExistsAutomorphismPreservingTranslatesCoordOne` | volunteer-build-reviewed |
-| M104492 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.ExistsBdOfVbdEqOfOneTermCycle` | volunteer-build-reviewed |
-| M104495 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.ExistsGLSplitSeqStandardOfStableRangeLe` | volunteer-build-reviewed |
-| M104496 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.ExistsHomologousCycleWithEntriesInOfExactAtLinks` | volunteer-build-reviewed |
-| M104497 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.ExistsMemTranslateUnimodularPairOfStableRangeLe` | volunteer-build-reviewed |
-| M104500 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.ExistsTransvectionPreservingLowAndAff` | volunteer-build-reviewed |
-| M104503 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.GroupHomologyDimensionShiftIsIso` | volunteer-build-reviewed |
-| M104507 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.GroupHomologyMapEqOfInnerConj` | volunteer-build-reviewed |
-| M104511 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.InnerAutActsTriviallyGroupHomology` | volunteer-build-reviewed |
-| M104513 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.LinkInUniMEqShorterOfFormEqOne` | volunteer-build-reviewed |
-| M104515 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.PairNilHbdVbdEqZeroOfCycle` | volunteer-build-reviewed |

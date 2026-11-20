@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M031784 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstAndFinite` | volunteer-build-reviewed |
 | M031789 | P0552 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernClassTateTwistCocycleUniqueNaturalAddi` | wave-reused |
 | M031790 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernClassTateTwistCocycleUniqueNaturalAddiStatement` | wave-reused |
 | M031843 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FittingDatumBaseChangeLocalEnlargement` | wave-reused |
@@ -94,6 +95,7 @@
 | M034229 | P1590 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.H1GrowthNoSectionsNefStatement` | wave-reused |
 | M034251 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HCXBijective` | wave-reused |
 | M034252 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HCXBijectiveStatement` | wave-reused |
+| M034256 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HPolyAddTwo` | volunteer-build-reviewed |
 | M034384 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLFieldAutomorphism` | wave-reused |
 | M034385 | P0245 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLFieldAutomorphismStatement` | wave-reused |
 | M034675 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasLatticeRelativeLengthMapIff` | wave-reused |
@@ -118,6 +120,7 @@
 | M034807 | P0245 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumLambertDoubleSeriesDivisorsStatement` | wave-reused |
 | M034808 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumRowsInvCubeDerivWeierstrassP` | wave-reused |
 | M034809 | P0245 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumRowsInvCubeDerivWeierstrassPStatement` | wave-reused |
+| M034815 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasTemperateGrowthElim` | volunteer-build-reviewed |
 | M035052 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeckeWeightTwoConstantTermEqPartialZetaNegOne` | volunteer-build-reviewed |
 | M035060 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeckeWeightTwoKernelPhiLineContinuousIntegrable` | volunteer-build-reviewed |
 | M035140 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeightOneContractionOfEtalePrime` | wave-reused |
@@ -399,6 +402,3 @@
 | M039071 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTensorOfCompatIsIsoTargetStatement` | wave-reused |
 | M039072 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTensorUniversalProperty` | wave-reused |
 | M039073 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTensorUniversalPropertyStatement` | wave-reused |
-| M039190 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsUnitMpOmjExtIff` | wave-reused |
-| M039245 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsZModTorsorFiniteProjectiveBaseChange` | wave-reused |
-| M039246 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsZModTorsorFiniteProjectiveBaseChangeStatement` | volunteer-build-reviewed |

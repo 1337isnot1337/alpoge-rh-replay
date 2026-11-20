@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013572 | P0679 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IndepOfNestedSpecialFibreImagesStatement` | wave-reused |
 | M013576 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.InfiniteTorsionOrCocharacterOfArcAtInfinityStatement` | volunteer-build-reviewed |
 | M013584 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsAbelianSchemeOfAbelianThickenings` | volunteer-build-reviewed |
 | M013590 | P1086 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsClosedImmersionBySectionsOfSpan` | wave-reused |
@@ -401,4 +402,3 @@
 | M018269 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSumElimPowerSeriesSwapVariableGroupsStatement` | wave-reused |
 | M018307 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoequifiberedGeneratedSubalgebraQuasiCoherentStatement` | volunteer-build-reviewed |
 | M018326 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CohomSplitBaseChange` | volunteer-build-reviewed |
-| M018333 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CohomologyComplexOfSheafCocycleClassProperties` | wave-reused |

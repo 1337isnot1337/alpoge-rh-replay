@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M084572 | P0590 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.UnitaryGlModuleProjComponentsLevelAddTwo` | wave-reused |
+| M084573 | P0623 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.UnitaryGlModuleProjComponentsLevelAddTwoStatement` | wave-reused |
+| M084574 | P0590 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.UnitaryGlModuleProjDualTensorLevelAddTwo` | wave-reused |
+| M084575 | P0623 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.UnitaryGlModuleProjDualTensorLevelAddTwoStatement` | wave-reused |
+| M084576 | P0793 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.UnitaryGlProjectionLevelSumSqLe` | wave-reused |
+| M084577 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.UnitaryGlProjectionLevelSumSqLeStatement` | volunteer-build-reviewed |
+| M084593 | P0875 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ValLeOfMemSpan` | wave-reused |
+| M084598 | P1128 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ValueAtZeroLinearCombinationIntegralSections` | wave-reused |
+| M084599 | P0930 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ValueAtZeroOfSectionValue` | wave-reused |
+| M084611 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.WeightCompactDominanceOfMemHighestWeightSpanStatement` | volunteer-build-reviewed |
 | M084614 | P0448 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.WeightNearDiagonalOperatorsBounds` | wave-reused |
 | M084619 | P0793 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.WeilFormulaIntegrableComplex` | wave-reused |
 | M084620 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.WeilFormulaIntegrableComplexStatement` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M086810 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CloudLowJumpsReflectAndCard` | volunteer-build-reviewed |
 | M086905 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ComplexConjugationOrbitOneRealPlace` | volunteer-build-reviewed |
 | M087023 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CyclicWordMarkedClustersOfAtMostTwoInWindow` | volunteer-build-reviewed |
-| M087025 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CyclicWordNoThreeMarkedOfAtMostOne` | volunteer-build-reviewed |
-| M087027 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CyclicWordNoThreeMarkedOfAtMostTwoInWindow` | volunteer-build-reviewed |
-| M087111 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.DownMemRecOfTies` | volunteer-build-reviewed |
-| M087172 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.EmbeddingMapsIntoGoodExtension` | volunteer-build-reviewed |
-| M087173 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.EmbeddingSignAlternateOfSignNeg` | volunteer-build-reviewed |
-| M087175 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.EndSpannedByRepMatricesOfScalarExtension` | volunteer-build-reviewed |
-| M087305 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsConjDoubleBlockOfIsoSubspacesStatement` | volunteer-build-reviewed |
-| M087415 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsInternalStableDecompositionDescendsToSubfi` | volunteer-build-reviewed |
-| M087447 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsLetterOfLocalEmbedding` | volunteer-build-reviewed |
-| M087517 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsPlaceOverPrimeOfPadicAlgClEmbedding` | volunteer-build-reviewed |

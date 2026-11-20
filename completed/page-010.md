@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M039190 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsUnitMpOmjExtIff` | wave-reused |
+| M039245 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsZModTorsorFiniteProjectiveBaseChange` | wave-reused |
+| M039246 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsZModTorsorFiniteProjectiveBaseChangeStatement` | volunteer-build-reviewed |
 | M039247 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsZModTorsorIff` | volunteer-build-reviewed |
 | M039248 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsZeroChains` | wave-reused |
 | M039250 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsZeroTensorOfDegreeZeroComplexes` | wave-reused |
@@ -399,6 +402,3 @@
 | M046877 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PshNormalFrameQuadraticComparison` | wave-reused |
 | M046878 | P1005 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PshNormalFrameQuadraticComparisonStatement` | wave-reused |
 | M046889 | P0894 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantEigenProperty` | wave-reused |
-| M046890 | P0922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantEigenPropertyStatement` | wave-reused |
-| M046891 | P0786 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantElementProperty` | wave-reused |
-| M046892 | P0813 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantElementPropertyStatement` | wave-reused |

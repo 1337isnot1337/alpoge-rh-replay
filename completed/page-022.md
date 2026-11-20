@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M098721 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIsProdB` | volunteer-build-reviewed |
+| M098723 | P1232 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIsoOfCompatibleAbelianThickenings` | wave-reused |
+| M098724 | P1260 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIsoOfCompatibleAbelianThickeningsStatement` | wave-reused |
+| M098725 | P1072 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIsoOfSectionRing` | wave-reused |
+| M098727 | P1181 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIsoOfSectionRingEquiv` | wave-reused |
+| M098728 | P1206 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIsoOfSectionRingEquivStatement` | wave-reused |
+| M098733 | P1044 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsLevelPoint` | wave-reused |
+| M098735 | P0877 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsLiftOfRetraction` | wave-reused |
+| M098738 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsLimitUnit` | volunteer-build-reviewed |
+| M098740 | P1157 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsLinearFourierJacobiExpansionFamily` | wave-reused |
 | M098741 | P1181 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsLinearFourierJacobiExpansionFamilyStatement` | wave-reused |
 | M098753 | P0796 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsNeZeroIffSvalGenericPointNeZero` | wave-reused |
 | M098756 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsNsmulAndNeg` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M100979 | P0796 | `Development.AbelianVarietyTheory.PublishedTheorems.SemiabelianTori.GeometricallyConnectedSplitTorusAff` | wave-reused |
 | M101047 | P0042 | `Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.InverseChamberMap` | volunteer-build-reviewed |
 | M101070 | P0130 | `Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.NegOneNotSqSqrtTwo` | wave-reused |
-| M101078 | P0042 | `Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.QuadraticClassFieldTheory` | wave-reused |
-| M101079 | P0042 | `Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.RadfordShufflePolynomialHolds` | volunteer-build-reviewed |
-| M101080 | P0042 | `Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.RealMetaplecticRepresentation` | volunteer-build-reviewed |
-| M101099 | P0592 | `Development.AbelianVarietyTheory.Statements.ChartPoints.ChartPt` | wave-reused |
-| M101108 | P0592 | `Development.AbelianVarietyTheory.Statements.CuspidalUnitaryTwists.Chapter` | wave-reused |
-| M101109 | P0624 | `Development.AbelianVarietyTheory.Statements.CuspidalUnitaryTwists.ChapterMu` | wave-reused |
-| M101110 | P0656 | `Development.AbelianVarietyTheory.Statements.CuspidalUnitaryTwists.CuspidalUnitaryTwistsClaim` | wave-reused |
-| M101131 | P1104 | `Development.AbelianVarietyTheory.Statements.FundamentalDomains.ExistsIsAddFundamentalDomain` | wave-reused |
-| M101132 | P1158 | `Development.AbelianVarietyTheory.Statements.FundamentalDomains.IsLocalModelOfIntegral` | wave-reused |
-| M101133 | P1132 | `Development.AbelianVarietyTheory.Statements.FundamentalDomains.KeyFormulaPowOfKeyFormula` | wave-reused |

@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M063589 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumDirectionIndep` | wave-reused |
+| M063590 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumDirectionIndepStatement` | wave-reused |
+| M063591 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumEqTsumOfKills` | wave-reused |
+| M063592 | P0684 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumEqTsumOfKillsStatement` | wave-reused |
+| M063593 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumModerateMeasurabl` | wave-reused |
+| M063594 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumModerateMeasurablStatement` | wave-reused |
+| M063595 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumQExpansion` | wave-reused |
 | M063596 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumQExpansionStatement` | wave-reused |
 | M063597 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumSlTwoSmul` | wave-reused |
 | M063598 | P0621 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumSlTwoSmulStatement` | wave-reused |
@@ -310,6 +317,8 @@
 | M066920 | P0981 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BezoutEisensteinDerivativePrimePowStatement` | wave-reused |
 | M066930 | P0981 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BijectiveOfBijectiveBaseChangeQuotientJacobson` | wave-reused |
 | M066931 | P1009 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BijectiveOfBijectiveBaseChangeQuotientJacobsonStatement` | wave-reused |
+| M066992 | P0029 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BlockIsTheRun` | volunteer-build-reviewed |
+| M066999 | P0029 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BndMul` | volunteer-build-reviewed |
 | M067024 | P0190 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BoundedPowersOrExistsValuationSubringDvd` | wave-reused |
 | M067025 | P0253 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BoundedPowersOrExistsValuationSubringDvdStatement` | wave-reused |
 | M067033 | P1151 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BreuilKisinApproxRootImageIndep` | wave-reused |
@@ -393,12 +402,3 @@
 | M067755 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ContinuousCohomologyVanishesOfPrimeToLNormalNoIn` | volunteer-build-reviewed |
 | M067761 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ContinuousDistribHaarCharUnitsOfCompactOpen` | volunteer-build-reviewed |
 | M067763 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ContinuousEtaleHermitianPairNormAndMapZero` | volunteer-build-reviewed |
-| M067786 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ContinuousOnHermitianBlockMatrixOfInvariants` | volunteer-build-reviewed |
-| M067829 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CoprimeVal` | volunteer-build-reviewed |
-| M068000 | P0816 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CuspidalCharacterLabelUniqueGLn` | wave-reused |
-| M068001 | P0845 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CuspidalCharacterLabelUniqueGLnStatement` | wave-reused |
-| M068024 | P0359 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CyclotomicCharInertiaSurjective` | wave-reused |
-| M068032 | P0359 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CyclotomicCharacterPadicBasicProperties` | wave-reused |
-| M068033 | P0405 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CyclotomicCharacterPadicBasicPropertiesStatement` | wave-reused |
-| M068038 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CyclotomicExistsIff` | volunteer-build-reviewed |
-| M068053 | P0253 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CyclotomicPrimePowAutomorphismInertialAtPrime` | wave-reused |

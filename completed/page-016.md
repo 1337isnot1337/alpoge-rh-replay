@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M067786 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ContinuousOnHermitianBlockMatrixOfInvariants` | volunteer-build-reviewed |
+| M067829 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CoprimeVal` | volunteer-build-reviewed |
+| M068000 | P0816 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CuspidalCharacterLabelUniqueGLn` | wave-reused |
+| M068001 | P0845 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CuspidalCharacterLabelUniqueGLnStatement` | wave-reused |
+| M068024 | P0359 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CyclotomicCharInertiaSurjective` | wave-reused |
+| M068032 | P0359 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CyclotomicCharacterPadicBasicProperties` | wave-reused |
+| M068033 | P0405 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CyclotomicCharacterPadicBasicPropertiesStatement` | wave-reused |
+| M068038 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CyclotomicExistsIff` | volunteer-build-reviewed |
+| M068053 | P0253 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CyclotomicPrimePowAutomorphismInertialAtPrime` | wave-reused |
 | M068054 | P0307 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CyclotomicPrimePowAutomorphismInertialAtPrimeStatement` | wave-reused |
 | M068157 | P1038 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DeltaAddSubMemPow` | wave-reused |
 | M068158 | P1065 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DeltaAddSubMemPowStatement` | wave-reused |
@@ -393,12 +402,3 @@
 | M071996 | P1176 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LadicDescentStepToOE` | wave-reused |
 | M071997 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LadicDescentStepToOEStatement` | wave-reused |
 | M072036 | P1405 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LatticeApproximationMittagLeffler` | wave-reused |
-| M072037 | P1428 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LatticeApproximationMittagLefflerStatement` | wave-reused |
-| M072064 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LatticeHomSubmoduleFgAndSpanEqTopStatement` | volunteer-build-reviewed |
-| M072099 | P0192 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LeftMulTau` | volunteer-build-reviewed |
-| M072100 | P1405 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LemmaLSeriesWeightsOfGreenCuspidalParametrisatio` | wave-reused |
-| M072123 | P0818 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LengthCyclotomicBlockCocyclesLeSha` | wave-reused |
-| M072145 | P0032 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LevRepZApply` | volunteer-build-reviewed |
-| M072174 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LieLatticeProdComapInlAndMapSnd` | volunteer-build-reviewed |
-| M072208 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LiftStratifiedSolutionSuccOfCover` | wave-reused |
-| M072209 | P1227 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LiftStratifiedSolutionSuccOfCoverStatement` | wave-reused |
