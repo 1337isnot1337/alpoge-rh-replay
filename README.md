@@ -27,7 +27,6 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@rohanarun](https://github.com/rohanarun) | [M123818](https://github.com/rohanarun/alpoge-rh-replay/issues/25) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M091794](https://github.com/rohanarun/alpoge-rh-replay/issues/26) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M085409](https://github.com/rohanarun/alpoge-rh-replay/issues/27) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M025586](https://github.com/rohanarun/alpoge-rh-replay/issues/28) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M133511](https://github.com/rohanarun/alpoge-rh-replay/issues/29) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M057416](https://github.com/rohanarun/alpoge-rh-replay/issues/30) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M083527](https://github.com/rohanarun/alpoge-rh-replay/issues/31) | Claimed |
@@ -117,6 +116,8 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0485](https://github.com/rohanarun/alpoge-rh-replay/issues/125) | Claimed |
 | [@Genius-Cai-wen-zheng](https://github.com/Genius-Cai-wen-zheng) | [M103506](https://github.com/rohanarun/alpoge-rh-replay/issues/126) | Claimed |
 | [@juanfers1](https://github.com/juanfers1) | [P0476](https://github.com/rohanarun/alpoge-rh-replay/issues/127) | Claimed |
+| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0596](https://github.com/rohanarun/alpoge-rh-replay/issues/128) | Claimed |
+| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0783](https://github.com/rohanarun/alpoge-rh-replay/issues/129) | Claimed |
 
 <!-- active-volunteers-end -->
 
