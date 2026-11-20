@@ -354,6 +354,40 @@ class WorkerTests(unittest.TestCase):
             evidence.main()
         self.assertEqual(json.loads(output.getvalue())['reuse_checked'], ['M000001'])
 
+        # A receiver must reuse only the bundled outputs and compile a new
+        # dependent module without the producer's generated setup inputs.
+        self.assertTrue((self.project / '.lake/build/ir/Fixture/Mod0.setup.json').is_file())
+        receiver = self.root / 'receiver'
+        receiver.mkdir()
+        for name in ('lakefile.toml', 'lean-toolchain'):
+            shutil.copy2(self.project / name, receiver / name)
+        shutil.copytree(self.project / 'src', receiver / 'src')
+        packages = receiver / '.lake/packages'
+        packages.mkdir(parents=True)
+        (packages / 'mathlib').symlink_to(dep, target_is_directory=True)
+        for number in range(1, 21):
+            with tarfile.open(self.root / str(number) / 'targets.tar.gz') as archive:
+                self.assertFalse(any(m.name.endswith('.setup.json') for m in archive))
+                archive.extractall(receiver / '.lake/build', filter='data')
+        _, launcher, env = evidence.checkout_info(receiver)
+        result = subprocess.run([*launcher, 'lake', '--no-build', '--no-cache', 'build',
+                                 *['+' + r['module'] + ':olean' for r in self.rows]],
+                                cwd=receiver, env=env, capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertIn('All targets up-to-date', result.stdout + result.stderr)
+        (receiver / 'src/Fixture/AfterTransfer.lean').write_text(
+            'import Fixture.Mod0\nimport Fixture.Mod19\n'
+            'theorem afterTransfer : True := fixture0\n')
+        result = subprocess.run([*launcher, 'lake', '--no-cache', 'build',
+                                 '+Fixture.AfterTransfer:olean'], cwd=receiver,
+                                env=env, capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertEqual(tasks.rebuilt_imports(result.stdout + result.stderr,
+                                             {r['module'] for r in self.rows}, set()), [])
+        self.assertTrue((receiver / '.lake/build/lib/lean/Fixture/AfterTransfer.olean').is_file())
+        self.assertEqual([p.name for p in (receiver / '.lake/build').rglob('*.setup.json')],
+                         ['AfterTransfer.setup.json'])
+
 
 if __name__ == '__main__':
     unittest.main()
