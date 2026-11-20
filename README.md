@@ -197,6 +197,10 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M153518](https://github.com/rohanarun/alpoge-rh-replay/issues/500) | Claimed |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M075632](https://github.com/rohanarun/alpoge-rh-replay/issues/502) | Claimed |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M116295](https://github.com/rohanarun/alpoge-rh-replay/issues/503) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M127069](https://github.com/rohanarun/alpoge-rh-replay/issues/504) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M066213](https://github.com/rohanarun/alpoge-rh-replay/issues/505) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M071746](https://github.com/rohanarun/alpoge-rh-replay/issues/506) | Claimed |
+| [@gabeldev](https://github.com/gabeldev) | [M002614](https://github.com/rohanarun/alpoge-rh-replay/issues/507) | Claimed |
 
 <!-- active-volunteers-end -->
 
