@@ -2,6 +2,8 @@
 
 The index gives each of the 175,187 native Lean modules a stable ID for this archive version. There are 2,858 packets of at most 64 modules at the same project-import depth. Within a packet the modules can build concurrently after their prerequisites are ready. Reading the index and building a module require Python's standard library. Creating a claim with the CLI also requires an authenticated GitHub CLI.
 
+When GitHub CLI is signed in to github.com, the tracker uses that account’s API quota to read open claims. Anonymous lookups are also supported.
+
 ## Choose and claim work
 
 ```bash
