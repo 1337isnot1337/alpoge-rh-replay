@@ -2,6 +2,26 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M107467 | P0626 | `Development.AutomorphicArithmetic.AutomorphicVarieties.OddResidueBounds.ZeroMemUnrHom` | wave-reused |
+| M107468 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.AbStruct` | volunteer-build-reviewed |
+| M107469 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.AdmBilin` | volunteer-build-reviewed |
+| M107482 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.CharFil` | volunteer-build-reviewed |
+| M107489 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.CompKer` | volunteer-build-reviewed |
+| M107492 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.ContinuousUnitsInvOfContinuousCoeFiniteQpAlgebra` | volunteer-build-reviewed |
+| M107511 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.ExistsAlgebraicElementOfAlgebraicVectorSubspace` | volunteer-build-reviewed |
+| M107513 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.ExistsCocycleExtensionOfConjugationInvariantRest` | volunteer-build-reviewed |
+| M107531 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.ExistsLiftFactorCompactSubalgebra` | volunteer-build-reviewed |
+| M107538 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.ExistsSp4RootVectorUniqueOnWeight` | volunteer-build-reviewed |
+| M107540 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.ExistsTorusCoordsOfUnipotent` | volunteer-build-reviewed |
+| M107545 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.ExistsUnipotentFromTorusCoords` | volunteer-build-reviewed |
+| M107546 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.ExistsUniqueUnramifiedCocycleFrobeniusValue` | volunteer-build-reviewed |
+| M107549 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.FiltByRestrictScalarsOfResidualCharacters` | volunteer-build-reviewed |
+| M107554 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.FiniteLevelOfFiniteLevelMod` | volunteer-build-reviewed |
+| M107563 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.GradedChart` | volunteer-build-reviewed |
+| M107567 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.HomExt` | volunteer-build-reviewed |
+| M107609 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.MemFiniteCocyclesIffRestrictSubgroupMem` | volunteer-build-reviewed |
+| M107623 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.OrdinaryDeformation` | volunteer-build-reviewed |
+| M107633 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.RankCohomologyRationalEqRankLattice` | volunteer-build-reviewed |
 | M107651 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.SpFlag` | volunteer-build-reviewed |
 | M107654 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.SpTanL` | volunteer-build-reviewed |
 | M107655 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.SpTanP` | volunteer-build-reviewed |
@@ -306,6 +326,7 @@
 | M109895 | P0201 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.TotallyRealRoots.UnitsMapSurjOfZmod` | wave-reused |
 | M109898 | P0046 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.UnimodularGram.StarRingOfInvolution` | volunteer-build-reviewed |
 | M109960 | P0593 | `Development.AutomorphicArithmetic.CyclotomicBounds.NotInert` | build-observed |
+| M109966 | P0593 | `Development.AutomorphicArithmetic.CyclotomicBounds.RamifiedDiscriminants.FourMulQLeCondN` | build-observed |
 | M110038 | P0046 | `Development.AutomorphicArithmetic.DedekindLFunctions.CharFamily` | build-observed |
 | M110039 | P0741 | `Development.AutomorphicArithmetic.DedekindLFunctions.LandauTheorems.ChBalance` | build-observed |
 | M110071 | P0135 | `Development.AutomorphicArithmetic.DedekindLFunctions.LandauZeroFreeCriterion` | build-observed |
@@ -381,24 +402,3 @@
 | M112987 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.PAdicWittLattices.PSplitsBasic` | volunteer-build-reviewed |
 | M112988 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.PAdicWittLattices.PSplitsComp` | volunteer-build-reviewed |
 | M112989 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.PAdicWittLattices.PSplitsPts` | volunteer-build-reviewed |
-| M112995 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.PAdicWittLattices.PTrBase` | volunteer-build-reviewed |
-| M112996 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.PAdicWittLattices.PTrPushM` | volunteer-build-reviewed |
-| M113010 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.PAdicWittLattices.PTwGal` | volunteer-build-reviewed |
-| M113012 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.PAdicWittLattices.PTwSplit` | volunteer-build-reviewed |
-| M113022 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.PAdicWittLattices.PullIdentityMove` | volunteer-build-reviewed |
-| M113024 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.PAdicWittLattices.SplitDesc` | volunteer-build-reviewed |
-| M113558 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.ExpImm0Of` | volunteer-build-reviewed |
-| M113569 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PAdExists` | volunteer-build-reviewed |
-| M113577 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PConjCharpoly` | volunteer-build-reviewed |
-| M113583 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PCorrChart` | volunteer-build-reviewed |
-| M113585 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PDetOfCharpoly` | volunteer-build-reviewed |
-| M113586 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PDetReal` | volunteer-build-reviewed |
-| M113592 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PExpImm` | volunteer-build-reviewed |
-| M113604 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PFlatAffine` | volunteer-build-reviewed |
-| M113605 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PFlatComp` | volunteer-build-reviewed |
-| M114524 | P0594 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.FLOf` | wave-reused |
-| M114525 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.ImgcSpec` | wave-reused |
-| M114526 | P0317 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.IsWtZero` | wave-reused |
-| M114527 | P0453 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.IsolateSpec` | wave-reused |
-| M114528 | P1104 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.IsolateSpecHolds` | wave-reused |
-| M114529 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.OpEqOf` | wave-reused |

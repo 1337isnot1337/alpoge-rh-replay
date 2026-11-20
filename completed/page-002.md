@@ -248,6 +248,7 @@
 | M003402 | P0615 | `Development.AbelianVarietyTheory.Definitions.Degenerations.PullChartIsLB` | wave-reused |
 | M003403 | P0974 | `Development.AbelianVarietyTheory.Definitions.Degenerations.RigGen` | wave-reused |
 | M003405 | P0946 | `Development.AbelianVarietyTheory.Definitions.Degenerations.Ser` | wave-reused |
+| M003412 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.AltPullApply` | volunteer-build-reviewed |
 | M003417 | P0731 | `Development.AbelianVarietyTheory.Definitions.Divisors.BadElt` | wave-reused |
 | M003423 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.BlockGLMap` | wave-reused |
 | M003425 | P0648 | `Development.AbelianVarietyTheory.Definitions.Divisors.BlockSphereMeanLinForm` | wave-reused |
@@ -361,6 +362,7 @@
 | M004115 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.MultipliableAndSgNeZero` | wave-reused |
 | M004121 | P0974 | `Development.AbelianVarietyTheory.Definitions.Foundations.NormSumPairRankZeroOfCurveCoordNorm` | volunteer-build-reviewed |
 | M004122 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.NotCoboundaryConstantOne` | wave-reused |
+| M004128 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.NotIsTrDataGaussianIntOne` | volunteer-build-reviewed |
 | M004131 | P0173 | `Development.AbelianVarietyTheory.Definitions.Foundations.OpLDOneSubMemTriv` | wave-reused |
 | M004133 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.PetEqRelIndexMulPetProd` | volunteer-build-reviewed |
 | M004134 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.PetIPSmulRight` | wave-reused |
@@ -400,5 +402,3 @@
 | M004409 | P0974 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SmulCommClassGalIntegers` | build-observed |
 | M004410 | P1834 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SquareIntegrableColumnsCompatible` | build-observed |
 | M004411 | P0003 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SubClosed` | volunteer-build-reviewed |
-| M004412 | P1056 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ThinScalesIffHostBound` | build-observed |
-| M004415 | P1712 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking` | build-observed |

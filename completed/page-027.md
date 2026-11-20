@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M112995 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.PAdicWittLattices.PTrBase` | volunteer-build-reviewed |
+| M112996 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.PAdicWittLattices.PTrPushM` | volunteer-build-reviewed |
+| M113010 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.PAdicWittLattices.PTwGal` | volunteer-build-reviewed |
+| M113012 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.PAdicWittLattices.PTwSplit` | volunteer-build-reviewed |
+| M113022 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.PAdicWittLattices.PullIdentityMove` | volunteer-build-reviewed |
+| M113024 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.PAdicWittLattices.SplitDesc` | volunteer-build-reviewed |
+| M113558 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.ExpImm0Of` | volunteer-build-reviewed |
+| M113569 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PAdExists` | volunteer-build-reviewed |
+| M113577 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PConjCharpoly` | volunteer-build-reviewed |
+| M113583 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PCorrChart` | volunteer-build-reviewed |
+| M113585 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PDetOfCharpoly` | volunteer-build-reviewed |
+| M113586 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PDetReal` | volunteer-build-reviewed |
+| M113592 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PExpImm` | volunteer-build-reviewed |
+| M113604 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PFlatAffine` | volunteer-build-reviewed |
+| M113605 | P1340 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SphericalCoordinates.PFlatComp` | volunteer-build-reviewed |
+| M114524 | P0594 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.FLOf` | wave-reused |
+| M114525 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.ImgcSpec` | wave-reused |
+| M114526 | P0317 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.IsWtZero` | wave-reused |
+| M114527 | P0453 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.IsolateSpec` | wave-reused |
+| M114528 | P1104 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.IsolateSpecHolds` | wave-reused |
+| M114529 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.OpEqOf` | wave-reused |
 | M114530 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PArtSum` | wave-reused |
 | M114531 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PChart` | wave-reused |
 | M114532 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PCorrBCQ` | wave-reused |
@@ -381,24 +402,3 @@
 | M119734 | P0318 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.GlueApplyOfNotInFibre` | wave-reused |
 | M119737 | P0137 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.HasValues` | wave-reused |
 | M119738 | P0453 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.HodgeIPIffHodgeFormConj` | wave-reused |
-| M119741 | P0137 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.InjectiveOfIsCptGen` | wave-reused |
-| M119742 | P0059 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.InstBorelGL` | volunteer-build-reviewed |
-| M119744 | P0528 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IntegralClosureHeightEqOneOfLiesOver` | wave-reused |
-| M119747 | P0264 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsCocharLie` | wave-reused |
-| M119749 | P0528 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsConstMul` | wave-reused |
-| M119750 | P0059 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsCptGen` | wave-reused |
-| M119752 | P0561 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsFlatAnIffIsConstMul` | wave-reused |
-| M119755 | P0264 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsGenericFlag` | wave-reused |
-| M119756 | P0318 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsHTFormOver` | wave-reused |
-| M119757 | P0492 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsHodgeGram` | wave-reused |
-| M119758 | P0492 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsHodgeLine` | wave-reused |
-| M119762 | P0264 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsLineGenOn` | wave-reused |
-| M119763 | P0715 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsPeriodAtRestrict` | wave-reused |
-| M119769 | P0318 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LevelSectionsExactKernelLocusOpen` | wave-reused |
-| M119770 | P0059 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LieModel` | wave-reused |
-| M119773 | P0453 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LinearIndependentEigProj` | wave-reused |
-| M119774 | P0318 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LocalComponentsSurjective` | wave-reused |
-| M119775 | P0367 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.MemEigSpOfMemHtDual` | wave-reused |
-| M119781 | P0367 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.NumberField` | wave-reused |
-| M119786 | P0367 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ProjectiveLinePlaceTrivialOnConstants` | wave-reused |
-| M119790 | P0594 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.SlopeBoundSt` | wave-reused |

@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M144099 | P0373 | `Formalism.CMTypeGalois.CMTypeFrobenius.HostEmb` | build-observed |
+| M144100 | P0373 | `Formalism.CMTypeGalois.CMTypeFrobenius.HostFrob` | build-observed |
+| M144101 | P0373 | `Formalism.CMTypeGalois.CMTypeFrobenius.HostInertia` | build-observed |
+| M144102 | P0373 | `Formalism.CMTypeGalois.CMTypeFrobenius.HostMu` | build-observed |
+| M144103 | P0324 | `Formalism.CMTypeGalois.CMTypeFrobenius.KroneckerMeaning` | build-observed |
+| M144104 | P0373 | `Formalism.CMTypeGalois.CMTypeFrobenius.MQFrob` | build-observed |
+| M144105 | P0373 | `Formalism.CMTypeGalois.CMTypeFrobenius.MQGalois` | build-observed |
+| M144106 | P0373 | `Formalism.CMTypeGalois.CMTypeFrobenius.MQKummer` | build-observed |
+| M144107 | P0324 | `Formalism.CMTypeGalois.CMTypeFrobenius.TypesA` | build-observed |
+| M144108 | P0324 | `Formalism.CMTypeGalois.CMTypeFrobenius.TypesB` | build-observed |
+| M144109 | P0420 | `Formalism.CMTypeGalois.HalfTypesFromGeneral` | build-observed |
+| M144110 | P0324 | `Formalism.CMTypeGalois.StatementField` | wave-reused |
+| M144111 | P0270 | `Formalism.CMTypeGalois.StatementGroup` | wave-reused |
+| M144112 | P0146 | `Formalism.CharacterColumnKernels.Assemble` | build-observed |
+| M144113 | P0536 | `Formalism.CharacterColumnKernels.CharacterColumnKernelEqualityForm` | wave-reused |
+| M144114 | P0146 | `Formalism.CharacterColumnKernels.CharacterColumnKernelLengthBound` | build-observed |
+| M144115 | P0270 | `Formalism.CharacterColumnKernels.CharacterColumnKernelPairSetVariant` | wave-reused |
+| M144116 | P0601 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.BlockChiOneFullOf` | wave-reused |
+| M144117 | P0501 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.BlockChiOneTriv` | wave-reused |
+| M144118 | P0536 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.BlockRhoFull` | wave-reused |
+| M144119 | P0210 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.CharacterColumnKernelLengthBound` | build-observed |
 | M144120 | P0633 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.CharacterColumnKernelsOfBlockChiCOfBlockChiOne` | wave-reused |
 | M144121 | P0501 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.ColKer` | wave-reused |
 | M144122 | P0570 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.ColKerChiOne` | wave-reused |
@@ -381,24 +402,3 @@
 | M144502 | P0325 | `Formalism.FormalDegreeBessel.HolDimLowK` | build-observed |
 | M144503 | P0211 | `Formalism.FormalDegreeBessel.StatementBF` | wave-reused |
 | M144504 | P0271 | `Formalism.FormalDegreeBessel.StatementDS` | wave-reused |
-| M144505 | P0147 | `Formalism.FormalDegreeBessel.StatementG` | wave-reused |
-| M144506 | P0502 | `Formalism.FormalDegreeBessel.StatementIO` | wave-reused |
-| M144507 | P0536 | `Formalism.FormalDegreeBessel.StatementRP` | wave-reused |
-| M144508 | P0068 | `Formalism.FormalDegreeBessel.StatementWR` | wave-reused |
-| M144509 | P0068 | `Formalism.FormalGroupLog.FormalGroupLogProofs.ChainRule` | wave-reused |
-| M144510 | P0211 | `Formalism.FormalGroupLog.FormalGroupLogProofs.ConstantCoeffSubstOfZero` | wave-reused |
-| M144511 | P0211 | `Formalism.FormalGroupLog.FormalGroupLogProofs.HomPsSubstMvSubst` | wave-reused |
-| M144512 | P0271 | `Formalism.FormalGroupLog.LogDeterminesLaw` | wave-reused |
-| M144513 | P0147 | `Formalism.FormalGroupLog.Statement` | wave-reused |
-| M144514 | P0325 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.AdditiveLawExample` | wave-reused |
-| M144515 | P0374 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.CoeffExpandEqZero` | wave-reused |
-| M144516 | P0374 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.CoeffV` | wave-reused |
-| M144517 | P0420 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.CongrV` | wave-reused |
-| M144518 | P0374 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.EqSingleOfDegreeEqOne` | wave-reused |
-| M144519 | P0374 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.FrobSqV` | wave-reused |
-| M144520 | P0460 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.FunctionalEquationHomVector` | wave-reused |
-| M144521 | P0420 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.FunctionalEquationSubstVector` | wave-reused |
-| M144522 | P0420 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.GaussV` | wave-reused |
-| M144523 | P0502 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.GroupV` | wave-reused |
-| M144524 | P0502 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.HeightV` | wave-reused |
-| M144525 | P0374 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.IntegralSubstVector` | wave-reused |

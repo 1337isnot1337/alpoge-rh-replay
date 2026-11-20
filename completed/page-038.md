@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M144915 | P0721 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.StarAlgebraMap` | wave-reused |
+| M144916 | P0147 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.StepIdentity` | wave-reused |
+| M144917 | P1048 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.SumLocRepsEq` | wave-reused |
+| M144918 | P0829 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.SumOrbitsEquivariant` | wave-reused |
+| M144919 | P1076 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.SumRegroup` | wave-reused |
+| M144920 | P0069 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.SummableSqGeom` | wave-reused |
+| M144921 | P0801 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.SupEqTopOfMemHcompl` | wave-reused |
+| M144922 | P1211 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.SurjectiveOfNondegenerate` | wave-reused |
+| M144923 | P0884 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoBallCount` | wave-reused |
+| M144924 | P0966 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoMeanAlphaN` | wave-reused |
+| M144925 | P1186 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoSingSSum` | wave-reused |
+| M144926 | P0993 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoSumBoxIdeal` | wave-reused |
+| M144927 | P0774 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoSumCoset` | wave-reused |
+| M144928 | P0910 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoSumOfMean` | wave-reused |
+| M144929 | P0801 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoSumPeriodic` | wave-reused |
+| M144930 | P0069 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoTsumDivPow` | wave-reused |
+| M144931 | P0147 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoWeightedTprod` | wave-reused |
+| M144932 | P0634 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.UnimodularOfMemGenusOrtho` | wave-reused |
+| M144933 | P0774 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.UnitaryDensityField` | wave-reused |
+| M144934 | P0993 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.UnitaryDensityFieldBis` | wave-reused |
+| M144935 | P1076 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.UnitaryDensityFieldFurther` | wave-reused |
 | M144936 | P1048 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.UnitaryDensityFieldMore` | wave-reused |
 | M144937 | P1020 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.UnitaryDensityFieldTer` | wave-reused |
 | M144938 | P0747 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.VdEqZeroOfNotLe` | wave-reused |
@@ -381,24 +402,3 @@
 | M145326 | P0694 | `Formalism.HarderNarasimhan.ShiftInvariance` | wave-reused |
 | M145327 | P0147 | `Formalism.HarderNarasimhan.Statement` | wave-reused |
 | M145328 | P0212 | `Formalism.HarderNarasimhan.StatementCor` | build-observed |
-| M145329 | P0421 | `Formalism.HarderNarasimhan.StatementFrame` | wave-reused |
-| M145330 | P0421 | `Formalism.HarderNarasimhan.StatementFrameF` | wave-reused |
-| M145331 | P0421 | `Formalism.HarderNarasimhan.StatementMod` | build-observed |
-| M145332 | P0375 | `Formalism.HarderNarasimhan.StatementPl` | wave-reused |
-| M145333 | P0665 | `Formalism.HermitianCurvature.ActualZetaSmooth` | wave-reused |
-| M145335 | P0665 | `Formalism.HermitianCurvature.BesselNonvanishingReduction` | wave-reused |
-| M145336 | P0634 | `Formalism.HermitianCurvature.BigCellVanishingOfCommute` | wave-reused |
-| M145337 | P0147 | `Formalism.HermitianCurvature.BlockKernelPropertiesOfSteps` | wave-reused |
-| M145338 | P0721 | `Formalism.HermitianCurvature.CapelliDeterminantAndBranching` | wave-reused |
-| M145339 | P0634 | `Formalism.HermitianCurvature.CompositeFormulaLevelZero` | wave-reused |
-| M145341 | P0602 | `Formalism.HermitianCurvature.FiniteOrderIntersectionInSmooth` | wave-reused |
-| M145342 | P0774 | `Formalism.HermitianCurvature.FrameExists2` | wave-reused |
-| M145343 | P0721 | `Formalism.HermitianCurvature.FrameMinor` | wave-reused |
-| M145344 | P1368 | `Formalism.HermitianCurvature.HeisenbergConjugationMeasurePreserving` | build-observed |
-| M145346 | P0857 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.AAvCongr` | build-observed |
-| M145348 | P0721 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.ActualAdjointnessFromHermitian` | wave-reused |
-| M145350 | P0212 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.AddedBlockKernelSupport` | build-observed |
-| M145351 | P0147 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.AdditiveCharacterPsi` | wave-reused |
-| M145352 | P0272 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.AdicNeighbourhood` | build-observed |
-| M145354 | P0938 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.AdjointLeibnizExpansion` | wave-reused |
-| M145355 | P1020 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.AdjointOfIso` | build-observed |

@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M136181 | P0416 | `Development.EtaleCohomology.TateTwists.EtaleCochainEvaluationCoboundaryFormula` | wave-reused |
+| M136182 | P0416 | `Development.EtaleCohomology.TateTwists.EtaleCochainEvaluationLinear` | wave-reused |
+| M136183 | P0457 | `Development.EtaleCohomology.TateTwists.EtaleCochainEvaluationNaturalInRestriction` | wave-reused |
+| M136184 | P0416 | `Development.EtaleCohomology.TateTwists.EtaleCochainExistsOfNaturalEvaluation` | wave-reused |
+| M136190 | P0632 | `Development.EtaleCohomology.TateTwists.EtaleComplexAcyclicIffLocalExactness` | wave-reused |
+| M136191 | P0416 | `Development.EtaleCohomology.TateTwists.EtaleComplexPairingFlipExists` | wave-reused |
+| M136193 | P0568 | `Development.EtaleCohomology.TateTwists.EtaleCupAlexanderWhitneyLeibnizEvalDegreeZero` | wave-reused |
+| M136194 | P0600 | `Development.EtaleCohomology.TateTwists.EtaleCupAlexanderWhitneyLeibnizOfSucc` | wave-reused |
+| M136195 | P0632 | `Development.EtaleCohomology.TateTwists.EtaleCupAlexanderWhitneyLeibnizSuccHolds` | wave-reused |
+| M136196 | P0534 | `Development.EtaleCohomology.TateTwists.EtaleCupAlexanderWhitneyUniquenessHolds` | wave-reused |
+| M136197 | P0457 | `Development.EtaleCohomology.TateTwists.EtaleCupCompatibleWithCoefficientMapsOfSpec` | wave-reused |
+| M136198 | P0498 | `Development.EtaleCohomology.TateTwists.EtaleCupProductFlipExistsOfComponents` | wave-reused |
+| M136199 | P0416 | `Development.EtaleCohomology.TateTwists.EtaleCupProductNaturalInCoefficients` | wave-reused |
+| M136200 | P0498 | `Development.EtaleCohomology.TateTwists.EtaleEvaluationMapConstructionOfComponents` | wave-reused |
+| M136201 | P0534 | `Development.EtaleCohomology.TateTwists.EtaleFirstChernCochainCoboundaryVanishesSimplexD` | wave-reused |
+| M136202 | P0498 | `Development.EtaleCohomology.TateTwists.EtaleFreeModuleCohomologyHomOfComponents` | wave-reused |
+| M136204 | P0457 | `Development.EtaleCohomology.TateTwists.EtaleFreeSheafHomUniversalPropertyHolds` | wave-reused |
+| M136205 | P0416 | `Development.EtaleCohomology.TateTwists.EtaleFreeSheafUniversalProperty` | wave-reused |
+| M136207 | P0499 | `Development.EtaleCohomology.TateTwists.EtaleInjectiveResolutionDegreeZeroInjective` | wave-reused |
+| M136208 | P0416 | `Development.EtaleCohomology.TateTwists.EtaleInjectiveResolutionSectionsLocallyExact` | wave-reused |
+| M136209 | P0499 | `Development.EtaleCohomology.TateTwists.EtaleInjectiveSheafSectionsInjectiveHolds` | wave-reused |
 | M136210 | P0457 | `Development.EtaleCohomology.TateTwists.EtaleKInjectiveExtensionAlongQuasiIsoFromSingle` | wave-reused |
 | M136214 | P0416 | `Development.EtaleCohomology.TateTwists.EtaleKummerClassExplicitCocycle` | wave-reused |
 | M136215 | P0457 | `Development.EtaleCohomology.TateTwists.EtaleKummerClassSpecificationOfExistenceNaturali` | wave-reused |
@@ -381,24 +402,3 @@
 | M136650 | P0568 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.LocallyMonomial` | wave-reused |
 | M136651 | P0856 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.LocallyMonomialPrincipalization` | wave-reused |
 | M136652 | P0600 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.MonomialBlowupIteration` | wave-reused |
-| M136653 | P0800 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.MonomialCasePrincipalization` | wave-reused |
-| M136654 | P0693 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.MonomialCenter` | wave-reused |
-| M136655 | P0719 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.MonomialCenterSmoothPullback` | wave-reused |
-| M136656 | P0663 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.MonomialGeometryHypotheses` | wave-reused |
-| M136657 | P0773 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.MonomialInvariantDecrease` | wave-reused |
-| M136658 | P0746 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.MonomialNearPoint` | wave-reused |
-| M136659 | P0600 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.MonomialPartAlongDivisor` | wave-reused |
-| M136660 | P0500 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.MonomialPrincipalization` | wave-reused |
-| M136661 | P0828 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.MonomialPrincipalizationBaseChange` | wave-reused |
-| M136662 | P0064 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.MonomialSplitting` | volunteer-build-reviewed |
-| M136663 | P0632 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.MonomialSplittingFlatPullback` | wave-reused |
-| M136664 | P0632 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.MonomialSplittingUniqueness` | wave-reused |
-| M136665 | P0746 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.MonotoneInvariantSmoothPullback` | wave-reused |
-| M136666 | P1019 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.OrderOffExceptionalDivisor` | wave-reused |
-| M136667 | P0693 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.StrictTransformComponents` | wave-reused |
-| M136668 | P0746 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.TransformedBoundaryComponents` | wave-reused |
-| M136669 | P0371 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.OrderReduction.BlowupChartCongruence` | wave-reused |
-| M136670 | P0500 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.OrderReduction.BlowupLiftCongruence` | wave-reused |
-| M136671 | P0458 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.OrderReduction.BlowupSeqComparison` | wave-reused |
-| M136672 | P0746 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.OrderReduction.BoundarySeparation` | wave-reused |
-| M136673 | P0800 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.OrderReduction.BoundarySeparationBaseChange` | wave-reused |

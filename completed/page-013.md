@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M057566 | P0481 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsGluingHomomorphismDefectGroupStatement` | wave-reused |
+| M057593 | P0024 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIntSmulMemLattice` | wave-reused |
+| M057614 | P0787 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIrreducibleCharpolyMemRootsBar` | wave-reused |
+| M057634 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIsometryNearIdentityCloseTuples` | wave-reused |
+| M057635 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIsometryNearIdentityCloseTuplesStatement` | wave-reused |
 | M057637 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIsometryOfSameTrace` | wave-reused |
 | M057640 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIsometryTupleMatrixRightMulNearIdentity` | wave-reused |
 | M057641 | P0481 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIsometryTupleMatrixRightMulNearIdentityStatement` | wave-reused |
@@ -9,7 +14,9 @@
 | M057655 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsLatticeStabilizerNormalisingSubgroupStatement` | wave-reused |
 | M057658 | P1033 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsListProd` | wave-reused |
 | M057659 | P1061 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsListProdStatement` | wave-reused |
+| M057667 | P0186 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMassOneCutoffDoubleCosetIntegral` | volunteer-build-reviewed |
 | M057680 | P0024 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMeasurableLintegralCosetEqOneClosedSubgrou` | volunteer-build-reviewed |
+| M057681 | P0116 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMeasurableLintegralCosetEqOneClosedSubgrouStatement` | volunteer-build-reviewed |
 | M057692 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNatBoundLocalLatticesStandardAe` | wave-reused |
 | M057693 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNatBoundLocalLatticesStandardAeStatement` | wave-reused |
 | M057694 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNatMulMemIntegersQuadraticCompletion` | wave-reused |
@@ -30,6 +37,7 @@
 | M057848 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsUniqueGlobalLatticeOfLocalLattices` | wave-reused |
 | M057849 | P0521 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsUniqueGlobalLatticeOfLocalLatticesStatement` | wave-reused |
 | M057860 | P0842 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsUniqueShuffle` | wave-reused |
+| M057871 | P0024 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsUnitaryMulVecEqOfFormEq` | volunteer-build-reviewed |
 | M057882 | P0554 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsWtEqMulNu` | wave-reused |
 | M057883 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsWtEqMulNuStatement` | wave-reused |
 | M057890 | P0249 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExpandByConductor` | wave-reused |
@@ -394,11 +402,3 @@
 | M060289 | P0402 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermLevelZeroAndBoundedRepresentatives` | wave-reused |
 | M060290 | P0444 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermLevelZeroAndBoundedRepresentativesStatement` | wave-reused |
 | M060293 | P0521 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermOverFrameCoordinates` | wave-reused |
-| M060307 | P0554 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermsCorrespond` | wave-reused |
-| M060308 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermsCorrespondStatement` | wave-reused |
-| M060322 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ThetaSmulCompletedLatticeIffTypePrimeMulStatement` | volunteer-build-reviewed |
-| M060327 | P0521 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ThickOrbitSelfDualUnramifiedLattice` | wave-reused |
-| M060328 | P0554 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ThickOrbitSelfDualUnramifiedLatticeStatement` | wave-reused |
-| M060348 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TotallyPositiveOrthogonalOfTwoFlagExtendedSpaces` | volunteer-build-reviewed |
-| M060350 | P0815 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TrFirstPattern` | wave-reused |
-| M060351 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TraceCmbMulCmbStar` | volunteer-build-reviewed |

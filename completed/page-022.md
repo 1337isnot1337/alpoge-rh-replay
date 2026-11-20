@@ -2,6 +2,24 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M093315 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsGenericSeriesSquarefreeLabels` | volunteer-build-reviewed |
+| M093339 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsHasDerivAtZeroOfMapAddMulStatement` | volunteer-build-reviewed |
+| M093348 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsHeckeTranslateOfMemSpanFixedTranslates` | volunteer-build-reviewed |
+| M093352 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsHeisenbergInvariantLinearFormIsotropicVacu` | volunteer-build-reviewed |
+| M093357 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsHeisenbergSubgroupFourierJacobiCommutatorStatement` | volunteer-build-reviewed |
+| M093382 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsInfiniteDecomp` | volunteer-build-reviewed |
+| M093407 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIntegralUnitDeterminantAtIdempotentResidue` | volunteer-build-reviewed |
+| M093413 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsInvariantForm` | volunteer-build-reviewed |
+| M093418 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIrreducibleSubrepWithGroupAlgebraFixedStatement` | volunteer-build-reviewed |
+| M093421 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIsBorelSphRevInv` | volunteer-build-reviewed |
+| M093429 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIsLocalLevelAtPrimeOfLevelDatum` | volunteer-build-reviewed |
+| M093431 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIsRepsOfFg` | volunteer-build-reviewed |
+| M093436 | P0408 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIsSymmetricPositionLevel` | volunteer-build-reviewed |
+| M093440 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIsUnitDetAddMulOfFromBlocksLocalRingStatement` | volunteer-build-reviewed |
+| M093445 | P1337 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIsWeilOfEq` | volunteer-build-reviewed |
+| M093499 | P1016 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsLinearMapTensorOfPairingStatement` | volunteer-build-reviewed |
+| M093528 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMaxValuationIdealSplitPlaceAndConjugate` | volunteer-build-reviewed |
+| M093530 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMaximalOperatorStableOfFinsetGenerating` | volunteer-build-reviewed |
 | M093538 | P1337 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMulHeightMinpolyCoeffLeRelativeHeight` | volunteer-build-reviewed |
 | M093539 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMulHeightMinpolyCoeffLeRelativeHeightStatement` | volunteer-build-reviewed |
 | M093542 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMultilinearSlotwiseExtensionOfEquivariant` | volunteer-build-reviewed |
@@ -384,21 +402,3 @@
 | M097054 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzFourierTransformPiSurjectiveSchwartzBruh` | volunteer-build-reviewed |
 | M097066 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SecondCountableLocal` | volunteer-build-reviewed |
 | M097172 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SelfDualLatticeHasRigidification` | volunteer-build-reviewed |
-| M097177 | P1016 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SelfDualLatticeResolutionOfIdentityStatement` | volunteer-build-reviewed |
-| M097186 | P1337 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SemilinearEquivPreservesProperties` | volunteer-build-reviewed |
-| M097187 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SemilinearEquivPreservesPropertiesStatement` | volunteer-build-reviewed |
-| M097213 | P1016 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SignedParametersBounded` | volunteer-build-reviewed |
-| M097217 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SimpleOver` | volunteer-build-reviewed |
-| M097219 | P0408 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SimpleOverStableSubmodulePiTensorStatement` | volunteer-build-reviewed |
-| M097221 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SimpleOverStableSubmoduleTensorPureKernelSpanStatement` | volunteer-build-reviewed |
-| M097229 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SingleMulSingle` | volunteer-build-reviewed |
-| M097257 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SmoothVanishingHyperplanesFactorStatement` | volunteer-build-reviewed |
-| M097293 | P0558 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitFactorIdempotentsExist` | volunteer-build-reviewed |
-| M097308 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitIdempotentPrimeProjectionCorrespondence` | volunteer-build-reviewed |
-| M097356 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitPlaceWeilRepLatticeVacuumCharacter` | volunteer-build-reviewed |
-| M097358 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitPrimeAdditiveCharacterUnramified` | volunteer-build-reviewed |
-| M097359 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitPrimePlacesSplit` | volunteer-build-reviewed |
-| M097360 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitProjAdeleComponentChartProperties` | volunteer-build-reviewed |
-| M097362 | P0558 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitSubtorusLaurentPolynomialPoints` | volunteer-build-reviewed |
-| M097364 | P0558 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitSubtorusOfIdempotentFamily` | volunteer-build-reviewed |
-| M097368 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitThetaGridPathAvoidsOppositeCorner` | volunteer-build-reviewed |

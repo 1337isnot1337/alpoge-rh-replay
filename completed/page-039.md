@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M145329 | P0421 | `Formalism.HarderNarasimhan.StatementFrame` | wave-reused |
+| M145330 | P0421 | `Formalism.HarderNarasimhan.StatementFrameF` | wave-reused |
+| M145331 | P0421 | `Formalism.HarderNarasimhan.StatementMod` | build-observed |
+| M145332 | P0375 | `Formalism.HarderNarasimhan.StatementPl` | wave-reused |
+| M145333 | P0665 | `Formalism.HermitianCurvature.ActualZetaSmooth` | wave-reused |
+| M145335 | P0665 | `Formalism.HermitianCurvature.BesselNonvanishingReduction` | wave-reused |
+| M145336 | P0634 | `Formalism.HermitianCurvature.BigCellVanishingOfCommute` | wave-reused |
+| M145337 | P0147 | `Formalism.HermitianCurvature.BlockKernelPropertiesOfSteps` | wave-reused |
+| M145338 | P0721 | `Formalism.HermitianCurvature.CapelliDeterminantAndBranching` | wave-reused |
+| M145339 | P0634 | `Formalism.HermitianCurvature.CompositeFormulaLevelZero` | wave-reused |
+| M145341 | P0602 | `Formalism.HermitianCurvature.FiniteOrderIntersectionInSmooth` | wave-reused |
+| M145342 | P0774 | `Formalism.HermitianCurvature.FrameExists2` | wave-reused |
+| M145343 | P0721 | `Formalism.HermitianCurvature.FrameMinor` | wave-reused |
+| M145344 | P1368 | `Formalism.HermitianCurvature.HeisenbergConjugationMeasurePreserving` | build-observed |
+| M145346 | P0857 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.AAvCongr` | build-observed |
+| M145348 | P0721 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.ActualAdjointnessFromHermitian` | wave-reused |
+| M145350 | P0212 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.AddedBlockKernelSupport` | build-observed |
+| M145351 | P0147 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.AdditiveCharacterPsi` | wave-reused |
+| M145352 | P0272 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.AdicNeighbourhood` | build-observed |
+| M145354 | P0938 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.AdjointLeibnizExpansion` | wave-reused |
+| M145355 | P1020 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.AdjointOfIso` | build-observed |
 | M145356 | P0602 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.AdjointnessPolynomiallyBounded` | wave-reused |
 | M145359 | P0801 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.AdmissibleAtomicFormOneReduction` | build-observed |
 | M145360 | P0829 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.AdmissibleOfPlaces` | build-observed |
@@ -381,24 +402,3 @@
 | M146611 | P0570 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.LowerLevelsSameScalar` | wave-reused |
 | M146612 | P0634 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.LowerParabolicCoordinates` | wave-reused |
 | M146615 | P0721 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MajorantEstimate` | wave-reused |
-| M146616 | P0326 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MajorantIntegrals` | build-observed |
-| M146617 | P1048 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MapInvMEq` | build-observed |
-| M146618 | P0148 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.Markov` | build-observed |
-| M146619 | P0148 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MassRatioFormula` | build-observed |
-| M146620 | P1020 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MatExtMulVec` | build-observed |
-| M146622 | P0326 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeanBoundsLimits` | build-observed |
-| M146623 | P0273 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeanNormSquaredBound` | build-observed |
-| M146624 | P0273 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeanPositiveSemidefinite` | build-observed |
-| M146625 | P0326 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeasIterDeriv` | build-observed |
-| M146626 | P1048 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeasMOfCont` | build-observed |
-| M146627 | P1107 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeasMUpper` | build-observed |
-| M146628 | P1076 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeasSgsPow` | build-observed |
-| M146629 | P1136 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeasurableCoordinateMap` | build-observed |
-| M146631 | P1238 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeasurableEnormComposition` | build-observed |
-| M146634 | P1107 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeasurePreservingProdRearrange` | build-observed |
-| M146636 | P0273 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MemIntegralGlOfMiddleBlock` | build-observed |
-| M146639 | P1048 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MemStepsFull` | build-observed |
-| M146640 | P0148 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MiddleThirdEstimate` | build-observed |
-| M146641 | P0858 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MinLeTruncatedExponential` | build-observed |
-| M146644 | P0148 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MinorScalingLawGeneral` | build-observed |
-| M146645 | P0148 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.Minors` | build-observed |

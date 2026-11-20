@@ -2,6 +2,25 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M100015 | P0656 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ScaledBaseChangeFibreSectionCalculusStatement` | wave-reused |
+| M100016 | P0624 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ScaledBaseChangeFibreSectionNonvanishingIff` | wave-reused |
+| M100017 | P0656 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ScaledBaseChangeFibreSectionNonvanishingIffStatement` | wave-reused |
+| M100037 | P0656 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.SmulMemOfIsIntegral` | wave-reused |
+| M100059 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ThetaFunctionIsogenyRestriction` | volunteer-build-reviewed |
+| M100066 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ThetaSqTransformLevelEight` | volunteer-build-reviewed |
+| M100075 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.TypeFnPeriodExistModuliNonempty` | volunteer-build-reviewed |
+| M100084 | P0796 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.UnivChartOfStandardSmooth` | wave-reused |
+| M100085 | P1338 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.UniversalFrameClassifiesFramedPoints` | wave-reused |
+| M100086 | P1363 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.UniversalFrameClassifiesFramedPointsStatement` | wave-reused |
+| M100112 | P0796 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.AddCurveStableOfIntegralGaugedFormalGroupLaw` | wave-reused |
+| M100113 | P0823 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.AddCurveStableOfIntegralGaugedFormalGroupLawStatement` | wave-reused |
+| M100115 | P0796 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.AdjointEndPairMemGaugedCurveLogarithms` | wave-reused |
+| M100133 | P0408 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.BlockValueOnRowsEq` | volunteer-build-reviewed |
+| M100140 | P0258 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ChainLemmaMultivariatePowerSeriesCoordinateForm` | wave-reused |
+| M100141 | P0312 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ChainLemmaMultivariatePowerSeriesCoordinateFormStatement` | wave-reused |
+| M100142 | P0525 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ChainStepKernelRankLeModMaxIdeal` | wave-reused |
+| M100143 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ChainStepKernelRankLeModMaxIdealStatement` | volunteer-build-reviewed |
+| M100150 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ChartPSmulLiftEqBt` | volunteer-build-reviewed |
 | M100152 | P0796 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CocycleIntegral` | wave-reused |
 | M100153 | P0624 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffCoordinatesGoodTangentsLtSq` | wave-reused |
 | M100154 | P0656 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffCoordinatesGoodTangentsLtSqStatement` | wave-reused |
@@ -383,22 +402,3 @@
 | M103208 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrBdim` | wave-reused |
 | M103209 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrBrig` | wave-reused |
 | M103210 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrBstab` | wave-reused |
-| M103211 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrCfix` | wave-reused |
-| M103212 | P0450 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrCocv` | wave-reused |
-| M103213 | P0450 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrCorrect` | wave-reused |
-| M103214 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrCount` | wave-reused |
-| M103215 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrDual` | wave-reused |
-| M103216 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrDualb` | wave-reused |
-| M103217 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrExt` | wave-reused |
-| M103218 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrGood` | wave-reused |
-| M103219 | P0450 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrMazur` | wave-reused |
-| M103220 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrMu` | wave-reused |
-| M103221 | P0450 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrNorm` | wave-reused |
-| M103222 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrNorm1` | wave-reused |
-| M103223 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrOfbox` | wave-reused |
-| M103224 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrOpen` | wave-reused |
-| M103225 | P0625 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrRes` | wave-reused |
-| M103226 | P0450 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrSetlift` | wave-reused |
-| M103227 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrSqz` | wave-reused |
-| M103228 | P0488 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrTbox` | wave-reused |
-| M103229 | P0525 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrTsurj` | wave-reused |

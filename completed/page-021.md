@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M090403 | P0128 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SummableNormSiegelThetaSeriesTerms` | wave-reused |
+| M090404 | P0039 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SummableProdPi` | wave-reused |
+| M090410 | P0128 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SymplecticEqParabolicJParabolicJParabolic` | wave-reused |
+| M090411 | P0195 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SymplecticEqParabolicJParabolicJParabolicStatement` | wave-reused |
+| M090412 | P0128 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SymplecticSiegelActionMemUpperHalfSpaceAndCocycl` | wave-reused |
+| M090413 | P0195 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SymplecticSiegelActionMemUpperHalfSpaceAndCocyclStatement` | wave-reused |
+| M090415 | P0988 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TensorLatticeSelfDualSemicharacterIndex` | wave-reused |
+| M090416 | P1015 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TensorLatticeSelfDualSemicharacterIndexStatement` | wave-reused |
+| M090417 | P1043 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TensorLatticeVacuaExistUnique` | wave-reused |
+| M090419 | P0128 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TestFunctionWitness` | wave-reused |
+| M090421 | P0448 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.ThHEqThSDictionary` | wave-reused |
+| M090461 | P0195 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TsumSchwartzBruhatLevelEqSumResidueCosets` | wave-reused |
+| M090462 | P0257 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TsumSchwartzBruhatLevelEqSumResidueCosetsStatement` | wave-reused |
+| M090470 | P0448 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.UnitaryActHalfSpace` | wave-reused |
+| M090471 | P0486 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.UnitaryActHalfSpaceStatement` | wave-reused |
+| M090486 | P1043 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.WeilActionPreservesThetaAndInnerProduct` | wave-reused |
+| M090495 | P1071 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.AppLESurjective` | wave-reused |
 | M090496 | P1102 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.CardZerosOnTorsionCosetLe` | wave-reused |
 | M090499 | P0623 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.ExistsBasisOfIsField` | wave-reused |
 | M090507 | P0039 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.ExistsMulMemAdjoinOfMemPowRange` | wave-reused |
@@ -299,6 +316,7 @@
 | M091792 | P0128 | `Development.AbelianVarietyTheory.Proofs.TorusSplitting.NormProdSumThetaLeExp` | wave-reused |
 | M091793 | P1131 | `Development.AbelianVarietyTheory.Proofs.TorusSplitting.NormProdSumThetaLeExpTorus` | wave-reused |
 | M091794 | P1157 | `Development.AbelianVarietyTheory.Proofs.TorusSplitting.NormProdSumThetaLeExpTorusStatement` | wave-reused |
+| M091830 | P0040 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.AbstractCompleteReducibility` | volunteer-build-reviewed |
 | M091891 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.AdelicUnitaryComponentAtPlaceLawsStatement` | volunteer-build-reviewed |
 | M091895 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.AdelicVectorSizeSeenOrthogonalSummandLeStatement` | volunteer-build-reviewed |
 | M091897 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.AdicCompletionIntegersNormEqOneOfMulEqOneStatement` | volunteer-build-reviewed |
@@ -384,21 +402,3 @@
 | M093267 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsFinsetMatrixPairIntegralOutsideStatement` | volunteer-build-reviewed |
 | M093301 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsGLMulRightColumnsEqZeroOfRank` | volunteer-build-reviewed |
 | M093313 | P0408 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsGenericLevelOfFrame` | volunteer-build-reviewed |
-| M093315 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsGenericSeriesSquarefreeLabels` | volunteer-build-reviewed |
-| M093339 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsHasDerivAtZeroOfMapAddMulStatement` | volunteer-build-reviewed |
-| M093348 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsHeckeTranslateOfMemSpanFixedTranslates` | volunteer-build-reviewed |
-| M093352 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsHeisenbergInvariantLinearFormIsotropicVacu` | volunteer-build-reviewed |
-| M093357 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsHeisenbergSubgroupFourierJacobiCommutatorStatement` | volunteer-build-reviewed |
-| M093382 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsInfiniteDecomp` | volunteer-build-reviewed |
-| M093407 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIntegralUnitDeterminantAtIdempotentResidue` | volunteer-build-reviewed |
-| M093413 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsInvariantForm` | volunteer-build-reviewed |
-| M093418 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIrreducibleSubrepWithGroupAlgebraFixedStatement` | volunteer-build-reviewed |
-| M093421 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIsBorelSphRevInv` | volunteer-build-reviewed |
-| M093429 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIsLocalLevelAtPrimeOfLevelDatum` | volunteer-build-reviewed |
-| M093431 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIsRepsOfFg` | volunteer-build-reviewed |
-| M093436 | P0408 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIsSymmetricPositionLevel` | volunteer-build-reviewed |
-| M093440 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIsUnitDetAddMulOfFromBlocksLocalRingStatement` | volunteer-build-reviewed |
-| M093445 | P1337 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIsWeilOfEq` | volunteer-build-reviewed |
-| M093499 | P1016 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsLinearMapTensorOfPairingStatement` | volunteer-build-reviewed |
-| M093528 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMaxValuationIdealSplitPlaceAndConjugate` | volunteer-build-reviewed |
-| M093530 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMaximalOperatorStableOfFinsetGenerating` | volunteer-build-reviewed |

@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M134415 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.SncAdaptedChartSectionForm` | volunteer-build-reviewed |
+| M134446 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.SphereMeasureStereographicIntegralStatement` | volunteer-build-reviewed |
+| M134452 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.SquareParametrizedDensityFormulaStatement` | volunteer-build-reviewed |
+| M134459 | P0718 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.StepRowsInverseNonzeroEntry` | wave-reused |
+| M134460 | P0745 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.StepRowsInverseNonzeroEntryStatement` | wave-reused |
+| M134463 | P0209 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.SubframeDetLogGrowth` | volunteer-build-reviewed |
+| M134464 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.SumFundCoMulSumIic` | volunteer-build-reviewed |
+| M134483 | P0598 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TailLogBoundLocalIntegrable` | wave-reused |
+| M134484 | P0631 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TailLogBoundLocalIntegrableStatement` | wave-reused |
+| M134486 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.ThetaDerivativeBound` | volunteer-build-reviewed |
+| M134490 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.ThetaFunctionCanonicalMultiplier` | volunteer-build-reviewed |
+| M134494 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.ThetaFunctionSupBound` | volunteer-build-reviewed |
+| M134496 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.ThetaNormInPeriodCoordinates` | volunteer-build-reviewed |
+| M134498 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.ThetaZeroDivisorJetBound` | volunteer-build-reviewed |
+| M134507 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TorsionValueNormEqThetaNorm` | volunteer-build-reviewed |
+| M134509 | P0827 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TransPtBase` | wave-reused |
+| M134518 | P0855 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TwistedAtlasCompatibility` | wave-reused |
+| M134519 | P0883 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TwistedAtlasCompatibilityStatement` | wave-reused |
+| M134520 | P0909 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TwistedChartContinuousProjection` | wave-reused |
+| M134521 | P0937 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TwistedChartContinuousProjectionStatement` | wave-reused |
+| M134522 | P0855 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TwistedChartCoordinatesRegular` | wave-reused |
 | M134523 | P0883 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TwistedChartCoordinatesRegularStatement` | wave-reused |
 | M134524 | P0855 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TwistedChartHolomorphic` | wave-reused |
 | M134525 | P0909 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TwistedChartHolomorphicAltBis` | wave-reused |
@@ -381,24 +402,3 @@
 | M136178 | P0457 | `Development.EtaleCohomology.TateTwists.EtaleCochainCupAssocOfCupSpecAndAlexanderWhitney` | wave-reused |
 | M136179 | P0416 | `Development.EtaleCohomology.TateTwists.EtaleCochainCupAssociativeOfPairing` | wave-reused |
 | M136180 | P0534 | `Development.EtaleCohomology.TateTwists.EtaleCochainDifferentialEvaluationDegreeZero` | wave-reused |
-| M136181 | P0416 | `Development.EtaleCohomology.TateTwists.EtaleCochainEvaluationCoboundaryFormula` | wave-reused |
-| M136182 | P0416 | `Development.EtaleCohomology.TateTwists.EtaleCochainEvaluationLinear` | wave-reused |
-| M136183 | P0457 | `Development.EtaleCohomology.TateTwists.EtaleCochainEvaluationNaturalInRestriction` | wave-reused |
-| M136184 | P0416 | `Development.EtaleCohomology.TateTwists.EtaleCochainExistsOfNaturalEvaluation` | wave-reused |
-| M136190 | P0632 | `Development.EtaleCohomology.TateTwists.EtaleComplexAcyclicIffLocalExactness` | wave-reused |
-| M136191 | P0416 | `Development.EtaleCohomology.TateTwists.EtaleComplexPairingFlipExists` | wave-reused |
-| M136193 | P0568 | `Development.EtaleCohomology.TateTwists.EtaleCupAlexanderWhitneyLeibnizEvalDegreeZero` | wave-reused |
-| M136194 | P0600 | `Development.EtaleCohomology.TateTwists.EtaleCupAlexanderWhitneyLeibnizOfSucc` | wave-reused |
-| M136195 | P0632 | `Development.EtaleCohomology.TateTwists.EtaleCupAlexanderWhitneyLeibnizSuccHolds` | wave-reused |
-| M136196 | P0534 | `Development.EtaleCohomology.TateTwists.EtaleCupAlexanderWhitneyUniquenessHolds` | wave-reused |
-| M136197 | P0457 | `Development.EtaleCohomology.TateTwists.EtaleCupCompatibleWithCoefficientMapsOfSpec` | wave-reused |
-| M136198 | P0498 | `Development.EtaleCohomology.TateTwists.EtaleCupProductFlipExistsOfComponents` | wave-reused |
-| M136199 | P0416 | `Development.EtaleCohomology.TateTwists.EtaleCupProductNaturalInCoefficients` | wave-reused |
-| M136200 | P0498 | `Development.EtaleCohomology.TateTwists.EtaleEvaluationMapConstructionOfComponents` | wave-reused |
-| M136201 | P0534 | `Development.EtaleCohomology.TateTwists.EtaleFirstChernCochainCoboundaryVanishesSimplexD` | wave-reused |
-| M136202 | P0498 | `Development.EtaleCohomology.TateTwists.EtaleFreeModuleCohomologyHomOfComponents` | wave-reused |
-| M136204 | P0457 | `Development.EtaleCohomology.TateTwists.EtaleFreeSheafHomUniversalPropertyHolds` | wave-reused |
-| M136205 | P0416 | `Development.EtaleCohomology.TateTwists.EtaleFreeSheafUniversalProperty` | wave-reused |
-| M136207 | P0499 | `Development.EtaleCohomology.TateTwists.EtaleInjectiveResolutionDegreeZeroInjective` | wave-reused |
-| M136208 | P0416 | `Development.EtaleCohomology.TateTwists.EtaleInjectiveResolutionSectionsLocallyExact` | wave-reused |
-| M136209 | P0499 | `Development.EtaleCohomology.TateTwists.EtaleInjectiveSheafSectionsInjectiveHolds` | wave-reused |

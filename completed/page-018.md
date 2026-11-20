@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M073717 | P0033 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RingHomIsPushoutOfPiComponents` | wave-reused |
+| M073718 | P0124 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RingHomIsPushoutOfPiComponentsStatement` | wave-reused |
+| M073719 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RingHomTiltMapTiltFrobeniusIntegerPower` | volunteer-build-reviewed |
+| M073729 | P0985 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RootOfUnityPadicComplexMemRangeAlgClosure` | wave-reused |
+| M073730 | P1012 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RootOfUnityPadicComplexMemRangeAlgClosureStatement` | wave-reused |
+| M073781 | P1405 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SaturatedAinfLatticeFreeOverBreuilKisin` | wave-reused |
+| M073782 | P1429 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SaturatedAinfLatticeFreeOverBreuilKisinStatement` | wave-reused |
+| M073788 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ScaledIntegersKAnnihilatorSmallNearZeroStatement` | volunteer-build-reviewed |
+| M073835 | P0847 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SelAllLeInf` | wave-reused |
+| M073838 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SelfDualHermitianLatticeBasisExists` | volunteer-build-reviewed |
+| M073839 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SelfDualHermitianLatticeBasisExistsStatement` | volunteer-build-reviewed |
+| M073852 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SelfDualMeasureExistsUniqueFourierInversion` | volunteer-build-reviewed |
+| M073879 | P1040 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SemilinearProjectiveModuleCompose` | wave-reused |
+| M073880 | P1068 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SemilinearProjectiveModuleComposeStatement` | wave-reused |
+| M073941 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SenMultiplicityLatticeCountRelation` | volunteer-build-reviewed |
+| M073944 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SenMultiplicityShiftLatticeVariablePowStatement` | volunteer-build-reviewed |
+| M073954 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SeparableCharpolyInvAlgBaseChangeUnramified` | volunteer-build-reviewed |
 | M073955 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SeparableCharpolyInvAlgBaseChangeUnramifiedStatement` | volunteer-build-reviewed |
 | M073957 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SeparatedRootsAdditivePoly` | volunteer-build-reviewed |
 | M074053 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SingleMemOfSupportSubset` | volunteer-build-reviewed |
@@ -385,20 +402,3 @@
 | M082597 | P0623 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TeichmullerTiltMinusOneDvdOfThetaFrobeniusZeroStatement` | wave-reused |
 | M082608 | P1486 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TensOfForallIsPsEff` | wave-reused |
 | M082609 | P1544 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TensOfIsNef` | wave-reused |
-| M082628 | P0557 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ThetaBdRPlusSurjectiveKerUnitsEquivariant` | wave-reused |
-| M082629 | P0590 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ThetaBdRPlusSurjectiveKerUnitsEquivariantStatement` | wave-reused |
-| M082706 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TopologicalKrullDimAffinePoints` | volunteer-build-reviewed |
-| M082707 | P0309 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TopologicalKrullDimAffinePointsStatement` | volunteer-build-reviewed |
-| M082759 | P0126 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TotalDegreeSubstFLe` | volunteer-build-reviewed |
-| M082825 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TruncMatMemSubalgebra` | volunteer-build-reviewed |
-| M082856 | P1382 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TwistConeVanishing` | wave-reused |
-| M082901 | P1406 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TwistedPowerHigherCohomVanishingPullbackIffPushf` | wave-reused |
-| M082902 | P1430 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TwistedPowerHigherCohomVanishingPullbackIffPushfStatement` | wave-reused |
-| M082903 | P1406 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TwistedPowerVanishingInductionBySectionSqTensor` | wave-reused |
-| M082904 | P1430 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TwistedPowerVanishingInductionBySectionSqTensorStatement` | wave-reused |
-| M083123 | P0037 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.VecMulVecComm` | volunteer-build-reviewed |
-| M083183 | P0447 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.WeilGroupIsSemisimpleOfSemisimpleFrob` | wave-reused |
-| M083184 | P0486 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.WeilGroupIsSemisimpleOfSemisimpleFrobStatement` | wave-reused |
-| M083236 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.AbsCoordLeOfLOneNormLe` | wave-reused |
-| M083241 | P0361 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.AddCharMemValuationSubring` | wave-reused |
-| M083252 | P0361 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.AlgTensWtNear` | wave-reused |

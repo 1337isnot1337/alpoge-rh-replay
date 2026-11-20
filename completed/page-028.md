@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M119741 | P0137 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.InjectiveOfIsCptGen` | wave-reused |
+| M119742 | P0059 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.InstBorelGL` | volunteer-build-reviewed |
+| M119744 | P0528 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IntegralClosureHeightEqOneOfLiesOver` | wave-reused |
+| M119747 | P0264 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsCocharLie` | wave-reused |
+| M119749 | P0528 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsConstMul` | wave-reused |
+| M119750 | P0059 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsCptGen` | wave-reused |
+| M119752 | P0561 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsFlatAnIffIsConstMul` | wave-reused |
+| M119755 | P0264 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsGenericFlag` | wave-reused |
+| M119756 | P0318 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsHTFormOver` | wave-reused |
+| M119757 | P0492 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsHodgeGram` | wave-reused |
+| M119758 | P0492 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsHodgeLine` | wave-reused |
+| M119762 | P0264 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsLineGenOn` | wave-reused |
+| M119763 | P0715 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsPeriodAtRestrict` | wave-reused |
+| M119769 | P0318 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LevelSectionsExactKernelLocusOpen` | wave-reused |
+| M119770 | P0059 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LieModel` | wave-reused |
+| M119773 | P0453 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LinearIndependentEigProj` | wave-reused |
+| M119774 | P0318 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LocalComponentsSurjective` | wave-reused |
+| M119775 | P0367 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.MemEigSpOfMemHtDual` | wave-reused |
+| M119781 | P0367 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.NumberField` | wave-reused |
+| M119786 | P0367 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ProjectiveLinePlaceTrivialOnConstants` | wave-reused |
+| M119790 | P0594 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.SlopeBoundSt` | wave-reused |
 | M119791 | P0561 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.SplitComps` | wave-reused |
 | M119793 | P0658 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ToFirst` | wave-reused |
 | M119794 | P0528 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.TowerOrigin` | wave-reused |
@@ -381,24 +402,3 @@
 | M122889 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsNbhd` | volunteer-build-reviewed |
 | M122893 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsNonnegBump` | volunteer-build-reviewed |
 | M122907 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsOpenCompactLatticeContaining` | volunteer-build-reviewed |
-| M122920 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsPerfectRadical` | volunteer-build-reviewed |
-| M122937 | P0715 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsPrimeRootValuationQuotient` | wave-reused |
-| M122938 | P0743 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsPrimeRootValuationQuotientStatement` | wave-reused |
-| M122943 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsPrincipalCongruence` | volunteer-build-reviewed |
-| M122950 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsRecurrencePolynomial` | volunteer-build-reviewed |
-| M122952 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsRegularElementAbelian` | volunteer-build-reviewed |
-| M122987 | P0563 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsSmoothCoordinateCover` | wave-reused |
-| M122988 | P0595 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsSmoothCoordinateCoverStatement` | volunteer-build-reviewed |
-| M122991 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsSmulEqOnFinset` | volunteer-build-reviewed |
-| M123006 | P0962 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsThetaKernelEqFiltrationOne` | wave-reused |
-| M123007 | P0990 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsThetaKernelEqFiltrationOneStatement` | wave-reused |
-| M123008 | P0659 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsToCoindShortExact` | volunteer-build-reviewed |
-| M123014 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUdlOfIsUnit` | volunteer-build-reviewed |
-| M123015 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniformiser` | volunteer-build-reviewed |
-| M123022 | P1341 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueChernClassNilpotentBase` | wave-reused |
-| M123023 | P1365 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueChernClassNilpotentBaseStatement` | wave-reused |
-| M123024 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueCompEq` | volunteer-build-reviewed |
-| M123026 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueConstantOfCompatibleFamily` | volunteer-build-reviewed |
-| M123027 | P0659 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueConstantOfCompatibleFamilyStatement` | volunteer-build-reviewed |
-| M123029 | P0770 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueIdempotentLiftTilt` | wave-reused |
-| M123030 | P0798 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueIdempotentLiftTiltStatement` | wave-reused |

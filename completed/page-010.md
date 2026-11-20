@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M038033 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFiniteFlatRankClosedSubschemeOfOpenCoverStatement` | volunteer-build-reviewed |
+| M038034 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFiniteFlatRankClosedSubschemeOfQuotientBasis` | volunteer-build-reviewed |
+| M038080 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFractionRingTensorOfFractionFieldsStatement` | volunteer-build-reviewed |
+| M038083 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFrameMapOfAppendStatement` | volunteer-build-reviewed |
 | M038100 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFullRankLatticeImageStandardLatticeGL` | volunteer-build-reviewed |
 | M038101 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFullRankLatticeImageStandardLatticeGLStatement` | volunteer-build-reviewed |
 | M038127 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsGramFrameEmbeddingMatrixNormOfVectorStatement` | volunteer-build-reviewed |
@@ -222,6 +226,7 @@
 | M041630 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralSublevelTailLeOfFiniteStatement` | wave-reused |
 | M041645 | P1032 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralWeightedAtlasFrameEtaleTransfer` | wave-reused |
 | M041646 | P1060 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralWeightedAtlasFrameEtaleTransferStatement` | wave-reused |
+| M041651 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ListProdUpdateConjugate` | volunteer-build-reviewed |
 | M041658 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocCompactSecondCountable` | volunteer-build-reviewed |
 | M041670 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocHomAlgebraMap` | volunteer-build-reviewed |
 | M041713 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalCharacterConductorExistsStatement` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M044264 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NoSplittingFactorisationOfPderivNeZeroStatement` | volunteer-build-reviewed |
 | M044266 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NoetherNormalizationFiniteAevalPowAddStatement` | volunteer-build-reviewed |
 | M044289 | P0922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyAtlasBallPartitionCover` | wave-reused |
-| M044290 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyAtlasBallPartitionCoverStatement` | wave-reused |
-| M044301 | P0184 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyEquivOfCardHom` | wave-reused |
-| M044302 | P0247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyEquivOfCardHomStatement` | wave-reused |
-| M044310 | P1328 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyHomologyEquiv` | wave-reused |
-| M044329 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyLinearEquivOfPiFinPowFinite` | volunteer-build-reviewed |

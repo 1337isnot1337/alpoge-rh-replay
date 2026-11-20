@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006384 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.StructureHomApply` | wave-reused |
+| M006385 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubalgebraEqBotOfIsIntegralOfIsIntegrallyClosed` | wave-reused |
 | M006386 | P1586 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubsingletonOfPoints` | wave-reused |
 | M006387 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubsingletonOfSheafPullback` | wave-reused |
 | M006388 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SumNegOnePowFinrankEqZero` | wave-reused |
@@ -272,6 +274,7 @@
 | M011695 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelCharacterAtRationalPoint` | volunteer-build-reviewed |
 | M011703 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricUnipotentMemOfFlagBasisDual` | volunteer-build-reviewed |
 | M011705 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricUnipotentMemOfFlagCongruenceDual` | volunteer-build-reviewed |
+| M011956 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ToBlocksMulFinZero` | volunteer-build-reviewed |
 | M012312 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TypeFrameConjugationDecomposition` | volunteer-build-reviewed |
 | M012342 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingIntegralEqFiniteSumOverNumberField` | volunteer-build-reviewed |
 | M012397 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitaryLiftedFlagBasisReduceModLevel` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M013379 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisedModel` | volunteer-build-reviewed |
 | M013380 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisedModelStatement` | volunteer-build-reviewed |
 | M013395 | P0649 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniqueIsRatio` | wave-reused |
-| M013400 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniqueOfBasis` | volunteer-build-reviewed |
-| M013404 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnitCarries` | volunteer-build-reviewed |
-| M013405 | P0649 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnitCharts` | wave-reused |

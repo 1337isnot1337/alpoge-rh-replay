@@ -645,6 +645,7 @@ M003401	P0648	Development.AbelianVarietyTheory.Definitions.Degenerations.PlOrdSo
 M003402	P0615	Development.AbelianVarietyTheory.Definitions.Degenerations.PullChartIsLB	wave-reused
 M003403	P0974	Development.AbelianVarietyTheory.Definitions.Degenerations.RigGen	wave-reused
 M003405	P0946	Development.AbelianVarietyTheory.Definitions.Degenerations.Ser	wave-reused
+M003412	P0002	Development.AbelianVarietyTheory.Definitions.Divisors.AltPullApply	volunteer-build-reviewed
 M003417	P0731	Development.AbelianVarietyTheory.Definitions.Divisors.BadElt	wave-reused
 M003423	P0238	Development.AbelianVarietyTheory.Definitions.Divisors.BlockGLMap	wave-reused
 M003425	P0648	Development.AbelianVarietyTheory.Definitions.Divisors.BlockSphereMeanLinForm	wave-reused
@@ -758,6 +759,7 @@ M004112	P0295	Development.AbelianVarietyTheory.Definitions.Foundations.MemRingOf
 M004115	P0095	Development.AbelianVarietyTheory.Definitions.Foundations.MultipliableAndSgNeZero	wave-reused
 M004121	P0974	Development.AbelianVarietyTheory.Definitions.Foundations.NormSumPairRankZeroOfCurveCoordNorm	volunteer-build-reviewed
 M004122	P0002	Development.AbelianVarietyTheory.Definitions.Foundations.NotCoboundaryConstantOne	wave-reused
+M004128	P0095	Development.AbelianVarietyTheory.Definitions.Foundations.NotIsTrDataGaussianIntOne	volunteer-build-reviewed
 M004131	P0173	Development.AbelianVarietyTheory.Definitions.Foundations.OpLDOneSubMemTriv	wave-reused
 M004133	P0002	Development.AbelianVarietyTheory.Definitions.Foundations.PetEqRelIndexMulPetProd	volunteer-build-reviewed
 M004134	P0095	Development.AbelianVarietyTheory.Definitions.Foundations.PetIPSmulRight	wave-reused
@@ -1869,6 +1871,7 @@ M011689	P0476	Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.Sym
 M011695	P0975	Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelCharacterAtRationalPoint	volunteer-build-reviewed
 M011703	P0866	Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricUnipotentMemOfFlagBasisDual	volunteer-build-reviewed
 M011705	P0866	Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricUnipotentMemOfFlagCongruenceDual	volunteer-build-reviewed
+M011956	P0006	Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ToBlocksMulFinZero	volunteer-build-reviewed
 M012312	P0476	Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TypeFrameConjugationDecomposition	volunteer-build-reviewed
 M012342	P0975	Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingIntegralEqFiniteSumOverNumberField	volunteer-build-reviewed
 M012397	P0866	Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitaryLiftedFlagBasisReduceModLevel	volunteer-build-reviewed
@@ -2283,6 +2286,7 @@ M015409	P0394	Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlternatingS
 M015423	P1618	Development.AbelianVarietyTheory.Proofs.DivisorProofs.AmpleLineBundleTopSelfIntersectionPos	wave-reused
 M015424	P1644	Development.AbelianVarietyTheory.Proofs.DivisorProofs.AmpleLineBundleTopSelfIntersectionPosStatement	wave-reused
 M015456	P0975	Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnalyticAtIteratedFDerivSliceAndFderivStatement	volunteer-build-reviewed
+M015464	P0241	Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnalyticLogResolution	volunteer-build-reviewed
 M015468	P1030	Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnalyticOnNhdOrbitPolStatement	volunteer-build-reviewed
 M015504	P0348	Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnnihilatorOfDirectedEssentiallyEtaleUnion	wave-reused
 M015505	P0394	Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnnihilatorOfDirectedEssentiallyEtaleUnionStatement	wave-reused
@@ -3819,6 +3823,7 @@ M041629	P0017	Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralSub
 M041630	P0921	Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralSublevelTailLeOfFiniteStatement	wave-reused
 M041645	P1032	Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralWeightedAtlasFrameEtaleTransfer	wave-reused
 M041646	P1060	Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralWeightedAtlasFrameEtaleTransferStatement	wave-reused
+M041651	P0017	Development.AbelianVarietyTheory.Proofs.DivisorProofs.ListProdUpdateConjugate	volunteer-build-reviewed
 M041658	P1250	Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocCompactSecondCountable	volunteer-build-reviewed
 M041670	P0017	Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocHomAlgebraMap	volunteer-build-reviewed
 M041713	P0300	Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalCharacterConductorExistsStatement	volunteer-build-reviewed
@@ -4806,7 +4811,9 @@ M057654	P0354	Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsLattice
 M057655	P0401	Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsLatticeStabilizerNormalisingSubgroupStatement	wave-reused
 M057658	P1033	Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsListProd	wave-reused
 M057659	P1061	Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsListProdStatement	wave-reused
+M057667	P0186	Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMassOneCutoffDoubleCosetIntegral	volunteer-build-reviewed
 M057680	P0024	Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMeasurableLintegralCosetEqOneClosedSubgrou	volunteer-build-reviewed
+M057681	P0116	Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMeasurableLintegralCosetEqOneClosedSubgrouStatement	volunteer-build-reviewed
 M057692	P0401	Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNatBoundLocalLatticesStandardAe	wave-reused
 M057693	P0443	Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNatBoundLocalLatticesStandardAeStatement	wave-reused
 M057694	P0401	Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNatMulMemIntegersQuadraticCompletion	wave-reused
@@ -4827,6 +4834,7 @@ M057831	P0303	Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsTraceCh
 M057848	P0482	Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsUniqueGlobalLatticeOfLocalLattices	wave-reused
 M057849	P0521	Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsUniqueGlobalLatticeOfLocalLatticesStatement	wave-reused
 M057860	P0842	Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsUniqueShuffle	wave-reused
+M057871	P0024	Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsUnitaryMulVecEqOfFormEq	volunteer-build-reviewed
 M057882	P0554	Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsWtEqMulNu	wave-reused
 M057883	P0586	Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsWtEqMulNuStatement	wave-reused
 M057890	P0249	Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExpandByConductor	wave-reused
@@ -5594,6 +5602,8 @@ M062502	P0188	Development.AbelianVarietyTheory.Proofs.FoundationProofs.Heisenber
 M062503	P0251	Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumCompOfIntermediateLattiStatement	volunteer-build-reviewed
 M062504	P0188	Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumsCompEqIndex	volunteer-build-reviewed
 M062505	P0251	Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumsCompEqIndexStatement	volunteer-build-reviewed
+M062512	P0251	Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergSumCompOfAdjacentOfInfEq	volunteer-build-reviewed
+M062513	P0305	Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergSumCompOfAdjacentOfInfEqStatement	volunteer-build-reviewed
 M062535	P0118	Development.AbelianVarietyTheory.Proofs.FoundationProofs.IdealEqBotOfFlatQuotientOfMapMaximalIdeal	wave-reused
 M062554	P0026	Development.AbelianVarietyTheory.Proofs.FoundationProofs.ImportsMore	wave-reused
 M062590	P0587	Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnFdImPowMulExp	wave-reused
@@ -5752,6 +5762,9 @@ M063187	P0871	Development.AbelianVarietyTheory.Proofs.FoundationProofs.MuModelPr
 M063188	P0898	Development.AbelianVarietyTheory.Proofs.FoundationProofs.MuModelProductIsModularFormCoeffSeqLocallyAlgebrStatement	wave-reused
 M063189	P0871	Development.AbelianVarietyTheory.Proofs.FoundationProofs.MuModelProductValueNeZeroOfDepleted	wave-reused
 M063190	P0898	Development.AbelianVarietyTheory.Proofs.FoundationProofs.MuModelProductValueNeZeroOfDepletedStatement	wave-reused
+M063293	P0445	Development.AbelianVarietyTheory.Proofs.FoundationProofs.NormalizedHeisenbergIntertwinerComp	volunteer-build-reviewed
+M063294	P0357	Development.AbelianVarietyTheory.Proofs.FoundationProofs.NormalizedIntertwinerCompOfAdjacentLattices	volunteer-build-reviewed
+M063295	P0403	Development.AbelianVarietyTheory.Proofs.FoundationProofs.NormalizedIntertwinerCompOfAdjacentLatticesStatement	volunteer-build-reviewed
 M063298	P0587	Development.AbelianVarietyTheory.Proofs.FoundationProofs.NotSummableInvPrimesCongrNegOne	wave-reused
 M063299	P0621	Development.AbelianVarietyTheory.Proofs.FoundationProofs.NotSummableInvPrimesCongrNegOneStatement	wave-reused
 M063310	P0188	Development.AbelianVarietyTheory.Proofs.FoundationProofs.OddThetaProductSiegelEqZeroIffLattice	wave-reused
@@ -5893,6 +5906,7 @@ M063762	P0027	Development.AbelianVarietyTheory.Proofs.FoundationProofs.Smoothing
 M063763	P0119	Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothingIntegersTwoCharactersStatement	wave-reused
 M063769	P0189	Development.AbelianVarietyTheory.Proofs.FoundationProofs.SpanHeisenbergTranslatesVacuumEqTop	volunteer-build-reviewed
 M063770	P0251	Development.AbelianVarietyTheory.Proofs.FoundationProofs.SpanHeisenbergTranslatesVacuumEqTopStatement	volunteer-build-reviewed
+M063781	P0027	Development.AbelianVarietyTheory.Proofs.FoundationProofs.SplitHeightSummableExpNegAbs	volunteer-build-reviewed
 M063786	P0357	Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelMassDegreeTypeLe	wave-reused
 M063787	P0404	Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelMassDegreeTypeLeStatement	wave-reused
 M063788	P0251	Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelTorusCardBoundsAndMul	wave-reused
@@ -5962,6 +5976,8 @@ M064197	P0189	Development.AbelianVarietyTheory.Proofs.FoundationProofs.Valuation
 M064198	P0252	Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationLeOneIffIsIntegralOfCompleteDvrStatement	wave-reused
 M064200	P0027	Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationMapAlgEquivEqOfLeOneIffIsIntegral	wave-reused
 M064201	P0119	Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationMapAlgEquivEqOfLeOneIffIsIntegralStatement	wave-reused
+M064204	P0027	Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationPrimitiveRootSubOnePowTotient	volunteer-build-reviewed
+M064216	P0027	Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationZetaSubOnePowTotient	volunteer-build-reviewed
 M064244	P0306	Development.AbelianVarietyTheory.Proofs.FoundationProofs.WhittakerTranslatesCornerLinearIndependent	wave-reused
 M064245	P0358	Development.AbelianVarietyTheory.Proofs.FoundationProofs.WhittakerTranslatesCornerLinearIndependentStatement	wave-reused
 M064259	P0621	Development.AbelianVarietyTheory.Proofs.FoundationProofs.ZsEqMulDepEis	wave-reused
@@ -5977,6 +5993,7 @@ M064354	P1121	Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIn
 M064355	P1150	Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIntegralGeneratorChartPointNoInvertStatement	wave-reused
 M064356	P1091	Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIntegralGeneratorOfChartPointCdvr	wave-reused
 M064358	P0027	Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIntegralPivotDecomposition	wave-reused
+M064363	P0027	Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIsOpenImmersionIsStandardSmoothOfRelativeD	volunteer-build-reviewed
 M064365	P1063	Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsModelChartGenericPointComponent	wave-reused
 M064366	P1091	Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsModelChartGenericPointComponentStatement	wave-reused
 M064383	P1036	Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsSecPullNonzeroOnFibres	wave-reused
@@ -8296,6 +8313,7 @@ M091760	P0408	Development.AbelianVarietyTheory.Proofs.TorusSplitting.ExistsTorus
 M091792	P0128	Development.AbelianVarietyTheory.Proofs.TorusSplitting.NormProdSumThetaLeExp	wave-reused
 M091793	P1131	Development.AbelianVarietyTheory.Proofs.TorusSplitting.NormProdSumThetaLeExpTorus	wave-reused
 M091794	P1157	Development.AbelianVarietyTheory.Proofs.TorusSplitting.NormProdSumThetaLeExpTorusStatement	wave-reused
+M091830	P0040	Development.AbelianVarietyTheory.Proofs.TwistedOperators.AbstractCompleteReducibility	volunteer-build-reviewed
 M091891	P1385	Development.AbelianVarietyTheory.Proofs.TwistedOperators.AdelicUnitaryComponentAtPlaceLawsStatement	volunteer-build-reviewed
 M091895	P1385	Development.AbelianVarietyTheory.Proofs.TwistedOperators.AdelicVectorSizeSeenOrthogonalSummandLeStatement	volunteer-build-reviewed
 M091897	P1385	Development.AbelianVarietyTheory.Proofs.TwistedOperators.AdicCompletionIntegersNormEqOneOfMulEqOneStatement	volunteer-build-reviewed
@@ -9085,6 +9103,7 @@ M099303	P1157	Development.AbelianVarietyTheory.Proofs.UniformizationProofs.Unifo
 M099309	P0877	Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ValEqOfAppInjective	wave-reused
 M099311	P0904	Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ValTorusPointAndTranslate	wave-reused
 M099322	P0796	Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ValuesNatural	wave-reused
+M099334	P0130	Development.AbelianVarietyTheory.Proofs.UnitaryExistence.AdelicCompletionFractionalIdealProperties	volunteer-build-reviewed
 M099337	P0311	Development.AbelianVarietyTheory.Proofs.UnitaryExistence.AdelicCompletionLatticeSeparatedCompleteStatement	volunteer-build-reviewed
 M099339	P0558	Development.AbelianVarietyTheory.Proofs.UnitaryExistence.AdelicCompletionRationalPointsAndApproximationStatement	volunteer-build-reviewed
 M099371	P0592	Development.AbelianVarietyTheory.Proofs.UnitaryExistence.BoundedPowOfTriangularIsometry	wave-reused
@@ -9676,6 +9695,7 @@ M103824	P0261	Development.AutomorphicArithmetic.AutomorphicVarieties.GeneratorCo
 M103825	P0261	Development.AutomorphicArithmetic.AutomorphicVarieties.GeneratorCountTuples.LeftMulChainChainHomotopic	volunteer-build-reviewed
 M103826	P0410	Development.AutomorphicArithmetic.AutomorphicVarieties.GeneratorCountTuples.LemmaK	wave-reused
 M103839	P0261	Development.AutomorphicArithmetic.AutomorphicVarieties.GeneratorCountTuples.TupleChainBoundaryFormula	volunteer-build-reviewed
+M103882	P0133	Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.ContinuousTorusCharacter	volunteer-build-reviewed
 M103891	P0261	Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.HeckePolynomialTorsion.MapOfRel	volunteer-build-reviewed
 M103936	P0261	Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.OrdinaryHeckeCharacters.IwahoriProUnipotentFiniteIndex	volunteer-build-reviewed
 M103997	P0261	Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.OrdinaryHeckeCharacters.UOpMul	volunteer-build-reviewed
@@ -10303,6 +10323,7 @@ M109894	P0046	Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBoun
 M109895	P0201	Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.TotallyRealRoots.UnitsMapSurjOfZmod	wave-reused
 M109898	P0046	Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.UnimodularGram.StarRingOfInvolution	volunteer-build-reviewed
 M109960	P0593	Development.AutomorphicArithmetic.CyclotomicBounds.NotInert	build-observed
+M109966	P0593	Development.AutomorphicArithmetic.CyclotomicBounds.RamifiedDiscriminants.FourMulQLeCondN	build-observed
 M110038	P0046	Development.AutomorphicArithmetic.DedekindLFunctions.CharFamily	build-observed
 M110039	P0741	Development.AutomorphicArithmetic.DedekindLFunctions.LandauTheorems.ChBalance	build-observed
 M110071	P0135	Development.AutomorphicArithmetic.DedekindLFunctions.LandauZeroFreeCriterion	build-observed
@@ -16255,6 +16276,8 @@ M147595	P1556	Formalism.LocalRingCardinality.SpanPowerMembership.NZLevH	build-ob
 M147596	P1583	Formalism.LocalRingCardinality.SpanPowerMembership.NZLevI	build-observed
 M147597	P1613	Formalism.LocalRingCardinality.SpanPowerMembership.NZLevJ	build-observed
 M147598	P1640	Formalism.LocalRingCardinality.SpanPowerMembership.NZLevK	build-observed
+M147599	P1662	Formalism.LocalRingCardinality.SpanPowerMembership.NZLevL	build-observed
+M147600	P1685	Formalism.LocalRingCardinality.SpanPowerMembership.NZLevM	build-observed
 M147601	P0537	Formalism.LocalRingCardinality.SpanPowerMembership.NZRowA	build-observed
 M147603	P0830	Formalism.LocalRingCardinality.SpanPowerMembership.NZRowB	build-observed
 M147604	P0748	Formalism.LocalRingCardinality.SpanPowerMembership.NZRowC	build-observed
@@ -16263,6 +16286,9 @@ M147606	P0938	Formalism.LocalRingCardinality.SpanPowerMembership.NZRowE	build-ob
 M147607	P0966	Formalism.LocalRingCardinality.SpanPowerMembership.NZRowF	build-observed
 M147608	P0994	Formalism.LocalRingCardinality.SpanPowerMembership.NZRowG	build-observed
 M147610	P1021	Formalism.LocalRingCardinality.SpanPowerMembership.NZRowP	build-observed
+M147611	P1048	Formalism.LocalRingCardinality.SpanPowerMembership.NZRowQ	build-observed
+M147612	P1076	Formalism.LocalRingCardinality.SpanPowerMembership.NZRowR	build-observed
+M147613	P1107	Formalism.LocalRingCardinality.SpanPowerMembership.NZRowT	build-observed
 M147615	P0858	Formalism.LocalRingCardinality.SpanPowerMembership.NZRowV	build-observed
 M147620	P0421	Formalism.LocalRingCardinality.SpanPowerMembership.NZTypeA	build-observed
 M147621	P0461	Formalism.LocalRingCardinality.SpanPowerMembership.NZTypeB	build-observed
@@ -16468,6 +16494,9 @@ M148005	P1077	Formalism.LocalToGlobal.Columns.BtExistsSmulLeOfFg	build-observed
 M148006	P1163	Formalism.LocalToGlobal.Columns.BzdConjTTranspose	build-observed
 M148007	P0939	Formalism.LocalToGlobal.Columns.CardFilterNeighboursEqPaths	build-observed
 M148008	P0967	Formalism.LocalToGlobal.Columns.CardPathsEqSubmodulePairs	build-observed
+M148009	P1163	Formalism.LocalToGlobal.Columns.ChainFrmOk	build-observed
+M148010	P1211	Formalism.LocalToGlobal.Columns.ChainInst	build-observed
+M148015	P0911	Formalism.LocalToGlobal.Columns.ChainLawPhi	build-observed
 M148027	P0911	Formalism.LocalToGlobal.Columns.ChainOne	build-observed
 M148056	P0939	Formalism.LocalToGlobal.Columns.CmUnramifiedOfFieldConditions	build-observed
 M148057	P0775	Formalism.LocalToGlobal.Columns.CoefCol	build-observed
@@ -16493,6 +16522,7 @@ M148076	P0802	Formalism.LocalToGlobal.Columns.ColForms	build-observed
 M148077	P0858	Formalism.LocalToGlobal.Columns.ColFormsInst	build-observed
 M148078	P0830	Formalism.LocalToGlobal.Columns.ColFormsLemmas	build-observed
 M148080	P0911	Formalism.LocalToGlobal.Columns.ColumnsProofs.ChainCounts	build-observed
+M148091	P1187	Formalism.LocalToGlobal.Columns.CyclotomicIsCyclotomicExtension	build-observed
 M148092	P1136	Formalism.LocalToGlobal.Columns.DGamAut	build-observed
 M148093	P0695	Formalism.LocalToGlobal.Columns.DecoFin	build-observed
 M148094	P0885	Formalism.LocalToGlobal.Columns.DecoOwed	build-observed
@@ -16503,7 +16533,9 @@ M148109	P1187	Formalism.LocalToGlobal.Columns.FactorialSumLePowMulProd	build-obs
 M148110	P1136	Formalism.LocalToGlobal.Columns.FiniteDimensionalForms	build-observed
 M148111	P0885	Formalism.LocalToGlobal.Columns.FiniteSumNonzeroLargeDepth	build-observed
 M148115	P1266	Formalism.LocalToGlobal.Columns.FockNormSubstitutionBound	build-observed
+M148118	P1187	Formalism.LocalToGlobal.Columns.GFamEv	build-observed
 M148119	P0666	Formalism.LocalToGlobal.Columns.GFamS	build-observed
+M148120	P1211	Formalism.LocalToGlobal.Columns.GFamSEv	build-observed
 M148121	P1163	Formalism.LocalToGlobal.Columns.GFamSH	build-observed
 M148122	P0666	Formalism.LocalToGlobal.Columns.GSetLemmas	build-observed
 M148123	P0570	Formalism.LocalToGlobal.Columns.GenericUnipotentCharacter	build-observed
@@ -16541,8 +16573,12 @@ M148201	P0994	Formalism.LocalToGlobal.Columns.RecLevelCls	build-observed
 M148202	P0994	Formalism.LocalToGlobal.Columns.RecLevelDiv	build-observed
 M148203	P0994	Formalism.LocalToGlobal.Columns.RecLevelHost	build-observed
 M148204	P0994	Formalism.LocalToGlobal.Columns.RecLevelLoc	build-observed
+M148208	P1021	Formalism.LocalToGlobal.Columns.RecLevelLocT	build-observed
 M148210	P1021	Formalism.LocalToGlobal.Columns.RecLevelSym	build-observed
+M148211	P1187	Formalism.LocalToGlobal.Columns.RecLevelSymExt	build-observed
+M148212	P1049	Formalism.LocalToGlobal.Columns.RecLevelSymF	build-observed
 M148213	P0994	Formalism.LocalToGlobal.Columns.RecLevelTop	build-observed
+M148215	P1163	Formalism.LocalToGlobal.Columns.Record	build-observed
 M148224	P1187	Formalism.LocalToGlobal.Columns.ReferenceActionRationalLevels	build-observed
 M148227	P0635	Formalism.LocalToGlobal.Columns.RhoEqOfSmulEq	build-observed
 M148228	P0830	Formalism.LocalToGlobal.Columns.RowForms	build-observed
@@ -16563,6 +16599,7 @@ M148275	P0775	Formalism.LocalToGlobal.Columns.TiedGlMat	build-observed
 M148292	P0722	Formalism.LocalToGlobal.Columns.TiedRec	build-observed
 M148320	P0885	Formalism.LocalToGlobal.Columns.ToHLat	build-observed
 M148321	P1107	Formalism.LocalToGlobal.Columns.ToHLatLemmas	build-observed
+M148327	P1049	Formalism.LocalToGlobal.Columns.TwQDefs	build-observed
 M148340	P0911	Formalism.LocalToGlobal.Columns.TwQThetaOpen	build-observed
 M148342	P1266	Formalism.LocalToGlobal.Columns.TwistedLocalisationComparable	build-observed
 M148345	P0858	Formalism.LocalToGlobal.Columns.UnipotentRightActionFunctionsW	build-observed
@@ -16580,6 +16617,7 @@ M148377	P0775	Formalism.LocalToGlobal.Divisibility.DefGroup	wave-reused
 M148378	P0858	Formalism.LocalToGlobal.Divisibility.DefGroupLemmas	build-observed
 M148382	P1318	Formalism.LocalToGlobal.Divisibility.DivisibilityConstruction.RBNum	build-observed
 M148383	P1318	Formalism.LocalToGlobal.Divisibility.DivisibilityConstruction.ShiftOfColTie	build-observed
+M148384	P0885	Formalism.LocalToGlobal.Divisibility.DivisibilityProofs.NumbersP	build-observed
 M148385	P0602	Formalism.LocalToGlobal.Divisibility.DivisibilityProofs.TuplesP	build-observed
 M148399	P0830	Formalism.LocalToGlobal.Divisibility.DivisionCompatibleToSub2Indef2	build-observed
 M148400	P1211	Formalism.LocalToGlobal.Divisibility.DivisionHeightBoundColumns	build-observed
@@ -16620,11 +16658,14 @@ M148453	P0830	Formalism.LocalToGlobal.Divisibility.TiedLemmas	build-observed
 M148454	P0939	Formalism.LocalToGlobal.Divisibility.TrivialExtensionSideWellFormed	build-observed
 M148456	P0537	Formalism.LocalToGlobal.Divisibility.Tuples	wave-reused
 M148457	P0570	Formalism.LocalToGlobal.Divisibility.TuplesLemmas	build-observed
+M148458	P1877	Formalism.LocalToGlobal.Divisibility.TwistedPlaceEtaSumLeExtended	build-observed
 M148459	P1107	Formalism.LocalToGlobal.Divisibility.ZscOfNum	build-observed
 M148465	P0570	Formalism.LocalToGlobal.ExponentGrids.ExponentGridsProofs.NormaliserValuationBound	build-observed
 M148470	P0537	Formalism.LocalToGlobal.ExponentGrids.SecondComplementColumnExponents	build-observed
+M148472	P0748	Formalism.LocalToGlobal.GaloisLevelStructure.Checks	build-observed
 M148473	P0327	Formalism.LocalToGlobal.GaloisLevelStructure.DefsAut	build-observed
 M148474	P0376	Formalism.LocalToGlobal.GaloisLevelStructure.DefsAutLoc	build-observed
+M148475	P0376	Formalism.LocalToGlobal.GaloisLevelStructure.DefsFinTyp	build-observed
 M148476	P0070	Formalism.LocalToGlobal.GaloisLevelStructure.DefsGal	build-observed
 M148477	P0537	Formalism.LocalToGlobal.GaloisLevelStructure.DefsLab	build-observed
 M148478	P0570	Formalism.LocalToGlobal.GaloisLevelStructure.DefsLabWD	build-observed
@@ -16643,6 +16684,7 @@ M148510	P1107	Formalism.LocalToGlobal.GlobalTheory.BaseLatticeConventionOfHermit
 M148511	P0775	Formalism.LocalToGlobal.GlobalTheory.BaseLatticeSelfDual	build-observed
 M148528	P0070	Formalism.LocalToGlobal.GlobalTheory.BlockActions.ExtendOneMulVecSingleLast	volunteer-build-reviewed
 M148570	P1318	Formalism.LocalToGlobal.GlobalTheory.ConcNP	build-observed
+M148571	P1318	Formalism.LocalToGlobal.GlobalTheory.ConcNWeight	build-observed
 M148572	P1266	Formalism.LocalToGlobal.GlobalTheory.ConcTop	build-observed
 M148573	P1077	Formalism.LocalToGlobal.GlobalTheory.ConclusionsOfPrimeNumberTheoremAP	build-observed
 M148590	P0802	Formalism.LocalToGlobal.GlobalTheory.DivPassage	build-observed
@@ -16668,8 +16710,14 @@ M148610	P0327	Formalism.LocalToGlobal.GlobalTheory.GL1.CompactFixesLattice.Singl
 M148611	P0327	Formalism.LocalToGlobal.GlobalTheory.GL1.CompactFixesLattice.SingleMemOrb	build-observed
 M148612	P0939	Formalism.LocalToGlobal.GlobalTheory.GL1.Statement	build-observed
 M148614	P0939	Formalism.LocalToGlobal.GlobalTheory.GL2.Statement	build-observed
+M148617	P0994	Formalism.LocalToGlobal.GlobalTheory.GL3.CubicFields.ComplexMultiplication.ExtEmbEquivComp	build-observed
+M148618	P0967	Formalism.LocalToGlobal.GlobalTheory.GL3.CubicFields.ComplexMultiplication.UniqInvOfLat	build-observed
+M148622	P0070	Formalism.LocalToGlobal.GlobalTheory.GL3.CubicFields.DedekindFactorization.OmegaPoly	build-observed
+M148634	P0149	Formalism.LocalToGlobal.GlobalTheory.GL3.CubicFields.EpsteinZeta.DedekindFactorK	build-observed
 M148654	P0994	Formalism.LocalToGlobal.GlobalTheory.GL3.DeterminantNormOneOfUnitDisc	build-observed
 M148665	P0070	Formalism.LocalToGlobal.GlobalTheory.GL3.PFourSq	build-observed
+M148667	P1049	Formalism.LocalToGlobal.GlobalTheory.GL3.PHfGen	build-observed
+M148669	P1077	Formalism.LocalToGlobal.GlobalTheory.GL3.PHfTrace	build-observed
 M148670	P0994	Formalism.LocalToGlobal.GlobalTheory.GL3.PIopIso	build-observed
 M148671	P1021	Formalism.LocalToGlobal.GlobalTheory.GL3.PIopNorm	build-observed
 M148672	P0967	Formalism.LocalToGlobal.GlobalTheory.GL3.PLinkChi	build-observed
@@ -16685,6 +16733,8 @@ M148686	P1345	Formalism.LocalToGlobal.GlobalTheory.GL4.BranchingIntegralNormalis
 M148687	P1137	Formalism.LocalToGlobal.GlobalTheory.GL4.BranchingLinkFamilyNormalised	build-observed
 M148688	P1238	Formalism.LocalToGlobal.GlobalTheory.GL4.BranchingNormalisedOfAdjoint	build-observed
 M148689	P1293	Formalism.LocalToGlobal.GlobalTheory.GL4.CTEqConjTranspose	build-observed
+M148690	P1614	Formalism.LocalToGlobal.GlobalTheory.GL4.CfMemTwId	build-observed
+M148692	P1583	Formalism.LocalToGlobal.GlobalTheory.GL4.CoeffMemOfIntSpanAt	build-observed
 M148693	P1163	Formalism.LocalToGlobal.GlobalTheory.GL4.ColAddGenCastSuccRename	build-observed
 M148694	P1468	Formalism.LocalToGlobal.GlobalTheory.GL4.ColumnLatticeExactSlope	build-observed
 M148695	P1293	Formalism.LocalToGlobal.GlobalTheory.GL4.FockNExtCNu	build-observed
@@ -16695,6 +16745,7 @@ M148699	P1498	Formalism.LocalToGlobal.GlobalTheory.GL4.LowerSlopeInequalityFamil
 M148700	P1318	Formalism.LocalToGlobal.GlobalTheory.GL4.MapIntRatComplex	build-observed
 M148701	P1021	Formalism.LocalToGlobal.GlobalTheory.GL4.MemDualCrdLat	build-observed
 M148702	P1293	Formalism.LocalToGlobal.GlobalTheory.GL4.MuMaxLeMon	build-observed
+M148703	P1640	Formalism.LocalToGlobal.GlobalTheory.GL4.NfAllSelfEq	build-observed
 M148706	P1107	Formalism.LocalToGlobal.GlobalTheory.GL4.PClsTieIdx	build-observed
 M148710	P1107	Formalism.LocalToGlobal.GlobalTheory.GL4.PClsTieSep	build-observed
 M148711	P1318	Formalism.LocalToGlobal.GlobalTheory.GL4.PColFin	build-observed
@@ -16764,8 +16815,11 @@ M148782	P1211	Formalism.LocalToGlobal.GlobalTheory.GL6.DiagonalSlopes.DiamondCom
 M148783	P1187	Formalism.LocalToGlobal.GlobalTheory.GL6.DiagonalSlopes.EqOneOfCoprimeTorsionTwoPrimes	build-observed
 M148784	P1267	Formalism.LocalToGlobal.GlobalTheory.GL6.DiagonalSlopes.GroupActionMulSingleEqDilation	build-observed
 M148785	P1239	Formalism.LocalToGlobal.GlobalTheory.GL6.DiagonalSlopes.LocalDiamondOfSplitIdempotent	build-observed
+M148787	P1318	Formalism.LocalToGlobal.GlobalTheory.GL6.DiagonalSlopes.MetricDisjointSupportOrthogonal	build-observed
 M148789	P1267	Formalism.LocalToGlobal.GlobalTheory.GL6.DiagonalSlopes.PSplitT	build-observed
+M148790	P1345	Formalism.LocalToGlobal.GlobalTheory.GL6.DiagonalSlopes.PolynomialFunctionFrameTranslate	build-observed
 M148791	P1293	Formalism.LocalToGlobal.GlobalTheory.GL6.DiagonalSlopes.PowSmulLatticeLeWeightLatticeTop	build-observed
+M148794	P1293	Formalism.LocalToGlobal.GlobalTheory.GL6.DiagonalSlopes.SlopeRamifiedInducedPrimeField	build-observed
 M148796	P1077	Formalism.LocalToGlobal.GlobalTheory.GL6.DiamondCommDistinctPlaces	build-observed
 M148797	P1049	Formalism.LocalToGlobal.GlobalTheory.GL6.DiamondPreservesForms	build-observed
 M148798	P1021	Formalism.LocalToGlobal.GlobalTheory.GL6.DiamondPreservesRationalFormZero	build-observed
@@ -16816,6 +16870,7 @@ M148865	P1163	Formalism.LocalToGlobal.GlobalTheory.SuppSat	build-observed
 M148893	P2197	Formalism.LocalToGlobal.GroupLattices.AdmissibleAtGeneratorPlaces	build-observed
 M148894	P2154	Formalism.LocalToGlobal.GroupLattices.AdmissibleFamilyNoKernel	build-observed
 M148895	P2186	Formalism.LocalToGlobal.GroupLattices.AdmissibleOfInclusion	build-observed
+M148896	P1854	Formalism.LocalToGlobal.GroupLattices.BrTied3Hold	build-observed
 M148898	P1021	Formalism.LocalToGlobal.GroupLattices.CloudFilling.CloudBound	build-observed
 M148903	P0995	Formalism.LocalToGlobal.GroupLattices.CloudFilling.LamMEqLamZero	build-observed
 M148906	P1077	Formalism.LocalToGlobal.GroupLattices.ComparisonMaps.CastGLSymmApply	build-observed
@@ -16879,10 +16934,12 @@ M148995	P0858	Formalism.LocalToGlobal.GroupLattices.FockModels.TransposeWords.Tr
 M148996	P1077	Formalism.LocalToGlobal.GroupLattices.FockModels.WeylDim	build-observed
 M148997	P1267	Formalism.LocalToGlobal.GroupLattices.Joint0	build-observed
 M148998	P1137	Formalism.LocalToGlobal.GroupLattices.JointServices	build-observed
+M148999	P1163	Formalism.LocalToGlobal.GroupLattices.JointServices.Cut	build-observed
 M149000	P0830	Formalism.LocalToGlobal.GroupLattices.JointServices.LevelOperatorFixesImage	build-observed
 M149002	P1163	Formalism.LocalToGlobal.GroupLattices.JointServices.ShiftIdealSgFl	build-observed
 M149003	P0602	Formalism.LocalToGlobal.GroupLattices.JointServices.VAddEqVw	build-observed
 M149004	P1163	Formalism.LocalToGlobal.GroupLattices.JointServices.ValIntNonneg	build-observed
+M149005	P1187	Formalism.LocalToGlobal.GroupLattices.JointServices.VwResChar	build-observed
 M149006	P0274	Formalism.LocalToGlobal.GroupLattices.LevelCharts.AtGGlob	build-observed
 M149007	P0327	Formalism.LocalToGlobal.GroupLattices.LevelCharts.AtGLev	build-observed
 M149011	P1137	Formalism.LocalToGlobal.GroupLattices.LevelCharts.FiniteClassSetOfFiniteIndex	build-observed
@@ -16895,6 +16952,7 @@ M149018	P1077	Formalism.LocalToGlobal.GroupLattices.LevelCharts.LevelsOfChCharts
 M149019	P1049	Formalism.LocalToGlobal.GroupLattices.LevelCharts.LevelsOfTie	build-observed
 M149020	P1021	Formalism.LocalToGlobal.GroupLattices.LevelCharts.PsiZeroNontrivialCharacter	build-observed
 M149022	P0213	Formalism.LocalToGlobal.GroupLattices.LevelCharts.SignBlockDeterminant	build-observed
+M149023	P0830	Formalism.LocalToGlobal.GroupLattices.LevelCharts.SplitIntPI	build-observed
 M149024	P0802	Formalism.LocalToGlobal.GroupLattices.LevelCharts.SplitStab	build-observed
 M149026	P0885	Formalism.LocalToGlobal.GroupLattices.LevelGatherings.CastGLApply	build-observed
 M149027	P0995	Formalism.LocalToGlobal.GroupLattices.LevelGatherings.ComplSmulMapE	build-observed
@@ -16985,6 +17043,7 @@ M149179	P1318	Formalism.LocalToGlobal.HermitianForms.TiedTwSymP	build-observed
 M149180	P0748	Formalism.LocalToGlobal.HermitianForms.Transport	build-observed
 M149181	P0830	Formalism.LocalToGlobal.HermitianForms.TransportT	build-observed
 M149182	P1318	Formalism.LocalToGlobal.HilbertRowConditions.AllJoin	build-observed
+M149183	P1832	Formalism.LocalToGlobal.HilbertRowConditions.AllJoinP	build-observed
 M149184	P0885	Formalism.LocalToGlobal.HilbertRowConditions.CenterIdempotentAction	build-observed
 M149185	P1832	Formalism.LocalToGlobal.HilbertRowConditions.ColumnsFunctionAtSubspaces	build-observed
 M149186	P0911	Formalism.LocalToGlobal.HilbertRowConditions.IsHilbertCF	build-observed
@@ -17124,6 +17183,7 @@ M149556	P1108	Formalism.LocalToGlobal.IndefiniteReal.OrthogonalComplementCharact
 M149557	P1212	Formalism.LocalToGlobal.IndefiniteReal.PGoodOfRho	build-observed
 M149563	P1212	Formalism.LocalToGlobal.IndefiniteReal.PackageFromPrimitiveStatements	build-observed
 M149564	P0775	Formalism.LocalToGlobal.IndefiniteReal.PartsOrth	build-observed
+M149566	P1212	Formalism.LocalToGlobal.IndefiniteReal.PeterssonHilbertSpace	build-observed
 M149567	P1390	Formalism.LocalToGlobal.IndefiniteReal.PrimitivePackageFullHecke	build-observed
 M149568	P1239	Formalism.LocalToGlobal.IndefiniteReal.PrimitiveStatementsBaseLevel	build-observed
 M149569	P1137	Formalism.LocalToGlobal.IndefiniteReal.PrimitiveStatementsWithPassage	build-observed
@@ -17167,11 +17227,16 @@ M149885	P1078	Formalism.LocalToGlobal.KernelLattices.FirstKernelLawReading	build
 M149886	P1021	Formalism.LocalToGlobal.KernelLattices.InterlaceAll	build-observed
 M149887	P1108	Formalism.LocalToGlobal.KernelLattices.JetFieldLeKR	build-observed
 M149888	P1108	Formalism.LocalToGlobal.KernelLattices.KerChTie	build-observed
+M149890	P1137	Formalism.LocalToGlobal.KernelLattices.KerMemPin	build-observed
+M149891	P1164	Formalism.LocalToGlobal.KernelLattices.KerMtPin	build-observed
 M149895	P0939	Formalism.LocalToGlobal.KernelLattices.KernelLocalFactors.AlternatingFormStandardHermitian	build-observed
 M149905	P1108	Formalism.LocalToGlobal.KernelLattices.KernelLocalFactors.InterlaceDifferenceShiftInvariant	build-observed
+M149910	P1078	Formalism.LocalToGlobal.KernelLattices.KernelLocalFactors.KerEquivGen	build-observed
+M149953	P1049	Formalism.LocalToGlobal.KernelLattices.KernelLocalFactors.ThDistC	build-observed
 M149964	P0995	Formalism.LocalToGlobal.KernelLattices.LateralTheory	build-observed
 M149965	P1078	Formalism.LocalToGlobal.KernelLattices.MatrixKernelDiamondCommutation	build-observed
 M149966	P1078	Formalism.LocalToGlobal.KernelLattices.MuProd	build-observed
+M149967	P1137	Formalism.LocalToGlobal.KernelLattices.RatKDeg	build-observed
 M149968	P1108	Formalism.LocalToGlobal.KernelLattices.ThDatRead	build-observed
 M149969	P1022	Formalism.LocalToGlobal.KernelLattices.ThDistC	build-observed
 M149971	P0911	Formalism.LocalToGlobal.KernelLattices.TopLawQ	build-observed
@@ -17231,6 +17296,8 @@ M150052	P0503	Formalism.LocalToGlobal.NormalizedHeckeFactors.TypesDefs	wave-reus
 M150054	P0831	Formalism.LocalToGlobal.NormalizedHeckeFactors.ValLeOneOfIsIntegral	build-observed
 M150055	P1022	Formalism.LocalToGlobal.NormalizedHeckeFactors.WittCoreInclusionMulVecMemLatticeCompletionAtPla	build-observed
 M150069	P0070	Formalism.LocalToGlobal.NumberFieldFamilies.OwnStruct	volunteer-build-reviewed
+M150097	P1078	Formalism.LocalToGlobal.PairingIndexBounds.HalvesRecursion.RecursiveLatticeMembership.MemLamOfIff	build-observed
+M150099	P1049	Formalism.LocalToGlobal.PairingIndexBounds.HalvesRecursion.Statement	build-observed
 M150103	P0274	Formalism.LocalToGlobal.PairingIndexBounds.ModelLatticeMoves.GenModelXi	build-observed
 M150104	P0213	Formalism.LocalToGlobal.PairingIndexBounds.ModelLatticeMoves.GoodLat	build-observed
 M150105	P0070	Formalism.LocalToGlobal.PairingIndexBounds.ModelLatticeMoves.IsBichar	build-observed
@@ -18022,6 +18089,7 @@ M152050	P1240	Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.
 M152051	P0775	Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.PackageTie	build-observed
 M152052	P1165	Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.ParametersTermRelations	build-observed
 M152053	P0968	Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.PoincareConstantEq	build-observed
+M152064	P0071	Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RootLatticeThresholds.AllRowsGA	volunteer-build-reviewed
 M152079	P2049	Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RootLatticeThresholds.AmpOrbClosed	build-observed
 M152080	P1138	Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RootLatticeThresholds.AmpOrbPf	build-observed
 M152087	P2132	Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RootLatticeThresholds.AmplitudeBoundsAllChoicesUniform	build-observed
@@ -18139,6 +18207,7 @@ M152409	P2064	Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.
 M152410	P1442	Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RootLatticeThresholds.XLeSpanEXLam	build-observed
 M152412	P0803	Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RootLatticeThresholds.ZOrbitOfOpen	build-observed
 M152414	P1391	Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RowDict	build-observed
+M152417	P1442	Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RowsJoinS	build-observed
 M152419	P1833	Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.STiesR	build-observed
 M152420	P1391	Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.SettingExistsAdapted	build-observed
 M152421	P1213	Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.SettingExistsMeasured	build-observed
@@ -18760,6 +18829,7 @@ M153400	P0462	Formalism.PadicSubsetSums.StableGradedCounts.LocalEstimateIVOfType
 M153401	P0503	Formalism.PadicSubsetSums.StableGradedCounts.LocalEstimateThird	build-observed
 M153402	P0503	Formalism.PadicSubsetSums.StableGradedCounts.MemBesselSetZeroIffUpperTriangular	build-observed
 M153405	P0275	Formalism.PadicSubsetSums.StableGradedCounts.ProdPowFactorizationLe	build-observed
+M153406	P0603	Formalism.PadicSubsetSums.StableGradedCounts.PropertyWOfEstimates	build-observed
 M153407	P0422	Formalism.PadicSubsetSums.StableGradedCounts.PropositionOneCentralCount	build-observed
 M153408	P0571	Formalism.PadicSubsetSums.StableGradedCounts.SquareSetMemExceptionalUnion	build-observed
 M153411	P0275	Formalism.PadicSubsetSums.StableGradedCounts.TWBoundedSeriesIntegral	build-observed
@@ -18835,7 +18905,9 @@ M153529	P0073	Formalism.PeriodIntegrals.FockRBlock	build-observed
 M153530	P0215	Formalism.PeriodIntegrals.FoldDCUnfold	build-observed
 M153531	P0215	Formalism.PeriodIntegrals.FoldMult	build-observed
 M153532	P0215	Formalism.PeriodIntegrals.FoldUnfold	build-observed
+M153539	P0749	Formalism.PeriodIntegrals.GZeroLogBound	build-observed
 M153541	P0275	Formalism.PeriodIntegrals.GaugeGap	wave-reused
+M153543	P0073	Formalism.PeriodIntegrals.GeometricProductPowers.GaussianProductPowerBound	volunteer-build-reviewed
 M153546	P0151	Formalism.PeriodIntegrals.HCFdeg	build-observed
 M153548	P0275	Formalism.PeriodIntegrals.HaarDefs	build-observed
 M153549	P1109	Formalism.PeriodIntegrals.HasseJidPow	build-observed
@@ -19105,6 +19177,7 @@ M153980	P0329	Formalism.PeriodIntegrals.OrbitalBoundsConclusion.TrDualLoc	build-
 M153982	P0504	Formalism.PeriodIntegrals.OrbitalBoundsConclusion.TransferenceCover	build-observed
 M153983	P0571	Formalism.PeriodIntegrals.OrbitalBoundsConclusion.TransferenceCoveringDivisor	build-observed
 M153984	P0504	Formalism.PeriodIntegrals.OrbitalBoundsConclusion.TransferenceMinima	wave-reused
+M153985	P0276	Formalism.PeriodIntegrals.OrbitalBoundsConclusion.TwChrOne	build-observed
 M153989	P0749	Formalism.PeriodIntegrals.OrbitalBoundsConclusion.UJClassFin	build-observed
 M153990	P0377	Formalism.PeriodIntegrals.OrbitalBoundsConclusion.UJUnimod	build-observed
 M153996	P0329	Formalism.PeriodIntegrals.OrbitalBoundsConclusion.UnitKron	build-observed
@@ -19192,6 +19265,7 @@ M154124	P0422	Formalism.PeriodIntegrals.UJClassMass	build-observed
 M154125	P0423	Formalism.PeriodIntegrals.UJClassMassAlt	build-observed
 M154126	P0329	Formalism.PeriodIntegrals.UJUnimod	build-observed
 M154127	P0074	Formalism.PeriodIntegrals.UMultOne	volunteer-build-reviewed
+M154128	P0074	Formalism.PeriodIntegrals.UnfoldEquiv	build-observed
 M154129	P0074	Formalism.PeriodIntegrals.UnimodGenus	volunteer-build-reviewed
 M154130	P0074	Formalism.PeriodIntegrals.UnimodIdx	build-observed
 M154131	P0074	Formalism.PeriodIntegrals.UnimodLocStd	volunteer-build-reviewed
@@ -19579,6 +19653,7 @@ M155032	P0667	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FrameInduction.N
 M155033	P0696	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FrameInduction.NonposCount	wave-reused
 M155034	P0749	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FrameInduction.QBuild	wave-reused
 M155041	P0912	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FundamentalDomainTransfer.IsFundamentalDomainOfIsFundDom	build-observed
+M155118	P0776	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GeneralLinearCardBound.ZeroLogBound	build-observed
 M155119	P0696	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GeneralLinearLevel.ElementaryGeneratorsLevelGroup	wave-reused
 M155120	P0636	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GeneralLinearLevel.ExpMulVecFix	wave-reused
 M155121	P0667	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GeneralLinearLevel.HpartUnique	wave-reused
@@ -19738,6 +19813,7 @@ M155519	P0996	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeColumns.D
 M155521	P1417	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeColumns.FirstProjMkVecEqMulVec	build-observed
 M155522	P1295	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeColumns.HAdapt	build-observed
 M155523	P1320	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeColumns.HAdaptGen	build-observed
+M155524	P1529	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeColumns.HAdaptRed	build-observed
 M155525	P1109	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeColumns.HBlock	build-observed
 M155526	P1139	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeColumns.HFrame	build-observed
 M155527	P1320	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeColumns.HModelAllOf	build-observed
@@ -19751,6 +19827,7 @@ M155535	P1050	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeColumns.I
 M155536	P1079	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeColumns.IdxProd	build-observed
 M155537	P1050	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeColumns.IdxTop	build-observed
 M155538	P1442	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeColumns.InGMulInt	build-observed
+M155539	P1499	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeColumns.LevelClauseAdaptedBasis	build-observed
 M155540	P1139	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeColumns.LevelComponentsSurjective	build-observed
 M155541	P1079	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeColumns.LocRed	build-observed
 M155542	P1241	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeColumns.MemK2HpIffBeta	build-observed
@@ -19781,6 +19858,7 @@ M155566	P0637	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeCountingB
 M155567	P0604	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeCountingBound.PackLem	build-observed
 M155568	P0604	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeCountingBound.SepDefs	build-observed
 M155569	P0604	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeCountingBound.SublatticeOfLattice	build-observed
+M155571	P1641	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeIndices.AdqHRRatV	build-observed
 M155572	P0330	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeIndices.Block31OfBlocks	build-observed
 M155573	P0996	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeIndices.CardNuGZmod	build-observed
 M155574	P1417	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeIndices.CharZeroAdicCompletion	build-observed
@@ -19851,6 +19929,7 @@ M155639	P0075	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeIndices.R
 M155640	P1079	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeIndices.RowFlagIff	build-observed
 M155643	P1499	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeIndices.SecondCoordsMulGL	build-observed
 M155644	P1392	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeIndices.SecondCoordsMulVec	build-observed
+M155645	P1663	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeIndices.SecondCoordsProjectionOrth	build-observed
 M155646	P1442	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeIndices.SecondCoordsSmulInteger	build-observed
 M155647	P1417	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeIndices.SecondCoordsSub	build-observed
 M155648	P1392	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeIndices.SecondCoordsTensorSmul	build-observed
@@ -20932,6 +21011,23 @@ M157135	P0220	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TraceDualLocal.I
 M157136	P0155	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TraceDualLocal.IsIntegralNatCast	build-observed
 M157137	P0076	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TraceDualLocal.IsIntegralOfTmulMem	build-observed
 M157159	P0155	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TwistedCharacterOne.IsIntegralAtSuperdiagonalSum	build-observed
+M157160	P0220	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TwistedCharacterOne.TwChrOneMain	build-observed
+M157162	P0155	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TwistedEisensteinCoset.Development	build-observed
+M157163	P0279	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TwistedEisensteinCoset.FreeCoordinateAffineInvertible	build-observed
+M157164	P0220	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TwistedEisensteinCoset.IaDivDown	build-observed
+M157165	P0220	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TwistedEisensteinCoset.IntegralApproximationByInteger	build-observed
+M157166	P0279	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TwistedEisensteinCoset.IsUnitRedP	build-observed
+M157170	P0279	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TwistedEisensteinCoset.TwistedEisensteinOfHypotheses	build-observed
+M157172	P0279	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TwistedEisensteinCoset.UnfoldingMatrixFreeCoordinate	build-observed
+M157173	P0155	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TwistedEisensteinCoset.UnitCongruentToInteger	build-observed
+M157174	P0279	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TwistedEisensteinCoset.WeightedSumScaling	build-observed
+M157176	P0155	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TwistedNormLattice.CombinationEquivInvMemUnipotentFlagGroup	build-observed
+M157177	P0220	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TwistedNormLattice.IdealForm	build-observed
+M157178	P0220	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TwistedNormLattice.PrXLeOfNf	build-observed
+M157179	P0279	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TwistedNormLattice.TwNormLatMain	build-observed
+M157180	P0155	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TwistedNormLattice.UniformContinuityGaloisGroup	build-observed
+M157182	P0155	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnfoldingEquivalence.ExtractFreeFillMatrix	build-observed
+M157183	P0220	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnfoldingEquivalence.Points	build-observed
 M157184	P0279	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnfoldingIdentity.FoldUnfoldMain	build-observed
 M157189	P0155	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnimodularIndex.PairwiseDisjointCosets	build-observed
 M157194	P0539	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnimodularLocalStandard.ExistsIsometryMemLocalizedAtSingle	volunteer-build-reviewed
@@ -21018,13 +21114,19 @@ M157319	P0505	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass
 M157320	P0539	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.EquivFunLinOf	volunteer-build-reviewed
 M157321	P0750	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.GmapLeLocS	build-observed
 M157322	P0723	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.LSBase	build-observed
+M157323	P0832	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.LSLocA	build-observed
 M157324	P0605	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.LSSkeleton	build-observed
+M157325	P0832	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.LatticesCloseLocally	build-observed
+M157326	P0860	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.LocalIntegralOfSubstitution	build-observed
 M157327	P0750	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.LsLat	build-observed
 M157328	P0750	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.OneSubEvTInvInt	build-observed
 M157329	P0804	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.PHermC	build-observed
 M157330	P0804	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.PHermCL	build-observed
 M157331	P0777	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.PHermSk	build-observed
+M157332	P0832	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.PHermT	build-observed
 M157333	P0804	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.PHermXB	build-observed
+M157334	P0860	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.PLatStep	build-observed
+M157335	P0804	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.PPatchF	build-observed
 M157336	P0668	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.PSurjA	build-observed
 M157337	P0723	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.PSurjF	build-observed
 M157338	P0638	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.PSurjH	build-observed
@@ -21033,7 +21135,10 @@ M157340	P0750	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass
 M157341	P0605	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.PSurjSk	build-observed
 M157342	P0777	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.PsiInclR	build-observed
 M157343	P0463	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.Reduce	build-observed
+M157344	P0804	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.SigRTmulOne	build-observed
+M157345	P0860	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.TcoordBound	build-observed
 M157346	P0605	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.UJClassMassOfDeep	build-observed
+M157347	P0887	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.UJClassMassOfHerm	build-observed
 M157348	P0697	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassMass.UJClassMassOfOpen	build-observed
 M157355	P0220	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryDensity.Decomp	wave-reused
 M157356	P0155	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryDensity.Derived	wave-reused
@@ -21276,7 +21381,13 @@ M157722	P0156	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittUnramified.P
 M157723	P0221	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittUnramified.WittUnramMain	build-observed
 M157728	P0638	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ZeroLevelGeneralLinear.GlevZero	wave-reused
 M157729	P0638	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ZeroLevelIndex.SecondMinorZeroLevelFormula	wave-reused
+M157745	P0221	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.projection2.AllowColLt	build-observed
+M157746	P0221	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.projection2.Assemble	build-observed
+M157748	P0221	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.projection2.EntryEmbedMatrix	build-observed
+M157749	P0332	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.projection2.GaStep	build-observed
 M157750	P0156	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.projection2.KappaZero	build-observed
+M157752	P0279	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.projection2.MemFlagUnipotent	build-observed
+M157753	P0279	Formalism.PeriodIntegrals.UnitaryGroupMassFormula.projection2.OneCosetSharpOfPatClosed	build-observed
 M157754	P0077	Formalism.PeriodIntegrals.UpqRep	wave-reused
 M157755	P0077	Formalism.PeriodIntegrals.VacEntire	volunteer-build-reviewed
 M157756	P0424	Formalism.PeriodIntegrals.VolFromSW	wave-reused
@@ -22103,7 +22214,9 @@ M158784	P0777	Formalism.SharpRestriction.Divisibility.GeneratorPowers.LemmaBStat
 M158803	P0078	Formalism.SharpRestriction.Divisibility.GeneratorPowers.PhiCMinSt	volunteer-build-reviewed
 M158819	P0638	Formalism.SharpRestriction.Divisibility.GeneratorPowers.ThExprUniqOfChartIndep2	wave-reused
 M158820	P0750	Formalism.SharpRestriction.Divisibility.GeneratorPowers.ThetaSwapFirstTwo	wave-reused
+M158824	P1321	Formalism.SharpRestriction.Divisibility.HookProducts.AbsPhFSubLeOfLe	build-observed
 M158826	P1786	Formalism.SharpRestriction.Divisibility.HookProducts.AdmPtTw	build-observed
+M158828	P1347	Formalism.SharpRestriction.Divisibility.HookProducts.Compl3Record	build-observed
 M158831	P0777	Formalism.SharpRestriction.Divisibility.HookProducts.HookProd	build-observed
 M158835	P0724	Formalism.SharpRestriction.Divisibility.HookProducts.RBTieFrame	build-observed
 M158836	P0777	Formalism.SharpRestriction.Divisibility.HookProducts.RBTieMu	build-observed
@@ -24206,6 +24319,7 @@ M161796	P0540	Formalism.TwistFamilyExistence.Statement	build-observed
 M161799	P0079	Formalism.UnipotentAdelicQuotients.ClassNumberFinite	volunteer-build-reviewed
 M161829	P0079	Formalism.UnipotentAdelicQuotients.HaarProductClosedCompact	volunteer-build-reviewed
 M161831	P0080	Formalism.UnipotentAdelicQuotients.SWXSDefs	volunteer-build-reviewed
+M161832	P0080	Formalism.UnipotentAdelicQuotients.SiegelSetsSL2Adelic	volunteer-build-reviewed
 M161833	P0159	Formalism.UnipotentAdelicQuotients.SiegelWeilUnitaryConvergent	volunteer-build-reviewed
 M161834	P0080	Formalism.UnipotentAdelicQuotients.SmComplete	volunteer-build-reviewed
 M161836	P0080	Formalism.UnipotentAdelicQuotients.ThmBInHecke	volunteer-build-reviewed
@@ -25662,6 +25776,7 @@ M164590	P0427	GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFormInt
 M164594	P0227	GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFrameJacobianSum	wave-reused
 M164595	P0227	GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFunctionFieldDegree	wave-reused
 M164596	P0082	GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGeneralProjection	wave-reused
+M164598	P0082	GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGenericFibreRadicalAway	volunteer-build-reviewed
 M164603	P0082	GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGenericPrimitive	wave-reused
 M164612	P0227	GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGraphAreaHolomorphic	wave-reused
 M164613	P0082	GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGraphJacContinuous	wave-reused
@@ -25720,6 +25835,7 @@ M164857	P0607	GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StSliceMa
 M164858	P0083	GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StSliceMatricesOpen	wave-reused
 M164871	P0336	GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StSliceSectionMass	wave-reused
 M164879	P0336	GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StStokesOffDiscriminant	wave-reused
+M164889	P0083	GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StTubeDeepWeightMass	volunteer-build-reviewed
 M164890	P0383	GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StTubeEuclMass	wave-reused
 M164891	P0383	GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StTubeFormCompare	wave-reused
 M164898	P0083	GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StUnitaryZariskiDense	wave-reused
@@ -25945,6 +26061,7 @@ M165347	P0384	GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.Stat
 M165354	P0083	GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.StatementsMaxHeight	wave-reused
 M165355	P0163	GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.StatementsMultAtOfSaturated	wave-reused
 M165360	P0337	GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.StatementsPointIdealMultiProj	wave-reused
+M165361	P0083	GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.StatementsPowReductionCut	volunteer-build-reviewed
 M165362	P0428	GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.StatementsProjIdealFormValue	wave-reused
 M165363	P0083	GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.StatementsReesAlgebraDim	wave-reused
 M165364	P0384	GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.StatementsSegreClosureModel	wave-reused
@@ -25966,6 +26083,7 @@ M165387	P0285	GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.Stat
 M165389	P0337	GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.TrivBundleIsTwistedForms	wave-reused
 M165392	P0384	GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.WithBotLtNatCastOfAddOneLe	wave-reused
 M165393	P0384	GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.WithBotLtOfAddOneLe	wave-reused
+M165403	P0083	GroundTheory.HeightsAndTheta.Heights.EffectiveHilbertSamuel.JetOfMonomialSumStatement	volunteer-build-reviewed
 M165431	P0083	GroundTheory.HeightsAndTheta.Heights.EffectiveHilbertSamuel.StatementsShare	volunteer-build-reviewed
 M165452	P0509	GroundTheory.HeightsAndTheta.Heights.ElementarySymmetric.HomogeneousComponentMulForm	wave-reused
 M165453	P0779	GroundTheory.HeightsAndTheta.Heights.ElementarySymmetric.Imports	wave-reused
@@ -26412,6 +26530,7 @@ M166477	P0726	GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.H1VanishGenerat
 M166483	P0641	GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.ImportsBisAlt	wave-reused
 M166489	P0672	GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.ImportsSide	wave-reused
 M166490	P0672	GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.ImportsTail	wave-reused
+M166510	P0084	GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.IrreducibleConnected.StPieceRootProductPolynomial	volunteer-build-reviewed
 M166514	P0608	GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.IsBoundedAtOfIsBoundedH	wave-reused
 M166518	P0608	GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.IsSemipositiveRelConstShift	wave-reused
 M166519	P0576	GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.IsSemipositiveRelTrivLine	wave-reused

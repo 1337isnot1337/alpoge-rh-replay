@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M127061 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RepOp` | volunteer-build-reviewed |
+| M127069 | P0141 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ResAlgSplitTwo` | volunteer-build-reviewed |
+| M127070 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ResGenRes` | volunteer-build-reviewed |
+| M127071 | P1235 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ResKOne` | wave-reused |
+| M127072 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ResLoc` | volunteer-build-reviewed |
+| M127073 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ResSplit` | volunteer-build-reviewed |
+| M127074 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ResZero` | volunteer-build-reviewed |
+| M127095 | P1316 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RestrictSelfPullCEq` | wave-reused |
+| M127096 | P1342 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RestrictSelfPullCEqStatement` | wave-reused |
+| M127107 | P1184 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RestrictedSystemKilledByIdeal` | wave-reused |
+| M127108 | P1208 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RestrictedSystemKilledByIdealStatement` | wave-reused |
+| M127149 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RingEquivCyclotomicCharacter` | volunteer-build-reviewed |
+| M127151 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RingEquivTransportsDecomposition` | volunteer-build-reviewed |
+| M127153 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RingEquivTransportsInertia` | volunteer-build-reviewed |
+| M127155 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RingEquivTransportsResidue` | volunteer-build-reviewed |
+| M127158 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RingIsomorphismTransportsPlaces` | volunteer-build-reviewed |
+| M127276 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SecMapRes` | volunteer-build-reviewed |
+| M127277 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SecPairApply` | volunteer-build-reviewed |
+| M127278 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SecResMap` | volunteer-build-reviewed |
+| M127280 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SecSubsingleton` | volunteer-build-reviewed |
+| M127286 | P0062 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SecondCountableHermC` | volunteer-build-reviewed |
 | M127297 | P1134 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SecsMapArrow` | wave-reused |
 | M127317 | P0141 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionOrthogonalIdempotentSum` | wave-reused |
 | M127318 | P0207 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionOrthogonalIdempotentSumStatement` | wave-reused |
@@ -381,24 +402,3 @@
 | M131192 | P0320 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsExcisionNbhdAway` | wave-reused |
 | M131200 | P0630 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsLatFamilyCongr` | volunteer-build-reviewed |
 | M131203 | P0530 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsOver` | wave-reused |
-| M131208 | P0630 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsPullWedge` | volunteer-build-reviewed |
-| M131211 | P0826 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsSubFibreSubFib` | volunteer-build-reviewed |
-| M131218 | P0267 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsVBOnDualAndBidual` | wave-reused |
-| M131219 | P0267 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsVBOneOfChartGenerators` | wave-reused |
-| M131222 | P0630 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsoLineOnEquivalence` | volunteer-build-reviewed |
-| M131223 | P0661 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsoLineOnEquivalenceStatement` | volunteer-build-reviewed |
-| M131227 | P0826 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IteratedDerivativeFactor` | volunteer-build-reviewed |
-| M131229 | P0799 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JetAugmentationOnePthPower` | volunteer-build-reviewed |
-| M131230 | P0826 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JetAugmentationOnePthPowerStatement` | volunteer-build-reviewed |
-| M131231 | P0799 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JetLeftMem` | volunteer-build-reviewed |
-| M131232 | P0826 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JetSectionGeneratorValue` | volunteer-build-reviewed |
-| M131234 | P0799 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JetSectionValueOnChart` | volunteer-build-reviewed |
-| M131239 | P0630 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JoinCoordsCoordTie` | volunteer-build-reviewed |
-| M131240 | P0661 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JoinCoordsCoordTieStatement` | volunteer-build-reviewed |
-| M131241 | P0826 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JoinCoordsUnitValues` | volunteer-build-reviewed |
-| M131243 | P0826 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JoinModelPointsLift` | volunteer-build-reviewed |
-| M131246 | P0799 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JoinModelPointsProjectStatement` | volunteer-build-reviewed |
-| M131281 | P0267 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.LatRestrictComapSpan` | wave-reused |
-| M131328 | P0799 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.LeWchartOne` | volunteer-build-reviewed |
-| M131340 | P0320 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieChart` | wave-reused |
-| M131341 | P0597 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieChartOfSmoothChart` | wave-reused |

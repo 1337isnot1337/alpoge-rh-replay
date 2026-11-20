@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M147320 | P0213 | `Formalism.IncomingBounds.FlowDegreeBounds.PadicValFactorialRatioProd` | wave-reused |
+| M147321 | P0273 | `Formalism.IncomingBounds.FlowDegreeBounds.ProdRangeEqFactorialMulProdIco` | wave-reused |
+| M147322 | P0213 | `Formalism.IncomingBounds.FlowDegreeBounds.Series` | build-observed |
+| M147323 | P0327 | `Formalism.IncomingBounds.FlowDegreeBounds.ThmPExp` | wave-reused |
+| M147324 | P0327 | `Formalism.IncomingBounds.FlowDegreeBounds.ThmPJet` | wave-reused |
+| M147325 | P0069 | `Formalism.IncomingBounds.FrobOrbitPeriod` | build-observed |
+| M147326 | P0069 | `Formalism.IncomingBounds.IncomingBound` | wave-reused |
+| M147327 | P0148 | `Formalism.IncomingBounds.IndexLastStep` | build-observed |
+| M147328 | P0213 | `Formalism.IncomingBounds.LemmaMNumerics` | wave-reused |
+| M147329 | P0148 | `Formalism.IncomingBounds.LevelTail` | wave-reused |
+| M147330 | P0148 | `Formalism.IncomingBounds.StatementThmP` | wave-reused |
+| M147331 | P0213 | `Formalism.IncomingBounds.ValuationWindowImpliesOriginal` | wave-reused |
+| M147332 | P0327 | `Formalism.IncomingBounds.WeightIdentities` | build-observed |
+| M147333 | P0502 | `Formalism.JacobiWeightFamilies.LFunctionOnePositive` | build-observed |
+| M147334 | P0421 | `Formalism.JacobiWeightFamilies.Statement` | build-observed |
+| M147335 | P0069 | `Formalism.JacquetSubsetSums.JacquetSubsetSum` | build-observed |
+| M147336 | P0461 | `Formalism.JacquetSubsetSums.SeparationTR` | build-observed |
+| M147337 | P0327 | `Formalism.JumpKernelCokernel.JumpShiftProofs.CokerTors` | wave-reused |
+| M147338 | P0273 | `Formalism.JumpKernelCokernel.JumpShiftProofs.ColThmC` | wave-reused |
+| M147339 | P0273 | `Formalism.JumpKernelCokernel.JumpShiftProofs.ColumnDegreeBound` | wave-reused |
+| M147340 | P0273 | `Formalism.JumpKernelCokernel.JumpShiftProofs.DetLen` | wave-reused |
 | M147341 | P0327 | `Formalism.JumpKernelCokernel.JumpShiftProofs.ExpRowD` | wave-reused |
 | M147342 | P0273 | `Formalism.JumpKernelCokernel.JumpShiftProofs.FiltrationExponentHolds` | wave-reused |
 | M147343 | P0273 | `Formalism.JumpKernelCokernel.JumpShiftProofs.HCoefLim` | wave-reused |
@@ -258,6 +279,8 @@
 | M147596 | P1583 | `Formalism.LocalRingCardinality.SpanPowerMembership.NZLevI` | build-observed |
 | M147597 | P1613 | `Formalism.LocalRingCardinality.SpanPowerMembership.NZLevJ` | build-observed |
 | M147598 | P1640 | `Formalism.LocalRingCardinality.SpanPowerMembership.NZLevK` | build-observed |
+| M147599 | P1662 | `Formalism.LocalRingCardinality.SpanPowerMembership.NZLevL` | build-observed |
+| M147600 | P1685 | `Formalism.LocalRingCardinality.SpanPowerMembership.NZLevM` | build-observed |
 | M147601 | P0537 | `Formalism.LocalRingCardinality.SpanPowerMembership.NZRowA` | build-observed |
 | M147603 | P0830 | `Formalism.LocalRingCardinality.SpanPowerMembership.NZRowB` | build-observed |
 | M147604 | P0748 | `Formalism.LocalRingCardinality.SpanPowerMembership.NZRowC` | build-observed |
@@ -266,6 +289,9 @@
 | M147607 | P0966 | `Formalism.LocalRingCardinality.SpanPowerMembership.NZRowF` | build-observed |
 | M147608 | P0994 | `Formalism.LocalRingCardinality.SpanPowerMembership.NZRowG` | build-observed |
 | M147610 | P1021 | `Formalism.LocalRingCardinality.SpanPowerMembership.NZRowP` | build-observed |
+| M147611 | P1048 | `Formalism.LocalRingCardinality.SpanPowerMembership.NZRowQ` | build-observed |
+| M147612 | P1076 | `Formalism.LocalRingCardinality.SpanPowerMembership.NZRowR` | build-observed |
+| M147613 | P1107 | `Formalism.LocalRingCardinality.SpanPowerMembership.NZRowT` | build-observed |
 | M147615 | P0858 | `Formalism.LocalRingCardinality.SpanPowerMembership.NZRowV` | build-observed |
 | M147620 | P0421 | `Formalism.LocalRingCardinality.SpanPowerMembership.NZTypeA` | build-observed |
 | M147621 | P0461 | `Formalism.LocalRingCardinality.SpanPowerMembership.NZTypeB` | build-observed |
@@ -376,29 +402,3 @@
 | M147851 | P0462 | `Formalism.LocalToGlobal.CharacterGerms.RowTieJet` | wave-reused |
 | M147860 | P0911 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePAddCvSelf` | wave-reused |
 | M147861 | P0967 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePAllOps` | wave-reused |
-| M147862 | P0939 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePAllSet` | wave-reused |
-| M147863 | P0967 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePAllStart` | wave-reused |
-| M147864 | P0748 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePAxesSelfSt` | wave-reused |
-| M147871 | P0830 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePCartSelfSt` | wave-reused |
-| M147878 | P0635 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePGerm` | wave-reused |
-| M147879 | P0802 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePGmExLem` | wave-reused |
-| M147885 | P0939 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePIndAr` | wave-reused |
-| M147886 | P0911 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePKeyDef` | wave-reused |
-| M147887 | P0939 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePKeyDelta` | wave-reused |
-| M147888 | P1048 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePKeyEig2` | wave-reused |
-| M147889 | P0939 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePKeyEigA` | wave-reused |
-| M147890 | P0967 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePKeyEigB` | wave-reused |
-| M147891 | P0994 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePKeyEigC` | wave-reused |
-| M147892 | P1021 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePKeyEigD` | wave-reused |
-| M147893 | P0939 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePKeyGlue` | wave-reused |
-| M147894 | P0149 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePKeyJoint` | wave-reused |
-| M147895 | P0070 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePKeyJointDef` | wave-reused |
-| M147896 | P0939 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePKeyRes2` | wave-reused |
-| M147897 | P0967 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePKeyTeich2` | wave-reused |
-| M147898 | P0939 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePKeyTeichDef` | wave-reused |
-| M147899 | P0967 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePKeyTop` | wave-reused |
-| M147900 | P0802 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePLSmall` | wave-reused |
-| M147901 | P0775 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePLSmallCv` | wave-reused |
-| M147902 | P0830 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePLSmallMain` | wave-reused |
-| M147903 | P0994 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePLimSelf` | wave-reused |
-| M147904 | P0939 | `Formalism.LocalToGlobal.CharacterGerms.RowTiePLimTy` | wave-reused |

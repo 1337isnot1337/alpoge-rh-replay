@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M146616 | P0326 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MajorantIntegrals` | build-observed |
+| M146617 | P1048 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MapInvMEq` | build-observed |
+| M146618 | P0148 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.Markov` | build-observed |
+| M146619 | P0148 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MassRatioFormula` | build-observed |
+| M146620 | P1020 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MatExtMulVec` | build-observed |
+| M146622 | P0326 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeanBoundsLimits` | build-observed |
+| M146623 | P0273 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeanNormSquaredBound` | build-observed |
+| M146624 | P0273 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeanPositiveSemidefinite` | build-observed |
+| M146625 | P0326 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeasIterDeriv` | build-observed |
+| M146626 | P1048 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeasMOfCont` | build-observed |
+| M146627 | P1107 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeasMUpper` | build-observed |
+| M146628 | P1076 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeasSgsPow` | build-observed |
+| M146629 | P1136 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeasurableCoordinateMap` | build-observed |
+| M146631 | P1238 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeasurableEnormComposition` | build-observed |
+| M146634 | P1107 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MeasurePreservingProdRearrange` | build-observed |
+| M146636 | P0273 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MemIntegralGlOfMiddleBlock` | build-observed |
+| M146639 | P1048 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MemStepsFull` | build-observed |
+| M146640 | P0148 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MiddleThirdEstimate` | build-observed |
+| M146641 | P0858 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MinLeTruncatedExponential` | build-observed |
+| M146644 | P0148 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MinorScalingLawGeneral` | build-observed |
+| M146645 | P0148 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.Minors` | build-observed |
 | M146647 | P0375 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MinusLetterFrameOfData` | wave-reused |
 | M146648 | P0885 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.MirrorDecomposition` | build-observed |
 | M146650 | P0634 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.ModelLevelMultiplier` | wave-reused |
@@ -381,24 +402,3 @@
 | M147317 | P0213 | `Formalism.IncomingBounds.FlowDegreeBounds.LemmaF` | build-observed |
 | M147318 | P0148 | `Formalism.IncomingBounds.FlowDegreeBounds.LemmaFd` | build-observed |
 | M147319 | P0148 | `Formalism.IncomingBounds.FlowDegreeBounds.MaxFlowValueAttained` | build-observed |
-| M147320 | P0213 | `Formalism.IncomingBounds.FlowDegreeBounds.PadicValFactorialRatioProd` | wave-reused |
-| M147321 | P0273 | `Formalism.IncomingBounds.FlowDegreeBounds.ProdRangeEqFactorialMulProdIco` | wave-reused |
-| M147322 | P0213 | `Formalism.IncomingBounds.FlowDegreeBounds.Series` | build-observed |
-| M147323 | P0327 | `Formalism.IncomingBounds.FlowDegreeBounds.ThmPExp` | wave-reused |
-| M147324 | P0327 | `Formalism.IncomingBounds.FlowDegreeBounds.ThmPJet` | wave-reused |
-| M147325 | P0069 | `Formalism.IncomingBounds.FrobOrbitPeriod` | build-observed |
-| M147326 | P0069 | `Formalism.IncomingBounds.IncomingBound` | wave-reused |
-| M147327 | P0148 | `Formalism.IncomingBounds.IndexLastStep` | build-observed |
-| M147328 | P0213 | `Formalism.IncomingBounds.LemmaMNumerics` | wave-reused |
-| M147329 | P0148 | `Formalism.IncomingBounds.LevelTail` | wave-reused |
-| M147330 | P0148 | `Formalism.IncomingBounds.StatementThmP` | wave-reused |
-| M147331 | P0213 | `Formalism.IncomingBounds.ValuationWindowImpliesOriginal` | wave-reused |
-| M147332 | P0327 | `Formalism.IncomingBounds.WeightIdentities` | build-observed |
-| M147333 | P0502 | `Formalism.JacobiWeightFamilies.LFunctionOnePositive` | build-observed |
-| M147334 | P0421 | `Formalism.JacobiWeightFamilies.Statement` | build-observed |
-| M147335 | P0069 | `Formalism.JacquetSubsetSums.JacquetSubsetSum` | build-observed |
-| M147336 | P0461 | `Formalism.JacquetSubsetSums.SeparationTR` | build-observed |
-| M147337 | P0327 | `Formalism.JumpKernelCokernel.JumpShiftProofs.CokerTors` | wave-reused |
-| M147338 | P0273 | `Formalism.JumpKernelCokernel.JumpShiftProofs.ColThmC` | wave-reused |
-| M147339 | P0273 | `Formalism.JumpKernelCokernel.JumpShiftProofs.ColumnDegreeBound` | wave-reused |
-| M147340 | P0273 | `Formalism.JumpKernelCokernel.JumpShiftProofs.DetLen` | wave-reused |

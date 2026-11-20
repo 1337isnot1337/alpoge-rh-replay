@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M085121 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalMultiplicationPullbackThetaEmbeddingI` | volunteer-build-reviewed |
+| M085124 | P0127 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalUnramifiedOfIsIndEtale` | wave-reused |
+| M085142 | P1100 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsNonzeroLocusLeOpenPolarisationComplex` | wave-reused |
+| M085143 | P1128 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsNonzeroLocusLeOpenPolarisationComplexStatement` | wave-reused |
+| M085152 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsObjTwistBySimilitude` | volunteer-build-reviewed |
+| M085155 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsPartialBundleIsoNormalised` | volunteer-build-reviewed |
+| M085157 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsPeriodDomainParam` | volunteer-build-reviewed |
+| M085171 | P1070 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsPrimitiveNormalisation` | wave-reused |
+| M085183 | P0738 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsPushEquiv` | wave-reused |
+| M085184 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsQuotientByFiniteGroupOfPoints` | volunteer-build-reviewed |
+| M085191 | P0127 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsRapidFourierSeriesOfIntPeriodic` | wave-reused |
+| M085196 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsRingHomComplexCompEqOfCountableStatement` | volunteer-build-reviewed |
+| M085197 | P0738 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSabCancel` | wave-reused |
+| M085199 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSabMapExtendingOfIso` | volunteer-build-reviewed |
+| M085211 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSecOnNonvanishingOfTameQuotient` | volunteer-build-reviewed |
+| M085225 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSegreCoordinates` | volunteer-build-reviewed |
+| M085251 | P0038 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSmoothPeriodicPartitionOfUnity` | wave-reused |
 | M085253 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSmulMemSpanInvariantsSup` | volunteer-build-reviewed |
 | M085263 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSubgroupEqRangeOfLists` | volunteer-build-reviewed |
 | M085273 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsTateIsoOfPeriods` | volunteer-build-reviewed |
@@ -385,20 +402,3 @@
 | M090382 | P0310 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SiegelThetaTransformationSiegelParabolic` | wave-reused |
 | M090383 | P0362 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SiegelThetaTransformationSiegelParabolicStatement` | wave-reused |
 | M090386 | P0794 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SiegelWeilDifferenceAutomorphyLinearity` | volunteer-build-reviewed |
-| M090403 | P0128 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SummableNormSiegelThetaSeriesTerms` | wave-reused |
-| M090404 | P0039 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SummableProdPi` | wave-reused |
-| M090410 | P0128 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SymplecticEqParabolicJParabolicJParabolic` | wave-reused |
-| M090411 | P0195 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SymplecticEqParabolicJParabolicJParabolicStatement` | wave-reused |
-| M090412 | P0128 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SymplecticSiegelActionMemUpperHalfSpaceAndCocycl` | wave-reused |
-| M090413 | P0195 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SymplecticSiegelActionMemUpperHalfSpaceAndCocyclStatement` | wave-reused |
-| M090415 | P0988 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TensorLatticeSelfDualSemicharacterIndex` | wave-reused |
-| M090416 | P1015 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TensorLatticeSelfDualSemicharacterIndexStatement` | wave-reused |
-| M090417 | P1043 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TensorLatticeVacuaExistUnique` | wave-reused |
-| M090419 | P0128 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TestFunctionWitness` | wave-reused |
-| M090421 | P0448 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.ThHEqThSDictionary` | wave-reused |
-| M090461 | P0195 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TsumSchwartzBruhatLevelEqSumResidueCosets` | wave-reused |
-| M090462 | P0257 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TsumSchwartzBruhatLevelEqSumResidueCosetsStatement` | wave-reused |
-| M090470 | P0448 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.UnitaryActHalfSpace` | wave-reused |
-| M090471 | P0486 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.UnitaryActHalfSpaceStatement` | wave-reused |
-| M090486 | P1043 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.WeilActionPreservesThetaAndInnerProduct` | wave-reused |
-| M090495 | P1071 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.AppLESurjective` | wave-reused |

@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M122920 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsPerfectRadical` | volunteer-build-reviewed |
+| M122937 | P0715 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsPrimeRootValuationQuotient` | wave-reused |
+| M122938 | P0743 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsPrimeRootValuationQuotientStatement` | wave-reused |
+| M122943 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsPrincipalCongruence` | volunteer-build-reviewed |
+| M122950 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsRecurrencePolynomial` | volunteer-build-reviewed |
+| M122952 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsRegularElementAbelian` | volunteer-build-reviewed |
+| M122987 | P0563 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsSmoothCoordinateCover` | wave-reused |
+| M122988 | P0595 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsSmoothCoordinateCoverStatement` | volunteer-build-reviewed |
+| M122991 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsSmulEqOnFinset` | volunteer-build-reviewed |
+| M123006 | P0962 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsThetaKernelEqFiltrationOne` | wave-reused |
+| M123007 | P0990 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsThetaKernelEqFiltrationOneStatement` | wave-reused |
+| M123008 | P0659 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsToCoindShortExact` | volunteer-build-reviewed |
+| M123014 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUdlOfIsUnit` | volunteer-build-reviewed |
+| M123015 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniformiser` | volunteer-build-reviewed |
+| M123022 | P1341 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueChernClassNilpotentBase` | wave-reused |
+| M123023 | P1365 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueChernClassNilpotentBaseStatement` | wave-reused |
+| M123024 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueCompEq` | volunteer-build-reviewed |
+| M123026 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueConstantOfCompatibleFamily` | volunteer-build-reviewed |
+| M123027 | P0659 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueConstantOfCompatibleFamilyStatement` | volunteer-build-reviewed |
+| M123029 | P0770 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueIdempotentLiftTilt` | wave-reused |
+| M123030 | P0798 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueIdempotentLiftTiltStatement` | wave-reused |
 | M123031 | P1342 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueIsFirstChernTorsionFree` | wave-reused |
 | M123043 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUpperLower` | volunteer-build-reviewed |
 | M123053 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExpBlockTriangular` | volunteer-build-reviewed |
@@ -381,24 +402,3 @@
 | M127049 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RelativeFormsMapMemSpanStatement` | volunteer-build-reviewed |
 | M127059 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RepBasic` | volunteer-build-reviewed |
 | M127060 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RepConcOfInputs` | volunteer-build-reviewed |
-| M127061 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RepOp` | volunteer-build-reviewed |
-| M127069 | P0141 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ResAlgSplitTwo` | volunteer-build-reviewed |
-| M127070 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ResGenRes` | volunteer-build-reviewed |
-| M127071 | P1235 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ResKOne` | wave-reused |
-| M127072 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ResLoc` | volunteer-build-reviewed |
-| M127073 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ResSplit` | volunteer-build-reviewed |
-| M127074 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ResZero` | volunteer-build-reviewed |
-| M127095 | P1316 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RestrictSelfPullCEq` | wave-reused |
-| M127096 | P1342 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RestrictSelfPullCEqStatement` | wave-reused |
-| M127107 | P1184 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RestrictedSystemKilledByIdeal` | wave-reused |
-| M127108 | P1208 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RestrictedSystemKilledByIdealStatement` | wave-reused |
-| M127149 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RingEquivCyclotomicCharacter` | volunteer-build-reviewed |
-| M127151 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RingEquivTransportsDecomposition` | volunteer-build-reviewed |
-| M127153 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RingEquivTransportsInertia` | volunteer-build-reviewed |
-| M127155 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RingEquivTransportsResidue` | volunteer-build-reviewed |
-| M127158 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RingIsomorphismTransportsPlaces` | volunteer-build-reviewed |
-| M127276 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SecMapRes` | volunteer-build-reviewed |
-| M127277 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SecPairApply` | volunteer-build-reviewed |
-| M127278 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SecResMap` | volunteer-build-reviewed |
-| M127280 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SecSubsingleton` | volunteer-build-reviewed |
-| M127286 | P0062 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SecondCountableHermC` | volunteer-build-reviewed |

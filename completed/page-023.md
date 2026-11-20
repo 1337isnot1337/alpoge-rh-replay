@@ -2,6 +2,24 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M097177 | P1016 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SelfDualLatticeResolutionOfIdentityStatement` | volunteer-build-reviewed |
+| M097186 | P1337 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SemilinearEquivPreservesProperties` | volunteer-build-reviewed |
+| M097187 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SemilinearEquivPreservesPropertiesStatement` | volunteer-build-reviewed |
+| M097213 | P1016 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SignedParametersBounded` | volunteer-build-reviewed |
+| M097217 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SimpleOver` | volunteer-build-reviewed |
+| M097219 | P0408 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SimpleOverStableSubmodulePiTensorStatement` | volunteer-build-reviewed |
+| M097221 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SimpleOverStableSubmoduleTensorPureKernelSpanStatement` | volunteer-build-reviewed |
+| M097229 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SingleMulSingle` | volunteer-build-reviewed |
+| M097257 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SmoothVanishingHyperplanesFactorStatement` | volunteer-build-reviewed |
+| M097293 | P0558 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitFactorIdempotentsExist` | volunteer-build-reviewed |
+| M097308 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitIdempotentPrimeProjectionCorrespondence` | volunteer-build-reviewed |
+| M097356 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitPlaceWeilRepLatticeVacuumCharacter` | volunteer-build-reviewed |
+| M097358 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitPrimeAdditiveCharacterUnramified` | volunteer-build-reviewed |
+| M097359 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitPrimePlacesSplit` | volunteer-build-reviewed |
+| M097360 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitProjAdeleComponentChartProperties` | volunteer-build-reviewed |
+| M097362 | P0558 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitSubtorusLaurentPolynomialPoints` | volunteer-build-reviewed |
+| M097364 | P0558 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitSubtorusOfIdempotentFamily` | volunteer-build-reviewed |
+| M097368 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitThetaGridPathAvoidsOppositeCorner` | volunteer-build-reviewed |
 | M097391 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.StabiliserFiniteCosetsMod` | volunteer-build-reviewed |
 | M097430 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.StdMaxParabolicRadicalLeBlockUnipotentRadical` | volunteer-build-reviewed |
 | M097435 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.StepSplittingCharactersTameLevelResidue` | volunteer-build-reviewed |
@@ -288,6 +306,7 @@
 | M099309 | P0877 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ValEqOfAppInjective` | wave-reused |
 | M099311 | P0904 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ValTorusPointAndTranslate` | wave-reused |
 | M099322 | P0796 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ValuesNatural` | wave-reused |
+| M099334 | P0130 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.AdelicCompletionFractionalIdealProperties` | volunteer-build-reviewed |
 | M099337 | P0311 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.AdelicCompletionLatticeSeparatedCompleteStatement` | volunteer-build-reviewed |
 | M099339 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.AdelicCompletionRationalPointsAndApproximationStatement` | volunteer-build-reviewed |
 | M099371 | P0592 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.BoundedPowOfTriangularIsometry` | wave-reused |
@@ -383,22 +402,3 @@
 | M100002 | P0624 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ReducedFiniteTypeIffTestRing` | wave-reused |
 | M100010 | P0258 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.RingHomFlatCodescendsAlongFaithfullyFlat` | wave-reused |
 | M100014 | P0624 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ScaledBaseChangeFibreSectionCalculus` | wave-reused |
-| M100015 | P0656 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ScaledBaseChangeFibreSectionCalculusStatement` | wave-reused |
-| M100016 | P0624 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ScaledBaseChangeFibreSectionNonvanishingIff` | wave-reused |
-| M100017 | P0656 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ScaledBaseChangeFibreSectionNonvanishingIffStatement` | wave-reused |
-| M100037 | P0656 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.SmulMemOfIsIntegral` | wave-reused |
-| M100059 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ThetaFunctionIsogenyRestriction` | volunteer-build-reviewed |
-| M100066 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ThetaSqTransformLevelEight` | volunteer-build-reviewed |
-| M100075 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.TypeFnPeriodExistModuliNonempty` | volunteer-build-reviewed |
-| M100084 | P0796 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.UnivChartOfStandardSmooth` | wave-reused |
-| M100085 | P1338 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.UniversalFrameClassifiesFramedPoints` | wave-reused |
-| M100086 | P1363 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.UniversalFrameClassifiesFramedPointsStatement` | wave-reused |
-| M100112 | P0796 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.AddCurveStableOfIntegralGaugedFormalGroupLaw` | wave-reused |
-| M100113 | P0823 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.AddCurveStableOfIntegralGaugedFormalGroupLawStatement` | wave-reused |
-| M100115 | P0796 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.AdjointEndPairMemGaugedCurveLogarithms` | wave-reused |
-| M100133 | P0408 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.BlockValueOnRowsEq` | volunteer-build-reviewed |
-| M100140 | P0258 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ChainLemmaMultivariatePowerSeriesCoordinateForm` | wave-reused |
-| M100141 | P0312 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ChainLemmaMultivariatePowerSeriesCoordinateFormStatement` | wave-reused |
-| M100142 | P0525 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ChainStepKernelRankLeModMaxIdeal` | wave-reused |
-| M100143 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ChainStepKernelRankLeModMaxIdealStatement` | volunteer-build-reviewed |
-| M100150 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ChartPSmulLiftEqBt` | volunteer-build-reviewed |

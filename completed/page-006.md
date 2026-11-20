@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013400 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniqueOfBasis` | volunteer-build-reviewed |
+| M013404 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnitCarries` | volunteer-build-reviewed |
+| M013405 | P0649 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnitCharts` | wave-reused |
 | M013406 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnitExtendOfGeneric` | volunteer-build-reviewed |
 | M013410 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnitWeightZeroIntegralCoords` | wave-reused |
 | M013411 | P1220 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnitWeightZeroIntegralCoordsStatement` | wave-reused |
@@ -286,6 +289,7 @@
 | M015423 | P1618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AmpleLineBundleTopSelfIntersectionPos` | wave-reused |
 | M015424 | P1644 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AmpleLineBundleTopSelfIntersectionPosStatement` | wave-reused |
 | M015456 | P0975 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnalyticAtIteratedFDerivSliceAndFderivStatement` | volunteer-build-reviewed |
+| M015464 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnalyticLogResolution` | volunteer-build-reviewed |
 | M015468 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnalyticOnNhdOrbitPolStatement` | volunteer-build-reviewed |
 | M015504 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnnihilatorOfDirectedEssentiallyEtaleUnion` | wave-reused |
 | M015505 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnnihilatorOfDirectedEssentiallyEtaleUnionStatement` | wave-reused |
@@ -398,7 +402,3 @@
 | M017463 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyEqQuotientCharpolyPowStatement` | wave-reused |
 | M017497 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartEvNmulPowSelf` | volunteer-build-reviewed |
 | M017550 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartRingLocalizationMembership` | wave-reused |
-| M017563 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartUnipotentFderivContinuousOn` | volunteer-build-reviewed |
-| M017730 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafBasicProperti` | wave-reused |
-| M017731 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafBasicPropertiStatement` | wave-reused |
-| M017732 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafProperties` | wave-reused |

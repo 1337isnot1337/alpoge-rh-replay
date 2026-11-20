@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M044290 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyAtlasBallPartitionCoverStatement` | wave-reused |
+| M044301 | P0184 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyEquivOfCardHom` | wave-reused |
+| M044302 | P0247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyEquivOfCardHomStatement` | wave-reused |
+| M044310 | P1328 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyHomologyEquiv` | wave-reused |
+| M044329 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyLinearEquivOfPiFinPowFinite` | volunteer-build-reviewed |
 | M044330 | P0352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyLinearEquivOfPiFinPowFiniteStatement` | wave-reused |
 | M044381 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonvanishingHolomorphicExpLogConvexStatement` | volunteer-build-reviewed |
 | M044389 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonvanishingSectionQuotientLimitStatement` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M049112 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzWeightedSobolevOfFinrankZeroStatement` | volunteer-build-reviewed |
 | M049117 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SecEqZeroOfLoc` | wave-reused |
 | M049126 | P0553 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SecLocallyConstant` | wave-reused |
-| M049127 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SecLocallyConstantStatement` | wave-reused |
-| M049136 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SecSigmaBijective` | wave-reused |
-| M049137 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SecSigmaBijectiveStatement` | wave-reused |
-| M049228 | P0951 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionQuotientHolomorphicMeasurable` | wave-reused |
-| M049229 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionQuotientHolomorphicMeasurableStatement` | wave-reused |

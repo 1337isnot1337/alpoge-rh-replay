@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M022983 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyLevelwiseCoproductBijective` | wave-reused |
+| M022984 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyLevelwiseCoproductBijectiveStatement` | wave-reused |
+| M022985 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyPresheafClassesAsCocycles` | wave-reused |
+| M022986 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyPresheafClassesAsCocyclesStatement` | wave-reused |
 | M022995 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSurjectiveSectionOfSH` | wave-reused |
 | M022996 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSurjectiveSectionOfSHStatement` | wave-reused |
 | M022999 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleToSheafifyLocallyBijectiveAndLift` | wave-reused |
@@ -398,7 +402,3 @@
 | M030666 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExponentialPolynomialCharSpan` | volunteer-build-reviewed |
 | M030695 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendAlgHomAdjoinIntegralRoot` | volunteer-build-reviewed |
 | M030697 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendAndMean` | volunteer-build-reviewed |
-| M030700 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendByZeroOnSubsetApplyCoe` | wave-reused |
-| M030705 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendChainMapAlongQuasiIsoKInjective` | wave-reused |
-| M030706 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendChainMapAlongQuasiIsoKInjectiveStatement` | wave-reused |
-| M030713 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendLinearIndependentDifferentials` | volunteer-build-reviewed |

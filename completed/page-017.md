@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M069360 | P1176 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsKernelVectorMemOEOfFrobeniusStable` | wave-reused |
+| M069361 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsKernelVectorMemOEOfFrobeniusStableStatement` | wave-reused |
+| M069377 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLastMaxOfMem` | volunteer-build-reviewed |
+| M069384 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLeMaximalIdealPowSmulOfDirected` | volunteer-build-reviewed |
+| M069433 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLocallyConstantCutoffClosedEmbedding` | volunteer-build-reviewed |
+| M069456 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsMaximalOrderHullSelfDualStableLatticeStatement` | volunteer-build-reviewed |
+| M069479 | P0031 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsMonicAevalEqZero` | build-observed |
+| M069490 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsMulStarEqOfNormOneUnramifiedQuadratic` | volunteer-build-reviewed |
+| M069506 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsNhdsOneEtaleAlgebraMulInvariant` | volunteer-build-reviewed |
+| M069508 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsNhdsZeroTranslationInvariantOfLocallyConst` | volunteer-build-reviewed |
+| M069533 | P0955 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsOfPowLeOfPowLeSameAdicTopology` | wave-reused |
+| M069534 | P0983 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsOfPowLeOfPowLeSameAdicTopologyStatement` | wave-reused |
+| M069535 | P0983 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsOneAddPrimePowMulNotRootOfUnity` | wave-reused |
+| M069536 | P1010 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsOneAddPrimePowMulNotRootOfUnityStatement` | wave-reused |
+| M069562 | P0031 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPadicIntOfCompatibleZmodPow` | volunteer-build-reviewed |
+| M069599 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowMemSpanCoeffPeriodPow` | wave-reused |
+| M069600 | P1226 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowMemSpanCoeffPeriodPowStatement` | wave-reused |
 | M069619 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowerBasisOfCharpolySeparable` | volunteer-build-reviewed |
 | M069622 | P1255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowerSeriesLiftOfPeriodPowSmulIntegralMatr` | wave-reused |
 | M069623 | P1281 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowerSeriesLiftOfPeriodPowSmulIntegralMatrStatement` | wave-reused |
@@ -385,20 +402,3 @@
 | M073712 | P1012 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RingHomEqOfIsAdicCompletionMapStatement` | wave-reused |
 | M073713 | P0033 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RingHomEqOfPerfectOfDvdSubAdicSeparated` | wave-reused |
 | M073714 | P0124 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RingHomEqOfPerfectOfDvdSubAdicSeparatedStatement` | wave-reused |
-| M073717 | P0033 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RingHomIsPushoutOfPiComponents` | wave-reused |
-| M073718 | P0124 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RingHomIsPushoutOfPiComponentsStatement` | wave-reused |
-| M073719 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RingHomTiltMapTiltFrobeniusIntegerPower` | volunteer-build-reviewed |
-| M073729 | P0985 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RootOfUnityPadicComplexMemRangeAlgClosure` | wave-reused |
-| M073730 | P1012 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RootOfUnityPadicComplexMemRangeAlgClosureStatement` | wave-reused |
-| M073781 | P1405 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SaturatedAinfLatticeFreeOverBreuilKisin` | wave-reused |
-| M073782 | P1429 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SaturatedAinfLatticeFreeOverBreuilKisinStatement` | wave-reused |
-| M073788 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ScaledIntegersKAnnihilatorSmallNearZeroStatement` | volunteer-build-reviewed |
-| M073835 | P0847 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SelAllLeInf` | wave-reused |
-| M073838 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SelfDualHermitianLatticeBasisExists` | volunteer-build-reviewed |
-| M073839 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SelfDualHermitianLatticeBasisExistsStatement` | volunteer-build-reviewed |
-| M073852 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SelfDualMeasureExistsUniqueFourierInversion` | volunteer-build-reviewed |
-| M073879 | P1040 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SemilinearProjectiveModuleCompose` | wave-reused |
-| M073880 | P1068 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SemilinearProjectiveModuleComposeStatement` | wave-reused |
-| M073941 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SenMultiplicityLatticeCountRelation` | volunteer-build-reviewed |
-| M073944 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SenMultiplicityShiftLatticeVariablePowStatement` | volunteer-build-reviewed |
-| M073954 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SeparableCharpolyInvAlgBaseChangeUnramified` | volunteer-build-reviewed |

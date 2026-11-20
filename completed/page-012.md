@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M049127 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SecLocallyConstantStatement` | wave-reused |
+| M049136 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SecSigmaBijective` | wave-reused |
+| M049137 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SecSigmaBijectiveStatement` | wave-reused |
+| M049228 | P0951 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionQuotientHolomorphicMeasurable` | wave-reused |
+| M049229 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionQuotientHolomorphicMeasurableStatement` | wave-reused |
 | M049268 | P1197 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionsCoordsAndNonvanishingAtFinset` | wave-reused |
 | M049269 | P1223 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionsCoordsAndNonvanishingAtFinsetStatement` | wave-reused |
 | M049272 | P1566 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionsDimLeAddMulSectionsDimCut` | wave-reused |
@@ -397,8 +402,3 @@
 | M057538 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsFrameUnipotentExchangingDualIsotropic` | wave-reused |
 | M057539 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsFrameUnipotentExchangingDualIsotropicStatement` | wave-reused |
 | M057565 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsGluingHomomorphismDefectGroup` | wave-reused |
-| M057566 | P0481 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsGluingHomomorphismDefectGroupStatement` | wave-reused |
-| M057593 | P0024 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIntSmulMemLattice` | wave-reused |
-| M057614 | P0787 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIrreducibleCharpolyMemRootsBar` | wave-reused |
-| M057634 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIsometryNearIdentityCloseTuples` | wave-reused |
-| M057635 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIsometryNearIdentityCloseTuplesStatement` | wave-reused |

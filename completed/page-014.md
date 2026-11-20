@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M060307 | P0554 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermsCorrespond` | wave-reused |
+| M060308 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermsCorrespondStatement` | wave-reused |
+| M060322 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ThetaSmulCompletedLatticeIffTypePrimeMulStatement` | volunteer-build-reviewed |
+| M060327 | P0521 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ThickOrbitSelfDualUnramifiedLattice` | wave-reused |
+| M060328 | P0554 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ThickOrbitSelfDualUnramifiedLatticeStatement` | wave-reused |
+| M060348 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TotallyPositiveOrthogonalOfTwoFlagExtendedSpaces` | volunteer-build-reviewed |
+| M060350 | P0815 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TrFirstPattern` | wave-reused |
+| M060351 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TraceCmbMulCmbStar` | volunteer-build-reviewed |
 | M060361 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TraceLoweringMulKeepingIsotropicFlag` | volunteer-build-reviewed |
 | M060373 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TransportRealPointsBijectiveMultiplicative` | volunteer-build-reviewed |
 | M060392 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TrivialOnDualQuotientIffMemLocalUnitary` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M062480 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeULeftRepresentativesLevelChange` | wave-reused |
 | M062481 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeULeftRepresentativesLevelChangeStatement` | wave-reused |
 | M062502 | P0188 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumCompOfIntermediateLatti` | volunteer-build-reviewed |
-| M062503 | P0251 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumCompOfIntermediateLattiStatement` | volunteer-build-reviewed |
-| M062504 | P0188 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumsCompEqIndex` | volunteer-build-reviewed |
-| M062505 | P0251 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumsCompEqIndexStatement` | volunteer-build-reviewed |
-| M062535 | P0118 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IdealEqBotOfFlatQuotientOfMapMaximalIdeal` | wave-reused |
-| M062554 | P0026 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ImportsMore` | wave-reused |
-| M062590 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnFdImPowMulExp` | wave-reused |
-| M062591 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnImRpowMulExpUnitStripOneLe` | wave-reused |
-| M062592 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnImRpowMulExpUnitStripOneLeStatement` | wave-reused |

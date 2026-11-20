@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M139089 | P0145 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.ConeSectionRestriction.ResidResPf` | volunteer-build-reviewed |
+| M139092 | P0065 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.ConeSectionRestriction.SeamDefs` | volunteer-build-reviewed |
+| M139094 | P0419 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.ConeSectionRestriction.TraceChart` | volunteer-build-reviewed |
+| M139097 | P0569 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.Coords` | wave-reused |
+| M139099 | P1439 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.DividedPowerReduction.CoefficientReductionFirstChernClassTateTwist` | wave-reused |
+| M139100 | P1186 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.DividedPowerReduction.IsFirstChernThickening` | wave-reused |
+| M139101 | P1047 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.DividedPowerReduction.JEqPdPow` | wave-reused |
+| M139103 | P1265 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.DividedPowerReduction.ReductionChangeLevel` | wave-reused |
+| M139104 | P0269 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.DpZeroRight` | wave-reused |
+| M139122 | P0065 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.FrobeniusWittActions.PsiApply` | volunteer-build-reviewed |
+| M139126 | P0419 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.GlobalSerreRelations.CechAugRowU` | volunteer-build-reviewed |
+| M139127 | P0569 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.GlobalSerreRelations.GlobSerreSt` | wave-reused |
+| M139140 | P0535 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.InclStd` | wave-reused |
+| M139142 | P1265 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.LevelChainValuations.ChainOf` | wave-reused |
+| M139147 | P1466 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.LevelChainValuations.GaloisCupProducts.BMapIncl` | wave-reused |
+| M139153 | P1495 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.LevelChainValuations.GaloisCupProducts.HomPullGoodRHof` | wave-reused |
+| M139154 | P1553 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.LevelChainValuations.GaloisCupProducts.HomPullRHofGood` | wave-reused |
+| M139156 | P1525 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.LevelChainValuations.GaloisCupProducts.NmHONmPullBBMap` | wave-reused |
+| M139159 | P0066 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.LevelChainValuations.LatDefs` | volunteer-build-reviewed |
+| M139161 | P1292 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.LevelChainValuations.NmK` | wave-reused |
+| M139162 | P0066 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.LevelChainValuations.OneSTr` | wave-reused |
 | M139163 | P1292 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.LevelChainValuations.RHof` | wave-reused |
 | M139171 | P1237 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.LevelChainValuations.ToBSurj` | wave-reused |
 | M139207 | P1162 | `Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.PolynomialSiteTraces.AdmissibleMap` | wave-reused |
@@ -381,24 +402,3 @@
 | M144096 | P0068 | `Formalism.BranchSandwichDivisors.StatementR` | build-observed |
 | M144097 | P0270 | `Formalism.BranchSandwichDivisors.StatementW` | build-observed |
 | M144098 | P0373 | `Formalism.CMTypeGalois.CMTypeFrobenius.HostConj` | build-observed |
-| M144099 | P0373 | `Formalism.CMTypeGalois.CMTypeFrobenius.HostEmb` | build-observed |
-| M144100 | P0373 | `Formalism.CMTypeGalois.CMTypeFrobenius.HostFrob` | build-observed |
-| M144101 | P0373 | `Formalism.CMTypeGalois.CMTypeFrobenius.HostInertia` | build-observed |
-| M144102 | P0373 | `Formalism.CMTypeGalois.CMTypeFrobenius.HostMu` | build-observed |
-| M144103 | P0324 | `Formalism.CMTypeGalois.CMTypeFrobenius.KroneckerMeaning` | build-observed |
-| M144104 | P0373 | `Formalism.CMTypeGalois.CMTypeFrobenius.MQFrob` | build-observed |
-| M144105 | P0373 | `Formalism.CMTypeGalois.CMTypeFrobenius.MQGalois` | build-observed |
-| M144106 | P0373 | `Formalism.CMTypeGalois.CMTypeFrobenius.MQKummer` | build-observed |
-| M144107 | P0324 | `Formalism.CMTypeGalois.CMTypeFrobenius.TypesA` | build-observed |
-| M144108 | P0324 | `Formalism.CMTypeGalois.CMTypeFrobenius.TypesB` | build-observed |
-| M144109 | P0420 | `Formalism.CMTypeGalois.HalfTypesFromGeneral` | build-observed |
-| M144110 | P0324 | `Formalism.CMTypeGalois.StatementField` | wave-reused |
-| M144111 | P0270 | `Formalism.CMTypeGalois.StatementGroup` | wave-reused |
-| M144112 | P0146 | `Formalism.CharacterColumnKernels.Assemble` | build-observed |
-| M144113 | P0536 | `Formalism.CharacterColumnKernels.CharacterColumnKernelEqualityForm` | wave-reused |
-| M144114 | P0146 | `Formalism.CharacterColumnKernels.CharacterColumnKernelLengthBound` | build-observed |
-| M144115 | P0270 | `Formalism.CharacterColumnKernels.CharacterColumnKernelPairSetVariant` | wave-reused |
-| M144116 | P0601 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.BlockChiOneFullOf` | wave-reused |
-| M144117 | P0501 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.BlockChiOneTriv` | wave-reused |
-| M144118 | P0536 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.BlockRhoFull` | wave-reused |
-| M144119 | P0210 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.CharacterColumnKernelLengthBound` | build-observed |

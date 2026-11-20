@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M131208 | P0630 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsPullWedge` | volunteer-build-reviewed |
+| M131211 | P0826 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsSubFibreSubFib` | volunteer-build-reviewed |
+| M131218 | P0267 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsVBOnDualAndBidual` | wave-reused |
+| M131219 | P0267 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsVBOneOfChartGenerators` | wave-reused |
+| M131222 | P0630 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsoLineOnEquivalence` | volunteer-build-reviewed |
+| M131223 | P0661 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsoLineOnEquivalenceStatement` | volunteer-build-reviewed |
+| M131227 | P0826 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IteratedDerivativeFactor` | volunteer-build-reviewed |
+| M131229 | P0799 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JetAugmentationOnePthPower` | volunteer-build-reviewed |
+| M131230 | P0826 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JetAugmentationOnePthPowerStatement` | volunteer-build-reviewed |
+| M131231 | P0799 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JetLeftMem` | volunteer-build-reviewed |
+| M131232 | P0826 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JetSectionGeneratorValue` | volunteer-build-reviewed |
+| M131234 | P0799 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JetSectionValueOnChart` | volunteer-build-reviewed |
+| M131239 | P0630 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JoinCoordsCoordTie` | volunteer-build-reviewed |
+| M131240 | P0661 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JoinCoordsCoordTieStatement` | volunteer-build-reviewed |
+| M131241 | P0826 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JoinCoordsUnitValues` | volunteer-build-reviewed |
+| M131243 | P0826 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JoinModelPointsLift` | volunteer-build-reviewed |
+| M131246 | P0799 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.JoinModelPointsProjectStatement` | volunteer-build-reviewed |
+| M131281 | P0267 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.LatRestrictComapSpan` | wave-reused |
+| M131328 | P0799 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.LeWchartOne` | volunteer-build-reviewed |
+| M131340 | P0320 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieChart` | wave-reused |
+| M131341 | P0597 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieChartOfSmoothChart` | wave-reused |
 | M131344 | P1105 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieLatticeEvalAtLocalRing` | wave-reused |
 | M131345 | P1134 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieLatticeEvalAtLocalRingStatement` | wave-reused |
 | M131350 | P0530 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieLatticeStableUnderAction` | wave-reused |
@@ -381,24 +402,3 @@
 | M134354 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.SameOrbitRefl` | volunteer-build-reviewed |
 | M134363 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.SelM` | volunteer-build-reviewed |
 | M134364 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.SemicharacterThetaCharacteristic` | volunteer-build-reviewed |
-| M134415 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.SncAdaptedChartSectionForm` | volunteer-build-reviewed |
-| M134446 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.SphereMeasureStereographicIntegralStatement` | volunteer-build-reviewed |
-| M134452 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.SquareParametrizedDensityFormulaStatement` | volunteer-build-reviewed |
-| M134459 | P0718 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.StepRowsInverseNonzeroEntry` | wave-reused |
-| M134460 | P0745 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.StepRowsInverseNonzeroEntryStatement` | wave-reused |
-| M134463 | P0209 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.SubframeDetLogGrowth` | volunteer-build-reviewed |
-| M134464 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.SumFundCoMulSumIic` | volunteer-build-reviewed |
-| M134483 | P0598 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TailLogBoundLocalIntegrable` | wave-reused |
-| M134484 | P0631 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TailLogBoundLocalIntegrableStatement` | wave-reused |
-| M134486 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.ThetaDerivativeBound` | volunteer-build-reviewed |
-| M134490 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.ThetaFunctionCanonicalMultiplier` | volunteer-build-reviewed |
-| M134494 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.ThetaFunctionSupBound` | volunteer-build-reviewed |
-| M134496 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.ThetaNormInPeriodCoordinates` | volunteer-build-reviewed |
-| M134498 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.ThetaZeroDivisorJetBound` | volunteer-build-reviewed |
-| M134507 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TorsionValueNormEqThetaNorm` | volunteer-build-reviewed |
-| M134509 | P0827 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TransPtBase` | wave-reused |
-| M134518 | P0855 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TwistedAtlasCompatibility` | wave-reused |
-| M134519 | P0883 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TwistedAtlasCompatibilityStatement` | wave-reused |
-| M134520 | P0909 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TwistedChartContinuousProjection` | wave-reused |
-| M134521 | P0937 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TwistedChartContinuousProjectionStatement` | wave-reused |
-| M134522 | P0855 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.TwistedChartCoordinatesRegular` | wave-reused |

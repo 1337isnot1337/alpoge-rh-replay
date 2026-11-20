@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M082628 | P0557 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ThetaBdRPlusSurjectiveKerUnitsEquivariant` | wave-reused |
+| M082629 | P0590 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ThetaBdRPlusSurjectiveKerUnitsEquivariantStatement` | wave-reused |
+| M082706 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TopologicalKrullDimAffinePoints` | volunteer-build-reviewed |
+| M082707 | P0309 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TopologicalKrullDimAffinePointsStatement` | volunteer-build-reviewed |
+| M082759 | P0126 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TotalDegreeSubstFLe` | volunteer-build-reviewed |
+| M082825 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TruncMatMemSubalgebra` | volunteer-build-reviewed |
+| M082856 | P1382 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TwistConeVanishing` | wave-reused |
+| M082901 | P1406 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TwistedPowerHigherCohomVanishingPullbackIffPushf` | wave-reused |
+| M082902 | P1430 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TwistedPowerHigherCohomVanishingPullbackIffPushfStatement` | wave-reused |
+| M082903 | P1406 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TwistedPowerVanishingInductionBySectionSqTensor` | wave-reused |
+| M082904 | P1430 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TwistedPowerVanishingInductionBySectionSqTensorStatement` | wave-reused |
+| M083123 | P0037 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.VecMulVecComm` | volunteer-build-reviewed |
+| M083183 | P0447 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.WeilGroupIsSemisimpleOfSemisimpleFrob` | wave-reused |
+| M083184 | P0486 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.WeilGroupIsSemisimpleOfSemisimpleFrobStatement` | wave-reused |
+| M083236 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.AbsCoordLeOfLOneNormLe` | wave-reused |
+| M083241 | P0361 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.AddCharMemValuationSubring` | wave-reused |
+| M083252 | P0361 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.AlgTensWtNear` | wave-reused |
 | M083253 | P0406 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.AlgTensWtNearStatement` | wave-reused |
 | M083268 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselCharacterUnipotentRadicalProperties` | wave-reused |
 | M083269 | P0819 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselCharacterUnipotentRadicalPropertiesStatement` | wave-reused |
@@ -385,20 +402,3 @@
 | M085112 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationLiftSmoothOverField` | volunteer-build-reviewed |
 | M085114 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationOfDualNumberThickening` | volunteer-build-reviewed |
 | M085115 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationOfDualNumberThickeningStatement` | volunteer-build-reviewed |
-| M085121 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalMultiplicationPullbackThetaEmbeddingI` | volunteer-build-reviewed |
-| M085124 | P0127 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalUnramifiedOfIsIndEtale` | wave-reused |
-| M085142 | P1100 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsNonzeroLocusLeOpenPolarisationComplex` | wave-reused |
-| M085143 | P1128 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsNonzeroLocusLeOpenPolarisationComplexStatement` | wave-reused |
-| M085152 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsObjTwistBySimilitude` | volunteer-build-reviewed |
-| M085155 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsPartialBundleIsoNormalised` | volunteer-build-reviewed |
-| M085157 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsPeriodDomainParam` | volunteer-build-reviewed |
-| M085171 | P1070 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsPrimitiveNormalisation` | wave-reused |
-| M085183 | P0738 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsPushEquiv` | wave-reused |
-| M085184 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsQuotientByFiniteGroupOfPoints` | volunteer-build-reviewed |
-| M085191 | P0127 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsRapidFourierSeriesOfIntPeriodic` | wave-reused |
-| M085196 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsRingHomComplexCompEqOfCountableStatement` | volunteer-build-reviewed |
-| M085197 | P0738 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSabCancel` | wave-reused |
-| M085199 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSabMapExtendingOfIso` | volunteer-build-reviewed |
-| M085211 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSecOnNonvanishingOfTameQuotient` | volunteer-build-reviewed |
-| M085225 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSegreCoordinates` | volunteer-build-reviewed |
-| M085251 | P0038 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSmoothPeriodicPartitionOfUnity` | wave-reused |

@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M064414 | P1199 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.FramedPointIntegralIntegralCellAnyModelStatement` | wave-reused |
+| M064415 | P1063 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.FramedPointVectorsIntegralInCell` | wave-reused |
+| M064420 | P1452 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.GenericFrameIntegralOffFinitelyManyFunctions` | wave-reused |
+| M064433 | P1150 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.IsCombAtIffCoordinateCombination` | wave-reused |
+| M064434 | P1175 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.IsCombAtIffCoordinateCombinationStatement` | wave-reused |
+| M064437 | P1063 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.IsEigenvectorIffLieBasisCoordinates` | wave-reused |
+| M064438 | P1091 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.IsEigenvectorIffLieBasisCoordinatesStatement` | wave-reused |
+| M064440 | P0027 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.IsIntegralCoeffZeroMulOfAevalInv` | volunteer-build-reviewed |
+| M064449 | P1063 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.LieBasisCoordinatesBijectiveTangent` | wave-reused |
+| M064450 | P1091 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.LieBasisCoordinatesBijectiveTangentStatement` | wave-reused |
+| M064451 | P0789 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.LieCombBaseChange` | wave-reused |
+| M064452 | P1091 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.LiftBaseChange` | wave-reused |
+| M064453 | P1121 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.LiftBaseChangeStatement` | wave-reused |
+| M064465 | P1063 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.NonemptyLift` | wave-reused |
+| M064489 | P1036 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.SecGeneratesOfNeZeroOnClosedFibre` | wave-reused |
+| M064499 | P1150 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.TieBaseChange` | wave-reused |
+| M064568 | P1091 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.BadCharacterBound` | build-observed |
 | M064569 | P1121 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.BadCharacterBoundStatement` | build-observed |
 | M064639 | P0028 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ConstMulRpowMulLogPowLeRpow` | volunteer-build-reviewed |
 | M064665 | P0189 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.DifferentiableOddTheta` | wave-reused |
@@ -385,20 +402,3 @@
 | M069339 | P1226 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIsPrismLocalizationAwayOfGeneratedStatement` | wave-reused |
 | M069358 | P0983 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsKernelLatticeEquivariantModPow` | wave-reused |
 | M069359 | P1010 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsKernelLatticeEquivariantModPowStatement` | wave-reused |
-| M069360 | P1176 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsKernelVectorMemOEOfFrobeniusStable` | wave-reused |
-| M069361 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsKernelVectorMemOEOfFrobeniusStableStatement` | wave-reused |
-| M069377 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLastMaxOfMem` | volunteer-build-reviewed |
-| M069384 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLeMaximalIdealPowSmulOfDirected` | volunteer-build-reviewed |
-| M069433 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLocallyConstantCutoffClosedEmbedding` | volunteer-build-reviewed |
-| M069456 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsMaximalOrderHullSelfDualStableLatticeStatement` | volunteer-build-reviewed |
-| M069479 | P0031 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsMonicAevalEqZero` | build-observed |
-| M069490 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsMulStarEqOfNormOneUnramifiedQuadratic` | volunteer-build-reviewed |
-| M069506 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsNhdsOneEtaleAlgebraMulInvariant` | volunteer-build-reviewed |
-| M069508 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsNhdsZeroTranslationInvariantOfLocallyConst` | volunteer-build-reviewed |
-| M069533 | P0955 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsOfPowLeOfPowLeSameAdicTopology` | wave-reused |
-| M069534 | P0983 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsOfPowLeOfPowLeSameAdicTopologyStatement` | wave-reused |
-| M069535 | P0983 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsOneAddPrimePowMulNotRootOfUnity` | wave-reused |
-| M069536 | P1010 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsOneAddPrimePowMulNotRootOfUnityStatement` | wave-reused |
-| M069562 | P0031 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPadicIntOfCompatibleZmodPow` | volunteer-build-reviewed |
-| M069599 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowMemSpanCoeffPeriodPow` | wave-reused |
-| M069600 | P1226 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowMemSpanCoeffPeriodPowStatement` | wave-reused |

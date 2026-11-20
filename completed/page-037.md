@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M144505 | P0147 | `Formalism.FormalDegreeBessel.StatementG` | wave-reused |
+| M144506 | P0502 | `Formalism.FormalDegreeBessel.StatementIO` | wave-reused |
+| M144507 | P0536 | `Formalism.FormalDegreeBessel.StatementRP` | wave-reused |
+| M144508 | P0068 | `Formalism.FormalDegreeBessel.StatementWR` | wave-reused |
+| M144509 | P0068 | `Formalism.FormalGroupLog.FormalGroupLogProofs.ChainRule` | wave-reused |
+| M144510 | P0211 | `Formalism.FormalGroupLog.FormalGroupLogProofs.ConstantCoeffSubstOfZero` | wave-reused |
+| M144511 | P0211 | `Formalism.FormalGroupLog.FormalGroupLogProofs.HomPsSubstMvSubst` | wave-reused |
+| M144512 | P0271 | `Formalism.FormalGroupLog.LogDeterminesLaw` | wave-reused |
+| M144513 | P0147 | `Formalism.FormalGroupLog.Statement` | wave-reused |
+| M144514 | P0325 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.AdditiveLawExample` | wave-reused |
+| M144515 | P0374 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.CoeffExpandEqZero` | wave-reused |
+| M144516 | P0374 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.CoeffV` | wave-reused |
+| M144517 | P0420 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.CongrV` | wave-reused |
+| M144518 | P0374 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.EqSingleOfDegreeEqOne` | wave-reused |
+| M144519 | P0374 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.FrobSqV` | wave-reused |
+| M144520 | P0460 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.FunctionalEquationHomVector` | wave-reused |
+| M144521 | P0420 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.FunctionalEquationSubstVector` | wave-reused |
+| M144522 | P0420 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.GaussV` | wave-reused |
+| M144523 | P0502 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.GroupV` | wave-reused |
+| M144524 | P0502 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.HeightV` | wave-reused |
+| M144525 | P0374 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.IntegralSubstVector` | wave-reused |
 | M144526 | P0374 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.InvIntV` | wave-reused |
 | M144527 | P0536 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.ShiftAsm` | wave-reused |
 | M144528 | P0325 | `Formalism.FormalGroupWitt.FormalGroupWittProofs.ShiftFE` | wave-reused |
@@ -381,24 +402,3 @@
 | M144912 | P1048 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.SigmaCountPosBasis` | wave-reused |
 | M144913 | P1020 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.SmulGenMemIff` | wave-reused |
 | M144914 | P0829 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.SpanPowMulLe` | wave-reused |
-| M144915 | P0721 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.StarAlgebraMap` | wave-reused |
-| M144916 | P0147 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.StepIdentity` | wave-reused |
-| M144917 | P1048 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.SumLocRepsEq` | wave-reused |
-| M144918 | P0829 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.SumOrbitsEquivariant` | wave-reused |
-| M144919 | P1076 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.SumRegroup` | wave-reused |
-| M144920 | P0069 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.SummableSqGeom` | wave-reused |
-| M144921 | P0801 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.SupEqTopOfMemHcompl` | wave-reused |
-| M144922 | P1211 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.SurjectiveOfNondegenerate` | wave-reused |
-| M144923 | P0884 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoBallCount` | wave-reused |
-| M144924 | P0966 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoMeanAlphaN` | wave-reused |
-| M144925 | P1186 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoSingSSum` | wave-reused |
-| M144926 | P0993 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoSumBoxIdeal` | wave-reused |
-| M144927 | P0774 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoSumCoset` | wave-reused |
-| M144928 | P0910 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoSumOfMean` | wave-reused |
-| M144929 | P0801 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoSumPeriodic` | wave-reused |
-| M144930 | P0069 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoTsumDivPow` | wave-reused |
-| M144931 | P0147 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoWeightedTprod` | wave-reused |
-| M144932 | P0634 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.UnimodularOfMemGenusOrtho` | wave-reused |
-| M144933 | P0774 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.UnitaryDensityField` | wave-reused |
-| M144934 | P0993 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.UnitaryDensityFieldBis` | wave-reused |
-| M144935 | P1076 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.UnitaryDensityFieldFurther` | wave-reused |

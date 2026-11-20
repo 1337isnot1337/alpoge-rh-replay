@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M030700 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendByZeroOnSubsetApplyCoe` | wave-reused |
+| M030705 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendChainMapAlongQuasiIsoKInjective` | wave-reused |
+| M030706 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendChainMapAlongQuasiIsoKInjectiveStatement` | wave-reused |
+| M030713 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendLinearIndependentDifferentials` | volunteer-build-reviewed |
 | M030719 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendScalarsUliftHomAdditive` | wave-reused |
 | M030732 | P0977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtensionAcrossHypersurfaceValuesAtZeros` | wave-reused |
 | M030733 | P1004 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtensionAcrossHypersurfaceValuesAtZerosStatement` | wave-reused |
@@ -398,7 +402,3 @@
 | M038004 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFamConstLevelOne` | wave-reused |
 | M038010 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFieldOfUniquePrimeStalkStatement` | volunteer-build-reviewed |
 | M038032 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFiniteFlatRankClosedSubschemeOfOpenCover` | volunteer-build-reviewed |
-| M038033 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFiniteFlatRankClosedSubschemeOfOpenCoverStatement` | volunteer-build-reviewed |
-| M038034 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFiniteFlatRankClosedSubschemeOfQuotientBasis` | volunteer-build-reviewed |
-| M038080 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFractionRingTensorOfFractionFieldsStatement` | volunteer-build-reviewed |
-| M038083 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFrameMapOfAppendStatement` | volunteer-build-reviewed |
