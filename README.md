@@ -194,16 +194,22 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@shardmods](https://github.com/shardmods) | [P0261](https://github.com/rohanarun/alpoge-rh-replay/issues/101#issuecomment-7046160215) | 64 | [Build evidence verified](evidence/volunteers/P0261.json) |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0287](https://github.com/rohanarun/alpoge-rh-replay/issues/92#issuecomment-7045860836) | 64 | [Build evidence verified](evidence/volunteers/P0287.json) |
 | [@shardmods](https://github.com/shardmods) | [P0293](https://github.com/rohanarun/alpoge-rh-replay/issues/102#issuecomment-7046162412) | 64 | [Build evidence verified](evidence/volunteers/P0293.json) |
+| [@shardmods](https://github.com/shardmods) | [P0300](https://github.com/rohanarun/alpoge-rh-replay/issues/113#issuecomment-7046252794) | 64 | [Build evidence verified](evidence/volunteers/P0300.json) |
 | [@shardmods](https://github.com/shardmods) | [P0309](https://github.com/rohanarun/alpoge-rh-replay/issues/109#issuecomment-7046176449) | 64 | [Build evidence verified](evidence/volunteers/P0309.json) |
 | [@shardmods](https://github.com/shardmods) | [P0311](https://github.com/rohanarun/alpoge-rh-replay/issues/105#issuecomment-7046168327) | 64 | [Build evidence verified](evidence/volunteers/P0311.json) |
 | [@shardmods](https://github.com/shardmods) | [P0346](https://github.com/rohanarun/alpoge-rh-replay/issues/106#issuecomment-7046170429) | 64 | [Build evidence verified](evidence/volunteers/P0346.json) |
 | [@shardmods](https://github.com/shardmods) | [P0392](https://github.com/rohanarun/alpoge-rh-replay/issues/108#issuecomment-7046174698) | 64 | [Build evidence verified](evidence/volunteers/P0392.json) |
 | [@shardmods](https://github.com/shardmods) | [P0408](https://github.com/rohanarun/alpoge-rh-replay/issues/111#issuecomment-7046181111) | 64 | [Build evidence verified](evidence/volunteers/P0408.json) |
+| [@shardmods](https://github.com/shardmods) | [P0419](https://github.com/rohanarun/alpoge-rh-replay/issues/118#issuecomment-7046257251) | 64 | [Build evidence verified](evidence/volunteers/P0419.json) |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0452](https://github.com/rohanarun/alpoge-rh-replay/issues/93#issuecomment-7045926387) | 64 | [Build evidence verified](evidence/volunteers/P0452.json) |
 | [@juanfers1](https://github.com/juanfers1) | [P0476](https://github.com/rohanarun/alpoge-rh-replay/issues/127#issuecomment-7046093484) | 64 | [Build evidence verified](evidence/volunteers/P0476.json) |
 | [@shardmods](https://github.com/shardmods) | [P0494](https://github.com/rohanarun/alpoge-rh-replay/issues/112#issuecomment-7046182894) | 64 | [Build evidence verified](evidence/volunteers/P0494.json) |
 | [@shardmods](https://github.com/shardmods) | [P0539](https://github.com/rohanarun/alpoge-rh-replay/issues/110#issuecomment-7046178996) | 64 | [Build evidence verified](evidence/volunteers/P0539.json) |
+| [@shardmods](https://github.com/shardmods) | [P0558](https://github.com/rohanarun/alpoge-rh-replay/issues/114#issuecomment-7046255154) | 64 | [Build evidence verified](evidence/volunteers/P0558.json) |
 | [@shardmods](https://github.com/shardmods) | [P0595](https://github.com/rohanarun/alpoge-rh-replay/issues/107#issuecomment-7046172719) | 64 | [Build evidence verified](evidence/volunteers/P0595.json) |
+| [@shardmods](https://github.com/shardmods) | [P0628](https://github.com/rohanarun/alpoge-rh-replay/issues/115#issuecomment-7046297848) | 64 | [Build evidence verified](evidence/volunteers/P0628.json) |
+| [@shardmods](https://github.com/shardmods) | [P0766](https://github.com/rohanarun/alpoge-rh-replay/issues/121#issuecomment-7046260012) | 64 | [Build evidence verified](evidence/volunteers/P0766.json) |
+| [@shardmods](https://github.com/shardmods) | [P0820](https://github.com/rohanarun/alpoge-rh-replay/issues/119#issuecomment-7046299655) | 64 | [Build evidence verified](evidence/volunteers/P0820.json) |
 
 <!-- volunteers-end -->
 
@@ -213,12 +219,12 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 
 | Evidence for distinct module IDs | Count |
 |---|---:|
-| Successful source build observed | 3,600 |
+| Successful source build observed | 3,700 |
 | Pilot proof object reused | 150 |
 | Pilot downstream module kernel-checked | 1 |
 | Distributed proof object reused | 10,973 |
-| Volunteer build evidence reviewed | 2,443 |
-| **Total with recorded module evidence** | **17,167 / 175,187** |
+| Volunteer build evidence reviewed | 2,827 |
+| **Total with recorded module evidence** | **17,651 / 175,187** |
 
 [See each completed part and its evidence](completed/README.md) · [Machine-readable ledger](tracker/completed.tsv)
 

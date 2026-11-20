@@ -1,6 +1,6 @@
 # Coordinator progress
 
-Updated 2026-11-20 17:10 UTC.
+Updated 2026-11-20 17:37 UTC.
 
 The full source build, axiom audit and fresh-kernel verification of RH are pending. Volunteers can claim work using the [contributor guide](CONTRIBUTING.md).
 
@@ -66,3 +66,5 @@ The coordinator filed 63 standard GitHub module claims for cloud helpers alongsi
 [Coordinator claims](https://github.com/rohanarun/alpoge-rh-replay/issues?q=is%3Aissue+author%3Arohanarun+label%3Aclaim)
 
 Render provisioned 20 of 63 requested helper services.
+
+18 helper bundles are ready, covering 5,380 distinct modules. 2 helpers were last seen compiling.
