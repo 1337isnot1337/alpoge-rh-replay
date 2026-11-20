@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M075503 | P0711 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisToBdRPlusInjective` | wave-reused |
+| M075504 | P0737 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisToBdRPlusInjectiveStatement` | wave-reused |
+| M075510 | P0485 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ActsBySameInteger` | volunteer-build-reviewed |
+| M075617 | P0556 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AinfIsDomainAndAinfInvPInjective` | wave-reused |
+| M075618 | P0589 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AinfIsDomainAndAinfInvPInjectiveStatement` | wave-reused |
+| M075629 | P0654 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AlgebraMapAinfInvPrimeBdRPlusInjective` | wave-reused |
+| M075630 | P0685 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AlgebraMapAinfInvPrimeBdRPlusInjectiveStatement` | wave-reused |
+| M075632 | P0034 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AlgebraMapNormCoeff` | volunteer-build-reviewed |
+| M075817 | P0929 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BcrisEqAcrisLocalizationPeriodT` | wave-reused |
+| M075818 | P0957 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BcrisEqAcrisLocalizationPeriodTStatement` | wave-reused |
+| M075825 | P0654 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BdRPlusFiltrationEqFontaineXiPow` | wave-reused |
+| M075826 | P0685 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BdRPlusFiltrationEqFontaineXiPowStatement` | wave-reused |
+| M075827 | P0711 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BdRPlusIsDomainBdRIsField` | wave-reused |
+| M075828 | P0737 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BdRPlusIsDomainBdRIsFieldStatement` | wave-reused |
+| M075829 | P0622 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BdRPlusSimpleRootsSectionUniqueEquivariant` | wave-reused |
 | M075830 | P0654 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BdRPlusSimpleRootsSectionUniqueEquivariantStatement` | wave-reused |
 | M075849 | P0034 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BlockSymApply` | volunteer-build-reviewed |
 | M075928 | P0685 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.CanonicalAcrisToBdRPlusUniqueEquivariantApprox` | wave-reused |
@@ -387,18 +402,3 @@
 | M084033 | P0848 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsFRepExteriorPowerStandardRep` | wave-reused |
 | M084034 | P0874 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsFRepExteriorPowerStandardRepStatement` | wave-reused |
 | M084037 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsHaarOnIffGroupsUnitaryUnipotent` | wave-reused |
-| M084038 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsHaarOnIffGroupsUnitaryUnipotentStatement` | volunteer-build-reviewed |
-| M084047 | P0766 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsReducedTorsionGeometricFibre` | volunteer-build-reviewed |
-| M084070 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.KFiniteDerivativesFiniteSpan` | volunteer-build-reviewed |
-| M084075 | P0930 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.KerJetAugEqSpanTorusUnionQuotient` | wave-reused |
-| M084087 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.LenEqOfUnitriangular` | wave-reused |
-| M084092 | P0524 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.LevSubspaceMono` | wave-reused |
-| M084133 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.LintegralInvEqOfBiInvariantMatGroupStatement` | volunteer-build-reviewed |
-| M084136 | P0361 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.LowKSubSingleSqrtCkvLe` | wave-reused |
-| M084137 | P0407 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.LowKSubSingleSqrtCkvLeStatement` | wave-reused |
-| M084138 | P0848 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.LoweringBound` | wave-reused |
-| M084139 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.MapDofIterate` | volunteer-build-reviewed |
-| M084144 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.MatGroupHaarUniqueFiniteCompactOpenPosStatement` | volunteer-build-reviewed |
-| M084149 | P0930 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.MemBasicOpenOfIsUnit` | wave-reused |
-| M084158 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.MinorsDisjointColumnsHarmonic` | volunteer-build-reviewed |
-| M084175 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.MultiplicativeShiftEqTranslateBySmallPoint` | volunteer-build-reviewed |

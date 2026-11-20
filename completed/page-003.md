@@ -65,6 +65,7 @@
 | M004861 | P0096 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.SndDualLiftAlgebraMap` | wave-reused |
 | M004865 | P0393 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.TameDescentExtendedActionExtraVector` | wave-reused |
 | M004870 | P0946 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.TrivIsCr` | wave-reused |
+| M004872 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.TwConj` | volunteer-build-reviewed |
 | M004873 | P0865 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.TwistStep` | wave-reused |
 | M004874 | P0582 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.TwistedModelAdmissibleCocycles` | wave-reused |
 | M004876 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.UnitLemmaGroup` | volunteer-build-reviewed |
@@ -316,6 +317,7 @@
 | M005496 | P0394 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsLocalNonnormOfNonsquareAdicCompletionStatement` | wave-reused |
 | M005503 | P0003 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsNonzeroIsotropic` | wave-reused |
 | M005506 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsNormalFormNonsquareAdicCompletion` | wave-reused |
+| M005507 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsNormaliseMeanSquareOfCocompact` | volunteer-build-reviewed |
 | M005511 | P0678 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsPlaceIsSquareAndNotIsSquare` | wave-reused |
 | M005512 | P0616 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsPlaceNotIsSquareAdicCompletion` | wave-reused |
 | M005513 | P0648 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsPlaceNotIsSquareAdicCompletionStatement` | wave-reused |
@@ -400,5 +402,3 @@
 | M005845 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsNumberFieldFgStatement` | wave-reused |
 | M005846 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsPlacesOverAndQuadraticConj` | wave-reused |
 | M005847 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsPlacesOverAndQuadraticConjStatement` | wave-reused |
-| M005850 | P0550 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsSupUnitsLocalNormsSqrtNeTop` | wave-reused |
-| M005851 | P0583 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsSupUnitsLocalNormsSqrtNeTopStatement` | wave-reused |

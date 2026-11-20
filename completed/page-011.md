@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M046653 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdHomeoSymmApplySnd` | volunteer-build-reviewed |
+| M046656 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdIoiSubEqAntisymmMonomial` | volunteer-build-reviewed |
+| M046669 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdOfFnEqSingle` | volunteer-build-reviewed |
+| M046670 | P0301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdRootPowerSumMapGaloisEq` | wave-reused |
+| M046671 | P0352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdRootPowerSumMapGaloisEqStatement` | wave-reused |
+| M046672 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdRpowDecayIsBigOCocompact` | volunteer-build-reviewed |
+| M046674 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdSubConjEqZero` | wave-reused |
+| M046677 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdZpowAdd` | volunteer-build-reviewed |
+| M046678 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdZpowMul` | volunteer-build-reviewed |
 | M046699 | P0301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProductFormulaLogNorms` | wave-reused |
 | M046753 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProjectiveBaseChangeOfPresentationMatrixSplit` | volunteer-build-reviewed |
 | M046763 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProjectiveCharZeroTensorRingOfIntegers` | volunteer-build-reviewed |
@@ -393,12 +402,3 @@
 | M050741 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecializesLiftClosedFibreStalkBaseChangeStatement` | volunteer-build-reviewed |
 | M050913 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SqMulFinrankMatrixAlgebraHomEqFinrankMul` | volunteer-build-reviewed |
 | M050917 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SqNormSmoothSectionSubGluedLe` | wave-reused |
-| M050918 | P1005 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SqNormSmoothSectionSubGluedLeStatement` | wave-reused |
-| M050920 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SqScalarCharacterOfDoubleCoverUnitaryStatement` | volunteer-build-reviewed |
-| M051005 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SquareZeroDeformationFactorsThroughLinearStatement` | volunteer-build-reviewed |
-| M051026 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StProfileHolds` | volunteer-build-reviewed |
-| M051079 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StabilizerRelIndexNeZeroParabolicStatement` | volunteer-build-reviewed |
-| M051086 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StableComplementOfKernelExistsStatement` | volunteer-build-reviewed |
-| M051131 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StalkMapFlatFormallyEtaleEssFiniteTypeOfEtaleResStatement` | volunteer-build-reviewed |
-| M051177 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardEtaleMvPolynomialHypersurfaceStatement` | volunteer-build-reviewed |
-| M051254 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.Statement` | volunteer-build-reviewed |

@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M066917 | P1254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BernsteinZelevinskyDerivativeHarishChandraProducStatement` | wave-reused |
+| M066918 | P1226 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BernsteinZelevinskyDerivativeHarishChandraProduct` | wave-reused |
+| M066919 | P0954 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BezoutEisensteinDerivativePrimePow` | wave-reused |
+| M066920 | P0981 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BezoutEisensteinDerivativePrimePowStatement` | wave-reused |
+| M066930 | P0981 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BijectiveOfBijectiveBaseChangeQuotientJacobson` | wave-reused |
+| M066931 | P1009 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BijectiveOfBijectiveBaseChangeQuotientJacobsonStatement` | wave-reused |
+| M066992 | P0029 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BlockIsTheRun` | volunteer-build-reviewed |
+| M066999 | P0029 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BndMul` | volunteer-build-reviewed |
+| M067024 | P0190 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BoundedPowersOrExistsValuationSubringDvd` | wave-reused |
+| M067025 | P0253 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BoundedPowersOrExistsValuationSubringDvdStatement` | wave-reused |
+| M067033 | P1151 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BreuilKisinApproxRootImageIndep` | wave-reused |
+| M067037 | P1281 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BreuilKisinBasisOfEtaleInvariantBoundedPoles` | wave-reused |
+| M067038 | P1307 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BreuilKisinBasisOfEtaleInvariantBoundedPolesStatement` | wave-reused |
+| M067041 | P1151 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BreuilKisinBetaBoundedDenominators` | wave-reused |
 | M067042 | P1175 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BreuilKisinBetaBoundedDenominatorsStatement` | wave-reused |
 | M067043 | P1037 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BreuilKisinBetaNextCoeffThetaMem` | wave-reused |
 | M067044 | P1065 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BreuilKisinBetaNextCoeffThetaMemStatement` | wave-reused |
@@ -388,17 +402,3 @@
 | M071277 | P1096 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InjectiveAndRangeOfPrismCover` | wave-reused |
 | M071278 | P1125 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InjectiveAndRangeOfPrismCoverStatement` | wave-reused |
 | M071299 | P0654 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegersCompleteDVR` | wave-reused |
-| M071318 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralClosureFgFiniteEtaleDvr` | volunteer-build-reviewed |
-| M071328 | P1176 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralElementsUnitFactorization` | wave-reused |
-| M071329 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralElementsUnitFactorizationStatement` | wave-reused |
-| M071347 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralGLSetIsOpenAndIsCompact` | volunteer-build-reviewed |
-| M071362 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralPsiKOverScaledIntegersEqVolumeIndicator` | volunteer-build-reviewed |
-| M071375 | P0984 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralWittElementOfEvaluation` | wave-reused |
-| M071376 | P1011 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralWittElementOfEvaluationStatement` | wave-reused |
-| M071392 | P1404 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InvariantEtaleBasisChangeByOEUnit` | wave-reused |
-| M071393 | P1428 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InvariantEtaleBasisChangeByOEUnitStatement` | wave-reused |
-| M071398 | P1226 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InvariantPhiSolutionMemOE` | wave-reused |
-| M071399 | P1255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InvariantPhiSolutionMemOEStatement` | wave-reused |
-| M071413 | P0984 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InvertibleIdealEqOfNotLeMaximalMul` | wave-reused |
-| M071414 | P1011 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InvertibleIdealEqOfNotLeMaximalMulStatement` | wave-reused |
-| M071415 | P0984 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InvertibleIdealPrincipalOnZariskiCover` | wave-reused |

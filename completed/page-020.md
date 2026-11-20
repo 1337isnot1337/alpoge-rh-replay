@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M086030 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SymplecticDatumTorsionLevelStatement` | volunteer-build-reviewed |
+| M086032 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SymplecticFormBasisChangeStatement` | volunteer-build-reviewed |
+| M086036 | P1383 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.TangentInjectsSymmetricAntilinearCommuting` | wave-reused |
+| M086037 | P1407 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.TangentInjectsSymmetricAntilinearCommutingStatement` | wave-reused |
+| M086056 | P0256 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaCocyclePeriodicNonvanishingSections` | volunteer-build-reviewed |
+| M086057 | P0310 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaCocyclePeriodicNonvanishingSectionsStatement` | wave-reused |
+| M086061 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaConstantsUniqueUpToUnitStatement` | volunteer-build-reviewed |
+| M086063 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaCosetNonvanishingOfHasThStatement` | volunteer-build-reviewed |
+| M086073 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaIdealPrimeAvoidingVariable` | volunteer-build-reviewed |
+| M086075 | P1155 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaLevelAbelianSchemeConstOverDualNumbers` | wave-reused |
+| M086085 | P1101 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaLevelPullbackIdCompCancel` | wave-reused |
+| M086086 | P1129 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaLevelPullbackIdCompCancelStatement` | wave-reused |
+| M086091 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaObjectComparisonMapsCocycle` | volunteer-build-reviewed |
+| M086093 | P1258 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaObjectConstantFamilyDualNumbersIsPullback` | wave-reused |
+| M086094 | P1285 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaObjectConstantFamilyDualNumbersIsPullbackStatement` | wave-reused |
 | M086100 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaPointsVanishingIdealRadicalHomogeneousStatement` | volunteer-build-reviewed |
 | M086108 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.TorsionAndIsMonHomOfOpenCover` | volunteer-build-reviewed |
 | M086110 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.TorsionBasisGeometricFibresOfOpenCover` | volunteer-build-reviewed |
@@ -387,18 +402,3 @@
 | M090851 | P0128 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubmatrixMulOfSupport` | wave-reused |
 | M090852 | P0128 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubmatrixMulOfVanish` | wave-reused |
 | M090853 | P0590 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubsingletonPrimeSpectrum` | wave-reused |
-| M090855 | P0822 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ThetaCharLevelOneAndHolomorphicParameter` | wave-reused |
-| M090856 | P0850 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ThetaCharLevelOneAndHolomorphicParameterStatement` | wave-reused |
-| M090865 | P0876 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ThetaGeneratorPullbackMulConstInFrames` | wave-reused |
-| M090866 | P0903 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ThetaGeneratorPullbackMulConstInFramesStatement` | wave-reused |
-| M090879 | P0822 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ThetaUniformisationFrameEqAutomorphyMul` | wave-reused |
-| M090880 | P0850 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ThetaUniformisationFrameEqAutomorphyMulStatement` | wave-reused |
-| M090881 | P0767 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.TopLeTranslate` | wave-reused |
-| M090882 | P1205 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.TopologicalKrullDimLeOfFiniteCommonZeros` | wave-reused |
-| M090883 | P1232 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.TopologicalKrullDimLeOfFiniteCommonZerosStatement` | wave-reused |
-| M090884 | P0128 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.TorsSqMap` | wave-reused |
-| M090885 | P0822 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.TransversalZerosLiftOfIsAdicComplete` | wave-reused |
-| M090886 | P0850 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.TransversalZerosLiftOfIsAdicCompleteStatement` | wave-reused |
-| M090887 | P0795 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.TransversalZerosOfJacobianNeZeroDomain` | wave-reused |
-| M090888 | P0822 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.TransversalZerosOfJacobianNeZeroDomainStatement` | wave-reused |
-| M090889 | P0795 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.UnifValueJacZeros` | wave-reused |

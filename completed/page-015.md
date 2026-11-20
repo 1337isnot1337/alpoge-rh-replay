@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M063161 | P0251 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularLawOfSAndTStatement` | wave-reused |
+| M063166 | P0305 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularTowerFunctionSlTwoIntInvariant` | wave-reused |
+| M063167 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularTowerFunctionSlTwoIntInvariantStatement` | wave-reused |
+| M063168 | P0305 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularTowerFunctionTendstoConstTermExponential` | wave-reused |
+| M063169 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularTowerFunctionTendstoConstTermExponentialStatement` | wave-reused |
+| M063170 | P0483 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularTowerMemAdjoinJOfSlTwoIntInvariant` | wave-reused |
+| M063171 | P0522 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularTowerMemAdjoinJOfSlTwoIntInvariantStatement` | wave-reused |
+| M063177 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MonicRootNormLeOneAddSum` | wave-reused |
+| M063178 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MonicRootNormLeOneAddSumStatement` | wave-reused |
+| M063181 | P0305 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MonomialEqOfUpperUnipotentDoubleCoset` | wave-reused |
+| M063182 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MonomialEqOfUpperUnipotentDoubleCosetStatement` | wave-reused |
 | M063187 | P0871 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MuModelProductIsModularFormCoeffSeqLocallyAlgebr` | wave-reused |
 | M063188 | P0898 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MuModelProductIsModularFormCoeffSeqLocallyAlgebrStatement` | wave-reused |
 | M063189 | P0871 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MuModelProductValueNeZeroOfDepleted` | wave-reused |
@@ -165,6 +176,7 @@
 | M063820 | P0763 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SturmSumOverCharactersEqZeroStatement` | wave-reused |
 | M063823 | P0305 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SubgroupCharacterIdempotentProperties` | wave-reused |
 | M063824 | P0358 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SubgroupCharacterIdempotentPropertiesStatement` | wave-reused |
+| M063837 | P0119 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SumEqZeroAddUnits` | volunteer-build-reviewed |
 | M063844 | P0252 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SumLeProdOfTwoLeNat` | wave-reused |
 | M063851 | P0119 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SumOpTransversal` | volunteer-build-reviewed |
 | M063852 | P0189 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SumOpTransversalStatement` | volunteer-build-reviewed |
@@ -276,6 +288,7 @@
 | M065288 | P0252 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.MultipliableTpFactor` | wave-reused |
 | M065402 | P0306 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.QBinomialFinite` | wave-reused |
 | M065403 | P0358 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.QBinomialFiniteStatement` | wave-reused |
+| M065412 | P0028 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.QuadraticUnramifiedIffInertOrSplit` | volunteer-build-reviewed |
 | M065506 | P1092 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.SamePointOfSameScale` | build-observed |
 | M065508 | P1009 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ScalePolynomialQuantitiesComparison` | build-observed |
 | M065509 | P1036 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ScalePolynomialQuantitiesComparisonStatement` | build-observed |
@@ -358,6 +371,7 @@
 | M066510 | P0029 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.SummableAndAbsTsumSubIntegralLe` | wave-reused |
 | M066511 | P0120 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.TendstoRealEisensteinSubPole` | wave-reused |
 | M066512 | P0120 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.TendstoUniformlyOnDoublingLogOfContraction` | wave-reused |
+| M066515 | P0029 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.WeierstrassPAddOfNeOfDerivNeZero` | volunteer-build-reviewed |
 | M066557 | P0789 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ActDEqOfEqOne` | wave-reused |
 | M066575 | P0029 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AddMulInvMem` | wave-reused |
 | M066622 | P0029 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdicCompletionPrincipalPerfect` | wave-reused |
@@ -388,17 +402,3 @@
 | M066884 | P0981 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BasisOfCongrBasisModNilpotentIdeal` | wave-reused |
 | M066885 | P1009 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BasisOfCongrBasisModNilpotentIdealStatement` | wave-reused |
 | M066891 | P0981 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BcrisOneSubFrobeniusSurjective` | wave-reused |
-| M066917 | P1254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BernsteinZelevinskyDerivativeHarishChandraProducStatement` | wave-reused |
-| M066918 | P1226 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BernsteinZelevinskyDerivativeHarishChandraProduct` | wave-reused |
-| M066919 | P0954 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BezoutEisensteinDerivativePrimePow` | wave-reused |
-| M066920 | P0981 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BezoutEisensteinDerivativePrimePowStatement` | wave-reused |
-| M066930 | P0981 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BijectiveOfBijectiveBaseChangeQuotientJacobson` | wave-reused |
-| M066931 | P1009 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BijectiveOfBijectiveBaseChangeQuotientJacobsonStatement` | wave-reused |
-| M066992 | P0029 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BlockIsTheRun` | volunteer-build-reviewed |
-| M066999 | P0029 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BndMul` | volunteer-build-reviewed |
-| M067024 | P0190 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BoundedPowersOrExistsValuationSubringDvd` | wave-reused |
-| M067025 | P0253 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BoundedPowersOrExistsValuationSubringDvdStatement` | wave-reused |
-| M067033 | P1151 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BreuilKisinApproxRootImageIndep` | wave-reused |
-| M067037 | P1281 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BreuilKisinBasisOfEtaleInvariantBoundedPoles` | wave-reused |
-| M067038 | P1307 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BreuilKisinBasisOfEtaleInvariantBoundedPolesStatement` | wave-reused |
-| M067041 | P1151 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BreuilKisinBetaBoundedDenominators` | wave-reused |

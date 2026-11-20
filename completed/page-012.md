@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M050918 | P1005 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SqNormSmoothSectionSubGluedLeStatement` | wave-reused |
+| M050920 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SqScalarCharacterOfDoubleCoverUnitaryStatement` | volunteer-build-reviewed |
+| M051005 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SquareZeroDeformationFactorsThroughLinearStatement` | volunteer-build-reviewed |
+| M051026 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StProfileHolds` | volunteer-build-reviewed |
+| M051079 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StabilizerRelIndexNeZeroParabolicStatement` | volunteer-build-reviewed |
+| M051086 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StableComplementOfKernelExistsStatement` | volunteer-build-reviewed |
+| M051131 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StalkMapFlatFormallyEtaleEssFiniteTypeOfEtaleResStatement` | volunteer-build-reviewed |
+| M051177 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardEtaleMvPolynomialHypersurfaceStatement` | volunteer-build-reviewed |
+| M051254 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.Statement` | volunteer-build-reviewed |
 | M051271 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SteinitzPiIdealsLinearEquivOfClassGroupProd` | volunteer-build-reviewed |
 | M051295 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StereographicMeasureChange` | volunteer-build-reviewed |
 | M051302 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StoneWeierstrassFiniteRepStatement` | volunteer-build-reviewed |
@@ -9,6 +18,7 @@
 | M051317 | P0787 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrictlyHenselianIff` | wave-reused |
 | M051319 | P0868 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrictlyHenselianLocalRingAcyclicEverySheaf` | wave-reused |
 | M051320 | P0895 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrictlyHenselianLocalRingAcyclicEverySheafStatement` | wave-reused |
+| M051372 | P0022 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubNatCompSubIncl` | volunteer-build-reviewed |
 | M051392 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubharmonicLogConvexityQuotient` | volunteer-build-reviewed |
 | M051401 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubmoduleFgOfLocallyLeFgStatement` | volunteer-build-reviewed |
 | M051420 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubsingletonEtaleHypercohomologyOfRetract` | wave-reused |
@@ -116,6 +126,7 @@
 | M054488 | P0249 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedHarishChandraInductionGLIsTwistedClassFunStatement` | wave-reused |
 | M054578 | P0709 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedRestrictedCharacterInIsotypicPart` | wave-reused |
 | M054579 | P0734 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedRestrictedCharacterInIsotypicPartStatement` | wave-reused |
+| M054604 | P0023 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedTraceEquivariantAndInjectiveOfGroupDet` | volunteer-build-reviewed |
 | M054607 | P0761 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedTransport` | wave-reused |
 | M054609 | P0923 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedVirtualCharacterNormOneSupport` | wave-reused |
 | M054610 | P0951 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedVirtualCharacterNormOneSupportStatement` | wave-reused |
@@ -391,14 +402,3 @@
 | M058450 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesComplementUnitaryActsOnTermsStatement` | wave-reused |
 | M058451 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesComplementUnitaryNormalisesStabil` | wave-reused |
 | M058452 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesComplementUnitaryNormalisesStabilStatement` | wave-reused |
-| M058453 | P0787 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesDefectOrderShareLe` | wave-reused |
-| M058454 | P0814 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesDefectOrderShareLeStatement` | wave-reused |
-| M058455 | P0896 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesFirstTypeAmpSqBound` | wave-reused |
-| M058456 | P0924 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesFirstTypeAmpSqBoundStatement` | wave-reused |
-| M058457 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesPairingStabilizerBlockDiagonal` | wave-reused |
-| M058458 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesPairingStabilizerBlockDiagonalStatement` | wave-reused |
-| M058459 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesReferenceSubgroupsRelIndexEq` | wave-reused |
-| M058460 | P0683 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesReferenceSubgroupsRelIndexEqStatement` | wave-reused |
-| M058461 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesStabilizerActsOnTerms` | wave-reused |
-| M058462 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesStabilizerActsOnTermsStatement` | wave-reused |
-| M058474 | P0814 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianLatticeMassEqFinprodLocal` | wave-reused |

@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M071318 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralClosureFgFiniteEtaleDvr` | volunteer-build-reviewed |
+| M071328 | P1176 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralElementsUnitFactorization` | wave-reused |
+| M071329 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralElementsUnitFactorizationStatement` | wave-reused |
+| M071347 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralGLSetIsOpenAndIsCompact` | volunteer-build-reviewed |
+| M071362 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralPsiKOverScaledIntegersEqVolumeIndicator` | volunteer-build-reviewed |
+| M071375 | P0984 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralWittElementOfEvaluation` | wave-reused |
+| M071376 | P1011 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralWittElementOfEvaluationStatement` | wave-reused |
+| M071392 | P1404 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InvariantEtaleBasisChangeByOEUnit` | wave-reused |
+| M071393 | P1428 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InvariantEtaleBasisChangeByOEUnitStatement` | wave-reused |
+| M071398 | P1226 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InvariantPhiSolutionMemOE` | wave-reused |
+| M071399 | P1255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InvariantPhiSolutionMemOEStatement` | wave-reused |
+| M071413 | P0984 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InvertibleIdealEqOfNotLeMaximalMul` | wave-reused |
+| M071414 | P1011 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InvertibleIdealEqOfNotLeMaximalMulStatement` | wave-reused |
+| M071415 | P0984 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InvertibleIdealPrincipalOnZariskiCover` | wave-reused |
 | M071416 | P1011 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InvertibleIdealPrincipalOnZariskiCoverStatement` | wave-reused |
 | M071420 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InvolutionResiduePowAndRootsOfUnityStatement` | volunteer-build-reviewed |
 | M071433 | P1096 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IrreducibleMapUnramifiedWittToFractionFieldOfEis` | wave-reused |
@@ -78,6 +92,7 @@
 | M071899 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JacquetRallisTransferFactorLinearDescentPointOneStatement` | volunteer-build-reviewed |
 | M071905 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JacquetRallisUnitMatchSizeOneStatement` | volunteer-build-reviewed |
 | M071951 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.KerLEqTraceDotProductOfIsIsomStatement` | volunteer-build-reviewed |
+| M071970 | P0032 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.KroneckerTransposeMulVec` | volunteer-build-reviewed |
 | M071996 | P1176 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LadicDescentStepToOE` | wave-reused |
 | M071997 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LadicDescentStepToOEStatement` | wave-reused |
 | M072036 | P1405 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LatticeApproximationMittagLeffler` | wave-reused |
@@ -387,18 +402,3 @@
 | M075500 | P0791 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisLogTeichmullerUniqueGaloisFrobeniusBdRStatement` | wave-reused |
 | M075501 | P0622 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisMembershipSpanIff` | wave-reused |
 | M075502 | P0654 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisMembershipSpanIffStatement` | wave-reused |
-| M075503 | P0711 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisToBdRPlusInjective` | wave-reused |
-| M075504 | P0737 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisToBdRPlusInjectiveStatement` | wave-reused |
-| M075510 | P0485 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ActsBySameInteger` | volunteer-build-reviewed |
-| M075617 | P0556 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AinfIsDomainAndAinfInvPInjective` | wave-reused |
-| M075618 | P0589 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AinfIsDomainAndAinfInvPInjectiveStatement` | wave-reused |
-| M075629 | P0654 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AlgebraMapAinfInvPrimeBdRPlusInjective` | wave-reused |
-| M075630 | P0685 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AlgebraMapAinfInvPrimeBdRPlusInjectiveStatement` | wave-reused |
-| M075632 | P0034 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AlgebraMapNormCoeff` | volunteer-build-reviewed |
-| M075817 | P0929 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BcrisEqAcrisLocalizationPeriodT` | wave-reused |
-| M075818 | P0957 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BcrisEqAcrisLocalizationPeriodTStatement` | wave-reused |
-| M075825 | P0654 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BdRPlusFiltrationEqFontaineXiPow` | wave-reused |
-| M075826 | P0685 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BdRPlusFiltrationEqFontaineXiPowStatement` | wave-reused |
-| M075827 | P0711 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BdRPlusIsDomainBdRIsField` | wave-reused |
-| M075828 | P0737 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BdRPlusIsDomainBdRIsFieldStatement` | wave-reused |
-| M075829 | P0622 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.BdRPlusSimpleRootsSectionUniqueEquivariant` | wave-reused |

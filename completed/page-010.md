@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M038938 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSSecGlueSectionByPartitionOfHolo` | wave-reused |
+| M038939 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSSecGlueSectionByPartitionOfHoloStatement` | wave-reused |
+| M038944 | P1088 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSectionHolomorphicMulFrameExtendByZero` | wave-reused |
+| M038945 | P1118 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSectionHolomorphicMulFrameExtendByZeroStatement` | wave-reused |
+| M038969 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSepClosedResidueFieldOfModuleFinite` | wave-reused |
+| M038983 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSiegelUpperHalfSpaceNegMulInvSymplecticStatement` | volunteer-build-reviewed |
+| M039028 | P0109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsStrictHenselisationOfDirectedUnion` | wave-reused |
 | M039067 | P0734 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTateTwistResolutionTensorFlat` | wave-reused |
 | M039068 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTateTwistResolutionTensorFlatStatement` | wave-reused |
 | M039069 | P0813 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTauOfUpperHalfPlaneLatticeSmulSL2Z` | wave-reused |
@@ -30,6 +37,7 @@
 | M039736 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KerMapSubsetImMap` | wave-reused |
 | M039832 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KeyOriginRetractionLocalises` | wave-reused |
 | M039833 | P0398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KeyOriginRetractionLocalisesStatement` | wave-reused |
+| M039977 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KrylovApply` | volunteer-build-reviewed |
 | M039981 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KummerAevalValuationDvr` | wave-reused |
 | M039982 | P0109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KummerAevalValuationDvrStatement` | wave-reused |
 | M039987 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KummerBoundaryLineBundleFirstChernClass` | wave-reused |
@@ -347,6 +355,7 @@
 | M045713 | P0112 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PermutedModularFamilySumEsymmSlashInvariant` | wave-reused |
 | M045734 | P0112 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PiEigenSublatticeFreeEqDifferentScaled` | wave-reused |
 | M045735 | P0184 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PiEigenSublatticeFreeEqDifferentScaledStatement` | wave-reused |
+| M045748 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PicEqOneOfForallPrimeMaximal` | volunteer-build-reviewed |
 | M045753 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PicFaithfullyFlatDescentUnitCocycles` | wave-reused |
 | M045754 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PicFaithfullyFlatDescentUnitCocyclesStatement` | wave-reused |
 | M045760 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PicPiIsOfFinOrder` | wave-reused |
@@ -393,12 +402,3 @@
 | M046624 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdArgRealUnitEqOne` | volunteer-build-reviewed |
 | M046626 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdClassGroupMk0EqOfLinearEquivPi` | volunteer-build-reviewed |
 | M046649 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdFourMapsEqOne` | volunteer-build-reviewed |
-| M046653 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdHomeoSymmApplySnd` | volunteer-build-reviewed |
-| M046656 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdIoiSubEqAntisymmMonomial` | volunteer-build-reviewed |
-| M046669 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdOfFnEqSingle` | volunteer-build-reviewed |
-| M046670 | P0301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdRootPowerSumMapGaloisEq` | wave-reused |
-| M046671 | P0352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdRootPowerSumMapGaloisEqStatement` | wave-reused |
-| M046672 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdRpowDecayIsBigOCocompact` | volunteer-build-reviewed |
-| M046674 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdSubConjEqZero` | wave-reused |
-| M046677 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdZpowAdd` | volunteer-build-reviewed |
-| M046678 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdZpowMul` | volunteer-build-reviewed |

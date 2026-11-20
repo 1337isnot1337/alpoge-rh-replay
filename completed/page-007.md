@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M018261 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstEqZeroOfDegreeLtStatement` | wave-reused |
+| M018262 | P0892 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstLeadingOfAgreeDegreeOne` | wave-reused |
+| M018263 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstLeadingOfAgreeDegreeOneStatement` | wave-reused |
 | M018264 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstMapToFractionsMemSubmodule` | wave-reused |
 | M018265 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstMapToFractionsMemSubmoduleStatement` | wave-reused |
 | M018268 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSumElimPowerSeriesSwapVariableGroups` | wave-reused |
@@ -399,6 +402,3 @@
 | M024072 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleOfMapToDegreeOneTerm` | wave-reused |
 | M024073 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleOfMapToDegreeOneTermStatement` | wave-reused |
 | M024101 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoinducedSheafInjectiveResolutionFreeExact` | wave-reused |
-| M024102 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoinducedSheafInjectiveResolutionFreeExactStatement` | wave-reused |
-| M024103 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsColReduced` | wave-reused |
-| M024127 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCommonDenominatorOfValuationLeCofiniteStatement` | volunteer-build-reviewed |

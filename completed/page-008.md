@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M024102 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoinducedSheafInjectiveResolutionFreeExactStatement` | wave-reused |
+| M024103 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsColReduced` | wave-reused |
+| M024127 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCommonDenominatorOfValuationLeCofiniteStatement` | volunteer-build-reviewed |
 | M024238 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCompatibleSymplecticStatement` | volunteer-build-reviewed |
 | M024293 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCompletionEmbedding` | volunteer-build-reviewed |
 | M024318 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsComponentSurjectsClopenStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M031324 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteLengthCokerOfEtalePuncturedSpectrum` | wave-reused |
 | M031325 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteLengthCokerOfEtalePuncturedSpectrumStatement` | wave-reused |
 | M031513 | P0298 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteTypeIntHomFilteredColimit` | wave-reused |
-| M031552 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankAddValuationIntegerSubmoduleEqFinrankSpan` | wave-reused |
-| M031553 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankAddValuationIntegerSubmoduleEqFinrankSpanStatement` | wave-reused |
-| M031571 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankDualAndRangeDualMapBaseChange` | wave-reused |

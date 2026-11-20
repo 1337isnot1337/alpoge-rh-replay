@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M061102 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffEisensteinSeriesTwistedQExpansionDoubleStatement` | wave-reused |
+| M061107 | P0709 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeTOperatorQExpansionSlashSum` | wave-reused |
+| M061108 | P0735 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeTOperatorQExpansionSlashSumStatement` | wave-reused |
+| M061109 | P0709 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeUOperatorLowersLevel` | wave-reused |
+| M061110 | P0735 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeUOperatorLowersLevelStatement` | wave-reused |
+| M061111 | P0586 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeUVCauchyProductIdentities` | wave-reused |
+| M061112 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeUVCauchyProductIdentitiesStatement` | wave-reused |
+| M061113 | P0586 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeVOperatorPolynomialGrowthQExpansion` | wave-reused |
+| M061114 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeVOperatorPolynomialGrowthQExpansionStatement` | wave-reused |
+| M061115 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeVOperatorRaisesLevel` | wave-reused |
+| M061116 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeVOperatorRaisesLevelStatement` | wave-reused |
 | M061117 | P0444 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffMemRangeOfIsRoot` | wave-reused |
 | M061118 | P0482 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffMemRangeOfIsRootStatement` | wave-reused |
 | M061146 | P0304 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CompletedLaurentIsDVRStatement` | wave-reused |
@@ -391,14 +402,3 @@
 | M063154 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionRingOverIsDomain` | wave-reused |
 | M063155 | P0621 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionRingOverIsDomainStatement` | wave-reused |
 | M063160 | P0188 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularLawOfSAndT` | wave-reused |
-| M063161 | P0251 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularLawOfSAndTStatement` | wave-reused |
-| M063166 | P0305 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularTowerFunctionSlTwoIntInvariant` | wave-reused |
-| M063167 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularTowerFunctionSlTwoIntInvariantStatement` | wave-reused |
-| M063168 | P0305 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularTowerFunctionTendstoConstTermExponential` | wave-reused |
-| M063169 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularTowerFunctionTendstoConstTermExponentialStatement` | wave-reused |
-| M063170 | P0483 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularTowerMemAdjoinJOfSlTwoIntInvariant` | wave-reused |
-| M063171 | P0522 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularTowerMemAdjoinJOfSlTwoIntInvariantStatement` | wave-reused |
-| M063177 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MonicRootNormLeOneAddSum` | wave-reused |
-| M063178 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MonicRootNormLeOneAddSumStatement` | wave-reused |
-| M063181 | P0305 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MonomialEqOfUpperUnipotentDoubleCoset` | wave-reused |
-| M063182 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MonomialEqOfUpperUnipotentDoubleCosetStatement` | wave-reused |

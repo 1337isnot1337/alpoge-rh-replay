@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M031552 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankAddValuationIntegerSubmoduleEqFinrankSpan` | wave-reused |
+| M031553 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankAddValuationIntegerSubmoduleEqFinrankSpanStatement` | wave-reused |
+| M031571 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankDualAndRangeDualMapBaseChange` | wave-reused |
 | M031741 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumFiberwiseOfFiniteSupportComplex` | volunteer-build-reviewed |
 | M031773 | P0681 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumSemidirectCosetCharacterOrthZero` | wave-reused |
 | M031774 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumSemidirectCosetCharacterOrthZeroStatement` | wave-reused |
@@ -84,6 +87,8 @@
 | M033395 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisTwistedNormGLBasicPropertiesStatement` | wave-reused |
 | M033396 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisTwistedNormGLDiagonalBlocks` | wave-reused |
 | M033397 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisTwistedNormGLDiagonalBlocksStatement` | wave-reused |
+| M033442 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaussSumNondegenerateFiniteHermitianModule` | volunteer-build-reviewed |
+| M033443 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaussSumNondegenerateFiniteHermitianModuleStatement` | volunteer-build-reviewed |
 | M033492 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenFibMapAlgebraMap` | wave-reused |
 | M033507 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeneralLinearGroupDetMapFinOne` | wave-reused |
 | M033559 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericFibreBaseChangeInjective` | wave-reused |
@@ -290,6 +295,7 @@
 | M037531 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IrreducibleSpacePullbackAffineOpenOfIsDomainTensStatement` | volunteer-build-reviewed |
 | M037532 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IrreducibleSpacePullbackFieldOfIrreducibleCover` | volunteer-build-reviewed |
 | M037533 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IrreducibleSpacePullbackFieldOfIrreducibleCoverStatement` | volunteer-build-reviewed |
+| M037536 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IrreducibleXSqAddOne` | volunteer-build-reviewed |
 | M037578 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAdicCompleteOfLeMaximalIdeal` | volunteer-build-reviewed |
 | M037579 | P0245 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAdicCompleteOfLeMaximalIdealStatement` | wave-reused |
 | M037580 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAdicCompleteOfLeOfIsNoetherianRing` | wave-reused |
@@ -336,6 +342,7 @@
 | M038080 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFractionRingTensorOfFractionFieldsStatement` | volunteer-build-reviewed |
 | M038100 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFullRankLatticeImageStandardLatticeGL` | volunteer-build-reviewed |
 | M038101 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFullRankLatticeImageStandardLatticeGLStatement` | volunteer-build-reviewed |
+| M038164 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsHilbRep` | volunteer-build-reviewed |
 | M038167 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsHilbertSchemeRepresentableOfIso` | volunteer-build-reviewed |
 | M038168 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsHilbertSchemeRepresentableOfIsoStatement` | volunteer-build-reviewed |
 | M038203 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsInCharacterIsotypicPartTwistedInduction` | volunteer-build-reviewed |
@@ -395,10 +402,3 @@
 | M038934 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSMulRegularOfEtalePuncturedOfDepthPosDomainStatement` | volunteer-build-reviewed |
 | M038935 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSMulRegularOfEtalePuncturedOfDepthPosStatement` | volunteer-build-reviewed |
 | M038937 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSNCAtlasOfIsEmpty` | volunteer-build-reviewed |
-| M038938 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSSecGlueSectionByPartitionOfHolo` | wave-reused |
-| M038939 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSSecGlueSectionByPartitionOfHoloStatement` | wave-reused |
-| M038944 | P1088 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSectionHolomorphicMulFrameExtendByZero` | wave-reused |
-| M038945 | P1118 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSectionHolomorphicMulFrameExtendByZeroStatement` | wave-reused |
-| M038969 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSepClosedResidueFieldOfModuleFinite` | wave-reused |
-| M038983 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSiegelUpperHalfSpaceNegMulInvSymplecticStatement` | volunteer-build-reviewed |
-| M039028 | P0109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsStrictHenselisationOfDirectedUnion` | wave-reused |

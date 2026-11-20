@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M058453 | P0787 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesDefectOrderShareLe` | wave-reused |
+| M058454 | P0814 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesDefectOrderShareLeStatement` | wave-reused |
+| M058455 | P0896 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesFirstTypeAmpSqBound` | wave-reused |
+| M058456 | P0924 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesFirstTypeAmpSqBoundStatement` | wave-reused |
+| M058457 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesPairingStabilizerBlockDiagonal` | wave-reused |
+| M058458 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesPairingStabilizerBlockDiagonalStatement` | wave-reused |
+| M058459 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesReferenceSubgroupsRelIndexEq` | wave-reused |
+| M058460 | P0683 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesReferenceSubgroupsRelIndexEqStatement` | wave-reused |
+| M058461 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesStabilizerActsOnTerms` | wave-reused |
+| M058462 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesStabilizerActsOnTermsStatement` | wave-reused |
+| M058474 | P0814 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianLatticeMassEqFinprodLocal` | wave-reused |
 | M058475 | P0843 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianLatticeMassEqFinprodLocalStatement` | wave-reused |
 | M058478 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianLocalCharacterSum` | wave-reused |
 | M058479 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianLocalCharacterSumStatement` | wave-reused |
@@ -391,14 +402,3 @@
 | M061099 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffEisensteinSeriesTwistedHeckeUHeckeV` | wave-reused |
 | M061100 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffEisensteinSeriesTwistedHeckeUHeckeVStatement` | wave-reused |
 | M061101 | P0586 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffEisensteinSeriesTwistedQExpansionDouble` | wave-reused |
-| M061102 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffEisensteinSeriesTwistedQExpansionDoubleStatement` | wave-reused |
-| M061107 | P0709 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeTOperatorQExpansionSlashSum` | wave-reused |
-| M061108 | P0735 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeTOperatorQExpansionSlashSumStatement` | wave-reused |
-| M061109 | P0709 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeUOperatorLowersLevel` | wave-reused |
-| M061110 | P0735 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeUOperatorLowersLevelStatement` | wave-reused |
-| M061111 | P0586 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeUVCauchyProductIdentities` | wave-reused |
-| M061112 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeUVCauchyProductIdentitiesStatement` | wave-reused |
-| M061113 | P0586 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeVOperatorPolynomialGrowthQExpansion` | wave-reused |
-| M061114 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeVOperatorPolynomialGrowthQExpansionStatement` | wave-reused |
-| M061115 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeVOperatorRaisesLevel` | wave-reused |
-| M061116 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeVOperatorRaisesLevelStatement` | wave-reused |

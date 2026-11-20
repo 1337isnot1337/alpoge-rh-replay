@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M084038 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsHaarOnIffGroupsUnitaryUnipotentStatement` | volunteer-build-reviewed |
+| M084047 | P0766 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsReducedTorsionGeometricFibre` | volunteer-build-reviewed |
+| M084070 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.KFiniteDerivativesFiniteSpan` | volunteer-build-reviewed |
+| M084075 | P0930 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.KerJetAugEqSpanTorusUnionQuotient` | wave-reused |
+| M084087 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.LenEqOfUnitriangular` | wave-reused |
+| M084092 | P0524 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.LevSubspaceMono` | wave-reused |
+| M084133 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.LintegralInvEqOfBiInvariantMatGroupStatement` | volunteer-build-reviewed |
+| M084136 | P0361 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.LowKSubSingleSqrtCkvLe` | wave-reused |
+| M084137 | P0407 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.LowKSubSingleSqrtCkvLeStatement` | wave-reused |
+| M084138 | P0848 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.LoweringBound` | wave-reused |
+| M084139 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.MapDofIterate` | volunteer-build-reviewed |
+| M084144 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.MatGroupHaarUniqueFiniteCompactOpenPosStatement` | volunteer-build-reviewed |
+| M084149 | P0930 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.MemBasicOpenOfIsUnit` | wave-reused |
+| M084158 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.MinorsDisjointColumnsHarmonic` | volunteer-build-reviewed |
+| M084175 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.MultiplicativeShiftEqTranslateBySmallPoint` | volunteer-build-reviewed |
 | M084184 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.MvPowerSeriesConvergentSubstIsRingHomOnBounded` | volunteer-build-reviewed |
 | M084193 | P0486 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.NabValColumnsCongr` | wave-reused |
 | M084194 | P0448 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.NabValPullbackMonomial` | wave-reused |
@@ -387,18 +402,3 @@
 | M086019 | P1179 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SymmetricBundleTrivialConstantFamilyDualNumber` | wave-reused |
 | M086020 | P1204 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SymmetricBundleTrivialConstantFamilyDualNumberStatement` | wave-reused |
 | M086022 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SymmetricLiftTorsionPointActionOnThetaStatement` | volunteer-build-reviewed |
-| M086030 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SymplecticDatumTorsionLevelStatement` | volunteer-build-reviewed |
-| M086032 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SymplecticFormBasisChangeStatement` | volunteer-build-reviewed |
-| M086036 | P1383 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.TangentInjectsSymmetricAntilinearCommuting` | wave-reused |
-| M086037 | P1407 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.TangentInjectsSymmetricAntilinearCommutingStatement` | wave-reused |
-| M086056 | P0256 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaCocyclePeriodicNonvanishingSections` | volunteer-build-reviewed |
-| M086057 | P0310 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaCocyclePeriodicNonvanishingSectionsStatement` | wave-reused |
-| M086061 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaConstantsUniqueUpToUnitStatement` | volunteer-build-reviewed |
-| M086063 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaCosetNonvanishingOfHasThStatement` | volunteer-build-reviewed |
-| M086073 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaIdealPrimeAvoidingVariable` | volunteer-build-reviewed |
-| M086075 | P1155 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaLevelAbelianSchemeConstOverDualNumbers` | wave-reused |
-| M086085 | P1101 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaLevelPullbackIdCompCancel` | wave-reused |
-| M086086 | P1129 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaLevelPullbackIdCompCancelStatement` | wave-reused |
-| M086091 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaObjectComparisonMapsCocycle` | volunteer-build-reviewed |
-| M086093 | P1258 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaObjectConstantFamilyDualNumbersIsPullback` | wave-reused |
-| M086094 | P1285 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ThetaObjectConstantFamilyDualNumbersIsPullbackStatement` | wave-reused |

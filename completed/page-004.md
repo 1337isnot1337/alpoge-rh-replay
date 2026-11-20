@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005850 | P0550 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsSupUnitsLocalNormsSqrtNeTop` | wave-reused |
+| M005851 | P0583 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsSupUnitsLocalNormsSqrtNeTopStatement` | wave-reused |
 | M005852 | P0583 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsUnionSupLocalSquaresEqTop` | wave-reused |
 | M005880 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SubgroupPowImageUnitsCongruentOneModOfIsAdicComp` | wave-reused |
 | M005881 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SubgroupPowImageUnitsCongruentOneModOfIsAdicCompStatement` | wave-reused |
@@ -400,5 +402,3 @@
 | M006436 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FiniteAndNcardSetOfSubmoduleLeRelIndexEqLe` | wave-reused |
 | M006437 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FiniteInterClosedBallOfSeparated` | volunteer-build-reviewed |
 | M006438 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FinrankMulDiscrRpowLeSumSqOfMemTraceDual` | wave-reused |
-| M006439 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FormalExpMulFormalExpNeg` | wave-reused |
-| M006440 | P0177 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FormalLogEqSumOfMultiplicativeParam` | wave-reused |

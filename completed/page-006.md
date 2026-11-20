@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013544 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HasTorusWeightIffTorusEquivariant` | volunteer-build-reviewed |
+| M013547 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HasWtZero` | volunteer-build-reviewed |
 | M013552 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HomDescendsToSubfieldContainingFinsetStatement` | volunteer-build-reviewed |
 | M013555 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HomGenericPoint` | volunteer-build-reviewed |
 | M013566 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ImmByOfSpans` | wave-reused |
@@ -263,6 +265,7 @@
 | M016001 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AugmentedExactIff` | wave-reused |
 | M016002 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AugmentedExactIffStatement` | wave-reused |
 | M016016 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AutomorphicFormGLContinuous` | volunteer-build-reviewed |
+| M016067 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AwayHomCompAlgebraMap` | volunteer-build-reviewed |
 | M016116 | P0918 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BallExistsEtaleSteinExhaustion` | wave-reused |
 | M016117 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BallExistsEtaleSteinExhaustionStatement` | wave-reused |
 | M016130 | P0476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeCechNerveAugmentationIso` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M018253 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowSecondAddThirdThreeGroups` | wave-reused |
 | M018254 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowSecondAddThirdThreeGroupsStatement` | wave-reused |
 | M018260 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstEqZeroOfDegreeLt` | wave-reused |
-| M018261 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstEqZeroOfDegreeLtStatement` | wave-reused |
-| M018262 | P0892 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstLeadingOfAgreeDegreeOne` | wave-reused |
-| M018263 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstLeadingOfAgreeDegreeOneStatement` | wave-reused |
