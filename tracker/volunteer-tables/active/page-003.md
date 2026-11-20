@@ -191,7 +191,6 @@
 | [@WilmervH](https://github.com/WilmervH) | [P1591](https://github.com/rohanarun/alpoge-rh-replay/issues/3208) | Claimed |
 | [@WilmervH](https://github.com/WilmervH) | [P1610](https://github.com/rohanarun/alpoge-rh-replay/issues/3280) | Claimed |
 | [@SeriousRising](https://github.com/SeriousRising) | [P1750](https://github.com/rohanarun/alpoge-rh-replay/issues/3442) | Claimed |
-| [@WorldianAI](https://github.com/WorldianAI) | [M080123](https://github.com/rohanarun/alpoge-rh-replay/issues/3657) | Claimed |
 | [@sat3n](https://github.com/sat3n) | [P1580](https://github.com/rohanarun/alpoge-rh-replay/issues/3785) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M062329](https://github.com/rohanarun/alpoge-rh-replay/issues/3837) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M107778](https://github.com/rohanarun/alpoge-rh-replay/issues/3839) | Claimed |
@@ -254,3 +253,4 @@
 | [@rohanarun](https://github.com/rohanarun) | [M006528](https://github.com/rohanarun/alpoge-rh-replay/issues/4045) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M091232](https://github.com/rohanarun/alpoge-rh-replay/issues/4047) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M087985](https://github.com/rohanarun/alpoge-rh-replay/issues/4049) | Claimed |
+| [@rohanarun](https://github.com/rohanarun) | [M085590](https://github.com/rohanarun/alpoge-rh-replay/issues/4051) | Claimed |
