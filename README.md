@@ -35,30 +35,30 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- active-volunteers-start -->
 
-[863 entries. View the full table](tracker/volunteer-tables/active/README.md).
+[878 entries. View the full table](tracker/volunteer-tables/active/README.md).
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115466](https://github.com/rohanarun/alpoge-rh-replay/issues/4722) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M025435](https://github.com/rohanarun/alpoge-rh-replay/issues/4724) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M063198](https://github.com/rohanarun/alpoge-rh-replay/issues/4728) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M149631](https://github.com/rohanarun/alpoge-rh-replay/issues/4729) | Claimed |
-| [@whitegrave1917-web](https://github.com/whitegrave1917-web) | [M014782](https://github.com/rohanarun/alpoge-rh-replay/issues/4731) | Claimed |
-| [@agi-for-my-llama](https://github.com/agi-for-my-llama) | [P1661](https://github.com/rohanarun/alpoge-rh-replay/issues/4732) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M003461](https://github.com/rohanarun/alpoge-rh-replay/issues/4741) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M038998](https://github.com/rohanarun/alpoge-rh-replay/issues/4754) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M104548](https://github.com/rohanarun/alpoge-rh-replay/issues/4761) | Claimed |
-| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P1724](https://github.com/rohanarun/alpoge-rh-replay/issues/4762) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M063254](https://github.com/rohanarun/alpoge-rh-replay/issues/4764) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M072243](https://github.com/rohanarun/alpoge-rh-replay/issues/4765) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M143368](https://github.com/rohanarun/alpoge-rh-replay/issues/4767) | Claimed |
-| [@SeriousRising](https://github.com/SeriousRising) | [P1741](https://github.com/rohanarun/alpoge-rh-replay/issues/4775) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M072012](https://github.com/rohanarun/alpoge-rh-replay/issues/4788) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115139](https://github.com/rohanarun/alpoge-rh-replay/issues/4791) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M162630](https://github.com/rohanarun/alpoge-rh-replay/issues/4794) | Claimed |
-| [@rayy3535](https://github.com/rayy3535) | [M075416](https://github.com/rohanarun/alpoge-rh-replay/issues/4796) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M071611](https://github.com/rohanarun/alpoge-rh-replay/issues/4797) | Claimed |
-| [@agi-for-my-llama](https://github.com/agi-for-my-llama) | [M072658](https://github.com/rohanarun/alpoge-rh-replay/issues/4808) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M012775](https://github.com/rohanarun/alpoge-rh-replay/issues/4821) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M091819](https://github.com/rohanarun/alpoge-rh-replay/issues/4822) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M109997](https://github.com/rohanarun/alpoge-rh-replay/issues/4823) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M084477](https://github.com/rohanarun/alpoge-rh-replay/issues/4824) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M115000](https://github.com/rohanarun/alpoge-rh-replay/issues/4826) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M057937](https://github.com/rohanarun/alpoge-rh-replay/issues/4827) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M091039](https://github.com/rohanarun/alpoge-rh-replay/issues/4828) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M078199](https://github.com/rohanarun/alpoge-rh-replay/issues/4830) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M168741](https://github.com/rohanarun/alpoge-rh-replay/issues/4831) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M038709](https://github.com/rohanarun/alpoge-rh-replay/issues/4832) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M115228](https://github.com/rohanarun/alpoge-rh-replay/issues/4833) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M101260](https://github.com/rohanarun/alpoge-rh-replay/issues/4834) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M084283](https://github.com/rohanarun/alpoge-rh-replay/issues/4835) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M033446](https://github.com/rohanarun/alpoge-rh-replay/issues/4838) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M110248](https://github.com/rohanarun/alpoge-rh-replay/issues/4839) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M037371](https://github.com/rohanarun/alpoge-rh-replay/issues/4841) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M092769](https://github.com/rohanarun/alpoge-rh-replay/issues/4842) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M065534](https://github.com/rohanarun/alpoge-rh-replay/issues/4843) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M091084](https://github.com/rohanarun/alpoge-rh-replay/issues/4846) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M031770](https://github.com/rohanarun/alpoge-rh-replay/issues/4847) | Claimed |
 
 <!-- active-volunteers-end -->
 
@@ -69,16 +69,10 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- pending-volunteers-start -->
 
-[677 entries. View the full table](tracker/volunteer-tables/pending/README.md).
+[692 entries. View the full table](tracker/volunteer-tables/pending/README.md).
 
 | Contributor | Task | Review |
 |---|---|---|
-| [@agi-for-my-llama](https://github.com/agi-for-my-llama) | [M173727](https://github.com/rohanarun/alpoge-rh-replay/issues/4784#issuecomment-7052312927) | Pending review |
-| [@agi-for-my-llama](https://github.com/agi-for-my-llama) | [M120045](https://github.com/rohanarun/alpoge-rh-replay/issues/4785#issuecomment-7052312645) | Pending review |
-| [@jjjhenriksen](https://github.com/jjjhenriksen) | [M163913](https://github.com/rohanarun/alpoge-rh-replay/issues/4786#issuecomment-7052300517) | Pending review |
-| [@ANdATIon](https://github.com/ANdATIon) | [M115045](https://github.com/rohanarun/alpoge-rh-replay/issues/4787#issuecomment-7052309059) | Pending review |
-| [@ANdATIon](https://github.com/ANdATIon) | [M115124](https://github.com/rohanarun/alpoge-rh-replay/issues/4789#issuecomment-7052311735) | Pending review |
-| [@agi-for-my-llama](https://github.com/agi-for-my-llama) | [M103670](https://github.com/rohanarun/alpoge-rh-replay/issues/4790#issuecomment-7052307981) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M083069](https://github.com/rohanarun/alpoge-rh-replay/issues/4795#issuecomment-7052312619) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M026344](https://github.com/rohanarun/alpoge-rh-replay/issues/4799#issuecomment-7052306553) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M022454](https://github.com/rohanarun/alpoge-rh-replay/issues/4801#issuecomment-7052321170) | Pending review |
@@ -93,6 +87,12 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 | [@agi-for-my-llama](https://github.com/agi-for-my-llama) | [M036824](https://github.com/rohanarun/alpoge-rh-replay/issues/4812#issuecomment-7052335750) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M092479](https://github.com/rohanarun/alpoge-rh-replay/issues/4814#issuecomment-7052323493) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M000561](https://github.com/rohanarun/alpoge-rh-replay/issues/4815#issuecomment-7052323638) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M038222](https://github.com/rohanarun/alpoge-rh-replay/issues/4818#issuecomment-7052330122) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M104587](https://github.com/rohanarun/alpoge-rh-replay/issues/4825#issuecomment-7052346683) | Pending review |
+| [@zediir](https://github.com/zediir) | [M004152](https://github.com/rohanarun/alpoge-rh-replay/issues/4836#issuecomment-7052347722) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M115211](https://github.com/rohanarun/alpoge-rh-replay/issues/4840#issuecomment-7052348653) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M001374](https://github.com/rohanarun/alpoge-rh-replay/issues/4844#issuecomment-7052353974) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M114966](https://github.com/rohanarun/alpoge-rh-replay/issues/4845#issuecomment-7052350082) | Pending review |
 
 <!-- pending-volunteers-end -->
 
