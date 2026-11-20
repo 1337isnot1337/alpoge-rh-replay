@@ -3,7 +3,7 @@
 from collections import Counter
 from pathlib import Path
 from shutil import which
-import argparse,datetime,gzip,hashlib,json,os,re,subprocess,sys,tarfile,urllib.request
+import argparse,datetime,gzip,hashlib,json,os,re,subprocess,sys,tarfile,time,urllib.request
 base=Path(__file__).resolve().parent
 repo='rohanarun/alpoge-rh-replay'
 def digest(path):
@@ -11,6 +11,25 @@ def digest(path):
  with path.open('rb') as f:
   for block in iter(lambda:f.read(1024*1024),b''):h.update(block)
  return h.hexdigest()
+BUILT=re.compile(r'^\S+\s+\[\d+/\d+\]\s+Built\s+([^\s:]+)')
+def rebuilt_imports(log_text,project,requested):
+ """Project modules other than the requested targets that this Lake invocation reports as built."""
+ log_text=re.sub(r'\x1b\[[0-9;]*m','',log_text)
+ built={m[1] for m in map(BUILT.match,log_text.splitlines()) if m}
+ return sorted(built.intersection(project)-set(requested))
+def host_resources():
+ """CPU count, total memory, and the peak resident set size of the largest finished child process."""
+ info={'cpu_count':os.cpu_count()}
+ try:
+  with open('/proc/meminfo') as f:
+   for line in f:
+    if line.startswith('MemTotal:'):info['mem_total_kib']=int(line.split()[1]);break
+ except OSError:pass
+ try:
+  import resource
+  info['peak_child_rss_kib']=resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss
+ except ImportError:pass
+ return info
 def load():
  with gzip.open(base/'modules.jsonl.gz','rt') as f:rows=[json.loads(s) for s in f]
  completed=base/'completed.tsv'
@@ -125,9 +144,12 @@ def run(targets,checkout,out,bundle,fast_bundle=False):
   if digest(project/'src'/(r['module'].replace('.','/')+'.lean'))!=r['source_sha256']:raise SystemExit('Source hash mismatch: '+r['module'])
  cmd=['lake','build',*['+'+r['module']+':olean' for r in targets]]
  log=output/'build.log'
- with log.open('wb') as f:result=subprocess.run([*launcher, *cmd],cwd=project,env=env,stdout=f,stderr=subprocess.STDOUT)
- receipt={'tasks':[r['id'] for r in targets],'ended_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'toolchain':version,'mathlib':mathlib,'inputs_manifest_sha256':digest(base.parent/'parts.sha256'),'command':cmd,'exit_code':result.returncode,'log_sha256':digest(log),'objects':{}}
  build=project/'.lake/build'
+ started=datetime.datetime.now(datetime.timezone.utc);clock=time.monotonic()
+ with log.open('wb') as f:result=subprocess.run([*launcher, *cmd],cwd=project,env=env,stdout=f,stderr=subprocess.STDOUT)
+ elapsed=round(time.monotonic()-clock,1)
+ rebuilt=rebuilt_imports(log.read_text(errors='replace'),{r['module'] for r in load()},{r['module'] for r in targets})
+ receipt={'tasks':[r['id'] for r in targets],'started_utc':started.isoformat(),'ended_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'elapsed_seconds':elapsed,'host':host_resources(),'toolchain':version,'mathlib':mathlib,'inputs_manifest_sha256':digest(base.parent/'parts.sha256'),'command':cmd,'exit_code':result.returncode,'log_sha256':digest(log),'rebuilt_project_modules':rebuilt,'objects':{}}
  if result.returncode==0:
   for r in targets:receipt['objects'][r['id']]=digest(build/'lib/lean'/(r['module'].replace('.','/')+'.olean'))
   if bundle or fast_bundle:
