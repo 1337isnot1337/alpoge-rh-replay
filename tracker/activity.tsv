@@ -202,8 +202,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:08:58Z	grant	215	Lv-00-ANI
 2026-11-20T18:09:00Z	grant	216	BenCaunt
 2026-11-20T18:09:01Z	grant	217	BenCaunt
-2026-11-20T18:09:01Z	grant	217	BenCaunt
-2026-11-20T18:09:02Z	grant	218	BenCaunt
 2026-11-20T18:09:02Z	grant	218	BenCaunt
 2026-11-20T18:09:03Z	grant	219	BenCaunt
 2026-11-20T18:09:05Z	grant	220	BenCaunt
@@ -213,6 +211,7 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:09:09Z	grant	224	BenCaunt
 2026-11-20T18:09:10Z	grant	225	BenCaunt
 2026-11-20T18:09:11Z	grant	226	BenCaunt
+2026-11-20T18:09:12Z	grant	227	BenCaunt
 2026-11-20T18:09:12Z	grant	227	BenCaunt
 2026-11-20T18:09:13Z	grant	228	BenCaunt
 2026-11-20T18:09:14Z	grant	229	BenCaunt
@@ -252,7 +251,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:11:43Z	grant	284	gabeldev
 2026-11-20T18:11:43Z	submission	216	BenCaunt
 2026-11-20T18:11:43Z	submission	218	BenCaunt
-2026-11-20T18:11:43Z	submission	218	BenCaunt
 2026-11-20T18:11:48Z	submission	239	user42245
 2026-11-20T18:11:53Z	submission	282	BenCaunt
 2026-11-20T18:11:57Z	grant	285	JanSimeonMetzger
@@ -264,7 +262,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:12:37Z	volunteer	288	unhingedpanda
 2026-11-20T18:12:49Z	grant	289	JanSimeonMetzger
 2026-11-20T18:12:53Z	submission	287	gabeldev
-2026-11-20T18:13:04Z	submission	217	BenCaunt
 2026-11-20T18:13:04Z	submission	217	BenCaunt
 2026-11-20T18:13:04Z	submission	219	BenCaunt
 2026-11-20T18:13:05Z	submission	220	BenCaunt
@@ -303,6 +300,7 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:16:48Z	submission	339	Wronskode
 2026-11-20T18:17:11Z	submission	229	BenCaunt
 2026-11-20T18:17:12Z	submission	227	BenCaunt
+2026-11-20T18:17:12Z	submission	227	BenCaunt
 2026-11-20T18:17:13Z	submission	228	BenCaunt
 2026-11-20T18:17:15Z	submission	275	Amahane-Hikari
 2026-11-20T18:17:17Z	submission	373	Amahane-Hikari
@@ -335,4 +333,15 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:19:38Z	submission	415	gabeldev
 2026-11-20T18:19:41Z	grant	424	Amahane-Hikari
 2026-11-20T18:19:51Z	submission	418	Amahane-Hikari
+2026-11-20T18:20:03Z	grant	425	Amahane-Hikari
+2026-11-20T18:20:04Z	grant	426	JanSimeonMetzger
 2026-11-20T18:20:04Z	submission	424	Amahane-Hikari
+2026-11-20T18:20:19Z	grant	427	gabeldev
+2026-11-20T18:20:19Z	grant	428	Wronskode
+2026-11-20T18:20:21Z	grant	429	BenCaunt
+2026-11-20T18:20:22Z	grant	430	BenCaunt
+2026-11-20T18:20:24Z	grant	431	BenCaunt
+2026-11-20T18:20:24Z	grant	432	Amahane-Hikari
+2026-11-20T18:20:35Z	submission	425	Amahane-Hikari
+2026-11-20T18:20:41Z	grant	433	BenCaunt
+2026-11-20T18:20:42Z	grant	434	JanSimeonMetzger
