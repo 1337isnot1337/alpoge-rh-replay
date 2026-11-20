@@ -98,6 +98,8 @@
 | M000636 | P0945 | `CompanionTheory.RealGroups.DiscreteSeries.DiscreteSeriesClassification.DiscreteSeriesExhaustion.HeckeAlgebraActions.InfinitesimalCharacterShift` | volunteer-build-reviewed |
 | M000640 | P0293 | `CompanionTheory.RealGroups.DiscreteSeries.DiscreteSeriesClassification.DiscreteSeriesExhaustion.IsSimpleTriv` | volunteer-build-reviewed |
 | M000679 | P0346 | `CompanionTheory.RealGroups.DiscreteSeries.DiscreteSeriesClassification.ExplicitFunctionSquareIntegrable` | volunteer-build-reviewed |
+| M000704 | P0001 | `CompanionTheory.RealGroups.FormalDegrees.ArchimedeanFormalDegrees.MomB` | volunteer-build-reviewed |
+| M000705 | P0094 | `CompanionTheory.RealGroups.FormalDegrees.ArchimedeanFormalDegrees.MomentRecursion.MomStep` | volunteer-build-reviewed |
 | M000751 | P0757 | `CompanionTheory.RealGroups.UnitaryAdmissibility.ArchimedeanUnitaryDual.ArchimedeanDenseStabilizers.DenseRangeOfNotIsReal` | volunteer-build-reviewed |
 | M000754 | P0237 | `CompanionTheory.RealGroups.UnitaryAdmissibility.ArchimedeanUnitaryDual.InhabitedFinite` | volunteer-build-reviewed |
 | M000756 | P0001 | `CompanionTheory.RealGroups.UnitaryAdmissibility.ArchimedeanUnitaryDual.StSandwich` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M001704 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.GlRelOfBracket` | volunteer-build-reviewed |
 | M001713 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HasDerivAtExpMul` | volunteer-build-reviewed |
 | M001714 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HasDerivAtExt` | volunteer-build-reviewed |
-| M001715 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HeckeAlgebraStatement` | volunteer-build-reviewed |
-| M001716 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HeckeAlgebraStatementStatement` | volunteer-build-reviewed |

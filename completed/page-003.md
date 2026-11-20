@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004419 | P1531 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.GrowthConstantBoundGcR` | build-observed |
+| M004422 | P1616 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.JointQ` | build-observed |
+| M004423 | P1586 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.NormComparisonConstants` | build-observed |
+| M004426 | P1272 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.XiValIffXiAt` | build-observed |
+| M004427 | P0173 | `Development.AbelianVarietyTheory.Definitions.HermitianLattices.ExistsZsmulMemOfIsLattice` | wave-reused |
+| M004428 | P0347 | `Development.AbelianVarietyTheory.Definitions.HermitianLattices.TraceFormBilinSeparatingLeftIff` | wave-reused |
+| M004430 | P0096 | `Development.AbelianVarietyTheory.Definitions.Jets.CmLatticeCommutatorPairingPowEqOneOfGoodLift` | volunteer-build-reviewed |
+| M004432 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.ColValMonomial` | wave-reused |
+| M004437 | P1298 | `Development.AbelianVarietyTheory.Definitions.Jets.ExistsSecTieFOfTies` | build-observed |
+| M004439 | P0003 | `Development.AbelianVarietyTheory.Definitions.Jets.Imports` | volunteer-build-reviewed |
+| M004443 | P0865 | `Development.AbelianVarietyTheory.Definitions.Jets.JetsOnCopiesCompatibleFrames` | build-observed |
+| M004445 | P0003 | `Development.AbelianVarietyTheory.Definitions.Jets.PowerSeriesHasSumAt` | volunteer-build-reviewed |
+| M004447 | P0758 | `Development.AbelianVarietyTheory.Definitions.Jets.SideFam` | wave-reused |
+| M004448 | P0295 | `Development.AbelianVarietyTheory.Definitions.Jets.SumIoPr` | wave-reused |
 | M004449 | P0705 | `Development.AbelianVarietyTheory.Definitions.Jets.SumIoPrAlt` | wave-reused |
 | M004451 | P1084 | `Development.AbelianVarietyTheory.Definitions.Jets.SurjectiveAppTopSqCube` | wave-reused |
 | M004455 | P0003 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.DegProd` | wave-reused |
@@ -50,6 +64,7 @@
 | M004796 | P0758 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.JSmul` | wave-reused |
 | M004801 | P0731 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.LabelDatum` | wave-reused |
 | M004808 | P0784 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.LenCob` | wave-reused |
+| M004811 | P0096 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.LinearDescent` | volunteer-build-reviewed |
 | M004815 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MapCSmulMulVec` | volunteer-build-reviewed |
 | M004817 | P0096 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MatMapTmul` | wave-reused |
 | M004819 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MemBallOfGaugeLt` | wave-reused |
@@ -115,6 +130,7 @@
 | M005025 | P0758 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.PowObjGeometricallyConnected` | wave-reused |
 | M005028 | P0347 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.FirstCoordinateAdmissible` | wave-reused |
 | M005030 | P0003 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IMemSiegel` | wave-reused |
+| M005031 | P0096 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IntMIffInt` | volunteer-build-reviewed |
 | M005033 | P0393 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IsHeatZero` | wave-reused |
 | M005035 | P0946 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IsSystem` | wave-reused |
 | M005040 | P0731 | `Development.AbelianVarietyTheory.Definitions.TeichmullerDepth.HasTeich` | wave-reused |
@@ -128,6 +144,7 @@
 | M005051 | P0003 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsLinearIndependentNormLeSuccMin` | wave-reused |
 | M005052 | P1114 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsSecNonzeroLocusEqBasicOpen` | wave-reused |
 | M005053 | P1057 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsSecNonzeroLocusEqOfLbIso` | wave-reused |
+| M005055 | P0003 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.HasSumLocallyUniformlyWeierstrassZetaExcept` | volunteer-build-reviewed |
 | M005057 | P0003 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsAddFundamentalDomainLatticeDomain` | volunteer-build-reviewed |
 | M005058 | P1144 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsAmpleLBOfRelAmpleOfIsAffine` | wave-reused |
 | M005060 | P0436 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsRegularFnIffOfIsAffineOpen` | wave-reused |
@@ -145,6 +162,7 @@
 | M005088 | P0918 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.PolyDerivSmulLetter` | wave-reused |
 | M005090 | P1218 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.SWEqSOf` | build-observed |
 | M005093 | P1084 | `Development.AbelianVarietyTheory.Definitions.TorusSections.IsTorusOf` | wave-reused |
+| M005131 | P0003 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.LeviEmbMemNormalizerLower` | volunteer-build-reviewed |
 | M005163 | P0810 | `Development.AbelianVarietyTheory.Definitions.TwoChartAtlas.TwoChartSt` | wave-reused |
 | M005165 | P1084 | `Development.AbelianVarietyTheory.Definitions.Uniformization.ExistsInKNeOne` | wave-reused |
 | M005166 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.ExistsUniqueSamePt` | wave-reused |
@@ -309,6 +327,7 @@
 | M005439 | P0705 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsAuxiliaryPlacesSquarePatternsSUnits` | wave-reused |
 | M005446 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsCongrIffTraceFormsIsometric` | wave-reused |
 | M005447 | P0550 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsCongrIffTraceFormsIsometricCm` | wave-reused |
+| M005450 | P0003 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsContinuousCircleCharExtension` | volunteer-build-reviewed |
 | M005459 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsEqTransposeMulMapOfIdempotent` | wave-reused |
 | M005460 | P0003 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsForallAbvSubLt` | wave-reused |
 | M005463 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsGlobalUniformizerResidueRepresentatives` | wave-reused |
@@ -376,29 +395,10 @@
 | M005720 | P0616 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsSquareOfSUnitLocalSquareFiniteRealPlaces` | wave-reused |
 | M005721 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsSquareOfValuedSubOneLt` | wave-reused |
 | M005724 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.KummerGalois` | wave-reused |
+| M005725 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.LandauSummableOfExpDirichletSeriesEntire` | volunteer-build-reviewed |
 | M005733 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.LinearIndependentWave` | volunteer-build-reviewed |
 | M005740 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.MemIffForallMemLocalizeRingOfIntegers` | wave-reused |
 | M005762 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NormCoeffMinpolyLeOneOfNormLeOne` | wave-reused |
 | M005763 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NormDifferenceIndexIdentity` | wave-reused |
 | M005764 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NormDifferenceIndexIdentityStatement` | wave-reused |
 | M005784 | P0394 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PIdxUnitsFiniteExtensionAdicCompletion` | wave-reused |
-| M005790 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowIndexTorsionFiniteKerRange` | wave-reused |
-| M005791 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowIndexTorsionFiniteKerRangeStatement` | wave-reused |
-| M005792 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowIndexTorsionKerRangeMul` | wave-reused |
-| M005793 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowIndexTorsionKerRangeMulStatement` | wave-reused |
-| M005796 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowPrimeRangeEqIteratedDifference` | wave-reused |
-| M005797 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowPrimeRangeEqIteratedDifferenceStatement` | wave-reused |
-| M005803 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ProdAbsNormPowValuationTwoLe` | wave-reused |
-| M005804 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ProdAbsNormPowValuationTwoLeStatement` | wave-reused |
-| M005828 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexHigherUnitsSuccLeCard` | wave-reused |
-| M005829 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexHigherUnitsSuccLeCardStatement` | wave-reused |
-| M005830 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexNormMulRelIndexSqsKer` | wave-reused |
-| M005831 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexNormMulRelIndexSqsKerStatement` | wave-reused |
-| M005832 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexOneUnitsMulEqCardQuotient` | wave-reused |
-| M005833 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexOneUnitsMulEqCardQuotientStatement` | wave-reused |
-| M005834 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexSquaresLeTwoMulOfSubgroup` | wave-reused |
-| M005835 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexSquaresLeTwoMulOfSubgroupStatement` | wave-reused |
-| M005836 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexSquaresSUnitsNumberField` | wave-reused |
-| M005837 | P0348 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexSquaresSUnitsNumberFieldStatement` | wave-reused |
-| M005840 | P0732 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitMemGlobalNormOfMemLocalNorms` | wave-reused |
-| M005841 | P0759 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitMemGlobalNormOfMemLocalNormsStatement` | wave-reused |

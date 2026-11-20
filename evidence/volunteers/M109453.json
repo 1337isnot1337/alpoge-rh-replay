@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    "M109453"
+  ],
+  "ended_utc": "2026-11-20T19:10:37.249509+00:00",
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.CommutativeAlgebra.EtaleCohomology.LocallyExactCech:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "bd854f8953097cc73abf3ed78c803025eee37e62501b3aeac8e59c47c7a1685d",
+  "objects": {
+    "M109453": "72e3e012848aa7b99817b58ec654ee43c5625f384880663c14a4d9394b629972"
+  },
+  "bundle_sha256": "45adc689641af9af2afd62d9ae828aba512f23df312439e61cd148a332ca967c",
+  "packet": "M109453",
+  "contributor": "user42245",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/1060#issuecomment-7048312023",
+  "reviewed_utc": "2026-11-20T19:20:50.948107+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}
