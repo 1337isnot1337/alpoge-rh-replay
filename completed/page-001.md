@@ -2,7 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M000001 | P0001 | `BuildAid.D1` | volunteer-build-reviewed |
 | M000002 | P0001 | `BuildAid.D2` | wave-reused |
+| M000003 | P0001 | `BuildAid.D3` | volunteer-build-reviewed |
+| M000004 | P0001 | `BuildAid.D4` | volunteer-build-reviewed |
+| M000005 | P0001 | `BuildAid.D5` | volunteer-build-reviewed |
 | M000008 | P0757 | `CompanionTheory.AutomorphicTheory.BesselOrbitBounds.BesselMapUniqueness.ContinuousOnOrbit` | volunteer-build-reviewed |
 | M000009 | P0757 | `CompanionTheory.AutomorphicTheory.BesselOrbitBounds.BesselMapUniqueness.NormPsiGen` | volunteer-build-reviewed |
 | M000011 | P0783 | `CompanionTheory.AutomorphicTheory.BesselOrbitBounds.BesselMapUniqueness.ProdNormLe` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M001844 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.MulMemUJset` | volunteer-build-reviewed |
 | M001846 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.NearIdentityUpperLowerFactorizationStatement` | volunteer-build-reviewed |
 | M001856 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.NotCdomAddRoot` | volunteer-build-reviewed |
-| M001861 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.OmegaScalarStatement` | volunteer-build-reviewed |
-| M001868 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.PairingOfSandwichStatementStatement` | volunteer-build-reviewed |
-| M001877 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.PlaneOfHenselAndPairingStatement` | volunteer-build-reviewed |
-| M001899 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.QuotientBoundOfFactorReduceChart` | volunteer-build-reviewed |
