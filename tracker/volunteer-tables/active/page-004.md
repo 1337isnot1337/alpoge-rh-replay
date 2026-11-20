@@ -4,7 +4,6 @@
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@surfyhou](https://github.com/surfyhou) | [P1781](https://github.com/rohanarun/alpoge-rh-replay/issues/3430) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M043955](https://github.com/rohanarun/alpoge-rh-replay/issues/3432) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M098814](https://github.com/rohanarun/alpoge-rh-replay/issues/3433) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M064704](https://github.com/rohanarun/alpoge-rh-replay/issues/3434) | Claimed |
@@ -30,14 +29,15 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M036455](https://github.com/rohanarun/alpoge-rh-replay/issues/3522) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M072791](https://github.com/rohanarun/alpoge-rh-replay/issues/3523) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M050647](https://github.com/rohanarun/alpoge-rh-replay/issues/3524) | Claimed |
-| [@emsi](https://github.com/emsi) | [M068907](https://github.com/rohanarun/alpoge-rh-replay/issues/3570) | Claimed |
 | [@iAndyHD3](https://github.com/iAndyHD3) | [M075416](https://github.com/rohanarun/alpoge-rh-replay/issues/3576) | Claimed |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M075777](https://github.com/rohanarun/alpoge-rh-replay/issues/3600) | Claimed |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M075978](https://github.com/rohanarun/alpoge-rh-replay/issues/3601) | Claimed |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M076234](https://github.com/rohanarun/alpoge-rh-replay/issues/3602) | Claimed |
 | [@hipotures](https://github.com/hipotures) | [P1550](https://github.com/rohanarun/alpoge-rh-replay/issues/3605) | Claimed |
-| [@user42245](https://github.com/user42245) | [M076275](https://github.com/rohanarun/alpoge-rh-replay/issues/3611) | Claimed |
-| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M169282](https://github.com/rohanarun/alpoge-rh-replay/issues/3612) | Claimed |
 | [@emsi](https://github.com/emsi) | [P1747](https://github.com/rohanarun/alpoge-rh-replay/issues/3615) | Claimed |
-| [@user42245](https://github.com/user42245) | [M076338](https://github.com/rohanarun/alpoge-rh-replay/issues/3623) | Claimed |
 | [@EF-Code](https://github.com/EF-Code) | [M004416](https://github.com/rohanarun/alpoge-rh-replay/issues/3625) | Claimed |
+| [@dhudakk](https://github.com/dhudakk) | [M081135](https://github.com/rohanarun/alpoge-rh-replay/issues/3633) | Claimed |
+| [@egergerfg](https://github.com/egergerfg) | [M060854](https://github.com/rohanarun/alpoge-rh-replay/issues/3636) | Claimed |
+| [@egergerfg](https://github.com/egergerfg) | [M064364](https://github.com/rohanarun/alpoge-rh-replay/issues/3637) | Claimed |
+| [@egergerfg](https://github.com/egergerfg) | [M035868](https://github.com/rohanarun/alpoge-rh-replay/issues/3639) | Claimed |
+| [@emsi](https://github.com/emsi) | [P1713](https://github.com/rohanarun/alpoge-rh-replay/issues/3640) | Claimed |
