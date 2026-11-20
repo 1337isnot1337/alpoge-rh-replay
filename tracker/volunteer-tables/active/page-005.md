@@ -4,18 +4,6 @@
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M138510](https://github.com/rohanarun/alpoge-rh-replay/issues/6220) | Claimed |
-| [@SeriousRising](https://github.com/SeriousRising) | [P1801](https://github.com/rohanarun/alpoge-rh-replay/issues/6222) | Claimed |
-| [@walkingsophie](https://github.com/walkingsophie) | [M174963](https://github.com/rohanarun/alpoge-rh-replay/issues/6227) | Claimed |
-| [@emsi](https://github.com/emsi) | [P2020](https://github.com/rohanarun/alpoge-rh-replay/issues/6228) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M129915](https://github.com/rohanarun/alpoge-rh-replay/issues/6230) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M101469](https://github.com/rohanarun/alpoge-rh-replay/issues/6233) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M173335](https://github.com/rohanarun/alpoge-rh-replay/issues/6234) | Claimed |
-| [@misuadn-laplace](https://github.com/misuadn-laplace) | [M091688](https://github.com/rohanarun/alpoge-rh-replay/issues/6235) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M170819](https://github.com/rohanarun/alpoge-rh-replay/issues/6240) | Claimed |
-| [@misuadn-laplace](https://github.com/misuadn-laplace) | [M101482](https://github.com/rohanarun/alpoge-rh-replay/issues/6241) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115244](https://github.com/rohanarun/alpoge-rh-replay/issues/6245) | Claimed |
-| [@misuadn-laplace](https://github.com/misuadn-laplace) | [M115796](https://github.com/rohanarun/alpoge-rh-replay/issues/6246) | Claimed |
 | [@misuadn-laplace](https://github.com/misuadn-laplace) | [M128832](https://github.com/rohanarun/alpoge-rh-replay/issues/6248) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M142710](https://github.com/rohanarun/alpoge-rh-replay/issues/6249) | Claimed |
 | [@misuadn-laplace](https://github.com/misuadn-laplace) | [M091842](https://github.com/rohanarun/alpoge-rh-replay/issues/6250) | Claimed |
@@ -45,3 +33,18 @@
 | [@WilmervH](https://github.com/WilmervH) | [P1728](https://github.com/rohanarun/alpoge-rh-replay/issues/6296) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M036919](https://github.com/rohanarun/alpoge-rh-replay/issues/6297) | Claimed |
 | [@SeriousRising](https://github.com/SeriousRising) | [P1764](https://github.com/rohanarun/alpoge-rh-replay/issues/6298) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M169182](https://github.com/rohanarun/alpoge-rh-replay/issues/6301) | Claimed |
+| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P1707](https://github.com/rohanarun/alpoge-rh-replay/issues/6307) | Claimed |
+| [@WilmervH](https://github.com/WilmervH) | [P1815](https://github.com/rohanarun/alpoge-rh-replay/issues/6316) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115526](https://github.com/rohanarun/alpoge-rh-replay/issues/6320) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M063010](https://github.com/rohanarun/alpoge-rh-replay/issues/6323) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M024731](https://github.com/rohanarun/alpoge-rh-replay/issues/6327) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115478](https://github.com/rohanarun/alpoge-rh-replay/issues/6330) | Claimed |
+| [@WorldianAI](https://github.com/WorldianAI) | [M037067](https://github.com/rohanarun/alpoge-rh-replay/issues/6331) | Claimed |
+| [@WilmervH](https://github.com/WilmervH) | [P1886](https://github.com/rohanarun/alpoge-rh-replay/issues/6337) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M142298](https://github.com/rohanarun/alpoge-rh-replay/issues/6338) | Claimed |
+| [@WilmervH](https://github.com/WilmervH) | [P1862](https://github.com/rohanarun/alpoge-rh-replay/issues/6356) | Claimed |
+| [@emsi](https://github.com/emsi) | [P1726](https://github.com/rohanarun/alpoge-rh-replay/issues/6358) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M140605](https://github.com/rohanarun/alpoge-rh-replay/issues/6359) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M170385](https://github.com/rohanarun/alpoge-rh-replay/issues/6363) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M028367](https://github.com/rohanarun/alpoge-rh-replay/issues/6364) | Claimed |

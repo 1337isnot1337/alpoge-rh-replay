@@ -4,6 +4,7 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@mu-mei](https://github.com/mu-mei) | [M002749](https://github.com/rohanarun/alpoge-rh-replay/issues/3033#issuecomment-7050726717) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M146907](https://github.com/rohanarun/alpoge-rh-replay/issues/3034#issuecomment-7050729900) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M100830](https://github.com/rohanarun/alpoge-rh-replay/issues/3035#issuecomment-7050729349) | Pending review |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M044287](https://github.com/rohanarun/alpoge-rh-replay/issues/3038#issuecomment-7050930886) | Pending review |
@@ -251,6 +252,5 @@
 | [@loremcdmx](https://github.com/loremcdmx) | [M114982](https://github.com/rohanarun/alpoge-rh-replay/issues/4915#issuecomment-7052942763) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M063767](https://github.com/rohanarun/alpoge-rh-replay/issues/4916#issuecomment-7052943285) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M115054](https://github.com/rohanarun/alpoge-rh-replay/issues/4917#issuecomment-7052943871) | Pending review |
+| [@emsi](https://github.com/emsi) | [P1806](https://github.com/rohanarun/alpoge-rh-replay/issues/4918#issuecomment-7053120180) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M115040](https://github.com/rohanarun/alpoge-rh-replay/issues/4919#issuecomment-7052944485) | Pending review |
-| [@loremcdmx](https://github.com/loremcdmx) | [M077635](https://github.com/rohanarun/alpoge-rh-replay/issues/4920#issuecomment-7052945195) | Pending review |
-| [@loremcdmx](https://github.com/loremcdmx) | [M115086](https://github.com/rohanarun/alpoge-rh-replay/issues/4923#issuecomment-7052945666) | Pending review |
