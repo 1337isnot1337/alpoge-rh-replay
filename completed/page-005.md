@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005075 | P0174 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.ExistsMemRowHighestTotalDegreeEqTwo` | wave-reused |
+| M005077 | P0758 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.ExistsUniqueSecIsFnAt` | build-observed |
+| M005078 | P0393 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.FlatMemLatIffStdLat` | wave-reused |
+| M005083 | P0615 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.IsBlockProd` | build-observed |
+| M005084 | P0615 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.IsNullVal` | wave-reused |
+| M005087 | P0096 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.MemAnalyticAtZeroOfEventuallyDifferentiableAt` | volunteer-build-reviewed |
+| M005088 | P0918 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.PolyDerivSmulLetter` | wave-reused |
+| M005090 | P1218 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.SWEqSOf` | build-observed |
+| M005093 | P1084 | `Development.AbelianVarietyTheory.Definitions.TorusSections.IsTorusOf` | wave-reused |
+| M005126 | P1245 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsStepWeil` | build-observed |
 | M005127 | P0174 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsSubquotientDetRepParInd` | volunteer-build-reviewed |
 | M005130 | P1420 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsVacFOfIsVacVec` | volunteer-build-reviewed |
 | M005131 | P0003 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.LeviEmbMemNormalizerLower` | volunteer-build-reviewed |
@@ -173,12 +183,14 @@
 | M005352 | P1194 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.AddNsmulResidueAssoc` | build-observed |
 | M005363 | P0003 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.BinaryFormUniversal` | wave-reused |
 | M005364 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.BlockDiagPartOfRatIdempotentOneAndMulOfTriangula` | volunteer-build-reviewed |
+| M005365 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.BlockDiagPartOfRatIdempotentOneAndMulOfTriangulaStatement` | volunteer-build-reviewed |
 | M005369 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CardQuotSpanAlgebraMap` | wave-reused |
 | M005370 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CardRingHomRealEqNrRealPlaces` | wave-reused |
 | M005371 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CardRingHomRealEqNrRealPlacesStatement` | wave-reused |
 | M005375 | P0003 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CircleHomEqZpow` | volunteer-build-reviewed |
 | M005378 | P0003 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ClassGroupCoprimeRepresentative` | volunteer-build-reviewed |
 | M005392 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CompletelyReducibleToMatrixIffIsSemisimpleRepres` | volunteer-build-reviewed |
+| M005405 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CountableIdealSummableAbsNormRpow` | volunteer-build-reviewed |
 | M005406 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CyclicKummerNormFixedHilbert90` | wave-reused |
 | M005408 | P0648 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.DedekindZetaEulerProductMulSubOneEntire` | build-observed |
 | M005413 | P0003 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.DifferentiableExpMulOfAnnihilated` | volunteer-build-reviewed |
@@ -365,6 +377,7 @@
 | M005886 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SummableGaussianCoset` | volunteer-build-reviewed |
 | M005892 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TensorPowerSumRightActionNormAndContinuity` | volunteer-build-reviewed |
 | M005898 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TransvectionIdentitiesUnitary` | volunteer-build-reviewed |
+| M005899 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TransvectionIdentitiesUnitaryStatement` | volunteer-build-reviewed |
 | M005900 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TsumIdealEqSumClassGroup` | volunteer-build-reviewed |
 | M005902 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoMulCardInfinitePlaceLeQuadratic` | wave-reused |
 | M005903 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoMulCardInfinitePlaceLeQuadraticStatement` | wave-reused |
@@ -389,16 +402,3 @@
 | M005950 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.AdditiveMulEqVonMangoldtConvolution` | wave-reused |
 | M005951 | P0295 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.AdditiveMulEqVonMangoldtConvolutionStatement` | wave-reused |
 | M005952 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.AsAlgebraHomSurjectiveOfFinrankIntertwiningMapEq` | build-observed |
-| M005953 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.CardFixedByPowPrimePowModEq` | wave-reused |
-| M005954 | P0097 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.CardFixedByPowPrimePowModEqStatement` | wave-reused |
-| M005955 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.CardFixedByQuotientEqRelIndexOfPRegular` | wave-reused |
-| M005956 | P0097 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.CardFixedByQuotientEqRelIndexOfPRegularStatement` | wave-reused |
-| M005957 | P0097 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.CardNonregularResiduesModPowSubOneLe` | build-observed |
-| M005958 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.CardNonregularResiduesModPowSubOneLeStatement` | build-observed |
-| M005959 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.CardSubspacesMulGeneralLinearGroupCard` | wave-reused |
-| M005960 | P0295 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.CardSubspacesMulGeneralLinearGroupCardStatement` | wave-reused |
-| M005961 | P0097 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.CardSubspacesOfFinrankMulCardBases` | wave-reused |
-| M005962 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.CardSubspacesOfFinrankMulCardBasesStatement` | wave-reused |
-| M005963 | P0097 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.CharacterCosetSumEqZeroOfSubgroupSum` | build-observed |
-| M005964 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.CharacterCosetSumEqZeroOfSubgroupSumStatement` | build-observed |
-| M005965 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.CharacterEqInducedOfImprimitivitySystem` | wave-reused |

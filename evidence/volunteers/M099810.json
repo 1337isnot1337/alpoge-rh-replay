@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M099810"
+  ],
+  "started_utc": "2026-11-20T22:51:49.161150+00:00",
+  "ended_utc": "2026-11-20T22:52:25.378187+00:00",
+  "elapsed_seconds": 36.2,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6673456
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.UnitaryExistence.Hilbert90AdeleRingTensorQuadratic:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "58703d2469342fbe8d7dc36862e7439af2a3c5a1f5f67e4d9c6a63be4b8d5f29",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsIdempotentIsUnitOneAddOrSubAdele",
+    "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsIdempotentIsUnitOneAddOrSubAdeleStatement"
+  ],
+  "objects": {
+    "M099810": "363263642736c3b0e934628ebe5d40a76e40fb17ed59cfda63028041ce9f7e1f"
+  },
+  "bundle_sha256": "77fe465ebfb3690804812f533dd5eef1fcb5148709aebe292fa4734d5ed23aa7",
+  "packet": "M099810",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5316#issuecomment-7052819863",
+  "reviewed_utc": "2026-11-20T23:15:15.762141+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

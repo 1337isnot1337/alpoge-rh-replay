@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M074828"
+  ],
+  "started_utc": "2026-11-20T22:50:30.346841+00:00",
+  "ended_utc": "2026-11-20T22:51:02.349813+00:00",
+  "elapsed_seconds": 32.0,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6679848
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TwistedCentralizerIsNormOneTorus:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f4a0dbe540252946afd905d06c9c8dac97fadb66ed7121b2e2e6ab2c37d6ba60",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.FourierMatch",
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MemCentIffTwConj"
+  ],
+  "objects": {
+    "M074828": "f0c9075e9eda76f4e8e79d252318c229a57e032acbbc7058d3859c3f4a7bb3da"
+  },
+  "bundle_sha256": "bc5657490cbbfb8b51987282730117380b7c0c3fe71044ea49523db33b000ae2",
+  "packet": "M074828",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5245#issuecomment-7052818416",
+  "reviewed_utc": "2026-11-20T23:15:17.264755+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

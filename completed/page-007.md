@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006384 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.StructureHomApply` | wave-reused |
+| M006385 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubalgebraEqBotOfIsIntegralOfIsIntegrallyClosed` | wave-reused |
+| M006386 | P1586 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubsingletonOfPoints` | wave-reused |
+| M006387 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubsingletonOfSheafPullback` | wave-reused |
+| M006388 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SumNegOnePowFinrankEqZero` | wave-reused |
+| M006389 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SummableNormBoundedSeries` | wave-reused |
+| M006390 | P0732 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ThreeTermComplexOfProjectiveCechModel` | wave-reused |
+| M006391 | P0759 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ThreeTermComplexOfProjectiveCechModelStatement` | wave-reused |
+| M006392 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.TopClassSurjective` | wave-reused |
+| M006393 | P1395 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.TranslateDivAdditive` | wave-reused |
+| M006394 | P1114 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.TwistedSectionsLocaliseToCharts` | wave-reused |
+| M006395 | P1144 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.TwistedSectionsLocaliseToChartsStatement` | wave-reused |
+| M006396 | P1084 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.VeryAmpleCompactQuasiSeparatedAffineCharts` | wave-reused |
+| M006397 | P1114 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.VeryAmpleCompactQuasiSeparatedAffineChartsStatement` | wave-reused |
 | M006398 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.WeightAddLeOfMemSupportDividedContraction` | wave-reused |
 | M006399 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.XSmulMemWeightedHomogeneousSubmodule` | wave-reused |
 | M006403 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.CoeffSubstInvMemOfTwoLeOrder` | wave-reused |
@@ -31,6 +45,7 @@
 | M006439 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FormalExpMulFormalExpNeg` | wave-reused |
 | M006440 | P0177 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FormalLogEqSumOfMultiplicativeParam` | wave-reused |
 | M006453 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegrableMonomialMulConjComplexGaussian` | volunteer-build-reviewed |
+| M006454 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegrableOnOfNormLeSumAbsLogAddLogLog` | volunteer-build-reviewed |
 | M006455 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegralConjInnerMulInnerOfIsEmptyEquiv` | volunteer-build-reviewed |
 | M006457 | P0759 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsClosedImmersionIffPullRatio` | wave-reused |
 | M006458 | P0784 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsClosedImmersionSigmaDesc` | wave-reused |
@@ -347,7 +362,9 @@
 | M007346 | P1350 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.IsotropicSumIndependentOfChoicesLocalStatement` | build-observed |
 | M007349 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.JetReadingLinearSubstitutionPointsStatement` | volunteer-build-reviewed |
 | M007353 | P0516 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.L2CanThEqInvSqrtTwoPowMulDetIm` | build-observed |
+| M007370 | P0005 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LinearIndependentRingHomCompIff` | volunteer-build-reviewed |
 | M007374 | P0005 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LogExpMulLeOfGeneratorSupBound` | volunteer-build-reviewed |
+| M007376 | P0005 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LogNormMapPowMulPowOfMulConj` | volunteer-build-reviewed |
 | M007379 | P0005 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LogShortFamilyNumbersLe` | volunteer-build-reviewed |
 | M007390 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.MatRmulUnipMulHeadProj` | volunteer-build-reviewed |
 | M007396 | P1085 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ModNSqIffExistsGenLatSum` | build-observed |
@@ -385,20 +402,3 @@
 | M007551 | P1560 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaRunParametersAtTypePrimesProductStatement` | volunteer-build-reviewed |
 | M007559 | P1170 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.TorsionIsotropicCommutatorPairing` | build-observed |
 | M007560 | P1194 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.TorsionIsotropicCommutatorPairingStatement` | build-observed |
-| M007562 | P0296 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.TraceHermNondegenerate` | wave-reused |
-| M007566 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.UniversalNormalisedMulByNatPullbackIso` | volunteer-build-reviewed |
-| M007567 | P1144 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.UniversalNormalisedMulByNatPullbackIsoStatement` | build-observed |
-| M007568 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.UniversalSymLiftExistsUniqueGlobal` | volunteer-build-reviewed |
-| M007569 | P1144 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.UniversalSymLiftExistsUniqueGlobalStatement` | build-observed |
-| M007570 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.UniversalSymLiftMulOdd` | volunteer-build-reviewed |
-| M007571 | P1144 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.UniversalSymLiftMulOddStatement` | build-observed |
-| M007572 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.UniversalWeilPairingPullbackExistsUnique` | volunteer-build-reviewed |
-| M007573 | P1144 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.UniversalWeilPairingPullbackExistsUniqueStatement` | build-observed |
-| M007594 | P0005 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AddSubgroupFiniteQuotOfCommensurable` | volunteer-build-reviewed |
-| M007597 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdditiveCharacterOneNe` | volunteer-build-reviewed |
-| M007617 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicPointNearCuspScale` | volunteer-build-reviewed |
-| M007629 | P0005 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdicCompletionValuationMapUniformiser` | volunteer-build-reviewed |
-| M007646 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AltENsmulLeft` | volunteer-build-reviewed |
-| M007650 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AmplitudeBoundsAtParametersOfAdmittedBoundsStatement` | volunteer-build-reviewed |
-| M007654 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AnalyticTiesTrueCols` | volunteer-build-reviewed |
-| M007704 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselCharacterLocalElementEqSimpleEntrySumStatement` | volunteer-build-reviewed |

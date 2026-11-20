@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M063774"
+  ],
+  "started_utc": "2026-11-20T23:06:12.318441+00:00",
+  "ended_utc": "2026-11-20T23:07:04.521176+00:00",
+  "elapsed_seconds": 52.2,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 8024536,
+    "peak_child_rss_kib": 6004852
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.SpecialLinearGroupIntMapZmodSurjective:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9d06862b0ad4da6f732ed20d8ab8251afdbbfcbb31650aeb36fa866d865d3642",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIsSymplecticBasisToMatrixOffDiagDvd"
+  ],
+  "objects": {
+    "M063774": "806cce76f50db892d8e972224b7c936ec92442f58f5c8b1aa195797fb2c44a5a"
+  },
+  "bundle_sha256": "bb18a3006c910b33a8f73f7ed681b6ff12ff910d6c7104d740bc919a7e1da6e1",
+  "packet": "M063774",
+  "contributor": "BenCaunt",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5763#issuecomment-7052816533",
+  "reviewed_utc": "2026-11-20T23:14:23.060953+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

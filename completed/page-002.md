@@ -159,6 +159,8 @@
 | M001376 | P2594 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.EqOfOrbitMarkInCellConeStatement` | volunteer-build-reviewed |
 | M001380 | P2417 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsBalancedFormsDominatingStatement` | volunteer-build-reviewed |
 | M001382 | P2474 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsCarrierDimensionLabelStatement` | volunteer-build-reviewed |
+| M001428 | P2359 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.MemRationalConeOfPerturbation` | volunteer-build-reviewed |
+| M001430 | P2417 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.MultipleCellsAmongPolyhedralFan` | volunteer-build-reviewed |
 | M001502 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.AdaptExists` | volunteer-build-reviewed |
 | M001503 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.AdaptExistsStatement` | volunteer-build-reviewed |
 | M001508 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.AlgCoreSubOfAlgCore` | volunteer-build-reviewed |
@@ -308,6 +310,7 @@
 | M001990 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ZuckermanHypothesis` | volunteer-build-reviewed |
 | M001991 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ZuckermanHypothesisStatement` | volunteer-build-reviewed |
 | M001994 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.WeylGroupActions.HasDerivAtExpReal` | volunteer-build-reviewed |
+| M002001 | P2245 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.WeylGroupActions.TypeExponentsDifferByIntegersStatement` | volunteer-build-reviewed |
 | M002042 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.AbelianSchemeLaw.SemiAbelianSchemes` | volunteer-build-reviewed |
 | M002045 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.AdelicCMFields.SupportedAtSplit` | volunteer-build-reviewed |
 | M002046 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.AdelicCMFields.UnitaryHeckeCharacterIdele` | wave-reused |
@@ -399,6 +402,3 @@
 | M002312 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SignedLogMeans` | volunteer-build-reviewed |
 | M002313 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SourceLatticeInvariance` | build-observed |
 | M002314 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SplittingProjection` | build-observed |
-| M002315 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.StabiliserCardinality` | volunteer-build-reviewed |
-| M002318 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.StandardDeterminantUnit` | build-observed |
-| M002319 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.StandardKernelAtTorus` | build-observed |

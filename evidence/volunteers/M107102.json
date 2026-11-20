@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M107102"
+  ],
+  "started_utc": "2026-11-20T23:09:07.835345+00:00",
+  "ended_utc": "2026-11-20T23:11:04.101738+00:00",
+  "elapsed_seconds": 116.3,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32837812,
+    "peak_child_rss_kib": 6583924
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.TraceFormula.GL1SpectralBounds.IntegralityGoodReduction:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "df99652c1122a377903df88e56ce851211dac4e7568350e1355dd378f2c71a31",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.JacquetShalikaBounds.AbsoluteRigidity.NewtonLow"
+  ],
+  "objects": {
+    "M107102": "11728332c8e573e33f10d7f00bcff3c6f3ffb1aad45a44ce114869bdb989780a"
+  },
+  "bundle_sha256": "0ac375401724b0beb8eccee8396d6802ad8df57556958faa6ee1ddaa2e8ff485",
+  "packet": "M107102",
+  "contributor": "sp20262026",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5861#issuecomment-7052881190",
+  "reviewed_utc": "2026-11-20T23:14:12.928623+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

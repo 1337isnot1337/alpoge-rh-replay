@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M064441"
+  ],
+  "started_utc": "2026-11-20T22:55:47.151791+00:00",
+  "ended_utc": "2026-11-20T22:56:15.000371+00:00",
+  "elapsed_seconds": 27.8,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 26442420,
+    "peak_child_rss_kib": 6856936
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.GenericRegularity.IsIntegrallyClosedQuotientOfMemMinimalPrimes:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0e61425e46cf6aa2b63e5b105186086c97fb6878af9dc7f627732a245894452c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsDomainAndIsIntegrallyClosedAtPrimeOfSmoothOfCo"
+  ],
+  "objects": {
+    "M064441": "87c8fb75b54128e018c4194dc6540ec7c84302cb7ccb8e3740d3fe73270d69a3"
+  },
+  "bundle_sha256": "d2c5e2f2d14eee50296f36ee95b67def40d6a4333e1a4ba48a4f089226fbd7a1",
+  "packet": "M064441",
+  "contributor": "jwr404",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5431#issuecomment-7052678115",
+  "reviewed_utc": "2026-11-20T23:15:10.712607+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002315 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.StabiliserCardinality` | volunteer-build-reviewed |
+| M002318 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.StandardDeterminantUnit` | build-observed |
+| M002319 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.StandardKernelAtTorus` | build-observed |
 | M002320 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SubstitutionAdjoint` | build-observed |
 | M002321 | P1084 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.TameGeneratorWindow` | build-observed |
 | M002322 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ThetaCharacteristicZeroNorm` | volunteer-build-reviewed |
@@ -98,6 +101,7 @@
 | M002614 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.IwahoriSubgroup` | volunteer-build-reviewed |
 | M002615 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.JumpDictionary` | volunteer-build-reviewed |
 | M002616 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.LatticeConditions` | volunteer-build-reviewed |
+| M002618 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.LocalIntegralGL` | volunteer-build-reviewed |
 | M002620 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.LowerUnipotentMinors` | volunteer-build-reviewed |
 | M002627 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.SelfDualLatticeMass` | build-observed |
 | M002628 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.SelmerCrystallineCocycles` | build-observed |
@@ -118,6 +122,7 @@
 | M002685 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.GodementJacquetZeta` | build-observed |
 | M002698 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.IrreducibleTensorCharacter` | build-observed |
 | M002699 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.IsometryCarriesCharacter` | volunteer-build-reviewed |
+| M002701 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.IwahoriDoubleCosets` | build-observed |
 | M002706 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.LevelGroupLifts` | volunteer-build-reviewed |
 | M002710 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.MinorOrderedEntries` | volunteer-build-reviewed |
 | M002719 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.PartialLFunctionCharacter` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M003894 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.SecClass` | wave-reused |
 | M003895 | P1193 | `Development.AbelianVarietyTheory.Definitions.Divisors.SecJets4` | volunteer-build-reviewed |
 | M003899 | P1298 | `Development.AbelianVarietyTheory.Definitions.Divisors.SecondCountableTopologyOfIsProjOver` | wave-reused |
-| M003904 | P1271 | `Development.AbelianVarietyTheory.Definitions.Divisors.SimpleTwistedTraceFormulaStable` | build-observed |
-| M003905 | P1056 | `Development.AbelianVarietyTheory.Definitions.Divisors.SlopeTestRemainingChoices` | build-observed |
-| M003908 | P1271 | `Development.AbelianVarietyTheory.Definitions.Divisors.SmoothOfRelativeDimensionPspace` | wave-reused |
-| M003909 | P1143 | `Development.AbelianVarietyTheory.Definitions.Divisors.SmoothSpanLeMspan` | build-observed |
-| M003911 | P0784 | `Development.AbelianVarietyTheory.Definitions.Divisors.SplitDoublingNBlock` | wave-reused |

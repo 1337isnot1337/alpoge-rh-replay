@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M043800"
+  ],
+  "started_utc": "2026-11-20T22:46:14.469906+00:00",
+  "ended_utc": "2026-11-20T22:50:42.551437+00:00",
+  "elapsed_seconds": 268.1,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 8130284
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.MonoPullbackMapOfFlat:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "943aa2c7f0a5cfdeae78d15471de80bdc47d1f15a7128803a2e6685beb0b1669",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.IsLocalizedModuleGermLinearPointOfPrime",
+    "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExactAndSurjectiveAppOfExactOfEpi",
+    "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.IsQuasicoherentOfForallExistsAffine",
+    "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MapFOneInjectiveOfSectionsSurjective"
+  ],
+  "objects": {
+    "M043800": "627637921731443827cf7add90b84eafd3e200300f7bfcd80df81a7702d193f2"
+  },
+  "bundle_sha256": "f77fbe8c8f1442dbe0d48c6c648ae036500cebb7ba2bef8112fece14e7f88b3d",
+  "packet": "M043800",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5122#issuecomment-7052817258",
+  "reviewed_utc": "2026-11-20T23:15:22.858757+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -2,6 +2,26 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013260 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSemiAbelianModelSplitSpecialFibre` | volunteer-build-reviewed |
+| M013262 | P1504 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSemiAbelianSplitCubicalExtensionClosureStatement` | worker-kernel-checked |
+| M013263 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSemiAbelianTorusExtensionOfPotentialModel` | volunteer-build-reviewed |
+| M013264 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSemiAbelianTorusExtensionOfPotentialModelStatement` | volunteer-build-reviewed |
+| M013271 | P1220 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSmoothOfRelativeDimensionSpreadFromGeneric` | build-observed |
+| M013273 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSmoothTorusQuotientOfGoodOpenCover` | volunteer-build-reviewed |
+| M013274 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSmoothTorusQuotientOfGoodOpenCoverStatement` | volunteer-build-reviewed |
+| M013276 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSpecialFibreProjectionAbelianPart` | volunteer-build-reviewed |
+| M013277 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSpecialFibreProjectionAbelianPartStatement` | volunteer-build-reviewed |
+| M013281 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSplitTorusExtensionDescentGaloisInvariant` | volunteer-build-reviewed |
+| M013283 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSplitTorusKernelGenericFibre` | build-observed |
+| M013284 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSplitTorusKernelGenericFibreStatement` | build-observed |
+| M013286 | P1247 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsStrict` | build-observed |
+| M013289 | P0006 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSubMemMaximalIdeal` | wave-reused |
+| M013290 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSums` | volunteer-build-reviewed |
+| M013291 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymLiftGlobal` | volunteer-build-reviewed |
+| M013292 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymLiftGlobalStatement` | volunteer-build-reviewed |
+| M013293 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymPmaps` | volunteer-build-reviewed |
+| M013297 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymmetricSpreadOutLineBundleAbelianSchemeStatement` | volunteer-build-reviewed |
+| M013300 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymplecticLevelBaseChangePolarisedAbelian` | volunteer-build-reviewed |
 | M013305 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTestMatch` | volunteer-build-reviewed |
 | M013306 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaBasisAfterEveryFieldExtension` | volunteer-build-reviewed |
 | M013307 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaBasisAfterEveryFieldExtensionStatement` | volunteer-build-reviewed |
@@ -269,6 +289,7 @@
 | M013822 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.PolarizedAbelianPullbackLineBundleStatement` | volunteer-build-reviewed |
 | M013823 | P1420 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.PolarizedAbelianValueTableMapsUnderBaseChange` | build-observed |
 | M013824 | P1445 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.PolarizedAbelianValueTableMapsUnderBaseChangeStatement` | volunteer-build-reviewed |
+| M013837 | P0007 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.PowerSeriesGenericRelationChain` | volunteer-build-reviewed |
 | M013839 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.PreUniformisationComparisonTorusInvariant` | volunteer-build-reviewed |
 | M013840 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.PreUniformisationComparisonTorusInvariantStatement` | volunteer-build-reviewed |
 | M013845 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ProjZeroPullbackNeZero` | volunteer-build-reviewed |
@@ -381,24 +402,3 @@
 | M014065 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorsionFramePowEqIntegralGeneratorStatement` | volunteer-build-reviewed |
 | M014074 | P1248 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorsionPairingValuesOfFamiliesValues` | build-observed |
 | M014078 | P1248 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorsionPointsSpecialFibreSupportCoordinates` | wave-reused |
-| M014079 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorsionPointsSpecialFibreSupportCoordinatesStatement` | wave-reused |
-| M014084 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorsionValuesCoordsOperatorPermute` | volunteer-build-reviewed |
-| M014085 | P1086 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorsionValuesCoordsOperatorPermuteStatement` | wave-reused |
-| M014087 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusCoordUnitAndSectionEqExpansionStatement` | volunteer-build-reviewed |
-| M014088 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusCutByInvariantRatiosField` | volunteer-build-reviewed |
-| M014089 | P1086 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusCutByInvariantRatiosFieldStatement` | build-observed |
-| M014096 | P1691 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusExtensionTorsionMemUnitThetaConstantGroup` | build-observed |
-| M014097 | P1715 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusExtensionTorsionMemUnitThetaConstantGroupStatement` | build-observed |
-| M014098 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusIsAffineHomAndSplitsFinite` | volunteer-build-reviewed |
-| M014101 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusPointWithCharactersIffPullDeg` | volunteer-build-reviewed |
-| M014105 | P1086 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusStableWeightsGenericFibre` | build-observed |
-| M014106 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusStableWeightsGenericFibreStatement` | build-observed |
-| M014107 | P1248 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusTorsionPointsCorrespondValues` | build-observed |
-| M014109 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TraceEqSumFinrank` | build-observed |
-| M014110 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TraitSectionBasisDescendsFiniteDvrExtension` | build-observed |
-| M014111 | P1301 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TraitSectionBasisDescendsFiniteDvrExtensionStatement` | build-observed |
-| M014113 | P1534 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TripleStOfLaws` | build-observed |
-| M014116 | P0811 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TwistTerms` | build-observed |
-| M014120 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TwistTxEvEqMapArc` | volunteer-build-reviewed |
-| M014129 | P1445 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TwistedLabelsMatchOfLevelGeFourStatement` | volunteer-build-reviewed |
-| M014130 | P1059 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TwistedPowerSectionBasisBaseChange` | build-observed |

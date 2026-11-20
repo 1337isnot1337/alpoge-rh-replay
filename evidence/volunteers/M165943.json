@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M165943"
+  ],
+  "started_utc": "2026-11-20T23:02:13.375764+00:00",
+  "ended_utc": "2026-11-20T23:09:19.331282+00:00",
+  "elapsed_seconds": 425.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 10159536,
+    "peak_child_rss_kib": 5622540
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.FlagBundles.Statements:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f473765281362b7f9380bb8724da7b54ae85a8d353967f78a79fded6644b65bb",
+  "rebuilt_project_modules": [
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.ConsCompSuccAboveZero",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.ProjSpace",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.ProjTwist",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.ProjTwistAway",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexProjective",
+    "GroundTheory.HeightsAndTheta.Heights.FubiniStudyCharts",
+    "GroundTheory.HeightsAndTheta.Heights.FubiniStudyChern",
+    "GroundTheory.HeightsAndTheta.Heights.FubiniStudyMetric",
+    "GroundTheory.HeightsAndTheta.Heights.ProjTopology"
+  ],
+  "objects": {
+    "M165943": "0e850e9b2fac6c7f36f540e96b2bf926715dd77edce4ffdcfcf1180156070be0"
+  },
+  "bundle_sha256": "9c032a4197178e34c9eea74e5553bd3957c2ff4d691dc4b9e29ec68349ca3272",
+  "packet": "M165943",
+  "contributor": "drew2apps",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5675#issuecomment-7052859020",
+  "reviewed_utc": "2026-11-20T23:14:37.288577+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

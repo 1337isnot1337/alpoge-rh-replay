@@ -2,6 +2,24 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M010406 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MeanPairingEisensteinSimplePole` | volunteer-build-reviewed |
+| M010407 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MeanPairingLieDerivativeAntisymm` | volunteer-build-reviewed |
+| M010409 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MeanValueIneqRightTranslateRealPointNearOneStatement` | volunteer-build-reviewed |
+| M010410 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MeasurableSetTwistPlaceChainStepDatumMatrixSuppo` | volunteer-build-reviewed |
+| M010412 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemBlockUpperTriangularTwoIffLowerLeftZero` | volunteer-build-reviewed |
+| M010415 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemClosureHeckeSplitCongruenceOfFinPartOne` | volunteer-build-reviewed |
+| M010421 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemDoublingSiegelParabolicIffChartMemSiegelUnnStatement` | volunteer-build-reviewed |
+| M010423 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemFlagUnipotentRadicalIffSecondModelStatement` | volunteer-build-reviewed |
+| M010425 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemFlagUnipotentRadicalOfBesselNormalFrameLocalStatement` | volunteer-build-reviewed |
+| M010432 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemHyperspecialSubgroupAtPlaceIffLocalStabilizerStatement` | volunteer-build-reviewed |
+| M010439 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemIntegralGLIffIsUnitDetAtPrime` | volunteer-build-reviewed |
+| M010440 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemIntegralGLIffIsUnitDetAtPrimeStatement` | volunteer-build-reviewed |
+| M010448 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemLatticeStabilizerIffScaledFrameConjStatement` | volunteer-build-reviewed |
+| M010453 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemLevelIffSymmetricPositionEntryPatternStatement` | volunteer-build-reviewed |
+| M010460 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemMirabolicProjectionIffColSpaceAutToLocalGL` | volunteer-build-reviewed |
+| M010464 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemN1IffLocalHom` | volunteer-build-reviewed |
+| M010466 | P0296 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemOfForallRingEquivFixed` | volunteer-build-reviewed |
+| M010469 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemR1IffLocalHom` | volunteer-build-reviewed |
 | M010471 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemRangeAdjointOfMemSpanEvaluationValues` | volunteer-build-reviewed |
 | M010475 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemSchwartzAOfIsSchwartzBruhat` | volunteer-build-reviewed |
 | M010485 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemStabLocalizedStdLatticeIffIntegralGL` | volunteer-build-reviewed |
@@ -82,6 +100,7 @@
 | M012342 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingIntegralEqFiniteSumOverNumberField` | volunteer-build-reviewed |
 | M012343 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingIntegralEqFiniteSumOverNumberFieldStatement` | volunteer-build-reviewed |
 | M012344 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingIntegralPositionOneEqFiniteSum` | volunteer-build-reviewed |
+| M012360 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnipotentUpperInvUpperTriangularBounded` | volunteer-build-reviewed |
 | M012397 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitaryLiftedFlagBasisReduceModLevel` | volunteer-build-reviewed |
 | M012442 | P1145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnramifiedTwistSphericalFunctionReindex` | volunteer-build-reviewed |
 | M012480 | P1145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.WeightsRows` | volunteer-build-reviewed |
@@ -230,6 +249,7 @@
 | M012940 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFiniteNormalExtContainingAlgebraicElementsStatement` | volunteer-build-reviewed |
 | M012942 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFiniteSplitTorusExtensionOfTorusExtensionStatement` | volunteer-build-reviewed |
 | M012948 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFinsetOfPoint` | volunteer-build-reviewed |
+| M012949 | P0006 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsForallNeZeroOfCountableAnalytic` | volunteer-build-reviewed |
 | M012950 | P1534 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFormCorrectionNextThickeningLocal` | build-observed |
 | M012951 | P1561 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFormCorrectionNextThickeningLocalStatement` | build-observed |
 | M012952 | P1420 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFormCorrectionOfVanishingAfterBaseChange` | build-observed |
@@ -382,23 +402,3 @@
 | M013248 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSectionPullbackMulGenerator` | volunteer-build-reviewed |
 | M013250 | P1325 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSectionsBasisBaseChangeH1Vanishing` | build-observed |
 | M013251 | P1351 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSectionsBasisBaseChangeH1VanishingStatement` | build-observed |
-| M013260 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSemiAbelianModelSplitSpecialFibre` | volunteer-build-reviewed |
-| M013262 | P1504 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSemiAbelianSplitCubicalExtensionClosureStatement` | worker-kernel-checked |
-| M013263 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSemiAbelianTorusExtensionOfPotentialModel` | volunteer-build-reviewed |
-| M013264 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSemiAbelianTorusExtensionOfPotentialModelStatement` | volunteer-build-reviewed |
-| M013271 | P1220 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSmoothOfRelativeDimensionSpreadFromGeneric` | build-observed |
-| M013273 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSmoothTorusQuotientOfGoodOpenCover` | volunteer-build-reviewed |
-| M013274 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSmoothTorusQuotientOfGoodOpenCoverStatement` | volunteer-build-reviewed |
-| M013276 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSpecialFibreProjectionAbelianPart` | volunteer-build-reviewed |
-| M013277 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSpecialFibreProjectionAbelianPartStatement` | volunteer-build-reviewed |
-| M013281 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSplitTorusExtensionDescentGaloisInvariant` | volunteer-build-reviewed |
-| M013283 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSplitTorusKernelGenericFibre` | build-observed |
-| M013284 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSplitTorusKernelGenericFibreStatement` | build-observed |
-| M013286 | P1247 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsStrict` | build-observed |
-| M013289 | P0006 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSubMemMaximalIdeal` | wave-reused |
-| M013290 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSums` | volunteer-build-reviewed |
-| M013291 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymLiftGlobal` | volunteer-build-reviewed |
-| M013292 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymLiftGlobalStatement` | volunteer-build-reviewed |
-| M013293 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymPmaps` | volunteer-build-reviewed |
-| M013297 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymmetricSpreadOutLineBundleAbelianSchemeStatement` | volunteer-build-reviewed |
-| M013300 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymplecticLevelBaseChangePolarisedAbelian` | volunteer-build-reviewed |

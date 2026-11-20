@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M146684"
+  ],
+  "started_utc": "2026-11-20T22:57:33.972668+00:00",
+  "ended_utc": "2026-11-20T22:57:43.972786+00:00",
+  "elapsed_seconds": 10.0,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.HermitianCurvature.HermitianCurvatureProofs.NormIteratedFDerivWithinInvOneLe:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 3206852
+  },
+  "source_sha256": "1c8375a6d1d26ccef41cd0cc07f3495397ae5423c053ed6e44322f3ef756554b",
+  "log_sha256": "bcbdbef00bc0cb98ba77134eb4ff6a76d8bd1811152c12b35e96a9da33389858",
+  "objects": {
+    "M146684": "05d3a80c65fadc74c9b3f48d5dc393589fa28ac2817189765d6864b73e210f38"
+  },
+  "rebuilt_project_modules": [
+    "Formalism.HermitianCurvature.HermitianCurvatureProofs.IntegralIteratedFDerivEqZero"
+  ],
+  "bundle_sha256": "ad4b9ad1c942287b5e7812c1124ff6a7c9ec1ca27dc7cc9dda6a52d06f78b16a",
+  "packet": "M146684",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5519#issuecomment-7052676417",
+  "reviewed_utc": "2026-11-20T23:15:03.930898+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

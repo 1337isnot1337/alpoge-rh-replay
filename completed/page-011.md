@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M014079 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorsionPointsSpecialFibreSupportCoordinatesStatement` | wave-reused |
+| M014084 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorsionValuesCoordsOperatorPermute` | volunteer-build-reviewed |
+| M014085 | P1086 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorsionValuesCoordsOperatorPermuteStatement` | wave-reused |
+| M014087 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusCoordUnitAndSectionEqExpansionStatement` | volunteer-build-reviewed |
+| M014088 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusCutByInvariantRatiosField` | volunteer-build-reviewed |
+| M014089 | P1086 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusCutByInvariantRatiosFieldStatement` | build-observed |
+| M014096 | P1691 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusExtensionTorsionMemUnitThetaConstantGroup` | build-observed |
+| M014097 | P1715 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusExtensionTorsionMemUnitThetaConstantGroupStatement` | build-observed |
+| M014098 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusIsAffineHomAndSplitsFinite` | volunteer-build-reviewed |
+| M014101 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusPointWithCharactersIffPullDeg` | volunteer-build-reviewed |
+| M014105 | P1086 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusStableWeightsGenericFibre` | build-observed |
+| M014106 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusStableWeightsGenericFibreStatement` | build-observed |
+| M014107 | P1248 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TorusTorsionPointsCorrespondValues` | build-observed |
+| M014109 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TraceEqSumFinrank` | build-observed |
+| M014110 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TraitSectionBasisDescendsFiniteDvrExtension` | build-observed |
+| M014111 | P1301 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TraitSectionBasisDescendsFiniteDvrExtensionStatement` | build-observed |
+| M014113 | P1534 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TripleStOfLaws` | build-observed |
+| M014116 | P0811 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TwistTerms` | build-observed |
+| M014120 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TwistTxEvEqMapArc` | volunteer-build-reviewed |
+| M014129 | P1445 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TwistedLabelsMatchOfLevelGeFourStatement` | volunteer-build-reviewed |
+| M014130 | P1059 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TwistedPowerSectionBasisBaseChange` | build-observed |
 | M014132 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TxCosetCriterion` | volunteer-build-reviewed |
 | M014134 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TxStOfPtSt` | build-observed |
 | M014135 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UnEqOfFineCharts` | volunteer-build-reviewed |
@@ -55,7 +76,9 @@
 | M014490 | P1534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbsFactorialMulEulerCharTwistPowSubLeStatement` | wave-reused |
 | M014491 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbsFactorialMulEvalSubTopLe` | wave-reused |
 | M014501 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbsIntClosedLocalizationAndQuotient` | volunteer-build-reviewed |
+| M014510 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbsNormEqProd` | volunteer-build-reviewed |
 | M014516 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbsNormMapRingOfIntegersHom` | volunteer-build-reviewed |
+| M014536 | P1420 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbsolutelyIntegrallyClosedDomainTateTwistAcyclic` | build-observed |
 | M014537 | P1445 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbsolutelyIntegrallyClosedDomainTateTwistAcyclicStatement` | volunteer-build-reviewed |
 | M014554 | P0918 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AcycFOfPiSh` | wave-reused |
 | M014555 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AcycFOfPiShStatement` | wave-reused |
@@ -92,6 +115,7 @@
 | M014999 | P1445 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicSchwartzRestrictTranslatedDiagonalMemStatement` | volunteer-build-reviewed |
 | M015027 | P1445 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicUnitaryCharacterTrivialAtNonsplitPlaceStatement` | volunteer-build-reviewed |
 | M015052 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdicCompletionTensorQuotientRingEquiv` | volunteer-build-reviewed |
+| M015053 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdicCompletionTensorQuotientRingEquivStatement` | volunteer-build-reviewed |
 | M015055 | P1445 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdicIntegralTensorBasisHenselExistsUniqueSqrtStatement` | volunteer-build-reviewed |
 | M015057 | P1445 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdicIntegralTensorBasisIffExistsIntegralMultipleStatement` | volunteer-build-reviewed |
 | M015059 | P1445 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdicIntegralTensorBasisOfTraceMemEventuallyStatement` | volunteer-build-reviewed |
@@ -122,6 +146,7 @@
 | M015204 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AffineInterFiniteBasicOpenCoverStatement` | volunteer-build-reviewed |
 | M015206 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AffineLineMorphismConstantOfConstOnNonzeroStatement` | volunteer-build-reviewed |
 | M015209 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AffineOpenExistsFieldPointBasicOpenCommonDenomAl` | volunteer-build-reviewed |
+| M015243 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AffineSpaceSmoothNormal` | volunteer-build-reviewed |
 | M015250 | P0785 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AinfCoefficientPsiProperty` | wave-reused |
 | M015251 | P0811 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AinfCoefficientPsiPropertyStatement` | wave-reused |
 | M015252 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AinfElementThetaCompatible` | wave-reused |
@@ -254,6 +279,7 @@
 | M016351 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveLocallyConstantComapAlgClosureTensorOfHStatement` | build-observed |
 | M016352 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveMultiplicativeGroupSectionsUnits` | wave-reused |
 | M016353 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveMultiplicativeGroupSectionsUnitsStatement` | wave-reused |
+| M016354 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveOfInjectiveModMaximal` | volunteer-build-reviewed |
 | M016355 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveOfLTensorFlatFamily` | volunteer-build-reviewed |
 | M016357 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveOfSplitInjectiveFgProjectiveConstantRan` | volunteer-build-reviewed |
 | M016358 | P0892 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveOfSplitInjectiveFgProjectiveConstantRanStatement` | build-observed |
@@ -286,6 +312,7 @@
 | M016647 | P1504 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedDenominatorsNonzeroTerms` | build-observed |
 | M016652 | P1373 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedEigenvaluesClasses` | build-observed |
 | M016653 | P1396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedEigenvaluesClassesStatement` | build-observed |
+| M016654 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedEntriesIsCompact` | volunteer-build-reviewed |
 | M016670 | P1195 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedPluriharmonicExtendsSmoothlyStatement` | volunteer-build-reviewed |
 | M016699 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoxMonomialFamilyProdMemNormBallOfExponentLtStatement` | volunteer-build-reviewed |
 | M016827 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CapelliDetEqLinearCombinationNatNodes` | volunteer-build-reviewed |
@@ -312,6 +339,7 @@
 | M016914 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardSmulTwistedProjectorMemIntegralFormsStatement` | volunteer-build-reviewed |
 | M016917 | P1145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardSqModPrime` | volunteer-build-reviewed |
 | M016918 | P1171 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardSqModPrimeStatement` | build-observed |
+| M016919 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardSubtypeEqOfMultiset` | volunteer-build-reviewed |
 | M016922 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardTorsionBySetPowOfDivisibleNumberField` | volunteer-build-reviewed |
 | M016923 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardTorsionBySetPowOfDivisibleNumberFieldStatement` | volunteer-build-reviewed |
 | M016932 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardTorsionTorusExtensionAbelianVarietyLeStatement` | volunteer-build-reviewed |
@@ -374,31 +402,3 @@
 | M017336 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsBasicStatement` | wave-reused |
 | M017337 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsCechNerveQuasiIsoOfSmoothSurjective` | wave-reused |
 | M017338 | P0706 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsCechNerveQuasiIsoOfSmoothSurjectiveStatement` | wave-reused |
-| M017339 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsCechNerveQuasiIsoOfSurjective` | wave-reused |
-| M017340 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsCechNerveQuasiIsoOfSurjectiveStatement` | wave-reused |
-| M017342 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsIsoOfFreeIso` | wave-reused |
-| M017346 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsQuasiIsoOfSections` | wave-reused |
-| M017369 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterAugmentationSubspaceQuotientActionTopStatement` | volunteer-build-reviewed |
-| M017371 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterAugmentationSubspaceTopEqKerSmulStatement` | volunteer-build-reviewed |
-| M017379 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterExpansionWeightCompatStatement` | volunteer-build-reviewed |
-| M017410 | P1145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterSumLocalConstantEleventh` | volunteer-build-reviewed |
-| M017417 | P1145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterSumLocalConstantSecondStatement` | volunteer-build-reviewed |
-| M017422 | P1145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterSumLocalConstantThird` | volunteer-build-reviewed |
-| M017423 | P1145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterSumLocalConstantTwelfth` | volunteer-build-reviewed |
-| M017440 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharmatrixBlockDiagonal` | wave-reused |
-| M017445 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyCoeffsValuedBoundedOnCompactGLStatement` | volunteer-build-reviewed |
-| M017453 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyDvdPowOfAevalEqZero` | volunteer-build-reviewed |
-| M017456 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyEqOfHermitianMultiplicationModelStatement` | volunteer-build-reviewed |
-| M017457 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyEqOfIntertwined` | wave-reused |
-| M017461 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyEqPowOfIrreducible` | volunteer-build-reviewed |
-| M017462 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyEqQuotientCharpolyPow` | volunteer-build-reviewed |
-| M017463 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyEqQuotientCharpolyPowStatement` | wave-reused |
-| M017466 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyIntegralUnitConstCoeffOfMemMaxCompactStatement` | volunteer-build-reviewed |
-| M017471 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyMulLeftGeneratorEqMapSymmStatement` | volunteer-build-reviewed |
-| M017476 | P1373 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyTensorLeftMulConjOneTmul` | build-observed |
-| M017477 | P1396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyTensorLeftMulConjOneTmulStatement` | build-observed |
-| M017486 | P1301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartBundleQuotientEquivalence` | build-observed |
-| M017493 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartDensityContinuousAtZeroEqOne` | build-observed |
-| M017494 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartDensityContinuousAtZeroEqOneStatement` | build-observed |
-| M017497 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartEvNmulPowSelf` | volunteer-build-reviewed |
-| M017523 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartMapIntoAffineConstStatement` | volunteer-build-reviewed |

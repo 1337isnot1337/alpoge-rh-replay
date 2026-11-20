@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M154095"
+  ],
+  "started_utc": "2026-11-20T23:04:32.880071+00:00",
+  "ended_utc": "2026-11-20T23:04:40.436357+00:00",
+  "elapsed_seconds": 7.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 63244524,
+    "peak_child_rss_kib": 7212756
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.SqPair:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fa7b83705e15bd7d320c351ab8b103d731fcb4c4c55426c0b9ddd1532ad14939",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.PairingIndexBounds.SplitPairEquations.SplitPairGen",
+    "Formalism.PeriodIntegrals.CMTraceOnto"
+  ],
+  "objects": {
+    "M154095": "48e803278a47acabd9ad2b5662f64fb7abbf57299cd2ebc52c8745878822b2d3"
+  },
+  "bundle_sha256": "349a50ca6166a6cbda8b66f1e86344ae9341f13d9d059f7d39bde34d39edbe9d",
+  "packet": "M154095",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5750#issuecomment-7052781444",
+  "reviewed_utc": "2026-11-20T23:14:24.353915+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

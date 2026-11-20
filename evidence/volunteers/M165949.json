@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M165949"
+  ],
+  "started_utc": "2026-11-20T23:02:13.654171+00:00",
+  "ended_utc": "2026-11-20T23:09:17.013392+00:00",
+  "elapsed_seconds": 423.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 10159536,
+    "peak_child_rss_kib": 5620428
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.FlagBundles.UniformIccIsProbabilityMeasure:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f4aa12ec7dddbacf72c247055b831c2c212aad8477fe949557ea2f2418fa6267",
+  "rebuilt_project_modules": [
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.ConsCompSuccAboveZero",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.ProjSpace",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.ProjTwist",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.ProjTwistAway",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexProjective",
+    "GroundTheory.HeightsAndTheta.Heights.FubiniStudyCharts",
+    "GroundTheory.HeightsAndTheta.Heights.FubiniStudyChern",
+    "GroundTheory.HeightsAndTheta.Heights.FubiniStudyMetric",
+    "GroundTheory.HeightsAndTheta.Heights.ProjTopology"
+  ],
+  "objects": {
+    "M165949": "045c7f782cf38c1345a1795fed496e2e79544ac32668cb974bfd5df5f23f67ae"
+  },
+  "bundle_sha256": "335cc2972ae090d8d7805ad22bb53d285ae43550eedd04b6ca057cc17b08597d",
+  "packet": "M165949",
+  "contributor": "drew2apps",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5677#issuecomment-7052853060",
+  "reviewed_utc": "2026-11-20T23:14:37.216375+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M051130"
+  ],
+  "started_utc": "2026-11-20T23:06:22.412492+00:00",
+  "ended_utc": "2026-11-20T23:06:37.973180+00:00",
+  "elapsed_seconds": 15.5,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 6544124
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.StalkMapFlatFormallyEtaleEssFiniteTypeOfEtaleRes:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d956db95960a98b4e8dbee8f8696d53318a2973715d936fa12aa905e5f8cd7a3",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M051130": "ccb5dccaa2e9c3c7e43fd5a4048ec4785508c679553803fdf24c02cc48f5f8a0"
+  },
+  "bundle_sha256": "212bebab88c3d3bc25756c9f9a0776911aaaa8fdcb6ee0f763d7bf043c08482f",
+  "packet": "M051130",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5775#issuecomment-7052809638",
+  "reviewed_utc": "2026-11-20T23:14:20.981260+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}
