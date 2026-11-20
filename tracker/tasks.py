@@ -2,6 +2,7 @@
 """Look up module-sized replay tasks, reserve work and produce receipts."""
 from collections import Counter
 from pathlib import Path
+from shutil import which
 import argparse,datetime,gzip,hashlib,json,os,re,subprocess,sys,tarfile,urllib.request
 base=Path(__file__).resolve().parent
 repo='rohanarun/alpoge-rh-replay'
@@ -40,18 +41,37 @@ def cold_modules(rows, busy):
     ranked = sorted(leaves, key=lambda task: (-sole[task], -direct[task], task))
     return [(leaves[task], sole[task], direct[task]) for task in ranked]
 
+def open_issues():
+    route = f'repos/{repo}/issues?state=open&per_page=100'
+    cli = which('gh')
+    if cli and subprocess.run([cli, 'auth', 'status', '--hostname', 'github.com'],
+                              stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).returncode == 0:
+        output = subprocess.check_output(
+            [cli, 'api', '--hostname', 'github.com', '--paginate', '--slurp', route],
+            text=True,
+        )
+        for page in json.loads(output):
+            yield from page
+        return
+
+    url = 'https://api.github.com/' + route
+    while url:
+        request = urllib.request.Request(url, headers={'User-Agent': 'rh-replay-tracker'})
+        with urllib.request.urlopen(request, timeout=25) as response:
+            yield from json.load(response)
+            match = re.search(r'<([^>]+)>; rel="next"', response.headers.get('Link', ''))
+            url = match[1] if match else None
+
+
 def claims():
- url=f'https://api.github.com/repos/{repo}/issues?state=open&per_page=100'
- refs=set()
- while url:
-  with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'rh-replay-tracker'}),timeout=25) as response:
-   for issue in json.load(response):
-    if 'pull_request' not in issue:
-     m=re.fullmatch(r'Claim (M\d{6}|P\d{4})',issue['title'])
-     if m:refs.add(m[1])
-   match=re.search(r'<([^>]+)>; rel="next"',response.headers.get('Link',''))
-   url=match[1] if match else None
- return refs
+    refs = set()
+    for issue in open_issues():
+        if 'pull_request' not in issue:
+            match = re.fullmatch(r'Claim (M\d{6}|P\d{4})', issue['title'])
+            if match:
+                refs.add(match[1])
+    return refs
+
 def run(targets,checkout,out,bundle,fast_bundle=False):
  project=checkout.resolve();output=out.resolve();output.mkdir(parents=True,exist_ok=False)
  dirs=project.parent
