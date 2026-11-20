@@ -8,9 +8,9 @@ The full source build, axiom audit and fresh-kernel verification of RH are pendi
 
 The coordinator provisioned one primary and 31 helpers. The first wave reserved up to 11,114 project modules beyond its initial build snapshot. A completed helper bundle becomes evidence of successful reuse when the primary accepts it with rebuilding disabled.
 
-| Helper | Batch target | Project modules including prerequisites | Last observed state |
 29 helpers published bundles and 2 were last seen compiling. The primary selected 29 ready bundles covering 11,114 distinct modules for transfer, checksum checks, and a Lake reuse check.
 
+| Helper | Batch target | Project modules including prerequisites | Last observed state |
 |---|---|---:|---|
 | 1 | `GroundTheory.ProfiniteCohomology.PoitouTate.RealEvenLevel` | 772 | compiling |
 | 2 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.ZeroSetChartIdealEqChartSetStatement` | 689 | ready |
