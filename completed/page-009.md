@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M012756 | P0785 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DegenerationDataPsiQuadraticGeneratorsLinear` | build-observed |
+| M012757 | P0811 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DegenerationDataPsiQuadraticGeneratorsLinearStatement` | build-observed |
+| M012759 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DegenerationDataTorsionStructureAlgClosedStatement` | volunteer-build-reviewed |
+| M012761 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DegenerationIsoCommInducedLabelMapsStatement` | volunteer-build-reviewed |
+| M012768 | P0785 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DegenerationWeilPairingProperties` | build-observed |
+| M012769 | P0811 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DegenerationWeilPairingPropertiesStatement` | build-observed |
+| M012770 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DegreeFormsDimensionGenericFibreLe` | volunteer-build-reviewed |
+| M012771 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DegreeFormsDimensionGenericFibreLeStatement` | volunteer-build-reviewed |
+| M012772 | P1273 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DifferentiableQuot` | build-observed |
+| M012774 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DivIffMemNonzeroLocusStatement` | volunteer-build-reviewed |
+| M012783 | P0679 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.EqOfValHomEq` | wave-reused |
+| M012784 | P0649 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.EqOfWeightEq` | wave-reused |
 | M012790 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.EvalTwistTxEqZeroOfAevalArcTx` | volunteer-build-reviewed |
 | M012792 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsAbelianFibreIsoOfMatchedTorsionThetaStatement` | volunteer-build-reviewed |
 | M012794 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsAbelianPartIsoThetaSectionScaleStatement` | volunteer-build-reviewed |
@@ -352,6 +364,7 @@
 | M013547 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HasWtZero` | volunteer-build-reviewed |
 | M013552 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HomDescendsToSubfieldContainingFinsetStatement` | volunteer-build-reviewed |
 | M013553 | P1220 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HomExtOfIntegralRatios` | build-observed |
+| M013554 | P0947 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HomExtOfIsOpenImmersion` | build-observed |
 | M013555 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HomGenericPoint` | volunteer-build-reviewed |
 | M013557 | P0811 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HomTransport` | build-observed |
 | M013558 | P0839 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HomTransportStatement` | build-observed |
@@ -384,21 +397,8 @@
 | M013615 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsImmersionProjSpaceOfLocalLinearChangeStatement` | volunteer-build-reviewed |
 | M013616 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsIntegralOfWeightZeroCoordinateDominates` | wave-reused |
 | M013617 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsIntegralOfWeightZeroCoordinateDominatesStatement` | volunteer-build-reviewed |
+| M013619 | P0947 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsIntegrallyClosedStalkOfRingOn` | build-observed |
 | M013620 | P0550 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsIsoGenericOfDenseFibres` | build-observed |
 | M013621 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsIsoMorphismRestrictOfLocalDominantSections` | volunteer-build-reviewed |
 | M013622 | P0759 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsIsoOfIsClosedImmersion` | build-observed |
 | M013624 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsLevelStructureOfGenericOfFibrewiseIndep` | volunteer-build-reviewed |
-| M013625 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsLevelStructureOfGenericOfFibrewiseIndepStatement` | volunteer-build-reviewed |
-| M013626 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsLinCombIffPullbackMulGenerator` | volunteer-build-reviewed |
-| M013631 | P0947 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsMaximalComapMaximalIdealOO` | wave-reused |
-| M013632 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsMonHomGenericFibreKernelTorus` | build-observed |
-| M013633 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsMonHomGenericFibreKernelTorusStatement` | volunteer-build-reviewed |
-| M013634 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsMonHomOfPG` | volunteer-build-reviewed |
-| M013635 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsMonHomPointedSplitExtToAbelianVariety` | volunteer-build-reviewed |
-| M013636 | P0892 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsMonHomPointedSplitExtToAbelianVarietyStatement` | build-observed |
-| M013643 | P0649 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsPartPartSec` | wave-reused |
-| M013644 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsPrimitiveRootUnitOnIff` | volunteer-build-reviewed |
-| M013646 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsProperIffOfSplit` | volunteer-build-reviewed |
-| M013647 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsProperOfPowerSeriesArcsOverAlgClosed` | volunteer-build-reviewed |
-| M013651 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsPtNsmul` | volunteer-build-reviewed |
-| M013653 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsPurePullbackSectionMulWeightGeneratorStatement` | volunteer-build-reviewed |

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M041069"
+  ],
+  "started_utc": "2026-11-20T22:17:25.637152+00:00",
+  "ended_utc": "2026-11-20T22:17:39.794466+00:00",
+  "elapsed_seconds": 14.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 22497852,
+    "peak_child_rss_kib": 6589312
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.LiftAt:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "56597d6e08d0cb87ae863a8a4d9657600a7eaeea4b84ff429e00b09e47728d9c",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsCompletedStrictHens"
+  ],
+  "objects": {
+    "M041069": "6a8e31b455336491baf5b66b9c2c00a90eeb5779955313c8d5f6c307a94aae76"
+  },
+  "bundle_sha256": "ad8f45d1ccd45827236b361e79e790a5a067b40bc22c32a5b1945fa3a10663b0",
+  "packet": "M041069",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4267#issuecomment-7051961485",
+  "reviewed_utc": "2026-11-20T22:22:54.934755+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

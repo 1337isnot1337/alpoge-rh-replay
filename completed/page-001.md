@@ -9,6 +9,7 @@
 | M000005 | P0001 | `BuildAid.D5` | volunteer-build-reviewed |
 | M000008 | P0757 | `CompanionTheory.AutomorphicTheory.BesselOrbitBounds.BesselMapUniqueness.ContinuousOnOrbit` | volunteer-build-reviewed |
 | M000009 | P0757 | `CompanionTheory.AutomorphicTheory.BesselOrbitBounds.BesselMapUniqueness.NormPsiGen` | volunteer-build-reviewed |
+| M000010 | P2013 | `CompanionTheory.AutomorphicTheory.BesselOrbitBounds.BesselMapUniqueness.OrbitMult` | volunteer-build-reviewed |
 | M000011 | P0783 | `CompanionTheory.AutomorphicTheory.BesselOrbitBounds.BesselMapUniqueness.ProdNormLe` | volunteer-build-reviewed |
 | M000016 | P0757 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.CfgTie` | volunteer-build-reviewed |
 | M000026 | P0172 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.Bracket` | volunteer-build-reviewed |
@@ -196,6 +197,8 @@
 | M000497 | P0172 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.InPCommutatorOfInK` | volunteer-build-reviewed |
 | M000499 | P0293 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.PolarUH` | volunteer-build-reviewed |
 | M000500 | P0237 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.SecondCountableQuotients.ModExists` | volunteer-build-reviewed |
+| M000503 | P0435 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.SecondCountableQuotients.SGroup` | volunteer-build-reviewed |
+| M000505 | P0615 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.SigmaFiniteQuotients.Exists` | volunteer-build-reviewed |
 | M000507 | P0293 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.SmoothCyclicVectors.IntegralMemOfIsClosed` | volunteer-build-reviewed |
 | M000511 | P0237 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.SmoothCyclicVectors.SmoothVec` | volunteer-build-reviewed |
 | M000512 | P0346 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.UniformCoefficientBounds.CoefBoundUniform` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M001012 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramMatrixLocalGlobalStatement` | volunteer-build-reviewed |
 | M001015 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramRightActionIdentities` | volunteer-build-reviewed |
 | M001016 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramRightActionIdentitiesStatement` | volunteer-build-reviewed |
-| M001017 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramRightMulActionLaws` | volunteer-build-reviewed |
-| M001018 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramRightMulActionLawsStatement` | volunteer-build-reviewed |
-| M001019 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramTransposeDualTraceIdentity` | volunteer-build-reviewed |

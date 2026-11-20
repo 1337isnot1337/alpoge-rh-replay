@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006081 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IrreducibleIdempotentEqOneAndCharacterEqWeightAl` | wave-reused |
+| M006082 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IrreducibleIdempotentEqOneAndCharacterEqWeightAlStatement` | wave-reused |
+| M006083 | P0784 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IrreducibleOfVirtualCharacterNormOne` | wave-reused |
+| M006084 | P0811 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IrreducibleOfVirtualCharacterNormOneStatement` | wave-reused |
+| M006085 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsAbelianByPrimePowerGroupSubgroup` | wave-reused |
+| M006086 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsAbelianByPrimePowerGroupSubgroupStatement` | wave-reused |
+| M006087 | P0583 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharOfIsPrimitiveRoot` | wave-reused |
+| M006088 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharTraceMulIdempotent` | wave-reused |
+| M006089 | P0348 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterBrauerLiftAbelianByPrimePower` | wave-reused |
+| M006090 | P0918 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterCuspidalRootSumRegular` | wave-reused |
 | M006091 | P0946 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterCuspidalRootSumRegularStatement` | build-observed |
 | M006092 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterEsymmRootsCharpoly` | wave-reused |
 | M006093 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterFinsumConjSubgroupFunctionExtendByZer` | wave-reused |
@@ -194,6 +204,7 @@
 | M006290 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.FlatQuotSMulTopCokerOfMatrixWitnesses` | wave-reused |
 | M006291 | P0098 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.FreeYonedaHomEquivFreeToPullbackComp` | wave-reused |
 | M006293 | P0436 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.HigherDirectImagesVanishOfIsAffineHom` | wave-reused |
+| M006294 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ISmulOneMemUnitaryLie` | volunteer-build-reviewed |
 | M006295 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.Imports` | wave-reused |
 | M006296 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.IntegralAgainstLinearApply` | volunteer-build-reviewed |
 | M006297 | P0176 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.IsAffineHomOfIsPullbackSpecMap` | wave-reused |
@@ -243,6 +254,7 @@
 | M006354 | P1324 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.NonemptyPerfectSectionsComplexOfNoetherianStatement` | build-observed |
 | M006355 | P1395 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.OneLeFinrankSecM` | wave-reused |
 | M006356 | P1420 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.OneLeFinrankSecMStatement` | wave-reused |
+| M006358 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.OrdFracEqValuationInvOfIsLocalization` | build-observed |
 | M006359 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.PredMulSumPadicValNatFactorialAddCardLe` | wave-reused |
 | M006360 | P0348 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.PresheafCubeExactAtSuccOfSurjective` | wave-reused |
 | M006361 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ProjectiveOfIsLocallyConstantFinrankFiber` | wave-reused |
@@ -390,15 +402,3 @@
 | M006708 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPureVectorsPeriodsSpan` | volunteer-build-reviewed |
 | M006715 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsSecGeneric` | volunteer-build-reviewed |
 | M006717 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTateIsoZetaEq` | volunteer-build-reviewed |
-| M006718 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTensorBundle` | volunteer-build-reviewed |
-| M006724 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTorsionFieldExtStatement` | volunteer-build-reviewed |
-| M006734 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueExtendRingOfIntegersHom` | volunteer-build-reviewed |
-| M006735 | P1246 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueHomOfIsGrpPullback` | build-observed |
-| M006736 | P0616 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueLinearLiftOfHolomorphicAbelianVariet` | wave-reused |
-| M006737 | P0649 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueLinearLiftOfHolomorphicAbelianVarietStatement` | build-observed |
-| M006740 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUnitMul` | wave-reused |
-| M006743 | P1114 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsWeierstrassCoordinatesOnLine` | build-observed |
-| M006744 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsWeierstrassCoordinatesOnLineStatement` | build-observed |
-| M006749 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.FinrankInt` | volunteer-build-reviewed |
-| M006754 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.GramStdBasisPosDefAndHq` | volunteer-build-reviewed |
-| M006756 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HasTypeBaseChange` | volunteer-build-reviewed |

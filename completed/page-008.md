@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M008913 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSummableBoundSchwartzMajorantRationalTrans` | volunteer-build-reviewed |
+| M008934 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsTopologicalIsoParahoricChartSplitPlace` | volunteer-build-reviewed |
+| M008937 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsTraceZeroLocalNormMulIntegralUnitStatement` | volunteer-build-reviewed |
+| M008950 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsTwistIndexRepresentativeOfBounds` | volunteer-build-reviewed |
+| M008961 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUniqueCompletionMatrixOfRationalTwistAut` | volunteer-build-reviewed |
+| M008963 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUniqueSphericalDoublingSectionUnramified` | volunteer-build-reviewed |
+| M008974 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUnitaryEmbeddingPreimageOfFixesAnisotropicStatement` | volunteer-build-reviewed |
+| M008980 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUnitaryIsometryIsotropicFrameLocalRingStatement` | volunteer-build-reviewed |
+| M008995 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsWeilDatumHermitianSpaceDoubledStatement` | volunteer-build-reviewed |
+| M008999 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsWeilSourceActionAndSmoothStatement` | volunteer-build-reviewed |
+| M009002 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExtXCastAdd` | volunteer-build-reviewed |
+| M009016 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExtensionAdeleRealComponentsCmTypeStatement` | volunteer-build-reviewed |
 | M009040 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteAnnihilatorOpenSubgroupInBox` | volunteer-build-reviewed |
 | M009041 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteAnnihilatorOpenSubgroupInBoxStatement` | volunteer-build-reviewed |
 | M009059 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteDimensionalSpanMultilinearValues` | volunteer-build-reviewed |
@@ -390,15 +402,3 @@
 | M012748 | P1273 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.CubNFrame` | build-observed |
 | M012749 | P0785 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.CubNSucc` | build-observed |
 | M012755 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DegenerationDataIsoOfTwoWitnessesStatement` | volunteer-build-reviewed |
-| M012756 | P0785 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DegenerationDataPsiQuadraticGeneratorsLinear` | build-observed |
-| M012757 | P0811 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DegenerationDataPsiQuadraticGeneratorsLinearStatement` | build-observed |
-| M012759 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DegenerationDataTorsionStructureAlgClosedStatement` | volunteer-build-reviewed |
-| M012761 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DegenerationIsoCommInducedLabelMapsStatement` | volunteer-build-reviewed |
-| M012768 | P0785 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DegenerationWeilPairingProperties` | build-observed |
-| M012769 | P0811 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DegenerationWeilPairingPropertiesStatement` | build-observed |
-| M012770 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DegreeFormsDimensionGenericFibreLe` | volunteer-build-reviewed |
-| M012771 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DegreeFormsDimensionGenericFibreLeStatement` | volunteer-build-reviewed |
-| M012772 | P1273 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DifferentiableQuot` | build-observed |
-| M012774 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.DivIffMemNonzeroLocusStatement` | volunteer-build-reviewed |
-| M012783 | P0679 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.EqOfValHomEq` | wave-reused |
-| M012784 | P0649 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.EqOfWeightEq` | wave-reused |

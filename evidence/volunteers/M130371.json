@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M130371"
+  ],
+  "started_utc": "2026-11-20T22:07:52.749154+00:00",
+  "ended_utc": "2026-11-20T22:15:30.738040+00:00",
+  "elapsed_seconds": 457.9,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 8024536,
+    "peak_child_rss_kib": 6153272
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUnitOfSumEqOne:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b843b15c925f42e9030d4fe632edac7a72ed2eb5c3c963aa5cc183f098e681c0",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.DetMulExpand",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ProdUpdateDiv"
+  ],
+  "objects": {
+    "M130371": "f64769fe1b1d08dea785c18963cbe25e70b024befa10c373b94e520dd7d1e71e"
+  },
+  "bundle_sha256": "c86aed9e60508c27679673597907ab58d4f697bca666cf575d04798623005be9",
+  "packet": "M130371",
+  "contributor": "BenCaunt",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/3975#issuecomment-7051923747",
+  "reviewed_utc": "2026-11-20T22:23:11.045452+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002365 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.ThetaWeightHeightConstants` | volunteer-build-reviewed |
+| M002367 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.UnitaryVolumePairs` | volunteer-build-reviewed |
+| M002369 | P1001 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.WeilIdempotents` | build-observed |
+| M002370 | P1001 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.WordDerivatives` | build-observed |
 | M002374 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.BalancedHermitianSpace` | volunteer-build-reviewed |
 | M002379 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.ConjugateKernelCount` | volunteer-build-reviewed |
 | M002382 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.DegreeProportionalWords` | wave-reused |
@@ -117,6 +121,7 @@
 | M002932 | P0783 | `Development.AbelianVarietyTheory.Counterexamples.NonGaloisSurvey.MemTypeSubspaceIffUnipotentCharacter` | volunteer-build-reviewed |
 | M002941 | P0917 | `Development.AbelianVarietyTheory.Counterexamples.PlaceInjectivity.StandardDeterminantUnits` | build-observed |
 | M002961 | P1349 | `Development.AbelianVarietyTheory.Counterexamples.TwistSurvey.ConjModelCast` | build-observed |
+| M002974 | P0582 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.NonemptyAlgebra` | build-observed |
 | M002978 | P0475 | `Development.AbelianVarietyTheory.CrystallinePeriods.AdicMaps` | wave-reused |
 | M002979 | P0515 | `Development.AbelianVarietyTheory.CrystallinePeriods.CrisIncl` | wave-reused |
 | M002980 | P0475 | `Development.AbelianVarietyTheory.CrystallinePeriods.CrisLoc` | wave-reused |
@@ -182,6 +187,7 @@
 | M003222 | P0784 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.LocalPrimeGaloisActionPeriodT` | wave-reused |
 | M003235 | P0347 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.MonodromyZeroOfWeilDeligneRepClassIff` | wave-reused |
 | M003240 | P0865 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NStageTrivialCharacterCoeffEq` | build-observed |
+| M003244 | P1472 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NonemptyExt` | build-observed |
 | M003246 | P0002 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NonemptyRayDataOfNeZero` | volunteer-build-reviewed |
 | M003266 | P0865 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NuInRange` | build-observed |
 | M003275 | P1271 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.PlaceCharacterEqReferenceIff` | build-observed |
@@ -250,6 +256,7 @@
 | M003477 | P0347 | `Development.AbelianVarietyTheory.Definitions.Divisors.DivisorSupportCondition` | wave-reused |
 | M003485 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.EllFamNontrivial` | volunteer-build-reviewed |
 | M003487 | P0515 | `Development.AbelianVarietyTheory.Definitions.Divisors.EntireEqOfHalfPlane` | wave-reused |
+| M003489 | P1419 | `Development.AbelianVarietyTheory.Definitions.Divisors.EqOfSpecializesOfFinite` | build-observed |
 | M003490 | P0891 | `Development.AbelianVarietyTheory.Definitions.Divisors.EqZeroOfForallPowDvd` | wave-reused |
 | M003494 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.EtaleEmpty` | wave-reused |
 | M003498 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsAlgHomOfIsBaseChange` | wave-reused |
@@ -395,10 +402,3 @@
 | M004071 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsDCReps` | wave-reused |
 | M004072 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsFirstChernClassOfLineBundle` | wave-reused |
 | M004073 | P0731 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsFockIPOfFockData` | build-observed |
-| M004074 | P0173 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsHermND` | wave-reused |
-| M004075 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsHilbertSchmidtOfFiniteDimensional` | volunteer-build-reviewed |
-| M004076 | P0239 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsIntegralIff` | wave-reused |
-| M004077 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsIwasawaOfIsCompact` | volunteer-build-reviewed |
-| M004083 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsOneCocycleOnSubgroup` | volunteer-build-reviewed |
-| M004087 | P0239 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsRootOne` | volunteer-build-reviewed |
-| M004088 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsSatFrame` | volunteer-build-reviewed |

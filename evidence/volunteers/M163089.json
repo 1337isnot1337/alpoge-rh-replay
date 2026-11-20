@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M163089"
+  ],
+  "started_utc": "2026-11-20T22:20:27.026308+00:00",
+  "ended_utc": "2026-11-20T22:20:41.377818+00:00",
+  "elapsed_seconds": 14.4,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6651684
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.GlobalFields.ComplexMultiplication.AutCFixed:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c0ef1c18b286d31666f908dfeda2d5f5d29f783e86ed53cf34dfa67d5a5c64e8",
+  "rebuilt_project_modules": [
+    "GroundTheory.GlobalFields.ComplexMultiplication.ExistsRingEquivExtendOfIsTranscendenceBasis"
+  ],
+  "objects": {
+    "M163089": "34e63c535cbadbcc1a95722cc79503402da23910c4d56c665fc796f4ec09a7ef"
+  },
+  "bundle_sha256": "a4b38583447243c3e49718ef0044f60efdec0ccf4da5c989aa52930909ccdb7e",
+  "packet": "M163089",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4330#issuecomment-7052018532",
+  "reviewed_utc": "2026-11-20T22:22:47.328170+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

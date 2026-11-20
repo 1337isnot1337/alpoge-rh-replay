@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M171580"
+  ],
+  "started_utc": "2026-11-20T22:20:40.538030+00:00",
+  "ended_utc": "2026-11-20T22:20:44.832225+00:00",
+  "elapsed_seconds": 4.3,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6626852
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.Chebotarev.SplitF:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b0992455e228357623deb3976f64e7c9231e3a84db1f077c92c5bf174e905f73",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M171580": "a75a0b46597589a35ef2c7ec28435060899309270a084c5e118f9876f0750015"
+  },
+  "bundle_sha256": "410c55ad614fc085973d37d7d84dba714580f1bbf0d8ade8bece71f41f717505",
+  "packet": "M171580",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4351#issuecomment-7052015695",
+  "reviewed_utc": "2026-11-20T22:22:43.667140+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

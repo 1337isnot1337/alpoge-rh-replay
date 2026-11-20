@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M101455"
+  ],
+  "started_utc": "2026-11-20T22:13:39.092435+00:00",
+  "ended_utc": "2026-11-20T22:13:53.632377+00:00",
+  "elapsed_seconds": 14.5,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6635676
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DeterminantRepresentations.IrrIffSpan:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0cd75e5b1ebe7dcac2b59675a1eaafedf67d5b3f43a0b39ab7212d47d4928acb",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IrrIffSpan"
+  ],
+  "objects": {
+    "M101455": "7ba8c880dbbe17510a478d2e8fddcfc9e712ad28df13d750a105cac23a667109"
+  },
+  "bundle_sha256": "d1f7cc069b06ddc6c5d4eb2955b4108abb5bfe773dad8530e97d734fc96da7a9",
+  "packet": "M101455",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4156#issuecomment-7051901764",
+  "reviewed_utc": "2026-11-20T22:23:03.050094+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

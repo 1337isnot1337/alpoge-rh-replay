@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013625 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsLevelStructureOfGenericOfFibrewiseIndepStatement` | volunteer-build-reviewed |
+| M013626 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsLinCombIffPullbackMulGenerator` | volunteer-build-reviewed |
+| M013631 | P0947 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsMaximalComapMaximalIdealOO` | wave-reused |
+| M013632 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsMonHomGenericFibreKernelTorus` | build-observed |
+| M013633 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsMonHomGenericFibreKernelTorusStatement` | volunteer-build-reviewed |
+| M013634 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsMonHomOfPG` | volunteer-build-reviewed |
+| M013635 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsMonHomPointedSplitExtToAbelianVariety` | volunteer-build-reviewed |
+| M013636 | P0892 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsMonHomPointedSplitExtToAbelianVarietyStatement` | build-observed |
+| M013643 | P0649 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsPartPartSec` | wave-reused |
+| M013644 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsPrimitiveRootUnitOnIff` | volunteer-build-reviewed |
+| M013646 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsProperIffOfSplit` | volunteer-build-reviewed |
+| M013647 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsProperOfPowerSeriesArcsOverAlgClosed` | volunteer-build-reviewed |
+| M013651 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsPtNsmul` | volunteer-build-reviewed |
+| M013653 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsPurePullbackSectionMulWeightGeneratorStatement` | volunteer-build-reviewed |
 | M013655 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsSemiAbelianOfProperGenericTorusExtensionSpecialFiber` | volunteer-build-reviewed |
 | M013656 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsSemiAbelianOfRetract` | volunteer-build-reviewed |
 | M013659 | P0785 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsSmoothAtOfSmoothModIdealPowers` | build-observed |
@@ -388,17 +402,3 @@
 | M015576 | P0476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ApproximationByDiscriminantMultiple` | volunteer-build-reviewed |
 | M015577 | P0516 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ApproximationByDiscriminantMultipleStatement` | build-observed |
 | M015603 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchFactorMulPSeriesEqIntegral` | volunteer-build-reviewed |
-| M015667 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanMatrixSmoothingModerateGrowth` | build-observed |
-| M015668 | P1351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanMatrixSmoothingModerateGrowthStatement` | build-observed |
-| M015696 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanRapidKernelOperatorCompRapidFamily` | build-observed |
-| M015697 | P1351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanRapidKernelOperatorCompRapidFamilyStatement` | build-observed |
-| M015708 | P1301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSectionMatrixInvertibleLevelReduction` | build-observed |
-| M015709 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSectionMatrixInvertibleLevelReductionStatement` | build-observed |
-| M015741 | P1301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanTruncatedRowUnipotentInvariantNonzero` | build-observed |
-| M015742 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanTruncatedRowUnipotentInvariantNonzeroStatement` | build-observed |
-| M015743 | P1301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanUnipotentTimesGLrSetClosedSubgroup` | build-observed |
-| M015744 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanUnipotentTimesGLrSetClosedSubgroupStatement` | build-observed |
-| M015753 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AreaTauPair` | build-observed |
-| M015878 | P1086 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithmeticDegreePrimeRemoval` | build-observed |
-| M015966 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArtinSchreierCocycleRoot` | wave-reused |
-| M015967 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArtinSchreierSystemIntegral` | wave-reused |

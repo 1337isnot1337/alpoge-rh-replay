@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M109795"
+  ],
+  "started_utc": "2026-11-20T22:17:26.320064+00:00",
+  "ended_utc": "2026-11-20T22:17:39.870137+00:00",
+  "elapsed_seconds": 13.5,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 22497852,
+    "peak_child_rss_kib": 6628196
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.CyclotomicTotient.NuSumApprox:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "299a297d5759542ddedfe945784013545fc215a5767c20053274c6e29be827e8",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.CyclotomicTotient.NuInf"
+  ],
+  "objects": {
+    "M109795": "452d6bff0d7472e2e1ea9b5fffe83ebb009f33384207193f117ebf2f0d924df8"
+  },
+  "bundle_sha256": "a4102a336694e57aa28f474bfc740acf7c0df58719065854f4ab9718b6ac7784",
+  "packet": "M109795",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4272#issuecomment-7051961589",
+  "reviewed_utc": "2026-11-20T22:22:54.361946+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

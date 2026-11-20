@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M015667 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanMatrixSmoothingModerateGrowth` | build-observed |
+| M015668 | P1351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanMatrixSmoothingModerateGrowthStatement` | build-observed |
+| M015696 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanRapidKernelOperatorCompRapidFamily` | build-observed |
+| M015697 | P1351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanRapidKernelOperatorCompRapidFamilyStatement` | build-observed |
+| M015708 | P1301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSectionMatrixInvertibleLevelReduction` | build-observed |
+| M015709 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSectionMatrixInvertibleLevelReductionStatement` | build-observed |
+| M015741 | P1301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanTruncatedRowUnipotentInvariantNonzero` | build-observed |
+| M015742 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanTruncatedRowUnipotentInvariantNonzeroStatement` | build-observed |
+| M015743 | P1301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanUnipotentTimesGLrSetClosedSubgroup` | build-observed |
+| M015744 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanUnipotentTimesGLrSetClosedSubgroupStatement` | build-observed |
+| M015753 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AreaTauPair` | build-observed |
+| M015878 | P1086 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArithmeticDegreePrimeRemoval` | build-observed |
+| M015966 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArtinSchreierCocycleRoot` | wave-reused |
+| M015967 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArtinSchreierSystemIntegral` | wave-reused |
 | M015968 | P0296 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArtinSchreierSystemIntegralStatement` | wave-reused |
 | M015969 | P1145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArtinianLiftAxesWedge` | volunteer-build-reviewed |
 | M015973 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArtinianLocalFiniteLengthAndSocleElement` | volunteer-build-reviewed |
@@ -388,17 +402,3 @@
 | M019466 | P1145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConstantCoeffPIterateInvariantDerivationCoordStatement` | volunteer-build-reviewed |
 | M019539 | P1116 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContConeOfQcqsAffine` | build-observed |
 | M019540 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContConeOfQcqsAffineStatement` | build-observed |
-| M019541 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContCxOfDegreewise` | wave-reused |
-| M019545 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffAtGramOfImFormConst` | volunteer-build-reviewed |
-| M019548 | P1116 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffAtLogNorm` | build-observed |
-| M019549 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffAtPsiOfNotMemZeroSet` | wave-reused |
-| M019550 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffAtPsiOfNotMemZeroSetStatement` | wave-reused |
-| M019551 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffAtTwoOfDifferentiableOnOpen` | volunteer-build-reviewed |
-| M019562 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffOfPartialDerivativeClosureStatement` | volunteer-build-reviewed |
-| M019577 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffOnGramSchmidtUpperTriangularFactor` | build-observed |
-| M019578 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffOnGramSchmidtUpperTriangularFactorStatement` | build-observed |
-| M019579 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffOnHeckeEisensteinFourierTerm` | volunteer-build-reviewed |
-| M019597 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffTsumOfLocallySummableBounds` | volunteer-build-reviewed |
-| M019598 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffTsumOfLocallySummableBoundsStatement` | volunteer-build-reviewed |
-| M019604 | P1003 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuityBaseChangeAffineCofilteredLimit` | build-observed |
-| M019605 | P1031 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuityBaseChangeAffineCofilteredLimitStatement` | build-observed |
