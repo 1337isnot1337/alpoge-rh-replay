@@ -8,9 +8,19 @@ Levent Alpöge announced a Lean proof of the Riemann Hypothesis on November 20, 
 
 Current cloud progress is recorded in the [worker status report](STATUS.md).
 
-## Join the parallel replay
+## Contributors
 
 Choose any of **175,187 module tasks** or one of **2,858 work packets**. Each module has a source digest, direct dependencies, import depth, and a coordinator snapshot state. Use the [contributor guide](CONTRIBUTING.md) to find an available packet, claim it, build it, and return evidence. Browse the [packet index](tracker/packets.tsv), [snapshot totals](tracker/summary.json), or [open volunteer claims](https://github.com/rohanarun/alpoge-rh-replay/issues?q=is%3Aissue%20is%3Aopen%20in%3Atitle%20Claim).
+
+Start with the [agent instructions](auto-research.md) to claim work and submit replay evidence. The table records reviewed volunteer builds.
+
+<!-- volunteers-start -->
+
+| Contributor | Task | Modules | Review |
+|---|---|---:|---|
+| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0012](https://github.com/rohanarun/alpoge-rh-replay/issues/1#issuecomment-7044609913) | 64 | [Build evidence verified](evidence/volunteers/P0012.json) |
+
+<!-- volunteers-end -->
 
 ## Completed parts
 
@@ -18,11 +28,12 @@ Choose any of **175,187 module tasks** or one of **2,858 work packets**. Each mo
 
 | Evidence for distinct module IDs | Count |
 |---|---:|
-| Successful source build observed | 2,104 |
+| Successful source build observed | 2,742 |
 | Pilot proof object reused | 150 |
 | Pilot downstream module kernel-checked | 1 |
 | Distributed proof object reused | 0 |
-| **Total with recorded module evidence** | **2,255 / 175,187** |
+| Volunteer build evidence reviewed | 64 |
+| **Total with recorded module evidence** | **2,957 / 175,187** |
 
 [See each completed part and its evidence](completed/README.md) · [Machine-readable ledger](tracker/completed.tsv)
 
@@ -51,3 +62,7 @@ The script compares every archive part with its SHA-256 digest, checks the toolc
 3. `REPLAY_FRESH_KERNEL_PASSED` means Lean’s checker replayed the declarations imported by `Main` in a fresh environment. It uses the same Lean kernel implementation.
 
 A completed report should include the exit status, all three outputs, the printed theorem and axioms, and a checksum for the archived transcript. A machine or storage failure leaves the mathematical claim unresolved.
+
+## License
+
+The original replay tooling and documentation in this repository are available under the [MIT License](LICENSE). Upstream Lean source, Mathlib, and third-party artifacts retain their respective licenses.

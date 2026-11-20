@@ -30,6 +30,6 @@ The task command checks the selected sources and pinned mathlib revision, builds
 
 ## Submit evidence
 
-Comment on your claim with the task or packet ID, exit status, elapsed time, and links to the receipt and log. For a large bundle, attach it to a release on your fork and include its SHA-256 digest. Check logs for personal paths before publishing. Keep the claim open for review. Maintainers should confirm the artifact against the exact release and replay the affected declarations in an isolated environment before incorporating it. If a build fails, include the first Lean error, file and line, resource limits, and reproduction command.
+Comment on your claim with the task or packet ID, exit status, elapsed time, and links to the receipt and log. For a large bundle, attach it to a release on your fork and include its SHA-256 digest. Check logs for personal paths before publishing. Keep the claim open for review. Maintainers check the grant, pinned toolchain and inputs, exact target list, successful transcript, and artifact digests before marking a volunteer build complete. Reviewed receipts go in `evidence/volunteers/` and appear in the README and module ledger. Maintainers close accepted claims as completed. Any later reuse or kernel replay is recorded separately. If a build fails, include the first Lean error, file and line, resource limits, and reproduction command.
 
 The final acceptance record separately checks the standard RH proposition, its axiom dependencies and the fresh kernel replay of Main. Module receipts are evidence of partial progress.
