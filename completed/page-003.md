@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002524 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.AutomorphicBallCount` | volunteer-build-reviewed |
+| M002525 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.CenteredPerpendicularSets` | volunteer-build-reviewed |
+| M002555 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.BlockSumMultiplicities` | volunteer-build-reviewed |
+| M002558 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.CrystallineAtPlaces` | volunteer-build-reviewed |
 | M002559 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.CrystallineWindowLifts` | volunteer-build-reviewed |
 | M002592 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.UnramifiedLatticeEmbeddings` | volunteer-build-reviewed |
 | M002605 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.FlatZetaIntegral` | volunteer-build-reviewed |
@@ -124,17 +128,22 @@
 | M003374 | P1169 | `Development.AbelianVarietyTheory.Definitions.Degenerations.AdmissiblePadicIntMaximalIdeal` | volunteer-build-reviewed |
 | M003376 | P0946 | `Development.AbelianVarietyTheory.Definitions.Degenerations.ArithBase` | wave-reused |
 | M003377 | P1028 | `Development.AbelianVarietyTheory.Definitions.Degenerations.BaseFacts` | wave-reused |
+| M003378 | P1193 | `Development.AbelianVarietyTheory.Definitions.Degenerations.CharZeroOfIsPrimitiveRoot` | build-observed |
 | M003379 | P0731 | `Development.AbelianVarietyTheory.Definitions.Degenerations.CompanionTheory` | wave-reused |
+| M003381 | P1028 | `Development.AbelianVarietyTheory.Definitions.Degenerations.ExistsLevelPoint` | build-observed |
 | M003385 | P0758 | `Development.AbelianVarietyTheory.Definitions.Degenerations.HomExtSt` | build-observed |
 | M003386 | P0917 | `Development.AbelianVarietyTheory.Definitions.Degenerations.InducedModelMorphismCompStructureMap` | wave-reused |
 | M003387 | P0838 | `Development.AbelianVarietyTheory.Definitions.Degenerations.IsAffineSplitTorusLeft` | wave-reused |
 | M003388 | P1001 | `Development.AbelianVarietyTheory.Definitions.Degenerations.IsBasisB` | wave-reused |
 | M003390 | P0549 | `Development.AbelianVarietyTheory.Definitions.Degenerations.IsNormalSchemeSp` | wave-reused |
+| M003392 | P1029 | `Development.AbelianVarietyTheory.Definitions.Degenerations.LocTheta` | build-observed |
+| M003396 | P0784 | `Development.AbelianVarietyTheory.Definitions.Degenerations.NotAllMatchRankZero` | build-observed |
 | M003398 | P0549 | `Development.AbelianVarietyTheory.Definitions.Degenerations.OfDerivationFnOn` | wave-reused |
 | M003399 | P0865 | `Development.AbelianVarietyTheory.Definitions.Degenerations.OfTorusBased` | build-observed |
 | M003401 | P0648 | `Development.AbelianVarietyTheory.Definitions.Degenerations.PlOrdSomeOfAssociated` | wave-reused |
 | M003402 | P0615 | `Development.AbelianVarietyTheory.Definitions.Degenerations.PullChartIsLB` | wave-reused |
 | M003403 | P0974 | `Development.AbelianVarietyTheory.Definitions.Degenerations.RigGen` | wave-reused |
+| M003404 | P0758 | `Development.AbelianVarietyTheory.Definitions.Degenerations.SepticCharacterInjective` | build-observed |
 | M003405 | P0946 | `Development.AbelianVarietyTheory.Definitions.Degenerations.Ser` | wave-reused |
 | M003412 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.AltPullApply` | volunteer-build-reviewed |
 | M003417 | P0731 | `Development.AbelianVarietyTheory.Definitions.Divisors.BadElt` | wave-reused |
@@ -251,6 +260,7 @@
 | M004074 | P0173 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsHermND` | wave-reused |
 | M004075 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsHilbertSchmidtOfFiniteDimensional` | volunteer-build-reviewed |
 | M004076 | P0239 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsIntegralIff` | wave-reused |
+| M004083 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsOneCocycleOnSubgroup` | volunteer-build-reviewed |
 | M004087 | P0239 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsRootOne` | volunteer-build-reviewed |
 | M004088 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsSatFrame` | volunteer-build-reviewed |
 | M004092 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsTopWTopWOfExists` | wave-reused |
@@ -291,6 +301,7 @@
 | M004282 | P1272 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.NormalFam` | build-observed |
 | M004288 | P0002 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.OfNatTrans` | wave-reused |
 | M004296 | P0095 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.PolyApproxZeroPadic` | wave-reused |
+| M004307 | P0002 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.ReductionUniformizerPoint` | volunteer-build-reviewed |
 | M004338 | P2198 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.APerTw` | build-observed |
 | M004342 | P1114 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.AuxiliaryPrimeMemAvoidedPrimes` | build-observed |
 | M004343 | P0002 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.BasicForm` | volunteer-build-reviewed |
@@ -391,14 +402,3 @@
 | M004822 | P0758 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MemRootsBarXSubC` | wave-reused |
 | M004823 | P0550 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MkMemAdmissibleAtIffCocycle` | wave-reused |
 | M004824 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MooreNorm` | volunteer-build-reviewed |
-| M004835 | P0865 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.NormLeOneOfMemOL` | wave-reused |
-| M004836 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.NormPowLeNormFactorial` | wave-reused |
-| M004843 | P0784 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.PadicIntGLSmulMemPrincipalCongruenceFixed` | wave-reused |
-| M004846 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.PowerSeriesOneAddConstMulXMulInv` | wave-reused |
-| M004847 | P0174 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.PowerSeriesVecReduceModUMulVec` | wave-reused |
-| M004848 | P0096 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ProjectionSurjective` | wave-reused |
-| M004850 | P0891 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.RealisesUnitPow` | wave-reused |
-| M004853 | P0731 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ResBound` | wave-reused |
-| M004857 | P0582 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.Saturated` | wave-reused |
-| M004861 | P0096 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.SndDualLiftAlgebraMap` | wave-reused |
-| M004865 | P0393 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.TameDescentExtendedActionExtraVector` | wave-reused |
