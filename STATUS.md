@@ -16,6 +16,10 @@ The full source build, axiom audit and fresh-kernel verification of RH are pendi
 
 The [module ledger](completed/README.md) reports accepted project coverage. The Google worker total above includes shared prerequisites and overlaps the ledger. The final proof still requires Main's end-to-end checks.
 
+## Google Cloud reuse pilot
+
+A separate worker restored the pinned Google build environment, verified the aggregate bundle digest and its exact 885-module scope, then ran Lake with rebuilding and downloads disabled. Lake accepted both requested targets. The pinned Lean checker also replayed both targets against their imported modules. The receipt records both commands, exit codes and log digests. This check covers two targets. The final audit of Main is pending. [Pilot receipt](evidence/google-native-reuse-pilot.json)
+
 ## First Render wave
 
 The coordinator provisioned one primary and 31 helpers. The first wave reserved up to 11,114 project modules beyond its initial build snapshot. A completed helper bundle becomes evidence of successful reuse when the primary accepts it with rebuilding disabled.
