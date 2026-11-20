@@ -170,6 +170,8 @@ def main():
           f'{len(evidence_files)} JSON files under evidence/')
     unparsed, bad_tasks, bad_mathlib, bad_exit = [], [], [], []
     receipts = 0
+    reviewed = 0
+    dup_reviewed, claim_mismatch, bad_objects = [], [], []
     for path in evidence_files:
         try:
             record = json.loads(path.read_text())
@@ -183,6 +185,22 @@ def main():
                 bad_mathlib.append(path.name)
             if 'exit_code' in record and record['exit_code'] != 0:
                 bad_exit.append(path.name)
+            # A reviewed receipt (one carrying a 'packet' claim: a packet id
+            # for a packet build, or a module id for a single-module build)
+            # credits work, so its task list has to be exactly what it
+            # claims: no duplicates, every task in the claimed packet (or
+            # the claimed module itself), and one object digest per task.
+            if 'packet' in record:
+                reviewed += 1
+                claim = record['packet']
+                tasks = record['tasks']
+                if len(set(tasks)) != len(tasks):
+                    dup_reviewed.append(path.name)
+                claim_mismatch += [f'{path.name}:{t}' for t in tasks
+                                   if t in by_id and by_id[t]['packet'] != claim and t != claim]
+                objects = record.get('objects')
+                if not isinstance(objects, dict) or set(objects) != set(tasks):
+                    bad_objects.append(path.name)
     check('evidence.json_parses', not unparsed,
           'every evidence file parses as JSON' if not unparsed
           else 'unparseable: ' + examples(unparsed))
@@ -195,6 +213,15 @@ def main():
     check('evidence.receipt_exit_code', not bad_exit,
           'receipt exit_code is 0 where present' if not bad_exit
           else 'nonzero exit_code: ' + examples(bad_exit))
+    check('evidence.reviewed_tasks_unique', not dup_reviewed,
+          f'{reviewed} reviewed receipts checked, every task id appears once'
+          if not dup_reviewed else 'duplicate task ids in: ' + examples(dup_reviewed))
+    check('evidence.reviewed_tasks_match_claim', not claim_mismatch,
+          'every reviewed task belongs to the claimed packet or is the claimed module'
+          if not claim_mismatch else 'tasks outside the claim: ' + examples(claim_mismatch))
+    check('evidence.reviewed_objects_match_tasks', not bad_objects,
+          'object digest keys equal the task ids in every reviewed receipt'
+          if not bad_objects else 'object keys differ from task ids in: ' + examples(bad_objects))
 
     # ---- summary pins against verify.sh ------------------------------------
     verify = root / 'verify.sh'
