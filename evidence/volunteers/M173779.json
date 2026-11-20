@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M173779"
+  ],
+  "started_utc": "2026-11-20T21:31:16.867756+00:00",
+  "ended_utc": "2026-11-20T21:31:27.162606+00:00",
+  "elapsed_seconds": 10.3,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 16423848,
+    "peak_child_rss_kib": 6877752
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.Taylor:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "47eef8cf8e6a32665d02222ff720381b73cb456cfc3b64ac039e0094a240c2ec",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.CocycleRightZeroThd",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SquareIntegrability.GCauchyStatement"
+  ],
+  "objects": {
+    "M173779": "c73ff1f5c39f8778016e5978db240a16eac9a329838cc516d0b01c95717c6f51"
+  },
+  "bundle_sha256": "1ce3ba1b15d6868cfe7436aa810e74da65907eff8b321d7e7e3c9c0c5162e90e",
+  "packet": "M173779",
+  "contributor": "nicu-chiciuc",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/3368#issuecomment-7051111045",
+  "reviewed_utc": "2026-11-20T21:32:22.407553+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

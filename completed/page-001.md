@@ -33,6 +33,7 @@
 | M000090 | P0757 | `CompanionTheory.AutomorphicTheory.LocalBesselUniqueness.BesselModels.AtFormAdmOneOfSteps` | volunteer-build-reviewed |
 | M000094 | P0783 | `CompanionTheory.AutomorphicTheory.LocalBesselUniqueness.BesselModels.DDForm` | volunteer-build-reviewed |
 | M000119 | P1217 | `CompanionTheory.AutomorphicTheory.MirabolicRestriction.MirabolicInduction.CuspidalRestrictsToInduced` | volunteer-build-reviewed |
+| M000127 | P1193 | `CompanionTheory.AutomorphicTheory.NumberFieldModels.TransferGaugeGeneratorZbarInv` | volunteer-build-reviewed |
 | M000143 | P0392 | `CompanionTheory.AutomorphicTheory.PadicUnitaryWeights.DixmierMalliavin.DecompDirection` | volunteer-build-reviewed |
 | M000149 | P0838 | `CompanionTheory.AutomorphicTheory.PieriRules.PieriDegreeBounds.BesselCharacterUnipotentRadicalPropertiesImports` | build-observed |
 | M000153 | P0865 | `CompanionTheory.AutomorphicTheory.PieriRules.PieriDegreeBounds.BesselSubgroupParameterMeasurePreservingImports` | build-observed |
@@ -54,6 +55,7 @@
 | M000173 | P0838 | `CompanionTheory.AutomorphicTheory.PieriRules.PieriDegreeBounds.WeilFormulaIntegrableComplexImports` | build-observed |
 | M000175 | P1084 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselCayleySideBound` | build-observed |
 | M000176 | P1114 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselCayleySideBoundStatement` | build-observed |
+| M000179 | P1028 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselFormalDegreePairing` | volunteer-build-reviewed |
 | M000181 | P1028 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselFrameEntryRelation` | build-observed |
 | M000182 | P1056 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselFrameEntryRelationStatement` | build-observed |
 | M000183 | P1056 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselGapDimensionFormula` | build-observed |
@@ -400,5 +402,3 @@
 | M001029 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarInvariantUnderTransvection` | volunteer-build-reviewed |
 | M001030 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarInvariantUnderTransvectionStatement` | volunteer-build-reviewed |
 | M001031 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMapLinearScalingByDeterminant` | volunteer-build-reviewed |
-| M001032 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMapLinearScalingByDeterminantStatement` | volunteer-build-reviewed |
-| M001034 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMeasureIwasawaDecompositionStatement` | volunteer-build-reviewed |

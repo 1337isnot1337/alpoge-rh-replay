@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M171498"
+  ],
+  "started_utc": "2026-11-20T21:30:14.375804+00:00",
+  "ended_utc": "2026-11-20T21:30:25.768159+00:00",
+  "elapsed_seconds": 11.4,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 16423848,
+    "peak_child_rss_kib": 6856832
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.AnalyticForms.RegularLocalRings.Monomial:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a287241da3dfd94fb8cac20156c2494802388b56edeb58ed9689845a9c6c5558",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.AnalyticForms.RegularLocalRings.RegDom",
+    "ReciprocityTheory.CommutativeAlgebra.MaximalIdealSquares.RingKrullDimQuotientSpanSingletonAddOne"
+  ],
+  "objects": {
+    "M171498": "1b6e5438523f8e6944b5970bf9948c90570be2cfa7065eff3726b934483cb8c5"
+  },
+  "bundle_sha256": "28c454b0f9844b00e1c6ee191f16c71780e79da70129cea4ca4560cf22b21b02",
+  "packet": "M171498",
+  "contributor": "nicu-chiciuc",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/3360#issuecomment-7051091141",
+  "reviewed_utc": "2026-11-20T21:32:22.352282+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

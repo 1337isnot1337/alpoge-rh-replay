@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M103614"
+  ],
+  "started_utc": "2026-11-20T21:22:55.590967+00:00",
+  "ended_utc": "2026-11-20T21:23:07.924899+00:00",
+  "elapsed_seconds": 12.3,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 6646148
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.LocalRingsCompletion.nakayama:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "cff636fa5ba7eb92b931f8e79c29b21aded6a86b1f80c8e534b47e1ae0015d04",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.LocalRingsCompletion.IsCharOneOfSubsingleton"
+  ],
+  "objects": {
+    "M103614": "ea8f9863b91170671bbb12d308a9a35a5a6b8ab11d96cefc76081fa7ce702317"
+  },
+  "bundle_sha256": "2301c10a634ba9d8bac8512f7d7fc7187ff74cd09a6a555f150c7c7de049b26b",
+  "packet": "M103614",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/3211#issuecomment-7050953853",
+  "reviewed_utc": "2026-11-20T21:32:36.514358+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}
