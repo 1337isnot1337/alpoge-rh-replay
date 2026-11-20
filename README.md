@@ -103,30 +103,30 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- volunteers-start -->
 
-[3,697 entries. View the full table](tracker/volunteer-tables/reviewed/README.md).
+[4,053 entries. View the full table](tracker/volunteer-tables/reviewed/README.md).
 
 | Contributor | Task | Modules | Review |
 |---|---|---:|---|
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M026409](https://github.com/rohanarun/alpoge-rh-replay/issues/5115#issuecomment-7052676031) | 1 | [Build evidence verified](evidence/volunteers/M026409.json) |
-| [@agi-for-my-llama](https://github.com/agi-for-my-llama) | [M043800](https://github.com/rohanarun/alpoge-rh-replay/issues/5122#issuecomment-7052817258) | 1 | [Build evidence verified](evidence/volunteers/M043800.json) |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115812](https://github.com/rohanarun/alpoge-rh-replay/issues/5112#issuecomment-7052675398) | 1 | [Build evidence verified](evidence/volunteers/M115812.json) |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115451](https://github.com/rohanarun/alpoge-rh-replay/issues/5108#issuecomment-7052674759) | 1 | [Build evidence verified](evidence/volunteers/M115451.json) |
-| [@dhudakk](https://github.com/dhudakk) | [M013837](https://github.com/rohanarun/alpoge-rh-replay/issues/5099#issuecomment-7052902639) | 1 | [Build evidence verified](evidence/volunteers/M013837.json) |
-| [@emsi](https://github.com/emsi) | [P1924](https://github.com/rohanarun/alpoge-rh-replay/issues/5148#issuecomment-7052859712) | 64 | [Build evidence verified](evidence/volunteers/P1924.json) |
-| [@BenCaunt](https://github.com/BenCaunt) | [M111006](https://github.com/rohanarun/alpoge-rh-replay/issues/5097#issuecomment-7052813452) | 1 | [Build evidence verified](evidence/volunteers/M111006.json) |
-| [@chriswilson413](https://github.com/chriswilson413) | [M012949](https://github.com/rohanarun/alpoge-rh-replay/issues/5096#issuecomment-7052722711) | 1 | [Build evidence verified](evidence/volunteers/M012949.json) |
-| [@TomMoeras](https://github.com/TomMoeras) | [P1827](https://github.com/rohanarun/alpoge-rh-replay/issues/5114#issuecomment-7052774574) | 64 | [Build evidence verified](evidence/volunteers/P1827.json) |
-| [@hipotures](https://github.com/hipotures) | [P1623](https://github.com/rohanarun/alpoge-rh-replay/issues/5085#issuecomment-7052795943) | 64 | [Build evidence verified](evidence/volunteers/P1623.json) |
-| [@TomMoeras](https://github.com/TomMoeras) | [P1804](https://github.com/rohanarun/alpoge-rh-replay/issues/5128#issuecomment-7052885508) | 64 | [Build evidence verified](evidence/volunteers/P1804.json) |
-| [@loremcdmx](https://github.com/loremcdmx) | [M042393](https://github.com/rohanarun/alpoge-rh-replay/issues/4854#issuecomment-7052925974) | 1 | [Build evidence verified](evidence/volunteers/M042393.json) |
-| [@loremcdmx](https://github.com/loremcdmx) | [M110248](https://github.com/rohanarun/alpoge-rh-replay/issues/4839#issuecomment-7052925463) | 1 | [Build evidence verified](evidence/volunteers/M110248.json) |
-| [@loremcdmx](https://github.com/loremcdmx) | [M101260](https://github.com/rohanarun/alpoge-rh-replay/issues/4834#issuecomment-7052924382) | 1 | [Build evidence verified](evidence/volunteers/M101260.json) |
-| [@loremcdmx](https://github.com/loremcdmx) | [M038709](https://github.com/rohanarun/alpoge-rh-replay/issues/4832#issuecomment-7052923371) | 1 | [Build evidence verified](evidence/volunteers/M038709.json) |
-| [@loremcdmx](https://github.com/loremcdmx) | [M115228](https://github.com/rohanarun/alpoge-rh-replay/issues/4833#issuecomment-7052923857) | 1 | [Build evidence verified](evidence/volunteers/M115228.json) |
-| [@loremcdmx](https://github.com/loremcdmx) | [M115309](https://github.com/rohanarun/alpoge-rh-replay/issues/4820#issuecomment-7052922848) | 1 | [Build evidence verified](evidence/volunteers/M115309.json) |
-| [@emsi](https://github.com/emsi) | [P1727](https://github.com/rohanarun/alpoge-rh-replay/issues/3939#issuecomment-7052802638) | 64 | [Build evidence verified](evidence/volunteers/P1727.json) |
-| [@JamCh01](https://github.com/JamCh01) | [P1578](https://github.com/rohanarun/alpoge-rh-replay/issues/3850#issuecomment-7052751075) | 64 | [Build evidence verified](evidence/volunteers/P1578.json) |
-| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P1536](https://github.com/rohanarun/alpoge-rh-replay/issues/2050#issuecomment-7052857399) | 64 | [Build evidence verified](evidence/volunteers/P1536.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M109922](https://github.com/rohanarun/alpoge-rh-replay/issues/4875#issuecomment-7052932496) | 1 | [Build evidence verified](evidence/volunteers/M109922.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M080875](https://github.com/rohanarun/alpoge-rh-replay/issues/4873#issuecomment-7052931408) | 1 | [Build evidence verified](evidence/volunteers/M080875.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M051488](https://github.com/rohanarun/alpoge-rh-replay/issues/4866#issuecomment-7052929865) | 1 | [Build evidence verified](evidence/volunteers/M051488.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M036482](https://github.com/rohanarun/alpoge-rh-replay/issues/4868#issuecomment-7052930321) | 1 | [Build evidence verified](evidence/volunteers/M036482.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M058574](https://github.com/rohanarun/alpoge-rh-replay/issues/4870#issuecomment-7052930956) | 1 | [Build evidence verified](evidence/volunteers/M058574.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M110078](https://github.com/rohanarun/alpoge-rh-replay/issues/4864#issuecomment-7052929250) | 1 | [Build evidence verified](evidence/volunteers/M110078.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M115106](https://github.com/rohanarun/alpoge-rh-replay/issues/4861#issuecomment-7052928198) | 1 | [Build evidence verified](evidence/volunteers/M115106.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M053806](https://github.com/rohanarun/alpoge-rh-replay/issues/4859#issuecomment-7052927621) | 1 | [Build evidence verified](evidence/volunteers/M053806.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M078102](https://github.com/rohanarun/alpoge-rh-replay/issues/4857#issuecomment-7052927274) | 1 | [Build evidence verified](evidence/volunteers/M078102.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M086645](https://github.com/rohanarun/alpoge-rh-replay/issues/4856#issuecomment-7052926729) | 1 | [Build evidence verified](evidence/volunteers/M086645.json) |
+| [@SeriousRising](https://github.com/SeriousRising) | [P1871](https://github.com/rohanarun/alpoge-rh-replay/issues/3145#issuecomment-7052980497) | 64 | [Build evidence verified](evidence/volunteers/P1871.json) |
+| [@SeriousRising](https://github.com/SeriousRising) | [P1639](https://github.com/rohanarun/alpoge-rh-replay/issues/2408#issuecomment-7053111166) | 64 | [Build evidence verified](evidence/volunteers/P1639.json) |
+| [@mu-mei](https://github.com/mu-mei) | [P1690](https://github.com/rohanarun/alpoge-rh-replay/issues/1993#issuecomment-7053059135) | 64 | [Build evidence verified](evidence/volunteers/P1690.json) |
+| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P1607](https://github.com/rohanarun/alpoge-rh-replay/issues/2040#issuecomment-7053033048) | 64 | [Build evidence verified](evidence/volunteers/P1607.json) |
+| [@WilmervH](https://github.com/WilmervH) | [P1490](https://github.com/rohanarun/alpoge-rh-replay/issues/1241#issuecomment-7052985077) | 64 | [Build evidence verified](evidence/volunteers/P1490.json) |
+| [@WilmervH](https://github.com/WilmervH) | [P1501](https://github.com/rohanarun/alpoge-rh-replay/issues/1246#issuecomment-7053002728) | 64 | [Build evidence verified](evidence/volunteers/P1501.json) |
+| [@WilmervH](https://github.com/WilmervH) | [P1485](https://github.com/rohanarun/alpoge-rh-replay/issues/1232#issuecomment-7052998540) | 64 | [Build evidence verified](evidence/volunteers/P1485.json) |
+| [@WilmervH](https://github.com/WilmervH) | [P1423](https://github.com/rohanarun/alpoge-rh-replay/issues/1080#issuecomment-7052995666) | 64 | [Build evidence verified](evidence/volunteers/P1423.json) |
+| [@WilmervH](https://github.com/WilmervH) | [P1411](https://github.com/rohanarun/alpoge-rh-replay/issues/1075#issuecomment-7052989781) | 64 | [Build evidence verified](evidence/volunteers/P1411.json) |
+| [@WilmervH](https://github.com/WilmervH) | [P1421](https://github.com/rohanarun/alpoge-rh-replay/issues/1078#issuecomment-7052992759) | 64 | [Build evidence verified](evidence/volunteers/P1421.json) |
 
 <!-- volunteers-end -->
 
@@ -138,13 +138,13 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 | Evidence for distinct module IDs | Count |
 |---|---:|
-| Successful source build observed | 15,633 |
+| Successful source build observed | 16,109 |
 | Pilot proof object reused | 150 |
 | Pilot downstream module kernel-checked | 1 |
 | Distributed proof object reused | 16,970 |
-| Volunteer build evidence reviewed | 14,470 |
+| Volunteer build evidence reviewed | 15,771 |
 | Worker target kernel replay reviewed | 99 |
-| **Total with recorded module evidence** | **47,323 / 175,187** |
+| **Total with recorded module evidence** | **49,100 / 175,187** |
 
 [See each completed part and its evidence](completed/README.md) · [Machine-readable ledger](tracker/completed.tsv)
 

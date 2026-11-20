@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M003964"
+  ],
+  "started_utc": "2026-11-20T23:19:16.181685+00:00",
+  "ended_utc": "2026-11-20T23:19:49.024012+00:00",
+  "elapsed_seconds": 32.8,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 65758100,
+    "peak_child_rss_kib": 6647316
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.Divisors.UnipVal:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "77ee135501c3513753555e79ee198cf0ca0a11c418b557f56c9225f8a5942a65",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.KudlaSplittingSplitUnitary"
+  ],
+  "objects": {
+    "M003964": "309fcd5489dc064f28b99116234e5b133ee01d8a8e2ea219082c5fbb540f020e"
+  },
+  "bundle_sha256": "55ab8d22a328e129c49449b479392f883322cbaf04fbd5c75283b4c36ad19c5a",
+  "packet": "M003964",
+  "contributor": "emsi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6181#issuecomment-7053068881",
+  "reviewed_utc": "2026-11-20T23:25:36.496370+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

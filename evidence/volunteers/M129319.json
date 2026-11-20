@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M129319"
+  ],
+  "started_utc": "2026-11-20T23:21:11.435691+00:00",
+  "ended_utc": "2026-11-20T23:21:19.568601+00:00",
+  "elapsed_seconds": 8.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 61933816,
+    "peak_child_rss_kib": 7241828
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.PolarizationPolynomialCoeffBoundStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fc7b57678690c080b2981ef4d7c6e8a73ccdd48b462172ff77090ac2bf20ceda",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.PolarizationPolynomialCoeffBound",
+    "Development.WeilBound.CoreStatements.FlagImmersions.PolarizationCoefficientsBound"
+  ],
+  "objects": {
+    "M129319": "9e2e429936ae0556a40c0c66188d58c6a2d2a60c9886fbf692473880584ff217"
+  },
+  "bundle_sha256": "e347ea8cded5c8da18fbbe1aa3e0661ec4165d21d3818a95ba00f10b2ab5294c",
+  "packet": "M129319",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6243#issuecomment-7053057617",
+  "reviewed_utc": "2026-11-20T23:25:27.416229+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

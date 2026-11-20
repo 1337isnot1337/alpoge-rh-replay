@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M100765"
+  ],
+  "started_utc": "2026-11-20T23:19:12.059825+00:00",
+  "ended_utc": "2026-11-20T23:19:42.339680+00:00",
+  "elapsed_seconds": 30.3,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 65758100,
+    "peak_child_rss_kib": 6641828
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.IsNoetherianRingDualNumber:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b1e8e749d0d16b0baee77dbacb3c6cd84e09ea9f2db428da22f012817c365857",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.PrimitiveCrystalHodgeLiftClasses"
+  ],
+  "objects": {
+    "M100765": "8e95c9075fe1cee6f78449da3d6136028aaebc9ea93dc5fab09da9b5d1e8a64d"
+  },
+  "bundle_sha256": "da245cf4a9dcd30f33b425ce4d1519dcef7297e05b0344f4efe2c8fdded4a3aa",
+  "packet": "M100765",
+  "contributor": "emsi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6172#issuecomment-7053056028",
+  "reviewed_utc": "2026-11-20T23:25:39.624807+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

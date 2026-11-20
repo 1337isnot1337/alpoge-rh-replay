@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M100869"
+  ],
+  "started_utc": "2026-11-20T23:19:19.271338+00:00",
+  "ended_utc": "2026-11-20T23:19:49.332503+00:00",
+  "elapsed_seconds": 30.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 65758100,
+    "peak_child_rss_kib": 6866544
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology\u2082.HeckeLAdicCharacterAboveIff:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e6ed54b4fb974204a0c1da9510f59da29509058b5939f50335815155cb95dfcb",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.CharAbove"
+  ],
+  "objects": {
+    "M100869": "44011e52b6e5b7a8d79e0bb0acebd405096b241b91e66737d15ed13477dd07e8"
+  },
+  "bundle_sha256": "688f88f13d89ada74b5b53e0fd8011839d2dd1404e24113e027b2ca08188925a",
+  "packet": "M100869",
+  "contributor": "emsi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6187#issuecomment-7053077815",
+  "reviewed_utc": "2026-11-20T23:25:35.319832+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}
