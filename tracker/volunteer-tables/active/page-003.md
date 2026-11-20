@@ -200,7 +200,6 @@
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P1655](https://github.com/rohanarun/alpoge-rh-replay/issues/2496) | Claimed |
 | [@dga471](https://github.com/dga471) | [M031373](https://github.com/rohanarun/alpoge-rh-replay/issues/2620) | Claimed |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P1679](https://github.com/rohanarun/alpoge-rh-replay/issues/2632) | Claimed |
-| [@surfyhou](https://github.com/surfyhou) | [P1570](https://github.com/rohanarun/alpoge-rh-replay/issues/2699) | Claimed |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P1749](https://github.com/rohanarun/alpoge-rh-replay/issues/2702) | Claimed |
 | [@sat3n](https://github.com/sat3n) | [M109314](https://github.com/rohanarun/alpoge-rh-replay/issues/2889) | Claimed |
 | [@sat3n](https://github.com/sat3n) | [M109991](https://github.com/rohanarun/alpoge-rh-replay/issues/2894) | Claimed |
@@ -224,7 +223,6 @@
 | [@sat3n](https://github.com/sat3n) | [M140386](https://github.com/rohanarun/alpoge-rh-replay/issues/2940) | Claimed |
 | [@sat3n](https://github.com/sat3n) | [M146390](https://github.com/rohanarun/alpoge-rh-replay/issues/2941) | Claimed |
 | [@sat3n](https://github.com/sat3n) | [M147655](https://github.com/rohanarun/alpoge-rh-replay/issues/2947) | Claimed |
-| [@emsi](https://github.com/emsi) | [P1794](https://github.com/rohanarun/alpoge-rh-replay/issues/2948) | Claimed |
 | [@sat3n](https://github.com/sat3n) | [M150357](https://github.com/rohanarun/alpoge-rh-replay/issues/2950) | Claimed |
 | [@sat3n](https://github.com/sat3n) | [M152413](https://github.com/rohanarun/alpoge-rh-replay/issues/2953) | Claimed |
 | [@sat3n](https://github.com/sat3n) | [M169136](https://github.com/rohanarun/alpoge-rh-replay/issues/2958) | Claimed |
@@ -254,3 +252,5 @@
 | [@SeriousRising](https://github.com/SeriousRising) | [P1779](https://github.com/rohanarun/alpoge-rh-replay/issues/3058) | Claimed |
 | [@emsi](https://github.com/emsi) | [P1565](https://github.com/rohanarun/alpoge-rh-replay/issues/3120) | Claimed |
 | [@emsi](https://github.com/emsi) | [P1689](https://github.com/rohanarun/alpoge-rh-replay/issues/3123) | Claimed |
+| [@SeriousRising](https://github.com/SeriousRising) | [P1871](https://github.com/rohanarun/alpoge-rh-replay/issues/3145) | Claimed |
+| [@dhudakk](https://github.com/dhudakk) | [M054717](https://github.com/rohanarun/alpoge-rh-replay/issues/3150) | Claimed |
