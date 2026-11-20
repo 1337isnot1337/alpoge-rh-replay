@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M045639"
+  ],
+  "started_utc": "2026-11-20T21:56:21.486246+00:00",
+  "ended_utc": "2026-11-20T21:57:55.021745+00:00",
+  "elapsed_seconds": 93.5,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 8024536,
+    "peak_child_rss_kib": 5634460
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodMapSymplecticTransform:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fe2445470465f716e667c999c34719ca4aa78671e161a5967304e033bb7f6956",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.PluriharmonicHolomorphic"
+  ],
+  "objects": {
+    "M045639": "107f9a39e6a2c074aeed89bff35a7284a3afc6a98411e68be75bf4e206f4ab45"
+  },
+  "bundle_sha256": "f714feb6e15203ab443abcdfbc012dd5c9e48c79aed209f646114dda0c3c9d41",
+  "packet": "M045639",
+  "contributor": "BenCaunt",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/3735#issuecomment-7051601630",
+  "reviewed_utc": "2026-11-20T21:58:56.539927+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

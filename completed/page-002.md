@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001023 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarFundamentalDomainExistsUnitary` | volunteer-build-reviewed |
+| M001029 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarInvariantUnderTransvection` | volunteer-build-reviewed |
+| M001030 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarInvariantUnderTransvectionStatement` | volunteer-build-reviewed |
 | M001031 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMapLinearScalingByDeterminant` | volunteer-build-reviewed |
 | M001032 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMapLinearScalingByDeterminantStatement` | volunteer-build-reviewed |
 | M001034 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMeasureIwasawaDecompositionStatement` | volunteer-build-reviewed |
@@ -329,6 +332,7 @@
 | M002161 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ModelDdcForms` | volunteer-build-reviewed |
 | M002162 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.MultiplicationKernelIdentity` | wave-reused |
 | M002164 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.OmegaFactorization` | volunteer-build-reviewed |
+| M002170 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.PolarisationModuleIndex` | volunteer-build-reviewed |
 | M002172 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuasiPlurisubharmonic` | volunteer-build-reviewed |
 | M002173 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuotientEigenDifference` | wave-reused |
 | M002177 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.RationalTransitionKernel` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M002374 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.BalancedHermitianSpace` | volunteer-build-reviewed |
 | M002379 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.ConjugateKernelCount` | volunteer-build-reviewed |
 | M002382 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.DegreeProportionalWords` | wave-reused |
-| M002383 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.DiagonalActionLiftPull` | volunteer-build-reviewed |
-| M002387 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.FormalDegreeHaarQuotient` | build-observed |
-| M002394 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.LieMatrixVectors` | build-observed |
-| M002403 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.PerfectPairings` | wave-reused |

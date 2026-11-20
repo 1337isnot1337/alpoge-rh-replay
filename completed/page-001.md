@@ -65,6 +65,8 @@
 | M000194 | P0974 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselGapVanishingStatement` | build-observed |
 | M000195 | P1028 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselLieTriangularVanishing` | build-observed |
 | M000196 | P1056 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselLieTriangularVanishingStatement` | build-observed |
+| M000199 | P1114 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselSettingGapBound` | volunteer-build-reviewed |
+| M000201 | P1143 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselSettingGapBoundDualStatement` | volunteer-build-reviewed |
 | M000207 | P1028 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselSumDecomposition` | build-observed |
 | M000208 | P1056 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselSumDecompositionStatement` | build-observed |
 | M000209 | P0945 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.CapelliKFiniteCoefficient` | volunteer-build-reviewed |
@@ -96,6 +98,7 @@
 | M000237 | P0945 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.ExistsKTypeNonzeroBesselStatement` | volunteer-build-reviewed |
 | M000238 | P1001 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.ExistsLowestKFiniteVectorDiscreteSeries` | build-observed |
 | M000239 | P1028 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.ExistsLowestKFiniteVectorDiscreteSeriesStatement` | build-observed |
+| M000241 | P1419 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilyFunctionalSpan` | volunteer-build-reviewed |
 | M000244 | P1169 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilySetupBesselGrowth` | build-observed |
 | M000245 | P1193 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilySetupBesselGrowthStatement` | build-observed |
 | M000246 | P1217 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilySetupCayleyBound` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M001019 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramTransposeDualTraceIdentity` | volunteer-build-reviewed |
 | M001020 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramTransposeDualTraceIdentityStatement` | volunteer-build-reviewed |
 | M001021 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GroupActionHaarScalingContinuous` | volunteer-build-reviewed |
-| M001023 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarFundamentalDomainExistsUnitary` | volunteer-build-reviewed |
-| M001029 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarInvariantUnderTransvection` | volunteer-build-reviewed |
-| M001030 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarInvariantUnderTransvectionStatement` | volunteer-build-reviewed |
