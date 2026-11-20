@@ -1,0 +1,35 @@
+# Contribute a proof check
+
+The index gives each of the 175,187 native Lean modules a stable ID for this archive version. There are 2,858 packets of at most 64 modules at the same project-import depth. Within a packet the modules can build concurrently after their prerequisites are ready. Reading the index and building a module require Python's standard library. Creating a claim with the CLI also requires an authenticated GitHub CLI.
+
+## Choose and claim work
+
+```bash
+python3 tracker/tasks.py next
+python3 tracker/tasks.py show M000001
+```
+
+Choose a packet from the live suggestions or a single open module. Replace the sample identifier below with your selection.
+
+```bash
+python3 tracker/tasks.py claim P0123
+```
+
+The claim command opens a public issue. You can also open an issue manually with the label `claim` and a title of the form `Claim P0123` or `Claim M000001`. Check for overlapping claims after submitting. If two volunteers claim the same work simultaneously, the earlier issue has priority. Close a claim if you stop working on it. The snapshot states in the index describe coordinator progress at the recorded time. Open claim issues supply the live volunteer assignments. The coordinator's full run also continues in the background.
+
+## Build a task
+
+Use Linux with elan, Git, GNU tar, sha256sum, a C toolchain and adequate storage. Prepare a clean checkout using the original release and the pinned checksums. Keep the generated receipt directory outside the source tree.
+
+```bash
+./verify.sh /path/to/new/replay-volume --prepare-only
+python3 tracker/tasks.py build P0123 /path/to/new/replay-volume/lean /path/to/new/receipt --bundle
+```
+
+The task command checks the selected sources and pinned mathlib revision, builds the targets with Lake, and saves the command, exit status, toolchain identity, output hashes and build transcript. Lake will build missing imports locally. A module late in the dependency graph can require substantial work on a cold machine. The optional bundle contains the selected modules' generated build files. The public index lists direct project dependencies as task IDs.
+
+## Submit evidence
+
+Comment on your claim with the task or packet ID, exit status, elapsed time, and links to the receipt and log. For a large bundle, attach it to a release on your fork and include its SHA-256 digest. Check logs for personal paths before publishing. Keep the claim open for review. Maintainers should confirm the artifact against the exact release and replay the affected declarations in an isolated environment before incorporating it. If a build fails, include the first Lean error, file and line, resource limits, and reproduction command.
+
+The final acceptance record separately checks the standard RH proposition, its axiom dependencies and the fresh kernel replay of Main. Module receipts are evidence of partial progress.

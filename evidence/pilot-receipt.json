@@ -1,0 +1,50 @@
+{
+  "helper": [
+    {
+      "timestamp": "2026-11-20T15:42:59.442020138Z",
+      "message": "PILOT_BUILD_START 2026-11-20T15:42:59Z"
+    },
+    {
+      "timestamp": "2026-11-20T15:48:44.034805287Z",
+      "message": "PILOT_BUILD_END 2026-11-20T15:48:44Z"
+    },
+    {
+      "timestamp": "2026-11-20T15:48:57.006222979Z",
+      "message": "BUNDLE_READY 639fdc15f9e35a019f44bb5daa8eedddc268f796d87dc75764f14a32710ca206  bundle.tar.gz bytes=65830144"
+    },
+    {
+      "timestamp": "2026-11-20T15:48:44.139451072Z",
+      "message": "HELPER_OBJECTS 150 expected 150"
+    }
+  ],
+  "primary": [
+    {
+      "timestamp": "2026-11-20T15:49:33.806215584Z",
+      "message": "PILOT_PREEXISTING 0 PILOT_NEW 150 WITNESS_PRESENT False"
+    },
+    {
+      "timestamp": "2026-11-20T15:49:36.742861662Z",
+      "message": "PILOT_INSTALLED_FILES 1200 IMPORTED_OBJECTS 150"
+    },
+    {
+      "timestamp": "2026-11-20T15:49:36.795552973Z",
+      "message": "PILOT_REQUIRE_REUSE 2026-11-20T15:49:36Z"
+    },
+    {
+      "timestamp": "2026-11-20T15:50:24.49676706Z",
+      "message": "PILOT_NO_BUILD_CHECK_PASSED 2026-11-20T15:50:24Z"
+    },
+    {
+      "timestamp": "2026-11-20T15:52:15.994822104Z",
+      "message": "PILOT_IMPORTED_DIGESTS_MATCH 150"
+    },
+    {
+      "timestamp": "2026-11-20T15:52:16.004717916Z",
+      "message": "PILOT_WITNESS_KERNEL_PASSED GroundTheory.HeightsAndTheta.Heights.SemipositiveHeights.KleimanNefF 2026-11-20T15:52:16Z"
+    },
+    {
+      "timestamp": "2026-11-20T15:52:16.005230916Z",
+      "message": "PILOT_MERGE_EXIT=0"
+    }
+  ]
+}

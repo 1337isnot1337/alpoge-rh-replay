@@ -23,6 +23,7 @@ test "$(cat lean-toolchain)" = "leanprover/lean4:v4.33.1"
 lean --version
 lake exe cache get
 test "$(git -C .lake/packages/mathlib rev-parse HEAD)" = "0df444a360eaa60ab8c11dca51a86af692955474"
+if [[ "${2:-}" == "--prepare-only" ]]; then echo "Prepared project in $work/lean"; exit 0; fi
 lake build +Main:olean
 echo REPLAY_SOURCE_BUILD_PASSED
 lake env lean "$record/Audit.lean"

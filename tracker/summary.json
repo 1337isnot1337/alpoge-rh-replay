@@ -1,0 +1,15 @@
+{
+  "module_count": 175187,
+  "packet_count": 2858,
+  "scope": "project modules reachable from Main",
+  "state_counts": {
+    "open": 162288,
+    "assigned": 11114,
+    "build-observed": 1634,
+    "pilot-reused": 150,
+    "pilot-witness-checked": 1
+  },
+  "snapshot": "2026-11-20T15:56:00Z",
+  "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "lean": "4.33.1"
+}
