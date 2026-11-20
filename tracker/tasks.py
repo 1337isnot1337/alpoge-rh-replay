@@ -16,7 +16,7 @@ def select(rows,target):
  if not out:raise SystemExit('Unknown task or packet: '+target)
  return out
 def claims():
- url=f'https://api.github.com/repos/{repo}/issues?state=open&labels=claim&per_page=100'
+ url=f'https://api.github.com/repos/{repo}/issues?state=open&per_page=100'
  refs=set()
  while url:
   with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'rh-replay-tracker'}),timeout=25) as response:
@@ -78,7 +78,7 @@ def main():
  elif a.action=='claim':
   busy=claims()
   if any(r['id'] in busy or r['packet'] in busy or r['state']!='open' for r in sel):raise SystemExit('One or more modules are already claimed, observed, or assigned.')
-  subprocess.run(['gh','issue','create','--repo',repo,'--label','claim','--title','Claim '+a.target,'--body','I am working on '+a.target+'. I will attach the input hashes, build transcript and receipt, or close this claim if I stop.'],check=True)
+  subprocess.run(['gh','issue','create','--repo',repo,'--title','Claim '+a.target,'--body','I am working on '+a.target+'. I will attach the input hashes, build transcript and receipt, or close this claim if I stop.'],check=True)
  else:return run(sel,a.checkout,a.output,a.bundle)
  return 0
 if __name__=='__main__':sys.exit(main())
