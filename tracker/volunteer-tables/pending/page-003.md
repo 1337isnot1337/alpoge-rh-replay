@@ -9,6 +9,7 @@
 | [@mu-mei](https://github.com/mu-mei) | [M119785](https://github.com/rohanarun/alpoge-rh-replay/issues/5339#issuecomment-7052575304) | Pending review |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M006937](https://github.com/rohanarun/alpoge-rh-replay/issues/5344#issuecomment-7052604174) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M000760](https://github.com/rohanarun/alpoge-rh-replay/issues/5353#issuecomment-7052599875) | Pending review |
+| [@BenCaunt](https://github.com/BenCaunt) | [M073999](https://github.com/rohanarun/alpoge-rh-replay/issues/5453#issuecomment-7053344057) | Pending review |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M007041](https://github.com/rohanarun/alpoge-rh-replay/issues/5500#issuecomment-7052673246) | Pending review |
 | [@user42245](https://github.com/user42245) | [M018204](https://github.com/rohanarun/alpoge-rh-replay/issues/5520#issuecomment-7052679205) | Pending review |
 | [@iAndyHD3](https://github.com/iAndyHD3) | [M018689](https://github.com/rohanarun/alpoge-rh-replay/issues/5522#issuecomment-7053010724) | Pending review |
@@ -48,8 +49,11 @@
 | [@mu-mei](https://github.com/mu-mei) | [M001434](https://github.com/rohanarun/alpoge-rh-replay/issues/6074#issuecomment-7052958608) | Pending review |
 | [@m4tthewdavis](https://github.com/m4tthewdavis) | [M014151](https://github.com/rohanarun/alpoge-rh-replay/issues/6083#issuecomment-7053287236) | Pending review |
 | [@m4tthewdavis](https://github.com/m4tthewdavis) | [M014153](https://github.com/rohanarun/alpoge-rh-replay/issues/6084#issuecomment-7053303134) | Pending review |
+| [@BenCaunt](https://github.com/BenCaunt) | [M109037](https://github.com/rohanarun/alpoge-rh-replay/issues/6090#issuecomment-7053345175) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M003573](https://github.com/rohanarun/alpoge-rh-replay/issues/6092#issuecomment-7052962612) | Pending review |
 | [@m4tthewdavis](https://github.com/m4tthewdavis) | [M014047](https://github.com/rohanarun/alpoge-rh-replay/issues/6099#issuecomment-7053317314) | Pending review |
+| [@m4tthewdavis](https://github.com/m4tthewdavis) | [M014152](https://github.com/rohanarun/alpoge-rh-replay/issues/6102#issuecomment-7053366017) | Pending review |
+| [@dhudakk](https://github.com/dhudakk) | [M038875](https://github.com/rohanarun/alpoge-rh-replay/issues/6114#issuecomment-7053372089) | Pending review |
 | [@chriswilson413](https://github.com/chriswilson413) | [M036415](https://github.com/rohanarun/alpoge-rh-replay/issues/6117#issuecomment-7053196690) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M065557](https://github.com/rohanarun/alpoge-rh-replay/issues/6127#issuecomment-7053128030) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M098668](https://github.com/rohanarun/alpoge-rh-replay/issues/6130#issuecomment-7053128678) | Pending review |
@@ -250,7 +254,3 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M153479](https://github.com/rohanarun/alpoge-rh-replay/issues/6475#issuecomment-7053340178) | Pending review |
 | [@galakurpi](https://github.com/galakurpi) | [M115706](https://github.com/rohanarun/alpoge-rh-replay/issues/6476#issuecomment-7053197648) | Pending review |
 | [@galakurpi](https://github.com/galakurpi) | [M115583](https://github.com/rohanarun/alpoge-rh-replay/issues/6477#issuecomment-7053199190) | Pending review |
-| [@galakurpi](https://github.com/galakurpi) | [M077462](https://github.com/rohanarun/alpoge-rh-replay/issues/6478#issuecomment-7053201094) | Pending review |
-| [@galakurpi](https://github.com/galakurpi) | [M115709](https://github.com/rohanarun/alpoge-rh-replay/issues/6479#issuecomment-7053202899) | Pending review |
-| [@matan1905](https://github.com/matan1905) | [M139218](https://github.com/rohanarun/alpoge-rh-replay/issues/6480#issuecomment-7053207973) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M088039](https://github.com/rohanarun/alpoge-rh-replay/issues/6481#issuecomment-7053182761) | Pending review |
