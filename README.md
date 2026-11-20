@@ -129,12 +129,12 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 
 | Evidence for distinct module IDs | Count |
 |---|---:|
-| Successful source build observed | 2,431 |
+| Successful source build observed | 2,699 |
 | Pilot proof object reused | 150 |
 | Pilot downstream module kernel-checked | 1 |
 | Distributed proof object reused | 10,973 |
 | Volunteer build evidence reviewed | 449 |
-| **Total with recorded module evidence** | **14,004 / 175,187** |
+| **Total with recorded module evidence** | **14,272 / 175,187** |
 
 [See each completed part and its evidence](completed/README.md) · [Machine-readable ledger](tracker/completed.tsv)
 

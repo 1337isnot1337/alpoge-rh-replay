@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M122803 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsGlLastRowEq` | volunteer-build-reviewed |
+| M122806 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsGoodPoly` | volunteer-build-reviewed |
+| M122852 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsJointEigenvectorNonzero` | volunteer-build-reviewed |
 | M122863 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsLevelInverseCongruence` | volunteer-build-reviewed |
 | M122864 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsLiftOfSurjKer` | volunteer-build-reviewed |
 | M122879 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsMaximalAbelianHermitian` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M135487 | P0532 | `Development.EtaleCohomology.EtaleSheaves.HensCut` | wave-reused |
 | M135494 | P0773 | `Development.EtaleCohomology.EtaleSheaves.IdemLiftOf` | wave-reused |
 | M135495 | P0566 | `Development.EtaleCohomology.EtaleSheaves.IdemPartPf` | wave-reused |
-| M135496 | P0745 | `Development.EtaleCohomology.EtaleSheaves.IdemSecPf` | wave-reused |
-| M135497 | P0662 | `Development.EtaleCohomology.EtaleSheaves.ImageInPf` | wave-reused |
-| M135498 | P0532 | `Development.EtaleCohomology.EtaleSheaves.ImgOf` | wave-reused |

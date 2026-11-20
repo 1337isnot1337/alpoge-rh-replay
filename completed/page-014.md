@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M144362 | P0374 | `Formalism.FilteredPoleLength.LocalDescentLevels.LeadingTermLength` | build-observed |
+| M144363 | P0271 | `Formalism.FilteredPoleLength.LocalDescentLevels.LengthBaseChange` | build-observed |
+| M144364 | P0325 | `Formalism.FilteredPoleLength.LocalDescentLevels.LengthResidueFieldBase` | build-observed |
 | M144365 | P0325 | `Formalism.FilteredPoleLength.LocalDescentLevels.LevelsChain` | build-observed |
 | M144366 | P0420 | `Formalism.FilteredPoleLength.LocalDescentLevels.LevelsChainOfAddOneLe` | build-observed |
 | M144367 | P0374 | `Formalism.FilteredPoleLength.LocalDescentLevels.LevelsLengthSum` | build-observed |
@@ -399,6 +402,3 @@
 | M144942 | P0570 | `Formalism.GL3MeanSquares.GlobalBoundRefinementResults` | build-observed |
 | M144943 | P0420 | `Formalism.GL3MeanSquares.HookFormulaTorsion.ArithmeticFrobeniusAction` | wave-reused |
 | M144944 | P0420 | `Formalism.GL3MeanSquares.HookFormulaTorsion.BimultiplicativeDivisibleTorsion` | wave-reused |
-| M144945 | P0212 | `Formalism.GL3MeanSquares.HookFormulaTorsion.BlockOperatorNormBound` | build-observed |
-| M144948 | P0461 | `Formalism.GL3MeanSquares.HookFormulaTorsion.CardUnitsZmodPrimeSq` | build-observed |
-| M144951 | P0602 | `Formalism.GL3MeanSquares.HookFormulaTorsion.CocycleIsCoboundary` | wave-reused |

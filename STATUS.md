@@ -1,6 +1,6 @@
 # Coordinator progress
 
-Updated 2026-11-20 17:02 UTC.
+Updated 2026-11-20 17:10 UTC.
 
 The full source build, axiom audit and fresh-kernel verification of RH are pending. Volunteers can claim work using the [contributor guide](CONTRIBUTING.md).
 
@@ -58,3 +58,11 @@ WAVE_MERGE_EXIT=0
 ```
 
 The earlier two-worker trial transferred 150 previously unbuilt modules. The receiver compiled one original downstream module and replayed its declarations with the Lean kernel. [Pilot receipt](evidence/pilot-receipt.json)
+
+## 64-worker test
+
+The coordinator filed 63 standard GitHub module claims for cloud helpers alongside the primary. Each helper must hold a grant for its explicit build target before provisioning.
+
+[Coordinator claims](https://github.com/rohanarun/alpoge-rh-replay/issues?q=is%3Aissue+author%3Arohanarun+label%3Aclaim)
+
+Render provisioned 20 of 63 requested helper services.

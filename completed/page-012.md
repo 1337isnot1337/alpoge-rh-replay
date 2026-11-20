@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M135496 | P0745 | `Development.EtaleCohomology.EtaleSheaves.IdemSecPf` | wave-reused |
+| M135497 | P0662 | `Development.EtaleCohomology.EtaleSheaves.ImageInPf` | wave-reused |
+| M135498 | P0532 | `Development.EtaleCohomology.EtaleSheaves.ImgOf` | wave-reused |
 | M135499 | P0566 | `Development.EtaleCohomology.EtaleSheaves.InjStepPf` | wave-reused |
 | M135500 | P0456 | `Development.EtaleCohomology.EtaleSheaves.InstCommRingR` | wave-reused |
 | M135502 | P0532 | `Development.EtaleCohomology.EtaleSheaves.IntFibPf` | wave-reused |
@@ -399,6 +402,3 @@
 | M137482 | P0064 | `Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.LocalCharacterIntegrals.DifferentiableSetIntegralFz` | volunteer-build-reviewed |
 | M137492 | P0064 | `Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.LocalInvariantNeighborhoods.MeasurePreservingOfAddEquiv` | volunteer-build-reviewed |
 | M137493 | P0064 | `Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.LocalInvariantNeighborhoods.NhdsInv` | volunteer-build-reviewed |
-| M138070 | P0535 | `Development.WeilBound.CoreStatements.CrystallinePeriodRings.InstCommRingBcris` | wave-reused |
-| M138272 | P0600 | `Development.WeilBound.CoreStatements.HeckeCharacterDeRham.DeRhamHeckeResults.PotentiallySemistableDeRham.SemistableDeRhamStatement.Second` | wave-reused |
-| M138273 | P0909 | `Development.WeilBound.CoreStatements.HodgeTatePoints.A12` | wave-reused |

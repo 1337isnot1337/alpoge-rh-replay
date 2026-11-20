@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M138070 | P0535 | `Development.WeilBound.CoreStatements.CrystallinePeriodRings.InstCommRingBcris` | wave-reused |
+| M138272 | P0600 | `Development.WeilBound.CoreStatements.HeckeCharacterDeRham.DeRhamHeckeResults.PotentiallySemistableDeRham.SemistableDeRhamStatement.Second` | wave-reused |
+| M138273 | P0909 | `Development.WeilBound.CoreStatements.HodgeTatePoints.A12` | wave-reused |
 | M138409 | P0937 | `Development.WeilBound.CoreStatements.HodgeTatePoints.HtatLie` | wave-reused |
 | M138410 | P0065 | `Development.WeilBound.CoreStatements.HodgeTatePoints.HtatLieA` | wave-reused |
 | M138411 | P0633 | `Development.WeilBound.CoreStatements.HodgeTatePoints.HtatLieB` | wave-reused |
@@ -399,6 +402,3 @@
 | M144359 | P0325 | `Formalism.FilteredPoleLength.LocalDescentLevels.InvFromBlocksApplyZero` | build-observed |
 | M144360 | P0271 | `Formalism.FilteredPoleLength.LocalDescentLevels.LatticeDescent` | build-observed |
 | M144361 | P0271 | `Formalism.FilteredPoleLength.LocalDescentLevels.LatticeIndexBis` | build-observed |
-| M144362 | P0374 | `Formalism.FilteredPoleLength.LocalDescentLevels.LeadingTermLength` | build-observed |
-| M144363 | P0271 | `Formalism.FilteredPoleLength.LocalDescentLevels.LengthBaseChange` | build-observed |
-| M144364 | P0325 | `Formalism.FilteredPoleLength.LocalDescentLevels.LengthResidueFieldBase` | build-observed |

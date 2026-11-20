@@ -173,6 +173,8 @@
 | M115441 | P0053 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.InvolutionMapCompactFinite` | wave-reused |
 | M115456 | P0053 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsClosedEmbeddingToM` | wave-reused |
 | M115459 | P0053 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsInducingCoeMatrix` | wave-reused |
+| M115473 | P0053 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsPF` | build-observed |
+| M115474 | P0136 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsPFSum` | build-observed |
 | M115475 | P0053 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsPrecompleteFiniteModule` | wave-reused |
 | M115481 | P0053 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsotypicStableGlOperator` | wave-reused |
 | M115482 | P0053 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsotypicStableOperator` | wave-reused |
@@ -203,6 +205,7 @@
 | M115621 | P0055 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.PartialFiltrationCoeff` | wave-reused |
 | M115623 | P0990 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.Pc` | build-observed |
 | M115630 | P0055 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.PlaceRankTwoOne` | wave-reused |
+| M115634 | P0055 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.PolyInMul` | build-observed |
 | M115680 | P0056 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.RightCosetSpaceCompact` | wave-reused |
 | M115681 | P0056 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.RingSec` | wave-reused |
 | M115684 | P0056 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.RootOrbit` | wave-reused |
@@ -399,6 +402,3 @@
 | M122770 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsFiniteCosetRepresentatives` | volunteer-build-reviewed |
 | M122794 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsGLLastBasisVecMulEq` | volunteer-build-reviewed |
 | M122796 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsGLVecMulEqLastBasis` | volunteer-build-reviewed |
-| M122803 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsGlLastRowEq` | volunteer-build-reviewed |
-| M122806 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsGoodPoly` | volunteer-build-reviewed |
-| M122852 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsJointEigenvectorNonzero` | volunteer-build-reviewed |
