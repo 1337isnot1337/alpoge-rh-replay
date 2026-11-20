@@ -7,7 +7,8 @@ import math
 import os
 from pathlib import Path
 import re
-import subprocess
+
+from submissions import gh_output
 
 TRACKER = Path(__file__).resolve().parent
 SERIES = {
@@ -102,9 +103,8 @@ def render_svg(events):
 def main():
     repo = os.environ['GITHUB_REPOSITORY']
     fields = 'number,title,author,comments'
-    issues = json.loads(subprocess.check_output(
+    issues = json.loads(gh_output(
         ['gh','issue','list','--repo',repo,'--state','all','--label','claim','--limit','10000','--json',fields],
-        text=True,
     ))
     reviewed = {json.loads(p.read_text())['claim'] for p in (TRACKER.parent/'evidence/volunteers').glob('*.json')}
     events = activity(issues,repo.split('/')[0],reviewed)
