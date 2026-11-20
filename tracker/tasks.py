@@ -11,14 +11,12 @@ def digest(path):
  with path.open('rb') as f:
   for block in iter(lambda:f.read(1024*1024),b''):h.update(block)
  return h.hexdigest()
-def project_oleans(build):
- """Map each project module with an .olean in the build tree to that file's modification time."""
- root=build/'lib/lean'
- if not root.is_dir():return {}
- return {'.'.join(p.relative_to(root).with_suffix('').parts):p.stat().st_mtime_ns for p in root.rglob('*.olean')}
-def rebuilt_imports(before,after,requested):
- """Project modules other than the requested targets whose .olean Lake wrote during the build."""
- return sorted(m for m,stamp in after.items() if before.get(m)!=stamp and m not in requested)
+BUILT=re.compile(r'^\S+\s+\[\d+/\d+\]\s+Built\s+([^\s:]+)')
+def rebuilt_imports(log_text,project,requested):
+ """Project modules other than the requested targets that this Lake invocation reports as built."""
+ log_text=re.sub(r'\x1b\[[0-9;]*m','',log_text)
+ built={m[1] for m in map(BUILT.match,log_text.splitlines()) if m}
+ return sorted(built.intersection(project)-set(requested))
 def host_resources():
  """CPU count, total memory, and the peak resident set size of the largest finished child process."""
  info={'cpu_count':os.cpu_count()}
@@ -147,11 +145,10 @@ def run(targets,checkout,out,bundle,fast_bundle=False):
  cmd=['lake','build',*['+'+r['module']+':olean' for r in targets]]
  log=output/'build.log'
  build=project/'.lake/build'
- before=project_oleans(build)
  started=datetime.datetime.now(datetime.timezone.utc);clock=time.monotonic()
  with log.open('wb') as f:result=subprocess.run([*launcher, *cmd],cwd=project,env=env,stdout=f,stderr=subprocess.STDOUT)
  elapsed=round(time.monotonic()-clock,1)
- rebuilt=rebuilt_imports(before,project_oleans(build),{r['module'] for r in targets})
+ rebuilt=rebuilt_imports(log.read_text(errors='replace'),{r['module'] for r in load()},{r['module'] for r in targets})
  receipt={'tasks':[r['id'] for r in targets],'started_utc':started.isoformat(),'ended_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'elapsed_seconds':elapsed,'host':host_resources(),'toolchain':version,'mathlib':mathlib,'inputs_manifest_sha256':digest(base.parent/'parts.sha256'),'command':cmd,'exit_code':result.returncode,'log_sha256':digest(log),'rebuilt_project_modules':rebuilt,'objects':{}}
  if result.returncode==0:
   for r in targets:receipt['objects'][r['id']]=digest(build/'lib/lean'/(r['module'].replace('.','/')+'.olean'))
