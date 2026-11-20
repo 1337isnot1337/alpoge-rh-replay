@@ -540,7 +540,6 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 | [@rohanarun](https://github.com/rohanarun) | [M065275](https://github.com/rohanarun/alpoge-rh-replay/issues/1637) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M163587](https://github.com/rohanarun/alpoge-rh-replay/issues/1641) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M022827](https://github.com/rohanarun/alpoge-rh-replay/issues/1643) | Claimed |
-| [@surfyhou](https://github.com/surfyhou) | [P1575](https://github.com/rohanarun/alpoge-rh-replay/issues/1644) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M007669](https://github.com/rohanarun/alpoge-rh-replay/issues/1647) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M075361](https://github.com/rohanarun/alpoge-rh-replay/issues/1648) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M088761](https://github.com/rohanarun/alpoge-rh-replay/issues/1649) | Claimed |
@@ -887,6 +886,7 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M158373](https://github.com/rohanarun/alpoge-rh-replay/issues/1630#issuecomment-7049377048) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M085264](https://github.com/rohanarun/alpoge-rh-replay/issues/1633#issuecomment-7049139804) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M004828](https://github.com/rohanarun/alpoge-rh-replay/issues/1640#issuecomment-7049142242) | Pending review |
+| [@surfyhou](https://github.com/surfyhou) | [P1575](https://github.com/rohanarun/alpoge-rh-replay/issues/1644#issuecomment-7050290011) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M085276](https://github.com/rohanarun/alpoge-rh-replay/issues/1683#issuecomment-7049176954) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M084847](https://github.com/rohanarun/alpoge-rh-replay/issues/1686#issuecomment-7049179321) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M005146](https://github.com/rohanarun/alpoge-rh-replay/issues/1693#issuecomment-7049182628) | Pending review |
@@ -1041,6 +1041,14 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 | [@BenCaunt](https://github.com/BenCaunt) | [M105844](https://github.com/rohanarun/alpoge-rh-replay/issues/2603#issuecomment-7050270984) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M041601](https://github.com/rohanarun/alpoge-rh-replay/issues/2605#issuecomment-7050262444) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M040555](https://github.com/rohanarun/alpoge-rh-replay/issues/2607#issuecomment-7050267470) | Pending review |
+| [@maddoxjack](https://github.com/maddoxjack) | [M038633](https://github.com/rohanarun/alpoge-rh-replay/issues/2612#issuecomment-7050277816) | Pending review |
+| [@gabeldev](https://github.com/gabeldev) | [M004083](https://github.com/rohanarun/alpoge-rh-replay/issues/2613#issuecomment-7050282752) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M042548](https://github.com/rohanarun/alpoge-rh-replay/issues/2614#issuecomment-7050281173) | Pending review |
+| [@BenCaunt](https://github.com/BenCaunt) | [M019642](https://github.com/rohanarun/alpoge-rh-replay/issues/2615#issuecomment-7050284612) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M004531](https://github.com/rohanarun/alpoge-rh-replay/issues/2616#issuecomment-7050286444) | Pending review |
+| [@maxime-fleury](https://github.com/maxime-fleury) | [M000551](https://github.com/rohanarun/alpoge-rh-replay/issues/2617#issuecomment-7050294398) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M032868](https://github.com/rohanarun/alpoge-rh-replay/issues/2618#issuecomment-7050281177) | Pending review |
+| [@BenCaunt](https://github.com/BenCaunt) | [M102565](https://github.com/rohanarun/alpoge-rh-replay/issues/2619#issuecomment-7050293613) | Pending review |
 
 <!-- pending-volunteers-end -->
 
