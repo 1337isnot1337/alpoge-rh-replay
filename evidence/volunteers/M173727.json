@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M173727"
+  ],
+  "started_utc": "2026-11-20T22:36:18.475284+00:00",
+  "ended_utc": "2026-11-20T22:37:17.486174+00:00",
+  "elapsed_seconds": 59.0,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6680064
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SymplecticGenerators.SymplecticCharacters.GenMain:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8eb44471df79fac357ea610b91e0fa0fa513cce691a724dd50c1695c90c3a1ea",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SymplecticGenerators.SymplecticCharacters.GenBase",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SymplecticGenerators.SymplecticCharacters.GenCol",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SymplecticGenerators.SymplecticCharacters.GenFin",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SymplecticGenerators.SymplecticCharacters.SpGenStatement"
+  ],
+  "objects": {
+    "M173727": "4becca98802960666d27190873ad226d28bbaf2681d7b662374545285787293f"
+  },
+  "bundle_sha256": "c6de1e26065b40f2fe4eaa9e411ebb657dcb0346bb4100f663adfee1e5325e0a",
+  "packet": "M173727",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4784#issuecomment-7052312927",
+  "reviewed_utc": "2026-11-20T22:45:28.919569+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M032358"
+  ],
+  "started_utc": "2026-11-20T22:40:26.803886+00:00",
+  "ended_utc": "2026-11-20T22:41:35.676180+00:00",
+  "elapsed_seconds": 68.9,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6773100
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatFormMulPullZeroSectionStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b045ae53d4a6dce4c1b05673a3bf845822f5172d06c9e024c6024245d011f01f",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SiegelReframe",
+    "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsEventuallyNormRiemannThetaTermLe",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatFormMulPullZeroSection",
+    "ReciprocityTheory.ThetaQuasiPeriods.PeriodLattice"
+  ],
+  "objects": {
+    "M032358": "df155410d9e6e6e2684e8c1c8b3d391ece1ef3d76ee06272295613c05bbbd6c4"
+  },
+  "bundle_sha256": "f38f6cdc8c6ea89b03d663ea33e4ab4bd9e67950bfd6577f5e769e017b7aec75",
+  "packet": "M032358",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4907#issuecomment-7052387634",
+  "reviewed_utc": "2026-11-20T22:45:10.927967+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

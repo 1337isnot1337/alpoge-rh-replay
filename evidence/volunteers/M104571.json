@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M104571"
+  ],
+  "started_utc": "2026-11-20T22:34:26.754455+00:00",
+  "ended_utc": "2026-11-20T22:35:21.697056+00:00",
+  "elapsed_seconds": 54.9,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6660324
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.AffineSplittingSpan.SpanInj:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c03104a43aa7c53a016def85cd759f3fda17e287db251523995158b479477005",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.AffineSplittingSpan.SpanCup",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.AffineSplittingSpan.SpanLevel",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.AffineSplittingSpan.SpanPrism",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.AffineSplittingSpan.Transfer",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.DcCons"
+  ],
+  "objects": {
+    "M104571": "df46a1f0ffcd12e6ee14c399c63e4cde99678de644a84bf5b6a1972491ae0363"
+  },
+  "bundle_sha256": "46750b0db76f5af0bfcb0dd44fc2dc32b1b8129d02595d78d8e33963341288e2",
+  "packet": "M104571",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4740#issuecomment-7052278581",
+  "reviewed_utc": "2026-11-20T22:45:37.229387+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

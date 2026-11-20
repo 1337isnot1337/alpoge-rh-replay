@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M171723"
+  ],
+  "started_utc": "2026-11-20T22:32:08.609208+00:00",
+  "ended_utc": "2026-11-20T22:32:15.668276+00:00",
+  "elapsed_seconds": 7.1,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6659760
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.DualLattices.CyclicRecursion:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c9f22e785e8ca2e2affbae4f591a262afdad90163e750ccbb2af072b21f64178",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.DualLattices.CyclicRecursionStatement"
+  ],
+  "objects": {
+    "M171723": "8db9d99bb127e9cfd7f958495752db991b324ab65c1fbb28f46d4f2069f121a3"
+  },
+  "bundle_sha256": "087645b7018c454396b9401d7c2e100927bddd93a8d8b2b96ab9385d8bf436f8",
+  "packet": "M171723",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4661#issuecomment-7052223743",
+  "reviewed_utc": "2026-11-20T22:45:55.471590+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

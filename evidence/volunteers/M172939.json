@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M172939"
+  ],
+  "started_utc": "2026-11-20T22:34:17.348847+00:00",
+  "ended_utc": "2026-11-20T22:34:56.937514+00:00",
+  "elapsed_seconds": 39.6,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6677504
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FirstCohomology.IndepOfFlag:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4e4da5e2be207dfd2848c3dcf49cb2487292f7871e789e4e80e858df0f81b850",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReducedBases.ExistsBoundedBasis",
+    "ReciprocityTheory.ReducedBases.GsInnerBOfLt",
+    "ReciprocityTheory.ReducedBases.LatDefs",
+    "ReciprocityTheory.ReducedBases.LatticeReduction",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FirstCohomology.ReducedBasisStatement"
+  ],
+  "objects": {
+    "M172939": "d600e324c3184059aa9cfbafadd4c2f60faeeb7ca7f0ed998acd3567d6998742"
+  },
+  "bundle_sha256": "bc4c337aad51f2b051573ffe2644a80f0fc9bee9f7c5e642a61993bb97d10033",
+  "packet": "M172939",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4730#issuecomment-7052271262",
+  "reviewed_utc": "2026-11-20T22:45:39.321940+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

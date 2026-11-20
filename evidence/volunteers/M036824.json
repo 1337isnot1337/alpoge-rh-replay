@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M036824"
+  ],
+  "started_utc": "2026-11-20T22:37:46.037300+00:00",
+  "ended_utc": "2026-11-20T22:38:38.515507+00:00",
+  "elapsed_seconds": 52.5,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6704524
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntZEqFourier:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5e687f519db758388c57010bef568d328adf206b0acf6715a7e74009b89014c1",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.OmegaFactorization",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffOnHeckeEisensteinFourierTerm",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.KFacDifferentiable",
+    "Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.PartialZetaFunctionalEquation"
+  ],
+  "objects": {
+    "M036824": "6e76a33648dd15c1b647886d32b0daca7aa8de25559c61003506c07225639bb0"
+  },
+  "bundle_sha256": "f3068d6760a61e31bb3b20c23c0b403f1a84c5a6355b5705dc2f34f046858cf1",
+  "packet": "M036824",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4812#issuecomment-7052335750",
+  "reviewed_utc": "2026-11-20T22:45:24.720634+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

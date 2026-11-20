@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M061520"
+  ],
+  "started_utc": "2026-11-20T22:41:20.670372+00:00",
+  "ended_utc": "2026-11-20T22:43:10.252637+00:00",
+  "elapsed_seconds": 109.5,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6992040
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsBasisOneAddXPow:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b21f62344470f7cea6e37ac14dbd873b12caaf30b29e3ab3189f39a02ebab925",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.CyclotomicDvdExpandOfCoprime",
+    "Development.AbelianVarietyTheory.Definitions.Foundations.FrobLiftWittClosure",
+    "Formalism.PieriBlockIdeals.CapelliCentralEnveloping",
+    "Formalism.PieriBlockIdeals.PieriColumnMinors.HeightDescentMinors"
+  ],
+  "objects": {
+    "M061520": "c05a5695cd0b11888a83a9d98ad9d711679509860c96d7b406b7c255c7c6fb2c"
+  },
+  "bundle_sha256": "271b5e6b1ae327b51fe5313cba693d511449da391932cf6ab6e94fcf4f43f0c7",
+  "packet": "M061520",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4966#issuecomment-7052415724",
+  "reviewed_utc": "2026-11-20T22:45:07.429258+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M166929"
+  ],
+  "started_utc": "2026-11-20T22:40:28.713317+00:00",
+  "ended_utc": "2026-11-20T22:41:42.973263+00:00",
+  "elapsed_seconds": 74.3,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6717096
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.StandardLatticeVecIndep:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "bcbdc40c996a6413d287b16cfe4f2e04c16a1b2409802e390eac269630792e09",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ArithDegree",
+    "GroundTheory.HeightsAndTheta.Heights.HermitianEuclidean",
+    "GroundTheory.HeightsAndTheta.Heights.HermitianSum",
+    "GroundTheory.HeightsAndTheta.Heights.HermitianTensor"
+  ],
+  "objects": {
+    "M166929": "bb66e6e2c83d9c4a834c295d8362e45cb566078f32c912ac1f062743bb7ecb19"
+  },
+  "bundle_sha256": "673df82a2352a2622410b6bbf582a9ce8f8d55573c321f587307209dab454064",
+  "packet": "M166929",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4910#issuecomment-7052389803",
+  "reviewed_utc": "2026-11-20T22:45:10.810540+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

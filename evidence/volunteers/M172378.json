@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M172378"
+  ],
+  "started_utc": "2026-11-20T22:37:24.699330+00:00",
+  "ended_utc": "2026-11-20T22:38:17.102795+00:00",
+  "elapsed_seconds": 52.4,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6618392
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovVolumes.UpperBounds.DescentStatementPf:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e36581098371ac05b702d5c2f74f165011226c71dc7a8a90372ea49eda8644d3",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovVolumes.UpperBounds.DescentStatement",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.Rationality.DescSt",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.Rationality.FiniteDetectStatement",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.Rationality.FunKerSt"
+  ],
+  "objects": {
+    "M172378": "46025955e63a015f12b33bccb08ba73f7c9a42af2a17d38f584cf59c2b800acd"
+  },
+  "bundle_sha256": "e98d469e1d1dfa9a761180bf0cc5a1c2bf5b7cbed7d0a05ebf561ed1366ae485",
+  "packet": "M172378",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4804#issuecomment-7052330053",
+  "reviewed_utc": "2026-11-20T22:45:26.261699+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

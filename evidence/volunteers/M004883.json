@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M004883"
+  ],
+  "started_utc": "2026-11-20T22:34:44.134062+00:00",
+  "ended_utc": "2026-11-20T22:35:36.763488+00:00",
+  "elapsed_seconds": 52.6,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6651720
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ValIrreducible:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "dd6cebecb1341b041eb0eb7eac7d60ad6fd275bd3cc8bb7d71c6eebb77d57d0d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.LinearDescent",
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.UnitLemmaGroup",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInhabitants",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NLineOne"
+  ],
+  "objects": {
+    "M004883": "9bfaa4347f7d50eeec8c671c98ea4af0f498bf1d5ac434e3a2066a3ccdaac0c7"
+  },
+  "bundle_sha256": "c204f89a8ea9356614c3dfa48b4797c701ce7a5980ca6feaeb61e88548c9f6d9",
+  "packet": "M004883",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4759#issuecomment-7052282870",
+  "reviewed_utc": "2026-11-20T22:45:33.016333+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

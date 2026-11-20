@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M106376"
+  ],
+  "started_utc": "2026-11-20T22:32:36.674544+00:00",
+  "ended_utc": "2026-11-20T22:32:58.578030+00:00",
+  "elapsed_seconds": 21.9,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6688248
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.LocalHermitianForms.LocalOrbitCounts.ExistsRho:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4c291c2bea36cbf6d99b4bc9f245e946272cefdc753d86ec9dcb0064d023fc83",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.LocalHermitianForms.CintIdx",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.LocalHermitianForms.EvenVal",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.LocalHermitianForms.LcountNorm",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.LocalHermitianForms.NormOneIsCoboundaryUnramifiedQuadratic",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.Wcount"
+  ],
+  "objects": {
+    "M106376": "c2916b72029706e5004dd0c5b58fee9e19c080b29b57aa03b01f556df2dbb232"
+  },
+  "bundle_sha256": "2a6183d4fab03ce290a363d3788e5dedca3904b025c63c9526ac28cc142565e4",
+  "packet": "M106376",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4701#issuecomment-7052236919",
+  "reviewed_utc": "2026-11-20T22:45:45.811379+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

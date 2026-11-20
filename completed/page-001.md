@@ -217,7 +217,9 @@
 | M000530 | P0237 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.SmallPI` | volunteer-build-reviewed |
 | M000531 | P0237 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.Transfer` | volunteer-build-reviewed |
 | M000553 | P0838 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.FundamentalDomainCusps.FiniteDimensionalFromLinearForms` | volunteer-build-reviewed |
+| M000555 | P0094 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.FundamentalDomainCusps.IntegrableMulBc` | volunteer-build-reviewed |
 | M000559 | P0001 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.FundamentalDomainCusps.NilpAlg` | volunteer-build-reviewed |
+| M000563 | P0838 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.FundamentalDomainCusps.RealParabolicDecomposition` | volunteer-build-reviewed |
 | M000567 | P0346 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.HaarBumpFunctions.ExistsIsBump` | volunteer-build-reviewed |
 | M000568 | P0293 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.HaarBumpFunctions.ExistsOpOfForm` | volunteer-build-reviewed |
 | M000569 | P0757 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.HaarBumpFunctions.PoulsenSmoothVectorsDense` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M001009 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramFiberMeasuresUniqueAe` | volunteer-build-reviewed |
 | M001010 | P0435 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramFiberMeasuresUniqueAeStatement` | build-observed |
 | M001011 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramMatrixLocalGlobal` | volunteer-build-reviewed |
-| M001012 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramMatrixLocalGlobalStatement` | volunteer-build-reviewed |
-| M001015 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramRightActionIdentities` | volunteer-build-reviewed |

@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M027038"
+  ],
+  "started_utc": "2026-11-20T22:41:08.101334+00:00",
+  "ended_utc": "2026-11-20T22:41:19.326176+00:00",
+  "elapsed_seconds": 11.2,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 6184208
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftGeometricPointOfFaithfullyFlatFiniteTy:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e01eb17b0f8ebd4e73838d9eb5e4bc8c53f358340f4b583585845e397952982e",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M027038": "2bee663c2e0cf54eb7c8a01f5bfd3fcc88969d7ee653da2252843a59dcbc1088"
+  },
+  "bundle_sha256": "0dbdbc4e5e05481176538d6ebbccfcb2634d465bfd9a8a31a3755afab8cd51cd",
+  "packet": "M027038",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4943#issuecomment-7052383865",
+  "reviewed_utc": "2026-11-20T22:45:07.958033+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

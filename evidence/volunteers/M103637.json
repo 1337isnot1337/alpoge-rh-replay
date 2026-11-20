@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M103637"
+  ],
+  "started_utc": "2026-11-20T22:42:38.481016+00:00",
+  "ended_utc": "2026-11-20T22:43:31.740307+00:00",
+  "elapsed_seconds": 53.2,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6701968
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.SelmerTransport.KerResAb:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "385a94a3d1ed7c8543e2df280b83ad011b39bef19698f02f0c998216b7956713",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.SelmerTransport.LenCokerLe",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.SelmerTransport.RestrictionMemInvariantH1"
+  ],
+  "objects": {
+    "M103637": "ecb44ff82ab31b8eddca345eefc85109d9a61b9e046d8e8e73487064d3a27516"
+  },
+  "bundle_sha256": "ba54213ca7b42d6adadf09d1d0a5c4291d4909194d64feab7923afd08d134f68",
+  "packet": "M103637",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4971#issuecomment-7052421857",
+  "reviewed_utc": "2026-11-20T22:45:07.434877+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

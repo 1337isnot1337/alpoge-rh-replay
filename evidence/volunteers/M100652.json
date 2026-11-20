@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M100652"
+  ],
+  "started_utc": "2026-11-20T22:34:47.999088+00:00",
+  "ended_utc": "2026-11-20T22:35:28.314069+00:00",
+  "elapsed_seconds": 40.3,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6607776
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms\u2082.LogDerOne:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ea8b094c5e4fe576c83edf8ea050368707c4b06b60bc612dd6e406d7244b7aed",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.RayPrimes",
+    "Formalism.GL3MeanSquares.PrimeCountAsymptoticInProgressions",
+    "Formalism.GL3MeanSquares.SmoothedRemainderRealIntegralFormula"
+  ],
+  "objects": {
+    "M100652": "32eeaddf3e2fac362d01ca592b9259e1a470b10e0bb056b51363296944380543"
+  },
+  "bundle_sha256": "6782e5a64d3baa44060dd369f84d8a48226ce2a8bd206aac122216cd256e8075",
+  "packet": "M100652",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4751#issuecomment-7052284055",
+  "reviewed_utc": "2026-11-20T22:45:34.554497+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

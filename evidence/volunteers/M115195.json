@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M115195"
+  ],
+  "started_utc": "2026-11-20T22:32:52.269847+00:00",
+  "ended_utc": "2026-11-20T22:33:10.053651+00:00",
+  "elapsed_seconds": 17.8,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6681668
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsInfiniteAdelicCharNeOne:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0c0de90dd5f03ff58ffbece806177e4ff1d64dccb03fd5b94aa64c7ddac9b5e8",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsValuationSubLeOne",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.InfiniteTraceAlgebraMap",
+    "GroundTheory.GlobalFields.Adele.Approximation",
+    "GroundTheory.GlobalFields.TateThesis.AdelicChar",
+    "GroundTheory.GlobalFields.TateThesis.AdelicCharLocal"
+  ],
+  "objects": {
+    "M115195": "9b769ae6769f37dafed721fa0449e1dc4d41370c956e628f24cfcfd5f4969d68"
+  },
+  "bundle_sha256": "cf668754312b277a3bd0243fb02349c53d5c05fe1811145171e45b14fc8edca6",
+  "packet": "M115195",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4711#issuecomment-7052240094",
+  "reviewed_utc": "2026-11-20T22:45:43.277442+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

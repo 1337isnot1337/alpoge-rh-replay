@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M174981"
+  ],
+  "started_utc": "2026-11-20T22:37:35.062305+00:00",
+  "ended_utc": "2026-11-20T22:38:24.037035+00:00",
+  "elapsed_seconds": 49.0,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6668252
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.UnramifiedIntegrals.ModGBasic:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "485ce1a1cb387cbd0f2a557746c92165aa9fd202cf062c6b182c495d48dff678",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.TorsionIntegrality.CMGoodModels.Statement",
+    "ReciprocityTheory.NeutralLocalFields.HilbertClassField",
+    "ReciprocityTheory.ReductiveGroups.UnramifiedIntegrals.ModDefs",
+    "ReciprocityTheory.ReductiveGroups.UnramifiedIntegrals.ModGDefs"
+  ],
+  "objects": {
+    "M174981": "3bbf11df10f850af799b8a5b23f90cbb50df4334990d79ff21b886e10e9a58f5"
+  },
+  "bundle_sha256": "50f41a9f3ac2d10f84b085f7b871853c00535c0dfb7458ecd90586a4e144fdf6",
+  "packet": "M174981",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4807#issuecomment-7052331814",
+  "reviewed_utc": "2026-11-20T22:45:25.989896+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

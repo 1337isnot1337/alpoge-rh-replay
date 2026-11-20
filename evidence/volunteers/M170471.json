@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M170471"
+  ],
+  "started_utc": "2026-11-20T22:32:32.915129+00:00",
+  "ended_utc": "2026-11-20T22:32:47.116287+00:00",
+  "elapsed_seconds": 14.2,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6670588
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.ProfiniteCohomology.LocalEulerCharacteristic.UnitsPower:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "759f9888317a8b01a6ecf6f7a9607ed4a991d7e7ab6c3cf37a527f9556e6bdc0",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsRootOfAdicComplete",
+    "GroundTheory.LocalFields.Interface",
+    "GroundTheory.LocalFields.NormalLattice",
+    "GroundTheory.LocalFields.UnitsBasic",
+    "GroundTheory.LocalFields.UnitsPowers"
+  ],
+  "objects": {
+    "M170471": "7ad8107f7b62dbffa47f9bd15907664c152897ede6692c565de19983565ddf92"
+  },
+  "bundle_sha256": "93a4ddf408d8673af20c6f0771d553caa97108872979d83b5899bffeff3d7bb7",
+  "packet": "M170471",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4698#issuecomment-7052233542",
+  "reviewed_utc": "2026-11-20T22:45:46.908775+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

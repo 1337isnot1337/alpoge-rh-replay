@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M006404"
+  ],
+  "started_utc": "2026-11-20T22:34:43.323820+00:00",
+  "ended_utc": "2026-11-20T22:34:59.461549+00:00",
+  "elapsed_seconds": 16.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388272,
+    "peak_child_rss_kib": 6897116
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ConjTransposeBoostMulSignatureMulBoost:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e5455464e642ad996f3b8e9920c563bb9c785dad0e51288465a5487f0012b070",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M006404": "93a11d788020076cc240ad593ca5c2b94406ca175ad4e59d59d8a9b56aa36d71"
+  },
+  "bundle_sha256": "29b98da5d260c186061751869f9fa3b21abe8c65d3337f3d556f593a90ae3e17",
+  "packet": "M006404",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4609#issuecomment-7052285948",
+  "reviewed_utc": "2026-11-20T22:46:02.864491+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

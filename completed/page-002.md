@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001012 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramMatrixLocalGlobalStatement` | volunteer-build-reviewed |
+| M001015 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramRightActionIdentities` | volunteer-build-reviewed |
 | M001016 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramRightActionIdentitiesStatement` | volunteer-build-reviewed |
 | M001017 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramRightMulActionLaws` | volunteer-build-reviewed |
 | M001018 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramRightMulActionLawsStatement` | volunteer-build-reviewed |
@@ -152,6 +154,7 @@
 | M001339 | P1084 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WittExtensionArtinianRingStatement` | build-observed |
 | M001340 | P1028 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WittExtensionDiagonalGramTuples` | build-observed |
 | M001343 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WittExtensionGlobalStatement` | volunteer-build-reviewed |
+| M001374 | P2554 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ContactSetSpansOfPosDefStatement` | volunteer-build-reviewed |
 | M001502 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.AdaptExists` | volunteer-build-reviewed |
 | M001503 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.AdaptExistsStatement` | volunteer-build-reviewed |
 | M001508 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.AlgCoreSubOfAlgCore` | volunteer-build-reviewed |
@@ -344,11 +347,13 @@
 | M002173 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuotientEigenDifference` | wave-reused |
 | M002177 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.RationalTransitionKernel` | volunteer-build-reviewed |
 | M002182 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SandwichMaps` | wave-reused |
+| M002184 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ScaledIntegerPeriodic` | volunteer-build-reviewed |
 | M002185 | P0549 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ScaledValuationFormula` | build-observed |
 | M002186 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SiegelReframe` | volunteer-build-reviewed |
 | M002187 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SpecialFibreUnits` | volunteer-build-reviewed |
 | M002190 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TameCharacterTorusValues` | build-observed |
 | M002191 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TameInvariantLevelAction` | build-observed |
+| M002192 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TaylorCoefficientForms` | volunteer-build-reviewed |
 | M002194 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorNormBound` | volunteer-build-reviewed |
 | M002196 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorProductAction` | wave-reused |
 | M002200 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ToricSymbols` | wave-reused |
@@ -397,8 +402,3 @@
 | M002323 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ThetaConstantWeber` | wave-reused |
 | M002325 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.UnfoldingOperatorConditions` | build-observed |
 | M002331 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.AdelicUnitaryGroups` | build-observed |
-| M002332 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.ArcFramePointTruncation` | volunteer-build-reviewed |
-| M002333 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.BesselDatum` | build-observed |
-| M002339 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.CuspFormNormData` | volunteer-build-reviewed |
-| M002340 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.DegreeIdentityCharacter` | volunteer-build-reviewed |
-| M002346 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.FockOrthogonalDecomposition` | build-observed |
