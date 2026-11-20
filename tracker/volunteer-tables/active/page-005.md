@@ -4,12 +4,6 @@
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@rohanarun](https://github.com/rohanarun) | [M152580](https://github.com/rohanarun/alpoge-rh-replay/issues/5340) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M140258](https://github.com/rohanarun/alpoge-rh-replay/issues/5341) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M104599](https://github.com/rohanarun/alpoge-rh-replay/issues/5342) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M143022](https://github.com/rohanarun/alpoge-rh-replay/issues/5343) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M109690](https://github.com/rohanarun/alpoge-rh-replay/issues/5345) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M083492](https://github.com/rohanarun/alpoge-rh-replay/issues/5346) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M138747](https://github.com/rohanarun/alpoge-rh-replay/issues/5347) | Claimed |
 | [@surfyhou](https://github.com/surfyhou) | [P1729](https://github.com/rohanarun/alpoge-rh-replay/issues/5348) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M109643](https://github.com/rohanarun/alpoge-rh-replay/issues/5349) | Claimed |
@@ -59,13 +53,11 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M060947](https://github.com/rohanarun/alpoge-rh-replay/issues/5421) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M073361](https://github.com/rohanarun/alpoge-rh-replay/issues/5422) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M012666](https://github.com/rohanarun/alpoge-rh-replay/issues/5424) | Claimed |
-| [@jwr404](https://github.com/jwr404) | [M062562](https://github.com/rohanarun/alpoge-rh-replay/issues/5425) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M000461](https://github.com/rohanarun/alpoge-rh-replay/issues/5426) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M065552](https://github.com/rohanarun/alpoge-rh-replay/issues/5427) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M148142](https://github.com/rohanarun/alpoge-rh-replay/issues/5429) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M153799](https://github.com/rohanarun/alpoge-rh-replay/issues/5434) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M127722](https://github.com/rohanarun/alpoge-rh-replay/issues/5437) | Claimed |
-| [@jwr404](https://github.com/jwr404) | [M065317](https://github.com/rohanarun/alpoge-rh-replay/issues/5438) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M075652](https://github.com/rohanarun/alpoge-rh-replay/issues/5440) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M062829](https://github.com/rohanarun/alpoge-rh-replay/issues/5442) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M032795](https://github.com/rohanarun/alpoge-rh-replay/issues/5444) | Claimed |
@@ -103,4 +95,18 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M119445](https://github.com/rohanarun/alpoge-rh-replay/issues/5526) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115080](https://github.com/rohanarun/alpoge-rh-replay/issues/5527) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M024662](https://github.com/rohanarun/alpoge-rh-replay/issues/5529) | Claimed |
-| [@ANdATIon](https://github.com/ANdATIon) | [M115144](https://github.com/rohanarun/alpoge-rh-replay/issues/5530) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115511](https://github.com/rohanarun/alpoge-rh-replay/issues/5531) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M099449](https://github.com/rohanarun/alpoge-rh-replay/issues/5538) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M091581](https://github.com/rohanarun/alpoge-rh-replay/issues/5540) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M055258](https://github.com/rohanarun/alpoge-rh-replay/issues/5542) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115723](https://github.com/rohanarun/alpoge-rh-replay/issues/5545) | Claimed |
+| [@sp20262026](https://github.com/sp20262026) | [M062886](https://github.com/rohanarun/alpoge-rh-replay/issues/5551) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M059338](https://github.com/rohanarun/alpoge-rh-replay/issues/5563) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M115123](https://github.com/rohanarun/alpoge-rh-replay/issues/5565) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M131215](https://github.com/rohanarun/alpoge-rh-replay/issues/5567) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M115224](https://github.com/rohanarun/alpoge-rh-replay/issues/5570) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M143417](https://github.com/rohanarun/alpoge-rh-replay/issues/5571) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M100746](https://github.com/rohanarun/alpoge-rh-replay/issues/5573) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M065243](https://github.com/rohanarun/alpoge-rh-replay/issues/5575) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M104723](https://github.com/rohanarun/alpoge-rh-replay/issues/5577) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115801](https://github.com/rohanarun/alpoge-rh-replay/issues/5580) | Claimed |
