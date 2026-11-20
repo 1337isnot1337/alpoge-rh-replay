@@ -14,6 +14,21 @@ Choose any of **175,187 module tasks** or one of **2,858 work packets**. Each mo
 
 Start with the [agent instructions](auto-research.md) to claim work and submit replay evidence. Start your evidence comment with `Replay submission` to be credited automatically. Maintainers review the evidence before marking a task complete.
 
+### Active claims awaiting evidence
+
+<!-- active-volunteers-start -->
+
+| Contributor | Task | Status |
+|---|---|---|
+| [@DanieleCorso](https://github.com/DanieleCorso) | [M016897](https://github.com/rohanarun/alpoge-rh-replay/issues/10) | Claimed |
+| [@DanieleCorso](https://github.com/DanieleCorso) | [P0103](https://github.com/rohanarun/alpoge-rh-replay/issues/11) | Claimed |
+| [@juanfers1](https://github.com/juanfers1) | [P0104](https://github.com/rohanarun/alpoge-rh-replay/issues/12) | Claimed |
+| [@gabeldev](https://github.com/gabeldev) | [P0108](https://github.com/rohanarun/alpoge-rh-replay/issues/14) | Claimed |
+| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0111](https://github.com/rohanarun/alpoge-rh-replay/issues/15) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [P0145](https://github.com/rohanarun/alpoge-rh-replay/issues/16) | Claimed |
+
+<!-- active-volunteers-end -->
+
 ### Submitted for review
 
 <!-- pending-volunteers-start -->

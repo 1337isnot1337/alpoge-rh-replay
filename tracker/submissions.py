@@ -1,4 +1,4 @@
-"""Credit replay submissions from claim authors in the public README."""
+"""Show active replay claims and submissions in the public README."""
 
 import json
 import os
@@ -7,8 +7,6 @@ import re
 import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
-START = '<!-- pending-volunteers-start -->'
-END = '<!-- pending-volunteers-end -->'
 
 
 def pages(repo, route):
@@ -20,7 +18,7 @@ def pages(repo, route):
         yield from page
 
 
-def pending_submissions(repo):
+def volunteer_updates(repo):
     reviewed = set()
     for path in (ROOT / 'evidence/volunteers').glob('*.json'):
         receipt = json.loads(path.read_text())
@@ -29,7 +27,7 @@ def pending_submissions(repo):
     for issue in pages(repo, 'issues?labels=claim&state=all&per_page=100'):
         if 'pull_request' in issue:
             continue
-        claim = re.fullmatch(r'Claim ([PM][0-9]+)', issue['title'])
+        claim = re.fullmatch(r'Claim (P\d{4}|M\d{6})', issue['title'])
         login = issue['user']['login']
         if (not claim or not re.fullmatch(r'[A-Za-z0-9-]+', login)
                 or issue['user']['type'] != 'User'
@@ -37,7 +35,7 @@ def pending_submissions(repo):
             continue
 
         number = int(issue['number'])
-        comments = pages(repo, f'issues/{number}/comments?per_page=100')
+        comments = list(pages(repo, f'issues/{number}/comments?per_page=100'))
         submission_ids = [
             int(comment['id'])
             for comment in comments
@@ -47,21 +45,36 @@ def pending_submissions(repo):
         ]
         if submission_ids:
             yield number, login, claim[1], max(submission_ids)
+        elif issue['state'] == 'open' and any(label['name'] == 'claim-granted' for label in issue['labels']):
+            prefix = f'Granted `{claim[1]}`.'
+            if any(comment['user']['login'] == 'github-actions[bot]' and comment['body'].startswith(prefix)
+                   for comment in comments):
+                yield number, login, claim[1], None
+
+
+def replace_section(text, marker, lines, empty):
+    start = f'<!-- {marker}-start -->'
+    end = f'<!-- {marker}-end -->'
+    rendered = '\n'.join(lines) if len(lines) > 2 else empty
+    return text[:text.index(start) + len(start)] + '\n\n' + rendered + '\n\n' + text[text.index(end):]
 
 
 def main():
     repo = os.environ['GITHUB_REPOSITORY']
-    rows = sorted(pending_submissions(repo))
-    lines = ['| Contributor | Task | Review |', '|---|---|---|']
-    for number, login, task, comment in rows:
-        link = f'https://github.com/{repo}/issues/{number}#issuecomment-{comment}'
-        lines.append(f'| [@{login}](https://github.com/{login}) | [{task}]({link}) | Pending review |')
+    claimed = ['| Contributor | Task | Status |', '|---|---|---|']
+    pending = ['| Contributor | Task | Review |', '|---|---|---|']
+    for number, login, task, comment in sorted(volunteer_updates(repo)):
+        link = f'https://github.com/{repo}/issues/{number}'
+        person = f'[@{login}](https://github.com/{login})'
+        if comment is None:
+            claimed.append(f'| {person} | [{task}]({link}) | Claimed |')
+        else:
+            pending.append(f'| {person} | [{task}]({link}#issuecomment-{comment}) | Pending review |')
 
     readme = ROOT / 'README.md'
     current = readme.read_text()
-    rendered = '\n'.join(lines) if rows else 'No submissions awaiting review.'
-    updated = current[:current.index(START) + len(START)]
-    updated += '\n\n' + rendered + '\n\n' + current[current.index(END):]
+    updated = replace_section(current, 'active-volunteers', claimed, 'No active claims awaiting evidence.')
+    updated = replace_section(updated, 'pending-volunteers', pending, 'No submissions awaiting review.')
     if updated != current:
         readme.write_text(updated)
 

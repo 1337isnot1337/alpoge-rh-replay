@@ -2,6 +2,10 @@ name: Credit replay submissions
 on:
   issue_comment:
     types: [created, edited, deleted]
+  workflow_run:
+    workflows: [Coordinate replay claims]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
   push:
     branches: [main]
@@ -14,7 +18,10 @@ concurrency:
   cancel-in-progress: false
 jobs:
   update:
-    if: github.event_name != 'issue_comment' || (!github.event.issue.pull_request && github.event.comment.user.login == github.event.issue.user.login)
+    if: >-
+      (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success')
+      && (github.event_name != 'issue_comment'
+      || (!github.event.issue.pull_request && github.event.comment.user.login == github.event.issue.user.login))
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
