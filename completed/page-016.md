@@ -2,6 +2,28 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M064168 | P0358 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.UpperHalfPlaneGermRingHomAndRestrict` | wave-reused |
+| M064169 | P0404 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.UpperHalfPlaneGermRingHomAndRestrictStatement` | wave-reused |
+| M064172 | P0358 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.UpperHalfPlaneHolomorphicMulEqZeroIff` | wave-reused |
+| M064173 | P0404 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.UpperHalfPlaneHolomorphicMulEqZeroIffStatement` | wave-reused |
+| M064197 | P0189 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationLeOneIffIsIntegralOfCompleteDvr` | wave-reused |
+| M064198 | P0252 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationLeOneIffIsIntegralOfCompleteDvrStatement` | wave-reused |
+| M064200 | P0027 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationMapAlgEquivEqOfLeOneIffIsIntegral` | wave-reused |
+| M064201 | P0119 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationMapAlgEquivEqOfLeOneIffIsIntegralStatement` | wave-reused |
+| M064204 | P0027 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationPrimitiveRootSubOnePowTotient` | volunteer-build-reviewed |
+| M064205 | P0119 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationPrimitiveRootSubOnePowTotientStatement` | volunteer-build-reviewed |
+| M064216 | P0027 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationZetaSubOnePowTotient` | volunteer-build-reviewed |
+| M064244 | P0306 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.WhittakerTranslatesCornerLinearIndependent` | wave-reused |
+| M064245 | P0358 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.WhittakerTranslatesCornerLinearIndependentStatement` | wave-reused |
+| M064259 | P0621 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ZsEqMulDepEis` | wave-reused |
+| M064260 | P0654 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ZsEqMulDepEisStatement` | wave-reused |
+| M064261 | P0621 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ZsNormCharLeOne` | wave-reused |
+| M064303 | P0789 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsAffineLieBasisBaseChange` | wave-reused |
+| M064307 | P0789 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsChartFiniteType` | wave-reused |
+| M064308 | P1091 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsChartGeneratorPullbackGeneratesFibre` | wave-reused |
+| M064309 | P1121 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsChartGeneratorPullbackGeneratesFibreStatement` | wave-reused |
+| M064310 | P1036 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsChartLieBasisMatrices` | wave-reused |
+| M064336 | P1199 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsFrPtTie` | wave-reused |
 | M064354 | P1121 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIntegralGeneratorChartPointNoInvert` | wave-reused |
 | M064355 | P1150 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIntegralGeneratorChartPointNoInvertStatement` | wave-reused |
 | M064356 | P1091 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIntegralGeneratorOfChartPointCdvr` | wave-reused |
@@ -380,25 +402,3 @@
 | M069011 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsFixedBasis` | volunteer-build-reviewed |
 | M069028 | P1453 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsFramedFCrystalOfStratifiedPhiModule` | wave-reused |
 | M069040 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsFrobeniusCompatibleLift` | volunteer-build-reviewed |
-| M069056 | P1404 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsFrobeniusOnStratifiedValue` | wave-reused |
-| M069057 | P1428 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsFrobeniusOnStratifiedValueStatement` | wave-reused |
-| M069081 | P1095 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsGaloisElemCyclotomicPeriodNotRootOfUnity` | wave-reused |
-| M069082 | P1124 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsGaloisElemCyclotomicPeriodNotRootOfUnityStatement` | wave-reused |
-| M069085 | P0955 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsGaloisEqEmbeddingsOCModPrime` | wave-reused |
-| M069086 | P0982 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsGaloisEqEmbeddingsOCModPrimeStatement` | wave-reused |
-| M069092 | P1038 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsGaloisMovesFlatByUnitRoot` | wave-reused |
-| M069093 | P1066 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsGaloisMovesFlatByUnitRootStatement` | wave-reused |
-| M069096 | P1066 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsGaloisPrescribedUnramifiedKummer` | wave-reused |
-| M069111 | P0955 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsGaussNormCoeffWittDisc` | wave-reused |
-| M069112 | P0982 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsGaussNormCoeffWittDiscStatement` | wave-reused |
-| M069116 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsGaussPointStatement` | volunteer-build-reviewed |
-| M069125 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsGlConjugateLastBasisNormalFormOfNeZero` | volunteer-build-reviewed |
-| M069148 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsHaarQuotientIntegralFormula` | volunteer-build-reviewed |
-| M069181 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsHyperplaneResidueOutsideTranslates` | volunteer-build-reviewed |
-| M069204 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInhabitants` | volunteer-build-reviewed |
-| M069207 | P1010 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInjectiveMapIntegersClToWittQuotient` | wave-reused |
-| M069208 | P1038 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInjectiveMapIntegersClToWittQuotientStatement` | wave-reused |
-| M069209 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInjectivePushoutOfPrismCover` | wave-reused |
-| M069210 | P1226 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInjectivePushoutOfPrismCoverStatement` | wave-reused |
-| M069227 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntegralBasisUnramifiedInvolutionExt` | volunteer-build-reviewed |
-| M069262 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntegralSolutionFrobeniusSubMulVecEqStatement` | volunteer-build-reviewed |

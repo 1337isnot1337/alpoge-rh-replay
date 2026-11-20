@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013297 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymmetricSpreadOutLineBundleAbelianSchemeStatement` | volunteer-build-reviewed |
+| M013306 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaBasisAfterEveryFieldExtension` | volunteer-build-reviewed |
+| M013319 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaSystemOfPolarisedLevelStatement` | volunteer-build-reviewed |
+| M013327 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionLiftSpecialFibreOfGenericRational` | volunteer-build-reviewed |
+| M013328 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionLiftSpecialFibreOfGenericRationalStatement` | volunteer-build-reviewed |
+| M013329 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionMapOfThetaMatching` | volunteer-build-reviewed |
+| M013332 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionPairDescentAlgClosedSubfieldStatement` | volunteer-build-reviewed |
+| M013344 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorusAbelianQuotientPDivisibleSmoothGroupStatement` | volunteer-build-reviewed |
+| M013355 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorusStableGoodOpenOfWeightUnitsStatement` | volunteer-build-reviewed |
+| M013361 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTwistedSectionThetaTranslateCoef` | volunteer-build-reviewed |
+| M013362 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTwistedSectionThetaTranslateCoefStatement` | volunteer-build-reviewed |
 | M013375 | P1247 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisationTestOfGeometricTest` | wave-reused |
 | M013376 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisationTestOfGeometricTestStatement` | volunteer-build-reviewed |
 | M013377 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisationTrivialTorusAbelianLocus` | volunteer-build-reviewed |
@@ -228,6 +239,7 @@
 | M014489 | P1504 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbsFactorialMulEulerCharTwistPowSubLe` | wave-reused |
 | M014490 | P1534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbsFactorialMulEulerCharTwistPowSubLeStatement` | wave-reused |
 | M014491 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbsFactorialMulEvalSubTopLe` | wave-reused |
+| M014516 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbsNormMapRingOfIntegersHom` | volunteer-build-reviewed |
 | M014554 | P0918 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AcycFOfPiSh` | wave-reused |
 | M014555 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AcycFOfPiShStatement` | wave-reused |
 | M014556 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AcyclicExtendScalarsZmodOfFlatBoundedBelow` | wave-reused |
@@ -251,6 +263,7 @@
 | M015076 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdjoinConjInPar` | wave-reused |
 | M015077 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdjoinConjInParStatement` | wave-reused |
 | M015082 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdjoinLocalOrderTensorPadicMatrixAlmostAllStatement` | volunteer-build-reviewed |
+| M015083 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdjoinMatrixReducedOfCharpolySeparable` | volunteer-build-reviewed |
 | M015088 | P0296 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdjoinRootProdLinearFactorsLatticeFacts` | wave-reused |
 | M015089 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdjoinRootProdLinearFactorsLatticeFactsStatement` | wave-reused |
 | M015090 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdjoinRootProdLinearFactorsStructure` | wave-reused |
@@ -323,6 +336,7 @@
 | M016144 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeIntegralClosureEtaleHeightOneStatement` | wave-reused |
 | M016146 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeIsoSpreadsToSubringStatement` | volunteer-build-reviewed |
 | M016150 | P0516 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeLiftClassFunction` | wave-reused |
+| M016172 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeTensorModuleCompat` | volunteer-build-reviewed |
 | M016185 | P0476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseCurvatureTermsSumZeroStatement` | volunteer-build-reviewed |
 | M016189 | P0476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseDifferentialDualBasisCancelStatement` | volunteer-build-reviewed |
 | M016244 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BasisApply` | volunteer-build-reviewed |
@@ -388,17 +402,3 @@
 | M017127 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechLevelRepresentable` | wave-reused |
 | M017128 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechLevelRepresentableStatement` | wave-reused |
 | M017133 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechNerveLevelPreservesCofilteredLimit` | wave-reused |
-| M017134 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechNerveLevelPreservesCofilteredLimitStatement` | wave-reused |
-| M017171 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechPullOneBijectiveLatticeCover` | volunteer-build-reviewed |
-| M017175 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechTripleRestrictCompositeInjectiveSecond` | wave-reused |
-| M017227 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CenterActsByScalarOnEigenforms` | volunteer-build-reviewed |
-| M017275 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentreCompat` | volunteer-build-reviewed |
-| M017297 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChSingle` | volunteer-build-reviewed |
-| M017335 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsBasic` | wave-reused |
-| M017336 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsBasicStatement` | wave-reused |
-| M017337 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsCechNerveQuasiIsoOfSmoothSurjective` | wave-reused |
-| M017338 | P0706 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsCechNerveQuasiIsoOfSmoothSurjectiveStatement` | wave-reused |
-| M017339 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsCechNerveQuasiIsoOfSurjective` | wave-reused |
-| M017340 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsCechNerveQuasiIsoOfSurjectiveStatement` | wave-reused |
-| M017342 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsIsoOfFreeIso` | wave-reused |
-| M017346 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsQuasiIsoOfSections` | wave-reused |

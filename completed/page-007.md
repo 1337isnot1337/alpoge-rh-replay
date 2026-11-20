@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M017134 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechNerveLevelPreservesCofilteredLimitStatement` | wave-reused |
+| M017171 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechPullOneBijectiveLatticeCover` | volunteer-build-reviewed |
+| M017175 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechTripleRestrictCompositeInjectiveSecond` | wave-reused |
+| M017227 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CenterActsByScalarOnEigenforms` | volunteer-build-reviewed |
+| M017275 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentreCompat` | volunteer-build-reviewed |
+| M017297 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChSingle` | volunteer-build-reviewed |
+| M017335 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsBasic` | wave-reused |
+| M017336 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsBasicStatement` | wave-reused |
+| M017337 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsCechNerveQuasiIsoOfSmoothSurjective` | wave-reused |
+| M017338 | P0706 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsCechNerveQuasiIsoOfSmoothSurjectiveStatement` | wave-reused |
+| M017339 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsCechNerveQuasiIsoOfSurjective` | wave-reused |
+| M017340 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsCechNerveQuasiIsoOfSurjectiveStatement` | wave-reused |
+| M017342 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsIsoOfFreeIso` | wave-reused |
+| M017346 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsQuasiIsoOfSections` | wave-reused |
 | M017371 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterAugmentationSubspaceTopEqKerSmulStatement` | volunteer-build-reviewed |
 | M017440 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharmatrixBlockDiagonal` | wave-reused |
 | M017457 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyEqOfIntertwined` | wave-reused |
@@ -177,12 +191,14 @@
 | M020383 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMDetbPEqZero` | volunteer-build-reviewed |
 | M020385 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DOnEqZeroOfEqOne` | wave-reused |
 | M020391 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DUnitMemRangeOfMemKerIdeal` | wave-reused |
+| M020465 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DbarAddVectorScalar` | volunteer-build-reviewed |
 | M020486 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DbarEnergyCutoffMulSectionLe` | wave-reused |
 | M020487 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DbarEnergyCutoffMulSectionLeStatement` | wave-reused |
 | M020488 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DbarEnergyGluedSectionLe` | wave-reused |
 | M020489 | P1003 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DbarEnergyGluedSectionLeStatement` | wave-reused |
 | M020490 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DbarEnergyOnCoverBallsLtTopOfSmooth` | wave-reused |
 | M020491 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DbarEnergyOnCoverBallsLtTopOfSmoothStatement` | wave-reused |
+| M020492 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DbarEqZeroOfHolomorphic` | volunteer-build-reviewed |
 | M020497 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DbarGlueSectionByPartitionEq` | wave-reused |
 | M020498 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DbarGlueSectionByPartitionEqStatement` | wave-reused |
 | M020688 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DefiniteFrameLeadingMinorsSignStatement` | volunteer-build-reviewed |
@@ -271,6 +287,7 @@
 | M022407 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EnlargeStrictHenselisationRetractMod` | wave-reused |
 | M022408 | P0867 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EnlargeStrictHenselisationRetractModStatement` | wave-reused |
 | M022410 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EntireEqOfEqOnHalfPlane` | wave-reused |
+| M022450 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqMapMaximalIdealOfRingKrullDimEqOne` | volunteer-build-reviewed |
 | M022542 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqSelfOfTrivial` | volunteer-build-reviewed |
 | M022552 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqSumIntegralCubeDerivatives` | volunteer-build-reviewed |
 | M022619 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfOrthogonalTranslatesProj` | volunteer-build-reviewed |
@@ -385,20 +402,3 @@
 | M022944 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtalePolynomialSubstitution` | volunteer-build-reviewed |
 | M022948 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleQuotientOfEtalePunctured` | wave-reused |
 | M022949 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleQuotientOfEtalePuncturedStatement` | wave-reused |
-| M022950 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafComplexMappingConeAcyclicOfQuasiIso` | wave-reused |
-| M022951 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafComplexMappingConeAcyclicOfQuasiIsoStatement` | wave-reused |
-| M022953 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafDescendAlongLocallyBijective` | wave-reused |
-| M022954 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafDescendAlongLocallyBijectiveStatement` | wave-reused |
-| M022955 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafExtendScalarsZmodKernelLocallyMultiple` | wave-reused |
-| M022956 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafExtendScalarsZmodKernelLocallyMultipleStatement` | wave-reused |
-| M022957 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafExtendScalarsZmodSectionLocallyTmul` | wave-reused |
-| M022958 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafExtendScalarsZmodSectionLocallyTmulStatement` | wave-reused |
-| M022959 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafOfRingFunctorIsFinitary` | wave-reused |
-| M022960 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafOfRingFunctorIsFinitaryStatement` | wave-reused |
-| M022961 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafOfRingFunctorSectionsLocallyBijective` | wave-reused |
-| M022963 | P0733 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsEquivDegreeZeroCocycles` | wave-reused |
-| M022964 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsEquivDegreeZeroCocyclesStatement` | wave-reused |
-| M022965 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsExtAndGlue` | wave-reused |
-| M022966 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsExtAndGlueStatement` | wave-reused |
-| M022967 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsGlueOfLocallyUnique` | wave-reused |
-| M022968 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsGlueOfLocallyUniqueStatement` | wave-reused |

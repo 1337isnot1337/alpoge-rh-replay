@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M043912 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MulMemRangeNormStatement` | volunteer-build-reviewed |
+| M043933 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MulTensorInjectiveOfFlatBaseChangeKerInfStatement` | volunteer-build-reviewed |
+| M043956 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MultilinearVanishOfProdVanishStatement` | volunteer-build-reviewed |
+| M043968 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MultiplicativeInnerProductModelStatement` | volunteer-build-reviewed |
+| M043971 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MultiplicativeRelationOfPullbackIsoThickening` | volunteer-build-reviewed |
+| M043992 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MultiplierExponentialHolomorphicLocalStatement` | volunteer-build-reviewed |
+| M044080 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MvPolynomialEqZeroOfVanishSkewHermitian` | volunteer-build-reviewed |
+| M044083 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MvPolynomialIdealEqBotOfPderivStableNoConstantsStatement` | volunteer-build-reviewed |
+| M044085 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MvPolynomialTensorBaseChangeRingEquivStatement` | volunteer-build-reviewed |
+| M044090 | P0922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MvPowerSeriesCoeffsInIdealPowEqFactorialMul` | wave-reused |
+| M044091 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MvPowerSeriesCoeffsInIdealPowEqFactorialMulStatement` | wave-reused |
+| M044101 | P0922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MvPowerSeriesSubstCoeffSubMemIdeal` | wave-reused |
+| M044102 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MvPowerSeriesSubstCoeffSubMemIdealStatement` | wave-reused |
+| M044118 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NarrowGaussConvolutionDenseStatement` | volunteer-build-reviewed |
+| M044120 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NatCardHomologyOfShortExactMulStatement` | volunteer-build-reviewed |
+| M044122 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NatCardHomologyRestrictScalarsStatement` | volunteer-build-reviewed |
+| M044124 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NatCardQuotSmulTopLePowFinrankStatement` | volunteer-build-reviewed |
+| M044195 | P1509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NefIsPsEffAndBigTensNef` | wave-reused |
+| M044196 | P2055 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NefLineBundleNumericalTheoremsProofStatement` | wave-reused |
+| M044199 | P1509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NefNumericsOfRiemannRoch` | wave-reused |
+| M044239 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentApproximationSurjective` | volunteer-build-reviewed |
 | M044246 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentExpInjectiveCommutingStatement` | volunteer-build-reviewed |
 | M044248 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentExpLogSeriesStatement` | volunteer-build-reviewed |
 | M044250 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentMatrixPowDimEqZeroStatement` | volunteer-build-reviewed |
@@ -381,24 +402,3 @@
 | M049033 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzIntegralEqOfDerivs` | volunteer-build-reviewed |
 | M049035 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzIntegralOfIntegrableBounds` | volunteer-build-reviewed |
 | M049037 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzIntegralSuperposition` | volunteer-build-reviewed |
-| M049038 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzIntegralSuperpositionStatement` | volunteer-build-reviewed |
-| M049041 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzIteratedFDerivTendstoZeroCocompact` | volunteer-build-reviewed |
-| M049042 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzIteratedFDerivTendstoZeroCocompactStatement` | volunteer-build-reviewed |
-| M049047 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzLogDerivativeGaussian` | volunteer-build-reviewed |
-| M049048 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzLogDerivativeGaussianStatement` | volunteer-build-reviewed |
-| M049057 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzPairingContinuousFunctional` | volunteer-build-reviewed |
-| M049058 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzPairingContinuousFunctionalStatement` | volunteer-build-reviewed |
-| M049069 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzSeminormLinearPhaseSecondOrderLe` | volunteer-build-reviewed |
-| M049071 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzSeminormSmulLeftLinearPhaseLe` | volunteer-build-reviewed |
-| M049072 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzSeminormSmulLeftLinearPhaseLeStatement` | volunteer-build-reviewed |
-| M049073 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzSeminormTranslateSubLineDerivLe` | volunteer-build-reviewed |
-| M049074 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzSeminormTranslateSubLineDerivLeStatement` | volunteer-build-reviewed |
-| M049075 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzShiftIteratedFDerivBound` | volunteer-build-reviewed |
-| M049076 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzShiftIteratedFDerivBoundStatement` | volunteer-build-reviewed |
-| M049079 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzSliceSeminormLe` | volunteer-build-reviewed |
-| M049089 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzTaylorPartialSumDerivBound` | volunteer-build-reviewed |
-| M049090 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzTaylorPartialSumDerivBoundStatement` | volunteer-build-reviewed |
-| M049091 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzTaylorSeriesConverges` | volunteer-build-reviewed |
-| M049092 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzTaylorSeriesConvergesStatement` | volunteer-build-reviewed |
-| M049093 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzTendstoOfPointwiseUniformBounds` | volunteer-build-reviewed |
-| M049101 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzTranslateTaylorSecondOrder` | volunteer-build-reviewed |

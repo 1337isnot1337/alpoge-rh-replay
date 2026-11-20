@@ -21,6 +21,7 @@
 | M000071 | P0172 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.HeckeA` | volunteer-build-reviewed |
 | M000072 | P0346 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.HeckeStdStatement` | volunteer-build-reviewed |
 | M000073 | P0615 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.IntegralOfModule` | build-observed |
+| M000074 | P0648 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.InvMemRl` | build-observed |
 | M000090 | P0757 | `CompanionTheory.AutomorphicTheory.LocalBesselUniqueness.BesselModels.AtFormAdmOneOfSteps` | volunteer-build-reviewed |
 | M000094 | P0783 | `CompanionTheory.AutomorphicTheory.LocalBesselUniqueness.BesselModels.DDForm` | volunteer-build-reviewed |
 | M000143 | P0392 | `CompanionTheory.AutomorphicTheory.PadicUnitaryWeights.DixmierMalliavin.DecompDirection` | volunteer-build-reviewed |
@@ -84,6 +85,7 @@
 | M000529 | P0172 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.MapStdPoly` | volunteer-build-reviewed |
 | M000530 | P0237 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.SmallPI` | volunteer-build-reviewed |
 | M000531 | P0237 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.Transfer` | volunteer-build-reviewed |
+| M000559 | P0001 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.FundamentalDomainCusps.NilpAlg` | volunteer-build-reviewed |
 | M000567 | P0346 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.HaarBumpFunctions.ExistsIsBump` | volunteer-build-reviewed |
 | M000568 | P0293 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.HaarBumpFunctions.ExistsOpOfForm` | volunteer-build-reviewed |
 | M000569 | P0757 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.HaarBumpFunctions.PoulsenSmoothVectorsDense` | volunteer-build-reviewed |
@@ -306,8 +308,10 @@
 | M001266 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.StageData` | volunteer-build-reviewed |
 | M001271 | P0094 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SumRhoEqTrace` | volunteer-build-reviewed |
 | M001278 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.TensorInvolutionAlgebraPropertiesStatement` | volunteer-build-reviewed |
+| M001279 | P0238 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.TensorLocallyCompactRing` | volunteer-build-reviewed |
 | M001280 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.TensorLocallyCompactRingStatement` | volunteer-build-reviewed |
 | M001294 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ThetaFunctionModularityStatement` | volunteer-build-reviewed |
+| M001303 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.TotallyRealContinuousEmbeddingInfiniteAdeles` | volunteer-build-reviewed |
 | M001305 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.TotallyRealIntegralBasisExists` | volunteer-build-reviewed |
 | M001308 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.TprodComplementSplitFinsetStatement` | volunteer-build-reviewed |
 | M001309 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.TraceFormInvarianceUnderUnitary` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M001648 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorDifferentialSignRuleQuadratic` | volunteer-build-reviewed |
 | M001649 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorDifferentialSignRuleQuadraticStatement` | volunteer-build-reviewed |
 | M001650 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorIntegrality` | volunteer-build-reviewed |
-| M001651 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorIntegralityStatement` | volunteer-build-reviewed |
-| M001680 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FixedVectorStatementStatement` | volunteer-build-reviewed |
-| M001690 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FrameOfAnisotropicPlaneSplittingStatement` | volunteer-build-reviewed |
-| M001704 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.GlRelOfBracket` | volunteer-build-reviewed |

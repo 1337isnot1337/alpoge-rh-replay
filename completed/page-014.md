@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M060134 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SqNormSumRepsMulIndexLe` | wave-reused |
+| M060150 | P0521 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StabilizerCommensurableInvVolumeSmulComplement` | wave-reused |
+| M060151 | P0554 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StabilizerCommensurableInvVolumeSmulComplementStatement` | wave-reused |
+| M060153 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StabilizerFramesCoordinateLatticeGoodPlace` | wave-reused |
+| M060154 | P0521 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StabilizerFramesCoordinateLatticeGoodPlaceStatement` | wave-reused |
+| M060192 | P0554 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StrongApproxStab` | wave-reused |
+| M060193 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StrongApproxStabStatement` | wave-reused |
+| M060194 | P0402 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StrongApproximationAdditiveQuadraticExtension` | wave-reused |
+| M060195 | P0444 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StrongApproximationAdditiveQuadraticExtensionStatement` | wave-reused |
+| M060207 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SumClsLeEncard` | wave-reused |
+| M060213 | P0788 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SumGraphEqSumEntN` | wave-reused |
+| M060217 | P0554 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SumOverDataTermCountEqLatticeMass` | wave-reused |
+| M060218 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SumOverDataTermCountEqLatticeMassStatement` | wave-reused |
+| M060226 | P0025 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SumProdOfLocalChoicesBijection` | wave-reused |
+| M060227 | P0116 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SumProdOfLocalChoicesBijectionStatement` | wave-reused |
+| M060228 | P0116 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SumRefine` | wave-reused |
+| M060241 | P0249 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.T2SpaceOfIsNonarchimedeanLocalFieldFlagMeasures` | wave-reused |
+| M060260 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TendstoRescaledIntegralOfDensityOneStatement` | volunteer-build-reviewed |
+| M060261 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TendstoRescaledMeasureGaugeUnitBody` | volunteer-build-reviewed |
+| M060263 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TendstoSmallBallDensityOfSqueeze` | volunteer-build-reviewed |
+| M060279 | P0402 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermExponentsNonnegAndDefectGroupBound` | wave-reused |
 | M060280 | P0444 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermExponentsNonnegAndDefectGroupBoundStatement` | wave-reused |
 | M060285 | P0554 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermIntegralNearOneBound` | wave-reused |
 | M060286 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermIntegralNearOneBoundStatement` | wave-reused |
@@ -381,24 +402,3 @@
 | M062375 | P0898 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HalfPeterssonIntegralWeightedLinearFormsStatement` | wave-reused |
 | M062382 | P0356 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasCommonExponentDenominatorRingOperations` | wave-reused |
 | M062383 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasCommonExponentDenominatorRingOperationsStatement` | wave-reused |
-| M062388 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasModerateGrowthAlgebraSlashStable` | wave-reused |
-| M062389 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasModerateGrowthAlgebraSlashStableStatement` | wave-reused |
-| M062390 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasModerateGrowthQExpansionOfCoeffPolynomialGrow` | wave-reused |
-| M062391 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasModerateGrowthQExpansionOfCoeffPolynomialGrowStatement` | wave-reused |
-| M062394 | P0356 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasQExpansionOfPeriodicBoundedHolomorphic` | wave-reused |
-| M062395 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasQExpansionOfPeriodicBoundedHolomorphicStatement` | wave-reused |
-| M062398 | P0356 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasQExpansionSumAboveBasicProperties` | wave-reused |
-| M062399 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasQExpansionSumAboveBasicPropertiesStatement` | wave-reused |
-| M062400 | P0356 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasQExpansionSumAboveMul` | wave-reused |
-| M062401 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasQExpansionSumAboveMulStatement` | wave-reused |
-| M062402 | P0445 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasQOfIntegralQuot` | wave-reused |
-| M062403 | P0483 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasQOfIntegralQuotStatement` | wave-reused |
-| M062405 | P0522 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSomeLevelOverCompGLTwoPosRat` | wave-reused |
-| M062406 | P0554 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSomeLevelOverCompGLTwoPosRatStatement` | wave-reused |
-| M062407 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSomeLevelOverOfIntegralInvariant` | wave-reused |
-| M062408 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSomeLevelOverOfIntegralInvariantStatement` | wave-reused |
-| M062413 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSumParsevalQExpansionHorizontalLine` | wave-reused |
-| M062414 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSumParsevalQExpansionHorizontalLineStatement` | wave-reused |
-| M062415 | P0356 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSumPowerSeriesInvOfConvergent` | wave-reused |
-| M062416 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSumPowerSeriesInvOfConvergentStatement` | wave-reused |
-| M062426 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeCharacterSlashSumIndepReps` | wave-reused |

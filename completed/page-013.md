@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M057295 | P0024 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.DetUpdateRowLastSingle` | wave-reused |
+| M057338 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.DualInterSelfDualHermitianLatticeSubspace` | wave-reused |
+| M057339 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.DualInterSelfDualHermitianLatticeSubspaceStatement` | wave-reused |
+| M057347 | P0249 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EichlerIsometry` | wave-reused |
+| M057348 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EichlerLatticeLocallyConstantData` | wave-reused |
+| M057349 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EichlerLatticeLocallyConstantDataStatement` | wave-reused |
+| M057350 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EichlerMapMemUnipotentCharacter` | wave-reused |
+| M057351 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EichlerMapMemUnipotentCharacterStatement` | wave-reused |
+| M057352 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EichlerMoveScalarFibreMeasureOne` | wave-reused |
+| M057353 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EichlerMoveScalarFibreMeasureOneStatement` | wave-reused |
+| M057363 | P0520 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EncardGluingHomKernelsLe` | wave-reused |
+| M057364 | P0554 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EncardGluingHomKernelsLeStatement` | wave-reused |
+| M057375 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EncardUniCosetsLe` | wave-reused |
+| M057389 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.Equality` | wave-reused |
+| M057415 | P1718 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsAdelicTorusMeasureStabiliserHaar` | wave-reused |
+| M057416 | P1743 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsAdelicTorusMeasureStabiliserHaarStatement` | wave-reused |
+| M057430 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsBasisFgMaximalOrderSpanningFree` | wave-reused |
+| M057451 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsCommonDenominatorForHermitianLatticeData` | wave-reused |
+| M057452 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsCommonDenominatorForHermitianLatticeDataStatement` | wave-reused |
+| M057460 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsConjInt` | wave-reused |
+| M057465 | P0787 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsConjRenumber` | wave-reused |
 | M057506 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsEqZpowMulUnit` | wave-reused |
 | M057507 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsEquivOfRetractions` | wave-reused |
 | M057516 | P0481 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsFineSubgroupMovesAtLattice` | wave-reused |
@@ -381,24 +402,3 @@
 | M060112 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SpanToZero` | wave-reused |
 | M060114 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SplitAndSmulCompletedLatticeLeAtLevelPrime` | volunteer-build-reviewed |
 | M060133 | P0025 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SqIntervalIntegralLeMulIntervalIntegralSq` | volunteer-build-reviewed |
-| M060134 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SqNormSumRepsMulIndexLe` | wave-reused |
-| M060150 | P0521 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StabilizerCommensurableInvVolumeSmulComplement` | wave-reused |
-| M060151 | P0554 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StabilizerCommensurableInvVolumeSmulComplementStatement` | wave-reused |
-| M060153 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StabilizerFramesCoordinateLatticeGoodPlace` | wave-reused |
-| M060154 | P0521 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StabilizerFramesCoordinateLatticeGoodPlaceStatement` | wave-reused |
-| M060192 | P0554 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StrongApproxStab` | wave-reused |
-| M060193 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StrongApproxStabStatement` | wave-reused |
-| M060194 | P0402 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StrongApproximationAdditiveQuadraticExtension` | wave-reused |
-| M060195 | P0444 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StrongApproximationAdditiveQuadraticExtensionStatement` | wave-reused |
-| M060207 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SumClsLeEncard` | wave-reused |
-| M060213 | P0788 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SumGraphEqSumEntN` | wave-reused |
-| M060217 | P0554 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SumOverDataTermCountEqLatticeMass` | wave-reused |
-| M060218 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SumOverDataTermCountEqLatticeMassStatement` | wave-reused |
-| M060226 | P0025 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SumProdOfLocalChoicesBijection` | wave-reused |
-| M060227 | P0116 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SumProdOfLocalChoicesBijectionStatement` | wave-reused |
-| M060228 | P0116 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SumRefine` | wave-reused |
-| M060241 | P0249 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.T2SpaceOfIsNonarchimedeanLocalFieldFlagMeasures` | wave-reused |
-| M060260 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TendstoRescaledIntegralOfDensityOneStatement` | volunteer-build-reviewed |
-| M060261 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TendstoRescaledMeasureGaugeUnitBody` | volunteer-build-reviewed |
-| M060263 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TendstoSmallBallDensityOfSqueeze` | volunteer-build-reviewed |
-| M060279 | P0402 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermExponentsNonnegAndDefectGroupBound` | wave-reused |

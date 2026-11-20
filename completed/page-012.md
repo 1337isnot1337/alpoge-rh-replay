@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M049038 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzIntegralSuperpositionStatement` | volunteer-build-reviewed |
+| M049041 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzIteratedFDerivTendstoZeroCocompact` | volunteer-build-reviewed |
+| M049042 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzIteratedFDerivTendstoZeroCocompactStatement` | volunteer-build-reviewed |
+| M049047 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzLogDerivativeGaussian` | volunteer-build-reviewed |
+| M049048 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzLogDerivativeGaussianStatement` | volunteer-build-reviewed |
+| M049057 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzPairingContinuousFunctional` | volunteer-build-reviewed |
+| M049058 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzPairingContinuousFunctionalStatement` | volunteer-build-reviewed |
+| M049069 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzSeminormLinearPhaseSecondOrderLe` | volunteer-build-reviewed |
+| M049071 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzSeminormSmulLeftLinearPhaseLe` | volunteer-build-reviewed |
+| M049072 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzSeminormSmulLeftLinearPhaseLeStatement` | volunteer-build-reviewed |
+| M049073 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzSeminormTranslateSubLineDerivLe` | volunteer-build-reviewed |
+| M049074 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzSeminormTranslateSubLineDerivLeStatement` | volunteer-build-reviewed |
+| M049075 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzShiftIteratedFDerivBound` | volunteer-build-reviewed |
+| M049076 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzShiftIteratedFDerivBoundStatement` | volunteer-build-reviewed |
+| M049079 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzSliceSeminormLe` | volunteer-build-reviewed |
+| M049089 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzTaylorPartialSumDerivBound` | volunteer-build-reviewed |
+| M049090 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzTaylorPartialSumDerivBoundStatement` | volunteer-build-reviewed |
+| M049091 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzTaylorSeriesConverges` | volunteer-build-reviewed |
+| M049092 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzTaylorSeriesConvergesStatement` | volunteer-build-reviewed |
+| M049093 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzTendstoOfPointwiseUniformBounds` | volunteer-build-reviewed |
+| M049101 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzTranslateTaylorSecondOrder` | volunteer-build-reviewed |
 | M049107 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzValuedIntegralLinear` | volunteer-build-reviewed |
 | M049108 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzValuedIntegralLinearStatement` | volunteer-build-reviewed |
 | M049109 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzVanishingDecomposition` | volunteer-build-reviewed |
@@ -381,24 +402,3 @@
 | M057273 | P0869 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.DerTailStatement` | wave-reused |
 | M057288 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.DetGramSumElimSmulSub` | wave-reused |
 | M057289 | P0249 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.DetGramTwoFrames` | wave-reused |
-| M057295 | P0024 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.DetUpdateRowLastSingle` | wave-reused |
-| M057338 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.DualInterSelfDualHermitianLatticeSubspace` | wave-reused |
-| M057339 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.DualInterSelfDualHermitianLatticeSubspaceStatement` | wave-reused |
-| M057347 | P0249 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EichlerIsometry` | wave-reused |
-| M057348 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EichlerLatticeLocallyConstantData` | wave-reused |
-| M057349 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EichlerLatticeLocallyConstantDataStatement` | wave-reused |
-| M057350 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EichlerMapMemUnipotentCharacter` | wave-reused |
-| M057351 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EichlerMapMemUnipotentCharacterStatement` | wave-reused |
-| M057352 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EichlerMoveScalarFibreMeasureOne` | wave-reused |
-| M057353 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EichlerMoveScalarFibreMeasureOneStatement` | wave-reused |
-| M057363 | P0520 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EncardGluingHomKernelsLe` | wave-reused |
-| M057364 | P0554 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EncardGluingHomKernelsLeStatement` | wave-reused |
-| M057375 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.EncardUniCosetsLe` | wave-reused |
-| M057389 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.Equality` | wave-reused |
-| M057415 | P1718 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsAdelicTorusMeasureStabiliserHaar` | wave-reused |
-| M057416 | P1743 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsAdelicTorusMeasureStabiliserHaarStatement` | wave-reused |
-| M057430 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsBasisFgMaximalOrderSpanningFree` | wave-reused |
-| M057451 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsCommonDenominatorForHermitianLatticeData` | wave-reused |
-| M057452 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsCommonDenominatorForHermitianLatticeDataStatement` | wave-reused |
-| M057460 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsConjInt` | wave-reused |
-| M057465 | P0787 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsConjRenumber` | wave-reused |

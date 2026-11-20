@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M062388 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasModerateGrowthAlgebraSlashStable` | wave-reused |
+| M062389 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasModerateGrowthAlgebraSlashStableStatement` | wave-reused |
+| M062390 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasModerateGrowthQExpansionOfCoeffPolynomialGrow` | wave-reused |
+| M062391 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasModerateGrowthQExpansionOfCoeffPolynomialGrowStatement` | wave-reused |
+| M062394 | P0356 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasQExpansionOfPeriodicBoundedHolomorphic` | wave-reused |
+| M062395 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasQExpansionOfPeriodicBoundedHolomorphicStatement` | wave-reused |
+| M062398 | P0356 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasQExpansionSumAboveBasicProperties` | wave-reused |
+| M062399 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasQExpansionSumAboveBasicPropertiesStatement` | wave-reused |
+| M062400 | P0356 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasQExpansionSumAboveMul` | wave-reused |
+| M062401 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasQExpansionSumAboveMulStatement` | wave-reused |
+| M062402 | P0445 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasQOfIntegralQuot` | wave-reused |
+| M062403 | P0483 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasQOfIntegralQuotStatement` | wave-reused |
+| M062405 | P0522 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSomeLevelOverCompGLTwoPosRat` | wave-reused |
+| M062406 | P0554 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSomeLevelOverCompGLTwoPosRatStatement` | wave-reused |
+| M062407 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSomeLevelOverOfIntegralInvariant` | wave-reused |
+| M062408 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSomeLevelOverOfIntegralInvariantStatement` | wave-reused |
+| M062413 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSumParsevalQExpansionHorizontalLine` | wave-reused |
+| M062414 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSumParsevalQExpansionHorizontalLineStatement` | wave-reused |
+| M062415 | P0356 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSumPowerSeriesInvOfConvergent` | wave-reused |
+| M062416 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSumPowerSeriesInvOfConvergentStatement` | wave-reused |
+| M062426 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeCharacterSlashSumIndepReps` | wave-reused |
 | M062427 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeCharacterSlashSumIndepRepsStatement` | wave-reused |
 | M062428 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeCharacterSlashSumInvariantOfStable` | wave-reused |
 | M062429 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeCharacterSlashSumInvariantOfStableStatement` | wave-reused |
@@ -68,6 +89,7 @@
 | M062807 | P0483 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.JTLevelOneStatement` | wave-reused |
 | M062838 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.KillsTranslatesSumMulMeanDifferenceEq` | wave-reused |
 | M062839 | P0621 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.KillsTranslatesSumMulMeanDifferenceEqStatement` | wave-reused |
+| M062907 | P0118 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.KummerTowerQqPowLevelEqQ` | volunteer-build-reviewed |
 | M062908 | P0026 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.LSeriesSummableBoundedMulOfSummableNormSq` | wave-reused |
 | M062909 | P0118 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.LSeriesSummableBoundedMulOfSummableNormSqStatement` | wave-reused |
 | M062910 | P0621 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.LSeriesSummableMulDivisorSum` | wave-reused |
@@ -380,25 +402,3 @@
 | M064165 | P0404 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.UpperHalfPlaneCodiscreteGermIdentityAndUnitsStatement` | wave-reused |
 | M064166 | P0358 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.UpperHalfPlaneEqZeroOfVanishAboveIm` | wave-reused |
 | M064167 | P0404 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.UpperHalfPlaneEqZeroOfVanishAboveImStatement` | wave-reused |
-| M064168 | P0358 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.UpperHalfPlaneGermRingHomAndRestrict` | wave-reused |
-| M064169 | P0404 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.UpperHalfPlaneGermRingHomAndRestrictStatement` | wave-reused |
-| M064172 | P0358 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.UpperHalfPlaneHolomorphicMulEqZeroIff` | wave-reused |
-| M064173 | P0404 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.UpperHalfPlaneHolomorphicMulEqZeroIffStatement` | wave-reused |
-| M064197 | P0189 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationLeOneIffIsIntegralOfCompleteDvr` | wave-reused |
-| M064198 | P0252 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationLeOneIffIsIntegralOfCompleteDvrStatement` | wave-reused |
-| M064200 | P0027 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationMapAlgEquivEqOfLeOneIffIsIntegral` | wave-reused |
-| M064201 | P0119 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationMapAlgEquivEqOfLeOneIffIsIntegralStatement` | wave-reused |
-| M064204 | P0027 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationPrimitiveRootSubOnePowTotient` | volunteer-build-reviewed |
-| M064205 | P0119 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationPrimitiveRootSubOnePowTotientStatement` | volunteer-build-reviewed |
-| M064216 | P0027 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationZetaSubOnePowTotient` | volunteer-build-reviewed |
-| M064244 | P0306 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.WhittakerTranslatesCornerLinearIndependent` | wave-reused |
-| M064245 | P0358 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.WhittakerTranslatesCornerLinearIndependentStatement` | wave-reused |
-| M064259 | P0621 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ZsEqMulDepEis` | wave-reused |
-| M064260 | P0654 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ZsEqMulDepEisStatement` | wave-reused |
-| M064261 | P0621 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ZsNormCharLeOne` | wave-reused |
-| M064303 | P0789 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsAffineLieBasisBaseChange` | wave-reused |
-| M064307 | P0789 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsChartFiniteType` | wave-reused |
-| M064308 | P1091 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsChartGeneratorPullbackGeneratesFibre` | wave-reused |
-| M064309 | P1121 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsChartGeneratorPullbackGeneratesFibreStatement` | wave-reused |
-| M064310 | P1036 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsChartLieBasisMatrices` | wave-reused |
-| M064336 | P1199 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsFrPtTie` | wave-reused |

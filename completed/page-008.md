@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M022950 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafComplexMappingConeAcyclicOfQuasiIso` | wave-reused |
+| M022951 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafComplexMappingConeAcyclicOfQuasiIsoStatement` | wave-reused |
+| M022953 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafDescendAlongLocallyBijective` | wave-reused |
+| M022954 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafDescendAlongLocallyBijectiveStatement` | wave-reused |
+| M022955 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafExtendScalarsZmodKernelLocallyMultiple` | wave-reused |
+| M022956 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafExtendScalarsZmodKernelLocallyMultipleStatement` | wave-reused |
+| M022957 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafExtendScalarsZmodSectionLocallyTmul` | wave-reused |
+| M022958 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafExtendScalarsZmodSectionLocallyTmulStatement` | wave-reused |
+| M022959 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafOfRingFunctorIsFinitary` | wave-reused |
+| M022960 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafOfRingFunctorIsFinitaryStatement` | wave-reused |
+| M022961 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafOfRingFunctorSectionsLocallyBijective` | wave-reused |
+| M022963 | P0733 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsEquivDegreeZeroCocycles` | wave-reused |
+| M022964 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsEquivDegreeZeroCocyclesStatement` | wave-reused |
+| M022965 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsExtAndGlue` | wave-reused |
+| M022966 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsExtAndGlueStatement` | wave-reused |
+| M022967 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsGlueOfLocallyUnique` | wave-reused |
+| M022968 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsGlueOfLocallyUniqueStatement` | wave-reused |
 | M022969 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsSepGlueOfSurjectiveFamily` | wave-reused |
 | M022970 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsSepGlueOfSurjectiveFamilyStatement` | wave-reused |
 | M022973 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafShortComplexExactIffLocally` | wave-reused |
@@ -385,20 +402,3 @@
 | M030258 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnitApproximationAdicCompletion` | volunteer-build-reviewed |
 | M030268 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnitDenominatorIntegral` | volunteer-build-reviewed |
 | M030270 | P0298 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnitDescentCocycleDescendedSubmoduleEq` | wave-reused |
-| M030271 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnitDescentCocycleDescendedSubmoduleEqStatement` | wave-reused |
-| M030284 | P1032 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnitKummerEqOfPicardTorsionFree` | wave-reused |
-| M030285 | P1059 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnitKummerEqOfPicardTorsionFreeStatement` | wave-reused |
-| M030293 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnitMinorOfIntegralMatrix` | volunteer-build-reviewed |
-| M030313 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnitPowEq` | volunteer-build-reviewed |
-| M030329 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnitZetaAct` | wave-reused |
-| M030461 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsValuationRingDominatingSpecialization` | volunteer-build-reviewed |
-| M030463 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsValuationSubringComplexOverPrime` | volunteer-build-reviewed |
-| M030465 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsValuationSubringExtendingRingHom` | volunteer-build-reviewed |
-| M030507 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsVirtualCharacterSemidirectOrbitCrossTerms` | wave-reused |
-| M030508 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsVirtualCharacterSemidirectOrbitCrossTermsStatement` | wave-reused |
-| M030509 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsVirtualCharacterShintaniPsiLift` | wave-reused |
-| M030510 | P0949 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsVirtualCharacterShintaniPsiLiftStatement` | wave-reused |
-| M030511 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsVirtualCharacterTwistedHarishChandraInduct` | wave-reused |
-| M030512 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsVirtualCharacterTwistedHarishChandraInductStatement` | wave-reused |
-| M030533 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeightedHomogenisation` | volunteer-build-reviewed |
-| M030581 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWhittakerDatumAndHalfLevels` | wave-reused |

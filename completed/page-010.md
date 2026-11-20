@@ -2,6 +2,25 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M037810 | P0651 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsCohomologyContinuousOnConeOfLevelwiseStatement` | wave-reused |
+| M037812 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsColimitFiniteSubextensionRingCocone` | wave-reused |
+| M037813 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsColimitFiniteSubextensionRingCoconeStatement` | wave-reused |
+| M037814 | P0299 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsColimitLeftFuncAndCechConerveLevels` | wave-reused |
+| M037822 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsCombIn` | volunteer-build-reviewed |
+| M037836 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsCompactCharAnnihilatorOfMemNhdsZero` | volunteer-build-reviewed |
+| M037847 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsCompactGLBoundedEntriesCompletionFinitePlace` | volunteer-build-reviewed |
+| M037864 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsCompactPreimageQuadraticMapNoNullVectorsStatement` | volunteer-build-reviewed |
+| M037883 | P1328 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsConjFsBasisOfUnitary` | wave-reused |
+| M037884 | P0398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsConjOfIsConjGlFieldExtensionInclusion` | wave-reused |
+| M037885 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsConjOfIsConjGlFieldExtensionInclusionStatement` | wave-reused |
+| M037900 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsContOnOfLocal` | volunteer-build-reviewed |
+| M037920 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsCutFnIteratedDerivScale` | volunteer-build-reviewed |
+| M037943 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsDomainAndIsIntegrallyClosedAtPrimeTensorFieldA` | volunteer-build-reviewed |
+| M037944 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsDomainAndIsIntegrallyClosedAtPrimeTensorFieldAStatement` | volunteer-build-reviewed |
+| M037990 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsEtaleCoordinatesSectionQuotients` | wave-reused |
+| M037991 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsEtaleCoordinatesSectionQuotientsStatement` | wave-reused |
+| M037992 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdAway` | volunteer-build-reviewed |
+| M037993 | P0398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdAwayOfIsUnitMod` | wave-reused |
 | M037994 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdAwayOfIsUnitModStatement` | wave-reused |
 | M037995 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdAwayStatement` | volunteer-build-reviewed |
 | M037996 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdSelf` | wave-reused |
@@ -108,9 +127,11 @@
 | M039248 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsZeroChains` | wave-reused |
 | M039250 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsZeroTensorOfDegreeZeroComplexes` | wave-reused |
 | M039251 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsZeroTensorOfDegreeZeroComplexesStatement` | wave-reused |
+| M039294 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsolateMaximalAmongPrimesContainingEtale` | volunteer-build-reviewed |
 | M039386 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedDerivHeckePhiFourierTransformBoundStatement` | volunteer-build-reviewed |
 | M039388 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedDerivHeckePhiFourierTransformReprStatement` | volunteer-build-reviewed |
 | M039390 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedDerivHeckePhiTransformHasDerivAtHoloStatement` | volunteer-build-reviewed |
+| M039410 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedFDerivWeightedIntegral` | volunteer-build-reviewed |
 | M039472 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.JacobianDetIsFrameOnCanonicalWeight` | wave-reused |
 | M039473 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.JacobianDetIsFrameOnCanonicalWeightStatement` | wave-reused |
 | M039576 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.JetSlopeDegreeInequality` | volunteer-build-reviewed |
@@ -381,24 +402,3 @@
 | M043879 | P0247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MuCoeffZeroNeZero` | wave-reused |
 | M043886 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MuPowLambdaProductCoeffMuVariablePencilEmbedding` | volunteer-build-reviewed |
 | M043908 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MulMemIdentityComponentOfRationalStatement` | volunteer-build-reviewed |
-| M043912 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MulMemRangeNormStatement` | volunteer-build-reviewed |
-| M043933 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MulTensorInjectiveOfFlatBaseChangeKerInfStatement` | volunteer-build-reviewed |
-| M043956 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MultilinearVanishOfProdVanishStatement` | volunteer-build-reviewed |
-| M043968 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MultiplicativeInnerProductModelStatement` | volunteer-build-reviewed |
-| M043971 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MultiplicativeRelationOfPullbackIsoThickening` | volunteer-build-reviewed |
-| M043992 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MultiplierExponentialHolomorphicLocalStatement` | volunteer-build-reviewed |
-| M044080 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MvPolynomialEqZeroOfVanishSkewHermitian` | volunteer-build-reviewed |
-| M044083 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MvPolynomialIdealEqBotOfPderivStableNoConstantsStatement` | volunteer-build-reviewed |
-| M044085 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MvPolynomialTensorBaseChangeRingEquivStatement` | volunteer-build-reviewed |
-| M044090 | P0922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MvPowerSeriesCoeffsInIdealPowEqFactorialMul` | wave-reused |
-| M044091 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MvPowerSeriesCoeffsInIdealPowEqFactorialMulStatement` | wave-reused |
-| M044101 | P0922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MvPowerSeriesSubstCoeffSubMemIdeal` | wave-reused |
-| M044102 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MvPowerSeriesSubstCoeffSubMemIdealStatement` | wave-reused |
-| M044118 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NarrowGaussConvolutionDenseStatement` | volunteer-build-reviewed |
-| M044120 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NatCardHomologyOfShortExactMulStatement` | volunteer-build-reviewed |
-| M044122 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NatCardHomologyRestrictScalarsStatement` | volunteer-build-reviewed |
-| M044124 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NatCardQuotSmulTopLePowFinrankStatement` | volunteer-build-reviewed |
-| M044195 | P1509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NefIsPsEffAndBigTensNef` | wave-reused |
-| M044196 | P2055 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NefLineBundleNumericalTheoremsProofStatement` | wave-reused |
-| M044199 | P1509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NefNumericsOfRiemannRoch` | wave-reused |
-| M044239 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentApproximationSurjective` | volunteer-build-reviewed |

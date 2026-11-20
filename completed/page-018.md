@@ -2,6 +2,29 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M073313 | P1012 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PrimeNotMemSqAndDeltaNotMemStatement` | wave-reused |
+| M073339 | P1040 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PrismCoverInjectiveAndDescent` | wave-reused |
+| M073340 | P1068 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PrismCoverInjectiveAndDescentStatement` | wave-reused |
+| M073343 | P1040 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PrismHomMapIdealEq` | wave-reused |
+| M073344 | P1068 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PrismHomMapIdealEqStatement` | wave-reused |
+| M073345 | P0984 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PrismLocalizationSpanNonZeroDivisorBoundedTorsio` | wave-reused |
+| M073346 | P1012 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PrismLocalizationSpanNonZeroDivisorBoundedTorsioStatement` | wave-reused |
+| M073347 | P1098 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PrismPushoutModAdicPowUniversal` | wave-reused |
+| M073348 | P1126 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PrismPushoutModAdicPowUniversalStatement` | wave-reused |
+| M073349 | P1040 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PrismaticEnvelopeRelationTriangular` | wave-reused |
+| M073350 | P1068 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PrismaticEnvelopeRelationTriangularStatement` | wave-reused |
+| M073366 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ProdTsumEqTsumIndicatorEnnreal` | volunteer-build-reviewed |
+| M073370 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ProductLatticePositionsAndTerms` | volunteer-build-reviewed |
+| M073387 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PsiKMulNLEqOneOnIntegralLattice` | volunteer-build-reviewed |
+| M073400 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.QuadraticGaussIntegralStableOfDualLattice` | volunteer-build-reviewed |
+| M073410 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.QuadraticWeilFourierPreservesTestAdditiveStatement` | volunteer-build-reviewed |
+| M073411 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.QuadraticWeilTorusMulUnipotentCommute` | volunteer-build-reviewed |
+| M073412 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.QuadraticWeilTorusMulUnipotentCommuteStatement` | volunteer-build-reviewed |
+| M073413 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.QuadraticWeilUnipotentTorusPreserveTest` | volunteer-build-reviewed |
+| M073440 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.QuotientMultiplicityShiftLatticeQuotientStatement` | volunteer-build-reviewed |
+| M073472 | P0711 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RangeLeRangeOfIsUnramifiedAt` | wave-reused |
+| M073615 | P0985 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RegularAndBoundedTorsionOfAdicTopologicalBasis` | wave-reused |
+| M073616 | P1012 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RegularAndBoundedTorsionOfAdicTopologicalBasisStatement` | wave-reused |
 | M073627 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RelIndexUnitStabilizerIntegralUnitsNeZero` | volunteer-build-reviewed |
 | M073628 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RelIndexUnitStabilizerIntegralUnitsNeZeroStatement` | volunteer-build-reviewed |
 | M073634 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RelativeJacquetPiExteriorTensorEquivNormalized` | volunteer-build-reviewed |
@@ -130,6 +153,7 @@
 | M075012 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitaryOrbitProperOfInvertibleKrylovColumnsStatement` | volunteer-build-reviewed |
 | M075022 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitsEqOfPowPredEqOfValOne` | volunteer-build-reviewed |
 | M075023 | P0034 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitsModSqFiniteOfFields` | volunteer-build-reviewed |
+| M075024 | P0124 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitsModSqFiniteOfFieldsStatement` | volunteer-build-reviewed |
 | M075059 | P0818 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedIntegersTensorEqLetterwiseProductAinf` | wave-reused |
 | M075062 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedInvolutionExtMapsIntegersToIntegersStatement` | volunteer-build-reviewed |
 | M075077 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedQuadraticExistsIntegersUniformiser` | volunteer-build-reviewed |
@@ -288,6 +312,7 @@
 | M078027 | P0711 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMaxUnramifiedEmbeddingIntoBcrisStatement` | wave-reused |
 | M078032 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMemOfListProdMem` | volunteer-build-reviewed |
 | M078034 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMemPairingEqSingleNonradicalStatement` | volunteer-build-reviewed |
+| M078075 | P0035 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMulEqMulDiagonal` | volunteer-build-reviewed |
 | M078128 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsNormOneCmFieldDetOneAddNeZeroCharZeroStatement` | volunteer-build-reviewed |
 | M078129 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsNormOneCmFieldDetOneAddNeZeroStatement` | volunteer-build-reviewed |
 | M078157 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsOpenAvoidingNonGenericStatement` | volunteer-build-reviewed |
@@ -377,28 +402,3 @@
 | M080314 | P0309 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LatticeEpsteinZetaContinuation` | volunteer-build-reviewed |
 | M080346 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LatticeThetaAsymptoticsStatement` | volunteer-build-reviewed |
 | M080643 | P0485 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalDualEqAddSpan` | volunteer-build-reviewed |
-| M080675 | P0819 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalPeriodRingsDataUnramifiedLaws` | wave-reused |
-| M080701 | P0126 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalizationAtPrimeIsDiscreteValuationRingOfHeig` | wave-reused |
-| M080759 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LuLowerLowerTriangular` | volunteer-build-reviewed |
-| M080817 | P0309 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.MemBigCellIffCellDiscNeZero` | volunteer-build-reviewed |
-| M080827 | P0711 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.MemDeRhamFiltrationIffXiPow` | wave-reused |
-| M080898 | P0036 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.MemSpanPairPowSucc` | wave-reused |
-| M081006 | P0485 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.MulVecMemSpanLowerWeightsOfBorelEigenvector` | volunteer-build-reviewed |
-| M081095 | P0819 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NonemptyLocalPeriodRingsData` | wave-reused |
-| M081151 | P0309 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NormOneModEqOneAndOfDvd` | volunteer-build-reviewed |
-| M081167 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NormalLocalIsLocalisationOfFiniteOverPolynomialAStatement` | volunteer-build-reviewed |
-| M081187 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NotInjectiveTwoPrimesEqualNormCofinite` | volunteer-build-reviewed |
-| M081191 | P1406 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NotMemSupportKerMulSectionOfNonvanishing` | wave-reused |
-| M081192 | P1430 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NotMemSupportKerMulSectionOfNonvanishingStatement` | wave-reused |
-| M081225 | P0557 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.OneAddMulDerivativeTrunc` | wave-reused |
-| M081258 | P0765 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PadicIntHomUnique` | wave-reused |
-| M081316 | P0792 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PeriodRingsGaloisActionLawsFrobeniusComm` | wave-reused |
-| M081419 | P0036 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PolFunApply` | volunteer-build-reviewed |
-| M081483 | P0036 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PolynomialApproxUniqueness` | volunteer-build-reviewed |
-| M081636 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PsiZeroConstOfIntegrableOn` | volunteer-build-reviewed |
-| M081703 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RTensorResidueNonzeroOfSplit` | volunteer-build-reviewed |
-| M081704 | P0309 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RTensorResidueNonzeroOfSplitStatement` | volunteer-build-reviewed |
-| M081856 | P0126 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RegularLocalRingNormalDomain` | wave-reused |
-| M081901 | P0037 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ResidueFieldMapFiniteOfQuasiFinite` | volunteer-build-reviewed |
-| M081923 | P0309 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RiemannExtensionCoordinateHyperplane` | volunteer-build-reviewed |
-| M081949 | P0037 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RingKrullDimLtTopOfEssFiniteType` | volunteer-build-reviewed |
