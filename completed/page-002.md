@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001581 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CountingBound` | volunteer-build-reviewed |
+| M001582 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CountingBoundStatement` | volunteer-build-reviewed |
 | M001583 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CreAnnApply` | volunteer-build-reviewed |
 | M001584 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CreApply` | volunteer-build-reviewed |
 | M001591 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.DecompositionOfFrameWittTorusStatement` | volunteer-build-reviewed |
@@ -121,6 +123,7 @@
 | M002075 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.PositiveSignKForm` | volunteer-build-reviewed |
 | M002078 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.ProjectiveSpaceOverSpec` | wave-reused |
 | M002084 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.ThetaTowerRecognition` | volunteer-build-reviewed |
+| M002097 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.BadPlacesGoodCoefficients` | build-observed |
 | M002103 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.BracketAbsoluteSums` | volunteer-build-reviewed |
 | M002113 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.CuspValueComparison` | build-observed |
 | M002116 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.DefiningCoordinates` | wave-reused |
@@ -128,6 +131,8 @@
 | M002120 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.EpsilonPairingZeta` | wave-reused |
 | M002122 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ExtensionSingularValues` | volunteer-build-reviewed |
 | M002127 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.FramedFlatCoordinates` | volunteer-build-reviewed |
+| M002135 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.GoodIdempotentBadPlaces` | build-observed |
+| M002136 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.GoodReductionModelReading` | build-observed |
 | M002152 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LatticeNormTransport` | wave-reused |
 | M002153 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LevelLiftConditions` | volunteer-build-reviewed |
 | M002154 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LevelLossDegreeBounds` | volunteer-build-reviewed |
@@ -260,6 +265,7 @@
 | M002884 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ExistsBaseRingOfConjugationFixedTensor` | volunteer-build-reviewed |
 | M002899 | P0002 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.RightInvariantOfCovolume` | volunteer-build-reviewed |
 | M002932 | P0783 | `Development.AbelianVarietyTheory.Counterexamples.NonGaloisSurvey.MemTypeSubspaceIffUnipotentCharacter` | volunteer-build-reviewed |
+| M002961 | P1349 | `Development.AbelianVarietyTheory.Counterexamples.TwistSurvey.ConjModelCast` | build-observed |
 | M002978 | P0475 | `Development.AbelianVarietyTheory.CrystallinePeriods.AdicMaps` | wave-reused |
 | M002979 | P0515 | `Development.AbelianVarietyTheory.CrystallinePeriods.CrisIncl` | wave-reused |
 | M002980 | P0475 | `Development.AbelianVarietyTheory.CrystallinePeriods.CrisLoc` | wave-reused |
@@ -365,6 +371,7 @@
 | M003570 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.FderivFnCongr` | volunteer-build-reviewed |
 | M003571 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.FibreRankCompOfSurjective` | wave-reused |
 | M003579 | P0865 | `Development.AbelianVarietyTheory.Definitions.Divisors.FormalCoboundarySmul` | wave-reused |
+| M003582 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.FormalModule` | volunteer-build-reviewed |
 | M003587 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.FstTszeSec` | volunteer-build-reviewed |
 | M003588 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.GalMapMul` | wave-reused |
 | M003597 | P0615 | `Development.AbelianVarietyTheory.Definitions.Divisors.GhostFrobenius` | wave-reused |
@@ -385,6 +392,7 @@
 | M003705 | P0393 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsNilDPOfCube` | wave-reused |
 | M003716 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsQuasiRegularSeqOfIsFreeGen` | wave-reused |
 | M003717 | P1372 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsQuasicoherentEigenQuot` | wave-reused |
+| M003725 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsSimplicial` | volunteer-build-reviewed |
 | M003735 | P1394 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsTorsionFreeOfForallExists` | wave-reused |
 | M003739 | P1114 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsUnitMkOfFormallyUnramified` | wave-reused |
 | M003750 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.KerIdealCompOfSurjective` | wave-reused |
@@ -394,11 +402,3 @@
 | M003776 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.LogAbsVpOfNormalised` | wave-reused |
 | M003779 | P1834 | `Development.AbelianVarietyTheory.Definitions.Divisors.MapSmulOfIsHausdorff` | wave-reused |
 | M003796 | P1245 | `Development.AbelianVarietyTheory.Definitions.Divisors.MemSubPtsCutBaseChangeIff` | wave-reused |
-| M003810 | P1372 | `Development.AbelianVarietyTheory.Definitions.Divisors.NefFibOfIsNef` | wave-reused |
-| M003812 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.NoCommonZeroCombVal` | wave-reused |
-| M003823 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.NormSub` | volunteer-build-reviewed |
-| M003844 | P0347 | `Development.AbelianVarietyTheory.Definitions.Divisors.OneFormMapEqKaehlerDifferentialMap` | wave-reused |
-| M003845 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.OneMemH0WeightZero` | volunteer-build-reviewed |
-| M003848 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.OrthSubrepresentation` | wave-reused |
-| M003851 | P0347 | `Development.AbelianVarietyTheory.Definitions.Divisors.PadicActionConstInjective` | wave-reused |
-| M003855 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.PerFactor` | volunteer-build-reviewed |

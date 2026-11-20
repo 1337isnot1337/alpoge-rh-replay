@@ -2,6 +2,25 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M007944 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CharacterResidueFieldsEqProdGenericShift` | volunteer-build-reviewed |
+| M007982 | P1115 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CmLevelHermitianIntegral` | volunteer-build-reviewed |
+| M008019 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CompactUnitaryFiniteInvariantSubspace` | volunteer-build-reviewed |
+| M008222 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DiagCorollary` | volunteer-build-reviewed |
+| M008237 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DifferentiableAtLimitOfDirectionalDerivsConverge` | volunteer-build-reviewed |
+| M008247 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DoubleBlockTriangularMemIntegralMulLevi` | volunteer-build-reviewed |
+| M008423 | P1115 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.EvGSDOkOfEqOne` | volunteer-build-reviewed |
+| M008439 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExchangeToPositionOneIsPositionOneStatement` | volunteer-build-reviewed |
+| M008631 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHondaTypeEvenFrobeniusPowersStatement` | volunteer-build-reviewed |
+| M008671 | P1115 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsInvertibleFamilyEvalSpan` | volunteer-build-reviewed |
+| M008700 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLinearIsQuotIntTIntStatement` | volunteer-build-reviewed |
+| M008725 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNEmbXInvMulMemKOne` | volunteer-build-reviewed |
+| M008799 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsPowHeckeCharUnramifiedEverywhere` | volunteer-build-reviewed |
+| M008840 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRootExchangeParabolicMulPrincipalCongruenc` | volunteer-build-reviewed |
+| M008999 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsWeilSourceActionAndSmoothStatement` | volunteer-build-reviewed |
+| M009002 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExtXCastAdd` | volunteer-build-reviewed |
+| M009081 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FinrankKerPuLeHsDev` | volunteer-build-reviewed |
+| M009094 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiveLeHalfKfk` | volunteer-build-reviewed |
+| M009096 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlagBasisLiftGramSignedPermutation` | volunteer-build-reviewed |
 | M009099 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlagRootSumDualEqSymmetricEdgeSum` | volunteer-build-reviewed |
 | M009117 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlagVecMemAndSpan` | volunteer-build-reviewed |
 | M009121 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnIndicatorPureAtSymmetricPosition` | volunteer-build-reviewed |
@@ -383,22 +402,3 @@
 | M013647 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsProperOfPowerSeriesArcsOverAlgClosed` | volunteer-build-reviewed |
 | M013651 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsPtNsmul` | volunteer-build-reviewed |
 | M013655 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsSemiAbelianOfProperGenericTorusExtensionSpecialFiber` | volunteer-build-reviewed |
-| M013656 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsSemiAbelianOfRetract` | volunteer-build-reviewed |
-| M013666 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsoFreeOrthogonalSupportAndSupISpecializesStatement` | volunteer-build-reviewed |
-| M013667 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsoFreePerpLabelKernelWeights` | volunteer-build-reviewed |
-| M013668 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsoFreePerpLabelKernelWeightsStatement` | volunteer-build-reviewed |
-| M013672 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.JacobianOrderMonotoneSemistableModelStatement` | volunteer-build-reviewed |
-| M013673 | P0617 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.JacobsonClosedPointsToolsInt` | wave-reused |
-| M013678 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.KbIsAlgClosedAndConj` | volunteer-build-reviewed |
-| M013680 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.KfBijective` | volunteer-build-reviewed |
-| M013685 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LabelledTorsionValuesAdditiveKernelSurjectiveStatement` | volunteer-build-reviewed |
-| M013689 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LePreimageOpenPartIffTestCoordinates` | wave-reused |
-| M013690 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LePreimageOpenPartIffTestCoordinatesStatement` | wave-reused |
-| M013691 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionOfOneAlgClosedField` | volunteer-build-reviewed |
-| M013693 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionValuedFieldTwistedUniformisation` | volunteer-build-reviewed |
-| M013694 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionValuedFieldTwistedUniformisationStatement` | volunteer-build-reviewed |
-| M013702 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoValuesConstantOfSameCubeTheta` | volunteer-build-reviewed |
-| M013703 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoValuesConstantOfSameCubeThetaStatement` | volunteer-build-reviewed |
-| M013707 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleSymmetryHypothesisBaseChangeStatement` | volunteer-build-reviewed |
-| M013710 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LinearIndependentThetaBasisGeometricFibreStatement` | volunteer-build-reviewed |
-| M013712 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MaximalMinorsDualThetaTestLatticeBound` | volunteer-build-reviewed |

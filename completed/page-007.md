@@ -2,6 +2,25 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013656 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsSemiAbelianOfRetract` | volunteer-build-reviewed |
+| M013666 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsoFreeOrthogonalSupportAndSupISpecializesStatement` | volunteer-build-reviewed |
+| M013667 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsoFreePerpLabelKernelWeights` | volunteer-build-reviewed |
+| M013668 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsoFreePerpLabelKernelWeightsStatement` | volunteer-build-reviewed |
+| M013672 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.JacobianOrderMonotoneSemistableModelStatement` | volunteer-build-reviewed |
+| M013673 | P0617 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.JacobsonClosedPointsToolsInt` | wave-reused |
+| M013678 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.KbIsAlgClosedAndConj` | volunteer-build-reviewed |
+| M013680 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.KfBijective` | volunteer-build-reviewed |
+| M013685 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LabelledTorsionValuesAdditiveKernelSurjectiveStatement` | volunteer-build-reviewed |
+| M013689 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LePreimageOpenPartIffTestCoordinates` | wave-reused |
+| M013690 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LePreimageOpenPartIffTestCoordinatesStatement` | wave-reused |
+| M013691 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionOfOneAlgClosedField` | volunteer-build-reviewed |
+| M013693 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionValuedFieldTwistedUniformisation` | volunteer-build-reviewed |
+| M013694 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionValuedFieldTwistedUniformisationStatement` | volunteer-build-reviewed |
+| M013702 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoValuesConstantOfSameCubeTheta` | volunteer-build-reviewed |
+| M013703 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoValuesConstantOfSameCubeThetaStatement` | volunteer-build-reviewed |
+| M013707 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleSymmetryHypothesisBaseChangeStatement` | volunteer-build-reviewed |
+| M013710 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LinearIndependentThetaBasisGeometricFibreStatement` | volunteer-build-reviewed |
+| M013712 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MaximalMinorsDualThetaTestLatticeBound` | volunteer-build-reviewed |
 | M013713 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MaximalMinorsDualThetaTestLatticeBoundStatement` | volunteer-build-reviewed |
 | M013716 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemMaximalIdeal` | volunteer-build-reviewed |
 | M013717 | P0617 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemPadicAlgClValuationSubringIffNormLeOne` | wave-reused |
@@ -235,6 +254,7 @@
 | M015456 | P0975 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnalyticAtIteratedFDerivSliceAndFderivStatement` | volunteer-build-reviewed |
 | M015464 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnalyticLogResolution` | volunteer-build-reviewed |
 | M015468 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnalyticOnNhdOrbitPolStatement` | volunteer-build-reviewed |
+| M015499 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnnihilatorAvoidsFibreMinimalPrimes` | volunteer-build-reviewed |
 | M015501 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnnihilatorLiftOfMulEqP` | volunteer-build-reviewed |
 | M015504 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnnihilatorOfDirectedEssentiallyEtaleUnion` | wave-reused |
 | M015505 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnnihilatorOfDirectedEssentiallyEtaleUnionStatement` | wave-reused |
@@ -382,23 +402,3 @@
 | M018145 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoboundaryTranslationInvariantPTorsionStatement` | wave-reused |
 | M018168 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CocycleCompHomComplexAssocOnCohomologyClasses` | wave-reused |
 | M018169 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CocycleCompHomComplexAssocOnCohomologyClassesStatement` | wave-reused |
-| M018179 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CocycleOneFormsCoboundaryOfRestrict` | wave-reused |
-| M018203 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffAddPPowMulLt` | wave-reused |
-| M018209 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffCob1HomogLiftBinomial` | wave-reused |
-| M018210 | P1003 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffCob1HomogLiftBinomialStatement` | wave-reused |
-| M018215 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffEdgesMemOfCoboundaryTwoCoeffsInIdeal` | wave-reused |
-| M018216 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffEdgesMemOfCoboundaryTwoCoeffsInIdealStatement` | wave-reused |
-| M018220 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffEvalTwoGroupsThreeGroupsEqZeroOfNeZero` | wave-reused |
-| M018221 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffEvalTwoGroupsThreeGroupsEqZeroOfNeZeroStatement` | wave-reused |
-| M018225 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffFormalGroupLawEvalPointsOfDegreeLeOne` | wave-reused |
-| M018226 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffFormalGroupLawEvalPointsOfDegreeLeOneStatement` | wave-reused |
-| M018234 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffMemSpanOfWeightedHomogeneousRelationQuasiReStatement` | volunteer-build-reviewed |
-| M018247 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPowerSeriesEvalTwoGroupsSecondThirdEqZero` | wave-reused |
-| M018248 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPowerSeriesEvalTwoGroupsSecondThirdEqZeroStatement` | wave-reused |
-| M018251 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowFirstAddSecondThreeGroups` | wave-reused |
-| M018252 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowFirstAddSecondThreeGroupsStatement` | wave-reused |
-| M018253 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowSecondAddThirdThreeGroups` | wave-reused |
-| M018254 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowSecondAddThirdThreeGroupsStatement` | wave-reused |
-| M018260 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstEqZeroOfDegreeLt` | wave-reused |
-| M018261 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstEqZeroOfDegreeLtStatement` | wave-reused |
-| M018262 | P0892 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstLeadingOfAgreeDegreeOne` | wave-reused |

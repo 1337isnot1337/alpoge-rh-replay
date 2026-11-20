@@ -2,6 +2,26 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M018179 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CocycleOneFormsCoboundaryOfRestrict` | wave-reused |
+| M018203 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffAddPPowMulLt` | wave-reused |
+| M018209 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffCob1HomogLiftBinomial` | wave-reused |
+| M018210 | P1003 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffCob1HomogLiftBinomialStatement` | wave-reused |
+| M018215 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffEdgesMemOfCoboundaryTwoCoeffsInIdeal` | wave-reused |
+| M018216 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffEdgesMemOfCoboundaryTwoCoeffsInIdealStatement` | wave-reused |
+| M018220 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffEvalTwoGroupsThreeGroupsEqZeroOfNeZero` | wave-reused |
+| M018221 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffEvalTwoGroupsThreeGroupsEqZeroOfNeZeroStatement` | wave-reused |
+| M018225 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffFormalGroupLawEvalPointsOfDegreeLeOne` | wave-reused |
+| M018226 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffFormalGroupLawEvalPointsOfDegreeLeOneStatement` | wave-reused |
+| M018234 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffMemSpanOfWeightedHomogeneousRelationQuasiReStatement` | volunteer-build-reviewed |
+| M018247 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPowerSeriesEvalTwoGroupsSecondThirdEqZero` | wave-reused |
+| M018248 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPowerSeriesEvalTwoGroupsSecondThirdEqZeroStatement` | wave-reused |
+| M018251 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowFirstAddSecondThreeGroups` | wave-reused |
+| M018252 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowFirstAddSecondThreeGroupsStatement` | wave-reused |
+| M018253 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowSecondAddThirdThreeGroups` | wave-reused |
+| M018254 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowSecondAddThirdThreeGroupsStatement` | wave-reused |
+| M018260 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstEqZeroOfDegreeLt` | wave-reused |
+| M018261 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstEqZeroOfDegreeLtStatement` | wave-reused |
+| M018262 | P0892 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstLeadingOfAgreeDegreeOne` | wave-reused |
 | M018263 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstLeadingOfAgreeDegreeOneStatement` | wave-reused |
 | M018264 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstMapToFractionsMemSubmodule` | wave-reused |
 | M018265 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstMapToFractionsMemSubmoduleStatement` | wave-reused |
@@ -33,6 +53,7 @@
 | M018455 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommaFirstOrderCocycleLiftStatement` | wave-reused |
 | M018456 | P0583 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommaSecondOrderCocycleLift` | wave-reused |
 | M018457 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommaSecondOrderCocycleLiftStatement` | wave-reused |
+| M018458 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommensurableConjRangeGLSubring` | volunteer-build-reviewed |
 | M018467 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommonResolutionPotentialComparison` | wave-reused |
 | M018495 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommuteOfCommuteSeparableCharpoly` | volunteer-build-reviewed |
 | M018508 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommutingMultiplierEqConstSmulGeneratorStatement` | volunteer-build-reviewed |
@@ -58,6 +79,7 @@
 | M018829 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeMapFApply` | wave-reused |
 | M018833 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeSeqExact` | wave-reused |
 | M019237 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjInvSectionMulEntriesNearOneStatement` | volunteer-build-reviewed |
+| M019287 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjTransposeMulMulSelfOfUnitaryConj` | volunteer-build-reviewed |
 | M019323 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugateIntoAdjoinedAlgebra` | wave-reused |
 | M019376 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugationDerivCutoffPolynomialMemUnitarySpanStatement` | volunteer-build-reviewed |
 | M019378 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugationMeasurePreservingSemidirectStatement` | volunteer-build-reviewed |
@@ -137,12 +159,14 @@
 | M020837 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DegreeZeroSectionClassProperties` | wave-reused |
 | M020838 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DegreeZeroSectionClassPropertiesStatement` | wave-reused |
 | M020870 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DenominatorPowerSummable` | volunteer-build-reviewed |
+| M020874 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DenseAnalyticGrowthSchwartz` | volunteer-build-reviewed |
 | M020879 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DenseCompactSupportSchwartzStatement` | volunteer-build-reviewed |
 | M020885 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DenseNonvanishingSetOfNeZeroOnComponents` | wave-reused |
 | M020886 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DenseNonvanishingSetOfNeZeroOnComponentsStatement` | wave-reused |
 | M020914 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DepthGeThreeFiniteEtalePuncturedRegular` | wave-reused |
 | M020915 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DepthGeThreeFiniteEtalePuncturedRegularStatement` | wave-reused |
 | M020937 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DerivAt0SubstLinearLipschitz` | volunteer-build-reviewed |
+| M020957 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DerivationDetEqDoubleSumAdjugateEntry` | volunteer-build-reviewed |
 | M021000 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DescendElementOfFieldEqualizerFaithfullyFlatStatement` | volunteer-build-reviewed |
 | M021051 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetBlockChangeOfBasisViaTwoFamiliesImplicit` | volunteer-build-reviewed |
 | M021077 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetEqOneUnitaryPrincipalCongruenceLevelThreeStatement` | volunteer-build-reviewed |
@@ -165,6 +189,7 @@
 | M021211 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiagFirstApply` | volunteer-build-reviewed |
 | M021231 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiagonalBlocksTwistedConjBlockUpperTriangular` | wave-reused |
 | M021232 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiagonalBlocksTwistedConjBlockUpperTriangularStatement` | wave-reused |
+| M021237 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiagonalEntryOfSemilinearModSubspace` | volunteer-build-reviewed |
 | M021312 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiffCoeffsInIdealSubstOfConstantCoeffZero` | wave-reused |
 | M021313 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiffCoeffsInIdealSubstOfConstantCoeffZeroStatement` | wave-reused |
 | M021331 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentIdealSmulMemSpanRational` | volunteer-build-reviewed |
@@ -180,6 +205,7 @@
 | M021787 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DpExpEqSumRangeOfVanish` | wave-reused |
 | M021818 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DualHopfOrderGaussSum` | wave-reused |
 | M021826 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DualLatticeImageEqLatticeImageTraceDual` | volunteer-build-reviewed |
+| M021883 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DualPointsGenericFinite` | volunteer-build-reviewed |
 | M021959 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DvdOfLeadOrdersEq` | wave-reused |
 | M021961 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DvdOfPeriodOfDvdSumPowersetCard` | build-observed |
 | M021962 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DvdOfPeriodOfDvdSumPowersetCardStatement` | volunteer-build-reviewed |
@@ -376,29 +402,3 @@
 | M023056 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalQuotientRingVectorAtPointsInjectiveStatement` | wave-reused |
 | M023222 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EveryElementIsNorm` | wave-reused |
 | M023230 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExactAtOfProd` | wave-reused |
-| M023338 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAdjoinEqTopPadicInt` | wave-reused |
-| M023354 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAdmissibleLagrangianTransverseFieldStatement` | volunteer-build-reviewed |
-| M023459 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAlgHomInjectiveApplyOfTranscendental` | volunteer-build-reviewed |
-| M023464 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAlgebraMapEqOfFaithfullyFlatIncludeLeftEqI` | wave-reused |
-| M023465 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAlgebraMapEqOfFaithfullyFlatIncludeLeftEqIStatement` | wave-reused |
-| M023508 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAnalyticParamOfPrimitivesOnBox` | volunteer-build-reviewed |
-| M023510 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAntilinearNormalFormStatement` | volunteer-build-reviewed |
-| M023535 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsApproxUnitPadicTensorStatement` | volunteer-build-reviewed |
-| M023585 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAveragingProjectionStatement` | volunteer-build-reviewed |
-| M023603 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBaseChangeFittingDatumRetraction` | wave-reused |
-| M023604 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBaseChangeFittingDatumRetractionStatement` | wave-reused |
-| M023611 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBaseChangeRetract` | wave-reused |
-| M023612 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBaseChangeRetractStatement` | wave-reused |
-| M023666 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasicOpenIsUnitOfNotMemMapStatement` | volunteer-build-reviewed |
-| M023679 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisAdaptedToCartanInvolution` | volunteer-build-reviewed |
-| M023680 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisAdaptedToCartanInvolutionStatement` | volunteer-build-reviewed |
-| M023689 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisOfBlockLowerTriangularInvStatement` | volunteer-build-reviewed |
-| M023691 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisOfLatticeSpan` | wave-reused |
-| M023692 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisOfLatticeSpanStatement` | wave-reused |
-| M023696 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisQuotientLatticeEigen` | wave-reused |
-| M023697 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisQuotientLatticeEigenStatement` | wave-reused |
-| M023731 | P1087 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBlockDetGe` | wave-reused |
-| M023738 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBlockParabolicSubgroupLeviProjection` | wave-reused |
-| M023739 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBlockParabolicSubgroupLeviProjectionStatement` | wave-reused |
-| M023821 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCandidateBorelMoveOpenFramesBaire` | volunteer-build-reviewed |
-| M024024 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsClosureBaseChangeMapsAndRetraction` | wave-reused |

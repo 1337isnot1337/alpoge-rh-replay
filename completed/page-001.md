@@ -14,6 +14,8 @@
 | M000026 | P0172 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.Bracket` | volunteer-build-reviewed |
 | M000028 | P0001 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.CloudProd` | volunteer-build-reviewed |
 | M000029 | P0001 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.FreeFamily` | volunteer-build-reviewed |
+| M000030 | P0001 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.GridSum` | volunteer-build-reviewed |
+| M000031 | P0001 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.LagSum` | volunteer-build-reviewed |
 | M000032 | P0001 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.PairOKOfInterlace` | volunteer-build-reviewed |
 | M000034 | P0237 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.PstMul` | volunteer-build-reviewed |
 | M000042 | P0783 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.NqOfLamData` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M001575 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupsNeighborhoodBasis` | volunteer-build-reviewed |
 | M001576 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupsNeighborhoodBasisStatement` | volunteer-build-reviewed |
 | M001578 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ContinuousDiag` | volunteer-build-reviewed |
-| M001581 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CountingBound` | volunteer-build-reviewed |
-| M001582 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CountingBoundStatement` | volunteer-build-reviewed |

@@ -2,6 +2,25 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006183 | P0705 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.AcyclicSliceSecCubeOfIsAffineOpen` | wave-reused |
+| M006184 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.AlternatingMapSumSmulEqDetSmul` | wave-reused |
+| M006185 | P1194 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.AwayEquivAwayFracEqIff` | wave-reused |
+| M006186 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.BijOnKerAndExactOfQuasiIsoBaseChange` | wave-reused |
+| M006187 | P0616 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.BijectiveToPushforwardComp` | wave-reused |
+| M006188 | P1324 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CechComplexAcyclicAdditiveLineBundleNoSections` | wave-reused |
+| M006189 | P1350 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CechComplexAcyclicAdditiveLineBundleNoSectionsStatement` | wave-reused |
+| M006190 | P0732 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CechLBHomologyEquivOfAffineCovers` | wave-reused |
+| M006191 | P0759 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CechLBHomologyEquivOfAffineCoversStatement` | wave-reused |
+| M006192 | P1299 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CechLBHomologyFiniteOfAffineCover` | wave-reused |
+| M006193 | P1324 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CechLBHomologyFiniteOfAffineCoverStatement` | wave-reused |
+| M006194 | P0705 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CechLBHomologyZeroEquivSections` | wave-reused |
+| M006195 | P0678 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CechLBPullIsoOfIsOpenImmersion` | wave-reused |
+| M006196 | P0394 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CechModulesFunctorShortExactOfAcyclic` | wave-reused |
+| M006197 | P0475 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CechModulesFunctorShortExactOfIsAffineOpen` | wave-reused |
+| M006200 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CohomologyPresheafFunctorMapAppApply` | wave-reused |
+| M006201 | P1144 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CokerDualMapEquivResidueFieldOfOrigin` | wave-reused |
+| M006204 | P0678 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CstSmoothAndFlat` | wave-reused |
+| M006205 | P0098 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CubeComplexAcyclicIffQuasiIsoCechAug` | wave-reused |
 | M006206 | P0098 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CubeComplexExactAtOfIsLocalizedModuleRes` | wave-reused |
 | M006207 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CubeComplexExactAtOfMonomialBasis` | wave-reused |
 | M006208 | P0475 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CubeComplexGrFreeFiniteAndExactAt` | wave-reused |
@@ -383,22 +402,3 @@
 | M007865 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CartanDecompositionDominanceOrderStatement` | volunteer-build-reviewed |
 | M007893 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ChLApply` | volunteer-build-reviewed |
 | M007942 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CharacterArgumentCongrRootEntrySumMod` | volunteer-build-reviewed |
-| M007944 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CharacterResidueFieldsEqProdGenericShift` | volunteer-build-reviewed |
-| M007982 | P1115 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CmLevelHermitianIntegral` | volunteer-build-reviewed |
-| M008019 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CompactUnitaryFiniteInvariantSubspace` | volunteer-build-reviewed |
-| M008222 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DiagCorollary` | volunteer-build-reviewed |
-| M008237 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DifferentiableAtLimitOfDirectionalDerivsConverge` | volunteer-build-reviewed |
-| M008247 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DoubleBlockTriangularMemIntegralMulLevi` | volunteer-build-reviewed |
-| M008423 | P1115 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.EvGSDOkOfEqOne` | volunteer-build-reviewed |
-| M008439 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExchangeToPositionOneIsPositionOneStatement` | volunteer-build-reviewed |
-| M008631 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHondaTypeEvenFrobeniusPowersStatement` | volunteer-build-reviewed |
-| M008671 | P1115 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsInvertibleFamilyEvalSpan` | volunteer-build-reviewed |
-| M008700 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLinearIsQuotIntTIntStatement` | volunteer-build-reviewed |
-| M008725 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNEmbXInvMulMemKOne` | volunteer-build-reviewed |
-| M008799 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsPowHeckeCharUnramifiedEverywhere` | volunteer-build-reviewed |
-| M008840 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRootExchangeParabolicMulPrincipalCongruenc` | volunteer-build-reviewed |
-| M008999 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsWeilSourceActionAndSmoothStatement` | volunteer-build-reviewed |
-| M009002 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExtXCastAdd` | volunteer-build-reviewed |
-| M009081 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FinrankKerPuLeHsDev` | volunteer-build-reviewed |
-| M009094 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiveLeHalfKfk` | volunteer-build-reviewed |
-| M009096 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlagBasisLiftGramSignedPermutation` | volunteer-build-reviewed |
