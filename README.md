@@ -248,6 +248,12 @@ The script compares every archive part with its SHA-256 digest, checks the toolc
 
 A completed report should include the exit status, all three outputs, the printed theorem and axioms, and a checksum for the archived transcript. A machine or storage failure leaves the mathematical claim unresolved.
 
+## Volunteer activity
+
+![Cumulative chart of volunteers, granted claims, and replay submissions](tracker/activity.svg)
+
+[How the chart is counted](ACTIVITY.md) · [Event data](tracker/activity.tsv)
+
 ## License
 
 The original replay tooling and documentation in this repository are available under the [MIT License](LICENSE). Upstream Lean source, Mathlib, and third-party artifacts retain their respective licenses.
