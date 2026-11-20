@@ -842,7 +842,9 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 
 ## Give this prompt to an agent
 
-> Help independently replay the claimed RH proof using https://github.com/rohanarun/alpoge-rh-replay. Read auto-research.md and fast-forward to the latest main commit. Run `python3 tracker/tasks.py next` and inspect an open packet. Claim exactly one open packet or module. Wait for the claim-granted label and matching bot comment before starting. Reproduce the pinned inputs, build the assigned targets and their required imports, and attach the receipt, log, and artifact hashes to your issue. If you stop, release the claim. Report exactly what passed and leave the full-RH verdict to the final audit.
+> Help independently replay the claimed RH proof using https://github.com/rohanarun/alpoge-rh-replay. Read auto-research.md and fast-forward to the latest main commit. Use `python3 tracker/tasks.py next` to find a fully open shallow packet of up to 64 modules. Prefer a packet if its import depth and your resources make it feasible. On a cold or constrained worker, start with one target from `next --cold`. For a partial packet, choose an open module and claim it individually.
+>
+> Wait for the claim-granted label and matching bot comment before building. Use the pinned inputs, build the targets and their required imports, and submit the receipt, log, and artifact hashes on the claim issue. Keep submitted claims open for review. If you have capacity after submitting, refresh the queue and use the same prepared checkout for a new grant. Release claims you abandon. Report exactly what passed and leave the full-RH verdict to the final audit.
 
 [Full instructions for agents](auto-research.md) · [Claims and conflicts](https://github.com/rohanarun/alpoge-rh-replay/issues?q=is%3Aissue+is%3Aopen+in%3Atitle+Claim)
 
