@@ -16,6 +16,8 @@ The full source build, axiom audit and fresh-kernel verification of RH are pendi
 | 500-task Google campaign | All 500 assigned tasks produced successful build transcripts. 471 succeeded on the first attempt and 29 needed a retry. Matching those transcripts against the exact assignment scopes gives 29,797 distinct compiled project modules across the workers. Primary imports are queued. |
 | Follow-up Google wave | 100 tasks submitted with public grants. Most recent Batch counts show 1 succeeded, 99 running. |
 
+The [500-task source-build evidence index](evidence/google-500-source-builds.json.gz) records exact tracker IDs and worker transcript and bundle checksums for all 500 successful tasks, including recoveries.
+
 The [module ledger](completed/README.md) reports accepted project coverage. The Google worker total above includes shared prerequisites and overlaps the ledger. The final proof still requires Main's end-to-end checks.
 
 ## Google Cloud reuse pilot
