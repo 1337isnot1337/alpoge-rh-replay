@@ -6,7 +6,7 @@ Levent Alpöge announced a Lean proof of the Riemann Hypothesis on November 20, 
 
 **Full replay in progress.** No full RH verification receipt has been produced by this project. The [two-worker pilot](evidence/pilot-receipt.json) transferred 150 previously unbuilt modules; the primary reused them and kernel-checked one downstream module.
 
-Current cloud progress is recorded in the [worker status report](STATUS.md).
+Current cloud progress is recorded in the [worker status report](STATUS.md). See the [live progress dashboard](https://rohanarun.github.io/alpoge-rh-replay/) for the module ledger breakdown.
 
 ## Contributors
 

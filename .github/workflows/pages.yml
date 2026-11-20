@@ -1,12 +1,9 @@
 name: Deploy progress dashboard
 
 on:
-  # Manual only for now: the Pages site is not enabled yet (the endpoint
-  # still returns 404), so automatic runs on ledger pushes and on the
-  # hourly schedule would only generate failed deployments. Restore the
-  # push and schedule triggers once Pages is enabled in the repository
-  # settings (Settings -> Pages -> Source: GitHub Actions).
   workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
 
 permissions:
   contents: read
