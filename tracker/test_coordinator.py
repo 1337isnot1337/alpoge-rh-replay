@@ -107,17 +107,22 @@ class CoordinatorTests(unittest.TestCase):
         def gh(code, stdout='', stderr=''):
             return subprocess.CompletedProcess([], code, stdout, stderr)
 
+        def quota(core, graphql):
+            return json.dumps({'resources': {'core': {'remaining': core, 'reset': 4600},
+                                             'graphql': {'remaining': graphql, 'reset': 2000}}})
+
         limited = gh(1, stderr='gh: API rate limit exceeded for installation. (HTTP 403)')
-        quota = json.dumps({'resources': {'core': {'remaining': 0, 'reset': 4600}}})
+        with patch.object(submissions.subprocess, 'check_output', return_value=quota(10, 0)), \
+                patch('time.time', return_value=1000):
+            self.assertEqual(submissions.rate_limit_delay(limited.stderr, 0), 1001)
         with patch.object(submissions.subprocess, 'run', side_effect=[limited, gh(0, '[[{"n": 1}], [{"n": 2}]]')]) as run, \
-                patch.object(submissions.subprocess, 'check_output', return_value=quota), \
+                patch.object(submissions.subprocess, 'check_output', return_value=quota(0, 10)), \
                 patch('time.time', return_value=1000), patch('time.sleep') as sleep:
             self.assertEqual(list(submissions.pages('r/p', 'issues?per_page=100')), [{'n': 1}, {'n': 2}])
             sleep.assert_called_once_with(3601)
             self.assertEqual(run.call_count, 2)
 
-        quota = json.dumps({'resources': {'core': {'remaining': 4000, 'reset': 4600}}})
-        with patch.object(submissions.subprocess, 'check_output', return_value=quota):
+        with patch.object(submissions.subprocess, 'check_output', return_value=quota(4000, 4000)):
             self.assertEqual(submissions.rate_limit_delay('You have exceeded a secondary rate limit', 1), 120)
         self.assertIsNone(submissions.rate_limit_delay('gh: Not Found (HTTP 404)', 0))
 

@@ -19,27 +19,32 @@ def rate_limit_delay(stderr, attempt):
     if 'rate limit' not in stderr.lower():
         return None
     try:
-        core = json.loads(subprocess.check_output(['gh', 'api', 'rate_limit'], text=True))['resources']['core']
+        resources = json.loads(subprocess.check_output(['gh', 'api', 'rate_limit'], text=True))['resources']
+        resets = [int(resources[name]['reset']) for name in ('core', 'graphql')
+                  if resources[name]['remaining'] == 0]
     except (subprocess.CalledProcessError, KeyError, TypeError, ValueError):
-        core = {}
-    if core.get('remaining') == 0 and core.get('reset'):
-        return max(1, int(core['reset']) - int(time.time()) + 1)
+        resets = []
+    if resets:
+        return max(1, max(resets) - int(time.time()) + 1)
     return 60 * 2 ** attempt
 
 
-def pages(repo, route):
-    command = ['gh', 'api', '--paginate', '--slurp', f'repos/{repo}/{route}']
+def gh_output(command):
+    """Run a read-only gh command and return its stdout, waiting out GitHub rate limits."""
     for attempt in range(ATTEMPTS):
         result = subprocess.run(command, capture_output=True, text=True)
         if result.returncode == 0:
-            break
+            return result.stdout
         delay = rate_limit_delay(result.stderr, attempt)
         if delay is None or attempt == ATTEMPTS - 1:
             sys.stderr.write(result.stderr)
             raise subprocess.CalledProcessError(result.returncode, command, result.stdout, result.stderr)
-        print(f'GitHub rate limit while reading {route}. Retrying after {delay}s.', file=sys.stderr, flush=True)
+        print(f'GitHub rate limit on `{" ".join(command[:3])}`. Retrying after {delay}s.', file=sys.stderr, flush=True)
         time.sleep(delay)
-    for page in json.loads(result.stdout):
+
+
+def pages(repo, route):
+    for page in json.loads(gh_output(['gh', 'api', '--paginate', '--slurp', f'repos/{repo}/{route}'])):
         yield from page
 
 
