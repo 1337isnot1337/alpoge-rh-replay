@@ -11,6 +11,7 @@
 | [@sat3n](https://github.com/sat3n) | [M119913](https://github.com/rohanarun/alpoge-rh-replay/issues/2931#issuecomment-7051187770) | Pending review |
 | [@sat3n](https://github.com/sat3n) | [M126823](https://github.com/rohanarun/alpoge-rh-replay/issues/2935#issuecomment-7051191339) | Pending review |
 | [@sat3n](https://github.com/sat3n) | [M131101](https://github.com/rohanarun/alpoge-rh-replay/issues/2936#issuecomment-7051192840) | Pending review |
+| [@hipotures](https://github.com/hipotures) | [P1543](https://github.com/rohanarun/alpoge-rh-replay/issues/2938#issuecomment-7051348700) | Pending review |
 | [@sat3n](https://github.com/sat3n) | [M138011](https://github.com/rohanarun/alpoge-rh-replay/issues/2939#issuecomment-7051194371) | Pending review |
 | [@sat3n](https://github.com/sat3n) | [M140386](https://github.com/rohanarun/alpoge-rh-replay/issues/2940#issuecomment-7051195912) | Pending review |
 | [@sat3n](https://github.com/sat3n) | [M146390](https://github.com/rohanarun/alpoge-rh-replay/issues/2941#issuecomment-7051197450) | Pending review |
@@ -253,4 +254,3 @@
 | [@user42245](https://github.com/user42245) | [M075171](https://github.com/rohanarun/alpoge-rh-replay/issues/3525#issuecomment-7051290581) | Pending review |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M003437](https://github.com/rohanarun/alpoge-rh-replay/issues/3526#issuecomment-7051304151) | Pending review |
 | [@egergerfg](https://github.com/egergerfg) | [M164474](https://github.com/rohanarun/alpoge-rh-replay/issues/3527#issuecomment-7051319133) | Pending review |
-| [@egergerfg](https://github.com/egergerfg) | [M004395](https://github.com/rohanarun/alpoge-rh-replay/issues/3528#issuecomment-7051319574) | Pending review |
