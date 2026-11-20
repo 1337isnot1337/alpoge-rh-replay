@@ -8,6 +8,7 @@
 | [@Paulee314](https://github.com/Paulee314) | [M004105](https://github.com/rohanarun/alpoge-rh-replay/issues/174#issuecomment-7047351997) | Pending review |
 | [@surfyhou](https://github.com/surfyhou) | [P1099](https://github.com/rohanarun/alpoge-rh-replay/issues/245#issuecomment-7051553309) | Pending review |
 | [@emsi](https://github.com/emsi) | [P1309](https://github.com/rohanarun/alpoge-rh-replay/issues/572#issuecomment-7050566180) | Pending review |
+| [@dh5at](https://github.com/dh5at) | [P1244](https://github.com/rohanarun/alpoge-rh-replay/issues/611#issuecomment-7051478556) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M100630](https://github.com/rohanarun/alpoge-rh-replay/issues/768#issuecomment-7048100909) | Pending review |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M064959](https://github.com/rohanarun/alpoge-rh-replay/issues/879#issuecomment-7050684061) | Pending review |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M150453](https://github.com/rohanarun/alpoge-rh-replay/issues/881#issuecomment-7050684752) | Pending review |
@@ -253,4 +254,3 @@
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M044287](https://github.com/rohanarun/alpoge-rh-replay/issues/3038#issuecomment-7050930886) | Pending review |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M044986](https://github.com/rohanarun/alpoge-rh-replay/issues/3040#issuecomment-7050931702) | Pending review |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M045709](https://github.com/rohanarun/alpoge-rh-replay/issues/3042#issuecomment-7050932482) | Pending review |
-| [@DanieleCorso](https://github.com/DanieleCorso) | [M045785](https://github.com/rohanarun/alpoge-rh-replay/issues/3043#issuecomment-7050933284) | Pending review |
