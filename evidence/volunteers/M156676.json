@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M156676"
+  ],
+  "started_utc": "2026-11-20T23:31:53.645048+00:00",
+  "ended_utc": "2026-11-20T23:32:00.514147+00:00",
+  "elapsed_seconds": 6.9,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 63244524,
+    "peak_child_rss_kib": 7256388
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SquarePairGluing.ExistsDenLe:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8e1371c1ef7ccfec3b2616f429566f4d9c4b4d4b7e2c2bd9af06eb3aefe9041b",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SquarePairGluing.ConjTransposeMemLam"
+  ],
+  "objects": {
+    "M156676": "dabf7c5bd5a88fd4550e576f96d82201e19b679fe74267a30280c7c98520f6c3"
+  },
+  "bundle_sha256": "064ec1f8810fe9baf28fd445122b6c960f6495a03ed4c491657f5d882cf120a7",
+  "packet": "M156676",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6559#issuecomment-7053229105",
+  "reviewed_utc": "2026-11-20T23:39:43.922008+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

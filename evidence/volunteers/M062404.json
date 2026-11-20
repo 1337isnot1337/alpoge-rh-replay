@@ -1,0 +1,30 @@
+{
+  "tasks": [
+    "M062404"
+  ],
+  "ended_utc": "2026-11-20T23:31:39.417549+00:00",
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSatakeGLOfIsSatVecGL:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e2b7f2d3c5f037c689ca6e1806cb93d9ebc859c8b559def9cc680cff1f09db92",
+  "objects": {
+    "M062404": "de81ae6e301a375e4a89d62ae2b33c967584906aeee2848f8b210f4ee31b35fc"
+  },
+  "bundle_sha256": "10040ff82f193e3f892d424a1ad2d5aeb725eb3797f8c6ee8d5298309f1c51a9",
+  "transcript_targets": {
+    "built": 0,
+    "replayed": 1,
+    "earlier_attempt": 0
+  },
+  "packet": "M062404",
+  "contributor": "mu-mei",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6547#issuecomment-7053225324",
+  "reviewed_utc": "2026-11-20T23:39:47.008028+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum. The completing transcript records 0 rebuilt and 1 replayed targets; 0 more targets appear in the separate earlier build transcript."
+}

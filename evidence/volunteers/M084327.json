@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M084327"
+  ],
+  "started_utc": "2026-11-20T23:24:29.799960+00:00",
+  "ended_utc": "2026-11-20T23:24:51.526111+00:00",
+  "elapsed_seconds": 21.7,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 6181040
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.JetHarmonics.QuadraticFieldDiscPrimeThreeModFour:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8703756bdfdd07a4d29c9bd85fe4698a2c521b03da94c1fb2b129732b423f3d2",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsIsKroneckerCharOfDiscr"
+  ],
+  "objects": {
+    "M084327": "c21d4d767945da329b769cc1926d8493cc956532f4f67b18aef54f3baf493dc7"
+  },
+  "bundle_sha256": "b9fb1bc8240a328a7d18bab52c305ff1e69c90dfa01bc20c3778c0b6b943ca5b",
+  "packet": "M084327",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6360#issuecomment-7053113926",
+  "reviewed_utc": "2026-11-20T23:40:28.240951+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

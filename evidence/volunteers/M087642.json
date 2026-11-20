@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M087642"
+  ],
+  "started_utc": "2026-11-20T23:24:04.222631+00:00",
+  "ended_utc": "2026-11-20T23:24:28.709576+00:00",
+  "elapsed_seconds": 24.5,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6734872
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsWeakApproxUnitFinitePlace:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ad8d78ac495519b338c53be65cf4ad2a8b304ef836beca6b54b226c17f551736",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiniteOrderValuation.WeakApprox"
+  ],
+  "objects": {
+    "M087642": "3163c8daa675ac2c26f29c4c0c942d074fded8a3a30d0ff06b7cfc3fe450cc25"
+  },
+  "bundle_sha256": "1d377782ed68ce209a6dcb4a570ad2b40c0f6cd65d5a8fbb47e5269ed850f024",
+  "packet": "M087642",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6353#issuecomment-7053107361",
+  "reviewed_utc": "2026-11-20T23:40:29.299797+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

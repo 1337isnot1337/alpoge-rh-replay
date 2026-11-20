@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M001274"
+  ],
+  "started_utc": "2026-11-20T23:24:13.496433+00:00",
+  "ended_utc": "2026-11-20T23:24:18.959625+00:00",
+  "elapsed_seconds": 5.5,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 63244524,
+    "peak_child_rss_kib": 7225564
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SymmetricInvertibleExistsPosdefCongruenceStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6d7a9dd6d8d84a999c4899e1ef46887901922d865bffb99abe74847e608f90a9",
+  "rebuilt_project_modules": [
+    "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SymmetricInvertibleExistsPosdefCongruence"
+  ],
+  "objects": {
+    "M001274": "8e913590b47f5680e6e01a25a6ec24d29db48596c8988b5246cd4df3be96fe52"
+  },
+  "bundle_sha256": "90faa74d7ffe897203079bd99f53d4fdf7dc3a83efaecf859979b8112abe4e5b",
+  "packet": "M001274",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6347#issuecomment-7053104779",
+  "reviewed_utc": "2026-11-20T23:40:30.511511+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

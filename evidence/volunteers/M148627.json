@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M148627"
+  ],
+  "started_utc": "2026-11-20T23:23:59.313966+00:00",
+  "ended_utc": "2026-11-20T23:24:07.973539+00:00",
+  "elapsed_seconds": 8.7,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 61933816,
+    "peak_child_rss_kib": 7213112
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.GlobalTheory.GL3.CubicFields.DifferentIdeal.LineR:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1a0e175d4e2d1dea341b3aa7e1fcbfe7202cf2f4c79724cb6455da92be4d24b1",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.GlobalTheory.GL3.CubicFields.DedekindFactorization.OmegaPoly",
+    "Formalism.LocalToGlobal.GlobalTheory.GL3.CubicFields.EpsteinZeta.DedekindFactorK"
+  ],
+  "objects": {
+    "M148627": "9546fda1eca30760a808297d640c32cbabf856bfd9f40e0e1d5b928701d2d71f"
+  },
+  "bundle_sha256": "7f9587c8d48dbdf649854a808f617b42cca58106a16e37a52fbf93c145d88301",
+  "packet": "M148627",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6334#issuecomment-7053103335",
+  "reviewed_utc": "2026-11-20T23:40:34.532893+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

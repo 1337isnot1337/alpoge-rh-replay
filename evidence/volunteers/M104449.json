@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M104449"
+  ],
+  "started_utc": "2026-11-20T23:24:30.022958+00:00",
+  "ended_utc": "2026-11-20T23:24:56.844155+00:00",
+  "elapsed_seconds": 26.8,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6942164
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.IntegralityGoodReduction:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f6ee8c2ae08922dbae868b21303da0853a3725b36fbdb0c584fd7524e77c6f0c",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.DifferentiableAtOm"
+  ],
+  "objects": {
+    "M104449": "8a88c3bf07d92239b213a9a788e67ce2fe47c44f06865c15a064e1f0a73d92fd"
+  },
+  "bundle_sha256": "967cf7506e9820e1f72cf6abe520e05e59ce7862f9b4531009170c9b50090308",
+  "packet": "M104449",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6354#issuecomment-7053115314",
+  "reviewed_utc": "2026-11-20T23:40:29.330921+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

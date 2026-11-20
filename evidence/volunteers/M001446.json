@@ -1,0 +1,30 @@
+{
+  "tasks": [
+    "M001446"
+  ],
+  "ended_utc": "2026-11-20T23:31:52.946450+00:00",
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.PsdConeExistsMaximalSupport:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6fcf69bca1b52da846bc3a07e76b86743ea86eb62ac8d608f6b17536bfd1713c",
+  "objects": {
+    "M001446": "d711313e5395c1fd8ebb2ce1022752c538f22543a5c89c5fe0b7fe14d4c07f0b"
+  },
+  "bundle_sha256": "a76922ab1a4fc70dc7361e96be4a36fa8e7d2eb4d8d52008874c3c84b7a54bdf",
+  "transcript_targets": {
+    "built": 0,
+    "replayed": 1,
+    "earlier_attempt": 0
+  },
+  "packet": "M001446",
+  "contributor": "mu-mei",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6557#issuecomment-7053228688",
+  "reviewed_utc": "2026-11-20T23:39:44.276568+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum. The completing transcript records 0 rebuilt and 1 replayed targets; 0 more targets appear in the separate earlier build transcript."
+}

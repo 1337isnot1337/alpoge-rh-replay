@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M061328"
+  ],
+  "started_utc": "2026-11-20T23:29:52.537973+00:00",
+  "ended_utc": "2026-11-20T23:30:03.726918+00:00",
+  "elapsed_seconds": 11.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6632568
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.DiamondOperatorOfMatrixCuspFormGamma1InterGamma0Statement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d9f930bd3ba8ba49dff2aa49fdae9fd52885b3a1bcd5a6041f09b38e5e0bfd7c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.DiamondOperatorOfMatrixCuspFormGamma1InterGamma0"
+  ],
+  "objects": {
+    "M061328": "bac9e60fd67069e8645c8a8d12f0bd887290a7a87fd54992d94d2caa2f51fe52"
+  },
+  "bundle_sha256": "a54bd317394e288d9464fa8c868b42bee860e4101e49c239b1d4747519a0c5ab",
+  "packet": "M061328",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6505#issuecomment-7053197605",
+  "reviewed_utc": "2026-11-20T23:39:53.844264+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

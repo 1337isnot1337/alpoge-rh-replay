@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M150236"
+  ],
+  "started_utc": "2026-11-20T23:27:16.230618+00:00",
+  "ended_utc": "2026-11-20T23:27:22.264869+00:00",
+  "elapsed_seconds": 6.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 63244524,
+    "peak_child_rss_kib": 7249068
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.ProjectiveLattices.ArchimedeanQuadraticData.FinitePlaceArcs.BeSumPf:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2804254fbd7dc4eb655e4e57abd6404dd4ff17350bac10e2d68e656636176059",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.ProjectiveLattices.ArchimedeanQuadraticData.FinitePlaceArcs.BeSumStatement"
+  ],
+  "objects": {
+    "M150236": "9898a17c2919fd0a01214e6ea7c4c3fff0b00626557d0b32bfa47e2da61a77db"
+  },
+  "bundle_sha256": "f44fb0f1c2187e8f1a6d61a7ae3f1c6cfac85a67e4f2ffef44c498f3f5159971",
+  "packet": "M150236",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6445#issuecomment-7053154852",
+  "reviewed_utc": "2026-11-20T23:40:08.279751+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

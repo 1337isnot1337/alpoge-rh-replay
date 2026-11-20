@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M008246"
+  ],
+  "started_utc": "2026-11-20T23:25:59.952972+00:00",
+  "ended_utc": "2026-11-20T23:26:13.157992+00:00",
+  "elapsed_seconds": 13.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6683956
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DivisiblePontryaginAnnihilatorDuality:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "41d2e6180cbdba376c77e14ab787b316c8a50cef700b29dda94c53f595508845",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.LinearIndependentWave"
+  ],
+  "objects": {
+    "M008246": "41cdde1d05aed4d53d53a0eb3f98bd58d7ef232bf480525f64378b4390b800a9"
+  },
+  "bundle_sha256": "6ce1ffec432dc1d73e71b6ab9825c4709345302dd647ae1a56a4d9bf804b5bfb",
+  "packet": "M008246",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6374#issuecomment-7053139307",
+  "reviewed_utc": "2026-11-20T23:40:25.468758+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

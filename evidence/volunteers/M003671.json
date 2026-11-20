@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M003671"
+  ],
+  "started_utc": "2026-11-20T23:29:31.464170+00:00",
+  "ended_utc": "2026-11-20T23:30:04.484315+00:00",
+  "elapsed_seconds": 33.0,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 23809704,
+    "peak_child_rss_kib": 6951552
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.Divisors.IsExpLieAlgebraComplexUnits:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "eb6d2d98fce3c8abf0688a0431b1deeef2fc093af146c2038169b8a0ad7b37fd",
+  "rebuilt_project_modules": [
+    "GroundTheory.AutomorphicForms.DixmierMalliavinBasic",
+    "GroundTheory.AutomorphicForms.GKModules.LieAlgebra",
+    "GroundTheory.AutomorphicForms.GKModules.RightRegular",
+    "GroundTheory.AutomorphicForms.GKModules.SmoothVectors",
+    "GroundTheory.AutomorphicForms.RealGroupsLie",
+    "GroundTheory.AutomorphicForms.UnitaryRepresentations.IsInvariantIffCommuteStarProjection"
+  ],
+  "objects": {
+    "M003671": "56a1ebbe2b6c2c06c8b2e36ccec63f03397f3944c679f6391f04ce6e932e3e81"
+  },
+  "bundle_sha256": "301d10d6c69305038bdaa48b8f39e513d42c460abbfbee32f8288d7e152e1138",
+  "packet": "M003671",
+  "contributor": "matan1905",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6456#issuecomment-7053207679",
+  "reviewed_utc": "2026-11-20T23:40:05.761792+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

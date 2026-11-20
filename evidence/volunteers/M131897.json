@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M131897"
+  ],
+  "started_utc": "2026-11-20T23:33:35.963886+00:00",
+  "ended_utc": "2026-11-20T23:34:08.959149+00:00",
+  "elapsed_seconds": 33.0,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6813280
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.RiemannFormHermitianLatticeStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3827a0912ea788948415be62b325334d185c675faef8eb2b0a74073a2160171b",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.ExistsAdaptedUnimodular",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RiemannFormHermitianLattice"
+  ],
+  "objects": {
+    "M131897": "53d1fcb873b55c7a4d3c67e453e9e3de27adb4e908aa55c37922cc04f2322d24"
+  },
+  "bundle_sha256": "ea4c8f9f0020e6d4cd8dc73d2b77cb6d119e41cf8099ebb5c3c8afe7fccd5197",
+  "packet": "M131897",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6617#issuecomment-7053264401",
+  "reviewed_utc": "2026-11-20T23:39:32.275458+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

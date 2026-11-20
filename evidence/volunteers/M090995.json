@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M090995"
+  ],
+  "started_utc": "2026-11-20T23:26:35.926969+00:00",
+  "ended_utc": "2026-11-20T23:26:50.122536+00:00",
+  "elapsed_seconds": 14.2,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 6115324
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.CountableOfIsAddFundamentalDomain:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5503f1de6efd59bbbc6e69fabfee2ff1661bb5159956abd7b05aba8400692da9",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SquareIntegrability.TofTorMkCIsQuotientMap"
+  ],
+  "objects": {
+    "M090995": "d85eba2895c69cf8334a0fbfa0a4ba76425faa47b94b8f916c2337484bc938f7"
+  },
+  "bundle_sha256": "f9a3fdb3d76b6ba594f562a4b7eac1a46d6fb045272c31d15ac8727e4ba117bb",
+  "packet": "M090995",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6412#issuecomment-7053145010",
+  "reviewed_utc": "2026-11-20T23:40:17.902347+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

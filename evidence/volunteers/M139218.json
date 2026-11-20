@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M139218"
+  ],
+  "started_utc": "2026-11-20T23:30:05.270281+00:00",
+  "ended_utc": "2026-11-20T23:30:24.161241+00:00",
+  "elapsed_seconds": 18.9,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 23809704,
+    "peak_child_rss_kib": 6939112
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.TwistedRepresentations.Tens:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a22e5012aa9ba510ce314e5f184bc3ba8cd203dd2226708b1cec89649cc08f31",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.GaloisGeometry.OfNatTrans",
+    "Development.AbelianVarietyTheory.Proofs.SatakeParameters.FaceFaceApply",
+    "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.CechPairings.InstAddCommGroup"
+  ],
+  "objects": {
+    "M139218": "275698b9a606cb00ecdf7dd2c132721032a240e86fdeba3dfd29cf5406afce4f"
+  },
+  "bundle_sha256": "90e9a7effe93e5ec29665d452ca3461104ffb50cfbc9cad6fc6d9302e90f3504",
+  "packet": "M139218",
+  "contributor": "matan1905",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6480#issuecomment-7053207973",
+  "reviewed_utc": "2026-11-20T23:40:00.664123+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

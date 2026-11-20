@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M171919"
+  ],
+  "started_utc": "2026-11-20T23:33:50.922249+00:00",
+  "ended_utc": "2026-11-20T23:34:17.252241+00:00",
+  "elapsed_seconds": 26.3,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 23809704,
+    "peak_child_rss_kib": 6897516
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.GeometryOfNumbers.LatticeCovolumes.PosSemidefOfForallCombination:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e6a07ce75cff4968e04b06ebaf408470a3af4500ad35c42fe17462bffd7b18f4",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.GeometryOfNumbers.LatticeCovolumes.ArakelovDegreeEqDegreeOfFamily",
+    "ReciprocityTheory.GeometryOfNumbers.LatticeCovolumes.ConjSymm",
+    "ReciprocityTheory.GeometryOfNumbers.LatticeCovolumes.DegStA",
+    "ReciprocityTheory.GeometryOfNumbers.LatticeCovolumes.DegStB",
+    "ReciprocityTheory.GeometryOfNumbers.LatticeCovolumes.GramSt",
+    "ReciprocityTheory.GeometryOfNumbers.LatticeCovolumes.HadStA"
+  ],
+  "objects": {
+    "M171919": "3e5f6ed4c5b6ec05d7593feb86b40bdc7e300709715c961e8ce758e85ec58c9c"
+  },
+  "bundle_sha256": "dd57b2f1fcdd6231b9564cf64d18592579873dbe2eaa78f4b65cf6136c350fc5",
+  "packet": "M171919",
+  "contributor": "matan1905",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6601#issuecomment-7053271844",
+  "reviewed_utc": "2026-11-20T23:39:37.065413+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

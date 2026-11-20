@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M031492"
+  ],
+  "started_utc": "2026-11-20T23:28:38.396614+00:00",
+  "ended_utc": "2026-11-20T23:28:59.614851+00:00",
+  "elapsed_seconds": 21.2,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6795216
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteSupportStabilizerWeightedPairTermStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "31bc0d960b8716f6b3ba3f106ab6f696a1e166fd429d8593b288d98cc7fe2c0f",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteSupportStabilizerWeightedPairTerm",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.StabilizerEqCentralizer"
+  ],
+  "objects": {
+    "M031492": "da76e2ae252b6db050b8e223a354c1650c5dd11ba2fd81d737571a90b795fd44"
+  },
+  "bundle_sha256": "712c9b22cc8da62f866b89a602f9b596334cc0f59b3e5a19a540d7ee2043ab7b",
+  "packet": "M031492",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6461#issuecomment-7053178677",
+  "reviewed_utc": "2026-11-20T23:40:03.022101+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

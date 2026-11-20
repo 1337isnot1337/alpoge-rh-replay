@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M160995"
+  ],
+  "started_utc": "2026-11-20T23:33:14.185441+00:00",
+  "ended_utc": "2026-11-20T23:34:13.663181+00:00",
+  "elapsed_seconds": 59.5,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 7027880
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.SharpRestriction.LevelLetterCocycles.RepresentationCongruences.DivAddLogbLeEightMulErrorScale:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ab9527dc624a5c4751eb8bba94f7138648140b38b775066be3a3ad6e5e2c6950",
+  "rebuilt_project_modules": [
+    "Formalism.SharpRestriction.LevelLetterCocycles.RepresentationCongruences.InvSubOneSqLeInv",
+    "Formalism.SharpRestriction.LevelLetterCocycles.RepresentationCongruences.LogbNn",
+    "Formalism.SharpRestriction.LevelLetterCocycles.RepresentationCongruences.TsumThree"
+  ],
+  "objects": {
+    "M160995": "d64acc3aefca9ea0c10c82adfa96d916211acdaac74b2a5329bf1f82d2655fcf"
+  },
+  "bundle_sha256": "af61c372cbb1bb4335e3a7d8421d240d36fc4ce50d6dae1839a3dcf03ac1ec55",
+  "packet": "M160995",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6594#issuecomment-7053263179",
+  "reviewed_utc": "2026-11-20T23:39:37.646625+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

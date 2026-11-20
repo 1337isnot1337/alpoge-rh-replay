@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M051527"
+  ],
+  "started_utc": "2026-11-20T23:29:25.793601+00:00",
+  "ended_utc": "2026-11-20T23:29:36.034346+00:00",
+  "elapsed_seconds": 10.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6620068
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumPadicValNatLogEqLogStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b1b8ce49c3729c6190ff28e802c53011dff3df7c85150ca59cf3bceeca236604",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumPadicValNatLogEqLog"
+  ],
+  "objects": {
+    "M051527": "7fb488c306818746f054d827b9c74e3d627a6fc307cbb3193a6399feb74f5d48"
+  },
+  "bundle_sha256": "3f3c8d8bae73898b1d157f116ea23e98bfc23008cf9196e8748db5634df8b134",
+  "packet": "M051527",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6494#issuecomment-7053190463",
+  "reviewed_utc": "2026-11-20T23:39:57.055369+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M156527"
+  ],
+  "started_utc": "2026-11-20T23:23:59.820381+00:00",
+  "ended_utc": "2026-11-20T23:24:09.314969+00:00",
+  "elapsed_seconds": 9.5,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 61933816,
+    "peak_child_rss_kib": 7247160
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SandwichChart.SandwichOfOfCharts:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7d3a76a94bd03f17e17516e13ea581271b9af1991260294ca6e86ddd4a1bd67d",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.LongWeylElementSquare",
+    "Formalism.PeriodIntegrals.SwSand"
+  ],
+  "objects": {
+    "M156527": "e99c37bf8d7cd40342fc7000eec6ed261f798d8f7ab2cefd563d02daf06557fd"
+  },
+  "bundle_sha256": "59ff3ead8b23e286bc99e87dd29465f57e797b6075baeb4c6a72f4cd08374335",
+  "packet": "M156527",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6336#issuecomment-7053105679",
+  "reviewed_utc": "2026-11-20T23:40:34.189084+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

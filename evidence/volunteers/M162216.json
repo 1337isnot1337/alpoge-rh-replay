@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M162216"
+  ],
+  "started_utc": "2026-11-20T23:33:15.122378+00:00",
+  "ended_utc": "2026-11-20T23:33:42.107279+00:00",
+  "elapsed_seconds": 27.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6982540
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.ArithmeticGeometry.AbelianVarieties.DivisionPoints:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5ba2ca6b282bcdb1fc3c5841393b24eef6908238fa52a8d211ab1f33cbd0fa9f",
+  "rebuilt_project_modules": [
+    "GroundTheory.ArithmeticGeometry.AbelianVarieties.NormEDS"
+  ],
+  "objects": {
+    "M162216": "4681062e8d49d243510619b6cccc85f5ee660674b39263e65803d05008f1e884"
+  },
+  "bundle_sha256": "23dc37aa52f9ce098be71cf48e43a50d3afd007c469293918a57dd62a97cfec2",
+  "packet": "M162216",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6582#issuecomment-7053260789",
+  "reviewed_utc": "2026-11-20T23:39:39.607994+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

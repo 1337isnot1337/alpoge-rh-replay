@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M007509"
+  ],
+  "started_utc": "2026-11-20T23:25:38.252538+00:00",
+  "ended_utc": "2026-11-20T23:25:58.210350+00:00",
+  "elapsed_seconds": 20.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6704988
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.SumSmulMemOfSumZpowSmulMem:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b18c8c1d49da25ddbd362fdf5e478e57267411471065930803d0dcf71f1830eb",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsWeightedHomogeneousOfMemOrbitSpan"
+  ],
+  "objects": {
+    "M007509": "3cb616016c5a3a1ba186b4ff68844ce1a1c4f85bbca1785f4ca434df91f8b310"
+  },
+  "bundle_sha256": "d4a235372a7c340873a2e1bfcb3b333a105f0b6edf054bacefba2017a594d0ca",
+  "packet": "M007509",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6367#issuecomment-7053132499",
+  "reviewed_utc": "2026-11-20T23:40:27.881056+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M077472"
+  ],
+  "started_utc": "2026-11-20T23:36:33.806981+00:00",
+  "ended_utc": "2026-11-20T23:37:45.592439+00:00",
+  "elapsed_seconds": 71.8,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 23809704,
+    "peak_child_rss_kib": 7007248
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsEquivOfMapEq:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6b5326dada074dca7e94face9b8c5f7c96743969c298b212f637553285c54025",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsNotCongPow",
+    "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsSemisimpleOfISupEigenspace",
+    "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.MonodromyZeroOfWeilDeligneRepClassIff",
+    "Formalism.ConjugateSelfDual.Statement",
+    "ReciprocityTheory.GaloisValuations.Global",
+    "ReciprocityTheory.GaloisValuations.GlobalA",
+    "ReciprocityTheory.GaloisValuations.GlobalB"
+  ],
+  "objects": {
+    "M077472": "0da2fb9a84e6a4cd3d40a4a7c1d4fd075b14bc66c52919814ee38dc547171ed2"
+  },
+  "bundle_sha256": "ad9b80dc8e8c29a53af6b0f04d8408fdfb2180ac6c3a418bfb46f50ced4710f2",
+  "packet": "M077472",
+  "contributor": "matan1905",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6664#issuecomment-7053320159",
+  "reviewed_utc": "2026-11-20T23:39:24.460656+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

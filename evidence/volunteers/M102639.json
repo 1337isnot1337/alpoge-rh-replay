@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M102639"
+  ],
+  "started_utc": "2026-11-20T23:34:53.562345+00:00",
+  "ended_utc": "2026-11-20T23:35:11.740064+00:00",
+  "elapsed_seconds": 18.2,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 6597520
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.KerGen:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "da7e43e647f056ae8b92408064c708b31b780f34245bbb52e9f53b7039dc54bd",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsUniqueFixedPointOfAdicContraction"
+  ],
+  "objects": {
+    "M102639": "fedf1b7159f22ee9259f58996cbcd8ed958b776f1c57394a042a72f8680ec4ff"
+  },
+  "bundle_sha256": "8d43977b05c889bc9cfc02d03565df1625601139ca4a3ad216ca8010a26433d8",
+  "packet": "M102639",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6618#issuecomment-7053281583",
+  "reviewed_utc": "2026-11-20T23:39:32.145773+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}
