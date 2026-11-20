@@ -17,5 +17,5 @@ jobs:
           persist-credentials: false
       - name: Check that the ledger files agree with each other
         run: python3 tracker/validate_tracker.py
-      - name: Regression-test the validator against a corrupted receipt
-        run: python3 tracker/test_validate_tracker.py
+      - name: Run the tracker unit tests (includes the validator regression tests)
+        run: python3 -m unittest discover -s tracker -p 'test_*.py' -v
