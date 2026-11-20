@@ -94,9 +94,14 @@
 "use strict";
 var COLORS = ["var(--c1)", "var(--c2)", "var(--c3)", "var(--c4)", "var(--c5)", "#0891b2", "#65a30d"];
 function fmt(n) { return n.toLocaleString("en-US"); }
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, function (ch) {
+    return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch];
+  });
+}
 function el(id) { return document.getElementById(id); }
 function card(n, l) {
-  return '<div class="card"><div class="n">' + n + '</div><div class="l">' + l + "</div></div>";
+  return '<div class="card"><div class="n">' + esc(n) + '</div><div class="l">' + esc(l) + "</div></div>";
 }
 fetch("data.json")
   .then(function (r) { if (!r.ok) { throw new Error("data.json: HTTP " + r.status); } return r.json(); })
@@ -116,9 +121,9 @@ fetch("data.json")
       var share = 100 * c.count / t.with_evidence;
       var color = COLORS[i % COLORS.length];
       barHtml += '<div style="width:' + share + "%;background:" + color + '" title="' +
-        c.label + ": " + fmt(c.count) + '"></div>';
-      legendHtml += '<span><span class="swatch" style="background:' + color + '"></span>' + c.label + "</span>";
-      rowsHtml += "<tr><td>" + c.label + '</td><td class="num">' + fmt(c.count) +
+        esc(c.label) + ": " + fmt(c.count) + '"></div>';
+      legendHtml += '<span><span class="swatch" style="background:' + color + '"></span>' + esc(c.label) + "</span>";
+      rowsHtml += "<tr><td>" + esc(c.label) + '</td><td class="num">' + fmt(c.count) +
         '</td><td class="num">' + share.toFixed(1) + "%</td></tr>";
     });
     el("catbar").innerHTML = barHtml;
@@ -126,7 +131,7 @@ fetch("data.json")
     el("cattable").querySelector("tbody").innerHTML = rowsHtml;
 
     el("depths").innerHTML = d.depth_bands.map(function (b) {
-      return '<div class="rowbar"><div class="lab">' + b.band + '</div>' +
+      return '<div class="rowbar"><div class="lab">' + esc(b.band) + '</div>' +
         '<div class="bar"><div style="width:' + b.percent + '%;background:var(--accent)"></div></div>' +
         '<div class="val">' + fmt(b.done) + " / " + fmt(b.total) + " (" + b.percent.toFixed(1) + "%)</div></div>";
     }).join("");
@@ -139,20 +144,20 @@ fetch("data.json")
       card(fmt(p.total), "total packets");
 
     el("volunteers").querySelector("tbody").innerHTML = d.volunteers.map(function (v) {
-      return '<tr><td><a href="https://github.com/' + v.contributor + '">' + v.contributor +
+      return '<tr><td><a href="https://github.com/' + esc(v.contributor) + '">' + esc(v.contributor) +
         '</a></td><td class="num">' + fmt(v.modules) + '</td><td class="num">' + fmt(v.packets) +
         '</td><td class="num">' + fmt(v.receipts) + "</td></tr>";
     }).join("");
 
     el("recent").innerHTML = d.recent.map(function (r) {
-      return "<li><code>" + r.id + "</code> · " + r.module +
-        '<span class="tag">' + r.evidence_label + "</span></li>";
+      return "<li><code>" + esc(r.id) + "</code> · " + esc(r.module) +
+        '<span class="tag">' + esc(r.evidence_label) + "</span></li>";
     }).join("");
 
     el("footer").innerHTML =
-      "Coordinator snapshot: " + d.snapshot + " · Dashboard data generated: " + d.generated_at +
-      "<br>Lean " + d.lean + " · Mathlib commit <code>" + d.mathlib_commit + "</code>" +
-      "<br>Scope: " + d.scope + ". Module states include the tracker/completed.tsv overlay, " +
+      "Coordinator snapshot: " + esc(d.snapshot) + " · Dashboard data generated: " + esc(d.generated_at) +
+      "<br>Lean " + esc(d.lean) + " · Mathlib commit <code>" + esc(d.mathlib_commit) + "</code>" +
+      "<br>Scope: " + esc(d.scope) + ". Module states include the tracker/completed.tsv overlay, " +
       "matching tracker/tasks.py. This page is unofficial; the repository README and ledger are authoritative.";
   })
   .catch(function (e) { el("error").textContent = "Could not load data.json — " + e.message; });

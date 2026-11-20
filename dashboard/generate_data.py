@@ -61,7 +61,7 @@ def main():
             row["state"] = done[row["id"]]
 
     total = len(modules)
-    with_evidence = len(done)
+    with_evidence = sum(1 for row in modules if row["id"] in done)
     evidence_counts = Counter(r["evidence"] for r in completed_rows)
     evidence_categories = [
         {
@@ -146,7 +146,7 @@ def main():
         "mathlib_commit": summary.get("mathlib_commit"),
         "totals": {
             "modules": total,
-            "packets": summary.get("packet_count", packets_total),
+            "packets": packets_total,
             "with_evidence": with_evidence,
             "remaining": total - with_evidence,
             "percent_done": round(100.0 * with_evidence / total, 2) if total else 0.0,
