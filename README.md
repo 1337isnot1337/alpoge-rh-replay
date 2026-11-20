@@ -714,7 +714,6 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P1607](https://github.com/rohanarun/alpoge-rh-replay/issues/2040) | Claimed |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P1536](https://github.com/rohanarun/alpoge-rh-replay/issues/2050) | Claimed |
 | [@SeriousRising](https://github.com/SeriousRising) | [P1587](https://github.com/rohanarun/alpoge-rh-replay/issues/2055) | Claimed |
-| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M149476](https://github.com/rohanarun/alpoge-rh-replay/issues/2080) | Claimed |
 | [@123454321bobbob-tech](https://github.com/123454321bobbob-tech) | [M000522](https://github.com/rohanarun/alpoge-rh-replay/issues/2096) | Claimed |
 | [@dga471](https://github.com/dga471) | [M153640](https://github.com/rohanarun/alpoge-rh-replay/issues/2118) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M139722](https://github.com/rohanarun/alpoge-rh-replay/issues/2208) | Claimed |
@@ -794,11 +793,16 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M068610](https://github.com/rohanarun/alpoge-rh-replay/issues/2383) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115811](https://github.com/rohanarun/alpoge-rh-replay/issues/2387) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M073629](https://github.com/rohanarun/alpoge-rh-replay/issues/2388) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M169430](https://github.com/rohanarun/alpoge-rh-replay/issues/2389) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M005531](https://github.com/rohanarun/alpoge-rh-replay/issues/2391) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M091594](https://github.com/rohanarun/alpoge-rh-replay/issues/2392) | Claimed |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M160442](https://github.com/rohanarun/alpoge-rh-replay/issues/2394) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M101468](https://github.com/rohanarun/alpoge-rh-replay/issues/2395) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M002128](https://github.com/rohanarun/alpoge-rh-replay/issues/2397) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M069319](https://github.com/rohanarun/alpoge-rh-replay/issues/2400) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M079185](https://github.com/rohanarun/alpoge-rh-replay/issues/2403) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115577](https://github.com/rohanarun/alpoge-rh-replay/issues/2404) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M143601](https://github.com/rohanarun/alpoge-rh-replay/issues/2407) | Claimed |
+| [@SeriousRising](https://github.com/SeriousRising) | [P1639](https://github.com/rohanarun/alpoge-rh-replay/issues/2408) | Claimed |
 
 <!-- active-volunteers-end -->
 
@@ -898,6 +902,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@mu-mei](https://github.com/mu-mei) | [M085628](https://github.com/rohanarun/alpoge-rh-replay/issues/2053#issuecomment-7049550698) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M100880](https://github.com/rohanarun/alpoge-rh-replay/issues/2057#issuecomment-7049552826) | Pending review |
 | [@jaykobdetar](https://github.com/jaykobdetar) | [M042965](https://github.com/rohanarun/alpoge-rh-replay/issues/2060#issuecomment-7049695390) | Pending review |
+| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M149476](https://github.com/rohanarun/alpoge-rh-replay/issues/2080#issuecomment-7050020588) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M101039](https://github.com/rohanarun/alpoge-rh-replay/issues/2082#issuecomment-7049599286) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M085215](https://github.com/rohanarun/alpoge-rh-replay/issues/2099#issuecomment-7049628340) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M004453](https://github.com/rohanarun/alpoge-rh-replay/issues/2100#issuecomment-7049627611) | Pending review |
@@ -992,8 +997,14 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@mu-mei](https://github.com/mu-mei) | [M100900](https://github.com/rohanarun/alpoge-rh-replay/issues/2382#issuecomment-7049981201) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M097532](https://github.com/rohanarun/alpoge-rh-replay/issues/2384#issuecomment-7049986209) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M039200](https://github.com/rohanarun/alpoge-rh-replay/issues/2386#issuecomment-7049999415) | Pending review |
+| [@BenCaunt](https://github.com/BenCaunt) | [M169430](https://github.com/rohanarun/alpoge-rh-replay/issues/2389#issuecomment-7050018297) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M101003](https://github.com/rohanarun/alpoge-rh-replay/issues/2390#issuecomment-7049997501) | Pending review |
 | [@gabeldev](https://github.com/gabeldev) | [M154373](https://github.com/rohanarun/alpoge-rh-replay/issues/2396#issuecomment-7050002645) | Pending review |
+| [@maddoxjack](https://github.com/maddoxjack) | [M031624](https://github.com/rohanarun/alpoge-rh-replay/issues/2398#issuecomment-7050017285) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M091595](https://github.com/rohanarun/alpoge-rh-replay/issues/2399#issuecomment-7050015312) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M003204](https://github.com/rohanarun/alpoge-rh-replay/issues/2401#issuecomment-7050019014) | Pending review |
+| [@user42245](https://github.com/user42245) | [M009675](https://github.com/rohanarun/alpoge-rh-replay/issues/2402#issuecomment-7050012333) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M098466](https://github.com/rohanarun/alpoge-rh-replay/issues/2405#issuecomment-7050018455) | Pending review |
 
 <!-- pending-volunteers-end -->
 
