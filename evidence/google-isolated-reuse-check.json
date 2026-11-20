@@ -1,0 +1,31 @@
+{
+  "scope": "One exact target from an original Google worker archive restored with the pinned seed.",
+  "lean": "4.33.1",
+  "lean_commit": "819816b2e0a3bf405af45ae5c7af2491d8f5bee6",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "lake_command": [
+    "lake",
+    "--no-build",
+    "--no-cache",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsArcSeriesIntegralAlgebraicOverPowerSeries:olean"
+  ],
+  "kernel_command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsArcSeriesIntegralAlgebraicOverPowerSeries"
+  ],
+  "targets": [
+    "Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsArcSeriesIntegralAlgebraicOverPowerSeries"
+  ],
+  "bundle_sha256": "94f0a06ba2d660559cfd1d1e903ea3f1e4e000d3345d1bfb4ac4a9d4504ea006",
+  "lake_exit": 0,
+  "kernel_exit": 0,
+  "reuse_log_sha256": "5d32a30279e08bc19fa1145ea286d0882d6460524966f8c2c5b5982f97e5672d",
+  "kernel_log_sha256": "a164dff3b3ef9f69176fb1ce406a9df19343a8ef10c8f7de898e2867652d2237",
+  "exact_kernel_lines": 1,
+  "project_module_count": 631,
+  "modules_in_isolated_archive_flagged_stale_in_aggregate": 84
+}

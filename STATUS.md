@@ -20,6 +20,8 @@ The [module ledger](completed/README.md) reports accepted project coverage. The 
 
 A separate worker restored the pinned Google build environment, verified the aggregate bundle digest and its exact 885-module scope, then ran Lake with rebuilding and downloads disabled. Lake accepted both requested targets. The pinned Lean checker also replayed both targets against their imported modules. The receipt records both commands, exit codes and log digests. This check covers two targets. The final audit of Main is pending. [Pilot receipt](evidence/google-native-reuse-pilot.json)
 
+In a follow-up, Lake required rebuilding 704 prerequisites from a combined 99-target archive. One original worker archive contained 84 of those prerequisites. Loaded by itself with the same pinned seed, it passed the no-build check and the selected target passed module-level kernel replay. This shows that the combined and isolated archives can behave differently. The isolated check covers one target. [Isolated check receipt](evidence/google-isolated-reuse-check.json)
+
 ## First Render wave
 
 The coordinator provisioned one primary and 31 helpers. The first wave reserved up to 11,114 project modules beyond its initial build snapshot. A completed helper bundle becomes evidence of successful reuse when the primary accepts it with rebuilding disabled.
