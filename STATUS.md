@@ -28,6 +28,8 @@ In a follow-up, Lake required rebuilding 704 prerequisites from a combined 99-ta
 
 Two original worker archives contained 57 of the same prerequisites flagged by the combined build. The SHA-256 digests differed for 33 compiled objects and all 57 Lake trace files. All 57 interface files matched. This measures binary and build-trace differences between the workers. [Member comparison](evidence/google-archive-member-comparison.json)
 
+The aggregate's pinned kernel checker subsequently exited successfully and the transcript names all 99 requested targets exactly. Lake's no-build check remained exit 3 because 704 prerequisites were stale for Lake. Each transcript's SHA-256 matched the worker receipt. The kernel result checks the requested modules against their imported environments. The fresh kernel replay and audits for Main are pending. [Aggregate kernel receipt](evidence/google-aggregate-kernel-replay.json)
+
 ## First Render wave
 
 The coordinator provisioned one primary and 31 helpers. The first wave reserved up to 11,114 project modules beyond its initial build snapshot. A completed helper bundle becomes evidence of successful reuse when the primary accepts it with rebuilding disabled.
