@@ -18,9 +18,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 
 <!-- pending-volunteers-start -->
 
-| Contributor | Task | Review |
-|---|---|---|
-| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0064](https://github.com/rohanarun/alpoge-rh-replay/issues/9#issuecomment-7045329594) | Pending review |
+No submissions awaiting review.
 
 <!-- pending-volunteers-end -->
 
@@ -37,6 +35,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0041](https://github.com/rohanarun/alpoge-rh-replay/issues/6#issuecomment-7045037425) | 64 | [Build evidence verified](evidence/volunteers/P0041.json) |
 | [@krisyotam](https://github.com/krisyotam) | [P0060](https://github.com/rohanarun/alpoge-rh-replay/issues/7#issuecomment-7045297630) | 64 | [Build evidence verified](evidence/volunteers/P0060.json) |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0061](https://github.com/rohanarun/alpoge-rh-replay/issues/8#issuecomment-7045174078) | 64 | [Build evidence verified](evidence/volunteers/P0061.json) |
+| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0064](https://github.com/rohanarun/alpoge-rh-replay/issues/9#issuecomment-7045329594) | 64 | [Build evidence verified](evidence/volunteers/P0064.json) |
 
 <!-- volunteers-end -->
 
@@ -50,8 +49,8 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | Pilot proof object reused | 150 |
 | Pilot downstream module kernel-checked | 1 |
 | Distributed proof object reused | 0 |
-| Volunteer build evidence reviewed | 385 |
-| **Total with recorded module evidence** | **4,076 / 175,187** |
+| Volunteer build evidence reviewed | 449 |
+| **Total with recorded module evidence** | **4,140 / 175,187** |
 
 [See each completed part and its evidence](completed/README.md) · [Machine-readable ledger](tracker/completed.tsv)
 
