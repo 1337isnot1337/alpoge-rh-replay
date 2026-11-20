@@ -109,20 +109,28 @@ verify_integrity() {
 }
 
 # Every dependency Lake resolved must sit at the revision lake-manifest.json
-# records, with no tracked file modified. The clean check covers tracked
+# records, with no tracked file modified. The manifest itself is pinned by
+# the digest recorded from the SHA-verified extraction before Lake ran, so
+# a manifest rewritten afterwards is rejected before any revision it names
+# is trusted. The clean check covers tracked
 # files only (--untracked-files=no): Lake and the Mathlib cache write build
 # outputs inside these trees, and those are untracked or ignored. The
 # project tree itself is pinned by parts.sha256 over the archive it was
 # extracted from; if it ever ships as a git checkout, its tracked files
 # must be clean too.
 verify_pristine_dependencies() {
-  local packages_dir name rev dir base checked=0 seen=" "
+  local packages_dir name rev dir base status checked=0 seen=" "
+  [[ "$(digest lake-manifest.json)" == "$manifest_digest" ]] ||
+    integrity_failed "lake-manifest.json changed after the archive was verified"
   packages_dir="$(sed -n 's/.*"packagesDir": "\([^"]*\)".*/\1/p' lake-manifest.json | head -n 1)"
   packages_dir="${packages_dir:-.lake/packages}"
   [[ -d "$packages_dir" ]] ||
     integrity_failed "dependency directory $packages_dir is missing"
-  if [[ -d .git && -n "$(git status --porcelain --untracked-files=no)" ]]; then
-    integrity_failed "the project tree has modified tracked files"
+  if [[ -d .git ]]; then
+    status="$(git status --porcelain --untracked-files=no)" ||
+      integrity_failed "git status failed in the project tree"
+    [[ -z "$status" ]] ||
+      integrity_failed "the project tree has modified tracked files"
   fi
   # The manifest is machine-generated: within the packages array each entry
   # lists "rev" before "name". The root project's own trailing "name" lies
@@ -133,7 +141,9 @@ verify_pristine_dependencies() {
       integrity_failed "dependency $name is missing or is not a git checkout"
     [[ "$(git -C "$dir" rev-parse HEAD)" == "$rev" ]] ||
       integrity_failed "dependency $name is not at the revision lake-manifest.json records ($rev)"
-    [[ -z "$(git -C "$dir" status --porcelain --untracked-files=no)" ]] ||
+    status="$(git -C "$dir" status --porcelain --untracked-files=no)" ||
+      integrity_failed "git status failed for dependency $name"
+    [[ -z "$status" ]] ||
       integrity_failed "dependency $name has modified tracked files"
     checked=$((checked + 1))
     seen+="$name "
@@ -163,6 +173,7 @@ audit_digest="$(digest "$record/Audit.lean")"
 parts_digest="$(digest "$record/parts.sha256")"
 cat part* | tar -xz --no-same-owner -C "$work"
 cd "$work/lean"
+manifest_digest="$(digest lake-manifest.json)"
 toolchain="$(cat lean-toolchain)"
 test "$toolchain" = "leanprover/lean4:v4.33.1"
 elan toolchain install "$toolchain"
@@ -172,7 +183,12 @@ lake_cmd=(elan run "$toolchain" lake)
 "${lake_cmd[@]}" exe cache get
 test "$(git -C .lake/packages/mathlib rev-parse HEAD)" = "0df444a360eaa60ab8c11dca51a86af692955474"
 verify_pristine_dependencies
-if [[ "${2:-}" == "--prepare-only" ]]; then echo "Prepared project in $work/lean"; exit 0; fi
+if [[ "${2:-}" == "--prepare-only" ]]; then
+  verify_integrity
+  verify_pristine_dependencies
+  echo "Prepared project in $work/lean"
+  exit 0
+fi
 "${lake_cmd[@]}" build +Main:olean
 echo REPLAY_SOURCE_BUILD_PASSED
 verify_integrity
