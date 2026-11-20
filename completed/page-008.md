@@ -2,7 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M016116 | P0918 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BallExistsEtaleSteinExhaustion` | wave-reused |
+| M016117 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BallExistsEtaleSteinExhaustionStatement` | wave-reused |
+| M016130 | P0476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeCechNerveAugmentationIso` | volunteer-build-reviewed |
+| M016143 | P0918 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeIntegralClosureEtaleHeightOne` | wave-reused |
+| M016144 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeIntegralClosureEtaleHeightOneStatement` | wave-reused |
+| M016146 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeIsoSpreadsToSubringStatement` | volunteer-build-reviewed |
+| M016150 | P0516 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeLiftClassFunction` | wave-reused |
+| M016172 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeTensorModuleCompat` | volunteer-build-reviewed |
+| M016185 | P0476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseCurvatureTermsSumZeroStatement` | volunteer-build-reviewed |
+| M016189 | P0476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseDifferentialDualBasisCancelStatement` | volunteer-build-reviewed |
 | M016194 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseFrameIntegralGramMatrix` | build-observed |
+| M016241 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BasicIff` | volunteer-build-reviewed |
 | M016244 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BasisApply` | volunteer-build-reviewed |
 | M016248 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BasisObjectsUnitLociCoverAbove` | wave-reused |
 | M016249 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BasisObjectsUnitLociCoverAboveStatement` | wave-reused |
@@ -213,6 +224,7 @@
 | M018760 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComplexWittBasisNormalForm` | volunteer-build-reviewed |
 | M018829 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeMapFApply` | wave-reused |
 | M018833 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeSeqExact` | wave-reused |
+| M019214 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjAlgApply` | volunteer-build-reviewed |
 | M019227 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjDualPartsKilledOfPerfectPairing` | volunteer-build-reviewed |
 | M019237 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjInvSectionMulEntriesNearOneStatement` | volunteer-build-reviewed |
 | M019287 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjTransposeMulMulSelfOfUnitaryConj` | volunteer-build-reviewed |
@@ -241,6 +253,7 @@
 | M019704 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousOfMemSchA` | volunteer-build-reviewed |
 | M019708 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousOnComplexHessianOfContDiffOnTwoStatement` | volunteer-build-reviewed |
 | M019709 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousOnCoordsOfLinearIndependent` | volunteer-build-reviewed |
+| M019710 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousOnCoordsOfLinearIndependentStatement` | volunteer-build-reviewed |
 | M019729 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousRestrStatement` | volunteer-build-reviewed |
 | M019787 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConvEqOneOfForallPairing` | wave-reused |
 | M019803 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoordMeasure` | volunteer-build-reviewed |
@@ -318,6 +331,8 @@
 | M021000 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DescendElementOfFieldEqualizerFaithfullyFlatStatement` | volunteer-build-reviewed |
 | M021051 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetBlockChangeOfBasisViaTwoFamiliesImplicit` | volunteer-build-reviewed |
 | M021077 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetEqOneUnitaryPrincipalCongruenceLevelThreeStatement` | volunteer-build-reviewed |
+| M021122 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetNearOneMatrixNormBounds` | volunteer-build-reviewed |
+| M021123 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetNearOneMatrixNormBoundsStatement` | volunteer-build-reviewed |
 | M021164 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantElementProduct` | wave-reused |
 | M021165 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantElementProductStatement` | wave-reused |
 | M021168 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantFrameComparison` | wave-reused |
@@ -342,6 +357,8 @@
 | M021312 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiffCoeffsInIdealSubstOfConstantCoeffZero` | wave-reused |
 | M021313 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiffCoeffsInIdealSubstOfConstantCoeffZeroStatement` | wave-reused |
 | M021331 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentIdealSmulMemSpanRational` | volunteer-build-reviewed |
+| M021386 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DimClosureLeOfSpecializes` | volunteer-build-reviewed |
+| M021398 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DirichletSeriesIntegralHolomorphic` | volunteer-build-reviewed |
 | M021400 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiscrIsUnit` | volunteer-build-reviewed |
 | M021423 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiscreteTopologyFractionalIdealRealLatticeImage` | volunteer-build-reviewed |
 | M021428 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiscriminantMulTraceDualIntegral` | volunteer-build-reviewed |
@@ -350,6 +367,7 @@
 | M021460 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DividedPowerFiltration` | wave-reused |
 | M021489 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisibilityOfVanishingPowers` | wave-reused |
 | M021490 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisibilityOfVanishingPowersStatement` | wave-reused |
+| M021493 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisionAlgebraOrderNoSmallLattice` | volunteer-build-reviewed |
 | M021574 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoubleCosetCardDivCardInfCommutativeSubgroup` | volunteer-build-reviewed |
 | M021587 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoubleCosetSumFundamentalDomain` | volunteer-build-reviewed |
 | M021787 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DpExpEqSumRangeOfVanish` | wave-reused |
@@ -384,21 +402,3 @@
 | M022063 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenDecompositionTraceMultiple` | wave-reused |
 | M022064 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenDecompositionTraceMultipleStatement` | wave-reused |
 | M022092 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenIdempotentsOfComaximal` | volunteer-build-reviewed |
-| M022144 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenProjectionQuotientLattice` | volunteer-build-reviewed |
-| M022145 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenProjectionQuotientLatticeStatement` | wave-reused |
-| M022146 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenProjectionsOfComaximal` | volunteer-build-reviewed |
-| M022154 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenSublatticeFreeLatticeIffEval` | volunteer-build-reviewed |
-| M022155 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenSublatticeFreeLatticeIffEvalStatement` | wave-reused |
-| M022178 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenspacesOfRingHomsIndependent` | volunteer-build-reviewed |
-| M022179 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenspacesOfRingHomsIndependentStatement` | wave-reused |
-| M022248 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinDeltaQExpansionIntegrality` | wave-reused |
-| M022249 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinDeltaQExpansionIntegralityStatement` | wave-reused |
-| M022335 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbOverSumInjective` | volunteer-build-reviewed |
-| M022347 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingMatrixIndependent` | wave-reused |
-| M022405 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EnlargeBaseSeparablePointIntegralClosure` | wave-reused |
-| M022406 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EnlargeBaseSeparablePointIntegralClosureStatement` | wave-reused |
-| M022407 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EnlargeStrictHenselisationRetractMod` | wave-reused |
-| M022408 | P0867 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EnlargeStrictHenselisationRetractModStatement` | wave-reused |
-| M022410 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EntireEqOfEqOnHalfPlane` | wave-reused |
-| M022450 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqMapMaximalIdealOfRingKrullDimEqOne` | volunteer-build-reviewed |
-| M022505 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqOfSecAlgTop` | volunteer-build-reviewed |

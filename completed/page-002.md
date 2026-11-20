@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001571 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsOpen` | volunteer-build-reviewed |
+| M001572 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsOpenStatement` | volunteer-build-reviewed |
 | M001573 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupNormalInMaximalCompact` | volunteer-build-reviewed |
 | M001574 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupNormalInMaximalCompactStatement` | volunteer-build-reviewed |
 | M001575 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupsNeighborhoodBasis` | volunteer-build-reviewed |
@@ -348,6 +350,7 @@
 | M003289 | P1688 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RationalRootsDef` | build-observed |
 | M003299 | P0838 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ResCharThetaJetPlaceDegOne` | build-observed |
 | M003303 | P0810 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RhoDetPrimeEqMuTildeMulChiPow` | build-observed |
+| M003305 | P1444 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RingKrullDimIntegers` | volunteer-build-reviewed |
 | M003309 | P0838 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RowsRestWordColumnUnitBaseTuple` | build-observed |
 | M003311 | P0865 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SCuIsom` | build-observed |
 | M003326 | P0810 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SpreadLe` | build-observed |
@@ -397,8 +400,5 @@
 | M003597 | P0615 | `Development.AbelianVarietyTheory.Definitions.Divisors.GhostFrobenius` | wave-reused |
 | M003603 | P1419 | `Development.AbelianVarietyTheory.Definitions.Divisors.HasBoundedPolesGlobalData` | wave-reused |
 | M003608 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.HasQIff` | wave-reused |
+| M003617 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.HilbertNinetyQuotientHomEqIff` | volunteer-build-reviewed |
 | M003634 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IndEtOfForallFinset` | wave-reused |
-| M003641 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.IotaScalarOne` | wave-reused |
-| M003642 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IrreducibleOfIrreducibleMap` | wave-reused |
-| M003653 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsBasOpens` | wave-reused |
-| M003654 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsBasisOfBot` | wave-reused |

@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M003641 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.IotaScalarOne` | wave-reused |
+| M003642 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IrreducibleOfIrreducibleMap` | wave-reused |
+| M003653 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsBasOpens` | wave-reused |
+| M003654 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsBasisOfBot` | wave-reused |
 | M003661 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsCyclotomicExtensionQI` | volunteer-build-reviewed |
 | M003663 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsDetEltOne` | wave-reused |
 | M003672 | P0549 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsFinSetSplitPlacesCoprimeConductor` | wave-reused |
@@ -398,7 +402,3 @@
 | M005261 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FlatOfIsFiniteOfFlatGeometricFibres` | wave-reused |
 | M005262 | P0393 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FlatQuotientIsoOfSameKernel` | wave-reused |
 | M005263 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ForallGeometricallyIntegralOfSmoothOfGeometrical` | wave-reused |
-| M005264 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FormallyUnramifiedMulInvertibleInteger` | wave-reused |
-| M005265 | P0648 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FormallyUnramifiedMulInvertibleIntegerStatement` | wave-reused |
-| M005268 | P0648 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.GlobalFnsHolds` | wave-reused |
-| M005269 | P1057 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.GoodPtOfIrredOfMulPull` | wave-reused |

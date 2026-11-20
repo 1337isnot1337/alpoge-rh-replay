@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013292 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymLiftGlobalStatement` | volunteer-build-reviewed |
+| M013293 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymPmaps` | volunteer-build-reviewed |
+| M013297 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymmetricSpreadOutLineBundleAbelianSchemeStatement` | volunteer-build-reviewed |
+| M013300 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymplecticLevelBaseChangePolarisedAbelian` | volunteer-build-reviewed |
+| M013306 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaBasisAfterEveryFieldExtension` | volunteer-build-reviewed |
+| M013307 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaBasisAfterEveryFieldExtensionStatement` | volunteer-build-reviewed |
+| M013313 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaSectionNonzeroFibresLocalRingStatement` | volunteer-build-reviewed |
+| M013314 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaSectionNonzeroLocusSpecialFibreIff` | volunteer-build-reviewed |
 | M013319 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaSystemOfPolarisedLevelStatement` | volunteer-build-reviewed |
 | M013327 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionLiftSpecialFibreOfGenericRational` | volunteer-build-reviewed |
 | M013328 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionLiftSpecialFibreOfGenericRationalStatement` | volunteer-build-reviewed |
@@ -292,6 +300,7 @@
 | M014489 | P1504 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbsFactorialMulEulerCharTwistPowSubLe` | wave-reused |
 | M014490 | P1534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbsFactorialMulEulerCharTwistPowSubLeStatement` | wave-reused |
 | M014491 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbsFactorialMulEvalSubTopLe` | wave-reused |
+| M014501 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbsIntClosedLocalizationAndQuotient` | volunteer-build-reviewed |
 | M014516 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbsNormMapRingOfIntegersHom` | volunteer-build-reviewed |
 | M014554 | P0918 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AcycFOfPiSh` | wave-reused |
 | M014555 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AcycFOfPiShStatement` | wave-reused |
@@ -392,13 +401,4 @@
 | M016065 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AwayCongrModOfIsCoprimeStatement` | volunteer-build-reviewed |
 | M016067 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AwayHomCompAlgebraMap` | volunteer-build-reviewed |
 | M016072 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AwayMapSpanSingletonDivisibilityDescends` | volunteer-build-reviewed |
-| M016116 | P0918 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BallExistsEtaleSteinExhaustion` | wave-reused |
-| M016117 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BallExistsEtaleSteinExhaustionStatement` | wave-reused |
-| M016130 | P0476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeCechNerveAugmentationIso` | volunteer-build-reviewed |
-| M016143 | P0918 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeIntegralClosureEtaleHeightOne` | wave-reused |
-| M016144 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeIntegralClosureEtaleHeightOneStatement` | wave-reused |
-| M016146 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeIsoSpreadsToSubringStatement` | volunteer-build-reviewed |
-| M016150 | P0516 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeLiftClassFunction` | wave-reused |
-| M016172 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeTensorModuleCompat` | volunteer-build-reviewed |
-| M016185 | P0476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseCurvatureTermsSumZeroStatement` | volunteer-build-reviewed |
-| M016189 | P0476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseDifferentialDualBasisCancelStatement` | volunteer-build-reviewed |
+| M016082 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AzumayaAlgEquivMatrixOfIdempotent` | volunteer-build-reviewed |

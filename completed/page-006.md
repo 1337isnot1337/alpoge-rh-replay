@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M007253 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FirstMinimumPrincipalTorusAtOrthonormalFrame` | volunteer-build-reviewed |
+| M007257 | P0296 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FirstRaisingMemEquivariant` | wave-reused |
+| M007260 | P0241 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FormalPointSubstitutionSeriesValueAtTwoPoints` | wave-reused |
+| M007261 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FrameBaseChangeEigenBasis` | volunteer-build-reviewed |
+| M007263 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FrameBiextDictionarySecondPartialLaw` | volunteer-build-reviewed |
+| M007267 | P0839 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FrameRigidificationOfCanonicalAxes` | wave-reused |
 | M007268 | P0865 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FrameRigidificationOfCanonicalAxesStatement` | wave-reused |
 | M007273 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FramedPointsLiftToLevelCover` | volunteer-build-reviewed |
 | M007279 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.GeneratorReadingCorrMulInvStatement` | volunteer-build-reviewed |
@@ -80,6 +86,7 @@
 | M008655 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsIntegralBasisOfLatticeAtPlaceStableStatement` | volunteer-build-reviewed |
 | M008671 | P1115 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsInvertibleFamilyEvalSpan` | volunteer-build-reviewed |
 | M008700 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLinearIsQuotIntTIntStatement` | volunteer-build-reviewed |
+| M008711 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLogNearOneUnitaryGroupOfFormLinearBound` | volunteer-build-reviewed |
 | M008716 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsMaxCompactRealPointsOfOrthonormalFramesStatement` | volunteer-build-reviewed |
 | M008725 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNEmbXInvMulMemKOne` | volunteer-build-reviewed |
 | M008728 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNatMulSelfDualLatticeAtPlaceIntegral` | volunteer-build-reviewed |
@@ -96,6 +103,7 @@
 | M008999 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsWeilSourceActionAndSmoothStatement` | volunteer-build-reviewed |
 | M009002 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExtXCastAdd` | volunteer-build-reviewed |
 | M009040 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteAnnihilatorOpenSubgroupInBox` | volunteer-build-reviewed |
+| M009059 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteDimensionalSpanMultilinearValues` | volunteer-build-reviewed |
 | M009081 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FinrankKerPuLeHsDev` | volunteer-build-reviewed |
 | M009094 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiveLeHalfKfk` | volunteer-build-reviewed |
 | M009096 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlagBasisLiftGramSignedPermutation` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M013289 | P0006 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSubMemMaximalIdeal` | wave-reused |
 | M013290 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSums` | volunteer-build-reviewed |
 | M013291 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymLiftGlobal` | volunteer-build-reviewed |
-| M013292 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymLiftGlobalStatement` | volunteer-build-reviewed |
-| M013293 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymPmaps` | volunteer-build-reviewed |
-| M013297 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymmetricSpreadOutLineBundleAbelianSchemeStatement` | volunteer-build-reviewed |
-| M013300 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymplecticLevelBaseChangePolarisedAbelian` | volunteer-build-reviewed |
-| M013306 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaBasisAfterEveryFieldExtension` | volunteer-build-reviewed |
-| M013307 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaBasisAfterEveryFieldExtensionStatement` | volunteer-build-reviewed |
-| M013313 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaSectionNonzeroFibresLocalRingStatement` | volunteer-build-reviewed |
-| M013314 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaSectionNonzeroLocusSpecialFibreIff` | volunteer-build-reviewed |

@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006134 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormTwelveOrderSixtythree` | build-observed |
+| M006135 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormTwelveOrderSixtythreeStatement` | build-observed |
+| M006136 | P0839 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemClosureInducedCentralByPrimePower` | wave-reused |
+| M006137 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemOfMulMemOfForallPrimeNotDvd` | wave-reused |
+| M006138 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemOfMulMemOfForallPrimeNotDvdStatement` | wave-reused |
 | M006139 | P0784 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemVirtualCharactersOfIntegralCombination` | wave-reused |
 | M006140 | P0811 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemVirtualCharactersOfIntegralCombinationStatement` | wave-reused |
 | M006141 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OrthogonalIntVectorsNotAgreeOnRegular` | build-observed |
@@ -259,6 +264,7 @@
 | M006478 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.MulConjTransposeEqOneOfOrthonormal` | wave-reused |
 | M006479 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.NatCastMulCoeffOfPderivEq` | wave-reused |
 | M006484 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.OneLeDetOneAdd` | wave-reused |
+| M006487 | P0177 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.PderivIterEqPderivListOfDifferentiableOn` | volunteer-build-reviewed |
 | M006488 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ResidueNormValuationSubringEqZeroIff` | wave-reused |
 | M006492 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.StarInvMulVecDotProductMulVecInvMulVec` | wave-reused |
 | M006493 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.SummableLatticeExpNegPiMulNormSqDiv` | wave-reused |
@@ -396,9 +402,3 @@
 | M007231 | P0918 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsThickPointHyperbolic` | wave-reused |
 | M007237 | P1170 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsTranslationSectionsUniversalObject` | build-observed |
 | M007239 | P1085 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsUniqueIsTwistPull` | build-observed |
-| M007253 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FirstMinimumPrincipalTorusAtOrthonormalFrame` | volunteer-build-reviewed |
-| M007257 | P0296 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FirstRaisingMemEquivariant` | wave-reused |
-| M007260 | P0241 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FormalPointSubstitutionSeriesValueAtTwoPoints` | wave-reused |
-| M007261 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FrameBaseChangeEigenBasis` | volunteer-build-reviewed |
-| M007263 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FrameBiextDictionarySecondPartialLaw` | volunteer-build-reviewed |
-| M007267 | P0839 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FrameRigidificationOfCanonicalAxes` | wave-reused |

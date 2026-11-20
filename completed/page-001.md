@@ -112,6 +112,7 @@
 | M000577 | P0783 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.DiscreteSeriesCharacters.Spread` | volunteer-build-reviewed |
 | M000581 | P0757 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.CreationOperators.CycDense` | volunteer-build-reviewed |
 | M000590 | P0392 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.LowKMultOneP` | volunteer-build-reviewed |
+| M000599 | P0001 | `CompanionTheory.HarishChandraModules.NonemptyRepresentations.NonemptyOfAntitone` | volunteer-build-reviewed |
 | M000601 | P0945 | `CompanionTheory.HarishChandraModules.NonemptyRepresentations.TypeHW` | volunteer-build-reviewed |
 | M000630 | P0757 | `CompanionTheory.RealGroups.DiscreteSeries.DiscreteSeriesClassification.DiscreteSeriesExhaustion.HeckeAlgebraActions.HeckeUnitTensors.CommuteLeftRightCasimir` | volunteer-build-reviewed |
 | M000634 | P0783 | `CompanionTheory.RealGroups.DiscreteSeries.DiscreteSeriesClassification.DiscreteSeriesExhaustion.HeckeAlgebraActions.HeckeUnitTensors.RightCasimirMemSubmodule` | volunteer-build-reviewed |
@@ -311,6 +312,7 @@
 | M001146 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.MapMulEqOfNormOne` | volunteer-build-reviewed |
 | M001147 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.MapMulVecEqOfTransposeMulMulEq` | volunteer-build-reviewed |
 | M001148 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.MapMulVecEqSmul` | volunteer-build-reviewed |
+| M001149 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.MatrixInductionTransvectionDiagonal` | volunteer-build-reviewed |
 | M001151 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.MatrixTransvectionDiagonalDecomposition` | volunteer-build-reviewed |
 | M001152 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.MatrixTransvectionDiagonalDecompositionStatement` | volunteer-build-reviewed |
 | M001153 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.MeasurableCoordinateMapsTensor` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M001567 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceEndomorphismInverseExists` | volunteer-build-reviewed |
 | M001569 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsCompact` | volunteer-build-reviewed |
 | M001570 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsCompactStatement` | volunteer-build-reviewed |
-| M001571 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsOpen` | volunteer-build-reviewed |
-| M001572 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsOpenStatement` | volunteer-build-reviewed |
