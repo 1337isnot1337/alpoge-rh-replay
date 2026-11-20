@@ -1,5 +1,6 @@
 """Show active replay claims and submissions in the public README."""
 
+import argparse
 import json
 import os
 from pathlib import Path
@@ -48,7 +49,7 @@ def pages(repo, route):
         yield from page
 
 
-def volunteer_updates(repo):
+def volunteer_updates(repo, issue_authors):
     reviewed = set()
     for path in (ROOT / 'evidence/volunteers').glob('*.json'):
         receipt = json.loads(path.read_text())
@@ -58,11 +59,15 @@ def volunteer_updates(repo):
     for issue in pages(repo, 'issues?labels=claim&state=all&per_page=100'):
         if 'pull_request' in issue:
             continue
+        user = issue.get('user') or {}
+        login = user.get('login') or ''
+        if user.get('type') != 'User' or not login:
+            continue
+        if login != 'ghost' and isinstance(user.get('id'), int):
+            issue_authors[str(issue['number'])] = (user['id'], login)
+
         claim = re.fullmatch(r'Claim (P\d{4}|M\d{6})', issue['title'])
-        login = issue['user']['login']
-        if (not claim or not re.fullmatch(r'[A-Za-z0-9-]+', login)
-                or issue['user']['type'] != 'User'
-                or (login.lower(), claim[1]) in reviewed):
+        if not claim or not re.fullmatch(r'[A-Za-z0-9-]+', login) or (login.lower(), claim[1]) in reviewed:
             continue
 
         candidates.append((issue, login, claim[1]))
@@ -96,9 +101,10 @@ def replace_section(text, marker, lines, empty):
 
 def main():
     repo = os.environ['GITHUB_REPOSITORY']
+    issue_authors = {}
     claimed = ['| Contributor | Task | Status |', '|---|---|---|']
     pending = ['| Contributor | Task | Review |', '|---|---|---|']
-    for number, login, task, comment in sorted(volunteer_updates(repo)):
+    for number, login, task, comment in sorted(volunteer_updates(repo, issue_authors)):
         link = f'https://github.com/{repo}/issues/{number}'
         person = f'[@{login}](https://github.com/{login})'
         if comment is None:
@@ -112,7 +118,13 @@ def main():
     updated = replace_section(updated, 'pending-volunteers', pending, 'No submissions awaiting review.')
     if updated != current:
         readme.write_text(updated)
+    return issue_authors
 
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--issue-authors', type=Path, help='Write claim issue authors to this JSON file')
+    args = parser.parse_args()
+    issue_authors = main()
+    if args.issue_authors:
+        args.issue_authors.write_text(json.dumps(issue_authors))
