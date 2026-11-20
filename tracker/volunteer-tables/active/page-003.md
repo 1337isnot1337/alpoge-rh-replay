@@ -203,7 +203,6 @@
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P1679](https://github.com/rohanarun/alpoge-rh-replay/issues/2632) | Claimed |
 | [@surfyhou](https://github.com/surfyhou) | [P1570](https://github.com/rohanarun/alpoge-rh-replay/issues/2699) | Claimed |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P1749](https://github.com/rohanarun/alpoge-rh-replay/issues/2702) | Claimed |
-| [@SeriousRising](https://github.com/SeriousRising) | [P1677](https://github.com/rohanarun/alpoge-rh-replay/issues/2885) | Claimed |
 | [@sat3n](https://github.com/sat3n) | [M109314](https://github.com/rohanarun/alpoge-rh-replay/issues/2889) | Claimed |
 | [@sat3n](https://github.com/sat3n) | [M109991](https://github.com/rohanarun/alpoge-rh-replay/issues/2894) | Claimed |
 | [@sat3n](https://github.com/sat3n) | [M114989](https://github.com/rohanarun/alpoge-rh-replay/issues/2902) | Claimed |
@@ -254,3 +253,4 @@
 | [@sat3n](https://github.com/sat3n) | [M115333](https://github.com/rohanarun/alpoge-rh-replay/issues/3009) | Claimed |
 | [@sat3n](https://github.com/sat3n) | [M143577](https://github.com/rohanarun/alpoge-rh-replay/issues/3010) | Claimed |
 | [@SeriousRising](https://github.com/SeriousRising) | [P1779](https://github.com/rohanarun/alpoge-rh-replay/issues/3058) | Claimed |
+| [@emsi](https://github.com/emsi) | [P1565](https://github.com/rohanarun/alpoge-rh-replay/issues/3120) | Claimed |

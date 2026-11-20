@@ -227,6 +227,7 @@
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M039710](https://github.com/rohanarun/alpoge-rh-replay/issues/2871#issuecomment-7050578918) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M040527](https://github.com/rohanarun/alpoge-rh-replay/issues/2881#issuecomment-7050606583) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M040579](https://github.com/rohanarun/alpoge-rh-replay/issues/2882#issuecomment-7050610160) | Pending review |
+| [@SeriousRising](https://github.com/SeriousRising) | [P1677](https://github.com/rohanarun/alpoge-rh-replay/issues/2885#issuecomment-7051057211) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M038876](https://github.com/rohanarun/alpoge-rh-replay/issues/2890#issuecomment-7050613166) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M063095](https://github.com/rohanarun/alpoge-rh-replay/issues/2891#issuecomment-7050603637) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M100759](https://github.com/rohanarun/alpoge-rh-replay/issues/2899#issuecomment-7050602477) | Pending review |
@@ -253,4 +254,3 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M079855](https://github.com/rohanarun/alpoge-rh-replay/issues/2993#issuecomment-7050823244) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M060052](https://github.com/rohanarun/alpoge-rh-replay/issues/2994#issuecomment-7050823856) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M004522](https://github.com/rohanarun/alpoge-rh-replay/issues/2998#issuecomment-7050689895) | Pending review |
-| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M042159](https://github.com/rohanarun/alpoge-rh-replay/issues/2999#issuecomment-7050704580) | Pending review |
