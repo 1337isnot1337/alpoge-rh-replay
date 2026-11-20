@@ -24,6 +24,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@DanieleCorso](https://github.com/DanieleCorso) | [P0103](https://github.com/rohanarun/alpoge-rh-replay/issues/11) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [P0145](https://github.com/rohanarun/alpoge-rh-replay/issues/16) | Claimed |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0113](https://github.com/rohanarun/alpoge-rh-replay/issues/18) | Claimed |
+| [@gabeldev](https://github.com/gabeldev) | [P0114](https://github.com/rohanarun/alpoge-rh-replay/issues/20) | Claimed |
 
 <!-- active-volunteers-end -->
 
