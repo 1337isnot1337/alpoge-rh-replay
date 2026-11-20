@@ -97,6 +97,7 @@
 | [@mu-mei](https://github.com/mu-mei) | [M085334](https://github.com/rohanarun/alpoge-rh-replay/issues/1967#issuecomment-7049427585) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M003048](https://github.com/rohanarun/alpoge-rh-replay/issues/1978#issuecomment-7049457512) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M085434](https://github.com/rohanarun/alpoge-rh-replay/issues/1984#issuecomment-7049455794) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [P1690](https://github.com/rohanarun/alpoge-rh-replay/issues/1993#issuecomment-7053059135) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M085153](https://github.com/rohanarun/alpoge-rh-replay/issues/1996#issuecomment-7049473714) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M005171](https://github.com/rohanarun/alpoge-rh-replay/issues/2000#issuecomment-7049474545) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M085556](https://github.com/rohanarun/alpoge-rh-replay/issues/2014#issuecomment-7049494352) | Pending review |
@@ -253,4 +254,3 @@
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M042574](https://github.com/rohanarun/alpoge-rh-replay/issues/3020#issuecomment-7050734033) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M042858](https://github.com/rohanarun/alpoge-rh-replay/issues/3025#issuecomment-7050736804) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M002749](https://github.com/rohanarun/alpoge-rh-replay/issues/3033#issuecomment-7050726717) | Pending review |
-| [@mu-mei](https://github.com/mu-mei) | [M146907](https://github.com/rohanarun/alpoge-rh-replay/issues/3034#issuecomment-7050729900) | Pending review |
