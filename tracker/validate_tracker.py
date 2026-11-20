@@ -171,6 +171,7 @@ def main():
     unparsed, bad_tasks, bad_mathlib, bad_exit = [], [], [], []
     receipts = 0
     reviewed = 0
+    missing_volunteer_tasks = []
     dup_reviewed, claim_mismatch, bad_objects, incomplete_reviewed = [], [], [], []
     packet_task_ids = defaultdict(set)
     for r in rows:
@@ -181,6 +182,13 @@ def main():
         except Exception as e:
             unparsed.append(f'{path.relative_to(root)}: {e}')
             continue
+        # Files under evidence/volunteers/ are build receipts, so each
+        # one must carry a task list: without one, the receipt checks
+        # below (which are keyed on 'tasks') would skip the file
+        # entirely. Other evidence records keep their existing formats.
+        if path.parent.name == 'volunteers':
+            if not isinstance(record, dict) or not isinstance(record.get('tasks'), list):
+                missing_volunteer_tasks.append(path.name)
         if isinstance(record, dict) and 'tasks' in record:
             receipts += 1
             bad_tasks += [f'{path.name}:{t}' for t in record['tasks'] if t not in by_id]
@@ -235,6 +243,9 @@ def main():
     check('evidence.reviewed_objects_match_tasks', not bad_objects,
           'object digest keys equal the task ids in every reviewed receipt'
           if not bad_objects else 'object keys differ from task ids in: ' + examples(bad_objects))
+    check('evidence.volunteers_tasks_present', not missing_volunteer_tasks,
+          'every file under evidence/volunteers/ carries a task list'
+          if not missing_volunteer_tasks else 'volunteer receipts without a task list: ' + examples(missing_volunteer_tasks))
     check('evidence.reviewed_tasks_complete_claim', not incomplete_reviewed,
           'task ids equal the full set of ids for the claimed packet (or the claimed module itself) in every reviewed receipt'
           if not incomplete_reviewed else 'task ids do not equal the full set for the claim in: ' + examples(incomplete_reviewed))

@@ -4,8 +4,9 @@ The cases that matter: a reviewed receipt whose task list was replaced
 with copies of one unrelated (but valid) module id, with its object
 digests emptied, used to pass validation; and a reviewed receipt with
 one of its tasks (and the matching object digest) removed, leaving the
-rest unchanged, also used to pass.  The validator must reject both,
-while still accepting the repository as it stands.
+rest unchanged, also used to pass; and a reviewed receipt with its entire
+task list deleted was skipped by every receipt check.  The validator must
+reject all of these, while still accepting the repository as it stands.
 """
 import gzip
 import json
@@ -65,6 +66,19 @@ class ValidateTrackerTests(unittest.TestCase):
             result = run_validator(copy)
             self.assertNotEqual(result.returncode, 0, result.stdout + result.stderr)
             self.assertIn('FAIL evidence.reviewed_tasks_complete_claim', result.stdout)
+
+    def test_reviewed_receipt_without_tasks_field_fails(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            copy = Path(tmp) / 'repo'
+            shutil.copytree(ROOT, copy,
+                            ignore=shutil.ignore_patterns('.git', '__pycache__'))
+            receipt_path = copy / RECEIPT
+            receipt = json.loads(receipt_path.read_text())
+            del receipt['tasks']
+            receipt_path.write_text(json.dumps(receipt))
+            result = run_validator(copy)
+            self.assertNotEqual(result.returncode, 0, result.stdout + result.stderr)
+            self.assertIn('FAIL evidence.volunteers_tasks_present', result.stdout)
 
 
 if __name__ == '__main__':
