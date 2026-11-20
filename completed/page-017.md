@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M071013 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HermitianBlockHasInvariantsOfLiftWithLastBasis` | volunteer-build-reviewed |
+| M071016 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HermitianBlockInvariantsIffIsometryStatement` | volunteer-build-reviewed |
+| M071017 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HermitianDualInvAlgBaseChangeUnramifiedIff` | volunteer-build-reviewed |
+| M071022 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HermitianLatticeIsOpenIsCompactTestStatement` | volunteer-build-reviewed |
+| M071107 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HyperbolicPartialFourierLinearOnTest` | volunteer-build-reviewed |
 | M071109 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HyperbolicPartialFourierScaleEqTorusAction` | volunteer-build-reviewed |
 | M071111 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HyperbolicPartialFourierTwiceEqReflection` | volunteer-build-reviewed |
 | M071113 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HyperbolicWeylActionEqFourierEtaleL` | volunteer-build-reviewed |
@@ -188,6 +193,7 @@
 | M073012 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NormalisedPeriodAlgebraicEstimateStatement` | volunteer-build-reviewed |
 | M073020 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NormalizedRowCoefficientMatricesDetNormStatement` | volunteer-build-reviewed |
 | M073032 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NotIsIntegralResidueInvSmallIntegerStatement` | volunteer-build-reviewed |
+| M073055 | P0033 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.OneAddPowOfMulSelfEqZero` | build-observed |
 | M073057 | P0033 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.OneAddXMulDerivativeBin` | volunteer-build-reviewed |
 | M073111 | P0360 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PadicNormZpowSubOnePadicValInt` | wave-reused |
 | M073112 | P0405 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PadicNormZpowSubOnePadicValIntStatement` | wave-reused |
@@ -396,9 +402,3 @@
 | M075408 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WindowSummedRowPowEqAdditiveSystemPowerSumStatement` | volunteer-build-reviewed |
 | M075409 | P1201 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittCompletedTiltColumnsOfRightInverseModPow` | wave-reused |
 | M075410 | P1227 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittCompletedTiltColumnsOfRightInverseModPowStatement` | wave-reused |
-| M075420 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorGaussNormMul` | volunteer-build-reviewed |
-| M075421 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorGaussNormMulStatement` | volunteer-build-reviewed |
-| M075424 | P0957 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorMapBreuilKisinEvEq` | wave-reused |
-| M075425 | P0986 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorMapBreuilKisinEvEqStatement` | wave-reused |
-| M075428 | P0986 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorRingHomEqOfSubMem` | wave-reused |
-| M075429 | P1013 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorRingHomEqOfSubMemStatement` | wave-reused |

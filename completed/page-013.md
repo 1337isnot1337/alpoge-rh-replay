@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M058438 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameCoordinatesTransportInnerLattices` | wave-reused |
 | M058439 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameCoordinatesTransportInnerLatticesStatement` | wave-reused |
 | M058440 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramePairAmplitudeMassRepsEqOrbits` | wave-reused |
 | M058441 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramePairAmplitudeMassRepsEqOrbitsStatement` | wave-reused |
@@ -401,4 +402,3 @@
 | M060988 | P0304 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardMonicSquarefreeUnitConstPolysGeStatement` | wave-reused |
 | M060994 | P0355 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardPermExistsStableSubsetLe` | wave-reused |
 | M060995 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardPermPartitionPartsMulCentralizer` | wave-reused |
-| M060996 | P0304 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardPermPartitionPartsMulCentralizerStatement` | wave-reused |

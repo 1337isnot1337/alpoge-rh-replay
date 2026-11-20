@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013534 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GtAddIotaSubExist` | volunteer-build-reviewed |
 | M013543 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HasSumOfAdicSumUnitBallExtensionStatement` | volunteer-build-reviewed |
 | M013544 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HasTorusWeightIffTorusEquivariant` | volunteer-build-reviewed |
 | M013547 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HasWtZero` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M018248 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffPowerSeriesEvalTwoGroupsSecondThirdEqZeroStatement` | wave-reused |
 | M018251 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowFirstAddSecondThreeGroups` | wave-reused |
 | M018252 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowFirstAddSecondThreeGroupsStatement` | wave-reused |
-| M018253 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowSecondAddThirdThreeGroups` | wave-reused |

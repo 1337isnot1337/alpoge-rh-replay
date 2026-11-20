@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M066740 | P1009 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfAdicTopologicalBasisOverBreuilKisin` | wave-reused |
+| M066741 | P1037 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfAdicTopologicalBasisOverBreuilKisinStatement` | wave-reused |
+| M066744 | P1037 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfClosedMembershipLimit` | wave-reused |
+| M066745 | P1065 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfClosedMembershipLimitStatement` | wave-reused |
 | M066748 | P0954 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfDivisibilityBreuilKisinFacts` | wave-reused |
 | M066749 | P0981 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfDivisibilityBreuilKisinFactsStatement` | wave-reused |
 | M066754 | P1404 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfExistsMulEqPowSmulOfModLPow` | wave-reused |
@@ -12,6 +16,7 @@
 | M066767 | P1427 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfRightInverseUpToPowModLPowStatement` | wave-reused |
 | M066768 | P0954 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfUnitBoundedTeichmullerFlatDenominators` | wave-reused |
 | M066780 | P0190 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AlgebraMapMemNonZeroDivisorsAdicCompletion` | wave-reused |
+| M066812 | P0029 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AntidiagTwistedNorm` | volunteer-build-reviewed |
 | M066823 | P1404 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ApproximatingLatticesTransitionMatrixModPow` | wave-reused |
 | M066824 | P1427 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ApproximatingLatticesTransitionMatrixModPowStatement` | wave-reused |
 | M066884 | P0981 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BasisOfCongrBasisModNilpotentIdeal` | wave-reused |
@@ -397,8 +402,3 @@
 | M070892 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HasCompactSupportJacquetRallisOrbitalIntegrand` | volunteer-build-reviewed |
 | M070895 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HasCompactSupportPartialFourierGLBlockStatement` | volunteer-build-reviewed |
 | M071011 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HermitianBlockHasInvariantsOfLiftMatch` | volunteer-build-reviewed |
-| M071013 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HermitianBlockHasInvariantsOfLiftWithLastBasis` | volunteer-build-reviewed |
-| M071016 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HermitianBlockInvariantsIffIsometryStatement` | volunteer-build-reviewed |
-| M071017 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HermitianDualInvAlgBaseChangeUnramifiedIff` | volunteer-build-reviewed |
-| M071022 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HermitianLatticeIsOpenIsCompactTestStatement` | volunteer-build-reviewed |
-| M071107 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HyperbolicPartialFourierLinearOnTest` | volunteer-build-reviewed |

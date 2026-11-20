@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M063141 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldClearDenominatorsStatement` | wave-reused |
+| M063142 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldConstAndQuotient` | wave-reused |
+| M063143 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldConstAndQuotientStatement` | wave-reused |
 | M063144 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldExpUpperTriangular` | wave-reused |
 | M063145 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldExpUpperTriangularStatement` | wave-reused |
 | M063146 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldExpansionConverges` | wave-reused |
@@ -311,6 +314,7 @@
 | M065779 | P1122 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.WeightRequirementOfValidStatement` | build-observed |
 | M065967 | P0789 | `Development.AbelianVarietyTheory.Proofs.HeightProofs.ExistsDenomOfIsAffineOpen` | wave-reused |
 | M066012 | P0028 | `Development.AbelianVarietyTheory.Proofs.HeightProofs.ExistsNhdsZeroPrincipalEqZero` | volunteer-build-reviewed |
+| M066154 | P0029 | `Development.AbelianVarietyTheory.Proofs.HeightProofs.IntegrableOnFundamentalDomainOfCocompact` | volunteer-build-reviewed |
 | M066213 | P0120 | `Development.AbelianVarietyTheory.Proofs.HeightProofs.MeanSquareAddFundamentalDomainOfCocompact` | volunteer-build-reviewed |
 | M066285 | P0190 | `Development.AbelianVarietyTheory.Proofs.HeightProofs.QuadraticExtNormFormOverAlgebra` | wave-reused |
 | M066374 | P0588 | `Development.AbelianVarietyTheory.Proofs.HeightProofs.UnitNormFormAtOddPlace` | wave-reused |
@@ -398,7 +402,3 @@
 | M066628 | P0981 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdicTopologicalBasisBasisModPow` | wave-reused |
 | M066629 | P1009 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdicTopologicalBasisBasisModPowStatement` | wave-reused |
 | M066726 | P0190 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AevalEqZeroOfDvd` | wave-reused |
-| M066740 | P1009 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfAdicTopologicalBasisOverBreuilKisin` | wave-reused |
-| M066741 | P1037 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfAdicTopologicalBasisOverBreuilKisinStatement` | wave-reused |
-| M066744 | P1037 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfClosedMembershipLimit` | wave-reused |
-| M066745 | P1065 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfClosedMembershipLimitStatement` | wave-reused |

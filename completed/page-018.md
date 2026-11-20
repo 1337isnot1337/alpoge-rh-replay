@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M075420 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorGaussNormMul` | volunteer-build-reviewed |
+| M075421 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorGaussNormMulStatement` | volunteer-build-reviewed |
+| M075424 | P0957 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorMapBreuilKisinEvEq` | wave-reused |
+| M075425 | P0986 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorMapBreuilKisinEvEqStatement` | wave-reused |
+| M075428 | P0986 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorRingHomEqOfSubMem` | wave-reused |
+| M075429 | P1013 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorRingHomEqOfSubMemStatement` | wave-reused |
 | M075430 | P0874 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorTeichmullerIsAdicCompleteOfPerfect` | wave-reused |
 | M075431 | P0900 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorTeichmullerIsAdicCompleteOfPerfectStatement` | wave-reused |
 | M075466 | P0256 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ZpowSmulMem` | volunteer-build-reviewed |
@@ -396,9 +402,3 @@
 | M083888 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FrepDiscreteSeriesSum` | wave-reused |
 | M083889 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.FrepDiscreteSeriesSumStatement` | volunteer-build-reviewed |
 | M083892 | P1014 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GapCoefficientDerivativeBound` | wave-reused |
-| M083893 | P1042 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GapCoefficientDerivativeBoundStatement` | wave-reused |
-| M083895 | P0361 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GapSubsetOfSetBoundIntegral` | wave-reused |
-| M083900 | P1100 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GermExistsUniqueLinear` | wave-reused |
-| M083905 | P0902 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GlRelationRowStepsFunctionalEigen` | wave-reused |
-| M083906 | P0930 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GlRelationRowStepsFunctionalEigenStatement` | wave-reused |
-| M083917 | P0848 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GrowthUnitaryGroupRpowNegIntegrable` | wave-reused |

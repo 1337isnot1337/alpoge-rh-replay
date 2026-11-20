@@ -165,6 +165,7 @@
 | M007447 | P0866 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.RawChartBaseChangeRigGermStatement` | volunteer-build-reviewed |
 | M007453 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ReadingTwistedPullbackStatement` | volunteer-build-reviewed |
 | M007473 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.SectionReadingExistsUniqueIsThetaStatement` | volunteer-build-reviewed |
+| M007501 | P0005 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.Sl2NonnegWeightOfHighestWeightVector` | volunteer-build-reviewed |
 | M007518 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaConstantPowEqOneOfPowerTrivial` | volunteer-build-reviewed |
 | M007562 | P0296 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.TraceHermNondegenerate` | wave-reused |
 | M007861 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CartanAntitoneStatement` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M013518 | P0839 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GeometricallyConnectedOfIsPullbackOfSurjective` | wave-reused |
 | M013520 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GeometricallyConnectedOfSection` | volunteer-build-reviewed |
 | M013526 | P0007 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GroupAlgebraSingleOneMemOfSpan` | wave-reused |
-| M013534 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GtAddIotaSubExist` | volunteer-build-reviewed |

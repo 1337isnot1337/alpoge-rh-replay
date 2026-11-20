@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M046526 | P0399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootPowUnitSubProdProperties` | wave-reused |
 | M046527 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootPowUnitSubProdPropertiesStatement` | wave-reused |
 | M046528 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootTiltLatticeBound` | wave-reused |
 | M046529 | P0651 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootTiltLatticeBoundStatement` | wave-reused |
@@ -401,4 +402,3 @@
 | M050662 | P0248 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpanTopOfResidueSpanTop` | wave-reused |
 | M050679 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecLocalHomFactorsAffineOpenStatement` | volunteer-build-reviewed |
 | M050686 | P0443 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecMapSmoothSurjectiveOfIsSeparable` | wave-reused |
-| M050687 | P0481 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecMapSmoothSurjectiveOfIsSeparableStatement` | wave-reused |

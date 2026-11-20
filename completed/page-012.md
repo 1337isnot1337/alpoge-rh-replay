@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M050687 | P0481 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecMapSmoothSurjectiveOfIsSeparableStatement` | wave-reused |
 | M050690 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecPiCofanIsColimitOfRingEquiv` | wave-reused |
 | M050691 | P0443 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecPiCofanIsColimitOfRingEquivStatement` | wave-reused |
 | M050697 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecTensorPreimmersionStatement` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M058435 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassTermsLeOverlatticeMassesStatement` | wave-reused |
 | M058436 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassesTotalWeightLe` | wave-reused |
 | M058437 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassesTotalWeightLeStatement` | wave-reused |
-| M058438 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameCoordinatesTransportInnerLattices` | wave-reused |

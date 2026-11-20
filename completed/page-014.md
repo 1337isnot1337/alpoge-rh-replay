@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M060996 | P0304 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardPermPartitionPartsMulCentralizerStatement` | wave-reused |
 | M061011 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CentralBinomLePowCardPrimesBetween` | wave-reused |
 | M061012 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CentralIdempotentIrreducibleCharacterProps` | wave-reused |
 | M061013 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CentralIdempotentIrreducibleCharacterPropsStatement` | wave-reused |
@@ -271,6 +272,8 @@
 | M062454 | P0789 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeRootsNePrimePowMulRootOfUnityStatement` | wave-reused |
 | M062480 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeULeftRepresentativesLevelChange` | wave-reused |
 | M062481 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeULeftRepresentativesLevelChangeStatement` | wave-reused |
+| M062502 | P0188 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumCompOfIntermediateLatti` | volunteer-build-reviewed |
+| M062503 | P0251 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumCompOfIntermediateLattiStatement` | volunteer-build-reviewed |
 | M062504 | P0188 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumsCompEqIndex` | volunteer-build-reviewed |
 | M062535 | P0118 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IdealEqBotOfFlatQuotientOfMapMaximalIdeal` | wave-reused |
 | M062554 | P0026 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ImportsMore` | wave-reused |
@@ -399,6 +402,3 @@
 | M063138 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldBoundedDenominators` | wave-reused |
 | M063139 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldBoundedDenominatorsStatement` | wave-reused |
 | M063140 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldClearDenominators` | wave-reused |
-| M063141 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldClearDenominatorsStatement` | wave-reused |
-| M063142 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldConstAndQuotient` | wave-reused |
-| M063143 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldConstAndQuotientStatement` | wave-reused |

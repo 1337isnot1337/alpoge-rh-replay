@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M083893 | P1042 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GapCoefficientDerivativeBoundStatement` | wave-reused |
+| M083895 | P0361 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GapSubsetOfSetBoundIntegral` | wave-reused |
+| M083900 | P1100 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GermExistsUniqueLinear` | wave-reused |
+| M083905 | P0902 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GlRelationRowStepsFunctionalEigen` | wave-reused |
+| M083906 | P0930 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GlRelationRowStepsFunctionalEigenStatement` | wave-reused |
+| M083917 | P0848 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GrowthUnitaryGroupRpowNegIntegrable` | wave-reused |
 | M083918 | P0874 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GrowthUnitaryGroupRpowNegIntegrableStatement` | wave-reused |
 | M083920 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.HaarEqSmul` | volunteer-build-reviewed |
 | M083933 | P0310 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.HasSubstAddSqZero` | wave-reused |
@@ -396,9 +402,3 @@
 | M085879 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.PushforwardPolarisationBundleInvertibleOnModel` | volunteer-build-reviewed |
 | M085897 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleDiagonalBiadditiveOfE8Form` | volunteer-build-reviewed |
 | M085903 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleKTrivOfFiniteEtaleCover` | volunteer-build-reviewed |
-| M085909 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleOfCubeDivGeneratedFieldStatement` | volunteer-build-reviewed |
-| M085910 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleOfFaithfullyFlat` | volunteer-build-reviewed |
-| M085912 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleOfFieldExtensionBaseChange` | volunteer-build-reviewed |
-| M085926 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RigidifiedPartialLineBundleIsoCocycle` | volunteer-build-reviewed |
-| M085930 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.Rigidity` | volunteer-build-reviewed |
-| M085931 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RosatiNormLEOfStarNormLE` | volunteer-build-reviewed |

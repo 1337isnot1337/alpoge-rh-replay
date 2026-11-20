@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M090798 | P0128 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.MulVecCongrDeg` | wave-reused |
+| M090802 | P0794 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.NormalAtIffWit` | volunteer-build-reviewed |
+| M090807 | P0128 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PointMatrixMulLeftMulMatrix` | wave-reused |
+| M090815 | P0794 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PullbackSectionsBasisAffineBaseChangeOfAffine` | volunteer-build-reviewed |
+| M090816 | P0822 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PullbackSectionsBasisAffineBaseChangeOfAffineStatement` | wave-reused |
+| M090817 | P0794 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PullbackSectionsBasisOfAffineOpens` | volunteer-build-reviewed |
 | M090818 | P0822 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PullbackSectionsBasisOfAffineOpensStatement` | wave-reused |
 | M090819 | P0795 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PullbackSectionsSpanTwistedOfIndepSpan` | wave-reused |
 | M090820 | P0822 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PullbackSectionsSpanTwistedOfIndepSpanStatement` | wave-reused |
@@ -345,14 +351,20 @@
 | M094682 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeckeCharacterInfiniteOrderAtSplit` | volunteer-build-reviewed |
 | M094719 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeckeRatioPosOfPublished` | volunteer-build-reviewed |
 | M094734 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeckeVecSatakeSumUnitaryBorelRepresentatives` | volunteer-build-reviewed |
+| M094735 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeckeVecSatakeSumUnitaryBorelRepresentativesStatement` | volunteer-build-reviewed |
+| M094754 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeisenbergDerivativeZeroOrEmptyEqZero` | volunteer-build-reviewed |
 | M094776 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeisenbergSmoothRapidSuperpositionTranslates` | volunteer-build-reviewed |
 | M094788 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeisenbergVacuumUniqueOfSelfDual` | volunteer-build-reviewed |
+| M094789 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeisenbergVacuumUniqueOfSelfDualStatement` | volunteer-build-reviewed |
 | M094795 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HermiteReductionUnipotent` | volunteer-build-reviewed |
 | M094820 | P0558 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HermitianTraceFormOfTraceFormPerfect` | volunteer-build-reviewed |
 | M094830 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HilbertTensorTraceClassHasTraceProd` | volunteer-build-reviewed |
 | M094870 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IdeleCharRestrictLocalUnitsResidueChar` | volunteer-build-reviewed |
+| M094871 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IdeleCharRestrictLocalUnitsResidueCharStatement` | volunteer-build-reviewed |
 | M094877 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IdempotentComponentMemFrameStabilizer` | volunteer-build-reviewed |
+| M094878 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IdempotentComponentMemFrameStabilizerStatement` | volunteer-build-reviewed |
 | M094901 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IdempotentTwistedGroupEndomorphism` | volunteer-build-reviewed |
+| M094902 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IdempotentTwistedGroupEndomorphismStatement` | volunteer-build-reviewed |
 | M094903 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.Imports` | volunteer-build-reviewed |
 | M094904 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ImportsAlt` | volunteer-build-reviewed |
 | M094905 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ImportsBis` | volunteer-build-reviewed |
@@ -379,26 +391,14 @@
 | M095011 | P0408 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntegrableZetaIntegrand` | volunteer-build-reviewed |
 | M095016 | P0408 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntegralBiInvariantHasSumDoubleCoset` | volunteer-build-reviewed |
 | M095021 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntegralCompBlocks` | volunteer-build-reviewed |
+| M095022 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntegralCompactOpenTypeIdempotentUnipotentEqZero` | volunteer-build-reviewed |
 | M095024 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntegralContinuousMultilinearMapPiMeasure` | volunteer-build-reviewed |
 | M095025 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntegralContinuousMultilinearMapPiMeasureStatement` | volunteer-build-reviewed |
 | M095049 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntegralHaarEqZeroOfFibreIntegralsEqZero` | volunteer-build-reviewed |
 | M095050 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntegralHaarEqZeroOfFibreIntegralsEqZeroStatement` | volunteer-build-reviewed |
 | M095069 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntegralMulEqZeroOfCosetIntegralEqZero` | volunteer-build-reviewed |
+| M095070 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntegralMulEqZeroOfCosetIntegralEqZeroStatement` | volunteer-build-reviewed |
 | M095074 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntegralPeriodicEqMeasureMulSumCosets` | volunteer-build-reviewed |
 | M095095 | P1016 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.InterlacedSignedParameters` | volunteer-build-reviewed |
 | M095099 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntertwinerMemISupRangeEqSumSmul` | volunteer-build-reviewed |
 | M095100 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntertwinerMemISupRangeEqSumSmulStatement` | volunteer-build-reviewed |
-| M095107 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntertwiningSymplecticAndGroupLaw` | volunteer-build-reviewed |
-| M095116 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IpMSelfEqZero` | volunteer-build-reviewed |
-| M095126 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IrreducibleUnitaryVectorDensity` | volunteer-build-reviewed |
-| M095127 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IrreducibleUnitaryVectorDensityStatement` | volunteer-build-reviewed |
-| M095132 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsAlgebraicIntegral` | volunteer-build-reviewed |
-| M095145 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsClopenIsCompactMapsPair` | volunteer-build-reviewed |
-| M095146 | P0408 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsClopenIsCompactQLat` | volunteer-build-reviewed |
-| M095155 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsCompactParahoricLevelAndContainsLifts` | volunteer-build-reviewed |
-| M095156 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsCompactParahoricLevelAndContainsLiftsStatement` | volunteer-build-reviewed |
-| M095201 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsHarishChandraParamGridColumnRealParameterStatement` | volunteer-build-reviewed |
-| M095203 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsHarishChandraParamGridRowRealParameterStatement` | volunteer-build-reviewed |
-| M095205 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsHarishChandraParamGridVertexRealParameterStatement` | volunteer-build-reviewed |
-| M095232 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsLatticeChainLatAndComap` | volunteer-build-reviewed |
-| M095233 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsLatticeStdLatAndAct` | volunteer-build-reviewed |

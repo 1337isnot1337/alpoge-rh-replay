@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M085909 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleOfCubeDivGeneratedFieldStatement` | volunteer-build-reviewed |
+| M085910 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleOfFaithfullyFlat` | volunteer-build-reviewed |
+| M085912 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleOfFieldExtensionBaseChange` | volunteer-build-reviewed |
+| M085926 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RigidifiedPartialLineBundleIsoCocycle` | volunteer-build-reviewed |
+| M085930 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.Rigidity` | volunteer-build-reviewed |
+| M085931 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RosatiNormLEOfStarNormLE` | volunteer-build-reviewed |
 | M085935 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SecCoordBcScaleUnique` | volunteer-build-reviewed |
 | M085938 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SectionCoordinateVectorExistsLocallyStatement` | volunteer-build-reviewed |
 | M085962 | P0038 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SetIntegralFderivEqZeroOfLatticePeriodic` | wave-reused |
@@ -396,9 +402,3 @@
 | M090793 | P0767 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.MemNonzeroLocusVia` | wave-reused |
 | M090794 | P0767 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.MemSpanOfForallGermMemSpan` | wave-reused |
 | M090797 | P0039 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.MulTransposeEqOfTransposeMulEq` | wave-reused |
-| M090798 | P0128 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.MulVecCongrDeg` | wave-reused |
-| M090802 | P0794 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.NormalAtIffWit` | volunteer-build-reviewed |
-| M090807 | P0128 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PointMatrixMulLeftMulMatrix` | wave-reused |
-| M090815 | P0794 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PullbackSectionsBasisAffineBaseChangeOfAffine` | volunteer-build-reviewed |
-| M090816 | P0822 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PullbackSectionsBasisAffineBaseChangeOfAffineStatement` | wave-reused |
-| M090817 | P0794 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PullbackSectionsBasisOfAffineOpens` | volunteer-build-reviewed |
