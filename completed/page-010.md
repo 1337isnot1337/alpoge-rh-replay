@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M038100 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFullRankLatticeImageStandardLatticeGL` | volunteer-build-reviewed |
+| M038101 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFullRankLatticeImageStandardLatticeGLStatement` | volunteer-build-reviewed |
+| M038127 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsGramFrameEmbeddingMatrixNormOfVectorStatement` | volunteer-build-reviewed |
+| M038137 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsGrpPullbackOfGroupSchemeModelBaseChange` | volunteer-build-reviewed |
 | M038164 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsHilbRep` | volunteer-build-reviewed |
 | M038167 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsHilbertSchemeRepresentableOfIso` | volunteer-build-reviewed |
 | M038168 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsHilbertSchemeRepresentableOfIsoStatement` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M044302 | P0247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyEquivOfCardHomStatement` | wave-reused |
 | M044310 | P1328 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyHomologyEquiv` | wave-reused |
 | M044329 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyLinearEquivOfPiFinPowFinite` | volunteer-build-reviewed |
-| M044330 | P0352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyLinearEquivOfPiFinPowFiniteStatement` | wave-reused |
-| M044381 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonvanishingHolomorphicExpLogConvexStatement` | volunteer-build-reviewed |
-| M044389 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonvanishingSectionQuotientLimitStatement` | volunteer-build-reviewed |
-| M044390 | P1032 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonvanishingSetEtaleStein` | wave-reused |

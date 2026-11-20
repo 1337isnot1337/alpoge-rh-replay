@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M062593 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnImRpowUnitStripBelowOne` | wave-reused |
+| M062594 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnImRpowUnitStripBelowOneStatement` | wave-reused |
+| M062595 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnSqQExpansionUnitStripLow` | wave-reused |
+| M062596 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnSqQExpansionUnitStripLowStatement` | wave-reused |
+| M062597 | P0816 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnStripUnfoldedRankinIntegrand` | wave-reused |
 | M062598 | P0845 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnStripUnfoldedRankinIntegrandStatement` | wave-reused |
 | M062601 | P0816 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrablePeterssonIntegrandModerateGrowth` | wave-reused |
 | M062602 | P0845 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrablePeterssonIntegrandModerateGrowthStatement` | wave-reused |
@@ -397,8 +402,3 @@
 | M064489 | P1036 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.SecGeneratesOfNeZeroOnClosedFibre` | wave-reused |
 | M064499 | P1150 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.TieBaseChange` | wave-reused |
 | M064568 | P1091 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.BadCharacterBound` | build-observed |
-| M064569 | P1121 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.BadCharacterBoundStatement` | build-observed |
-| M064639 | P0028 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ConstMulRpowMulLogPowLeRpow` | volunteer-build-reviewed |
-| M064665 | P0189 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.DifferentiableOddTheta` | wave-reused |
-| M064771 | P1092 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsHcParamOfCode` | build-observed |
-| M064814 | P0736 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsMemProjEqOnFinset` | wave-reused |

@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M085253 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSmulMemSpanInvariantsSup` | volunteer-build-reviewed |
+| M085263 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSubgroupEqRangeOfLists` | volunteer-build-reviewed |
+| M085273 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsTateIsoOfPeriods` | volunteer-build-reviewed |
+| M085290 | P1179 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsThetaLevelAbelianSchemePullback` | wave-reused |
+| M085291 | P1203 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsThetaLevelAbelianSchemePullbackStatement` | wave-reused |
+| M085338 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsUniqueHom` | volunteer-build-reviewed |
+| M085341 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsUniqueInvariantVectorFieldOfTangent` | volunteer-build-reviewed |
+| M085342 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsUniqueInvariantVectorFieldOfTangentStatement` | volunteer-build-reviewed |
+| M085347 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsUniqueLiftOfDensePart` | volunteer-build-reviewed |
 | M085349 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsUniqueLocalDerivationAlongFibreFieldOfAffiStatement` | volunteer-build-reviewed |
 | M085353 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsUniqueSectionOfDense` | volunteer-build-reviewed |
 | M085354 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsUniqueSectionOfLocallyRegular` | volunteer-build-reviewed |
@@ -393,12 +402,3 @@
 | M090471 | P0486 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.UnitaryActHalfSpaceStatement` | wave-reused |
 | M090486 | P1043 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.WeilActionPreservesThetaAndInnerProduct` | wave-reused |
 | M090495 | P1071 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.AppLESurjective` | wave-reused |
-| M090496 | P1102 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.CardZerosOnTorsionCosetLe` | wave-reused |
-| M090499 | P0623 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.ExistsBasisOfIsField` | wave-reused |
-| M090507 | P0039 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.ExistsMulMemAdjoinOfMemPowRange` | wave-reused |
-| M090508 | P0739 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.ExistsMulPullSec` | wave-reused |
-| M090509 | P0623 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.ExistsSectionRing` | wave-reused |
-| M090517 | P0623 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.IsIntegralOfIsAbelianSchemeField` | wave-reused |
-| M090529 | P0557 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.NonemptyGradedAlgebraSubGrading` | wave-reused |
-| M090530 | P0623 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.RingKrullDimOfEtaleMvPolynomial` | wave-reused |
-| M090531 | P0623 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.RingKrullDimQuotientLeOne` | wave-reused |

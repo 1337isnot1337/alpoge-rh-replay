@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M114530 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PArtSum` | wave-reused |
+| M114531 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PChart` | wave-reused |
+| M114532 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PCorrBCQ` | wave-reused |
+| M114533 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PCorrCompQ` | wave-reused |
+| M114534 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PCorrEq` | wave-reused |
+| M114535 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PCorrEqQ` | wave-reused |
+| M114536 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PCorrGraphQ` | wave-reused |
+| M114537 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PCountEx` | wave-reused |
+| M114538 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PCountWt` | wave-reused |
+| M114539 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PCoverOne` | wave-reused |
 | M114540 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PCycComp` | wave-reused |
 | M114541 | P0561 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PDSLoc` | wave-reused |
 | M114542 | P0561 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PDSOne` | wave-reused |
@@ -184,6 +194,7 @@
 | M115414 | P0053 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.InfiniteTraceAlgebraMap` | wave-reused |
 | M115415 | P0053 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.InnerProductFormulaField` | wave-reused |
 | M115418 | P0053 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IntegerDenominator` | build-observed |
+| M115421 | P0715 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IntegralClosureCriterionSecond` | build-observed |
 | M115425 | P0053 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IntegralImagQuadraticHalfInt` | build-observed |
 | M115438 | P0053 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.InvOfUnitCoeffMem` | wave-reused |
 | M115440 | P0053 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.InvolutionInvariants` | wave-reused |
@@ -391,14 +402,3 @@
 | M119781 | P0367 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.NumberField` | wave-reused |
 | M119786 | P0367 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ProjectiveLinePlaceTrivialOnConstants` | wave-reused |
 | M119790 | P0594 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.SlopeBoundSt` | wave-reused |
-| M119791 | P0561 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.SplitComps` | wave-reused |
-| M119793 | P0658 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ToFirst` | wave-reused |
-| M119794 | P0528 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.TowerOrigin` | wave-reused |
-| M119796 | P0659 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.TraceWedgePairingPerfectRationalForms` | volunteer-build-reviewed |
-| M119798 | P0659 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.TwistedDualRegularFormsFiniteCover` | volunteer-build-reviewed |
-| M119805 | P0059 | `Development.AutomorphicSpectrum.Definitions.MembershipCriteria.LaEqSqrtSmulLam` | volunteer-build-reviewed |
-| M119809 | P0367 | `Development.AutomorphicSpectrum.Definitions.MetricPeriods.ClopenCondOnto` | wave-reused |
-| M119811 | P0137 | `Development.AutomorphicSpectrum.Definitions.MetricPeriods.ExistsIntSmulIsAdicIntegralInTensorBasis` | wave-reused |
-| M119812 | P0659 | `Development.AutomorphicSpectrum.Definitions.MetricPeriods.FiniteEtaleSurjectiveOfPullback` | volunteer-build-reviewed |
-| M119814 | P0594 | `Development.AutomorphicSpectrum.Definitions.MetricPeriods.GenericBlockMatrixIsBlockDiag` | wave-reused |
-| M119815 | P0453 | `Development.AutomorphicSpectrum.Definitions.MetricPeriods.GeometricAbelianConnected` | wave-reused |

@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M083253 | P0406 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.AlgTensWtNearStatement` | wave-reused |
+| M083268 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselCharacterUnipotentRadicalProperties` | wave-reused |
+| M083269 | P0819 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselCharacterUnipotentRadicalPropertiesStatement` | wave-reused |
+| M083270 | P0848 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselColumnStepsFunctionalEigen` | wave-reused |
+| M083271 | P0874 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselColumnStepsFunctionalEigenStatement` | wave-reused |
+| M083278 | P0901 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselFrameEntryRelation` | wave-reused |
+| M083279 | P0930 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselFrameEntryRelationStatement` | wave-reused |
+| M083282 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselFunctionalSideGrowth` | wave-reused |
 | M083283 | P0819 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselFunctionalSideGrowthStatement` | wave-reused |
 | M083284 | P0958 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselGapDimensionFormula` | wave-reused |
 | M083285 | P0986 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselGapDimensionFormulaStatement` | wave-reused |
@@ -54,6 +62,7 @@
 | M083478 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ConstantCoeffDmonOfProdLinear` | volunteer-build-reviewed |
 | M083479 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ConstantCoeffDmonOfSubMem` | volunteer-build-reviewed |
 | M083494 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.CpBinomialPowerSubOneSeriesIntegralityCompositioStatement` | volunteer-build-reviewed |
+| M083503 | P0194 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.CpTransportedTaylorSeriesInChartRingHomLaws` | volunteer-build-reviewed |
 | M083504 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.CpTransportedTaylorSeriesInChartRingHomLawsStatement` | volunteer-build-reviewed |
 | M083505 | P0309 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.CpTransportedTaylorSeriesMultiplicativeChart` | volunteer-build-reviewed |
 | M083526 | P1406 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.DepthBoundFromCharactersPointDatum` | wave-reused |
@@ -393,12 +402,3 @@
 | M085211 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSecOnNonvanishingOfTameQuotient` | volunteer-build-reviewed |
 | M085225 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSegreCoordinates` | volunteer-build-reviewed |
 | M085251 | P0038 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSmoothPeriodicPartitionOfUnity` | wave-reused |
-| M085253 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSmulMemSpanInvariantsSup` | volunteer-build-reviewed |
-| M085263 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSubgroupEqRangeOfLists` | volunteer-build-reviewed |
-| M085273 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsTateIsoOfPeriods` | volunteer-build-reviewed |
-| M085290 | P1179 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsThetaLevelAbelianSchemePullback` | wave-reused |
-| M085291 | P1203 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsThetaLevelAbelianSchemePullbackStatement` | wave-reused |
-| M085338 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsUniqueHom` | volunteer-build-reviewed |
-| M085341 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsUniqueInvariantVectorFieldOfTangent` | volunteer-build-reviewed |
-| M085342 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsUniqueInvariantVectorFieldOfTangentStatement` | volunteer-build-reviewed |
-| M085347 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsUniqueLiftOfDensePart` | volunteer-build-reviewed |

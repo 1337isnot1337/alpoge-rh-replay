@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M107651 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.SpFlag` | volunteer-build-reviewed |
+| M107654 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.SpTanL` | volunteer-build-reviewed |
+| M107655 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.SpTanP` | volunteer-build-reviewed |
+| M107680 | P0411 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PartsConj` | wave-reused |
+| M107681 | P0559 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PartsSign` | wave-reused |
+| M107735 | P0452 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.AnnihilatorBaseChange.YCplMemOf` | volunteer-build-reviewed |
+| M107793 | P1632 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.ChebotarevFamilies.PhiDec` | volunteer-build-reviewed |
+| M107794 | P1632 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.ChebotarevFamilies.PhiGS` | volunteer-build-reviewed |
+| M107795 | P1632 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.ChebotarevFamilies.ProkerPL` | volunteer-build-reviewed |
+| M107796 | P1632 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.ChebotarevFamilies.StarSingle` | volunteer-build-reviewed |
 | M107797 | P1632 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.ChebotarevFamilies.UnipPow` | volunteer-build-reviewed |
 | M107799 | P0452 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.ClosureConjugation.ComplOddPart` | volunteer-build-reviewed |
 | M107800 | P0452 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.ClosureConjugation.EpsEq` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M114527 | P0453 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.IsolateSpec` | wave-reused |
 | M114528 | P1104 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.IsolateSpecHolds` | wave-reused |
 | M114529 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.OpEqOf` | wave-reused |
-| M114530 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PArtSum` | wave-reused |
-| M114531 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PChart` | wave-reused |
-| M114532 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PCorrBCQ` | wave-reused |
-| M114533 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PCorrCompQ` | wave-reused |
-| M114534 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PCorrEq` | wave-reused |
-| M114535 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PCorrEqQ` | wave-reused |
-| M114536 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PCorrGraphQ` | wave-reused |
-| M114537 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PCountEx` | wave-reused |
-| M114538 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PCountWt` | wave-reused |
-| M114539 | P0491 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PCoverOne` | wave-reused |

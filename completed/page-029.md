@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M123031 | P1342 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueIsFirstChernTorsionFree` | wave-reused |
+| M123043 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUpperLower` | volunteer-build-reviewed |
+| M123053 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExpBlockTriangular` | volunteer-build-reviewed |
+| M123056 | P0906 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExpansionEqZeroIffCoeffsMem` | wave-reused |
+| M123057 | P0934 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExpansionEqZeroIffCoeffsMemStatement` | wave-reused |
+| M123058 | P0715 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExpansionSurjectiveAdditiveLinear` | wave-reused |
+| M123059 | P0743 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExpansionSurjectiveAdditiveLinearStatement` | wave-reused |
+| M123069 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExponentialPolynomialSolutionSpace` | volunteer-build-reviewed |
+| M123072 | P1045 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExtendedDividedPowers` | wave-reused |
+| M123081 | P0595 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExteriorSquareTransportAlongEquiv` | volunteer-build-reviewed |
+| M123082 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExteriorSquareTransportAlongEquivStatement` | volunteer-build-reviewed |
 | M123083 | P0595 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExteriorSquareVectorBundleRank` | volunteer-build-reviewed |
 | M123084 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExteriorSquareVectorBundleRankStatement` | volunteer-build-reviewed |
 | M123164 | P1074 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FilteredCohomologyRestrictionBijective` | wave-reused |
@@ -391,14 +402,3 @@
 | M127278 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SecResMap` | volunteer-build-reviewed |
 | M127280 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SecSubsingleton` | volunteer-build-reviewed |
 | M127286 | P0062 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SecondCountableHermC` | volunteer-build-reviewed |
-| M127297 | P1134 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SecsMapArrow` | wave-reused |
-| M127317 | P0141 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionOrthogonalIdempotentSum` | wave-reused |
-| M127318 | P0207 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionOrthogonalIdempotentSumStatement` | wave-reused |
-| M127319 | P0141 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionOverIdempotentProperties` | wave-reused |
-| M127320 | P0207 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionOverIdempotentPropertiesStatement` | wave-reused |
-| M127324 | P1342 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionsEqUnivOffBadSupport` | wave-reused |
-| M127325 | P1366 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionsEqUnivOffBadSupportStatement` | wave-reused |
-| M127374 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SeparableIrreducibleStatement` | volunteer-build-reviewed |
-| M127385 | P1342 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SerreVanishingFirstCohomology` | wave-reused |
-| M127386 | P1366 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SerreVanishingFirstCohomologyStatement` | wave-reused |
-| M127399 | P0743 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SharpMapCongruenceProperties` | wave-reused |

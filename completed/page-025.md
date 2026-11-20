@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M103231 | P0365 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PresDefs` | wave-reused |
+| M103232 | P0450 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrpOfMemSucc` | wave-reused |
+| M103236 | P0450 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.ResDual` | wave-reused |
+| M103238 | P0365 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.ResiduallyDiagonalRepresentation` | wave-reused |
+| M103249 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.SgWeight` | wave-reused |
+| M103250 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.SgZero` | wave-reused |
+| M103251 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.SingleMemOfSpan` | wave-reused |
+| M103252 | P0525 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.SmoothCharacterExtendsToOpenSubgroup` | wave-reused |
+| M103253 | P0592 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.SmoothDualExact` | wave-reused |
+| M103254 | P0559 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.SmoothHomWeightSumNeg` | wave-reused |
 | M103255 | P0450 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.SmoothVectorFixedByOpenSubgroup` | wave-reused |
 | M103268 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.StrSMul` | wave-reused |
 | M103269 | P0365 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.StrYMap` | wave-reused |
@@ -392,13 +402,3 @@
 | M107609 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.MemFiniteCocyclesIffRestrictSubgroupMem` | volunteer-build-reviewed |
 | M107623 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.OrdinaryDeformation` | volunteer-build-reviewed |
 | M107633 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.RankCohomologyRationalEqRankLattice` | volunteer-build-reviewed |
-| M107651 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.SpFlag` | volunteer-build-reviewed |
-| M107654 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.SpTanL` | volunteer-build-reviewed |
-| M107655 | P1261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.SpTanP` | volunteer-build-reviewed |
-| M107680 | P0411 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PartsConj` | wave-reused |
-| M107681 | P0559 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PartsSign` | wave-reused |
-| M107735 | P0452 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.AnnihilatorBaseChange.YCplMemOf` | volunteer-build-reviewed |
-| M107793 | P1632 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.ChebotarevFamilies.PhiDec` | volunteer-build-reviewed |
-| M107794 | P1632 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.ChebotarevFamilies.PhiGS` | volunteer-build-reviewed |
-| M107795 | P1632 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.ChebotarevFamilies.ProkerPL` | volunteer-build-reviewed |
-| M107796 | P1632 | `Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.ChebotarevFamilies.StarSingle` | volunteer-build-reviewed |

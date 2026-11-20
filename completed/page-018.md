@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M073955 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SeparableCharpolyInvAlgBaseChangeUnramifiedStatement` | volunteer-build-reviewed |
+| M073957 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SeparatedRootsAdditivePoly` | volunteer-build-reviewed |
+| M074053 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SingleMemOfSupportSubset` | volunteer-build-reviewed |
+| M074056 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.Sl2GeneratedWeylUnipotentStatement` | volunteer-build-reviewed |
+| M074057 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.Sl2PresentationRelations` | volunteer-build-reviewed |
+| M074058 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.Sl2PresentationRelationsStatement` | volunteer-build-reviewed |
+| M074063 | P1201 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SmithFormCoefficientRingImageOrPrimeDvdRow` | wave-reused |
+| M074064 | P1227 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SmithFormCoefficientRingImageOrPrimeDvdRowStatement` | wave-reused |
 | M074065 | P0033 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SmodEqIffDvd` | wave-reused |
 | M074089 | P0928 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SpanLocalIff` | build-observed |
 | M074091 | P1068 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SpanMulMem` | build-observed |
@@ -394,11 +402,3 @@
 | M083236 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.AbsCoordLeOfLOneNormLe` | wave-reused |
 | M083241 | P0361 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.AddCharMemValuationSubring` | wave-reused |
 | M083252 | P0361 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.AlgTensWtNear` | wave-reused |
-| M083253 | P0406 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.AlgTensWtNearStatement` | wave-reused |
-| M083268 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselCharacterUnipotentRadicalProperties` | wave-reused |
-| M083269 | P0819 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselCharacterUnipotentRadicalPropertiesStatement` | wave-reused |
-| M083270 | P0848 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselColumnStepsFunctionalEigen` | wave-reused |
-| M083271 | P0874 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselColumnStepsFunctionalEigenStatement` | wave-reused |
-| M083278 | P0901 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselFrameEntryRelation` | wave-reused |
-| M083279 | P0930 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselFrameEntryRelationStatement` | wave-reused |
-| M083282 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.BesselFunctionalSideGrowth` | wave-reused |

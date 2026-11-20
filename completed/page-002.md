@@ -266,6 +266,7 @@
 | M003498 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsAlgHomOfIsBaseChange` | wave-reused |
 | M003519 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsIsClosedImmersionGenericPoint` | wave-reused |
 | M003529 | P1001 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsIsStdOfInjective` | wave-reused |
+| M003570 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.FderivFnCongr` | volunteer-build-reviewed |
 | M003571 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.FibreRankCompOfSurjective` | wave-reused |
 | M003579 | P0865 | `Development.AbelianVarietyTheory.Definitions.Divisors.FormalCoboundarySmul` | wave-reused |
 | M003588 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.GalMapMul` | wave-reused |
@@ -331,6 +332,7 @@
 | M003989 | P0549 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.NormConst` | build-observed |
 | M003990 | P0784 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.PermutesRefl` | build-observed |
 | M003993 | P0549 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.UnivFrame` | wave-reused |
+| M004000 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.AltCoeffRho` | volunteer-build-reviewed |
 | M004002 | P0295 | `Development.AbelianVarietyTheory.Definitions.Foundations.ApplyEqOfMemAdjoin` | wave-reused |
 | M004005 | P1001 | `Development.AbelianVarietyTheory.Definitions.Foundations.CdScaleTieIff` | build-observed |
 | M004011 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.CobOn` | wave-reused |
@@ -400,5 +402,3 @@
 | M004411 | P0003 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SubClosed` | volunteer-build-reviewed |
 | M004412 | P1056 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ThinScalesIffHostBound` | build-observed |
 | M004415 | P1712 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking` | build-observed |
-| M004417 | P1559 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.ConclOfInputs4` | build-observed |
-| M004418 | P1001 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.FiniteDimensionalOfSz` | build-observed |

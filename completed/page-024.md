@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M100152 | P0796 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CocycleIntegral` | wave-reused |
+| M100153 | P0624 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffCoordinatesGoodTangentsLtSq` | wave-reused |
+| M100154 | P0656 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffCoordinatesGoodTangentsLtSqStatement` | wave-reused |
+| M100157 | P0525 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffIntegralOnExponentsSubstOfLowerSet` | wave-reused |
+| M100158 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffIntegralOnExponentsSubstOfLowerSetStatement` | volunteer-build-reviewed |
+| M100159 | P0525 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffLeafGaugeSubMainTermEqZeroOnFirstAxis` | wave-reused |
+| M100160 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffLeafGaugeSubMainTermEqZeroOnFirstAxisStatement` | volunteer-build-reviewed |
+| M100161 | P0042 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffSubstSumLPowPowMvPowerSeries` | wave-reused |
+| M100162 | P0525 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffSubstSumLPowPowMvPowerSeriesStatement` | wave-reused |
 | M100193 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.DualTowerMapExists` | volunteer-build-reviewed |
 | M100210 | P0408 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.EqZeroOfGe` | volunteer-build-reviewed |
 | M100211 | P0408 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.EqZeroOrSingleOfDegreeLeOne` | volunteer-build-reviewed |
@@ -97,6 +106,7 @@
 | M100716 | P1410 | `Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.EqOfIsometricTrivShift` | wave-reused |
 | M100717 | P0363 | `Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.EqZeroOfCobOneEqZero` | wave-reused |
 | M100718 | P1491 | `Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ExistsAlgClosedBaseChange` | wave-reused |
+| M100720 | P2316 | `Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.ExistsCrystalPairing` | volunteer-build-reviewed |
 | M100730 | P0312 | `Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.FormalAlgebraisation` | wave-reused |
 | M100750 | P0592 | `Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.InjectiveOfSmulMemRange` | wave-reused |
 | M100753 | P1206 | `Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.IsAdditiveOfUniversal` | wave-reused |
@@ -392,13 +402,3 @@
 | M103227 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrSqz` | wave-reused |
 | M103228 | P0488 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrTbox` | wave-reused |
 | M103229 | P0525 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrTsurj` | wave-reused |
-| M103231 | P0365 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PresDefs` | wave-reused |
-| M103232 | P0450 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.PrpOfMemSucc` | wave-reused |
-| M103236 | P0450 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.ResDual` | wave-reused |
-| M103238 | P0365 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.ResiduallyDiagonalRepresentation` | wave-reused |
-| M103249 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.SgWeight` | wave-reused |
-| M103250 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.SgZero` | wave-reused |
-| M103251 | P0410 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.SingleMemOfSpan` | wave-reused |
-| M103252 | P0525 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.SmoothCharacterExtendsToOpenSubgroup` | wave-reused |
-| M103253 | P0592 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.SmoothDualExact` | wave-reused |
-| M103254 | P0559 | `Development.AutomorphicArithmetic.AutomorphicVarieties.FrobeniusSmoothVectors.SmoothHomWeightSumNeg` | wave-reused |

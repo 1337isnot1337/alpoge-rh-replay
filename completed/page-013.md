@@ -2,9 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M057637 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIsometryOfSameTrace` | wave-reused |
+| M057640 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIsometryTupleMatrixRightMulNearIdentity` | wave-reused |
+| M057641 | P0481 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIsometryTupleMatrixRightMulNearIdentityStatement` | wave-reused |
+| M057654 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsLatticeStabilizerNormalisingSubgroup` | wave-reused |
 | M057655 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsLatticeStabilizerNormalisingSubgroupStatement` | wave-reused |
 | M057658 | P1033 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsListProd` | wave-reused |
 | M057659 | P1061 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsListProdStatement` | wave-reused |
+| M057680 | P0024 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMeasurableLintegralCosetEqOneClosedSubgrou` | volunteer-build-reviewed |
 | M057692 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNatBoundLocalLatticesStandardAe` | wave-reused |
 | M057693 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNatBoundLocalLatticesStandardAeStatement` | wave-reused |
 | M057694 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNatMulMemIntegersQuadraticCompletion` | wave-reused |
@@ -397,8 +402,3 @@
 | M060348 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TotallyPositiveOrthogonalOfTwoFlagExtendedSpaces` | volunteer-build-reviewed |
 | M060350 | P0815 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TrFirstPattern` | wave-reused |
 | M060351 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TraceCmbMulCmbStar` | volunteer-build-reviewed |
-| M060361 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TraceLoweringMulKeepingIsotropicFlag` | volunteer-build-reviewed |
-| M060373 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TransportRealPointsBijectiveMultiplicative` | volunteer-build-reviewed |
-| M060392 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TrivialOnDualQuotientIffMemLocalUnitary` | volunteer-build-reviewed |
-| M060404 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TsumOrbitNormaliser` | wave-reused |
-| M060408 | P0025 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TsumTransversalEqTsumOrbitQuotientGeneral` | wave-reused |

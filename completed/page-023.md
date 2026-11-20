@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M097391 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.StabiliserFiniteCosetsMod` | volunteer-build-reviewed |
+| M097430 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.StdMaxParabolicRadicalLeBlockUnipotentRadical` | volunteer-build-reviewed |
+| M097435 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.StepSplittingCharactersTameLevelResidue` | volunteer-build-reviewed |
+| M097447 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SubmodulePowSimpleEqSumEquivValues` | volunteer-build-reviewed |
+| M097452 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SubsingletonBorelJacquetOfCuspidalSegmentJacquet` | volunteer-build-reviewed |
+| M097461 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SumFourSwap` | volunteer-build-reviewed |
+| M097468 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SumProdUpdateRegroup` | volunteer-build-reviewed |
+| M097481 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SummableNonnegFamilyOfDifferentiableOn` | volunteer-build-reviewed |
+| M097482 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SummableNormCosetOut` | volunteer-build-reviewed |
 | M097497 | P1016 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SymmetrisationEquivariant` | volunteer-build-reviewed |
 | M097525 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.TameHeckeCharSplitSupportedEqProdResidueStatement` | volunteer-build-reviewed |
 | M097533 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.TendstoFinitePlaceTruncationAdeleEStatement` | volunteer-build-reviewed |
@@ -393,12 +402,3 @@
 | M100142 | P0525 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ChainStepKernelRankLeModMaxIdeal` | wave-reused |
 | M100143 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ChainStepKernelRankLeModMaxIdealStatement` | volunteer-build-reviewed |
 | M100150 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ChartPSmulLiftEqBt` | volunteer-build-reviewed |
-| M100152 | P0796 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CocycleIntegral` | wave-reused |
-| M100153 | P0624 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffCoordinatesGoodTangentsLtSq` | wave-reused |
-| M100154 | P0656 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffCoordinatesGoodTangentsLtSqStatement` | wave-reused |
-| M100157 | P0525 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffIntegralOnExponentsSubstOfLowerSet` | wave-reused |
-| M100158 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffIntegralOnExponentsSubstOfLowerSetStatement` | volunteer-build-reviewed |
-| M100159 | P0525 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffLeafGaugeSubMainTermEqZeroOnFirstAxis` | wave-reused |
-| M100160 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffLeafGaugeSubMainTermEqZeroOnFirstAxisStatement` | volunteer-build-reviewed |
-| M100161 | P0042 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffSubstSumLPowPowMvPowerSeries` | wave-reused |
-| M100162 | P0525 | `Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.CoeffSubstSumLPowPowMvPowerSeriesStatement` | wave-reused |

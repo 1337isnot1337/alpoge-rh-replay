@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M119791 | P0561 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.SplitComps` | wave-reused |
+| M119793 | P0658 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ToFirst` | wave-reused |
+| M119794 | P0528 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.TowerOrigin` | wave-reused |
+| M119796 | P0659 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.TraceWedgePairingPerfectRationalForms` | volunteer-build-reviewed |
+| M119798 | P0659 | `Development.AutomorphicSpectrum.Definitions.GlobalGeometry.TwistedDualRegularFormsFiniteCover` | volunteer-build-reviewed |
+| M119805 | P0059 | `Development.AutomorphicSpectrum.Definitions.MembershipCriteria.LaEqSqrtSmulLam` | volunteer-build-reviewed |
+| M119809 | P0367 | `Development.AutomorphicSpectrum.Definitions.MetricPeriods.ClopenCondOnto` | wave-reused |
+| M119811 | P0137 | `Development.AutomorphicSpectrum.Definitions.MetricPeriods.ExistsIntSmulIsAdicIntegralInTensorBasis` | wave-reused |
+| M119812 | P0659 | `Development.AutomorphicSpectrum.Definitions.MetricPeriods.FiniteEtaleSurjectiveOfPullback` | volunteer-build-reviewed |
+| M119814 | P0594 | `Development.AutomorphicSpectrum.Definitions.MetricPeriods.GenericBlockMatrixIsBlockDiag` | wave-reused |
+| M119815 | P0453 | `Development.AutomorphicSpectrum.Definitions.MetricPeriods.GeometricAbelianConnected` | wave-reused |
 | M119819 | P0318 | `Development.AutomorphicSpectrum.Definitions.MetricPeriods.HasMultiplier` | wave-reused |
 | M119822 | P0059 | `Development.AutomorphicSpectrum.Definitions.MetricPeriods.InFlagDomainOne` | wave-reused |
 | M119823 | P0594 | `Development.AutomorphicSpectrum.Definitions.MetricPeriods.IsAdapted` | wave-reused |
@@ -391,14 +402,3 @@
 | M123027 | P0659 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueConstantOfCompatibleFamilyStatement` | volunteer-build-reviewed |
 | M123029 | P0770 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueIdempotentLiftTilt` | wave-reused |
 | M123030 | P0798 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueIdempotentLiftTiltStatement` | wave-reused |
-| M123031 | P1342 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUniqueIsFirstChernTorsionFree` | wave-reused |
-| M123043 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsUpperLower` | volunteer-build-reviewed |
-| M123053 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExpBlockTriangular` | volunteer-build-reviewed |
-| M123056 | P0906 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExpansionEqZeroIffCoeffsMem` | wave-reused |
-| M123057 | P0934 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExpansionEqZeroIffCoeffsMemStatement` | wave-reused |
-| M123058 | P0715 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExpansionSurjectiveAdditiveLinear` | wave-reused |
-| M123059 | P0743 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExpansionSurjectiveAdditiveLinearStatement` | wave-reused |
-| M123069 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExponentialPolynomialSolutionSpace` | volunteer-build-reviewed |
-| M123072 | P1045 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExtendedDividedPowers` | wave-reused |
-| M123081 | P0595 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExteriorSquareTransportAlongEquiv` | volunteer-build-reviewed |
-| M123082 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExteriorSquareTransportAlongEquivStatement` | volunteer-build-reviewed |

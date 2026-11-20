@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013406 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnitExtendOfGeneric` | volunteer-build-reviewed |
+| M013410 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnitWeightZeroIntegralCoords` | wave-reused |
+| M013411 | P1220 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnitWeightZeroIntegralCoordsStatement` | wave-reused |
 | M013413 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniversalSectionBasisPolarisedFibre` | volunteer-build-reviewed |
 | M013439 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsZpowMulIsUnitOfMem` | volunteer-build-reviewed |
 | M013441 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExpansionCoefMemAdicPow` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M017730 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafBasicProperti` | wave-reused |
 | M017731 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafBasicPropertiStatement` | wave-reused |
 | M017732 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafProperties` | wave-reused |
-| M017733 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafPropertiesStatement` | wave-reused |
-| M017734 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafSectionsExact` | wave-reused |
-| M017735 | P0583 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafSectionsExactStatement` | wave-reused |

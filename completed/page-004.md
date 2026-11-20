@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005764 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NormDifferenceIndexIdentityStatement` | wave-reused |
+| M005784 | P0394 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PIdxUnitsFiniteExtensionAdicCompletion` | wave-reused |
 | M005790 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowIndexTorsionFiniteKerRange` | wave-reused |
 | M005791 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowIndexTorsionFiniteKerRangeStatement` | wave-reused |
 | M005792 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowIndexTorsionKerRangeMul` | wave-reused |
@@ -350,6 +352,7 @@
 | M006317 | P0098 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.IsWeaklyRegularIffIsQuasiRegularSeqOfIsLocalRing` | wave-reused |
 | M006318 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.IsWeaklyRegularMapCAppendMapLinForm` | wave-reused |
 | M006319 | P0678 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthBallQuotientEqSumMulFdeg` | wave-reused |
+| M006320 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthBaseChangeQuotientOfMapMaximalIdeal` | volunteer-build-reviewed |
 | M006321 | P0098 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthCokerOfNotInjective` | wave-reused |
 | M006324 | P0176 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthCommensurableSpanSpanOfDetNeZero` | wave-reused |
 | M006329 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthQuotientSpanSingleton` | wave-reused |
@@ -399,6 +402,3 @@
 | M006383 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SpanSingletonEqTopIffIsUnitOfIsBaseChange` | wave-reused |
 | M006384 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.StructureHomApply` | wave-reused |
 | M006385 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubalgebraEqBotOfIsIntegralOfIsIntegrallyClosed` | wave-reused |
-| M006386 | P1586 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubsingletonOfPoints` | wave-reused |
-| M006387 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubsingletonOfSheafPullback` | wave-reused |
-| M006388 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SumNegOnePowFinrankEqZero` | wave-reused |

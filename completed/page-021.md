@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M090496 | P1102 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.CardZerosOnTorsionCosetLe` | wave-reused |
+| M090499 | P0623 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.ExistsBasisOfIsField` | wave-reused |
+| M090507 | P0039 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.ExistsMulMemAdjoinOfMemPowRange` | wave-reused |
+| M090508 | P0739 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.ExistsMulPullSec` | wave-reused |
+| M090509 | P0623 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.ExistsSectionRing` | wave-reused |
+| M090517 | P0623 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.IsIntegralOfIsAbelianSchemeField` | wave-reused |
+| M090529 | P0557 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.NonemptyGradedAlgebraSubGrading` | wave-reused |
+| M090530 | P0623 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.RingKrullDimOfEtaleMvPolynomial` | wave-reused |
+| M090531 | P0623 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.RingKrullDimQuotientLeOne` | wave-reused |
 | M090532 | P0590 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.RingKrullDimQuotientOfMemMinimalPrimesSup` | wave-reused |
 | M090539 | P0794 | `Development.AbelianVarietyTheory.Proofs.ThetaFamilyOrigin.TorsionZeroCountTwist` | volunteer-build-reviewed |
 | M090540 | P0039 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.AlternatingSumChooseMulSubPow` | wave-reused |
@@ -393,12 +402,3 @@
 | M093499 | P1016 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsLinearMapTensorOfPairingStatement` | volunteer-build-reviewed |
 | M093528 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMaxValuationIdealSplitPlaceAndConjugate` | volunteer-build-reviewed |
 | M093530 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMaximalOperatorStableOfFinsetGenerating` | volunteer-build-reviewed |
-| M093538 | P1337 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMulHeightMinpolyCoeffLeRelativeHeight` | volunteer-build-reviewed |
-| M093539 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMulHeightMinpolyCoeffLeRelativeHeightStatement` | volunteer-build-reviewed |
-| M093542 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMultilinearSlotwiseExtensionOfEquivariant` | volunteer-build-reviewed |
-| M093543 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMultilinearSlotwiseExtensionOfEquivariantStatement` | volunteer-build-reviewed |
-| M093564 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsNonzeroIntSmulMemOfIsLattice` | volunteer-build-reviewed |
-| M093574 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsNsmulMemLattice` | volunteer-build-reviewed |
-| M093579 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsOfMemDoubleCosetK` | volunteer-build-reviewed |
-| M093588 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsOpOfTranslates` | volunteer-build-reviewed |
-| M093602 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsOpenFrameCongruenceUnitaryAdelic` | volunteer-build-reviewed |

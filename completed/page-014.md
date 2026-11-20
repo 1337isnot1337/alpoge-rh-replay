@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M060361 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TraceLoweringMulKeepingIsotropicFlag` | volunteer-build-reviewed |
+| M060373 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TransportRealPointsBijectiveMultiplicative` | volunteer-build-reviewed |
+| M060392 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TrivialOnDualQuotientIffMemLocalUnitary` | volunteer-build-reviewed |
+| M060404 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TsumOrbitNormaliser` | wave-reused |
+| M060408 | P0025 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TsumTransversalEqTsumOrbitQuotientGeneral` | wave-reused |
 | M060409 | P0402 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TupleJacobianRightMulIsometry` | wave-reused |
 | M060410 | P0444 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TupleJacobianRightMulIsometryStatement` | wave-reused |
 | M060417 | P0249 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TwoGeometricSumsIndexBound` | wave-reused |
@@ -397,8 +402,3 @@
 | M062590 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnFdImPowMulExp` | wave-reused |
 | M062591 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnImRpowMulExpUnitStripOneLe` | wave-reused |
 | M062592 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnImRpowMulExpUnitStripOneLeStatement` | wave-reused |
-| M062593 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnImRpowUnitStripBelowOne` | wave-reused |
-| M062594 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnImRpowUnitStripBelowOneStatement` | wave-reused |
-| M062595 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnSqQExpansionUnitStripLow` | wave-reused |
-| M062596 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnSqQExpansionUnitStripLowStatement` | wave-reused |
-| M062597 | P0816 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegrableOnStripUnfoldedRankinIntegrand` | wave-reused |

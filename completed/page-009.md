@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M030719 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendScalarsUliftHomAdditive` | wave-reused |
+| M030732 | P0977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtensionAcrossHypersurfaceValuesAtZeros` | wave-reused |
+| M030733 | P1004 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtensionAcrossHypersurfaceValuesAtZerosStatement` | wave-reused |
 | M030757 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExteriorPowerBasisLatticePrincipal` | wave-reused |
 | M030758 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExteriorPowerBasisLatticePrincipalStatement` | wave-reused |
 | M030759 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExteriorPowerSpanOfLattice` | wave-reused |
@@ -47,6 +50,7 @@
 | M031324 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteLengthCokerOfEtalePuncturedSpectrum` | wave-reused |
 | M031325 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteLengthCokerOfEtalePuncturedSpectrumStatement` | wave-reused |
 | M031375 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteOfLocallyFiniteFreeLocalizations` | volunteer-build-reviewed |
+| M031376 | P0106 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteOfLocallyFiniteFreeLocalizationsStatement` | volunteer-build-reviewed |
 | M031513 | P0298 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteTypeIntHomFilteredColimit` | wave-reused |
 | M031552 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankAddValuationIntegerSubmoduleEqFinrankSpan` | wave-reused |
 | M031553 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankAddValuationIntegerSubmoduleEqFinrankSpanStatement` | wave-reused |
@@ -398,7 +402,3 @@
 | M038034 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFiniteFlatRankClosedSubschemeOfQuotientBasis` | volunteer-build-reviewed |
 | M038080 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFractionRingTensorOfFractionFieldsStatement` | volunteer-build-reviewed |
 | M038083 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFrameMapOfAppendStatement` | volunteer-build-reviewed |
-| M038100 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFullRankLatticeImageStandardLatticeGL` | volunteer-build-reviewed |
-| M038101 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFullRankLatticeImageStandardLatticeGLStatement` | volunteer-build-reviewed |
-| M038127 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsGramFrameEmbeddingMatrixNormOfVectorStatement` | volunteer-build-reviewed |
-| M038137 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsGrpPullbackOfGroupSchemeModelBaseChange` | volunteer-build-reviewed |

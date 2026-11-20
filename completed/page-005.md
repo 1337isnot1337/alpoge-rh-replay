@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006386 | P1586 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubsingletonOfPoints` | wave-reused |
+| M006387 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubsingletonOfSheafPullback` | wave-reused |
+| M006388 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SumNegOnePowFinrankEqZero` | wave-reused |
 | M006389 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SummableNormBoundedSeries` | wave-reused |
 | M006390 | P0732 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ThreeTermComplexOfProjectiveCechModel` | wave-reused |
 | M006391 | P0759 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ThreeTermComplexOfProjectiveCechModelStatement` | wave-reused |
@@ -399,6 +402,3 @@
 | M013400 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniqueOfBasis` | volunteer-build-reviewed |
 | M013404 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnitCarries` | volunteer-build-reviewed |
 | M013405 | P0649 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnitCharts` | wave-reused |
-| M013406 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnitExtendOfGeneric` | volunteer-build-reviewed |
-| M013410 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnitWeightZeroIntegralCoords` | wave-reused |
-| M013411 | P1220 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnitWeightZeroIntegralCoordsStatement` | wave-reused |

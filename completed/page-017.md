@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M069619 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowerBasisOfCharpolySeparable` | volunteer-build-reviewed |
+| M069622 | P1255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowerSeriesLiftOfPeriodPowSmulIntegralMatr` | wave-reused |
+| M069623 | P1281 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowerSeriesLiftOfPeriodPowSmulIntegralMatrStatement` | wave-reused |
+| M069624 | P0983 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowerSeriesRingHomOfIsAdicComplete` | wave-reused |
+| M069625 | P1010 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowerSeriesRingHomOfIsAdicCompleteStatement` | wave-reused |
+| M069638 | P0983 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPrimePowDvdModEisensteinOfTheta` | wave-reused |
+| M069639 | P1010 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPrimePowDvdModEisensteinOfThetaStatement` | wave-reused |
+| M069644 | P0955 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPrimePowMulEqThetaWitt` | wave-reused |
 | M069661 | P1357 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPrismCoverReceivingBreuilKisin` | wave-reused |
 | M069662 | P1381 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPrismCoverReceivingBreuilKisinStatement` | wave-reused |
 | M069715 | P1066 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsResidueTiltInjectiveRetract` | wave-reused |
@@ -394,11 +402,3 @@
 | M073941 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SenMultiplicityLatticeCountRelation` | volunteer-build-reviewed |
 | M073944 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SenMultiplicityShiftLatticeVariablePowStatement` | volunteer-build-reviewed |
 | M073954 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SeparableCharpolyInvAlgBaseChangeUnramified` | volunteer-build-reviewed |
-| M073955 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SeparableCharpolyInvAlgBaseChangeUnramifiedStatement` | volunteer-build-reviewed |
-| M073957 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SeparatedRootsAdditivePoly` | volunteer-build-reviewed |
-| M074053 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SingleMemOfSupportSubset` | volunteer-build-reviewed |
-| M074056 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.Sl2GeneratedWeylUnipotentStatement` | volunteer-build-reviewed |
-| M074057 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.Sl2PresentationRelations` | volunteer-build-reviewed |
-| M074058 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.Sl2PresentationRelationsStatement` | volunteer-build-reviewed |
-| M074063 | P1201 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SmithFormCoefficientRingImageOrPrimeDvdRow` | wave-reused |
-| M074064 | P1227 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SmithFormCoefficientRingImageOrPrimeDvdRowStatement` | wave-reused |

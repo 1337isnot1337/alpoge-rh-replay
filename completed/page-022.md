@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M093538 | P1337 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMulHeightMinpolyCoeffLeRelativeHeight` | volunteer-build-reviewed |
+| M093539 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMulHeightMinpolyCoeffLeRelativeHeightStatement` | volunteer-build-reviewed |
+| M093542 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMultilinearSlotwiseExtensionOfEquivariant` | volunteer-build-reviewed |
+| M093543 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMultilinearSlotwiseExtensionOfEquivariantStatement` | volunteer-build-reviewed |
+| M093564 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsNonzeroIntSmulMemOfIsLattice` | volunteer-build-reviewed |
+| M093574 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsNsmulMemLattice` | volunteer-build-reviewed |
+| M093579 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsOfMemDoubleCosetK` | volunteer-build-reviewed |
+| M093588 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsOpOfTranslates` | volunteer-build-reviewed |
+| M093602 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsOpenFrameCongruenceUnitaryAdelic` | volunteer-build-reviewed |
 | M093604 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsOpenNormalisedSubgroupSubset` | volunteer-build-reviewed |
 | M093612 | P1337 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsOrthogonalSumLatticeSameLatticedSpace` | volunteer-build-reviewed |
 | M093613 | P1337 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsOrthogonalSumTestGridOfLevelChoiceGrid` | volunteer-build-reviewed |
@@ -393,12 +402,3 @@
 | M097362 | P0558 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitSubtorusLaurentPolynomialPoints` | volunteer-build-reviewed |
 | M097364 | P0558 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitSubtorusOfIdempotentFamily` | volunteer-build-reviewed |
 | M097368 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SplitThetaGridPathAvoidsOppositeCorner` | volunteer-build-reviewed |
-| M097391 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.StabiliserFiniteCosetsMod` | volunteer-build-reviewed |
-| M097430 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.StdMaxParabolicRadicalLeBlockUnipotentRadical` | volunteer-build-reviewed |
-| M097435 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.StepSplittingCharactersTameLevelResidue` | volunteer-build-reviewed |
-| M097447 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SubmodulePowSimpleEqSumEquivValues` | volunteer-build-reviewed |
-| M097452 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SubsingletonBorelJacquetOfCuspidalSegmentJacquet` | volunteer-build-reviewed |
-| M097461 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SumFourSwap` | volunteer-build-reviewed |
-| M097468 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SumProdUpdateRegroup` | volunteer-build-reviewed |
-| M097481 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SummableNonnegFamilyOfDifferentiableOn` | volunteer-build-reviewed |
-| M097482 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SummableNormCosetOut` | volunteer-build-reviewed |

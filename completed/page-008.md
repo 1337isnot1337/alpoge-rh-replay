@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M022995 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSurjectiveSectionOfSH` | wave-reused |
+| M022996 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSurjectiveSectionOfSHStatement` | wave-reused |
+| M022999 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleToSheafifyLocallyBijectiveAndLift` | wave-reused |
 | M023000 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleToSheafifyLocallyBijectiveAndLiftStatement` | wave-reused |
 | M023007 | P1505 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EulerCharH0H1BoundHigher` | wave-reused |
 | M023008 | P1535 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EulerCharH0H1BoundHigherStatement` | wave-reused |
@@ -399,6 +402,3 @@
 | M030705 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendChainMapAlongQuasiIsoKInjective` | wave-reused |
 | M030706 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendChainMapAlongQuasiIsoKInjectiveStatement` | wave-reused |
 | M030713 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendLinearIndependentDifferentials` | volunteer-build-reviewed |
-| M030719 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendScalarsUliftHomAdditive` | wave-reused |
-| M030732 | P0977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtensionAcrossHypersurfaceValuesAtZeros` | wave-reused |
-| M030733 | P1004 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtensionAcrossHypersurfaceValuesAtZerosStatement` | wave-reused |

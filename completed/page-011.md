@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M044330 | P0352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyLinearEquivOfPiFinPowFiniteStatement` | wave-reused |
+| M044381 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonvanishingHolomorphicExpLogConvexStatement` | volunteer-build-reviewed |
+| M044389 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonvanishingSectionQuotientLimitStatement` | volunteer-build-reviewed |
+| M044390 | P1032 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonvanishingSetEtaleStein` | wave-reused |
 | M044391 | P1060 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonvanishingSetEtaleSteinStatement` | wave-reused |
 | M044432 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormClassFiniteOfReducedRatAlgebraStatement` | volunteer-build-reviewed |
 | M044444 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormCompHomogeneousIsHomogeneousStatement` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M049137 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SecSigmaBijectiveStatement` | wave-reused |
 | M049228 | P0951 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionQuotientHolomorphicMeasurable` | wave-reused |
 | M049229 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionQuotientHolomorphicMeasurableStatement` | wave-reused |
-| M049268 | P1197 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionsCoordsAndNonvanishingAtFinset` | wave-reused |
-| M049269 | P1223 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionsCoordsAndNonvanishingAtFinsetStatement` | wave-reused |
-| M049272 | P1566 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionsDimLeAddMulSectionsDimCut` | wave-reused |
-| M049273 | P1592 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionsDimLeAddMulSectionsDimCutStatement` | wave-reused |

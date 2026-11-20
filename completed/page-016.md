@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M064569 | P1121 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.BadCharacterBoundStatement` | build-observed |
+| M064639 | P0028 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ConstMulRpowMulLogPowLeRpow` | volunteer-build-reviewed |
+| M064665 | P0189 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.DifferentiableOddTheta` | wave-reused |
+| M064771 | P1092 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsHcParamOfCode` | build-observed |
+| M064814 | P0736 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsMemProjEqOnFinset` | wave-reused |
 | M064817 | P0028 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsMultiplicativeLiftCharZero` | wave-reused |
 | M064838 | P1036 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsRanksRankValFrame` | build-observed |
 | M064891 | P1150 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsWeightsInWindows` | build-observed |
@@ -35,6 +40,7 @@
 | M065967 | P0789 | `Development.AbelianVarietyTheory.Proofs.HeightProofs.ExistsDenomOfIsAffineOpen` | wave-reused |
 | M066012 | P0028 | `Development.AbelianVarietyTheory.Proofs.HeightProofs.ExistsNhdsZeroPrincipalEqZero` | volunteer-build-reviewed |
 | M066154 | P0029 | `Development.AbelianVarietyTheory.Proofs.HeightProofs.IntegrableOnFundamentalDomainOfCocompact` | volunteer-build-reviewed |
+| M066174 | P0120 | `Development.AbelianVarietyTheory.Proofs.HeightProofs.IsLieDataCircle` | volunteer-build-reviewed |
 | M066213 | P0120 | `Development.AbelianVarietyTheory.Proofs.HeightProofs.MeanSquareAddFundamentalDomainOfCocompact` | volunteer-build-reviewed |
 | M066285 | P0190 | `Development.AbelianVarietyTheory.Proofs.HeightProofs.QuadraticExtNormFormOverAlgebra` | wave-reused |
 | M066371 | P0029 | `Development.AbelianVarietyTheory.Proofs.HeightProofs.TwoStepUnipotentCompactModSubring` | volunteer-build-reviewed |
@@ -280,6 +286,7 @@
 | M068346 | P0121 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.EchelonProjectorKernelFrobeniusStatement` | wave-reused |
 | M068364 | P0982 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.EisensteinImagePowIdealAinfProperties` | wave-reused |
 | M068365 | P1010 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.EisensteinImagePowIdealAinfPropertiesStatement` | wave-reused |
+| M068383 | P0030 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.EmbeddingIntegralContinuous` | volunteer-build-reviewed |
 | M068389 | P1152 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.EnvRingExists` | wave-reused |
 | M068390 | P1176 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.EnvRingExistsStatement` | wave-reused |
 | M068460 | P1281 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.EquivariantPhiModuleMatrixMemOE` | wave-reused |
@@ -392,13 +399,6 @@
 | M069534 | P0983 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsOfPowLeOfPowLeSameAdicTopologyStatement` | wave-reused |
 | M069535 | P0983 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsOneAddPrimePowMulNotRootOfUnity` | wave-reused |
 | M069536 | P1010 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsOneAddPrimePowMulNotRootOfUnityStatement` | wave-reused |
+| M069562 | P0031 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPadicIntOfCompatibleZmodPow` | volunteer-build-reviewed |
 | M069599 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowMemSpanCoeffPeriodPow` | wave-reused |
 | M069600 | P1226 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowMemSpanCoeffPeriodPowStatement` | wave-reused |
-| M069619 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowerBasisOfCharpolySeparable` | volunteer-build-reviewed |
-| M069622 | P1255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowerSeriesLiftOfPeriodPowSmulIntegralMatr` | wave-reused |
-| M069623 | P1281 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowerSeriesLiftOfPeriodPowSmulIntegralMatrStatement` | wave-reused |
-| M069624 | P0983 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowerSeriesRingHomOfIsAdicComplete` | wave-reused |
-| M069625 | P1010 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPowerSeriesRingHomOfIsAdicCompleteStatement` | wave-reused |
-| M069638 | P0983 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPrimePowDvdModEisensteinOfTheta` | wave-reused |
-| M069639 | P1010 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPrimePowDvdModEisensteinOfThetaStatement` | wave-reused |
-| M069644 | P0955 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsPrimePowMulEqThetaWitt` | wave-reused |

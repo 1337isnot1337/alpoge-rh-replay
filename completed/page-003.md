@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004417 | P1559 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.ConclOfInputs4` | build-observed |
+| M004418 | P1001 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.FiniteDimensionalOfSz` | build-observed |
 | M004419 | P1531 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.GrowthConstantBoundGcR` | build-observed |
 | M004422 | P1616 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.JointQ` | build-observed |
 | M004423 | P1586 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.NormComparisonConstants` | build-observed |
@@ -400,5 +402,3 @@
 | M005740 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.MemIffForallMemLocalizeRingOfIntegers` | wave-reused |
 | M005762 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NormCoeffMinpolyLeOneOfNormLeOne` | wave-reused |
 | M005763 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NormDifferenceIndexIdentity` | wave-reused |
-| M005764 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NormDifferenceIndexIdentityStatement` | wave-reused |
-| M005784 | P0394 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PIdxUnitsFiniteExtensionAdicCompletion` | wave-reused |

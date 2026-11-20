@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M049268 | P1197 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionsCoordsAndNonvanishingAtFinset` | wave-reused |
+| M049269 | P1223 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionsCoordsAndNonvanishingAtFinsetStatement` | wave-reused |
+| M049272 | P1566 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionsDimLeAddMulSectionsDimCut` | wave-reused |
+| M049273 | P1592 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionsDimLeAddMulSectionsDimCutStatement` | wave-reused |
 | M049280 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionsFiniteFlatRankOfFiniteFlat` | volunteer-build-reviewed |
 | M049281 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionsFiniteFlatRankOfFiniteFlatStatement` | volunteer-build-reviewed |
 | M049286 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SectionsInvertibleLocusOfBasisFunctor` | wave-reused |
@@ -398,7 +402,3 @@
 | M057614 | P0787 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIrreducibleCharpolyMemRootsBar` | wave-reused |
 | M057634 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIsometryNearIdentityCloseTuples` | wave-reused |
 | M057635 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIsometryNearIdentityCloseTuplesStatement` | wave-reused |
-| M057637 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIsometryOfSameTrace` | wave-reused |
-| M057640 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIsometryTupleMatrixRightMulNearIdentity` | wave-reused |
-| M057641 | P0481 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIsometryTupleMatrixRightMulNearIdentityStatement` | wave-reused |
-| M057654 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsLatticeStabilizerNormalisingSubgroup` | wave-reused |
