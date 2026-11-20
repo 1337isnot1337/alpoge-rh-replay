@@ -1,8 +1,10 @@
 """Regression tests for validate_tracker.py.
 
-The case that matters: a reviewed receipt whose task list was replaced
+The cases that matter: a reviewed receipt whose task list was replaced
 with copies of one unrelated (but valid) module id, with its object
-digests emptied, used to pass validation.  The validator must reject it,
+digests emptied, used to pass validation; and a reviewed receipt with
+one of its tasks (and the matching object digest) removed, leaving the
+rest unchanged, also used to pass.  The validator must reject both,
 while still accepting the repository as it stands.
 """
 import gzip
@@ -48,6 +50,21 @@ class ValidateTrackerTests(unittest.TestCase):
                                'evidence.reviewed_tasks_match_claim',
                                'evidence.reviewed_objects_match_tasks'):
                 self.assertIn(f'FAIL {check_name}', result.stdout)
+
+    def test_reviewed_receipt_missing_one_task_fails(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            copy = Path(tmp) / 'repo'
+            shutil.copytree(ROOT, copy,
+                            ignore=shutil.ignore_patterns('.git', '__pycache__'))
+            receipt_path = copy / RECEIPT
+            receipt = json.loads(receipt_path.read_text())
+            removed = receipt['tasks'].pop()
+            del receipt['objects'][removed]
+            self.assertEqual(len(receipt['tasks']), 63)
+            receipt_path.write_text(json.dumps(receipt))
+            result = run_validator(copy)
+            self.assertNotEqual(result.returncode, 0, result.stdout + result.stderr)
+            self.assertIn('FAIL evidence.reviewed_tasks_complete_claim', result.stdout)
 
 
 if __name__ == '__main__':

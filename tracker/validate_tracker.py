@@ -171,7 +171,10 @@ def main():
     unparsed, bad_tasks, bad_mathlib, bad_exit = [], [], [], []
     receipts = 0
     reviewed = 0
-    dup_reviewed, claim_mismatch, bad_objects = [], [], []
+    dup_reviewed, claim_mismatch, bad_objects, incomplete_reviewed = [], [], [], []
+    packet_task_ids = defaultdict(set)
+    for r in rows:
+        packet_task_ids[r['packet']].add(r['id'])
     for path in evidence_files:
         try:
             record = json.loads(path.read_text())
@@ -189,7 +192,9 @@ def main():
             # for a packet build, or a module id for a single-module build)
             # credits work, so its task list has to be exactly what it
             # claims: no duplicates, every task in the claimed packet (or
-            # the claimed module itself), and one object digest per task.
+            # the claimed module itself), one object digest per task, and
+            # the full set of ids for the claim -- a receipt missing a
+            # target is incomplete even if every remaining task matches.
             if 'packet' in record:
                 reviewed += 1
                 claim = record['packet']
@@ -198,6 +203,14 @@ def main():
                     dup_reviewed.append(path.name)
                 claim_mismatch += [f'{path.name}:{t}' for t in tasks
                                    if t in by_id and by_id[t]['packet'] != claim and t != claim]
+                if claim in packet_task_ids:
+                    expected_tasks = packet_task_ids[claim]
+                elif claim in by_id:
+                    expected_tasks = {claim}
+                else:
+                    expected_tasks = set()
+                if set(tasks) != expected_tasks:
+                    incomplete_reviewed.append(path.name)
                 objects = record.get('objects')
                 if not isinstance(objects, dict) or set(objects) != set(tasks):
                     bad_objects.append(path.name)
@@ -222,6 +235,9 @@ def main():
     check('evidence.reviewed_objects_match_tasks', not bad_objects,
           'object digest keys equal the task ids in every reviewed receipt'
           if not bad_objects else 'object keys differ from task ids in: ' + examples(bad_objects))
+    check('evidence.reviewed_tasks_complete_claim', not incomplete_reviewed,
+          'task ids equal the full set of ids for the claimed packet (or the claimed module itself) in every reviewed receipt'
+          if not incomplete_reviewed else 'task ids do not equal the full set for the claim in: ' + examples(incomplete_reviewed))
 
     # ---- summary pins against verify.sh ------------------------------------
     verify = root / 'verify.sh'
