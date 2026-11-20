@@ -23,11 +23,13 @@
 | M000043 | P0757 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.PStarTie` | volunteer-build-reviewed |
 | M000061 | P0001 | `CompanionTheory.AutomorphicTheory.DiscreteGroupWaves.IntegralEqOfSqrtCauchy` | volunteer-build-reviewed |
 | M000068 | P0392 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.EqZeroOfCompAt` | volunteer-build-reviewed |
+| M000069 | P0001 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.ExistsCen` | volunteer-build-reviewed |
 | M000070 | P0582 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.ExistsDenFin` | build-observed |
 | M000071 | P0172 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.HeckeA` | volunteer-build-reviewed |
 | M000072 | P0346 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.HeckeStdStatement` | volunteer-build-reviewed |
 | M000073 | P0615 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.IntegralOfModule` | build-observed |
 | M000074 | P0648 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.InvMemRl` | build-observed |
+| M000084 | P0001 | `CompanionTheory.AutomorphicTheory.JacobiDiagonalBounds.Vander` | volunteer-build-reviewed |
 | M000090 | P0757 | `CompanionTheory.AutomorphicTheory.LocalBesselUniqueness.BesselModels.AtFormAdmOneOfSteps` | volunteer-build-reviewed |
 | M000094 | P0783 | `CompanionTheory.AutomorphicTheory.LocalBesselUniqueness.BesselModels.DDForm` | volunteer-build-reviewed |
 | M000119 | P1217 | `CompanionTheory.AutomorphicTheory.MirabolicRestriction.MirabolicInduction.CuspidalRestrictsToInduced` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M001570 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsCompactStatement` | volunteer-build-reviewed |
 | M001571 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsOpen` | volunteer-build-reviewed |
 | M001572 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsOpenStatement` | volunteer-build-reviewed |
-| M001573 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupNormalInMaximalCompact` | volunteer-build-reviewed |
-| M001574 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupNormalInMaximalCompactStatement` | volunteer-build-reviewed |

@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001573 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupNormalInMaximalCompact` | volunteer-build-reviewed |
+| M001574 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupNormalInMaximalCompactStatement` | volunteer-build-reviewed |
 | M001575 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupsNeighborhoodBasis` | volunteer-build-reviewed |
 | M001576 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupsNeighborhoodBasisStatement` | volunteer-build-reviewed |
 | M001578 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ContinuousDiag` | volunteer-build-reviewed |
@@ -152,6 +154,7 @@
 | M002177 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.RationalTransitionKernel` | volunteer-build-reviewed |
 | M002182 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SandwichMaps` | wave-reused |
 | M002186 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SiegelReframe` | volunteer-build-reviewed |
+| M002187 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SpecialFibreUnits` | volunteer-build-reviewed |
 | M002190 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TameCharacterTorusValues` | build-observed |
 | M002191 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TameInvariantLevelAction` | build-observed |
 | M002194 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorNormBound` | volunteer-build-reviewed |
@@ -348,9 +351,11 @@
 | M003309 | P0838 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RowsRestWordColumnUnitBaseTuple` | build-observed |
 | M003311 | P0865 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SCuIsom` | build-observed |
 | M003326 | P0810 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SpreadLe` | build-observed |
+| M003334 | P1323 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.T2SpaceAdelicGeneralLinearGroupNumberField` | volunteer-build-reviewed |
 | M003369 | P0002 | `Development.AbelianVarietyTheory.Definitions.CommutativeAlgebra.AbByPOfComm` | volunteer-build-reviewed |
 | M003371 | P0002 | `Development.AbelianVarietyTheory.Definitions.CommutativeAlgebra.InvariantSubspaceMobiusInverseRecEqOfFinrankLt` | volunteer-build-reviewed |
 | M003372 | P1218 | `Development.AbelianVarietyTheory.Definitions.Degenerations.AdmissibleBaseOfCompleteDvr` | volunteer-build-reviewed |
+| M003374 | P1169 | `Development.AbelianVarietyTheory.Definitions.Degenerations.AdmissiblePadicIntMaximalIdeal` | volunteer-build-reviewed |
 | M003376 | P0946 | `Development.AbelianVarietyTheory.Definitions.Degenerations.ArithBase` | wave-reused |
 | M003377 | P1028 | `Development.AbelianVarietyTheory.Definitions.Degenerations.BaseFacts` | wave-reused |
 | M003379 | P0731 | `Development.AbelianVarietyTheory.Definitions.Degenerations.CompanionTheory` | wave-reused |
@@ -397,8 +402,3 @@
 | M003642 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IrreducibleOfIrreducibleMap` | wave-reused |
 | M003653 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsBasOpens` | wave-reused |
 | M003654 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsBasisOfBot` | wave-reused |
-| M003661 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsCyclotomicExtensionQI` | volunteer-build-reviewed |
-| M003663 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsDetEltOne` | wave-reused |
-| M003672 | P0549 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsFinSetSplitPlacesCoprimeConductor` | wave-reused |
-| M003673 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsFlatLift` | volunteer-build-reviewed |
-| M003675 | P1323 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsFrameOfForallExists` | wave-reused |

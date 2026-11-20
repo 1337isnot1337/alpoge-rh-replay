@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006142 | P0436 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ParabolicInductionTrivialPreservesVirtualCharact` | wave-reused |
+| M006143 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ParsevalBoundIntegerVectorSmallFourierSupport` | build-observed |
+| M006144 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ParsevalBoundIntegerVectorSmallFourierSupportStatement` | build-observed |
+| M006145 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.PrimaryEndomorphismCyclicDecompositionFinrankKer` | wave-reused |
+| M006146 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.PrimaryEndomorphismCyclicDecompositionFinrankKerStatement` | wave-reused |
 | M006147 | P0648 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.PrimitiveClassFunctionExpansionRootSums` | build-observed |
 | M006148 | P0678 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.PrimitiveClassFunctionExpansionRootSumsStatement` | build-observed |
 | M006149 | P0348 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.PrimitiveEndClassFunctionEqZeroOfPrimary` | wave-reused |
@@ -397,8 +402,3 @@
 | M007268 | P0865 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FrameRigidificationOfCanonicalAxesStatement` | wave-reused |
 | M007273 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FramedPointsLiftToLevelCover` | volunteer-build-reviewed |
 | M007279 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.GeneratorReadingCorrMulInvStatement` | volunteer-build-reviewed |
-| M007281 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.GeneratorReadingPullbackPeriodRigidStatement` | volunteer-build-reviewed |
-| M007284 | P1085 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.GlobalBasisAlgebra` | wave-reused |
-| M007292 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.HarmonicValueBaseChange` | volunteer-build-reviewed |
-| M007296 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.HarmonicValuesInvariantUniversalEndomorphism` | volunteer-build-reviewed |
-| M007304 | P0891 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.HyperbolicFlagDataBasePoint` | wave-reused |
