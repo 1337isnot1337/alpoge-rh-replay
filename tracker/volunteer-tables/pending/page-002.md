@@ -188,6 +188,8 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M078416](https://github.com/rohanarun/alpoge-rh-replay/issues/3505#issuecomment-7051586295) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M170448](https://github.com/rohanarun/alpoge-rh-replay/issues/3512#issuecomment-7051273345) | Pending review |
 | [@emsi](https://github.com/emsi) | [P1791](https://github.com/rohanarun/alpoge-rh-replay/issues/3515#issuecomment-7051560569) | Pending review |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M083628](https://github.com/rohanarun/alpoge-rh-replay/issues/3521#issuecomment-7051612825) | Pending review |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M036455](https://github.com/rohanarun/alpoge-rh-replay/issues/3522#issuecomment-7051613471) | Pending review |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M003437](https://github.com/rohanarun/alpoge-rh-replay/issues/3526#issuecomment-7051304151) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M004073](https://github.com/rohanarun/alpoge-rh-replay/issues/3533#issuecomment-7051294340) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M000191](https://github.com/rohanarun/alpoge-rh-replay/issues/3535#issuecomment-7051310941) | Pending review |
@@ -252,5 +254,3 @@
 | [@user42245](https://github.com/user42245) | [M076416](https://github.com/rohanarun/alpoge-rh-replay/issues/3643#issuecomment-7051431268) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M101077](https://github.com/rohanarun/alpoge-rh-replay/issues/3644#issuecomment-7051436346) | Pending review |
 | [@BenCaunt](https://github.com/BenCaunt) | [M130561](https://github.com/rohanarun/alpoge-rh-replay/issues/3645#issuecomment-7051442233) | Pending review |
-| [@mu-mei](https://github.com/mu-mei) | [M170472](https://github.com/rohanarun/alpoge-rh-replay/issues/3646#issuecomment-7051452526) | Pending review |
-| [@mu-mei](https://github.com/mu-mei) | [M000201](https://github.com/rohanarun/alpoge-rh-replay/issues/3648#issuecomment-7051453597) | Pending review |
