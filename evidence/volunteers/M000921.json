@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M000921"
+  ],
+  "started_utc": "2026-11-20T22:46:05.697156+00:00",
+  "ended_utc": "2026-11-20T22:46:16.558724+00:00",
+  "elapsed_seconds": 10.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6625248
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FiniteCovolumeUnimodularStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "57bec90a093cfb3ead3de386ca603a9871183ee517b5f3ed570021e3611aecdc",
+  "rebuilt_project_modules": [
+    "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FiniteCovolumeUnimodular"
+  ],
+  "objects": {
+    "M000921": "ddab3e0178424809510c46c4b9345328eebbcbd3a6da00874a500c1313a326d7"
+  },
+  "bundle_sha256": "309fc9dae746c0b439a6ca76ff1bb467aa3116978e83eb7fe337ce0ff600bf72",
+  "packet": "M000921",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5119#issuecomment-7052469526",
+  "reviewed_utc": "2026-11-20T22:58:58.241025+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

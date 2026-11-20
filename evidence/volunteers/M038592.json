@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M038592"
+  ],
+  "started_utc": "2026-11-20T22:55:06.056741+00:00",
+  "ended_utc": "2026-11-20T22:55:11.099504+00:00",
+  "elapsed_seconds": 5.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 62308664,
+    "peak_child_rss_kib": 7226324
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenConnectedComponentOfIsLocallyNoetherianStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c08b66fdb28af4cce0ef2f9cac437344647f8b5d31021efbc11b7bb503230495",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenConnectedComponentOfIsLocallyNoetherian"
+  ],
+  "objects": {
+    "M038592": "56153bcd3ef0b1f9f4112d2f9a516c381861e48c0205f6f7df2e2f2e399bc029"
+  },
+  "bundle_sha256": "93b64ec6ed8ac6cee959bb2243287c5477a57de6d08915bd7f1de368a151c934",
+  "packet": "M038592",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5443#issuecomment-7052622473",
+  "reviewed_utc": "2026-11-20T22:58:16.470994+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

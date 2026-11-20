@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M151982"
+  ],
+  "started_utc": "2026-11-20T22:31:11.631879+00:00",
+  "ended_utc": "2026-11-20T22:46:13.951368+00:00",
+  "elapsed_seconds": 842.0,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 16347232,
+    "peak_child_rss_kib": 7026412
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.ThetaModuleTransport.LocalCountConclusions.LocalCountZeroGlobalHolds:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c6ee9ae539c880368ed176e178a88df064cbf129e4445a7920bbab4e2a1c6b15",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.ThetaModuleTransport.HeadColumnCoordinates.DeterminantUnitTheta.ThetaMbe0GOfSplit",
+    "Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.ThetaModuleTransport.HeadColumnCoordinates.DeterminantUnitTheta.ThetaMbe0GOfSplitDu",
+    "Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.ThetaModuleTransport.HeadColumnCoordinates.ThetaLocalCount.LocCnt0GOfTheta",
+    "Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.ThetaModuleTransport.LocCnt0G",
+    "Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.ThetaModuleTransport.LocalCountConclusions.ThetaMbe0True"
+  ],
+  "objects": {
+    "M151982": "574c827ee17daac1edd646d7b3b45c427a531a0cbdd1a0eea96a2fbda29a63c8"
+  },
+  "bundle_sha256": "65ae7b6b00f39eca69868599029e8ffb5011c8db3f12698b8b3334277101d522",
+  "packet": "M151982",
+  "contributor": "DanieleCorso",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4643#issuecomment-7052482562",
+  "reviewed_utc": "2026-11-20T22:59:19.497894+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

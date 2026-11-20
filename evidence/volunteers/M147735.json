@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M147735"
+  ],
+  "started_utc": "2026-11-20T22:48:09.558544+00:00",
+  "ended_utc": "2026-11-20T22:48:58.490033+00:00",
+  "elapsed_seconds": 48.9,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6637264
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.CMDeterminantIdeals.StatementG:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e6b3d96bc9b220debb6259c733f6de627d6a3fdbe85231b38d2e2f068b739cab",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.CMDeterminantIdeals.DetIdeal",
+    "ReciprocityTheory.SemistableReduction.LatSemiSt",
+    "ReciprocityTheory.SemistableReduction.TorsionNonvanishStatement"
+  ],
+  "objects": {
+    "M147735": "b967b9485798bede45e0532667f77382df2ad222fbf4f107e14955b5497577ab"
+  },
+  "bundle_sha256": "9f4535ecfbc8288cea647f7114e328111174e52ee3d23fa28dbfaad6465eaa26",
+  "packet": "M147735",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5164#issuecomment-7052514335",
+  "reviewed_utc": "2026-11-20T22:58:50.957130+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

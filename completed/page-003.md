@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002320 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SubstitutionAdjoint` | build-observed |
+| M002321 | P1084 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.TameGeneratorWindow` | build-observed |
+| M002322 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ThetaCharacteristicZeroNorm` | volunteer-build-reviewed |
+| M002323 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ThetaConstantWeber` | wave-reused |
+| M002325 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.UnfoldingOperatorConditions` | build-observed |
+| M002331 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.AdelicUnitaryGroups` | build-observed |
 | M002332 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.ArcFramePointTruncation` | volunteer-build-reviewed |
 | M002333 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.BesselDatum` | build-observed |
 | M002339 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.CuspFormNormData` | volunteer-build-reviewed |
@@ -64,6 +70,7 @@
 | M002480 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.TensorMultiplication` | build-observed |
 | M002482 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.TwistedGLEmbedding` | volunteer-build-reviewed |
 | M002489 | P0515 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.CurvatureFamilyNorm` | wave-reused |
+| M002492 | P0435 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.FormalGroupTorsionCharts` | build-observed |
 | M002499 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.SmallUnipotentElements` | volunteer-build-reviewed |
 | M002500 | P0549 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.SpanSubtraction` | wave-reused |
 | M002504 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.UnitriangularCharts` | wave-reused |
@@ -395,10 +402,3 @@
 | M003908 | P1271 | `Development.AbelianVarietyTheory.Definitions.Divisors.SmoothOfRelativeDimensionPspace` | wave-reused |
 | M003909 | P1143 | `Development.AbelianVarietyTheory.Definitions.Divisors.SmoothSpanLeMspan` | build-observed |
 | M003911 | P0784 | `Development.AbelianVarietyTheory.Definitions.Divisors.SplitDoublingNBlock` | wave-reused |
-| M003919 | P1001 | `Development.AbelianVarietyTheory.Definitions.Divisors.SurjectiveOfIsPullbackSqZero` | wave-reused |
-| M003923 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.TCoefMInMMul` | volunteer-build-reviewed |
-| M003930 | P0393 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToBaseChangePtsBijective` | wave-reused |
-| M003931 | P1502 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToBidualDualMapEigenImageInclusion` | build-observed |
-| M003932 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToBidualNaturalityDualSheafTranspose` | wave-reused |
-| M003938 | P0435 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToRingActOpOfRingAct` | volunteer-build-reviewed |
-| M003939 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToSpanSingletonConstGenInjective` | wave-reused |

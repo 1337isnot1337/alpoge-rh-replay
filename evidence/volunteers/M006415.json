@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M006415"
+  ],
+  "started_utc": "2026-11-20T22:47:13.309500+00:00",
+  "ended_utc": "2026-11-20T22:47:28.527611+00:00",
+  "elapsed_seconds": 15.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6698696
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.CovolumeBounds.EventuallyIteratedFDerivEqZeroOfRealSubspace:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "507812a8641f3f98bb11722e9291929fb8691b99a2fe8ab938ccc3de16c15ef1",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DifferentiableOnOfTendstoLocallyUniformlyOn"
+  ],
+  "objects": {
+    "M006415": "c3e537698a57627d98c0634cc9a7e341187fac4997e87e7e3652bd96edb44785"
+  },
+  "bundle_sha256": "48a68ace82021502693d1f18b71fa12c813d9aa4402983866effa96eb458f80c",
+  "packet": "M006415",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5151#issuecomment-7052490038",
+  "reviewed_utc": "2026-11-20T22:58:53.080475+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

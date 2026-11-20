@@ -2,6 +2,25 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006398 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.WeightAddLeOfMemSupportDividedContraction` | wave-reused |
+| M006399 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.XSmulMemWeightedHomogeneousSubmodule` | wave-reused |
+| M006403 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.CoeffSubstInvMemOfTwoLeOrder` | wave-reused |
+| M006404 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ConjTransposeBoostMulSignatureMulBoost` | volunteer-build-reviewed |
+| M006406 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DifferentiableOnOfTendstoLocallyUniformlyOn` | wave-reused |
+| M006408 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DualRestrictSurjectiveOfIsTorsionFreeQuotient` | wave-reused |
+| M006409 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.EncardSmulMemLeEncardSmulInterNonempty` | volunteer-build-reviewed |
+| M006410 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.EnormPowLeInvMeasureMulLintegralBall` | wave-reused |
+| M006411 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.EntireApplyEqOfPeriodicOfSpanReal` | wave-reused |
+| M006412 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.EqZeroOfEvalGridEqZeroOfTotalDegreeLe` | volunteer-build-reviewed |
+| M006413 | P0296 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.EqZeroOfSemicharacterMultiplier` | wave-reused |
+| M006415 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.EventuallyIteratedFDerivEqZeroOfRealSubspace` | volunteer-build-reviewed |
+| M006419 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsIdealInClassOfNormLeSqrtDiscr` | volunteer-build-reviewed |
+| M006420 | P1170 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsIsClosedEmbeddingOfAffine` | wave-reused |
+| M006421 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsIsFundamentalDomainAndQuotMeasureEq` | volunteer-build-reviewed |
+| M006422 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsIsUnitEvalOfMapResidueNeZero` | wave-reused |
+| M006425 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsMulMulConjTransposeEqOne` | volunteer-build-reviewed |
+| M006426 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsNeZeroForallNormLeOfCovolumeLe` | build-observed |
+| M006427 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsNeZeroMemFractionalIdealNormSqLe` | build-observed |
 | M006429 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsOrthonormalOfLinearIndependent` | volunteer-build-reviewed |
 | M006430 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsQr` | volunteer-build-reviewed |
 | M006434 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FderivIntegralApplyOfHolomorphicOfDominated` | volunteer-build-reviewed |
@@ -30,6 +49,7 @@
 | M006484 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.OneLeDetOneAdd` | wave-reused |
 | M006487 | P0177 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.PderivIterEqPderivListOfDifferentiableOn` | volunteer-build-reviewed |
 | M006488 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ResidueNormValuationSubringEqZeroIff` | wave-reused |
+| M006489 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.SetIntegralPowEqZeroOfPosFreqEuclidean` | volunteer-build-reviewed |
 | M006492 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.StarInvMulVecDotProductMulVecInvMulVec` | wave-reused |
 | M006493 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.SummableLatticeExpNegPiMulNormSqDiv` | wave-reused |
 | M006494 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.SummablePiProd` | volunteer-build-reviewed |
@@ -382,23 +402,3 @@
 | M007650 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AmplitudeBoundsAtParametersOfAdmittedBoundsStatement` | volunteer-build-reviewed |
 | M007654 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AnalyticTiesTrueCols` | volunteer-build-reviewed |
 | M007704 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselCharacterLocalElementEqSimpleEntrySumStatement` | volunteer-build-reviewed |
-| M007714 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselDoubleStepLinearInSecondDatumStatement` | volunteer-build-reviewed |
-| M007716 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselDoubleStepUnfoldingOfUnfoldingsAndLinkStatement` | volunteer-build-reviewed |
-| M007717 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselFlatMapLocalUnipotentTranslationLaw` | volunteer-build-reviewed |
-| M007718 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselFlatMapLocalUnipotentTranslationLawStatement` | volunteer-build-reviewed |
-| M007723 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselFourierJacobiNormalFramesExistSplitPlaceStatement` | volunteer-build-reviewed |
-| M007727 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselGroupActionFourierBesselBasePoint` | volunteer-build-reviewed |
-| M007733 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselGroupSemidirectProductRational` | volunteer-build-reviewed |
-| M007785 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselToFourierJacobiHandedFamilyContinuousAutom` | volunteer-build-reviewed |
-| M007786 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselToFourierJacobiHandedFamilyContinuousAutomStatement` | volunteer-build-reviewed |
-| M007809 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BiInvariantEigenfunctionEqMulZonalSphericalStatement` | volunteer-build-reviewed |
-| M007828 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BoundedSubgroupOfIndefiniteUnitaryEqMaximalCompaStatement` | volunteer-build-reviewed |
-| M007848 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CardSubspacesContainingRangeQVandermonde` | volunteer-build-reviewed |
-| M007850 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CardValLt` | volunteer-build-reviewed |
-| M007857 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CarriesLatticeCompletionOfTrivialAtPlacesStatement` | volunteer-build-reviewed |
-| M007860 | P0436 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CartanAntitone` | build-observed |
-| M007861 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CartanAntitoneStatement` | volunteer-build-reviewed |
-| M007863 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CartanDecompositionDominanceLocalFieldStatement` | volunteer-build-reviewed |
-| M007865 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CartanDecompositionDominanceOrderStatement` | volunteer-build-reviewed |
-| M007868 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CasimirEqGelfandValueOfInfinitesimalCharacter` | volunteer-build-reviewed |
-| M007879 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CenterEnvelopingAlgebraDirectSum` | volunteer-build-reviewed |

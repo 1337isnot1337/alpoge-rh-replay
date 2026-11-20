@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M135233"
+  ],
+  "started_utc": "2026-11-20T22:46:03.660020+00:00",
+  "ended_utc": "2026-11-20T22:47:37.834557+00:00",
+  "elapsed_seconds": 94.2,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6625700
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.EtaleCohomology.DivisorCycles.CycleCount:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9d8ee1d6ab7734f154a3903fc68985bc52d565683dbe8b08a6801c33c10dec4c",
+  "rebuilt_project_modules": [
+    "Development.EtaleCohomology.DivisorCycles.OpenCoset",
+    "Development.WeilBound.CoreStatements.PadicHodgeComparison.CocharacterLieDivisors.DivWCoreLacUseType",
+    "Development.WeilBound.CoreStatements.PadicHodgeComparison.CocharacterLieDivisors.MeetsOpenCosets"
+  ],
+  "objects": {
+    "M135233": "3fc81fa8704feae771a7a9180109ed0230add872fc87dabd38256f9143d5e8ea"
+  },
+  "bundle_sha256": "a9f1a85821b5fd00ca5eab705cf05bcb35dbe57c2ddfe67f004bebcfa47463c2",
+  "packet": "M135233",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5100#issuecomment-7052491363",
+  "reviewed_utc": "2026-11-20T22:59:01.194512+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

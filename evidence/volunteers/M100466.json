@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M100466"
+  ],
+  "started_utc": "2026-11-20T22:54:35.640183+00:00",
+  "ended_utc": "2026-11-20T22:54:49.215734+00:00",
+  "elapsed_seconds": 13.6,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 6722552
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.MemSupSpanXPowIffAndIsAdicComplete:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1a3a33a30844fd00bb1cd3efbc011b54b96a03c0cb25cf698b426c35c88390d0",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.PredMulSumPadicValNatFactorialAddCardLe",
+    "Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.MemPowIffCoeffMem"
+  ],
+  "objects": {
+    "M100466": "fe51339dff779e57830029a742fe7ec27bbcefa83afd098d501d6eb94a548076"
+  },
+  "bundle_sha256": "133f6b3e1e36b8207932b066bfcd4656e50c2db1180a0c2d70af1431c152ed07",
+  "packet": "M100466",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5408#issuecomment-7052614619",
+  "reviewed_utc": "2026-11-20T22:58:19.714654+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

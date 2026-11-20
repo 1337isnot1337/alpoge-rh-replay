@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M108184"
+  ],
+  "started_utc": "2026-11-20T22:48:19.587255+00:00",
+  "ended_utc": "2026-11-20T22:49:06.597488+00:00",
+  "elapsed_seconds": 47.0,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6628804
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.PublishedTheorems.KAcyclicHomology:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ec14e8ec834e76ddcd50506a317da6229ac3c7a4e02e77531bfac766e5618f9e",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.TensorHomCubes.IsAcyclicSpace",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.TensorHomCubes.SimplexFace",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.TensorHomCubes.StabDirectedSystem"
+  ],
+  "objects": {
+    "M108184": "a2e1a62c749d6482d1a9684d2d46bed3f3872d1f22a3d85002833e88479fddb5"
+  },
+  "bundle_sha256": "6426f433bb0a5ccb6bdb5117fd52fb905b25f19edfda6f187a30989386fc4f3a",
+  "packet": "M108184",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5165#issuecomment-7052516306",
+  "reviewed_utc": "2026-11-20T22:58:50.648600+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

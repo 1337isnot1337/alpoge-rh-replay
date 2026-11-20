@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M030841"
+  ],
+  "started_utc": "2026-11-20T22:49:09.123616+00:00",
+  "ended_utc": "2026-11-20T22:49:47.140934+00:00",
+  "elapsed_seconds": 38.0,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6693276
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FamIdeal:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9294c00561e8bf4252c7f15897bca470274197817724bd568e6dd7c8a1a6e5ce",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.IsOpenOfMemIrreducibleComponentsOfFinite",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIdeal",
+    "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsIrreducibleGeneralizations"
+  ],
+  "objects": {
+    "M030841": "673ed0d5c3c45610a5c32cab17c23e3b1212213984dfaef848b232796b357928"
+  },
+  "bundle_sha256": "14df45c9ff99b5f27045804dca0d00b3d5b27ce4cc8ea3fe44702b70d65a49cc",
+  "packet": "M030841",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5226#issuecomment-7052528177",
+  "reviewed_utc": "2026-11-20T22:58:37.213268+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

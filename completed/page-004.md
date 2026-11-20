@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M003919 | P1001 | `Development.AbelianVarietyTheory.Definitions.Divisors.SurjectiveOfIsPullbackSqZero` | wave-reused |
+| M003923 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.TCoefMInMMul` | volunteer-build-reviewed |
+| M003930 | P0393 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToBaseChangePtsBijective` | wave-reused |
+| M003931 | P1502 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToBidualDualMapEigenImageInclusion` | build-observed |
+| M003932 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToBidualNaturalityDualSheafTranspose` | wave-reused |
+| M003938 | P0435 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToRingActOpOfRingAct` | volunteer-build-reviewed |
+| M003939 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToSpanSingletonConstGenInjective` | wave-reused |
 | M003942 | P0784 | `Development.AbelianVarietyTheory.Definitions.Divisors.TorsTransport` | wave-reused |
 | M003944 | P0917 | `Development.AbelianVarietyTheory.Definitions.Divisors.TorsionTowersOfDivisibleGroup` | build-observed |
 | M003954 | P1323 | `Development.AbelianVarietyTheory.Definitions.Divisors.TwOrbMEqTwOrbUOfNormal` | build-observed |
@@ -23,9 +30,11 @@
 | M004002 | P0295 | `Development.AbelianVarietyTheory.Definitions.Foundations.ApplyEqOfMemAdjoin` | wave-reused |
 | M004003 | P0917 | `Development.AbelianVarietyTheory.Definitions.Foundations.AuxiliaryFrameNormalizedSpaces` | build-observed |
 | M004005 | P1001 | `Development.AbelianVarietyTheory.Definitions.Foundations.CdScaleTieIff` | build-observed |
+| M004007 | P0295 | `Development.AbelianVarietyTheory.Definitions.Foundations.ChiProj` | volunteer-build-reviewed |
 | M004009 | P1272 | `Development.AbelianVarietyTheory.Definitions.Foundations.ClassMassEqSumOfBijective` | build-observed |
 | M004010 | P0173 | `Development.AbelianVarietyTheory.Definitions.Foundations.CoPtMu` | volunteer-build-reviewed |
 | M004011 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.CobOn` | wave-reused |
+| M004013 | P0238 | `Development.AbelianVarietyTheory.Definitions.Foundations.ColMeas` | volunteer-build-reviewed |
 | M004017 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.CosetTrace` | wave-reused |
 | M004018 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.CthFac` | wave-reused |
 | M004019 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.CurveCl` | volunteer-build-reviewed |
@@ -50,6 +59,7 @@
 | M004076 | P0239 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsIntegralIff` | wave-reused |
 | M004077 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsIwasawaOfIsCompact` | volunteer-build-reviewed |
 | M004083 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsOneCocycleOnSubgroup` | volunteer-build-reviewed |
+| M004084 | P0239 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsPrimitiveRootTopZeta` | build-observed |
 | M004087 | P0239 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsRootOne` | volunteer-build-reviewed |
 | M004088 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsSatFrame` | volunteer-build-reviewed |
 | M004089 | P0810 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsSatVecUOfIsSphericalU` | build-observed |
@@ -59,6 +69,7 @@
 | M004099 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.Letter` | wave-reused |
 | M004100 | P0295 | `Development.AbelianVarietyTheory.Definitions.Foundations.LiftApplyOfMemAdmissibleSubalgebra` | volunteer-build-reviewed |
 | M004103 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.LocallyConstantTwoCochain` | wave-reused |
+| M004106 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.Mdl` | build-observed |
 | M004112 | P0295 | `Development.AbelianVarietyTheory.Definitions.Foundations.MemRingOfInR` | wave-reused |
 | M004113 | P0173 | `Development.AbelianVarietyTheory.Definitions.Foundations.MemSiegelOfIffRightAct` | build-observed |
 | M004114 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.MemUnitaryGroupIffIsIsometry` | volunteer-build-reviewed |
@@ -391,14 +402,3 @@
 | M005090 | P1218 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.SWEqSOf` | build-observed |
 | M005093 | P1084 | `Development.AbelianVarietyTheory.Definitions.TorusSections.IsTorusOf` | wave-reused |
 | M005126 | P1245 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsStepWeil` | build-observed |
-| M005127 | P0174 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsSubquotientDetRepParInd` | volunteer-build-reviewed |
-| M005130 | P1420 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsVacFOfIsVacVec` | volunteer-build-reviewed |
-| M005131 | P0003 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.LeviEmbMemNormalizerLower` | volunteer-build-reviewed |
-| M005138 | P1218 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.NotInSupportOfSubsingleton` | build-observed |
-| M005147 | P1395 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.SqNormIntegralFundamentalDomainEqL2NormSq` | volunteer-build-reviewed |
-| M005155 | P0239 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ValuationDetOfMemKO` | build-observed |
-| M005162 | P0891 | `Development.AbelianVarietyTheory.Definitions.TwoChartAtlas.AdditionLawSecondIdentity` | build-observed |
-| M005163 | P0810 | `Development.AbelianVarietyTheory.Definitions.TwoChartAtlas.TwoChartSt` | wave-reused |
-| M005164 | P0918 | `Development.AbelianVarietyTheory.Definitions.Uniformization.AllDV` | build-observed |
-| M005165 | P1084 | `Development.AbelianVarietyTheory.Definitions.Uniformization.ExistsInKNeOne` | wave-reused |
-| M005166 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.ExistsUniqueSamePt` | wave-reused |

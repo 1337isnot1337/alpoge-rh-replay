@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M106056"
+  ],
+  "started_utc": "2026-11-20T22:48:07.676390+00:00",
+  "ended_utc": "2026-11-20T22:49:32.062980+00:00",
+  "elapsed_seconds": 84.4,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6788184
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ScatteringLimits.Carries:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9dde1c92c2466bff474aaf437fc60fd2969eac13e5a2a04e0830419b874b4f41",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.TwistedFactors.TruncatedCuspIrreducibility.ScatteringLimits",
+    "GroundTheory.AutomorphicForms.HilbertSchmidt",
+    "GroundTheory.AutomorphicForms.TraceClass"
+  ],
+  "objects": {
+    "M106056": "cbc5971cc0fbc1bdd0c8b0c0f5611853092eb329e854de0d5d38a2fc69f43b5e"
+  },
+  "bundle_sha256": "1fdb49a2f2493f2a609c88af3338ad84c4a7324a44a6dc9855f322ec9eb7d732",
+  "packet": "M106056",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5168#issuecomment-7052522967",
+  "reviewed_utc": "2026-11-20T22:58:50.017914+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

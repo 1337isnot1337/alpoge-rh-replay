@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M119668"
+  ],
+  "started_utc": "2026-11-20T22:44:29.224186+00:00",
+  "ended_utc": "2026-11-20T22:45:21.743332+00:00",
+  "elapsed_seconds": 52.5,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6682124
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.IsTight:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f06183beeb6e3ecbddc4bac198743d3f70076aaac2b4e624e32cb44e67acf784",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.DualLattices.CotangentSurjective",
+    "ReciprocityTheory.DualLattices.SmallLevelClassSet",
+    "ReciprocityTheory.DualLattices.TensorSpan"
+  ],
+  "objects": {
+    "M119668": "f59af65c4859fee783469feffacb60f19aed9eaa78f779c6efdaa4b5bab0c099"
+  },
+  "bundle_sha256": "e8d268bde936f876da99576960de7027cc8f39d9c7e2ce8220a8603b8713258d",
+  "packet": "M119668",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5082#issuecomment-7052452825",
+  "reviewed_utc": "2026-11-20T22:59:03.250970+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M172549"
+  ],
+  "started_utc": "2026-11-20T22:55:03.359556+00:00",
+  "ended_utc": "2026-11-20T22:56:04.880879+00:00",
+  "elapsed_seconds": 61.5,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 11217672,
+    "peak_child_rss_kib": 6827004
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.MultihomogeneousIdeals.ExistsMonomialNotMem:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4c296003c23a72294b4404d568c0ad0834a94a84e820c7aee16e517fe01b347f",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.MultihomogeneousIdeals.IsFieldIntersection",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.IsIntersectionFamily"
+  ],
+  "objects": {
+    "M172549": "05bb4d53a52b8cad5a39f4d92bad8fa8a0b94b2aa87b3e067d0fdfd0b8f5b317"
+  },
+  "bundle_sha256": "d0a73cd08c454731d913bc49690755834c42dd436b39258225e7a8e2bf022f47",
+  "packet": "M172549",
+  "contributor": "egergerfg",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5428#issuecomment-7052655318",
+  "reviewed_utc": "2026-11-20T22:58:17.887579+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

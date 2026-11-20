@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M028327"
+  ],
+  "started_utc": "2026-11-20T22:46:07.527892+00:00",
+  "ended_utc": "2026-11-20T22:47:05.367771+00:00",
+  "elapsed_seconds": 57.8,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6621048
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPowEqOfKaehlerDEqZero:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c2f1fe6b5fa3fd25c978e2845136a47d29f7a612cfb5b18cb8837c3b484b0b31",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDerivationEqOneOfPowMem",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDerivationEqOneOfPowMemStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMaximalSubfieldMissingElemExpOne",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMaximalSubfieldMissingElemExpOneStatement"
+  ],
+  "objects": {
+    "M028327": "1e381eb35935c1c72450663e92b6e0a427dcf466ee13f98fa30146f66ac9d35b"
+  },
+  "bundle_sha256": "5ae58a1e46633a32f12f0bb4aef0176f24174d0c9c305bebcf7598d8fa90b916",
+  "packet": "M028327",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5103#issuecomment-7052482103",
+  "reviewed_utc": "2026-11-20T22:59:00.080884+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

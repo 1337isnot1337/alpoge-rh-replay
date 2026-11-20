@@ -2,6 +2,26 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M007714 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselDoubleStepLinearInSecondDatumStatement` | volunteer-build-reviewed |
+| M007716 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselDoubleStepUnfoldingOfUnfoldingsAndLinkStatement` | volunteer-build-reviewed |
+| M007717 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselFlatMapLocalUnipotentTranslationLaw` | volunteer-build-reviewed |
+| M007718 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselFlatMapLocalUnipotentTranslationLawStatement` | volunteer-build-reviewed |
+| M007723 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselFourierJacobiNormalFramesExistSplitPlaceStatement` | volunteer-build-reviewed |
+| M007727 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselGroupActionFourierBesselBasePoint` | volunteer-build-reviewed |
+| M007733 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselGroupSemidirectProductRational` | volunteer-build-reviewed |
+| M007785 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselToFourierJacobiHandedFamilyContinuousAutom` | volunteer-build-reviewed |
+| M007786 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BesselToFourierJacobiHandedFamilyContinuousAutomStatement` | volunteer-build-reviewed |
+| M007809 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BiInvariantEigenfunctionEqMulZonalSphericalStatement` | volunteer-build-reviewed |
+| M007828 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.BoundedSubgroupOfIndefiniteUnitaryEqMaximalCompaStatement` | volunteer-build-reviewed |
+| M007848 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CardSubspacesContainingRangeQVandermonde` | volunteer-build-reviewed |
+| M007850 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CardValLt` | volunteer-build-reviewed |
+| M007857 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CarriesLatticeCompletionOfTrivialAtPlacesStatement` | volunteer-build-reviewed |
+| M007860 | P0436 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CartanAntitone` | build-observed |
+| M007861 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CartanAntitoneStatement` | volunteer-build-reviewed |
+| M007863 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CartanDecompositionDominanceLocalFieldStatement` | volunteer-build-reviewed |
+| M007865 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CartanDecompositionDominanceOrderStatement` | volunteer-build-reviewed |
+| M007868 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CasimirEqGelfandValueOfInfinitesimalCharacter` | volunteer-build-reviewed |
+| M007879 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CenterEnvelopingAlgebraDirectSum` | volunteer-build-reviewed |
 | M007893 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ChLApply` | volunteer-build-reviewed |
 | M007897 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ChainEdge` | volunteer-build-reviewed |
 | M007904 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ChainKernelBoundAtEmbeddingAnyLevelPrimeStatement` | volunteer-build-reviewed |
@@ -20,6 +40,7 @@
 | M008174 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DecoratedPointMoveDiamondOperatorEq` | volunteer-build-reviewed |
 | M008222 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DiagCorollary` | volunteer-build-reviewed |
 | M008237 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DifferentiableAtLimitOfDirectionalDerivsConverge` | volunteer-build-reviewed |
+| M008238 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DifferentiableAtLimitOfDirectionalDerivsConvergeStatement` | volunteer-build-reviewed |
 | M008247 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DoubleBlockTriangularMemIntegralMulLevi` | volunteer-build-reviewed |
 | M008371 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DoublingSphericalVacuaToDoubledLatticeVacuumStatement` | volunteer-build-reviewed |
 | M008383 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DualLatticeCosetIndicatorIsSchwartzBruhat` | volunteer-build-reviewed |
@@ -381,24 +402,3 @@
 | M010464 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemN1IffLocalHom` | volunteer-build-reviewed |
 | M010466 | P0296 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemOfForallRingEquivFixed` | volunteer-build-reviewed |
 | M010469 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemR1IffLocalHom` | volunteer-build-reviewed |
-| M010471 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemRangeAdjointOfMemSpanEvaluationValues` | volunteer-build-reviewed |
-| M010475 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemSchwartzAOfIsSchwartzBruhat` | volunteer-build-reviewed |
-| M010485 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemStabLocalizedStdLatticeIffIntegralGL` | volunteer-build-reviewed |
-| M010494 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemUnitaryStandardIffConjSimilitudeStatement` | volunteer-build-reviewed |
-| M010496 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemWittStabilizerOfKeepsIsotropicRealPlacesStatement` | volunteer-build-reviewed |
-| M010515 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MixedModelCentralTermsGramIdentitiesStatement` | volunteer-build-reviewed |
-| M010516 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MixedModelCentralTermsViaGramMatrices` | volunteer-build-reviewed |
-| M010522 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MixedModelSourceSupportFiniteComponentInBox` | volunteer-build-reviewed |
-| M010539 | P1195 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MovedDatumSmallTypePrimeAnyLevel` | volunteer-build-reviewed |
-| M010562 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MulVecMapResolution` | volunteer-build-reviewed |
-| M010564 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MulVecSingleAt` | volunteer-build-reviewed |
-| M010569 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MultiplicityMapRightTranslateRealPointStatement` | volunteer-build-reviewed |
-| M010570 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MultiplicityMapValueKFiniteMemCuspForms` | volunteer-build-reviewed |
-| M010574 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MultiplicitySpaceSpanFullSphericalHeckeEigenpart` | volunteer-build-reviewed |
-| M010581 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NatCastNotMemUnderSq` | volunteer-build-reviewed |
-| M010605 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormCmExtensionSplitPlaceEqZpowStatement` | volunteer-build-reviewed |
-| M010606 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormEigenvalueLeOne` | volunteer-build-reviewed |
-| M010611 | P1300 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormMuInvDetZeroOrOne` | volunteer-build-reviewed |
-| M010617 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormPowSubPowLtOne` | volunteer-build-reviewed |
-| M010630 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormsMatrixStepsCoupledFactorBoundedAnyLevelPrim` | volunteer-build-reviewed |
-| M010636 | P1300 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NotSqDvdOfRationalPrimeSplitsCompletely` | volunteer-build-reviewed |

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M008238"
+  ],
+  "started_utc": "2026-11-20T22:48:10.636469+00:00",
+  "ended_utc": "2026-11-20T22:48:36.089421+00:00",
+  "elapsed_seconds": 25.4,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 6649512
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DifferentiableAtLimitOfDirectionalDerivsConvergeStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5fbb927c45bb1a14b254ee5d5ecb1a84fee80a613215f2502981995b3937e529",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DifferentiableAtLimitOfDirectionalDerivsConverge"
+  ],
+  "objects": {
+    "M008238": "eacf0e3da934ae2ba722a2520d2c3f4502fbc0c6b33a1f1d962c024a50c5eda0"
+  },
+  "bundle_sha256": "b3d530828f17665e4eb3cf38d999e206ecce6efdb4fbc2d20edaa6aef9d7e85b",
+  "packet": "M008238",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/5170#issuecomment-7052508182",
+  "reviewed_utc": "2026-11-20T22:58:49.295669+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}
