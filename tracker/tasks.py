@@ -175,6 +175,9 @@ def run(targets,checkout,out,bundle,fast_bundle=False,*,project_modules=None):
      for prefix in ['lib/lean','ir']:
       path=build/prefix/stem
       for f in path.parent.glob(path.name+'.*'):
+       # Lake regenerates this compiler input when building a module; it is
+       # not an output artifact needed for reuse or downstream compilation.
+       if f.name == path.name+'.setup.json':continue
        if f.is_file() and not f.is_symlink():tar.add(f,arcname=str(f.relative_to(build)),recursive=False)
    receipt['bundle_sha256']=digest(artifact)
  receipt_temp=output/'receipt.json.tmp'
