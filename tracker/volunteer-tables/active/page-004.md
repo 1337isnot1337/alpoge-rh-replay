@@ -38,10 +38,13 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M078919](https://github.com/rohanarun/alpoge-rh-replay/issues/3492) | Claimed |
 | [@ANdATIon](https://github.com/ANdATIon) | [M074906](https://github.com/rohanarun/alpoge-rh-replay/issues/3493) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M092540](https://github.com/rohanarun/alpoge-rh-replay/issues/3495) | Claimed |
-| [@user42245](https://github.com/user42245) | [M074905](https://github.com/rohanarun/alpoge-rh-replay/issues/3499) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115703](https://github.com/rohanarun/alpoge-rh-replay/issues/3500) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115145](https://github.com/rohanarun/alpoge-rh-replay/issues/3502) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M114994](https://github.com/rohanarun/alpoge-rh-replay/issues/3503) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M078416](https://github.com/rohanarun/alpoge-rh-replay/issues/3505) | Claimed |
 | [@iAndyHD3](https://github.com/iAndyHD3) | [M075163](https://github.com/rohanarun/alpoge-rh-replay/issues/3508) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M019912](https://github.com/rohanarun/alpoge-rh-replay/issues/3511) | Claimed |
+| [@emsi](https://github.com/emsi) | [P1791](https://github.com/rohanarun/alpoge-rh-replay/issues/3515) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M168827](https://github.com/rohanarun/alpoge-rh-replay/issues/3516) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M083628](https://github.com/rohanarun/alpoge-rh-replay/issues/3521) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M036455](https://github.com/rohanarun/alpoge-rh-replay/issues/3522) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M072791](https://github.com/rohanarun/alpoge-rh-replay/issues/3523) | Claimed |
