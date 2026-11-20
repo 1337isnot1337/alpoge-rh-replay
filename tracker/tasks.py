@@ -47,10 +47,17 @@ def open_issues():
     if cli and subprocess.run([cli, 'auth', 'status', '--hostname', 'github.com'],
                               stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).returncode == 0:
         output = subprocess.check_output(
-            [cli, 'api', '--hostname', 'github.com', '--paginate', '--slurp', route],
+            [cli, 'api', '--hostname', 'github.com', '--paginate', route],
             text=True,
         )
-        for page in json.loads(output):
+        decoder = json.JSONDecoder()
+        index = 0
+        # Older gh versions write one JSON array per page without a separator.
+        while index < len(output):
+            if output[index].isspace():
+                index += 1
+                continue
+            page, index = decoder.raw_decode(output, index)
             yield from page
         return
 
