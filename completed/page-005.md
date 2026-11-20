@@ -2,6 +2,26 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005201 | P0784 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CoordOfHasWeight` | wave-reused |
+| M005202 | P0784 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CorrOfGenericOfIsSeparated` | build-observed |
+| M005204 | P1372 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CubeTheoremAndSectionsFiniteGrowthAbelianVariety` | wave-reused |
+| M005205 | P1395 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CubeTheoremAndSectionsFiniteGrowthAbelianVarietyStatement` | wave-reused |
+| M005206 | P0174 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CubeTotalComplexAcyclicOfSlicesInductionOnCard` | wave-reused |
+| M005207 | P0758 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CubicalExtendsAndExtendGen` | wave-reused |
+| M005208 | P0810 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CubicalOfNormalised` | wave-reused |
+| M005209 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.EqCompSectionOfSurjectiveAppTop` | wave-reused |
+| M005210 | P0732 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.EqIdOfFixesTorsion` | wave-reused |
+| M005211 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.EqOneOfPowEqOneOfCongrOne` | wave-reused |
+| M005212 | P0436 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsAddEquivOfSplitTorusIso` | wave-reused |
+| M005213 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsBasisMemOfSpanEqTopOfSemilocal` | wave-reused |
+| M005214 | P0810 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsCommVOfLe` | wave-reused |
+| M005215 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsEqPowOfTorsionCompEqOne` | wave-reused |
+| M005216 | P1218 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsFiniteGradedModuleLineBundleSections` | wave-reused |
+| M005217 | P1245 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsFiniteGradedModuleLineBundleSectionsStatement` | wave-reused |
+| M005218 | P1084 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsGenOfAssociated` | wave-reused |
+| M005219 | P0810 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsGenOfLocalOnBase` | wave-reused |
+| M005220 | P1057 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsGenOfMemChart` | wave-reused |
+| M005221 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsGenOfSmallExtension` | wave-reused |
 | M005222 | P0839 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsGenTranslEqPairing` | wave-reused |
 | M005223 | P0865 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsGrpObjSplitExtensionOfGenerators` | build-observed |
 | M005225 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsHasProjectiveDimensionLEOfResidueField` | wave-reused |
@@ -184,6 +204,7 @@
 | M005593 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsZeroCoordNeZero` | wave-reused |
 | M005594 | P0003 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsZeroFiveOfValuation` | wave-reused |
 | M005596 | P1170 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.FinTensMemLatO` | build-observed |
+| M005598 | P1001 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.FiniteAdelicDoubleCosetsOfRationalSLSubgroupStatement` | worker-kernel-checked |
 | M005604 | P0516 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.FiniteResidueFieldAdicCompletionIntegers` | wave-reused |
 | M005605 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.FinrankSUnitsNumberFieldAddOne` | wave-reused |
 | M005606 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.FinrankSUnitsNumberFieldAddOneStatement` | wave-reused |
@@ -264,6 +285,7 @@
 | M005818 | P1194 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RationalHermitianRankOneLatticeSelfDual` | build-observed |
 | M005819 | P1218 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RationalHermitianRankOneLatticeSelfDualStatement` | build-observed |
 | M005824 | P1194 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RealIdemMulOfReal` | build-observed |
+| M005825 | P0974 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RealPosAtOneOfRight` | worker-kernel-checked |
 | M005828 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexHigherUnitsSuccLeCard` | wave-reused |
 | M005829 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexHigherUnitsSuccLeCardStatement` | wave-reused |
 | M005830 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.RelIndexNormMulRelIndexSqsKer` | wave-reused |
@@ -380,25 +402,3 @@
 | M006011 | P0348 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsIsCharEqAddOfPairNeZero` | wave-reused |
 | M006012 | P0394 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsIsCharEqAddOfPairNeZeroStatement` | wave-reused |
 | M006013 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsMonomialBasisAbelianByPrimePower` | wave-reused |
-| M006014 | P0295 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsMonomialBasisAbelianByPrimePowerStatement` | wave-reused |
-| M006015 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsMonomialBasisOfImprimitive` | wave-reused |
-| M006016 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsPermOfSumMinEqPositiveFamily` | wave-reused |
-| M006017 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsPermOfSumMinEqPositiveFamilyStatement` | wave-reused |
-| M006021 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsSylowOverSubgroup` | wave-reused |
-| M006022 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsSylowOverSubgroupStatement` | wave-reused |
-| M006024 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsTeichmullerMapAlgebraicClosureFiniteFieldStatement` | build-observed |
-| M006025 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsWeightIdempotent` | wave-reused |
-| M006026 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsWeightIdempotentStatement` | wave-reused |
-| M006029 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingAddNatPosSymm` | wave-reused |
-| M006030 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingAddNatPosSymmStatement` | wave-reused |
-| M006031 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingCharacterEqFinrankInte` | wave-reused |
-| M006032 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingCharacterEqFinrankInteStatement` | wave-reused |
-| M006033 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingEqZeroOfDistinctIrredu` | wave-reused |
-| M006034 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingEqZeroOfDistinctIrreduStatement` | wave-reused |
-| M006035 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingSelfIrreducibleAlgClos` | wave-reused |
-| M006036 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingSelfIrreducibleAlgClosStatement` | wave-reused |
-| M006037 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteMonicNatDegree` | wave-reused |
-| M006038 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FinrankEigenspaceMonomialMatrixLift` | wave-reused |
-| M006039 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FinrankEigenspaceMonomialMatrixLiftStatement` | wave-reused |
-| M006040 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FinsumCardCyclicVectorsInvariantSubspaces` | wave-reused |
-| M006041 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FinsumCardCyclicVectorsInvariantSubspacesStatement` | wave-reused |

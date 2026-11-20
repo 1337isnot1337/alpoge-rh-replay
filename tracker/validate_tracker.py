@@ -32,6 +32,7 @@ KNOWN_EVIDENCE = {
     'pilot-witness-checked',
     'volunteer-build-reviewed',
     'wave-reused',
+    'worker-kernel-checked',
 }
 failures = []
 ran = 0

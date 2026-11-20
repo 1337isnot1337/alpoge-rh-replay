@@ -138,12 +138,13 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 | Evidence for distinct module IDs | Count |
 |---|---:|
-| Successful source build observed | 13,798 |
+| Successful source build observed | 14,108 |
 | Pilot proof object reused | 150 |
 | Pilot downstream module kernel-checked | 1 |
 | Distributed proof object reused | 16,970 |
 | Volunteer build evidence reviewed | 12,383 |
-| **Total with recorded module evidence** | **43,302 / 175,187** |
+| Worker target kernel replay reviewed | 99 |
+| **Total with recorded module evidence** | **43,711 / 175,187** |
 
 [See each completed part and its evidence](completed/README.md) · [Machine-readable ledger](tracker/completed.tsv)
 

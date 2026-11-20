@@ -132,6 +132,7 @@
 | M002884 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ExistsBaseRingOfConjugationFixedTensor` | volunteer-build-reviewed |
 | M002894 | P1169 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.OrthonormalBaseFrameNeg` | build-observed |
 | M002899 | P0002 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.RightInvariantOfCovolume` | volunteer-build-reviewed |
+| M002915 | P0758 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.HeckeKerZero` | build-observed |
 | M002932 | P0783 | `Development.AbelianVarietyTheory.Counterexamples.NonGaloisSurvey.MemTypeSubspaceIffUnipotentCharacter` | volunteer-build-reviewed |
 | M002941 | P0917 | `Development.AbelianVarietyTheory.Counterexamples.PlaceInjectivity.StandardDeterminantUnits` | build-observed |
 | M002961 | P1349 | `Development.AbelianVarietyTheory.Counterexamples.TwistSurvey.ConjModelCast` | build-observed |
@@ -268,16 +269,19 @@
 | M003448 | P1323 | `Development.AbelianVarietyTheory.Definitions.Divisors.CommGroupMulMulEqMulInvMulMulMul` | wave-reused |
 | M003451 | P0475 | `Development.AbelianVarietyTheory.Definitions.Divisors.ComparisonMemCechHodgeFiltration` | wave-reused |
 | M003460 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.CrystallineConnectionFormCoboundaryZero` | wave-reused |
+| M003461 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.CupPair` | build-observed |
 | M003466 | P1056 | `Development.AbelianVarietyTheory.Definitions.Divisors.DatumOfIsIntegersLattice` | build-observed |
 | M003468 | P1419 | `Development.AbelianVarietyTheory.Definitions.Divisors.DensConst` | volunteer-build-reviewed |
 | M003469 | P1193 | `Development.AbelianVarietyTheory.Definitions.Divisors.DetJacMatCoordsEqTransitionJacobianDet` | wave-reused |
 | M003477 | P0347 | `Development.AbelianVarietyTheory.Definitions.Divisors.DivisorSupportCondition` | wave-reused |
+| M003478 | P0393 | `Development.AbelianVarietyTheory.Definitions.Divisors.DlogRatioVolumeFormNeZero` | build-observed |
 | M003485 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.EllFamNontrivial` | volunteer-build-reviewed |
 | M003487 | P0515 | `Development.AbelianVarietyTheory.Definitions.Divisors.EntireEqOfHalfPlane` | wave-reused |
 | M003489 | P1419 | `Development.AbelianVarietyTheory.Definitions.Divisors.EqOfSpecializesOfFinite` | build-observed |
 | M003490 | P0891 | `Development.AbelianVarietyTheory.Definitions.Divisors.EqZeroOfForallPowDvd` | wave-reused |
 | M003494 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.EtaleEmpty` | wave-reused |
 | M003498 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsAlgHomOfIsBaseChange` | wave-reused |
+| M003515 | P0515 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsGDatumOneOneOne` | build-observed |
 | M003519 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsIsClosedImmersionGenericPoint` | wave-reused |
 | M003527 | P1056 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsIsOb1NeZero` | build-observed |
 | M003528 | P1245 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsIsObUNeZero` | build-observed |
@@ -298,6 +302,7 @@
 | M003612 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.HasSumZeroOfTwoLe` | build-observed |
 | M003617 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.HilbertNinetyQuotientHomEqIff` | volunteer-build-reviewed |
 | M003622 | P0515 | `Development.AbelianVarietyTheory.Definitions.Divisors.HopfLaurent` | build-observed |
+| M003624 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.HxiTZeroComb` | build-observed |
 | M003634 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IndEtOfForallFinset` | wave-reused |
 | M003641 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.IotaScalarOne` | wave-reused |
 | M003642 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IrreducibleOfIrreducibleMap` | wave-reused |
@@ -313,7 +318,9 @@
 | M003672 | P0549 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsFinSetSplitPlacesCoprimeConductor` | wave-reused |
 | M003673 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsFlatLift` | volunteer-build-reviewed |
 | M003675 | P1323 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsFrameOfForallExists` | wave-reused |
+| M003678 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsGaloisCover` | build-observed |
 | M003681 | P1298 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsHeightIffOfDegreeEq` | wave-reused |
+| M003682 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsHolPeriods` | build-observed |
 | M003689 | P1531 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsIsoQuotToImOmegaLieOfSplit` | build-observed |
 | M003690 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsKMOne` | volunteer-build-reviewed |
 | M003691 | P0891 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsKSValueOneOfRetraction` | wave-reused |
@@ -348,6 +355,7 @@
 | M003816 | P0435 | `Development.AbelianVarietyTheory.Definitions.Divisors.NonemptyHomFixRepTrivial` | volunteer-build-reviewed |
 | M003821 | P2166 | `Development.AbelianVarietyTheory.Definitions.Divisors.NormNegCmConstantEqAtAllEmbeddings` | volunteer-build-reviewed |
 | M003823 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.NormSub` | volunteer-build-reviewed |
+| M003825 | P0435 | `Development.AbelianVarietyTheory.Definitions.Divisors.NotCompactOfMEqOne` | build-observed |
 | M003844 | P0347 | `Development.AbelianVarietyTheory.Definitions.Divisors.OneFormMapEqKaehlerDifferentialMap` | wave-reused |
 | M003845 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.OneMemH0WeightZero` | volunteer-build-reviewed |
 | M003848 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.OrthSubrepresentation` | wave-reused |
@@ -394,11 +402,3 @@
 | M003983 | P1193 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.CoeSelfDualLatticeInFrameCoordinatesEq` | build-observed |
 | M003986 | P0002 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.Hat1` | wave-reused |
 | M003987 | P1169 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.MarkSpec` | build-observed |
-| M003989 | P0549 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.NormConst` | build-observed |
-| M003990 | P0784 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.PermutesRefl` | build-observed |
-| M003993 | P0549 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.UnivFrame` | wave-reused |
-| M003994 | P0838 | `Development.AbelianVarietyTheory.Definitions.Foundations.AbsCharNotUnitary` | build-observed |
-| M004000 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.AltCoeffRho` | volunteer-build-reviewed |
-| M004002 | P0295 | `Development.AbelianVarietyTheory.Definitions.Foundations.ApplyEqOfMemAdjoin` | wave-reused |
-| M004003 | P0917 | `Development.AbelianVarietyTheory.Definitions.Foundations.AuxiliaryFrameNormalizedSpaces` | build-observed |
-| M004005 | P1001 | `Development.AbelianVarietyTheory.Definitions.Foundations.CdScaleTieIff` | build-observed |

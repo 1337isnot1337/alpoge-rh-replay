@@ -2,6 +2,28 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006014 | P0295 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsMonomialBasisAbelianByPrimePowerStatement` | wave-reused |
+| M006015 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsMonomialBasisOfImprimitive` | wave-reused |
+| M006016 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsPermOfSumMinEqPositiveFamily` | wave-reused |
+| M006017 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsPermOfSumMinEqPositiveFamilyStatement` | wave-reused |
+| M006021 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsSylowOverSubgroup` | wave-reused |
+| M006022 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsSylowOverSubgroupStatement` | wave-reused |
+| M006024 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsTeichmullerMapAlgebraicClosureFiniteFieldStatement` | build-observed |
+| M006025 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsWeightIdempotent` | wave-reused |
+| M006026 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsWeightIdempotentStatement` | wave-reused |
+| M006029 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingAddNatPosSymm` | wave-reused |
+| M006030 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingAddNatPosSymmStatement` | wave-reused |
+| M006031 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingCharacterEqFinrankInte` | wave-reused |
+| M006032 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingCharacterEqFinrankInteStatement` | wave-reused |
+| M006033 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingEqZeroOfDistinctIrredu` | wave-reused |
+| M006034 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingEqZeroOfDistinctIrreduStatement` | wave-reused |
+| M006035 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingSelfIrreducibleAlgClos` | wave-reused |
+| M006036 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingSelfIrreducibleAlgClosStatement` | wave-reused |
+| M006037 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteMonicNatDegree` | wave-reused |
+| M006038 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FinrankEigenspaceMonomialMatrixLift` | wave-reused |
+| M006039 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FinrankEigenspaceMonomialMatrixLiftStatement` | wave-reused |
+| M006040 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FinsumCardCyclicVectorsInvariantSubspaces` | wave-reused |
+| M006041 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FinsumCardCyclicVectorsInvariantSubspacesStatement` | wave-reused |
 | M006042 | P0295 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FinsumMobiusInverseCharpolyInvariantLe` | wave-reused |
 | M006043 | P0348 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FinsumMobiusInverseCharpolyInvariantLeStatement` | wave-reused |
 | M006044 | P0295 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FinsumMobiusInverseCharpolyTransversalSubspaces` | wave-reused |
@@ -213,6 +235,7 @@
 | M006263 | P0678 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsTwExtendPowMul` | wave-reused |
 | M006264 | P1170 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsTwistedSectionsCubeBijective` | wave-reused |
 | M006265 | P1194 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsTwistedSectionsCubeBijectiveStatement` | wave-reused |
+| M006266 | P1473 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsUniqueHomExtensionSemiAbelian` | build-observed |
 | M006267 | P0348 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsUniqueLbIsoPullEqOfCoheightLeOne` | wave-reused |
 | M006268 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsUnitSmulEqOfBijectiveToSpanSingleton` | wave-reused |
 | M006269 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsWitnessesOfFormallySmoothQuotient` | wave-reused |
@@ -294,6 +317,7 @@
 | M006361 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ProjectiveOfIsLocallyConstantFinrankFiber` | wave-reused |
 | M006362 | P0176 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.PushComparisonBijectiveOfIsClosedEmbedding` | wave-reused |
 | M006363 | P1372 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.RelAmpleNearFibreFlatProjective` | build-observed |
+| M006364 | P1395 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.RelAmpleNearFibreFlatProjectiveStatement` | build-observed |
 | M006365 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.RelLengthSpanEqAddValDet` | wave-reused |
 | M006366 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.RelLengthSpanMatrix` | wave-reused |
 | M006367 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.RestrictPullbackIsoHomAppPullbackSections` | wave-reused |
@@ -378,27 +402,3 @@
 | M006511 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.CmCurveBaseChangeComp` | volunteer-build-reviewed |
 | M006513 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.CmCurveLieCharacterOfAdjoinGenerator` | volunteer-build-reviewed |
 | M006518 | P1324 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.CmEllipticCurveExistsOfUniformisation` | build-observed |
-| M006519 | P1350 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.CmEllipticCurveExistsOfUniformisationStatement` | build-observed |
-| M006529 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.CmLieStatementsIffLibrary` | volunteer-build-reviewed |
-| M006536 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.CmTensorSmoothOfRelativeDimension` | volunteer-build-reviewed |
-| M006541 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.CountablePointsOfOnto` | volunteer-build-reviewed |
-| M006544 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.CurveHomExtOfDerivativeLieBasis` | build-observed |
-| M006545 | P1170 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.CurveHomExtOfDerivativeLieBasisStatement` | build-observed |
-| M006553 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.DegLatticeNumberFieldExtensionEq` | volunteer-build-reviewed |
-| M006560 | P0476 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.DenseClosedPoints` | volunteer-build-reviewed |
-| M006564 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EigenLatticeNumberFieldBaseChange` | volunteer-build-reviewed |
-| M006566 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EllMapCancelAndSabMapCancel` | volunteer-build-reviewed |
-| M006567 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EllPullExistsOAct` | volunteer-build-reviewed |
-| M006568 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EllipticCurveLatticeBaseChangeStable` | build-observed |
-| M006569 | P1170 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EllipticCurveLatticeBaseChangeStableStatement` | build-observed |
-| M006570 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EqOfGeomPointsAlg` | volunteer-build-reviewed |
-| M006571 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EqOfLamEq` | volunteer-build-reviewed |
-| M006577 | P0476 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EqZeroOfSumEmbeddingMul` | volunteer-build-reviewed |
-| M006578 | P0705 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EqZeroOfSumEmbeddingSmul` | build-observed |
-| M006584 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsCmAdjoinActionOfEquation` | volunteer-build-reviewed |
-| M006588 | P1114 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsCmCurvesOfWeierstrassCurves` | build-observed |
-| M006597 | P0516 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsCommGrpObjWeierstrassScheme` | build-observed |
-| M006598 | P0550 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsCommGrpObjWeierstrassSchemeStatement` | build-observed |
-| M006603 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsConjDatum` | volunteer-build-reviewed |
-| M006604 | P0476 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsConstOfSqMulTendstoZero` | volunteer-build-reviewed |
-| M006612 | P1272 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsEllipticCurvePolarisedLatticeFamily` | build-observed |
