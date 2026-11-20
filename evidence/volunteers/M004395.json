@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M004395"
+  ],
+  "started_utc": "2026-11-20T21:41:25.652104+00:00",
+  "ended_utc": "2026-11-20T21:41:43.594719+00:00",
+  "elapsed_seconds": 17.9,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 11217672,
+    "peak_child_rss_kib": 6824488
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.GlobalTwisting.MemSplitSeqIff:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e3c3aba90d0c06afa7e1c9721e3a1137bef1e0885f293aa6398c5cbcfead3060",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.PermRepSingle",
+    "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SubClosed"
+  ],
+  "objects": {
+    "M004395": "50f73467351967fefb4decb146b919f9abd9a42569520308862d7648442822b0"
+  },
+  "bundle_sha256": "6a1d3f1850053421e23b310a806719b825ac25a2aaf67f662a53bd73c24f7700",
+  "packet": "M004395",
+  "contributor": "egergerfg",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/3528#issuecomment-7051319574",
+  "reviewed_utc": "2026-11-20T21:46:17.489581+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

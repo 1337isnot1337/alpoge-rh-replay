@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001031 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMapLinearScalingByDeterminant` | volunteer-build-reviewed |
 | M001032 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMapLinearScalingByDeterminantStatement` | volunteer-build-reviewed |
 | M001034 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMeasureIwasawaDecompositionStatement` | volunteer-build-reviewed |
 | M001035 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMeasureProdOfAddGroups` | volunteer-build-reviewed |
@@ -322,6 +323,7 @@
 | M002152 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LatticeNormTransport` | wave-reused |
 | M002153 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LevelLiftConditions` | volunteer-build-reviewed |
 | M002154 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LevelLossDegreeBounds` | volunteer-build-reviewed |
+| M002156 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LieAlgebraMaps` | volunteer-build-reviewed |
 | M002158 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LiftedCharacterResidue` | volunteer-build-reviewed |
 | M002159 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LinearCoefficientData` | build-observed |
 | M002161 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ModelDdcForms` | volunteer-build-reviewed |
@@ -352,13 +354,16 @@
 | M002270 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.AbsoluteLogMeanBounds` | volunteer-build-reviewed |
 | M002271 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ActionCoordinates` | volunteer-build-reviewed |
 | M002272 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.AdelicUnitaryHaarMeasure` | volunteer-build-reviewed |
+| M002273 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.CharacterValuation` | build-observed |
 | M002274 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ClassMeanPeriods` | build-observed |
 | M002275 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ClassesDoubleCosets` | volunteer-build-reviewed |
 | M002277 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.CosetGroupMembership` | volunteer-build-reviewed |
 | M002278 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.DualExponentDensity` | volunteer-build-reviewed |
 | M002279 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.EquidistributedConjugates` | build-observed |
+| M002281 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.IndexExponentDegree` | build-observed |
 | M002284 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.InvariantRadonFibre` | volunteer-build-reviewed |
 | M002286 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.JacobiThetaHalfCharacteristic` | volunteer-build-reviewed |
+| M002287 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.JetSumTable` | build-observed |
 | M002291 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.LocalDualIndex` | wave-reused |
 | M002292 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.MassFormulaPositivity` | build-observed |
 | M002297 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.OverPlaceIntegralForm` | build-observed |
@@ -368,6 +373,9 @@
 | M002312 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SignedLogMeans` | volunteer-build-reviewed |
 | M002314 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SplittingProjection` | build-observed |
 | M002315 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.StabiliserCardinality` | volunteer-build-reviewed |
+| M002318 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.StandardDeterminantUnit` | build-observed |
+| M002319 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.StandardKernelAtTorus` | build-observed |
+| M002320 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SubstitutionAdjoint` | build-observed |
 | M002321 | P1084 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.TameGeneratorWindow` | build-observed |
 | M002322 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ThetaCharacteristicZeroNorm` | volunteer-build-reviewed |
 | M002323 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ThetaConstantWeber` | wave-reused |
@@ -380,6 +388,7 @@
 | M002350 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.IsotypicSignedParameters` | volunteer-build-reviewed |
 | M002352 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.LatticeModelCharts` | volunteer-build-reviewed |
 | M002353 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.LevelCuspCharacters` | volunteer-build-reviewed |
+| M002358 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.SchurLatticeConjugates` | volunteer-build-reviewed |
 | M002360 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.ShiftMapsUpDown` | build-observed |
 | M002363 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.TensorObjectExistence` | volunteer-build-reviewed |
 | M002365 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.ThetaWeightHeightConstants` | volunteer-build-reviewed |
@@ -393,12 +402,3 @@
 | M002387 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.FormalDegreeHaarQuotient` | build-observed |
 | M002394 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.LieMatrixVectors` | build-observed |
 | M002403 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.PerfectPairings` | wave-reused |
-| M002409 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.RigidNormaliserGenerators` | volunteer-build-reviewed |
-| M002410 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.RootValueClassBasis` | build-observed |
-| M002413 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.SideNormalisedGap` | build-observed |
-| M002416 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.SplitUnramifiedPlaces` | volunteer-build-reviewed |
-| M002426 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.AdmissibleCharUnramified` | wave-reused |
-| M002427 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.AdmissibleCharacterHyp` | wave-reused |
-| M002430 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.BaseChangeInertUnramified` | volunteer-build-reviewed |
-| M002431 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.BaseSizes` | volunteer-build-reviewed |
-| M002432 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.BlockCharactersCrystalline` | volunteer-build-reviewed |

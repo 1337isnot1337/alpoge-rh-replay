@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M152569"
+  ],
+  "started_utc": "2026-11-20T21:33:16.680232+00:00",
+  "ended_utc": "2026-11-20T21:33:33.457303+00:00",
+  "elapsed_seconds": 16.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 11217672,
+    "peak_child_rss_kib": 6835968
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.SiegelLatticeTheory.TraceIntegralEstimates.EnergyAbsBasic:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "39fb3cce02ae9f205b32c7ecf862a81cc5301d2264cf52fc01b3ace8e9b66789",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLatticeShifts.EnergyAbs"
+  ],
+  "objects": {
+    "M152569": "95e32c204d8428d39bb17ae2a53cf3d77ff5ce00de930346616742e0e6b5f2fb"
+  },
+  "bundle_sha256": "b1d4318282e910b8ab4a6eb6bf91144b6cbe199eea73c42dfc7502ed50fea968",
+  "packet": "M152569",
+  "contributor": "egergerfg",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/3379#issuecomment-7051168206",
+  "reviewed_utc": "2026-11-20T21:46:36.391215+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

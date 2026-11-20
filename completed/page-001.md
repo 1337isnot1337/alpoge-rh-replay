@@ -60,6 +60,7 @@
 | M000182 | P1056 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselFrameEntryRelationStatement` | build-observed |
 | M000183 | P1056 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselGapDimensionFormula` | build-observed |
 | M000184 | P1084 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselGapDimensionFormulaStatement` | build-observed |
+| M000189 | P1056 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselGapIntegrability` | volunteer-build-reviewed |
 | M000193 | P0945 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselGapVanishing` | volunteer-build-reviewed |
 | M000194 | P0974 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselGapVanishingStatement` | build-observed |
 | M000195 | P1028 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.BesselLieTriangularVanishing` | build-observed |
@@ -401,4 +402,3 @@
 | M001023 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarFundamentalDomainExistsUnitary` | volunteer-build-reviewed |
 | M001029 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarInvariantUnderTransvection` | volunteer-build-reviewed |
 | M001030 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarInvariantUnderTransvectionStatement` | volunteer-build-reviewed |
-| M001031 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMapLinearScalingByDeterminant` | volunteer-build-reviewed |

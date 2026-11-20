@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M027662"
+  ],
+  "started_utc": "2026-11-20T21:43:09.693753+00:00",
+  "ended_utc": "2026-11-20T21:43:42.765854+00:00",
+  "elapsed_seconds": 33.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 65758100,
+    "peak_child_rss_kib": 6197492
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNatMulIntegralOfIsCompact:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "64ca5833908d39afd0cf86c5cd9f4adfcbe0eeb1cf02877b3be190c4787d64ed",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.AdelicPair",
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IntegralFiniteAdeleCompactClosedMultiples"
+  ],
+  "objects": {
+    "M027662": "5856ef1bc176e9232c70904b456c0fb3c2bf191271f64171faff24891e65941a"
+  },
+  "bundle_sha256": "2f8b01117d78a0dc5c4f95956d8548c1a460e1559b25632d2780c886affc42d2",
+  "packet": "M027662",
+  "contributor": "emsi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/3566#issuecomment-7051377782",
+  "reviewed_utc": "2026-11-20T21:46:05.050529+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}
