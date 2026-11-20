@@ -47,7 +47,6 @@
 | [@rohanarun](https://github.com/rohanarun) | [P1447](https://github.com/rohanarun/alpoge-rh-replay/issues/1117) | Claimed |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M151980](https://github.com/rohanarun/alpoge-rh-replay/issues/1136) | Claimed |
 | [@shardmods](https://github.com/shardmods) | [P1636](https://github.com/rohanarun/alpoge-rh-replay/issues/1137) | Claimed |
-| [@WilmervH](https://github.com/WilmervH) | [P1457](https://github.com/rohanarun/alpoge-rh-replay/issues/1140) | Claimed |
 | [@shardmods](https://github.com/shardmods) | [P1475](https://github.com/rohanarun/alpoge-rh-replay/issues/1143) | Claimed |
 | [@shardmods](https://github.com/shardmods) | [P1725](https://github.com/rohanarun/alpoge-rh-replay/issues/1144) | Claimed |
 | [@dga471](https://github.com/dga471) | [M164632](https://github.com/rohanarun/alpoge-rh-replay/issues/1193) | Claimed |
@@ -254,3 +253,4 @@
 | [@rohanarun](https://github.com/rohanarun) | [M005879](https://github.com/rohanarun/alpoge-rh-replay/issues/1678) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M026332](https://github.com/rohanarun/alpoge-rh-replay/issues/1680) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M133795](https://github.com/rohanarun/alpoge-rh-replay/issues/1681) | Claimed |
+| [@rohanarun](https://github.com/rohanarun) | [M133515](https://github.com/rohanarun/alpoge-rh-replay/issues/1684) | Claimed |

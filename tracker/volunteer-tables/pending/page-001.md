@@ -23,6 +23,7 @@
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M149416](https://github.com/rohanarun/alpoge-rh-replay/issues/1132#issuecomment-7050689567) | Pending review |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M153478](https://github.com/rohanarun/alpoge-rh-replay/issues/1133#issuecomment-7050690299) | Pending review |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M153486](https://github.com/rohanarun/alpoge-rh-replay/issues/1135#issuecomment-7050691116) | Pending review |
+| [@WilmervH](https://github.com/WilmervH) | [P1457](https://github.com/rohanarun/alpoge-rh-replay/issues/1140#issuecomment-7051113357) | Pending review |
 | [@juanfers1](https://github.com/juanfers1) | [P1465](https://github.com/rohanarun/alpoge-rh-replay/issues/1145#issuecomment-7050662707) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M100664](https://github.com/rohanarun/alpoge-rh-replay/issues/1157#issuecomment-7048560230) | Pending review |
 | [@user42245](https://github.com/user42245) | [M154353](https://github.com/rohanarun/alpoge-rh-replay/issues/1167#issuecomment-7048597639) | Pending review |
@@ -253,4 +254,3 @@
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M043284](https://github.com/rohanarun/alpoge-rh-replay/issues/2992#issuecomment-7050701287) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M079855](https://github.com/rohanarun/alpoge-rh-replay/issues/2993#issuecomment-7050823244) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M060052](https://github.com/rohanarun/alpoge-rh-replay/issues/2994#issuecomment-7050823856) | Pending review |
-| [@mu-mei](https://github.com/mu-mei) | [M004522](https://github.com/rohanarun/alpoge-rh-replay/issues/2998#issuecomment-7050689895) | Pending review |
