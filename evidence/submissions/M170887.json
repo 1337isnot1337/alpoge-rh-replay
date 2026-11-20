@@ -1,0 +1,20 @@
+{
+  "tasks": [
+    "M170887"
+  ],
+  "ended_utc": "2026-11-20T16:34:47.799703+00:00",
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Lemmata.SmulListSum.SmulListSum:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "18aaa838c9e4d9c51b03483a97963f11456137a2ec3aabbbeda55e966d476926",
+  "objects": {
+    "M170887": "d79ab8c00d4ad949027621d707ce14362fde59377e6d5579763494bd3fc34dbc"
+  },
+  "bundle_sha256": "624f852b75b8b87b749855bbb408b2baff5d6f04453c57c0d407222489d2a5ac"
+}
