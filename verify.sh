@@ -29,20 +29,48 @@ export XDG_CACHE_HOME="$work/cache"
 # lib/lean/libleanshared.so, which they load from the same tree.
 #
 # The digests are those of bin/lean, bin/leanchecker, bin/lake and the
-# lib/lean shared libraries in the official lean-4.33.1-linux.tar.zst
-# release (Linux x86_64), whose own SHA-256 is
-# 890afd185370f85666025b883914ab4f4b339136f8c96167b69cfb62aecaf235
-# (https://github.com/leanprover/lean4/releases/tag/v4.33.1). elan does not
-# checksum the toolchain it downloads, so the installed binaries and shared
-# libraries are checked against these pins instead.
-lean_bin_sha256="e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550"
-leanchecker_bin_sha256="84bc3e7cd6efa5bfecd1e7c37571fed9428fb2b3e16da0ddf62f2163573486d0"
-lake_bin_sha256="60330ab6f07dce20f3fa9ebb08e8b984ea9549eac172afeb15d9d2227060e2b3"
-libleanshared_sha256="23d636cac1cadcba37beac30eff9b9b20d66cee726cf5defb4ae39f1284a3e5a"
-liblake_shared_sha256="b1d164bf248f35b9e9664e696f4cd05a79a7066065510fb9b459139c78beb354"
-libleanshared_1_sha256="2f96493ac9046f64ec7bcb78102a4c1e7cd9a7042487f246af45eda8a96667f5"
-libleanshared_2_sha256="2f96493ac9046f64ec7bcb78102a4c1e7cd9a7042487f246af45eda8a96667f5"
-libinit_shared_sha256="2f96493ac9046f64ec7bcb78102a4c1e7cd9a7042487f246af45eda8a96667f5"
+# lib/lean shared libraries in the official per-architecture Linux
+# releases (https://github.com/leanprover/lean4/releases/tag/v4.33.1):
+# lean-4.33.1-linux.tar.zst (Linux x86_64), whose own SHA-256 is
+# 890afd185370f85666025b883914ab4f4b339136f8c96167b69cfb62aecaf235, and
+# lean-4.33.1-linux_aarch64.tar.zst (Linux AArch64), whose own SHA-256 is
+# f7353a8b2a8741c84558523e450556f9a1c45e3cafcf54399ce68c6a24c55f07.
+# Lean ships separate toolchains per architecture, so the pins are
+# selected by the machine architecture below; a native AArch64 setup
+# (for example the Docker instructions on Apple Silicon) gets the
+# AArch64 pins, and an architecture with no pins is rejected here, at
+# the top of the script, before the archive is downloaded. elan does
+# not checksum the toolchain it downloads, so the installed binaries
+# and shared libraries are checked against these pins instead.
+select_toolchain_pins() {
+  case "$1" in
+    x86_64)
+      lean_bin_sha256="e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550"
+      leanchecker_bin_sha256="84bc3e7cd6efa5bfecd1e7c37571fed9428fb2b3e16da0ddf62f2163573486d0"
+      lake_bin_sha256="60330ab6f07dce20f3fa9ebb08e8b984ea9549eac172afeb15d9d2227060e2b3"
+      libleanshared_sha256="23d636cac1cadcba37beac30eff9b9b20d66cee726cf5defb4ae39f1284a3e5a"
+      liblake_shared_sha256="b1d164bf248f35b9e9664e696f4cd05a79a7066065510fb9b459139c78beb354"
+      libleanshared_1_sha256="2f96493ac9046f64ec7bcb78102a4c1e7cd9a7042487f246af45eda8a96667f5"
+      libleanshared_2_sha256="2f96493ac9046f64ec7bcb78102a4c1e7cd9a7042487f246af45eda8a96667f5"
+      libinit_shared_sha256="2f96493ac9046f64ec7bcb78102a4c1e7cd9a7042487f246af45eda8a96667f5"
+      ;;
+    aarch64|arm64)
+      lean_bin_sha256="79fb1d26fa5a39385d59fdc48a711a14b0710ca6480271acce99b4d177cea085"
+      leanchecker_bin_sha256="ff0394605f58d1a1625c786083eb03c7cf7e7401b7c1b557e6724cc15543826e"
+      lake_bin_sha256="8229bc302b0b7d0e7679e28cc2b830c5aec995ffe5714833503360252f1490ba"
+      libleanshared_sha256="51a52d106dad81cbcb434f993c488c91662b73516200705cc329970eaa4d9586"
+      liblake_shared_sha256="1c93a49f0cce8f8f45303f6cbae8720841a473cad65a21fe87578edc2edeab57"
+      libleanshared_1_sha256="73506424a15e5c7eef1e90142857314e37fdd6ba07dda72dd12245c75ca1d029"
+      libleanshared_2_sha256="73506424a15e5c7eef1e90142857314e37fdd6ba07dda72dd12245c75ca1d029"
+      libinit_shared_sha256="73506424a15e5c7eef1e90142857314e37fdd6ba07dda72dd12245c75ca1d029"
+      ;;
+    *)
+      echo "REPLAY_INTEGRITY_CHECK_FAILED: no pinned Lean 4.33.1 digests for Linux architecture '$1' (supported: x86_64, aarch64)" >&2
+      return 1
+      ;;
+  esac
+}
+select_toolchain_pins "$(uname -m)" || exit 1
 
 integrity_failed() {
   echo "REPLAY_INTEGRITY_CHECK_FAILED: $1" >&2
