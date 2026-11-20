@@ -50,6 +50,53 @@ python3 tracker/tasks.py build P0123 /path/to/new/replay-volume/lean /path/to/ne
 
 The task command checks the selected sources and pinned mathlib revision, builds the targets with Lake, and saves the command, exit status, toolchain identity, output hashes and build transcript. Lake will build missing imports locally. A module late in the dependency graph can require substantial work on a cold machine. The optional bundle contains the selected modules' generated build files. Use `--fast-bundle` to package the same files with gzip level 1 when worker time matters more than transfer size. Both variants record the final archive's SHA-256 in the receipt. The public index lists direct project dependencies as task IDs.
 
+## Build on Windows or macOS with Docker
+
+The replay scripts expect Linux. On Windows or macOS, run them in a Docker container. Building the project runs Lean code from the archive, so do not mount host folders into the container. Use a named volume for the build.
+
+```bash
+docker volume create rhwork
+docker run -d --name rhreplay -v rhwork:/work ubuntu:24.04 sleep infinity
+docker exec -it rhreplay bash
+```
+
+Inside the container:
+
+```bash
+apt-get update && apt-get install -y curl git python3 build-essential ca-certificates
+curl -sSfL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -o /tmp/elan-init.sh
+sh /tmp/elan-init.sh -y --default-toolchain none
+ln -s /root/.elan/bin/* /usr/local/bin/
+git clone https://github.com/rohanarun/alpoge-rh-replay /work/repo
+cd /work/repo
+./verify.sh /work/vol --prepare-only
+python3 tracker/tasks.py next --cold
+```
+
+The container has no GitHub login. Claim from the host instead, either on the website or with the GitHub CLI:
+
+```bash
+gh issue create --repo rohanarun/alpoge-rh-replay --title "Claim M000001" --body "I am working on M000001."
+```
+
+After the grant, build inside the container, then copy the receipt to the host for your submission:
+
+```bash
+python3 tracker/tasks.py build M000001 /work/vol/lean /work/receipt-M000001 --bundle
+```
+
+```bash
+docker cp rhreplay:/work/receipt-M000001 .
+```
+
+Notes:
+
+- Docker Desktop limits the container's memory. With the WSL 2 backend on Windows, the limit comes from WSL, which defaults to half of the host RAM. Raise it with `memory=` under `[wsl2]` in `%UserProfile%\.wslconfig`, then run `wsl --shutdown`. On macOS, use Docker Desktop's Resources settings. Run `free -g` in the container to see the limit.
+- The prepare step downloads about 8,700 Mathlib cache files and can be slow. After that, a cold module builds in minutes. One took about 5 minutes on 16 vCPUs.
+- `ubuntu:24.04` has no `/usr/bin/time`. Use the shell's `time` keyword to log elapsed time, or install the `time` package.
+- In Git Bash on Windows, prefix `docker exec` and `docker cp` commands that contain container paths with `MSYS_NO_PATHCONV=1`. Otherwise Git Bash rewrites `/work/...` into a Windows path.
+- Remove everything afterwards with `docker rm -f rhreplay` and `docker volume rm rhwork`.
+
 ## Troubleshoot a Lean version mismatch
 
 If `Cache/Requests.lean` reports a missing `Lake.PackageEntrySrc.path` case and the trace shows Lean 4.35.0, update your checkout. The replay uses Lean 4.33.1, and the verifier now calls that version explicitly through elan. Keep elan on PATH, then retry in a new directory on the build volume.
