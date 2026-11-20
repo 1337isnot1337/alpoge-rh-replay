@@ -17,10 +17,6 @@ def comment(i, n, body, login='github-actions[bot]'):
     return dict(id=n, issue_url=i['url'], body=body, user={'login': login})
 
 
-def denied(code, headers, body=b''):
-    return HTTPError('https://api.github.com', code, 'rejected', headers, io.BytesIO(body))
-
-
 class CoordinatorTests(unittest.TestCase):
     def test_packet_priority_uses_latest_bot_comment_across_pages(self):
         module = issue(1, 'M000001', count=0)
@@ -85,6 +81,11 @@ class CoordinatorTests(unittest.TestCase):
         self.assertEqual(pages.call_count, 2)
 
     def test_rate_limit_waits_and_restarts_but_permissions_fail_immediately(self):
+        def denied(code, headers, body=b''):
+            error = HTTPError('https://api.github.com', code, 'rejected', headers, io.BytesIO(body))
+            self.addCleanup(error.close)
+            return error
+
         with patch('time.time', return_value=1000):
             self.assertEqual(grants.rate_limit_delay(denied(403, {'X-RateLimit-Remaining': '0',
                              'X-RateLimit-Reset': '4600'}), 0), 3601)

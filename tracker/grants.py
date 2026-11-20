@@ -89,6 +89,7 @@ def main():
             delay = rate_limit_delay(error, attempt)
             if delay is None or attempt == 3:
                 raise
+            error.close()
             print(f'GitHub rate limit (HTTP {error.code}). Rechecking all claims after {delay}s.',
                   file=sys.stderr, flush=True)
             time.sleep(delay)
