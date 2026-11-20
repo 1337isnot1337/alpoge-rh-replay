@@ -86,9 +86,6 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@rohanarun](https://github.com/rohanarun) | [M009460](https://github.com/rohanarun/alpoge-rh-replay/issues/84) | Claimed |
 | [@MLTQ](https://github.com/MLTQ) | [P0123](https://github.com/rohanarun/alpoge-rh-replay/issues/87) | Claimed |
 | [@dgahelper](https://github.com/dgahelper) | [P0172](https://github.com/rohanarun/alpoge-rh-replay/issues/91) | Claimed |
-| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0452](https://github.com/rohanarun/alpoge-rh-replay/issues/93) | Claimed |
-| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0254](https://github.com/rohanarun/alpoge-rh-replay/issues/94) | Claimed |
-| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0209](https://github.com/rohanarun/alpoge-rh-replay/issues/95) | Claimed |
 | [@gabeldev](https://github.com/gabeldev) | [P0178](https://github.com/rohanarun/alpoge-rh-replay/issues/96) | Claimed |
 | [@gabeldev](https://github.com/gabeldev) | [P0182](https://github.com/rohanarun/alpoge-rh-replay/issues/97) | Claimed |
 | [@shardmods](https://github.com/shardmods) | [P0199](https://github.com/rohanarun/alpoge-rh-replay/issues/98) | Claimed |
@@ -119,6 +116,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@SeriousRising](https://github.com/SeriousRising) | [M002998](https://github.com/rohanarun/alpoge-rh-replay/issues/124) | Claimed |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0485](https://github.com/rohanarun/alpoge-rh-replay/issues/125) | Claimed |
 | [@Genius-Cai-wen-zheng](https://github.com/Genius-Cai-wen-zheng) | [M103506](https://github.com/rohanarun/alpoge-rh-replay/issues/126) | Claimed |
+| [@juanfers1](https://github.com/juanfers1) | [P0476](https://github.com/rohanarun/alpoge-rh-replay/issues/127) | Claimed |
 
 <!-- active-volunteers-end -->
 
@@ -139,6 +137,9 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@krisyotam](https://github.com/krisyotam) | [P0125](https://github.com/rohanarun/alpoge-rh-replay/issues/88#issuecomment-7045913737) | Pending review |
 | [@juanfers1](https://github.com/juanfers1) | [P0129](https://github.com/rohanarun/alpoge-rh-replay/issues/89#issuecomment-7045795333) | Pending review |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0287](https://github.com/rohanarun/alpoge-rh-replay/issues/92#issuecomment-7045860836) | Pending review |
+| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0452](https://github.com/rohanarun/alpoge-rh-replay/issues/93#issuecomment-7045926387) | Pending review |
+| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0254](https://github.com/rohanarun/alpoge-rh-replay/issues/94#issuecomment-7045929752) | Pending review |
+| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0209](https://github.com/rohanarun/alpoge-rh-replay/issues/95#issuecomment-7045938029) | Pending review |
 
 <!-- pending-volunteers-end -->
 
