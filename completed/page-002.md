@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001530 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CarImpFrel` | volunteer-build-reviewed |
+| M001531 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CardOther` | volunteer-build-reviewed |
+| M001532 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CartanDecomposition` | volunteer-build-reviewed |
+| M001535 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CartanDecompositionGlNonarchimedean` | volunteer-build-reviewed |
+| M001536 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CartanDecompositionGlNonarchimedeanStatement` | volunteer-build-reviewed |
+| M001537 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CartanDecompositionStatement` | volunteer-build-reviewed |
+| M001538 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CartanExists` | volunteer-build-reviewed |
+| M001542 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CasimirSplitting` | volunteer-build-reviewed |
+| M001543 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CasimirSplittingStatement` | volunteer-build-reviewed |
+| M001545 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CayleyHamiltonStatementStatement` | volunteer-build-reviewed |
+| M001556 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ChartExistence` | volunteer-build-reviewed |
+| M001557 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ChartExistenceStatement` | volunteer-build-reviewed |
+| M001561 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CommuteOfUnitaryConjugate` | volunteer-build-reviewed |
+| M001565 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CompactSubgroupFiniteOpenCosets` | volunteer-build-reviewed |
+| M001567 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceEndomorphismInverseExists` | volunteer-build-reviewed |
+| M001569 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsCompact` | volunteer-build-reviewed |
+| M001570 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsCompactStatement` | volunteer-build-reviewed |
 | M001571 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsOpen` | volunteer-build-reviewed |
 | M001572 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsOpenStatement` | volunteer-build-reviewed |
 | M001573 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupNormalInMaximalCompact` | volunteer-build-reviewed |
@@ -144,6 +161,7 @@
 | M002132 | P0810 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.GenericMultiplicityOne` | build-observed |
 | M002135 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.GoodIdempotentBadPlaces` | build-observed |
 | M002136 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.GoodReductionModelReading` | build-observed |
+| M002147 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.IdeleNormTraceForm` | volunteer-build-reviewed |
 | M002152 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LatticeNormTransport` | wave-reused |
 | M002153 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LevelLiftConditions` | volunteer-build-reviewed |
 | M002154 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LevelLossDegreeBounds` | volunteer-build-reviewed |
@@ -206,6 +224,7 @@
 | M002379 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.ConjugateKernelCount` | volunteer-build-reviewed |
 | M002382 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.DegreeProportionalWords` | wave-reused |
 | M002383 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.DiagonalActionLiftPull` | volunteer-build-reviewed |
+| M002387 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.FormalDegreeHaarQuotient` | build-observed |
 | M002403 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.PerfectPairings` | wave-reused |
 | M002409 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.RigidNormaliserGenerators` | volunteer-build-reviewed |
 | M002410 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.RootValueClassBasis` | build-observed |
@@ -383,22 +402,3 @@
 | M003451 | P0475 | `Development.AbelianVarietyTheory.Definitions.Divisors.ComparisonMemCechHodgeFiltration` | wave-reused |
 | M003460 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.CrystallineConnectionFormCoboundaryZero` | wave-reused |
 | M003469 | P1193 | `Development.AbelianVarietyTheory.Definitions.Divisors.DetJacMatCoordsEqTransitionJacobianDet` | wave-reused |
-| M003477 | P0347 | `Development.AbelianVarietyTheory.Definitions.Divisors.DivisorSupportCondition` | wave-reused |
-| M003485 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.EllFamNontrivial` | volunteer-build-reviewed |
-| M003487 | P0515 | `Development.AbelianVarietyTheory.Definitions.Divisors.EntireEqOfHalfPlane` | wave-reused |
-| M003490 | P0891 | `Development.AbelianVarietyTheory.Definitions.Divisors.EqZeroOfForallPowDvd` | wave-reused |
-| M003494 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.EtaleEmpty` | wave-reused |
-| M003498 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsAlgHomOfIsBaseChange` | wave-reused |
-| M003519 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsIsClosedImmersionGenericPoint` | wave-reused |
-| M003529 | P1001 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsIsStdOfInjective` | wave-reused |
-| M003570 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.FderivFnCongr` | volunteer-build-reviewed |
-| M003571 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.FibreRankCompOfSurjective` | wave-reused |
-| M003579 | P0865 | `Development.AbelianVarietyTheory.Definitions.Divisors.FormalCoboundarySmul` | wave-reused |
-| M003582 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.FormalModule` | volunteer-build-reviewed |
-| M003587 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.FstTszeSec` | volunteer-build-reviewed |
-| M003588 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.GalMapMul` | wave-reused |
-| M003597 | P0615 | `Development.AbelianVarietyTheory.Definitions.Divisors.GhostFrobenius` | wave-reused |
-| M003603 | P1419 | `Development.AbelianVarietyTheory.Definitions.Divisors.HasBoundedPolesGlobalData` | wave-reused |
-| M003608 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.HasQIff` | wave-reused |
-| M003617 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.HilbertNinetyQuotientHomEqIff` | volunteer-build-reviewed |
-| M003634 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IndEtOfForallFinset` | wave-reused |
