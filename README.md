@@ -95,6 +95,8 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0452](https://github.com/rohanarun/alpoge-rh-replay/issues/93) | Claimed |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0254](https://github.com/rohanarun/alpoge-rh-replay/issues/94) | Claimed |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0209](https://github.com/rohanarun/alpoge-rh-replay/issues/95) | Claimed |
+| [@gabeldev](https://github.com/gabeldev) | [P0178](https://github.com/rohanarun/alpoge-rh-replay/issues/96) | Claimed |
+| [@gabeldev](https://github.com/gabeldev) | [P0182](https://github.com/rohanarun/alpoge-rh-replay/issues/97) | Claimed |
 
 <!-- active-volunteers-end -->
 
