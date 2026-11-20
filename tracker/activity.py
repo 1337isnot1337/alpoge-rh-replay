@@ -8,7 +8,7 @@ import os
 from pathlib import Path
 import re
 
-from submissions import gh_output
+from submissions import claim_snapshot
 
 TRACKER = Path(__file__).resolve().parent
 SERIES = {
@@ -116,14 +116,24 @@ def render_svg(events):
     return '\n'.join(svg)+'\n'
 
 
-def main():
-    repo = os.environ['GITHUB_REPOSITORY']
-    fields = 'number,title,author,comments'
-    issues = json.loads(gh_output(
-        ['gh','issue','list','--repo',repo,'--state','all','--label','claim','--limit','10000','--json',fields],
-    ))
+def activity_issues(snapshot):
+    issues, histories = snapshot
+    for issue in issues:
+        user = issue.get('user') or {}
+        yield {
+            'number': issue['number'], 'title': issue['title'],
+            'author': {'login': user.get('login'), 'is_bot': user.get('type') != 'User'},
+            'comments': [
+                {'author': {'login': (c.get('user') or {}).get('login')},
+                 'createdAt': c['created_at'], 'url': c['html_url'], 'body': c.get('body') or ''}
+                for c in histories.get(issue['number'], ())
+            ],
+        }
+
+
+def update(repo, snapshot):
     reviewed = {json.loads(p.read_text())['claim'] for p in (TRACKER.parent/'evidence/volunteers').glob('*.json')}
-    events = activity(issues,repo.split('/')[0],reviewed)
+    events = activity(activity_issues(snapshot), repo.split('/')[0], reviewed)
     with (TRACKER/'activity.tsv').open('w', newline='') as stream:
         output = csv.writer(stream, delimiter='\t', lineterminator='\n')
         output.writerow(['timestamp_utc','event','issue','volunteer'])
@@ -137,4 +147,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    repo = os.environ['GITHUB_REPOSITORY']
+    update(repo, claim_snapshot(repo))

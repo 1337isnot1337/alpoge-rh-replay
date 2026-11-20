@@ -49,16 +49,22 @@ def pages(repo, route):
         yield from page
 
 
-def volunteer_updates(repo, issue_authors):
+def claim_snapshot(repo):
+    issues = [issue for issue in pages(repo, 'issues?labels=claim&state=all&per_page=100')
+              if 'pull_request' not in issue]
+    histories = comments_by_issue(issues, pages(repo, COMMENT_FEED))
+    return issues, histories
+
+
+def volunteer_updates(repo, issue_authors, snapshot=None):
+    issues, histories = claim_snapshot(repo) if snapshot is None else snapshot
     reviewed = set()
     for path in (ROOT / 'evidence/volunteers').glob('*.json'):
         receipt = json.loads(path.read_text())
         reviewed.add((receipt['contributor'].lower(), receipt['packet']))
 
     candidates = []
-    for issue in pages(repo, 'issues?labels=claim&state=all&per_page=100'):
-        if 'pull_request' in issue:
-            continue
+    for issue in issues:
         user = issue.get('user') or {}
         login = user.get('login') or ''
         if user.get('type') != 'User' or not login:
@@ -72,7 +78,6 @@ def volunteer_updates(repo, issue_authors):
 
         candidates.append((issue, login, claim[1]))
 
-    histories = comments_by_issue((issue for issue, _, _ in candidates), pages(repo, COMMENT_FEED))
     for issue, login, target in candidates:
         number = issue['number']
         comments = histories[number]
@@ -99,12 +104,13 @@ def replace_section(text, marker, lines, empty):
     return text[:text.index(start) + len(start)] + '\n\n' + rendered + '\n\n' + text[text.index(end):]
 
 
-def main():
+def main(update_activity=False):
     repo = os.environ['GITHUB_REPOSITORY']
+    snapshot = claim_snapshot(repo)
     issue_authors = {}
     claimed = ['| Contributor | Task | Status |', '|---|---|---|']
     pending = ['| Contributor | Task | Review |', '|---|---|---|']
-    for number, login, task, comment in sorted(volunteer_updates(repo, issue_authors)):
+    for number, login, task, comment in sorted(volunteer_updates(repo, issue_authors, snapshot)):
         link = f'https://github.com/{repo}/issues/{number}'
         person = f'[@{login}](https://github.com/{login})'
         if comment is None:
@@ -118,13 +124,18 @@ def main():
     updated = replace_section(updated, 'pending-volunteers', pending, 'No submissions awaiting review.')
     if updated != current:
         readme.write_text(updated)
+    if update_activity:
+        from activity import update
+        update(repo, snapshot)
     return issue_authors
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--issue-authors', type=Path, help='Write claim issue authors to this JSON file')
+    parser.add_argument('--update-activity', action='store_true',
+                        help='Refresh the chart and roster using the same claim snapshot')
     args = parser.parse_args()
-    issue_authors = main()
+    issue_authors = main(args.update_activity)
     if args.issue_authors:
         args.issue_authors.write_text(json.dumps(issue_authors))
