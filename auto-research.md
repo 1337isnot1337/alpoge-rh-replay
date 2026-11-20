@@ -11,6 +11,10 @@ When writing or refactoring a proof in a research checkout, look for a matching 
 5. Comment on the claim with `Replay submission` on the first line. Attach the receipt and log, and link the optional artifact bundle and checksum. Submit the first diagnostic for a failure. A compiler pass, reuse check, partial kernel replay, and fresh full-project replay are different outcomes. Describe exactly what ran.
 6. Keep a submitted issue open during maintainer review, and close a reservation you abandon. If you have capacity after submitting, refresh the live queue and repeat on the same prepared checkout with a fresh grant and a new receipt directory. Prefer a shallow packet once your worker is warm. Claim work as you take it on so other contributors can use the open queue. Maintainers update the completed ledger after reviewing evidence. A grant is a reservation for targeted volunteer work; the independent primary build continues walking the full dependency graph and may reach prerequisites before a volunteer returns.
 
+## Keep a prepared worker busy
+
+For repeated assignments on a prepared Linux volume, follow the [persistent worker guide](CONTRIBUTING.md#run-a-persistent-volunteer-worker). Refresh the worker inventory and use `tracker/tasks.py next --warm WORKER.json` for a queue of distinct candidates. Let `tracker/worker.py` own the reservations and submissions for that queue. Set `--jobs` to the number of active claims your container can build within its memory and disk limits. Save the state directory so the worker can resume and reconcile each grant after an interruption. On a warm cache, include the target-level kernel replay record with the build receipt.
+
 ## Maintainer checks
 
 The claim workflow serializes reconciliation of all open issues, preserves valid grants, and rejects overlap between packet and module reservations. Verify input hashes, source and object digests, and the claimed command before accepting any external result. Keep outside artifacts and code in isolated environments. Publish a full-RH verdict only after the criteria in README.md are satisfied.
