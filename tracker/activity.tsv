@@ -185,6 +185,8 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:08:30Z	grant	185	BenCaunt
 2026-11-20T18:08:31Z	grant	186	shardmods
 2026-11-20T18:08:32Z	grant	187	shardmods
+2026-11-20T18:08:32Z	grant	187	shardmods
+2026-11-20T18:08:34Z	grant	189	shardmods
 2026-11-20T18:08:34Z	grant	189	shardmods
 2026-11-20T18:08:40Z	grant	195	shardmods
 2026-11-20T18:08:41Z	grant	196	roonastgames
@@ -591,6 +593,7 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:37:41Z	submission	565	hipotures
 2026-11-20T18:37:45Z	submission	564	Amahane-Hikari
 2026-11-20T18:37:49Z	submission	187	shardmods
+2026-11-20T18:37:49Z	submission	187	shardmods
 2026-11-20T18:37:53Z	grant	568	Amahane-Hikari
 2026-11-20T18:37:54Z	grant	570	Amahane-Hikari
 2026-11-20T18:37:55Z	grant	571	Wronskode
@@ -634,17 +637,16 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:40:40Z	submission	587	hipotures
 2026-11-20T18:40:55Z	grant	593	unhingedpanda
 2026-11-20T18:40:58Z	grant	595	gabeldev
-2026-11-20T18:40:58Z	grant	595	gabeldev
 2026-11-20T18:40:59Z	grant	596	BenCaunt
 2026-11-20T18:41:01Z	submission	586	Amahane-Hikari
 2026-11-20T18:41:03Z	submission	590	Amahane-Hikari
 2026-11-20T18:41:10Z	submission	206	shardmods
 2026-11-20T18:41:14Z	submission	595	gabeldev
-2026-11-20T18:41:14Z	submission	595	gabeldev
 2026-11-20T18:41:18Z	grant	597	Amahane-Hikari
 2026-11-20T18:41:19Z	grant	598	hipotures
 2026-11-20T18:41:20Z	grant	599	Amahane-Hikari
 2026-11-20T18:41:21Z	submission	591	Amahane-Hikari
+2026-11-20T18:41:23Z	submission	189	shardmods
 2026-11-20T18:41:23Z	submission	189	shardmods
 2026-11-20T18:41:36Z	grant	601	BenCaunt
 2026-11-20T18:41:36Z	submission	272	shardmods
@@ -798,4 +800,11 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:50:22Z	grant	693	BenCaunt
 2026-11-20T18:50:23Z	grant	694	BenCaunt
 2026-11-20T18:50:24Z	submission	691	maddoxjack
+2026-11-20T18:50:40Z	grant	695	BenCaunt
+2026-11-20T18:50:41Z	grant	696	maddoxjack
 2026-11-20T18:50:51Z	submission	294	shardmods
+2026-11-20T18:50:58Z	grant	697	gabeldev
+2026-11-20T18:50:59Z	grant	698	BenCaunt
+2026-11-20T18:51:00Z	grant	699	Amahane-Hikari
+2026-11-20T18:51:16Z	grant	700	Amahane-Hikari
+2026-11-20T18:51:20Z	submission	696	maddoxjack
