@@ -380,10 +380,10 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@shardmods](https://github.com/shardmods) | [P1475](https://github.com/rohanarun/alpoge-rh-replay/issues/1143) | Claimed |
 | [@shardmods](https://github.com/shardmods) | [P1725](https://github.com/rohanarun/alpoge-rh-replay/issues/1144) | Claimed |
 | [@juanfers1](https://github.com/juanfers1) | [P1465](https://github.com/rohanarun/alpoge-rh-replay/issues/1145) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M066174](https://github.com/rohanarun/alpoge-rh-replay/issues/1146) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M004000](https://github.com/rohanarun/alpoge-rh-replay/issues/1149) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M083503](https://github.com/rohanarun/alpoge-rh-replay/issues/1150) | Claimed |
 | [@SeriousRising](https://github.com/SeriousRising) | [P1560](https://github.com/rohanarun/alpoge-rh-replay/issues/1151) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M004128](https://github.com/rohanarun/alpoge-rh-replay/issues/1159) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M164889](https://github.com/rohanarun/alpoge-rh-replay/issues/1160) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M015464](https://github.com/rohanarun/alpoge-rh-replay/issues/1161) | Claimed |
 
 <!-- active-volunteers-end -->
 
@@ -399,132 +399,31 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@MLTQ](https://github.com/MLTQ) | [P0123](https://github.com/rohanarun/alpoge-rh-replay/issues/87#issuecomment-7046017638) | Pending review |
 | [@dgahelper](https://github.com/dgahelper) | [P0826](https://github.com/rohanarun/alpoge-rh-replay/issues/160#issuecomment-7048526919) | Pending review |
 | [@Paulee314](https://github.com/Paulee314) | [M004105](https://github.com/rohanarun/alpoge-rh-replay/issues/174#issuecomment-7047351997) | Pending review |
-| [@shardmods](https://github.com/shardmods) | [P1632](https://github.com/rohanarun/alpoge-rh-replay/issues/469#issuecomment-7048222175) | Pending review |
-| [@SeriousRising](https://github.com/SeriousRising) | [P1250](https://github.com/rohanarun/alpoge-rh-replay/issues/543#issuecomment-7048507239) | Pending review |
-| [@shardmods](https://github.com/shardmods) | [P1496](https://github.com/rohanarun/alpoge-rh-replay/issues/556#issuecomment-7048450549) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M100630](https://github.com/rohanarun/alpoge-rh-replay/issues/768#issuecomment-7048100909) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M004811](https://github.com/rohanarun/alpoge-rh-replay/issues/922#issuecomment-7048279299) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M002186](https://github.com/rohanarun/alpoge-rh-replay/issues/924#issuecomment-7048330680) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M174123](https://github.com/rohanarun/alpoge-rh-replay/issues/926#issuecomment-7048322367) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M168029](https://github.com/rohanarun/alpoge-rh-replay/issues/928#issuecomment-7048170151) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M004430](https://github.com/rohanarun/alpoge-rh-replay/issues/930#issuecomment-7048182579) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M111997](https://github.com/rohanarun/alpoge-rh-replay/issues/935#issuecomment-7048181741) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M006215](https://github.com/rohanarun/alpoge-rh-replay/issues/936#issuecomment-7048163195) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M161833](https://github.com/rohanarun/alpoge-rh-replay/issues/937#issuecomment-7048212082) | Pending review |
 | [@maddoxjack](https://github.com/maddoxjack) | [M062512](https://github.com/rohanarun/alpoge-rh-replay/issues/938#issuecomment-7048162673) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M016922](https://github.com/rohanarun/alpoge-rh-replay/issues/939#issuecomment-7048166885) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M119672](https://github.com/rohanarun/alpoge-rh-replay/issues/940#issuecomment-7048203247) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M163112](https://github.com/rohanarun/alpoge-rh-replay/issues/941#issuecomment-7048168766) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M005031](https://github.com/rohanarun/alpoge-rh-replay/issues/942#issuecomment-7048385117) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M153502](https://github.com/rohanarun/alpoge-rh-replay/issues/943#issuecomment-7048178974) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M004088](https://github.com/rohanarun/alpoge-rh-replay/issues/944#issuecomment-7048384943) | Pending review |
-| [@gabeldev](https://github.com/gabeldev) | [M006429](https://github.com/rohanarun/alpoge-rh-replay/issues/945#issuecomment-7048176505) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M149218](https://github.com/rohanarun/alpoge-rh-replay/issues/948#issuecomment-7048214014) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M032777](https://github.com/rohanarun/alpoge-rh-replay/issues/949#issuecomment-7048183265) | Pending review |
 | [@maddoxjack](https://github.com/maddoxjack) | [M062513](https://github.com/rohanarun/alpoge-rh-replay/issues/950#issuecomment-7048187611) | Pending review |
-| [@jjjhenriksen](https://github.com/jjjhenriksen) | [M137737](https://github.com/rohanarun/alpoge-rh-replay/issues/951#issuecomment-7048189547) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M082759](https://github.com/rohanarun/alpoge-rh-replay/issues/952#issuecomment-7048358909) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M160495](https://github.com/rohanarun/alpoge-rh-replay/issues/953#issuecomment-7048190574) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M004019](https://github.com/rohanarun/alpoge-rh-replay/issues/954#issuecomment-7048358595) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M060133](https://github.com/rohanarun/alpoge-rh-replay/issues/955#issuecomment-7048198985) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M161829](https://github.com/rohanarun/alpoge-rh-replay/issues/956#issuecomment-7048229840) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M002999](https://github.com/rohanarun/alpoge-rh-replay/issues/957#issuecomment-7048359496) | Pending review |
-| [@gabeldev](https://github.com/gabeldev) | [M006435](https://github.com/rohanarun/alpoge-rh-replay/issues/958#issuecomment-7048193321) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M074506](https://github.com/rohanarun/alpoge-rh-replay/issues/959#issuecomment-7048196506) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M002218](https://github.com/rohanarun/alpoge-rh-replay/issues/960#issuecomment-7048241195) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M066813](https://github.com/rohanarun/alpoge-rh-replay/issues/961#issuecomment-7048210474) | Pending review |
 | [@maddoxjack](https://github.com/maddoxjack) | [M063294](https://github.com/rohanarun/alpoge-rh-replay/issues/962#issuecomment-7048205528) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M003673](https://github.com/rohanarun/alpoge-rh-replay/issues/963#issuecomment-7048245252) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M099790](https://github.com/rohanarun/alpoge-rh-replay/issues/964#issuecomment-7048208162) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M157755](https://github.com/rohanarun/alpoge-rh-replay/issues/965#issuecomment-7048239067) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M157518](https://github.com/rohanarun/alpoge-rh-replay/issues/966#issuecomment-7048277743) | Pending review |
-| [@gabeldev](https://github.com/gabeldev) | [M055351](https://github.com/rohanarun/alpoge-rh-replay/issues/967#issuecomment-7048214129) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M017833](https://github.com/rohanarun/alpoge-rh-replay/issues/968#issuecomment-7048219476) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M099844](https://github.com/rohanarun/alpoge-rh-replay/issues/971#issuecomment-7048245275) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M154121](https://github.com/rohanarun/alpoge-rh-replay/issues/973#issuecomment-7048220251) | Pending review |
-| [@jjjhenriksen](https://github.com/jjjhenriksen) | [M137843](https://github.com/rohanarun/alpoge-rh-replay/issues/975#issuecomment-7048227321) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M002161](https://github.com/rohanarun/alpoge-rh-replay/issues/976#issuecomment-7048289970) | Pending review |
 | [@maddoxjack](https://github.com/maddoxjack) | [M063295](https://github.com/rohanarun/alpoge-rh-replay/issues/978#issuecomment-7048224140) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M081483](https://github.com/rohanarun/alpoge-rh-replay/issues/979#issuecomment-7048231644) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M124816](https://github.com/rohanarun/alpoge-rh-replay/issues/982#issuecomment-7048317565) | Pending review |
-| [@roonastgames](https://github.com/roonastgames) | [M164918](https://github.com/rohanarun/alpoge-rh-replay/issues/983#issuecomment-7048285556) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M154148](https://github.com/rohanarun/alpoge-rh-replay/issues/986#issuecomment-7048236678) | Pending review |
-| [@gabeldev](https://github.com/gabeldev) | [M064639](https://github.com/rohanarun/alpoge-rh-replay/issues/990#issuecomment-7048237206) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M162908](https://github.com/rohanarun/alpoge-rh-replay/issues/991#issuecomment-7048249238) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M018495](https://github.com/rohanarun/alpoge-rh-replay/issues/996#issuecomment-7048253407) | Pending review |
 | [@maddoxjack](https://github.com/maddoxjack) | [M063293](https://github.com/rohanarun/alpoge-rh-replay/issues/999#issuecomment-7048251870) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M010471](https://github.com/rohanarun/alpoge-rh-replay/issues/1002#issuecomment-7048258789) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M005450](https://github.com/rohanarun/alpoge-rh-replay/issues/1006#issuecomment-7048261702) | Pending review |
-| [@gabeldev](https://github.com/gabeldev) | [M082507](https://github.com/rohanarun/alpoge-rh-replay/issues/1011#issuecomment-7048261421) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M059463](https://github.com/rohanarun/alpoge-rh-replay/issues/1014#issuecomment-7048267476) | Pending review |
-| [@user42245](https://github.com/user42245) | [M022944](https://github.com/rohanarun/alpoge-rh-replay/issues/1015#issuecomment-7048263394) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M021587](https://github.com/rohanarun/alpoge-rh-replay/issues/1023#issuecomment-7048280080) | Pending review |
-| [@user42245](https://github.com/user42245) | [M115598](https://github.com/rohanarun/alpoge-rh-replay/issues/1024#issuecomment-7048302199) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M020107](https://github.com/rohanarun/alpoge-rh-replay/issues/1027#issuecomment-7048299219) | Pending review |
-| [@maddoxjack](https://github.com/maddoxjack) | [M063770](https://github.com/rohanarun/alpoge-rh-replay/issues/1029#issuecomment-7048278739) | Pending review |
-| [@jjjhenriksen](https://github.com/jjjhenriksen) | [M171914](https://github.com/rohanarun/alpoge-rh-replay/issues/1032#issuecomment-7048282682) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M031631](https://github.com/rohanarun/alpoge-rh-replay/issues/1034#issuecomment-7048308692) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M031627](https://github.com/rohanarun/alpoge-rh-replay/issues/1035#issuecomment-7048283467) | Pending review |
-| [@gabeldev](https://github.com/gabeldev) | [M090976](https://github.com/rohanarun/alpoge-rh-replay/issues/1043#issuecomment-7048293407) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M109798](https://github.com/rohanarun/alpoge-rh-replay/issues/1044#issuecomment-7048294492) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M004164](https://github.com/rohanarun/alpoge-rh-replay/issues/1048#issuecomment-7048299854) | Pending review |
 | [@krisyotam](https://github.com/krisyotam) | [M058647](https://github.com/rohanarun/alpoge-rh-replay/issues/1051#issuecomment-7048344154) | Pending review |
 | [@krisyotam](https://github.com/krisyotam) | [M081481](https://github.com/rohanarun/alpoge-rh-replay/issues/1052#issuecomment-7048347951) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M111007](https://github.com/rohanarun/alpoge-rh-replay/issues/1053#issuecomment-7048309119) | Pending review |
-| [@maddoxjack](https://github.com/maddoxjack) | [M166375](https://github.com/rohanarun/alpoge-rh-replay/issues/1054#issuecomment-7048305759) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M154123](https://github.com/rohanarun/alpoge-rh-replay/issues/1057#issuecomment-7048306052) | Pending review |
-| [@user42245](https://github.com/user42245) | [M066371](https://github.com/rohanarun/alpoge-rh-replay/issues/1058#issuecomment-7048306963) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M161191](https://github.com/rohanarun/alpoge-rh-replay/issues/1059#issuecomment-7048312250) | Pending review |
-| [@user42245](https://github.com/user42245) | [M109453](https://github.com/rohanarun/alpoge-rh-replay/issues/1060#issuecomment-7048312023) | Pending review |
-| [@jjjhenriksen](https://github.com/jjjhenriksen) | [M002416](https://github.com/rohanarun/alpoge-rh-replay/issues/1061#issuecomment-7048316089) | Pending review |
-| [@gabeldev](https://github.com/gabeldev) | [M157782](https://github.com/rohanarun/alpoge-rh-replay/issues/1063#issuecomment-7048321130) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M013482](https://github.com/rohanarun/alpoge-rh-replay/issues/1064#issuecomment-7048335962) | Pending review |
-| [@maddoxjack](https://github.com/maddoxjack) | [M166188](https://github.com/rohanarun/alpoge-rh-replay/issues/1065#issuecomment-7048326246) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M043364](https://github.com/rohanarun/alpoge-rh-replay/issues/1066#issuecomment-7048336589) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M153463](https://github.com/rohanarun/alpoge-rh-replay/issues/1067#issuecomment-7048336505) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M144618](https://github.com/rohanarun/alpoge-rh-replay/issues/1069#issuecomment-7048338047) | Pending review |
-| [@gabeldev](https://github.com/gabeldev) | [M003855](https://github.com/rohanarun/alpoge-rh-replay/issues/1071#issuecomment-7048340339) | Pending review |
-| [@maddoxjack](https://github.com/maddoxjack) | [M000704](https://github.com/rohanarun/alpoge-rh-replay/issues/1073#issuecomment-7048352036) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M115578](https://github.com/rohanarun/alpoge-rh-replay/issues/1074#issuecomment-7048349366) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M068383](https://github.com/rohanarun/alpoge-rh-replay/issues/1076#issuecomment-7048373943) | Pending review |
-| [@jjjhenriksen](https://github.com/jjjhenriksen) | [M063378](https://github.com/rohanarun/alpoge-rh-replay/issues/1077#issuecomment-7048357780) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M069562](https://github.com/rohanarun/alpoge-rh-replay/issues/1079#issuecomment-7048393204) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M154129](https://github.com/rohanarun/alpoge-rh-replay/issues/1081#issuecomment-7048363030) | Pending review |
-| [@user42245](https://github.com/user42245) | [M153489](https://github.com/rohanarun/alpoge-rh-replay/issues/1082#issuecomment-7048354621) | Pending review |
-| [@user42245](https://github.com/user42245) | [M157768](https://github.com/rohanarun/alpoge-rh-replay/issues/1084#issuecomment-7048358258) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M070284](https://github.com/rohanarun/alpoge-rh-replay/issues/1085#issuecomment-7048363550) | Pending review |
-| [@gabeldev](https://github.com/gabeldev) | [M005055](https://github.com/rohanarun/alpoge-rh-replay/issues/1086#issuecomment-7048370579) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M160988](https://github.com/rohanarun/alpoge-rh-replay/issues/1087#issuecomment-7048419080) | Pending review |
-| [@user42245](https://github.com/user42245) | [M163161](https://github.com/rohanarun/alpoge-rh-replay/issues/1088#issuecomment-7048395473) | Pending review |
-| [@maddoxjack](https://github.com/maddoxjack) | [M000705](https://github.com/rohanarun/alpoge-rh-replay/issues/1089#issuecomment-7048370525) | Pending review |
-| [@maddoxjack](https://github.com/maddoxjack) | [M010367](https://github.com/rohanarun/alpoge-rh-replay/issues/1093#issuecomment-7048396561) | Pending review |
-| [@gabeldev](https://github.com/gabeldev) | [M005131](https://github.com/rohanarun/alpoge-rh-replay/issues/1094#issuecomment-7048400341) | Pending review |
-| [@user42245](https://github.com/user42245) | [M005725](https://github.com/rohanarun/alpoge-rh-replay/issues/1095#issuecomment-7048406795) | Pending review |
-| [@user42245](https://github.com/user42245) | [M034591](https://github.com/rohanarun/alpoge-rh-replay/issues/1097#issuecomment-7048410983) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M004388](https://github.com/rohanarun/alpoge-rh-replay/issues/1098#issuecomment-7048419707) | Pending review |
-| [@maddoxjack](https://github.com/maddoxjack) | [M010368](https://github.com/rohanarun/alpoge-rh-replay/issues/1099#issuecomment-7048414722) | Pending review |
-| [@jjjhenriksen](https://github.com/jjjhenriksen) | [M059621](https://github.com/rohanarun/alpoge-rh-replay/issues/1100#issuecomment-7048446575) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M119674](https://github.com/rohanarun/alpoge-rh-replay/issues/1101#issuecomment-7048434545) | Pending review |
-| [@gabeldev](https://github.com/gabeldev) | [M075449](https://github.com/rohanarun/alpoge-rh-replay/issues/1102#issuecomment-7048421822) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M099459](https://github.com/rohanarun/alpoge-rh-replay/issues/1103#issuecomment-7048444616) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M151799](https://github.com/rohanarun/alpoge-rh-replay/issues/1104#issuecomment-7048468697) | Pending review |
-| [@maddoxjack](https://github.com/maddoxjack) | [M014783](https://github.com/rohanarun/alpoge-rh-replay/issues/1105#issuecomment-7048441048) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M152855](https://github.com/rohanarun/alpoge-rh-replay/issues/1106#issuecomment-7048479706) | Pending review |
-| [@gabeldev](https://github.com/gabeldev) | [M080275](https://github.com/rohanarun/alpoge-rh-replay/issues/1108#issuecomment-7048446756) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M173161](https://github.com/rohanarun/alpoge-rh-replay/issues/1109#issuecomment-7048457511) | Pending review |
-| [@user42245](https://github.com/user42245) | [M089317](https://github.com/rohanarun/alpoge-rh-replay/issues/1110#issuecomment-7048451993) | Pending review |
-| [@user42245](https://github.com/user42245) | [M100755](https://github.com/rohanarun/alpoge-rh-replay/issues/1111#issuecomment-7048456305) | Pending review |
-| [@maddoxjack](https://github.com/maddoxjack) | [M014784](https://github.com/rohanarun/alpoge-rh-replay/issues/1112#issuecomment-7048460240) | Pending review |
-| [@user42245](https://github.com/user42245) | [M104090](https://github.com/rohanarun/alpoge-rh-replay/issues/1113#issuecomment-7048491730) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M051628](https://github.com/rohanarun/alpoge-rh-replay/issues/1114#issuecomment-7048488572) | Pending review |
-| [@gabeldev](https://github.com/gabeldev) | [M143195](https://github.com/rohanarun/alpoge-rh-replay/issues/1118#issuecomment-7048466698) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M100824](https://github.com/rohanarun/alpoge-rh-replay/issues/1119#issuecomment-7048494443) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M157485](https://github.com/rohanarun/alpoge-rh-replay/issues/1121#issuecomment-7048492872) | Pending review |
-| [@maddoxjack](https://github.com/maddoxjack) | [M031375](https://github.com/rohanarun/alpoge-rh-replay/issues/1123#issuecomment-7048479319) | Pending review |
-| [@gabeldev](https://github.com/gabeldev) | [M172226](https://github.com/rohanarun/alpoge-rh-replay/issues/1134#issuecomment-7048493135) | Pending review |
-| [@user42245](https://github.com/user42245) | [M153557](https://github.com/rohanarun/alpoge-rh-replay/issues/1142#issuecomment-7048496777) | Pending review |
+| [@BenCaunt](https://github.com/BenCaunt) | [M066174](https://github.com/rohanarun/alpoge-rh-replay/issues/1146#issuecomment-7048551690) | Pending review |
 | [@gabeldev](https://github.com/gabeldev) | [M003570](https://github.com/rohanarun/alpoge-rh-replay/issues/1147#issuecomment-7048517516) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M100720](https://github.com/rohanarun/alpoge-rh-replay/issues/1148#issuecomment-7048533066) | Pending review |
+| [@BenCaunt](https://github.com/BenCaunt) | [M004000](https://github.com/rohanarun/alpoge-rh-replay/issues/1149#issuecomment-7048543593) | Pending review |
+| [@BenCaunt](https://github.com/BenCaunt) | [M083503](https://github.com/rohanarun/alpoge-rh-replay/issues/1150#issuecomment-7048556415) | Pending review |
+| [@user42245](https://github.com/user42245) | [M153596](https://github.com/rohanarun/alpoge-rh-replay/issues/1152#issuecomment-7048542386) | Pending review |
+| [@maddoxjack](https://github.com/maddoxjack) | [M031376](https://github.com/rohanarun/alpoge-rh-replay/issues/1153#issuecomment-7048551244) | Pending review |
+| [@user42245](https://github.com/user42245) | [M154091](https://github.com/rohanarun/alpoge-rh-replay/issues/1154#issuecomment-7048547057) | Pending review |
+| [@gabeldev](https://github.com/gabeldev) | [M006320](https://github.com/rohanarun/alpoge-rh-replay/issues/1155#issuecomment-7048554147) | Pending review |
+| [@user42245](https://github.com/user42245) | [M154136](https://github.com/rohanarun/alpoge-rh-replay/issues/1156#issuecomment-7048552464) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M100664](https://github.com/rohanarun/alpoge-rh-replay/issues/1157#issuecomment-7048560230) | Pending review |
+| [@maddoxjack](https://github.com/maddoxjack) | [M057680](https://github.com/rohanarun/alpoge-rh-replay/issues/1158#issuecomment-7048580463) | Pending review |
 
 <!-- pending-volunteers-end -->
 
