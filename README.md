@@ -18,9 +18,9 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- volunteer-roster-start -->
 
-**Replay volunteers (51)**
+**Replay volunteers (52)**
 
-[@123454321bobbob-tech](https://github.com/123454321bobbob-tech), [@aapolipponen](https://github.com/aapolipponen), [@Amahane-Hikari](https://github.com/Amahane-Hikari), [@ANdATIon](https://github.com/ANdATIon), [@angusbarry](https://github.com/angusbarry), [@arxhr007](https://github.com/arxhr007), [@BenCaunt](https://github.com/BenCaunt), [@DanieleCorso](https://github.com/DanieleCorso), [@dga471](https://github.com/dga471), [@dgahelper](https://github.com/dgahelper), [@dh5at](https://github.com/dh5at), [@dhudakk](https://github.com/dhudakk), [@EF-Code](https://github.com/EF-Code), [@egergerfg](https://github.com/egergerfg), [@emsi](https://github.com/emsi), [@Ethan-prog-netizen](https://github.com/Ethan-prog-netizen), [@gabeldev](https://github.com/gabeldev), [@Genius-Cai-wen-zheng](https://github.com/Genius-Cai-wen-zheng), [@gilad12-coder](https://github.com/gilad12-coder), [@gniax](https://github.com/gniax), [@hipotures](https://github.com/hipotures), [@iAndyHD3](https://github.com/iAndyHD3), [@JanSimeonMetzger](https://github.com/JanSimeonMetzger), [@jaykobdetar](https://github.com/jaykobdetar), [@jjjhenriksen](https://github.com/jjjhenriksen), [@juanfers1](https://github.com/juanfers1), [@krisyotam](https://github.com/krisyotam), [@Lv-00-ANI](https://github.com/Lv-00-ANI), [@maddoxjack](https://github.com/maddoxjack), [@maxime-fleury](https://github.com/maxime-fleury), [@MLEARNER701](https://github.com/MLEARNER701), [@MLTQ](https://github.com/MLTQ), [@mu-mei](https://github.com/mu-mei), [@Mzzj114](https://github.com/Mzzj114), [@nicu-chiciuc](https://github.com/nicu-chiciuc), [@Paulee314](https://github.com/Paulee314), [@rahulsundar477-star](https://github.com/rahulsundar477-star), [@roonastgames](https://github.com/roonastgames), [@sat3n](https://github.com/sat3n), [@SeriousRising](https://github.com/SeriousRising), [@shardmods](https://github.com/shardmods), [@surfyhou](https://github.com/surfyhou), [@Trefoiler](https://github.com/Trefoiler), [@TVSuchty](https://github.com/TVSuchty), [@unhingedpanda](https://github.com/unhingedpanda), [@user42245](https://github.com/user42245), [@varo6](https://github.com/varo6), [@vivekshivarajkumar](https://github.com/vivekshivarajkumar), [@WilmervH](https://github.com/WilmervH), [@WorldianAI](https://github.com/WorldianAI), [@Wronskode](https://github.com/Wronskode)
+[@123454321bobbob-tech](https://github.com/123454321bobbob-tech), [@aapolipponen](https://github.com/aapolipponen), [@Amahane-Hikari](https://github.com/Amahane-Hikari), [@ANdATIon](https://github.com/ANdATIon), [@angusbarry](https://github.com/angusbarry), [@arxhr007](https://github.com/arxhr007), [@BenCaunt](https://github.com/BenCaunt), [@DanieleCorso](https://github.com/DanieleCorso), [@dga471](https://github.com/dga471), [@dgahelper](https://github.com/dgahelper), [@dh5at](https://github.com/dh5at), [@dhudakk](https://github.com/dhudakk), [@EF-Code](https://github.com/EF-Code), [@egergerfg](https://github.com/egergerfg), [@emsi](https://github.com/emsi), [@Ethan-prog-netizen](https://github.com/Ethan-prog-netizen), [@gabeldev](https://github.com/gabeldev), [@Genius-Cai-wen-zheng](https://github.com/Genius-Cai-wen-zheng), [@gilad12-coder](https://github.com/gilad12-coder), [@gniax](https://github.com/gniax), [@hipotures](https://github.com/hipotures), [@iAndyHD3](https://github.com/iAndyHD3), [@JanSimeonMetzger](https://github.com/JanSimeonMetzger), [@jaykobdetar](https://github.com/jaykobdetar), [@jjjhenriksen](https://github.com/jjjhenriksen), [@juanfers1](https://github.com/juanfers1), [@krisyotam](https://github.com/krisyotam), [@Lv-00-ANI](https://github.com/Lv-00-ANI), [@maddoxjack](https://github.com/maddoxjack), [@maxime-fleury](https://github.com/maxime-fleury), [@MLEARNER701](https://github.com/MLEARNER701), [@MLTQ](https://github.com/MLTQ), [@mu-mei](https://github.com/mu-mei), [@Mzzj114](https://github.com/Mzzj114), [@nicu-chiciuc](https://github.com/nicu-chiciuc), [@Paulee314](https://github.com/Paulee314), [@rahulsundar477-star](https://github.com/rahulsundar477-star), [@roonastgames](https://github.com/roonastgames), [@sat3n](https://github.com/sat3n), [@SeriousRising](https://github.com/SeriousRising), [@shardmods](https://github.com/shardmods), [@surfyhou](https://github.com/surfyhou), [@TomMoeras](https://github.com/TomMoeras), [@Trefoiler](https://github.com/Trefoiler), [@TVSuchty](https://github.com/TVSuchty), [@unhingedpanda](https://github.com/unhingedpanda), [@user42245](https://github.com/user42245), [@varo6](https://github.com/varo6), [@vivekshivarajkumar](https://github.com/vivekshivarajkumar), [@WilmervH](https://github.com/WilmervH), [@WorldianAI](https://github.com/WorldianAI), [@Wronskode](https://github.com/Wronskode)
 
 <!-- volunteer-roster-end -->
 
@@ -35,15 +35,10 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- active-volunteers-start -->
 
-[760 entries. View the full table](tracker/volunteer-tables/active/README.md).
+[751 entries. View the full table](tracker/volunteer-tables/active/README.md).
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M114994](https://github.com/rohanarun/alpoge-rh-replay/issues/3503) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M078416](https://github.com/rohanarun/alpoge-rh-replay/issues/3505) | Claimed |
-| [@iAndyHD3](https://github.com/iAndyHD3) | [M075163](https://github.com/rohanarun/alpoge-rh-replay/issues/3508) | Claimed |
-| [@emsi](https://github.com/emsi) | [P1791](https://github.com/rohanarun/alpoge-rh-replay/issues/3515) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M083628](https://github.com/rohanarun/alpoge-rh-replay/issues/3521) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M036455](https://github.com/rohanarun/alpoge-rh-replay/issues/3522) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M072791](https://github.com/rohanarun/alpoge-rh-replay/issues/3523) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M050647](https://github.com/rohanarun/alpoge-rh-replay/issues/3524) | Claimed |
@@ -56,9 +51,14 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115538](https://github.com/rohanarun/alpoge-rh-replay/issues/3650) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M091584](https://github.com/rohanarun/alpoge-rh-replay/issues/3651) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M127929](https://github.com/rohanarun/alpoge-rh-replay/issues/3652) | Claimed |
-| [@maxime-fleury](https://github.com/maxime-fleury) | [M004234](https://github.com/rohanarun/alpoge-rh-replay/issues/3654) | Claimed |
 | [@WorldianAI](https://github.com/WorldianAI) | [M080123](https://github.com/rohanarun/alpoge-rh-replay/issues/3657) | Claimed |
-| [@user42245](https://github.com/user42245) | [M084167](https://github.com/rohanarun/alpoge-rh-replay/issues/3666) | Claimed |
+| [@egergerfg](https://github.com/egergerfg) | [M064628](https://github.com/rohanarun/alpoge-rh-replay/issues/3668) | Claimed |
+| [@egergerfg](https://github.com/egergerfg) | [M110854](https://github.com/rohanarun/alpoge-rh-replay/issues/3671) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M101521](https://github.com/rohanarun/alpoge-rh-replay/issues/3672) | Claimed |
+| [@egergerfg](https://github.com/egergerfg) | [M065426](https://github.com/rohanarun/alpoge-rh-replay/issues/3674) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M131249](https://github.com/rohanarun/alpoge-rh-replay/issues/3676) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M171565](https://github.com/rohanarun/alpoge-rh-replay/issues/3677) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M103034](https://github.com/rohanarun/alpoge-rh-replay/issues/3679) | Claimed |
 
 <!-- active-volunteers-end -->
 
@@ -69,21 +69,10 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- pending-volunteers-start -->
 
-[460 entries. View the full table](tracker/volunteer-tables/pending/README.md).
+[486 entries. View the full table](tracker/volunteer-tables/pending/README.md).
 
 | Contributor | Task | Review |
 |---|---|---|
-| [@egergerfg](https://github.com/egergerfg) | [M064364](https://github.com/rohanarun/alpoge-rh-replay/issues/3637#issuecomment-7051456349) | Pending review |
-| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M005712](https://github.com/rohanarun/alpoge-rh-replay/issues/3638#issuecomment-7051441813) | Pending review |
-| [@egergerfg](https://github.com/egergerfg) | [M035868](https://github.com/rohanarun/alpoge-rh-replay/issues/3639#issuecomment-7051456745) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M081832](https://github.com/rohanarun/alpoge-rh-replay/issues/3641#issuecomment-7051435825) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M138590](https://github.com/rohanarun/alpoge-rh-replay/issues/3642#issuecomment-7051435521) | Pending review |
-| [@user42245](https://github.com/user42245) | [M076416](https://github.com/rohanarun/alpoge-rh-replay/issues/3643#issuecomment-7051431268) | Pending review |
-| [@mu-mei](https://github.com/mu-mei) | [M101077](https://github.com/rohanarun/alpoge-rh-replay/issues/3644#issuecomment-7051436346) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M130561](https://github.com/rohanarun/alpoge-rh-replay/issues/3645#issuecomment-7051442233) | Pending review |
-| [@mu-mei](https://github.com/mu-mei) | [M170472](https://github.com/rohanarun/alpoge-rh-replay/issues/3646#issuecomment-7051452526) | Pending review |
-| [@mu-mei](https://github.com/mu-mei) | [M000201](https://github.com/rohanarun/alpoge-rh-replay/issues/3648#issuecomment-7051453597) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M130645](https://github.com/rohanarun/alpoge-rh-replay/issues/3653#issuecomment-7051474963) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M120827](https://github.com/rohanarun/alpoge-rh-replay/issues/3655#issuecomment-7051456855) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M087290](https://github.com/rohanarun/alpoge-rh-replay/issues/3656#issuecomment-7051456905) | Pending review |
 | [@varo6](https://github.com/varo6) | [M081519](https://github.com/rohanarun/alpoge-rh-replay/issues/3658#issuecomment-7051462722) | Pending review |
@@ -93,6 +82,17 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M115696](https://github.com/rohanarun/alpoge-rh-replay/issues/3662#issuecomment-7051478204) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M087282](https://github.com/rohanarun/alpoge-rh-replay/issues/3663#issuecomment-7051477805) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M036191](https://github.com/rohanarun/alpoge-rh-replay/issues/3664#issuecomment-7051483379) | Pending review |
+| [@user42245](https://github.com/user42245) | [M084167](https://github.com/rohanarun/alpoge-rh-replay/issues/3666#issuecomment-7051490080) | Pending review |
+| [@maddoxjack](https://github.com/maddoxjack) | [M101279](https://github.com/rohanarun/alpoge-rh-replay/issues/3667#issuecomment-7051493191) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M131610](https://github.com/rohanarun/alpoge-rh-replay/issues/3669#issuecomment-7051502800) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M131766](https://github.com/rohanarun/alpoge-rh-replay/issues/3670#issuecomment-7051502338) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M153030](https://github.com/rohanarun/alpoge-rh-replay/issues/3673#issuecomment-7051502660) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M003934](https://github.com/rohanarun/alpoge-rh-replay/issues/3675#issuecomment-7051499356) | Pending review |
+| [@user42245](https://github.com/user42245) | [M084887](https://github.com/rohanarun/alpoge-rh-replay/issues/3678#issuecomment-7051493273) | Pending review |
+| [@TomMoeras](https://github.com/TomMoeras) | [M080712](https://github.com/rohanarun/alpoge-rh-replay/issues/3680#issuecomment-7051497566) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M000203](https://github.com/rohanarun/alpoge-rh-replay/issues/3681#issuecomment-7051497179) | Pending review |
+| [@varo6](https://github.com/varo6) | [M081722](https://github.com/rohanarun/alpoge-rh-replay/issues/3682#issuecomment-7051499919) | Pending review |
+| [@BenCaunt](https://github.com/BenCaunt) | [M173234](https://github.com/rohanarun/alpoge-rh-replay/issues/3683#issuecomment-7051503092) | Pending review |
 
 <!-- pending-volunteers-end -->
 
