@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M046699 | P0301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProductFormulaLogNorms` | wave-reused |
+| M046753 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProjectiveBaseChangeOfPresentationMatrixSplit` | volunteer-build-reviewed |
 | M046763 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProjectiveCharZeroTensorRingOfIntegers` | volunteer-build-reviewed |
 | M046840 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProperMapBumpFunctionExists` | volunteer-build-reviewed |
 | M046877 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PshNormalFrameQuadraticComparison` | wave-reused |
@@ -400,5 +402,3 @@
 | M051131 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StalkMapFlatFormallyEtaleEssFiniteTypeOfEtaleResStatement` | volunteer-build-reviewed |
 | M051177 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardEtaleMvPolynomialHypersurfaceStatement` | volunteer-build-reviewed |
 | M051254 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.Statement` | volunteer-build-reviewed |
-| M051271 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SteinitzPiIdealsLinearEquivOfClassGroupProd` | volunteer-build-reviewed |
-| M051295 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StereographicMeasureChange` | volunteer-build-reviewed |

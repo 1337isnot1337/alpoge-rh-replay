@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001717 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HeckeBackward` | volunteer-build-reviewed |
 | M001728 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HeckeOperatorsSpanAndFaithfulStatement` | volunteer-build-reviewed |
 | M001732 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HenselStatementStatement` | volunteer-build-reviewed |
 | M001733 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HermitianAdjointExists` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M004451 | P1084 | `Development.AbelianVarietyTheory.Definitions.Jets.SurjectiveAppTopSqCube` | wave-reused |
 | M004455 | P0003 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.DegProd` | wave-reused |
 | M004457 | P0731 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.IsSquareDeterminantComparison` | wave-reused |
-| M004458 | P0731 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.KaRuleK` | wave-reused |

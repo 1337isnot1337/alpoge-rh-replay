@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M024238 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCompatibleSymplecticStatement` | volunteer-build-reviewed |
+| M024293 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCompletionEmbedding` | volunteer-build-reviewed |
 | M024318 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsComponentSurjectsClopenStatement` | volunteer-build-reviewed |
 | M024321 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConcaveTwistEtaInequalities` | wave-reused |
 | M024322 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConcaveTwistEtaInequalitiesStatement` | wave-reused |
@@ -400,5 +402,3 @@
 | M031552 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankAddValuationIntegerSubmoduleEqFinrankSpan` | wave-reused |
 | M031553 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankAddValuationIntegerSubmoduleEqFinrankSpanStatement` | wave-reused |
 | M031571 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankDualAndRangeDualMapBaseChange` | wave-reused |
-| M031741 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumFiberwiseOfFiniteSupportComplex` | volunteer-build-reviewed |
-| M031773 | P0681 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumSemidirectCosetCharacterOrthZero` | wave-reused |

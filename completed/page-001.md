@@ -300,6 +300,7 @@
 | M001262 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SizeFunctionRapidDecayIntegrableStatement` | volunteer-build-reviewed |
 | M001265 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SplitAnisotropic` | volunteer-build-reviewed |
 | M001266 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.StageData` | volunteer-build-reviewed |
+| M001271 | P0094 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SumRhoEqTrace` | volunteer-build-reviewed |
 | M001278 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.TensorInvolutionAlgebraPropertiesStatement` | volunteer-build-reviewed |
 | M001280 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.TensorLocallyCompactRingStatement` | volunteer-build-reviewed |
 | M001294 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ThetaFunctionModularityStatement` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M001714 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HasDerivAtExt` | volunteer-build-reviewed |
 | M001715 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HeckeAlgebraStatement` | volunteer-build-reviewed |
 | M001716 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HeckeAlgebraStatementStatement` | volunteer-build-reviewed |
-| M001717 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HeckeBackward` | volunteer-build-reviewed |

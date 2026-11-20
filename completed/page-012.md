@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M051271 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SteinitzPiIdealsLinearEquivOfClassGroupProd` | volunteer-build-reviewed |
+| M051295 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StereographicMeasureChange` | volunteer-build-reviewed |
 | M051302 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StoneWeierstrassFiniteRepStatement` | volunteer-build-reviewed |
 | M051308 | P1033 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrictHenselisationEnlargeGoodAtOrigin` | wave-reused |
 | M051317 | P0787 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrictlyHenselianIff` | wave-reused |
@@ -126,6 +128,7 @@
 | M054628 | P0520 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwoFormExistsPowSmulEqZeroOfIsLocalization` | wave-reused |
 | M054913 | P0023 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UniformizerEqPowRamificationIdxMulUnitIntegralCl` | wave-reused |
 | M054914 | P0115 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UniformizerEqPowRamificationIdxMulUnitIntegralClStatement` | wave-reused |
+| M054933 | P0023 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnipMat` | volunteer-build-reviewed |
 | M055325 | P0023 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryGroupSecondKindCoordinatesNearOne` | volunteer-build-reviewed |
 | M055485 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitsLocalizationDescendAway` | wave-reused |
 | M055486 | P0443 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitsLocalizationDescendAwayStatement` | wave-reused |
@@ -399,6 +402,3 @@
 | M058461 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesStabilizerActsOnTerms` | wave-reused |
 | M058462 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesStabilizerActsOnTermsStatement` | wave-reused |
 | M058474 | P0814 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianLatticeMassEqFinprodLocal` | wave-reused |
-| M058475 | P0843 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianLatticeMassEqFinprodLocalStatement` | wave-reused |
-| M058478 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianLocalCharacterSum` | wave-reused |
-| M058479 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianLocalCharacterSumStatement` | wave-reused |

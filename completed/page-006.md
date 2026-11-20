@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013552 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HomDescendsToSubfieldContainingFinsetStatement` | volunteer-build-reviewed |
 | M013555 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HomGenericPoint` | volunteer-build-reviewed |
 | M013566 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ImmByOfSpans` | wave-reused |
 | M013567 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ImmByWeightZero` | wave-reused |
@@ -401,4 +402,3 @@
 | M018261 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstEqZeroOfDegreeLtStatement` | wave-reused |
 | M018262 | P0892 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstLeadingOfAgreeDegreeOne` | wave-reused |
 | M018263 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstLeadingOfAgreeDegreeOneStatement` | wave-reused |
-| M018264 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstMapToFractionsMemSubmodule` | wave-reused |

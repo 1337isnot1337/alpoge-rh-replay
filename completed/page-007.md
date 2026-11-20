@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M018264 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstMapToFractionsMemSubmodule` | wave-reused |
 | M018265 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstMapToFractionsMemSubmoduleStatement` | wave-reused |
 | M018268 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSumElimPowerSeriesSwapVariableGroups` | wave-reused |
 | M018269 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSumElimPowerSeriesSwapVariableGroupsStatement` | wave-reused |
@@ -374,6 +375,7 @@
 | M023611 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBaseChangeRetract` | wave-reused |
 | M023612 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBaseChangeRetractStatement` | wave-reused |
 | M023666 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasicOpenIsUnitOfNotMemMapStatement` | volunteer-build-reviewed |
+| M023679 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisAdaptedToCartanInvolution` | volunteer-build-reviewed |
 | M023680 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisAdaptedToCartanInvolutionStatement` | volunteer-build-reviewed |
 | M023689 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisOfBlockLowerTriangularInvStatement` | volunteer-build-reviewed |
 | M023691 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisOfLatticeSpan` | wave-reused |
@@ -400,5 +402,3 @@
 | M024102 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoinducedSheafInjectiveResolutionFreeExactStatement` | wave-reused |
 | M024103 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsColReduced` | wave-reused |
 | M024127 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCommonDenominatorOfValuationLeCofiniteStatement` | volunteer-build-reviewed |
-| M024238 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCompatibleSymplecticStatement` | volunteer-build-reviewed |
-| M024293 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCompletionEmbedding` | volunteer-build-reviewed |

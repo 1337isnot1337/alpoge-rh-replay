@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006453 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegrableMonomialMulConjComplexGaussian` | volunteer-build-reviewed |
 | M006455 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegralConjInnerMulInnerOfIsEmptyEquiv` | volunteer-build-reviewed |
 | M006457 | P0759 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsClosedImmersionIffPullRatio` | wave-reused |
 | M006458 | P0784 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsClosedImmersionSigmaDesc` | wave-reused |
@@ -401,4 +402,3 @@
 | M013543 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HasSumOfAdicSumUnitBallExtensionStatement` | volunteer-build-reviewed |
 | M013544 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HasTorusWeightIffTorusEquivariant` | volunteer-build-reviewed |
 | M013547 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HasWtZero` | volunteer-build-reviewed |
-| M013552 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HomDescendsToSubfieldContainingFinsetStatement` | volunteer-build-reviewed |

@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M039067 | P0734 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTateTwistResolutionTensorFlat` | wave-reused |
+| M039068 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTateTwistResolutionTensorFlatStatement` | wave-reused |
 | M039069 | P0813 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTauOfUpperHalfPlaneLatticeSmulSL2Z` | wave-reused |
 | M039070 | P0398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTensorOfCompatIsIsoTarget` | wave-reused |
 | M039071 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTensorOfCompatIsIsoTargetStatement` | wave-reused |
@@ -400,5 +402,3 @@
 | M046674 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdSubConjEqZero` | wave-reused |
 | M046677 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdZpowAdd` | volunteer-build-reviewed |
 | M046678 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdZpowMul` | volunteer-build-reviewed |
-| M046699 | P0301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProductFormulaLogNorms` | wave-reused |
-| M046753 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProjectiveBaseChangeOfPresentationMatrixSplit` | volunteer-build-reviewed |
