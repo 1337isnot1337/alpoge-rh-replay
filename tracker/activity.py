@@ -49,6 +49,21 @@ def activity(issues, owner, reviewed_comments):
     return sorted(events)
 
 
+def render_volunteer_roster(readme, events):
+    """Replace the README roster with volunteers credited in the activity log."""
+    logins = {
+        login.casefold(): login for _, kind, _, login in events
+        if kind in ('volunteer', 'submission') and re.fullmatch(r'[A-Za-z0-9-]+', login)
+    }
+    names = ', '.join(f'[@{login}](https://github.com/{login})'
+                      for _, login in sorted(logins.items()))
+    start, end = '<!-- volunteer-roster-start -->', '<!-- volunteer-roster-end -->'
+    if start not in readme or end not in readme:
+        return readme
+    roster = f'**Replay volunteers ({len(logins)})**\n\n{names}' if names else 'No replay volunteers recorded yet.'
+    return f'{readme.split(start, 1)[0]}{start}\n\n{roster}\n\n{end}{readme.split(end, 1)[1]}'
+
+
 def render_svg(events):
     series = {key: [] for key in SERIES}
     for stamp, key, _, _ in events:
@@ -114,6 +129,11 @@ def main():
         output.writerow(['timestamp_utc','event','issue','volunteer'])
         output.writerows(events)
     (TRACKER/'activity.svg').write_text(render_svg(events))
+    readme = TRACKER.parent/'README.md'
+    current = readme.read_text()
+    updated = render_volunteer_roster(current, events)
+    if updated != current:
+        readme.write_text(updated)
 
 
 if __name__ == '__main__':
