@@ -31,7 +31,9 @@ def main():
   labels={l['name'] for l in i['labels']};m=re.fullmatch(r'Claim (P\d{4}|M\d{6})',i['title'])
   if not m and not labels.intersection({'claim-granted','claim-conflict','claim'}):continue
   target=m[1] if m else '';mods=groups.get(target,set())
-  win=bool(mods) and not mods.intersection(taken|reserved)
+  existing_grant=prior.get(i['number'])==target
+  # New build evidence should not revoke work already granted to a volunteer.
+  win=bool(mods) and not mods.intersection(taken) and (existing_grant or not mods.intersection(reserved))
   if win:taken.update(mods)
   desired='claim-granted' if win else 'claim-conflict'
   planned.append((i['number'],labels,target,desired))
