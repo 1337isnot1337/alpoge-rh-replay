@@ -21,6 +21,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | Contributor | Task | Review |
 |---|---|---|
 | [@krisyotam](https://github.com/krisyotam) | [P0060](https://github.com/rohanarun/alpoge-rh-replay/issues/7#issuecomment-7045297630) | Pending review |
+| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0064](https://github.com/rohanarun/alpoge-rh-replay/issues/9#issuecomment-7045329594) | Pending review |
 
 <!-- pending-volunteers-end -->
 
