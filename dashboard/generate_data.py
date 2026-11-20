@@ -9,13 +9,15 @@ Reads tracker/summary.json, tracker/completed.tsv, tracker/packets.tsv,
 tracker/modules.jsonl.gz and evidence/volunteers/*.json from the repository
 root, applies the completed.tsv overlay to module states exactly as
 tracker/tasks.py load() does, and writes aggregated data (never raw module
-rows) to dashboard/data.json next to this script.
+rows) to dashboard/data.json next to this script. In a full Git checkout,
+the first-parent ledger history also supplies the hourly rate and projection.
 """
 import csv
 import datetime
 import gzip
 import json
-from collections import Counter, defaultdict
+import subprocess
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -44,6 +46,58 @@ def band_for(depth):
         if depth >= lo and (hi is None or depth <= hi):
             return label
     raise ValueError(depth)
+
+
+def ledger_history(module_ids, recorded, now):
+    """Sample the committed ledger at hourly boundaries ending at generation time."""
+    def git(*args):
+        return subprocess.check_output(["git", *args], cwd=ROOT, text=True)
+
+    if git("rev-parse", "--is-shallow-repository").strip() == "true":
+        return None
+    ledger = "tracker/completed.tsv"
+    log = git("log", "--first-parent", "--reverse", "--format=%ct %H", "--", ledger)
+    commits = []
+    for line in log.splitlines():
+        timestamp, revision = line.split()
+        # Commit clocks can go backward. Preserve mainline publication order.
+        published = max(int(timestamp), commits[-1][0] if commits else 0)
+        commits.append((published, revision))
+    if not commits:
+        return None
+
+    end = int(now.timestamp())
+    hours = min(24, (end - commits[0][0]) // 3600)
+    if hours < 1:
+        return {"hours": [], "per_hour": None, "eta": None}
+
+    samples = []
+    pos = 0
+    last_revision = None
+    for boundary in range(end - hours * 3600, end + 1, 3600):
+        while pos + 1 < len(commits) and commits[pos + 1][0] <= boundary:
+            pos += 1
+        revision = commits[pos][1]
+        if revision != last_revision:
+            rows = csv.DictReader(git("show", f"{revision}:{ledger}").splitlines(),
+                                  delimiter="\t")
+            count = len(module_ids.intersection(row["id"] for row in rows))
+            last_revision = revision
+        samples.append(count)
+
+    if samples[-1] != recorded:
+        # Local edits or a future-dated commit can put HEAD ahead of our samples.
+        return None
+    points = [
+        {"end": end - (hours - i) * 3600, "net_modules": samples[i] - samples[i - 1]}
+        for i in range(1, hours + 1)
+    ]
+    rate = (samples[-1] - samples[0]) / hours
+    remaining = len(module_ids) - recorded
+    eta = None
+    if remaining and rate > 0:
+        eta = (now + datetime.timedelta(hours=remaining / rate)).date().isoformat()
+    return {"hours": points, "per_hour": rate, "eta": eta}
 
 
 def main():
@@ -144,9 +198,14 @@ def main():
         for r in completed_rows[-25:][::-1]
     ]
 
+    now = datetime.datetime.now(datetime.timezone.utc)
+    try:
+        history = ledger_history({row["id"] for row in modules}, with_evidence, now)
+    except (FileNotFoundError, subprocess.CalledProcessError):
+        history = None  # Downloaded archives can still render the snapshot dashboard.
     data = {
-        "generated_at": datetime.datetime.now(datetime.timezone.utc)
-        .strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "ledger_history": history,
+        "generated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "snapshot": summary.get("snapshot"),
         "scope": summary.get("scope"),
         "lean": summary.get("lean"),
