@@ -17,8 +17,10 @@
 | M000042 | P0783 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.NqOfLamData` | volunteer-build-reviewed |
 | M000043 | P0757 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.PStarTie` | volunteer-build-reviewed |
 | M000068 | P0392 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.EqZeroOfCompAt` | volunteer-build-reviewed |
+| M000070 | P0582 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.ExistsDenFin` | build-observed |
 | M000071 | P0172 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.HeckeA` | volunteer-build-reviewed |
 | M000072 | P0346 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.HeckeStdStatement` | volunteer-build-reviewed |
+| M000073 | P0615 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.IntegralOfModule` | build-observed |
 | M000090 | P0757 | `CompanionTheory.AutomorphicTheory.LocalBesselUniqueness.BesselModels.AtFormAdmOneOfSteps` | volunteer-build-reviewed |
 | M000094 | P0783 | `CompanionTheory.AutomorphicTheory.LocalBesselUniqueness.BesselModels.DDForm` | volunteer-build-reviewed |
 | M000143 | P0392 | `CompanionTheory.AutomorphicTheory.PadicUnitaryWeights.DixmierMalliavin.DecompDirection` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M001680 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FixedVectorStatementStatement` | volunteer-build-reviewed |
 | M001690 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FrameOfAnisotropicPlaneSplittingStatement` | volunteer-build-reviewed |
 | M001704 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.GlRelOfBracket` | volunteer-build-reviewed |
-| M001713 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HasDerivAtExpMul` | volunteer-build-reviewed |
-| M001714 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HasDerivAtExt` | volunteer-build-reviewed |

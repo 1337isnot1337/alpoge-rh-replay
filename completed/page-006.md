@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013375 | P1247 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisationTestOfGeometricTest` | wave-reused |
+| M013376 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisationTestOfGeometricTestStatement` | volunteer-build-reviewed |
+| M013377 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisationTrivialTorusAbelianLocus` | volunteer-build-reviewed |
+| M013379 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisedModel` | volunteer-build-reviewed |
+| M013380 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisedModelStatement` | volunteer-build-reviewed |
+| M013395 | P0649 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniqueIsRatio` | wave-reused |
 | M013400 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniqueOfBasis` | volunteer-build-reviewed |
 | M013404 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnitCarries` | volunteer-build-reviewed |
 | M013405 | P0649 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnitCharts` | wave-reused |
@@ -387,6 +393,7 @@
 | M017175 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechTripleRestrictCompositeInjectiveSecond` | wave-reused |
 | M017227 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CenterActsByScalarOnEigenforms` | volunteer-build-reviewed |
 | M017275 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentreCompat` | volunteer-build-reviewed |
+| M017297 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChSingle` | volunteer-build-reviewed |
 | M017335 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsBasic` | wave-reused |
 | M017336 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsBasicStatement` | wave-reused |
 | M017337 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsCechNerveQuasiIsoOfSmoothSurjective` | wave-reused |
@@ -395,10 +402,3 @@
 | M017340 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsCechNerveQuasiIsoOfSurjectiveStatement` | wave-reused |
 | M017342 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsIsoOfFreeIso` | wave-reused |
 | M017346 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsQuasiIsoOfSections` | wave-reused |
-| M017371 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterAugmentationSubspaceTopEqKerSmulStatement` | volunteer-build-reviewed |
-| M017440 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharmatrixBlockDiagonal` | wave-reused |
-| M017457 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyEqOfIntertwined` | wave-reused |
-| M017462 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyEqQuotientCharpolyPow` | volunteer-build-reviewed |
-| M017463 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyEqQuotientCharpolyPowStatement` | wave-reused |
-| M017497 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartEvNmulPowSelf` | volunteer-build-reviewed |
-| M017550 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartRingLocalizationMembership` | wave-reused |

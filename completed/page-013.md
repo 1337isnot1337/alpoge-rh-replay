@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M057506 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsEqZpowMulUnit` | wave-reused |
+| M057507 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsEquivOfRetractions` | wave-reused |
+| M057516 | P0481 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsFineSubgroupMovesAtLattice` | wave-reused |
+| M057517 | P0521 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsFineSubgroupMovesAtLatticeStatement` | wave-reused |
+| M057522 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsFiniteClasses` | wave-reused |
+| M057538 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsFrameUnipotentExchangingDualIsotropic` | wave-reused |
+| M057539 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsFrameUnipotentExchangingDualIsotropicStatement` | wave-reused |
+| M057565 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsGluingHomomorphismDefectGroup` | wave-reused |
 | M057566 | P0481 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsGluingHomomorphismDefectGroupStatement` | wave-reused |
 | M057593 | P0024 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIntSmulMemLattice` | wave-reused |
 | M057614 | P0787 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIrreducibleCharpolyMemRootsBar` | wave-reused |
@@ -394,11 +402,3 @@
 | M060261 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TendstoRescaledMeasureGaugeUnitBody` | volunteer-build-reviewed |
 | M060263 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TendstoSmallBallDensityOfSqueeze` | volunteer-build-reviewed |
 | M060279 | P0402 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermExponentsNonnegAndDefectGroupBound` | wave-reused |
-| M060280 | P0444 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermExponentsNonnegAndDefectGroupBoundStatement` | wave-reused |
-| M060285 | P0554 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermIntegralNearOneBound` | wave-reused |
-| M060286 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermIntegralNearOneBoundStatement` | wave-reused |
-| M060287 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermInvariantsIndependentOfWitnesses` | wave-reused |
-| M060288 | P0402 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermInvariantsIndependentOfWitnessesStatement` | wave-reused |
-| M060289 | P0402 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermLevelZeroAndBoundedRepresentatives` | wave-reused |
-| M060290 | P0444 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermLevelZeroAndBoundedRepresentativesStatement` | wave-reused |
-| M060293 | P0521 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermOverFrameCoordinates` | wave-reused |

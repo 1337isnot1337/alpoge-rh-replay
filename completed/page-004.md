@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005720 | P0616 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsSquareOfSUnitLocalSquareFiniteRealPlaces` | wave-reused |
+| M005721 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsSquareOfValuedSubOneLt` | wave-reused |
+| M005724 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.KummerGalois` | wave-reused |
+| M005725 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.LandauSummableOfExpDirichletSeriesEntire` | volunteer-build-reviewed |
+| M005733 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.LinearIndependentWave` | volunteer-build-reviewed |
+| M005740 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.MemIffForallMemLocalizeRingOfIntegers` | wave-reused |
 | M005762 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NormCoeffMinpolyLeOneOfNormLeOne` | wave-reused |
 | M005763 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NormDifferenceIndexIdentity` | wave-reused |
 | M005764 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NormDifferenceIndexIdentityStatement` | wave-reused |
@@ -396,9 +402,3 @@
 | M006374 | P1444 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SectionsTranslationDifferenceEqZeroStatement` | wave-reused |
 | M006375 | P1272 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SerreVanishingH1Twist` | wave-reused |
 | M006376 | P1299 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SerreVanishingH1TwistStatement` | wave-reused |
-| M006378 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SignedLengthEqLogOrdFracDet` | wave-reused |
-| M006379 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SignedLengthMapEqLogOrdFracDet` | wave-reused |
-| M006380 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SignedLengthOfCommonLower` | wave-reused |
-| M006381 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SignedLengthSpanEqOrdFracDet` | wave-reused |
-| M006382 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SpanLaurentMonomialEqHomLoc` | wave-reused |
-| M006383 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SpanSingletonEqTopIffIsUnitOfIsBaseChange` | wave-reused |

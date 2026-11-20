@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M037994 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdAwayOfIsUnitModStatement` | wave-reused |
+| M037995 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdAwayStatement` | volunteer-build-reviewed |
+| M037996 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdSelf` | wave-reused |
+| M037997 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdTrans` | volunteer-build-reviewed |
+| M037998 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdTransStatement` | volunteer-build-reviewed |
+| M038004 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFamConstLevelOne` | wave-reused |
+| M038010 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFieldOfUniquePrimeStalkStatement` | volunteer-build-reviewed |
+| M038032 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFiniteFlatRankClosedSubschemeOfOpenCover` | volunteer-build-reviewed |
 | M038033 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFiniteFlatRankClosedSubschemeOfOpenCoverStatement` | volunteer-build-reviewed |
 | M038034 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFiniteFlatRankClosedSubschemeOfQuotientBasis` | volunteer-build-reviewed |
 | M038080 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFractionRingTensorOfFractionFieldsStatement` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M044196 | P2055 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NefLineBundleNumericalTheoremsProofStatement` | wave-reused |
 | M044199 | P1509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NefNumericsOfRiemannRoch` | wave-reused |
 | M044239 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentApproximationSurjective` | volunteer-build-reviewed |
-| M044246 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentExpInjectiveCommutingStatement` | volunteer-build-reviewed |
-| M044248 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentExpLogSeriesStatement` | volunteer-build-reviewed |
-| M044250 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentMatrixPowDimEqZeroStatement` | volunteer-build-reviewed |
-| M044252 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentTwistCharacterContinuousStatement` | volunteer-build-reviewed |
-| M044259 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NoCommonZeroSpreadsConstructibleNbhdStatement` | volunteer-build-reviewed |
-| M044264 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NoSplittingFactorisationOfPderivNeZeroStatement` | volunteer-build-reviewed |
-| M044266 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NoetherNormalizationFiniteAevalPowAddStatement` | volunteer-build-reviewed |
-| M044289 | P0922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyAtlasBallPartitionCover` | wave-reused |

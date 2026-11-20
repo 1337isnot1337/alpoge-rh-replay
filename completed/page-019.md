@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M081963 | P0622 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RootOfUnityPrimeToTeichmullerLift` | wave-reused |
+| M081964 | P0655 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RootOfUnityPrimeToTeichmullerLiftStatement` | wave-reused |
+| M082135 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SetIntegralMulLeft` | volunteer-build-reviewed |
+| M082212 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SmoothOfFiniteDimensionalTranslationStableStatement` | volunteer-build-reviewed |
+| M082255 | P0037 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SpanMkQOneTmul` | wave-reused |
+| M082359 | P0037 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.StalkGenerizationGermCompat` | volunteer-build-reviewed |
+| M082500 | P0309 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SubsingletonJacquetIff` | volunteer-build-reviewed |
+| M082507 | P0037 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SumLogEmbeddingAddFinsumLogAdicAbvEqZero` | volunteer-build-reviewed |
+| M082520 | P1334 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SupportPushforwardSubschemeSubset` | wave-reused |
+| M082521 | P1406 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SupportPushforwardSubsetImageOfIsClosedImmersion` | wave-reused |
+| M082522 | P1430 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SupportPushforwardSubsetImageOfIsClosedImmersionStatement` | wave-reused |
+| M082596 | P0590 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TeichmullerTiltMinusOneDvdOfThetaFrobeniusZero` | wave-reused |
+| M082597 | P0623 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TeichmullerTiltMinusOneDvdOfThetaFrobeniusZeroStatement` | wave-reused |
+| M082608 | P1486 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TensOfForallIsPsEff` | wave-reused |
+| M082609 | P1544 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TensOfIsNef` | wave-reused |
 | M082628 | P0557 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ThetaBdRPlusSurjectiveKerUnitsEquivariant` | wave-reused |
 | M082629 | P0590 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ThetaBdRPlusSurjectiveKerUnitsEquivariantStatement` | wave-reused |
 | M082706 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TopologicalKrullDimAffinePoints` | volunteer-build-reviewed |
@@ -387,18 +402,3 @@
 | M085082 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLatticeAutOfIsomorphicThetaObjects` | volunteer-build-reviewed |
 | M085083 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLatticeAutOfIsomorphicThetaObjectsStatement` | volunteer-build-reviewed |
 | M085084 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLatticeUniformisationOfPrimTheta` | volunteer-build-reviewed |
-| M085085 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLatticeUniformisationOfPrimThetaStatement` | volunteer-build-reviewed |
-| M085091 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLevelWithOddPrimeFirstNumber` | volunteer-build-reviewed |
-| M085093 | P0738 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLieBasisOfHolUnif` | wave-reused |
-| M085094 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLieCoordinatesLieMultIff` | volunteer-build-reviewed |
-| M085095 | P0793 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLineBundleCocycleOneAddEps` | wave-reused |
-| M085096 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLineBundleCocycleOneAddEpsStatement` | volunteer-build-reviewed |
-| M085099 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLineBundleGeneratorExtendingDensePart` | volunteer-build-reviewed |
-| M085104 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLinearLiftOfIsMonHomPolAV` | volunteer-build-reviewed |
-| M085108 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationAlongFibreOfSmooth` | volunteer-build-reviewed |
-| M085109 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationAlongFibreOfSmoothStatement` | volunteer-build-reviewed |
-| M085110 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationExtensionOfAffine` | volunteer-build-reviewed |
-| M085111 | P0793 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationExtensionOfAffineStatement` | wave-reused |
-| M085112 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationLiftSmoothOverField` | volunteer-build-reviewed |
-| M085114 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationOfDualNumberThickening` | volunteer-build-reviewed |
-| M085115 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationOfDualNumberThickeningStatement` | volunteer-build-reviewed |

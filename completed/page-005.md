@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006378 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SignedLengthEqLogOrdFracDet` | wave-reused |
+| M006379 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SignedLengthMapEqLogOrdFracDet` | wave-reused |
+| M006380 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SignedLengthOfCommonLower` | wave-reused |
+| M006381 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SignedLengthSpanEqOrdFracDet` | wave-reused |
+| M006382 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SpanLaurentMonomialEqHomLoc` | wave-reused |
+| M006383 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SpanSingletonEqTopIffIsUnitOfIsBaseChange` | wave-reused |
 | M006384 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.StructureHomApply` | wave-reused |
 | M006385 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubalgebraEqBotOfIsIntegralOfIsIntegrallyClosed` | wave-reused |
 | M006386 | P1586 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubsingletonOfPoints` | wave-reused |
@@ -396,9 +402,3 @@
 | M013355 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorusStableGoodOpenOfWeightUnitsStatement` | volunteer-build-reviewed |
 | M013361 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTwistedSectionThetaTranslateCoef` | volunteer-build-reviewed |
 | M013362 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTwistedSectionThetaTranslateCoefStatement` | volunteer-build-reviewed |
-| M013375 | P1247 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisationTestOfGeometricTest` | wave-reused |
-| M013376 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisationTestOfGeometricTestStatement` | volunteer-build-reviewed |
-| M013377 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisationTrivialTorusAbelianLocus` | volunteer-build-reviewed |
-| M013379 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisedModel` | volunteer-build-reviewed |
-| M013380 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisedModelStatement` | volunteer-build-reviewed |
-| M013395 | P0649 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniqueIsRatio` | wave-reused |

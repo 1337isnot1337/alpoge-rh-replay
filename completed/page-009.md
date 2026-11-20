@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M030610 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpConjEntriesHasFDerivAtZero` | volunteer-build-reviewed |
+| M030616 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpNegLeNormTprodOneSubInv` | volunteer-build-reviewed |
+| M030617 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpSumCoeffEqZeroOfVanishing` | volunteer-build-reviewed |
+| M030631 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpansionRestrictionTwoCharacters` | volunteer-build-reviewed |
+| M030645 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExplicitHeightBoundLogDiscriminant` | volunteer-build-reviewed |
+| M030666 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExponentialPolynomialCharSpan` | volunteer-build-reviewed |
+| M030695 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendAlgHomAdjoinIntegralRoot` | volunteer-build-reviewed |
+| M030697 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendAndMean` | volunteer-build-reviewed |
 | M030700 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendByZeroOnSubsetApplyCoe` | wave-reused |
 | M030705 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendChainMapAlongQuasiIsoKInjective` | wave-reused |
 | M030706 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendChainMapAlongQuasiIsoKInjectiveStatement` | wave-reused |
@@ -394,11 +402,3 @@
 | M037991 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsEtaleCoordinatesSectionQuotientsStatement` | wave-reused |
 | M037992 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdAway` | volunteer-build-reviewed |
 | M037993 | P0398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdAwayOfIsUnitMod` | wave-reused |
-| M037994 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdAwayOfIsUnitModStatement` | wave-reused |
-| M037995 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdAwayStatement` | volunteer-build-reviewed |
-| M037996 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdSelf` | wave-reused |
-| M037997 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdTrans` | volunteer-build-reviewed |
-| M037998 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdTransStatement` | volunteer-build-reviewed |
-| M038004 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFamConstLevelOne` | wave-reused |
-| M038010 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFieldOfUniquePrimeStalkStatement` | volunteer-build-reviewed |
-| M038032 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFiniteFlatRankClosedSubschemeOfOpenCover` | volunteer-build-reviewed |

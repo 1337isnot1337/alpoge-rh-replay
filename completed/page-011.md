@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M044246 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentExpInjectiveCommutingStatement` | volunteer-build-reviewed |
+| M044248 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentExpLogSeriesStatement` | volunteer-build-reviewed |
+| M044250 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentMatrixPowDimEqZeroStatement` | volunteer-build-reviewed |
+| M044252 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentTwistCharacterContinuousStatement` | volunteer-build-reviewed |
+| M044259 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NoCommonZeroSpreadsConstructibleNbhdStatement` | volunteer-build-reviewed |
+| M044264 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NoSplittingFactorisationOfPderivNeZeroStatement` | volunteer-build-reviewed |
+| M044266 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NoetherNormalizationFiniteAevalPowAddStatement` | volunteer-build-reviewed |
+| M044289 | P0922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyAtlasBallPartitionCover` | wave-reused |
 | M044290 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyAtlasBallPartitionCoverStatement` | wave-reused |
 | M044301 | P0184 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyEquivOfCardHom` | wave-reused |
 | M044302 | P0247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyEquivOfCardHomStatement` | wave-reused |
@@ -394,11 +402,3 @@
 | M049092 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzTaylorSeriesConvergesStatement` | volunteer-build-reviewed |
 | M049093 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzTendstoOfPointwiseUniformBounds` | volunteer-build-reviewed |
 | M049101 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzTranslateTaylorSecondOrder` | volunteer-build-reviewed |
-| M049107 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzValuedIntegralLinear` | volunteer-build-reviewed |
-| M049108 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzValuedIntegralLinearStatement` | volunteer-build-reviewed |
-| M049109 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzVanishingDecomposition` | volunteer-build-reviewed |
-| M049110 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzVanishingDecompositionStatement` | volunteer-build-reviewed |
-| M049111 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzWeightedSobolevOfFinrankZero` | volunteer-build-reviewed |
-| M049112 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzWeightedSobolevOfFinrankZeroStatement` | volunteer-build-reviewed |
-| M049117 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SecEqZeroOfLoc` | wave-reused |
-| M049126 | P0553 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SecLocallyConstant` | wave-reused |

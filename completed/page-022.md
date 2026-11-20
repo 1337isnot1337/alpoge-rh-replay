@@ -2,6 +2,24 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M093187 | P1337 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsDiscreteSeriesModelOfOrthonormalBasisCarta` | volunteer-build-reviewed |
+| M093188 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsDiscreteSeriesModelOfOrthonormalBasisCartaStatement` | volunteer-build-reviewed |
+| M093194 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsDualFrameSpanUnitaryRepresentationStatement` | volunteer-build-reviewed |
+| M093198 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsDualPairIsUnitDetBlocksStatement` | volunteer-build-reviewed |
+| M093201 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsEmbXMul` | volunteer-build-reviewed |
+| M093205 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsEqActStdLat` | volunteer-build-reviewed |
+| M093207 | P1337 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsEqMulOfResSNeOne` | volunteer-build-reviewed |
+| M093208 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsEqSumWeilComponentsAddTwoSmulLattice` | volunteer-build-reviewed |
+| M093209 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsEqSumWeilComponentsAddTwoSmulLatticeStatement` | volunteer-build-reviewed |
+| M093220 | P0851 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsEverywhereNormDivOfEtaProdEqOne` | wave-reused |
+| M093224 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsFamilyIffRationalHecke` | volunteer-build-reviewed |
+| M093236 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsFiniteDimensionalOrbitOfBoundedRankGeneratStatement` | volunteer-build-reviewed |
+| M093247 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsFiniteReproducingOfSubmodule` | volunteer-build-reviewed |
+| M093258 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsFinsetGeneratingOperatorStableBounded` | volunteer-build-reviewed |
+| M093266 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsFinsetMatrixPairIntegralOutside` | volunteer-build-reviewed |
+| M093267 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsFinsetMatrixPairIntegralOutsideStatement` | volunteer-build-reviewed |
+| M093301 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsGLMulRightColumnsEqZeroOfRank` | volunteer-build-reviewed |
+| M093313 | P0408 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsGenericLevelOfFrame` | volunteer-build-reviewed |
 | M093315 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsGenericSeriesSquarefreeLabels` | volunteer-build-reviewed |
 | M093339 | P0129 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsHasDerivAtZeroOfMapAddMulStatement` | volunteer-build-reviewed |
 | M093348 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsHeckeTranslateOfMemSpanFixedTranslates` | volunteer-build-reviewed |
@@ -384,21 +402,3 @@
 | M096880 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.RestrictedTensorVacuumEqSmulBasePoint` | volunteer-build-reviewed |
 | M096881 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.RestrictedTensorVacuumEqSmulBasePointStatement` | volunteer-build-reviewed |
 | M096891 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.RevPosRevPos` | volunteer-build-reviewed |
-| M096906 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.RootExchangeHeisenbergVariableSignStatement` | volunteer-build-reviewed |
-| M096908 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.RootExchangeOperatorWeilRowUnipotentStatement` | volunteer-build-reviewed |
-| M096911 | P0408 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.RootExchangeUnipotentExistsResidueCardPowMemNhds` | volunteer-build-reviewed |
-| M096913 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.RootExchangeUnipotentHaarAndModulus` | volunteer-build-reviewed |
-| M096916 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.RootExchangeUnipotentSubgroupSuccDecompositionStatement` | volunteer-build-reviewed |
-| M096958 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.RowTestComplexSideOfHilbertModelsStatement` | volunteer-build-reviewed |
-| M096998 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SatakeParameterGLStarEqInvOfUnitarisable` | volunteer-build-reviewed |
-| M097000 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SatakeParameterOfSpherical` | volunteer-build-reviewed |
-| M097025 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchrodingerIntertwinerSchwartzBruhatIsThetaStatement` | volunteer-build-reviewed |
-| M097040 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzBruhatDistributionEqZeroBaireStatement` | volunteer-build-reviewed |
-| M097041 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzBruhatEventuallyInvariantOfContinuousAct` | volunteer-build-reviewed |
-| M097042 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzBruhatHalfSpanModulatedTranslates` | volunteer-build-reviewed |
-| M097047 | P0408 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzBruhatSweepSmoothlyInducedStatement` | volunteer-build-reviewed |
-| M097050 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzEqGaussianOfFderivAddEqZero` | volunteer-build-reviewed |
-| M097052 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzEqZeroOfWrongSignGaussianRelation` | volunteer-build-reviewed |
-| M097054 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzFourierTransformPiSurjectiveSchwartzBruh` | volunteer-build-reviewed |
-| M097066 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SecondCountableLocal` | volunteer-build-reviewed |
-| M097172 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SelfDualLatticeHasRigidification` | volunteer-build-reviewed |

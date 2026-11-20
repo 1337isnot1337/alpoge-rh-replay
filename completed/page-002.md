@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001713 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HasDerivAtExpMul` | volunteer-build-reviewed |
+| M001714 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HasDerivAtExt` | volunteer-build-reviewed |
 | M001715 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HeckeAlgebraStatement` | volunteer-build-reviewed |
 | M001716 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HeckeAlgebraStatementStatement` | volunteer-build-reviewed |
 | M001717 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HeckeBackward` | volunteer-build-reviewed |
@@ -261,6 +263,7 @@
 | M003460 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.CrystallineConnectionFormCoboundaryZero` | wave-reused |
 | M003469 | P1193 | `Development.AbelianVarietyTheory.Definitions.Divisors.DetJacMatCoordsEqTransitionJacobianDet` | wave-reused |
 | M003477 | P0347 | `Development.AbelianVarietyTheory.Definitions.Divisors.DivisorSupportCondition` | wave-reused |
+| M003485 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.EllFamNontrivial` | volunteer-build-reviewed |
 | M003487 | P0515 | `Development.AbelianVarietyTheory.Definitions.Divisors.EntireEqOfHalfPlane` | wave-reused |
 | M003490 | P0891 | `Development.AbelianVarietyTheory.Definitions.Divisors.EqZeroOfForallPowDvd` | wave-reused |
 | M003494 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.EtaleEmpty` | wave-reused |
@@ -302,6 +305,7 @@
 | M003812 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.NoCommonZeroCombVal` | wave-reused |
 | M003823 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.NormSub` | volunteer-build-reviewed |
 | M003844 | P0347 | `Development.AbelianVarietyTheory.Definitions.Divisors.OneFormMapEqKaehlerDifferentialMap` | wave-reused |
+| M003845 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.OneMemH0WeightZero` | volunteer-build-reviewed |
 | M003848 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.OrthSubrepresentation` | wave-reused |
 | M003851 | P0347 | `Development.AbelianVarietyTheory.Definitions.Divisors.PadicActionConstInjective` | wave-reused |
 | M003855 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.PerFactor` | volunteer-build-reviewed |
@@ -343,6 +347,7 @@
 | M004023 | P0238 | `Development.AbelianVarietyTheory.Definitions.Foundations.EeProd` | wave-reused |
 | M004024 | P0239 | `Development.AbelianVarietyTheory.Definitions.Foundations.EigenOfTwoStep` | wave-reused |
 | M004039 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.ExistsFinsetOfEventually` | volunteer-build-reviewed |
+| M004046 | P0173 | `Development.AbelianVarietyTheory.Definitions.Foundations.ExistsRootOfIsAlgClosed` | volunteer-build-reviewed |
 | M004049 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.ExpUpper` | wave-reused |
 | M004057 | P0295 | `Development.AbelianVarietyTheory.Definitions.Foundations.HTBasis` | wave-reused |
 | M004065 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.Imports` | wave-reused |
@@ -397,8 +402,3 @@
 | M004388 | P0173 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LatIntZero` | volunteer-build-reviewed |
 | M004393 | P1084 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LogCondLeThree` | build-observed |
 | M004401 | P1001 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.PairRowIffQdRows` | build-observed |
-| M004402 | P0002 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.PermRepSingle` | volunteer-build-reviewed |
-| M004407 | P1169 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate` | build-observed |
-| M004409 | P0974 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SmulCommClassGalIntegers` | build-observed |
-| M004410 | P1834 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SquareIntegrableColumnsCompatible` | build-observed |
-| M004411 | P0003 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SubClosed` | volunteer-build-reviewed |

@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004402 | P0002 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.PermRepSingle` | volunteer-build-reviewed |
+| M004407 | P1169 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate` | build-observed |
+| M004409 | P0974 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SmulCommClassGalIntegers` | build-observed |
+| M004410 | P1834 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SquareIntegrableColumnsCompatible` | build-observed |
+| M004411 | P0003 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SubClosed` | volunteer-build-reviewed |
 | M004412 | P1056 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ThinScalesIffHostBound` | build-observed |
 | M004415 | P1712 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking` | build-observed |
 | M004417 | P1559 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.ConclOfInputs4` | build-observed |
@@ -124,6 +129,7 @@
 | M004981 | P0295 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.NcardImageOfLe` | wave-reused |
 | M004982 | P0295 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.NoLeak` | wave-reused |
 | M005011 | P0003 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.AwayLiftCompFromZeroRingHom` | wave-reused |
+| M005012 | P0003 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.ExistsIsAdaptedOfIsLocalRing` | volunteer-build-reviewed |
 | M005015 | P0393 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.ExistsLiftAddOfIsReducedEq` | wave-reused |
 | M005016 | P0003 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.FlatImageOfOverFractionFieldOfValuationRing` | wave-reused |
 | M005018 | P0347 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.IrrelevantLeMapLinearGradedMap` | wave-reused |
@@ -396,9 +402,3 @@
 | M005709 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsQuadraticSqrtExtensionIsGaloisAndEmbedding` | wave-reused |
 | M005710 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsQuadraticSqrtExtensionIsGaloisAndEmbeddingStatement` | wave-reused |
 | M005719 | P0550 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsSquareMulOfNonsquareUnits` | wave-reused |
-| M005720 | P0616 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsSquareOfSUnitLocalSquareFiniteRealPlaces` | wave-reused |
-| M005721 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsSquareOfValuedSubOneLt` | wave-reused |
-| M005724 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.KummerGalois` | wave-reused |
-| M005725 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.LandauSummableOfExpDirichletSeriesEntire` | volunteer-build-reviewed |
-| M005733 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.LinearIndependentWave` | volunteer-build-reviewed |
-| M005740 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.MemIffForallMemLocalizeRingOfIntegers` | wave-reused |

@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M060280 | P0444 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermExponentsNonnegAndDefectGroupBoundStatement` | wave-reused |
+| M060285 | P0554 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermIntegralNearOneBound` | wave-reused |
+| M060286 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermIntegralNearOneBoundStatement` | wave-reused |
+| M060287 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermInvariantsIndependentOfWitnesses` | wave-reused |
+| M060288 | P0402 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermInvariantsIndependentOfWitnessesStatement` | wave-reused |
+| M060289 | P0402 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermLevelZeroAndBoundedRepresentatives` | wave-reused |
+| M060290 | P0444 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermLevelZeroAndBoundedRepresentativesStatement` | wave-reused |
+| M060293 | P0521 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermOverFrameCoordinates` | wave-reused |
 | M060307 | P0554 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermsCorrespond` | wave-reused |
 | M060308 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TermsCorrespondStatement` | wave-reused |
 | M060322 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ThetaSmulCompletedLatticeIffTypePrimeMulStatement` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M062415 | P0356 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSumPowerSeriesInvOfConvergent` | wave-reused |
 | M062416 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasSumPowerSeriesInvOfConvergentStatement` | wave-reused |
 | M062426 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeCharacterSlashSumIndepReps` | wave-reused |
-| M062427 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeCharacterSlashSumIndepRepsStatement` | wave-reused |
-| M062428 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeCharacterSlashSumInvariantOfStable` | wave-reused |
-| M062429 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeCharacterSlashSumInvariantOfStableStatement` | wave-reused |
-| M062453 | P0763 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeRootsNePrimePowMulRootOfUnity` | wave-reused |
-| M062454 | P0789 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeRootsNePrimePowMulRootOfUnityStatement` | wave-reused |
-| M062480 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeULeftRepresentativesLevelChange` | wave-reused |
-| M062481 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeULeftRepresentativesLevelChangeStatement` | wave-reused |
-| M062502 | P0188 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumCompOfIntermediateLatti` | volunteer-build-reviewed |

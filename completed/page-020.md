@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M085085 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLatticeUniformisationOfPrimThetaStatement` | volunteer-build-reviewed |
+| M085091 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLevelWithOddPrimeFirstNumber` | volunteer-build-reviewed |
+| M085093 | P0738 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLieBasisOfHolUnif` | wave-reused |
+| M085094 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLieCoordinatesLieMultIff` | volunteer-build-reviewed |
+| M085095 | P0793 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLineBundleCocycleOneAddEps` | wave-reused |
+| M085096 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLineBundleCocycleOneAddEpsStatement` | volunteer-build-reviewed |
+| M085099 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLineBundleGeneratorExtendingDensePart` | volunteer-build-reviewed |
+| M085104 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLinearLiftOfIsMonHomPolAV` | volunteer-build-reviewed |
+| M085108 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationAlongFibreOfSmooth` | volunteer-build-reviewed |
+| M085109 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationAlongFibreOfSmoothStatement` | volunteer-build-reviewed |
+| M085110 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationExtensionOfAffine` | volunteer-build-reviewed |
+| M085111 | P0793 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationExtensionOfAffineStatement` | wave-reused |
+| M085112 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationLiftSmoothOverField` | volunteer-build-reviewed |
+| M085114 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationOfDualNumberThickening` | volunteer-build-reviewed |
+| M085115 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalDerivationOfDualNumberThickeningStatement` | volunteer-build-reviewed |
 | M085121 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalMultiplicationPullbackThetaEmbeddingI` | volunteer-build-reviewed |
 | M085124 | P0127 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsLocalUnramifiedOfIsIndEtale` | wave-reused |
 | M085142 | P1100 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsNonzeroLocusLeOpenPolarisationComplex` | wave-reused |
@@ -279,6 +294,7 @@
 | M086697 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CardTargetJumpsEqRank` | volunteer-build-reviewed |
 | M086708 | P0127 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CechAcyclic` | wave-reused |
 | M086810 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CloudLowJumpsReflectAndCard` | volunteer-build-reviewed |
+| M086815 | P0361 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CmFieldAdeleSplitPlaceSupportIntegral` | build-observed |
 | M086905 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ComplexConjugationOrbitOneRealPlace` | volunteer-build-reviewed |
 | M087023 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CyclicWordMarkedClustersOfAtMostTwoInWindow` | volunteer-build-reviewed |
 | M087025 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CyclicWordNoThreeMarkedOfAtMostOne` | volunteer-build-reviewed |
@@ -288,6 +304,7 @@
 | M087173 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.EmbeddingSignAlternateOfSignNeg` | volunteer-build-reviewed |
 | M087175 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.EndSpannedByRepMatricesOfScalarExtension` | volunteer-build-reviewed |
 | M087305 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsConjDoubleBlockOfIsoSubspacesStatement` | volunteer-build-reviewed |
+| M087399 | P0127 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsIntegerUnitSplitPlaceConjugatePrime` | build-observed |
 | M087415 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsInternalStableDecompositionDescendsToSubfi` | volunteer-build-reviewed |
 | M087447 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsLetterOfLocalEmbedding` | volunteer-build-reviewed |
 | M087517 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsPlaceOverPrimeOfPadicAlgClEmbedding` | volunteer-build-reviewed |
@@ -385,20 +402,3 @@
 | M090319 | P0524 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.QuadCocycle` | wave-reused |
 | M090321 | P0195 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.RationalSchwartzBruhatAlgebraIntegralLinear` | wave-reused |
 | M090322 | P0257 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.RationalSchwartzBruhatAlgebraIntegralLinearStatement` | wave-reused |
-| M090336 | P0128 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.RelIndexDualSubmoduleInfOfSelfDual` | wave-reused |
-| M090344 | P0195 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SchwartzBruhatInnerProductSelfNonnegBounds` | wave-reused |
-| M090345 | P0257 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SchwartzBruhatInnerProductSelfNonnegBoundsStatement` | wave-reused |
-| M090346 | P0195 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SchwartzBruhatIntegralEqSumResidueRepresentative` | wave-reused |
-| M090347 | P0257 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SchwartzBruhatIntegralEqSumResidueRepresentativeStatement` | wave-reused |
-| M090350 | P0128 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SchwartzBruhatInvariantIntegralMatrixMul` | wave-reused |
-| M090351 | P0195 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SchwartzBruhatInvariantIntegralMatrixMulStatement` | wave-reused |
-| M090352 | P0486 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SchwartzBruhatRationalCoordsIntegralProportional` | wave-reused |
-| M090353 | P0524 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SchwartzBruhatRationalCoordsIntegralProportionalStatement` | wave-reused |
-| M090374 | P0794 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SiegelOperatorHermitianEisensteinSeries` | volunteer-build-reviewed |
-| M090378 | P0195 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SiegelThetaMulConjEqBlockTheta` | wave-reused |
-| M090379 | P0257 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SiegelThetaMulConjEqBlockThetaStatement` | wave-reused |
-| M090380 | P0257 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SiegelThetaTransformationLawMul` | wave-reused |
-| M090381 | P0310 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SiegelThetaTransformationLawMulStatement` | wave-reused |
-| M090382 | P0310 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SiegelThetaTransformationSiegelParabolic` | wave-reused |
-| M090383 | P0362 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SiegelThetaTransformationSiegelParabolicStatement` | wave-reused |
-| M090386 | P0794 | `Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SiegelWeilDifferenceAutomorphyLinearity` | volunteer-build-reviewed |

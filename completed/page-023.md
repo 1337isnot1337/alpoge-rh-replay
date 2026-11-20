@@ -2,6 +2,24 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M096906 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.RootExchangeHeisenbergVariableSignStatement` | volunteer-build-reviewed |
+| M096908 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.RootExchangeOperatorWeilRowUnipotentStatement` | volunteer-build-reviewed |
+| M096911 | P0408 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.RootExchangeUnipotentExistsResidueCardPowMemNhds` | volunteer-build-reviewed |
+| M096913 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.RootExchangeUnipotentHaarAndModulus` | volunteer-build-reviewed |
+| M096916 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.RootExchangeUnipotentSubgroupSuccDecompositionStatement` | volunteer-build-reviewed |
+| M096958 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.RowTestComplexSideOfHilbertModelsStatement` | volunteer-build-reviewed |
+| M096998 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SatakeParameterGLStarEqInvOfUnitarisable` | volunteer-build-reviewed |
+| M097000 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SatakeParameterOfSpherical` | volunteer-build-reviewed |
+| M097025 | P1409 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchrodingerIntertwinerSchwartzBruhatIsThetaStatement` | volunteer-build-reviewed |
+| M097040 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzBruhatDistributionEqZeroBaireStatement` | volunteer-build-reviewed |
+| M097041 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzBruhatEventuallyInvariantOfContinuousAct` | volunteer-build-reviewed |
+| M097042 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzBruhatHalfSpanModulatedTranslates` | volunteer-build-reviewed |
+| M097047 | P0408 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzBruhatSweepSmoothlyInducedStatement` | volunteer-build-reviewed |
+| M097050 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzEqGaussianOfFderivAddEqZero` | volunteer-build-reviewed |
+| M097052 | P0041 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzEqZeroOfWrongSignGaussianRelation` | volunteer-build-reviewed |
+| M097054 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzFourierTransformPiSurjectiveSchwartzBruh` | volunteer-build-reviewed |
+| M097066 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SecondCountableLocal` | volunteer-build-reviewed |
+| M097172 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SelfDualLatticeHasRigidification` | volunteer-build-reviewed |
 | M097177 | P1016 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SelfDualLatticeResolutionOfIdentityStatement` | volunteer-build-reviewed |
 | M097186 | P1337 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SemilinearEquivPreservesProperties` | volunteer-build-reviewed |
 | M097187 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SemilinearEquivPreservesPropertiesStatement` | volunteer-build-reviewed |
@@ -357,6 +375,7 @@
 | M099689 | P0656 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsUniqueScaledBaseChangeFibreSectionStatement` | wave-reused |
 | M099699 | P1338 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsUniversalFrameTestRing` | wave-reused |
 | M099700 | P1363 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsUniversalFrameTestRingStatement` | wave-reused |
+| M099703 | P0042 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsValuationSubringComplexPrimeMemNonunits` | volunteer-build-reviewed |
 | M099720 | P1232 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FibreSectionGeneratesOfNowhereZero` | wave-reused |
 | M099721 | P1103 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FibreSectionGeneratesOfNowhereZeroNoetherianBase` | wave-reused |
 | M099722 | P1132 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FibreSectionGeneratesOfNowhereZeroNoetherianBaseStatement` | wave-reused |
@@ -383,22 +402,3 @@
 | M099795 | P0258 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.GeometricallyReducedOfPerfectField` | wave-reused |
 | M099804 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.HermitianFormsSameSignatureSameSpace` | volunteer-build-reviewed |
 | M099816 | P0042 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.Imports` | wave-reused |
-| M099827 | P0196 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.IntegralFiniteAdeleCompleteSeparated` | wave-reused |
-| M099829 | P1435 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.IntegralFrameChangeIntegralInvertibleMatrix` | wave-reused |
-| M099839 | P1132 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.IsCombAtGMulVec` | wave-reused |
-| M099844 | P0130 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.IsDiscreteValuationRingAndFiniteResidueFieldValu` | volunteer-build-reviewed |
-| M099853 | P0042 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.IsIntegrallyClosedPowerSeries` | wave-reused |
-| M099855 | P0624 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.IsOfFinOrderOfBounded` | wave-reused |
-| M099866 | P0823 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.IsTangentVectorBasisAtPointBaseChange` | wave-reused |
-| M099867 | P0851 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.IsTangentVectorBasisAtPointBaseChangeStatement` | wave-reused |
-| M099885 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.LevelActionOverlapLeSourceChart` | volunteer-build-reviewed |
-| M099893 | P0487 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.LevelOfSplitAndLevelCoeffExist` | wave-reused |
-| M099894 | P0712 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.LieBasisIffTangentBasisPullbackUniversal` | wave-reused |
-| M099895 | P0740 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.LieBasisIffTangentBasisPullbackUniversalStatement` | wave-reused |
-| M099926 | P0487 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.MemIffConjugateNotMem` | wave-reused |
-| M099930 | P1044 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.MemNonzeroLocusOfPull` | wave-reused |
-| M099966 | P0686 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ObjMapIdCompCancel` | wave-reused |
-| M099991 | P0558 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.RatioSqEqDetJAut` | volunteer-build-reviewed |
-| M100002 | P0624 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ReducedFiniteTypeIffTestRing` | wave-reused |
-| M100010 | P0258 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.RingHomFlatCodescendsAlongFaithfullyFlat` | wave-reused |
-| M100014 | P0624 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ScaledBaseChangeFibreSectionCalculus` | wave-reused |

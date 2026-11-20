@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M064354 | P1121 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIntegralGeneratorChartPointNoInvert` | wave-reused |
+| M064355 | P1150 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIntegralGeneratorChartPointNoInvertStatement` | wave-reused |
+| M064356 | P1091 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIntegralGeneratorOfChartPointCdvr` | wave-reused |
+| M064358 | P0027 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIntegralPivotDecomposition` | wave-reused |
+| M064363 | P0027 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIsOpenImmersionIsStandardSmoothOfRelativeD` | volunteer-build-reviewed |
+| M064365 | P1063 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsModelChartGenericPointComponent` | wave-reused |
+| M064366 | P1091 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsModelChartGenericPointComponentStatement` | wave-reused |
+| M064383 | P1036 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsSecPullNonzeroOnFibres` | wave-reused |
+| M064388 | P0027 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsTriangularOfSpanFirstColumnsLe` | wave-reused |
+| M064413 | P1175 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.FramedPointIntegralIntegralCellAnyModel` | wave-reused |
 | M064414 | P1199 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.FramedPointIntegralIntegralCellAnyModelStatement` | wave-reused |
 | M064415 | P1063 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.FramedPointVectorsIntegralInCell` | wave-reused |
 | M064420 | P1452 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.GenericFrameIntegralOffFinitelyManyFunctions` | wave-reused |
@@ -392,13 +402,3 @@
 | M069210 | P1226 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInjectivePushoutOfPrismCoverStatement` | wave-reused |
 | M069227 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntegralBasisUnramifiedInvolutionExt` | volunteer-build-reviewed |
 | M069262 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntegralSolutionFrobeniusSubMulVecEqStatement` | volunteer-build-reviewed |
-| M069265 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntegralTraceUnitUnramifiedQuadratic` | volunteer-build-reviewed |
-| M069271 | P1226 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntegralWittLatticeBasis` | wave-reused |
-| M069278 | P1176 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInvLift` | wave-reused |
-| M069279 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInvLiftStatement` | wave-reused |
-| M069316 | P0983 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIsAdicCompletionMapOfFg` | wave-reused |
-| M069317 | P1010 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIsAdicCompletionMapOfFgStatement` | wave-reused |
-| M069338 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIsPrismLocalizationAwayOfGenerated` | wave-reused |
-| M069339 | P1226 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIsPrismLocalizationAwayOfGeneratedStatement` | wave-reused |
-| M069358 | P0983 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsKernelLatticeEquivariantModPow` | wave-reused |
-| M069359 | P1010 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsKernelLatticeEquivariantModPowStatement` | wave-reused |

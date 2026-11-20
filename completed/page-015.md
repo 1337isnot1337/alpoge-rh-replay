@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M062427 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeCharacterSlashSumIndepRepsStatement` | wave-reused |
+| M062428 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeCharacterSlashSumInvariantOfStable` | wave-reused |
+| M062429 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeCharacterSlashSumInvariantOfStableStatement` | wave-reused |
+| M062453 | P0763 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeRootsNePrimePowMulRootOfUnity` | wave-reused |
+| M062454 | P0789 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeRootsNePrimePowMulRootOfUnityStatement` | wave-reused |
+| M062480 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeULeftRepresentativesLevelChange` | wave-reused |
+| M062481 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeckeULeftRepresentativesLevelChangeStatement` | wave-reused |
+| M062502 | P0188 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumCompOfIntermediateLatti` | volunteer-build-reviewed |
 | M062503 | P0251 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumCompOfIntermediateLattiStatement` | volunteer-build-reviewed |
 | M062504 | P0188 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumsCompEqIndex` | volunteer-build-reviewed |
 | M062505 | P0251 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.HeisenbergIntertwiningSumsCompEqIndexStatement` | volunteer-build-reviewed |
@@ -188,6 +196,7 @@
 | M063443 | P0251 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PowPadicValEqOneOfPrimePow` | wave-reused |
 | M063447 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PowerSeriesAsRatHahnSeriesFractionalQ` | wave-reused |
 | M063448 | P0404 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PowerSeriesAsRatHahnSeriesFractionalQStatement` | wave-reused |
+| M063457 | P0027 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PowerSeriesTaylorSubstFirstOrder` | volunteer-build-reviewed |
 | M063460 | P0027 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PrimeEqBotOrMaximalIdealOfIsFieldAway` | wave-reused |
 | M063469 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PrimitiveConstMulOfBoundedExpansion` | wave-reused |
 | M063470 | P0404 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PrimitiveConstMulOfBoundedExpansionStatement` | wave-reused |
@@ -380,6 +389,7 @@
 | M064200 | P0027 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationMapAlgEquivEqOfLeOneIffIsIntegral` | wave-reused |
 | M064201 | P0119 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationMapAlgEquivEqOfLeOneIffIsIntegralStatement` | wave-reused |
 | M064204 | P0027 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationPrimitiveRootSubOnePowTotient` | volunteer-build-reviewed |
+| M064205 | P0119 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationPrimitiveRootSubOnePowTotientStatement` | volunteer-build-reviewed |
 | M064216 | P0027 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationZetaSubOnePowTotient` | volunteer-build-reviewed |
 | M064244 | P0306 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.WhittakerTranslatesCornerLinearIndependent` | wave-reused |
 | M064245 | P0358 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.WhittakerTranslatesCornerLinearIndependentStatement` | wave-reused |
@@ -392,13 +402,3 @@
 | M064309 | P1121 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsChartGeneratorPullbackGeneratesFibreStatement` | wave-reused |
 | M064310 | P1036 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsChartLieBasisMatrices` | wave-reused |
 | M064336 | P1199 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsFrPtTie` | wave-reused |
-| M064354 | P1121 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIntegralGeneratorChartPointNoInvert` | wave-reused |
-| M064355 | P1150 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIntegralGeneratorChartPointNoInvertStatement` | wave-reused |
-| M064356 | P1091 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIntegralGeneratorOfChartPointCdvr` | wave-reused |
-| M064358 | P0027 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIntegralPivotDecomposition` | wave-reused |
-| M064363 | P0027 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIsOpenImmersionIsStandardSmoothOfRelativeD` | volunteer-build-reviewed |
-| M064365 | P1063 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsModelChartGenericPointComponent` | wave-reused |
-| M064366 | P1091 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsModelChartGenericPointComponentStatement` | wave-reused |
-| M064383 | P1036 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsSecPullNonzeroOnFibres` | wave-reused |
-| M064388 | P0027 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsTriangularOfSpanFirstColumnsLe` | wave-reused |
-| M064413 | P1175 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.FramedPointIntegralIntegralCellAnyModel` | wave-reused |

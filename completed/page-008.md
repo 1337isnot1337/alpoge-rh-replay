@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M022969 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsSepGlueOfSurjectiveFamily` | wave-reused |
+| M022970 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsSepGlueOfSurjectiveFamilyStatement` | wave-reused |
+| M022973 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafShortComplexExactIffLocally` | wave-reused |
+| M022974 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafShortComplexExactIffLocallyStatement` | wave-reused |
+| M022975 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceChainsMayerVietorisShortExact` | wave-reused |
+| M022976 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceChainsMayerVietorisShortExactStatement` | wave-reused |
+| M022979 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyCoprodSchemesBijective` | wave-reused |
+| M022980 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyCoprodSchemesBijectiveStatement` | wave-reused |
 | M022983 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyLevelwiseCoproductBijective` | wave-reused |
 | M022984 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyLevelwiseCoproductBijectiveStatement` | wave-reused |
 | M022985 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyPresheafClassesAsCocycles` | wave-reused |
@@ -394,11 +402,3 @@
 | M030512 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsVirtualCharacterTwistedHarishChandraInductStatement` | wave-reused |
 | M030533 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeightedHomogenisation` | volunteer-build-reviewed |
 | M030581 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWhittakerDatumAndHalfLevels` | wave-reused |
-| M030610 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpConjEntriesHasFDerivAtZero` | volunteer-build-reviewed |
-| M030616 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpNegLeNormTprodOneSubInv` | volunteer-build-reviewed |
-| M030617 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpSumCoeffEqZeroOfVanishing` | volunteer-build-reviewed |
-| M030631 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpansionRestrictionTwoCharacters` | volunteer-build-reviewed |
-| M030645 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExplicitHeightBoundLogDiscriminant` | volunteer-build-reviewed |
-| M030666 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExponentialPolynomialCharSpan` | volunteer-build-reviewed |
-| M030695 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendAlgHomAdjoinIntegralRoot` | volunteer-build-reviewed |
-| M030697 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendAndMean` | volunteer-build-reviewed |

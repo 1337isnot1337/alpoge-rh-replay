@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M049107 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzValuedIntegralLinear` | volunteer-build-reviewed |
+| M049108 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzValuedIntegralLinearStatement` | volunteer-build-reviewed |
+| M049109 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzVanishingDecomposition` | volunteer-build-reviewed |
+| M049110 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzVanishingDecompositionStatement` | volunteer-build-reviewed |
+| M049111 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzWeightedSobolevOfFinrankZero` | volunteer-build-reviewed |
+| M049112 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzWeightedSobolevOfFinrankZeroStatement` | volunteer-build-reviewed |
+| M049117 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SecEqZeroOfLoc` | wave-reused |
+| M049126 | P0553 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SecLocallyConstant` | wave-reused |
 | M049127 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SecLocallyConstantStatement` | wave-reused |
 | M049136 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SecSigmaBijective` | wave-reused |
 | M049137 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SecSigmaBijectiveStatement` | wave-reused |
@@ -394,11 +402,3 @@
 | M057452 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsCommonDenominatorForHermitianLatticeDataStatement` | wave-reused |
 | M057460 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsConjInt` | wave-reused |
 | M057465 | P0787 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsConjRenumber` | wave-reused |
-| M057506 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsEqZpowMulUnit` | wave-reused |
-| M057507 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsEquivOfRetractions` | wave-reused |
-| M057516 | P0481 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsFineSubgroupMovesAtLattice` | wave-reused |
-| M057517 | P0521 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsFineSubgroupMovesAtLatticeStatement` | wave-reused |
-| M057522 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsFiniteClasses` | wave-reused |
-| M057538 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsFrameUnipotentExchangingDualIsotropic` | wave-reused |
-| M057539 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsFrameUnipotentExchangingDualIsotropicStatement` | wave-reused |
-| M057565 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsGluingHomomorphismDefectGroup` | wave-reused |

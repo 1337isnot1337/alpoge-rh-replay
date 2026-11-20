@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M017371 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharacterAugmentationSubspaceTopEqKerSmulStatement` | volunteer-build-reviewed |
+| M017440 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharmatrixBlockDiagonal` | wave-reused |
+| M017457 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyEqOfIntertwined` | wave-reused |
+| M017462 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyEqQuotientCharpolyPow` | volunteer-build-reviewed |
+| M017463 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyEqQuotientCharpolyPowStatement` | wave-reused |
+| M017497 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartEvNmulPowSelf` | volunteer-build-reviewed |
+| M017550 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartRingLocalizationMembership` | wave-reused |
 | M017563 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartUnipotentFderivContinuousOn` | volunteer-build-reviewed |
 | M017730 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafBasicProperti` | wave-reused |
 | M017731 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafBasicPropertiStatement` | wave-reused |
@@ -250,6 +257,7 @@
 | M022064 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenDecompositionTraceMultipleStatement` | wave-reused |
 | M022144 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenProjectionQuotientLattice` | volunteer-build-reviewed |
 | M022145 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenProjectionQuotientLatticeStatement` | wave-reused |
+| M022146 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenProjectionsOfComaximal` | volunteer-build-reviewed |
 | M022154 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenSublatticeFreeLatticeIffEval` | volunteer-build-reviewed |
 | M022155 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenSublatticeFreeLatticeIffEvalStatement` | wave-reused |
 | M022178 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenspacesOfRingHomsIndependent` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M022966 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsExtAndGlueStatement` | wave-reused |
 | M022967 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsGlueOfLocallyUnique` | wave-reused |
 | M022968 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsGlueOfLocallyUniqueStatement` | wave-reused |
-| M022969 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsSepGlueOfSurjectiveFamily` | wave-reused |
-| M022970 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafSectionsSepGlueOfSurjectiveFamilyStatement` | wave-reused |
-| M022973 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafShortComplexExactIffLocally` | wave-reused |
-| M022974 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafShortComplexExactIffLocallyStatement` | wave-reused |
-| M022975 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceChainsMayerVietorisShortExact` | wave-reused |
-| M022976 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceChainsMayerVietorisShortExactStatement` | wave-reused |
-| M022979 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyCoprodSchemesBijective` | wave-reused |
-| M022980 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyCoprodSchemesBijectiveStatement` | wave-reused |
