@@ -42,7 +42,7 @@ class ClaimsGraphQL:
             claim: label(name:"claim") { id }
             granted: label(name:"claim-granted") { id }
             conflict: label(name:"claim-conflict") { id }
-            issues(states:OPEN, first:30, after:$after) {
+            issues(states:OPEN, first:100, after:$after) {
               pageInfo { endCursor hasNextPage }
               nodes { id number title labels(first:30) { nodes { name } }
                       comments(last:30) { pageInfo { startCursor hasPreviousPage }
