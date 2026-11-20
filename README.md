@@ -179,12 +179,11 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@rohanarun](https://github.com/rohanarun) | [M056091](https://github.com/rohanarun/alpoge-rh-replay/issues/405) | Claimed |
 | [@maddoxjack](https://github.com/maddoxjack) | [M062705](https://github.com/rohanarun/alpoge-rh-replay/issues/410) | Claimed |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M000004](https://github.com/rohanarun/alpoge-rh-replay/issues/413) | Claimed |
-| [@gabeldev](https://github.com/gabeldev) | [M149879](https://github.com/rohanarun/alpoge-rh-replay/issues/415) | Claimed |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P1434](https://github.com/rohanarun/alpoge-rh-replay/issues/417) | Claimed |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M171564](https://github.com/rohanarun/alpoge-rh-replay/issues/418) | Claimed |
 | [@arxhr007](https://github.com/arxhr007) | [M144073](https://github.com/rohanarun/alpoge-rh-replay/issues/420) | Claimed |
 | [@arxhr007](https://github.com/arxhr007) | [M154127](https://github.com/rohanarun/alpoge-rh-replay/issues/422) | Claimed |
 | [@arxhr007](https://github.com/arxhr007) | [M150648](https://github.com/rohanarun/alpoge-rh-replay/issues/423) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M171874](https://github.com/rohanarun/alpoge-rh-replay/issues/424) | Claimed |
 
 <!-- active-volunteers-end -->
 
@@ -246,6 +245,8 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M115870](https://github.com/rohanarun/alpoge-rh-replay/issues/411#issuecomment-7047243832) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M127968](https://github.com/rohanarun/alpoge-rh-replay/issues/412#issuecomment-7047246358) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M168066](https://github.com/rohanarun/alpoge-rh-replay/issues/414#issuecomment-7047252079) | Pending review |
+| [@gabeldev](https://github.com/gabeldev) | [M149879](https://github.com/rohanarun/alpoge-rh-replay/issues/415#issuecomment-7047258125) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M171564](https://github.com/rohanarun/alpoge-rh-replay/issues/418#issuecomment-7047262461) | Pending review |
 
 <!-- pending-volunteers-end -->
 
