@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M097484"
+  ],
+  "started_utc": "2026-11-20T23:42:55.813557+00:00",
+  "ended_utc": "2026-11-20T23:43:12.637862+00:00",
+  "elapsed_seconds": 16.8,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 62308664,
+    "peak_child_rss_kib": 7268728
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.SupLatticeLocalisationOfUnitBall:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "af4a180a7435c2ae860da2db516702962530c526a2ceaaef32c5508e0e7e378a",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsSmulMemSupLattice",
+    "Formalism.LocalToGlobal.IndefiniteReal.GramCEqTranspose"
+  ],
+  "objects": {
+    "M097484": "1092a099e405bf8262d4376db172d76bbca9635e3da86b13ac332766e77db6e4"
+  },
+  "bundle_sha256": "007b9481cae7a55e08ae0873569a7bacf29e6fbf27dc45e9f5d79f4b944f6780",
+  "packet": "M097484",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6791#issuecomment-7053415078",
+  "reviewed_utc": "2026-11-20T23:50:36.368919+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

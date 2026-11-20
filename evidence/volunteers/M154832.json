@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M154832"
+  ],
+  "started_utc": "2026-11-20T23:46:37.310764+00:00",
+  "ended_utc": "2026-11-20T23:46:56.713475+00:00",
+  "elapsed_seconds": 19.4,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6763812
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.EagonNorthcottIntegral.DivisionPartitionTotal:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e8bd541b9db2f3123bac6d62abeb472acebc68bc86ce65e1c9a0b70c2e5bd1c6",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.EagonNorthcott",
+    "Formalism.PeriodIntegrals.EagonNorthcottZ",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.EagonNorthcottIntegral.YHom"
+  ],
+  "objects": {
+    "M154832": "a4700f115d1da31cc47f306304b3c3a3a7803c035b7130e4ceec03dd4f18e9d4"
+  },
+  "bundle_sha256": "b82c469a8f0e281f026ed65ff0ae7f32c8c663cdc0ec235182660028b8c2ff5c",
+  "packet": "M154832",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6891#issuecomment-7053476754",
+  "reviewed_utc": "2026-11-20T23:50:16.753363+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

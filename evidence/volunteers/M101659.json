@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M101659"
+  ],
+  "started_utc": "2026-11-20T23:46:20.654097+00:00",
+  "ended_utc": "2026-11-20T23:46:31.226322+00:00",
+  "elapsed_seconds": 10.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 62308664,
+    "peak_child_rss_kib": 7228728
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.UnitsBasic:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "703503fe805f7e00b701fc97d30f2b67709e4464cc8927bed47bb79183368112",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.EqLagIff",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.InvAlg"
+  ],
+  "objects": {
+    "M101659": "0bfadf08523fa3f09b735ec2e220059a5bb350b5272e977bc56a2e22b490eaff"
+  },
+  "bundle_sha256": "b072f1f436227829ba8a71d3bb5a691b568c93905537e896c0d6996aad9b629d",
+  "packet": "M101659",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6875#issuecomment-7053469468",
+  "reviewed_utc": "2026-11-20T23:50:20.785924+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

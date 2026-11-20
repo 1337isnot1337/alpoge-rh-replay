@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M028377"
+  ],
+  "started_utc": "2026-11-20T23:43:01.658186+00:00",
+  "ended_utc": "2026-11-20T23:45:02.168279+00:00",
+  "elapsed_seconds": 120.5,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32837808,
+    "peak_child_rss_kib": 6629848
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPowSubMemSpanOfIsUnitModOfIsAlgClosedStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8bb326c755081e643655da0627956e5d79ab5a2812a62db6be733eae9f249573",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPowSubMemSpanOfIsUnitModOfIsAlgClosed",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdSelf"
+  ],
+  "objects": {
+    "M028377": "a618fbb15bdfd13e86812fd3977038cba2f94e2d02f33aa0e4d18c1a4a03a634"
+  },
+  "bundle_sha256": "7d50ca93c7b94737cf2b4b940de3af93b0799ba3df36b4ce956d4d0eef718731",
+  "packet": "M028377",
+  "contributor": "sp20262026",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6809#issuecomment-7053445594",
+  "reviewed_utc": "2026-11-20T23:50:33.194642+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

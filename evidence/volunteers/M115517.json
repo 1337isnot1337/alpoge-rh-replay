@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    "M115517"
+  ],
+  "ended_utc": "2026-11-20T23:48:37.840555+00:00",
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LocalQuotientHomExt:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3c5c4ea6922f9b81cdbb86977a448f7b44869cf26d2316e70341dddc390605aa",
+  "objects": {
+    "M115517": "2cb30af4b6e27810c1b61a1a8cd89c927ab9b2ea5d4b1c5f2ea5b6c4a70d8446"
+  },
+  "bundle_sha256": "de351e43665fe2819d9b0408b4353710461a69e2edfbdb8eaca2c5d3e0b08227",
+  "packet": "M115517",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6941#issuecomment-7053504747",
+  "reviewed_utc": "2026-11-20T23:50:10.228775+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

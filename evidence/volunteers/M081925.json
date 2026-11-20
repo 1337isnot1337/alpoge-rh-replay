@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M081925"
+  ],
+  "started_utc": "2026-11-20T23:46:49.136548+00:00",
+  "ended_utc": "2026-11-20T23:47:09.386127+00:00",
+  "elapsed_seconds": 20.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6747592
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RiemannExtensionOfLogGrowth:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fb486cd5aa60423f4a9a9b6a448a84ec03a79fd2f79563f56f6a8def49b166d5",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.AnalyticForms.AnalyticCharts.Osgood",
+    "ReciprocityTheory.AnalyticForms.AnalyticCharts.OsgoodA"
+  ],
+  "objects": {
+    "M081925": "94e88fd4d9c9486f06c681f43663d9eca10e1c7a553e338accdbf7e848cdf77e"
+  },
+  "bundle_sha256": "1d42bf2c8f45977153af54b239103f89728fb19e00680c651e8cfa66e810dd71",
+  "packet": "M081925",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6894#issuecomment-7053480811",
+  "reviewed_utc": "2026-11-20T23:50:15.870959+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

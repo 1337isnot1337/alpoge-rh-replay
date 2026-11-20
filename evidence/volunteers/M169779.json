@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M169779"
+  ],
+  "started_utc": "2026-11-20T23:48:25.792470+00:00",
+  "ended_utc": "2026-11-20T23:48:38.297444+00:00",
+  "elapsed_seconds": 12.5,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 62308664,
+    "peak_child_rss_kib": 7275372
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Theta.GaussianExample:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "16a53e1c9c25a9d55fd66871fe18d19979220910e69de870a86659c53ab8cb9a",
+  "rebuilt_project_modules": [
+    "GroundTheory.AutomorphicForms.HermitianSpaces",
+    "GroundTheory.AutomorphicForms.QuadraticConj"
+  ],
+  "objects": {
+    "M169779": "5609dd0881655915ccb8b8921a08dbf46923957b255de3de72ca6810793d826f"
+  },
+  "bundle_sha256": "fb94a2a05bdf8de99997a3d6928bfd0899d7fae342658dcfb875b2fe4785e681",
+  "packet": "M169779",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6940#issuecomment-7053503455",
+  "reviewed_utc": "2026-11-20T23:50:10.958151+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

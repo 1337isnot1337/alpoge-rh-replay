@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M031756"
+  ],
+  "started_utc": "2026-11-20T23:42:01.797800+00:00",
+  "ended_utc": "2026-11-20T23:42:18.389244+00:00",
+  "elapsed_seconds": 16.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6635972
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumOrbitRelFibredEquivariantStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2adad5e864286e7875ad304106aff52f3240b60bbad77aae45d9c544753dc3c1",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumFiberwiseOfFiniteSupportComplex",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumOrbitRelFibredEquivariant"
+  ],
+  "objects": {
+    "M031756": "fd38f1c220316410e9e7cb76d14da583e1006290dbcc4d4458d5e35fd5e73837"
+  },
+  "bundle_sha256": "2d9195b291c915829120742b3e58ef917f7f64fa800689a5d9508e8dffc152ad",
+  "packet": "M031756",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6764#issuecomment-7053401023",
+  "reviewed_utc": "2026-11-20T23:50:40.608632+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M062700"
+  ],
+  "started_utc": "2026-11-20T23:41:45.117952+00:00",
+  "ended_utc": "2026-11-20T23:42:07.763717+00:00",
+  "elapsed_seconds": 22.6,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6784188
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsExpEqOfSubstLg:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "afe2c434c2aef6cfb3b526058cd90b5f1c41e4675d2e6793b5409bf87552f912",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.IsSatFrame",
+    "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.EqZeroOrSingleOfDegreeLtTwo",
+    "ReciprocityTheory.DualLattices.VEqZeroOfPowEqOne"
+  ],
+  "objects": {
+    "M062700": "f382e0f4c9bf84a0ddb9c64e6b1c7a0853994b7d05ac7f33f2a5fd8b395e8dd8"
+  },
+  "bundle_sha256": "457d533fb08c96d9e6d1f87065ea1cebd3c86eca66ef12b3aa317484868e8743",
+  "packet": "M062700",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6747#issuecomment-7053396342",
+  "reviewed_utc": "2026-11-20T23:50:46.273379+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}
