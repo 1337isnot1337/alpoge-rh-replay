@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002559 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.CrystallineWindowLifts` | volunteer-build-reviewed |
+| M002592 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.UnramifiedLatticeEmbeddings` | volunteer-build-reviewed |
+| M002605 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.FlatZetaIntegral` | volunteer-build-reviewed |
+| M002611 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.HermitianLattices` | wave-reused |
+| M002612 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.IndexAtLevel` | volunteer-build-reviewed |
+| M002614 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.IwahoriSubgroup` | volunteer-build-reviewed |
+| M002615 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.JumpDictionary` | volunteer-build-reviewed |
+| M002616 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.LatticeConditions` | volunteer-build-reviewed |
 | M002620 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.LowerUnipotentMinors` | volunteer-build-reviewed |
 | M002627 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.SelfDualLatticeMass` | build-observed |
 | M002634 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.StandardHermitianSpace` | volunteer-build-reviewed |
@@ -123,6 +131,7 @@
 | M003388 | P1001 | `Development.AbelianVarietyTheory.Definitions.Degenerations.IsBasisB` | wave-reused |
 | M003390 | P0549 | `Development.AbelianVarietyTheory.Definitions.Degenerations.IsNormalSchemeSp` | wave-reused |
 | M003398 | P0549 | `Development.AbelianVarietyTheory.Definitions.Degenerations.OfDerivationFnOn` | wave-reused |
+| M003399 | P0865 | `Development.AbelianVarietyTheory.Definitions.Degenerations.OfTorusBased` | build-observed |
 | M003401 | P0648 | `Development.AbelianVarietyTheory.Definitions.Degenerations.PlOrdSomeOfAssociated` | wave-reused |
 | M003402 | P0615 | `Development.AbelianVarietyTheory.Definitions.Degenerations.PullChartIsLB` | wave-reused |
 | M003403 | P0974 | `Development.AbelianVarietyTheory.Definitions.Degenerations.RigGen` | wave-reused |
@@ -245,6 +254,7 @@
 | M004087 | P0239 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsRootOne` | volunteer-build-reviewed |
 | M004088 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsSatFrame` | volunteer-build-reviewed |
 | M004092 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsTopWTopWOfExists` | wave-reused |
+| M004098 | P0917 | `Development.AbelianVarietyTheory.Definitions.Foundations.LatticeIntegralCoordinates` | build-observed |
 | M004099 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.Letter` | wave-reused |
 | M004100 | P0295 | `Development.AbelianVarietyTheory.Definitions.Foundations.LiftApplyOfMemAdmissibleSubalgebra` | volunteer-build-reviewed |
 | M004103 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.LocallyConstantTwoCochain` | wave-reused |
@@ -270,6 +280,7 @@
 | M004151 | P0974 | `Development.AbelianVarietyTheory.Definitions.Foundations.StrictInterlaceIffDescEnum` | build-observed |
 | M004164 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.ValuedAlgebraMapEqOne` | volunteer-build-reviewed |
 | M004210 | P0002 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.FiniteResidueFieldPadicInt` | volunteer-build-reviewed |
+| M004215 | P1444 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.FourthPowerTheta` | build-observed |
 | M004232 | P0095 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsDPMorphismBot` | wave-reused |
 | M004237 | P0002 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsMatrixForm` | wave-reused |
 | M004244 | P0347 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsSSFun` | wave-reused |
@@ -391,14 +402,3 @@
 | M004857 | P0582 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.Saturated` | wave-reused |
 | M004861 | P0096 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.SndDualLiftAlgebraMap` | wave-reused |
 | M004865 | P0393 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.TameDescentExtendedActionExtraVector` | wave-reused |
-| M004870 | P0946 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.TrivIsCr` | wave-reused |
-| M004872 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.TwConj` | volunteer-build-reviewed |
-| M004873 | P0865 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.TwistStep` | wave-reused |
-| M004874 | P0582 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.TwistedModelAdmissibleCocycles` | wave-reused |
-| M004876 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.UnitLemmaGroup` | volunteer-build-reviewed |
-| M004887 | P0582 | `Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.BijectiveSmulChartSec` | wave-reused |
-| M004888 | P0174 | `Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.ExistsAwayFracOfMemHomLoc` | wave-reused |
-| M004889 | P0295 | `Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.ExistsPowMulPowEqOfIsZeroCechH` | wave-reused |
-| M004890 | P1114 | `Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.FiniteCohPushforwardIffOfIsClosedImmersion` | wave-reused |
-| M004891 | P0174 | `Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.HdimEqZeroOfSubsingleton` | wave-reused |
-| M004892 | P0174 | `Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.HomologyRestrictScalarsBijective` | wave-reused |

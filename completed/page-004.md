@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004870 | P0946 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.TrivIsCr` | wave-reused |
+| M004872 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.TwConj` | volunteer-build-reviewed |
+| M004873 | P0865 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.TwistStep` | wave-reused |
+| M004874 | P0582 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.TwistedModelAdmissibleCocycles` | wave-reused |
+| M004876 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.UnitLemmaGroup` | volunteer-build-reviewed |
+| M004887 | P0582 | `Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.BijectiveSmulChartSec` | wave-reused |
+| M004888 | P0174 | `Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.ExistsAwayFracOfMemHomLoc` | wave-reused |
+| M004889 | P0295 | `Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.ExistsPowMulPowEqOfIsZeroCechH` | wave-reused |
+| M004890 | P1114 | `Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.FiniteCohPushforwardIffOfIsClosedImmersion` | wave-reused |
+| M004891 | P0174 | `Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.HdimEqZeroOfSubsingleton` | wave-reused |
+| M004892 | P0174 | `Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.HomologyRestrictScalarsBijective` | wave-reused |
 | M004893 | P1143 | `Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.InterNumConsEqCokernel` | wave-reused |
 | M004894 | P0096 | `Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.IsGradedMapLinearCombination` | wave-reused |
 | M004895 | P0239 | `Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.IsIsoCechComplexMapPresheafCubeRes` | wave-reused |
@@ -94,6 +105,7 @@
 | M005166 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.ExistsUniqueSamePt` | wave-reused |
 | M005168 | P0758 | `Development.AbelianVarietyTheory.Definitions.Uniformization.ExistsUniqueTorusCompat` | wave-reused |
 | M005169 | P0810 | `Development.AbelianVarietyTheory.Definitions.Uniformization.FinrankComplexReal` | wave-reused |
+| M005171 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.IsCPPullback` | build-observed |
 | M005174 | P0891 | `Development.AbelianVarietyTheory.Definitions.Uniformization.PointEqOfSubsingleton` | wave-reused |
 | M005175 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.PsiScal` | wave-reused |
 | M005177 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.SameB` | wave-reused |
@@ -390,15 +402,3 @@
 | M005883 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SubgroupPowRelIndexUnitsOfIsAdicComplete` | wave-reused |
 | M005884 | P0348 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SubgroupPowRelIndexUnitsOfIsAdicCompleteStatement` | wave-reused |
 | M005902 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoMulCardInfinitePlaceLeQuadratic` | wave-reused |
-| M005903 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoMulCardInfinitePlaceLeQuadraticStatement` | wave-reused |
-| M005904 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoMulCardPlacesLeCardOverQuadratic` | wave-reused |
-| M005905 | P0348 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoMulCardPlacesLeCardOverQuadraticStatement` | wave-reused |
-| M005906 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoMulIndexSqsInvolution` | wave-reused |
-| M005907 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoMulIndexSqsInvolutionStatement` | wave-reused |
-| M005909 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoPowCardLeIndexIInf` | wave-reused |
-| M005910 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoPowCardLeIndexIInfStatement` | wave-reused |
-| M005911 | P0475 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoPowLeIndexLocalNormsSqrtExtension` | wave-reused |
-| M005912 | P0516 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoPowLeIndexLocalNormsSqrtExtensionStatement` | wave-reused |
-| M005936 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ValuationAlgebraMapEqCount` | wave-reused |
-| M005940 | P0176 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ValuationUnramifiedOfUnit` | wave-reused |
-| M005941 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.WithZeroEqOfLeExpIff` | wave-reused |

@@ -1270,11 +1270,13 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 | [@hipotures](https://github.com/hipotures) | [M016244](https://github.com/rohanarun/alpoge-rh-replay/issues/614#issuecomment-7047747028) | 1 | [Build evidence verified](evidence/volunteers/M016244.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M016303](https://github.com/rohanarun/alpoge-rh-replay/issues/2357#issuecomment-7049965060) | 1 | [Build evidence verified](evidence/volunteers/M016303.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M016348](https://github.com/rohanarun/alpoge-rh-replay/issues/2411#issuecomment-7050041200) | 1 | [Build evidence verified](evidence/volunteers/M016348.json) |
+| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M016355](https://github.com/rohanarun/alpoge-rh-replay/issues/2512#issuecomment-7050141627) | 1 | [Build evidence verified](evidence/volunteers/M016355.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M016469](https://github.com/rohanarun/alpoge-rh-replay/issues/1974#issuecomment-7049568496) | 1 | [Build evidence verified](evidence/volunteers/M016469.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M016640](https://github.com/rohanarun/alpoge-rh-replay/issues/2024#issuecomment-7049499379) | 1 | [Build evidence verified](evidence/volunteers/M016640.json) |
 | [@maddoxjack](https://github.com/maddoxjack) | [M016641](https://github.com/rohanarun/alpoge-rh-replay/issues/2038#issuecomment-7049525165) | 1 | [Build evidence verified](evidence/volunteers/M016641.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M016886](https://github.com/rohanarun/alpoge-rh-replay/issues/2456#issuecomment-7050073690) | 1 | [Build evidence verified](evidence/volunteers/M016886.json) |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M016897](https://github.com/rohanarun/alpoge-rh-replay/issues/10#issuecomment-7045920937) | 1 | [Build evidence verified](evidence/volunteers/M016897.json) |
+| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M016902](https://github.com/rohanarun/alpoge-rh-replay/issues/2530#issuecomment-7050174570) | 1 | [Build evidence verified](evidence/volunteers/M016902.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M016922](https://github.com/rohanarun/alpoge-rh-replay/issues/939#issuecomment-7048166885) | 1 | [Build evidence verified](evidence/volunteers/M016922.json) |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M016939](https://github.com/rohanarun/alpoge-rh-replay/issues/2517#issuecomment-7050147127) | 1 | [Build evidence verified](evidence/volunteers/M016939.json) |
 | [@Wronskode](https://github.com/Wronskode) | [M017275](https://github.com/rohanarun/alpoge-rh-replay/issues/408#issuecomment-7047242651) | 1 | [Build evidence verified](evidence/volunteers/M017275.json) |
@@ -2393,12 +2395,12 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 | Evidence for distinct module IDs | Count |
 |---|---:|
-| Successful source build observed | 9,302 |
+| Successful source build observed | 9,453 |
 | Pilot proof object reused | 150 |
 | Pilot downstream module kernel-checked | 1 |
 | Distributed proof object reused | 16,975 |
-| Volunteer build evidence reviewed | 8,125 |
-| **Total with recorded module evidence** | **34,553 / 175,187** |
+| Volunteer build evidence reviewed | 8,127 |
+| **Total with recorded module evidence** | **34,706 / 175,187** |
 
 [See each completed part and its evidence](completed/README.md) · [Machine-readable ledger](tracker/completed.tsv)
 

@@ -96,6 +96,7 @@
 | M000244 | P1169 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilySetupBesselGrowth` | build-observed |
 | M000245 | P1193 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilySetupBesselGrowthStatement` | build-observed |
 | M000246 | P1217 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilySetupCayleyBound` | volunteer-build-reviewed |
+| M000247 | P1244 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilySetupCayleyBoundStatement` | build-observed |
 | M000254 | P1193 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilySetupMomentGrowth` | build-observed |
 | M000255 | P1217 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FamilySetupMomentGrowthStatement` | volunteer-build-reviewed |
 | M000259 | P0974 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.FrechetContinuousContinuousOnOrbitHasDerivAt` | build-observed |
@@ -139,6 +140,8 @@
 | M000304 | P1114 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.TensorMomentEstimateStatement` | build-observed |
 | M000305 | P1193 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.TensorMomentTransfer` | build-observed |
 | M000306 | P1217 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.TensorMomentTransferStatement` | volunteer-build-reviewed |
+| M000307 | P1244 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.TensorMomentWeighted` | build-observed |
+| M000308 | P1271 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.TensorMomentWeightedStatement` | build-observed |
 | M000309 | P0974 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.TensorRawOfFrep` | build-observed |
 | M000310 | P1001 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.TensorRawOfFrepStatement` | build-observed |
 | M000311 | P1217 | `CompanionTheory.AutomorphicTheory.PieriRules.ThetaBesselIsometries.TensorWeightedBesselGap` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M001047 | P0515 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianLocalContinuousCongruenceSection` | build-observed |
 | M001048 | P0549 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianLocalContinuousCongruenceSectionStatement` | build-observed |
 | M001049 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianMatricesLocallyCompactBorel` | volunteer-build-reviewed |
-| M001050 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianMatricesLocallyCompactBorelStatement` | volunteer-build-reviewed |
-| M001053 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianNondegRepresentsNonzeroScalar` | volunteer-build-reviewed |
-| M001054 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianOneByOneIsScalar` | volunteer-build-reviewed |

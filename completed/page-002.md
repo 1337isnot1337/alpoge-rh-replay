@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001050 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianMatricesLocallyCompactBorelStatement` | volunteer-build-reviewed |
+| M001053 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianNondegRepresentsNonzeroScalar` | volunteer-build-reviewed |
+| M001054 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianOneByOneIsScalar` | volunteer-build-reviewed |
 | M001055 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianOneByOneIsScalarStatement` | volunteer-build-reviewed |
 | M001056 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianOpenChartDiagonalUnipotent` | volunteer-build-reviewed |
 | M001057 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianOpenChartDiagonalUnipotentStatement` | volunteer-build-reviewed |
@@ -39,7 +42,9 @@
 | M001107 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LebesgueSelfdualForDotCharacter` | volunteer-build-reviewed |
 | M001108 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LinearChangeEulerProduct` | volunteer-build-reviewed |
 | M001116 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalDensityBlockOneEventually` | volunteer-build-reviewed |
+| M001118 | P1169 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalDensityBlockOneProduct` | build-observed |
 | M001120 | P1084 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalDensityBlockOneSum` | build-observed |
+| M001121 | P1114 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalDensityBlockOneSumStatement` | build-observed |
 | M001130 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalHermitianDiagonalizationUnits` | volunteer-build-reviewed |
 | M001131 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalHermitianDiagonalizationUnitsStatement` | volunteer-build-reviewed |
 | M001133 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalLatticeCompactOpenUnitVolumeStatement` | volunteer-build-reviewed |
@@ -324,13 +329,16 @@
 | M002270 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.AbsoluteLogMeanBounds` | volunteer-build-reviewed |
 | M002271 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ActionCoordinates` | volunteer-build-reviewed |
 | M002272 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.AdelicUnitaryHaarMeasure` | volunteer-build-reviewed |
+| M002274 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ClassMeanPeriods` | build-observed |
 | M002275 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ClassesDoubleCosets` | volunteer-build-reviewed |
 | M002277 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.CosetGroupMembership` | volunteer-build-reviewed |
 | M002278 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.DualExponentDensity` | volunteer-build-reviewed |
+| M002279 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.EquidistributedConjugates` | build-observed |
 | M002284 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.InvariantRadonFibre` | volunteer-build-reviewed |
 | M002286 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.JacobiThetaHalfCharacteristic` | volunteer-build-reviewed |
 | M002291 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.LocalDualIndex` | wave-reused |
 | M002292 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.MassFormulaPositivity` | build-observed |
+| M002298 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.PeriodLatticeAgreement` | build-observed |
 | M002301 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.PerpendicularEmbedding` | volunteer-build-reviewed |
 | M002309 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SelfDualUnramifiedPlaces` | volunteer-build-reviewed |
 | M002312 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SignedLogMeans` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M002525 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.CenteredPerpendicularSets` | volunteer-build-reviewed |
 | M002555 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.BlockSumMultiplicities` | volunteer-build-reviewed |
 | M002558 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.CrystallineAtPlaces` | volunteer-build-reviewed |
-| M002559 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.CrystallineWindowLifts` | volunteer-build-reviewed |
-| M002592 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.UnramifiedLatticeEmbeddings` | volunteer-build-reviewed |
-| M002605 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.FlatZetaIntegral` | volunteer-build-reviewed |
-| M002611 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.HermitianLattices` | wave-reused |
-| M002612 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.IndexAtLevel` | volunteer-build-reviewed |
-| M002614 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.IwahoriSubgroup` | volunteer-build-reviewed |
-| M002615 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.JumpDictionary` | volunteer-build-reviewed |
-| M002616 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.LatticeConditions` | volunteer-build-reviewed |
