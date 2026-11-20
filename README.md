@@ -38,12 +38,12 @@ No submissions awaiting review.
 
 | Evidence for distinct module IDs | Count |
 |---|---:|
-| Successful source build observed | 2,742 |
+| Successful source build observed | 2,851 |
 | Pilot proof object reused | 150 |
 | Pilot downstream module kernel-checked | 1 |
 | Distributed proof object reused | 0 |
 | Volunteer build evidence reviewed | 64 |
-| **Total with recorded module evidence** | **2,957 / 175,187** |
+| **Total with recorded module evidence** | **3,066 / 175,187** |
 
 [See each completed part and its evidence](completed/README.md) · [Machine-readable ledger](tracker/completed.tsv)
 

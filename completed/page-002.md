@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M144473 | P0147 | `Formalism.FockGram.StatementHerm` | build-observed |
+| M144474 | P0068 | `Formalism.FockGram.StatementLat` | build-observed |
+| M144475 | P0211 | `Formalism.FockGram.StatementSymPos` | build-observed |
+| M144476 | P0147 | `Formalism.FockGram.StatementTensor` | build-observed |
+| M144477 | P0271 | `Formalism.FockGram.SymGramPosSemidef` | build-observed |
+| M144503 | P0211 | `Formalism.FormalDegreeBessel.StatementBF` | build-observed |
+| M144504 | P0271 | `Formalism.FormalDegreeBessel.StatementDS` | build-observed |
 | M144505 | P0147 | `Formalism.FormalDegreeBessel.StatementG` | build-observed |
 | M144506 | P0502 | `Formalism.FormalDegreeBessel.StatementIO` | build-observed |
 | M144507 | P0536 | `Formalism.FormalDegreeBessel.StatementRP` | build-observed |
@@ -62,15 +69,23 @@
 | M144590 | P0420 | `Formalism.FrobeniusOrbits.RealSubfieldLeCompositum` | build-observed |
 | M144591 | P0211 | `Formalism.FrobeniusOrbits.Statement` | build-observed |
 | M144592 | P0325 | `Formalism.GL3MeanSquares.AffineFibreCountComparison` | build-observed |
+| M144594 | P0147 | `Formalism.GL3MeanSquares.ConcavityEquidistribution` | build-observed |
 | M144597 | P0211 | `Formalism.GL3MeanSquares.FourierTransformKernelSurjective` | build-observed |
+| M144945 | P0212 | `Formalism.GL3MeanSquares.HookFormulaTorsion.BlockOperatorNormBound` | build-observed |
 | M144953 | P0271 | `Formalism.GL3MeanSquares.HookFormulaTorsion.ConditionIffDualEqFunctional` | build-observed |
 | M144956 | P0602 | `Formalism.GL3MeanSquares.HookFormulaTorsion.DifferentIdealConditions` | build-observed |
 | M144957 | P0461 | `Formalism.GL3MeanSquares.HookFormulaTorsion.DimensionMassJointBound` | build-observed |
 | M144958 | P0374 | `Formalism.GL3MeanSquares.HookFormulaTorsion.DoubleCosetDecompositionAll` | build-observed |
 | M144966 | P0271 | `Formalism.GL3MeanSquares.HookFormulaTorsion.FourierCommutesHeckeScalar` | build-observed |
+| M144974 | P0212 | `Formalism.GL3MeanSquares.HookFormulaTorsion.HookRowProductEqFactorial` | build-observed |
 | M144978 | P0374 | `Formalism.GL3MeanSquares.HookFormulaTorsion.InvariantKernelTraceVanishes` | build-observed |
 | M144979 | P0374 | `Formalism.GL3MeanSquares.HookFormulaTorsion.LemmaCTwistRamified` | build-observed |
 | M144980 | P0325 | `Formalism.GL3MeanSquares.HookFormulaTorsion.LengthQuotientBoundGeneral` | build-observed |
+| M144984 | P0212 | `Formalism.GL3MeanSquares.HookFormulaTorsion.MinkowskiDivisorBound` | build-observed |
+| M144989 | P0212 | `Formalism.GL3MeanSquares.HookFormulaTorsion.OrthogonalMinorBound` | build-observed |
+| M144994 | P0212 | `Formalism.GL3MeanSquares.HookFormulaTorsion.SeparatedSetPackingBound` | build-observed |
+| M145002 | P0212 | `Formalism.GL3MeanSquares.HookFormulaTorsion.SquareMomentFromBound` | build-observed |
+| M145003 | P0212 | `Formalism.GL3MeanSquares.HookFormulaTorsion.SumLogFactorialRowsBounds` | build-observed |
 | M145016 | P0374 | `Formalism.GL3MeanSquares.OrbitPointsDistinct` | build-observed |
 | M145017 | P0212 | `Formalism.GL3MeanSquares.PrimeCountAsymptoticInProgressions` | build-observed |
 | M145018 | P0420 | `Formalism.GL3MeanSquares.PrimeOrderRamificationResults` | build-observed |
@@ -387,18 +402,3 @@
 | M147296 | P0273 | `Formalism.HermitianLattices.StatementTheta` | build-observed |
 | M147297 | P0375 | `Formalism.HermitianLattices.ThetaLEuclid` | build-observed |
 | M147299 | P0069 | `Formalism.HyperbolicPlaceProducts.DetIndexProductHyperbolicInequality` | build-observed |
-| M147300 | P0375 | `Formalism.HyperbolicPlaceProducts.SecondLevelArithmeticNorm` | build-observed |
-| M147301 | P0069 | `Formalism.HyperbolicPlaceProducts.Statement` | build-observed |
-| M147303 | P0148 | `Formalism.HyperbolicPlaceProducts.SubgroupIndexCounts.CardEqCardRangeNsmulMulCardKer` | build-observed |
-| M147304 | P0148 | `Formalism.HyperbolicPlaceProducts.SubgroupIndexCounts.CountO` | build-observed |
-| M147305 | P0148 | `Formalism.HyperbolicPlaceProducts.SubgroupIndexCounts.DedekindLFunctions` | build-observed |
-| M147307 | P0148 | `Formalism.HyperbolicPlaceProducts.SubgroupIndexCounts.OmegaPow` | build-observed |
-| M147309 | P0327 | `Formalism.HyperbolicPlaceProducts.SubgroupIndexCounts.SesquilinearDeterminantHolds` | build-observed |
-| M147310 | P0148 | `Formalism.HyperbolicPlaceProducts.SubgroupIndexCounts.SubgroupCount` | build-observed |
-| M147313 | P0213 | `Formalism.IncomingBounds.FlowDegreeBounds.AltChooseSumEqZero` | build-observed |
-| M147314 | P0213 | `Formalism.IncomingBounds.FlowDegreeBounds.BaseTermLeTopTerm` | build-observed |
-| M147315 | P0213 | `Formalism.IncomingBounds.FlowDegreeBounds.Cayley` | build-observed |
-| M147316 | P0273 | `Formalism.IncomingBounds.FlowDegreeBounds.IndexLastReductionHolds` | build-observed |
-| M147317 | P0213 | `Formalism.IncomingBounds.FlowDegreeBounds.LemmaF` | build-observed |
-| M147318 | P0148 | `Formalism.IncomingBounds.FlowDegreeBounds.LemmaFd` | build-observed |
-| M147319 | P0148 | `Formalism.IncomingBounds.FlowDegreeBounds.MaxFlowValueAttained` | build-observed |
