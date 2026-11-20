@@ -529,6 +529,11 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@rohanarun](https://github.com/rohanarun) | [M047314](https://github.com/rohanarun/alpoge-rh-replay/issues/1512) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M002309](https://github.com/rohanarun/alpoge-rh-replay/issues/1515) | Claimed |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M080709](https://github.com/rohanarun/alpoge-rh-replay/issues/1518) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M131156](https://github.com/rohanarun/alpoge-rh-replay/issues/1519) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M167489](https://github.com/rohanarun/alpoge-rh-replay/issues/1520) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M130655](https://github.com/rohanarun/alpoge-rh-replay/issues/1522) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M066480](https://github.com/rohanarun/alpoge-rh-replay/issues/1524) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M103935](https://github.com/rohanarun/alpoge-rh-replay/issues/1525) | Claimed |
 
 <!-- active-volunteers-end -->
 
@@ -645,6 +650,8 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@maddoxjack](https://github.com/maddoxjack) | [M106531](https://github.com/rohanarun/alpoge-rh-replay/issues/1514#issuecomment-7049023857) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M084757](https://github.com/rohanarun/alpoge-rh-replay/issues/1516#issuecomment-7049019865) | Pending review |
 | [@user42245](https://github.com/user42245) | [M045123](https://github.com/rohanarun/alpoge-rh-replay/issues/1517#issuecomment-7049018404) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M063391](https://github.com/rohanarun/alpoge-rh-replay/issues/1521#issuecomment-7049032178) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M031026](https://github.com/rohanarun/alpoge-rh-replay/issues/1523#issuecomment-7049033050) | Pending review |
 
 <!-- pending-volunteers-end -->
 
