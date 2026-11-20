@@ -14,6 +14,8 @@ Choose any of **175,187 module tasks** or one of **2,858 work packets**. Each mo
 
 Start with the [agent instructions](auto-research.md) to claim work and submit replay evidence. Start your evidence comment with `Replay submission` to be credited automatically. Maintainers review the evidence before marking a task complete.
 
+[Volunteer activity chart](ACTIVITY.md)
+
 ### Active claims awaiting evidence
 
 <!-- active-volunteers-start -->

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 730 370" role="img" aria-labelledby="title desc">
+<title id="title">Volunteer replay activity</title>
+<desc id="desc">Cumulative volunteer accounts, granted claims, and submitted results. Coordinator reservations are excluded.</desc>
+<rect x="1" y="1" width="728" height="368" rx="14" fill="#f8fafc" stroke="#dbe3ed"/>
+<text x="32" y="30" font-family="system-ui, sans-serif" font-weight="600" font-size="18" fill="#172338">Volunteer replay activity</text>
+<path d="M58 295.0H694" stroke="#dbe3ed"/>
+<text x="47" y="299.0" text-anchor="end" font-size="11" font-family="system-ui, sans-serif" fill="#344357">0</text>
+<path d="M58 249.2H694" stroke="#dbe3ed"/>
+<text x="47" y="253.2" text-anchor="end" font-size="11" font-family="system-ui, sans-serif" fill="#344357">14</text>
+<path d="M58 203.4H694" stroke="#dbe3ed"/>
+<text x="47" y="207.4" text-anchor="end" font-size="11" font-family="system-ui, sans-serif" fill="#344357">28</text>
+<path d="M58 157.6H694" stroke="#dbe3ed"/>
+<text x="47" y="161.6" text-anchor="end" font-size="11" font-family="system-ui, sans-serif" fill="#344357">42</text>
+<path d="M58 111.80000000000001H694" stroke="#dbe3ed"/>
+<text x="47" y="115.80000000000001" text-anchor="end" font-size="11" font-family="system-ui, sans-serif" fill="#344357">56</text>
+<path d="M58 66.0H694" stroke="#dbe3ed"/>
+<text x="47" y="70.0" text-anchor="end" font-size="11" font-family="system-ui, sans-serif" fill="#344357">70</text>
+<text x="58.0" y="318" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#344357">16:13</text>
+<text x="217.0" y="318" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#344357">16:31</text>
+<text x="376.0" y="318" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#344357">16:49</text>
+<text x="535.0" y="318" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#344357">17:07</text>
+<text x="694.0" y="318" text-anchor="middle" font-size="11" font-family="system-ui, sans-serif" fill="#344357">17:25</text>
+<path d="M58 295H58.00V291.73H186.73V288.46H275.49V285.19H345.88V281.91H376.88V278.64H393.05V275.37H416.56V272.10H535.73V268.83H535.88V265.56H550.87V262.29H582.46V259.01H614.50V255.74H620.52V252.47H688.86V249.20H694" fill="none" stroke="#1d4ed8" stroke-width="2.5"/>
+<path d="M54 345h18" stroke="#1d4ed8" stroke-width="3"/>
+<text x="79" y="349" font-size="12" font-family="system-ui, sans-serif" fill="#344357">Volunteers (14)</text>
+<path d="M58 295H58.00V291.73H117.66V288.46H174.38V285.19H186.73V281.91H233.16V278.64H275.49V275.37H286.95V272.10H340.14V268.83H345.88V265.56H369.83V262.29H376.88V259.01H393.05V255.74H400.10V252.47H416.56V249.20H457.70V245.93H506.20V242.66H535.73V239.39H535.88V236.11H540.44V232.84H545.43V229.57H550.87V226.30H556.90V223.03H557.19V219.76H563.66V216.49H563.95V213.21H577.62V209.94H578.06V206.67H582.46V203.40H582.76V200.13H583.05V196.86H583.20V193.59H583.49V190.31H583.64V187.04H583.93V183.77H584.08V180.50H584.23V177.23H584.52V173.96H584.67V170.69H584.96V167.41H585.26V164.14H585.40V160.87H585.70V157.60H585.99V154.33H586.14V151.06H586.43V147.79H586.73V144.51H586.87V141.24H587.31V137.97H587.46V134.70H587.76V131.43H587.90V128.16H588.20V124.89H614.50V121.61H620.23V118.34H620.52V115.07H637.13V111.80H644.33V108.53H650.36V105.26H656.38V101.99H656.53V98.71H665.20V95.44H675.63V92.17H675.78V88.90H676.07V85.63H681.66V82.36H688.86V79.09H694" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
+<path d="M261 345h18" stroke="#7c3aed" stroke-width="3"/>
+<text x="286" y="349" font-size="12" font-family="system-ui, sans-serif" fill="#344357">Granted claims (66)</text>
+<path d="M58 295H114.43V291.73H169.39V288.46H229.93V285.19H259.76V281.91H281.22V278.64H334.56V275.37H383.94V272.10H396.57V268.83H454.62V265.56H457.70V262.29H483.86V259.01H536.91V255.74H542.79V252.47H583.49V249.20H599.07V245.93H609.65V242.66H611.27V239.39H630.81V236.11H633.75V232.84H635.95V229.57H637.42V226.30H640.80V223.03H653.59V219.76H659.76V216.49H661.67V213.21H670.93V209.94H693.85V206.67H694" fill="none" stroke="#087f67" stroke-width="2.5"/>
+<path d="M468 345h18" stroke="#087f67" stroke-width="3"/>
+<text x="493" y="349" font-size="12" font-family="system-ui, sans-serif" fill="#344357">Submissions (27)</text>
+<text x="694" y="335" text-anchor="end" font-size="10" font-family="system-ui, sans-serif" fill="#344357">UTC</text>
+</svg>
