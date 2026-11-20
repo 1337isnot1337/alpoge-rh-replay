@@ -6,6 +6,8 @@ from pathlib import Path
 import re
 import subprocess
 
+from claim_comments import COMMENT_FEED, comments_by_issue
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -24,6 +26,7 @@ def volunteer_updates(repo):
         receipt = json.loads(path.read_text())
         reviewed.add((receipt['contributor'].lower(), receipt['packet']))
 
+    candidates = []
     for issue in pages(repo, 'issues?labels=claim&state=all&per_page=100'):
         if 'pull_request' in issue:
             continue
@@ -34,8 +37,12 @@ def volunteer_updates(repo):
                 or (login.lower(), claim[1]) in reviewed):
             continue
 
-        number = int(issue['number'])
-        comments = list(pages(repo, f'issues/{number}/comments?per_page=100'))
+        candidates.append((issue, login, claim[1]))
+
+    histories = comments_by_issue((issue for issue, _, _ in candidates), pages(repo, COMMENT_FEED))
+    for issue, login, target in candidates:
+        number = issue['number']
+        comments = histories[number]
         submission_ids = [
             int(comment['id'])
             for comment in comments
@@ -44,12 +51,12 @@ def volunteer_updates(repo):
             and comment['body'].splitlines()[0].strip().casefold() == 'replay submission'
         ]
         if submission_ids:
-            yield number, login, claim[1], max(submission_ids)
+            yield number, login, target, max(submission_ids)
         elif issue['state'] == 'open' and any(label['name'] == 'claim-granted' for label in issue['labels']):
-            prefix = f'Granted `{claim[1]}`.'
+            prefix = f'Granted `{target}`.'
             if any(comment['user']['login'] == 'github-actions[bot]' and comment['body'].startswith(prefix)
                    for comment in comments):
-                yield number, login, claim[1], None
+                yield number, login, target, None
 
 
 def replace_section(text, marker, lines, empty):

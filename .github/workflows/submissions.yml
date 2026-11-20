@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['evidence/volunteers/**', 'tracker/submissions.py', 'tracker/activity.py', '.github/workflows/submissions.yml']
+    paths: ['evidence/volunteers/**', 'tracker/submissions.py', 'tracker/claim_comments.py', 'tracker/activity.py', '.github/workflows/submissions.yml']
 permissions:
   contents: write
   issues: read
