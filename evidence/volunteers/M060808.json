@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M060808"
+  ],
+  "started_utc": "2026-11-20T22:23:31.271406+00:00",
+  "ended_utc": "2026-11-20T22:23:43.821771+00:00",
+  "elapsed_seconds": 12.6,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6680308
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.MvPowerSeriesEvalOfPowMem:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a417c878636eb4a8d4e42451559ebfa4dd7bba58167362a6e3f427607db88811",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.PredMulSumPadicValNatFactorialAddCardLe",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsUniqueFixedPointOfAdicContraction"
+  ],
+  "objects": {
+    "M060808": "f393ff8ab07e5511fb252c32f413028dc84635c950c7945de9c2133b6a9092c5"
+  },
+  "bundle_sha256": "ea2c7f0325c6844bdbcb633ccb81b164b8c720821ef1b543e7a72ddf65545b6b",
+  "packet": "M060808",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4406#issuecomment-7052068805",
+  "reviewed_utc": "2026-11-20T22:32:02.905603+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

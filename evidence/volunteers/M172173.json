@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M172173"
+  ],
+  "started_utc": "2026-11-20T22:30:36.400578+00:00",
+  "ended_utc": "2026-11-20T22:30:51.947071+00:00",
+  "elapsed_seconds": 15.5,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6658432
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.L2DbarEstimates.PlurisubharmonicCharts.UniNilp:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "12f3118391a8200c3da529a08869093bafb4c91d1f90b9790eb64c4aa94de542",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.TracePowEqZeroOfLeDim",
+    "ReciprocityTheory.L2DbarEstimates.IsLocalHomeomorph",
+    "ReciprocityTheory.L2DbarEstimates.JacobianInterpolationStatement",
+    "ReciprocityTheory.L2DbarEstimates.PlurisubharmonicCharts.FamilyLeCoords",
+    "ReciprocityTheory.L2DbarEstimates.PlurisubharmonicCharts.GROWCountStatement"
+  ],
+  "objects": {
+    "M172173": "ffe4664c184f5df0cdc0f7a2d101b0003024a1c3d1944d11d4110157b158fd41"
+  },
+  "bundle_sha256": "be17d12c596da939682d7ab221ef249f84e3068b885b42e9ae9531c36d89d466",
+  "packet": "M172173",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4633#issuecomment-7052198444",
+  "reviewed_utc": "2026-11-20T22:31:38.281616+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

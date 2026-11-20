@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M003890"
+  ],
+  "started_utc": "2026-11-20T22:30:19.143027+00:00",
+  "ended_utc": "2026-11-20T22:30:35.246923+00:00",
+  "elapsed_seconds": 16.1,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6659772
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.Divisors.SameDiv:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "89e5b1e7cb1533d462e862e51868c0c7e87db28136d6a69abef961b2d6aaf4c1",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsGrpPullback",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.AbelianSchemeQuotients.IsAbelianScheme",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.CubicalStructures.CubeSymmetricSwapFirst",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.CubicalStructures.CubicalPullBaseChangeSt",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.SplitTori.SplitTorusAff"
+  ],
+  "objects": {
+    "M003890": "cc57310514fbb3d6e86d4db1f8ca4da6616b5ef5cb50122327b030636c7d38a0"
+  },
+  "bundle_sha256": "5472d1c1c59c6e7aa68dba739cde3b50eebabfdf3fb08257b5312a37d30705d1",
+  "packet": "M003890",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4626#issuecomment-7052193141",
+  "reviewed_utc": "2026-11-20T22:31:39.487102+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001016 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramRightActionIdentitiesStatement` | volunteer-build-reviewed |
 | M001017 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramRightMulActionLaws` | volunteer-build-reviewed |
 | M001018 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramRightMulActionLawsStatement` | volunteer-build-reviewed |
 | M001019 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramTransposeDualTraceIdentity` | volunteer-build-reviewed |
@@ -375,13 +376,17 @@
 | M002284 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.InvariantRadonFibre` | volunteer-build-reviewed |
 | M002286 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.JacobiThetaHalfCharacteristic` | volunteer-build-reviewed |
 | M002287 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.JetSumTable` | build-observed |
+| M002288 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.LatticeNormalFormUnipotent` | build-observed |
 | M002291 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.LocalDualIndex` | wave-reused |
 | M002292 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.MassFormulaPositivity` | build-observed |
+| M002295 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.NormalFormInclusion` | build-observed |
 | M002297 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.OverPlaceIntegralForm` | build-observed |
 | M002298 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.PeriodLatticeAgreement` | build-observed |
 | M002301 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.PerpendicularEmbedding` | volunteer-build-reviewed |
+| M002303 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SandwichNormalForm` | build-observed |
 | M002309 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SelfDualUnramifiedPlaces` | volunteer-build-reviewed |
 | M002312 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SignedLogMeans` | volunteer-build-reviewed |
+| M002313 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SourceLatticeInvariance` | build-observed |
 | M002314 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SplittingProjection` | build-observed |
 | M002315 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.StabiliserCardinality` | volunteer-build-reviewed |
 | M002318 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.StandardDeterminantUnit` | build-observed |
@@ -390,15 +395,10 @@
 | M002321 | P1084 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.TameGeneratorWindow` | build-observed |
 | M002322 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ThetaCharacteristicZeroNorm` | volunteer-build-reviewed |
 | M002323 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ThetaConstantWeber` | wave-reused |
+| M002325 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.UnfoldingOperatorConditions` | build-observed |
 | M002331 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.AdelicUnitaryGroups` | build-observed |
 | M002332 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.ArcFramePointTruncation` | volunteer-build-reviewed |
+| M002333 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.BesselDatum` | build-observed |
 | M002339 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.CuspFormNormData` | volunteer-build-reviewed |
 | M002340 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.DegreeIdentityCharacter` | volunteer-build-reviewed |
 | M002346 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.FockOrthogonalDecomposition` | build-observed |
-| M002349 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.FullTranscendenceDegree` | volunteer-build-reviewed |
-| M002350 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.IsotypicSignedParameters` | volunteer-build-reviewed |
-| M002352 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.LatticeModelCharts` | volunteer-build-reviewed |
-| M002353 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.LevelCuspCharacters` | volunteer-build-reviewed |
-| M002358 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.SchurLatticeConjugates` | volunteer-build-reviewed |
-| M002360 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.ShiftMapsUpDown` | build-observed |
-| M002363 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.TensorObjectExistence` | volunteer-build-reviewed |

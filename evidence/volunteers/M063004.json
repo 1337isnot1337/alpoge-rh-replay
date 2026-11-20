@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M063004"
+  ],
+  "started_utc": "2026-11-20T22:27:13.191079+00:00",
+  "ended_utc": "2026-11-20T22:27:21.443172+00:00",
+  "elapsed_seconds": 8.3,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6685660
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.LogClassNumberLeLogAbsDiscrDiv:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7f663f154e620709b1c879461800d358c9df3abb0a91705cb038a6448b30df22",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsIdealInClassOfNormLeSqrtDiscr"
+  ],
+  "objects": {
+    "M063004": "ff9a0e5f81f0ee6aca6f9e97f69b61aba0a86bee09252e1b3a197d2b76699a82"
+  },
+  "bundle_sha256": "d506264ca4601c018e934a9d4e76ec8ba1c389759b8002b1c766b1fcdd9962dc",
+  "packet": "M063004",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4507#issuecomment-7052135011",
+  "reviewed_utc": "2026-11-20T22:31:44.547678+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

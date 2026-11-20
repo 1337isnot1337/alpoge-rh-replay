@@ -216,6 +216,7 @@
 | M000529 | P0172 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.MapStdPoly` | volunteer-build-reviewed |
 | M000530 | P0237 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.SmallPI` | volunteer-build-reviewed |
 | M000531 | P0237 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.Transfer` | volunteer-build-reviewed |
+| M000553 | P0838 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.FundamentalDomainCusps.FiniteDimensionalFromLinearForms` | volunteer-build-reviewed |
 | M000559 | P0001 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.FundamentalDomainCusps.NilpAlg` | volunteer-build-reviewed |
 | M000567 | P0346 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.HaarBumpFunctions.ExistsIsBump` | volunteer-build-reviewed |
 | M000568 | P0293 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.HaarBumpFunctions.ExistsOpOfForm` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M001011 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramMatrixLocalGlobal` | volunteer-build-reviewed |
 | M001012 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramMatrixLocalGlobalStatement` | volunteer-build-reviewed |
 | M001015 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramRightActionIdentities` | volunteer-build-reviewed |
-| M001016 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramRightActionIdentitiesStatement` | volunteer-build-reviewed |

@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M010466"
+  ],
+  "started_utc": "2026-11-20T22:30:24.348449+00:00",
+  "ended_utc": "2026-11-20T22:30:45.568178+00:00",
+  "elapsed_seconds": 21.2,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6631616
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemOfForallRingEquivFixed:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c720746e7c06ada511691eb4e1d698d45754b3ef73575e67426e4e7c28d3d4b6",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRingEquivAddOne",
+    "Formalism.GaloisIrreducibility.Statement",
+    "Formalism.PadicSubsetSums.CentralIdempotents.EigenbasisOfDistinctRoots",
+    "Formalism.PadicSubsetSums.CentralIdempotents.GaloisIrreducibility",
+    "Formalism.PadicSubsetSums.StableGradedCounts.FixedByAutomorphismInField"
+  ],
+  "objects": {
+    "M010466": "58b377c21bdcb505f71a66c618517a3753b42e2937bfa414d3c84812626466e9"
+  },
+  "bundle_sha256": "d3a1b6c34f9853f0c0f591bc85598e45a64abffb27373bdcc936d9bc45073eb1",
+  "packet": "M010466",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4629#issuecomment-7052199435",
+  "reviewed_utc": "2026-11-20T22:31:38.274413+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

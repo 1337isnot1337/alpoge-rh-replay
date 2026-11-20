@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M003647"
+  ],
+  "started_utc": "2026-11-20T22:30:12.691752+00:00",
+  "ended_utc": "2026-11-20T22:30:39.818530+00:00",
+  "elapsed_seconds": 27.1,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6709440
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.Divisors.IsAdmissibleIntegralBasisChangeOne:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7965d576b2c8ed3cf32cb60d8eb74aa6c4ba4c211d576b2bdd012dd22a56d51b",
+  "rebuilt_project_modules": [
+    "GroundTheory.FunctionField.PlaceAbove",
+    "GroundTheory.FunctionField.PlaceBasic",
+    "GroundTheory.FunctionField.PlaceBridge",
+    "GroundTheory.FunctionField.PlaceDefs",
+    "GroundTheory.FunctionField.PlaceSum"
+  ],
+  "objects": {
+    "M003647": "9601d47912b8757aa595939628ed67f626fa3f7c7c5d97273d2fe95ac74504bf"
+  },
+  "bundle_sha256": "3d2873ae20ee8ec857b88375a8fc245f83cebcd9b65efcbb198d1b9ad4c27653",
+  "packet": "M003647",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4623#issuecomment-7052195650",
+  "reviewed_utc": "2026-11-20T22:31:40.990133+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M119353"
+  ],
+  "started_utc": "2026-11-20T22:30:24.620340+00:00",
+  "ended_utc": "2026-11-20T22:30:38.290289+00:00",
+  "elapsed_seconds": 13.7,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32797520,
+    "peak_child_rss_kib": 6612800
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.ThickFrames.MarkedLow:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "60b37875970b3a59fe9c0f64bf6d5f3d1ebdcc5cd90b1a4ca46eb0512dae2202",
+  "rebuilt_project_modules": [
+    "Formalism.SubspaceCounting.GoodOrbitIntervalTileCondition",
+    "Formalism.SubspaceCounting.Statement",
+    "Formalism.SubspaceCounting.StatementB",
+    "Formalism.SubspaceCounting.StatementC",
+    "Formalism.SubspaceCounting.TopsChoiceSecondBound"
+  ],
+  "objects": {
+    "M119353": "2851b50d1c17cd38eefe34988f92e44ffd1d329aee9387ac6b84829ec979bd57"
+  },
+  "bundle_sha256": "a9748100a73fef796295645b88699b9a38d3a9918263a294d280aa9e22bd9b8b",
+  "packet": "M119353",
+  "contributor": "agi-for-my-llama",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4630#issuecomment-7052194061",
+  "reviewed_utc": "2026-11-20T22:31:38.135716+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}
