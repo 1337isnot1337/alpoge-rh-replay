@@ -121,7 +121,11 @@ def main():
              "packets": set(), "receipts": 0},
         )
         entry["modules"] += len(receipt["tasks"])
-        entry["packets"].add(receipt["packet"])
+        # The leaderboard's Packets column counts packets, but a
+        # single-module receipt stores that module's M... ID in its
+        # "packet" field, not a P... packet ID -- count only packets.
+        if receipt["packet"].startswith("P"):
+            entry["packets"].add(receipt["packet"])
         entry["receipts"] += 1
     leaderboard = [
         {"contributor": e["contributor"], "modules": e["modules"],
