@@ -4,6 +4,7 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@DanieleCorso](https://github.com/DanieleCorso) | [M045785](https://github.com/rohanarun/alpoge-rh-replay/issues/3043#issuecomment-7050933284) | Pending review |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M045961](https://github.com/rohanarun/alpoge-rh-replay/issues/3045#issuecomment-7050934043) | Pending review |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M046245](https://github.com/rohanarun/alpoge-rh-replay/issues/3046#issuecomment-7050934673) | Pending review |
 | [@DanieleCorso](https://github.com/DanieleCorso) | [M046250](https://github.com/rohanarun/alpoge-rh-replay/issues/3048#issuecomment-7050935390) | Pending review |
@@ -253,4 +254,3 @@
 | [@amrehan](https://github.com/amrehan) | [M018492](https://github.com/rohanarun/alpoge-rh-replay/issues/5659#issuecomment-7052734396) | Pending review |
 | [@jjjhenriksen](https://github.com/jjjhenriksen) | [M163894](https://github.com/rohanarun/alpoge-rh-replay/issues/5703#issuecomment-7052768900) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M002003](https://github.com/rohanarun/alpoge-rh-replay/issues/5730#issuecomment-7052776650) | Pending review |
-| [@mu-mei](https://github.com/mu-mei) | [M119713](https://github.com/rohanarun/alpoge-rh-replay/issues/5734#issuecomment-7052775938) | Pending review |
