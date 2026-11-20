@@ -38,15 +38,17 @@ def run(targets,checkout,out,bundle):
  project=checkout.resolve();output=out.resolve();output.mkdir(parents=True,exist_ok=False)
  dirs=project.parent
  env={**os.environ,'ELAN_HOME':str(dirs/'elan'),'XDG_CACHE_HOME':str(dirs/'cache')}
- if (project/'lean-toolchain').read_text().strip()!='leanprover/lean4:v4.33.1':raise SystemExit('Wrong Lean toolchain')
- version=subprocess.check_output(['lean','--version'],env=env,cwd=project,text=True).strip()
+ toolchain = (project / 'lean-toolchain').read_text().strip()
+ if toolchain != 'leanprover/lean4:v4.33.1':raise SystemExit('Wrong Lean toolchain')
+ launcher = ['elan', 'run', toolchain]
+ version=subprocess.check_output([*launcher, 'lean','--version'],env=env,cwd=project,text=True).strip()
  mathlib=subprocess.check_output(['git','-C',str(project/'.lake/packages/mathlib'),'rev-parse','HEAD'],text=True).strip()
  if '4.33.1' not in version or mathlib!=json.loads((base/'summary.json').read_text())['mathlib_commit']:raise SystemExit('Unexpected toolchain or mathlib')
  for r in targets:
   if digest(project/'src'/(r['module'].replace('.','/')+'.lean'))!=r['source_sha256']:raise SystemExit('Source hash mismatch: '+r['module'])
  cmd=['lake','build',*['+'+r['module']+':olean' for r in targets]]
  log=output/'build.log'
- with log.open('wb') as f:result=subprocess.run(cmd,cwd=project,env=env,stdout=f,stderr=subprocess.STDOUT)
+ with log.open('wb') as f:result=subprocess.run([*launcher, *cmd],cwd=project,env=env,stdout=f,stderr=subprocess.STDOUT)
  receipt={'tasks':[r['id'] for r in targets],'ended_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'toolchain':version,'mathlib':mathlib,'inputs_manifest_sha256':digest(base.parent/'parts.sha256'),'command':cmd,'exit_code':result.returncode,'log_sha256':digest(log),'objects':{}}
  build=project/'.lake/build'
  if result.returncode==0:
