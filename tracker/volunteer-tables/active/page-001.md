@@ -12,7 +12,6 @@
 | [@Lv-00-ANI](https://github.com/Lv-00-ANI) | [M109322](https://github.com/rohanarun/alpoge-rh-replay/issues/215) | Claimed |
 | [@TVSuchty](https://github.com/TVSuchty) | [M141625](https://github.com/rohanarun/alpoge-rh-replay/issues/243) | Claimed |
 | [@TVSuchty](https://github.com/TVSuchty) | [M119659](https://github.com/rohanarun/alpoge-rh-replay/issues/244) | Claimed |
-| [@surfyhou](https://github.com/surfyhou) | [P1099](https://github.com/rohanarun/alpoge-rh-replay/issues/245) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M049826](https://github.com/rohanarun/alpoge-rh-replay/issues/249) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M051308](https://github.com/rohanarun/alpoge-rh-replay/issues/250) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M157546](https://github.com/rohanarun/alpoge-rh-replay/issues/251) | Claimed |
@@ -254,3 +253,4 @@
 | [@rohanarun](https://github.com/rohanarun) | [M104026](https://github.com/rohanarun/alpoge-rh-replay/issues/906) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M110958](https://github.com/rohanarun/alpoge-rh-replay/issues/907) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M056840](https://github.com/rohanarun/alpoge-rh-replay/issues/908) | Claimed |
+| [@rohanarun](https://github.com/rohanarun) | [M140582](https://github.com/rohanarun/alpoge-rh-replay/issues/909) | Claimed |
