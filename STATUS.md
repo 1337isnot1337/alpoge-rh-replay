@@ -1,10 +1,26 @@
 # Coordinator progress
 
-Updated 2026-11-20 17:57 UTC.
+Updated 2026-11-20 21:49 UTC.
 
 The full source build, axiom audit and fresh-kernel verification of RH are pending. Volunteers can claim work using the [contributor guide](CONTRIBUTING.md).
 
-## Distributed replay
+## Latest worker status
+
+| Wave | Observed progress |
+| --- | --- |
+| Completed Render wave | All 20 targets passed the primary reuse check, adding 2,312 modules. |
+| Current Render wave | All 20 helper bundles are ready and their backups passed checksum checks. The primary import is pending. |
+| First Google wave | All 100 workers completed. The imports passed digest checks, and Lake required source rebuilding. |
+| Separate 100-worker Google wave | 99 succeeded and one failed. The primary checked 98 bundles and is running the source builds Lake required. The final successful bundle has been checked separately. |
+| 500-task Google campaign | All 500 assigned tasks produced successful build transcripts. 471 succeeded on the first attempt and 29 needed a retry. Matching those transcripts against the exact assignment scopes gives 29,797 distinct compiled project modules across the workers. Primary imports are queued. |
+
+The [module ledger](completed/README.md) reports accepted project coverage. The Google worker total above includes shared prerequisites and overlaps the ledger. The final proof still requires Main's end-to-end checks.
+
+## Google Cloud reuse pilot
+
+A separate worker restored the pinned Google build environment, verified the aggregate bundle digest and its exact 885-module scope, then ran Lake with rebuilding and downloads disabled. Lake accepted both requested targets. The pinned Lean checker also replayed both targets against their imported modules. The receipt records both commands, exit codes and log digests. This check covers two targets. The final audit of Main is pending. [Pilot receipt](evidence/google-native-reuse-pilot.json)
+
+## First Render wave
 
 The coordinator provisioned one primary and 31 helpers. The first wave reserved up to 11,114 project modules beyond its initial build snapshot. A completed helper bundle becomes evidence of successful reuse when the primary accepts it with rebuilding disabled.
 

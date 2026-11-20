@@ -1,0 +1,33 @@
+{
+  "scope": "Two archive targets checked in the original Google worker environment, including module-level kernel replay.",
+  "lean": "4.33.1",
+  "lean_commit": "819816b2e0a3bf405af45ae5c7af2491d8f5bee6",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "lake_command": [
+    "lake",
+    "--no-build",
+    "--no-cache",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionHermitianLinearFormFgModuleStatement:olean",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankSmulMemAdelesFiniteMultipleOfTensorCongru:olean"
+  ],
+  "kernel_command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--verbose",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionHermitianLinearFormFgModuleStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankSmulMemAdelesFiniteMultipleOfTensorCongru"
+  ],
+  "targets": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionHermitianLinearFormFgModuleStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankSmulMemAdelesFiniteMultipleOfTensorCongru"
+  ],
+  "bundle_sha256": "642b5674cbfb674ea66893d8464f5df9d5ebd0d3693b6d03db36941a6e3a8c79",
+  "lake_exit": 0,
+  "kernel_exit": 0,
+  "reuse_log_sha256": "a5d30b51a0c64db4674dd0f4a33a0a6759c850f06a41241a65711c33a519cc12",
+  "kernel_log_sha256": "aeebd8e9b3a1188345644815d7bb53135b25a19c0d1a7658170e3da486833728",
+  "exact_kernel_lines": 2,
+  "project_module_count": 885
+}

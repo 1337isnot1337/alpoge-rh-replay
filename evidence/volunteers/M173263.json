@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M173263"
+  ],
+  "started_utc": "2026-11-20T20:43:58.752582+00:00",
+  "ended_utc": "2026-11-20T20:45:25.455100+00:00",
+  "elapsed_seconds": 86.7,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 8024536,
+    "peak_child_rss_kib": 6598360
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.HtDefs:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "75f641cd96a1f10a716bab6719ce18d3810357457832201550d2ea97aa3a170c",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.HeightIntegralEstimates",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.LaTIsPrime"
+  ],
+  "objects": {
+    "M173263": "244d7f9ff5cec263a05957cec1e5352655605a6814980571f286810eb75d14a3"
+  },
+  "bundle_sha256": "580221699d0e6103b7da21bff1b4eb676da60a7abd999eeaefeb6655e0273f97",
+  "packet": "M173263",
+  "contributor": "BenCaunt",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/2538#issuecomment-7050206123",
+  "reviewed_utc": "2026-11-20T20:53:08.673693+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

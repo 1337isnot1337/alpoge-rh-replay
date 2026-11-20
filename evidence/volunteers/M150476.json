@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M150476"
+  ],
+  "started_utc": "2026-11-20T21:46:16.478557+00:00",
+  "ended_utc": "2026-11-20T21:46:30.930690+00:00",
+  "elapsed_seconds": 14.5,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 65758100,
+    "peak_child_rss_kib": 5816512
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.ProjectiveLattices.RegQFree:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1c8e957d4faf5017d3546497fdaf8f262e8194e170a904367f7657490f8f6a3b",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M150476": "dca7712cdbd8e58b37bf570fc8ba07de15b560ec2fa648e6659ab52872c54306"
+  },
+  "bundle_sha256": "643816fbf8601a7d9064b5208ed3020e37169d2b24225151b1761a1271ac155b",
+  "packet": "M150476",
+  "contributor": "emsi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/3571#issuecomment-7051401978",
+  "reviewed_utc": "2026-11-20T21:59:22.862542+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

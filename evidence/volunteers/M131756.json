@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M131756"
+  ],
+  "started_utc": "2026-11-20T21:30:17.662545+00:00",
+  "ended_utc": "2026-11-20T21:31:07.097531+00:00",
+  "elapsed_seconds": 49.4,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 8024536,
+    "peak_child_rss_kib": 6473228
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimeChartExistsUniquePointStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fc00c88c40c92889f1b384107f226134ee49c465acf3e064e88477d9b6a27c63",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimeChartExistsUniquePoint"
+  ],
+  "objects": {
+    "M131756": "cf5d5a0cbd1f045ca910a61f9a7a4714f1c525e3f96d4278b91df9d1cb7d655c"
+  },
+  "bundle_sha256": "8164dd474904d67cc96937b72394a11a20bdec8ec77a0278dec624216395533f",
+  "packet": "M131756",
+  "contributor": "BenCaunt",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/3309#issuecomment-7051105002",
+  "reviewed_utc": "2026-11-20T21:32:26.378167+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

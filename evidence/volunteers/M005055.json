@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    "M005055"
+  ],
+  "ended_utc": "2026-11-20T19:13:19.505868+00:00",
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.ThetaMetrics.HasSumLocallyUniformlyWeierstrassZetaExcept:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "997adf37bdae63d953024982462b1f836acf3b88e72b49ca15b94ade6b958d66",
+  "objects": {
+    "M005055": "f6afbde7daecbd7ca8f26bea9e1101b2bca924111f8808954014bc2592176e01"
+  },
+  "bundle_sha256": "9b95f3da31e83b3ef8e066660d19f0d341745292e885569f23db739badef1566",
+  "packet": "M005055",
+  "contributor": "gabeldev",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/1086#issuecomment-7048370579",
+  "reviewed_utc": "2026-11-20T19:20:48.615327+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

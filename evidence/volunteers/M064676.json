@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M064676"
+  ],
+  "started_utc": "2026-11-20T21:56:18.141728+00:00",
+  "ended_utc": "2026-11-20T21:58:10.585345+00:00",
+  "elapsed_seconds": 112.4,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 8024536,
+    "peak_child_rss_kib": 6471308
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.DisjointSpanPerpLat:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2592456764596f293454fcf0e7f12eb815ea54098b1383287392962759076295",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SelfDualLatticeActions",
+    "Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.UnitaryLatticeOrthogonal"
+  ],
+  "objects": {
+    "M064676": "1fb60de4ab37b8ddf7928963d8cf3804b68df9dd0cfeb70d393be1224e0da291"
+  },
+  "bundle_sha256": "4ef6e3dd2deef92227653044fffd754410f68af3746df0f121357a968e61142c",
+  "packet": "M064676",
+  "contributor": "BenCaunt",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/3746#issuecomment-7051605926",
+  "reviewed_utc": "2026-11-20T21:58:55.166425+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

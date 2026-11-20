@@ -7,7 +7,8 @@ import math
 import os
 from pathlib import Path
 import re
-import subprocess
+
+from submissions import claim_snapshot
 
 TRACKER = Path(__file__).resolve().parent
 SERIES = {
@@ -22,8 +23,9 @@ def activity(issues, owner, reviewed_comments):
     first_grants = {}
     for issue in issues:
         claim = re.fullmatch(r'Claim (P\d{4}|M\d{6})', issue['title'])
-        login = issue['author']['login']
-        if not claim or login.casefold() == owner.casefold() or issue['author']['is_bot']:
+        author = issue.get('author') or {}
+        login = author.get('login')
+        if not claim or not login or login.casefold() == owner.casefold() or author['is_bot']:
             continue
         grant_prefix = f'Granted `{claim[1]}`.'
         grants = [
@@ -45,6 +47,21 @@ def activity(issues, owner, reviewed_comments):
             events.append((min(submissions), 'submission', issue['number'], login))
     events.extend((stamp, 'volunteer', issue, login) for login, (stamp, issue) in first_grants.items())
     return sorted(events)
+
+
+def render_volunteer_roster(readme, events):
+    """Replace the README roster with volunteers credited in the activity log."""
+    logins = {
+        login.casefold(): login for _, kind, _, login in events
+        if kind in ('volunteer', 'submission') and re.fullmatch(r'[A-Za-z0-9-]+', login)
+    }
+    names = ', '.join(f'[@{login}](https://github.com/{login})'
+                      for _, login in sorted(logins.items()))
+    start, end = '<!-- volunteer-roster-start -->', '<!-- volunteer-roster-end -->'
+    if start not in readme or end not in readme:
+        return readme
+    roster = f'**Replay volunteers ({len(logins)})**\n\n{names}' if names else 'No replay volunteers recorded yet.'
+    return f'{readme.split(start, 1)[0]}{start}\n\n{roster}\n\n{end}{readme.split(end, 1)[1]}'
 
 
 def render_svg(events):
@@ -99,21 +116,36 @@ def render_svg(events):
     return '\n'.join(svg)+'\n'
 
 
-def main():
-    repo = os.environ['GITHUB_REPOSITORY']
-    fields = 'number,title,author,comments'
-    issues = json.loads(subprocess.check_output(
-        ['gh','issue','list','--repo',repo,'--state','all','--label','claim','--limit','10000','--json',fields],
-        text=True,
-    ))
+def activity_issues(snapshot):
+    issues, histories = snapshot
+    for issue in issues:
+        user = issue.get('user') or {}
+        yield {
+            'number': issue['number'], 'title': issue['title'],
+            'author': {'login': user.get('login'), 'is_bot': user.get('type') != 'User'},
+            'comments': [
+                {'author': {'login': (c.get('user') or {}).get('login')},
+                 'createdAt': c['created_at'], 'url': c['html_url'], 'body': c.get('body') or ''}
+                for c in histories.get(issue['number'], ())
+            ],
+        }
+
+
+def update(repo, snapshot):
     reviewed = {json.loads(p.read_text())['claim'] for p in (TRACKER.parent/'evidence/volunteers').glob('*.json')}
-    events = activity(issues,repo.split('/')[0],reviewed)
+    events = activity(activity_issues(snapshot), repo.split('/')[0], reviewed)
     with (TRACKER/'activity.tsv').open('w', newline='') as stream:
         output = csv.writer(stream, delimiter='\t', lineterminator='\n')
         output.writerow(['timestamp_utc','event','issue','volunteer'])
         output.writerows(events)
     (TRACKER/'activity.svg').write_text(render_svg(events))
+    readme = TRACKER.parent/'README.md'
+    current = readme.read_text()
+    updated = render_volunteer_roster(current, events)
+    if updated != current:
+        readme.write_text(updated)
 
 
 if __name__ == '__main__':
-    main()
+    repo = os.environ['GITHUB_REPOSITORY']
+    update(repo, claim_snapshot(repo))

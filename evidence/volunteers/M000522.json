@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    "M000522"
+  ],
+  "started_utc": "2026-11-20T20:15:28.051384+00:00",
+  "ended_utc": "2026-11-20T20:16:15.264078+00:00",
+  "elapsed_seconds": 47.2,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8014508,
+    "peak_child_rss_kib": 5883580
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.GardingAvg:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1825f13eb1e50d1424a7e293746b9a95091ff3e01ebdb7d9afc96f47df2f39e1",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M000522": "6fe01f3bb4c6c09429f6d0784588e63fcfc5438308f19851151f4d59154308d6"
+  },
+  "packet": "M000522",
+  "contributor": "123454321bobbob-tech",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/2096#issuecomment-7050750353",
+  "reviewed_utc": "2026-11-20T21:16:12.473741+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

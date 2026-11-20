@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M002172"
+  ],
+  "started_utc": "2026-11-20T21:18:40.501040+00:00",
+  "ended_utc": "2026-11-20T21:19:51.808933+00:00",
+  "elapsed_seconds": 71.3,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 8024536,
+    "peak_child_rss_kib": 6506992
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuasiPlurisubharmonic:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a82f9d72cac82ea5738de971721f5e08fe9e02e9bce8effea22d00cd71118210",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.IsPshLocallyIntegrableStatement"
+  ],
+  "objects": {
+    "M002172": "09ae5e82861827b36343dc39b2d041fc17cc4ceacecef1805dbf8b0b8e6623f7"
+  },
+  "bundle_sha256": "474c8f88d7e339676ce163215ac1303fd3813e2a075dc197081a0f4746676f31",
+  "packet": "M002172",
+  "contributor": "BenCaunt",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/3146#issuecomment-7050890929",
+  "reviewed_utc": "2026-11-20T21:32:44.364825+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

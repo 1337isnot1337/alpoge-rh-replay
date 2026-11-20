@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M130284"
+  ],
+  "started_utc": "2026-11-20T21:34:06.714685+00:00",
+  "ended_utc": "2026-11-20T21:34:38.544907+00:00",
+  "elapsed_seconds": 31.8,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 16423848,
+    "peak_child_rss_kib": 6825088
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsLieModelStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b99d85192f95df91a3791b31784d559f9d872afac8fdd49f518a7afbd56debaa",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LieModel",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsLieModel"
+  ],
+  "objects": {
+    "M130284": "0b04b99a1740922167a10ad6838672c72ba9da3fcc36cb9267d9ed07ff48bd8c"
+  },
+  "bundle_sha256": "ec5b24172c2f6dd4dd525d6b17822fd8f3423a8e541b14108cb5838e51dcf27a",
+  "packet": "M130284",
+  "contributor": "nicu-chiciuc",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/3425#issuecomment-7051176608",
+  "reviewed_utc": "2026-11-20T21:46:32.793722+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

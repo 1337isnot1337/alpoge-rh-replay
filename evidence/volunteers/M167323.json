@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M167323"
+  ],
+  "started_utc": "2026-11-20T21:10:45.121511+00:00",
+  "ended_utc": "2026-11-20T21:11:05.127748+00:00",
+  "elapsed_seconds": 20.0,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 11217672,
+    "peak_child_rss_kib": 6906804
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.LintegralFibSum:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "463df280bf526535169a713be6d27b0c6c9a0d07887944021d53eb6240df408e",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterBridgeG"
+  ],
+  "objects": {
+    "M167323": "e2565b7521a98080d181816d5db24d560633856104188efceda96ebb31a15d70"
+  },
+  "bundle_sha256": "314f3499b26223b82dc0ca6b4630756367dfbb96925d9a736bfa2853317377e3",
+  "packet": "M167323",
+  "contributor": "egergerfg",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/3012#issuecomment-7050746972",
+  "reviewed_utc": "2026-11-20T21:15:29.901288+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

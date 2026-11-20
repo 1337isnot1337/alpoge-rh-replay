@@ -27,6 +27,8 @@ python3 tracker/tasks.py claim P0123
 
 The claim command opens a public issue. You can also open an issue manually with a title of the form `Claim P0123` or `Claim M000001`. Check for overlapping claims after submitting. Wait for the claim-granted label and matching bot comment before starting. A serialized workflow preserves existing valid grants and processes simultaneous new requests in issue-number order. Close a claim if you stop working on it. The snapshot states in the index describe coordinator progress at the recorded time. Open claim issues supply the live volunteer assignments. The coordinator's full run also continues in the background.
 
+The **Observe volunteer reservation times** workflow publishes a downloadable `claim-timing.tsv` every two hours. For each volunteer grant it measures wall time to the claimant’s first `Replay submission`, closure, or the current observation for an open claim. Open intervals are lower bounds. The longest silence column measures gaps between claimant comments on that issue, including time from grant and up to the observation endpoint. Work on a runner and updates posted on another issue can occur during those gaps. The workflow only reads claims.
+
 ## Choosing a task
 
 Depth is project-import depth: it counts the chain of project modules a module imports. Mathlib arrives prebuilt from the pinned cache, but project modules do not. On a cold machine Lake builds the transitive project imports of your target locally before the target itself, so cold build cost grows quickly with depth. A shallow packet or a single shallow module is the right first task; a depth-100 packet can mean building thousands of project modules first. A first build on a new machine also pays the one-time prepare step: the archive download and the Mathlib cache fill a volume of roughly 11 GB.
@@ -48,7 +50,100 @@ Use Linux with elan, Git, GNU tar, sha256sum, a C toolchain and adequate storage
 python3 tracker/tasks.py build P0123 /path/to/new/replay-volume/lean /path/to/new/receipt --bundle
 ```
 
-The task command checks the selected sources and pinned mathlib revision, builds the targets with Lake, and saves the command, exit status, toolchain identity, output hashes and build transcript. Lake will build missing imports locally. A module late in the dependency graph can require substantial work on a cold machine. The optional bundle contains the selected modules' generated build files. Use `--fast-bundle` to package the same files with gzip level 1 when worker time matters more than transfer size. Both variants record the final archive's SHA-256 in the receipt. The public index lists direct project dependencies as task IDs.
+The task command checks the selected sources and pinned mathlib revision, builds the targets with Lake, and saves the command, exit status, toolchain identity, output hashes and build transcript. The receipt also records UTC start and end times, elapsed seconds, the host's CPU count and memory, the peak memory of the largest build process, and `rebuilt_project_modules`: the project imports this run's Lake transcript reports as built, besides the requested targets. Lake will build missing imports locally. A module late in the dependency graph can require substantial work on a cold machine. The optional bundle contains the selected modules' generated build files. Use `--fast-bundle` to package the same files with gzip level 1 when worker time matters more than transfer size. Both variants record the final archive's SHA-256 in the receipt. The public index lists direct project dependencies as task IDs.
+
+## Build on Windows or macOS with Docker
+
+The replay scripts expect Linux. On Windows or macOS, run them in a Docker container. Building the project runs Lean code from the archive, so do not mount host folders into the container. Use a named volume for the build.
+
+```bash
+docker volume create rhwork
+docker run -d --name rhreplay -v rhwork:/work ubuntu:24.04 sleep infinity
+docker exec -it rhreplay bash
+```
+
+Inside the container:
+
+```bash
+apt-get update && apt-get install -y curl git python3 build-essential ca-certificates
+curl -sSfL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -o /tmp/elan-init.sh
+sh /tmp/elan-init.sh -y --default-toolchain none
+ln -s /root/.elan/bin/* /usr/local/bin/
+git clone https://github.com/rohanarun/alpoge-rh-replay /work/repo
+cd /work/repo
+./verify.sh /work/vol --prepare-only
+python3 tracker/tasks.py next --cold
+```
+
+The container has no GitHub login. Claim from the host instead, either on the website or with the GitHub CLI:
+
+```bash
+gh issue create --repo rohanarun/alpoge-rh-replay --title "Claim M000001" --body "I am working on M000001."
+```
+
+After the grant, build inside the container, then copy the receipt to the host for your submission:
+
+```bash
+python3 tracker/tasks.py build M000001 /work/vol/lean /work/receipt-M000001 --bundle
+```
+
+```bash
+docker cp rhreplay:/work/receipt-M000001 .
+```
+
+Notes:
+
+- Docker Desktop limits the container's memory. With the WSL 2 backend on Windows, the limit comes from WSL, which defaults to half of the host RAM. Raise it with `memory=` under `[wsl2]` in `%UserProfile%\.wslconfig`, then run `wsl --shutdown`. On macOS, use Docker Desktop's Resources settings. Run `free -g` in the container to see the limit.
+- The prepare step downloads about 8,700 Mathlib cache files and can be slow. After that, a cold module builds in minutes. One took about 5 minutes on 16 vCPUs.
+- `ubuntu:24.04` has no `/usr/bin/time`. Use the shell's `time` keyword to log elapsed time, or install the `time` package.
+- In Git Bash on Windows, prefix `docker exec` and `docker cp` commands that contain container paths with `MSYS_NO_PATHCONV=1`. Otherwise Git Bash rewrites `/work/...` into a Windows path.
+- Remove everything afterwards with `docker rm -f rhreplay` and `docker volume rm rhwork`.
+
+## Run a persistent volunteer worker
+
+Use a Linux or macOS controller with Python 3.9+, Docker and an authenticated GitHub CLI. The builder runs inside the prepared Linux container from the Docker instructions above. Use the same tracker revision on both sides. Keep GitHub credentials on the controller and use a named volume per native Lean toolchain and platform. An existing warm volume should already have known provenance. The first dispatcher build records its platform and pins under `.lake/build` and subsequent dispatcher builds check them.
+
+Capture the worker's inventory inside the container. The inventory contains the archive and toolchain pins, the Lean target triple, and project module IDs present on that worker. Refresh the controller checkout before selecting work.
+
+```bash
+docker exec rhreplay python3 /work/repo/tracker/replay_evidence.py inventory /work/vol/lean > worker.json
+python3 tracker/tasks.py next --warm worker.json --limit 20 > candidates.txt
+awk '{print $1}' candidates.txt > assignments.txt
+```
+
+Supply `--primary-inventory primary.json` when the primary has provided a recent snapshot from the same inventory command. Warm suggestions omit targets on either machine, skip occupied reservations, and favor available direct consumers per estimated missing project build. Each suggestion has a disjoint set of missing imports within this list. The default maximum is three missing project modules per target, adjustable with `--max-builds`. Presence in an inventory guides scheduling. Lake checks actual reuse on the receiver.
+
+Run the controller with your own evidence fork. This command opens public claims, uploads verified receipt, log and bundle assets to releases on your fork, and submits comments on granted claims.
+
+```bash
+python3 tracker/worker.py assignments.txt worker-state --jobs 2 \
+  --container rhreplay --fork YOUR-LOGIN/alpoge-rh-replay
+```
+
+Assignments may contain individual module or packet IDs. The controller bounds outstanding reservations and parallel builds with `--jobs` (default 1). Choose a value that fits the container's memory. It waits for the grant label and the matching bot comment. Replay artifacts stay under `/work/receipts` on the persistent builder volume. The controller stores verified evidence and a journal in `worker-state`. Use `--container-repo`, `--checkout` and `--receipts` for other container paths.
+
+Restart with the same command and state directory. A durable claim marker and issue history recover writes whose responses were lost. A builder lock and completed receipt let the controller reconnect after an interruption. After a conflict or failure, inspect `worker-state/state.json`, the issue and the numbered local log. Close abandoned claims. After resolving a recoverable error, add `--retry M000001` for that task. If the journal reports an unconfirmed public write, check the issue history before explicitly retrying. An interrupted or failed compiler attempt keeps its evidence on the builder.
+
+### Check evidence and measure receiver progress
+
+Verify an archived bundle independently with the controller's tracker. To check source and installed object hashes too, pass the prepared checkout. Older unbundled receipts require this checkout.
+
+```bash
+python3 tracker/replay_evidence.py verify M000001 path/to/receipt
+```
+
+When a requested module already exists in the worker cache and has no build line, the builder runs the pinned Lean kernel checker against its imported environment. It checks the installed object against the receipt before and after replay. The submission links `kernel-replay.json` alongside the receipt, bundle and Lake log. The record includes the exact command, per-module transcript, successful exit status and the SHA-256 of the receipt. Download it with the other assets for offline verification.
+
+For a transfer, capture the primary's inventory before installing reviewed, platform-compatible artifacts using the coordinator's existing procedure. On the primary, run the following inside its prepared environment.
+
+```bash
+python3 tracker/replay_evidence.py inventory /work/vol/lean > before.json
+# Install the reviewed artifacts, then check the exact granted target.
+python3 tracker/replay_evidence.py reuse-check M000001 /work/imported/receipt \
+  --checkout /work/vol/lean --before before.json
+```
+
+The receiver checks the native platform, pins, source and object hashes, then runs the original Lake targets with rebuilding and remote cache downloads disabled. Successful JSON output lists the checked targets and those absent from the before-inventory. Timed receipts also report new targets per producer Lake hour. For a wave, count distinct accepted new IDs and sum producer build times once per receipt. This measures target reuse. The final Main build, axiom audit and fresh kernel replay remain separate milestones.
 
 ## Troubleshoot a Lean version mismatch
 
@@ -67,6 +162,10 @@ The run prints its Lean version near the start of the cache step. If it still fa
 Begin a comment on your claim with `Replay submission` on its own first line. Include the task or packet ID, exit status, elapsed time, and links to the receipt and log. For a large bundle, attach it to a release on your fork and include its SHA-256 digest. Check logs for personal paths before publishing. The README credits you while your evidence is pending. Keep the claim open for review. Maintainers check the grant, pinned toolchain and inputs, exact target list, successful transcript, and artifact digests before marking a volunteer build complete. Reviewed receipts go in `evidence/volunteers/` and appear in the README and module ledger. Maintainers close accepted claims as completed. Any later reuse or kernel replay is recorded separately. If a build fails, include the first Lean error, file and line, resource limits, and reproduction command.
 
 The final acceptance record separately checks the standard RH proposition, its axiom dependencies and the fresh kernel replay of Main. Module receipts are evidence of partial progress.
+
+For work on new proofs, the [proof reuse example](examples/proof-reuse/README.md)
+includes a duplicate-proof scanner, two reusable Lean lemmas and a pinned
+compiler check against 33 archive declarations.
 
 ## Coordinator and cloud helpers
 

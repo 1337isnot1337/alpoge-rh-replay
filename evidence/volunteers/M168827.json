@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M168827"
+  ],
+  "started_utc": "2026-11-20T21:40:26.615844+00:00",
+  "ended_utc": "2026-11-20T21:41:29.617247+00:00",
+  "elapsed_seconds": 63.0,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 8024536,
+    "peak_child_rss_kib": 6519536
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.MatrixCharts.TransposeEqOfPosSemidef:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2aae20cb3fd8c4b600cec1381ff52a6d8a2947115742efa2e25af2f633793cbd",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.MatrixCharts.HermValueIsLeast",
+    "GroundTheory.HeightsAndTheta.Heights.MatrixCharts.Statements"
+  ],
+  "objects": {
+    "M168827": "733469e542c9ca7dba5dfb316b37249170806ec424f8e481fa525e1d7d7c1ffa"
+  },
+  "bundle_sha256": "d03659e0a7e9d75968a500fc21f3ac6514d10f52b4e009780f3ee20fe42cd643",
+  "packet": "M168827",
+  "contributor": "BenCaunt",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/3516#issuecomment-7051295813",
+  "reviewed_utc": "2026-11-20T21:46:18.923344+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}
