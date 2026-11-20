@@ -72,7 +72,7 @@
   <h2>Evidence by category</h2>
   <div class="bar" id="catbar" role="img" aria-label="Evidence category breakdown"></div>
   <div class="legend" id="catlegend"></div>
-  <table id="cattable"><thead><tr><th>Category</th><th class="num">Modules</th><th class="num">Share of verified</th></tr></thead><tbody></tbody></table>
+  <table id="cattable"><thead><tr><th>Category</th><th class="num">Modules</th><th class="num">Share of recorded evidence</th></tr></thead><tbody></tbody></table>
 
   <h2>Progress by import depth</h2>
   <p class="sub">Modules with recorded evidence vs. total modules, grouped by project-import depth.</p>
@@ -85,7 +85,10 @@
   <p class="sub">Reviewed volunteer build receipts in <code>evidence/volunteers/</code>.</p>
   <table id="volunteers"><thead><tr><th>Contributor</th><th class="num">Modules reviewed</th><th class="num">Packets</th><th class="num">Receipts</th></tr></thead><tbody></tbody></table>
 
-  <h2>Most recent completions</h2>
+  <h2>Latest ledger entries (highest module IDs)</h2>
+  <p class="sub">The ledger (<code>tracker/completed.tsv</code>) is sorted by module ID and
+  carries no timestamps, so these are the last 25 ledger rows — the highest module IDs —
+  not the most recent completions in time.</p>
   <ul class="recent" id="recent"></ul>
 
   <footer id="footer"></footer>
@@ -107,7 +110,7 @@ fetch("data.json")
   .then(function (r) { if (!r.ok) { throw new Error("data.json: HTTP " + r.status); } return r.json(); })
   .then(function (d) {
     var t = d.totals;
-    el("headline").textContent = t.percent_done.toFixed(2) + "% verified — " +
+    el("headline").textContent = t.percent_done.toFixed(2) + "% of modules with recorded evidence — " +
       fmt(t.with_evidence) + " of " + fmt(t.modules) + " modules";
     el("bigfill").style.width = t.percent_done + "%";
     el("cards").innerHTML =

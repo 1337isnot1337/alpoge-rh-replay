@@ -130,6 +130,9 @@ def main():
                         key=lambda e: (-e["modules"], e["contributor"]))
     ]
 
+    # completed.tsv is sorted by module ID and has no timestamps, so this
+    # "recent" list is the last ledger rows (highest module IDs), NOT the
+    # most recent completions in time. The dashboard labels it accordingly.
     recent = [
         {"id": r["id"], "packet": r["packet"], "module": r["module"],
          "evidence": r["evidence"],
