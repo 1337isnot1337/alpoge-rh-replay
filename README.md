@@ -22,72 +22,8 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@rohanarun](https://github.com/rohanarun) | [M136510](https://github.com/rohanarun/alpoge-rh-replay/issues/22) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M058401](https://github.com/rohanarun/alpoge-rh-replay/issues/23) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M021979](https://github.com/rohanarun/alpoge-rh-replay/issues/24) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M123818](https://github.com/rohanarun/alpoge-rh-replay/issues/25) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M091794](https://github.com/rohanarun/alpoge-rh-replay/issues/26) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M085409](https://github.com/rohanarun/alpoge-rh-replay/issues/27) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M025586](https://github.com/rohanarun/alpoge-rh-replay/issues/28) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M133511](https://github.com/rohanarun/alpoge-rh-replay/issues/29) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M057416](https://github.com/rohanarun/alpoge-rh-replay/issues/30) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M083527](https://github.com/rohanarun/alpoge-rh-replay/issues/31) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M064420](https://github.com/rohanarun/alpoge-rh-replay/issues/32) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M072100](https://github.com/rohanarun/alpoge-rh-replay/issues/33) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M024563](https://github.com/rohanarun/alpoge-rh-replay/issues/34) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M090614](https://github.com/rohanarun/alpoge-rh-replay/issues/35) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M134007](https://github.com/rohanarun/alpoge-rh-replay/issues/36) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M099228](https://github.com/rohanarun/alpoge-rh-replay/issues/37) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M040036](https://github.com/rohanarun/alpoge-rh-replay/issues/38) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M129288](https://github.com/rohanarun/alpoge-rh-replay/issues/39) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M069028](https://github.com/rohanarun/alpoge-rh-replay/issues/40) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M083832](https://github.com/rohanarun/alpoge-rh-replay/issues/41) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M100540](https://github.com/rohanarun/alpoge-rh-replay/issues/42) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M074487](https://github.com/rohanarun/alpoge-rh-replay/issues/43) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M085862](https://github.com/rohanarun/alpoge-rh-replay/issues/44) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M014323](https://github.com/rohanarun/alpoge-rh-replay/issues/45) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M124912](https://github.com/rohanarun/alpoge-rh-replay/issues/46) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M130304](https://github.com/rohanarun/alpoge-rh-replay/issues/47) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M174688](https://github.com/rohanarun/alpoge-rh-replay/issues/48) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M168896](https://github.com/rohanarun/alpoge-rh-replay/issues/49) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M014033](https://github.com/rohanarun/alpoge-rh-replay/issues/50) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M169460](https://github.com/rohanarun/alpoge-rh-replay/issues/51) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M120150](https://github.com/rohanarun/alpoge-rh-replay/issues/52) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M018348](https://github.com/rohanarun/alpoge-rh-replay/issues/53) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M110476](https://github.com/rohanarun/alpoge-rh-replay/issues/54) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M155516](https://github.com/rohanarun/alpoge-rh-replay/issues/55) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M134276](https://github.com/rohanarun/alpoge-rh-replay/issues/56) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M128457](https://github.com/rohanarun/alpoge-rh-replay/issues/57) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M028088](https://github.com/rohanarun/alpoge-rh-replay/issues/58) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M086353](https://github.com/rohanarun/alpoge-rh-replay/issues/59) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M072991](https://github.com/rohanarun/alpoge-rh-replay/issues/60) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M006519](https://github.com/rohanarun/alpoge-rh-replay/issues/61) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M074773](https://github.com/rohanarun/alpoge-rh-replay/issues/62) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M007972](https://github.com/rohanarun/alpoge-rh-replay/issues/63) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M013491](https://github.com/rohanarun/alpoge-rh-replay/issues/64) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M007088](https://github.com/rohanarun/alpoge-rh-replay/issues/65) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M147854](https://github.com/rohanarun/alpoge-rh-replay/issues/66) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M129582](https://github.com/rohanarun/alpoge-rh-replay/issues/67) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M130487](https://github.com/rohanarun/alpoge-rh-replay/issues/68) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M138441](https://github.com/rohanarun/alpoge-rh-replay/issues/69) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M083938](https://github.com/rohanarun/alpoge-rh-replay/issues/70) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M069179](https://github.com/rohanarun/alpoge-rh-replay/issues/71) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M153978](https://github.com/rohanarun/alpoge-rh-replay/issues/72) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M109256](https://github.com/rohanarun/alpoge-rh-replay/issues/73) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M134128](https://github.com/rohanarun/alpoge-rh-replay/issues/74) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M070279](https://github.com/rohanarun/alpoge-rh-replay/issues/75) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M085438](https://github.com/rohanarun/alpoge-rh-replay/issues/76) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M162655](https://github.com/rohanarun/alpoge-rh-replay/issues/77) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M165497](https://github.com/rohanarun/alpoge-rh-replay/issues/78) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M140405](https://github.com/rohanarun/alpoge-rh-replay/issues/79) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M085282](https://github.com/rohanarun/alpoge-rh-replay/issues/80) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M154737](https://github.com/rohanarun/alpoge-rh-replay/issues/81) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M000572](https://github.com/rohanarun/alpoge-rh-replay/issues/82) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M064502](https://github.com/rohanarun/alpoge-rh-replay/issues/83) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M009460](https://github.com/rohanarun/alpoge-rh-replay/issues/84) | Claimed |
 | [@shardmods](https://github.com/shardmods) | [P0757](https://github.com/rohanarun/alpoge-rh-replay/issues/120) | Claimed |
 | [@shardmods](https://github.com/shardmods) | [P1016](https://github.com/rohanarun/alpoge-rh-replay/issues/122) | Claimed |
-| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0744](https://github.com/rohanarun/alpoge-rh-replay/issues/133) | Claimed |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0659](https://github.com/rohanarun/alpoge-rh-replay/issues/134) | Claimed |
 | [@Genius-Cai-wen-zheng](https://github.com/Genius-Cai-wen-zheng) | [P1230](https://github.com/rohanarun/alpoge-rh-replay/issues/158) | Claimed |
 | [@dgahelper](https://github.com/dgahelper) | [P0826](https://github.com/rohanarun/alpoge-rh-replay/issues/160) | Claimed |
@@ -180,6 +116,7 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@shardmods](https://github.com/shardmods) | [P0628](https://github.com/rohanarun/alpoge-rh-replay/issues/115#issuecomment-7046297848) | 64 | [Build evidence verified](evidence/volunteers/P0628.json) |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0630](https://github.com/rohanarun/alpoge-rh-replay/issues/135#issuecomment-7046723994) | 64 | [Build evidence verified](evidence/volunteers/P0630.json) |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0661](https://github.com/rohanarun/alpoge-rh-replay/issues/132#issuecomment-7046674165) | 64 | [Build evidence verified](evidence/volunteers/P0661.json) |
+| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0744](https://github.com/rohanarun/alpoge-rh-replay/issues/133#issuecomment-7046804107) | 64 | [Build evidence verified](evidence/volunteers/P0744.json) |
 | [@shardmods](https://github.com/shardmods) | [P0766](https://github.com/rohanarun/alpoge-rh-replay/issues/121#issuecomment-7046260012) | 64 | [Build evidence verified](evidence/volunteers/P0766.json) |
 | [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [P0783](https://github.com/rohanarun/alpoge-rh-replay/issues/129#issuecomment-7046740555) | 64 | [Build evidence verified](evidence/volunteers/P0783.json) |
 | [@shardmods](https://github.com/shardmods) | [P0794](https://github.com/rohanarun/alpoge-rh-replay/issues/116#issuecomment-7046403491) | 64 | [Build evidence verified](evidence/volunteers/P0794.json) |
@@ -196,12 +133,12 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 
 | Evidence for distinct module IDs | Count |
 |---|---:|
-| Successful source build observed | 4,143 |
+| Successful source build observed | 4,230 |
 | Pilot proof object reused | 150 |
 | Pilot downstream module kernel-checked | 1 |
 | Distributed proof object reused | 14,699 |
-| Volunteer build evidence reviewed | 3,542 |
-| **Total with recorded module evidence** | **22,535 / 175,187** |
+| Volunteer build evidence reviewed | 3,606 |
+| **Total with recorded module evidence** | **22,686 / 175,187** |
 
 [See each completed part and its evidence](completed/README.md) · [Machine-readable ledger](tracker/completed.tsv)
 

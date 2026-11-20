@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M122696 | P1159 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsChowCoverIntegralStatement` | wave-reused |
+| M122706 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsCompactOpenSubgroupMem` | volunteer-build-reviewed |
+| M122713 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsCongruenceSubset` | volunteer-build-reviewed |
+| M122716 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsConjMulEq` | volunteer-build-reviewed |
+| M122727 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsCosetRepsOpenInCompact` | volunteer-build-reviewed |
+| M122729 | P1235 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsCrystallineLift` | wave-reused |
 | M122730 | P1262 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsCrystallineLiftStatement` | wave-reused |
 | M122743 | P0906 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsDividedPowersOnReductions` | wave-reused |
 | M122744 | P0934 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsDividedPowersOnReductionsStatement` | wave-reused |
@@ -396,9 +402,3 @@
 | M127403 | P0563 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SheafFiltrationProperty` | wave-reused |
 | M127404 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SheafFiltrationPropertyStatement` | volunteer-build-reviewed |
 | M127445 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ShuffleCoboundaryDegreeZero` | volunteer-build-reviewed |
-| M127447 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ShuffleCoboundaryFormula` | volunteer-build-reviewed |
-| M127449 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ShuffleCup1DegreeZeroFormula` | volunteer-build-reviewed |
-| M127451 | P0596 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ShuffleCup1FormulaPositiveDegree` | volunteer-build-reviewed |
-| M127516 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SignCancel` | volunteer-build-reviewed |
-| M127625 | P0414 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SmoothUniformExponent` | wave-reused |
-| M127679 | P1343 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SpanSectionsAllAffinesOfCover` | wave-reused |

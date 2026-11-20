@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M115506 | P0627 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LiftingTheory` | wave-reused |
+| M115507 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LimitOfFinite` | wave-reused |
 | M115515 | P0367 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LocPairValLinear` | wave-reused |
 | M115518 | P0136 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LocalSituation` | build-observed |
 | M115522 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LocallyConstantOfKernel` | wave-reused |
@@ -69,10 +71,14 @@
 | M115978 | P0264 | `Development.AutomorphicArithmetic.OrbitLabellings.ColDefs` | build-observed |
 | M115979 | P0770 | `Development.AutomorphicArithmetic.OrbitLabellings.EvenAddOrderOfHPOfPowLe` | build-observed |
 | M115981 | P0203 | `Development.AutomorphicArithmetic.OrbitLabellings.ExistsMaxFlowAttainedAndIsOptDual` | build-observed |
+| M115982 | P0318 | `Development.AutomorphicArithmetic.OrbitLabellings.ExistsNonnegDualFnumSubLeOfDemandNearMul` | build-observed |
 | M115986 | P1073 | `Development.AutomorphicArithmetic.OrbitLabellings.FInertSubEatILeOrbitAverageSubErrors` | build-observed |
 | M115989 | P0770 | `Development.AutomorphicArithmetic.OrbitLabellings.GalEArithFrobEqIotaHP` | build-observed |
 | M115991 | P0990 | `Development.AutomorphicArithmetic.OrbitLabellings.KvalGeOfNormMfactMulCoeffLe` | build-observed |
+| M115997 | P0688 | `Development.AutomorphicArithmetic.OrbitLabellings.NormMfactMulCoeffLeOfB0S` | build-observed |
 | M115998 | P0770 | `Development.AutomorphicArithmetic.OrbitLabellings.NotIsCsOfGIdx` | build-observed |
+| M116004 | P0264 | `Development.AutomorphicArithmetic.OrbitLabellings.SumDemandFilterTwoDivLeOfIsOptDual` | build-observed |
+| M116005 | P0058 | `Development.AutomorphicArithmetic.OrbitLabellings.SumLogDivCubeLeOfTwoPowDvd` | build-observed |
 | M116051 | P0594 | `Development.AutomorphicArithmetic.PrimeDiscriminants.RamDiscr` | build-observed |
 | M116052 | P0742 | `Development.AutomorphicArithmetic.PrimeDiscriminants.Scales` | build-observed |
 | M116054 | P0561 | `Development.AutomorphicArithmetic.PrimeDiscriminants.SmallRam` | build-observed |
@@ -396,9 +402,3 @@
 | M122693 | P0562 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsChartFromCoordinates` | volunteer-build-reviewed |
 | M122694 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsChartFromCoordinatesStatement` | volunteer-build-reviewed |
 | M122695 | P1133 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsChowCoverIntegral` | wave-reused |
-| M122696 | P1159 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsChowCoverIntegralStatement` | wave-reused |
-| M122706 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsCompactOpenSubgroupMem` | volunteer-build-reviewed |
-| M122713 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsCongruenceSubset` | volunteer-build-reviewed |
-| M122716 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsConjMulEq` | volunteer-build-reviewed |
-| M122727 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsCosetRepsOpenInCompact` | volunteer-build-reviewed |
-| M122729 | P1235 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsCrystallineLift` | wave-reused |

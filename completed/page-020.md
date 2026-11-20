@@ -320,6 +320,8 @@
 | M114637 | P0492 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.WtBCOf` | wave-reused |
 | M114638 | P0412 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.WtDegConst` | wave-reused |
 | M114639 | P0492 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.WtPtOf` | wave-reused |
+| M114899 | P0594 | `Development.AutomorphicArithmetic.FrobeniusLocalisation.FrobGSpec` | build-observed |
+| M114920 | P0561 | `Development.AutomorphicArithmetic.FrobeniusLocalisation.SizeDefs` | build-observed |
 | M114945 | P0047 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.AbEval` | wave-reused |
 | M114948 | P0047 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.AbsolutelyIrreducibleSpan` | wave-reused |
 | M114975 | P0047 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.AuxiliaryNormPrimes` | build-observed |
@@ -400,5 +402,3 @@
 | M115498 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LeSpanSingletonOfForallMemEq` | wave-reused |
 | M115500 | P0263 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LevelOfCongruence` | wave-reused |
 | M115503 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LiftErrorLocal` | wave-reused |
-| M115506 | P0627 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LiftingTheory` | wave-reused |
-| M115507 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LimitOfFinite` | wave-reused |
