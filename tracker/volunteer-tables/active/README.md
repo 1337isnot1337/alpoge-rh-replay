@@ -1,8 +1,8 @@
 # Active claims awaiting evidence
 
-878 entries.
+953 entries.
 
 - [Entries 1–250](page-001.md)
 - [Entries 251–500](page-002.md)
 - [Entries 501–750](page-003.md)
-- [Entries 751–878](page-004.md)
+- [Entries 751–953](page-004.md)
