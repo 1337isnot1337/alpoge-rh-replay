@@ -9,6 +9,14 @@ python3 tracker/tasks.py next
 python3 tracker/tasks.py show M000001
 ```
 
+For a worker with the pinned Mathlib cache and no project build outputs, run
+`python3 tracker/tasks.py next --cold`. This lists individual modules with no
+project imports, including available members of partially occupied packets.
+It skips observed, assigned, and claimed modules. Suggestions first favor
+modules that are the sole project import of more available tasks, then those
+with more available direct consumers. These counts describe the source graph.
+Use the displayed module ID to claim a single module.
+
 Choose a packet from the live suggestions or a single open module. Replace the sample identifier below with your selection.
 
 ```bash
