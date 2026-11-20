@@ -18,6 +18,11 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 
 ### Active claims awaiting evidence
 
+[Browse open granted claims on GitHub](https://github.com/rohanarun/alpoge-rh-replay/issues?q=is%3Aissue+is%3Aopen+label%3Aclaim-granted).
+
+<details>
+<summary>Show active claims awaiting evidence</summary>
+
 <!-- active-volunteers-start -->
 
 | Contributor | Task | Status |
@@ -343,6 +348,8 @@ Start with the [agent instructions](auto-research.md) to claim work and submit r
 | [@shardmods](https://github.com/shardmods) | [P1399](https://github.com/rohanarun/alpoge-rh-replay/issues/1020) | Claimed |
 
 <!-- active-volunteers-end -->
+
+</details>
 
 ### Submitted for review
 
