@@ -9,6 +9,14 @@ python3 tracker/tasks.py next
 python3 tracker/tasks.py show M000001
 ```
 
+For a worker with the pinned Mathlib cache and no project build outputs, run
+`python3 tracker/tasks.py next --cold`. This lists individual modules with no
+project imports, including available members of partially occupied packets.
+It skips observed, assigned, and claimed modules. Suggestions first favor
+modules that are the sole project import of more available tasks, then those
+with more available direct consumers. These counts describe the source graph.
+Use the displayed module ID to claim a single module.
+
 Choose a packet from the live suggestions or a single open module. Replace the sample identifier below with your selection.
 
 ```bash
@@ -26,7 +34,7 @@ Use Linux with elan, Git, GNU tar, sha256sum, a C toolchain and adequate storage
 python3 tracker/tasks.py build P0123 /path/to/new/replay-volume/lean /path/to/new/receipt --bundle
 ```
 
-The task command checks the selected sources and pinned mathlib revision, builds the targets with Lake, and saves the command, exit status, toolchain identity, output hashes and build transcript. Lake will build missing imports locally. A module late in the dependency graph can require substantial work on a cold machine. The optional bundle contains the selected modules' generated build files. The public index lists direct project dependencies as task IDs.
+The task command checks the selected sources and pinned mathlib revision, builds the targets with Lake, and saves the command, exit status, toolchain identity, output hashes and build transcript. Lake will build missing imports locally. A module late in the dependency graph can require substantial work on a cold machine. The optional bundle contains the selected modules' generated build files. Use `--fast-bundle` to package the same files with gzip level 1 when worker time matters more than transfer size. Both variants record the final archive's SHA-256 in the receipt. The public index lists direct project dependencies as task IDs.
 
 ## Troubleshoot a Lean version mismatch
 

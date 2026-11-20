@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Look up module-sized replay tasks, reserve work and produce receipts."""
+from collections import Counter
 from pathlib import Path
 import argparse,datetime,gzip,hashlib,json,os,re,subprocess,sys,tarfile,urllib.request
 base=Path(__file__).resolve().parent
@@ -22,6 +23,23 @@ def select(rows,target):
  out=[r for r in rows if target in (r['id'],r['packet'],r['module'])]
  if not out:raise SystemExit('Unknown task or packet: '+target)
  return out
+def cold_modules(rows, busy):
+    """Rank available tasks with no project imports by their available direct consumers."""
+    available = [r for r in rows if r['state'] == 'open'
+                 and r['id'] not in busy and r['packet'] not in busy]
+    leaves = {r['id']: r for r in available if not r['imports']}
+    sole = Counter()
+    direct = Counter()
+    for row in available:
+        imports = set(row['imports'])
+        for dep in imports:
+            if dep in leaves:
+                direct[dep] += 1
+                if len(imports) == 1:
+                    sole[dep] += 1
+    ranked = sorted(leaves, key=lambda task: (-sole[task], -direct[task], task))
+    return [(leaves[task], sole[task], direct[task]) for task in ranked]
+
 def claims():
  url=f'https://api.github.com/repos/{repo}/issues?state=open&per_page=100'
  refs=set()
@@ -34,7 +52,7 @@ def claims():
    match=re.search(r'<([^>]+)>; rel="next"',response.headers.get('Link',''))
    url=match[1] if match else None
  return refs
-def run(targets,checkout,out,bundle):
+def run(targets,checkout,out,bundle,fast_bundle=False):
  project=checkout.resolve();output=out.resolve();output.mkdir(parents=True,exist_ok=False)
  dirs=project.parent
  env={**os.environ,'ELAN_HOME':str(dirs/'elan'),'XDG_CACHE_HOME':str(dirs/'cache')}
@@ -53,9 +71,10 @@ def run(targets,checkout,out,bundle):
  build=project/'.lake/build'
  if result.returncode==0:
   for r in targets:receipt['objects'][r['id']]=digest(build/'lib/lean'/(r['module'].replace('.','/')+'.olean'))
-  if bundle:
+  if bundle or fast_bundle:
    artifact=output/'targets.tar.gz'
-   with tarfile.open(artifact,'w:gz') as tar:
+   options = {'compresslevel': 1} if fast_bundle else {}
+   with tarfile.open(artifact,'w:gz',**options) as tar:
     for r in targets:
      stem=r['module'].replace('.','/')
      for prefix in ['lib/lean','ir']:
@@ -69,13 +88,20 @@ def run(targets,checkout,out,bundle):
 def main():
  p=argparse.ArgumentParser(description=__doc__);s=p.add_subparsers(dest='action',required=True)
  nx=s.add_parser('next');nx.add_argument('--limit',type=int,default=8)
+ nx.add_argument('--cold',action='store_true',help='show available individual modules with no project imports')
  for n in ['show','claim','build']:
   sub=s.add_parser(n);sub.add_argument('target')
   if n=='build':
    sub.add_argument('checkout',type=Path);sub.add_argument('output',type=Path);sub.add_argument('--bundle',action='store_true')
+   sub.add_argument('--fast-bundle',action='store_true',help='write the same tar members with gzip level 1 for faster packaging')
  a=p.parse_args();rows=load()
  if a.action=='next':
-  busy=claims();used={r['packet'] for r in rows if r['id'] in busy or r['state']!='open'};shown=set()
+  busy=claims()
+  if a.cold:
+   for row,sole,direct in cold_modules(rows,busy)[:max(0,a.limit)]:
+    print(row['id'],row['packet'],row['module'],'sole-project-import consumers',sole,'direct consumers',direct)
+   return 0
+  used={r['packet'] for r in rows if r['id'] in busy or r['state']!='open'};shown=set()
   for r in rows:
    if r['packet'] in busy|used|shown:continue
    print(r['packet'],'depth',r['depth'],'begins with',r['module']);shown.add(r['packet'])
@@ -88,6 +114,6 @@ def main():
   busy=claims()
   if any(r['id'] in busy or r['packet'] in busy or r['state']!='open' for r in sel):raise SystemExit('One or more modules are already claimed, observed, or assigned.')
   subprocess.run(['gh','issue','create','--repo',repo,'--title','Claim '+a.target,'--body','I am working on '+a.target+'. I will attach the input hashes, build transcript and receipt, or close this claim if I stop.'],check=True)
- else:return run(sel,a.checkout,a.output,a.bundle)
+ else:return run(sel,a.checkout,a.output,a.bundle,a.fast_bundle)
  return 0
 if __name__=='__main__':sys.exit(main())
