@@ -124,10 +124,16 @@ def main():
     # ---- packets.tsv against the snapshot --------------------------------
     packets_path = tracker / 'packets.tsv'
     if not check('packets.exists', packets_path.exists(), str(packets_path)):
-        packet_rows = {}
+        packet_list = []
     else:
         with packets_path.open() as f:
-            packet_rows = {r['packet']: r for r in csv.DictReader(f, delimiter='\t')}
+            packet_list = list(csv.DictReader(f, delimiter='\t'))
+    packet_ids = [r['packet'] for r in packet_list]
+    dup_packets = sorted({p for p in packet_ids if packet_ids.count(p) > 1})
+    check('packets.unique_ids', not dup_packets,
+          f'packet ids are unique in {len(packet_list)} rows' if not dup_packets
+          else 'duplicate packet rows: ' + examples(dup_packets))
+    packet_rows = {r['packet']: r for r in packet_list}
     count = Counter(r['packet'] for r in rows)
     open_count = Counter(r['packet'] for r in rows if r['state'] == 'open')
     depths = defaultdict(set)
