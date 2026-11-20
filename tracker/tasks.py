@@ -30,8 +30,12 @@ def host_resources():
   info['peak_child_rss_kib']=resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss
  except ImportError:pass
  return info
+def module_rows():
+    with gzip.open(base / 'modules.jsonl.gz', 'rt') as stream:
+        yield from map(json.loads, stream)
+
 def load():
- with gzip.open(base/'modules.jsonl.gz','rt') as f:rows=[json.loads(s) for s in f]
+ rows=list(module_rows())
  completed=base/'completed.tsv'
  if completed.exists():
   import csv
@@ -39,10 +43,17 @@ def load():
   for r in rows:
    if r['id'] in done:r['state']=done[r['id']]
  return rows
-def select(rows,target):
- out=[r for r in rows if target in (r['id'],r['packet'],r['module'])]
- if not out:raise SystemExit('Unknown task or packet: '+target)
- return out
+def select(rows, target, *, project_modules=None):
+    """Collect matching targets and, for builds, the names needed to classify the transcript."""
+    targets = []
+    for row in rows:
+        if project_modules is not None:
+            project_modules.add(row['module'])
+        if target in (row['id'], row['packet'], row['module']):
+            targets.append(row)
+    if not targets:
+        raise SystemExit('Unknown task or packet: ' + target)
+    return targets
 def cold_modules(rows, busy):
     """Rank available tasks with no project imports by their available direct consumers."""
     available = [r for r in rows if r['state'] == 'open'
@@ -130,7 +141,7 @@ def claims():
                 refs.add(match[1])
     return refs
 
-def run(targets,checkout,out,bundle,fast_bundle=False):
+def run(targets,checkout,out,bundle,fast_bundle=False,*,project_modules=None):
  project=checkout.resolve();output=out.resolve()
  if output.exists():raise SystemExit('Output directory already exists: '+str(output))
  dirs=project.parent
@@ -150,7 +161,8 @@ def run(targets,checkout,out,bundle,fast_bundle=False):
  started=datetime.datetime.now(datetime.timezone.utc);clock=time.monotonic()
  with log.open('wb') as f:result=subprocess.run([*launcher, *cmd],cwd=project,env=env,stdout=f,stderr=subprocess.STDOUT)
  elapsed=round(time.monotonic()-clock,1)
- rebuilt=rebuilt_imports(log.read_text(errors='replace'),{r['module'] for r in load()},{r['module'] for r in targets})
+ if project_modules is None:project_modules={r['module'] for r in module_rows()}
+ rebuilt=rebuilt_imports(log.read_text(errors='replace'),project_modules,{r['module'] for r in targets})
  receipt={'tasks':[r['id'] for r in targets],'started_utc':started.isoformat(),'ended_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'elapsed_seconds':elapsed,'host':host_resources(),'toolchain':version,'mathlib':mathlib,'inputs_manifest_sha256':digest(base.parent/'parts.sha256'),'command':cmd,'exit_code':result.returncode,'log_sha256':digest(log),'rebuilt_project_modules':rebuilt,'objects':{}}
  if result.returncode==0:
   for r in targets:receipt['objects'][r['id']]=digest(build/'lib/lean'/(r['module'].replace('.','/')+'.olean'))
@@ -178,7 +190,12 @@ def main():
   if n=='build':
    sub.add_argument('checkout',type=Path);sub.add_argument('output',type=Path);sub.add_argument('--bundle',action='store_true')
    sub.add_argument('--fast-bundle',action='store_true',help='write the same tar members with gzip level 1 for faster packaging')
- a=p.parse_args();rows=load()
+ a=p.parse_args()
+ if a.action=='build':
+  project_modules=set()
+  targets=select(module_rows(),a.target,project_modules=project_modules)
+  return run(targets,a.checkout,a.output,a.bundle,a.fast_bundle,project_modules=project_modules)
+ rows=load()
  if a.action=='next':
   busy=claims()
   if a.cold:
@@ -202,6 +219,5 @@ def main():
   busy=claims()
   if any(r['id'] in busy or r['packet'] in busy or r['state']!='open' for r in sel):raise SystemExit('One or more modules are already claimed, observed, or assigned.')
   subprocess.run(['gh','issue','create','--repo',repo,'--title','Claim '+a.target,'--body','I am working on '+a.target+'. I will attach the input hashes, build transcript and receipt, or close this claim if I stop.'],check=True)
- else:return run(sel,a.checkout,a.output,a.bundle,a.fast_bundle)
  return 0
 if __name__=='__main__':sys.exit(main())
