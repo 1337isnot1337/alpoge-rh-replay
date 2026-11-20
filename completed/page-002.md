@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001035 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMeasureProdOfAddGroups` | volunteer-build-reviewed |
+| M001036 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMeasureProdOfAddGroupsStatement` | volunteer-build-reviewed |
 | M001037 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarModularCharacterOfContinuousAction` | volunteer-build-reviewed |
 | M001038 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarModularCharacterOfContinuousActionStatement` | volunteer-build-reviewed |
 | M001041 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HarrisTaylorCardKilledByIdealEqAbsNormPow` | volunteer-build-reviewed |
@@ -295,18 +297,21 @@
 | M002097 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.BadPlacesGoodCoefficients` | build-observed |
 | M002100 | P0810 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.BlockEmbeddingFactors` | build-observed |
 | M002103 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.BracketAbsoluteSums` | volunteer-build-reviewed |
+| M002107 | P1056 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ComponentMean` | build-observed |
 | M002113 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.CuspValueComparison` | build-observed |
 | M002114 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.CuspidalInducedCharacter` | build-observed |
 | M002115 | P0810 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.CuspidalProductMultiplicity` | build-observed |
 | M002116 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.DefiningCoordinates` | wave-reused |
 | M002119 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.EigenvectorLieDegree` | volunteer-build-reviewed |
 | M002120 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.EpsilonPairingZeta` | wave-reused |
+| M002121 | P1056 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.EqualVolumeMeanCorrection` | build-observed |
 | M002122 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ExtensionSingularValues` | volunteer-build-reviewed |
 | M002127 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.FramedFlatCoordinates` | volunteer-build-reviewed |
 | M002128 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.FramedLatticeZeroCycleHeight` | volunteer-build-reviewed |
 | M002132 | P0810 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.GenericMultiplicityOne` | build-observed |
 | M002135 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.GoodIdempotentBadPlaces` | build-observed |
 | M002136 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.GoodReductionModelReading` | build-observed |
+| M002144 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HodgePeriodGram` | volunteer-build-reviewed |
 | M002147 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.IdeleNormTraceForm` | volunteer-build-reviewed |
 | M002152 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LatticeNormTransport` | wave-reused |
 | M002153 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LevelLiftConditions` | volunteer-build-reviewed |
@@ -319,6 +324,7 @@
 | M002173 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuotientEigenDifference` | wave-reused |
 | M002177 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.RationalTransitionKernel` | volunteer-build-reviewed |
 | M002182 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SandwichMaps` | wave-reused |
+| M002185 | P0549 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ScaledValuationFormula` | build-observed |
 | M002186 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SiegelReframe` | volunteer-build-reviewed |
 | M002187 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SpecialFibreUnits` | volunteer-build-reviewed |
 | M002190 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TameCharacterTorusValues` | build-observed |
@@ -396,9 +402,3 @@
 | M002460 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.OnePlusPowerAssembly` | wave-reused |
 | M002461 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.PlaceBelowAllPowers` | volunteer-build-reviewed |
 | M002463 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.PrimeTypeRows` | volunteer-build-reviewed |
-| M002466 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.ReadingAllLemmas` | volunteer-build-reviewed |
-| M002470 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.ResidualConstituentShape` | volunteer-build-reviewed |
-| M002471 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.ResidualConstruction` | volunteer-build-reviewed |
-| M002473 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.SelmerSumLargePrime` | volunteer-build-reviewed |
-| M002474 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.SemisimplificationConstituents` | volunteer-build-reviewed |
-| M002477 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.SplitPlaceTypes` | volunteer-build-reviewed |

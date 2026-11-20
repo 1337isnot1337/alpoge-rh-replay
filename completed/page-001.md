@@ -174,6 +174,7 @@
 | M000453 | P0783 | `CompanionTheory.AutomorphicTheory.ZuckermanCommutation.ZuckermanFunctors.AdjFromApply` | volunteer-build-reviewed |
 | M000457 | P0757 | `CompanionTheory.AutomorphicTheory.ZuckermanCommutation.ZuckermanFunctors.MultOne` | volunteer-build-reviewed |
 | M000458 | P0783 | `CompanionTheory.AutomorphicTheory.ZuckermanCommutation.ZuckermanFunctors.ShiftApply` | volunteer-build-reviewed |
+| M000459 | P2155 | `CompanionTheory.AutomorphicTheory.ZuckermanCommutation.ZuckermanFunctors.ZuckDualTThrS` | build-observed |
 | M000465 | P0549 | `CompanionTheory.EightfoldTheory.VariationTheory.AutomorphicForms.Newform` | wave-reused |
 | M000472 | P0783 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.BesselOrbitConvolutions.AtForm` | volunteer-build-reviewed |
 | M000476 | P0783 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.BesselOrbitConvolutions.AtFormC` | volunteer-build-reviewed |
@@ -196,6 +197,7 @@
 | M000519 | P0237 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.FinOfPI` | volunteer-build-reviewed |
 | M000520 | P0392 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.FinalAll` | volunteer-build-reviewed |
 | M000521 | P0237 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.Garding` | volunteer-build-reviewed |
+| M000522 | P0001 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.GardingAvg` | volunteer-build-reviewed |
 | M000524 | P0237 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.GoodPI` | volunteer-build-reviewed |
 | M000525 | P0237 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.IwaAll` | volunteer-build-reviewed |
 | M000526 | P0001 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.IwaChol` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M001031 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMapLinearScalingByDeterminant` | volunteer-build-reviewed |
 | M001032 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMapLinearScalingByDeterminantStatement` | volunteer-build-reviewed |
 | M001034 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMeasureIwasawaDecompositionStatement` | volunteer-build-reviewed |
-| M001035 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMeasureProdOfAddGroups` | volunteer-build-reviewed |
-| M001036 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMeasureProdOfAddGroupsStatement` | volunteer-build-reviewed |
