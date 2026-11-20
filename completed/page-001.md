@@ -17,9 +17,11 @@
 | M000030 | P0001 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.GridSum` | volunteer-build-reviewed |
 | M000031 | P0001 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.LagSum` | volunteer-build-reviewed |
 | M000032 | P0001 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.PairOKOfInterlace` | volunteer-build-reviewed |
+| M000033 | P0001 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.ProgYInjective` | volunteer-build-reviewed |
 | M000034 | P0237 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.PstMul` | volunteer-build-reviewed |
 | M000042 | P0783 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.NqOfLamData` | volunteer-build-reviewed |
 | M000043 | P0757 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.PStarTie` | volunteer-build-reviewed |
+| M000061 | P0001 | `CompanionTheory.AutomorphicTheory.DiscreteGroupWaves.IntegralEqOfSqrtCauchy` | volunteer-build-reviewed |
 | M000068 | P0392 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.EqZeroOfCompAt` | volunteer-build-reviewed |
 | M000070 | P0582 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.ExistsDenFin` | build-observed |
 | M000071 | P0172 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.HeckeA` | volunteer-build-reviewed |
@@ -55,6 +57,7 @@
 | M000317 | P0237 | `CompanionTheory.AutomorphicTheory.PlaceSeparation.ArtinA` | volunteer-build-reviewed |
 | M000318 | P0392 | `CompanionTheory.AutomorphicTheory.PlaceSeparation.ArtinKer` | volunteer-build-reviewed |
 | M000383 | P0172 | `CompanionTheory.AutomorphicTheory.SchurLimitBounds.SchurOrthogonality.SchurOrthogonality` | volunteer-build-reviewed |
+| M000384 | P0001 | `CompanionTheory.AutomorphicTheory.SchurLimitBounds.SchurOrthogonality.URepBasic` | volunteer-build-reviewed |
 | M000396 | P1217 | `CompanionTheory.AutomorphicTheory.SegmentRepresentations.JacquetShalikaBounds.lift_levelP_alt₂` | volunteer-build-reviewed |
 | M000402 | P1169 | `CompanionTheory.AutomorphicTheory.SiegelWeilFiniteness.AdelicCovolumeFinite` | wave-reused |
 | M000425 | P0001 | `CompanionTheory.AutomorphicTheory.ThetaDilations.Nuabs` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M001572 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsOpenStatement` | volunteer-build-reviewed |
 | M001573 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupNormalInMaximalCompact` | volunteer-build-reviewed |
 | M001574 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupNormalInMaximalCompactStatement` | volunteer-build-reviewed |
-| M001575 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupsNeighborhoodBasis` | volunteer-build-reviewed |
-| M001576 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupsNeighborhoodBasisStatement` | volunteer-build-reviewed |
-| M001578 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ContinuousDiag` | volunteer-build-reviewed |
