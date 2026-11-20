@@ -1,0 +1,38 @@
+name: Credit replay submissions
+on:
+  issue_comment:
+    types: [created, edited, deleted]
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['evidence/volunteers/**', 'tracker/submissions.py', '.github/workflows/submissions.yml']
+permissions:
+  contents: write
+  issues: read
+concurrency:
+  group: replay-submission-credits
+  cancel-in-progress: false
+jobs:
+  update:
+    if: github.event_name != 'issue_comment' || (!github.event.issue.pull_request && github.event.comment.user.login == github.event.issue.user.login)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Update the README from claim submissions
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git checkout --detach FETCH_HEAD
+            python3 tracker/submissions.py
+            if git diff --quiet -- README.md; then exit 0; fi
+            git add README.md
+            git commit -m 'Update replay contributor credits'
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1

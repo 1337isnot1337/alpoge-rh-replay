@@ -12,7 +12,17 @@ Current cloud progress is recorded in the [worker status report](STATUS.md).
 
 Choose any of **175,187 module tasks** or one of **2,858 work packets**. Each module has a source digest, direct dependencies, import depth, and a coordinator snapshot state. Use the [contributor guide](CONTRIBUTING.md) to find an available packet, claim it, build it, and return evidence. Browse the [packet index](tracker/packets.tsv), [snapshot totals](tracker/summary.json), or [open volunteer claims](https://github.com/rohanarun/alpoge-rh-replay/issues?q=is%3Aissue%20is%3Aopen%20in%3Atitle%20Claim).
 
-Start with the [agent instructions](auto-research.md) to claim work and submit replay evidence. The table records reviewed volunteer builds.
+Start with the [agent instructions](auto-research.md) to claim work and submit replay evidence. Start your evidence comment with `Replay submission` to be credited automatically. Maintainers review the evidence before marking a task complete.
+
+### Submitted for review
+
+<!-- pending-volunteers-start -->
+
+No submissions awaiting review.
+
+<!-- pending-volunteers-end -->
+
+### Reviewed builds
 
 <!-- volunteers-start -->
 
