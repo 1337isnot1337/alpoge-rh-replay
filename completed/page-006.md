@@ -2,6 +2,26 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006091 | P0946 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterCuspidalRootSumRegularStatement` | build-observed |
+| M006092 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterEsymmRootsCharpoly` | wave-reused |
+| M006093 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterFinsumConjSubgroupFunctionExtendByZer` | wave-reused |
+| M006094 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterFinsumConjSubgroupFunctionExtendByZerStatement` | wave-reused |
+| M006095 | P0516 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldAbelianByPrimePower` | wave-reused |
+| M006096 | P0550 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldAbelianByPrimePowerStatement` | wave-reused |
+| M006097 | P0296 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldInducedClassFunction` | wave-reused |
+| M006098 | P0348 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldInducedClassFunctionStatement` | wave-reused |
+| M006099 | P0436 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldInductionIrreducible` | wave-reused |
+| M006100 | P0475 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldInductionIrreducibleStatement` | wave-reused |
+| M006101 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldLinearOfPrimitiveRoot` | wave-reused |
+| M006102 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldLinearOfPrimitiveRootStatement` | wave-reused |
+| M006103 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldOfRepresentation` | wave-reused |
+| M006104 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldOfRepresentationStatement` | wave-reused |
+| M006105 | P0516 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldOfVirtualAndCharacter` | wave-reused |
+| M006106 | P0550 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldOfVirtualAndCharacterStatement` | wave-reused |
+| M006107 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldRestrictClassFunctionOne` | wave-reused |
+| M006108 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldRestrictClassFunctionOneStatement` | wave-reused |
+| M006109 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldZeroAndAdd` | wave-reused |
+| M006110 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldZeroAndAddStatement` | wave-reused |
 | M006111 | P0394 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsPrimitiveEndClassFunctionInvariantSubspaceMobi` | wave-reused |
 | M006112 | P0436 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsPrimitiveEndClassFunctionInvariantSubspaceMobiStatement` | wave-reused |
 | M006113 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsPrimitiveExtendZeroOfSumUnipotentRadical` | build-observed |
@@ -278,6 +298,7 @@
 | M006426 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsNeZeroForallNormLeOfCovolumeLe` | build-observed |
 | M006427 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsNeZeroMemFractionalIdealNormSqLe` | build-observed |
 | M006429 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsOrthonormalOfLinearIndependent` | volunteer-build-reviewed |
+| M006430 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsQr` | volunteer-build-reviewed |
 | M006434 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FderivIntegralApplyOfHolomorphicOfDominated` | volunteer-build-reviewed |
 | M006435 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FiniteAndFinrankLeOfPointwise` | volunteer-build-reviewed |
 | M006436 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FiniteAndNcardSetOfSubmoduleLeRelIndexEqLe` | wave-reused |
@@ -381,24 +402,3 @@
 | M006749 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.FinrankInt` | volunteer-build-reviewed |
 | M006754 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.GramStdBasisPosDefAndHq` | volunteer-build-reviewed |
 | M006756 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HasTypeBaseChange` | volunteer-build-reviewed |
-| M006757 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HasTypeOfIso` | volunteer-build-reviewed |
-| M006758 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HermFamIsometryInjective` | volunteer-build-reviewed |
-| M006759 | P0616 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HermFormPrincipalDimOne` | build-observed |
-| M006760 | P0516 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HermFormPullEqOfLbIsoPow` | wave-reused |
-| M006766 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HolomorphicUniformisationTangentUnimodularRiemanStatement` | build-observed |
-| M006767 | P1114 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HolomorphicUniformizationTangentUnimodularRiemann` | build-observed |
-| M006768 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HomDerivBaseChange` | build-observed |
-| M006769 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HomDerivDescendsToNumberField` | build-observed |
-| M006770 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HomDerivativeClosure` | wave-reused |
-| M006771 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HomExtDvrOfCardTorsion` | volunteer-build-reviewed |
-| M006772 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HomExtOfLocalRingPoints` | wave-reused |
-| M006778 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IntegersOfCmFieldConjStructureStatement` | volunteer-build-reviewed |
-| M006787 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IntegralTangentVectorCoordinates` | volunteer-build-reviewed |
-| M006790 | P0839 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsAbelianSchemeAndExtendOfGenericHoms` | wave-reused |
-| M006791 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsAbelianSchemeOfGenericallySurjective` | wave-reused |
-| M006792 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsAbelianSchemeSchemeOver` | wave-reused |
-| M006799 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsFibreOfIffIsPolFibre` | volunteer-build-reviewed |
-| M006800 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsIntegralDerivativeCurveHomGoodReduction` | build-observed |
-| M006801 | P1170 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsIntegralDerivativeCurveHomGoodReductionStatement` | build-observed |
-| M006803 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsIsoAppLEOfOpensRange` | build-observed |
-| M006806 | P1114 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsLieCombOneIffComp` | wave-reused |

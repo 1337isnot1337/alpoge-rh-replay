@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M100684"
+  ],
+  "started_utc": "2026-11-20T21:58:19.855271+00:00",
+  "ended_utc": "2026-11-20T21:58:59.677542+00:00",
+  "elapsed_seconds": 39.8,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 65758100,
+    "peak_child_rss_kib": 5915860
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.AbelianUnobstructed:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "cebab111386ca7b1124f99322195d707c3d5872fc0dfadd746b9a0795a18a19a",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.CanonicalOfAbelianDeRham",
+    "Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.CrysToDRBijective"
+  ],
+  "objects": {
+    "M100684": "6f37f3c2b4ec4e07a21ccc2267598cdc57ce2f1d98cad1d589ed30488129867b"
+  },
+  "bundle_sha256": "9fc0548a9a6e64a0d73fa14437d1be03a0aad0197751a53dca5cbdc8e3abcc9d",
+  "packet": "M100684",
+  "contributor": "emsi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/3778#issuecomment-7051645299",
+  "reviewed_utc": "2026-11-20T22:12:44.897929+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

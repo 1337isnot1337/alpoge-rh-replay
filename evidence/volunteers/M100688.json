@@ -1,0 +1,30 @@
+{
+  "tasks": [
+    "M100688"
+  ],
+  "ended_utc": "2026-11-20T22:11:09.795753+00:00",
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.BijectiveCechDeRhamComparisonDegreeOne:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a5a28d9862c32aa1eff4cbb6b5529a0a1d494a7d71bd88a7ef36c7b7708d5bc9",
+  "objects": {
+    "M100688": "806dc7af68ae6afbeaf35317ca16974214556b651991de28195833aad2927f7d"
+  },
+  "bundle_sha256": "efb63389c1de3931d96b6aa54f57f63e2effab5dfc2d4a1069348f7a03b5ae8c",
+  "transcript_targets": {
+    "built": 0,
+    "replayed": 1,
+    "earlier_attempt": 0
+  },
+  "packet": "M100688",
+  "contributor": "mu-mei",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/4063#issuecomment-7051845388",
+  "reviewed_utc": "2026-11-20T22:12:17.174970+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum. The completing transcript records 0 rebuilt and 1 replayed targets; 0 more targets appear in the separate earlier build transcript."
+}

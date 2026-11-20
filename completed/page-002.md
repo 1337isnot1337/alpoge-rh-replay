@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001020 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramTransposeDualTraceIdentityStatement` | volunteer-build-reviewed |
+| M001021 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GroupActionHaarScalingContinuous` | volunteer-build-reviewed |
 | M001023 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarFundamentalDomainExistsUnitary` | volunteer-build-reviewed |
 | M001029 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarInvariantUnderTransvection` | volunteer-build-reviewed |
 | M001030 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarInvariantUnderTransvectionStatement` | volunteer-build-reviewed |
@@ -352,6 +354,7 @@
 | M002237 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.DeltaDatumCombinedCoefficient` | volunteer-build-reviewed |
 | M002239 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.EtaleProductPrimes` | volunteer-build-reviewed |
 | M002241 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.FieldFixesCurve` | volunteer-build-reviewed |
+| M002245 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.GeneratorValues` | volunteer-build-reviewed |
 | M002254 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.LevelIndexFourierCharacter` | build-observed |
 | M002257 | P0615 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.NormFactorThetaValue` | build-observed |
 | M002262 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.ShortRuleRepresentationChange` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M002367 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.UnitaryVolumePairs` | volunteer-build-reviewed |
 | M002369 | P1001 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.WeilIdempotents` | build-observed |
 | M002370 | P1001 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.WordDerivatives` | build-observed |
-| M002374 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.BalancedHermitianSpace` | volunteer-build-reviewed |
-| M002379 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.ConjugateKernelCount` | volunteer-build-reviewed |
-| M002382 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.DegreeProportionalWords` | wave-reused |

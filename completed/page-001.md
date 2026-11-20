@@ -188,7 +188,9 @@
 | M000479 | P0945 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.BesselOrbitConvolutions.BesselNonvanishingFromL2` | volunteer-build-reviewed |
 | M000482 | P0757 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.BesselOrbitConvolutions.DDForm` | volunteer-build-reviewed |
 | M000483 | P0757 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.BesselOrbitConvolutions.DDFormC` | volunteer-build-reviewed |
+| M000485 | P2198 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.BesselOrbitConvolutions.FinalC` | volunteer-build-reviewed |
 | M000487 | P0757 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.BesselOrbitConvolutions.KFinFormOf` | volunteer-build-reviewed |
+| M000491 | P1349 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.BesselOrbitConvolutions.QuadAOf` | volunteer-build-reviewed |
 | M000493 | P0783 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.BesselOrbitConvolutions.VanishingOfL2Equivariant` | volunteer-build-reviewed |
 | M000495 | P0001 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.ContDiffOnExpPartialHomeomorphSymm` | volunteer-build-reviewed |
 | M000497 | P0172 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.InPCommutatorOfInK` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M001017 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramRightMulActionLaws` | volunteer-build-reviewed |
 | M001018 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramRightMulActionLawsStatement` | volunteer-build-reviewed |
 | M001019 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramTransposeDualTraceIdentity` | volunteer-build-reviewed |
-| M001020 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramTransposeDualTraceIdentityStatement` | volunteer-build-reviewed |
-| M001021 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GroupActionHaarScalingContinuous` | volunteer-build-reviewed |

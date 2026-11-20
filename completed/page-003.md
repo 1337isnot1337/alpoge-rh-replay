@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002374 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.BalancedHermitianSpace` | volunteer-build-reviewed |
+| M002379 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.ConjugateKernelCount` | volunteer-build-reviewed |
+| M002382 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.DegreeProportionalWords` | wave-reused |
 | M002383 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.DiagonalActionLiftPull` | volunteer-build-reviewed |
 | M002387 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.FormalDegreeHaarQuotient` | build-observed |
 | M002394 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.LieMatrixVectors` | build-observed |
@@ -41,6 +44,7 @@
 | M002480 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.TensorMultiplication` | build-observed |
 | M002482 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.TwistedGLEmbedding` | volunteer-build-reviewed |
 | M002489 | P0515 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.CurvatureFamilyNorm` | wave-reused |
+| M002499 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.SmallUnipotentElements` | volunteer-build-reviewed |
 | M002500 | P0549 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.SpanSubtraction` | wave-reused |
 | M002504 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.UnitriangularCharts` | wave-reused |
 | M002514 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.SiegelEisenstein.LocalOrderMatrix` | volunteer-build-reviewed |
@@ -89,6 +93,7 @@
 | M002710 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.MinorOrderedEntries` | volunteer-build-reviewed |
 | M002719 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.PartialLFunctionCharacter` | volunteer-build-reviewed |
 | M002725 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.RadicalNoFixedVectors` | volunteer-build-reviewed |
+| M002726 | P1271 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.RaisingLoweringOperators` | volunteer-build-reviewed |
 | M002763 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.UniformModerateGrowthLevel` | volunteer-build-reviewed |
 | M002770 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.VolumeFlatSection` | build-observed |
 | M002771 | P1084 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.WeilDatumExistence` | volunteer-build-reviewed |
@@ -261,6 +266,7 @@
 | M003582 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.FormalModule` | volunteer-build-reviewed |
 | M003587 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.FstTszeSec` | volunteer-build-reviewed |
 | M003588 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.GalMapMul` | wave-reused |
+| M003596 | P1394 | `Development.AbelianVarietyTheory.Definitions.Divisors.GenericPointAsIdeal` | volunteer-build-reviewed |
 | M003597 | P0615 | `Development.AbelianVarietyTheory.Definitions.Divisors.GhostFrobenius` | wave-reused |
 | M003603 | P1419 | `Development.AbelianVarietyTheory.Definitions.Divisors.HasBoundedPolesGlobalData` | wave-reused |
 | M003608 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.HasQIff` | wave-reused |
@@ -274,6 +280,7 @@
 | M003649 | P1444 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsAffineOpenAndIsPushout` | build-observed |
 | M003653 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsBasOpens` | wave-reused |
 | M003654 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsBasisOfBot` | wave-reused |
+| M003657 | P2079 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsCompactIsOpenUnitsAt` | volunteer-build-reviewed |
 | M003661 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsCyclotomicExtensionQI` | volunteer-build-reviewed |
 | M003663 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsDetEltOne` | wave-reused |
 | M003666 | P1472 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsEquivariantToBidual` | build-observed |
@@ -326,6 +333,7 @@
 | M003864 | P0974 | `Development.AbelianVarietyTheory.Definitions.Divisors.PrimitiveCrystalHodgeLiftClasses` | wave-reused |
 | M003865 | P1029 | `Development.AbelianVarietyTheory.Definitions.Divisors.PrimitiveStructureSheafDegTwoVanish` | wave-reused |
 | M003866 | P0784 | `Development.AbelianVarietyTheory.Definitions.Divisors.PrismaticDieudonnePerfdIff` | wave-reused |
+| M003868 | P1114 | `Development.AbelianVarietyTheory.Definitions.Divisors.ProjectiveNotIsUnit` | volunteer-build-reviewed |
 | M003871 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.PullHlComp` | wave-reused |
 | M003872 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.Pullback1MemHodgeFiltration` | wave-reused |
 | M003875 | P1372 | `Development.AbelianVarietyTheory.Definitions.Divisors.QuasiRegularAlongOfEtale` | wave-reused |
@@ -349,9 +357,11 @@
 | M003942 | P0784 | `Development.AbelianVarietyTheory.Definitions.Divisors.TorsTransport` | wave-reused |
 | M003944 | P0917 | `Development.AbelianVarietyTheory.Definitions.Divisors.TorsionTowersOfDivisibleGroup` | build-observed |
 | M003954 | P1323 | `Development.AbelianVarietyTheory.Definitions.Divisors.TwOrbMEqTwOrbUOfNormal` | build-observed |
+| M003963 | P1245 | `Development.AbelianVarietyTheory.Definitions.Divisors.Uniformised` | volunteer-build-reviewed |
 | M003966 | P1056 | `Development.AbelianVarietyTheory.Definitions.Divisors.UnrOutside` | build-observed |
 | M003974 | P0865 | `Development.AbelianVarietyTheory.Definitions.Divisors.WittOnFalse` | wave-reused |
 | M003976 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.XiMulNu` | wave-reused |
+| M003977 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.ZeroMemSolSet` | volunteer-build-reviewed |
 | M003978 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.ZetaActRefl` | wave-reused |
 | M003980 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.ZetaPair` | volunteer-build-reviewed |
 | M003983 | P1193 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.CoeSelfDualLatticeInFrameCoordinatesEq` | build-observed |
@@ -392,13 +402,3 @@
 | M004083 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsOneCocycleOnSubgroup` | volunteer-build-reviewed |
 | M004087 | P0239 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsRootOne` | volunteer-build-reviewed |
 | M004088 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsSatFrame` | volunteer-build-reviewed |
-| M004089 | P0810 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsSatVecUOfIsSphericalU` | build-observed |
-| M004092 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsTopWTopWOfExists` | wave-reused |
-| M004098 | P0917 | `Development.AbelianVarietyTheory.Definitions.Foundations.LatticeIntegralCoordinates` | build-observed |
-| M004099 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.Letter` | wave-reused |
-| M004100 | P0295 | `Development.AbelianVarietyTheory.Definitions.Foundations.LiftApplyOfMemAdmissibleSubalgebra` | volunteer-build-reviewed |
-| M004103 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.LocallyConstantTwoCochain` | wave-reused |
-| M004112 | P0295 | `Development.AbelianVarietyTheory.Definitions.Foundations.MemRingOfInR` | wave-reused |
-| M004113 | P0173 | `Development.AbelianVarietyTheory.Definitions.Foundations.MemSiegelOfIffRightAct` | build-observed |
-| M004114 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.MemUnitaryGroupIffIsIsometry` | volunteer-build-reviewed |
-| M004115 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.MultipliableAndSgNeZero` | wave-reused |
