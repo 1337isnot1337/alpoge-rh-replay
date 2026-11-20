@@ -28,6 +28,18 @@ python3 tracker/tasks.py build P0123 /path/to/new/replay-volume/lean /path/to/ne
 
 The task command checks the selected sources and pinned mathlib revision, builds the targets with Lake, and saves the command, exit status, toolchain identity, output hashes and build transcript. Lake will build missing imports locally. A module late in the dependency graph can require substantial work on a cold machine. The optional bundle contains the selected modules' generated build files. The public index lists direct project dependencies as task IDs.
 
+## Troubleshoot a Lean version mismatch
+
+If `Cache/Requests.lean` reports a missing `Lake.PackageEntrySrc.path` case and the trace shows Lean 4.35.0, update your checkout. The replay uses Lean 4.33.1, and the verifier now calls that version explicitly through elan. Keep elan on PATH, then retry in a new directory on the build volume.
+
+```sh
+git pull --ff-only
+elan --version
+./verify.sh /path/to/fresh-replay --prepare-only
+```
+
+The run prints its Lean version near the start of the cache step. If it still fails, share that version and the first failing excerpt from the new directory's `replay.log` on your claim.
+
 ## Submit evidence
 
 Begin a comment on your claim with `Replay submission` on its own first line. Include the task or packet ID, exit status, elapsed time, and links to the receipt and log. For a large bundle, attach it to a release on your fork and include its SHA-256 digest. Check logs for personal paths before publishing. The README credits you while your evidence is pending. Keep the claim open for review. Maintainers check the grant, pinned toolchain and inputs, exact target list, successful transcript, and artifact digests before marking a volunteer build complete. Reviewed receipts go in `evidence/volunteers/` and appear in the README and module ledger. Maintainers close accepted claims as completed. Any later reuse or kernel replay is recorded separately. If a build fails, include the first Lean error, file and line, resource limits, and reproduction command.
