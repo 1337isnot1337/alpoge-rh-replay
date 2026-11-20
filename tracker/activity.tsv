@@ -212,7 +212,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:09:10Z	grant	225	BenCaunt
 2026-11-20T18:09:11Z	grant	226	BenCaunt
 2026-11-20T18:09:12Z	grant	227	BenCaunt
-2026-11-20T18:09:12Z	grant	227	BenCaunt
 2026-11-20T18:09:13Z	grant	228	BenCaunt
 2026-11-20T18:09:14Z	grant	229	BenCaunt
 2026-11-20T18:09:15Z	grant	230	BenCaunt
@@ -300,7 +299,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:16:48Z	submission	339	Wronskode
 2026-11-20T18:17:11Z	submission	229	BenCaunt
 2026-11-20T18:17:12Z	submission	227	BenCaunt
-2026-11-20T18:17:12Z	submission	227	BenCaunt
 2026-11-20T18:17:13Z	submission	228	BenCaunt
 2026-11-20T18:17:15Z	submission	275	Amahane-Hikari
 2026-11-20T18:17:17Z	submission	373	Amahane-Hikari
@@ -345,3 +343,8 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:20:35Z	submission	425	Amahane-Hikari
 2026-11-20T18:20:41Z	grant	433	BenCaunt
 2026-11-20T18:20:42Z	grant	434	JanSimeonMetzger
+2026-11-20T18:20:57Z	submission	427	gabeldev
+2026-11-20T18:20:58Z	grant	435	BenCaunt
+2026-11-20T18:21:15Z	grant	436	BenCaunt
+2026-11-20T18:21:16Z	grant	437	BenCaunt
+2026-11-20T18:21:18Z	grant	438	BenCaunt
