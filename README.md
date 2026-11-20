@@ -35,10 +35,11 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- active-volunteers-start -->
 
-[776 entries. View the full table](tracker/volunteer-tables/active/README.md).
+[760 entries. View the full table](tracker/volunteer-tables/active/README.md).
 
 | Contributor | Task | Status |
 |---|---|---|
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M114994](https://github.com/rohanarun/alpoge-rh-replay/issues/3503) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M078416](https://github.com/rohanarun/alpoge-rh-replay/issues/3505) | Claimed |
 | [@iAndyHD3](https://github.com/iAndyHD3) | [M075163](https://github.com/rohanarun/alpoge-rh-replay/issues/3508) | Claimed |
 | [@emsi](https://github.com/emsi) | [P1791](https://github.com/rohanarun/alpoge-rh-replay/issues/3515) | Claimed |
@@ -55,10 +56,9 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115538](https://github.com/rohanarun/alpoge-rh-replay/issues/3650) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M091584](https://github.com/rohanarun/alpoge-rh-replay/issues/3651) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M127929](https://github.com/rohanarun/alpoge-rh-replay/issues/3652) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M130645](https://github.com/rohanarun/alpoge-rh-replay/issues/3653) | Claimed |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M004234](https://github.com/rohanarun/alpoge-rh-replay/issues/3654) | Claimed |
 | [@WorldianAI](https://github.com/WorldianAI) | [M080123](https://github.com/rohanarun/alpoge-rh-replay/issues/3657) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M133917](https://github.com/rohanarun/alpoge-rh-replay/issues/3659) | Claimed |
+| [@user42245](https://github.com/user42245) | [M084167](https://github.com/rohanarun/alpoge-rh-replay/issues/3666) | Claimed |
 
 <!-- active-volunteers-end -->
 
@@ -69,16 +69,10 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- pending-volunteers-start -->
 
-[439 entries. View the full table](tracker/volunteer-tables/pending/README.md).
+[460 entries. View the full table](tracker/volunteer-tables/pending/README.md).
 
 | Contributor | Task | Review |
 |---|---|---|
-| [@varo6](https://github.com/varo6) | [M080963](https://github.com/rohanarun/alpoge-rh-replay/issues/3630#issuecomment-7051423294) | Pending review |
-| [@maxime-fleury](https://github.com/maxime-fleury) | [M004155](https://github.com/rohanarun/alpoge-rh-replay/issues/3631#issuecomment-7051427927) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M111980](https://github.com/rohanarun/alpoge-rh-replay/issues/3632#issuecomment-7051429799) | Pending review |
-| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M005696](https://github.com/rohanarun/alpoge-rh-replay/issues/3634#issuecomment-7051439992) | Pending review |
-| [@maddoxjack](https://github.com/maddoxjack) | [M134090](https://github.com/rohanarun/alpoge-rh-replay/issues/3635#issuecomment-7051432451) | Pending review |
-| [@egergerfg](https://github.com/egergerfg) | [M060854](https://github.com/rohanarun/alpoge-rh-replay/issues/3636#issuecomment-7051455868) | Pending review |
 | [@egergerfg](https://github.com/egergerfg) | [M064364](https://github.com/rohanarun/alpoge-rh-replay/issues/3637#issuecomment-7051456349) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M005712](https://github.com/rohanarun/alpoge-rh-replay/issues/3638#issuecomment-7051441813) | Pending review |
 | [@egergerfg](https://github.com/egergerfg) | [M035868](https://github.com/rohanarun/alpoge-rh-replay/issues/3639#issuecomment-7051456745) | Pending review |
@@ -89,10 +83,16 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 | [@BenCaunt](https://github.com/BenCaunt) | [M130561](https://github.com/rohanarun/alpoge-rh-replay/issues/3645#issuecomment-7051442233) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M170472](https://github.com/rohanarun/alpoge-rh-replay/issues/3646#issuecomment-7051452526) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M000201](https://github.com/rohanarun/alpoge-rh-replay/issues/3648#issuecomment-7051453597) | Pending review |
+| [@BenCaunt](https://github.com/BenCaunt) | [M130645](https://github.com/rohanarun/alpoge-rh-replay/issues/3653#issuecomment-7051474963) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M120827](https://github.com/rohanarun/alpoge-rh-replay/issues/3655#issuecomment-7051456855) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M087290](https://github.com/rohanarun/alpoge-rh-replay/issues/3656#issuecomment-7051456905) | Pending review |
 | [@varo6](https://github.com/varo6) | [M081519](https://github.com/rohanarun/alpoge-rh-replay/issues/3658#issuecomment-7051462722) | Pending review |
+| [@BenCaunt](https://github.com/BenCaunt) | [M133917](https://github.com/rohanarun/alpoge-rh-replay/issues/3659#issuecomment-7051474611) | Pending review |
 | [@maddoxjack](https://github.com/maddoxjack) | [M115544](https://github.com/rohanarun/alpoge-rh-replay/issues/3660#issuecomment-7051459909) | Pending review |
+| [@BenCaunt](https://github.com/BenCaunt) | [M169270](https://github.com/rohanarun/alpoge-rh-replay/issues/3661#issuecomment-7051484467) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M115696](https://github.com/rohanarun/alpoge-rh-replay/issues/3662#issuecomment-7051478204) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M087282](https://github.com/rohanarun/alpoge-rh-replay/issues/3663#issuecomment-7051477805) | Pending review |
+| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M036191](https://github.com/rohanarun/alpoge-rh-replay/issues/3664#issuecomment-7051483379) | Pending review |
 
 <!-- pending-volunteers-end -->
 
