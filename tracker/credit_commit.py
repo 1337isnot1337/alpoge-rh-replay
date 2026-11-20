@@ -2,10 +2,10 @@
 
 import json
 import os
+from pathlib import Path
 import re
 import subprocess
-
-from submissions import gh_output
+import sys
 
 
 def changed_issues(repo):
@@ -26,18 +26,12 @@ def changed_issues(repo):
     return numbers
 
 
-def commit_message(repo):
+def commit_message(repo, issue_authors):
     authors = {}
     for number in sorted(changed_issues(repo)):
-        try:
-            issue = json.loads(gh_output(['gh', 'api', f'repos/{repo}/issues/{number}']))
-        except subprocess.CalledProcessError as exc:
-            if '(HTTP 404)' in exc.stderr or '(HTTP 410)' in exc.stderr:
-                continue  # A deleted issue can still have rows to remove.
-            raise
-        user = issue.get('user')
-        if user and user['type'] == 'User' and user['login'] != 'ghost':
-            authors[user['id']] = user['login']
+        if author := issue_authors.get(str(number)):
+            user_id, login = author
+            authors[user_id] = login
 
     trailers = [f'Co-authored-by: {login} <{user_id}+{login}@users.noreply.github.com>'
                 for user_id, login in sorted(authors.items())]
@@ -45,4 +39,4 @@ def commit_message(repo):
 
 
 if __name__ == '__main__':
-    print(commit_message(os.environ['GITHUB_REPOSITORY']))
+    print(commit_message(os.environ['GITHUB_REPOSITORY'], json.loads(Path(sys.argv[1]).read_text())))

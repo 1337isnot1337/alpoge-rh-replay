@@ -23,8 +23,9 @@ def activity(issues, owner, reviewed_comments):
     first_grants = {}
     for issue in issues:
         claim = re.fullmatch(r'Claim (P\d{4}|M\d{6})', issue['title'])
-        login = issue['author']['login']
-        if not claim or login.casefold() == owner.casefold() or issue['author']['is_bot']:
+        author = issue.get('author') or {}
+        login = author.get('login')
+        if not claim or not login or login.casefold() == owner.casefold() or author['is_bot']:
             continue
         grant_prefix = f'Granted `{claim[1]}`.'
         grants = [
