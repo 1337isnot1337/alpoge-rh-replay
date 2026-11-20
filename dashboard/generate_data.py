@@ -10,7 +10,10 @@ tracker/modules.jsonl.gz and evidence/volunteers/*.json from the repository
 root, applies the completed.tsv overlay to module states exactly as
 tracker/tasks.py load() does, and writes aggregated data (never raw module
 rows) to dashboard/data.json next to this script. In a full Git checkout,
-the first-parent ledger history also supplies the hourly rate and projection.
+the first-parent ledger history also supplies the hourly rate and projection,
+and the same first-parent walk -- counting the same unique tracked module
+IDs -- supplies the cumulative "history" series, so the two charts share
+one counting rule and their totals agree.
 """
 import csv
 import datetime
@@ -48,22 +51,43 @@ def band_for(depth):
     raise ValueError(depth)
 
 
-def ledger_history(module_ids, recorded, now):
-    """Sample the committed ledger at hourly boundaries ending at generation time."""
-    def git(*args):
-        return subprocess.check_output(["git", *args], cwd=ROOT, text=True)
+def git_output(*args):
+    return subprocess.check_output(["git", *args], cwd=ROOT, text=True)
 
-    if git("rev-parse", "--is-shallow-repository").strip() == "true":
+
+def ledger_commits():
+    """First-parent commits that touched the ledger, oldest first.
+
+    Returns [(published, revision)] with published the commit epoch clamped
+    to be non-decreasing -- commit clocks can go backward, so this preserves
+    mainline publication order. Returns None for a shallow checkout or when
+    no commit has touched the ledger. Both history series below are built
+    from this one walk and the one counting rule in ledger_count().
+    """
+    if git_output("rev-parse", "--is-shallow-repository").strip() == "true":
         return None
-    ledger = "tracker/completed.tsv"
-    log = git("log", "--first-parent", "--reverse", "--format=%ct %H", "--", ledger)
+    log = git_output("log", "--first-parent", "--reverse", "--format=%ct %H",
+                     "--", "tracker/completed.tsv")
     commits = []
     for line in log.splitlines():
         timestamp, revision = line.split()
-        # Commit clocks can go backward. Preserve mainline publication order.
         published = max(int(timestamp), commits[-1][0] if commits else 0)
         commits.append((published, revision))
-    if not commits:
+    return commits or None
+
+
+def ledger_count(module_ids, revision):
+    """Unique tracked module IDs recorded in the ledger at a revision."""
+    rows = csv.DictReader(
+        git_output("show", f"{revision}:tracker/completed.tsv").splitlines(),
+        delimiter="\t")
+    return len(module_ids.intersection(row["id"] for row in rows))
+
+
+def ledger_history(module_ids, recorded, now):
+    """Sample the committed ledger at hourly boundaries ending at generation time."""
+    commits = ledger_commits()
+    if commits is None:
         return None
 
     end = int(now.timestamp())
@@ -79,9 +103,7 @@ def ledger_history(module_ids, recorded, now):
             pos += 1
         revision = commits[pos][1]
         if revision != last_revision:
-            rows = csv.DictReader(git("show", f"{revision}:{ledger}").splitlines(),
-                                  delimiter="\t")
-            count = len(module_ids.intersection(row["id"] for row in rows))
+            count = ledger_count(module_ids, revision)
             last_revision = revision
         samples.append(count)
 
@@ -98,6 +120,41 @@ def ledger_history(module_ids, recorded, now):
     if remaining and rate > 0:
         eta = (now + datetime.timedelta(hours=remaining / rate)).date().isoformat()
     return {"hours": points, "per_hour": rate, "eta": eta}
+
+
+def cumulative_history(module_ids, recorded):
+    """Cumulative modules with recorded evidence over the ledger's history.
+
+    One point per commit from the same first-parent walk ledger_history()
+    samples, counting the same unique tracked module IDs via ledger_count(),
+    so this series ends at the same displayed total the hourly chart is
+    built from. Points are downsampled to at most 240, first and last
+    always kept; the sampling happens before any ledger reads, so at most
+    240 revisions are ever read. Returns [] whenever the walk is
+    unavailable or its final count disagrees with the snapshot total --
+    this series is optional and must never fail the whole generation.
+    """
+    try:
+        commits = ledger_commits()
+        if not commits:
+            return []
+        if len(commits) > 240:
+            keep = sorted({round(i * (len(commits) - 1) / 239)
+                           for i in range(240)})
+            commits = [commits[i] for i in keep]
+        points = []
+        for published, revision in commits:
+            when = datetime.datetime.fromtimestamp(
+                published, datetime.timezone.utc)
+            points.append({
+                "t": when.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "with_evidence": ledger_count(module_ids, revision),
+            })
+        if points[-1]["with_evidence"] != recorded:
+            return []
+        return points
+    except Exception:
+        return []
 
 
 def main():
@@ -203,8 +260,10 @@ def main():
         history = ledger_history({row["id"] for row in modules}, with_evidence, now)
     except (FileNotFoundError, subprocess.CalledProcessError):
         history = None  # Downloaded archives can still render the snapshot dashboard.
+    cumulative = cumulative_history({row["id"] for row in modules}, with_evidence)
     data = {
         "ledger_history": history,
+        "history": cumulative,
         "generated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "snapshot": summary.get("snapshot"),
         "scope": summary.get("scope"),
