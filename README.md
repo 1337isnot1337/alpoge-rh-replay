@@ -39,18 +39,6 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@emsi](https://github.com/emsi) | [M003963](https://github.com/rohanarun/alpoge-rh-replay/issues/3759) | Claimed |
-| [@emsi](https://github.com/emsi) | [M003596](https://github.com/rohanarun/alpoge-rh-replay/issues/3761) | Claimed |
-| [@emsi](https://github.com/emsi) | [M004753](https://github.com/rohanarun/alpoge-rh-replay/issues/3762) | Claimed |
-| [@emsi](https://github.com/emsi) | [M003868](https://github.com/rohanarun/alpoge-rh-replay/issues/3764) | Claimed |
-| [@emsi](https://github.com/emsi) | [M004912](https://github.com/rohanarun/alpoge-rh-replay/issues/3766) | Claimed |
-| [@emsi](https://github.com/emsi) | [M004283](https://github.com/rohanarun/alpoge-rh-replay/issues/3767) | Claimed |
-| [@emsi](https://github.com/emsi) | [M004943](https://github.com/rohanarun/alpoge-rh-replay/issues/3768) | Claimed |
-| [@emsi](https://github.com/emsi) | [M005178](https://github.com/rohanarun/alpoge-rh-replay/issues/3769) | Claimed |
-| [@emsi](https://github.com/emsi) | [M074946](https://github.com/rohanarun/alpoge-rh-replay/issues/3770) | Claimed |
-| [@emsi](https://github.com/emsi) | [M108278](https://github.com/rohanarun/alpoge-rh-replay/issues/3771) | Claimed |
-| [@emsi](https://github.com/emsi) | [M002245](https://github.com/rohanarun/alpoge-rh-replay/issues/3772) | Claimed |
-| [@emsi](https://github.com/emsi) | [M004670](https://github.com/rohanarun/alpoge-rh-replay/issues/3773) | Claimed |
 | [@emsi](https://github.com/emsi) | [M004323](https://github.com/rohanarun/alpoge-rh-replay/issues/3774) | Claimed |
 | [@emsi](https://github.com/emsi) | [M004868](https://github.com/rohanarun/alpoge-rh-replay/issues/3775) | Claimed |
 | [@emsi](https://github.com/emsi) | [M103630](https://github.com/rohanarun/alpoge-rh-replay/issues/3776) | Claimed |
@@ -59,6 +47,18 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 | [@emsi](https://github.com/emsi) | [M002726](https://github.com/rohanarun/alpoge-rh-replay/issues/3779) | Claimed |
 | [@emsi](https://github.com/emsi) | [M089685](https://github.com/rohanarun/alpoge-rh-replay/issues/3780) | Claimed |
 | [@emsi](https://github.com/emsi) | [M119782](https://github.com/rohanarun/alpoge-rh-replay/issues/3781) | Claimed |
+| [@emsi](https://github.com/emsi) | [M080962](https://github.com/rohanarun/alpoge-rh-replay/issues/3782) | Claimed |
+| [@emsi](https://github.com/emsi) | [M085981](https://github.com/rohanarun/alpoge-rh-replay/issues/3783) | Claimed |
+| [@sat3n](https://github.com/sat3n) | [P1580](https://github.com/rohanarun/alpoge-rh-replay/issues/3785) | Claimed |
+| [@emsi](https://github.com/emsi) | [M101202](https://github.com/rohanarun/alpoge-rh-replay/issues/3787) | Claimed |
+| [@emsi](https://github.com/emsi) | [M015509](https://github.com/rohanarun/alpoge-rh-replay/issues/3788) | Claimed |
+| [@emsi](https://github.com/emsi) | [M140303](https://github.com/rohanarun/alpoge-rh-replay/issues/3789) | Claimed |
+| [@emsi](https://github.com/emsi) | [M005741](https://github.com/rohanarun/alpoge-rh-replay/issues/3790) | Claimed |
+| [@emsi](https://github.com/emsi) | [M021703](https://github.com/rohanarun/alpoge-rh-replay/issues/3791) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M130372](https://github.com/rohanarun/alpoge-rh-replay/issues/3797) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M024472](https://github.com/rohanarun/alpoge-rh-replay/issues/3798) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115763](https://github.com/rohanarun/alpoge-rh-replay/issues/3799) | Claimed |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M156148](https://github.com/rohanarun/alpoge-rh-replay/issues/3801) | Claimed |
 
 <!-- active-volunteers-end -->
 
@@ -69,30 +69,30 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- pending-volunteers-start -->
 
-[576 entries. View the full table](tracker/volunteer-tables/pending/README.md).
+[595 entries. View the full table](tracker/volunteer-tables/pending/README.md).
 
 | Contributor | Task | Review |
 |---|---|---|
-| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M005739](https://github.com/rohanarun/alpoge-rh-replay/issues/3731#issuecomment-7051563767) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M132605](https://github.com/rohanarun/alpoge-rh-replay/issues/3732#issuecomment-7051561557) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M115412](https://github.com/rohanarun/alpoge-rh-replay/issues/3733#issuecomment-7051561177) | Pending review |
-| [@user42245](https://github.com/user42245) | [M086647](https://github.com/rohanarun/alpoge-rh-replay/issues/3734#issuecomment-7051581973) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M045639](https://github.com/rohanarun/alpoge-rh-replay/issues/3735#issuecomment-7051601630) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M131847](https://github.com/rohanarun/alpoge-rh-replay/issues/3740#issuecomment-7051601692) | Pending review |
-| [@mu-mei](https://github.com/mu-mei) | [M003521](https://github.com/rohanarun/alpoge-rh-replay/issues/3741#issuecomment-7051580508) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M150430](https://github.com/rohanarun/alpoge-rh-replay/issues/3742#issuecomment-7051578847) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M169161](https://github.com/rohanarun/alpoge-rh-replay/issues/3743#issuecomment-7051578773) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M109525](https://github.com/rohanarun/alpoge-rh-replay/issues/3744#issuecomment-7051579872) | Pending review |
-| [@maddoxjack](https://github.com/maddoxjack) | [M128461](https://github.com/rohanarun/alpoge-rh-replay/issues/3745#issuecomment-7051575330) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M064676](https://github.com/rohanarun/alpoge-rh-replay/issues/3746#issuecomment-7051605926) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M088038](https://github.com/rohanarun/alpoge-rh-replay/issues/3747#issuecomment-7051594054) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M088903](https://github.com/rohanarun/alpoge-rh-replay/issues/3748#issuecomment-7051593165) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M088588](https://github.com/rohanarun/alpoge-rh-replay/issues/3749#issuecomment-7051593645) | Pending review |
-| [@emsi](https://github.com/emsi) | [M003816](https://github.com/rohanarun/alpoge-rh-replay/issues/3754#issuecomment-7051609241) | Pending review |
-| [@emsi](https://github.com/emsi) | [M004132](https://github.com/rohanarun/alpoge-rh-replay/issues/3755#issuecomment-7051611897) | Pending review |
+| [@emsi](https://github.com/emsi) | [M100796](https://github.com/rohanarun/alpoge-rh-replay/issues/3756#issuecomment-7051614410) | Pending review |
+| [@emsi](https://github.com/emsi) | [M002499](https://github.com/rohanarun/alpoge-rh-replay/issues/3758#issuecomment-7051616603) | Pending review |
+| [@emsi](https://github.com/emsi) | [M003963](https://github.com/rohanarun/alpoge-rh-replay/issues/3759#issuecomment-7051618715) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M119661](https://github.com/rohanarun/alpoge-rh-replay/issues/3760#issuecomment-7051596833) | Pending review |
+| [@emsi](https://github.com/emsi) | [M003596](https://github.com/rohanarun/alpoge-rh-replay/issues/3761#issuecomment-7051620962) | Pending review |
+| [@emsi](https://github.com/emsi) | [M004753](https://github.com/rohanarun/alpoge-rh-replay/issues/3762#issuecomment-7051622854) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M163738](https://github.com/rohanarun/alpoge-rh-replay/issues/3763#issuecomment-7051602537) | Pending review |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M004886](https://github.com/rohanarun/alpoge-rh-replay/issues/3765#issuecomment-7051610846) | Pending review |
+| [@emsi](https://github.com/emsi) | [M004912](https://github.com/rohanarun/alpoge-rh-replay/issues/3766#issuecomment-7051624807) | Pending review |
+| [@emsi](https://github.com/emsi) | [M004283](https://github.com/rohanarun/alpoge-rh-replay/issues/3767#issuecomment-7051626851) | Pending review |
+| [@emsi](https://github.com/emsi) | [M005178](https://github.com/rohanarun/alpoge-rh-replay/issues/3769#issuecomment-7051628849) | Pending review |
+| [@emsi](https://github.com/emsi) | [M074946](https://github.com/rohanarun/alpoge-rh-replay/issues/3770#issuecomment-7051630904) | Pending review |
+| [@emsi](https://github.com/emsi) | [M002245](https://github.com/rohanarun/alpoge-rh-replay/issues/3772#issuecomment-7051632853) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M101146](https://github.com/rohanarun/alpoge-rh-replay/issues/3784#issuecomment-7051605280) | Pending review |
+| [@user42245](https://github.com/user42245) | [M087181](https://github.com/rohanarun/alpoge-rh-replay/issues/3786#issuecomment-7051628831) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M140504](https://github.com/rohanarun/alpoge-rh-replay/issues/3792#issuecomment-7051622076) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M161798](https://github.com/rohanarun/alpoge-rh-replay/issues/3793#issuecomment-7051620872) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M174594](https://github.com/rohanarun/alpoge-rh-replay/issues/3794#issuecomment-7051607367) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M128586](https://github.com/rohanarun/alpoge-rh-replay/issues/3796#issuecomment-7051621791) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M000485](https://github.com/rohanarun/alpoge-rh-replay/issues/3800#issuecomment-7051613784) | Pending review |
 
 <!-- pending-volunteers-end -->
 
