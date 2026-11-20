@@ -6,6 +6,7 @@ on:
     - cron: '17 * * * *'
 
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
@@ -26,8 +27,25 @@ jobs:
           fetch-depth: 0  # Sample historical module coverage for the rate chart.
       - name: Regenerate dashboard data from tracker files
         run: python3 dashboard/generate_data.py
-      - uses: actions/upload-pages-artifact@v3
+      - id: upload
+        uses: actions/upload-pages-artifact@v3
         with:
           path: dashboard
+      - name: Wait for the uploaded artifact to appear in the Pages deployment API
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ARTIFACT_ID: ${{ steps.upload.outputs.artifact_id }}
+        run: |
+          test -n "$ARTIFACT_ID"
+          for attempt in {1..20}; do
+            if gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" --paginate \
+              --jq '.artifacts[] | select(.name == "github-pages" and (.expired | not)) | .id' \
+              | grep -Fxq "$ARTIFACT_ID"; then
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "The uploaded Pages artifact did not become visible within one minute." >&2
+          exit 1
       - id: deployment
         uses: actions/deploy-pages@v4
