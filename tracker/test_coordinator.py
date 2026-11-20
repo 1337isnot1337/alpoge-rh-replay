@@ -5,6 +5,7 @@ import unittest
 from unittest.mock import patch
 from urllib.error import HTTPError
 
+import credit_commit
 import grants
 import submissions
 
@@ -20,6 +21,25 @@ def comment(i, n, body, login='github-actions[bot]'):
 
 
 class CoordinatorTests(unittest.TestCase):
+    def test_batched_credit_commit_uses_changed_issue_authors_once(self):
+        readme_diff = """-| [@one](https://github.com/one) | [P0001](https://github.com/r/p/issues/1) | Claimed |
++| [@one](https://github.com/one) | [P0001](https://github.com/r/p/issues/1#issuecomment-12) | Pending review |
+-| [@two](https://github.com/two) | [P0002](https://github.com/r/p/issues/2) | Claimed |
+ | [@other](https://github.com/other) | [P0009](https://github.com/r/p/issues/9) | Claimed |"""
+        activity_diff = '+2026-11-20T16:00:00Z\tgrant\t3\tone\n+2026-11-20T17:00:00Z\tgrant\t4\tthree'
+        users = [(10, 'one'), (20, 'two'), (10, 'one'), (30, 'three')]
+        responses = [json.dumps({'user': {'id': uid, 'login': name, 'type': 'User'}}) for uid, name in users]
+        with patch('subprocess.check_output', side_effect=[readme_diff, activity_diff]), \
+                patch.object(credit_commit, 'gh_output', side_effect=responses) as api:
+            self.assertEqual(credit_commit.commit_message('r/p').splitlines(), [
+                'Update replay contributor credits', '',
+                'Co-authored-by: one <10+one@users.noreply.github.com>',
+                'Co-authored-by: two <20+two@users.noreply.github.com>',
+                'Co-authored-by: three <30+three@users.noreply.github.com>',
+            ])
+        self.assertEqual([call.args[0][-1] for call in api.call_args_list],
+                         [f'repos/r/p/issues/{n}' for n in (1, 2, 3, 4)])
+
     def test_packet_priority_uses_latest_bot_comment_across_pages(self):
         module = issue(1, 'M000001', count=0)
         packet = issue(2, 'P0001', 'claim', 'claim-granted')
