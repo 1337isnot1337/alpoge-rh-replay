@@ -2,6 +2,25 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M066454 | P0029 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsUniqueFactorCompletedStalkOfMap` | wave-reused |
+| M066456 | P0190 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsUniqueLiftSpecOfIsLocalizationAway` | wave-reused |
+| M066457 | P0190 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsUniqueRealLinearOfEventuallyAddModDiscrete` | wave-reused |
+| M066458 | P0190 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsValuationSubringDominatingSubring` | wave-reused |
+| M066459 | P0029 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsValuationSubringLiftOfSpecialFibre` | volunteer-build-reviewed |
+| M066460 | P1199 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsVariableChangeEisensteinCurve` | wave-reused |
+| M066461 | P0029 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsVariableChangeEqLatticeCurve` | wave-reused |
+| M066463 | P0029 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.FinitePresentationOfInjective` | wave-reused |
+| M066465 | P0029 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.FinrankOfIsStandardSmoothOfRelativeDimension` | wave-reused |
+| M066466 | P0404 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.FormallyUnramifiedOfTangentMapInjective` | wave-reused |
+| M066467 | P0029 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.FormallyUnramifiedRingOfIntegers` | wave-reused |
+| M066469 | P0816 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.GenericExistsUniqueOActOfIsGrpPullback` | wave-reused |
+| M066472 | P0190 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.HasAlgebraicChartsOfIsStandardSmooth` | wave-reused |
+| M066474 | P0029 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.HasQExpansionModularForm` | wave-reused |
+| M066475 | P0120 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.HasRationalTorsionIffMemRange` | build-observed |
+| M066476 | P0307 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.HomBaseChangeBijectiveOfLeNilradical` | wave-reused |
+| M066477 | P0872 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.HomLieEquivScalarTmul` | wave-reused |
+| M066479 | P1151 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IrrelevantLeMapScaleGraded` | wave-reused |
+| M066480 | P0029 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsAdicCompleteComapConstantCoeff` | volunteer-build-reviewed |
 | M066482 | P0252 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsDiscreteValuationRingValuationSubringAtPrime` | build-observed |
 | M066483 | P0029 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsDomainAndIsIntegrallyClosedAtPrimeOfSmoothOfCo` | wave-reused |
 | M066486 | P0029 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsIrreducibleGeneralizations` | wave-reused |
@@ -295,6 +314,7 @@
 | M069271 | P1226 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntegralWittLatticeBasis` | wave-reused |
 | M069278 | P1176 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInvLift` | wave-reused |
 | M069279 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInvLiftStatement` | wave-reused |
+| M069291 | P0031 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInvariantRightInverseField` | volunteer-build-reviewed |
 | M069316 | P0983 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIsAdicCompletionMapOfFg` | wave-reused |
 | M069317 | P1010 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIsAdicCompletionMapOfFgStatement` | wave-reused |
 | M069338 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIsPrismLocalizationAwayOfGenerated` | wave-reused |
@@ -382,23 +402,3 @@
 | M070207 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteNormedAlgebraEqModuleTopology` | volunteer-build-reviewed |
 | M070214 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinitePlacesInertiaNotFixingFiniteExtension` | volunteer-build-reviewed |
 | M070221 | P0983 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteProjectiveModuleElementDescentEqualizer` | wave-reused |
-| M070222 | P1011 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteProjectiveModuleElementDescentEqualizerStatement` | wave-reused |
-| M070227 | P0031 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteQuotientOfCompleteNakayama` | volunteer-build-reviewed |
-| M070246 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteSubmodulesBetweenMulLeftImageLatticeStatement` | volunteer-build-reviewed |
-| M070255 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteUnitsQuotSqFiniteEtaleHermitianPair` | volunteer-build-reviewed |
-| M070266 | P0446 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankCyclotomicExtAndCyclotomicCharSurjective` | wave-reused |
-| M070267 | P0484 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankCyclotomicExtAndCyclotomicCharSurjectiveStatement` | wave-reused |
-| M070284 | P0032 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankInvariantsEqOfInvertiblePeriodMatrix` | volunteer-build-reviewed |
-| M070302 | P0032 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinsumOrbitsCountingPrincipleFiniteFibres` | volunteer-build-reviewed |
-| M070304 | P0032 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinsuppVanishingOnEquivComplProd` | volunteer-build-reviewed |
-| M070349 | P1152 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FlatPowDvdPerPowMod` | wave-reused |
-| M070414 | P0846 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FontaineThetaNatural` | wave-reused |
-| M070415 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FourBProdIterated` | volunteer-build-reviewed |
-| M070416 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FourBProdIteratedStatement` | volunteer-build-reviewed |
-| M070419 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FourierEtaleKEqIntegralPartialFourier` | volunteer-build-reviewed |
-| M070470 | P0032 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FreeModuleAdicCompleteSeparated` | volunteer-build-reviewed |
-| M070482 | P0956 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FrobRowIntegral` | wave-reused |
-| M070485 | P0790 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FrobSubMulSurjective` | wave-reused |
-| M070486 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FrobSubOneBij` | volunteer-build-reviewed |
-| M070510 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FrobeniusIdealDegreeBound` | volunteer-build-reviewed |
-| M070511 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FrobeniusIdealDegreeBoundStatement` | volunteer-build-reviewed |

@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M050075 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimilitudePairHermitianFormInvertibleSimilitudeStatement` | volunteer-build-reviewed |
+| M050077 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimilitudePairRegularImageAtPStatement` | volunteer-build-reviewed |
+| M050078 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimilitudeSignatureOnePreservesPosDefForm` | volunteer-build-reviewed |
+| M050087 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimplicialCochainClassesBasicProperties` | wave-reused |
+| M050088 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimplicialCochainClassesBasicPropertiesStatement` | wave-reused |
+| M050089 | P0481 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimplicialCochainCoboundaryOfClassZero` | wave-reused |
+| M050090 | P0520 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimplicialCochainCoboundaryOfClassZeroStatement` | wave-reused |
+| M050095 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimultaneousEigenbasisIntegral` | volunteer-build-reviewed |
+| M050096 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimultaneousEigenbasisIntegralStatement` | volunteer-build-reviewed |
+| M050100 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SingleMemOfMem` | volunteer-build-reviewed |
+| M050166 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewFamilyEqOfStrictLowerOfDiagIm` | volunteer-build-reviewed |
+| M050167 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewFamilyEqOfStrictLowerOfDiagImStatement` | volunteer-build-reviewed |
+| M050168 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewFamilyInnerReEqStrictLowerAddDiagIm` | volunteer-build-reviewed |
+| M050169 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewFamilyInnerReEqStrictLowerAddDiagImStatement` | volunteer-build-reviewed |
 | M050189 | P1450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewHermitianNegTraceZeroInvHermitianUnimodular` | volunteer-build-reviewed |
 | M050193 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewHermitianPerturbIdempotentDetNeZero` | volunteer-build-reviewed |
 | M050194 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewHermitianPerturbIdempotentDetNeZeroStatement` | volunteer-build-reviewed |
@@ -78,6 +92,7 @@
 | M051098 | P1450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StableRangeOneDetUnitElementary` | volunteer-build-reviewed |
 | M051131 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StalkMapFlatFormallyEtaleEssFiniteTypeOfEtaleResStatement` | volunteer-build-reviewed |
 | M051155 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardAdelicCharacter` | volunteer-build-reviewed |
+| M051176 | P0022 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardEtaleMvPolynomialHypersurface` | volunteer-build-reviewed |
 | M051177 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardEtaleMvPolynomialHypersurfaceStatement` | volunteer-build-reviewed |
 | M051254 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.Statement` | volunteer-build-reviewed |
 | M051271 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SteinitzPiIdealsLinearEquivOfClassGroupProd` | volunteer-build-reviewed |
@@ -89,6 +104,7 @@
 | M051320 | P0895 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrictlyHenselianLocalRingAcyclicEverySheafStatement` | wave-reused |
 | M051323 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrongApproximationLattice` | volunteer-build-reviewed |
 | M051326 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrongApproximationNormOneDivisionQuaternionStatement` | volunteer-build-reviewed |
+| M051367 | P0022 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubMemPowSucc` | volunteer-build-reviewed |
 | M051372 | P0022 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubNatCompSubIncl` | volunteer-build-reviewed |
 | M051392 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubharmonicLogConvexityQuotient` | volunteer-build-reviewed |
 | M051401 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubmoduleFgOfLocallyLeFgStatement` | volunteer-build-reviewed |
@@ -386,19 +402,3 @@
 | M057643 | P1252 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIsometryUnitriangularizingFlagStabilizerStatement` | volunteer-build-reviewed |
 | M057654 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsLatticeStabilizerNormalisingSubgroup` | wave-reused |
 | M057655 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsLatticeStabilizerNormalisingSubgroupStatement` | wave-reused |
-| M057658 | P1033 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsListProd` | wave-reused |
-| M057659 | P1061 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsListProdStatement` | wave-reused |
-| M057663 | P1252 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsLocalUnitaryLatticesOfLevelStatement` | volunteer-build-reviewed |
-| M057666 | P0024 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMapMulRightEqSmul` | volunteer-build-reviewed |
-| M057667 | P0186 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMassOneCutoffDoubleCosetIntegral` | volunteer-build-reviewed |
-| M057680 | P0024 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMeasurableLintegralCosetEqOneClosedSubgrou` | volunteer-build-reviewed |
-| M057681 | P0116 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMeasurableLintegralCosetEqOneClosedSubgrouStatement` | volunteer-build-reviewed |
-| M057692 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNatBoundLocalLatticesStandardAe` | wave-reused |
-| M057693 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNatBoundLocalLatticesStandardAeStatement` | wave-reused |
-| M057694 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNatMulMemIntegersQuadraticCompletion` | wave-reused |
-| M057695 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNatMulMemIntegersQuadraticCompletionStatement` | wave-reused |
-| M057698 | P1252 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNearestPointCosetOrthogonalLieAlgebra` | volunteer-build-reviewed |
-| M057703 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNondegenerateTupleComplementFixer` | wave-reused |
-| M057704 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNondegenerateTupleComplementFixerStatement` | wave-reused |
-| M057707 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNormOneOrthTriple` | wave-reused |
-| M057711 | P1330 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsOrthComplementUnitVectorSameFields` | volunteer-build-reviewed |

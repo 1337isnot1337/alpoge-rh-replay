@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M061531 | P0025 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCharParityMulNeOneMulInvNeOne` | wave-reused |
+| M061532 | P0117 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCharParityMulNeOneMulInvNeOneStatement` | wave-reused |
+| M061551 | P0521 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCoeffwiseConjugateOfIntegralQuotient` | wave-reused |
+| M061552 | P0554 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCoeffwiseConjugateOfIntegralQuotientStatement` | wave-reused |
+| M061555 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsColumnChainNonempty` | build-observed |
+| M061563 | P1330 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCompactAdele` | volunteer-build-reviewed |
+| M061564 | P1330 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCompactImageEqUniv` | volunteer-build-reviewed |
+| M061565 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCompletedLaurentQuotPrimeEquivLaurentFp` | wave-reused |
+| M061566 | P0117 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCompletionPointClosedPointMemOfSmooth` | wave-reused |
+| M061569 | P0355 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsComplexRingEquivExtendingSubfieldAut` | wave-reused |
+| M061570 | P0402 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsComplexRingEquivExtendingSubfieldAutStatement` | wave-reused |
+| M061573 | P0444 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsConjLevelOne` | wave-reused |
+| M061574 | P0483 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsConjLevelOneStatement` | wave-reused |
+| M061579 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsConjugateFamilyOfInjective` | wave-reused |
+| M061580 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsConjugateFamilyOfInjectiveStatement` | wave-reused |
+| M061587 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspExpansionAtInfinityOfSomeLevel` | wave-reused |
+| M061588 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspExpansionAtInfinityOfSomeLevelStatement` | wave-reused |
 | M061589 | P0521 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspExpansionDiscriminantIntegerLeadingOne` | wave-reused |
 | M061590 | P0554 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspExpansionDiscriminantIntegerLeadingOneStatement` | wave-reused |
 | M061591 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspFormGamma1OfIsCuspFormCoeffSeq` | wave-reused |
@@ -305,6 +322,7 @@
 | M063088 | P0554 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemModularFunctionRingOverIffHasSomeLevelOverStatement` | wave-reused |
 | M063091 | P0251 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemMonicSquarefreeUnitConstPolysIffMonicSquarefr` | wave-reused |
 | M063092 | P0305 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemMonicSquarefreeUnitConstPolysIffMonicSquarefrStatement` | wave-reused |
+| M063099 | P0026 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemSpanEigenOfBaseChangeEigen` | volunteer-build-reviewed |
 | M063109 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemTranslationInvariantSubfieldIffExponents` | wave-reused |
 | M063110 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemTranslationInvariantSubfieldIffExponentsStatement` | wave-reused |
 | M063120 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularDiscriminantDivQIntegerQExpansions` | wave-reused |
@@ -384,21 +402,3 @@
 | M063433 | P0404 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PolynomialRelationPassesToQExpansionsStatement` | wave-reused |
 | M063443 | P0251 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PowPadicValEqOneOfPrimePow` | wave-reused |
 | M063447 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PowerSeriesAsRatHahnSeriesFractionalQ` | wave-reused |
-| M063448 | P0404 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PowerSeriesAsRatHahnSeriesFractionalQStatement` | wave-reused |
-| M063457 | P0027 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PowerSeriesTaylorSubstFirstOrder` | volunteer-build-reviewed |
-| M063460 | P0027 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PrimeEqBotOrMaximalIdealOfIsFieldAway` | wave-reused |
-| M063469 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PrimitiveConstMulOfBoundedExpansion` | wave-reused |
-| M063470 | P0404 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PrimitiveConstMulOfBoundedExpansionStatement` | wave-reused |
-| M063475 | P0926 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PrincipalCongruenceFunctionMemAdjoinJSiegelUnits` | wave-reused |
-| M063476 | P0953 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.PrincipalCongruenceFunctionMemAdjoinJSiegelUnitsStatement` | wave-reused |
-| M063503 | P0027 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ProdPrimesBelowInvOneSubOneDivRpowLe` | wave-reused |
-| M063504 | P0119 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ProdPrimesBelowInvOneSubOneDivRpowLeStatement` | wave-reused |
-| M063505 | P0027 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ProdPrimesBelowZetaTwoAddLeTwo` | wave-reused |
-| M063506 | P0119 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ProdPrimesBelowZetaTwoAddLeTwoStatement` | wave-reused |
-| M063515 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionAllCoeffsCompUpperTriangular` | wave-reused |
-| M063516 | P0404 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionAllCoeffsCompUpperTriangularStatement` | wave-reused |
-| M063517 | P0445 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionAllCoeffsDeltaPowAffineSubst` | wave-reused |
-| M063518 | P0483 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionAllCoeffsDeltaPowAffineSubstStatement` | wave-reused |
-| M063519 | P0522 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionAllCoeffsRangeOfMonicRoot` | wave-reused |
-| M063520 | P0555 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionAllCoeffsRangeOfMonicRootStatement` | wave-reused |
-| M063525 | P0522 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionCoeffsMemFinitelyGenerated` | wave-reused |

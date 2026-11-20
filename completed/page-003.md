@@ -312,12 +312,14 @@
 | M005078 | P0393 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.FlatMemLatIffStdLat` | wave-reused |
 | M005083 | P0615 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.IsBlockProd` | build-observed |
 | M005084 | P0615 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.IsNullVal` | wave-reused |
+| M005087 | P0096 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.MemAnalyticAtZeroOfEventuallyDifferentiableAt` | volunteer-build-reviewed |
 | M005088 | P0918 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.PolyDerivSmulLetter` | wave-reused |
 | M005090 | P1218 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.SWEqSOf` | build-observed |
 | M005093 | P1084 | `Development.AbelianVarietyTheory.Definitions.TorusSections.IsTorusOf` | wave-reused |
 | M005126 | P1245 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsStepWeil` | build-observed |
 | M005127 | P0174 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsSubquotientDetRepParInd` | volunteer-build-reviewed |
 | M005131 | P0003 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.LeviEmbMemNormalizerLower` | volunteer-build-reviewed |
+| M005147 | P1395 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.SqNormIntegralFundamentalDomainEqL2NormSq` | volunteer-build-reviewed |
 | M005163 | P0810 | `Development.AbelianVarietyTheory.Definitions.TwoChartAtlas.TwoChartSt` | wave-reused |
 | M005165 | P1084 | `Development.AbelianVarietyTheory.Definitions.Uniformization.ExistsInKNeOne` | wave-reused |
 | M005166 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.ExistsUniqueSamePt` | wave-reused |
@@ -400,5 +402,3 @@
 | M005265 | P0648 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FormallyUnramifiedMulInvertibleIntegerStatement` | wave-reused |
 | M005268 | P0648 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.GlobalFnsHolds` | wave-reused |
 | M005269 | P1057 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.GoodPtOfIrredOfMulPull` | wave-reused |
-| M005270 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.HasEnoughRootsOfUnityGlobalSections` | wave-reused |
-| M005271 | P0393 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.InvariantFunctionsDescend` | wave-reused |

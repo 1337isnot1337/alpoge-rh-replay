@@ -2,6 +2,29 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M074459 | P0957 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TeichmullerDistinguishedSpanIsPrimeAndNotMemStatement` | wave-reused |
+| M074491 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TendstoUntiltFrobeniusSeriesTermNormsZero` | volunteer-build-reviewed |
+| M074506 | P0034 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TensorProductBasisCoordinates` | volunteer-build-reviewed |
+| M074510 | P0034 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TensorRight` | wave-reused |
+| M074512 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TestFunctionLocallyInvariant` | volunteer-build-reviewed |
+| M074513 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TestFunctionLocallyInvariantStatement` | volunteer-build-reviewed |
+| M074532 | P0985 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ThetaAinfPeriodPowNeZero` | wave-reused |
+| M074533 | P1013 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ThetaAinfPeriodPowNeZeroStatement` | wave-reused |
+| M074604 | P0765 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ThetaOfPow` | build-observed |
+| M074634 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TiltFrobeniusIntegerPowerLaws` | volunteer-build-reviewed |
+| M074640 | P1126 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TiltInvariantMemReductionOfFrobeniusEquation` | wave-reused |
+| M074641 | P1153 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TiltInvariantMemReductionOfFrobeniusEquationStatement` | wave-reused |
+| M074659 | P0874 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TiltWittEqZeroOfPrimeMulEqZero` | wave-reused |
+| M074672 | P0957 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TopologicalBasisBasicFacts` | wave-reused |
+| M074673 | P0985 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TopologicalBasisBasicFactsStatement` | wave-reused |
+| M074705 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TorusOrbitLatticeCountBoundedByRhoStatement` | volunteer-build-reviewed |
+| M074721 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TraceEqSumCoordsOfAlgEquivStatement` | volunteer-build-reviewed |
+| M074725 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TraceIntOfIsIntegral` | volunteer-build-reviewed |
+| M074741 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TraceTowerFiniteEtaleHermitianPairStatement` | volunteer-build-reviewed |
+| M074742 | P1098 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TraceUnitriangularColumnVanishingIdempotentEqSum` | wave-reused |
+| M074743 | P1127 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TraceUnitriangularColumnVanishingIdempotentEqSumStatement` | wave-reused |
+| M074745 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TransferCardH0H1EqStatement` | volunteer-build-reviewed |
+| M074760 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TransportSelfDualHaarMeasureKernelAddEquivStatement` | volunteer-build-reviewed |
 | M074761 | P0985 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TriangularSystemMonomialProductsBasis` | wave-reused |
 | M074762 | P1013 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TriangularSystemMonomialProductsBasisStatement` | wave-reused |
 | M074781 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TruncatedSetEmptyOutsideNormCosetStatement` | volunteer-build-reviewed |
@@ -223,6 +246,7 @@
 | M077204 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsCharpolyBaseChangeIntegrallyClosed` | volunteer-build-reviewed |
 | M077205 | P0309 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsCharpolyBaseChangeIntegrallyClosedStatement` | volunteer-build-reviewed |
 | M077246 | P0874 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsColsRowsRestPos` | build-observed |
+| M077266 | P0035 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsCommonNonzeroOfPolynomialOnRealLines` | volunteer-build-reviewed |
 | M077267 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsCommonNonzeroOfPolynomialOnRealLinesStatement` | volunteer-build-reviewed |
 | M077271 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsCommonUnramifiedExtensionStatement` | volunteer-build-reviewed |
 | M077277 | P0557 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsCompatibleRootsOfUnityAndTiltPadic` | wave-reused |
@@ -302,6 +326,7 @@
 | M078034 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMemPairingEqSingleNonradicalStatement` | volunteer-build-reviewed |
 | M078057 | P0819 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsModulusBbDisjoint` | build-observed |
 | M078062 | P1202 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMorphismOfStalkMapsStatement` | volunteer-build-reviewed |
+| M078074 | P0035 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMulEqInteger` | volunteer-build-reviewed |
 | M078075 | P0035 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMulEqMulDiagonal` | volunteer-build-reviewed |
 | M078077 | P1202 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMulGaloisConjEqPrimeImagQuadraticStatement` | volunteer-build-reviewed |
 | M078078 | P1069 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMulMemSpan` | volunteer-build-reviewed |
@@ -377,28 +402,3 @@
 | M078999 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FlatComapMapOfOneTmulMemStatement` | volunteer-build-reviewed |
 | M079003 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FlatMapColonIdealStatement` | volunteer-build-reviewed |
 | M079004 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FlatOfCompletionFlat` | volunteer-build-reviewed |
-| M079005 | P0309 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FlatOfCompletionFlatStatement` | volunteer-build-reviewed |
-| M079015 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FlatTensorEmbedsTensorFractionFieldsStatement` | volunteer-build-reviewed |
-| M079022 | P1202 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FockExistsUniqueGaussianVectorStatement` | volunteer-build-reviewed |
-| M079041 | P0819 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FontaineTIsUnitBcrisAndUniformizerBdRPlus` | wave-reused |
-| M079042 | P0848 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FontaineTIsUnitBcrisAndUniformizerBdRPlusStatement` | wave-reused |
-| M079043 | P0557 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FontaineThetaEqZeroIffFontaineXiElementDvd` | wave-reused |
-| M079044 | P0589 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FontaineThetaEqZeroIffFontaineXiElementDvdStatement` | wave-reused |
-| M079045 | P0622 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FontaineXiPowSaturatedQuotientComplete` | wave-reused |
-| M079046 | P0655 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FontaineXiPowSaturatedQuotientCompleteStatement` | wave-reused |
-| M079058 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FormallyUnramifiedOfResidueStatement` | volunteer-build-reviewed |
-| M079130 | P0655 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FrobeniusAcrisDecompositionMuPower` | wave-reused |
-| M079131 | P0685 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FrobeniusAcrisDecompositionMuPowerStatement` | wave-reused |
-| M079134 | P0819 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FrobeniusPeriodRingInjective` | wave-reused |
-| M079135 | P0848 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FrobeniusPeriodRingInjectiveStatement` | build-observed |
-| M079182 | P1202 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.GChiApproximationSum` | volunteer-build-reviewed |
-| M079186 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.GLUpperTriangularEqDiagonalMulUnitriangularStatement` | volunteer-build-reviewed |
-| M079217 | P1069 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.GaloisInvariantsBcrisEqMaxUnramifiedStatement` | volunteer-build-reviewed |
-| M079225 | P1202 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.GaussianInnerEqInvariantKernel` | volunteer-build-reviewed |
-| M079284 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.GeomRegFibAdicCompletionOfEssFiniteTypeInt` | volunteer-build-reviewed |
-| M079307 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.GermSectionsHalfPlaneGlobalSectionStatement` | volunteer-build-reviewed |
-| M079322 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.GlueOfDenseOpenImmersionStatement` | volunteer-build-reviewed |
-| M079360 | P0929 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.GoodTupleConditionOfIdempotentZero` | build-observed |
-| M079417 | P0929 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.HarishChandraParameterFormula` | build-observed |
-| M079418 | P0957 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.HarishChandraParameterFormulaStatement` | build-observed |
-| M079434 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.HasDerivAtInvDetAndInvAtIdentity` | volunteer-build-reviewed |

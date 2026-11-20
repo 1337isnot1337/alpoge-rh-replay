@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M046894 | P0868 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantOrdersPropertyStatement` | wave-reused |
+| M046895 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantRankProperty` | wave-reused |
+| M046896 | P1005 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantRankPropertyStatement` | wave-reused |
+| M046897 | P0951 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantValuationBound` | wave-reused |
+| M046898 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantValuationBoundStatement` | wave-reused |
+| M046899 | P1032 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiEmbeddingDeterminantProperty` | wave-reused |
+| M046900 | P1060 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiEmbeddingDeterminantPropertyStatement` | wave-reused |
+| M046920 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiSumEqCharSumAgainstCuspForm` | wave-reused |
+| M046946 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsumSmul` | volunteer-build-reviewed |
+| M046956 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.Pull1RestrictSurjectiveOfComma` | wave-reused |
+| M046971 | P0301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullFullL` | volunteer-build-reviewed |
+| M046980 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullHyp1RestrictInjective` | wave-reused |
+| M046981 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullHyp1RestrictSurjective` | wave-reused |
 | M046983 | P1450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullLiftOneEqZero` | volunteer-build-reviewed |
 | M046994 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullUnitEqZero` | volunteer-build-reviewed |
 | M047000 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullbackBasisThetaEqF0FormStatement` | volunteer-build-reviewed |
@@ -76,6 +89,7 @@
 | M047602 | P0113 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RationalMatrixIdentityTransferToComplexMapStatement` | volunteer-build-reviewed |
 | M047706 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ReDetRelation` | volunteer-build-reviewed |
 | M047707 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ReGt` | volunteer-build-reviewed |
+| M047708 | P0247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ReQuad` | volunteer-build-reviewed |
 | M047729 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RealAlgSep` | volunteer-build-reviewed |
 | M047730 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RealCompactPartitionUnity` | volunteer-build-reviewed |
 | M047731 | P0113 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RealCompactPartitionUnityStatement` | volunteer-build-reviewed |
@@ -388,17 +402,3 @@
 | M050068 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimilitudeFactorFormGroupBoundedOfTestSupport` | volunteer-build-reviewed |
 | M050071 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimilitudePairAdelicProdUnramifiedEmbeddingInjecStatement` | volunteer-build-reviewed |
 | M050073 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimilitudePairGramInvCongruentStatement` | volunteer-build-reviewed |
-| M050075 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimilitudePairHermitianFormInvertibleSimilitudeStatement` | volunteer-build-reviewed |
-| M050077 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimilitudePairRegularImageAtPStatement` | volunteer-build-reviewed |
-| M050078 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimilitudeSignatureOnePreservesPosDefForm` | volunteer-build-reviewed |
-| M050087 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimplicialCochainClassesBasicProperties` | wave-reused |
-| M050088 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimplicialCochainClassesBasicPropertiesStatement` | wave-reused |
-| M050089 | P0481 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimplicialCochainCoboundaryOfClassZero` | wave-reused |
-| M050090 | P0520 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimplicialCochainCoboundaryOfClassZeroStatement` | wave-reused |
-| M050095 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimultaneousEigenbasisIntegral` | volunteer-build-reviewed |
-| M050096 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SimultaneousEigenbasisIntegralStatement` | volunteer-build-reviewed |
-| M050100 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SingleMemOfMem` | volunteer-build-reviewed |
-| M050166 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewFamilyEqOfStrictLowerOfDiagIm` | volunteer-build-reviewed |
-| M050167 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewFamilyEqOfStrictLowerOfDiagImStatement` | volunteer-build-reviewed |
-| M050168 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewFamilyInnerReEqStrictLowerAddDiagIm` | volunteer-build-reviewed |
-| M050169 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewFamilyInnerReEqStrictLowerAddDiagImStatement` | volunteer-build-reviewed |

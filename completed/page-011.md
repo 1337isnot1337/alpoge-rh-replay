@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M035272 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HerbrandQuotientEigenDetStatement` | wave-reused |
+| M035357 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianBoundedFormMulVecBoundStatement` | volunteer-build-reviewed |
+| M035364 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianDerivWirtingerDecompositionStatement` | volunteer-build-reviewed |
+| M035378 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFlagUnipotentMatrixExistsSparse` | volunteer-build-reviewed |
+| M035385 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFormConstMulInnerStatement` | volunteer-build-reviewed |
+| M035386 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFormDecompositionComparison` | volunteer-build-reviewed |
+| M035458 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianModelCharpolyEqAndUnitary` | volunteer-build-reviewed |
+| M035462 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianModelsConjUnitaryOfNormClass` | volunteer-build-reviewed |
+| M035514 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianUnitaryGroupOneParameterChartStatement` | volunteer-build-reviewed |
+| M035543 | P1669 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HigherCohomologyBoundTwistNegOfRegularSection` | wave-reused |
+| M035544 | P1693 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HigherCohomologyBoundTwistNegOfRegularSectionStatement` | wave-reused |
+| M035545 | P1716 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HigherCohomologyGrowthTwist` | wave-reused |
 | M035546 | P1564 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HigherCohomologyTwistBoundOfRegularSection` | wave-reused |
 | M035547 | P1590 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HigherCohomologyTwistBoundOfRegularSectionStatement` | wave-reused |
 | M035548 | P1564 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HigherCohomologyTwistBoundOfTwoCuts` | wave-reused |
@@ -390,15 +402,3 @@
 | M040628 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelCharacterConjugate` | volunteer-build-reviewed |
 | M040671 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelIdempotentMulLevelProjMulGoodPartEq` | volunteer-build-reviewed |
 | M040689 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelMapSurjectiveSkewStatement` | volunteer-build-reviewed |
-| M040780 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviAtWeightAddNsmulLargeOnCompact` | wave-reused |
-| M040781 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviAtWeightAddNsmulLargeOnCompactStatement` | wave-reused |
-| M040858 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormLogPotentialFormulaStatement` | volunteer-build-reviewed |
-| M040861 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormTwistedWeightLowerBound` | wave-reused |
-| M040862 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormTwistedWeightLowerBoundStatement` | wave-reused |
-| M040934 | P0841 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviWhittakerColumnCharacterEigenVecMulNeBot` | build-observed |
-| M040935 | P0868 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviWhittakerColumnCharacterEigenVecMulNeBotStatement` | build-observed |
-| M040936 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviWhittakerEqOneOfCuspidal` | build-observed |
-| M040988 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LieEigenSublatticeIffEvalFlat` | wave-reused |
-| M040989 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LieEigenSublatticeIffEvalFlatStatement` | wave-reused |
-| M041029 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LieMultIffFinrankCommonEigenspaceCoords` | volunteer-build-reviewed |
-| M041032 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LieMultIffFinrankSimultaneousEigenSubmoduleStatement` | volunteer-build-reviewed |

@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M040780 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviAtWeightAddNsmulLargeOnCompact` | wave-reused |
+| M040781 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviAtWeightAddNsmulLargeOnCompactStatement` | wave-reused |
+| M040858 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormLogPotentialFormulaStatement` | volunteer-build-reviewed |
+| M040861 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormTwistedWeightLowerBound` | wave-reused |
+| M040862 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormTwistedWeightLowerBoundStatement` | wave-reused |
+| M040934 | P0841 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviWhittakerColumnCharacterEigenVecMulNeBot` | build-observed |
+| M040935 | P0868 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviWhittakerColumnCharacterEigenVecMulNeBotStatement` | build-observed |
+| M040936 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviWhittakerEqOneOfCuspidal` | build-observed |
+| M040988 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LieEigenSublatticeIffEvalFlat` | wave-reused |
+| M040989 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LieEigenSublatticeIffEvalFlatStatement` | wave-reused |
+| M041029 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LieMultIffFinrankCommonEigenspaceCoords` | volunteer-build-reviewed |
+| M041032 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LieMultIffFinrankSimultaneousEigenSubmoduleStatement` | volunteer-build-reviewed |
 | M041044 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LieRankEqFinrankEigenInter` | wave-reused |
 | M041045 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LieRankEqFinrankEigenInterStatement` | volunteer-build-reviewed |
 | M041099 | P0399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LiftHom` | wave-reused |
@@ -24,6 +36,7 @@
 | M041450 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearIndependentComplexMap` | volunteer-build-reviewed |
 | M041542 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralAtlasMeasureEtalePullbackLebesgue` | wave-reused |
 | M041543 | P1005 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralAtlasMeasureEtalePullbackLebesgueStatement` | wave-reused |
+| M041547 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralComplexInvPowAddNormSq` | volunteer-build-reviewed |
 | M041610 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralNsqCanonicalAddChartPart` | wave-reused |
 | M041611 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralNsqCanonicalAddChartPartStatement` | wave-reused |
 | M041629 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralSublevelTailLeOfFinite` | wave-reused |
@@ -389,16 +402,3 @@
 | M046891 | P0786 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantElementProperty` | wave-reused |
 | M046892 | P0813 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantElementPropertyStatement` | wave-reused |
 | M046893 | P0841 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantOrdersProperty` | wave-reused |
-| M046894 | P0868 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantOrdersPropertyStatement` | wave-reused |
-| M046895 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantRankProperty` | wave-reused |
-| M046896 | P1005 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantRankPropertyStatement` | wave-reused |
-| M046897 | P0951 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantValuationBound` | wave-reused |
-| M046898 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantValuationBoundStatement` | wave-reused |
-| M046899 | P1032 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiEmbeddingDeterminantProperty` | wave-reused |
-| M046900 | P1060 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiEmbeddingDeterminantPropertyStatement` | wave-reused |
-| M046920 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiSumEqCharSumAgainstCuspForm` | wave-reused |
-| M046946 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsumSmul` | volunteer-build-reviewed |
-| M046956 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.Pull1RestrictSurjectiveOfComma` | wave-reused |
-| M046971 | P0301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullFullL` | volunteer-build-reviewed |
-| M046980 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullHyp1RestrictInjective` | wave-reused |
-| M046981 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullHyp1RestrictSurjective` | wave-reused |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006139 | P0784 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemVirtualCharactersOfIntegralCombination` | wave-reused |
+| M006140 | P0811 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemVirtualCharactersOfIntegralCombinationStatement` | wave-reused |
+| M006141 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OrthogonalIntVectorsNotAgreeOnRegular` | build-observed |
 | M006142 | P0436 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ParabolicInductionTrivialPreservesVirtualCharact` | wave-reused |
 | M006143 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ParsevalBoundIntegerVectorSmallFourierSupport` | build-observed |
 | M006144 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ParsevalBoundIntegerVectorSmallFourierSupportStatement` | build-observed |
@@ -399,6 +402,3 @@
 | M007261 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FrameBaseChangeEigenBasis` | volunteer-build-reviewed |
 | M007263 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FrameBiextDictionarySecondPartialLaw` | volunteer-build-reviewed |
 | M007267 | P0839 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FrameRigidificationOfCanonicalAxes` | wave-reused |
-| M007268 | P0865 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FrameRigidificationOfCanonicalAxesStatement` | wave-reused |
-| M007273 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FramedPointsLiftToLevelCover` | volunteer-build-reviewed |
-| M007279 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.GeneratorReadingCorrMulInvStatement` | volunteer-build-reviewed |

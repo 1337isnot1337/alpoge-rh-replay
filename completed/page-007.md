@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013319 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaSystemOfPolarisedLevelStatement` | volunteer-build-reviewed |
+| M013327 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionLiftSpecialFibreOfGenericRational` | volunteer-build-reviewed |
+| M013328 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionLiftSpecialFibreOfGenericRationalStatement` | volunteer-build-reviewed |
 | M013329 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionMapOfThetaMatching` | volunteer-build-reviewed |
 | M013330 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionMapOfThetaMatchingStatement` | volunteer-build-reviewed |
 | M013332 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionPairDescentAlgClosedSubfieldStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M016172 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseChangeTensorModuleCompat` | volunteer-build-reviewed |
 | M016185 | P0476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseCurvatureTermsSumZeroStatement` | volunteer-build-reviewed |
 | M016189 | P0476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseDifferentialDualBasisCancelStatement` | volunteer-build-reviewed |
-| M016194 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BaseFrameIntegralGramMatrix` | build-observed |
-| M016244 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BasisApply` | volunteer-build-reviewed |
-| M016248 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BasisObjectsUnitLociCoverAbove` | wave-reused |

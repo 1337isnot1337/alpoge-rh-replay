@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M022542 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqSelfOfTrivial` | volunteer-build-reviewed |
+| M022552 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqSumIntegralCubeDerivatives` | volunteer-build-reviewed |
+| M022619 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfOrthogonalTranslatesProj` | volunteer-build-reviewed |
+| M022640 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfUpwardFamilyStandardCover` | wave-reused |
+| M022641 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfUpwardFamilyStandardCoverStatement` | wave-reused |
+| M022669 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EquivalenceGeneratedTorusRel` | volunteer-build-reviewed |
+| M022691 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EssEtaleLocalLeOfDirected` | wave-reused |
+| M022692 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EssEtaleLocalLeOfDirectedStatement` | wave-reused |
+| M022702 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EsymmMemVirtualCharactersOfPowerSumEigenvalues` | build-observed |
+| M022703 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EsymmMemVirtualCharactersOfPowerSumEigenvaluesStatement` | build-observed |
+| M022708 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtChart` | volunteer-build-reviewed |
 | M022721 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAdjoinBaseChangeImage` | wave-reused |
 | M022722 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAdjoinBaseChangeImageStatement` | wave-reused |
 | M022723 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAdjoinRootXPowSubC` | wave-reused |
@@ -391,14 +402,3 @@
 | M027677 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNaturalHomotopyEquivChainsConstantPresheaf` | wave-reused |
 | M027678 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNaturalHomotopyEquivChainsConstantPresheafStatement` | wave-reused |
 | M027682 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroAlgebraMapEqMulOfFormallyUnramifiedAStatement` | volunteer-build-reviewed |
-| M027683 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroClosureEtaleAt` | wave-reused |
-| M027684 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroClosureEtaleAtStatement` | wave-reused |
-| M027691 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroForallComplexPointExtend` | wave-reused |
-| M027727 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNhdsFixOfContinuousCoefficientsStatement` | volunteer-build-reviewed |
-| M027737 | P0733 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNoetherianModelOfDivisorOfConstants` | wave-reused |
-| M027741 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNoetherianNormalLocalApprox` | wave-reused |
-| M027790 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNonzeroMinorOfRankStatement` | volunteer-build-reviewed |
-| M027846 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNormalLocalBetween` | wave-reused |
-| M027847 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNormalLocalBetweenStatement` | wave-reused |
-| M027910 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNumDen` | wave-reused |
-| M027934 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOfValILeOne` | wave-reused |

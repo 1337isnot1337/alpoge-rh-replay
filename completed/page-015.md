@@ -2,6 +2,22 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M057658 | P1033 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsListProd` | wave-reused |
+| M057659 | P1061 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsListProdStatement` | wave-reused |
+| M057663 | P1252 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsLocalUnitaryLatticesOfLevelStatement` | volunteer-build-reviewed |
+| M057666 | P0024 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMapMulRightEqSmul` | volunteer-build-reviewed |
+| M057667 | P0186 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMassOneCutoffDoubleCosetIntegral` | volunteer-build-reviewed |
+| M057680 | P0024 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMeasurableLintegralCosetEqOneClosedSubgrou` | volunteer-build-reviewed |
+| M057681 | P0116 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMeasurableLintegralCosetEqOneClosedSubgrouStatement` | volunteer-build-reviewed |
+| M057692 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNatBoundLocalLatticesStandardAe` | wave-reused |
+| M057693 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNatBoundLocalLatticesStandardAeStatement` | wave-reused |
+| M057694 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNatMulMemIntegersQuadraticCompletion` | wave-reused |
+| M057695 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNatMulMemIntegersQuadraticCompletionStatement` | wave-reused |
+| M057698 | P1252 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNearestPointCosetOrthogonalLieAlgebra` | volunteer-build-reviewed |
+| M057703 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNondegenerateTupleComplementFixer` | wave-reused |
+| M057704 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNondegenerateTupleComplementFixerStatement` | wave-reused |
+| M057707 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNormOneOrthTriple` | wave-reused |
+| M057711 | P1330 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsOrthComplementUnitVectorSameFields` | volunteer-build-reviewed |
 | M057721 | P1330 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsOrthonormalFrameComplementRealPlacesStatement` | volunteer-build-reviewed |
 | M057731 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsOrthonormalSameIntegralSpanUnimodular` | wave-reused |
 | M057732 | P0521 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsOrthonormalSameIntegralSpanUnimodularStatement` | wave-reused |
@@ -376,6 +392,7 @@
 | M059426 | P0870 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MirabolicInductionBlockDiagEqHarishChandraGelfanStatement` | wave-reused |
 | M059427 | P0788 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MirabolicInductionPhiPlusInductionFromBlockUni` | wave-reused |
 | M059428 | P0815 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MirabolicInductionPhiPlusInductionFromBlockUniStatement` | wave-reused |
+| M059429 | P0025 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ModerateLogFactorAbsorbed` | volunteer-build-reviewed |
 | M059432 | P0554 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MoveLatticeIsTermSameDatumWithWitnesses` | wave-reused |
 | M059433 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MoveLatticeIsTermSameDatumWithWitnessesStatement` | wave-reused |
 | M059436 | P1252 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MovedReferenceFrameCongruentUnitriangular` | volunteer-build-reviewed |
@@ -385,20 +402,3 @@
 | M059456 | P0402 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NatCastIsUnitQuadraticCompletionAlmostAll` | wave-reused |
 | M059457 | P0444 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NatCastIsUnitQuadraticCompletionAlmostAllStatement` | wave-reused |
 | M059459 | P0116 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NcardDependentVectorsAffineGramLe` | wave-reused |
-| M059460 | P0186 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NcardDependentVectorsAffineGramLeStatement` | wave-reused |
-| M059463 | P0025 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NcardPrimesOverEqFinrankOfAbsNormEqOfNotMemSq` | volunteer-build-reviewed |
-| M059466 | P0116 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NcardPrimitiveTuplesGramModNilpotent` | wave-reused |
-| M059467 | P0186 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NcardPrimitiveTuplesGramModNilpotentStatement` | wave-reused |
-| M059468 | P0444 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NcardPrimitiveTuplesWithGramMatrixResidueRing` | wave-reused |
-| M059469 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NcardPrimitiveTuplesWithGramMatrixResidueRingStatement` | wave-reused |
-| M059473 | P1279 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NearAbsMeasurableAndSplit` | volunteer-build-reviewed |
-| M059475 | P1330 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NearTermsModeratePointsOneTypeBoundStatement` | volunteer-build-reviewed |
-| M059479 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NilpotentOfStrict` | volunteer-build-reviewed |
-| M059500 | P1006 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NonzeroDefectHeightPowerAbsorbsConstants` | wave-reused |
-| M059503 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormAdditiveCharacterTypePrimeEqOne` | wave-reused |
-| M059506 | P0116 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormGaussSumHermitianFormLinearLe` | wave-reused |
-| M059507 | P0186 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormGaussSumHermitianFormLinearLeStatement` | wave-reused |
-| M059508 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormGaussSumLe` | wave-reused |
-| M059514 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormOrbitSumLeOfSymmKernel` | wave-reused |
-| M059532 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormalisedContentThickenedSetIndependentOfLevel` | wave-reused |
-| M059533 | P0521 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormalisedContentThickenedSetIndependentOfLevelStatement` | wave-reused |

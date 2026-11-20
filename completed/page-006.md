@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M007268 | P0865 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FrameRigidificationOfCanonicalAxesStatement` | wave-reused |
+| M007273 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FramedPointsLiftToLevelCover` | volunteer-build-reviewed |
+| M007279 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.GeneratorReadingCorrMulInvStatement` | volunteer-build-reviewed |
 | M007281 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.GeneratorReadingPullbackPeriodRigidStatement` | volunteer-build-reviewed |
 | M007284 | P1085 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.GlobalBasisAlgebra` | wave-reused |
 | M007292 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.HarmonicValueBaseChange` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M013307 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaBasisAfterEveryFieldExtensionStatement` | volunteer-build-reviewed |
 | M013313 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaSectionNonzeroFibresLocalRingStatement` | volunteer-build-reviewed |
 | M013314 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaSectionNonzeroLocusSpecialFibreIff` | volunteer-build-reviewed |
-| M013319 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaSystemOfPolarisedLevelStatement` | volunteer-build-reviewed |
-| M013327 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionLiftSpecialFibreOfGenericRational` | volunteer-build-reviewed |
-| M013328 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionLiftSpecialFibreOfGenericRationalStatement` | volunteer-build-reviewed |

@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005270 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.HasEnoughRootsOfUnityGlobalSections` | wave-reused |
+| M005271 | P0393 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.InvariantFunctionsDescend` | wave-reused |
 | M005273 | P0865 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.IsAbelianSchemeThick` | wave-reused |
 | M005274 | P0732 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.IsAffineHomFromSpecResidueField` | wave-reused |
 | M005276 | P0436 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.IsAffineOpenAndBijectiveOfWeightUnits` | wave-reused |
@@ -136,6 +138,7 @@
 | M005643 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HigherUnitsLeSquaresHigherUnitsStatement` | wave-reused |
 | M005648 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.Hilbert90SUnitsQuadraticExtension` | wave-reused |
 | M005649 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.Hilbert90SUnitsQuadraticExtensionStatement` | wave-reused |
+| M005661 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ImportsBis` | volunteer-build-reviewed |
 | M005663 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexFormulaNormsInvolution` | wave-reused |
 | M005664 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexFormulaNormsInvolutionStatement` | wave-reused |
 | M005665 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexRangeKerIterateEndomorphism` | wave-reused |
@@ -399,6 +402,3 @@
 | M006136 | P0839 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemClosureInducedCentralByPrimePower` | wave-reused |
 | M006137 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemOfMulMemOfForallPrimeNotDvd` | wave-reused |
 | M006138 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemOfMulMemOfForallPrimeNotDvdStatement` | wave-reused |
-| M006139 | P0784 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemVirtualCharactersOfIntegralCombination` | wave-reused |
-| M006140 | P0811 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemVirtualCharactersOfIntegralCombinationStatement` | wave-reused |
-| M006141 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OrthogonalIntVectorsNotAgreeOnRegular` | build-observed |

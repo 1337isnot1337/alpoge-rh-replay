@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M059460 | P0186 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NcardDependentVectorsAffineGramLeStatement` | wave-reused |
+| M059463 | P0025 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NcardPrimesOverEqFinrankOfAbsNormEqOfNotMemSq` | volunteer-build-reviewed |
+| M059466 | P0116 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NcardPrimitiveTuplesGramModNilpotent` | wave-reused |
+| M059467 | P0186 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NcardPrimitiveTuplesGramModNilpotentStatement` | wave-reused |
+| M059468 | P0444 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NcardPrimitiveTuplesWithGramMatrixResidueRing` | wave-reused |
+| M059469 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NcardPrimitiveTuplesWithGramMatrixResidueRingStatement` | wave-reused |
+| M059473 | P1279 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NearAbsMeasurableAndSplit` | volunteer-build-reviewed |
+| M059475 | P1330 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NearTermsModeratePointsOneTypeBoundStatement` | volunteer-build-reviewed |
+| M059479 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NilpotentOfStrict` | volunteer-build-reviewed |
+| M059500 | P1006 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NonzeroDefectHeightPowerAbsorbsConstants` | wave-reused |
+| M059503 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormAdditiveCharacterTypePrimeEqOne` | wave-reused |
+| M059506 | P0116 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormGaussSumHermitianFormLinearLe` | wave-reused |
+| M059507 | P0186 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormGaussSumHermitianFormLinearLeStatement` | wave-reused |
+| M059508 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormGaussSumLe` | wave-reused |
+| M059514 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormOrbitSumLeOfSymmKernel` | wave-reused |
+| M059532 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormalisedContentThickenedSetIndependentOfLevel` | wave-reused |
+| M059533 | P0521 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormalisedContentThickenedSetIndependentOfLevelStatement` | wave-reused |
 | M059550 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NotField` | wave-reused |
 | M059552 | P0402 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NumberFieldLatticeDeterminedByLocalLattices` | wave-reused |
 | M059553 | P0444 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NumberFieldLatticeDeterminedByLocalLatticesStatement` | wave-reused |
@@ -385,20 +402,3 @@
 | M061489 | P0187 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsAdjacentSelfDualLatticeToward` | volunteer-build-reviewed |
 | M061490 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsAdjacentSelfDualLatticeTowardStatement` | volunteer-build-reviewed |
 | M061523 | P0025 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsBimultiplicativeOfSecondQuotConst` | wave-reused |
-| M061531 | P0025 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCharParityMulNeOneMulInvNeOne` | wave-reused |
-| M061532 | P0117 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCharParityMulNeOneMulInvNeOneStatement` | wave-reused |
-| M061551 | P0521 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCoeffwiseConjugateOfIntegralQuotient` | wave-reused |
-| M061552 | P0554 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCoeffwiseConjugateOfIntegralQuotientStatement` | wave-reused |
-| M061555 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsColumnChainNonempty` | build-observed |
-| M061563 | P1330 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCompactAdele` | volunteer-build-reviewed |
-| M061564 | P1330 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCompactImageEqUniv` | volunteer-build-reviewed |
-| M061565 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCompletedLaurentQuotPrimeEquivLaurentFp` | wave-reused |
-| M061566 | P0117 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCompletionPointClosedPointMemOfSmooth` | wave-reused |
-| M061569 | P0355 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsComplexRingEquivExtendingSubfieldAut` | wave-reused |
-| M061570 | P0402 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsComplexRingEquivExtendingSubfieldAutStatement` | wave-reused |
-| M061573 | P0444 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsConjLevelOne` | wave-reused |
-| M061574 | P0483 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsConjLevelOneStatement` | wave-reused |
-| M061579 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsConjugateFamilyOfInjective` | wave-reused |
-| M061580 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsConjugateFamilyOfInjectiveStatement` | wave-reused |
-| M061587 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspExpansionAtInfinityOfSomeLevel` | wave-reused |
-| M061588 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspExpansionAtInfinityOfSomeLevelStatement` | wave-reused |

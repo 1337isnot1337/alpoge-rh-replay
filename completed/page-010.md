@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M027683 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroClosureEtaleAt` | wave-reused |
+| M027684 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroClosureEtaleAtStatement` | wave-reused |
+| M027691 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroForallComplexPointExtend` | wave-reused |
+| M027727 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNhdsFixOfContinuousCoefficientsStatement` | volunteer-build-reviewed |
+| M027737 | P0733 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNoetherianModelOfDivisorOfConstants` | wave-reused |
+| M027741 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNoetherianNormalLocalApprox` | wave-reused |
+| M027790 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNonzeroMinorOfRankStatement` | volunteer-build-reviewed |
+| M027846 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNormalLocalBetween` | wave-reused |
+| M027847 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNormalLocalBetweenStatement` | wave-reused |
+| M027910 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNumDen` | wave-reused |
+| M027934 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOfValILeOne` | wave-reused |
 | M027938 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOneFormsCocycleRestrictSubCoboundary` | wave-reused |
 | M027939 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOneFormsCocycleRestrictSubCoboundaryStatement` | wave-reused |
 | M027945 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOneTmulOfSurjective` | wave-reused |
@@ -391,14 +402,3 @@
 | M035269 | P0398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HerbrandLengthIdentitiesOfRelativeLength` | wave-reused |
 | M035270 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HerbrandLengthIdentitiesOfRelativeLengthStatement` | wave-reused |
 | M035271 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HerbrandQuotientEigenDet` | wave-reused |
-| M035272 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HerbrandQuotientEigenDetStatement` | wave-reused |
-| M035357 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianBoundedFormMulVecBoundStatement` | volunteer-build-reviewed |
-| M035364 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianDerivWirtingerDecompositionStatement` | volunteer-build-reviewed |
-| M035385 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFormConstMulInnerStatement` | volunteer-build-reviewed |
-| M035386 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFormDecompositionComparison` | volunteer-build-reviewed |
-| M035458 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianModelCharpolyEqAndUnitary` | volunteer-build-reviewed |
-| M035462 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianModelsConjUnitaryOfNormClass` | volunteer-build-reviewed |
-| M035514 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianUnitaryGroupOneParameterChartStatement` | volunteer-build-reviewed |
-| M035543 | P1669 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HigherCohomologyBoundTwistNegOfRegularSection` | wave-reused |
-| M035544 | P1693 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HigherCohomologyBoundTwistNegOfRegularSectionStatement` | wave-reused |
-| M035545 | P1716 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HigherCohomologyGrowthTwist` | wave-reused |
