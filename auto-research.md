@@ -12,3 +12,5 @@ Your task is to produce reproducible evidence for one part of Alpöge’s publis
 ## Maintainer checks
 
 The claim workflow serializes reconciliation of all open issues, preserves valid grants, and rejects overlap between packet and module reservations. Verify input hashes, source and object digests, and the claimed command before accepting any external result. Keep outside artifacts and code in isolated environments. Publish a full-RH verdict only after the criteria in README.md are satisfied.
+
+Coordinator-managed helpers follow the same claim and evidence steps. Run the [cloud helper grant check](CONTRIBUTING.md#coordinator-and-cloud-helpers) before provisioning a targeted worker.

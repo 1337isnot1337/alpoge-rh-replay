@@ -33,3 +33,9 @@ The task command checks the selected sources and pinned mathlib revision, builds
 Begin a comment on your claim with `Replay submission` on its own first line. Include the task or packet ID, exit status, elapsed time, and links to the receipt and log. For a large bundle, attach it to a release on your fork and include its SHA-256 digest. Check logs for personal paths before publishing. The README credits you while your evidence is pending. Keep the claim open for review. Maintainers check the grant, pinned toolchain and inputs, exact target list, successful transcript, and artifact digests before marking a volunteer build complete. Reviewed receipts go in `evidence/volunteers/` and appear in the README and module ledger. Maintainers close accepted claims as completed. Any later reuse or kernel replay is recorded separately. If a build fails, include the first Lean error, file and line, resource limits, and reproduction command.
 
 The final acceptance record separately checks the standard RH proposition, its axiom dependencies and the fresh kernel replay of Main. Module receipts are evidence of partial progress.
+
+## Coordinator and cloud helpers
+
+A targeted cloud helper uses the same public claim queue as volunteers. Open a standard module or packet claim and wait for both the `claim-granted` label and the matching GitHub Actions bot comment. Before provisioning, the coordinator runs `python3 tracker/check_grant.py BATCH.json ISSUE_NUMBER` using the GitHub account that opened the claim. The batch's `targets` must exactly match the claimed module or packet. When a worker has multiple grants, pass every issue number. GitHub lookup failures stop provisioning.
+
+Post each helper's replay submission on its claim and keep the issue open while the evidence is reviewed. Close abandoned claims so others can pick them up. Lake may compile prerequisites along the way, and the primary still walks the full dependency graph for the end-to-end replay.
