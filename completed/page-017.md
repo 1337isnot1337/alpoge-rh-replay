@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M071878 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JacquetRallisHankelDetNeZeroOfLift` | volunteer-build-reviewed |
+| M071886 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JacquetRallisMatchingAdd` | volunteer-build-reviewed |
+| M071894 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JacquetRallisTransferFactorGlBorderedConjugation` | volunteer-build-reviewed |
+| M071899 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JacquetRallisTransferFactorLinearDescentPointOneStatement` | volunteer-build-reviewed |
+| M071905 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JacquetRallisUnitMatchSizeOneStatement` | volunteer-build-reviewed |
+| M071951 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.KerLEqTraceDotProductOfIsIsomStatement` | volunteer-build-reviewed |
+| M071996 | P1176 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LadicDescentStepToOE` | wave-reused |
+| M071997 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LadicDescentStepToOEStatement` | wave-reused |
+| M072036 | P1405 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LatticeApproximationMittagLeffler` | wave-reused |
 | M072037 | P1428 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LatticeApproximationMittagLefflerStatement` | wave-reused |
 | M072064 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LatticeHomSubmoduleFgAndSpanEqTopStatement` | volunteer-build-reviewed |
 | M072099 | P0192 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LeftMulTau` | volunteer-build-reviewed |
@@ -350,6 +359,7 @@
 | M076886 | P0485 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.EigenspaceLeEigenspacePow` | volunteer-build-reviewed |
 | M076887 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.EigenspaceRankOneSpan` | volunteer-build-reviewed |
 | M076888 | P0309 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.EigenspaceRankOneSpanStatement` | volunteer-build-reviewed |
+| M076932 | P0193 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.EqZeroOfCoefficientsSeparatingCharactersEqZero` | volunteer-build-reviewed |
 | M076933 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.EqZeroOfCoefficientsSeparatingCharactersEqZeroStatement` | volunteer-build-reviewed |
 | M076935 | P0556 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.EqZeroOfForallXiPowDvd` | wave-reused |
 | M076979 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.EvalTwSubK` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M077874 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsIsotropicDualOfSkewMatrixStatement` | volunteer-build-reviewed |
 | M077892 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLagrangianContainingIsotropicRatStatement` | volunteer-build-reviewed |
 | M077917 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLeftInverseOfFibrewiseInjective` | volunteer-build-reviewed |
-| M077957 | P0035 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLimitSeries` | wave-reused |
-| M077964 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLinearIndependentRatBasisAdaptedSubspace` | volunteer-build-reviewed |
-| M078003 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLocalSectionOfIsIntegralElemNormalSchemeStatement` | volunteer-build-reviewed |
-| M078012 | P0622 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLogTeichmullerAcrisEqMuMulUnit` | wave-reused |
-| M078013 | P0655 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLogTeichmullerAcrisEqMuMulUnitStatement` | wave-reused |
-| M078023 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMatrixBasisLatticeUpToDenominatorNotMemStatement` | volunteer-build-reviewed |
-| M078026 | P0685 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMaxUnramifiedEmbeddingIntoBcris` | wave-reused |
-| M078027 | P0711 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMaxUnramifiedEmbeddingIntoBcrisStatement` | wave-reused |
-| M078032 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMemOfListProdMem` | volunteer-build-reviewed |
-| M078034 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMemPairingEqSingleNonradicalStatement` | volunteer-build-reviewed |

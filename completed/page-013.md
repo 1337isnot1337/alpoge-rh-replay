@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M058482 | P0683 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianLocalSumsEqConstMulCoordinateSums` | wave-reused |
+| M058483 | P0709 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianLocalSumsEqConstMulCoordinateSumsStatement` | wave-reused |
+| M058484 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianMassEqSumFrameClasses` | wave-reused |
+| M058485 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianMassEqSumFrameClassesStatement` | wave-reused |
+| M058486 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianMatrixCongruenceContentJacobian` | wave-reused |
 | M058487 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianMatrixCongruenceContentJacobianStatement` | wave-reused |
 | M058488 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianMovePreservesFrameLatticeLevels` | wave-reused |
 | M058489 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianMovePreservesFrameLatticeLevelsStatement` | wave-reused |
@@ -397,8 +402,3 @@
 | M061570 | P0402 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsComplexRingEquivExtendingSubfieldAutStatement` | wave-reused |
 | M061573 | P0444 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsConjLevelOne` | wave-reused |
 | M061574 | P0483 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsConjLevelOneStatement` | wave-reused |
-| M061579 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsConjugateFamilyOfInjective` | wave-reused |
-| M061580 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsConjugateFamilyOfInjectiveStatement` | wave-reused |
-| M061587 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspExpansionAtInfinityOfSomeLevel` | wave-reused |
-| M061588 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspExpansionAtInfinityOfSomeLevelStatement` | wave-reused |
-| M061589 | P0521 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspExpansionDiscriminantIntegerLeadingOne` | wave-reused |

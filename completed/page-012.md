@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M051302 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StoneWeierstrassFiniteRepStatement` | volunteer-build-reviewed |
+| M051308 | P1033 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrictHenselisationEnlargeGoodAtOrigin` | wave-reused |
+| M051317 | P0787 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrictlyHenselianIff` | wave-reused |
+| M051319 | P0868 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrictlyHenselianLocalRingAcyclicEverySheaf` | wave-reused |
+| M051320 | P0895 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrictlyHenselianLocalRingAcyclicEverySheafStatement` | wave-reused |
 | M051392 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubharmonicLogConvexityQuotient` | volunteer-build-reviewed |
 | M051401 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubmoduleFgOfLocallyLeFgStatement` | volunteer-build-reviewed |
 | M051420 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubsingletonEtaleHypercohomologyOfRetract` | wave-reused |
@@ -397,8 +402,3 @@
 | M058475 | P0843 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianLatticeMassEqFinprodLocalStatement` | wave-reused |
 | M058478 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianLocalCharacterSum` | wave-reused |
 | M058479 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianLocalCharacterSumStatement` | wave-reused |
-| M058482 | P0683 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianLocalSumsEqConstMulCoordinateSums` | wave-reused |
-| M058483 | P0709 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianLocalSumsEqConstMulCoordinateSumsStatement` | wave-reused |
-| M058484 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianMassEqSumFrameClasses` | wave-reused |
-| M058485 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianMassEqSumFrameClassesStatement` | wave-reused |
-| M058486 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianMatrixCongruenceContentJacobian` | wave-reused |

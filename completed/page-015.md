@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M063564 | P1063 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RankinValuesAtZeroStatement` | wave-reused |
+| M063577 | P1121 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ReciprocityLargeLevel` | wave-reused |
+| M063578 | P1149 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ReciprocityLargeLevelStatement` | wave-reused |
+| M063587 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumDilate` | wave-reused |
+| M063588 | P0684 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumDilateStatement` | wave-reused |
 | M063589 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumDirectionIndep` | wave-reused |
 | M063590 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumDirectionIndepStatement` | wave-reused |
 | M063591 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumEqTsumOfKills` | wave-reused |
@@ -69,6 +74,7 @@
 | M063761 | P0621 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothedThetaQProductModularSTransformStatement` | wave-reused |
 | M063762 | P0027 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothingIntegersTwoCharacters` | wave-reused |
 | M063763 | P0119 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothingIntegersTwoCharactersStatement` | wave-reused |
+| M063769 | P0189 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SpanHeisenbergTranslatesVacuumEqTop` | volunteer-build-reviewed |
 | M063786 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelMassDegreeTypeLe` | wave-reused |
 | M063787 | P0404 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelMassDegreeTypeLeStatement` | wave-reused |
 | M063788 | P0251 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelTorusCardBoundsAndMul` | wave-reused |
@@ -91,6 +97,7 @@
 | M063824 | P0358 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SubgroupCharacterIdempotentPropertiesStatement` | wave-reused |
 | M063844 | P0252 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SumLeProdOfTwoLeNat` | wave-reused |
 | M063851 | P0119 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SumOpTransversal` | volunteer-build-reviewed |
+| M063852 | P0189 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SumOpTransversalStatement` | volunteer-build-reviewed |
 | M063855 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SumPeriodicCotEqQExpansionFourier` | wave-reused |
 | M063856 | P0621 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SumPeriodicCotEqQExpansionFourierStatement` | wave-reused |
 | M063859 | P0252 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SumPrimePowerPartPowSubOneLe` | wave-reused |
@@ -370,6 +377,7 @@
 | M067189 | P1094 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CMemDeltaCommuteLocusSubringOfIsHausdorff` | wave-reused |
 | M067190 | P1123 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CMemDeltaCommuteLocusSubringOfIsHausdorffStatement` | wave-reused |
 | M067213 | P0029 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardFilterValLt` | build-observed |
+| M067253 | P0029 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardQuotPowSmulBoundsDvrFgModule` | volunteer-build-reviewed |
 | M067272 | P0522 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardTorsionMulFinrank` | wave-reused |
 | M067314 | P0763 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CentralIdempotentOfIrrCharacterOrthogonalCentral` | wave-reused |
 | M067315 | P0789 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CentralIdempotentOfIrrCharacterOrthogonalCentralStatement` | wave-reused |
@@ -394,11 +402,3 @@
 | M067524 | P0764 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CoeffZeroEqZeroIff` | wave-reused |
 | M067527 | P1094 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CoeffZeroNeZeroOfWittFrobeniusExpandDvd` | wave-reused |
 | M067528 | P1123 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CoeffZeroNeZeroOfWittFrobeniusExpandDvdStatement` | wave-reused |
-| M067556 | P0522 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ColRepSemisimple` | wave-reused |
-| M067574 | P0030 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CommuteInvLeft` | wave-reused |
-| M067667 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CongruenceSubgroupsGLPadic` | volunteer-build-reviewed |
-| M067731 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ConstantCoeffTaylor` | volunteer-build-reviewed |
-| M067732 | P0872 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ConstantCoeffTeichSub` | wave-reused |
-| M067755 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ContinuousCohomologyVanishesOfPrimeToLNormalNoIn` | volunteer-build-reviewed |
-| M067761 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ContinuousDistribHaarCharUnitsOfCompactOpen` | volunteer-build-reviewed |
-| M067763 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ContinuousEtaleHermitianPairNormAndMapZero` | volunteer-build-reviewed |

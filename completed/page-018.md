@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M077957 | P0035 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLimitSeries` | wave-reused |
+| M077964 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLinearIndependentRatBasisAdaptedSubspace` | volunteer-build-reviewed |
+| M078003 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLocalSectionOfIsIntegralElemNormalSchemeStatement` | volunteer-build-reviewed |
+| M078012 | P0622 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLogTeichmullerAcrisEqMuMulUnit` | wave-reused |
+| M078013 | P0655 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLogTeichmullerAcrisEqMuMulUnitStatement` | wave-reused |
+| M078023 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMatrixBasisLatticeUpToDenominatorNotMemStatement` | volunteer-build-reviewed |
+| M078026 | P0685 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMaxUnramifiedEmbeddingIntoBcris` | wave-reused |
+| M078027 | P0711 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMaxUnramifiedEmbeddingIntoBcrisStatement` | wave-reused |
+| M078032 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMemOfListProdMem` | volunteer-build-reviewed |
+| M078034 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMemPairingEqSingleNonradicalStatement` | volunteer-build-reviewed |
 | M078128 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsNormOneCmFieldDetOneAddNeZeroCharZeroStatement` | volunteer-build-reviewed |
 | M078129 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsNormOneCmFieldDetOneAddNeZeroStatement` | volunteer-build-reviewed |
 | M078157 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsOpenAvoidingNonGenericStatement` | volunteer-build-reviewed |
@@ -119,6 +129,7 @@
 | M082135 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SetIntegralMulLeft` | volunteer-build-reviewed |
 | M082212 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SmoothOfFiniteDimensionalTranslationStableStatement` | volunteer-build-reviewed |
 | M082255 | P0037 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SpanMkQOneTmul` | wave-reused |
+| M082359 | P0037 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.StalkGenerizationGermCompat` | volunteer-build-reviewed |
 | M082500 | P0309 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SubsingletonJacquetIff` | volunteer-build-reviewed |
 | M082520 | P1334 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SupportPushforwardSubschemeSubset` | wave-reused |
 | M082521 | P1406 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SupportPushforwardSubsetImageOfIsClosedImmersion` | wave-reused |
@@ -384,21 +395,10 @@
 | M084457 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.SumNormSqHermTranslatesOrthonormalStatement` | volunteer-build-reviewed |
 | M084458 | P0737 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.SumNormSqProjectionsTensorUnitaryGlLe` | wave-reused |
 | M084459 | P0766 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.SumNormSqProjectionsTensorUnitaryGlLeStatement` | volunteer-build-reviewed |
+| M084461 | P0037 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.SumPrimeLogDivPredLeLogAdd` | volunteer-build-reviewed |
 | M084463 | P1128 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.SumProdConstMul` | wave-reused |
 | M084464 | P0310 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.SumProdConstantCoeffDmonOfCols` | wave-reused |
 | M084465 | P0361 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.SumProdNabValLeadingMinors` | wave-reused |
 | M084466 | P0407 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.SumProdNabValLeadingMinorsOfColumnJets` | wave-reused |
 | M084472 | P1284 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.SurjectiveAppTop` | wave-reused |
 | M084482 | P0930 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TensorBesselTransfer` | wave-reused |
-| M084483 | P0958 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TensorBesselTransferStatement` | wave-reused |
-| M084485 | P0793 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TensorDecompositionParameters` | wave-reused |
-| M084487 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TensorEqZeroOfForallGeometricPoint` | volunteer-build-reviewed |
-| M084488 | P1014 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TensorMomentEstimate` | wave-reused |
-| M084489 | P1042 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TensorMomentEstimateStatement` | wave-reused |
-| M084495 | P0958 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TensorRawOfFrep` | wave-reused |
-| M084496 | P0986 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TensorRawOfFrepStatement` | wave-reused |
-| M084530 | P0875 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ThreePointSeriesExponentialOfDefect` | wave-reused |
-| M084543 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TorsionLiftPairingInOrthogonalFrame` | volunteer-build-reviewed |
-| M084553 | P0848 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TranslatePullbackEigensection` | wave-reused |
-| M084559 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TwistedMeasureMomentsEqShiftedSeriesJets` | volunteer-build-reviewed |
-| M084568 | P0524 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.UnitaryGlModuleLevelOffDiagNormSqLe` | wave-reused |

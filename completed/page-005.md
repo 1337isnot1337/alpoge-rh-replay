@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006455 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegralConjInnerMulInnerOfIsEmptyEquiv` | volunteer-build-reviewed |
+| M006457 | P0759 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsClosedImmersionIffPullRatio` | wave-reused |
+| M006458 | P0784 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsClosedImmersionSigmaDesc` | wave-reused |
 | M006459 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsHarmonicProdOfDisjointColumns` | wave-reused |
 | M006460 | P1144 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsProjOverCompOfIsClosedImmersion` | wave-reused |
 | M006461 | P1170 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsProjOverIffIsProperAndExistsIsAmpleLB` | wave-reused |
@@ -193,6 +196,7 @@
 | M009526 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.HermitianCocycleIntegralOfLocalStatement` | volunteer-build-reviewed |
 | M009620 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IndexComapEqOfCosetsHit` | wave-reused |
 | M009671 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralAdeleCongrZeroOfResiduesSquarefree` | volunteer-build-reviewed |
+| M009829 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IsPatOne` | volunteer-build-reviewed |
 | M009845 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IsQuotIntCellsStatement` | volunteer-build-reviewed |
 | M009848 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IsRead` | volunteer-build-reviewed |
 | M009854 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IsScalarMulIntegralOfNormalizesSymmetricLevel` | volunteer-build-reviewed |
@@ -207,6 +211,7 @@
 | M010439 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemIntegralGLIffIsUnitDetAtPrime` | volunteer-build-reviewed |
 | M010453 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemLevelIffSymmetricPositionEntryPatternStatement` | volunteer-build-reviewed |
 | M010733 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PartialFourierInversion` | volunteer-build-reviewed |
+| M010828 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PowExpIOrInvInjective` | volunteer-build-reviewed |
 | M010892 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.RamBigOfRamShare` | volunteer-build-reviewed |
 | M011013 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.RelIndexScaledMaxIdealStatement` | volunteer-build-reviewed |
 | M011029 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.RootExchangeBlockDiagonalTargetEntryConditions` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M013544 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HasTorusWeightIffTorusEquivariant` | volunteer-build-reviewed |
 | M013547 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HasWtZero` | volunteer-build-reviewed |
 | M013552 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HomDescendsToSubfieldContainingFinsetStatement` | volunteer-build-reviewed |
-| M013555 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HomGenericPoint` | volunteer-build-reviewed |
-| M013566 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ImmByOfSpans` | wave-reused |
-| M013567 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ImmByWeightZero` | wave-reused |
-| M013568 | P1171 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ImmByWeightZeroStatement` | wave-reused |
-| M013571 | P0649 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IndepOfNestedSpecialFibreImages` | wave-reused |

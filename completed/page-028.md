@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M124984 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeCosetScaledRiemannSumStatement` | volunteer-build-reviewed |
+| M124987 | P0659 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeFiltrationComapSpanPow` | volunteer-build-reviewed |
+| M125000 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeIdealIsPrime` | volunteer-build-reviewed |
+| M125001 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeIdealQuotientChain` | volunteer-build-reviewed |
+| M125008 | P0659 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeIsAdicComplete` | volunteer-build-reviewed |
+| M125009 | P0659 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeIsAdicCompleteL` | volunteer-build-reviewed |
+| M125010 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeIsDPMorphismOfCompat` | volunteer-build-reviewed |
+| M125018 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeNatDividesLPow` | volunteer-build-reviewed |
+| M125051 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeXiMulDpowSucc` | volunteer-build-reviewed |
+| M125052 | P0659 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeXiMulDpowSuccStatement` | volunteer-build-reviewed |
+| M125054 | P0061 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LaurentPartialDerivationUnique` | volunteer-build-reviewed |
+| M125059 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LcCover` | volunteer-build-reviewed |
+| M125062 | P0061 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LeOneOfPowerBounds` | volunteer-build-reviewed |
+| M125199 | P0061 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LieAlgebraFunctionCalculus` | volunteer-build-reviewed |
 | M125205 | P0061 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LieAlgebraStarClosedBracket` | volunteer-build-reviewed |
 | M125228 | P0140 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LiftIdempotentAdicComplete` | wave-reused |
 | M125234 | P1342 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LiftingBaseOfVanishingCohomology` | wave-reused |
@@ -388,17 +402,3 @@
 | M129391 | P0529 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.SumLogPrimeDivPredBoundStatement` | wave-reused |
 | M129394 | P0369 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.SumPrimeLogDivLe` | wave-reused |
 | M129395 | P0414 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.SumPrimeLogDivLeStatement` | wave-reused |
-| M129436 | P0369 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.UniformizerDivisorCycleNumber` | wave-reused |
-| M129437 | P0414 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.UniformizerDivisorCycleNumberStatement` | wave-reused |
-| M129438 | P0596 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.VerticalDivisorGeometricNumber` | volunteer-build-reviewed |
-| M129439 | P0629 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.VerticalDivisorGeometricNumberStatement` | wave-reused |
-| M129440 | P0689 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.VerticalNumberLocalCycle` | wave-reused |
-| M129441 | P0716 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.VerticalNumberLocalCycleStatement` | wave-reused |
-| M129442 | P0564 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.VerticalNumberZeroOfHorizontal` | wave-reused |
-| M129443 | P0596 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.VerticalNumberZeroOfHorizontalStatement` | volunteer-build-reviewed |
-| M129444 | P0530 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.VerticalPairPowerSumVanish` | wave-reused |
-| M129445 | P0564 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.VerticalPairPowerSumVanishStatement` | wave-reused |
-| M129533 | P0062 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.AddJFintype` | volunteer-build-reviewed |
-| M129547 | P0062 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.AlgIndepOfSameAdjoin` | volunteer-build-reviewed |
-| M129576 | P0455 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ArMonoAddSingle` | wave-reused |
-| M129583 | P0596 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ArithVarietyCoordIdeal` | volunteer-build-reviewed |

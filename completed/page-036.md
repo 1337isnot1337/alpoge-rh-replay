@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M144955 | P0602 | `Formalism.GL3MeanSquares.HookFormulaTorsion.DifferenceStableUnderAction` | build-observed |
+| M144956 | P0602 | `Formalism.GL3MeanSquares.HookFormulaTorsion.DifferentIdealConditions` | build-observed |
+| M144957 | P0461 | `Formalism.GL3MeanSquares.HookFormulaTorsion.DimensionMassJointBound` | build-observed |
+| M144958 | P0374 | `Formalism.GL3MeanSquares.HookFormulaTorsion.DoubleCosetDecompositionAll` | build-observed |
+| M144959 | P0212 | `Formalism.GL3MeanSquares.HookFormulaTorsion.ExpNegLeDivPowFour` | build-observed |
+| M144960 | P0420 | `Formalism.GL3MeanSquares.HookFormulaTorsion.ExpSeries` | wave-reused |
+| M144961 | P0461 | `Formalism.GL3MeanSquares.HookFormulaTorsion.FactorialProductRearrangement` | build-observed |
+| M144962 | P0325 | `Formalism.GL3MeanSquares.HookFormulaTorsion.FibreCardinalityOfModuliMap` | build-observed |
+| M144963 | P0461 | `Formalism.GL3MeanSquares.HookFormulaTorsion.FiniteEulerProductLeZeta` | build-observed |
+| M144964 | P0634 | `Formalism.GL3MeanSquares.HookFormulaTorsion.FinsuppZmodOneEqSingle` | wave-reused |
+| M144965 | P0420 | `Formalism.GL3MeanSquares.HookFormulaTorsion.FourFoldOrthogonalSum` | wave-reused |
+| M144966 | P0271 | `Formalism.GL3MeanSquares.HookFormulaTorsion.FourierCommutesHeckeScalar` | build-observed |
+| M144967 | P0461 | `Formalism.GL3MeanSquares.HookFormulaTorsion.FourierTransformScaledInner` | build-observed |
+| M144968 | P0461 | `Formalism.GL3MeanSquares.HookFormulaTorsion.GaussianIntegralFormula` | build-observed |
+| M144969 | P0536 | `Formalism.GL3MeanSquares.HookFormulaTorsion.GlobalBoundRefinements` | build-observed |
+| M144970 | P0271 | `Formalism.GL3MeanSquares.HookFormulaTorsion.HadamardUnitDiagonalDetLeOne` | wave-reused |
+| M144971 | P0271 | `Formalism.GL3MeanSquares.HookFormulaTorsion.HasDerivAtLogSquareAntiderivative` | build-observed |
 | M144972 | P0502 | `Formalism.GL3MeanSquares.HookFormulaTorsion.HilbertSchmidtHalfBound` | wave-reused |
 | M144973 | P0461 | `Formalism.GL3MeanSquares.HookFormulaTorsion.HolderExponentialMoments` | build-observed |
 | M144974 | P0212 | `Formalism.GL3MeanSquares.HookFormulaTorsion.HookRowProductEqFactorial` | build-observed |
@@ -385,20 +402,3 @@
 | M145395 | P1136 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDecayBounds.BesselIntegrability.Growth` | build-observed |
 | M145396 | P1106 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDecayBounds.BesselIntegrability.IntegrableGNRpowOfLintegralLtTop` | build-observed |
 | M145397 | P1162 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDecayBounds.BesselIntegrability.LieNUpper` | build-observed |
-| M145398 | P0801 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDecayBounds.BesselUnitNorm.BesselLine` | build-observed |
-| M145404 | P0829 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDecayBounds.BesselUnitNorm.BesselNormSteps.BesselLine.Development` | build-observed |
-| M145410 | P0884 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDecayBounds.BesselUnitNorm.BesselNormSteps.BesselLine.OpNormLeOneOfIso` | build-observed |
-| M145411 | P0857 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDecayBounds.BesselUnitNorm.BesselNormSteps.BesselLine.PartAIff` | build-observed |
-| M145412 | P0910 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDecayBounds.BesselUnitNorm.BesselNormSteps.BesselLine.PsiMulStar` | build-observed |
-| M145416 | P0829 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDecayBounds.BesselUnitNorm.BesselNormSteps.UnitNorm.UnitNormAllOfCore` | build-observed |
-| M145417 | P0747 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDecayBounds.BesselUnitNorm.BesselNormSteps.UnitNorm.UnrealifyRealify` | build-observed |
-| M145418 | P0801 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDecayBounds.BesselUnitNorm.UnitNorm` | build-observed |
-| M145419 | P1106 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDecayBounds.DecayZeroRight.NormDec` | build-observed |
-| M145421 | P1162 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDecayBounds.HaarCompactGrowth.ExpUpper` | build-observed |
-| M145422 | P1136 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDecayBounds.HaarCompactGrowth.GrowthSphericalBound` | build-observed |
-| M145435 | P1293 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDecayBounds.SchurDecayBounds.SchurH` | build-observed |
-| M145436 | P0694 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselDomainMeasurable` | wave-reused |
-| M145438 | P0694 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselNeZeroOfCyclicOrbit` | wave-reused |
-| M145439 | P0938 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselNonvanishingFromL2` | build-observed |
-| M145440 | P0694 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BesselScaling` | wave-reused |
-| M145441 | P0326 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.BetaBoundOnBoundary` | build-observed |

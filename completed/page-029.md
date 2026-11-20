@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M129436 | P0369 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.UniformizerDivisorCycleNumber` | wave-reused |
+| M129437 | P0414 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.UniformizerDivisorCycleNumberStatement` | wave-reused |
+| M129438 | P0596 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.VerticalDivisorGeometricNumber` | volunteer-build-reviewed |
+| M129439 | P0629 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.VerticalDivisorGeometricNumberStatement` | wave-reused |
+| M129440 | P0689 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.VerticalNumberLocalCycle` | wave-reused |
+| M129441 | P0716 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.VerticalNumberLocalCycleStatement` | wave-reused |
+| M129442 | P0564 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.VerticalNumberZeroOfHorizontal` | wave-reused |
+| M129443 | P0596 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.VerticalNumberZeroOfHorizontalStatement` | volunteer-build-reviewed |
+| M129444 | P0530 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.VerticalPairPowerSumVanish` | wave-reused |
+| M129445 | P0564 | `Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.VerticalPairPowerSumVanishStatement` | wave-reused |
+| M129533 | P0062 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.AddJFintype` | volunteer-build-reviewed |
+| M129547 | P0062 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.AlgIndepOfSameAdjoin` | volunteer-build-reviewed |
+| M129576 | P0455 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ArMonoAddSingle` | wave-reused |
+| M129583 | P0596 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ArithVarietyCoordIdeal` | volunteer-build-reviewed |
 | M129648 | P0596 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.BirationalLatticeHeightFormulaStatement` | volunteer-build-reviewed |
 | M129725 | P0596 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ChartBundleFinitelyGeneratedStatement` | volunteer-build-reviewed |
 | M129754 | P0596 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ChartRingMemAfterMonomialScalingStatement` | volunteer-build-reviewed |
@@ -271,6 +285,7 @@
 | M132731 | P0630 | `Development.AutomorphicSpectrum.Proofs.GlobalProofs.IrreducibleSmoothAdmissibleGL` | volunteer-build-reviewed |
 | M132732 | P0661 | `Development.AutomorphicSpectrum.Proofs.GlobalProofs.IrreducibleSmoothAdmissibleGLStatement` | volunteer-build-reviewed |
 | M132737 | P0630 | `Development.AutomorphicSpectrum.Proofs.GlobalProofs.IsClosedCartierLocusSupportStatement` | volunteer-build-reviewed |
+| M132789 | P0063 | `Development.AutomorphicSpectrum.Proofs.GlobalProofs.LocPrincipalSpan` | volunteer-build-reviewed |
 | M132808 | P0630 | `Development.AutomorphicSpectrum.Proofs.GlobalProofs.MeasureInvertibleIntegralMatrices` | volunteer-build-reviewed |
 | M132809 | P0661 | `Development.AutomorphicSpectrum.Proofs.GlobalProofs.MeasureInvertibleIntegralMatricesStatement` | volunteer-build-reviewed |
 | M133029 | P0661 | `Development.AutomorphicSpectrum.Proofs.MembershipProofs.ThetaSumAdmissibility` | volunteer-build-reviewed |
@@ -387,18 +402,3 @@
 | M133682 | P0855 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.FrameChangeScalarFactor` | wave-reused |
 | M133683 | P0882 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.FrameChangeScalarFactorStatement` | wave-reused |
 | M133684 | P0908 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.FrameChangeUnderFieldMap` | wave-reused |
-| M133685 | P0936 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.FrameChangeUnderFieldMapStatement` | wave-reused |
-| M133688 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.FrameDataLocalDegreeEstimate` | volunteer-build-reviewed |
-| M133702 | P0691 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.FubiniStudyMetricSmooth` | wave-reused |
-| M133711 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.GenericDegreeEqGeometricDegree` | volunteer-build-reviewed |
-| M133717 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.GenericFlagAlgebraicallyIndependent` | volunteer-build-reviewed |
-| M133718 | P0691 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.GenericFlagAlgebraicallyIndependentStatement` | wave-reused |
-| M133727 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.GlobalRegularizationStatementHolds` | volunteer-build-reviewed |
-| M133735 | P0565 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.GramDetPosIffLinearIndependent` | wave-reused |
-| M133736 | P0597 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.GramDetPosIffLinearIndependentStatement` | wave-reused |
-| M133751 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.HasStepCharts` | volunteer-build-reviewed |
-| M133762 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.HermitianFormPeriodMatrixNormalForm` | volunteer-build-reviewed |
-| M133822 | P0691 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.HoloOnDivCongr` | wave-reused |
-| M133833 | P0597 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.HolomorphicFamilySmoothEntries` | wave-reused |
-| M133834 | P0630 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.HolomorphicFamilySmoothEntriesStatement` | volunteer-build-reviewed |
-| M133835 | P0882 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.HolomorphicFrameMetricNearPoint` | wave-reused |

@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M046763 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProjectiveCharZeroTensorRingOfIntegers` | volunteer-build-reviewed |
+| M046840 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProperMapBumpFunctionExists` | volunteer-build-reviewed |
+| M046877 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PshNormalFrameQuadraticComparison` | wave-reused |
+| M046878 | P1005 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PshNormalFrameQuadraticComparisonStatement` | wave-reused |
+| M046889 | P0894 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantEigenProperty` | wave-reused |
 | M046890 | P0922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantEigenPropertyStatement` | wave-reused |
 | M046891 | P0786 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantElementProperty` | wave-reused |
 | M046892 | P0813 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantElementPropertyStatement` | wave-reused |
@@ -397,8 +402,3 @@
 | M051254 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.Statement` | volunteer-build-reviewed |
 | M051271 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SteinitzPiIdealsLinearEquivOfClassGroupProd` | volunteer-build-reviewed |
 | M051295 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StereographicMeasureChange` | volunteer-build-reviewed |
-| M051302 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StoneWeierstrassFiniteRepStatement` | volunteer-build-reviewed |
-| M051308 | P1033 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrictHenselisationEnlargeGoodAtOrigin` | wave-reused |
-| M051317 | P0787 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrictlyHenselianIff` | wave-reused |
-| M051319 | P0868 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrictlyHenselianLocalRingAcyclicEverySheaf` | wave-reused |
-| M051320 | P0895 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrictlyHenselianLocalRingAcyclicEverySheafStatement` | wave-reused |

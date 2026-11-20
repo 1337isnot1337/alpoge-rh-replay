@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M086512 | P1101 | `Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.ValueAtUnitSectionGenericFibre` | wave-reused |
+| M086513 | P1129 | `Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.ValueAtUnitSectionGenericFibreStatement` | wave-reused |
+| M086514 | P0821 | `Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.VanishOfTermsVanish` | wave-reused |
+| M086521 | P0849 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.AbsIrreducibleConstituentRanksUniqueOfCharpoly` | volunteer-build-reviewed |
+| M086524 | P0849 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.AbsNormCoprimeOfSup` | volunteer-build-reviewed |
+| M086600 | P0194 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.AlternatingCofaceMapComplexPreadditiveYonedaDApp` | wave-reused |
+| M086654 | P0849 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.BlockComplementIsSubAtEnlargementStatement` | volunteer-build-reviewed |
+| M086697 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CardTargetJumpsEqRank` | volunteer-build-reviewed |
+| M086708 | P0127 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CechAcyclic` | wave-reused |
+| M086810 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CloudLowJumpsReflectAndCard` | volunteer-build-reviewed |
+| M086905 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ComplexConjugationOrbitOneRealPlace` | volunteer-build-reviewed |
+| M087023 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CyclicWordMarkedClustersOfAtMostTwoInWindow` | volunteer-build-reviewed |
 | M087025 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CyclicWordNoThreeMarkedOfAtMostOne` | volunteer-build-reviewed |
 | M087027 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CyclicWordNoThreeMarkedOfAtMostTwoInWindow` | volunteer-build-reviewed |
 | M087111 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.DownMemRecOfTies` | volunteer-build-reviewed |
@@ -390,15 +402,3 @@
 | M091546 | P0904 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsMixedProj` | wave-reused |
 | M091548 | P1131 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsPhlaBound` | wave-reused |
 | M091556 | P0040 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsSmoothStepSharpSlope` | wave-reused |
-| M091574 | P0712 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.FirstMinimumInvariantContinuousPos` | wave-reused |
-| M091575 | P0795 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.FirstMinimumInvariantContinuousPosOnFrames` | wave-reused |
-| M091606 | P0195 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.InjectiveOfInjectiveCompAevalOfTrdegLe` | wave-reused |
-| M091607 | P0822 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.IntegralEqIntegralTsumOfLintegral` | wave-reused |
-| M091613 | P1072 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.IsUpqSubmatrix` | wave-reused |
-| M091616 | P1072 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.KaFrameOfDelta` | wave-reused |
-| M091617 | P0988 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.KaUnfoldOfUnfoldOfKappa` | wave-reused |
-| M091618 | P1312 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.KronHolPsiInterpInterpC` | wave-reused |
-| M091619 | P0850 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.KronHolPsiOf` | wave-reused |
-| M091628 | P0850 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.LeviFormWeightMetricOrthonormalDiagonal` | wave-reused |
-| M091632 | P0851 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.LintegralImageLeConst` | wave-reused |
-| M091633 | P0851 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.LintegralLeDensity` | wave-reused |

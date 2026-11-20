@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M100843 | P0363 | `Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.CohDimTwoLocalOfLocalFiniteness` | wave-reused |
+| M100863 | P0409 | `Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ExistsPrimitiveRootPow` | wave-reused |
+| M100895 | P1017 | `Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.OneSubPhiOntoOfFilZero` | wave-reused |
+| M100896 | P0363 | `Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.PoitouTateNineTermTransgressionZeroApply` | wave-reused |
+| M100897 | P0449 | `Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.PoitouTateNormalised` | wave-reused |
+| M100966 | P0487 | `Development.AbelianVarietyTheory.PublishedTheorems.Landherr₂.ExistsNormTensor` | wave-reused |
+| M100967 | P0487 | `Development.AbelianVarietyTheory.PublishedTheorems.Landherr₂.LandherrStIffLandherr` | wave-reused |
+| M100971 | P0197 | `Development.AbelianVarietyTheory.PublishedTheorems.PublishedFoundations.ComplexMultiplicationJPremises` | build-observed |
+| M100976 | P1073 | `Development.AbelianVarietyTheory.PublishedTheorems.RelativeAmpleness.RelAmpleAndKTrivIff` | wave-reused |
+| M100979 | P0796 | `Development.AbelianVarietyTheory.PublishedTheorems.SemiabelianTori.GeometricallyConnectedSplitTorusAff` | wave-reused |
+| M101047 | P0042 | `Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.InverseChamberMap` | volunteer-build-reviewed |
+| M101070 | P0130 | `Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.NegOneNotSqSqrtTwo` | wave-reused |
 | M101078 | P0042 | `Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.QuadraticClassFieldTheory` | wave-reused |
 | M101079 | P0042 | `Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.RadfordShufflePolynomialHolds` | volunteer-build-reviewed |
 | M101080 | P0042 | `Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.RealMetaplecticRepresentation` | volunteer-build-reviewed |
@@ -390,15 +402,3 @@
 | M104314 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LevelCohomology.LxCore` | volunteer-build-reviewed |
 | M104415 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.AbsMain` | volunteer-build-reviewed |
 | M104416 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.Acyclic` | volunteer-build-reviewed |
-| M104417 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.AltAddRadial` | volunteer-build-reviewed |
-| M104418 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.AltSmooth` | volunteer-build-reviewed |
-| M104419 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.AltSym` | volunteer-build-reviewed |
-| M104420 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ApplySmooth` | volunteer-build-reviewed |
-| M104421 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.Average` | volunteer-build-reviewed |
-| M104422 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.AvgMem` | volunteer-build-reviewed |
-| M104423 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.BasicDeriv` | volunteer-build-reviewed |
-| M104436 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.Cutoff` | volunteer-build-reviewed |
-| M104437 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.DEquiv` | volunteer-build-reviewed |
-| M104448 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.InclFacts` | volunteer-build-reviewed |
-| M104455 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ParamDeriv` | volunteer-build-reviewed |
-| M104456 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ParamSmooth` | volunteer-build-reviewed |

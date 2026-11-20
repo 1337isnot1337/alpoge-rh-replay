@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M135832 | P0632 | `Development.EtaleCohomology.EtaleSheaves.PartCPfSplit` | wave-reused |
+| M135833 | P0567 | `Development.EtaleCohomology.EtaleSheaves.PartDiagCut` | wave-reused |
+| M135834 | P0599 | `Development.EtaleCohomology.EtaleSheaves.PartDirectedPf` | wave-reused |
+| M135839 | P0773 | `Development.EtaleCohomology.EtaleSheaves.PowQEqOne` | wave-reused |
+| M135841 | P0599 | `Development.EtaleCohomology.EtaleSheaves.PrimitiveRootLocalization` | wave-reused |
+| M135842 | P0533 | `Development.EtaleCohomology.EtaleSheaves.ProEqvPf` | wave-reused |
+| M135843 | P0567 | `Development.EtaleCohomology.EtaleSheaves.ProEqvPfA` | wave-reused |
+| M135844 | P0567 | `Development.EtaleCohomology.EtaleSheaves.ProdACFField` | wave-reused |
+| M135845 | P0533 | `Development.EtaleCohomology.EtaleSheaves.ProdAcycPf` | wave-reused |
+| M135846 | P0599 | `Development.EtaleCohomology.EtaleSheaves.ProdPf` | wave-reused |
+| M135849 | P0692 | `Development.EtaleCohomology.EtaleSheaves.ProjectiveLineTwoAffineChartsPolynomialGenerated` | wave-reused |
+| M135850 | P0533 | `Development.EtaleCohomology.EtaleSheaves.ProperLineCovers.CoverPf` | wave-reused |
+| M135861 | P0497 | `Development.EtaleCohomology.EtaleSheaves.QuotAcycCut` | wave-reused |
+| M135867 | P0599 | `Development.EtaleCohomology.EtaleSheaves.RelNormPf` | wave-reused |
+| M135868 | P0567 | `Development.EtaleCohomology.EtaleSheaves.RelNormPfAff` | wave-reused |
 | M135869 | P0533 | `Development.EtaleCohomology.EtaleSheaves.RelNormPfGlue` | wave-reused |
 | M135871 | P0533 | `Development.EtaleCohomology.EtaleSheaves.ResBijPf` | wave-reused |
 | M135872 | P0663 | `Development.EtaleCohomology.EtaleSheaves.ResSmulGen` | wave-reused |
@@ -387,18 +402,3 @@
 | M136548 | P0692 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.DerivBalancedFactor` | wave-reused |
 | M136549 | P0632 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.DivisorFamilyCenters` | wave-reused |
 | M136550 | P0800 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.DivisorReductionHypotheses` | wave-reused |
-| M136551 | P0692 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.DivisorReductionProperties` | wave-reused |
-| M136552 | P0663 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.DivisorReductionPushforward` | wave-reused |
-| M136553 | P0535 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.DivisorReductionSequence` | wave-reused |
-| M136554 | P0632 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.DivisorReductionStepProperties` | wave-reused |
-| M136555 | P0773 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.DivisorRestrictionFieldBaseChange` | wave-reused |
-| M136556 | P1135 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.EmptyOrderLocus` | wave-reused |
-| M136557 | P0746 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.EmptyPulledBackCenter` | wave-reused |
-| M136558 | P0746 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.FieldBaseChangeCompatibility` | wave-reused |
-| M136559 | P0719 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.GoingUpInvariant` | wave-reused |
-| M136560 | P0800 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.GoingUpInvariantInduction` | wave-reused |
-| M136561 | P0773 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.GoingUpInvariantOnOpens` | wave-reused |
-| M136562 | P0746 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.GoingUpInvariantSucc` | wave-reused |
-| M136563 | P0719 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.InducedSubschemePullback` | wave-reused |
-| M136564 | P0692 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.KernelOfAmbientEmbedding` | wave-reused |
-| M136565 | P0692 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.LogDerivIdealEstimate` | wave-reused |

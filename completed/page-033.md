@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M138048 | P0209 | `Development.WeilBound.CoreStatements.CompactAveragingSplitting.EigenvectorLifting.SiegelTransportAlg` | volunteer-build-reviewed |
+| M138049 | P0209 | `Development.WeilBound.CoreStatements.CompactAveragingSplitting.EigenvectorLifting.SiegelTransportAn` | volunteer-build-reviewed |
+| M138070 | P0535 | `Development.WeilBound.CoreStatements.CrystallinePeriodRings.InstCommRingBcris` | wave-reused |
+| M138088 | P0209 | `Development.WeilBound.CoreStatements.EqualVolumeCompactOpens.Master` | volunteer-build-reviewed |
+| M138250 | P0209 | `Development.WeilBound.CoreStatements.GaussianSeminormBounds.RealSeminormFiltration.FockAct1FockAct2Commute` | volunteer-build-reviewed |
+| M138272 | P0600 | `Development.WeilBound.CoreStatements.HeckeCharacterDeRham.DeRhamHeckeResults.PotentiallySemistableDeRham.SemistableDeRhamStatement.Second` | wave-reused |
+| M138273 | P0909 | `Development.WeilBound.CoreStatements.HodgeTatePoints.A12` | wave-reused |
+| M138275 | P0800 | `Development.WeilBound.CoreStatements.HodgeTatePoints.A36` | wave-reused |
+| M138276 | P0828 | `Development.WeilBound.CoreStatements.HodgeTatePoints.A53` | wave-reused |
+| M138282 | P0600 | `Development.WeilBound.CoreStatements.HodgeTatePoints.BilinearPartAx3` | wave-reused |
+| M138284 | P0209 | `Development.WeilBound.CoreStatements.HodgeTatePoints.BtOrderOfPoints` | volunteer-build-reviewed |
+| M138286 | P0693 | `Development.WeilBound.CoreStatements.HodgeTatePoints.CbAlpha` | wave-reused |
+| M138287 | P0600 | `Development.WeilBound.CoreStatements.HodgeTatePoints.CbBase` | wave-reused |
+| M138288 | P0663 | `Development.WeilBound.CoreStatements.HodgeTatePoints.CbFrob` | wave-reused |
+| M138289 | P0418 | `Development.WeilBound.CoreStatements.HodgeTatePoints.CcBase` | wave-reused |
 | M138296 | P0065 | `Development.WeilBound.CoreStatements.HodgeTatePoints.CgSplit` | wave-reused |
 | M138298 | P1075 | `Development.WeilBound.CoreStatements.HodgeTatePoints.CgUnif` | wave-reused |
 | M138311 | P0633 | `Development.WeilBound.CoreStatements.HodgeTatePoints.CoeffEvPowOne` | wave-reused |
@@ -257,6 +272,7 @@
 | M141828 | P0145 | `Development.WeilBound.RepresentationTheoryGL.JacquetShalikaBounds.AbsoluteRigidity.DiagonalTermNorms.ConvergenceOfLandauEuler` | volunteer-build-reviewed |
 | M141829 | P0145 | `Development.WeilBound.RepresentationTheoryGL.JacquetShalikaBounds.AbsoluteRigidity.EulerLogarithms.EulerProductLogBound` | volunteer-build-reviewed |
 | M141830 | P0145 | `Development.WeilBound.RepresentationTheoryGL.JacquetShalikaBounds.AbsoluteRigidity.LandauIteratedDerivatives.LandauL` | volunteer-build-reviewed |
+| M141831 | P0066 | `Development.WeilBound.RepresentationTheoryGL.JacquetShalikaBounds.AbsoluteRigidity.NewtonLow` | volunteer-build-reviewed |
 | M141832 | P0145 | `Development.WeilBound.RepresentationTheoryGL.JacquetShalikaBounds.AbsoluteRigidity.NewtonLowerBounds.NewtonIdentitiesLowDegree` | volunteer-build-reviewed |
 | M141833 | P0145 | `Development.WeilBound.RepresentationTheoryGL.JacquetShalikaBounds.AbsoluteRigidity.NonnegativeCoefficients.DirichletSeriesUnbounded` | volunteer-build-reviewed |
 | M141835 | P0145 | `Development.WeilBound.RepresentationTheoryGL.JacquetShalikaBounds.AbsoluteRigidity.RemovableSingularities.RemovableSingularityHolds` | volunteer-build-reviewed |
@@ -266,6 +282,7 @@
 | M141993 | P0145 | `Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.LMajorA` | volunteer-build-reviewed |
 | M142001 | P0145 | `Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.LPosExtB` | volunteer-build-reviewed |
 | M142002 | P0145 | `Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.LPosExtC` | volunteer-build-reviewed |
+| M142079 | P0067 | `Development.WeilBound.RepresentationTheoryGL.ResidualSpectrum.ExponentialNegativity.GapAbsOf` | volunteer-build-reviewed |
 | M142201 | P0145 | `Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.AbsoluteConvergence.CayleyMulConjTranspose` | volunteer-build-reviewed |
 | M142303 | P0419 | `Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.AnalyticDeterminants.ContinuousOnIteratedFDerivTranslate` | volunteer-build-reviewed |
 | M142309 | P0419 | `Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.AnalyticDeterminants.FderivDeterminantPowerCornerInt` | volunteer-build-reviewed |
@@ -385,20 +402,3 @@
 | M144129 | P0324 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.GlobalConcreteOf` | wave-reused |
 | M144130 | P0420 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.GlobalModuleOf` | wave-reused |
 | M144131 | P0324 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.IdemNormalForm` | wave-reused |
-| M144132 | P0270 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.IsUnitDetOfConst` | wave-reused |
-| M144133 | P0211 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.LenCokerOfDetNeZero` | wave-reused |
-| M144134 | P0270 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.LengthEpsImgEqAdd` | build-observed |
-| M144135 | P0420 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.LengthEqKerAddRange` | wave-reused |
-| M144136 | P0146 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.LengthKerOfDetEqZero` | wave-reused |
-| M144137 | P0460 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.LengthKerSmulLe` | wave-reused |
-| M144138 | P0270 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.LengthQuotSmulRangeFree` | wave-reused |
-| M144139 | P0324 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.MemCcIdealIffForall` | wave-reused |
-| M144140 | P0146 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.ProdEraseZero` | build-observed |
-| M144141 | P0270 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.RightMulEpsAlgebraMap` | wave-reused |
-| M144142 | P0146 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.SingleEqSmul` | wave-reused |
-| M144143 | P0373 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.SmulEqZeroIffCrit` | build-observed |
-| M144144 | P0324 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.SpacedProductLowerBound` | wave-reused |
-| M144145 | P0324 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.SplitFibre` | wave-reused |
-| M144146 | P0374 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.SumIteLe` | build-observed |
-| M144147 | P0270 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.VccSpan` | wave-reused |
-| M144148 | P0460 | `Formalism.CharacterColumnKernels.StatBlockChiOneTriv` | wave-reused |

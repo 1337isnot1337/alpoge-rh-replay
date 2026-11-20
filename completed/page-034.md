@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M144132 | P0270 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.IsUnitDetOfConst` | wave-reused |
+| M144133 | P0211 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.LenCokerOfDetNeZero` | wave-reused |
+| M144134 | P0270 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.LengthEpsImgEqAdd` | build-observed |
+| M144135 | P0420 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.LengthEqKerAddRange` | wave-reused |
+| M144136 | P0146 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.LengthKerOfDetEqZero` | wave-reused |
+| M144137 | P0460 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.LengthKerSmulLe` | wave-reused |
+| M144138 | P0270 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.LengthQuotSmulRangeFree` | wave-reused |
+| M144139 | P0324 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.MemCcIdealIffForall` | wave-reused |
+| M144140 | P0146 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.ProdEraseZero` | build-observed |
+| M144141 | P0270 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.RightMulEpsAlgebraMap` | wave-reused |
+| M144142 | P0146 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.SingleEqSmul` | wave-reused |
+| M144143 | P0373 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.SmulEqZeroIffCrit` | build-observed |
+| M144144 | P0324 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.SpacedProductLowerBound` | wave-reused |
+| M144145 | P0324 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.SplitFibre` | wave-reused |
+| M144146 | P0374 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.SumIteLe` | build-observed |
+| M144147 | P0270 | `Formalism.CharacterColumnKernels.IdempotentNormalForms.VccSpan` | wave-reused |
+| M144148 | P0460 | `Formalism.CharacterColumnKernels.StatBlockChiOneTriv` | wave-reused |
 | M144149 | P0420 | `Formalism.CharacterColumnKernels.StatBlockRhoCount` | wave-reused |
 | M144150 | P0324 | `Formalism.CharacterColumnKernels.StatCompMultSimple` | build-observed |
 | M144151 | P0324 | `Formalism.CharacterColumnKernels.StatGlobalModule` | wave-reused |
@@ -385,20 +402,3 @@
 | M144539 | P0271 | `Formalism.FrobeniusBaseCase.FrobeniusBaseCaseProofs.ChainI` | wave-reused |
 | M144540 | P0211 | `Formalism.FrobeniusBaseCase.FrobeniusBaseCaseProofs.CoeffFrobOfNotDvd` | wave-reused |
 | M144541 | P0420 | `Formalism.FrobeniusBaseCase.FrobeniusBaseCaseProofs.FixAll` | wave-reused |
-| M144542 | P0147 | `Formalism.FrobeniusBaseCase.FrobeniusBaseCaseProofs.HasUniqueFixedPoint` | wave-reused |
-| M144543 | P0147 | `Formalism.FrobeniusBaseCase.FrobeniusBaseCaseProofs.IdentityTwentyB` | wave-reused |
-| M144544 | P0325 | `Formalism.FrobeniusBaseCase.FrobeniusBaseCaseProofs.SecondWayHolds` | wave-reused |
-| M144545 | P0068 | `Formalism.FrobeniusBaseCase.Statement` | wave-reused |
-| M144546 | P0147 | `Formalism.FrobeniusBaseCase.StatementFix` | wave-reused |
-| M144547 | P0147 | `Formalism.FrobeniusContraction.EulerC` | wave-reused |
-| M144548 | P0147 | `Formalism.FrobeniusContraction.FrobeniusContractionProofs.CocycleComponentRelation` | wave-reused |
-| M144549 | P0147 | `Formalism.FrobeniusContraction.FrobeniusContractionProofs.ContractBij` | wave-reused |
-| M144550 | P0211 | `Formalism.FrobeniusContraction.FrobeniusContractionProofs.EulerCharacteristicHolds` | wave-reused |
-| M144551 | P0147 | `Formalism.FrobeniusContraction.FrobeniusContractionProofs.FiniteCocyclesLeCocycles` | wave-reused |
-| M144552 | P0147 | `Formalism.FrobeniusContraction.FrobeniusContractionProofs.FrobIterQModPrimeHolds` | wave-reused |
-| M144553 | P0147 | `Formalism.FrobeniusContraction.FrobeniusContractionProofs.LemmaS` | wave-reused |
-| M144554 | P0147 | `Formalism.FrobeniusContraction.FrobeniusContractionProofs.LenBound` | wave-reused |
-| M144555 | P0147 | `Formalism.FrobeniusContraction.FrobeniusContractionProofs.LowestComponent` | wave-reused |
-| M144556 | P0147 | `Formalism.FrobeniusContraction.HighestWeightResidueAvoids` | wave-reused |
-| M144557 | P0068 | `Formalism.FrobeniusContraction.Statement` | wave-reused |
-| M144558 | P0068 | `Formalism.FrobeniusContraction.StatementB` | wave-reused |

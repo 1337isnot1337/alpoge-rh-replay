@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013555 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HomGenericPoint` | volunteer-build-reviewed |
+| M013566 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ImmByOfSpans` | wave-reused |
+| M013567 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ImmByWeightZero` | wave-reused |
+| M013568 | P1171 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ImmByWeightZeroStatement` | wave-reused |
+| M013571 | P0649 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IndepOfNestedSpecialFibreImages` | wave-reused |
 | M013572 | P0679 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IndepOfNestedSpecialFibreImagesStatement` | wave-reused |
 | M013576 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.InfiniteTorsionOrCocharacterOfArcAtInfinityStatement` | volunteer-build-reviewed |
 | M013584 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsAbelianSchemeOfAbelianThickenings` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M018262 | P0892 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstLeadingOfAgreeDegreeOne` | wave-reused |
 | M018263 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstLeadingOfAgreeDegreeOneStatement` | wave-reused |
 | M018264 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstMapToFractionsMemSubmodule` | wave-reused |
-| M018265 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstMapToFractionsMemSubmoduleStatement` | wave-reused |
-| M018268 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSumElimPowerSeriesSwapVariableGroups` | wave-reused |
-| M018269 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSumElimPowerSeriesSwapVariableGroupsStatement` | wave-reused |
-| M018307 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoequifiberedGeneratedSubalgebraQuasiCoherentStatement` | volunteer-build-reviewed |
-| M018326 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CohomSplitBaseChange` | volunteer-build-reviewed |

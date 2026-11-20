@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M039069 | P0813 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTauOfUpperHalfPlaneLatticeSmulSL2Z` | wave-reused |
+| M039070 | P0398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTensorOfCompatIsIsoTarget` | wave-reused |
+| M039071 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTensorOfCompatIsIsoTargetStatement` | wave-reused |
+| M039072 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTensorUniversalProperty` | wave-reused |
+| M039073 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTensorUniversalPropertyStatement` | wave-reused |
 | M039190 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsUnitMpOmjExtIff` | wave-reused |
 | M039245 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsZModTorsorFiniteProjectiveBaseChange` | wave-reused |
 | M039246 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsZModTorsorFiniteProjectiveBaseChangeStatement` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M046678 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdZpowMul` | volunteer-build-reviewed |
 | M046699 | P0301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProductFormulaLogNorms` | wave-reused |
 | M046753 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProjectiveBaseChangeOfPresentationMatrixSplit` | volunteer-build-reviewed |
-| M046763 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProjectiveCharZeroTensorRingOfIntegers` | volunteer-build-reviewed |
-| M046840 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProperMapBumpFunctionExists` | volunteer-build-reviewed |
-| M046877 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PshNormalFrameQuadraticComparison` | wave-reused |
-| M046878 | P1005 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PshNormalFrameQuadraticComparisonStatement` | wave-reused |
-| M046889 | P0894 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantEigenProperty` | wave-reused |

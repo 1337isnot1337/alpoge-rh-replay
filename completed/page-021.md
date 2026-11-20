@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M091574 | P0712 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.FirstMinimumInvariantContinuousPos` | wave-reused |
+| M091575 | P0795 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.FirstMinimumInvariantContinuousPosOnFrames` | wave-reused |
+| M091606 | P0195 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.InjectiveOfInjectiveCompAevalOfTrdegLe` | wave-reused |
+| M091607 | P0822 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.IntegralEqIntegralTsumOfLintegral` | wave-reused |
+| M091613 | P1072 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.IsUpqSubmatrix` | wave-reused |
+| M091616 | P1072 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.KaFrameOfDelta` | wave-reused |
+| M091617 | P0988 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.KaUnfoldOfUnfoldOfKappa` | wave-reused |
+| M091618 | P1312 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.KronHolPsiInterpInterpC` | wave-reused |
+| M091619 | P0850 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.KronHolPsiOf` | wave-reused |
+| M091628 | P0850 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.LeviFormWeightMetricOrthonormalDiagonal` | wave-reused |
+| M091632 | P0851 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.LintegralImageLeConst` | wave-reused |
+| M091633 | P0851 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.LintegralLeDensity` | wave-reused |
 | M091634 | P0591 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.LintegralLeOfSection` | wave-reused |
 | M091635 | P0988 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.LintegralLtTopOfCutoff` | wave-reused |
 | M091638 | P0767 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MajLactRmul` | wave-reused |
@@ -390,15 +402,3 @@
 | M098673 | P1103 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsFourierJacobiExpansionOverField` | wave-reused |
 | M098674 | P1132 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsFourierJacobiExpansionOverFieldStatement` | wave-reused |
 | M098675 | P0740 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsFourthSide` | wave-reused |
-| M098683 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsGenOfIso` | volunteer-build-reviewed |
-| M098684 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsGenT` | volunteer-build-reviewed |
-| M098693 | P0042 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsGradedRingKernelLift` | wave-reused |
-| M098695 | P0877 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsGrpPullbackThick` | wave-reused |
-| M098697 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsGtPt` | volunteer-build-reviewed |
-| M098698 | P0989 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsGtPtOfCharacter` | wave-reused |
-| M098706 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIndepCoords` | volunteer-build-reviewed |
-| M098709 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIntegralAdditionFormulaGroup` | volunteer-build-reviewed |
-| M098710 | P1044 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIntegralAdditionFormulaGroupStatement` | wave-reused |
-| M098712 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIntegralFamiliesSpanGenerateValuationRingsStatement` | volunteer-build-reviewed |
-| M098713 | P0960 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIntegralFamiliesSpanPullDegeneration` | wave-reused |
-| M098714 | P0989 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIntegralFamiliesSpanPullDegenerationStatement` | wave-reused |

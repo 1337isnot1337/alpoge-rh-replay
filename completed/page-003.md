@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004460 | P0582 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.KeyRuleOneOfKeyFormula` | wave-reused |
+| M004461 | P0758 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.LevBasis` | wave-reused |
 | M004657 | P0758 | `Development.AbelianVarietyTheory.Definitions.ModuliSpaces.ExistsArBaseAway` | wave-reused |
 | M004663 | P0784 | `Development.AbelianVarietyTheory.Definitions.ModuliSpaces.FiniteHomogeneousInf` | wave-reused |
 | M004664 | P0731 | `Development.AbelianVarietyTheory.Definitions.ModuliSpaces.GoodClass` | wave-reused |
@@ -43,6 +45,7 @@
 | M004796 | P0758 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.JSmul` | wave-reused |
 | M004801 | P0731 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.LabelDatum` | wave-reused |
 | M004808 | P0784 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.LenCob` | wave-reused |
+| M004815 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MapCSmulMulVec` | volunteer-build-reviewed |
 | M004817 | P0096 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MatMapTmul` | wave-reused |
 | M004819 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MemBallOfGaugeLt` | wave-reused |
 | M004821 | P0784 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MemEurOfTeichmullerSeries` | wave-reused |
@@ -399,6 +402,3 @@
 | M005850 | P0550 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsSupUnitsLocalNormsSqrtNeTop` | wave-reused |
 | M005851 | P0583 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsSupUnitsLocalNormsSqrtNeTopStatement` | wave-reused |
 | M005852 | P0583 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SUnitsUnionSupLocalSquaresEqTop` | wave-reused |
-| M005880 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SubgroupPowImageUnitsCongruentOneModOfIsAdicComp` | wave-reused |
-| M005881 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SubgroupPowImageUnitsCongruentOneModOfIsAdicCompStatement` | wave-reused |
-| M005882 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.SubgroupPowRelIndexTopOfGroupFg` | wave-reused |

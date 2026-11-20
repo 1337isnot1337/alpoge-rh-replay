@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M098683 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsGenOfIso` | volunteer-build-reviewed |
+| M098684 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsGenT` | volunteer-build-reviewed |
+| M098693 | P0042 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsGradedRingKernelLift` | wave-reused |
+| M098695 | P0877 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsGrpPullbackThick` | wave-reused |
+| M098697 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsGtPt` | volunteer-build-reviewed |
+| M098698 | P0989 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsGtPtOfCharacter` | wave-reused |
+| M098706 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIndepCoords` | volunteer-build-reviewed |
+| M098709 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIntegralAdditionFormulaGroup` | volunteer-build-reviewed |
+| M098710 | P1044 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIntegralAdditionFormulaGroupStatement` | wave-reused |
+| M098712 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIntegralFamiliesSpanGenerateValuationRingsStatement` | volunteer-build-reviewed |
+| M098713 | P0960 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIntegralFamiliesSpanPullDegeneration` | wave-reused |
+| M098714 | P0989 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIntegralFamiliesSpanPullDegenerationStatement` | wave-reused |
 | M098721 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIsProdB` | volunteer-build-reviewed |
 | M098723 | P1232 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIsoOfCompatibleAbelianThickenings` | wave-reused |
 | M098724 | P1260 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsIsoOfCompatibleAbelianThickeningsStatement` | wave-reused |
@@ -390,15 +402,3 @@
 | M100837 | P0905 | `Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.BhattScholzeIntegral` | wave-reused |
 | M100838 | P0042 | `Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.BrauerDegreeZero` | volunteer-build-reviewed |
 | M100842 | P0042 | `Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ChevalleyUnits` | volunteer-build-reviewed |
-| M100843 | P0363 | `Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.CohDimTwoLocalOfLocalFiniteness` | wave-reused |
-| M100863 | P0409 | `Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ExistsPrimitiveRootPow` | wave-reused |
-| M100895 | P1017 | `Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.OneSubPhiOntoOfFilZero` | wave-reused |
-| M100896 | P0363 | `Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.PoitouTateNineTermTransgressionZeroApply` | wave-reused |
-| M100897 | P0449 | `Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.PoitouTateNormalised` | wave-reused |
-| M100966 | P0487 | `Development.AbelianVarietyTheory.PublishedTheorems.Landherr₂.ExistsNormTensor` | wave-reused |
-| M100967 | P0487 | `Development.AbelianVarietyTheory.PublishedTheorems.Landherr₂.LandherrStIffLandherr` | wave-reused |
-| M100971 | P0197 | `Development.AbelianVarietyTheory.PublishedTheorems.PublishedFoundations.ComplexMultiplicationJPremises` | build-observed |
-| M100976 | P1073 | `Development.AbelianVarietyTheory.PublishedTheorems.RelativeAmpleness.RelAmpleAndKTrivIff` | wave-reused |
-| M100979 | P0796 | `Development.AbelianVarietyTheory.PublishedTheorems.SemiabelianTori.GeometricallyConnectedSplitTorusAff` | wave-reused |
-| M101047 | P0042 | `Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.InverseChamberMap` | volunteer-build-reviewed |
-| M101070 | P0130 | `Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.NegOneNotSqSqrtTwo` | wave-reused |

@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M133685 | P0936 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.FrameChangeUnderFieldMapStatement` | wave-reused |
+| M133688 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.FrameDataLocalDegreeEstimate` | volunteer-build-reviewed |
+| M133702 | P0691 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.FubiniStudyMetricSmooth` | wave-reused |
+| M133711 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.GenericDegreeEqGeometricDegree` | volunteer-build-reviewed |
+| M133717 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.GenericFlagAlgebraicallyIndependent` | volunteer-build-reviewed |
+| M133718 | P0691 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.GenericFlagAlgebraicallyIndependentStatement` | wave-reused |
+| M133727 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.GlobalRegularizationStatementHolds` | volunteer-build-reviewed |
+| M133735 | P0565 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.GramDetPosIffLinearIndependent` | wave-reused |
+| M133736 | P0597 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.GramDetPosIffLinearIndependentStatement` | wave-reused |
+| M133751 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.HasStepCharts` | volunteer-build-reviewed |
+| M133762 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.HermitianFormPeriodMatrixNormalForm` | volunteer-build-reviewed |
+| M133822 | P0691 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.HoloOnDivCongr` | wave-reused |
+| M133833 | P0597 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.HolomorphicFamilySmoothEntries` | wave-reused |
+| M133834 | P0630 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.HolomorphicFamilySmoothEntriesStatement` | volunteer-build-reviewed |
+| M133835 | P0882 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.HolomorphicFrameMetricNearPoint` | wave-reused |
 | M133836 | P0908 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.HolomorphicFrameMetricNearPointStatement` | wave-reused |
 | M133839 | P0565 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.HolomorphicLocalQuotientMap` | wave-reused |
 | M133840 | P0597 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.HolomorphicLocalQuotientMapStatement` | wave-reused |
@@ -387,18 +402,3 @@
 | M135829 | P0599 | `Development.EtaleCohomology.EtaleSheaves.PartAPf` | wave-reused |
 | M135830 | P0599 | `Development.EtaleCohomology.EtaleSheaves.PartBPf` | wave-reused |
 | M135831 | P0599 | `Development.EtaleCohomology.EtaleSheaves.PartCPf` | wave-reused |
-| M135832 | P0632 | `Development.EtaleCohomology.EtaleSheaves.PartCPfSplit` | wave-reused |
-| M135833 | P0567 | `Development.EtaleCohomology.EtaleSheaves.PartDiagCut` | wave-reused |
-| M135834 | P0599 | `Development.EtaleCohomology.EtaleSheaves.PartDirectedPf` | wave-reused |
-| M135839 | P0773 | `Development.EtaleCohomology.EtaleSheaves.PowQEqOne` | wave-reused |
-| M135841 | P0599 | `Development.EtaleCohomology.EtaleSheaves.PrimitiveRootLocalization` | wave-reused |
-| M135842 | P0533 | `Development.EtaleCohomology.EtaleSheaves.ProEqvPf` | wave-reused |
-| M135843 | P0567 | `Development.EtaleCohomology.EtaleSheaves.ProEqvPfA` | wave-reused |
-| M135844 | P0567 | `Development.EtaleCohomology.EtaleSheaves.ProdACFField` | wave-reused |
-| M135845 | P0533 | `Development.EtaleCohomology.EtaleSheaves.ProdAcycPf` | wave-reused |
-| M135846 | P0599 | `Development.EtaleCohomology.EtaleSheaves.ProdPf` | wave-reused |
-| M135849 | P0692 | `Development.EtaleCohomology.EtaleSheaves.ProjectiveLineTwoAffineChartsPolynomialGenerated` | wave-reused |
-| M135850 | P0533 | `Development.EtaleCohomology.EtaleSheaves.ProperLineCovers.CoverPf` | wave-reused |
-| M135861 | P0497 | `Development.EtaleCohomology.EtaleSheaves.QuotAcycCut` | wave-reused |
-| M135867 | P0599 | `Development.EtaleCohomology.EtaleSheaves.RelNormPf` | wave-reused |
-| M135868 | P0567 | `Development.EtaleCohomology.EtaleSheaves.RelNormPfAff` | wave-reused |

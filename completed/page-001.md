@@ -62,6 +62,7 @@
 | M000483 | P0757 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.BesselOrbitConvolutions.DDFormC` | volunteer-build-reviewed |
 | M000487 | P0757 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.BesselOrbitConvolutions.KFinFormOf` | volunteer-build-reviewed |
 | M000493 | P0783 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.BesselOrbitConvolutions.VanishingOfL2Equivariant` | volunteer-build-reviewed |
+| M000495 | P0001 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.ContDiffOnExpPartialHomeomorphSymm` | volunteer-build-reviewed |
 | M000497 | P0172 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.InPCommutatorOfInK` | volunteer-build-reviewed |
 | M000499 | P0293 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.PolarUH` | volunteer-build-reviewed |
 | M000500 | P0237 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.SecondCountableQuotients.ModExists` | volunteer-build-reviewed |
@@ -76,6 +77,7 @@
 | M000521 | P0237 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.Garding` | volunteer-build-reviewed |
 | M000524 | P0237 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.GoodPI` | volunteer-build-reviewed |
 | M000525 | P0237 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.IwaAll` | volunteer-build-reviewed |
+| M000526 | P0001 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.IwaChol` | volunteer-build-reviewed |
 | M000528 | P0293 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.IwasawaDecompositionSecondModel` | volunteer-build-reviewed |
 | M000529 | P0172 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.MapStdPoly` | volunteer-build-reviewed |
 | M000530 | P0237 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.SmallPI` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M001715 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HeckeAlgebraStatement` | volunteer-build-reviewed |
 | M001716 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HeckeAlgebraStatementStatement` | volunteer-build-reviewed |
 | M001717 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HeckeBackward` | volunteer-build-reviewed |
-| M001728 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HeckeOperatorsSpanAndFaithfulStatement` | volunteer-build-reviewed |
-| M001732 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HenselStatementStatement` | volunteer-build-reviewed |

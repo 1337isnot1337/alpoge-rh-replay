@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M109526 | P0317 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsFactorizationNearRootOfUnityHenselian` | wave-reused |
+| M109527 | P0593 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsFiberPullbackSquareOfOpenImmersions` | wave-reused |
+| M109528 | P0626 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsFiniteEtaleFaithfullyFlatCoverOfEtaleLocal` | wave-reused |
+| M109530 | P0527 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsFiniteNonemptyAffineCoverOfIntegral` | wave-reused |
+| M109531 | P0527 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsFiniteSpanKummerSelmerRepresentatives` | wave-reused |
+| M109533 | P0527 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsFunctionFieldHomGermOfSurjective` | wave-reused |
+| M109536 | P0134 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsGoodRootOfHenselianSepClosedResidue` | wave-reused |
+| M109537 | P0769 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsH1MuGlueOfCompatible` | wave-reused |
+| M109538 | P0797 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsH1MuOfLocallyUnitTimesPower` | wave-reused |
+| M109539 | P0560 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsIdempotentSubmonoidIsLocalizationAtPrime` | wave-reused |
+| M109540 | P0045 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsIdempotentSubmonoidIsLocalizationAway` | wave-reused |
+| M109541 | P0688 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsInjectiveH1GmToPic` | wave-reused |
+| M109542 | P0263 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsInvertibleModuleOfLocallyTrivialCocycle` | wave-reused |
 | M109553 | P0134 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsMonicLaurentPolynomialNearRootOfUnity` | wave-reused |
 | M109554 | P0366 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsNearRootOfUnityProductDecomposition` | wave-reused |
 | M109559 | P0134 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsPowerDecompositionOfRootOfUnity` | wave-reused |
@@ -72,6 +85,7 @@
 | M109815 | P0201 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.HeckeCharacterChoice.NCField` | wave-reused |
 | M109817 | P0046 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.HeckeCharacterChoice.OddRad` | wave-reused |
 | M109821 | P0046 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.HeckeCharacterChoice.TendstoUnderCofinite` | wave-reused |
+| M109833 | P0046 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.IdealValuations.ResidueUnit` | volunteer-build-reviewed |
 | M109865 | P0046 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.IrreducibleSpans.CostCond` | wave-reused |
 | M109868 | P0046 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.SelmerDuality.H1cEqH1` | wave-reused |
 | M109869 | P0135 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.SelmerDuality.HasSmithOfOne` | wave-reused |
@@ -388,17 +402,3 @@
 | M115481 | P0053 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsotypicStableGlOperator` | wave-reused |
 | M115482 | P0053 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsotypicStableOperator` | wave-reused |
 | M115483 | P0053 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsotypicStableUnderOperators` | wave-reused |
-| M115486 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.JumpSets` | wave-reused |
-| M115487 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.KeyLemmaStatement` | build-observed |
-| M115496 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LeIffLtColH` | build-observed |
-| M115497 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LeOfAddOneLeSucc` | wave-reused |
-| M115498 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LeSpanSingletonOfForallMemEq` | wave-reused |
-| M115500 | P0263 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LevelOfCongruence` | wave-reused |
-| M115503 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LiftErrorLocal` | wave-reused |
-| M115506 | P0627 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LiftingTheory` | wave-reused |
-| M115507 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LimitOfFinite` | wave-reused |
-| M115508 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LinBound` | build-observed |
-| M115515 | P0367 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LocPairValLinear` | wave-reused |
-| M115518 | P0136 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LocalSituation` | build-observed |
-| M115519 | P0742 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LocalTheoryWindows` | build-observed |
-| M115520 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LocallyConstantFunctions` | wave-reused |

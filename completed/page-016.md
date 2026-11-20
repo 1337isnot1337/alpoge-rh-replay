@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M067556 | P0522 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ColRepSemisimple` | wave-reused |
+| M067574 | P0030 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CommuteInvLeft` | wave-reused |
+| M067667 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CongruenceSubgroupsGLPadic` | volunteer-build-reviewed |
+| M067731 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ConstantCoeffTaylor` | volunteer-build-reviewed |
+| M067732 | P0872 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ConstantCoeffTeichSub` | wave-reused |
+| M067755 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ContinuousCohomologyVanishesOfPrimeToLNormalNoIn` | volunteer-build-reviewed |
+| M067761 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ContinuousDistribHaarCharUnitsOfCompactOpen` | volunteer-build-reviewed |
+| M067763 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ContinuousEtaleHermitianPairNormAndMapZero` | volunteer-build-reviewed |
 | M067786 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ContinuousOnHermitianBlockMatrixOfInvariants` | volunteer-build-reviewed |
 | M067829 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CoprimeVal` | volunteer-build-reviewed |
 | M068000 | P0816 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CuspidalCharacterLabelUniqueGLn` | wave-reused |
@@ -225,6 +233,7 @@
 | M070255 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteUnitsQuotSqFiniteEtaleHermitianPair` | volunteer-build-reviewed |
 | M070266 | P0446 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankCyclotomicExtAndCyclotomicCharSurjective` | wave-reused |
 | M070267 | P0484 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankCyclotomicExtAndCyclotomicCharSurjectiveStatement` | wave-reused |
+| M070304 | P0032 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinsuppVanishingOnEquivComplProd` | volunteer-build-reviewed |
 | M070349 | P1152 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FlatPowDvdPerPowMod` | wave-reused |
 | M070414 | P0846 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FontaineThetaNatural` | wave-reused |
 | M070415 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FourBProdIterated` | volunteer-build-reviewed |
@@ -393,12 +402,3 @@
 | M071835 | P0764 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsUpUniMul` | build-observed |
 | M071836 | P0927 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsUpUniMulAlt` | build-observed |
 | M071862 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JHypUnipotentTorusEquivarianceStatement` | volunteer-build-reviewed |
-| M071878 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JacquetRallisHankelDetNeZeroOfLift` | volunteer-build-reviewed |
-| M071886 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JacquetRallisMatchingAdd` | volunteer-build-reviewed |
-| M071894 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JacquetRallisTransferFactorGlBorderedConjugation` | volunteer-build-reviewed |
-| M071899 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JacquetRallisTransferFactorLinearDescentPointOneStatement` | volunteer-build-reviewed |
-| M071905 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JacquetRallisUnitMatchSizeOneStatement` | volunteer-build-reviewed |
-| M071951 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.KerLEqTraceDotProductOfIsIsomStatement` | volunteer-build-reviewed |
-| M071996 | P1176 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LadicDescentStepToOE` | wave-reused |
-| M071997 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LadicDescentStepToOEStatement` | wave-reused |
-| M072036 | P1405 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LatticeApproximationMittagLeffler` | wave-reused |

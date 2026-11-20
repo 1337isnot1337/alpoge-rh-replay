@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M136551 | P0692 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.DivisorReductionProperties` | wave-reused |
+| M136552 | P0663 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.DivisorReductionPushforward` | wave-reused |
+| M136553 | P0535 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.DivisorReductionSequence` | wave-reused |
+| M136554 | P0632 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.DivisorReductionStepProperties` | wave-reused |
+| M136555 | P0773 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.DivisorRestrictionFieldBaseChange` | wave-reused |
+| M136556 | P1135 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.EmptyOrderLocus` | wave-reused |
+| M136557 | P0746 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.EmptyPulledBackCenter` | wave-reused |
+| M136558 | P0746 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.FieldBaseChangeCompatibility` | wave-reused |
+| M136559 | P0719 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.GoingUpInvariant` | wave-reused |
+| M136560 | P0800 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.GoingUpInvariantInduction` | wave-reused |
+| M136561 | P0773 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.GoingUpInvariantOnOpens` | wave-reused |
+| M136562 | P0746 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.GoingUpInvariantSucc` | wave-reused |
+| M136563 | P0719 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.InducedSubschemePullback` | wave-reused |
+| M136564 | P0692 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.KernelOfAmbientEmbedding` | wave-reused |
+| M136565 | P0692 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.LogDerivIdealEstimate` | wave-reused |
 | M136566 | P0693 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.LowerBoundaryAfterBlowup` | wave-reused |
 | M136567 | P0568 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.LowerBoundaryData` | wave-reused |
 | M136568 | P0800 | `Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.DivisorReduction.LowerBoundaryFieldBaseChange` | wave-reused |
@@ -387,18 +402,3 @@
 | M137770 | P0209 | `Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.VacuumIwasawa.FrameLin` | volunteer-build-reviewed |
 | M137896 | P0065 | `Development.WeilBound.CoreStatements.AutomorphicKernels.UnitarySchrodingerModel.LocalDefs` | volunteer-build-reviewed |
 | M138000 | P0209 | `Development.WeilBound.CoreStatements.CommonZeroEvaluation.AlgebraicApproximationValued` | volunteer-build-reviewed |
-| M138048 | P0209 | `Development.WeilBound.CoreStatements.CompactAveragingSplitting.EigenvectorLifting.SiegelTransportAlg` | volunteer-build-reviewed |
-| M138049 | P0209 | `Development.WeilBound.CoreStatements.CompactAveragingSplitting.EigenvectorLifting.SiegelTransportAn` | volunteer-build-reviewed |
-| M138070 | P0535 | `Development.WeilBound.CoreStatements.CrystallinePeriodRings.InstCommRingBcris` | wave-reused |
-| M138088 | P0209 | `Development.WeilBound.CoreStatements.EqualVolumeCompactOpens.Master` | volunteer-build-reviewed |
-| M138250 | P0209 | `Development.WeilBound.CoreStatements.GaussianSeminormBounds.RealSeminormFiltration.FockAct1FockAct2Commute` | volunteer-build-reviewed |
-| M138272 | P0600 | `Development.WeilBound.CoreStatements.HeckeCharacterDeRham.DeRhamHeckeResults.PotentiallySemistableDeRham.SemistableDeRhamStatement.Second` | wave-reused |
-| M138273 | P0909 | `Development.WeilBound.CoreStatements.HodgeTatePoints.A12` | wave-reused |
-| M138275 | P0800 | `Development.WeilBound.CoreStatements.HodgeTatePoints.A36` | wave-reused |
-| M138276 | P0828 | `Development.WeilBound.CoreStatements.HodgeTatePoints.A53` | wave-reused |
-| M138282 | P0600 | `Development.WeilBound.CoreStatements.HodgeTatePoints.BilinearPartAx3` | wave-reused |
-| M138284 | P0209 | `Development.WeilBound.CoreStatements.HodgeTatePoints.BtOrderOfPoints` | volunteer-build-reviewed |
-| M138286 | P0693 | `Development.WeilBound.CoreStatements.HodgeTatePoints.CbAlpha` | wave-reused |
-| M138287 | P0600 | `Development.WeilBound.CoreStatements.HodgeTatePoints.CbBase` | wave-reused |
-| M138288 | P0663 | `Development.WeilBound.CoreStatements.HodgeTatePoints.CbFrob` | wave-reused |
-| M138289 | P0418 | `Development.WeilBound.CoreStatements.HodgeTatePoints.CcBase` | wave-reused |

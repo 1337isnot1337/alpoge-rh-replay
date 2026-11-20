@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M144542 | P0147 | `Formalism.FrobeniusBaseCase.FrobeniusBaseCaseProofs.HasUniqueFixedPoint` | wave-reused |
+| M144543 | P0147 | `Formalism.FrobeniusBaseCase.FrobeniusBaseCaseProofs.IdentityTwentyB` | wave-reused |
+| M144544 | P0325 | `Formalism.FrobeniusBaseCase.FrobeniusBaseCaseProofs.SecondWayHolds` | wave-reused |
+| M144545 | P0068 | `Formalism.FrobeniusBaseCase.Statement` | wave-reused |
+| M144546 | P0147 | `Formalism.FrobeniusBaseCase.StatementFix` | wave-reused |
+| M144547 | P0147 | `Formalism.FrobeniusContraction.EulerC` | wave-reused |
+| M144548 | P0147 | `Formalism.FrobeniusContraction.FrobeniusContractionProofs.CocycleComponentRelation` | wave-reused |
+| M144549 | P0147 | `Formalism.FrobeniusContraction.FrobeniusContractionProofs.ContractBij` | wave-reused |
+| M144550 | P0211 | `Formalism.FrobeniusContraction.FrobeniusContractionProofs.EulerCharacteristicHolds` | wave-reused |
+| M144551 | P0147 | `Formalism.FrobeniusContraction.FrobeniusContractionProofs.FiniteCocyclesLeCocycles` | wave-reused |
+| M144552 | P0147 | `Formalism.FrobeniusContraction.FrobeniusContractionProofs.FrobIterQModPrimeHolds` | wave-reused |
+| M144553 | P0147 | `Formalism.FrobeniusContraction.FrobeniusContractionProofs.LemmaS` | wave-reused |
+| M144554 | P0147 | `Formalism.FrobeniusContraction.FrobeniusContractionProofs.LenBound` | wave-reused |
+| M144555 | P0147 | `Formalism.FrobeniusContraction.FrobeniusContractionProofs.LowestComponent` | wave-reused |
+| M144556 | P0147 | `Formalism.FrobeniusContraction.HighestWeightResidueAvoids` | wave-reused |
+| M144557 | P0068 | `Formalism.FrobeniusContraction.Statement` | wave-reused |
+| M144558 | P0068 | `Formalism.FrobeniusContraction.StatementB` | wave-reused |
 | M144559 | P0068 | `Formalism.FrobeniusContraction.StatementTop` | wave-reused |
 | M144560 | P0271 | `Formalism.FrobeniusOrbits.DiscrMaximalRealCyclotomic` | wave-reused |
 | M144561 | P0420 | `Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.CardExtendedGaloisGroup` | build-observed |
@@ -385,20 +402,3 @@
 | M144951 | P0602 | `Formalism.GL3MeanSquares.HookFormulaTorsion.CocycleIsCoboundary` | wave-reused |
 | M144953 | P0271 | `Formalism.GL3MeanSquares.HookFormulaTorsion.ConditionIffDualEqFunctional` | build-observed |
 | M144954 | P0634 | `Formalism.GL3MeanSquares.HookFormulaTorsion.CongruenceSubgroupTorsionFree` | build-observed |
-| M144955 | P0602 | `Formalism.GL3MeanSquares.HookFormulaTorsion.DifferenceStableUnderAction` | build-observed |
-| M144956 | P0602 | `Formalism.GL3MeanSquares.HookFormulaTorsion.DifferentIdealConditions` | build-observed |
-| M144957 | P0461 | `Formalism.GL3MeanSquares.HookFormulaTorsion.DimensionMassJointBound` | build-observed |
-| M144958 | P0374 | `Formalism.GL3MeanSquares.HookFormulaTorsion.DoubleCosetDecompositionAll` | build-observed |
-| M144959 | P0212 | `Formalism.GL3MeanSquares.HookFormulaTorsion.ExpNegLeDivPowFour` | build-observed |
-| M144960 | P0420 | `Formalism.GL3MeanSquares.HookFormulaTorsion.ExpSeries` | wave-reused |
-| M144961 | P0461 | `Formalism.GL3MeanSquares.HookFormulaTorsion.FactorialProductRearrangement` | build-observed |
-| M144962 | P0325 | `Formalism.GL3MeanSquares.HookFormulaTorsion.FibreCardinalityOfModuliMap` | build-observed |
-| M144963 | P0461 | `Formalism.GL3MeanSquares.HookFormulaTorsion.FiniteEulerProductLeZeta` | build-observed |
-| M144964 | P0634 | `Formalism.GL3MeanSquares.HookFormulaTorsion.FinsuppZmodOneEqSingle` | wave-reused |
-| M144965 | P0420 | `Formalism.GL3MeanSquares.HookFormulaTorsion.FourFoldOrthogonalSum` | wave-reused |
-| M144966 | P0271 | `Formalism.GL3MeanSquares.HookFormulaTorsion.FourierCommutesHeckeScalar` | build-observed |
-| M144967 | P0461 | `Formalism.GL3MeanSquares.HookFormulaTorsion.FourierTransformScaledInner` | build-observed |
-| M144968 | P0461 | `Formalism.GL3MeanSquares.HookFormulaTorsion.GaussianIntegralFormula` | build-observed |
-| M144969 | P0536 | `Formalism.GL3MeanSquares.HookFormulaTorsion.GlobalBoundRefinements` | build-observed |
-| M144970 | P0271 | `Formalism.GL3MeanSquares.HookFormulaTorsion.HadamardUnitDiagonalDetLeOne` | wave-reused |
-| M144971 | P0271 | `Formalism.GL3MeanSquares.HookFormulaTorsion.HasDerivAtLogSquareAntiderivative` | build-observed |

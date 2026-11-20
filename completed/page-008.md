@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M024318 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsComponentSurjectsClopenStatement` | volunteer-build-reviewed |
+| M024321 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConcaveTwistEtaInequalities` | wave-reused |
+| M024322 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConcaveTwistEtaInequalitiesStatement` | wave-reused |
+| M024361 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConjSkewDetUnitOfAvoidanceStatement` | volunteer-build-reviewed |
+| M024376 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConnectingCocycleHypercohomologyLes` | wave-reused |
 | M024377 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConnectingCocycleHypercohomologyLesStatement` | wave-reused |
 | M024441 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsContinuousRepresentativeAverage` | volunteer-build-reviewed |
 | M024457 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoordinateProjectionComplexStatement` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M031571 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankDualAndRangeDualMapBaseChange` | wave-reused |
 | M031741 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumFiberwiseOfFiniteSupportComplex` | volunteer-build-reviewed |
 | M031773 | P0681 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumSemidirectCosetCharacterOrthZero` | wave-reused |
-| M031774 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumSemidirectCosetCharacterOrthZeroStatement` | wave-reused |
-| M031775 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumSemidirectCosetPairingNeZero` | wave-reused |
-| M031776 | P0786 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumSemidirectCosetPairingNeZeroStatement` | wave-reused |
-| M031782 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsuppMapDomainEqZeroAtFilteredStage` | wave-reused |
-| M031783 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsuppMapDomainEqZeroAtFilteredStageStatement` | wave-reused |

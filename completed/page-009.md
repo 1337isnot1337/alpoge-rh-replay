@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M031774 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumSemidirectCosetCharacterOrthZeroStatement` | wave-reused |
+| M031775 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumSemidirectCosetPairingNeZero` | wave-reused |
+| M031776 | P0786 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumSemidirectCosetPairingNeZeroStatement` | wave-reused |
+| M031782 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsuppMapDomainEqZeroAtFilteredStage` | wave-reused |
+| M031783 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsuppMapDomainEqZeroAtFilteredStageStatement` | wave-reused |
 | M031784 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstAndFinite` | volunteer-build-reviewed |
 | M031789 | P0552 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernClassTateTwistCocycleUniqueNaturalAddi` | wave-reused |
 | M031790 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernClassTateTwistCocycleUniqueNaturalAddiStatement` | wave-reused |
@@ -397,8 +402,3 @@
 | M039028 | P0109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsStrictHenselisationOfDirectedUnion` | wave-reused |
 | M039067 | P0734 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTateTwistResolutionTensorFlat` | wave-reused |
 | M039068 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTateTwistResolutionTensorFlatStatement` | wave-reused |
-| M039069 | P0813 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTauOfUpperHalfPlaneLatticeSmulSL2Z` | wave-reused |
-| M039070 | P0398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTensorOfCompatIsIsoTarget` | wave-reused |
-| M039071 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTensorOfCompatIsIsoTargetStatement` | wave-reused |
-| M039072 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTensorUniversalProperty` | wave-reused |
-| M039073 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTensorUniversalPropertyStatement` | wave-reused |

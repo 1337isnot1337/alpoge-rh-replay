@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M018265 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstMapToFractionsMemSubmoduleStatement` | wave-reused |
+| M018268 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSumElimPowerSeriesSwapVariableGroups` | wave-reused |
+| M018269 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSumElimPowerSeriesSwapVariableGroupsStatement` | wave-reused |
+| M018307 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoequifiberedGeneratedSubalgebraQuasiCoherentStatement` | volunteer-build-reviewed |
+| M018326 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CohomSplitBaseChange` | volunteer-build-reviewed |
 | M018333 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CohomologyComplexOfSheafCocycleClassProperties` | wave-reused |
 | M018334 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CohomologyComplexOfSheafCocycleClassPropertiesStatement` | wave-reused |
 | M018339 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CohomologyContinuousCofilteredAffineLimit` | wave-reused |
@@ -397,8 +402,3 @@
 | M024127 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCommonDenominatorOfValuationLeCofiniteStatement` | volunteer-build-reviewed |
 | M024238 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCompatibleSymplecticStatement` | volunteer-build-reviewed |
 | M024293 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCompletionEmbedding` | volunteer-build-reviewed |
-| M024318 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsComponentSurjectsClopenStatement` | volunteer-build-reviewed |
-| M024321 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConcaveTwistEtaInequalities` | wave-reused |
-| M024322 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConcaveTwistEtaInequalitiesStatement` | wave-reused |
-| M024361 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConjSkewDetUnitOfAvoidanceStatement` | volunteer-build-reviewed |
-| M024376 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConnectingCocycleHypercohomologyLes` | wave-reused |

@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M121540 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CoinducedNerveAcyclicStatement` | volunteer-build-reviewed |
+| M121548 | P0562 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CoinvariantsFiniteOfSmoothLeviStatement` | volunteer-build-reviewed |
+| M121549 | P1159 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CokernelSectionIdealPower` | wave-reused |
+| M121550 | P1183 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CokernelSectionIdealPowerStatement` | wave-reused |
+| M121551 | P1341 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CokernelSequenceOperatorSequence` | wave-reused |
+| M121552 | P1365 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CokernelSequenceOperatorSequenceStatement` | wave-reused |
+| M121553 | P1341 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CokernelSupportedInPreimage` | wave-reused |
+| M121562 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ComapMulVecCompactOpen` | volunteer-build-reviewed |
+| M121645 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CompactScaledIntoNhds` | volunteer-build-reviewed |
+| M121649 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CompactSetFiniteCosetRepresentatives` | volunteer-build-reviewed |
+| M121671 | P0204 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ComparableModSquareLocalization` | wave-reused |
+| M121672 | P0265 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ComparableModSquareLocalizationStatement` | wave-reused |
+| M121673 | P0138 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ComparableQuotientOfValuation` | wave-reused |
+| M121680 | P0770 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CompatibleRootsLiftToTilt` | wave-reused |
 | M121681 | P0797 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CompatibleRootsLiftToTiltStatement` | wave-reused |
 | M121685 | P1159 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CompleteModuleNoetherianRealization` | wave-reused |
 | M121686 | P1183 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CompleteModuleNoetherianRealizationStatement` | wave-reused |
@@ -388,17 +402,3 @@
 | M124914 | P1315 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.KuennethSwap` | wave-reused |
 | M124915 | P1342 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.KuennethSwapStatement` | wave-reused |
 | M124975 | P0061 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeAnnihilatorWithinNhds` | volunteer-build-reviewed |
-| M124984 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeCosetScaledRiemannSumStatement` | volunteer-build-reviewed |
-| M124987 | P0659 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeFiltrationComapSpanPow` | volunteer-build-reviewed |
-| M125000 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeIdealIsPrime` | volunteer-build-reviewed |
-| M125001 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeIdealQuotientChain` | volunteer-build-reviewed |
-| M125008 | P0659 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeIsAdicComplete` | volunteer-build-reviewed |
-| M125009 | P0659 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeIsAdicCompleteL` | volunteer-build-reviewed |
-| M125010 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeIsDPMorphismOfCompat` | volunteer-build-reviewed |
-| M125018 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeNatDividesLPow` | volunteer-build-reviewed |
-| M125051 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeXiMulDpowSucc` | volunteer-build-reviewed |
-| M125052 | P0659 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeXiMulDpowSuccStatement` | volunteer-build-reviewed |
-| M125054 | P0061 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LaurentPartialDerivationUnique` | volunteer-build-reviewed |
-| M125059 | P0494 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LcCover` | volunteer-build-reviewed |
-| M125062 | P0061 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LeOneOfPowerBounds` | volunteer-build-reviewed |
-| M125199 | P0061 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LieAlgebraFunctionCalculus` | volunteer-build-reviewed |

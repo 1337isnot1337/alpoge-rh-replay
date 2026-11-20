@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M061579 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsConjugateFamilyOfInjective` | wave-reused |
+| M061580 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsConjugateFamilyOfInjectiveStatement` | wave-reused |
+| M061587 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspExpansionAtInfinityOfSomeLevel` | wave-reused |
+| M061588 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspExpansionAtInfinityOfSomeLevelStatement` | wave-reused |
+| M061589 | P0521 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspExpansionDiscriminantIntegerLeadingOne` | wave-reused |
 | M061590 | P0554 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspExpansionDiscriminantIntegerLeadingOneStatement` | wave-reused |
 | M061591 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspFormGamma1OfIsCuspFormCoeffSeq` | wave-reused |
 | M061592 | P0735 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCuspFormGamma1OfIsCuspFormCoeffSeqStatement` | wave-reused |
@@ -397,8 +402,3 @@
 | M063561 | P0871 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RankinUnfoldingPeterssonEisensteinLatticeSum` | wave-reused |
 | M063562 | P0898 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RankinUnfoldingPeterssonEisensteinLatticeSumStatement` | wave-reused |
 | M063563 | P1035 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RankinValuesAtZero` | wave-reused |
-| M063564 | P1063 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RankinValuesAtZeroStatement` | wave-reused |
-| M063577 | P1121 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ReciprocityLargeLevel` | wave-reused |
-| M063578 | P1149 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ReciprocityLargeLevelStatement` | wave-reused |
-| M063587 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumDilate` | wave-reused |
-| M063588 | P0684 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.RegularizedEisensteinLatticeSumDilateStatement` | wave-reused |

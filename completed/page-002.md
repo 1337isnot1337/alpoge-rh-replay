@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001728 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HeckeOperatorsSpanAndFaithfulStatement` | volunteer-build-reviewed |
+| M001732 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HenselStatementStatement` | volunteer-build-reviewed |
 | M001733 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HermitianAdjointExists` | volunteer-build-reviewed |
 | M001741 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HomCategory` | volunteer-build-reviewed |
 | M001742 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HomCategoryStatement` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M004455 | P0003 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.DegProd` | wave-reused |
 | M004457 | P0731 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.IsSquareDeterminantComparison` | wave-reused |
 | M004458 | P0731 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.KaRuleK` | wave-reused |
-| M004460 | P0582 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.KeyRuleOneOfKeyFormula` | wave-reused |
-| M004461 | P0758 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.LevBasis` | wave-reused |

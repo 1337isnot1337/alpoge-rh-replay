@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M104417 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.AltAddRadial` | volunteer-build-reviewed |
+| M104418 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.AltSmooth` | volunteer-build-reviewed |
+| M104419 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.AltSym` | volunteer-build-reviewed |
+| M104420 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ApplySmooth` | volunteer-build-reviewed |
+| M104421 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.Average` | volunteer-build-reviewed |
+| M104422 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.AvgMem` | volunteer-build-reviewed |
+| M104423 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.BasicDeriv` | volunteer-build-reviewed |
+| M104436 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.Cutoff` | volunteer-build-reviewed |
+| M104437 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.DEquiv` | volunteer-build-reviewed |
+| M104448 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.InclFacts` | volunteer-build-reviewed |
+| M104455 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ParamDeriv` | volunteer-build-reviewed |
+| M104456 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.ParamSmooth` | volunteer-build-reviewed |
 | M104457 | P0199 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.PoinPt` | volunteer-build-reviewed |
 | M104458 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.Poincare` | volunteer-build-reviewed |
 | M104459 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.PullB` | volunteer-build-reviewed |
@@ -67,6 +79,7 @@
 | M104662 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.MomentEntryBounds.InstLCSL` | volunteer-build-reviewed |
 | M104675 | P0044 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.MomentEntryBounds.UnitaryConeEstimates.OmG` | volunteer-build-reviewed |
 | M104707 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.PartitionUnitySmooth.Smoothing` | volunteer-build-reviewed |
+| M104711 | P0044 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.PermutationSigns.MatDefs` | volunteer-build-reviewed |
 | M104713 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.PermutationSigns.PadMHerm` | volunteer-build-reviewed |
 | M104722 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.PrimitiveDiscriminants.IsPrimCmap` | volunteer-build-reviewed |
 | M104725 | P0261 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.PrimitiveSubmatrices.PrimPush` | volunteer-build-reviewed |
@@ -389,16 +402,3 @@
 | M109504 | P0626 | `Development.AutomorphicArithmetic.CommutativeAlgebra.EtalePurityFreeCover` | wave-reused |
 | M109517 | P0201 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsCommonZeroOfJacobianIsUnitHenselian` | wave-reused |
 | M109524 | P0262 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsEtaleTrivializationOfTwoInvertibleModuleTo` | wave-reused |
-| M109526 | P0317 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsFactorizationNearRootOfUnityHenselian` | wave-reused |
-| M109527 | P0593 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsFiberPullbackSquareOfOpenImmersions` | wave-reused |
-| M109528 | P0626 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsFiniteEtaleFaithfullyFlatCoverOfEtaleLocal` | wave-reused |
-| M109530 | P0527 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsFiniteNonemptyAffineCoverOfIntegral` | wave-reused |
-| M109531 | P0527 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsFiniteSpanKummerSelmerRepresentatives` | wave-reused |
-| M109533 | P0527 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsFunctionFieldHomGermOfSurjective` | wave-reused |
-| M109536 | P0134 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsGoodRootOfHenselianSepClosedResidue` | wave-reused |
-| M109537 | P0769 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsH1MuGlueOfCompatible` | wave-reused |
-| M109538 | P0797 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsH1MuOfLocallyUnitTimesPower` | wave-reused |
-| M109539 | P0560 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsIdempotentSubmonoidIsLocalizationAtPrime` | wave-reused |
-| M109540 | P0045 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsIdempotentSubmonoidIsLocalizationAway` | wave-reused |
-| M109541 | P0688 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsInjectiveH1GmToPic` | wave-reused |
-| M109542 | P0263 | `Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsInvertibleModuleOfLocallyTrivialCocycle` | wave-reused |

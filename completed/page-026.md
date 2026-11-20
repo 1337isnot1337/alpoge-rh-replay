@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M115486 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.JumpSets` | wave-reused |
+| M115487 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.KeyLemmaStatement` | build-observed |
+| M115496 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LeIffLtColH` | build-observed |
+| M115497 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LeOfAddOneLeSucc` | wave-reused |
+| M115498 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LeSpanSingletonOfForallMemEq` | wave-reused |
+| M115500 | P0263 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LevelOfCongruence` | wave-reused |
+| M115503 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LiftErrorLocal` | wave-reused |
+| M115506 | P0627 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LiftingTheory` | wave-reused |
+| M115507 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LimitOfFinite` | wave-reused |
+| M115508 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LinBound` | build-observed |
+| M115515 | P0367 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LocPairValLinear` | wave-reused |
+| M115518 | P0136 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LocalSituation` | build-observed |
+| M115519 | P0742 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LocalTheoryWindows` | build-observed |
+| M115520 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LocallyConstantFunctions` | wave-reused |
 | M115522 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LocallyConstantOfKernel` | wave-reused |
 | M115523 | P0054 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LocallyConstantOfOpen` | wave-reused |
 | M115527 | P0453 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MExistsNatSmulMem` | build-observed |
@@ -388,17 +402,3 @@
 | M121537 | P0595 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CoinducedCechAcyclic` | volunteer-build-reviewed |
 | M121538 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CoinducedCechAcyclicStatement` | volunteer-build-reviewed |
 | M121539 | P0595 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CoinducedNerveAcyclic` | volunteer-build-reviewed |
-| M121540 | P0628 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CoinducedNerveAcyclicStatement` | volunteer-build-reviewed |
-| M121548 | P0562 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CoinvariantsFiniteOfSmoothLeviStatement` | volunteer-build-reviewed |
-| M121549 | P1159 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CokernelSectionIdealPower` | wave-reused |
-| M121550 | P1183 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CokernelSectionIdealPowerStatement` | wave-reused |
-| M121551 | P1341 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CokernelSequenceOperatorSequence` | wave-reused |
-| M121552 | P1365 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CokernelSequenceOperatorSequenceStatement` | wave-reused |
-| M121553 | P1341 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CokernelSupportedInPreimage` | wave-reused |
-| M121562 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ComapMulVecCompactOpen` | volunteer-build-reviewed |
-| M121645 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CompactScaledIntoNhds` | volunteer-build-reviewed |
-| M121649 | P0060 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CompactSetFiniteCosetRepresentatives` | volunteer-build-reviewed |
-| M121671 | P0204 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ComparableModSquareLocalization` | wave-reused |
-| M121672 | P0265 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ComparableModSquareLocalizationStatement` | wave-reused |
-| M121673 | P0138 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ComparableQuotientOfValuation` | wave-reused |
-| M121680 | P0770 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CompatibleRootsLiftToTilt` | wave-reused |

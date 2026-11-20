@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M084483 | P0958 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TensorBesselTransferStatement` | wave-reused |
+| M084485 | P0793 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TensorDecompositionParameters` | wave-reused |
+| M084487 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TensorEqZeroOfForallGeometricPoint` | volunteer-build-reviewed |
+| M084488 | P1014 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TensorMomentEstimate` | wave-reused |
+| M084489 | P1042 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TensorMomentEstimateStatement` | wave-reused |
+| M084495 | P0958 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TensorRawOfFrep` | wave-reused |
+| M084496 | P0986 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TensorRawOfFrepStatement` | wave-reused |
+| M084530 | P0875 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ThreePointSeriesExponentialOfDefect` | wave-reused |
+| M084543 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TorsionLiftPairingInOrthogonalFrame` | volunteer-build-reviewed |
+| M084553 | P0848 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TranslatePullbackEigensection` | wave-reused |
+| M084559 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.TwistedMeasureMomentsEqShiftedSeriesJets` | volunteer-build-reviewed |
+| M084568 | P0524 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.UnitaryGlModuleLevelOffDiagNormSqLe` | wave-reused |
 | M084572 | P0590 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.UnitaryGlModuleProjComponentsLevelAddTwo` | wave-reused |
 | M084573 | P0623 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.UnitaryGlModuleProjComponentsLevelAddTwoStatement` | wave-reused |
 | M084574 | P0590 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.UnitaryGlModuleProjDualTensorLevelAddTwo` | wave-reused |
@@ -390,15 +402,3 @@
 | M086503 | P0821 | `Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.UnifPreGenericFibreSurjectiveAppTopAndIsIntegral` | wave-reused |
 | M086509 | P0987 | `Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.ValuationThetaRatioEqBilinear` | wave-reused |
 | M086511 | P0821 | `Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.ValueAtUnitSection` | wave-reused |
-| M086512 | P1101 | `Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.ValueAtUnitSectionGenericFibre` | wave-reused |
-| M086513 | P1129 | `Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.ValueAtUnitSectionGenericFibreStatement` | wave-reused |
-| M086514 | P0821 | `Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.VanishOfTermsVanish` | wave-reused |
-| M086521 | P0849 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.AbsIrreducibleConstituentRanksUniqueOfCharpoly` | volunteer-build-reviewed |
-| M086524 | P0849 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.AbsNormCoprimeOfSup` | volunteer-build-reviewed |
-| M086600 | P0194 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.AlternatingCofaceMapComplexPreadditiveYonedaDApp` | wave-reused |
-| M086654 | P0849 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.BlockComplementIsSubAtEnlargementStatement` | volunteer-build-reviewed |
-| M086697 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CardTargetJumpsEqRank` | volunteer-build-reviewed |
-| M086708 | P0127 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CechAcyclic` | wave-reused |
-| M086810 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CloudLowJumpsReflectAndCard` | volunteer-build-reviewed |
-| M086905 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ComplexConjugationOrbitOneRealPlace` | volunteer-build-reviewed |
-| M087023 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.CyclicWordMarkedClustersOfAtMostTwoInWindow` | volunteer-build-reviewed |
