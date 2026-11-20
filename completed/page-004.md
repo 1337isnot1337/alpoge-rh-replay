@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005666 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexRangeKerIterateEndomorphismStatement` | wave-reused |
+| M005667 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexSqsTopOfFg` | wave-reused |
+| M005668 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexSqsTopOfFgStatement` | wave-reused |
+| M005669 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexSquaresLeTwoMulUnitsSquares` | wave-reused |
+| M005670 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexSquaresLeTwoMulUnitsSquaresStatement` | wave-reused |
+| M005671 | P0394 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexUnitsLocalSquaresFiniteRealPlacesLe` | wave-reused |
 | M005672 | P0436 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexUnitsLocalSquaresFiniteRealPlacesLeStatement` | wave-reused |
 | M005673 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexUnitsSquareUnderRingHomAdicCompletionLe` | wave-reused |
 | M005674 | P0348 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexUnitsSquareUnderRingHomAdicCompletionLeStatement` | wave-reused |
@@ -396,9 +402,3 @@
 | M006351 | P0436 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.NonemptyBasisPolyGrading` | wave-reused |
 | M006352 | P0296 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.NonemptyHomLocSingletonEquivQuotSMulTop` | wave-reused |
 | M006355 | P1395 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.OneLeFinrankSecM` | wave-reused |
-| M006356 | P1420 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.OneLeFinrankSecMStatement` | wave-reused |
-| M006359 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.PredMulSumPadicValNatFactorialAddCardLe` | wave-reused |
-| M006360 | P0348 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.PresheafCubeExactAtSuccOfSurjective` | wave-reused |
-| M006361 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ProjectiveOfIsLocallyConstantFinrankFiber` | wave-reused |
-| M006362 | P0176 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.PushComparisonBijectiveOfIsClosedEmbedding` | wave-reused |
-| M006365 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.RelLengthSpanEqAddValDet` | wave-reused |

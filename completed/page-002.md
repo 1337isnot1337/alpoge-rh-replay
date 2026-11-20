@@ -101,12 +101,14 @@
 | M002241 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.FieldFixesCurve` | volunteer-build-reviewed |
 | M002262 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.ShortRuleRepresentationChange` | volunteer-build-reviewed |
 | M002270 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.AbsoluteLogMeanBounds` | volunteer-build-reviewed |
+| M002272 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.AdelicUnitaryHaarMeasure` | volunteer-build-reviewed |
 | M002275 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ClassesDoubleCosets` | volunteer-build-reviewed |
 | M002277 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.CosetGroupMembership` | volunteer-build-reviewed |
 | M002278 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.DualExponentDensity` | volunteer-build-reviewed |
 | M002284 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.InvariantRadonFibre` | volunteer-build-reviewed |
 | M002286 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.JacobiThetaHalfCharacteristic` | volunteer-build-reviewed |
 | M002291 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.LocalDualIndex` | wave-reused |
+| M002301 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.PerpendicularEmbedding` | volunteer-build-reviewed |
 | M002312 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SignedLogMeans` | volunteer-build-reviewed |
 | M002321 | P1084 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.TameGeneratorWindow` | build-observed |
 | M002322 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ThetaCharacteristicZeroNorm` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M004246 | P0393 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsStrictlySemistable` | wave-reused |
 | M004247 | P0095 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsStrictlySemistableAlt` | wave-reused |
 | M004248 | P0173 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsStrictlySemistableModel` | wave-reused |
-| M004288 | P0002 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.OfNatTrans` | wave-reused |
-| M004296 | P0095 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.PolyApproxZeroPadic` | wave-reused |
