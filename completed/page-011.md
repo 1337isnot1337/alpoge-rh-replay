@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M046527 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootPowUnitSubProdPropertiesStatement` | wave-reused |
+| M046528 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootTiltLatticeBound` | wave-reused |
+| M046529 | P0651 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootTiltLatticeBoundStatement` | wave-reused |
+| M046530 | P0553 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveSemilinearLiftBaseChangeBijective` | wave-reused |
+| M046531 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveSemilinearLiftBaseChangeBijectiveStatement` | wave-reused |
+| M046532 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveVectorQuadraticLevelMeasure` | volunteer-build-reviewed |
+| M046624 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdArgRealUnitEqOne` | volunteer-build-reviewed |
+| M046626 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdClassGroupMk0EqOfLinearEquivPi` | volunteer-build-reviewed |
+| M046649 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdFourMapsEqOne` | volunteer-build-reviewed |
 | M046653 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdHomeoSymmApplySnd` | volunteer-build-reviewed |
 | M046656 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdIoiSubEqAntisymmMonomial` | volunteer-build-reviewed |
 | M046669 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdOfFnEqSingle` | volunteer-build-reviewed |
@@ -393,12 +402,3 @@
 | M050679 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecLocalHomFactorsAffineOpenStatement` | volunteer-build-reviewed |
 | M050686 | P0443 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecMapSmoothSurjectiveOfIsSeparable` | wave-reused |
 | M050687 | P0481 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecMapSmoothSurjectiveOfIsSeparableStatement` | wave-reused |
-| M050690 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecPiCofanIsColimitOfRingEquiv` | wave-reused |
-| M050691 | P0443 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecPiCofanIsColimitOfRingEquivStatement` | wave-reused |
-| M050697 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecTensorPreimmersionStatement` | volunteer-build-reviewed |
-| M050700 | P0443 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecWidePushoutIsLimitWidePullback` | wave-reused |
-| M050701 | P0481 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecWidePushoutIsLimitWidePullbackStatement` | wave-reused |
-| M050703 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecWidePushoutIsoWidePullbackYonedaStatement` | volunteer-build-reviewed |
-| M050741 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecializesLiftClosedFibreStalkBaseChangeStatement` | volunteer-build-reviewed |
-| M050913 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SqMulFinrankMatrixAlgebraHomEqFinrankMul` | volunteer-build-reviewed |
-| M050917 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SqNormSmoothSectionSubGluedLe` | wave-reused |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M024072 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleOfMapToDegreeOneTerm` | wave-reused |
+| M024073 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleOfMapToDegreeOneTermStatement` | wave-reused |
+| M024101 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoinducedSheafInjectiveResolutionFreeExact` | wave-reused |
 | M024102 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoinducedSheafInjectiveResolutionFreeExactStatement` | wave-reused |
 | M024103 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsColReduced` | wave-reused |
 | M024127 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCommonDenominatorOfValuationLeCofiniteStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M031309 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteIntegralClosureOverGenericFibreOfEtale` | wave-reused |
 | M031310 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteIntegralClosureOverGenericFibreOfEtaleStatement` | wave-reused |
 | M031313 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteJointEigensystems` | volunteer-build-reviewed |
-| M031324 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteLengthCokerOfEtalePuncturedSpectrum` | wave-reused |
-| M031325 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteLengthCokerOfEtalePuncturedSpectrumStatement` | wave-reused |
-| M031513 | P0298 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteTypeIntHomFilteredColimit` | wave-reused |

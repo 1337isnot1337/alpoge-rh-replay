@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M018254 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowSecondAddThirdThreeGroupsStatement` | wave-reused |
+| M018260 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstEqZeroOfDegreeLt` | wave-reused |
 | M018261 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstEqZeroOfDegreeLtStatement` | wave-reused |
 | M018262 | P0892 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstLeadingOfAgreeDegreeOne` | wave-reused |
 | M018263 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstLeadingOfAgreeDegreeOneStatement` | wave-reused |
@@ -63,6 +65,7 @@
 | M019376 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugationDerivCutoffPolynomialMemUnitarySpanStatement` | volunteer-build-reviewed |
 | M019378 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugationMeasurePreservingSemidirectStatement` | volunteer-build-reviewed |
 | M019411 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConnectionCurvatureSumWedgeSemilinearPullback` | volunteer-build-reviewed |
+| M019453 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConstantCoeffHasse` | volunteer-build-reviewed |
 | M019541 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContCxOfDegreewise` | wave-reused |
 | M019545 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffAtGramOfImFormConst` | volunteer-build-reviewed |
 | M019549 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffAtPsiOfNotMemZeroSet` | wave-reused |
@@ -399,6 +402,3 @@
 | M024065 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCochainEvEqOfNaturalStatement` | wave-reused |
 | M024070 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleLiftingLineBundleTransitionUnits` | wave-reused |
 | M024071 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleLiftingLineBundleTransitionUnitsStatement` | wave-reused |
-| M024072 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleOfMapToDegreeOneTerm` | wave-reused |
-| M024073 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleOfMapToDegreeOneTermStatement` | wave-reused |
-| M024101 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoinducedSheafInjectiveResolutionFreeExact` | wave-reused |

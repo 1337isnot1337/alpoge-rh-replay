@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M061011 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CentralBinomLePowCardPrimesBetween` | wave-reused |
+| M061012 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CentralIdempotentIrreducibleCharacterProps` | wave-reused |
+| M061013 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CentralIdempotentIrreducibleCharacterPropsStatement` | wave-reused |
+| M061073 | P0444 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CmpProps` | wave-reused |
+| M061074 | P0482 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CmpPropsStatement` | wave-reused |
+| M061096 | P0586 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoefQExpansionFunctionUpperHalfPlane` | wave-reused |
+| M061097 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoefQExpansionFunctionUpperHalfPlaneStatement` | wave-reused |
+| M061099 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffEisensteinSeriesTwistedHeckeUHeckeV` | wave-reused |
+| M061100 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffEisensteinSeriesTwistedHeckeUHeckeVStatement` | wave-reused |
+| M061101 | P0586 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffEisensteinSeriesTwistedQExpansionDouble` | wave-reused |
 | M061102 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffEisensteinSeriesTwistedQExpansionDoubleStatement` | wave-reused |
 | M061107 | P0709 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeTOperatorQExpansionSlashSum` | wave-reused |
 | M061108 | P0735 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffHeckeTOperatorQExpansionSlashSumStatement` | wave-reused |
@@ -72,6 +82,8 @@
 | M061468 | P0554 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EvalSeriesCongIffCoeffAndIsUnitStatement` | wave-reused |
 | M061481 | P0025 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsAbsoluteValueCompleteSpaceOfDvr` | wave-reused |
 | M061482 | P0117 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsAbsoluteValueCompleteSpaceOfDvrStatement` | wave-reused |
+| M061489 | P0187 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsAdjacentSelfDualLatticeToward` | volunteer-build-reviewed |
+| M061490 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsAdjacentSelfDualLatticeTowardStatement` | volunteer-build-reviewed |
 | M061523 | P0025 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsBimultiplicativeOfSecondQuotConst` | wave-reused |
 | M061531 | P0025 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCharParityMulNeOneMulInvNeOne` | wave-reused |
 | M061532 | P0117 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCharParityMulNeOneMulInvNeOneStatement` | wave-reused |
@@ -95,6 +107,7 @@
 | M061604 | P0444 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsDeltaPowQExpansionIffLaurentSeries` | wave-reused |
 | M061605 | P0483 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsDeltaPowQExpansionIffLaurentSeriesStatement` | wave-reused |
 | M061648 | P0304 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsEqExpOfRat` | wave-reused |
+| M061656 | P0117 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsExtensionOfDense` | volunteer-build-reviewed |
 | M061659 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsFiniteEtaleLocalSurjectiveOfIsSeparable` | wave-reused |
 | M061682 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsFormDegreeLeHilbertDegreeEvalNeZero` | wave-reused |
 | M061685 | P0304 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsFormsAlgebraicIndependentSmulSubSumMem` | wave-reused |
@@ -389,16 +402,3 @@
 | M063141 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldClearDenominatorsStatement` | wave-reused |
 | M063142 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldConstAndQuotient` | wave-reused |
 | M063143 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldConstAndQuotientStatement` | wave-reused |
-| M063144 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldExpUpperTriangular` | wave-reused |
-| M063145 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldExpUpperTriangularStatement` | wave-reused |
-| M063146 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldExpansionConverges` | wave-reused |
-| M063147 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldExpansionConvergesStatement` | wave-reused |
-| M063148 | P1174 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldNonempty` | wave-reused |
-| M063149 | P1198 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldNonemptyStatement` | wave-reused |
-| M063150 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldSaturation` | wave-reused |
-| M063151 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldSaturationStatement` | wave-reused |
-| M063152 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldSlRightAction` | wave-reused |
-| M063153 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldSlRightActionStatement` | wave-reused |
-| M063154 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionRingOverIsDomain` | wave-reused |
-| M063155 | P0621 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionRingOverIsDomainStatement` | wave-reused |
-| M063160 | P0188 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularLawOfSAndT` | wave-reused |

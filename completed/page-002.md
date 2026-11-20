@@ -159,6 +159,7 @@
 | M002815 | P0945 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.EmbRelExistsUnique` | volunteer-build-reviewed |
 | M002841 | P0238 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ExistsIsCayleyUIff` | wave-reused |
 | M002853 | P0783 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.HtCharOfIsUnit` | volunteer-build-reviewed |
+| M002899 | P0002 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.RightInvariantOfCovolume` | volunteer-build-reviewed |
 | M002932 | P0783 | `Development.AbelianVarietyTheory.Counterexamples.NonGaloisSurvey.MemTypeSubspaceIffUnipotentCharacter` | volunteer-build-reviewed |
 | M002978 | P0475 | `Development.AbelianVarietyTheory.CrystallinePeriods.AdicMaps` | wave-reused |
 | M002979 | P0515 | `Development.AbelianVarietyTheory.CrystallinePeriods.CrisIncl` | wave-reused |
@@ -401,4 +402,3 @@
 | M004449 | P0705 | `Development.AbelianVarietyTheory.Definitions.Jets.SumIoPrAlt` | wave-reused |
 | M004451 | P1084 | `Development.AbelianVarietyTheory.Definitions.Jets.SurjectiveAppTopSqCube` | wave-reused |
 | M004455 | P0003 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.DegProd` | wave-reused |
-| M004457 | P0731 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.IsSquareDeterminantComparison` | wave-reused |

@@ -2,6 +2,24 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M075430 | P0874 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorTeichmullerIsAdicCompleteOfPerfect` | wave-reused |
+| M075431 | P0900 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorTeichmullerIsAdicCompleteOfPerfectStatement` | wave-reused |
+| M075466 | P0256 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ZpowSmulMem` | volunteer-build-reviewed |
+| M075486 | P0556 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.Acris0TorsionFree` | wave-reused |
+| M075487 | P0654 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisDivisibleOfKernelPowers` | wave-reused |
+| M075488 | P0685 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisDivisibleOfKernelPowersStatement` | wave-reused |
+| M075489 | P0589 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisFiltrationApproxByEnvelopeKernelPower` | wave-reused |
+| M075490 | P0622 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisFiltrationApproxByEnvelopeKernelPowerStatement` | wave-reused |
+| M075491 | P0874 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisFrobeniusEigenFilEqQlMulTPow` | wave-reused |
+| M075492 | P0900 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisFrobeniusEigenFilEqQlMulTPowStatement` | wave-reused |
+| M075493 | P0589 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisFrobeniusFixedEqPadicInt` | wave-reused |
+| M075494 | P0622 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisFrobeniusFixedEqPadicIntStatement` | wave-reused |
+| M075495 | P0819 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisFrobeniusFontaineTEqMul` | wave-reused |
+| M075496 | P0848 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisFrobeniusFontaineTEqMulStatement` | wave-reused |
+| M075499 | P0765 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisLogTeichmullerUniqueGaloisFrobeniusBdR` | wave-reused |
+| M075500 | P0791 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisLogTeichmullerUniqueGaloisFrobeniusBdRStatement` | wave-reused |
+| M075501 | P0622 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisMembershipSpanIff` | wave-reused |
+| M075502 | P0654 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisMembershipSpanIffStatement` | wave-reused |
 | M075503 | P0711 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisToBdRPlusInjective` | wave-reused |
 | M075504 | P0737 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisToBdRPlusInjectiveStatement` | wave-reused |
 | M075510 | P0485 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ActsBySameInteger` | volunteer-build-reviewed |
@@ -233,6 +251,7 @@
 | M082902 | P1430 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TwistedPowerHigherCohomVanishingPullbackIffPushfStatement` | wave-reused |
 | M082903 | P1406 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TwistedPowerVanishingInductionBySectionSqTensor` | wave-reused |
 | M082904 | P1430 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TwistedPowerVanishingInductionBySectionSqTensorStatement` | wave-reused |
+| M083123 | P0037 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.VecMulVecComm` | volunteer-build-reviewed |
 | M083183 | P0447 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.WeilGroupIsSemisimpleOfSemisimpleFrob` | wave-reused |
 | M083184 | P0486 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.WeilGroupIsSemisimpleOfSemisimpleFrobStatement` | wave-reused |
 | M083236 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.AbsCoordLeOfLOneNormLe` | wave-reused |
@@ -383,22 +402,3 @@
 | M083905 | P0902 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GlRelationRowStepsFunctionalEigen` | wave-reused |
 | M083906 | P0930 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GlRelationRowStepsFunctionalEigenStatement` | wave-reused |
 | M083917 | P0848 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GrowthUnitaryGroupRpowNegIntegrable` | wave-reused |
-| M083918 | P0874 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GrowthUnitaryGroupRpowNegIntegrableStatement` | wave-reused |
-| M083920 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.HaarEqSmul` | volunteer-build-reviewed |
-| M083933 | P0310 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.HasSubstAddSqZero` | wave-reused |
-| M083946 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.HeisenbergOperatorsOrthogonalFrameCoordsStatement` | volunteer-build-reviewed |
-| M083952 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.HilbertSchmidtNormSubmulInvGeOne` | wave-reused |
-| M083953 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.HilbertSchmidtNormSubmulInvGeOneStatement` | volunteer-build-reviewed |
-| M083969 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ImagQuadraticMaximalOrderArithmeticAtSplitPrimeStatement` | volunteer-build-reviewed |
-| M083996 | P1042 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IntegralFamilyOfStrictMin` | wave-reused |
-| M084013 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.InvSqLeWignerCoeffSqRaisingStatement` | volunteer-build-reviewed |
-| M084014 | P0407 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.InvariantDerivAlongEndo` | wave-reused |
-| M084015 | P0623 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.InvariantHermitianFormNonnegOfCloudEigen` | wave-reused |
-| M084016 | P0655 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.InvariantHermitianFormNonnegOfCloudEigenStatement` | wave-reused |
-| M084021 | P0361 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsAdicColimitOfFactor` | wave-reused |
-| M084024 | P0407 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsAdicCompleteOfPowLeOfPowLe` | wave-reused |
-| M084031 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsFRepDualStandardUnitaryRep` | wave-reused |
-| M084032 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsFRepDualStandardUnitaryRepStatement` | volunteer-build-reviewed |
-| M084033 | P0848 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsFRepExteriorPowerStandardRep` | wave-reused |
-| M084034 | P0874 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsFRepExteriorPowerStandardRepStatement` | wave-reused |
-| M084037 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsHaarOnIffGroupsUnitaryUnipotent` | wave-reused |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M031324 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteLengthCokerOfEtalePuncturedSpectrum` | wave-reused |
+| M031325 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteLengthCokerOfEtalePuncturedSpectrumStatement` | wave-reused |
+| M031513 | P0298 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteTypeIntHomFilteredColimit` | wave-reused |
 | M031552 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankAddValuationIntegerSubmoduleEqFinrankSpan` | wave-reused |
 | M031553 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankAddValuationIntegerSubmoduleEqFinrankSpanStatement` | wave-reused |
 | M031571 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankDualAndRangeDualMapBaseChange` | wave-reused |
@@ -72,6 +75,7 @@
 | M033122 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FrobeniusShapeOfSidePreserving` | wave-reused |
 | M033134 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FrobeniusTwistedDivisibility` | wave-reused |
 | M033135 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FrobeniusTwistedDivisibilityStatement` | wave-reused |
+| M033156 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FsOne` | volunteer-build-reviewed |
 | M033306 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.G2AddWeierstrassPRowSum` | wave-reused |
 | M033307 | P0299 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.G2AddWeierstrassPRowSumStatement` | wave-reused |
 | M033320 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisActionFinitarySheafSectionLocallyConstant` | wave-reused |
@@ -102,6 +106,7 @@
 | M033837 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GlueCommaOfBasis` | wave-reused |
 | M033875 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.Glues` | volunteer-build-reviewed |
 | M033907 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GoodIffEtaleAt` | wave-reused |
+| M034064 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramPosSemidefOfIntForm` | volunteer-build-reviewed |
 | M034085 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GreenFunctionCharacterSum` | wave-reused |
 | M034228 | P1564 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.H1GrowthNoSectionsNef` | wave-reused |
 | M034229 | P1590 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.H1GrowthNoSectionsNefStatement` | wave-reused |
@@ -301,6 +306,7 @@
 | M037580 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAdicCompleteOfLeOfIsNoetherianRing` | wave-reused |
 | M037581 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAdicCompleteOfLeOfIsNoetherianRingStatement` | volunteer-build-reviewed |
 | M037585 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAdicCompleteSpanNatCastFiniteProjectiveAlgebraStatement` | volunteer-build-reviewed |
+| M037606 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAffineOpenInfOfSeparatedOverAffineOpen` | volunteer-build-reviewed |
 | M037615 | P1147 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAffineOpenPreimageOfIsPullback` | wave-reused |
 | M037635 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlgebraicOfMemClosure` | volunteer-build-reviewed |
 | M037640 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlgebraicOfSubringIsAlgebraicStatement` | volunteer-build-reviewed |
@@ -384,6 +390,7 @@
 | M038586 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOfFinOrderPicOfIsReducedFiniteInt` | volunteer-build-reviewed |
 | M038588 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenAtlasSectionNonvanishingSetAndMemIff` | wave-reused |
 | M038589 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenAtlasSectionNonvanishingSetAndMemIffStatement` | wave-reused |
+| M038591 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenConnectedComponentOfIsLocallyNoetherian` | volunteer-build-reviewed |
 | M038602 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenGraph` | volunteer-build-reviewed |
 | M038760 | P1508 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPsEffPullReducedClosedOfDimLe` | wave-reused |
 | M038761 | P1538 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPsEffPullReducedClosedOfDimLeStatement` | wave-reused |
@@ -395,10 +402,3 @@
 | M038891 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsRegularAdjoinRoots` | wave-reused |
 | M038926 | P0109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSLTwoPermutedModularFamilyAlgebraClosure` | wave-reused |
 | M038927 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSLTwoPermutedModularFamilyAlgebraClosureStatement` | wave-reused |
-| M038928 | P0109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSLTwoPermutedModularFamilyIffValues` | wave-reused |
-| M038929 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSLTwoPermutedModularFamilyIffValuesStatement` | wave-reused |
-| M038932 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSMulRegularOfEtalePuncturedOfDepthPos` | wave-reused |
-| M038933 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSMulRegularOfEtalePuncturedOfDepthPosDomain` | wave-reused |
-| M038934 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSMulRegularOfEtalePuncturedOfDepthPosDomainStatement` | volunteer-build-reviewed |
-| M038935 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSMulRegularOfEtalePuncturedOfDepthPosStatement` | volunteer-build-reviewed |
-| M038937 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSNCAtlasOfIsEmpty` | volunteer-build-reviewed |

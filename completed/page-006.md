@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013543 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HasSumOfAdicSumUnitBallExtensionStatement` | volunteer-build-reviewed |
 | M013544 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HasTorusWeightIffTorusEquivariant` | volunteer-build-reviewed |
 | M013547 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HasWtZero` | volunteer-build-reviewed |
 | M013552 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HomDescendsToSubfieldContainingFinsetStatement` | volunteer-build-reviewed |
@@ -368,6 +369,7 @@
 | M017792 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassVanishesAwayNonzeroNonunitDomainStatement` | volunteer-build-reviewed |
 | M017817 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CliffordSemidirectPrimeIndexIrreducibleCharacter` | wave-reused |
 | M017818 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CliffordSemidirectPrimeIndexIrreducibleCharacterStatement` | wave-reused |
+| M017819 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClmSupBound` | volunteer-build-reviewed |
 | M017831 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CloseTensor` | volunteer-build-reviewed |
 | M017880 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosedImmersionRestrictClopenFactorizationStatement` | volunteer-build-reviewed |
 | M017900 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosedSubschemeGlueLocalConditionStatement` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M018251 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowFirstAddSecondThreeGroups` | wave-reused |
 | M018252 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowFirstAddSecondThreeGroupsStatement` | wave-reused |
 | M018253 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowSecondAddThirdThreeGroups` | wave-reused |
-| M018254 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffProdPowSecondAddThirdThreeGroupsStatement` | wave-reused |
-| M018260 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstEqZeroOfDegreeLt` | wave-reused |

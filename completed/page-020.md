@@ -2,6 +2,25 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M085935 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SecCoordBcScaleUnique` | volunteer-build-reviewed |
+| M085938 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SectionCoordinateVectorExistsLocallyStatement` | volunteer-build-reviewed |
+| M085962 | P0038 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SetIntegralFderivEqZeroOfLatticePeriodic` | wave-reused |
+| M085963 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ShapeOfUniformisedThetaObject` | volunteer-build-reviewed |
+| M085977 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SiegelPrePullbackPrincipalRingChange` | volunteer-build-reviewed |
+| M085990 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SmoothGenericFibreOfAffineOpensStatement` | volunteer-build-reviewed |
+| M085992 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SmoothGenericFibreOfIndependentAndTangentBoundStatement` | volunteer-build-reviewed |
+| M085994 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SmoothGrpSchemeDescendsToFgSubring` | volunteer-build-reviewed |
+| M085996 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SmoothModelsIsoOverFgSubalgebraStatement` | volunteer-build-reviewed |
+| M085999 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SmoothOfRelativeDimensionDescendsEtaleCover` | volunteer-build-reviewed |
+| M086001 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SmoothOfRelativeDimensionOfCharZero` | volunteer-build-reviewed |
+| M086002 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SmoothOfRelativeDimensionOfDimOfDirectionsLe` | volunteer-build-reviewed |
+| M086004 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SmoothOfRelativeDimensionOfFlatDedekindTangentLe` | volunteer-build-reviewed |
+| M086010 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SplitOfFactorisation` | volunteer-build-reviewed |
+| M086013 | P0767 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SubsingletonSpDualNumber` | wave-reused |
+| M086017 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SurjectiveAppTopPullbackSndOfApp` | volunteer-build-reviewed |
+| M086019 | P1179 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SymmetricBundleTrivialConstantFamilyDualNumber` | wave-reused |
+| M086020 | P1204 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SymmetricBundleTrivialConstantFamilyDualNumberStatement` | wave-reused |
+| M086022 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SymmetricLiftTorsionPointActionOnThetaStatement` | volunteer-build-reviewed |
 | M086030 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SymplecticDatumTorsionLevelStatement` | volunteer-build-reviewed |
 | M086032 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SymplecticFormBasisChangeStatement` | volunteer-build-reviewed |
 | M086036 | P1383 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.TangentInjectsSymmetricAntilinearCommuting` | wave-reused |
@@ -111,6 +130,7 @@
 | M087517 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsPlaceOverPrimeOfPadicAlgClEmbedding` | volunteer-build-reviewed |
 | M087546 | P0767 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsRingHomOfIsStrictHenselisation` | wave-reused |
 | M087658 | P0127 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.FaceFaceApply` | wave-reused |
+| M087716 | P0038 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.FiniteInvolutionFixedUnitEqMulConj` | volunteer-build-reviewed |
 | M087725 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.FinrankAddOfBiprod` | volunteer-build-reviewed |
 | M087729 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.FinrankLocalFieldEqCardDecompositionGroup` | volunteer-build-reviewed |
 | M087751 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.FloorSizeBoundsAtThickEmbedding` | volunteer-build-reviewed |
@@ -133,6 +153,7 @@
 | M089058 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.PeriodDataDeRhamAdmissible` | volunteer-build-reviewed |
 | M089059 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.PeriodDataProperties` | volunteer-build-reviewed |
 | M089107 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.PointDeterminedBySplitComponentsOfBaseChange` | volunteer-build-reviewed |
+| M089185 | P0039 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.QuadraticRingOfIntegersMulMemSpanOneGen` | volunteer-build-reviewed |
 | M089227 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.RelIndexGlMapStandardLatticeOfIntegralStatement` | volunteer-build-reviewed |
 | M089261 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.RoundedSizeBoundWindow` | volunteer-build-reviewed |
 | M089262 | P0794 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.RoundedSizesSumLePageHeight` | volunteer-build-reviewed |
@@ -381,24 +402,3 @@
 | M090815 | P0794 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PullbackSectionsBasisAffineBaseChangeOfAffine` | volunteer-build-reviewed |
 | M090816 | P0822 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PullbackSectionsBasisAffineBaseChangeOfAffineStatement` | wave-reused |
 | M090817 | P0794 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PullbackSectionsBasisOfAffineOpens` | volunteer-build-reviewed |
-| M090818 | P0822 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PullbackSectionsBasisOfAffineOpensStatement` | wave-reused |
-| M090819 | P0795 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PullbackSectionsSpanTwistedOfIndepSpan` | wave-reused |
-| M090820 | P0822 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PullbackSectionsSpanTwistedOfIndepSpanStatement` | wave-reused |
-| M090821 | P0767 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PwIsoIsGen` | wave-reused |
-| M090825 | P1259 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.RingKrullDimLocalizationQuotientLe` | wave-reused |
-| M090828 | P1130 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SectionsSeparatePointsAndTangents` | wave-reused |
-| M090829 | P1259 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SerreVanishingCubeTotalComplexExactAt` | wave-reused |
-| M090830 | P1286 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SerreVanishingCubeTotalComplexExactAtStatement` | wave-reused |
-| M090840 | P0795 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SignInsert` | wave-reused |
-| M090841 | P0128 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SignSwap` | wave-reused |
-| M090842 | P0876 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SimilitudeGeneratorEqExpInFrames` | wave-reused |
-| M090843 | P0903 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SimilitudeGeneratorEqExpInFramesStatement` | wave-reused |
-| M090844 | P1156 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SimilitudeIsoThetaProductBaseChange` | wave-reused |
-| M090845 | P1180 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SimilitudeIsoThetaProductBaseChangeStatement` | wave-reused |
-| M090846 | P0795 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SimpleZerosMoveHolomorphically` | wave-reused |
-| M090847 | P0195 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SndFDerivAddSndFDerivIEqZeroOfHarmonicAtLine` | wave-reused |
-| M090848 | P0128 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SpanModEquationsLift` | wave-reused |
-| M090850 | P1130 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.StalkOfAppLEEq` | wave-reused |
-| M090851 | P0128 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubmatrixMulOfSupport` | wave-reused |
-| M090852 | P0128 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubmatrixMulOfVanish` | wave-reused |
-| M090853 | P0590 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubsingletonPrimeSpectrum` | wave-reused |

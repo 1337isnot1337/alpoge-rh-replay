@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006438 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FinrankMulDiscrRpowLeSumSqOfMemTraceDual` | wave-reused |
 | M006439 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FormalExpMulFormalExpNeg` | wave-reused |
 | M006440 | P0177 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FormalLogEqSumOfMultiplicativeParam` | wave-reused |
 | M006453 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegrableMonomialMulConjComplexGaussian` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M013520 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GeometricallyConnectedOfSection` | volunteer-build-reviewed |
 | M013526 | P0007 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GroupAlgebraSingleOneMemOfSpan` | wave-reused |
 | M013534 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.GtAddIotaSubExist` | volunteer-build-reviewed |
-| M013543 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.HasSumOfAdicSumUnitBallExtensionStatement` | volunteer-build-reviewed |

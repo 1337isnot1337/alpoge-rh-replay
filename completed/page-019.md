@@ -2,6 +2,25 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M083918 | P0874 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.GrowthUnitaryGroupRpowNegIntegrableStatement` | wave-reused |
+| M083920 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.HaarEqSmul` | volunteer-build-reviewed |
+| M083933 | P0310 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.HasSubstAddSqZero` | wave-reused |
+| M083946 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.HeisenbergOperatorsOrthogonalFrameCoordsStatement` | volunteer-build-reviewed |
+| M083952 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.HilbertSchmidtNormSubmulInvGeOne` | wave-reused |
+| M083953 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.HilbertSchmidtNormSubmulInvGeOneStatement` | volunteer-build-reviewed |
+| M083969 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.ImagQuadraticMaximalOrderArithmeticAtSplitPrimeStatement` | volunteer-build-reviewed |
+| M083996 | P1042 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IntegralFamilyOfStrictMin` | wave-reused |
+| M084013 | P0256 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.InvSqLeWignerCoeffSqRaisingStatement` | volunteer-build-reviewed |
+| M084014 | P0407 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.InvariantDerivAlongEndo` | wave-reused |
+| M084015 | P0623 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.InvariantHermitianFormNonnegOfCloudEigen` | wave-reused |
+| M084016 | P0655 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.InvariantHermitianFormNonnegOfCloudEigenStatement` | wave-reused |
+| M084021 | P0361 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsAdicColimitOfFactor` | wave-reused |
+| M084024 | P0407 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsAdicCompleteOfPowLeOfPowLe` | wave-reused |
+| M084031 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsFRepDualStandardUnitaryRep` | wave-reused |
+| M084032 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsFRepDualStandardUnitaryRepStatement` | volunteer-build-reviewed |
+| M084033 | P0848 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsFRepExteriorPowerStandardRep` | wave-reused |
+| M084034 | P0874 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsFRepExteriorPowerStandardRepStatement` | wave-reused |
+| M084037 | P0792 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsHaarOnIffGroupsUnitaryUnipotent` | wave-reused |
 | M084038 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsHaarOnIffGroupsUnitaryUnipotentStatement` | volunteer-build-reviewed |
 | M084047 | P0766 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsReducedTorsionGeometricFibre` | volunteer-build-reviewed |
 | M084070 | P0820 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.KFiniteDerivativesFiniteSpan` | volunteer-build-reviewed |
@@ -383,22 +402,3 @@
 | M085926 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RigidifiedPartialLineBundleIsoCocycle` | volunteer-build-reviewed |
 | M085930 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.Rigidity` | volunteer-build-reviewed |
 | M085931 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RosatiNormLEOfStarNormLE` | volunteer-build-reviewed |
-| M085935 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SecCoordBcScaleUnique` | volunteer-build-reviewed |
-| M085938 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SectionCoordinateVectorExistsLocallyStatement` | volunteer-build-reviewed |
-| M085962 | P0038 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SetIntegralFderivEqZeroOfLatticePeriodic` | wave-reused |
-| M085963 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ShapeOfUniformisedThetaObject` | volunteer-build-reviewed |
-| M085977 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SiegelPrePullbackPrincipalRingChange` | volunteer-build-reviewed |
-| M085990 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SmoothGenericFibreOfAffineOpensStatement` | volunteer-build-reviewed |
-| M085992 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SmoothGenericFibreOfIndependentAndTangentBoundStatement` | volunteer-build-reviewed |
-| M085994 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SmoothGrpSchemeDescendsToFgSubring` | volunteer-build-reviewed |
-| M085996 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SmoothModelsIsoOverFgSubalgebraStatement` | volunteer-build-reviewed |
-| M085999 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SmoothOfRelativeDimensionDescendsEtaleCover` | volunteer-build-reviewed |
-| M086001 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SmoothOfRelativeDimensionOfCharZero` | volunteer-build-reviewed |
-| M086002 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SmoothOfRelativeDimensionOfDimOfDirectionsLe` | volunteer-build-reviewed |
-| M086004 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SmoothOfRelativeDimensionOfFlatDedekindTangentLe` | volunteer-build-reviewed |
-| M086010 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SplitOfFactorisation` | volunteer-build-reviewed |
-| M086013 | P0767 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SubsingletonSpDualNumber` | wave-reused |
-| M086017 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SurjectiveAppTopPullbackSndOfApp` | volunteer-build-reviewed |
-| M086019 | P1179 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SymmetricBundleTrivialConstantFamilyDualNumber` | wave-reused |
-| M086020 | P1204 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SymmetricBundleTrivialConstantFamilyDualNumberStatement` | wave-reused |
-| M086022 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.SymmetricLiftTorsionPointActionOnThetaStatement` | volunteer-build-reviewed |

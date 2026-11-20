@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M058439 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameCoordinatesTransportInnerLatticesStatement` | wave-reused |
+| M058440 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramePairAmplitudeMassRepsEqOrbits` | wave-reused |
+| M058441 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramePairAmplitudeMassRepsEqOrbitsStatement` | wave-reused |
+| M058442 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramePairCoordinatesTransportInnerData` | wave-reused |
+| M058445 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramePairTsumRepsEqConstMulOrbits` | wave-reused |
+| M058446 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramePairTsumRepsEqConstMulOrbitsStatement` | wave-reused |
+| M058449 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesComplementUnitaryActsOnTerms` | wave-reused |
+| M058450 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesComplementUnitaryActsOnTermsStatement` | wave-reused |
+| M058451 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesComplementUnitaryNormalisesStabil` | wave-reused |
+| M058452 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesComplementUnitaryNormalisesStabilStatement` | wave-reused |
 | M058453 | P0787 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesDefectOrderShareLe` | wave-reused |
 | M058454 | P0814 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesDefectOrderShareLeStatement` | wave-reused |
 | M058455 | P0896 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesFirstTypeAmpSqBound` | wave-reused |
@@ -392,13 +402,3 @@
 | M060994 | P0355 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardPermExistsStableSubsetLe` | wave-reused |
 | M060995 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardPermPartitionPartsMulCentralizer` | wave-reused |
 | M060996 | P0304 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardPermPartitionPartsMulCentralizerStatement` | wave-reused |
-| M061011 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CentralBinomLePowCardPrimesBetween` | wave-reused |
-| M061012 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CentralIdempotentIrreducibleCharacterProps` | wave-reused |
-| M061013 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CentralIdempotentIrreducibleCharacterPropsStatement` | wave-reused |
-| M061073 | P0444 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CmpProps` | wave-reused |
-| M061074 | P0482 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CmpPropsStatement` | wave-reused |
-| M061096 | P0586 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoefQExpansionFunctionUpperHalfPlane` | wave-reused |
-| M061097 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoefQExpansionFunctionUpperHalfPlaneStatement` | wave-reused |
-| M061099 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffEisensteinSeriesTwistedHeckeUHeckeV` | wave-reused |
-| M061100 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffEisensteinSeriesTwistedHeckeUHeckeVStatement` | wave-reused |
-| M061101 | P0586 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffEisensteinSeriesTwistedQExpansionDouble` | wave-reused |

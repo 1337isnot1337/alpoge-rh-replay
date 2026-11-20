@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M038928 | P0109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSLTwoPermutedModularFamilyIffValues` | wave-reused |
+| M038929 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSLTwoPermutedModularFamilyIffValuesStatement` | wave-reused |
+| M038932 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSMulRegularOfEtalePuncturedOfDepthPos` | wave-reused |
+| M038933 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSMulRegularOfEtalePuncturedOfDepthPosDomain` | wave-reused |
+| M038934 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSMulRegularOfEtalePuncturedOfDepthPosDomainStatement` | volunteer-build-reviewed |
+| M038935 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSMulRegularOfEtalePuncturedOfDepthPosStatement` | volunteer-build-reviewed |
+| M038937 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSNCAtlasOfIsEmpty` | volunteer-build-reviewed |
 | M038938 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSSecGlueSectionByPartitionOfHolo` | wave-reused |
 | M038939 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSSecGlueSectionByPartitionOfHoloStatement` | wave-reused |
 | M038944 | P1088 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSectionHolomorphicMulFrameExtendByZero` | wave-reused |
@@ -157,6 +164,7 @@
 | M042182 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyFlatEtaleSheafLocallyDivisibleStatement` | wave-reused |
 | M042186 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyInjectiveOfIsoOnFiniteTypeRings` | wave-reused |
 | M042187 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyInjectiveOfIsoOnFiniteTypeRingsStatement` | wave-reused |
+| M042188 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyIntegrableRep` | volunteer-build-reviewed |
 | M042203 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyQuasiFiniteOfUniqueGeomPoints` | volunteer-build-reviewed |
 | M042205 | P0399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallySurjectiveEtaleSectionBaseChange` | wave-reused |
 | M042207 | P0399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallySurjectiveOfIsoOnFiniteTypeApproximation` | wave-reused |
@@ -342,6 +350,7 @@
 | M045167 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PDivCocycleMemRangeCobOfPullbackMulP` | wave-reused |
 | M045168 | P0553 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PDivCocycleMemRangeCobOfPullbackMulPStatement` | wave-reused |
 | M045251 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PadicIntRingHomExtOfIsHausdorff` | wave-reused |
+| M045254 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PadicMemRangeCompleteDvrPadicAlgCl` | volunteer-build-reviewed |
 | M045265 | P0247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PadicRingHomEqCanonical` | wave-reused |
 | M045266 | P0301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PadicRingHomEqCanonicalStatement` | wave-reused |
 | M045267 | P0301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PadicRingHomUniqueAdicComplete` | wave-reused |
@@ -393,12 +402,3 @@
 | M046524 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootFreeActionFinsuppSum` | wave-reused |
 | M046525 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootFreeActionFinsuppSumStatement` | wave-reused |
 | M046526 | P0399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootPowUnitSubProdProperties` | wave-reused |
-| M046527 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootPowUnitSubProdPropertiesStatement` | wave-reused |
-| M046528 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootTiltLatticeBound` | wave-reused |
-| M046529 | P0651 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveRootTiltLatticeBoundStatement` | wave-reused |
-| M046530 | P0553 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveSemilinearLiftBaseChangeBijective` | wave-reused |
-| M046531 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveSemilinearLiftBaseChangeBijectiveStatement` | wave-reused |
-| M046532 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimitiveVectorQuadraticLevelMeasure` | volunteer-build-reviewed |
-| M046624 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdArgRealUnitEqOne` | volunteer-build-reviewed |
-| M046626 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdClassGroupMk0EqOfLinearEquivPi` | volunteer-build-reviewed |
-| M046649 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdFourMapsEqOne` | volunteer-build-reviewed |

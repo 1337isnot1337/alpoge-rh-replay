@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M071109 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HyperbolicPartialFourierScaleEqTorusAction` | volunteer-build-reviewed |
+| M071111 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HyperbolicPartialFourierTwiceEqReflection` | volunteer-build-reviewed |
+| M071113 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HyperbolicWeylActionEqFourierEtaleL` | volunteer-build-reviewed |
+| M071123 | P0956 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IdealSpanPrimeVariableBasis` | wave-reused |
+| M071124 | P0983 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IdealSpanPrimeVariableBasisStatement` | wave-reused |
+| M071138 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IdempotentCoordinatesStructure` | volunteer-build-reviewed |
+| M071140 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IdempotentDecompositionOfIntegrality` | volunteer-build-reviewed |
+| M071160 | P0032 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.Imports` | wave-reused |
+| M071180 | P0032 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ImportsTer` | wave-reused |
+| M071200 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InducedClassFunctionFromSubgroupTransStatement` | volunteer-build-reviewed |
+| M071204 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InducedOneSubIndexMemDegreeOneCharacterDiffStatement` | volunteer-build-reviewed |
+| M071205 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InducedRepresentationCharacter` | volunteer-build-reviewed |
+| M071277 | P1096 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InjectiveAndRangeOfPrismCover` | wave-reused |
+| M071278 | P1125 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InjectiveAndRangeOfPrismCoverStatement` | wave-reused |
+| M071299 | P0654 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegersCompleteDVR` | wave-reused |
 | M071318 | P0254 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralClosureFgFiniteEtaleDvr` | volunteer-build-reviewed |
 | M071328 | P1176 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralElementsUnitFactorization` | wave-reused |
 | M071329 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralElementsUnitFactorizationStatement` | wave-reused |
@@ -139,6 +154,7 @@
 | M072711 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MixedModelPartialFourierColumnTwiceNegColumn` | volunteer-build-reviewed |
 | M072719 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ModUniformiserCocyclesFiniteClassesLocal` | volunteer-build-reviewed |
 | M072778 | P0033 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MulDiagOfTriangular` | wave-reused |
+| M072781 | P0192 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MulMatMemUnitaryGroup` | volunteer-build-reviewed |
 | M072787 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MultiplicativeVirtualCharacter` | volunteer-build-reviewed |
 | M072795 | P0984 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MvPolynomialDeltaSupportedLinearModPrime` | wave-reused |
 | M072796 | P1012 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MvPolynomialDeltaSupportedLinearModPrimeStatement` | wave-reused |
@@ -164,6 +180,7 @@
 | M072963 | P1097 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NormLtOneOfIsRootDistinguishedWittPolynomial` | wave-reused |
 | M072964 | P1126 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NormLtOneOfIsRootDistinguishedWittPolynomialStatement` | wave-reused |
 | M072968 | P0485 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NormMemCyclotomicLayerPrimeRpow` | volunteer-build-reviewed |
+| M072972 | P0192 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NormMulApplyLeOne` | volunteer-build-reviewed |
 | M072973 | P0033 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NormNatCastEqOneOfNotDvd` | wave-reused |
 | M072982 | P0360 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NormPrimitiveRootPrimePowSubOnePadicComplex` | wave-reused |
 | M072983 | P0405 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NormPrimitiveRootPrimePowSubOnePadicComplexStatement` | wave-reused |
@@ -256,6 +273,7 @@
 | M074064 | P1227 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SmithFormCoefficientRingImageOrPrimeDvdRowStatement` | wave-reused |
 | M074065 | P0033 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SmodEqIffDvd` | wave-reused |
 | M074089 | P0928 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SpanLocalIff` | build-observed |
+| M074091 | P1068 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SpanMulMem` | build-observed |
 | M074096 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SpanPowGeneratorEqTopOfCharpolySeparable` | volunteer-build-reviewed |
 | M074097 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SpanPowGeneratorEqTopOfCharpolySeparableStatement` | volunteer-build-reviewed |
 | M074111 | P0985 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SpanSingletonClosedOfBoundedTorsion` | wave-reused |
@@ -384,21 +402,3 @@
 | M075425 | P0986 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorMapBreuilKisinEvEqStatement` | wave-reused |
 | M075428 | P0986 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorRingHomEqOfSubMem` | wave-reused |
 | M075429 | P1013 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorRingHomEqOfSubMemStatement` | wave-reused |
-| M075430 | P0874 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorTeichmullerIsAdicCompleteOfPerfect` | wave-reused |
-| M075431 | P0900 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorTeichmullerIsAdicCompleteOfPerfectStatement` | wave-reused |
-| M075466 | P0256 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ZpowSmulMem` | volunteer-build-reviewed |
-| M075486 | P0556 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.Acris0TorsionFree` | wave-reused |
-| M075487 | P0654 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisDivisibleOfKernelPowers` | wave-reused |
-| M075488 | P0685 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisDivisibleOfKernelPowersStatement` | wave-reused |
-| M075489 | P0589 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisFiltrationApproxByEnvelopeKernelPower` | wave-reused |
-| M075490 | P0622 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisFiltrationApproxByEnvelopeKernelPowerStatement` | wave-reused |
-| M075491 | P0874 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisFrobeniusEigenFilEqQlMulTPow` | wave-reused |
-| M075492 | P0900 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisFrobeniusEigenFilEqQlMulTPowStatement` | wave-reused |
-| M075493 | P0589 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisFrobeniusFixedEqPadicInt` | wave-reused |
-| M075494 | P0622 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisFrobeniusFixedEqPadicIntStatement` | wave-reused |
-| M075495 | P0819 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisFrobeniusFontaineTEqMul` | wave-reused |
-| M075496 | P0848 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisFrobeniusFontaineTEqMulStatement` | wave-reused |
-| M075499 | P0765 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisLogTeichmullerUniqueGaloisFrobeniusBdR` | wave-reused |
-| M075500 | P0791 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisLogTeichmullerUniqueGaloisFrobeniusBdRStatement` | wave-reused |
-| M075501 | P0622 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisMembershipSpanIff` | wave-reused |
-| M075502 | P0654 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AcrisMembershipSpanIffStatement` | wave-reused |

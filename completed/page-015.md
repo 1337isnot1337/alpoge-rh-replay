@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M063144 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldExpUpperTriangular` | wave-reused |
+| M063145 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldExpUpperTriangularStatement` | wave-reused |
+| M063146 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldExpansionConverges` | wave-reused |
+| M063147 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldExpansionConvergesStatement` | wave-reused |
+| M063148 | P1174 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldNonempty` | wave-reused |
+| M063149 | P1198 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldNonemptyStatement` | wave-reused |
+| M063150 | P0710 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldSaturation` | wave-reused |
+| M063151 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldSaturationStatement` | wave-reused |
+| M063152 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldSlRightAction` | wave-reused |
+| M063153 | P0683 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionFractionFieldSlRightActionStatement` | wave-reused |
+| M063154 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionRingOverIsDomain` | wave-reused |
+| M063155 | P0621 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularFunctionRingOverIsDomainStatement` | wave-reused |
+| M063160 | P0188 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularLawOfSAndT` | wave-reused |
 | M063161 | P0251 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularLawOfSAndTStatement` | wave-reused |
 | M063166 | P0305 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularTowerFunctionSlTwoIntInvariant` | wave-reused |
 | M063167 | P0357 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ModularTowerFunctionSlTwoIntInvariantStatement` | wave-reused |
@@ -252,6 +265,7 @@
 | M064434 | P1175 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.IsCombAtIffCoordinateCombinationStatement` | wave-reused |
 | M064437 | P1063 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.IsEigenvectorIffLieBasisCoordinates` | wave-reused |
 | M064438 | P1091 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.IsEigenvectorIffLieBasisCoordinatesStatement` | wave-reused |
+| M064440 | P0027 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.IsIntegralCoeffZeroMulOfAevalInv` | volunteer-build-reviewed |
 | M064449 | P1063 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.LieBasisCoordinatesBijectiveTangent` | wave-reused |
 | M064450 | P1091 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.LieBasisCoordinatesBijectiveTangentStatement` | wave-reused |
 | M064451 | P0789 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.LieCombBaseChange` | wave-reused |
@@ -283,6 +297,7 @@
 | M065112 | P0446 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.JacobiTripleProductLimitStatement` | wave-reused |
 | M065113 | P0484 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.JacobiTripleProductTwoVariableTheta` | wave-reused |
 | M065127 | P1150 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.KitExOfHostWeightObj` | build-observed |
+| M065131 | P0028 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LFunctionEqTsumOfOneLt` | volunteer-build-reviewed |
 | M065213 | P0028 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LogAddRpowMulLogPowLeRpow` | build-observed |
 | M065229 | P1036 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.MPowFiveMulFMulLLe` | build-observed |
 | M065288 | P0252 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.MultipliableTpFactor` | wave-reused |
@@ -387,18 +402,3 @@
 | M066741 | P1037 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfAdicTopologicalBasisOverBreuilKisinStatement` | wave-reused |
 | M066744 | P1037 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfClosedMembershipLimit` | wave-reused |
 | M066745 | P1065 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfClosedMembershipLimitStatement` | wave-reused |
-| M066748 | P0954 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfDivisibilityBreuilKisinFacts` | wave-reused |
-| M066749 | P0981 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfDivisibilityBreuilKisinFactsStatement` | wave-reused |
-| M066754 | P1404 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfExistsMulEqPowSmulOfModLPow` | wave-reused |
-| M066755 | P1427 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfExistsMulEqPowSmulOfModLPowStatement` | wave-reused |
-| M066764 | P0981 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfPrincipalIdealSaturatedClosed` | wave-reused |
-| M066765 | P1009 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfPrincipalIdealSaturatedClosedStatement` | wave-reused |
-| M066766 | P1404 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfRightInverseUpToPowModLPow` | wave-reused |
-| M066767 | P1427 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfRightInverseUpToPowModLPowStatement` | wave-reused |
-| M066768 | P0954 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AinfUnitBoundedTeichmullerFlatDenominators` | wave-reused |
-| M066780 | P0190 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AlgebraMapMemNonZeroDivisorsAdicCompletion` | wave-reused |
-| M066823 | P1404 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ApproximatingLatticesTransitionMatrixModPow` | wave-reused |
-| M066824 | P1427 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ApproximatingLatticesTransitionMatrixModPowStatement` | wave-reused |
-| M066884 | P0981 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BasisOfCongrBasisModNilpotentIdeal` | wave-reused |
-| M066885 | P1009 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BasisOfCongrBasisModNilpotentIdealStatement` | wave-reused |
-| M066891 | P0981 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BcrisOneSubFrobeniusSurjective` | wave-reused |

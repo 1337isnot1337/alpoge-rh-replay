@@ -2,10 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M050690 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecPiCofanIsColimitOfRingEquiv` | wave-reused |
+| M050691 | P0443 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecPiCofanIsColimitOfRingEquivStatement` | wave-reused |
+| M050697 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecTensorPreimmersionStatement` | volunteer-build-reviewed |
+| M050700 | P0443 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecWidePushoutIsLimitWidePullback` | wave-reused |
+| M050701 | P0481 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecWidePushoutIsLimitWidePullbackStatement` | wave-reused |
+| M050703 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecWidePushoutIsoWidePullbackYonedaStatement` | volunteer-build-reviewed |
+| M050741 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecializesLiftClosedFibreStalkBaseChangeStatement` | volunteer-build-reviewed |
+| M050913 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SqMulFinrankMatrixAlgebraHomEqFinrankMul` | volunteer-build-reviewed |
+| M050917 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SqNormSmoothSectionSubGluedLe` | wave-reused |
 | M050918 | P1005 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SqNormSmoothSectionSubGluedLeStatement` | wave-reused |
 | M050920 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SqScalarCharacterOfDoubleCoverUnitaryStatement` | volunteer-build-reviewed |
 | M051005 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SquareZeroDeformationFactorsThroughLinearStatement` | volunteer-build-reviewed |
 | M051026 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StProfileHolds` | volunteer-build-reviewed |
+| M051051 | P0022 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StabilizerEqCentralizer` | volunteer-build-reviewed |
 | M051079 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StabilizerRelIndexNeZeroParabolicStatement` | volunteer-build-reviewed |
 | M051086 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StableComplementOfKernelExistsStatement` | volunteer-build-reviewed |
 | M051131 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StalkMapFlatFormallyEtaleEssFiniteTypeOfEtaleResStatement` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M058436 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassesTotalWeightLe` | wave-reused |
 | M058437 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassesTotalWeightLeStatement` | wave-reused |
 | M058438 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameCoordinatesTransportInnerLattices` | wave-reused |
-| M058439 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameCoordinatesTransportInnerLatticesStatement` | wave-reused |
-| M058440 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramePairAmplitudeMassRepsEqOrbits` | wave-reused |
-| M058441 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramePairAmplitudeMassRepsEqOrbitsStatement` | wave-reused |
-| M058442 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramePairCoordinatesTransportInnerData` | wave-reused |
-| M058445 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramePairTsumRepsEqConstMulOrbits` | wave-reused |
-| M058446 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramePairTsumRepsEqConstMulOrbitsStatement` | wave-reused |
-| M058449 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesComplementUnitaryActsOnTerms` | wave-reused |
-| M058450 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesComplementUnitaryActsOnTermsStatement` | wave-reused |
-| M058451 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesComplementUnitaryNormalisesStabil` | wave-reused |
-| M058452 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramesComplementUnitaryNormalisesStabilStatement` | wave-reused |
