@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDerivationExtendingKernelFormOfLifting",
+  "source_sha256": "9d78222d0f5b448e157e5bdcfd88757be003c1969912c3bd7bf8d4593e6445af",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Update 0-indexed Ring.krullDimLE_zero_and_isLocalRing_tfae.out indices (1 0) to 1-indexed indices (2 1) for Lean 4.36.0 / Mathlib v4.36.0. Statement is unchanged."
+}

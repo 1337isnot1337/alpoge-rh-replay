@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisAdaptedToCartanInvolution",
+  "source_sha256": "4e538c1852c34494ed71dad42027054a73f93b5748ade92fd84f4f5307d1a84b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Disambiguate Matrix.one_apply in simp so block diagonal matrix entries simplify to scalar Kronecker deltas. Theorem statements are unchanged."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEtaleModelOfIsColimit",
+  "source_sha256": "43c3c1ccc0722a2490b9383cf61cb127326829c1d59e8db7f4be26abfc49c363",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Update MvPolynomial.coeff projection to dot notation (($hE).coeff ...), handle Finsupp zero application alongside MvPolynomial.coeff_zero, and drop redundant rfl after rw [hw]. Statement is unchanged."
+}

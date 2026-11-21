@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsBasisModN.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsBasisModN.lean
+@@ -33,7 +33,7 @@ theorem primes_finite {n : O} (hn0 : n ≠ 0) :
+   have hP' : P.IsPrime := hP
+   obtain ⟨hQ, hdisj⟩ :=
+     (IsLocalization.isPrime_iff_isPrime_disjoint (primeToSub n) _ P).mp hP'
+-  refine ⟨P.comap (algebraMap O _), ?_, IsLocalization.map_comap (primeToSub n) _ P⟩
++  refine ⟨P.comap (algebraMap O _), ?_, IsLocalization.map_under (primeToSub n) _ P⟩
+   set Q := P.comap (algebraMap O (Localization (primeToSub n)))
+   by_cases hb : Q = ⊥
+   · exact Or.inl hb

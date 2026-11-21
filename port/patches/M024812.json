@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDominatingDvrContainingFinset",
+  "source_sha256": "5320d138c8370078556d4e86aebd67e096bbd71d9812b9a1198a2e7104d81e6f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Unfold Ideal.under_def before rewriting with Ideal.comap_bot_of_injective. Statement is unchanged."
+}
