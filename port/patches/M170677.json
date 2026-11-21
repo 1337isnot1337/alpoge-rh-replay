@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.TateCohomology.CupCochains",
+  "source_sha256": "6912d3bcaf988805e84201e2fc1b46de9b49324df578ac853c2b5e9e92983189",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0087-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Lemmata.GeneralBFactMore.Imports",
+  "source_sha256": "1a0811873c6367f93656f6f2be654590462b8dead86c7dc3928a9b65216306cf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent coefficient API adaptation in goal1: the pinned Polynomial.coeff p n returns the coefficient of X^n from the polynomial coefficient representation. Polynomial is now an abbreviation for AddMonoidAlgebra R Nat, and p.coeff n accesses that same coefficient. All product polynomials, powers and coefficient indices in the statement are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0087-lean436-20261121/packet-result.json"
+}

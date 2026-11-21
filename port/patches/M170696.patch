@@ -1,0 +1,18 @@
+--- a/src/GroundTheory/TateCohomology/ModuleHomologyData.lean
++++ b/src/GroundTheory/TateCohomology/ModuleHomologyData.lean
+@@ -140,7 +140,6 @@
+   have h1 : (HomologicalComplex.homologyFunctorIso' _ c i j k hi hk).hom.app C =
+       ShortComplex.homologyMap e := by
+     simp [HomologicalComplex.homologyFunctorIso', e]
+-    exact Category.id_comp _
+   have h2 : (ShortComplex.homologyMap e).hom ((C.sc j).homologyπ.hom z) =
+       (C.sc' i j k).homologyπ.hom ((ShortComplex.cyclesMap e).hom z) :=
+     congr(($(ShortComplex.homologyπ_naturality e)).hom z)
+@@ -174,7 +173,6 @@
+   refine h3.trans ?_
+   rw [h4]
+   simp [e]
+-  rfl
+ 
+ end Complexes
+ 

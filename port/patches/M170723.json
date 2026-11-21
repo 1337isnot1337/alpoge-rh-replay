@@ -1,0 +1,8 @@
+{
+  "module": "Lemmata.B110.ExistsMoved",
+  "source_sha256": "7c288e82cc4a153fdf54a701188549d6b6c49aa447d2e8a2cbeedb7480415215",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0087-lean436-20261121/packet-result.json"
+}

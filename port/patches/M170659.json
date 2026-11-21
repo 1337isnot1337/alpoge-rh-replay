@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ProfiniteCohomology.RestrictedRamification.ValuationTransport",
+  "source_sha256": "b817fd34e00539452d2cb3654071522be53c447183f718eeb925b34a340290e7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: adapt renamed and generalized Mathlib lemmas without changing the original hypotheses or conclusions. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0087-lean436-20261121/packet-result.json"
+}

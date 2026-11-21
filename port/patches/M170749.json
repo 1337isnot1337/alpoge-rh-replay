@@ -1,0 +1,8 @@
+{
+  "module": "Lemmata.FirstBlockLemmaL.Imports",
+  "source_sha256": "ea42ad8227310833160848243ce9c4215b262349bead7ee729ab5082899a63db",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: bridge the unchanged padicValNat statement to multiplicity with Nat.padicValNat_def before the induction and product valuation lemma. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0087-lean436-20261121/packet-result.json"
+}

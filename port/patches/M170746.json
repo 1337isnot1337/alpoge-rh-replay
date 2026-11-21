@@ -1,0 +1,8 @@
+{
+  "module": "Lemmata.FirstBlockLemmaI.Imports",
+  "source_sha256": "9e253df554896e5b4e6b14b8a59d17810addb860af7f3ab35f441b2ed188a4c3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0087-lean436-20261121/packet-result.json"
+}
