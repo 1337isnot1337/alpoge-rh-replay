@@ -1,0 +1,21 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TwistedNormFixedDecomposition.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TwistedNormFixedDecomposition.lean
+@@ -7,8 +7,7 @@
+ 
+ theorem commensurable_comap {f : H →* H} (hf : Function.Surjective f) {A B : Subgroup H}
+     (h : A.Commensurable B) : (A.comap f).Commensurable (B.comap f) :=
+-  ⟨by rw [Subgroup.relIndex_comap, Subgroup.map_comap_eq_self_of_surjective hf]; exact h.1,
+-   by rw [Subgroup.relIndex_comap, Subgroup.map_comap_eq_self_of_surjective hf]; exact h.2⟩
++  h.comap f
+ 
+ theorem finite_cover {A B : Subgroup H} (h : A.relIndex B ≠ 0) :
+     ∃ R : Finset H, (∀ f ∈ R, f ∈ B) ∧ ∀ b ∈ B, ∃ f ∈ R, ∃ a ∈ A, b = f * a := by
+@@ -102,7 +101,7 @@
+       exact one_ne_zero
+     · apply Subgroup.relIndex_iInf_ne_zero
+       intro i
+-      exact Subgroup.relIndex_ne_zero_trans ((hW i).trans (hcomm g).symm).1
++      exact Subgroup.relIndex_ne_zero_trans (Subgroup.isFiniteRelIndex_iff_relIndex_ne_zero.mp ((hW i).trans (hcomm g).symm).1)
+         (by rw [Subgroup.relIndex_eq_one.mpr inf_le_right]; exact one_ne_zero)
+   have hUK : U ≤ K₀ := by
+     intro u hu

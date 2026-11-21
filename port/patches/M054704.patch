@@ -1,0 +1,12 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnfoldIntegralFundamentalDomain.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnfoldIntegralFundamentalDomain.lean
+@@ -83,7 +83,8 @@
+     simp only [hlchange]
+     calc ∑' q : O, ∫⁻ x in 𝓕, ‖f x * T q x‖ₑ ∂μ
+         ≤ ∑' q : Q, ∫⁻ x in 𝓕, ‖f x * T q x‖ₑ ∂μ :=
+-          ENNReal.tsum_comp_le_tsum_of_injective Subtype.val_injective _
++          ENNReal.tsum_comp_le_tsum_of_injective (f := fun q : O => (q : Q)) Subtype.val_injective
++            (fun q : Q => ∫⁻ x in 𝓕, ‖f x * T q x‖ₑ ∂μ)
+       _ = ∫⁻ x in 𝓕, ‖f x‖ₑ * ∑' q, ‖T q x‖ₑ ∂μ := tsum_setLIntegral_enorm_mul μ 𝓕 T f hTm hfm
+       _ < ⊤ := hfin.lt_top
+   have hDfd : IsFundamentalDomain S D μ := by

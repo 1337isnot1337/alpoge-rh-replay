@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnipotentMatrixCoefficientsMem.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnipotentMatrixCoefficientsMem.lean
+@@ -126,7 +126,7 @@
+       have hcv : Continuous fun s => ρ s *ᵥ v :=
+         continuous_pi fun k => by
+           simp only [Matrix.mulVec, dotProduct]
+-          exact continuous_finset_sum _ fun l _ => (hρc k l).mul continuous_const
++          exact continuous_finsetSum _ fun l _ => (hρc k l).mul continuous_const
+       simp only [hT]
+       exact (LinearMap.continuous_of_finiteDimensional φ).comp hcv)
+     (LinearMap.proj i) (Pi.single j 1)
