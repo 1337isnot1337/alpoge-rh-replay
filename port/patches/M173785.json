@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.WickVanishing.CalcExp",
+  "source_sha256": "94f69f8253d3d287a4d60789a17467e012a1cf7f7a09d6a8a0ad16dc602bb684",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "PowerSeries.derivative now takes the coefficient ring implicitly, so the private helper statements pass it by name as (R := k); the terms are the same. Mathlib renamed the old IsAddTorsionFree class (injective n • ·) to HasUniqueDiv with the same field and gave IsAddTorsionFree a weaker meaning, so the private helper isAddTorsionFree_coeff_ring now states HasUniqueDiv k, the same proposition as before, which PowerSeries.derivative.ext now requires. Its proof is unchanged.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0092-issue-25404/P0092-receipt.json"
+}
