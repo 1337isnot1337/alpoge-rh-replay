@@ -1,0 +1,20 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/RiemannFormHermitianLattice.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/RiemannFormHermitianLattice.lean
+@@ -54,7 +54,7 @@
+   have hent : ∀ a c, ((Qᵀ * Bs * Q).submatrix e e) a c = q a ⬝ᵥ Bs *ᵥ q c := by
+     intro a c
+     rw [Matrix.mul_assoc]
+-    simp only [submatrix_apply, mul_apply, transpose_apply, q, dotProduct, mulVec]
++    simp only [submatrix_apply, Matrix.mul_apply, transpose_apply, q, dotProduct, mulVec]
+   have hnsum : n = ∑ a, w (e a) • (fun i => (q a i : ℝ)) := by
+     rw [← hw]
+     funext i
+@@ -210,7 +210,7 @@
+     ext i j
+     have h := congrArg Complex.re (congrFun (hker _ (horth j)) i)
+     rw [hGre] at h
+-    simpa [mulVec, dotProduct, mul_apply, hBrdef] using h
++    simpa [mulVec, dotProduct, Matrix.mul_apply, hBrdef] using h
+   have hmul' : Br * S = 0 := by
+     have h := congrArg transpose hmul
+     rwa [transpose_mul, hS, hBr, transpose_zero] at h
