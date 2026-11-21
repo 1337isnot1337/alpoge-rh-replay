@@ -57,6 +57,22 @@ def claim_snapshot(repo):
     return issues, histories
 
 
+def write_claim_snapshot(repo, path):
+    issues, histories = claim_snapshot(repo)
+    claims = [(issue, histories.get(issue['number'], [])) for issue in issues]
+    with path.open('x') as stream:
+        json.dump({'repository': repo, 'claims': claims}, stream, separators=(',', ':'))
+
+
+def read_claim_snapshot(repo, path):
+    with path.open() as stream:
+        data = json.load(stream)
+    if data['repository'] != repo:
+        raise ValueError('Claim snapshot belongs to a different repository')
+    claims = data['claims']
+    return [issue for issue, _ in claims], {issue['number']: comments for issue, comments in claims}
+
+
 def volunteer_updates(repo, issue_authors, snapshot=None):
     issues, histories = claim_snapshot(repo) if snapshot is None else snapshot
     reviewed = set()
@@ -98,9 +114,10 @@ def volunteer_updates(repo, issue_authors, snapshot=None):
                 yield number, login, target, None
 
 
-def main(update_activity=False):
+def main(update_activity=False, *, snapshot=None):
     repo = os.environ['GITHUB_REPOSITORY']
-    snapshot = claim_snapshot(repo)
+    if snapshot is None:
+        snapshot = claim_snapshot(repo)
     issue_authors = {}
     claimed = ['| Contributor | Task | Status |', '|---|---|---|']
     pending = ['| Contributor | Task | Review |', '|---|---|---|']
@@ -130,7 +147,19 @@ if __name__ == '__main__':
     parser.add_argument('--issue-authors', type=Path, help='Write claim issue authors to this JSON file')
     parser.add_argument('--update-activity', action='store_true',
                         help='Refresh the chart and roster using the same claim snapshot')
+    snapshots = parser.add_mutually_exclusive_group()
+    snapshots.add_argument('--write-claim-snapshot', type=Path, metavar='FILE',
+                           help='Fetch the claim issues and comments into a new file and exit')
+    snapshots.add_argument('--read-claim-snapshot', type=Path, metavar='FILE',
+                           help='Render using claim issues and comments from this file')
     args = parser.parse_args()
-    issue_authors = main(args.update_activity)
+    repo = os.environ['GITHUB_REPOSITORY']
+    if args.write_claim_snapshot:
+        if args.update_activity or args.issue_authors:
+            parser.error('--write-claim-snapshot only collects issues and comments')
+        write_claim_snapshot(repo, args.write_claim_snapshot)
+        sys.exit(0)
+    snapshot = read_claim_snapshot(repo, args.read_claim_snapshot) if args.read_claim_snapshot else None
+    issue_authors = main(args.update_activity, snapshot=snapshot)
     if args.issue_authors:
         args.issue_authors.write_text(json.dumps(issue_authors))
