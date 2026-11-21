@@ -35,18 +35,18 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- active-volunteers-start -->
 
-[1,171 entries. View the full table](tracker/volunteer-tables/active/README.md).
+[1,126 entries. View the full table](tracker/volunteer-tables/active/README.md).
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M168937](https://github.com/rohanarun/alpoge-rh-replay/issues/9935) | Claimed |
-| [@walkingsophie](https://github.com/walkingsophie) | [M120708](https://github.com/rohanarun/alpoge-rh-replay/issues/9936) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M069455](https://github.com/rohanarun/alpoge-rh-replay/issues/9937) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M138852](https://github.com/rohanarun/alpoge-rh-replay/issues/9940) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M099837](https://github.com/rohanarun/alpoge-rh-replay/issues/9941) | Claimed |
-| [@walkingsophie](https://github.com/walkingsophie) | [M131867](https://github.com/rohanarun/alpoge-rh-replay/issues/9947) | Claimed |
+| [@WorldianAI](https://github.com/WorldianAI) | [M144623](https://github.com/rohanarun/alpoge-rh-replay/issues/9872) | Claimed |
+| [@TOTOGT](https://github.com/TOTOGT) | [M162559](https://github.com/rohanarun/alpoge-rh-replay/issues/9874) | Claimed |
+| [@TOTOGT](https://github.com/TOTOGT) | [M175177](https://github.com/rohanarun/alpoge-rh-replay/issues/9881) | Claimed |
+| [@TOTOGT](https://github.com/TOTOGT) | [M175180](https://github.com/rohanarun/alpoge-rh-replay/issues/9884) | Claimed |
+| [@emsi](https://github.com/emsi) | [P1881](https://github.com/rohanarun/alpoge-rh-replay/issues/9899) | Claimed |
+| [@WorldianAI](https://github.com/WorldianAI) | [M158380](https://github.com/rohanarun/alpoge-rh-replay/issues/9927) | Claimed |
+| [@surfyhou](https://github.com/surfyhou) | [P1940](https://github.com/rohanarun/alpoge-rh-replay/issues/9930) | Claimed |
 | [@WorldianAI](https://github.com/WorldianAI) | [M161646](https://github.com/rohanarun/alpoge-rh-replay/issues/9955) | Claimed |
-| [@walkingsophie](https://github.com/walkingsophie) | [M101487](https://github.com/rohanarun/alpoge-rh-replay/issues/9964) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M052425](https://github.com/rohanarun/alpoge-rh-replay/issues/9977) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M129539](https://github.com/rohanarun/alpoge-rh-replay/issues/9979) | Claimed |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M121172](https://github.com/rohanarun/alpoge-rh-replay/issues/9980) | Claimed |
@@ -69,7 +69,7 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- pending-volunteers-start -->
 
-[2,155 entries. View the full table](tracker/volunteer-tables/pending/README.md).
+[2,199 entries. View the full table](tracker/volunteer-tables/pending/README.md).
 
 | Contributor | Task | Review |
 |---|---|---|

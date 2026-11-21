@@ -76,6 +76,7 @@
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M103489](https://github.com/rohanarun/alpoge-rh-replay/issues/9243#issuecomment-7055091563) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M103494](https://github.com/rohanarun/alpoge-rh-replay/issues/9244#issuecomment-7055108248) | Pending review |
 | [@BenCaunt](https://github.com/BenCaunt) | [M005368](https://github.com/rohanarun/alpoge-rh-replay/issues/9245#issuecomment-7055273718) | Pending review |
+| [@hipotures](https://github.com/hipotures) | [P1772](https://github.com/rohanarun/alpoge-rh-replay/issues/9246#issuecomment-7055343038) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M007395](https://github.com/rohanarun/alpoge-rh-replay/issues/9247#issuecomment-7054990140) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M055256](https://github.com/rohanarun/alpoge-rh-replay/issues/9248#issuecomment-7054991359) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M103498](https://github.com/rohanarun/alpoge-rh-replay/issues/9249#issuecomment-7055107461) | Pending review |
@@ -253,4 +254,3 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M061671](https://github.com/rohanarun/alpoge-rh-replay/issues/9439#issuecomment-7055289695) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M121174](https://github.com/rohanarun/alpoge-rh-replay/issues/9440#issuecomment-7055121394) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M045250](https://github.com/rohanarun/alpoge-rh-replay/issues/9443#issuecomment-7055121861) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M120855](https://github.com/rohanarun/alpoge-rh-replay/issues/9445#issuecomment-7055122448) | Pending review |
