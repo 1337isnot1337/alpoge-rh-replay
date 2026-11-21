@@ -4,8 +4,6 @@
 
 | Contributor | Task | Review |
 |---|---|---|
-| [@ANdATIon](https://github.com/ANdATIon) | [M101498](https://github.com/rohanarun/alpoge-rh-replay/issues/10825#issuecomment-7055835393) | Pending review |
-| [@ANdATIon](https://github.com/ANdATIon) | [M120657](https://github.com/rohanarun/alpoge-rh-replay/issues/10826#issuecomment-7055838279) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M127368](https://github.com/rohanarun/alpoge-rh-replay/issues/10827#issuecomment-7055835933) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M075979](https://github.com/rohanarun/alpoge-rh-replay/issues/10828#issuecomment-7055844656) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M171121](https://github.com/rohanarun/alpoge-rh-replay/issues/10829#issuecomment-7055844745) | Pending review |
@@ -209,7 +207,6 @@
 | [@ANdATIon](https://github.com/ANdATIon) | [M171126](https://github.com/rohanarun/alpoge-rh-replay/issues/11671#issuecomment-7056422999) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M160506](https://github.com/rohanarun/alpoge-rh-replay/issues/11672#issuecomment-7056425106) | Pending review |
 | [@WorldianAI](https://github.com/WorldianAI) | [M153967](https://github.com/rohanarun/alpoge-rh-replay/issues/11689#issuecomment-7056647099) | Pending review |
-| [@loremcdmx](https://github.com/loremcdmx) | [M079477](https://github.com/rohanarun/alpoge-rh-replay/issues/11699#issuecomment-7056483372) | Pending review |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M173742](https://github.com/rohanarun/alpoge-rh-replay/issues/11720#issuecomment-7056461480) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M120145](https://github.com/rohanarun/alpoge-rh-replay/issues/11730#issuecomment-7058748622) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M167348](https://github.com/rohanarun/alpoge-rh-replay/issues/11776#issuecomment-7056738333) | Pending review |
@@ -254,3 +251,6 @@
 | [@ANdATIon](https://github.com/ANdATIon) | [M161224](https://github.com/rohanarun/alpoge-rh-replay/issues/11857#issuecomment-7056770594) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M124315](https://github.com/rohanarun/alpoge-rh-replay/issues/11858#issuecomment-7056770387) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M161223](https://github.com/rohanarun/alpoge-rh-replay/issues/11862#issuecomment-7056771551) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M126459](https://github.com/rohanarun/alpoge-rh-replay/issues/11865#issuecomment-7056778402) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M031871](https://github.com/rohanarun/alpoge-rh-replay/issues/11866#issuecomment-7056777225) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M119840](https://github.com/rohanarun/alpoge-rh-replay/issues/11867#issuecomment-7056772774) | Pending review |
