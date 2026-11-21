@@ -74,7 +74,6 @@
 | [@loremcdmx](https://github.com/loremcdmx) | [M009911](https://github.com/rohanarun/alpoge-rh-replay/issues/11623) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [M026262](https://github.com/rohanarun/alpoge-rh-replay/issues/11625) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [P1995](https://github.com/rohanarun/alpoge-rh-replay/issues/11637) | Claimed |
-| [@surfyhou](https://github.com/surfyhou) | [P2018](https://github.com/rohanarun/alpoge-rh-replay/issues/11656) | Claimed |
 | [@WorldianAI](https://github.com/WorldianAI) | [M153967](https://github.com/rohanarun/alpoge-rh-replay/issues/11689) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M005529](https://github.com/rohanarun/alpoge-rh-replay/issues/11691) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M011332](https://github.com/rohanarun/alpoge-rh-replay/issues/11694) | Claimed |
@@ -84,7 +83,6 @@
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M062891](https://github.com/rohanarun/alpoge-rh-replay/issues/11705) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M067195](https://github.com/rohanarun/alpoge-rh-replay/issues/11706) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M069328](https://github.com/rohanarun/alpoge-rh-replay/issues/11707) | Claimed |
-| [@TomMoeras](https://github.com/TomMoeras) | [P1958](https://github.com/rohanarun/alpoge-rh-replay/issues/11710) | Claimed |
 | [@TomMoeras](https://github.com/TomMoeras) | [P1967](https://github.com/rohanarun/alpoge-rh-replay/issues/11711) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M072910](https://github.com/rohanarun/alpoge-rh-replay/issues/11712) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M110128](https://github.com/rohanarun/alpoge-rh-replay/issues/11714) | Claimed |
