@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SummableLatticeWeightThree",
+  "source_sha256": "5e3f1057522cbfecd930407801d01080d7150c3dced89f92b78a6a48afe3c9dc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

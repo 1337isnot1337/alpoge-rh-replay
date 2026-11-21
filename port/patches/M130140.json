@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.EigenProjectorFieldEmbedding",
+  "source_sha256": "62d0a38880b16b4b68f5b64a8962fb6abd94b26bfbfd5f2ba9e518ed6b58ad14",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

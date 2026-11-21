@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.AdjoinInverseIsLocalizationAway",
+  "source_sha256": "7415e455eb49bcd50790ec510b7363c25315bf719f584ed62b732447fb9c18a3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

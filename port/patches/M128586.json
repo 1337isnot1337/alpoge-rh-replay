@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnitaryFramesPreserveNormSqSum",
+  "source_sha256": "2bffdb0958f26fe5b56071c7da40de5e6681eb1b140fe31aed56722e6b24cef9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

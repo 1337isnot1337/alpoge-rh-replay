@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WirtingerCombinationNeZero",
+  "source_sha256": "ea0892ed80e4c054802b8e24f2e7469fd1cd8ca5ef04f8ca289bc5ea1b846714",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

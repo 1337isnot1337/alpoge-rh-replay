@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueValuationRingLift",
+  "source_sha256": "4317513e2d9177583149df9a3ec14ea6151075b755c53018e33dae6d52c054cc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

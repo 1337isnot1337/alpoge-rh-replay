@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUnitWedge",
+  "source_sha256": "28560cd08ab7a65e86038e583dcdbf6d0ed0bf6ad89b31ea78e4385f379ee765",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

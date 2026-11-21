@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsHomAdjoinInv",
+  "source_sha256": "fcba9ae6ed15780f08d30788fd267ae5c3987f2cb94deac6dce6fc2c0d0e6079",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

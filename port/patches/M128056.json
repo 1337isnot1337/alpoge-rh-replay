@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TensorPrimeLocalizationCriterion",
+  "source_sha256": "c344106af254cee94206ba155b78beb3732afb1bf01ffc52dd820d3bc294f0fd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

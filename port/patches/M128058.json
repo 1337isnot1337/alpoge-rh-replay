@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TensorPrimeOverIdealCompletion",
+  "source_sha256": "0ff13ccbb339a228348053abb49a624828b3803d0a4a65a243daa72df17775f1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

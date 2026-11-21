@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsElementSamePrimeCount",
+  "source_sha256": "6a7262259345c51cceb25efaaca743af389eff2aa6d8b8efdf0673c21a2c9e9c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

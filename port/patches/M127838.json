@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.StrictAntiOfTwoExceptions",
+  "source_sha256": "bb31eabeedbb54d450d7ee7c50c40d40299b38cfe15170e0ff2698273da2193f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

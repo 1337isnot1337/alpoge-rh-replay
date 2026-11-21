@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SplitHomeoApply",
+  "source_sha256": "b19e934d36c85bef695f49f79bcd2ed47dc3f1b6b555186ca7ffa0271b437d14",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

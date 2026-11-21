@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SemistableModelRingIsDomain",
+  "source_sha256": "abd0095afd675c027250b4b3d9a90de24aee70f051e7456f544afbb924f0b667",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

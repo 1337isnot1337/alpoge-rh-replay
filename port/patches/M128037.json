@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TensorEquivBaseChangeTensor",
+  "source_sha256": "6c729ec8193f3cd3e22f42f6a955d8982bc8d78a4ff2d623c1f81a43ced3b93d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

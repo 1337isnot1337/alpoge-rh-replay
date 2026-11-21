@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SumPerfectApply",
+  "source_sha256": "9a0a0c5d56c5b19eb91eeabc9b7895aadd4dd101029f9cf13312792851d71eb9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

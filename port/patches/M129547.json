@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.AlgIndepOfSameAdjoin",
+  "source_sha256": "57719109cef73200ce0b00b242aa84aa0ad6a1b7be414a4563a61b828158c046",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use typed polynomial coefficient field notation; theorem statements unchanged."
+}

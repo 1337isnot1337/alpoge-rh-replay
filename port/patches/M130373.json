@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsValuationSubringExtension",
+  "source_sha256": "5bf68ca110ae9f6c69ec583336bf398eadd602599f7cfb74daa71adc182ce7e5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

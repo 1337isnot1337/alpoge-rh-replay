@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RetractBaseChangeKernelCompatible",
+  "source_sha256": "be1486d724f4fe663809705a1d693acf98fafdf55c4424c37fc931cd2366d38c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

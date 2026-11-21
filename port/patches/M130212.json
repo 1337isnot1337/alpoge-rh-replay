@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsDualElements",
+  "source_sha256": "c0d1561237a32c5a4f5997cb8bfe10d559df2a6182ae0f8ba15efc2c33e87720",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

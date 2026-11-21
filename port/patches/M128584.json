@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnitaryExtensionOfBlock",
+  "source_sha256": "52c533ff790c0922798694a5f965a989ce570e6d9cc4a339051c56607e9d2712",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
