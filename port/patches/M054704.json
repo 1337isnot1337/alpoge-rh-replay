@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnfoldIntegralFundamentalDomain",
+  "source_sha256": "632693b7e7269e379f6b3bb7a900ba11b6324da7c564ec85ad94b7fe670d9add",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specify the subtype injection and the summand explicitly for the ENNReal tsum comparison. No declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0023-lean436-20261121/packet-result.json"
+}

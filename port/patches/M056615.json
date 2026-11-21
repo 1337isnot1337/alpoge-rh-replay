@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ZetaTermTsumLeTwo",
+  "source_sha256": "323003a035ff2e7a8db57eef78b4df122a7984effd33f71c6b1424e7cc1680e1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use prod_le_prod\u2080 with the existing nonnegativity hypothesis. No declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0023-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedNormFixedDecomposition",
+  "source_sha256": "d1736bd217d101c68e973fb5b999730c7f5943dc810125994b1596ea9282c5ec",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Commensurable.comap and explicitly convert IsFiniteRelIndex to the equivalent nonzero relative-index condition. The theorem statement retains its original hypotheses. No declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0023-lean436-20261121/packet-result.json"
+}

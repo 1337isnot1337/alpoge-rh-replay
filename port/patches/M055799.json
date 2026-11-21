@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.VanishingOfProjectionSupport",
+  "source_sha256": "1a276162c58610f05fe9de0ed73ffbaf2efe9ad7fb9f8ea244cb2895f7cdb87e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed lintegral_finsetSum lemma. No declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0023-lean436-20261121/packet-result.json"
+}

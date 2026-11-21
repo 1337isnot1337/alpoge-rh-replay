@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ValuationLeExpNegCardInertiaOfInertiaFixed",
+  "source_sha256": "bfa6c65e76b7c07a267e189f91f9aab79cab583985cf9ad2536af375c4cee7b3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove the obsolete ramificationIdx conversion: valuation_liesOver already uses ramificationIdx. No declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0023-lean436-20261121/packet-result.json"
+}
