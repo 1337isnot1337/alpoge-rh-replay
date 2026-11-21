@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.LinearIndependentAdjoinOfTranscendental",
+  "source_sha256": "330a6d83514884e1f304e2ec3b9543e22e01cebaf9f482d6eff6f99f4c7ad5d8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specify the field and extension in Module.finrank_of_not_finite and supply Module.Free.of_divisionRing explicitly to avoid instance-search timeout; theorem statements unchanged."
+}
