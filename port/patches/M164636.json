@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInvarianceOfDomain",
+  "source_sha256": "f51c205c0d6b7b24ee84891ff194d191f06ae646407588884e3b01ebf3198b73",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

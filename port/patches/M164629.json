@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIdealHeightSpread",
+  "source_sha256": "3d2f17d86ebd7db2b5779665392fe46631a0709a1df14242225a2e42aaf8c578",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.GradientAtPoint",
+  "source_sha256": "ae8cec1b6ccff92646506bddd5e8e6cc90161a2f412328f2d0f2c4e8d20b8a0f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

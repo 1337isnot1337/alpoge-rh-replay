@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StImplicitCurve",
+  "source_sha256": "34167aba7aed3ebf7cd91bf4a66c6c4c1a7df21cad48379c166bf61ef18b7fcc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,20 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PChangeOfVariablesDegreePiola.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PChangeOfVariablesDegreePiola.lean
+@@ -126,7 +126,7 @@
+     ∑ j, fderiv ℝ (cofactorFn H i j) x (Pi.single j 1) = 0 := by
+   set D2 := fderiv ℝ (fderiv ℝ H) x with hD2
+   have hsym : ∀ v w, D2 v w = D2 w v :=
+-    (hH.contDiffAt (x := x)).isSymmSndFDerivAt (by simp; exact ENat.LEInfty.out)
++    (hH.contDiffAt (x := x)).isSymmSndFDerivAt (by simp)
+   simp_rw [(hasFDerivAt_cofactorFn H hH i _ x).fderiv, ContinuousLinearMap.comp_apply,
+     ContinuousMultilinearMap.linearDeriv_apply]
+   rw [Finset.sum_comm]
+@@ -154,7 +154,7 @@
+ theorem integral_det_fderiv_eq_zero (H : (Fin n → ℝ) → Fin n → ℝ) (hH : ContDiff ℝ ∞ H)
+     (i : Fin n) (hi : HasCompactSupport fun x => H x i) : ∫ x, (fderiv ℝ H x).det = 0 := by
+   set h : (Fin n → ℝ) → ℝ := fun x => H x i with hh
+-  have hhs : ContDiff ℝ ∞ h := (contDiff_apply ℝ ℝ i).comp hH
++  have hhs : ContDiff ℝ ∞ h := (contDiff_apply ℝ _ i).comp hH
+   have hJ : ∀ x j, jacobian H x i j = fderiv ℝ h x (Pi.single j 1) := fun x j =>
+     jacobian_eq_fderiv_apply H x ((hH.differentiable (by simp)) x) i j
+   have hexp : ∀ x, (fderiv ℝ H x).det =

@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.GoodPointChartLemmas",
+  "source_sha256": "93db1f80d8604dc1c6b69a1f725b493e9b20925765d4eb7981474bf03f139730",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
