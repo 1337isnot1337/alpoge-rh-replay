@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LatticeCountIntegrableBound.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/LatticeCountIntegrableBound.lean
+@@ -21,7 +21,7 @@
+   have h2 : ∀ m : ℕ, ∫⁻ g, ∑ x ∈ T (m + 1), ((m + 1 : ℕ) : ℝ≥0∞) ^ (-t) * φ (x⁻¹ * g) ∂μ ≤
+       ENNReal.ofReal (((m + 1 : ℕ) : ℝ) ^ ((c : ℝ) - t)) * ∫⁻ g, φ g ∂μ := by
+     intro m
+-    rw [lintegral_finset_sum _ (fun x _ => hmeas _ x)]
++    rw [lintegral_finsetSum _ (fun x _ => hmeas _ x)]
+     have : ∀ x ∈ T (m + 1), ∫⁻ g, ((m + 1 : ℕ) : ℝ≥0∞) ^ (-t) * φ (x⁻¹ * g) ∂μ =
+         ((m + 1 : ℕ) : ℝ≥0∞) ^ (-t) * ∫⁻ g, φ g ∂μ := by
+       intro x _

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.KerCounitAlgHomBaseChangeField",
+  "source_sha256": "cecbcad53a843ce9a85b19e17028ca5b8d8eb7626068ba30d86a74851953818f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove the zero branch, which is no longer an alternative of the tensor-product induction principle selected here. The remaining induction branches prove the same equality; statements are unchanged."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeCountIntegrableBound",
+  "source_sha256": "580250e40b620fde97fad091adab9d6bdb4da7a81743837b8e02b9f2c26af129",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename lintegral_finset_sum to lintegral_finsetSum. Statements are unchanged."
+}
