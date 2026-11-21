@@ -4,6 +4,9 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@t-choudhury](https://github.com/t-choudhury) | [M120902](https://github.com/rohanarun/alpoge-rh-replay/issues/11760#issuecomment-7056488384) | Pending review |
+| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M139845](https://github.com/rohanarun/alpoge-rh-replay/issues/11761#issuecomment-7056453216) | Pending review |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M021588](https://github.com/rohanarun/alpoge-rh-replay/issues/11762#issuecomment-7056561691) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M128239](https://github.com/rohanarun/alpoge-rh-replay/issues/11763#issuecomment-7056457316) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M047336](https://github.com/rohanarun/alpoge-rh-replay/issues/11764#issuecomment-7056744129) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M017441](https://github.com/rohanarun/alpoge-rh-replay/issues/11765#issuecomment-7056562126) | Pending review |
@@ -251,6 +254,3 @@
 | [@t-choudhury](https://github.com/t-choudhury) | [M132466](https://github.com/rohanarun/alpoge-rh-replay/issues/12035#issuecomment-7056816832) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M003426](https://github.com/rohanarun/alpoge-rh-replay/issues/12036#issuecomment-7056829193) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M071678](https://github.com/rohanarun/alpoge-rh-replay/issues/12037#issuecomment-7056830100) | Pending review |
-| [@loremcdmx](https://github.com/loremcdmx) | [M008429](https://github.com/rohanarun/alpoge-rh-replay/issues/12038#issuecomment-7056831072) | Pending review |
-| [@loremcdmx](https://github.com/loremcdmx) | [M010778](https://github.com/rohanarun/alpoge-rh-replay/issues/12039#issuecomment-7056832019) | Pending review |
-| [@TomMoeras](https://github.com/TomMoeras) | [P2073](https://github.com/rohanarun/alpoge-rh-replay/issues/12041#issuecomment-7056918267) | Pending review |

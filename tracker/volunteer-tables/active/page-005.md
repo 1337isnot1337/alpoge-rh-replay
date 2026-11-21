@@ -9,7 +9,6 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M111978](https://github.com/rohanarun/alpoge-rh-replay/issues/10546) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M155721](https://github.com/rohanarun/alpoge-rh-replay/issues/10574) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111981](https://github.com/rohanarun/alpoge-rh-replay/issues/10576) | Claimed |
-| [@SeriousRising](https://github.com/SeriousRising) | [P1857](https://github.com/rohanarun/alpoge-rh-replay/issues/10824) | Claimed |
 | [@HaqtanEfe](https://github.com/HaqtanEfe) | [M000523](https://github.com/rohanarun/alpoge-rh-replay/issues/10925) | Claimed |
 | [@HaqtanEfe](https://github.com/HaqtanEfe) | [M000560](https://github.com/rohanarun/alpoge-rh-replay/issues/10928) | Claimed |
 | [@HaqtanEfe](https://github.com/HaqtanEfe) | [M000804](https://github.com/rohanarun/alpoge-rh-replay/issues/10930) | Claimed |
@@ -37,8 +36,6 @@
 | [@rayy3535](https://github.com/rayy3535) | [P2222](https://github.com/rohanarun/alpoge-rh-replay/issues/11421) | Claimed |
 | [@UnityChaos](https://github.com/UnityChaos) | [P2366](https://github.com/rohanarun/alpoge-rh-replay/issues/11473) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2121](https://github.com/rohanarun/alpoge-rh-replay/issues/11475) | Claimed |
-| [@emsi](https://github.com/emsi) | [P2128](https://github.com/rohanarun/alpoge-rh-replay/issues/11476) | Claimed |
-| [@emsi](https://github.com/emsi) | [P1946](https://github.com/rohanarun/alpoge-rh-replay/issues/11544) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [M101067](https://github.com/rohanarun/alpoge-rh-replay/issues/11579) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [M004396](https://github.com/rohanarun/alpoge-rh-replay/issues/11610) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [M004491](https://github.com/rohanarun/alpoge-rh-replay/issues/11611) | Claimed |
@@ -72,3 +69,17 @@
 | [@CubeJerry](https://github.com/CubeJerry) | [M069255](https://github.com/rohanarun/alpoge-rh-replay/issues/12401) | Claimed |
 | [@CubeJerry](https://github.com/CubeJerry) | [M069414](https://github.com/rohanarun/alpoge-rh-replay/issues/12402) | Claimed |
 | [@TomMoeras](https://github.com/TomMoeras) | [P2034](https://github.com/rohanarun/alpoge-rh-replay/issues/12403) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M104670](https://github.com/rohanarun/alpoge-rh-replay/issues/12430) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M104575](https://github.com/rohanarun/alpoge-rh-replay/issues/12432) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M128038](https://github.com/rohanarun/alpoge-rh-replay/issues/12436) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M115719](https://github.com/rohanarun/alpoge-rh-replay/issues/12437) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M156270](https://github.com/rohanarun/alpoge-rh-replay/issues/12449) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M081160](https://github.com/rohanarun/alpoge-rh-replay/issues/12451) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M062763](https://github.com/rohanarun/alpoge-rh-replay/issues/12468) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M068426](https://github.com/rohanarun/alpoge-rh-replay/issues/12471) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M128267](https://github.com/rohanarun/alpoge-rh-replay/issues/12473) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M145780](https://github.com/rohanarun/alpoge-rh-replay/issues/12474) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M128587](https://github.com/rohanarun/alpoge-rh-replay/issues/12475) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M004213](https://github.com/rohanarun/alpoge-rh-replay/issues/12476) | Claimed |
+| [@hipotures](https://github.com/hipotures) | [P1984](https://github.com/rohanarun/alpoge-rh-replay/issues/12482) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M081833](https://github.com/rohanarun/alpoge-rh-replay/issues/12484) | Claimed |
