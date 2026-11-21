@@ -1,0 +1,7 @@
+{
+ "module": "Formalism.BehrendSets.BehrendVariance.TwoPowDvdPowTwoPowSubOne",
+ "source_sha256": "57cf82cee7bcc5edb04d572e2bb8907f5d77df39192410814eeb905674269cd6",
+ "lean": "leanprover/lean4:v4.36.0",
+ "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+ "notes": "unchanged"
+}
