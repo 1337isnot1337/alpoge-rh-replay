@@ -12,6 +12,7 @@ import shutil
 import subprocess
 import tarfile
 
+from artifact_directory_index import ArtifactDirectoryIndex
 import replay_evidence as evidence
 import tasks
 
@@ -79,13 +80,14 @@ def check_archive(path, expected):
 
 def snapshot_shard(index, rows, project, receiver, output):
     artifacts, modules = {}, []
+    directories = ArtifactDirectoryIndex(ignored_suffixes=('.setup.json', '.trace.nobuild'))
     for row in rows:
         stem = row['module'].replace('.', '/')
         source = Path('src') / (stem + '.lean')
         copy_checked(project / source, receiver / source, project, row['source_sha256'])
         for prefix in ('lib/lean', 'ir'):
             base = project / '.lake/build' / prefix / stem
-            for path in sorted(base.parent.glob(base.name + '.*')):
+            for path in sorted(directories.matches(base)):
                 if path.name.endswith(('.setup.json', '.trace.nobuild')):
                     continue
                 relative = path.relative_to(project / '.lake/build').as_posix()
@@ -94,6 +96,7 @@ def snapshot_shard(index, rows, project, receiver, output):
         require(obj in artifacts, 'Missing project object: ' + obj)
         modules.append(dict(id=row['id'], module=row['module'], source_sha256=row['source_sha256'],
                             object_sha256=artifacts[obj]))
+    directories.verify()
     name = f'dependencies-{index:03}.tar.gz'
     path = output / name
     with tarfile.open(path, 'w:gz', compresslevel=1) as archive:
@@ -110,14 +113,16 @@ def reuse_command(targets):
 
 
 def artifact_names(root, rows):
+    directories = ArtifactDirectoryIndex(ignored_suffixes=('.setup.json', '.trace.nobuild'))
     names = set()
     for row in rows:
         for prefix in ('lib/lean', 'ir'):
             base = root / '.lake/build' / prefix / row['module'].replace('.', '/')
-            for path in base.parent.glob(base.name + '.*'):
+            for path in directories.matches(base):
                 if not path.name.endswith(('.setup.json', '.trace.nobuild')):
                     regular(path, root)
                     names.add(path.relative_to(root / '.lake/build').as_posix())
+    directories.verify()
     return names
 
 
