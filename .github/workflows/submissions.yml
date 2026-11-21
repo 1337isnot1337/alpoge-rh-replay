@@ -33,14 +33,27 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          credit_commit=
           for attempt in 1 2 3; do
             git fetch origin main
             git checkout --detach FETCH_HEAD
-            python3 tracker/submissions.py --update-activity --issue-authors "$RUNNER_TEMP/issue-authors.json"
-            git add README.md tracker/activity.tsv tracker/activity.svg tracker/volunteer-tables
-            if git diff --cached --quiet; then exit 0; fi
-            python3 tracker/credit_commit.py "$RUNNER_TEMP/issue-authors.json" > "$RUNNER_TEMP/credit-message"
-            git commit -F "$RUNNER_TEMP/credit-message"
+            # A port or example can land during the API scan. Preserve its
+            # commit and reuse our snapshot if all credit inputs and outputs
+            # still match the parent on which we rendered the tables.
+            if [ -n "$credit_commit" ] &&
+               git merge-base --is-ancestor "$credit_commit^" HEAD &&
+               git diff --quiet "$credit_commit^" HEAD -- README.md tracker/ evidence/volunteers/ .github/workflows/submissions.yml .gitattributes &&
+               git cherry-pick "$credit_commit"; then
+              echo 'Reused the generated contributor tables after a concurrent push.'
+            else
+              if git rev-parse --verify --quiet CHERRY_PICK_HEAD >/dev/null; then git cherry-pick --abort; fi
+              python3 tracker/submissions.py --update-activity --issue-authors "$RUNNER_TEMP/issue-authors.json"
+              git add README.md tracker/activity.tsv tracker/activity.svg tracker/volunteer-tables
+              if git diff --cached --quiet; then exit 0; fi
+              python3 tracker/credit_commit.py "$RUNNER_TEMP/issue-authors.json" > "$RUNNER_TEMP/credit-message"
+              git commit -F "$RUNNER_TEMP/credit-message"
+            fi
+            credit_commit=$(git rev-parse HEAD)
             if git push origin HEAD:main; then exit 0; fi
           done
           exit 1
