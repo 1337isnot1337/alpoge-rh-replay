@@ -41,7 +41,7 @@ port/patches/<ModuleId>.json        # {"module", "source_sha256", "lean", "mathl
 
 1. **Reserve.** Run `python3 tracker/port.py next` for the shallowest open packets whose imports are already ported, then `python3 tracker/port.py claim P0123`. Before opening a `Port P0123` issue with the `port` label, the command checks the target pins and whether any requested module still needs a record on upstream `main`. The replay claims bot ignores these titles, and maintainers resolve overlaps: the earlier open issue wins. Close the issue if you stop.
 2. **Port.** Use a fresh checkout of the pinned archive with the target toolchain and Mathlib. Fix each module until `lake build +<Module>:olean` succeeds. Then run the `IsLattice` audit (below) on the packet's modules. Convert every hit, including in modules that built unchanged, or explain in the notes why the weaker notion is intended.
-3. **Submit a PR to `main`** that adds the packet's `port/patches/` files and links the issue. Include the build transcript for every module in the packet, ending in success, plus the exact toolchain and Mathlib commit.
+3. **Submit a PR to `main`** that adds the packet's completed `port/patches/` files and links the issue. Include the build transcript for every submitted module, ending in success, plus the exact toolchain and Mathlib commit. A partial submission must follow the rules below; it does not mark the whole packet complete.
 
 Use a title such as `Port P0123 to Lean 4.36` for the PR. The queue and claim
 commands recognize packet/module IDs in open PR titles containing `port`,
@@ -57,9 +57,27 @@ partial packets are ordered by depth and then the number of ready modules.
 Use `python3 tracker/port.py show P0123 --ready-only` to list the unported modules
 whose imports are satisfied by records on your checkout or by other ready members
 of the same packet. Refresh `main` before using these suggestions. Reserve the
-packet, build only its ready members, and retain their successful outputs while
-the other prerequisites are being ported. Recheck the remaining members after
-updating `main`; submit the packet only when all its modules build successfully.
+packet and build only its ready members. When other members are blocked on
+unported imports, you may submit the completed subset so that downstream modules
+can use its records. Retain the successful outputs and recheck the remaining
+members after updating `main`.
+
+A partial packet submission must:
+
+- Include records only for modules that built successfully on the target pins.
+  Every project import must have a matching record on `main` or in the same PR;
+  a queued PR or an import that merely builds unchanged is not an accepted record.
+- List the submitted module IDs, the remaining live IDs and their missing imports,
+  and any pruned IDs excluded from the packet. Link the transcript and source,
+  patch and output digests for every submitted module, including reused outputs.
+- Use a title such as `Port P0123: 60 ready modules to Lean 4.36`, link the existing
+  packet claim without closing it, and state that the packet remains incomplete.
+  Keep one open submission per packet; add newly completed members to that PR or
+  submit a follow-up after it merges. Preserve previously accepted records.
+- Retain the packet reservation while working on the remaining members. Close it
+  if stopping, and close it as complete only once every live member has an accepted
+  record. A merged partial PR is not a full packet result or replay credit.
+
 Pruned modules are omitted from the queue. An import of a pruned module in the
 pinned source still requires a port record.
 
