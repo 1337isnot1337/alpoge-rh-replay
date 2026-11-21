@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M156360"
+  ],
+  "started_utc": "2026-11-21T19:40:06.086759+00:00",
+  "ended_utc": "2026-11-21T19:40:24.762756+00:00",
+  "elapsed_seconds": 18.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5236484
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ProductFormulaHaar.IsOpenAddSubgroup:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "67586bfdef7a5016344ead7d8f4e8f089288a68f5cab33f3412cbe0a00c077ab",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.ProdFormulaE",
+    "Formalism.SharpRestriction.CuspSpanNormBounds.PsiEDef"
+  ],
+  "objects": {
+    "M156360": "dab32ce68b8c8bb4a61016ac35a5f0f2602d4167c897ca72a596df4216473b3b"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "a457775ac3cce68791976a7f9dcdbb00ef5e11b2f46d3c37c2218ae1bf0e2df0",
+  "packet": "M156360",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25264#issuecomment-7068202005",
+  "reviewed_utc": "2026-11-21T20:02:26.270048+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

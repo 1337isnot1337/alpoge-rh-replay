@@ -1,0 +1,42 @@
+{
+  "tasks": [
+    "M115740"
+  ],
+  "started_utc": "2026-11-21T19:53:20.277087+00:00",
+  "ended_utc": "2026-11-21T19:53:56.262920+00:00",
+  "elapsed_seconds": 36.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5497996
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SphericalZetaCosets:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2213fa667dce31250458421bf2338012358783d895c460bc9fcb8bccc0b87e8b",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsRootOfAdicComplete",
+    "GroundTheory.LocalFields.Examples",
+    "GroundTheory.LocalFields.ExamplesCharZero",
+    "GroundTheory.LocalFields.ExistsUnitFiltrationUnitsLeAndRangePowLe",
+    "GroundTheory.LocalFields.PadicLogSeries",
+    "GroundTheory.LocalFields.UnitsBasic",
+    "GroundTheory.LocalFields.UnitsPowers"
+  ],
+  "objects": {
+    "M115740": "f618a35ab5f0d3441b8373a341fbde287b5e0e718c4e3f2c8907f4330a7ac137"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "2a029da8e6a5afb6361155af3cffd548e28e28306f75fb4374ad00493c3ef4e3",
+  "packet": "M115740",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25408#issuecomment-7068361695",
+  "reviewed_utc": "2026-11-21T20:02:14.891596+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

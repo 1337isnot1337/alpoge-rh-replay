@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M139669"
+  ],
+  "started_utc": "2026-11-21T19:20:35.018174+00:00",
+  "ended_utc": "2026-11-21T19:20:48.806501+00:00",
+  "elapsed_seconds": 13.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5287616
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.PublishedTheorems.CasselmanWallach.U0Commute:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fd72875b54581f7bdd268ec6bd3b1f5a53011d69d62f0272c9fdeac21ca61d86",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ParabolicUnipotentGL",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.UnitaryGroupStatement"
+  ],
+  "objects": {
+    "M139669": "db056fcb4d88f0d64c3b088436c6e543d34b172604834ceebd8facb955c3996c"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "f2af57c8fb0ae22f72d3e7decb3721ad1a0fa174d21b60377ed27c4afe898870",
+  "packet": "M139669",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25062#issuecomment-7067963406",
+  "reviewed_utc": "2026-11-21T20:02:44.848808+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

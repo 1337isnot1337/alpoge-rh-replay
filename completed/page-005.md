@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002841 | P0238 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ExistsIsCayleyUIff` | wave-reused |
+| M002847 | P0865 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ExistsUniquePairIff` | volunteer-build-reviewed |
+| M002848 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ExistsUniquePullExpands` | volunteer-build-reviewed |
+| M002852 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.FramePointsTrunc` | volunteer-build-reviewed |
+| M002853 | P0783 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.HtCharOfIsUnit` | volunteer-build-reviewed |
+| M002855 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.KFinDecayOfDecInf` | build-observed |
+| M002857 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.LowKAddStrictAnti` | volunteer-build-reviewed |
+| M002859 | P1856 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.NaturalOfChartIndep` | volunteer-build-reviewed |
+| M002868 | P0002 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.PremisesInhabited` | volunteer-build-reviewed |
+| M002871 | P1501 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ThetaMemLattice` | volunteer-build-reviewed |
+| M002872 | P0648 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.UnimodularStandardLattice` | volunteer-build-reviewed |
+| M002875 | P0648 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.AdmissibleSmulIffOfCoprime` | volunteer-build-reviewed |
+| M002876 | P1956 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ArchimedeanGluing` | volunteer-build-reviewed |
+| M002879 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.BetaIsPrincipal` | volunteer-build-reviewed |
+| M002881 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ChosenEqOfAllRules` | volunteer-build-reviewed |
+| M002884 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ExistsBaseRingOfConjugationFixedTensor` | volunteer-build-reviewed |
+| M002885 | P0648 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.FlatGenInjective` | build-observed |
+| M002889 | P0974 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.IsFractionRingIntO` | build-observed |
+| M002890 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.JetTruncNotInjective` | volunteer-build-reviewed |
+| M002891 | P1501 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.KerMemAbLocus` | volunteer-build-reviewed |
+| M002893 | P1169 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.LocClauseOfUnifPlaces` | build-observed |
 | M002894 | P1169 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.OrthonormalBaseFrameNeg` | build-observed |
 | M002895 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.PEqQOfNeg` | volunteer-build-reviewed |
 | M002898 | P0549 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.RelabBijective` | volunteer-build-reviewed |
@@ -381,24 +402,3 @@
 | M003661 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsCyclotomicExtensionQI` | volunteer-build-reviewed |
 | M003663 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsDetEltOne` | wave-reused |
 | M003664 | P1444 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsDominantOfSection` | build-observed |
-| M003666 | P1472 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsEquivariantToBidual` | volunteer-build-reviewed |
-| M003667 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsEtCoord` | volunteer-build-reviewed |
-| M003668 | P0865 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsEtLevZero` | build-observed |
-| M003669 | P0838 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsEtPlace` | volunteer-build-reviewed |
-| M003670 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsEulerContraction` | build-observed |
-| M003671 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsExpLieAlgebraComplexUnits` | volunteer-build-reviewed |
-| M003672 | P0549 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsFinSetSplitPlacesCoprimeConductor` | wave-reused |
-| M003673 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsFlatLift` | volunteer-build-reviewed |
-| M003674 | P0435 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsFracOfAdjoinEqTop` | build-observed |
-| M003675 | P1323 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsFrameOfForallExists` | wave-reused |
-| M003678 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsGaloisCover` | build-observed |
-| M003679 | P1956 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsGramOneZero` | volunteer-build-reviewed |
-| M003680 | P0865 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsHeckeMap` | build-observed |
-| M003681 | P1298 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsHeightIffOfDegreeEq` | wave-reused |
-| M003682 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsHolPeriods` | build-observed |
-| M003683 | P1938 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsHomWeightHomWeight` | volunteer-build-reviewed |
-| M003684 | P1787 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsHomogeneousCompIdeal` | volunteer-build-reviewed |
-| M003689 | P1531 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsIsoQuotToImOmegaLieOfSplit` | build-observed |
-| M003690 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsKMOne` | volunteer-build-reviewed |
-| M003691 | P0891 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsKSValueOneOfRetraction` | wave-reused |
-| M003693 | P1372 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLifted` | build-observed |

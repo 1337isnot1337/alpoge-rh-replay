@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M048252"
+  ],
+  "started_utc": "2026-11-21T19:26:29.707532+00:00",
+  "ended_utc": "2026-11-21T19:26:53.451022+00:00",
+  "elapsed_seconds": 23.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5428324
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ResidueFieldFormallySmooth:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9465f0b31ae2344b539bbe60c0694ff7707ca049fb951e905dcd9d038b71b8d4",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.IsEtCoord",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsGrpPullback",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.AbelianSchemeQuotients.IsAbelianScheme",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.CubicalStructures.CubeSymmetricSwapFirst",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.CubicalStructures.CubicalPullBaseChangeSt",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.SplitTori.SplitTorusAff"
+  ],
+  "objects": {
+    "M048252": "994ad89fb49470511ac4b74e7acc7a249b8ee14cdadf9fce51c49ecc8d8e52f1"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "04d8fbe1f9edcbfd77234f8012efbc4e8ebba0cadf2ab91f0bec8e9aefce6c0f",
+  "packet": "M048252",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25130#issuecomment-7068030916",
+  "reviewed_utc": "2026-11-21T20:02:38.093369+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

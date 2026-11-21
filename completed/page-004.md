@@ -2,6 +2,26 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002164 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.OmegaFactorization` | volunteer-build-reviewed |
+| M002165 | P1349 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.OneMeasureSizes` | volunteer-build-reviewed |
+| M002166 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.OrthogonalNormSquareSum` | volunteer-build-reviewed |
+| M002168 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.PaddedWittNormSquare` | volunteer-build-reviewed |
+| M002169 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.PinnedIntegrability` | volunteer-build-reviewed |
+| M002170 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.PolarisationModuleIndex` | volunteer-build-reviewed |
+| M002171 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.PolarisedDualSystem` | volunteer-build-reviewed |
+| M002172 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuasiPlurisubharmonic` | volunteer-build-reviewed |
+| M002173 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuotientEigenDifference` | wave-reused |
+| M002177 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.RationalTransitionKernel` | volunteer-build-reviewed |
+| M002178 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ResidueInjectivityAt` | volunteer-build-reviewed |
+| M002179 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ResidueInjectivityChar` | volunteer-build-reviewed |
+| M002181 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.RowsOfLevel` | volunteer-build-reviewed |
+| M002182 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SandwichMaps` | wave-reused |
+| M002184 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ScaledIntegerPeriodic` | volunteer-build-reviewed |
+| M002185 | P0549 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ScaledValuationFormula` | build-observed |
+| M002186 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SiegelReframe` | volunteer-build-reviewed |
+| M002187 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SpecialFibreUnits` | volunteer-build-reviewed |
+| M002190 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TameCharacterTorusValues` | build-observed |
+| M002191 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TameInvariantLevelAction` | build-observed |
 | M002192 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TaylorCoefficientForms` | volunteer-build-reviewed |
 | M002193 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorCoordinateForms` | volunteer-build-reviewed |
 | M002194 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorNormBound` | volunteer-build-reviewed |
@@ -159,6 +179,7 @@
 | M002452 | P0515 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.ImageStableDegreeBounds` | volunteer-build-reviewed |
 | M002454 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.InvariantsVanishing` | wave-reused |
 | M002455 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.JumpMultiplicityDual` | volunteer-build-reviewed |
+| M002457 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.KernelDictionary` | volunteer-build-reviewed |
 | M002458 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.LettersFreeOfRank` | volunteer-build-reviewed |
 | M002459 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.LocalRingStructure` | volunteer-build-reviewed |
 | M002460 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.OnePlusPowerAssembly` | wave-reused |
@@ -381,24 +402,3 @@
 | M002837 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ChartIndepTruncOfExpGauge` | volunteer-build-reviewed |
 | M002838 | P2050 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ConclusionNotEmpty` | volunteer-build-reviewed |
 | M002840 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.EqZeroOfPnorm` | volunteer-build-reviewed |
-| M002841 | P0238 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ExistsIsCayleyUIff` | wave-reused |
-| M002847 | P0865 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ExistsUniquePairIff` | volunteer-build-reviewed |
-| M002848 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ExistsUniquePullExpands` | volunteer-build-reviewed |
-| M002852 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.FramePointsTrunc` | volunteer-build-reviewed |
-| M002853 | P0783 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.HtCharOfIsUnit` | volunteer-build-reviewed |
-| M002855 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.KFinDecayOfDecInf` | build-observed |
-| M002857 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.LowKAddStrictAnti` | volunteer-build-reviewed |
-| M002859 | P1856 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.NaturalOfChartIndep` | volunteer-build-reviewed |
-| M002868 | P0002 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.PremisesInhabited` | volunteer-build-reviewed |
-| M002871 | P1501 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ThetaMemLattice` | volunteer-build-reviewed |
-| M002872 | P0648 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.UnimodularStandardLattice` | volunteer-build-reviewed |
-| M002875 | P0648 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.AdmissibleSmulIffOfCoprime` | volunteer-build-reviewed |
-| M002876 | P1956 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ArchimedeanGluing` | volunteer-build-reviewed |
-| M002879 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.BetaIsPrincipal` | volunteer-build-reviewed |
-| M002881 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ChosenEqOfAllRules` | volunteer-build-reviewed |
-| M002884 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ExistsBaseRingOfConjugationFixedTensor` | volunteer-build-reviewed |
-| M002885 | P0648 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.FlatGenInjective` | build-observed |
-| M002889 | P0974 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.IsFractionRingIntO` | build-observed |
-| M002890 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.JetTruncNotInjective` | volunteer-build-reviewed |
-| M002891 | P1501 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.KerMemAbLocus` | volunteer-build-reviewed |
-| M002893 | P1169 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.LocClauseOfUnifPlaces` | build-observed |

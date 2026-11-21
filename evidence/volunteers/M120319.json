@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M120319"
+  ],
+  "started_utc": "2026-11-21T19:37:59.157887+00:00",
+  "ended_utc": "2026-11-21T19:38:21.354891+00:00",
+  "elapsed_seconds": 22.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5726568
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.AlgebraProofs.HopfOrderScalarExtension:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "aeae7745e81407f9d8ccdb369d3adfae2c24739001ecd174603b0c4a858b0adc",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.CoreStatements.HodgeTatePoints.ExtTensor",
+    "Development.WeilBound.CoreStatements.HodgeTatePoints.HtatDesc",
+    "Development.WeilBound.CoreStatements.HodgeTatePoints.TwhopfInd"
+  ],
+  "objects": {
+    "M120319": "e010e018910ca58e2826657d6f6b7748a795ac5c7a350122163a7a16a74ac432"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "160bac84ebccb77785fd99ac03462cd9f09c543338f9811b031ffe61cc141cdb",
+  "packet": "M120319",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25253#issuecomment-7068181187",
+  "reviewed_utc": "2026-11-21T20:02:27.050265+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

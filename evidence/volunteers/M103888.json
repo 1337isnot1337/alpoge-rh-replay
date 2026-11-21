@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M103888"
+  ],
+  "started_utc": "2026-11-21T19:39:15.395839+00:00",
+  "ended_utc": "2026-11-21T19:40:02.773929+00:00",
+  "elapsed_seconds": 47.4,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5224904
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.HeckeFixedLevelSpaces.SpIntMulVec:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d2f5d974c3bd274bdc4c7763e41f80eb555342f18749f8dcf4cc9c1531bc93da",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.OrdinaryHeckeCharacters.CtrlEq",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.OrdinaryHeckeCharacters.IwMemMul",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.OrdinaryHeckeCharacters.IwahoriProUnipotentFiniteIndex",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.OrdinaryHeckeCharacters.UOpMul",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.OrdinaryHeckeCharacters.UOpSum"
+  ],
+  "objects": {
+    "M103888": "3933b7847567dd0b118e5646564632ba20e0d7abe9f26c32787dfffeea3143a1"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "9917492496fa8bff51e1df11715cd10f83ddbde3f02269121359e7a0e1900d4d",
+  "packet": "M103888",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25263#issuecomment-7068201567",
+  "reviewed_utc": "2026-11-21T20:02:26.308660+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M064966"
+  ],
+  "started_utc": "2026-11-21T19:37:32.376606+00:00",
+  "ended_utc": "2026-11-21T19:37:56.551853+00:00",
+  "elapsed_seconds": 24.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5728572
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.GaussianOddJacobiThetaEqDerivMulSgStar:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8d34aec39270a70c9bf851559ca2a96b2d5a82df5fe166ab49040ee6aabc22ff",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ThetaConstantWeber",
+    "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.DifferentiableOddTheta",
+    "Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.Legendre",
+    "Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.SemiChar",
+    "Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.ThetaLine",
+    "Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.ThetaZeroLogDerivative"
+  ],
+  "objects": {
+    "M064966": "db177c8e3a10137ca201b79ba66184ef6cb16d7d83161767d5ccf57e131518b0"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "fe19d307d7146f3894394bef5eadb042c7938d44c66d75157c12130a70e86359",
+  "packet": "M064966",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25251#issuecomment-7068180768",
+  "reviewed_utc": "2026-11-21T20:02:27.069707+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

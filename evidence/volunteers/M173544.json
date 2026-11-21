@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M173544"
+  ],
+  "started_utc": "2026-11-21T19:41:07.339528+00:00",
+  "ended_utc": "2026-11-21T19:41:21.556995+00:00",
+  "elapsed_seconds": 14.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5243108
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.Rationality.QCoreGlobPf:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ac05427f7289afefd96c4ea187255dc7432ed2972a0d1a10539e2b417060d21e",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.Rationality.QCoreH",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.Rationality.QCoreSt"
+  ],
+  "objects": {
+    "M173544": "2b87a9628a4a4fa0fd0d9d0cb80852e3d3c93c4648d618517780010c77880680"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "4d92dcb4b8913e98a3a2af27c0a4c67f1c004d0b2017229510dea20e71ed53a2",
+  "packet": "M173544",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25273#issuecomment-7068211225",
+  "reviewed_utc": "2026-11-21T20:02:25.979423+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

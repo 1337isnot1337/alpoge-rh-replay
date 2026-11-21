@@ -2,6 +2,25 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001321 | P1271 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryActionEulerProduct` | build-observed |
+| M001322 | P1298 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryActionEulerProductStatement` | build-observed |
+| M001323 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryActionPreservesHaarLocal` | volunteer-build-reviewed |
+| M001324 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryActionPreservesHaarLocalStatement` | volunteer-build-reviewed |
+| M001325 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryGroupFiniteVolume` | volunteer-build-reviewed |
+| M001326 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryGroupFiniteVolumeStatement` | volunteer-build-reviewed |
+| M001327 | P0238 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryIsomOfIsometry` | build-observed |
+| M001328 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryTransitiveOnIsotropicVectors` | volunteer-build-reviewed |
+| M001329 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryTransitiveOnIsotropicVectorsStatement` | volunteer-build-reviewed |
+| M001330 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitsOpenEmbeddingLocalTensor` | volunteer-build-reviewed |
+| M001331 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitsOpenEmbeddingLocalTensorStatement` | volunteer-build-reviewed |
+| M001332 | P1349 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WeilOperatorIntegralInvariance` | build-observed |
+| M001333 | P1372 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WeilOperatorIntegralInvarianceStatement` | build-observed |
+| M001335 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WeilOrthogonalGroupInvarianceStatement` | volunteer-build-reviewed |
+| M001336 | P1586 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WeilRepresentationQuadraticDatum` | build-observed |
+| M001337 | P1616 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WeilRepresentationQuadraticDatumStatement` | build-observed |
+| M001338 | P1056 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WittExtensionArtinianRing` | build-observed |
+| M001339 | P1084 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WittExtensionArtinianRingStatement` | build-observed |
+| M001340 | P1028 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WittExtensionDiagonalGramTuples` | build-observed |
 | M001342 | P0238 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WittExtensionGlobal` | volunteer-build-reviewed |
 | M001343 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WittExtensionGlobalStatement` | volunteer-build-reviewed |
 | M001374 | P2554 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ContactSetSpansOfPosDefStatement` | volunteer-build-reviewed |
@@ -241,6 +260,7 @@
 | M001906 | P0094 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.SandwichStatement` | volunteer-build-reviewed |
 | M001907 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.SandwichStatementStatement` | volunteer-build-reviewed |
 | M001917 | P1394 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.SimpleDistinct` | build-observed |
+| M001918 | P0294 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.SimpleOfCommutativeStatement` | volunteer-build-reviewed |
 | M001920 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.SlabStatement` | volunteer-build-reviewed |
 | M001921 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.SlabStatementStatement` | volunteer-build-reviewed |
 | M001922 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.SnTens2` | volunteer-build-reviewed |
@@ -382,23 +402,3 @@
 | M002160 | P1271 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LocalValuationColumns` | volunteer-build-reviewed |
 | M002161 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ModelDdcForms` | volunteer-build-reviewed |
 | M002162 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.MultiplicationKernelIdentity` | wave-reused |
-| M002164 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.OmegaFactorization` | volunteer-build-reviewed |
-| M002165 | P1349 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.OneMeasureSizes` | volunteer-build-reviewed |
-| M002166 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.OrthogonalNormSquareSum` | volunteer-build-reviewed |
-| M002168 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.PaddedWittNormSquare` | volunteer-build-reviewed |
-| M002169 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.PinnedIntegrability` | volunteer-build-reviewed |
-| M002170 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.PolarisationModuleIndex` | volunteer-build-reviewed |
-| M002171 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.PolarisedDualSystem` | volunteer-build-reviewed |
-| M002172 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuasiPlurisubharmonic` | volunteer-build-reviewed |
-| M002173 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuotientEigenDifference` | wave-reused |
-| M002177 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.RationalTransitionKernel` | volunteer-build-reviewed |
-| M002178 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ResidueInjectivityAt` | volunteer-build-reviewed |
-| M002179 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ResidueInjectivityChar` | volunteer-build-reviewed |
-| M002181 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.RowsOfLevel` | volunteer-build-reviewed |
-| M002182 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SandwichMaps` | wave-reused |
-| M002184 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ScaledIntegerPeriodic` | volunteer-build-reviewed |
-| M002185 | P0549 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ScaledValuationFormula` | build-observed |
-| M002186 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SiegelReframe` | volunteer-build-reviewed |
-| M002187 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SpecialFibreUnits` | volunteer-build-reviewed |
-| M002190 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TameCharacterTorusValues` | build-observed |
-| M002191 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TameInvariantLevelAction` | build-observed |

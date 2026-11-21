@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M138515"
+  ],
+  "started_utc": "2026-11-21T19:56:28.225477+00:00",
+  "ended_utc": "2026-11-21T19:56:53.561761+00:00",
+  "elapsed_seconds": 25.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5605996
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.HodgeTatePoints.RbTriang:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "457d15fe865d7fb2eb0a4941b92d3b08f324ef932909a100a445a40a52aacd61",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.IsTight",
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.StepOrderRes",
+    "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.ComapFgOfValuationRing",
+    "ReciprocityTheory.DualLattices.CotangentSurjective",
+    "ReciprocityTheory.DualLattices.TensorSpan",
+    "ReciprocityTheory.DualLattices.UpSmith"
+  ],
+  "objects": {
+    "M138515": "9d1579d666900bec2d1ca95d9e52fd757206d44e6720f9b35be65a6309cdb908"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "1f49a6cb2913829b2ec27422d0c8bb68699f0d3a51462208cf6fde2cca682f5e",
+  "packet": "M138515",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25419#issuecomment-7068399236",
+  "reviewed_utc": "2026-11-21T20:02:11.248503+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

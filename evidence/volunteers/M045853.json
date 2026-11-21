@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M045853"
+  ],
+  "started_utc": "2026-11-21T19:25:49.070437+00:00",
+  "ended_utc": "2026-11-21T19:26:10.269161+00:00",
+  "elapsed_seconds": 21.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5470760
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.PluriharmonicLogGrowthExtension:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4201dc819fc3e3fe7e5a6f8743bc7d99da24c2e7e089a890994cd9a60eee0136",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarmonicPoissonPuncturedDisc",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarmonicPoissonPuncturedDiscStatement",
+    "ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshExtA"
+  ],
+  "objects": {
+    "M045853": "36408162b055b25a6e798d066b39959275186c6f9f7bc27b2da76d4fa0e636fb"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "ab87927e2d01b4582ec90214641f4d683e7e781db700151c32745569bcd3fdc0",
+  "packet": "M045853",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25126#issuecomment-7068029966",
+  "reviewed_utc": "2026-11-21T20:02:39.298618+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

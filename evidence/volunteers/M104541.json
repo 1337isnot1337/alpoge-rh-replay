@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M104541"
+  ],
+  "started_utc": "2026-11-21T19:41:51.252833+00:00",
+  "ended_utc": "2026-11-21T19:42:12.130590+00:00",
+  "elapsed_seconds": 20.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5228576
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.StabilizerStdSeqIsoGLOfComplement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "08f2d600f73964a183f2492208f4e402cc6be8391f5409579c5a19570eeae888",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.MemSplitSeqIff",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.PublishedTheorems.KAcyclicHomology",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.TensorHomCubes.IsAcyclicSpace",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.TensorHomCubes.SimplexFace",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.TensorHomCubes.StabDirectedSystem"
+  ],
+  "objects": {
+    "M104541": "673d7c57f9e42df5fba1570b4503d8dac449c1e69035cce16ff8dddd6a514ec2"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "dbebccb273d528b8b6410a17684b541fd9ebf1c9f96f9d5af54629cc7bc37e46",
+  "packet": "M104541",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25281#issuecomment-7068221642",
+  "reviewed_utc": "2026-11-21T20:02:25.418531+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

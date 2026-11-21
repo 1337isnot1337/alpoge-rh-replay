@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M141767"
+  ],
+  "started_utc": "2026-11-21T19:47:06.556483+00:00",
+  "ended_utc": "2026-11-21T19:47:23.751744+00:00",
+  "elapsed_seconds": 17.2,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 6474632
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.RepresentationTheoryGL.HolomorphicDiscreteSeries.HarishChandraDescent.Commutant:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a7f6bf8328e6349be23e0e792f64efe687f96857115e07ee7280e97fd31b50e6",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.HolomorphicDiscreteSeries.HarishChandraDescent.Descent"
+  ],
+  "objects": {
+    "M141767": "f13208bd6a1a0b4b3911468ad3eba4e929e25e60fe5bd4b80b4563f2f0def825"
+  },
+  "bundle_sha256": "c29f4cafedc74a7d8a44400e7e53727315b14bb817f10c15a76a06ca4fe2dde2",
+  "packet": "M141767",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25340#issuecomment-7068300830",
+  "reviewed_utc": "2026-11-21T20:02:22.412477+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}
