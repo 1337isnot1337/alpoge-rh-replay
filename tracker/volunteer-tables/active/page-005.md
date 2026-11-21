@@ -4,7 +4,6 @@
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@BenCaunt](https://github.com/BenCaunt) | [M028863](https://github.com/rohanarun/alpoge-rh-replay/issues/7659) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M032927](https://github.com/rohanarun/alpoge-rh-replay/issues/7758) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M032929](https://github.com/rohanarun/alpoge-rh-replay/issues/7782) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M034827](https://github.com/rohanarun/alpoge-rh-replay/issues/7803) | Claimed |
@@ -19,7 +18,6 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M051652](https://github.com/rohanarun/alpoge-rh-replay/issues/7920) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M061610](https://github.com/rohanarun/alpoge-rh-replay/issues/7981) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M055262](https://github.com/rohanarun/alpoge-rh-replay/issues/8001) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P1719](https://github.com/rohanarun/alpoge-rh-replay/issues/8006) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M060959](https://github.com/rohanarun/alpoge-rh-replay/issues/8020) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M061250](https://github.com/rohanarun/alpoge-rh-replay/issues/8033) | Claimed |
 | [@TomMoeras](https://github.com/TomMoeras) | [P1913](https://github.com/rohanarun/alpoge-rh-replay/issues/8040) | Claimed |
@@ -40,3 +38,5 @@
 | [@21Z121Z1](https://github.com/21Z121Z1) | [M018776](https://github.com/rohanarun/alpoge-rh-replay/issues/8352) | Claimed |
 | [@rishabh-16](https://github.com/rishabh-16) | [M020363](https://github.com/rohanarun/alpoge-rh-replay/issues/8355) | Claimed |
 | [@rishabh-16](https://github.com/rishabh-16) | [M028892](https://github.com/rohanarun/alpoge-rh-replay/issues/8363) | Claimed |
+| [@rishabh-16](https://github.com/rishabh-16) | [M030618](https://github.com/rohanarun/alpoge-rh-replay/issues/8369) | Claimed |
+| [@rishabh-16](https://github.com/rishabh-16) | [M030882](https://github.com/rohanarun/alpoge-rh-replay/issues/8372) | Claimed |

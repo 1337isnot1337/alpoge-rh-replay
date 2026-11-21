@@ -4,6 +4,8 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M002371](https://github.com/rohanarun/alpoge-rh-replay/issues/8147#issuecomment-7054247337) | Pending review |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M002890](https://github.com/rohanarun/alpoge-rh-replay/issues/8148#issuecomment-7054259381) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M003793](https://github.com/rohanarun/alpoge-rh-replay/issues/8150#issuecomment-7054265429) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M004820](https://github.com/rohanarun/alpoge-rh-replay/issues/8152#issuecomment-7054248393) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M004854](https://github.com/rohanarun/alpoge-rh-replay/issues/8153#issuecomment-7054266387) | Pending review |
@@ -140,3 +142,11 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M028937](https://github.com/rohanarun/alpoge-rh-replay/issues/8359#issuecomment-7054345935) | Pending review |
 | [@galakurpi](https://github.com/galakurpi) | [M084785](https://github.com/rohanarun/alpoge-rh-replay/issues/8361#issuecomment-7054336380) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M057007](https://github.com/rohanarun/alpoge-rh-replay/issues/8362#issuecomment-7054346595) | Pending review |
+| [@ljagiello](https://github.com/ljagiello) | [M038923](https://github.com/rohanarun/alpoge-rh-replay/issues/8365#issuecomment-7054355462) | Pending review |
+| [@jjjhenriksen](https://github.com/jjjhenriksen) | [M109855](https://github.com/rohanarun/alpoge-rh-replay/issues/8366#issuecomment-7054357403) | Pending review |
+| [@galakurpi](https://github.com/galakurpi) | [M042399](https://github.com/rohanarun/alpoge-rh-replay/issues/8368#issuecomment-7054374081) | Pending review |
+| [@galakurpi](https://github.com/galakurpi) | [M069121](https://github.com/rohanarun/alpoge-rh-replay/issues/8370#issuecomment-7054365517) | Pending review |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M031772](https://github.com/rohanarun/alpoge-rh-replay/issues/8373#issuecomment-7054417596) | Pending review |
+| [@roonastgames](https://github.com/roonastgames) | [M164243](https://github.com/rohanarun/alpoge-rh-replay/issues/8374#issuecomment-7054368246) | Pending review |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M041094](https://github.com/rohanarun/alpoge-rh-replay/issues/8375#issuecomment-7054418297) | Pending review |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M074706](https://github.com/rohanarun/alpoge-rh-replay/issues/8376#issuecomment-7054418950) | Pending review |

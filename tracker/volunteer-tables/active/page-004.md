@@ -249,8 +249,8 @@
 | [@rohanarun](https://github.com/rohanarun) | [M139090](https://github.com/rohanarun/alpoge-rh-replay/issues/7231) | Claimed |
 | [@WilmervH](https://github.com/WilmervH) | [P1861](https://github.com/rohanarun/alpoge-rh-replay/issues/7243) | Claimed |
 | [@SeriousRising](https://github.com/SeriousRising) | [P2162](https://github.com/rohanarun/alpoge-rh-replay/issues/7278) | Claimed |
-| [@emsi](https://github.com/emsi) | [P1755](https://github.com/rohanarun/alpoge-rh-replay/issues/7328) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2043](https://github.com/rohanarun/alpoge-rh-replay/issues/7414) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M142759](https://github.com/rohanarun/alpoge-rh-replay/issues/7575) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M142761](https://github.com/rohanarun/alpoge-rh-replay/issues/7586) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M007364](https://github.com/rohanarun/alpoge-rh-replay/issues/7605) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M028863](https://github.com/rohanarun/alpoge-rh-replay/issues/7659) | Claimed |
