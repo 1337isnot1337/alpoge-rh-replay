@@ -28,6 +28,7 @@ import sys
 import tempfile
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -206,7 +207,7 @@ def materialize_sources(
                 raise FileNotFoundError(f"{mid}: missing source file {origin}")
             data = origin.read_bytes()
         else:
-            url = f"{base}/{rel}"
+            url = f"{base}/{urllib.parse.quote(rel, safe='/')}"
             data = fetch_url_bytes(url)
 
         actual_sha = sha256_bytes(data)
