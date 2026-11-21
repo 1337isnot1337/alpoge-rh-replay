@@ -226,6 +226,7 @@
 | M044960 | P1981 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OpenSigmaStableUnitNeighborhood` | volunteer-build-reviewed |
 | M044961 | P2000 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OpenSigmaStableUnitNeighborhoodStatement` | volunteer-build-reviewed |
 | M044962 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OpenSubgroupFixesPolynomialDatum` | volunteer-build-reviewed |
+| M044963 | P2213 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OpenSubgroupFixesPolynomialDatumStatement` | volunteer-build-reviewed |
 | M044964 | P1450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OpenSubschemeClosedBaseChange` | volunteer-build-reviewed |
 | M044965 | P1768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OperatorFamilyAdjointLiftSingleEigensystem` | volunteer-build-reviewed |
 | M044966 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OperatorFamilyAdjointLiftSingleEigensystemStatement` | volunteer-build-reviewed |
@@ -293,8 +294,10 @@
 | M045096 | P1886 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OscillatorModelExtensionFirst` | volunteer-build-reviewed |
 | M045097 | P1906 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OscillatorModelExtensionFirstStatement` | volunteer-build-reviewed |
 | M045098 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OscillatorModelExtensionSecond` | volunteer-build-reviewed |
+| M045099 | P2213 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OscillatorModelExtensionSecondStatement` | volunteer-build-reviewed |
 | M045100 | P2248 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OscillatorModelExtensionThird` | volunteer-build-reviewed |
 | M045101 | P2257 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OscillatorModelExtensionThirdStatement` | volunteer-build-reviewed |
+| M045102 | P2213 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OscillatorModelUnitValues` | volunteer-build-reviewed |
 | M045103 | P2158 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OscillatorModelValuesFifth` | volunteer-build-reviewed |
 | M045104 | P2168 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OscillatorModelValuesFifthStatement` | volunteer-build-reviewed |
 | M045105 | P2158 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OscillatorModelValuesFirst` | volunteer-build-reviewed |
@@ -307,6 +310,7 @@
 | M045115 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OscillatorModelsCompatible` | volunteer-build-reviewed |
 | M045116 | P1450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OscillatorModelsEvaluateFirst` | volunteer-build-reviewed |
 | M045117 | P1840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OscillatorModelsEvaluateSecond` | volunteer-build-reviewed |
+| M045118 | P2213 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OscillatorModelsWeightCompat` | volunteer-build-reviewed |
 | M045123 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OverSchemeGrpObjOfMonoFactor` | volunteer-build-reviewed |
 | M045124 | P0112 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OverSchemeGrpObjOfMonoFactorStatement` | volunteer-build-reviewed |
 | M045129 | P2238 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OwnPrimeIsUnitAtPlace` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M045299 | P2123 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairAdaptedPlaneThetaLift` | volunteer-build-reviewed |
 | M045300 | P2136 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairAdaptedPlaneThetaLiftStatement` | volunteer-build-reviewed |
 | M045301 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairAdaptedProjectionExists` | volunteer-build-reviewed |
-| M045302 | P2097 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairAdaptedProjectionExistsStatement` | volunteer-build-reviewed |
-| M045303 | P2238 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairAdaptedRestrictionCompat` | volunteer-build-reviewed |
-| M045304 | P2257 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairAdaptedRestrictionCompatAltBis` | volunteer-build-reviewed |
-| M045305 | P2248 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairAdaptedRestrictionCompatStatement` | volunteer-build-reviewed |

@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M045302 | P2097 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairAdaptedProjectionExistsStatement` | volunteer-build-reviewed |
+| M045303 | P2238 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairAdaptedRestrictionCompat` | volunteer-build-reviewed |
+| M045304 | P2257 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairAdaptedRestrictionCompatAltBis` | volunteer-build-reviewed |
+| M045305 | P2248 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairAdaptedRestrictionCompatStatement` | volunteer-build-reviewed |
 | M045308 | P2562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairBundleFlagCompat` | volunteer-build-reviewed |
 | M045309 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairCoverAffine` | wave-reused |
 | M045318 | P2582 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairCoverHodgeMetric` | volunteer-build-reviewed |
@@ -12,6 +16,7 @@
 | M045325 | P2225 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairDoubleDescent` | volunteer-build-reviewed |
 | M045328 | P2238 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairDoubleDescentStatement` | volunteer-build-reviewed |
 | M045330 | P2136 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairEqTrace` | volunteer-build-reviewed |
+| M045331 | P2213 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairEvaluationSelfLinear` | volunteer-build-reviewed |
 | M045332 | P2225 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairEvaluationSelfLinearStatement` | volunteer-build-reviewed |
 | M045333 | P1862 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairExistsArchimedeanTranslates` | volunteer-build-reviewed |
 | M045334 | P1886 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairExistsArchimedeanTranslatesStatement` | volunteer-build-reviewed |
@@ -38,6 +43,7 @@
 | M045365 | P2201 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairPlaneLocalFunctionalIdentityStatement` | volunteer-build-reviewed |
 | M045366 | P1768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairRApply` | volunteer-build-reviewed |
 | M045367 | P0786 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairResBijectiveTwo` | wave-reused |
+| M045368 | P2213 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairRestrictToSubspaceLeft` | volunteer-build-reviewed |
 | M045369 | P2225 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairRestrictToSubspaceLeftStatement` | volunteer-build-reviewed |
 | M045370 | P2097 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairRestrictToSubspaceRight` | volunteer-build-reviewed |
 | M045371 | P2111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairRestrictToSubspaceRightStatement` | volunteer-build-reviewed |
@@ -45,6 +51,7 @@
 | M045373 | P2238 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairRestrictsAdaptedPlaneStatement` | volunteer-build-reviewed |
 | M045376 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairRestrictsToAdaptedW` | volunteer-build-reviewed |
 | M045377 | P1819 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairRestrictsToAdaptedWStatement` | volunteer-build-reviewed |
+| M045378 | P2213 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairRestrictsToAdaptedX` | volunteer-build-reviewed |
 | M045379 | P2226 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairRestrictsToAdaptedXStatement` | volunteer-build-reviewed |
 | M045381 | P2459 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairSectionMemBallExpOfProjArithVarietyStatement` | volunteer-build-reviewed |
 | M045383 | P2459 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PairSectionsFgOfProjArithVarietyStatement` | volunteer-build-reviewed |
@@ -128,6 +135,7 @@
 | M045501 | P0247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PartialZetaTotallyRealAtMostSimplePoleStatement` | volunteer-build-reviewed |
 | M045502 | P1981 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PartialZetaValuesAtNegIntUnique` | volunteer-build-reviewed |
 | M045503 | P2000 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PartialZetaValuesAtNegIntUniqueStatement` | volunteer-build-reviewed |
+| M045505 | P2213 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PartitionSelectionEvaluation` | volunteer-build-reviewed |
 | M045506 | P1925 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PassIn3OfRows` | volunteer-build-reviewed |
 | M045507 | P1450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PbEqOfPins` | volunteer-build-reviewed |
 | M045508 | P1119 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PchernOf` | build-observed |
@@ -269,6 +277,7 @@
 | M045821 | P2038 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PlaceValuationLocalDegreeArithmeticStatement` | volunteer-build-reviewed |
 | M045822 | P1768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PlacesAboveAndNontrivialAbs` | volunteer-build-reviewed |
 | M045823 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PlacesAboveAndNontrivialAbsStatement` | volunteer-build-reviewed |
+| M045825 | P2213 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PlacesBoundTuple` | volunteer-build-reviewed |
 | M045826 | P2226 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PlacesBoundTupleStatement` | volunteer-build-reviewed |
 | M045830 | P2070 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PlaneChainDescentFirstStatement` | volunteer-build-reviewed |
 | M045831 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PlaneEvaluationClosureDerivatives` | volunteer-build-reviewed |
@@ -333,6 +342,7 @@
 | M045977 | P1742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolActs` | volunteer-build-reviewed |
 | M045978 | P2582 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolDataExistsBlockSplitting` | volunteer-build-reviewed |
 | M045979 | P2599 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolDataExistsBlockSplittingStatement` | volunteer-build-reviewed |
+| M045980 | P2213 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolDataKfinX` | volunteer-build-reviewed |
 | M045981 | P2582 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolDataSoExistsBlockSplitting` | volunteer-build-reviewed |
 | M045982 | P2599 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolDataSoExistsBlockSplittingStatement` | volunteer-build-reviewed |
 | M045984 | P2562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolDataSoThetaContinuousStatement` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M046122 | P2459 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolarizedAbelianIsogenyExists` | volunteer-build-reviewed |
 | M046125 | P2459 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolarizedAbelianVarietyPullbackAffineOpenStatement` | volunteer-build-reviewed |
 | M046127 | P2562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolarizedDataIntegralIdentityStatement` | volunteer-build-reviewed |
-| M046128 | P2201 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolarizedDataOpenNbhd` | volunteer-build-reviewed |
-| M046132 | P1768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolarizedDataTensorDecomposition` | volunteer-build-reviewed |
-| M046133 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolarizedDataTensorDecompositionStatement` | volunteer-build-reviewed |
-| M046142 | P1862 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PoleResOfPrint` | volunteer-build-reviewed |
-| M046144 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolyCoefIrrepHasDerivedAction` | volunteer-build-reviewed |
-| M046145 | P1981 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolyCoeffVectorsLieInFiniteDimensionalSmooth` | volunteer-build-reviewed |
-| M046146 | P2000 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolyCoeffVectorsLieInFiniteDimensionalSmoothStatement` | volunteer-build-reviewed |
-| M046151 | P0112 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolyGrowthSpreadOfIntegralMonodromyStatement` | volunteer-build-reviewed |
-| M046152 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolyIntEqZeroOfIsHomogeneous` | volunteer-build-reviewed |
-| M046154 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolyMulGaussianBounded` | volunteer-build-reviewed |

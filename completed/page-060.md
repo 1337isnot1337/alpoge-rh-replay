@@ -2,10 +2,22 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M046128 | P2201 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolarizedDataOpenNbhd` | volunteer-build-reviewed |
+| M046129 | P2213 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolarizedDataOpenNbhdStatement` | volunteer-build-reviewed |
+| M046132 | P1768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolarizedDataTensorDecomposition` | volunteer-build-reviewed |
+| M046133 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolarizedDataTensorDecompositionStatement` | volunteer-build-reviewed |
+| M046142 | P1862 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PoleResOfPrint` | volunteer-build-reviewed |
+| M046144 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolyCoefIrrepHasDerivedAction` | volunteer-build-reviewed |
+| M046145 | P1981 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolyCoeffVectorsLieInFiniteDimensionalSmooth` | volunteer-build-reviewed |
+| M046146 | P2000 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolyCoeffVectorsLieInFiniteDimensionalSmoothStatement` | volunteer-build-reviewed |
+| M046151 | P0112 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolyGrowthSpreadOfIntegralMonodromyStatement` | volunteer-build-reviewed |
+| M046152 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolyIntEqZeroOfIsHomogeneous` | volunteer-build-reviewed |
+| M046154 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolyMulGaussianBounded` | volunteer-build-reviewed |
 | M046162 | P2516 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolydiscUniformHermitianBoundStatement` | volunteer-build-reviewed |
 | M046163 | P2226 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialCHolInvariantMemNonZeroDivisors` | volunteer-build-reviewed |
 | M046164 | P2238 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialCHolInvariantMemNonZeroDivisorsStatement` | volunteer-build-reviewed |
 | M046166 | P2201 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialDataCompactOrbitFiniteDim` | volunteer-build-reviewed |
+| M046167 | P2213 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialDataCompactOrbitFiniteDimStatement` | volunteer-build-reviewed |
 | M046168 | P1925 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialDataCountableRank` | volunteer-build-reviewed |
 | M046170 | P1768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialDataDecomposesAtFinitePlaces` | volunteer-build-reviewed |
 | M046172 | P2562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialDataLocalExpansionStatement` | volunteer-build-reviewed |
@@ -13,6 +25,7 @@
 | M046177 | P2168 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialDatumFiniteDimensionalOrbit` | volunteer-build-reviewed |
 | M046178 | P2179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialDatumFiniteDimensionalOrbitStatement` | volunteer-build-reviewed |
 | M046179 | P2201 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialDescentEstimate` | volunteer-build-reviewed |
+| M046180 | P2213 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialDescentEstimateStatement` | volunteer-build-reviewed |
 | M046181 | P1450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialDetHermitianSumZero` | volunteer-build-reviewed |
 | M046183 | P0247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialEvalBoundOnCircleFamily` | volunteer-build-reviewed |
 | M046186 | P2158 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialFockDenseArchimedeanSchwartzStatement` | volunteer-build-reviewed |
@@ -152,6 +165,7 @@
 | M046473 | P2582 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimeNonzeroInFunctionFieldStatement` | volunteer-build-reviewed |
 | M046476 | P2226 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimeOverTypePrimeFixedPlaceOrConj` | volunteer-build-reviewed |
 | M046477 | P2238 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimeOverTypePrimeFixedPlaceOrConjStatement` | volunteer-build-reviewed |
+| M046478 | P2213 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimePowerLatticeInclusionOfLocalModels` | volunteer-build-reviewed |
 | M046479 | P2226 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimePowerLatticeInclusionOfLocalModelsStatement` | volunteer-build-reviewed |
 | M046481 | P1925 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimeSpectrumDualNumberEq` | volunteer-build-reviewed |
 | M046483 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrimeTensorPolynomialIsMaximalOfMemImage` | build-observed |
@@ -347,6 +361,7 @@
 | M046878 | P1005 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PshNormalFrameQuadraticComparisonStatement` | wave-reused |
 | M046879 | P0301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PshPullbackHolomorphic` | build-observed |
 | M046880 | P0352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PshPullbackHolomorphicStatement` | build-observed |
+| M046882 | P2213 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiAtComp` | volunteer-build-reviewed |
 | M046883 | P2226 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiAtCompStatement` | volunteer-build-reviewed |
 | M046884 | P2070 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiAtContNormNontriv` | volunteer-build-reviewed |
 | M046889 | P0894 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantEigenProperty` | wave-reused |
@@ -373,6 +388,7 @@
 | M046925 | P0761 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiUnitOnOfPsiOn` | volunteer-build-reviewed |
 | M046928 | P2459 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiUnitOnUniv` | volunteer-build-reviewed |
 | M046933 | P2201 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiUnramifiedAlmostAllPlaces` | volunteer-build-reviewed |
+| M046934 | P2213 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiUnramifiedAlmostAllPlacesStatement` | volunteer-build-reviewed |
 | M046935 | P2070 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiUnramifiedAwayDifferent` | volunteer-build-reviewed |
 | M046936 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiUnramifiedAwayDifferentStatement` | volunteer-build-reviewed |
 | M046937 | P2373 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiValueFractionRingOfPsiCoord` | volunteer-build-reviewed |
@@ -386,19 +402,3 @@
 | M046958 | P2516 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullAevalSym` | volunteer-build-reviewed |
 | M046959 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullAwChainsBijective` | build-observed |
 | M046963 | P0761 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullColIsoPbfMap` | build-observed |
-| M046971 | P0301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullFullL` | volunteer-build-reviewed |
-| M046974 | P2563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullGramFlagCellFrame` | build-observed |
-| M046975 | P2582 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullGramFlagCellFrameStatement` | volunteer-build-reviewed |
-| M046976 | P0922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullH1SurjectiveBijectiveFibre` | build-observed |
-| M046978 | P0951 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullH1SurjectiveOfBijective` | build-observed |
-| M046979 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullH1SurjectiveOfBijectiveStatement` | build-observed |
-| M046980 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullHyp1RestrictInjective` | wave-reused |
-| M046981 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullHyp1RestrictSurjective` | wave-reused |
-| M046983 | P1450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullLiftOneEqZero` | volunteer-build-reviewed |
-| M046986 | P2516 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullO1SectionCoordinatesPowerStatement` | volunteer-build-reviewed |
-| M046987 | P1906 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullOfValuesSesq` | volunteer-build-reviewed |
-| M046990 | P1862 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullRegCoverIsCInf` | volunteer-build-reviewed |
-| M046991 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullSpMapComp` | volunteer-build-reviewed |
-| M046994 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullUnitEqZero` | volunteer-build-reviewed |
-| M047000 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullbackBasisThetaEqF0FormStatement` | volunteer-build-reviewed |
-| M047013 | P1450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullbackChartMetricBlockForm` | volunteer-build-reviewed |

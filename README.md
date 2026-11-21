@@ -71,7 +71,7 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 
 <!-- pending-volunteers-start -->
 
-[5,798 entries. View the full table](tracker/volunteer-tables/pending/README.md).
+[5,788 entries. View the full table](tracker/volunteer-tables/pending/README.md).
 
 | Contributor | Task | Review |
 |---|---|---|
@@ -105,20 +105,10 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 
 <!-- volunteers-start -->
 
-[14,090 entries. View the full table](tracker/volunteer-tables/reviewed/README.md).
+[14,100 entries. View the full table](tracker/volunteer-tables/reviewed/README.md).
 
 | Contributor | Task | Modules | Review |
 |---|---|---:|---|
-| [@JamCh01](https://github.com/JamCh01) | [P2548](https://github.com/rohanarun/alpoge-rh-replay/issues/26647#issuecomment-7069858737) | 64 | [Build evidence verified](evidence/volunteers/P2548.json) |
-| [@hipotures](https://github.com/hipotures) | [P2458](https://github.com/rohanarun/alpoge-rh-replay/issues/26628#issuecomment-7069754200) | 64 | [Build evidence verified](evidence/volunteers/P2458.json) |
-| [@emsi](https://github.com/emsi) | [P2604](https://github.com/rohanarun/alpoge-rh-replay/issues/26649#issuecomment-7069742138) | 64 | [Build evidence verified](evidence/volunteers/P2604.json) |
-| [@hipotures](https://github.com/hipotures) | [P2442](https://github.com/rohanarun/alpoge-rh-replay/issues/26550#issuecomment-7069686564) | 64 | [Build evidence verified](evidence/volunteers/P2442.json) |
-| [@hipotures](https://github.com/hipotures) | [P2258](https://github.com/rohanarun/alpoge-rh-replay/issues/26511#issuecomment-7069585857) | 64 | [Build evidence verified](evidence/volunteers/P2258.json) |
-| [@JamCh01](https://github.com/JamCh01) | [P2412](https://github.com/rohanarun/alpoge-rh-replay/issues/26456#issuecomment-7069561210) | 64 | [Build evidence verified](evidence/volunteers/P2412.json) |
-| [@hipotures](https://github.com/hipotures) | [P2253](https://github.com/rohanarun/alpoge-rh-replay/issues/26419#issuecomment-7069512447) | 64 | [Build evidence verified](evidence/volunteers/P2253.json) |
-| [@emsi](https://github.com/emsi) | [P2697](https://github.com/rohanarun/alpoge-rh-replay/issues/26405#issuecomment-7069559706) | 64 | [Build evidence verified](evidence/volunteers/P2697.json) |
-| [@hipotures](https://github.com/hipotures) | [P2239](https://github.com/rohanarun/alpoge-rh-replay/issues/26355#issuecomment-7069435031) | 64 | [Build evidence verified](evidence/volunteers/P2239.json) |
-| [@emsi](https://github.com/emsi) | [P2650](https://github.com/rohanarun/alpoge-rh-replay/issues/26424#issuecomment-7069523404) | 64 | [Build evidence verified](evidence/volunteers/P2650.json) |
 | [@hipotures](https://github.com/hipotures) | [P2230](https://github.com/rohanarun/alpoge-rh-replay/issues/26280#issuecomment-7069363867) | 64 | [Build evidence verified](evidence/volunteers/P2230.json) |
 | [@emsi](https://github.com/emsi) | [P2571](https://github.com/rohanarun/alpoge-rh-replay/issues/26325#issuecomment-7069310992) | 64 | [Build evidence verified](evidence/volunteers/P2571.json) |
 | [@hipotures](https://github.com/hipotures) | [P2220](https://github.com/rohanarun/alpoge-rh-replay/issues/26193#issuecomment-7069280025) | 64 | [Build evidence verified](evidence/volunteers/P2220.json) |
@@ -129,6 +119,16 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 | [@emsi](https://github.com/emsi) | [P2692](https://github.com/rohanarun/alpoge-rh-replay/issues/25682#issuecomment-7068921701) | 64 | [Build evidence verified](evidence/volunteers/P2692.json) |
 | [@hipotures](https://github.com/hipotures) | [P2130](https://github.com/rohanarun/alpoge-rh-replay/issues/25668#issuecomment-7069022558) | 64 | [Build evidence verified](evidence/volunteers/P2130.json) |
 | [@emsi](https://github.com/emsi) | [P2629](https://github.com/rohanarun/alpoge-rh-replay/issues/25829#issuecomment-7069058133) | 64 | [Build evidence verified](evidence/volunteers/P2629.json) |
+| [@hipotures](https://github.com/hipotures) | [P2601](https://github.com/rohanarun/alpoge-rh-replay/issues/25547#issuecomment-7068920464) | 64 | [Build evidence verified](evidence/volunteers/P2601.json) |
+| [@JamCh01](https://github.com/JamCh01) | [P2213](https://github.com/rohanarun/alpoge-rh-replay/issues/25558#issuecomment-7068784310) | 64 | [Build evidence verified](evidence/volunteers/P2213.json) |
+| [@hipotures](https://github.com/hipotures) | [P2592](https://github.com/rohanarun/alpoge-rh-replay/issues/25373#issuecomment-7068712159) | 64 | [Build evidence verified](evidence/volunteers/P2592.json) |
+| [@JamCh01](https://github.com/JamCh01) | [P2617](https://github.com/rohanarun/alpoge-rh-replay/issues/25372#issuecomment-7068443205) | 64 | [Build evidence verified](evidence/volunteers/P2617.json) |
+| [@hipotures](https://github.com/hipotures) | [P2591](https://github.com/rohanarun/alpoge-rh-replay/issues/25341#issuecomment-7068564562) | 64 | [Build evidence verified](evidence/volunteers/P2591.json) |
+| [@emsi](https://github.com/emsi) | [P2685](https://github.com/rohanarun/alpoge-rh-replay/issues/25257#issuecomment-7068467609) | 64 | [Build evidence verified](evidence/volunteers/P2685.json) |
+| [@hipotures](https://github.com/hipotures) | [P2551](https://github.com/rohanarun/alpoge-rh-replay/issues/25233#issuecomment-7068208745) | 64 | [Build evidence verified](evidence/volunteers/P2551.json) |
+| [@hipotures](https://github.com/hipotures) | [P2585](https://github.com/rohanarun/alpoge-rh-replay/issues/25313#issuecomment-7068420568) | 64 | [Build evidence verified](evidence/volunteers/P2585.json) |
+| [@emsi](https://github.com/emsi) | [P2640](https://github.com/rohanarun/alpoge-rh-replay/issues/25482#issuecomment-7068664778) | 64 | [Build evidence verified](evidence/volunteers/P2640.json) |
+| [@emsi](https://github.com/emsi) | [P2550](https://github.com/rohanarun/alpoge-rh-replay/issues/24827#issuecomment-7069121066) | 64 | [Build evidence verified](evidence/volunteers/P2550.json) |
 
 <!-- volunteers-end -->
 
@@ -144,9 +144,9 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 | Pilot proof object reused | 150 |
 | Pilot downstream module kernel-checked | 1 |
 | Distributed proof object reused | 16,970 |
-| Volunteer build evidence reviewed | 54,885 |
+| Volunteer build evidence reviewed | 55,525 |
 | Worker target kernel replay reviewed | 72 |
-| **Total with recorded module evidence** | **98,669 / 175,187** |
+| **Total with recorded module evidence** | **99,309 / 175,187** |
 
 [See each completed part and its evidence](completed/README.md) · [Machine-readable ledger](tracker/completed.tsv)
 
