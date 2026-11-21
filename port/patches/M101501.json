@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HidaCompleteRings.FinMax",
+  "source_sha256": "a63f7487421e14263b84d72dd18e2b60f4c752a78ae04da34bcbcdc3a9a3f14e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Ideal.isMaximal_under_of_isIntegral_of_isMaximal for contraction along the algebra map. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0043-lean436-20261121/packet-result.json"
+}

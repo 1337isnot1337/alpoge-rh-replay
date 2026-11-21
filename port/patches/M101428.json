@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.ContinuousContractNth",
+  "source_sha256": "37b646ccce94660844088a6702a117ee1746de2efae211278ea0125125ec9682",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename continuous_finset_sum to continuous_finsetSum. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0043-lean436-20261121/packet-result.json"
+}

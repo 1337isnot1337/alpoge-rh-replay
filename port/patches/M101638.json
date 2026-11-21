@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.SqrtOneAdd",
+  "source_sha256": "5fe923ba6041309f16e69fe0fff34e9d79c1b0855ebbb756285531521b11c171",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite Ring.jacobson as Ideal.jacobson of bottom before using the existing membership characterization. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0043-lean436-20261121/packet-result.json"
+}

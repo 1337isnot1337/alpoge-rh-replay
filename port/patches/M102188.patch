@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/BuildingsResidueChars/ExistsFixedRotationBasisOfCharpoly.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/BuildingsResidueChars/ExistsFixedRotationBasisOfCharpoly.lean
+@@ -169,7 +169,7 @@
+     have hEMv : E *ᵥ (M *ᵥ v) = 0 := by rw [Matrix.mulVec_mulVec, hEM, hEv]
+     have hli : LinearIndependent K ![e, v, M *ᵥ v] := by
+       change LinearIndependent K (Fin.cons e ![v, M *ᵥ v])
+-      rw [linearIndependent_fin_cons]
++      rw [linearIndependent_finCons]
+       refine ⟨hv, fun hmem => ?_⟩
+       have hle : Submodule.span K (Set.range ![v, M *ᵥ v]) ≤ LinearMap.ker (Matrix.toLin' E) := by
+         rw [Submodule.span_le]

@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/ContinuousContractNth.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/ContinuousContractNth.lean
+@@ -229,7 +229,7 @@
+     {f : (Fin n → G) → M} (hf : Continuous f) : Continuous (dInh ρ n f) := by
+   have h1 : Continuous fun g : Fin (n + 1) → G => ρ (g 0) (f fun i => g i.succ) :=
+     Continuous.comp (f := fun g : Fin (n + 1) → G => (g 0, f fun i => g i.succ)) hρ (by fun_prop)
+-  exact h1.add (continuous_finset_sum _ fun j _ => (hf.comp (continuous_contractNth j)).const_smul _)
++  exact h1.add (continuous_finsetSum _ fun j _ => (hf.comp (continuous_contractNth j)).const_smul _)
+ 
+ def contCx [IsTopologicalGroup G] (ρ : Representation A G M) (hρ : ContAct ρ) : Cx A where
+   X n := contC A G M n

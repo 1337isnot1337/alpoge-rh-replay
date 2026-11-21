@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.SmithZeroOne",
+  "source_sha256": "6b87736790f62dce2e6f72d22779725aef925a695c59459f241c4ac177f37f88",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace the old IsLattice hypothesis by IsFullLattice and use its rank and basis-extension API. The original IsLattice requires exactly finite generation and full span; the new IsFullLattice additionally inherits linearIndepOn. Under the theorem's existing IsFractionRing A F assumption, Submodule.IsLattice.of_fg derives that extra condition from finite generation (Mathlib/Algebra/Module/Lattice/Basic.lean:187-190); conversely IsFullLattice provides both original fields. Thus this hypothesis is equivalent here, and the basis/Smith-form conclusion is unchanged. Module.Finite and Module.Free for Z are supplied locally by Submodule.IsLattice.finite and free, the former instance APIs now requiring F explicitly; no assumptions are added.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0043-lean436-20261121/packet-result.json"
+}

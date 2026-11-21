@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.OrdExt",
+  "source_sha256": "46a36961a056a3c31203bc868d588b43ba06ee7cc55ac1b7ac680f9a096070e6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specialize the local multilinear map to RingHom.id R under the target semilinear API. The original scalar-linearity law is recovered because RingHom.id R maps every scalar to itself. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0043-lean436-20261121/packet-result.json"
+}
