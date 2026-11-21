@@ -155,7 +155,6 @@
 | [@WilmervH](https://github.com/WilmervH) | [P1788](https://github.com/rohanarun/alpoge-rh-replay/issues/6751) | Claimed |
 | [@WilmervH](https://github.com/WilmervH) | [P1761](https://github.com/rohanarun/alpoge-rh-replay/issues/6784) | Claimed |
 | [@angusbarry](https://github.com/angusbarry) | [M100644](https://github.com/rohanarun/alpoge-rh-replay/issues/6864) | Claimed |
-| [@WilmervH](https://github.com/WilmervH) | [P1764](https://github.com/rohanarun/alpoge-rh-replay/issues/6872) | Claimed |
 | [@dgahelper](https://github.com/dgahelper) | [P1672](https://github.com/rohanarun/alpoge-rh-replay/issues/6911) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M094194](https://github.com/rohanarun/alpoge-rh-replay/issues/6977) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M059673](https://github.com/rohanarun/alpoge-rh-replay/issues/6980) | Claimed |
@@ -254,3 +253,4 @@
 | [@rohanarun](https://github.com/rohanarun) | [M151033](https://github.com/rohanarun/alpoge-rh-replay/issues/7218) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M063420](https://github.com/rohanarun/alpoge-rh-replay/issues/7222) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M016433](https://github.com/rohanarun/alpoge-rh-replay/issues/7225) | Claimed |
+| [@rohanarun](https://github.com/rohanarun) | [M026544](https://github.com/rohanarun/alpoge-rh-replay/issues/7227) | Claimed |

@@ -90,6 +90,7 @@
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M014505](https://github.com/rohanarun/alpoge-rh-replay/issues/6793#issuecomment-7053419105) | Pending review |
 | [@emsi](https://github.com/emsi) | [P2038](https://github.com/rohanarun/alpoge-rh-replay/issues/6818#issuecomment-7054059946) | Pending review |
 | [@jsnider3](https://github.com/jsnider3) | [M016667](https://github.com/rohanarun/alpoge-rh-replay/issues/6866#issuecomment-7053482310) | Pending review |
+| [@WilmervH](https://github.com/WilmervH) | [P1764](https://github.com/rohanarun/alpoge-rh-replay/issues/6872#issuecomment-7054178264) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M134782](https://github.com/rohanarun/alpoge-rh-replay/issues/6888#issuecomment-7053474047) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M042585](https://github.com/rohanarun/alpoge-rh-replay/issues/6893#issuecomment-7053479323) | Pending review |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M016896](https://github.com/rohanarun/alpoge-rh-replay/issues/6900#issuecomment-7053489983) | Pending review |
@@ -234,3 +235,8 @@
 | [@galakurpi](https://github.com/galakurpi) | [M163992](https://github.com/rohanarun/alpoge-rh-replay/issues/8143#issuecomment-7054124233) | Pending review |
 | [@galakurpi](https://github.com/galakurpi) | [M104674](https://github.com/rohanarun/alpoge-rh-replay/issues/8145#issuecomment-7054125777) | Pending review |
 | [@galakurpi](https://github.com/galakurpi) | [M137556](https://github.com/rohanarun/alpoge-rh-replay/issues/8146#issuecomment-7054127274) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M057590](https://github.com/rohanarun/alpoge-rh-replay/issues/8179#issuecomment-7054148115) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M076256](https://github.com/rohanarun/alpoge-rh-replay/issues/8181#issuecomment-7054149725) | Pending review |
+| [@rayy3535](https://github.com/rayy3535) | [M151439](https://github.com/rohanarun/alpoge-rh-replay/issues/8191#issuecomment-7054151226) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M013929](https://github.com/rohanarun/alpoge-rh-replay/issues/8200#issuecomment-7054153893) | Pending review |
+| [@egergerfg](https://github.com/egergerfg) | [M164987](https://github.com/rohanarun/alpoge-rh-replay/issues/8205#issuecomment-7054159593) | Pending review |
