@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GL3MeanSquares.ConcavityEquidistribution",
+  "source_sha256": "cbdc8d043f3261a3d4a0df446967db43e965118ba2d98cb136dc7bebdd66f35e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0147-lean436-20261121/packet-result.json"
+}

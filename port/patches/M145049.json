@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.PrimitiveOfPCycle",
+  "source_sha256": "1b79dd266022c4f8dc615b1a87516f0e8a99ce69908646772f355ce72d358037",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0147-lean436-20261121/packet-result.json"
+}

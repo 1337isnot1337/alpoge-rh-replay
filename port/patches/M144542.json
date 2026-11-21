@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FrobeniusBaseCase.FrobeniusBaseCaseProofs.HasUniqueFixedPoint",
+  "source_sha256": "1422b057eeaea86613b15a9f20a5bc5e8b608e55a209a523fa40f159b8005335",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0147-lean436-20261121/packet-result.json"
+}

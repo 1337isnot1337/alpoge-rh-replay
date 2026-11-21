@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FormalDegreeBessel.FormalDegreeRatio.AdjointFunctionalHolds",
+  "source_sha256": "e83b065925e6a32fe89f66f15932e6893e1e4957040244ea8019227b95eca367",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: Supply the constant coordinate type family explicitly to contDiff_apply. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0147-lean436-20261121/packet-result.json"
+}

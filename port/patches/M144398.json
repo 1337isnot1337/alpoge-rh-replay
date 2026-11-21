@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FlagUnipotentLattices.DetIndexProductHyperbolicInequality",
+  "source_sha256": "f6093aabfe6ad43659f87c7e32cfd5f8be3274b16c59eb4f67d26ab6537cbdd9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0147-lean436-20261121/packet-result.json"
+}

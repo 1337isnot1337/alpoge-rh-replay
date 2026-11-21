@@ -1,0 +1,13 @@
+--- a/src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AffineChangeOfVariables.lean
++++ b/src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AffineChangeOfVariables.lean
+@@ -170,8 +170,8 @@
+   intro β α γ hα
+   have h1 : (fun ρ : ℂ => α * ρ + γ) = (fun x => x + γ) ∘ (fun ρ : ℂ => α * ρ) := rfl
+   unfold mu
+-  rw [Measure.map_smul, h1, ← Measure.map_map (measurable_add_const γ) (measurable_const_mul α),
+-    map_mul_vol α hα, Measure.map_smul, map_add_right_eq_self]
++  rw [Measure.map_smul (hf := ((measurable_const_mul α).add_const γ).aemeasurable), h1, ← Measure.map_map (measurable_add_const γ) (measurable_const_mul α),
++    map_mul_vol α hα, Measure.map_smul (hf := (measurable_add_const γ).aemeasurable), map_add_right_eq_self]
+   rw [smul_comm]
+   congr 1
+ 

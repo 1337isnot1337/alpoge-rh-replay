@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FockGram.FockGramProofs.CovolGram",
+  "source_sha256": "7cc5305e5b6535f084a33e197d7defa1368e65868e97626de93f27688b9d3bba",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0147-lean436-20261121/packet-result.json"
+}
