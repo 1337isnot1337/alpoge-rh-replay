@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.ExplicitFormula",
+  "source_sha256": "42c23e43b1e392adabf7f31ae01cd6398c330212479cdc3e7c1b816104cc01c2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0073-lean436-20261121/packet-result.json"
+}

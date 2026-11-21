@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.InertPrime",
+  "source_sha256": "322860dc714fd1526d2c9466ec4a72e3089e6ea30f28c09e8be750365326116e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0073-lean436-20261121/packet-result.json"
+}

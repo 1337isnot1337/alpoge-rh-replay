@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.EmbPerm",
+  "source_sha256": "40801bb55334ee3f4fe750415767fb7e39071fa394667cc4f9249c86df36a33a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0073-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.EllipticRegularity2",
+  "source_sha256": "21f33eabe03346be7cfe9f5c1e94cf79dc1c535477d0518b0751e69fb46ea5e8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0073-lean436-20261121/packet-result.json"
+}

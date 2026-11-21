@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.HermLatFin",
+  "source_sha256": "c0fca8803db0b84c8e63be3ae6ddadab4f22328e2dd0d275751eb859732d095a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0073-lean436-20261121/packet-result.json"
+}

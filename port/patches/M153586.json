@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.IsoFunV",
+  "source_sha256": "9383be67d0008fa69c9fb06e1ee66ff0af6385a8f9a961c815aa069a6b2df5fa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The removed index-first MvPolynomial.coeff wrapper is replaced by polynomial-first coefficient evaluation. In the pinned Mathlib, MvPolynomial.coeff m p is defined as AddMonoidAlgebra.coeff p applied to m; the target exposes that same operation through p.coeff m. Thus the affected definition bodies are definitionally equivalent coefficient expressions, with identical hypotheses, conclusions and polynomial coefficients.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0073-lean436-20261121/packet-result.json"
+}
