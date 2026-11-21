@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LatticeLocalGlobal.LatticeLocalGlobalOfGlobal",
+  "source_sha256": "a1d9793b5983975f339511f37db3f7696bfc24cd40fe06a3ee497d839fc6b812",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0148-lean436-20261121/packet-result.json"
+}

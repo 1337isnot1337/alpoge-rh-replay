@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.ContinuousInvUpper",
+  "source_sha256": "09134b1419472fa1867ffc66bc846a1076a788ab50aef0a21113b09c08891d73",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: supply the existing measurability witnesses to Measure.map_smul. Normalize function composition, swaps, identity and tuple eta explicitly in the final skew-product proof, avoiding expensive definitional inference through the matrix entries. The original argument and measures are retained; no diagnostic or resource-limit changes remain. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0148-lean436-20261121/packet-result.json"
+}

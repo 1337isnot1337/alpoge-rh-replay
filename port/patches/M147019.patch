@@ -1,0 +1,11 @@
+--- a/src/Formalism/HermitianCurvature/HermitianCurvatureProofs/StandardCharacterExists.lean
++++ b/src/Formalism/HermitianCurvature/HermitianCurvatureProofs/StandardCharacterExists.lean
+@@ -211,7 +211,7 @@
+ theorem map_mul_mu (β α : ℂ) (hα : α ≠ 0) :
+     Measure.map (fun ρ : ℂ => α * ρ) (mu β) = Real.toNNReal ((‖α‖ ^ 2)⁻¹) • mu β := by
+   unfold mu
+-  rw [Measure.map_smul, map_mul_vol α hα]
++  rw [Measure.map_smul (hf := (measurable_const_mul α).aemeasurable), map_mul_vol α hα]
+   rw [smul_comm]
+   congr 1
+ 

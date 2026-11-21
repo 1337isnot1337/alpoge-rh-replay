@@ -1,0 +1,11 @@
+--- a/src/Formalism/HyperbolicPlaceProducts/SubgroupIndexCounts/DetIndexProductHyperbolicInequality.lean
++++ b/src/Formalism/HyperbolicPlaceProducts/SubgroupIndexCounts/DetIndexProductHyperbolicInequality.lean
+@@ -74,7 +74,7 @@
+     rwa [mul_pow, Real.sq_sqrt (hT v).le] at h2
+   have hprod : (∏ v, T v) * ∏ v, al v ^ 2 ≤ (∏ v, n v ^ 2) * ∏ v, ((1 + ch v) / sh v) ^ 2 := by
+     rw [← Finset.prod_mul_distrib, ← Finset.prod_mul_distrib]
+-    apply Finset.prod_le_prod
++    apply Finset.prod_le_prod₀
+     · intro v _
+       exact mul_nonneg (hT v).le (sq_nonneg _)
+     · intro v _

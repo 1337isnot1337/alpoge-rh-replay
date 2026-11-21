@@ -1,0 +1,39 @@
+--- a/src/Formalism/HermitianCurvature/HermitianCurvatureProofs/ContinuousInvUpper.lean
++++ b/src/Formalism/HermitianCurvature/HermitianCurvatureProofs/ContinuousInvUpper.lean
+@@ -35,7 +35,7 @@
+     MeasurePreserving (fun x : ι → ℂ => M *ᵥ x) (muPi β ι) (muPi β ι) := by
+   have hm : Measurable (fun x : ι → ℂ => M *ᵥ x) := (Continuous.matrix_mulVec continuous_const continuous_id).measurable
+   refine ⟨hm, ?_⟩
+-  rw [muPi_eq, Measure.map_smul, map_mulVec_volume M h]
++  rw [muPi_eq, Measure.map_smul (hf := hm.aemeasurable), map_mulVec_volume M h]
+ 
+ theorem mp_vecMul (β : ℂ) {ι : Type} [Fintype ι] [DecidableEq ι] (M : Matrix ι ι ℂ) (h : ‖M.det‖ = 1) :
+     MeasurePreserving (fun x : ι → ℂ => x ᵥ* M) (muPi β ι) (muPi β ι) := by
+@@ -45,7 +45,7 @@
+ theorem mp_add_const (β : ℂ) {ι : Type} [Fintype ι] (c : ι → ℂ) :
+     MeasurePreserving (fun x : ι → ℂ => x + c) (muPi β ι) (muPi β ι) := by
+   refine ⟨measurable_add_const c, ?_⟩
+-  rw [muPi_eq, Measure.map_smul, map_add_right_eq_self]
++  rw [muPi_eq, Measure.map_smul (hf := (measurable_add_const c).aemeasurable), map_add_right_eq_self]
+ 
+ theorem map_smul_muPi (β z : ℂ) (ι : Type) [Fintype ι] (hz : z ≠ 0) :
+     Measure.map (fun v : ι → ℂ => z • v) (muPi β ι) =
+@@ -62,7 +62,7 @@
+   rw [hdet, abs_of_pos (inv_pos.2 hpos)] at h2
+   have h3 : Measure.map (fun v : ι → ℂ => z • v) volume =
+       ENNReal.ofReal ((‖z‖ ^ (2 * Fintype.card ι))⁻¹) • volume := h2
+-  rw [muPi_eq, Measure.map_smul, h3, smul_comm]
++  rw [muPi_eq, Measure.map_smul (hf := (measurable_const_smul z).aemeasurable), h3, smul_comm]
+   rfl
+ 
+ theorem wMat_mul_self (d : ℕ) : wMat d * wMat d = 1 := by
+@@ -122,7 +122,8 @@
+     (μc := muPi β (Fin n)) (μd := muPi β (Fin n)) hm
+     (Filter.Eventually.of_forall fun q => (mp_vecMul β (wMat n * upper q.1)
+       (by rw [Matrix.det_mul, det_upper, mul_one, norm_det_wMat])).map_eq)
+-  exact (Measure.measurePreserving_swap.comp h1).comp Measure.measurePreserving_swap
++  simpa only [Function.comp_def, Prod.swap, Prod.mk.eta, id_eq, BlockCoord, muBlock] using
++    (Measure.measurePreserving_swap.comp h1).comp Measure.measurePreserving_swap
+ 
+ theorem symm_castSucc {n : ℕ} (i : Fin n) :
+     finSumFinEquiv.symm (i.castSucc : Fin (n + 1)) = Sum.inl i :=

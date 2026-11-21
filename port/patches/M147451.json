@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LatticeRigidity.StatementD",
+  "source_sha256": "3195242efb6d0cf810b7454e9600d08a99e3a70a1659c87d0ca66f4fa3cfadb6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0148-lean436-20261121/packet-result.json"
+}
