@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Export a completed target's project dependencies and check isolated Lake reuse."""
 import argparse
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
 import datetime
 import hashlib
 import json
@@ -220,7 +220,9 @@ def export(target, receipt_dir, project, output, rows, jobs):
     receipts = {name: copy_checked(receipt_dir / name, output / 'receipt' / name, receipt_dir)
                 for name in RECEIPT_FILES if (receipt_dir / name).exists()}
     count = min(jobs, len(selected))
-    with ThreadPoolExecutor(max_workers=count) as pool:
+    # Shards own disjoint module paths. Use processes so directory handling
+    # and tar metadata work can run on multiple CPUs as well as compression.
+    with ProcessPoolExecutor(max_workers=count) as pool:
         futures = [pool.submit(snapshot_shard, i + 1, selected[i::count], project, receiver, output)
                    for i in range(count)]
         shards = [future.result() for future in futures]
