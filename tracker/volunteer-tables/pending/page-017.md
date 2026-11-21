@@ -4,6 +4,7 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M044497](https://github.com/rohanarun/alpoge-rh-replay/issues/11727#issuecomment-7056733756) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M164434](https://github.com/rohanarun/alpoge-rh-replay/issues/11728#issuecomment-7056429567) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M004615](https://github.com/rohanarun/alpoge-rh-replay/issues/11729#issuecomment-7056499307) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M120145](https://github.com/rohanarun/alpoge-rh-replay/issues/11730#issuecomment-7056424721) | Pending review |
@@ -253,4 +254,3 @@
 | [@loremcdmx](https://github.com/loremcdmx) | [M043265](https://github.com/rohanarun/alpoge-rh-replay/issues/11997#issuecomment-7056820570) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M069067](https://github.com/rohanarun/alpoge-rh-replay/issues/11998#issuecomment-7056821398) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M073263](https://github.com/rohanarun/alpoge-rh-replay/issues/11999#issuecomment-7056824212) | Pending review |
-| [@loremcdmx](https://github.com/loremcdmx) | [M082478](https://github.com/rohanarun/alpoge-rh-replay/issues/12000#issuecomment-7056825574) | Pending review |

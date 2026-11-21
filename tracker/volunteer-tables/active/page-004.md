@@ -213,7 +213,6 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M110991](https://github.com/rohanarun/alpoge-rh-replay/issues/10121) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111917](https://github.com/rohanarun/alpoge-rh-replay/issues/10151) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111945](https://github.com/rohanarun/alpoge-rh-replay/issues/10272) | Claimed |
-| [@SeriousRising](https://github.com/SeriousRising) | [P1912](https://github.com/rohanarun/alpoge-rh-replay/issues/10382) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111954](https://github.com/rohanarun/alpoge-rh-replay/issues/10401) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111956](https://github.com/rohanarun/alpoge-rh-replay/issues/10411) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111962](https://github.com/rohanarun/alpoge-rh-replay/issues/10412) | Claimed |
@@ -254,3 +253,4 @@
 | [@HaqtanEfe](https://github.com/HaqtanEfe) | [M001213](https://github.com/rohanarun/alpoge-rh-replay/issues/10963) | Claimed |
 | [@HaqtanEfe](https://github.com/HaqtanEfe) | [M001218](https://github.com/rohanarun/alpoge-rh-replay/issues/10966) | Claimed |
 | [@HaqtanEfe](https://github.com/HaqtanEfe) | [M001260](https://github.com/rohanarun/alpoge-rh-replay/issues/10969) | Claimed |
+| [@HaqtanEfe](https://github.com/HaqtanEfe) | [M001293](https://github.com/rohanarun/alpoge-rh-replay/issues/10972) | Claimed |

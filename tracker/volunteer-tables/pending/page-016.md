@@ -4,6 +4,7 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@emsi](https://github.com/emsi) | [P2128](https://github.com/rohanarun/alpoge-rh-replay/issues/11476#issuecomment-7057122489) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M161231](https://github.com/rohanarun/alpoge-rh-replay/issues/11477#issuecomment-7056327451) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M070093](https://github.com/rohanarun/alpoge-rh-replay/issues/11478#issuecomment-7056328045) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M054705](https://github.com/rohanarun/alpoge-rh-replay/issues/11479#issuecomment-7056327963) | Pending review |
@@ -253,4 +254,3 @@
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M043609](https://github.com/rohanarun/alpoge-rh-replay/issues/11724#issuecomment-7056746546) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M096227](https://github.com/rohanarun/alpoge-rh-replay/issues/11725#issuecomment-7056497275) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M100829](https://github.com/rohanarun/alpoge-rh-replay/issues/11726#issuecomment-7056498134) | Pending review |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M044497](https://github.com/rohanarun/alpoge-rh-replay/issues/11727#issuecomment-7056733756) | Pending review |
