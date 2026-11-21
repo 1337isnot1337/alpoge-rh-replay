@@ -147,6 +147,7 @@
 | M006477 | P0679 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.MaximalCompactSubgroupPropertiesStatement` | build-observed |
 | M006478 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.MulConjTransposeEqOneOfOrthonormal` | wave-reused |
 | M006479 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.NatCastMulCoeffOfPderivEq` | wave-reused |
+| M006480 | P0240 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.NeZeroOnHyperplaneOfEventuallyNeZero` | volunteer-build-reviewed |
 | M006481 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.NormDetMulProdSqLeOfEntryLe` | volunteer-build-reviewed |
 | M006482 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.NormIteratedFDerivApplyLeOfHomogeneousPart` | volunteer-build-reviewed |
 | M006483 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.NormPderivIterLeOfAnalyticAt` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M007125 | P1273 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsFaithfullyFlatFullLinearLevelStructure` | build-observed |
 | M007126 | P1299 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsFaithfullyFlatFullLinearLevelStructureStatement` | build-observed |
 | M007127 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsFaithfullyFlatRoots` | volunteer-build-reviewed |
-| M007128 | P1144 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsFaithfullyFlatRootsStatement` | build-observed |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M010824 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PosIffLtCard` | volunteer-build-reviewed |
+| M010825 | P0706 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PositionOneOfSymmetricDoubleIntegralFinite` | build-observed |
+| M010826 | P0732 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PositionOneOfSymmetricDoubleIntegralFiniteStatement` | build-observed |
 | M010828 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PowExpIOrInvInjective` | volunteer-build-reviewed |
 | M010829 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PowExpIOrInvInjectiveStatement` | volunteer-build-reviewed |
 | M010830 | P0706 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PowPrimePowSubFrobeniusTwistNormLe` | build-observed |
@@ -259,6 +262,7 @@
 | M011637 | P0296 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SumIntegralScaledBoxPiCosetRepsShiftInvariant` | build-observed |
 | M011638 | P0348 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SumIntegralScaledBoxPiCosetRepsShiftInvariantStatement` | build-observed |
 | M011640 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SumMatApply` | volunteer-build-reviewed |
+| M011642 | P0732 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SumNormSqOrthonormalLeHilbertSchmidt` | volunteer-build-reviewed |
 | M011650 | P1085 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SupportParahoricBiTransformingLeviDoubleCoset` | build-observed |
 | M011651 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SupportedStabilizerConjSatisfiesDeepCongruence` | volunteer-build-reviewed |
 | M011654 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SupportedTranslatesCombinationCommutesSchrodingeStatement` | volunteer-build-reviewed |
@@ -270,6 +274,7 @@
 | M011664 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymLevelChainTestFunctionAddRowStatement` | volunteer-build-reviewed |
 | M011665 | P0918 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymLevelCharacterByResidueCharacter` | build-observed |
 | M011666 | P0947 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymLevelCharacterByResidueCharacterStatement` | build-observed |
+| M011667 | P0550 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymLevelDoubleStepOfFlatColumnFlatRow` | volunteer-build-reviewed |
 | M011668 | P0583 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymLevelDoubleStepOfFlatColumnFlatRowStatement` | volunteer-build-reviewed |
 | M011669 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymLevelTestFunctionsAgreeRationalPoints` | volunteer-build-reviewed |
 | M011670 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymLevelTestFunctionsAgreeRationalPointsStatement` | volunteer-build-reviewed |
@@ -310,6 +315,7 @@
 | M011745 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainHeckeParamAddSmulOfAgreeOffSetStatement` | volunteer-build-reviewed |
 | M011763 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStageConjugateValuesHeckeOperatorsStatement` | volunteer-build-reviewed |
 | M011765 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStageCuspFormMapEqZeroOfValueZeroStatement` | volunteer-build-reviewed |
+| M011768 | P1667 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStageLatticeStabilizerParamsOffSet` | volunteer-build-reviewed |
 | M011769 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStageLatticeStabilizerParamsOffSetStatement` | volunteer-build-reviewed |
 | M011771 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStageLevelSphericalOffSetStatement` | volunteer-build-reviewed |
 | M011778 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStepCharsUnramifiedOffS` | volunteer-build-reviewed |
@@ -356,6 +362,7 @@
 | M011932 | P2034 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaPairAnalyticHypothesesOfDiscreteSeries` | volunteer-build-reviewed |
 | M011936 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaSliceLineSumEqIntertwinerImage` | volunteer-build-reviewed |
 | M011937 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaSliceLineSumEqIntertwinerImageStatement` | volunteer-build-reviewed |
+| M011940 | P1763 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaSobolevSupBound` | volunteer-build-reviewed |
 | M011944 | P1995 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaTensorRuleOrthogonalSumSourceStatement` | volunteer-build-reviewed |
 | M011946 | P2034 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaTensorRuleTargetOrthogonalSumStatement` | volunteer-build-reviewed |
 | M011948 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaTermSeriesSummableModerateGrowthUniformStatement` | volunteer-build-reviewed |
@@ -395,10 +402,3 @@
 | M012047 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryExistsKernel` | volunteer-build-reviewed |
 | M012048 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryExistsKernelStatement` | volunteer-build-reviewed |
 | M012065 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryFinalCharacter` | volunteer-build-reviewed |
-| M012066 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryFinalCharacterStatement` | volunteer-build-reviewed |
-| M012070 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryFinalIndexStatement` | volunteer-build-reviewed |
-| M012071 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryFinalProperty` | volunteer-build-reviewed |
-| M012072 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryFinalPropertyStatement` | volunteer-build-reviewed |
-| M012073 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryFinalRelation` | volunteer-build-reviewed |
-| M012077 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryFinalTwist` | volunteer-build-reviewed |
-| M012078 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryFinalTwistStatement` | volunteer-build-reviewed |

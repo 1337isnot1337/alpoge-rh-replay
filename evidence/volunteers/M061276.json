@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M061276"
+  ],
+  "started_utc": "2026-11-21T15:51:05.001175+00:00",
+  "ended_utc": "2026-11-21T15:52:28.844541+00:00",
+  "elapsed_seconds": 83.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5460716
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.DeformMultipleZerosLinearFamilyStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "04f1a11e7e9da955000ff9f62bf1651de14d2a7789428efd3c59721c16acedcc",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.DeformMultipleZerosLinearFamily",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.NewtonPowerSeriesSurjectiveLinearizationSolution",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.NewtonPowerSeriesSurjectiveLinearizationSolutionStatement"
+  ],
+  "objects": {
+    "M061276": "cb8c526ed078957abece113cee05dec7db97a12df4b437958cc7c0b92ea1e1df"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "db5673596812c1acaa0aea47bfe3ddff389de231d50c0df11cbe4aa5435cf794",
+  "packet": "M061276",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23223#issuecomment-7065231134",
+  "reviewed_utc": "2026-11-21T17:04:13.978311+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

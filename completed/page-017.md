@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013016 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsHomSpecOfLeRingOn` | build-observed |
+| M013017 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsHomSpecOfLeRingOnStatement` | volunteer-build-reviewed |
+| M013018 | P0918 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsHomogenisation` | wave-reused |
+| M013021 | P1858 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralBasisCombinationOfIntegralFamilyStatement` | build-observed |
+| M013022 | P1247 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralDegenerationValues` | build-observed |
+| M013023 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralDegenerationValuesStatement` | volunteer-build-reviewed |
+| M013024 | P0006 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralExtIsAlgClosedResidueField` | volunteer-build-reviewed |
+| M013026 | P1220 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralGauge` | volunteer-build-reviewed |
+| M013027 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralNthRootTestModelPoint` | volunteer-build-reviewed |
+| M013029 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralPointOfTorusPointValuationZero` | volunteer-build-reviewed |
+| M013030 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralPointOfTorusPointValuationZeroStatement` | volunteer-build-reviewed |
+| M013031 | P0706 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInverseExtensionProperClosure` | build-observed |
+| M013033 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInvertibleAdaptedBasisLinkMatrix` | volunteer-build-reviewed |
 | M013034 | P1171 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInvertibleAdaptedBasisLinkMatrixStatement` | build-observed |
 | M013035 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInvertibleMatrixChangeOfSpanEq` | volunteer-build-reviewed |
 | M013037 | P0550 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsAffineOpenDisjointImageOfIsConstructible` | build-observed |
@@ -115,6 +128,7 @@
 | M013215 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsRealDimOneIsFractionRing` | volunteer-build-reviewed |
 | M013217 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsRelAmpleOfIsProjBy` | volunteer-build-reviewed |
 | M013218 | P1247 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsRigidificationPullbackCompatibleIso` | volunteer-build-reviewed |
+| M013219 | P1220 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsRigidificationSpreadFromGenericFibre` | volunteer-build-reviewed |
 | M013221 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsRigidifiedCubicalSymmetricExtensionNormalB` | build-observed |
 | M013222 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsRigidifiedCubicalSymmetricExtensionNormalBStatement` | volunteer-build-reviewed |
 | M013223 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsRigidifiedPolarisedFibreAtFieldPoint` | volunteer-build-reviewed |
@@ -388,17 +402,3 @@
 | M013676 | P1504 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.KTrivOfKTrivNonemptyOpenNormalCharZero` | volunteer-build-reviewed |
 | M013678 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.KbIsAlgClosedAndConj` | volunteer-build-reviewed |
 | M013679 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.KbIsAlgClosedAndConjStatement` | volunteer-build-reviewed |
-| M013680 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.KfBijective` | volunteer-build-reviewed |
-| M013681 | P0007 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.KummerTwistRelationAndFixedField` | volunteer-build-reviewed |
-| M013683 | P1789 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LabelMapKernelEqIntegralTorsionStatement` | build-observed |
-| M013685 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LabelledTorsionValuesAdditiveKernelSurjectiveStatement` | volunteer-build-reviewed |
-| M013688 | P0583 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LeOfZpowMulUnitEq` | build-observed |
-| M013689 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LePreimageOpenPartIffTestCoordinates` | wave-reused |
-| M013690 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LePreimageOpenPartIffTestCoordinatesStatement` | volunteer-build-reviewed |
-| M013691 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionOfOneAlgClosedField` | volunteer-build-reviewed |
-| M013693 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionValuedFieldTwistedUniformisation` | volunteer-build-reviewed |
-| M013694 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionValuedFieldTwistedUniformisationStatement` | volunteer-build-reviewed |
-| M013696 | P1958 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LiftValuationIntegralNormStatement` | volunteer-build-reviewed |
-| M013698 | P0785 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoExtendOfNormalBase` | build-observed |
-| M013699 | P0811 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoExtendOfNormalBaseStatement` | build-observed |
-| M013701 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoPullbackUniformisedThetaModelStatement` | volunteer-build-reviewed |

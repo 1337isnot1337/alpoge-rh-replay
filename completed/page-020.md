@@ -2,6 +2,25 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M016261 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BcMeasUniv` | volunteer-build-reviewed |
+| M016262 | P0975 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BcObjIsAbelianScheme` | volunteer-build-reviewed |
+| M016269 | P1618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BernsteinZelevinskyFinitenessHolds` | volunteer-build-reviewed |
+| M016272 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BertiniGeneralMembersNoDerivativeRelation` | volunteer-build-reviewed |
+| M016273 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BertiniGeneralMembersNoDerivativeRelationStatement` | volunteer-build-reviewed |
+| M016276 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BertiniSimpleZerosGenericSections` | volunteer-build-reviewed |
+| M016277 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BertiniSimpleZerosGenericSectionsStatement` | volunteer-build-reviewed |
+| M016278 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BetaBoundVp` | volunteer-build-reviewed |
+| M016282 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BetaIntegralDenominatorBound` | volunteer-build-reviewed |
+| M016283 | P0892 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BetaIntegralDenominatorBoundStatement` | build-observed |
+| M016285 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BetaTwistedInvolutionEqComplexConjOfMarked` | volunteer-build-reviewed |
+| M016287 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BetaUnramifiedOutside` | volunteer-build-reviewed |
+| M016288 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BetaUnramifiedOutsideStatement` | volunteer-build-reviewed |
+| M016289 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BiInvariantConjugacyClassesFinite` | volunteer-build-reviewed |
+| M016293 | P0476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BialgHomCotangentPullbackInjectiveOfSq` | volunteer-build-reviewed |
+| M016294 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BialgHomCotangentPullbackInjectiveOfSqStatement` | build-observed |
+| M016299 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BialgebraPullbackTwoConvMulSymmetricCocycle` | wave-reused |
+| M016300 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BialgebraPullbackTwoConvMulSymmetricCocycleStatement` | wave-reused |
+| M016303 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharDerivContDiff` | volunteer-build-reviewed |
 | M016304 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharDerivContDiffStatement` | volunteer-build-reviewed |
 | M016305 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharacterFourierTransformMemSchwartzBruhat` | build-observed |
 | M016306 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharacterFourierTransformMemSchwartzBruhatStatement` | build-observed |
@@ -185,6 +204,7 @@
 | M016887 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardLeFinrankSupEigenspacesStatement` | volunteer-build-reviewed |
 | M016889 | P2068 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardLeMulOfUnipotentCoverDiscreteSubgroupStatement` | volunteer-build-reviewed |
 | M016891 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardLeftCosetsDoubleCosetInvEq` | volunteer-build-reviewed |
+| M016893 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardMulFinrankCharacterSpaceOfFreePermutedSumman` | volunteer-build-reviewed |
 | M016895 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardMulRkKChiLatLeRankW` | volunteer-build-reviewed |
 | M016897 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardMultisetWordsMulFactorialStatement` | volunteer-build-reviewed |
 | M016898 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardNonempty` | volunteer-build-reviewed |
@@ -382,23 +402,3 @@
 | M017576 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartwiseC1DensityOfCompatibleStatement` | volunteer-build-reviewed |
 | M017577 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernAtOneEq` | volunteer-build-reviewed |
 | M017578 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernAtTwoEq` | volunteer-build-reviewed |
-| M017580 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernCharacterLineBundleExp` | volunteer-build-reviewed |
-| M017581 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernCharacterLineBundleExpStatement` | volunteer-build-reviewed |
-| M017590 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernClassKummerClassAdditive` | build-observed |
-| M017591 | P0706 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernClassKummerClassAdditiveStatement` | build-observed |
-| M017596 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernCurvatureFormSelfEqDualNorm` | build-observed |
-| M017598 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernCurvatureHermitianFormula` | build-observed |
-| M017599 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernCurvatureHermitianFormulaStatement` | build-observed |
-| M017602 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernDensDetWeightEqNegLeviLog` | volunteer-build-reviewed |
-| M017603 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernDensDetWeightEqNegLeviLogStatement` | volunteer-build-reviewed |
-| M017606 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernDensitySiegelPeriod` | volunteer-build-reviewed |
-| M017610 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernFlatOfQuadraticDerivative` | build-observed |
-| M017611 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernFlatOfQuadraticDerivativeStatement` | build-observed |
-| M017620 | P2506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernFormOfGramMatrixAtCompHolomorphic` | build-observed |
-| M017622 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernFormOfGramMatrixAtHolomorphicFrameChange` | volunteer-build-reviewed |
-| M017623 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernFormOfGramMatrixAtHolomorphicFrameChangeStatement` | volunteer-build-reviewed |
-| M017628 | P2594 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernFormTriangularConnectionEqEsymmGraded` | build-observed |
-| M017630 | P2555 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernFormTriangularEqEsymmFirstChernForms` | build-observed |
-| M017642 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernIntegralEqOrderSum` | volunteer-build-reviewed |
-| M017643 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernIntegralEqOrderSumStatement` | volunteer-build-reviewed |
-| M017644 | P2389 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernIntegralIndependentOfCoefficient` | build-observed |

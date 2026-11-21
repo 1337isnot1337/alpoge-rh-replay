@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M097480"
+  ],
+  "started_utc": "2026-11-21T15:55:08.458377+00:00",
+  "ended_utc": "2026-11-21T15:55:20.828541+00:00",
+  "elapsed_seconds": 12.4,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6845284
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.SumWithLatKerEqMulSumWithKerLat:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9d6a85da231b93dd6252962cc11030ddd4e3be0cf6579d4b895f7e47b0d45ea8",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.DualLatticeExchange",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.RootExchangeSupportAndFourierRelation",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnipotentRadicalBasic"
+  ],
+  "objects": {
+    "M097480": "fe03777ab074fdfa7d2a2c6085cfff8c71e2badb61e6c1eef34c24182d909bdb"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "d99fc85c8c6429e1149597a364c9283bb4df96dc6a4a31ebf0d147a6ca90af32",
+  "packet": "M097480",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23205#issuecomment-7065244712",
+  "reviewed_utc": "2026-11-21T17:05:03.329226+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

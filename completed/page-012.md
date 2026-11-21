@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M008536 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierHyperbolicTermsNearRefere` | volunteer-build-reviewed |
 | M008537 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierHyperbolicTermsNearRefereStatement` | volunteer-build-reviewed |
 | M008538 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierLevelCharacterSumCongr` | volunteer-build-reviewed |
 | M008539 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierLevelCharacterSumCongrStatement` | volunteer-build-reviewed |
@@ -283,6 +284,7 @@
 | M009120 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatBesselToFourierJacobiRowMulLawsStatement` | volunteer-build-reviewed |
 | M009121 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnIndicatorPureAtSymmetricPosition` | volunteer-build-reviewed |
 | M009123 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnMapEqRootExchangeOperatorTranslate` | volunteer-build-reviewed |
+| M009125 | P0550 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnSupportOfOneIndexAtSymPosition` | volunteer-build-reviewed |
 | M009126 | P0583 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnSupportOfOneIndexAtSymPositionStatement` | volunteer-build-reviewed |
 | M009127 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatContrIntIndicator` | volunteer-build-reviewed |
 | M009128 | P0679 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatFactorReductionKernelAllNonFreeUnreadEntries` | build-observed |
@@ -400,5 +402,3 @@
 | M009344 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GluedSplitPlaceLineCoordinateIntegral` | volunteer-build-reviewed |
 | M009345 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GluedSplitPlaceLineCoordinateIntegralStatement` | volunteer-build-reviewed |
 | M009346 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GodementSectionInvariantConvergent` | volunteer-build-reviewed |
-| M009347 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GodementSectionSmoothBounded` | volunteer-build-reviewed |
-| M009348 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GoodMajorantLevelConjUnitaryAdelicMaximalCompact` | volunteer-build-reviewed |

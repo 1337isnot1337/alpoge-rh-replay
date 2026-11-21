@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M012066 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryFinalCharacterStatement` | volunteer-build-reviewed |
+| M012070 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryFinalIndexStatement` | volunteer-build-reviewed |
+| M012071 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryFinalProperty` | volunteer-build-reviewed |
+| M012072 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryFinalPropertyStatement` | volunteer-build-reviewed |
+| M012073 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryFinalRelation` | volunteer-build-reviewed |
+| M012077 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryFinalTwist` | volunteer-build-reviewed |
+| M012078 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryFinalTwistStatement` | volunteer-build-reviewed |
 | M012080 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryFinalValueStatement` | volunteer-build-reviewed |
 | M012090 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryJointTwistData` | volunteer-build-reviewed |
 | M012091 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryJointTwistDataStatement` | volunteer-build-reviewed |
@@ -55,6 +62,7 @@
 | M012209 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryTwistScalar` | volunteer-build-reviewed |
 | M012211 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryTwistValue` | volunteer-build-reviewed |
 | M012217 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TsumAdelicMatrixSchwartzMajorantRationalNeTop` | volunteer-build-reviewed |
+| M012218 | P1644 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TsumAdelicMatrixSchwartzMajorantRationalNeTopStatement` | volunteer-build-reviewed |
 | M012222 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TupleColumnScalarAdelicFormContinuousStatement` | volunteer-build-reviewed |
 | M012227 | P2034 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TupleLevelPosOddBadPrimesPrimeToLevelStatement` | volunteer-build-reviewed |
 | M012228 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistChainLevelProductInverseScalarLaws` | volunteer-build-reviewed |
@@ -64,6 +72,7 @@
 | M012240 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistFiniteDatumThetaAtLevelPrime` | volunteer-build-reviewed |
 | M012243 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistIndexDataRepresentativeDependsOnDoubleCosetStatement` | volunteer-build-reviewed |
 | M012245 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistIndexSetEqProdLocalRepresentativesStatement` | volunteer-build-reviewed |
+| M012256 | P1836 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistPlaceCouplingIndexFiniteLevelStable` | volunteer-build-reviewed |
 | M012264 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistPlacesGroupEqProductLocalGroups` | volunteer-build-reviewed |
 | M012268 | P2034 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistPrimeCongruentMapsFrameReadingsBound` | volunteer-build-reviewed |
 | M012294 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistedChainThetaLiftUpSpan` | volunteer-build-reviewed |
@@ -91,6 +100,7 @@
 | M012364 | P1995 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitIdealCompletionAtPlaceEqIntegralAdelesAtPlac` | volunteer-build-reviewed |
 | M012367 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitNormVectorsOneOrbitSelfDualLatticeSplitStatement` | volunteer-build-reviewed |
 | M012379 | P1534 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitaryAdelicTrivialAtPlacesSubgroupAntitone` | volunteer-build-reviewed |
+| M012380 | P1561 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitaryAdelicTrivialAtPlacesSubgroupAntitoneStatement` | volunteer-build-reviewed |
 | M012382 | P2034 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitaryAverageTranslateEqSmulBranchingMapStatement` | volunteer-build-reviewed |
 | M012383 | P1939 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitaryClassRepresentativesBijective` | volunteer-build-reviewed |
 | M012386 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitaryFiniteAdelicGroupSplitFinitePlaceSetStatement` | volunteer-build-reviewed |
@@ -116,6 +126,7 @@
 | M012444 | P1714 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UpImageIntegralMatrixMemCompletedHomLattice` | volunteer-build-reviewed |
 | M012447 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UpInjWOfAForm` | volunteer-build-reviewed |
 | M012448 | P0437 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UpZeroMemLev` | volunteer-build-reviewed |
+| M012449 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.VAddGeOfMemProdZpow` | volunteer-build-reviewed |
 | M012453 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.VacuumFixedByLevelPairAtSelfDualPlaces` | volunteer-build-reviewed |
 | M012454 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.VacuumFixedByLevelPairAtSelfDualPlacesStatement` | volunteer-build-reviewed |
 | M012456 | P1995 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.VacuumMatrixCoefficientSourceInertPlaceStatement` | volunteer-build-reviewed |
@@ -156,6 +167,7 @@
 | M012581 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.WeilVacuumLocalModelIntegralMatrixPair` | volunteer-build-reviewed |
 | M012589 | P2034 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.WeylFormulaStandardUnitaryGroupWeilDatum` | volunteer-build-reviewed |
 | M012591 | P1836 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.WithMuEq` | volunteer-build-reviewed |
+| M012592 | P1996 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.WittCoreEmbeddingMemFiniteAdelicUnitaryGroup` | volunteer-build-reviewed |
 | M012595 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.WittCoreEmbeddingPreservesSupportedUnitarySubgro` | volunteer-build-reviewed |
 | M012597 | P2034 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.WittCoreEmbeddingStabilisesIffCoreStabilisesStatement` | volunteer-build-reviewed |
 | M012601 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.WittDecompositionRankZeroExtRestriction` | volunteer-build-reviewed |
@@ -390,15 +402,3 @@
 | M013013 | P1617 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsHomAlgebraisingThickeningsProjective` | volunteer-build-reviewed |
 | M013014 | P1644 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsHomAlgebraisingThickeningsProjectiveStatement` | build-observed |
 | M013015 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsHomRangeSubset` | volunteer-build-reviewed |
-| M013016 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsHomSpecOfLeRingOn` | build-observed |
-| M013017 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsHomSpecOfLeRingOnStatement` | volunteer-build-reviewed |
-| M013018 | P0918 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsHomogenisation` | wave-reused |
-| M013021 | P1858 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralBasisCombinationOfIntegralFamilyStatement` | build-observed |
-| M013022 | P1247 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralDegenerationValues` | build-observed |
-| M013023 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralDegenerationValuesStatement` | volunteer-build-reviewed |
-| M013024 | P0006 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralExtIsAlgClosedResidueField` | volunteer-build-reviewed |
-| M013027 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralNthRootTestModelPoint` | volunteer-build-reviewed |
-| M013029 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralPointOfTorusPointValuationZero` | volunteer-build-reviewed |
-| M013030 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralPointOfTorusPointValuationZeroStatement` | volunteer-build-reviewed |
-| M013031 | P0706 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInverseExtensionProperClosure` | build-observed |
-| M013033 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInvertibleAdaptedBasisLinkMatrix` | volunteer-build-reviewed |

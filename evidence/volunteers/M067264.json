@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M067264"
+  ],
+  "started_utc": "2026-11-21T15:53:30.794516+00:00",
+  "ended_utc": "2026-11-21T15:54:13.279181+00:00",
+  "elapsed_seconds": 42.5,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5816432
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardRootsClosedBallEqDominantIndexStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "37997aaeb3699c024366e9fbdd9861052e5c11ffbaa40529ff8845f950e2c027",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardRootsClosedBallEqDominantIndex",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NewtonPolygonDominantIndexXSubCMul",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NewtonPolygonDominantIndexXSubCMulStatement",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NewtonPolygonLastDominantIndexMulXSubC",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NewtonPolygonLastDominantIndexMulXSubCStatement"
+  ],
+  "objects": {
+    "M067264": "afd34d87eceae0e636280218a96ec8b6f29a91b39be35925dd415b13bbbaf976"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "030271a5d955feced12f70c6a3ef8253f6c5e7173c90fcfb9eb43acb9816938a",
+  "packet": "M067264",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23226#issuecomment-7065232485",
+  "reviewed_utc": "2026-11-21T17:04:13.912672+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

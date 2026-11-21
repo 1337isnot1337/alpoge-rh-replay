@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M022608"
+  ],
+  "started_utc": "2026-11-21T16:00:19.590027+00:00",
+  "ended_utc": "2026-11-21T16:01:15.297983+00:00",
+  "elapsed_seconds": 55.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5293360
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfMemAllPowers:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "448e95d86e6dec6edfd0fd3f6e3360ffe4a9c6d13aec685df1e96b56b61799bc",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.AevalRootEqZeroIff",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsUnitOneAddPiOMul",
+    "Formalism.SatakeDualWeyl.StatementF",
+    "GroundTheory.LocalFields.FilteredSurj"
+  ],
+  "objects": {
+    "M022608": "ba271876145928af28b20389c8c610597e2da494cffa86b2195073f44619e983"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "32b729e20506a6ab834d239d46976d772763a71355fd847c764edf95a16053fb",
+  "packet": "M022608",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23254#issuecomment-7065325561",
+  "reviewed_utc": "2026-11-21T17:03:57.178737+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M009347 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GodementSectionSmoothBounded` | volunteer-build-reviewed |
+| M009348 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GoodMajorantLevelConjUnitaryAdelicMaximalCompact` | volunteer-build-reviewed |
 | M009349 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GoodMajorantLevelConjUnitaryAdelicMaximalCompactStatement` | volunteer-build-reviewed |
 | M009350 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GoodPositionSplitLinesReadCompletionsAtPlace` | volunteer-build-reviewed |
 | M009351 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GoodPositionSplitLinesReadCompletionsAtPlaceStatement` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M010069 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatEqOfCarries` | volunteer-build-reviewed |
 | M010070 | P1788 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatIndLastKerRow` | volunteer-build-reviewed |
 | M010073 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAAScaledEqAtUnitSplitPlaces` | volunteer-build-reviewed |
-| M010074 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAAScaledEqAtUnitSplitPlacesStatement` | volunteer-build-reviewed |
-| M010075 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAtPlacesMemCompletedHermitianLa` | volunteer-build-reviewed |

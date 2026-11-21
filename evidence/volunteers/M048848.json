@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M048848"
+  ],
+  "started_utc": "2026-11-21T15:50:01.413709+00:00",
+  "ended_utc": "2026-11-21T15:50:33.184767+00:00",
+  "elapsed_seconds": 31.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 7097600
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchrodingerRepSchwartzPolynomialBoundStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9ff4b78c05f458ff6aacc677f6fa244a8a6b8c28951b83adf9289c140e56c1d3",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchrodingerRepSchwartzPolynomialBound",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzCharacterSeminormBound",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzSeminormSmulLeftLinearPhaseLe"
+  ],
+  "objects": {
+    "M048848": "6e16c0583a1fe3c11e397a31af9a9171a8639e725725b0817e28af0c0a7e8d7d"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "db70be6813ed04ae1b1823457c9e2eac0afd4b1d7217738075bb6a4c949275bc",
+  "packet": "M048848",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23203#issuecomment-7065184716",
+  "reviewed_utc": "2026-11-21T17:05:03.751514+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

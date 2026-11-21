@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M087488"
+  ],
+  "started_utc": "2026-11-21T15:56:13.746700+00:00",
+  "ended_utc": "2026-11-21T15:56:48.734145+00:00",
+  "elapsed_seconds": 35.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5315244
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsNormEqFixedUnitHenselianStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fb84643bb3d8080ba23cb976d6a4205f250405fd1e3516440be830d5192f8e9d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.BinaryFormUniversal",
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsEqTransposeMulMapOfIdempotent",
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsIsUnitFormSelfOfNotMem",
+    "Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsNormEqFixedUnitHenselian"
+  ],
+  "objects": {
+    "M087488": "2d2697e0cd987dbdeeb4782837a9c2a4c305af5e88be419ab32b6ddf1dfa28f0"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "d86b6157daf9ad0fa8ef279dfbe69e4add2abee40eff3d2d0b8f529c1de1eb1b",
+  "packet": "M087488",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23247#issuecomment-7065264023",
+  "reviewed_utc": "2026-11-21T17:03:57.293690+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

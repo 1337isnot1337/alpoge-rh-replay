@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M156204"
+  ],
+  "started_utc": "2026-11-21T15:50:53.158479+00:00",
+  "ended_utc": "2026-11-21T15:52:18.567865+00:00",
+  "elapsed_seconds": 85.4,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16282904,
+    "peak_child_rss_kib": 6364084
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.OddDualWeylJacobian.ExistsEqMulOfColumnSpanLe:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4259d44ebf660c54fcf380df65d414d6f4ba2e8b16dfa4b9b5e290b34307057b",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.OddDualWeyl",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.OddDualWeylJacobian.DualSub",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.OddDualWeylJacobian.JacRev"
+  ],
+  "objects": {
+    "M156204": "b20e05904865ac256b2b8d2e93c076aa1d8c264eb99c9be11a8a16411cf259e1"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "8e4d395598430087f91b0ee0abd3d4f72ec0be855ba5b230c60939c29080a145",
+  "packet": "M156204",
+  "contributor": "chriswilson413",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23258#issuecomment-7065214789",
+  "reviewed_utc": "2026-11-21T17:04:13.403693+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

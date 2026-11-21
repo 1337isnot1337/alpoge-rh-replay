@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M164339"
+  ],
+  "started_utc": "2026-11-21T15:50:53.535083+00:00",
+  "ended_utc": "2026-11-21T15:52:18.757657+00:00",
+  "elapsed_seconds": 85.2,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16282904,
+    "peak_child_rss_kib": 6358492
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PRegularLocusIdentity:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "83732e408f2e26a1ca93a0f4ec54233c359839c7200f9f690a309020055bbbd0",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.RegularLocus",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StNormalModel",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StRegularLocusIdentity",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StRegularOffHypersurface"
+  ],
+  "objects": {
+    "M164339": "b203637d7283bb150183891647cd1b332ef4af4fc63fefacebcc59c0d4d648f6"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "e824ec1686014a27c35ec3ef476449cf5f21e1bdaef49c3db71ed30f1e69734a",
+  "packet": "M164339",
+  "contributor": "chriswilson413",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23259#issuecomment-7065215787",
+  "reviewed_utc": "2026-11-21T17:04:13.318689+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

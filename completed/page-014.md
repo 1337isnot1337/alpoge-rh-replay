@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M010074 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAAScaledEqAtUnitSplitPlacesStatement` | volunteer-build-reviewed |
+| M010075 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAtPlacesMemCompletedHermitianLa` | volunteer-build-reviewed |
 | M010076 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAtPlacesMemCompletedHermitianLaStatement` | volunteer-build-reviewed |
 | M010077 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAtPlacesSelfDualOfSelfDual` | volunteer-build-reviewed |
 | M010078 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAtPlacesSelfDualOfSelfDualStatement` | volunteer-build-reviewed |
@@ -352,6 +354,7 @@
 | M010713 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PairsAmplitudeBoundOfTypeBoundStatement` | volunteer-build-reviewed |
 | M010714 | P1115 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricBiTransformingLowerUnipotentDiagValue` | volunteer-build-reviewed |
 | M010715 | P1144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricBiTransformingLowerUnipotentDiagValueStatement` | build-observed |
+| M010716 | P0348 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricChainLastTwoStepsRootOfUnity` | volunteer-build-reviewed |
 | M010717 | P0394 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricChainLastTwoStepsRootOfUnityStatement` | volunteer-build-reviewed |
 | M010720 | P0732 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricDoubleCosetValuation` | build-observed |
 | M010726 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricLevelCharacterEqInvBlockDetStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M010820 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PoincareSeriesCompactSupportThetaLawStatement` | volunteer-build-reviewed |
 | M010821 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PointDeterminantDiamondOperatorInvariant` | volunteer-build-reviewed |
 | M010823 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PolOfFnOfOne` | volunteer-build-reviewed |
-| M010824 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PosIffLtCard` | volunteer-build-reviewed |
-| M010825 | P0706 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PositionOneOfSymmetricDoubleIntegralFinite` | build-observed |
-| M010826 | P0732 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PositionOneOfSymmetricDoubleIntegralFiniteStatement` | build-observed |

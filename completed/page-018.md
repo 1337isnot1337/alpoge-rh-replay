@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013680 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.KfBijective` | volunteer-build-reviewed |
+| M013681 | P0007 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.KummerTwistRelationAndFixedField` | volunteer-build-reviewed |
+| M013683 | P1789 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LabelMapKernelEqIntegralTorsionStatement` | build-observed |
+| M013685 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LabelledTorsionValuesAdditiveKernelSurjectiveStatement` | volunteer-build-reviewed |
+| M013688 | P0583 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LeOfZpowMulUnitEq` | build-observed |
+| M013689 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LePreimageOpenPartIffTestCoordinates` | wave-reused |
+| M013690 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LePreimageOpenPartIffTestCoordinatesStatement` | volunteer-build-reviewed |
+| M013691 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionOfOneAlgClosedField` | volunteer-build-reviewed |
+| M013693 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionValuedFieldTwistedUniformisation` | volunteer-build-reviewed |
+| M013694 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionValuedFieldTwistedUniformisationStatement` | volunteer-build-reviewed |
+| M013696 | P1958 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LiftValuationIntegralNormStatement` | volunteer-build-reviewed |
+| M013698 | P0785 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoExtendOfNormalBase` | build-observed |
+| M013699 | P0811 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoExtendOfNormalBaseStatement` | build-observed |
+| M013701 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoPullbackUniformisedThetaModelStatement` | volunteer-build-reviewed |
 | M013702 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoValuesConstantOfSameCubeTheta` | volunteer-build-reviewed |
 | M013703 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoValuesConstantOfSameCubeThetaStatement` | volunteer-build-reviewed |
 | M013704 | P1221 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleSpreadsOutFromGenericFibreProper` | build-observed |
@@ -388,17 +402,3 @@
 | M014783 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddValuationNatCastEqPadicValNat` | volunteer-build-reviewed |
 | M014784 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddValuationNatCastEqPadicValNatStatement` | volunteer-build-reviewed |
 | M014786 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveBijectiveRelationRowVecEqMatrixStatement` | volunteer-build-reviewed |
-| M014791 | P0296 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveCocycleLocalTrivial` | build-observed |
-| M014792 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveCocycleLocalTrivialStatement` | build-observed |
-| M014793 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveCocycleNormalizedTrivial` | build-observed |
-| M014794 | P0649 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveCocycleNormalizedTrivialStatement` | build-observed |
-| M014803 | P0892 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveFormalGroupCoboundaryHomogeneous` | wave-reused |
-| M014804 | P0918 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveFormalGroupCoboundaryHomogeneousStatement` | build-observed |
-| M014805 | P0476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveFunctionCartierDualTangentBijective` | volunteer-build-reviewed |
-| M014806 | P0516 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveFunctionCartierDualTangentBijectiveStatement` | wave-reused |
-| M014807 | P0296 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveFunctionOnMonoidLinear` | wave-reused |
-| M014808 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveFunctionOnMonoidLinearStatement` | wave-reused |
-| M014809 | P0476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveFunctionsFlatBaseChangeBijective` | volunteer-build-reviewed |
-| M014810 | P0516 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveFunctionsFlatBaseChangeBijectiveStatement` | wave-reused |
-| M014811 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveHomogeneousFunctionalLinear` | volunteer-build-reviewed |
-| M014813 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveHomogeneousOperatorLinear` | volunteer-build-reviewed |

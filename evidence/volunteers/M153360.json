@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M153360"
+  ],
+  "started_utc": "2026-11-21T15:52:31.470841+00:00",
+  "ended_utc": "2026-11-21T15:53:10.808351+00:00",
+  "elapsed_seconds": 39.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5861836
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PadicSubsetSums.StableGradedCounts.BaseChangeIwahoriFactorization:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2a64dea2f451241c661d7ea1f48bfd27e967814c34a9ae0070097a2e9a9be179",
+  "rebuilt_project_modules": [
+    "Formalism.PadicSubsetSums.CentralIdempotents.FactorOverLocalSubalgebraMonic",
+    "Formalism.PadicSubsetSums.CentralIdempotents.PrimitiveRootFifteenSubOneUnit",
+    "Formalism.PadicSubsetSums.CentralIdempotents.SchurOrthogonalityCompact",
+    "Lemmata.FirstBlockLemmaG.Imports",
+    "Lemmata.MiscLemmasA.Imports"
+  ],
+  "objects": {
+    "M153360": "3dbba520b9e73063e8aba9373d5700e5fe305263f1e7aa4315b10842b78cbf8c"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "ad2095fb19cb580739bccf661bc9a794da75b52eacda79fbaac9f64e76f7745f",
+  "packet": "M153360",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23224#issuecomment-7065231526",
+  "reviewed_utc": "2026-11-21T17:04:13.956538+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

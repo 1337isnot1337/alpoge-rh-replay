@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M010716"
+  ],
+  "started_utc": "2026-11-21T15:48:50.238336+00:00",
+  "ended_utc": "2026-11-21T15:49:11.201904+00:00",
+  "elapsed_seconds": 21.0,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6932508
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricChainLastTwoStepsRootOfUnity:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6dceeaba6d2f15bf352113d32c21b70f59ed2b5b6f1713768aedf613eb84637d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocallyConstantAddChar",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormPowTwoPowSubOneGe",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.LinearChangeOfVariablesLocalFieldMatrix"
+  ],
+  "objects": {
+    "M010716": "224c8cc69989650ee0624158a91e08015d51f6063fe6eab35c0d68e48eb43b20"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "5c50846349f9b4823ef5f41ea5b58f0a2d14c9c89dfb2e9ee4371f1d5ece0bba",
+  "packet": "M010716",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23199#issuecomment-7065167889",
+  "reviewed_utc": "2026-11-21T17:05:08.352676+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

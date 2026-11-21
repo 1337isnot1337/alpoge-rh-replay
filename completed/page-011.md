@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M007128 | P1144 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsFaithfullyFlatRootsStatement` | build-observed |
 | M007129 | P1324 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsFaithfullyFlatSplitIsotropicGroup` | build-observed |
 | M007130 | P1350 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsFaithfullyFlatSplitIsotropicGroupStatement` | build-observed |
 | M007133 | P0583 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsFinsetMeetingFibres` | wave-reused |
@@ -401,4 +402,3 @@
 | M008531 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsContinuousLeftInvariantRepConjugateTensor` | volunteer-build-reviewed |
 | M008533 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsContinuousLocalGLEmbeddingSplitPlace` | volunteer-build-reviewed |
 | M008534 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsContinuousLocalGLEmbeddingSplitPlaceStatement` | volunteer-build-reviewed |
-| M008536 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierHyperbolicTermsNearRefere` | volunteer-build-reviewed |

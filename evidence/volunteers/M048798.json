@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M048798"
+  ],
+  "started_utc": "2026-11-21T15:56:53.059412+00:00",
+  "ended_utc": "2026-11-21T15:57:30.393211+00:00",
+  "elapsed_seconds": 37.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5270748
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchlessingerFlatFibreProductStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e650b01770f805abd687c2f23b9a4c9bd5d78a1bb3bb78ce4763f098fd276a77",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MulTensorInjectiveOfFlatBaseChangeKerInf",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MulTensorInjectiveOfFlatBaseChangeKerInfStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RTensorInjectiveOfPowSmulEqBot",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchlessingerFlatFibreProduct"
+  ],
+  "objects": {
+    "M048798": "a552c6f42b68ceff4f61e557e9f8b244c51516004928aeaf4b39fd3d09f1a732"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "5374e1df9d309ca52d3592629b2117d70734e087884ef4fab2444e9cc9171321",
+  "packet": "M048798",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23238#issuecomment-7065290587",
+  "reviewed_utc": "2026-11-21T17:04:13.369876+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

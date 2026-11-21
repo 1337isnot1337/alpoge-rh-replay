@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M108631"
+  ],
+  "started_utc": "2026-11-21T15:50:37.836594+00:00",
+  "ended_utc": "2026-11-21T15:51:11.536520+00:00",
+  "elapsed_seconds": 33.6,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 6844748
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.UnitaryThreeDeformations.MapDiagonalRepMatrixEq:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "264888ae617b9f3ca427a93cf830cc24c7f42a44bf4fbe4e74c959bd16386479",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.UnitaryThreeDeformations.AdjointDiagonalRepPreservesWeightPiece",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.UnitaryThreeDeformations.IsCharZeroPt",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.UnitaryThreeGroups.ConjTor"
+  ],
+  "objects": {
+    "M108631": "e34b84a231a5697e3f6c4f2838a4369002a4eec738e1288f50b0fd708ef5cd24"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "e8285e923584f4e58e34ef5722a6acbbfb1850b3ef1406f6058dc96d45cb5623",
+  "packet": "M108631",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23240#issuecomment-7065192508",
+  "reviewed_utc": "2026-11-21T17:04:13.891275+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}
