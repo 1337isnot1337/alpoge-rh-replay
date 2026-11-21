@@ -1,0 +1,8 @@
+{
+  "module": "Lemmata.GeneralBFactBisAlt.Imports",
+  "source_sha256": "3e047e0b2c750d9c1ed2d428d1a387fc8a160f25075033ebcfc9d00948d32a1f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0087-lean436-20261121/packet-result.json"
+}

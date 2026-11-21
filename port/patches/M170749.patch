@@ -1,0 +1,10 @@
+--- a/src/Lemmata/FirstBlockLemmaL/Imports.lean
++++ b/src/Lemmata/FirstBlockLemmaL/Imports.lean
+@@ -7,6 +7,7 @@
+   (∀ (x : Nat), Membership.mem.{0, 0} s x → Ne.{1} x 0) →
+     Eq.{1} (padicValNat ℓ (Multiset.prod.{0} s)) (Multiset.sum.{0} (Multiset.map.{0, 0} (padicValNat ℓ) s)) := by
+   intro ℓ _ s hs
++  simp only [Nat.padicValNat_def]
+   induction s using Multiset.induction_on with
+   | empty => simp
+   | cons a t ih =>

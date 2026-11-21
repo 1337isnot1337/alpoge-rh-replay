@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.TateCohomology.DoubleCosetSum",
+  "source_sha256": "90a422e4c95afa3ad0f9e45d958cff2ca1b51bb82142477b19bc1de760c17ec9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0087-lean436-20261121/packet-result.json"
+}

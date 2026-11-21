@@ -1,0 +1,8 @@
+{
+  "module": "Lemmata.Cancellation.EnnrealVolumeRatioStepCancel",
+  "source_sha256": "0ac1aaeba4c9f310d517cba233c197b38c43fda5bc38af0b4a74095c7e529ad0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0087-lean436-20261121/packet-result.json"
+}

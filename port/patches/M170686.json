@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.TateCohomology.DiagonalSuccIsoFreeInvSingle",
+  "source_sha256": "7dd5380d2300cbbe8fd58011a7f0c17e25ed65bba05cfbf4a14a3ab716e39459",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0087-lean436-20261121/packet-result.json"
+}

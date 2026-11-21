@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.TateCohomology.TateAddEquivAbelianizationTateClass",
+  "source_sha256": "04dfb1fd1f7e16e7f975c658f7f372f0adeb14f0652c2a1f931f7e255ff22e90",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent definition/type namespace adaptation: the pinned root Abelianization G is the group quotient G by its commutator subgroup. The target names that same group quotient Group.Abelianization G. All additive equivalences and module isomorphisms retain the same domain, codomain group quotient and construction; no assumptions change.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0087-lean436-20261121/packet-result.json"
+}

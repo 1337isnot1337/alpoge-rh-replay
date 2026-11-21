@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ProfiniteCohomology.TorsionDualDefs",
+  "source_sha256": "e5bf07814e391f16cf91325d738df6b132080a967dba5d50bf2168fbc8db1dc1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0087-lean436-20261121/packet-result.json"
+}
