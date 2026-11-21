@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PAdicAlgebraicApproximation",
+  "source_sha256": "0e63766573b81b39e009bff8fc283e9811115402c2938c4244d0209fbf2e494b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed continuous_finsetSum."
+}

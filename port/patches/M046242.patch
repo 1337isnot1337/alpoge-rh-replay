@@ -1,0 +1,12 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/PosDefExistsConjTransposeMulMulEqOne.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/PosDefExistsConjTransposeMulMulEqOne.lean
+@@ -45,8 +45,7 @@
+   show Yᴴ * H * Y = 1
+   have hsH : (diagonal s)ᴴ = diagonal s := by
+     rw [diagonal_conjTranspose]
+-    congr 1; funext i
+-    simp [s]
++    congr 1
+   have hdiag : diagonal s * diagonal (fun i => ((hH.eigenvalues i : ℝ) : ℂ)) * diagonal s = 1 := by
+     rw [diagonal_mul_diagonal, diagonal_mul_diagonal, ← diagonal_one]
+     congr 1; funext i

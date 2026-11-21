@@ -1,0 +1,23 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/PolarizationDerivativeVanish.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/PolarizationDerivativeVanish.lean
+@@ -12,7 +12,7 @@
+   set q : Polynomial ℝ := ∑ k ∈ Finset.range (m + 2), Polynomial.C (a k) * Polynomial.X ^ k with hq
+   have heval : ∀ t : ℝ, q.eval t = Φ ((L + C t * P) ^ (m + 1)) := by
+     intro t
+-    rw [add_comm, add_pow, map_sum, hq, Polynomial.eval_finset_sum]
++    rw [add_comm, add_pow, map_sum, hq, Polynomial.eval_finsetSum]
+     refine Finset.sum_congr rfl (fun k _ => ?_)
+     have : (C t * P) ^ k * L ^ (m + 1 - k) * ((m + 1).choose k : MvPolynomial σ ℝ)
+         = (t ^ k * ((m + 1).choose k : ℝ)) • (P ^ k * L ^ (m + 1 - k)) := by
+@@ -28,9 +28,9 @@
+     rintro _ ⟨t, rfl⟩
+     simp only [Set.mem_setOf_eq, Polynomial.IsRoot, Polynomial.eval_sub, Polynomial.eval_C, heval, h t,
+       sub_self]
+-  have hc := congrArg (fun p => Polynomial.coeff p 1) hzero
++  have hc := congrArg (fun p => p.coeff 1) hzero
+   simp only [Polynomial.coeff_sub, Polynomial.coeff_C, Polynomial.coeff_zero, hq,
+-    Polynomial.finset_sum_coeff, Polynomial.coeff_C_mul_X_pow] at hc
++    Polynomial.finsetSum_coeff, Polynomial.coeff_C_mul_X_pow] at hc
+   rw [Finset.sum_ite_eq (Finset.range (m + 2)) 1] at hc
+   simp only [Finset.mem_range, show 1 < m + 2 by omega, if_true, one_ne_zero, if_false, sub_zero, ha,
+     Nat.choose_one_right, pow_one, Nat.add_sub_cancel] at hc

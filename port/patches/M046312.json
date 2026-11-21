@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PowCardLeNormProd",
+  "source_sha256": "91459e3d5d57f14ac89fb15e9d45717933867c56249c7cb1afdd768817d582b1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Polynomial.coeff is no longer a standalone function: use dot notation F.coeff 0."
+}

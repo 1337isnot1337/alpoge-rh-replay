@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PluckerMinorsProportional",
+  "source_sha256": "ee77bbc324fa650477973abb3fcd9a33457c3698e833130726e6da4d17847431",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify the now-protected Matrix.mul_apply and Matrix.one_apply."
+}

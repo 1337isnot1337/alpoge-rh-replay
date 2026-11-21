@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/PAdicAlgebraicApproximation.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/PAdicAlgebraicApproximation.lean
+@@ -17,7 +17,7 @@
+     Continuous (fun yz : (Fin d → R) × R =>
+       Polynomial.eval₂ (MvPolynomial.aeval yz.1).toRingHom yz.2 Q) := by
+   simp only [Polynomial.eval₂_eq_sum_range]
+-  refine continuous_finset_sum _ fun i _ => ?_
++  refine continuous_finsetSum _ fun i _ => ?_
+   exact ((continuous_mvAeval (Q.coeff i)).comp continuous_fst).mul (continuous_snd.pow i)
+ 
+ end GlobalTheory.HypersurfaceApprox

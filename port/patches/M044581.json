@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormRootLeMaxOneSumNormCoeff",
+  "source_sha256": "e60813dccebda072d2a3328f94e7a5504e73e1977135cd8fc74c313096312857",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The two-hypothesis product bound is now Finset.prod_le_one\u2080."
+}
