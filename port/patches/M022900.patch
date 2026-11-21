@@ -1,0 +1,12 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/EtaleLocalizationAtPrimeOfHeightOne.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/EtaleLocalizationAtPrimeOfHeightOne.lean
+@@ -16,7 +16,8 @@
+   set P : Ideal R := q.comap (algebraMap R (Localization.AtPrime p)) with hPdef
+   haveI : P.IsPrime := Ideal.comap_isPrime _ _
+   have hP : P.height = 1 := by
+-    rw [← hq, ← IsLocalization.height_comap p.primeCompl q]
++    change (q.under R).height = 1
++    rw [IsLocalization.height_under p.primeCompl q, hq]
+   haveI := H P hP
+   haveI : IsLocalization.AtPrime (Localization.AtPrime q) P :=
+     IsLocalization.isLocalization_atPrime_localization_atPrime p.primeCompl q

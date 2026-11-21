@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetMulExpandAlt",
+  "source_sha256": "3de4ad2198b40f7824a54e10f6df8c870bc63ccf5770572d0af720afe75ec71c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Add explicit RingHom.id V parameter to semilinear MultilinearMap in Mathlib v4.36.0."
+}

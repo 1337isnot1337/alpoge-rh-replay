@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoubleCosetSumFundamentalDomain",
+  "source_sha256": "709adddeaecfba0d39e1b6c1d0d159eacc55adf5c06edaefc226f52c72659b63",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename continuous_mul_right to continuous_mul_const and integral_finset_sum to integral_finsetSum for Mathlib v4.36.0."
+}

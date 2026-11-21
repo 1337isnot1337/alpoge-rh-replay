@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DixmierSchurOfRankLeAleph0",
+  "source_sha256": "147bc804330ba639fc46cd5aa72c07df833b7659056b0ca600da072c5d1fe902",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename Polynomial.eval_finset_sum to Polynomial.eval_finsetSum for Mathlib v4.36.0."
+}

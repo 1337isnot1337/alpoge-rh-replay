@@ -1,0 +1,23 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DirichletSeriesIntegralHolomorphic.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DirichletSeriesIntegralHolomorphic.lean
+@@ -77,7 +77,7 @@
+     simp only [hall, lintegral_const, ENNReal.top_mul (Measure.measure_univ_ne_zero.mpr hμ)] at h
+     exact lt_irrefl _ h
+   have hEm : ∀ t : ℝ, Measurable (fun x => ∑' i, ENNReal.ofReal (φ i x ^ t)) := fun t =>
+-    Measurable.ennreal_tsum (fun i => ((hφm i).pow_const t).ennreal_ofReal)
++    Measurable.tsum (fun i => ((hφm i).pow_const t).ennreal_ofReal)
+   have htoReal : ∀ (t : ℝ) (x : α),
+       (fun i => (ENNReal.ofReal (φ i x ^ t)).toReal) = fun i => φ i x ^ t := fun t x =>
+     funext fun i => ENNReal.toReal_ofReal (Real.rpow_nonneg (hφp i x).le t)
+@@ -161,7 +161,10 @@
+     (by
+       filter_upwards [hgood] with x hx
+       intro s hs
+-      refine hasDerivAt_tsum_of_isPreconnected (hu x hx.1 hx.2) isOpen_ball
++      refine hasDerivAt_tsum_of_isPreconnected
++        (g := fun i s => (φ i x : ℂ) ^ s)
++        (g' := fun i s => (φ i x : ℂ) ^ s * Complex.log (φ i x))
++        (hu x hx.1 hx.2) isOpen_ball
+         (convex_ball s₀ δ).isPreconnected (fun i s' _ => hderiv_term i x s')
+         (fun i s' hs' => hbnd i x s' hs') hs₀b ?_ hs
+       refine Summable.of_norm_bounded (hx.1.add hx.2) (fun i => ?_)

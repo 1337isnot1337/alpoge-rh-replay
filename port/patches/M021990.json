@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DvrLocPrincipalPrime",
+  "source_sha256": "7211dfa2006e9a307a5902c35e9ac53bb446f521cb8c343a9f2757d77ccea6b2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use 1-based TFAE indices (1, 5) instead of (0, 4) in IsDiscreteValuationRing.TFAE.out for Mathlib v4.36.0."
+}

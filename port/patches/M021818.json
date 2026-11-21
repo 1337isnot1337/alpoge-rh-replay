@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DualHopfOrderGaussSum",
+  "source_sha256": "1e19279ee9a8077263cd426fccf85f7f327ccdeff291399ac1eeea112d9487a8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace IsLocalization.comap_map_of_isPrime_disjoint with IsLocalization.under_map_of_isPrime_disjoint and Ideal.under_def in Mathlib v4.36.0."
+}
