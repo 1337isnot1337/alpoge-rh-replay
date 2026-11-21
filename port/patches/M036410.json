@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsAlt",
+  "source_sha256": "8936d777e1a72ae8b18485725d6110f1a2bacde7b31f32ffd3725d8fa4bb4a7a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use IsLocalization.map_under; Ideal.under is the same comap along algebraMap. Statements are unchanged."
+}

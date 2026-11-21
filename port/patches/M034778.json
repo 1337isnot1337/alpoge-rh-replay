@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumConjClassesRegroupWithInvariantSelection",
+  "source_sha256": "41380624f5542a8d3aa51e25ef66906397881109fab879eb84f026b42a530496",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename summable_of_finite_support to summable_of_hasFiniteSupport. Statements are unchanged."
+}

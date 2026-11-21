@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarMeasureProductGroups",
+  "source_sha256": "dc15ab988345d1c10f6c4cc33129b8410ce8523d595a1e91060ff5b853d8a268",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename continuous_mul_left to continuous_const_mul and supply the existing measurability proof to Measure.map_smul. Statements are unchanged."
+}

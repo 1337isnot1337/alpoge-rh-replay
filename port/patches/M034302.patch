@@ -1,0 +1,20 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HaarMeasureProductGroups.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HaarMeasureProductGroups.lean
+@@ -46,7 +46,7 @@
+       rcases p with ⟨a, b⟩
+       exact hlaw a' b' a b
+     change Measure.map (fun x => Ψ (a', b') * x) (ρ.map Ψ) = ρ.map Ψ
+-    rw [Measure.map_map (continuous_mul_left _).measurable hΨm, hcomp,
++    rw [Measure.map_map (continuous_const_mul _).measurable hΨm, hcomp,
+       ← Measure.map_map hΨm (hT a' b').measurable, (hT a' b').map_eq]
+   haveI : IsFiniteMeasureOnCompacts μ := Measure.IsFiniteMeasureOnCompacts.map _ Ψ
+   haveI : μ.IsOpenPosMeasure := Ψ.continuous.isOpenPosMeasure_map Ψ.surjective
+@@ -67,7 +67,7 @@
+   have h2 := addEquivAddHaarChar_smul_map μB L₂
+   have h := mulEquivHaarChar_smul_map μ φ
+   have hc : (addEquivAddHaarChar L₁ * addEquivAddHaarChar L₂) • μ.map φ = μ := by
+-    rw [hchart, ← Measure.map_smul, mul_smul, ← Measure.prod_smul_right,
++    rw [hchart, ← Measure.map_smul _ hΨm.aemeasurable, mul_smul, ← Measure.prod_smul_right,
+       ← Measure.prod_smul_left, h1, h2]
+   obtain ⟨K, hK, hK0⟩ := exists_compact_mem_nhds (1 : N)
+   have hpos : (μ.map φ) K ≠ 0 := by

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsExtraLast",
+  "source_sha256": "3c828f7da8155b3fb38cc6d48cd05215919256a367451a9b56d77f50b414d347",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace the old IsLattice hypothesis with IsFullLattice. The old class required finite generation and full span; the new IsLattice no longer requires full span. Here E is the fraction field of its ring of integers, so the additional scalar-extension condition in the new IsLattice follows from finite generation by Submodule.IsLattice.of_fg. IsFullLattice therefore preserves the original hypothesis, including the full-span condition used by the proof."
+}
