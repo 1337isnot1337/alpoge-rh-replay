@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001681 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FlagFacts` | volunteer-build-reviewed |
+| M001682 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FlagFactsStatement` | volunteer-build-reviewed |
+| M001690 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FrameOfAnisotropicPlaneSplittingStatement` | volunteer-build-reviewed |
 | M001691 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FreeAlgebraActionOnSubquotient` | volunteer-build-reviewed |
 | M001692 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FreeAlgebraActionOnSubquotientStatement` | volunteer-build-reviewed |
 | M001693 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FubiniOfParabolicHaarMultiple` | volunteer-build-reviewed |
@@ -85,6 +88,7 @@
 | M001922 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.SnTens2` | volunteer-build-reviewed |
 | M001923 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.SnTens2Statement` | volunteer-build-reviewed |
 | M001925 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.SpanGenerators` | volunteer-build-reviewed |
+| M001928 | P0094 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.SplittingOfSandwichAndPairing` | volunteer-build-reviewed |
 | M001932 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.StandardBlocksLevelSum` | volunteer-build-reviewed |
 | M001933 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.StandardBlocksLevelSumStatement` | volunteer-build-reviewed |
 | M001934 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.StandardDifferential` | volunteer-build-reviewed |
@@ -123,6 +127,7 @@
 | M002021 | P0549 | `CompanionTheory.ThickeningEstimates.LieGroupReduction.MetaplecticRepresentation.MetaplecticGroupT2Space` | volunteer-build-reviewed |
 | M002025 | P0435 | `CompanionTheory.ThickeningEstimates.LieGroupReduction.NormExpSubLe` | volunteer-build-reviewed |
 | M002029 | P1394 | `CompanionTheory.ThickeningEstimates.LieGroupReduction.SiegelMod` | volunteer-build-reviewed |
+| M002034 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.AbelianSchemeLaw.GroupHomPullback` | volunteer-build-reviewed |
 | M002042 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.AbelianSchemeLaw.SemiAbelianSchemes` | volunteer-build-reviewed |
 | M002045 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.AdelicCMFields.SupportedAtSplit` | volunteer-build-reviewed |
 | M002046 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.AdelicCMFields.UnitaryHeckeCharacterIdele` | wave-reused |
@@ -201,6 +206,7 @@
 | M002211 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.VpBounds` | wave-reused |
 | M002216 | P1472 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ZeroSectionBase` | volunteer-build-reviewed |
 | M002218 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ZetaValueIdeals` | volunteer-build-reviewed |
+| M002221 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.AdelicQuotientMeasure` | volunteer-build-reviewed |
 | M002222 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.AdmissibleHarmonicLattice` | build-observed |
 | M002237 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.DeltaDatumCombinedCoefficient` | volunteer-build-reviewed |
 | M002239 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.EtaleProductPrimes` | volunteer-build-reviewed |
@@ -331,6 +337,7 @@
 | M002489 | P0515 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.CurvatureFamilyNorm` | wave-reused |
 | M002491 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.ExhaustionFrames` | volunteer-build-reviewed |
 | M002492 | P0435 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.FormalGroupTorsionCharts` | build-observed |
+| M002496 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.PluriharmonicHolomorphic` | volunteer-build-reviewed |
 | M002497 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.ProperlyDiscontinuousFlags` | volunteer-build-reviewed |
 | M002498 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.RealPointModes` | volunteer-build-reviewed |
 | M002499 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.SmallUnipotentElements` | volunteer-build-reviewed |
@@ -395,10 +402,3 @@
 | M002655 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ChainMatrices` | volunteer-build-reviewed |
 | M002656 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.CharacterPartsGaps` | volunteer-build-reviewed |
 | M002657 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ClassFunctionSumIntegral` | volunteer-build-reviewed |
-| M002658 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.CommutingLevelOperators` | volunteer-build-reviewed |
-| M002660 | P1501 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.CompatibleThetaRestrictions` | volunteer-build-reviewed |
-| M002662 | P1501 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ConstantTermVanishing` | volunteer-build-reviewed |
-| M002665 | P1616 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.CuspidalNoRadicalFixed` | volunteer-build-reviewed |
-| M002666 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.DefiniteIndexDimensionCounts` | volunteer-build-reviewed |
-| M002670 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.DownUpLambdaOperators` | volunteer-build-reviewed |
-| M002672 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.DualLiftInvariance` | volunteer-build-reviewed |

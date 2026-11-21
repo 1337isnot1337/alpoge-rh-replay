@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M157227"
+  ],
+  "started_utc": "2026-11-21T01:52:11.875669+00:00",
+  "ended_utc": "2026-11-21T01:52:41.353213+00:00",
+  "elapsed_seconds": 29.5,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6770972
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnipotentApproximation.MemZeroLocusGLIff:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8a6baf53bcf80da0d022c36726acfc0668157f9009e743be0274d8ecf36e00dc",
+  "rebuilt_project_modules": [
+    "Formalism.UnipotentAdelicQuotients.ClassNumberFinite",
+    "Formalism.UnipotentAdelicQuotients.UnipotentStrongApprox"
+  ],
+  "objects": {
+    "M157227": "07e5050efdc484b0027570f7e118f92f2ca7d11800f53be8d1a27f8b49bec280"
+  },
+  "bundle_sha256": "28b4a1aa0d6f444140a92ea16b2e38e557740abedfdd8445c6f08cc9b3158142",
+  "packet": "M157227",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10182#issuecomment-7055548120",
+  "reviewed_utc": "2026-11-21T06:02:31.451948+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

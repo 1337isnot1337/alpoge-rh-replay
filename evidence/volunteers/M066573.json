@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M066573"
+  ],
+  "started_utc": "2026-11-21T01:28:35.934759+00:00",
+  "ended_utc": "2026-11-21T01:28:52.466095+00:00",
+  "elapsed_seconds": 16.5,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16078420,
+    "peak_child_rss_kib": 7233056
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AddHaarProperSubmoduleEqZeroModuleTopologyStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ad7b51aca062d298b527984f691587d2b7ce40081a87243f3d31971b1521208c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.FourierMatch",
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsTestRep",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AddHaarProperSubmoduleEqZeroModuleTopology"
+  ],
+  "objects": {
+    "M066573": "189c9dcfb2978c4527db8d0bb3bb9a29f256154442f6f3fb3ac14f82f64c3895"
+  },
+  "bundle_sha256": "6c461ccc07534bbd0c1961dfa614279767e3c666dfdbf2a134902ae94fc2f632",
+  "packet": "M066573",
+  "contributor": "walkingsophie",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9471#issuecomment-7055162747",
+  "reviewed_utc": "2026-11-21T06:19:19.356182+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M000424"
+  ],
+  "started_utc": "2026-11-21T01:01:07.779382+00:00",
+  "ended_utc": "2026-11-21T01:06:13.594835+00:00",
+  "elapsed_seconds": 305.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 8133396,
+    "peak_child_rss_kib": 4306004
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+CompanionTheory.AutomorphicTheory.ThetaDilations.IsOpenCoset:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fc819028232f3e9e9497fbe062d9fb20724249a25df5aecdfc59cc528c10eecc",
+  "rebuilt_project_modules": [
+    "CompanionTheory.SpectralGeometry.CountingDefinitions.AdelicEulerProducts.CountData"
+  ],
+  "objects": {
+    "M000424": "b6ae2a2247289d4423f92d1402dce6191ea83d27aadc9f01219ee0df7b6d7801"
+  },
+  "bundle_sha256": "cd91c4c43587f69d3c33168a42bdb589640ec57dbdf925a757ae3e344248c70c",
+  "packet": "M000424",
+  "contributor": "mdpmcc",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8619#issuecomment-7054805525",
+  "reviewed_utc": "2026-11-21T06:18:26.661564+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

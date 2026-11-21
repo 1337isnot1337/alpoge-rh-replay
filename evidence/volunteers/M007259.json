@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M007259"
+  ],
+  "started_utc": "2026-11-21T01:57:03.378299+00:00",
+  "ended_utc": "2026-11-21T01:57:13.919077+00:00",
+  "elapsed_seconds": 10.5,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6877000
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.FockTranslationLaws:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ad0b55c9f4c5582df11d16e90da7833843768ae136b7f78bcea40934af9e717b",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SquareIntegrability.GCauchyStatement"
+  ],
+  "objects": {
+    "M007259": "ec49d4df040d01ca35ee21cb52ae58fa68be9bb5e7daefc5c8241c3f84d1994d"
+  },
+  "bundle_sha256": "c786feb46a69add5ad113af1e265fc686b7f868745d276ad78286bd7820b5841",
+  "packet": "M007259",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10209#issuecomment-7055568481",
+  "reviewed_utc": "2026-11-21T06:17:43.985814+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

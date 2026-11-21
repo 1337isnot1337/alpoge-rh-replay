@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M170446"
+  ],
+  "started_utc": "2026-11-21T01:55:11.297319+00:00",
+  "ended_utc": "2026-11-21T01:55:32.228827+00:00",
+  "elapsed_seconds": 20.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6308124
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.ProfiniteCohomology.LocalEulerCharacteristic.AdditiveInvariants:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "060825de561ac4ab4add592f28422bc77a3e1b105e2425726f4d33651768b853",
+  "rebuilt_project_modules": [
+    "GroundTheory.ProfiniteCohomology.LocalEulerCharacteristic.AdditiveDefs"
+  ],
+  "objects": {
+    "M170446": "ca79e5eb557c4ff28619c214fd27da07af26c22e8c6fcc84ab9f9f9a28114fd5"
+  },
+  "bundle_sha256": "5de33e539ad50fd3f10b19d4f212b53d52c8278cf638af7d5412fda17e9dcc2d",
+  "packet": "M170446",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10214#issuecomment-7055508040",
+  "reviewed_utc": "2026-11-21T05:59:36.292239+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

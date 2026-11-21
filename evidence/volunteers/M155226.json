@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M155226"
+  ],
+  "started_utc": "2026-11-21T01:04:12.159480+00:00",
+  "ended_utc": "2026-11-21T01:04:41.423642+00:00",
+  "elapsed_seconds": 29.3,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 32869296,
+    "peak_child_rss_kib": 7167484
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HermitianGroupLattices.StarMapTraceOfPowEqOne:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6cc1c15dbc54af3019340769475d548f138d70d85689401693f77beea91a7486",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.SameFormAllLevels"
+  ],
+  "objects": {
+    "M155226": "004a57b3b345c3b7a90cf902bd72d961de7960dfd8da32d18f81480526718f95"
+  },
+  "bundle_sha256": "a89dc9beb66d4abb2337d494943c08fbd089fd5aac53a1ccb20490cbf36425ac",
+  "packet": "M155226",
+  "contributor": "HaqtanEfe",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8656#issuecomment-7054804684",
+  "reviewed_utc": "2026-11-21T06:18:25.216379+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

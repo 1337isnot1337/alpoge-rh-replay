@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M164653"
+  ],
+  "started_utc": "2026-11-21T01:58:02.256200+00:00",
+  "ended_utc": "2026-11-21T01:58:12.992433+00:00",
+  "elapsed_seconds": 10.7,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6794520
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StJacobianPrimeDerivations:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "38e09186785dc8914622d47a016c341f8f59ffdbad5dd2e05b0fce86c10b6cca",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatNormalFibres",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFormalFibresRegular"
+  ],
+  "objects": {
+    "M164653": "99dc86dc4fd4921d331cf256c1ca1e0b0d078fc140cf848fa9c880b01d8b7858"
+  },
+  "bundle_sha256": "de32cb8a37fc257f983e3de58bf3f5d3350d6043937c1db321d4e653f8b21941",
+  "packet": "M164653",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10186#issuecomment-7055573733",
+  "reviewed_utc": "2026-11-21T06:04:40.266045+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

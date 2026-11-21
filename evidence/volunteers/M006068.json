@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M006068"
+  ],
+  "started_utc": "2026-11-21T02:13:29.970036+00:00",
+  "ended_utc": "2026-11-21T02:13:44.632467+00:00",
+  "elapsed_seconds": 14.7,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16366632,
+    "peak_child_rss_kib": 7235340
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.CharacterTheory.InvariantSubspaceMobiusInverseCharpolyOfIrreduci:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "322c4770be87cd64f55c1d867c9d2139c31e605dde253ca539362979b941c9e0",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.CommutativeAlgebra.InvariantSubspaceMobiusInverseRecEqOfFinrankLt"
+  ],
+  "objects": {
+    "M006068": "5c940a1d3928961c857de9732fe75f1aec38b25438fd063ec83dbf25eda4c852"
+  },
+  "bundle_sha256": "985d24c4b5b9c093469bc113d6afbcce59c96cac322759a38026e7a11eb3dcde",
+  "packet": "M006068",
+  "contributor": "TOTOGT",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10122#issuecomment-7056850348",
+  "reviewed_utc": "2026-11-21T06:17:57.898376+00:00",
+  "review": "Verified the GitHub grant, indexed target source hashes against the pinned archive, toolchain and inputs, exact command and targets, and the successful build transcript digest. Verified the supplied bundle and every target .olean checksum. Checked files inside the submitted archive."
+}

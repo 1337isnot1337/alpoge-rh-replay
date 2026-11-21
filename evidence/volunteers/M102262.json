@@ -1,0 +1,65 @@
+{
+  "tasks": [
+    "M102262"
+  ],
+  "started_utc": "2026-11-21T01:45:52.280438+00:00",
+  "ended_utc": "2026-11-21T01:54:59.073843+00:00",
+  "elapsed_seconds": 546.7,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 65758100,
+    "peak_child_rss_kib": 7528436
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.BuildingsResidueChars.FrobeniusPowResDegPlaceNorm:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b7e4f7f8fae61d90b6896bf50dfc5fc552eda676a67612837c2bcec81e0df2b0",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.AuxiliaryNormPrimes",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CayleySignature",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CommonEigenvectorBis",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.NormLeOneOfMonicRoot",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.PowCong",
+    "Formalism.CyclotomicNorms.DiscardKernel",
+    "Formalism.CyclotomicNorms.NonsquarefreeBounds.AdaptiveSubstitutionBound",
+    "Formalism.CyclotomicNorms.NonsquarefreeBounds.LowDegreePowerSeries",
+    "Formalism.CyclotomicNorms.NonsquarefreeBounds.ResModule",
+    "Formalism.CyclotomicNorms.NonsquarefreeBounds.TwoMulNumDerangementsLeFactorial",
+    "Formalism.CyclotomicNorms.StatementTW",
+    "Formalism.CyclotomicNorms.SubstitutionAdaptive",
+    "Formalism.CyclotomicNorms.TWAbsUniform",
+    "Formalism.PadicSubsetSums.CentralIdempotents.CentralIdempotentIntegral",
+    "Formalism.PadicSubsetSums.StableGradedCounts.TWBoundedSeriesIntegral",
+    "Formalism.PadicSubsetSums.StableGradedCounts.TWCentralIdempotentIntegral",
+    "Formalism.PadicSubsetSums.StableGradedCounts.TWCutOperator",
+    "Formalism.PadicSubsetSums.StableGradedCounts.TWExportTransfer",
+    "Formalism.PadicSubsetSums.StableGradedCounts.TWHeckeDetFactors",
+    "Formalism.PadicSubsetSums.StableGradedCounts.TWIndexAdditive",
+    "Formalism.PadicSubsetSums.StableGradedCounts.TWIndexDet",
+    "Formalism.PadicSubsetSums.StableGradedCounts.TWIndexScale",
+    "Formalism.PadicSubsetSums.StableGradedCounts.TWLengthBaseChange",
+    "Formalism.PadicSubsetSums.StableGradedCounts.TWReuse",
+    "Formalism.PadicSubsetSums.StableGradedCounts.TWUnitBallLattice",
+    "Formalism.SharpRestriction.LevelLetterCocycles.CommutingEndomorphismPreservesInvariants",
+    "Formalism.SharpRestriction.LevelLetterCocycles.CurveIdealTorusProperties",
+    "Formalism.SharpRestriction.LevelLetterCocycles.ExistsIdealDenominator",
+    "Formalism.SharpRestriction.LevelLetterCocycles.GaloisEquivariantKeyFunction",
+    "Formalism.SharpRestriction.LevelLetterCocycles.LatticeVariant",
+    "Formalism.SharpRestriction.LevelLetterCocycles.LinearIndependentSmulOfNeZero"
+  ],
+  "objects": {
+    "M102262": "e0c03ae34fabc39c3acc3667e9fa33e2855968d0eca096a450f7bf1cf0d45b86"
+  },
+  "bundle_sha256": "ffc2c2dcd767e90671550344538d58fa1d727943d1072f14f3944a55d01e4011",
+  "packet": "M102262",
+  "contributor": "emsi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10047#issuecomment-7055496859",
+  "reviewed_utc": "2026-11-21T06:09:35.559868+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

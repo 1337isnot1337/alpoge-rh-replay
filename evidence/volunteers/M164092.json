@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M164092"
+  ],
+  "started_utc": "2026-11-21T01:48:50.592972+00:00",
+  "ended_utc": "2026-11-21T01:48:59.653559+00:00",
+  "elapsed_seconds": 9.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6809332
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PFiniteGermProjectionCover:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2cdeeb21edaaea7d07f739e05abc283782976e384e86b2a3ff2ee3592c4700a7",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermProjectionOpenNear",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StProperOpenProjectionCover"
+  ],
+  "objects": {
+    "M164092": "aa2c950b6841d5d4e2e413b8106c455a3d226f115ee9d1264f8516a75e8f866e"
+  },
+  "bundle_sha256": "d09081ec8bfe81b504ffcf2bbb698c73978a728f8120091090c2029c217600a7",
+  "packet": "M164092",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10139#issuecomment-7055412073",
+  "reviewed_utc": "2026-11-21T05:58:57.863855+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

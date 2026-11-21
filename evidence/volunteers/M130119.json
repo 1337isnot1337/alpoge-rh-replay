@@ -1,0 +1,65 @@
+{
+  "tasks": [
+    "M130119"
+  ],
+  "started_utc": "2026-11-21T01:45:39.557037+00:00",
+  "ended_utc": "2026-11-21T01:54:27.116089+00:00",
+  "elapsed_seconds": 527.5,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 65758100,
+    "peak_child_rss_kib": 6848792
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.EigenFrameIffEigenspaceBasisStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "88d9284b9cb7debe66f79c857be37e651714b655e714e1974a02239faa5f383c",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.CoeffSyGauge",
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.GermComp1ZeroPointLeft",
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.IsSplitGaussChars",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.CoordsAt",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.EigLat",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.EtaleLocalizationAtPrimeTensorOfLowHeight",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ExistsCoordsAtOfCoordTie",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ExistsGenOfIsVBOne",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.GenericCentreSpecializes",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.GermSys",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.InjectiveOfIsCptGen",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsCptGen",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsFlatAnIffIsConstMul",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsGenericFlag",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsLineGenOn",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LevelSectionsExactKernelLocusOpen",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LinearIndependentEigProj",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LocalComponentsSurjective",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ProjectiveLinePlaceTrivialOnConstants",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ToFirst",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.EigenFrameIffEigenspaceBasis",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.EigenvectorLinearCombination",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsLieModel",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.HodgeAt",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsExcisionNbhdAway",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsVBOneOfChartGenerators",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelExistsUniqueAct",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelFunctorialMap",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.StdSmoothMvPolynomial",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ZarhinBundleKernelFirstCoordEquations",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.WickVanishing.BetaInt"
+  ],
+  "objects": {
+    "M130119": "2f03d63b2f8a02442a37c387713180de1d7b9a1a278616769f05f26a0a53a431"
+  },
+  "bundle_sha256": "6acaf1ad95bf96d31eb030a8565c1cdf5ceb23556f3e8ba4be365c1973561c30",
+  "packet": "M130119",
+  "contributor": "emsi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10041#issuecomment-7055490785",
+  "reviewed_utc": "2026-11-21T06:06:10.884486+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M088869"
+  ],
+  "started_utc": "2026-11-21T00:30:40.815122+00:00",
+  "ended_utc": "2026-11-21T00:31:49.378992+00:00",
+  "elapsed_seconds": 68.6,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 24721248,
+    "peak_child_rss_kib": 7769076
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.NonemptyEquivEllAdicCohomology:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3409f694b8df74010ee4ab3d9c67b02d2388e058fea8ac7822071aded7038c02",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsMatrixForm"
+  ],
+  "objects": {
+    "M088869": "3d2255ce0f4dca20ef39b542448b9f4f6ffc25bd3f5b74dc8d4131520fb9d25d"
+  },
+  "bundle_sha256": "3af1516d15885dcaad0cd85198fcd2f057824a54f9c90d03e71942adc94d2352",
+  "packet": "M088869",
+  "contributor": "ljagiello",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8250#issuecomment-7054188184",
+  "reviewed_utc": "2026-11-21T06:19:13.021551+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

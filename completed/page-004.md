@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002658 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.CommutingLevelOperators` | volunteer-build-reviewed |
+| M002660 | P1501 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.CompatibleThetaRestrictions` | volunteer-build-reviewed |
+| M002662 | P1501 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ConstantTermVanishing` | volunteer-build-reviewed |
+| M002665 | P1616 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.CuspidalNoRadicalFixed` | volunteer-build-reviewed |
+| M002666 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.DefiniteIndexDimensionCounts` | volunteer-build-reviewed |
+| M002670 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.DownUpLambdaOperators` | volunteer-build-reviewed |
+| M002671 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.DualLatticeExchange` | volunteer-build-reviewed |
+| M002672 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.DualLiftInvariance` | volunteer-build-reviewed |
 | M002674 | P1298 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ExponentSeparation` | volunteer-build-reviewed |
 | M002677 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.FlatSpaceComponents` | volunteer-build-reviewed |
 | M002678 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.FourierJacobiAverage` | volunteer-build-reviewed |
@@ -42,6 +50,7 @@
 | M002789 | P1501 | `Development.AbelianVarietyTheory.Counterexamples.AbelianLawCounterexamples.HomExtendsOverDVRHolds` | volunteer-build-reviewed |
 | M002793 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.LfacDenominatorNeZero` | volunteer-build-reviewed |
 | M002794 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.LocalConditionsOfGlobal` | volunteer-build-reviewed |
+| M002798 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.ExistsStrictAnti` | volunteer-build-reviewed |
 | M002811 | P0838 | `Development.AbelianVarietyTheory.Counterexamples.HeckeCharacterExamples.SecondTwistCrystallineSmallOfJumpsOfCrys` | build-observed |
 | M002812 | P1114 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.BesselPeriodPositionOneEqZero` | build-observed |
 | M002813 | P0974 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.BlattnerShiftsSignedParameters` | build-observed |
@@ -393,12 +402,3 @@
 | M003938 | P0435 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToRingActOpOfRingAct` | volunteer-build-reviewed |
 | M003939 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToSpanSingletonConstGenInjective` | wave-reused |
 | M003942 | P0784 | `Development.AbelianVarietyTheory.Definitions.Divisors.TorsTransport` | wave-reused |
-| M003944 | P0917 | `Development.AbelianVarietyTheory.Definitions.Divisors.TorsionTowersOfDivisibleGroup` | build-observed |
-| M003950 | P1472 | `Development.AbelianVarietyTheory.Definitions.Divisors.Tpr` | volunteer-build-reviewed |
-| M003954 | P1323 | `Development.AbelianVarietyTheory.Definitions.Divisors.TwOrbMEqTwOrbUOfNormal` | build-observed |
-| M003963 | P1245 | `Development.AbelianVarietyTheory.Definitions.Divisors.Uniformised` | volunteer-build-reviewed |
-| M003964 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.UnipVal` | volunteer-build-reviewed |
-| M003966 | P1056 | `Development.AbelianVarietyTheory.Definitions.Divisors.UnrOutside` | build-observed |
-| M003974 | P0865 | `Development.AbelianVarietyTheory.Definitions.Divisors.WittOnFalse` | wave-reused |
-| M003976 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.XiMulNu` | wave-reused |
-| M003977 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.ZeroMemSolSet` | volunteer-build-reviewed |

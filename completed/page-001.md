@@ -190,6 +190,7 @@
 | M000421 | P1761 | `CompanionTheory.AutomorphicTheory.ThetaDilations.FstarDil` | build-observed |
 | M000422 | P1001 | `CompanionTheory.AutomorphicTheory.ThetaDilations.HfSubSmul` | build-observed |
 | M000423 | P1688 | `CompanionTheory.AutomorphicTheory.ThetaDilations.IntFou` | build-observed |
+| M000424 | P0094 | `CompanionTheory.AutomorphicTheory.ThetaDilations.IsOpenCoset` | volunteer-build-reviewed |
 | M000425 | P0001 | `CompanionTheory.AutomorphicTheory.ThetaDilations.Nuabs` | volunteer-build-reviewed |
 | M000426 | P1643 | `CompanionTheory.AutomorphicTheory.ThetaDilations.OrbitAdelic` | build-observed |
 | M000427 | P0293 | `CompanionTheory.AutomorphicTheory.ThetaDilations.ParAlg` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M000894 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsNormOneUnitShift` | volunteer-build-reviewed |
 | M000895 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsNormOneUnitShiftStatement` | volunteer-build-reviewed |
 | M000896 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsRealFlowAdelicUnits` | volunteer-build-reviewed |
-| M000897 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsRealFlowAdelicUnitsStatement` | volunteer-build-reviewed |

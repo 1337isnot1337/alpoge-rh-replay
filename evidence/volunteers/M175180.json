@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M175180"
+  ],
+  "started_utc": "2026-11-21T01:42:51.030597+00:00",
+  "ended_utc": "2026-11-21T01:43:02.862627+00:00",
+  "elapsed_seconds": 11.8,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16366632,
+    "peak_child_rss_kib": 7233760
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ThetaSummability.TailSumEstimates.ConeChange:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2d28b299c870a60a7a62c87c32e9c26dad550afaa8db8f83fe801726d48bc5ff",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ThetaSummability.TailSumEstimates.ConeDefs"
+  ],
+  "objects": {
+    "M175180": "118a1593b9889921515c25a2241fc6eab865d9832739a206340ebe38889ff051"
+  },
+  "bundle_sha256": "02b645044da87eefb8fe6a84d15a73743fda5e2eb7c9d7be579a84d3e2d4f162",
+  "packet": "M175180",
+  "contributor": "TOTOGT",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9884#issuecomment-7056847462",
+  "reviewed_utc": "2026-11-21T06:17:50.555971+00:00",
+  "review": "Verified the GitHub grant, indexed target source hashes against the pinned archive, toolchain and inputs, exact command and targets, and the successful build transcript digest. Verified the supplied bundle and every target .olean checksum. Checked files inside the submitted archive."
+}

@@ -1,0 +1,65 @@
+{
+  "tasks": [
+    "M152824"
+  ],
+  "started_utc": "2026-11-21T01:45:35.541225+00:00",
+  "ended_utc": "2026-11-21T01:52:01.643840+00:00",
+  "elapsed_seconds": 386.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 65758100,
+    "peak_child_rss_kib": 6607356
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.StatementC:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6a5c7dd40d963b48b1742ee158e1056c98d1ac9fbc4b59d1890f8d8259cbdbc0",
+  "rebuilt_project_modules": [
+    "Formalism.GaussJetBounds.Statement",
+    "Formalism.GaussJetBounds.StatementA",
+    "Formalism.GaussJetBounds.StatementC",
+    "Formalism.GaussJetBounds.StatementE",
+    "Formalism.GaussJetBounds.StatementG",
+    "Formalism.GaussJetBounds.StatementH",
+    "Formalism.GaussJetBounds.StatementI",
+    "Formalism.GaussJetBounds.StatementJ",
+    "Formalism.GaussJetBounds.StatementK",
+    "Formalism.GaussJetBounds.StatementM",
+    "Formalism.GaussJetBounds.StatementP",
+    "Formalism.GaussJetBounds.StatementS",
+    "Formalism.GaussJetBounds.StatementU",
+    "Formalism.GaussJetBounds.StatementV",
+    "Formalism.GaussJetBounds.StatementX",
+    "Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.StatementA",
+    "Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.StatementB",
+    "Formalism.LocalToGlobal.TorsionIntegrality.GaussSumParity.TrDual",
+    "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.CyclicPowerClassOfExpEquiv",
+    "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FirstDeriv",
+    "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.IsLawOfLog",
+    "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.OddLogRelation",
+    "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.StatementAB",
+    "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.StatementE",
+    "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.StatementG",
+    "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.StatementGK",
+    "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.StatementH",
+    "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.StatementJ",
+    "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.StatementM",
+    "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.StatementW",
+    "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.ThmSUniform"
+  ],
+  "objects": {
+    "M152824": "ea2bb4964094bcf1f60a535f23d82afc4c704aca90eea276d20d3ce688a70111"
+  },
+  "bundle_sha256": "21b882ca2e1131018b2546e04a70c3dd05285c5b315f163751427e1a3bffaea9",
+  "packet": "M152824",
+  "contributor": "emsi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10039#issuecomment-7055464988",
+  "reviewed_utc": "2026-11-21T06:05:09.807582+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

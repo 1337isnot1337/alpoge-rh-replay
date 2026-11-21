@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M127027"
+  ],
+  "started_utc": "2026-11-21T01:44:28.342670+00:00",
+  "ended_utc": "2026-11-21T01:44:48.116296+00:00",
+  "elapsed_seconds": 19.8,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6634460
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RegularizedExponentialSum:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f85432d0a67c29c5ea198c4c05fca1cb689a635ea03ac54f032d1623ed10b24b",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.VandermondeSeparation",
+    "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.SatakeExponents.FibreFactorHolds"
+  ],
+  "objects": {
+    "M127027": "995b1e240cf7d2df226700e2dd3ee57a24a9d247ad2df3c492735c2b7277219c"
+  },
+  "bundle_sha256": "3eed8a5b0934eee3d2a9c43f4c2c12570f71c735b980e4e1f610f2f9601b598c",
+  "packet": "M127027",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10009#issuecomment-7055360030",
+  "reviewed_utc": "2026-11-21T06:08:59.313143+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

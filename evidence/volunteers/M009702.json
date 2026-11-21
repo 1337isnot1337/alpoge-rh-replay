@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M009702"
+  ],
+  "started_utc": "2026-11-21T01:53:43.609008+00:00",
+  "ended_utc": "2026-11-21T01:53:52.913253+00:00",
+  "elapsed_seconds": 9.3,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6840108
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralKernelLiftsFubiniSigmaFiniteStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "dd92829d8d43bc9751acdaf71fad7e320a51cd4e6d8baa60ffecbf5f561b2d4d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralKernelLiftsFubiniSigmaFinite"
+  ],
+  "objects": {
+    "M009702": "8c57a0a83dbc001fdf60eba96742052ae36ab05a086e96b7420100304664e207"
+  },
+  "bundle_sha256": "d4cb5dc4b23aad2f61b27e1356820183b83baaf3afa04b6a1d015bee7fa68cde",
+  "packet": "M009702",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10213#issuecomment-7055552523",
+  "reviewed_utc": "2026-11-21T05:59:00.303943+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}
