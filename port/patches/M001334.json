@@ -1,0 +1,8 @@
+{
+  "module": "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WeilOrthogonalGroupInvariance",
+  "source_sha256": "29c4b8be7036a85489dfab586de560ecb2ef3fd9df634fb3508952fd5d3a0198",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0094-lean436-20261121/packet-result.json"
+}

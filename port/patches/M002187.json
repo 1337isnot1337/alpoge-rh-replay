@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SpecialFibreUnits",
+  "source_sha256": "b7a04a2d1144a6b9f8ef64d7e809880387a0a3cf778902bcf31c926bce198187",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0094-lean436-20261121/packet-result.json"
+}

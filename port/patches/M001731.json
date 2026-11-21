@@ -1,0 +1,8 @@
+{
+  "module": "CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HenselStatement",
+  "source_sha256": "a41c26d851501d53201f545df3268105edcd35aacd7520f38e645d5647f5ebc5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0094-lean436-20261121/packet-result.json"
+}
