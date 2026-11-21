@@ -195,14 +195,18 @@ def select_and_order_modules(rows: list[dict], target: str) -> list[dict]:
 
 
 def count_export_records(ndjson_path: Path) -> dict:
-    """Strictly count declaration records in an NDJSON export and extract metadata/axioms.
+    """Count declaration records and enforce the pilot's structural axiom allowlist.
 
     Matches kernel/independent-check.sh: fails loudly on any single-key object
     other than 'meta' or the six known declaration kinds, or any multi-key
-    object carrying a declaration kind key.
+    object carrying a declaration kind key. Lean names are sequences of string
+    or numeric components: a single string ``Classical.choice`` is not the
+    two-component name ``Classical`` / ``choice``. The pinned nanoda version
+    flattens both to the same allowlist string, so validate the components here.
     """
     counts = {k: 0 for k in DECL_KINDS}
-    names: dict[int, str] = {0: ""}
+    names: dict[int, tuple[tuple[str, str | int], ...]] = {0: ()}
+    permitted = {tuple(("str", part) for part in name.split(".")) for name in PERMITTED_AXIOMS}
     axiom_names: list[str] = []
     meta: dict | None = None
     line_count = 0
@@ -222,22 +226,37 @@ def count_export_records(ndjson_path: Path) -> dict:
 
             if "in" in obj:
                 idx = obj["in"]
-                if "str" in obj and isinstance(obj["str"], dict):
-                    pre = names.get(obj["str"].get("pre", 0), "")
-                    seg = obj["str"].get("str", "")
-                    names[idx] = f"{pre}.{seg}" if pre else seg
-                elif "num" in obj and isinstance(obj["num"], dict):
-                    pre = names.get(obj["num"].get("pre", 0), "")
-                    seg = str(obj["num"].get("i", 0))
-                    names[idx] = f"{pre}.{seg}" if pre else seg
+                if type(idx) is not int or idx <= 0 or idx in names:
+                    raise CheckFailure(f"invalid or duplicate name index on line {line_no}: {idx!r}")
+                forms = set(obj) - {"in"}
+                if forms not in ({"str"}, {"num"}):
+                    raise CheckFailure(f"invalid name record on line {line_no}")
+                kind = next(iter(forms))
+                value = obj[kind]
+                segment_key = "str" if kind == "str" else "i"
+                if not isinstance(value, dict) or set(value) != {"pre", segment_key}:
+                    raise CheckFailure(f"invalid name component on line {line_no}")
+                prefix, segment = value["pre"], value[segment_key]
+                if type(prefix) is not int or prefix not in names:
+                    raise CheckFailure(f"unknown name prefix on line {line_no}: {prefix!r}")
+                if ((kind == "str" and not isinstance(segment, str)) or
+                        (kind == "num" and (type(segment) is not int or segment < 0))):
+                    raise CheckFailure(f"invalid name segment on line {line_no}: {segment!r}")
+                names[idx] = names[prefix] + ((kind, segment),)
 
             kinds = DECL_KINDS.intersection(obj)
             if len(obj) == 1 and kinds:
                 kind = next(iter(kinds))
                 counts[kind] += 1
-                if kind == "axiom" and isinstance(obj["axiom"], dict):
-                    ax_idx = obj["axiom"].get("name")
-                    axiom_names.append(names.get(ax_idx, f"<name#{ax_idx}>"))
+                if kind == "axiom":
+                    value = obj[kind]
+                    ax_idx = value.get("name") if isinstance(value, dict) else None
+                    if type(ax_idx) is not int or ax_idx not in names:
+                        raise CheckFailure(f"unknown axiom name on line {line_no}: {ax_idx!r}")
+                    components = names[ax_idx]
+                    if components not in permitted:
+                        raise CheckFailure(f"unpermitted axiom name components on line {line_no}: {components!r}")
+                    axiom_names.append(".".join(str(segment) for _, segment in components))
             elif len(obj) == 1 and "meta" in obj:
                 meta = obj["meta"]
             elif kinds or len(obj) == 1:
@@ -250,6 +269,7 @@ def count_export_records(ndjson_path: Path) -> dict:
         "counts": counts,
         "total_declarations": sum(counts.values()),
         "axioms": axiom_names,
+        "axiom_names_checked_structurally": True,
         "lines": line_count,
     }
 

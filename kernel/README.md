@@ -43,6 +43,17 @@ costs, starting with the smallest cone that matters: the statement itself.
    (`unpermitted_axiom_hard_error: true`): a declaration depending on
    any other axiom is a hard error, not a silent skip.
 
+Both entry points also validate the exported axiom names by their encoded
+Lean name components before invoking nanoda. The pinned nanoda version
+flattens names to dotted strings for its allowlist, which cannot distinguish
+`Classical.choice` from the single-component name `«Classical.choice»`.
+The shared export parser rejects that alias, empty-prefix aliases, and
+invalid name-table references while retaining the four-axiom pilot policy
+above. `tests/kernel-axiom-names-native.py` compiles a small negative control
+whose aliased axiom proves `False`: the pinned checker alone accepts it,
+while the entry-point validation rejects it. This fixture is separate from
+the replay archive.
+
 ## Reference run (measured, 2026-11-20)
 
 Machine: home desktop, AMD Ryzen 5 5600 (12 threads), WSL2 Ubuntu 24.04.2,
@@ -281,5 +292,8 @@ consumed it successfully, and it remains an obvious second opinion.
   `PACKET_INDEPENDENT_KERNEL_PASSED` on success.
 - `test_packet_check.py` — unit tests for `packet_check.py`
   (`python3 -m unittest discover -s kernel -p 'test_*.py' -v`).
+- `../tests/kernel-axiom-names-native.py` — native axiom-name regression;
+  takes the pinned toolchain's `bin` directory, `lean4export` binary, and
+  `nanoda_bin` binary as its three arguments. CI builds the pinned tools.
 - `tools.lock` — every pin, with reference-build hashes.
 - This README.
