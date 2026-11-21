@@ -1,0 +1,27 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumLogDivSubOneLeThreeMulLogAddOne.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumLogDivSubOneLeThreeMulLogAddOne.lean
+@@ -8,8 +8,8 @@
+     (hpB : p ≤ B) :
+     (B : ℝ) - 1 ≤ 2 * (((p : ℝ) - 1) * ((B.factorial.factorization p : ℕ) : ℝ)) := by
+   have : Fact p.Prime := ⟨hp⟩
+-  have h1 : (p - 1) * padicValNat p B.factorial = B - (Nat.digits p B).sum :=
+-    sub_one_mul_padicValNat_factorial B
++  have h1 : (p - 1) * multiplicity p B.factorial = B - (Nat.digits p B).sum :=
++    Nat.Prime.sub_one_mul_multiplicity_factorial hp
+   have hp2 : 2 ≤ p := hp.two_le
+   have hB : 0 < B := by omega
+   have h2 : (Nat.digits p B).sum ≤ B % p + B / p := by
+@@ -22,11 +22,11 @@
+   have h6 : m ≤ m * (B / (m + 2)) := Nat.le_mul_of_pos_right _ h5
+   have h7 : 2 * (Nat.digits (m + 2) B).sum ≤ B + 1 := by nlinarith
+   rw [Nat.factorization_def _ hp]
+-  have h8 : B ≤ 2 * ((m + 1) * padicValNat (m + 2) B.factorial) + 1 := by
++  have h8 : B ≤ 2 * ((m + 1) * multiplicity (m + 2) B.factorial) + 1 := by
+     have : m + 2 - 1 = m + 1 := by omega
+     rw [this] at h1
+     omega
+-  have h9 : (B : ℝ) ≤ 2 * (((m : ℝ) + 1) * (padicValNat (m + 2) B.factorial : ℝ)) + 1 := by
++  have h9 : (B : ℝ) ≤ 2 * (((m : ℝ) + 1) * (multiplicity (m + 2) B.factorial : ℝ)) + 1 := by
+     exact_mod_cast h8
+   push_cast
+   linarith

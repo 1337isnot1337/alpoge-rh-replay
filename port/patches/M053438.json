@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionBasisRelationsDivisible",
+  "source_sha256": "f4fe53d583918dfd493c3089b948ce9c2a1ea87bbaf573d2b31e594c1eb224ab",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename Equiv.setCongr to Set.equivOfEq. Statements are unchanged."
+}

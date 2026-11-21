@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumPadicValNatLogEqLog",
+  "source_sha256": "e13c66d7eaa9e834d68f2ef545275b173e97da36ce72cfc4e306e9ad25805878",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite via Nat.padicValNat_def and multiplicity_eq_zero_of_not_dvd to match Nat.factorization_def. Statements are unchanged."
+}

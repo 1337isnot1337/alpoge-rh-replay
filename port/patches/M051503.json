@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumLogDivSubOneLeThreeMulLogAddOne",
+  "source_sha256": "7575e4cb732cf241847adc06fd68a55f8efea6dd083a9e0275ba077fb8102b55",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Nat.Prime.sub_one_mul_multiplicity_factorial with multiplicity to match Nat.factorization_def. Statements are unchanged."
+}

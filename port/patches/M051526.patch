@@ -1,0 +1,19 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumPadicValNatLogEqLog.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumPadicValNatLogEqLog.lean
+@@ -15,7 +15,7 @@
+         intro h; apply hp; simp [h]
+       have hdvd : p ∣ m := by
+         by_contra hnd
+-        exact h0 (padicValNat.eq_zero_of_not_dvd hnd)
++        exact h0 (by rw [Nat.padicValNat_def]; exact multiplicity_eq_zero_of_not_dvd hnd)
+       simp only [Finset.mem_coe, Nat.mem_primeFactors]
+       exact ⟨hpp, hdvd, hm⟩
+     · exact absurd (if_neg hpp) hp
+@@ -24,6 +24,6 @@
+     Nat.support_factorization]
+   refine Finset.sum_congr rfl fun p hp => ?_
+   have hpp : p.Prime := Nat.prime_of_mem_primeFactors hp
+-  rw [if_pos hpp, Nat.factorization_def m hpp]
++  rw [if_pos hpp, Nat.factorization_def m hpp, Nat.padicValNat_def]
+ 
+ end GlobalTheory

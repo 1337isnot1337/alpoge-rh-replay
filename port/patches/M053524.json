@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionLiftNumberFieldModule",
+  "source_sha256": "69d5eb44a64866ec270afc50a0cda310897e41114e5d9c894f197c8a5539bbfe",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename DistribMulAction.toAddMonoidHom to DistribSMul.toAddMonoidHom and Equiv.setCongr to Set.equivOfEq. Statements are unchanged."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionCountLogConcavePrimePowers",
+  "source_sha256": "2b1f641f5e3780690d8ad1e94c8617d6057a069a87cc03b0d129d0740ac4c79e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename DistribMulAction.toAddMonoidHom to DistribSMul.toAddMonoidHom. Statements are unchanged."
+}
