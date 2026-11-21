@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SchwartzTaylorSeriesConverges.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SchwartzTaylorSeriesConverges.lean
+@@ -70,7 +70,7 @@
+         _ = |A| * c ^ (m + 1) := by rw [hc, mul_pow]; ring
+     have hcd : ContDiffOn ℝ (m + 1) g (Set.Icc 0 1) := by
+       exact_mod_cast (hgn (m + 1)).contDiffOn
+-    have := taylor_mean_remainder_bound (n := m) (x := 1) zero_le_one hcd (by simp) hC
++    have := taylor_mean_remainder_bound (n := m) (x := 1) hcd (by simp) hC
+     refine this.trans_eq ?_
+     rw [sub_zero, one_pow, mul_one, pow_succ]
+     ring

@@ -1,0 +1,28 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SchwartzIntegralEqOfBounds.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SchwartzIntegralEqOfBounds.lean
+@@ -124,12 +124,15 @@
+   obtain ⟨N, C, hC⟩ := exists_bound T
+   obtain ⟨T', hT'⟩ := exists_factor (embLin N) (embLin_injective N) T.toLinearMap C hC
+   choose c hc1 hc2 using hc
++  haveI (n : ℕ) : CompleteSpace (ContinuousMultilinearMap ℝ (fun _ : Fin n => D) ℂ) :=
++    ContinuousMultilinearMap.instCompleteSpace
++  haveI : CompleteSpace (Target D N) := Pi.complete _
+   haveI : SecondCountableTopologyEither S (Target D N) := ⟨Or.inl inferInstance⟩
+   have hint : Integrable (fun s => emb N (f s)) ν := by
+     refine Integrable.mono' (g := fun s => ∑ m ∈ Finset.range (N + 1),
+       ∑ n ∈ Finset.range (N + 1), c m n s) ?_
+       ((emb N).continuous.comp hf).aestronglyMeasurable (Filter.Eventually.of_forall fun s => ?_)
+-    · exact integrable_finset_sum _ fun m _ => integrable_finset_sum _ fun n _ => hc1 m n
++    · exact integrable_finsetSum _ fun m _ => integrable_finsetSum _ fun n _ => hc1 m n
+     · refine (norm_embLin_le N (f s)).trans ?_
+       exact Finset.sum_le_sum fun m _ => Finset.sum_le_sum fun n _ => hc2 m n s
+   have hE : emb N F = ∫ s, emb N (f s) ∂ν := by
+@@ -142,7 +145,7 @@
+           (ContinuousLinearMap.proj (R := ℂ) (φ := fun _ : Fin (N + 1) => (n : Fin (N + 1)) →
+             D →ᵇ ContinuousMultilinearMap ℝ (fun _ : Fin (n : ℕ) => D) ℂ) m))
+     have h1 := L.integral_comp_comm hint
+-    change _ = L _
++    change _ = L (∫ s, emb N (f s) ∂ν)
+     rw [← h1]
+     change (‖x‖ ^ (m : ℕ)) • iteratedFDeriv ℝ n F x =
+       ∫ s, (‖x‖ ^ (m : ℕ)) • iteratedFDeriv ℝ n (f s) x ∂ν

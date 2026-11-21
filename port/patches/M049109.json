@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzVanishingDecomposition",
+  "source_sha256": "c23b9d378a18d98c547cdc170f5d18f375cd4b9f7c90f30d8a777f8b1e62a5fb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename iteratedFDeriv_zero_fun and intervalIntegral.integral_finset_sum. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0021-lean436-20261121/packet-result.json"
+}

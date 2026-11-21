@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzFamilyPairingIntegralCommute",
+  "source_sha256": "571f69043fd68d3da5e055957de668dbe6085875bf79df6503018517ebb4a697",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove coercion rewrites already performed by simp in schwartzJet.map_add' and schwartzJet.map_smul'. The schwartzJet definition changes only these proposition-valued proof fields; its toFun remains exactly schwartzJetFun K N. Proof irrelevance makes the replacement fields equal, so the defined linear map is unchanged. All theorem statements and instances are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0021-lean436-20261121/packet-result.json"
+}

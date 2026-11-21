@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzIntegralEqOfBounds",
+  "source_sha256": "188b69837b40a4ee1ac0af7e4c1398c7b414aa893bcb72184b24bd2e0e0e445d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename integrable_finset_sum to integrable_finsetSum and supply the existing ContinuousMultilinearMap.instCompleteSpace and Pi.complete instances explicitly before integral_comp_comm, avoiding a typeclass heartbeat timeout. Spell out the integral argument in change so elaboration preserves the expression needed by the following rewrite. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0021-lean436-20261121/packet-result.json"
+}

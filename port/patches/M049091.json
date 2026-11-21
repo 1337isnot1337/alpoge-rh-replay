@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzTaylorSeriesConverges",
+  "source_sha256": "70e6d5a6d0d59bd9db3748fcc3b55910914ddbf3fe2df18837c4fea6062425eb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove the redundant endpoint-order argument from taylor_mean_remainder_bound; the interval-membership proof supplies the order in the target API. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0021-lean436-20261121/packet-result.json"
+}
