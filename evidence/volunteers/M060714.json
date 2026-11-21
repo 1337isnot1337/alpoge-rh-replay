@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M060714"
+  ],
+  "started_utc": "2026-11-21T00:31:36.104819+00:00",
+  "ended_utc": "2026-11-21T00:31:45.461134+00:00",
+  "elapsed_seconds": 9.4,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6851160
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FlatQuotientWeaklyRegular:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d4c7b987587c5daa951f1877f77910fcefac4f3f663f9bbcad625f2f9678b3ef",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.UniformizationProofs.FlatCokerOfInjectiveModMaximalIdeal"
+  ],
+  "objects": {
+    "M060714": "2e801c7b7a8fbb291c4f948629f26afe485606152167c7347e0aaf7d44e2b01d"
+  },
+  "bundle_sha256": "62d45d5fd5d981e87e927277b5238b2bcd4a38dbec42bf7762273709bf1a9cae",
+  "packet": "M060714",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8184#issuecomment-7054249480",
+  "reviewed_utc": "2026-11-21T06:02:23.083998+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

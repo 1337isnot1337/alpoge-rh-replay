@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M069537"
+  ],
+  "started_utc": "2026-11-21T00:50:27.658407+00:00",
+  "ended_utc": "2026-11-21T00:50:47.251651+00:00",
+  "elapsed_seconds": 19.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6208272
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsOneLeNormPsumMultiset:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5d30822e9ba81bd7a66d934df813eca64d44ca6181b5854cbef089ddc8937aa4",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.NeutralLocalFields.LocalFieldComparison.TendstoPrimeIdealZetaSumUniv"
+  ],
+  "objects": {
+    "M069537": "148a8edac452a0483ccbc6fbd8ed6a740bc2effd878065efc2244735891c2148"
+  },
+  "bundle_sha256": "db809076fa305858774eb240bc945231d5ce46d553ea1958acb9b800bfa08f96",
+  "packet": "M069537",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8439#issuecomment-7054532250",
+  "reviewed_utc": "2026-11-21T06:00:04.350947+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

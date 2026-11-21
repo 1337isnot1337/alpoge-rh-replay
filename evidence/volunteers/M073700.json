@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M073700"
+  ],
+  "started_utc": "2026-11-21T00:45:40.777062+00:00",
+  "ended_utc": "2026-11-21T00:46:37.441701+00:00",
+  "elapsed_seconds": 56.7,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 12303924,
+    "peak_child_rss_kib": 6785336
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RieszEigenvectorSesquilinearFunctionSpace:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c60fa17a79af059afdbfd24825bd2e646259c5bd525234ced5da90ada7e0c6cf",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.HermitianAdjointExistsUniqueOfPosDef"
+  ],
+  "objects": {
+    "M073700": "fdc5ec0bddad2a95d71365ec64ad5f023bdb0cc3f1fef5cd0b719e125a421521"
+  },
+  "bundle_sha256": "abf211a497fe1ce8a42dbe419b3f0cb789a7dd2ae57414fd99dc85def2c6138e",
+  "packet": "M073700",
+  "contributor": "Sigomi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8512#issuecomment-7054516314",
+  "reviewed_utc": "2026-11-21T05:59:38.020084+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

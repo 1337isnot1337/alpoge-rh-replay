@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M158743"
+  ],
+  "started_utc": "2026-11-21T00:44:09.230023+00:00",
+  "ended_utc": "2026-11-21T00:45:33.995110+00:00",
+  "elapsed_seconds": 84.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 4596000
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.SharpRestriction.Divisibility.GeneratorPowers.GaugeExpPow:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "649ec42bc5ef2c9cd482cd466a16e6176a05cdc4468f4bcfc25223a740d7a2a5",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.WickVanishing.CalcExp"
+  ],
+  "objects": {
+    "M158743": "c59423ed2eb00fe9f3b6b97d28e450c020b4a6d0fd8063852b862e68a425de72"
+  },
+  "bundle_sha256": "5a4807c438dba23685d777bfa10bc3c27999e42ac66a89a4f26d55097d9e2a22",
+  "packet": "M158743",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8403#issuecomment-7054445014",
+  "reviewed_utc": "2026-11-21T06:00:40.127848+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}
