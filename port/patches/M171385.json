@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.MdiscPos",
+  "source_sha256": "d3863d6e8879fe7eea4dd8189b253b4261c4ce70a19cf6029c070552283ce7a0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: qualify the matrix-product expansion and supply the matrix explicitly to the spectral-order lemma."
+}

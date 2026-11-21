@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.AnalyticCharts.MaDensCompEqZeroOfRankLt",
+  "source_sha256": "8b42571215f320a5c3486f40cc942f431a59e0bc8ebdcd2a2f0750678c29dd94",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

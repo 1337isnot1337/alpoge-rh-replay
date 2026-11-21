@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.Chebotarev.ExistsUnitOrderOfEq",
+  "source_sha256": "2c3ae5024fd5a0fe8ad6af22db8e741fb8c760e0236316c92d4102c6798574e5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

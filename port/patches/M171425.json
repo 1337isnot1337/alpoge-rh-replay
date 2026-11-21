@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.PotentialTheory.IsPotentialOfFun",
+  "source_sha256": "7b900863369cc7c30dc391e70fb053d48ccbac89581bd41f83c657dda08562c8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

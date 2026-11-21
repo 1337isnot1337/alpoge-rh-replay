@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.PotentialTheory.PshShiftA",
+  "source_sha256": "df44349664d6711d60f7c0f3ad2393f8721d97e442f3548f4aec4bb18f0de098",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
