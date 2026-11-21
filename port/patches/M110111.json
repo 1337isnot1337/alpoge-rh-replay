@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.DivisorFrames.ConvolutionDecayIntegrableFourier",
+  "source_sha256": "d4c4894052568067a85634c62606b311864421c08929716881ea55e9a32604f9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0135-lean436-20261121/packet-result.json"
+}

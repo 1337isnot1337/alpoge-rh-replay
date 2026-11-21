@@ -1,0 +1,25 @@
+--- a/src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/AnnihilatorModels/SameNormBasic.lean
++++ b/src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/AnnihilatorModels/SameNormBasic.lean
+@@ -64,11 +64,11 @@
+ 
+ def CoeffInt : Prop :=
+   ∀ (R T : Type) [CommRing R] [CommRing T] [Algebra R T] (ι I : Type) [Fintype ι] [Fintype I] (c : I → ι → T),
+-    (∀ i k, IsIntegral R (c i k)) → ∀ (a : ℕ) (m : ι →₀ ℕ), IsIntegral R (MvPolynomial.coeff m ((∏ i, form (c i)).coeff a))
++    (∀ i k, IsIntegral R (c i k)) → ∀ (a : ℕ) (m : ι →₀ ℕ), IsIntegral R (((∏ i, form (c i)).coeff a).coeff m)
+ 
+ def LiftP : Prop :=
+   ∀ (R T ι : Type) [CommRing R] [CommRing T] (f : R →+* T) (N' : Polynomial (MvPolynomial ι T)),
+-    (∀ (a : ℕ) (m : ι →₀ ℕ), ∃ r, f r = MvPolynomial.coeff m (N'.coeff a)) → ∃ N, mapP f N = N'
++    (∀ (a : ℕ) (m : ι →₀ ℕ), ∃ r, f r = (N'.coeff a).coeff m) → ∃ N, mapP f N = N'
+ 
+ def NormInt : Prop :=
+   ∀ (l d : ℕ) (R S : Type) [CommRing R] [CommRing S] [Algebra R S], EtAway l d R S →
+@@ -106,7 +106,7 @@
+     ∀ (B' : Type) [CommRing B'] (g : R →+* B'), (∀ x ∈ 𝔞, g x = 0) → mapP g N = mapP g N'
+ 
+ def GaussLin : Prop :=
+-  ∀ (A ι : Type) [CommRing A] (c : A) (s : Multiset (MvPolynomial ι A)), (∀ p ∈ s, ∃ m, MvPolynomial.coeff m p = 1) →
++  ∀ (A ι : Type) [CommRing A] (c : A) (s : Multiset (MvPolynomial ι A)), (∀ p ∈ s, ∃ m, p.coeff m = 1) →
+     MvPolynomial.C c * s.prod = 0 → c = 0
+ 
+ def SameNormBasic : Prop :=

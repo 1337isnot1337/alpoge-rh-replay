@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsTwoChartAdjoinRootLaurent",
+  "source_sha256": "09d815f414fe728407ad58f55251606e7303454a04f43ae3638c1c19a27e123a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: replace Polynomial.eval\u2082_finset_sum with its target API Polynomial.eval\u2082_finsetSum, retaining the existing witnesses and mathematical operation. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0135-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/DivisorFrames/FourierContinuousNonvanishing.lean
++++ b/src/Development/AutomorphicArithmetic/DivisorFrames/FourierContinuousNonvanishing.lean
+@@ -50,7 +50,7 @@
+   unfold dwt
+   refine ContinuousOn.inv₀ (ContinuousOn.mul ?_ (Complex.continuous_ofReal.comp continuous_nm).continuousOn) ?_
+   · unfold wt
+-    refine continuousOn_finset_prod _ fun w _ => ?_
++    refine continuousOn_finsetProd _ fun w _ => ?_
+     have h : Continuous fun s : ι → ℂ => (‖s w‖ : ℂ) := Complex.continuous_ofReal.comp (continuous_apply w).norm
+     have h0 : ∀ s ∈ {y : ι → ℂ | ∀ w, y w ≠ 0}, (‖s w‖ : ℂ) ≠ 0 := fun s hs => by
+       exact_mod_cast norm_ne_zero_iff.2 (hs w)
