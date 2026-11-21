@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ArithmeticGeometry.ToricVarieties.KrullDomain",
+  "source_sha256": "9cf4d931a75d6fc8bd4955ae626dc25abf53fc2dd0e985c96947b5d94cec8ba4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

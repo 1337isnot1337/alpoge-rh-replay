@@ -1,0 +1,19 @@
+--- a/src/GroundTheory/AutomorphicForms/FinePartition.lean
++++ b/src/GroundTheory/AutomorphicForms/FinePartition.lean
+@@ -74,14 +74,14 @@
+     (hV : V ∈ 𝓤 X) : ∃ p : MeasurablePartition X, p.IsFine V := by
+   obtain ⟨W, hW, hWo, hWs, hWV⟩ := comp_open_symm_mem_uniformity_sets hV
+   obtain ⟨t, ht⟩ := isCompact_univ.elim_finite_subcover (fun x => ball x W)
+-    (fun x => isOpen_ball x hWo) (fun x _ => mem_iUnion.2 ⟨x, mem_ball_self x hW⟩)
++    (fun x => isOpen_ball x hWo.relInv) (fun x _ => mem_iUnion.2 ⟨x, mem_ball_self x hW⟩)
+   let L := t.toList
+   let F : ℕ → Set X := fun i => if h : i < L.length then ball (L.get ⟨i, h⟩) W else ∅
+   have hF : ∀ i, MeasurableSet (F i) := by
+     intro i
+     simp only [F]
+     split_ifs
+-    · exact (isOpen_ball _ hWo).measurableSet
++    · exact (isOpen_ball _ hWo.relInv).measurableSet
+     · exact MeasurableSet.empty
+   have hFn : ∀ i, L.length ≤ i → F i = ∅ := by
+     intro i hi

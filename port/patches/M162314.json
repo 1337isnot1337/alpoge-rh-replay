@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ArithmeticGeometry.SchemeCohomology.OverShriek",
+  "source_sha256": "2bca813bac67acea998183f9f3d015064e10609e6dad4a23feb33e0641191b09",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

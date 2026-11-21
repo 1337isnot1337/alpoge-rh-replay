@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.UnipotentAdelicQuotients.ThmBInSatake",
+  "source_sha256": "7cfab297b00d68441bd72c6f343b023bcaa2c9222717e2ec59d289e86092639c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

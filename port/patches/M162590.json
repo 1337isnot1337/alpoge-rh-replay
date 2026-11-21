@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.GKModules.ParametricIntegral",
+  "source_sha256": "bf4875bdcc4a84475a7ea5f4ec2102b61b960e9e402a48cf6c01dc980ada2848",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

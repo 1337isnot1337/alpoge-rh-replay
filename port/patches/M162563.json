@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.FiniteBruhat",
+  "source_sha256": "fd324e0bbaeba52b01adea5f0fad6b40c32aab2bf19fe94244ae32d0dd9c587a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: qualify protected Matrix.mul_apply and Matrix.one_apply; use implicit arguments in DoubleCoset.eq. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

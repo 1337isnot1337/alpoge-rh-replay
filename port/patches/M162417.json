@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ArithmeticGeometry.SchemeCohomology.WeilDivisor",
+  "source_sha256": "2f57aa6daf21cdc01272308b452c8a6e20df6a6b626cdb612450e0e9b0b99004",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

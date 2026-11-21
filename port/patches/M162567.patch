@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/AutomorphicForms/FiniteLengthLattice.lean
++++ b/src/GroundTheory/AutomorphicForms/FiniteLengthLattice.lean
+@@ -39,7 +39,7 @@
+   rw [hasFiniteLength_iff]
+   refine ⟨hΛ.wellFoundedLT, ?_⟩
+   have h1 : WellFoundedLT (∀ i, (α i)ᵒᵈ) := Pi.wellFoundedLT
+-  have h2 : WellFoundedGT (∀ i, α i) := ⟨h1.wf⟩
++  have h2 : WellFoundedGT (∀ i, α i) := h1
+   exact hΛ.wellFoundedGT
+ 
+ theorem hasFiniteLength_of_subsingleton [Subsingleton V] : HasFiniteLength ρ := by

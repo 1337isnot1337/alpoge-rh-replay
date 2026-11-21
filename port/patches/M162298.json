@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ArithmeticGeometry.SchemeCohomology.ConsCompSuccAboveZero",
+  "source_sha256": "f28207ec8e372c3033795603ca0b6c9e60b09d37b20f1ab89fd3d2b5d4b4b4ab",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

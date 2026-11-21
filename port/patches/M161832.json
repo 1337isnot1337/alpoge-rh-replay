@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.UnipotentAdelicQuotients.SiegelSetsSL2Adelic",
+  "source_sha256": "5e6b89b797d93a28a24ea83b278aaa4fc0800ec96b48830e2beb88d51ac09d2c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

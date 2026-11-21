@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.GL2Classical.Iwasawa",
+  "source_sha256": "1b6a9568f5d68c5d9fa2d1f9b382df14c906688b1d71355ceb328aae2d4e7fa6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

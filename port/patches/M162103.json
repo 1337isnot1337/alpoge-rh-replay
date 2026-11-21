@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.WachModuleLifts.Statement",
+  "source_sha256": "d8ed9eb2350146100037b13d772ab89e603bed9fa052e2490d1a8ec1881476a3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.GL2Classical.UnitaryEigenSpan",
+  "source_sha256": "70b974ae515cff525682e4faa3ca839f1377e994a825e914a69ee7ab9f9aaa43",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

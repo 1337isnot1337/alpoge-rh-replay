@@ -1,0 +1,20 @@
+--- a/src/GroundTheory/AutomorphicForms/ArchimedeanWhittaker/WronskianEqZeroOfModerate.lean
++++ b/src/GroundTheory/AutomorphicForms/ArchimedeanWhittaker/WronskianEqZeroOfModerate.lean
+@@ -265,7 +265,7 @@
+     ring
+   have hconst : ∀ y > 0, W y = W 1 := by
+     intro y hy
+-    exact isOpen_Ioi.is_const_of_deriv_eq_zero isPreconnected_Ioi
++    exact (isOpen_Ioi (a := (0 : ℝ))).is_const_of_deriv_eq_zero isPreconnected_Ioi
+       (fun z hz => (hWd z hz).differentiableAt.differentiableWithinAt)
+       (fun z hz => (hWd z hz).deriv) hy (mem_Ioi.2 one_pos)
+   have hlim : Tendsto W atTop (𝓝 0) := by
+@@ -380,7 +380,7 @@
+     field_simp
+     ring
+   have hconst : ∀ y > 0, V y = V 1 := fun y hy =>
+-    isOpen_Ioi.is_const_of_deriv_eq_zero isPreconnected_Ioi
++    (isOpen_Ioi (a := (0 : ℝ))).is_const_of_deriv_eq_zero isPreconnected_Ioi
+       (fun z hz => (hV z hz).differentiableAt.differentiableWithinAt)
+       (fun z hz => (hV z hz).deriv) hy (mem_Ioi.2 one_pos)
+   have hV1 : 0 ≤ V 1 := by

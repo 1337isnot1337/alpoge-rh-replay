@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.GL2.GJGlobalRank",
+  "source_sha256": "54d18024d2fb61ad857a64f06316c2903dbeadb57b22e9d991ebcbd1a5e4fc38",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

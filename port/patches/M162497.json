@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.ContragredientTranspose.MatrixSimilarity",
+  "source_sha256": "7407ac3fd9c5a008cf8e88563e58fa610f64d6dbaf79481acaad39a38b52ce4f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: adapt renamed or generalized Mathlib lemmas while retaining the original hypotheses and conclusions. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

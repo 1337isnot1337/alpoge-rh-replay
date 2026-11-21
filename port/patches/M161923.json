@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.WachLatticeTwists.HodgeTateChains.Statement",
+  "source_sha256": "5047c4e21ed8144ae8eb479cdd3999023fe19b1ed8ad075ee147276d1f7031ff",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

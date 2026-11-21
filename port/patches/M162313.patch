@@ -1,0 +1,20 @@
+--- a/src/GroundTheory/ArithmeticGeometry/SchemeCohomology/ModulesTensor.lean
++++ b/src/GroundTheory/ArithmeticGeometry/SchemeCohomology/ModulesTensor.lean
+@@ -89,6 +89,8 @@
+     (V : Cᵒᵖ) (z : (M ⊗ P).obj V)
+     (hz : ((φ.app V).hom.rangeRestrict.rTensor (P.obj V)) z = 0) :
+     zeroSieve z ∈ J V.unop := by
++  letI : ∀ V : Cᵒᵖ, CommRing ((R ⋙ forget₂ CommRingCat RingCat).obj V) :=
++    fun V => inferInstanceAs (CommRing (R.obj V))
+   have hex : Function.Exact (LinearMap.ker (φ.app V).hom.rangeRestrict).subtype
+       (φ.app V).hom.rangeRestrict := by
+     rw [LinearMap.exact_iff, Submodule.range_subtype]
+@@ -122,6 +124,8 @@
+     (hinj : ∀ (U : Cᵒᵖ) (x : M.obj U), φ.app U x = 0 → zeroSieve x ∈ J U.unop)
+     (hsurj : ∀ (U : Cᵒᵖ) (y : N.obj U), imSieve φ y ∈ J U.unop)
+     (U : Cᵒᵖ) (x : (M ⊗ P).obj U) (hx : (φ ▷ P).app U x = 0) : zeroSieve x ∈ J U.unop := by
++  letI : ∀ V : Cᵒᵖ, CommRing ((R ⋙ forget₂ CommRingCat RingCat).obj V) :=
++    fun V => inferInstanceAs (CommRing (R.obj V))
+   have hx' : (φ.app U).hom.rTensor (P.obj U) x = 0 := hx
+   obtain ⟨A, hA, y, rfl⟩ := Submodule.exists_fg_le_eq_rTensor_subtype (x : (M.obj U) ⊗[_] (P.obj U))
+   set f := (φ.app U).hom with hf

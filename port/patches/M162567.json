@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.FiniteLengthLattice",
+  "source_sha256": "1c5831ece6075f3d767109d005f234935799c77fccfd1be8fc2f8e3283412e23",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: adapt renamed or generalized Mathlib lemmas while retaining the original hypotheses and conclusions. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}
