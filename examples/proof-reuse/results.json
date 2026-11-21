@@ -3,10 +3,112 @@
   "source_sha256": {
     "ReplayTopology.lean": "05fc2d3459661473e3cb7808d8e01cfd81b6b9189c3831b8fb3b6437c2fcd39c",
     "ReplayAlgebra.lean": "e580e86648ca44ed395c6d94d3c88f80e5191eff41f64982b551f65d9ebf3e09",
-    "check.py": "ac43bbad29b7fe0eb87137d37aedcbc5e44e7fc541aa1ee0ea08367078007f37",
-    "scan.py": "a47955c6e7262648b4efa9d58697eb31243ca076dca17c33207fad059e463c19"
+    "check.py": "9c26facf4b6ab39f5f8a821183ffcbd1ec6328cafd7a0a0bb456e77720775a5d",
+    "scan.py": "03d390a0833eab95c925778b4a1098b3f4b42cfae11b2b8595e4d5a730c8871c",
+    "ReplayAnalysis.lean": "c5f75a2738bc0bec2adc48d2fb7a0369496bf71738aa52c9a52d8a781fc4b405",
+    "ReplayCommutativeAlgebra.lean": "a013eee1f79718bc8962d305dcf2083561a0f028bc90c4b9f7ec09f6b756644e"
   },
   "runs": [
+    {
+      "execution": "native x86-64 Windows (Intel Xeon Silver 4210R)",
+      "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+      "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "kernel_replayed": [
+        "ReplayTopology",
+        "ReplayAlgebra",
+        "ReplayAnalysis",
+        "ReplayCommutativeAlgebra",
+        "OriginalPure",
+        "OriginalWrapped",
+        "OriginalStructural",
+        "SharedPure",
+        "SharedWrapped",
+        "SharedStructural"
+      ],
+      "checked": {
+        "cardQuot_under_eq_pow_inertiaDeg": 27,
+        "continuous_charpoly_coeff": 14,
+        "continuous_unitsHom": 19,
+        "exists_mem_maximalIdeal_notMem_sq_notMem_minimalPrimes": 4,
+        "exists_nat_mul_isIntegral": 12,
+        "exists_repr_ne_zero": 4,
+        "isLocalHom_of_isIntegral": 9,
+        "isLocalRing_quotient_span_singleton": 4,
+        "maximalIdeal_eq_bot_of_le_sq": 4,
+        "norm_le_one_of_isIntegral": 30,
+        "not_isTotallyReal_and_isTotallyComplex": 15,
+        "padicAlgCl_isIntegral_iff_norm_le_one": 12,
+        "polish_of_lcsc": 5,
+        "poly_mul_gaussian_bounded": 3,
+        "spanFinrank_maximalIdeal_quotient_succ_le": 3,
+        "span_insert_image_erase_eq_top": 4,
+        "specMap_ofHom_comp": 84,
+        "totallyDisconnected_quotient": 14
+      },
+      "heartbeats": {
+        "Original": {
+          "continuous_charpoly_coeff": 3940,
+          "continuous_unitsHom": 4037,
+          "isLocalHom_of_isIntegral": 30812,
+          "not_isTotallyReal_and_isTotallyComplex": 854,
+          "padicAlgCl_isIntegral_iff_norm_le_one": 14042,
+          "totallyDisconnected_quotient": 9886,
+          "cardQuot_under_eq_pow_inertiaDeg": 39097,
+          "specMap_ofHom_comp": 15105,
+          "exists_mem_maximalIdeal_notMem_sq_notMem_minimalPrimes": 6264,
+          "exists_nat_mul_isIntegral": 28203,
+          "exists_repr_ne_zero": 4800,
+          "isLocalRing_quotient_span_singleton": 2253,
+          "maximalIdeal_eq_bot_of_le_sq": 2623,
+          "norm_le_one_of_isIntegral": 59197,
+          "polish_of_lcsc": 9312,
+          "poly_mul_gaussian_bounded": 7303,
+          "spanFinrank_maximalIdeal_quotient_succ_le": 18328,
+          "span_insert_image_erase_eq_top": 10667
+        },
+        "Shared": {
+          "continuous_charpoly_coeff": 897,
+          "continuous_unitsHom": 2248,
+          "isLocalHom_of_isIntegral": 1359,
+          "not_isTotallyReal_and_isTotallyComplex": 255,
+          "padicAlgCl_isIntegral_iff_norm_le_one": 637,
+          "totallyDisconnected_quotient": 714,
+          "cardQuot_under_eq_pow_inertiaDeg": 2297,
+          "specMap_ofHom_comp": 9842,
+          "exists_mem_maximalIdeal_notMem_sq_notMem_minimalPrimes": 1181,
+          "exists_nat_mul_isIntegral": 1740,
+          "exists_repr_ne_zero": 1189,
+          "isLocalRing_quotient_span_singleton": 345,
+          "maximalIdeal_eq_bot_of_le_sq": 723,
+          "norm_le_one_of_isIntegral": 3244,
+          "polish_of_lcsc": 138,
+          "poly_mul_gaussian_bounded": 262,
+          "spanFinrank_maximalIdeal_quotient_succ_le": 1169,
+          "span_insert_image_erase_eq_top": 1216
+        }
+      },
+      "library_heartbeats_by_lemma": {
+        "continuous_unitsHom": 188,
+        "totallyDisconnected_quotient": 684,
+        "continuous_charpoly_coeff": 276,
+        "specMap_ofHom_comp": 188,
+        "cardQuot_under_eq_pow_inertiaDeg": 1135,
+        "not_isTotallyReal_and_isTotallyComplex": 56,
+        "padicAlgCl_isIntegral_iff_norm_le_one": 1176,
+        "isLocalHom_of_isIntegral": 3448,
+        "polish_of_lcsc": 1776,
+        "norm_le_one_of_isIntegral": 1249,
+        "poly_mul_gaussian_bounded": 2340,
+        "exists_nat_mul_isIntegral": 153,
+        "span_insert_image_erase_eq_top": 2538,
+        "isLocalRing_quotient_span_singleton": 374,
+        "maximalIdeal_eq_bot_of_le_sq": 623,
+        "exists_mem_maximalIdeal_notMem_sq_notMem_minimalPrimes": 1723,
+        "exists_repr_ne_zero": 1362,
+        "spanFinrank_maximalIdeal_quotient_succ_le": 4334
+      },
+      "library_heartbeats": 23623
+    },
     {
       "execution": "native x86-64 Windows (AMD Ryzen 7 5800H)",
       "compiler": "Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
@@ -59,5 +161,25 @@
       },
       "library_heartbeats": 7151
     }
-  ]
+  ],
+  "scan": {
+    "exact": {
+      "modules": 175187,
+      "candidates": 665170,
+      "repeated_groups": 12478,
+      "occurrences_after_first": 15932
+    },
+    "header": {
+      "modules": 175187,
+      "candidates": 664404,
+      "repeated_groups": 61917,
+      "occurrences_after_first": 71808
+    },
+    "alpha": {
+      "modules": 175187,
+      "candidates": 664404,
+      "repeated_groups": 64940,
+      "occurrences_after_first": 78983
+    }
+  }
 }

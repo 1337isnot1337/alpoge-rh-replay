@@ -7,9 +7,11 @@ from pathlib import Path
 import re
 import shutil
 import subprocess
+import sys
 import tempfile
 
-from scan import ROOT, indexed_sources, declarations
+from scan import DECL, ROOT, indexed_sources, declarations, alpha_header, statement_header, statement_prefix
+import hashlib
 
 HERE = Path(__file__).resolve().parent
 LEAN_COMMIT = '819816b2e0a3bf405af45ae5c7af2491d8f5bee6'
@@ -27,7 +29,35 @@ LIBRARIES = {
         'isLocalHom_of_isIntegral',
     ),
 }
+# For each new shared lemma, inference fills the parameters appearing in
+# the conclusion; the other arguments come from the source hypotheses.
+STRUCTURAL_LIBRARIES = {
+    'ReplayAnalysis': {
+        'polish_of_lcsc': ' _',
+        'norm_le_one_of_isIntegral': ' (by assumption)',
+        'poly_mul_gaussian_bounded': '',
+    },
+    'ReplayCommutativeAlgebra': {
+        'exists_nat_mul_isIntegral': ' _',
+        'span_insert_image_erase_eq_top': ' _ _ (by assumption)',
+        'isLocalRing_quotient_span_singleton': ' (by assumption)',
+        'maximalIdeal_eq_bot_of_le_sq': ' _ (by assumption)',
+        'exists_mem_maximalIdeal_notMem_sq_notMem_minimalPrimes': ' _ (by assumption) (by assumption)',
+        'exists_repr_ne_zero': ' _ (by assumption)',
+        'spanFinrank_maximalIdeal_quotient_succ_le': ' _ (by assumption) (by assumption)',
+    },
+}
 WRAPPER_TASKS = {'M144183', 'M172691'}
+# The cotangent-space calculation and prime avoidance use earlier proofs
+# from the same file. Compile those exact siblings in separate namespaces.
+COTANGENT_HELPERS = {'spanFinrank_span_finset_le', 'exists_repr_ne_zero', 'span_insert_image_erase_eq_top'}
+SIBLINGS = {
+    'M156476': COTANGENT_HELPERS | {'isPrime_of_mem_minimalPrimes'},
+    'M171687': COTANGENT_HELPERS | {'isPrime_of_mem_minimalPrimes'},
+    'M171690': COTANGENT_HELPERS | {'isPrime_of_mem_minimalPrimes'},
+    'M136424': {'isPrime_of_mem_minimalPrimes'},
+    'M087333': {'norm_finset_sum_lt_of_forall_lt'},
+}
 
 # Each entry identifies the exact text (statement and proof), the shared lemma group,
 # the replacement proof term, whether the consumer statement mentions an archive abbreviation
@@ -87,23 +117,88 @@ CASES = {
 }
 
 
+# Alpha-mode header hash -> shared lemma and independently source-hashed module IDs.
+# Different original scripts under a shared header are elaborated separately.
+STRUCTURAL_CASES = {
+    '02d415b1b8debf2c8a5a3fea8ef694d8bbb065c627b71100dbebce6bbaea98bd': (
+        'ReplayCommutativeAlgebra.exists_mem_maximalIdeal_notMem_sq_notMem_minimalPrimes',
+        'M136424 M156476 M171687 M171690'),
+    '4535c173a159a5857a71822353aec5d3bc9430aa09a8e6dee6ce341ee12a13f1': (
+        'ReplayCommutativeAlgebra.exists_nat_mul_isIntegral',
+        'M027663'),
+    '460d927bee576408ba560afe13d45358fc36cb25a37b6762f96c67efbd3bbb08': (
+        'ReplayCommutativeAlgebra.exists_nat_mul_isIntegral',
+        'M005501 M020865 M066009 M078091 M170829 M170870'),
+    '9580b5ab017ece565133ca6c28faf911e27917e60f11694abdeef37fa7a153f0': (
+        'ReplayCommutativeAlgebra.exists_nat_mul_isIntegral',
+        'M005660 M033194 M064547 M088039'),
+    'd04db0041130596941db243067f90badeaae79099c02dc1daa2bab2ea726006b': (
+        'ReplayCommutativeAlgebra.exists_nat_mul_isIntegral',
+        'M154557'),
+    '3527a03acab575afc97f9a1c4f8f0449a8ed4333a800d21a4f33ace4b2c0037b': (
+        'ReplayCommutativeAlgebra.exists_repr_ne_zero',
+        'M136424 M156476 M171687 M171690'),
+    '92844b50e834267c01e0a260068f449d90f900ac0f83e199d5462554d0f3e342': (
+        'ReplayCommutativeAlgebra.isLocalRing_quotient_span_singleton',
+        'M136424 M156476 M171687 M171690'),
+    'fc8b0ce19200e1ccfd134c578b3ea8a1b89bd3c6847cc0a3d2219d7eeac27a6a': (
+        'ReplayCommutativeAlgebra.maximalIdeal_eq_bot_of_le_sq',
+        'M136424 M156476 M171687 M171690'),
+    '4868cfc186709455ec79ea9ee7980fce7a92a09c46724df5abb61e9087706392': (
+        'ReplayAnalysis.norm_le_one_of_isIntegral',
+        'M086544 M087517 M088415 M088889 M120564 M140237'),
+    '5be3539a02ef7c28ea31e5e97ee2be8456b05629ebc6da988dba172c4c19f873': (
+        'ReplayAnalysis.norm_le_one_of_isIntegral',
+        'M036261 M040345 M041696 M046355 M060240 M061253 M064135 M074060 M080622 '
+        'M087349 M087532 M087818 M088895 M103317 M120061 M148413 M148663'),
+    'd19a26562542734531a134d143644e120b6e05e4391462dc2282d72ba2255cd7': (
+        'ReplayAnalysis.norm_le_one_of_isIntegral',
+        'M023564 M044544 M055535 M061289 M083736 M087333 M149709'),
+    '5b58389799cc78ac4c27a04211e833e1113acd180d76df2cfb41405a1cfd5ac5': (
+        'ReplayAnalysis.polish_of_lcsc',
+        'M154353 M156866 M157029 M157505 M157679'),
+    '81fed670a1119ca1de770a14420ef1410afc4c927c5c0204679d4a28bdbe1da1': (
+        'ReplayAnalysis.poly_mul_gaussian_bounded',
+        'M046154 M115171 M115172'),
+    'd482f2424df64ca2725edf1a298e5875d6ba8c76bfa0f44d931ea8c2f66b0a72': (
+        'ReplayCommutativeAlgebra.span_insert_image_erase_eq_top',
+        'M136424 M156476 M171687 M171690'),
+    '458da6534cd8327ff26601d50301452cae6fde069a4cbd80ce8ae0daba7f093b': (
+        'ReplayCommutativeAlgebra.spanFinrank_maximalIdeal_quotient_succ_le',
+        'M156476 M171687 M171690'),
+}
+
+
 def source_cases(project):
     expected = {(task, key) for key, (_, _, _, tasks) in CASES.items() for task in tasks.split()}
+    structural = {(task, key): lemma for key, (lemma, tasks) in STRUCTURAL_CASES.items()
+                  for task in tasks.split()}
     cases = []
     seen_names = Counter()
-    for row, data in indexed_sources(project, {task for task, _ in expected}):
+    for row, data in indexed_sources(project, {task for task, _ in expected | structural.keys()}):
         for key, match, block in declarations(data):
             ident = (row['id'], key.hex())
-            if ident not in expected:
-                continue
-            expected.remove(ident)
-            lemma, term, needs_wrappers, _ = CASES[ident[1]]
+            if ident in expected:
+                expected.remove(ident)
+                lemma, term, batch, _ = CASES[ident[1]]
+                batch = 'Wrapped' if batch else 'Pure'
+            else:
+                header = statement_header(block)
+                if header is None:
+                    continue
+                key = hashlib.sha256(alpha_header(header).encode()).hexdigest()
+                full = structural.pop((row['id'], key), None)
+                if full is None:
+                    continue
+                library, lemma = full.split('.')
+                term = full + STRUCTURAL_LIBRARIES[library][lemma]
+                batch = 'Structural'
             base_name = f"{ident[0]}.{match[1].decode()}"
             seen_names[base_name] += 1
             decl_name = base_name if seen_names[base_name] == 1 else f"{base_name}_{seen_names[base_name]}"
-            cases.append((lemma, term, needs_wrappers, decl_name, block.decode('utf-8')))
-    if expected:
-        raise ValueError(f'Missing pinned declarations: {sorted(expected)}')
+            cases.append((lemma, term, batch, decl_name, block.decode('utf-8')))
+    if expected or structural:
+        raise ValueError(f'Missing pinned declarations: {sorted(expected | structural.keys())}')
     return sorted(cases)
 
 
@@ -131,11 +226,20 @@ def compile_file(work, env, rel_stem, save=False, warning_as_error=True):
            f'-DwarningAsError={"true" if warning_as_error else "false"}', '--tstack=400000']
     if save:
         cmd.extend(['-o', rel_stem + '.olean'])
-    run = subprocess.run([*cmd, rel_stem + '.lean'], env=env, cwd=work, text=True,
+    run = subprocess.run([*cmd, rel_stem + '.lean'], env=env, cwd=work, text=True, encoding='utf-8',
                          stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     if run.returncode:
         raise RuntimeError(f"{rel_stem} failed:\n{run.stdout}")
     return [int(n) for n in re.findall(r'\bUsed (\d+) heartbeats,', run.stdout)]
+
+
+def replay(work, env, module):
+    run = subprocess.run(['leanchecker', '-v', module], cwd=work, env=env,
+                         stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding='utf-8')
+    if run.returncode or f'replaying {module}' not in run.stdout.splitlines():
+        raise RuntimeError(f'Kernel replay of {module} failed:\n{run.stdout}')
+    print(run.stdout.rstrip(), file=sys.stderr, flush=True)
+    return module
 
 
 def audit(names):
@@ -150,31 +254,51 @@ run_cmd do
 '''
 
 
-def prepare_wrappers(project, work, env):
+def prepare_wrappers(project, work, env, tasks):
     wrapper_modules = []
-    for row, data in indexed_sources(project, WRAPPER_TASKS):
+    for row, data in indexed_sources(project, tasks):
         rel_stem = row['module'].replace('.', '/')
         dest = work / (rel_stem + '.lean')
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_bytes(data)
         compile_file(work, env, rel_stem, save=True, warning_as_error=False)
         wrapper_modules.append(row['module'])
-    if len(wrapper_modules) != len(WRAPPER_TASKS):
+    if len(wrapper_modules) != len(tasks):
         raise ValueError('Missing wrapper modules')
     return sorted(wrapper_modules)
+
+
+def prepare_siblings(project, work, env):
+    # M087333's sum-bound helper calls this depth-0 archive module.
+    modules = prepare_wrappers(project, work, env, {'M088903'})
+    lines = [f'import {module}' for module in modules] + ['open IsLocalRing']
+    for row, data in indexed_sources(project, set(SIBLINGS)):
+        task = row['id']
+        missing = set(SIBLINGS[task])
+        lines.append(f'namespace ArchiveSiblings.{task}')
+        for match in DECL.finditer(data):
+            name = match[1].decode()
+            if name in missing:
+                missing.remove(name)
+                lines.append(f'theorem {name} {match[2].strip().decode()}')
+        if missing:
+            raise ValueError(f'Missing {task} sibling declarations: {sorted(missing)}')
+        lines.append(f'end ArchiveSiblings.{task}')
+    (work / 'ArchiveSiblings.lean').write_text('\n\n'.join(lines), encoding='utf-8')
+    compile_file(work, env, 'ArchiveSiblings', save=True, warning_as_error=False)
 
 
 def check(project, work):
     cases = source_cases(project)
     version, pin, env = compiler_environment(project, work)
 
+    kernel_replayed = []
     library_costs = {}
-    all_shared_decls = []
-    for lib_name, decl_names in LIBRARIES.items():
+    for lib_name, decl_names in (LIBRARIES | STRUCTURAL_LIBRARIES).items():
         library = HERE / f'{lib_name}.lean'
         shutil.copyfile(library, work / library.name)
         compile_file(work, env, lib_name, save=True)
-        subprocess.run(['leanchecker', lib_name], cwd=work, env=env, check=True)
+        kernel_replayed.append(replay(work, env, lib_name))
         source = library.read_text(encoding='utf-8')
         source = 'import Mathlib.Util.CountHeartbeats\n' + source.replace('\n/--', '\n#count_heartbeats in\n/--')
         cost_stem = f'{lib_name}Cost'
@@ -184,20 +308,17 @@ def check(project, work):
             raise ValueError(f'Missing {lib_name} heartbeat measurements ({len(costs)} != {len(decl_names)})')
         for dname, cost in zip(decl_names, costs):
             library_costs[dname] = cost
-            all_shared_decls.append(f'{lib_name}.{dname}')
 
-    wrapper_modules = prepare_wrappers(project, work, env)
-
-    pure_cases = [c for c in cases if not c[2]]
-    wrapped_cases = [c for c in cases if c[2]]
+    wrapper_modules = prepare_wrappers(project, work, env, WRAPPER_TASKS)
+    prepare_siblings(project, work, env)
 
     measurements = {'Original': Counter(), 'Shared': Counter()}
     for mode in ('Original', 'Shared'):
-        for batch_label, batch_cases, use_wrappers in (
-            ('Pure', pure_cases, False),
-            ('Wrapped', wrapped_cases, True),
-        ):
-            lines = ['import ReplayTopology', 'import ReplayAlgebra']
+        for batch_label in ('Pure', 'Wrapped', 'Structural'):
+            batch_cases = [c for c in cases if c[2] == batch_label]
+            use_wrappers = batch_label == 'Wrapped'
+            libraries = STRUCTURAL_LIBRARIES if batch_label == 'Structural' else LIBRARIES
+            lines = [f'import {lib}' for lib in libraries]
             if use_wrappers:
                 for wmod in wrapper_modules:
                     lines.append(f'import {wmod}')
@@ -207,6 +328,9 @@ def check(project, work):
                 'open NumberField Polynomial',
                 'open scoped Padic',
             ])
+            if batch_label == 'Structural':
+                lines.insert(0, 'import ArchiveSiblings')
+                lines.extend(['open IsLocalRing Topology TopologicalSpace Set Filter', 'open scoped ENNReal NNReal'])
             if use_wrappers:
                 lines.extend([
                     'open AlgebraicGeometry CategoryTheory IsDedekindDomain',
@@ -216,14 +340,20 @@ def check(project, work):
             names = []
             for lemma, term, _, name, block in batch_cases:
                 if mode == 'Shared':
-                    statement, _, _ = block.partition(':= by')
-                    block = f'{statement}:= {term}'
+                    statement = statement_prefix(block.encode('utf-8'))
+                    if statement is None:
+                        raise ValueError(f'Cannot locate proof for {name}')
+                    block = f'{statement.decode("utf-8")}:= {term}'
+                task = name.split('.')[0]
+                if batch_label == 'Structural' and task in SIBLINGS:
+                    lines.append(f'open ArchiveSiblings.{task} in')
                 lines.extend(['#count_heartbeats in', f'theorem {name} {block}'])
                 names.append(name)
-            lines.append(audit(names + (all_shared_decls if not use_wrappers else [])))
+            lines.append(audit(names + [f'{lib}.{name}' for lib, decls in libraries.items() for name in decls]))
             stem = f'{mode}{batch_label}'
             (work / (stem + '.lean')).write_text('\n\n'.join(lines), encoding='utf-8')
-            beats = compile_file(work, env, stem, warning_as_error=(mode == 'Shared' and not use_wrappers))
+            beats = compile_file(work, env, stem, save=True, warning_as_error=(mode == 'Shared' and not use_wrappers))
+            kernel_replayed.append(replay(work, env, stem))
             if len(beats) != len(batch_cases):
                 raise ValueError(f'Missing {stem} heartbeat measurements ({len(beats)} != {len(batch_cases)})')
             for (lemma, _, _, _, _), n in zip(batch_cases, beats):
@@ -232,7 +362,7 @@ def check(project, work):
     return dict(
         compiler=version,
         mathlib=pin,
-        kernel_replayed=list(LIBRARIES),
+        kernel_replayed=kernel_replayed,
         checked=dict(Counter(c[0] for c in cases)),
         heartbeats={k: dict(v) for k, v in measurements.items()},
         library_heartbeats_by_lemma=library_costs,
