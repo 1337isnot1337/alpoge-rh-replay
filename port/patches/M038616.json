@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenImmersionSpecOfQuasiFiniteOfNormal",
+  "source_sha256": "1cf0a66139defa25f19cace5b2cfaee795923a5a010019f040edf429a84bf1a4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "IsLocalization.under_map_of_isPrime_disjoint rename."
+}
