@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.NormDetLe",
+  "source_sha256": "07fd082fd4a120e61c343ea430f131f692ca7832583dd222b9dbc9df8d958cf8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename Finset.prod_le_prod to Finset.prod_le_prod\u2080, retaining the nonnegativity premise. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0055-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.NormIndexQuadratic",
+  "source_sha256": "b2d9c0a129865852ad6657cca214a6f97555c90cb2887f72c8f0a5654c2b4d6c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite Ideal.absNorm_eq_natCard explicitly before applying the quotient-cardinality bound over the ring of integers in the proof. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0055-lean436-20261121/packet-result.json"
+}

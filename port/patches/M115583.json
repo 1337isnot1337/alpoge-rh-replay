@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.NoetherNormalizationChart",
+  "source_sha256": "58bad861607ff245d6625c1e578ea72ebbddc4588523b96632437ee5ea2c6d60",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename Polynomial.finset_sum_coeff to Polynomial.finsetSum_coeff in the proof. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0055-lean436-20261121/packet-result.json"
+}

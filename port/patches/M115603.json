@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.NormSubgroupOpen",
+  "source_sha256": "d7a65a8a8155ddcc20497c76143e912e3217c2cbb9fd747dd15c75925fd555ab",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the Disjoint hypotheses and conclusion supplied directly by IsCompact.elim_directed_family_closed, removing obsolete conversions through an empty intersection. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0055-lean436-20261121/packet-result.json"
+}

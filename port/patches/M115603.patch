@@ -1,0 +1,20 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/NormSubgroupOpen.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/NormSubgroupOpen.lean
+@@ -461,7 +461,7 @@
+     (fun m : ℕ+ => (Nm ρ p m : Set G))
+     (fun m => Subgroup.isClosed_of_isOpen _ (Nm_open ρ h m.2))
+     (by
+-      rw [← Set.disjoint_iff_inter_eq_empty, Set.disjoint_left]
++      rw [Set.disjoint_left]
+       intro g hg hg'
+       apply hg
+       rw [Set.mem_iInter] at hg'
+@@ -474,7 +474,7 @@
+   refine ⟨m, m.2, fun ν hν => ?_⟩
+   have hν' : ν ∈ U := by
+     by_contra hn
+-    exact Set.disjoint_left.1 (Set.disjoint_iff_inter_eq_empty.2 hm) hn hν
++    exact Set.disjoint_left.1 hm hn hν
+   simp only [U, Set.mem_iInter, Set.mem_setOf_eq] at hν'
+   ext1 i j
+   have := hν' i j
