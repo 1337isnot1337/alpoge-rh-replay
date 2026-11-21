@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/DualIntegralLattice.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/DualIntegralLattice.lean
+@@ -58,7 +58,7 @@
+           Pi.single i (c.symm (y j) * x i) := by
+         rw [← Pi.single_smul, smul_eq_mul]
+       rw [h1, ← hadj, h2, star, mul_assoc]
+-    conv_lhs => rw [hxs, map_sum, AddMonoidHom.finset_sum_apply, hys]
++    conv_lhs => rw [hxs, map_sum, AddMonoidHom.finsetSum_apply, hys]
+     simp only [map_sum, Finset.mul_sum, Int.cast_sum]
+     rw [Finset.sum_comm]
+     refine Finset.sum_congr rfl fun j _ => Finset.sum_congr rfl fun i _ => ?_

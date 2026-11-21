@@ -1,0 +1,8 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/DvrOfNormIntegral.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/DvrOfNormIntegral.lean
+@@ -30,4 +30,4 @@
+   have hnf : ¬ IsField (integralClosure ℤ_[l] K) := fun hf =>
+     IsDiscreteValuationRing.not_isField ℤ_[l]
+       ((Algebra.IsIntegral.isField_iff_isField hinj).mpr hf)
+-  exact ((IsDiscreteValuationRing.TFAE (integralClosure ℤ_[l] K) hnf).out 0 1).mpr hval
++  exact ((IsDiscreteValuationRing.TFAE (integralClosure ℤ_[l] K) hnf).out 1 2).mpr hval

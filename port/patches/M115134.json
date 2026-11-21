@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.DualLatticeDenominator",
+  "source_sha256": "f5f5f3da828cd21a8cdced5c3f243f2ff21423feeeb6cb71b6b0f78269b2618a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Statement change, equivalent: the hypothesis `Submodule.IsLattice F Y` of `dual_lattice_denom` becomes `Submodule.IsFullLattice F Y`. Mathlib #44365 renamed the pinned `IsLattice` (finitely generated and spanning) to `IsFullLattice` and reused the name `IsLattice` for a weaker notion without `span_eq_top`. Here `F` is the fraction field of `A` (`[IsFractionRing A F]`), so `IsFullLattice F Y ↔ Y.FG ∧ span F Y = ⊤`, which is the pinned definition, because `Submodule.IsLattice.of_fg` supplies the new linear-independence field. The proof is unchanged."
+}

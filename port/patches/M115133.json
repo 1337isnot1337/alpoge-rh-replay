@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.DualIntegralLattice",
+  "source_sha256": "f1aa25e9cf28a6cb7cbb467b44aa5e04415bcd58b91296bd21f810a5ea0f157d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed `AddMonoidHom.finsetSum_apply` (was `AddMonoidHom.finset_sum_apply`). Proof body only."
+}
