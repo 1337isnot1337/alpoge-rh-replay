@@ -4,7 +4,6 @@
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@TOTOGT](https://github.com/TOTOGT) | [M162433](https://github.com/rohanarun/alpoge-rh-replay/issues/9856) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M162559](https://github.com/rohanarun/alpoge-rh-replay/issues/9874) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M175177](https://github.com/rohanarun/alpoge-rh-replay/issues/9881) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M175180](https://github.com/rohanarun/alpoge-rh-replay/issues/9884) | Claimed |
@@ -50,11 +49,9 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M111978](https://github.com/rohanarun/alpoge-rh-replay/issues/10546) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M155721](https://github.com/rohanarun/alpoge-rh-replay/issues/10574) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111981](https://github.com/rohanarun/alpoge-rh-replay/issues/10576) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P1856](https://github.com/rohanarun/alpoge-rh-replay/issues/10583) | Claimed |
 | [@JamCh01](https://github.com/JamCh01) | [P1931](https://github.com/rohanarun/alpoge-rh-replay/issues/10611) | Claimed |
 | [@chriswilson413](https://github.com/chriswilson413) | [M005913](https://github.com/rohanarun/alpoge-rh-replay/issues/10700) | Claimed |
 | [@chriswilson413](https://github.com/chriswilson413) | [M005694](https://github.com/rohanarun/alpoge-rh-replay/issues/10702) | Claimed |
 | [@hipotures](https://github.com/hipotures) | [P1865](https://github.com/rohanarun/alpoge-rh-replay/issues/10722) | Claimed |
-| [@WorldianAI](https://github.com/WorldianAI) | [M005934](https://github.com/rohanarun/alpoge-rh-replay/issues/10732) | Claimed |
 | [@WorldianAI](https://github.com/WorldianAI) | [M145169](https://github.com/rohanarun/alpoge-rh-replay/issues/10746) | Claimed |
 | [@twaldin](https://github.com/twaldin) | [P1975](https://github.com/rohanarun/alpoge-rh-replay/issues/10758) | Claimed |

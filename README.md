@@ -35,10 +35,12 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- active-volunteers-start -->
 
-[1,054 entries. View the full table](tracker/volunteer-tables/active/README.md).
+[1,051 entries. View the full table](tracker/volunteer-tables/active/README.md).
 
 | Contributor | Task | Status |
 |---|---|---|
+| [@BenCaunt](https://github.com/BenCaunt) | [M002774](https://github.com/rohanarun/alpoge-rh-replay/issues/10489) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M062791](https://github.com/rohanarun/alpoge-rh-replay/issues/10492) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M124087](https://github.com/rohanarun/alpoge-rh-replay/issues/10494) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M133007](https://github.com/rohanarun/alpoge-rh-replay/issues/10496) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M002652](https://github.com/rohanarun/alpoge-rh-replay/issues/10497) | Claimed |
@@ -51,12 +53,10 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 | [@BenCaunt](https://github.com/BenCaunt) | [M111978](https://github.com/rohanarun/alpoge-rh-replay/issues/10546) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M155721](https://github.com/rohanarun/alpoge-rh-replay/issues/10574) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111981](https://github.com/rohanarun/alpoge-rh-replay/issues/10576) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P1856](https://github.com/rohanarun/alpoge-rh-replay/issues/10583) | Claimed |
 | [@JamCh01](https://github.com/JamCh01) | [P1931](https://github.com/rohanarun/alpoge-rh-replay/issues/10611) | Claimed |
 | [@chriswilson413](https://github.com/chriswilson413) | [M005913](https://github.com/rohanarun/alpoge-rh-replay/issues/10700) | Claimed |
 | [@chriswilson413](https://github.com/chriswilson413) | [M005694](https://github.com/rohanarun/alpoge-rh-replay/issues/10702) | Claimed |
 | [@hipotures](https://github.com/hipotures) | [P1865](https://github.com/rohanarun/alpoge-rh-replay/issues/10722) | Claimed |
-| [@WorldianAI](https://github.com/WorldianAI) | [M005934](https://github.com/rohanarun/alpoge-rh-replay/issues/10732) | Claimed |
 | [@WorldianAI](https://github.com/WorldianAI) | [M145169](https://github.com/rohanarun/alpoge-rh-replay/issues/10746) | Claimed |
 | [@twaldin](https://github.com/twaldin) | [P1975](https://github.com/rohanarun/alpoge-rh-replay/issues/10758) | Claimed |
 
@@ -69,7 +69,7 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- pending-volunteers-start -->
 
-[3,062 entries. View the full table](tracker/volunteer-tables/pending/README.md).
+[3,065 entries. View the full table](tracker/volunteer-tables/pending/README.md).
 
 | Contributor | Task | Review |
 |---|---|---|
