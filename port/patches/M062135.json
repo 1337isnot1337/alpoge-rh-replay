@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.FiniteOfIsClosedTorusZariskiOfPowEqOne",
+  "source_sha256": "d9928971eeca1eddff63b46a430582f6c6d949b198cfc4b4c324d88550b4e266",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Group.FG` is now `IsMulFG`, so `Group.fg_def` no longer destructures to a generating finset; take it from `Group.fg_iff'`. Proof body only."
+}

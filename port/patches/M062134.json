@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.FiniteMaximalSpectrumOfFiniteOfIsLocalRing",
+  "source_sha256": "e20efeb1a546368c21303c67e08cea8f1aced4b20e5f24375e120f71b5efd8c2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "TensorProduct's default induction principle on the target has only the `tmul` and `add` cases, so the `zero` alternatives are removed. `HenselianRing.jac` is now stated with `Ring.jacobson R`, which equals `(⊥ : Ideal R).jacobson` by `Ideal.jacobson_bot`; convert with it in both directions. Use the renamed `Ideal.isMaximal_under_of_isIntegral_of_isMaximal`. Proof bodies only; the hypothesis `J ≤ (⊥ : Ideal S).jacobson` of `henselianRing_of_finite` is unchanged."
+}

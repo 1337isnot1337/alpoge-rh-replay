@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIsDiscreteValuationRingOfMaximalIdealEqSpa",
+  "source_sha256": "414b0f611bf829a2dbcf6163acdbd1854d5cb14c25aeb4d9e967dfbc04cb3b12",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`HenselianRing.jac` is now stated with `Ring.jacobson R`, which equals `(⊥ : Ideal R).jacobson` by `Ideal.jacobson_bot`; convert with it at two uses. Also use the renamed `IsLocalization.under_map_of_isPrime_disjoint` and `Ideal.isMaximal_under_of_isIntegral_of_isMaximal`, and close a coefficient goal with `AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply` (`MvPolynomial.coeff_zero` is now a function-level equality). Proof bodies only."
+}

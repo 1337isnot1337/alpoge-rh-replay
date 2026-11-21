@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsUniqueAlgEquivOfCompatibleQuotient",
+  "source_sha256": "94fa217f9481d576ef8d2eadabe90870eb9b0ddde418432871d9eaa5a206785c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "TensorProduct's default induction principle on the target has only the `tmul` and `add` cases, so the `zero` alternatives are removed. Also use `IsAdicComplete.le_jacobson`, since `IsHausdorff.of_le_jacobson` now takes `I ≤ Ring.jacobson R`. Proof bodies only."
+}
