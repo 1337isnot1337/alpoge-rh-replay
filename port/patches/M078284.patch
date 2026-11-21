@@ -1,0 +1,62 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsQuasiFinitePolynomialMap.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsQuasiFinitePolynomialMap.lean
+@@ -119,8 +119,10 @@
+   | C a => simp [finSuccEquiv_apply]
+   | add p q hp hq => simp [hp, hq, Polynomial.map_add]
+   | mul_X p i hp =>
+-    simp only [map_mul, Polynomial.map_mul, hp]
+-    congr 1
++    rw [map_mul (finSuccEquiv A n), Polynomial.map_mul,
++      map_mul (MvPolynomial.map φ), map_mul (finSuccEquiv B n), hp]
++    apply congrArg (fun q : Polynomial (MvPolynomial (Fin n) B) =>
++      finSuccEquiv B n (MvPolynomial.map φ p) * q)
+     cases i using Fin.cases <;> simp [finSuccEquiv_X_zero, finSuccEquiv_X_succ]
+ 
+ end shear
+@@ -171,20 +173,20 @@
+     rw [add_comm (Polynomial.C _), Polynomial.natDegree_X_pow_add_C, mul_comm])
+ 
+ private lemma degreeOf_t_ne_of_ne (hv : v ∈ f.support) (hw : w ∈ f.support) (ne : v ≠ w) :
+-    (T <| monomial v <| coeff v f).degreeOf 0 ≠
+-    (T <| monomial w <| coeff w f).degreeOf 0 := by
++    (T <| monomial v <| f.coeff v).degreeOf 0 ≠
++    (T <| monomial w <| f.coeff w).degreeOf 0 := by
+   rw [degreeOf_zero_t _ _ <| mem_support_iff.mp hv, degreeOf_zero_t _ _ <| mem_support_iff.mp hw]
+   refine sum_r_mul_ne f v w (fun i ↦ ?_) (fun i ↦ ?_) ne <;>
+   exact lt_of_le_of_lt ((monomial_le_degreeOf i ‹_›).trans (degreeOf_le_totalDegree f i))
+     (by lia)
+ 
+ private lemma leadingCoeff_finSuccEquiv_t :
+-    (finSuccEquiv k n (T ((monomial v) (coeff v f)))).leadingCoeff =
+-    algebraMap k _ (coeff v f) := by
++    (finSuccEquiv k n (T ((monomial v) (f.coeff v)))).leadingCoeff =
++    algebraMap k _ (f.coeff v) := by
+   rw [monomial_eq, Finsupp.prod_fintype]
+   · simp only [map_mul, map_prod, Polynomial.leadingCoeff_mul, Polynomial.leadingCoeff_prod]
+-    have h0 : (finSuccEquiv k n (T (MvPolynomial.C (coeff v f)))).leadingCoeff = algebraMap k _ (coeff v f) := by
+-      have : T (MvPolynomial.C (coeff v f)) = MvPolynomial.C (coeff v f) := (shear k n _).commutes (coeff v f)
++    have h0 : (finSuccEquiv k n (T (MvPolynomial.C (f.coeff v)))).leadingCoeff = algebraMap k _ (f.coeff v) := by
++      have : T (MvPolynomial.C (f.coeff v)) = MvPolynomial.C (f.coeff v) := (shear k n _).commutes (f.coeff v)
+       rw [this]; simp [finSuccEquiv_apply]
+     have : ∀ j, ((finSuccEquiv k n) (T (X j))).leadingCoeff = 1 := fun j ↦ by
+       cases j using Fin.cases with
+@@ -198,8 +200,8 @@
+ theorem shear_leadingCoeff_isUnit (fne : f ≠ 0) :
+     IsUnit (finSuccEquiv k n (T f)).leadingCoeff := by
+   obtain ⟨v, vin, vs⟩ := Finset.exists_max_image f.support
+-    (fun v ↦ (T ((monomial v) (coeff v f))).degreeOf 0) (support_nonempty.mpr fne)
+-  set h := fun w ↦ (MvPolynomial.monomial w) (coeff w f)
++    (fun v ↦ (T ((monomial v) (f.coeff v))).degreeOf 0) (support_nonempty.mpr fne)
++  set h := fun w ↦ (MvPolynomial.monomial w) (f.coeff w)
+   simp only [← natDegree_finSuccEquiv] at vs
+   replace vs : ∀ x ∈ f.support \ {v}, (finSuccEquiv k n (T (h x))).degree <
+       (finSuccEquiv k n (T (h v))).degree := by
+@@ -318,7 +320,7 @@
+   have hne : MvPolynomial.map ι g₁ ≠ 0 := by
+     intro h0
+     apply hv
+-    have := congrArg (MvPolynomial.coeff v) h0
++    have := congrArg (fun q : MvPolynomial _ K => q.coeff v) h0
+     rw [MvPolynomial.coeff_map] at this
+     simpa [RingHom.mem_ker] using this
+   obtain ⟨u, k, a, ha, hc⟩ := exists_coeff_map_eq_C ι g₁ hne

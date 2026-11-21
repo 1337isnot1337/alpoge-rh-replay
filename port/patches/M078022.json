@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsMatrixBasisLatticeUpToDenominatorNotMem",
+  "source_sha256": "5aa42ef7168de5ae7cd27662745ed1201b278525e28d81b217db84cef716b375",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Construct the new IsFullLattice class with IsLattice.of_fg, supply explicit finite and free module instances, and use extendOfIsFullLattice. These are local proof changes; theorem statements are unchanged."
+}
