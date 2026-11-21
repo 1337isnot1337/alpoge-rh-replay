@@ -132,10 +132,7 @@
 | [@rohanarun](https://github.com/rohanarun) | [M131483](https://github.com/rohanarun/alpoge-rh-replay/issues/404) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M056091](https://github.com/rohanarun/alpoge-rh-replay/issues/405) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M154737](https://github.com/rohanarun/alpoge-rh-replay/issues/484) | Claimed |
-| [@shardmods](https://github.com/shardmods) | [P1630](https://github.com/rohanarun/alpoge-rh-replay/issues/557) | Claimed |
 | [@dh5at](https://github.com/dh5at) | [P1120](https://github.com/rohanarun/alpoge-rh-replay/issues/581) | Claimed |
-| [@shardmods](https://github.com/shardmods) | [P1526](https://github.com/rohanarun/alpoge-rh-replay/issues/669) | Claimed |
-| [@shardmods](https://github.com/shardmods) | [P1680](https://github.com/rohanarun/alpoge-rh-replay/issues/670) | Claimed |
 | [@shardmods](https://github.com/shardmods) | [P1656](https://github.com/rohanarun/alpoge-rh-replay/issues/762) | Claimed |
 | [@shardmods](https://github.com/shardmods) | [P1305](https://github.com/rohanarun/alpoge-rh-replay/issues/763) | Claimed |
 | [@shardmods](https://github.com/shardmods) | [P1605](https://github.com/rohanarun/alpoge-rh-replay/issues/764) | Claimed |
@@ -254,3 +251,6 @@
 | [@rohanarun](https://github.com/rohanarun) | [M148147](https://github.com/rohanarun/alpoge-rh-replay/issues/912) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M099718](https://github.com/rohanarun/alpoge-rh-replay/issues/913) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M065282](https://github.com/rohanarun/alpoge-rh-replay/issues/914) | Claimed |
+| [@rohanarun](https://github.com/rohanarun) | [M049574](https://github.com/rohanarun/alpoge-rh-replay/issues/915) | Claimed |
+| [@rohanarun](https://github.com/rohanarun) | [M159087](https://github.com/rohanarun/alpoge-rh-replay/issues/916) | Claimed |
+| [@rohanarun](https://github.com/rohanarun) | [M001118](https://github.com/rohanarun/alpoge-rh-replay/issues/917) | Claimed |

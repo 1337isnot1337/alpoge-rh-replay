@@ -4,6 +4,9 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M163957](https://github.com/rohanarun/alpoge-rh-replay/issues/8051#issuecomment-7054098031) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M085325](https://github.com/rohanarun/alpoge-rh-replay/issues/8052#issuecomment-7054084504) | Pending review |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M082764](https://github.com/rohanarun/alpoge-rh-replay/issues/8053#issuecomment-7054098554) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M155814](https://github.com/rohanarun/alpoge-rh-replay/issues/8054#issuecomment-7054084129) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M162639](https://github.com/rohanarun/alpoge-rh-replay/issues/8057#issuecomment-7054083938) | Pending review |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M050584](https://github.com/rohanarun/alpoge-rh-replay/issues/8060#issuecomment-7054083476) | Pending review |
@@ -251,6 +254,3 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M121304](https://github.com/rohanarun/alpoge-rh-replay/issues/8416#issuecomment-7054481796) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M015085](https://github.com/rohanarun/alpoge-rh-replay/issues/8417#issuecomment-7054414551) | Pending review |
 | [@egergerfg](https://github.com/egergerfg) | [M164703](https://github.com/rohanarun/alpoge-rh-replay/issues/8418#issuecomment-7054412328) | Pending review |
-| [@matan1905](https://github.com/matan1905) | [M063464](https://github.com/rohanarun/alpoge-rh-replay/issues/8419#issuecomment-7054412872) | Pending review |
-| [@amrehan](https://github.com/amrehan) | [M032906](https://github.com/rohanarun/alpoge-rh-replay/issues/8420#issuecomment-7054413465) | Pending review |
-| [@amrehan](https://github.com/amrehan) | [M163613](https://github.com/rohanarun/alpoge-rh-replay/issues/8421#issuecomment-7054417015) | Pending review |

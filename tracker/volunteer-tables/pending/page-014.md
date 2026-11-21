@@ -4,6 +4,9 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M040366](https://github.com/rohanarun/alpoge-rh-replay/issues/10976#issuecomment-7055903398) | Pending review |
+| [@roonastgames](https://github.com/roonastgames) | [M163546](https://github.com/rohanarun/alpoge-rh-replay/issues/10977#issuecomment-7055876037) | Pending review |
+| [@sp20262026](https://github.com/sp20262026) | [M166250](https://github.com/rohanarun/alpoge-rh-replay/issues/10978#issuecomment-7055892143) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M003187](https://github.com/rohanarun/alpoge-rh-replay/issues/10979#issuecomment-7055877128) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M004224](https://github.com/rohanarun/alpoge-rh-replay/issues/10980#issuecomment-7055877871) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M066067](https://github.com/rohanarun/alpoge-rh-replay/issues/10981#issuecomment-7055922734) | Pending review |
@@ -251,6 +254,3 @@
 | [@ANdATIon](https://github.com/ANdATIon) | [M153590](https://github.com/rohanarun/alpoge-rh-replay/issues/11223#issuecomment-7056200917) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M160497](https://github.com/rohanarun/alpoge-rh-replay/issues/11224#issuecomment-7056202510) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M006614](https://github.com/rohanarun/alpoge-rh-replay/issues/11225#issuecomment-7056288692) | Pending review |
-| [@UnityChaos](https://github.com/UnityChaos) | [M104493](https://github.com/rohanarun/alpoge-rh-replay/issues/11226#issuecomment-7056231722) | Pending review |
-| [@UnityChaos](https://github.com/UnityChaos) | [M154473](https://github.com/rohanarun/alpoge-rh-replay/issues/11227#issuecomment-7056232725) | Pending review |
-| [@UnityChaos](https://github.com/UnityChaos) | [M154031](https://github.com/rohanarun/alpoge-rh-replay/issues/11228#issuecomment-7056213538) | Pending review |

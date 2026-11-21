@@ -4,6 +4,9 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@BenCaunt](https://github.com/BenCaunt) | [M004106](https://github.com/rohanarun/alpoge-rh-replay/issues/5150#issuecomment-7054190392) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M134797](https://github.com/rohanarun/alpoge-rh-replay/issues/5158#issuecomment-7052501267) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M041126](https://github.com/rohanarun/alpoge-rh-replay/issues/5187#issuecomment-7052514176) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M040500](https://github.com/rohanarun/alpoge-rh-replay/issues/5200#issuecomment-7052513547) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M063239](https://github.com/rohanarun/alpoge-rh-replay/issues/5211#issuecomment-7052518868) | Pending review |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M006369](https://github.com/rohanarun/alpoge-rh-replay/issues/5215#issuecomment-7052526514) | Pending review |
@@ -251,6 +254,3 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M071035](https://github.com/rohanarun/alpoge-rh-replay/issues/8048#issuecomment-7054097551) | Pending review |
 | [@BenCaunt](https://github.com/BenCaunt) | [M061295](https://github.com/rohanarun/alpoge-rh-replay/issues/8049#issuecomment-7054615439) | Pending review |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M108543](https://github.com/rohanarun/alpoge-rh-replay/issues/8050#issuecomment-7054082105) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M163957](https://github.com/rohanarun/alpoge-rh-replay/issues/8051#issuecomment-7054098031) | Pending review |
-| [@ANdATIon](https://github.com/ANdATIon) | [M085325](https://github.com/rohanarun/alpoge-rh-replay/issues/8052#issuecomment-7054084504) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M082764](https://github.com/rohanarun/alpoge-rh-replay/issues/8053#issuecomment-7054098554) | Pending review |

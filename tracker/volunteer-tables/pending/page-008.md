@@ -4,6 +4,9 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@ANdATIon](https://github.com/ANdATIon) | [M162415](https://github.com/rohanarun/alpoge-rh-replay/issues/9373#issuecomment-7055086199) | Pending review |
+| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M007630](https://github.com/rohanarun/alpoge-rh-replay/issues/9374#issuecomment-7055068835) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M029958](https://github.com/rohanarun/alpoge-rh-replay/issues/9375#issuecomment-7055047344) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M003002](https://github.com/rohanarun/alpoge-rh-replay/issues/9376#issuecomment-7055070876) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M046428](https://github.com/rohanarun/alpoge-rh-replay/issues/9377#issuecomment-7055046682) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M164014](https://github.com/rohanarun/alpoge-rh-replay/issues/9378#issuecomment-7055073696) | Pending review |
@@ -251,6 +254,3 @@
 | [@emsi](https://github.com/emsi) | [P2037](https://github.com/rohanarun/alpoge-rh-replay/issues/9625#issuecomment-7055644855) | Pending review |
 | [@roonastgames](https://github.com/roonastgames) | [M102947](https://github.com/rohanarun/alpoge-rh-replay/issues/9626#issuecomment-7055127598) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M128261](https://github.com/rohanarun/alpoge-rh-replay/issues/9627#issuecomment-7055347793) | Pending review |
-| [@ANdATIon](https://github.com/ANdATIon) | [M155356](https://github.com/rohanarun/alpoge-rh-replay/issues/9628#issuecomment-7055362684) | Pending review |
-| [@ANdATIon](https://github.com/ANdATIon) | [M161238](https://github.com/rohanarun/alpoge-rh-replay/issues/9629#issuecomment-7055357692) | Pending review |
-| [@dhudakk](https://github.com/dhudakk) | [M005621](https://github.com/rohanarun/alpoge-rh-replay/issues/9630#issuecomment-7055121075) | Pending review |

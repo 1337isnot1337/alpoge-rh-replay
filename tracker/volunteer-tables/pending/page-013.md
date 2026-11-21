@@ -4,6 +4,9 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@rayy3535](https://github.com/rayy3535) | [M168072](https://github.com/rohanarun/alpoge-rh-replay/issues/10696#issuecomment-7055673856) | Pending review |
+| [@rayy3535](https://github.com/rayy3535) | [M004856](https://github.com/rohanarun/alpoge-rh-replay/issues/10697#issuecomment-7055680286) | Pending review |
+| [@rayy3535](https://github.com/rayy3535) | [M155352](https://github.com/rohanarun/alpoge-rh-replay/issues/10698#issuecomment-7055664379) | Pending review |
 | [@rayy3535](https://github.com/rayy3535) | [M155354](https://github.com/rohanarun/alpoge-rh-replay/issues/10699#issuecomment-7055665490) | Pending review |
 | [@chriswilson413](https://github.com/chriswilson413) | [M005913](https://github.com/rohanarun/alpoge-rh-replay/issues/10700#issuecomment-7055862714) | Pending review |
 | [@rayy3535](https://github.com/rayy3535) | [M155355](https://github.com/rohanarun/alpoge-rh-replay/issues/10701#issuecomment-7055666594) | Pending review |
@@ -251,6 +254,3 @@
 | [@rayy3535](https://github.com/rayy3535) | [M126484](https://github.com/rohanarun/alpoge-rh-replay/issues/10970#issuecomment-7056029374) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M166273](https://github.com/rohanarun/alpoge-rh-replay/issues/10971#issuecomment-7055902519) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M122917](https://github.com/rohanarun/alpoge-rh-replay/issues/10975#issuecomment-7055902905) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M040366](https://github.com/rohanarun/alpoge-rh-replay/issues/10976#issuecomment-7055903398) | Pending review |
-| [@roonastgames](https://github.com/roonastgames) | [M163546](https://github.com/rohanarun/alpoge-rh-replay/issues/10977#issuecomment-7055876037) | Pending review |
-| [@sp20262026](https://github.com/sp20262026) | [M166250](https://github.com/rohanarun/alpoge-rh-replay/issues/10978#issuecomment-7055892143) | Pending review |

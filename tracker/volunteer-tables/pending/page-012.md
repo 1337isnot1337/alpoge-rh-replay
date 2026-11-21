@@ -4,6 +4,9 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@galakurpi](https://github.com/galakurpi) | [M039976](https://github.com/rohanarun/alpoge-rh-replay/issues/10423#issuecomment-7055622725) | Pending review |
+| [@galakurpi](https://github.com/galakurpi) | [M016122](https://github.com/rohanarun/alpoge-rh-replay/issues/10424#issuecomment-7055623828) | Pending review |
+| [@galakurpi](https://github.com/galakurpi) | [M124261](https://github.com/rohanarun/alpoge-rh-replay/issues/10425#issuecomment-7055625004) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M032435](https://github.com/rohanarun/alpoge-rh-replay/issues/10426#issuecomment-7055611529) | Pending review |
 | [@galakurpi](https://github.com/galakurpi) | [M066580](https://github.com/rohanarun/alpoge-rh-replay/issues/10427#issuecomment-7055626173) | Pending review |
 | [@galakurpi](https://github.com/galakurpi) | [M151031](https://github.com/rohanarun/alpoge-rh-replay/issues/10428#issuecomment-7055627404) | Pending review |
@@ -251,6 +254,3 @@
 | [@rayy3535](https://github.com/rayy3535) | [M129059](https://github.com/rohanarun/alpoge-rh-replay/issues/10693#issuecomment-7055665195) | Pending review |
 | [@rayy3535](https://github.com/rayy3535) | [M109062](https://github.com/rohanarun/alpoge-rh-replay/issues/10694#issuecomment-7055666333) | Pending review |
 | [@rayy3535](https://github.com/rayy3535) | [M162910](https://github.com/rohanarun/alpoge-rh-replay/issues/10695#issuecomment-7055667520) | Pending review |
-| [@rayy3535](https://github.com/rayy3535) | [M168072](https://github.com/rohanarun/alpoge-rh-replay/issues/10696#issuecomment-7055673856) | Pending review |
-| [@rayy3535](https://github.com/rayy3535) | [M004856](https://github.com/rohanarun/alpoge-rh-replay/issues/10697#issuecomment-7055680286) | Pending review |
-| [@rayy3535](https://github.com/rayy3535) | [M155352](https://github.com/rohanarun/alpoge-rh-replay/issues/10698#issuecomment-7055664379) | Pending review |

@@ -4,6 +4,9 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@ANdATIon](https://github.com/ANdATIon) | [M155356](https://github.com/rohanarun/alpoge-rh-replay/issues/9628#issuecomment-7055362684) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M161238](https://github.com/rohanarun/alpoge-rh-replay/issues/9629#issuecomment-7055357692) | Pending review |
+| [@dhudakk](https://github.com/dhudakk) | [M005621](https://github.com/rohanarun/alpoge-rh-replay/issues/9630#issuecomment-7055121075) | Pending review |
 | [@dhudakk](https://github.com/dhudakk) | [M006999](https://github.com/rohanarun/alpoge-rh-replay/issues/9631#issuecomment-7055120101) | Pending review |
 | [@BenCaunt](https://github.com/BenCaunt) | [M065486](https://github.com/rohanarun/alpoge-rh-replay/issues/9632#issuecomment-7055142362) | Pending review |
 | [@dhudakk](https://github.com/dhudakk) | [M027531](https://github.com/rohanarun/alpoge-rh-replay/issues/9633#issuecomment-7055130838) | Pending review |
@@ -251,6 +254,3 @@
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M119972](https://github.com/rohanarun/alpoge-rh-replay/issues/9890#issuecomment-7055294552) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M167842](https://github.com/rohanarun/alpoge-rh-replay/issues/9891#issuecomment-7055312637) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M169515](https://github.com/rohanarun/alpoge-rh-replay/issues/9893#issuecomment-7055313101) | Pending review |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M120582](https://github.com/rohanarun/alpoge-rh-replay/issues/9894#issuecomment-7055298785) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M084010](https://github.com/rohanarun/alpoge-rh-replay/issues/9895#issuecomment-7055313520) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M033034](https://github.com/rohanarun/alpoge-rh-replay/issues/9896#issuecomment-7055313927) | Pending review |
