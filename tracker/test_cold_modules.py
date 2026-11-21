@@ -11,6 +11,21 @@ def row(task, packet, imports=(), state='open'):
                 depth=int(bool(imports)), state=state)
 
 
+class ClaimCommandTests(unittest.TestCase):
+    def test_module_names_and_ids_use_canonical_claim_titles(self):
+        first = dict(row('M000001', 'P0001'), module='Examples.First')
+        second = dict(row('M000002', 'P0001'), module='Examples.Second')
+        for target, claim_id in [('Examples.First', 'M000001'), ('M000001', 'M000001'),
+                                 ('P0001', 'P0001')]:
+            with self.subTest(target=target), patch.object(tasks, 'load', return_value=[first, second]), \
+                 patch.object(tasks, 'claims', return_value=set()), \
+                 patch('sys.argv', ['tasks.py', 'claim', target]), \
+                 patch.object(tasks.subprocess, 'run') as create:
+                self.assertEqual(tasks.main(), 0)
+                command = create.call_args.args[0]
+                self.assertEqual(command[command.index('--title') + 1], 'Claim ' + claim_id)
+
+
 class ColdModuleTests(unittest.TestCase):
     def test_claims_and_ledger_states(self):
         rows = [row('M1', 'P1'), row('M2', 'P1'), row('M3', 'P2'),

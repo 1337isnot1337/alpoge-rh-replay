@@ -238,6 +238,9 @@ def main():
  elif a.action=='claim':
   busy=claims()
   if any(r['id'] in busy or r['packet'] in busy or r['state']!='open' for r in sel):raise SystemExit('One or more modules are already claimed, observed, or assigned.')
-  subprocess.run(['gh','issue','create','--repo',repo,'--title','Claim '+a.target,'--body','I am working on '+a.target+'. I will attach the input hashes, build transcript and receipt, or close this claim if I stop.'],check=True)
+  claim_id = a.target if a.target == sel[0]['packet'] else sel[0]['id']
+  body = f'I am working on {claim_id}. I will attach the input hashes, build transcript and receipt, or close this claim if I stop.'
+  subprocess.run(['gh', 'issue', 'create', '--repo', repo, '--title', 'Claim ' + claim_id,
+                  '--body', body], check=True)
  return 0
 if __name__=='__main__':sys.exit(main())
