@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M136022"
+  ],
+  "started_utc": "2026-11-21T07:05:03.350084+00:00",
+  "ended_utc": "2026-11-21T07:05:30.751021+00:00",
+  "elapsed_seconds": 27.4,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 6758212
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.EtaleCohomology.EtaleTrace.LRingPf:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5361be2e7092f33dff95653b4c51793207909cb2534621690706861bc12e0443",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M136022": "6ed4edeb124d5a51e4fc8f679bf206083f14155b4c44740ff59fe3810520a1d8"
+  },
+  "bundle_sha256": "3560b82fb3f41380ee20062079260426ba66b6095dd6501472fc8076984b8616",
+  "packet": "M136022",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/16467#issuecomment-7059038519",
+  "reviewed_utc": "2026-11-21T19:56:58.842764+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44942765493",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.EtaleCohomology.EtaleTrace.LRingPf"
+    ]
+  }
+}

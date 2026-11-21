@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M001307"
+  ],
+  "started_utc": "2026-11-21T14:10:43.722404+00:00",
+  "ended_utc": "2026-11-21T14:11:08.975791+00:00",
+  "elapsed_seconds": 25.3,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 32869296,
+    "peak_child_rss_kib": 7205272
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.TprodComplementSplitFinset:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b2da21634207989ff9d76281fa21b7007585361cad8e1566be444c93e90efd4f",
+  "rebuilt_project_modules": [
+    "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.InfiniteProductMultipliable"
+  ],
+  "objects": {
+    "M001307": "f1a8fdaf547e1359930dbebf1c9669ba7020f36bade73c6dd49889cbc18c7cf3"
+  },
+  "bundle_sha256": "2b6e39bb1fc5fb7c78bdc8b1b47592992474724894ab04ff5810230e1ea969de",
+  "packet": "M001307",
+  "contributor": "HaqtanEfe",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10974#issuecomment-7063919918",
+  "reviewed_utc": "2026-11-21T19:55:22.766150+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44942765493",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.TprodComplementSplitFinset"
+    ]
+  }
+}

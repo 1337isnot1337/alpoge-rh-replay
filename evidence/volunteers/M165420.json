@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    "M165420"
+  ],
+  "started_utc": "2026-11-21T07:24:07.749288+00:00",
+  "ended_utc": "2026-11-21T07:25:52.657591+00:00",
+  "elapsed_seconds": 104.9,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6851516
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.EffectiveHilbertSamuel.Statements:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fd51047a53d2da727e63f179bcc6072c9a6939b1ccfd2dbda8b70593b4a16912",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.EffectiveHilbertSamuel.Objects",
+    "GroundTheory.HeightsAndTheta.Heights.EffectiveHilbertSamuel.PConstants",
+    "GroundTheory.HeightsAndTheta.Heights.EffectiveHilbertSamuel.PDivision",
+    "GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.BergmanObjects"
+  ],
+  "objects": {
+    "M165420": "aa50ad4ceeb18a3951b37c0fd332d34bd7fd4c49f101de7db85569da4bb0a397"
+  },
+  "bundle_sha256": "ec6292bc3835544a4db1b951ef8181d71d6d21b3dd9c76c35212eb09ba85342d",
+  "packet": "M165420",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/16867#issuecomment-7059323308",
+  "reviewed_utc": "2026-11-21T19:57:33.050233+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44942765493",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "GroundTheory.HeightsAndTheta.Heights.EffectiveHilbertSamuel.Statements"
+    ]
+  }
+}

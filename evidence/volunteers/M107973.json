@@ -1,0 +1,48 @@
+{
+  "tasks": [
+    "M107973"
+  ],
+  "started_utc": "2026-11-21T07:57:36.892231+00:00",
+  "ended_utc": "2026-11-21T07:58:29.452653+00:00",
+  "elapsed_seconds": 52.6,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 7059160
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.PatchedSupportCompletions:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "12116372414678fb9b85c1699ff388321e77b821faae170bd1a41d026a85e7fd",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.IsCplAtSelf",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.PairedDualFirstOrderDualMatrixSpace",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.ThetaCoefficientMapEq",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.UnitaryThreeGroups.BaseRepGL3NormalisedOfPsiEqOne",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.UnitaryThreeGroups.UnitaryThreeReflectionRight",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.WeilGroupCharacters.UniversalOrdinaryDeterminantRing"
+  ],
+  "objects": {
+    "M107973": "95b1e6246ae7eb2e36a3e76d23ad4da6597988de60b0e70e24ee09bcc18f0cbe"
+  },
+  "bundle_sha256": "1a5f7b835c13ce41965055e2d08e5f897b8cc93b784d1c977e5f3415733c0000",
+  "packet": "M107973",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/17481#issuecomment-7059602933",
+  "reviewed_utc": "2026-11-21T19:58:44.555438+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44942765493",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.PatchedSupportCompletions"
+    ]
+  }
+}

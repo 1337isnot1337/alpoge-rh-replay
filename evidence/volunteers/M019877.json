@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M019877"
+  ],
+  "started_utc": "2026-11-20T20:46:41.463283+00:00",
+  "ended_utc": "2026-11-20T20:46:58.586129+00:00",
+  "elapsed_seconds": 17.1,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 16423848,
+    "peak_child_rss_kib": 6822052
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.CotangentMapInjectiveOfSquarePresentationAtPoint:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "43602c8dd7e75fd7ce8d0cdd135e51f01fad562952d03777e4eb486d82ee0408",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M019877": "d124b82fdf3354926872ab9423ff6422f1e39b0c3d11d8346055adc057f54154"
+  },
+  "bundle_sha256": "34cf399e8da3c067167deefd13c0a20f5cb4284f5e53d68ac5cc29f133859b0c",
+  "packet": "M019877",
+  "contributor": "nicu-chiciuc",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/2584#issuecomment-7059298818",
+  "reviewed_utc": "2026-11-21T19:53:55.822346+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44942765493",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CotangentMapInjectiveOfSquarePresentationAtPoint"
+    ]
+  }
+}

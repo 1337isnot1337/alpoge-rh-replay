@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M136090"
+  ],
+  "started_utc": "2026-11-21T08:08:33.778257+00:00",
+  "ended_utc": "2026-11-21T08:19:02.780209+00:00",
+  "elapsed_seconds": 629.0,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 24607692,
+    "peak_child_rss_kib": 6843908
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.EtaleCohomology.KummerTheory.FinalTheorems:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3fd1646f3d7dcd82e0e9d38bc1d3e76fd5f7fe273fc89287c5e012e4f93def62",
+  "rebuilt_project_modules": [
+    "Development.EtaleCohomology.KummerTheory.InjSlice"
+  ],
+  "objects": {
+    "M136090": "c97e42de5936134796ce0c2805da5dbecbb4a4cc4a63ad176ce5783f7488e578"
+  },
+  "bundle_sha256": "de2cbab219b948a76d5784c49e4d5751f818190ade0cff0ef797fc9903bddd9c",
+  "packet": "M136090",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/17574#issuecomment-7059826779",
+  "reviewed_utc": "2026-11-21T19:59:11.347704+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44942765493",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.EtaleCohomology.KummerTheory.FinalTheorems"
+    ]
+  }
+}

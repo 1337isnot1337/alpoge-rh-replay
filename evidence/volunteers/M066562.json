@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M066562"
+  ],
+  "started_utc": "2026-11-21T07:39:35.121125+00:00",
+  "ended_utc": "2026-11-21T07:40:08.555254+00:00",
+  "elapsed_seconds": 33.4,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6880668
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ActQdRPeriodTEqCyclotomicBottom:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "92385f642f9bd66171da89f65b87d909e823702398c079b01815a2a60e62ee53",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CyclotomicCharacterPadicBasicProperties"
+  ],
+  "objects": {
+    "M066562": "aef14cd5cbf2fc67c0a2b0ee4a45179cc73fb956166685596a3e641341e02b50"
+  },
+  "bundle_sha256": "39f705ae88f7b6baf89f0ae552bad3c7d2e9168b24d0414dcb64817a7d2ac951",
+  "packet": "M066562",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/17251#issuecomment-7059507685",
+  "reviewed_utc": "2026-11-21T19:58:07.229127+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44942765493",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ActQdRPeriodTEqCyclotomicBottom"
+    ]
+  }
+}

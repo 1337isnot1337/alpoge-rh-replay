@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M061430"
+  ],
+  "started_utc": "2026-11-21T07:16:01.054450+00:00",
+  "ended_utc": "2026-11-21T07:16:19.246826+00:00",
+  "elapsed_seconds": 18.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6674712
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.EisensteinPieceUnitSetLevelSuccEq:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8ac03d017e7340f621217b824cdc2c8914ab9eff8a6c6519d7572b72ce467f32",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.EePosFalseDvd"
+  ],
+  "objects": {
+    "M061430": "69176c448a2a3ddd93e7be6eb24ce5e5a2bab732d25c27146428e7e8dc371076"
+  },
+  "bundle_sha256": "a6427e8d9d818c6393fab4ac8f2db798dad0a500e69e2a33331c00fe4fd7437a",
+  "packet": "M061430",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/16609#issuecomment-7059151260",
+  "reviewed_utc": "2026-11-21T19:57:13.959704+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44942765493",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.FoundationProofs.EisensteinPieceUnitSetLevelSuccEq"
+    ]
+  }
+}

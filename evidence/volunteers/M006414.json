@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    "M006414"
+  ],
+  "started_utc": "2026-11-21T07:15:17.987419+00:00",
+  "ended_utc": "2026-11-21T07:16:12.714088+00:00",
+  "elapsed_seconds": 54.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6676944
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.CovolumeBounds.EventuallyExistsMulIsLowerTriangular:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4af567e929f42b423d3d16f4785178010c69e05edb53ea3e241682dd66273355",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.SumFinsuppAntidiagProdPowDivMultiFactorial",
+    "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegralConjInnerMulInnerOfIsEmptyEquiv"
+  ],
+  "objects": {
+    "M006414": "e47ae46e780b5b8ddfba2fe4c5210f62cd635472e77f608d425bee2099ad43d0"
+  },
+  "bundle_sha256": "442e7d4ccaf083419269806e35b577dd6a7e918937f46db70c9fe88594032191",
+  "packet": "M006414",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/16575#issuecomment-7059149942",
+  "reviewed_utc": "2026-11-21T19:57:04.902100+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44942765493",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.EventuallyExistsMulIsLowerTriangular"
+    ]
+  }
+}

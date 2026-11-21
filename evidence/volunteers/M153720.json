@@ -1,0 +1,45 @@
+{
+  "tasks": [
+    "M153720"
+  ],
+  "started_utc": "2026-11-21T07:58:01.810384+00:00",
+  "ended_utc": "2026-11-21T07:59:50.667357+00:00",
+  "elapsed_seconds": 108.9,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 12304536,
+    "peak_child_rss_kib": 6283616
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.OrbitalBoundsConclusion.DvRatKer:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2ac1fd0ba1b7c6fa7c7a630de45157ed42efcc1f95a2ac902914d7f4515ed9ac",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.SameFormAllLevels",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RationalKernels.AsAlgApply",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RationalKernels.OfMulEps"
+  ],
+  "objects": {
+    "M153720": "c4c709669747cc7d654dbcebd2b18fa1760a1bf44f5664035080a2790d802b3e"
+  },
+  "bundle_sha256": "d068417cfa148ce648975966d5982600c2167924b739b1cc11684be3caa19268",
+  "packet": "M153720",
+  "contributor": "maugomez77",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/17489#issuecomment-7059620677",
+  "reviewed_utc": "2026-11-21T19:58:48.723780+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44942765493",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.DvRatKer"
+    ]
+  }
+}

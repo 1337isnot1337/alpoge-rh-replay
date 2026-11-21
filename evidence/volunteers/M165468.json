@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M165468"
+  ],
+  "started_utc": "2026-11-21T07:51:57.661066+00:00",
+  "ended_utc": "2026-11-21T07:52:07.380643+00:00",
+  "elapsed_seconds": 9.7,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 16423848,
+    "peak_child_rss_kib": 6821016
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ElementarySymmetric.PConormalGenerationGeneric:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "cc9e5e8253e54df61a4bf3e913a937f8d1dc829ac1736c1790eddbca23d4dc1d",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.GenericGradient"
+  ],
+  "objects": {
+    "M165468": "91fb93d7afab60a35c622ccc3ff981d0ff7dd98c39aa471c757a35a473d9c355"
+  },
+  "bundle_sha256": "06c5a81161b4bae0caeb9cb0b07e2d682de3f432c95a818a5965fa83c439bf2e",
+  "packet": "M165468",
+  "contributor": "nicu-chiciuc",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/17358#issuecomment-7059538781",
+  "reviewed_utc": "2026-11-21T19:58:28.222549+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44942765493",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "GroundTheory.HeightsAndTheta.Heights.ElementarySymmetric.PConormalGenerationGeneric"
+    ]
+  }
+}

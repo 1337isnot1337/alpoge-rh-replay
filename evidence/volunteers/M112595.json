@@ -1,0 +1,47 @@
+{
+  "tasks": [
+    "M112595"
+  ],
+  "started_utc": "2026-11-21T07:45:03.944892+00:00",
+  "ended_utc": "2026-11-21T07:45:36.603798+00:00",
+  "elapsed_seconds": 32.7,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 6927272
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.KunnethLefschetz.OneMul:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b834e42e525fa19284e15e229354a997331e76855b468c0c2c70ca1fa0fdc49b",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.IsWtZero",
+    "Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.WtDegConst",
+    "Development.EtaleCohomology.CohomologicalPurity.InrFold",
+    "Development.EtaleCohomology.CohomologicalPurity.LeafIndExc",
+    "Development.EtaleCohomology.KummerTheory.InjSlice"
+  ],
+  "objects": {
+    "M112595": "48a4310c02c43d261412a7ae4cbdc5bdc5e8d7a0dbfe1ca6847c5f69bae4f6f1"
+  },
+  "bundle_sha256": "3e7e6a0434c2b9c0d259b27cf049183ac518b7cbfbb08d7d72c6f997eae76565",
+  "packet": "M112595",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/17317#issuecomment-7059470732",
+  "reviewed_utc": "2026-11-21T19:58:22.226096+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44942765493",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.KunnethLefschetz.OneMul"
+    ]
+  }
+}

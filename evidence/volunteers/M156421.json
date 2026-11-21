@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    "M156421"
+  ],
+  "started_utc": "2026-11-21T07:05:23.607942+00:00",
+  "ended_utc": "2026-11-21T07:05:54.285895+00:00",
+  "elapsed_seconds": 30.7,
+  "host": {
+    "cpu_count": 48,
+    "mem_total_kib": 527836324,
+    "peak_child_rss_kib": 6837304
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuasiRegularSequence.RegularSequencePowerExists:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3ab9e9ea0082839bde0cbcffe33c53362b06d6d68a490a32d8a55cecaaffc1a0",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.RegSeqQuasiReg",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuasiRegularSequence.StepPowMem"
+  ],
+  "objects": {
+    "M156421": "1bbb892f9147dc66c30f0e0b228a3bd8305ac0b8254acfc55e491a6ce5c9d3c1"
+  },
+  "bundle_sha256": "2b56a5b21f581e56e1852fac49f43cca8fecd820189b3edf0aa3d45c811d4590",
+  "packet": "M156421",
+  "contributor": "Mfweb",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/16103#issuecomment-7059045792",
+  "reviewed_utc": "2026-11-21T19:56:31.868881+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44942765493",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuasiRegularSequence.RegularSequencePowerExists"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M169132"
+  ],
+  "started_utc": "2026-11-21T06:55:14.345988+00:00",
+  "ended_utc": "2026-11-21T06:55:24.102903+00:00",
+  "elapsed_seconds": 9.8,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6758088
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsChartFiniteIrrel:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a3157c838af5db9491b443436d1f837184283a90e1f3b5d69c6851adea929915",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.MultihomogeneousIdeals.ExistsMonomialNotMem"
+  ],
+  "objects": {
+    "M169132": "9410d13fce6389b3a27a6a85d6da243cc0266ab4ad6b23427bc304e5019d3012"
+  },
+  "bundle_sha256": "80145e7bee060a07149d9bdb876e1dadeafb62975e7542a39c024d92005a4960",
+  "packet": "M169132",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/16098#issuecomment-7058917265",
+  "reviewed_utc": "2026-11-21T19:56:30.852013+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44942765493",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsChartFiniteIrrel"
+    ]
+  }
+}

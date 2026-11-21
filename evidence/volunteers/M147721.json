@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    "M147721"
+  ],
+  "started_utc": "2026-11-21T07:17:11.425390+00:00",
+  "ended_utc": "2026-11-21T07:17:53.888695+00:00",
+  "elapsed_seconds": 42.5,
+  "host": {
+    "cpu_count": 48,
+    "mem_total_kib": 527836324,
+    "peak_child_rss_kib": 6906512
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.CMDeterminantIdeals.CMIdealValuations.FiniteDetAddSmulOneEqZero:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "421fb12d80320b774270a34a741bfd3f174c94a8f5e68c3381ddbdf4bef48923",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.CMDeterminantIdeals.DetIdeal",
+    "Formalism.LocalToGlobal.CMDeterminantIdeals.StatementG",
+    "ReciprocityTheory.SemistableReduction.LatSemiSt",
+    "ReciprocityTheory.SemistableReduction.TorsionNonvanishStatement"
+  ],
+  "objects": {
+    "M147721": "d3e470f1e6234b4791473021774446ab0926823a20da2a584412d0180e70c91b"
+  },
+  "bundle_sha256": "0796b8ec7481ff71663abb82c8cad0b377229f97c030a51f1767a9900cf4aeb0",
+  "packet": "M147721",
+  "contributor": "Mfweb",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/16717#issuecomment-7059179090",
+  "reviewed_utc": "2026-11-21T19:57:23.040855+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44942765493",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Formalism.LocalToGlobal.CMDeterminantIdeals.CMIdealValuations.FiniteDetAddSmulOneEqZero"
+    ]
+  }
+}

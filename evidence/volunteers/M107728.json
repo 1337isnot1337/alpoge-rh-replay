@@ -1,0 +1,45 @@
+{
+  "tasks": [
+    "M107728"
+  ],
+  "started_utc": "2026-11-21T08:03:29.358450+00:00",
+  "ended_utc": "2026-11-21T08:04:08.799725+00:00",
+  "elapsed_seconds": 39.4,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 7004628
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.AnnihilatorBaseChange.SpecializationMapCompUniversalSection:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9b739d924e8dd4e19ca43ed48aed381ae29e5ad141d3f22d01a31561ea1f0813",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.IsQuasiRegularSeqSelfIffLocalizationMaximal",
+    "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.IsWeaklyRegularIffIsQuasiRegularSeqOfIsLocalRing",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.UltraDefs"
+  ],
+  "objects": {
+    "M107728": "cfe39493ac0e8390c0284241e1ebacc700e223d0295c495cf05588f4ee90f12c"
+  },
+  "bundle_sha256": "94df6a1bac2a3e3165069436f290d2c0d0477aca45e778ff8265a5c0a96fb232",
+  "packet": "M107728",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/17546#issuecomment-7059666373",
+  "reviewed_utc": "2026-11-21T19:59:01.213170+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44942765493",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.AnnihilatorBaseChange.SpecializationMapCompUniversalSection"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "tasks": [
+    "M153760"
+  ],
+  "started_utc": "2026-11-21T08:06:34.610757+00:00",
+  "ended_utc": "2026-11-21T08:07:08.148665+00:00",
+  "elapsed_seconds": 33.5,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16377408,
+    "peak_child_rss_kib": 6719168
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.OrbitalBoundsConclusion.GelfConv:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "659e1b78cbe829608a216c45c02d7987cf1395e584cf692f9ae5638850ffb681",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.UMultOne",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GelfandPairConvolution.ConvComm",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GelfandPairConvolution.Unimod"
+  ],
+  "objects": {
+    "M153760": "7c6e37356d6ee9f9e21b98972ff40fc47922e1985023c79a8779f6b46e4a5490"
+  },
+  "bundle_sha256": "e03d7bce8684bd5c81682d5c51831630b7b776b6081fdb3490260b61b22d15cb",
+  "packet": "M153760",
+  "contributor": "maugomez77",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/17497#issuecomment-7059696489",
+  "reviewed_utc": "2026-11-21T19:58:50.801180+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44942765493",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.GelfConv"
+    ]
+  }
+}
