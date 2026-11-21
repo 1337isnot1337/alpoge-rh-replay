@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MonicDvdXPowCardSubOneExistsRoot",
+  "source_sha256": "e24cf1058d91483ddec1f013747bbaf8ff3cf287fca08bea02fddda3c050eed2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`FiniteField.X_pow_card_sub_X_ne_zero` and `FiniteField.X_pow_card_sub_X_natDegree_eq` now take the ring implicitly; drop the explicit `ResidueField S`."
+}

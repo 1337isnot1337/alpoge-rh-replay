@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.OneAddXMulDerivativeBin",
+  "source_sha256": "6171e8f849ea5a80a3c7cd3e9f8b8581bb11caadf23dc08f446362bd696fea87",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Statement change, equivalent: `PowerSeries.derivative` now takes its ring implicitly (`Derivation R R⟦X⟧ R⟦X⟧` with `{R}` instead of `(R)`), so `derivative O` is written `derivative (R := O)`, in `derivative_bin`, `one_add_X_mul_derivative_bin` and the private `eq_of_one_add_X_mul_derivative_eq_C_mul`. It elaborates to the same term. Also `IsHausdorff.of_le_jacobson` now expects `Ring.jacobson`, so the bound on `(⊥ : Ideal _).jacobson` goes through `Ideal.jacobson_bot`."
+}

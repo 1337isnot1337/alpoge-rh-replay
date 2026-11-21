@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NormHasSumEqOfDominant",
+  "source_sha256": "4ab72aeaeb811b1b80e7520cd2a95143240d73bb5dc20f785f56705949fb69fd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`NormedAddCommGroup.tendsto_nhds_zero` is now `NormedAddGroup.tendsto_nhds_zero`."
+}

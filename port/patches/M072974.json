@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NormOneAddEqOne",
+  "source_sha256": "a679bd2ec56258856bcc33c8d83e93e68285fa29e2473a844ab31089daae14f8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Finset.prod_le_one` no longer takes the nonnegativity hypothesis; use `Finset.prod_le_one₀`, which has the original arguments."
+}

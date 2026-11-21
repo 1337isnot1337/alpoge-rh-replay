@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.OneAddXPowPrimePowSubOneMemSpan",
+  "source_sha256": "89448a700dc25075baa9cad8c0d4af47ba805927166479f221346afcdc5cbfdb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`pow_padicValNat_dvd` is now a deprecated alias of the multiplicity lemma, and `padicValNat_dvd_iff_le` and `padicValNat.mul` now conclude about `multiplicity`. Recover the divisibility through `Nat.padicValNat_def : padicValNat p n = multiplicity p n` and `pow_multiplicity_dvd`, and rewrite `hv` with the same equation before `omega`."
+}

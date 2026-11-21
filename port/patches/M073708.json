@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RingHomApplyEqPow",
+  "source_sha256": "deb89aa1ed58c610b569a79a45906be27bb783cbd769b8c0ddfa21fdf4a525b8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`FiniteField.X_pow_card_sub_X_ne_zero` and `FiniteField.X_pow_card_sub_X_natDegree_eq` now take the ring implicitly; drop the explicit `k`."
+}
