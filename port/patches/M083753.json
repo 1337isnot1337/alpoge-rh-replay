@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.JetHarmonics.ExistsPositiveAdd",
+  "source_sha256": "528504c8aa58bedeb048b5896d92ed49ab99c2f281e48eca0613ba33e68a33c1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

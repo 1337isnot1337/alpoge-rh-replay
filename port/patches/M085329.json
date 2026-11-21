@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsUnimodDiv",
+  "source_sha256": "30eb4394423badc428a1e59efed0a786a6a082b078ec8703d74d4e58a872826c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

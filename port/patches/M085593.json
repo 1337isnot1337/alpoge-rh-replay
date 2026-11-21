@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ModuliProofs.IsNoetherianRingOfIsAdicComplete",
+  "source_sha256": "597c6c6163ab3c0af71cd5d655d300f824cc6b905eb54c0f9cccae03441e0f9a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use coeff_monomial_same for the monomial coefficient at its own degree on the pinned Mathlib."
+}

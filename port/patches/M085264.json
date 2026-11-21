@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsSubgroupOfFinite",
+  "source_sha256": "e696934932d5aae8ff3640712c37a576a8f5d8d9df7530e9d6b10d18f68ca44b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Aut.asIso and Aut.of for the pinned Mathlib Aut wrapper. The subgroup condition and lift equalities refer to the same underlying isomorphisms and morphisms."
+}
