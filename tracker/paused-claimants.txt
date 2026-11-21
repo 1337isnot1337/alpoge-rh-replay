@@ -1,0 +1,3 @@
+# GitHub logins whose NEW claims get no grant. Existing grants are kept so
+# pending submissions can be fixed. Remove a line to resume normal grants.
+ANdATIon  # 249 submissions link release assets that were never uploaded (release hit GitHub's 1,000-asset cap), 2026-11-21

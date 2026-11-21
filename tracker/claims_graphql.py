@@ -50,7 +50,7 @@ class ClaimsGraphQL:
             conflict: label(name:"claim-conflict") { id }
             issues(states:OPEN, first:100, after:$after) {
               pageInfo { endCursor hasNextPage }
-              nodes { id number title labels(first:30) { nodes { name } }
+              nodes { id number title author { login } labels(first:30) { nodes { name } }
                       comments(last:30) { pageInfo { startCursor hasPreviousPage }
                                           nodes { %s } } }
             }
@@ -69,7 +69,8 @@ class ClaimsGraphQL:
                 number = issue['number']
                 url = f'https://api.github.com/repos/{self.owner}/{self.repo}/issues/{number}'
                 history = list(self.history(issue))
-                self.issues[number] = {**issue, 'labels': labels, 'url': url, 'comments': len(history)}
+                self.issues[number] = {**issue, 'labels': labels, 'url': url, 'comments': len(history),
+                                       'user': {'login': (issue.get('author') or {}).get('login')}}
                 self.comments.extend({
                     'id': comment['databaseId'], 'issue_url': url, 'body': comment['body'],
                     'user': {'login': 'github-actions[bot]'}
