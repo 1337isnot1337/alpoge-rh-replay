@@ -223,6 +223,7 @@
 | [@ANdATIon](https://github.com/ANdATIon) | [M128748](https://github.com/rohanarun/alpoge-rh-replay/issues/13276#issuecomment-7057687348) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M126010](https://github.com/rohanarun/alpoge-rh-replay/issues/13282#issuecomment-7057691055) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M102934](https://github.com/rohanarun/alpoge-rh-replay/issues/13286#issuecomment-7057691537) | Pending review |
+| [@emsi](https://github.com/emsi) | [P2226](https://github.com/rohanarun/alpoge-rh-replay/issues/13346#issuecomment-7064291375) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M126146](https://github.com/rohanarun/alpoge-rh-replay/issues/13357#issuecomment-7059980941) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M094067](https://github.com/rohanarun/alpoge-rh-replay/issues/13365#issuecomment-7058812811) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M067276](https://github.com/rohanarun/alpoge-rh-replay/issues/13374#issuecomment-7059848365) | Pending review |
@@ -253,4 +254,3 @@
 | [@ANdATIon](https://github.com/ANdATIon) | [M041647](https://github.com/rohanarun/alpoge-rh-replay/issues/13493#issuecomment-7057742897) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M093532](https://github.com/rohanarun/alpoge-rh-replay/issues/13494#issuecomment-7057744537) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M128512](https://github.com/rohanarun/alpoge-rh-replay/issues/13495#issuecomment-7057743113) | Pending review |
-| [@ANdATIon](https://github.com/ANdATIon) | [M053941](https://github.com/rohanarun/alpoge-rh-replay/issues/13500#issuecomment-7057742637) | Pending review |
