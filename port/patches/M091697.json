@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.TraceMemPrimeOfPowMulVecMemSmul",
+  "source_sha256": "6a59ea0090cb84d96e964735b80bb9bc2f51fb5821b20899502f8b320a3692a2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current determinant trick lemma, retaining the coefficient and annihilation conclusions."
+}
