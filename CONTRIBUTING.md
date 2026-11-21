@@ -177,6 +177,18 @@ The run prints its Lean version near the start of the cache step. If it still fa
 
 Begin a comment on your claim with `Replay submission` on its own first line. Include the task or packet ID, exit status, elapsed time, and links to the receipt and log. For a large bundle, attach it to a release on your fork and include its SHA-256 digest. Check logs for personal paths before publishing. The README credits you while your evidence is pending. Keep the claim open for review. Maintainers check the grant, pinned toolchain and inputs, exact target list, successful transcript, and artifact digests before marking a volunteer build complete. Reviewed receipts go in `evidence/volunteers/` and appear in the README and module ledger. Maintainers close accepted claims as completed. Any later reuse or kernel replay is recorded separately. If a build fails, include the first Lean error, file and line, resource limits, and reproduction command.
 
+### Check a submission before posting
+
+Most pending submissions fail one of these checks. Run all of them before you post.
+
+1. **Use one release per claim.** Publish each claim's assets in its own release on your fork, tagged `replay-<ID>-issue-<NUMBER>`; `tracker/worker.py` does this for you. Don't reuse one release for many claims. GitHub caps a release at 1,000 assets, and files uploaded after that point are never stored, even though the upload command may appear to finish.
+2. **Download every link you post.** For each URL in the comment, run `curl -fL -o FILE URL` and compare `sha256sum FILE` with the receipt or the digest you state. Don't post until every link returns the file with the matching digest.
+3. **Include `build.log`.** Link the Lake log from the same run as `receipt.json`. The receipt's `log_sha256` must match it.
+4. **Cover every claimed target.** The log needs a `Built` or `Replayed` line for each requested target. If a target was already in your cache and has no build line, also link the `kernel-replay.json` that the builder writes.
+5. **State attachment digests.** For an uploaded attachment or zip, include its SHA-256 in the comment. A missing or mismatched checksum stays pending.
+
+If a check fails, fix the assets and post a new `Replay submission` comment on the same claim. Your grant stays in place while the claim is open.
+
 The final acceptance record separately checks the standard RH proposition, its axiom dependencies and the fresh kernel replay of Main. Module receipts are evidence of partial progress.
 
 For work on new proofs, the [proof reuse example](examples/proof-reuse/README.md)
