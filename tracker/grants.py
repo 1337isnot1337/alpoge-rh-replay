@@ -49,10 +49,11 @@ def prior_decisions(issues, get_pages=None):
 def reconcile(get_pages=None, mutate=None):
  get_pages = get_pages or pages
  mutate = mutate or api
- rows=load();groups=defaultdict(set);reserved=set()
+ rows=load();groups=defaultdict(set);reserved=set();completed=set()
  for r in rows:
   groups[r['id']].add(r['id']);groups[r['packet']].add(r['id'])
   if r['state']!='open':reserved.add(r['id'])
+  if r['state'] not in ('open','assigned'):completed.add(r['id'])
  issues=[i for i in get_pages('/issues?state=open&per_page=100') if 'pull_request' not in i]
  paused=load_paused();planned=[];taken=set()
  # Preserve valid grants first, then use issue number as a deterministic tie-breaker.
@@ -65,11 +66,13 @@ def reconcile(get_pages=None, mutate=None):
   # A paused claimant keeps existing grants so earlier submissions can be fixed,
   # but receives no new grants.
   held=not existing_grant and ((i.get('user') or {}).get('login') or '').lower() in paused
+  # Completed work can never be granted later, unlike an overlap that may free up.
+  finished=bool(mods) and not existing_grant and mods<=completed
   # New build evidence should not revoke work already granted to a volunteer.
   win=bool(mods) and not held and not mods.intersection(taken) and (existing_grant or not mods.intersection(reserved))
   if win:taken.update(mods)
   desired='claim-granted' if win else 'claim-conflict'
-  planned.append((i['number'],labels,target,desired,held))
+  planned.append((i['number'],labels,target,desired,held or finished))
  for number,labels,target,desired,held in planned:
   other='claim-conflict' if desired=='claim-granted' else 'claim-granted'
   if other in labels:mutate(f'/issues/{number}/labels/{other}','DELETE')
@@ -78,8 +81,11 @@ def reconcile(get_pages=None, mutate=None):
   if desired=='claim-granted' and (desired not in labels or prior.get(number)!=target):
    mutate(f'/issues/{number}/comments','POST',{'body':f'Granted `{target}`. Begin this reservation. Attach your receipt and log to this issue, or close it to release the work.'})
   elif desired=='claim-conflict' and (desired not in labels or number not in conflicts):
+   paused_owner=((next(z for z in issues if z['number']==number).get('user') or {}).get('login') or '').lower() in paused
    body=('No grant. New claims from this account are paused until the pending submissions on your granted claims are fixed. '
-         'See the review comments there and the submission self-check in CONTRIBUTING.md. This issue is closed.') if held else \
+         'See the review comments there and the submission self-check in CONTRIBUTING.md. This issue is closed.') if held and paused_owner else \
+        ('No grant. This work is already completed. This issue is closed. Run `git pull` before `python3 tracker/tasks.py next` '
+         'so your queue skips completed modules.') if held else \
         'No grant. This selection is unavailable or overlaps existing work. Close this issue and choose a new open module or packet with `python3 tracker/tasks.py next`.'
    mutate(f'/issues/{number}/comments','POST',{'body':body})
   # Close refused claims from paused accounts so they don't grow the open set every run reads.

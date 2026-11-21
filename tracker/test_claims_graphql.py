@@ -169,8 +169,9 @@ class ClaimsGraphQLTests(unittest.TestCase):
         with patch.object(grants, 'load', return_value=rows):
             grants.reconcile(get_pages=transport.pages,
                              mutate=lambda *args: writes.append(args))
+        # A new claim on completed work is refused and closed.
         self.assertEqual([w[0] for w in writes],
-                         ['/issues/101/labels', '/issues/101/comments'])
+                         ['/issues/101/labels', '/issues/101/comments', '/issues/101'])
         self.assertEqual(writes[0][2], {'labels': ['claim', 'claim-conflict']})
 
     def test_short_final_page_keeps_renamed_labeled_claims(self):

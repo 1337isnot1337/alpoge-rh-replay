@@ -48,6 +48,22 @@ class PausedClaimantTest(unittest.TestCase):
         client.queue('/issues/6', 'PATCH', {'state': 'closed', 'state_reason': 'not_planned'})
         self.assertEqual(client.writes, ['closeIssue(input:{issueId:"I6",stateReason:NOT_PLANNED}){clientMutationId}'])
 
+    def test_completed_target_claim_is_closed_with_pull_hint(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / 'paused.txt'
+            path.write_text('')
+            writes = []
+            rows = [dict(id='M000001', packet='P0001', state='volunteer-build-reviewed'),
+                    dict(id='M000002', packet='P0002', state='assigned')]
+            with patch.object(grants, 'load', return_value=rows), patch.object(grants, 'PAUSED', path):
+                grants.reconcile(lambda route: [issue(8, 'M000001', 'v'), issue(9, 'M000002', 'w')] if route.startswith('/issues?') else [],
+                                 lambda *args: writes.append(args))
+        routes = {(route, method): body for route, method, *body in writes}
+        self.assertIn('already completed', routes[('/issues/8/comments', 'POST')][0]['body'])
+        self.assertEqual(routes[('/issues/8', 'PATCH')], [{'state': 'closed', 'state_reason': 'not_planned'}])
+        self.assertNotIn(('/issues/9', 'PATCH'), routes)
+        self.assertIn('overlaps', routes[('/issues/9/comments', 'POST')][0]['body'])
+
     def test_missing_file_pauses_nobody(self):
         self.assertEqual(grants.load_paused(Path('/nonexistent/paused.txt')), set())
 
