@@ -37,7 +37,7 @@
 | [@emsi](https://github.com/emsi) | [P2550](https://github.com/rohanarun/alpoge-rh-replay/issues/24827) | Claimed |
 | [@RhizoNymph](https://github.com/RhizoNymph) | [P2583](https://github.com/rohanarun/alpoge-rh-replay/issues/24993) | Claimed |
 | [@RhizoNymph](https://github.com/RhizoNymph) | [P2748](https://github.com/rohanarun/alpoge-rh-replay/issues/25103) | Claimed |
-| [@UnityChaos](https://github.com/UnityChaos) | [M078093](https://github.com/rohanarun/alpoge-rh-replay/issues/25105) | Claimed |
 | [@UnityChaos](https://github.com/UnityChaos) | [M130195](https://github.com/rohanarun/alpoge-rh-replay/issues/25121) | Claimed |
 | [@UnityChaos](https://github.com/UnityChaos) | [M049215](https://github.com/rohanarun/alpoge-rh-replay/issues/25124) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2618](https://github.com/rohanarun/alpoge-rh-replay/issues/25131) | Claimed |
+| [@t-choudhury](https://github.com/t-choudhury) | [M017925](https://github.com/rohanarun/alpoge-rh-replay/issues/25162) | Claimed |
