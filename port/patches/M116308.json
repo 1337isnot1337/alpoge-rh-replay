@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.HoweDuality.SlotBasic",
+  "source_sha256": "a5cddf5e8b4e0005a1bc514a4aec1584661d19b69a686d672b8a45138cd2dfc1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

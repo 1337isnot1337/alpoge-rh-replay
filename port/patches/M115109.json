@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.DensePiDecomposition",
+  "source_sha256": "e3688e61115bfad02de791b0c44eb6e647448be1387add3ed8da0738da7f3e86",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

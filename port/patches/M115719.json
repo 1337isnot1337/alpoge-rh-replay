@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SimultaneousEigenvectors",
+  "source_sha256": "600c3ef4e27865ae378f46fdce928b61c64918ef6dd0dda1d3ccbfbcbf5f8d69",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

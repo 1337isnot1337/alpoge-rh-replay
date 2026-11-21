@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CommonEigenvalueSecond",
+  "source_sha256": "657aa15afb16b48fc7c9920902482cbd4faafce84c007ab9f5ba9038ed64cd35",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FiniteOfApprox",
+  "source_sha256": "f0626b392ad2258c92ad1e5f51a42c0f07e3b5279b34cb7691e42da32d9c3867",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

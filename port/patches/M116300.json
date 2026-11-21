@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.HoweDuality.Nak",
+  "source_sha256": "4ba47599ba59bd2944f402a235946a08cf73fdfe6bded77afc86739a0b2c9170",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,18 @@
+--- a/src/Development/AutomorphicArithmetic/ThetaCorrespondence/HoweDuality/PartStable.lean
++++ b/src/Development/AutomorphicArithmetic/ThetaCorrespondence/HoweDuality/PartStable.lean
+@@ -23,7 +23,6 @@ theorem UpperTheory.Lit.HoweDuality.partStable :
+     rw [position_apply] at this
+     rw [position_apply, factorOp, TensorProduct.map_tmul, PiTensorProduct.map_tprod]
+     convert this using 3
+-    · rfl
+     funext j
+     by_cases hj : j = i
+     · subst hj; simp
+@@ -32,7 +31,6 @@ theorem UpperTheory.Lit.HoweDuality.partStable :
+     rw [position_apply] at this
+     rw [position_apply, factorOp, TensorProduct.map_tmul, PiTensorProduct.map_tprod]
+     convert this using 3
+-    · rfl
+     funext j
+     by_cases hj : j = i
+     · subst hj; simp [Function.update_of_ne hl.symm]

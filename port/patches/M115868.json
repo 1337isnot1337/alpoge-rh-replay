@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.LocalEmbeddings.CoinvFin",
+  "source_sha256": "b3faf4578071ac0bd9bb8e781f0237162ab14b91c736db0fe4efba3da1815ffc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

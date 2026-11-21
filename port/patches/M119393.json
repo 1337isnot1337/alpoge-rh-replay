@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.TwistedTraces.ExistsScalarOfTwistedIntertwinerCommutingAlgebra",
+  "source_sha256": "ef8370cb08817ef41c547cfedde787fd24b96a0790193c42a3fdabcf0465af85",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.HoweDuality.RadFin",
+  "source_sha256": "4a0cee6ae160db2b00f416760c4647e038ee7375223d3777baf24692c5b9340d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
