@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsPerfectRadical",
+  "source_sha256": "65058f47b753027f728144483a47bea245a6c9b63c293ee90860121d2556ead2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0060-lean436-20261121/packet-result.json"
+}

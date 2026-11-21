@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsGlLastRowEq",
+  "source_sha256": "53940b8cb43b4e17d47c48e022f06d30881d71250a470186b9ab1efda5f97192",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0060-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/CircleZero.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/CircleZero.lean
+@@ -107,7 +107,7 @@
+     have hg : Fam U fun w y => f w (x, y) := h.comp (φ := fun y => (x, y)) (by fun_prop)
+     have hS : sphere w₀ r ⊆ U := sphere_subset_closedBall.trans hrU
+     have hQc : ContinuousOn (fun w => ∫ y, f w (x, y) * κ y ∂ν) U :=
+-      hcont.comp (Continuous.continuousOn (f := fun w : ℂ => (w, x)) (by fun_prop)) (fun w hw => ⟨hw, mem_univ _⟩)
++      hcont.comp (f := fun w : ℂ => (w, x)) (Continuous.continuousOn (f := fun w : ℂ => (w, x)) (by fun_prop)) (fun w hw => ⟨hw, mem_univ _⟩)
+     set Q : ℂ → ℂ := fun w => ∫ y, f w (x, y) * κ y ∂ν with hQ
+     have hci : CircleIntegrable Q w₀ ((⟨r, hr.le⟩ : NNReal) : ℝ) := (hQc.mono hS).circleIntegrable hr.le
+     have hps := hasFPowerSeriesOn_cauchy_integral hci (show (0 : NNReal) < ⟨r, hr.le⟩ from hr)

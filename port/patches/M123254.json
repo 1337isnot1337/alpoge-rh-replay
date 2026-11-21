@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FiniteImageCompactOpenQuotient",
+  "source_sha256": "1da60e560e42e9f8abd447edcce18edc5b9ad4eb9e39bfbf2f56b3abb9bf3da3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0060-lean436-20261121/packet-result.json"
+}

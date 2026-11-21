@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FiniteImageCompactRightInvariant",
+  "source_sha256": "2d4eb5ba711d724ca3f099059fc6384f0681460e0eb02a12b8b4eace9dfd0559",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0060-lean436-20261121/packet-result.json"
+}

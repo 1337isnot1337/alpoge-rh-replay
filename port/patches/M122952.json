@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsRegularElementAbelian",
+  "source_sha256": "7b799136c1bd233b6dc1497f02d74da9fc02dfcedf3adb949d04322ebd943dff",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0060-lean436-20261121/packet-result.json"
+}

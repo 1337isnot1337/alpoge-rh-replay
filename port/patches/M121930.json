@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ContourShiftTubeDomain",
+  "source_sha256": "0ef9804995fdb9222fd61b208b664162c062cf5f508e2d8cd0a047f340686a4d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: give explicit integrand, measure family and scalar multiplier to existing integrability lemmas, avoiding expensive implicit unification. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0060-lean436-20261121/packet-result.json"
+}

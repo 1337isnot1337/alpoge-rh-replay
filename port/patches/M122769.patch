@@ -1,0 +1,15 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/ExistsFiniteAffineCover.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/ExistsFiniteAffineCover.lean
+@@ -138,9 +138,11 @@
+ 
+ instance [∀ i, IsFractionRing (V i) (K i)] : IsFractionRing (Ult U V) (Ult U K) := by
+   have hinj : Function.Injective (algebraMap (Ult U V) (Ult U K)) := by
+-    rw [injective_iff_map_eq_zero]
++    apply (injective_iff_map_eq_zero
++      (algebraMap (Ult U V) (Ult U K)).toAddMonoidHom).2
+     intro x hx
+     obtain ⟨a, rfl⟩ := mk_surjective U x
++    change algebraMap (Ult U V) (Ult U K) (mk U a) = 0 at hx
+     rw [algebraMap_mk, mk_eq_zero_iff] at hx
+     rw [mk_eq_zero_iff]
+     filter_upwards [hx] with i hi
