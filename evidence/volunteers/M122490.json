@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M122490"
+  ],
+  "started_utc": "2026-11-21T01:02:05.919332+00:00",
+  "ended_utc": "2026-11-21T01:02:34.354106+00:00",
+  "elapsed_seconds": 28.4,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6788432
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.EigenvectorLiftOfSurjectionStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c2097e36ee695d033aef01a3d03fad1217c6b9d3ed14d99cc86988ddbe3e5e93",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.EigenvectorLiftOfSurjection"
+  ],
+  "objects": {
+    "M122490": "e0bfa2d533db4f2c5ffc299ae31bb05c43182b2cef3a2b5a9b9207964c81c1f4"
+  },
+  "bundle_sha256": "deebee1b86add73965bac09e6550c10b60f855ea44a37d5ac64fa631aac661d2",
+  "packet": "M122490",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8940#issuecomment-7054827663",
+  "reviewed_utc": "2026-11-21T06:11:02.437320+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

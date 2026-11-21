@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M016667"
+  ],
+  "started_utc": "2026-11-20T23:46:23.902407+00:00",
+  "ended_utc": "2026-11-20T23:47:22.331316+00:00",
+  "elapsed_seconds": 58.4,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 15725248,
+    "peak_child_rss_kib": 6740656
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedOfIsIntegral:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d4e98bcc0f20a3c235c5352f233c05fb4f301884c9a0457b30592c6e8a934f0a",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.CommutativeAlgebra.AbByPOfComm",
+    "Development.AbelianVarietyTheory.Proofs.CharacterTheory.RootsCharpolyPowEqMapPow"
+  ],
+  "objects": {
+    "M016667": "e1e9d9d2d2f69c5e6ffbd34f306b979e07628f5831f545cf7ad4c28946257442"
+  },
+  "bundle_sha256": "398d0bb44fce07a0c50c0b2b45919e0ef2535b8b9324020d8c9824c52d19a9b8",
+  "packet": "M016667",
+  "contributor": "jsnider3",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6866#issuecomment-7053482310",
+  "reviewed_utc": "2026-11-21T06:09:56.024816+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

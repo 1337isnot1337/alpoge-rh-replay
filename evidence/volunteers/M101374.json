@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M101374"
+  ],
+  "started_utc": "2026-11-21T01:05:20.551330+00:00",
+  "ended_utc": "2026-11-21T01:05:37.177267+00:00",
+  "elapsed_seconds": 16.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6200364
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.CaDetAdj:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4f03538afe5a9158e61ed56718f723513db615a0a87b7100f61732fae8454af5",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DetLocus"
+  ],
+  "objects": {
+    "M101374": "f16b4164d4ac518aee038d26969fb9ef92e85da21a3f1050c276a4c0ff0138de"
+  },
+  "bundle_sha256": "427737b67e0b9422df2aed456fd52ee272954923689de8cab435700b9713ab7f",
+  "packet": "M101374",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8935#issuecomment-7054796091",
+  "reviewed_utc": "2026-11-21T06:08:15.321384+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

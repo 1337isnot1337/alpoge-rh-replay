@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    "M154439"
+  ],
+  "started_utc": "2026-11-21T01:02:30.115584+00:00",
+  "ended_utc": "2026-11-21T01:05:38.723702+00:00",
+  "elapsed_seconds": 188.6,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 4603904
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BesselDerivatives.ContDiffOnDirectionalDerivative:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "dca49502e2b5f2ec0bb9648cda66fe75d71c1a0bcb77a754230932d918de652c",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BesselDerivatives.LiftAOneZero"
+  ],
+  "objects": {
+    "M154439": "6359d04234cdccd2a85b2e405737c4d144276a97ff9fa748c3452d052cfad7fc"
+  },
+  "bundle_sha256": "1f2cfbc4958d94dda84be589c5da68d41e0f373646c42b493a0787cd7253a7bb",
+  "packet": "M154439",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8890#issuecomment-7054807054",
+  "reviewed_utc": "2026-11-21T06:03:58.067672+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

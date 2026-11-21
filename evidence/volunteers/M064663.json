@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M064663"
+  ],
+  "started_utc": "2026-11-21T00:45:27.909448+00:00",
+  "ended_utc": "2026-11-21T00:46:36.299868+00:00",
+  "elapsed_seconds": 68.4,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6649060
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.DifferentiableAtFractInt:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "71e7f0b06a145936de37194a6e43ee20eaa4f9eba5b1883e1a55a9eaa0175337",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ZetaEqSubIntegralFract"
+  ],
+  "objects": {
+    "M064663": "2f7b88e53f50d98ecfa0fccfa7792dd367e300b859a2b9738ce7c45e9c0b5ed3"
+  },
+  "bundle_sha256": "a1c9d468bdf7516db50c21484b36b2bd504ed8de1c63301b113ed3b4e1ebd9ed",
+  "packet": "M064663",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8458#issuecomment-7054457719",
+  "reviewed_utc": "2026-11-21T06:10:35.463233+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

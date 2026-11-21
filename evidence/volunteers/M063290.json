@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M063290"
+  ],
+  "started_utc": "2026-11-21T01:00:36.560648+00:00",
+  "ended_utc": "2026-11-21T01:00:58.555149+00:00",
+  "elapsed_seconds": 22.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6294612
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.NormXLeOneOfNsmulEqZero:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "84a6a0cdba0edbd490d4d7f7403b044c54b6f24b28d13ea47062e4c5d69fc80b",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.NormAddOfLt"
+  ],
+  "objects": {
+    "M063290": "f1b980f1a12a57efc25c030c1d74095a457b8cc389c9d207b91ebf77eaf87d58"
+  },
+  "bundle_sha256": "5214f64b6881f0c8a39eb64a12cd24524ccba1a7bc09972e63a62ec3c5316bbf",
+  "packet": "M063290",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8790#issuecomment-7054714319",
+  "reviewed_utc": "2026-11-21T06:09:58.540616+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

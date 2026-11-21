@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M173743"
+  ],
+  "started_utc": "2026-11-21T01:12:11.681803+00:00",
+  "ended_utc": "2026-11-21T01:12:24.437474+00:00",
+  "elapsed_seconds": 12.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6193488
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantLemmas.PerpendicularDeterminants.DetMemSubalgebra:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2fc1b4985727869e3b6768ba96b7a6331da0c7328a5c896a9ad9876a824e568f",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.PerpVecPerpSt"
+  ],
+  "objects": {
+    "M173743": "cdcfa16300af352fd74d18c3a4192824eea60745e42820483a24f3f28031e3c8"
+  },
+  "bundle_sha256": "21168a857382b9e423091d3716f3c613e039a429498344ad3fbcc4871a11afc0",
+  "packet": "M173743",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9006#issuecomment-7054897850",
+  "reviewed_utc": "2026-11-21T06:06:33.740278+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

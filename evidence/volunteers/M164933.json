@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M164933"
+  ],
+  "started_utc": "2026-11-21T00:45:50.515600+00:00",
+  "ended_utc": "2026-11-21T00:46:03.706598+00:00",
+  "elapsed_seconds": 13.2,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 7979196,
+    "peak_child_rss_kib": 5750572
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.WeierstrassPolynomialRing:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4578b01d33ab0018c96f718bb4da7641829eee645447b897219508cff737ef1e",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M164933": "56fdae97d1dbc4b8ab7b0432ce4d29a5740b4dfde41848e07e3086f83a49d17d"
+  },
+  "bundle_sha256": "7f07c80c571eafbd7ec72670558855e841d64665cbb31b6f5a12fa9aac3ba3d1",
+  "packet": "M164933",
+  "contributor": "roonastgames",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8497#issuecomment-7054448563",
+  "reviewed_utc": "2026-11-21T06:11:24.736135+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}
