@@ -1,5 +1,4 @@
 diff --git a/src/CompanionTheory/AutomorphicTheory/HeckeStandardModules/ExistsCen.lean b/src/CompanionTheory/AutomorphicTheory/HeckeStandardModules/ExistsCen.lean
-index 0000000..0000000 100644
 --- a/src/CompanionTheory/AutomorphicTheory/HeckeStandardModules/ExistsCen.lean
 +++ b/src/CompanionTheory/AutomorphicTheory/HeckeStandardModules/ExistsCen.lean
 @@ -173,7 +173,7 @@ theorem lift [IsGalois E Ω] (L : IntermediateField E Ω) [FiniteDimensional E L
