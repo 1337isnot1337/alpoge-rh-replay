@@ -18,6 +18,7 @@
 | [@zediir](https://github.com/zediir) | [M142307](https://github.com/rohanarun/alpoge-rh-replay/issues/8098#issuecomment-7054094785) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M164770](https://github.com/rohanarun/alpoge-rh-replay/issues/8099#issuecomment-7054099112) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M164881](https://github.com/rohanarun/alpoge-rh-replay/issues/8100#issuecomment-7054100552) | Pending review |
+| [@SeriousRising](https://github.com/SeriousRising) | [P2005](https://github.com/rohanarun/alpoge-rh-replay/issues/8101#issuecomment-7055621828) | Pending review |
 | [@matan1905](https://github.com/matan1905) | [M106073](https://github.com/rohanarun/alpoge-rh-replay/issues/8104#issuecomment-7054101183) | Pending review |
 | [@matan1905](https://github.com/matan1905) | [M106065](https://github.com/rohanarun/alpoge-rh-replay/issues/8105#issuecomment-7054095768) | Pending review |
 | [@zediir](https://github.com/zediir) | [M085806](https://github.com/rohanarun/alpoge-rh-replay/issues/8106#issuecomment-7054096902) | Pending review |
@@ -253,4 +254,3 @@
 | [@egergerfg](https://github.com/egergerfg) | [M167211](https://github.com/rohanarun/alpoge-rh-replay/issues/8430#issuecomment-7054422107) | Pending review |
 | [@zediir](https://github.com/zediir) | [M061321](https://github.com/rohanarun/alpoge-rh-replay/issues/8431#issuecomment-7054422513) | Pending review |
 | [@egergerfg](https://github.com/egergerfg) | [M165001](https://github.com/rohanarun/alpoge-rh-replay/issues/8432#issuecomment-7054428747) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115110](https://github.com/rohanarun/alpoge-rh-replay/issues/8433#issuecomment-7054530419) | Pending review |
