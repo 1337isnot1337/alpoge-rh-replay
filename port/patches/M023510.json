@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAntilinearNormalFormStatement",
+  "source_sha256": "44f0b274272d7b16fc31a1e15520c926ff41ec042477334447cc5cc71fcad71b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
