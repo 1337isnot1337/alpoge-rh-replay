@@ -2,6 +2,26 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005975 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.CommuteImageAbelianByPrimePowerOfNormalCentralStatement` | wave-reused |
+| M005976 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ConjOfPrimaryFinrankKerPowEq` | wave-reused |
+| M005977 | P0295 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ConjOfPrimaryFinrankKerPowEqStatement` | wave-reused |
+| M005978 | P0097 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.EndomorphismMassEqOfLinearEquivInvariant` | wave-reused |
+| M005979 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.EndomorphismMassEqOfLinearEquivInvariantStatement` | wave-reused |
+| M005980 | P0516 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.EndomorphismMassMobiusInverseMonicEq` | wave-reused |
+| M005981 | P0550 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.EndomorphismMassMobiusInverseMonicEqStatement` | wave-reused |
+| M005982 | P0348 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.EndomorphismMassMulParabolicInductionTrivial` | wave-reused |
+| M005983 | P0394 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.EndomorphismMassMulParabolicInductionTrivialStatement` | wave-reused |
+| M005984 | P0097 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.EndomorphismMassOfCharpolyCardCyclicVectors` | wave-reused |
+| M005985 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.EndomorphismMassOfCharpolyCardCyclicVectorsStatement` | wave-reused |
+| M005986 | P0974 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.EqOfIsPrimitiveOfEqOnEllipticFiniteGL` | build-observed |
+| M005987 | P1002 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.EqOfIsPrimitiveOfEqOnEllipticFiniteGLStatement` | volunteer-build-reviewed |
+| M005988 | P0097 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.EqZeroOfFinsumMulStarPowEqZero` | build-observed |
+| M005989 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.EqZeroOfNotPrimary` | wave-reused |
+| M005990 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.EqZeroOfNotPrimaryStatement` | wave-reused |
+| M005992 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsAbelianByPrimePowerNotDvdCardFixedBy` | wave-reused |
+| M005993 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsAbelianByPrimePowerNotDvdCardFixedByStatement` | wave-reused |
+| M005994 | P0097 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsCharacterEigenvectorOfCommutingRepresentat` | wave-reused |
+| M005995 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsCharacterEigenvectorOfCommutingRepresentatStatement` | wave-reused |
 | M005996 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsCharacterQuotientOfInjectiveIntertwining` | wave-reused |
 | M005997 | P0295 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsCharacterQuotientOfInjectiveIntertwiningStatement` | wave-reused |
 | M005998 | P0097 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsConjEqAddOfIsCoprime` | wave-reused |
@@ -325,6 +345,7 @@
 | M006324 | P0176 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthCommensurableSpanSpanOfDetNeZero` | wave-reused |
 | M006325 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthEqTopOfFinrankNeZero` | volunteer-build-reviewed |
 | M006326 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthLocalizedModuleEqZeroOfNotAnnihilatorLe` | volunteer-build-reviewed |
+| M006327 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthQuotRangeEqAddValDet` | volunteer-build-reviewed |
 | M006328 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthQuotientMaximalIdealPowSmulTop` | volunteer-build-reviewed |
 | M006329 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthQuotientSpanSingleton` | wave-reused |
 | M006330 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthRestrictScalarsEqSumInertiaDegOfSubset` | wave-reused |
@@ -381,24 +402,3 @@
 | M006381 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SignedLengthSpanEqOrdFracDet` | wave-reused |
 | M006382 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SpanLaurentMonomialEqHomLoc` | wave-reused |
 | M006383 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SpanSingletonEqTopIffIsUnitOfIsBaseChange` | wave-reused |
-| M006384 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.StructureHomApply` | wave-reused |
-| M006385 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubalgebraEqBotOfIsIntegralOfIsIntegrallyClosed` | wave-reused |
-| M006386 | P1586 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubsingletonOfPoints` | wave-reused |
-| M006387 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubsingletonOfSheafPullback` | wave-reused |
-| M006388 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SumNegOnePowFinrankEqZero` | wave-reused |
-| M006389 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SummableNormBoundedSeries` | wave-reused |
-| M006390 | P0732 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ThreeTermComplexOfProjectiveCechModel` | wave-reused |
-| M006391 | P0759 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ThreeTermComplexOfProjectiveCechModelStatement` | wave-reused |
-| M006392 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.TopClassSurjective` | wave-reused |
-| M006393 | P1395 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.TranslateDivAdditive` | wave-reused |
-| M006394 | P1114 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.TwistedSectionsLocaliseToCharts` | wave-reused |
-| M006395 | P1144 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.TwistedSectionsLocaliseToChartsStatement` | wave-reused |
-| M006396 | P1084 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.VeryAmpleCompactQuasiSeparatedAffineCharts` | wave-reused |
-| M006397 | P1114 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.VeryAmpleCompactQuasiSeparatedAffineChartsStatement` | wave-reused |
-| M006398 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.WeightAddLeOfMemSupportDividedContraction` | wave-reused |
-| M006399 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.XSmulMemWeightedHomogeneousSubmodule` | wave-reused |
-| M006400 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.AbsTwoMulInnerLeOfNormSubEqInfDist` | volunteer-build-reviewed |
-| M006403 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.CoeffSubstInvMemOfTwoLeOrder` | wave-reused |
-| M006404 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ConjTransposeBoostMulSignatureMulBoost` | volunteer-build-reviewed |
-| M006406 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DifferentiableOnOfTendstoLocallyUniformlyOn` | wave-reused |
-| M006407 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DiscreteTopologySpanOfLinearIndependent` | volunteer-build-reviewed |

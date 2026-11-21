@@ -262,6 +262,7 @@
 | M000577 | P0783 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.DiscreteSeriesCharacters.Spread` | volunteer-build-reviewed |
 | M000580 | P0435 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.CreationOperators.CreApply` | volunteer-build-reviewed |
 | M000581 | P0757 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.CreationOperators.CycDense` | volunteer-build-reviewed |
+| M000582 | P0475 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.CreationOperators.DifferentialBoundedSupport` | volunteer-build-reviewed |
 | M000590 | P0392 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.LowKMultOneP` | volunteer-build-reviewed |
 | M000595 | P1501 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.UniqHpkOf` | volunteer-build-reviewed |
 | M000596 | P0001 | `CompanionTheory.HarishChandraModules.NonemptyRepresentations.ExpEntry` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M000888 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsEqAdelicCharMul` | volunteer-build-reviewed |
 | M000889 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsFiniteAdeleHaarNormalized` | volunteer-build-reviewed |
 | M000890 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsFiniteAdeleHaarNormalizedStatement` | volunteer-build-reviewed |
-| M000891 | P0582 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsGramFiberMeasures` | build-observed |

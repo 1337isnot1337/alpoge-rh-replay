@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M098151"
+  ],
+  "started_utc": "2026-11-21T04:42:35.842430+00:00",
+  "ended_utc": "2026-11-21T04:53:46.252640+00:00",
+  "elapsed_seconds": 669.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 5663200
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnitriangularMapInduction:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "dfa728ccf17db5e21cd48a7478ee4deea18ffec01c4d1835c863ebcfec5e46e7",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.AdjointRadical"
+  ],
+  "objects": {
+    "M098151": "1e6183f922554b7a94127281c24284f20c980131da5fb55ab165c9351d92d641"
+  },
+  "bundle_sha256": "445e7adbe71e8b479b89213da85b1e1b20e5fa8ef45cb24394254864e9198731",
+  "packet": "M098151",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12889#issuecomment-7057556225",
+  "reviewed_utc": "2026-11-21T06:05:56.625926+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

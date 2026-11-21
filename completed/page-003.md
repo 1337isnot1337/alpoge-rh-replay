@@ -2,12 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001646 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorDifferentialMatrixUnitFormula` | volunteer-build-reviewed |
+| M001647 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorDifferentialMatrixUnitFormulaStatement` | volunteer-build-reviewed |
 | M001648 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorDifferentialSignRuleQuadratic` | volunteer-build-reviewed |
 | M001649 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorDifferentialSignRuleQuadraticStatement` | volunteer-build-reviewed |
 | M001650 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorIntegrality` | volunteer-build-reviewed |
 | M001651 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorIntegralityStatement` | volunteer-build-reviewed |
 | M001656 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FamilyFiltration` | volunteer-build-reviewed |
 | M001657 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FamilyInduction` | volunteer-build-reviewed |
+| M001660 | P0678 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FibAc` | volunteer-build-reviewed |
 | M001674 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FiniteTypeAlgebraCommonEigencharacter` | volunteer-build-reviewed |
 | M001675 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FiniteTypeAlgebraCommonEigencharacterStatement` | volunteer-build-reviewed |
 | M001677 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FinrankAdjoinLeAdd` | volunteer-build-reviewed |
@@ -309,6 +312,7 @@
 | M002387 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.FormalDegreeHaarQuotient` | build-observed |
 | M002388 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.HarishChandraParameters` | volunteer-build-reviewed |
 | M002390 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.HarmonicValueIntegrality` | volunteer-build-reviewed |
+| M002391 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.HodgeTateCharacterSystems` | volunteer-build-reviewed |
 | M002392 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.IntegralPartDecomposition` | volunteer-build-reviewed |
 | M002394 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.LieMatrixVectors` | build-observed |
 | M002395 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.LogExpAdaptedGauge` | build-observed |
@@ -398,7 +402,3 @@
 | M002542 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.NearNonzeroTerms` | volunteer-build-reviewed |
 | M002543 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.OrbitStepSpace` | build-observed |
 | M002544 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.OrthonormalPlaceBasis` | volunteer-build-reviewed |
-| M002545 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.PointwiseKernelBound` | volunteer-build-reviewed |
-| M002546 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.RareFlags` | volunteer-build-reviewed |
-| M002547 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.SaturatedDuality` | build-observed |
-| M002548 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.SaturatedPerpDuality` | build-observed |

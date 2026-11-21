@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M000891 | P0582 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsGramFiberMeasures` | build-observed |
 | M000892 | P0615 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsGramFiberMeasuresStatement` | build-observed |
 | M000893 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsIsCharAF` | volunteer-build-reviewed |
 | M000894 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsNormOneUnitShift` | volunteer-build-reviewed |
@@ -279,6 +280,7 @@
 | M001309 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.TraceFormInvarianceUnderUnitary` | volunteer-build-reviewed |
 | M001310 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.TraceFormInvarianceUnderUnitaryStatement` | volunteer-build-reviewed |
 | M001313 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.TraceGramDetNeZero` | volunteer-build-reviewed |
+| M001314 | P0094 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitBalancingImaginaryParts` | volunteer-build-reviewed |
 | M001315 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitBalancingImaginaryPartsStatement` | volunteer-build-reviewed |
 | M001316 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitChoiceOfIsArtinianRingIsReduced` | volunteer-build-reviewed |
 | M001317 | P0238 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitProductClosureProperties` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M001643 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExpMemUJ` | volunteer-build-reviewed |
 | M001644 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExponentialMembership` | volunteer-build-reviewed |
 | M001645 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExponentialMembershipStatement` | volunteer-build-reviewed |
-| M001646 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorDifferentialMatrixUnitFormula` | volunteer-build-reviewed |
-| M001647 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorDifferentialMatrixUnitFormulaStatement` | volunteer-build-reviewed |

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M026635"
+  ],
+  "started_utc": "2026-11-21T05:00:20.436166+00:00",
+  "ended_utc": "2026-11-21T05:11:30.183630+00:00",
+  "elapsed_seconds": 669.6,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5802324
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsLocalRingQuotientPairwiseIsCoprimeIInfEqStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9b2c20159c54f980a6170642e35e4e81e757326b6f7e29e8b989f70b84b5a6b5",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsLocalRingQuotientPairwiseIsCoprimeIInfEq",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.FiniteMaximalSpectrumOfFiniteOfIsLocalRing"
+  ],
+  "objects": {
+    "M026635": "3273b7d8f0d9eab015b41e9b26ff0e0d2ecb568caf8eb2e0d86130254b910656"
+  },
+  "bundle_sha256": "f63617c567a6b15901bf1bb79a744f010391f9c84c647786456d15620848ab98",
+  "packet": "M026635",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12868#issuecomment-7057741276",
+  "reviewed_utc": "2026-11-21T06:14:51.478107+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

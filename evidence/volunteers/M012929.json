@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M012929"
+  ],
+  "started_utc": "2026-11-21T04:19:21.237841+00:00",
+  "ended_utc": "2026-11-21T04:22:50.286459+00:00",
+  "elapsed_seconds": 209.0,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 4731692
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFieldOfIsIntegralImageStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "759f0e3e40a52fb5bd3070baa67d53e0c5f32350b24fe18fb2ce0c92154ba58d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFieldOfIsIntegralImage"
+  ],
+  "objects": {
+    "M012929": "036b77219cb14706b3fe23861cb01eb4e8c0d9f42d18ea6c00cadfb06cc8a9f6"
+  },
+  "bundle_sha256": "8c08dd7ecfc896aca54f556fa4b975e267dc051b6b08f8ca79888f3b9491001f",
+  "packet": "M012929",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12720#issuecomment-7057218070",
+  "reviewed_utc": "2026-11-21T06:14:52.818239+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

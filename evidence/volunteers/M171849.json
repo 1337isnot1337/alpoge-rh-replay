@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M171849"
+  ],
+  "started_utc": "2026-11-21T04:16:26.322759+00:00",
+  "ended_utc": "2026-11-21T04:18:57.865948+00:00",
+  "elapsed_seconds": 151.5,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 4921024
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.DualLattices.SumInvMulTrace:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "be3c6ac251d245bb8d6cf57762100dcb30b6ca3601f06d30eabb8c326cdb7e57",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.DualLattices.NearIdentityColengthStatement"
+  ],
+  "objects": {
+    "M171849": "d565f593ad1f6f3e4a8fb7d67687c08fe8eea07d5ef759973faea9080a3402e4"
+  },
+  "bundle_sha256": "27021712db874e22f1833926e04ad5a7366bfe2c989029a06a1c5479f4c070dd",
+  "packet": "M171849",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12590#issuecomment-7057175381",
+  "reviewed_utc": "2026-11-21T06:04:17.765803+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

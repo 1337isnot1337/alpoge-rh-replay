@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004690 | P1056 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.BoundAtTwoThreeFamily` | volunteer-build-reviewed |
+| M004691 | P1531 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.BuiltEx` | volunteer-build-reviewed |
+| M004693 | P0731 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.CentralIdemCoeff` | wave-reused |
+| M004701 | P0239 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ConnPhiExtensionGeneratorEqZeta` | wave-reused |
+| M004702 | P0347 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ConvZero` | volunteer-build-reviewed |
+| M004704 | P0974 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.CrisToODToOCr` | wave-reused |
+| M004705 | P0295 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.CrystallineCocycles` | volunteer-build-reviewed |
+| M004710 | P0758 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.CyclotomicFrobeniusPowerSeriesXEqMulQuotient` | wave-reused |
+| M004712 | P0946 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.DeltaStructureOfWittLengthTwoSection` | wave-reused |
+| M004713 | P0838 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.DetCharacterMemPrincipalCongruenceFixedVectors` | wave-reused |
+| M004716 | P1324 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.EmbedsLevelZeroDepthZero` | build-observed |
+| M004718 | P0475 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsAlgebraMapEqRoot` | wave-reused |
+| M004719 | P0347 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsEqAlgebraMapAddPowMul` | wave-reused |
+| M004720 | P0436 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsEqMulAddOfIsAdicComplete` | wave-reused |
 | M004721 | P0917 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsGenIsUnitSub` | wave-reused |
 | M004724 | P1001 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsIterateDerivative` | wave-reused |
 | M004726 | P0295 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsOfLayers` | wave-reused |
@@ -163,6 +177,7 @@
 | M004984 | P0731 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.OfRoots` | build-observed |
 | M004985 | P0810 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.OnePlaceKF` | volunteer-build-reviewed |
 | M004989 | P0239 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.Partners` | build-observed |
+| M004991 | P1114 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.PlacesOf` | volunteer-build-reviewed |
 | M004992 | P0758 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.PosPartUnitaryMul` | build-observed |
 | M004994 | P0865 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.RowMinor` | build-observed |
 | M004997 | P0758 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.SelfDualAt` | build-observed |
@@ -178,6 +193,7 @@
 | M005014 | P0295 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.ExistsIsInvariantSectionMemBasicOpenIff` | build-observed |
 | M005015 | P0393 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.ExistsLiftAddOfIsReducedEq` | wave-reused |
 | M005016 | P0003 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.FlatImageOfOverFractionFieldOfValuationRing` | wave-reused |
+| M005017 | P0096 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.GlActionMemBalFormsOfSemilinear` | volunteer-build-reviewed |
 | M005018 | P0347 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.IrrelevantLeMapLinearGradedMap` | wave-reused |
 | M005019 | P0174 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.IsDomainAndIsIntegrallyClosedLocalizationOfIsInv` | build-observed |
 | M005020 | P0096 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.IsOpenOfMemIrreducibleComponentsOfFinite` | wave-reused |
@@ -235,6 +251,7 @@
 | M005087 | P0096 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.MemAnalyticAtZeroOfEventuallyDifferentiableAt` | volunteer-build-reviewed |
 | M005088 | P0918 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.PolyDerivSmulLetter` | wave-reused |
 | M005090 | P1218 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.SWEqSOf` | build-observed |
+| M005091 | P0918 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.ThConst` | volunteer-build-reviewed |
 | M005093 | P1084 | `Development.AbelianVarietyTheory.Definitions.TorusSections.IsTorusOf` | wave-reused |
 | M005095 | P1665 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ChainParSucc` | volunteer-build-reviewed |
 | M005104 | P1559 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.DepthPays` | volunteer-build-reviewed |
@@ -252,6 +269,7 @@
 | M005143 | P1299 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.PartW` | volunteer-build-reviewed |
 | M005147 | P1395 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.SqNormIntegralFundamentalDomainEqL2NormSq` | volunteer-build-reviewed |
 | M005152 | P1974 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.TwistPlacesOffPrimeQZero` | volunteer-build-reviewed |
+| M005153 | P0347 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.TypeChainPrincipalEntryNeZero` | volunteer-build-reviewed |
 | M005155 | P0239 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ValuationDetOfMemKO` | build-observed |
 | M005162 | P0891 | `Development.AbelianVarietyTheory.Definitions.TwoChartAtlas.AdditionLawSecondIdentity` | build-observed |
 | M005163 | P0810 | `Development.AbelianVarietyTheory.Definitions.TwoChartAtlas.TwoChartSt` | wave-reused |
@@ -384,21 +402,3 @@
 | M005316 | P0239 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.RangeRestrictCompSubtypeOfOrthogonalOfNe` | wave-reused |
 | M005317 | P1084 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.RelAmpleOfLocallyOnBase` | wave-reused |
 | M005318 | P1114 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.RelAmpleOfLocallyOnBaseStatement` | wave-reused |
-| M005319 | P1084 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.RingKrullDimLeOfQuasiFinite` | wave-reused |
-| M005320 | P1057 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SecBaseChangeOfPerf` | wave-reused |
-| M005321 | P0758 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SecDivOfThickenings` | wave-reused |
-| M005322 | P0515 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SecEqZeroAndHomEqOfThickenings` | wave-reused |
-| M005323 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SecEqZeroOfDvdPowUniformiser` | wave-reused |
-| M005324 | P1029 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SecMInvariantEqBotOrUnivAtGeometricPoint` | wave-reused |
-| M005325 | P1324 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SerreVanishingVeryAmple` | wave-reused |
-| M005326 | P1350 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SerreVanishingVeryAmpleStatement` | wave-reused |
-| M005327 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SmoothDense` | wave-reused |
-| M005328 | P0758 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SpanEqTopOfFunctionals` | wave-reused |
-| M005329 | P0003 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SpecHomCompCoaction` | wave-reused |
-| M005331 | P0394 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SplitTorusHomEqOneOfNilpotent` | wave-reused |
-| M005332 | P0394 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SplitTorusHomProperTrivialField` | wave-reused |
-| M005333 | P0436 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SplitTorusHomProperTrivialLocal` | wave-reused |
-| M005334 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SurjectiveAppOfIsAbelianScheme` | wave-reused |
-| M005335 | P0732 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SymmetricLiftOddOrderExistsUnique` | wave-reused |
-| M005336 | P0759 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SymmetricLiftOddOrderExistsUniqueStatement` | wave-reused |
-| M005337 | P0811 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ThetaGrpActsLinearly` | wave-reused |

@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002545 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.PointwiseKernelBound` | volunteer-build-reviewed |
+| M002546 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.RareFlags` | volunteer-build-reviewed |
+| M002547 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.SaturatedDuality` | build-observed |
+| M002548 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.SaturatedPerpDuality` | build-observed |
 | M002555 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.BlockSumMultiplicities` | volunteer-build-reviewed |
 | M002558 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.CrystallineAtPlaces` | volunteer-build-reviewed |
 | M002559 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.CrystallineWindowLifts` | volunteer-build-reviewed |
@@ -92,6 +96,7 @@
 | M002730 | P1349 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.RayFieldTheta` | volunteer-build-reviewed |
 | M002739 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SemilinearExtensionBases` | volunteer-build-reviewed |
 | M002746 | P1169 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SplitLinearModelNorm` | volunteer-build-reviewed |
+| M002747 | P1787 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SplitOffDetection` | volunteer-build-reviewed |
 | M002751 | P1143 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SupremumOnGoodPlaces` | volunteer-build-reviewed |
 | M002758 | P1245 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ThetaTranslateRangeGap` | volunteer-build-reviewed |
 | M002759 | P1501 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.TraceKernelDecomposition` | volunteer-build-reviewed |
@@ -148,6 +153,7 @@
 | M002956 | P1974 | `Development.AbelianVarietyTheory.Counterexamples.ThetaValuation.CongruenceSpanLevel` | volunteer-build-reviewed |
 | M002958 | P0294 | `Development.AbelianVarietyTheory.Counterexamples.TransversalityLocal.FramePairFixatorUnitaryAndFixesFrame` | volunteer-build-reviewed |
 | M002961 | P1349 | `Development.AbelianVarietyTheory.Counterexamples.TwistSurvey.ConjModelCast` | build-observed |
+| M002972 | P0173 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.HasColenNotUniqueWithoutGuard` | volunteer-build-reviewed |
 | M002974 | P0582 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.NonemptyAlgebra` | build-observed |
 | M002976 | P0393 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.ValOfKindIndep` | build-observed |
 | M002977 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.WeightEqZeroOfOneIsSec` | volunteer-build-reviewed |
@@ -288,6 +294,7 @@
 | M003379 | P0731 | `Development.AbelianVarietyTheory.Definitions.Degenerations.CompanionTheory` | wave-reused |
 | M003380 | P0974 | `Development.AbelianVarietyTheory.Definitions.Degenerations.ExistsGenPullTriv` | build-observed |
 | M003381 | P1028 | `Development.AbelianVarietyTheory.Definitions.Degenerations.ExistsLevelPoint` | build-observed |
+| M003384 | P0974 | `Development.AbelianVarietyTheory.Definitions.Degenerations.ExistsUniquePartner` | volunteer-build-reviewed |
 | M003385 | P0758 | `Development.AbelianVarietyTheory.Definitions.Degenerations.HomExtSt` | build-observed |
 | M003386 | P0917 | `Development.AbelianVarietyTheory.Definitions.Degenerations.InducedModelMorphismCompStructureMap` | wave-reused |
 | M003387 | P0838 | `Development.AbelianVarietyTheory.Definitions.Degenerations.IsAffineSplitTorusLeft` | wave-reused |
@@ -363,6 +370,7 @@
 | M003571 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.FibreRankCompOfSurjective` | wave-reused |
 | M003575 | P1084 | `Development.AbelianVarietyTheory.Definitions.Divisors.FirstChernLeviEqConstant` | build-observed |
 | M003579 | P0865 | `Development.AbelianVarietyTheory.Definitions.Divisors.FormalCoboundarySmul` | wave-reused |
+| M003580 | P1419 | `Development.AbelianVarietyTheory.Definitions.Divisors.FormalDegreeUpperC` | volunteer-build-reviewed |
 | M003582 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.FormalModule` | volunteer-build-reviewed |
 | M003584 | P1419 | `Development.AbelianVarietyTheory.Definitions.Divisors.FramedDConst` | volunteer-build-reviewed |
 | M003587 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.FstTszeSec` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M003663 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsDetEltOne` | wave-reused |
 | M003666 | P1472 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsEquivariantToBidual` | volunteer-build-reviewed |
 | M003667 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsEtCoord` | build-observed |
-| M003669 | P0838 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsEtPlace` | volunteer-build-reviewed |
-| M003670 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsEulerContraction` | build-observed |
-| M003671 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsExpLieAlgebraComplexUnits` | volunteer-build-reviewed |
-| M003672 | P0549 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsFinSetSplitPlacesCoprimeConductor` | wave-reused |
-| M003673 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsFlatLift` | volunteer-build-reviewed |
-| M003675 | P1323 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsFrameOfForallExists` | wave-reused |
-| M003678 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsGaloisCover` | build-observed |
-| M003681 | P1298 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsHeightIffOfDegreeEq` | wave-reused |

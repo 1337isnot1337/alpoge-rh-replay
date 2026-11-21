@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M120140"
+  ],
+  "started_utc": "2026-11-21T04:20:33.023205+00:00",
+  "ended_utc": "2026-11-21T04:21:09.776832+00:00",
+  "elapsed_seconds": 36.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6256052
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.AlgebraProofs.ExistsSymplecticBasisLagrangianBetween:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e9e26ed0c298b5cd1153d3a5b6edf28449a06a332315ca60a6903e4d5233eff4",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DualRestrictSurjectiveOfIsTorsionFreeQuotient"
+  ],
+  "objects": {
+    "M120140": "4af37fbd70638a74816549a8401b119165c0273a0cc506a7031d041b03236c29"
+  },
+  "bundle_sha256": "36052b1f5f9070b8e41c84c56ac5401862cbbdab7d7a7a1f971b1da3c0fe3d36",
+  "packet": "M120140",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12620#issuecomment-7057216686",
+  "reviewed_utc": "2026-11-21T06:00:24.383341+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

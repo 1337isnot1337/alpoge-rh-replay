@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006384 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.StructureHomApply` | wave-reused |
+| M006385 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubalgebraEqBotOfIsIntegralOfIsIntegrallyClosed` | wave-reused |
+| M006386 | P1586 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubsingletonOfPoints` | wave-reused |
+| M006387 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SubsingletonOfSheafPullback` | wave-reused |
+| M006388 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SumNegOnePowFinrankEqZero` | wave-reused |
+| M006389 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SummableNormBoundedSeries` | wave-reused |
+| M006390 | P0732 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ThreeTermComplexOfProjectiveCechModel` | wave-reused |
+| M006391 | P0759 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ThreeTermComplexOfProjectiveCechModelStatement` | wave-reused |
+| M006392 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.TopClassSurjective` | wave-reused |
+| M006393 | P1395 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.TranslateDivAdditive` | wave-reused |
+| M006394 | P1114 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.TwistedSectionsLocaliseToCharts` | wave-reused |
+| M006395 | P1144 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.TwistedSectionsLocaliseToChartsStatement` | wave-reused |
+| M006396 | P1084 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.VeryAmpleCompactQuasiSeparatedAffineCharts` | wave-reused |
+| M006397 | P1114 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.VeryAmpleCompactQuasiSeparatedAffineChartsStatement` | wave-reused |
+| M006398 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.WeightAddLeOfMemSupportDividedContraction` | wave-reused |
+| M006399 | P0005 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.XSmulMemWeightedHomogeneousSubmodule` | wave-reused |
+| M006400 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.AbsTwoMulInnerLeOfNormSubEqInfDist` | volunteer-build-reviewed |
+| M006403 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.CoeffSubstInvMemOfTwoLeOrder` | wave-reused |
+| M006404 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ConjTransposeBoostMulSignatureMulBoost` | volunteer-build-reviewed |
+| M006406 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DifferentiableOnOfTendstoLocallyUniformlyOn` | wave-reused |
+| M006407 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DiscreteTopologySpanOfLinearIndependent` | volunteer-build-reviewed |
 | M006408 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DualRestrictSurjectiveOfIsTorsionFreeQuotient` | wave-reused |
 | M006409 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.EncardSmulMemLeEncardSmulInterNonempty` | volunteer-build-reviewed |
 | M006410 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.EnormPowLeInvMeasureMulLintegralBall` | wave-reused |
@@ -46,6 +67,7 @@
 | M006469 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.LineDerivListEqIteratedFDeriv` | volunteer-build-reviewed |
 | M006470 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.LinearIndependentRealOfIntOfDiscrete` | volunteer-build-reviewed |
 | M006475 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.LintegralProdPartialSums` | volunteer-build-reviewed |
+| M006476 | P0648 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.MaximalCompactSubgroupProperties` | volunteer-build-reviewed |
 | M006478 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.MulConjTransposeEqOneOfOrthonormal` | wave-reused |
 | M006479 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.NatCastMulCoeffOfPderivEq` | wave-reused |
 | M006481 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.NormDetMulProdSqLeOfEntryLe` | volunteer-build-reviewed |
@@ -130,6 +152,7 @@
 | M006706 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPullback` | volunteer-build-reviewed |
 | M006708 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPureVectorsPeriodsSpan` | volunteer-build-reviewed |
 | M006715 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsSecGeneric` | volunteer-build-reviewed |
+| M006716 | P0550 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsSmulOfPreservesFrameOrbits` | volunteer-build-reviewed |
 | M006717 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTateIsoZetaEq` | volunteer-build-reviewed |
 | M006718 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTensorBundle` | volunteer-build-reviewed |
 | M006723 | P0811 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTorsionFieldExt` | volunteer-build-reviewed |
@@ -235,6 +258,7 @@
 | M006972 | P1856 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.UnifMetricScalarStatement` | volunteer-build-reviewed |
 | M006977 | P1445 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ValuationDetLeOneOfEntries` | volunteer-build-reviewed |
 | M006979 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ValuationLeIffExistsSmulMem` | volunteer-build-reviewed |
+| M006981 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.VolumeFundamentalDomainStdRealBasis` | volunteer-build-reviewed |
 | M006991 | P1002 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.AbelianHolomorphicFrameReadingConstOfFormsCancel` | volunteer-build-reviewed |
 | M006999 | P0177 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.AeTranscendentalPointNonvanishing` | volunteer-build-reviewed |
 | M007005 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.AnalyticFrameExponentialImmersionAtOrigin` | volunteer-build-reviewed |
@@ -251,6 +275,7 @@
 | M007042 | P0005 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.CommuteRowOpRightMixedOp` | volunteer-build-reviewed |
 | M007050 | P0759 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ConnectionLinearInSection` | build-observed |
 | M007051 | P0784 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ConnectionLinearInSectionStatement` | build-observed |
+| M007054 | P0177 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ConstantCoeffDpolyOfAdditiveTaylorPts` | volunteer-build-reviewed |
 | M007055 | P0839 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ContinuousRmulPair` | build-observed |
 | M007056 | P0177 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ContinuousThetaSectionPointwiseNormSq` | volunteer-build-reviewed |
 | M007057 | P0476 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.CoordLetterEquivApplyConjugate` | volunteer-build-reviewed |
@@ -377,28 +402,3 @@
 | M007342 | P1170 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.IsVtOverIsUUOverBaseChange` | build-observed |
 | M007343 | P1273 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.IsotropicEnumerationSurjectiveLocalRing` | build-observed |
 | M007344 | P1299 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.IsotropicEnumerationSurjectiveLocalRingStatement` | build-observed |
-| M007345 | P1324 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.IsotropicSumIndependentOfChoicesLocal` | build-observed |
-| M007346 | P1350 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.IsotropicSumIndependentOfChoicesLocalStatement` | build-observed |
-| M007349 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.JetReadingLinearSubstitutionPointsStatement` | volunteer-build-reviewed |
-| M007353 | P0516 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.L2CanThEqInvSqrtTwoPowMulDetIm` | build-observed |
-| M007361 | P1856 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LevelCoverLargerCoeffFieldLyingOverStatement` | volunteer-build-reviewed |
-| M007364 | P0099 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LevelThreeSeparatesTangents` | volunteer-build-reviewed |
-| M007370 | P0005 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LinearIndependentRingHomCompIff` | volunteer-build-reviewed |
-| M007373 | P1856 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LogCardComponentsLeAtGoodEmbeddingStatement` | volunteer-build-reviewed |
-| M007374 | P0005 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LogExpMulLeOfGeneratorSupBound` | volunteer-build-reviewed |
-| M007376 | P0005 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LogNormMapPowMulPowOfMulConj` | volunteer-build-reviewed |
-| M007379 | P0005 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LogShortFamilyNumbersLe` | volunteer-build-reviewed |
-| M007387 | P1974 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LowerBoundAtFramesFamilyWithScaledThetaRules` | volunteer-build-reviewed |
-| M007390 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.MatRmulUnipMulHeadProj` | volunteer-build-reviewed |
-| M007395 | P0099 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.MinkowskiDetBoundGramOfDetNeZero` | volunteer-build-reviewed |
-| M007396 | P1085 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ModNSqIffExistsGenLatSum` | build-observed |
-| M007397 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ModNSqIffExistsGenLatSumStatement` | volunteer-build-reviewed |
-| M007400 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ModuliUnivEtaKilled` | volunteer-build-reviewed |
-| M007405 | P1974 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.NoBaseComponentShortPolynomialGeneratorStatement` | volunteer-build-reviewed |
-| M007410 | P0296 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.NormProdSignMulDetSubmatrixSubOneLe` | wave-reused |
-| M007420 | P0436 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.NsmulApplyMemOfMemTensorLat` | wave-reused |
-| M007423 | P1002 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.PageRelationDegThree` | volunteer-build-reviewed |
-| M007434 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.PolyDerivProdColumnFunctionsStatement` | volunteer-build-reviewed |
-| M007439 | P0005 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ProdLeadMinorDiagonal` | volunteer-build-reviewed |
-| M007446 | P0839 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.RawChartBaseChangeRigGerm` | build-observed |
-| M007447 | P0866 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.RawChartBaseChangeRigGermStatement` | volunteer-build-reviewed |

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M025058"
+  ],
+  "started_utc": "2026-11-21T04:43:30.801256+00:00",
+  "ended_utc": "2026-11-21T04:58:08.512361+00:00",
+  "elapsed_seconds": 877.6,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5620296
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEtalePolynomialModelOfDirectedUnionStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "dfa18c979cbee81f46fde7c73e09b38d073b2434a2655eed4390bfd2c308fa4a",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEtaleModelOfDirectedUnion",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEtalePolynomialModelOfDirectedUnion"
+  ],
+  "objects": {
+    "M025058": "8bc4c6c17726d17a20248a68d3310acf89f15b48127fc923a45fa94fa03cdbaf"
+  },
+  "bundle_sha256": "e5d2e214930a13457e6232ab19b53fd3df021d590478ccb423c43d1b6752aa1e",
+  "packet": "M025058",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12854#issuecomment-7057596395",
+  "reviewed_utc": "2026-11-21T06:06:52.285498+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

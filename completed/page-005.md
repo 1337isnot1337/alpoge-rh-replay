@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M003669 | P0838 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsEtPlace` | volunteer-build-reviewed |
+| M003670 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsEulerContraction` | build-observed |
+| M003671 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsExpLieAlgebraComplexUnits` | volunteer-build-reviewed |
+| M003672 | P0549 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsFinSetSplitPlacesCoprimeConductor` | wave-reused |
+| M003673 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsFlatLift` | volunteer-build-reviewed |
+| M003675 | P1323 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsFrameOfForallExists` | wave-reused |
+| M003678 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsGaloisCover` | build-observed |
+| M003681 | P1298 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsHeightIffOfDegreeEq` | wave-reused |
 | M003682 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsHolPeriods` | build-observed |
 | M003689 | P1531 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsIsoQuotToImOmegaLieOfSplit` | build-observed |
 | M003690 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsKMOne` | volunteer-build-reviewed |
@@ -15,11 +23,13 @@
 | M003717 | P1372 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsQuasicoherentEigenQuot` | wave-reused |
 | M003718 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsRapidInf` | build-observed |
 | M003720 | P0917 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsRatioCover` | build-observed |
+| M003722 | P1787 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsRecTLocRecT` | volunteer-build-reviewed |
 | M003723 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsRightActFunPull` | volunteer-build-reviewed |
 | M003725 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsSimplicial` | volunteer-build-reviewed |
 | M003726 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsSmoothVector` | build-observed |
 | M003728 | P1559 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsSquareIntegrableIffMemL2` | volunteer-build-reviewed |
 | M003729 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsStrictlySemistableIff` | volunteer-build-reviewed |
+| M003730 | P1084 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsTamagawa` | volunteer-build-reviewed |
 | M003735 | P1394 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsTorsionFreeOfForallExists` | wave-reused |
 | M003736 | P0810 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsTrSelf` | build-observed |
 | M003739 | P1114 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsUnitMkOfFormallyUnramified` | wave-reused |
@@ -158,6 +168,7 @@
 | M004077 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsIwasawaOfIsCompact` | volunteer-build-reviewed |
 | M004083 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsOneCocycleOnSubgroup` | volunteer-build-reviewed |
 | M004084 | P0239 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsPrimitiveRootTopZeta` | build-observed |
+| M004085 | P1143 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsProbabilityMeasureMuPart` | volunteer-build-reviewed |
 | M004087 | P0239 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsRootOne` | volunteer-build-reviewed |
 | M004088 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsSatFrame` | volunteer-build-reviewed |
 | M004089 | P0810 | `Development.AbelianVarietyTheory.Definitions.Foundations.IsSatVecUOfIsSphericalU` | build-observed |
@@ -292,6 +303,7 @@
 | M004390 | P1114 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LevelGroupNeTopNeBot` | volunteer-build-reviewed |
 | M004392 | P0095 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LinkExactAff` | volunteer-build-reviewed |
 | M004393 | P1084 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LogCondLeThree` | build-observed |
+| M004394 | P1473 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LowerTieTwAt` | volunteer-build-reviewed |
 | M004395 | P0096 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.MemSplitSeqIff` | volunteer-build-reviewed |
 | M004396 | P0435 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.NegGram` | volunteer-build-reviewed |
 | M004401 | P1001 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.PairRowIffQdRows` | build-observed |
@@ -350,6 +362,7 @@
 | M004502 | P1502 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ExistsIsFundU` | volunteer-build-reviewed |
 | M004515 | P1856 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.FiniteOfPlaces` | volunteer-build-reviewed |
 | M004521 | P1856 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.GammaRangeOfSizeHypotheses` | volunteer-build-reviewed |
+| M004523 | P1586 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.HeckeFSingleOne` | volunteer-build-reviewed |
 | M004526 | P0784 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.HtPsiLeIffExists` | volunteer-build-reviewed |
 | M004533 | P0393 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.IsCoType` | build-observed |
 | M004544 | P1298 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.IsRealCoord` | volunteer-build-reviewed |
@@ -388,17 +401,4 @@
 | M004684 | P0917 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.AdmissibleIndexBoundAllPowers` | build-observed |
 | M004685 | P0096 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.AevalRootEqZeroIff` | volunteer-build-reviewed |
 | M004687 | P1143 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.BddGood` | volunteer-build-reviewed |
-| M004690 | P1056 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.BoundAtTwoThreeFamily` | volunteer-build-reviewed |
-| M004691 | P1531 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.BuiltEx` | volunteer-build-reviewed |
-| M004693 | P0731 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.CentralIdemCoeff` | wave-reused |
-| M004701 | P0239 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ConnPhiExtensionGeneratorEqZeta` | wave-reused |
-| M004702 | P0347 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ConvZero` | volunteer-build-reviewed |
-| M004704 | P0974 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.CrisToODToOCr` | wave-reused |
-| M004705 | P0295 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.CrystallineCocycles` | volunteer-build-reviewed |
-| M004710 | P0758 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.CyclotomicFrobeniusPowerSeriesXEqMulQuotient` | wave-reused |
-| M004712 | P0946 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.DeltaStructureOfWittLengthTwoSection` | wave-reused |
-| M004713 | P0838 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.DetCharacterMemPrincipalCongruenceFixedVectors` | wave-reused |
-| M004716 | P1324 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.EmbedsLevelZeroDepthZero` | build-observed |
-| M004718 | P0475 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsAlgebraMapEqRoot` | wave-reused |
-| M004719 | P0347 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsEqAlgebraMapAddPowMul` | wave-reused |
-| M004720 | P0436 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsEqMulAddOfIsAdicComplete` | wave-reused |
+| M004688 | P1169 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.BddGoodOfBddAll` | volunteer-build-reviewed |

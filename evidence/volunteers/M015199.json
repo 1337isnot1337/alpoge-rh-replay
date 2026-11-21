@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M015199"
+  ],
+  "started_utc": "2026-11-21T04:54:05.623605+00:00",
+  "ended_utc": "2026-11-21T05:01:27.229300+00:00",
+  "elapsed_seconds": 441.5,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5378456
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.AffineHilbertTensorToSubschemeSectionsSurjective:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7d369e3a63ce1652702b6e3ae3b756262d5d0b44546dd221b0b490de905d5ff0",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqOfSecAlgTop"
+  ],
+  "objects": {
+    "M015199": "06e1d7059ef4a423ac444580e0e92dbf508428e51a65ac741af328a9ccac85da"
+  },
+  "bundle_sha256": "c93f03b03bba8b364994e35cb641054c4076eab874ae3f2b56451de884648c1b",
+  "packet": "M015199",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12877#issuecomment-7057630632",
+  "reviewed_utc": "2026-11-21T05:59:13.828148+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

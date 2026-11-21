@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M060809"
+  ],
+  "started_utc": "2026-11-21T04:24:16.343128+00:00",
+  "ended_utc": "2026-11-21T04:24:38.140428+00:00",
+  "elapsed_seconds": 21.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6243596
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.MvPowerSeriesExistsPolynomialTotalDegreeLeSubMem:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d6ce3b0c1eb85c1f92ae9feed5d4a9eeb0dbe3f98d8ffa09399d57d0d776cfd9",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsPolynomialSubMem"
+  ],
+  "objects": {
+    "M060809": "8392e20ac138fe4d5c083cd09eae18baf876144f076be129dce50e21bd136cd1"
+  },
+  "bundle_sha256": "d8da95a460724e34a190f09e5e0a878597d36bf7f02d4f17dbb8a2f3f92bf025",
+  "packet": "M060809",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12649#issuecomment-7057256074",
+  "reviewed_utc": "2026-11-21T06:16:28.124088+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

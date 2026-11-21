@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M157125"
+  ],
+  "started_utc": "2026-11-21T04:42:16.041999+00:00",
+  "ended_utc": "2026-11-21T04:42:39.553359+00:00",
+  "elapsed_seconds": 23.5,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5333480
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TiltedDivisibility.TiltDivOfGeneral:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e496c912e235184959d097b9f71e9c8aaa6568229ccc91aa9296657437f0fe00",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.ArtSch",
+    "GroundTheory.PAdicHodge.PerfectoidField"
+  ],
+  "objects": {
+    "M157125": "0dc0c0c38f80583b01e9bbc1a9ca99f89600ef9eaec0347a6b0532dc788a96df"
+  },
+  "bundle_sha256": "dbb8db6d327b1943c4404ec26342459a8fe336da262d2a74f8a625f2f1bd1269",
+  "packet": "M157125",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12849#issuecomment-7057436106",
+  "reviewed_utc": "2026-11-21T06:04:15.693318+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}
