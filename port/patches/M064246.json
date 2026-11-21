@@ -3,5 +3,5 @@
   "source_sha256": "884e8f15329fba2ac2c55d64993a926afb63e00b833f0df8d521bbabc7c9eaed",
   "lean": "leanprover/lean4:v4.36.0",
   "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
-  "notes": "unchanged"
+  "notes": "Replace the removed Polynomial.eval_finset_sum alias with Polynomial.eval_finsetSum in the polynomial-evaluation simplification. This is a proof-only name update; statements, definitions, assumptions, imports and limits are unchanged."
 }
