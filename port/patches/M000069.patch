@@ -1,0 +1,13 @@
+diff --git a/src/CompanionTheory/AutomorphicTheory/HeckeStandardModules/ExistsCen.lean b/src/CompanionTheory/AutomorphicTheory/HeckeStandardModules/ExistsCen.lean
+index 0000000..0000000 100644
+--- a/src/CompanionTheory/AutomorphicTheory/HeckeStandardModules/ExistsCen.lean
++++ b/src/CompanionTheory/AutomorphicTheory/HeckeStandardModules/ExistsCen.lean
+@@ -173,7 +173,7 @@ theorem lift [IsGalois E Ω] (L : IntermediateField E Ω) [FiniteDimensional E L
+         show θ (u (Ideal.Quotient.mk Q (algebraMap (𝓞 L) (𝓞 Ω) (τ • y)))) =
+           Ideal.Quotient.mk Q (algebraMap (𝓞 L) (𝓞 Ω) (τ • y))
+         rw [hu, hg'L, hτ] }
+-  have hmax : (Q.under (𝓞 L)).IsMaximal := Ideal.isMaximal_comap_of_isIntegral_of_isMaximal Q
++  have hmax : (Q.under (𝓞 L)).IsMaximal := Ideal.isMaximal_under_of_isIntegral_of_isMaximal Q
+   let _ : Field (𝓞 L ⧸ Q.under (𝓞 L)) := Ideal.Quotient.field _
+   have hbij : Function.Bijective ψ := Algebra.IsAlgebraic.algHom_bijective ψ
+   obtain ⟨k, hk⟩ := Ideal.Quotient.stabilizerHom_surjective_of_profinite (G := G) (Q.under (𝓞 L)) Q
