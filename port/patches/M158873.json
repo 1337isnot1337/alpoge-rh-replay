@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.Divisibility.RankTruncation.LocalAdditiveCharacterExpansion",
+  "source_sha256": "8134328b0c0acebc612b5cb2cde1e67c7715cc78d88ffde88567f89214f469ed",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0078-lean436-20261121/packet-result.json"
+}

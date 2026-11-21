@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.LevelLetterCocycles.DvrLatticeRank.PolyExpand",
+  "source_sha256": "95ba4add8b14d92fdcf7aa96eaac1c43028ece27d07824e19dead064ebc11a8e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: bridge padicValNat to multiplicity using Nat.padicValNat_def before applying the generalized multiplicity lemmas; exported statements retain their original valuation expressions. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0078-lean436-20261121/packet-result.json"
+}

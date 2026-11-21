@@ -1,0 +1,26 @@
+--- a/src/Formalism/SharpRestriction/LevelLetterCocycles/DvrLatticeRank/PolyExpand.lean
++++ b/src/Formalism/SharpRestriction/LevelLetterCocycles/DvrLatticeRank/PolyExpand.lean
+@@ -423,12 +423,12 @@
+   obtain ⟨c, hc⟩ : ∃ c, c = b.choose (B - 1) := ⟨_, rfl⟩
+   rw [← hc] at ho hy
+   have hc0 : c ≠ 0 := by rw [hc]; exact (Nat.choose_pos (by omega)).ne'
+-  obtain ⟨c', hc'⟩ := (pow_padicValNat_dvd : l ^ padicValNat l c ∣ c)
++  obtain ⟨c', hc'⟩ := (show l ^ padicValNat l c ∣ c by simpa only [Nat.padicValNat_def] using pow_multiplicity_dvd l c)
+   have hnd : ¬ l ∣ c' := by
+     rintro ⟨d, rfl⟩
+     have hd : l ^ (padicValNat l c + 1) ∣ l ^ padicValNat l c * (l * d) := ⟨d, by ring⟩
+     rw [← hc'] at hd
+-    exact pow_succ_padicValNat_not_dvd (p := l) hc0 hd
++    exact pow_succ_padicValNat_not_dvd (p := l) hc0 (by simpa only [Nat.padicValNat_def] using hd)
+   generalize hv : padicValNat l c = v at hc' hy
+   obtain ⟨r, hr⟩ := hδ
+   have hu := hun c' hnd
+@@ -456,7 +456,7 @@
+   obtain ⟨v, hv⟩ : ∃ v, v = padicValNat l (b.choose (B - 1)) := ⟨_, rfl⟩
+   rw [← hv]
+   have hvlog : v ≤ Nat.log l b := by
+-    rw [hv, ← Nat.factorization_def _ hl.out]
++    rw [hv, Nat.padicValNat_def, ← Nat.factorization_def _ hl.out]
+     exact Nat.factorization_choose_le_log
+   have hl1 : (1 : ℝ) < l := by exact_mod_cast hl.out.one_lt
+   have hvle : (v : ℝ) ≤ Real.logb l h := by

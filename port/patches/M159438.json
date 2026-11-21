@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.GrowthBounds.ColumnSpanDensity.TensorKP",
+  "source_sha256": "db9fc459e9b1c0ab0e9e442947778b3c91bdc1220a2b610fd7a33d5ec954c197",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: adapt renamed or generalized Mathlib lemmas with the same hypotheses and conclusions. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0078-lean436-20261121/packet-result.json"
+}

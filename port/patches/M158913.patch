@@ -1,0 +1,11 @@
+--- a/src/Formalism/SharpRestriction/GenusPolyhedralBounds/RelativeIndexClassSets/ExistsPowSmulMemBall.lean
++++ b/src/Formalism/SharpRestriction/GenusPolyhedralBounds/RelativeIndexClassSets/ExistsPowSmulMemBall.lean
+@@ -27,7 +27,7 @@
+ 
+ theorem comap_eq_maximalIdeal (ζ : Pts O A) :
+     ζ.asIdeal.comap (algebraMap O ↥(As O A)) = maximalIdeal O :=
+-  IsLocalRing.eq_maximalIdeal (Ideal.isMaximal_comap_of_isIntegral_of_isMaximal ζ.asIdeal)
++  IsLocalRing.eq_maximalIdeal (Ideal.isMaximal_under_of_isIntegral_of_isMaximal (R := O) ζ.asIdeal)
+ 
+ instance isLocalHom_algebraMap (ζ : Pts O A) : IsLocalHom (algebraMap O (Loc ζ)) := by
+   constructor

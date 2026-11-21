@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.GrowthBounds.MultisetValuation.CoeffProdRename",
+  "source_sha256": "3e97de9268aaefde869719446ccc0c8ac5c7f3d451eb687478b219467e5e7116",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent coefficient API adaptation in definitions, statements and proofs: the pinned MvPolynomial.coeff m p wrapper is defined as AddMonoidAlgebra.coeff p applied to m. The target p.coeff m is that same coefficient operation. The summands of jp and both sides of coeff_prod_rename retain identical polynomial coefficients and monomial indices.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0078-lean436-20261121/packet-result.json"
+}

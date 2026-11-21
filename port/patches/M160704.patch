@@ -1,0 +1,11 @@
+--- a/src/Formalism/SharpRestriction/LevelLetterCocycles/JointConditionsZpowers/BaseLen.lean
++++ b/src/Formalism/SharpRestriction/LevelLetterCocycles/JointConditionsZpowers/BaseLen.lean
+@@ -161,7 +161,7 @@
+       apply Subtype.ext
+       first
+         | (rw [Submodule.coe_sum]; simp only [Submodule.coe_smul, m])
+-        | simp only [AddSubmonoidClass.coe_finset_sum, SetLike.val_smul, m]
++        | simp only [AddSubmonoidClass.coe_finsetSum, SetLike.val_smul, m]
+       rw [hx]
+       first
+         | (change T.mkQ _ = ∑ i, c i • T.mkQ ((algebraMap O LL a)⁻¹ • b i)
