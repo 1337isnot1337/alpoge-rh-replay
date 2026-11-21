@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.GaloisLinearDisjoint",
+  "source_sha256": "6fe14c3a9cb7f7b9274d29ef500fdb5d906df27a21e18f430bd093ed8308bddf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename Finsupp.coe_finset_sum to Finsupp.coe_finsetSum. Definitions and theorem statements are unchanged."
+}
