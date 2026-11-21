@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.RegSeqQuasiReg",
+  "source_sha256": "84b6f9eec78c29511129799eef41ad7aea0cf7878dc931f781f95ee664591c81",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

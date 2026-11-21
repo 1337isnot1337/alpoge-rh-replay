@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.ScGapBig",
+  "source_sha256": "40f6ac9f919987657bf5e7eb7bc2ff9fcfd55ce34dc2c6e96cf25de33806c8d1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

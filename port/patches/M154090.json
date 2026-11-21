@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.SimeqPdInt",
+  "source_sha256": "ed2c176a36fe763837c4de308f6a44fd5c78e680fd35effc4e1164041a8fb530",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

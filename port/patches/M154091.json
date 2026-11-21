@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.SmithMat",
+  "source_sha256": "1052df97a0fa146e5e3563b8f48cafe6960d24e842dbb99b868240c8b5773309",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

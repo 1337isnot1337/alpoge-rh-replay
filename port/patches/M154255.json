@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AlgebraicValuesFinite.PowCardSubOneMem",
+  "source_sha256": "285b5e1b2b0678d0029ad1724835ac33a5e27900c9075dc32114e56f5b6a52a9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

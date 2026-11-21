@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.RowWtSpan",
+  "source_sha256": "2146bbac02fc5de50ecf611cee963c1f3f0674f47152338cf2eb3a0876358c49",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
