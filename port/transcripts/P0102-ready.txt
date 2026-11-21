@@ -1,0 +1,516 @@
+Packet P0102, partial submission
+Upstream base a08d087738d005be76f1b71ea39144d427c21d17
+Port record commit c6d022fa01fd391c7db764c70294c109976cc6a7
+Lean leanprover/lean4:v4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+python3 scripts/port-ci-build.py --workspace <workspace> --src <archive-source> --patch-ids M020363 M020367 M020382 M020384 M020617 M020687 M020792 M020893 M020958 M021076 M022742
+
+Elaborated IsLattice audit
+lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.DivisorProofs.CycleListPermInvariant Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicIrreducibleOfNotDvdDiscr Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMBlockEntries Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMuEqExtDerivation Development.AbelianVarietyTheory.Proofs.DivisorProofs.DedekindPowerLocalization Development.AbelianVarietyTheory.Proofs.DivisorProofs.DefiniteFrameLeadingMinorsSign Development.AbelianVarietyTheory.Proofs.DivisorProofs.DegreeCountGenerates Development.AbelianVarietyTheory.Proofs.DivisorProofs.DenseRangeRealEmbeddings Development.AbelianVarietyTheory.Proofs.DivisorProofs.DerivationDetEqDoubleSumAdjugateEntryStatement Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetEqOneUnitaryPrincipalCongruenceLevelThree Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleChartLocalizationFiniteTypeFormallyUnramifi
+islattice-audit: 11 module(s), 0 hit(s)
+
+Earlier source builds for reused outputs
+⚠ [18255/18261] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicIrreducibleOfNotDvdDiscr (5.9s)
+⚠ [18256/18261] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CycleListPermInvariant (7.1s)
+⚠ [18258/18264] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMBlockEntries (4.7s)
+⚠ [18260/18264] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMuEqExtDerivation (4.4s)
+⚠ [18263/18267] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DedekindPowerLocalization (4.8s)
+⚠ [18266/18270] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DefiniteFrameLeadingMinorsSign (4.7s)
+⚠ [18269/18273] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DegreeCountGenerates (6.2s)
+⚠ [18277/18280] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DerivationDetEqDoubleSumAdjugateEntryStatement (3.9s)
+⚠ [18277/18280] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetEqOneUnitaryPrincipalCongruenceLevelThree (11s)
+⚠ [18280/18280] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleChartLocalizationFiniteTypeFormallyUnramifi (23s)
+
+Build verification on the upstream base
+2026-11-21T23:43:21Z
+a08d087738d005be76f1b71ea39144d427c21d17
+Building 11 explicitly requested module(s).
+Resolved 10 transitive project import(s) (21 total module(s) to materialize).
+[FETCH] Materializing 21 SHA-256-verified source file(s)...
+[FETCH] Verified 21/21 source file(s).
+[KEEP]  M003725: unchanged (verified against archive source)
+[KEEP]  M003923: unchanged (verified against archive source)
+[KEEP]  M015316: unchanged (verified against archive source)
+[KEEP]  M017275: unchanged (verified against archive source)
+[KEEP]  M020363: unchanged (verified against archive source)
+[KEEP]  M020367: unchanged (verified against archive source)
+[KEEP]  M020382: unchanged (verified against archive source)
+[KEEP]  M020384: unchanged (verified against archive source)
+[KEEP]  M020617: unchanged (verified against archive source)
+[KEEP]  M020687: unchanged (verified against archive source)
+[KEEP]  M020792: unchanged (verified against archive source)
+[PATCH] M020893: applied M020893.patch
+[KEEP]  M020957: unchanged (verified against archive source)
+[KEEP]  M020958: unchanged (verified against archive source)
+[PATCH] M021076: applied M021076.patch
+[KEEP]  M022708: unchanged (verified against archive source)
+[PATCH] M022742: applied M022742.patch
+[KEEP]  M035444: unchanged (verified against archive source)
+[KEEP]  M044974: unchanged (verified against archive source)
+[KEEP]  M171553: unchanged (verified against archive source)
+[KEEP]  M173135: unchanged (verified against archive source)
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in <workspace>
+
+[BUILD] Building 11 module(s) with `lake build`...
+        IDs: M020363, M020367, M020382, M020384, M020617, M020687, M020792, M020893, M020958, M021076, M022742
+⚠ [18249/18273] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentreCompat
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CentreCompat.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18250/18273] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentreCompat:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CentreCompat.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18273] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.CycleListPermInvariant
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CycleListPermInvariant.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18273] Replayed ReciprocityTheory.Chebotarev.CyclotomicIrreducibleOfForallIsUnramifiedAt
+warning: src/ReciprocityTheory/Chebotarev/CyclotomicIrreducibleOfForallIsUnramifiedAt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/Chebotarev/CyclotomicIrreducibleOfForallIsUnramifiedAt.lean:56:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/ReciprocityTheory/Chebotarev/CyclotomicIrreducibleOfForallIsUnramifiedAt.lean:82:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/ReciprocityTheory/Chebotarev/CyclotomicIrreducibleOfForallIsUnramifiedAt.lean:87:49: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/ReciprocityTheory/Chebotarev/CyclotomicIrreducibleOfForallIsUnramifiedAt.lean:153:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18253/18273] Ran ReciprocityTheory.Chebotarev.CyclotomicIrreducibleOfForallIsUnramifiedAt:irArts
+warning: src/ReciprocityTheory/Chebotarev/CyclotomicIrreducibleOfForallIsUnramifiedAt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18273] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicIrreducibleOfNotDvdDiscr
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CyclotomicIrreducibleOfNotDvdDiscr.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18255/18273] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.TCoefMInMMul
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/TCoefMInMMul.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18273] Ran Development.AbelianVarietyTheory.Definitions.Divisors.TCoefMInMMul:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/TCoefMInMMul.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18257/18273] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMBlockEntries
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DMBlockEntries.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DMBlockEntries.lean:15:39: This simp argument is unused:
+  Matrix.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DMBlockEntries.lean:17:12: This simp argument is unused:
+  Matrix.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Ne.symm hc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DMBlockEntries.lean:21:14: This simp argument is unused:
+  Matrix.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DMBlockEntries.lean:22:14: This simp argument is unused:
+  Matrix.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h, Ne.symm h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DMBlockEntries.lean:24:12: This simp argument is unused:
+  Matrix.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Ne.symm hc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DMBlockEntries.lean:38:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DMBlockEntries.lean:51:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18258/18273] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.OptionEquivLeftRenameSomeComplexEqC
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/OptionEquivLeftRenameSomeComplexEqC.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/OptionEquivLeftRenameSomeComplexEqC.lean:29:17: This simp argument is unused:
+  smul_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [zero_add, smul_eq_mul, mul_zero, map_mul, MvPolynomial.optionEquivLeft_X_none]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/OptionEquivLeftRenameSomeComplexEqC.lean:31:14: This simp argument is unused:
+  Polynomial.coeff_mul_X_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [mul_comm (Polynomial.X) _]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18259/18273] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.OptionEquivLeftRenameSomeComplexEqC:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/OptionEquivLeftRenameSomeComplexEqC.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18260/18273] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMuEqExtDerivation
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DMuEqExtDerivation.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18261/18273] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianLocalContinuousCongruenceSection
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianLocalContinuousCongruenceSection.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18262/18273] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianLocalContinuousCongruenceSection:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianLocalContinuousCongruenceSection.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18263/18273] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.DedekindPowerLocalization
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DedekindPowerLocalization.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DedekindPowerLocalization.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DedekindPowerLocalization.lean:6:68: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DedekindPowerLocalization.lean:6:125: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DedekindPowerLocalization.lean:6:68: Unused tactic linter: `(exact GlobalTheory.dedekind_pow_maximal_mul_mem_span)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DedekindPowerLocalization.lean:6:125: Unused tactic linter: `(intros; apply GlobalTheory.dedekind_pow_maximal_mul_mem_span <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18264/18273] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.Signature
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/FundamentalDomains/Signature.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18265/18273] Ran ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.Signature:irArts
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/FundamentalDomains/Signature.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18266/18273] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.DefiniteFrameLeadingMinorsSign
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DefiniteFrameLeadingMinorsSign.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18267/18273] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraMapQuotBijective
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:12:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:13:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:16:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:17:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:10:0: automatically included section variable(s) unused in theorem `GlobalTheory.DedekindCodimG.algebraMap_quot_bijective`:
+  [IsDedekindDomain A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDedekindDomain A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:54:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:61:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:112:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:111:0: automatically included section variable(s) unused in theorem `GlobalTheory.DedekindCodimG.rank_quot_top`:
+  [IsAlgClosed k]
+  [IsDedekindDomain A]
+  [Algebra.FiniteType k A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsAlgClosed k] [IsDedekindDomain A] [Algebra.FiniteType k A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:148:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:149:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:150:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:162:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:181:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:187:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:188:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:220:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:221:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:222:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:269:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:281:6: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:293:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:294:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18268/18273] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraMapQuotBijective:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18269/18273] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.DegreeCountGenerates
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DegreeCountGenerates.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DegreeCountGenerates.lean:33:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18270/18273] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.IsSimplicial
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/IsSimplicial.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/IsSimplicial.lean:67:53: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [18271/18273] Ran Development.AbelianVarietyTheory.Definitions.Divisors.IsSimplicial:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/IsSimplicial.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18273/18280] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DenseRangeRealEmbeddings (12s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DenseRangeRealEmbeddings.lean:55:17: This simp argument is unused:
+  RingEquiv.apply_symm_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [WithAbs.equiv_symm_apply, WithAbs.equiv_apply] at e1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18274/18280] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.DerivationDetEqDoubleSumAdjugateEntry
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DerivationDetEqDoubleSumAdjugateEntry.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18275/18280] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.DerivationDetEqDoubleSumAdjugateEntry:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DerivationDetEqDoubleSumAdjugateEntry.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18276/18280] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.DerivationDetEqDoubleSumAdjugateEntryStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DerivationDetEqDoubleSumAdjugateEntryStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DerivationDetEqDoubleSumAdjugateEntryStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DerivationDetEqDoubleSumAdjugateEntryStatement.lean:7:46: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DerivationDetEqDoubleSumAdjugateEntryStatement.lean:7:81: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DerivationDetEqDoubleSumAdjugateEntryStatement.lean:7:46: Unused tactic linter: `exact GlobalTheory.DetDeriv.main` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DerivationDetEqDoubleSumAdjugateEntryStatement.lean:7:81: Unused tactic linter: `(intros; apply GlobalTheory.DetDeriv.main <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18277/18280] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetEqOneUnitaryPrincipalCongruenceLevelThree
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DetEqOneUnitaryPrincipalCongruenceLevelThree.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DetEqOneUnitaryPrincipalCongruenceLevelThree.lean:39:0: automatically included section variable(s) unused in theorem `GlobalTheory.UnitaryCongruenceDet.isIntegral_of_left_eigen`:
+  [IsCMField E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsCMField E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DetEqOneUnitaryPrincipalCongruenceLevelThree.lean:121:39: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hA, hij]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18278/18280] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtChart
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/EtChart.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18279/18280] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtChart:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/EtChart.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18280/18280] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleChartLocalizationFiniteTypeFormallyUnramifi
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/EtaleChartLocalizationFiniteTypeFormallyUnramifi.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/EtaleChartLocalizationFiniteTypeFormallyUnramifi.lean:17:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/EtaleChartLocalizationFiniteTypeFormallyUnramifi.lean:20:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/EtaleChartLocalizationFiniteTypeFormallyUnramifi.lean:22:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/EtaleChartLocalizationFiniteTypeFormallyUnramifi.lean:23:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/EtaleChartLocalizationFiniteTypeFormallyUnramifi.lean:24:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/EtaleChartLocalizationFiniteTypeFormallyUnramifi.lean:27:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/EtaleChartLocalizationFiniteTypeFormallyUnramifi.lean:67:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+Build completed successfully (18280 jobs).
+[PASS]  M020363 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.CycleListPermInvariant)
+[PASS]  M020367 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicIrreducibleOfNotDvdDiscr)
+[PASS]  M020382 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMBlockEntries)
+[PASS]  M020384 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMuEqExtDerivation)
+[PASS]  M020617 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.DedekindPowerLocalization)
+[PASS]  M020687 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.DefiniteFrameLeadingMinorsSign)
+[PASS]  M020792 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.DegreeCountGenerates)
+[PASS]  M020893 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.DenseRangeRealEmbeddings)
+[PASS]  M020958 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.DerivationDetEqDoubleSumAdjugateEntryStatement)
+[PASS]  M021076 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetEqOneUnitaryPrincipalCongruenceLevelThree)
+[PASS]  M022742 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleChartLocalizationFiniteTypeFormallyUnramifi)
+
+PORT_BUILD_PASSED all 11 module(s).
