@@ -74,6 +74,19 @@ class PortRecordTests(unittest.TestCase):
         )
         self.assertEqual(self.errors(), [])
 
+    def test_git_metadata_must_describe_an_existing_file(self):
+        self.record['notes'] = 'Use renamed lemma.'
+        header = 'diff --git a/src/Sample.lean b/src/Sample.lean\n'
+        for metadata in ('index 0000000..0000000 100644',
+                         'index 0000000..123abcd 100644',
+                         'index 123abcd..0000000',
+                         'new file mode 100644', 'deleted file mode 100644'):
+            with self.subTest(metadata=metadata):
+                self.patch.write_text(header + metadata + '\n' + self.valid_patch)
+                self.assertIn('creation/deletion metadata', ' '.join(self.errors()))
+        self.patch.write_text(header + 'index 123abcd..456def0 100644\n' + self.valid_patch)
+        self.assertEqual(self.errors(), [])
+
     def test_unported_project_imports_are_rejected(self):
         dep_row = {'id': 'M000000', 'module': 'Base', 'source_sha256': 'b' * 64, 'imports': []}
         self.row['imports'] = ['M000000']

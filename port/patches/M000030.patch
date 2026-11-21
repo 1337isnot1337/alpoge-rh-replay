@@ -1,5 +1,4 @@
 diff --git a/src/CompanionTheory/AutomorphicTheory/BesselWaveGrids/InterlacingGrids/GridSum.lean b/src/CompanionTheory/AutomorphicTheory/BesselWaveGrids/InterlacingGrids/GridSum.lean
-index 0000000..0000000 100644
 --- a/src/CompanionTheory/AutomorphicTheory/BesselWaveGrids/InterlacingGrids/GridSum.lean
 +++ b/src/CompanionTheory/AutomorphicTheory/BesselWaveGrids/InterlacingGrids/GridSum.lean
 @@ -21,7 +21,7 @@ theorem grid_sqrt_le {K d : ℕ} (grid : Fin K → Fin (d + 1) → ℝ) (nn Q :

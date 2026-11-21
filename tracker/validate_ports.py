@@ -46,6 +46,12 @@ def validate_patch_content(patch, expected_relpath):
             parts = line.split()
             if len(parts) != 4 or parts[2] != expected_old or parts[3] != expected_new:
                 yield f'{patch.name}: unexpected diff header {line!r}'
+        # GNU patch interprets a zero Git object ID as file creation/deletion,
+        # even when both unified headers name the existing pinned source.
+        index = re.fullmatch(r'index ([0-9a-fA-F]+)\.\.([0-9a-fA-F]+)(?: [0-7]{6})?', line)
+        if ((index and any(int(oid, 16) == 0 for oid in index.groups()))
+                or line.startswith(('new file mode ', 'deleted file mode '))):
+            yield f'{patch.name}: creation/deletion metadata cannot modify an existing pinned source'
 
     in_block_comment = False
     for lineno, line in enumerate(lines, 1):

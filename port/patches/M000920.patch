@@ -1,5 +1,4 @@
 diff --git a/src/CompanionTheory/SpectralGeometry/LocalGlobalProofs/AdelicAnalysis/FiniteCovolumeUnimodular.lean b/src/CompanionTheory/SpectralGeometry/LocalGlobalProofs/AdelicAnalysis/FiniteCovolumeUnimodular.lean
-index 0000000..0000000 100644
 --- a/src/CompanionTheory/SpectralGeometry/LocalGlobalProofs/AdelicAnalysis/FiniteCovolumeUnimodular.lean
 +++ b/src/CompanionTheory/SpectralGeometry/LocalGlobalProofs/AdelicAnalysis/FiniteCovolumeUnimodular.lean
 @@ -38,7 +38,7 @@ theorem unimodular_of_isFundamentalDomain :

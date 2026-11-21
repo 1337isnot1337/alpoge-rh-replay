@@ -1,5 +1,4 @@
 diff --git a/src/CompanionTheory/AutomorphicTheory/BesselWaveGrids/InterlacingGrids/LagSum.lean b/src/CompanionTheory/AutomorphicTheory/BesselWaveGrids/InterlacingGrids/LagSum.lean
-index 0000000..0000000 100644
 --- a/src/CompanionTheory/AutomorphicTheory/BesselWaveGrids/InterlacingGrids/LagSum.lean
 +++ b/src/CompanionTheory/AutomorphicTheory/BesselWaveGrids/InterlacingGrids/LagSum.lean
 @@ -12,7 +12,7 @@ theorem lag_abs_term_le {d : ℕ} (y : Fin (d + 1) → ℝ) (h : ∀ i j, i ≠
