@@ -155,12 +155,13 @@ def verify(directory, targets, project_rows, checkout=None):
 
 
 def inventory(project, rows):
+    project = project.resolve()
     host, _, _ = checkout_info(project)
     root = project / '.lake/build/lib/lean'
     by_name = {r['module']: r['id'] for r in rows}
     cached = {by_name[name] for p in root.rglob('*.olean') if p.is_file()
               and (name := '.'.join(p.relative_to(root).with_suffix('').parts)) in by_name}
-    return dict(identity=host, modules=sorted(cached))
+    return dict(identity=host, modules=sorted(cached), project_root=str(project))
 
 
 def read_inventory(path):

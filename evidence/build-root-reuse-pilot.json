@@ -1,0 +1,211 @@
+{
+  "scope": "Controlled native build-path and cache-reuse pilot; no new volunteer credit and no full-proof verification.",
+  "methodology": "Paired fresh-then-persistent builds, six already accepted targets, identical pinned source and Mathlib packages; original volume mounted read-only. Background worker remains active, so timings are observational.",
+  "lean_version": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "cpu_quota": "2 CPUs",
+  "memory_limit": "4 GiB",
+  "lean_threads": "2",
+  "plan": {
+    "scope": "Performance replay of already accepted volunteer targets; no new claim or ledger credit",
+    "targets": [
+      {
+        "id": "M157281",
+        "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitDeterminantRoot.GlobalLUnit",
+        "claim": 6254,
+        "closure": [
+          "M154134",
+          "M157281"
+        ]
+      },
+      {
+        "id": "M157283",
+        "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitDeterminantRoot.NormLeOneOfRoot",
+        "claim": 6552,
+        "closure": [
+          "M154134",
+          "M157281",
+          "M157283",
+          "M170774"
+        ]
+      },
+      {
+        "id": "M157284",
+        "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitDeterminantRoot.NsmulRelIdxMem",
+        "claim": 6944,
+        "closure": [
+          "M154134",
+          "M157281",
+          "M157284"
+        ]
+      },
+      {
+        "id": "M102632",
+        "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.HhGroup",
+        "claim": 7468,
+        "closure": [
+          "M102575",
+          "M102632",
+          "M102660",
+          "M115789"
+        ]
+      },
+      {
+        "id": "M102664",
+        "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.UnivCond",
+        "claim": 7573,
+        "closure": [
+          "M102554",
+          "M102575",
+          "M102660",
+          "M102664"
+        ]
+      },
+      {
+        "id": "M107509",
+        "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.EqZeroOfHomogeneousAevalMemMaximalIdealPowSucc",
+        "claim": 7572,
+        "closure": [
+          "M102660",
+          "M107509"
+        ]
+      }
+    ],
+    "modules": [
+      {
+        "id": "M102554",
+        "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.CoQuot",
+        "source_sha256": "da65041dafcc336f356d3b57be207580675115a4cac2eff90f61bff605d6f20e"
+      },
+      {
+        "id": "M102575",
+        "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.FramedTwoCoboundaries",
+        "source_sha256": "c278bd959026c391463c8df164a6edd54889cc7742ff447339962dd4490c443f"
+      },
+      {
+        "id": "M102632",
+        "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.HhGroup",
+        "source_sha256": "d29397b0f18c601a1b03d76a0818455e882e096a5608813e025abf6679138969"
+      },
+      {
+        "id": "M102660",
+        "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.ResMapBijective",
+        "source_sha256": "20e63b53f95a2cd6e41afdd9ed4269a42e59ae5fc934ab620109a7fd6fbbed2e"
+      },
+      {
+        "id": "M102664",
+        "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.UnivCond",
+        "source_sha256": "5d7da2a615cdb01aff3191f65610c9e31fd1b9159a6e13e7e1b42489d1c2f26e"
+      },
+      {
+        "id": "M107509",
+        "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.EqZeroOfHomogeneousAevalMemMaximalIdealPowSucc",
+        "source_sha256": "f41e72304317e8b77eaf110f71f2c2ae042b27d3674ec1dc76ca98e47184a578"
+      },
+      {
+        "id": "M115789",
+        "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.TripleNe",
+        "source_sha256": "a0580c9b5ea4909c06cf0004d97590cf1c26bf0d7a990e3fa8b1e270603df9d9"
+      },
+      {
+        "id": "M154134",
+        "module": "Formalism.PeriodIntegrals.UnitDetRoot",
+        "source_sha256": "9a2cbc86148f8be07687f02bfc56890787afc21b64f0d021218123dbdeb2c65a"
+      },
+      {
+        "id": "M157281",
+        "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitDeterminantRoot.GlobalLUnit",
+        "source_sha256": "21bf0b433b07f0d0958d5ce34f0edc218880553e5237b75d369b328257597cfb"
+      },
+      {
+        "id": "M157283",
+        "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitDeterminantRoot.NormLeOneOfRoot",
+        "source_sha256": "b8e4c716f7208e99f258adaddfab0cc719fe7ff5fca9c62e420ffbaf3b8ebbe7"
+      },
+      {
+        "id": "M157284",
+        "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitDeterminantRoot.NsmulRelIdxMem",
+        "source_sha256": "364f8e407f8e43098cefeb158e0e2eb55032b8a2ada665a53a9dcd3b5e66a5aa"
+      },
+      {
+        "id": "M170774",
+        "module": "Lemmata.GeneralBFactLeftTer.Imports",
+        "source_sha256": "c2cb19df64c6eb2f476922d6ab9e878d4999c39dc9cffbc439562625c55d3834"
+      }
+    ],
+    "cold_expected_project_build_occurrences": 19,
+    "warm_expected_distinct_project_builds": 12
+  },
+  "build_results": {
+    "fresh": {
+      "targets": 6,
+      "elapsed_seconds": 99.7211,
+      "project_compile_occurrences": 19
+    },
+    "persistent": {
+      "targets": 6,
+      "elapsed_seconds": 66.1712,
+      "project_compile_occurrences": 12
+    }
+  },
+  "target_object_hashes_identical_across_different_build_roots": false,
+  "controls": {
+    "scope": "Check coherent transfer, real mixed-artifact failure, and fixed-path builds.",
+    "source_and_toolchain": "Identical pinned project sources and native Lean 4.33.1",
+    "coherent_receiver_no_build": {
+      "exit": 0,
+      "elapsed_seconds": 2.8158,
+      "transcript_sha256": "8b0417e695eae6d69c834a1ae62b2270337873c5faf636fa999f72f8bdac8aea"
+    },
+    "coherent_receiver_kernel": {
+      "exit": 137,
+      "elapsed_seconds": 20.6148,
+      "status": "not_completed",
+      "reason": "Kernel replay was killed at the isolated pilot 4 GiB cgroup memory cap; no successful kernel replay claimed."
+    },
+    "kernel_scope": "Six selected modules against imported environments; not fresh Main verification.",
+    "mixed_receiver_no_build": {
+      "exit": 3,
+      "elapsed_seconds": 2.4102,
+      "transcript_sha256": "12172ea816ba42155038dad10ac3c02799bacaaff0d2691b1a8844a3453907e1"
+    },
+    "mixed_receiver_kernel": {
+      "status": "not_attempted",
+      "reason": "The coherent-case kernel attempt exceeded the isolated 4 GiB memory cap."
+    },
+    "canonical_path_control": {
+      "path": "/scratch/pilot/canonical",
+      "cold_hashes": {
+        "Lemmata.GeneralBFactLeftTer.Imports": "59fbbe3c97e42075af67a1af06cd58b571d0575618835273d4e654394f50e123",
+        "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitDeterminantRoot.NormLeOneOfRoot": "d72b468e5bc629281d247c9bedb7e905fa4ef2968a8834225b4d54a87b1e67f4"
+      },
+      "warm_hashes": {
+        "Lemmata.GeneralBFactLeftTer.Imports": "59fbbe3c97e42075af67a1af06cd58b571d0575618835273d4e654394f50e123",
+        "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitDeterminantRoot.NormLeOneOfRoot": "d72b468e5bc629281d247c9bedb7e905fa4ef2968a8834225b4d54a87b1e67f4"
+      },
+      "all_equal": true
+    },
+    "canonical_overlay_no_build": {
+      "exit": 0,
+      "elapsed_seconds": 2.6928,
+      "transcript_sha256": "748d393df8b1b22592661116a13246f6494d61b2ee29f0743f301cc5340f3a1a"
+    },
+    "limitation": "Controlled local source-path/merge reproduction. Does not establish the Google cohort failure cause or project-wide speedup.",
+    "kernel_replay_completed": false
+  },
+  "original_producer_path": {
+    "scope": "Same accepted target rebuilt at original producer absolute project path",
+    "project_root": "/work/vol/lean",
+    "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitDeterminantRoot.NormLeOneOfRoot",
+    "expected_accepted_olean": "f5581bea3a22d6d6177e86f1d4e03638594ae72697a13856a57624ac05db2748",
+    "actual_olean": "f5581bea3a22d6d6177e86f1d4e03638594ae72697a13856a57624ac05db2748",
+    "byte_identical_to_accepted_artifact": true,
+    "elapsed_seconds": 18.7982
+  },
+  "reproduction_evidence_archive_sha256": "a033f4f4975746030f0766185bc6eb779c121d4a33980cbee4e7a04d75e4b1b0",
+  "limitations": [
+    "Six selected targets, paired fresh then persistent, background worker active; no randomized or full-project timing estimate.",
+    "Coherent cache relocation passed; differing roots are diagnostic metadata, never a blanket cache rejection.",
+    "Separate kernel replay exceeded the isolated 4 GiB cap (exit 137); no successful kernel replay claimed.",
+    "This does not establish the cause of failures in the Google campaign."
+  ]
+}

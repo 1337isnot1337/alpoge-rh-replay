@@ -164,6 +164,7 @@ def run(targets,checkout,out,bundle,fast_bundle=False,*,project_modules=None):
  if project_modules is None:project_modules={r['module'] for r in module_rows()}
  rebuilt=rebuilt_imports(log.read_text(errors='replace'),project_modules,{r['module'] for r in targets})
  receipt={'tasks':[r['id'] for r in targets],'started_utc':started.isoformat(),'ended_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'elapsed_seconds':elapsed,'host':host_resources(),'toolchain':version,'mathlib':mathlib,'inputs_manifest_sha256':digest(base.parent/'parts.sha256'),'command':cmd,'exit_code':result.returncode,'log_sha256':digest(log),'rebuilt_project_modules':rebuilt,'objects':{}}
+ receipt['project_root']=str(project)
  if result.returncode==0:
   for r in targets:receipt['objects'][r['id']]=digest(build/'lib/lean'/(r['module'].replace('.','/')+'.olean'))
   if bundle or fast_bundle:
