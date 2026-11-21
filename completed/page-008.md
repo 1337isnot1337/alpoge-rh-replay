@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006759 | P0616 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HermFormPrincipalDimOne` | build-observed |
+| M006760 | P0516 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HermFormPullEqOfLbIsoPow` | wave-reused |
+| M006766 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HolomorphicUniformisationTangentUnimodularRiemanStatement` | build-observed |
+| M006767 | P1114 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HolomorphicUniformizationTangentUnimodularRiemann` | build-observed |
+| M006768 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HomDerivBaseChange` | build-observed |
+| M006769 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HomDerivDescendsToNumberField` | build-observed |
+| M006770 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HomDerivativeClosure` | wave-reused |
+| M006771 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HomExtDvrOfCardTorsion` | volunteer-build-reviewed |
+| M006772 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HomExtOfLocalRingPoints` | wave-reused |
+| M006778 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IntegersOfCmFieldConjStructureStatement` | volunteer-build-reviewed |
+| M006787 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IntegralTangentVectorCoordinates` | volunteer-build-reviewed |
 | M006790 | P0839 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsAbelianSchemeAndExtendOfGenericHoms` | wave-reused |
 | M006791 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsAbelianSchemeOfGenericallySurjective` | wave-reused |
 | M006792 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsAbelianSchemeSchemeOver` | wave-reused |
@@ -391,14 +402,3 @@
 | M008848 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsScalarPreservesIntegralMatricesSubst` | volunteer-build-reviewed |
 | M008849 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsScalarPreservesIntegralMatricesSubstStatement` | volunteer-build-reviewed |
 | M008855 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSchwartzVectorField` | volunteer-build-reviewed |
-| M008875 | P0784 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSingle` | volunteer-build-reviewed |
-| M008878 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSingleMemLocalLatticeCompletionStatement` | volunteer-build-reviewed |
-| M008879 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSmallCompactLevelSymplecticCharacterTrivia` | volunteer-build-reviewed |
-| M008880 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSmallCompactLevelSymplecticCharacterTriviaStatement` | volunteer-build-reviewed |
-| M008888 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSplitLocalSupportedScalarComponent` | volunteer-build-reviewed |
-| M008889 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSplitLocalSupportedScalarComponentStatement` | volunteer-build-reviewed |
-| M008898 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSplitPointFrameCharacter` | volunteer-build-reviewed |
-| M008906 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsStandardUnitaryChartDoubledSpace` | volunteer-build-reviewed |
-| M008913 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSummableBoundSchwartzMajorantRationalTrans` | volunteer-build-reviewed |
-| M008934 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsTopologicalIsoParahoricChartSplitPlace` | volunteer-build-reviewed |
-| M008937 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsTraceZeroLocalNormMulIntegralUnitStatement` | volunteer-build-reviewed |

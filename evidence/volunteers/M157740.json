@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M157740"
+  ],
+  "started_utc": "2026-11-21T00:00:38.343546+00:00",
+  "ended_utc": "2026-11-21T00:01:03.588150+00:00",
+  "elapsed_seconds": 25.2,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6812212
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ZuckermanTensor.DualDefs:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "be0ece892e84f6e61141c841e135c2c79954bccb0a90ad997f170f9a020c52a8",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.IsLowUnitH",
+    "Formalism.PeriodIntegrals.UpqRep",
+    "Formalism.PeriodIntegrals.ZuckTensor"
+  ],
+  "objects": {
+    "M157740": "484ef4c4e6368e86a6b483ee5df5ce54543a7484704b59cc37c06c5834529cf2"
+  },
+  "bundle_sha256": "d86f5335529910c351ab5e5cd620d9ea4ec1466aa906f001cbd5d51cc0a4dd55",
+  "packet": "M157740",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/7369#issuecomment-7053699221",
+  "reviewed_utc": "2026-11-21T00:03:16.852762+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

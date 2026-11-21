@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M014120 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TwistTxEvEqMapArc` | volunteer-build-reviewed |
+| M014129 | P1445 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TwistedLabelsMatchOfLevelGeFourStatement` | volunteer-build-reviewed |
+| M014130 | P1059 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TwistedPowerSectionBasisBaseChange` | build-observed |
+| M014132 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TxCosetCriterion` | volunteer-build-reviewed |
+| M014134 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TxStOfPtSt` | build-observed |
+| M014135 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UnEqOfFineCharts` | volunteer-build-reviewed |
+| M014138 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UniformisationChartValueFormsCorrespondStatement` | volunteer-build-reviewed |
+| M014148 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UniformisedModelLabelledTorsionPointsStatement` | volunteer-build-reviewed |
+| M014155 | P1790 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UniformisedTableLatticeIntegralFamilies` | build-observed |
+| M014156 | P1814 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UniformisedTableLatticeIntegralFamiliesStatement` | build-observed |
+| M014157 | P1171 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UniformisedTestDimensionsAndSplitFibre` | wave-reused |
+| M014158 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UniformisedTestDimensionsAndSplitFibreStatement` | volunteer-build-reviewed |
+| M014160 | P0007 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UnitOnProductEqOne` | wave-reused |
+| M014164 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UniversalBasisMoveBaseChange` | volunteer-build-reviewed |
+| M014169 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.VFCorr` | build-observed |
 | M014170 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.VFEqGenValMul` | build-observed |
 | M014171 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ValIso` | build-observed |
 | M014172 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ValIsoChart` | build-observed |
@@ -387,18 +402,3 @@
 | M017133 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechNerveLevelPreservesCofilteredLimit` | wave-reused |
 | M017134 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechNerveLevelPreservesCofilteredLimitStatement` | wave-reused |
 | M017135 | P0649 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechNerveLevelwiseEquivalenceIntegralPullback` | build-observed |
-| M017136 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechNerveLevelwiseEquivalenceIntegralPullbackStatement` | build-observed |
-| M017154 | P1145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechPicardClassEqZeroOfSquareZeroRetractionStatement` | volunteer-build-reviewed |
-| M017171 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechPullOneBijectiveLatticeCover` | volunteer-build-reviewed |
-| M017175 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechTripleRestrictCompositeInjectiveSecond` | wave-reused |
-| M017203 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CellFunctorTransposedTwoBlockStatement` | volunteer-build-reviewed |
-| M017204 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CellFunctorTwoBlockEquiv` | volunteer-build-reviewed |
-| M017208 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CellIrreducibleSubquotientStatement` | volunteer-build-reviewed |
-| M017211 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CellMulSimpleUIntegral` | volunteer-build-reviewed |
-| M017227 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CenterActsByScalarOnEigenforms` | volunteer-build-reviewed |
-| M017253 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentraliserInvolution` | volunteer-build-reviewed |
-| M017263 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentralizerInfConjIntegralGLProdLeCptPart` | volunteer-build-reviewed |
-| M017266 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentralizerRegularRationalPointFiniteAdelicComm` | volunteer-build-reviewed |
-| M017268 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentralizerScalarPadicBounded` | volunteer-build-reviewed |
-| M017275 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentreCompat` | volunteer-build-reviewed |
-| M017282 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentredBlockSumBounds` | build-observed |

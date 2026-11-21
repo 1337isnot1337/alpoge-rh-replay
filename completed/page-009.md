@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M008875 | P0784 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSingle` | volunteer-build-reviewed |
+| M008878 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSingleMemLocalLatticeCompletionStatement` | volunteer-build-reviewed |
+| M008879 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSmallCompactLevelSymplecticCharacterTrivia` | volunteer-build-reviewed |
+| M008880 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSmallCompactLevelSymplecticCharacterTriviaStatement` | volunteer-build-reviewed |
+| M008888 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSplitLocalSupportedScalarComponent` | volunteer-build-reviewed |
+| M008889 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSplitLocalSupportedScalarComponentStatement` | volunteer-build-reviewed |
+| M008898 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSplitPointFrameCharacter` | volunteer-build-reviewed |
+| M008906 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsStandardUnitaryChartDoubledSpace` | volunteer-build-reviewed |
+| M008913 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSummableBoundSchwartzMajorantRationalTrans` | volunteer-build-reviewed |
+| M008934 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsTopologicalIsoParahoricChartSplitPlace` | volunteer-build-reviewed |
+| M008937 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsTraceZeroLocalNormMulIntegralUnitStatement` | volunteer-build-reviewed |
 | M008950 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsTwistIndexRepresentativeOfBounds` | volunteer-build-reviewed |
 | M008961 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUniqueCompletionMatrixOfRationalTwistAut` | volunteer-build-reviewed |
 | M008963 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUniqueSphericalDoublingSectionUnramified` | volunteer-build-reviewed |
@@ -363,6 +374,7 @@
 | M011347 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SigV` | volunteer-build-reviewed |
 | M011354 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SkewHermitianTracePairingStandardCharacterPerfec` | volunteer-build-reviewed |
 | M011359 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmallEntriesAndStringsAvoidExcludedNormPowers` | volunteer-build-reviewed |
+| M011368 | P0177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmoothOfLimitClassStableUnderDirectionalDerivs` | volunteer-build-reviewed |
 | M011371 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmoothVecHeadOfDerivativeFamilyStatement` | volunteer-build-reviewed |
 | M011383 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SpanRhoTEqTop` | volunteer-build-reviewed |
 | M011391 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalOperatorEigenvaluesDeterminedByParamsStatement` | volunteer-build-reviewed |
@@ -390,15 +402,3 @@
 | M011689 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelChainPhiSupportPeriodic` | volunteer-build-reviewed |
 | M011693 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelChainUnfoldedPositionExchange` | volunteer-build-reviewed |
 | M011695 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelCharacterAtRationalPoint` | volunteer-build-reviewed |
-| M011696 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelCharacterAtRationalPointStatement` | volunteer-build-reviewed |
-| M011703 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricUnipotentMemOfFlagBasisDual` | volunteer-build-reviewed |
-| M011705 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricUnipotentMemOfFlagCongruenceDual` | volunteer-build-reviewed |
-| M011720 | P1195 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TargetMtOfAmbTie` | volunteer-build-reviewed |
-| M011722 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TendstoSetIntegralUnramifiedOutsideOpenSubsetStatement` | volunteer-build-reviewed |
-| M011723 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TendstoUnitaryAdelicPointsAgreeOnGrowingFinset` | volunteer-build-reviewed |
-| M011728 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TensorWeylModuleMapsInjectiveOnPureSpanStatement` | volunteer-build-reviewed |
-| M011732 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaAdjointScalarTheoremOfScalarFormulaStatement` | volunteer-build-reviewed |
-| M011737 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainCharQuotientLFunctionEntireNeZeroStatement` | volunteer-build-reviewed |
-| M011740 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainCuspSpaceFiniteDimOfHarishChandra` | volunteer-build-reviewed |
-| M011745 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainHeckeParamAddSmulOfAgreeOffSetStatement` | volunteer-build-reviewed |
-| M011763 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStageConjugateValuesHeckeOperatorsStatement` | volunteer-build-reviewed |

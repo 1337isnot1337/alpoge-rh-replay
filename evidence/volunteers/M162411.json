@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M162411"
+  ],
+  "started_utc": "2026-11-20T23:59:31.601710+00:00",
+  "ended_utc": "2026-11-21T00:01:41.464734+00:00",
+  "elapsed_seconds": 129.9,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32837804,
+    "peak_child_rss_kib": 6690368
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.ArithmeticGeometry.SchemeCohomology.RegularUFDLocalization:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1c2c7d2e8e30d1493b93cdaa6cc9c0551fa8103d49a7f008586e8c79052cf520",
+  "rebuilt_project_modules": [
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.RegularLocalDomain",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.RegularUFDSerre"
+  ],
+  "objects": {
+    "M162411": "ad53ae5b02b55069dced1a24f22c25a00e01f98c4b91a7d274d5ae17ea0d122e"
+  },
+  "bundle_sha256": "28f9ad0df2611e9220a72c153d4ab510443ae3d7428b5ebd277ab65b482d8979",
+  "packet": "M162411",
+  "contributor": "sp20262026",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/7293#issuecomment-7053707790",
+  "reviewed_utc": "2026-11-21T00:03:29.977431+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

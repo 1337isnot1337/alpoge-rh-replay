@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006124 | P0296 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MemVirtualCharactersIffSubCharactersStatement` | wave-reused |
+| M006125 | P0394 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MemVirtualCharactersOfAbelianByPrimePower` | wave-reused |
+| M006126 | P0436 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MemVirtualCharactersOfAbelianByPrimePowerStatement` | wave-reused |
+| M006127 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MonicFactorizationConvolutionCancelOfOne` | wave-reused |
+| M006128 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MonicFactorizationConvolutionCancelOfOneStatement` | wave-reused |
+| M006129 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MonicFactorizationConvolutionFiniteCommAssocAdd` | wave-reused |
+| M006130 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MonicFactorizationConvolutionFiniteCommAssocAddStatement` | wave-reused |
+| M006131 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MultisetPowerSumNewtonIdentity` | wave-reused |
+| M006132 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormEightOfFourierVanishingOrderFifteen` | build-observed |
 | M006133 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormEightOfFourierVanishingOrderFifteenStatement` | build-observed |
 | M006134 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormTwelveOrderSixtythree` | build-observed |
 | M006135 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormTwelveOrderSixtythreeStatement` | build-observed |
@@ -188,6 +197,7 @@
 | M006320 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthBaseChangeQuotientOfMapMaximalIdeal` | volunteer-build-reviewed |
 | M006321 | P0098 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthCokerOfNotInjective` | wave-reused |
 | M006322 | P0098 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthCommensurableIffOfLeOfLe` | volunteer-build-reviewed |
+| M006323 | P0176 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthCommensurableInfRestrictScalarsOfLeSpan` | volunteer-build-reviewed |
 | M006324 | P0176 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthCommensurableSpanSpanOfDetNeZero` | wave-reused |
 | M006325 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthEqTopOfFinrankNeZero` | volunteer-build-reviewed |
 | M006328 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthQuotientMaximalIdealPowSmulTop` | volunteer-build-reviewed |
@@ -305,6 +315,7 @@
 | M006475 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.LintegralProdPartialSums` | volunteer-build-reviewed |
 | M006478 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.MulConjTransposeEqOneOfOrthonormal` | wave-reused |
 | M006479 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.NatCastMulCoeffOfPderivEq` | wave-reused |
+| M006482 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.NormIteratedFDerivApplyLeOfHomogeneousPart` | volunteer-build-reviewed |
 | M006484 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.OneLeDetOneAdd` | wave-reused |
 | M006487 | P0177 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.PderivIterEqPderivListOfDifferentiableOn` | volunteer-build-reviewed |
 | M006488 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ResidueNormValuationSubringEqZeroIff` | wave-reused |
@@ -391,14 +402,3 @@
 | M006756 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HasTypeBaseChange` | volunteer-build-reviewed |
 | M006757 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HasTypeOfIso` | volunteer-build-reviewed |
 | M006758 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HermFamIsometryInjective` | volunteer-build-reviewed |
-| M006759 | P0616 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HermFormPrincipalDimOne` | build-observed |
-| M006760 | P0516 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HermFormPullEqOfLbIsoPow` | wave-reused |
-| M006766 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HolomorphicUniformisationTangentUnimodularRiemanStatement` | build-observed |
-| M006767 | P1114 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HolomorphicUniformizationTangentUnimodularRiemann` | build-observed |
-| M006768 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HomDerivBaseChange` | build-observed |
-| M006769 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HomDerivDescendsToNumberField` | build-observed |
-| M006770 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HomDerivativeClosure` | wave-reused |
-| M006771 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HomExtDvrOfCardTorsion` | volunteer-build-reviewed |
-| M006772 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HomExtOfLocalRingPoints` | wave-reused |
-| M006778 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IntegersOfCmFieldConjStructureStatement` | volunteer-build-reviewed |
-| M006787 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IntegralTangentVectorCoordinates` | volunteer-build-reviewed |

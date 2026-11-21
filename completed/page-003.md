@@ -221,6 +221,7 @@
 | M002442 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.DefiniteFormInstances` | volunteer-build-reviewed |
 | M002443 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.DeterminantInTorus` | volunteer-build-reviewed |
 | M002448 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.GoodPairSystems` | volunteer-build-reviewed |
+| M002449 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.GradedSeries` | volunteer-build-reviewed |
 | M002450 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.HeckeFlatSpecialisation` | volunteer-build-reviewed |
 | M002454 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.InvariantsVanishing` | wave-reused |
 | M002460 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.OnePlusPowerAssembly` | wave-reused |
@@ -303,6 +304,7 @@
 | M002724 | P1472 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.PseudoCoefficientSeparation` | volunteer-build-reviewed |
 | M002725 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.RadicalNoFixedVectors` | volunteer-build-reviewed |
 | M002726 | P1271 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.RaisingLoweringOperators` | volunteer-build-reviewed |
+| M002739 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SemilinearExtensionBases` | volunteer-build-reviewed |
 | M002759 | P1501 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.TraceKernelDecomposition` | volunteer-build-reviewed |
 | M002763 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.UniformModerateGrowthLevel` | volunteer-build-reviewed |
 | M002770 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.VolumeFlatSection` | build-observed |
@@ -333,6 +335,7 @@
 | M002916 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.IsQProjOverOfIsProjOver` | build-observed |
 | M002932 | P0783 | `Development.AbelianVarietyTheory.Counterexamples.NonGaloisSurvey.MemTypeSubspaceIffUnipotentCharacter` | volunteer-build-reviewed |
 | M002941 | P0917 | `Development.AbelianVarietyTheory.Counterexamples.PlaceInjectivity.StandardDeterminantUnits` | build-observed |
+| M002955 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.SubgroupCharacterSums.SumSubgroupEqZeroIff` | build-observed |
 | M002958 | P0294 | `Development.AbelianVarietyTheory.Counterexamples.TransversalityLocal.FramePairFixatorUnitaryAndFixesFrame` | volunteer-build-reviewed |
 | M002961 | P1349 | `Development.AbelianVarietyTheory.Counterexamples.TwistSurvey.ConjModelCast` | build-observed |
 | M002974 | P0582 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.NonemptyAlgebra` | build-observed |
@@ -399,6 +402,3 @@
 | M003097 | P0865 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsAllLifts` | build-observed |
 | M003109 | P0238 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsNotCongPow` | wave-reused |
 | M003111 | P0838 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsPotential` | build-observed |
-| M003112 | P0945 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsPreDataDyadicFrame` | volunteer-build-reviewed |
-| M003115 | P1501 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsSameFOfDiv` | volunteer-build-reviewed |
-| M003120 | P1501 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsTangentOrigin` | volunteer-build-reviewed |

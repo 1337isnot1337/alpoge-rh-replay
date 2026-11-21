@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M022729 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAwayOfIsEtaleAtOffSubmonoidStatement` | wave-reused |
+| M022734 | P0733 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCechAugmentationEquivOfSection` | build-observed |
+| M022735 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCechAugmentationEquivOfSectionStatement` | build-observed |
+| M022736 | P1059 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCechAugmentationSepClosureIsEquivalence` | wave-reused |
+| M022737 | P1087 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCechAugmentationSepClosureIsEquivalenceStatement` | wave-reused |
+| M022738 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCechNerveBaseChangeIsPullback` | wave-reused |
+| M022739 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCechNerveBaseChangeIsPullbackStatement` | build-observed |
+| M022740 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleChainsDiscBiprodDescIsIso` | build-observed |
+| M022741 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleChainsDiscBiprodDescIsIsoStatement` | build-observed |
+| M022746 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCochainEvalOnSimplexBasicProperties` | wave-reused |
+| M022747 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCochainEvalOnSimplexBasicPropertiesStatement` | wave-reused |
+| M022748 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCochainEvalOnSimplexDifferentialValues` | wave-reused |
+| M022749 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCochainEvalOnSimplexDifferentialValuesStatement` | wave-reused |
+| M022750 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCochainShortExactOfInjectiveTerms` | wave-reused |
+| M022752 | P0785 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCocycleCoboundaryIff` | wave-reused |
+| M022753 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCocycleCoboundaryIffStatement` | wave-reused |
+| M022754 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyBijectiveOfSupportBijective` | wave-reused |
 | M022755 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyBijectiveOfSupportBijectiveStatement` | wave-reused |
 | M022756 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyCoefficientLongExactSequence` | wave-reused |
 | M022757 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyCoefficientLongExactSequenceStatement` | wave-reused |
@@ -173,6 +190,7 @@
 | M023134 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyCompactUnitaryAdelicImageIntegralStatement` | volunteer-build-reviewed |
 | M023135 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyCompletedTensorMatrixSplitSemilocal` | volunteer-build-reviewed |
 | M023138 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyDefiniteUnitaryLocalPointMemMaxCompactStatement` | volunteer-build-reviewed |
+| M023139 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyEqNhdsNEOfMeromorphicOfEqOnHalfPlane` | volunteer-build-reviewed |
 | M023143 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyExistsIntegralCharpolySplitPlaceStatement` | volunteer-build-reviewed |
 | M023149 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyFiniteAdelicUnitaryComponentMemIntegraStatement` | volunteer-build-reviewed |
 | M023153 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyIntegralConjOfIntegralConjGeneratorStatement` | volunteer-build-reviewed |
@@ -218,6 +236,7 @@
 | M023495 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAmpleSectionClearingRationalFunctionDenomiStatement` | volunteer-build-reviewed |
 | M023497 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAmpleSectionNonvanishingAtNotSpecializingStatement` | volunteer-build-reviewed |
 | M023508 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAnalyticParamOfPrimitivesOnBox` | volunteer-build-reviewed |
+| M023509 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAntilinearNormalForm` | volunteer-build-reviewed |
 | M023510 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAntilinearNormalFormStatement` | volunteer-build-reviewed |
 | M023525 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAppellHumbertUnimodularRiemannForm` | volunteer-build-reviewed |
 | M023526 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAppellHumbertUnimodularRiemannFormStatement` | volunteer-build-reviewed |
@@ -383,22 +402,3 @@
 | M024667 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDerivationExtendingCotangentFormStatement` | volunteer-build-reviewed |
 | M024669 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDerivationExtendingKernelFormOfLiftingStatement` | volunteer-build-reviewed |
 | M024680 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDerivationSplitKaehlerDSmooth` | volunteer-build-reviewed |
-| M024681 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDerivationSplitKaehlerDSmoothStatement` | volunteer-build-reviewed |
-| M024683 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDerivationsDualToFamilyOfNilpotentAugStatement` | volunteer-build-reviewed |
-| M024706 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDescentEndomorphismQuotientGroupSchemeStatement` | volunteer-build-reviewed |
-| M024708 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDescentHomQuotientGaloisGroupSchemeStatement` | volunteer-build-reviewed |
-| M024724 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetLineCoordinateIso` | wave-reused |
-| M024725 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetLineCoordinateIsoStatement` | wave-reused |
-| M024728 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetNeZeroOfRowsSeparatingStatement` | volunteer-build-reviewed |
-| M024731 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetOneMulStdBlock` | volunteer-build-reviewed |
-| M024732 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetOneMulStdBlockStatement` | volunteer-build-reviewed |
-| M024774 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDividedPowerEvalTwoVarsRingHom` | wave-reused |
-| M024775 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDividedPowerEvalTwoVarsRingHomStatement` | volunteer-build-reviewed |
-| M024813 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDominatingDvrContainingFinsetStatement` | volunteer-build-reviewed |
-| M024814 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDominatingLocalDomainEqMulMaximal` | volunteer-build-reviewed |
-| M024815 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDominatingLocalDomainEqMulMaximalStatement` | volunteer-build-reviewed |
-| M024851 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDualPullback` | build-observed |
-| M024857 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvdCoordsOfDefiniteParallelogramForm` | volunteer-build-reviewed |
-| M024858 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvdCoordsOfDefiniteParallelogramFormStatement` | volunteer-build-reviewed |
-| M024859 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvdMulPowEtaleNbhdZeroLocus` | volunteer-build-reviewed |
-| M024870 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrExtensionOfEssentiallyEtaleLocal` | volunteer-build-reviewed |

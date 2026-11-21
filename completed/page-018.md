@@ -2,6 +2,28 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M030535 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeightedMonomialPlace` | volunteer-build-reviewed |
+| M030536 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeightedMonomialPlaceStatement` | volunteer-build-reviewed |
+| M030537 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeightedMonomialValuationOfParameters` | volunteer-build-reviewed |
+| M030545 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilDatumOfSplittingCharacters` | volunteer-build-reviewed |
+| M030546 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilDatumOfSplittingCharactersStatement` | volunteer-build-reviewed |
+| M030566 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilRepresentationBigCellRelationFourierStatement` | volunteer-build-reviewed |
+| M030569 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilRepresentationSplitUnitarySchwartzBruh` | volunteer-build-reviewed |
+| M030570 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilRepresentationSplitUnitarySchwartzBruhStatement` | volunteer-build-reviewed |
+| M030581 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWhittakerDatumAndHalfLevels` | wave-reused |
+| M030584 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWittFrameFirstColumn` | volunteer-build-reviewed |
+| M030585 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWittFrameFirstColumnStatement` | volunteer-build-reviewed |
+| M030586 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWittFrameInitCols` | volunteer-build-reviewed |
+| M030610 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpConjEntriesHasFDerivAtZero` | volunteer-build-reviewed |
+| M030616 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpNegLeNormTprodOneSubInv` | volunteer-build-reviewed |
+| M030617 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpSumCoeffEqZeroOfVanishing` | volunteer-build-reviewed |
+| M030631 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpansionRestrictionTwoCharacters` | volunteer-build-reviewed |
+| M030642 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExplicitArithmeticHilbertSamuelBoundStatement` | volunteer-build-reviewed |
+| M030645 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExplicitHeightBoundLogDiscriminant` | volunteer-build-reviewed |
+| M030666 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExponentialPolynomialCharSpan` | volunteer-build-reviewed |
+| M030681 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtMapApply` | volunteer-build-reviewed |
+| M030682 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtMapComp` | volunteer-build-reviewed |
+| M030688 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtTraceNonnegOfPosFrame` | volunteer-build-reviewed |
 | M030690 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtTraceSubmatrixSumMap` | volunteer-build-reviewed |
 | M030691 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtTraceWedgeSelfEqZero` | volunteer-build-reviewed |
 | M030695 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendAlgHomAdjoinIntegralRoot` | volunteer-build-reviewed |
@@ -215,6 +237,7 @@
 | M032306 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatBoundTupleStatement` | volunteer-build-reviewed |
 | M032317 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatCoordsSymplecticPullbackForm` | volunteer-build-reviewed |
 | M032320 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatCubicalStatementStatement` | worker-kernel-checked |
+| M032349 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatFormClosedOnCover` | volunteer-build-reviewed |
 | M032358 | P0298 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatFormMulPullZeroSectionStatement` | volunteer-build-reviewed |
 | M032370 | P0867 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatHens` | wave-reused |
 | M032371 | P0893 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatHensStatement` | wave-reused |
@@ -379,26 +402,3 @@
 | M033321 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisActionFinitarySheafSectionLocallyConstantStatement` | wave-reused |
 | M033339 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisDescentFreeSheafCechLevelSepClosure` | wave-reused |
 | M033340 | P0651 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisDescentFreeSheafCechLevelSepClosureStatement` | wave-reused |
-| M033347 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisDescentSemilinearBijective` | wave-reused |
-| M033348 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisDescentSemilinearBijectiveStatement` | wave-reused |
-| M033362 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisLocallyConstantTupleRingTensorPowerUnivers` | wave-reused |
-| M033363 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisLocallyConstantTupleRingTensorPowerUniversStatement` | wave-reused |
-| M033364 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisOfFiniteGeneratingAutomorphisms` | volunteer-build-reviewed |
-| M033376 | P1118 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisStableLatticePointsSymmetricMem` | build-observed |
-| M033377 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisStableLatticePointsSymmetricMemStatement` | build-observed |
-| M033388 | P1885 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisTransitiveOnValuationRings` | wave-reused |
-| M033394 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisTwistedNormGLBasicProperties` | wave-reused |
-| M033395 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisTwistedNormGLBasicPropertiesStatement` | wave-reused |
-| M033396 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisTwistedNormGLDiagonalBlocks` | wave-reused |
-| M033397 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisTwistedNormGLDiagonalBlocksStatement` | wave-reused |
-| M033401 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GammaRealFunctionalEquationConstantEvenInteger` | volunteer-build-reviewed |
-| M033442 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaussSumNondegenerateFiniteHermitianModule` | volunteer-build-reviewed |
-| M033443 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaussSumNondegenerateFiniteHermitianModuleStatement` | volunteer-build-reviewed |
-| M033459 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaussianMulMultilinearDiagonalMemSchwartzSubmoduStatement` | volunteer-build-reviewed |
-| M033463 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaussianPoincareSeriesThetaVacuumStatement` | volunteer-build-reviewed |
-| M033485 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GelfandInvariantsCentralCharacter` | volunteer-build-reviewed |
-| M033486 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GelfandInvariantsDetermineMultiset` | volunteer-build-reviewed |
-| M033492 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenFibMapAlgebraMap` | wave-reused |
-| M033502 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenRankPushforwardAmpleTwist` | volunteer-build-reviewed |
-| M033506 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenVar` | volunteer-build-reviewed |
-| M033507 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeneralLinearGroupDetMapFinOne` | wave-reused |

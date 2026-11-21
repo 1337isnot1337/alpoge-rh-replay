@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013330 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionMapOfThetaMatchingStatement` | volunteer-build-reviewed |
+| M013331 | P1247 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionPairDescentAlgClosedSubfield` | build-observed |
+| M013332 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionPairDescentAlgClosedSubfieldStatement` | volunteer-build-reviewed |
+| M013333 | P1445 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionPointPrimitiveComponentValuationZer` | volunteer-build-reviewed |
+| M013334 | P1474 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionPointPrimitiveComponentValuationZerStatement` | volunteer-build-reviewed |
+| M013335 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionPointSpecialFibreSectionNeZero` | volunteer-build-reviewed |
+| M013337 | P1738 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionPointUnitValuePrimitiveIntegralFami` | build-observed |
+| M013338 | P1763 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionPointUnitValuePrimitiveIntegralFamiStatement` | build-observed |
+| M013339 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionPointsOfSquareLevel` | volunteer-build-reviewed |
+| M013344 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorusAbelianQuotientPDivisibleSmoothGroupStatement` | volunteer-build-reviewed |
+| M013346 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorusActionWeightedChartsStatement` | volunteer-build-reviewed |
+| M013350 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorusExtensionPointOfIntegralModelPointStatement` | volunteer-build-reviewed |
+| M013355 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorusStableGoodOpenOfWeightUnitsStatement` | volunteer-build-reviewed |
 | M013358 | P1474 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTraitSpecialisationOfMemClosureThetaPoints` | volunteer-build-reviewed |
 | M013361 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTwistedSectionThetaTranslateCoef` | volunteer-build-reviewed |
 | M013362 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTwistedSectionThetaTranslateCoefStatement` | volunteer-build-reviewed |
@@ -278,6 +291,7 @@
 | M013870 | P1086 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.PureWeightSectionToTwistedPolarisationPowerStatement` | wave-reused |
 | M013871 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.QuadraticMapNonnegOfTendstoCofinite` | volunteer-build-reviewed |
 | M013872 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.QuasiAffineSubgroupContainingTorusEqTorus` | volunteer-build-reviewed |
+| M013875 | P0617 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.QuasiFiniteAtAffineSpaceHomOfVectorOfCoordStatement` | volunteer-build-reviewed |
 | M013877 | P1221 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.QvalAddTower` | build-observed |
 | M013880 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.Reframe` | volunteer-build-reviewed |
 | M013881 | P1248 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ReframeSt` | build-observed |
@@ -286,6 +300,7 @@
 | M013884 | P1221 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.RelAmpleLiftSquareZeroThickeningStatement` | build-observed |
 | M013885 | P1396 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.RelAmpleOfAmpleOnClosedSubschemeLocalBase` | build-observed |
 | M013886 | P1420 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.RelAmpleOfAmpleOnClosedSubschemeLocalBaseStatement` | build-observed |
+| M013889 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.RestrictEqOfSameThetaMultipleStatement` | volunteer-build-reviewed |
 | M013890 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.RigidificationComparisonUniformisation` | volunteer-build-reviewed |
 | M013891 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.RigidificationComparisonUniformisationStatement` | volunteer-build-reviewed |
 | M013892 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.RigidifiedBundleTwoPullbacksCompare` | volunteer-build-reviewed |
@@ -387,18 +402,3 @@
 | M014111 | P1301 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TraitSectionBasisDescendsFiniteDvrExtensionStatement` | build-observed |
 | M014113 | P1534 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TripleStOfLaws` | build-observed |
 | M014116 | P0811 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TwistTerms` | build-observed |
-| M014120 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TwistTxEvEqMapArc` | volunteer-build-reviewed |
-| M014129 | P1445 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TwistedLabelsMatchOfLevelGeFourStatement` | volunteer-build-reviewed |
-| M014130 | P1059 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TwistedPowerSectionBasisBaseChange` | build-observed |
-| M014132 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TxCosetCriterion` | volunteer-build-reviewed |
-| M014134 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TxStOfPtSt` | build-observed |
-| M014135 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UnEqOfFineCharts` | volunteer-build-reviewed |
-| M014138 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UniformisationChartValueFormsCorrespondStatement` | volunteer-build-reviewed |
-| M014148 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UniformisedModelLabelledTorsionPointsStatement` | volunteer-build-reviewed |
-| M014155 | P1790 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UniformisedTableLatticeIntegralFamilies` | build-observed |
-| M014156 | P1814 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UniformisedTableLatticeIntegralFamiliesStatement` | build-observed |
-| M014157 | P1171 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UniformisedTestDimensionsAndSplitFibre` | wave-reused |
-| M014158 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UniformisedTestDimensionsAndSplitFibreStatement` | volunteer-build-reviewed |
-| M014160 | P0007 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UnitOnProductEqOne` | wave-reused |
-| M014164 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UniversalBasisMoveBaseChange` | volunteer-build-reviewed |
-| M014169 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.VFCorr` | build-observed |

@@ -2,6 +2,26 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M024681 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDerivationSplitKaehlerDSmoothStatement` | volunteer-build-reviewed |
+| M024682 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDerivationsDualToFamilyOfNilpotentAug` | volunteer-build-reviewed |
+| M024683 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDerivationsDualToFamilyOfNilpotentAugStatement` | volunteer-build-reviewed |
+| M024706 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDescentEndomorphismQuotientGroupSchemeStatement` | volunteer-build-reviewed |
+| M024708 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDescentHomQuotientGaloisGroupSchemeStatement` | volunteer-build-reviewed |
+| M024724 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetLineCoordinateIso` | wave-reused |
+| M024725 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetLineCoordinateIsoStatement` | wave-reused |
+| M024728 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetNeZeroOfRowsSeparatingStatement` | volunteer-build-reviewed |
+| M024731 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetOneMulStdBlock` | volunteer-build-reviewed |
+| M024732 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetOneMulStdBlockStatement` | volunteer-build-reviewed |
+| M024774 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDividedPowerEvalTwoVarsRingHom` | wave-reused |
+| M024775 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDividedPowerEvalTwoVarsRingHomStatement` | volunteer-build-reviewed |
+| M024813 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDominatingDvrContainingFinsetStatement` | volunteer-build-reviewed |
+| M024814 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDominatingLocalDomainEqMulMaximal` | volunteer-build-reviewed |
+| M024815 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDominatingLocalDomainEqMulMaximalStatement` | volunteer-build-reviewed |
+| M024851 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDualPullback` | build-observed |
+| M024857 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvdCoordsOfDefiniteParallelogramForm` | volunteer-build-reviewed |
+| M024858 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvdCoordsOfDefiniteParallelogramFormStatement` | volunteer-build-reviewed |
+| M024859 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvdMulPowEtaleNbhdZeroLocus` | volunteer-build-reviewed |
+| M024870 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrExtensionOfEssentiallyEtaleLocal` | volunteer-build-reviewed |
 | M024880 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrOfDimOne` | volunteer-build-reviewed |
 | M024897 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEffectiveCartierDivisorAddEffectiveStatement` | volunteer-build-reviewed |
 | M024941 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEllipticReproducingTestFunctionLaplacian` | volunteer-build-reviewed |
@@ -197,6 +217,7 @@
 | M026225 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHyperbolicPairSelfDualLatticeIsotropic` | volunteer-build-reviewed |
 | M026226 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHyperbolicPairSelfDualLatticeIsotropicStatement` | volunteer-build-reviewed |
 | M026246 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdealSectionsEq` | volunteer-build-reviewed |
+| M026249 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdealSheafDataOfCompatible` | volunteer-build-reviewed |
 | M026250 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdealSheafDataOfCompatibleStatement` | volunteer-build-reviewed |
 | M026265 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdeleWithArchimedeanComponents` | volunteer-build-reviewed |
 | M026266 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdeleWithArchimedeanComponentsStatement` | volunteer-build-reviewed |
@@ -381,24 +402,3 @@
 | M027520 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMemSubmonoidDvdMulOfForallHeightEqOne` | volunteer-build-reviewed |
 | M027530 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMinimalLocalGenerators` | volunteer-build-reviewed |
 | M027547 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMixedSpaceDualVectorTraceForm` | volunteer-build-reviewed |
-| M027602 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqOfPolynomialGrowth` | volunteer-build-reviewed |
-| M027603 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqZeroOfSmulEqZero` | wave-reused |
-| M027607 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulInvolEqOfFixed` | volunteer-build-reviewed |
-| M027608 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulIsIntegralElemOfForallDiscreteValuation` | volunteer-build-reviewed |
-| M027611 | P0298 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulMemIntegralClosureOverGenericFibre` | wave-reused |
-| M027614 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulMulEqOfTraceEq` | volunteer-build-reviewed |
-| M027616 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulPEqOfTranslInvariant` | wave-reused |
-| M027617 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulPEqOfTranslInvariantStatement` | wave-reused |
-| M027622 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulVecEqPow` | volunteer-build-reviewed |
-| M027624 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMultilinearFactorizationStatement` | volunteer-build-reviewed |
-| M027625 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMultilinearFormOfPicTorsion` | volunteer-build-reviewed |
-| M027659 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMvPolynomialPickPoint` | volunteer-build-reviewed |
-| M027662 | P1249 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNatMulIntegralOfIsCompact` | volunteer-build-reviewed |
-| M027663 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNatMulIsIntegral` | volunteer-build-reviewed |
-| M027665 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNatMulMemRangePiQuotientMinimalPrimesStatement` | volunteer-build-reviewed |
-| M027669 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNatSmulMatrixMulVecCompletedSelfDual` | volunteer-build-reviewed |
-| M027670 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNatSmulMatrixMulVecCompletedSelfDualStatement` | volunteer-build-reviewed |
-| M027677 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNaturalHomotopyEquivChainsConstantPresheaf` | wave-reused |
-| M027678 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNaturalHomotopyEquivChainsConstantPresheafStatement` | wave-reused |
-| M027681 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroAlgebraMapEqMulOfFormallyUnramifiedA` | volunteer-build-reviewed |
-| M027682 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroAlgebraMapEqMulOfFormallyUnramifiedAStatement` | volunteer-build-reviewed |

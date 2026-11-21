@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M003112 | P0945 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsPreDataDyadicFrame` | volunteer-build-reviewed |
+| M003115 | P1501 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsSameFOfDiv` | volunteer-build-reviewed |
+| M003120 | P1501 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsTangentOrigin` | volunteer-build-reviewed |
 | M003128 | P1001 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExpoConjOfIsCsd` | build-observed |
 | M003134 | P1501 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FinTypRepCast` | volunteer-build-reviewed |
 | M003135 | P0838 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FiniteDimensionalLetter` | wave-reused |
@@ -352,10 +355,12 @@
 | M004258 | P1472 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.JetSplitAmb` | volunteer-build-reviewed |
 | M004263 | P0435 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.KaehlerOneFormsToExtensionDeRhamMulSelf` | build-observed |
 | M004271 | P1324 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.MZmix` | build-observed |
+| M004280 | P0173 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.NegOnePowBoundaryTermsCancel` | build-observed |
 | M004282 | P1272 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.NormalFam` | build-observed |
 | M004283 | P0784 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.NotDvdCondN` | volunteer-build-reviewed |
 | M004288 | P0002 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.OfNatTrans` | wave-reused |
 | M004296 | P0095 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.PolyApproxZeroPadic` | wave-reused |
+| M004300 | P0549 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.PullTotMemBTot` | build-observed |
 | M004307 | P0002 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.ReductionUniformizerPoint` | volunteer-build-reviewed |
 | M004321 | P0705 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.SplitRep` | build-observed |
 | M004323 | P0946 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.StdBases` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M004427 | P0173 | `Development.AbelianVarietyTheory.Definitions.HermitianLattices.ExistsZsmulMemOfIsLattice` | wave-reused |
 | M004428 | P0347 | `Development.AbelianVarietyTheory.Definitions.HermitianLattices.TraceFormBilinSeparatingLeftIff` | wave-reused |
 | M004430 | P0096 | `Development.AbelianVarietyTheory.Definitions.Jets.CmLatticeCommutatorPairingPowEqOneOfGoodLift` | volunteer-build-reviewed |
-| M004432 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.ColValMonomial` | wave-reused |
-| M004434 | P1218 | `Development.AbelianVarietyTheory.Definitions.Jets.DepthNumbersThresholdEq` | build-observed |
-| M004435 | P1193 | `Development.AbelianVarietyTheory.Definitions.Jets.EmbShortThLeThetaPlain` | build-observed |
-| M004437 | P1298 | `Development.AbelianVarietyTheory.Definitions.Jets.ExistsSecTieFOfTies` | build-observed |
-| M004439 | P0003 | `Development.AbelianVarietyTheory.Definitions.Jets.Imports` | volunteer-build-reviewed |

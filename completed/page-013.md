@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M017136 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechNerveLevelwiseEquivalenceIntegralPullbackStatement` | build-observed |
+| M017154 | P1145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechPicardClassEqZeroOfSquareZeroRetractionStatement` | volunteer-build-reviewed |
+| M017171 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechPullOneBijectiveLatticeCover` | volunteer-build-reviewed |
+| M017175 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechTripleRestrictCompositeInjectiveSecond` | wave-reused |
+| M017203 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CellFunctorTransposedTwoBlockStatement` | volunteer-build-reviewed |
+| M017204 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CellFunctorTwoBlockEquiv` | volunteer-build-reviewed |
+| M017208 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CellIrreducibleSubquotientStatement` | volunteer-build-reviewed |
+| M017211 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CellMulSimpleUIntegral` | volunteer-build-reviewed |
+| M017227 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CenterActsByScalarOnEigenforms` | volunteer-build-reviewed |
+| M017253 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentraliserInvolution` | volunteer-build-reviewed |
+| M017263 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentralizerInfConjIntegralGLProdLeCptPart` | volunteer-build-reviewed |
+| M017266 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentralizerRegularRationalPointFiniteAdelicComm` | volunteer-build-reviewed |
+| M017268 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentralizerScalarPadicBounded` | volunteer-build-reviewed |
+| M017275 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentreCompat` | volunteer-build-reviewed |
+| M017282 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentredBlockSumBounds` | build-observed |
 | M017297 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChSingle` | volunteer-build-reviewed |
 | M017303 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainBoundedAndSupProper` | volunteer-build-reviewed |
 | M017335 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsBasic` | wave-reused |
@@ -106,6 +121,7 @@
 | M018165 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CocompactStandardParabolicUnipotentRadicalWittFrStatement` | volunteer-build-reviewed |
 | M018168 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CocycleCompHomComplexAssocOnCohomologyClasses` | wave-reused |
 | M018169 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CocycleCompHomComplexAssocOnCohomologyClassesStatement` | wave-reused |
+| M018173 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CocycleHolomorphicCoboundaryLocal` | volunteer-build-reviewed |
 | M018179 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CocycleOneFormsCoboundaryOfRestrict` | wave-reused |
 | M018198 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoefMapNormEquivariantBasisAlt` | volunteer-build-reviewed |
 | M018203 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffAddPPowMulLt` | wave-reused |
@@ -386,19 +402,3 @@
 | M020306 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalCharacterGLIsCharacterNormOneOfRegular` | wave-reused |
 | M020307 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalCharacterGLIsCharacterNormOneOfRegularStatement` | wave-reused |
 | M020315 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalHarishChandraFiniteFormBoundedDetNormBan` | volunteer-build-reviewed |
-| M020316 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalHarishChandraFiniteFormBoundedDetNormBanStatement` | volunteer-build-reviewed |
-| M020317 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalIdempotentCharacters` | build-observed |
-| M020339 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalScaleHermitianForm` | volunteer-build-reviewed |
-| M020341 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalSpectrumFinitenessOfDecayHarishChandra` | volunteer-build-reviewed |
-| M020354 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CutoffHoloSmoothDbarFormula` | wave-reused |
-| M020355 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CutoffHoloSmoothDbarFormulaStatement` | wave-reused |
-| M020364 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclicGeneratorsInvariantTop` | wave-reused |
-| M020365 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclicGeneratorsInvariantTopStatement` | wave-reused |
-| M020366 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclicTorsorEtale` | wave-reused |
-| M020368 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicPrimitiveRootsFilteredColimit` | wave-reused |
-| M020369 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicPrimitiveRootsFilteredColimitStatement` | wave-reused |
-| M020370 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicSumNormSqEqOneSingleNonzero` | volunteer-build-reviewed |
-| M020371 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicSumNormSqEqOneSingleNonzeroStatement` | wave-reused |
-| M020379 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DBaseApply` | volunteer-build-reviewed |
-| M020383 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMDetbPEqZero` | volunteer-build-reviewed |
-| M020385 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DOnEqZeroOfEqOne` | wave-reused |

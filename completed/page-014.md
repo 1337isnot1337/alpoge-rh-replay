@@ -2,6 +2,22 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M020316 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalHarishChandraFiniteFormBoundedDetNormBanStatement` | volunteer-build-reviewed |
+| M020317 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalIdempotentCharacters` | build-observed |
+| M020339 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalScaleHermitianForm` | volunteer-build-reviewed |
+| M020341 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalSpectrumFinitenessOfDecayHarishChandra` | volunteer-build-reviewed |
+| M020354 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CutoffHoloSmoothDbarFormula` | wave-reused |
+| M020355 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CutoffHoloSmoothDbarFormulaStatement` | wave-reused |
+| M020364 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclicGeneratorsInvariantTop` | wave-reused |
+| M020365 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclicGeneratorsInvariantTopStatement` | wave-reused |
+| M020366 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclicTorsorEtale` | wave-reused |
+| M020368 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicPrimitiveRootsFilteredColimit` | wave-reused |
+| M020369 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicPrimitiveRootsFilteredColimitStatement` | wave-reused |
+| M020370 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicSumNormSqEqOneSingleNonzero` | volunteer-build-reviewed |
+| M020371 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicSumNormSqEqOneSingleNonzeroStatement` | wave-reused |
+| M020379 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DBaseApply` | volunteer-build-reviewed |
+| M020383 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMDetbPEqZero` | volunteer-build-reviewed |
+| M020385 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DOnEqZeroOfEqOne` | wave-reused |
 | M020386 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DOpMemDStep` | volunteer-build-reviewed |
 | M020390 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DTermOrigin` | build-observed |
 | M020391 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DUnitMemRangeOfMemKerIdeal` | wave-reused |
@@ -162,6 +178,7 @@
 | M021336 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtPullbackFormStatement` | volunteer-build-reviewed |
 | M021341 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtZeroHeisenbergCMRealLineTheta` | volunteer-build-reviewed |
 | M021342 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtZeroHeisenbergCMRealLineThetaStatement` | volunteer-build-reviewed |
+| M021349 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOnFderiv` | volunteer-build-reviewed |
 | M021352 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOnFramesOfKilledNilpotentDerivativ` | volunteer-build-reviewed |
 | M021364 | P1248 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableZterm` | build-observed |
 | M021377 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DigitsSumLeLogb` | volunteer-build-reviewed |
@@ -385,20 +402,3 @@
 | M022726 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAtPrimeOfRegularOfIsIntegrallyClosedIn` | wave-reused |
 | M022727 | P0785 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAtPrimeOfRegularOfIsIntegrallyClosedInStatement` | wave-reused |
 | M022728 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAwayOfIsEtaleAtOffSubmonoid` | wave-reused |
-| M022729 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAwayOfIsEtaleAtOffSubmonoidStatement` | wave-reused |
-| M022734 | P0733 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCechAugmentationEquivOfSection` | build-observed |
-| M022735 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCechAugmentationEquivOfSectionStatement` | build-observed |
-| M022736 | P1059 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCechAugmentationSepClosureIsEquivalence` | wave-reused |
-| M022737 | P1087 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCechAugmentationSepClosureIsEquivalenceStatement` | wave-reused |
-| M022738 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCechNerveBaseChangeIsPullback` | wave-reused |
-| M022739 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCechNerveBaseChangeIsPullbackStatement` | build-observed |
-| M022740 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleChainsDiscBiprodDescIsIso` | build-observed |
-| M022741 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleChainsDiscBiprodDescIsIsoStatement` | build-observed |
-| M022746 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCochainEvalOnSimplexBasicProperties` | wave-reused |
-| M022747 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCochainEvalOnSimplexBasicPropertiesStatement` | wave-reused |
-| M022748 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCochainEvalOnSimplexDifferentialValues` | wave-reused |
-| M022749 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCochainEvalOnSimplexDifferentialValuesStatement` | wave-reused |
-| M022750 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCochainShortExactOfInjectiveTerms` | wave-reused |
-| M022752 | P0785 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCocycleCoboundaryIff` | wave-reused |
-| M022753 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCocycleCoboundaryIffStatement` | wave-reused |
-| M022754 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyBijectiveOfSupportBijective` | wave-reused |

@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M093417"
+  ],
+  "started_utc": "2026-11-20T23:58:08.411949+00:00",
+  "ended_utc": "2026-11-20T23:58:21.961809+00:00",
+  "elapsed_seconds": 13.5,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16207816,
+    "peak_child_rss_kib": 6736828
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIrreducibleSubrepWithGroupAlgebraFixed:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "88cb4de65abab0d77d6a352b8bfe061c4aacee06ab79ad12c8bf8726f9f65f8a",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M093417": "33c5a27cdd006d4e1eb93d871aaee5d87ce445f18c8813ffad257c413bc28167"
+  },
+  "bundle_sha256": "fb382234f8b50c9edb89fe493b84a37ac67ef2fe4b2ae9edacff70b8fb1310dd",
+  "packet": "M093417",
+  "contributor": "ANdATIon",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/7269#issuecomment-7053656668",
+  "reviewed_utc": "2026-11-21T00:03:34.325520+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

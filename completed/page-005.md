@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004432 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.ColValMonomial` | wave-reused |
+| M004434 | P1218 | `Development.AbelianVarietyTheory.Definitions.Jets.DepthNumbersThresholdEq` | build-observed |
+| M004435 | P1193 | `Development.AbelianVarietyTheory.Definitions.Jets.EmbShortThLeThetaPlain` | build-observed |
+| M004437 | P1298 | `Development.AbelianVarietyTheory.Definitions.Jets.ExistsSecTieFOfTies` | build-observed |
+| M004439 | P0003 | `Development.AbelianVarietyTheory.Definitions.Jets.Imports` | volunteer-build-reviewed |
 | M004442 | P1245 | `Development.AbelianVarietyTheory.Definitions.Jets.IsSelfOf` | build-observed |
 | M004443 | P0865 | `Development.AbelianVarietyTheory.Definitions.Jets.JetsOnCopiesCompatibleFrames` | build-observed |
 | M004445 | P0003 | `Development.AbelianVarietyTheory.Definitions.Jets.PowerSeriesHasSumAt` | volunteer-build-reviewed |
@@ -152,6 +157,7 @@
 | M004926 | P0003 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.Cint` | wave-reused |
 | M004927 | P0174 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.CintTranslate` | wave-reused |
 | M004929 | P0515 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.CmStarOfIsCMUnram` | build-observed |
+| M004930 | P0239 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.CokernelPairSum` | volunteer-build-reviewed |
 | M004931 | P0239 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.ComplementReferenceCompactSubgroup` | wave-reused |
 | M004934 | P0758 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.DefClassNum` | build-observed |
 | M004935 | P0810 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.DegVand` | volunteer-build-reviewed |
@@ -396,9 +402,3 @@
 | M005333 | P0436 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SplitTorusHomProperTrivialLocal` | wave-reused |
 | M005334 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SurjectiveAppOfIsAbelianScheme` | wave-reused |
 | M005335 | P0732 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SymmetricLiftOddOrderExistsUnique` | wave-reused |
-| M005336 | P0759 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SymmetricLiftOddOrderExistsUniqueStatement` | wave-reused |
-| M005337 | P0811 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ThetaGrpActsLinearly` | wave-reused |
-| M005338 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.TrdegEqOfLocallyIsStandardSmoothOfRelativeDimens` | wave-reused |
-| M005339 | P0648 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.TrivBasicOpenOfTrivFibre` | wave-reused |
-| M005340 | P0811 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.TrivPullCompIff` | wave-reused |
-| M005341 | P0784 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.TwistedPowTranslate` | wave-reused |
