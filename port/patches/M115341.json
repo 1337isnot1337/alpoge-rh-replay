@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ImportsExtraTail",
+  "source_sha256": "da94b4ed1a7dbd3b08018c5e513a42f1adc3724ff6de7364923d832c6f46c119",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

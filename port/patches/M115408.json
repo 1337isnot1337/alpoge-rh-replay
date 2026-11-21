@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IndependenceCharacters",
+  "source_sha256": "742d4cb37141f125bd161daf72acd6ca3f4f5da9d22ca9a08ffa74444a2e4b1d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

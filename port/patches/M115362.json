@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ImportsMoreTail",
+  "source_sha256": "1a798161a575a0f175f4c2d9c1151769ffc8021d7f1c9bc6d6fd392fa38b040b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename IsUltrametricDist.exists_norm_finset_sum_le to IsUltrametricDist.exists_norm_finsetSum_le for Mathlib v4.36.0."
+}

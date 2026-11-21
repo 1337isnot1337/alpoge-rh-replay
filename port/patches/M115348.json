@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ImportsFurtherMore",
+  "source_sha256": "044000145f1fb3f1037cf0391d023501bbd7296b2bc2ea4240ccec7255a7e7cc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite \u2190 Ideal.under_def before hQP (Ideal.under \u2124 Q) for Mathlib v4.36.0."
+}

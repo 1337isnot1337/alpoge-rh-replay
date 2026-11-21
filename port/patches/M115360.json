@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ImportsMoreRest",
+  "source_sha256": "648eda4a4b783c42bc6b6bf520e24dd1043eae8989db19f0cb2f46fa523e17dc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite Ideal.under_def before RingHom.ker_eq_comap_bot in Ideal.exists_ideal_over_prime_of_isIntegral argument for Mathlib v4.36.0."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.InfiniteNormOneElements",
+  "source_sha256": "cd888893d946dcc44241dce7dc4d2ea7e5c36ed1ada4340b179724678836b17c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
