@@ -1,0 +1,22 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsFiniteGaloisContainsRootsOfUnits.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsFiniteGaloisContainsRootsOfUnits.lean
+@@ -10,7 +10,8 @@ theorem exists_finite_galois_mem_of_pow_eq_unit : ∀ (E F Ω : Type) [Field E]
+   intro E F Ω _ _ _ _ _ _ _ _ _ M hM ⟨ζ, hζ⟩
+   haveI : NeZero M := ⟨hM.ne'⟩
+   haveI : CharZero F := charZero_of_injective_algebraMap (algebraMap E F).injective
+-  obtain ⟨S, hS⟩ := Monoid.fg_def.1 (inferInstance : Monoid.FG (𝓞 E)ˣ)
++  obtain ⟨S₀, hS₀, hS₀fin⟩ := Monoid.fg_iff.1 (inferInstance : Monoid.FG (𝓞 E)ˣ)
++  let S := hS₀fin.toFinset
+   let c : (𝓞 E)ˣ → F := fun u => algebraMap E F ((u : 𝓞 E) : E)
+   let p : F[X] := ∏ s ∈ S, (X ^ M - C (c s))
+   have hp : p ≠ 0 := Finset.prod_ne_zero_iff.2 fun s _ => X_pow_sub_C_ne_zero hM _
+@@ -32,7 +33,8 @@ theorem exists_finite_galois_mem_of_pow_eq_unit : ∀ (E F Ω : Type) [Field E]
+   have hφ0 : ∀ u, φ u ≠ 0 := fun u => ((Group.isUnit u).map φ).ne_zero
+   intro u
+   simp only [← hφ]
+-  have hall : u ∈ Submonoid.closure (S : Set (𝓞 E)ˣ) := by rw [hS]; trivial
++  have hall : u ∈ Submonoid.closure (S : Set (𝓞 E)ˣ) := by
++    rw [hS₀fin.coe_toFinset, hS₀]; trivial
+   induction hall using Submonoid.closure_induction with
+   | mem s hs =>
+     intro w hw

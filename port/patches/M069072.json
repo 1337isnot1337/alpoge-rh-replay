@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsGLOfSpanRangeEqLocalRing",
+  "source_sha256": "ae32df6c303a679743469762bed89090c51fa607a4fe3d50648b415fa2a141a6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Eliminate the Submodule.linearProjOfIsCompl coercion without ZeroHomClass simp search and finish via LinearEquiv.injective. Statements are unchanged."
+}

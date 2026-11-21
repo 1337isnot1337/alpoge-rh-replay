@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsWittVectorGhostEqFrobeniusIterate",
+  "source_sha256": "48c0cdd2897329fa5e8be05d7a661918e4cbdeb86a1d3b7d4d8c34f1a8e25e38",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove redundant rfl after rw [WittVector.ghostComponent_apply, ...]. Statements are unchanged."
+}

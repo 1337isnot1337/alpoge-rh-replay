@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsRootMulPowApprox",
+  "source_sha256": "6ad08faadd537a8fe0f697da4f2d2b4356b6bad70bf66dc146ca331fe9ef3585",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace ext; simpa with explicit Subtype.ext (Units.ext ...) on the subgroup unit equality. Statements are unchanged."
+}
