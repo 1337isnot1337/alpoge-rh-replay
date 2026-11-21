@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.DualLattices.TransposeMulSelf",
+  "source_sha256": "a5b00636072de1b7e48f5752418b896c3684811be8e812c4b0056d1251ef31b8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0168-issue-26518/P0168-receipt.json"
+}

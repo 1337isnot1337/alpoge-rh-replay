@@ -1,0 +1,13 @@
+--- a/src/ReciprocityTheory/GaloisValuations/GlobalB.lean
++++ b/src/ReciprocityTheory/GaloisValuations/GlobalB.lean
+@@ -246,8 +246,8 @@
+   set Q := primeBelow (F := F) A with hQ
+   haveI : v.asIdeal.IsMaximal := v.isMaximal
+   haveI : Q.LiesOver v.asIdeal := ⟨(under_primeBelow hA).symm⟩
+-  haveI : Q.IsMaximal := Ideal.isMaximal_of_isIntegral_of_isMaximal_comap (R := 𝓞 F) Q
+-    (by rw [show Ideal.comap (algebraMap (𝓞 F) (IntCl F Ω)) Q = v.asIdeal from
++  haveI : Q.IsMaximal := Ideal.isMaximal_of_isIntegral_of_isMaximal_under (R := 𝓞 F) Q
++    (by rw [Ideal.under, show Ideal.comap (algebraMap (𝓞 F) (IntCl F Ω)) Q = v.asIdeal from
+       under_primeBelow hA]; exact v.isMaximal)
+   letI : Field (IntCl F Ω ⧸ Q) := Ideal.Quotient.field Q
+   letI : Field (𝓞 F ⧸ v.asIdeal) := Ideal.Quotient.field v.asIdeal

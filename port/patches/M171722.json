@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.DualLattices.CotangentSurjective",
+  "source_sha256": "aef08d0eb60a552a2fc8dd069894dafeb41f9e6c36c8e5d16bc0f20a8a37b4c6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0168-issue-26518/P0168-receipt.json"
+}

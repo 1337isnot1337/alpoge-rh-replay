@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.DualLattices.InstAddCommMonoidFibreFst",
+  "source_sha256": "26233903fa7a72aa50502c9d5082d1fdc8255d977d9db4624d576686d6602abc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0168-issue-26518/P0168-receipt.json"
+}

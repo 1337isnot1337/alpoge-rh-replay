@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.DualLattices.ValUntiltESubOne",
+  "source_sha256": "55cb0af8b7cad2dddf0c2f0e2dfb44a81c7dd5791b2aae741e16897b6f12502b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Polynomial.eval₂_finset_sum is now Polynomial.eval₂_finsetSum. Proof-only change.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0168-issue-26518/P0168-receipt.json"
+}
