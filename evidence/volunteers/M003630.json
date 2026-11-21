@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M003630"
+  ],
+  "started_utc": "2026-11-21T01:40:05.930223+00:00",
+  "ended_utc": "2026-11-21T01:57:29.821459+00:00",
+  "elapsed_seconds": 1043.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 8133396,
+    "peak_child_rss_kib": 4332296
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.Divisors.IdTower:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ad43ac907b864cddd7f8a363f2faf94552a81df27473953842c697a1e4def829",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.GalMapMul",
+    "Development.AbelianVarietyTheory.Definitions.Divisors.IsCorrOpOfAvg",
+    "Development.AbelianVarietyTheory.Definitions.Divisors.PullHlComp",
+    "Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsMatrixForm",
+    "Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsStrictlySemistableAlt"
+  ],
+  "objects": {
+    "M003630": "39dfef2e458b4efcae70702dd7dc805e326c5cdc949bf93141dd416122bf406f"
+  },
+  "bundle_sha256": "6540fd4688dbcc3ef512b20a5aead47c64d24750d1caf93614ea4466a8331050",
+  "packet": "M003630",
+  "contributor": "mdpmcc",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9712#issuecomment-7055519034",
+  "reviewed_utc": "2026-11-21T06:08:23.757960+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

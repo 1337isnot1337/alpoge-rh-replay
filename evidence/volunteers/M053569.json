@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M053569"
+  ],
+  "started_utc": "2026-11-21T01:33:16.929301+00:00",
+  "ended_utc": "2026-11-21T01:33:26.356945+00:00",
+  "elapsed_seconds": 9.4,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6830668
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionPointOfLatticeTauLatticeMembershipStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9b74813bf49e5808d2f808375eb2c5cd32ce11b3303bfee312738f541a40ab17",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionPointOfLatticeTauLatticeMembership"
+  ],
+  "objects": {
+    "M053569": "f5e9f179d3c87dd630b9d9a8e328fdf3ba00029762c49e4b3ff9889ee91202c2"
+  },
+  "bundle_sha256": "e34a99ff1b496e93b0d92037b3ebd3e0a23a00604b51b666fd2b8e45a195081b",
+  "packet": "M053569",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9771#issuecomment-7055207353",
+  "reviewed_utc": "2026-11-21T06:00:12.685923+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

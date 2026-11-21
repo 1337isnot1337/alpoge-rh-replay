@@ -253,4 +253,4 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M028863](https://github.com/rohanarun/alpoge-rh-replay/issues/7659#issuecomment-7054638198) | 1 | [Build evidence verified](../../../evidence/volunteers/M028863.json) |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M138084](https://github.com/rohanarun/alpoge-rh-replay/issues/8954#issuecomment-7054859404) | 1 | [Build evidence verified](../../../evidence/volunteers/M138084.json) |
 | [@rayy3535](https://github.com/rayy3535) | [M097987](https://github.com/rohanarun/alpoge-rh-replay/issues/8880#issuecomment-7054700071) | 1 | [Build evidence verified](../../../evidence/volunteers/M097987.json) |
-| [@aapolipponen](https://github.com/aapolipponen) | [P1377](https://github.com/rohanarun/alpoge-rh-replay/issues/1036#issuecomment-7053609431) | 64 | [Build evidence verified](../../../evidence/volunteers/P1377.json) |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M128330](https://github.com/rohanarun/alpoge-rh-replay/issues/9694#issuecomment-7055227764) | 1 | [Build evidence verified](../../../evidence/volunteers/M128330.json) |

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M144623"
+  ],
+  "started_utc": "2026-11-21T01:45:59.804383+00:00",
+  "ended_utc": "2026-11-21T01:48:42.928995+00:00",
+  "elapsed_seconds": 163.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 7981840,
+    "peak_child_rss_kib": 5361108
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.ExceptionalCharacterBounds.EffSmooth:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "83991e904bda38e4e0c4f010b491857b8b8cbbb32e60ea15d3a21a0deee46170",
+  "rebuilt_project_modules": [
+    "Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.ExceptionalCharacterBounds.EffBase"
+  ],
+  "objects": {
+    "M144623": "6ccc12070217766cdd395902590aff08697e88a18e97bc45cb9eb2f88202d560"
+  },
+  "bundle_sha256": "dbb3e5662e67df711190c1f4b3104ef228ea09fec9b23489b7e4e84c35dc4ef8",
+  "packet": "M144623",
+  "contributor": "WorldianAI",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9872#issuecomment-7055431105",
+  "reviewed_utc": "2026-11-21T06:15:27.316872+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

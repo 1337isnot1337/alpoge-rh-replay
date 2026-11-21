@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M004702"
+  ],
+  "started_utc": "2026-11-21T01:58:00.520219+00:00",
+  "ended_utc": "2026-11-21T02:17:18.045751+00:00",
+  "elapsed_seconds": 1157.5,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 8133396,
+    "peak_child_rss_kib": 4401116
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ConvZero:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f1171d530174a9c64a12c05fcbfc436093961bec0a2b0d117a35ab6df03cc2ce",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsOfLayers",
+    "Formalism.CoboundaryTransfers.Statement",
+    "Formalism.SharpRestriction.LevelLetterCocycles.DataNLoc",
+    "Formalism.WeaklyAdmissibleFiltrations.Statement",
+    "Formalism.WeaklyAdmissibleFiltrations.StatementPC"
+  ],
+  "objects": {
+    "M004702": "b52570882bda44a162789a1020d7f91ecd8a6c1a1408737cc7390ca4a650d93a"
+  },
+  "bundle_sha256": "40f04e5159e718d27c78129e14ff4d8eda40e01ae02633080b664b1a1649efbd",
+  "packet": "M004702",
+  "contributor": "mdpmcc",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9721#issuecomment-7055788290",
+  "reviewed_utc": "2026-11-21T06:13:22.943904+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

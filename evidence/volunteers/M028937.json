@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M028937"
+  ],
+  "started_utc": "2026-11-21T00:39:37.279585+00:00",
+  "ended_utc": "2026-11-21T00:39:57.112161+00:00",
+  "elapsed_seconds": 19.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6205536
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSchwartzGaussWidth:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "942acb006ce225b81443628d8dee302207d052e994f84b6d2a85b76176d3cc56",
+  "rebuilt_project_modules": [
+    "GroundTheory.GlobalFields.TateThesis.GaussianSchwartz"
+  ],
+  "objects": {
+    "M028937": "9caa5b309aad3a7d7675cb8bbc170be5892d40f58bf4a642c97bff03f500cee8"
+  },
+  "bundle_sha256": "9e304444a578e216091d4cb0212965f9f84d80b95e3b074b892f8c26c8d0d3c2",
+  "packet": "M028937",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8359#issuecomment-7054345935",
+  "reviewed_utc": "2026-11-21T06:17:28.296889+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

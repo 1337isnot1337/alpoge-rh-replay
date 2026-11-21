@@ -147,6 +147,7 @@
 | M001085 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.InfiniteProductRenormalizationStatement` | volunteer-build-reviewed |
 | M001086 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.IntegralAlmostAllPlaces` | volunteer-build-reviewed |
 | M001087 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.IntegralAlmostAllPlacesStatement` | volunteer-build-reviewed |
+| M001088 | P0094 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.InvariantMeasureCompactCoverBound` | volunteer-build-reviewed |
 | M001089 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.InvariantMeasureCompactCoverBoundStatement` | volunteer-build-reviewed |
 | M001090 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.IsFibreFamilyTransport` | volunteer-build-reviewed |
 | M001091 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.IsotropicVectorSplitsHyperbolicPlane` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M001681 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FlagFacts` | volunteer-build-reviewed |
 | M001682 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FlagFactsStatement` | volunteer-build-reviewed |
 | M001690 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FrameOfAnisotropicPlaneSplittingStatement` | volunteer-build-reviewed |
-| M001691 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FreeAlgebraActionOnSubquotient` | volunteer-build-reviewed |

@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M106487"
+  ],
+  "started_utc": "2026-11-21T01:40:08.379380+00:00",
+  "ended_utc": "2026-11-21T01:40:27.432273+00:00",
+  "elapsed_seconds": 19.1,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16078416,
+    "peak_child_rss_kib": 7219680
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.TraceFormulaEigenvalues.TraceFibreCardinality.FinsumShift:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b2fb4da642c3f3c7dca7dce1548dc440fb96542e41ef66e4787c311795275b48",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.TraceFormulaEigenvalues.FormsFin",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.TraceFormulaEigenvalues.IsGenEig",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.TraceFormulaEigenvalues.TraceFibreCardinality.RepIndep",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.Wcount"
+  ],
+  "objects": {
+    "M106487": "8c67d241a58071664cfdb34cde29fd534a173c7af7f17f4b0058a63e70d496c6"
+  },
+  "bundle_sha256": "cd0fa09693db89530154242e8ef3ad041bbb7ecca4766ddd6ef2e8a4bbb47c12",
+  "packet": "M106487",
+  "contributor": "walkingsophie",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9931#issuecomment-7055338704",
+  "reviewed_utc": "2026-11-21T06:06:40.644941+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

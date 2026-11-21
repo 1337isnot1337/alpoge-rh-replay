@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M169434"
+  ],
+  "started_utc": "2026-11-21T01:31:58.587097+00:00",
+  "ended_utc": "2026-11-21T01:32:12.126588+00:00",
+  "elapsed_seconds": 13.5,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 23809704,
+    "peak_child_rss_kib": 6906704
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.RemainderTerms.StatementsSchur:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "26697c6baa50c21dbce05481a2c456b6c6248162a45c9aa5be06d7f736de778a",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.VandermondeOfEqDet",
+    "GroundTheory.HeightsAndTheta.Heights.KernelsRest",
+    "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.AltCoeff",
+    "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.JacobiTrudi"
+  ],
+  "objects": {
+    "M169434": "aa6fba1c266ae6a2c6f249b4fce334a7b78fd98fa28eb57230d2a730a8d01b1f"
+  },
+  "bundle_sha256": "60abd07105d11bf61ecf1d807dd37ca7bdd79a588e17dc6435c23136552471b7",
+  "packet": "M169434",
+  "contributor": "matan1905",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9723#issuecomment-7055192167",
+  "reviewed_utc": "2026-11-21T06:14:38.940815+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

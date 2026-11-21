@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M099557"
+  ],
+  "started_utc": "2026-11-21T01:33:16.138494+00:00",
+  "ended_utc": "2026-11-21T01:33:31.368919+00:00",
+  "elapsed_seconds": 15.2,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 24721248,
+    "peak_child_rss_kib": 6926892
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsIntegralUnitRootNormOneAdele:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2ad9c5c1038dd8b8693583feba7b90ff96c087ace7caef3981a421cac6afbe14",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.Hat1",
+    "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.AdelicCompletionFractionalIdealProperties"
+  ],
+  "objects": {
+    "M099557": "65fadc1c864145c370c74596b804a2cf6df488a9d942d77e84c814f568b6e314"
+  },
+  "bundle_sha256": "1221df5858ad5ed9b46a76588c326a5f1c0eff69969201b14defe4d777fec679",
+  "packet": "M099557",
+  "contributor": "ljagiello",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9788#issuecomment-7055206052",
+  "reviewed_utc": "2026-11-21T06:09:32.586795+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

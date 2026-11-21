@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005763 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NormDifferenceIndexIdentity` | wave-reused |
+| M005764 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NormDifferenceIndexIdentityStatement` | wave-reused |
+| M005767 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NormOneInfinite` | volunteer-build-reviewed |
+| M005777 | P1194 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.OmAtSmulRight` | volunteer-build-reviewed |
+| M005781 | P1194 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.OneEqSumPlaceIdempotentsOverTwoAddTwoMul` | build-observed |
+| M005782 | P1218 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.OneEqSumPlaceIdempotentsOverTwoAddTwoMulStatement` | build-observed |
+| M005783 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.OneSubRePosOfNormLeHalf` | volunteer-build-reviewed |
+| M005784 | P0394 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PIdxUnitsFiniteExtensionAdicCompletion` | wave-reused |
+| M005790 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowIndexTorsionFiniteKerRange` | wave-reused |
+| M005791 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowIndexTorsionFiniteKerRangeStatement` | wave-reused |
+| M005792 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowIndexTorsionKerRangeMul` | wave-reused |
+| M005793 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowIndexTorsionKerRangeMulStatement` | wave-reused |
+| M005796 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowPrimeRangeEqIteratedDifference` | wave-reused |
+| M005797 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PowPrimeRangeEqIteratedDifferenceStatement` | wave-reused |
+| M005799 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PrimeIdempotentEqIndicatorPrime` | volunteer-build-reviewed |
 | M005800 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.PrimeIdempotentEqIndicatorPrimeStatement` | volunteer-build-reviewed |
 | M005803 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ProdAbsNormPowValuationTwoLe` | wave-reused |
 | M005804 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ProdAbsNormPowValuationTwoLeStatement` | wave-reused |
@@ -147,6 +162,7 @@
 | M006020 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsStandardUnipotentRadicalBijOnNilradicalStatement` | volunteer-build-reviewed |
 | M006021 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsSylowOverSubgroup` | wave-reused |
 | M006022 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsSylowOverSubgroupStatement` | wave-reused |
+| M006023 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsTeichmullerMapAlgebraicClosureFiniteField` | volunteer-build-reviewed |
 | M006024 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsTeichmullerMapAlgebraicClosureFiniteFieldStatement` | build-observed |
 | M006025 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsWeightIdempotent` | wave-reused |
 | M006026 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsWeightIdempotentStatement` | wave-reused |
@@ -386,19 +402,3 @@
 | M006266 | P1473 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsUniqueHomExtensionSemiAbelian` | build-observed |
 | M006267 | P0348 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsUniqueLbIsoPullEqOfCoheightLeOne` | wave-reused |
 | M006268 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsUnitSmulEqOfBijectiveToSpanSingleton` | wave-reused |
-| M006269 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsWitnessesOfFormallySmoothQuotient` | wave-reused |
-| M006270 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsXPowSmulEqZeroOfEqXSubOneSmul` | wave-reused |
-| M006271 | P0296 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsXPowSmulMemSpanOfFiniteQuot` | wave-reused |
-| M006272 | P0348 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsXPowSmulMemSpanOfFiniteQuotStatement` | wave-reused |
-| M006273 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.FiniteCechHomologyOfFiniteCubeHomology` | wave-reused |
-| M006274 | P1246 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.FiniteCechLineBundleHomology` | wave-reused |
-| M006275 | P1272 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.FiniteCechLineBundleHomologyStatement` | wave-reused |
-| M006276 | P1420 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.FiniteFibrePoints` | build-observed |
-| M006277 | P0583 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.FiniteGrCechHomology` | wave-reused |
-| M006278 | P0516 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.FiniteHomologyCubeComplexGradedModule` | wave-reused |
-| M006279 | P0550 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.FiniteHomologyCubeComplexGradedModuleStatement` | wave-reused |
-| M006280 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.FinitePieceOfPolyGradedSMul` | wave-reused |
-| M006281 | P0678 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.FiniteQuotSMulTopXSubOneOfChart` | wave-reused |
-| M006282 | P0759 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.FinrankCechLBHomologyExtProd` | wave-reused |
-| M006283 | P0784 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.FinrankCechLBHomologyExtProdStatement` | wave-reused |
-| M006284 | P1559 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.FinrankMumfordBundleCechHomologyOrigin` | wave-reused |

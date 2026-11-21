@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M110963"
+  ],
+  "started_utc": "2026-11-21T01:35:06.574216+00:00",
+  "ended_utc": "2026-11-21T01:35:22.337519+00:00",
+  "elapsed_seconds": 15.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6871368
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.Foundations.Convolution.NormCharacterPowers.BcSumD:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ab1c8887a556ae658bce3cb56fd911bbeb10b73dbc1a56449eed9293808f8257",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.Foundations.Convolution.NormCharacterPowers.OrderAsym",
+    "Development.WeilBound.RepresentationTheoryGL.JacquetShalikaBounds.AbsoluteRigidity.NewtonLow"
+  ],
+  "objects": {
+    "M110963": "63c072ff577bd394d678cad52ff3a330b1416f94bda6537f21267e17275e4d46"
+  },
+  "bundle_sha256": "5fba8bf642d8066be1fc73e8c6f17243054ac4a630a466cccdc29e3f9aa2b4c6",
+  "packet": "M110963",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9795#issuecomment-7055232210",
+  "reviewed_utc": "2026-11-21T06:13:21.446181+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001691 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FreeAlgebraActionOnSubquotient` | volunteer-build-reviewed |
 | M001692 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FreeAlgebraActionOnSubquotientStatement` | volunteer-build-reviewed |
 | M001693 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FubiniOfParabolicHaarMultiple` | volunteer-build-reviewed |
 | M001697 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.GelfandKazhdanContragredientImports` | volunteer-build-reviewed |
@@ -156,6 +157,7 @@
 | M002135 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.GoodIdempotentBadPlaces` | build-observed |
 | M002136 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.GoodReductionModelReading` | build-observed |
 | M002141 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HermitianCurvatureForms` | volunteer-build-reviewed |
+| M002142 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HermitianInterpolation` | volunteer-build-reviewed |
 | M002143 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HodgeFrameGram` | volunteer-build-reviewed |
 | M002144 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HodgePeriodGram` | volunteer-build-reviewed |
 | M002147 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.IdeleNormTraceForm` | volunteer-build-reviewed |
@@ -399,6 +401,4 @@
 | M002665 | P1616 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.CuspidalNoRadicalFixed` | volunteer-build-reviewed |
 | M002666 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.DefiniteIndexDimensionCounts` | volunteer-build-reviewed |
 | M002670 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.DownUpLambdaOperators` | volunteer-build-reviewed |
-| M002677 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.FlatSpaceComponents` | volunteer-build-reviewed |
-| M002678 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.FourierJacobiAverage` | volunteer-build-reviewed |
-| M002681 | P0838 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.GaussianBinomialClosedForm` | volunteer-build-reviewed |
+| M002672 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.DualLiftInvariance` | volunteer-build-reviewed |

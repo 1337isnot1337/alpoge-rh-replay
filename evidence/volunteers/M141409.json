@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M141409"
+  ],
+  "started_utc": "2026-11-21T01:37:33.951182+00:00",
+  "ended_utc": "2026-11-21T01:37:57.975908+00:00",
+  "elapsed_seconds": 24.0,
+  "host": {
+    "cpu_count": 128,
+    "mem_total_kib": 395484908,
+    "peak_child_rss_kib": 7001760
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.SatakeExponents.UniformizerValuations.SubOfNonNil:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8f68cec952e2900be9061bc23330698212ca3548c399b9c4055c778b8a60ae29",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsSubquotientDetRepParInd",
+    "Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.LeviEmbMemNormalizerLower"
+  ],
+  "objects": {
+    "M141409": "b5790b20eff4ab7b5e8d70dfbf0ec18b22eb95c6d5659a635dc88d1eeec17e11"
+  },
+  "bundle_sha256": "cd5dba53399e423c0d484c270bbafd22ec1ac8e4ba542b92e134f5e12dbcd6ee",
+  "packet": "M141409",
+  "contributor": "BenCaunt",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9963#issuecomment-7055274884",
+  "reviewed_utc": "2026-11-21T06:04:06.624052+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

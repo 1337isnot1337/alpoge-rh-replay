@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M003978 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.ZetaActRefl` | wave-reused |
+| M003980 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.ZetaPair` | volunteer-build-reviewed |
+| M003983 | P1193 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.CoeSelfDualLatticeInFrameCoordinatesEq` | build-observed |
+| M003986 | P0002 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.Hat1` | wave-reused |
+| M003987 | P1169 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.MarkSpec` | build-observed |
+| M003989 | P0549 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.NormConst` | build-observed |
+| M003990 | P0784 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.PermutesRefl` | build-observed |
+| M003992 | P0095 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.SmulBasisMemHatIff` | volunteer-build-reviewed |
 | M003993 | P0549 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.UnivFrame` | wave-reused |
 | M003994 | P0838 | `Development.AbelianVarietyTheory.Definitions.Foundations.AbsCharNotUnitary` | build-observed |
 | M003999 | P1298 | `Development.AbelianVarietyTheory.Definitions.Foundations.AestronglyMeasurableQuotMeasureIffLift` | build-observed |
@@ -230,6 +238,7 @@
 | M004685 | P0096 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.AevalRootEqZeroIff` | volunteer-build-reviewed |
 | M004693 | P0731 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.CentralIdemCoeff` | wave-reused |
 | M004701 | P0239 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ConnPhiExtensionGeneratorEqZeta` | wave-reused |
+| M004702 | P0347 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ConvZero` | volunteer-build-reviewed |
 | M004704 | P0974 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.CrisToODToOCr` | wave-reused |
 | M004710 | P0758 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.CyclotomicFrobeniusPowerSeriesXEqMulQuotient` | wave-reused |
 | M004712 | P0946 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.DeltaStructureOfWittLengthTwoSection` | wave-reused |
@@ -393,12 +402,3 @@
 | M005018 | P0347 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.IrrelevantLeMapLinearGradedMap` | wave-reused |
 | M005019 | P0174 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.IsDomainAndIsIntegrallyClosedLocalizationOfIsInv` | build-observed |
 | M005020 | P0096 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.IsOpenOfMemIrreducibleComponentsOfFinite` | wave-reused |
-| M005021 | P0096 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.MemPrimitiveTensorsIffIsPrimitiveElem` | wave-reused |
-| M005022 | P0295 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.MulLeftCompOfPullbackPointEquivMul` | wave-reused |
-| M005023 | P0096 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.OpensRangeChartYSupOpensRangeChartZ` | wave-reused |
-| M005024 | P0003 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.PiTensorLiftCompSingle` | volunteer-build-reviewed |
-| M005025 | P0758 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.PowObjGeometricallyConnected` | wave-reused |
-| M005028 | P0347 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.FirstCoordinateAdmissible` | wave-reused |
-| M005030 | P0003 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IMemSiegel` | wave-reused |
-| M005031 | P0096 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IntMIffInt` | volunteer-build-reviewed |
-| M005032 | P1001 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IsBaseClassLevelAdapted` | volunteer-build-reviewed |

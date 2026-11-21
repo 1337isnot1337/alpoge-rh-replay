@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M101487"
+  ],
+  "started_utc": "2026-11-21T01:41:24.309321+00:00",
+  "ended_utc": "2026-11-21T01:42:16.750038+00:00",
+  "elapsed_seconds": 52.4,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16078416,
+    "peak_child_rss_kib": 7866468
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HidaCompleteRings.AdmLocal:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "54864d0c1a59bd6d4033df7820954506f52dcd59382d651147f245a92225147c",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HidaCompleteRings.AdmFin",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HidaCompleteRings.CompleteFin",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HidaCompleteRings.IsOrdProjZeroOfIsNilpotent",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HidaCompleteRings.OrdBasic"
+  ],
+  "objects": {
+    "M101487": "41c8c00b0d773dd4ceabbcfee3e22049ad2ed4f7d90f1a27d0b69881db8dfa38"
+  },
+  "bundle_sha256": "91b9081c9e235e7ef13137d1abe61c13e57d589fc7c1b37a1754d212cd4eef69",
+  "packet": "M101487",
+  "contributor": "walkingsophie",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9964#issuecomment-7055339486",
+  "reviewed_utc": "2026-11-21T06:04:38.993759+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

@@ -2,6 +2,24 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M007146 | P1144 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsGenLiftOfIsNilpotent` | wave-reused |
+| M007148 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsGeneratorJetReadingStatement` | volunteer-build-reviewed |
+| M007151 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsHolomorphicGeneratorReadingAutomorphyStatement` | volunteer-build-reviewed |
+| M007155 | P1002 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsIntegralHarmonicNeZeroAndIsHomogeneous` | volunteer-build-reviewed |
+| M007159 | P0839 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsIsChartGOfBasis` | wave-reused |
+| M007161 | P1246 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsIsIdempotentElemRangeSpMapSubset` | build-observed |
+| M007163 | P1144 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsIsUUOver` | build-observed |
+| M007164 | P1144 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsIsotropicGroupLatticeClassRepresentatives` | build-observed |
+| M007165 | P1170 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsIsotropicGroupLatticeClassRepresentativesStatement` | build-observed |
+| M007166 | P0005 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsJointIntEigenvectorOfStable` | volunteer-build-reviewed |
+| M007167 | P1170 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsLevMoveOfFrOver` | build-observed |
+| M007173 | P1085 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsNatCastSmulCoeffIsIntegral` | build-observed |
+| M007174 | P0005 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsNatSmulCoeffIsIntegral` | volunteer-build-reviewed |
+| M007178 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsNetAllComponentsMax` | volunteer-build-reviewed |
+| M007182 | P1057 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsNetOfThickPoints` | wave-reused |
+| M007186 | P1085 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsPowMulCoprimeLe` | build-observed |
+| M007187 | P0811 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsPtJ` | wave-reused |
+| M007188 | P0649 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsQuotEquiv` | build-observed |
 | M007190 | P1445 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsRankOneCuspDataLogBoundsStatement` | volunteer-build-reviewed |
 | M007191 | P0759 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsRawChartFramesBaseChange` | build-observed |
 | M007192 | P0784 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsRawChartFramesBaseChangeStatement` | build-observed |
@@ -75,6 +93,7 @@
 | M007376 | P0005 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LogNormMapPowMulPowOfMulConj` | volunteer-build-reviewed |
 | M007379 | P0005 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LogShortFamilyNumbersLe` | volunteer-build-reviewed |
 | M007390 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.MatRmulUnipMulHeadProj` | volunteer-build-reviewed |
+| M007395 | P0099 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.MinkowskiDetBoundGramOfDetNeZero` | volunteer-build-reviewed |
 | M007396 | P1085 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ModNSqIffExistsGenLatSum` | build-observed |
 | M007397 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ModNSqIffExistsGenLatSumStatement` | volunteer-build-reviewed |
 | M007400 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ModuliUnivEtaKilled` | volunteer-build-reviewed |
@@ -179,6 +198,7 @@
 | M008111 | P1736 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ContinuousLeviBlock` | volunteer-build-reviewed |
 | M008113 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ContinuousOfCond` | volunteer-build-reviewed |
 | M008115 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ContinuousPhiPrV` | volunteer-build-reviewed |
+| M008116 | P1473 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ContinuousSingleAt` | volunteer-build-reviewed |
 | M008120 | P1788 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ContinuousStandardUnitaryChartAndSymmStatement` | volunteer-build-reviewed |
 | M008133 | P1788 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CorankOneIsEquivalenceNonzeroGramTerms` | volunteer-build-reviewed |
 | M008134 | P1788 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CorankOneOfSameFlagDoubleCoset` | volunteer-build-reviewed |
@@ -276,7 +296,9 @@
 | M008697 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLeviPreimageOfFixIsotropicFrames` | volunteer-build-reviewed |
 | M008698 | P1788 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLeviPreimageOfFixIsotropicFramesStatement` | volunteer-build-reviewed |
 | M008700 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLinearIsQuotIntTIntStatement` | volunteer-build-reviewed |
+| M008701 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLinearMapVaryPureTensorFactorSplitPlace` | volunteer-build-reviewed |
 | M008703 | P0177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLinearOfBilinearSchwartzBruhatProduct` | volunteer-build-reviewed |
+| M008706 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLocPlOff` | volunteer-build-reviewed |
 | M008707 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLocalModelSliceSourceLine` | volunteer-build-reviewed |
 | M008708 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLocalModelSliceSourceLineStatement` | volunteer-build-reviewed |
 | M008709 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLocalModelSliceTargetLine` | volunteer-build-reviewed |
@@ -285,6 +307,7 @@
 | M008716 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsMaxCompactRealPointsOfOrthonormalFramesStatement` | volunteer-build-reviewed |
 | M008717 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsMaximalCompactUnnComponentStandardCartanIn` | volunteer-build-reviewed |
 | M008718 | P1788 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsMaximalCompactUnnComponentStandardCartanInStatement` | volunteer-build-reviewed |
+| M008722 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsMovedNotProportional` | volunteer-build-reviewed |
 | M008723 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsN1LocalHomMemOpen` | volunteer-build-reviewed |
 | M008725 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNEmbXInvMulMemKOne` | volunteer-build-reviewed |
 | M008728 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNatMulSelfDualLatticeAtPlaceIntegral` | volunteer-build-reviewed |
@@ -371,6 +394,7 @@
 | M008962 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUniqueCompletionMatrixOfRationalTwistAutStatement` | volunteer-build-reviewed |
 | M008963 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUniqueSphericalDoublingSectionUnramified` | volunteer-build-reviewed |
 | M008964 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUniqueSphericalDoublingSectionUnramifiedStatement` | volunteer-build-reviewed |
+| M008970 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUnitWeightRealCenterActionFockMonomialStatement` | volunteer-build-reviewed |
 | M008973 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUnitaryEmbeddingPreimageOfFixesAnisotropic` | volunteer-build-reviewed |
 | M008974 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUnitaryEmbeddingPreimageOfFixesAnisotropicStatement` | volunteer-build-reviewed |
 | M008979 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUnitaryIsometryIsotropicFrameLocalRing` | volunteer-build-reviewed |
@@ -378,27 +402,3 @@
 | M008983 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUnitarySupportedAtPlaceOfDualIsotropicFram` | volunteer-build-reviewed |
 | M008984 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUnitarySupportedAtPlaceOfDualIsotropicFramStatement` | volunteer-build-reviewed |
 | M008993 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsWeilDatumHermitianPairStatement` | volunteer-build-reviewed |
-| M008995 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsWeilDatumHermitianSpaceDoubledStatement` | volunteer-build-reviewed |
-| M008999 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsWeilSourceActionAndSmoothStatement` | volunteer-build-reviewed |
-| M009000 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsZsmulMemLattice` | volunteer-build-reviewed |
-| M009002 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExtXCastAdd` | volunteer-build-reviewed |
-| M009003 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExtXUnipotentMemLattice` | volunteer-build-reviewed |
-| M009004 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExtZeroIncZeroMemLattice` | volunteer-build-reviewed |
-| M009006 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExtendByZeroLeftMemCoreLatticeStatement` | volunteer-build-reviewed |
-| M009008 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExtendByZeroMemCompletedLatticeSourceStatement` | volunteer-build-reviewed |
-| M009010 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExtendByZeroRightMemCoreLatticeStatement` | volunteer-build-reviewed |
-| M009012 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExtendByZeroSourceTensorColumnProductStatement` | volunteer-build-reviewed |
-| M009014 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExtendByZeroTargetTensorRowProductStatement` | volunteer-build-reviewed |
-| M009015 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExtensionAdeleRealComponentsCmType` | volunteer-build-reviewed |
-| M009016 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExtensionAdeleRealComponentsCmTypeStatement` | volunteer-build-reviewed |
-| M009019 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExtensionByZeroMapsCompletedHomLattice` | volunteer-build-reviewed |
-| M009040 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteAnnihilatorOpenSubgroupInBox` | volunteer-build-reviewed |
-| M009041 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteAnnihilatorOpenSubgroupInBoxStatement` | volunteer-build-reviewed |
-| M009059 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteDimensionalSpanMultilinearValues` | volunteer-build-reviewed |
-| M009063 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteDimensionalThetaFunctionsLevelFockDegreeStatement` | volunteer-build-reviewed |
-| M009070 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteMonomialsWithPrescribedPlaceDegree` | volunteer-build-reviewed |
-| M009071 | P1788 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteMonomialsWithPrescribedPlaceDegreeStatement` | volunteer-build-reviewed |
-| M009073 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FinitePartMemFrameStabilizerIffLocalStabilizerStatement` | volunteer-build-reviewed |
-| M009081 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FinrankKerPuLeHsDev` | volunteer-build-reviewed |
-| M009087 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FirstOccurrenceRuleThetaChainStepBothDirectionsStatement` | volunteer-build-reviewed |
-| M009088 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FirstStepCompletionRepresentativesEqOne` | volunteer-build-reviewed |

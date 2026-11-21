@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M109820"
+  ],
+  "started_utc": "2026-11-21T01:39:19.418021+00:00",
+  "ended_utc": "2026-11-21T01:39:35.603843+00:00",
+  "elapsed_seconds": 16.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6221692
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.HeckeCharacterChoice.SplitHom:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "eaeeb79e1e5cd9613cd93fb5639aa06efe7c3975a73ae265411236484a76625c",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.HeckeCharacterChoice.SplitDef"
+  ],
+  "objects": {
+    "M109820": "26a63dda6bbc281a08517b1072f324a3811a324f7229f676a339c13244e245c6"
+  },
+  "bundle_sha256": "41b259dfc024a2a8c6d2218617bdfc63ad4d5804c89d11bc9a83c144ec425a8d",
+  "packet": "M109820",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9869#issuecomment-7055297369",
+  "reviewed_utc": "2026-11-21T06:13:19.317790+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

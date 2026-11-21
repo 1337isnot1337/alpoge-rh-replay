@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M067002"
+  ],
+  "started_utc": "2026-11-21T01:28:15.441926+00:00",
+  "ended_utc": "2026-11-21T01:28:50.083861+00:00",
+  "elapsed_seconds": 34.6,
+  "host": {
+    "cpu_count": 128,
+    "mem_total_kib": 395484908,
+    "peak_child_rss_kib": 6873264
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BorderedInvariantsAndHankelDetMapRingHom:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f65b13346d5b0a11e84c9469657905fcc766893cfc0d0b330e3f8947a14b142a",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.FourierMatch",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CompanionMatrixOfCoeffsPowMulVecFirstBasisVector",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FullToGlIsSelfAdjoint"
+  ],
+  "objects": {
+    "M067002": "d1f36b7f730336b2db51e8cb49b2022b8bd75f162cc471a638f3116cfbf3d05e"
+  },
+  "bundle_sha256": "f7cb8a92e6b96ac5be10760f8dcfe3a627cb9b25e3c4dbe16e7b716f6de8cd7f",
+  "packet": "M067002",
+  "contributor": "BenCaunt",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9654#issuecomment-7055141835",
+  "reviewed_utc": "2026-11-21T06:17:40.728826+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

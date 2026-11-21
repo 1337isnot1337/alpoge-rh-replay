@@ -1,0 +1,42 @@
+{
+  "tasks": [
+    "M102720"
+  ],
+  "started_utc": "2026-11-21T01:39:35.320583+00:00",
+  "ended_utc": "2026-11-21T01:40:07.716468+00:00",
+  "elapsed_seconds": 32.4,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16078416,
+    "peak_child_rss_kib": 7289556
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.FChars:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0c2000b69022902b194aa3166b252c5374446339b3ac9161282a25a32beeb086",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.ResMapBijective",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.FinDefs",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.IsLocalHom",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.OfDetToDet",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.WeilGroupCharacters.RepAlg",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.UnopSMul",
+    "ReciprocityTheory.CommutativeAlgebra.ChainConnInDim",
+    "ReciprocityTheory.CommutativeAlgebra.SaturatedChains.IsSaturatedChain"
+  ],
+  "objects": {
+    "M102720": "2afaf8f0d598269077dda8721850ad2b32c48c375b1ac86740ca06d3014b3a45"
+  },
+  "bundle_sha256": "21fde8f149d4eeb34eea75a2b3399ed02c318d053b930b13eb082ffb0f623521",
+  "packet": "M102720",
+  "contributor": "walkingsophie",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9916#issuecomment-7055338478",
+  "reviewed_utc": "2026-11-21T05:58:23.103344+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

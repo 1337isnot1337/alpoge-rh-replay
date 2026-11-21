@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M109984"
+  ],
+  "started_utc": "2026-11-21T01:31:17.481542+00:00",
+  "ended_utc": "2026-11-21T01:31:30.183461+00:00",
+  "elapsed_seconds": 12.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6850556
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.CyclotomicBounds.RootsOfUnity.Monomial:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3435d3fa964af0fcc23bfc0d395ce079ab29a3923e2f2e3cff9dbc14e2f4a844",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FinrankMulDiscrRpowLeSumSqOfMemTraceDual",
+    "Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.TorsionTotientBound"
+  ],
+  "objects": {
+    "M109984": "839213c4b62b936bd2677324b45694b08543dba9be0c5d4d6005a466e3cd671c"
+  },
+  "bundle_sha256": "fb8825bdfef68c867275f5e37cda381e6cf511b5cb62f7b4a85560c91e751a91",
+  "packet": "M109984",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9677#issuecomment-7055176192",
+  "reviewed_utc": "2026-11-21T06:09:32.710935+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

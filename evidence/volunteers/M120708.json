@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M120708"
+  ],
+  "started_utc": "2026-11-21T01:40:28.105183+00:00",
+  "ended_utc": "2026-11-21T01:41:03.183800+00:00",
+  "elapsed_seconds": 35.1,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16078416,
+    "peak_child_rss_kib": 7282996
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.AlgebraProofs.TwoMulFinrank:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "abfe6933978f8f961b3645bbe17aa9947091e9a1d592083e33e27a109f42cdac",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.LogAbsVpOfNormalised",
+    "Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.IsLocallyConstantRankAtStalkEigenSub",
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.LatNormGrLatNeZeroOfSpan",
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.OmStable",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.IdemDen"
+  ],
+  "objects": {
+    "M120708": "cde88fb96e328f84584756d4b0312108b772b9bff68c0cc56d9bc7c45fd69bbc"
+  },
+  "bundle_sha256": "01f49f5c848ccfdcf63e58042c7ad371598cc0bbe98872b34c520d96605adfdd",
+  "packet": "M120708",
+  "contributor": "walkingsophie",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9936#issuecomment-7055338940",
+  "reviewed_utc": "2026-11-21T06:09:34.597620+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}
