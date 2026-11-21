@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.GeometryOfNumbers.LatticeCovolumes.GramSt",
+  "source_sha256": "9eadba78003b282b3aaf496ba15d3e9311b534147944c63b39dde81eddd6e3bb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use `Finset.prod_le_prod₀`, the target's name for the ordered-semiring product inequality with nonnegativity hypotheses. Proof body only."
+}

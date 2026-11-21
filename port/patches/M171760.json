@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.DualLattices.FischerAdjointStatement",
+  "source_sha256": "f4af3bce7ab33c9fe24b2a3bc100430dc54008653d0cc64f9bf6e2acf17c9fe0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Definition body change, same term: in `ReciprocityTheory.PGsh.fischer` the declaration text replaces `coeff A P` and `coeff A Q` by `P.coeff A` and `Q.coeff A`. The original pinned Mathlib defines `MvPolynomial.coeff m p` as `@DFunLike.coe _ _ _ _ (AddMonoidAlgebra.coeff p) m` (Mathlib/Algebra/MvPolynomial/Basic.lean:513-514); `MvPolynomial.coeff` no longer exists on the target, and `p.coeff m` is that same `AddMonoidAlgebra.coeff p` applied to `m`. Same polynomial and exponent; no assumptions or conclusions are added or removed."
+}

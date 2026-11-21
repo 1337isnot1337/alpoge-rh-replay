@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/Chebotarev/NoWind.lean
++++ b/src/ReciprocityTheory/Chebotarev/NoWind.lean
+@@ -26,7 +26,7 @@
+     have := Real.pi_gt_three
+     nlinarith
+   · rintro rfl
+-    exact ⟨Metric.mem_ball_self one_pos, hy⟩
++    exact ⟨by simp, hy⟩
+ 
+ theorem bounded_of_tendsto_exp {abelian₂ : ℝ → ℂ} {L1 : ℂ} (hcont : ContinuousOn abelian₂ (Ioc 1 2))
+     (hL1 : L1 ≠ 0) (hlim : Tendsto (fun s => Complex.exp (abelian₂ s)) (𝓝[>] 1) (𝓝 L1)) :

@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.GroupCohomology.CofinA",
+  "source_sha256": "bbb38298c1d1ffb594106275aa2ef8dbee2d3e85b86f0816c8f6bf429bc2c101",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "Compiled unchanged on leanprover/lean4:v4.36.0 with Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842 in the P0090 packet build transcript linked from the PR."
+}

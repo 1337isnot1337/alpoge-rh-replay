@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.DualLattices.RankMapLeRank",
+  "source_sha256": "f16963ce5bfca08876e4d437132eaaf501cb11995d7040981a293e99389c1896",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "Compiled unchanged on leanprover/lean4:v4.36.0 with Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842 in the P0090 packet build transcript linked from the PR."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.NeutralLocalFields.LocalFieldComparison.HilbertClassFieldA",
+  "source_sha256": "f49a84635292c7d1a793ae6b527d58408616120be9aa46f9098daefd6be19805",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof replaced by the Mathlib lemma `ClassGroup.mulEquiv_mk0`. On the target `ClassGroup.mulEquiv g` is defined through `ClassGroup.map` instead of `ClassGroup.equiv` and `FractionalIdeal.ringEquivOfRingEquiv`, so the old proof (which unfolded the old definition) no longer applies; Mathlib now proves exactly this statement (`mulEquiv g (mk0 I) = mk0 ⟨I.map g, _⟩`, the membership proofs being equal by proof irrelevance). The statement of `classGroup_mulEquiv_mk0` is unchanged."
+}

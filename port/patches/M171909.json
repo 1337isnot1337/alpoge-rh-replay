@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.GeometryOfNumbers.LatticeCovolumes.CountZSt",
+  "source_sha256": "cbc3075c8e6468108e27ebd486c15f6d0072efb23870f686101d8cbed6199f29",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`AddSubgroup.isClosed_of_discrete` became `AddSubgroup.isClosed_of_discreteTopology`; use it with dot notation on `L.toAddSubgroup`. Proof body only."
+}

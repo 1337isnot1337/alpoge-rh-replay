@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.GeometryOfNumbers.PluriharmonicAnalysis.MorseGenStA",
+  "source_sha256": "6d29964e1f70446720c21c34b4ace563d7c0da99cdf35ef058d23346df8d7101",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "Compiled unchanged on leanprover/lean4:v4.36.0 with Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842 in the P0090 packet build transcript linked from the PR."
+}

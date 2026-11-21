@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.Chebotarev.NormCongr",
+  "source_sha256": "6c275e51334100546c94d3d886f44cdc0783c9fa3cb4a73764a8a2b1ae061018",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "Compiled unchanged on leanprover/lean4:v4.36.0 with Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842 in the P0090 packet build transcript linked from the PR."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.DualLattices.RidConvolutionDerivation",
+  "source_sha256": "83438a95f5a92d5e4e698eb1466c0d353871b448034be42f3c49ed340f6ae47b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Statement and definition text changes, same terms: `coeff β P` becomes `P.coeff β` (and likewise for other polynomials) in the definition `LowRed`, the statements of `lowRed_mul`, `mem_span_pow_of_coeff` and `coeff_eq_zero_of_stable`, and inside proofs. The original pinned Mathlib defines `MvPolynomial.coeff m p` as `@DFunLike.coe _ _ _ _ (AddMonoidAlgebra.coeff p) m` (Mathlib/Algebra/MvPolynomial/Basic.lean:513-514); `MvPolynomial.coeff` no longer exists on the target, and `p.coeff m` is that same `AddMonoidAlgebra.coeff p` applied to `m`. Same polynomial and exponent; no assumptions or conclusions are added or removed. In proofs, `MvPolynomial.constantCoeff_eq` now takes the polynomial explicitly, so `congrFun constantCoeff_eq Q` becomes `constantCoeff_eq Q`, and the now-protected `coeff_add` is qualified."
+}
