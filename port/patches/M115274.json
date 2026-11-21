@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FormalGroupCoeffMem",
+  "source_sha256": "b9947a40e6440451c3ed1bc3152693bc5ea2b19ffef5238a13e7b25d1e26767b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

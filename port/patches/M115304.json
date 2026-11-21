@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.HermitianDiagonalisation",
+  "source_sha256": "d33c3a36aaa27ef849489b3403b48d2ce9800871ed5193a516c715c41a4614aa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.HeckeMap",
+  "source_sha256": "aa782a94998a5cf8dc8f1f9f1677bb8bf8d0d1782dbb121a08cdb3a8d44f5f04",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

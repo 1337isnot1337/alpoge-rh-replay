@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ImportsExtraFurther",
+  "source_sha256": "c8a7fedac95a6fea0b8bb1c9cb3ecf85a4e2746e5347741af6719ddea9d5c058",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace simpa [Nat.card] with simpa to avoid simp recursion loop in Mathlib v4.36.0."
+}

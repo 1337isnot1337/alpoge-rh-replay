@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.GaloisBoundSecond",
+  "source_sha256": "3940842bcb13ffe57b4ce543785194fdbc3dcfc9d5fedd327623512f26f596ad",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace Finset.prod_le_prod and Finset.prod_lt_prod_of_nonempty with Finset.prod_le_prod\u2080 and Finset.prod_lt_prod_of_nonempty\u2080 for Mathlib v4.36.0."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FrobeniusElementAlt",
+  "source_sha256": "1a863b9111383b9c42f0a0000aa73eccf2ae97485b8f59a19e5004c4ab47ea4c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

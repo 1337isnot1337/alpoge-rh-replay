@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.G6Decomposition",
+  "source_sha256": "11b47d733cc3c5ea92ad7c5a96fdf21501759ad199bef69e7fc20c3e519963bb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

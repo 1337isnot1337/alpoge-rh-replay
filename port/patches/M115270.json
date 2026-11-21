@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FixedQuadraticMemBase",
+  "source_sha256": "808a3233521f09b12dc81b65c0f89b81a0aba1c7bf50df528e0cabe4a71024c2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

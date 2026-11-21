@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.GaloisBoundFirst",
+  "source_sha256": "792986d1da52638a27a4c14e38702b6a0b8a30bf583eac00d83e9f16ef0e1d5c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

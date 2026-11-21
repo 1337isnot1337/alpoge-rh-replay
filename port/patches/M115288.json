@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.GenericGradient",
+  "source_sha256": "6ef31ef7ccc1906a6cabfdb366215d1ac16414fd8782a711d2d90ac0de25adcf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ImportsBisExtra",
+  "source_sha256": "ba69082d7b6e66676e39ee46a40d538d4b89724ba758ebba461976b6dadb5f4c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename continuous_finset_sum to continuous_finsetSum for Mathlib v4.36.0."
+}
