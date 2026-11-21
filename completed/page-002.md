@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M000945 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GaussianFourierTransformFormula` | volunteer-build-reviewed |
 | M000946 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GaussianFourierTransformFormulaStatement` | volunteer-build-reviewed |
 | M000949 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GermConstantsEqAlongAffineSpaceSquare` | volunteer-build-reviewed |
 | M000950 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GermFormPulledBackCombinationsExpandMonomials` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M001812 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LeviActionPreservesSupportDegreeStatement` | volunteer-build-reviewed |
 | M001815 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LeviDecomposition` | volunteer-build-reviewed |
 | M001816 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LeviDecompositionStatement` | volunteer-build-reviewed |
-| M001823 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LineFacts` | volunteer-build-reviewed |

@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013701 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoPullbackUniformisedThetaModelStatement` | volunteer-build-reviewed |
+| M013702 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoValuesConstantOfSameCubeTheta` | volunteer-build-reviewed |
+| M013703 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoValuesConstantOfSameCubeThetaStatement` | volunteer-build-reviewed |
+| M013706 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleSymmetryHypothesisBaseChange` | volunteer-build-reviewed |
 | M013707 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleSymmetryHypothesisBaseChangeStatement` | volunteer-build-reviewed |
 | M013710 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LinearIndependentThetaBasisGeometricFibreStatement` | volunteer-build-reviewed |
 | M013711 | P0550 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LinearMapEqZeroOfOneTmulMemRange` | build-observed |
@@ -386,6 +390,7 @@
 | M015299 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgHomLiftSquareZeroOfFormallyEtaleAwayDepthStatement` | wave-reused |
 | M015302 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgHomLocalizationAtPrimeFactorsThroughAway` | wave-reused |
 | M015303 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgHomLocalizationAtPrimeFactorsThroughAwayStatement` | wave-reused |
+| M015310 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraMapEqMk` | volunteer-build-reviewed |
 | M015312 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraMapIntegralClosureTensorEq` | wave-reused |
 | M015314 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraMapNormMemSpan` | volunteer-build-reviewed |
 | M015316 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraMapQuotBijective` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M015345 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraicNormalizedWeierstrassValuesCm` | volunteer-build-reviewed |
 | M015365 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraicValuationBoundAtRamifiedPrimeStatement` | volunteer-build-reviewed |
 | M015383 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlphaDivBetaRamifiedAtLevelStatement` | volunteer-build-reviewed |
-| M015385 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlphaDivBetaRamifiedFirstStatement` | volunteer-build-reviewed |
-| M015387 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlphaKernelDerivativeVanishes` | wave-reused |
-| M015389 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlphaUnramifiedOutsideStatement` | volunteer-build-reviewed |
-| M015394 | P0296 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlternatingCofaceComplexOfFunctorDZeroOne` | wave-reused |
-| M015397 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlternatingFormLatticeIntegrality` | volunteer-build-reviewed |

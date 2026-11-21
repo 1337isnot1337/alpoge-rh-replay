@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006059 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IndRestrictEqCardFixedByMul` | wave-reused |
+| M006060 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IndRestrictEqCardFixedByMulStatement` | wave-reused |
+| M006061 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.InducedClassFunctionFromSubgroupEqFinsumCosets` | wave-reused |
+| M006062 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.InducedClassFunctionFromSubgroupEqFinsumCosetsStatement` | wave-reused |
 | M006063 | P0394 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.InnerProductRootPowerSumEqOfFrobeniusModEq` | build-observed |
 | M006064 | P0436 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.InnerProductRootPowerSumEqOfFrobeniusModEqStatement` | build-observed |
 | M006065 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.InvariantEqTopOfIrreducible` | wave-reused |
@@ -398,7 +402,3 @@
 | M006544 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.CurveHomExtOfDerivativeLieBasis` | build-observed |
 | M006545 | P1170 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.CurveHomExtOfDerivativeLieBasisStatement` | build-observed |
 | M006553 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.DegLatticeNumberFieldExtensionEq` | volunteer-build-reviewed |
-| M006560 | P0476 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.DenseClosedPoints` | volunteer-build-reviewed |
-| M006564 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EigenLatticeNumberFieldBaseChange` | volunteer-build-reviewed |
-| M006566 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EllMapCancelAndSabMapCancel` | volunteer-build-reviewed |
-| M006567 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EllPullExistsOAct` | volunteer-build-reviewed |

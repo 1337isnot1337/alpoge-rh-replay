@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M010247 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocK` | volunteer-build-reviewed |
+| M010276 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocalDoublingIntegralOddCase` | volunteer-build-reviewed |
+| M010281 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocalFlatMapFactorIntertwinesMultiplication` | volunteer-build-reviewed |
+| M010283 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocalFlatMapFactorIntertwinesTranslations` | volunteer-build-reviewed |
 | M010285 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocalFlatMapFactorValuesThetaFunctions` | volunteer-build-reviewed |
 | M010288 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocalFlatMapFreeEntryTranslationLawsBesselToJacoStatement` | volunteer-build-reviewed |
 | M010290 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocalFlatMapTranslationLawsJacobiToBesselFreeStatement` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M012916 | P1814 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsExpandsFAndNuGeOfIsComb` | volunteer-build-reviewed |
 | M012918 | P1057 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsExpansionTermUnitClosedFibreStatement` | volunteer-build-reviewed |
 | M012920 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFacOfClosedPoint` | volunteer-build-reviewed |
-| M012921 | P1057 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFactorClassicalPointOfLargeTest` | wave-reused |
-| M012922 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFactorClassicalPointOfLargeTestStatement` | wave-reused |
-| M012923 | P1057 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFactorClosedImmersionDensePoints` | wave-reused |
-| M012924 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFactorClosedImmersionDensePointsStatement` | wave-reused |

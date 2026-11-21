@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M003024 | P0838 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.PsiWeightZeroLinearCombination` | wave-reused |
+| M003025 | P0515 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.SqrtNegDiscMemCoeffField` | wave-reused |
 | M003026 | P0582 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.ToMatrixTrFormBaseChange` | wave-reused |
 | M003027 | P0549 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.TrFormBaseChangeNondegenerate` | wave-reused |
 | M003028 | P1271 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.AdelicDataRowMeasureScaleTrivialTuple` | build-observed |
@@ -117,6 +119,7 @@
 | M003434 | P1372 | `Development.AbelianVarietyTheory.Definitions.Divisors.CechFam` | build-observed |
 | M003435 | P1029 | `Development.AbelianVarietyTheory.Definitions.Divisors.CentralNilGL` | volunteer-build-reviewed |
 | M003436 | P1444 | `Development.AbelianVarietyTheory.Definitions.Divisors.CentreAtOfIsAt` | volunteer-build-reviewed |
+| M003437 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.ChainComp` | volunteer-build-reviewed |
 | M003439 | P0475 | `Development.AbelianVarietyTheory.Definitions.Divisors.ChartMeasApplyOfSubset` | wave-reused |
 | M003441 | P1394 | `Development.AbelianVarietyTheory.Definitions.Divisors.ChernOn` | volunteer-build-reviewed |
 | M003447 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.CommAlgFunctorCoboundaryZeroMemCocyclesOne` | wave-reused |
@@ -217,6 +220,7 @@
 | M003784 | P1298 | `Development.AbelianVarietyTheory.Definitions.Divisors.MaxWeightGL1EqOne` | build-observed |
 | M003786 | P1245 | `Development.AbelianVarietyTheory.Definitions.Divisors.MeasurableCompInfGL` | build-observed |
 | M003791 | P1114 | `Development.AbelianVarietyTheory.Definitions.Divisors.MemMspan` | build-observed |
+| M003793 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.MemShaKernelIffLocallyTrivial` | volunteer-build-reviewed |
 | M003796 | P1245 | `Development.AbelianVarietyTheory.Definitions.Divisors.MemSubPtsCutBaseChangeIff` | wave-reused |
 | M003801 | P1143 | `Development.AbelianVarietyTheory.Definitions.Divisors.MirSet` | build-observed |
 | M003810 | P1372 | `Development.AbelianVarietyTheory.Definitions.Divisors.NefFibOfIsNef` | wave-reused |
@@ -398,7 +402,3 @@
 | M004253 | P1472 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsWeight` | volunteer-build-reviewed |
 | M004258 | P1472 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.JetSplitAmb` | volunteer-build-reviewed |
 | M004263 | P0435 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.KaehlerOneFormsToExtensionDeRhamMulSelf` | build-observed |
-| M004271 | P1324 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.MZmix` | build-observed |
-| M004280 | P0173 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.NegOnePowBoundaryTermsCancel` | build-observed |
-| M004282 | P1272 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.NormalFam` | build-observed |
-| M004283 | P0784 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.NotDvdCondN` | volunteer-build-reviewed |

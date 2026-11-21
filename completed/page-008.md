@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006560 | P0476 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.DenseClosedPoints` | volunteer-build-reviewed |
+| M006564 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EigenLatticeNumberFieldBaseChange` | volunteer-build-reviewed |
+| M006566 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EllMapCancelAndSabMapCancel` | volunteer-build-reviewed |
+| M006567 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EllPullExistsOAct` | volunteer-build-reviewed |
 | M006568 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EllipticCurveLatticeBaseChangeStable` | build-observed |
 | M006569 | P1170 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EllipticCurveLatticeBaseChangeStableStatement` | build-observed |
 | M006570 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EqOfGeomPointsAlg` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M008405 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.EqOneOfNormPowTwoPowSubOneLt` | volunteer-build-reviewed |
 | M008407 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.EqSemiMeasOfCovolOne` | volunteer-build-reviewed |
 | M008411 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.EqZeroOfOrthogonalAllThetaFunctions` | volunteer-build-reviewed |
-| M008418 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ErrorExponentStatement` | volunteer-build-reviewed |
-| M008423 | P1115 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.EvGSDOkOfEqOne` | volunteer-build-reviewed |
-| M008424 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.EvalAtJetMap` | volunteer-build-reviewed |
-| M008433 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.EventuallyOnto` | volunteer-build-reviewed |

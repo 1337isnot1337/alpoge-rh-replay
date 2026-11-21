@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001823 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LineFacts` | volunteer-build-reviewed |
 | M001825 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LineFormulaOfFubiniAndParabolic` | volunteer-build-reviewed |
 | M001829 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LocalLanglandsOfIrreducibleAdmissibleImports` | volunteer-build-reviewed |
 | M001832 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.MatrixHom` | volunteer-build-reviewed |
@@ -190,6 +191,7 @@
 | M002356 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.OmegaUpDownForms` | build-observed |
 | M002358 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.SchurLatticeConjugates` | volunteer-build-reviewed |
 | M002360 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.ShiftMapsUpDown` | build-observed |
+| M002361 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.SphereBlockLogMean` | volunteer-build-reviewed |
 | M002363 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.TensorObjectExistence` | volunteer-build-reviewed |
 | M002365 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.ThetaWeightHeightConstants` | volunteer-build-reviewed |
 | M002366 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.TotallyPositiveExponents` | build-observed |
@@ -400,5 +402,3 @@
 | M003018 | P1056 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.IsThetaL2NormSquared` | wave-reused |
 | M003020 | P0945 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.NonemptyGtAnOfToric` | volunteer-build-reviewed |
 | M003022 | P0347 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.OneAddZeta21PowSevenAddPowFourteenEqZero` | wave-reused |
-| M003024 | P0838 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.PsiWeightZeroLinearCombination` | wave-reused |
-| M003025 | P0515 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.SqrtNegDiscMemCoeffField` | wave-reused |

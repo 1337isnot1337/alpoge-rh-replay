@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M152585"
+  ],
+  "started_utc": "2026-11-21T00:54:00.140188+00:00",
+  "ended_utc": "2026-11-21T00:54:17.278712+00:00",
+  "elapsed_seconds": 17.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 13282064,
+    "peak_child_rss_kib": 6848448
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.SiegelLatticeTheory.TraceIntegralEstimates.EnergyAbsTrunc:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fdd4289324744e9d3f34045d3ba101267cb61910105b977a5cf9794dd61a03b2",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.SiegelLatticeTheory.TraceIntegralEstimates.EnergyAbsDefs"
+  ],
+  "objects": {
+    "M152585": "10319e7ac912c5f795438580c196cdc9320c44f61e2667a5a2d477710f770118"
+  },
+  "bundle_sha256": "c028db74145d969c28eaa8b0530e443722e75e5969232401e51529ece0f4a3ad",
+  "packet": "M152585",
+  "contributor": "egergerfg",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8632#issuecomment-7054590265",
+  "reviewed_utc": "2026-11-21T06:04:31.393161+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

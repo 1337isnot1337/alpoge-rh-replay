@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M008418 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ErrorExponentStatement` | volunteer-build-reviewed |
+| M008423 | P1115 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.EvGSDOkOfEqOne` | volunteer-build-reviewed |
+| M008424 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.EvalAtJetMap` | volunteer-build-reviewed |
+| M008433 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.EventuallyOnto` | volunteer-build-reviewed |
 | M008434 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExchangeCombinationMovesLastStepDatumToChart` | volunteer-build-reviewed |
 | M008439 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExchangeToPositionOneIsPositionOneStatement` | volunteer-build-reviewed |
 | M008442 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsAdaptedLatticeFrame` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M010217 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearLawLocalModelMulClosed` | volunteer-build-reviewed |
 | M010218 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearLawLocalModelMulClosedStatement` | volunteer-build-reviewed |
 | M010238 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LintegralUnfoldSumTransitiveOrbit` | volunteer-build-reviewed |
-| M010247 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocK` | volunteer-build-reviewed |
-| M010276 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocalDoublingIntegralOddCase` | volunteer-build-reviewed |
-| M010281 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocalFlatMapFactorIntertwinesMultiplication` | volunteer-build-reviewed |
-| M010283 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocalFlatMapFactorIntertwinesTranslations` | volunteer-build-reviewed |
