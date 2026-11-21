@@ -98,14 +98,7 @@
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M026724](https://github.com/rohanarun/alpoge-rh-replay/issues/24207) | Claimed |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M148625](https://github.com/rohanarun/alpoge-rh-replay/issues/24210) | Claimed |
 | [@surfyhou](https://github.com/surfyhou) | [P2481](https://github.com/rohanarun/alpoge-rh-replay/issues/24223) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M019559](https://github.com/rohanarun/alpoge-rh-replay/issues/24272) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M063585](https://github.com/rohanarun/alpoge-rh-replay/issues/24273) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M031714](https://github.com/rohanarun/alpoge-rh-replay/issues/24274) | Claimed |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M016088](https://github.com/rohanarun/alpoge-rh-replay/issues/24276) | Claimed |
 | [@RhizoNymph](https://github.com/RhizoNymph) | [P2847](https://github.com/rohanarun/alpoge-rh-replay/issues/24280) | Claimed |
-| [@matiasm15](https://github.com/matiasm15) | [M139061](https://github.com/rohanarun/alpoge-rh-replay/issues/24281) | Claimed |
-| [@loremcdmx](https://github.com/loremcdmx) | [M004866](https://github.com/rohanarun/alpoge-rh-replay/issues/24282) | Claimed |
-| [@loremcdmx](https://github.com/loremcdmx) | [M033315](https://github.com/rohanarun/alpoge-rh-replay/issues/24283) | Claimed |
-| [@loremcdmx](https://github.com/loremcdmx) | [P2508](https://github.com/rohanarun/alpoge-rh-replay/issues/24294) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2590](https://github.com/rohanarun/alpoge-rh-replay/issues/24343) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P2473](https://github.com/rohanarun/alpoge-rh-replay/issues/24446) | Claimed |
+| [@dga471](https://github.com/dga471) | [M168665](https://github.com/rohanarun/alpoge-rh-replay/issues/24518) | Claimed |
+| [@JamCh01](https://github.com/JamCh01) | [P2547](https://github.com/rohanarun/alpoge-rh-replay/issues/24561) | Claimed |
