@@ -1,0 +1,13 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsRingEquivExtendingOfKerLe.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsRingEquivExtendingOfKerLe.lean
+@@ -37,8 +37,9 @@
+     rfl
+   let ψ : S →+* FieldCopy k := ψ0.toRingHom
+   have hψinj : Function.Injective ψ := by
+-    rw [injective_iff_map_eq_zero]
++    apply (injective_iff_map_eq_zero ψ.toAddMonoidHom).2
+     intro s hs
++    change ψ s = 0 at hs
+     by_contra hne
+     have hne' : (s : k) ≠ 0 := fun h => hne (Subtype.ext h)
+     obtain ⟨n, hn, hsn⟩ := hroot _ hne'

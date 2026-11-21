@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpSumCoeffEqZeroOfVanishing",
+  "source_sha256": "30482109e44a9e8f6b6b1f3f7d6dfa297e305dbb9ff2f6fef94efde78d0ece2c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename the finite-sum integral and limit lemmas, and tendsto_finset_prod to tendsto_finsetProd. Statements are unchanged."
+}
