@@ -117,6 +117,7 @@
 | [@HITEYY](https://github.com/HITEYY) | [M031186](https://github.com/rohanarun/alpoge-rh-replay/issues/20569#issuecomment-7061781648) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M021586](https://github.com/rohanarun/alpoge-rh-replay/issues/20570#issuecomment-7061770992) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M031184](https://github.com/rohanarun/alpoge-rh-replay/issues/20571#issuecomment-7061778012) | Pending review |
+| [@emsi](https://github.com/emsi) | [P2839](https://github.com/rohanarun/alpoge-rh-replay/issues/20573#issuecomment-7063598282) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M031755](https://github.com/rohanarun/alpoge-rh-replay/issues/20574#issuecomment-7061787976) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M083598](https://github.com/rohanarun/alpoge-rh-replay/issues/20575#issuecomment-7062211102) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M103452](https://github.com/rohanarun/alpoge-rh-replay/issues/20576#issuecomment-7062211523) | Pending review |
@@ -253,4 +254,3 @@
 | [@zediir](https://github.com/zediir) | [M081905](https://github.com/rohanarun/alpoge-rh-replay/issues/20836#issuecomment-7062101383) | Pending review |
 | [@zediir](https://github.com/zediir) | [M016849](https://github.com/rohanarun/alpoge-rh-replay/issues/20837#issuecomment-7062077121) | Pending review |
 | [@zediir](https://github.com/zediir) | [M018270](https://github.com/rohanarun/alpoge-rh-replay/issues/20838#issuecomment-7062079644) | Pending review |
-| [@t-choudhury](https://github.com/t-choudhury) | [M140827](https://github.com/rohanarun/alpoge-rh-replay/issues/20839#issuecomment-7062281118) | Pending review |
