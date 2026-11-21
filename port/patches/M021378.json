@@ -1,0 +1,7 @@
+{
+ "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DigitsSumLeLogbStatement",
+ "source_sha256": "8f1fb711f234f878645b280cd402db5fffbc4a05eaef8944f27332710695956e",
+ "lean": "leanprover/lean4:v4.36.0",
+ "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+ "notes": "unchanged"
+}
