@@ -4,6 +4,7 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@iAndyHD3](https://github.com/iAndyHD3) | [M018492](https://github.com/rohanarun/alpoge-rh-replay/issues/5291#issuecomment-7052683175) | Pending review |
 | [@agi-for-my-llama](https://github.com/agi-for-my-llama) | [M064520](https://github.com/rohanarun/alpoge-rh-replay/issues/5310#issuecomment-7052820917) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M119785](https://github.com/rohanarun/alpoge-rh-replay/issues/5339#issuecomment-7052575304) | Pending review |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M006937](https://github.com/rohanarun/alpoge-rh-replay/issues/5344#issuecomment-7052604174) | Pending review |
@@ -253,4 +254,3 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M061299](https://github.com/rohanarun/alpoge-rh-replay/issues/8061#issuecomment-7054588979) | Pending review |
 | [@egergerfg](https://github.com/egergerfg) | [M165330](https://github.com/rohanarun/alpoge-rh-replay/issues/8062#issuecomment-7054082213) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M102198](https://github.com/rohanarun/alpoge-rh-replay/issues/8063#issuecomment-7054082343) | Pending review |
-| [@amrehan](https://github.com/amrehan) | [M142791](https://github.com/rohanarun/alpoge-rh-replay/issues/8066#issuecomment-7054087298) | Pending review |
