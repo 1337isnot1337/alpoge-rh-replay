@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.BeConjNorm",
+  "source_sha256": "59d1e326d42609ea4d0432d91123c8060b8e98da27cfecfb95e1572cde4559ac",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "Compiled unchanged on leanprover/lean4:v4.36.0 with Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842 in the P0072 packet build transcript linked from the PR."
+}

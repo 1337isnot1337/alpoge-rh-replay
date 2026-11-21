@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LogFactorialBounds.DepthIIExponent",
+  "source_sha256": "2f39bda3807383252e7963f1862ca46320ea02dc59b6faf0e155f8963d9b5afc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "Compiled unchanged on leanprover/lean4:v4.36.0 with Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842 in the P0072 packet build transcript linked from the PR."
+}

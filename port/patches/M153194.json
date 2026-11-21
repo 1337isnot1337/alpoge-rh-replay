@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LogVandermondeBounds.LogRatioLowerBound",
+  "source_sha256": "126df9e699dfc66b7622a8bf14d329cf4cb11f083fd8ca1c7f66198d07fd4d46",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "Compiled unchanged on leanprover/lean4:v4.36.0 with Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842 in the P0072 packet build transcript linked from the PR."
+}

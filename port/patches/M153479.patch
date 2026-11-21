@@ -1,0 +1,20 @@
+--- a/src/Formalism/PeriodIntegrals/CuspInfChar.lean
++++ b/src/Formalism/PeriodIntegrals/CuspInfChar.lean
+@@ -23,7 +23,7 @@
+ def blk {i : ℕ} (x : GlobalTheory n i → A) : Matrix (Fin n) (Fin n) A :=
+   of fun a b => if h : a.val < i ∧ i ≤ b.val then x ⟨(a, b), h⟩ else 0
+ theorem blk_mul {i : ℕ} (x y : GlobalTheory n i → A) : blk x * blk y = 0 := by
+-  ext a b; rw [mul_apply]; refine Finset.sum_eq_zero fun c _ => ?_
++  ext a b; rw [Matrix.mul_apply]; refine Finset.sum_eq_zero fun c _ => ?_
+   by_cases h : c.val < i <;> simp [blk, h]
+ 
+ def uni {i : ℕ} (x : GlobalTheory n i → A) : GL (Fin n) A :=
+@@ -82,7 +82,7 @@
+ 
+ def jInf (w : InfinitePlace F) (e : w.Completion ≃+* 𝕜) : GL (Fin n) 𝕜 →* G F n := emb
+   { toFun := fun x => (Pi.single (M := fun w : InfinitePlace F => w.Completion) w (e.symm x), 0)
+-    map_zero' := Prod.ext (by simp; rfl) rfl
++    map_zero' := Prod.ext (by simp) rfl
+     map_add' := fun x y => Prod.ext (by rw [map_add]; exact Pi.single_add ..) (add_zero _).symm
+     map_mul' := fun x y => Prod.ext (by rw [map_mul]; exact Pi.single_mul ..) (mul_zero _).symm }
+ variable {H : Type} [Group H] (j : GL (Fin n) 𝕜 →* H)

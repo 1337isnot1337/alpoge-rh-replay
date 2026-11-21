@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.MeanHeightDescent.BadRowsNumeric",
+  "source_sha256": "d397fd139cc59efa613352921debd183112e72c5bbac9ad651471e158a11c993",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "Compiled unchanged on leanprover/lean4:v4.36.0 with Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842 in the P0072 packet build transcript linked from the PR."
+}

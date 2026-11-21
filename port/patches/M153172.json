@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LogFactorialIndices.StatementSize",
+  "source_sha256": "826342bb663a7c8520d302da2c80438073469fcabdcd0a7b56c4f14dda1827b3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "Compiled unchanged on leanprover/lean4:v4.36.0 with Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842 in the P0072 packet build transcript linked from the PR."
+}
