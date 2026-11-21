@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.CoreStatements.HodgeTatePoints.KftwoHostA",
+  "source_sha256": "5238f96932ec0c836d82d23ef6941339b20f91b516d014bd1adfa943581d0ad0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`isIntegral_algebraMap_iff` no longer takes the injectivity hypothesis."
+}

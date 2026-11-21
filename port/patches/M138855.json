@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.BocksteinBaseChange.AdmissibleMinors.ExistsWeightBasisFiltration",
+  "source_sha256": "0fcff77920bc6902ebf5b0628f2a01d19fb19834762be09b609f8660974f5c25",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Set` is a structure: state the membership being projected, `(show v ∈ s ∧ 0 ≤ w v from hv).1`."
+}

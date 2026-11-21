@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.CoreStatements.HomogeneousNonvanishing.TwGFree",
+  "source_sha256": "0160b905ac3bb91cabf11be7f2fa66fbfcdb123af165b685a14c5f97c6edb946",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Ideal.isMaximal_comap_of_isIntegral_of_isMaximal` now takes a ring hom; the algebra form is `Ideal.isMaximal_under_of_isIntegral_of_isMaximal` (`I.under R` is `I.comap (algebraMap R S)`)."
+}

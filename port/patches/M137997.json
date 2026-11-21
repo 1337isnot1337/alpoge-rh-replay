@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.CoreStatements.CentralCharts.TraceMulReNonneg",
+  "source_sha256": "df942c12bafe2a38ec43353d62dba2fc9471c8a7aa8a3acad4f6f6a759743c57",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "With `open Matrix`, `mul_apply` now resolves to another lemma; name `Matrix.mul_apply` in two rewrites."
+}

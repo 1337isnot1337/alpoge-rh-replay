@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.CoreStatements.HodgeTatePoints.PdvrExt",
+  "source_sha256": "750dd7ec8df8f51fd18dbf228ff30c308496c18c419b4b3914a7f9105985e2ba",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Ideal.isMaximal_comap_of_isIntegral_of_isMaximal` now takes a ring hom; the algebra form is `Ideal.isMaximal_under_of_isIntegral_of_isMaximal` (`I.under R` is `I.comap (algebraMap R S)`). `List.TFAE.out` indices now start at 1: `.out 0 4` becomes `.out 1 5`."
+}

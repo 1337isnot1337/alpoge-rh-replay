@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.CoreStatements.GaussianSeminormBounds.RealSeminormFiltration.RLLieD",
+  "source_sha256": "2824772263f7731792b27cfb6418a2984b7c5dda2a483bef48331ae3facb20dd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Finset.prod_le_one` no longer takes the nonnegativity hypothesis; use `Finset.prod_le_one₀`, which has the original arguments. `contDiff_apply` and `contDiffAt_apply` take a dependent family: `fun _ => ℝ`."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.CoreStatements.HodgeTatePoints.EqOfProdEq",
+  "source_sha256": "92e5c0c56cffd04d46e617ca6e6e91f2954e5e157aacd94368b6002ab9a4dc41",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Finset.prod_lt_prod` is now the ordered-group lemma without the positivity hypothesis; use `Finset.prod_lt_prod₀`, which has the original arguments."
+}
