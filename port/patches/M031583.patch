@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FinrankEqRankMulDegree.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FinrankEqRankMulDegree.lean
+@@ -13,7 +13,7 @@ theorem smul_eq_zero_of_ringOfIntegers {F : Type} [Field F] [NumberField F] {M :
+     rw [Ne, Ideal.absNorm_eq_zero_iff, Ideal.span_singleton_eq_bot]; exact ha
+   have h2 : (Ideal.absNorm (Ideal.span {a})) • m = 0 := by
+     rw [← Nat.cast_smul_eq_nsmul (𝓞 F), hb, mul_comm, mul_smul, h, smul_zero]
+-  exact nsmul_right_injective hn (by simpa using h2)
++  exact ((AddCommute.all m 0).nsmul_right_inj hn).mp (by simpa using h2)
+ 
+ theorem finrank_int_eq_of_span_smul (F : Type) [Field F] [NumberField F] (M : Type) [AddCommGroup M]
+     [Module (𝓞 F) M] [Module.Finite ℤ M] [IsAddTorsionFree M] (r : ℕ) (x : Fin r → M)

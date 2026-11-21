@@ -1,0 +1,24 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FundamentalDomainFlowIntegralIdentity.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FundamentalDomainFlowIntegralIdentity.lean
+@@ -13,8 +13,8 @@ theorem setLIntegral_mul_right (μ : Measure H) [μ.IsHaarMeasure] (Γ : Subgrou
+     ∫⁻ x in 𝓕, F (x * h) ∂μ = (Measure.modularCharacterFun h : ℝ≥0∞) * ∫⁻ x in 𝓕, F x ∂μ := by
+   let e : H ≃ᵐ H := MeasurableEquiv.mulRight h
+   let T : Set H := (fun y => y * h⁻¹) ⁻¹' 𝓕
+-  have hq : Measure.QuasiMeasurePreserving (fun y : H => y * h⁻¹) μ μ :=
+-    ⟨measurable_mul_const _, by
++  have hq : QuasiMeasurePreserving (fun y : H => y * h⁻¹) μ μ :=
++    ⟨(measurable_mul_const _).aemeasurable, by
+       rw [Measure.map_right_mul_eq_modularCharacterFun_smul]
+       exact Measure.smul_absolutelyContinuous⟩
+   have hT : IsFundamentalDomain Γ T μ :=
+@@ -88,7 +88,9 @@ theorem tendsto_eLpNorm_mul_right_sub (μ : Measure H) [μ.IsHaarMeasure] (Γ :
+   suffices hJ : Tendsto J (𝓝 0) (𝓝 0) by
+     have h2 : ∀ s, eLpNorm (fun x => f₁ (x * hs s) - f₁ x) 2 ν = J s ^ (1 / 2 : ℝ) := by
+       intro s
+-      rw [eLpNorm_eq_lintegral_rpow_enorm (by norm_num) (by norm_num)]
++      have hms : AEStronglyMeasurable (fun x => f₁ (x * hs s) - f₁ x) ν :=
++        ((hf.comp (continuous_id.mul continuous_const)).sub hf).aestronglyMeasurable
++      rw [eLpNorm_eq_lintegral_rpow_eNorm_toReal (by norm_num) (by norm_num) hms]
+       simp [J]
+     have h3 := ((ENNReal.continuous_rpow_const (y := (1 / 2 : ℝ))).tendsto 0).comp hJ
+     rw [ENNReal.zero_rpow_of_pos (by norm_num)] at h3

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankEqRankMulDegree",
+  "source_sha256": "587476055f130d068f90482265744cc1f5fbfa3676e43931838d454ceec45fb7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Prove nsmul cancellation directly from [IsAddTorsionFree M] via AddCommute.nsmul_right_inj rather than HasUniqueDiv. Theorem statements are unchanged."
+}

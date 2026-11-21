@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FundamentalDomainTranslate.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FundamentalDomainTranslate.lean
+@@ -8,7 +8,7 @@ theorem GlobalTheory.fundamentalDomain_translate_conj {G : Type} [Group G] [Meas
+   refine ⟨?_, fun φ => hmp.setLIntegral_comp_emb (measurableEmbedding_mulLeft m⁻¹) φ 𝓓⟩
+   let e : Q.map (MulAut.conj m⁻¹).toMonoidHom ≃ Q :=
+     (Subgroup.equivMapOfInjective Q (MulAut.conj m⁻¹).toMonoidHom (MulAut.conj m⁻¹).injective).symm.toEquiv
+-  have hq : Measure.QuasiMeasurePreserving (Equiv.mulLeft m⁻¹).symm μ μ := by
++  have hq : QuasiMeasurePreserving (Equiv.mulLeft m⁻¹).symm μ μ := by
+     have : MeasurePreserving (fun g => m * g) μ μ := measurePreserving_mul_left μ m
+     simpa [Equiv.mulLeft_symm] using this.quasiMeasurePreserving
+   have := h.image_of_equiv (Equiv.mulLeft m⁻¹) hq e ?_

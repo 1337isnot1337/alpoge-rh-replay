@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FundamentalDomainFlowIntegralIdentity",
+  "source_sha256": "d9ee5a2dd55248bc78f4a8fec139cc4617f44623039cc8831536ad2a48100d53",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Update Measure.QuasiMeasurePreserving to QuasiMeasurePreserving with .aemeasurable and update eLpNorm_eq_lintegral_rpow_enorm to eLpNorm_eq_lintegral_rpow_eNorm_toReal with an explicit AEStronglyMeasurable proof. Statements are unchanged."
+}

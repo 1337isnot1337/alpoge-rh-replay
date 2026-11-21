@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FundamentalDomainSubgroupMeasureConst.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FundamentalDomainSubgroupMeasureConst.lean
+@@ -59,7 +59,7 @@ theorem ae_measure_subgroup_slice_fundamentalDomain {G : Type} [Group G] [Measur
+     · have hA' : MeasurableSet {p : H | (p : G) * g ∈ t} :=
+         (measurable_subtype_coe.mul_const g) ht
+       refine hA'.nullMeasurableSet.congr ?_
+-      exact h3.mono fun p hp => propext hp
++      exact h3.mono fun p hp => hp
+     · refine h1.mono fun p hp => ?_
+       obtain ⟨γ, hγ⟩ := hp
+       refine ⟨⟨⟨(γ : G), hΓH γ.2⟩, Subgroup.mem_subgroupOf.2 γ.2⟩, ?_⟩
