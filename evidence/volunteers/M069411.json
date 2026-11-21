@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M069411"
+  ],
+  "started_utc": "2026-11-21T03:45:27.099337+00:00",
+  "ended_utc": "2026-11-21T03:45:37.119463+00:00",
+  "elapsed_seconds": 10.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6786416
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLimitFamilyOfFiniteCoefficientsStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ccfd36863c7af891e7db98c038912372a8a646fb42e19b00a5aa603badd65ef4",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLimitFamilyOfFiniteCoefficients"
+  ],
+  "objects": {
+    "M069411": "3f7de5f99235dc4366af416a974fe311b6a10e6646050dc6bcddba3ac24f5186"
+  },
+  "bundle_sha256": "c38992692de7e360fc883dd4e4955a4e6dd36a2b2dea37de58b99a318b7a82e5",
+  "packet": "M069411",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11883#issuecomment-7057023419",
+  "reviewed_utc": "2026-11-21T06:02:11.351466+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

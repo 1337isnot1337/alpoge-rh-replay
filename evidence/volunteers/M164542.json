@@ -1,0 +1,42 @@
+{
+  "tasks": [
+    "M164542"
+  ],
+  "started_utc": "2026-11-21T03:38:36.678166+00:00",
+  "ended_utc": "2026-11-21T03:39:28.120765+00:00",
+  "elapsed_seconds": 51.4,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 6853420
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StCurveNormalisationLength:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "601bf5125c9890d4f7498419f5334d2c75fec2811317f4861209b804c712f0b6",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.Characterised",
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.LineInhabitant",
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.MahlerSectionBasic",
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.Statements",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StSliceObjects",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StatementsCurrent",
+    "ReciprocityTheory.AnalyticForms.MaIntEmpty"
+  ],
+  "objects": {
+    "M164542": "09d6596d732edc28e8a2177b559711c80b4f53f2864eb7d20be0f924310e3ea8"
+  },
+  "bundle_sha256": "d2c77d444de74b2dfa4d9cd8b001f635e14c8f56f8da9400006e46d66015afcc",
+  "packet": "M164542",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11835#issuecomment-7056751011",
+  "reviewed_utc": "2026-11-21T06:16:27.459723+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

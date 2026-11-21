@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M175177"
+  ],
+  "started_utc": "2026-11-21T01:42:38.306455+00:00",
+  "ended_utc": "2026-11-21T01:42:50.117537+00:00",
+  "elapsed_seconds": 11.8,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16366632,
+    "peak_child_rss_kib": 7217524
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ThetaSummability.RealCoinvariants.CoinvSubLeComap:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ccb6c13ed6b6e2087dc7afbdb6988616ac8bfcdc362afb10fae8fd0dd8c97a39",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ThetaSummability.RealCoinvariants.GlRelZero"
+  ],
+  "objects": {
+    "M175177": "d4d08e3aba9fedc60dae203011a21917c5e6955c155aad131f296d51cb84ce66"
+  },
+  "bundle_sha256": "8b112b912ba8d17825e5a54be41ad000d662805cab8083fcae2afeae8163c3e2",
+  "packet": "M175177",
+  "contributor": "TOTOGT",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9881#issuecomment-7056846168",
+  "reviewed_utc": "2026-11-21T06:22:17.312408+00:00",
+  "review": "Verified the GitHub grant, indexed target source hashes against the pinned archive, toolchain and inputs, exact command and targets, and the successful build transcript digest. Verified the supplied bundle and every target .olean checksum. Checked files inside the submitted archive."
+}

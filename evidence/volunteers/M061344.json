@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M061344"
+  ],
+  "started_utc": "2026-11-21T03:47:13.015777+00:00",
+  "ended_utc": "2026-11-21T03:47:27.235716+00:00",
+  "elapsed_seconds": 14.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6224308
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.DivMemSubalgebraOfValuationLeOneOfUniformizerStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7564fa8dcda1d445c1b66ccf01854cca7971dea75cfb7cb58bb338c30f905e8b",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.DivMemSubalgebraOfValuationLeOneOfUniformizer"
+  ],
+  "objects": {
+    "M061344": "b694cba59ceaee92b396c5e45e47d8b2827496180159d5217fdc32016310da69"
+  },
+  "bundle_sha256": "c256ddd6be855f21c047bcba6879539a1d193b9ac8a8cf72bc1591853ed53d63",
+  "packet": "M061344",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12071#issuecomment-7056842356",
+  "reviewed_utc": "2026-11-21T06:03:41.094468+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

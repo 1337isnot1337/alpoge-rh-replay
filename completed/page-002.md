@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M000892 | P0615 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsGramFiberMeasuresStatement` | build-observed |
+| M000893 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsIsCharAF` | volunteer-build-reviewed |
 | M000894 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsNormOneUnitShift` | volunteer-build-reviewed |
 | M000895 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsNormOneUnitShiftStatement` | volunteer-build-reviewed |
 | M000896 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsRealFlowAdelicUnits` | volunteer-build-reviewed |
@@ -240,6 +242,7 @@
 | M001231 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SelfdualMeasureTwistBySymmetricAutoStatement` | volunteer-build-reviewed |
 | M001234 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SiegelMatrixSymmetricPosdefImag` | volunteer-build-reviewed |
 | M001235 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SiegelMatrixSymmetricPosdefImagStatement` | volunteer-build-reviewed |
+| M001240 | P1974 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SiegelWeilArchimedeanDensity` | volunteer-build-reviewed |
 | M001248 | P1372 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SiegelWeilMeasureOfCongruentForm` | build-observed |
 | M001256 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SiegelWeilMeasureRankZero` | volunteer-build-reviewed |
 | M001261 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SizeFunctionRapidDecayIntegrable` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M001645 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExponentialMembershipStatement` | volunteer-build-reviewed |
 | M001646 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorDifferentialMatrixUnitFormula` | volunteer-build-reviewed |
 | M001647 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorDifferentialMatrixUnitFormulaStatement` | volunteer-build-reviewed |
-| M001648 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorDifferentialSignRuleQuadratic` | volunteer-build-reviewed |
-| M001649 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorDifferentialSignRuleQuadraticStatement` | volunteer-build-reviewed |
-| M001650 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorIntegrality` | volunteer-build-reviewed |

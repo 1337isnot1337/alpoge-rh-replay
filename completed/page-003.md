@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001648 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorDifferentialSignRuleQuadratic` | volunteer-build-reviewed |
+| M001649 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorDifferentialSignRuleQuadraticStatement` | volunteer-build-reviewed |
+| M001650 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorIntegrality` | volunteer-build-reviewed |
 | M001651 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorIntegralityStatement` | volunteer-build-reviewed |
 | M001656 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FamilyFiltration` | volunteer-build-reviewed |
 | M001657 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FamilyInduction` | volunteer-build-reviewed |
@@ -82,6 +85,7 @@
 | M001871 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ParabolicSubgroupEquality` | volunteer-build-reviewed |
 | M001872 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ParabolicSubgroupEqualityStatement` | volunteer-build-reviewed |
 | M001877 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.PlaneOfHenselAndPairingStatement` | volunteer-build-reviewed |
+| M001889 | P1974 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.QuantumDeterminantBlockEigenvalue` | volunteer-build-reviewed |
 | M001891 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.QuantumDeterminantCoefficientsExpansion` | volunteer-build-reviewed |
 | M001892 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.QuantumDeterminantCoefficientsExpansionStatement` | volunteer-build-reviewed |
 | M001899 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.QuotientBoundOfFactorReduceChart` | volunteer-build-reviewed |
@@ -109,6 +113,7 @@
 | M001945 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.SumOfLevelSizesEqStatement` | volunteer-build-reviewed |
 | M001946 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.TensorPowerIntegral` | volunteer-build-reviewed |
 | M001947 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.TensorPowerIntegralStatement` | volunteer-build-reviewed |
+| M001948 | P1974 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.TensorQuotientQuantumDeterminantEigen` | volunteer-build-reviewed |
 | M001953 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ToL2CongrOnUnitaryBisStatement` | volunteer-build-reviewed |
 | M001954 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ToRawComplex` | volunteer-build-reviewed |
 | M001955 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ToRawComplexStatement` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M002583 | P1001 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.TeichmullerFactorisation` | volunteer-build-reviewed |
 | M002592 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.UnramifiedLatticeEmbeddings` | volunteer-build-reviewed |
 | M002595 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.BlochKatoGeneratorBound` | volunteer-build-reviewed |
-| M002596 | P0705 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.BlockRootsCuspidal` | build-observed |
-| M002597 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.BottomMinor` | volunteer-build-reviewed |
-| M002598 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.CartanCoshPower` | build-observed |
-| M002599 | P0705 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.CongruenceMaxGalois` | build-observed |
-| M002601 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.EulerProductSatake` | volunteer-build-reviewed |

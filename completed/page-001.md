@@ -198,6 +198,7 @@
 | M000427 | P0293 | `CompanionTheory.AutomorphicTheory.ThetaDilations.ParAlg` | volunteer-build-reviewed |
 | M000428 | P1643 | `CompanionTheory.AutomorphicTheory.ThetaDilations.ProdRho` | build-observed |
 | M000429 | P0172 | `CompanionTheory.AutomorphicTheory.ThetaDilations.SqPosOfNe` | volunteer-build-reviewed |
+| M000431 | P1974 | `CompanionTheory.AutomorphicTheory.ThetaDilations.ThetaFin` | volunteer-build-reviewed |
 | M000433 | P0237 | `CompanionTheory.AutomorphicTheory.ThetaDilations.WeilImplicationNonarchQuadratic` | volunteer-build-reviewed |
 | M000445 | P0783 | `CompanionTheory.AutomorphicTheory.UnitriangularMeasure.AdeleCoordinateMeasure.EllipticTorusNorm` | volunteer-build-reviewed |
 | M000446 | P0757 | `CompanionTheory.AutomorphicTheory.UnitriangularMeasure.AdeleCoordinateMeasure.GJGlobalModulus` | volunteer-build-reviewed |
@@ -259,6 +260,7 @@
 | M000574 | P0346 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.DiscreteSeriesCharacters.CapelliDeterminantBlockProduct` | volunteer-build-reviewed |
 | M000575 | P0392 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.DiscreteSeriesCharacters.CobApplyOfDeg` | volunteer-build-reviewed |
 | M000577 | P0783 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.DiscreteSeriesCharacters.Spread` | volunteer-build-reviewed |
+| M000580 | P0435 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.CreationOperators.CreApply` | volunteer-build-reviewed |
 | M000581 | P0757 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.CreationOperators.CycDense` | volunteer-build-reviewed |
 | M000590 | P0392 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.LowKMultOneP` | volunteer-build-reviewed |
 | M000595 | P1501 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.UniqHpkOf` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M000889 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsFiniteAdeleHaarNormalized` | volunteer-build-reviewed |
 | M000890 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsFiniteAdeleHaarNormalizedStatement` | volunteer-build-reviewed |
 | M000891 | P0582 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsGramFiberMeasures` | build-observed |
-| M000892 | P0615 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsGramFiberMeasuresStatement` | build-observed |
-| M000893 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsIsCharAF` | volunteer-build-reviewed |
