@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FiniteAndNcardSetOfSubmoduleLeRelIndexEqLe",
+  "source_sha256": "6e3bab917d81d5dcf972f40478ed68b4efa048fcd7964e71274205c2bf05b257",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Adapt to the torsion-free refactor: supply HasUniqueDiv E via HasUniqueDiv.of_isTorsionFree and pull Module.IsTorsionFree back along the subtype inclusion. No statement changes."
+}

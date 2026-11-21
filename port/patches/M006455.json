@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegralConjInnerMulInnerOfIsEmptyEquiv",
+  "source_sha256": "d4ad57676364b3372f524fc8a75181333c207638fcce336c0fb350bc02c8c68e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Measure.isProbabilityMeasure_map_iff for the mapped measure and supply the AEMeasurable side goal for the smul-map rewrite."
+}

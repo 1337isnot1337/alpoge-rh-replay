@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FiniteAndFinrankLeOfPointwise",
+  "source_sha256": "94abb756cc382084ed8cd24efbf62d39e34d40c7197f851f26e2ed72159829bb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed integral_finsetSum and Cardinal.natCast_lt_aleph0."
+}

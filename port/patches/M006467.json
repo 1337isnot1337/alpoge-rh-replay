@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.L2OpNormConjTransposeExpMulSignMulExpSubLe",
+  "source_sha256": "a8f94872b3aee03884cb253ae416ca18d05284f2c218e8834432ac610125455b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify Matrix.mul_apply and Matrix.one_apply (now protected; bare names resolve to FunLike lemmas and no longer rewrite matrix products)."
+}

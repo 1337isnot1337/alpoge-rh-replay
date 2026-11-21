@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsIsUnitEvalOfMapResidueNeZero",
+  "source_sha256": "5b281db1dc4dc3b0e37b3840a3385b745b0e1604a25017d0861c38f840b67c9e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed continuous_finsetProd (two sites)."
+}

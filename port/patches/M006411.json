@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.EntireApplyEqOfPeriodicOfSpanReal",
+  "source_sha256": "2309fc442055b321d52fc67e3227e3d7aa05eaeae067f3af2baf7240d0679159",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed Polynomial.eval_finsetSum."
+}

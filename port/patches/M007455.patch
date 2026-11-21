@@ -1,0 +1,19 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CuspFormEvaluations/RowAddGenericRowAddTerm.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CuspFormEvaluations/RowAddGenericRowAddTerm.lean
+@@ -23,9 +23,13 @@
+   | add p q hp hq => simp [hp, hq]
+   | mul_X p s hp =>
+     rw [map_mul, Polynomial.eval_mul, hp, map_mul]
+-    congr 1
+-    simp [rowAddGeneric, rowAddTerm, Finset.mul_sum, Polynomial.eval_finsetSum]
+-    simp only [mul_comm]
++    have hX : Polynomial.eval (C t) ((rowAddGeneric u w) (X s)) =
++        (bind₁ fun s ↦ X s + ∑ k, if s = w k then C t * X (u k) else 0) (X s) := by
++      unfold rowAddGeneric rowAddTerm
++      rw [aeval_X, MvPolynomial.bind₁_X_right]
++      simp only [Polynomial.eval_add, Polynomial.eval_mul, Polynomial.eval_C, Polynomial.eval_X,
++        Finset.mul_sum, mul_ite, mul_zero]
++    rw [hX]
+ 
+ theorem eval_zero_rowAddGeneric (u w : ι → σ) (P : MvPolynomial σ K) :
+     Polynomial.eval 0 (rowAddGeneric u w P) = P := by

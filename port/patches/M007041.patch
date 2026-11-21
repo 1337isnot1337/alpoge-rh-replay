@@ -1,0 +1,45 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CuspFormEvaluations/ColumnDegreeLe.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CuspFormEvaluations/ColumnDegreeLe.lean
+@@ -55,7 +55,7 @@
+     (t : K) :
+     eval (fun s => t ^ w s * x s) P =
+       (∑ m ∈ P.support, Polynomial.monomial (∑ s ∈ m.support, w s * m s)
+-        (coeff m P * ∏ s ∈ m.support, x s ^ m s)).eval t := by
++        (P.coeff m * ∏ s ∈ m.support, x s ^ m s)).eval t := by
+   rw [eval_eq, Polynomial.eval_finsetSum]
+   refine Finset.sum_congr rfl fun m _ => ?_
+   rw [Polynomial.eval_monomial]
+@@ -113,8 +113,8 @@
+   push Not at hcon
+   set j := ∑ a, ∑ k ∈ S, m0 (z (a, k)) with hj
+   let R : MvPolynomial σ K :=
+-    ∑ m ∈ P.support.filter (fun m => ∑ a, ∑ k ∈ S, m (z (a, k)) = j), monomial m (coeff m P)
+-  have hR0 : coeff m0 R ≠ 0 := by
++    ∑ m ∈ P.support.filter (fun m => ∑ a, ∑ k ∈ S, m (z (a, k)) = j), monomial m (P.coeff m)
++  have hR0 : R.coeff m0 ≠ 0 := by
+     have hmem : m0 ∈ P.support.filter (fun m => ∑ a, ∑ k ∈ S, m (z (a, k)) = j) :=
+       Finset.mem_filter.2 ⟨hm0, rfl⟩
+     simp only [R, coeff_sum, coeff_monomial]
+@@ -161,11 +161,11 @@
+     rw [h2, Matrix.det_one] at h1
+     exact zero_ne_one h1
+   let Q : (σ → K) → Polynomial K := fun y => ∑ m ∈ P.support,
+-    Polynomial.monomial (∑ s ∈ m.support, w s * m s) (coeff m P * ∏ s ∈ m.support, y s ^ m s)
++    Polynomial.monomial (∑ s ∈ m.support, w s * m s) (P.coeff m * ∏ s ∈ m.support, y s ^ m s)
+   have hQcoeff : ∀ y : σ → K, (Q y).coeff j = ∑ m ∈ P.support,
+-      if ∑ a, ∑ k ∈ S, m (z (a, k)) = j then coeff m P * ∏ s ∈ m.support, y s ^ m s else 0 := by
++      if ∑ a, ∑ k ∈ S, m (z (a, k)) = j then P.coeff m * ∏ s ∈ m.support, y s ^ m s else 0 := by
+     intro y
+-    simp only [Q, Polynomial.finsetSum_coeff, Polynomial.coeff_monomial, he]
++    simp only [Q, Polynomial.finsetSum_coeff, Polynomial.coeff_monomial, Finsupp.single_apply, he]
+   have key : ∀ x : σ → K, eval x D ≠ 0 → eval x R = 0 := by
+     intro x hdet
+     let M : Matrix (Fin S.card) (Fin S.card) K := Matrix.of fun a b => x (z (top a, ee b))
+@@ -263,6 +263,6 @@
+     · rw [hdet, mul_zero]
+     · rw [key x hdet, zero_mul]
+   have hR : R = 0 := (mul_eq_zero.1 hRD).resolve_right hD
+-  exact hR0 (by rw [hR, coeff_zero])
++  exact hR0 (by rw [hR, MvPolynomial.coeff_zero, Finsupp.zero_apply])
+ 
+ end GlobalTheory

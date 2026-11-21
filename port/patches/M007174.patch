@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CuspFormEvaluations/ExistsNatSmulCoeffIsIntegral.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CuspFormEvaluations/ExistsNatSmulCoeffIsIntegral.lean
+@@ -4,7 +4,7 @@
+ 
+ theorem exists_nat_smul_coeff_isIntegral {σ K : Type} [Field K] [CharZero K]
+     [FiniteDimensional ℚ K] (P : MvPolynomial σ K) :
+-    ∃ N : ℕ, 0 < N ∧ ∀ m : σ →₀ ℕ, IsIntegral ℤ (MvPolynomial.coeff m ((N : K) • P)) := by
++    ∃ N : ℕ, 0 < N ∧ ∀ m : σ →₀ ℕ, IsIntegral ℤ (((N : K) • P).coeff m) := by
+   classical
+   have halg : ∀ x : K, IsAlgebraic ℤ x := fun x =>
+     (IsFractionRing.isAlgebraic_iff ℤ ℚ K).2 (Algebra.IsAlgebraic.isAlgebraic x)

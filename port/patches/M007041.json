@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ColumnDegreeLe",
+  "source_sha256": "2ea294e54ce6a993a94bf95cc743e1eb21dbc002f9e8dd53121dbbfdd8f7d707",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "MvPolynomial.coeff moved to AddMonoidAlgebra (dot notation); unfold the single application with Finsupp.single_apply; qualify the now-protected MvPolynomial.coeff_zero."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.LintegralProdPartialSums",
+  "source_sha256": "104d962d5d1778a0664e0c6159127f765b10cae811cb98d5934d8ba949047fec",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pin the middle Tendsto type with an explicit have so that const_mul_atTop unifies first-order and positivity sees a concrete goal."
+}

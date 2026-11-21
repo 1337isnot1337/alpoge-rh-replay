@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsQr",
+  "source_sha256": "217ef4771f5543b4c346912ed42646758a42763e1fba66e3df8533f3f9cfe934",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "LDL.lowerInv_triangular replaced by LDL.isLowerTriangular_lowerInv; discharge the OrderDual side goal with simpa."
+}

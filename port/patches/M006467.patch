@@ -1,0 +1,42 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/L2OpNormConjTransposeExpMulSignMulExpSubLe.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/L2OpNormConjTransposeExpMulSignMulExpSubLe.lean
+@@ -93,10 +93,10 @@
+   set P : Matrix n m ℂ := (1 : Matrix n n ℂ).submatrix id e with hP
+   have hPP : Pᴴ * P = 1 := by
+     ext a b
+-    simp [hP, mul_apply, one_apply, he.eq_iff]
++    simp [hP, Matrix.mul_apply, Matrix.one_apply, he.eq_iff]
+   have hA : A.submatrix e e = Pᴴ * A * P := by
+     ext a b
+-    simp [hP, mul_apply, one_apply]
++    simp [hP, Matrix.mul_apply, Matrix.one_apply]
+   have hn : ‖P‖ ≤ 1 := by
+     have := l2_opNorm_conjTranspose_mul_self P
+     rw [hPP] at this
+@@ -263,7 +263,7 @@
+     ((diagonal j + E).submatrix e e).PosDef := by
+   have : (diagonal j + E).submatrix e e = 1 + E.submatrix e e := by
+     ext a b
+-    simp [diagonal_apply, one_apply, he.eq_iff, hj]
++    simp [diagonal_apply, Matrix.one_apply, he.eq_iff, hj]
+   rw [this]
+   exact posDef_one_add (hE.submatrix e) ((l2_opNorm_submatrix_le E he).trans_lt hE1)
+ 
+@@ -420,7 +420,7 @@
+ 
+ theorem transpose_mul_diagonal_mul_map_star_apply (j : n → ℂ) (g : Matrix n m ℂ) (k l : m) :
+     (gᵀ * diagonal j * g.map star) k l = ∑ a, j a * (g a k * star (g a l)) := by
+-  rw [mul_apply]
++  rw [Matrix.mul_apply]
+   refine Finset.sum_congr rfl fun a _ => ?_
+   rw [mul_diagonal, transpose_apply, map_apply]
+   ring
+@@ -458,7 +458,7 @@
+     nlinarith
+   have hstar : (1 + (u + v) : Matrix n n ℂ).map star = 1 + (u.map star + v.map star) := by
+     ext a b
+-    by_cases h : a = b <;> simp [one_apply, h]
++    by_cases h : a = b <;> simp [Matrix.one_apply, h]
+   have hstar' : (u + v : Matrix n n ℂ).map star = u.map star + v.map star := by
+     ext a b
+     simp

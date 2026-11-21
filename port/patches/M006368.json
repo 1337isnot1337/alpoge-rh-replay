@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.RingKrullDimQuotientEqOfMemMinimalPrimes",
+  "source_sha256": "f4b14da75f91f4ce42b91c7469615872e9a9336f2292c5965b8b5246342be768",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "TFAE indices are 1-based in the new Mathlib; shift .out 0 2 to .out 1 3."
+}

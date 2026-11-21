@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsIsFundamentalDomainAndQuotMeasureEq",
+  "source_sha256": "36a39fa6fc2c93851a8a2bc8b96a1438e64ddf59d49a3344b8dab6282e733a01",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the MeasureTheory.QuasiMeasurePreserving namespace (the Measure.-prefixed names moved)."
+}

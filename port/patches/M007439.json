@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ProdLeadMinorDiagonal",
+  "source_sha256": "7fcce5cc2417879fa01b6a85f8321d2b7475e13052977bd212193e2781d9524f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify Matrix.one_apply (now protected; bare name resolves to the FunLike lemma)."
+}

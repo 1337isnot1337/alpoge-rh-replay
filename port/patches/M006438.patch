@@ -1,0 +1,12 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/FinrankMulDiscrRpowLeSumSqOfMemTraceDual.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/FinrankMulDiscrRpowLeSumSqOfMemTraceDual.lean
+@@ -87,7 +87,8 @@
+     rw [hI, inv_mul_cancel_right₀ hJ]
+   have hI0 : I ≠ ⊥ := by
+     rintro rfl
+-    exact h0 (FractionalIdeal.spanSingleton_eq_zero_iff.mp (by simpa using hI'))
++    simp only [FractionalIdeal.coeIdeal_bot, zero_mul] at hI'
++    exact h0 (FractionalIdeal.spanSingleton_eq_zero_iff.mp hI')
+   have h1 : (1 : ℚ) ≤ Ideal.absNorm I := by
+     exact_mod_cast Nat.one_le_iff_ne_zero.mpr (Ideal.absNorm_eq_zero_iff.not.mpr hI0)
+   rw [← FractionalIdeal.absNorm_span_singleton (𝓞 K), hI', map_mul,
