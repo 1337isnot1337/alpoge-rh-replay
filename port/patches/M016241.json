@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.BasicIff",
+  "source_sha256": "3924dfc1e7a93aa9c4b5cdc725a728ddec921783deb417a1fc8d59e21b2a52bc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
