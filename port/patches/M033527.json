@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeneratorMinpolyEigenvalueCompatStatement",
+  "source_sha256": "1162010fcec55e2a44fa5c582ddfa0808697cdb633314090cb903b78a9609388",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeProjectionFromLatticeStatement",
+  "source_sha256": "8f95889c4ab532a3fc5c3e570a0b8037f871ce62e80940450718b5a39177c370",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

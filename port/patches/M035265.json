@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HenselianNormLift",
+  "source_sha256": "a31277e49b8ae4e0649198bcc6cff719d1b3b0c68f745cc8c6195587a27f56c1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

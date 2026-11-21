@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianCongrInvolution",
+  "source_sha256": "a99aa64ae9037621fecf26e88e9ee7f4eb68c2c5f74593c9b3ca20989d8c42e8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove the trailing tactics after congr closes the conjugate-transpose equality on the target Mathlib."
+}
