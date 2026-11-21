@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.LocalTheory.ConeShifts.FubTate",
+  "source_sha256": "886802317286b12ec7cf5acec285b8696160203022632359e79e9952697e1e2a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0068-lean436-20261121/packet-result.json"
+}

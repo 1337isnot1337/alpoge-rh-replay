@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.SphericalLattices.DgPerm",
+  "source_sha256": "d48114d8d8a250624180fd09e37437667a28d9f3257880d3d780967893d6fca8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0068-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CharacterColumnKernels.StatLowestInZ",
+  "source_sha256": "68763c5def42126b92618786e2abca392cee87a5a3c7878a2c8671d5ec4dc92c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0068-lean436-20261121/packet-result.json"
+}

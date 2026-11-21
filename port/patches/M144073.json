@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.BehrendSets.Statement",
+  "source_sha256": "4016a9881435054c84bdb7cd8f20b80288a0bf81dfeb3ac2e1978ee18e450f2f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0068-lean436-20261121/packet-result.json"
+}

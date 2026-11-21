@@ -1,0 +1,21 @@
+--- a/src/Development/WeilBound/ThetaLifts/LocalTheory/ArchimedeanBumps/DictHaar.lean
++++ b/src/Development/WeilBound/ThetaLifts/LocalTheory/ArchimedeanBumps/DictHaar.lean
+@@ -32,7 +32,8 @@
+ theorem ae_ne : ∀ᵐ c : ι → ℂ, ∀ w, c w ≠ 0 := by
+   rw [ae_all_iff]
+   intro w
+-  exact (Measure.quasiMeasurePreserving_eval (fun _ : ι => (volume : Measure ℂ)) w).ae (p := fun z => z ≠ 0)
++  exact MeasureTheory.QuasiMeasurePreserving.ae
++    (Measure.quasiMeasurePreserving_eval (fun _ : ι => (volume : Measure ℂ)) w) (p := fun z => z ≠ 0)
+     (by rw [ae_iff]; simp)
+ 
+ theorem dens_inv (s : ι → ℂ) (hs : ∀ w, s w ≠ 0) (A : Set (ι → ℂ)) (hA : MeasurableSet A) :
+@@ -85,7 +86,7 @@
+     have hc := hK.image hj.continuous
+     rw [hy, withDensity_apply _ hc.measurableSet]
+     have hco : ContinuousOn (fun c : ι → ℂ => (dens c : ℝ)) (j '' K) := by
+-      refine ContinuousOn.inv₀ (by fun_prop) ?_
++      refine ContinuousOn.inv₀ (f := fun c : ι → ℂ => ∏ w, ‖c w‖ ^ 2) (by fun_prop) ?_
+       rintro _ ⟨a, _, rfl⟩
+       exact (Finset.prod_pos fun w _ => pow_pos (norm_pos_iff.2 (hne a w)) 2).ne'
+     exact (hasFiniteIntegral_iff_ofNNReal).1 (hco.integrableOn_compact hc).2⟩

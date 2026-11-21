@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.LocalTheory.ArchimedeanBumps.ExistsDensity",
+  "source_sha256": "071f0037e5a77600be0fc5d532353c947eeb1bbf099996ecfa8f05d6637ca4a2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0068-lean436-20261121/packet-result.json"
+}

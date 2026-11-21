@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.LocalTheory.ArchimedeanBumps.DictHaar",
+  "source_sha256": "3e4e368b750cb11062e9f2cbbeaa8d4e12f52151e09929f66cf794c428dfc80e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: explicitly supply the product function to the inverse-continuity lemma to prevent elaborator unfolding through the finite product, and use the current namespace for almost-everywhere transfer. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0068-lean436-20261121/packet-result.json"
+}

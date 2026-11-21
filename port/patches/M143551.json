@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.LeviDeterminants.MixedModels.PlaneGen",
+  "source_sha256": "b5fa6d5013a3cd72f32c4e944812e793f049c80ccb8c782fb732a1f8d361ef05",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0068-lean436-20261121/packet-result.json"
+}

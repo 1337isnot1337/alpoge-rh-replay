@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.EllipticTorsion.WSeriesUnique",
+  "source_sha256": "cd13e38135b283d5845de5af2cf13457cb56250dc95965d2421d0106934d695c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0068-lean436-20261121/packet-result.json"
+}
