@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasSumConjClassesRegroupWithInvariantSelection.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasSumConjClassesRegroupWithInvariantSelection.lean
+@@ -8,7 +8,7 @@
+       (∑' δ, g δ) := by
+   classical
+   let c : G → Set G := fun δ => {δ' | IsConj δ δ'}
+-  have hsum : HasSum g (∑' δ, g δ) := (summable_of_finite_support hg).hasSum
++  have hsum : HasSum g (∑' δ, g δ) := (summable_of_hasFiniteSupport hg).hasSum
+   have h1 := hsum.tsum_fiberwise c
+   have hfib : ∀ γ : G, c ⁻¹' {c γ} = c γ := by
+     intro γ; ext b

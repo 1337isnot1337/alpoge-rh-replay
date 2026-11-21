@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianEndoMatrixRationalInLatticeBasis.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianEndoMatrixRationalInLatticeBasis.lean
+@@ -39,7 +39,7 @@
+ 
+   have key : A₁ * T = A₂ := by
+     ext k l
+-    rw [mul_apply]
++    rw [Matrix.mul_apply]
+     show _ = (e k ⬝ᵥ H₂ *ᵥ star (e l)).im
+     rw [hγ, hγe l]
+     have := map_sum (imFormRight H₁ (e k)) (fun m : Fin n => T m l • e m) (Finset.univ : Finset (Fin n))

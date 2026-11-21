@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianEndoMatrixRationalInLatticeBasis",
+  "source_sha256": "d5b2bda01e19168fb976a0498b0b624518577e4fce97fde64c6219c7f1c5d54c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify the protected Matrix.mul_apply lemma. Statements are unchanged."
+}
