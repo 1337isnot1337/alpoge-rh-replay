@@ -1,0 +1,139 @@
+name: Port P0122 repaired live packet
+on:
+  push:
+    branches: [port-ci-p0122-v2-436]
+    paths:
+      - '.github/workflows/port-p0122-v2.yml'
+      - 'scripts/port-packet-diagnostic.py'
+      - 'port/diagnostic-patches/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: port-p0122-v2-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    name: Compile live members of ${{ matrix.packet }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        packet: [P0122]
+    env:
+      LEAN_NUM_THREADS: '2'
+      PORT_PACKET: ${{ matrix.packet }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Verify live scope and candidate hashes
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import gzip, hashlib, json, os, pathlib, shutil
+          packet = os.environ['PORT_PACKET']
+          assert packet == 'P0122'
+          folder = pathlib.Path('port/diagnostic-patches') / packet
+          selection = json.loads((folder / 'selection.json').read_text())
+          candidates_path = folder / 'candidate-manifest.json'
+          candidates = json.loads(candidates_path.read_text())
+          digest = lambda p: hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()
+          assert selection['packet'] == packet
+          assert digest('tracker/modules.jsonl.gz') == selection['ledger_sha256']
+          assert digest('port/pruned.txt') == selection['pruned_file_sha256']
+          assert digest('scripts/port-packet-diagnostic.py') == selection['harness_sha256']
+          assert digest(candidates_path) == selection['candidate_manifest_sha256']
+          rows = {r['id']: r for r in map(json.loads, gzip.open('tracker/modules.jsonl.gz', 'rt'))}
+          pruned = {line.strip() for line in pathlib.Path('port/pruned.txt').read_text().splitlines()
+                    if line.strip() and not line.startswith('#')}
+          raw = sorted(mid for mid, row in rows.items() if row['packet'] == packet)
+          live = sorted(set(raw) - pruned)
+          assert len(raw) == 64
+          assert raw == selection['raw_packet_ids']
+          assert live == selection['target_ids']
+          assert sorted(set(raw) & pruned) == selection['excluded_pruned_ids']
+          assert len(live) == 64
+          closure, pending = set(live), list(live)
+          while pending:
+              for dep in rows[pending.pop()]['imports']:
+                  if dep not in closure:
+                      closure.add(dep)
+                      pending.append(dep)
+          assert not closure & pruned
+          assert sorted(closure) == selection['closure_ids']
+          assert set(candidates) <= set(live)
+          assert {p.stem for p in folder.glob('*.patch')} == set(candidates)
+          for mid, record in candidates.items():
+              assert set(record) == {'source_sha256', 'compiled_source_sha256', 'patch_sha256'}
+              assert all(isinstance(value, str) and len(value) == 64
+                         and set(value) <= set('0123456789abcdef') for value in record.values())
+              assert record['source_sha256'] == rows[mid]['source_sha256']
+              assert digest(folder / (mid + '.patch')) == record['patch_sha256']
+          actual_records = {mid for mid in closure
+                            if (pathlib.Path('port/patches') / (mid + '.json')).is_file()}
+          actual_patches = {mid for mid in closure
+                            if (pathlib.Path('port/patches') / (mid + '.patch')).is_file()}
+          assert set(selection['landed_record_sha256']) == actual_records
+          assert set(selection['landed_patch_sha256']) == actual_patches
+          for mid, sha in selection['landed_record_sha256'].items():
+              assert digest(pathlib.Path('port/patches') / (mid + '.json')) == sha
+          for mid, sha in selection['landed_patch_sha256'].items():
+              assert digest(pathlib.Path('port/patches') / (mid + '.patch')) == sha
+          assert closure - set(live) <= set(selection['landed_record_sha256'])
+          target = json.loads(pathlib.Path('port/target.json').read_text())
+          assert target == selection['target']
+          assert target['lean'] == 'leanprover/lean4:v4.36.0'
+          assert target['mathlib'] == 'fc4f59e577feb1a4956671bc04ac18aaaf8cd842'
+          out = pathlib.Path('port-p0122-v2-results') / packet
+          out.mkdir(parents=True, exist_ok=True)
+          (out / 'requested-target.json').write_text(json.dumps(target, indent=2) + '\n')
+          (out / 'requested-modules.json').write_text(json.dumps(live, indent=2) + '\n')
+          shutil.copyfile(folder / 'selection.json', out / 'requested-selection.json')
+          shutil.copyfile('port/pruned.txt', out / 'requested-pruned.txt')
+          shutil.copyfile(candidates_path, out / 'requested-candidate-manifest.json')
+          print(f'Verified {len(live)} live targets, {len(raw) - len(live)} excluded pruned targets, '
+                f'{len(closure)} pinned sources, and {len(candidates)} candidate patches.')
+          PY
+          df -h
+          free -h
+      - name: Install the exact Lean toolchain
+        shell: bash
+        run: |
+          set -o pipefail
+          {
+            sudo apt-get update -qq
+            sudo apt-get install -y elan
+            elan toolchain install leanprover/lean4:v4.36.0
+            elan default leanprover/lean4:v4.36.0
+            lean --version
+            lake --version
+          } 2>&1 | tee "port-p0122-v2-results/$PORT_PACKET/toolchain.log"
+      - name: Compile every live module from pinned sources
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, os, pathlib, subprocess, sys
+          packet = os.environ['PORT_PACKET']
+          folder = pathlib.Path('port/diagnostic-patches') / packet
+          selection = json.loads((folder / 'selection.json').read_text())
+          command = [sys.executable, '-u', 'scripts/port-packet-diagnostic.py',
+                     '--packet', packet,
+                     '--workspace', str(pathlib.Path(os.environ['RUNNER_TEMP']) / ('port-p0122-v2-' + packet)),
+                     '--output', 'port-p0122-v2-results/' + packet,
+                     '--diagnostic-patches', str(folder), '--module-timeout', '1800']
+          for mid in selection['target_ids']:
+              command.extend(['--module', mid])
+          raise SystemExit(subprocess.call(command))
+          PY
+      - name: Upload complete evidence, including failed attempts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: port-p0122-v2-${{ matrix.packet }}-${{ github.run_attempt }}
+          path: port-p0122-v2-results/${{ matrix.packet }}
+          if-no-files-found: error
+          retention-days: 30
