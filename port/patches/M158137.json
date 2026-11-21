@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.Stabfin",
+  "source_sha256": "a737c921ffe7dfefc41bfa3ead785ab9935bd59a4fece66bfbcf9a969e9b5a72",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

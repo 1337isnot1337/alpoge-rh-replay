@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CyclotomicNorms.NonsquarefreeBounds.SubstitutionBound",
+  "source_sha256": "c991ffabc532ca88e00930f2f0dec9ac13ab3c6f7e0b1eae9eedf00746ed8de9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

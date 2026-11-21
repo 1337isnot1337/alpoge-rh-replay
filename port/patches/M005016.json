@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.FlatImageOfOverFractionFieldOfValuationRing",
+  "source_sha256": "d609df5719ac1ee92be2eb586a4cbfdbf83c47f1c5adc692b3bf6a7c073d0565",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d0-rem-v2: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

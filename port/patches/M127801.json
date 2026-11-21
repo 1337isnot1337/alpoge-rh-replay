@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.StagedEstimateHolds",
+  "source_sha256": "f5049b45333a66959fe3b1d8dc8fd529d2d146673e3d2b0ad3e2b7844b0a659c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

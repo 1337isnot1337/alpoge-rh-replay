@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.DegreeFormula.PointDegree.FlagDeg",
+  "source_sha256": "4840c7e2360a8caa4ae2cb7d6ea91bc47034d41ef28ea4ce56968934a2e47441",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

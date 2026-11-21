@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteFreeModuleCompactAdicDvrStatement",
+  "source_sha256": "2d0fba692c4403e4d9246582d5c6553a8a19f414cf1f1625e0002dd6cc1959f1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

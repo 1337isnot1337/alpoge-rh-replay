@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.BocksteinBaseChange.AdmissibleMinors.ConnAbs",
+  "source_sha256": "ff82e5297cd51c6267ffdba7b853e983e0e498306c41e8f03f8dfc27ca2b86df",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d0-rem-v2: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

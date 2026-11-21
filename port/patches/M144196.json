@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CyclotomicNorms.NonsquarefreeBounds.Newton",
+  "source_sha256": "61f5804f534dc7fe6c3b92b31547d3b9b03db9304efefa42eb06dc11edfb94fe",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

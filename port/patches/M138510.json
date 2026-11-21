@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.HodgeTatePoints.RaTlog",
+  "source_sha256": "5c76f2fa40ff6be1d394677f3850eb27835d07846cdd16eaa2417ba73e2b75a2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d0-rem-v2: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

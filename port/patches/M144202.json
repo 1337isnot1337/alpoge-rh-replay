@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CyclotomicNorms.NonsquarefreeBounds.TwoMulNumDerangementsLeFactorial",
+  "source_sha256": "dd5b897f078439f34838b3e4c83f7cdecb613db064fe2b1c532d5cdde6abcb64",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

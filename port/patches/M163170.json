@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.ComplexMultiplication.VariableChangePoints",
+  "source_sha256": "12fd6f28d984310235db6b977e3f4544a07622bb540d39e6c028b875ab8db425",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d0-rem-v2: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

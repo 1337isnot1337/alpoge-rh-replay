@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FilteredPoleLength.LocalDescentLevels.MinimumChainBounds",
+  "source_sha256": "ad3b83056ea2c74b383eb19991f7210a7f5fdc13847eb11acd769fc51b444be1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

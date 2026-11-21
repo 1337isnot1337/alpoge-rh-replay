@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.IdealCycleValues.ProdMapToMultiset",
+  "source_sha256": "d3f53af2687abfc6a4737b7c7bf0f9fa73fe0e7847468bddf87b5db9974d44a0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d0-rem-v2: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

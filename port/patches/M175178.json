@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ThetaSummability.RealCoinvariants.GlRelZero",
+  "source_sha256": "e2b861b297f601a73e48e9d394f086e85de17891045a70f0c5d9407191f623a7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d0-rem-v2: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.GrowthBounds.SegRing",
+  "source_sha256": "1a8d35ff79e394df2c49a0f57225b0e7afb144fc8f9db2f7ca9d6a059902ef73",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

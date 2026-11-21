@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.Adele.WeakApprox",
+  "source_sha256": "495e1a0f6562ed2ec1baa3e68559c72094e1b44e932c04f36880fd4c370bb238",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d0-rem-v2: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.WachLatticeTwists.StatementDual",
+  "source_sha256": "0d790e3d5b853ac36a51b37a572505de45907f15b1e163d5d4abfe3b986b19b5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

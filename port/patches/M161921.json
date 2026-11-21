@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.WachLatticeTwists.HodgeTateChains.StatCharSum",
+  "source_sha256": "c9709d418a4ee951f7d1f4161cefa56cd2ff57f234ad38806e2aa4b6eb743b40",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

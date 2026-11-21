@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.MinimalPrimeDimensions.MemOfForallValuationSubring",
+  "source_sha256": "f3605a102adb95499abbb5a0d1179d4b86c0484d17b9a259ff6f57a4c662db33",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d0-rem-v2: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

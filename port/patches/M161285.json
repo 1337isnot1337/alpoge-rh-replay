@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SizeWindowBrackets.ChainSlopeWindows.TraceConjTransposeMulSelf",
+  "source_sha256": "8b2afe7d7f80e919c8b6317e9236393c96c5dd4251c438ac25bb3e38b8b89acb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.UnipotentAdelicQuotients.EllRegCut",
+  "source_sha256": "afbb057d1716a2beecfcd3d839e6ac954385ad3b1486035adcd748d01c77fd29",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

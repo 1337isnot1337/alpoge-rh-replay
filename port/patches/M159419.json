@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.GrowthBounds.ColumnSpanDensity.QuadraticBasis.QuadBasis",
+  "source_sha256": "bd39313b901f52f5f5acf1e7e6d550242a21e08ed22c20a59fb1c45b4dcc9982",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

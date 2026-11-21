@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.SemistableReduction.SemiDegCA",
+  "source_sha256": "2e9216ceab3b0c5bdcd909a7fd7081df1b295cd0f40ca7407ebdbc9555474f6a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d0-rem-v2: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

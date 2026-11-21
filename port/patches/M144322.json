@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.EllipticTorsion.EllipticTorsionProofs.IsogenyExpansion",
+  "source_sha256": "b52dc5029e1e1b4639fb53ce0a297bf191836b4210f2df075016a001befd8403",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}
