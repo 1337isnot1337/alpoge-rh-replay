@@ -1,7 +1,8 @@
 """Reconcile mutually exclusive volunteer reservations from trusted main-branch code."""
-import json,os,re,sys,time,urllib.request,urllib.error
+import json,os,re,sys,urllib.request
 from claim_comments import COMMENT_FEED, comments_by_issue
 from tasks import load
+from github_rate_limit import rate_limit_delay, retry_rate_limited
 from collections import defaultdict
 def api(route,method='GET',body=None):
  base='https://api.github.com/repos/'+os.environ['GITHUB_REPOSITORY']
@@ -68,37 +69,13 @@ def reconcile(get_pages=None, mutate=None):
    mutate(f'/issues/{number}/comments','POST',{'body':f'Granted `{target}`. Begin this reservation. Attach your receipt and log to this issue, or close it to release the work.'})
   elif desired=='claim-conflict' and (desired not in labels or number not in conflicts):
    mutate(f'/issues/{number}/comments','POST',{'body':'No grant. This selection is unavailable or overlaps existing work. Close this issue and choose a new open module or packet with `python3 tracker/tasks.py next`.'})
-def rate_limit_delay(error, attempt):
-    if error.code not in (403, 429):
-        return None
-    headers = error.headers
-    retry = headers.get('Retry-After', '')
-    reset = headers.get('X-RateLimit-Reset', '')
-    exhausted = headers.get('X-RateLimit-Remaining') == '0'
-    if not (error.code == 429 or retry.isdigit() or exhausted
-            or b'rate limit' in error.read().lower()):
-        return None
-    delays = [int(retry)] if retry.isdigit() else []
-    if exhausted and reset.isdigit():
-        delays.append(max(1, int(reset) - int(time.time()) + 1))
-    return max(delays) if delays else 60 * 2 ** attempt
 
 
 def main():
-    for attempt in range(4):
-        try:
-            if '--graphql' in sys.argv:
-                import claims_graphql
-                return claims_graphql.reconcile(reconcile)
-            return reconcile()
-        except urllib.error.HTTPError as error:
-            delay = rate_limit_delay(error, attempt)
-            if delay is None or attempt == 3:
-                raise
-            error.close()
-            print(f'GitHub rate limit (HTTP {error.code}). Rechecking all claims after {delay}s.',
-                  file=sys.stderr, flush=True)
-            time.sleep(delay)
+    if '--graphql' in sys.argv:
+        import claims_graphql
+        return claims_graphql.reconcile(reconcile)
+    return retry_rate_limited(reconcile, 'Rechecking all claims')
 
 
 if __name__=='__main__':main()

@@ -7,6 +7,8 @@ import re
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
+from github_rate_limit import ATTEMPTS, retry_rate_limited, wait_for_rate_limit
+
 LABELS = ('claim', 'claim-granted', 'claim-conflict')
 COMMENT_FIELDS = 'databaseId body author { login __typename }'
 
@@ -35,6 +37,10 @@ class ClaimsGraphQL:
                 raise RuntimeError('; '.join(error['message'] for error in errors))
             return result['data']
 
+    def read_query(self, query, **variables):
+        # Retry this page before advancing its cursor. No mutation is replayed here.
+        return retry_rate_limited(lambda: self.query(query, **variables), 'Retrying GraphQL read')
+
     def snapshot(self):
         query = '''
         query($owner:String!, $repo:String!, $after:String) {
@@ -52,7 +58,7 @@ class ClaimsGraphQL:
         }''' % COMMENT_FIELDS
         after = None
         while True:
-            data = self.query(query, owner=self.owner, repo=self.repo, after=after)['repository']
+            data = self.read_query(query, owner=self.owner, repo=self.repo, after=after)['repository']
             self.labels = {name: data[key]['id'] for name, key in zip(LABELS, ('claim', 'granted', 'conflict'))}
             issue_page = data['issues']
             for issue in issue_page['nodes']:
@@ -82,7 +88,7 @@ class ClaimsGraphQL:
             info = page['pageInfo']
             if not info['hasPreviousPage']:
                 return
-            page = self.query('''
+            page = self.read_query('''
               query($id:ID!, $before:String) {
                 node(id:$id) { ... on Issue {
                   comments(last:100, before:$before) {
@@ -119,7 +125,14 @@ class ClaimsGraphQL:
 
 
 def reconcile(planner):
-    transport = ClaimsGraphQL(os.environ['GITHUB_REPOSITORY'], os.environ['GITHUB_TOKEN'])
-    transport.snapshot()
-    planner(get_pages=transport.pages, mutate=transport.queue)
-    transport.apply()
+    for attempt in range(ATTEMPTS):
+        transport = ClaimsGraphQL(os.environ['GITHUB_REPOSITORY'], os.environ['GITHUB_TOKEN'])
+        transport.snapshot()
+        planner(get_pages=transport.pages, mutate=transport.queue)
+        try:
+            transport.apply()
+            return
+        except HTTPError as error:
+            # A mutation may have succeeded before its response failed. Re-read
+            # all grants and replan rather than blindly repeating that mutation.
+            wait_for_rate_limit(error, attempt, 'Rechecking all claims')
