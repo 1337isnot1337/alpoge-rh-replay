@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CasimirElement",
+  "source_sha256": "a87e1075814edbdf08e9102c6c91c73312e7f3bcfb577707be25a5505d9fe523",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0047-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/AlgebraSmulCommClassComplex.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/AlgebraSmulCommClassComplex.lean
+@@ -121,7 +121,7 @@
+     funext fun c ↦ UpperTheory.Reformulated.B.Qe25.gauge_eq k r c
+   rw [h]
+   refine Complex.ofRealCLM.contDiff.contDiffAt.comp c (contDiffAt_prod fun a _ ↦ ?_)
+-  exact (ContDiffAt.norm ℝ (contDiffAt_apply ℝ ℂ a c) (hc a)).pow _
++  exact (ContDiffAt.norm ℝ (contDiffAt_apply ℝ (fun _ : Fin r => ℂ) a c) (hc a)).pow _
+ 
+ theorem UpperTheory.Reformulated.B.Qe25.loc :
+     ∀ {X : Type} [inst : NormedAddCommGroup X] [inst_1 : NormedSpace ℂ X] {k r : ℕ} (Φ : (Fin r → ℂ) → X)

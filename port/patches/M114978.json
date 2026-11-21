@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.BiHomSum",
+  "source_sha256": "d8c415e5a6b476e65445e1125e62d5b6cb7d1f7dde26cf6b23ef90de79b9e300",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Adapt the biHom definition to the current coefficient API: MvPolynomial.coeff n (MvPolynomial.coeff \u03b2 F) becomes (F.coeff \u03b2).coeff n. In the pinned original Mathlib, MvPolynomial.coeff m p is defined as (AddMonoidAlgebra.coeff p) m; the target uses this same coefficient map directly. This is the same nested coefficient and leaves the bihomogeneity predicate and theorem proposition equivalent; no assumptions or conclusions are added or removed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0047-lean436-20261121/packet-result.json"
+}
