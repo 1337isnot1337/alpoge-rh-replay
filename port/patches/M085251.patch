@@ -1,0 +1,29 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/ModuliProofs/ExistsSmoothPeriodicPartitionOfUnity.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/ModuliProofs/ExistsSmoothPeriodicPartitionOfUnity.lean
+@@ -17,7 +17,7 @@
+   intro x
+   refine ⟨Metric.closedBall x 1, Metric.closedBall_mem_nhds x one_pos, ?_⟩
+   have hclosed : IsClosed (Λ : Set E) :=
+-    AddSubgroup.isClosed_of_discrete (H := Λ.toAddSubgroup)
++    AddSubgroup.isClosed_of_discreteTopology (U := Λ.toAddSubgroup)
+   have hfin : ((tsupport φ - Metric.closedBall x 1) ∩ (Λ : Set E)).Finite :=
+     Metric.finite_isBounded_inter_isClosed DiscreteTopology.isDiscrete
+       (hφ.isBounded.sub Metric.isBounded_closedBall) hclosed
+@@ -187,7 +187,7 @@
+   have hz' := closure_mono h1 hz
+   rw [hlf.closure_iUnion] at hz'
+   obtain ⟨l, hl⟩ := Set.mem_iUnion.1 hz'
+-  have hl' : z + l ∈ tsupport φ := tsupport_comp_subset_preimage φ (continuous_add_right (l : E)) hl
++  have hl' : z + l ∈ tsupport φ := tsupport_comp_subset_preimage φ (continuous_add_const (l : E)) hl
+   simpa using hper (-l) _ (hU hl')
+ 
+ open Complex Matrix in
+@@ -205,7 +205,7 @@
+           ⋃ l : Λ, (· + (l : Fin g → ℂ)) ⁻¹' Metric.ball x 1 := by
+         ext z; simp
+       rw [hset]
+-      exact isOpen_iUnion fun l => Metric.isOpen_ball.preimage (continuous_add_right _))
++      exact isOpen_iUnion fun l => Metric.isOpen_ball.preimage (continuous_add_const _))
+     (fun x l z ⟨m, hm⟩ => ⟨m - l, by
+       have hzm : z + (l : Fin g → ℂ) + ((m - l : Λ) : Fin g → ℂ) = z + m := by push_cast; abel
+       rw [hzm]

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsIntertwiningFunctional",
+  "source_sha256": "1c9a2d5afd396e36297f8df096781d8598b70736de65208ee2bf67c21768a6bd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove a trailing Subtype.ext step after congr already closes the equality. Statements are unchanged."
+}

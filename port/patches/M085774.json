@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ModuliProofs.MvPowerSeriesVariablesSyzygySocle",
+  "source_sha256": "8e1213cc5ca94979123d08ec587e2e6683664afcbfb6259c9a12ff3f0bd3f590",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename Finsupp.finset_sum_apply to Finsupp.finsetSum_apply. Statements are unchanged."
+}

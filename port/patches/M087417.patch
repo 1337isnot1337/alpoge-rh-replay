@@ -1,0 +1,9 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/ExistsIntertwiningFunctional.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/ExistsIntertwiningFunctional.lean
+@@ -183,6 +183,5 @@
+       exact SA.smul_mem _ ((memSA _).mp hx)
+     rw [hφ _ hmem, hφ _ hx, ← hιV k, ← map_smul φ₀]
+     congr 1
+-    exact Subtype.ext hrk
+ 
+ end GlobalTheory.IntertwiningFunctional

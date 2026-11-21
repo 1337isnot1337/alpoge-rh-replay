@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsUniformRegularityBound",
+  "source_sha256": "1729db9ddf02bcd3e77de4e362dfd402ad9fc99fa7a8bed0198d28b29c9b5d9f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Make the homogeneous generating set explicit and update coefficient access to field notation and the AddMonoidAlgebra coefficient API. The contraction definition and coefficient theorem still use exactly the same polynomial coefficients; this is an equivalent API spelling change."
+}
