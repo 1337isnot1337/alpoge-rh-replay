@@ -250,7 +250,7 @@
 | [@loremcdmx](https://github.com/loremcdmx) | [P1737](https://github.com/rohanarun/alpoge-rh-replay/issues/9411) | Claimed |
 | [@jwr404](https://github.com/jwr404) | [M150231](https://github.com/rohanarun/alpoge-rh-replay/issues/9415) | Claimed |
 | [@mdpmcc](https://github.com/mdpmcc) | [M120379](https://github.com/rohanarun/alpoge-rh-replay/issues/9449) | Claimed |
-| [@emsi](https://github.com/emsi) | [P1979](https://github.com/rohanarun/alpoge-rh-replay/issues/9685) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M162433](https://github.com/rohanarun/alpoge-rh-replay/issues/9856) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M162559](https://github.com/rohanarun/alpoge-rh-replay/issues/9874) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M175177](https://github.com/rohanarun/alpoge-rh-replay/issues/9881) | Claimed |
+| [@TOTOGT](https://github.com/TOTOGT) | [M175180](https://github.com/rohanarun/alpoge-rh-replay/issues/9884) | Claimed |
