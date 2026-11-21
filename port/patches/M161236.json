@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleNzd",
+  "source_sha256": "7bb5a0b7e27058f275052e8816bc89f91f9a2470ea685931fa024c72256e40b9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,16 @@
+Module: M161362 Formalism.SubspaceCounting.SubspaceCountingProofs.QVandermonde
+Started: 2026-11-21T22:16:02.348003+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.SubspaceCountingProofs.QVandermonde:olean"]
+Pinned source SHA-256: bdab6e092816baa758af8920d15a17c39f21daf261a9def1de917fc11636420f
+Compiled source SHA-256: bdab6e092816baa758af8920d15a17c39f21daf261a9def1de917fc11636420f
+
+⚠ [18250/18252] Built Formalism.SubspaceCounting.StatementB (2.4s)
+warning: src/Formalism/SubspaceCounting/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.SubspaceCounting.StatementB:irArts
+warning: src/Formalism/SubspaceCounting/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.SubspaceCounting.SubspaceCountingProofs.QVandermonde (2.5s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.085
+Timed out: False

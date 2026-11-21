@@ -1,0 +1,16 @@
+Module: M161364 Formalism.SubspaceCounting.SubspaceCountingProofs.SubspaceCount
+Started: 2026-11-21T22:16:18.015330+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.SubspaceCountingProofs.SubspaceCount:olean"]
+Pinned source SHA-256: db919a1289e041d96bf354ee249a79cc4b29501c582ce30fb0d96768b8aef516
+Compiled source SHA-256: db919a1289e041d96bf354ee249a79cc4b29501c582ce30fb0d96768b8aef516
+
+⚠ [18250/18252] Replayed Formalism.SubspaceCounting.StatementB
+warning: src/Formalism/SubspaceCounting/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.SubspaceCounting.StatementB:irArts
+warning: src/Formalism/SubspaceCounting/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.SubspaceCounting.SubspaceCountingProofs.SubspaceCount (2.5s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.628
+Timed out: False

@@ -1,0 +1,16 @@
+Module: M161375 Formalism.SuccessiveMinima.DefsMink
+Started: 2026-11-21T22:16:46.948102+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.SuccessiveMinima.DefsMink:olean"]
+Pinned source SHA-256: f4dfcb8628ec5b371f483bebec64145b89d971cc530e1e210262f6b475b07208
+Compiled source SHA-256: f4dfcb8628ec5b371f483bebec64145b89d971cc530e1e210262f6b475b07208
+
+⚠ [18250/18252] Built Formalism.SuccessiveMinima.StatementMink (2.4s)
+warning: src/Formalism/SuccessiveMinima/StatementMink.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.SuccessiveMinima.StatementMink:irArts
+warning: src/Formalism/SuccessiveMinima/StatementMink.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.SuccessiveMinima.DefsMink (2.4s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.934
+Timed out: False

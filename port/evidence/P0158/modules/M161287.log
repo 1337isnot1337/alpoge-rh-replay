@@ -1,0 +1,30 @@
+Module: M161287 Formalism.SizeWindowBrackets.ChainSlopeWindows.WeightedMeanLemmaNeedsDegree
+Started: 2026-11-21T22:13:37.324473+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.SizeWindowBrackets.ChainSlopeWindows.WeightedMeanLemmaNeedsDegree:olean"]
+Pinned source SHA-256: 83471d359a412fa2d4078d4e932bb835a15cbdf5e903e1589b848623c91300af
+Compiled source SHA-256: 83471d359a412fa2d4078d4e932bb835a15cbdf5e903e1589b848623c91300af
+
+⚠ [2130/2132] Built Formalism.SizeWindowBrackets.RealSlopeBoundsSplit (743ms)
+warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Data.Real.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Algebra.Order.BigOperators.Ring.Finset` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Algebra.Order.Field.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Data.Finset.Lattice.Fold` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean:1:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+⚠ [2131/2132] Ran Formalism.SizeWindowBrackets.RealSlopeBoundsSplit:irArts
+warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Data.Real.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Algebra.Order.BigOperators.Ring.Finset` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Algebra.Order.Field.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Data.Finset.Lattice.Fold` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2132/2132] Built Formalism.SizeWindowBrackets.ChainSlopeWindows.WeightedMeanLemmaNeedsDegree (807ms)
+warning: src/Formalism/SizeWindowBrackets/ChainSlopeWindows/WeightedMeanLemmaNeedsDegree.lean: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SizeWindowBrackets/ChainSlopeWindows/WeightedMeanLemmaNeedsDegree.lean: imports `Mathlib.Tactic.FieldSimp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SizeWindowBrackets/ChainSlopeWindows/WeightedMeanLemmaNeedsDegree.lean: imports `Mathlib.Tactic.NormNum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SizeWindowBrackets/ChainSlopeWindows/WeightedMeanLemmaNeedsDegree.lean: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SizeWindowBrackets/ChainSlopeWindows/WeightedMeanLemmaNeedsDegree.lean: imports `Mathlib.Data.Fintype.BigOperators` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (2132 jobs).
+
+Exit status: 0
+Elapsed seconds: 2.27
+Timed out: False

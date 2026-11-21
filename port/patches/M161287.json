@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SizeWindowBrackets.ChainSlopeWindows.WeightedMeanLemmaNeedsDegree",
+  "source_sha256": "83471d359a412fa2d4078d4e932bb835a15cbdf5e903e1589b848623c91300af",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

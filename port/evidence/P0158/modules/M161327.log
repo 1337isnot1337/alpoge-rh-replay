@@ -1,0 +1,21 @@
+Module: M161327 Formalism.SobolevGaussianKernels.GaussianKernelBounds.HasDerivAtSphereChartLast
+Started: 2026-11-21T22:14:33.569451+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.SobolevGaussianKernels.GaussianKernelBounds.HasDerivAtSphereChartLast:olean"]
+Pinned source SHA-256: 389520a86a08089e00981d2cd7424fc1f1c9e90eadcd41a58a93550e305c7c88
+Compiled source SHA-256: 389520a86a08089e00981d2cd7424fc1f1c9e90eadcd41a58a93550e305c7c88
+
+⚠ [18250/18254] Built Formalism.SobolevGaussianKernels.StatementSB (2.3s)
+warning: src/Formalism/SobolevGaussianKernels/StatementSB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18254] Ran Formalism.SobolevGaussianKernels.StatementSB:irArts
+warning: src/Formalism/SobolevGaussianKernels/StatementSB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Built Formalism.SobolevGaussianKernels.StatementLF (2.5s)
+warning: src/Formalism/SobolevGaussianKernels/StatementLF.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18254] Ran Formalism.SobolevGaussianKernels.StatementLF:irArts
+warning: src/Formalism/SobolevGaussianKernels/StatementLF.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built Formalism.SobolevGaussianKernels.GaussianKernelBounds.HasDerivAtSphereChartLast (2.3s)
+warning: src/Formalism/SobolevGaussianKernels/GaussianKernelBounds/HasDerivAtSphereChartLast.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18254 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.932
+Timed out: False

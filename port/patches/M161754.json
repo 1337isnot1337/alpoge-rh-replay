@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.TranslateCocycles.TranslateCocycleProofs.HcBlockSumBounds",
+  "source_sha256": "bcdb812eaeb002b6829f0d3a0b786780f7beb90137288f1d059fa8533827c00d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

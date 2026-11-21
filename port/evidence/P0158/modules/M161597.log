@@ -1,0 +1,16 @@
+Module: M161597 Formalism.ThetaLogCoordinates.ResidueClassEstimates.StatementT
+Started: 2026-11-21T22:18:34.118585+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.ThetaLogCoordinates.ResidueClassEstimates.StatementT:olean"]
+Pinned source SHA-256: d6bbb526a5e19872e7c1645d6c37b6093f3fa884d2915ad1f6f03bcdfd9387bd
+Compiled source SHA-256: d6bbb526a5e19872e7c1645d6c37b6093f3fa884d2915ad1f6f03bcdfd9387bd
+
+⚠ [18250/18252] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.Letters (2.5s)
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/Letters.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.ThetaLogCoordinates.ResidueClassEstimates.Letters:irArts
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/Letters.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.StatementT (2.7s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.337
+Timed out: False

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SubspaceCounting.SubspaceCountingProofs.DetDivides",
+  "source_sha256": "a26e8ab9ee8763f921d4de56feef2295c1371e509b921e4fec4ea1a2e258559d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace the removed MvPolynomial.coeff call in the proof of isUnit_of_degreeOf_eq_zero with the polynomial-first accessor p.coeff 0. The old accessor reduces to exactly the same AddMonoidAlgebra coefficient. No definition, theorem statement, or instance is changed."
+}

@@ -1,0 +1,16 @@
+Module: M161234 Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleIso
+Started: 2026-11-21T22:12:37.869203+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleIso:olean"]
+Pinned source SHA-256: 71c3aabfcc789baadd86a390dd4ed2f091e5a346fbcc8aa415e04812d3301ffc
+Compiled source SHA-256: 71c3aabfcc789baadd86a390dd4ed2f091e5a346fbcc8aa415e04812d3301ffc
+
+⚠ [18250/18252] Replayed Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerVanishingBelowDimension
+warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerVanishingBelowDimension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerVanishingBelowDimension:irArts
+warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerVanishingBelowDimension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleIso (2.7s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.828
+Timed out: False

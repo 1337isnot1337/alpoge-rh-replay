@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NewtonSlope",
+  "source_sha256": "babd1869b153097cb9782e6195ee84d93a100b978f6fdd83581650aaa34dbdd6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

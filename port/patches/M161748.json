@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.TowerValuationBounds.TowerValuationProofs.SumAdditiveCharacterEqZero",
+  "source_sha256": "329527ab05e1af0d8aa30b290820398b5848ce5f3c9b973d05241ade4a27eb67",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

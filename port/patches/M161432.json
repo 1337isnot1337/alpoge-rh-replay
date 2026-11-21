@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsMod",
+  "source_sha256": "f347f465ac76462358dd33900f7ae6c1256d687bad38642f2e27c2f60fb4548f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace removed MvPolynomial.coeff calls in the bodies of SymMat and SymDMat with polynomial.coeff (symMono \u03b1). The replay-pinned MvPolynomial.coeff e p was defined as application of AddMonoidAlgebra.coeff p to e, exactly the target field accessor p.coeff e. Thus the definition bodies are definitionally equivalent: the polynomial products, exponents, coefficient indices, parameters, and declared result types are unchanged. The equality with the old accessor body is verified by rfl in a narrow target-toolchain test."
+}

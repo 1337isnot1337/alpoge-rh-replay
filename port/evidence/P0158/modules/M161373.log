@@ -1,0 +1,224 @@
+Module: M161373 Formalism.SubspaceCounting.SubspaceCountingProofs.WalkSharp
+Started: 2026-11-21T22:16:32.179916+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.SubspaceCountingProofs.WalkSharp:olean"]
+Pinned source SHA-256: 35274bb4adc362a5685be90d859f738a64ee532f3967dc6edf31351a6d837125
+Compiled source SHA-256: 35274bb4adc362a5685be90d859f738a64ee532f3967dc6edf31351a6d837125
+
+⚠ [18250/18252] Replayed Formalism.SubspaceCounting.Statement
+warning: src/Formalism/SubspaceCounting/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.SubspaceCounting.Statement:irArts
+warning: src/Formalism/SubspaceCounting/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.SubspaceCounting.SubspaceCountingProofs.WalkSharp (4.3s)
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:46:19: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [lp]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:66:47: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:178:23: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [vertexLabel, h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:187:23: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [vertexLabel, h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:199:10: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:257:65: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:258:56: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:269:10: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [huv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:279:16: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [accT, huv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:278:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:278:20: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:290:10: This simp argument is unused:
+  h1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hv, hiv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:295:31: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [huv, hwB, h2, hiw]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:297:29: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [huv, huw, huB]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:298:29: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [huv, huw, huB]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:316:10: This simp argument is unused:
+  h1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hv, huw]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:321:31: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [huv, hwB, h2, hiw]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:323:29: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [huv, huw, huB]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:324:29: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [huv, huw, huB]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:316:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:316:23: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:351:11: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:353:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:365:11: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:370:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:513:41: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:515:41: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:545:43: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:552:41: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:554:41: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:630:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:633:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:707:44: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:709:66: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:391:12: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:596:26: This simp argument is unused:
+  h1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [expo, hv, hiv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:599:28: This simp argument is unused:
+  h1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [expo, huB, huv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:692:18: This simp argument is unused:
+  h1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [expo, hu]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/WalkSharp.lean:700:20: This simp argument is unused:
+  h1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [accT, hu]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.385
+Timed out: False

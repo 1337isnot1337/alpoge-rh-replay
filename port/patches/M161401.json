@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.TameInertiaTowers.InvLength",
+  "source_sha256": "d8a4eef2986e72ba892d52e13e77266b6f8db5115efd21b0bc746c2b707079ab",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

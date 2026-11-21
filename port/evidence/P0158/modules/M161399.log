@@ -1,0 +1,81 @@
+Module: M161399 Formalism.TameInertiaTowers.CentralOrderTwo.TwoAdic
+Started: 2026-11-21T22:17:29.227430+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.TameInertiaTowers.CentralOrderTwo.TwoAdic:olean"]
+Pinned source SHA-256: 142d56ed64156395ac3d20b4afafb317ee4d3c2b6ac5714d2cb77e8ba932e53a
+Compiled source SHA-256: a1c536f10bc736718ed863a1bebb9c151559258036b6e88813eb6e2a67260d22
+
+⚠ [18250/18252] Replayed Formalism.TameInertiaTowers.StatementGroup
+warning: src/Formalism/TameInertiaTowers/StatementGroup.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.TameInertiaTowers.StatementGroup:irArts
+warning: src/Formalism/TameInertiaTowers/StatementGroup.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.TameInertiaTowers.CentralOrderTwo.TwoAdic (2.5s)
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:7:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:13:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:38:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:43:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:61:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:74:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:94:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:99:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:105:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.68
+Timed out: False

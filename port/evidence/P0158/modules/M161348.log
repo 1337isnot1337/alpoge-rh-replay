@@ -1,0 +1,16 @@
+Module: M161348 Formalism.SubspaceCounting.StatementC
+Started: 2026-11-21T22:15:15.886832+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.StatementC:olean"]
+Pinned source SHA-256: 7f99c3ca4f6361ca19c3dc54d51b798ad1e6f2016d714327e733170564d23b36
+Compiled source SHA-256: 7f99c3ca4f6361ca19c3dc54d51b798ad1e6f2016d714327e733170564d23b36
+
+⚠ [18250/18252] Built Formalism.SubspaceCounting.Statement (2.6s)
+warning: src/Formalism/SubspaceCounting/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.SubspaceCounting.Statement:irArts
+warning: src/Formalism/SubspaceCounting/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.SubspaceCounting.StatementC (2.5s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.187
+Timed out: False

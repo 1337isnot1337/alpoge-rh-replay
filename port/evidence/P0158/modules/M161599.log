@@ -1,0 +1,16 @@
+Module: M161599 Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.AdmissibleSmallRatio
+Started: 2026-11-21T22:18:43.457096+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.AdmissibleSmallRatio:olean"]
+Pinned source SHA-256: 45974644a4bb587b302305752e07520bc39e48e587a24dd01a2b645b0725e753
+Compiled source SHA-256: 45974644a4bb587b302305752e07520bc39e48e587a24dd01a2b645b0725e753
+
+⚠ [18250/18252] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.StatementN (2.7s)
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/StatementN.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.ThetaLogCoordinates.ResidueClassEstimates.StatementN:irArts
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/StatementN.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.AdmissibleSmallRatio (5.5s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 12.346
+Timed out: False

@@ -1,0 +1,125 @@
+Module: M161394 Formalism.TameInertiaTowers.CentralOrderTwo.MemDecompositionSubgroupIff
+Started: 2026-11-21T22:17:21.387959+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.TameInertiaTowers.CentralOrderTwo.MemDecompositionSubgroupIff:olean"]
+Pinned source SHA-256: ad8dba0fe36f8e3e44db05f9660151034463fe297741f655a1e30643f5587858
+Compiled source SHA-256: ad8dba0fe36f8e3e44db05f9660151034463fe297741f655a1e30643f5587858
+
+⚠ [18250/18252] Replayed Formalism.TameInertiaTowers.StatementGroup
+warning: src/Formalism/TameInertiaTowers/StatementGroup.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.TameInertiaTowers.StatementGroup:irArts
+warning: src/Formalism/TameInertiaTowers/StatementGroup.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.TameInertiaTowers.CentralOrderTwo.MemDecompositionSubgroupIff (3.7s)
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:16:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:17:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:16:6: Unused tactic linter: `rfl` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:17:6: Unused tactic linter: `simp [Nat.card_eq_fintype_card]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:20:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:50:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:50:6: Unused tactic linter: `simp [D2]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:143:73: `MonoidHom.coe_coe` has been deprecated: Use `MonoidHom.coe_ofClass` instead
+
+Hint: Replace the deprecated name:
+  M̵o̵n̵o̵i̵d̵H̵o̵m̵.̵c̵o̵e̵_̵c̵o̵e̵M̲o̲n̲o̲i̲d̲H̲o̲m̲.̲c̲o̲e̲_̲o̲f̲C̲l̲a̲s̲s̲
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:145:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:147:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:145:6: Unused tactic linter: `(
+  simp only [ZMod.unitsMap_def, Units.coe_map, u5, ZMod.coe_unitOfCoprime, MonoidHom.coe_coe, map_natCast]
+  decide)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:147:6: Unused tactic linter: `(
+  rw [ZMod.unitsMap_def, Units.coe_map, u5, ZMod.coe_unitOfCoprime, ZMod.castHom_apply, ZMod.cast_natCast h]
+  decide)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:264:16: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:264:25: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:264:32: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:264:16: Unused tactic linter: `decide` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:264:25: Unused tactic linter: `simp` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:264:32: Unused tactic linter: `(simp; decide)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:271:16: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:271:25: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:271:32: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:271:16: Unused tactic linter: `decide` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:271:25: Unused tactic linter: `simp` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:271:32: Unused tactic linter: `(simp; decide)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:279:75: `MonoidHom.coe_coe` has been deprecated: Use `MonoidHom.coe_ofClass` instead
+
+Hint: Replace the deprecated name:
+  M̵o̵n̵o̵i̵d̵H̵o̵m̵.̵c̵o̵e̵_̵c̵o̵e̵M̲o̲n̲o̲i̲d̲H̲o̲m̲.̲c̲o̲e̲_̲o̲f̲C̲l̲a̲s̲s̲
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:280:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:281:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:283:16: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:280:8: Unused tactic linter: `(simp only [ZMod.unitsMap_def, Units.coe_map, u5, ZMod.coe_unitOfCoprime, MonoidHom.coe_coe,
+    map_natCast];
+  rfl)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:281:8: Unused tactic linter: `(rw [ZMod.unitsMap_def, Units.coe_map, u5, ZMod.coe_unitOfCoprime, ZMod.castHom_apply,
+    ZMod.cast_natCast h];
+  rfl)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:283:16: Unused tactic linter: `decide` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.837
+Timed out: False

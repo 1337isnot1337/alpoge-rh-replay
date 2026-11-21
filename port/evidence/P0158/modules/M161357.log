@@ -1,0 +1,24 @@
+Module: M161357 Formalism.SubspaceCounting.SubspaceCountingProofs.DetVal
+Started: 2026-11-21T22:15:47.981030+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.SubspaceCountingProofs.DetVal:olean"]
+Pinned source SHA-256: b5730747c7cf15752aee8ab0ca267c8ac6fba1562156663b9109b8db205fe6e7
+Compiled source SHA-256: b5730747c7cf15752aee8ab0ca267c8ac6fba1562156663b9109b8db205fe6e7
+
+⚠ [18250/18252] Replayed Formalism.SubspaceCounting.StatementW
+warning: src/Formalism/SubspaceCounting/StatementW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.SubspaceCounting.StatementW:irArts
+warning: src/Formalism/SubspaceCounting/StatementW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.SubspaceCounting.SubspaceCountingProofs.DetVal (2.9s)
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetVal.lean:74:27: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetVal.lean:99:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.081
+Timed out: False

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SubspaceCounting.DetQuotVal",
+  "source_sha256": "a448bd3f43b5916576cdad0454a63f75e647ff61b214ef41e9b71926e9c874fe",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

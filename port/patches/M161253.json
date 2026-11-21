@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.ScaledValuations.ValuationApplyLtOneIff",
+  "source_sha256": "61dea1d8b95a42e5a97669aeeadeca77db08f8f11aa40bbd7d2e166751b821bf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

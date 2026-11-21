@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SubspaceCounting.StatementD",
+  "source_sha256": "e017eb1508c6990e2808719be46db74ed207ecdb3fc4652670e50e5c91851fe8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

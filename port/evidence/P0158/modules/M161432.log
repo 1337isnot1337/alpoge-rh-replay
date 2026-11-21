@@ -1,0 +1,16 @@
+Module: M161432 Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsMod
+Started: 2026-11-21T22:17:49.072648+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsMod:olean"]
+Pinned source SHA-256: f347f465ac76462358dd33900f7ae6c1256d687bad38642f2e27c2f60fb4548f
+Compiled source SHA-256: 20d2b34d7806f2a9515e81d5a07552946b53fc58443bb0b04dd36f603fdbab4b
+
+⚠ [18250/18252] Built Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsObj (3.2s)
+warning: src/Formalism/ThetaLogCoordinates/DualWeylCoordinates/DefsObj.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsObj:irArts
+warning: src/Formalism/ThetaLogCoordinates/DualWeylCoordinates/DefsObj.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsMod (3.5s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.845
+Timed out: False

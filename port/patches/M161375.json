@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SuccessiveMinima.DefsMink",
+  "source_sha256": "f4dfcb8628ec5b371f483bebec64145b89d971cc530e1e210262f6b475b07208",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

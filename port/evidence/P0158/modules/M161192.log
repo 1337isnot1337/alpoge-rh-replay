@@ -1,0 +1,218 @@
+Module: M161192 Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.RdBound
+Started: 2026-11-21T22:11:27.443694+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.RdBound:olean"]
+Pinned source SHA-256: d0070c1265882c9c5af232b2e4f87344d2e1530ce91533a194bf6efdf7ade109
+Compiled source SHA-256: d0070c1265882c9c5af232b2e4f87344d2e1530ce91533a194bf6efdf7ade109
+
+⚠ [18250/18252] Built Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.RdArith (3.2s)
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:21:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:22:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:21:4: Unused tactic linter: `exact (Nat.totient_pos (Nat.pos_of_ne_zero hn)).ne'` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:22:4: Unused tactic linter: `simpa using hn` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:35:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:35:4: Unused tactic linter: `exact
+  ⟨n.factorization p, n / p ^ n.factorization p, Nat.not_dvd_ordCompl hp hn,
+    (Nat.ordProj_mul_ordCompl_eq_self n p).symm⟩` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:41:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:42:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:41:4: Unused tactic linter: `exact pow_dvd_pow_iff_le hp.ne_zero hp.not_isUnit` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:42:4: Unused tactic linter: `exact
+  ⟨fun h => (Nat.pow_le_pow_iff_right hp.one_lt).mp (Nat.le_of_dvd (pow_pos hp.pos _) h), fun h =>
+    pow_dvd_pow p h⟩` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:125:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:125:6: Unused tactic linter: `field_simp` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:134:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:134:4: Unused tactic linter: `simp` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:136:8: automatically included section variable(s) unused in theorem `_private.Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.RdArith.0.Formalism.HC.Der.Rd.intCast_zmod_eq_zero_iff_dvd'`:
+  [NeZero N]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero N] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:139:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:139:4: Unused tactic linter: `exact ZMod.intCast_zmod_eq_zero_iff_dvd a N` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:160:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:161:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:160:4: Unused tactic linter: `exact ZMod.unitsMap_val hd u` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:161:4: Unused tactic linter: `simp [ZMod.unitsMap_def]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:177:8: automatically included section variable(s) unused in theorem `_private.Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.RdArith.0.Formalism.HC.Der.Rd.addOrderOf_dvd_of_zmod`:
+  [NeZero N]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero N] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:182:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:190:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:190:6: Unused tactic linter: `rw [Subgroup.index_ker, Set.range_eq_univ.mpr (ZMod.unitsMap_surjective hf),
+  Nat.card_univ]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:255:6: Unused tactic linter: `exact Finset.filter_card_add_filter_neg_card_eq_card _` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:256:6: Unused tactic linter: `convert
+  Finset.filter_card_add_filter_neg_card_eq_card (s := KK N f) (fun u => u ∈ U)` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:329:71: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:329:36: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.coe_filter, Finset.mem_filter, Set.mem_setOf_eq] at hv ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:329:52: This simp argument is unused:
+  Finset.mem_filter
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.coe_filter, Finset.mem_coe, Set.mem_setOf_eq] at hv ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:344:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:309:6: Unused tactic linter: `exact Finset.filter_card_add_filter_neg_card_eq_card _` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:310:6: Unused tactic linter: `convert
+  Finset.filter_card_add_filter_neg_card_eq_card (s := KK N f) (fun u => u ∈ U)` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:344:4: Unused tactic linter: `exact (le_div_iff hK).mpr (by linarith)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:378:73: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:378:38: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.coe_filter, Finset.mem_filter, Set.mem_setOf_eq] at hv ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:378:54: This simp argument is unused:
+  Finset.mem_filter
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.coe_filter, Finset.mem_coe, Set.mem_setOf_eq] at hv ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:390:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:354:6: Unused tactic linter: `exact Finset.filter_card_add_filter_neg_card_eq_card _` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:355:6: Unused tactic linter: `convert
+  Finset.filter_card_add_filter_neg_card_eq_card (s := KK N f) (fun u => u ∈ U)` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:390:4: Unused tactic linter: `exact (div_le_iff hK).mpr (by linarith)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18251/18252] Ran Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.RdArith:irArts
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.RdBound (4.4s)
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdBound.lean:97:12: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdBound.lean:213:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdBound.lean:234:8: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdBound.lean:241:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdBound.lean:267:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdBound.lean:267:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdBound.lean:274:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdBound.lean:274:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdBound.lean:312:72: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 12.105
+Timed out: False

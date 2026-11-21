@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.StatementC",
+  "source_sha256": "5c8d4730ca724b5e5ae60d4acce1fa1876c6854468b7bc3df31883a86b690f5e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

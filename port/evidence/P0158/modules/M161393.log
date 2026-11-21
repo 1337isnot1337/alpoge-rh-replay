@@ -1,0 +1,20 @@
+Module: M161393 Formalism.TameInertiaTowers.CentralOrderTwo.Groups
+Started: 2026-11-21T22:17:11.198383+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.TameInertiaTowers.CentralOrderTwo.Groups:olean"]
+Pinned source SHA-256: 90a4c4df1fe90dae6f241ba9f5e5a974ffa3626536649fb8bd143a1f6511d633
+Compiled source SHA-256: bb63e9580e1971e0c1452b48fb52bef65fbc7e3e04686da3057e912eedb22f7b
+
+⚠ [18250/18252] Built Formalism.TameInertiaTowers.StatementGroup (2.8s)
+warning: src/Formalism/TameInertiaTowers/StatementGroup.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.TameInertiaTowers.StatementGroup:irArts
+warning: src/Formalism/TameInertiaTowers/StatementGroup.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.TameInertiaTowers.CentralOrderTwo.Groups (3.2s)
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/Groups.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/Groups.lean:87:93: Unused tactic linter: there are no goals left for `done`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.187
+Timed out: False

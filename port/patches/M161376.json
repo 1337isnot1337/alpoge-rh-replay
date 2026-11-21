@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SuccessiveMinima.DefsNP",
+  "source_sha256": "7f2b78bdfc23cfdca045eec3ce00f7399ad0ca55a1e7bad45716babf72f4ab77",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

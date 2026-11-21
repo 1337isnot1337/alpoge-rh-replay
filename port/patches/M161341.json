@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.StatementOC",
+  "source_sha256": "0249562a8b70df61856f6fdce16afdf17fbe88c9945af4231700503d11027f8a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

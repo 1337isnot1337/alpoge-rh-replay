@@ -1,0 +1,17 @@
+Module: M161720 Formalism.ThetaSupremumBounds.StatementA
+Started: 2026-11-21T22:19:22.774964+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.ThetaSupremumBounds.StatementA:olean"]
+Pinned source SHA-256: 471a2298bf3eab5d7e6846fe1b22d7eb1bc8a2c2942cf55281d0cbe678697d8d
+Compiled source SHA-256: 471a2298bf3eab5d7e6846fe1b22d7eb1bc8a2c2942cf55281d0cbe678697d8d
+
+⚠ [18250/18252] Built Formalism.LogFactorialIndices.StatementSize (2.4s)
+warning: src/Formalism/LogFactorialIndices/StatementSize.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.LogFactorialIndices.StatementSize:irArts
+warning: src/Formalism/LogFactorialIndices/StatementSize.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.ThetaSupremumBounds.StatementA (2.8s)
+warning: src/Formalism/ThetaSupremumBounds/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.342
+Timed out: False

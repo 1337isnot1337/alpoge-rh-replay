@@ -1,0 +1,16 @@
+Module: M161320 Formalism.SmithDeterminants.DefsDVR
+Started: 2026-11-21T22:14:06.515570+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.SmithDeterminants.DefsDVR:olean"]
+Pinned source SHA-256: 10f2495d22548a272a2fb5324faf63dfe59a76647835f7cee2c330a743a8dc5d
+Compiled source SHA-256: 10f2495d22548a272a2fb5324faf63dfe59a76647835f7cee2c330a743a8dc5d
+
+⚠ [18250/18252] Built Formalism.SmithDeterminants.StatementDVR (2.7s)
+warning: src/Formalism/SmithDeterminants/StatementDVR.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.SmithDeterminants.StatementDVR:irArts
+warning: src/Formalism/SmithDeterminants/StatementDVR.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.SmithDeterminants.DefsDVR (2.3s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.185
+Timed out: False

@@ -1,0 +1,144 @@
+Module: M161355 Formalism.SubspaceCounting.SubspaceCountingProofs.DetDivides
+Started: 2026-11-21T22:15:37.936167+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.SubspaceCountingProofs.DetDivides:olean"]
+Pinned source SHA-256: a26e8ab9ee8763f921d4de56feef2295c1371e509b921e4fec4ea1a2e258559d
+Compiled source SHA-256: 6d3d17d9cb6fe7ec75a6663bc549dd1b217ed46f6cf16862f1b6118c41b4f4dc
+
+⚠ [18250/18252] Replayed Formalism.SubspaceCounting.StatementW
+warning: src/Formalism/SubspaceCounting/StatementW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.SubspaceCounting.StatementW:irArts
+warning: src/Formalism/SubspaceCounting/StatementW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.SubspaceCounting.SubspaceCountingProofs.DetDivides (5.0s)
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:98:0: automatically included section variable(s) unused in theorem `Formalism.G0.DetDividesP.aeval_detLetters`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:252:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:252:30: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:256:26: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:256:37: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:256:49: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:259:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:259:41: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:261:26: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:261:37: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:261:49: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:264:25: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:264:41: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:268:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:268:30: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:271:24: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:271:35: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:274:23: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:274:39: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:280:17: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:280:28: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:280:44: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:369:18: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:435:84: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:583:0: automatically included section variable(s) unused in theorem `Formalism.G0.DetDividesP.rename_detLetters`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:642:55: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:648:10: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:658:19: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:661:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:664:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:664:36: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.041
+Timed out: False

@@ -1,0 +1,16 @@
+Module: M161388 Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NewtonSlope
+Started: 2026-11-21T22:17:04.568223+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NewtonSlope:olean"]
+Pinned source SHA-256: babd1869b153097cb9782e6195ee84d93a100b978f6fdd83581650aaa34dbdd6
+Compiled source SHA-256: babd1869b153097cb9782e6195ee84d93a100b978f6fdd83581650aaa34dbdd6
+
+⚠ [18250/18252] Replayed Formalism.SuccessiveMinima.StatementNP
+warning: src/Formalism/SuccessiveMinima/StatementNP.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.SuccessiveMinima.StatementNP:irArts
+warning: src/Formalism/SuccessiveMinima/StatementNP.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NewtonSlope (2.5s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.628
+Timed out: False
