@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M000494"
+  ],
+  "started_utc": "2026-11-21T01:30:38.122518+00:00",
+  "ended_utc": "2026-11-21T01:36:04.367035+00:00",
+  "elapsed_seconds": 326.2,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 8133396,
+    "peak_child_rss_kib": 4257820
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+CompanionTheory.HarishChandraModules.BesselParameterIntegrals.CoePolarExpHomeomorphComplexApply:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6c4d155adbb0bc85f466a555643458c88fb81460f52eecd1d30c313f77d87a79",
+  "rebuilt_project_modules": [
+    "CompanionTheory.HarishChandraModules.BesselParameterIntegrals.ContDiffOnExpPartialHomeomorphSymm"
+  ],
+  "objects": {
+    "M000494": "db11e6f51914f5e6ae42698f97c2f2a5d033925e44b3ba9f23df94fc6842df1d"
+  },
+  "bundle_sha256": "d6d6eb5417160c0f9d2a892e5a1d990f2b0b9f91157315c1b10c00a5422a4e7a",
+  "packet": "M000494",
+  "contributor": "mdpmcc",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9424#issuecomment-7055241471",
+  "reviewed_utc": "2026-11-21T06:12:43.744903+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

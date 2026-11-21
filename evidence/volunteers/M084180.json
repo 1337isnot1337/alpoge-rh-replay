@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M084180"
+  ],
+  "started_utc": "2026-11-21T01:11:50.167125+00:00",
+  "ended_utc": "2026-11-21T01:12:00.556414+00:00",
+  "elapsed_seconds": 10.4,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 63244524,
+    "peak_child_rss_kib": 7241444
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.JetHarmonics.MvPowerSeriesConvergentSubstAssoc:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "04bfaf006098b45e1a5084452479f5b18733eede7a7e9d95ccc383ce06e8c44e",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M084180": "4518c0f2dbb626e6b3448505d13823944b2724c2faf795fa15f4f4259121d2ae"
+  },
+  "bundle_sha256": "9ab7d5a27ca16f921dccfeb7a9ca238b05c1e362bc0f572142949b919cd2981e",
+  "packet": "M084180",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9068#issuecomment-7054890935",
+  "reviewed_utc": "2026-11-21T06:00:09.749688+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

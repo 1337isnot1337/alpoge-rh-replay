@@ -246,6 +246,7 @@
 | [@m4tthewdavis](https://github.com/m4tthewdavis) | [M014154](https://github.com/rohanarun/alpoge-rh-replay/issues/6105#issuecomment-7053391568) | 1 | [Build evidence verified](../../../evidence/volunteers/M014154.json) |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M042478](https://github.com/rohanarun/alpoge-rh-replay/issues/8177#issuecomment-7054243104) | 1 | [Build evidence verified](../../../evidence/volunteers/M042478.json) |
 | [@amrehan](https://github.com/amrehan) | [M142791](https://github.com/rohanarun/alpoge-rh-replay/issues/8066#issuecomment-7054087298) | 1 | [Build evidence verified](../../../evidence/volunteers/M142791.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M153491](https://github.com/rohanarun/alpoge-rh-replay/issues/9176#issuecomment-7055707695) | 1 | [Build evidence verified](../../../evidence/volunteers/M153491.json) |
 | [@rayy3535](https://github.com/rayy3535) | [M154826](https://github.com/rohanarun/alpoge-rh-replay/issues/8325#issuecomment-7054265791) | 1 | [Build evidence verified](../../../evidence/volunteers/M154826.json) |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M103115](https://github.com/rohanarun/alpoge-rh-replay/issues/8214#issuecomment-7054181096) | 1 | [Build evidence verified](../../../evidence/volunteers/M103115.json) |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M168974](https://github.com/rohanarun/alpoge-rh-replay/issues/9028#issuecomment-7054951858) | 1 | [Build evidence verified](../../../evidence/volunteers/M168974.json) |
@@ -253,4 +254,3 @@
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M138084](https://github.com/rohanarun/alpoge-rh-replay/issues/8954#issuecomment-7054859404) | 1 | [Build evidence verified](../../../evidence/volunteers/M138084.json) |
 | [@rayy3535](https://github.com/rayy3535) | [M097987](https://github.com/rohanarun/alpoge-rh-replay/issues/8880#issuecomment-7054700071) | 1 | [Build evidence verified](../../../evidence/volunteers/M097987.json) |
 | [@aapolipponen](https://github.com/aapolipponen) | [P1377](https://github.com/rohanarun/alpoge-rh-replay/issues/1036#issuecomment-7053609431) | 64 | [Build evidence verified](../../../evidence/volunteers/P1377.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M006400](https://github.com/rohanarun/alpoge-rh-replay/issues/8473#issuecomment-7054565182) | 1 | [Build evidence verified](../../../evidence/volunteers/M006400.json) |

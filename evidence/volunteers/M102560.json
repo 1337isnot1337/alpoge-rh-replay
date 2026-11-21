@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M102560"
+  ],
+  "started_utc": "2026-11-21T01:26:53.638549+00:00",
+  "ended_utc": "2026-11-21T01:27:07.484781+00:00",
+  "elapsed_seconds": 13.3,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6826892
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.ContSection:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "445ce60aab8293d8b42ffaf7a2b771433777b09768334bf873ec83607006f94f",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.PartClosed",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MemSpanVariable"
+  ],
+  "objects": {
+    "M102560": "ceb7c5dd81183218ec8f591d2545ddc2c2ad375a864ecc9c9ec5d492b7d9bee8"
+  },
+  "bundle_sha256": "036e46befc7c3012ec820f7d8a19b3f92a4d89116eb1dc1ddec17f2bfc465b82",
+  "packet": "M102560",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9498#issuecomment-7055116910",
+  "reviewed_utc": "2026-11-21T06:12:33.797555+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

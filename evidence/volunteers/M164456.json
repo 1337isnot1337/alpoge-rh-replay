@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M164456"
+  ],
+  "started_utc": "2026-11-21T01:14:29.959907+00:00",
+  "ended_utc": "2026-11-21T01:14:41.115998+00:00",
+  "elapsed_seconds": 10.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6825904
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PWeightedAreaFormula:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1c9c6ce7db21fcf506b97c85690de8fa7726b19ddd50da5eab8bb7887ea0297f",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StWeightedAreaFormula"
+  ],
+  "objects": {
+    "M164456": "66f266a40df9c96bf509d5cfa355649a3d45b371a6a838020a231b85d6f3240f"
+  },
+  "bundle_sha256": "19b95ecf89804701c1a1bad94fb2d4cb63f5e76322b5420f3b4967d69cc9b717",
+  "packet": "M164456",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9018#issuecomment-7054931969",
+  "reviewed_utc": "2026-11-21T06:13:15.886096+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

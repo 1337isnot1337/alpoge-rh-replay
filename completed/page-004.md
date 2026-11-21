@@ -2,14 +2,28 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002706 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.LevelGroupLifts` | volunteer-build-reviewed |
+| M002707 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.LocalDataValues` | volunteer-build-reviewed |
+| M002710 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.MinorOrderedEntries` | volunteer-build-reviewed |
+| M002717 | P1419 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ParabolicLeviDecomposition` | volunteer-build-reviewed |
+| M002718 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ParameterTransferTypes` | volunteer-build-reviewed |
+| M002719 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.PartialLFunctionCharacter` | volunteer-build-reviewed |
+| M002721 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.PositiveRowsTuple` | volunteer-build-reviewed |
+| M002723 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ProjectiveLiftExistence` | volunteer-build-reviewed |
+| M002724 | P1472 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.PseudoCoefficientSeparation` | volunteer-build-reviewed |
+| M002725 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.RadicalNoFixedVectors` | volunteer-build-reviewed |
+| M002726 | P1271 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.RaisingLoweringOperators` | volunteer-build-reviewed |
+| M002729 | P1245 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.RationalRowTestKernel` | volunteer-build-reviewed |
 | M002739 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SemilinearExtensionBases` | volunteer-build-reviewed |
 | M002746 | P1169 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SplitLinearModelNorm` | volunteer-build-reviewed |
+| M002758 | P1245 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ThetaTranslateRangeGap` | volunteer-build-reviewed |
 | M002759 | P1501 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.TraceKernelDecomposition` | volunteer-build-reviewed |
 | M002763 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.UniformModerateGrowthLevel` | volunteer-build-reviewed |
 | M002770 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.VolumeFlatSection` | build-observed |
 | M002771 | P1084 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.WeilDatumExistence` | volunteer-build-reviewed |
 | M002789 | P1501 | `Development.AbelianVarietyTheory.Counterexamples.AbelianLawCounterexamples.HomExtendsOverDVRHolds` | volunteer-build-reviewed |
 | M002793 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.LfacDenominatorNeZero` | volunteer-build-reviewed |
+| M002794 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.LocalConditionsOfGlobal` | volunteer-build-reviewed |
 | M002811 | P0838 | `Development.AbelianVarietyTheory.Counterexamples.HeckeCharacterExamples.SecondTwistCrystallineSmallOfJumpsOfCrys` | build-observed |
 | M002812 | P1114 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.BesselPeriodPositionOneEqZero` | build-observed |
 | M002813 | P0974 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.BlattnerShiftsSignedParameters` | build-observed |
@@ -27,13 +41,16 @@
 | M002855 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.KFinDecayOfDecInf` | build-observed |
 | M002868 | P0002 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.PremisesInhabited` | volunteer-build-reviewed |
 | M002871 | P1501 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ThetaMemLattice` | volunteer-build-reviewed |
+| M002881 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ChosenEqOfAllRules` | volunteer-build-reviewed |
 | M002884 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ExistsBaseRingOfConjugationFixedTensor` | volunteer-build-reviewed |
 | M002890 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.JetTruncNotInjective` | volunteer-build-reviewed |
 | M002891 | P1501 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.KerMemAbLocus` | volunteer-build-reviewed |
 | M002894 | P1169 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.OrthonormalBaseFrameNeg` | build-observed |
 | M002899 | P0002 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.RightInvariantOfCovolume` | volunteer-build-reviewed |
+| M002907 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ZeroNotAdmissibleOfRankPos` | volunteer-build-reviewed |
 | M002915 | P0758 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.HeckeKerZero` | build-observed |
 | M002916 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.IsQProjOverOfIsProjOver` | build-observed |
+| M002920 | P0393 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.ModuliNonemptyOfObj` | volunteer-build-reviewed |
 | M002930 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.NonGaloisSurvey.CrystallineCyclotomic` | volunteer-build-reviewed |
 | M002932 | P0783 | `Development.AbelianVarietyTheory.Counterexamples.NonGaloisSurvey.MemTypeSubspaceIffUnipotentCharacter` | volunteer-build-reviewed |
 | M002938 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.NonGaloisSurvey.UnitsOfFieldDD` | volunteer-build-reviewed |
@@ -66,6 +83,7 @@
 | M002999 | P0095 | `Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.IsHermForm` | volunteer-build-reviewed |
 | M003000 | P0002 | `Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.IsHermHyperbolic` | volunteer-build-reviewed |
 | M003001 | P0095 | `Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.MemPowSub` | wave-reused |
+| M003002 | P0095 | `Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.NontrivialTransvection` | volunteer-build-reviewed |
 | M003003 | P0002 | `Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.SqSubLeNormSub` | wave-reused |
 | M003004 | P0945 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.AnalyticTorusPointBaseEqHolUnifEx` | volunteer-build-reviewed |
 | M003005 | P0758 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.ArcDictExpZeroSection` | build-observed |
@@ -208,6 +226,7 @@
 | M003459 | P2187 | `Development.AbelianVarietyTheory.Definitions.Divisors.CovolXOfCovol` | volunteer-build-reviewed |
 | M003460 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.CrystallineConnectionFormCoboundaryZero` | wave-reused |
 | M003461 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.CupPair` | volunteer-build-reviewed |
+| M003462 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.CurvSubQuotTautPairGram` | volunteer-build-reviewed |
 | M003465 | P1501 | `Development.AbelianVarietyTheory.Definitions.Divisors.DatumEquiv` | volunteer-build-reviewed |
 | M003466 | P1056 | `Development.AbelianVarietyTheory.Definitions.Divisors.DatumOfIsIntegersLattice` | build-observed |
 | M003468 | P1419 | `Development.AbelianVarietyTheory.Definitions.Divisors.DensConst` | volunteer-build-reviewed |
@@ -383,22 +402,3 @@
 | M004011 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.CobOn` | wave-reused |
 | M004013 | P0238 | `Development.AbelianVarietyTheory.Definitions.Foundations.ColMeas` | volunteer-build-reviewed |
 | M004017 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.CosetTrace` | wave-reused |
-| M004018 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.CthFac` | wave-reused |
-| M004019 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.CurveCl` | volunteer-build-reviewed |
-| M004021 | P0173 | `Development.AbelianVarietyTheory.Definitions.Foundations.CyclotomicDvdExpandOfCoprime` | volunteer-build-reviewed |
-| M004023 | P0238 | `Development.AbelianVarietyTheory.Definitions.Foundations.EeProd` | wave-reused |
-| M004024 | P0239 | `Development.AbelianVarietyTheory.Definitions.Foundations.EigenOfTwoStep` | wave-reused |
-| M004029 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.EtaSixProductDifferentiable` | volunteer-build-reviewed |
-| M004030 | P1084 | `Development.AbelianVarietyTheory.Definitions.Foundations.EventuallyEqOfIsPreconnected` | build-observed |
-| M004031 | P1218 | `Development.AbelianVarietyTheory.Definitions.Foundations.EventuallyNormFinLeOne` | build-observed |
-| M004032 | P1349 | `Development.AbelianVarietyTheory.Definitions.Foundations.ExistsAHEqOfMemRatPts` | build-observed |
-| M004039 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.ExistsFinsetOfEventually` | volunteer-build-reviewed |
-| M004041 | P1298 | `Development.AbelianVarietyTheory.Definitions.Foundations.ExistsGLSubmatrix` | build-observed |
-| M004046 | P0173 | `Development.AbelianVarietyTheory.Definitions.Foundations.ExistsRootOfIsAlgClosed` | volunteer-build-reviewed |
-| M004049 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.ExpUpper` | wave-reused |
-| M004055 | P1349 | `Development.AbelianVarietyTheory.Definitions.Foundations.GLintEqKOAndPrincEqKOne` | volunteer-build-reviewed |
-| M004057 | P0295 | `Development.AbelianVarietyTheory.Definitions.Foundations.HTBasis` | wave-reused |
-| M004060 | P0173 | `Development.AbelianVarietyTheory.Definitions.Foundations.HahnPowOrderLeadingCoeff` | volunteer-build-reviewed |
-| M004062 | P1272 | `Development.AbelianVarietyTheory.Definitions.Foundations.HermitianSpaceBaseLatticeEqFrameLattice` | build-observed |
-| M004065 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.Imports` | wave-reused |
-| M004066 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.InFrameStabilizer` | volunteer-build-reviewed |

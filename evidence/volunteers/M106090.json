@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M106090"
+  ],
+  "started_utc": "2026-11-21T01:17:05.261822+00:00",
+  "ended_utc": "2026-11-21T01:17:19.250074+00:00",
+  "elapsed_seconds": 14.0,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 23809704,
+    "peak_child_rss_kib": 6910764
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ScatteringLimits.ConvolutionSpectra.ProjLaws:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e5d8090b9a7e69a7509323dfc812d333fd6eb14ecb4f5c7a1f4dd7c97c58f5bb",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ScatteringLimits.ConvolutionSpectra.CutLim",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ScatteringLimits.ConvolutionSpectra.ShNull"
+  ],
+  "objects": {
+    "M106090": "17afd11f972d46f75b8b65200d5ac3dabc00d58bf612c5b8c0eda8c43499ce51"
+  },
+  "bundle_sha256": "43a71e23168dd4349421cc526975a9f2ef197a47a71124a27b75df7993163338",
+  "packet": "M106090",
+  "contributor": "matan1905",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9234#issuecomment-7054975356",
+  "reviewed_utc": "2026-11-21T06:10:03.464957+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

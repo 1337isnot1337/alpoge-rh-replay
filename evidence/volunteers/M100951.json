@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M100951"
+  ],
+  "started_utc": "2026-11-21T01:25:40.605686+00:00",
+  "ended_utc": "2026-11-21T01:25:50.385768+00:00",
+  "elapsed_seconds": 9.8,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6780156
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry₂.TateHonda:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c245c42e639534ec3d12be3f855dfb0ca2b31371d845348706542deb314a2115",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.AbelianSchemeQuotients.IsAbelianScheme",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.SplitTori.SplitTorusAff"
+  ],
+  "objects": {
+    "M100951": "231010f1188d2dc0633a6c8c5e8cec61f96b708650edc95f933d8383a66122f4"
+  },
+  "bundle_sha256": "8b90ff808ad05a01a8c24b5177627178e28e17ff9864dbb53f4fddc5b2ddde00",
+  "packet": "M100951",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9485#issuecomment-7055100177",
+  "reviewed_utc": "2026-11-21T06:05:36.659001+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

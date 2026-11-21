@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M173751"
+  ],
+  "started_utc": "2026-11-21T01:24:23.943327+00:00",
+  "ended_utc": "2026-11-21T01:24:32.892885+00:00",
+  "elapsed_seconds": 8.9,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6794692
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantLemmas.WickFormula.DeltaEqGdelta:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "bb9025e443344bd0ea6827b15c1d1ae97403ee3a94115ae3ff81dde532a2b110",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantLemmas.WickFormula.GenDefs",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.WickFormula"
+  ],
+  "objects": {
+    "M173751": "4a32ef16dd74267ad53f7e3c013359039bd40722f957a15274030b37a3327abd"
+  },
+  "bundle_sha256": "bc41bd7d5f092dde18b6ef349666af68cf5824172c8e7ae8c9e4786b1c64d803",
+  "packet": "M173751",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9388#issuecomment-7055081955",
+  "reviewed_utc": "2026-11-21T06:13:24.070224+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

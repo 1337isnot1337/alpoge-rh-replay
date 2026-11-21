@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M093731"
+  ],
+  "started_utc": "2026-11-21T01:17:48.855507+00:00",
+  "ended_utc": "2026-11-21T01:18:02.350937+00:00",
+  "elapsed_seconds": 13.5,
+  "host": {
+    "cpu_count": 128,
+    "mem_total_kib": 395484908,
+    "peak_child_rss_kib": 6864600
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsSchwartzBruhatConvolutionLocalFieldPower:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5d81d3e6bd004390a482bdb7367e2422aa42d39db3941ddb70f4ed46b2a46183",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsWeakIntegralOfIsLocallyConstantOfIsCompact"
+  ],
+  "objects": {
+    "M093731": "7ce27da27a545da3e7febc98da04eaca3146f4ae9d6d7b6f129557f1e5fb3456"
+  },
+  "bundle_sha256": "63036d297a96db3c0f40a184f383bd641eef6567ad2556268aaa4704631e0fe1",
+  "packet": "M093731",
+  "contributor": "BenCaunt",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9274#issuecomment-7054992833",
+  "reviewed_utc": "2026-11-21T06:11:30.246317+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

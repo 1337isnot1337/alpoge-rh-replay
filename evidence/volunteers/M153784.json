@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M153784"
+  ],
+  "started_utc": "2026-11-21T01:15:40.875960+00:00",
+  "ended_utc": "2026-11-21T01:15:52.607516+00:00",
+  "elapsed_seconds": 11.7,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16078424,
+    "peak_child_rss_kib": 7215708
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.OrbitalBoundsConclusion.IndexUBound:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d143bb15d56cf731e635ee2f00caf2d56a9cdb997d64cb9adcea3eea83341bd2",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.IndexUBound",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.IndexUpperBound.OneSubSumLeProd"
+  ],
+  "objects": {
+    "M153784": "8830594733ca48cd297116ee2a8551e43234c2240ef4541de2f8bbf68352741e"
+  },
+  "bundle_sha256": "002f45bea761702426c8416bd050c00804bae074b71efa24d503ce04d89756b9",
+  "packet": "M153784",
+  "contributor": "walkingsophie",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9110#issuecomment-7054966248",
+  "reviewed_utc": "2026-11-21T06:02:58.858711+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

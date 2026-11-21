@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M061106"
+  ],
+  "started_utc": "2026-11-21T01:26:07.061134+00:00",
+  "ended_utc": "2026-11-21T01:26:19.435156+00:00",
+  "elapsed_seconds": 12.4,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6835524
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffEqZeroOfSumPlusMinusRepsEqZeroStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d2dd4daa1e851c171eca83ffe95d74a1a2a7b2578c18abf526f8dc9b364200e8",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffEqZeroOfSumPlusMinusRepsEqZero",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.FiniteIndexOfGammaLe"
+  ],
+  "objects": {
+    "M061106": "beaebb5b624c2bf0358d34960ac018d78a3afe7240da1047866c2b62dc3cd53f"
+  },
+  "bundle_sha256": "d3d02b0359b24d46dcc7cbc1aa7ccc3889a00b882433394f74b8ec5252867537",
+  "packet": "M061106",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9489#issuecomment-7055106951",
+  "reviewed_utc": "2026-11-21T06:07:45.018789+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}
