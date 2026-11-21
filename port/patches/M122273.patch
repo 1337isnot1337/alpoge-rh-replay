@@ -1,0 +1,33 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/DensityOfFourierPairingIntegrable.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/DensityOfFourierPairingIntegrable.lean
+@@ -33,22 +33,23 @@
+ 
+ theorem integral_schwartz_eq (m : Measure V) [IsFiniteMeasure m] (g : 𝓢(V, ℂ)) :
+     ∫ y, g y ∂m = ∫ ξ, (𝓕 g) ξ * chf m ξ := by
+-  have hc : Continuous fun p : V × V => Complex.exp (2 * π * I * ((⟪p.1, p.2⟫ : ℝ) : ℂ)) * (𝓕 g) p.2 := by
+-    have := (𝓕 g).continuous
++  have hc : Continuous fun p : V × V => Complex.exp (2 * π * I * ((⟪p.1, p.2⟫ : ℝ) : ℂ)) * (𝓕 g : 𝓢(V, ℂ)) p.2 := by
++    have := (𝓕 g : 𝓢(V, ℂ)).continuous
+     fun_prop
+-  have hint : Integrable (fun p : V × V => Complex.exp (2 * π * I * ((⟪p.1, p.2⟫ : ℝ) : ℂ)) * (𝓕 g) p.2)
++  have hint : Integrable (fun p : V × V => Complex.exp (2 * π * I * ((⟪p.1, p.2⟫ : ℝ) : ℂ)) * (𝓕 g : 𝓢(V, ℂ)) p.2)
+       (m.prod volume) := by
+-    refine ((𝓕 g).integrable (μ := volume)).norm.comp_snd m |>.mono' hc.aestronglyMeasurable
++    refine ((𝓕 g : 𝓢(V, ℂ)).integrable (μ := volume)).norm.comp_snd m |>.mono'
++      (f := fun p : V × V => Complex.exp (2 * π * I * ((⟪p.1, p.2⟫ : ℝ) : ℂ)) * (𝓕 g : 𝓢(V, ℂ)) p.2) hc.aestronglyMeasurable
+       (Filter.Eventually.of_forall fun p => ?_)
+     have : ‖Complex.exp (2 * π * I * ((⟪p.1, p.2⟫ : ℝ) : ℂ))‖ = 1 := by
+       have : 2 * π * I * ((⟪p.1, p.2⟫ : ℝ) : ℂ) = ((2 * π * ⟪p.1, p.2⟫ : ℝ) : ℂ) * I := by
+         push_cast; ring
+       rw [this, Complex.norm_exp_ofReal_mul_I]
+     simp [this]
+-  calc ∫ y, g y ∂m = ∫ y, ∫ ξ, Complex.exp (2 * π * I * ((⟪y, ξ⟫ : ℝ) : ℂ)) * (𝓕 g) ξ ∂volume ∂m :=
++  calc ∫ y, g y ∂m = ∫ y, ∫ ξ, Complex.exp (2 * π * I * ((⟪y, ξ⟫ : ℝ) : ℂ)) * (𝓕 g : 𝓢(V, ℂ)) ξ ∂volume ∂m :=
+         integral_congr_ae (Filter.Eventually.of_forall fun y => schwartz_inv g y)
+-    _ = ∫ ξ, ∫ y, Complex.exp (2 * π * I * ((⟪y, ξ⟫ : ℝ) : ℂ)) * (𝓕 g) ξ ∂m ∂volume :=
+-        integral_integral_swap hint
++    _ = ∫ ξ, ∫ y, Complex.exp (2 * π * I * ((⟪y, ξ⟫ : ℝ) : ℂ)) * (𝓕 g : 𝓢(V, ℂ)) ξ ∂m ∂volume :=
++        integral_integral_swap (f := fun y ξ : V => Complex.exp (2 * π * I * ((⟪y, ξ⟫ : ℝ) : ℂ)) * (𝓕 g : 𝓢(V, ℂ)) ξ) hint
+     _ = _ := by
+         refine integral_congr_ae (Filter.Eventually.of_forall fun ξ => ?_)
+         beta_reduce
