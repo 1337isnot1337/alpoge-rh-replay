@@ -4,8 +4,6 @@
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@rohanarun](https://github.com/rohanarun) | [M027961](https://github.com/rohanarun/alpoge-rh-replay/issues/16303) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M128818](https://github.com/rohanarun/alpoge-rh-replay/issues/16304) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M138429](https://github.com/rohanarun/alpoge-rh-replay/issues/16305) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M065278](https://github.com/rohanarun/alpoge-rh-replay/issues/16306) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M085415](https://github.com/rohanarun/alpoge-rh-replay/issues/16307) | Claimed |
@@ -254,3 +252,5 @@
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M122023](https://github.com/rohanarun/alpoge-rh-replay/issues/22127) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M127218](https://github.com/rohanarun/alpoge-rh-replay/issues/22129) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M154364](https://github.com/rohanarun/alpoge-rh-replay/issues/22133) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M171354](https://github.com/rohanarun/alpoge-rh-replay/issues/22139) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M051631](https://github.com/rohanarun/alpoge-rh-replay/issues/22142) | Claimed |

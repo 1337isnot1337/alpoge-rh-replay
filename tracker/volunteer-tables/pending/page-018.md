@@ -4,6 +4,8 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@MLEARNER701](https://github.com/MLEARNER701) | [M003665](https://github.com/rohanarun/alpoge-rh-replay/issues/23928#issuecomment-7067172941) | Pending review |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M150255](https://github.com/rohanarun/alpoge-rh-replay/issues/23929#issuecomment-7066957968) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M101511](https://github.com/rohanarun/alpoge-rh-replay/issues/23930#issuecomment-7066958424) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M166062](https://github.com/rohanarun/alpoge-rh-replay/issues/23932#issuecomment-7066958924) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M005401](https://github.com/rohanarun/alpoge-rh-replay/issues/23933#issuecomment-7066675163) | Pending review |
@@ -252,5 +254,3 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M063585](https://github.com/rohanarun/alpoge-rh-replay/issues/24273#issuecomment-7067235606) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M031714](https://github.com/rohanarun/alpoge-rh-replay/issues/24274#issuecomment-7067236055) | Pending review |
 | [@matiasm15](https://github.com/matiasm15) | [M002110](https://github.com/rohanarun/alpoge-rh-replay/issues/24275#issuecomment-7066865603) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M016088](https://github.com/rohanarun/alpoge-rh-replay/issues/24276#issuecomment-7067236538) | Pending review |
-| [@matiasm15](https://github.com/matiasm15) | [M171361](https://github.com/rohanarun/alpoge-rh-replay/issues/24278#issuecomment-7066923171) | Pending review |

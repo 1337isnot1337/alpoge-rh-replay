@@ -4,6 +4,8 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M099903](https://github.com/rohanarun/alpoge-rh-replay/issues/20222#issuecomment-7061654670) | Pending review |
+| [@jdenwood](https://github.com/jdenwood) | [M164539](https://github.com/rohanarun/alpoge-rh-replay/issues/20223#issuecomment-7061511692) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M164540](https://github.com/rohanarun/alpoge-rh-replay/issues/20224#issuecomment-7061512938) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M164543](https://github.com/rohanarun/alpoge-rh-replay/issues/20225#issuecomment-7061514051) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M101375](https://github.com/rohanarun/alpoge-rh-replay/issues/20234#issuecomment-7061677618) | Pending review |
@@ -252,5 +254,3 @@
 | [@certified-retart](https://github.com/certified-retart) | [M019728](https://github.com/rohanarun/alpoge-rh-replay/issues/20563#issuecomment-7061770359) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M031742](https://github.com/rohanarun/alpoge-rh-replay/issues/20564#issuecomment-7061785040) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M029145](https://github.com/rohanarun/alpoge-rh-replay/issues/20567#issuecomment-7061774593) | Pending review |
-| [@HITEYY](https://github.com/HITEYY) | [M019878](https://github.com/rohanarun/alpoge-rh-replay/issues/20568#issuecomment-7061767695) | Pending review |
-| [@HITEYY](https://github.com/HITEYY) | [M031186](https://github.com/rohanarun/alpoge-rh-replay/issues/20569#issuecomment-7061781648) | Pending review |

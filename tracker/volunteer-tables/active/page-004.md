@@ -225,10 +225,8 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M166220](https://github.com/rohanarun/alpoge-rh-replay/issues/10501) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111973](https://github.com/rohanarun/alpoge-rh-replay/issues/10516) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111974](https://github.com/rohanarun/alpoge-rh-replay/issues/10531) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M141526](https://github.com/rohanarun/alpoge-rh-replay/issues/10533) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111975](https://github.com/rohanarun/alpoge-rh-replay/issues/10534) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111978](https://github.com/rohanarun/alpoge-rh-replay/issues/10546) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M155721](https://github.com/rohanarun/alpoge-rh-replay/issues/10574) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111981](https://github.com/rohanarun/alpoge-rh-replay/issues/10576) | Claimed |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M139051](https://github.com/rohanarun/alpoge-rh-replay/issues/14342) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M128948](https://github.com/rohanarun/alpoge-rh-replay/issues/16253) | Claimed |
@@ -254,3 +252,5 @@
 | [@rohanarun](https://github.com/rohanarun) | [M064436](https://github.com/rohanarun/alpoge-rh-replay/issues/16296) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M069168](https://github.com/rohanarun/alpoge-rh-replay/issues/16300) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M173445](https://github.com/rohanarun/alpoge-rh-replay/issues/16302) | Claimed |
+| [@rohanarun](https://github.com/rohanarun) | [M027961](https://github.com/rohanarun/alpoge-rh-replay/issues/16303) | Claimed |
+| [@rohanarun](https://github.com/rohanarun) | [M128818](https://github.com/rohanarun/alpoge-rh-replay/issues/16304) | Claimed |

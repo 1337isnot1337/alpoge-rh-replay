@@ -4,6 +4,8 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@ANdATIon](https://github.com/ANdATIon) | [M156557](https://github.com/rohanarun/alpoge-rh-replay/issues/12426#issuecomment-7057115047) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M134874](https://github.com/rohanarun/alpoge-rh-replay/issues/12427#issuecomment-7057114461) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M104670](https://github.com/rohanarun/alpoge-rh-replay/issues/12430#issuecomment-7059942531) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M124300](https://github.com/rohanarun/alpoge-rh-replay/issues/12433#issuecomment-7057121637) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M082769](https://github.com/rohanarun/alpoge-rh-replay/issues/12434#issuecomment-7057125388) | Pending review |
@@ -252,5 +254,3 @@
 | [@mu-mei](https://github.com/mu-mei) | [M003759](https://github.com/rohanarun/alpoge-rh-replay/issues/13679#issuecomment-7057937405) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M003733](https://github.com/rohanarun/alpoge-rh-replay/issues/13682#issuecomment-7057939992) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M004550](https://github.com/rohanarun/alpoge-rh-replay/issues/13684#issuecomment-7057941782) | Pending review |
-| [@mu-mei](https://github.com/mu-mei) | [M004689](https://github.com/rohanarun/alpoge-rh-replay/issues/13686#issuecomment-7057942640) | Pending review |
-| [@mu-mei](https://github.com/mu-mei) | [M038686](https://github.com/rohanarun/alpoge-rh-replay/issues/13689#issuecomment-7057944413) | Pending review |
