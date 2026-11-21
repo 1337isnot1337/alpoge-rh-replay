@@ -4,6 +4,7 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@maxime-fleury](https://github.com/maxime-fleury) | [M001560](https://github.com/rohanarun/alpoge-rh-replay/issues/2861#issuecomment-7050567294) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M039708](https://github.com/rohanarun/alpoge-rh-replay/issues/2862#issuecomment-7050575120) | Pending review |
 | [@EF-Code](https://github.com/EF-Code) | [M003667](https://github.com/rohanarun/alpoge-rh-replay/issues/2864#issuecomment-7050779429) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M039710](https://github.com/rohanarun/alpoge-rh-replay/issues/2871#issuecomment-7050578918) | Pending review |
@@ -253,4 +254,3 @@
 | [@mu-mei](https://github.com/mu-mei) | [M003364](https://github.com/rohanarun/alpoge-rh-replay/issues/4858#issuecomment-7052354088) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M115322](https://github.com/rohanarun/alpoge-rh-replay/issues/4862#issuecomment-7052928749) | Pending review |
 | [@rahulsundar477-star](https://github.com/rahulsundar477-star) | [P2358](https://github.com/rohanarun/alpoge-rh-replay/issues/4871#issuecomment-7056756504) | Pending review |
-| [@loremcdmx](https://github.com/loremcdmx) | [M061119](https://github.com/rohanarun/alpoge-rh-replay/issues/4889#issuecomment-7052937397) | Pending review |
