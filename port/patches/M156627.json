@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SesquilinearRowSplitting.CoordStep",
+  "source_sha256": "60f35bbd842fe798456ad6e9619ad76223d974b667465858ed35c8adba15fc78",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent definition adaptation: RepStep retains its full-lattice premise. The pinned IsLattice meant finitely generated and spanning; the target calls that notion IsFullLattice. Over the ring of integers of E inside its fraction field E, the added lattice independence condition follows from finite generation via Submodule.IsLattice.of_fg. Both predicates therefore express \u039b.FG and span E \u039b = top. No hypothesis is weakened and the representation conclusion is unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0076-lean436-20261121/packet-result.json"
+}

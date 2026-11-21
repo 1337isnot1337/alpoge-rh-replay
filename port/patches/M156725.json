@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.StabilizerFlagSplitting.PrjMulVecOfL",
+  "source_sha256": "85c5174f5e0bfb5d1b7b7d54e80210df7d727b1e12e6eeef68dc718a5678d1ec",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: qualify Matrix.mul_apply after it became protected. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0076-lean436-20261121/packet-result.json"
+}
