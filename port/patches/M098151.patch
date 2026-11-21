@@ -1,0 +1,38 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/UnitriangularMapInduction.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/UnitriangularMapInduction.lean
+@@ -52,7 +52,7 @@
+     (fun i => (continuous_const.mul continuous_id).aemeasurable)]
+   simp_rw [map_mul_left_eq_smul' ν _ (hD _)]
+   refine Measure.pi_eq fun s hs => ?_
+-  rw [Measure.coe_nnreal_smul_apply, Measure.pi_pi, ENNReal.coe_finset_prod,
++  rw [Measure.coe_nnreal_smul_apply, Measure.pi_pi, ENNReal.coe_finsetProd,
+     ← Finset.prod_mul_distrib]
+   exact Finset.prod_congr rfl fun i _ => Measure.coe_nnreal_smul_apply _ _ _
+ 
+@@ -93,7 +93,7 @@
+       ((Measure.pi fun _ : α => ν).prod (Measure.pi fun _ : β => ν)) := by
+     have hg : Measurable (Function.uncurry g) := by
+       refine Measurable.add ?_ measurable_snd
+-      exact measurable_pi_lambda _ fun _ =>
++      exact Measurable.of_eval fun _ =>
+         ((measurable_pi_apply _).comp measurable_fst).const_mul _
+     exact (MeasurePreserving.id _).skew_product hg
+       (Filter.Eventually.of_forall fun a => map_add_left_eq_self _ _)
+@@ -141,7 +141,7 @@
+         ext
+         simp [hu, det_mul]
+       rw [hcomp, ← Measure.map_map (hmeas A) (hmeas B), hPB (Units.mk0 _ hB) rfl,
+-        Measure.map_smul, hPA (Units.mk0 _ hA) rfl, smul_smul, hu', _root_.mul_inv_rev, map_mul,
++        Measure.map_smul (hf := (hmeas A).aemeasurable), hPA (Units.mk0 _ hA) rfl, smul_smul, hu', _root_.mul_inv_rev, map_mul,
+         mul_comm]
+   rw [key u hu]
+   ext s hs
+@@ -283,7 +283,7 @@
+     · exact continuous_const.add continuous_coord_symm_val
+     · show Continuous fun x : Pos b → k => ∑ i ∈ Finset.range (Finset.univ.sup b + 1),
+         (-((coord k b).symm x : Matrix (Fin r) (Fin r) k)) ^ i
+-      exact continuous_finset_sum _ fun i _ => (continuous_coord_symm_val (k := k) (b := b)).neg.pow i
++      exact continuous_finsetSum _ fun i _ => (continuous_coord_symm_val (k := k) (b := b)).neg.pow i
+   continuous_invFun := continuous_pi fun p => continuous_lg_val.matrix_elem _ _
+ 
+ theorem continuous_linear {ι : Type} [Fintype ι] (L : (ι → k) →ₗ[k] ι → k) : Continuous L := by
