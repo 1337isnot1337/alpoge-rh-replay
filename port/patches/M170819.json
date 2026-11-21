@@ -1,0 +1,7 @@
+{
+  "module": "Lemmata.GeneralBFactThird.Imports",
+  "source_sha256": "6052091c87b7e0ce72d274682a608fcf0b8459a9f65c3cbf215c66faaeaaa76c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace the removed Polynomial.coeff reference in the hypothesis with P.coeff field notation for exactly the same coefficient operation; the theorem meaning is unchanged."
+}

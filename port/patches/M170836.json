@@ -1,0 +1,7 @@
+{
+  "module": "Lemmata.GeneralBFactThirdVersion.Imports",
+  "source_sha256": "f063a9f5a698e7413475732ef520af5eb80728569da81e2ee563b43f9af2af2c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use IsFullLattice for the old IsLattice hypothesis (finite generation and full span). The new scalar-independence axiom is automatic over the number field fraction ring, so this retains the original hypothesis and theorem meaning. Let Lean infer the unchanged structure arguments instead of the obsolete fully explicit constructor signature."
+}
