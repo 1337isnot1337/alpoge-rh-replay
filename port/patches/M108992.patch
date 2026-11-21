@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/WeakShimuraTheory/FibreTraces/FibTrdeg.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/WeakShimuraTheory/FibreTraces/FibTrdeg.lean
+@@ -25,7 +25,7 @@
+         have halg : IsAlgebraic S x⁻¹ := by
+           refine ⟨Polynomial.C (⟨x, hx⟩ : S) * Polynomial.X - 1, ?_, ?_⟩
+           · intro h
+-            have h' := congrArg (fun q => Polynomial.coeff q 0) h
++            have h' := congrArg (fun q : Polynomial S => q.coeff 0) h
+             simp at h'
+           · simp [h0]
+         exact (hmemS _).mpr (hSalg _ halg) }

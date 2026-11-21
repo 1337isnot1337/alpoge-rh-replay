@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.TheoremsMuLinked.HidaOrdinaryHecke.ClosedSub",
+  "source_sha256": "87b7b57544cdae01ea7e66c62e7287f8a5bcc15d8196087d1b305fb4c3b3f23d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Ideal.isMaximal_of_isIntegral_of_isMaximal_under for the existing algebra structure; theorem statements unchanged."
+}

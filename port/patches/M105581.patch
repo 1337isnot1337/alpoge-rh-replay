@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/InductionEstimates/UnipotentBlockMatrices/ClosureOrbits/FinClosure.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/InductionEstimates/UnipotentBlockMatrices/ClosureOrbits/FinClosure.lean
+@@ -74,7 +74,7 @@
+   have hcl : v' ∈ W.topologicalClosure := Submodule.sub_mem _ hv (W.le_topologicalClosure hPv)
+   have h0 : ⟪v', v'⟫_ℂ = 0 := by
+     have hc : IsClosed {x : H | ⟪x, v'⟫_ℂ = 0} := isClosed_eq (by fun_prop) continuous_const
+-    exact closure_minimal (s := (W : Set H)) key hc hcl
++    exact closure_minimal (s := (W : Set H)) (t := {x : H | ⟪x, v'⟫_ℂ = 0}) key hc hcl
+   have : v = E.starProjection v := sub_eq_zero.1 (inner_self_eq_zero.1 h0)
+   rw [this]
+   exact hPv

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.GlobalUnitaryForms.IntegralStabilizers.FinSAbs",
+  "source_sha256": "8fb92ede6c6287268a48e9268b3d70d4310ada54455db2b22fa0e12243c1e864",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename Finsupp.coe_finset_sum to Finsupp.coe_finsetSum; theorem statements unchanged."
+}

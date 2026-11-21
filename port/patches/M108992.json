@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.FibreTraces.FibTrdeg",
+  "source_sha256": "12bda2b9e323d8ce2cc664557eff1cc3dc03df176730e582109f8cc38a956bfb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use typed polynomial coefficient field notation; theorem statements unchanged."
+}
