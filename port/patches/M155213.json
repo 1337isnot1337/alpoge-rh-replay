@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HermitianDefiniteOrthonormal.Imports",
+  "source_sha256": "7f6bb3764974b306fd6f40111c43e92475fc53fff63f9a18c49035e3419ee316",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The congruence step now closes the diagonal conjugation goal."
+}

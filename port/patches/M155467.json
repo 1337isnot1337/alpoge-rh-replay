@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.JetIntegrality.InvOmega",
+  "source_sha256": "f8835790e322f7ffa0fa40cd9d4e9b5a4d6c126cf7ac9f92f643ecd5ea5b3735",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass the coefficient ring as a named argument to the power-series derivative."
+}

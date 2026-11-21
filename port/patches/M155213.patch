@@ -1,0 +1,11 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/HermitianDefiniteOrthonormal/Imports.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/HermitianDefiniteOrthonormal/Imports.lean
+@@ -45,8 +45,6 @@
+   have hdH : (diagonal d)ᴴ = diagonal d := by
+     rw [Matrix.diagonal_conjTranspose]
+     congr 1
+-    funext i
+-    simp [d]
+   refine ⟨U * diagonal d, ?_, ?_⟩
+   · have h : diagonal e * Uᴴ * (U * diagonal d) = 1 := by
+       calc diagonal e * Uᴴ * (U * diagonal d) = diagonal e * (Uᴴ * U) * diagonal d := by

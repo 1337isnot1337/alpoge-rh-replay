@@ -1,0 +1,25 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/IntegralSpanAlgebra/Burnside.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/IntegralSpanAlgebra/Burnside.lean
+@@ -93,7 +93,11 @@
+ theorem spanAlg_eq_top (ρ : G →* GL (Fin N) ℂ) (hN : 0 < N) (hI : Irr ρ) :
+     ∀ f : Module.End ℂ (Fin N → ℂ), f ∈ spanAlg ρ := by
+   intro f
+-  have := spanAlg_simple ρ hN hI
++  let spanModule : Module (spanAlg ρ) (Fin N → ℂ) := Subalgebra.moduleLeft (spanAlg ρ)
++  letI := spanModule
++  have hsem : IsSemisimpleModule (spanAlg ρ) (Fin N → ℂ) :=
++    @instIsSemisimpleModuleOfIsSimpleModule (spanAlg ρ) _ (Fin N → ℂ) _
++      spanModule (spanAlg_simple ρ hN hI)
+   let F : Module.End (Module.End (spanAlg ρ) (Fin N → ℂ)) (Fin N → ℂ) :=
+     { toFun := f
+       map_add' := f.map_add
+@@ -101,7 +105,8 @@
+         intro φ v
+         obtain ⟨c, hc⟩ := schur ρ hN hI φ
+         simp only [Module.End.smul_def, RingHom.id_apply, hc, map_smul] }
+-  obtain ⟨r, hr⟩ := jacobson_density F (Finset.univ.image (fun i => Pi.single i (1 : ℂ)))
++  let s : Finset (Fin N → ℂ) := Finset.univ.image (fun (i : Fin N) => Pi.single i (1 : ℂ))
++  obtain ⟨r, hr⟩ := @jacobson_density (spanAlg ρ) _ (Fin N → ℂ) _ spanModule hsem F s
+   have : (r : Module.End ℂ (Fin N → ℂ)) = f := by
+     apply (Pi.basisFun ℂ (Fin N)).ext
+     intro i

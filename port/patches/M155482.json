@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LFunctionEvaluation.LsumEqOfSubset",
+  "source_sha256": "2a7d11e261dbbf039fcbf31e8adae481402a8590625636416793f61d2f98cf32",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current multivariate polynomial coefficient projection and its addition law."
+}
