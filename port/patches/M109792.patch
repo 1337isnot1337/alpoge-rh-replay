@@ -1,0 +1,25 @@
+--- a/src/Development/AutomorphicArithmetic/CyclotomicBounds/ClassNumberBounds/AdditiveValuation/UnramExtY.lean
++++ b/src/Development/AutomorphicArithmetic/CyclotomicBounds/ClassNumberBounds/AdditiveValuation/UnramExtY.lean
+@@ -27,9 +27,11 @@
+     Ideal.Quotient.maximal_of_isField _ (e.toMulEquiv.isField (Field.toIsField _))
+   have huniq : ∀ M : Ideal (AdjoinRoot f), M.IsMaximal → M = J := by
+     intro M hM
+-    have h1 := Ideal.isMaximal_comap_of_isIntegral_of_isMaximal (R := O) M
++    have h1 := Ideal.isMaximal_under_of_isIntegral_of_isMaximal (R := O) M
+     have h2 : J ≤ M := by
+-      rw [Ideal.map_le_iff_le_comap, ← AdjoinRoot.algebraMap_eq, eq_maximalIdeal h1]
++      rw [Ideal.map_le_iff_le_comap, ← AdjoinRoot.algebraMap_eq]
++      change maximalIdeal O ≤ M.under O
++      rw [eq_maximalIdeal h1]
+     exact (hJ.eq_of_le hM.ne_top h2).symm
+   have : IsLocalRing (AdjoinRoot f) := IsLocalRing.of_unique_max_ideal ⟨J, hJ, huniq⟩
+   have hmJ : maximalIdeal (AdjoinRoot f) = J := (eq_maximalIdeal hJ).symm
+@@ -44,7 +46,7 @@
+     rw [isField_iff_maximalIdeal_eq, hm, Ideal.span_singleton_eq_bot]
+     exact hne
+   have hdvr : IsDiscreteValuationRing (AdjoinRoot f) :=
+-    ((IsDiscreteValuationRing.TFAE (AdjoinRoot f) hnf).out 0 4).mpr
++    ((IsDiscreteValuationRing.TFAE (AdjoinRoot f) hnf).out 1 5).mpr
+       (show (maximalIdeal (AdjoinRoot f)).IsPrincipal from ⟨_, hm⟩)
+   refine ⟨hdom, hdvr, IsDiscreteValuationRing.irreducible_of_span_eq_maximalIdeal _ hne hm, ?_⟩
+   have e2 : ResidueField (AdjoinRoot f) ≃+* AdjoinRoot (f.map (residue O)) :=

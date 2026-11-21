@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.CMTraceForms.ProdPrimeFactorsPowCeilPadicValNatMulEqPow",
+  "source_sha256": "117d63059e3df6cde43babbdbfb464f92b18cbcccf9fdcd38976e3c01238061e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Nat.prod_factorization_pow_eq_self and unfold padicValNat_def to identify multiplicity in the exponent calculation; theorem statement unchanged."
+}

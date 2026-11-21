@@ -1,0 +1,16 @@
+--- a/src/Development/AutomorphicArithmetic/CMTraceForms/ProdPrimeFactorsPowCeilPadicValNatMulEqPow.lean
++++ b/src/Development/AutomorphicArithmetic/CMTraceForms/ProdPrimeFactorsPowCeilPadicValNatMulEqPow.lean
+@@ -10,11 +10,12 @@
+   have hf : Q.primeFactors.filter Nat.Prime = Q.primeFactors :=
+     Finset.filter_true_of_mem fun p hp => Nat.prime_of_mem_primeFactors hp
+   have hQ' : ∏ p ∈ Q.primeFactors, p ^ (Q.factorization p) = Q := by
+-    have := Nat.factorization_prod_pow_eq_self hQ
++    have := Nat.prod_factorization_pow_eq_self hQ
+     rwa [Finsupp.prod, Nat.support_factorization] at this
+   rw [hf]
+   conv_rhs => rw [← hQ', ← Finset.prod_pow]
+   refine Finset.prod_congr rfl fun p hp => ?_
+   rw [hc, hc, ← pow_mul, Nat.factorization_def Q (Nat.prime_of_mem_primeFactors hp)]
+   congr 1
++  simp only [Nat.padicValNat_def]
+   ring

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.AdditiveValuation.UnramExtY",
+  "source_sha256": "4f638410f6a7ac94b0a8acab3c65c7be66ae2d19f0e9986717bd1e83d04c9a11",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the integral-algebra maximal-ideal contraction API and one-based TFAE indices for the same equivalent propositions; theorem statement unchanged."
+}

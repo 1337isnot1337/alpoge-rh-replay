@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.TheoremsMuLinked.SpectralEigenvalues.Dlam",
+  "source_sha256": "f8bcc47da54cfc3a92f6cf9e8ee32624ae82bbb94ee920824fecbceabcd2f9ab",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass the coefficient ring as the implicit R argument of MvPowerSeries.pderiv; theorem statements unchanged."
+}

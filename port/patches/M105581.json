@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.InductionEstimates.UnipotentBlockMatrices.ClosureOrbits.FinClosure",
+  "source_sha256": "73c108799fa3bf86005f5e2a642eafa5110579b4073cba06855cfdf782df660b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specify the closed target set explicitly for closure_minimal; theorem statements unchanged."
+}
