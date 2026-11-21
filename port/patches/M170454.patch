@@ -1,0 +1,10 @@
+--- a/src/GroundTheory/ProfiniteCohomology/LocalEulerCharacteristic/CoprimeRegular.lean
++++ b/src/GroundTheory/ProfiniteCohomology/LocalEulerCharacteristic/CoprimeRegular.lean
+@@ -18,6 +18,7 @@
+ theorem regularTensorEquiv_single_tmul (g : Γ) (r : k) (n : N) :
+     regularTensorEquiv (MonoidAlgebra.single g r ⊗ₜ[k] n) = Finsupp.single g (r • n) := by
+   ext γ
++  change finsuppScalarLeft k N Γ (Finsupp.single g r ⊗ₜ[k] n) γ = _
+   simp [regularTensorEquiv, finsuppScalarLeft_apply_tmul_apply, MonoidAlgebra.coeffLinearEquiv,
+     MonoidAlgebra.coeff_single, Finsupp.single_apply]
+ 

@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.PAdicHodge.FiniteFlat",
+  "source_sha256": "bac14cd6376e5d022c39e9e98d7331683d72a55f6fdee5108728ffc6e76fe46a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0086-lean436-20261121/packet-result.json"
+}

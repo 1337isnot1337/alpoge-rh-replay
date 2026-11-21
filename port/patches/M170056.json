@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.PAdicHodge.ExtRobbaTeich",
+  "source_sha256": "433ed52c1fac1bf8cbf82a5af2948cfc26f8ab2e9898d3ca35acc5438d592099",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0086-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.LocalFields.ExamplesTeichmuller",
+  "source_sha256": "6a2bd7839d29dd7f202b0a7d472a1ce273d05a91509b74d9cee96aabdca107be",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0086-lean436-20261121/packet-result.json"
+}

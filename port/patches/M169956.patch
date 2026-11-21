@@ -1,0 +1,14 @@
+--- a/src/GroundTheory/LocalFields/UnitsBasic.lean
++++ b/src/GroundTheory/LocalFields/UnitsBasic.lean
+@@ -66,8 +66,9 @@
+ 
+ noncomputable def normalizedValuation : Valuation K ℤᵐ⁰ :=
+   (valuation K).map
+-    (IsNonarchimedeanLocalField.valueGroupWithZeroIsoInt K).toMulEquiv.toMonoidWithZeroHom
+-    (IsNonarchimedeanLocalField.valueGroupWithZeroIsoInt K).toOrderIso.monotone
++    { toMonoidWithZeroHom :=
++        (IsNonarchimedeanLocalField.valueGroupWithZeroIsoInt K).toMulEquiv.toMonoidWithZeroHom
++      monotone' := (IsNonarchimedeanLocalField.valueGroupWithZeroIsoInt K).toOrderIso.monotone }
+ 
+ variable {K}
+ 

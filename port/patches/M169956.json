@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.LocalFields.UnitsBasic",
+  "source_sha256": "6ddcd3d58a503f6597394a0dc7a1d1bd80d2bcfcc39258d807cac98e810487c2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent definition API adaptation: Valuation.map now takes a bundled OrderMonoidWithZeroHom. Bundle the exact original valueGroupWithZeroIsoInt homomorphism and its original monotonicity proof. normalizedValuation still sends x to valueGroupWithZeroIsoInt K (valuation K x), as its unchanged application theorem proves.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0086-lean436-20261121/packet-result.json"
+}

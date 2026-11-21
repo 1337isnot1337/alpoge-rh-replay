@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.PAdicHodge.SemilinearResidue",
+  "source_sha256": "9b57b7ba4ab47fa4cb955ca5fd1f23564ce3b4972202ed0a43a634bcec55b4ad",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0086-lean436-20261121/packet-result.json"
+}

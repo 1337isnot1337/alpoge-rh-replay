@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ProfiniteCohomology.GlobalEulerCharacteristic.ArtinCount",
+  "source_sha256": "a8f836934fed317027dee3630c2093e46d96cae7ad1e636800f3a7f98ba76541",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0086-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,18 @@
+--- a/src/GroundTheory/PAdicHodge/BdRSeries.lean
++++ b/src/GroundTheory/PAdicHodge/BdRSeries.lean
+@@ -208,13 +208,13 @@
+   have hg : constantCoeff ((1 + X) ^ k - 1 : ℚ⟦X⟧) = 0 := by simp
+   have hS := HasSubst.of_constantCoeff_zero' hg
+   apply derivative.ext
+-  · set G : ℚ⟦X⟧ := mk (fun n => algebraMap ℚ ℚ ((-1) ^ n)) with hG
++  · set G : ℚ⟦X⟧ := mk (fun n => (-1 : ℚ) ^ n) with hG
+     have hsub : ((1 + X : ℚ⟦X⟧) ^ k) * G.subst ((1 + X) ^ k - 1 : ℚ⟦X⟧) = 1 := by
+       have h := congrArg (substAlgHom hS) one_add_X_mul_geom
+       rw [map_mul, map_one, map_add, map_one, coe_substAlgHom, subst_X hS, add_sub_cancel] at h
+       exact h
+     rw [derivative_subst hS, deriv_log, ← hG]
+-    have hd : d⁄dX ℚ ((k : ℚ⟦X⟧) * log ℚ) = (k : ℚ⟦X⟧) * G := by
++    have hd : d⁄dX ((k : ℚ⟦X⟧) * log ℚ) = (k : ℚ⟦X⟧) * G := by
+       rw [Derivation.leibniz, deriv_log, ← hG, Derivation.map_natCast, smul_zero, add_zero,
+         smul_eq_mul]
+     rw [hd, map_sub, derivative_pow, derivative_one, sub_zero, map_add, derivative_one,
