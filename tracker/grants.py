@@ -79,9 +79,12 @@ def reconcile(get_pages=None, mutate=None):
    mutate(f'/issues/{number}/comments','POST',{'body':f'Granted `{target}`. Begin this reservation. Attach your receipt and log to this issue, or close it to release the work.'})
   elif desired=='claim-conflict' and (desired not in labels or number not in conflicts):
    body=('No grant. New claims from this account are paused until the pending submissions on your granted claims are fixed. '
-         'See the review comments there and the submission self-check in CONTRIBUTING.md. Close this issue for now.') if held else \
+         'See the review comments there and the submission self-check in CONTRIBUTING.md. This issue is closed.') if held else \
         'No grant. This selection is unavailable or overlaps existing work. Close this issue and choose a new open module or packet with `python3 tracker/tasks.py next`.'
    mutate(f'/issues/{number}/comments','POST',{'body':body})
+  # Close refused claims from paused accounts so they don't grow the open set every run reads.
+  if held and desired=='claim-conflict':
+   mutate(f'/issues/{number}','PATCH',{'state':'closed','state_reason':'not_planned'})
 
 
 def main():

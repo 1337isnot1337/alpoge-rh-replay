@@ -36,7 +36,17 @@ class PausedClaimantTest(unittest.TestCase):
         self.assertNotIn(('/issues/5/labels/claim-granted', 'DELETE'), routes)
         self.assertEqual(routes[('/issues/6/labels', 'POST')], [{'labels': ['claim', 'claim-conflict']}])
         self.assertIn('paused', routes[('/issues/6/comments', 'POST')][0]['body'])
+        self.assertEqual(routes[('/issues/6', 'PATCH')], [{'state': 'closed', 'state_reason': 'not_planned'}])
+        self.assertNotIn(('/issues/7', 'PATCH'), routes)
+        self.assertNotIn(('/issues/5', 'PATCH'), routes)
         self.assertEqual(routes[('/issues/7/labels', 'POST')], [{'labels': ['claim', 'claim-granted']}])
+
+    def test_graphql_queues_close_for_refused_claim(self):
+        import claims_graphql
+        client = claims_graphql.ClaimsGraphQL('o/r', 't')
+        client.issues = {6: {'id': 'I6'}}
+        client.queue('/issues/6', 'PATCH', {'state': 'closed', 'state_reason': 'not_planned'})
+        self.assertEqual(client.writes, ['closeIssue(input:{issueId:"I6",stateReason:NOT_PLANNED}){clientMutationId}'])
 
     def test_missing_file_pauses_nobody(self):
         self.assertEqual(grants.load_paused(Path('/nonexistent/paused.txt')), set())

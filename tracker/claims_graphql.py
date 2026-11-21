@@ -118,6 +118,11 @@ class ClaimsGraphQL:
         return iter(self.issues.values())
 
     def queue(self, route, method, body=None):
+        closing = re.fullmatch(r'/issues/(\d+)', route)
+        if closing and method == 'PATCH' and body == {'state': 'closed', 'state_reason': 'not_planned'}:
+            node = json.dumps(self.issues[int(closing[1])]['id'])
+            self.writes.append('closeIssue(input:{issueId:%s,stateReason:NOT_PLANNED}){clientMutationId}' % node)
+            return
         match = re.fullmatch(r'/issues/(\d+)/(labels|comments)(?:/([a-z-]+))?', route)
         number, path, label = match.groups()
         node = json.dumps(self.issues[int(number)]['id'])
