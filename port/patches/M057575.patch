@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/ExistsHaarMapProdEq.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/ExistsHaarMapProdEq.lean
+@@ -21,7 +21,7 @@
+   refine ⟨haarScalarFactor μC ((μA.prod ν).map e) • ν, IsHaarMeasure.nnreal_smul _ hc.ne', ?_⟩
+   conv_rhs => rw [h]
+   generalize haarScalarFactor μC ((μA.prod ν).map e) = c
+-  rw [← Measure.map_smul]
++  rw [← Measure.map_smul _ (map_continuous e).aemeasurable]
+   congr 1
+   rw [ENNReal.smul_def, ENNReal.smul_def, Measure.prod_smul_right]
+ 

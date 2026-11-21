@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FlagMeasures.IntegrableExpNegMulOfSublevelGrowth",
+  "source_sha256": "20f46cd54443f00a048807080ed27b94fddde48759feb75f8d7199c198b30019",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the general `le_tsum` with its summand given explicitly."
+}

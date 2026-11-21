@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FlagMeasures.IsLatticeComapSubtype",
+  "source_sha256": "fe5e6902ec9a766c7373d8f6a0c29c42a88a8f8bc275f5c7cfd8568b405476c1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Statement change, equivalent: in `isLattice_comap_subtype` the hypothesis `Submodule.IsLattice K Λ` and the conclusion `Submodule.IsLattice K (comap …)` become `Submodule.IsFullLattice`. Mathlib #44365 renamed the pinned `IsLattice` (finitely generated and spanning) to `IsFullLattice` and reused the name `IsLattice` for a weaker notion without `span_eq_top`. Over `𝓞 K` inside its fraction field `K`, `IsFullLattice K M ↔ M.FG ∧ span K M = ⊤`, which is the pinned definition, because `Submodule.IsLattice.of_fg` supplies the new linear-independence field. The proof builds the conclusion with that lemma and is otherwise unchanged."
+}

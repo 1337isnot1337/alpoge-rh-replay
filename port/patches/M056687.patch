@@ -1,0 +1,36 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/AestronglyMeasurableCompRep.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/AestronglyMeasurableCompRep.lean
+@@ -139,8 +139,10 @@
+     (hR : ∀ g F, (R g F : G → ℂ) =ᵐ[μ.restrict D] fun x => F (r (x * g))) (g : G)
+     (F : Lp ℂ 2 (μ.restrict D)) : ‖R g F‖ = ‖F‖ := by
+   rw [Lp.norm_def, Lp.norm_def, eLpNorm_congr_ae (hR g F),
+-    eLpNorm_eq_lintegral_rpow_enorm_toReal two_ne_zero ENNReal.ofNat_ne_top,
+-    eLpNorm_eq_lintegral_rpow_enorm_toReal two_ne_zero ENNReal.ofNat_ne_top,
++    eLpNorm_eq_lintegral_rpow_enorm_toReal two_ne_zero ENNReal.ofNat_ne_top
++      ((Lp.aestronglyMeasurable (R g F)).congr (hR g F)),
++    eLpNorm_eq_lintegral_rpow_enorm_toReal two_ne_zero ENNReal.ofNat_ne_top
++      (Lp.aestronglyMeasurable F),
+     lintegral_comp_rep_mul hD hDm hr (fun x => ‖F x‖ₑ ^ (2 : ℝ≥0∞).toReal) g]
+ 
+ theorem edist_indicator_le (hD : IsFundamentalDomain Γ D μ) (hDm : MeasurableSet D)
+@@ -168,7 +170,8 @@
+   rw [Lp.edist_def]
+   calc eLpNorm (⇑(R g F) - ⇑(R g₀ F)) 2 (μ.restrict D)
+       ≤ eLpNorm ((⋃ γ : Γ, γ • S).indicator fun _ => c) 2 (μ.restrict D) := by
+-        refine eLpNorm_mono_enorm_ae ?_
++        refine eLpNorm_mono_enorm_ae
++          ((Lp.aestronglyMeasurable _).sub (Lp.aestronglyMeasurable _)) ?_
+         filter_upwards [hR g F, hR g₀ F,
+           ae_restrict_of_ae ((measurePreserving_mul_right μ g).quasiMeasurePreserving.ae h1),
+           ae_restrict_of_ae ((measurePreserving_mul_right μ g₀).quasiMeasurePreserving.ae h1),
+@@ -186,7 +189,9 @@
+             mem_iUnion.2 ⟨γ⁻¹, mem_inv_smul_set_iff.2 (Or.inr ⟨k1, k2⟩)⟩
+           rw [indicator_of_mem this]; simp [a, b]
+         · simp [a, b]
+-    _ ≤ _ := eLpNorm_indicator_const_le c 2
++    _ ≤ _ := eLpNorm_indicator_const_le c 2 (MeasurableSet.iUnion fun γ =>
++        ((measurable_mul_const g (hs.inter hDm)).symmDiff
++          (measurable_mul_const g₀ (hs.inter hDm))).const_smul γ).nullMeasurableSet
+     _ ≤ _ := by gcongr
+ 
+ theorem continuous_map [LocallyCompactSpace G] [SecondCountableTopology G]
