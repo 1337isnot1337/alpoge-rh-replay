@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.DiscriminantMulIntegralMem",
+  "source_sha256": "cf2a5b0f0d936e1548f302583c085da8940a57b4f8bea9da9a8217a2e7c9f945",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`isIntegral_algebraMap_iff` now takes `[FaithfulSMul A B]` instead of an explicit injectivity proof; drop the argument (`FaithfulSMul ℚ K` holds for any field `K` of characteristic zero). Proof body only."
+}

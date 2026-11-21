@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.DvrOfNormIntegral",
+  "source_sha256": "80d1f37827d4bf12388ca5135668af761fc95f53a0bab0c5e57e8a742d83fa7b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`List.TFAE.out` is 1-indexed on the target, so `.out 0 1` becomes `.out 1 2` (the same first and second statements). Proof body only."
+}

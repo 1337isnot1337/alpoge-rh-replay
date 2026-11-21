@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.EventualValue",
+  "source_sha256": "62ff4ce225eac4311716504d6f140970302b784f08c429fab96be3bd58860149",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Definition body change, same term: in `UpperTheory.Reformulated.B.Yfa2.cycNum` the declaration text replaces `MvPolynomial.coeff μ H` by `H.coeff μ`. The original pinned Mathlib defines `MvPolynomial.coeff m p` as `@DFunLike.coe _ _ _ _ (AddMonoidAlgebra.coeff p) m` (Mathlib/Algebra/MvPolynomial/Basic.lean:513-514); `MvPolynomial.coeff` no longer exists on the target, and `p.coeff m` is that same `AddMonoidAlgebra.coeff p` applied to `m`. Same polynomial and exponent; no assumptions or conclusions are added or removed."
+}

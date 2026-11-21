@@ -1,0 +1,10 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/EqZeroOfForallIntegralCoeff.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/EqZeroOfForallIntegralCoeff.lean
+@@ -829,6 +829,7 @@
+   have hD0 : detPow 0 = 1 := by
+     ext k
+     exact zpow_zero _
++  letI : Star (Set C(U2, ℂ)) := Set.star
+   let S : Set C(U2, ℂ) := Set.range fun ij : Fin 2 × Fin 2 => entry ij.1 ij.2
+   have hmul : ∀ f ∈ Algebra.adjoin ℂ (S ∪ star S), ∀ z, P z → P (f * z) := by
+     intro f hf

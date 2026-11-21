@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.EqZeroOfForallIntegralCoeff",
+  "source_sha256": "7ea9bbcf2cb0fc7e99808e53a558cab2b11ed8a3e1365beb67fb3aff2f37865c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Set.star` (pointwise star on sets) is now a scoped `Pointwise` instance on the target, so supply it locally with `letI : Star (Set C(U2, ℂ)) := Set.star` before `star S` is used. Proof body only."
+}
