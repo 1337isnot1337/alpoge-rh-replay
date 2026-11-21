@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LaurentPartialDerivationUnique",
+  "source_sha256": "cbba7d2403f32a65201d0c02914d452970df8912b087023ba16ae797a0c35723",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Drop obsolete Finsupp.finset_sum_apply argument from simp in res_derivation_eq_zero for Mathlib v4.36.0."
+}

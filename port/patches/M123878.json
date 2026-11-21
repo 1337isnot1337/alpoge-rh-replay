@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.HasDerivAtOfContinuousHom",
+  "source_sha256": "16524a05cca32390db7c4a5599b7f29f34307351efb6c6e70d75b44f683d8e4a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

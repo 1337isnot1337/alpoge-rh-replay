@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.InducedGeneratedByKFinite",
+  "source_sha256": "a82bdf87bb076fef35899e14c0e02b94df6c3c96c2d250e09767a3f675ff1990",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

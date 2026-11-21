@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.HermitianPsdIsotropicRadical",
+  "source_sha256": "d780eb7c6f7c66e654ee5fc02eb5e3daef151fa647f60a110c8a607b57011fb2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

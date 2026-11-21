@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ProductSubsetSumVanishes",
+  "source_sha256": "6176baf8858fc44325025683b5f50085b2804f7c8b21253eefbfd9a2b46b2833",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

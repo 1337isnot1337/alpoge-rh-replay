@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IntegralAddRightMulChar",
+  "source_sha256": "a4903c86c6cdf41401557728157b47a224f25f24551f732d14d7764fff4e2bb3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

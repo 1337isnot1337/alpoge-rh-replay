@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IteratedFDerivSubApply",
+  "source_sha256": "8989d17e33a9d08351aac45ba07aff04ea3a1432eb8aca92466ccf47f04e13b0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IsFieldIdemOne",
+  "source_sha256": "a9f6925fda6566393ceac9a400db0463c53f2df22100dd2fccf763124cc6ce1e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

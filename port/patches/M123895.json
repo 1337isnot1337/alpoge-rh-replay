@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.HasSumTaylorOfExpBounds",
+  "source_sha256": "60c587f69d2642dbfdb1032755f5c5779de3020b4c85e21964141ba814281772",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Adapt taylor_mean_remainder_bound call (drop zero_le_one and use hgs.of_le (by simp)) for Mathlib v4.36.0."
+}

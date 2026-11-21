@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FourierOneParameterIntegral",
+  "source_sha256": "2a0602bd5ba689f07e79291a89c90050b7ebb4826f2fee7484fb40c760ce9c16",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

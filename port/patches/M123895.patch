@@ -1,0 +1,13 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/HasSumTaylorOfExpBounds.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/HasSumTaylorOfExpBounds.lean
+@@ -83,8 +83,8 @@
+       |M| * E * A * (A ^ m / (Nat.factorial m : ℝ)) := by
+     intro m
+     have h1 := taylor_mean_remainder_bound (f := g) (a := 0) (b := 1) (x := 1) (n := m)
+-      (C := |M| * A ^ (m + 1) * E) zero_le_one
+-      ((hgs.of_le (by exact_mod_cast le_top)).contDiffOn) (by simp) (by
++      (C := |M| * A ^ (m + 1) * E)
++      ((hgs.of_le (by simp)).contDiffOn) (by simp) (by
+         intro y hy
+         rw [iteratedDerivWithin_eq_iteratedDeriv (uniqueDiffOn_Icc zero_lt_one)
+           ((hgs.of_le (by exact_mod_cast le_top)).contDiffAt) hy]

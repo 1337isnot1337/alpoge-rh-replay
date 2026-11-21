@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LieAlgebraFunctionCalculus",
+  "source_sha256": "ed584ed665787d6cc73b9996e20852abebfb027a0245cb0aa4c4bf2db9c64263",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IntegrableExpNegSumAbs",
+  "source_sha256": "369d4a4f752142559f41af3d283b96d4c17c895bf3fc37c9dc29c2b17075ed3a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

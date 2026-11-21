@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.HaarMeasureSplitExactSequence",
+  "source_sha256": "f13bdb9371255faf3f185429d9343e5cc3c13e452ce35ca398aff6cc7049e8f2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Filter.EventuallyEqSet.rfl.inter and EventuallyEqSet.filter_mono hνac.ae_le for set ae equality in Mathlib v4.36.0."
+}
