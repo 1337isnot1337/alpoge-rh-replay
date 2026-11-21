@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M011765 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStageCuspFormMapEqZeroOfValueZeroStatement` | volunteer-build-reviewed |
+| M011769 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStageLatticeStabilizerParamsOffSetStatement` | volunteer-build-reviewed |
+| M011771 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStageLevelSphericalOffSetStatement` | volunteer-build-reviewed |
+| M011778 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStepCharsUnramifiedOffS` | volunteer-build-reviewed |
+| M011781 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStepFiniteDatumIsSchwartzBruhatHalfStatement` | volunteer-build-reviewed |
 | M011787 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStepRealThetaRuleOfNodesFarApartStatement` | volunteer-build-reviewed |
 | M011789 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStepVectorExistsNonzeroVacuumStatement` | volunteer-build-reviewed |
 | M011793 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStepWeilDatumNonzeroFockVacuumStatement` | volunteer-build-reviewed |
@@ -181,6 +186,7 @@
 | M012912 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsDualBundleGeneratorsAllThetaTests` | volunteer-build-reviewed |
 | M012913 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsDualBundleGeneratorsAllThetaTestsStatement` | volunteer-build-reviewed |
 | M012914 | P0006 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsEqDivOfIsPullback` | volunteer-build-reviewed |
+| M012916 | P1814 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsExpandsFAndNuGeOfIsComb` | volunteer-build-reviewed |
 | M012920 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFacOfClosedPoint` | volunteer-build-reviewed |
 | M012921 | P1057 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFactorClassicalPointOfLargeTest` | wave-reused |
 | M012922 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFactorClassicalPointOfLargeTestStatement` | wave-reused |
@@ -396,9 +402,3 @@
 | M013346 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorusActionWeightedChartsStatement` | volunteer-build-reviewed |
 | M013350 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorusExtensionPointOfIntegralModelPointStatement` | volunteer-build-reviewed |
 | M013355 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorusStableGoodOpenOfWeightUnitsStatement` | volunteer-build-reviewed |
-| M013358 | P1474 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTraitSpecialisationOfMemClosureThetaPoints` | volunteer-build-reviewed |
-| M013361 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTwistedSectionThetaTranslateCoef` | volunteer-build-reviewed |
-| M013362 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTwistedSectionThetaTranslateCoefStatement` | volunteer-build-reviewed |
-| M013364 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTwoGoodSectionsNearClosedPointStatement` | volunteer-build-reviewed |
-| M013366 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnifOfCmp` | volunteer-build-reviewed |
-| M013373 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisationDataOfSemiAbelianSymmetry` | volunteer-build-reviewed |

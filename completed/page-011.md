@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013358 | P1474 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTraitSpecialisationOfMemClosureThetaPoints` | volunteer-build-reviewed |
+| M013361 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTwistedSectionThetaTranslateCoef` | volunteer-build-reviewed |
+| M013362 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTwistedSectionThetaTranslateCoefStatement` | volunteer-build-reviewed |
+| M013364 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTwoGoodSectionsNearClosedPointStatement` | volunteer-build-reviewed |
+| M013366 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUnifOfCmp` | volunteer-build-reviewed |
+| M013373 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisationDataOfSemiAbelianSymmetry` | volunteer-build-reviewed |
 | M013375 | P1247 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisationTestOfGeometricTest` | wave-reused |
 | M013376 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisationTestOfGeometricTestStatement` | volunteer-build-reviewed |
 | M013377 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsUniformisationTrivialTorusAbelianLocus` | volunteer-build-reviewed |
@@ -246,9 +252,11 @@
 | M013823 | P1420 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.PolarizedAbelianValueTableMapsUnderBaseChange` | build-observed |
 | M013824 | P1445 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.PolarizedAbelianValueTableMapsUnderBaseChangeStatement` | volunteer-build-reviewed |
 | M013833 | P1902 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.PotentialSemistableOfRationalLTorsionStatement` | volunteer-build-reviewed |
+| M013835 | P1996 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.PowerSeriesAlgebraicClosureCompatibleStatement` | volunteer-build-reviewed |
 | M013837 | P0007 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.PowerSeriesGenericRelationChain` | volunteer-build-reviewed |
 | M013839 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.PreUniformisationComparisonTorusInvariant` | volunteer-build-reviewed |
 | M013840 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.PreUniformisationComparisonTorusInvariantStatement` | volunteer-build-reviewed |
+| M013841 | P1921 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.PrincipallyPolarizedAbelianVarietyPotentialSemiA` | volunteer-build-reviewed |
 | M013845 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ProjZeroPullbackNeZero` | volunteer-build-reviewed |
 | M013846 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.PsiCmpOfSecCmp` | volunteer-build-reviewed |
 | M013848 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.PsiEvenDescendBaseChange` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M014160 | P0007 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UnitOnProductEqOne` | wave-reused |
 | M014164 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UniversalBasisMoveBaseChange` | volunteer-build-reviewed |
 | M014169 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.VFCorr` | build-observed |
-| M014170 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.VFEqGenValMul` | build-observed |
-| M014171 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ValIso` | build-observed |
-| M014172 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ValIsoChart` | build-observed |
-| M014174 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ValUnitNeZero` | volunteer-build-reviewed |
-| M014175 | P1059 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ValuationEqPolarFormOfWeightZeroMax` | wave-reused |
-| M014176 | P1086 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ValuationEqPolarFormOfWeightZeroMaxStatement` | wave-reused |
-| M014179 | P1059 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ValuationsTorusExtensionPoints` | build-observed |
-| M014185 | P0679 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.VanishingIdealConePrimeHomogeneous` | wave-reused |

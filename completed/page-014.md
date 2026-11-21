@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M020386 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DOpMemDStep` | volunteer-build-reviewed |
+| M020390 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DTermOrigin` | build-observed |
+| M020391 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DUnitMemRangeOfMemKerIdeal` | wave-reused |
+| M020394 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxAdaptedPlaneEvaluation` | volunteer-build-reviewed |
+| M020395 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxAdaptedPlaneEvaluationStatement` | volunteer-build-reviewed |
+| M020398 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxChangeRealisedCompAndReindex` | volunteer-build-reviewed |
+| M020399 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxChangeRealisedCompAndReindexStatement` | volunteer-build-reviewed |
+| M020405 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxCoordinatesDoubledSpaceStatement` | volunteer-build-reviewed |
 | M020413 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxCoordsRealFamilyArchimedeanLinear` | volunteer-build-reviewed |
 | M020414 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxCoordsRealFamilyArchimedeanLinearStatement` | volunteer-build-reviewed |
 | M020419 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxDerivativeExistence` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M022752 | P0785 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCocycleCoboundaryIff` | wave-reused |
 | M022753 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCocycleCoboundaryIffStatement` | wave-reused |
 | M022754 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyBijectiveOfSupportBijective` | wave-reused |
-| M022755 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyBijectiveOfSupportBijectiveStatement` | wave-reused |
-| M022756 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyCoefficientLongExactSequence` | wave-reused |
-| M022757 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyCoefficientLongExactSequenceStatement` | wave-reused |
-| M022758 | P0785 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyCoefficientRingInvariance` | wave-reused |
-| M022759 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyCoefficientRingInvarianceStatement` | wave-reused |
-| M022760 | P0733 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyEquivOfLocallyConstantBijective` | build-observed |
-| M022761 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyEquivOfLocallyConstantBijectiveStatement` | build-observed |
-| M022764 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyEquivalenceBaseChangeCechAugmenta` | build-observed |

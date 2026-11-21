@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M168016"
+  ],
+  "started_utc": "2026-11-20T23:51:39.657089+00:00",
+  "ended_utc": "2026-11-20T23:51:55.898169+00:00",
+  "elapsed_seconds": 16.2,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6810528
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.Intersections.StatementsChartRankAdjoin:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "657eb784d4bd0c51667b978a4fce2764b69739d2dcc273a436665c15042e9a97",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.MultihomogeneousIdeals.IsFieldIntersection",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.IsIntersectionFamily",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.IsSemipositiveOn"
+  ],
+  "objects": {
+    "M168016": "b42f080f8de9a6103b1344192d5e68ce5d1dbf9a2f7c70e929bd01a69068714a"
+  },
+  "bundle_sha256": "2e8ef7168aa7320bbdeddb6208c6da83e496478abbce264726721d502df368c5",
+  "packet": "M168016",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6952#issuecomment-7053557796",
+  "reviewed_utc": "2026-11-20T23:56:41.938623+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

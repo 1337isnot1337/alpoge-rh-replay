@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M030690 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtTraceSubmatrixSumMap` | volunteer-build-reviewed |
+| M030691 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtTraceWedgeSelfEqZero` | volunteer-build-reviewed |
+| M030695 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendAlgHomAdjoinIntegralRoot` | volunteer-build-reviewed |
+| M030697 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendAndMean` | volunteer-build-reviewed |
+| M030700 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendByZeroOnSubsetApplyCoe` | wave-reused |
+| M030702 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendByZeroRestrictionNonzeroContinuousStatement` | volunteer-build-reviewed |
+| M030705 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendChainMapAlongQuasiIsoKInjective` | wave-reused |
+| M030706 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendChainMapAlongQuasiIsoKInjectiveStatement` | wave-reused |
+| M030713 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendLinearIndependentDifferentials` | volunteer-build-reviewed |
+| M030719 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendScalarsUliftHomAdditive` | wave-reused |
+| M030732 | P0977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtensionAcrossHypersurfaceValuesAtZeros` | wave-reused |
+| M030733 | P1004 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtensionAcrossHypersurfaceValuesAtZerosStatement` | wave-reused |
+| M030750 | P0893 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExteriorDerivGlobalOneFormEqSumWedge` | build-observed |
 | M030751 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExteriorDerivGlobalOneFormEqSumWedgeStatement` | build-observed |
 | M030752 | P0867 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExteriorDerivSumWedgeSemilinearPullback` | build-observed |
 | M030753 | P0893 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExteriorDerivSumWedgeSemilinearPullbackStatement` | build-observed |
@@ -389,16 +402,3 @@
 | M033502 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenRankPushforwardAmpleTwist` | volunteer-build-reviewed |
 | M033506 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenVar` | volunteer-build-reviewed |
 | M033507 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeneralLinearGroupDetMapFinOne` | wave-reused |
-| M033515 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeneratedSectionsMetricLowerBoundStatement` | volunteer-build-reviewed |
-| M033526 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeneratorMinpolyEigenvalueCompat` | volunteer-build-reviewed |
-| M033559 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericFibreBaseChangeInjective` | wave-reused |
-| M033562 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericFibreClosedSubvariety` | volunteer-build-reviewed |
-| M033563 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericFibreClosedSubvarietyStatement` | volunteer-build-reviewed |
-| M033564 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericFibreCompatibility` | wave-reused |
-| M033589 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericFibrePointsBaseChange` | wave-reused |
-| M033614 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericGlLocalComponentExponentLeOne` | volunteer-build-reviewed |
-| M033616 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericIntersectionEqualsPointsIntegral` | volunteer-build-reviewed |
-| M033642 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericMemberSectionNeZeroIsPrimeAffineChart` | volunteer-build-reviewed |
-| M033644 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericMultOneDimOf` | build-observed |
-| M033647 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericPairSpecializesDiagonalGenericPoint` | volunteer-build-reviewed |
-| M033659 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericPointMorphismFactorization` | volunteer-build-reviewed |

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M172326"
+  ],
+  "started_utc": "2026-11-20T23:52:08.799753+00:00",
+  "ended_utc": "2026-11-20T23:52:21.169487+00:00",
+  "elapsed_seconds": 12.4,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 62308664,
+    "peak_child_rss_kib": 7283656
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovGeometry.SectionModuleEqSpanPow:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "21fecc30f453a0e0369d79c467645c41616dee8d4accd3f27ae0abed85b2911b",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovGeometry.ProjDefs",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.IsSemipositiveOn"
+  ],
+  "objects": {
+    "M172326": "8c1155c5410a7116b7bfa259d08f7644168a3c3f42e75c454a18b39512577df2"
+  },
+  "bundle_sha256": "9068838ce26b14cde042976fcbb25c713b696ad486fcc3342614d6bd5d667547",
+  "packet": "M172326",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6971#issuecomment-7053565415",
+  "reviewed_utc": "2026-11-20T23:56:38.123106+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

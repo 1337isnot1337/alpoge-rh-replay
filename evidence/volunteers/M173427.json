@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M173427"
+  ],
+  "started_utc": "2026-11-20T23:52:16.959807+00:00",
+  "ended_utc": "2026-11-20T23:52:27.781007+00:00",
+  "elapsed_seconds": 10.8,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 23809704,
+    "peak_child_rss_kib": 6896208
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.PullbackSections.HolomorphicFamilies.PadicValNatAbsNormEqZero:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a6f0f0a905ecfd488098485f861790a0d70651fa4b0a70c656633719287b52e1",
+  "rebuilt_project_modules": [
+    "Lemmata.FirstBlockLemmaL.Imports",
+    "Lemmata.MiscLemmasK.Imports",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.PullbackSections.DiffAtOddSt"
+  ],
+  "objects": {
+    "M173427": "6f61798eecec2dd01ff6c5cc7f501fb7f6f2ade7e67584e74fcc184c5c076c18"
+  },
+  "bundle_sha256": "d533cf3546d9ce431b00af83e5bc52967825aa5b686a3fd26c08a3f57abbd181",
+  "packet": "M173427",
+  "contributor": "matan1905",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6974#issuecomment-7053569973",
+  "reviewed_utc": "2026-11-20T23:56:36.805750+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

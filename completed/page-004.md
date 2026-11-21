@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M003128 | P1001 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExpoConjOfIsCsd` | build-observed |
+| M003134 | P1501 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FinTypRepCast` | volunteer-build-reviewed |
+| M003135 | P0838 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FiniteDimensionalLetter` | wave-reused |
 | M003136 | P0865 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FiniteDimensionalWdSpace` | wave-reused |
 | M003142 | P1028 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FixedCoefficientFieldInComplex` | build-observed |
 | M003147 | P1472 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FormalTwistingNeTrivial` | volunteer-build-reviewed |
@@ -204,6 +207,7 @@
 | M003864 | P0974 | `Development.AbelianVarietyTheory.Definitions.Divisors.PrimitiveCrystalHodgeLiftClasses` | wave-reused |
 | M003865 | P1029 | `Development.AbelianVarietyTheory.Definitions.Divisors.PrimitiveStructureSheafDegTwoVanish` | wave-reused |
 | M003866 | P0784 | `Development.AbelianVarietyTheory.Definitions.Divisors.PrismaticDieudonnePerfdIff` | wave-reused |
+| M003867 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.ProdFam` | volunteer-build-reviewed |
 | M003868 | P1114 | `Development.AbelianVarietyTheory.Definitions.Divisors.ProjectiveNotIsUnit` | volunteer-build-reviewed |
 | M003871 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.PullHlComp` | wave-reused |
 | M003872 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.Pullback1MemHodgeFiltration` | wave-reused |
@@ -398,7 +402,3 @@
 | M004435 | P1193 | `Development.AbelianVarietyTheory.Definitions.Jets.EmbShortThLeThetaPlain` | build-observed |
 | M004437 | P1298 | `Development.AbelianVarietyTheory.Definitions.Jets.ExistsSecTieFOfTies` | build-observed |
 | M004439 | P0003 | `Development.AbelianVarietyTheory.Definitions.Jets.Imports` | volunteer-build-reviewed |
-| M004442 | P1245 | `Development.AbelianVarietyTheory.Definitions.Jets.IsSelfOf` | build-observed |
-| M004443 | P0865 | `Development.AbelianVarietyTheory.Definitions.Jets.JetsOnCopiesCompatibleFrames` | build-observed |
-| M004445 | P0003 | `Development.AbelianVarietyTheory.Definitions.Jets.PowerSeriesHasSumAt` | volunteer-build-reviewed |
-| M004446 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.SameFns` | build-observed |

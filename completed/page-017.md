@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M027683 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroClosureEtaleAt` | wave-reused |
+| M027684 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroClosureEtaleAtStatement` | wave-reused |
+| M027690 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroConjNegOfCmExtensionStatement` | volunteer-build-reviewed |
+| M027691 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroForallComplexPointExtend` | wave-reused |
+| M027702 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroOfRankEq` | volunteer-build-reviewed |
+| M027703 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroOfTwOrbNeZero` | volunteer-build-reviewed |
+| M027709 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroSmulMem` | volunteer-build-reviewed |
+| M027710 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroSmulMemOfMemSpan` | volunteer-build-reviewed |
+| M027711 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroSmulMemSpan` | volunteer-build-reviewed |
+| M027726 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNhdsFixOfContinuousCoefficients` | volunteer-build-reviewed |
+| M027727 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNhdsFixOfContinuousCoefficientsStatement` | volunteer-build-reviewed |
 | M027734 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNoetherCoordinatesSInfRootsOfUnityEqBot` | volunteer-build-reviewed |
 | M027737 | P0733 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNoetherianModelOfDivisorOfConstants` | wave-reused |
 | M027741 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNoetherianNormalLocalApprox` | wave-reused |
@@ -99,6 +110,7 @@
 | M028376 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPowSubMemSpanOfIsUnitModOfIsAlgClosed` | volunteer-build-reviewed |
 | M028377 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPowSubMemSpanOfIsUnitModOfIsAlgClosedStatement` | volunteer-build-reviewed |
 | M028385 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPowerSeriesOfNoPoleAwayUniformizerX` | volunteer-build-reviewed |
+| M028396 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPresentationMatrixOfProjectiveBaseChange` | volunteer-build-reviewed |
 | M028397 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPresentationMatrixOfProjectiveBaseChangeStatement` | volunteer-build-reviewed |
 | M028398 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPresentationSquareAtPointOfLocalFactor` | volunteer-build-reviewed |
 | M028399 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPresentationSquareAtPointOfLocalFactorStatement` | volunteer-build-reviewed |
@@ -338,6 +350,7 @@
 | M030268 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnitDenominatorIntegral` | volunteer-build-reviewed |
 | M030270 | P0298 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnitDescentCocycleDescendedSubmoduleEq` | wave-reused |
 | M030271 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnitDescentCocycleDescendedSubmoduleEqStatement` | wave-reused |
+| M030278 | P0105 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnitFormLocalizationEtaleNbhd` | volunteer-build-reviewed |
 | M030284 | P1032 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnitKummerEqOfPicardTorsionFree` | wave-reused |
 | M030285 | P1059 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnitKummerEqOfPicardTorsionFreeStatement` | wave-reused |
 | M030286 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnitLength` | volunteer-build-reviewed |
@@ -389,16 +402,3 @@
 | M030681 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtMapApply` | volunteer-build-reviewed |
 | M030682 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtMapComp` | volunteer-build-reviewed |
 | M030688 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtTraceNonnegOfPosFrame` | volunteer-build-reviewed |
-| M030690 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtTraceSubmatrixSumMap` | volunteer-build-reviewed |
-| M030691 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtTraceWedgeSelfEqZero` | volunteer-build-reviewed |
-| M030695 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendAlgHomAdjoinIntegralRoot` | volunteer-build-reviewed |
-| M030697 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendAndMean` | volunteer-build-reviewed |
-| M030700 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendByZeroOnSubsetApplyCoe` | wave-reused |
-| M030702 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendByZeroRestrictionNonzeroContinuousStatement` | volunteer-build-reviewed |
-| M030705 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendChainMapAlongQuasiIsoKInjective` | wave-reused |
-| M030706 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendChainMapAlongQuasiIsoKInjectiveStatement` | wave-reused |
-| M030713 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendLinearIndependentDifferentials` | volunteer-build-reviewed |
-| M030719 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtendScalarsUliftHomAdditive` | wave-reused |
-| M030732 | P0977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtensionAcrossHypersurfaceValuesAtZeros` | wave-reused |
-| M030733 | P1004 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtensionAcrossHypersurfaceValuesAtZerosStatement` | wave-reused |
-| M030750 | P0893 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExteriorDerivGlobalOneFormEqSumWedge` | build-observed |

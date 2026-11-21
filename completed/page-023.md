@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M044774 | P0786 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OToSAlgebraMap` | build-observed |
+| M044788 | P0399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OfEtaleCohomologyEquivalenceDiagram` | wave-reused |
+| M044789 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OfEtaleCohomologyEquivalenceDiagramStatement` | wave-reused |
+| M044812 | P1768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OffPartLe` | volunteer-build-reviewed |
+| M044815 | P1005 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OmEFormAndDegree` | build-observed |
+| M044817 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OmegaBaseChangeBijectiveOfPEqZero` | wave-reused |
+| M044818 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OmegaBaseChangeBijectiveOfPEqZeroStatement` | wave-reused |
+| M044860 | P1277 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OnMatInfOfIsUnit` | build-observed |
+| M044863 | P1768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OneAddNormPowLeSumLinearFormPow` | volunteer-build-reviewed |
+| M044864 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OneAddNormPowLeSumLinearFormPowStatement` | volunteer-build-reviewed |
+| M044870 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OneCocycleCoboundaryCommaLocalBasis` | wave-reused |
+| M044871 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OneCocycleInvertibleLocusIsCoboundary` | wave-reused |
+| M044872 | P0651 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OneCocycleInvertibleLocusIsCoboundaryStatement` | wave-reused |
+| M044873 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OneCocycleUpwardFamilyIsCoboundary` | wave-reused |
+| M044874 | P0651 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OneCocycleUpwardFamilyIsCoboundaryStatement` | wave-reused |
+| M044888 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OneFormsTwoCocycleCoboundaryOfRestrict` | wave-reused |
+| M044889 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OneFormsTwoCocycleCoboundaryOfRestrictStatement` | wave-reused |
+| M044894 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OneLeNormMulPowIdeal` | volunteer-build-reviewed |
+| M044914 | P1768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OneMemFinPt` | volunteer-build-reviewed |
+| M044916 | P1450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OneMemKAtAlt` | volunteer-build-reviewed |
+| M044923 | P1768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OneParameterSkewHermitian` | volunteer-build-reviewed |
 | M044924 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OneParameterSkewHermitianStatement` | volunteer-build-reviewed |
 | M044933 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OneSubProdLeSumOfLe` | volunteer-build-reviewed |
 | M044936 | P1277 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.OneVectorOfMultiplicityOne` | build-observed |
@@ -104,6 +125,7 @@
 | M045593 | P2020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodChartSectionTrivialisationStatement` | volunteer-build-reviewed |
 | M045631 | P0247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodMapFlatDerivative` | volunteer-build-reviewed |
 | M045633 | P0399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodMapMoebiusDenomUnit` | volunteer-build-reviewed |
+| M045634 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodMapMoebiusDenomUnitStatement` | volunteer-build-reviewed |
 | M045639 | P0247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodMapSymplecticTransform` | volunteer-build-reviewed |
 | M045658 | P0247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodTorusFlatCoordsInverse` | volunteer-build-reviewed |
 | M045670 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicCompactSupportFiniteSum` | volunteer-build-reviewed |
@@ -380,25 +402,3 @@
 | M047329 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.QuotientBundleCurvatureFormula` | volunteer-build-reviewed |
 | M047330 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.QuotientBundleCurvatureFormulaStatement` | volunteer-build-reviewed |
 | M047332 | P1450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.QuotientBundleFrameExistsStatement` | volunteer-build-reviewed |
-| M047335 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.QuotientFlatOfCompletionFlat` | volunteer-build-reviewed |
-| M047337 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.QuotientHaarMeasureNormal` | volunteer-build-reviewed |
-| M047339 | P1450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.QuotientHeightLowerBoundShortIsotropicVector` | volunteer-build-reviewed |
-| M047341 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.QuotientIntegralEquivariantComplex` | volunteer-build-reviewed |
-| M047342 | P0113 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.QuotientIntegralEquivariantComplexStatement` | volunteer-build-reviewed |
-| M047343 | P0922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.QuotientJetsFderivDetNeZero` | wave-reused |
-| M047344 | P0951 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.QuotientJetsFderivDetNeZeroStatement` | wave-reused |
-| M047352 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.QuotientMeasureFubiniLocallyCompactStatement` | volunteer-build-reviewed |
-| M047366 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.QuotientRetractPiQuotientOfSummand` | volunteer-build-reviewed |
-| M047367 | P0113 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.QuotientRetractPiQuotientOfSummandStatement` | volunteer-build-reviewed |
-| M047375 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RTensorInjectiveOfPowSmulEqBot` | volunteer-build-reviewed |
-| M047378 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RadicalEltMovingDualToMajorant` | volunteer-build-reviewed |
-| M047379 | P0113 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RadicalEltMovingDualToMajorantStatement` | volunteer-build-reviewed |
-| M047383 | P1450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RaisingSpanEqSpanWordsStatement` | volunteer-build-reviewed |
-| M047385 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RaisingWordSpanStableOfLoweringKillStatement` | volunteer-build-reviewed |
-| M047391 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RamificationIdxDvdOfGaloisDegreeDvdUnitDvr` | volunteer-build-reviewed |
-| M047392 | P0113 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RamificationIdxDvdOfGaloisDegreeDvdUnitDvrStatement` | volunteer-build-reviewed |
-| M047394 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RamificationIndexValuationCompatStatement` | volunteer-build-reviewed |
-| M047395 | P0020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RamificationLeCardOfSpan` | volunteer-build-reviewed |
-| M047396 | P0113 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RamificationLeCardOfSpanStatement` | volunteer-build-reviewed |
-| M047399 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RamificationWeightedLogNormSumStatement` | volunteer-build-reviewed |
-| M047407 | P1768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RangeAdjointCompositeLiftLeSpanBlockEigenspaces` | volunteer-build-reviewed |

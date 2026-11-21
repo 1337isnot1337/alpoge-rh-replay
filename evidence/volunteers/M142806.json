@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M142806"
+  ],
+  "started_utc": "2026-11-20T23:52:01.693252+00:00",
+  "ended_utc": "2026-11-20T23:52:20.636617+00:00",
+  "elapsed_seconds": 18.9,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6767748
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.PolynomialDerivatives.NullStableAlt:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9cd28fc0b1862dedfa23e574fae4cba187d0cea69c9dfd910dbec8af8af79b5b",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.IsSingTest",
+    "Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.NullSec",
+    "Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.PolynomialDerivatives.FockMono"
+  ],
+  "objects": {
+    "M142806": "6c68b15e64d51e8756cbab1be1f864742439021b9ec768e28873bc877404f39b"
+  },
+  "bundle_sha256": "5393317d91b463ef2d0602062d372152c7c631e3a7b51e39f19a763915151ed2",
+  "packet": "M142806",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6968#issuecomment-7053564952",
+  "reviewed_utc": "2026-11-20T23:56:38.111664+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M033515 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeneratedSectionsMetricLowerBoundStatement` | volunteer-build-reviewed |
+| M033526 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeneratorMinpolyEigenvalueCompat` | volunteer-build-reviewed |
+| M033559 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericFibreBaseChangeInjective` | wave-reused |
+| M033562 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericFibreClosedSubvariety` | volunteer-build-reviewed |
+| M033563 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericFibreClosedSubvarietyStatement` | volunteer-build-reviewed |
+| M033564 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericFibreCompatibility` | wave-reused |
+| M033589 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericFibrePointsBaseChange` | wave-reused |
+| M033614 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericGlLocalComponentExponentLeOne` | volunteer-build-reviewed |
+| M033616 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericIntersectionEqualsPointsIntegral` | volunteer-build-reviewed |
+| M033642 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericMemberSectionNeZeroIsPrimeAffineChart` | volunteer-build-reviewed |
+| M033644 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericMultOneDimOf` | build-observed |
+| M033647 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericPairSpecializesDiagonalGenericPoint` | volunteer-build-reviewed |
+| M033659 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericPointMorphismFactorization` | volunteer-build-reviewed |
 | M033660 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericPointMorphismFactorizationStatement` | volunteer-build-reviewed |
 | M033661 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericPointNormalCoords` | wave-reused |
 | M033665 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericPointPreimageGenericStatement` | volunteer-build-reviewed |
@@ -332,6 +345,7 @@
 | M036394 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImageCochainExists` | wave-reused |
 | M036410 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsAlt` | volunteer-build-reviewed |
 | M036413 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsBisLast` | volunteer-build-reviewed |
+| M036414 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsBisRest` | volunteer-build-reviewed |
 | M036415 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsBisSide` | volunteer-build-reviewed |
 | M036416 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsBisTail` | volunteer-build-reviewed |
 | M036417 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsExtraAlt` | volunteer-build-reviewed |
@@ -366,6 +380,7 @@
 | M036482 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsTerLast` | volunteer-build-reviewed |
 | M036483 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsTerMore` | volunteer-build-reviewed |
 | M036486 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsTerTail` | volunteer-build-reviewed |
+| M036498 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndEtaleIncomparability` | volunteer-build-reviewed |
 | M036499 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndEtaleIsDomainIsIntegrallyClosed` | volunteer-build-reviewed |
 | M036500 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndEtaleLocalizedPiecesTrans` | wave-reused |
 | M036501 | P0552 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndEtaleLocalizedPiecesTransStatement` | wave-reused |
@@ -387,18 +402,3 @@
 | M036704 | P1327 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InertiaFixesComplexFibrePureEndomorphismTorsion` | build-observed |
 | M036705 | P1353 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InertiaFixesComplexFibrePureEndomorphismTorsionStatement` | build-observed |
 | M036721 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InfSupPowEqOfTorsionArtinReesStatement` | volunteer-build-reviewed |
-| M036746 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InfinitesimalCharacterQuantumDet` | volunteer-build-reviewed |
-| M036753 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InjectiveAndSaturatedOfInjectiveModRegular` | volunteer-build-reviewed |
-| M036754 | P0245 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InjectiveAndSaturatedOfInjectiveModRegularStatement` | wave-reused |
-| M036759 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InjectiveCotangentComplexBaseChangeOfFormsExtend` | volunteer-build-reviewed |
-| M036760 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InjectiveCotangentComplexBaseChangeOfFormsExtendStatement` | volunteer-build-reviewed |
-| M036761 | P0552 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InjectiveEtaleSheafOfLinearMapsFromModule` | wave-reused |
-| M036762 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InjectiveEtaleSheafOfLinearMapsFromModuleStatement` | wave-reused |
-| M036763 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InjectiveEtaleSheafRetractOfCoinduced` | wave-reused |
-| M036764 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InjectiveEtaleSheafRetractOfCoinducedStatement` | wave-reused |
-| M036769 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InjectiveIntoLineSpanEqSmulSpan` | volunteer-build-reviewed |
-| M036772 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InjectiveMulVecMapBasis` | volunteer-build-reviewed |
-| M036781 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InjectiveOfMapPderivEqAndMapOneNeZero` | volunteer-build-reviewed |
-| M036799 | P1478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InnerThetaFunctionsReadingTestFunctionFrames` | volunteer-build-reviewed |
-| M036800 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InnerThetaFunctionsReadingTestFunctionFramesStatement` | volunteer-build-reviewed |
-| M036807 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InstPreorder` | wave-reused |

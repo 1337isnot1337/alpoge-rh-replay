@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M100635"
+  ],
+  "started_utc": "2026-11-20T23:51:56.299203+00:00",
+  "ended_utc": "2026-11-20T23:52:15.272376+00:00",
+  "elapsed_seconds": 19.0,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 23809704,
+    "peak_child_rss_kib": 6843396
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms\u2082.ExplChi:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a5f00caedf94204efbc6b3e31f1d364da22ffe12f99704547a2b07f4eade9ca3",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.RayPrimes",
+    "Formalism.GL3MeanSquares.PrimeCountAsymptoticInProgressions",
+    "Formalism.GL3MeanSquares.SmoothedRemainderRealIntegralFormula",
+    "Formalism.LandauZeroFreeBounds.Statement"
+  ],
+  "objects": {
+    "M100635": "8626234bd2757a18f9a809d894745aa01d4a1c90cbca1c41026036681e22f337"
+  },
+  "bundle_sha256": "27a3026dc0147b3288d1bc736980fdb2e48ffc47e0cba0f96e0bcfc2efbbef74",
+  "packet": "M100635",
+  "contributor": "matan1905",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6961#issuecomment-7053564179",
+  "reviewed_utc": "2026-11-20T23:56:39.894231+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

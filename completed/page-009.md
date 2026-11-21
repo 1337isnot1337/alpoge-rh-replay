@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M008950 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsTwistIndexRepresentativeOfBounds` | volunteer-build-reviewed |
+| M008961 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUniqueCompletionMatrixOfRationalTwistAut` | volunteer-build-reviewed |
+| M008963 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUniqueSphericalDoublingSectionUnramified` | volunteer-build-reviewed |
+| M008974 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUnitaryEmbeddingPreimageOfFixesAnisotropicStatement` | volunteer-build-reviewed |
+| M008980 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUnitaryIsometryIsotropicFrameLocalRingStatement` | volunteer-build-reviewed |
 | M008995 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsWeilDatumHermitianSpaceDoubledStatement` | volunteer-build-reviewed |
 | M008999 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsWeilSourceActionAndSmoothStatement` | volunteer-build-reviewed |
 | M009000 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsZsmulMemLattice` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M011740 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainCuspSpaceFiniteDimOfHarishChandra` | volunteer-build-reviewed |
 | M011745 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainHeckeParamAddSmulOfAgreeOffSetStatement` | volunteer-build-reviewed |
 | M011763 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStageConjugateValuesHeckeOperatorsStatement` | volunteer-build-reviewed |
-| M011765 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStageCuspFormMapEqZeroOfValueZeroStatement` | volunteer-build-reviewed |
-| M011769 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStageLatticeStabilizerParamsOffSetStatement` | volunteer-build-reviewed |
-| M011771 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStageLevelSphericalOffSetStatement` | volunteer-build-reviewed |
-| M011778 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStepCharsUnramifiedOffS` | volunteer-build-reviewed |
-| M011781 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaChainStepFiniteDatumIsSchwartzBruhatHalfStatement` | volunteer-build-reviewed |

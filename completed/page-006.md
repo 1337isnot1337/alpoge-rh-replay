@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005342 | P1218 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.UniformisationLawsOfBaseChangeLaws` | wave-reused |
+| M005343 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.UniqueFactorizationMonoidOfIsRegularRingOfIsLoca` | wave-reused |
+| M005344 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.UnramExtLaw` | wave-reused |
+| M005345 | P1057 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.VeryAmpleByOfRelAmple` | wave-reused |
 | M005346 | P0784 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.WeilIsAlternatingSkewNatural` | wave-reused |
 | M005347 | P0839 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.WeilIsIffCommIsOfAndLiftSubsingleton` | wave-reused |
 | M005348 | P0839 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.WeilIsValueEq` | wave-reused |
@@ -398,7 +402,3 @@
 | M006130 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MonicFactorizationConvolutionFiniteCommAssocAddStatement` | wave-reused |
 | M006131 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MultisetPowerSumNewtonIdentity` | wave-reused |
 | M006132 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormEightOfFourierVanishingOrderFifteen` | build-observed |
-| M006133 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormEightOfFourierVanishingOrderFifteenStatement` | build-observed |
-| M006134 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormTwelveOrderSixtythree` | build-observed |
-| M006135 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormTwelveOrderSixtythreeStatement` | build-observed |
-| M006136 | P0839 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemClosureInducedCentralByPrimePower` | wave-reused |

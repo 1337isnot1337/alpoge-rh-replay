@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M024880 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrOfDimOne` | volunteer-build-reviewed |
+| M024897 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEffectiveCartierDivisorAddEffectiveStatement` | volunteer-build-reviewed |
+| M024941 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEllipticReproducingTestFunctionLaplacian` | volunteer-build-reviewed |
+| M024942 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEllipticReproducingTestFunctionLaplacianStatement` | volunteer-build-reviewed |
+| M024949 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEmbeddingBijectiveLocalizedModuleMapOfRank` | volunteer-build-reviewed |
+| M024950 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEmbeddingBijectiveLocalizedModuleMapOfRankStatement` | volunteer-build-reviewed |
+| M024964 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEntireLatticeSumOfHeckeLContinuation` | build-observed |
+| M024967 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEqAlgebraMapOfIntegralAtHeightOnePrimes` | volunteer-build-reviewed |
+| M024969 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEqDiscriminantPowMulEvalJInvariant` | wave-reused |
 | M024970 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEqDiscriminantPowMulEvalJInvariantStatement` | build-observed |
 | M024971 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEqFlagPtOfIsLocalRing` | volunteer-build-reviewed |
 | M024974 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEqMulMatIntOrbO` | volunteer-build-reviewed |
@@ -35,6 +44,7 @@
 | M025065 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEvalRegularFunctionsAtFieldPoint` | volunteer-build-reviewed |
 | M025066 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEvalRegularFunctionsAtFieldPointStatement` | volunteer-build-reviewed |
 | M025067 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEvaluationExtensionClosureRepresentatives` | volunteer-build-reviewed |
+| M025072 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEvenCubicUnitMultipleFractionRing` | volunteer-build-reviewed |
 | M025073 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEvenCubicUnitMultipleFractionRingStatement` | volunteer-build-reviewed |
 | M025090 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsExcisionNbhdAdjoinRoot` | volunteer-build-reviewed |
 | M025091 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsExcisionNbhdAdjoinRootStatement` | volunteer-build-reviewed |
@@ -101,6 +111,7 @@
 | M025574 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFormOfFunctional` | build-observed |
 | M025585 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFormalGroupLawLogWithLinearPart` | wave-reused |
 | M025586 | P1172 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFormalGroupLawLogWithLinearPartStatement` | wave-reused |
+| M025595 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFourierStableGaussianSubmodule` | volunteer-build-reviewed |
 | M025596 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFourierStableGaussianSubmoduleStatement` | volunteer-build-reviewed |
 | M025611 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFractionalIdealLatticeLineCoefficientsStatement` | volunteer-build-reviewed |
 | M025612 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFractionalIdealSmulMemLattice` | volunteer-build-reviewed |
@@ -391,14 +402,3 @@
 | M027678 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNaturalHomotopyEquivChainsConstantPresheafStatement` | wave-reused |
 | M027681 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroAlgebraMapEqMulOfFormallyUnramifiedA` | volunteer-build-reviewed |
 | M027682 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroAlgebraMapEqMulOfFormallyUnramifiedAStatement` | volunteer-build-reviewed |
-| M027683 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroClosureEtaleAt` | wave-reused |
-| M027684 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroClosureEtaleAtStatement` | wave-reused |
-| M027690 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroConjNegOfCmExtensionStatement` | volunteer-build-reviewed |
-| M027691 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroForallComplexPointExtend` | wave-reused |
-| M027702 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroOfRankEq` | volunteer-build-reviewed |
-| M027703 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroOfTwOrbNeZero` | volunteer-build-reviewed |
-| M027709 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroSmulMem` | volunteer-build-reviewed |
-| M027710 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroSmulMemOfMemSpan` | volunteer-build-reviewed |
-| M027711 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroSmulMemSpan` | volunteer-build-reviewed |
-| M027726 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNhdsFixOfContinuousCoefficients` | volunteer-build-reviewed |
-| M027727 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNhdsFixOfContinuousCoefficientsStatement` | volunteer-build-reviewed |

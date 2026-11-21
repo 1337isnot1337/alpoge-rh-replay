@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006790 | P0839 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsAbelianSchemeAndExtendOfGenericHoms` | wave-reused |
+| M006791 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsAbelianSchemeOfGenericallySurjective` | wave-reused |
+| M006792 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsAbelianSchemeSchemeOver` | wave-reused |
+| M006799 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsFibreOfIffIsPolFibre` | volunteer-build-reviewed |
+| M006800 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsIntegralDerivativeCurveHomGoodReduction` | build-observed |
 | M006801 | P1170 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsIntegralDerivativeCurveHomGoodReductionStatement` | build-observed |
 | M006803 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsIsoAppLEOfOpensRange` | build-observed |
 | M006806 | P1114 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsLieCombOneIffComp` | wave-reused |
@@ -397,8 +402,3 @@
 | M008913 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSummableBoundSchwartzMajorantRationalTrans` | volunteer-build-reviewed |
 | M008934 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsTopologicalIsoParahoricChartSplitPlace` | volunteer-build-reviewed |
 | M008937 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsTraceZeroLocalNormMulIntegralUnitStatement` | volunteer-build-reviewed |
-| M008950 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsTwistIndexRepresentativeOfBounds` | volunteer-build-reviewed |
-| M008961 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUniqueCompletionMatrixOfRationalTwistAut` | volunteer-build-reviewed |
-| M008963 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUniqueSphericalDoublingSectionUnramified` | volunteer-build-reviewed |
-| M008974 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUnitaryEmbeddingPreimageOfFixesAnisotropicStatement` | volunteer-build-reviewed |
-| M008980 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsUnitaryIsometryIsotropicFrameLocalRingStatement` | volunteer-build-reviewed |

@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M022755 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyBijectiveOfSupportBijectiveStatement` | wave-reused |
+| M022756 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyCoefficientLongExactSequence` | wave-reused |
+| M022757 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyCoefficientLongExactSequenceStatement` | wave-reused |
+| M022758 | P0785 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyCoefficientRingInvariance` | wave-reused |
+| M022759 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyCoefficientRingInvarianceStatement` | wave-reused |
+| M022760 | P0733 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyEquivOfLocallyConstantBijective` | build-observed |
+| M022761 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyEquivOfLocallyConstantBijectiveStatement` | build-observed |
+| M022764 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyEquivalenceBaseChangeCechAugmenta` | build-observed |
 | M022765 | P0785 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyEquivalenceBaseChangeCechAugmentaStatement` | build-observed |
 | M022766 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyEquivalenceBasicProperties` | wave-reused |
 | M022767 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCohomologyEquivalenceBasicPropertiesStatement` | wave-reused |
@@ -192,6 +200,7 @@
 | M023243 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAbelianEndomorphismSpreadSpecialiseStatement` | volunteer-build-reviewed |
 | M023275 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAdaptedBasisWittFrame` | volunteer-build-reviewed |
 | M023338 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAdjoinEqTopPadicInt` | wave-reused |
+| M023353 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAdmissibleLagrangianTransverseField` | volunteer-build-reviewed |
 | M023354 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAdmissibleLagrangianTransverseFieldStatement` | volunteer-build-reviewed |
 | M023382 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineEtaleCoordinatesGenericPoint` | volunteer-build-reviewed |
 | M023385 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineEtaleFiniteFreeNbhdStatement` | volunteer-build-reviewed |
@@ -393,12 +402,3 @@
 | M024858 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvdCoordsOfDefiniteParallelogramFormStatement` | volunteer-build-reviewed |
 | M024859 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvdMulPowEtaleNbhdZeroLocus` | volunteer-build-reviewed |
 | M024870 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrExtensionOfEssentiallyEtaleLocal` | volunteer-build-reviewed |
-| M024880 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrOfDimOne` | volunteer-build-reviewed |
-| M024897 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEffectiveCartierDivisorAddEffectiveStatement` | volunteer-build-reviewed |
-| M024941 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEllipticReproducingTestFunctionLaplacian` | volunteer-build-reviewed |
-| M024942 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEllipticReproducingTestFunctionLaplacianStatement` | volunteer-build-reviewed |
-| M024949 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEmbeddingBijectiveLocalizedModuleMapOfRank` | volunteer-build-reviewed |
-| M024950 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEmbeddingBijectiveLocalizedModuleMapOfRankStatement` | volunteer-build-reviewed |
-| M024964 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEntireLatticeSumOfHeckeLContinuation` | build-observed |
-| M024967 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEqAlgebraMapOfIntegralAtHeightOnePrimes` | volunteer-build-reviewed |
-| M024969 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEqDiscriminantPowMulEvalJInvariant` | wave-reused |

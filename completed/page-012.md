@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M014170 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.VFEqGenValMul` | build-observed |
+| M014171 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ValIso` | build-observed |
+| M014172 | P1275 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ValIsoChart` | build-observed |
+| M014174 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ValUnitNeZero` | volunteer-build-reviewed |
+| M014175 | P1059 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ValuationEqPolarFormOfWeightZeroMax` | wave-reused |
+| M014176 | P1086 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ValuationEqPolarFormOfWeightZeroMaxStatement` | wave-reused |
+| M014179 | P1059 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ValuationsTorusExtensionPoints` | build-observed |
+| M014185 | P0679 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.VanishingIdealConePrimeHomogeneous` | wave-reused |
 | M014186 | P0706 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.VanishingIdealConePrimeHomogeneousStatement` | wave-reused |
 | M014195 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.WeightSumDivThetaConstDotProductMemStatement` | volunteer-build-reviewed |
 | M014198 | P1221 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.WeightedProjectiveChartsSplitGenericPoint` | build-observed |
@@ -394,11 +402,3 @@
 | M017268 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentralizerScalarPadicBounded` | volunteer-build-reviewed |
 | M017275 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentreCompat` | volunteer-build-reviewed |
 | M017282 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentredBlockSumBounds` | build-observed |
-| M017297 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChSingle` | volunteer-build-reviewed |
-| M017303 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainBoundedAndSupProper` | volunteer-build-reviewed |
-| M017335 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsBasic` | wave-reused |
-| M017336 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsBasicStatement` | wave-reused |
-| M017337 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsCechNerveQuasiIsoOfSmoothSurjective` | wave-reused |
-| M017338 | P0706 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsCechNerveQuasiIsoOfSmoothSurjectiveStatement` | wave-reused |
-| M017339 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsCechNerveQuasiIsoOfSurjective` | wave-reused |
-| M017340 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChainsCechNerveQuasiIsoOfSurjectiveStatement` | wave-reused |

@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004442 | P1245 | `Development.AbelianVarietyTheory.Definitions.Jets.IsSelfOf` | build-observed |
+| M004443 | P0865 | `Development.AbelianVarietyTheory.Definitions.Jets.JetsOnCopiesCompatibleFrames` | build-observed |
+| M004445 | P0003 | `Development.AbelianVarietyTheory.Definitions.Jets.PowerSeriesHasSumAt` | volunteer-build-reviewed |
+| M004446 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.SameFns` | build-observed |
 | M004447 | P0758 | `Development.AbelianVarietyTheory.Definitions.Jets.SideFam` | wave-reused |
 | M004448 | P0295 | `Development.AbelianVarietyTheory.Definitions.Jets.SumIoPr` | wave-reused |
 | M004449 | P0705 | `Development.AbelianVarietyTheory.Definitions.Jets.SumIoPrAlt` | wave-reused |
@@ -398,7 +402,3 @@
 | M005339 | P0648 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.TrivBasicOpenOfTrivFibre` | wave-reused |
 | M005340 | P0811 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.TrivPullCompIff` | wave-reused |
 | M005341 | P0784 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.TwistedPowTranslate` | wave-reused |
-| M005342 | P1218 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.UniformisationLawsOfBaseChangeLaws` | wave-reused |
-| M005343 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.UniqueFactorizationMonoidOfIsRegularRingOfIsLoca` | wave-reused |
-| M005344 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.UnramExtLaw` | wave-reused |
-| M005345 | P1057 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.VeryAmpleByOfRelAmple` | wave-reused |

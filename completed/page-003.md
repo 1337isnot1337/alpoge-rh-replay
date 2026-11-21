@@ -238,6 +238,7 @@
 | M002482 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.TwistedGLEmbedding` | volunteer-build-reviewed |
 | M002489 | P0515 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.CurvatureFamilyNorm` | wave-reused |
 | M002492 | P0435 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.FormalGroupTorsionCharts` | build-observed |
+| M002498 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.RealPointModes` | volunteer-build-reviewed |
 | M002499 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.SmallUnipotentElements` | volunteer-build-reviewed |
 | M002500 | P0549 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.SpanSubtraction` | wave-reused |
 | M002504 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.UnitriangularCharts` | wave-reused |
@@ -329,8 +330,10 @@
 | M002894 | P1169 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.OrthonormalBaseFrameNeg` | build-observed |
 | M002899 | P0002 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.RightInvariantOfCovolume` | volunteer-build-reviewed |
 | M002915 | P0758 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.HeckeKerZero` | build-observed |
+| M002916 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.IsQProjOverOfIsProjOver` | build-observed |
 | M002932 | P0783 | `Development.AbelianVarietyTheory.Counterexamples.NonGaloisSurvey.MemTypeSubspaceIffUnipotentCharacter` | volunteer-build-reviewed |
 | M002941 | P0917 | `Development.AbelianVarietyTheory.Counterexamples.PlaceInjectivity.StandardDeterminantUnits` | build-observed |
+| M002958 | P0294 | `Development.AbelianVarietyTheory.Counterexamples.TransversalityLocal.FramePairFixatorUnitaryAndFixesFrame` | volunteer-build-reviewed |
 | M002961 | P1349 | `Development.AbelianVarietyTheory.Counterexamples.TwistSurvey.ConjModelCast` | build-observed |
 | M002974 | P0582 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.NonemptyAlgebra` | build-observed |
 | M002976 | P0393 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.ValOfKindIndep` | build-observed |
@@ -399,6 +402,3 @@
 | M003112 | P0945 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsPreDataDyadicFrame` | volunteer-build-reviewed |
 | M003115 | P1501 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsSameFOfDiv` | volunteer-build-reviewed |
 | M003120 | P1501 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsTangentOrigin` | volunteer-build-reviewed |
-| M003128 | P1001 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExpoConjOfIsCsd` | build-observed |
-| M003134 | P1501 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FinTypRepCast` | volunteer-build-reviewed |
-| M003135 | P0838 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FiniteDimensionalLetter` | wave-reused |

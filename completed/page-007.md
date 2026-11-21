@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006133 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormEightOfFourierVanishingOrderFifteenStatement` | build-observed |
+| M006134 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormTwelveOrderSixtythree` | build-observed |
+| M006135 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormTwelveOrderSixtythreeStatement` | build-observed |
+| M006136 | P0839 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemClosureInducedCentralByPrimePower` | wave-reused |
 | M006137 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemOfMulMemOfForallPrimeNotDvd` | wave-reused |
 | M006138 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemOfMulMemOfForallPrimeNotDvdStatement` | wave-reused |
 | M006139 | P0784 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemVirtualCharactersOfIntegralCombination` | wave-reused |
@@ -283,6 +287,7 @@
 | M006438 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FinrankMulDiscrRpowLeSumSqOfMemTraceDual` | wave-reused |
 | M006439 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FormalExpMulFormalExpNeg` | wave-reused |
 | M006440 | P0177 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FormalLogEqSumOfMultiplicativeParam` | wave-reused |
+| M006452 | P0177 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.HasSumLocallyUniformlyOnIteratedFDerivRiemannThe` | build-observed |
 | M006453 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegrableMonomialMulConjComplexGaussian` | volunteer-build-reviewed |
 | M006454 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegrableOnOfNormLeSumAbsLogAddLogLog` | volunteer-build-reviewed |
 | M006455 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegralConjInnerMulInnerOfIsEmptyEquiv` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M006772 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HomExtOfLocalRingPoints` | wave-reused |
 | M006778 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IntegersOfCmFieldConjStructureStatement` | volunteer-build-reviewed |
 | M006787 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IntegralTangentVectorCoordinates` | volunteer-build-reviewed |
-| M006790 | P0839 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsAbelianSchemeAndExtendOfGenericHoms` | wave-reused |
-| M006791 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsAbelianSchemeOfGenericallySurjective` | wave-reused |
-| M006792 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsAbelianSchemeSchemeOver` | wave-reused |
-| M006799 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsFibreOfIffIsPolFibre` | volunteer-build-reviewed |
-| M006800 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.IsIntegralDerivativeCurveHomGoodReduction` | build-observed |

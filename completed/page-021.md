@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M039190 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsUnitMpOmjExtIff` | wave-reused |
+| M039192 | P1478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsUnitNatCastFrameCoeffRingNotDvd` | volunteer-build-reviewed |
+| M039200 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsUnitOfUnitMulComulEqTmulSelf` | volunteer-build-reviewed |
+| M039204 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsUnitOneAddPiOMul` | volunteer-build-reviewed |
+| M039226 | P1478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsUnitaryTActStatement` | volunteer-build-reviewed |
+| M039228 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsVBAndClsDetOfShortExact` | volunteer-build-reviewed |
+| M039245 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsZModTorsorFiniteProjectiveBaseChange` | wave-reused |
+| M039246 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsZModTorsorFiniteProjectiveBaseChangeStatement` | volunteer-build-reviewed |
+| M039247 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsZModTorsorIff` | volunteer-build-reviewed |
+| M039248 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsZeroChains` | wave-reused |
+| M039250 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsZeroTensorOfDegreeZeroComplexes` | wave-reused |
+| M039251 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsZeroTensorOfDegreeZeroComplexesStatement` | wave-reused |
+| M039276 | P1924 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsogenyDegreeOfFibreRank` | volunteer-build-reviewed |
+| M039277 | P1924 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsogenyDegreeOfPointCount` | volunteer-build-reviewed |
+| M039294 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsolateMaximalAmongPrimesContainingEtale` | volunteer-build-reviewed |
+| M039308 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsometricPullDetDual` | volunteer-build-reviewed |
+| M039317 | P1478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsometryMatchingLatticesMatchesSphericalOpsStatement` | volunteer-build-reviewed |
 | M039330 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsotropicFlagStabilizerNotLowerWeight` | volunteer-build-reviewed |
 | M039355 | P1924 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsotropicPlaneConstantTermFormula` | volunteer-build-reviewed |
 | M039362 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsotropicPlaneRestrictedSkew` | volunteer-build-reviewed |
@@ -385,20 +402,3 @@
 | M042235 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogCardQuotSpanEqFinsumLogNormEmbeddings` | volunteer-build-reviewed |
 | M042275 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogDetGramAppendLeStatement` | volunteer-build-reviewed |
 | M042299 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogHeightBoundFromInequality` | volunteer-build-reviewed |
-| M042300 | P0110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogHeightBoundFromInequalityStatement` | volunteer-build-reviewed |
-| M042347 | P1694 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogNormIntegrablePoincare` | build-observed |
-| M042357 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogNormSqGradientIdentity` | volunteer-build-reviewed |
-| M042358 | P0110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogNormSqGradientIdentityStatement` | volunteer-build-reviewed |
-| M042359 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogNormSqHolomorphicDdcZero` | volunteer-build-reviewed |
-| M042362 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogNormSqHolomorphicPluriharmonicStatement` | volunteer-build-reviewed |
-| M042371 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogPowerSqrtLeCubeRoot` | volunteer-build-reviewed |
-| M042379 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogResidueChernBoundProjective` | volunteer-build-reviewed |
-| M042380 | P1620 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogResidueChernBoundProjectiveStatement` | build-observed |
-| M042391 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogSingularIntegrableDiscStatement` | volunteer-build-reviewed |
-| M042393 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogSizeBoundsClassNumberVolume` | volunteer-build-reviewed |
-| M042398 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogThetaWeightSizeLe` | volunteer-build-reviewed |
-| M042412 | P0352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogisticFactorMem` | volunteer-build-reviewed |
-| M042447 | P1924 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowRangeOfSteps` | volunteer-build-reviewed |
-| M042450 | P1924 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowRankFiltrationStep` | volunteer-build-reviewed |
-| M042456 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowerBoundAlongResidues` | volunteer-build-reviewed |
-| M042457 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowerBoundFromExactAsymptotic` | volunteer-build-reviewed |
