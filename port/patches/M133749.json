@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.HarmonicAnnulusMaximumPrinciple",
+  "source_sha256": "c1c0de75eb5f36452d279eb002bd4dde35c8ddf0878e241a4ddc820e77d57516",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0143-lean436-20261121/packet-result.json"
+}
