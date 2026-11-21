@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.TotalDegreeLinear",
+  "source_sha256": "5ccc47c5aa1fad390fd94a6b58219e2527c7f481ff65e8cb139a48532e348f74",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed `MvPolynomial.totalDegree_finsetSum` and `MvPolynomial.totalDegree_finsetProd` (were `totalDegree_finset_sum`, `totalDegree_finset_prod`). Proof bodies only."
+}

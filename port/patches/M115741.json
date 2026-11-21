@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SplittingFieldConstruction",
+  "source_sha256": "bdfb9261e01e940f46b19572ef30d7f24b800ea43e6e96c8da2848e9ac1d94ec",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Ideal.eq_bot_of_comap_eq_bot` now states its hypothesis with `Ideal.under`; unfold it before rewriting with `RingHom.comap_ker`. Proof body only."
+}

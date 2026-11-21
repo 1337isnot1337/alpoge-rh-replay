@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SumSupportEq",
+  "source_sha256": "9b360c273a89449180c5f9adeb81ce1c5cac03de039dfdb9d6b7577e29fb5595",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Definition body change, same term: in `UpperTheory.Reformulated.B.Yfa1.cycNum` the declaration text replaces `MvPolynomial.coeff μ H` by `H.coeff μ`. The original pinned Mathlib defines `MvPolynomial.coeff m p` as `@DFunLike.coe _ _ _ _ (AddMonoidAlgebra.coeff p) m` (Mathlib/Algebra/MvPolynomial/Basic.lean:513-514); `MvPolynomial.coeff` no longer exists on the target, and `p.coeff m` is that same `AddMonoidAlgebra.coeff p` applied to `m`. Same polynomial and exponent; no assumptions or conclusions are added or removed."
+}

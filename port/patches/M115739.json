@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SpectrumNonemptyOfCountableRank",
+  "source_sha256": "b925edc5e5aba0bec007c527614ba6031de9e39c2b8a04bf586d3377e28a58a5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed `Polynomial.eval_finsetSum` (was `eval_finset_sum`). Proof body only."
+}
