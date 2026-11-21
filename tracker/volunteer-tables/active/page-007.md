@@ -49,5 +49,14 @@
 | [@surfyhou](https://github.com/surfyhou) | [P2457](https://github.com/rohanarun/alpoge-rh-replay/issues/22843) | Claimed |
 | [@surfyhou](https://github.com/surfyhou) | [P2557](https://github.com/rohanarun/alpoge-rh-replay/issues/22880) | Claimed |
 | [@JamCh01](https://github.com/JamCh01) | [P2286](https://github.com/rohanarun/alpoge-rh-replay/issues/22902) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P2275](https://github.com/rohanarun/alpoge-rh-replay/issues/22922) | Claimed |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M062721](https://github.com/rohanarun/alpoge-rh-replay/issues/22932) | Claimed |
+| [@emsi](https://github.com/emsi) | [P2549](https://github.com/rohanarun/alpoge-rh-replay/issues/23007) | Claimed |
+| [@chriswilson413](https://github.com/chriswilson413) | [M156621](https://github.com/rohanarun/alpoge-rh-replay/issues/23008) | Claimed |
+| [@chriswilson413](https://github.com/chriswilson413) | [M173243](https://github.com/rohanarun/alpoge-rh-replay/issues/23009) | Claimed |
+| [@surfyhou](https://github.com/surfyhou) | [P2517](https://github.com/rohanarun/alpoge-rh-replay/issues/23013) | Claimed |
+| [@hipotures](https://github.com/hipotures) | [P2287](https://github.com/rohanarun/alpoge-rh-replay/issues/23053) | Claimed |
+| [@TomMoeras](https://github.com/TomMoeras) | [P2421](https://github.com/rohanarun/alpoge-rh-replay/issues/23054) | Claimed |
+| [@TomMoeras](https://github.com/TomMoeras) | [P2562](https://github.com/rohanarun/alpoge-rh-replay/issues/23055) | Claimed |
+| [@TomMoeras](https://github.com/TomMoeras) | [P2328](https://github.com/rohanarun/alpoge-rh-replay/issues/23056) | Claimed |
+| [@emsi](https://github.com/emsi) | [P2420](https://github.com/rohanarun/alpoge-rh-replay/issues/23058) | Claimed |
+| [@dga471](https://github.com/dga471) | [M039255](https://github.com/rohanarun/alpoge-rh-replay/issues/23060) | Claimed |
