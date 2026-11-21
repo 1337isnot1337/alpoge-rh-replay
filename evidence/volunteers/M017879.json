@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M017879"
+  ],
+  "started_utc": "2026-11-21T00:44:36.078165+00:00",
+  "ended_utc": "2026-11-21T00:44:52.343947+00:00",
+  "elapsed_seconds": 16.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6149040
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosedImmersionRestrictClopenFactorization:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c98d7f5f70ecaba51b57d4d21c49f04cf013e26f99a292ad68236fbc3b65f833",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsCompletedStrictHens"
+  ],
+  "objects": {
+    "M017879": "433771a86d114188f0e5f477d96bd3af3fdf2e99ec7c29241ee29897487a19f4"
+  },
+  "bundle_sha256": "7e2ce2b8941661f1eae8ddbbff11637d1dac6d6e014719ac6764bc238512d5b2",
+  "packet": "M017879",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8391#issuecomment-7054439378",
+  "reviewed_utc": "2026-11-21T06:14:31.064221+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

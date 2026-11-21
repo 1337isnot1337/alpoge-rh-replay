@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M001566"
+  ],
+  "started_utc": "2026-11-21T01:21:57.833177+00:00",
+  "ended_utc": "2026-11-21T01:22:06.783663+00:00",
+  "elapsed_seconds": 9.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6795816
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CompactSubgroupFiniteOpenCosetsStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "80373ca387cb3df80f370c28d7b090ef2f55a9c2ee81b20aee94aab4d3b41bb0",
+  "rebuilt_project_modules": [
+    "CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CompactSubgroupFiniteOpenCosets"
+  ],
+  "objects": {
+    "M001566": "4cd35de6de2e1143f25ce459e03be6105eb537066fd7731e57e430eb69e2f1f4"
+  },
+  "bundle_sha256": "30ca7cecd46c7fab696692f9cccb4b9fb4a928fba54563ef0f4f982f9e0e3525",
+  "packet": "M001566",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9352#issuecomment-7055045484",
+  "reviewed_utc": "2026-11-21T06:14:02.097276+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

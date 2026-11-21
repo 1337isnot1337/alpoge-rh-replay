@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M101613"
+  ],
+  "started_utc": "2026-11-21T01:03:57.271068+00:00",
+  "ended_utc": "2026-11-21T01:04:12.817913+00:00",
+  "elapsed_seconds": 15.5,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6197708
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.MonomialRepresentations.RegOfDim:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "154aad6cd8653e3988598388038707d1feae4673f0cc6cdb7dbeb69707ec6217",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RegularLocalRegularSequence.RingKrullDimQuotientSpanSingletonAddOne"
+  ],
+  "objects": {
+    "M101613": "dc59540105f8a768c59b1edbcb872beb0a3437fa9904125fec425e0cf2593d83"
+  },
+  "bundle_sha256": "cca6f2120b6154178ba5f2cc0443f59796126f07836432541d09810e9a43c431",
+  "packet": "M101613",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8871#issuecomment-7054777218",
+  "reviewed_utc": "2026-11-21T06:13:56.039568+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

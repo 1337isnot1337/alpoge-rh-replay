@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M008088"
+  ],
+  "started_utc": "2026-11-21T01:27:18.410809+00:00",
+  "ended_utc": "2026-11-21T01:27:28.381679+00:00",
+  "elapsed_seconds": 10.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6860516
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ContDiffCompactAverageOfClosedPartialsStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "08875cc39ffb8325ede579cc88912556671bdb5146e6d8052cfcbf221d464726",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ContDiffCompactAverageOfClosedPartials"
+  ],
+  "objects": {
+    "M008088": "1d9b35128311b3b659873fa7a86bcddcf6afc9d19b97c6921dfc74dedf8f411a"
+  },
+  "bundle_sha256": "889f0fe9bbb7a20e5d5d7c32a9a5239d88ac1ffba02466ea5bd7bb3a46a9ae21",
+  "packet": "M008088",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9505#issuecomment-7055122825",
+  "reviewed_utc": "2026-11-21T06:17:00.043195+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

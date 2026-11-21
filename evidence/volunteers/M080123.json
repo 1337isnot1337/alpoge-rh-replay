@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M080123"
+  ],
+  "started_utc": "2026-11-20T22:38:59.218029+00:00",
+  "ended_utc": "2026-11-20T22:43:25.152574+00:00",
+  "elapsed_seconds": 265.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 7981836,
+    "peak_child_rss_kib": 4636564
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsReducedOfNonZeroDivisorMemJacobsonOfAssociated:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "118625052bfb160f2c2034a3c1129eea384beea129268e0ec87e76f447c96247",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M080123": "d3d341f02ee4eef9b851384be16147c9890f9ec21a91905a9551fcc714aa284e"
+  },
+  "bundle_sha256": "104c6707a8689a46b1a27407454e0e5a9632d766bef1847f38a5de7cbe7f7596",
+  "packet": "M080123",
+  "contributor": "WorldianAI",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/3657#issuecomment-7052627163",
+  "reviewed_utc": "2026-11-21T06:15:43.891240+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

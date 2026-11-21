@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M093435"
+  ],
+  "started_utc": "2026-11-21T01:18:05.246693+00:00",
+  "ended_utc": "2026-11-21T01:18:16.000329+00:00",
+  "elapsed_seconds": 10.8,
+  "host": {
+    "cpu_count": 128,
+    "mem_total_kib": 395484908,
+    "peak_child_rss_kib": 6863436
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIsSelfDualOfHasConductor:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "22ee096112dbd3bfc1a9989a4a30305a0d014fe96c68ef69b43809d4ec296d56",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.AddCharConductorAndHaarIntegersExist"
+  ],
+  "objects": {
+    "M093435": "718dd2113c97cf1c185b14179ccec49cbcab2c62320e5a055bd25f70d4e9a8b8"
+  },
+  "bundle_sha256": "ee12767e9cd45e7026c0852fb506d6ed617ab92a71b6a53ec4a49250458794a7",
+  "packet": "M093435",
+  "contributor": "BenCaunt",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9282#issuecomment-7054996023",
+  "reviewed_utc": "2026-11-21T06:16:14.318695+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001692 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FreeAlgebraActionOnSubquotientStatement` | volunteer-build-reviewed |
+| M001693 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FubiniOfParabolicHaarMultiple` | volunteer-build-reviewed |
+| M001697 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.GelfandKazhdanContragredientImports` | volunteer-build-reviewed |
+| M001704 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.GlRelOfBracket` | volunteer-build-reviewed |
+| M001707 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.GrowthStatementStatement` | volunteer-build-reviewed |
+| M001709 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HaarExistenceStatement` | volunteer-build-reviewed |
+| M001713 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HasDerivAtExpMul` | volunteer-build-reviewed |
 | M001714 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HasDerivAtExt` | volunteer-build-reviewed |
 | M001715 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HeckeAlgebraStatement` | volunteer-build-reviewed |
 | M001716 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HeckeAlgebraStatementStatement` | volunteer-build-reviewed |
@@ -265,7 +272,9 @@
 | M002382 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.DegreeProportionalWords` | wave-reused |
 | M002383 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.DiagonalActionLiftPull` | volunteer-build-reviewed |
 | M002387 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.FormalDegreeHaarQuotient` | build-observed |
+| M002388 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.HarishChandraParameters` | volunteer-build-reviewed |
 | M002390 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.HarmonicValueIntegrality` | volunteer-build-reviewed |
+| M002392 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.IntegralPartDecomposition` | volunteer-build-reviewed |
 | M002394 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.LieMatrixVectors` | build-observed |
 | M002395 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.LogExpAdaptedGauge` | build-observed |
 | M002399 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.NodalSeriesPeriods` | volunteer-build-reviewed |
@@ -326,6 +335,7 @@
 | M002500 | P0549 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.SpanSubtraction` | wave-reused |
 | M002501 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.TorusMarkingPhase` | volunteer-build-reviewed |
 | M002504 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.UnitriangularCharts` | wave-reused |
+| M002505 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.WordDerivativeBlocks` | volunteer-build-reviewed |
 | M002507 | P1472 | `Development.AbelianVarietyTheory.BlockTheory.SiegelEisenstein.ConjugacyTypeUnfolding` | volunteer-build-reviewed |
 | M002509 | P1501 | `Development.AbelianVarietyTheory.BlockTheory.SiegelEisenstein.DoubledUnramifiedFrames` | volunteer-build-reviewed |
 | M002514 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.SiegelEisenstein.LocalOrderMatrix` | volunteer-build-reviewed |
@@ -338,6 +348,7 @@
 | M002536 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.FrameCoefficientData` | volunteer-build-reviewed |
 | M002538 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.GramDensityRealCoordinates` | volunteer-build-reviewed |
 | M002543 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.OrbitStepSpace` | build-observed |
+| M002544 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.OrthonormalPlaceBasis` | volunteer-build-reviewed |
 | M002547 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.SaturatedDuality` | build-observed |
 | M002548 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.SaturatedPerpDuality` | build-observed |
 | M002555 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.BlockSumMultiplicities` | volunteer-build-reviewed |
@@ -385,20 +396,9 @@
 | M002658 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.CommutingLevelOperators` | volunteer-build-reviewed |
 | M002660 | P1501 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.CompatibleThetaRestrictions` | volunteer-build-reviewed |
 | M002662 | P1501 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ConstantTermVanishing` | volunteer-build-reviewed |
+| M002665 | P1616 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.CuspidalNoRadicalFixed` | volunteer-build-reviewed |
 | M002666 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.DefiniteIndexDimensionCounts` | volunteer-build-reviewed |
 | M002670 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.DownUpLambdaOperators` | volunteer-build-reviewed |
 | M002677 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.FlatSpaceComponents` | volunteer-build-reviewed |
 | M002678 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.FourierJacobiAverage` | volunteer-build-reviewed |
 | M002681 | P0838 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.GaussianBinomialClosedForm` | volunteer-build-reviewed |
-| M002682 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.GaussianBinomialFormula` | volunteer-build-reviewed |
-| M002685 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.GodementJacquetZeta` | build-observed |
-| M002686 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.GoodLiftPhase` | volunteer-build-reviewed |
-| M002687 | P1298 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.HalfLinearCocycle` | volunteer-build-reviewed |
-| M002696 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.InfinityTypes` | volunteer-build-reviewed |
-| M002697 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.IntegralMatrixTranslation` | volunteer-build-reviewed |
-| M002698 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.IrreducibleTensorCharacter` | build-observed |
-| M002699 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.IsometryCarriesCharacter` | volunteer-build-reviewed |
-| M002701 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.IwahoriDoubleCosets` | build-observed |
-| M002702 | P1531 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.KTypeExtension` | volunteer-build-reviewed |
-| M002703 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.KappaLambdaEmbedding` | volunteer-build-reviewed |
-| M002705 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.LatticeCosetUniformizer` | volunteer-build-reviewed |

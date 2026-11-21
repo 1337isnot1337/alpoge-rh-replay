@@ -13,6 +13,7 @@
 | M000011 | P0783 | `CompanionTheory.AutomorphicTheory.BesselOrbitBounds.BesselMapUniqueness.ProdNormLe` | volunteer-build-reviewed |
 | M000016 | P0757 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.CfgTie` | volunteer-build-reviewed |
 | M000026 | P0172 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.Bracket` | volunteer-build-reviewed |
+| M000027 | P0094 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.CloudPair` | volunteer-build-reviewed |
 | M000028 | P0001 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.CloudProd` | volunteer-build-reviewed |
 | M000029 | P0001 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.FreeFamily` | volunteer-build-reviewed |
 | M000030 | P0001 | `CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.GridSum` | volunteer-build-reviewed |
@@ -180,6 +181,7 @@
 | M000381 | P1472 | `CompanionTheory.AutomorphicTheory.RankOneTori.RpowNegLe` | volunteer-build-reviewed |
 | M000383 | P0172 | `CompanionTheory.AutomorphicTheory.SchurLimitBounds.SchurOrthogonality.SchurOrthogonality` | volunteer-build-reviewed |
 | M000384 | P0001 | `CompanionTheory.AutomorphicTheory.SchurLimitBounds.SchurOrthogonality.URepBasic` | volunteer-build-reviewed |
+| M000385 | P0094 | `CompanionTheory.AutomorphicTheory.SchurLimitBounds.SchurOrthogonality.URepSchur` | volunteer-build-reviewed |
 | M000391 | P0678 | `CompanionTheory.AutomorphicTheory.SchurLimitBounds.ZuckermanDuality.ZuckDualTOfZuckDual` | build-observed |
 | M000396 | P1217 | `CompanionTheory.AutomorphicTheory.SegmentRepresentations.JacquetShalikaBounds.lift_levelP_alt₂` | volunteer-build-reviewed |
 | M000397 | P1244 | `CompanionTheory.AutomorphicTheory.SegmentRepresentations.RapidDecayFamilies.MirabolicColumnBlock` | volunteer-build-reviewed |
@@ -215,6 +217,7 @@
 | M000493 | P0783 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.BesselOrbitConvolutions.VanishingOfL2Equivariant` | volunteer-build-reviewed |
 | M000494 | P0094 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.CoePolarExpHomeomorphComplexApply` | volunteer-build-reviewed |
 | M000495 | P0001 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.ContDiffOnExpPartialHomeomorphSymm` | volunteer-build-reviewed |
+| M000496 | P0094 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.ExistsUniqueComplexification` | volunteer-build-reviewed |
 | M000497 | P0172 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.InPCommutatorOfInK` | volunteer-build-reviewed |
 | M000499 | P0293 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.PolarUH` | volunteer-build-reviewed |
 | M000500 | P0237 | `CompanionTheory.HarishChandraModules.BesselParameterIntegrals.SecondCountableQuotients.ModExists` | volunteer-build-reviewed |
@@ -239,6 +242,7 @@
 | M000531 | P0237 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.Transfer` | volunteer-build-reviewed |
 | M000534 | P1501 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AnalyticIntertwiners.CasimirRealScalar` | volunteer-build-reviewed |
 | M000537 | P1472 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AnalyticIntertwiners.GelfandCentralHolds` | volunteer-build-reviewed |
+| M000551 | P0001 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.FundamentalDomainCusps.CompactIntegralBoundedByQuotientNorm` | volunteer-build-reviewed |
 | M000553 | P0838 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.FundamentalDomainCusps.FiniteDimensionalFromLinearForms` | volunteer-build-reviewed |
 | M000555 | P0094 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.FundamentalDomainCusps.IntegrableMulBc` | volunteer-build-reviewed |
 | M000559 | P0001 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.FundamentalDomainCusps.NilpAlg` | volunteer-build-reviewed |
@@ -254,6 +258,7 @@
 | M000581 | P0757 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.CreationOperators.CycDense` | volunteer-build-reviewed |
 | M000590 | P0392 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.LowKMultOneP` | volunteer-build-reviewed |
 | M000595 | P1501 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.UniqHpkOf` | volunteer-build-reviewed |
+| M000596 | P0001 | `CompanionTheory.HarishChandraModules.NonemptyRepresentations.ExpEntry` | volunteer-build-reviewed |
 | M000597 | P0094 | `CompanionTheory.HarishChandraModules.NonemptyRepresentations.HWRepD` | volunteer-build-reviewed |
 | M000599 | P0001 | `CompanionTheory.HarishChandraModules.NonemptyRepresentations.NonemptyOfAntitone` | volunteer-build-reviewed |
 | M000601 | P0945 | `CompanionTheory.HarishChandraModules.NonemptyRepresentations.TypeHW` | volunteer-build-reviewed |
@@ -303,6 +308,7 @@
 | M000758 | P0237 | `CompanionTheory.SpectralGeometry.CountingDefinitions.AdelicEulerProducts.HypJ` | volunteer-build-reviewed |
 | M000759 | P0172 | `CompanionTheory.SpectralGeometry.CountingDefinitions.AdelicEulerProducts.IsEulerProd` | volunteer-build-reviewed |
 | M000762 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdeleRingCocompactDiscreteNumberFieldStatement` | volunteer-build-reviewed |
+| M000763 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdeleRingStableRangeOne` | volunteer-build-reviewed |
 | M000764 | P1193 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelesLocallyCompactSecondCountable` | build-observed |
 | M000765 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelesLocallyCompactSecondCountableStatement` | volunteer-build-reviewed |
 | M000766 | P1531 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelesSelfDual` | build-observed |
@@ -396,9 +402,3 @@
 | M000895 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsNormOneUnitShiftStatement` | volunteer-build-reviewed |
 | M000896 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsRealFlowAdelicUnits` | volunteer-build-reviewed |
 | M000897 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsRealFlowAdelicUnitsStatement` | volunteer-build-reviewed |
-| M000898 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsSizeMulLe` | volunteer-build-reviewed |
-| M000900 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsStandardLocalMeasuresStatement` | volunteer-build-reviewed |
-| M000901 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsTraceFormGramMatrixInBasis` | volunteer-build-reviewed |
-| M000902 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsTraceFormGramMatrixInBasisStatement` | volunteer-build-reviewed |
-| M000909 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FibreFamilySmul` | volunteer-build-reviewed |
-| M000912 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FiniteAdeleHaarPiRestrictedProduct` | volunteer-build-reviewed |

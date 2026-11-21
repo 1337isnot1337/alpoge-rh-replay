@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M000898 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsSizeMulLe` | volunteer-build-reviewed |
+| M000900 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsStandardLocalMeasuresStatement` | volunteer-build-reviewed |
+| M000901 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsTraceFormGramMatrixInBasis` | volunteer-build-reviewed |
+| M000902 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsTraceFormGramMatrixInBasisStatement` | volunteer-build-reviewed |
+| M000909 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FibreFamilySmul` | volunteer-build-reviewed |
+| M000912 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FiniteAdeleHaarPiRestrictedProduct` | volunteer-build-reviewed |
 | M000914 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FiniteAdeleTopology` | build-observed |
 | M000915 | P1271 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FiniteAdeleTopologyStatement` | build-observed |
 | M000916 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FiniteAdelicLatticeMembershipIff` | volunteer-build-reviewed |
@@ -330,6 +336,7 @@
 | M001560 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CommuteOfMemAdjoin` | volunteer-build-reviewed |
 | M001561 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CommuteOfUnitaryConjugate` | volunteer-build-reviewed |
 | M001565 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CompactSubgroupFiniteOpenCosets` | volunteer-build-reviewed |
+| M001566 | P0094 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CompactSubgroupFiniteOpenCosetsStatement` | volunteer-build-reviewed |
 | M001567 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceEndomorphismInverseExists` | volunteer-build-reviewed |
 | M001569 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsCompact` | volunteer-build-reviewed |
 | M001570 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsCompactStatement` | volunteer-build-reviewed |
@@ -395,10 +402,3 @@
 | M001682 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FlagFactsStatement` | volunteer-build-reviewed |
 | M001690 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FrameOfAnisotropicPlaneSplittingStatement` | volunteer-build-reviewed |
 | M001691 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FreeAlgebraActionOnSubquotient` | volunteer-build-reviewed |
-| M001692 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FreeAlgebraActionOnSubquotientStatement` | volunteer-build-reviewed |
-| M001693 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FubiniOfParabolicHaarMultiple` | volunteer-build-reviewed |
-| M001697 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.GelfandKazhdanContragredientImports` | volunteer-build-reviewed |
-| M001704 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.GlRelOfBracket` | volunteer-build-reviewed |
-| M001707 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.GrowthStatementStatement` | volunteer-build-reviewed |
-| M001709 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HaarExistenceStatement` | volunteer-build-reviewed |
-| M001713 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HasDerivAtExpMul` | volunteer-build-reviewed |

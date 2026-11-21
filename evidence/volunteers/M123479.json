@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M123479"
+  ],
+  "started_utc": "2026-11-21T01:26:07.951967+00:00",
+  "ended_utc": "2026-11-21T01:26:21.677192+00:00",
+  "elapsed_seconds": 13.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 6823140
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FourierInversionInvariantMatrixStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7a8d948c57154670c77b90a9eb7e987c1bdc2b3c962a965bbd50e01833cad3c9",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FourierInversionInvariantMatrix"
+  ],
+  "objects": {
+    "M123479": "0fc8d4ad1cf427d4e0164e2e37aed68324f79fa325f092afa076e2cc6a52b614"
+  },
+  "bundle_sha256": "492f46e05f9c3c0c92e997d3072fd787bd58e42ccefe4c30fb3e23e57a62110e",
+  "packet": "M123479",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9554#issuecomment-7055107793",
+  "reviewed_utc": "2026-11-21T06:03:00.562342+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

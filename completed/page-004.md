@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002682 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.GaussianBinomialFormula` | volunteer-build-reviewed |
+| M002685 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.GodementJacquetZeta` | build-observed |
+| M002686 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.GoodLiftPhase` | volunteer-build-reviewed |
+| M002687 | P1298 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.HalfLinearCocycle` | volunteer-build-reviewed |
+| M002696 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.InfinityTypes` | volunteer-build-reviewed |
+| M002697 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.IntegralMatrixTranslation` | volunteer-build-reviewed |
+| M002698 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.IrreducibleTensorCharacter` | build-observed |
+| M002699 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.IsometryCarriesCharacter` | volunteer-build-reviewed |
+| M002701 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.IwahoriDoubleCosets` | build-observed |
+| M002702 | P1531 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.KTypeExtension` | volunteer-build-reviewed |
+| M002703 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.KappaLambdaEmbedding` | volunteer-build-reviewed |
+| M002705 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.LatticeCosetUniformizer` | volunteer-build-reviewed |
 | M002706 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.LevelGroupLifts` | volunteer-build-reviewed |
 | M002707 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.LocalDataValues` | volunteer-build-reviewed |
 | M002710 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.MinorOrderedEntries` | volunteer-build-reviewed |
@@ -16,6 +28,7 @@
 | M002729 | P1245 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.RationalRowTestKernel` | volunteer-build-reviewed |
 | M002739 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SemilinearExtensionBases` | volunteer-build-reviewed |
 | M002746 | P1169 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SplitLinearModelNorm` | volunteer-build-reviewed |
+| M002751 | P1143 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SupremumOnGoodPlaces` | volunteer-build-reviewed |
 | M002758 | P1245 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ThetaTranslateRangeGap` | volunteer-build-reviewed |
 | M002759 | P1501 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.TraceKernelDecomposition` | volunteer-build-reviewed |
 | M002763 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.UniformModerateGrowthLevel` | volunteer-build-reviewed |
@@ -48,6 +61,7 @@
 | M002894 | P1169 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.OrthonormalBaseFrameNeg` | build-observed |
 | M002899 | P0002 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.RightInvariantOfCovolume` | volunteer-build-reviewed |
 | M002907 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ZeroNotAdmissibleOfRankPos` | volunteer-build-reviewed |
+| M002913 | P0435 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.ExistsGoodLevel` | volunteer-build-reviewed |
 | M002915 | P0758 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.HeckeKerZero` | build-observed |
 | M002916 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.IsQProjOverOfIsProjOver` | build-observed |
 | M002920 | P0393 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.ModuliNonemptyOfObj` | volunteer-build-reviewed |
@@ -388,17 +402,3 @@
 | M003989 | P0549 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.NormConst` | build-observed |
 | M003990 | P0784 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.PermutesRefl` | build-observed |
 | M003992 | P0095 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.SmulBasisMemHatIff` | volunteer-build-reviewed |
-| M003993 | P0549 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.UnivFrame` | wave-reused |
-| M003994 | P0838 | `Development.AbelianVarietyTheory.Definitions.Foundations.AbsCharNotUnitary` | build-observed |
-| M003999 | P1298 | `Development.AbelianVarietyTheory.Definitions.Foundations.AestronglyMeasurableQuotMeasureIffLift` | build-observed |
-| M004000 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.AltCoeffRho` | volunteer-build-reviewed |
-| M004001 | P1324 | `Development.AbelianVarietyTheory.Definitions.Foundations.AnalyticOnNhdTsumNpow` | build-observed |
-| M004002 | P0295 | `Development.AbelianVarietyTheory.Definitions.Foundations.ApplyEqOfMemAdjoin` | wave-reused |
-| M004003 | P0917 | `Development.AbelianVarietyTheory.Definitions.Foundations.AuxiliaryFrameNormalizedSpaces` | build-observed |
-| M004005 | P1001 | `Development.AbelianVarietyTheory.Definitions.Foundations.CdScaleTieIff` | build-observed |
-| M004007 | P0295 | `Development.AbelianVarietyTheory.Definitions.Foundations.ChiProj` | volunteer-build-reviewed |
-| M004009 | P1272 | `Development.AbelianVarietyTheory.Definitions.Foundations.ClassMassEqSumOfBijective` | build-observed |
-| M004010 | P0173 | `Development.AbelianVarietyTheory.Definitions.Foundations.CoPtMu` | volunteer-build-reviewed |
-| M004011 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.CobOn` | wave-reused |
-| M004013 | P0238 | `Development.AbelianVarietyTheory.Definitions.Foundations.ColMeas` | volunteer-build-reviewed |
-| M004017 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.CosetTrace` | wave-reused |

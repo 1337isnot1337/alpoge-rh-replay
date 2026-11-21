@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M027531"
+  ],
+  "started_utc": "2026-11-21T01:27:46.029036+00:00",
+  "ended_utc": "2026-11-21T01:28:07.528570+00:00",
+  "elapsed_seconds": 21.5,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6636424
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMinimalLocalGeneratorsStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e640674a74c570d6646bff9bfee0a7c227498fdc8fe0f7b2ceceb170f9f7ddb5",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMinimalLocalGenerators",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulMemOfForall"
+  ],
+  "objects": {
+    "M027531": "ca508873ef274374fc0e6b3847247747c92cfd475cadf73efacbce94ba9749c0"
+  },
+  "bundle_sha256": "beb49c2956d5f9aa8398bb6a3392622033d4d2546bb00fd4d7331369e69806cd",
+  "packet": "M027531",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9633#issuecomment-7055130838",
+  "reviewed_utc": "2026-11-21T06:06:03.414699+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M153017"
+  ],
+  "started_utc": "2026-11-21T01:11:27.939784+00:00",
+  "ended_utc": "2026-11-21T01:11:43.526445+00:00",
+  "elapsed_seconds": 15.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6843940
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.TorsionIntegrality.UniformGaussModels.OrthogonalGaussModels.HermitianBlockFrames.Assembly:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "bde5fc39908eb7d99737d72eab322803a8b9a87dc1527a8bb98c2f80c8b1f9de",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.TorsionIntegrality.UniformGaussModels.OrthogonalGaussModels.HermitianBlockFrames.FrobStep",
+    "Formalism.LocalToGlobal.TorsionIntegrality.UniformGaussModels.OrthogonalGaussModels.HermitianBlockFrames.IsUnitaryK"
+  ],
+  "objects": {
+    "M153017": "8e35c556ac6874e18db6cb612748dea11e9f3f32970663248edd1044730621d8"
+  },
+  "bundle_sha256": "93a8360be72f43d5992ed4e019815daf13dbe7c11c9599acf6f1159632e05535",
+  "packet": "M153017",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9024#issuecomment-7054892403",
+  "reviewed_utc": "2026-11-21T06:16:49.463014+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}
