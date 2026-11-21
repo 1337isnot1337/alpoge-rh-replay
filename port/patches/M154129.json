@@ -3,5 +3,5 @@
   "source_sha256": "ff8ba88e780042d7e8f4cb09bbdc98b5d143eba35be3dd09f21b92c1ed31a5c8",
   "lean": "leanprover/lean4:v4.36.0",
   "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
-  "notes": "unchanged"
+  "notes": "Definition change, equivalent: in `UnimodGenus` the hypothesis `Submodule.IsLattice E N` becomes `Submodule.IsFullLattice E N`. The module compiles unchanged, but Mathlib #44365 renamed the pinned `IsLattice` (finitely generated and spanning) to `IsFullLattice` and reused the name `IsLattice` for a weaker notion without `span_eq_top`, so the unchanged text would silently quantify over the weaker notion. Here `N : Submodule (𝓞 E) (Sp E n)` and `E` is the fraction field of `𝓞 E`, so `IsFullLattice E N ↔ N.FG ∧ span E N = ⊤`, which is the pinned definition, because `Submodule.IsLattice.of_fg` supplies the new linear-independence field."
 }
