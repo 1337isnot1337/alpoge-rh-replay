@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SumEqZeroAddUnits",
+  "source_sha256": "d50b906bfbd225c3e903cc488af2fcd124e2a0d2b63bbea07b55ca136991dfad",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: remove ext and simp after congr has already closed the rewritten finite-fibre cardinality goal. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0119-lean436-20261121/packet-result.json"
+}

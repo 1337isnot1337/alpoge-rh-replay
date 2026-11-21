@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.TensorProductNondegeneratePairingStatement",
+  "source_sha256": "a2c538da4a6f348f727d55ab4479c209a59fb36ddaa0b3f1fd0e9c8725d19513",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent multilinear-map API adaptation: pass the identity complex ring homomorphism in the generalized MultilinearMap type. The map remains complex-multilinear on the same indexed modules with the same dual tensor-product codomain. All nondegeneracy hypotheses, arguments and conclusions are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0119-lean436-20261121/packet-result.json"
+}
