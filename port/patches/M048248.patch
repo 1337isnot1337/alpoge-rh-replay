@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ResidueFieldAtPrimeIsSepClosedOfFiniteType.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ResidueFieldAtPrimeIsSepClosedOfFiniteType.lean
+@@ -14,7 +14,7 @@
+     IsAlgClosed.algebraMap_bijective_of_isIntegral
+   haveI : IsAlgClosed (B ⧸ P) := IsAlgClosed.of_ringEquiv k (B ⧸ P) f
+   let e : (B ⧸ P) ≃+* IsLocalRing.ResidueField (Localization.AtPrime P) :=
+-    IsLocalization.AtPrime.equivQuotMaximalIdeal P (Localization.AtPrime P)
++    (IsLocalization.AtPrime.equivQuotMaximalIdeal P (Localization.AtPrime P)).toRingEquiv
+   haveI : IsAlgClosed (IsLocalRing.ResidueField (Localization.AtPrime P)) :=
+     IsAlgClosed.of_ringEquiv _ _ e
+   infer_instance

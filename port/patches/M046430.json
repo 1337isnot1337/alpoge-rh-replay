@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PrescribedValuationDifferenceElements",
+  "source_sha256": "549658204e5b4ff32d70f6529b3ef2e2e18505e05c85203971305f91a486ec31",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use multiplicity_eq_zero_of_not_dvd directly, avoiding the new finite-multiplicity premise of multiplicity_eq_zero. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0020-lean436-20261121/packet-result.json"
+}

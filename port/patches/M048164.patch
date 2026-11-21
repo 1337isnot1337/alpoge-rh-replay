@@ -1,0 +1,24 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/RepTraceEqMulTrace.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/RepTraceEqMulTrace.lean
+@@ -31,6 +31,7 @@
+ 
+ end RepTrace
+ 
++open scoped IsMulCommutative in
+ theorem repTrace_eq_mul_trace {E : Type} [Field E] [NumberField E] {r : ℕ} (ρ : 𝓞 E →+* Matrix (Fin r) (Fin r) ℤ) (s : ℕ)
+     (hr : r = s * Module.finrank ℚ E) (a : 𝓞 E) : (ρ a).trace = s * Algebra.trace ℤ (𝓞 E) a := by
+   classical
+@@ -38,9 +39,11 @@
+     (Matrix.toLinAlgEquiv' : Matrix (Fin r) (Fin r) ℚ ≃ₐ[ℚ] _).toRingEquiv.toRingHom.comp
+       ((Int.castRingHom ℚ).mapMatrix.comp ρ)
+   let A := Algebra.adjoin ℚ (Set.range g)
+-  letI : CommRing A := Algebra.adjoinCommRingOfComm ℚ (by
+-    rintro _ ⟨x, rfl⟩ _ ⟨y, rfl⟩
++  haveI : IsMulCommutative A := Algebra.isMulCommutative_adjoin ℚ (by
++    rintro _ ⟨x, rfl⟩ _ ⟨y, rfl⟩ _
++    change g x * g y = g y * g x
+     rw [← map_mul, ← map_mul, mul_comm])
++  letI : CommRing A := inferInstance
+   let g' : 𝓞 E →+* A := g.codRestrict A (fun x => Algebra.subset_adjoin ⟨x, rfl⟩)
+   let φ : E →+* Module.End ℚ (Fin r → ℚ) :=
+     (A.val : A →ₐ[ℚ] Module.End ℚ (Fin r → ℚ)).toRingHom.comp

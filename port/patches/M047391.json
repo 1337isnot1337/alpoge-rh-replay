@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RamificationIdxDvdOfGaloisDegreeDvdUnitDvr",
+  "source_sha256": "cb61a2e7d4e6aa681e03bffd75b4f16ea6f85901cf21ec3e956205570b668835",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Infer the field and module instances at the separability application and use the renamed maximal-ideal-under lemma. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0020-lean436-20261121/packet-result.json"
+}

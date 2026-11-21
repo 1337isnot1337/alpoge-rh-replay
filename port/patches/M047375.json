@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RTensorInjectiveOfPowSmulEqBot",
+  "source_sha256": "8a10d43d6f75c7f4d1c0874474d3d9a80c5be3c31d5209ec9666ccf48b646ccd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove zero branches from tensor-product inductions; the updated induction principle has only tensor and addition branches. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0020-lean436-20261121/packet-result.json"
+}
