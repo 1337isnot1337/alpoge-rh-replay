@@ -1,1 +1,27 @@
-{}
+{
+  "M018206": {
+    "source_sha256": "65d6af6c5bb3eee69ef5ba01a3ce32ef045e1dbcb1fbbb64930e28b9527b71b8",
+    "compiled_source_sha256": "6cf00f1638a800a2418767f7e3c70541c67f46123c13d9dee5c976f46fda3322",
+    "patch_sha256": "a273f64beabcefe3b4cdf77a66510cfffcb2ed10467eae79c60d8a07718bde48"
+  },
+  "M018208": {
+    "source_sha256": "d84774813f450c05036f9ed401465401275c89c9247db9c5d752366d5bc73832",
+    "compiled_source_sha256": "f5a7b27586b04e3ef7359862cab5b86868640110c7f799d186959439242ae6c2",
+    "patch_sha256": "4eca92b7afd92ecef64c84dd9f4f5eb04e3a0af687c3055bcb903832ff2e05d6"
+  },
+  "M018507": {
+    "source_sha256": "885da0e41cd91329de0ca851c9a56a0e5bb8017022251900913b3e44ca81c042",
+    "compiled_source_sha256": "457a6ed694ef2e132a88d79246fd9a6869d6a8326b532a71f5d247060896faac",
+    "patch_sha256": "8ad6ffc19933f714a2ccb07c7c02f2574584adcc2619f6e88b90fd8977097471"
+  },
+  "M018797": {
+    "source_sha256": "807bc84715fb89870df7dc1fcc8e52e7bd283c3e8e8de82d28b3e5d912afc622",
+    "compiled_source_sha256": "84526ae041b09472cfb42f082127dc25b3db753bac8d90a060d2227cf8fcd4f6",
+    "patch_sha256": "e5f22474d8e8d885e901013dad57ce99e62cfd73d433c4b2155dc4e1b6e7cdc3"
+  },
+  "M019711": {
+    "source_sha256": "ab4d9d6e819a2fe2a539152b5ac1857fc35793a8afe5ef7f5f4775d02a3f2660",
+    "compiled_source_sha256": "4ff1558b4bf79e2a59db79af4c98ffba11561b84f95845fc6d49f5905071f576",
+    "patch_sha256": "d607b9612a560a563b691b93dabffd65caad3278bba14872338edfa8b8451e02"
+  }
+}
