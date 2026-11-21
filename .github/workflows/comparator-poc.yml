@@ -1,0 +1,42 @@
+name: Comparator PoC
+on:
+  pull_request:
+    paths: ['audit/comparator/**', '.github/workflows/comparator-poc.yml']
+  push:
+    paths: ['audit/comparator/**', '.github/workflows/comparator-poc.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  poc:
+    if: github.event_name != 'push' || github.event.repository.fork || github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24.x'
+          cache: false
+      - name: Install the pinned compiler (same as replay-worker.yml)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y elan
+          elan toolchain install leanprover/lean4:v4.33.1
+      - name: Cache the pinned tool builds
+        uses: actions/cache@v4
+        with:
+          path: ${{ runner.temp }}/comparator-tools
+          key: comparator-${{ hashFiles('audit/comparator/build-tools.sh') }}
+      - name: Report the sandbox prerequisites
+        run: |
+          uname -r
+          echo "LSMs: $(cat /sys/kernel/security/lsm)"
+          grep -q landlock /sys/kernel/security/lsm || { echo "Landlock is not enabled on this runner"; exit 1; }
+          if systemctl --user show-environment >/dev/null 2>&1; then mode=user; else mode=system; fi
+          echo "systemd scope for the AF_UNIX guard: $mode"
+          echo "COMPARATOR_SYSTEMD=$mode" >> "$GITHUB_ENV"
+      - name: Run comparator on the cheat, weakened and honest projects
+        run: audit/comparator/run-poc.sh "$RUNNER_TEMP/comparator-tools"
