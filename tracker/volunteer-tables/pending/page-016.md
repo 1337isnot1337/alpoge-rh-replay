@@ -245,3 +245,12 @@
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M005619](https://github.com/rohanarun/alpoge-rh-replay/issues/11768#issuecomment-7056461852) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M074328](https://github.com/rohanarun/alpoge-rh-replay/issues/11769#issuecomment-7056562718) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M048085](https://github.com/rohanarun/alpoge-rh-replay/issues/11770#issuecomment-7056728254) | Pending review |
+| [@loremcdmx](https://github.com/loremcdmx) | [M100665](https://github.com/rohanarun/alpoge-rh-replay/issues/11773#issuecomment-7056760025) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M167348](https://github.com/rohanarun/alpoge-rh-replay/issues/11776#issuecomment-7056738333) | Pending review |
+| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M171540](https://github.com/rohanarun/alpoge-rh-replay/issues/11777#issuecomment-7056743341) | Pending review |
+| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M081548](https://github.com/rohanarun/alpoge-rh-replay/issues/11779#issuecomment-7056745419) | Pending review |
+| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M005437](https://github.com/rohanarun/alpoge-rh-replay/issues/11780#issuecomment-7056751052) | Pending review |
+| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M132601](https://github.com/rohanarun/alpoge-rh-replay/issues/11782#issuecomment-7056765122) | Pending review |
+| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M157209](https://github.com/rohanarun/alpoge-rh-replay/issues/11783#issuecomment-7056756034) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M133038](https://github.com/rohanarun/alpoge-rh-replay/issues/11784#issuecomment-7056737397) | Pending review |
+| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M051429](https://github.com/rohanarun/alpoge-rh-replay/issues/11785#issuecomment-7056760591) | Pending review |
