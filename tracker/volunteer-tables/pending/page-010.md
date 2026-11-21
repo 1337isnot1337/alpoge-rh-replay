@@ -4,6 +4,8 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M036968](https://github.com/rohanarun/alpoge-rh-replay/issues/9917#issuecomment-7055284261) | Pending review |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M070722](https://github.com/rohanarun/alpoge-rh-replay/issues/9918#issuecomment-7055332554) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M126457](https://github.com/rohanarun/alpoge-rh-replay/issues/9919#issuecomment-7055286278) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M015000](https://github.com/rohanarun/alpoge-rh-replay/issues/9920#issuecomment-7055290674) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M173540](https://github.com/rohanarun/alpoge-rh-replay/issues/9921#issuecomment-7055292875) | Pending review |
@@ -252,5 +254,3 @@
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M163162](https://github.com/rohanarun/alpoge-rh-replay/issues/10183#issuecomment-7055564303) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M163530](https://github.com/rohanarun/alpoge-rh-replay/issues/10184#issuecomment-7055558776) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M164163](https://github.com/rohanarun/alpoge-rh-replay/issues/10185#issuecomment-7055555549) | Pending review |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M164653](https://github.com/rohanarun/alpoge-rh-replay/issues/10186#issuecomment-7055573733) | Pending review |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M166301](https://github.com/rohanarun/alpoge-rh-replay/issues/10187#issuecomment-7055562610) | Pending review |

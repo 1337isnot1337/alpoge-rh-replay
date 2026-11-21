@@ -4,6 +4,7 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M041750](https://github.com/rohanarun/alpoge-rh-replay/issues/2961#issuecomment-7050671703) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M042124](https://github.com/rohanarun/alpoge-rh-replay/issues/2965#issuecomment-7050674903) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M046150](https://github.com/rohanarun/alpoge-rh-replay/issues/2978#issuecomment-7050671371) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M042971](https://github.com/rohanarun/alpoge-rh-replay/issues/2984#issuecomment-7050697791) | Pending review |
@@ -253,4 +254,3 @@
 | [@mu-mei](https://github.com/mu-mei) | [M134797](https://github.com/rohanarun/alpoge-rh-replay/issues/5158#issuecomment-7052501267) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M041126](https://github.com/rohanarun/alpoge-rh-replay/issues/5187#issuecomment-7052514176) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M040500](https://github.com/rohanarun/alpoge-rh-replay/issues/5200#issuecomment-7052513547) | Pending review |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M063239](https://github.com/rohanarun/alpoge-rh-replay/issues/5211#issuecomment-7052518868) | Pending review |

@@ -4,7 +4,6 @@
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@rohanarun](https://github.com/rohanarun) | [M013763](https://github.com/rohanarun/alpoge-rh-replay/issues/5260) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M067958](https://github.com/rohanarun/alpoge-rh-replay/issues/5264) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M088346](https://github.com/rohanarun/alpoge-rh-replay/issues/5268) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M086026](https://github.com/rohanarun/alpoge-rh-replay/issues/5271) | Claimed |
@@ -233,7 +232,6 @@
 | [@TOTOGT](https://github.com/TOTOGT) | [M162273](https://github.com/rohanarun/alpoge-rh-replay/issues/9126) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M162285](https://github.com/rohanarun/alpoge-rh-replay/issues/9131) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M162286](https://github.com/rohanarun/alpoge-rh-replay/issues/9133) | Claimed |
-| [@jwr404](https://github.com/jwr404) | [M064945](https://github.com/rohanarun/alpoge-rh-replay/issues/9367) | Claimed |
 | [@jwr404](https://github.com/jwr404) | [M042137](https://github.com/rohanarun/alpoge-rh-replay/issues/9382) | Claimed |
 | [@jwr404](https://github.com/jwr404) | [M060912](https://github.com/rohanarun/alpoge-rh-replay/issues/9393) | Claimed |
 | [@jwr404](https://github.com/jwr404) | [M061883](https://github.com/rohanarun/alpoge-rh-replay/issues/9396) | Claimed |
@@ -254,3 +252,5 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M109153](https://github.com/rohanarun/alpoge-rh-replay/issues/10078) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M109475](https://github.com/rohanarun/alpoge-rh-replay/issues/10098) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M110991](https://github.com/rohanarun/alpoge-rh-replay/issues/10121) | Claimed |
+| [@TOTOGT](https://github.com/TOTOGT) | [M006068](https://github.com/rohanarun/alpoge-rh-replay/issues/10122) | Claimed |
+| [@TOTOGT](https://github.com/TOTOGT) | [M006315](https://github.com/rohanarun/alpoge-rh-replay/issues/10130) | Claimed |

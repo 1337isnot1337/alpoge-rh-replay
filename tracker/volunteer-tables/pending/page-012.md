@@ -4,6 +4,8 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@ANdATIon](https://github.com/ANdATIon) | [M132509](https://github.com/rohanarun/alpoge-rh-replay/issues/10453#issuecomment-7055551465) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M031184](https://github.com/rohanarun/alpoge-rh-replay/issues/10454#issuecomment-7055552661) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M122320](https://github.com/rohanarun/alpoge-rh-replay/issues/10455#issuecomment-7055544940) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M146395](https://github.com/rohanarun/alpoge-rh-replay/issues/10456#issuecomment-7055552595) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M104528](https://github.com/rohanarun/alpoge-rh-replay/issues/10457#issuecomment-7055546323) | Pending review |
@@ -252,5 +254,3 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M143890](https://github.com/rohanarun/alpoge-rh-replay/issues/10720#issuecomment-7055728614) | Pending review |
 | [@WorldianAI](https://github.com/WorldianAI) | [M161822](https://github.com/rohanarun/alpoge-rh-replay/issues/10721#issuecomment-7055745221) | Pending review |
 | [@hipotures](https://github.com/hipotures) | [P1865](https://github.com/rohanarun/alpoge-rh-replay/issues/10722#issuecomment-7055909859) | Pending review |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M157225](https://github.com/rohanarun/alpoge-rh-replay/issues/10723#issuecomment-7055764450) | Pending review |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M060894](https://github.com/rohanarun/alpoge-rh-replay/issues/10724#issuecomment-7055775491) | Pending review |
