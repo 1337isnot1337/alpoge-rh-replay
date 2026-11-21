@@ -20,7 +20,7 @@ The port asks a different question: does the same proof still go through on a cu
 
 ## Triage results
 
-A Google Cloud job compiles each depth-0 module unchanged on the target toolchain and records whether it builds. When it fails, it records the first errors. Results are published in `port/triage/`. Start with modules marked `fail`. Modules marked `ok` need only an `unchanged` record.
+A Google Cloud job compiles each depth-0 module unchanged on the target toolchain and records whether it builds. When it fails, it records the first errors. Results are published in `port/triage/`. Start with modules marked `fail`. Modules marked `ok` need only an `unchanged` record, unless the `IsLattice` audit below reports them: compiling unchanged is not enough there.
 
 ## Unit of work
 
@@ -38,7 +38,7 @@ port/patches/<ModuleId>.json        # {"module", "source_sha256", "lean", "mathl
 ## Claim and submit
 
 1. **Reserve.** Run `python3 tracker/port.py next` for the shallowest open packets whose imports are already ported, then `python3 tracker/port.py claim P0123`. Before opening a `Port P0123` issue with the `port` label, the command checks the target pins and whether any requested module still needs a record on upstream `main`. The replay claims bot ignores these titles, and maintainers resolve overlaps: the earlier open issue wins. Close the issue if you stop.
-2. **Port.** Use a fresh checkout of the pinned archive with the target toolchain and Mathlib. Fix each module until `lake build +<Module>:olean` succeeds.
+2. **Port.** Use a fresh checkout of the pinned archive with the target toolchain and Mathlib. Fix each module until `lake build +<Module>:olean` succeeds. Then run the `IsLattice` audit (below) on the packet's modules. Convert every hit, including in modules that built unchanged, or explain in the notes why the weaker notion is intended.
 3. **Submit a PR to `main`** that adds the packet's `port/patches/` files and links the issue. Include the build transcript for every module in the packet, ending in success, plus the exact toolchain and Mathlib commit.
 
 Use a title such as `Port P0123 to Lean 4.36` for the PR. The queue and claim
@@ -75,7 +75,18 @@ A module can build unchanged and still change meaning when Mathlib reuses a name
 - **Don't change statements.** Proofs may change freely. A changed definition, theorem statement or instance needs a `notes` entry explaining why it is equivalent. Any change to `Main`, `Statements` or the five public theorems is reviewed separately and will usually be refused.
 - **Keep it mechanical.** Prefer the smallest change: renamed lemmas, changed tactic behavior, new implicit arguments. Don't refactor or golf proofs as part of a port.
 - **One packet per PR.** That keeps review and rework manageable.
+- **`Submodule.IsLattice` must become `Submodule.IsFullLattice`.** Mathlib #44365 renamed the pinned `IsLattice` (finitely generated and spanning) to `IsFullLattice` and reused the name `IsLattice` for a weaker notion without `span_eq_top`. A statement or definition that still says `IsLattice` usually compiles unchanged but silently means the weaker notion. Replace it with `IsFullLattice` and add an equivalence note: when the scalars are the fraction field of the coefficient ring, as for `𝓞 E` in a number field `E`, `IsFullLattice ↔ FG ∧ span = ⊤`, which is the pinned definition, because `Submodule.IsLattice.of_fg` supplies the new field. Proofs may still use the new `IsLattice` API, for example `IsLattice.of_fg` or `IsLattice.free`.
+
+## `IsLattice` audit
+
+Text search cannot find these cases reliably: dot notation (`L.IsLattice K`) hides the namespace, and the archive defines several unrelated declarations named `IsLattice` in its own namespaces. `port/islattice_audit.lean` asks the elaborated environment instead. It reports every declaration of the given modules whose type, or whose body if it is a definition, refers to the constant `Submodule.IsLattice`, and exits with status 1 if there are any. From the ported tree, after building the modules:
+
+```
+lake env lean --run /path/to/port/islattice_audit.lean Module.One Module.Two ...
+```
+
+Run it on every module of a packet before submitting. Run it as well before landing `unchanged` records in bulk from triage: build the modules whose pinned source mentions `IsLattice`, then audit them.
 
 ## When the port is complete
 
-When every module has a patch or an `unchanged` record, a maintainer assembles the ported tree from the pinned archive plus the patches. They then build `Main`, run the axiom audit and the Mathlib-only statement comparison, and run the independent checkers on the target toolchain. That result is reported **separately** from the replay's own verdict.
+When every module has a patch or an `unchanged` record, a maintainer assembles the ported tree from the pinned archive plus the patches. They then build `Main`, run the axiom audit, the `IsLattice` audit over all project modules and the Mathlib-only statement comparison, and run the independent checkers on the target toolchain. That result is reported **separately** from the replay's own verdict.
