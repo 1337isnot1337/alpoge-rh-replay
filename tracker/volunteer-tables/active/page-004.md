@@ -243,7 +243,6 @@
 | [@emsi](https://github.com/emsi) | [P2059](https://github.com/rohanarun/alpoge-rh-replay/issues/8389) | Claimed |
 | [@emsi](https://github.com/emsi) | [P1910](https://github.com/rohanarun/alpoge-rh-replay/issues/8425) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [P1744](https://github.com/rohanarun/alpoge-rh-replay/issues/8449) | Claimed |
-| [@emsi](https://github.com/emsi) | [P2036](https://github.com/rohanarun/alpoge-rh-replay/issues/8455) | Claimed |
 | [@angusbarry](https://github.com/angusbarry) | [M004172](https://github.com/rohanarun/alpoge-rh-replay/issues/8616) | Claimed |
 | [@angusbarry](https://github.com/angusbarry) | [M005777](https://github.com/rohanarun/alpoge-rh-replay/issues/8617) | Claimed |
 | [@angusbarry](https://github.com/angusbarry) | [M002674](https://github.com/rohanarun/alpoge-rh-replay/issues/8618) | Claimed |
@@ -252,5 +251,6 @@
 | [@emsi](https://github.com/emsi) | [P1835](https://github.com/rohanarun/alpoge-rh-replay/issues/8696) | Claimed |
 | [@SeriousRising](https://github.com/SeriousRising) | [P1870](https://github.com/rohanarun/alpoge-rh-replay/issues/8750) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M161838](https://github.com/rohanarun/alpoge-rh-replay/issues/8776) | Claimed |
-| [@CubeJerry](https://github.com/CubeJerry) | [M005540](https://github.com/rohanarun/alpoge-rh-replay/issues/8961) | Claimed |
-| [@JamCh01](https://github.com/JamCh01) | [P1848](https://github.com/rohanarun/alpoge-rh-replay/issues/8973) | Claimed |
+| [@emsi](https://github.com/emsi) | [P2017](https://github.com/rohanarun/alpoge-rh-replay/issues/8976) | Claimed |
+| [@hipotures](https://github.com/hipotures) | [P1771](https://github.com/rohanarun/alpoge-rh-replay/issues/9029) | Claimed |
+| [@WorldianAI](https://github.com/WorldianAI) | [M174815](https://github.com/rohanarun/alpoge-rh-replay/issues/9047) | Claimed |

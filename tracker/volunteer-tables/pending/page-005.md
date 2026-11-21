@@ -18,6 +18,7 @@
 | [@rayy3535](https://github.com/rayy3535) | [M064474](https://github.com/rohanarun/alpoge-rh-replay/issues/8452#issuecomment-7054431919) | Pending review |
 | [@rayy3535](https://github.com/rayy3535) | [M064878](https://github.com/rohanarun/alpoge-rh-replay/issues/8453#issuecomment-7054433285) | Pending review |
 | [@misuadn-laplace](https://github.com/misuadn-laplace) | [M005745](https://github.com/rohanarun/alpoge-rh-replay/issues/8454#issuecomment-7054427839) | Pending review |
+| [@emsi](https://github.com/emsi) | [P2036](https://github.com/rohanarun/alpoge-rh-replay/issues/8455#issuecomment-7055084503) | Pending review |
 | [@dhudakk](https://github.com/dhudakk) | [M064597](https://github.com/rohanarun/alpoge-rh-replay/issues/8456#issuecomment-7054457695) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M062612](https://github.com/rohanarun/alpoge-rh-replay/issues/8457#issuecomment-7054567159) | Pending review |
 | [@dhudakk](https://github.com/dhudakk) | [M064663](https://github.com/rohanarun/alpoge-rh-replay/issues/8458#issuecomment-7054457719) | Pending review |
@@ -253,4 +254,3 @@
 | [@matan1905](https://github.com/matan1905) | [M130230](https://github.com/rohanarun/alpoge-rh-replay/issues/8857#issuecomment-7054693479) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M005800](https://github.com/rohanarun/alpoge-rh-replay/issues/8859#issuecomment-7054854960) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M124566](https://github.com/rohanarun/alpoge-rh-replay/issues/8860#issuecomment-7054690038) | Pending review |
-| [@UnityChaos](https://github.com/UnityChaos) | [M104508](https://github.com/rohanarun/alpoge-rh-replay/issues/8861#issuecomment-7054691768) | Pending review |
