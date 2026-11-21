@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DegenerationProofs.SimilitudeDefiniteFormIsAlgebraicOnVector",
+  "source_sha256": "bd0fee2a41d8f75757a66c5bf1857606576d9d6150591dbe83d690ffe8a98606",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Drop explicit vector argument on PosSemidef.dotProduct_mulVec_zero_iff, rename finset_sum_coeff to finsetSum_coeff, and drop redundant RingHom.ext_int after congr 1. Statements are unchanged."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdjoinRootUniformiserIsDVR",
+  "source_sha256": "0b9c9431fced4b8aab5b1624fc5e91c96f719e6abd27c80a747d73e1508fa53e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass explicit constant \u03c0 to natDegree_X_pow_sub_C, use Ideal.isMaximal_under_of_isIntegral_of_isMaximal, and update IsDiscreteValuationRing.TFAE.out to 1-based indices 5 1. Statements are unchanged."
+}
