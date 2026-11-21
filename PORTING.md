@@ -11,7 +11,12 @@ The port asks a different question: does the same proof still go through on a cu
 - **Lean:** `leanprover/lean4:v4.36.0`, the latest stable release (2026-11-16).
 - **Mathlib:** `fc4f59e577feb1a4956671bc04ac18aaaf8cd842`, Mathlib's `v4.36.0` release tag.
 
-Retargeting to a later release is a separate PR that updates `port/target.json` and says which landed patches need rework.
+### Retargeting the port
+
+1. Open a separate retarget PR. Link the last full Git commit on the old target so reviewers can recover its target file, module records, patches and triage results together. Link the associated build transcripts and list the landed patches that need rework or still need testing.
+2. In the same PR, update the port pins in `port/target.json`, remove the old module JSON and patch files from `port/patches/`, and retire the old results and reports from `port/triage/`. Git preserves the originals at the linked commit. A record's pins describe the build that produced it. Carry a record forward only after a fresh successful build on the new target.
+3. Run `python3 tracker/validate_ports.py` and inspect `python3 tracker/port.py next`. Removing an active JSON record returns its module to the queue in dependency order. Depth-zero packets are eligible first, subject to existing reservations. Coordinate outstanding port issues with their claimants so each reservation refers to the intended target.
+4. Run triage on the new pins. Recover any promising patch from the linked commit, apply it to the pinned source and follow the packet build and submission steps below. Record fresh evidence even when the old patch applies verbatim.
 
 ## Triage results
 
