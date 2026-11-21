@@ -4,7 +4,6 @@
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@rohanarun](https://github.com/rohanarun) | [M005758](https://github.com/rohanarun/alpoge-rh-replay/issues/4168) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M048535](https://github.com/rohanarun/alpoge-rh-replay/issues/4172) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M105540](https://github.com/rohanarun/alpoge-rh-replay/issues/4177) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M026680](https://github.com/rohanarun/alpoge-rh-replay/issues/4181) | Claimed |
@@ -254,3 +253,4 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M028863](https://github.com/rohanarun/alpoge-rh-replay/issues/7659) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M032927](https://github.com/rohanarun/alpoge-rh-replay/issues/7758) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M032929](https://github.com/rohanarun/alpoge-rh-replay/issues/7782) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M034827](https://github.com/rohanarun/alpoge-rh-replay/issues/7803) | Claimed |

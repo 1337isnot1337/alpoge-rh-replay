@@ -4,6 +4,7 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@maxime-fleury](https://github.com/maxime-fleury) | [M006937](https://github.com/rohanarun/alpoge-rh-replay/issues/5344#issuecomment-7052604174) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M000760](https://github.com/rohanarun/alpoge-rh-replay/issues/5353#issuecomment-7052599875) | Pending review |
 | [@BenCaunt](https://github.com/BenCaunt) | [M091385](https://github.com/rohanarun/alpoge-rh-replay/issues/5484#issuecomment-7054081025) | Pending review |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M007041](https://github.com/rohanarun/alpoge-rh-replay/issues/5500#issuecomment-7052673246) | Pending review |
@@ -253,4 +254,3 @@
 | [@galakurpi](https://github.com/galakurpi) | [M087232](https://github.com/rohanarun/alpoge-rh-replay/issues/8141#issuecomment-7054121324) | Pending review |
 | [@galakurpi](https://github.com/galakurpi) | [M080351](https://github.com/rohanarun/alpoge-rh-replay/issues/8142#issuecomment-7054122720) | Pending review |
 | [@galakurpi](https://github.com/galakurpi) | [M163992](https://github.com/rohanarun/alpoge-rh-replay/issues/8143#issuecomment-7054124233) | Pending review |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M173533](https://github.com/rohanarun/alpoge-rh-replay/issues/8144#issuecomment-7054245059) | Pending review |
