@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SelectionLemmas",
+  "source_sha256": "403c7963e5064fe2d3bc0cbcd26d67dbd394c8c66f5e74298842d4f4b955b27b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

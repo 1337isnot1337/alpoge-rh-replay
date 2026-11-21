@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.RootEqOne",
+  "source_sha256": "0b3186b4d4d5aa3ca3fbfb5aff8abb03e82aeb90abf0e52564b334ae9773c7e1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

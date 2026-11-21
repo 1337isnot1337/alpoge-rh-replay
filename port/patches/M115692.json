@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SchwartzBilinear.CongruenceSubgroupHecke",
+  "source_sha256": "40ab501fa0d90f65e17008abc730235820716b71c9d2dd84e86a2f307f5a4505",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

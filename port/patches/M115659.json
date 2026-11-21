@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.QuantumMinorsCasimir",
+  "source_sha256": "50de1aa83b03b4a4952dc41c9d1306b6aceb8df82406f1d56c826be5efd67bcc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

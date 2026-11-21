@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.RegularUnitPoints",
+  "source_sha256": "1199f9ca51d7ec0063c34285b1b8637b99d042dde58c0f7c0a85871e74c21553",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

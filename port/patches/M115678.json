@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.RestrictedProductMeasureSet",
+  "source_sha256": "1cb751fea7f475b3c0065d40902946da4bfa9987c66dfc23803c350b06e725cb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove the obsolete explicit argument of measurable_pi_lambda; theorem statements unchanged."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ProjectionCompact",
+  "source_sha256": "fc0c68e9fa0de471f5aafa07d0386cce052d3baa22479d73b3c9307c4031ed81",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

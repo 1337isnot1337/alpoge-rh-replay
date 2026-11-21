@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ProjectiveLineOf",
+  "source_sha256": "cdba2b937f365fb7a11cfcc910e11db702bce7212e8f5525a76487e5e6207a8f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

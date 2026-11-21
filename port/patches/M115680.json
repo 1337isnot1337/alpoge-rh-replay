@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.RightCosetSpaceCompact",
+  "source_sha256": "fe5a463fe7e5910baed0bbd6d278b8bdf6513346006cd5dab39c057165c60414",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
