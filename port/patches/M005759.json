@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.MulLogEqNegLogMul",
+  "source_sha256": "da147d12072c2ad4ce977d5eadf9d7439a4fb7e65d11da9743e49f237f5b0df0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use Matrix.neg_apply for the matrix negation operation. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0097-lean436-20261121/packet-result.json"
+}

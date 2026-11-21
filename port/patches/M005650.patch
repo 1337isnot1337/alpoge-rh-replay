@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/HilbertFinitenessLeftInvariantMatrixPoly.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/HilbertFinitenessLeftInvariantMatrixPoly.lean
+@@ -75,7 +75,7 @@
+     | _ n ih =>
+       intro f hf hn
+       rcases Nat.eq_zero_or_pos n with rfl | hpos
+-      · have : f = C (coeff 0 f) := by
++      · have : f = C (f.coeff 0) := by
+           rw [← homogeneousComponent_zero, homogeneousComponent_of_mem hn, if_pos rfl]
+         rw [this]
+         exact Subalgebra.algebraMap_mem _ _
