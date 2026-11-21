@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntSmulMemOfIsLattice",
+  "source_sha256": "07e838b70f55116ef0a4a4e10bedf37ff107c8f4c4f93b66bdffc5caaec3d657",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Update Submodule.IsLattice to Submodule.IsFullLattice following the Mathlib v4.36.0 rename (statement is unchanged up to this identifier rename)."
+}

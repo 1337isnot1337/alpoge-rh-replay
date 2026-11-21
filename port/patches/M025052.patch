@@ -1,0 +1,28 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsEtaleModelOfIsColimit.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsEtaleModelOfIsColimit.lean
+@@ -49,8 +49,8 @@ theorem exists_etale_model_of_isColimit :
+     intro m
+     have h0 : (c.ι.app j).hom (E.coeff m) = (c.ι.app j).hom 0 := by
+       rw [map_zero]
+-      have := congr(MvPolynomial.coeff (m : ι →₀ ℕ) $hE)
+-      simp only [MvPolynomial.coeff_map, MvPolynomial.coeff_zero] at this
++      have := congr(($hE).coeff (m : ι →₀ ℕ))
++      simp only [MvPolynomial.coeff_map, MvPolynomial.coeff_zero, Finsupp.zero_apply] at this
+       exact this
+     obtain ⟨k, f, e⟩ := (Types.FilteredColimit.isColimit_eq_iff' hc' (E.coeff m) 0).1 (by exact h0)
+     exact ⟨k, f, by simpa using e⟩
+@@ -60,13 +60,12 @@ theorem exists_etale_model_of_isColimit :
+   set g : j ⟶ K := c'.ι.app none
+   have hEK : E.map (D.map g).hom = 0 := by
+     ext m
+-    rw [MvPolynomial.coeff_map, MvPolynomial.coeff_zero]
++    simp only [MvPolynomial.coeff_map, MvPolynomial.coeff_zero, Finsupp.zero_apply]
+     by_cases hm : m ∈ E.support
+     · have hw := c'.w (WidePushoutShape.Hom.init ⟨m, hm⟩)
+       have h3 : (D.map g).hom (E.coeff m) = (D.map ((WidePushoutShape.wideSpan j k f).map
+           (WidePushoutShape.Hom.init ⟨m, hm⟩) ≫ c'.ι.app (some ⟨m, hm⟩))).hom (E.coeff m) := by
+         rw [hw]
+-        rfl
+       rw [h3, Functor.map_comp, CommRingCat.hom_comp, RingHom.comp_apply]
+       erw [hf ⟨m, hm⟩]
+       exact map_zero _
