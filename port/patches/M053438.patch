@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionBasisRelationsDivisible.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionBasisRelationsDivisible.lean
+@@ -43,7 +43,7 @@
+       exact ⟨(a, b), rfl⟩
+   have hindψ : ψ.ker.index = N ^ (2 * Module.finrank ℚ F) := by
+     rw [AddSubgroup.index_ker, ← hc]
+-    exact Nat.card_congr (Equiv.setCongr hrange)
++    exact Nat.card_congr (Set.equivOfEq hrange)
+   have hcardR : Nat.card (𝓞 F ⧸ I) = N ^ Module.finrank ℚ F := by
+     have h1 := Ideal.absNorm_span_singleton (S := 𝓞 F) (N : 𝓞 F)
+     rw [Ideal.absNorm_apply, Submodule.cardQuot_apply] at h1
