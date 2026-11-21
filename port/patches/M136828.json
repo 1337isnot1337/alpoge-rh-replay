@@ -1,0 +1,7 @@
+{
+  "module": "Development.ResolutionOfSingularities.EmbeddedResolution.ResolutionOfSingularities",
+  "source_sha256": "256caf835fef583b3dcc566c38d3a7da630504d5d57e1b3cfab139d06ded2e68",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
