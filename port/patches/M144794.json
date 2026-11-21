@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.ExistsInvOneAdd",
+  "source_sha256": "a8789d02cf9be23ff13c034cd356cde6827e6a92d51acc7c5bccfe6d9dde2173",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0147-lean436-20261121/packet-result.json"
+}

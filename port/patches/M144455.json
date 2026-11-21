@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FlagUnipotentLattices.PairingOrthogonalComplement",
+  "source_sha256": "a9025bd9b2ed8af7de2c8b59f8c4d4249586bc3a097cf3dcf3c48c5fad283a58",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0147-lean436-20261121/packet-result.json"
+}

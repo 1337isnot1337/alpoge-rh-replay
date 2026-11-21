@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoWeightedTprod",
+  "source_sha256": "5d6df16155cae68455f3dd50d9dfe03fbb3f0b90117b5002656d73d4908ba7dd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0147-lean436-20261121/packet-result.json"
+}

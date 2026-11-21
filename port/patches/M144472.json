@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FockGram.StatementFock",
+  "source_sha256": "2b7a4f67c15ce8618105f6594a23d0da81452382242683256fe7633c9f836767",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent matrix-entry definition: read the coefficient of the same multiset exponent in the same polynomial product with the new coefficient argument order.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0147-lean436-20261121/packet-result.json"
+}

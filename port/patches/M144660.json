@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.PNTDHFinishB",
+  "source_sha256": "df14266e51a45042df2c6d46fb632aab880e0fe84eab34e3e11aa2f93c5b58d1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0147-lean436-20261121/packet-result.json"
+}
