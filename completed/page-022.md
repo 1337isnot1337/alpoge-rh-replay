@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M014777 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddHaarCharLeftRightMatrixMulAdeleTensorStatement` | volunteer-build-reviewed |
+| M014778 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddHaarCharSkewHermitianNormScale` | volunteer-build-reviewed |
+| M014779 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddHaarCharSkewHermitianNormScaleStatement` | volunteer-build-reviewed |
+| M014780 | P0918 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddMulLeOfPowLeOfLarge` | build-observed |
+| M014781 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddMulLeOfPowLeOfLargeStatement` | build-observed |
+| M014782 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddSumIntegral` | volunteer-build-reviewed |
+| M014783 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddValuationNatCastEqPadicValNat` | volunteer-build-reviewed |
+| M014784 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddValuationNatCastEqPadicValNatStatement` | volunteer-build-reviewed |
+| M014786 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveBijectiveRelationRowVecEqMatrixStatement` | volunteer-build-reviewed |
+| M014787 | P2447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveClassDegreeTwoStructureSheafVanish` | volunteer-build-reviewed |
+| M014789 | P2447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveClassDegreeTwoVanishAffineBases` | volunteer-build-reviewed |
+| M014791 | P0296 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveCocycleLocalTrivial` | build-observed |
 | M014792 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveCocycleLocalTrivialStatement` | build-observed |
 | M014793 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveCocycleNormalizedTrivial` | build-observed |
 | M014794 | P0649 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveCocycleNormalizedTrivialStatement` | build-observed |
@@ -252,6 +264,7 @@
 | M015319 | P0296 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraNormRatGaussianExtensionOfPairStatement` | build-observed |
 | M015320 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraTraceMapOfCokernelKilledByScalar` | wave-reused |
 | M015321 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraTraceMapOfCokernelKilledByScalarStatement` | wave-reused |
+| M015332 | P1858 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraicChartSmooth` | volunteer-build-reviewed |
 | M015336 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraicFormNormEqAtConjugateEmbedding` | volunteer-build-reviewed |
 | M015337 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraicFormNormEqAtConjugateEmbeddingStatement` | volunteer-build-reviewed |
 | M015343 | P1618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraicMorseExistsSectionAmpleSubGenerated` | wave-reused |
@@ -389,16 +402,3 @@
 | M015711 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSlabCoveredByTranslatesOfSmallerSlabStatement` | volunteer-build-reviewed |
 | M015713 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSlabOpenUnitCubeHaarPosFiniteStatement` | volunteer-build-reviewed |
 | M015714 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSmoothBumpWithTrigonometricExpansion` | volunteer-build-reviewed |
-| M015715 | P2052 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSmoothBumpWithTrigonometricExpansionStatement` | volunteer-build-reviewed |
-| M015720 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSplittingsDifferByCharacter` | volunteer-build-reviewed |
-| M015721 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSplittingsDifferByCharacterStatement` | volunteer-build-reviewed |
-| M015723 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanStandardCharEqExpRealLinearStatement` | volunteer-build-reviewed |
-| M015724 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSumSizeBoundLargeDataFromFactors` | volunteer-build-reviewed |
-| M015725 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSumSizeBoundLargeDataFromFactorsStatement` | volunteer-build-reviewed |
-| M015726 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSymplecticSplitting` | volunteer-build-reviewed |
-| M015731 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanThetaLocalAction` | volunteer-build-reviewed |
-| M015732 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanThetaLocalActionStatement` | volunteer-build-reviewed |
-| M015733 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanThetaPolynomialLiftExists` | volunteer-build-reviewed |
-| M015738 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanTraceSymplecticFormOrthonormalFramesStatement` | volunteer-build-reviewed |
-| M015739 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanTraceSymplecticOrthonormalFrames` | volunteer-build-reviewed |
-| M015741 | P1301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanTruncatedRowUnipotentInvariantNonzero` | build-observed |

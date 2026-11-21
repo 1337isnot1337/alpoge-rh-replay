@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M061331"
+  ],
+  "started_utc": "2026-11-21T13:20:39.699917+00:00",
+  "ended_utc": "2026-11-21T13:21:54.352956+00:00",
+  "elapsed_seconds": 74.7,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5812568
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.DifferentiableAtGP:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d30c638b3f60bb7f023f1168b0e5c7562347d7183e58df495c59a93c483ac5e7",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.CthFac",
+    "Development.AbelianVarietyTheory.Definitions.Foundations.Imports",
+    "Development.AbelianVarietyTheory.Definitions.Foundations.MultipliableAndSgNeZero"
+  ],
+  "objects": {
+    "M061331": "786049658decf1b43b301c08520360c8d2bc2dc125c7efa91ffd9e53095b9ecd"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "67fddedfd894b1f64b182b7b7d65c49a84e4fb602bce883aa47a6db900866601",
+  "packet": "M061331",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22181#issuecomment-7063224616",
+  "reviewed_utc": "2026-11-21T17:38:40.447504+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

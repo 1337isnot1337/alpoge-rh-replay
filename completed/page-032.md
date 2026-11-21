@@ -2,6 +2,26 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M024060 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoboundaryOfNormOneInSubalgebraStatement` | wave-reused |
+| M024064 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCochainEvEqOfNatural` | wave-reused |
+| M024065 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCochainEvEqOfNaturalStatement` | wave-reused |
+| M024066 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCochainMapOfFibreCocyclePairing` | build-observed |
+| M024067 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCochainMapOfFibreCocyclePairingStatement` | build-observed |
+| M024070 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleLiftingLineBundleTransitionUnits` | wave-reused |
+| M024071 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleLiftingLineBundleTransitionUnitsStatement` | wave-reused |
+| M024072 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleOfMapToDegreeOneTerm` | wave-reused |
+| M024073 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleOfMapToDegreeOneTermStatement` | wave-reused |
+| M024074 | P2224 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocyclePullbackRepresentation` | volunteer-build-reviewed |
+| M024076 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleUnit` | volunteer-build-reviewed |
+| M024078 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoefAtOfPosDef` | volunteer-build-reviewed |
+| M024086 | P2450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoefficientDataOfNonzeroSectionStatement` | volunteer-build-reviewed |
+| M024090 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoefficientMapExtensionRationalValuesStatement` | volunteer-build-reviewed |
+| M024092 | P2246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoefficientPolynomialGLFunctionNeZeroStatement` | volunteer-build-reviewed |
+| M024096 | P2450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoeffwiseDerivationMvPowerSeriesStatement` | volunteer-build-reviewed |
+| M024097 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCofilteredLimitAffineEtaleOfIsStalk` | build-observed |
+| M024098 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCofilteredLimitAffineEtaleOfIsStalkStatement` | build-observed |
+| M024101 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoinducedSheafInjectiveResolutionFreeExact` | wave-reused |
+| M024102 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoinducedSheafInjectiveResolutionFreeExactStatement` | wave-reused |
 | M024103 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsColReduced` | wave-reused |
 | M024104 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsColumnCharacterEigenSubmoduleNeBot` | build-observed |
 | M024105 | P0867 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsColumnCharacterEigenSubmoduleNeBotStatement` | build-observed |
@@ -382,23 +402,3 @@
 | M024870 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrExtensionOfEssentiallyEtaleLocal` | volunteer-build-reviewed |
 | M024871 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrExtensionOfEssentiallyEtaleLocalStatement` | volunteer-build-reviewed |
 | M024872 | P2839 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrExtensionTargetGenericCorrespondence` | volunteer-build-reviewed |
-| M024874 | P2478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrFactorPointPadicAlgClosure` | volunteer-build-reviewed |
-| M024876 | P2393 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrLiftOfGeometricPoint` | volunteer-build-reviewed |
-| M024880 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrOfDimOne` | volunteer-build-reviewed |
-| M024881 | P2364 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrOverHeightOne` | volunteer-build-reviewed |
-| M024882 | P2393 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrOverHeightOneStatement` | volunteer-build-reviewed |
-| M024883 | P2364 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrPlaceEquivOfRingEquivOverConstants` | volunteer-build-reviewed |
-| M024884 | P2393 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrPlaceEquivOfRingEquivOverConstantsStatement` | volunteer-build-reviewed |
-| M024885 | P2364 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrPlaceOfPrimeElementOfNormalLocalModel` | volunteer-build-reviewed |
-| M024886 | P2393 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrPlaceOfPrimeElementOfNormalLocalModelStatement` | volunteer-build-reviewed |
-| M024887 | P2450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrPowEqPrime` | volunteer-build-reviewed |
-| M024888 | P2364 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsE8FormValueCoprimeOddPrimePow` | volunteer-build-reviewed |
-| M024889 | P2393 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsE8FormValueCoprimeOddPrimePowStatement` | volunteer-build-reviewed |
-| M024890 | P2393 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsE8ThetaPowerOverModuliDomain` | volunteer-build-reviewed |
-| M024892 | P2393 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsE8WeightedBundleIsoPullback` | volunteer-build-reviewed |
-| M024895 | P2364 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEffCartierOfOrders` | volunteer-build-reviewed |
-| M024896 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEffectiveCartierDivisorAddEffective` | build-observed |
-| M024897 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEffectiveCartierDivisorAddEffectiveStatement` | volunteer-build-reviewed |
-| M024898 | P2291 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEffectiveCartierDivisorPullbackOfDominant` | volunteer-build-reviewed |
-| M024902 | P2393 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEffectiveQDivisorOffPointAmpleClass` | volunteer-build-reviewed |
-| M024906 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEigenBasisSameVec` | volunteer-build-reviewed |

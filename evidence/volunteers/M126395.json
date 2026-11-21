@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M126395"
+  ],
+  "started_utc": "2026-11-21T13:32:29.827917+00:00",
+  "ended_utc": "2026-11-21T13:46:10.534945+00:00",
+  "elapsed_seconds": 820.6,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5610088
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ParabolicFundamentalDomainSplit:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "caacbacd0896a8fd079142e0e8d2426ebee62b21337fed22a61adae76f7341c1",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.EncardSmulMemLeEncardSmulInterNonempty",
+    "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsIsFundamentalDomainAndQuotMeasureEq"
+  ],
+  "objects": {
+    "M126395": "a705da50c54193c382b868452be3a322b0c283b644d5d4cc511d72c92332fb0a"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "34b2b5af7fb469ab9e85724822270128d325c27a32a9705ad07b9430d0433f9a",
+  "packet": "M126395",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22151#issuecomment-7063573242",
+  "reviewed_utc": "2026-11-21T17:38:56.937959+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

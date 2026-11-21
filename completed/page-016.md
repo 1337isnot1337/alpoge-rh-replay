@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M010216 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearLawLocalModelInvStatement` | volunteer-build-reviewed |
+| M010217 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearLawLocalModelMulClosed` | volunteer-build-reviewed |
+| M010218 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearLawLocalModelMulClosedStatement` | volunteer-build-reviewed |
+| M010219 | P0583 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearMapKillingPartialEvalIntegralKernelTransla` | build-observed |
+| M010220 | P0616 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearMapKillingPartialEvalIntegralKernelTranslaStatement` | build-observed |
+| M010221 | P0583 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearMapKillsPartialEvalIntegralKernelOfLaws` | build-observed |
+| M010222 | P0616 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearMapKillsPartialEvalIntegralKernelOfLawsStatement` | build-observed |
 | M010227 | P1957 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearModelTwistPlaceInThetaFunctions` | volunteer-build-reviewed |
 | M010228 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearModelTwistPlaceInThetaFunctionsStatement` | volunteer-build-reviewed |
 | M010229 | P0348 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearWeilActionSupportAndPeriodIntegral` | volunteer-build-reviewed |
@@ -287,6 +294,7 @@
 | M010594 | P1085 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NodesOfSizeData` | volunteer-build-reviewed |
 | M010597 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NonemptyColCh` | volunteer-build-reviewed |
 | M010599 | P1957 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NonemptyConcreteRowDataOfFinitenessBundleStatement` | volunteer-build-reviewed |
+| M010604 | P1420 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormCmExtensionSplitPlaceEqZpow` | volunteer-build-reviewed |
 | M010605 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormCmExtensionSplitPlaceEqZpowStatement` | volunteer-build-reviewed |
 | M010606 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormEigenvalueLeOne` | volunteer-build-reviewed |
 | M010608 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormLastValuationNeOfRankZero` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M010747 | P0616 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PartialReductionLowerEntryMultiplicationLawStatement` | build-observed |
 | M010748 | P0583 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PartialReductionUpperFreeEntryTranslationLaw` | build-observed |
 | M010749 | P0617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PartialReductionUpperFreeEntryTranslationLawStatement` | build-observed |
-| M010752 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PenultimateDatumUnchangedFramesCongruentOne` | volunteer-build-reviewed |
-| M010754 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PenultimateStepPsiRationalRepEqColumnsDatum` | volunteer-build-reviewed |
-| M010755 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PenultimateStepPsiRationalRepEqColumnsDatumStatement` | volunteer-build-reviewed |
-| M010757 | P2133 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PeriodGroupsReduceSplitPlaceFamilySuccStatement` | volunteer-build-reviewed |
-| M010758 | P1995 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PeriodIdealZpowCompletionAdeleConjIff` | volunteer-build-reviewed |
-| M010759 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PeriodIdealZpowCompletionAdeleConjIffStatement` | volunteer-build-reviewed |
-| M010760 | P1995 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PeriodLatticeHalvesRepsFiniteIndex` | volunteer-build-reviewed |
-| M010761 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PeriodLatticeHalvesRepsFiniteIndexStatement` | volunteer-build-reviewed |

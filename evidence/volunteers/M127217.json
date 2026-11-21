@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M127217"
+  ],
+  "started_utc": "2026-11-21T13:07:32.045493+00:00",
+  "ended_utc": "2026-11-21T13:07:39.531570+00:00",
+  "elapsed_seconds": 9.8,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6838972
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ScalingMeasureProductArchimedean:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "21e30fb7c9c8d3b9273d59645d86c15d79d61b609a8c05a85ae2cd12e35a7897",
+  "rebuilt_project_modules": [
+    "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.InfiniteAdelesLocalRingTotallyReal"
+  ],
+  "objects": {
+    "M127217": "94e210818121fed05c2023ad4637728141cc6627d85db683bbebde7e92c9f639"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "7eced1c94fdc2226ac07958a3ab3d64b875e6590c3fa5a67523e9ae5c6620f0c",
+  "packet": "M127217",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22006#issuecomment-7063110143",
+  "reviewed_utc": "2026-11-21T17:40:01.467068+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

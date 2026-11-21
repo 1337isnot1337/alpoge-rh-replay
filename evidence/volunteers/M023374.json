@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M023374"
+  ],
+  "started_utc": "2026-11-21T13:46:41.976059+00:00",
+  "ended_utc": "2026-11-21T13:52:40.590091+00:00",
+  "elapsed_seconds": 358.6,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 6460280
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineCombinationSquareZeroLiftsChart:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d951969583918eab4ad6b5b3ab06ccc0e2dc5395c529ee86472a5d6fc44d44a8",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsCombIn",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LiftAt",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PreimageEqOfSquareZeroThickening"
+  ],
+  "objects": {
+    "M023374": "03ac6e31e552acbfef90524544dde836a81a2b4c3702763497f048dd86b42c9a"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "5b9cd7a7d272d8b28cbb7b80966be40778dc035d2158d5bc570b1673065116cf",
+  "packet": "M023374",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22205#issuecomment-7063889695",
+  "reviewed_utc": "2026-11-21T17:38:23.386326+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

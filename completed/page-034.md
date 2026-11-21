@@ -2,6 +2,26 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M025629 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFrameDenominatorDominantWeightPowerCmStatement` | volunteer-build-reviewed |
+| M025630 | P1004 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFrameFactorOfAutomorphyLog` | build-observed |
+| M025631 | P1031 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFrameFactorOfAutomorphyLogStatement` | build-observed |
+| M025632 | P2393 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFrameIn` | volunteer-build-reviewed |
+| M025636 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFrameOfProjective` | volunteer-build-reviewed |
+| M025637 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFrameOkEig` | volunteer-build-reviewed |
+| M025644 | P2291 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFramedPointLiesOnComponentCmCurveFieldStatement` | volunteer-build-reviewed |
+| M025645 | P2291 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFramedPointOfCompactFlagSpaceOpenPart` | volunteer-build-reviewed |
+| M025647 | P2178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFramesFockMapPolynomialLieActions` | volunteer-build-reviewed |
+| M025648 | P2188 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFramesFockMapPolynomialLieActionsStatement` | volunteer-build-reviewed |
+| M025650 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFreeComplexMumfordBundleOrigin` | volunteer-build-reviewed |
+| M025651 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFreeComplexMumfordBundleOriginStatement` | volunteer-build-reviewed |
+| M025653 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFreeComplexPrimitiveLineBundleCechFibresStatement` | volunteer-build-reviewed |
+| M025662 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFrob` | volunteer-build-reviewed |
+| M025665 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFrobeniusEndomorphism` | volunteer-build-reviewed |
+| M025666 | P2557 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFrobeniusEndomorphismStatement` | volunteer-build-reviewed |
+| M025669 | P1398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFrobeniusLiftStalk` | build-observed |
+| M025672 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFrobeniusTwistedFrame` | wave-reused |
+| M025673 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFrobeniusTwistedFrameStatement` | wave-reused |
+| M025674 | P2393 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFromBase` | volunteer-build-reviewed |
 | M025675 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFubiniStudyOfTotallyOrderedRatFnFamily` | volunteer-build-reviewed |
 | M025676 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFubiniStudyOfTotallyOrderedRatFnFamilyStatement` | volunteer-build-reviewed |
 | M025679 | P2246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFullLevelGroupDataSameCovolume` | volunteer-build-reviewed |
@@ -166,6 +186,7 @@
 | M026054 | P2364 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHarmonicPolynomialLocalDepthBetweenStatement` | volunteer-build-reviewed |
 | M026068 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHarrisTaylorObjectPullbackAlong` | volunteer-build-reviewed |
 | M026075 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHasInfCharGL` | volunteer-build-reviewed |
+| M026076 | P1922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHasLocalSmall` | volunteer-build-reviewed |
 | M026077 | P1668 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHasNonzeroSecPowOfAmpleSubAmple` | wave-reused |
 | M026078 | P1692 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHasNonzeroSecPowOfAmpleSubAmpleStatement` | wave-reused |
 | M026079 | P2178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHasSatakeOfUnrT` | volunteer-build-reviewed |
@@ -381,24 +402,3 @@
 | M026493 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntersectionFormPicardDoubleSpaceStatement` | volunteer-build-reviewed |
 | M026494 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntertwiningBijectiveOfFieldBaseChange` | volunteer-build-reviewed |
 | M026495 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntertwiningBijectiveOfFieldBaseChangeStatement` | volunteer-build-reviewed |
-| M026498 | P2291 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvFunEqMinIntLinearFormsOnCones` | volunteer-build-reviewed |
-| M026500 | P2211 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvOfRoot` | volunteer-build-reviewed |
-| M026501 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvariantDerivationOfCounitalComul` | volunteer-build-reviewed |
-| M026502 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvariantDerivationOfCounitalComulStatement` | volunteer-build-reviewed |
-| M026503 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvariantDerivationsQuotientBialgebra` | volunteer-build-reviewed |
-| M026504 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvariantDerivationsQuotientBialgebraStatement` | volunteer-build-reviewed |
-| M026507 | P2211 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvariantFormDoubledSpaceSplitPlace` | volunteer-build-reviewed |
-| M026508 | P2224 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvariantFormDoubledSpaceSplitPlaceStatement` | volunteer-build-reviewed |
-| M026515 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvariantOneFormFrameAbelianScheme` | volunteer-build-reviewed |
-| M026516 | P2557 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvariantOneFormFrameAbelianSchemeStatement` | volunteer-build-reviewed |
-| M026517 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvariantPosDefHermitian` | volunteer-build-reviewed |
-| M026518 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvariantPosDefHermitianStatement` | volunteer-build-reviewed |
-| M026529 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvariantWachModuleBasisOfNonnegJumps` | volunteer-build-reviewed |
-| M026536 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInverseDifferentLocalUnitStatement` | volunteer-build-reviewed |
-| M026538 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInverseDifferentMaxValuationStatement` | volunteer-build-reviewed |
-| M026541 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInversePreservingAdelicLatticeAtPlace` | volunteer-build-reviewed |
-| M026542 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInversePreservingAdelicLatticeAtPlaceStatement` | volunteer-build-reviewed |
-| M026543 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInverseUnipotentVolumeConjDiagonalEq` | volunteer-build-reviewed |
-| M026545 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInversionCoordinateLocalizationPolynomial` | volunteer-build-reviewed |
-| M026546 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInversionCoordinateLocalizationPolynomialStatement` | volunteer-build-reviewed |
-| M026549 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvolutiveAlgebraAdjoinRootSelfReciprocal` | volunteer-build-reviewed |

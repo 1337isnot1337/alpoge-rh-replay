@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M009692 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralFrameMatrixIffMemSplitHalfHomLattice` | volunteer-build-reviewed |
+| M009693 | P2065 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralFrameMatrixIffMemSplitHalfHomLatticeStatement` | volunteer-build-reviewed |
+| M009694 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralGLCommensuratedDoubleCosetCardInvSymm` | volunteer-build-reviewed |
+| M009695 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralGLCommensuratedDoubleCosetCardInvSymmStatement` | volunteer-build-reviewed |
+| M009696 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralHeisenbergInvariantFormsProportional` | volunteer-build-reviewed |
+| M009697 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralHeisenbergInvariantFormsProportionalStatement` | volunteer-build-reviewed |
 | M009699 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralIndicatorGivesLocalVacuumSplitPlace` | volunteer-build-reviewed |
 | M009700 | P1788 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralIndicatorGivesLocalVacuumSplitPlaceStatement` | volunteer-build-reviewed |
 | M009701 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralKernelLiftsFubiniSigmaFinite` | volunteer-build-reviewed |
@@ -41,6 +47,7 @@
 | M009742 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InvariantIntegralInStagesStatement` | volunteer-build-reviewed |
 | M009743 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InvariantIntegralSuccPositionEqExchange` | build-observed |
 | M009744 | P0550 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InvariantIntegralSuccPositionEqExchangeStatement` | build-observed |
+| M009745 | P0296 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InvariantOfTsupport` | volunteer-build-reviewed |
 | M009748 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InverseDifferentCompletionIffCharacterDual` | volunteer-build-reviewed |
 | M009749 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InverseDifferentCompletionIffCharacterDualStatement` | volunteer-build-reviewed |
 | M009750 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InverseDifferentPowCompletionTrivialAtSplitPlace` | volunteer-build-reviewed |
@@ -395,10 +402,3 @@
 | M010213 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearIndependentScaledBasisColumnsMatrixTranspo` | volunteer-build-reviewed |
 | M010214 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearIndependentScaledBasisColumnsMatrixTranspoStatement` | volunteer-build-reviewed |
 | M010215 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearLawLocalModelInv` | volunteer-build-reviewed |
-| M010216 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearLawLocalModelInvStatement` | volunteer-build-reviewed |
-| M010217 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearLawLocalModelMulClosed` | volunteer-build-reviewed |
-| M010218 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearLawLocalModelMulClosedStatement` | volunteer-build-reviewed |
-| M010219 | P0583 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearMapKillingPartialEvalIntegralKernelTransla` | build-observed |
-| M010220 | P0616 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearMapKillingPartialEvalIntegralKernelTranslaStatement` | build-observed |
-| M010221 | P0583 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearMapKillsPartialEvalIntegralKernelOfLaws` | build-observed |
-| M010222 | P0616 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearMapKillsPartialEvalIntegralKernelOfLawsStatement` | build-observed |

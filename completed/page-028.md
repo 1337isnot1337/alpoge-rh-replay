@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M020512 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DbarSumLeibnizStatement` | volunteer-build-reviewed |
+| M020513 | P1668 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DblCol` | volunteer-build-reviewed |
+| M020515 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DblOpOfConst` | volunteer-build-reviewed |
+| M020517 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DdbarFormInterpolatedHermitian` | build-observed |
+| M020518 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DdbarFormInterpolatedHermitianStatement` | build-observed |
+| M020519 | P2420 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DdbarLogDetSubmatrixCurvature` | volunteer-build-reviewed |
+| M020525 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DdcCompHolomorphic` | volunteer-build-reviewed |
+| M020526 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DdcEqOfLocalEq` | volunteer-build-reviewed |
+| M020528 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DdcEqualDifferencePluriharmonic` | volunteer-build-reviewed |
+| M020529 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DdcEqualDifferencePluriharmonicStatement` | volunteer-build-reviewed |
+| M020530 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DdcExtensionTraceChernForms` | volunteer-build-reviewed |
+| M020535 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DdcLaplacianLocalFormulaSphere` | volunteer-build-reviewed |
+| M020541 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DdcLogVertical` | build-observed |
+| M020542 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DdcLogVerticalStatement` | build-observed |
+| M020543 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DdcOfValuesEq` | volunteer-build-reviewed |
+| M020547 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DdcSubOfContDiffOn` | volunteer-build-reviewed |
+| M020548 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DdcSubOfContDiffOnStatement` | volunteer-build-reviewed |
 | M020549 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DdcVanishesOffSupport` | volunteer-build-reviewed |
 | M020557 | P2390 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeRhamBasisBaseChange` | build-observed |
 | M020558 | P2420 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeRhamBasisBaseChangeStatement` | volunteer-build-reviewed |
@@ -207,6 +224,7 @@
 | M021115 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetNeZeroOfIsHypPl` | volunteer-build-reviewed |
 | M021117 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetNeZeroOfIsSkew` | volunteer-build-reviewed |
 | M021119 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetNeZeroOfSig` | volunteer-build-reviewed |
+| M021120 | P1668 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetNeZeroOfSkewHermitianSelfDualLatticeSpace` | volunteer-build-reviewed |
 | M021122 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetNearOneMatrixNormBounds` | volunteer-build-reviewed |
 | M021123 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetNearOneMatrixNormBoundsStatement` | volunteer-build-reviewed |
 | M021124 | P1859 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetOmegaEqConstMulDet` | build-observed |
@@ -384,21 +402,3 @@
 | M021467 | P2246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DividedPowerRowOperatorMemDualWeylEndSubalgebra` | volunteer-build-reviewed |
 | M021468 | P2256 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DividedPowerRowOperatorMemDualWeylEndSubalgebraStatement` | volunteer-build-reviewed |
 | M021489 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisibilityOfVanishingPowers` | wave-reused |
-| M021490 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisibilityOfVanishingPowersStatement` | wave-reused |
-| M021492 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisibleAlgClosureOfKillsTorsionSepClosedStatement` | volunteer-build-reviewed |
-| M021493 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisionAlgebraOrderNoSmallLattice` | volunteer-build-reviewed |
-| M021494 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisionAlgebraOrderNoSmallLatticeStatement` | volunteer-build-reviewed |
-| M021499 | P1031 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorAlgebraicStatement` | build-observed |
-| M021503 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorDescentFlatNormalDomains` | build-observed |
-| M021504 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorDescentFlatNormalDomainsStatement` | build-observed |
-| M021505 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorDetOmegaSymSum` | volunteer-build-reviewed |
-| M021508 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorEqOfSectionsEqStatement` | volunteer-build-reviewed |
-| M021522 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorNormPullbackComponent` | volunteer-build-reviewed |
-| M021524 | P2507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorOfTensorSectionAdd` | build-observed |
-| M021530 | P2556 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorProofsFact` | build-observed |
-| M021531 | P2576 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorProofsFactStatement` | build-observed |
-| M021533 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorRelationIntegralScalingStatement` | volunteer-build-reviewed |
-| M021537 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorSupportTransferRankStatement` | volunteer-build-reviewed |
-| M021540 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorsOfConstantsAllPrimesOfClosedFibre` | volunteer-build-reviewed |
-| M021541 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorsOfConstantsAllPrimesOfClosedFibreStatement` | build-observed |
-| M021542 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorsOfConstantsClosedPointsOfOrigin` | volunteer-build-reviewed |

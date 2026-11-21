@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M045600"
+  ],
+  "started_utc": "2026-11-21T13:05:57.795170+00:00",
+  "ended_utc": "2026-11-21T13:06:10.080069+00:00",
+  "elapsed_seconds": 14.6,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6889808
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodChartUniformConstantsHalfPolydisc:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4607c5b6175d7e309f2c817bcc0a453ab6355bd48a2ce3ab6909844eda755d77",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.AnalyticForms.AnalyticCharts.Osgood",
+    "ReciprocityTheory.AnalyticForms.AnalyticCharts.OsgoodA"
+  ],
+  "objects": {
+    "M045600": "9168df40a02015812da7fbc6f7cdf02ab301ffc63e48ac2f5b5a795fe006a980"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "0255baf8fff678c28656a3947f10da602ace052b16a0d3f9429c107315eedb46",
+  "packet": "M045600",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22002#issuecomment-7063102049",
+  "reviewed_utc": "2026-11-21T17:40:02.015109+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

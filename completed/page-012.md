@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M007595 | P2133 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdditiveCharacterCongruenceInvariance` | volunteer-build-reviewed |
+| M007596 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdditiveCharacterCongruenceInvarianceStatement` | volunteer-build-reviewed |
+| M007597 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdditiveCharacterOneNe` | volunteer-build-reviewed |
+| M007615 | P1473 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicPointComponentsAtPlacesLatticesVacua` | volunteer-build-reviewed |
+| M007616 | P1502 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicPointComponentsAtPlacesLatticesVacuaStatement` | volunteer-build-reviewed |
 | M007617 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicPointNearCuspScale` | volunteer-build-reviewed |
 | M007618 | P1616 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicPointNearCuspScaleStatement` | build-observed |
 | M007619 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicSchwartzSlicePolynomialGaussianOfAnnihilat` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M008601 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsGAtAllPlaces` | volunteer-build-reviewed |
 | M008603 | P1473 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsGLEmbeddingUnitaryAdelicSplitPlaceBasis` | volunteer-build-reviewed |
 | M008604 | P1502 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsGLEmbeddingUnitaryAdelicSplitPlaceBasisStatement` | volunteer-build-reviewed |
-| M008606 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsGeometricMeasureVolume` | volunteer-build-reviewed |
-| M008608 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsGoodCompatThree` | volunteer-build-reviewed |
-| M008609 | P1956 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHaarAdelicUnitaryProductRealFinite` | volunteer-build-reviewed |
-| M008610 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHaarAdelicUnitaryProductRealFiniteStatement` | volunteer-build-reviewed |
-| M008613 | P1956 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHaarFinitePointsFourierJacobiBessel` | volunteer-build-reviewed |

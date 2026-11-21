@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M061560"
+  ],
+  "started_utc": "2026-11-21T13:37:02.993476+00:00",
+  "ended_utc": "2026-11-21T13:39:03.049647+00:00",
+  "elapsed_seconds": 120.1,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5172168
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCommonLevelSpanMultipleStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2ceb9faf447f48853f5b9e228b3a99b1c3e7d924edc690a1c2d7cf6efaa68307",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCommonLevelSpanMultiple",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.Klm"
+  ],
+  "objects": {
+    "M061560": "376c074c6ddfae4cf32726c492e98bc4e1a645dddd5126370e15497971215dfa"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "7aa260e2fe9ff1599b3a4cb683b209b21e538d6418a0593f54e844eefd8d7262",
+  "packet": "M061560",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22255#issuecomment-7063462937",
+  "reviewed_utc": "2026-11-21T17:37:41.885218+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

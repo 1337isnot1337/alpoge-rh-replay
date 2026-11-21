@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M035999"
+  ],
+  "started_utc": "2026-11-21T13:07:03.065383+00:00",
+  "ended_utc": "2026-11-21T13:07:32.060621+00:00",
+  "elapsed_seconds": 29.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6688088
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.HookFunctionalPowerSumOtherStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "cb82a0db4352a816f9b504735d7a21648d6167910d944a88ad65fb59c0266451",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HookFunctionalPowerSumOther"
+  ],
+  "objects": {
+    "M035999": "568e96050d88aaeddd8d33ee84100f9c4ea5c37d985e54ed045325639e2e0ba6"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "ca4cb616d2ee520ccce6ce7687ad87c80b4c2e4566cd45e76c75f56532368743",
+  "packet": "M035999",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22074#issuecomment-7063052904",
+  "reviewed_utc": "2026-11-21T17:39:35.853607+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

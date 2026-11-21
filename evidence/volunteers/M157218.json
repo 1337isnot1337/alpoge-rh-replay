@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M157218"
+  ],
+  "started_utc": "2026-11-21T13:39:10.989584+00:00",
+  "ended_utc": "2026-11-21T13:40:39.061384+00:00",
+  "elapsed_seconds": 88.1,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5870112
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnimodularLocalStandard.RepSingleSat:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "65e90578d77fb42fedf475d4bbd897df5c7d5e2fbde4ab76f0ee99d9b5e6e2d9",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnimodularLocalStandard.RepArith",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnimodularLocalStandard.RepExact",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnimodularLocalStandard.RepHSelfInt"
+  ],
+  "objects": {
+    "M157218": "c699cd60fd87d8230f139f746fb47ee6a45ce0164460b888ec783169b3aa61cf"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "7788ed08e41eefa70948f353b34a9ef1ca7e4bc747bf4bea96efbd036fc0721d",
+  "packet": "M157218",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22261#issuecomment-7063488912",
+  "reviewed_utc": "2026-11-21T17:37:38.372963+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

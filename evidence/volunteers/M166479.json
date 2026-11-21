@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M166479"
+  ],
+  "started_utc": "2026-11-21T13:07:55.536655+00:00",
+  "ended_utc": "2026-11-21T13:08:03.241133+00:00",
+  "elapsed_seconds": 10.0,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6817820
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.HolLineBundleToAltTransition:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2db973f6478bbeb6836b81865296db9987d7af96f2be80a9ae58cc33a114d678",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.BergmanObjects",
+    "GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.SectionL2NormSq"
+  ],
+  "objects": {
+    "M166479": "024a92a17a4d47f07e5cd6b12cf9f36b51e75cd01ba44332ac77d46a2f51c10b"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "e7734c5684ef29700a3ddaae9f5efa4b6b7939ea7b7a2836d9b24a9d1c33a3d2",
+  "packet": "M166479",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22008#issuecomment-7063112264",
+  "reviewed_utc": "2026-11-21T17:40:01.450622+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

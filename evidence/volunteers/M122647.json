@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M122647"
+  ],
+  "started_utc": "2026-11-21T13:10:04.922472+00:00",
+  "ended_utc": "2026-11-21T13:10:19.365636+00:00",
+  "elapsed_seconds": 14.4,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6867572
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.EventuallyActMemLatVIff:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "46114db0ce2cdf3d6ae57c8070fd9b7311d13944b98304962ba3d1bcc04cd2be",
+  "rebuilt_project_modules": [
+    "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicTupleProjections",
+    "GroundTheory.GlobalFields.LocalAtPlace"
+  ],
+  "objects": {
+    "M122647": "2b9b543c063a71117338acb0f32d180236643b1ac45fd7bb18bca06cff728c42"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "f405d184c5fc2c94a5cf2f8042aec0b74533a62f243b0e6f4a3b40e1401acb7c",
+  "packet": "M122647",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22099#issuecomment-7063105889",
+  "reviewed_utc": "2026-11-21T17:39:18.339604+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

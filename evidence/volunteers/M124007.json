@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M124007"
+  ],
+  "started_utc": "2026-11-21T13:47:44.653779+00:00",
+  "ended_utc": "2026-11-21T13:52:37.825339+00:00",
+  "elapsed_seconds": 293.1,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 6413200
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.HermitianCharacterOrthogonality:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "47ff0477b99ebe22239ca174b5504b07e394ed3b85b347f02409c34880b4d55b",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedQuotientCard",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedQuotientCardStatement"
+  ],
+  "objects": {
+    "M124007": "b98e92b7ed076b72bf7c0686e4552c773343c4c3d6934a958259f32e67fa25a7"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "7bc5d222cce93f78907afc8072964d5cd63ca2ef2cee1bbe4f752f6c999f9eb3",
+  "packet": "M124007",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22243#issuecomment-7063890852",
+  "reviewed_utc": "2026-11-21T17:37:52.115121+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

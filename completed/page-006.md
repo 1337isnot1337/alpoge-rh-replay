@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M003711 | P1298 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPow8F` | build-observed |
+| M003712 | P1323 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPowMod` | build-observed |
 | M003713 | P2359 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsProjOverWeierstrass` | volunteer-build-reviewed |
 | M003714 | P1056 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsProperToroidalModelStructureMap` | volunteer-build-reviewed |
 | M003716 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsQuasiRegularSeqOfIsFreeGen` | wave-reused |
@@ -400,5 +402,3 @@
 | M004448 | P0295 | `Development.AbelianVarietyTheory.Definitions.Jets.SumIoPr` | wave-reused |
 | M004449 | P0705 | `Development.AbelianVarietyTheory.Definitions.Jets.SumIoPrAlt` | wave-reused |
 | M004451 | P1084 | `Development.AbelianVarietyTheory.Definitions.Jets.SurjectiveAppTopSqCube` | wave-reused |
-| M004452 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.TauZero` | build-observed |
-| M004453 | P1193 | `Development.AbelianVarietyTheory.Definitions.Jets.TwoPlaces` | build-observed |

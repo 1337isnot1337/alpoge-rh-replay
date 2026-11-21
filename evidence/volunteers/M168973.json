@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M168973"
+  ],
+  "started_utc": "2026-11-21T13:28:31.432878+00:00",
+  "ended_utc": "2026-11-21T13:29:54.283752+00:00",
+  "elapsed_seconds": 82.9,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5137932
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PInvertibleProductRep:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "45fdb7535d69cca427acdab7fbc01452f29609e47b4e1e4ecec4123ee5450103",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsInvertibleIndexMul",
+    "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsInvertibleIndexMulSteps"
+  ],
+  "objects": {
+    "M168973": "0c6ec21c55a82e6cc7000128a2fac32c0d841be9d735affb94ded94cfc6b075a"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "6a77166fe369358d9bb118d21ae8fdf55aa21e3a8e8a705eb768c0d68969fba3",
+  "packet": "M168973",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22207#issuecomment-7063328000",
+  "reviewed_utc": "2026-11-21T17:38:22.763239+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

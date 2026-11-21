@@ -1,0 +1,48 @@
+{
+  "tasks": [
+    "M162267"
+  ],
+  "started_utc": "2026-11-21T13:13:02.491340+00:00",
+  "ended_utc": "2026-11-21T13:14:32.049912+00:00",
+  "elapsed_seconds": 89.5,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 8053940,
+    "peak_child_rss_kib": 6028308
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.ArithmeticGeometry.AbelianVarieties.WeilFixedField:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "57fc47d9ccfc9cefa6d26c153c8d7be7d5758280c0c00b52e4936814b6b15057",
+  "rebuilt_project_modules": [
+    "GroundTheory.ArithmeticGeometry.AbelianVarieties.DivisionPoints",
+    "GroundTheory.ArithmeticGeometry.AbelianVarieties.Divisors",
+    "GroundTheory.ArithmeticGeometry.AbelianVarieties.DivisorsNorm",
+    "GroundTheory.ArithmeticGeometry.AbelianVarieties.DivisorsOrd",
+    "GroundTheory.ArithmeticGeometry.AbelianVarieties.DivisorsPic",
+    "GroundTheory.ArithmeticGeometry.AbelianVarieties.DivisorsPullback",
+    "GroundTheory.ArithmeticGeometry.AbelianVarieties.DivisorsTranslate",
+    "GroundTheory.ArithmeticGeometry.AbelianVarieties.DivisorsValuation",
+    "GroundTheory.ArithmeticGeometry.AbelianVarieties.FunctionFieldPoint",
+    "GroundTheory.ArithmeticGeometry.AbelianVarieties.Isogeny",
+    "GroundTheory.ArithmeticGeometry.AbelianVarieties.KernelCard",
+    "GroundTheory.ArithmeticGeometry.AbelianVarieties.NormEDS",
+    "GroundTheory.ArithmeticGeometry.AbelianVarieties.WeilTranslate"
+  ],
+  "objects": {
+    "M162267": "063688ee1fba40913b69b40a7ec4ecf91641b0229462cd5acec8c154485f9102"
+  },
+  "project_root": "/home/phoenix/Project/rh/vol/lean",
+  "bundle_sha256": "935394e959552a1825067201f9d75b9c4cbb17c1edc2b44cab50c2e71b0a533d",
+  "packet": "M162267",
+  "contributor": "IlluminPhoenix",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22109#issuecomment-7063131044",
+  "reviewed_utc": "2026-11-21T17:39:13.152727+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

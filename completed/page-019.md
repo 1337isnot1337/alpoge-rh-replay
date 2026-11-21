@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M012348 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingLevelsAndStepsHaarMeasuresExist` | volunteer-build-reviewed |
+| M012350 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingOnlyBaseGramRationalPointsContribute` | volunteer-build-reviewed |
+| M012351 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingOnlyBaseGramRationalPointsContributeStatement` | volunteer-build-reviewed |
+| M012356 | P2034 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnimodularHermitianCongrOneAtTamePlaceStatement` | volunteer-build-reviewed |
+| M012357 | P1763 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnipotentAtTauMemStabilizer` | volunteer-build-reviewed |
+| M012358 | P2177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnipotentMeanThetaLiftEqOrbitIntegral` | volunteer-build-reviewed |
+| M012360 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnipotentUpperInvUpperTriangularBounded` | volunteer-build-reviewed |
+| M012361 | P0177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnipotentUpperInvUpperTriangularBoundedStatement` | volunteer-build-reviewed |
+| M012362 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitFormUnitaryIntegralEntriesOfLevelLattice` | volunteer-build-reviewed |
+| M012364 | P1995 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitIdealCompletionAtPlaceEqIntegralAdelesAtPlac` | volunteer-build-reviewed |
+| M012366 | P2081 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitNormVectorsOneOrbitSelfDualLatticeSplit` | volunteer-build-reviewed |
 | M012367 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitNormVectorsOneOrbitSelfDualLatticeSplitStatement` | volunteer-build-reviewed |
 | M012370 | P1957 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitVectorRowsConjugate` | volunteer-build-reviewed |
 | M012376 | P2052 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitaryAdelicPointEqProdSplitComponentsMulOff` | volunteer-build-reviewed |
@@ -391,14 +402,3 @@
 | M013096 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLocalSectionNeZeroOnFibresStatement` | volunteer-build-reviewed |
 | M013098 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLocalThetaSectionFibreNonzeroStatement` | volunteer-build-reviewed |
 | M013099 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLogFrame` | volunteer-build-reviewed |
-| M013100 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsMatrixBasisAllPlacesTorsionDet` | volunteer-build-reviewed |
-| M013101 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsMatrixBasisAllPlacesTorsionDetStatement` | volunteer-build-reviewed |
-| M013106 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsMinOn` | volunteer-build-reviewed |
-| M013107 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsModelMapDefinedWeakNeronFamily` | volunteer-build-reviewed |
-| M013108 | P0892 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsModelMapDefinedWeakNeronFamilyStatement` | build-observed |
-| M013110 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsMonomialMatricesProjectiveRep` | volunteer-build-reviewed |
-| M013111 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsMonomialMatricesProjectiveRepStatement` | volunteer-build-reviewed |
-| M013112 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsMulIsIntegralChart` | volunteer-build-reviewed |
-| M013115 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsMultiplicativeGroupOpenNonvanishingPolynomStatement` | volunteer-build-reviewed |
-| M013116 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsNeZeroOfLe` | volunteer-build-reviewed |
-| M013117 | P1445 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsNeronNeutralComponentFiniteLevel` | volunteer-build-reviewed |

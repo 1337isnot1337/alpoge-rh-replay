@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M073990"
+  ],
+  "started_utc": "2026-11-21T13:37:06.319519+00:00",
+  "ended_utc": "2026-11-21T13:39:08.895948+00:00",
+  "elapsed_seconds": 122.6,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 6112908
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SetLIntegralAverageAbelianQuotientStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6a3da6e7f8d4882822bac06849957f0a45d34f85c6711982d8cf02b914edaaea",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsIsFundamentalDomainAndQuotMeasureEq",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsMulRightInvariantOfCovolumeOne",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SetLIntegralAverageAbelianQuotient"
+  ],
+  "objects": {
+    "M073990": "e7c31ff65ebef204c0990176f01a8a9c28304fed68e56aa0170b879ae2a98c80"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "ac92c4e8f349539843dba44b08745fe2d06dcaaa621e8969acb7cf0132912510",
+  "packet": "M073990",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22244#issuecomment-7063464392",
+  "reviewed_utc": "2026-11-21T17:37:52.095423+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

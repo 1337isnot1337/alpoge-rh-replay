@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M145169"
+  ],
+  "started_utc": "2026-11-21T13:32:32.843809+00:00",
+  "ended_utc": "2026-11-21T13:34:19.275971+00:00",
+  "elapsed_seconds": 106.4,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5873096
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.GelfandTransference.HadamardGelfand.Highest:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3c3648d961f259eeddc1c0c758bec70f09d999d2d605e7d20313a5ca8a726a9b",
+  "rebuilt_project_modules": [
+    "Formalism.GelfandTransference.HadamardGelfand.Gelfand",
+    "Formalism.GelfandTransference.Statement",
+    "Formalism.NormUnitaryBounds.Statement"
+  ],
+  "objects": {
+    "M145169": "95c24024802a72a387f1f261c3a9ef7bea42568b5ddd63c627a88c8957e036c7"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "174867e8ca3784d9e686ba8618aa4ad6ea64f9846991bf8f16fd3dce3b25bea2",
+  "packet": "M145169",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22222#issuecomment-7063396088",
+  "reviewed_utc": "2026-11-21T17:38:08.229122+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

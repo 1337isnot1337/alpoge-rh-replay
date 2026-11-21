@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M016775 | P2211 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CanonicalExistence` | volunteer-build-reviewed |
+| M016810 | P2211 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CanonicalProjection` | volunteer-build-reviewed |
+| M016814 | P2475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CanonicalRigidifiedExtensionOfDeRhamClassUnique` | volunteer-build-reviewed |
+| M016816 | P2475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CanonicalRigidifiedExtensionPullbackNaturality` | volunteer-build-reviewed |
+| M016823 | P2447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CapDegreeSymmetric` | volunteer-build-reviewed |
+| M016824 | P2475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CapDegreeSymmetricStatement` | volunteer-build-reviewed |
+| M016827 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CapelliDetEqLinearCombinationNatNodes` | volunteer-build-reviewed |
+| M016834 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CapelliKilledSmoothFunctionCentreOrbitFiniteDime` | volunteer-build-reviewed |
+| M016839 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardAbelianVarietyTorsionSepClosedStatement` | volunteer-build-reviewed |
+| M016842 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardBlockParabolicSubgroupGL` | volunteer-build-reviewed |
+| M016843 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardBlockParabolicSubgroupGLStatement` | volunteer-build-reviewed |
+| M016846 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardComapMulFinsumEqFinsumFibres` | wave-reused |
+| M016847 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardComapMulFinsumEqFinsumFibresStatement` | wave-reused |
+| M016850 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardDivisorsLeAbsNormNumberField` | volunteer-build-reviewed |
 | M016851 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardDivisorsLeAbsNormNumberFieldStatement` | volunteer-build-reviewed |
 | M016852 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardDvdSumOfInvariantOfCardStabilizerDvd` | build-observed |
 | M016854 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardExponentTuplesModEqOneOfPrimeNotDvd` | volunteer-build-reviewed |
@@ -90,6 +104,7 @@
 | M017033 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CayleyTransformMemUnitaryLatticeStabilizerStatement` | volunteer-build-reviewed |
 | M017034 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CayleyTransformSkewMemUnitaryGroup` | volunteer-build-reviewed |
 | M017035 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CayleyTransformSkewMemUnitaryGroupStatement` | volunteer-build-reviewed |
+| M017036 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CcSubst` | volunteer-build-reviewed |
 | M017037 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CdpGaloisLeOneOfAlgebraicRatFunc` | volunteer-build-reviewed |
 | M017038 | P0892 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CdpGaloisLeOneOfAlgebraicRatFuncStatement` | build-observed |
 | M017039 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechAndTotalDifferentialAdditiveSquareZero` | volunteer-build-reviewed |
@@ -387,18 +402,3 @@
 | M017971 | P2068 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmDifferentFromIdeal` | volunteer-build-reviewed |
 | M017972 | P2081 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmDifferentFromIdealStatement` | volunteer-build-reviewed |
 | M017973 | P2277 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmEllipticCurveIsPureHodgeEndomorphismBaseChange` | build-observed |
-| M017978 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmExtensionConjugationInvolutiveFixedField` | volunteer-build-reviewed |
-| M017995 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmGaloisRepresentationFromPrintsStatement` | volunteer-build-reviewed |
-| M017996 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmGaloisRepresentationOfHyp` | volunteer-build-reviewed |
-| M017998 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmHermitianTraceFormIntegralStatement` | build-observed |
-| M017999 | P2053 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmHomGramFormIntegralCoordinateLattice` | volunteer-build-reviewed |
-| M018000 | P2068 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmHomGramFormIntegralCoordinateLatticeStatement` | volunteer-build-reviewed |
-| M018003 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmLatticeDerivClassInvarianceOfHeckeStatement` | build-observed |
-| M018004 | P2676 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmLatticeDividedPowerJetIntegralityOfPublishedStatement` | build-observed |
-| M018006 | P2389 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmLatticeDualIntegralImageStatement` | build-observed |
-| M018013 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmLatticeSelfDualHermitianExists` | volunteer-build-reviewed |
-| M018019 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmObjHomOfTypeLinearIndependent` | volunteer-build-reviewed |
-| M018020 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmObjHomOfTypeLinearIndependentStatement` | volunteer-build-reviewed |
-| M018023 | P2389 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmOrderActionDescends` | build-observed |
-| M018024 | P2419 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmOrderActionDescendsStatement` | build-observed |
-| M018026 | P2476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmOrderUniformizationEndomorphismsStatement` | build-observed |

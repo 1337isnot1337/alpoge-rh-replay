@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M119735"
+  ],
+  "started_utc": "2026-11-21T13:20:42.767155+00:00",
+  "ended_utc": "2026-11-21T13:31:08.526791+00:00",
+  "elapsed_seconds": 625.8,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 24607696,
+    "peak_child_rss_kib": 6802996
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Definitions.GlobalGeometry.HasBareNormDisc:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3c8f77410ab3808317f657ad482a14ca61bcde9926596f509adad2b884f971e6",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.GeometricComponentEmbedding"
+  ],
+  "objects": {
+    "M119735": "de68819fb5eec3cd9c066161edab98990232b4697967864268021df6ddbbda4d"
+  },
+  "bundle_sha256": "42409f54b09205e3f43e9318c6f273c6cce0530c31507a087a773502ee7ccaf7",
+  "packet": "M119735",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22180#issuecomment-7063343527",
+  "reviewed_utc": "2026-11-21T17:38:40.672991+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

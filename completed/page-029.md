@@ -2,6 +2,24 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M021490 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisibilityOfVanishingPowersStatement` | wave-reused |
+| M021492 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisibleAlgClosureOfKillsTorsionSepClosedStatement` | volunteer-build-reviewed |
+| M021493 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisionAlgebraOrderNoSmallLattice` | volunteer-build-reviewed |
+| M021494 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisionAlgebraOrderNoSmallLatticeStatement` | volunteer-build-reviewed |
+| M021499 | P1031 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorAlgebraicStatement` | build-observed |
+| M021503 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorDescentFlatNormalDomains` | build-observed |
+| M021504 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorDescentFlatNormalDomainsStatement` | build-observed |
+| M021505 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorDetOmegaSymSum` | volunteer-build-reviewed |
+| M021508 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorEqOfSectionsEqStatement` | volunteer-build-reviewed |
+| M021522 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorNormPullbackComponent` | volunteer-build-reviewed |
+| M021524 | P2507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorOfTensorSectionAdd` | build-observed |
+| M021530 | P2556 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorProofsFact` | build-observed |
+| M021531 | P2576 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorProofsFactStatement` | build-observed |
+| M021533 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorRelationIntegralScalingStatement` | volunteer-build-reviewed |
+| M021537 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorSupportTransferRankStatement` | volunteer-build-reviewed |
+| M021540 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorsOfConstantsAllPrimesOfClosedFibre` | volunteer-build-reviewed |
+| M021541 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorsOfConstantsAllPrimesOfClosedFibreStatement` | build-observed |
+| M021542 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorsOfConstantsClosedPointsOfOrigin` | volunteer-build-reviewed |
 | M021543 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorsOfConstantsClosedPointsOfOriginStatement` | volunteer-build-reviewed |
 | M021544 | P1059 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorsOfConstantsFlatNormalStageAtOrigin` | build-observed |
 | M021545 | P1086 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorsOfConstantsFlatNormalStageAtOriginStatement` | build-observed |
@@ -384,21 +402,3 @@
 | M022328 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticWeakSolWordDerivLeConstMulSupStatement` | volunteer-build-reviewed |
 | M022329 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbAApply` | volunteer-build-reviewed |
 | M022330 | P2146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbAtSurj` | volunteer-build-reviewed |
-| M022331 | P2533 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbBBijective` | volunteer-build-reviewed |
-| M022333 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbLInlZeroRight` | volunteer-build-reviewed |
-| M022334 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbLLMem` | volunteer-build-reviewed |
-| M022335 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbOverSumInjective` | volunteer-build-reviewed |
-| M022341 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingConjugateOscillatorEighth` | volunteer-build-reviewed |
-| M022343 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingConjugateOscillatorNinth` | volunteer-build-reviewed |
-| M022345 | P2122 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingEvaluationCompatible` | volunteer-build-reviewed |
-| M022346 | P2135 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingEvaluationCompatibleStatement` | volunteer-build-reviewed |
-| M022347 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingMatrixIndependent` | wave-reused |
-| M022348 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingModelsCompatibleEval` | volunteer-build-reviewed |
-| M022349 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingReducedResidueFieldBijectiveUnramified` | build-observed |
-| M022350 | P1351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingReducedResidueFieldBijectiveUnramifiedStatement` | build-observed |
-| M022353 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingSumDegreeFormula` | volunteer-build-reviewed |
-| M022355 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingsCurveFieldAboveFiniteNonempty` | volunteer-build-reviewed |
-| M022356 | P2053 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingsCurveFieldAboveFiniteNonemptyStatement` | volunteer-build-reviewed |
-| M022364 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbedsInRegularRepresentationCopiesOfFreePermute` | volunteer-build-reviewed |
-| M022372 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EncardMulLeOfQuotEmbed` | volunteer-build-reviewed |
-| M022373 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EncardSelfDualLatticeBoundedMajorantLe` | volunteer-build-reviewed |

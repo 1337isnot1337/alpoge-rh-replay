@@ -2,6 +2,29 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M030913 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreDensityNullOffCharts` | volunteer-build-reviewed |
+| M030914 | P2535 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreDensityNullOffChartsStatement` | volunteer-build-reviewed |
+| M030919 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreFiniteCard` | volunteer-build-reviewed |
+| M030920 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreGoingDownTensor` | volunteer-build-reviewed |
+| M030921 | P0105 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreGoingDownTensorStatement` | volunteer-build-reviewed |
+| M030928 | P2135 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreIntegralSchwartzBruhat` | volunteer-build-reviewed |
+| M030929 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreIntegrationDensities` | volunteer-build-reviewed |
+| M030930 | P2535 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreIntegrationDensitiesStatement` | volunteer-build-reviewed |
+| M030938 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreLineOverSurjection` | volunteer-build-reviewed |
+| M030940 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreMemInducedSpace` | volunteer-build-reviewed |
+| M030941 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreMemInducedSpaceStatement` | volunteer-build-reviewed |
+| M030954 | P2324 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreProductSpecFieldPointFactorsStatement` | volunteer-build-reviewed |
+| M030957 | P2558 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibrePullbackFormLocalCoordinates` | volunteer-build-reviewed |
+| M030959 | P0298 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreSBEventuallySliceEq` | volunteer-build-reviewed |
+| M030968 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreZeroMemCoinvariants` | build-observed |
+| M030969 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreZeroMemCoinvariantsStatement` | build-observed |
+| M030971 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FieldCase` | volunteer-build-reviewed |
+| M030973 | P2246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FieldDataExistenceOfSums` | volunteer-build-reviewed |
+| M030974 | P2256 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FieldDataExistenceOfSumsStatement` | volunteer-build-reviewed |
+| M030985 | P0298 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FilteredColimitCohomologyTransportQuasiIso` | wave-reused |
+| M030986 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FilteredColimitCohomologyTransportQuasiIsoStatement` | wave-reused |
+| M030987 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiltrationCentralCharDistinct` | volunteer-build-reviewed |
+| M030990 | P0298 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiltrationCentralCharacterIsolateStatement` | volunteer-build-reviewed |
 | M030993 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiltrationDegreeRecursion` | volunteer-build-reviewed |
 | M030994 | P2535 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiltrationDegreeRecursionStatement` | volunteer-build-reviewed |
 | M030996 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiltrationDistinctCharactersSplitStatement` | volunteer-build-reviewed |
@@ -246,6 +269,7 @@
 | M031476 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteSpanFunctionInterpolationBasis` | volunteer-build-reviewed |
 | M031477 | P0106 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteSpanFunctionInterpolationBasisStatement` | volunteer-build-reviewed |
 | M031481 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteStalkGermQuotientIntegralUnitDenominatorStatement` | volunteer-build-reviewed |
+| M031485 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteSubgroupKilledNearPointOfFibreStatement` | volunteer-build-reviewed |
 | M031486 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteSubgroupSchemeIdealGeneratedByDimElements` | volunteer-build-reviewed |
 | M031487 | P1448 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteSubgroupSchemeIdealGeneratedByDimElementsStatement` | build-observed |
 | M031488 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteSublevelOfIntQuadraticGeOne` | volunteer-build-reviewed |
@@ -300,6 +324,7 @@
 | M031587 | P0106 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankEqZeroOfDualKilledByTensorStatement` | volunteer-build-reviewed |
 | M031588 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankEquivariantHomEqAugmentationQuotient` | volunteer-build-reviewed |
 | M031591 | P1941 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankFiberEqCardSectionsMulLengthStatement` | volunteer-build-reviewed |
+| M031594 | P0949 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankFirstDeRhamHomologyHodgeFiltrationOfField` | volunteer-build-reviewed |
 | M031598 | P2558 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankFrobeniusDualAddFinrankKerVerschiebung` | volunteer-build-reviewed |
 | M031599 | P2579 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankFrobeniusDualAddFinrankKerVerschiebungStatement` | volunteer-build-reviewed |
 | M031600 | P2579 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankFrobeniusKernelHopfLePowCotangent` | volunteer-build-reviewed |
@@ -377,28 +402,3 @@
 | M031773 | P0681 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumSemidirectCosetCharacterOrthZero` | wave-reused |
 | M031774 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumSemidirectCosetCharacterOrthZeroStatement` | wave-reused |
 | M031775 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumSemidirectCosetPairingNeZero` | wave-reused |
-| M031776 | P0786 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumSemidirectCosetPairingNeZeroStatement` | wave-reused |
-| M031777 | P0106 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumStabilizerWeightedPairOrbitsConjClass` | volunteer-build-reviewed |
-| M031780 | P1399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumUnipotentConjEqZeroOfConstantTermZeroStatement` | volunteer-build-reviewed |
-| M031781 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumVolShellInterTranslate` | volunteer-build-reviewed |
-| M031782 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsuppMapDomainEqZeroAtFilteredStage` | wave-reused |
-| M031783 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsuppMapDomainEqZeroAtFilteredStageStatement` | wave-reused |
-| M031784 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstAndFinite` | volunteer-build-reviewed |
-| M031789 | P0552 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernClassTateTwistCocycleUniqueNaturalAddi` | wave-reused |
-| M031790 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernClassTateTwistCocycleUniqueNaturalAddiStatement` | wave-reused |
-| M031793 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernDualNegStatement` | volunteer-build-reviewed |
-| M031800 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernFormPullback` | volunteer-build-reviewed |
-| M031802 | P1979 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernIntegralEqDegree` | volunteer-build-reviewed |
-| M031804 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernIsometricEqStatement` | volunteer-build-reviewed |
-| M031807 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernTensorAdd` | volunteer-build-reviewed |
-| M031812 | P0681 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstFunctionalIntegralSmoothCompact` | build-observed |
-| M031813 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstFunctionalIntegralSmoothCompactStatement` | build-observed |
-| M031816 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstMaximalMinorLocallyConstant` | build-observed |
-| M031817 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstMaximalMinorLocallyConstantStatement` | build-observed |
-| M031818 | P2157 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstMemberLieActionFockPlusTrace` | volunteer-build-reviewed |
-| M031819 | P2168 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstMemberLieActionFockPlusTraceStatement` | volunteer-build-reviewed |
-| M031820 | P2178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstMinAtHalfMax` | volunteer-build-reviewed |
-| M031822 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstOrderDeformationFormLiftValuesSubStatement` | volunteer-build-reviewed |
-| M031828 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstOrderPointIffRingHomAffineOpenSectionsStatement` | volunteer-build-reviewed |
-| M031831 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FischerDecompositionFockNoncompactParts` | build-observed |
-| M031841 | P2224 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FittedTiesBoundEventual` | volunteer-build-reviewed |

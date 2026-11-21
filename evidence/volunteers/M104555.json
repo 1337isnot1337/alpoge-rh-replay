@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M104555"
+  ],
+  "started_utc": "2026-11-21T13:28:28.205325+00:00",
+  "ended_utc": "2026-11-21T13:29:59.709077+00:00",
+  "elapsed_seconds": 91.5,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 6296672
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.AffineSplittingSpan.CoreSplit:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "41beba1344e0b9b0a60278523c0b95d2a3f11cbc4fc5d7b1172586c4a21f5318",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.AffineSplittingSpan.CoreDefs",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.AffineSplittingSpan.CoreSteps",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.AffineSplittingSpan.SuccAboveEqFc"
+  ],
+  "objects": {
+    "M104555": "7c32cf0dfa770984a8fccce741db7025e30b37df76a52b2461c44e0e86d63b9a"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "a2a9a2f3e531cc4bf226739667115363693faa071f0d2c088df2d6076188ab1f",
+  "packet": "M104555",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22206#issuecomment-7063329586",
+  "reviewed_utc": "2026-11-21T17:38:22.928883+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

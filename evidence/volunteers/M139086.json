@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M139086"
+  ],
+  "started_utc": "2026-11-21T13:41:16.366653+00:00",
+  "ended_utc": "2026-11-21T13:51:52.767357+00:00",
+  "elapsed_seconds": 636.3,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5959604
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.ConeSectionRestriction.ResR:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fa3fa953b77ee9ca42ee96b480231ce46f054520d88ec142cef2094fd381f05b",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LaurentPartialDerivationUnique",
+    "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.ConeSectionRestriction.ResidResPf",
+    "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.ConeSectionRestriction.SeamDefs"
+  ],
+  "objects": {
+    "M139086": "70a830e8807a5fe87f7d0750a181fa4352e4b864d2401fd0073e8e0da3c0e300"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "ecc4ce26fb0f974fbbf1f45987c1670ea213d3537a85877985600ca09ef82c50",
+  "packet": "M139086",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22165#issuecomment-7063888581",
+  "reviewed_utc": "2026-11-21T17:38:52.359904+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

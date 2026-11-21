@@ -1,0 +1,48 @@
+{
+  "tasks": [
+    "M134787"
+  ],
+  "started_utc": "2026-11-21T13:04:40.233578+00:00",
+  "ended_utc": "2026-11-21T13:16:14.918705+00:00",
+  "elapsed_seconds": 694.7,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 24607692,
+    "peak_child_rss_kib": 6921516
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Statements.GeometryStatements.ThmFlatA:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9320f1b1738022021984caa3c1439657a5063856182bb2266a5579e1b079eac9",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.LogAbsVpOfNormalised",
+    "Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.IsLocallyConstantRankAtStalkEigenSub",
+    "Development.AutomorphicSpectrum.Definitions.AdelicLattices.FactPrimes",
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.LatNormGrLatNeZeroOfSpan",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.CoordsAt",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.EigLat",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.EtaleLocalizationAtPrimeTensorOfLowHeight",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsConstMul",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsCptGen",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsFlatAnIffIsConstMul",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsHodgeGram",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsLineGenOn",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LieModel",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.IdemDen"
+  ],
+  "objects": {
+    "M134787": "d17641ad745b55c919f549542639d87a94cb030ff901f12d057d1bf61c6cf19b"
+  },
+  "bundle_sha256": "5c2213a2df2a6880e36598ac25f165abecf0001f6817ee34d90fa6d096389faa",
+  "packet": "M134787",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22058#issuecomment-7063150584",
+  "reviewed_utc": "2026-11-21T17:39:44.112338+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

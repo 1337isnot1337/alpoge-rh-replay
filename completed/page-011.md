@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006682 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldPointOfCountable` | volunteer-build-reviewed |
+| M006683 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldTorsionPoints` | volunteer-build-reviewed |
 | M006684 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsOActExtendDedekind` | volunteer-build-reviewed |
 | M006691 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPeriodPairOfLatticeInLine` | build-observed |
 | M006693 | P1057 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPolAVPullbackOfIsLocalRing` | volunteer-build-reviewed |
@@ -111,6 +113,7 @@
 | M006930 | P1114 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.SemiAbelianHomExtensionUnique` | build-observed |
 | M006931 | P0616 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.SemicharacterSqEqOneOfSymmetric` | wave-reused |
 | M006932 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.SingleMemSpanIffOfSelfDual` | volunteer-build-reviewed |
+| M006934 | P1246 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.SmoothOfRelativeDimensionTensor` | volunteer-build-reviewed |
 | M006935 | P0476 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.SpecialisationNumberFieldAndCountableValues` | volunteer-build-reviewed |
 | M006939 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.SurjectiveFst` | wave-reused |
 | M006940 | P0476 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.SurjectiveOfComplexPointsLiftOfUniversallyClosed` | volunteer-build-reviewed |
@@ -302,6 +305,7 @@
 | M007349 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.JetReadingLinearSubstitutionPointsStatement` | volunteer-build-reviewed |
 | M007352 | P0099 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.L1NormRowBlockLeadingMinorProductLe` | volunteer-build-reviewed |
 | M007353 | P0516 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.L2CanThEqInvSqrtTwoPowMulDetIm` | build-observed |
+| M007355 | P1532 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LeExpOfLogLe` | volunteer-build-reviewed |
 | M007361 | P1856 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LevelCoverLargerCoeffFieldLyingOverStatement` | volunteer-build-reviewed |
 | M007364 | P0099 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LevelThreeSeparatesTangents` | volunteer-build-reviewed |
 | M007365 | P0550 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LevelTupleSumEqRational` | volunteer-build-reviewed |
@@ -395,10 +399,6 @@
 | M007587 | P1956 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdAtToEAfOfIsIdemSum` | volunteer-build-reviewed |
 | M007589 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AddCharConductorIntegersContinuousNeOne` | volunteer-build-reviewed |
 | M007590 | P1856 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AddCharConductorIntegersContinuousNeOneStatement` | volunteer-build-reviewed |
+| M007591 | P0296 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AddCharDotProductTrivialOnTsupportNhds` | volunteer-build-reviewed |
 | M007593 | P2093 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AddCharSymplecticFinitePartRestEqOneStatement` | volunteer-build-reviewed |
 | M007594 | P0005 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AddSubgroupFiniteQuotOfCommensurable` | volunteer-build-reviewed |
-| M007595 | P2133 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdditiveCharacterCongruenceInvariance` | volunteer-build-reviewed |
-| M007596 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdditiveCharacterCongruenceInvarianceStatement` | volunteer-build-reviewed |
-| M007597 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdditiveCharacterOneNe` | volunteer-build-reviewed |
-| M007615 | P1473 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicPointComponentsAtPlacesLatticesVacua` | volunteer-build-reviewed |
-| M007616 | P1502 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicPointComponentsAtPlacesLatticesVacuaStatement` | volunteer-build-reviewed |

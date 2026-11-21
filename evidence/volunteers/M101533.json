@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M101533"
+  ],
+  "started_utc": "2026-11-21T13:34:39.931708+00:00",
+  "ended_utc": "2026-11-21T13:51:53.701989+00:00",
+  "elapsed_seconds": 1033.7,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5954820
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HkSpan:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "334a71bba78c6793884d2ab72b8ca8d4db8f8a86b8742afde457cae0de55eeb2",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.EqOneOfStrictMono",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HkBern",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HkInd"
+  ],
+  "objects": {
+    "M101533": "db15dcfe3b0e4e1dd832e5004675815e9f7c5b5204082a80b0437a4f3877af52"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "a34084674e211eb229734f19e866757718c7f2648c2c9391bc82c47de38f2b35",
+  "packet": "M101533",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22153#issuecomment-7063887927",
+  "reviewed_utc": "2026-11-21T17:38:56.564346+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

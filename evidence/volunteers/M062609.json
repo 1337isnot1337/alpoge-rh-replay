@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M062609"
+  ],
+  "started_utc": "2026-11-21T13:44:58.760152+00:00",
+  "ended_utc": "2026-11-21T13:45:52.929105+00:00",
+  "elapsed_seconds": 54.2,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 6563412
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegralConjugateSL2IntLawsStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4d29a785f11bf43d8748279e02dcb09816dc60e4fad8220316c9b33261d1121e",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.GlTwoPosRatMobiusBasicLaws",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegralConjugateSL2IntLaws"
+  ],
+  "objects": {
+    "M062609": "12d7d6c34f3efa9d4a83560f0f69c3f96a8813de2637f80132261bb1998ef561"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "0077dcd006fa80f729cb1e1e25e755c50f8cb3d1ca8665a3e48f64655dd8f4d1",
+  "packet": "M062609",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22343#issuecomment-7063568580",
+  "reviewed_utc": "2026-11-21T17:36:35.878169+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

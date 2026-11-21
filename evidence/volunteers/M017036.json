@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M017036"
+  ],
+  "started_utc": "2026-11-21T13:18:39.658729+00:00",
+  "ended_utc": "2026-11-21T13:31:56.060654+00:00",
+  "elapsed_seconds": 796.3,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5524532
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.CcSubst:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "480c90f0b5f8baa197bd1af7bebeff5bc3484b3180633758fed446b132555ee0",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConstantCoeffHasse",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.NewtonPowerSeriesSurjectiveLinearizationSolution",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.PowerSeriesTaylorSubstFirstOrder"
+  ],
+  "objects": {
+    "M017036": "bfaf1f29c50d2ea012ba57fd440270faa86c11e08a6153cb6610dec3c1b40171"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "e981f29b42df8db01c87ddbd0355f3982859d08b5148ad5b01fa7633931fca31",
+  "packet": "M017036",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22130#issuecomment-7063360953",
+  "reviewed_utc": "2026-11-21T17:39:02.729144+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

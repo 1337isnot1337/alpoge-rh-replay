@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M101529"
+  ],
+  "started_utc": "2026-11-21T13:34:39.932008+00:00",
+  "ended_utc": "2026-11-21T13:50:28.629063+00:00",
+  "elapsed_seconds": 948.6,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5427832
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HkDualExp:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d099e1efe92ccff47974aad67574a354d12ae1dad41468253617814d76a86a4b",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DeEqDet",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HkDdSpec",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ProdPrimesDvd"
+  ],
+  "objects": {
+    "M101529": "591bc20b5b4476f6c8e9f1b783c8d1ce30fa2ea07ebbc01d226f737f60058c26"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "9115344f72e6d9475bf25372b4f7bc8696baadd7d97454e7ce3c332f1f2f9aee",
+  "packet": "M101529",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22162#issuecomment-7063888357",
+  "reviewed_utc": "2026-11-21T17:38:55.365913+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

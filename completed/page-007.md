@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004452 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.TauZero` | build-observed |
+| M004453 | P1193 | `Development.AbelianVarietyTheory.Definitions.Jets.TwoPlaces` | build-observed |
 | M004454 | P0678 | `Development.AbelianVarietyTheory.Definitions.Jets.WigMap` | build-observed |
 | M004455 | P0003 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.DegProd` | wave-reused |
 | M004456 | P0865 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.GeomIntSelf` | build-observed |
@@ -400,5 +402,3 @@
 | M005148 | P0295 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.StandardOrderExtendedBasisApplyLowBlock` | volunteer-build-reviewed |
 | M005151 | P1350 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.TupPrimeEmpty` | volunteer-build-reviewed |
 | M005152 | P1974 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.TwistPlacesOffPrimeQZero` | volunteer-build-reviewed |
-| M005153 | P0347 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.TypeChainPrincipalEntryNeZero` | volunteer-build-reviewed |
-| M005155 | P0239 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ValuationDetOfMemKO` | build-observed |

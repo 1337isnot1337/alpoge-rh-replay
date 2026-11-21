@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M062585"
+  ],
+  "started_utc": "2026-11-21T13:30:44.788651+00:00",
+  "ended_utc": "2026-11-21T13:32:06.320150+00:00",
+  "elapsed_seconds": 81.5,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 6234680
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntMatrixPrimeDetCosetRepresentativesStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ca00641d704ef5d49c39b28f2e94304465879a1e38024b420488554adface0ca",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntMatrixPrimeDetCosetRepresentatives"
+  ],
+  "objects": {
+    "M062585": "0effa849369c57d0d6e2b76f95afa98ffdbbf8a6273fdf935661c5cadf7e4b61"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "67b60b182349bf63f729b03577ca5da63242fa0f60243a825bac0707e659afd0",
+  "packet": "M062585",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22220#issuecomment-7063362470",
+  "reviewed_utc": "2026-11-21T17:38:10.790486+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

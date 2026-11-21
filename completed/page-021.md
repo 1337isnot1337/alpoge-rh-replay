@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013760 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyFormalUniformisationTower` | volunteer-build-reviewed |
+| M013761 | P1221 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyFormalUniformisationTowerStatement` | build-observed |
+| M013764 | P0811 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyLawAbelianSchemeProperClosure` | build-observed |
+| M013767 | P1763 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyLevelOfIsAlgClosed` | build-observed |
+| M013768 | P2052 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyOfFourPropertiesGroupScheme` | volunteer-build-reviewed |
+| M013769 | P2067 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyOfFourPropertiesGroupSchemeStatement` | volunteer-build-reviewed |
+| M013770 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyPullbackGeneric` | volunteer-build-reviewed |
+| M013771 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyTestModelToClosure` | volunteer-build-reviewed |
+| M013772 | P1221 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyTestModelToClosureStatement` | wave-reused |
+| M013774 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyThetaExtensionTestStatement` | volunteer-build-reviewed |
+| M013777 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyTorusExtensionOfSurjectivePointsStatement` | volunteer-build-reviewed |
 | M013778 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyUniformisationTraitInAbelianLocus` | volunteer-build-reviewed |
 | M013779 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyUniformisationTraitInAbelianLocusStatement` | volunteer-build-reviewed |
 | M013781 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NormDividingWeightSumEqOfModelPoint` | volunteer-build-reviewed |
@@ -356,6 +367,7 @@
 | M014677 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneEvaluationIntertwinesStatement` | volunteer-build-reviewed |
 | M014682 | P2094 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneFormMemInverseDifferent` | volunteer-build-reviewed |
 | M014683 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneFormMemInverseDifferentStatement` | volunteer-build-reviewed |
+| M014687 | P1420 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneHermitianIdealCoprimeStatement` | volunteer-build-reviewed |
 | M014691 | P1445 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneLeftInverseExists` | volunteer-build-reviewed |
 | M014692 | P1474 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneLeftInverseExistsStatement` | volunteer-build-reviewed |
 | M014698 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneModelRestrictionCompatible` | volunteer-build-reviewed |
@@ -390,15 +402,3 @@
 | M014770 | P2081 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddCharNegUnfoldingPhaseMulUniformizerPowLattice` | volunteer-build-reviewed |
 | M014771 | P2094 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddCharNegUnfoldingPhaseMulUniformizerPowLatticeStatement` | volunteer-build-reviewed |
 | M014776 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddHaarCharLeftRightMatrixMulAdeleTensor` | volunteer-build-reviewed |
-| M014777 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddHaarCharLeftRightMatrixMulAdeleTensorStatement` | volunteer-build-reviewed |
-| M014778 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddHaarCharSkewHermitianNormScale` | volunteer-build-reviewed |
-| M014779 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddHaarCharSkewHermitianNormScaleStatement` | volunteer-build-reviewed |
-| M014780 | P0918 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddMulLeOfPowLeOfLarge` | build-observed |
-| M014781 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddMulLeOfPowLeOfLargeStatement` | build-observed |
-| M014782 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddSumIntegral` | volunteer-build-reviewed |
-| M014783 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddValuationNatCastEqPadicValNat` | volunteer-build-reviewed |
-| M014784 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddValuationNatCastEqPadicValNatStatement` | volunteer-build-reviewed |
-| M014786 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveBijectiveRelationRowVecEqMatrixStatement` | volunteer-build-reviewed |
-| M014787 | P2447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveClassDegreeTwoStructureSheafVanish` | volunteer-build-reviewed |
-| M014789 | P2447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveClassDegreeTwoVanishAffineBases` | volunteer-build-reviewed |
-| M014791 | P0296 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveCocycleLocalTrivial` | build-observed |

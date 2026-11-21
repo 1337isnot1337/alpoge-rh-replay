@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M027612"
+  ],
+  "started_utc": "2026-11-21T13:28:28.239990+00:00",
+  "ended_utc": "2026-11-21T13:29:36.163539+00:00",
+  "elapsed_seconds": 67.9,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 4740356
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulMemIntegralClosureOverGenericFibreStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c05fada6e81813ec705a05f6267b1beea8694aecb8a18f6f918c1a74e6110543",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulMemIntegralClosureOverGenericFibre"
+  ],
+  "objects": {
+    "M027612": "9a1519083ffde08a1dce302b1d0365b4ab159690ab0cf87693ed9d35674eb158"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "80be9105b1ab0c736087c31cc93849eab62db88cdded79a202996ad769cfa099",
+  "packet": "M027612",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22208#issuecomment-7063323396",
+  "reviewed_utc": "2026-11-21T17:38:22.446655+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

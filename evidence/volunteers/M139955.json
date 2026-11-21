@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M139955"
+  ],
+  "started_utc": "2026-11-21T13:46:29.262470+00:00",
+  "ended_utc": "2026-11-21T13:46:35.411542+00:00",
+  "elapsed_seconds": 6.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6826828
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.PublishedTheorems.NadelVanishingPairs.NadelVanishingLemmas.RegularLocalDifferentialsLinearIndependent:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "aef8b16c28a4f2ad6a9a91312051d24538dfe80da4f311f7304ccfa27bb664ac",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M139955": "b9777a32846f0bee4fbd6ff9958721f1a199f2de237c84f692e77ab414a8abe4"
+  },
+  "bundle_sha256": "6a51a96a3b97f2f3b2f042e00f0150d379b8a733cbfac8af13f3c09715edc14b",
+  "packet": "M139955",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22269#issuecomment-7063574483",
+  "reviewed_utc": "2026-11-21T17:37:35.267688+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

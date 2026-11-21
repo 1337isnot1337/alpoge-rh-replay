@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002907 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ZeroNotAdmissibleOfRankPos` | volunteer-build-reviewed |
 | M002909 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.CubeMapTripleProductUnique` | volunteer-build-reviewed |
 | M002912 | P0393 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.DominatesLiftUnique` | volunteer-build-reviewed |
 | M002913 | P0435 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.ExistsGoodLevel` | volunteer-build-reviewed |
@@ -199,6 +200,7 @@
 | M003343 | P1974 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.TiedColumnData` | volunteer-build-reviewed |
 | M003345 | P0393 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ToZModPowKummerEqIff` | build-observed |
 | M003347 | P2255 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ToroidalCompactificationData` | build-observed |
+| M003350 | P0946 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.TwistBaseCoefficientRingResidueFieldFinite` | volunteer-build-reviewed |
 | M003351 | P2093 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.TwistedLevelExtension` | volunteer-build-reviewed |
 | M003352 | P2050 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.UpLReStage` | volunteer-build-reviewed |
 | M003358 | P0810 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.WeilDeligneParamMonodromyEqZeroIff` | build-observed |
@@ -400,5 +402,3 @@
 | M003707 | P1974 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPairOfIsTriple` | volunteer-build-reviewed |
 | M003709 | P0946 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPeriodHom` | build-observed |
 | M003710 | P1271 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPolAVSectionInverseImage` | build-observed |
-| M003711 | P1298 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPow8F` | build-observed |
-| M003712 | P1323 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPowMod` | build-observed |

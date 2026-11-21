@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013100 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsMatrixBasisAllPlacesTorsionDet` | volunteer-build-reviewed |
+| M013101 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsMatrixBasisAllPlacesTorsionDetStatement` | volunteer-build-reviewed |
+| M013106 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsMinOn` | volunteer-build-reviewed |
+| M013107 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsModelMapDefinedWeakNeronFamily` | volunteer-build-reviewed |
+| M013108 | P0892 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsModelMapDefinedWeakNeronFamilyStatement` | build-observed |
+| M013110 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsMonomialMatricesProjectiveRep` | volunteer-build-reviewed |
+| M013111 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsMonomialMatricesProjectiveRepStatement` | volunteer-build-reviewed |
+| M013112 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsMulIsIntegralChart` | volunteer-build-reviewed |
+| M013115 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsMultiplicativeGroupOpenNonvanishingPolynomStatement` | volunteer-build-reviewed |
+| M013116 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsNeZeroOfLe` | volunteer-build-reviewed |
+| M013117 | P1445 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsNeronNeutralComponentFiniteLevel` | volunteer-build-reviewed |
 | M013118 | P1474 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsNeronNeutralComponentFiniteLevelStatement` | volunteer-build-reviewed |
 | M013119 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsNeutralGroupModel` | volunteer-build-reviewed |
 | M013120 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsNeutralGroupModelStatement` | volunteer-build-reviewed |
@@ -391,14 +402,3 @@
 | M013755 | P1373 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyAlgebraisationFormalTowerAmple` | build-observed |
 | M013757 | P0947 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyBiTrivOfIsIntegrallyClosed` | build-observed |
 | M013759 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyClosureExtensionAbelianSchemeStatement` | volunteer-build-reviewed |
-| M013760 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyFormalUniformisationTower` | volunteer-build-reviewed |
-| M013761 | P1221 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyFormalUniformisationTowerStatement` | build-observed |
-| M013764 | P0811 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyLawAbelianSchemeProperClosure` | build-observed |
-| M013767 | P1763 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyLevelOfIsAlgClosed` | build-observed |
-| M013768 | P2052 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyOfFourPropertiesGroupScheme` | volunteer-build-reviewed |
-| M013769 | P2067 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyOfFourPropertiesGroupSchemeStatement` | volunteer-build-reviewed |
-| M013770 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyPullbackGeneric` | volunteer-build-reviewed |
-| M013771 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyTestModelToClosure` | volunteer-build-reviewed |
-| M013772 | P1221 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyTestModelToClosureStatement` | wave-reused |
-| M013774 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyThetaExtensionTestStatement` | volunteer-build-reviewed |
-| M013777 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyTorusExtensionOfSurjectivePointsStatement` | volunteer-build-reviewed |

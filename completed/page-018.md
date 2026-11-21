@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M011515 | P2067 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceMatrixEqOfAgreeWithFramedGLStatement` | volunteer-build-reviewed |
+| M011516 | P2052 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceMemLatticeCompletionIffParts` | volunteer-build-reviewed |
+| M011517 | P2067 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceMemLatticeCompletionIffPartsStatement` | volunteer-build-reviewed |
+| M011519 | P1995 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlacePairMovesLatticeVacuumReadingStatement` | volunteer-build-reviewed |
+| M011521 | P1995 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceProjectionEqOfPrimeComponentEqStatement` | volunteer-build-reviewed |
+| M011522 | P1995 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceReductionsConjOfNestedFrameStabilisers` | volunteer-build-reviewed |
+| M011527 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceStdCharContinuousNontrivial` | volunteer-build-reviewed |
+| M011531 | P2067 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceUnitaryStabilizesSelfDualLatticeIff` | volunteer-build-reviewed |
+| M011532 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceUnitaryStabilizesSelfDualLatticeIffStatement` | volunteer-build-reviewed |
 | M011533 | P2052 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceWPartFrameColumnMultipleMemIff` | volunteer-build-reviewed |
 | M011534 | P2067 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceWPartFrameColumnMultipleMemIffStatement` | volunteer-build-reviewed |
 | M011535 | P2067 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPointBaseLatticeCoordsIntegralLastInPrime` | volunteer-build-reviewed |
@@ -144,6 +153,7 @@
 | M011828 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaFunctionsSumUniformLimitProductSpanStatement` | volunteer-build-reviewed |
 | M011829 | P1561 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaHeisenbergConjugationNegHermitianSpace` | volunteer-build-reviewed |
 | M011831 | P1995 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaInnerFockProductEqProdRealPlaces` | volunteer-build-reviewed |
+| M011832 | P2015 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaInnerFockProductEqProdRealPlacesStatement` | volunteer-build-reviewed |
 | M011835 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaInnerProductFormulaDefiniteOfRallisConverge` | volunteer-build-reviewed |
 | M011839 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaIntegralEqSiegelEisensteinOfWeilRange` | volunteer-build-reviewed |
 | M011840 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaIntegralEqSiegelEisensteinOfWeilRangeStatement` | volunteer-build-reviewed |
@@ -206,6 +216,7 @@
 | M011975 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TraceFormRealCoordinatesIntegralGramStatement` | volunteer-build-reviewed |
 | M011981 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TranslateToSecondModelCuspFormMapValueAutomorphiStatement` | volunteer-build-reviewed |
 | M011984 | P0296 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TranslationInvariantSchwartzBruhatMapFactorsInte` | volunteer-build-reviewed |
+| M011985 | P0348 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TranslationInvariantSchwartzBruhatMapFactorsInteStatement` | volunteer-build-reviewed |
 | M011987 | P2034 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TransportCorrectionCarriesColumnLatticeRowTraceStatement` | volunteer-build-reviewed |
 | M011988 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TransportedFrameGramOrth` | volunteer-build-reviewed |
 | M011989 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TransportedSchrodingerSiegelUnipotentAction` | volunteer-build-reviewed |
@@ -391,14 +402,3 @@
 | M012342 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingIntegralEqFiniteSumOverNumberField` | volunteer-build-reviewed |
 | M012343 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingIntegralEqFiniteSumOverNumberFieldStatement` | volunteer-build-reviewed |
 | M012344 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingIntegralPositionOneEqFiniteSum` | volunteer-build-reviewed |
-| M012348 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingLevelsAndStepsHaarMeasuresExist` | volunteer-build-reviewed |
-| M012350 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingOnlyBaseGramRationalPointsContribute` | volunteer-build-reviewed |
-| M012351 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingOnlyBaseGramRationalPointsContributeStatement` | volunteer-build-reviewed |
-| M012356 | P2034 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnimodularHermitianCongrOneAtTamePlaceStatement` | volunteer-build-reviewed |
-| M012357 | P1763 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnipotentAtTauMemStabilizer` | volunteer-build-reviewed |
-| M012358 | P2177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnipotentMeanThetaLiftEqOrbitIntegral` | volunteer-build-reviewed |
-| M012360 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnipotentUpperInvUpperTriangularBounded` | volunteer-build-reviewed |
-| M012361 | P0177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnipotentUpperInvUpperTriangularBoundedStatement` | volunteer-build-reviewed |
-| M012362 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitFormUnitaryIntegralEntriesOfLevelLattice` | volunteer-build-reviewed |
-| M012364 | P1995 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitIdealCompletionAtPlaceEqIntegralAdelesAtPlac` | volunteer-build-reviewed |
-| M012366 | P2081 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnitNormVectorsOneOrbitSelfDualLatticeSplit` | volunteer-build-reviewed |

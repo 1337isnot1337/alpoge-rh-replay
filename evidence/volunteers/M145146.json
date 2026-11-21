@@ -1,0 +1,48 @@
+{
+  "tasks": [
+    "M145146"
+  ],
+  "started_utc": "2026-11-21T13:08:37.800750+00:00",
+  "ended_utc": "2026-11-21T13:09:42.787440+00:00",
+  "elapsed_seconds": 64.9,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 8053940,
+    "peak_child_rss_kib": 5699020
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.GaussJetBounds.StatementY:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "683e08f6cb88c5645f5d3832ca615c2a24dfd284c39b0961da0bd4bdf99c3c25",
+  "rebuilt_project_modules": [
+    "Formalism.GaussJetBounds.Statement",
+    "Formalism.GaussJetBounds.StatementA",
+    "Formalism.GaussJetBounds.StatementC",
+    "Formalism.GaussJetBounds.StatementE",
+    "Formalism.GaussJetBounds.StatementG",
+    "Formalism.GaussJetBounds.StatementH",
+    "Formalism.GaussJetBounds.StatementI",
+    "Formalism.GaussJetBounds.StatementJ",
+    "Formalism.GaussJetBounds.StatementK",
+    "Formalism.GaussJetBounds.StatementM",
+    "Formalism.GaussJetBounds.StatementN",
+    "Formalism.GaussJetBounds.StatementP",
+    "Formalism.IncomingBounds.IncomingBound"
+  ],
+  "objects": {
+    "M145146": "2809da4305f02c70c9ca77f03847fe68ff959e1bab0609f19d412bdae80400b1"
+  },
+  "project_root": "/home/phoenix/Project/rh/vol/lean",
+  "bundle_sha256": "eb4ba8c36fd885b23d322d9b40ebcf408eebb8a70ea5116466e51a76d7891c62",
+  "packet": "M145146",
+  "contributor": "IlluminPhoenix",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22081#issuecomment-7063073072",
+  "reviewed_utc": "2026-11-21T17:39:32.477306+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

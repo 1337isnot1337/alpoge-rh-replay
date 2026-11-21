@@ -296,6 +296,7 @@
 | M002686 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.GoodLiftPhase` | volunteer-build-reviewed |
 | M002687 | P1298 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.HalfLinearCocycle` | volunteer-build-reviewed |
 | M002689 | P1787 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.HeckePrimeDetection` | volunteer-build-reviewed |
+| M002690 | P1349 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.HeckeSupportLattices` | volunteer-build-reviewed |
 | M002692 | P1787 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.HeckeValueIntegrality` | volunteer-build-reviewed |
 | M002695 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.IndicatorFunctionIdentity` | volunteer-build-reviewed |
 | M002696 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.InfinityTypes` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M002903 | P0582 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.TotalDegreeEqOfMemHarmA` | volunteer-build-reviewed |
 | M002905 | P0238 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.TransvMemZGam` | build-observed |
 | M002906 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.VVAlgebraMapNonneg` | volunteer-build-reviewed |
-| M002907 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ZeroNotAdmissibleOfRankPos` | volunteer-build-reviewed |

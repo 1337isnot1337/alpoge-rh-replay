@@ -2,6 +2,24 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M023093 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvaluationTriplePeriodCaseAFourth` | volunteer-build-reviewed |
+| M023094 | P2122 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvaluationTriplePeriodCaseAFourthStatement` | volunteer-build-reviewed |
+| M023095 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvaluationTriplePeriodCaseASecond` | volunteer-build-reviewed |
+| M023096 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvaluationTriplePeriodCaseASecondStatement` | volunteer-build-reviewed |
+| M023097 | P2256 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvaluationTriplePeriodCaseAStatement` | volunteer-build-reviewed |
+| M023098 | P2122 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvaluationTriplePeriodCaseAThird` | volunteer-build-reviewed |
+| M023099 | P2135 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvaluationTriplePeriodCaseAThirdStatement` | volunteer-build-reviewed |
+| M023113 | P2449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvenOnTorusDescendsAlongLocalHomStatement` | volunteer-build-reviewed |
+| M023114 | P1535 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvenOrdLConjGramDetOfUnitGramAdicCompletion` | volunteer-build-reviewed |
+| M023115 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvenOrdLConjGramDetOfUnitGramAdicCompletionStatement` | volunteer-build-reviewed |
+| M023119 | P2246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventualL6OfLowerBoundStatement` | volunteer-build-reviewed |
+| M023121 | P2246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventualOntoOfMorePointsStatement` | volunteer-build-reviewed |
+| M023122 | P2211 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventualPointsOfRowTies` | volunteer-build-reviewed |
+| M023123 | P2224 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventualPointsOfRowTiesStatement` | volunteer-build-reviewed |
+| M023126 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventualSmallOfParts` | volunteer-build-reviewed |
+| M023127 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventualSmallOfPartsStatement` | volunteer-build-reviewed |
+| M023128 | P1397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyAdicIntegralSpanClosedMulStar` | build-observed |
+| M023129 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyAdicIntegralSpanClosedMulStarStatement` | volunteer-build-reviewed |
 | M023130 | P1535 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyBezoutSeparableDerivativeAdicIntegers` | volunteer-build-reviewed |
 | M023131 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyBezoutSeparableDerivativeAdicIntegersStatement` | volunteer-build-reviewed |
 | M023132 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyCompFinMemIntLocAdele` | volunteer-build-reviewed |
@@ -110,6 +128,7 @@
 | M023367 | P0893 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineChartPreirreducibleFiberStatement` | build-observed |
 | M023372 | P2449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineChartThetaSystemUnitaryModel` | volunteer-build-reviewed |
 | M023373 | P2478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineChartThetaSystemUnitaryModelStatement` | volunteer-build-reviewed |
+| M023374 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineCombinationSquareZeroLiftsChart` | volunteer-build-reviewed |
 | M023378 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineCoverWithDualNumberDerivations` | volunteer-build-reviewed |
 | M023381 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineEigenFrameLocalStatement` | volunteer-build-reviewed |
 | M023382 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineEtaleCoordinatesGenericPoint` | volunteer-build-reviewed |
@@ -325,6 +344,7 @@
 | M023868 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartierDualTangentOfCoboundaryOneEqSmul` | build-observed |
 | M023869 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartierDualTangentOfCoboundaryOneEqSmulStatement` | build-observed |
 | M023879 | P2449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCdvrDominating` | volunteer-build-reviewed |
+| M023900 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCechPrimitiveBoxSegment` | volunteer-build-reviewed |
 | M023904 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCellOfLeadingMinorsStatement` | volunteer-build-reviewed |
 | M023908 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCentralUnipotentTranslate` | volunteer-build-reviewed |
 | M023909 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCentralUnipotentTranslateStatement` | volunteer-build-reviewed |
@@ -382,23 +402,3 @@
 | M024053 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCob1WittLiftModP` | build-observed |
 | M024054 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCob1WittLiftModPStatement` | build-observed |
 | M024059 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoboundaryOfNormOneInSubalgebra` | wave-reused |
-| M024060 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoboundaryOfNormOneInSubalgebraStatement` | wave-reused |
-| M024064 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCochainEvEqOfNatural` | wave-reused |
-| M024065 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCochainEvEqOfNaturalStatement` | wave-reused |
-| M024066 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCochainMapOfFibreCocyclePairing` | build-observed |
-| M024067 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCochainMapOfFibreCocyclePairingStatement` | build-observed |
-| M024070 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleLiftingLineBundleTransitionUnits` | wave-reused |
-| M024071 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleLiftingLineBundleTransitionUnitsStatement` | wave-reused |
-| M024072 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleOfMapToDegreeOneTerm` | wave-reused |
-| M024073 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleOfMapToDegreeOneTermStatement` | wave-reused |
-| M024074 | P2224 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocyclePullbackRepresentation` | volunteer-build-reviewed |
-| M024076 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCocycleUnit` | volunteer-build-reviewed |
-| M024078 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoefAtOfPosDef` | volunteer-build-reviewed |
-| M024086 | P2450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoefficientDataOfNonzeroSectionStatement` | volunteer-build-reviewed |
-| M024090 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoefficientMapExtensionRationalValuesStatement` | volunteer-build-reviewed |
-| M024092 | P2246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoefficientPolynomialGLFunctionNeZeroStatement` | volunteer-build-reviewed |
-| M024096 | P2450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoeffwiseDerivationMvPowerSeriesStatement` | volunteer-build-reviewed |
-| M024097 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCofilteredLimitAffineEtaleOfIsStalk` | build-observed |
-| M024098 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCofilteredLimitAffineEtaleOfIsStalkStatement` | build-observed |
-| M024101 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoinducedSheafInjectiveResolutionFreeExact` | wave-reused |
-| M024102 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoinducedSheafInjectiveResolutionFreeExactStatement` | wave-reused |

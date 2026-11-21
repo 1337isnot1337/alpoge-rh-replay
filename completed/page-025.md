@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M017978 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmExtensionConjugationInvolutiveFixedField` | volunteer-build-reviewed |
+| M017995 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmGaloisRepresentationFromPrintsStatement` | volunteer-build-reviewed |
+| M017996 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmGaloisRepresentationOfHyp` | volunteer-build-reviewed |
+| M017998 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmHermitianTraceFormIntegralStatement` | build-observed |
+| M017999 | P2053 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmHomGramFormIntegralCoordinateLattice` | volunteer-build-reviewed |
+| M018000 | P2068 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmHomGramFormIntegralCoordinateLatticeStatement` | volunteer-build-reviewed |
+| M018003 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmLatticeDerivClassInvarianceOfHeckeStatement` | build-observed |
+| M018004 | P2676 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmLatticeDividedPowerJetIntegralityOfPublishedStatement` | build-observed |
+| M018006 | P2389 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmLatticeDualIntegralImageStatement` | build-observed |
+| M018013 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmLatticeSelfDualHermitianExists` | volunteer-build-reviewed |
+| M018019 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmObjHomOfTypeLinearIndependent` | volunteer-build-reviewed |
+| M018020 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmObjHomOfTypeLinearIndependentStatement` | volunteer-build-reviewed |
+| M018023 | P2389 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmOrderActionDescends` | build-observed |
+| M018024 | P2419 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmOrderActionDescendsStatement` | build-observed |
+| M018026 | P2476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmOrderUniformizationEndomorphismsStatement` | build-observed |
 | M018034 | P2689 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmPeriodStatementOfHyp` | build-observed |
 | M018040 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmPointEigenbasisChangeDetIntegralAlmostAllPrimeStatement` | volunteer-build-reviewed |
 | M018041 | P2476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmPointHodgePeriodFormula` | build-observed |
@@ -387,18 +402,3 @@
 | M018905 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalMeasurePreserving` | volunteer-build-reviewed |
 | M018908 | P2134 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartEqual` | volunteer-build-reviewed |
 | M018909 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartEqualStatement` | volunteer-build-reviewed |
-| M018910 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartFold` | volunteer-build-reviewed |
-| M018911 | P2134 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartFoldStatement` | volunteer-build-reviewed |
-| M018914 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartProduct` | volunteer-build-reviewed |
-| M018915 | P2134 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartProductStatement` | volunteer-build-reviewed |
-| M018918 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartUnfold` | volunteer-build-reviewed |
-| M018919 | P2134 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartUnfoldStatement` | volunteer-build-reviewed |
-| M018922 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalUnitLevi` | volunteer-build-reviewed |
-| M018923 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalUnitLeviStatement` | volunteer-build-reviewed |
-| M018926 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAMatchedIntegral` | volunteer-build-reviewed |
-| M018930 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigASchwartzEvalCompare` | volunteer-build-reviewed |
-| M018931 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigASchwartzEvalCompareStatement` | volunteer-build-reviewed |
-| M018932 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigASchwartzEvalEqual` | volunteer-build-reviewed |
-| M018933 | P2134 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigASchwartzEvalEqualStatement` | volunteer-build-reviewed |
-| M018934 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigASchwartzLocalEval` | volunteer-build-reviewed |
-| M018935 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigASchwartzLocalEvalStatement` | volunteer-build-reviewed |

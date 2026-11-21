@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M109665"
+  ],
+  "started_utc": "2026-11-21T13:28:45.815697+00:00",
+  "ended_utc": "2026-11-21T13:29:13.770931+00:00",
+  "elapsed_seconds": 28.0,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 6885140
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.CommutativeAlgebra.MapZeroS:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "951ba378561c145303a48dc519cf07e4b25a54670eed30d0860c96b9b021a1ec",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCochainEvalOnSimplexBasicProperties",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCochainEvalOnSimplexBasicPropertiesStatement"
+  ],
+  "objects": {
+    "M109665": "7517ed1c3fcb2617961757d25c0801a4a287b86a5fa2c3191795127b2a6e3dba"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "586a8936cf0a5916d3d0ac4b5b691b569903a189f44ba2981fe0404103693f01",
+  "packet": "M109665",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22216#issuecomment-7063322416",
+  "reviewed_utc": "2026-11-21T17:38:11.756751+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

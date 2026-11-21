@@ -1,0 +1,49 @@
+{
+  "tasks": [
+    "M157496"
+  ],
+  "started_utc": "2026-11-21T13:20:38.343754+00:00",
+  "ended_utc": "2026-11-21T13:22:19.821326+00:00",
+  "elapsed_seconds": 101.4,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 8053940,
+    "peak_child_rss_kib": 5869304
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedLimitGauge.OrbitPushR:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9e81981f3ed900f7892d1611998fa984612792913e4ec4e4f31de1d5883bf83f",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.RhsWLim",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedLimitGauge.ConstCut",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedLimitGauge.ConstPair",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedLimitGauge.HaarUniq",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedLimitGauge.MBaseMem",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedLimitGauge.OrbitPushC",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedLimitGauge.OrbitPushCut",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedLimitGauge.OrbitPushE",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedLimitGauge.OrbitPushH",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedLimitGauge.OrbitPushI",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedLimitGauge.OrbitPushV",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedLimitGauge.RhsTest",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedLimitGauge.VolURatio",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeightedLimitGauge.VolumeLieE"
+  ],
+  "objects": {
+    "M157496": "9ee2ba171869f25d8a5d00875f8fd00594593b8e61bb29c1ff0d33fbbae4e5e0"
+  },
+  "project_root": "/home/phoenix/Project/rh/vol/lean",
+  "bundle_sha256": "6b3ce1e418763f8e59e5d74073b8ab2e51a2b5b11ccf86117593ac67db82c0f6",
+  "packet": "M157496",
+  "contributor": "IlluminPhoenix",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22164#issuecomment-7063251039",
+  "reviewed_utc": "2026-11-21T17:38:55.265479+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

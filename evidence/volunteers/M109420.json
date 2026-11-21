@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M109420"
+  ],
+  "started_utc": "2026-11-21T13:03:20.455549+00:00",
+  "ended_utc": "2026-11-21T13:03:46.563537+00:00",
+  "elapsed_seconds": 26.1,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 6880696
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.CommutativeAlgebra.EtaleCohomology.CompLeft:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c5ed752aada3653ab21ffe911f51fe5eaeed9cd63e510e732eb4413712b86441",
+  "rebuilt_project_modules": [
+    "Development.EtaleCohomology.EtaleSheaves.LeafGhostCut",
+    "Development.EtaleCohomology.EtaleSheaves.LeafGhostRelCut",
+    "Development.EtaleCohomology.EtaleSheaves.LeafRepCut"
+  ],
+  "objects": {
+    "M109420": "9c3224fa9676d21d9caccf914962ef9bbfece552a60f97ca6b16e2b36a52f47c"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "9aa21b24d721a38b6f24cc072e7f7582d9fc24533cca45c74ff4ae10a6d41faa",
+  "packet": "M109420",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21994#issuecomment-7063001952",
+  "reviewed_utc": "2026-11-21T17:40:04.982540+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M153878"
+  ],
+  "started_utc": "2026-11-21T13:20:48.474899+00:00",
+  "ended_utc": "2026-11-21T13:21:02.667068+00:00",
+  "elapsed_seconds": 14.2,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 6056976
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.OrbitalBoundsConclusion.PrimeLogOverPSqTail:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "83b3c6369b4a6dbf09a1c225616173eb77334dfa4f6ce306c999a8c9f1dd990f",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.PrimeSums"
+  ],
+  "objects": {
+    "M153878": "75b5ac4aacec0a48940f0016746f8301847fa6857c09c51ea31b889be6d48c7f"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "2b9681105e9e773cd0ac90b3b9d7fd16191b35264f3444b4293a5c4680554ac0",
+  "packet": "M153878",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22176#issuecomment-7063210056",
+  "reviewed_utc": "2026-11-21T17:38:43.223192+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

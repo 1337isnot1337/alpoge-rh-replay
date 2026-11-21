@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M009173 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatSchwartzTargetUnipotentConjBesselCharacterStatement` | volunteer-build-reviewed |
+| M009174 | P1813 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatSectionParabolicChange` | volunteer-build-reviewed |
+| M009175 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatThetaIntegrandLocallyUniformMajorant` | volunteer-build-reviewed |
+| M009176 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatThetaIntegrandLocallyUniformMajorantStatement` | volunteer-build-reviewed |
+| M009177 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatThetaMapsConvergeThetaFunctions` | volunteer-build-reviewed |
+| M009178 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatThetaMapsConvergeThetaFunctionsStatement` | volunteer-build-reviewed |
 | M009179 | P1473 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatThetaMapsPreserveThetaFunctions` | volunteer-build-reviewed |
 | M009180 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatThetaMapsPreserveThetaFunctionsStatement` | volunteer-build-reviewed |
 | M009182 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FockCoefficientEqConstMulLowestKTypeCoefficient` | volunteer-build-reviewed |
@@ -396,9 +402,3 @@
 | M009689 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralFiniteAdeleOfSplitPlaceComponentsStatement` | volunteer-build-reviewed |
 | M009690 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralFoldViaLintegralFormula` | volunteer-build-reviewed |
 | M009691 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralFoldViaLintegralFormulaStatement` | volunteer-build-reviewed |
-| M009692 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralFrameMatrixIffMemSplitHalfHomLattice` | volunteer-build-reviewed |
-| M009693 | P2065 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralFrameMatrixIffMemSplitHalfHomLatticeStatement` | volunteer-build-reviewed |
-| M009694 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralGLCommensuratedDoubleCosetCardInvSymm` | volunteer-build-reviewed |
-| M009695 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralGLCommensuratedDoubleCosetCardInvSymmStatement` | volunteer-build-reviewed |
-| M009696 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralHeisenbergInvariantFormsProportional` | volunteer-build-reviewed |
-| M009697 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralHeisenbergInvariantFormsProportionalStatement` | volunteer-build-reviewed |

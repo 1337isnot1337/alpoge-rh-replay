@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M018910 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartFold` | volunteer-build-reviewed |
+| M018911 | P2134 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartFoldStatement` | volunteer-build-reviewed |
+| M018914 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartProduct` | volunteer-build-reviewed |
+| M018915 | P2134 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartProductStatement` | volunteer-build-reviewed |
+| M018918 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartUnfold` | volunteer-build-reviewed |
+| M018919 | P2134 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartUnfoldStatement` | volunteer-build-reviewed |
+| M018922 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalUnitLevi` | volunteer-build-reviewed |
+| M018923 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalUnitLeviStatement` | volunteer-build-reviewed |
+| M018926 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAMatchedIntegral` | volunteer-build-reviewed |
+| M018930 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigASchwartzEvalCompare` | volunteer-build-reviewed |
+| M018931 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigASchwartzEvalCompareStatement` | volunteer-build-reviewed |
+| M018932 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigASchwartzEvalEqual` | volunteer-build-reviewed |
+| M018933 | P2134 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigASchwartzEvalEqualStatement` | volunteer-build-reviewed |
+| M018934 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigASchwartzLocalEval` | volunteer-build-reviewed |
+| M018935 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigASchwartzLocalEvalStatement` | volunteer-build-reviewed |
 | M018938 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAStabilizerHaarEigen` | volunteer-build-reviewed |
 | M018939 | P2178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAStabilizerHaarEigenStatement` | volunteer-build-reviewed |
 | M018940 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAStabilizerHaarTriple` | volunteer-build-reviewed |
@@ -229,6 +244,7 @@
 | M019417 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConnectionFormSmooth` | build-observed |
 | M019418 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConnectionFormSmoothStatement` | build-observed |
 | M019419 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConnectionMatrixGramOperatorNormLe` | volunteer-build-reviewed |
+| M019420 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConnectionMatrixGramOperatorNormLeStatement` | volunteer-build-reviewed |
 | M019421 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConnectionPullbackDifferentiable` | build-observed |
 | M019422 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConnectionPullbackDifferentiableStatement` | build-observed |
 | M019428 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConstBiadditiveCoboundarySymmetric` | build-observed |
@@ -301,6 +317,7 @@
 | M019580 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffOnHeckeEisensteinFourierTermStatement` | volunteer-build-reviewed |
 | M019583 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffOnReframe` | build-observed |
 | M019584 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffOnReframeStatement` | build-observed |
+| M019587 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffOnSuperconn` | volunteer-build-reviewed |
 | M019588 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffOnSuperconnOfPeriod` | build-observed |
 | M019589 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffOnSuperconnOfPeriodStatement` | build-observed |
 | M019591 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffThetaTransformAdelicSchwartzRealDirectioStatement` | volunteer-build-reviewed |
@@ -385,20 +402,3 @@
 | M019732 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousSec` | volunteer-build-reviewed |
 | M019733 | P1535 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousSectionPolynomialGrowth` | build-observed |
 | M019734 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousSingleV` | volunteer-build-reviewed |
-| M019735 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousSlice` | volunteer-build-reviewed |
-| M019736 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousSliceSectionIntegral` | build-observed |
-| M019737 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousSliceSectionIntegralStatement` | build-observed |
-| M019738 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousSliceSectionMeasure` | build-observed |
-| M019739 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousSliceSectionMeasureStatement` | build-observed |
-| M019740 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousSmulSemi` | volunteer-build-reviewed |
-| M019741 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousTerm` | volunteer-build-reviewed |
-| M019745 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousThetaTransformAdelicSchwartz` | volunteer-build-reviewed |
-| M019746 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousThetaTransformAdelicSchwartzStatement` | volunteer-build-reviewed |
-| M019748 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousThetaTransformRationalDarbouxCmStatement` | volunteer-build-reviewed |
-| M019749 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousThetaTransformSchwartzCm` | volunteer-build-reviewed |
-| M019751 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousToGAd` | volunteer-build-reviewed |
-| M019753 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousTranslatesKernelRouteSmallVertex` | volunteer-build-reviewed |
-| M019759 | P2256 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousTransportedWeilOperatorGroupVariable` | volunteer-build-reviewed |
-| M019762 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousUniMat` | volunteer-build-reviewed |
-| M019763 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousUnitAtUnitArch` | volunteer-build-reviewed |
-| M019765 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousUnitaryAdelicComponentAtPlaceExplicitStatement` | volunteer-build-reviewed |
