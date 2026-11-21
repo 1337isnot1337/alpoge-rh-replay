@@ -220,7 +220,6 @@
 | [@dhudakk](https://github.com/dhudakk) | [M019999](https://github.com/rohanarun/alpoge-rh-replay/issues/21158) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M016174](https://github.com/rohanarun/alpoge-rh-replay/issues/21162) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M027230](https://github.com/rohanarun/alpoge-rh-replay/issues/21165) | Claimed |
-| [@surfyhou](https://github.com/surfyhou) | [P2328](https://github.com/rohanarun/alpoge-rh-replay/issues/21188) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M171093](https://github.com/rohanarun/alpoge-rh-replay/issues/21212) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M017631](https://github.com/rohanarun/alpoge-rh-replay/issues/21213) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M020008](https://github.com/rohanarun/alpoge-rh-replay/issues/21218) | Claimed |
@@ -254,3 +253,4 @@
 | [@dhudakk](https://github.com/dhudakk) | [M084967](https://github.com/rohanarun/alpoge-rh-replay/issues/21592) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M010921](https://github.com/rohanarun/alpoge-rh-replay/issues/21595) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M121204](https://github.com/rohanarun/alpoge-rh-replay/issues/21596) | Claimed |
+| [@dhudakk](https://github.com/dhudakk) | [M112350](https://github.com/rohanarun/alpoge-rh-replay/issues/21597) | Claimed |
