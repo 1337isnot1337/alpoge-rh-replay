@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BesselDerivatives.ContDiffOnDirectionalDerivative",
+  "source_sha256": "1463997d3135a39209be3eba41e0ecfe403c590bd60d0e18ffa0af4a7679c60c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
