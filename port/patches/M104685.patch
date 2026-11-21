@@ -1,0 +1,20 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/ReductionBoundsTorsion/PartitionUnitySmooth/DiagForm.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/ReductionBoundsTorsion/PartitionUnitySmooth/DiagForm.lean
+@@ -34,7 +34,7 @@
+ 
+ theorem diag_form {N : ℕ} (A M : Matrix (Fin N) (Fin N) ℂ) (a : Fin N) :
+     (Aᴴ * M * A) a a = star (fun i => A i a) ⬝ᵥ (M *ᵥ fun i => A i a) := by
+-  simp only [mul_apply, dotProduct, mulVec, conjTranspose_apply, Finset.mul_sum, Finset.sum_mul, Pi.star_apply]
++  simp only [Matrix.mul_apply, dotProduct, mulVec, conjTranspose_apply, Finset.mul_sum, Finset.sum_mul, Pi.star_apply]
+   rw [Finset.sum_comm]
+   refine Finset.sum_congr rfl fun i _ => Finset.sum_congr rfl fun j _ => ?_
+   ring
+@@ -63,7 +63,7 @@
+     rw [hk'.1.det_eq_prod_eigenvalues]
+     erw [← Complex.ofReal_prod, Complex.ofReal_re]
+     calc ∏ i, hk'.1.eigenvalues i ≤ ∏ _i : Fin N, c :=
+-          Finset.prod_le_prod (fun i _ => hk'.eigenvalues_nonneg i) (fun i _ => hev i)
++          Finset.prod_le_prod₀ (fun i _ => hk'.eigenvalues_nonneg i) (fun i _ => hev i)
+       _ = c ^ N := by simp
+   have e : ∀ X : ℂ, star T.det * X * T.det = (Complex.normSq T.det : ℂ) * X := by
+     intro X

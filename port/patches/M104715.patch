@@ -1,0 +1,40 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/ReductionBoundsTorsion/PermutationSigns/PlacePermOperatorCommutantSpan.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/ReductionBoundsTorsion/PermutationSigns/PlacePermOperatorCommutantSpan.lean
+@@ -191,7 +191,7 @@
+     (Z * perm' σ w : Matrix (Fin q → Ix W m) (Fin q → Ix W m) ℂ) A B =
+       if (∀ i, ((B ∘ σ.symm) i).1 = w i) then Z A (B ∘ σ.symm) else 0 := by
+   have hB : (B ∘ σ.symm) ∘ σ = B := by funext i; simp
+-  rw [mul_apply, Finset.sum_eq_single (B ∘ σ.symm)]
++  rw [Matrix.mul_apply, Finset.sum_eq_single (B ∘ σ.symm)]
+   · rw [perm'_apply]
+     split_ifs with h1 h2 h2
+     · rw [mul_one]
+@@ -208,7 +208,7 @@
+     (w : Fin q → W) (A B : Fin q → Ix W m) :
+     (perm' σ w * Z : Matrix (Fin q → Ix W m) (Fin q → Ix W m) ℂ) A B =
+       if (∀ i, (A i).1 = w i) then Z (A ∘ σ) B else 0 := by
+-  rw [mul_apply, Finset.sum_eq_single (A ∘ σ)]
++  rw [Matrix.mul_apply, Finset.sum_eq_single (A ∘ σ)]
+   · rw [perm'_apply]
+     split_ifs with h1 h2 h2
+     · rw [one_mul]
+@@ -292,7 +292,7 @@
+       by_contra hk
+       push_neg at hk
+       have := congrArg (fun g : Fin q →₀ ℕ => g k) h
+-      simp only [Finsupp.coe_finset_sum, Finset.sum_apply, Finsupp.single_apply] at this
++      simp only [Finsupp.coe_finsetSum, Finset.sum_apply, Finsupp.single_apply] at this
+       simp [hk] at this
+     exact ⟨Finite.injective_iff_surjective.2 hs, hs⟩
+   · intro h
+@@ -320,8 +320,8 @@
+     (h0 : ∀ t : Fin q → ℂ, φ (tp q (∑ j, t j • x j)) = 0) :
+     φ (∑ σ : Equiv.Perm (Fin q), mt (fun j => x (σ j))) = 0 := by
+   have hP : polyOf φ x = 0 := MvPolynomial.funext fun t => by rw [eval_polyOf, h0, map_zero]
+-  have hc := congrArg (coeff (∑ j : Fin q, Finsupp.single j 1)) hP
+-  rw [coeff_zero, polyOf, coeff_sum] at hc
++  have hc := congrArg (fun p : MvPolynomial (Fin q) ℂ => p.coeff (∑ j : Fin q, Finsupp.single j 1)) hP
++  rw [AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply, polyOf, coeff_sum] at hc
+   have hX : ∀ f : Fin q → Fin q, (∏ j, X (f j) : MvPolynomial (Fin q) ℂ) =
+       monomial (∑ j, Finsupp.single (f j) 1) 1 := fun f => by
+     rw [monomial_sum_one]; rfl

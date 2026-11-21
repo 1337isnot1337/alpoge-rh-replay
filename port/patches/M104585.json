@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.ArithmeticGapBounds.PAEConst",
+  "source_sha256": "76d90e55318fb3bc14b7b9f3ba6f53d8d70acb6ba6601f0db14579e71f0990e1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent set-predicate API: EventuallyConst now takes the membership predicate explicitly. This is exactly the original eventually constant set assertion, with the same filter and set. Use the pointwise iff of the target almost-everywhere set equality representation.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0133-lean436-20261121/packet-result.json"
+}
