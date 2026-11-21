@@ -1,0 +1,7 @@
+{
+  "module": "Development.EtaleCohomology.EtaleSheaves.BoundaryKernel.Formal",
+  "source_sha256": "1e168fff484085da9d5efa6519b544ad7aae6bb554452f919799110c48f3617e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

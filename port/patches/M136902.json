@@ -1,0 +1,7 @@
+{
+  "module": "Development.ResolutionOfSingularities.Foundations.Blowup.StrictTransform",
+  "source_sha256": "3d4e41e89ed99c136838ea4f7801aaa6060c77ed9f88d6b90419974be9995f54",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

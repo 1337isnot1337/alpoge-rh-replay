@@ -1,0 +1,7 @@
+{
+  "module": "Development.ResolutionOfSingularities.Foundations.BlowupUniversalProperty",
+  "source_sha256": "0916028c7cc38ec4c833dc6e827feeab5a1ec2187e520620a73efdc9d738a419",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

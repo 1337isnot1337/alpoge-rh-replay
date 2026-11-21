@@ -1,0 +1,7 @@
+{
+  "module": "Development.EtaleCohomology.EtaleSheaves.AdjoinRootExtension.AdjoinRootOfInjective",
+  "source_sha256": "d5b2862a1f1136a445cf4d8acd97cf90122ca7661a79024db9655befc567cd1e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

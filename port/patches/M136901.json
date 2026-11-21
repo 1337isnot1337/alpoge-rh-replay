@@ -1,0 +1,7 @@
+{
+  "module": "Development.ResolutionOfSingularities.Foundations.Blowup.ReesGrading",
+  "source_sha256": "59c635756c7333d5ecf5cbfb7a46e3da6a2fe7c89100afe32db9babce40efe8f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Polynomial.coeff_monomial_apply instead of Polynomial.coeff_monomial before if_neg in Mathlib v4.36.0."
+}

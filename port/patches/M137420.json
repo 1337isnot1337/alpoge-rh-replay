@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.HolomorphicTheta.IntHol",
+  "source_sha256": "63d0997bec5ee68f86049614cd3dc520f1a6551dd662e8db4365d0854cf7c239",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

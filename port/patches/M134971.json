@@ -1,0 +1,7 @@
+{
+  "module": "Development.DiscreteGroups.GlobalIrreducibility.ValuationUnitriLt",
+  "source_sha256": "a3e525fbf631820c9282e64b660a74d10582d9e9f961990b51357e98a441d940",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

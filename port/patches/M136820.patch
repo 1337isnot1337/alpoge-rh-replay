@@ -1,0 +1,20 @@
+--- a/src/Development/ResolutionOfSingularities/EmbeddedResolution/ResolutionDescent/StandardSmoothLift.lean
++++ b/src/Development/ResolutionOfSingularities/EmbeddedResolution/ResolutionDescent/StandardSmoothLift.lean
+@@ -1,6 +1,7 @@
+ import Mathlib
+ 
+ set_option maxSynthPendingDepth 1
++set_option synthInstance.maxHeartbeats 100000
+ 
+ open scoped TensorProduct
+ 
+@@ -399,8 +400,7 @@
+   constructor
+   · have hleft : Function.LeftInverse (invBaseChangeHom hsurj P) (baseChangeHom hsurj P) := by
+       intro t
+-      refine TensorProduct.induction_on t ?_ ?_ ?_
+-      · simp
++      refine TensorProduct.inductionOn t ?_ ?_
+       · intro r x
+         have h1 : baseChangeHom hsurj P (r ⊗ₜ[S] x)
+             = algebraMap R B r * liftedAlgebraHom hsurj P x := by

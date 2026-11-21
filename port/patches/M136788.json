@@ -1,0 +1,7 @@
+{
+  "module": "Development.ResolutionOfSingularities.EmbeddedResolution.ResolutionDescent.GraphAlgebra",
+  "source_sha256": "6a9e3331e013686857264ecb89e0135e0ce3276c61d4e8c6ff449b1dbc3c96e5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
