@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsPointSlashEvaluationsIndependentGamma",
+  "source_sha256": "7e78da10feae8b2cebe4dda8031d324e4887c27bc86a7cecac31e412ef8963bf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: give the monoid element in the character-separation argument an explicit type, then specialize the congruence before comparing slash evaluations. This avoids excessive definitional-equality inference in the original nested application. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0118-lean436-20261121/packet-result.json"
+}

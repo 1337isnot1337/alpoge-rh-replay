@@ -1,0 +1,17 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsPointSlashEvaluationsIndependentGamma.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsPointSlashEvaluationsIndependentGamma.lean
+@@ -98,8 +98,12 @@
+     have hnot : x i * (x j)⁻¹ ∉ CongruenceSubgroup.Gamma M := fun h => hij' (hx i j h)
+     rcases Set.mem_iInter.1 hτ₀ (x i, x j) with h | h
+     · exact hnot h
+-    · exact h (DFunLike.congr_fun hij
+-        ⟨(Multiplicative.ofAdd (k (x i, x j)), f (x i, x j)), hf (x i, x j)⟩)
++    · let q : mfMonoid (CongruenceSubgroup.Gamma M) :=
++        ⟨(Multiplicative.ofAdd (k (x i, x j)), f (x i, x j)), hf (x i, x j)⟩
++      have heq := DFunLike.congr_fun hij q
++      change (f (x i, x j) ∣[k (x i, x j)] x i) τ₀ =
++        (f (x i, x j) ∣[k (x i, x j)] x j) τ₀ at heq
++      exact h heq
+   have hli := (linearIndependent_monoidHom (_root_.GlobalTheory.CosetEval.mfMonoid (CongruenceSubgroup.Gamma M)) ℂ).comp χ hinj
+   funext i
+   refine Fintype.linearIndependent_iff.1 hli c ?_ i
