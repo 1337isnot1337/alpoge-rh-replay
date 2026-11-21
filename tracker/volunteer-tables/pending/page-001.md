@@ -68,6 +68,8 @@
 | [@mu-mei](https://github.com/mu-mei) | [M085062](https://github.com/rohanarun/alpoge-rh-replay/issues/1309#issuecomment-7048827828) | Pending review |
 | [@unhingedpanda](https://github.com/unhingedpanda) | [M169497](https://github.com/rohanarun/alpoge-rh-replay/issues/1316#issuecomment-7049336645) | Pending review |
 | [@shardmods](https://github.com/shardmods) | [P1533](https://github.com/rohanarun/alpoge-rh-replay/issues/1318#issuecomment-7057477129) | Pending review |
+| [@shardmods](https://github.com/shardmods) | [P1600](https://github.com/rohanarun/alpoge-rh-replay/issues/1319#issuecomment-7057481797) | Pending review |
+| [@shardmods](https://github.com/shardmods) | [P1633](https://github.com/rohanarun/alpoge-rh-replay/issues/1320#issuecomment-7057487253) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M100737](https://github.com/rohanarun/alpoge-rh-replay/issues/1325#issuecomment-7048829604) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M004282](https://github.com/rohanarun/alpoge-rh-replay/issues/1327#issuecomment-7048831547) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M100793](https://github.com/rohanarun/alpoge-rh-replay/issues/1347#issuecomment-7048859040) | Pending review |
@@ -87,6 +89,9 @@
 | [@mu-mei](https://github.com/mu-mei) | [M031026](https://github.com/rohanarun/alpoge-rh-replay/issues/1523#issuecomment-7049033050) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M085226](https://github.com/rohanarun/alpoge-rh-replay/issues/1526#issuecomment-7049041075) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M084779](https://github.com/rohanarun/alpoge-rh-replay/issues/1529#issuecomment-7049044837) | Pending review |
+| [@shardmods](https://github.com/shardmods) | [P1518](https://github.com/rohanarun/alpoge-rh-replay/issues/1530#issuecomment-7057491827) | Pending review |
+| [@shardmods](https://github.com/shardmods) | [P1793](https://github.com/rohanarun/alpoge-rh-replay/issues/1531#issuecomment-7057496510) | Pending review |
+| [@shardmods](https://github.com/shardmods) | [P1604](https://github.com/rohanarun/alpoge-rh-replay/issues/1532#issuecomment-7057500955) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M100879](https://github.com/rohanarun/alpoge-rh-replay/issues/1536#issuecomment-7049052992) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M100708](https://github.com/rohanarun/alpoge-rh-replay/issues/1537#issuecomment-7049053603) | Pending review |
 | [@user42245](https://github.com/user42245) | [M053440](https://github.com/rohanarun/alpoge-rh-replay/issues/1540#issuecomment-7049068755) | Pending review |
@@ -249,8 +254,3 @@
 | [@mu-mei](https://github.com/mu-mei) | [M101061](https://github.com/rohanarun/alpoge-rh-replay/issues/2858#issuecomment-7050557807) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M101032](https://github.com/rohanarun/alpoge-rh-replay/issues/2860#issuecomment-7050558092) | Pending review |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M001560](https://github.com/rohanarun/alpoge-rh-replay/issues/2861#issuecomment-7050567294) | Pending review |
-| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M039708](https://github.com/rohanarun/alpoge-rh-replay/issues/2862#issuecomment-7050575120) | Pending review |
-| [@EF-Code](https://github.com/EF-Code) | [M003667](https://github.com/rohanarun/alpoge-rh-replay/issues/2864#issuecomment-7050779429) | Pending review |
-| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M039710](https://github.com/rohanarun/alpoge-rh-replay/issues/2871#issuecomment-7050578918) | Pending review |
-| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M040527](https://github.com/rohanarun/alpoge-rh-replay/issues/2881#issuecomment-7050606583) | Pending review |
-| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M040579](https://github.com/rohanarun/alpoge-rh-replay/issues/2882#issuecomment-7050610160) | Pending review |
