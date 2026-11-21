@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SmoothTranslationMeasure.Development",
+  "source_sha256": "65364349aa95aa004ee4f76a697ef07cfb661f9e75682ceb0d328e5c5e77ea38",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
