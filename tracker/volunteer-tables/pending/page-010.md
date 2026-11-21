@@ -4,6 +4,10 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@UnityChaos](https://github.com/UnityChaos) | [M031846](https://github.com/rohanarun/alpoge-rh-replay/issues/9938#issuecomment-7055254802) | Pending review |
+| [@UnityChaos](https://github.com/UnityChaos) | [M063221](https://github.com/rohanarun/alpoge-rh-replay/issues/9939#issuecomment-7055256070) | Pending review |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M138852](https://github.com/rohanarun/alpoge-rh-replay/issues/9940#issuecomment-7055346100) | Pending review |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M099837](https://github.com/rohanarun/alpoge-rh-replay/issues/9941#issuecomment-7055346548) | Pending review |
 | [@amrehan](https://github.com/amrehan) | [M061293](https://github.com/rohanarun/alpoge-rh-replay/issues/9942#issuecomment-7055260237) | Pending review |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M164051](https://github.com/rohanarun/alpoge-rh-replay/issues/9943#issuecomment-7055262669) | Pending review |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M170848](https://github.com/rohanarun/alpoge-rh-replay/issues/9944#issuecomment-7055255033) | Pending review |
@@ -250,7 +254,3 @@
 | [@hipotures](https://github.com/hipotures) | [P1572](https://github.com/rohanarun/alpoge-rh-replay/issues/10207#issuecomment-7055569376) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M007193](https://github.com/rohanarun/alpoge-rh-replay/issues/10208#issuecomment-7055577304) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M007259](https://github.com/rohanarun/alpoge-rh-replay/issues/10209#issuecomment-7055568481) | Pending review |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M009060](https://github.com/rohanarun/alpoge-rh-replay/issues/10210#issuecomment-7055566803) | Pending review |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M009406](https://github.com/rohanarun/alpoge-rh-replay/issues/10211#issuecomment-7055551825) | Pending review |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M009702](https://github.com/rohanarun/alpoge-rh-replay/issues/10213#issuecomment-7055552523) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M170446](https://github.com/rohanarun/alpoge-rh-replay/issues/10214#issuecomment-7055508040) | Pending review |

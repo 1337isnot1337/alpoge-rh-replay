@@ -38,12 +38,16 @@
 | [@dhudakk](https://github.com/dhudakk) | [M168739](https://github.com/rohanarun/alpoge-rh-replay/issues/9438#issuecomment-7055040879) | Pending review |
 | [@BenCaunt](https://github.com/BenCaunt) | [M061671](https://github.com/rohanarun/alpoge-rh-replay/issues/9439#issuecomment-7055289695) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M121174](https://github.com/rohanarun/alpoge-rh-replay/issues/9440#issuecomment-7055121394) | Pending review |
+| [@loremcdmx](https://github.com/loremcdmx) | [M145345](https://github.com/rohanarun/alpoge-rh-replay/issues/9441#issuecomment-7055743451) | Pending review |
+| [@loremcdmx](https://github.com/loremcdmx) | [M004440](https://github.com/rohanarun/alpoge-rh-replay/issues/9442#issuecomment-7055743997) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M045250](https://github.com/rohanarun/alpoge-rh-replay/issues/9443#issuecomment-7055121861) | Pending review |
+| [@loremcdmx](https://github.com/loremcdmx) | [M062295](https://github.com/rohanarun/alpoge-rh-replay/issues/9444#issuecomment-7055744614) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M120855](https://github.com/rohanarun/alpoge-rh-replay/issues/9445#issuecomment-7055122448) | Pending review |
 | [@BenCaunt](https://github.com/BenCaunt) | [M061692](https://github.com/rohanarun/alpoge-rh-replay/issues/9446#issuecomment-7055326007) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M005838](https://github.com/rohanarun/alpoge-rh-replay/issues/9447#issuecomment-7055123021) | Pending review |
 | [@chriswilson413](https://github.com/chriswilson413) | [M005560](https://github.com/rohanarun/alpoge-rh-replay/issues/9448#issuecomment-7055539636) | Pending review |
 | [@BenCaunt](https://github.com/BenCaunt) | [M061739](https://github.com/rohanarun/alpoge-rh-replay/issues/9450#issuecomment-7055097164) | Pending review |
+| [@loremcdmx](https://github.com/loremcdmx) | [M058551](https://github.com/rohanarun/alpoge-rh-replay/issues/9451#issuecomment-7055745169) | Pending review |
 | [@BenCaunt](https://github.com/BenCaunt) | [M061850](https://github.com/rohanarun/alpoge-rh-replay/issues/9457#issuecomment-7055097034) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M103329](https://github.com/rohanarun/alpoge-rh-replay/issues/9458#issuecomment-7055135356) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M060403](https://github.com/rohanarun/alpoge-rh-replay/issues/9459#issuecomment-7055135853) | Pending review |
@@ -250,7 +254,3 @@
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M126460](https://github.com/rohanarun/alpoge-rh-replay/issues/9661#issuecomment-7055136741) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M099838](https://github.com/rohanarun/alpoge-rh-replay/issues/9662#issuecomment-7055139101) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M055159](https://github.com/rohanarun/alpoge-rh-replay/issues/9663#issuecomment-7055140693) | Pending review |
-| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M103347](https://github.com/rohanarun/alpoge-rh-replay/issues/9664#issuecomment-7055144086) | Pending review |
-| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M088640](https://github.com/rohanarun/alpoge-rh-replay/issues/9665#issuecomment-7055145849) | Pending review |
-| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M036971](https://github.com/rohanarun/alpoge-rh-replay/issues/9666#issuecomment-7055147421) | Pending review |
-| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M164577](https://github.com/rohanarun/alpoge-rh-replay/issues/9667#issuecomment-7055152238) | Pending review |
