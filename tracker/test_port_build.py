@@ -166,6 +166,12 @@ class PortBuildTest(unittest.TestCase):
                 'instance : IsMulTorsionFree G := inferInstance\n')
         self.assertEqual(port_build.reused_names(text), [(3, 'IsLattice'), (5, 'IsMulTorsionFree')])
 
+    def test_reused_norm_name_distinguishes_the_unguarded_formula(self):
+        text = ("#check MeasureTheory.eLpNorm\n"
+                "#check MeasureTheory.eLpNorm'\n"
+                "#check eLpNorm f 2 μ\n")
+        self.assertEqual(port_build.reused_names(text), [(1, 'eLpNorm'), (3, 'eLpNorm')])
+
     def test_check_warns_about_unchanged_modules_with_reused_names(self):
         (self.tree / 'src/Base.lean').write_text('def L : Prop := Submodule.IsLattice K M\n')
         self.rows[0]['source_sha256'] = sha((self.tree / 'src/Base.lean').read_bytes())

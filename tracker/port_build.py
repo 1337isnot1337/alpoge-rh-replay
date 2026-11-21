@@ -42,8 +42,10 @@ REUSED_NAMES = {
                         'so the meaning is kept in commutative monoids)',
     'IsMulTorsionFree': 'HasUniqueRoots (the new IsMulTorsionFree adds a Commute hypothesis, '
                         'so the meaning is kept in commutative monoids)',
+    'eLpNorm': "eLpNorm' at finite nonzero exponents without a.e. strong measurability "
+               "(the target eLpNorm returns ∞ for functions that are not a.e. strongly measurable)",
 }
-REUSED_RE = re.compile(r'(?<![\w.])(?:[A-Z]\w*\.)*(' + '|'.join(REUSED_NAMES) + r')\b')
+REUSED_RE = re.compile(r"(?<![\w.'])(?:[A-Z]\w*\.)*(" + '|'.join(REUSED_NAMES) + r")(?![\w'])")
 
 
 def reused_names(text):
