@@ -1,0 +1,21 @@
+Real archive project (Kaggle CPU, COMPARATOR_NO_SYSTEMD=1), Main stubbed with sorry:
+== genuine-statements-sorry-main
+Build completed successfully (21 jobs).
+Building Challenge
+Build completed successfully (8707 jobs).
+Exporting #[…] from Challenge
+Building Main
+Build completed successfully (8708 jobs).
+Exporting #[…] from Main
+uncaught exception: Illegal axiom detected: 'sorryAx'
+REPLAY_COMPARATOR_FAILED: comparator rejected Main or did not finish
+== weakened-statements
+Build completed successfully (20 jobs).
+Building Challenge
+Build completed successfully (8707 jobs).
+Exporting #[…] from Challenge
+Building Main
+Build completed successfully (8708 jobs).
+Exporting #[…] from Main
+uncaught exception: Const does not match between challenge and target 'RiemannZetaZerosOnLine'
+REPLAY_COMPARATOR_FAILED: comparator rejected Main or did not finish
