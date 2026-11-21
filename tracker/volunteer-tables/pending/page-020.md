@@ -4,6 +4,9 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@jdenwood](https://github.com/jdenwood) | [M102704](https://github.com/rohanarun/alpoge-rh-replay/issues/24168#issuecomment-7066593644) | Pending review |
+| [@jdenwood](https://github.com/jdenwood) | [M102705](https://github.com/rohanarun/alpoge-rh-replay/issues/24169#issuecomment-7066595079) | Pending review |
+| [@dga471](https://github.com/dga471) | [M013663](https://github.com/rohanarun/alpoge-rh-replay/issues/24172#issuecomment-7066733816) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M046962](https://github.com/rohanarun/alpoge-rh-replay/issues/24173#issuecomment-7066627767) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M018353](https://github.com/rohanarun/alpoge-rh-replay/issues/24175#issuecomment-7066633648) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M075837](https://github.com/rohanarun/alpoge-rh-replay/issues/24176#issuecomment-7066984809) | Pending review |
@@ -251,6 +254,3 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M091590](https://github.com/rohanarun/alpoge-rh-replay/issues/24598#issuecomment-7067441080) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M051610](https://github.com/rohanarun/alpoge-rh-replay/issues/24599#issuecomment-7067441613) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M025901](https://github.com/rohanarun/alpoge-rh-replay/issues/24600#issuecomment-7067442046) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M018761](https://github.com/rohanarun/alpoge-rh-replay/issues/24602#issuecomment-7067442453) | Pending review |
-| [@HITEYY](https://github.com/HITEYY) | [M037624](https://github.com/rohanarun/alpoge-rh-replay/issues/24604#issuecomment-7067346803) | Pending review |
-| [@HITEYY](https://github.com/HITEYY) | [M038655](https://github.com/rohanarun/alpoge-rh-replay/issues/24611#issuecomment-7067358251) | Pending review |

@@ -219,7 +219,6 @@
 | [@rohanarun](https://github.com/rohanarun) | [M030945](https://github.com/rohanarun/alpoge-rh-replay/issues/17946) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M166777](https://github.com/rohanarun/alpoge-rh-replay/issues/17947) | Claimed |
 | [@mdpmcc](https://github.com/mdpmcc) | [M039423](https://github.com/rohanarun/alpoge-rh-replay/issues/19453) | Claimed |
-| [@dhudakk](https://github.com/dhudakk) | [M100874](https://github.com/rohanarun/alpoge-rh-replay/issues/19495) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M117110](https://github.com/rohanarun/alpoge-rh-replay/issues/19497) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M021776](https://github.com/rohanarun/alpoge-rh-replay/issues/19498) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M053659](https://github.com/rohanarun/alpoge-rh-replay/issues/19502) | Claimed |
@@ -254,3 +253,4 @@
 | [@dga471](https://github.com/dga471) | [M134771](https://github.com/rohanarun/alpoge-rh-replay/issues/19754) | Claimed |
 | [@dga471](https://github.com/dga471) | [M037528](https://github.com/rohanarun/alpoge-rh-replay/issues/19755) | Claimed |
 | [@dga471](https://github.com/dga471) | [M131624](https://github.com/rohanarun/alpoge-rh-replay/issues/19756) | Claimed |
+| [@dga471](https://github.com/dga471) | [M120373](https://github.com/rohanarun/alpoge-rh-replay/issues/19757) | Claimed |
