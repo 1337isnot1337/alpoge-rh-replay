@@ -1,0 +1,20 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/ReductionBoundsTorsion/SmoothCompositionIdentity/ContDiffAtComp.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/ReductionBoundsTorsion/SmoothCompositionIdentity/ContDiffAtComp.lean
+@@ -22,7 +22,7 @@
+     let M := ContinuousMultilinearMap ℝ (fun _ : Fin q => V) ℝ
+     haveI : FiniteDimensional ℝ M := Module.Finite.of_injective
+       (ContinuousMultilinearMap.toMultilinearMapLinear (R' := ℝ) (A := ℝ) :
+-        M →ₗ[ℝ] MultilinearMap ℝ (fun _ : Fin q => V) ℝ)
++        M →ₗ[ℝ] MultilinearMap (RingHom.id ℝ) (fun _ : Fin q => V) ℝ)
+       ContinuousMultilinearMap.toMultilinearMap_injective
+     let ι : (V [⋀^Fin q]→L[ℝ] ℝ) →ₗ[ℝ] M :=
+       (ContinuousAlternatingMap.toContinuousMultilinearMapCLM (𝕜 := ℝ) ℝ).toLinearMap
+@@ -162,7 +162,7 @@
+   refine ⟨hsm.congr_of_eventuallyEq heq.symm, ?_⟩
+   rw [← heq.extDeriv_eq, extDeriv_pullback (r := ∞) (hc.differentiableAt (by simp))
+     A.contDiff.contDiffAt
+-    (by simp; exact ENat.LEInfty.out), h0]
++    (by simp), h0]
+   ext v
+   simp
+ 

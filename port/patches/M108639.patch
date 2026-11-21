@@ -1,0 +1,21 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/UnitaryThreeDeformations/RelAlg.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/UnitaryThreeDeformations/RelAlg.lean
+@@ -244,7 +244,8 @@
+     exact add_mem hx hy
+   | smul c x hx h =>
+     obtain ⟨d, hd⟩ := IsCO.res_surj (O := O) c
+-    have hxJ : x ∈ J := (Ideal.span_le.2 fun _ hx => hx.1) hx
++    have hxJ : x ∈ J := (show Ideal.span {x | x ∈ J ∧ ∃ i, i ≠ j ∧ x ∈ 𝒜 i} ≤ J
++      from Ideal.span_le.2 fun _ hx => hx.1) hx
+     have e : c • x = d • x + (c - algebraMap O A d) * x := by rw [smul_eq_mul, Algebra.smul_def]; ring
+     rw [e, DirectSum.decompose_add, DirectSum.add_apply, Submodule.coe_add, DirectSum.decompose_smul,
+       DirectSum.smul_apply, Submodule.coe_smul]
+@@ -286,7 +287,7 @@
+   have h1 : (DirectSum.decompose 𝒜 x j : A) - ∑ i, c i • s (g i) ∈ Kj 𝒜 J j := by
+     rw [← Ideal.Quotient.eq]
+     have := congrArg Subtype.val hc
+-    simp only [AddSubmonoidClass.coe_finset_sum, Submodule.coe_smul_of_tower] at this
++    simp only [AddSubmonoidClass.coe_finsetSum, Submodule.coe_smul_of_tower] at this
+     rw [← this, ← Ideal.Quotient.mkₐ_eq_mk O, map_sum]
+     refine Finset.sum_congr rfl fun i _ => ?_
+     rw [map_smul, Ideal.Quotient.mkₐ_eq_mk, hs']
