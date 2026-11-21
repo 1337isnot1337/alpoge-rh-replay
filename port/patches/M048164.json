@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RepTraceEqMulTrace",
+  "source_sha256": "072becc2a77f97cd7a804ce28251d8e2b9185d6974959cb0bca971cdb4866a5c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace the removed adjoinCommRingOfComm with isMulCommutative_adjoin and its scoped CommRing instance. This constructs the same local commutative subring operations inside the proof. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0020-lean436-20261121/packet-result.json"
+}

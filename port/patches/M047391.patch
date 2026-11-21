@@ -1,0 +1,20 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/RamificationIdxDvdOfGaloisDegreeDvdUnitDvr.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/RamificationIdxDvdOfGaloisDegreeDvdUnitDvr.lean
+@@ -31,7 +31,7 @@
+     (h : (Module.finrank F E : F) ≠ 0) : Algebra.IsSeparable F E := by
+   letI := hF.toField
+   letI := hE.toField
+-  exact @isSeparable_of_natCast_finrank_ne_zero' F E _ _ ‹Algebra F E› ‹Module.Finite F E› h
++  exact isSeparable_of_natCast_finrank_ne_zero' h
+ 
+ theorem ramGal : ∀ (S K L : Type) [CommRing S] [IsDomain S] [IsDiscreteValuationRing S] [Field K] [Algebra S K]
+     [IsFractionRing S K] [Field L] [Algebra K L] [Algebra S L] [IsScalarTower S K L]
+@@ -59,7 +59,7 @@
+   have hlies : ∀ P : Ideal B, P.IsMaximal → P.LiesOver (maximalIdeal S) := by
+     intro P hP
+     refine ⟨?_⟩
+-    have : (P.under S).IsMaximal := Ideal.isMaximal_comap_of_isIntegral_of_isMaximal P
++    have : (P.under S).IsMaximal := Ideal.isMaximal_under_of_isIntegral_of_isMaximal P
+     exact (IsLocalRing.eq_maximalIdeal this).symm
+   refine ⟨fun P hP => ?_, fun P hP _ => ?_⟩
+   · have := hlies P hP

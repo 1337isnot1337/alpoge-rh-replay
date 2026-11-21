@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ResidueNormalOfProfiniteInvariants.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ResidueNormalOfProfiniteInvariants.lean
+@@ -20,7 +20,7 @@
+   let b' : B' := ⟨b, fun g => hN g.2⟩
+   let Q' : Ideal B' := Q.under B'
+   have hintB : Algebra.IsIntegral B' B := Algebra.IsIntegral.tower_top A
+-  haveI hQ' : Q'.IsMaximal := Ideal.isMaximal_comap_of_isIntegral_of_isMaximal Q
++  haveI hQ' : Q'.IsMaximal := Ideal.isMaximal_under_of_isIntegral_of_isMaximal Q
+   haveI : Q'.LiesOver P := ⟨by
+     rw [Ideal.under_under (A := A) (B := B') (C := B)]
+     exact Ideal.LiesOver.over⟩

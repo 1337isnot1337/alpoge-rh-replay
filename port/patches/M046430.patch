@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/PrescribedValuationDifferenceElements.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/PrescribedValuationDifferenceElements.lean
+@@ -32,7 +32,7 @@
+   · subst h
+     rw [multiplicity_pow_self_of_prime v.prime]
+   · have : multiplicity v.asIdeal (P ^ k) = 0 := by
+-      rw [multiplicity_eq_zero]
++      apply multiplicity_eq_zero_of_not_dvd
+       intro hd
+       have hle : P ^ k ≤ v.asIdeal := Ideal.le_of_dvd hd
+       have hPv : P ≤ v.asIdeal := v.isPrime.le_of_pow_le hle
