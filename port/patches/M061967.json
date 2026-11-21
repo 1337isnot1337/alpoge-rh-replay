@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsRepresentativesQuotientRangeMulVecLin",
+  "source_sha256": "36f248c7c907b3432c9f2492c1a9f154b35ccf5e8f956acafd0addf88f48397c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Matrix.mul_apply` and `Matrix.one_apply` are protected on the target, so the bare names under `open Matrix` no longer refer to them; qualify them in five `simp` calls. Proof bodies only."
+}
