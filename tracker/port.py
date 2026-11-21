@@ -24,6 +24,26 @@ def ported():
     return {p.stem for p in PATCHES.glob('M*.json')}
 
 
+def check_unported(target, members):
+    """Check the published target and the requested records before opening an issue."""
+    owner, repo = tasks.repo.split('/')
+    fields = ['pins:object(expression:"main:port/target.json"){... on Blob{text}}']
+    for i, row in enumerate(members):
+        path = json.dumps(f"main:port/patches/{row['id']}.json")
+        fields.append(f'm{i}:object(expression:{path}){{oid}}')
+    query = ('query($owner:String!,$repo:String!){repository(owner:$owner,name:$repo){'
+             + ' '.join(fields) + '}}')
+    output = subprocess.check_output(['gh', 'api', 'graphql', '-f', 'query=' + query,
+                                      '-f', 'owner=' + owner, '-f', 'repo=' + repo], text=True)
+    records = json.loads(output)['data']['repository']
+    published = json.loads(records['pins']['text'])
+    local = json.loads((ROOT / 'port' / 'target.json').read_text())
+    if any(local[key] != published[key] for key in ('lean', 'mathlib')):
+        raise SystemExit('The port target changed on main. Update your checkout before claiming.')
+    if all(records[f'm{i}'] is not None for i in range(len(members))):
+        raise SystemExit(f'{target} is already fully ported on main.')
+
+
 def triage():
     if not TRIAGE.exists():
         return {}
@@ -93,6 +113,8 @@ def main():
     if args.command == 'claim':
         if not re.fullmatch(r'P\d{4}|M\d{6}', args.packet) or (args.packet not in groups and args.packet not in by_id):
             raise SystemExit('Unknown packet or module ID')
+        members = groups[args.packet] if args.packet in groups else [by_id[args.packet]]
+        check_unported(args.packet, members)
         conflict = reservation_conflict(args.packet, groups, by_id, port_issues())
         if conflict is not None:
             raise SystemExit(f'Already reserved by an open Port issue: Port {conflict}')

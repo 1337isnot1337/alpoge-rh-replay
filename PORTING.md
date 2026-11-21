@@ -37,7 +37,7 @@ port/patches/<ModuleId>.json        # {"module", "source_sha256", "lean", "mathl
 
 ## Claim and submit
 
-1. **Reserve.** Run `python3 tracker/port.py next` for the shallowest open packets whose imports are already ported, then `python3 tracker/port.py claim P0123`. That opens a `Port P0123` issue with the `port` label. The replay claims bot ignores these titles, and maintainers resolve overlaps: the earlier open issue wins. Close the issue if you stop.
+1. **Reserve.** Run `python3 tracker/port.py next` for the shallowest open packets whose imports are already ported, then `python3 tracker/port.py claim P0123`. Before opening a `Port P0123` issue with the `port` label, the command checks the target pins and whether any requested module still needs a record on upstream `main`. The replay claims bot ignores these titles, and maintainers resolve overlaps: the earlier open issue wins. Close the issue if you stop.
 2. **Port.** Use a fresh checkout of the pinned archive with the target toolchain and Mathlib. Fix each module until `lake build +<Module>:olean` succeeds.
 3. **Submit a PR to `main`** that adds the packet's `port/patches/` files and links the issue. Include the build transcript for every module in the packet, ending in success, plus the exact toolchain and Mathlib commit.
 
