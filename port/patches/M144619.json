@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.ExceptionalCharacterBounds.EffConsts",
+  "source_sha256": "8a0e6b6463239cbdb1cc985015cb0a87f9f774a58f2a1cd75bf23748371f5f5b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0068-lean436-20261121/packet-result.json"
+}

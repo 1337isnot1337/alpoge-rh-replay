@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.TowerModels.LeviAlg",
+  "source_sha256": "cfedc63543b312d5407a86c6dd5d0538a1df902850a15c883c663f037ff4f7b1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: fully qualify Matrix.mul_apply after it became protected, so simplification expands matrix multiplication rather than the unrelated unqualified lemma. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0068-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CyclotomicNorms.DiscardKernel",
+  "source_sha256": "574ce7da67dd432b46a7e6ab9eda3e876f98fb4e820c490057942190cee295df",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0068-lean436-20261121/packet-result.json"
+}

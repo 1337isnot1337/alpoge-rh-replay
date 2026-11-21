@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.TailKernel",
+  "source_sha256": "634d8f576e6e4175e0dd63118430fda145fac310eae7dc4e13278e00b1c3e26d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: explicitly type the positive denominator before deriving its nonzero condition for continuity. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0068-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.DropLevelBounds.SumAdd",
+  "source_sha256": "666ad0d14ae9495a12e5979a94527bf538690388cbba97570f9a0b3151d0a1d1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0068-lean436-20261121/packet-result.json"
+}

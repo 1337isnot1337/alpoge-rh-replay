@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FormalGroupLog.FormalGroupLogProofs.ChainRule",
+  "source_sha256": "ff09f79a92c261313b6b9d81b671a26767103153d2447eae2f1f0eb11f2efdb3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The ring parameter of MvPowerSeries.pderiv and PowerSeries.derivative is now implicit; explicitly naming R preserves the identical formal derivative in the theorem statements and proofs. The pinned and target definitions have the same pderivFun coefficient formula; PowerSeries.derivative is the Unit-variable partial derivative in both. The coefficient-evaluation proof also uses the new polynomial-first API. No mathematical hypothesis, conclusion or data definition changes.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0068-lean436-20261121/packet-result.json"
+}
