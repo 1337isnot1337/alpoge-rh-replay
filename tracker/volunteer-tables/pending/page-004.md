@@ -4,6 +4,15 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@BenCaunt](https://github.com/BenCaunt) | [M061250](https://github.com/rohanarun/alpoge-rh-replay/issues/8033#issuecomment-7054614517) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M170394](https://github.com/rohanarun/alpoge-rh-replay/issues/8036#issuecomment-7054083580) | Pending review |
+| [@TomMoeras](https://github.com/TomMoeras) | [P2045](https://github.com/rohanarun/alpoge-rh-replay/issues/8038#issuecomment-7054314929) | Pending review |
+| [@TomMoeras](https://github.com/TomMoeras) | [P1913](https://github.com/rohanarun/alpoge-rh-replay/issues/8040#issuecomment-7054551531) | Pending review |
+| [@egergerfg](https://github.com/egergerfg) | [M164678](https://github.com/rohanarun/alpoge-rh-replay/issues/8042#issuecomment-7054078975) | Pending review |
+| [@loremcdmx](https://github.com/loremcdmx) | [M149217](https://github.com/rohanarun/alpoge-rh-replay/issues/8044#issuecomment-7054115940) | Pending review |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M071035](https://github.com/rohanarun/alpoge-rh-replay/issues/8048#issuecomment-7054097551) | Pending review |
+| [@BenCaunt](https://github.com/BenCaunt) | [M061295](https://github.com/rohanarun/alpoge-rh-replay/issues/8049#issuecomment-7054615439) | Pending review |
+| [@gilad12-coder](https://github.com/gilad12-coder) | [M108543](https://github.com/rohanarun/alpoge-rh-replay/issues/8050#issuecomment-7054082105) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M163957](https://github.com/rohanarun/alpoge-rh-replay/issues/8051#issuecomment-7054098031) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M085325](https://github.com/rohanarun/alpoge-rh-replay/issues/8052#issuecomment-7054084504) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M082764](https://github.com/rohanarun/alpoge-rh-replay/issues/8053#issuecomment-7054098554) | Pending review |
@@ -245,12 +254,3 @@
 | [@galakurpi](https://github.com/galakurpi) | [M116320](https://github.com/rohanarun/alpoge-rh-replay/issues/8407#issuecomment-7054454678) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M125968](https://github.com/rohanarun/alpoge-rh-replay/issues/8408#issuecomment-7054459414) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M156464](https://github.com/rohanarun/alpoge-rh-replay/issues/8409#issuecomment-7054459919) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M115510](https://github.com/rohanarun/alpoge-rh-replay/issues/8410#issuecomment-7054460581) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M070034](https://github.com/rohanarun/alpoge-rh-replay/issues/8411#issuecomment-7054461142) | Pending review |
-| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M004143](https://github.com/rohanarun/alpoge-rh-replay/issues/8412#issuecomment-7054420129) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M046270](https://github.com/rohanarun/alpoge-rh-replay/issues/8413#issuecomment-7054479974) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M127922](https://github.com/rohanarun/alpoge-rh-replay/issues/8414#issuecomment-7054480498) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M164309](https://github.com/rohanarun/alpoge-rh-replay/issues/8415#issuecomment-7054481172) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M121304](https://github.com/rohanarun/alpoge-rh-replay/issues/8416#issuecomment-7054481796) | Pending review |
-| [@UnityChaos](https://github.com/UnityChaos) | [M015085](https://github.com/rohanarun/alpoge-rh-replay/issues/8417#issuecomment-7054414551) | Pending review |
-| [@egergerfg](https://github.com/egergerfg) | [M164703](https://github.com/rohanarun/alpoge-rh-replay/issues/8418#issuecomment-7054412328) | Pending review |
