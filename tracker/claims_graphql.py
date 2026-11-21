@@ -154,4 +154,10 @@ def reconcile(planner):
         except HTTPError as error:
             # A mutation may have succeeded before its response failed. Re-read
             # all grants and replan rather than blindly repeating that mutation.
+            if error.code in (502, 503, 504) and attempt < ATTEMPTS - 1:
+                error.close()
+                print(f'GitHub gateway error (HTTP {error.code}) while applying changes. Rechecking all claims.',
+                      file=sys.stderr, flush=True)
+                time.sleep(GATEWAY_DELAY * (attempt + 1))
+                continue
             wait_for_rate_limit(error, attempt, 'Rechecking all claims')
