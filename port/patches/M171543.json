@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.Chebotarev.CasimirPowerSurjectiveSymmetric",
+  "source_sha256": "14b46d5421953a773433e30c2b95ce85d592605beb81313d321cfe3d1c9d749c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

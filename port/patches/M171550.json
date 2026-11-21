@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.Chebotarev.CycOrth",
+  "source_sha256": "7bd67291819c92951af098db988416e15d5eb564b5432228b54076c0fca2e9d2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

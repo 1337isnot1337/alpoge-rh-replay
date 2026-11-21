@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.RegularLocalRings.LogResStC",
+  "source_sha256": "b2963e65cabd6f99772bddf990bf12e40adb59feadf1bf3e4c17e0979c884ffa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

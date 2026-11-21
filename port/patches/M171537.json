@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.BasicDefinitions.AdRep",
+  "source_sha256": "2b0a2ceb9104e9dbeaecb3df3b2e6595dbfc04ab1f5fef7a54ceb0e33c24056b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

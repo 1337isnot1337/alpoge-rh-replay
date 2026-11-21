@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.CommutativeAlgebra.PolynomialHeights.PolyMax",
+  "source_sha256": "489366388734d050273b41cdeae5a8009e955a8c97eb05bcd34fd2f685fe8a3f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: pass the same quotient algebra map and its existing integrality proof explicitly to the updated maximal-ideal contraction lemma."
+}

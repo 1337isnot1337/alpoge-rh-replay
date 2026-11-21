@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.CommutativeAlgebra.CohenMacaulay.ModDepthGE",
+  "source_sha256": "469b9a1143f0f430585baa068fadadab5749fa254d1e47e73b187bdd04b82dfc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

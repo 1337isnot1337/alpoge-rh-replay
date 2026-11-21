@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ClassFieldTheory.GlobalClassField.IsFrobAtMulOfMemInertiaGroup",
+  "source_sha256": "5231138003731c470499ea70aa63dda275f739860477c7e5b3ac32fc72e43e05",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

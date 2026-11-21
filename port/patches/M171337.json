@@ -1,0 +1,7 @@
+{
+  "module": "PositivityTheory.PublishedTheorems.WeilRepresentations.ZariskiDensity.QiCoreDefs",
+  "source_sha256": "c0b1c06ecb9c5c4963f8e22cf3c86d205b2b151fa293e9a29d74a2aea734b6e7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
