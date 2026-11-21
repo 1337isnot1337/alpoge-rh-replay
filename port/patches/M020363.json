@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CycleListPermInvariant",
+  "source_sha256": "621f3cbd9d0255d4cb7cb5a82bdb1a39cbc5985cffd2ea5b04c82adb2a5a9940",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
