@@ -1,0 +1,12 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/HilbertSamuel/LinearIndependentAdjoinOfTranscendental.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/HilbertSamuel/LinearIndependentAdjoinOfTranscendental.lean
+@@ -93,7 +93,8 @@
+     have hr := H.adjoin_rank_eq_rank_left_of_isAlgebraic_left
+     exact congrArg Cardinal.toNat hr
+   · rw [Module.finrank_of_not_finite hfin]
+-    apply Module.finrank_of_not_finite
++    haveI : Module.Free L (IntermediateField.adjoin L (A : Set E)) := Module.Free.of_divisionRing L _
++    apply Module.finrank_of_not_finite (R := L) (M := IntermediateField.adjoin L (A : Set E))
+     intro hfin'
+     apply hfin
+     set M := IntermediateField.adjoin L (A : Set E)

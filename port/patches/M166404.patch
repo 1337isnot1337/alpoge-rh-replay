@@ -1,0 +1,18 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/HeightsOfSets/DenseLift.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/HeightsOfSets/DenseLift.lean
+@@ -65,6 +65,7 @@
+   obtain ⟨Q, hQ, hQc⟩ := Ideal.exists_ideal_over_prime_of_isIntegral_of_isDomain (RingHom.ker ev) hker
+   have := hQ
+   set p := Q.comap (algebraMap (MvPolynomial (Fin s) ℚ) B) with hp
++  change p = RingHom.ker ev at hQc
+   have : p.IsPrime := Ideal.comap_isPrime _ Q
+ 
+   have hvan : ∀ a ∈ p, ev a = 0 := fun a ha ↦ by
+@@ -79,6 +80,7 @@
+   have : Module.IsTorsionFree (MvPolynomial (Fin s) ℚ ⧸ p) (B ⧸ Q) :=
+     (Module.isTorsionFree_iff_algebraMap_injective).mpr Ideal.algebraMap_quotient_injective
+   have : Algebra.IsIntegral (MvPolynomial (Fin s) ℚ ⧸ p) (B ⧸ Q) := Algebra.IsIntegral.quotient
++  have : Algebra.IsAlgebraic (MvPolynomial (Fin s) ℚ ⧸ p) (B ⧸ Q) := Algebra.IsIntegral.isAlgebraic
+   let ψq : (B ⧸ Q) →ₐ[MvPolynomial (Fin s) ℚ ⧸ p] AlgebraicClosure ℚ := IsAlgClosed.lift
+   let ψ0 : B →+* AlgebraicClosure ℚ := ψq.toRingHom.comp (Ideal.Quotient.mk Q)
+   have hψ0 : ∀ a, ψ0 (g0 a) = aeval y a := by
