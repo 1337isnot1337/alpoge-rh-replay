@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.JumpKernelCokernel.JumpShiftProofs.KerCokerEq",
+  "source_sha256": "b92d877e993e63240e34d034d728e25aac8d5c66c17fc691e867497074f88eaa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0148-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.HyperbolicPlaceProducts.SubgroupIndexCounts.SubgroupCount",
+  "source_sha256": "60856ace2a19a34486d0466f5f6fd54b61fd814e2a9470203426469c738ee0c7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: Extract the integer subgroup generator through the updated cyclic-subgroup equivalence, then use the same index calculation. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0148-lean436-20261121/packet-result.json"
+}

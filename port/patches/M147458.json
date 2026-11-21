@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LatticeSlopes.LatticeSlopesProofs.DiscreteTopologyOfLe",
+  "source_sha256": "8520fc28387e0d5f11ac49f44a4786c6565197fa38dd020b7950fbdfbcebc8c0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0148-lean436-20261121/packet-result.json"
+}

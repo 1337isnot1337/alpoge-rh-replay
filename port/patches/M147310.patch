@@ -1,0 +1,13 @@
+--- a/src/Formalism/HyperbolicPlaceProducts/SubgroupIndexCounts/SubgroupCount.lean
++++ b/src/Formalism/HyperbolicPlaceProducts/SubgroupIndexCounts/SubgroupCount.lean
+@@ -25,8 +25,8 @@
+     relIndex_mul_index le_sup_left]
+ 
+ lemma eq_zmultiples_index (D : AddSubgroup ℤ) : D = zmultiples (D.index : ℤ) := by
+-  obtain ⟨a, rfl⟩ := Int.subgroup_cyclic D
+-  rw [← zmultiples_eq_closure, Int.index_zmultiples, Int.zmultiples_natAbs]
++  obtain ⟨a, rfl⟩ := D.isAddCyclic_iff_exists_zmultiples_eq.mp (Int.subgroup_cyclic D)
++  rw [Int.index_zmultiples, Int.zmultiples_natAbs]
+ 
+ lemma le_of_lifts {A : Type*} [AddCommGroup A] {H₁ H₂ : AddSubgroup (ℤ × A)} {ι : Type*}
+     (v : ι → A) (hv : AddSubgroup.closure (Set.range v) = H₁.map (AddMonoidHom.snd ℤ A))

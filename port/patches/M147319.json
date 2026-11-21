@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.IncomingBounds.FlowDegreeBounds.MaxFlowValueAttained",
+  "source_sha256": "18d881da800499e504baa5eb485c4cc800837fa4f14a87fa217b504ea4a903b9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0148-lean436-20261121/packet-result.json"
+}
