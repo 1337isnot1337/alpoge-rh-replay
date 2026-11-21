@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M062608"
+  ],
+  "started_utc": "2026-11-21T15:32:34.630856+00:00",
+  "ended_utc": "2026-11-21T15:32:50.121799+00:00",
+  "elapsed_seconds": 15.5,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6897456
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegralConjugateSL2IntLaws:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "39f61ca7053a16796d68979fe9f05a29ad5f312203e27ec8c5851e5b7f69e6f3",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.EigenOfTwoStep",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.GlTwoPosRatMobiusBasicLaws"
+  ],
+  "objects": {
+    "M062608": "504026805844628c5cf67edffec622819c6654b644dcda87b14768c960778375"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "5a35450db583a14cda7ea977a15b14fa7e0f5a0365132773eac46010a99d3e53",
+  "packet": "M062608",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23116#issuecomment-7064962456",
+  "reviewed_utc": "2026-11-21T17:25:11.120264+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

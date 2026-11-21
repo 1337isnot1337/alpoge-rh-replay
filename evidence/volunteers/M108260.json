@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M108260"
+  ],
+  "started_utc": "2026-11-21T16:58:56.434160+00:00",
+  "ended_utc": "2026-11-21T16:59:38.691468+00:00",
+  "elapsed_seconds": 42.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 4731836
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.StickelbergerElements.TwistedBernoulliValueCongrPowMulFirst:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "eb9101d1557aeb2da4087e159ea0e736125ff856c58b346e162ce5d631ac69fb",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.BernoulliNumbers.Expand",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.BernoulliNumbers.Primden",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.StickelbergerElements.ExistsBinomialExpansionModSq",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.StickelbergerElements.StickelbergerBernoulliCoeffExpansionModDenominat",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.StickelbergerElements.StickelbergerCarrySpecAndWeightOneCoeffOfOdd"
+  ],
+  "objects": {
+    "M108260": "2782060ae019501e5b9a2d71894cf0f79e2ee319f2d0a48c2932282ed7244549"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "da8e023dd92ef09fc77fcb4dfe0f39fc3bee60af36a1ea8e919bad4ca02b1b82",
+  "packet": "M108260",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23658#issuecomment-7066134050",
+  "reviewed_utc": "2026-11-21T17:23:40.978627+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

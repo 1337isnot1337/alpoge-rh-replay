@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M000784 | P1298 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicLevelLatticeCompactOpen` | build-observed |
 | M000785 | P1323 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicLevelLatticeCompactOpenStatement` | build-observed |
 | M000786 | P1084 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicOrbitOfRationalTuple` | build-observed |
 | M000790 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicTupleCompactSets` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M001374 | P2554 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ContactSetSpansOfPosDefStatement` | volunteer-build-reviewed |
 | M001376 | P2594 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.EqOfOrbitMarkInCellConeStatement` | volunteer-build-reviewed |
 | M001380 | P2417 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsBalancedFormsDominatingStatement` | volunteer-build-reviewed |
-| M001382 | P2474 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsCarrierDimensionLabelStatement` | volunteer-build-reviewed |

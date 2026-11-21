@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002212 | P1056 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.WeightedNormSquareRows` | volunteer-build-reviewed |
+| M002214 | P1372 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.WeilTensorModels` | build-observed |
 | M002216 | P1472 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ZeroSectionBase` | volunteer-build-reviewed |
 | M002218 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ZetaValueIdeals` | volunteer-build-reviewed |
 | M002220 | P0615 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.AdelicNormWeight` | volunteer-build-reviewed |
@@ -193,14 +195,17 @@
 | M002546 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.RareFlags` | volunteer-build-reviewed |
 | M002547 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.SaturatedDuality` | build-observed |
 | M002548 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.SaturatedPerpDuality` | build-observed |
+| M002552 | P0515 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.AgreementAtAlmostAllSplitPrimes` | volunteer-build-reviewed |
 | M002553 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.AmbientLatticeAvoidance` | build-observed |
 | M002554 | P1056 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.BadPrimesPeriodBound` | build-observed |
 | M002555 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.BlockSumMultiplicities` | volunteer-build-reviewed |
+| M002557 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.ConjugacyRepresentativeSystems` | volunteer-build-reviewed |
 | M002558 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.CrystallineAtPlaces` | volunteer-build-reviewed |
 | M002559 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.CrystallineWindowLifts` | volunteer-build-reviewed |
 | M002561 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.FourierColumnIndicator` | build-observed |
 | M002568 | P1001 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.IntegralJetsPairing` | volunteer-build-reviewed |
 | M002575 | P0515 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.NoLocalInvariants` | build-observed |
+| M002576 | P1056 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.PeriodLowerBounds` | volunteer-build-reviewed |
 | M002579 | P1001 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.ShapeDegreeParity` | volunteer-build-reviewed |
 | M002580 | P0515 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.SmallRowEigenvalues` | build-observed |
 | M002581 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.SphericalThetaInertPlaces` | build-observed |
@@ -228,6 +233,7 @@
 | M002616 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.LatticeConditions` | volunteer-build-reviewed |
 | M002618 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.LocalIntegralGL` | volunteer-build-reviewed |
 | M002620 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.LowerUnipotentMinors` | volunteer-build-reviewed |
+| M002622 | P0974 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.PolarLatticePairs` | volunteer-build-reviewed |
 | M002623 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.RationalFormValues` | volunteer-build-reviewed |
 | M002627 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.SelfDualLatticeMass` | build-observed |
 | M002628 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.SelmerCrystallineCocycles` | build-observed |
@@ -300,6 +306,7 @@
 | M002746 | P1169 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SplitLinearModelNorm` | volunteer-build-reviewed |
 | M002747 | P1787 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SplitOffDetection` | volunteer-build-reviewed |
 | M002751 | P1143 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SupremumOnGoodPlaces` | volunteer-build-reviewed |
+| M002753 | P1245 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ThetaAdjointScalarParts` | volunteer-build-reviewed |
 | M002758 | P1245 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ThetaTranslateRangeGap` | volunteer-build-reviewed |
 | M002759 | P1501 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.TraceKernelDecomposition` | volunteer-build-reviewed |
 | M002763 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.UniformModerateGrowthLevel` | volunteer-build-reviewed |
@@ -311,13 +318,18 @@
 | M002778 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.UniformisationCharts.OLinearMaps` | volunteer-build-reviewed |
 | M002780 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.UniformisationCharts.PowerGroupDatum` | build-observed |
 | M002781 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.UniformisationCharts.RawDegreeForms` | volunteer-build-reviewed |
+| M002782 | P0475 | `Development.AbelianVarietyTheory.BlockTheory.UniformisationCharts.RigidPullbackIdentification` | volunteer-build-reviewed |
 | M002783 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.UniformisationCharts.SeparatedSymmetricModel` | volunteer-build-reviewed |
+| M002784 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.UniformisationCharts.TorusPointForms` | volunteer-build-reviewed |
+| M002786 | P1419 | `Development.AbelianVarietyTheory.Counterexamples.AbelianLawCounterexamples.ExistsDimOne` | volunteer-build-reviewed |
+| M002788 | P0838 | `Development.AbelianVarietyTheory.Counterexamples.AbelianLawCounterexamples.GtBaseChangeSharp` | volunteer-build-reviewed |
 | M002789 | P1501 | `Development.AbelianVarietyTheory.Counterexamples.AbelianLawCounterexamples.HomExtendsOverDVRHolds` | volunteer-build-reviewed |
 | M002792 | P0810 | `Development.AbelianVarietyTheory.Counterexamples.AbelianLawCounterexamples.WeilIsUniqueOfLocal` | volunteer-build-reviewed |
 | M002793 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.LfacDenominatorNeZero` | volunteer-build-reviewed |
 | M002794 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.LocalConditionsOfGlobal` | volunteer-build-reviewed |
 | M002795 | P0173 | `Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.TwoPrimesOfSplitPl` | volunteer-build-reviewed |
 | M002798 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.ExistsStrictAnti` | volunteer-build-reviewed |
+| M002803 | P1323 | `Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.NotVstdOfGramOne` | volunteer-build-reviewed |
 | M002805 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.PremisesModel` | volunteer-build-reviewed |
 | M002811 | P0838 | `Development.AbelianVarietyTheory.Counterexamples.HeckeCharacterExamples.SecondTwistCrystallineSmallOfJumpsOfCrys` | build-observed |
 | M002812 | P1114 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.BesselPeriodPositionOneEqZero` | build-observed |
@@ -328,6 +340,7 @@
 | M002822 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.FromTestIffOfValAtCx` | build-observed |
 | M002825 | P1056 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.IsTypeAtCentral` | build-observed |
 | M002827 | P0974 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.NotHasInfExpThird` | build-observed |
+| M002828 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.NotOverAndTriv` | volunteer-build-reviewed |
 | M002832 | P1028 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.StarPurelyImaginaryEqNeg` | build-observed |
 | M002833 | P1056 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.SymplHAddRight` | build-observed |
 | M002836 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.BilLActRight` | build-observed |
@@ -344,8 +357,10 @@
 | M002859 | P1856 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.NaturalOfChartIndep` | volunteer-build-reviewed |
 | M002868 | P0002 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.PremisesInhabited` | volunteer-build-reviewed |
 | M002871 | P1501 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ThetaMemLattice` | volunteer-build-reviewed |
+| M002872 | P0648 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.UnimodularStandardLattice` | volunteer-build-reviewed |
 | M002875 | P0648 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.AdmissibleSmulIffOfCoprime` | volunteer-build-reviewed |
 | M002876 | P1956 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ArchimedeanGluing` | volunteer-build-reviewed |
+| M002879 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.BetaIsPrincipal` | volunteer-build-reviewed |
 | M002881 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ChosenEqOfAllRules` | volunteer-build-reviewed |
 | M002884 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ExistsBaseRingOfConjugationFixedTensor` | volunteer-build-reviewed |
 | M002885 | P0648 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.FlatGenInjective` | build-observed |
@@ -355,8 +370,10 @@
 | M002893 | P1169 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.LocClauseOfUnifPlaces` | build-observed |
 | M002894 | P1169 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.OrthonormalBaseFrameNeg` | build-observed |
 | M002895 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.PEqQOfNeg` | volunteer-build-reviewed |
+| M002898 | P0549 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.RelabBijective` | volunteer-build-reviewed |
 | M002899 | P0002 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.RightInvariantOfCovolume` | volunteer-build-reviewed |
 | M002902 | P2093 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.SubsingletonOfLeOne` | volunteer-build-reviewed |
+| M002903 | P0582 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.TotalDegreeEqOfMemHarmA` | volunteer-build-reviewed |
 | M002905 | P0238 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.TransvMemZGam` | build-observed |
 | M002906 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.VVAlgebraMapNonneg` | volunteer-build-reviewed |
 | M002907 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ZeroNotAdmissibleOfRankPos` | volunteer-build-reviewed |
@@ -366,6 +383,7 @@
 | M002915 | P0758 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.HeckeKerZero` | build-observed |
 | M002916 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.IsQProjOverOfIsProjOver` | build-observed |
 | M002917 | P0475 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.IsThetaFrameMulUnit` | volunteer-build-reviewed |
+| M002919 | P0917 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.MemOfPowEqInt` | volunteer-build-reviewed |
 | M002920 | P0393 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.ModuliNonemptyOfObj` | volunteer-build-reviewed |
 | M002924 | P0393 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.RangeJSubsetAbLocus` | volunteer-build-reviewed |
 | M002926 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.W0EqOfRtEq` | volunteer-build-reviewed |
@@ -374,31 +392,13 @@
 | M002938 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.NonGaloisSurvey.UnitsOfFieldDD` | volunteer-build-reviewed |
 | M002940 | P1084 | `Development.AbelianVarietyTheory.Counterexamples.PlaceInjectivity.PlaceInjective` | volunteer-build-reviewed |
 | M002941 | P0917 | `Development.AbelianVarietyTheory.Counterexamples.PlaceInjectivity.StandardDeterminantUnits` | build-observed |
+| M002944 | P1271 | `Development.AbelianVarietyTheory.Counterexamples.RotationExamples.FreeLiftMetric` | volunteer-build-reviewed |
+| M002949 | P0891 | `Development.AbelianVarietyTheory.Counterexamples.RotationExamples.MeasureFailsForLargeConstant` | volunteer-build-reviewed |
+| M002952 | P1372 | `Development.AbelianVarietyTheory.Counterexamples.RotationExamples.PhaseBreaksTargetParts` | volunteer-build-reviewed |
 | M002955 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.SubgroupCharacterSums.SumSubgroupEqZeroIff` | build-observed |
 | M002956 | P1974 | `Development.AbelianVarietyTheory.Counterexamples.ThetaValuation.CongruenceSpanLevel` | volunteer-build-reviewed |
 | M002958 | P0294 | `Development.AbelianVarietyTheory.Counterexamples.TransversalityLocal.FramePairFixatorUnitaryAndFixesFrame` | volunteer-build-reviewed |
 | M002961 | P1349 | `Development.AbelianVarietyTheory.Counterexamples.TwistSurvey.ConjModelCast` | build-observed |
 | M002967 | P0475 | `Development.AbelianVarietyTheory.Counterexamples.UniformisationSurvey.NeTopOfAdmissibleBase` | volunteer-build-reviewed |
 | M002972 | P0173 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.HasColenNotUniqueWithoutGuard` | volunteer-build-reviewed |
-| M002974 | P0582 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.NonemptyAlgebra` | build-observed |
-| M002976 | P0393 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.ValOfKindIndep` | build-observed |
-| M002977 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.WeightEqZeroOfOneIsSec` | volunteer-build-reviewed |
-| M002978 | P0475 | `Development.AbelianVarietyTheory.CrystallinePeriods.AdicMaps` | wave-reused |
-| M002979 | P0515 | `Development.AbelianVarietyTheory.CrystallinePeriods.CrisIncl` | wave-reused |
-| M002980 | P0475 | `Development.AbelianVarietyTheory.CrystallinePeriods.CrisLoc` | wave-reused |
-| M002981 | P0475 | `Development.AbelianVarietyTheory.CrystallinePeriods.CrisMaps` | wave-reused |
-| M002982 | P0549 | `Development.AbelianVarietyTheory.CrystallinePeriods.CrisMapsLoc` | wave-reused |
-| M002983 | P0393 | `Development.AbelianVarietyTheory.CrystallinePeriods.CrystallineLogarithm.EvalLogAlgebraMap` | wave-reused |
-| M002984 | P0393 | `Development.AbelianVarietyTheory.CrystallinePeriods.CrystallineLogarithm.ExistsExtensionU` | wave-reused |
-| M002985 | P0393 | `Development.AbelianVarietyTheory.CrystallinePeriods.CrystallineLogarithm.ExistsPowDivFactorial` | wave-reused |
-| M002986 | P0393 | `Development.AbelianVarietyTheory.CrystallinePeriods.CrystallineLogarithm.FactorialMulTruncLog` | wave-reused |
-| M002987 | P0393 | `Development.AbelianVarietyTheory.CrystallinePeriods.CrystallineLogarithm.MemAcris0OfFactorialMul` | wave-reused |
-| M002988 | P0475 | `Development.AbelianVarietyTheory.CrystallinePeriods.RingBasics` | wave-reused |
-| M002989 | P0435 | `Development.AbelianVarietyTheory.CrystallinePeriods.RingIface` | wave-reused |
-| M002990 | P0475 | `Development.AbelianVarietyTheory.Definitions.AbelianSchemeLaws.ExistsGrpObjIsAddLawHom` | wave-reused |
-| M002992 | P1169 | `Development.AbelianVarietyTheory.Definitions.AbelianSchemeLaws.ExistsUniqueEqConstMulEllTheta` | wave-reused |
-| M002993 | P1114 | `Development.AbelianVarietyTheory.Definitions.AbelianSchemeLaws.ExistsUniqueEqConstMulOriginSec` | wave-reused |
-| M002994 | P0615 | `Development.AbelianVarietyTheory.Definitions.AbelianSchemeLaws.FirstCohomologyVanishesSpecOfIsLocalRing` | wave-reused |
-| M002995 | P0648 | `Development.AbelianVarietyTheory.Definitions.AbelianSchemeLaws.IsScalarTowerOfAlgebraMapEq` | wave-reused |
-| M002997 | P0731 | `Development.AbelianVarietyTheory.Definitions.AbelianSchemeLaws.SpecMapAwayFnEquivAwayChart` | wave-reused |
-| M002998 | P0002 | `Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.AdelicPair` | volunteer-build-reviewed |
+| M002973 | P1028 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.MemSSgtOfZeroOnDom` | volunteer-build-reviewed |

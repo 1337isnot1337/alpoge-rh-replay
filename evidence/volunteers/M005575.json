@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M005575"
+  ],
+  "started_utc": "2026-11-21T16:41:51.302022+00:00",
+  "ended_utc": "2026-11-21T16:42:46.318370+00:00",
+  "elapsed_seconds": 55.0,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32753216,
+    "peak_child_rss_kib": 6192260
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsTraceZeroAdjustmentOfHermitianLattice:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9a21b77dbb756b4e99beed0ece7f9c678a8e7e4ddfbd3991e230008c8a89a308",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.IsHermHyperbolic",
+    "Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.Hat1",
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsNsmulMulVecMem",
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ImportsTer"
+  ],
+  "objects": {
+    "M005575": "c74c7b93f4a51fd5d1e2bc9b4ee91fcf6022e88c17d1365d405b854d9653396c"
+  },
+  "project_root": "/home/user/rh-replay/vol/replay/lean",
+  "bundle_sha256": "b438862329712cd32c6bf6de6f3926c37bcd8d999aea52a991d4d4dacffdcea2",
+  "packet": "M005575",
+  "contributor": "user42245",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23667#issuecomment-7065857003",
+  "reviewed_utc": "2026-11-21T17:23:49.546974+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

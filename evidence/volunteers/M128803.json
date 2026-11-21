@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M128803"
+  ],
+  "started_utc": "2026-11-21T16:37:53.488115+00:00",
+  "ended_utc": "2026-11-21T16:38:03.587432+00:00",
+  "elapsed_seconds": 10.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6865752
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WeaklyRegularOfCotangentIndepStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9196cfaa16728c7e1caad064280bebf18a1237de049b7c4f9ddd1a01bc6c1eca",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WeaklyRegularOfCotangentIndep"
+  ],
+  "objects": {
+    "M128803": "6233a08dca7f07db51144fb15e0a3389ea9d6ea26b8d2fadebfe04afc019d300"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "02067a7e52a993eed035c806e69cdb2aacb220b5d5a60a543ef4e15a1e0e3bf2",
+  "packet": "M128803",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23544#issuecomment-7065793440",
+  "reviewed_utc": "2026-11-21T17:24:21.987238+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

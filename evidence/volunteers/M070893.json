@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M070893"
+  ],
+  "started_utc": "2026-11-21T15:52:38.838629+00:00",
+  "ended_utc": "2026-11-21T15:52:52.494914+00:00",
+  "elapsed_seconds": 13.7,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6863216
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HasCompactSupportJacquetRallisOrbitalIntegrandStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "618fd6446a55f8002e651c973e16f20cfb1e7a8a5cf67de88ece7dc9318a21f5",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HasCompactSupportJacquetRallisOrbitalIntegrand",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NormMulApplyLeOne"
+  ],
+  "objects": {
+    "M070893": "a46248f782920327acb295b55e92f8cd2a785b88806ba4490659709814c6df60"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "336afda47ec5ebf7a79cc6c69dd3557d92f934f5960e0856d5ed2e434a2d030f",
+  "packet": "M070893",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23188#issuecomment-7065213405",
+  "reviewed_utc": "2026-11-21T17:24:38.045961+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

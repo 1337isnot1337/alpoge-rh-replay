@@ -311,6 +311,7 @@
 | M000580 | P0435 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.CreationOperators.CreApply` | volunteer-build-reviewed |
 | M000581 | P0757 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.CreationOperators.CycDense` | volunteer-build-reviewed |
 | M000582 | P0475 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.CreationOperators.DifferentialBoundedSupport` | volunteer-build-reviewed |
+| M000583 | P0515 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.CreationOperators.DifferentialCommutesWeightOperator` | volunteer-build-reviewed |
 | M000590 | P0392 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.LowKMultOneP` | volunteer-build-reviewed |
 | M000595 | P1501 | `CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.UniqHpkOf` | volunteer-build-reviewed |
 | M000597 | P0094 | `CompanionTheory.HarishChandraModules.NonemptyRepresentations.HWRepD` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M000781 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicHaarScalingByRealIdeleStatement` | volunteer-build-reviewed |
 | M000782 | P1349 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicLatticeMeasureFormula` | build-observed |
 | M000783 | P1372 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicLatticeMeasureFormulaStatement` | build-observed |
-| M000784 | P1298 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicLevelLatticeCompactOpen` | build-observed |

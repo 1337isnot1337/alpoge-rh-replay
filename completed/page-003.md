@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001382 | P2474 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsCarrierDimensionLabelStatement` | volunteer-build-reviewed |
 | M001428 | P2359 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.MemRationalConeOfPerturbation` | volunteer-build-reviewed |
 | M001430 | P2417 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.MultipleCellsAmongPolyhedralFan` | volunteer-build-reviewed |
 | M001440 | P2446 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.PsdBalancedFormVanishesLowRank` | volunteer-build-reviewed |
@@ -11,6 +12,7 @@
 | M001456 | P2530 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.StarDepthBoundedDenominatorStatement` | volunteer-build-reviewed |
 | M001482 | P0238 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.GlobalTheory.ExistsExpUnitary` | volunteer-build-reviewed |
 | M001489 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.NefEffectiveCones.EventuallyEvalNegOfCoeffNeg` | volunteer-build-reviewed |
+| M001490 | P0238 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.NefEffectiveCones.ExistsNsmulMulVecMemHat` | volunteer-build-reviewed |
 | M001496 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.SmoothMorphisms.ExistsFgSmoothOfRelativeDimension` | volunteer-build-reviewed |
 | M001500 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.SmoothMorphisms.LineBundleSpreadsOut` | volunteer-build-reviewed |
 | M001502 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.AdaptExists` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M002206 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TypedRowsIdempotent` | volunteer-build-reviewed |
 | M002209 | P1501 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.UnitaryConjugation` | volunteer-build-reviewed |
 | M002211 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.VpBounds` | wave-reused |
-| M002212 | P1056 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.WeightedNormSquareRows` | volunteer-build-reviewed |
-| M002214 | P1372 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.WeilTensorModels` | build-observed |

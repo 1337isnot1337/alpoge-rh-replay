@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M009157"
+  ],
+  "started_utc": "2026-11-21T15:29:32.859439+00:00",
+  "ended_utc": "2026-11-21T15:29:42.896762+00:00",
+  "elapsed_seconds": 10.0,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6872268
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapRowEqZeroUnlessRowMemDualLatticeStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "466cf38c5c79384e1381cc84715248f9ed35072ca65edaff72c88260fefb8503",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapRowEqZeroUnlessRowMemDualLattice"
+  ],
+  "objects": {
+    "M009157": "34f51c7807e1f3e44b34fddc01d4b9e277ab37fea5e0974c67d06b5464bd1200"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "1d86a6b44d0cf52787de70f0f34870e2124d01771bab3910eda450a42e4ba225",
+  "packet": "M009157",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23108#issuecomment-7064921653",
+  "reviewed_utc": "2026-11-21T17:25:19.879028+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

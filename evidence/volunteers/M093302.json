@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M093302"
+  ],
+  "started_utc": "2026-11-21T15:35:23.979577+00:00",
+  "ended_utc": "2026-11-21T15:35:40.140973+00:00",
+  "elapsed_seconds": 16.2,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6884868
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsGLMulRightColumnsEqZeroOfRankStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e9c6695697a5cefa8dab6a7c05571e2c2ddee2a5b301e7b4789bf4a3f88ad206",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.OpenClosedSequences",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsGLMulRightColumnsEqZeroOfRank"
+  ],
+  "objects": {
+    "M093302": "2b369c974446640b127df18cabbc61356d2bf2397470bdce9f6bdfffe3bcf3e3"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "4fd29cf3e000d6a73bfeb1ca1a364bd8ab15036037f42d673541d1660fe6498a",
+  "packet": "M093302",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23111#issuecomment-7064998114",
+  "reviewed_utc": "2026-11-21T17:25:17.822446+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M073635"
+  ],
+  "started_utc": "2026-11-21T15:19:13.706283+00:00",
+  "ended_utc": "2026-11-21T15:19:26.823077+00:00",
+  "elapsed_seconds": 13.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6915852
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RelativeJacquetPiExteriorTensorEquivNormalizedStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c140dc4a3388c63520a295733354ef794f90b5879e6181d7ea1d14ef8a03e7b6",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RelativeJacquetPiExteriorTensorEquivNormalized"
+  ],
+  "objects": {
+    "M073635": "d8ad53ea8d7a4bdd7a3d49ef97476be4b8f2a85c1e37f409f7c66d5ac8cbdc50"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "c44a34872efff0413ea6aba9d1cdbfe6583397c1de61b0d5a7de3c2386b2a97b",
+  "packet": "M073635",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23033#issuecomment-7064786552",
+  "reviewed_utc": "2026-11-21T17:26:15.044056+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

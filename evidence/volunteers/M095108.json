@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M095108"
+  ],
+  "started_utc": "2026-11-21T15:35:48.527685+00:00",
+  "ended_utc": "2026-11-21T15:35:58.688380+00:00",
+  "elapsed_seconds": 10.2,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6886384
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntertwiningSymplecticAndGroupLawStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c9ad85a7796eb96dfc15df701071b23c197aac69f40a9264a1758ae054e95987",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntertwiningSymplecticAndGroupLaw"
+  ],
+  "objects": {
+    "M095108": "cf7860ed95b766bc25523b899233b3780aa90d9185c2463dae87d22a91e9a1f0"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "d47d7d1bdf81c3c0d5edd12971b7e0823a09c8d74e40ea2bdbcf2ed2d1a31b15",
+  "packet": "M095108",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23105#issuecomment-7065002561",
+  "reviewed_utc": "2026-11-21T17:25:26.353877+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

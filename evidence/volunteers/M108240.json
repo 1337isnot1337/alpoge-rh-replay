@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M108240"
+  ],
+  "started_utc": "2026-11-21T16:53:14.537413+00:00",
+  "ended_utc": "2026-11-21T16:53:42.498360+00:00",
+  "elapsed_seconds": 28.0,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 26442420,
+    "peak_child_rss_kib": 6746720
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.StickelbergerCharacterEval.Detprod:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c07905c16bfac660d0b6b42012b97af1fde58b2cdca0fc97214d87b8e17d2758",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.StickelbergerCharacterEval.Chcard",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.StickelbergerCharacterEval.LinearIndependentCharactersOnQuotientReps"
+  ],
+  "objects": {
+    "M108240": "6d5d11965b546f0bedcbdd6a2ea4773549285d44592561cb2857df4bab326d5a"
+  },
+  "project_root": "/run/media/jwr/Data/AI/math-work/riemann/replay-vol/lean",
+  "bundle_sha256": "e6d7d5e0488b0b2776f4e22b7818b41d1bed593c22dd62cee069d4c16f548fcb",
+  "packet": "M108240",
+  "contributor": "jwr404",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23664#issuecomment-7066217960",
+  "reviewed_utc": "2026-11-21T17:23:52.867745+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

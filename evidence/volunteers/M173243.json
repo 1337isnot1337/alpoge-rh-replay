@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M173243"
+  ],
+  "started_utc": "2026-11-21T15:11:14.060041+00:00",
+  "ended_utc": "2026-11-21T16:19:30.200629+00:00",
+  "elapsed_seconds": 4096.1,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 7931936,
+    "peak_child_rss_kib": 4300148
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.HNormDefs:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "96ec4ec6184f895db075d9c26f1e1c80e0deebc2906eae0a58907278b1df24bc",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.HeightIntegralEstimates",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.HtDefs",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.LaTIsPrime",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.TheoremA",
+    "ReciprocityTheory.SemistableReduction.SphereLogIntegrableStatement"
+  ],
+  "objects": {
+    "M173243": "c708cd814d98247e681c338553deadf378b2e25c4a769cde86b1f6cb17cd403d"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "705dd08d8479259747a9ea7e622d9e74d4cf9d33a05934f523993b1ba66b0bcc",
+  "packet": "M173243",
+  "contributor": "chriswilson413",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23009#issuecomment-7065561623",
+  "reviewed_utc": "2026-11-21T17:26:32.248136+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

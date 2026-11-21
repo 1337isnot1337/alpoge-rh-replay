@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M156621"
+  ],
+  "started_utc": "2026-11-21T15:11:13.592815+00:00",
+  "ended_utc": "2026-11-21T16:08:30.496073+00:00",
+  "elapsed_seconds": 3436.9,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 7931936,
+    "peak_child_rss_kib": 4299824
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SemisimpleTraceForm.SemisimpleOfTraceFormNondegenerate:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b1a02f954c95902e244c82b2992d8a639c28c43c6250fac962ae057738c37570",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.SSAscent",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SemisimpleTraceForm.IsSemisimpleOfIsSSRep",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SemisimpleTraceForm.TraceNilStep"
+  ],
+  "objects": {
+    "M156621": "ba4adf9dcebcd3523c772ea0b1440c4eeb7cf9bd4c321b6f8568f6e579e8d262"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "c2cd965c106e8efa45cc96103faee8faaf35a5aa0cd3cee825563865c4a7c7d6",
+  "packet": "M156621",
+  "contributor": "chriswilson413",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23008#issuecomment-7065415942",
+  "reviewed_utc": "2026-11-21T17:26:32.377382+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

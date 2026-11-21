@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M108531"
+  ],
+  "started_utc": "2026-11-21T16:42:02.013773+00:00",
+  "ended_utc": "2026-11-21T16:42:27.694298+00:00",
+  "elapsed_seconds": 25.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 4847100
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.CokerTors:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "63bcee79dbd8e5a6050e212c5709fedfa550f7fda17ceac1b8b34d3fff32a72d",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.DetNatAbsLeProdL1Norms",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.FullEnum",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.IndexLe",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.TorsSat",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.Transport",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.TorsSatMult"
+  ],
+  "objects": {
+    "M108531": "e98c39349ec056649ada9cf2d3d5cfda763fb37e363d58c876288f60ff9b091f"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "38b2b83baf1daf4133f524b8ba9809987bdb83c30061eee00db389ac229d715b",
+  "packet": "M108531",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23581#issuecomment-7065864066",
+  "reviewed_utc": "2026-11-21T17:24:04.519566+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

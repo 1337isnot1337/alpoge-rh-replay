@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M129549"
+  ],
+  "started_utc": "2026-11-21T16:42:49.800517+00:00",
+  "ended_utc": "2026-11-21T16:43:06.603117+00:00",
+  "elapsed_seconds": 16.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 4909528
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.AlgebraicApproximationCompleteDvr:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5cab0da37415a67be428105f16aa6ef0d1b893333fd46cf5a924452bf390b4e3",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.CoreStatements.CommonZeroEvaluation.AlgebraicApproximationValued",
+    "Development.WeilBound.CoreStatements.CommonZeroEvaluation.ExistsRootAdicComplete"
+  ],
+  "objects": {
+    "M129549": "e7e96f2360b9e60affe4a47df34746f21ad5a4aec62cc8e662f5fd5cf92d5d7b"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "d489c3458793873aa6ed2bd05457cd881b1c50c0cbc9a47fd407b7c67566376f",
+  "packet": "M129549",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23585#issuecomment-7065865066",
+  "reviewed_utc": "2026-11-21T17:24:04.474082+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

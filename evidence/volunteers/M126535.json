@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M126535"
+  ],
+  "started_utc": "2026-11-21T16:55:43.504680+00:00",
+  "ended_utc": "2026-11-21T16:57:38.597856+00:00",
+  "elapsed_seconds": 115.1,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6004616
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.PiCongrRightSingle:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d0fd763162a53dcb685fe97a7b05fd4cc1180f1d0301036416969f1ba17af2c1",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.ExistsAlgHomOfIsBaseChange",
+    "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.AlternatingMapSumSmulEqDetSmul",
+    "Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.ExistsDetEquivOfSubsingleton",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsBaseChangeEquiv",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExteriorPowerSplit",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.KaehlerPushoutSplit",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TensorEquivBaseChangeTensor",
+    "Development.WeilBound.CoreStatements.PadicHodgeComparison.HodgeSurjectivity.FormLaws"
+  ],
+  "objects": {
+    "M126535": "f31ca93467014165d187186d8f73569144ae031cf653bcfc2ba88820ab8840e7"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "9a208b479c3eaa36ee84ab1b028054d9e4b519a63126488c441dfff1eaf23cab",
+  "packet": "M126535",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23647#issuecomment-7066102194",
+  "reviewed_utc": "2026-11-21T17:23:48.449094+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

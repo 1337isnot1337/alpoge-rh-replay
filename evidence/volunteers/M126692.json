@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M126692"
+  ],
+  "started_utc": "2026-11-21T15:56:16.037630+00:00",
+  "ended_utc": "2026-11-21T15:56:30.198375+00:00",
+  "elapsed_seconds": 14.2,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6849716
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ProjMemFixedPiN:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ea6cd47493b6cb5b9b6a31fa233bf52a4ef281f5f502c88ba40287780c63895a",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.IwahoriFactorisation.StrictDominance.JointGeneralisedEigenvectors.IsJointGenEig",
+    "Development.WeilBound.RepresentationTheoryGL.TwistedFactors.LocalBaseChange.TwistedIndependenceLemma.TwistedIndependence"
+  ],
+  "objects": {
+    "M126692": "54fbcb3c6f9bbf17fec64ba4e440d8e56dfda038c77c7a5ef3ef36e66499e6a0"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "9d217566c9dad06082b6c079b35b4d7fcea6d9f94fe2e0dae2cced0f0edfd1fc",
+  "packet": "M126692",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23193#issuecomment-7065258049",
+  "reviewed_utc": "2026-11-21T17:24:34.352279+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

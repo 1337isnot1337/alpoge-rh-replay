@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M138913"
+  ],
+  "started_utc": "2026-11-21T16:39:15.426055+00:00",
+  "ended_utc": "2026-11-21T16:39:42.380019+00:00",
+  "elapsed_seconds": 27.0,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6965276
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.BocksteinBaseChange.LimitBilinearCup.CupAbs:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "80e93ca35c50d5314da179d2aca446f3a9cf17f36dcda91be29237976fc5a601",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.CechPairings.CechAugRow",
+    "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.CechPairings.CxPairing",
+    "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.CechPairings.MapHComp"
+  ],
+  "objects": {
+    "M138913": "5a6bf9ef2003e30c246e22bbeea6e3df0de5f492d3c781bd0e7cdc8b0ac1796c"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "384ad5175a056faea3db5bb606c0e901c14115c99d3079b65e9d5d2a6d8b986f",
+  "packet": "M138913",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23563#issuecomment-7065813758",
+  "reviewed_utc": "2026-11-21T17:24:20.975390+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

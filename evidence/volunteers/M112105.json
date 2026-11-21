@@ -1,0 +1,45 @@
+{
+  "tasks": [
+    "M112105"
+  ],
+  "started_utc": "2026-11-21T16:32:41.373244+00:00",
+  "ended_utc": "2026-11-21T16:35:19.720259+00:00",
+  "elapsed_seconds": 158.3,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 8193600
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.CommRingSections.FirstChernClassLaws:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "325fffb0b4c3a4c0a404b4899efaaa80911dec39dad9cbccbc60ebc0b5beb7ce",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.CommRingSections.IsCovPr",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.AffineVanishing",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.Cartan",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.CechLeray",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.CechSeparated",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.CechToDerived",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.ConsCompSuccAboveZero",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.InjectiveCech",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.LocalizingCech",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.SheafH"
+  ],
+  "objects": {
+    "M112105": "9c5f389fe1eddbd6ebc92f7d421ccafda901416f214e40c713f9f3c5dd0170ec"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "b3d9a44a52ceea0ac9e57b3535f988a2ce70e1647704c10520525c617e81ca41",
+  "packet": "M112105",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23609#issuecomment-7065759327",
+  "reviewed_utc": "2026-11-21T17:24:12.377191+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

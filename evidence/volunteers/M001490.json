@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M001490"
+  ],
+  "started_utc": "2026-11-21T16:35:15.042138+00:00",
+  "ended_utc": "2026-11-21T16:35:47.380383+00:00",
+  "elapsed_seconds": 32.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 4799920
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+CompanionTheory.SpectralGeometry.LocalGlobalProofs.NefEffectiveCones.ExistsNsmulMulVecMemHat:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ace1b9950525816f59c75adfb49a2196a862c2137d638b72f3243270842d6840",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.AdelicCMFields.SupportedAtSplit",
+    "Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.IsHermForm",
+    "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FiniteAdeleStrongApproximationModNat"
+  ],
+  "objects": {
+    "M001490": "1e67e009c295e38def2a90e7c3379e89a84d21ef54ef397d6fcc499124bd617a"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "948392cb54621c44fc53908f40f361f47c76411b2a006fb0211765ec547fe6e8",
+  "packet": "M001490",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23517#issuecomment-7065786547",
+  "reviewed_utc": "2026-11-21T17:24:12.471503+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M007502"
+  ],
+  "started_utc": "2026-11-21T16:45:23.684923+00:00",
+  "ended_utc": "2026-11-21T16:45:58.596963+00:00",
+  "elapsed_seconds": 34.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5268076
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.SpanGridPerpVecEqOrbitSpanOfLe:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e1f962d9651ed2906cbd1923db98a165bb2bcf92484820ebf4752d06519c6725",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.EqZeroOfEvalGridEqZeroOfTotalDegreeLe",
+    "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsMinorProdEqSmulColActBasePoly",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantLemmas.PerpendicularDeterminants.PerpVecOfPerp",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantTheorems.FormPartialDerivatives"
+  ],
+  "objects": {
+    "M007502": "541dccb4f02cd3ec29d66b4e5001e9fe9d08f68c7599e8750dc3874fc544be21"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "e863c35a73264834464761ded9903ba0c01b2a10bf2f04e0498f1ff81c6dfcd3",
+  "packet": "M007502",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23619#issuecomment-7065911744",
+  "reviewed_utc": "2026-11-21T17:23:49.475811+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

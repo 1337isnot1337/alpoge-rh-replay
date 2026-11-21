@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M167321"
+  ],
+  "started_utc": "2026-11-21T16:52:15.625423+00:00",
+  "ended_utc": "2026-11-21T16:52:54.977630+00:00",
+  "elapsed_seconds": 39.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5513400
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.IsVerticalCartier:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1c832d1e53b833d19b18a8151c5896df43469210b5ebeeec6b7cced2371a0ae3",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.BundleObjects",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ArithmeticHilbertSamuelLowerBound",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.Bundle",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.IsIntersectionFamily",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.PenVol"
+  ],
+  "objects": {
+    "M167321": "2feef1aaea28e6c915156db0f8f479c6c933098f2c0172c54cc141f2d81493b8"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "3eb9daa8935fd8001e583b260eb79fe62b927dff4e34fd86e9e29a7e74bcfb34",
+  "packet": "M167321",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23642#issuecomment-7066100958",
+  "reviewed_utc": "2026-11-21T17:23:48.696850+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

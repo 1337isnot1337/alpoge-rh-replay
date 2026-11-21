@@ -1,0 +1,48 @@
+{
+  "tasks": [
+    "M112517"
+  ],
+  "started_utc": "2026-11-21T16:32:41.675446+00:00",
+  "ended_utc": "2026-11-21T16:35:23.590202+00:00",
+  "elapsed_seconds": 161.9,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 8200340
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.KunnethLefschetz.EtaleCharts.FinCover:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5448b1300290d08020b024e45be6c2b6978680209d9179e02fcfbc794669b16c",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.CommRingSections.FirstChernClassLaws",
+    "Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.CommRingSections.IsCovPr",
+    "Development.ResolutionOfSingularities.Foundations.BlowupUniversalProperty",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.AffineVanishing",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.Cartan",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.CechLeray",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.CechSeparated",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.CechToDerived",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.ConsCompSuccAboveZero",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.InjectiveCech",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.LocalizingCech",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.SheafH",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsCompletedStrictHens"
+  ],
+  "objects": {
+    "M112517": "e2d3ad5fc15f778042e7b234a63f34e91612a1a13dfb02398d4192514300361d"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "d8849afe7d9eebaf8c7b008f44dd49e300a927543964ca008c4fb680318eadee",
+  "packet": "M112517",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23610#issuecomment-7065760498",
+  "reviewed_utc": "2026-11-21T17:24:11.371730+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M121098"
+  ],
+  "started_utc": "2026-11-21T16:35:37.310809+00:00",
+  "ended_utc": "2026-11-21T16:35:51.557957+00:00",
+  "elapsed_seconds": 14.2,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6873468
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.BoundedCokernelLimitToLevel:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "42cae1df37ae8cab7f33cfd3b12c9631642b91e7cc574f77f429ba8a0fef784b",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ArtinianLimitLiftOfCompatible",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ArtinianLimitLiftOfCompatibleStatement"
+  ],
+  "objects": {
+    "M121098": "d9173f971c6162e54902bd8a23be2f693f80cb0592e36e89c8cc29fa1250421a"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "e80fb8e4163c3c9689be3f48634cb158cba354bebe2574b445eacf75197b5a38",
+  "packet": "M121098",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23549#issuecomment-7065765944",
+  "reviewed_utc": "2026-11-21T17:24:21.890412+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

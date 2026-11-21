@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M007172"
+  ],
+  "started_utc": "2026-11-21T16:43:55.379063+00:00",
+  "ended_utc": "2026-11-21T16:44:14.222452+00:00",
+  "elapsed_seconds": 18.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 4891488
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsNatCastMemDifferentIdealPowLeStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9806bfe2ebf7bc61ff52918e36fcc0c4941482483ad00faa2170e9390b914f94",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsNatCastMemDifferentIdealPowLe",
+    "Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.Imports"
+  ],
+  "objects": {
+    "M007172": "ea88f79e11b42f82f5d8119123fd402bde3c6c8b7f6700a52ae53067cddd1f08"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "8f5e1e6e75919ad2795ca8d0aa7d6b93e6b9f6ccc9e941d56d37daf5b14817c5",
+  "packet": "M007172",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23605#issuecomment-7065884956",
+  "reviewed_utc": "2026-11-21T17:23:57.693474+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

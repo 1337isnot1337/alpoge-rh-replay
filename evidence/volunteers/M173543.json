@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M173543"
+  ],
+  "started_utc": "2026-11-21T16:53:07.854222+00:00",
+  "ended_utc": "2026-11-21T16:53:43.105809+00:00",
+  "elapsed_seconds": 35.3,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 26442420,
+    "peak_child_rss_kib": 6782384
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.Rationality.LocalQuotientRank:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "06cc77459ae60cc9183e0a75d6d92b62691177226532c4381f1d650cb500b3b2",
+  "rebuilt_project_modules": [
+    "Lemmata.MiscLemmasJ.Imports",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.Rationality.FreeQuotPf"
+  ],
+  "objects": {
+    "M173543": "8cc3cc3d2da0b5906c52a1b889b4eb3680563517aa120a68799ad150a6928da4"
+  },
+  "project_root": "/run/media/jwr/Data/AI/math-work/riemann/replay-vol/lean",
+  "bundle_sha256": "cb4fb3e1fe4258bb8e7a2a8c028a9f3530b1931450d5a13d4befff02b70af209",
+  "packet": "M173543",
+  "contributor": "jwr404",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23630#issuecomment-7066217137",
+  "reviewed_utc": "2026-11-21T17:24:05.075823+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

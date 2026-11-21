@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M101577"
+  ],
+  "started_utc": "2026-11-21T15:55:34.032533+00:00",
+  "ended_utc": "2026-11-21T15:55:44.278603+00:00",
+  "elapsed_seconds": 10.2,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6864528
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.IwPermMul:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c37322b3c2a4a6b01f345d81046f95b7f5500da171d940f1012ccac55f4418eb",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.IwHeckePairIwC"
+  ],
+  "objects": {
+    "M101577": "55840925cb5834bdbf4d646d59e774aa5feae12ccf1e258b42522824f715e087"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "a03eb169fd9b594465df951fc9ab20d74994f9c5f383737700a9b91e58a322ca",
+  "packet": "M101577",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23185#issuecomment-7065248657",
+  "reviewed_utc": "2026-11-21T17:24:38.210629+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

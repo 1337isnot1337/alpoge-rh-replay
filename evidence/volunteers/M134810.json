@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M134810"
+  ],
+  "started_utc": "2026-11-21T16:40:51.480487+00:00",
+  "ended_utc": "2026-11-21T16:41:34.674479+00:00",
+  "elapsed_seconds": 43.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5086960
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.DiscreteGroups.GlobalIrreducibility.DzDigMain:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4f0775de8c74c3861422654c97fdf3729c79db9543b4b3645a624ad4ef5ed74f",
+  "rebuilt_project_modules": [
+    "Development.DiscreteGroups.GlobalIrreducibility.DzDigCover",
+    "Development.DiscreteGroups.GlobalIrreducibility.DzDigDef",
+    "Development.DiscreteGroups.GlobalIrreducibility.DzDigShift",
+    "Development.DiscreteGroups.GlobalIrreducibility.DzDigTot",
+    "Development.DiscreteGroups.GlobalIrreducibility.DzStickDefs",
+    "Development.DiscreteGroups.GlobalIrreducibility.DzStickDigits"
+  ],
+  "objects": {
+    "M134810": "6159f5ba2ffe404cc38c6305da796cf112e21c65d6bbfe424f90f71246c6a92e"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "268a452e27ec8f0dd9ebc2372897a9d406bb2e7e6b801cd4e7b667f0b3c93009",
+  "packet": "M134810",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23575#issuecomment-7065846777",
+  "reviewed_utc": "2026-11-21T17:24:04.564780+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

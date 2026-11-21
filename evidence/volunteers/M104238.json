@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M104238"
+  ],
+  "started_utc": "2026-11-21T16:44:05.792295+00:00",
+  "ended_utc": "2026-11-21T16:44:35.854516+00:00",
+  "elapsed_seconds": 30.1,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32753216,
+    "peak_child_rss_kib": 6332476
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.IntegralityNearIdentity.IsIntegralOfNormLe:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "87a68bcefb8bf75eec549cfc895d389ebdbc5e005b911a5a374cffd1e9b17bb3",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.EigenMem",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsIntegralOfNormLe",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MemOfCoeff",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ProdMulMem"
+  ],
+  "objects": {
+    "M104238": "9109a2c6049fdc3eca24df7dd41df9bd831985aec1769a630c8afd440ba94ae6"
+  },
+  "project_root": "/home/user/rh-replay/vol/replay/lean",
+  "bundle_sha256": "0ba6b4ecdd87133685c615db3bd57da61fb0a0f94726705be3a8046d5ef75fe2",
+  "packet": "M104238",
+  "contributor": "user42245",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23669#issuecomment-7065882185",
+  "reviewed_utc": "2026-11-21T17:23:49.222127+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M163639"
+  ],
+  "started_utc": "2026-11-21T16:47:46.158909+00:00",
+  "ended_utc": "2026-11-21T16:48:47.848507+00:00",
+  "elapsed_seconds": 61.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6000468
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.PDominantPrimitiveFibres:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1d1df21ac2b0aee2ccaa8db5599cd917fd707e927d0a721fcbd1e31ade67b0b0",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StDominantPrimitiveFibres",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PDominantFibreBound",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPrimitiveElementFibres",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PrimitiveLinearForm",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StDominantFibreBound",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StPrimitiveElementFibres"
+  ],
+  "objects": {
+    "M163639": "e5124ba896674272c969b171992498ab86126073eff6393a2ec64e53833da899"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "51b08f2022b4762ebdfbbde8f2a6d1ad25408611288302d42076be94e8806978",
+  "packet": "M163639",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23631#issuecomment-7065973947",
+  "reviewed_utc": "2026-11-21T17:23:48.837307+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

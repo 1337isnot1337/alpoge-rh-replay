@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M054060"
+  ],
+  "started_utc": "2026-11-21T16:35:50.335635+00:00",
+  "ended_utc": "2026-11-21T16:36:27.859700+00:00",
+  "elapsed_seconds": 37.5,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 4801056
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslateOpenSubgroupsFiniteStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4c782310f32174290340bd12b7f2935e5ccf77547b09fc8bb120bc503eb21350",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslateOpenSubgroupsFinite",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdelicLocalCompactness.AdeleLC",
+    "Formalism.SharpRestriction.GlobalSchurBounds.GeneralLinearActions.GenusMassVolumes",
+    "ReciprocityTheory.GeneralLinearIntegers.AlgebraMapIntMemOint"
+  ],
+  "objects": {
+    "M054060": "5ea961d34b41566658bf717f73331409af4a1f07fb5f91c941ddf6ba76e2ed77"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "2744cb7ba3f76d1b7fb357b1a1d613af10f9d8b541720285e5efb22a3e7b93f0",
+  "packet": "M054060",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23518#issuecomment-7065786952",
+  "reviewed_utc": "2026-11-21T17:24:12.448868+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

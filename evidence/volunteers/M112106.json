@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    "M112106"
+  ],
+  "started_utc": "2026-11-21T16:32:41.373276+00:00",
+  "ended_utc": "2026-11-21T16:35:14.621327+00:00",
+  "elapsed_seconds": 153.2,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 7875604
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.CommRingSections.IsCovPr:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fbc7299b9ea4b9cc4e04f24453d3ab6846776d8259ffddb3696cdcfe8dd68958",
+  "rebuilt_project_modules": [
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.AffineVanishing",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.Cartan",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.CechLeray",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.CechSeparated",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.CechToDerived",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.ConsCompSuccAboveZero",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.InjectiveCech",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.LocalizingCech",
+    "GroundTheory.ArithmeticGeometry.SchemeCohomology.SheafH"
+  ],
+  "objects": {
+    "M112106": "b7934b5ba917bc3538ce14259a6b51474751b7903aabfbd0b3bb0023b6ca9be4"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "86f74e53f64986419a528dcfeb7bcd5f6b5bfe0bb59e9c5adcfcd9d21366f9be",
+  "packet": "M112106",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23608#issuecomment-7065758166",
+  "reviewed_utc": "2026-11-21T17:24:12.595489+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

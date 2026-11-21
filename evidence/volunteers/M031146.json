@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M031146"
+  ],
+  "started_utc": "2026-11-21T15:17:00.134902+00:00",
+  "ended_utc": "2026-11-21T15:17:13.816208+00:00",
+  "elapsed_seconds": 13.7,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6947588
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteDimensionalCompactFixedVectorsPiTensorSmoo:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "eee9a76186f971d988899d6a5254579d6377e7675cdd7996f607896b8ecde1ce",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.SatakeParameters.SmoothContragredientIrreducibleAndReflexive"
+  ],
+  "objects": {
+    "M031146": "ec4c6c27468a4f3f1709aea48681672901fff5e54387859affc44e0fe3ed0107"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "264264cf9cc443813f27074649481e1915dfbcc3dbe3daa1d393fd7c3a334c2d",
+  "packet": "M031146",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23026#issuecomment-7064755497",
+  "reviewed_utc": "2026-11-21T17:26:16.758325+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

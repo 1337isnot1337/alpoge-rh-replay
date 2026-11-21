@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M015191"
+  ],
+  "started_utc": "2026-11-21T16:46:31.998442+00:00",
+  "ended_utc": "2026-11-21T16:47:01.164155+00:00",
+  "elapsed_seconds": 29.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5210088
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.AffineHilbertSchemeValuativeCriterionExistence:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3ae0d9ee23e322854cfd3a648fa3db715a5cdf496c6d6f34c85ff9c7c3a1b5e6",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFlatIdealValuationRingPullback",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFlatIdealValuationRingPullbackStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealSheafDataComapIdealTopOfIsAffine",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealSheafDataComapIdealTopOfIsAffineStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsAlt"
+  ],
+  "objects": {
+    "M015191": "8b66749a7b2227506196900959d363ff95020c6a87a36c0931d26e3595b53d32"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "c20186e583669d3868851accd4436a580d269e3be68c3dbc9c6257f0c2b5fd4b",
+  "packet": "M015191",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23628#issuecomment-7065972870",
+  "reviewed_utc": "2026-11-21T17:23:49.043242+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M137596"
+  ],
+  "started_utc": "2026-11-21T16:36:30.448978+00:00",
+  "ended_utc": "2026-11-21T16:37:24.474479+00:00",
+  "elapsed_seconds": 54.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5566700
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.RealAdelicFockSpace.PolyGaussOfLines:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "86d86fea67b637086949714463ac9ab5745a0820ec24dd514e306e701a0cdf7a",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.LocalOperatorBlocks.IntgPowQuad",
+    "Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.PolynomialGaussianIntegrals.IntegrablePolyGauss",
+    "Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.PolynomialGaussianIntegrals.IntegrableRexpLin",
+    "Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.PolynomialGaussianIntegrals.IteratedDerivPolyRealZero",
+    "Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.PolynomialGaussianIntegrals.IteratedDerivScale",
+    "Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.PolynomialGaussianIntegrals.PolyGaussOfLines"
+  ],
+  "objects": {
+    "M137596": "e6c7c065101f05ad33e77670fa1ee16ce7717695cedcb35dbf373c7500f1c2a7"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "d00c00d35ac54270b5f8a3080343ed91e036caa2d99849c83f054d6ace758988",
+  "packet": "M137596",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23519#issuecomment-7065787439",
+  "reviewed_utc": "2026-11-21T17:24:12.424850+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

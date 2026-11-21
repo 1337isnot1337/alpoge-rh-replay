@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    "M103649"
+  ],
+  "started_utc": "2026-11-21T15:26:12.573661+00:00",
+  "ended_utc": "2026-11-21T15:26:57.734922+00:00",
+  "elapsed_seconds": 45.2,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 6900848
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.SelmerTransport.NormO:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9039e74378dd552821c43365954372b140c5077a5ccf69d0b0d091a4d2c58973",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.GaloisCohomologyLength.LevelInertiaLeLevelDec",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.SelmerTransport.ConjStableShaFam",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.SelmerTransport.RestrictionMemInvariantH1",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.PartsConj",
+    "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.TotallyRealRoots",
+    "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.TotallyRealRoots.GalDefs",
+    "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.TotallyRealRoots.LeNuIffPowMemPrinc",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.NormLeOneOfIsIntegral",
+    "Formalism.GaloisCohomology.Statement"
+  ],
+  "objects": {
+    "M103649": "5ba8d0a57076b53195286922d48abdcd70822fc8caf535164e71748caf7b0087"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "2496ac2372e35ca3302720980fb7374b3b3ab64bd47ceac93759153cb1dbe7cd",
+  "packet": "M103649",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23079#issuecomment-7064888968",
+  "reviewed_utc": "2026-11-21T17:25:43.275025+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

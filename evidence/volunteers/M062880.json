@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M062880"
+  ],
+  "started_utc": "2026-11-21T15:51:43.133548+00:00",
+  "ended_utc": "2026-11-21T15:51:55.223292+00:00",
+  "elapsed_seconds": 12.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6869168
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.KummerCompletionNoPrimeTorsion:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5362a4e74c5e37982e69bd67b2a5b4d8b99e7452aa5f58fc5f040616f7856363",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.HsCodiscreteNeBot",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.TowerUnitClassModPrimePowProperties"
+  ],
+  "objects": {
+    "M062880": "cf92bcb40c2fa005338475d440da39d8d253fba4c4ffc6a730a799c0781d6266"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "953c24063de4f1efb670f6380d2750c3efab143d04a1bbf75b8bf6111832e268",
+  "packet": "M062880",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23190#issuecomment-7065202051",
+  "reviewed_utc": "2026-11-21T17:24:37.498804+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

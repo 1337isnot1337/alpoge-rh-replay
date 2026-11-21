@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M131304"
+  ],
+  "started_utc": "2026-11-21T16:39:58.119546+00:00",
+  "ended_utc": "2026-11-21T16:40:31.413193+00:00",
+  "elapsed_seconds": 33.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5568092
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.LatticeGlueOverPrimes:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5e1e7dbcc644a2bc1fdbcce33119cd4e59a14947a152dcc29e72823a68d1d51f",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.CoordsAt",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.EtaleLocalizationAtPrimeTensorOfLowHeight",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsCptGen",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GenMapGermEqGenMapGerm",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GenMapStalkSpecializes",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegAtIsLocalRingIsFractionRingStalk"
+  ],
+  "objects": {
+    "M131304": "e513ec545c2785de00477e6a882b3557f67b74c71cf470035d046fffffd67db7"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "1b6a63375ffff3d91ce89e9fc6d0770534ea38d2dcd8ee2522fc728df204f3e9",
+  "packet": "M131304",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23573#issuecomment-7065845744",
+  "reviewed_utc": "2026-11-21T17:24:04.610665+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

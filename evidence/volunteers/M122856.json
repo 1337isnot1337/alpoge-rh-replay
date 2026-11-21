@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M122856"
+  ],
+  "started_utc": "2026-11-21T16:57:44.048934+00:00",
+  "ended_utc": "2026-11-21T16:58:53.133457+00:00",
+  "elapsed_seconds": 69.1,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5225732
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsKill:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9e016c0d89c49b8d3627c42ce005260018ce72c300dea50933bf9c220c6a5996",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsFgTmulEqZero",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsPQ",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsPerfectRadical",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FrobeniusPowerSolutionLift",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.OneTmulMemRangeIff",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.PqLift"
+  ],
+  "objects": {
+    "M122856": "813b970162521b87ea7b9c5adf976e5a001ef0a61d9f396c6575628b9d826a97"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "7c0de25e6090b20595b86f9e40bc6b5554e833fdbaa22cf507491b76a56e4255",
+  "packet": "M122856",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23657#issuecomment-7066133521",
+  "reviewed_utc": "2026-11-21T17:23:41.001524+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}
