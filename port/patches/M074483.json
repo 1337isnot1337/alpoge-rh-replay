@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TendstoRatioBoxCountsProdOne",
+  "source_sha256": "86e7c46ac68f69d5b91cefc2088f88b7d6eebd26a507b8452cc1c49746762710",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename tendsto_finset_prod to tendsto_finsetProd. Statements are unchanged."
+}

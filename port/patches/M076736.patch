@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/DifferentiableAtDet.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/DifferentiableAtDet.lean
+@@ -8,7 +8,7 @@
+   simp only [Matrix.det_apply']
+   refine DifferentiableAt.fun_sum fun π _ => ?_
+   refine DifferentiableAt.const_mul ?_ _
+-  exact (HasDerivAt.fun_finset_prod (u := Finset.univ) (f := fun i s => M s (π i) i)
++  exact (HasDerivAt.fun_finsetProd (u := Finset.univ) (f := fun i s => M s (π i) i)
+     (fun i _ => (h (π i) i).hasDerivAt)).differentiableAt
+ 
+ end GlobalTheory.DifferentiableDet

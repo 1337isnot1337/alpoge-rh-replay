@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TensorProductBasisCoordinates",
+  "source_sha256": "e87bc2a45a00b34aa12a148a11799e44062008f0cfc3b2075f32424202d0e286",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename Finsupp.finset_sum_apply to Finsupp.finsetSum_apply. Statements are unchanged."
+}
