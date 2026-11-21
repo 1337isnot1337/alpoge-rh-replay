@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005159 | P1350 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.WittHyperbolicAnisotropicCommuteLevi` | build-observed |
+| M005162 | P0891 | `Development.AbelianVarietyTheory.Definitions.TwoChartAtlas.AdditionLawSecondIdentity` | build-observed |
+| M005163 | P0810 | `Development.AbelianVarietyTheory.Definitions.TwoChartAtlas.TwoChartSt` | wave-reused |
+| M005164 | P0918 | `Development.AbelianVarietyTheory.Definitions.Uniformization.AllDV` | build-observed |
+| M005165 | P1084 | `Development.AbelianVarietyTheory.Definitions.Uniformization.ExistsInKNeOne` | wave-reused |
+| M005166 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.ExistsUniqueSamePt` | wave-reused |
+| M005168 | P0758 | `Development.AbelianVarietyTheory.Definitions.Uniformization.ExistsUniqueTorusCompat` | wave-reused |
+| M005169 | P0810 | `Development.AbelianVarietyTheory.Definitions.Uniformization.FinrankComplexReal` | wave-reused |
+| M005171 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.IsCPPullback` | build-observed |
+| M005173 | P0918 | `Development.AbelianVarietyTheory.Definitions.Uniformization.NotExistsEvenTwistSymOne` | volunteer-build-reviewed |
+| M005174 | P0891 | `Development.AbelianVarietyTheory.Definitions.Uniformization.PointEqOfSubsingleton` | wave-reused |
+| M005175 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.PsiScal` | wave-reused |
+| M005176 | P1974 | `Development.AbelianVarietyTheory.Definitions.Uniformization.RankOneModel` | volunteer-build-reviewed |
+| M005177 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.SameB` | wave-reused |
 | M005178 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.SeriesFrame` | volunteer-build-reviewed |
 | M005179 | P0784 | `Development.AbelianVarietyTheory.Definitions.Uniformization.SmulOneSecEqZeroIff` | wave-reused |
 | M005180 | P0974 | `Development.AbelianVarietyTheory.Definitions.Uniformization.SvalTwistOne` | wave-reused |
@@ -388,17 +402,3 @@
 | M005667 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexSqsTopOfFg` | wave-reused |
 | M005668 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexSqsTopOfFgStatement` | wave-reused |
 | M005669 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexSquaresLeTwoMulUnitsSquares` | wave-reused |
-| M005670 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexSquaresLeTwoMulUnitsSquaresStatement` | wave-reused |
-| M005671 | P0394 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexUnitsLocalSquaresFiniteRealPlacesLe` | wave-reused |
-| M005672 | P0436 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexUnitsLocalSquaresFiniteRealPlacesLeStatement` | wave-reused |
-| M005673 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexUnitsSquareUnderRingHomAdicCompletionLe` | wave-reused |
-| M005674 | P0348 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexUnitsSquareUnderRingHomAdicCompletionLeStatement` | wave-reused |
-| M005675 | P1218 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IntegralFiniteAdeleCompactClosedMultiples` | build-observed |
-| M005677 | P0759 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.InvariantFormEqSumInvariantTensors` | build-observed |
-| M005678 | P0784 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.InvariantFormEqSumInvariantTensorsStatement` | build-observed |
-| M005679 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.InvariantSubspaceNotSemisimple` | volunteer-build-reviewed |
-| M005681 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsAdicCompleteAndCardQuotientAdicCompletionInteg` | wave-reused |
-| M005682 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsAdicCompleteSpanAlgebraMapOfFreeFinite` | wave-reused |
-| M005683 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsAutStableSLMatrixGroupImageBlockDiagPart` | volunteer-build-reviewed |
-| M005684 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsAutStableSLMatrixGroupImageBlockDiagPartStatement` | volunteer-build-reviewed |
-| M005685 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsClosedImageSLUnderGeneratingInvariants` | volunteer-build-reviewed |

@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005670 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexSquaresLeTwoMulUnitsSquaresStatement` | wave-reused |
+| M005671 | P0394 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexUnitsLocalSquaresFiniteRealPlacesLe` | wave-reused |
+| M005672 | P0436 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexUnitsLocalSquaresFiniteRealPlacesLeStatement` | wave-reused |
+| M005673 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexUnitsSquareUnderRingHomAdicCompletionLe` | wave-reused |
+| M005674 | P0348 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexUnitsSquareUnderRingHomAdicCompletionLeStatement` | wave-reused |
+| M005675 | P1218 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IntegralFiniteAdeleCompactClosedMultiples` | build-observed |
+| M005677 | P0759 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.InvariantFormEqSumInvariantTensors` | build-observed |
+| M005678 | P0784 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.InvariantFormEqSumInvariantTensorsStatement` | build-observed |
+| M005679 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.InvariantSubspaceNotSemisimple` | volunteer-build-reviewed |
+| M005681 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsAdicCompleteAndCardQuotientAdicCompletionInteg` | wave-reused |
+| M005682 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsAdicCompleteSpanAlgebraMapOfFreeFinite` | wave-reused |
+| M005683 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsAutStableSLMatrixGroupImageBlockDiagPart` | volunteer-build-reviewed |
+| M005684 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsAutStableSLMatrixGroupImageBlockDiagPartStatement` | volunteer-build-reviewed |
+| M005685 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsClosedImageSLUnderGeneratingInvariants` | volunteer-build-reviewed |
 | M005686 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsClosedImageSLUnderGeneratingInvariantsStatement` | volunteer-build-reviewed |
 | M005687 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsClosedIsHermitianLogOfPosDef` | volunteer-build-reviewed |
 | M005694 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsCompletelyReducibleMatrixSetTransposeImage` | volunteer-build-reviewed |
@@ -388,17 +402,3 @@
 | M006150 | P0394 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.PrimitiveEndClassFunctionEqZeroOfPrimaryStatement` | wave-reused |
 | M006151 | P0583 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.PrimitiveEndClassFunctionZeroOfCharpolyMassZero` | wave-reused |
 | M006152 | P0616 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.PrimitiveEndClassFunctionZeroOfCharpolyMassZeroStatement` | wave-reused |
-| M006153 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.RegularIffNatDegreeAndExistsEllipticGL` | build-observed |
-| M006154 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.RegularIffNatDegreeAndExistsEllipticGLStatement` | build-observed |
-| M006155 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.RootPowerSumCharacterAdditiveAndXSubOnePow` | wave-reused |
-| M006156 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.RootPowerSumCharacterAdditiveAndXSubOnePowStatement` | wave-reused |
-| M006157 | P0865 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.RootPowerSumCharpolyMemVirtualCharactersGL` | wave-reused |
-| M006158 | P0891 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.RootPowerSumCharpolyMemVirtualCharactersGLStatement` | wave-reused |
-| M006159 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.RootsCharpolyPowEqMapPow` | wave-reused |
-| M006160 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.RootsCharpolyPowEqMapPowStatement` | wave-reused |
-| M006161 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.SeparationNumericalIneqCuspidalGL` | build-observed |
-| M006162 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.SeparationNumericalIneqCuspidalGLStatement` | build-observed |
-| M006163 | P0678 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.StarVirtualCharacterEqApplyInv` | wave-reused |
-| M006164 | P0705 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.StarVirtualCharacterEqApplyInvStatement` | wave-reused |
-| M006165 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.SumCharpolyRootsEqFinsumEigenspaceFinrank` | wave-reused |
-| M006166 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.SumCharpolyRootsEqFinsumEigenspaceFinrankStatement` | wave-reused |

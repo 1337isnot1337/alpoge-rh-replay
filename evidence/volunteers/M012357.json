@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M012357"
+  ],
+  "started_utc": "2026-11-21T13:49:12.424359+00:00",
+  "ended_utc": "2026-11-21T13:49:49.279222+00:00",
+  "elapsed_seconds": 36.8,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 8066956
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnipotentAtTauMemStabilizer:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f2a04a3247789f9ea7bf232a614fa9fe448812bb72944f69c9cbacd34e413779",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.HalfPowerDetAbsRealDiagonalTorus"
+  ],
+  "objects": {
+    "M012357": "a355630b5d09eb33e56fdf4f2c88ed978da8532d713d6657c9724ef1665062b5"
+  },
+  "bundle_sha256": "6bc0b9758d2fa7bcd41831b773d030edbf2d986b3cc56441892d9a854b43017c",
+  "packet": "M012357",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22357#issuecomment-7063640225",
+  "reviewed_utc": "2026-11-21T17:35:32.385518+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

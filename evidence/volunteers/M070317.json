@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M070317"
+  ],
+  "started_utc": "2026-11-21T14:08:08.269869+00:00",
+  "ended_utc": "2026-11-21T14:08:21.815193+00:00",
+  "elapsed_seconds": 13.5,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6863500
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FisSelfReNonneg:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3d52b23826a78e259d9890b3400973c753ece78fb30f8d74ada5404f5b5d1eef",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.DualLattices.FischerSelfNeZero",
+    "ReciprocityTheory.DualLattices.WtGtRowSubstXSub"
+  ],
+  "objects": {
+    "M070317": "0ed863e60cd92bcb31d13c9d51609d208984ec43cff92d90e2ad2b01bf358f45"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "8ec9b82cc285c34835f0fc6241612448fa49689e89f49e09b66866fd4a845d31",
+  "packet": "M070317",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22527#issuecomment-7063851709",
+  "reviewed_utc": "2026-11-21T17:33:34.044262+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

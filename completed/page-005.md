@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002909 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.CubeMapTripleProductUnique` | volunteer-build-reviewed |
+| M002912 | P0393 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.DominatesLiftUnique` | volunteer-build-reviewed |
+| M002913 | P0435 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.ExistsGoodLevel` | volunteer-build-reviewed |
+| M002915 | P0758 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.HeckeKerZero` | build-observed |
+| M002916 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.IsQProjOverOfIsProjOver` | build-observed |
+| M002917 | P0475 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.IsThetaFrameMulUnit` | volunteer-build-reviewed |
 | M002919 | P0917 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.MemOfPowEqInt` | volunteer-build-reviewed |
 | M002920 | P0393 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.ModuliNonemptyOfObj` | volunteer-build-reviewed |
 | M002924 | P0393 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.RangeJSubsetAbLocus` | volunteer-build-reviewed |
@@ -180,6 +186,7 @@
 | M003307 | P2032 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RootsOfUnityRingLeWittIntegers` | build-observed |
 | M003309 | P0838 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RowsRestWordColumnUnitBaseTuple` | build-observed |
 | M003311 | P0865 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SCuIsom` | build-observed |
+| M003313 | P1444 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SameDegreeZeroFormsSelf` | volunteer-build-reviewed |
 | M003314 | P1419 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SameForm` | volunteer-build-reviewed |
 | M003317 | P1856 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SecondChernDegreeVanishesTrueSurfaces` | volunteer-build-reviewed |
 | M003319 | P1856 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SeriesRatSOf` | volunteer-build-reviewed |
@@ -301,6 +308,7 @@
 | M003529 | P1001 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsIsStdOfInjective` | wave-reused |
 | M003534 | P2387 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsLeadOfUnif` | volunteer-build-reviewed |
 | M003538 | P2720 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsMonoFamNontrivial` | volunteer-build-reviewed |
+| M003539 | P1586 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsNotIsConstTerm` | volunteer-build-reviewed |
 | M003544 | P1901 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsPointGaussian` | build-observed |
 | M003547 | P1472 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsResolProjSpace` | volunteer-build-reviewed |
 | M003549 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsRootSelectionUnitaryRankOne` | build-observed |
@@ -317,6 +325,7 @@
 | M003570 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.FderivFnCongr` | volunteer-build-reviewed |
 | M003571 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.FibreRankCompOfSurjective` | wave-reused |
 | M003575 | P1084 | `Development.AbelianVarietyTheory.Definitions.Divisors.FirstChernLeviEqConstant` | build-observed |
+| M003577 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.FlatTensorVacuum` | volunteer-build-reviewed |
 | M003579 | P0865 | `Development.AbelianVarietyTheory.Definitions.Divisors.FormalCoboundarySmul` | wave-reused |
 | M003580 | P1419 | `Development.AbelianVarietyTheory.Definitions.Divisors.FormalDegreeUpperC` | volunteer-build-reviewed |
 | M003582 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.FormalModule` | volunteer-build-reviewed |
@@ -382,6 +391,7 @@
 | M003691 | P0891 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsKSValueOneOfRetraction` | wave-reused |
 | M003693 | P1372 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLifted` | build-observed |
 | M003694 | P1029 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLimDeg` | build-observed |
+| M003695 | P1531 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLocCompIffEquiv` | volunteer-build-reviewed |
 | M003696 | P1834 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLocalRingTrivSqZeroExt` | build-observed |
 | M003697 | P2133 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLocallyConstantLinOm` | volunteer-build-reviewed |
 | M003698 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLocallyConstantSplitOm` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M003710 | P1271 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPolAVSectionInverseImage` | build-observed |
 | M003711 | P1298 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPow8F` | build-observed |
 | M003712 | P1323 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPowMod` | build-observed |
-| M003713 | P2359 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsProjOverWeierstrass` | volunteer-build-reviewed |
-| M003714 | P1056 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsProperToroidalModelStructureMap` | volunteer-build-reviewed |
-| M003716 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsQuasiRegularSeqOfIsFreeGen` | wave-reused |
-| M003717 | P1372 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsQuasicoherentEigenQuot` | wave-reused |
-| M003718 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsRapidInf` | build-observed |
-| M003720 | P0917 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsRatioCover` | build-observed |
-| M003721 | P2554 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsRatioOfWeight` | volunteer-build-reviewed |
-| M003722 | P1787 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsRecTLocRecT` | volunteer-build-reviewed |
-| M003725 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsSimplicial` | volunteer-build-reviewed |
-| M003726 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsSmoothVector` | build-observed |

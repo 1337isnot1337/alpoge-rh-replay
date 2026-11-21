@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006153 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.RegularIffNatDegreeAndExistsEllipticGL` | build-observed |
+| M006154 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.RegularIffNatDegreeAndExistsEllipticGLStatement` | build-observed |
+| M006155 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.RootPowerSumCharacterAdditiveAndXSubOnePow` | wave-reused |
+| M006156 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.RootPowerSumCharacterAdditiveAndXSubOnePowStatement` | wave-reused |
+| M006157 | P0865 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.RootPowerSumCharpolyMemVirtualCharactersGL` | wave-reused |
+| M006158 | P0891 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.RootPowerSumCharpolyMemVirtualCharactersGLStatement` | wave-reused |
+| M006159 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.RootsCharpolyPowEqMapPow` | wave-reused |
+| M006160 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.RootsCharpolyPowEqMapPowStatement` | wave-reused |
+| M006161 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.SeparationNumericalIneqCuspidalGL` | build-observed |
+| M006162 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.SeparationNumericalIneqCuspidalGLStatement` | build-observed |
+| M006163 | P0678 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.StarVirtualCharacterEqApplyInv` | wave-reused |
+| M006164 | P0705 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.StarVirtualCharacterEqApplyInvStatement` | wave-reused |
+| M006165 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.SumCharpolyRootsEqFinsumEigenspaceFinrank` | wave-reused |
+| M006166 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.SumCharpolyRootsEqFinsumEigenspaceFinrankStatement` | wave-reused |
 | M006167 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.SumConjIdempotentEqCardSmul` | wave-reused |
 | M006168 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.SumGaussianMulProd` | wave-reused |
 | M006169 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.SumPrimitiveEndClassFunctionRestrictMixedSubspac` | wave-reused |
@@ -388,17 +402,3 @@
 | M006679 | P1194 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldDefiningCmCurveHomsStatement` | build-observed |
 | M006682 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldPointOfCountable` | volunteer-build-reviewed |
 | M006683 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldTorsionPoints` | volunteer-build-reviewed |
-| M006684 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsOActExtendDedekind` | volunteer-build-reviewed |
-| M006691 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPeriodPairOfLatticeInLine` | build-observed |
-| M006693 | P1057 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPolAVPullbackOfIsLocalRing` | volunteer-build-reviewed |
-| M006694 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPolarisedAbelianSchemeLieBasisInvariants` | volunteer-build-reviewed |
-| M006695 | P1246 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPolarisedAbelianSchemeLieBasisInvariantsStatement` | build-observed |
-| M006697 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPolarisedAbelianSchemePowerStatement` | volunteer-build-reviewed |
-| M006699 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPosKeyArchAt` | volunteer-build-reviewed |
-| M006704 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsProdPolAV` | volunteer-build-reviewed |
-| M006706 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPullback` | volunteer-build-reviewed |
-| M006708 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPureVectorsPeriodsSpan` | volunteer-build-reviewed |
-| M006715 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsSecGeneric` | volunteer-build-reviewed |
-| M006716 | P0550 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsSmulOfPreservesFrameOrbits` | volunteer-build-reviewed |
-| M006717 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTateIsoZetaEq` | volunteer-build-reviewed |
-| M006718 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTensorBundle` | volunteer-build-reviewed |

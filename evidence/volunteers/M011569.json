@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M011569"
+  ],
+  "started_utc": "2026-11-21T14:20:48.767464+00:00",
+  "ended_utc": "2026-11-21T14:21:04.639557+00:00",
+  "elapsed_seconds": 15.9,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6871228
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.StandardOrderSymmInr:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "300f991d151fc3b4eaaf0ec55ffb55fc47b768a3374f57e0b9974a527206f8a0",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.FramePositiveSum",
+    "Development.AbelianVarietyTheory.Definitions.LatticeFrames.OnesRepresent"
+  ],
+  "objects": {
+    "M011569": "742c1b8c0a6b87fb391ea4412f03c040150b9b6ccbecb647724c167084b5866c"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "323f67bb415dad97f5f1f63882f7736d677dcda967cba2f390aab3cc43849631",
+  "packet": "M011569",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22610#issuecomment-7064016959",
+  "reviewed_utc": "2026-11-21T17:32:40.030970+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

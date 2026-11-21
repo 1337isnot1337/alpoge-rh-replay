@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M069846"
+  ],
+  "started_utc": "2026-11-21T14:25:22.023681+00:00",
+  "ended_utc": "2026-11-21T14:25:36.749449+00:00",
+  "elapsed_seconds": 14.7,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6976852
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsSurjectiveOfIsCplAt:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4e37e396daa1cae36273a2e0227e104411575f29d64a3931d66813fef1fb1fa9",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsUniqueAlgEquivOfCompatibleQuotient"
+  ],
+  "objects": {
+    "M069846": "3442c06e8e6d7b5be87ab0f775a5fec4bd1bbc3fa861fe6f24fd6cd70d54b4a4"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "dc5bf4397d7baffc5a905e8aa0192240551255b6a15f1f2eb52836996d528482",
+  "packet": "M069846",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22595#issuecomment-7064076083",
+  "reviewed_utc": "2026-11-21T17:32:47.305524+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

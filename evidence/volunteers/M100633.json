@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M100633"
+  ],
+  "started_utc": "2026-11-21T13:49:53.276591+00:00",
+  "ended_utc": "2026-11-21T13:50:29.816406+00:00",
+  "elapsed_seconds": 36.5,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7155792
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms\u2082.ExistsSteinberg:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "49ee22283e5fb3d24887a94091c0e1be124f4f45c35232c7002c3bafd842fbc4",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.Mono0OfLpDimEqOne"
+  ],
+  "objects": {
+    "M100633": "84a5bae02101eb340b0c560dd08eb5d3c44d41a6ab9ace1615e53dbf36c266b6"
+  },
+  "bundle_sha256": "2e054c210e8c2210cd1e909f6398a44897ce37cc79792092d98f9b4977e631c1",
+  "packet": "M100633",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22360#issuecomment-7063646359",
+  "reviewed_utc": "2026-11-21T17:35:29.868134+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

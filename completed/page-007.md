@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004454 | P0678 | `Development.AbelianVarietyTheory.Definitions.Jets.WigMap` | build-observed |
+| M004455 | P0003 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.DegProd` | wave-reused |
+| M004456 | P0865 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.GeomIntSelf` | build-observed |
+| M004457 | P0731 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.IsSquareDeterminantComparison` | wave-reused |
+| M004458 | P0731 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.KaRuleK` | wave-reused |
+| M004459 | P0393 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.KeyRootOfKeyFormula` | volunteer-build-reviewed |
+| M004460 | P0582 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.KeyRuleOneOfKeyFormula` | wave-reused |
+| M004461 | P0758 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.LevBasis` | wave-reused |
+| M004464 | P0435 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.AllPositions` | build-observed |
+| M004465 | P2093 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.AmbIsTrueOfAmbTrue` | volunteer-build-reviewed |
+| M004466 | P1956 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.BaseMatrixGlApply` | volunteer-build-reviewed |
+| M004469 | P1920 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.BuiltCols` | volunteer-build-reviewed |
 | M004471 | P1643 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ChainParSucc` | volunteer-build-reviewed |
 | M004474 | P1974 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ChartZero` | volunteer-build-reviewed |
 | M004475 | P1114 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ColHeightSharpWith` | volunteer-build-reviewed |
@@ -371,6 +383,7 @@
 | M005116 | P0239 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.HasConductorMulShift` | volunteer-build-reviewed |
 | M005119 | P0731 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsAdmOnOfFiniteDimensional` | volunteer-build-reviewed |
 | M005120 | P1531 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsAuxiliaryVectorWittDec` | volunteer-build-reviewed |
+| M005122 | P1444 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsHermitianAuxiliaryVectorSystemBesselVectors` | volunteer-build-reviewed |
 | M005124 | P1761 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsPointedOfIsHkIsog` | build-observed |
 | M005126 | P1245 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsStepWeil` | build-observed |
 | M005127 | P0174 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsSubquotientDetRepParInd` | volunteer-build-reviewed |
@@ -384,21 +397,8 @@
 | M005143 | P1299 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.PartW` | volunteer-build-reviewed |
 | M005145 | P0758 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ProjExists` | volunteer-build-reviewed |
 | M005147 | P1395 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.SqNormIntegralFundamentalDomainEqL2NormSq` | volunteer-build-reviewed |
+| M005148 | P0295 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.StandardOrderExtendedBasisApplyLowBlock` | volunteer-build-reviewed |
 | M005151 | P1350 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.TupPrimeEmpty` | volunteer-build-reviewed |
 | M005152 | P1974 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.TwistPlacesOffPrimeQZero` | volunteer-build-reviewed |
 | M005153 | P0347 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.TypeChainPrincipalEntryNeZero` | volunteer-build-reviewed |
 | M005155 | P0239 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ValuationDetOfMemKO` | build-observed |
-| M005159 | P1350 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.WittHyperbolicAnisotropicCommuteLevi` | build-observed |
-| M005162 | P0891 | `Development.AbelianVarietyTheory.Definitions.TwoChartAtlas.AdditionLawSecondIdentity` | build-observed |
-| M005163 | P0810 | `Development.AbelianVarietyTheory.Definitions.TwoChartAtlas.TwoChartSt` | wave-reused |
-| M005164 | P0918 | `Development.AbelianVarietyTheory.Definitions.Uniformization.AllDV` | build-observed |
-| M005165 | P1084 | `Development.AbelianVarietyTheory.Definitions.Uniformization.ExistsInKNeOne` | wave-reused |
-| M005166 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.ExistsUniqueSamePt` | wave-reused |
-| M005168 | P0758 | `Development.AbelianVarietyTheory.Definitions.Uniformization.ExistsUniqueTorusCompat` | wave-reused |
-| M005169 | P0810 | `Development.AbelianVarietyTheory.Definitions.Uniformization.FinrankComplexReal` | wave-reused |
-| M005171 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.IsCPPullback` | build-observed |
-| M005173 | P0918 | `Development.AbelianVarietyTheory.Definitions.Uniformization.NotExistsEvenTwistSymOne` | volunteer-build-reviewed |
-| M005174 | P0891 | `Development.AbelianVarietyTheory.Definitions.Uniformization.PointEqOfSubsingleton` | wave-reused |
-| M005175 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.PsiScal` | wave-reused |
-| M005176 | P1974 | `Development.AbelianVarietyTheory.Definitions.Uniformization.RankOneModel` | volunteer-build-reviewed |
-| M005177 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.SameB` | wave-reused |

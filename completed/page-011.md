@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006684 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsOActExtendDedekind` | volunteer-build-reviewed |
+| M006691 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPeriodPairOfLatticeInLine` | build-observed |
+| M006693 | P1057 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPolAVPullbackOfIsLocalRing` | volunteer-build-reviewed |
+| M006694 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPolarisedAbelianSchemeLieBasisInvariants` | volunteer-build-reviewed |
+| M006695 | P1246 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPolarisedAbelianSchemeLieBasisInvariantsStatement` | build-observed |
+| M006697 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPolarisedAbelianSchemePowerStatement` | volunteer-build-reviewed |
+| M006699 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPosKeyArchAt` | volunteer-build-reviewed |
+| M006704 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsProdPolAV` | volunteer-build-reviewed |
+| M006706 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPullback` | volunteer-build-reviewed |
+| M006708 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPureVectorsPeriodsSpan` | volunteer-build-reviewed |
+| M006715 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsSecGeneric` | volunteer-build-reviewed |
+| M006716 | P0550 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsSmulOfPreservesFrameOrbits` | volunteer-build-reviewed |
+| M006717 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTateIsoZetaEq` | volunteer-build-reviewed |
+| M006718 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTensorBundle` | volunteer-build-reviewed |
 | M006723 | P0811 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTorsionFieldExt` | volunteer-build-reviewed |
 | M006724 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTorsionFieldExtStatement` | volunteer-build-reviewed |
 | M006734 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueExtendRingOfIntegersHom` | volunteer-build-reviewed |
@@ -286,6 +300,7 @@
 | M007345 | P1324 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.IsotropicSumIndependentOfChoicesLocal` | build-observed |
 | M007346 | P1350 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.IsotropicSumIndependentOfChoicesLocalStatement` | build-observed |
 | M007349 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.JetReadingLinearSubstitutionPointsStatement` | volunteer-build-reviewed |
+| M007352 | P0099 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.L1NormRowBlockLeadingMinorProductLe` | volunteer-build-reviewed |
 | M007353 | P0516 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.L2CanThEqInvSqrtTwoPowMulDetIm` | build-observed |
 | M007361 | P1856 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LevelCoverLargerCoeffFieldLyingOverStatement` | volunteer-build-reviewed |
 | M007364 | P0099 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.LevelThreeSeparatesTangents` | volunteer-build-reviewed |
@@ -308,6 +323,8 @@
 | M007410 | P0296 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.NormProdSignMulDetSubmatrixSubOneLe` | wave-reused |
 | M007420 | P0436 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.NsmulApplyMemOfMemTensorLat` | wave-reused |
 | M007423 | P1002 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.PageRelationDegThree` | volunteer-build-reviewed |
+| M007424 | P1532 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.PageRowsOfLe` | volunteer-build-reviewed |
+| M007425 | P1532 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.PageTwoLeLAndSigns` | volunteer-build-reviewed |
 | M007433 | P0946 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.PolyDerivProdColumnFunctions` | build-observed |
 | M007434 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.PolyDerivProdColumnFunctionsStatement` | volunteer-build-reviewed |
 | M007440 | P1057 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ProjAEqSumReps` | volunteer-build-reviewed |
@@ -385,20 +402,3 @@
 | M007597 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdditiveCharacterOneNe` | volunteer-build-reviewed |
 | M007615 | P1473 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicPointComponentsAtPlacesLatticesVacua` | volunteer-build-reviewed |
 | M007616 | P1502 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicPointComponentsAtPlacesLatticesVacuaStatement` | volunteer-build-reviewed |
-| M007617 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicPointNearCuspScale` | volunteer-build-reviewed |
-| M007618 | P1616 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicPointNearCuspScaleStatement` | build-observed |
-| M007619 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicSchwartzSlicePolynomialGaussianOfAnnihilat` | volunteer-build-reviewed |
-| M007620 | P1856 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicSchwartzSlicePolynomialGaussianOfAnnihilatStatement` | volunteer-build-reviewed |
-| M007621 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicTranslateOneEqStandardLattice` | volunteer-build-reviewed |
-| M007623 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicTranslateStandardLatticeIsSelfDual` | volunteer-build-reviewed |
-| M007625 | P1643 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicUnitaryEveryPointHasCuspScale` | build-observed |
-| M007626 | P1665 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicUnitaryEveryPointHasCuspScaleStatement` | build-observed |
-| M007627 | P1956 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicUnitaryRealMulFiniteDecomposition` | volunteer-build-reviewed |
-| M007628 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicUnitaryRealMulFiniteDecompositionStatement` | volunteer-build-reviewed |
-| M007629 | P0005 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdicCompletionValuationMapUniformiser` | volunteer-build-reviewed |
-| M007630 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdicCompletionValuationMapUniformiserStatement` | volunteer-build-reviewed |
-| M007631 | P0811 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdjoinRangeGLEqTopMatrix` | build-observed |
-| M007632 | P0839 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdjoinRangeGLEqTopMatrixStatement` | build-observed |
-| M007633 | P0811 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdjoinUnitaryGroupHermitianLocalEqTop` | build-observed |
-| M007634 | P0839 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdjoinUnitaryGroupHermitianLocalEqTopStatement` | build-observed |
-| M007642 | P2133 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AllTrueFamilyGeometry` | volunteer-build-reviewed |

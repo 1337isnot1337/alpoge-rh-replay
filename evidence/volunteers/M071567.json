@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M071567"
+  ],
+  "started_utc": "2026-11-21T13:55:30.522347+00:00",
+  "ended_utc": "2026-11-21T13:55:40.572258+00:00",
+  "elapsed_seconds": 10.0,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6866492
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsFullLatticeOverUnramifiedExtIff:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "63a023f93274a7ae3e6f00e8717c21258012ac2443c57b73a3075e9a54589eb0",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntegerSpanningFamilyOfUnramifiedExtStatement"
+  ],
+  "objects": {
+    "M071567": "7bc9d9d204ba444f80b5e5ae21b5ca7d7f6a4c5a1d701748376b7c694cceeb31"
+  },
+  "bundle_sha256": "543916e62dbb888b199800f78699f2b861b6acd6dbeb53e165a9c8d14661d55e",
+  "packet": "M071567",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22405#issuecomment-7063688590",
+  "reviewed_utc": "2026-11-21T17:34:57.308682+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

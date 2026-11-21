@@ -12,6 +12,8 @@
 | M000793 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicTupleLocalGlobalPropertiesStatement` | volunteer-build-reviewed |
 | M000794 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicTupleProjections` | volunteer-build-reviewed |
 | M000795 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicTupleProjectionsStatement` | volunteer-build-reviewed |
+| M000796 | P0435 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicUnitaryFiniteSetDecomposition` | volunteer-build-reviewed |
+| M000797 | P0475 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicUnitaryFiniteSetDecompositionStatement` | volunteer-build-reviewed |
 | M000798 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicUnitaryGroupLocallyCompact` | volunteer-build-reviewed |
 | M000799 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicUnitaryGroupLocallyCompactStatement` | volunteer-build-reviewed |
 | M000800 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicUnitaryGroupProjections` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M001339 | P1084 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WittExtensionArtinianRingStatement` | build-observed |
 | M001340 | P1028 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WittExtensionDiagonalGramTuples` | build-observed |
 | M001343 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WittExtensionGlobalStatement` | volunteer-build-reviewed |
-| M001374 | P2554 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ContactSetSpansOfPosDefStatement` | volunteer-build-reviewed |
-| M001376 | P2594 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.EqOfOrbitMarkInCellConeStatement` | volunteer-build-reviewed |

@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M002736"
+  ],
+  "started_utc": "2026-11-21T14:18:45.300721+00:00",
+  "ended_utc": "2026-11-21T14:19:08.889834+00:00",
+  "elapsed_seconds": 23.6,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6987248
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SatakeTrivialRangeBound:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a5be0a371667dfc4e7c93ddc76436d55f554b527acdc2daf8322a4db92c59c85",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsSubquotientDetRepParInd",
+    "Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.LeviEmbMemNormalizerLower"
+  ],
+  "objects": {
+    "M002736": "a7c0002e902fb07ca8f424d31661baf1dc203ec8c0e0c1d2b51b6f72a5e0960d"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "9668062dee73fab7646962abcae879ca5c2506c4e37623f5c65b3ed8daa09bc0",
+  "packet": "M002736",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22601#issuecomment-7063993344",
+  "reviewed_utc": "2026-11-21T17:32:44.717727+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

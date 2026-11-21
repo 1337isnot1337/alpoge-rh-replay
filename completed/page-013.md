@@ -2,6 +2,25 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M008614 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHaarFinitePointsFourierJacobiBesselStatement` | volunteer-build-reviewed |
+| M008617 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHeightDoublingEmbeddingLePowMulHeights` | volunteer-build-reviewed |
+| M008618 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHeightDoublingEmbeddingLePowMulHeightsStatement` | volunteer-build-reviewed |
+| M008619 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHeisenbergAverageCompactSymplecticTrivial` | volunteer-build-reviewed |
+| M008620 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHeisenbergAverageCompactSymplecticTrivialStatement` | volunteer-build-reviewed |
+| M008621 | P1813 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHeisenbergCombinationSplitPlaceDatum` | volunteer-build-reviewed |
+| M008622 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHeisenbergCombinationSplitPlaceDatumStatement` | volunteer-build-reviewed |
+| M008623 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHermIsUnitGeneric` | volunteer-build-reviewed |
+| M008625 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHermitianDetNeZeroTwoStatement` | volunteer-build-reviewed |
+| M008626 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHermitianLineVectorPrescribedNorm` | volunteer-build-reviewed |
+| M008627 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHermitianLineVectorPrescribedNormStatement` | volunteer-build-reviewed |
+| M008628 | P0784 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHomotheticPeriodPairLattice` | build-observed |
+| M008629 | P0811 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHomotheticPeriodPairLatticeStatement` | build-observed |
+| M008630 | P0839 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHondaTypeEvenFrobeniusPowers` | build-observed |
+| M008631 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHondaTypeEvenFrobeniusPowersStatement` | volunteer-build-reviewed |
+| M008632 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHypDec` | volunteer-build-reviewed |
+| M008633 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsIdeleChangeFinitelyManySplitPlaces` | volunteer-build-reviewed |
+| M008634 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsIdeleChangeFinitelyManySplitPlacesStatement` | volunteer-build-reviewed |
+| M008636 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsIdeleTraceZeroNormAdjustRealComponentsStatement` | volunteer-build-reviewed |
 | M008639 | P2093 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsIndexZeroLevelElementGivenReductionAtPlaceStatement` | volunteer-build-reviewed |
 | M008640 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsInjectiveModel` | volunteer-build-reviewed |
 | M008642 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsInnerProductSmoothVectorsTensorStatement` | volunteer-build-reviewed |
@@ -383,22 +402,3 @@
 | M009176 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatThetaIntegrandLocallyUniformMajorantStatement` | volunteer-build-reviewed |
 | M009177 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatThetaMapsConvergeThetaFunctions` | volunteer-build-reviewed |
 | M009178 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatThetaMapsConvergeThetaFunctionsStatement` | volunteer-build-reviewed |
-| M009179 | P1473 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatThetaMapsPreserveThetaFunctions` | volunteer-build-reviewed |
-| M009180 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatThetaMapsPreserveThetaFunctionsStatement` | volunteer-build-reviewed |
-| M009182 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FockCoefficientEqConstMulLowestKTypeCoefficient` | volunteer-build-reviewed |
-| M009183 | P2050 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FockCoefficientEqConstMulLowestKTypeCoefficientStatement` | volunteer-build-reviewed |
-| M009184 | P1956 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FockCoefficientRealPlaceTwoVacua` | volunteer-build-reviewed |
-| M009185 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FockCoefficientRealPlaceTwoVacuaStatement` | volunteer-build-reviewed |
-| M009187 | P2093 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FockMatrixCoefficientSplitsRealFiniteFactorsStatement` | volunteer-build-reviewed |
-| M009189 | P1666 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FockOfVacStatement` | volunteer-build-reviewed |
-| M009190 | P1666 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FockOperatorsDistinctRealPlacesCommuteTheta` | volunteer-build-reviewed |
-| M009191 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FockOperatorsDistinctRealPlacesCommuteThetaStatement` | volunteer-build-reviewed |
-| M009192 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FockPartitionRowsNumericDatumMemIcc` | volunteer-build-reviewed |
-| M009193 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FockPartitionRowsNumericDatumMemIccStatement` | volunteer-build-reviewed |
-| M009194 | P1956 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FockPolynomialJetValueEqJetLinearFormRescaled` | volunteer-build-reviewed |
-| M009195 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FockPolynomialJetValueEqJetLinearFormRescaledStatement` | volunteer-build-reviewed |
-| M009196 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FockPolynomialSchwartzKilledByLongAnnihilation` | volunteer-build-reviewed |
-| M009197 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FockPolynomialSchwartzKilledByLongAnnihilationStatement` | volunteer-build-reviewed |
-| M009198 | P1666 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FockSignTransposeExchangesLocalGlActions` | volunteer-build-reviewed |
-| M009199 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FockSignTransposeExchangesLocalGlActionsStatement` | volunteer-build-reviewed |
-| M009200 | P1057 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FockSubstitutionIdentities` | volunteer-build-reviewed |

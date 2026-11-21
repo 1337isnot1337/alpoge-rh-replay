@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M000796"
+  ],
+  "started_utc": "2026-11-21T13:57:39.438542+00:00",
+  "ended_utc": "2026-11-21T13:57:51.240327+00:00",
+  "elapsed_seconds": 11.8,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6894680
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicUnitaryFiniteSetDecomposition:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e149e51f3d1e8ad956ceea502c2742b49db43aea88bfd04209b6ca3bb37bb9dd",
+  "rebuilt_project_modules": [
+    "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.BlockOneDetHermitianGram",
+    "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LatticeStableAlmostEverywhere"
+  ],
+  "objects": {
+    "M000796": "72acdab12e3c9b7958645acb74b5f64cdaca38259d94949d2c77374029bf8576"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "b4b1b38ec7006cd9ebecb34066f30c328d66e5c20efb0f18c9dcd3a896c0ae3b",
+  "packet": "M000796",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22449#issuecomment-7063721467",
+  "reviewed_utc": "2026-11-21T17:34:23.578202+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

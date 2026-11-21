@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M094117"
+  ],
+  "started_utc": "2026-11-21T14:26:52.007762+00:00",
+  "ended_utc": "2026-11-21T14:27:01.765099+00:00",
+  "elapsed_seconds": 9.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6855424
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.FlatTensorMovedTensorFinsetSumLinearStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6c532c9c810af4fd6a01ba21ef25bce33ebc78f76d804ab8ceae51a147c11f01",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.FlatTensorMovedTensorFinsetSumLinear"
+  ],
+  "objects": {
+    "M094117": "99070be0b25a8cdf8e88f8a76bc9377dab4976230859d77c680e1edf63560314"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "51f0b9390bce41137e912d251d1be321eb0400c2485999426847ccde31f1b991",
+  "packet": "M094117",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22608#issuecomment-7064096296",
+  "reviewed_utc": "2026-11-21T17:32:40.011855+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

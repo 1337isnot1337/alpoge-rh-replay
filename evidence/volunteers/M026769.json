@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M026769"
+  ],
+  "started_utc": "2026-11-21T14:21:42.653951+00:00",
+  "ended_utc": "2026-11-21T14:22:00.175858+00:00",
+  "elapsed_seconds": 17.5,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6903704
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsKOOfDet:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "42d7d25653f2a84baf573b47b2dfb1a763adc584d13e7ea25cbcb9a43529f494",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.IwasawaBlockTriangular",
+    "Formalism.LocalToGlobal.ProjectiveLattices.ExistsOfValILeOne"
+  ],
+  "objects": {
+    "M026769": "bb2c65794117b2828f786f6cda48517b30981e7820be7f555a92a0360516d2f2"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "a2606912a2b734ebfa2f447ae00aff5886ac3dbd7ec0ecef3548e8ff961cc365",
+  "packet": "M026769",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22612#issuecomment-7064028238",
+  "reviewed_utc": "2026-11-21T17:32:39.376141+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

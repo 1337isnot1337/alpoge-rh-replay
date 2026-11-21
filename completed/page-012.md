@@ -2,6 +2,24 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M007617 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicPointNearCuspScale` | volunteer-build-reviewed |
+| M007618 | P1616 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicPointNearCuspScaleStatement` | build-observed |
+| M007619 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicSchwartzSlicePolynomialGaussianOfAnnihilat` | volunteer-build-reviewed |
+| M007620 | P1856 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicSchwartzSlicePolynomialGaussianOfAnnihilatStatement` | volunteer-build-reviewed |
+| M007621 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicTranslateOneEqStandardLattice` | volunteer-build-reviewed |
+| M007623 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicTranslateStandardLatticeIsSelfDual` | volunteer-build-reviewed |
+| M007625 | P1643 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicUnitaryEveryPointHasCuspScale` | build-observed |
+| M007626 | P1665 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicUnitaryEveryPointHasCuspScaleStatement` | build-observed |
+| M007627 | P1956 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicUnitaryRealMulFiniteDecomposition` | volunteer-build-reviewed |
+| M007628 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdelicUnitaryRealMulFiniteDecompositionStatement` | volunteer-build-reviewed |
+| M007629 | P0005 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdicCompletionValuationMapUniformiser` | volunteer-build-reviewed |
+| M007630 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdicCompletionValuationMapUniformiserStatement` | volunteer-build-reviewed |
+| M007631 | P0811 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdjoinRangeGLEqTopMatrix` | build-observed |
+| M007632 | P0839 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdjoinRangeGLEqTopMatrixStatement` | build-observed |
+| M007633 | P0811 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdjoinUnitaryGroupHermitianLocalEqTop` | build-observed |
+| M007634 | P0839 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdjoinUnitaryGroupHermitianLocalEqTopStatement` | build-observed |
+| M007638 | P1993 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AlVEmbHEqNegOneZpow` | volunteer-build-reviewed |
+| M007642 | P2133 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AllTrueFamilyGeometry` | volunteer-build-reviewed |
 | M007645 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AllTrueFamilyGeometryStatement` | volunteer-build-reviewed |
 | M007646 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AltENsmulLeft` | volunteer-build-reviewed |
 | M007650 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AmplitudeBoundsAtParametersOfAdmittedBoundsStatement` | volunteer-build-reviewed |
@@ -229,6 +247,7 @@
 | M008291 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DoubleThetaLiftValueInvariantMiddleGL` | volunteer-build-reviewed |
 | M008301 | P2177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DoubleUnfoldingStepAtGluedFinitePlaceStatement` | volunteer-build-reviewed |
 | M008302 | P1736 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DoubledBasisSkewColumnMatrixGramInverse` | volunteer-build-reviewed |
+| M008303 | P1761 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DoubledBasisSkewColumnMatrixGramInverseStatement` | volunteer-build-reviewed |
 | M008308 | P1736 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DoubledFlatSectionEqTranslateStandardSection` | volunteer-build-reviewed |
 | M008312 | P1956 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DoubledLatticeHeightFunProperties` | volunteer-build-reviewed |
 | M008313 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DoubledLatticeHeightFunPropertiesStatement` | volunteer-build-reviewed |
@@ -383,22 +402,3 @@
 | M008609 | P1956 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHaarAdelicUnitaryProductRealFinite` | volunteer-build-reviewed |
 | M008610 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHaarAdelicUnitaryProductRealFiniteStatement` | volunteer-build-reviewed |
 | M008613 | P1956 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHaarFinitePointsFourierJacobiBessel` | volunteer-build-reviewed |
-| M008614 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHaarFinitePointsFourierJacobiBesselStatement` | volunteer-build-reviewed |
-| M008617 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHeightDoublingEmbeddingLePowMulHeights` | volunteer-build-reviewed |
-| M008618 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHeightDoublingEmbeddingLePowMulHeightsStatement` | volunteer-build-reviewed |
-| M008619 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHeisenbergAverageCompactSymplecticTrivial` | volunteer-build-reviewed |
-| M008620 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHeisenbergAverageCompactSymplecticTrivialStatement` | volunteer-build-reviewed |
-| M008621 | P1813 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHeisenbergCombinationSplitPlaceDatum` | volunteer-build-reviewed |
-| M008622 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHeisenbergCombinationSplitPlaceDatumStatement` | volunteer-build-reviewed |
-| M008623 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHermIsUnitGeneric` | volunteer-build-reviewed |
-| M008625 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHermitianDetNeZeroTwoStatement` | volunteer-build-reviewed |
-| M008626 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHermitianLineVectorPrescribedNorm` | volunteer-build-reviewed |
-| M008627 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHermitianLineVectorPrescribedNormStatement` | volunteer-build-reviewed |
-| M008628 | P0784 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHomotheticPeriodPairLattice` | build-observed |
-| M008629 | P0811 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHomotheticPeriodPairLatticeStatement` | build-observed |
-| M008630 | P0839 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHondaTypeEvenFrobeniusPowers` | build-observed |
-| M008631 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHondaTypeEvenFrobeniusPowersStatement` | volunteer-build-reviewed |
-| M008632 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsHypDec` | volunteer-build-reviewed |
-| M008633 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsIdeleChangeFinitelyManySplitPlaces` | volunteer-build-reviewed |
-| M008634 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsIdeleChangeFinitelyManySplitPlacesStatement` | volunteer-build-reviewed |
-| M008636 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsIdeleTraceZeroNormAdjustRealComponentsStatement` | volunteer-build-reviewed |

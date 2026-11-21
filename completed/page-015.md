@@ -2,6 +2,26 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M009699 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralIndicatorGivesLocalVacuumSplitPlace` | volunteer-build-reviewed |
+| M009700 | P1788 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralIndicatorGivesLocalVacuumSplitPlaceStatement` | volunteer-build-reviewed |
+| M009701 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralKernelLiftsFubiniSigmaFinite` | volunteer-build-reviewed |
+| M009702 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralKernelLiftsFubiniSigmaFiniteStatement` | volunteer-build-reviewed |
+| M009703 | P0296 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralLastFactorSliceMemSchwartzBruhat` | build-observed |
+| M009704 | P0348 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralLastFactorSliceMemSchwartzBruhatStatement` | build-observed |
+| M009705 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralMatrixSplitPlaceMemStdHomLattice` | volunteer-build-reviewed |
+| M009706 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralMatrixSplitPlaceMemStdHomLatticeStatement` | volunteer-build-reviewed |
+| M009707 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralNormSqMatrixCoefficientNeZeroDefinite` | volunteer-build-reviewed |
+| M009708 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralNormSqMatrixCoefficientNeZeroDefiniteStatement` | volunteer-build-reviewed |
+| M009711 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralOfKeepsSelfDualLatticeLineColon` | volunteer-build-reviewed |
+| M009712 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralOfKeepsSelfDualLatticeLineColonStatement` | volunteer-build-reviewed |
+| M009713 | P0918 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralPeriodicCompactSupportEqFiniteSum` | build-observed |
+| M009714 | P0946 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralPeriodicCompactSupportEqFiniteSumStatement` | build-observed |
+| M009715 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralQuotientEqIntegralFactorQuotient` | volunteer-build-reviewed |
+| M009716 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralQuotientEqIntegralFactorQuotientStatement` | volunteer-build-reviewed |
+| M009717 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralQuotientEqMeanIntermediateSubgroup` | volunteer-build-reviewed |
+| M009718 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralQuotientEqMeanIntermediateSubgroupStatement` | volunteer-build-reviewed |
+| M009719 | P1666 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralQuotientEqSetIntegralFundamentalDomain` | volunteer-build-reviewed |
+| M009720 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralQuotientEqSetIntegralFundamentalDomainStatement` | volunteer-build-reviewed |
 | M009721 | P1666 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralRealUnitaryHaarEqProdUpqHaar` | volunteer-build-reviewed |
 | M009722 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralRealUnitaryHaarEqProdUpqHaarStatement` | volunteer-build-reviewed |
 | M009723 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralSplitFinitePlaceFubini` | volunteer-build-reviewed |
@@ -144,6 +164,8 @@
 | M009906 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IsWeilDatumConjNegHermitianSpacesStatement` | volunteer-build-reviewed |
 | M009907 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IsolateAbstract` | volunteer-build-reviewed |
 | M009908 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IsolateAbstractStatement` | volunteer-build-reviewed |
+| M009909 | P0348 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IteratedDepthOneLevelCharOfOneRowFirstBlock` | volunteer-build-reviewed |
+| M009910 | P0394 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IteratedDepthOneLevelCharOfOneRowFirstBlockStatement` | volunteer-build-reviewed |
 | M009911 | P0918 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IteratedDepthOneLevelCharacterClosedForm` | volunteer-build-reviewed |
 | M009912 | P0946 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IteratedDepthOneLevelCharacterClosedFormStatement` | build-observed |
 | M009913 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IteratedGainRapidDecay` | build-observed |
@@ -380,25 +402,3 @@
 | M010220 | P0616 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearMapKillingPartialEvalIntegralKernelTranslaStatement` | build-observed |
 | M010221 | P0583 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearMapKillsPartialEvalIntegralKernelOfLaws` | build-observed |
 | M010222 | P0616 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearMapKillsPartialEvalIntegralKernelOfLawsStatement` | build-observed |
-| M010227 | P1957 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearModelTwistPlaceInThetaFunctions` | volunteer-build-reviewed |
-| M010228 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinearModelTwistPlaceInThetaFunctionsStatement` | volunteer-build-reviewed |
-| M010231 | P1957 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinkLawIffPeriodLinkQuasi` | volunteer-build-reviewed |
-| M010232 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinkZeroOfChartZero` | volunteer-build-reviewed |
-| M010233 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LinkZeroOfChartZeroStatement` | volunteer-build-reviewed |
-| M010234 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LintegralBesselGroupHaarEqConstMulProd` | volunteer-build-reviewed |
-| M010236 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LintegralBesselGroupUnfoldFundamentalDomain` | volunteer-build-reviewed |
-| M010238 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LintegralUnfoldSumTransitiveOrbit` | volunteer-build-reviewed |
-| M010239 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LintegralUnfoldSumTransitiveOrbitStatement` | volunteer-build-reviewed |
-| M010240 | P2133 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ListConvolutionDistinctPlacesSupportedAndComposi` | volunteer-build-reviewed |
-| M010241 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ListConvolutionDistinctPlacesSupportedAndComposiStatement` | volunteer-build-reviewed |
-| M010243 | P2133 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LiveChartsKernelEqClassSumJets` | volunteer-build-reviewed |
-| M010244 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LiveChartsKernelEqClassSumJetsStatement` | volunteer-build-reviewed |
-| M010247 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocK` | volunteer-build-reviewed |
-| M010250 | P2177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocalBimodelTranslationStatement` | volunteer-build-reviewed |
-| M010251 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocalCharacterConductorOneExists` | volunteer-build-reviewed |
-| M010252 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocalCharacterConductorOneExistsStatement` | volunteer-build-reviewed |
-| M010253 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocalCombinationsComposeFinitelyManyPlaces` | volunteer-build-reviewed |
-| M010254 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocalCombinationsComposeFinitelyManyPlacesStatement` | volunteer-build-reviewed |
-| M010255 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocalComponentAtSplitPlace` | volunteer-build-reviewed |
-| M010256 | P2093 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocalComponentAtSplitPlaceStatement` | volunteer-build-reviewed |
-| M010257 | P2133 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LocalComponentIntegralOfFiniteMatrixIntegral` | volunteer-build-reviewed |

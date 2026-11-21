@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002197 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ThetaKernelFiring` | volunteer-build-reviewed |
+| M002200 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ToricSymbols` | wave-reused |
 | M002201 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TraceDualDifferent` | wave-reused |
 | M002203 | P0838 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TwistChoiceExample` | volunteer-build-reviewed |
 | M002204 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TwistedLevelValues` | volunteer-build-reviewed |
@@ -187,10 +189,12 @@
 | M002504 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.UnitriangularCharts` | wave-reused |
 | M002507 | P1472 | `Development.AbelianVarietyTheory.BlockTheory.SiegelEisenstein.ConjugacyTypeUnfolding` | volunteer-build-reviewed |
 | M002509 | P1501 | `Development.AbelianVarietyTheory.BlockTheory.SiegelEisenstein.DoubledUnramifiedFrames` | volunteer-build-reviewed |
+| M002511 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.SiegelEisenstein.FlatOmegaSeries` | volunteer-build-reviewed |
 | M002513 | P1419 | `Development.AbelianVarietyTheory.BlockTheory.SiegelEisenstein.GramMatrixAdjoint` | volunteer-build-reviewed |
 | M002514 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.SiegelEisenstein.LocalOrderMatrix` | volunteer-build-reviewed |
 | M002515 | P1472 | `Development.AbelianVarietyTheory.BlockTheory.SiegelEisenstein.ModelFrames` | volunteer-build-reviewed |
 | M002517 | P1472 | `Development.AbelianVarietyTheory.BlockTheory.SiegelEisenstein.SeeSawFourier` | volunteer-build-reviewed |
+| M002519 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.SiegelEisenstein.SymmetricPatternGroup` | volunteer-build-reviewed |
 | M002522 | P1472 | `Development.AbelianVarietyTheory.BlockTheory.SiegelEisenstein.WeightedNormColumns` | volunteer-build-reviewed |
 | M002524 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.AutomorphicBallCount` | volunteer-build-reviewed |
 | M002525 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.CenteredPerpendicularSets` | volunteer-build-reviewed |
@@ -305,6 +309,7 @@
 | M002710 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.MinorOrderedEntries` | volunteer-build-reviewed |
 | M002711 | P1394 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ModerateGrowthSchwartz` | build-observed |
 | M002713 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.NormalRepresentationLattice` | volunteer-build-reviewed |
+| M002714 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.OmegaColumnSlices` | volunteer-build-reviewed |
 | M002717 | P1419 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ParabolicLeviDecomposition` | volunteer-build-reviewed |
 | M002718 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ParameterTransferTypes` | volunteer-build-reviewed |
 | M002719 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.PartialLFunctionCharacter` | volunteer-build-reviewed |
@@ -318,6 +323,7 @@
 | M002728 | P1349 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.RationalHeckeScalars` | volunteer-build-reviewed |
 | M002729 | P1245 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.RationalRowTestKernel` | volunteer-build-reviewed |
 | M002730 | P1349 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.RayFieldTheta` | volunteer-build-reviewed |
+| M002736 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SatakeTrivialRangeBound` | volunteer-build-reviewed |
 | M002738 | P0838 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SelfReciprocalLocalField` | volunteer-build-reviewed |
 | M002739 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SemilinearExtensionBases` | volunteer-build-reviewed |
 | M002743 | P1323 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SphericalThetaInertPlace` | build-observed |
@@ -396,9 +402,3 @@
 | M002905 | P0238 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.TransvMemZGam` | build-observed |
 | M002906 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.VVAlgebraMapNonneg` | volunteer-build-reviewed |
 | M002907 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ZeroNotAdmissibleOfRankPos` | volunteer-build-reviewed |
-| M002909 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.CubeMapTripleProductUnique` | volunteer-build-reviewed |
-| M002912 | P0393 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.DominatesLiftUnique` | volunteer-build-reviewed |
-| M002913 | P0435 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.ExistsGoodLevel` | volunteer-build-reviewed |
-| M002915 | P0758 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.HeckeKerZero` | build-observed |
-| M002916 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.IsQProjOverOfIsProjOver` | build-observed |
-| M002917 | P0475 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.IsThetaFrameMulUnit` | volunteer-build-reviewed |

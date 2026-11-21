@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M007352"
+  ],
+  "started_utc": "2026-11-21T14:24:27.175716+00:00",
+  "ended_utc": "2026-11-21T14:26:05.136041+00:00",
+  "elapsed_seconds": 98.0,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 4919032
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.L1NormRowBlockLeadingMinorProductLe:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1c486a6624b470b9138ca268106d14b0317f60278014f49bda4a753c716a4e7f",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsWeightedHomogeneousOfMemOrbitSpan",
+    "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.SumFinsuppAntidiagProdPowDivMultiFactorial",
+    "Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.FormPerpVectorMemOfIntegral"
+  ],
+  "objects": {
+    "M007352": "b90c15e61124c7381ba60f7b345d5aaf16874847a1ac425baaf293bb7d5ee511"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "916ec8bc88aad170e249f8215e132f2296315bac555738d62212097df0513e82",
+  "packet": "M007352",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22658#issuecomment-7064086192",
+  "reviewed_utc": "2026-11-21T17:31:58.179490+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

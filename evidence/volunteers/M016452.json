@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M016452"
+  ],
+  "started_utc": "2026-11-21T13:49:53.284927+00:00",
+  "ended_utc": "2026-11-21T13:50:47.309901+00:00",
+  "elapsed_seconds": 54.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 8267300
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.BlockMatrixMulVecBasis:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0fb3d8a4ad8654f5ec21ba23eda4d4151bb1d48f8460f4f6ae9a076d350e5674",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LineToGAdDerivative",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatrixOneParameterGroupEqExpOfContinuous"
+  ],
+  "objects": {
+    "M016452": "b45f825db1e831ec287ebf6db7670f7a63b7d59850260b8e1ff5acddbf4a81d5"
+  },
+  "bundle_sha256": "ace423c324d0ff503440a97445d81cbb9153cf544da5597246b8d12eb9308658",
+  "packet": "M016452",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22361#issuecomment-7063648869",
+  "reviewed_utc": "2026-11-21T17:35:29.943894+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

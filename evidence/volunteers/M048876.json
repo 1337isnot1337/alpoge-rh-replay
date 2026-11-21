@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M048876"
+  ],
+  "started_utc": "2026-11-21T13:53:18.562446+00:00",
+  "ended_utc": "2026-11-21T13:53:28.267532+00:00",
+  "elapsed_seconds": 9.7,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6859852
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchroedingerOperatorHeisenbergInnerPreservingStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f90eb9db02715c0fb57fe98f2585398a766c4fa9dded9d1e2bbc965e0942dbad",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchroedingerOperatorHeisenbergInnerPreserving"
+  ],
+  "objects": {
+    "M048876": "2e3de5815747cff8eb328b564ab1a9e755a64dc3101c059d00b63c359a35eabe"
+  },
+  "bundle_sha256": "ec2ece6ef4c784a821e42d6370515f536bc0f524864b6ad03734fba406e7ccae",
+  "packet": "M048876",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22401#issuecomment-7063661653",
+  "reviewed_utc": "2026-11-21T17:35:02.534368+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

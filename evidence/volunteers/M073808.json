@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M073808"
+  ],
+  "started_utc": "2026-11-21T13:45:31.359961+00:00",
+  "ended_utc": "2026-11-21T13:46:12.294161+00:00",
+  "elapsed_seconds": 40.9,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7021504
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SchurEqJtDet:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "07c0a33c849f4962b7c5ef10f34a010902edbd1fc8c3505f05bee7b481c18b3b",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.IsAddHaarMeasureVolumeLie",
+    "Development.AbelianVarietyTheory.Definitions.Divisors.UnrOutside"
+  ],
+  "objects": {
+    "M073808": "5b41338cf3b1eebe36727d9c96c991807d399799e9d500a5fedcf9d028c9db70"
+  },
+  "bundle_sha256": "4bf958009a875ce40b3345044759e7f8a673bff4d455e3234a30e6c7a6df53b5",
+  "packet": "M073808",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22352#issuecomment-7063607511",
+  "reviewed_utc": "2026-11-21T17:35:39.758085+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

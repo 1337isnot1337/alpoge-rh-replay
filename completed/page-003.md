@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001374 | P2554 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ContactSetSpansOfPosDefStatement` | volunteer-build-reviewed |
+| M001376 | P2594 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.EqOfOrbitMarkInCellConeStatement` | volunteer-build-reviewed |
 | M001380 | P2417 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsBalancedFormsDominatingStatement` | volunteer-build-reviewed |
 | M001382 | P2474 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsCarrierDimensionLabelStatement` | volunteer-build-reviewed |
 | M001428 | P2359 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.MemRationalConeOfPerturbation` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M002194 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorNormBound` | volunteer-build-reviewed |
 | M002195 | P0838 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorPlaceNorm` | build-observed |
 | M002196 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorProductAction` | wave-reused |
-| M002197 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ThetaKernelFiring` | volunteer-build-reviewed |
-| M002200 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ToricSymbols` | wave-reused |

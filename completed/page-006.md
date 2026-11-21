@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M003713 | P2359 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsProjOverWeierstrass` | volunteer-build-reviewed |
+| M003714 | P1056 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsProperToroidalModelStructureMap` | volunteer-build-reviewed |
+| M003716 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsQuasiRegularSeqOfIsFreeGen` | wave-reused |
+| M003717 | P1372 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsQuasicoherentEigenQuot` | wave-reused |
+| M003718 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsRapidInf` | build-observed |
+| M003720 | P0917 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsRatioCover` | build-observed |
+| M003721 | P2554 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsRatioOfWeight` | volunteer-build-reviewed |
+| M003722 | P1787 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsRecTLocRecT` | volunteer-build-reviewed |
+| M003725 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsSimplicial` | volunteer-build-reviewed |
+| M003726 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsSmoothVector` | build-observed |
 | M003728 | P1559 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsSquareIntegrableIffMemL2` | volunteer-build-reviewed |
 | M003729 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsStrictlySemistableIff` | volunteer-build-reviewed |
 | M003730 | P1084 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsTamagawa` | volunteer-build-reviewed |
@@ -34,6 +44,7 @@
 | M003794 | P1372 | `Development.AbelianVarietyTheory.Definitions.Divisors.MemSmallSecTrivShift` | build-observed |
 | M003796 | P1245 | `Development.AbelianVarietyTheory.Definitions.Divisors.MemSubPtsCutBaseChangeIff` | wave-reused |
 | M003797 | P0515 | `Development.AbelianVarietyTheory.Definitions.Divisors.MemUQptsStarCIff` | build-observed |
+| M003798 | P0347 | `Development.AbelianVarietyTheory.Definitions.Divisors.MiddleNotMem` | volunteer-build-reviewed |
 | M003800 | P1394 | `Development.AbelianVarietyTheory.Definitions.Divisors.MinpolyIrreducibleNatDegreeOfRankOne` | volunteer-build-reviewed |
 | M003801 | P1143 | `Development.AbelianVarietyTheory.Definitions.Divisors.MirSet` | build-observed |
 | M003802 | P1901 | `Development.AbelianVarietyTheory.Definitions.Divisors.MoveArgsOneTranspose` | volunteer-build-reviewed |
@@ -107,6 +118,7 @@
 | M003939 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToSpanSingletonConstGenInjective` | wave-reused |
 | M003942 | P0784 | `Development.AbelianVarietyTheory.Definitions.Divisors.TorsTransport` | wave-reused |
 | M003944 | P0917 | `Development.AbelianVarietyTheory.Definitions.Divisors.TorsionTowersOfDivisibleGroup` | build-observed |
+| M003945 | P0705 | `Development.AbelianVarietyTheory.Definitions.Divisors.Torsor` | volunteer-build-reviewed |
 | M003946 | P1169 | `Development.AbelianVarietyTheory.Definitions.Divisors.TorusExt` | volunteer-build-reviewed |
 | M003948 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.TorusNoLeClassNoRankOne` | volunteer-build-reviewed |
 | M003950 | P1472 | `Development.AbelianVarietyTheory.Definitions.Divisors.Tpr` | volunteer-build-reviewed |
@@ -390,15 +402,3 @@
 | M004451 | P1084 | `Development.AbelianVarietyTheory.Definitions.Jets.SurjectiveAppTopSqCube` | wave-reused |
 | M004452 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.TauZero` | build-observed |
 | M004453 | P1193 | `Development.AbelianVarietyTheory.Definitions.Jets.TwoPlaces` | build-observed |
-| M004454 | P0678 | `Development.AbelianVarietyTheory.Definitions.Jets.WigMap` | build-observed |
-| M004455 | P0003 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.DegProd` | wave-reused |
-| M004456 | P0865 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.GeomIntSelf` | build-observed |
-| M004457 | P0731 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.IsSquareDeterminantComparison` | wave-reused |
-| M004458 | P0731 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.KaRuleK` | wave-reused |
-| M004459 | P0393 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.KeyRootOfKeyFormula` | volunteer-build-reviewed |
-| M004460 | P0582 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.KeyRuleOneOfKeyFormula` | wave-reused |
-| M004461 | P0758 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.LevBasis` | wave-reused |
-| M004464 | P0435 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.AllPositions` | build-observed |
-| M004465 | P2093 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.AmbIsTrueOfAmbTrue` | volunteer-build-reviewed |
-| M004466 | P1956 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.BaseMatrixGlApply` | volunteer-build-reviewed |
-| M004469 | P1920 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.BuiltCols` | volunteer-build-reviewed |

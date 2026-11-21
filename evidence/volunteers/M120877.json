@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M120877"
+  ],
+  "started_utc": "2026-11-21T14:13:18.017382+00:00",
+  "ended_utc": "2026-11-21T14:13:30.386308+00:00",
+  "elapsed_seconds": 12.4,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 6279012
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.AnalyticGermFiniteProjection:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "25cdf6c378b4d95f42b468151de5437737632ffd12797a8e0c1836509bf5fa8b",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGermFiniteProjection"
+  ],
+  "objects": {
+    "M120877": "817143d446ef6b2a407406a04e87396bcd06420ac6e62cd95ebc8423b4dd4448"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "b2d9b055d39fe863fb6f432ca6af6cff2abce0d551ac3edac396c868c538efcd",
+  "packet": "M120877",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22577#issuecomment-7063921789",
+  "reviewed_utc": "2026-11-21T17:33:01.922858+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}
