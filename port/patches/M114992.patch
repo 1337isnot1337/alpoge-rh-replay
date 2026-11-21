@@ -1,0 +1,14 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CapelliComplements/FirstLemmaA.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CapelliComplements/FirstLemmaA.lean
+@@ -13,9 +13,9 @@
+         (Polynomial.natDegree.{u_1} (Finset.prod.{u_2, u_1} s fun (i : ι) ↦ HPow.hPow.{u_1, 0, u_1} (v i) (d i)))
+         (Finset.sum.{u_2, 0} s fun (i : ι) ↦ d i))
+       (Eq.{u_1 + 1}
+-        (Polynomial.coeff.{u_1} (Finset.prod.{u_2, u_1} s fun (i : ι) ↦ HPow.hPow.{u_1, 0, u_1} (v i) (d i))
++        (AddMonoidAlgebra.coeff (Finset.prod.{u_2, u_1} s fun (i : ι) ↦ HPow.hPow.{u_1, 0, u_1} (v i) (d i))
+           (Finset.sum.{u_2, 0} s fun (i : ι) ↦ d i))
+-        (Finset.prod.{u_2, u_1} s fun (i : ι) ↦ HPow.hPow.{u_1, 0, u_1} (Polynomial.coeff.{u_1} (v i) 1) (d i))) := by
++        (Finset.prod.{u_2, u_1} s fun (i : ι) ↦ HPow.hPow.{u_1, 0, u_1} (AddMonoidAlgebra.coeff (v i) 1) (d i))) := by
+   intro B _ ι s v d hv
+   classical
+   induction s using Finset.induction_on with

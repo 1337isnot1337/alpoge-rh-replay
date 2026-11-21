@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CapelliComplements.FirstLemmaA",
+  "source_sha256": "a2e1f077534995977294f3eb1ae535ccef0f713d6eea632ca7111342f4bab623",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace the removed Polynomial.coeff name in goal1 with AddMonoidAlgebra.coeff, with universe arguments inferred. Original Polynomial.coeff extracts the coefficient of its underlying AddMonoidAlgebra; on the target Polynomial is an abbreviation for AddMonoidAlgebra R \u2115. Both occurrences still select exactly the same polynomial coefficient at exactly the same natural-number index. The theorem proposition is equivalent under this representation change; its proof is unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0047-lean436-20261121/packet-result.json"
+}

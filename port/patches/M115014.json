@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CardFiber",
+  "source_sha256": "63c661a86e82fef1af270b16194be504e37743b1cd422bc562c987c810c5cbc6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0047-lean436-20261121/packet-result.json"
+}
