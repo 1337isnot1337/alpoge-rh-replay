@@ -5,6 +5,8 @@ on:
     paths:
       - '.github/workflows/port-p0122-v2.yml'
       - 'scripts/port-packet-diagnostic.py'
+      - 'scripts/port-islattice-audit.py'
+      - 'port/islattice_audit.lean'
       - 'port/diagnostic-patches/**'
   workflow_dispatch:
 permissions:
@@ -129,6 +131,13 @@ jobs:
               command.extend(['--module', mid])
           raise SystemExit(subprocess.call(command))
           PY
+      - name: Audit every live module for reused IsLattice semantics
+        shell: bash
+        run: |
+          python3 scripts/port-islattice-audit.py \
+            --repo "$GITHUB_WORKSPACE" \
+            --workspace "$RUNNER_TEMP/port-p0122-v2-$PORT_PACKET" \
+            --evidence "port-p0122-v2-results/$PORT_PACKET"
       - name: Upload complete evidence, including failed attempts
         if: always()
         uses: actions/upload-artifact@v4
