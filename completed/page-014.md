@@ -2,6 +2,26 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M020184 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveBaseChangeTwoDistinctPointsOfFieldStatement` | volunteer-build-reviewed |
+| M020188 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveClassDegreeComputations` | build-observed |
+| M020189 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveClassDegreeComputationsStatement` | build-observed |
+| M020195 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveDegreeNonnegZmodFibreOfNefOnFiniteFieldFibrStatement` | volunteer-build-reviewed |
+| M020196 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveDegreeUnique` | wave-reused |
+| M020197 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveLieLatticeDegree` | wave-reused |
+| M020199 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveModelRationalDegreeStatement` | volunteer-build-reviewed |
+| M020201 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveSingularPointsFiniteStatement` | volunteer-build-reviewed |
+| M020218 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspFormConstantTermVanishesAltBis` | volunteer-build-reviewed |
+| M020221 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspFormEqZeroOfWhittakerVanishingStatement` | volunteer-build-reviewed |
+| M020225 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspFormGLSiegelConeDecayOneStep` | volunteer-build-reviewed |
+| M020283 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspFormsUniformlySmallOutsideCompactBand` | volunteer-build-reviewed |
+| M020301 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalCharacterFormula` | build-observed |
+| M020302 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalCharacterGLFiniteFieldEqOfModEq` | wave-reused |
+| M020303 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalCharacterGLFiniteFieldEqOfModEqStatement` | wave-reused |
+| M020304 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalCharacterGLFiniteFieldFrobeniusPow` | wave-reused |
+| M020305 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalCharacterGLFiniteFieldFrobeniusPowStatement` | wave-reused |
+| M020306 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalCharacterGLIsCharacterNormOneOfRegular` | wave-reused |
+| M020307 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalCharacterGLIsCharacterNormOneOfRegularStatement` | wave-reused |
+| M020315 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalHarishChandraFiniteFormBoundedDetNormBan` | volunteer-build-reviewed |
 | M020316 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalHarishChandraFiniteFormBoundedDetNormBanStatement` | volunteer-build-reviewed |
 | M020317 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalIdempotentCharacters` | build-observed |
 | M020339 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalScaleHermitianForm` | volunteer-build-reviewed |
@@ -364,6 +384,7 @@
 | M022569 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfCayleyTwoIZpowEqOneForall` | volunteer-build-reviewed |
 | M022583 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfFderivEqZero` | volunteer-build-reviewed |
 | M022592 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfForallResidueFieldFunctional` | volunteer-build-reviewed |
+| M022598 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfIntertwineOfIsCoprimeCharpoly` | volunteer-build-reviewed |
 | M022611 | P1645 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfMemWeakIn` | volunteer-build-reviewed |
 | M022613 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfNilpotentCommuteSeparableMinpolyStatement` | volunteer-build-reviewed |
 | M022615 | P1087 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfOddEllipticOfTendsto` | build-observed |
@@ -381,24 +402,3 @@
 | M022649 | P1172 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqualVolumeAndSlopeMeanStatement` | build-observed |
 | M022667 | P1275 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EquivOfStalkwiseBaseChange` | build-observed |
 | M022668 | P1301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EquivOfStalkwiseBaseChangeStatement` | build-observed |
-| M022669 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EquivalenceGeneratedTorusRel` | volunteer-build-reviewed |
-| M022688 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ErrorFunctionalCoefficientBounded` | build-observed |
-| M022689 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ErrorFunctionalCoefficientBoundedStatement` | build-observed |
-| M022691 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EssEtaleLocalLeOfDirected` | wave-reused |
-| M022692 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EssEtaleLocalLeOfDirectedStatement` | wave-reused |
-| M022696 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EssFiniteTypeOfLocalRingOfVarietyPointStatement` | volunteer-build-reviewed |
-| M022702 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EsymmMemVirtualCharactersOfPowerSumEigenvalues` | build-observed |
-| M022703 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EsymmMemVirtualCharactersOfPowerSumEigenvaluesStatement` | build-observed |
-| M022706 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EsymmPowTwelveDivDiscriminantMemSubring` | build-observed |
-| M022707 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EsymmPowTwelveDivDiscriminantMemSubringStatement` | build-observed |
-| M022708 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtChart` | volunteer-build-reviewed |
-| M022718 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaTildeHeckeCharSplitMulSignOfNormFormula` | volunteer-build-reviewed |
-| M022720 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaValuesCoefficientExists` | volunteer-build-reviewed |
-| M022721 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAdjoinBaseChangeImage` | wave-reused |
-| M022722 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAdjoinBaseChangeImageStatement` | wave-reused |
-| M022723 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAdjoinRootXPowSubC` | wave-reused |
-| M022724 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAtPrimeBaseChangeOfIntegralClosureEtale` | wave-reused |
-| M022725 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAtPrimeBaseChangeOfIntegralClosureEtaleStatement` | wave-reused |
-| M022726 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAtPrimeOfRegularOfIsIntegrallyClosedIn` | wave-reused |
-| M022727 | P0785 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAtPrimeOfRegularOfIsIntegrallyClosedInStatement` | wave-reused |
-| M022728 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAwayOfIsEtaleAtOffSubmonoid` | wave-reused |

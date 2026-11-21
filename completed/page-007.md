@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006112 | P0436 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsPrimitiveEndClassFunctionInvariantSubspaceMobiStatement` | wave-reused |
+| M006113 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsPrimitiveExtendZeroOfSumUnipotentRadical` | build-observed |
+| M006114 | P0296 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsPrimitiveExtendZeroOfSumUnipotentRadicalStatement` | build-observed |
+| M006116 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsUnitIffCharpolyCoeffZeroNe` | wave-reused |
+| M006117 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.KerAevalAddStabilizerNilradicalSocle` | wave-reused |
+| M006118 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.KerAevalAddStabilizerNilradicalSocleStatement` | wave-reused |
+| M006119 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.LinearMapShortExactCommute` | wave-reused |
+| M006120 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.LinearMapShortExactCommuteStatement` | wave-reused |
+| M006121 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MatrixTraceIffIsCharacterOverSubfieldComplex` | wave-reused |
+| M006122 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MatrixTraceIffIsCharacterOverSubfieldComplexStatement` | wave-reused |
+| M006123 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MemVirtualCharactersIffSubCharacters` | wave-reused |
 | M006124 | P0296 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MemVirtualCharactersIffSubCharactersStatement` | wave-reused |
 | M006125 | P0394 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MemVirtualCharactersOfAbelianByPrimePower` | wave-reused |
 | M006126 | P0436 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MemVirtualCharactersOfAbelianByPrimePowerStatement` | wave-reused |
@@ -391,14 +402,3 @@
 | M006718 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTensorBundle` | volunteer-build-reviewed |
 | M006724 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTorsionFieldExtStatement` | volunteer-build-reviewed |
 | M006734 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueExtendRingOfIntegersHom` | volunteer-build-reviewed |
-| M006735 | P1246 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueHomOfIsGrpPullback` | build-observed |
-| M006736 | P0616 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueLinearLiftOfHolomorphicAbelianVariet` | wave-reused |
-| M006737 | P0649 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueLinearLiftOfHolomorphicAbelianVarietStatement` | build-observed |
-| M006740 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUnitMul` | wave-reused |
-| M006743 | P1114 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsWeierstrassCoordinatesOnLine` | build-observed |
-| M006744 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsWeierstrassCoordinatesOnLineStatement` | build-observed |
-| M006749 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.FinrankInt` | volunteer-build-reviewed |
-| M006754 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.GramStdBasisPosDefAndHq` | volunteer-build-reviewed |
-| M006756 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HasTypeBaseChange` | volunteer-build-reviewed |
-| M006757 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HasTypeOfIso` | volunteer-build-reviewed |
-| M006758 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HermFamIsometryInjective` | volunteer-build-reviewed |

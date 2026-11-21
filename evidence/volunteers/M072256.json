@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M072256"
+  ],
+  "started_utc": "2026-11-21T00:02:40.820021+00:00",
+  "ended_utc": "2026-11-21T00:02:46.629284+00:00",
+  "elapsed_seconds": 5.8,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 15912828,
+    "peak_child_rss_kib": 6790304
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LinearMapContinuousOfCompactSpaceOfFinite:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b9f084fe92c9ea9200e6b8dfa6d2d4d521f219bf0fc8e0c821329a82c708c8fe",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M072256": "6e7d76b8dc818f79ab8e58322d3cd8264c25e05cae1756a30921ee4871e502aa"
+  },
+  "bundle_sha256": "3b85a881665794cf5cce2b45885b758cae2ab4bf9a62d8a9ee02c1ed0ff5802b",
+  "packet": "M072256",
+  "contributor": "misuadn-laplace",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/7357#issuecomment-7053743976",
+  "reviewed_utc": "2026-11-21T00:10:12.820646+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M011664 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymLevelChainTestFunctionAddRowStatement` | volunteer-build-reviewed |
+| M011669 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymLevelTestFunctionsAgreeRationalPoints` | volunteer-build-reviewed |
+| M011670 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymLevelTestFunctionsAgreeRationalPointsStatement` | volunteer-build-reviewed |
+| M011672 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricChainOneCouplingCosetOfPatternStatement` | volunteer-build-reviewed |
+| M011674 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricChainOneLatticeClassStatement` | volunteer-build-reviewed |
+| M011676 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricChainProjectedLevelOfPatternStatement` | volunteer-build-reviewed |
+| M011678 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricChainSupportOneOfPatternStatement` | volunteer-build-reviewed |
+| M011685 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelChainOneIndexAtOfClassSupport` | volunteer-build-reviewed |
+| M011689 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelChainPhiSupportPeriodic` | volunteer-build-reviewed |
+| M011693 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelChainUnfoldedPositionExchange` | volunteer-build-reviewed |
+| M011695 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelCharacterAtRationalPoint` | volunteer-build-reviewed |
 | M011696 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelCharacterAtRationalPointStatement` | volunteer-build-reviewed |
 | M011703 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricUnipotentMemOfFlagBasisDual` | volunteer-build-reviewed |
 | M011705 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricUnipotentMemOfFlagCongruenceDual` | volunteer-build-reviewed |
@@ -206,7 +217,9 @@
 | M012923 | P1057 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFactorClosedImmersionDensePoints` | wave-reused |
 | M012924 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFactorClosedImmersionDensePointsStatement` | wave-reused |
 | M012928 | P0006 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFieldOfIsIntegralImage` | volunteer-build-reviewed |
+| M012932 | P1247 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFiniteDimensionalFieldDegenerationValues` | volunteer-build-reviewed |
 | M012937 | P0006 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFiniteNormalAdjoinAlgebraic` | volunteer-build-reviewed |
+| M012938 | P1273 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFiniteNormalAdjoinAlgebraicStatement` | volunteer-build-reviewed |
 | M012939 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFiniteNormalExtContainingAlgebraicElements` | volunteer-build-reviewed |
 | M012940 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFiniteNormalExtContainingAlgebraicElementsStatement` | volunteer-build-reviewed |
 | M012942 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFiniteSplitTorusExtensionOfTorusExtensionStatement` | volunteer-build-reviewed |
@@ -389,16 +402,3 @@
 | M013293 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymPmaps` | volunteer-build-reviewed |
 | M013297 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymmetricSpreadOutLineBundleAbelianSchemeStatement` | volunteer-build-reviewed |
 | M013300 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymplecticLevelBaseChangePolarisedAbelian` | volunteer-build-reviewed |
-| M013305 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTestMatch` | volunteer-build-reviewed |
-| M013306 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaBasisAfterEveryFieldExtension` | volunteer-build-reviewed |
-| M013307 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaBasisAfterEveryFieldExtensionStatement` | volunteer-build-reviewed |
-| M013308 | P1561 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaPointComplexDegenerationSmall` | build-observed |
-| M013309 | P1588 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaPointComplexDegenerationSmallStatement` | build-observed |
-| M013313 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaSectionNonzeroFibresLocalRingStatement` | volunteer-build-reviewed |
-| M013314 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaSectionNonzeroLocusSpecialFibreIff` | volunteer-build-reviewed |
-| M013316 | P1504 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaSystemGenusOne` | worker-kernel-checked |
-| M013319 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsThetaSystemOfPolarisedLevelStatement` | volunteer-build-reviewed |
-| M013322 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsToStkAUnit` | volunteer-build-reviewed |
-| M013327 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionLiftSpecialFibreOfGenericRational` | volunteer-build-reviewed |
-| M013328 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionLiftSpecialFibreOfGenericRationalStatement` | volunteer-build-reviewed |
-| M013329 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorsionMapOfThetaMatching` | volunteer-build-reviewed |

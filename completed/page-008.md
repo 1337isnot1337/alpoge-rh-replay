@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006735 | P1246 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueHomOfIsGrpPullback` | build-observed |
+| M006736 | P0616 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueLinearLiftOfHolomorphicAbelianVariet` | wave-reused |
+| M006737 | P0649 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueLinearLiftOfHolomorphicAbelianVarietStatement` | build-observed |
+| M006740 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUnitMul` | wave-reused |
+| M006743 | P1114 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsWeierstrassCoordinatesOnLine` | build-observed |
+| M006744 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsWeierstrassCoordinatesOnLineStatement` | build-observed |
+| M006749 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.FinrankInt` | volunteer-build-reviewed |
+| M006754 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.GramStdBasisPosDefAndHq` | volunteer-build-reviewed |
+| M006756 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HasTypeBaseChange` | volunteer-build-reviewed |
+| M006757 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HasTypeOfIso` | volunteer-build-reviewed |
+| M006758 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HermFamIsometryInjective` | volunteer-build-reviewed |
 | M006759 | P0616 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HermFormPrincipalDimOne` | build-observed |
 | M006760 | P0516 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HermFormPullEqOfLbIsoPow` | wave-reused |
 | M006766 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HolomorphicUniformisationTangentUnimodularRiemanStatement` | build-observed |
@@ -391,14 +402,3 @@
 | M008799 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsPowHeckeCharUnramifiedEverywhere` | volunteer-build-reviewed |
 | M008800 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsPowHeckeCharUnramifiedEverywhereStatement` | volunteer-build-reviewed |
 | M008807 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRationalAdelicPointOfUnitaryBaseSpaceStatement` | volunteer-build-reviewed |
-| M008813 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRationalOrbitPointEqBesselBasePointStatement` | volunteer-build-reviewed |
-| M008815 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRationalRepLevelDecompositionFiniteUnitaryStatement` | volunteer-build-reviewed |
-| M008816 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRationalWittFlagCoordinatesOfMemUnipotent` | volunteer-build-reviewed |
-| M008822 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRealDiscreteSeriesDataThetaPropertiesStatement` | volunteer-build-reviewed |
-| M008824 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRealIntertwinerNeZeroKFiniteTensorStatement` | volunteer-build-reviewed |
-| M008827 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRealPlacesIdempotentExtensionAdelesStatement` | volunteer-build-reviewed |
-| M008837 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRingEquivAddOne` | volunteer-build-reviewed |
-| M008840 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRootExchangeParabolicMulPrincipalCongruenc` | volunteer-build-reviewed |
-| M008848 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsScalarPreservesIntegralMatricesSubst` | volunteer-build-reviewed |
-| M008849 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsScalarPreservesIntegralMatricesSubstStatement` | volunteer-build-reviewed |
-| M008855 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSchwartzVectorField` | volunteer-build-reviewed |

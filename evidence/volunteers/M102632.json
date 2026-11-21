@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M102632"
+  ],
+  "started_utc": "2026-11-21T00:03:20.132483+00:00",
+  "ended_utc": "2026-11-21T00:03:40.490900+00:00",
+  "elapsed_seconds": 20.4,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6840112
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.HhGroup:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "56febe95714045642ccb2904ed3863ddc1f715caf512de096c908b917c0ad6fe",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.FramedTwoCoboundaries",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.ResMapBijective",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.TripleNe"
+  ],
+  "objects": {
+    "M102632": "f74d126aa0e9157b98b17b0eff76314563ee00acdfeba5856958e50c0ba3cd3c"
+  },
+  "bundle_sha256": "9459a273c9ba54c12e5c88d79090be38fc56e71d897a01bfc4fc9de1044e99f2",
+  "packet": "M102632",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/7468#issuecomment-7053737729",
+  "reviewed_utc": "2026-11-21T00:09:55.625448+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

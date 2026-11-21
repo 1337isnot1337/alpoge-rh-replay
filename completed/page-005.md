@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004417 | P1559 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.ConclOfInputs4` | build-observed |
+| M004418 | P1001 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.FiniteDimensionalOfSz` | build-observed |
+| M004419 | P1531 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.GrowthConstantBoundGcR` | build-observed |
+| M004422 | P1616 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.JointQ` | build-observed |
+| M004423 | P1586 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.NormComparisonConstants` | build-observed |
+| M004426 | P1272 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.XiValIffXiAt` | build-observed |
+| M004427 | P0173 | `Development.AbelianVarietyTheory.Definitions.HermitianLattices.ExistsZsmulMemOfIsLattice` | wave-reused |
+| M004428 | P0347 | `Development.AbelianVarietyTheory.Definitions.HermitianLattices.TraceFormBilinSeparatingLeftIff` | wave-reused |
+| M004430 | P0096 | `Development.AbelianVarietyTheory.Definitions.Jets.CmLatticeCommutatorPairingPowEqOneOfGoodLift` | volunteer-build-reviewed |
 | M004432 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.ColValMonomial` | wave-reused |
 | M004434 | P1218 | `Development.AbelianVarietyTheory.Definitions.Jets.DepthNumbersThresholdEq` | build-observed |
 | M004435 | P1193 | `Development.AbelianVarietyTheory.Definitions.Jets.EmbShortThLeThetaPlain` | build-observed |
@@ -393,12 +402,3 @@
 | M005323 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SecEqZeroOfDvdPowUniformiser` | wave-reused |
 | M005324 | P1029 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SecMInvariantEqBotOrUnivAtGeometricPoint` | wave-reused |
 | M005325 | P1324 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SerreVanishingVeryAmple` | wave-reused |
-| M005326 | P1350 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SerreVanishingVeryAmpleStatement` | wave-reused |
-| M005327 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SmoothDense` | wave-reused |
-| M005328 | P0758 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SpanEqTopOfFunctionals` | wave-reused |
-| M005329 | P0003 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SpecHomCompCoaction` | wave-reused |
-| M005331 | P0394 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SplitTorusHomEqOneOfNilpotent` | wave-reused |
-| M005332 | P0394 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SplitTorusHomProperTrivialField` | wave-reused |
-| M005333 | P0436 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SplitTorusHomProperTrivialLocal` | wave-reused |
-| M005334 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SurjectiveAppOfIsAbelianScheme` | wave-reused |
-| M005335 | P0732 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SymmetricLiftOddOrderExistsUnique` | wave-reused |

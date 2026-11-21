@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M008813 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRationalOrbitPointEqBesselBasePointStatement` | volunteer-build-reviewed |
+| M008815 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRationalRepLevelDecompositionFiniteUnitaryStatement` | volunteer-build-reviewed |
+| M008816 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRationalWittFlagCoordinatesOfMemUnipotent` | volunteer-build-reviewed |
+| M008822 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRealDiscreteSeriesDataThetaPropertiesStatement` | volunteer-build-reviewed |
+| M008824 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRealIntertwinerNeZeroKFiniteTensorStatement` | volunteer-build-reviewed |
+| M008827 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRealPlacesIdempotentExtensionAdelesStatement` | volunteer-build-reviewed |
+| M008837 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRingEquivAddOne` | volunteer-build-reviewed |
+| M008840 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRootExchangeParabolicMulPrincipalCongruenc` | volunteer-build-reviewed |
+| M008848 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsScalarPreservesIntegralMatricesSubst` | volunteer-build-reviewed |
+| M008849 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsScalarPreservesIntegralMatricesSubstStatement` | volunteer-build-reviewed |
+| M008855 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSchwartzVectorField` | volunteer-build-reviewed |
 | M008875 | P0784 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSingle` | volunteer-build-reviewed |
 | M008878 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSingleMemLocalLatticeCompletionStatement` | volunteer-build-reviewed |
 | M008879 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSmallCompactLevelSymplecticCharacterTrivia` | volunteer-build-reviewed |
@@ -391,14 +402,3 @@
 | M011656 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SurjectiveOfAdjointSeparatesLabelledPartsStatement` | volunteer-build-reviewed |
 | M011658 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymChainPatternIffPlaceConditions` | volunteer-build-reviewed |
 | M011659 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymChainPatternIffPlaceConditionsStatement` | volunteer-build-reviewed |
-| M011664 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymLevelChainTestFunctionAddRowStatement` | volunteer-build-reviewed |
-| M011669 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymLevelTestFunctionsAgreeRationalPoints` | volunteer-build-reviewed |
-| M011670 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymLevelTestFunctionsAgreeRationalPointsStatement` | volunteer-build-reviewed |
-| M011672 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricChainOneCouplingCosetOfPatternStatement` | volunteer-build-reviewed |
-| M011674 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricChainOneLatticeClassStatement` | volunteer-build-reviewed |
-| M011676 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricChainProjectedLevelOfPatternStatement` | volunteer-build-reviewed |
-| M011678 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricChainSupportOneOfPatternStatement` | volunteer-build-reviewed |
-| M011685 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelChainOneIndexAtOfClassSupport` | volunteer-build-reviewed |
-| M011689 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelChainPhiSupportPeriodic` | volunteer-build-reviewed |
-| M011693 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelChainUnfoldedPositionExchange` | volunteer-build-reviewed |
-| M011695 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelCharacterAtRationalPoint` | volunteer-build-reviewed |

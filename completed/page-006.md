@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005326 | P1350 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SerreVanishingVeryAmpleStatement` | wave-reused |
+| M005327 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SmoothDense` | wave-reused |
+| M005328 | P0758 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SpanEqTopOfFunctionals` | wave-reused |
+| M005329 | P0003 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SpecHomCompCoaction` | wave-reused |
+| M005331 | P0394 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SplitTorusHomEqOneOfNilpotent` | wave-reused |
+| M005332 | P0394 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SplitTorusHomProperTrivialField` | wave-reused |
+| M005333 | P0436 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SplitTorusHomProperTrivialLocal` | wave-reused |
+| M005334 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SurjectiveAppOfIsAbelianScheme` | wave-reused |
+| M005335 | P0732 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SymmetricLiftOddOrderExistsUnique` | wave-reused |
 | M005336 | P0759 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SymmetricLiftOddOrderExistsUniqueStatement` | wave-reused |
 | M005337 | P0811 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ThetaGrpActsLinearly` | wave-reused |
 | M005338 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.TrdegEqOfLocallyIsStandardSmoothOfRelativeDimens` | wave-reused |
@@ -306,11 +315,13 @@
 | M006016 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsPermOfSumMinEqPositiveFamily` | wave-reused |
 | M006017 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsPermOfSumMinEqPositiveFamilyStatement` | wave-reused |
 | M006019 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsStandardUnipotentRadicalBijOnNilradical` | volunteer-build-reviewed |
+| M006020 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsStandardUnipotentRadicalBijOnNilradicalStatement` | volunteer-build-reviewed |
 | M006021 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsSylowOverSubgroup` | wave-reused |
 | M006022 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsSylowOverSubgroupStatement` | wave-reused |
 | M006024 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsTeichmullerMapAlgebraicClosureFiniteFieldStatement` | build-observed |
 | M006025 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsWeightIdempotent` | wave-reused |
 | M006026 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsWeightIdempotentStatement` | wave-reused |
+| M006027 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExponentRegularOfNatDegreeMinpolyGeneratorPow` | volunteer-build-reviewed |
 | M006029 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingAddNatPosSymm` | wave-reused |
 | M006030 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingAddNatPosSymmStatement` | wave-reused |
 | M006031 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FiniteGroupFunctionPairingCharacterEqFinrankInte` | wave-reused |
@@ -391,14 +402,3 @@
 | M006109 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldZeroAndAdd` | wave-reused |
 | M006110 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldZeroAndAddStatement` | wave-reused |
 | M006111 | P0394 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsPrimitiveEndClassFunctionInvariantSubspaceMobi` | wave-reused |
-| M006112 | P0436 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsPrimitiveEndClassFunctionInvariantSubspaceMobiStatement` | wave-reused |
-| M006113 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsPrimitiveExtendZeroOfSumUnipotentRadical` | build-observed |
-| M006114 | P0296 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsPrimitiveExtendZeroOfSumUnipotentRadicalStatement` | build-observed |
-| M006116 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsUnitIffCharpolyCoeffZeroNe` | wave-reused |
-| M006117 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.KerAevalAddStabilizerNilradicalSocle` | wave-reused |
-| M006118 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.KerAevalAddStabilizerNilradicalSocleStatement` | wave-reused |
-| M006119 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.LinearMapShortExactCommute` | wave-reused |
-| M006120 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.LinearMapShortExactCommuteStatement` | wave-reused |
-| M006121 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MatrixTraceIffIsCharacterOverSubfieldComplex` | wave-reused |
-| M006122 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MatrixTraceIffIsCharacterOverSubfieldComplexStatement` | wave-reused |
-| M006123 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MemVirtualCharactersIffSubCharacters` | wave-reused |

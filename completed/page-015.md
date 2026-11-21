@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M022669 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EquivalenceGeneratedTorusRel` | volunteer-build-reviewed |
+| M022688 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ErrorFunctionalCoefficientBounded` | build-observed |
+| M022689 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ErrorFunctionalCoefficientBoundedStatement` | build-observed |
+| M022691 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EssEtaleLocalLeOfDirected` | wave-reused |
+| M022692 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EssEtaleLocalLeOfDirectedStatement` | wave-reused |
+| M022696 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EssFiniteTypeOfLocalRingOfVarietyPointStatement` | volunteer-build-reviewed |
+| M022702 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EsymmMemVirtualCharactersOfPowerSumEigenvalues` | build-observed |
+| M022703 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EsymmMemVirtualCharactersOfPowerSumEigenvaluesStatement` | build-observed |
+| M022706 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EsymmPowTwelveDivDiscriminantMemSubring` | build-observed |
+| M022707 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EsymmPowTwelveDivDiscriminantMemSubringStatement` | build-observed |
+| M022708 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtChart` | volunteer-build-reviewed |
+| M022718 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaTildeHeckeCharSplitMulSignOfNormFormula` | volunteer-build-reviewed |
+| M022720 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaValuesCoefficientExists` | volunteer-build-reviewed |
+| M022721 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAdjoinBaseChangeImage` | wave-reused |
+| M022722 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAdjoinBaseChangeImageStatement` | wave-reused |
+| M022723 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAdjoinRootXPowSubC` | wave-reused |
+| M022724 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAtPrimeBaseChangeOfIntegralClosureEtale` | wave-reused |
+| M022725 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAtPrimeBaseChangeOfIntegralClosureEtaleStatement` | wave-reused |
+| M022726 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAtPrimeOfRegularOfIsIntegrallyClosedIn` | wave-reused |
+| M022727 | P0785 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAtPrimeOfRegularOfIsIntegrallyClosedInStatement` | wave-reused |
+| M022728 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAwayOfIsEtaleAtOffSubmonoid` | wave-reused |
 | M022729 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAwayOfIsEtaleAtOffSubmonoidStatement` | wave-reused |
 | M022734 | P0733 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCechAugmentationEquivOfSection` | build-observed |
 | M022735 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleCechAugmentationEquivOfSectionStatement` | build-observed |
@@ -178,6 +199,7 @@
 | M023000 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleToSheafifyLocallyBijectiveAndLiftStatement` | wave-reused |
 | M023007 | P1505 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EulerCharH0H1BoundHigher` | wave-reused |
 | M023008 | P1535 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EulerCharH0H1BoundHigherStatement` | wave-reused |
+| M023013 | P1374 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EulerContractionChartForms` | build-observed |
 | M023026 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvREqOfReadsSmul` | volunteer-build-reviewed |
 | M023051 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalPol` | volunteer-build-reviewed |
 | M023055 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalQuotientRingVectorAtPointsInjective` | wave-reused |
@@ -380,25 +402,3 @@
 | M024474 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoprimeIntegerInIdeal` | volunteer-build-reviewed |
 | M024475 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoprimeIntegerInIdealStatement` | volunteer-build-reviewed |
 | M024478 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoprimeMulIsIntegralOfPadicIntegral` | volunteer-build-reviewed |
-| M024493 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCornerUnitOfRightInverse` | volunteer-build-reviewed |
-| M024494 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCornerUnitOfRightInverseStatement` | volunteer-build-reviewed |
-| M024503 | P1589 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCotangentFrameSmoothGroupScheme` | build-observed |
-| M024504 | P1619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCotangentFrameSmoothGroupSchemeStatement` | build-observed |
-| M024505 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCountSpanSingletonEqMul` | volunteer-build-reviewed |
-| M024511 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCovEqMulVec` | volunteer-build-reviewed |
-| M024546 | P1352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCubeValuationEqDiscriminant` | build-observed |
-| M024547 | P1375 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCubeValuationEqDiscriminantStatement` | build-observed |
-| M024563 | P1352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCuspCentre` | wave-reused |
-| M024579 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCuspOnRestrict` | volunteer-build-reviewed |
-| M024587 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCyclicGeneratorsSeparableMin` | volunteer-build-reviewed |
-| M024588 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCyclicGeneratorsSeparableMinStatement` | wave-reused |
-| M024596 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDarbouxOperatorsLeviAndDoubleStatement` | volunteer-build-reviewed |
-| M024600 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDatumAOne` | build-observed |
-| M024624 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDegLtTwoCorrectionSimple` | volunteer-build-reviewed |
-| M024657 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDensityOfImmersion` | build-observed |
-| M024662 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDerivationEqOneOfPowMem` | volunteer-build-reviewed |
-| M024663 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDerivationEqOneOfPowMemStatement` | volunteer-build-reviewed |
-| M024666 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDerivationExtendingCotangentForm` | volunteer-build-reviewed |
-| M024667 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDerivationExtendingCotangentFormStatement` | volunteer-build-reviewed |
-| M024669 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDerivationExtendingKernelFormOfLiftingStatement` | volunteer-build-reviewed |
-| M024680 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDerivationSplitKaehlerDSmooth` | volunteer-build-reviewed |
