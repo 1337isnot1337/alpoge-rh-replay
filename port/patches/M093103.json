@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsClmOfGramEqSmulStatement",
+  "source_sha256": "8db2ef6113ad26d7e60753c66be2475af624f1334b512c2f7687e7b62d10fa16",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

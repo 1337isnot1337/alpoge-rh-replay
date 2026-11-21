@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.EqZeroOfMemBoth",
+  "source_sha256": "7a59227a1ad287186d825e3a85493b403a0a9e388cade8930bf1a554d56871ef",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

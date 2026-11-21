@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsOfMemDoubleCosetK",
+  "source_sha256": "4b8cfd9da096ab1bf428d097385d58f3c1b229d6b9be9f773886edd47ae4c628",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

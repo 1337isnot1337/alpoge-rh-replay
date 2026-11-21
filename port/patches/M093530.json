@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMaximalOperatorStableOfFinsetGenerating",
+  "source_sha256": "8fc2b9b5de4494d481e24e6bb12b46fe13b1e250d4c6d3349c85e881f3a200be",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Update CompleteLattice.isCompactElement_iff_le_of_directed_sSup_le _ _ to isCompactElement_iff_le_of_directed_sSup_le _ in exists_maximal_stab_of_finset for Mathlib v4.36.0."
+}

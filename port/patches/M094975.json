@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.InnerMapEqConstMulProdInnerStatement",
+  "source_sha256": "bfad9b23f36939e1e55edc604b6ab8318804e69d7c37e9085421cb09c4a1acbd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Statement change, equivalent: MultilinearMap \u2102 Xs E becomes MultilinearMap (RingHom.id \u2102) Xs E (printed \u2192\u2098\u2097[\u2102]) in inner_multilinearMap_eq_mul_prod_inner statement to match M094974 in Mathlib v4.36.0."
+}

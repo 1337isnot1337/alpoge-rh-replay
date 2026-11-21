@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.HasSignatureFstUniqueSylvester",
+  "source_sha256": "ac9e8d8b9bd3bc1ffb39e37d36662186e9350d61320420e7743536b5f7589912",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
