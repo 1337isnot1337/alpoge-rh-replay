@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.TensorProductNondegeneratePairing",
+  "source_sha256": "bc9b3a880e01bd4264c11ea6ab4440564bc3c197af013e7374f111620b438566",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Spell out the identity scalar homomorphism for the complex multilinear map; the domain, codomain and linearity are the same."
+}

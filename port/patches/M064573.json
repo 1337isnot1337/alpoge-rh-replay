@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.BdIntEqZeroOfPrimitive",
+  "source_sha256": "22fb944ca816b88ace38e686f3c61c957960308de5af2ef2bee3495f6dac5749",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the finite-sum continuity-on lemma in the boundary integral proof."
+}

@@ -1,0 +1,20 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/GenericRegularity/ContDiffEvalFun.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/GenericRegularity/ContDiffEvalFun.lean
+@@ -13,7 +13,7 @@
+   | C a => simpa using contDiff_const
+   | add p q hp hq => simpa using hp.add hq
+   | mul_X p i hp =>
+-    have hX : ContDiff ℂ 1 (fun v : (Fin d → ℂ) × ℂ => v.1 i) := (contDiff_apply ℂ ℂ i).comp contDiff_fst
++    have hX : ContDiff ℂ 1 (fun v : (Fin d → ℂ) × ℂ => v.1 i) := (contDiff_apply ℂ (fun _ : Fin d => ℂ) i).comp contDiff_fst
+     simpa using hp.mul hX
+ 
+ lemma contDiff_evalFun {d : ℕ} (p : Polynomial (MvPolynomial (Fin d) ℂ)) :
+@@ -39,7 +39,7 @@
+   intro d p x₀ a h0 h1
+   set q := Polynomial.map (MvPolynomial.eval x₀) p with hq
+   have hFs : HasStrictFDerivAt (evalFun p) (fderiv ℂ (evalFun p) (x₀, a)) (x₀, a) :=
+-    (contDiff_evalFun p).contDiffAt.hasStrictFDerivAt one_ne_zero
++    (contDiff_evalFun p).contDiffAt.hasStrictFDerivAt_fderiv one_ne_zero
+   have hder : fderiv ℂ (evalFun p) (x₀, a) ∘L ContinuousLinearMap.inr ℂ (Fin d → ℂ) ℂ
+       = (1 : ℂ →L[ℂ] ℂ).smulRight (Polynomial.eval a (Polynomial.derivative q)) := by
+     have h1' : HasFDerivAt (fun z => evalFun p (x₀, z))

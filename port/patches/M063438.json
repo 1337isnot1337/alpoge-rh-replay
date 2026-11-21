@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.PowFixedOfAlgebraic",
+  "source_sha256": "cc32af252abac8e282d19c58f39e0b6a5ce0c722a0c622fff62317c365498bf4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Project the mapped polynomial coefficient using its inferred coefficient structure."
+}

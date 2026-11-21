@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.GenericRegularity.ContDiffEvalFun",
+  "source_sha256": "af16eef6b40539b99f4e2c0da89c5fdf32ca860b2686867ba2c9701d0c3d80f9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specify the evaluation family and use the strict derivative theorem for fderiv."
+}

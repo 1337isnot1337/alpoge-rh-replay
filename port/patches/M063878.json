@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SummableRpowOfFibreCardLe",
+  "source_sha256": "8dd15f5e240d67a6bdd6c5c1417fd92058edac22c19cc6692445c4599d893c77",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current real finite-product rpow lemma."
+}
