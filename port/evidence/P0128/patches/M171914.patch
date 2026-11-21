@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/GeometryOfNumbers/LatticeCovolumes/GramSt.lean
++++ b/src/ReciprocityTheory/GeometryOfNumbers/LatticeCovolumes/GramSt.lean
+@@ -55,7 +55,7 @@
+   have h1 : (1:ℝ) ≤ ∏ i, (1 + hQ.1.eigenvalues i) := by
+     calc (1:ℝ) = ∏ _i : ι, (1:ℝ) := by simp
+       _ ≤ ∏ i, (1 + hQ.1.eigenvalues i) :=
+-        Finset.prod_le_prod (fun _ _ => zero_le_one)
++        Finset.prod_le_prod₀ (fun _ _ => zero_le_one)
+           (fun i _ => by linarith [hQ.eigenvalues_nonneg i])
+   nlinarith
+ 

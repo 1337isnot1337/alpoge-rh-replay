@@ -1,0 +1,13 @@
+{
+  "module_id": "M091441",
+  "candidate": {
+    "source_sha256": "59366c9cd4e05b491a6ee819deee975874e67b92f4910de41f673ba498697565",
+    "compiled_source_sha256": "586427dd9c22d8d0a631240f617866de4f8c6b360949577216e0edc3a9b1b9e0",
+    "patch_sha256": "006fa2dcbc5e9149eed0febd0267527d128c0d7db109934a50d3de71b71101b9"
+  },
+  "reviewer": "port_worker_b",
+  "verdict": "source_equivalence_review_passed",
+  "finding": "Exactly three proof-local lemma names are qualified with Matrix. Each target lemma is the intended matrix-entry identity, proved by rfl. The existing congrFun call, matrix equality, coefficient/cast expressions, all definitions and theorem statements, imports, options, and the rest of the proof are byte-identical. No new hypothesis or definition change.",
+  "narrow_probe_receipt": "/workspace/scratch/5c4907a78db9/builds/P0128/probes/M091441MatrixEntryV4.result.json",
+  "full_original_header_ci_required": true
+}

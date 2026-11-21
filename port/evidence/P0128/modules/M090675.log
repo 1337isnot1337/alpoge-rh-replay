@@ -1,0 +1,38 @@
+Module: M090675 Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsRepresentativesModSimilitudeTransposeStatement
+Started: 2026-11-21T23:44:21.179742+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsRepresentativesModSimilitudeTransposeStatement:olean"]
+Pinned source SHA-256: 8654e5383395d769b9a2fdb1d1a10c435e1fcd647f0801267be0b31a48b70222
+Compiled source SHA-256: 8654e5383395d769b9a2fdb1d1a10c435e1fcd647f0801267be0b31a48b70222
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsRepresentativesModSimilitudeTranspose (3.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/ExistsRepresentativesModSimilitudeTranspose.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/ExistsRepresentativesModSimilitudeTranspose.lean:42:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsRepresentativesModSimilitudeTranspose:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/ExistsRepresentativesModSimilitudeTranspose.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsRepresentativesModSimilitudeTransposeStatement (2.8s)
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/ExistsRepresentativesModSimilitudeTransposeStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/ExistsRepresentativesModSimilitudeTransposeStatement.lean:6:80: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/ExistsRepresentativesModSimilitudeTransposeStatement.lean:6:149: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/ExistsRepresentativesModSimilitudeTransposeStatement.lean:6:80: Unused tactic linter: `exact GlobalTheory.exists_representatives_mod_similitude_transpose` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/ExistsRepresentativesModSimilitudeTransposeStatement.lean:6:149: Unused tactic linter: `(intros;
+  apply GlobalTheory.exists_representatives_mod_similitude_transpose <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.885
+Timed out: False

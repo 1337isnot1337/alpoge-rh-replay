@@ -1,0 +1,26 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/IntegralConjInnerMulInnerOfIsEmptyEquiv.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/IntegralConjInnerMulInnerOfIsEmptyEquiv.lean
+@@ -27,13 +27,13 @@
+ instance haarProb_isMulRightInvariant : (haarProb K).IsMulRightInvariant := by
+   refine ⟨fun g => ?_⟩
+   have : IsProbabilityMeasure (Measure.map (fun x => x * g) (haarProb K)) :=
+-    isProbabilityMeasure_map (measurable_mul_const g).aemeasurable
++    inferInstance
+   exact eq_haarProb _
+ 
+ instance haarProb_isInvInvariant : (haarProb K).IsInvInvariant := by
+   refine ⟨?_⟩
+   have : IsProbabilityMeasure (haarProb K).inv :=
+-    isProbabilityMeasure_map measurable_inv.aemeasurable
++    (Measure.isProbabilityMeasure_map_iff measurable_inv.aemeasurable).mpr inferInstance
+   have : (haarProb K).inv.IsHaarMeasure := {}
+   exact eq_haarProb _
+ 
+@@ -54,6 +54,7 @@
+     μ.IsInvInvariant := by
+   refine ⟨?_⟩
+   rw [eq_smul_haarProb μ, Measure.inv, Measure.map_smul, map_inv_eq_self]
++  exact measurable_inv.aemeasurable
+ 
+ end Haar
+ 

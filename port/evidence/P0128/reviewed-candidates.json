@@ -1,0 +1,37 @@
+{
+  "M089534": {
+    "source_sha256": "06d4cbde8d45d1e7a451518ee9bd87d844cfba850fec4a316250df761cc851cc",
+    "compiled_source_sha256": "d87e7be3efc18632d878bd44dd298cdf9f5c1d62ed30facc29474fb9d065cbf0",
+    "patch_sha256": "d72aa222c77cc9363e5ad6d4cd1fc0537d6fab73af7bd4df68f916cfb45fa507"
+  },
+  "M090143": {
+    "source_sha256": "f1d8f131747a88775f3e0c6c95b208662e20bf0091751e8d0b85f0e4134c955a",
+    "compiled_source_sha256": "bc8b416b1b8d0584ba55e0a01fe52462dc7404d7aa1c65d7d8ec895db491a937",
+    "patch_sha256": "798f89ce5303e853a732bbb7fe0dfbcfb4922dd7a3775104de32e95425448b2f"
+  },
+  "M090336": {
+    "source_sha256": "5ebcd892b32e2171e38348071209e1274657f81914e33df1fab348f297553112",
+    "compiled_source_sha256": "11752d6e757fb599d25f7213c2f1829560ad1a22966e07ce992f3e06b1799950",
+    "patch_sha256": "6aad6b5a1b86876cf32c41ab5118cf0d611c5dedcccbf737db24b30f64bd6e1c"
+  },
+  "M090732": {
+    "source_sha256": "ecfc580515c63cadd7237cfdf310249df8d6880156bfc47bd6f51ce8d581badd",
+    "compiled_source_sha256": "1ed2acf2693b4fbf09de2907a5177c2e8edb94b222a5e5ad6cca4e28947fac45",
+    "patch_sha256": "efe6d65b4c7982632e842ec282c62d0eedfde18369518845a0014cdaba4dede1"
+  },
+  "M091441": {
+    "source_sha256": "59366c9cd4e05b491a6ee819deee975874e67b92f4910de41f673ba498697565",
+    "compiled_source_sha256": "586427dd9c22d8d0a631240f617866de4f8c6b360949577216e0edc3a9b1b9e0",
+    "patch_sha256": "006fa2dcbc5e9149eed0febd0267527d128c0d7db109934a50d3de71b71101b9"
+  },
+  "M091528": {
+    "source_sha256": "da1ce95b50ba152d73993b137760b4b6a7b23ed67648824a58b13c5c44ec926c",
+    "compiled_source_sha256": "ab6e4999aacbf0308b4940e2c38c6beb2386be906667eb902563fcdb9936833f",
+    "patch_sha256": "7cf23687e3abcaf50ec49a021a9670fca9c7272b3b672193a4b7d877b5da9652"
+  },
+  "M091792": {
+    "source_sha256": "d30f0a34aef61c56eee55a3a8a652d5675d0bec91ec3b274bc6d77f41d6c64e8",
+    "compiled_source_sha256": "a3c0717668c22445eaad0a138f291a6b011bbbd147d72b67eeaeb10f0df3056a",
+    "patch_sha256": "ff210610da334ff9b0f17daa0c119ee8f8a7b4712f588f88cf0e138e68053c68"
+  }
+}

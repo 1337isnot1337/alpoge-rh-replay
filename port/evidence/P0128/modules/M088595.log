@@ -1,0 +1,30 @@
+Module: M088595 Development.AbelianVarietyTheory.Proofs.SatakeParameters.LengthQuotientSmulSupLeIntermediateStatement
+Started: 2026-11-21T23:36:52.067733+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.LengthQuotientSmulSupLeIntermediateStatement:olean"]
+Pinned source SHA-256: 515df19df04a949cd172da0cb2b88fa59dd3fc139a0a1a55caeb7db3ba463370
+Compiled source SHA-256: 515df19df04a949cd172da0cb2b88fa59dd3fc139a0a1a55caeb7db3ba463370
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.LengthQuotientSmulSupLeIntermediate (3.5s)
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/LengthQuotientSmulSupLeIntermediate.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.SatakeParameters.LengthQuotientSmulSupLeIntermediate:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/LengthQuotientSmulSupLeIntermediate.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.LengthQuotientSmulSupLeIntermediateStatement (2.9s)
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/LengthQuotientSmulSupLeIntermediateStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/LengthQuotientSmulSupLeIntermediateStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/LengthQuotientSmulSupLeIntermediateStatement.lean:7:60: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/LengthQuotientSmulSupLeIntermediateStatement.lean:7:109: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/LengthQuotientSmulSupLeIntermediateStatement.lean:7:60: Unused tactic linter: `exact GlobalTheory.length_quotient_smul_sup_le` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/LengthQuotientSmulSupLeIntermediateStatement.lean:7:109: Unused tactic linter: `(intros; apply GlobalTheory.length_quotient_smul_sup_le <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.437
+Timed out: False

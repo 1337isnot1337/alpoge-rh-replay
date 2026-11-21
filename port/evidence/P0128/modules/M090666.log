@@ -1,0 +1,25 @@
+Module: M090666 Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsPowSpanXLeOfDense
+Started: 2026-11-21T23:44:14.147300+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsPowSpanXLeOfDense:olean"]
+Pinned source SHA-256: cb842a07c3243aae06f834cb31eca938c641447dddcaaed6264e169dad5f1874
+Compiled source SHA-256: cb842a07c3243aae06f834cb31eca938c641447dddcaaed6264e169dad5f1874
+
+⚠ [18250/18252] Replayed Development.AbelianVarietyTheory.Definitions.KeyFormula.DegProd
+warning: src/Development/AbelianVarietyTheory/Definitions/KeyFormula/DegProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Definitions.KeyFormula.DegProd:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/KeyFormula/DegProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsPowSpanXLeOfDense (2.9s)
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/ExistsPowSpanXLeOfDense.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/ExistsPowSpanXLeOfDense.lean:36:13: `Submodule.le_of_le_smul_of_le_jacobson_bot` has been deprecated: Use `Submodule.le_of_le_smul_of_le_jacobson` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_3} {M : Type u_4} [inst : CommRing R] [inst_1 : AddCommGroup M] [inst_2 : Module R M] {I : Ideal R}
+    {N N' : Submodule R M}, N'.FG → I ≤ Ring.jacobson R → N' ≤ N ⊔ I • N' → N' ≤ N
+instead of
+  ∀ {R : Type u_3} {M : Type u_4} [inst : CommRing R] [inst_1 : AddCommGroup M] [inst_2 : Module R M] {I : Ideal R}
+    {N N' : Submodule R M}, N'.FG → I ≤ ⊥.jacobson → N' ≤ N ⊔ I • N' → N' ≤ N
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.03
+Timed out: False

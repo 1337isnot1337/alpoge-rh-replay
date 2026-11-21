@@ -1,0 +1,61 @@
+Module: M088262 Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsReducedQuotientOfArtinianOfMaximalLeStatement
+Started: 2026-11-21T23:36:08.908705+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsReducedQuotientOfArtinianOfMaximalLeStatement:olean"]
+Pinned source SHA-256: ddcfb02dc06682c3c95fe21c88d6464dfa02535724eb1e180c325f704059238f
+Compiled source SHA-256: ddcfb02dc06682c3c95fe21c88d6464dfa02535724eb1e180c325f704059238f
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsReducedQuotientOfArtinianOfMaximalLe (3.5s)
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsReducedQuotientOfArtinianOfMaximalLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsReducedQuotientOfArtinianOfMaximalLe.lean:35:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsReducedQuotientOfArtinianOfMaximalLe.lean:36:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsReducedQuotientOfArtinianOfMaximalLe.lean:51:8: `Ideal.mem_jacobson_bot` has been deprecated: Use `Ring.mem_jacobson_iff` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u} [inst : CommRing R] {x : R}, x ∈ Ring.jacobson R ↔ ∀ (y : R), IsUnit (x * y + 1)
+instead of
+  ∀ {R : Type u} [inst : CommRing R] {x : R}, x ∈ ⊥.jacobson ↔ ∀ (y : R), IsUnit (x * y + 1)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mem_jacobson_bot` to `Ring.mem_jacobson_iff x`).
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsReducedQuotientOfArtinianOfMaximalLe.lean:64:20: `IsArtinianRing.isNilpotent_jacobson_bot` has been deprecated: Use `IsArtinianRing.isNilpotent_jacobson` instead
+
+Note: The updated constant has a different type:
+  ∀ (R : Type u_1) [inst : Ring R] [IsArtinianRing R], IsNilpotent (Ring.jacobson R)
+instead of
+  ∀ {R : Type u_1} [inst : Ring R] [IsArtinianRing R], IsNilpotent ⊥.jacobson
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsReducedQuotientOfArtinianOfMaximalLe:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsReducedQuotientOfArtinianOfMaximalLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsReducedQuotientOfArtinianOfMaximalLeStatement (3.1s)
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsReducedQuotientOfArtinianOfMaximalLeStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsReducedQuotientOfArtinianOfMaximalLeStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsReducedQuotientOfArtinianOfMaximalLeStatement.lean:7:79: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsReducedQuotientOfArtinianOfMaximalLeStatement.lean:7:147: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsReducedQuotientOfArtinianOfMaximalLeStatement.lean:7:79: Unused tactic linter: `(exact GlobalTheory.isReduced_quotient_of_artinian_of_maximal_le)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsReducedQuotientOfArtinianOfMaximalLeStatement.lean:7:147: Unused tactic linter: `(intros;
+  apply GlobalTheory.isReduced_quotient_of_artinian_of_maximal_le <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.687
+Timed out: False

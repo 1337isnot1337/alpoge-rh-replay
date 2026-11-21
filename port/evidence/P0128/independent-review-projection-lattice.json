@@ -1,0 +1,26 @@
+{
+  "M089534": {
+    "module_id": "M089534",
+    "candidate": {
+      "source_sha256": "06d4cbde8d45d1e7a451518ee9bd87d844cfba850fec4a316250df761cc851cc",
+      "compiled_source_sha256": "d87e7be3efc18632d878bd44dd298cdf9f5c1d62ed30facc29474fb9d065cbf0",
+      "patch_sha256": "d72aa222c77cc9363e5ad6d4cd1fc0537d6fab73af7bd4df68f916cfb45fa507"
+    },
+    "reviewer": "port_worker_b",
+    "verdict": "source_equivalence_review_passed",
+    "finding": "The only source change expands the replay-pinned Sheaf.val abbreviation to its exact body F.obj. The evaluated object, binders, hypotheses, and proof text are identical.",
+    "full_original_header_ci_required": true
+  },
+  "M090336": {
+    "module_id": "M090336",
+    "candidate": {
+      "source_sha256": "5ebcd892b32e2171e38348071209e1274657f81914e33df1fab348f297553112",
+      "compiled_source_sha256": "11752d6e757fb599d25f7213c2f1829560ad1a22966e07ce992f3e06b1799950",
+      "patch_sha256": "6aad6b5a1b86876cf32c41ab5118cf0d611c5dedcccbf737db24b30f64bd6e1c"
+    },
+    "reviewer": "port_worker_b",
+    "verdict": "source_equivalence_review_passed",
+    "finding": "The only delta from the published full-lattice candidate is an explicit source set on Set.encard_le_encard. It repeats the existing subset source predicate verbatim, so hM.2 has the intended conjunction type; the subset proof and resulting cardinality inequality are unchanged. Existing IsFullLattice equivalence and proof-local finite/free facts remain intact.",
+    "full_original_header_ci_required": true
+  }
+}

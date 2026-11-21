@@ -1,0 +1,42 @@
+Module: M089975 Development.AbelianVarietyTheory.Proofs.SatakeParameters.YonedaAddNaturalityLeft
+Started: 2026-11-21T23:41:21.140708+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.YonedaAddNaturalityLeft:olean"]
+Pinned source SHA-256: bd8505a2333da8735e2d9c499f40a4a78912e2b1f4c143b9e1dd056be8430138
+Compiled source SHA-256: bd8505a2333da8735e2d9c499f40a4a78912e2b1f4c143b9e1dd056be8430138
+
+⚠ [18250/18252] Replayed Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsMatrixForm
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsMatrixForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsMatrixForm.lean:46:11: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsMatrixForm.lean:46:13: Variable name `y` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _y
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsMatrixForm.lean:47:14: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsMatrixForm:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsMatrixForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.YonedaAddNaturalityLeft (26s)
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/YonedaAddNaturalityLeft.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/YonedaAddNaturalityLeft.lean:54:0: automatically included section variable(s) unused in theorem `GlobalTheory.Et.H0.yonedaAdd_naturality_left`:
+  [TopologicalSpace R]
+  [IsTopologicalRing R]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace R] [IsTopologicalRing R] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 30.129
+Timed out: False

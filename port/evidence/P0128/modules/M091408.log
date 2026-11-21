@@ -1,0 +1,45 @@
+Module: M091408 Development.AbelianVarietyTheory.Proofs.ToricGeometry.ExistsLinearOfMulPeriod
+Started: 2026-11-21T23:47:31.444777+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.ToricGeometry.ExistsLinearOfMulPeriod:olean"]
+Pinned source SHA-256: 4e9f75229967a8f9a43aaf3c8aedbf1cf0da111270dbfe3519b4f178c7feeb05
+Compiled source SHA-256: 4e9f75229967a8f9a43aaf3c8aedbf1cf0da111270dbfe3519b4f178c7feeb05
+
+⚠ [18250/18254] Replayed Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DifferentiableOnOfTendstoLocallyUniformlyOn
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/DifferentiableOnOfTendstoLocallyUniformlyOn.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18254] Ran Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DifferentiableOnOfTendstoLocallyUniformlyOn:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/DifferentiableOnOfTendstoLocallyUniformlyOn.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Replayed Development.AbelianVarietyTheory.Proofs.CovolumeBounds.EntireApplyEqOfPeriodicOfSpanReal
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/EntireApplyEqOfPeriodicOfSpanReal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/EntireApplyEqOfPeriodicOfSpanReal.lean:31:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/EntireApplyEqOfPeriodicOfSpanReal.lean:71:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18253/18254] Ran Development.AbelianVarietyTheory.Proofs.CovolumeBounds.EntireApplyEqOfPeriodicOfSpanReal:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/EntireApplyEqOfPeriodicOfSpanReal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built Development.AbelianVarietyTheory.Proofs.ToricGeometry.ExistsLinearOfMulPeriod (3.8s)
+warning: src/Development/AbelianVarietyTheory/Proofs/ToricGeometry/ExistsLinearOfMulPeriod.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/ToricGeometry/ExistsLinearOfMulPeriod.lean:143:24: `Submodule.eq_bot_of_le_smul_of_le_jacobson_bot` has been deprecated: Use `Submodule.eq_bot_of_le_smul_of_le_jacobson` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} {M : Type u_2} [inst : CommRing R] [inst_1 : AddCommGroup M] [inst_2 : Module R M] (I : Ideal R)
+    (N : Submodule R M), N.FG → N ≤ I • N → I ≤ Ring.jacobson R → N = ⊥
+instead of
+  ∀ {R : Type u_1} {M : Type u_2} [inst : CommRing R] [inst_1 : AddCommGroup M] [inst_2 : Module R M] (I : Ideal R)
+    (N : Submodule R M), N.FG → N ≤ I • N → I ≤ ⊥.jacobson → N = ⊥
+Build completed successfully (18254 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.881
+Timed out: False

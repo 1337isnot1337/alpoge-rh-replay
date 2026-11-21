@@ -1,0 +1,13 @@
+{
+  "reviewer": "port_worker_c",
+  "module": "M090143",
+  "source_sha256": "f1d8f131747a88775f3e0c6c95b208662e20bf0091751e8d0b85f0e4134c955a",
+  "compiled_source_sha256": "bc8b416b1b8d0584ba55e0a01fe52462dc7404d7aa1c65d7d8ec895db491a937",
+  "patch_sha256": "798f89ce5303e853a732bbb7fe0dfbcfb4922dd7a3775104de32e95425448b2f",
+  "no_offset_no_fuzz": true,
+  "only_expected_proof_change": true,
+  "statement_and_definition_text_unchanged": true,
+  "notes_reviewed": true,
+  "reason": "Adding Function.swap unfolds the exact target transpose implementation at the existing matrix-entry simp call; it does not alter the identity or any assumptions.",
+  "full_original_header_ci_pending": true
+}

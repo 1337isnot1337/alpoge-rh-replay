@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SpanModEquationsLift",
+  "source_sha256": "b9653e70f6ab610131864f8fa490c1147abc66e33c0712c2bbcb9627c5b1dbe8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

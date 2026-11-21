@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TestFunctionWitness",
+  "source_sha256": "b0eca868dc18044b4d400f45c7a936c53c11332171ccbdce4a4a40c5e340839f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

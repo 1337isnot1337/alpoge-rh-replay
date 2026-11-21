@@ -1,0 +1,73 @@
+Module: M088214 Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsIndEtaleOfIsLocalization
+Started: 2026-11-21T23:35:49.937423+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsIndEtaleOfIsLocalization:olean"]
+Pinned source SHA-256: 873022c58a9bfc766b5801dc9b97510ef7452322622d28a6ba3a8fc40e7459e8
+Compiled source SHA-256: 873022c58a9bfc766b5801dc9b97510ef7452322622d28a6ba3a8fc40e7459e8
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.BlockTheory.CMModuli.ProjectiveSpaceOverSpec (2.0s)
+warning: src/Development/AbelianVarietyTheory/BlockTheory/CMModuli/ProjectiveSpaceOverSpec.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/BlockTheory/CMModuli/ProjectiveSpaceOverSpec.lean:52:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/BlockTheory/CMModuli/ProjectiveSpaceOverSpec.lean:57:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/BlockTheory/CMModuli/ProjectiveSpaceOverSpec.lean:58:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.BlockTheory.CMModuli.ProjectiveSpaceOverSpec:irArts
+warning: src/Development/AbelianVarietyTheory/BlockTheory/CMModuli/ProjectiveSpaceOverSpec.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsIndEtaleOfIsLocalization (4.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsIndEtaleOfIsLocalization.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsIndEtaleOfIsLocalization.lean:22:46: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsIndEtaleOfIsLocalization.lean:27:2: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsIndEtaleOfIsLocalization.lean:86:21: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsIndEtaleOfIsLocalization.lean:84:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsIndEtaleOfIsLocalization.lean:160:4: Unused tactic linter: `change _ = leg S' a _` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/IsIndEtaleOfIsLocalization.lean:241:4: Unused tactic linter: `change algebraMap S S' ((s.app a.j).hom ((t.app a.j).hom x)) = _` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 12.039
+Timed out: False

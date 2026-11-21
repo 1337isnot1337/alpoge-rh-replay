@@ -1,0 +1,17 @@
+Module: M090807 Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PointMatrixMulLeftMulMatrix
+Started: 2026-11-21T23:45:16.338765+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PointMatrixMulLeftMulMatrix:olean"]
+Pinned source SHA-256: 43976d68b578303c2ffc16af0f773396ea3860677010b6e28fc8641a4396df56
+Compiled source SHA-256: 43976d68b578303c2ffc16af0f773396ea3860677010b6e28fc8641a4396df56
+
+⚠ [18250/18252] Replayed Development.AbelianVarietyTheory.Definitions.KeyFormula.DegProd
+warning: src/Development/AbelianVarietyTheory/Definitions/KeyFormula/DegProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Definitions.KeyFormula.DegProd:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/KeyFormula/DegProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PointMatrixMulLeftMulMatrix (2.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/PointMatrixMulLeftMulMatrix.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.08
+Timed out: False

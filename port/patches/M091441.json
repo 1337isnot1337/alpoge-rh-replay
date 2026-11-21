@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ToricGeometry.IsUnitOfLagrangian",
+  "source_sha256": "59366c9cd4e05b491a6ee819deee975874e67b92f4910de41f673ba498697565",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify Matrix.mul_apply, Matrix.map_apply and Matrix.one_apply in the existing proof-local simp step, ensuring it simplifies a matrix-product entry with the intended matrix lemmas rather than homonymous function lemmas. This only disambiguates lemma names; the original matrix equality, congrFun call, remaining proof, definitions, theorem statements, imports and Lean options are unchanged."
+}

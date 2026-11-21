@@ -1,0 +1,52 @@
+Module: M091533 Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsFiniteMeasureCoverOfDriftFunction
+Started: 2026-11-21T23:48:12.161357+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsFiniteMeasureCoverOfDriftFunction:olean"]
+Pinned source SHA-256: dcb56dd79af90e335cecaecd29af73b74ce59eee8289ee8b89b93a2ab0fa5ffe
+Compiled source SHA-256: dcb56dd79af90e335cecaecd29af73b74ce59eee8289ee8b89b93a2ab0fa5ffe
+
+⚠ [18250/18260] Built Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.FundamentalSetLintegralMulRightAndMeasureLe (3.2s)
+warning: src/Development/AbelianVarietyTheory/Proofs/TorusHaarMeasure/FundamentalSetLintegralMulRightAndMeasureLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18260] Built Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.FiniteCovolumeOfDriftFunction (3.2s)
+warning: src/Development/AbelianVarietyTheory/Proofs/TorusHaarMeasure/FiniteCovolumeOfDriftFunction.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18260] Built Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.HaarMapMulRightOfConjInv (3.2s)
+warning: src/Development/AbelianVarietyTheory/Proofs/TorusHaarMeasure/HaarMapMulRightOfConjInv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18260] Ran Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.FiniteCovolumeOfDriftFunction:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/TorusHaarMeasure/FiniteCovolumeOfDriftFunction.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18260] Built Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsStrictMeasurableFundamentalSetOfDiscrete (3.4s)
+warning: src/Development/AbelianVarietyTheory/Proofs/TorusHaarMeasure/ExistsStrictMeasurableFundamentalSetOfDiscrete.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/TorusHaarMeasure/ExistsStrictMeasurableFundamentalSetOfDiscrete.lean:26:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/TorusHaarMeasure/ExistsStrictMeasurableFundamentalSetOfDiscrete.lean:68:35: `Set.mem_diff` has been deprecated: Use `Set.mem_sdiff` instead
+
+Hint: Replace the deprecated name:
+  Set.mem_s̲diff
+warning: src/Development/AbelianVarietyTheory/Proofs/TorusHaarMeasure/ExistsStrictMeasurableFundamentalSetOfDiscrete.lean:87:10: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [18255/18260] Ran Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsStrictMeasurableFundamentalSetOfDiscrete:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/TorusHaarMeasure/ExistsStrictMeasurableFundamentalSetOfDiscrete.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18260] Ran Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.HaarMapMulRightOfConjInv:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/TorusHaarMeasure/HaarMapMulRightOfConjInv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18257/18260] Ran Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.FundamentalSetLintegralMulRightAndMeasureLe:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/TorusHaarMeasure/FundamentalSetLintegralMulRightAndMeasureLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18258/18260] Built Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MeasureUnivLeTwoMulSublevelOfDrift (3.7s)
+warning: src/Development/AbelianVarietyTheory/Proofs/TorusHaarMeasure/MeasureUnivLeTwoMulSublevelOfDrift.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18259/18260] Ran Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.MeasureUnivLeTwoMulSublevelOfDrift:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/TorusHaarMeasure/MeasureUnivLeTwoMulSublevelOfDrift.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18260/18260] Built Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsFiniteMeasureCoverOfDriftFunction (2.8s)
+warning: src/Development/AbelianVarietyTheory/Proofs/TorusHaarMeasure/ExistsFiniteMeasureCoverOfDriftFunction.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18260 jobs).
+
+Exit status: 0
+Elapsed seconds: 17.051
+Timed out: False

@@ -1,0 +1,61 @@
+Module: M091926 Development.AbelianVarietyTheory.Proofs.TwistedOperators.AeExistsPairGroupSmulMemShearedDomain
+Started: 2026-11-21T23:48:54.252443+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.AeExistsPairGroupSmulMemShearedDomain:olean"]
+Pinned source SHA-256: b398cdad3cc55810b77b688282cd6f62fd8b4b3a1c1d28b681e507d6338af4e9
+Compiled source SHA-256: b398cdad3cc55810b77b688282cd6f62fd8b4b3a1c1d28b681e507d6338af4e9
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.NullMeasurableSetShearImage (2.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/NullMeasurableSetShearImage.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.TwistedOperators.NullMeasurableSetShearImage:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/NullMeasurableSetShearImage.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.AeExistsPairGroupSmulMemShearedDomain (4.2s)
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/AeExistsPairGroupSmulMemShearedDomain.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/AeExistsPairGroupSmulMemShearedDomain.lean:10:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/AeExistsPairGroupSmulMemShearedDomain.lean:11:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/AeExistsPairGroupSmulMemShearedDomain.lean:12:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/AeExistsPairGroupSmulMemShearedDomain.lean:35:4: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/AeExistsPairGroupSmulMemShearedDomain.lean:38:38: This simp argument is unused:
+  Submonoid.smul_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [shear, Subgroup.smul_def, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/AeExistsPairGroupSmulMemShearedDomain.lean:39:38: This simp argument is unused:
+  Submonoid.smul_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [shear, Subgroup.smul_def]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.288
+Timed out: False

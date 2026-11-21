@@ -1,0 +1,324 @@
+Module: M090995 Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.CountableOfIsAddFundamentalDomain
+Started: 2026-11-21T23:46:00.284578+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.CountableOfIsAddFundamentalDomain:olean"]
+Pinned source SHA-256: de57f75013d9122bcf1f6c0eb7b33f79a4a5395521198160086b9338730f0c02
+Compiled source SHA-256: de57f75013d9122bcf1f6c0eb7b33f79a4a5395521198160086b9338730f0c02
+
+⚠ [18250/18252] Built ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SquareIntegrability.TofTorMkCIsQuotientMap (3.5s)
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:23:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:24:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:25:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:38:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:23:6: Unused tactic linter: `exact (AddCircle.continuous_mk' 1).comp (continuous_apply i)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:24:6: Unused tactic linter: `fun_prop` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:25:6: Unused tactic linter: `continuity` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:32:6: Unused tactic linter: `exact IsOpenMap.piMap (fun _ => QuotientAddGroup.isOpenMap_coe)` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:33:6: Unused tactic linter: `exact IsOpenMap.piMap (fun _ => QuotientAddGroup.isOpenMap_coe _)` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:38:4: Unused tactic linter: `exact IsOpenQuotientMap.isQuotientMap ⟨hsurj, hc, ho⟩` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:54:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:55:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:59:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:60:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:54:8: Unused tactic linter: `rw [AddCircle.coe_sub, hi, sub_self]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:55:8: Unused tactic linter: `simp [hi]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:59:8: Unused tactic linter: `exact AddCircle.coe_eq_zero_iff.mp h0` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:60:8: Unused tactic linter: `exact
+  AddSubgroup.mem_zmultiples_iff.mp ((QuotientAddGroup.eq_zero_iff _).mp h0)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:85:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:87:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:85:4: Unused tactic linter: `exact
+  ContinuousMap.congr_fun ((tof_torMkC_isQuotientMap d).lift_comp (g := ⟨F, hF⟩) (h := tof_torMk_factors F hF hper))
+    y` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:87:4: Unused tactic linter: `simp [tof_torLift]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:91:16: `Set.setOf_forall` has been deprecated: Use `Set.ofPred_forall` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵s̵e̵t̵O̵f̵_̵f̵o̵r̵a̵l̵l̵S̲e̲t̲.̲o̲f̲P̲r̲e̲d̲_̲f̲o̲r̲a̲l̲l̲
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:93:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:93:4: Unused tactic linter: `measurability` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:98:18: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:98:18: Unused tactic linter: `simp [mFourier, tof_torMk]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:112:2: Unused tactic linter: `all_goals` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:113:2: Unused tactic linter: `all_goals` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:127:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:127:4: Unused tactic linter: `exact
+  measurePreserving_pi (fun _ => measurePreserving_coe_unitAddCircle_restrict_Ioc)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:147:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:154:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:155:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:147:6: Unused tactic linter: `(simp [Finset.sum_neg_distrib]; ring)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:154:4: Unused tactic linter: `exact setIntegral_congr (tof_box_measurable d) key` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:155:4: Unused tactic linter: `exact setIntegral_congr_fun₀ (tof_box_measurable d).nullMeasurableSet key` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:164:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:165:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:174:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:175:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:176:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:162:6: Unused tactic linter: `exact ContinuousMap.coeFn_toLp f` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:164:6: Unused tactic linter: `exact ContinuousMap.coeFn_toLp ℂ f` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:165:6: Unused tactic linter: `exact ContinuousMap.coeFn_toLp _ _ _ f` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:174:6: Unused tactic linter: `exact mFourierCoeff_toLp n` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:175:6: Unused tactic linter: `exact mFourierCoeff_toLp (f := f) n` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:176:6: Unused tactic linter: `simp [mFourierCoeff_toLp]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:205:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:206:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:211:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:205:6: Unused tactic linter: `exact
+  hcont.integrable_of_hasCompactSupport (HasCompactSupport.of_compactSpace _)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:206:6: Unused tactic linter: `exact (ContinuousMap.mk _ hcont).integrable` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:211:6: Unused tactic linter: `exact (Continuous.ae_eq_iff_eq hcont continuous_zero).mp hae` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:230:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:237:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:228:6: Unused tactic linter: `exact (QuotientAddGroup.mk_add _ _).symm` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:230:6: Unused tactic linter: `simp` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:237:6: Unused tactic linter: `(
+  rw [show (fun t => f (t + tof_torMk d s)) = fun t => f (tof_torMk d s + t) from funext fun t => by rw [add_comm]]
+  exact integral_add_left_eq_self (fun t => f t) (tof_torMk d s))` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:265:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:266:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:265:6: Unused tactic linter: `exact
+  ContinuousMap.hasSum_apply (hasSum_mFourier_series_of_summable hs) (tof_torMk d 0)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean:266:6: Unused tactic linter: `exact
+  (hasSum_mFourier_series_of_summable hs).map (ContinuousMap.evalCLM ℂ (tof_torMk d 0))
+    (ContinuousMap.evalCLM ℂ (tof_torMk d 0)).continuous` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18251/18252] Ran ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SquareIntegrability.TofTorMkCIsQuotientMap:irArts
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/TofTorMkCIsQuotientMap.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.CountableOfIsAddFundamentalDomain (5.9s)
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaShiftProofs/CountableOfIsAddFundamentalDomain.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaShiftProofs/CountableOfIsAddFundamentalDomain.lean:80:0: automatically included section variable(s) unused in theorem `GlobalTheory.TorusFourier.periodic_span`:
+  [Module ℝ W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Module ℝ W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaShiftProofs/CountableOfIsAddFundamentalDomain.lean:109:0: automatically included section variable(s) unused in theorem `GlobalTheory.TorusFourier.continuous_eNeg`:
+  [MeasurableSpace W]
+  [BorelSpace W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [MeasurableSpace W] [BorelSpace W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaShiftProofs/CountableOfIsAddFundamentalDomain.lean:182:0: automatically included section variable(s) unused in theorem `GlobalTheory.TorusFourier.coeff_one_zero`:
+  [FiniteDimensional ℝ W]
+  [BorelSpace W]
+  [μ.IsAddHaarMeasure]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ W] [BorelSpace W] [μ.IsAddHaarMeasure] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaShiftProofs/CountableOfIsAddFundamentalDomain.lean:219:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaShiftProofs/CountableOfIsAddFundamentalDomain.lean:232:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaShiftProofs/CountableOfIsAddFundamentalDomain.lean:238:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaShiftProofs/CountableOfIsAddFundamentalDomain.lean:256:18: `MeasureTheory.Measure.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  M̵e̵a̵s̵u̵r̵e̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaShiftProofs/CountableOfIsAddFundamentalDomain.lean:311:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaShiftProofs/CountableOfIsAddFundamentalDomain.lean:338:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaShiftProofs/CountableOfIsAddFundamentalDomain.lean:343:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaShiftProofs/CountableOfIsAddFundamentalDomain.lean:344:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaShiftProofs/CountableOfIsAddFundamentalDomain.lean:381:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaShiftProofs/CountableOfIsAddFundamentalDomain.lean:382:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaShiftProofs/CountableOfIsAddFundamentalDomain.lean:429:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 13.549
+Timed out: False

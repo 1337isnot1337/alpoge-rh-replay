@@ -1,0 +1,55 @@
+Module: M090419 Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TestFunctionWitness
+Started: 2026-11-21T23:43:15.719551+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TestFunctionWitness:olean"]
+Pinned source SHA-256: b0eca868dc18044b4d400f45c7a936c53c11332171ccbdce4a4a40c5e340839f
+Compiled source SHA-256: b0eca868dc18044b4d400f45c7a936c53c11332171ccbdce4a4a40c5e340839f
+
+⚠ [18250/18254] Replayed Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IMemSiegel
+warning: src/Development/AbelianVarietyTheory/Definitions/SpanningFamilies/IMemSiegel.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/SpanningFamilies/IMemSiegel.lean:34:0: automatically included section variable(s) unused in theorem `GlobalTheory.SW.isSB_zero`:
+  [NumberField K]
+  [Fintype κ]
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] [Fintype κ] [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18251/18254] Ran Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IMemSiegel:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/SpanningFamilies/IMemSiegel.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Built ReciprocityTheory.ThetaQuasiPeriods.PeriodLattice (2.8s)
+warning: src/ReciprocityTheory/ThetaQuasiPeriods/PeriodLattice.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/ThetaQuasiPeriods/PeriodLattice.lean:23:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.PTheta.ofIntVec_add`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/ThetaQuasiPeriods/PeriodLattice.lean:26:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.PTheta.ofIntVec_neg`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/ThetaQuasiPeriods/PeriodLattice.lean:29:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.PTheta.ofIntVec_zero`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18253/18254] Ran ReciprocityTheory.ThetaQuasiPeriods.PeriodLattice:irArts
+warning: src/ReciprocityTheory/ThetaQuasiPeriods/PeriodLattice.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TestFunctionWitness (2.8s)
+warning: src/Development/AbelianVarietyTheory/Proofs/SiegelThetaTransformation/TestFunctionWitness.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/SiegelThetaTransformation/TestFunctionWitness.lean:18:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/SiegelThetaTransformation/TestFunctionWitness.lean:33:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+Build completed successfully (18254 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.735
+Timed out: False

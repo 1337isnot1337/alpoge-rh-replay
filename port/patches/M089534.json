@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.SubsingletonObjOfIsEmpty",
+  "source_sha256": "06d4cbde8d45d1e7a451518ee9bd87d844cfba850fec4a316250df761cc851cc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace the removed Sheaf.val abbreviation with its exact old body, the ObjectProperty.FullSubcategory.obj projection. At the replay Mathlib pin, Sheaf.val (F : Sheaf J A) is defined as F.obj. Thus G.val.obj (op U) and G.obj.obj (op U) are definitionally the same evaluated presheaf object. This only changes the spelling of the Subsingleton conclusion; all theorem binders, hypotheses, definitions and proof text are unchanged. See port/evidence/P0128/statement-scan.md."
+}

@@ -1,0 +1,33 @@
+Module: M090848 Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SpanModEquationsLift
+Started: 2026-11-21T23:45:30.955093+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SpanModEquationsLift:olean"]
+Pinned source SHA-256: b9653e70f6ab610131864f8fa490c1147abc66e33c0712c2bbcb9627c5b1dbe8
+Compiled source SHA-256: b9653e70f6ab610131864f8fa490c1147abc66e33c0712c2bbcb9627c5b1dbe8
+
+⚠ [18250/18252] Replayed Development.AbelianVarietyTheory.Definitions.KeyFormula.DegProd
+warning: src/Development/AbelianVarietyTheory/Definitions/KeyFormula/DegProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Definitions.KeyFormula.DegProd:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/KeyFormula/DegProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SpanModEquationsLift (3.5s)
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/SpanModEquationsLift.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/SpanModEquationsLift.lean:51:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/SpanModEquationsLift.lean:110:31: This simp argument is unused:
+  MvPowerSeries.coeff_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_sub, map_sum, MvPowerSeries.coeff_smul, ← h1, Φ, LinearMap.coe_mk, AddHom.coe_mk,
+    add_sub_cancel_left]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.63
+Timed out: False

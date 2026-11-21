@@ -1,0 +1,30 @@
+Module: M091831 Development.AbelianVarietyTheory.Proofs.TwistedOperators.AbstractCompleteReducibilityStatement
+Started: 2026-11-21T23:48:44.064285+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.AbstractCompleteReducibilityStatement:olean"]
+Pinned source SHA-256: f32f2944dd0256adee7512d49aa8f48813916e6486f1a7773542df92f2d6258b
+Compiled source SHA-256: f32f2944dd0256adee7512d49aa8f48813916e6486f1a7773542df92f2d6258b
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.AbstractCompleteReducibility (3.3s)
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/AbstractCompleteReducibility.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.TwistedOperators.AbstractCompleteReducibility:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/AbstractCompleteReducibility.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.AbstractCompleteReducibilityStatement (2.8s)
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/AbstractCompleteReducibilityStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/AbstractCompleteReducibilityStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/AbstractCompleteReducibilityStatement.lean:14:63: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/AbstractCompleteReducibilityStatement.lean:14:115: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/AbstractCompleteReducibilityStatement.lean:14:63: Unused tactic linter: `exact GlobalTheory.abstract_complete_reducibility` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/AbstractCompleteReducibilityStatement.lean:14:115: Unused tactic linter: `(intros; apply GlobalTheory.abstract_complete_reducibility <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.186
+Timed out: False

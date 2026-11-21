@@ -1,0 +1,27 @@
+Module: M091528 Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsDetAddEqDetMulDetOneAdd
+Started: 2026-11-21T23:48:01.671184+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsDetAddEqDetMulDetOneAdd:olean"]
+Pinned source SHA-256: da1ce95b50ba152d73993b137760b4b6a7b23ed67648824a58b13c5c44ec926c
+Compiled source SHA-256: ab6e4999aacbf0308b4940e2c38c6beb2386be906667eb902563fcdb9936833f
+
+⚠ [18250/18252] Built ReciprocityTheory.GeometryOfNumbers.LatticeCovolumes.GramSt (3.4s)
+warning: src/ReciprocityTheory/GeometryOfNumbers/LatticeCovolumes/GramSt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/GeometryOfNumbers/LatticeCovolumes/GramSt.lean:24:15: This simp argument is unused:
+  one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/ReciprocityTheory/GeometryOfNumbers/LatticeCovolumes/GramSt.lean:27:6: Unused tactic linter: `rw [Unitary.coe_star]` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18251/18252] Ran ReciprocityTheory.GeometryOfNumbers.LatticeCovolumes.GramSt:irArts
+warning: src/ReciprocityTheory/GeometryOfNumbers/LatticeCovolumes/GramSt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsDetAddEqDetMulDetOneAdd (3.1s)
+warning: src/Development/AbelianVarietyTheory/Proofs/TorusHaarMeasure/ExistsDetAddEqDetMulDetOneAdd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.488
+Timed out: False

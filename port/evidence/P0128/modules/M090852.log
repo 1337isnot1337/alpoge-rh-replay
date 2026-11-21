@@ -1,0 +1,51 @@
+Module: M090852 Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubmatrixMulOfVanish
+Started: 2026-11-21T23:45:45.818621+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubmatrixMulOfVanish:olean"]
+Pinned source SHA-256: 3068420557ee456414403e62740baf8f9afaaefa424d4fc588953320b08e01ab
+Compiled source SHA-256: 3068420557ee456414403e62740baf8f9afaaefa424d4fc588953320b08e01ab
+
+⚠ [18250/18252] Replayed Development.AbelianVarietyTheory.Definitions.KeyFormula.DegProd
+warning: src/Development/AbelianVarietyTheory/Definitions/KeyFormula/DegProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Definitions.KeyFormula.DegProd:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/KeyFormula/DegProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubmatrixMulOfVanish (3.4s)
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/SubmatrixMulOfVanish.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/SubmatrixMulOfVanish.lean:29:8: automatically included section variable(s) unused in theorem `_private.Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubmatrixMulOfVanish.0.GlobalTheory.TorsionUnique.submatrix_mul_eq_of_vanishing_off`:
+  [DecidableEq Ix]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq Ix] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/SubmatrixMulOfVanish.lean:41:8: automatically included section variable(s) unused in theorem `_private.Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubmatrixMulOfVanish.0.GlobalTheory.TorsionUnique.apply_eq_zero_of_hasDeg_odd_of_even_even`:
+  [Fintype Ix]
+  [DecidableEq Ix]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype Ix] [DecidableEq Ix] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/SubmatrixMulOfVanish.lean:48:8: automatically included section variable(s) unused in theorem `_private.Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubmatrixMulOfVanish.0.GlobalTheory.TorsionUnique.hasDeg_mul`:
+  [DecidableEq Ix]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq Ix] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/SubmatrixMulOfVanish.lean:59:8: automatically included section variable(s) unused in theorem `_private.Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubmatrixMulOfVanish.0.GlobalTheory.TorsionUnique.hasDeg_sub`:
+  [Fintype Ix]
+  [DecidableEq Ix]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype Ix] [DecidableEq Ix] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/SubmatrixMulOfVanish.lean:173:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.482
+Timed out: False

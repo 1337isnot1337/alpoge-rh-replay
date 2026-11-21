@@ -1,0 +1,23 @@
+Module: M091385 Development.AbelianVarietyTheory.Proofs.ToricGeometry.DifferentiableOnDoublingIterate
+Started: 2026-11-21T23:46:45.058090+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.ToricGeometry.DifferentiableOnDoublingIterate:olean"]
+Pinned source SHA-256: ea3f4a2260fd05c8a185c6e082bb31b750702ea0814047449ef18d91342848e1
+Compiled source SHA-256: ea3f4a2260fd05c8a185c6e082bb31b750702ea0814047449ef18d91342848e1
+
+⚠ [18250/18252] Replayed Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DifferentiableOnOfTendstoLocallyUniformlyOn
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/DifferentiableOnOfTendstoLocallyUniformlyOn.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DifferentiableOnOfTendstoLocallyUniformlyOn:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/DifferentiableOnOfTendstoLocallyUniformlyOn.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.ToricGeometry.DifferentiableOnDoublingIterate (3.4s)
+warning: src/Development/AbelianVarietyTheory/Proofs/ToricGeometry/DifferentiableOnDoublingIterate.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/ToricGeometry/DifferentiableOnDoublingIterate.lean:28:8: automatically included section variable(s) unused in theorem `_private.Development.AbelianVarietyTheory.Proofs.ToricGeometry.DifferentiableOnDoublingIterate.0.GlobalTheory.neg_mem_ball'`:
+  [NormedSpace ℂ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℂ E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.431
+Timed out: False

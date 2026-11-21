@@ -1,0 +1,2561 @@
+{
+  "packet": "P0128",
+  "status": "success",
+  "modules": {
+    "M088107": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.InfinitePlaceEqOfEmbeddingCompAlgebraMapEqStatement",
+      "started_utc": "2026-11-21T23:35:28.110851+00:00",
+      "elapsed_seconds": 11.137,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.InfinitePlaceEqOfEmbeddingCompAlgebraMapEqStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M088107.log",
+      "log_sha256": "c0d504be09ba4669af6aa9513b1467085d920d41578541008029ecac98287053",
+      "object_sha256": "99e6aa1436c378b878936e00a83838842a398ef29d2083737e6d88da6acc6ce3",
+      "source_sha256": "589cc8b3168fdda9eaae338a4a2e234f0266319998c308ff5d5418bfa91daaa2",
+      "compiled_source_sha256": "589cc8b3168fdda9eaae338a4a2e234f0266319998c308ff5d5418bfa91daaa2",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088195": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsComplOrthogonalOfNoCommonIrreducibleTypesStatement",
+      "started_utc": "2026-11-21T23:35:39.248771+00:00",
+      "elapsed_seconds": 10.687,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsComplOrthogonalOfNoCommonIrreducibleTypesStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M088195.log",
+      "log_sha256": "0b129ba53a2aeb230c06bba888dc3390f8dfb8fa3eeab2d62537555fdfdc2f4c",
+      "object_sha256": "b8fbed119697fe46fbcae2a37a835308e93676e834f763ca6dc07f5345f77567",
+      "source_sha256": "9b8a7150fb29ef3603a5aac64b71144dbef38fab8b27de3f1fe0a05e6916a41b",
+      "compiled_source_sha256": "9b8a7150fb29ef3603a5aac64b71144dbef38fab8b27de3f1fe0a05e6916a41b",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088214": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsIndEtaleOfIsLocalization",
+      "started_utc": "2026-11-21T23:35:49.937423+00:00",
+      "elapsed_seconds": 12.039,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsIndEtaleOfIsLocalization:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M088214.log",
+      "log_sha256": "41ca5484ee2fcc9f05e0fd3bd1b1477dafa35e6e80a3582ed4bb6bf4315ae651",
+      "object_sha256": "a2ab5bd102b71ab2591a84cedfee227deec8adc32425c2c8ff8dabb10d8d6692",
+      "source_sha256": "873022c58a9bfc766b5801dc9b97510ef7452322622d28a6ba3a8fc40e7459e8",
+      "compiled_source_sha256": "873022c58a9bfc766b5801dc9b97510ef7452322622d28a6ba3a8fc40e7459e8",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088217": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsIndEtaleTensorProductLeft",
+      "started_utc": "2026-11-21T23:36:01.978885+00:00",
+      "elapsed_seconds": 6.928,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsIndEtaleTensorProductLeft:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M088217.log",
+      "log_sha256": "fc4dcffc8fa22b084187aafeec136f4da115f2ecae9c631e0f71e2a7035d1c3f",
+      "object_sha256": "25a9d8538f9c123aa7af24f421c56f374579207571adf9540174e8bd8f5bc837",
+      "source_sha256": "d323a4bf05b4af430a119d1f73ac01b725152997cf25b9e705ef8d2bc07a653c",
+      "compiled_source_sha256": "d323a4bf05b4af430a119d1f73ac01b725152997cf25b9e705ef8d2bc07a653c",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088262": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsReducedQuotientOfArtinianOfMaximalLeStatement",
+      "started_utc": "2026-11-21T23:36:08.908705+00:00",
+      "elapsed_seconds": 10.687,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsReducedQuotientOfArtinianOfMaximalLeStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M088262.log",
+      "log_sha256": "c9f70b87066f62bf9399f5df0d097abf1785a7388f7c87de02db008e44118c6d",
+      "object_sha256": "6717b1ddf367d8ad9d9158ba0ea1314929508b279878c90483277e6a8847018d",
+      "source_sha256": "ddcfb02dc06682c3c95fe21c88d6464dfa02535724eb1e180c325f704059238f",
+      "compiled_source_sha256": "ddcfb02dc06682c3c95fe21c88d6464dfa02535724eb1e180c325f704059238f",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088267": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsSemisimpleOfLocallyFiniteCompactGroup",
+      "started_utc": "2026-11-21T23:36:19.597212+00:00",
+      "elapsed_seconds": 12.794,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsSemisimpleOfLocallyFiniteCompactGroup:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M088267.log",
+      "log_sha256": "b1d083c3f9a1e4f94ec09cd4af7d1e90ab316faa8eb4e70fc5d43358be1bf507",
+      "object_sha256": "6710062277f95f859963a85380d4c000ef820460c243dc1b8641c00c1df42cfb",
+      "source_sha256": "91ee74942d777df17f1821f64646a3e44812fb49e495bda9e86722c2fdda2296",
+      "compiled_source_sha256": "91ee74942d777df17f1821f64646a3e44812fb49e495bda9e86722c2fdda2296",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088589": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.LengthLeOfForallFgSubmoduleLengthLeStatement",
+      "started_utc": "2026-11-21T23:36:32.392722+00:00",
+      "elapsed_seconds": 9.787,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.LengthLeOfForallFgSubmoduleLengthLeStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M088589.log",
+      "log_sha256": "3976008229c61a74cf212b30a6184653f20a9bd1bd28e7a6b82059aec04de119",
+      "object_sha256": "806d5bd8199bf6f5464d55df3d69b67569f0c433f63a0e93d089221d09dcfd84",
+      "source_sha256": "b9d2a36b6a7b8f51770a2574280b249801a85428c904aecd2546c3d3a394ed84",
+      "compiled_source_sha256": "b9d2a36b6a7b8f51770a2574280b249801a85428c904aecd2546c3d3a394ed84",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088591": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.LengthQuotientScalarMulStatement",
+      "started_utc": "2026-11-21T23:36:42.181539+00:00",
+      "elapsed_seconds": 9.885,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.LengthQuotientScalarMulStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M088591.log",
+      "log_sha256": "56124ce6e8f6d1f43c23ee52b5b40bb70e8122b02b03bdc77df84ef0bd9db502",
+      "object_sha256": "3fe4d41b60c8f664e60c2997ded9a0accdcd09be5fc86faedf1d208b692a272e",
+      "source_sha256": "d6ff2e2d690bad28628bfd75a33f7ad40d3472ceaf24ad8b1f31b354c999edf3",
+      "compiled_source_sha256": "d6ff2e2d690bad28628bfd75a33f7ad40d3472ceaf24ad8b1f31b354c999edf3",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088595": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.LengthQuotientSmulSupLeIntermediateStatement",
+      "started_utc": "2026-11-21T23:36:52.067733+00:00",
+      "elapsed_seconds": 10.437,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.LengthQuotientSmulSupLeIntermediateStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M088595.log",
+      "log_sha256": "ab5b49ff0b113708f7cb226df9c6e0d63c958c5a4c038955c374a6883f824907",
+      "object_sha256": "580e5f617f5baea008f4f9a12e6d635bdd863fd77023674ccbc7073f73f06983",
+      "source_sha256": "515df19df04a949cd172da0cb2b88fa59dd3fc139a0a1a55caeb7db3ba463370",
+      "compiled_source_sha256": "515df19df04a949cd172da0cb2b88fa59dd3fc139a0a1a55caeb7db3ba463370",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088597": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.LengthQuotientSpanPowLeMulLengthStatement",
+      "started_utc": "2026-11-21T23:37:02.505967+00:00",
+      "elapsed_seconds": 9.935,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.LengthQuotientSpanPowLeMulLengthStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M088597.log",
+      "log_sha256": "e3a4f157b7e9ea51b83cce5e7376c68cd528b9d8e690eb758c41e23b1bf4bfbc",
+      "object_sha256": "f690e860acfdcd43894485ee9b2897734eb0949431cc7dcb57c64dd2d4442045",
+      "source_sha256": "c7fb29e4132066e0b849f11b989d5de988d484aac7a9a0d4ff1b887073990d3a",
+      "compiled_source_sha256": "c7fb29e4132066e0b849f11b989d5de988d484aac7a9a0d4ff1b887073990d3a",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088640": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.LocModuleUnit",
+      "started_utc": "2026-11-21T23:37:12.441895+00:00",
+      "elapsed_seconds": 68.162,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.LocModuleUnit:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M088640.log",
+      "log_sha256": "a5cca093009dabd97f77b0a673627ca84bd9d2b540e8dd79ad2478787b58956d",
+      "object_sha256": "664053736e37aa6ad3c6c749bb3707ea0fd362b370d1496e699e37885f8b2bf3",
+      "source_sha256": "80b10e2b79e99a80a5fc20486c56983b91c2850f535b7f908e16ddfc31897324",
+      "compiled_source_sha256": "80b10e2b79e99a80a5fc20486c56983b91c2850f535b7f908e16ddfc31897324",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088803": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.MemSpanTranslatesOfFixedLattice",
+      "started_utc": "2026-11-21T23:38:20.605963+00:00",
+      "elapsed_seconds": 11.589,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.MemSpanTranslatesOfFixedLattice:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M088803.log",
+      "log_sha256": "979edc532e863f46fd10409bca5599d03b8311090d926241c6ce9dba5ff1acd5",
+      "object_sha256": "54f9f0cb1cf11a3fbd184d2e31b16b79823318ed820d2132023b6c3cac690ce3",
+      "source_sha256": "9738f82fd327326b9c4c3cd24cbaaf547e0eb85388fb3cfe6bcdb06155d2e3c2",
+      "compiled_source_sha256": "9738f82fd327326b9c4c3cd24cbaaf547e0eb85388fb3cfe6bcdb06155d2e3c2",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088869": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.NonemptyEquivEllAdicCohomology",
+      "started_utc": "2026-11-21T23:38:32.197062+00:00",
+      "elapsed_seconds": 17.856,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.NonemptyEquivEllAdicCohomology:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M088869.log",
+      "log_sha256": "142e6e731f9c1ccc018ddecb0e4f68e260d4759e4f509705c32e19e2da5c7e69",
+      "object_sha256": "d67327871ae9b6a76cbe6fdc285dbdbd7be9a0fc43b3ea57c941738ed45bbd0f",
+      "source_sha256": "aba06bb8bf3b0df12af773206e6b0c96a3e04eae626e93967b21b63b896528ea",
+      "compiled_source_sha256": "aba06bb8bf3b0df12af773206e6b0c96a3e04eae626e93967b21b63b896528ea",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088888": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.NormLeOfRecurrenceGrowthStatement",
+      "started_utc": "2026-11-21T23:38:50.055131+00:00",
+      "elapsed_seconds": 10.085,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.NormLeOfRecurrenceGrowthStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M088888.log",
+      "log_sha256": "1e6970a9e119da69b6ed4a3fe2f97f8c25f2ab835310bc00cfbd7b9515f30428",
+      "object_sha256": "c7de17438b15af100186371e4b53f94db7a5292d02e5db30c20b36c7ac481b6d",
+      "source_sha256": "9ae84eee0725b81373b3c4886178da16c2368c64fc572836b3d3034ce4a033e6",
+      "compiled_source_sha256": "9ae84eee0725b81373b3c4886178da16c2368c64fc572836b3d3034ce4a033e6",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088906": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.NormTensorProductMapLeftStatement",
+      "started_utc": "2026-11-21T23:39:00.141219+00:00",
+      "elapsed_seconds": 10.235,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.NormTensorProductMapLeftStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M088906.log",
+      "log_sha256": "b3193b00ab5959f28f527ea4630d879a509fad67612984a3db590d63e4f4f8d1",
+      "object_sha256": "a4d2b6a96f613edba97b874ab2b3034c6e1590fee0ba89086412903016009660",
+      "source_sha256": "b0e8f60f993ec64c5285fa198587b2f3edf02e634b8128bad896fe60d24bc5c4",
+      "compiled_source_sha256": "b0e8f60f993ec64c5285fa198587b2f3edf02e634b8128bad896fe60d24bc5c4",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088929": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.NotIsUnramifiedAtOfSqEqNegPrime",
+      "started_utc": "2026-11-21T23:39:10.378194+00:00",
+      "elapsed_seconds": 10.435,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.NotIsUnramifiedAtOfSqEqNegPrime:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M088929.log",
+      "log_sha256": "36a095249eb4c778fc91c287fced1115ecc4dc820ca78b921f13ead465515a2d",
+      "object_sha256": "f82bea3789554f29839885003eb50c7b9e5a721afd8f7f6fec77e5713f681bf1",
+      "source_sha256": "c8479d91b0a50422ea66cabc5e50626f704d23c13ede51db46c44646231cb167",
+      "compiled_source_sha256": "c8479d91b0a50422ea66cabc5e50626f704d23c13ede51db46c44646231cb167",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M089179": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.QuadraticExistsIntegralGeneratorCommonDenominato",
+      "started_utc": "2026-11-21T23:39:20.814895+00:00",
+      "elapsed_seconds": 22.814,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.QuadraticExistsIntegralGeneratorCommonDenominato:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M089179.log",
+      "log_sha256": "01478088f96225071d6e4c0004de2836fd164c7581ae7c471256b5adcfac65aa",
+      "object_sha256": "1e57df1060d2a30b05e24c20b97adf2a799a18160977c24c90492bf5e47b43b1",
+      "source_sha256": "aa3bfa9170834f21d3d95c4c79e6ac46b4f3eb4e03212cb68c0d6472ab643d3f",
+      "compiled_source_sha256": "aa3bfa9170834f21d3d95c4c79e6ac46b4f3eb4e03212cb68c0d6472ab643d3f",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M089186": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.QuadraticRingOfIntegersMulMemSpanOneGenStatement",
+      "started_utc": "2026-11-21T23:39:43.630678+00:00",
+      "elapsed_seconds": 6.828,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.QuadraticRingOfIntegersMulMemSpanOneGenStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M089186.log",
+      "log_sha256": "7ce749e855c7eea9e59d92f5fc6f7b16a317abeb7674817477af3a84e46826e2",
+      "object_sha256": "51d1b67ce2b10c7ee540e0e1f355ef246522bc0416f01633298b2be26d6a246c",
+      "source_sha256": "a73862bf2e25b7fa4fa02813b3bc76a57df5c8a6c38db9533ae75303e38db324",
+      "compiled_source_sha256": "a73862bf2e25b7fa4fa02813b3bc76a57df5c8a6c38db9533ae75303e38db324",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M089243": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.ResidueDegreeOneOfLinearMemStatement",
+      "started_utc": "2026-11-21T23:39:50.460291+00:00",
+      "elapsed_seconds": 9.985,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.ResidueDegreeOneOfLinearMemStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M089243.log",
+      "log_sha256": "214887b63f1356f76ad0169ea54b51ebdf824e2c65e7ba4d7be934fa3927d3bc",
+      "object_sha256": "2ba92724aa8450861333f2df514504f5aceabf1b4785ee60ac470f64bbfbf7d6",
+      "source_sha256": "e2c49ab2a6633143e748fd7fe8ae2a574aed6c383517366a9ea83af1b34c6343",
+      "compiled_source_sha256": "e2c49ab2a6633143e748fd7fe8ae2a574aed6c383517366a9ea83af1b34c6343",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M089318": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.SegmentEigenvalueSumFormulaStatement",
+      "started_utc": "2026-11-21T23:40:00.447049+00:00",
+      "elapsed_seconds": 53.084,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.SegmentEigenvalueSumFormulaStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M089318.log",
+      "log_sha256": "231d7e2e4b84bf0e09546b70a35000eda618c3a669ed441507f1db86340c4abc",
+      "object_sha256": "d60169dc1a5c2c3df84f6410adbc6ccd7a0e5805150ae2e321ebb6a94c04624f",
+      "source_sha256": "d7c772cdd9dfe45cc608349cd4bc3f930d2a150cd5a014c635f5bff5c0c56cad",
+      "compiled_source_sha256": "d7c772cdd9dfe45cc608349cd4bc3f930d2a150cd5a014c635f5bff5c0c56cad",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M089390": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.SpanExtendScalarsInfEqBotOfInfEqBotStatement",
+      "started_utc": "2026-11-21T23:40:53.532610+00:00",
+      "elapsed_seconds": 10.087,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.SpanExtendScalarsInfEqBotOfInfEqBotStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M089390.log",
+      "log_sha256": "e27990dc596f06b2dfe2b31861bb75d4ce774de2572bf35b282bcc2a67a3aef0",
+      "object_sha256": "79096233ccedeb1745da940f03fa8f1e6a071e343ae775e868ef41d7f48ad36f",
+      "source_sha256": "be8ae337696e32b5d54aca0126addba992368cb6e26c23086d733e0f273378a4",
+      "compiled_source_sha256": "be8ae337696e32b5d54aca0126addba992368cb6e26c23086d733e0f273378a4",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M089534": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.SubsingletonObjOfIsEmpty",
+      "started_utc": "2026-11-21T23:41:03.621082+00:00",
+      "elapsed_seconds": 6.878,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.SubsingletonObjOfIsEmpty:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M089534.log",
+      "log_sha256": "a906b1715bf0f638b4166a34e0ff82a8aea49b87435a2ac88acd54b81221bb9c",
+      "object_sha256": "4df3e9928b0ac2befc035c0097dba0fb96b28cdeac981287a9667dbfc83627e2",
+      "source_sha256": "06d4cbde8d45d1e7a451518ee9bd87d844cfba850fec4a316250df761cc851cc",
+      "compiled_source_sha256": "d87e7be3efc18632d878bd44dd298cdf9f5c1d62ed30facc29474fb9d065cbf0",
+      "patch_kind": "diagnostic",
+      "patch_sha256": "d72aa222c77cc9363e5ad6d4cd1fc0537d6fab73af7bd4df68f916cfb45fa507"
+    },
+    "M089859": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.UnitaryConjugateLocal",
+      "started_utc": "2026-11-21T23:41:10.500568+00:00",
+      "elapsed_seconds": 10.638,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.UnitaryConjugateLocal:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M089859.log",
+      "log_sha256": "338664c3cc82db74b35e2be4eb2e6f3cdf3844de5046e6677c05ff1385e0e597",
+      "object_sha256": "52bd83da9bbcda1a1b3878b03f0f61586c82acb5fc5bec1242a985cc5ff1aa51",
+      "source_sha256": "d64ead6e508c2b954afe1fef379e9f3794380b34b725a7b2642ab2fd00f6fdb0",
+      "compiled_source_sha256": "d64ead6e508c2b954afe1fef379e9f3794380b34b725a7b2642ab2fd00f6fdb0",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M089975": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.YonedaAddNaturalityLeft",
+      "started_utc": "2026-11-21T23:41:21.140708+00:00",
+      "elapsed_seconds": 30.129,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.YonedaAddNaturalityLeft:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M089975.log",
+      "log_sha256": "1a9e537cf4d09a512d47191d17f427be08fe2208610131005827d31de2f3f0ba",
+      "object_sha256": "f1068e7d4ab1aa10a122ca8bbd920f2f585a1bbafeeaadfaa891008dc7893025",
+      "source_sha256": "bd8505a2333da8735e2d9c499f40a4a78912e2b1f4c143b9e1dd056be8430138",
+      "compiled_source_sha256": "bd8505a2333da8735e2d9c499f40a4a78912e2b1f4c143b9e1dd056be8430138",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090065": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.EchEqOneIff",
+      "started_utc": "2026-11-21T23:41:51.272096+00:00",
+      "elapsed_seconds": 10.136,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.EchEqOneIff:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090065.log",
+      "log_sha256": "0f625d5ff5a9ce668f34a8cb69f3cc0ab7c48d5fd70ba43cd4cbdceb59a5ae15",
+      "object_sha256": "b13adfb5dba3dbc24e2ab4abaf3cd687042b891781c419d3d18fb78318b77be8",
+      "source_sha256": "b6d87f0f235a7cdcca6c7f600c3a3b8044b4f6d89963ed3c453b4b941cef6fd4",
+      "compiled_source_sha256": "b6d87f0f235a7cdcca6c7f600c3a3b8044b4f6d89963ed3c453b4b941cef6fd4",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090143": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.ExistsSymplecticActionOfPeriodLatticeMap",
+      "started_utc": "2026-11-21T23:42:01.409356+00:00",
+      "elapsed_seconds": 7.481,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.ExistsSymplecticActionOfPeriodLatticeMap:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090143.log",
+      "log_sha256": "ed67e8130a10a1474e50e3f7d803daefe5345af3ad405d7cdac94b97c2c03767",
+      "object_sha256": "07ff084d34c7c4f4ecf700ad4b6e7f50e359869753abd2c36dd759cf19a2dfeb",
+      "source_sha256": "f1d8f131747a88775f3e0c6c95b208662e20bf0091751e8d0b85f0e4134c955a",
+      "compiled_source_sha256": "bc8b416b1b8d0584ba55e0a01fe52462dc7404d7aa1c65d7d8ec895db491a937",
+      "patch_kind": "diagnostic",
+      "patch_sha256": "798f89ce5303e853a732bbb7fe0dfbcfb4922dd7a3775104de32e95425448b2f"
+    },
+    "M090173": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.FinsumQuotientOfLe",
+      "started_utc": "2026-11-21T23:42:08.892264+00:00",
+      "elapsed_seconds": 7.931,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.FinsumQuotientOfLe:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090173.log",
+      "log_sha256": "c1c3753cc49d73ea9e06048c6140aee6ef5aadb1be994879f238ae9fcf6883a3",
+      "object_sha256": "6c011142e27cd27a73a678ca75dd82cebc0f7899c36545122c2f35ef94220977",
+      "source_sha256": "319c3a68ff1f9b68eee30421fc07f865488bb55f557cbeaa3f2fe20ec9e8cd5f",
+      "compiled_source_sha256": "319c3a68ff1f9b68eee30421fc07f865488bb55f557cbeaa3f2fe20ec9e8cd5f",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090182": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.FoldrHolDEqIteratedFDeriv",
+      "started_utc": "2026-11-21T23:42:16.825925+00:00",
+      "elapsed_seconds": 12.899,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.FoldrHolDEqIteratedFDeriv:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090182.log",
+      "log_sha256": "d7238d0724d20b4396f038f0e743384ae26033d01b96e057e68eab9a53d0e18f",
+      "object_sha256": "cf02c49dcdebc12ee00dd0a9869595f36e8e1155be4589d5d40401f2ffe7c078",
+      "source_sha256": "74f81d081d3e32c88d90f65bba8298d3f12b00b511b54319ff158fe9ab790856",
+      "compiled_source_sha256": "74f81d081d3e32c88d90f65bba8298d3f12b00b511b54319ff158fe9ab790856",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090336": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.RelIndexDualSubmoduleInfOfSelfDual",
+      "started_utc": "2026-11-21T23:42:29.727299+00:00",
+      "elapsed_seconds": 12.146,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.RelIndexDualSubmoduleInfOfSelfDual:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090336.log",
+      "log_sha256": "01f5b3e9b6d5f321d8a8aad5ee7067eb6ac5d7955718387ae5e827ec68f72a8e",
+      "object_sha256": "d332f0f310ac0dd6843242f90db61251fb1c63426107b7db98d477ef7457b893",
+      "source_sha256": "5ebcd892b32e2171e38348071209e1274657f81914e33df1fab348f297553112",
+      "compiled_source_sha256": "11752d6e757fb599d25f7213c2f1829560ad1a22966e07ce992f3e06b1799950",
+      "patch_kind": "diagnostic",
+      "patch_sha256": "6aad6b5a1b86876cf32c41ab5118cf0d611c5dedcccbf737db24b30f64bd6e1c"
+    },
+    "M090350": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SchwartzBruhatInvariantIntegralMatrixMul",
+      "started_utc": "2026-11-21T23:42:41.875596+00:00",
+      "elapsed_seconds": 8.033,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SchwartzBruhatInvariantIntegralMatrixMul:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090350.log",
+      "log_sha256": "04b89514a0e67a49950a476684a4e7a898eb3221159dac7ef02b7cb56f0496cd",
+      "object_sha256": "d61a1b94f447afa88b767fb373ea2315b81e990d002aa08dd911d670eff65f7e",
+      "source_sha256": "730dd101984cb47c9c5363b231ffa9a8f2ad40c4e4a2c12cf220de309d52c4bd",
+      "compiled_source_sha256": "730dd101984cb47c9c5363b231ffa9a8f2ad40c4e4a2c12cf220de309d52c4bd",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090403": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SummableNormSiegelThetaSeriesTerms",
+      "started_utc": "2026-11-21T23:42:49.911676+00:00",
+      "elapsed_seconds": 10.389,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SummableNormSiegelThetaSeriesTerms:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090403.log",
+      "log_sha256": "25166c54ddc6173994900b3b15b1dd68509c7d5733c841d2666a68cfa399a68a",
+      "object_sha256": "fdeb8fd38be72c4ecbaa6e0581e0e372700d23c21f2246de1a3f3fcbf0477520",
+      "source_sha256": "61d519700d711ce7a76afea993a8e58988853942199334ba4802d6f1a06a0a16",
+      "compiled_source_sha256": "61d519700d711ce7a76afea993a8e58988853942199334ba4802d6f1a06a0a16",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090410": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SymplecticEqParabolicJParabolicJParabolic",
+      "started_utc": "2026-11-21T23:43:00.302616+00:00",
+      "elapsed_seconds": 7.83,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SymplecticEqParabolicJParabolicJParabolic:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090410.log",
+      "log_sha256": "091d14d14df31e93e5c86ba9d92ff87a02962f55c61dbfd1da055a3329f0e946",
+      "object_sha256": "56ab5e12026170b35487937fd777febc638d0b762ae6dacff02fa57aba68a153",
+      "source_sha256": "66b82eafdd260b7e73f1d3bd73c86ef44a205ab3ba31c4f065b5c290d3cd5c1f",
+      "compiled_source_sha256": "66b82eafdd260b7e73f1d3bd73c86ef44a205ab3ba31c4f065b5c290d3cd5c1f",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090412": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SymplecticSiegelActionMemUpperHalfSpaceAndCocycl",
+      "started_utc": "2026-11-21T23:43:08.135167+00:00",
+      "elapsed_seconds": 7.582,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SymplecticSiegelActionMemUpperHalfSpaceAndCocycl:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090412.log",
+      "log_sha256": "289ca42247ce47a02aeea2dd0a80980b7881b725892a535384733bfee10600cd",
+      "object_sha256": "9181bb30b21c6ddd0e55dba9847e7be61ad9db1d87c305a9656a425e557c5386",
+      "source_sha256": "c45c6d2488ac8280be78b8eb7d78d350152b267e8d90df0def42da041b60e0c0",
+      "compiled_source_sha256": "c45c6d2488ac8280be78b8eb7d78d350152b267e8d90df0def42da041b60e0c0",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090419": {
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TestFunctionWitness",
+      "started_utc": "2026-11-21T23:43:15.719551+00:00",
+      "elapsed_seconds": 9.735,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TestFunctionWitness:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090419.log",
+      "log_sha256": "186987f905a75b15b7d9d12cecaf62d56f6930291eaa3e5f2919ec5fe826e810",
+      "object_sha256": "23b6716bb4f301dd7bd82bcf3af32ba4ed75edd717a923b73c1c477523b9ab28",
+      "source_sha256": "b0eca868dc18044b4d400f45c7a936c53c11332171ccbdce4a4a40c5e340839f",
+      "compiled_source_sha256": "b0eca868dc18044b4d400f45c7a936c53c11332171ccbdce4a4a40c5e340839f",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090559": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.CubeCutRegularSequence",
+      "started_utc": "2026-11-21T23:43:25.455900+00:00",
+      "elapsed_seconds": 16.664,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.CubeCutRegularSequence:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090559.log",
+      "log_sha256": "93f7b766cfd9cbb3792286f1f8f217d7d6bfaac6faffed3d664f42e17d2667e5",
+      "object_sha256": "fdb30ce2c7768180ef51250f56327b4aaebebb866583a505eba5527b0131655f",
+      "source_sha256": "e7d03777e01628fbe9d491ab1a2549bcdb317ac692677fff781f52d9c530641b",
+      "compiled_source_sha256": "e7d03777e01628fbe9d491ab1a2549bcdb317ac692677fff781f52d9c530641b",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090583": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsCompleteDiscreteValuationRingWithResidues",
+      "started_utc": "2026-11-21T23:43:42.121882+00:00",
+      "elapsed_seconds": 14.15,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsCompleteDiscreteValuationRingWithResidues:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090583.log",
+      "log_sha256": "2e6e6997720404ba37eed9ab8f22e53c2c0466ddae2bb471f217e906144afa30",
+      "object_sha256": "acb32d632000b77ca4f6abec559466d141d9b7032ef34654fef6ff35ecc98624",
+      "source_sha256": "2c2714018dfe4100c7fd25a9c10feb5f02250ca32fb3cc5d179bf1de135491f5",
+      "compiled_source_sha256": "2c2714018dfe4100c7fd25a9c10feb5f02250ca32fb3cc5d179bf1de135491f5",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090588": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsDifferentiableOnTorsSq",
+      "started_utc": "2026-11-21T23:43:56.274071+00:00",
+      "elapsed_seconds": 10.438,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsDifferentiableOnTorsSq:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090588.log",
+      "log_sha256": "3dcc1588f05ebc49626378e7d1b3e33e7666a2effb5f92ba338dbb922b51cf03",
+      "object_sha256": "494421281993b8d9bebc3ba6c32b5b1feeb61aaa18ac175228e8eed10dc6119f",
+      "source_sha256": "ec3bca0cc95f899c96a506ebc8ac375b41f0f4efdebb32550602e95a31bb063e",
+      "compiled_source_sha256": "ec3bca0cc95f899c96a506ebc8ac375b41f0f4efdebb32550602e95a31bb063e",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090621": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsIsUnitField",
+      "started_utc": "2026-11-21T23:44:06.714093+00:00",
+      "elapsed_seconds": 7.431,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsIsUnitField:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090621.log",
+      "log_sha256": "4b75ea683644d47bac0400ccc36a7d9548b2ab2819cf087f0d33528d196c57b1",
+      "object_sha256": "caa48f5b3b1c435161c937320774e27affc6b97998857415a6008aaeb2a8b16e",
+      "source_sha256": "34160439ba5fb4666e0e9397f9c853fe179314a55bfbc36838d95120ce92f998",
+      "compiled_source_sha256": "34160439ba5fb4666e0e9397f9c853fe179314a55bfbc36838d95120ce92f998",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090666": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsPowSpanXLeOfDense",
+      "started_utc": "2026-11-21T23:44:14.147300+00:00",
+      "elapsed_seconds": 7.03,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsPowSpanXLeOfDense:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090666.log",
+      "log_sha256": "6f57f04c92faa3924a407b6cb521e9a476de4487d72341d9617301df20d0cd0e",
+      "object_sha256": "b51e4e73415258c6cdb24866a69e7e2e84524855eb7dbda527a00aa6eff71f7f",
+      "source_sha256": "cb842a07c3243aae06f834cb31eca938c641447dddcaaed6264e169dad5f1874",
+      "compiled_source_sha256": "cb842a07c3243aae06f834cb31eca938c641447dddcaaed6264e169dad5f1874",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090675": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsRepresentativesModSimilitudeTransposeStatement",
+      "started_utc": "2026-11-21T23:44:21.179742+00:00",
+      "elapsed_seconds": 9.885,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsRepresentativesModSimilitudeTransposeStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090675.log",
+      "log_sha256": "60f6e4b0ec1c04acdd628e8739faf8bf6807d305ae378a08366f1aae68808404",
+      "object_sha256": "f8bddbec66754c75c0c6e72b4f0bee336068b1cdc1d3c70b6fa4ea30d74ad300",
+      "source_sha256": "8654e5383395d769b9a2fdb1d1a10c435e1fcd647f0801267be0b31a48b70222",
+      "compiled_source_sha256": "8654e5383395d769b9a2fdb1d1a10c435e1fcd647f0801267be0b31a48b70222",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090732": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.IsUnitDetOfProductMapNeZero",
+      "started_utc": "2026-11-21T23:44:31.066281+00:00",
+      "elapsed_seconds": 16.709,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.IsUnitDetOfProductMapNeZero:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090732.log",
+      "log_sha256": "e674f1c3298134e72cd0e1a91614d55f45cba9126722de7bc9d7d3073d28d91a",
+      "object_sha256": "7461e81b768bcc176a50585591b3a5eeea3e3c8bbaceef7c08d900e62f2f8c16",
+      "source_sha256": "ecfc580515c63cadd7237cfdf310249df8d6880156bfc47bd6f51ce8d581badd",
+      "compiled_source_sha256": "1ed2acf2693b4fbf09de2907a5177c2e8edb94b222a5e5ad6cca4e28947fac45",
+      "patch_kind": "diagnostic",
+      "patch_sha256": "efe6d65b4c7982632e842ec282c62d0eedfde18369518845a0014cdaba4dede1"
+    },
+    "M090739": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.KaFormHomogeneous",
+      "started_utc": "2026-11-21T23:44:47.778793+00:00",
+      "elapsed_seconds": 12.04,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.KaFormHomogeneous:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090739.log",
+      "log_sha256": "a58ca7223a0d9d8b8ca77f8ab9bc808738147467d248176cd13a720ea38712f4",
+      "object_sha256": "19c516708319968d1e8efba7451de0d2d7928d1f87dca2541783eb8a7df7d3fc",
+      "source_sha256": "c19fe319877d14ad0fea731a077877f82a5f17c5be00c233c0d6907f34d483a8",
+      "compiled_source_sha256": "c19fe319877d14ad0fea731a077877f82a5f17c5be00c233c0d6907f34d483a8",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090765": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.KoszulExactOfGradedRegular",
+      "started_utc": "2026-11-21T23:44:59.820924+00:00",
+      "elapsed_seconds": 8.431,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.KoszulExactOfGradedRegular:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090765.log",
+      "log_sha256": "2c5c1d600b0352b06f0292c96d7b6f68ce146db39fb77dd4615c922f94299caa",
+      "object_sha256": "0c7a91e1941361928638301b27675a7bd09ecc2cf68db577ec1880409817e004",
+      "source_sha256": "442c3ee87dd02fd088bab713dab0205e1dda61cced40554167cbf0bac6454c81",
+      "compiled_source_sha256": "442c3ee87dd02fd088bab713dab0205e1dda61cced40554167cbf0bac6454c81",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090798": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.MulVecCongrDeg",
+      "started_utc": "2026-11-21T23:45:08.254847+00:00",
+      "elapsed_seconds": 8.081,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.MulVecCongrDeg:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090798.log",
+      "log_sha256": "60c25c01a40821e99ff06b6d14f0dd8a3cd39decc036ae344949876f09aed378",
+      "object_sha256": "76b1b2d64c931f8923666696444bdb1b77696bb32ab0adc1bbc9fbb1bac6791f",
+      "source_sha256": "954dfccb21f79b5a126946a9f1dda3d40a90e19d4ae00e22ed6dd211a449f11a",
+      "compiled_source_sha256": "954dfccb21f79b5a126946a9f1dda3d40a90e19d4ae00e22ed6dd211a449f11a",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090807": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PointMatrixMulLeftMulMatrix",
+      "started_utc": "2026-11-21T23:45:16.338765+00:00",
+      "elapsed_seconds": 7.08,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.PointMatrixMulLeftMulMatrix:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090807.log",
+      "log_sha256": "e307ae793e90bae272a8c9ec5b760a51a377a7226208e38cf3897122ad6a614e",
+      "object_sha256": "6a797cb2af69ee658f22abc545b9c69b355f103e63a56387147ff4788b121890",
+      "source_sha256": "43976d68b578303c2ffc16af0f773396ea3860677010b6e28fc8641a4396df56",
+      "compiled_source_sha256": "43976d68b578303c2ffc16af0f773396ea3860677010b6e28fc8641a4396df56",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090841": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SignSwap",
+      "started_utc": "2026-11-21T23:45:23.421129+00:00",
+      "elapsed_seconds": 7.532,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SignSwap:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090841.log",
+      "log_sha256": "a453e544f343cad3686ace8cd258ba6b5c0f96af718f026f2906eba598a9cc53",
+      "object_sha256": "385a538e067db639e979b217d8db108c9476eac280ce646774d5fa3dd9ece8d4",
+      "source_sha256": "381a69a364c38ecf1fd20fbfea4ebb50e43c3a613a3de29331e0b80910c58a49",
+      "compiled_source_sha256": "381a69a364c38ecf1fd20fbfea4ebb50e43c3a613a3de29331e0b80910c58a49",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090848": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SpanModEquationsLift",
+      "started_utc": "2026-11-21T23:45:30.955093+00:00",
+      "elapsed_seconds": 7.63,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SpanModEquationsLift:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090848.log",
+      "log_sha256": "d9f0b52096a5616467a0c641f475163c882b194acdebe65c29bc38222649f0ab",
+      "object_sha256": "7fc9e5f02307d013d7bd98674178a7e433cf285d88e74048de56a3d9bf8f7a41",
+      "source_sha256": "b9653e70f6ab610131864f8fa490c1147abc66e33c0712c2bbcb9627c5b1dbe8",
+      "compiled_source_sha256": "b9653e70f6ab610131864f8fa490c1147abc66e33c0712c2bbcb9627c5b1dbe8",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090851": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubmatrixMulOfSupport",
+      "started_utc": "2026-11-21T23:45:38.587496+00:00",
+      "elapsed_seconds": 7.229,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubmatrixMulOfSupport:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090851.log",
+      "log_sha256": "a1c71d01bdc24a3eac61ed4a3115a5c57bad346d0446779919e89b6bf2ad5065",
+      "object_sha256": "bb9ab3733fca873acdf2e344cf2a94e16757028910229cd329efc75584e83718",
+      "source_sha256": "02ef02d4fe50da59c94833a37dfe3286c4796297612389bfea6b3a5c901670c6",
+      "compiled_source_sha256": "02ef02d4fe50da59c94833a37dfe3286c4796297612389bfea6b3a5c901670c6",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090852": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubmatrixMulOfVanish",
+      "started_utc": "2026-11-21T23:45:45.818621+00:00",
+      "elapsed_seconds": 7.482,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubmatrixMulOfVanish:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090852.log",
+      "log_sha256": "6f37734fec684dd70ec25bc316e4035f41e44301001ad140e98b2e8026c219b6",
+      "object_sha256": "462930aed30c11761f73e33b7aa516f9cf71a64c25580422ef9b993778f4c8d8",
+      "source_sha256": "3068420557ee456414403e62740baf8f9afaaefa424d4fc588953320b08e01ab",
+      "compiled_source_sha256": "3068420557ee456414403e62740baf8f9afaaefa424d4fc588953320b08e01ab",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090884": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.TorsSqMap",
+      "started_utc": "2026-11-21T23:45:53.303083+00:00",
+      "elapsed_seconds": 6.979,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.TorsSqMap:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090884.log",
+      "log_sha256": "db7f0827375d43cd79dbcfa99df7ad64eb7e41cabb9bd0c5aabc658455d32d56",
+      "object_sha256": "1c7bc87e4e91bff942867eddcd0136139cc2e56b3775d814b27f3ce33640e8e4",
+      "source_sha256": "69255e7482580298da687c33f040a85632b8ca0c6457ce6d78322f7714997674",
+      "compiled_source_sha256": "69255e7482580298da687c33f040a85632b8ca0c6457ce6d78322f7714997674",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090995": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.CountableOfIsAddFundamentalDomain",
+      "started_utc": "2026-11-21T23:46:00.284578+00:00",
+      "elapsed_seconds": 13.549,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.CountableOfIsAddFundamentalDomain:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M090995.log",
+      "log_sha256": "274b2728cdadac39f6c81582a1c38f1f896084a9e269404eae174a3b211bd8f7",
+      "object_sha256": "c430647e343f068f7ea4c231fd1ffb6a49e4d1c9f3ed2f02ce07076e79608887",
+      "source_sha256": "de57f75013d9122bcf1f6c0eb7b33f79a4a5395521198160086b9338730f0c02",
+      "compiled_source_sha256": "de57f75013d9122bcf1f6c0eb7b33f79a4a5395521198160086b9338730f0c02",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091050": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.ExistsEqCexpQuadraticOfEquivalentFactors",
+      "started_utc": "2026-11-21T23:46:13.836223+00:00",
+      "elapsed_seconds": 11.041,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.ExistsEqCexpQuadraticOfEquivalentFactors:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M091050.log",
+      "log_sha256": "03820fc4e5442d71d49dc7888ff81e1db03b9ddc5f5ee5a81f67a90cd729909d",
+      "object_sha256": "dbc216e7536e12f1bf939c548055e3da0eb3336b198075da95221bfc9ab6eb87",
+      "source_sha256": "a4877d8531a2b290e662674a2a0690a7e139c6bf57dcb76db376d820e5cc07a3",
+      "compiled_source_sha256": "a4877d8531a2b290e662674a2a0690a7e139c6bf57dcb76db376d820e5cc07a3",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091123": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.ExistsUniqueFactorOfIsAlgClosed",
+      "started_utc": "2026-11-21T23:46:24.879233+00:00",
+      "elapsed_seconds": 11.29,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.ExistsUniqueFactorOfIsAlgClosed:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M091123.log",
+      "log_sha256": "7dce5dfaf1bf5186082208f1a61598b5c49d0a40749dbad8f251648cf3bc9f49",
+      "object_sha256": "881783e9a4e32aa5d20b8faa98d425062f67d6772d160e9b973554ea5f822d82",
+      "source_sha256": "4dca3822b4295a568226441fc84856e7bf184b9f6f4ecab7cd88a6ebd5204396",
+      "compiled_source_sha256": "4dca3822b4295a568226441fc84856e7bf184b9f6f4ecab7cd88a6ebd5204396",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091383": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ToricGeometry.CubeSectionFacesAndDoubling",
+      "started_utc": "2026-11-21T23:46:36.171829+00:00",
+      "elapsed_seconds": 8.883,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ToricGeometry.CubeSectionFacesAndDoubling:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M091383.log",
+      "log_sha256": "7a78c6eb5f49209e4c0588d5dc18a8d2b1792e3396082883e0f191f19a13d766",
+      "object_sha256": "786e0db985441c7a3c0a6439fb17921a1f75f428ee00e1a8f9ca251c4c56c45d",
+      "source_sha256": "b0998d1d1770e4ff9cbde0d844e8aaa5c968ed6568f603c8aecdb7ccd87ada12",
+      "compiled_source_sha256": "b0998d1d1770e4ff9cbde0d844e8aaa5c968ed6568f603c8aecdb7ccd87ada12",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091385": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ToricGeometry.DifferentiableOnDoublingIterate",
+      "started_utc": "2026-11-21T23:46:45.058090+00:00",
+      "elapsed_seconds": 7.431,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ToricGeometry.DifferentiableOnDoublingIterate:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M091385.log",
+      "log_sha256": "a35e4cc0883cb548ee3feeec1625c9607cc28d8aa5d140f594225dd3cac3b2f8",
+      "object_sha256": "c7cff54c0646dcccbf14381ddae95e7a0b6341cea0b7d2d79d4e4343360ee32b",
+      "source_sha256": "ea3f4a2260fd05c8a185c6e082bb31b750702ea0814047449ef18d91342848e1",
+      "compiled_source_sha256": "ea3f4a2260fd05c8a185c6e082bb31b750702ea0814047449ef18d91342848e1",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091400": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ToricGeometry.ExistsGlobalFrameOfLocal",
+      "started_utc": "2026-11-21T23:46:52.491834+00:00",
+      "elapsed_seconds": 38.95,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ToricGeometry.ExistsGlobalFrameOfLocal:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M091400.log",
+      "log_sha256": "dbb2f1aa85e5971e801f746eea2fda884aecfece085c1e02e45782ae1acb09a0",
+      "object_sha256": "a7a07e724fd71c401fd253c01264eb36bfb4085f259780fd1984ebbafb0d5f2d",
+      "source_sha256": "6b1aa38e267bcc4438523069ef4b06db23f7234c48fefd1620dfa5f6d04f3773",
+      "compiled_source_sha256": "6b1aa38e267bcc4438523069ef4b06db23f7234c48fefd1620dfa5f6d04f3773",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091408": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ToricGeometry.ExistsLinearOfMulPeriod",
+      "started_utc": "2026-11-21T23:47:31.444777+00:00",
+      "elapsed_seconds": 7.881,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ToricGeometry.ExistsLinearOfMulPeriod:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M091408.log",
+      "log_sha256": "0d8206331a938e62796bc77faf827e34d94b26d1346f7f136e677e1abfe2272e",
+      "object_sha256": "9a1fc0470650ce12d1b81322b661306ae8c9e90df17eb7af061b06c53eeb4012",
+      "source_sha256": "4e9f75229967a8f9a43aaf3c8aedbf1cf0da111270dbfe3519b4f178c7feeb05",
+      "compiled_source_sha256": "4e9f75229967a8f9a43aaf3c8aedbf1cf0da111270dbfe3519b4f178c7feeb05",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091409": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ToricGeometry.ExistsLocalFrameCompatibleCube",
+      "started_utc": "2026-11-21T23:47:39.328083+00:00",
+      "elapsed_seconds": 7.279,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ToricGeometry.ExistsLocalFrameCompatibleCube:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M091409.log",
+      "log_sha256": "0d22269e09d8a323584165d8afb2da3cf9d6692318e2c168550e00c2a3396582",
+      "object_sha256": "4b370e84e75f591397cf469c8da2a0875eb2452b4f76d5257270ae3b4a4989e5",
+      "source_sha256": "3c8be54c0058e9c359167e851881fc46eebb3bf0c48e524624fbc6f8b3ded2be",
+      "compiled_source_sha256": "3c8be54c0058e9c359167e851881fc46eebb3bf0c48e524624fbc6f8b3ded2be",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091441": {
+      "module": "Development.AbelianVarietyTheory.Proofs.ToricGeometry.IsUnitOfLagrangian",
+      "started_utc": "2026-11-21T23:47:46.609694+00:00",
+      "elapsed_seconds": 15.059,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.ToricGeometry.IsUnitOfLagrangian:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M091441.log",
+      "log_sha256": "cee82dc94009c93c44f96a3d38c59ab1555ca11a1a5bb8aa82d0ba8e9e697ed0",
+      "object_sha256": "eb1bf82331cc05ef7362c501f8b8fd35c94c0bfc53a541114496a38e025da64f",
+      "source_sha256": "59366c9cd4e05b491a6ee819deee975874e67b92f4910de41f673ba498697565",
+      "compiled_source_sha256": "586427dd9c22d8d0a631240f617866de4f8c6b360949577216e0edc3a9b1b9e0",
+      "patch_kind": "diagnostic",
+      "patch_sha256": "006fa2dcbc5e9149eed0febd0267527d128c0d7db109934a50d3de71b71101b9"
+    },
+    "M091528": {
+      "module": "Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsDetAddEqDetMulDetOneAdd",
+      "started_utc": "2026-11-21T23:48:01.671184+00:00",
+      "elapsed_seconds": 10.488,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsDetAddEqDetMulDetOneAdd:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M091528.log",
+      "log_sha256": "a92e37b29a3d541b2312909195dcb3f38ba5d99ad9d13addd96bd29810f42f44",
+      "object_sha256": "c5a7a850473077c135d5e38ccc36ca1e8af76d9122e576f0e0ae3906b8ecb860",
+      "source_sha256": "da1ce95b50ba152d73993b137760b4b6a7b23ed67648824a58b13c5c44ec926c",
+      "compiled_source_sha256": "ab6e4999aacbf0308b4940e2c38c6beb2386be906667eb902563fcdb9936833f",
+      "patch_kind": "diagnostic",
+      "patch_sha256": "7cf23687e3abcaf50ec49a021a9670fca9c7272b3b672193a4b7d877b5da9652"
+    },
+    "M091533": {
+      "module": "Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsFiniteMeasureCoverOfDriftFunction",
+      "started_utc": "2026-11-21T23:48:12.161357+00:00",
+      "elapsed_seconds": 17.051,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsFiniteMeasureCoverOfDriftFunction:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M091533.log",
+      "log_sha256": "1072ce8cb4f632f40e0f51f1daa2e5bf32c58c95574fdb4930b30a43b992fd0a",
+      "object_sha256": "2afad45eb9953cf8f1f66e83c515f1ea8fb8f96114cbe0bbc22545bef21fbced",
+      "source_sha256": "dcb56dd79af90e335cecaecd29af73b74ce59eee8289ee8b89b93a2ab0fa5ffe",
+      "compiled_source_sha256": "dcb56dd79af90e335cecaecd29af73b74ce59eee8289ee8b89b93a2ab0fa5ffe",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091792": {
+      "module": "Development.AbelianVarietyTheory.Proofs.TorusSplitting.NormProdSumThetaLeExp",
+      "started_utc": "2026-11-21T23:48:29.214486+00:00",
+      "elapsed_seconds": 14.847,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.TorusSplitting.NormProdSumThetaLeExp:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M091792.log",
+      "log_sha256": "f0c8d242e44ac2930824031a23e5650743e80f567d286ec09854b12f3cb98488",
+      "object_sha256": "68452df6a47c903ee3ba902820654ad7e51ae2b754972a90fc3d96fd807a5504",
+      "source_sha256": "d30f0a34aef61c56eee55a3a8a652d5675d0bec91ec3b274bc6d77f41d6c64e8",
+      "compiled_source_sha256": "a3c0717668c22445eaad0a138f291a6b011bbbd147d72b67eeaeb10f0df3056a",
+      "patch_kind": "diagnostic",
+      "patch_sha256": "ff210610da334ff9b0f17daa0c119ee8f8a7b4712f588f88cf0e138e68053c68"
+    },
+    "M091831": {
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.AbstractCompleteReducibilityStatement",
+      "started_utc": "2026-11-21T23:48:44.064285+00:00",
+      "elapsed_seconds": 10.186,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.AbstractCompleteReducibilityStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M091831.log",
+      "log_sha256": "b0e4c2bdcf03e15640db3043257f6355976781d5441aaea84d159d78b545dd7e",
+      "object_sha256": "b221909b0cbf4f3fc841fa13c49cc45bfe804145dd3c03b703cbef37b0cae607",
+      "source_sha256": "f32f2944dd0256adee7512d49aa8f48813916e6486f1a7773542df92f2d6258b",
+      "compiled_source_sha256": "f32f2944dd0256adee7512d49aa8f48813916e6486f1a7773542df92f2d6258b",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091926": {
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.AeExistsPairGroupSmulMemShearedDomain",
+      "started_utc": "2026-11-21T23:48:54.252443+00:00",
+      "elapsed_seconds": 11.288,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.AeExistsPairGroupSmulMemShearedDomain:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M091926.log",
+      "log_sha256": "84acfdb82d01b1e0bbfeafe5a6fc0416630766cc2766ac5cc3f63e79e28bd264",
+      "object_sha256": "722aa8e544a2173c0afdb890fb5f546167492f389ea97680e8d4c7909fd7bca1",
+      "source_sha256": "b398cdad3cc55810b77b688282cd6f62fd8b4b3a1c1d28b681e507d6338af4e9",
+      "compiled_source_sha256": "b398cdad3cc55810b77b688282cd6f62fd8b4b3a1c1d28b681e507d6338af4e9",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    }
+  },
+  "requested_module_ids": [
+    "M088107",
+    "M088195",
+    "M088214",
+    "M088217",
+    "M088262",
+    "M088267",
+    "M088589",
+    "M088591",
+    "M088595",
+    "M088597",
+    "M088640",
+    "M088803",
+    "M088869",
+    "M088888",
+    "M088906",
+    "M088929",
+    "M089179",
+    "M089186",
+    "M089243",
+    "M089318",
+    "M089390",
+    "M089534",
+    "M089859",
+    "M089975",
+    "M090065",
+    "M090143",
+    "M090173",
+    "M090182",
+    "M090336",
+    "M090350",
+    "M090403",
+    "M090410",
+    "M090412",
+    "M090419",
+    "M090559",
+    "M090583",
+    "M090588",
+    "M090621",
+    "M090666",
+    "M090675",
+    "M090732",
+    "M090739",
+    "M090765",
+    "M090798",
+    "M090807",
+    "M090841",
+    "M090848",
+    "M090851",
+    "M090852",
+    "M090884",
+    "M090995",
+    "M091050",
+    "M091123",
+    "M091383",
+    "M091385",
+    "M091400",
+    "M091408",
+    "M091409",
+    "M091441",
+    "M091528",
+    "M091533",
+    "M091792",
+    "M091831",
+    "M091926"
+  ],
+  "packet_complete": true,
+  "started_utc": "2026-11-21T23:34:07.370442+00:00",
+  "diagnostic_only": true,
+  "creates_port_records": false,
+  "cpu_count": 4,
+  "lean_num_threads": "2",
+  "target": {
+    "lean": "leanprover/lean4:v4.36.0",
+    "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+    "mathlib_note": "Mathlib's release tag v4.36.0 (matches Lean v4.36.0). Approved by the maintainer 2026-11-21.",
+    "replay_pins_unchanged": {
+      "lean": "leanprover/lean4:v4.33.1",
+      "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474"
+    }
+  },
+  "target_ids": [
+    "M088107",
+    "M088195",
+    "M088214",
+    "M088217",
+    "M088262",
+    "M088267",
+    "M088589",
+    "M088591",
+    "M088595",
+    "M088597",
+    "M088640",
+    "M088803",
+    "M088869",
+    "M088888",
+    "M088906",
+    "M088929",
+    "M089179",
+    "M089186",
+    "M089243",
+    "M089318",
+    "M089390",
+    "M089534",
+    "M089859",
+    "M089975",
+    "M090065",
+    "M090143",
+    "M090173",
+    "M090182",
+    "M090336",
+    "M090350",
+    "M090403",
+    "M090410",
+    "M090412",
+    "M090419",
+    "M090559",
+    "M090583",
+    "M090588",
+    "M090621",
+    "M090666",
+    "M090675",
+    "M090732",
+    "M090739",
+    "M090765",
+    "M090798",
+    "M090807",
+    "M090841",
+    "M090848",
+    "M090851",
+    "M090852",
+    "M090884",
+    "M090995",
+    "M091050",
+    "M091123",
+    "M091383",
+    "M091385",
+    "M091400",
+    "M091408",
+    "M091409",
+    "M091441",
+    "M091528",
+    "M091533",
+    "M091792",
+    "M091831",
+    "M091926"
+  ],
+  "packet_ids": [
+    "M088107",
+    "M088195",
+    "M088214",
+    "M088217",
+    "M088262",
+    "M088267",
+    "M088589",
+    "M088591",
+    "M088595",
+    "M088597",
+    "M088640",
+    "M088803",
+    "M088869",
+    "M088888",
+    "M088906",
+    "M088929",
+    "M089179",
+    "M089186",
+    "M089243",
+    "M089318",
+    "M089390",
+    "M089534",
+    "M089859",
+    "M089975",
+    "M090065",
+    "M090143",
+    "M090173",
+    "M090182",
+    "M090336",
+    "M090350",
+    "M090403",
+    "M090410",
+    "M090412",
+    "M090419",
+    "M090559",
+    "M090583",
+    "M090588",
+    "M090621",
+    "M090666",
+    "M090675",
+    "M090732",
+    "M090739",
+    "M090765",
+    "M090798",
+    "M090807",
+    "M090841",
+    "M090848",
+    "M090851",
+    "M090852",
+    "M090884",
+    "M090995",
+    "M091050",
+    "M091123",
+    "M091383",
+    "M091385",
+    "M091400",
+    "M091408",
+    "M091409",
+    "M091441",
+    "M091528",
+    "M091533",
+    "M091792",
+    "M091831",
+    "M091926"
+  ],
+  "closure_ids": [
+    "M002078",
+    "M003761",
+    "M004237",
+    "M004455",
+    "M004896",
+    "M005030",
+    "M005733",
+    "M006406",
+    "M006408",
+    "M006411",
+    "M006436",
+    "M006455",
+    "M063547",
+    "M066450",
+    "M073037",
+    "M088106",
+    "M088107",
+    "M088194",
+    "M088195",
+    "M088214",
+    "M088217",
+    "M088261",
+    "M088262",
+    "M088267",
+    "M088588",
+    "M088589",
+    "M088590",
+    "M088591",
+    "M088594",
+    "M088595",
+    "M088596",
+    "M088597",
+    "M088640",
+    "M088803",
+    "M088869",
+    "M088887",
+    "M088888",
+    "M088905",
+    "M088906",
+    "M088929",
+    "M089179",
+    "M089185",
+    "M089186",
+    "M089242",
+    "M089243",
+    "M089317",
+    "M089318",
+    "M089389",
+    "M089390",
+    "M089534",
+    "M089859",
+    "M089975",
+    "M090065",
+    "M090143",
+    "M090173",
+    "M090182",
+    "M090336",
+    "M090350",
+    "M090403",
+    "M090404",
+    "M090410",
+    "M090412",
+    "M090419",
+    "M090540",
+    "M090555",
+    "M090559",
+    "M090567",
+    "M090583",
+    "M090588",
+    "M090621",
+    "M090666",
+    "M090674",
+    "M090675",
+    "M090732",
+    "M090739",
+    "M090765",
+    "M090798",
+    "M090807",
+    "M090841",
+    "M090848",
+    "M090851",
+    "M090852",
+    "M090884",
+    "M090995",
+    "M091050",
+    "M091123",
+    "M091383",
+    "M091385",
+    "M091400",
+    "M091408",
+    "M091409",
+    "M091441",
+    "M091528",
+    "M091533",
+    "M091558",
+    "M091568",
+    "M091581",
+    "M091594",
+    "M091646",
+    "M091792",
+    "M091830",
+    "M091831",
+    "M091926",
+    "M096317",
+    "M171914",
+    "M173615",
+    "M173688",
+    "M175174"
+  ],
+  "tracker_commit": "76932d45b947f835b4327ac9a9f8d1c134e60fb2",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "sources": {
+    "M002078": {
+      "source_sha256": "fef2442d1d8f881ccd35805eb365f669889bf8801b21b25c6eb43673b16913f3",
+      "compiled_source_sha256": "fef2442d1d8f881ccd35805eb365f669889bf8801b21b25c6eb43673b16913f3",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M003761": {
+      "source_sha256": "392c4a8d70fe0ce87f1b7ee0dfa15c03e27eafdf32d86ab98acc9bcafed84a8c",
+      "compiled_source_sha256": "392c4a8d70fe0ce87f1b7ee0dfa15c03e27eafdf32d86ab98acc9bcafed84a8c",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M004237": {
+      "source_sha256": "0c144b2f3a6b0ec690dcad6c2781de8388269962dd9c4456ee42289fa9186cb4",
+      "compiled_source_sha256": "0c144b2f3a6b0ec690dcad6c2781de8388269962dd9c4456ee42289fa9186cb4",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M004455": {
+      "source_sha256": "19d75b3f782d34966a12b91fdebdbbe18353a1a567618c8e3308336014c37b48",
+      "compiled_source_sha256": "19d75b3f782d34966a12b91fdebdbbe18353a1a567618c8e3308336014c37b48",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M004896": {
+      "source_sha256": "d08b8ee1bdd997b04bb81bbe7dea4976d7cf081ebe65975937fd798bd1ccb89f",
+      "compiled_source_sha256": "d08b8ee1bdd997b04bb81bbe7dea4976d7cf081ebe65975937fd798bd1ccb89f",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M005030": {
+      "source_sha256": "51906fcd1bcee80475c959f613724eb576a62efab157cb90e77312070eeac3d0",
+      "compiled_source_sha256": "51906fcd1bcee80475c959f613724eb576a62efab157cb90e77312070eeac3d0",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M005733": {
+      "source_sha256": "9658c1541be127cc7cb3399de8a22ff84d42d8035454c9230577ff5f7ec58f54",
+      "compiled_source_sha256": "9658c1541be127cc7cb3399de8a22ff84d42d8035454c9230577ff5f7ec58f54",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M006406": {
+      "source_sha256": "c15e6bef828059d8e9d746a78ba56b5447545a3f4a0dd6ea5f5715dd9077eb87",
+      "compiled_source_sha256": "c15e6bef828059d8e9d746a78ba56b5447545a3f4a0dd6ea5f5715dd9077eb87",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M006408": {
+      "source_sha256": "d41620ee29df61804c2999016b3defb4c06eb2ee396d9637a0f23cc79b4cd3a7",
+      "compiled_source_sha256": "d41620ee29df61804c2999016b3defb4c06eb2ee396d9637a0f23cc79b4cd3a7",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M006411": {
+      "source_sha256": "2309fc442055b321d52fc67e3227e3d7aa05eaeae067f3af2baf7240d0679159",
+      "compiled_source_sha256": "2d199e6697270e08895c4450978ef982c3eb047f90db5fafd44cc49578172063",
+      "patch_kind": "landed",
+      "patch_sha256": "cc65a1152a6166eeed8556289a5b9676aff88f54688d3f29721ac24b6595cc42"
+    },
+    "M006436": {
+      "source_sha256": "6e3bab917d81d5dcf972f40478ed68b4efa048fcd7964e71274205c2bf05b257",
+      "compiled_source_sha256": "968064c22a1a7a490f8870994a786b09be561c88996f31d8e9f7f72d97830dfe",
+      "patch_kind": "landed",
+      "patch_sha256": "585a67879a7b313fb22c5f6b4f447b1d9c23d3d19a2b96cf720fcc8db06118f6"
+    },
+    "M006455": {
+      "source_sha256": "d4ad57676364b3372f524fc8a75181333c207638fcce336c0fb350bc02c8c68e",
+      "compiled_source_sha256": "1624a10a5814afff52c337bf2935fceed188e7e242f623936e95129dadba498c",
+      "patch_kind": "landed",
+      "patch_sha256": "01818068383b9ccef62cd25eb9fa9fd94c07a2d08748f40f41c538bb9b44d657"
+    },
+    "M063547": {
+      "source_sha256": "d66be74be2c6b2ce18463b1662315d9c7e6a2bf017c59d8dfd16348242cef71f",
+      "compiled_source_sha256": "274e4d48a6f34c39fb70837a1b8459be3202859d1fc62091edbd220c61baf6d6",
+      "patch_kind": "landed",
+      "patch_sha256": "8cea1d683ebdd1a60ec41a346ea037a04df062e62110193f0a14d4e71a1931e1"
+    },
+    "M066450": {
+      "source_sha256": "eea1ebfe3b362972efe77d6c3488c1983f27bfe84dc8ab2073f323ed2a88de3f",
+      "compiled_source_sha256": "eea1ebfe3b362972efe77d6c3488c1983f27bfe84dc8ab2073f323ed2a88de3f",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M073037": {
+      "source_sha256": "ed2c949b888498fba0e7cb604a3ec4558bca43b68ad5791f4e6c9b71825b28be",
+      "compiled_source_sha256": "ed2c949b888498fba0e7cb604a3ec4558bca43b68ad5791f4e6c9b71825b28be",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088106": {
+      "source_sha256": "19b8999a30948b1658f338fc23367373b56d7bc27e55c0f6589547308d967d49",
+      "compiled_source_sha256": "19b8999a30948b1658f338fc23367373b56d7bc27e55c0f6589547308d967d49",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088107": {
+      "source_sha256": "589cc8b3168fdda9eaae338a4a2e234f0266319998c308ff5d5418bfa91daaa2",
+      "compiled_source_sha256": "589cc8b3168fdda9eaae338a4a2e234f0266319998c308ff5d5418bfa91daaa2",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088194": {
+      "source_sha256": "0516059ff9ec7ffcc4f1522d7cf01e617b82a76ef374c337f2d076eb316bfbec",
+      "compiled_source_sha256": "0516059ff9ec7ffcc4f1522d7cf01e617b82a76ef374c337f2d076eb316bfbec",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088195": {
+      "source_sha256": "9b8a7150fb29ef3603a5aac64b71144dbef38fab8b27de3f1fe0a05e6916a41b",
+      "compiled_source_sha256": "9b8a7150fb29ef3603a5aac64b71144dbef38fab8b27de3f1fe0a05e6916a41b",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088214": {
+      "source_sha256": "873022c58a9bfc766b5801dc9b97510ef7452322622d28a6ba3a8fc40e7459e8",
+      "compiled_source_sha256": "873022c58a9bfc766b5801dc9b97510ef7452322622d28a6ba3a8fc40e7459e8",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088217": {
+      "source_sha256": "d323a4bf05b4af430a119d1f73ac01b725152997cf25b9e705ef8d2bc07a653c",
+      "compiled_source_sha256": "d323a4bf05b4af430a119d1f73ac01b725152997cf25b9e705ef8d2bc07a653c",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088261": {
+      "source_sha256": "781d223b338548b403a24b6eff7d9125d0529b9576355e106ff8c2803c72d933",
+      "compiled_source_sha256": "781d223b338548b403a24b6eff7d9125d0529b9576355e106ff8c2803c72d933",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088262": {
+      "source_sha256": "ddcfb02dc06682c3c95fe21c88d6464dfa02535724eb1e180c325f704059238f",
+      "compiled_source_sha256": "ddcfb02dc06682c3c95fe21c88d6464dfa02535724eb1e180c325f704059238f",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088267": {
+      "source_sha256": "91ee74942d777df17f1821f64646a3e44812fb49e495bda9e86722c2fdda2296",
+      "compiled_source_sha256": "91ee74942d777df17f1821f64646a3e44812fb49e495bda9e86722c2fdda2296",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088588": {
+      "source_sha256": "5fbd8df55693b52f0c8b75dc7e6a78a473a54b3e4402a4c890ccc4cd6f72b6e4",
+      "compiled_source_sha256": "5fbd8df55693b52f0c8b75dc7e6a78a473a54b3e4402a4c890ccc4cd6f72b6e4",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088589": {
+      "source_sha256": "b9d2a36b6a7b8f51770a2574280b249801a85428c904aecd2546c3d3a394ed84",
+      "compiled_source_sha256": "b9d2a36b6a7b8f51770a2574280b249801a85428c904aecd2546c3d3a394ed84",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088590": {
+      "source_sha256": "5e2614eabd1e2a39998af9c26265bb159bff64efddcdb864e15e369d8f9b9da4",
+      "compiled_source_sha256": "5e2614eabd1e2a39998af9c26265bb159bff64efddcdb864e15e369d8f9b9da4",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088591": {
+      "source_sha256": "d6ff2e2d690bad28628bfd75a33f7ad40d3472ceaf24ad8b1f31b354c999edf3",
+      "compiled_source_sha256": "d6ff2e2d690bad28628bfd75a33f7ad40d3472ceaf24ad8b1f31b354c999edf3",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088594": {
+      "source_sha256": "880e53ecf266a4ebe8d74fb933bd9ece16bd8b964c46ad02fe6b43fcf6967af1",
+      "compiled_source_sha256": "880e53ecf266a4ebe8d74fb933bd9ece16bd8b964c46ad02fe6b43fcf6967af1",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088595": {
+      "source_sha256": "515df19df04a949cd172da0cb2b88fa59dd3fc139a0a1a55caeb7db3ba463370",
+      "compiled_source_sha256": "515df19df04a949cd172da0cb2b88fa59dd3fc139a0a1a55caeb7db3ba463370",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088596": {
+      "source_sha256": "95f2a3a430e4ff50f3def32f1a8bb4fb9d3476496e044edb8467f452b56e8694",
+      "compiled_source_sha256": "95f2a3a430e4ff50f3def32f1a8bb4fb9d3476496e044edb8467f452b56e8694",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088597": {
+      "source_sha256": "c7fb29e4132066e0b849f11b989d5de988d484aac7a9a0d4ff1b887073990d3a",
+      "compiled_source_sha256": "c7fb29e4132066e0b849f11b989d5de988d484aac7a9a0d4ff1b887073990d3a",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088640": {
+      "source_sha256": "80b10e2b79e99a80a5fc20486c56983b91c2850f535b7f908e16ddfc31897324",
+      "compiled_source_sha256": "80b10e2b79e99a80a5fc20486c56983b91c2850f535b7f908e16ddfc31897324",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088803": {
+      "source_sha256": "9738f82fd327326b9c4c3cd24cbaaf547e0eb85388fb3cfe6bcdb06155d2e3c2",
+      "compiled_source_sha256": "9738f82fd327326b9c4c3cd24cbaaf547e0eb85388fb3cfe6bcdb06155d2e3c2",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088869": {
+      "source_sha256": "aba06bb8bf3b0df12af773206e6b0c96a3e04eae626e93967b21b63b896528ea",
+      "compiled_source_sha256": "aba06bb8bf3b0df12af773206e6b0c96a3e04eae626e93967b21b63b896528ea",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088887": {
+      "source_sha256": "9fbacf439b5f87af30e106de7b35edb20f28080c7d8da27fd2af5d5963234a20",
+      "compiled_source_sha256": "a3f66047c00827ef647821c1bbcc250ef78d74d6676fddbf98b2551885f39ffc",
+      "patch_kind": "landed",
+      "patch_sha256": "d6d25a27107199f88e3ab5acbdc8c10de7d31210265e36c3c3999c17799bf8c9"
+    },
+    "M088888": {
+      "source_sha256": "9ae84eee0725b81373b3c4886178da16c2368c64fc572836b3d3034ce4a033e6",
+      "compiled_source_sha256": "9ae84eee0725b81373b3c4886178da16c2368c64fc572836b3d3034ce4a033e6",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088905": {
+      "source_sha256": "92c1676801a47b85d2104ae20c36e363f54d8d8e11bf02f6b7a3ae92481a2490",
+      "compiled_source_sha256": "92c1676801a47b85d2104ae20c36e363f54d8d8e11bf02f6b7a3ae92481a2490",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088906": {
+      "source_sha256": "b0e8f60f993ec64c5285fa198587b2f3edf02e634b8128bad896fe60d24bc5c4",
+      "compiled_source_sha256": "b0e8f60f993ec64c5285fa198587b2f3edf02e634b8128bad896fe60d24bc5c4",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M088929": {
+      "source_sha256": "c8479d91b0a50422ea66cabc5e50626f704d23c13ede51db46c44646231cb167",
+      "compiled_source_sha256": "c8479d91b0a50422ea66cabc5e50626f704d23c13ede51db46c44646231cb167",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M089179": {
+      "source_sha256": "aa3bfa9170834f21d3d95c4c79e6ac46b4f3eb4e03212cb68c0d6472ab643d3f",
+      "compiled_source_sha256": "aa3bfa9170834f21d3d95c4c79e6ac46b4f3eb4e03212cb68c0d6472ab643d3f",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M089185": {
+      "source_sha256": "99898bb964c8688c03a53c00e7b0cd2d5aca456399cb5e04c39a9d193c855ba0",
+      "compiled_source_sha256": "99898bb964c8688c03a53c00e7b0cd2d5aca456399cb5e04c39a9d193c855ba0",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M089186": {
+      "source_sha256": "a73862bf2e25b7fa4fa02813b3bc76a57df5c8a6c38db9533ae75303e38db324",
+      "compiled_source_sha256": "a73862bf2e25b7fa4fa02813b3bc76a57df5c8a6c38db9533ae75303e38db324",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M089242": {
+      "source_sha256": "4e9332bfc7bb76239f47960db97847d8df9ac05a7becc18c14b4711a8cf9cc48",
+      "compiled_source_sha256": "4e9332bfc7bb76239f47960db97847d8df9ac05a7becc18c14b4711a8cf9cc48",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M089243": {
+      "source_sha256": "e2c49ab2a6633143e748fd7fe8ae2a574aed6c383517366a9ea83af1b34c6343",
+      "compiled_source_sha256": "e2c49ab2a6633143e748fd7fe8ae2a574aed6c383517366a9ea83af1b34c6343",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M089317": {
+      "source_sha256": "f4cc2bb2f958cd61c3301c9a06fc484ea8f1eb831338b3d8088507e6ab54cc1e",
+      "compiled_source_sha256": "f4cc2bb2f958cd61c3301c9a06fc484ea8f1eb831338b3d8088507e6ab54cc1e",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M089318": {
+      "source_sha256": "d7c772cdd9dfe45cc608349cd4bc3f930d2a150cd5a014c635f5bff5c0c56cad",
+      "compiled_source_sha256": "d7c772cdd9dfe45cc608349cd4bc3f930d2a150cd5a014c635f5bff5c0c56cad",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M089389": {
+      "source_sha256": "8d4a01feb08e62de6d6c50fbd2a69ef164579c4212b7bc2384ab5e1ba3565a80",
+      "compiled_source_sha256": "8d4a01feb08e62de6d6c50fbd2a69ef164579c4212b7bc2384ab5e1ba3565a80",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M089390": {
+      "source_sha256": "be8ae337696e32b5d54aca0126addba992368cb6e26c23086d733e0f273378a4",
+      "compiled_source_sha256": "be8ae337696e32b5d54aca0126addba992368cb6e26c23086d733e0f273378a4",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M089534": {
+      "source_sha256": "06d4cbde8d45d1e7a451518ee9bd87d844cfba850fec4a316250df761cc851cc",
+      "compiled_source_sha256": "d87e7be3efc18632d878bd44dd298cdf9f5c1d62ed30facc29474fb9d065cbf0",
+      "patch_kind": "diagnostic",
+      "patch_sha256": "d72aa222c77cc9363e5ad6d4cd1fc0537d6fab73af7bd4df68f916cfb45fa507"
+    },
+    "M089859": {
+      "source_sha256": "d64ead6e508c2b954afe1fef379e9f3794380b34b725a7b2642ab2fd00f6fdb0",
+      "compiled_source_sha256": "d64ead6e508c2b954afe1fef379e9f3794380b34b725a7b2642ab2fd00f6fdb0",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M089975": {
+      "source_sha256": "bd8505a2333da8735e2d9c499f40a4a78912e2b1f4c143b9e1dd056be8430138",
+      "compiled_source_sha256": "bd8505a2333da8735e2d9c499f40a4a78912e2b1f4c143b9e1dd056be8430138",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090065": {
+      "source_sha256": "b6d87f0f235a7cdcca6c7f600c3a3b8044b4f6d89963ed3c453b4b941cef6fd4",
+      "compiled_source_sha256": "b6d87f0f235a7cdcca6c7f600c3a3b8044b4f6d89963ed3c453b4b941cef6fd4",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090143": {
+      "source_sha256": "f1d8f131747a88775f3e0c6c95b208662e20bf0091751e8d0b85f0e4134c955a",
+      "compiled_source_sha256": "bc8b416b1b8d0584ba55e0a01fe52462dc7404d7aa1c65d7d8ec895db491a937",
+      "patch_kind": "diagnostic",
+      "patch_sha256": "798f89ce5303e853a732bbb7fe0dfbcfb4922dd7a3775104de32e95425448b2f"
+    },
+    "M090173": {
+      "source_sha256": "319c3a68ff1f9b68eee30421fc07f865488bb55f557cbeaa3f2fe20ec9e8cd5f",
+      "compiled_source_sha256": "319c3a68ff1f9b68eee30421fc07f865488bb55f557cbeaa3f2fe20ec9e8cd5f",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090182": {
+      "source_sha256": "74f81d081d3e32c88d90f65bba8298d3f12b00b511b54319ff158fe9ab790856",
+      "compiled_source_sha256": "74f81d081d3e32c88d90f65bba8298d3f12b00b511b54319ff158fe9ab790856",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090336": {
+      "source_sha256": "5ebcd892b32e2171e38348071209e1274657f81914e33df1fab348f297553112",
+      "compiled_source_sha256": "11752d6e757fb599d25f7213c2f1829560ad1a22966e07ce992f3e06b1799950",
+      "patch_kind": "diagnostic",
+      "patch_sha256": "6aad6b5a1b86876cf32c41ab5118cf0d611c5dedcccbf737db24b30f64bd6e1c"
+    },
+    "M090350": {
+      "source_sha256": "730dd101984cb47c9c5363b231ffa9a8f2ad40c4e4a2c12cf220de309d52c4bd",
+      "compiled_source_sha256": "730dd101984cb47c9c5363b231ffa9a8f2ad40c4e4a2c12cf220de309d52c4bd",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090403": {
+      "source_sha256": "61d519700d711ce7a76afea993a8e58988853942199334ba4802d6f1a06a0a16",
+      "compiled_source_sha256": "61d519700d711ce7a76afea993a8e58988853942199334ba4802d6f1a06a0a16",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090404": {
+      "source_sha256": "d307041f98de4418c268539524912def4a392de528cc2754727ffdca35406af5",
+      "compiled_source_sha256": "01e50051fbbdb3b2674da7f9d07f9aa857c35268cacecdccb94a295d4c1a73fc",
+      "patch_kind": "landed",
+      "patch_sha256": "40eea7ca87ccb51d0c0a9890ea34b77ca864055bb93f8475fbee8175e309a9e2"
+    },
+    "M090410": {
+      "source_sha256": "66b82eafdd260b7e73f1d3bd73c86ef44a205ab3ba31c4f065b5c290d3cd5c1f",
+      "compiled_source_sha256": "66b82eafdd260b7e73f1d3bd73c86ef44a205ab3ba31c4f065b5c290d3cd5c1f",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090412": {
+      "source_sha256": "c45c6d2488ac8280be78b8eb7d78d350152b267e8d90df0def42da041b60e0c0",
+      "compiled_source_sha256": "c45c6d2488ac8280be78b8eb7d78d350152b267e8d90df0def42da041b60e0c0",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090419": {
+      "source_sha256": "b0eca868dc18044b4d400f45c7a936c53c11332171ccbdce4a4a40c5e340839f",
+      "compiled_source_sha256": "b0eca868dc18044b4d400f45c7a936c53c11332171ccbdce4a4a40c5e340839f",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090540": {
+      "source_sha256": "2cdeaf7f233f7c15865d9bdd0c3dbc0ac8c0c39d3732a35b46ed4be983e0ad16",
+      "compiled_source_sha256": "2cdeaf7f233f7c15865d9bdd0c3dbc0ac8c0c39d3732a35b46ed4be983e0ad16",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090555": {
+      "source_sha256": "0a400c21d53641367e79a742bf54ddb5d6a79274517da4a880a507b2bac1b369",
+      "compiled_source_sha256": "0a400c21d53641367e79a742bf54ddb5d6a79274517da4a880a507b2bac1b369",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090559": {
+      "source_sha256": "e7d03777e01628fbe9d491ab1a2549bcdb317ac692677fff781f52d9c530641b",
+      "compiled_source_sha256": "e7d03777e01628fbe9d491ab1a2549bcdb317ac692677fff781f52d9c530641b",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090567": {
+      "source_sha256": "c4fe8facf40ff2d2fbfeeb9f994ee7259aaa0cb867bfb85c9d6d0c5a9daf0f37",
+      "compiled_source_sha256": "c4fe8facf40ff2d2fbfeeb9f994ee7259aaa0cb867bfb85c9d6d0c5a9daf0f37",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090583": {
+      "source_sha256": "2c2714018dfe4100c7fd25a9c10feb5f02250ca32fb3cc5d179bf1de135491f5",
+      "compiled_source_sha256": "2c2714018dfe4100c7fd25a9c10feb5f02250ca32fb3cc5d179bf1de135491f5",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090588": {
+      "source_sha256": "ec3bca0cc95f899c96a506ebc8ac375b41f0f4efdebb32550602e95a31bb063e",
+      "compiled_source_sha256": "ec3bca0cc95f899c96a506ebc8ac375b41f0f4efdebb32550602e95a31bb063e",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090621": {
+      "source_sha256": "34160439ba5fb4666e0e9397f9c853fe179314a55bfbc36838d95120ce92f998",
+      "compiled_source_sha256": "34160439ba5fb4666e0e9397f9c853fe179314a55bfbc36838d95120ce92f998",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090666": {
+      "source_sha256": "cb842a07c3243aae06f834cb31eca938c641447dddcaaed6264e169dad5f1874",
+      "compiled_source_sha256": "cb842a07c3243aae06f834cb31eca938c641447dddcaaed6264e169dad5f1874",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090674": {
+      "source_sha256": "e530a30c40b9779c0b62015d0c631dfcf0ff3e5a84f30b40fc668853c99dee48",
+      "compiled_source_sha256": "e530a30c40b9779c0b62015d0c631dfcf0ff3e5a84f30b40fc668853c99dee48",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090675": {
+      "source_sha256": "8654e5383395d769b9a2fdb1d1a10c435e1fcd647f0801267be0b31a48b70222",
+      "compiled_source_sha256": "8654e5383395d769b9a2fdb1d1a10c435e1fcd647f0801267be0b31a48b70222",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090732": {
+      "source_sha256": "ecfc580515c63cadd7237cfdf310249df8d6880156bfc47bd6f51ce8d581badd",
+      "compiled_source_sha256": "1ed2acf2693b4fbf09de2907a5177c2e8edb94b222a5e5ad6cca4e28947fac45",
+      "patch_kind": "diagnostic",
+      "patch_sha256": "efe6d65b4c7982632e842ec282c62d0eedfde18369518845a0014cdaba4dede1"
+    },
+    "M090739": {
+      "source_sha256": "c19fe319877d14ad0fea731a077877f82a5f17c5be00c233c0d6907f34d483a8",
+      "compiled_source_sha256": "c19fe319877d14ad0fea731a077877f82a5f17c5be00c233c0d6907f34d483a8",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090765": {
+      "source_sha256": "442c3ee87dd02fd088bab713dab0205e1dda61cced40554167cbf0bac6454c81",
+      "compiled_source_sha256": "442c3ee87dd02fd088bab713dab0205e1dda61cced40554167cbf0bac6454c81",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090798": {
+      "source_sha256": "954dfccb21f79b5a126946a9f1dda3d40a90e19d4ae00e22ed6dd211a449f11a",
+      "compiled_source_sha256": "954dfccb21f79b5a126946a9f1dda3d40a90e19d4ae00e22ed6dd211a449f11a",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090807": {
+      "source_sha256": "43976d68b578303c2ffc16af0f773396ea3860677010b6e28fc8641a4396df56",
+      "compiled_source_sha256": "43976d68b578303c2ffc16af0f773396ea3860677010b6e28fc8641a4396df56",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090841": {
+      "source_sha256": "381a69a364c38ecf1fd20fbfea4ebb50e43c3a613a3de29331e0b80910c58a49",
+      "compiled_source_sha256": "381a69a364c38ecf1fd20fbfea4ebb50e43c3a613a3de29331e0b80910c58a49",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090848": {
+      "source_sha256": "b9653e70f6ab610131864f8fa490c1147abc66e33c0712c2bbcb9627c5b1dbe8",
+      "compiled_source_sha256": "b9653e70f6ab610131864f8fa490c1147abc66e33c0712c2bbcb9627c5b1dbe8",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090851": {
+      "source_sha256": "02ef02d4fe50da59c94833a37dfe3286c4796297612389bfea6b3a5c901670c6",
+      "compiled_source_sha256": "02ef02d4fe50da59c94833a37dfe3286c4796297612389bfea6b3a5c901670c6",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090852": {
+      "source_sha256": "3068420557ee456414403e62740baf8f9afaaefa424d4fc588953320b08e01ab",
+      "compiled_source_sha256": "3068420557ee456414403e62740baf8f9afaaefa424d4fc588953320b08e01ab",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090884": {
+      "source_sha256": "69255e7482580298da687c33f040a85632b8ca0c6457ce6d78322f7714997674",
+      "compiled_source_sha256": "69255e7482580298da687c33f040a85632b8ca0c6457ce6d78322f7714997674",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M090995": {
+      "source_sha256": "de57f75013d9122bcf1f6c0eb7b33f79a4a5395521198160086b9338730f0c02",
+      "compiled_source_sha256": "de57f75013d9122bcf1f6c0eb7b33f79a4a5395521198160086b9338730f0c02",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091050": {
+      "source_sha256": "a4877d8531a2b290e662674a2a0690a7e139c6bf57dcb76db376d820e5cc07a3",
+      "compiled_source_sha256": "a4877d8531a2b290e662674a2a0690a7e139c6bf57dcb76db376d820e5cc07a3",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091123": {
+      "source_sha256": "4dca3822b4295a568226441fc84856e7bf184b9f6f4ecab7cd88a6ebd5204396",
+      "compiled_source_sha256": "4dca3822b4295a568226441fc84856e7bf184b9f6f4ecab7cd88a6ebd5204396",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091383": {
+      "source_sha256": "b0998d1d1770e4ff9cbde0d844e8aaa5c968ed6568f603c8aecdb7ccd87ada12",
+      "compiled_source_sha256": "b0998d1d1770e4ff9cbde0d844e8aaa5c968ed6568f603c8aecdb7ccd87ada12",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091385": {
+      "source_sha256": "ea3f4a2260fd05c8a185c6e082bb31b750702ea0814047449ef18d91342848e1",
+      "compiled_source_sha256": "ea3f4a2260fd05c8a185c6e082bb31b750702ea0814047449ef18d91342848e1",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091400": {
+      "source_sha256": "6b1aa38e267bcc4438523069ef4b06db23f7234c48fefd1620dfa5f6d04f3773",
+      "compiled_source_sha256": "6b1aa38e267bcc4438523069ef4b06db23f7234c48fefd1620dfa5f6d04f3773",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091408": {
+      "source_sha256": "4e9f75229967a8f9a43aaf3c8aedbf1cf0da111270dbfe3519b4f178c7feeb05",
+      "compiled_source_sha256": "4e9f75229967a8f9a43aaf3c8aedbf1cf0da111270dbfe3519b4f178c7feeb05",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091409": {
+      "source_sha256": "3c8be54c0058e9c359167e851881fc46eebb3bf0c48e524624fbc6f8b3ded2be",
+      "compiled_source_sha256": "3c8be54c0058e9c359167e851881fc46eebb3bf0c48e524624fbc6f8b3ded2be",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091441": {
+      "source_sha256": "59366c9cd4e05b491a6ee819deee975874e67b92f4910de41f673ba498697565",
+      "compiled_source_sha256": "586427dd9c22d8d0a631240f617866de4f8c6b360949577216e0edc3a9b1b9e0",
+      "patch_kind": "diagnostic",
+      "patch_sha256": "006fa2dcbc5e9149eed0febd0267527d128c0d7db109934a50d3de71b71101b9"
+    },
+    "M091528": {
+      "source_sha256": "da1ce95b50ba152d73993b137760b4b6a7b23ed67648824a58b13c5c44ec926c",
+      "compiled_source_sha256": "ab6e4999aacbf0308b4940e2c38c6beb2386be906667eb902563fcdb9936833f",
+      "patch_kind": "diagnostic",
+      "patch_sha256": "7cf23687e3abcaf50ec49a021a9670fca9c7272b3b672193a4b7d877b5da9652"
+    },
+    "M091533": {
+      "source_sha256": "dcb56dd79af90e335cecaecd29af73b74ce59eee8289ee8b89b93a2ab0fa5ffe",
+      "compiled_source_sha256": "dcb56dd79af90e335cecaecd29af73b74ce59eee8289ee8b89b93a2ab0fa5ffe",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091558": {
+      "source_sha256": "f91c8a8619e670e7e18a1c65147c4a704e26870b9ad7b709932a236666ca4d56",
+      "compiled_source_sha256": "f91c8a8619e670e7e18a1c65147c4a704e26870b9ad7b709932a236666ca4d56",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091568": {
+      "source_sha256": "a8017e037122ed04175e233cb2022e0f4cf1ba9b168533f3d825dfc9280e1a39",
+      "compiled_source_sha256": "a8017e037122ed04175e233cb2022e0f4cf1ba9b168533f3d825dfc9280e1a39",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091581": {
+      "source_sha256": "2b3f4bda3902393383f63b46746888da8ba7c87b871cedb1d4179d7b1936376b",
+      "compiled_source_sha256": "2b3f4bda3902393383f63b46746888da8ba7c87b871cedb1d4179d7b1936376b",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091594": {
+      "source_sha256": "47fecad2ae501d926be1275e6786d27fe825a94e73d0cb4b531496de768fcfec",
+      "compiled_source_sha256": "47fecad2ae501d926be1275e6786d27fe825a94e73d0cb4b531496de768fcfec",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091646": {
+      "source_sha256": "49728aa589a3a306758810a3ccc718642a8c425cde20ed08019d4e28bfdb8362",
+      "compiled_source_sha256": "135c0d636d496f6738ce34cd5a3b0f500aee84132e0db8f72b2f54d31c4c26ec",
+      "patch_kind": "landed",
+      "patch_sha256": "e407838f7eb3fe86dd2779deae4e84e67580a30f8ec4e53aac1795e6c5f3717e"
+    },
+    "M091792": {
+      "source_sha256": "d30f0a34aef61c56eee55a3a8a652d5675d0bec91ec3b274bc6d77f41d6c64e8",
+      "compiled_source_sha256": "a3c0717668c22445eaad0a138f291a6b011bbbd147d72b67eeaeb10f0df3056a",
+      "patch_kind": "diagnostic",
+      "patch_sha256": "ff210610da334ff9b0f17daa0c119ee8f8a7b4712f588f88cf0e138e68053c68"
+    },
+    "M091830": {
+      "source_sha256": "1eb4da77d82349c80b58d8260885a7b311c8d60faa2b96bfb734c3a5b42d31e8",
+      "compiled_source_sha256": "1eb4da77d82349c80b58d8260885a7b311c8d60faa2b96bfb734c3a5b42d31e8",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091831": {
+      "source_sha256": "f32f2944dd0256adee7512d49aa8f48813916e6486f1a7773542df92f2d6258b",
+      "compiled_source_sha256": "f32f2944dd0256adee7512d49aa8f48813916e6486f1a7773542df92f2d6258b",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M091926": {
+      "source_sha256": "b398cdad3cc55810b77b688282cd6f62fd8b4b3a1c1d28b681e507d6338af4e9",
+      "compiled_source_sha256": "b398cdad3cc55810b77b688282cd6f62fd8b4b3a1c1d28b681e507d6338af4e9",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M096317": {
+      "source_sha256": "aaaf160624a55bdc618b2503f50732859358a6d89005a2976d883c47b0b0919c",
+      "compiled_source_sha256": "27b63ed419a85d2e8be656853b31b54579b3d7168d402b7d448c1a5911dfddcf",
+      "patch_kind": "landed",
+      "patch_sha256": "9e10bcbb1cbfa90de254b28d35b93db876af885cad3243c8da910c5932ddd417"
+    },
+    "M171914": {
+      "source_sha256": "9eadba78003b282b3aaf496ba15d3e9311b534147944c63b39dde81eddd6e3bb",
+      "compiled_source_sha256": "6911f73f6d72de2d380ad37f75bcd6e19bbeb7fd0cfca840ada302cbdf6d0b1e",
+      "patch_kind": "landed",
+      "patch_sha256": "c6f570773d54ea9a57a7941b026982d4e7feffb1480b607d31f3636f2e435e75"
+    },
+    "M173615": {
+      "source_sha256": "d1587fdf5bc9677cc1bee021345bc505110f0c0baf04765d3df81d719d5e0359",
+      "compiled_source_sha256": "d1587fdf5bc9677cc1bee021345bc505110f0c0baf04765d3df81d719d5e0359",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M173688": {
+      "source_sha256": "ee0786e6be51be09e4d208eec594ee996788439df24a9ad7b0149255a322cb82",
+      "compiled_source_sha256": "ee0786e6be51be09e4d208eec594ee996788439df24a9ad7b0149255a322cb82",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M175174": {
+      "source_sha256": "3aa68cbaf6b4374299776532420566499685bb1096ab7a44276cf135b16c070c",
+      "compiled_source_sha256": "3aa68cbaf6b4374299776532420566499685bb1096ab7a44276cf135b16c070c",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    }
+  },
+  "lean_version": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "lean_commit": "611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+  "dependencies": [
+    {
+      "name": "mathlib",
+      "commit": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842"
+    },
+    {
+      "name": "plausible",
+      "commit": "054b228ce0ac61d767c6e71ba73a24728f191b72"
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "4fb58e749ef3fc0395fe274f6cab70c2ea85f1c9"
+    },
+    {
+      "name": "importGraph",
+      "commit": "8370c640afcd1cc3fb1cb9bf1560cc66eafee5e0"
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "2f0f3520daeac2d9310ff25b7a877a0e5cdaa203"
+    },
+    {
+      "name": "aesop",
+      "commit": "66ff77cf0c4c898799e4b94d14db55f7a02d0c5a"
+    },
+    {
+      "name": "Qq",
+      "commit": "ff055a2fcc835935e0ae607339b455a5f5896b4b"
+    },
+    {
+      "name": "batteries",
+      "commit": "b4b25a3886a16daacaf6615c2eea7170a6e8f458"
+    },
+    {
+      "name": "Cli",
+      "commit": "50810f72af7618bee62fe9800dc26e806c188703"
+    }
+  ],
+  "lake_manifest_sha256": "ee003c5c7a9b2b2a82a142b6633916661c07117199dd143d94d1af63910237df",
+  "passed": 64,
+  "failed": 0,
+  "ended_utc": "2026-11-21T23:49:05.637928+00:00"
+}

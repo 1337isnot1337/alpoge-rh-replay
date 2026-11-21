@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.YonedaAddNaturalityLeft",
+  "source_sha256": "bd8505a2333da8735e2d9c499f40a4a78912e2b1f4c143b9e1dd056be8430138",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
