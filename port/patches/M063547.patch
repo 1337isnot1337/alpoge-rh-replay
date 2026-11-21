@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean
+@@ -156,7 +156,7 @@
+         exact Ideal.Quotient.eq_zero_iff_mem.mpr hap
+       rw [h] at this
+       exact ha this
+-    have h4 := Ideal.isMaximal_of_isIntegral_of_isMaximal_comap (R := A) (⊥ : Ideal (B ⧸ p)) h3
++    have h4 := Ideal.isMaximal_of_isIntegral_of_isMaximal_under (R := A) (⊥ : Ideal (B ⧸ p)) h3
+     exact Ideal.Quotient.maximal_of_isField _ (Ring.isField_iff_maximal_bot.mpr h4)
+ 
+ end KrullAkizuki

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SplitHeightSummableExpNegAbs",
+  "source_sha256": "1cb3f1367dc9501f8c2bccc21d3b319ec80ad592d67353cbf5e02111c118ad38",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the finite product inequality for nonnegative factors."
+}

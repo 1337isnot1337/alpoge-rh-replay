@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsEigenProjectorRingOfIntegers",
+  "source_sha256": "d1fec9091d2c90e3be860a15766cdd136def5ac4c5a8d3200c1881594a8c9211",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the normalization specification and its explicit non-zero-divisor membership witness."
+}
