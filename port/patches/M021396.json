@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DirectedSystemEtaleBaseChangePolynomial",
+  "source_sha256": "3082d8b9f5ee868b96cbb56677bf2ce3debe3c096035e1811fc0f100bca029a6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Polynomial.coeff_monomial_apply instead of Polynomial.coeff_monomial in Mathlib v4.36.0."
+}

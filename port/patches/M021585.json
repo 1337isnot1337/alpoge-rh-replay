@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DoubleCosetSemidirectRepSurjective",
+  "source_sha256": "177dcb719ca9de0de2b98fe7afcfc22ad49c41d793d90e0cf88d03b16f0e1a9d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Adapt DoubleCoset.eq and DoubleCoset.out_eq' calls to implicit subgroup arguments in Mathlib v4.36.0."
+}

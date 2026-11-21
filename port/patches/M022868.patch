@@ -1,0 +1,10 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/EtaleIntegralClosureTensorOfEtaleOfIsIntegral.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/EtaleIntegralClosureTensorOfEtaleOfIsIntegral.lean
+@@ -18,7 +18,6 @@
+       (TensorProduct.toIntegralClosure R B K y : B ⊗[R] K) = b ⊗ₜ[R] (1 : K) := by
+     intro y
+     induction y with
+-    | zero => exact ⟨0, by simp⟩
+     | tmul b c =>
+       obtain ⟨r, hr⟩ := IsIntegrallyClosed.isIntegral_iff.1 c.2
+       refine ⟨r • b, ?_⟩

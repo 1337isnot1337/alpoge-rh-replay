@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleLocalizationAtPrimeOfHeightOne",
+  "source_sha256": "7da1254d48ad00853c61966a3d107fb2c8e240f83eb1df7f460fbd2a4307afb5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace IsLocalization.height_comap with IsLocalization.height_under via Ideal.under in Mathlib v4.36.0."
+}

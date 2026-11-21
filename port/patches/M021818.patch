@@ -1,0 +1,14 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DualHopfOrderGaussSum.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DualHopfOrderGaussSum.lean
+@@ -29,8 +29,9 @@
+     exact ha haQ
+   let Q' : Ideal Ap[X] := Q₀.map (algebraMap A[X] Ap[X])
+   haveI hQ' : Q'.IsPrime := IsLocalization.isPrime_of_isPrime_disjoint M Ap[X] Q₀ inferInstance hdisj
+-  have hc : Q'.comap (algebraMap A[X] Ap[X]) = Q₀ :=
+-    IsLocalization.comap_map_of_isPrime_disjoint M Ap[X] inferInstance hdisj
++  have hc : Q'.comap (algebraMap A[X] Ap[X]) = Q₀ := by
++    rw [← Ideal.under_def]
++    exact IsLocalization.under_map_of_isPrime_disjoint M Ap[X] inferInstance hdisj
+   have h := IsLocalization.isLocalization_isLocalization_atPrime_isLocalization M
+     (Localization.AtPrime Q') Q'
+   have e : (Q'.comap (algebraMap A[X] Ap[X])).primeCompl = Q₀.primeCompl := by
