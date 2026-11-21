@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedFderivParametricUniformBound",
+  "source_sha256": "3f19171b2fe047eb830ed53b8f513dd613b4c997f9a4a609de58c1d23e5f6ff5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_le_one\u2080 with the existing nonnegativity hypothesis. Statements are unchanged."
+}

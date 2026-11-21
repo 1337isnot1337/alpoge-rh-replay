@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedDerivativeHomogeneousBound",
+  "source_sha256": "c3a3fe9395d8621a9e9444235b64f81e9cfe1a256d9f8141ddf1b5d54dc3e563",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_le_prod\u2080 with the existing nonnegativity hypothesis. Statements are unchanged."
+}

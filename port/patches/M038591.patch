@@ -1,0 +1,12 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IsOpenConnectedComponentOfIsLocallyNoetherian.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IsOpenConnectedComponentOfIsLocallyNoetherian.lean
+@@ -25,7 +25,8 @@
+     exact hZ htZ
+   have hcl : IsClosed Cᶜ := by
+     rw [hC]
+-    exact (NoetherianSpace.finite_irreducibleComponents.subset fun _ h => h.1).isClosed_biUnion
++    exact (NoetherianSpace.finite_irreducibleComponents.subset
++      (show {Z ∈ irreducibleComponents Y | Z ⊆ Cᶜ} ⊆ irreducibleComponents Y from fun _ h => h.1)).isClosed_biUnion
+       fun Z h => isClosed_of_mem_irreducibleComponents Z h.1
+   exact isClosed_compl_iff.1 hcl
+ 

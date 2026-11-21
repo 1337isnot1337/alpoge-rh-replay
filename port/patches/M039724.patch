@@ -1,0 +1,10 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/KerCounitAlgHomBaseChangeField.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/KerCounitAlgHomBaseChangeField.lean
+@@ -17,7 +17,6 @@
+         (Algebra.TensorProduct.map (AlgHom.id O κ) (Bialgebra.counitAlgHom O B) x) := by
+     intro x
+     induction x with
+-    | zero => simp
+     | add x y hx hy => simp only [map_add, hx, hy]
+     | tmul c b => simp [TensorProduct.counit_tmul]
+   ext x
