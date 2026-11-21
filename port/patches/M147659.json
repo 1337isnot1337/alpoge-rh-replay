@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.AdelicCompactOpens.IntAdelesCompactOpen",
+  "source_sha256": "31c2de5e093c134090349e3aeb66f8470839875c45ececdcf2019ece071977b5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

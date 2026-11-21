@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.CharacterGerms.GeNatCast",
+  "source_sha256": "e305c4e018376ea3f2b37c8f0041cf0f54cc2a8c50449df9ec0dd6e921921716",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.IndefiniteReal.NormalDecomposition.DecompOfNormalStatement",
+  "source_sha256": "ef8b69557b0410b5cc58999d92446b2cfe5540c25ccc17811efdb91bede61850",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

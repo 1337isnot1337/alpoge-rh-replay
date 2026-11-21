@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.GlobalTheory.GL3.CubicFields.EisensteinSeries.DslopePhiCDifferentiableAt",
+  "source_sha256": "28779b014b9bff69d20b4c272ba2feb22fed1da41b996b770b292bdcb7edf662",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

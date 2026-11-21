@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.GlobalTheory.GL3.CubicFields.DedekindFactorization.OmegaPoly",
+  "source_sha256": "d926a30a8d60b491652bbc84d97e41ce2373871c63b7a70b0e018d2b84e2ba03",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

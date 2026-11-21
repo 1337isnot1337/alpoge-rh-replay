@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.Columns.MemWmPerp",
+  "source_sha256": "6225b767cf9d481cd457a3e9892e5036d5532aa2527b7e5f5a9c3f1919cfccbe",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

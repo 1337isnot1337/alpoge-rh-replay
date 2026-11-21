@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.CharacterGerms.RowTiePSplitDef",
+  "source_sha256": "0cf2502ae607c26d86af3801b03bfd48d5d37806bcdc81ba9d06d7904f49de93",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.GlobalTheory.GL3.CubicFields.EisensteinSeries.RemLipTermA",
+  "source_sha256": "23f549765171d767031ed105fa35b9774c967cb5eb8d77b0d90b2775e0e32bf9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.GlobalTheory.GL6.CoordMapInjective",
+  "source_sha256": "a3ae2da5dce76590b7e9de4bdfff560f02d4536163dc98635ffd244a74261525",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.IndefiniteReal.HaarTransfer.SobLeafP",
+  "source_sha256": "19548fbda4b6684256653e894c860d518c38305fe1fc8ee161af12a9f8057057",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

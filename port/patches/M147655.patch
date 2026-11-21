@@ -1,0 +1,29 @@
+--- a/src/Formalism/LocalRingCardinality/SpanPowerMembership/UrRing.lean
++++ b/src/Formalism/LocalRingCardinality/SpanPowerMembership/UrRing.lean
+@@ -221,7 +221,7 @@
+     obtain ⟨i, hi, hmax⟩ := g.support.exists_max_image (fun n => ‖(g.coeff n : C)‖) (support_nonempty.mpr hg0)
+     have hc0 : g.coeff i ≠ 0 := mem_support_iff.mp hi
+     have hc0' : (g.coeff i : C) ≠ 0 := fun h => hc0 (Subtype.ext h)
+-    obtain ⟨g0, hg0e, hg0d⟩ := (mem_lifts_and_degree_eq (lifts_of_coeff M (Polynomial.C (g.coeff i)⁻¹ * g) fun n => by
++    obtain ⟨g0, hg0e, hg0d⟩ := (exists_degree_eq_of_mem_lifts (lifts_of_coeff M (Polynomial.C (g.coeff i)⁻¹ * g) fun n => by
+       rw [coeff_C_mul]
+       push_cast
+       rw [norm_mul, norm_inv, inv_mul_le_one₀ (norm_pos_iff.mpr hc0')]
+@@ -233,7 +233,7 @@
+     have hu := unit g0 (by
+       rw [hg0d, degree_C_mul (inv_ne_zero hc0), ← hfm.degree_map (algebraMap (ball M) M)]
+       exact degree_modByMonic_lt q hF) (fun h => by
+-      have := congrArg (coeff · i) h
++      have := congrArg (fun p : (ResidueField (ball M))[X] => p.coeff i) h
+       simp [hco] at this)
+     rw [← aeval_map_algebraMap M, hg0e, map_mul, aeval_C, norm_mul, hgx] at hu
+     obtain ⟨n, hn⟩ := hM.1 _ (g.coeff i).2 hc0'
+@@ -297,7 +297,7 @@
+     have hm : (⟨π, le_ext M ζ hπ, h1.le⟩ : ball (ext M ζ)) ∈ maximalIdeal _ := (mem_max _ _).mpr h1
+     rw [isField_iff_maximalIdeal_eq.mp hf, Ideal.mem_bot] at hm
+     exact h0 (congrArg Subtype.val hm)
+-  exact ⟨hfin, ((IsDiscreteValuationRing.TFAE _ hnf).out 0 2).mpr hded⟩
++  exact ⟨hfin, ((IsDiscreteValuationRing.TFAE _ hnf).out 1 3).mpr hded⟩
+ 
+ theorem ext_gen (hζ : IsIntegral M ζ) (z : ball (ext M ζ)) (hz : (z : C) = ζ)
+     (x : FractionRing (ball (ext M ζ))) : ∃ p : (ball M)[X], ∃ d : ball M, d ≠ 0 ∧

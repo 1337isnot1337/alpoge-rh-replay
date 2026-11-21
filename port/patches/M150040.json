@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.NormalizedHeckeFactors.ExtNRowsGen",
+  "source_sha256": "4b3d69fdce17e42c1258c5f737ade0e0178870964d39e8741c36e36a47124c4b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

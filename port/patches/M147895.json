@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.CharacterGerms.RowTiePKeyJointDef",
+  "source_sha256": "bf926eabaac62e37a7406767e8d6cf8f67d8e5fcbdaad3fc54abfdf56a24073b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

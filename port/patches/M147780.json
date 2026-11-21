@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.CharacterGerms.ExistsStrictMonoMinor",
+  "source_sha256": "230c4a861b0a87d5c9f057994dd14be2e1e2c5e4321eeb155d9bb185048e127d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
