@@ -1,6 +1,6 @@
 # Reviewed volunteer evidence
 
-9,544 entries.
+5,466 entries.
 
 - [Entries 1–250](page-001.md)
 - [Entries 251–500](page-002.md)
@@ -23,21 +23,4 @@
 - [Entries 4,501–4,750](page-019.md)
 - [Entries 4,751–5,000](page-020.md)
 - [Entries 5,001–5,250](page-021.md)
-- [Entries 5,251–5,500](page-022.md)
-- [Entries 5,501–5,750](page-023.md)
-- [Entries 5,751–6,000](page-024.md)
-- [Entries 6,001–6,250](page-025.md)
-- [Entries 6,251–6,500](page-026.md)
-- [Entries 6,501–6,750](page-027.md)
-- [Entries 6,751–7,000](page-028.md)
-- [Entries 7,001–7,250](page-029.md)
-- [Entries 7,251–7,500](page-030.md)
-- [Entries 7,501–7,750](page-031.md)
-- [Entries 7,751–8,000](page-032.md)
-- [Entries 8,001–8,250](page-033.md)
-- [Entries 8,251–8,500](page-034.md)
-- [Entries 8,501–8,750](page-035.md)
-- [Entries 8,751–9,000](page-036.md)
-- [Entries 9,001–9,250](page-037.md)
-- [Entries 9,251–9,500](page-038.md)
-- [Entries 9,501–9,544](page-039.md)
+- [Entries 5,251–5,466](page-022.md)
