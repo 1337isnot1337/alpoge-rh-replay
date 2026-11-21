@@ -35,7 +35,7 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- active-volunteers-start -->
 
-[1,101 entries. View the full table](tracker/volunteer-tables/active/README.md).
+[1,098 entries. View the full table](tracker/volunteer-tables/active/README.md).
 
 | Contributor | Task | Status |
 |---|---|---|
@@ -69,7 +69,7 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- pending-volunteers-start -->
 
-[4,840 entries. View the full table](tracker/volunteer-tables/pending/README.md).
+[4,843 entries. View the full table](tracker/volunteer-tables/pending/README.md).
 
 | Contributor | Task | Review |
 |---|---|---|

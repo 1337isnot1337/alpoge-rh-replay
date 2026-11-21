@@ -77,9 +77,6 @@
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M108238](https://github.com/rohanarun/alpoge-rh-replay/issues/12595) | Claimed |
 | [@UnityChaos](https://github.com/UnityChaos) | [M120990](https://github.com/rohanarun/alpoge-rh-replay/issues/12596) | Claimed |
 | [@UnityChaos](https://github.com/UnityChaos) | [M153702](https://github.com/rohanarun/alpoge-rh-replay/issues/12598) | Claimed |
-| [@UnityChaos](https://github.com/UnityChaos) | [M101541](https://github.com/rohanarun/alpoge-rh-replay/issues/12599) | Claimed |
-| [@UnityChaos](https://github.com/UnityChaos) | [M093913](https://github.com/rohanarun/alpoge-rh-replay/issues/12600) | Claimed |
-| [@UnityChaos](https://github.com/UnityChaos) | [M157495](https://github.com/rohanarun/alpoge-rh-replay/issues/12601) | Claimed |
 | [@UnityChaos](https://github.com/UnityChaos) | [M044580](https://github.com/rohanarun/alpoge-rh-replay/issues/12602) | Claimed |
 | [@UnityChaos](https://github.com/UnityChaos) | [M115572](https://github.com/rohanarun/alpoge-rh-replay/issues/12612) | Claimed |
 | [@twaldin](https://github.com/twaldin) | [P2066](https://github.com/rohanarun/alpoge-rh-replay/issues/12614) | Claimed |
