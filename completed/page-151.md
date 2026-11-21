@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M156192 | P0859 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.NormRepresentationLift.HTOsmulRight` | build-observed |
+| M156193 | P0912 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.NormRepresentationLift.IntLatOfUnimod` | build-observed |
+| M156194 | P0968 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.NormRepresentationLift.NormRepStepOfTrace` | build-observed |
 | M156195 | P0940 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.NormRepresentationLift.PreRowvec` | build-observed |
 | M156196 | P0886 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.NormRepresentationLift.ResidueOnto` | build-observed |
 | M156197 | P0996 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.NormRepresentationLift.StarSqrtMinusD` | build-observed |
@@ -399,6 +402,3 @@
 | M156642 | P0859 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SizeAbsorption.Development` | build-observed |
 | M156643 | P0887 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SizeAbsorption.ExpPowEq` | build-observed |
 | M156644 | P0912 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SizeAbsorption.PrimeWeightedRemainderBound` | build-observed |
-| M156645 | P0912 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SizeAbsorption.SizeDel` | build-observed |
-| M156646 | P0859 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SizeCount.BlockRowLe` | build-observed |
-| M156647 | P0859 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SizeCount.Development` | build-observed |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M110898 | P1606 | `Development.AutomorphicArithmetic.Foundations.Convolution.IntegrableConvolution.MatchInf` | volunteer-build-reviewed |
+| M110899 | P1656 | `Development.AutomorphicArithmetic.Foundations.Convolution.IntegrableConvolution.MatchOfScale` | volunteer-build-reviewed |
+| M110900 | P1633 | `Development.AutomorphicArithmetic.Foundations.Convolution.IntegrableConvolution.MatchProd` | volunteer-build-reviewed |
 | M110901 | P1577 | `Development.AutomorphicArithmetic.Foundations.Convolution.IntegrableConvolution.MatchSplit` | volunteer-build-reviewed |
 | M110903 | P1550 | `Development.AutomorphicArithmetic.Foundations.Convolution.IntegrableConvolution.PositionOf` | volunteer-build-reviewed |
 | M110904 | P1550 | `Development.AutomorphicArithmetic.Foundations.Convolution.IntegrableConvolution.PushTens` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M111516 | P1932 | `Development.AutomorphicArithmetic.Foundations.Convolution.SplitEigenfunctions.HermitianMatrixBasisOne` | volunteer-build-reviewed |
 | M111517 | P1932 | `Development.AutomorphicArithmetic.Foundations.Convolution.SplitEigenfunctions.HermitianStandardVector` | volunteer-build-reviewed |
 | M111519 | P1950 | `Development.AutomorphicArithmetic.Foundations.Convolution.SplitEigenfunctions.InfPair` | volunteer-build-reviewed |
-| M111522 | P1932 | `Development.AutomorphicArithmetic.Foundations.Convolution.SplitEigenfunctions.InfinitePlaceGluing.CenExOf` | volunteer-build-reviewed |
-| M111523 | P1932 | `Development.AutomorphicArithmetic.Foundations.Convolution.SplitEigenfunctions.InfinitePlaceGluing.ContInfGL2` | volunteer-build-reviewed |
-| M111527 | P1932 | `Development.AutomorphicArithmetic.Foundations.Convolution.SplitEigenfunctions.InfinitePlaceGluing.ExistsNat` | volunteer-build-reviewed |

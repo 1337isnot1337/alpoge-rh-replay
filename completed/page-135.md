@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M146370 | P1318 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.GermStep` | build-observed |
+| M146371 | P0272 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.GermSumLattices` | build-observed |
+| M146374 | P0272 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.GramConjugationNorm` | build-observed |
 | M146375 | P0272 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.GramKernelHermitian` | build-observed |
 | M146377 | P0801 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.GramLocTendsto` | build-observed |
 | M146378 | P0421 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.GramProductIdentities` | build-observed |
@@ -399,6 +402,3 @@
 | M147067 | P0665 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.ThirdCountLemmaVariant` | build-observed |
 | M147068 | P0830 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.ThirdPeelingMinorMemIdeal` | build-observed |
 | M147069 | P0694 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.ThirdPolynomialExpansion` | build-observed |
-| M147074 | P1528 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.ThmPActualCptOfStepParts2` | worker-kernel-checked |
-| M147077 | P0375 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.ThresholdBelowOne` | build-observed |
-| M147078 | P0665 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.ThresholdExponentEstimate` | build-observed |

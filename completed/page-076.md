@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M087666 | P0448 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.FibreFieldPointsCardLEDiagonalComplementSecondPr` | volunteer-build-reviewed |
+| M087668 | P0407 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.FibrePointsLEId` | volunteer-build-reviewed |
+| M087670 | P1986 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.FieldIsoMatrixCongruenceAutomorphismCongruenceStatement` | volunteer-build-reviewed |
 | M087671 | P2005 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.FieldPointLiftsGenericFibre` | volunteer-build-reviewed |
 | M087672 | P1311 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.FilPEqSpanBetaDPow` | volunteer-build-reviewed |
 | M087673 | P1335 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.FilPEqSpanBetaDPowStatement` | build-observed |
@@ -399,6 +402,3 @@
 | M089580 | P1986 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.TameLocalCharacterDetCongruentOneEqOne` | volunteer-build-reviewed |
 | M089581 | P2006 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.TameLocalCharacterDetCongruentOneEqOneStatement` | volunteer-build-reviewed |
 | M089583 | P1598 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.TameParahoricRepSplitsAsProductStatement` | volunteer-build-reviewed |
-| M089592 | P1042 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.TauPlBijective` | volunteer-build-reviewed |
-| M089598 | P0407 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.TemperedOfLpDimLeOneOfUnitEigenvalues` | volunteer-build-reviewed |
-| M089609 | P1598 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.TensorFrobeniusSemisimplificationStatement` | volunteer-build-reviewed |

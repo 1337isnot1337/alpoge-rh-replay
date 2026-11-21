@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M149125 | P0995 | `Formalism.LocalToGlobal.HermitianColumns.ClsNonempty` | build-observed |
+| M149126 | P0967 | `Formalism.LocalToGlobal.HermitianColumns.CocycleZeroMemInvariants` | build-observed |
+| M149127 | P1049 | `Formalism.LocalToGlobal.HermitianColumns.ColsHerm` | build-observed |
 | M149128 | P0775 | `Formalism.LocalToGlobal.HermitianColumns.CompletionIntegersIff` | build-observed |
 | M149129 | P0775 | `Formalism.LocalToGlobal.HermitianColumns.CoordinateLatticeSelfDual` | build-observed |
 | M149130 | P1107 | `Formalism.LocalToGlobal.HermitianColumns.FullSym` | build-observed |
@@ -399,6 +402,3 @@
 | M150041 | P0775 | `Formalism.LocalToGlobal.NormalizedHeckeFactors.GlobalDatumRegularityOfTypesCompatibility` | build-observed |
 | M150042 | P0748 | `Formalism.LocalToGlobal.NormalizedHeckeFactors.HeckeStdTwOfStd` | build-observed |
 | M150043 | P1188 | `Formalism.LocalToGlobal.NormalizedHeckeFactors.HostConj` | build-observed |
-| M150044 | P0722 | `Formalism.LocalToGlobal.NormalizedHeckeFactors.NormalizedHeckeData` | build-observed |
-| M150045 | P1188 | `Formalism.LocalToGlobal.NormalizedHeckeFactors.PendTie` | build-observed |
-| M150046 | P1878 | `Formalism.LocalToGlobal.NormalizedHeckeFactors.RankZeroOfLevelThree` | build-observed |

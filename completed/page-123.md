@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M135052 | P0143 | `Development.EtaleCohomology.CohomologicalPurity.LeafCoeqPf` | volunteer-build-reviewed |
+| M135053 | P0662 | `Development.EtaleCohomology.CohomologicalPurity.LeafCokIsoPf` | build-observed |
+| M135054 | P0143 | `Development.EtaleCohomology.CohomologicalPurity.LeafColHensPf` | volunteer-build-reviewed |
 | M135055 | P0143 | `Development.EtaleCohomology.CohomologicalPurity.LeafColUnivPf` | volunteer-build-reviewed |
 | M135056 | P0143 | `Development.EtaleCohomology.CohomologicalPurity.LeafCompPf` | volunteer-build-reviewed |
 | M135057 | P0719 | `Development.EtaleCohomology.CohomologicalPurity.LeafConeCokPf` | build-observed |
@@ -399,6 +402,3 @@
 | M135771 | P0567 | `Development.EtaleCohomology.EtaleSheaves.LeafUnitPairPf` | wave-reused |
 | M135783 | P0497 | `Development.EtaleCohomology.EtaleSheaves.LeafWhitneyPf` | wave-reused |
 | M135784 | P0746 | `Development.EtaleCohomology.EtaleSheaves.LeafZModInjFlatPf` | wave-reused |
-| M135785 | P0533 | `Development.EtaleCohomology.EtaleSheaves.LevelIdentPf` | build-observed |
-| M135786 | P0632 | `Development.EtaleCohomology.EtaleSheaves.LiftPf` | wave-reused |
-| M135787 | P0567 | `Development.EtaleCohomology.EtaleSheaves.LimIntPf` | wave-reused |

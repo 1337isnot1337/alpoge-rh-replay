@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M059999 | P1672 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SaturatedSpanOfGramDetIsUnitIntegralLatticeStatement` | volunteer-build-reviewed |
+| M060002 | P0815 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ScalarOfMultOne` | build-observed |
+| M060009 | P1983 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SchurAlongFamily` | volunteer-build-reviewed |
 | M060011 | P1279 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SecondCountableFiniteAdelicUnitaryPointsStatement` | volunteer-build-reviewed |
 | M060012 | P2039 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SeeExJoinPin` | volunteer-build-reviewed |
 | M060015 | P0897 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SelfDualHermitianFlagAtComplexEmbedding` | build-observed |
@@ -399,6 +402,3 @@
 | M060833 | P1062 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.RosIdSt` | wave-reused |
 | M060834 | P0815 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.RosatiCubicalAdditive` | wave-reused |
 | M060835 | P1034 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.RosatiGenOneMulStar` | wave-reused |
-| M060836 | P0444 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.SecondOrderMonomial` | wave-reused |
-| M060837 | P0925 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.SecondPartialLawPushAlongTripleMap` | build-observed |
-| M060838 | P0953 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.SecondPartialLawPushAlongTripleMapStatement` | build-observed |

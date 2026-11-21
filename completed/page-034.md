@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M039147 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTransportF` | volunteer-build-reviewed |
+| M039150 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTransv` | volunteer-build-reviewed |
+| M039154 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTwistedThetaValuePullbackBaseChange` | volunteer-build-reviewed |
 | M039156 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTwistedThetaValueTranslateOrthogonalTorsion` | volunteer-build-reviewed |
 | M039160 | P1817 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTwoPlaneFrame` | volunteer-build-reviewed |
 | M039161 | P1839 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsUSplittingInl` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M040386 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSpanInfRationalSubspaceIntegersExtStatement` | volunteer-build-reviewed |
 | M040388 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSpanIntersectionSubspaceStatement` | volunteer-build-reviewed |
 | M040389 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSpannedByGLColumnsEqIff` | volunteer-build-reviewed |
-| M040391 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSpannedByGLColumnsEqIffGLintCosetStatement` | volunteer-build-reviewed |
-| M040392 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSpannedByGLColumnsEqIffStatement` | volunteer-build-reviewed |
-| M040394 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSpannedByGLColumnsMulLeftMatrixEqMulStatement` | volunteer-build-reviewed |

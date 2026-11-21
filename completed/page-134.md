@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M145293 | P0461 | `Formalism.HarderNarasimhan.HarderNarasimhanProofs.DegSupermod` | wave-reused |
+| M145294 | P0421 | `Formalism.HarderNarasimhan.HarderNarasimhanProofs.DegSupermodZ` | wave-reused |
+| M145295 | P0502 | `Formalism.HarderNarasimhan.HarderNarasimhanProofs.DiscreteSpanOfLinIndep` | wave-reused |
 | M145296 | P0602 | `Formalism.HarderNarasimhan.HarderNarasimhanProofs.DualPl` | wave-reused |
 | M145297 | P0570 | `Formalism.HarderNarasimhan.HarderNarasimhanProofs.Duality` | wave-reused |
 | M145298 | P0602 | `Formalism.HarderNarasimhan.HarderNarasimhanProofs.Example` | wave-reused |
@@ -399,6 +402,3 @@
 | M146351 | P0148 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.GaussianHessianIntegral` | wave-reused |
 | M146358 | P0502 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.GermExpansionMatrixFunction` | build-observed |
 | M146359 | P0272 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.GermExpansionOfSteps` | build-observed |
-| M146370 | P1318 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.GermStep` | build-observed |
-| M146371 | P0272 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.GermSumLattices` | build-observed |
-| M146374 | P0272 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.GramConjugationNorm` | build-observed |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M144477 | P0271 | `Formalism.FockGram.SymGramPosSemidef` | wave-reused |
+| M144478 | P0460 | `Formalism.FormalDegreeBessel.FdegFactorial` | build-observed |
+| M144479 | P0325 | `Formalism.FormalDegreeBessel.FinalBF` | wave-reused |
 | M144480 | P0374 | `Formalism.FormalDegreeBessel.FinalDS` | wave-reused |
 | M144481 | P0325 | `Formalism.FormalDegreeBessel.FinalG` | wave-reused |
 | M144482 | P0601 | `Formalism.FormalDegreeBessel.FinalIO` | wave-reused |
@@ -399,6 +402,3 @@
 | M144883 | P0747 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.MemIdealLatticeIff` | wave-reused |
 | M144884 | P1211 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.MemLocFOfSmulMem` | wave-reused |
 | M144885 | P0147 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.MemRangeLinPart` | wave-reused |
-| M144886 | P0774 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.MemSmulOfMemSmulLocF` | wave-reused |
-| M144887 | P1211 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.MemSmulSpanIff` | wave-reused |
-| M144888 | P1266 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.MemSmulTopIff` | wave-reused |

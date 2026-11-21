@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M170736 | P0781 | `Lemmata.DualWeylPullback.DualWeylPull` | build-observed |
+| M170737 | P0087 | `Lemmata.FiberEquations.FiberEq` | wave-reused |
+| M170738 | P0087 | `Lemmata.FirstBlockLemmaA.Imports` | wave-reused |
 | M170739 | P0087 | `Lemmata.FirstBlockLemmaB.Imports` | pilot-reused |
 | M170740 | P0087 | `Lemmata.FirstBlockLemmaC.Imports` | wave-reused |
 | M170741 | P0087 | `Lemmata.FirstBlockLemmaD.Imports` | wave-reused |
@@ -399,6 +402,3 @@
 | M171517 | P0703 | `ReciprocityTheory.AnalyticForms.RegularLocalRings.SecHomSurjective` | wave-reused |
 | M171518 | P0703 | `ReciprocityTheory.AnalyticForms.RegularLocalRings.SegreIdealIsHomogeneous` | wave-reused |
 | M171519 | P0807 | `ReciprocityTheory.AnalyticForms.RegularLocalRings.StalkIdEqMonomial` | build-observed |
-| M171520 | P0676 | `ReciprocityTheory.AnalyticForms.RegularLocalRings.StalkLoc` | wave-reused |
-| M171521 | P0646 | `ReciprocityTheory.AnalyticForms.RegularLocalRings.StalkLocA` | wave-reused |
-| M171522 | P0646 | `ReciprocityTheory.AnalyticForms.RegularLocalRings.StalkLocB` | wave-reused |

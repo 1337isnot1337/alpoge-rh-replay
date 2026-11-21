@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M032622 | P2054 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockVectorMinorProductOriginEqPeriodsJetStatement` | volunteer-build-reviewed |
+| M032625 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FontaineAinfLocalDomainXiAdicOrder` | wave-reused |
+| M032626 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FontaineAinfLocalDomainXiAdicOrderStatement` | wave-reused |
 | M032637 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FormAtContinuous` | volunteer-build-reviewed |
 | M032638 | P0299 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FormAtContinuousStatement` | volunteer-build-reviewed |
 | M032639 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FormBoundedByPositivePotential` | build-observed |
@@ -399,6 +402,3 @@
 | M034268 | P2018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarAverageFundamentalDomainDescent` | volunteer-build-reviewed |
 | M034269 | P2036 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarAverageFundamentalDomainDescentStatement` | volunteer-build-reviewed |
 | M034274 | P1960 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarFundDomainLeCardMulOfTranslateCover` | volunteer-build-reviewed |
-| M034275 | P1979 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarFundDomainLeCardMulOfTranslateCoverStatement` | volunteer-build-reviewed |
-| M034276 | P2018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarFundamentalDomainMapIsometryConj` | volunteer-build-reviewed |
-| M034277 | P2036 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarFundamentalDomainParabolicIntegral` | volunteer-build-reviewed |

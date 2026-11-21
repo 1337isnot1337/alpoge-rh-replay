@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M046170 | P1768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialDataDecomposesAtFinitePlaces` | volunteer-build-reviewed |
+| M046181 | P1450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialDetHermitianSumZero` | volunteer-build-reviewed |
+| M046189 | P1981 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialFockDenseStatement` | volunteer-build-reviewed |
 | M046190 | P1886 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialFockSpaceEqRangeFockMapVariableSignatu` | volunteer-build-reviewed |
 | M046191 | P1906 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialFockSpaceEqRangeFockMapVariableSignatuStatement` | volunteer-build-reviewed |
 | M046192 | P2136 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialFockSpaceStableArchimedeanMaximalCompa` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M047479 | P0184 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RankOneLatticeSpanSingleton` | wave-reused |
 | M047480 | P0247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RankOneLatticeSpanSingletonStatement` | wave-reused |
 | M047483 | P1862 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RankOneSubbundleSplitAtPoints` | volunteer-build-reviewed |
-| M047484 | P1886 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RankOneSubbundleSplitAtPointsStatement` | volunteer-build-reviewed |
-| M047503 | P1768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RapidDecaySmallestRatioAbsorbsHeightAndCharacter` | volunteer-build-reviewed |
-| M047504 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RapidDecaySmallestRatioAbsorbsHeightAndCharacterStatement` | volunteer-build-reviewed |

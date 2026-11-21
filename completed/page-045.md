@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M054521 | P1402 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedNormProductIterateTwistedConjStatement` | volunteer-build-reviewed |
+| M054522 | P1451 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedNormUnitCommutation` | volunteer-build-reviewed |
+| M054523 | P1451 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedOrbitNormBounds` | volunteer-build-reviewed |
 | M054524 | P1481 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedOrbitNormBoundsStatement` | build-observed |
 | M054525 | P1796 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedOrbitalIntegralCongruenceLevelEqCount` | volunteer-build-reviewed |
 | M054532 | P1742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedOrbitalIntegralLevelFunctionInertEqLatticStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M056329 | P2070 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeilRepScalarCharOfSignature` | volunteer-build-reviewed |
 | M056330 | P2084 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeilRepScalarCharOfSignatureStatement` | volunteer-build-reviewed |
 | M056331 | P1796 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeilRepSliceFiniteOp` | volunteer-build-reviewed |
-| M056337 | P2084 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeilRepresentationDarbouxChangeIntertwine` | volunteer-build-reviewed |
-| M056351 | P2147 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeilRepresentationLocalityUnitaryGroupVStatement` | volunteer-build-reviewed |
-| M056354 | P2021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeilRepresentationPointwiseArchimedeanDecayBound` | volunteer-build-reviewed |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M099002 | P0932 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsPullbackKernelBaseChange` | build-observed |
+| M099003 | P1157 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsPullbackOfEquationsLift` | build-observed |
+| M099004 | P0768 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsPullbackPullbackMap` | wave-reused |
 | M099005 | P0768 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsPushoutQuotientMap` | wave-reused |
 | M099006 | P0655 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsSMulRegularCokerDualMapOfExactFibres` | build-observed |
 | M099009 | P1016 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsSemiAbelianOfIsPowGrp` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M099758 | P0740 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FrameEqOfBaseChangeInjective` | build-observed |
 | M099759 | P0768 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FrameEqOfBaseChangeInjectiveStatement` | build-observed |
 | M099762 | P0525 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FrameOfPeriodLinear` | build-observed |
-| M099773 | P1548 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FramedModuliAlgebraicLawsChartWeightIntegrality` | build-observed |
-| M099774 | P1576 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FramedModuliAlgebraicLawsChartWeightIntegralityStatement` | build-observed |
-| M099775 | P0624 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FramedPointBaseChangeUniqueReflIff` | wave-reused |

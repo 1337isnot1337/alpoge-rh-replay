@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M062665 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsBoundedAtImInftyOfPeriodicPolynomialBound` | wave-reused |
+| M062666 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsBoundedAtImInftyOfPeriodicPolynomialBoundStatement` | wave-reused |
+| M062673 | P0356 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsCuspExpansionAtInfinityCompRatAffine` | wave-reused |
 | M062674 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsCuspExpansionAtInfinityCompRatAffineStatement` | wave-reused |
 | M062675 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsCuspExpansionAtInfinityProperties` | wave-reused |
 | M062676 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsCuspExpansionAtInfinityPropertiesStatement` | wave-reused |
@@ -399,6 +402,3 @@
 | M063523 | P0119 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionCoeffPeriodOneEqOfHasSum` | volunteer-build-reviewed |
 | M063524 | P0189 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionCoeffPeriodOneEqOfHasSumStatement` | volunteer-build-reviewed |
 | M063525 | P0522 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionCoeffsMemFinitelyGenerated` | wave-reused |
-| M063526 | P0555 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionCoeffsMemFinitelyGeneratedStatement` | wave-reused |
-| M063527 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionFunctionInjectiveOfPolynomialGrowth` | wave-reused |
-| M063528 | P0621 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionFunctionInjectiveOfPolynomialGrowthStatement` | wave-reused |

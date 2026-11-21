@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M021179 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantInducedIsAdmissibleStatement` | volunteer-build-reviewed |
+| M021181 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantInducedRepEquivProductStatement` | volunteer-build-reviewed |
+| M021182 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantLatticePrincipal` | wave-reused |
 | M021183 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantLatticePrincipalStatement` | wave-reused |
 | M021188 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantMetricIsometric` | volunteer-build-reviewed |
 | M021189 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantMetricIsometricStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M022692 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EssEtaleLocalLeOfDirectedStatement` | wave-reused |
 | M022696 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EssFiniteTypeOfLocalRingOfVarietyPointStatement` | volunteer-build-reviewed |
 | M022702 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EsymmMemVirtualCharactersOfPowerSumEigenvalues` | build-observed |
-| M022703 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EsymmMemVirtualCharactersOfPowerSumEigenvaluesStatement` | build-observed |
-| M022706 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EsymmPowTwelveDivDiscriminantMemSubring` | build-observed |
-| M022707 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EsymmPowTwelveDivDiscriminantMemSubringStatement` | build-observed |

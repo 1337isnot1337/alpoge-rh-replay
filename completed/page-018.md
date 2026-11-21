@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M016567 | P2188 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BottomTriangleUnitConstant` | volunteer-build-reviewed |
+| M016568 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BottomTriangleUnitConstantStatement` | volunteer-build-reviewed |
+| M016570 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BottomTripleThetaKernelMinorsEqConstConjJetStatement` | volunteer-build-reviewed |
 | M016589 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryFormEqBlockMinusLow` | volunteer-build-reviewed |
 | M016590 | P0296 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryFormEqBlockMinusLowStatement` | volunteer-build-reviewed |
 | M016595 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryNormZeroIffOpenCompl` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M018267 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstRestrictSumVariablesStatement` | build-observed |
 | M018268 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSumElimPowerSeriesSwapVariableGroups` | wave-reused |
 | M018269 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSumElimPowerSeriesSwapVariableGroupsStatement` | wave-reused |
-| M018282 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoefficientConjugateThetaForm` | volunteer-build-reviewed |
-| M018283 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoefficientFieldIsFieldOfDefinitionChainSteps` | volunteer-build-reviewed |
-| M018292 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoefficientReductionFirstChernClassTateTwistAltI` | volunteer-build-reviewed |

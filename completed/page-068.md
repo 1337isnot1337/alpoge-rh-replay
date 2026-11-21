@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M077556 | P2040 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsFiniteRepresentativesRowFiniteTypes` | volunteer-build-reviewed |
+| M077557 | P2057 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsFiniteRepresentativesRowFiniteTypesStatement` | volunteer-build-reviewed |
+| M077558 | P1543 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsFiniteSplittingSetFrobeniusPolynomials` | volunteer-build-reviewed |
 | M077560 | P0035 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsFiniteTypeSubalgebraValuationLeOne` | volunteer-build-reviewed |
 | M077561 | P1099 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsFiniteTypeValuationCenter` | volunteer-build-reviewed |
 | M077566 | P1069 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsFinsetSdLatReps` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M078791 | P1333 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FibExtMarked` | volunteer-build-reviewed |
 | M078792 | P1228 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FibreFamilyHermitianQuadraticFormAtUnitProps` | volunteer-build-reviewed |
 | M078793 | P1256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FibreFamilyHermitianQuadraticFormAtUnitPropsStatement` | volunteer-build-reviewed |
-| M078797 | P1309 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FibreMeasuresTransportUnitarySimilitudeStatement` | volunteer-build-reviewed |
-| M078798 | P2003 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FieldDatumSizeLogDiscriminant` | volunteer-build-reviewed |
-| M078799 | P2022 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FieldDatumSizeLogDiscriminantStatement` | volunteer-build-reviewed |

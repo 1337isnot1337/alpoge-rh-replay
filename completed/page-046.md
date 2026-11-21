@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M056337 | P2084 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeilRepresentationDarbouxChangeIntertwine` | volunteer-build-reviewed |
+| M056351 | P2147 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeilRepresentationLocalityUnitaryGroupVStatement` | volunteer-build-reviewed |
+| M056354 | P2021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeilRepresentationPointwiseArchimedeanDecayBound` | volunteer-build-reviewed |
 | M056355 | P2039 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeilRepresentationPointwiseArchimedeanDecayBoundStatement` | volunteer-build-reviewed |
 | M056358 | P2056 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeilRepresentationPreservesSchwartz` | volunteer-build-reviewed |
 | M056359 | P2070 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeilRepresentationPreservesSchwartzStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M057476 | P1451 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsContinuousRepBoundedEvaluationRows` | volunteer-build-reviewed |
 | M057480 | P1402 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsContinuousRowRepresentativesLowestKType` | volunteer-build-reviewed |
 | M057484 | P0923 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsCoordinatesInverseFirstColumnInfiniteGL` | build-observed |
-| M057485 | P0952 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsCoordinatesInverseFirstColumnInfiniteGLStatement` | build-observed |
-| M057487 | P1451 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsCoprimeProjectionAdelicLatticeIntoColumnsStatement` | volunteer-build-reviewed |
-| M057495 | P1983 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsDegreeOnePrimeFrameReducedMatrices` | volunteer-build-reviewed |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M173738 | P0170 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantLemmas.DividedPowerIntegrals.GenPow` | volunteer-build-reviewed |
+| M173739 | P0170 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantLemmas.DividedPowerIntegrals.GenVan` | volunteer-build-reviewed |
+| M173740 | P0170 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantLemmas.DividedPowerIntegrals.NatMulFactorialBound` | volunteer-build-reviewed |
 | M173743 | P0170 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantLemmas.PerpendicularDeterminants.DetMemSubalgebra` | volunteer-build-reviewed |
 | M173745 | P0170 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantLemmas.SchwarzBallNumerics.ArithmeticFourInequalityNum` | wave-reused |
 | M173746 | P0170 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantLemmas.SchwarzBallNumerics.EBasis` | wave-reused |
@@ -399,6 +402,3 @@
 | M174171 | P1530 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.ExceptionalGroupG2.TensorProductsG2.Unitarize` | build-observed |
 | M174172 | P1530 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.ExceptionalGroupG2.TensorProductsG2.Weighted` | build-observed |
 | M174173 | P1500 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.ExceptionalGroupG2.TensorProductsG2.WeightedB` | build-observed |
-| M174174 | P0808 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.FormalDegree.AdKMeasurePreserving` | wave-reused |
-| M174175 | P0170 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.FormalDegree.CauchyBinet` | wave-reused |
-| M174176 | P1471 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.FormalDegree.CoefDec` | build-observed |

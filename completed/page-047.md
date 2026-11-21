@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M057485 | P0952 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsCoordinatesInverseFirstColumnInfiniteGLStatement` | build-observed |
+| M057487 | P1451 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsCoprimeProjectionAdelicLatticeIntoColumnsStatement` | volunteer-build-reviewed |
+| M057495 | P1983 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsDegreeOnePrimeFrameReducedMatrices` | volunteer-build-reviewed |
 | M057496 | P2002 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsDegreeOnePrimeFrameReducedMatricesStatement` | volunteer-build-reviewed |
 | M057499 | P0186 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsDifferentPair` | volunteer-build-reviewed |
 | M057500 | P1451 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsDsModelOfInstData` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M058429 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFamilyTraceVolumeConstStatement` | wave-reused |
 | M058433 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFourInverseMul` | wave-reused |
 | M058434 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassTermsLeOverlatticeMasses` | wave-reused |
-| M058435 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassTermsLeOverlatticeMassesStatement` | wave-reused |
-| M058436 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassesTotalWeightLe` | wave-reused |
-| M058437 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassesTotalWeightLeStatement` | wave-reused |

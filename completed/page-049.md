@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M059227 | P2112 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MajorantLengthTwoSidedMomentsLargeGap` | volunteer-build-reviewed |
+| M059228 | P2125 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MajorantLengthTwoSidedMomentsLargeGapStatement` | volunteer-build-reviewed |
+| M059231 | P1305 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MapConjGaugeMeasureEqInvDetSmul` | volunteer-build-reviewed |
 | M059232 | P1330 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MapConjGaugeMeasureEqInvDetSmulStatement` | volunteer-build-reviewed |
 | M059238 | P0897 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MapInfiniteGLHaarMeasureMulLeft` | build-observed |
 | M059239 | P0924 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MapInfiniteGLHaarMeasureMulLeftStatement` | build-observed |
@@ -399,6 +402,3 @@
 | M059990 | P1983 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RowsRawMassAndGenusMass` | volunteer-build-reviewed |
 | M059991 | P2002 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RowsRawMassAndGenusMassStatement` | volunteer-build-reviewed |
 | M059992 | P0249 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SameBlockAppend` | volunteer-build-reviewed |
-| M059999 | P1672 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SaturatedSpanOfGramDetIsUnitIntegralLatticeStatement` | volunteer-build-reviewed |
-| M060002 | P0815 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ScalarOfMultOne` | build-observed |
-| M060009 | P1983 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SchurAlongFamily` | volunteer-build-reviewed |

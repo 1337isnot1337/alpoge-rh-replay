@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M109030 | P1605 | `Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.GradedFlagMoves.MuTriv` | volunteer-build-reviewed |
+| M109031 | P1605 | `Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.GradedFlagMoves.SplitMod` | volunteer-build-reviewed |
+| M109032 | P1605 | `Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.GradedFlagMoves.TameExp` | volunteer-build-reviewed |
 | M109033 | P1725 | `Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.GradedFlagMoves.ThetaEx` | volunteer-build-reviewed |
 | M109034 | P1605 | `Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.GradedFlagMoves.UnipPow` | volunteer-build-reviewed |
 | M109036 | P1577 | `Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.NearSplit` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M109885 | P0317 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.TotallyRealRoots.Generate` | wave-reused |
 | M109886 | P0135 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.TotallyRealRoots.LeNuIffPowMemPrinc` | wave-reused |
 | M109887 | P0317 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.TotallyRealRoots.LevelGroupSupLevelInertia` | wave-reused |
-| M109888 | P0367 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.TotallyRealRoots.LevelLift` | wave-reused |
-| M109889 | P0263 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.TotallyRealRoots.NuBasic` | wave-reused |
-| M109890 | P0367 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.TotallyRealRoots.NuFinite` | wave-reused |

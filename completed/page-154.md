@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M157637 | P0605 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.LocDensSt` | wave-reused |
+| M157638 | P0750 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.LocDensVol` | wave-reused |
+| M157639 | P0573 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.LocDensVolA` | wave-reused |
 | M157640 | P0605 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.LocDensVolB` | wave-reused |
 | M157641 | P0723 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.LocDensVolC` | wave-reused |
 | M157642 | P0832 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.LocDensVolDone` | wave-reused |
@@ -399,6 +402,3 @@
 | M158044 | P0156 | `Formalism.RealPlaceAnalysis.RealPlaceTaylor.SumOfSquaresIdentityHolds` | wave-reused |
 | M158045 | P0221 | `Formalism.RealPlaceAnalysis.RealPlaceTaylor.TrPowSumFilterZero` | wave-reused |
 | M158046 | P0424 | `Formalism.RealPlaceAnalysis.RealPlaceTaylor.VectorComplexifiedDerivativeCommutator` | wave-reused |
-| M158047 | P0156 | `Formalism.RealPlaceAnalysis.SmoothOnG` | wave-reused |
-| M158048 | P0379 | `Formalism.RealPlaceAnalysis.SmoothOnGVIff` | wave-reused |
-| M158049 | P0332 | `Formalism.RealPlaceAnalysis.SmoothVectorGrowthBound` | wave-reused |

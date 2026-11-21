@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M148595 | P1211 | `Formalism.LocalToGlobal.GlobalTheory.FamCol` | build-observed |
+| M148596 | P1266 | `Formalism.LocalToGlobal.GlobalTheory.FamColC` | build-observed |
+| M148597 | P1238 | `Formalism.LocalToGlobal.GlobalTheory.FamColP` | build-observed |
 | M148598 | P1049 | `Formalism.LocalToGlobal.GlobalTheory.FamRec` | build-observed |
 | M148599 | P1077 | `Formalism.LocalToGlobal.GlobalTheory.FamRecP` | build-observed |
 | M148600 | P1238 | `Formalism.LocalToGlobal.GlobalTheory.FamRows` | build-observed |
@@ -399,6 +402,3 @@
 | M149122 | P1163 | `Formalism.LocalToGlobal.HeckeThetaElements.DefsWt` | build-observed |
 | M149123 | P1137 | `Formalism.LocalToGlobal.HeckeThetaElements.IsHeckeElt` | build-observed |
 | M149124 | P1077 | `Formalism.LocalToGlobal.HermitianColumns.BaseModelLevelEq` | build-observed |
-| M149125 | P0995 | `Formalism.LocalToGlobal.HermitianColumns.ClsNonempty` | build-observed |
-| M149126 | P0967 | `Formalism.LocalToGlobal.HermitianColumns.CocycleZeroMemInvariants` | build-observed |
-| M149127 | P1049 | `Formalism.LocalToGlobal.HermitianColumns.ColsHerm` | build-observed |

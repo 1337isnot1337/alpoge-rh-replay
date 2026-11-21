@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M125228 | P0140 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LiftIdempotentAdicComplete` | wave-reused |
+| M125233 | P1104 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LiftUnique` | build-observed |
+| M125234 | P1342 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LiftingBaseOfVanishingCohomology` | wave-reused |
 | M125235 | P1366 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LiftingBaseOfVanishingCohomologyStatement` | wave-reused |
 | M125236 | P1342 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LiftingInductiveSuccessiveApproximation` | wave-reused |
 | M125237 | P1366 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LiftingInductiveSuccessiveApproximationStatement` | wave-reused |
@@ -399,6 +402,3 @@
 | M126070 | P1828 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.NewformLiftLocalTypeStatement` | volunteer-build-reviewed |
 | M126071 | P1780 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.NewformLiftLocalWhittaker` | volunteer-build-reviewed |
 | M126072 | P1805 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.NewformLiftLocalWhittakerStatement` | volunteer-build-reviewed |
-| M126073 | P1780 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.NewformLiftRapidDecay` | volunteer-build-reviewed |
-| M126074 | P1805 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.NewformLiftRapidDecayStatement` | volunteer-build-reviewed |
-| M126075 | P1780 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.NewformLiftWhittakerExpansion` | volunteer-build-reviewed |

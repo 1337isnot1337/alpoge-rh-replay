@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M069208 | P1038 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInjectiveMapIntegersClToWittQuotientStatement` | wave-reused |
+| M069209 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInjectivePushoutOfPrismCover` | wave-reused |
+| M069210 | P1226 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInjectivePushoutOfPrismCoverStatement` | wave-reused |
 | M069211 | P1010 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInjectiveRootsOfNcardRootSet` | build-observed |
 | M069212 | P1038 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInjectiveRootsOfNcardRootSetStatement` | build-observed |
 | M069216 | P2040 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntUnitRoot` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M070095 | P0983 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FaithfullyFlatDescentElementsPushout` | wave-reused |
 | M070096 | P1011 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FaithfullyFlatDescentElementsPushoutStatement` | wave-reused |
 | M070097 | P0983 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FaithfullyFlatDescentFreeModuleCocycle` | wave-reused |
-| M070098 | P1011 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FaithfullyFlatDescentFreeModuleCocycleStatement` | wave-reused |
-| M070104 | P0031 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FgInfSupOfIsCompl` | volunteer-build-reviewed |
-| M070105 | P0122 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FgInfSupOfIsComplStatement` | volunteer-build-reviewed |

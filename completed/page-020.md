@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M019668 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousKernelIntegralProdStatement` | volunteer-build-reviewed |
+| M019679 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousLeviStatement` | volunteer-build-reviewed |
+| M019680 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousLiftV` | volunteer-build-reviewed |
 | M019681 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousLinearHeightForm` | volunteer-build-reviewed |
 | M019687 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousMatPair` | volunteer-build-reviewed |
 | M019690 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousMatrixCoefficient` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M021171 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantFrameComparisonUnitStatement` | wave-reused |
 | M021176 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantInducedIrreducibleAdmissible` | volunteer-build-reviewed |
 | M021178 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantInducedIsAdmissible` | volunteer-build-reviewed |
-| M021179 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantInducedIsAdmissibleStatement` | volunteer-build-reviewed |
-| M021181 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantInducedRepEquivProductStatement` | volunteer-build-reviewed |
-| M021182 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantLatticePrincipal` | wave-reused |

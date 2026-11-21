@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M065550 | P0981 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.SumCosetRepsNeZeroIffCommensurableStatement` | build-observed |
+| M065551 | P0190 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.SumIccThreeQuartersPowLe` | volunteer-build-reviewed |
+| M065552 | P0028 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.SumIntervalIntegralLeOfSpaced` | volunteer-build-reviewed |
 | M065554 | P0358 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.SumLamIdealLe` | build-observed |
 | M065555 | P0028 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.SumPiFinsetFinSuccCons` | volunteer-build-reviewed |
 | M065557 | P0028 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.SumRangeMulOfPeriodic` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M066453 | P0252 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsUniqueComapEqVanishingIdeal` | build-observed |
 | M066454 | P0029 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsUniqueFactorCompletedStalkOfMap` | wave-reused |
 | M066456 | P0190 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsUniqueLiftSpecOfIsLocalizationAway` | wave-reused |
-| M066457 | P0190 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsUniqueRealLinearOfEventuallyAddModDiscrete` | wave-reused |
-| M066458 | P0190 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsValuationSubringDominatingSubring` | wave-reused |
-| M066459 | P0029 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsValuationSubringLiftOfSpecialFibre` | volunteer-build-reviewed |

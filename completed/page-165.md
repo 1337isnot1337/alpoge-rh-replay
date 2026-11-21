@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M163223 | P0942 | `GroundTheory.GlobalFields.IdeleClassGroup.NatCardTateOfIsCyclic` | build-observed |
+| M163224 | P1215 | `GroundTheory.GlobalFields.IdeleClassGroup.Theory` | build-observed |
+| M163225 | P0160 | `GroundTheory.GlobalFields.IdeleGroups.ClassGroup` | wave-reused |
 | M163226 | P0606 | `GroundTheory.GlobalFields.IdeleGroups.GaloisOnAdeles` | wave-reused |
 | M163227 | P0639 | `GroundTheory.GlobalFields.IdeleGroups.GaloisOnAdeles.Action` | wave-reused |
 | M163228 | P0670 | `GroundTheory.GlobalFields.IdeleGroups.GaloisOnAdeles.Places` | wave-reused |
@@ -399,6 +402,3 @@
 | M163773 | P0466 | `GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StatementsConeTangentDim` | wave-reused |
 | M163774 | P0226 | `GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StatementsFiniteFibresDimLe` | volunteer-build-reviewed |
 | M163776 | P0161 | `GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StatementsFundCycleBaseChange` | volunteer-build-reviewed |
-| M163777 | P0507 | `GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StatementsGenericFibreDim` | wave-reused |
-| M163778 | P0466 | `GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StatementsGraphAreaFibre` | wave-reused |
-| M163780 | P0226 | `GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StatementsHolomorphicImplicitGraph` | volunteer-build-reviewed |

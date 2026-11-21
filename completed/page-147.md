@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M154039 | P0074 | `Formalism.PeriodIntegrals.PhiCubeOfFactor` | build-observed |
+| M154040 | P0276 | `Formalism.PeriodIntegrals.PinHostLoc` | build-observed |
+| M154041 | P0074 | `Formalism.PeriodIntegrals.PolydiscInt` | volunteer-build-reviewed |
 | M154042 | P0074 | `Formalism.PeriodIntegrals.PowBddInt` | build-observed |
 | M154043 | P0074 | `Formalism.PeriodIntegrals.PrimeCount` | wave-reused |
 | M154044 | P0074 | `Formalism.PeriodIntegrals.PrimeSums` | build-observed |
@@ -399,6 +402,3 @@
 | M154642 | P1079 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.DsumCancel` | build-observed |
 | M154643 | P1079 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.EichESymmApply` | build-observed |
 | M154644 | P1050 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.EichLApply` | build-observed |
-| M154645 | P1050 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.EulerFactorTwo` | build-observed |
-| M154646 | P1734 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.ExistsExactIdeal` | build-observed |
-| M154651 | P0075 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.FiniteLeOfPosDef` | build-observed |

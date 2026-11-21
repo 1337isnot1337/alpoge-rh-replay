@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M119937 | P0715 | `Development.AutomorphicSpectrum.Proofs.AlgebraProofs.AlphaEquivariantFrobenius` | wave-reused |
+| M119938 | P0742 | `Development.AutomorphicSpectrum.Proofs.AlgebraProofs.AlphaEquivariantFrobeniusStatement` | wave-reused |
+| M119947 | P0367 | `Development.AutomorphicSpectrum.Proofs.AlgebraProofs.AugmentationQuotientEquivLattice` | volunteer-build-reviewed |
 | M119948 | P0412 | `Development.AutomorphicSpectrum.Proofs.AlgebraProofs.AugmentationQuotientEquivLatticeStatement` | volunteer-build-reviewed |
 | M119950 | P2028 | `Development.AutomorphicSpectrum.Proofs.AlgebraProofs.BallAverageFibreCountStatement` | volunteer-build-reviewed |
 | M119953 | P0770 | `Development.AutomorphicSpectrum.Proofs.AlgebraProofs.BetaEquivariantFrobenius` | wave-reused |
@@ -399,6 +402,3 @@
 | M120983 | P1726 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ArtinMapAbelianUnique` | volunteer-build-reviewed |
 | M120985 | P1207 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ArtinReesClosedSystem` | wave-reused |
 | M120986 | P1234 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ArtinReesClosedSystemStatement` | wave-reused |
-| M120987 | P1159 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ArtinReesSubobject` | wave-reused |
-| M120988 | P1183 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ArtinReesSubobjectStatement` | wave-reused |
-| M120989 | P1802 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ArtinianFields` | volunteer-build-reviewed |

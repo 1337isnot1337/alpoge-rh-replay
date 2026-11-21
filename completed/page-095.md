@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M104874 | P1749 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.LieGeometryGrowth.ThStmt` | volunteer-build-reviewed |
+| M104876 | P1679 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.LocF` | volunteer-build-reviewed |
+| M104891 | P1577 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.Thorne` | volunteer-build-reviewed |
 | M104892 | P1655 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.TyDefs` | volunteer-build-reviewed |
 | M104893 | P1679 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.UnitaryDescent.DescentUnitaryOfUnit` | volunteer-build-reviewed |
 | M104894 | P1655 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.UnitaryDescent.NTDescent` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M106480 | P0200 | `Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.TraceFormulaEigenvalues.FormsFin` | wave-reused |
 | M106481 | P0134 | `Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.TraceFormulaEigenvalues.IsGenEig` | wave-reused |
 | M106482 | P0316 | `Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.TraceFormulaEigenvalues.TraceA` | wave-reused |
-| M106483 | P0200 | `Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.TraceFormulaEigenvalues.TraceBlocks` | wave-reused |
-| M106484 | P0262 | `Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.TraceFormulaEigenvalues.TraceFibreCardinality.CentFin` | wave-reused |
-| M106488 | P0262 | `Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.TraceFormulaEigenvalues.TraceFibreCardinality.FormsFin` | wave-reused |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M010446 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemLatticeCompletionAtPlacesOfFinPartMemHatLattiStatement` | volunteer-build-reviewed |
+| M010447 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemLatticeStabilizerIffScaledFrameConj` | volunteer-build-reviewed |
+| M010448 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemLatticeStabilizerIffScaledFrameConjStatement` | volunteer-build-reviewed |
 | M010449 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemLevOfRed` | volunteer-build-reviewed |
 | M010453 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemLevelIffSymmetricPositionEntryPatternStatement` | volunteer-build-reviewed |
 | M010460 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemMirabolicProjectionIffColSpaceAutToLocalGL` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M011620 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.StepZeroRamifiedFormsTransportIffStatement` | volunteer-build-reviewed |
 | M011622 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.StepZeroRepresentativeDiffersByLevelStatement` | volunteer-build-reviewed |
 | M011628 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SumBorelSphericalDoubleCosetRepsMul` | volunteer-build-reviewed |
-| M011629 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SumBorelSphericalDoubleCosetRepsMulStatement` | volunteer-build-reviewed |
-| M011631 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SumBorelSphericalOverDiagonalDoubleCosetRepsStatement` | volunteer-build-reviewed |
-| M011640 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SumMatApply` | volunteer-build-reviewed |

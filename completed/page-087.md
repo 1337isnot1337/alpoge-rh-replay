@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M097243 | P2074 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SmallModelThetaTransformInjectiveProductsStatement` | volunteer-build-reviewed |
+| M097244 | P0712 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SmallRadicalCosetCountOfHeisenberg` | build-observed |
+| M097245 | P0740 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SmallRadicalCosetCountOfHeisenbergStatement` | build-observed |
 | M097246 | P2074 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SmallRouteDatumMemAlgebraicVectorsGridFrames` | volunteer-build-reviewed |
 | M097248 | P2074 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SmallRouteKernelEqCharMulThetaKernel` | volunteer-build-reviewed |
 | M097250 | P1519 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SmoothIntertwinerExtension` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M098256 | P1490 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.VolIntegrableOnIff` | volunteer-build-reviewed |
 | M098261 | P1337 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.VsizeNonneg` | volunteer-build-reviewed |
 | M098265 | P1490 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.WeightedOrbitalIntegralGLZeroOfRadicalIntegralsStatement` | volunteer-build-reviewed |
-| M098274 | P1931 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.WeilActionLiftPairStepVectorInvLevelChar` | volunteer-build-reviewed |
-| M098278 | P2044 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.WeilActionNegPairPureTensorFock` | volunteer-build-reviewed |
-| M098279 | P2060 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.WeilActionNegPairPureTensorFockStatement` | volunteer-build-reviewed |

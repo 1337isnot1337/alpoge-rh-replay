@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M131106 | P0370 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IntegralClosureChartSpan` | build-observed |
+| M131107 | P0415 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IntegralClosureChartSpanStatement` | build-observed |
+| M131108 | P0415 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IntegralClosureFinite` | build-observed |
 | M131109 | P0455 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IntegralClosureFiniteStatement` | build-observed |
 | M131110 | P0530 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IntegralElementRegular` | build-observed |
 | M131116 | P0063 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IntegralOverLocalizationScaled` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M132088 | P0992 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.SncModelReindexedCoords` | build-observed |
 | M132089 | P1018 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.SncModelReindexedCoordsStatement` | build-observed |
 | M132090 | P0992 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.SncPatchAtEachComponent` | build-observed |
-| M132091 | P1018 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.SncPatchAtEachComponentStatement` | build-observed |
-| M132092 | P0661 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.SncPatchBoundaryUnits` | volunteer-build-reviewed |
-| M132093 | P0690 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.SncPatchBoundaryUnitsStatement` | build-observed |

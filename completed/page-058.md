@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M067275 | P0253 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardWindowZerosEqIntegralAdditiveSystemStatement` | volunteer-build-reviewed |
+| M067280 | P1719 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CasimirEigenOrthogonal` | volunteer-build-reviewed |
+| M067283 | P0030 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CauchyProductPartialSumsDvdPow` | volunteer-build-reviewed |
 | M067284 | P0121 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CauchyProductPartialSumsDvdPowStatement` | volunteer-build-reviewed |
 | M067292 | P0030 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CenterMonoidAlgebraLeSpanCentralIntegral` | volunteer-build-reviewed |
 | M067293 | P0121 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CenterMonoidAlgebraLeSpanCentralIntegralStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M068276 | P2003 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DownwardLiftLevelActsByInverseCharacterStatement` | volunteer-build-reviewed |
 | M068278 | P1719 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DownwardThetaIntegralSobolevContinuousStatement` | volunteer-build-reviewed |
 | M068280 | P1945 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DownwardThetaLiftEigenformIsEigenformStatement` | volunteer-build-reviewed |
-| M068281 | P2003 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DownwardThetaLiftPreservesGood` | volunteer-build-reviewed |
-| M068282 | P2021 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DownwardThetaLiftPreservesGoodStatement` | volunteer-build-reviewed |
-| M068288 | P1038 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DualExpTeichmullerPowerSumFormula` | build-observed |

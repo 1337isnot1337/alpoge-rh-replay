@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M141984 | P1784 | `Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.LIdemEx` | volunteer-build-reviewed |
+| M141986 | P1784 | `Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.LJPosA` | volunteer-build-reviewed |
+| M141993 | P0145 | `Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.LMajorA` | volunteer-build-reviewed |
 | M141994 | P1784 | `Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.LMajorB` | volunteer-build-reviewed |
 | M141995 | P1784 | `Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.LMajorC` | volunteer-build-reviewed |
 | M141998 | P1853 | `Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.LNullSing` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M142883 | P1582 | `Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.CentralProducts.TopProdD` | volunteer-build-reviewed |
 | M142884 | P0145 | `Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.CentralProducts.UnitarisableHypotheses.IrrSub` | volunteer-build-reviewed |
 | M142885 | P1612 | `Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.CentralProducts.UnitarisableHypotheses.IsUnitarisableCast` | volunteer-build-reviewed |
-| M142887 | P1612 | `Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.CompactOrbits.AdjointSemisimple.AdjunctionCharZero` | volunteer-build-reviewed |
-| M142889 | P1612 | `Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.CompactOrbits.Descent.CommutingInverses.InvCommOfComm` | volunteer-build-reviewed |
-| M142893 | P1732 | `Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.CompactOrbits.Descent.OpenSlices.LatticeIndices.RelIndexLatConj` | volunteer-build-reviewed |

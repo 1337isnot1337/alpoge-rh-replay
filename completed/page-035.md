@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M040391 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSpannedByGLColumnsEqIffGLintCosetStatement` | volunteer-build-reviewed |
+| M040392 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSpannedByGLColumnsEqIffStatement` | volunteer-build-reviewed |
+| M040394 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSpannedByGLColumnsMulLeftMatrixEqMulStatement` | volunteer-build-reviewed |
 | M040401 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeStabilizerInertSphere` | volunteer-build-reviewed |
 | M040404 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeStabilizerReductionEqLocalReductionStatement` | volunteer-build-reviewed |
 | M040413 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSumEqConeSum` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M041848 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalIdempotentConjugationSign` | volunteer-build-reviewed |
 | M041849 | P2000 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalIdempotentConjugationSignStatement` | volunteer-build-reviewed |
 | M041850 | P2000 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalIdentityOfTensorHeisenbergEigen` | volunteer-build-reviewed |
-| M041851 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalIdentityOfTensorHeisenbergEigenStatement` | volunteer-build-reviewed |
-| M041860 | P0110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalInverseQuantitativeBall` | volunteer-build-reviewed |
-| M041861 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalInverseQuantitativeBallStatement` | volunteer-build-reviewed |

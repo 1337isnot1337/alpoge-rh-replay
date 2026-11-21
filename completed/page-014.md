@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M011629 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SumBorelSphericalDoubleCosetRepsMulStatement` | volunteer-build-reviewed |
+| M011631 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SumBorelSphericalOverDiagonalDoubleCosetRepsStatement` | volunteer-build-reviewed |
+| M011640 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SumMatApply` | volunteer-build-reviewed |
 | M011651 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SupportedStabilizerConjSatisfiesDeepCongruence` | volunteer-build-reviewed |
 | M011654 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SupportedTranslatesCombinationCommutesSchrodingeStatement` | volunteer-build-reviewed |
 | M011656 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SurjectiveOfAdjointSeparatesLabelledPartsStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M012867 | P1420 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsCompatibleSectionsThickeningsLocalRing` | build-observed |
 | M012868 | P1445 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsCompatibleSectionsThickeningsLocalRingStatement` | volunteer-build-reviewed |
 | M012870 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsCompleteAlgClosedFieldCentredAtPrimeStatement` | volunteer-build-reviewed |
-| M012872 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsCompleteAlgClosedFieldPowerSeriesExtensionStatement` | volunteer-build-reviewed |
-| M012873 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsCompleteDVRExtensionTorsionRational` | volunteer-build-reviewed |
-| M012876 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsCompleteDVROverPowerSeriesUniformiserStatement` | volunteer-build-reviewed |

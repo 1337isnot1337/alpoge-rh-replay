@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M103673 | P0657 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.StickelbergerTheorem.CombFloor` | build-observed |
+| M103674 | P1654 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.StickelbergerTheorem.DegOne` | build-observed |
+| M103675 | P0657 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.StickelbergerTheorem.FfsumPow` | build-observed |
 | M103676 | P1701 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.StickelbergerTheorem.ImportsAlt` | build-observed |
 | M103677 | P0657 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.StickelbergerTheorem.ImportsBis` | build-observed |
 | M103678 | P0657 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.StickelbergerTheorem.ImportsTer` | build-observed |
@@ -399,6 +402,3 @@
 | M104857 | P1892 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.LieGeometryGrowth.PullLevD` | volunteer-build-reviewed |
 | M104871 | P1749 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.LieGeometryGrowth.PullStmt` | volunteer-build-reviewed |
 | M104873 | P1931 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.LieGeometryGrowth.StepEx` | volunteer-build-reviewed |
-| M104874 | P1749 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.LieGeometryGrowth.ThStmt` | volunteer-build-reviewed |
-| M104876 | P1679 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.LocF` | volunteer-build-reviewed |
-| M104891 | P1577 | `Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.Thorne` | volunteer-build-reviewed |

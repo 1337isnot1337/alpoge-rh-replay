@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M156645 | P0912 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SizeAbsorption.SizeDel` | build-observed |
+| M156646 | P0859 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SizeCount.BlockRowLe` | build-observed |
+| M156647 | P0859 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SizeCount.Development` | build-observed |
 | M156648 | P0887 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SizeCount.FirstCoordinateLeThreeScale` | build-observed |
 | M156649 | P1110 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SizeCount.Places` | build-observed |
 | M156650 | P0887 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SizeCount.SizeFacts` | build-observed |
@@ -399,6 +402,3 @@
 | M157116 | P0378 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ThetaSeriesExistence.ThetaA` | build-observed |
 | M157117 | P0220 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ThetaSeriesExistence.ThetaDerivNe` | build-observed |
 | M157118 | P0278 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ThetaSeriesExistence.ThetaNz` | build-observed |
-| M157119 | P0278 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ThetaSeriesUniqueness.CoefShift` | build-observed |
-| M157120 | P0220 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ThetaSeriesUniqueness.Complete` | build-observed |
-| M157121 | P0278 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ThetaSeriesUniqueness.SiegelSetCompleteness` | build-observed |

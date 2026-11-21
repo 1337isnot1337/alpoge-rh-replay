@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M172575 | P0390 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterBridgeH` | wave-reused |
+| M172576 | P0433 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterBridgeI` | wave-reused |
+| M172577 | P0473 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterBridgeJ` | wave-reused |
 | M172578 | P0091 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterBridgeK` | wave-reused |
 | M172579 | P0473 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterBridgeL` | wave-reused |
 | M172580 | P0513 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterBridgeM` | wave-reused |
@@ -399,6 +402,3 @@
 | M173046 | P0580 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.HermCOrthonormalCoordinates` | wave-reused |
 | M173047 | P0344 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.HermEqZeroOfTraceFormVanish` | wave-reused |
 | M173049 | P0291 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.HermitianPairingAlgebra` | wave-reused |
-| M173051 | P0291 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.HermitianTraceFormVanishing` | wave-reused |
-| M173052 | P0473 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.HolomorphicPeriodicityExtension` | wave-reused |
-| M173053 | P0613 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.ImaginaryMajorants` | wave-reused |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M167402 | P0888 | `GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PProjSmoothAlong` | build-observed |
+| M167405 | P0780 | `GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PPushDown` | wave-reused |
+| M167419 | P0861 | `GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PTopNPoly` | build-observed |
 | M167430 | P0165 | `GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PVandermondeBranch` | volunteer-build-reviewed |
 | M167431 | P0861 | `GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PVertFactorPos` | build-observed |
 | M167432 | P0889 | `GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PVertFactorSmooth` | build-observed |
@@ -399,6 +402,3 @@
 | M168213 | P0644 | `GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.ImportsMoreLast` | wave-reused |
 | M168214 | P0674 | `GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.ImportsMoreMore` | wave-reused |
 | M168216 | P0611 | `GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.ImportsMoreSide` | pilot-reused |
-| M168217 | P0644 | `GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.ImportsMoreTail` | wave-reused |
-| M168218 | P0611 | `GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.ImportsMoreTer` | wave-reused |
-| M168219 | P0754 | `GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.ImportsRest` | build-observed |

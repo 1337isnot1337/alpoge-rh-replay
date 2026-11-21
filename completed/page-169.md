@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M165799 | P0699 | `GroundTheory.HeightsAndTheta.Heights.FiniteCovolume.PLatticePointsBelowFinite` | wave-reused |
+| M165800 | P0699 | `GroundTheory.HeightsAndTheta.Heights.FiniteCovolume.PLenCauchySchwarz` | wave-reused |
+| M165801 | P0671 | `GroundTheory.HeightsAndTheta.Heights.FiniteCovolume.PLenSq` | wave-reused |
 | M165802 | P0671 | `GroundTheory.HeightsAndTheta.Heights.FiniteCovolume.PLineCoeffsFG` | wave-reused |
 | M165803 | P0752 | `GroundTheory.HeightsAndTheta.Heights.FiniteCovolume.PLineEigenvalue` | wave-reused |
 | M165804 | P0671 | `GroundTheory.HeightsAndTheta.Heights.FiniteCovolume.PLineIndexCoeffs` | wave-reused |
@@ -399,6 +402,3 @@
 | M166416 | P0286 | `GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.NoCommonZeroComplex` | wave-reused |
 | M166417 | P0672 | `GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.PCoordCurveAlgebraic` | build-observed |
 | M166418 | P0700 | `GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.PCoordCurveDegree` | build-observed |
-| M166419 | P0510 | `GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.PCurveComplexPoint` | build-observed |
-| M166421 | P0700 | `GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.PCurveIsOrbit` | wave-reused |
-| M166422 | P0084 | `GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.Points` | wave-reused |

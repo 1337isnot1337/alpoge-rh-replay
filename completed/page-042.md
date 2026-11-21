@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M049850 | P1450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ShortExactVectorBundlesRankAdd` | volunteer-build-reviewed |
+| M049877 | P0481 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SiegRel` | volunteer-build-reviewed |
+| M049878 | P1981 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SiegelActionFormulaAndDerivative` | volunteer-build-reviewed |
 | M049879 | P2000 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SiegelActionFormulaAndDerivativeStatement` | volunteer-build-reviewed |
 | M049888 | P1795 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SiegelConeSmoothVariationAlongBoundedUnipotent` | volunteer-build-reviewed |
 | M049889 | P1819 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SiegelConeSmoothVariationAlongBoundedUnipotentStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M051150 | P2070 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardAdelicAddCharNontrivialFinitePlaceStatement` | volunteer-build-reviewed |
 | M051151 | P2001 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardAdelicCharExistsNeOne` | volunteer-build-reviewed |
 | M051152 | P2020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardAdelicCharExistsNeOneStatement` | volunteer-build-reviewed |
-| M051155 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardAdelicCharacter` | volunteer-build-reviewed |
-| M051156 | P1982 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardAdelicCharacterNontrivialAtPlaces` | volunteer-build-reviewed |
-| M051157 | P2001 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardAdelicCharacterNontrivialAtPlacesStatement` | volunteer-build-reviewed |

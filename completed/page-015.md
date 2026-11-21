@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M012872 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsCompleteAlgClosedFieldPowerSeriesExtensionStatement` | volunteer-build-reviewed |
+| M012873 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsCompleteDVRExtensionTorsionRational` | volunteer-build-reviewed |
+| M012876 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsCompleteDVROverPowerSeriesUniformiserStatement` | volunteer-build-reviewed |
 | M012877 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsCompleteDVRResidueGaloisAutomorphisms` | volunteer-build-reviewed |
 | M012879 | P0099 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsCompleteDiscreteValuationRingOfMemClosureC` | volunteer-build-reviewed |
 | M012881 | P0177 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsCompleteDiscreteValuationRingOfMemClosureCones` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M013613 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsHomOpenPart` | volunteer-build-reviewed |
 | M013615 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsImmersionProjSpaceOfLocalLinearChangeStatement` | volunteer-build-reviewed |
 | M013616 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsIntegralOfWeightZeroCoordinateDominates` | wave-reused |
-| M013617 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsIntegralOfWeightZeroCoordinateDominatesStatement` | volunteer-build-reviewed |
-| M013619 | P0947 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsIntegrallyClosedStalkOfRingOn` | build-observed |
-| M013620 | P0550 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsIsoGenericOfDenseFibres` | build-observed |

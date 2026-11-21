@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M133156 | P0854 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.BlockDiagFrameAtGoodPoint` | build-observed |
+| M133157 | P0882 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.BlockDiagFrameAtGoodPointStatement` | build-observed |
+| M133158 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.BlockDiagValuationNormalization` | volunteer-build-reviewed |
 | M133159 | P0690 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.BlockDiagValuationNormalizationStatement` | wave-reused |
 | M133160 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.BlockDiagonalMinorVanishing` | volunteer-build-reviewed |
 | M133161 | P0690 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.BlockDiagonalMinorVanishingStatement` | wave-reused |
@@ -399,6 +402,3 @@
 | M134004 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetCuspFramePlurisubharmonic` | volunteer-build-reviewed |
 | M134005 | P0827 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetCuspFramePlurisubharmonicStatement` | wave-reused |
 | M134006 | P0936 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetEigenFramePlurisubharmonic` | wave-reused |
-| M134007 | P0964 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetEigenFramePlurisubharmonicStatement` | wave-reused |
-| M134010 | P0456 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetGramSubharmonic` | build-observed |
-| M134011 | P0496 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetGramSubharmonicStatement` | build-observed |

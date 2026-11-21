@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M120987 | P1159 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ArtinReesSubobject` | wave-reused |
+| M120988 | P1183 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ArtinReesSubobjectStatement` | wave-reused |
+| M120989 | P1802 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ArtinianFields` | volunteer-build-reviewed |
 | M120990 | P0264 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ArtinianLimitLiftOfCompatible` | volunteer-build-reviewed |
 | M120992 | P1387 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.AsmMultMain` | build-observed |
 | M120996 | P1550 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.AutomorphicNormFiniteNonzero` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M121689 | P1752 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ComplexCoordinatesExistAtInfinityStatement` | volunteer-build-reviewed |
 | M121695 | P1727 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ComplexPointLiftsToMulticone` | volunteer-build-reviewed |
 | M121696 | P1752 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ComplexPointLiftsToMulticoneStatement` | volunteer-build-reviewed |
-| M121697 | P1752 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ComplexPointsSecondCountable` | volunteer-build-reviewed |
-| M121698 | P1778 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ComplexPointsSecondCountableStatement` | volunteer-build-reviewed |
-| M121700 | P1778 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ConcatenatedJacquetMultiplicityFactorization` | volunteer-build-reviewed |

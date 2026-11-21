@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M064417 | P1331 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.GaussValuationDensityGenerationLocalisation` | build-observed |
+| M064418 | P1356 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.GaussValuationDensityGenerationLocalisationStatement` | build-observed |
+| M064419 | P1771 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.GenFrExAndGenFromTest` | volunteer-build-reviewed |
 | M064420 | P1452 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.GenericFrameIntegralOffFinitelyManyFunctions` | wave-reused |
 | M064422 | P1380 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.GenericSectionPointsInequivalentValuations` | build-observed |
 | M064423 | P1403 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.GenericSectionPointsInequivalentValuationsStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M065543 | P1036 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.StandardRankOneLatticeOfLocal` | build-observed |
 | M065548 | P1064 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.SubDSharpInDeg` | build-observed |
 | M065549 | P0028 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.SumCosetRepsNeZeroIffCommensurable` | volunteer-build-reviewed |
-| M065550 | P0981 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.SumCosetRepsNeZeroIffCommensurableStatement` | build-observed |
-| M065551 | P0190 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.SumIccThreeQuartersPowLe` | volunteer-build-reviewed |
-| M065552 | P0028 | `Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.SumIntervalIntegralLeOfSpaced` | volunteer-build-reviewed |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M109888 | P0367 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.TotallyRealRoots.LevelLift` | wave-reused |
+| M109889 | P0263 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.TotallyRealRoots.NuBasic` | wave-reused |
+| M109890 | P0367 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.TotallyRealRoots.NuFinite` | wave-reused |
 | M109891 | P0317 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.TotallyRealRoots.NuFormula` | wave-reused |
 | M109892 | P0263 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.TotallyRealRoots.PrincTop` | wave-reused |
 | M109893 | P0491 | `Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.TotallyRealRoots.RestrictScalarsTwistInvOver` | wave-reused |
@@ -399,6 +402,3 @@
 | M110894 | P1913 | `Development.AutomorphicArithmetic.Foundations.Convolution.IntegrableConvolution.LineRank` | volunteer-build-reviewed |
 | M110895 | P1656 | `Development.AutomorphicArithmetic.Foundations.Convolution.IntegrableConvolution.LocHeckeSplit` | volunteer-build-reviewed |
 | M110897 | P1606 | `Development.AutomorphicArithmetic.Foundations.Convolution.IntegrableConvolution.MatchFin` | volunteer-build-reviewed |
-| M110898 | P1606 | `Development.AutomorphicArithmetic.Foundations.Convolution.IntegrableConvolution.MatchInf` | volunteer-build-reviewed |
-| M110899 | P1656 | `Development.AutomorphicArithmetic.Foundations.Convolution.IntegrableConvolution.MatchOfScale` | volunteer-build-reviewed |
-| M110900 | P1633 | `Development.AutomorphicArithmetic.Foundations.Convolution.IntegrableConvolution.MatchProd` | volunteer-build-reviewed |

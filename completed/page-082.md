@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M094063 | P1676 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.FirstRowTowerMultiplicitySpacesOfArrow` | volunteer-build-reviewed |
+| M094069 | P0408 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.FirstVertexIteratedLevelChainInFrame` | volunteer-build-reviewed |
+| M094071 | P0408 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.FirstVertexParahoricLevelChainTwist` | volunteer-build-reviewed |
 | M094075 | P1676 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.FixedOfForallLocalSubgroupFixedFiniteAdelic` | volunteer-build-reviewed |
 | M094077 | P2128 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.FlagGenDiag` | volunteer-build-reviewed |
 | M094078 | P1930 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.FlagPairingTableDiagonalModSmall` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M094696 | P1930 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeckeIsogenyThetaGeneratorTransportStatement` | volunteer-build-reviewed |
 | M094697 | P1912 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeckeKerLatticeBounds` | volunteer-build-reviewed |
 | M094700 | P1930 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeckeKernelEqOfUnipotentFrameChange` | volunteer-build-reviewed |
-| M094701 | P1948 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeckeKernelEqOfUnipotentFrameChangeStatement` | volunteer-build-reviewed |
-| M094702 | P1930 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeckeKernelSumEqCardTorsionMulTrace` | volunteer-build-reviewed |
-| M094703 | P1948 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeckeKernelSumEqCardTorsionMulTraceStatement` | volunteer-build-reviewed |

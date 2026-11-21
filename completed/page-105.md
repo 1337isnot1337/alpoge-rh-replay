@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M115766 | P0057 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SummableProdCoord` | volunteer-build-reviewed |
+| M115767 | P0057 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SummandLocalization` | build-observed |
+| M115768 | P0057 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SxLimPt` | volunteer-build-reviewed |
 | M115769 | P1288 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SymmetricFamilySpan` | volunteer-build-reviewed |
 | M115770 | P0057 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SymmetricShiftIsUnit` | volunteer-build-reviewed |
 | M115771 | P0057 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.TendstoCut` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M118534 | P1777 | `Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.OChoose` | volunteer-build-reviewed |
 | M118535 | P1802 | `Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.OChooseStatement` | volunteer-build-reviewed |
 | M118536 | P2076 | `Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.OPin` | volunteer-build-reviewed |
-| M118575 | P2046 | `Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.PairReadOfJoin` | volunteer-build-reviewed |
-| M118576 | P2062 | `Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.PairReadOfJoinStatement` | volunteer-build-reviewed |
-| M118590 | P1726 | `Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.PartFrobEigNormO` | volunteer-build-reviewed |

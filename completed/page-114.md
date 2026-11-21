@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M126073 | P1780 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.NewformLiftRapidDecay` | volunteer-build-reviewed |
+| M126074 | P1805 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.NewformLiftRapidDecayStatement` | volunteer-build-reviewed |
+| M126075 | P1780 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.NewformLiftWhittakerExpansion` | volunteer-build-reviewed |
 | M126076 | P1805 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.NewformLiftWhittakerExpansionStatement` | volunteer-build-reviewed |
 | M126077 | P1780 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.NewformMultiplicityOne` | volunteer-build-reviewed |
 | M126078 | P1805 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.NewformMultiplicityOneStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M126820 | P1610 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.QuotientMapIntertwinesRestrictionStatement` | volunteer-build-reviewed |
 | M126821 | P0906 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.QuotientMapsSurjectiveWithKernels` | wave-reused |
 | M126822 | P0934 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.QuotientMapsSurjectiveWithKernelsStatement` | wave-reused |
-| M126823 | P0062 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.QuotientMeasureByInvariantSubgroup` | volunteer-build-reviewed |
-| M126824 | P0140 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.QuotientMeasureByInvariantSubgroupStatement` | volunteer-build-reviewed |
-| M126829 | P1850 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RWConstMul` | volunteer-build-reviewed |

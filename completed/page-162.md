@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M161663 | P0573 | `Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.ExpansionsAtPlaces` | build-observed |
+| M161664 | P0805 | `Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.FinsuppStepInduction` | build-observed |
+| M161665 | P0606 | `Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.FrobeniusPartialCoboundaryBound` | build-observed |
 | M161666 | P0223 | `Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.GaussElementarySymmetric` | build-observed |
 | M161667 | P0540 | `Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.IntegralPderivLgF` | wave-reused |
 | M161668 | P0506 | `Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.KOneConsequenceOf` | build-observed |
@@ -399,6 +402,3 @@
 | M162075 | P0669 | `Formalism.WachLatticeTwists.TorsionKernelSplitting.Statement` | wave-reused |
 | M162076 | P0751 | `Formalism.WachLatticeTwists.TorsionKernelSplitting.TorsionKernelProofs.KerTors` | wave-reused |
 | M162077 | P0833 | `Formalism.WachLatticeTwists.TorsionKernelSplitting.TorsionKernelProofs.SplitText` | wave-reused |
-| M162078 | P0778 | `Formalism.WachLatticeTwists.TorsionKernelSplitting.TorsionKernelProofs.TheoremNFiveTopSplit` | wave-reused |
-| M162079 | P0805 | `Formalism.WachLatticeTwists.TorsionKernelSplitting.TorsionKernelProofs.TheoremNFiveTopSplitHZero` | wave-reused |
-| M162080 | P0751 | `Formalism.WachLatticeTwists.TorsionKernelSplitting.TorsionKernelProofs.TheoremNFiveTopSplitOfSplit` | wave-reused |

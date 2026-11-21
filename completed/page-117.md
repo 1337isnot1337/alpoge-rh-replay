@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M128685 | P1875 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedQuadraticExtensionValuation` | volunteer-build-reviewed |
+| M128686 | P1897 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedQuadraticExtensionValuationStatement` | volunteer-build-reviewed |
+| M128687 | P0062 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedQuadraticOrderPrincipal` | volunteer-build-reviewed |
 | M128691 | P1897 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedQuadraticUniformizerOrder` | volunteer-build-reviewed |
 | M128693 | P0207 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedQuotientCard` | volunteer-build-reviewed |
 | M128694 | P0266 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedQuotientCardStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M129725 | P0596 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ChartBundleFinitelyGeneratedStatement` | volunteer-build-reviewed |
 | M129736 | P0267 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ChartLatticeNormMembership` | volunteer-build-reviewed |
 | M129744 | P0414 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ChartPrimeExistsUniquePoint` | build-observed |
-| M129745 | P0455 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ChartPrimeExistsUniquePointStatement` | build-observed |
-| M129746 | P0660 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ChartPrimeGivesComponent` | build-observed |
-| M129747 | P0689 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ChartPrimeGivesComponentStatement` | build-observed |

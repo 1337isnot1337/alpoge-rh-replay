@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M047484 | P1886 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RankOneSubbundleSplitAtPointsStatement` | volunteer-build-reviewed |
+| M047503 | P1768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RapidDecaySmallestRatioAbsorbsHeightAndCharacter` | volunteer-build-reviewed |
+| M047504 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RapidDecaySmallestRatioAbsorbsHeightAndCharacterStatement` | volunteer-build-reviewed |
 | M047508 | P0113 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RatFiniteAdelesSplitAwayFromPrimePadic` | volunteer-build-reviewed |
 | M047509 | P0184 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RatFiniteAdelesSplitAwayFromPrimePadicStatement` | volunteer-build-reviewed |
 | M047510 | P1819 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RatFixLeRatStab` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M048796 | P0113 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchemeTheoreticallyDominantOfGermInjectiveStatement` | volunteer-build-reviewed |
 | M048800 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchrLocalOfActs` | volunteer-build-reviewed |
 | M048801 | P1795 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchrodingerActionContinuous` | volunteer-build-reviewed |
-| M048802 | P1819 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchrodingerActionContinuousStatement` | volunteer-build-reviewed |
-| M048804 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchrodingerFixesScaledLattice` | volunteer-build-reviewed |
-| M048805 | P2097 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchrodingerFixesScaledLatticeStatement` | volunteer-build-reviewed |

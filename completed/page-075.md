@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M085915 | P1458 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleOfPolarisedAtEveryPoint` | build-observed |
+| M085916 | P1487 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleOfPolarisedAtEveryPointStatement` | volunteer-build-reviewed |
+| M085917 | P1844 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmplePrincipalDescendedBundleNoetherian` | build-observed |
 | M085918 | P1866 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmplePrincipalDescendedBundleNoetherianStatement` | build-observed |
 | M085919 | P1571 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmplePrincipalOfGenericFibreDvr` | build-observed |
 | M085920 | P1597 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmplePrincipalOfGenericFibreDvrStatement` | build-observed |
@@ -399,6 +402,3 @@
 | M087647 | P1311 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExpFactorAllOrbitsEqProdOrbitsStatement` | volunteer-build-reviewed |
 | M087656 | P0767 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.FRatioSelf` | volunteer-build-reviewed |
 | M087658 | P0127 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.FaceFaceApply` | wave-reused |
-| M087666 | P0448 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.FibreFieldPointsCardLEDiagonalComplementSecondPr` | volunteer-build-reviewed |
-| M087668 | P0407 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.FibrePointsLEId` | volunteer-build-reviewed |
-| M087670 | P1986 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.FieldIsoMatrixCongruenceAutomorphismCongruenceStatement` | volunteer-build-reviewed |

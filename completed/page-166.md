@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M163777 | P0507 | `GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StatementsGenericFibreDim` | wave-reused |
+| M163778 | P0466 | `GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StatementsGraphAreaFibre` | wave-reused |
+| M163780 | P0226 | `GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StatementsHolomorphicImplicitGraph` | volunteer-build-reviewed |
 | M163782 | P0226 | `GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StatementsIncIdealSeparate` | volunteer-build-reviewed |
 | M163783 | P0335 | `GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StatementsIncidenceZeroLocus` | wave-reused |
 | M163784 | P0081 | `GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StatementsKernelProjMeasurable` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M164581 | P0284 | `GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteProjectionOffZerosDense` | volunteer-build-reviewed |
 | M164582 | P0162 | `GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteProjectionProperBall` | volunteer-build-reviewed |
 | M164583 | P0284 | `GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteProjectionSheetedClosureEquations` | volunteer-build-reviewed |
-| M164584 | P0227 | `GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteProjectionSheetsDense` | volunteer-build-reviewed |
-| M164585 | P0162 | `GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteProjectionsGeneric` | wave-reused |
-| M164586 | P0082 | `GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatDimFormula` | volunteer-build-reviewed |

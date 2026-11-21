@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M162583 | P1112 | `GroundTheory.AutomorphicForms.FourierWhittaker.Smooth` | build-observed |
+| M162584 | P0999 | `GroundTheory.AutomorphicForms.FourierWhittaker.UMatColXEqFromBlocks` | build-observed |
+| M162585 | P0380 | `GroundTheory.AutomorphicForms.GKModules.Casimir` | wave-reused |
 | M162586 | P0282 | `GroundTheory.AutomorphicForms.GKModules.GKModule` | wave-reused |
 | M162587 | P0282 | `GroundTheory.AutomorphicForms.GKModules.Garding` | wave-reused |
 | M162588 | P0833 | `GroundTheory.AutomorphicForms.GKModules.KernelCalculus` | wave-reused |
@@ -399,6 +402,3 @@
 | M163220 | P0606 | `GroundTheory.GlobalFields.IdeleClassGroup.IdeleClassMapIdeleClassMap` | build-observed |
 | M163221 | P0698 | `GroundTheory.GlobalFields.IdeleClassGroup.Invariants` | build-observed |
 | M163222 | P0725 | `GroundTheory.GlobalFields.IdeleClassGroup.InvariantsGalois` | build-observed |
-| M163223 | P0942 | `GroundTheory.GlobalFields.IdeleClassGroup.NatCardTateOfIsCyclic` | build-observed |
-| M163224 | P1215 | `GroundTheory.GlobalFields.IdeleClassGroup.Theory` | build-observed |
-| M163225 | P0160 | `GroundTheory.GlobalFields.IdeleGroups.ClassGroup` | wave-reused |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M034275 | P1979 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarFundDomainLeCardMulOfTranslateCoverStatement` | volunteer-build-reviewed |
+| M034276 | P2018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarFundamentalDomainMapIsometryConj` | volunteer-build-reviewed |
+| M034277 | P2036 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarFundamentalDomainParabolicIntegral` | volunteer-build-reviewed |
 | M034278 | P2054 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarFundamentalDomainParabolicIntegralStatement` | volunteer-build-reviewed |
 | M034279 | P1998 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarFundamentalDomainRightTranslateUnitary` | volunteer-build-reviewed |
 | M034280 | P2018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarFundamentalDomainRightTranslateUnitaryStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M035500 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianTensorLocalVanish` | volunteer-build-reviewed |
 | M035501 | P2110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianTensorLocalVanishStatement` | volunteer-build-reviewed |
 | M035502 | P1979 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianTensorSkewHermitianLatticeOpenCompact` | volunteer-build-reviewed |
-| M035503 | P1999 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianTensorSkewHermitianLatticeOpenCompactStatement` | volunteer-build-reviewed |
-| M035505 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianTensorSkewHermitianSplitSymplecticPairStatement` | volunteer-build-reviewed |
-| M035506 | P1817 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianTraceFormLattice` | volunteer-build-reviewed |

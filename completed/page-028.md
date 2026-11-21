@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M031171 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteDimensionalFunctionFieldStalkImageGenericP` | volunteer-build-reviewed |
+| M031177 | P1960 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteDimensionalOfGrowthOn` | volunteer-build-reviewed |
+| M031183 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteDimensionalSpanAdjoin` | volunteer-build-reviewed |
 | M031185 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteDimensionalSpanAlgebraOrbitOfAnnihilated` | volunteer-build-reviewed |
 | M031187 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteDimensionalSpanCommutant` | volunteer-build-reviewed |
 | M031190 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteDimensionalTranslatesDecomposition` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M032616 | P2054 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockVacuumThetaFunctionDerivativeComplexStructurStatement` | volunteer-build-reviewed |
 | M032617 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockVariableMultiplicationMemSpanHeisenbergOpera` | volunteer-build-reviewed |
 | M032621 | P2036 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockVectorMinorProductOriginEqPeriodsJet` | volunteer-build-reviewed |
-| M032622 | P2054 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockVectorMinorProductOriginEqPeriodsJetStatement` | volunteer-build-reviewed |
-| M032625 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FontaineAinfLocalDomainXiAdicOrder` | wave-reused |
-| M032626 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FontaineAinfLocalDomainXiAdicOrderStatement` | wave-reused |

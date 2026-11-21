@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M124213 | P1262 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IdempotentsUniqueForEpsilonRootStatement` | build-observed |
+| M124214 | P0139 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IdentityTubeHolds` | volunteer-build-reviewed |
+| M124216 | P1728 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ImPosScaledUpperHalfPlane` | volunteer-build-reviewed |
 | M124218 | P1753 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ImaginaryQuadraticAdelicNormBound` | volunteer-build-reviewed |
 | M124219 | P1779 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ImaginaryQuadraticAdelicNormBoundStatement` | volunteer-build-reviewed |
 | M124223 | P1728 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ImportsBisBis` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M125220 | P1828 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LiePowerL2FactorialBoundStatement` | volunteer-build-reviewed |
 | M125223 | P1728 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LieSkewAdjointL2` | volunteer-build-reviewed |
 | M125224 | P1753 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LieSkewAdjointL2Statement` | volunteer-build-reviewed |
-| M125228 | P0140 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LiftIdempotentAdicComplete` | wave-reused |
-| M125233 | P1104 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LiftUnique` | build-observed |
-| M125234 | P1342 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LiftingBaseOfVanishingCohomology` | wave-reused |

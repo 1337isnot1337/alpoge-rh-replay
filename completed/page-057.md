@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M066457 | P0190 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsUniqueRealLinearOfEventuallyAddModDiscrete` | wave-reused |
+| M066458 | P0190 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsValuationSubringDominatingSubring` | wave-reused |
+| M066459 | P0029 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsValuationSubringLiftOfSpecialFibre` | volunteer-build-reviewed |
 | M066460 | P1199 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsVariableChangeEisensteinCurve` | wave-reused |
 | M066461 | P0029 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsVariableChangeEqLatticeCurve` | wave-reused |
 | M066462 | P0120 | `Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExtOfForallQuotient` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M067270 | P0030 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardSubspacesFinrankCongr` | volunteer-build-reviewed |
 | M067272 | P0522 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardTorsionMulFinrank` | wave-reused |
 | M067274 | P0190 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardWindowZerosEqIntegralAdditiveSystem` | volunteer-build-reviewed |
-| M067275 | P0253 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardWindowZerosEqIntegralAdditiveSystemStatement` | volunteer-build-reviewed |
-| M067280 | P1719 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CasimirEigenOrthogonal` | volunteer-build-reviewed |
-| M067283 | P0030 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CauchyProductPartialSumsDvdPow` | volunteer-build-reviewed |

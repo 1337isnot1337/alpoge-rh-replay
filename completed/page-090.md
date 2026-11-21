@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M099773 | P1548 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FramedModuliAlgebraicLawsChartWeightIntegrality` | build-observed |
+| M099774 | P1576 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FramedModuliAlgebraicLawsChartWeightIntegralityStatement` | build-observed |
+| M099775 | P0624 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FramedPointBaseChangeUniqueReflIff` | wave-reused |
 | M099776 | P0656 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FramedPointBaseChangeUniqueReflIffStatement` | wave-reused |
 | M099777 | P0877 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FramedPointEigenbasisBaseChange` | wave-reused |
 | M099778 | P0904 | `Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FramedPointEigenbasisBaseChangeStatement` | wave-reused |
@@ -399,6 +402,3 @@
 | M100636 | P0312 | `Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ExplZeta` | volunteer-build-reviewed |
 | M100640 | P1045 | `Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.FormalDegreeCompactDualIff` | volunteer-build-reviewed |
 | M100641 | P1491 | `Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.GenericOfIsIsoRestrict` | build-observed |
-| M100644 | P1073 | `Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HasDRepIffHasDerivAt` | volunteer-build-reviewed |
-| M100645 | P1386 | `Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HasExponentZeroIff` | build-observed |
-| M100648 | P0312 | `Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.IsExcRat` | volunteer-build-reviewed |

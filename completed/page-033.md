@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M038011 | P0245 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFieldStalkImageOfGenericPoint` | volunteer-build-reviewed |
+| M038012 | P0299 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFieldStalkImageOfGenericPointStatement` | volunteer-build-reviewed |
+| M038013 | P1999 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFieldTensorOfIsEmptyAlgHom` | volunteer-build-reviewed |
 | M038015 | P1399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFinMapsOfForall` | volunteer-build-reviewed |
 | M038016 | P1399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFinOpenSubBaseChange` | volunteer-build-reviewed |
 | M038017 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFinPt` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M039138 | P2399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTranscendenceBasisResidueFieldUniformiserCons` | volunteer-build-reviewed |
 | M039143 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTranslateOfTangentVectorFibreToGroupSchemeStatement` | volunteer-build-reviewed |
 | M039145 | P1793 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTranspAlt` | volunteer-build-reviewed |
-| M039147 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTransportF` | volunteer-build-reviewed |
-| M039150 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTransv` | volunteer-build-reviewed |
-| M039154 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsTwistedThetaValuePullbackBaseChange` | volunteer-build-reviewed |

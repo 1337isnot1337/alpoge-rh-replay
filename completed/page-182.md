@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M174802 | P1192 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentations.DecompB` | wave-reused |
+| M174803 | P1216 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentations.DecompC` | wave-reused |
+| M174804 | P1270 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentations.ExistsKEquivariantMap` | wave-reused |
 | M174805 | P1833 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentations.FmFormBAddLeft` | wave-reused |
 | M174806 | P0434 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentations.FockTA` | wave-reused |
 | M174808 | P1900 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentations.FormCc` | wave-reused |

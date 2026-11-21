@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M159051 | P1190 | `Formalism.SharpRestriction.GlobalSchurBounds.GlobalRankLatticeProofs.UnitTraceSumBounds.GoodLatCM` | build-observed |
+| M159052 | P0750 | `Formalism.SharpRestriction.GlobalSchurBounds.GlobalRankLatticeProofs.UnitTraceSumBounds.IdealLattice` | build-observed |
+| M159053 | P0777 | `Formalism.SharpRestriction.GlobalSchurBounds.GlobalRankLatticeProofs.UnitTraceSumBounds.IdealLatticeHolds` | build-observed |
 | M159054 | P1878 | `Formalism.SharpRestriction.GlobalSchurBounds.GlobalRankLatticeProofs.UnitTraceSumBounds.Imports` | build-observed |
 | M159055 | P1111 | `Formalism.SharpRestriction.GlobalSchurBounds.GlobalRankLatticeProofs.UnitTraceSumBounds.InducedCmType` | build-observed |
 | M159056 | P1321 | `Formalism.SharpRestriction.GlobalSchurBounds.GlobalRankLatticeProofs.UnitTraceSumBounds.IntegralityOfCommutation` | build-observed |
@@ -399,6 +402,3 @@
 | M159496 | P1992 | `Formalism.SharpRestriction.GrowthBounds.DiagonalSupport.SizeStepAlt` | build-observed |
 | M159497 | P1918 | `Formalism.SharpRestriction.GrowthBounds.DiagonalSupport.SlackBoundJoint` | build-observed |
 | M159498 | P1900 | `Formalism.SharpRestriction.GrowthBounds.DiagonalSupport.SlackBoundReal` | build-observed |
-| M159499 | P1992 | `Formalism.SharpRestriction.GrowthBounds.DiagonalSupport.SumMulSumProd` | build-observed |
-| M159500 | P2031 | `Formalism.SharpRestriction.GrowthBounds.DiagonalSupport.ThresholdGeOddPosition` | build-observed |
-| M159501 | P1955 | `Formalism.SharpRestriction.GrowthBounds.DiagonalSupport.TriangularCountLeSq` | build-observed |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M084210 | P0127 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.NormCoeffIntegralPowerSeriesLeProdZeros` | volunteer-build-reviewed |
+| M084211 | P0194 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.NormCoeffIntegralPowerSeriesLeProdZerosStatement` | volunteer-build-reviewed |
+| M084212 | P0037 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.NormEigenLePowMulNormSum` | wave-reused |
 | M084216 | P0194 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.NormLeOfDistinct` | build-observed |
 | M084218 | P0037 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.NormSqAdjointAddGeOfJointEigenspaces` | volunteer-build-reviewed |
 | M084219 | P0958 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.NormSqContractLe` | build-observed |
@@ -399,6 +402,3 @@
 | M085068 | P0820 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsIsoOfProjectiveCoordinateRepresentation` | volunteer-build-reviewed |
 | M085069 | P0849 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsIsoOfProjectiveCoordinateRepresentationStatement` | volunteer-build-reviewed |
 | M085072 | P1890 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsIsoQuotientsSameKernelReducedBase` | build-observed |
-| M085073 | P1911 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsIsoQuotientsSameKernelReducedBaseStatement` | build-observed |
-| M085074 | P1179 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsIsogenyPullbackHeckeModuliObject` | build-observed |
-| M085075 | P1203 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsIsogenyPullbackHeckeModuliObjectStatement` | build-observed |

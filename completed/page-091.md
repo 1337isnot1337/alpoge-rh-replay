@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M100644 | P1073 | `Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HasDRepIffHasDerivAt` | volunteer-build-reviewed |
+| M100645 | P1386 | `Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.HasExponentZeroIff` | build-observed |
+| M100648 | P0312 | `Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.IsExcRat` | volunteer-build-reviewed |
 | M100649 | P1158 | `Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.IsPrincipalMapOfAlgHom` | volunteer-build-reviewed |
 | M100650 | P0312 | `Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.Jutila` | volunteer-build-reviewed |
 | M100651 | P1410 | `Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.LocalLanglandsGL` | build-observed |
@@ -399,6 +402,3 @@
 | M101469 | P0259 | `Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DeterminantRepresentations.RepCont` | volunteer-build-reviewed |
 | M101470 | P0043 | `Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DeterminantRepresentations.SchurLine` | volunteer-build-reviewed |
 | M101471 | P0131 | `Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DeterminantRepresentations.SignLemma` | volunteer-build-reviewed |
-| M101472 | P0259 | `Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DeterminantRepresentations.StarApi` | volunteer-build-reviewed |
-| M101473 | P0312 | `Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DeterminantRepresentations.StarDet` | volunteer-build-reviewed |
-| M101475 | P0131 | `Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DualLattice` | volunteer-build-reviewed |

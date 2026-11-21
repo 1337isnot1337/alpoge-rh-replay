@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M078797 | P1309 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FibreMeasuresTransportUnitarySimilitudeStatement` | volunteer-build-reviewed |
+| M078798 | P2003 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FieldDatumSizeLogDiscriminant` | volunteer-build-reviewed |
+| M078799 | P2022 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FieldDatumSizeLogDiscriminantStatement` | volunteer-build-reviewed |
 | M078802 | P1595 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FifteenNotMemAndDeltaInertiaOrderDividesFifteenPStatement` | volunteer-build-reviewed |
 | M078804 | P1099 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FinAfMemIntUIff` | volunteer-build-reviewed |
 | M078806 | P1041 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FinAlgOfFinite` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M079868 | P1456 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IntersectionNumberEqGenericRankMulProjCurveStatement` | volunteer-build-reviewed |
 | M079869 | P1485 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IntersectionNumberFinitePushforward` | volunteer-build-reviewed |
 | M079870 | P1515 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IntersectionNumberFinitePushforwardStatement` | volunteer-build-reviewed |
-| M079871 | P0036 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IntertwineAeval` | volunteer-build-reviewed |
-| M079872 | P0036 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.InvEntryNormLeOfSubSmulOnePosSemidef` | volunteer-build-reviewed |
-| M079873 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.InvEntryNormLeOfSubSmulOnePosSemidefStatement` | volunteer-build-reviewed |

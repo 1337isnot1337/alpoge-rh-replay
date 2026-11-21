@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M138678 | P0372 | `Development.WeilBound.CoreStatements.IdealCycleValues.CycNumLinearInPolynomial` | wave-reused |
+| M138679 | P0418 | `Development.WeilBound.CoreStatements.IdealCycleValues.CycNumMulExpansion` | wave-reused |
+| M138680 | P0372 | `Development.WeilBound.CoreStatements.IdealCycleValues.CycNumRenameVariables` | wave-reused |
 | M138681 | P0418 | `Development.WeilBound.CoreStatements.IdealCycleValues.FlagFrameOfPointIdeal` | wave-reused |
 | M138682 | P0065 | `Development.WeilBound.CoreStatements.IdealCycleValues.FlatColon` | volunteer-build-reviewed |
 | M138683 | P0600 | `Development.WeilBound.CoreStatements.IdealCycleValues.GenNumLinearChangeClasses` | wave-reused |
@@ -399,6 +402,3 @@
 | M140315 | P1466 | `Development.WeilBound.CoreStatements.TemperedRepresentationTheory.MirabolicDerivatives.LeibnizDerivatives.HighestDerivProd` | build-observed |
 | M140316 | P1495 | `Development.WeilBound.CoreStatements.TemperedRepresentationTheory.MirabolicDerivatives.SegmentCuspLines.CuspLinesIrr` | build-observed |
 | M140317 | P1526 | `Development.WeilBound.CoreStatements.TemperedRepresentationTheory.MirabolicDerivatives.SegmentCuspLines.CuspStdSubGeneric` | volunteer-build-reviewed |
-| M140318 | P1466 | `Development.WeilBound.CoreStatements.TemperedRepresentationTheory.MirabolicDerivatives.SegmentCuspLines.ProdIrrFiniteLength` | build-observed |
-| M140319 | P1439 | `Development.WeilBound.CoreStatements.TemperedRepresentationTheory.MirabolicDerivatives.TwistedKernels.BetaFun` | build-observed |
-| M140320 | P1466 | `Development.WeilBound.CoreStatements.TemperedRepresentationTheory.MirabolicDerivatives.TwistedKernels.ExPhiPlusOnto` | build-observed |

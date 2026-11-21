@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M134007 | P0964 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetEigenFramePlurisubharmonicStatement` | wave-reused |
+| M134010 | P0456 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetGramSubharmonic` | build-observed |
+| M134011 | P0496 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetGramSubharmonicStatement` | build-observed |
 | M134012 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.LogIndexOfOrthogonalFamily` | volunteer-build-reviewed |
 | M134014 | P0799 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.LogNormIntegralVerticalInvariance` | volunteer-build-reviewed |
 | M134016 | P0718 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.LogNormNonvanishingAnalyticHarmonic` | build-observed |
@@ -399,6 +402,3 @@
 | M135049 | P0598 | `Development.EtaleCohomology.CohomologicalPurity.LeafCmpPfAll` | build-observed |
 | M135050 | P0565 | `Development.EtaleCohomology.CohomologicalPurity.LeafCmpPfId` | build-observed |
 | M135051 | P0565 | `Development.EtaleCohomology.CohomologicalPurity.LeafCmpPfNb` | build-observed |
-| M135052 | P0143 | `Development.EtaleCohomology.CohomologicalPurity.LeafCoeqPf` | volunteer-build-reviewed |
-| M135053 | P0662 | `Development.EtaleCohomology.CohomologicalPurity.LeafCokIsoPf` | build-observed |
-| M135054 | P0143 | `Development.EtaleCohomology.CohomologicalPurity.LeafColHensPf` | volunteer-build-reviewed |

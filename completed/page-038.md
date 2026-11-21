@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M044572 | P1906 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormPowLeConstMulOneAddSumAbsBasisCoordPowStatement` | volunteer-build-reviewed |
+| M044573 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormPowTwoPowSubOneGe` | volunteer-build-reviewed |
+| M044579 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormRootLeCardMulBoundOfEsymmNormLe` | volunteer-build-reviewed |
 | M044580 | P0184 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormRootLeCardMulBoundOfEsymmNormLeStatement` | volunteer-build-reviewed |
 | M044581 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormRootLeMaxOneSumNormCoeff` | volunteer-build-reviewed |
 | M044586 | P0247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormSectionSqSmooth` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M046152 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolyIntEqZeroOfIsHomogeneous` | volunteer-build-reviewed |
 | M046154 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolyMulGaussianBounded` | volunteer-build-reviewed |
 | M046162 | P2516 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolydiscUniformHermitianBoundStatement` | volunteer-build-reviewed |
-| M046170 | P1768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialDataDecomposesAtFinitePlaces` | volunteer-build-reviewed |
-| M046181 | P1450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialDetHermitianSumZero` | volunteer-build-reviewed |
-| M046189 | P1981 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialFockDenseStatement` | volunteer-build-reviewed |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M041851 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalIdentityOfTensorHeisenbergEigenStatement` | volunteer-build-reviewed |
+| M041860 | P0110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalInverseQuantitativeBall` | volunteer-build-reviewed |
+| M041861 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalInverseQuantitativeBallStatement` | volunteer-build-reviewed |
 | M041870 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalLatticeHermitianSkew` | volunteer-build-reviewed |
 | M041871 | P2111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalLatticeHermitianSkewStatement` | volunteer-build-reviewed |
 | M041874 | P2000 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalLatticeImageOpen` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M043157 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemFiniteUnitIdelesOfMapMaxRealSubfield` | volunteer-build-reviewed |
 | M043164 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemGLintIffMatrixImageStandardLatticeEq` | volunteer-build-reviewed |
 | M043165 | P0184 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemGLintIffMatrixImageStandardLatticeEqStatement` | volunteer-build-reviewed |
-| M043171 | P1906 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemHatMxHomLatIff` | volunteer-build-reviewed |
-| M043189 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemIdealIntegralFiniteAdelesOfMemCompletionStatement` | volunteer-build-reviewed |
-| M043190 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemIdealIntegralTensorSwapIffMemIdealSubgroup` | volunteer-build-reviewed |

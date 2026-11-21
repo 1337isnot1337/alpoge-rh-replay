@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M096474 | P1747 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.PeriodIntegrableBoundedByProductOfNormsStatement` | volunteer-build-reviewed |
+| M096478 | P2101 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.PeriodStepInvMulPointShape` | volunteer-build-reviewed |
+| M096479 | P2116 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.PeriodStepInvMulPointShapeStatement` | volunteer-build-reviewed |
 | M096480 | P0196 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.PeriodicThetaNormMeanFactorLe` | volunteer-build-reviewed |
 | M096481 | P0258 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.PeriodicThetaNormMeanFactorLeStatement` | volunteer-build-reviewed |
 | M096482 | P2026 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.PeriodsOnLineOfInvLine` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M097240 | P0712 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SmallCornerOfHeisenbergDuality` | build-observed |
 | M097241 | P0739 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SmallCornerOfHeisenbergDualityStatement` | build-observed |
 | M097242 | P2060 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SmallModelThetaTransformInjectiveProducts` | volunteer-build-reviewed |
-| M097243 | P2074 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SmallModelThetaTransformInjectiveProductsStatement` | volunteer-build-reviewed |
-| M097244 | P0712 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SmallRadicalCosetCountOfHeisenberg` | build-observed |
-| M097245 | P0740 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.SmallRadicalCosetCountOfHeisenbergStatement` | build-observed |

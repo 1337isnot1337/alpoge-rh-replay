@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M164584 | P0227 | `GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteProjectionSheetsDense` | volunteer-build-reviewed |
+| M164585 | P0162 | `GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteProjectionsGeneric` | wave-reused |
+| M164586 | P0082 | `GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatDimFormula` | volunteer-build-reviewed |
 | M164587 | P0162 | `GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatLocalRegularElement` | volunteer-build-reviewed |
 | M164588 | P0162 | `GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatLocalRegularSequence` | volunteer-build-reviewed |
 | M164589 | P0082 | `GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatNormalFibres` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M165211 | P0337 | `GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.PScalarQuotient` | wave-reused |
 | M165222 | P0725 | `GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.PSegreFlagCutChartSectionTools` | wave-reused |
 | M165223 | P0575 | `GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.PSegreFlagCutContraction` | build-observed |
-| M165225 | P0699 | `GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.PSegreFlagCutForms` | wave-reused |
-| M165231 | P0671 | `GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.PSegreFlagCutTools` | wave-reused |
-| M165233 | P0509 | `GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.PSpanBundleDim` | wave-reused |

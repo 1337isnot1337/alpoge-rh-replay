@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M162078 | P0778 | `Formalism.WachLatticeTwists.TorsionKernelSplitting.TorsionKernelProofs.TheoremNFiveTopSplit` | wave-reused |
+| M162079 | P0805 | `Formalism.WachLatticeTwists.TorsionKernelSplitting.TorsionKernelProofs.TheoremNFiveTopSplitHZero` | wave-reused |
+| M162080 | P0751 | `Formalism.WachLatticeTwists.TorsionKernelSplitting.TorsionKernelProofs.TheoremNFiveTopSplitOfSplit` | wave-reused |
 | M162081 | P0725 | `Formalism.WachLatticeTwists.TorsionKernelSplitting.TorsionKernelProofs.TorsionLeHZero` | wave-reused |
 | M162082 | P0698 | `Formalism.WachLatticeTwists.TorsionKernelSplitting.WachTwistSplitTheoremHZero` | wave-reused |
 | M162083 | P0725 | `Formalism.WachLatticeTwists.TorsionKernelSplitting.WachTwistSplitTheoremStatedForm` | wave-reused |
@@ -399,6 +402,3 @@
 | M162580 | P1082 | `GroundTheory.AutomorphicForms.FourierWhittaker.PartialCoeffDiagonalBlockGLEqVecCoeff` | build-observed |
 | M162581 | P0999 | `GroundTheory.AutomorphicForms.FourierWhittaker.Series` | build-observed |
 | M162582 | P1168 | `GroundTheory.AutomorphicForms.FourierWhittaker.Single` | build-observed |
-| M162583 | P1112 | `GroundTheory.AutomorphicForms.FourierWhittaker.Smooth` | build-observed |
-| M162584 | P0999 | `GroundTheory.AutomorphicForms.FourierWhittaker.UMatColXEqFromBlocks` | build-observed |
-| M162585 | P0380 | `GroundTheory.AutomorphicForms.GKModules.Casimir` | wave-reused |

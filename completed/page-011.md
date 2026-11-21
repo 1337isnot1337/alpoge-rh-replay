@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M008768 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsOrthogonalComplementPreimageOfFixLine` | volunteer-build-reviewed |
+| M008769 | P1788 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsOrthogonalComplementPreimageOfFixLineStatement` | volunteer-build-reviewed |
+| M008772 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsOrthogonalSumAndHyperbolicSumSpaces` | volunteer-build-reviewed |
 | M008774 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsOrthonormalBasisUnimodularHermitianLocalRi` | volunteer-build-reviewed |
 | M008775 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsOrthonormalBasisUnimodularHermitianLocalRiStatement` | volunteer-build-reviewed |
 | M008777 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsPadicCoordinatesOfDegreeOneSplitPlaceStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M009632 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IndicatorLocalHomLatticeMemSchwartzBruhatStatement` | volunteer-build-reviewed |
 | M009634 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InducedSectionSmooth` | volunteer-build-reviewed |
 | M009635 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InducedSectionZFinite` | volunteer-build-reviewed |
-| M009636 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertPlaceLocalCharacterConjugationInverse` | volunteer-build-reviewed |
-| M009637 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertPlaceLocalCharacterConjugationInverseStatement` | volunteer-build-reviewed |
-| M009638 | P1920 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertPlaceLocalTraceCharacterConductorIntegers` | volunteer-build-reviewed |

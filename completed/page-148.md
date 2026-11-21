@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M154645 | P1050 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.EulerFactorTwo` | build-observed |
+| M154646 | P1734 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.ExistsExactIdeal` | build-observed |
+| M154651 | P0075 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.FiniteLeOfPosDef` | build-observed |
 | M154652 | P1663 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.FinrankOFOE` | build-observed |
 | M154653 | P1109 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.FlCoeMul` | build-observed |
 | M154654 | P1109 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.FlatBasisOf` | build-observed |
@@ -399,6 +402,3 @@
 | M155189 | P1189 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HasseOrderBound.CompositionalInverseSymm` | build-observed |
 | M155190 | P1165 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HasseOrderBound.Development` | build-observed |
 | M155191 | P1189 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HasseOrderBound.OrthogonalSplitPolarizationVanishes` | build-observed |
-| M155194 | P0153 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HenselOpenValuation.IsOpenLeVal` | build-observed |
-| M155201 | P0667 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HermitianClassFiniteness.CTFromBlocks` | build-observed |
-| M155202 | P0153 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HermitianClassFiniteness.ClassSetFinIdx` | build-observed |

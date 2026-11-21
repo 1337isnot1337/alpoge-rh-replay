@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M172077 | P0290 | `ReciprocityTheory.L2DbarEstimates.Localization.Imports` | wave-reused |
+| M172078 | P0290 | `ReciprocityTheory.L2DbarEstimates.Localization.IntegrableFd` | wave-reused |
+| M172079 | P0703 | `ReciprocityTheory.L2DbarEstimates.Localization.IntegrableOnCompactOfLocL2` | wave-reused |
 | M172080 | P0703 | `ReciprocityTheory.L2DbarEstimates.Localization.KPsiHasCompactSupport` | wave-reused |
 | M172081 | P0703 | `ReciprocityTheory.L2DbarEstimates.Localization.LeviZCoordChart` | wave-reused |
 | M172082 | P0703 | `ReciprocityTheory.L2DbarEstimates.Localization.Locality` | wave-reused |
@@ -399,6 +402,3 @@
 | M172572 | P0433 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterBridgeE` | wave-reused |
 | M172573 | P0473 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterBridgeF` | wave-reused |
 | M172574 | P0091 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterBridgeG` | wave-reused |
-| M172575 | P0390 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterBridgeH` | wave-reused |
-| M172576 | P0433 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterBridgeI` | wave-reused |
-| M172577 | P0473 | `ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterBridgeJ` | wave-reused |

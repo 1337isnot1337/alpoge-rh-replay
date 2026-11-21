@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M091521 | P0040 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsBasisAdaptedTwoSubspaces` | volunteer-build-reviewed |
+| M091522 | P0655 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsBasisMem` | build-observed |
+| M091527 | P0591 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsContinuousGramSchmidt` | build-observed |
 | M091528 | P0128 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsDetAddEqDetMulDetOneAdd` | volunteer-build-reviewed |
 | M091529 | P0822 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsDriftFunctionOrthonormalHermitianFrames` | build-observed |
 | M091530 | P0850 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsDriftFunctionRealUnitaryGroup` | build-observed |
@@ -399,6 +402,3 @@
 | M092671 | P2059 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.CuspidalListedTopForms` | volunteer-build-reviewed |
 | M092672 | P2073 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.CuspidalListedTopFormsStatement` | volunteer-build-reviewed |
 | M092673 | P1652 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.CuspidalOfContinuousRepresentative` | volunteer-build-reviewed |
-| M092676 | P1747 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.CuspidalOperatorsVanishingRadicalIntegralsUnitary` | volunteer-build-reviewed |
-| M092678 | P1489 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.CxRootsInjective` | volunteer-build-reviewed |
-| M092687 | P2073 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.DarbouxModelAlgebraicVectorsLeAdelicSchwartz` | volunteer-build-reviewed |

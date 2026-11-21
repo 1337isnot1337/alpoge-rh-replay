@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M090786 | P1232 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.LinearMapCompEqOnSmulOfEq` | wave-reused |
+| M090787 | P0486 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.LintegralLintegralNormSqRiemannTheta` | build-observed |
+| M090788 | P1130 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.MemNonzeroLocusConstMul` | build-observed |
 | M090790 | P1573 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.MemNonzeroLocusOfVia` | wave-reused |
 | M090791 | P0590 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.MemNonzeroLocusProdSec` | wave-reused |
 | M090793 | P0767 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.MemNonzeroLocusVia` | wave-reused |
@@ -399,6 +402,3 @@
 | M091517 | P0591 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.EventuallyComparable` | wave-reused |
 | M091519 | P0195 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsAlgebraicIndependentRatiosOfGenericZero` | volunteer-build-reviewed |
 | M091520 | P0655 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsBasisAdaptedMem` | build-observed |
-| M091521 | P0040 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsBasisAdaptedTwoSubspaces` | volunteer-build-reviewed |
-| M091522 | P0655 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsBasisMem` | build-observed |
-| M091527 | P0591 | `Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsContinuousGramSchmidt` | build-observed |

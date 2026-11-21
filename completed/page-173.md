@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M168711 | P0165 | `GroundTheory.HeightsAndTheta.Heights.LocalDensities.LeviLine` | volunteer-build-reviewed |
+| M168722 | P0544 | `GroundTheory.HeightsAndTheta.Heights.LocalDensities.PFubiniStudyChartDensity` | wave-reused |
+| M168724 | P0387 | `GroundTheory.HeightsAndTheta.Heights.LocalDensities.PHermitianDetMono` | build-observed |
 | M168728 | P0165 | `GroundTheory.HeightsAndTheta.Heights.LocalDensities.PKrullHeightOne` | volunteer-build-reviewed |
 | M168733 | P0340 | `GroundTheory.HeightsAndTheta.Heights.LocalDensities.Statements` | volunteer-build-reviewed |
 | M168734 | P0230 | `GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsChartPartition` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M169653 | P0545 | `GroundTheory.HeightsAndTheta.Heights.WeightedHomogeneous.EvalConeChartMonomialNeZero` | build-observed |
 | M169654 | P0545 | `GroundTheory.HeightsAndTheta.Heights.WeightedHomogeneous.EvalConeChartMonomialNeZeroAlt` | build-observed |
 | M169655 | P0545 | `GroundTheory.HeightsAndTheta.Heights.WeightedHomogeneous.EvalConeChartMonomialNeZeroBis` | build-observed |
-| M169656 | P0545 | `GroundTheory.HeightsAndTheta.Heights.WeightedHomogeneous.EvalConeChartMonomialNeZeroMore` | build-observed |
-| M169657 | P0545 | `GroundTheory.HeightsAndTheta.Heights.WeightedHomogeneous.EvalConeChartMonomialNeZeroTer` | build-observed |
-| M169658 | P0545 | `GroundTheory.HeightsAndTheta.Heights.WeightedHomogeneous.EvalConeConj` | build-observed |

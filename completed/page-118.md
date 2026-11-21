@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M129745 | P0455 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ChartPrimeExistsUniquePointStatement` | build-observed |
+| M129746 | P0660 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ChartPrimeGivesComponent` | build-observed |
+| M129747 | P0689 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ChartPrimeGivesComponentStatement` | build-observed |
 | M129749 | P0495 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ChartRingIntegralClosureFinite` | build-observed |
 | M129750 | P0530 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ChartRingIntegralClosureFiniteStatement` | build-observed |
 | M129751 | P0495 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ChartRingIntegralFraction` | build-observed |
@@ -399,6 +402,3 @@
 | M131099 | P0142 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ImplicitFunctionHolomorphic` | volunteer-build-reviewed |
 | M131101 | P0063 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ImplicitRootAnalytic` | volunteer-build-reviewed |
 | M131102 | P0142 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.ImplicitRootAnalyticStatement` | volunteer-build-reviewed |
-| M131106 | P0370 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IntegralClosureChartSpan` | build-observed |
-| M131107 | P0415 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IntegralClosureChartSpanStatement` | build-observed |
-| M131108 | P0415 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.IntegralClosureFinite` | build-observed |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M102899 | P1749 | `Development.AutomorphicArithmetic.AutomorphicVarieties.ConjugateRepresentations.LocalLimitConjugates.WigHom` | volunteer-build-reviewed |
+| M102907 | P1749 | `Development.AutomorphicArithmetic.AutomorphicVarieties.ConjugateRepresentations.PartitionSolutions.CoverEx` | volunteer-build-reviewed |
+| M102914 | P1749 | `Development.AutomorphicArithmetic.AutomorphicVarieties.ConjugateRepresentations.PartitionSolutions.PartOp` | volunteer-build-reviewed |
 | M102919 | P1749 | `Development.AutomorphicArithmetic.AutomorphicVarieties.ConjugateRepresentations.PartitionSolutions.RelPrim` | volunteer-build-reviewed |
 | M102921 | P1749 | `Development.AutomorphicArithmetic.AutomorphicVarieties.ConjugateRepresentations.PartitionSolutions.SatClosed` | volunteer-build-reviewed |
 | M102925 | P1749 | `Development.AutomorphicArithmetic.AutomorphicVarieties.ConjugateRepresentations.PartitionSolutions.SuppBwd` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M103670 | P0198 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.SimultaneousEigenvectors.SimEig` | volunteer-build-reviewed |
 | M103671 | P1678 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.StickelbergerTheorem.CarryAll` | build-observed |
 | M103672 | P0741 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.StickelbergerTheorem.CarryPrime` | build-observed |
-| M103673 | P0657 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.StickelbergerTheorem.CombFloor` | build-observed |
-| M103674 | P1654 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.StickelbergerTheorem.DegOne` | build-observed |
-| M103675 | P0657 | `Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.StickelbergerTheorem.FfsumPow` | build-observed |

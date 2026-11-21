@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M052754 | P2001 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaKernelOneClassEqClassicalShortSeries` | volunteer-build-reviewed |
+| M052755 | P2021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaKernelOneClassEqClassicalShortSeriesStatement` | volunteer-build-reviewed |
+| M052757 | P2021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaKernelTensorValues` | volunteer-build-reviewed |
 | M052799 | P1982 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaLiftCarryingOfBaseTupleRows` | volunteer-build-reviewed |
 | M052800 | P2001 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaLiftCarryingOfBaseTupleRowsStatement` | volunteer-build-reviewed |
 | M052801 | P1907 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaLiftDarbouxAdelicSymplectic` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M054516 | P0023 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedNormFixedDecomposition` | volunteer-build-reviewed |
 | M054517 | P0115 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedNormFixedDecompositionStatement` | volunteer-build-reviewed |
 | M054520 | P1378 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedNormProductIterateTwistedConj` | build-observed |
-| M054521 | P1402 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedNormProductIterateTwistedConjStatement` | volunteer-build-reviewed |
-| M054522 | P1451 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedNormUnitCommutation` | volunteer-build-reviewed |
-| M054523 | P1451 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedOrbitNormBounds` | volunteer-build-reviewed |

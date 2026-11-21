@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M159913 | P1140 | `Formalism.SharpRestriction.GrowthBounds.MultisetValuation.SmulPsiGUp` | build-observed |
+| M159914 | P1081 | `Formalism.SharpRestriction.GrowthBounds.MultisetValuation.SmulUpdate` | build-observed |
+| M159915 | P0970 | `Formalism.SharpRestriction.GrowthBounds.MultisetValuation.StabilizerCount` | build-observed |
 | M159916 | P1053 | `Formalism.SharpRestriction.GrowthBounds.MultisetValuation.StmtNumEOf` | build-observed |
 | M159917 | P1470 | `Formalism.SharpRestriction.GrowthBounds.MultisetValuation.StmtNumFEx` | build-observed |
 | M159918 | P1242 | `Formalism.SharpRestriction.GrowthBounds.MultisetValuation.SubstitutionOfVariables` | build-observed |
@@ -399,6 +402,3 @@
 | M160310 | P1347 | `Formalism.SharpRestriction.GrowthBounds.TruncatedChains.CnNOOfNormal` | build-observed |
 | M160311 | P1321 | `Formalism.SharpRestriction.GrowthBounds.TruncatedChains.CnStepsTail` | build-observed |
 | M160312 | P1321 | `Formalism.SharpRestriction.GrowthBounds.TruncatedChains.CommPow` | build-observed |
-| M160313 | P1370 | `Formalism.SharpRestriction.GrowthBounds.TruncatedChains.IdxOfAppendSecond` | build-observed |
-| M160314 | P1321 | `Formalism.SharpRestriction.GrowthBounds.TruncatedChains.PfTrunc` | build-observed |
-| M160315 | P1347 | `Formalism.SharpRestriction.GrowthBounds.TruncatedChains.ProjectorCoeffSuccIndex` | build-observed |

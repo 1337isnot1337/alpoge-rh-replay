@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M058435 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassTermsLeOverlatticeMassesStatement` | wave-reused |
+| M058436 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassesTotalWeightLe` | wave-reused |
+| M058437 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameClassesTotalWeightLeStatement` | wave-reused |
 | M058438 | P0443 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameCoordinatesTransportInnerLattices` | wave-reused |
 | M058439 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFrameCoordinatesTransportInnerLatticesStatement` | wave-reused |
 | M058440 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianFramePairAmplitudeMassRepsEqOrbits` | wave-reused |
@@ -399,6 +402,3 @@
 | M059217 | P0024 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MainTheorem` | volunteer-build-reviewed |
 | M059220 | P0870 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MajorantIntegrable` | build-observed |
 | M059222 | P2112 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MajorantLengthMomentsAmplitudesLargeGapStatement` | volunteer-build-reviewed |
-| M059227 | P2112 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MajorantLengthTwoSidedMomentsLargeGap` | volunteer-build-reviewed |
-| M059228 | P2125 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MajorantLengthTwoSidedMomentsLargeGapStatement` | volunteer-build-reviewed |
-| M059231 | P1305 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MapConjGaugeMeasureEqInvDetSmul` | volunteer-build-reviewed |

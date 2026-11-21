@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M118575 | P2046 | `Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.PairReadOfJoin` | volunteer-build-reviewed |
+| M118576 | P2062 | `Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.PairReadOfJoinStatement` | volunteer-build-reviewed |
+| M118590 | P1726 | `Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.PartFrobEigNormO` | volunteer-build-reviewed |
 | M118622 | P2062 | `Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.PickSpec` | volunteer-build-reviewed |
 | M118623 | P2076 | `Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.PickSpecStatement` | volunteer-build-reviewed |
 | M118625 | P2062 | `Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.PinOfNTrue` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M119934 | P0770 | `Development.AutomorphicSpectrum.Proofs.AlgebraProofs.AlphaBetaAdjointExactStatement` | wave-reused |
 | M119935 | P0742 | `Development.AutomorphicSpectrum.Proofs.AlgebraProofs.AlphaBetaIsomorphismTransport` | wave-reused |
 | M119936 | P0770 | `Development.AutomorphicSpectrum.Proofs.AlgebraProofs.AlphaBetaIsomorphismTransportStatement` | wave-reused |
-| M119937 | P0715 | `Development.AutomorphicSpectrum.Proofs.AlgebraProofs.AlphaEquivariantFrobenius` | wave-reused |
-| M119938 | P0742 | `Development.AutomorphicSpectrum.Proofs.AlgebraProofs.AlphaEquivariantFrobeniusStatement` | wave-reused |
-| M119947 | P0367 | `Development.AutomorphicSpectrum.Proofs.AlgebraProofs.AugmentationQuotientEquivLattice` | volunteer-build-reviewed |

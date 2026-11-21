@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M060836 | P0444 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.SecondOrderMonomial` | wave-reused |
+| M060837 | P0925 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.SecondPartialLawPushAlongTripleMap` | build-observed |
+| M060838 | P0953 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.SecondPartialLawPushAlongTripleMapStatement` | build-observed |
 | M060839 | P0925 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.SurjectiveAppTopIntegralModelSquare` | build-observed |
 | M060840 | P0953 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.SurjectiveAppTopIntegralModelSquareStatement` | build-observed |
 | M060842 | P0925 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.TangentDirectionTwoChartsLinearPart` | build-observed |
@@ -399,6 +402,3 @@
 | M061753 | P0356 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIntegralCuspExpansionJInvariant` | wave-reused |
 | M061754 | P0402 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIntegralCuspExpansionJInvariantStatement` | wave-reused |
 | M061757 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIntegralNormNatDegreeModEqOne` | build-observed |
-| M061758 | P0026 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIntegralPolyOfPrimitiveRootTotallyRamified` | volunteer-build-reviewed |
-| M061759 | P0117 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIntegralPolyOfPrimitiveRootTotallyRamifiedStatement` | volunteer-build-reviewed |
-| M061762 | P0117 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIntertwinerHeisenbergCocycleOfFixedVector` | volunteer-build-reviewed |

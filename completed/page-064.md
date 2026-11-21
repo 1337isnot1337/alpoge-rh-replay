@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M073037 | P0033 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NotSqMulUnit` | volunteer-build-reviewed |
+| M073039 | P0033 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NotXPowSuccDvdDetOfFirstOrderKernelEqZero` | volunteer-build-reviewed |
+| M073043 | P0711 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NumberFieldPrimeZetaSumAddLogIsBigO` | build-observed |
 | M073044 | P0033 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NumericalConditionsTheoremTLargePrime` | volunteer-build-reviewed |
 | M073046 | P0791 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.OcTensorCoeffActionMatrixMultiplicative` | build-observed |
 | M073047 | P0818 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.OcTensorCoeffActionMatrixMultiplicativeStatement` | build-observed |
@@ -399,6 +402,3 @@
 | M074068 | P0765 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SmulAdd` | build-observed |
 | M074069 | P0791 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SmulAddStatement` | build-observed |
 | M074071 | P1068 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SmulMemFilTOfZero` | build-observed |
-| M074072 | P0033 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SmulPowMemSpanPowSmulTop` | volunteer-build-reviewed |
-| M074075 | P1910 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SpanConjUnitaryLieAlgebraRealPlaceEqTop` | volunteer-build-reviewed |
-| M074076 | P1928 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SpanConjUnitaryLieAlgebraRealPlaceEqTopStatement` | volunteer-build-reviewed |

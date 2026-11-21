@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M123359 | P0990 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FinrankLeAddOfMem` | build-observed |
+| M123360 | P1779 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FinsetFinTwoEqCases` | volunteer-build-reviewed |
+| M123368 | P1779 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FintypeResidue` | volunteer-build-reviewed |
 | M123369 | P1289 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FirstChernPullback` | wave-reused |
 | M123371 | P0595 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FirstCohomologyBaseChangeOfCochainEquivsStatement` | volunteer-build-reviewed |
 | M123373 | P0595 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FirstCohomologyInclusionTensorInjective` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M124210 | P0825 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IdempotentsOfPrimePowerRootOfUnity` | wave-reused |
 | M124211 | P0853 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IdempotentsOfPrimePowerRootOfUnityStatement` | wave-reused |
 | M124212 | P1235 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IdempotentsUniqueForEpsilonRoot` | build-observed |
-| M124213 | P1262 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IdempotentsUniqueForEpsilonRootStatement` | build-observed |
-| M124214 | P0139 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IdentityTubeHolds` | volunteer-build-reviewed |
-| M124216 | P1728 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ImPosScaledUpperHalfPlane` | volunteer-build-reviewed |

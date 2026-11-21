@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M025265 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteDepthTwoHullOfEtalePuncturedSpectrum` | wave-reused |
+| M025266 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteDepthTwoHullOfEtalePuncturedSpectrumStatement` | wave-reused |
+| M025267 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteDimStablePolyAveragesWeights` | volunteer-build-reviewed |
 | M025268 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteDimStablePolyAveragesWeightsStatement` | volunteer-build-reviewed |
 | M025269 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteDimensional` | volunteer-build-reviewed |
 | M025270 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteDimensionalArchRestrictionSpaceOfWei` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M026639 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsONBasis` | volunteer-build-reviewed |
 | M026644 | P1004 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsPreDividedPowersOfGenerators` | wave-reused |
 | M026656 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsPullbackBaseChange` | volunteer-build-reviewed |
-| M026658 | P2178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsRec` | volunteer-build-reviewed |
-| M026666 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsTensorEtaleSheafComplexPairing` | wave-reused |
-| M026667 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsTensorEtaleSheafComplexPairingStatement` | wave-reused |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M144886 | P0774 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.MemSmulOfMemSmulLocF` | wave-reused |
+| M144887 | P1211 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.MemSmulSpanIff` | wave-reused |
+| M144888 | P1266 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.MemSmulTopIff` | wave-reused |
 | M144889 | P0993 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.MulEqZeroIff` | wave-reused |
 | M144890 | P1238 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.MulMemPrimePower` | wave-reused |
 | M144891 | P0884 | `Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.NeBotOfIsMaximal` | wave-reused |
@@ -399,6 +402,3 @@
 | M145290 | P0421 | `Formalism.HarderNarasimhan.DefsPl` | wave-reused |
 | M145291 | P0212 | `Formalism.HarderNarasimhan.DegSupermodZ` | wave-reused |
 | M145292 | P0721 | `Formalism.HarderNarasimhan.FinalCor` | volunteer-build-reviewed |
-| M145293 | P0461 | `Formalism.HarderNarasimhan.HarderNarasimhanProofs.DegSupermod` | wave-reused |
-| M145294 | P0421 | `Formalism.HarderNarasimhan.HarderNarasimhanProofs.DegSupermodZ` | wave-reused |
-| M145295 | P0502 | `Formalism.HarderNarasimhan.HarderNarasimhanProofs.DiscreteSpanOfLinIndep` | wave-reused |

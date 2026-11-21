@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M153564 | P0603 | `Formalism.PeriodIntegrals.HermitianGenusExtension.SemilocalHermitianLattices.FiniteDimensionalOfOrtho` | build-observed |
+| M153565 | P0666 | `Formalism.PeriodIntegrals.HermitianGenusExtension.SemilocalHermitianLattices.GmapLocEqOfFrame` | build-observed |
+| M153566 | P0538 | `Formalism.PeriodIntegrals.HermitianGenusExtension.SemilocalHermitianLattices.IsHermSemilocalLocRing` | build-observed |
 | M153567 | P0422 | `Formalism.PeriodIntegrals.HermitianGenusExtension.SemilocalHermitianLattices.MassSt` | build-observed |
 | M153568 | P0636 | `Formalism.PeriodIntegrals.HermitianGenusExtension.SemilocalHermitianLattices.UnimodularOfMemGenusOrtho` | build-observed |
 | M153569 | P0328 | `Formalism.PeriodIntegrals.HodgeOfFon` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M154036 | P0074 | `Formalism.PeriodIntegrals.PhNormUnits` | volunteer-build-reviewed |
 | M154037 | P0074 | `Formalism.PeriodIntegrals.PhProdConv` | build-observed |
 | M154038 | P0074 | `Formalism.PeriodIntegrals.PhSchurConv` | build-observed |
-| M154039 | P0074 | `Formalism.PeriodIntegrals.PhiCubeOfFactor` | build-observed |
-| M154040 | P0276 | `Formalism.PeriodIntegrals.PinHostLoc` | build-observed |
-| M154041 | P0074 | `Formalism.PeriodIntegrals.PolydiscInt` | volunteer-build-reviewed |

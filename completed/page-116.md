@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M127699 | P1806 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SphericalOneOfLocalAlgebraStatement` | volunteer-build-reviewed |
+| M127700 | P1874 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SphericalSplitOfPointwise` | volunteer-build-reviewed |
+| M127703 | P1524 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SpinGlRelationsAdjoint` | volunteer-build-reviewed |
 | M127704 | P1552 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SpinGlRelationsAdjointStatement` | volunteer-build-reviewed |
 | M127707 | P1896 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SplitAdditiveCharacterHypothesis` | volunteer-build-reviewed |
 | M127709 | P1636 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SplitCentreDerivativeLieAction` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M128682 | P1897 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedQuadraticConditionThreeStatement` | volunteer-build-reviewed |
 | M128683 | P1875 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedQuadraticConditionTwo` | volunteer-build-reviewed |
 | M128684 | P1897 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedQuadraticConditionTwoStatement` | volunteer-build-reviewed |
-| M128685 | P1875 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedQuadraticExtensionValuation` | volunteer-build-reviewed |
-| M128686 | P1897 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedQuadraticExtensionValuationStatement` | volunteer-build-reviewed |
-| M128687 | P0062 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedQuadraticOrderPrincipal` | volunteer-build-reviewed |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M092676 | P1747 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.CuspidalOperatorsVanishingRadicalIntegralsUnitary` | volunteer-build-reviewed |
+| M092678 | P1489 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.CxRootsInjective` | volunteer-build-reviewed |
+| M092687 | P2073 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.DarbouxModelAlgebraicVectorsLeAdelicSchwartz` | volunteer-build-reviewed |
 | M092689 | P1460 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.DatumLevelHyperspecialOffFinitePlaces` | volunteer-build-reviewed |
 | M092690 | P1489 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.DatumLevelHyperspecialOffFinitePlacesStatement` | volunteer-build-reviewed |
 | M092694 | P1627 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.DecayWeightOneParamTranslateLeConstMulStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M093396 | P1652 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIntegralForm` | volunteer-build-reviewed |
 | M093397 | P2100 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIntegralGeneratorSplitPlaceCmExtension` | volunteer-build-reviewed |
 | M093398 | P2115 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIntegralGeneratorSplitPlaceCmExtensionStatement` | volunteer-build-reviewed |
-| M093400 | P1489 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIntegralInverseAtSplitPlacesOfUnitsStatement` | volunteer-build-reviewed |
-| M093401 | P1489 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIntegralInverseOnConjugateHalf` | volunteer-build-reviewed |
-| M093402 | P1518 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIntegralInverseOnConjugateHalfStatement` | volunteer-build-reviewed |

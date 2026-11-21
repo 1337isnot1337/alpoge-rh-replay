@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M070972 | P1945 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HeckeOfMemPartW` | volunteer-build-reviewed |
+| M070981 | P1909 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HeckePreservesSupLatticeAndCommutesTypeGroup` | volunteer-build-reviewed |
+| M070983 | P1909 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HeckeQuotientFrameChangeOfTriangularFrameChange` | volunteer-build-reviewed |
 | M070987 | P1889 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HeckeReadOfDeltaFrob` | volunteer-build-reviewed |
 | M070988 | P1865 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HeckeReadOfReadsExist` | volunteer-build-reviewed |
 | M070991 | P1945 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HeckeSameMap` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M071994 | P1649 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LadicCharacterRestrictCmFieldEqCyclotomicPow` | volunteer-build-reviewed |
 | M071995 | P1673 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LadicCharacterRestrictCmFieldEqCyclotomicPowStatement` | volunteer-build-reviewed |
 | M071996 | P1176 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LadicDescentStepToOE` | wave-reused |
-| M071997 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LadicDescentStepToOEStatement` | wave-reused |
-| M072001 | P1513 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LagrangianGraphsSumEqMatrixCoeffIntegral` | volunteer-build-reviewed |
-| M072004 | P1513 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LagrangianStabilizerNormalizesFrameUnipotentStatement` | volunteer-build-reviewed |

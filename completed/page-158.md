@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M159499 | P1992 | `Formalism.SharpRestriction.GrowthBounds.DiagonalSupport.SumMulSumProd` | build-observed |
+| M159500 | P2031 | `Formalism.SharpRestriction.GrowthBounds.DiagonalSupport.ThresholdGeOddPosition` | build-observed |
+| M159501 | P1955 | `Formalism.SharpRestriction.GrowthBounds.DiagonalSupport.TriangularCountLeSq` | build-observed |
 | M159502 | P1878 | `Formalism.SharpRestriction.GrowthBounds.DiagonalSupport.TwiceValuationFactorialProduct` | build-observed |
 | M159503 | P1955 | `Formalism.SharpRestriction.GrowthBounds.DiagonalSupport.TwistSliceCoeff` | build-observed |
 | M159504 | P1992 | `Formalism.SharpRestriction.GrowthBounds.DiagonalSupport.VBBMonomialOne` | build-observed |
@@ -399,6 +402,3 @@
 | M159910 | P1321 | `Formalism.SharpRestriction.GrowthBounds.MultisetValuation.RestEntOf` | build-observed |
 | M159911 | P1111 | `Formalism.SharpRestriction.GrowthBounds.MultisetValuation.RestrictedHeckeIntegralOfEdges` | build-observed |
 | M159912 | P1111 | `Formalism.SharpRestriction.GrowthBounds.MultisetValuation.SmulMemLatOf` | build-observed |
-| M159913 | P1140 | `Formalism.SharpRestriction.GrowthBounds.MultisetValuation.SmulPsiGUp` | build-observed |
-| M159914 | P1081 | `Formalism.SharpRestriction.GrowthBounds.MultisetValuation.SmulUpdate` | build-observed |
-| M159915 | P0970 | `Formalism.SharpRestriction.GrowthBounds.MultisetValuation.StabilizerCount` | build-observed |

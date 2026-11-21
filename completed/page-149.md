@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M155194 | P0153 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HenselOpenValuation.IsOpenLeVal` | build-observed |
+| M155201 | P0667 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HermitianClassFiniteness.CTFromBlocks` | build-observed |
+| M155202 | P0153 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HermitianClassFiniteness.ClassSetFinIdx` | build-observed |
 | M155203 | P0604 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HermitianClassFiniteness.Development` | build-observed |
 | M155204 | P0667 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HermitianClassFiniteness.FrHformSumLeft` | build-observed |
 | M155205 | P0636 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HermitianClassFiniteness.HformSumRight` | build-observed |
@@ -399,6 +402,3 @@
 | M155680 | P0572 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeReferenceFrame.LocGlob` | build-observed |
 | M155681 | P0696 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeReferenceFrame.LocalAssemblyPrincipal` | build-observed |
 | M155682 | P0667 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeReferenceFrame.MemLAOfNsmul` | build-observed |
-| M155683 | P0637 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeReferenceFrame.NatCastSmulMemL` | build-observed |
-| M155684 | P0604 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeReferenceFrame.PPAssemble` | build-observed |
-| M155685 | P0637 | `Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeReferenceFrame.PrincipalIdealRingAtPrime` | build-observed |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M135785 | P0533 | `Development.EtaleCohomology.EtaleSheaves.LevelIdentPf` | build-observed |
+| M135786 | P0632 | `Development.EtaleCohomology.EtaleSheaves.LiftPf` | wave-reused |
+| M135787 | P0567 | `Development.EtaleCohomology.EtaleSheaves.LimIntPf` | wave-reused |
 | M135788 | P0773 | `Development.EtaleCohomology.EtaleSheaves.LineChartPf` | wave-reused |
 | M135789 | P0567 | `Development.EtaleCohomology.EtaleSheaves.LineExPf` | wave-reused |
 | M135790 | P0457 | `Development.EtaleCohomology.EtaleSheaves.LineHigh` | wave-reused |
@@ -399,6 +402,3 @@
 | M136459 | P0371 | `Development.ResolutionOfSingularities.EmbeddedResolution.DerivativeIdeal.OrderPullback` | wave-reused |
 | M136460 | P0371 | `Development.ResolutionOfSingularities.EmbeddedResolution.DerivativeIdeal.PartialDerivativeIdeal` | wave-reused |
 | M136461 | P0417 | `Development.ResolutionOfSingularities.EmbeddedResolution.DerivativeIdeal.PowerContainmentAndOrderLocus` | wave-reused |
-| M136462 | P0663 | `Development.ResolutionOfSingularities.EmbeddedResolution.DerivativeIdeal.StrictTransformLogDerivativeIdealSheaf` | wave-reused |
-| M136463 | P0064 | `Development.ResolutionOfSingularities.EmbeddedResolution.DerivativeIdeal.TaylorExpansion` | volunteer-build-reviewed |
-| M136464 | P0144 | `Development.ResolutionOfSingularities.EmbeddedResolution.DerivativeIdeal.TaylorExpansionComparison` | wave-reused |

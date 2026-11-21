@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M076379 | P1543 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.CompletionEmbeddingCompatibleClosuresStatement` | volunteer-build-reviewed |
+| M076384 | P1099 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.CompletionUnramifiedNormal` | volunteer-build-reviewed |
+| M076386 | P1069 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ComplexFormsFiniteDimensional` | volunteer-build-reviewed |
 | M076387 | P1099 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ComplexFormsFiniteDimensionalStatement` | volunteer-build-reviewed |
 | M076391 | P2352 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ComplexPointMemClosedIffFactorVanishesStatement` | volunteer-build-reviewed |
 | M076395 | P1484 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ComplexPointsLiftModel` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M077546 | P1228 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsFiniteNormalFlatClosure` | volunteer-build-reviewed |
 | M077547 | P1256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsFiniteNormalFlatClosureStatement` | volunteer-build-reviewed |
 | M077550 | P2071 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsFiniteOrderChartsMiddleSteps` | volunteer-build-reviewed |
-| M077556 | P2040 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsFiniteRepresentativesRowFiniteTypes` | volunteer-build-reviewed |
-| M077557 | P2057 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsFiniteRepresentativesRowFiniteTypesStatement` | volunteer-build-reviewed |
-| M077558 | P1543 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsFiniteSplittingSetFrobeniusPolynomials` | volunteer-build-reviewed |

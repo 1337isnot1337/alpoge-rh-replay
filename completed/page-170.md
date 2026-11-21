@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M166419 | P0510 | `GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.PCurveComplexPoint` | build-observed |
+| M166421 | P0700 | `GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.PCurveIsOrbit` | wave-reused |
+| M166422 | P0084 | `GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.Points` | wave-reused |
 | M166424 | P0164 | `GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.Slopes` | wave-reused |
 | M166425 | P0229 | `GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.Statements` | wave-reused |
 | M166426 | P0338 | `GroundTheory.HeightsAndTheta.Heights.HermitianDual` | wave-reused |
@@ -399,6 +402,3 @@
 | M167388 | P0914 | `GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PNbarSmooth` | build-observed |
 | M167400 | P0943 | `GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PProjHoloLocal` | build-observed |
 | M167401 | P0779 | `GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PProjLineAmple` | build-observed |
-| M167402 | P0888 | `GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PProjSmoothAlong` | build-observed |
-| M167405 | P0780 | `GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PPushDown` | wave-reused |
-| M167419 | P0861 | `GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PTopNPoly` | build-observed |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M169656 | P0545 | `GroundTheory.HeightsAndTheta.Heights.WeightedHomogeneous.EvalConeChartMonomialNeZeroMore` | build-observed |
+| M169657 | P0545 | `GroundTheory.HeightsAndTheta.Heights.WeightedHomogeneous.EvalConeChartMonomialNeZeroTer` | build-observed |
+| M169658 | P0545 | `GroundTheory.HeightsAndTheta.Heights.WeightedHomogeneous.EvalConeConj` | build-observed |
 | M169659 | P0431 | `GroundTheory.HeightsAndTheta.Heights.WeightedHomogeneous.Examples` | wave-reused |
 | M169661 | P0545 | `GroundTheory.HeightsAndTheta.Heights.WeightedHomogeneous.ExistsFormOfMemChartRing` | build-observed |
 | M169662 | P0578 | `GroundTheory.HeightsAndTheta.Heights.WeightedHomogeneous.ExistsNatMulIsIntegralFin` | build-observed |
@@ -399,6 +402,3 @@
 | M170733 | P0289 | `Lemmata.DetMonotoneStarMulSelf.OneLeReDetOneAdd` | wave-reused |
 | M170734 | P0232 | `Lemmata.DetNormLeProdRows.DetNormLeProdRows` | build-observed |
 | M170735 | P0087 | `Lemmata.DiscreteValuationQuotients.LenQuotSpan` | build-observed |
-| M170736 | P0781 | `Lemmata.DualWeylPullback.DualWeylPull` | build-observed |
-| M170737 | P0087 | `Lemmata.FiberEquations.FiberEq` | wave-reused |
-| M170738 | P0087 | `Lemmata.FirstBlockLemmaA.Imports` | wave-reused |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M147997 | P0666 | `Formalism.LocalToGlobal.Columns.BaseLemmas` | build-observed |
+| M147998 | P1498 | `Formalism.LocalToGlobal.Columns.BlockTriangularMulVecMemPartialFlag` | build-observed |
+| M147999 | P1211 | `Formalism.LocalToGlobal.Columns.BrpAevalScaleMonomial` | build-observed |
 | M148000 | P1238 | `Formalism.LocalToGlobal.Columns.BrpColLatOneSpan` | build-observed |
 | M148001 | P1187 | `Formalism.LocalToGlobal.Columns.BrpStarLatLattice` | build-observed |
 | M148003 | P1136 | `Formalism.LocalToGlobal.Columns.BrzColLatOneLattice` | build-observed |
@@ -399,6 +402,3 @@
 | M148592 | P0070 | `Formalism.LocalToGlobal.GlobalTheory.ElemZeroZeroMulApply` | build-observed |
 | M148593 | P0502 | `Formalism.LocalToGlobal.GlobalTheory.EqGlobOfHat` | build-observed |
 | M148594 | P0570 | `Formalism.LocalToGlobal.GlobalTheory.ExistsUnitaryOneDetEq` | build-observed |
-| M148595 | P1211 | `Formalism.LocalToGlobal.GlobalTheory.FamCol` | build-observed |
-| M148596 | P1266 | `Formalism.LocalToGlobal.GlobalTheory.FamColC` | build-observed |
-| M148597 | P1238 | `Formalism.LocalToGlobal.GlobalTheory.FamColP` | build-observed |

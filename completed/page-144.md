@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M152496 | P1416 | `Formalism.LocalToGlobal.SiegelLatticeTheory.HaarTransversals.UnitaryHaarProducts.LocalWeightCharts.NotMidCases` | build-observed |
+| M152497 | P1416 | `Formalism.LocalToGlobal.SiegelLatticeTheory.HaarTransversals.UnitaryHaarProducts.LocalWeightCharts.OpnContinuous` | build-observed |
+| M152498 | P1469 | `Formalism.LocalToGlobal.SiegelLatticeTheory.HaarTransversals.UnitaryHaarProducts.LocalWeightCharts.ProductDecompositionHolds` | build-observed |
 | M152499 | P1442 | `Formalism.LocalToGlobal.SiegelLatticeTheory.HaarTransversals.UnitaryHaarProducts.LocalWeightCharts.PsiGenNorm` | build-observed |
 | M152500 | P1499 | `Formalism.LocalToGlobal.SiegelLatticeTheory.HaarTransversals.UnitaryHaarProducts.LocalWeightCharts.RepresentationContinuous` | build-observed |
 | M152501 | P1417 | `Formalism.LocalToGlobal.SiegelLatticeTheory.HaarTransversals.UnitaryHaarProducts.LocalWeightCharts.RepresentationUnitary` | build-observed |
@@ -399,6 +402,3 @@
 | M153140 | P0859 | `Formalism.LocalToGlobal.UnitaryNorms.CharUniq` | build-observed |
 | M153141 | P1734 | `Formalism.LocalToGlobal.UnitaryNorms.DatumS` | build-observed |
 | M153142 | P0859 | `Formalism.LocalToGlobal.UnitaryNorms.DefsDatum` | build-observed |
-| M153143 | P0831 | `Formalism.LocalToGlobal.UnitaryNorms.ExistsCycAct` | build-observed |
-| M153144 | P0503 | `Formalism.LocalToGlobal.UnitaryNorms.IotaABijective` | build-observed |
-| M153145 | P0274 | `Formalism.LocalToGlobal.UnitaryNorms.IsUnitaryNormOf` | wave-reused |

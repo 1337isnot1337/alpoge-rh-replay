@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M023702 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisWithDualBasisInHermitianLatticeAwayPl` | volunteer-build-reviewed |
+| M023703 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisWithDualBasisInHermitianLatticeAwayPlStatement` | volunteer-build-reviewed |
+| M023706 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBetaInvHeckeU` | volunteer-build-reviewed |
 | M023731 | P1087 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBlockDetGe` | wave-reused |
 | M023732 | P1031 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBlockDiagActEq` | build-observed |
 | M023733 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBlockEmb` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M025241 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteClassesModuloInvolutionNorms` | volunteer-build-reviewed |
 | M025242 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteClassesModuloInvolutionNormsStatement` | volunteer-build-reviewed |
 | M025257 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteControllingPoints` | volunteer-build-reviewed |
-| M025265 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteDepthTwoHullOfEtalePuncturedSpectrum` | wave-reused |
-| M025266 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteDepthTwoHullOfEtalePuncturedSpectrumStatement` | wave-reused |
-| M025267 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteDimStablePolyAveragesWeights` | volunteer-build-reviewed |

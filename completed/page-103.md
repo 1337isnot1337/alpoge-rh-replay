@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M114605 | P0492 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PTrChar` | wave-reused |
+| M114606 | P0492 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PTrComp` | wave-reused |
+| M114607 | P0492 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PTrCompQ` | wave-reused |
 | M114608 | P0492 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PTrDeg` | wave-reused |
 | M114609 | P0492 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PTrDegQ` | wave-reused |
 | M114610 | P0492 | `Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.TranscendenceTraces.PTrIdQ` | wave-reused |
@@ -399,6 +402,3 @@
 | M115312 | P0203 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.HolSubMul` | volunteer-build-reviewed |
 | M115313 | P0051 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.HomOr` | volunteer-build-reviewed |
 | M115314 | P0051 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.HomWProd` | build-observed |
-| M115316 | P0051 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.HsSum` | volunteer-build-reviewed |
-| M115317 | P0051 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.HwvLoweringSpanLower` | wave-reused |
-| M115318 | P0051 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ImagOfSq` | volunteer-build-reviewed |

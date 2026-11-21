@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M063526 | P0555 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionCoeffsMemFinitelyGeneratedStatement` | wave-reused |
+| M063527 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionFunctionInjectiveOfPolynomialGrowth` | wave-reused |
+| M063528 | P0621 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionFunctionInjectiveOfPolynomialGrowthStatement` | wave-reused |
 | M063529 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionHeckeUEqSumSlash` | wave-reused |
 | M063530 | P0684 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionHeckeUEqSumSlashStatement` | wave-reused |
 | M063531 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionPolyGrowthSummableContinuous` | wave-reused |
@@ -399,6 +402,3 @@
 | M064413 | P1175 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.FramedPointIntegralIntegralCellAnyModel` | wave-reused |
 | M064414 | P1199 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.FramedPointIntegralIntegralCellAnyModelStatement` | wave-reused |
 | M064415 | P1063 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.FramedPointVectorsIntegralInCell` | wave-reused |
-| M064417 | P1331 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.GaussValuationDensityGenerationLocalisation` | build-observed |
-| M064418 | P1356 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.GaussValuationDensityGenerationLocalisationStatement` | build-observed |
-| M064419 | P1771 | `Development.AbelianVarietyTheory.Proofs.GenericRegularity.GenFrExAndGenFromTest` | volunteer-build-reviewed |

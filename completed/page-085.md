@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M095840 | P1967 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.LowestKTypeFockMapExistsOfDiscreteSeriesStatement` | volunteer-build-reviewed |
+| M095841 | P1948 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.LowestKTypeFockMapHarmonicOfDiscreteSeries` | volunteer-build-reviewed |
+| M095842 | P1967 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.LowestKTypeFockMapHarmonicOfDiscreteSeriesStatement` | volunteer-build-reviewed |
 | M095844 | P1016 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.LowestKTypeFunctionEquivalenceStatement` | volunteer-build-reviewed |
 | M095845 | P1519 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.LowestKTypeLieWordNormBound` | volunteer-build-reviewed |
 | M095846 | P1547 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.LowestKTypeLieWordNormBoundStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M096469 | P2007 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.PeriodAllDataProductsEqFourierJacobiPeriod` | volunteer-build-reviewed |
 | M096470 | P2026 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.PeriodAllDataProductsEqFourierJacobiPeriodStatement` | volunteer-build-reviewed |
 | M096471 | P1700 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.PeriodEqZeroOfVanishingOnKFiniteValues` | volunteer-build-reviewed |
-| M096474 | P1747 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.PeriodIntegrableBoundedByProductOfNormsStatement` | volunteer-build-reviewed |
-| M096478 | P2101 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.PeriodStepInvMulPointShape` | volunteer-build-reviewed |
-| M096479 | P2116 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.PeriodStepInvMulPointShapeStatement` | volunteer-build-reviewed |

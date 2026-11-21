@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M115316 | P0051 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.HsSum` | volunteer-build-reviewed |
+| M115317 | P0051 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.HwvLoweringSpanLower` | wave-reused |
+| M115318 | P0051 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ImagOfSq` | volunteer-build-reviewed |
 | M115319 | P0051 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.Imports` | volunteer-build-reviewed |
 | M115320 | P0051 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ImportsAlt` | volunteer-build-reviewed |
 | M115321 | P0051 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ImportsBis` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M115762 | P0057 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SumRMulNe` | volunteer-build-reviewed |
 | M115763 | P0057 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SumRightInverse` | volunteer-build-reviewed |
 | M115764 | P0057 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SumSupportEq` | wave-reused |
-| M115766 | P0057 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SummableProdCoord` | volunteer-build-reviewed |
-| M115767 | P0057 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SummandLocalization` | build-observed |
-| M115768 | P0057 | `Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SxLimPt` | volunteer-build-reviewed |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M101472 | P0259 | `Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DeterminantRepresentations.StarApi` | volunteer-build-reviewed |
+| M101473 | P0312 | `Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DeterminantRepresentations.StarDet` | volunteer-build-reviewed |
+| M101475 | P0131 | `Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DualLattice` | volunteer-build-reviewed |
 | M101476 | P0043 | `Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.EqLagIff` | wave-reused |
 | M101477 | P0131 | `Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.EqOneOfStrictMono` | volunteer-build-reviewed |
 | M101479 | P0131 | `Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.FiniteHomOfTopFG` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M102896 | P1749 | `Development.AutomorphicArithmetic.AutomorphicVarieties.ConjugateRepresentations.LocalLimitConjugates.UnitCont` | volunteer-build-reviewed |
 | M102897 | P1749 | `Development.AutomorphicArithmetic.AutomorphicVarieties.ConjugateRepresentations.LocalLimitConjugates.ValNhds` | volunteer-build-reviewed |
 | M102898 | P1749 | `Development.AutomorphicArithmetic.AutomorphicVarieties.ConjugateRepresentations.LocalLimitConjugates.WigAlpha` | volunteer-build-reviewed |
-| M102899 | P1749 | `Development.AutomorphicArithmetic.AutomorphicVarieties.ConjugateRepresentations.LocalLimitConjugates.WigHom` | volunteer-build-reviewed |
-| M102907 | P1749 | `Development.AutomorphicArithmetic.AutomorphicVarieties.ConjugateRepresentations.PartitionSolutions.CoverEx` | volunteer-build-reviewed |
-| M102914 | P1749 | `Development.AutomorphicArithmetic.AutomorphicVarieties.ConjugateRepresentations.PartitionSolutions.PartOp` | volunteer-build-reviewed |

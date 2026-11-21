@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M028205 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointPicardClassEqTranslateOfTrivialLambda` | volunteer-build-reviewed |
+| M028206 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointPicardClassEqTranslateOfTrivialLambdaStatement` | volunteer-build-reviewed |
+| M028214 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointsFramesThetaSectionGenericFibreMemberStatement` | volunteer-build-reviewed |
 | M028227 | P2036 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolAVFibre` | volunteer-build-reviewed |
 | M028229 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolAVInterior` | volunteer-build-reviewed |
 | M028232 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarDecompositionIndefiniteUnitary` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M029532 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSubquotientJacUIntertwining` | volunteer-build-reviewed |
 | M029533 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSubquotientTransport` | volunteer-build-reviewed |
 | M029537 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSumTwoSidedMulEqMatrixUnitUnitaryDatumStatement` | volunteer-build-reviewed |
-| M029542 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSuppSub` | wave-reused |
-| M029543 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSupportOfStTw2NeZero` | volunteer-build-reviewed |
-| M029544 | P1979 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSupportedAdeleSplitPlaceMatrixCoordinateEq` | volunteer-build-reviewed |

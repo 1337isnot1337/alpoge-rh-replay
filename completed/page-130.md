@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M142887 | P1612 | `Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.CompactOrbits.AdjointSemisimple.AdjunctionCharZero` | volunteer-build-reviewed |
+| M142889 | P1612 | `Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.CompactOrbits.Descent.CommutingInverses.InvCommOfComm` | volunteer-build-reviewed |
+| M142893 | P1732 | `Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.CompactOrbits.Descent.OpenSlices.LatticeIndices.RelIndexLatConj` | volunteer-build-reviewed |
 | M142895 | P1661 | `Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.CompactOrbits.Descent.OpenSlices.OpenSlice` | volunteer-build-reviewed |
 | M142896 | P1612 | `Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.CompactOrbits.Descent.SliceVan` | volunteer-build-reviewed |
 | M142898 | P1661 | `Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.CompactOrbits.Descent.SliceVanishing.DistrC` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M144071 | P0146 | `Formalism.BehrendSets.BehrendVariance.TwoPowDvdPowTwoPowSubOne` | build-observed |
 | M144072 | P0270 | `Formalism.BehrendSets.FinalE` | build-observed |
 | M144073 | P0068 | `Formalism.BehrendSets.Statement` | volunteer-build-reviewed |
-| M144074 | P0146 | `Formalism.BehrendSets.StatementE` | build-observed |
-| M144075 | P0210 | `Formalism.BehrendSets.TranslateMean` | build-observed |
-| M144076 | P0536 | `Formalism.BranchSandwichDivisors.BranchIsometryProofs.BoundsIVal` | build-observed |

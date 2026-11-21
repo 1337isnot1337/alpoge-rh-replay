@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M098274 | P1931 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.WeilActionLiftPairStepVectorInvLevelChar` | volunteer-build-reviewed |
+| M098278 | P2044 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.WeilActionNegPairPureTensorFock` | volunteer-build-reviewed |
+| M098279 | P2060 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.WeilActionNegPairPureTensorFockStatement` | volunteer-build-reviewed |
 | M098280 | P2060 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.WeilActionOMemLatticeOOfIntegralCombinations` | volunteer-build-reviewed |
 | M098281 | P2075 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.WeilActionOMemLatticeOOfIntegralCombinationsStatement` | volunteer-build-reviewed |
 | M098285 | P1967 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.WeilActionRealPointFockVectorsScalarColumnActionStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M098997 | P1206 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsProperAndRelAmpleLPow` | build-observed |
 | M098998 | P1132 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsProperOfIsProjBy` | build-observed |
 | M099001 | P0960 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsPullFOfGenRel` | volunteer-build-reviewed |
-| M099002 | P0932 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsPullbackKernelBaseChange` | build-observed |
-| M099003 | P1157 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsPullbackOfEquationsLift` | build-observed |
-| M099004 | P0768 | `Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsPullbackPullbackMap` | wave-reused |

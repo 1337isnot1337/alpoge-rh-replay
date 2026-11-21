@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M168217 | P0644 | `GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.ImportsMoreTail` | wave-reused |
+| M168218 | P0611 | `GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.ImportsMoreTer` | wave-reused |
+| M168219 | P0754 | `GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.ImportsRest` | build-observed |
 | M168220 | P0611 | `GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.ImportsRestAlt` | wave-reused |
 | M168221 | P0085 | `GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.ImportsRestBis` | wave-reused |
 | M168222 | P0644 | `GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.ImportsRestExtra` | wave-reused |
@@ -399,6 +402,3 @@
 | M168664 | P1322 | `GroundTheory.HeightsAndTheta.Heights.LatticeLemmas.ImportsAlt` | worker-kernel-checked |
 | M168708 | P0387 | `GroundTheory.HeightsAndTheta.Heights.LocalDensities.HypImp` | volunteer-build-reviewed |
 | M168710 | P0340 | `GroundTheory.HeightsAndTheta.Heights.LocalDensities.LeviFormGbPotOne` | volunteer-build-reviewed |
-| M168711 | P0165 | `GroundTheory.HeightsAndTheta.Heights.LocalDensities.LeviLine` | volunteer-build-reviewed |
-| M168722 | P0544 | `GroundTheory.HeightsAndTheta.Heights.LocalDensities.PFubiniStudyChartDensity` | wave-reused |
-| M168724 | P0387 | `GroundTheory.HeightsAndTheta.Heights.LocalDensities.PHermitianDetMono` | build-observed |

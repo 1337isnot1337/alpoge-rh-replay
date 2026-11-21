@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M051155 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardAdelicCharacter` | volunteer-build-reviewed |
+| M051156 | P1982 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardAdelicCharacterNontrivialAtPlaces` | volunteer-build-reviewed |
+| M051157 | P2001 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardAdelicCharacterNontrivialAtPlacesStatement` | volunteer-build-reviewed |
 | M051160 | P1769 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardCharContinuousNontrivial` | volunteer-build-reviewed |
 | M051161 | P1795 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardCharContinuousNontrivialStatement` | volunteer-build-reviewed |
 | M051162 | P2084 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardCharHalfSymplecticMovedFinitePointTrivia` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M052743 | P2084 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaKernelArchimedeanUnipotentSupportStatement` | volunteer-build-reviewed |
 | M052746 | P2039 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaKernelContinuousFunctional` | volunteer-build-reviewed |
 | M052750 | P2039 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaKernelFinitePointMemSpanRationalFormLifts` | volunteer-build-reviewed |
-| M052754 | P2001 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaKernelOneClassEqClassicalShortSeries` | volunteer-build-reviewed |
-| M052755 | P2021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaKernelOneClassEqClassicalShortSeriesStatement` | volunteer-build-reviewed |
-| M052757 | P2021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ThetaKernelTensorValues` | volunteer-build-reviewed |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M122430 | P1550 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DominantIwahoriCosetRepsStatement` | volunteer-build-reviewed |
+| M122431 | P0934 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DominantUnipotentContraction` | build-observed |
+| M122432 | P0962 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DominantUnipotentContractionStatement` | build-observed |
 | M122435 | P1803 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DoubleComplexClassSurjective` | volunteer-build-reviewed |
 | M122436 | P1827 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DoubleComplexClassSurjectiveStatement` | volunteer-build-reviewed |
 | M122437 | P1803 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DoubleComplexClassZeroOfLeadZero` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M123352 | P1752 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FiniteZSpanIntegralRepresentation` | volunteer-build-reviewed |
 | M123353 | P1779 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FiniteZSpanIntegralRepresentationStatement` | volunteer-build-reviewed |
 | M123356 | P0798 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FinrankChartLatQMono` | build-observed |
-| M123359 | P0990 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FinrankLeAddOfMem` | build-observed |
-| M123360 | P1779 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FinsetFinTwoEqCases` | volunteer-build-reviewed |
-| M123368 | P1779 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FintypeResidue` | volunteer-build-reviewed |

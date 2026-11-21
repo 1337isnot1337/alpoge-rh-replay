@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M126823 | P0062 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.QuotientMeasureByInvariantSubgroup` | volunteer-build-reviewed |
+| M126824 | P0140 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.QuotientMeasureByInvariantSubgroupStatement` | volunteer-build-reviewed |
+| M126829 | P1850 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RWConstMul` | volunteer-build-reviewed |
 | M126830 | P1850 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RWMulN` | volunteer-build-reviewed |
 | M126833 | P1896 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RamifiedQuadraticExtensionUniformizer` | volunteer-build-reviewed |
 | M126835 | P1896 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RamifiedQuadraticExtensionValuation` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M127692 | P1610 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SpectralTraceOfModelAlgebraStatement` | volunteer-build-reviewed |
 | M127697 | P1851 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SphericalFirst` | build-observed |
 | M127698 | P1781 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SphericalOneOfLocalAlgebra` | volunteer-build-reviewed |
-| M127699 | P1806 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SphericalOneOfLocalAlgebraStatement` | volunteer-build-reviewed |
-| M127700 | P1874 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SphericalSplitOfPointwise` | volunteer-build-reviewed |
-| M127703 | P1524 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SpinGlRelationsAdjoint` | volunteer-build-reviewed |

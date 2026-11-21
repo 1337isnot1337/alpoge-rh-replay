@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M071997 | P1200 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LadicDescentStepToOEStatement` | wave-reused |
+| M072001 | P1513 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LagrangianGraphsSumEqMatrixCoeffIntegral` | volunteer-build-reviewed |
+| M072004 | P1513 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LagrangianStabilizerNormalizesFrameUnipotentStatement` | volunteer-build-reviewed |
 | M072012 | P0032 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LangXRoot` | volunteer-build-reviewed |
 | M072013 | P1428 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LanglandsClassificationSupercuspidalSupportMulti` | build-observed |
 | M072014 | P1483 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LanglandsClassificationSupercuspidalSupportMultiStatement` | build-observed |
@@ -399,6 +402,3 @@
 | M073030 | P0765 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NotForallExistsTwoLiesOverAbsNormEqStatement` | build-observed |
 | M073032 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NotIsIntegralResidueInvSmallIntegerStatement` | volunteer-build-reviewed |
 | M073035 | P0033 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NotMemSqOfDerivative` | volunteer-build-reviewed |
-| M073037 | P0033 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NotSqMulUnit` | volunteer-build-reviewed |
-| M073039 | P0033 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NotXPowSuccDvdDetOfFirstOrderKernelEqZero` | volunteer-build-reviewed |
-| M073043 | P0711 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NumberFieldPrimeZetaSumAddLogIsBigO` | build-observed |

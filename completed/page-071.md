@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M081157 | P1069 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NormPrimesShortIntervalLower` | volunteer-build-reviewed |
+| M081158 | P1099 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NormPrimesShortIntervalLowerStatement` | volunteer-build-reviewed |
+| M081159 | P0036 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NormSmulLeOneOfPrimitiveBoundedPowers` | volunteer-build-reviewed |
 | M081160 | P0126 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NormSmulLeOneOfPrimitiveBoundedPowersStatement` | volunteer-build-reviewed |
 | M081166 | P0194 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NormalLocalIsLocalisationOfFiniteOverPolynomialA` | volunteer-build-reviewed |
 | M081167 | P0256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NormalLocalIsLocalisationOfFiniteOverPolynomialAStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M083080 | P1228 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.UpwardOperatorMemAdelicFormsStatement` | volunteer-build-reviewed |
 | M083081 | P1202 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.UpwardOperatorPreservesRationality` | volunteer-build-reviewed |
 | M083082 | P1228 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.UpwardOperatorPreservesRationalityStatement` | volunteer-build-reviewed |
-| M083083 | P0126 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.VLeOne` | volunteer-build-reviewed |
-| M083088 | P1486 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ValAtAlgebraMap` | build-observed |
-| M083089 | P1515 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ValAtEqOfResidueFieldHom` | volunteer-build-reviewed |

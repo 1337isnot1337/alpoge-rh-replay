@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M144074 | P0146 | `Formalism.BehrendSets.StatementE` | build-observed |
+| M144075 | P0210 | `Formalism.BehrendSets.TranslateMean` | build-observed |
+| M144076 | P0536 | `Formalism.BranchSandwichDivisors.BranchIsometryProofs.BoundsIVal` | build-observed |
 | M144077 | P0601 | `Formalism.BranchSandwichDivisors.BranchIsometryProofs.BranchMap` | build-observed |
 | M144078 | P0747 | `Formalism.BranchSandwichDivisors.BranchIsometryProofs.BranchScale` | build-observed |
 | M144079 | P0774 | `Formalism.BranchSandwichDivisors.BranchIsometryProofs.GlobalBoundRefinements` | build-observed |
@@ -399,6 +402,3 @@
 | M144474 | P0068 | `Formalism.FockGram.StatementLat` | wave-reused |
 | M144475 | P0211 | `Formalism.FockGram.StatementSymPos` | wave-reused |
 | M144476 | P0147 | `Formalism.FockGram.StatementTensor` | wave-reused |
-| M144477 | P0271 | `Formalism.FockGram.SymGramPosSemidef` | wave-reused |
-| M144478 | P0460 | `Formalism.FormalDegreeBessel.FdegFactorial` | build-observed |
-| M144479 | P0325 | `Formalism.FormalDegreeBessel.FinalBF` | wave-reused |

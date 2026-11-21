@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M009636 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertPlaceLocalCharacterConjugationInverse` | volunteer-build-reviewed |
+| M009637 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertPlaceLocalCharacterConjugationInverseStatement` | volunteer-build-reviewed |
+| M009638 | P1920 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertPlaceLocalTraceCharacterConductorIntegers` | volunteer-build-reviewed |
 | M009640 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertSupportedPointIntegralFramesMemLattice` | volunteer-build-reviewed |
 | M009641 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertSupportedPointIntegralFramesMemLatticeStatement` | volunteer-build-reviewed |
 | M009642 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertUnitaryCosetSymmetryHeckeEven` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M010440 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemIntegralGLIffIsUnitDetAtPrimeStatement` | volunteer-build-reviewed |
 | M010441 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemIntegralGLSplitPlaceOfCarriesLatticeCompletio` | volunteer-build-reviewed |
 | M010445 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemLatticeCompletionAtPlacesOfFinPartMemHatLatti` | volunteer-build-reviewed |
-| M010446 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemLatticeCompletionAtPlacesOfFinPartMemHatLattiStatement` | volunteer-build-reviewed |
-| M010447 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemLatticeStabilizerIffScaledFrameConj` | volunteer-build-reviewed |
-| M010448 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemLatticeStabilizerIffScaledFrameConjStatement` | volunteer-build-reviewed |

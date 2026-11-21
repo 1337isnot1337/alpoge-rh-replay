@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M150044 | P0722 | `Formalism.LocalToGlobal.NormalizedHeckeFactors.NormalizedHeckeData` | build-observed |
+| M150045 | P1188 | `Formalism.LocalToGlobal.NormalizedHeckeFactors.PendTie` | build-observed |
+| M150046 | P1878 | `Formalism.LocalToGlobal.NormalizedHeckeFactors.RankZeroOfLevelThree` | build-observed |
 | M150047 | P0802 | `Formalism.LocalToGlobal.NormalizedHeckeFactors.RhoDefs` | build-observed |
 | M150048 | P0775 | `Formalism.LocalToGlobal.NormalizedHeckeFactors.RingHomOfBaseOrderToFraction` | build-observed |
 | M150049 | P0748 | `Formalism.LocalToGlobal.NormalizedHeckeFactors.RingSpecSidedEmbeddingFixedField` | build-observed |
@@ -399,6 +402,3 @@
 | M150726 | P1138 | `Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLatticeShifts.JacConstGE` | build-observed |
 | M150727 | P0995 | `Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLatticeShifts.JacConstGEB` | build-observed |
 | M150730 | P1109 | `Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLatticeShifts.JacConstPf` | build-observed |
-| M150732 | P0995 | `Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLatticeShifts.JacConstWb` | build-observed |
-| M150733 | P0968 | `Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLatticeShifts.JacConstWbB` | build-observed |
-| M150735 | P1319 | `Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLatticeShifts.JacExGoodOfN` | build-observed |

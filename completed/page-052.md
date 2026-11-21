@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M061758 | P0026 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIntegralPolyOfPrimitiveRootTotallyRamified` | volunteer-build-reviewed |
+| M061759 | P0117 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIntegralPolyOfPrimitiveRootTotallyRamifiedStatement` | volunteer-build-reviewed |
+| M061762 | P0117 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIntertwinerHeisenbergCocycleOfFixedVector` | volunteer-build-reviewed |
 | M061763 | P0788 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIntertwinerMapHighestWeightVectorCompact` | build-observed |
 | M061764 | P0816 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIntertwinerMapHighestWeightVectorCompactStatement` | build-observed |
 | M061766 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIrreducible` | build-observed |
@@ -399,6 +402,3 @@
 | M062659 | P0356 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsAlgebraicOfFiniteComplexAutomorphismOrbit` | wave-reused |
 | M062660 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsAlgebraicOfFiniteComplexAutomorphismOrbitStatement` | wave-reused |
 | M062661 | P0251 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsAlgebraicOfJKMem` | volunteer-build-reviewed |
-| M062665 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsBoundedAtImInftyOfPeriodicPolynomialBound` | wave-reused |
-| M062666 | P0620 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsBoundedAtImInftyOfPeriodicPolynomialBoundStatement` | wave-reused |
-| M062673 | P0356 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsCuspExpansionAtInfinityCompRatAffine` | wave-reused |

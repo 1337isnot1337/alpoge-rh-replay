@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M132091 | P1018 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.SncPatchAtEachComponentStatement` | build-observed |
+| M132092 | P0661 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.SncPatchBoundaryUnits` | volunteer-build-reviewed |
+| M132093 | P0690 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.SncPatchBoundaryUnitsStatement` | build-observed |
 | M132096 | P0267 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.SncPts` | volunteer-build-reviewed |
 | M132099 | P0799 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.SpecMapCompAppLE` | volunteer-build-reviewed |
 | M132100 | P0321 | `Development.AutomorphicSpectrum.Proofs.GeometryProofs.SpecStalkSpecializesComp` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M133143 | P0690 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.BasePartFlagPt` | build-observed |
 | M133146 | P1105 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.BaseVectorProperties` | build-observed |
 | M133147 | P1135 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.BaseVectorPropertiesStatement` | build-observed |
-| M133156 | P0854 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.BlockDiagFrameAtGoodPoint` | build-observed |
-| M133157 | P0882 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.BlockDiagFrameAtGoodPointStatement` | build-observed |
-| M133158 | P0661 | `Development.AutomorphicSpectrum.Proofs.MetricProofs.BlockDiagValuationNormalization` | volunteer-build-reviewed |

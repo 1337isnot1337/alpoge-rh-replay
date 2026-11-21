@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M095254 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsOpenEmbeddingFiniteAdeleOfSPartAndIntegralPart` | volunteer-build-reviewed |
+| M095255 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsOpenEmbeddingFiniteAdeleOfSPartAndIntegralPartStatement` | volunteer-build-reviewed |
+| M095256 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsOpenEmbeddingPairOfTuplesToTupleOfPairs` | volunteer-build-reviewed |
 | M095257 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsOpenEmbeddingPairOfTuplesToTupleOfPairsStatement` | volunteer-build-reviewed |
 | M095258 | P0408 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsOpenIsCompactTwoBlockParahoricSubgroup` | volunteer-build-reviewed |
 | M095262 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsOpenSetOfLeRank` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M095834 | P1967 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.LowerTowerLiftsVanishOnFock` | volunteer-build-reviewed |
 | M095835 | P1987 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.LowerTowerLiftsVanishOnFockStatement` | volunteer-build-reviewed |
 | M095839 | P1948 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.LowestKTypeFockMapExistsOfDiscreteSeries` | volunteer-build-reviewed |
-| M095840 | P1967 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.LowestKTypeFockMapExistsOfDiscreteSeriesStatement` | volunteer-build-reviewed |
-| M095841 | P1948 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.LowestKTypeFockMapHarmonicOfDiscreteSeries` | volunteer-build-reviewed |
-| M095842 | P1967 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.LowestKTypeFockMapHarmonicOfDiscreteSeriesStatement` | volunteer-build-reviewed |

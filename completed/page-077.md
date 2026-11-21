@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M089592 | P1042 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.TauPlBijective` | volunteer-build-reviewed |
+| M089598 | P0407 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.TemperedOfLpDimLeOneOfUnitEigenvalues` | volunteer-build-reviewed |
+| M089609 | P1598 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.TensorFrobeniusSemisimplificationStatement` | volunteer-build-reviewed |
 | M089625 | P2127 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ThetaEigenCompatibilityFourthStatement` | volunteer-build-reviewed |
 | M089635 | P2127 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ThetaEigenCompatibilityThirdStatement` | volunteer-build-reviewed |
 | M089658 | P1598 | `Development.AbelianVarietyTheory.Proofs.SatakeParameters.ThetaLiftGoodProjectorIntertwinesMatchedHecke` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M090782 | P1072 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.LineBundleIsoDescendsToSubringOfFinset` | volunteer-build-reviewed |
 | M090784 | P0794 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.LineBundlePowSectionsEqThetaLevel` | volunteer-build-reviewed |
 | M090785 | P0822 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.LineBundlePowSectionsEqThetaLevelStatement` | wave-reused |
-| M090786 | P1232 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.LinearMapCompEqOnSmulOfEq` | wave-reused |
-| M090787 | P0486 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.LintegralLintegralNormSqRiemannTheta` | build-observed |
-| M090788 | P1130 | `Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.MemNonzeroLocusConstMul` | build-observed |

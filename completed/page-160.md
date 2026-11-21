@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M160313 | P1370 | `Formalism.SharpRestriction.GrowthBounds.TruncatedChains.IdxOfAppendSecond` | build-observed |
+| M160314 | P1321 | `Formalism.SharpRestriction.GrowthBounds.TruncatedChains.PfTrunc` | build-observed |
+| M160315 | P1347 | `Formalism.SharpRestriction.GrowthBounds.TruncatedChains.ProjectorCoeffSuccIndex` | build-observed |
 | M160316 | P1370 | `Formalism.SharpRestriction.GrowthBounds.TruncatedChains.ProjectorFactorMemWeightSpace` | build-observed |
 | M160317 | P1321 | `Formalism.SharpRestriction.GrowthBounds.TruncatedChains.RaisingKillOfInterface` | build-observed |
 | M160318 | P1296 | `Formalism.SharpRestriction.GrowthBounds.TruncatedChains.RestPair` | build-observed |
@@ -399,6 +402,3 @@
 | M161258 | P0833 | `Formalism.SizeWindowBrackets.ChainSlopeWindows.AnalyticFirstToLatticeDiscriminant` | build-observed |
 | M161259 | P0805 | `Formalism.SizeWindowBrackets.ChainSlopeWindows.ChainAnalyticVariantOfTop` | build-observed |
 | M161260 | P0778 | `Formalism.SizeWindowBrackets.ChainSlopeWindows.ChainLatticeSizesModelEventually` | build-observed |
-| M161261 | P0778 | `Formalism.SizeWindowBrackets.ChainSlopeWindows.ChiEightNoRealZeroHypothesis` | build-observed |
-| M161262 | P0222 | `Formalism.SizeWindowBrackets.ChainSlopeWindows.CorollaryModelSideCondition` | build-observed |
-| M161263 | P0724 | `Formalism.SizeWindowBrackets.ChainSlopeWindows.DiscriminantSettingSatisfied` | build-observed |

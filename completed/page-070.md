@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M079871 | P0036 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IntertwineAeval` | volunteer-build-reviewed |
+| M079872 | P0036 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.InvEntryNormLeOfSubSmulOnePosSemidef` | volunteer-build-reviewed |
+| M079873 | P0125 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.InvEntryNormLeOfSubSmulOnePosSemidefStatement` | volunteer-build-reviewed |
 | M079878 | P1910 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.InvMapMulMapMulCancelComplexEmbedding` | volunteer-build-reviewed |
 | M079880 | P2003 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.InvReductionMulFlagTranslationMemRowLevelGroup` | volunteer-build-reviewed |
 | M079882 | P1964 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.InvSmulMem` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M081153 | P1309 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NormOneOfTraceFormPreservedStatement` | volunteer-build-reviewed |
 | M081154 | P0036 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NormPowSubOneLe` | volunteer-build-reviewed |
 | M081155 | P0036 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NormPowSubPowLe` | volunteer-build-reviewed |
-| M081157 | P1069 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NormPrimesShortIntervalLower` | volunteer-build-reviewed |
-| M081158 | P1099 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NormPrimesShortIntervalLowerStatement` | volunteer-build-reviewed |
-| M081159 | P0036 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NormSmulLeOneOfPrimitiveBoundedPowers` | volunteer-build-reviewed |

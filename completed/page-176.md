@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M171520 | P0676 | `ReciprocityTheory.AnalyticForms.RegularLocalRings.StalkLoc` | wave-reused |
+| M171521 | P0646 | `ReciprocityTheory.AnalyticForms.RegularLocalRings.StalkLocA` | wave-reused |
+| M171522 | P0646 | `ReciprocityTheory.AnalyticForms.RegularLocalRings.StalkLocB` | wave-reused |
 | M171523 | P0943 | `ReciprocityTheory.AnalyticForms.RegularLocalRings.Surj` | build-observed |
 | M171524 | P0943 | `ReciprocityTheory.AnalyticForms.RegularLocalRings.WCharts` | build-observed |
 | M171525 | P0889 | `ReciprocityTheory.AnalyticForms.RegularLocalRings.WChartsA` | build-observed |
@@ -399,6 +402,3 @@
 | M172074 | P0703 | `ReciprocityTheory.L2DbarEstimates.Localization.CutoffA` | wave-reused |
 | M172075 | P0703 | `ReciprocityTheory.L2DbarEstimates.Localization.DerivSmoothTransitionOfOneLt` | wave-reused |
 | M172076 | P0703 | `ReciprocityTheory.L2DbarEstimates.Localization.Extend` | wave-reused |
-| M172077 | P0290 | `ReciprocityTheory.L2DbarEstimates.Localization.Imports` | wave-reused |
-| M172078 | P0290 | `ReciprocityTheory.L2DbarEstimates.Localization.IntegrableFd` | wave-reused |
-| M172079 | P0703 | `ReciprocityTheory.L2DbarEstimates.Localization.IntegrableOnCompactOfLocL2` | wave-reused |

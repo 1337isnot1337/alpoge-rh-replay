@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M136862 | P0693 | `Development.ResolutionOfSingularities.EmbeddedResolution.StrongResolution.AffineDetachedConditions` | wave-reused |
+| M136863 | P0322 | `Development.ResolutionOfSingularities.EmbeddedResolution.StrongResolution.AffineEmbeddingIntoAffineSpace` | wave-reused |
+| M136864 | P0535 | `Development.ResolutionOfSingularities.EmbeddedResolution.StrongResolution.AffineResolutionConditions` | wave-reused |
 | M136865 | P0322 | `Development.ResolutionOfSingularities.EmbeddedResolution.StrongResolution.AffineSpaceSmooth` | wave-reused |
 | M136866 | P0568 | `Development.ResolutionOfSingularities.EmbeddedResolution.StrongResolution.CentersLieOverSingularLocus` | wave-reused |
 | M136867 | P0322 | `Development.ResolutionOfSingularities.EmbeddedResolution.StrongResolution.ClosedEmbeddingsIntoAffineSpace` | wave-reused |
@@ -399,6 +402,3 @@
 | M138649 | P0144 | `Development.WeilBound.CoreStatements.HomogeneousNonvanishing.TwGTheta` | volunteer-build-reviewed |
 | M138650 | P0209 | `Development.WeilBound.CoreStatements.HomogeneousNonvanishing.TwGXi` | volunteer-build-reviewed |
 | M138652 | P0144 | `Development.WeilBound.CoreStatements.HomogeneousNonvanishing.TwLift` | volunteer-build-reviewed |
-| M138678 | P0372 | `Development.WeilBound.CoreStatements.IdealCycleValues.CycNumLinearInPolynomial` | wave-reused |
-| M138679 | P0418 | `Development.WeilBound.CoreStatements.IdealCycleValues.CycNumMulExpansion` | wave-reused |
-| M138680 | P0372 | `Development.WeilBound.CoreStatements.IdealCycleValues.CycNumRenameVariables` | wave-reused |

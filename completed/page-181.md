@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M174174 | P0808 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.FormalDegree.AdKMeasurePreserving` | wave-reused |
+| M174175 | P0170 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.FormalDegree.CauchyBinet` | wave-reused |
+| M174176 | P1471 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.FormalDegree.CoefDec` | build-observed |
 | M174177 | P0474 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.FormalDegree.CoefIntCpt` | build-observed |
 | M174178 | P0474 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.FormalDegree.CoefIntVG` | build-observed |
 | M174180 | P0944 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.FormalDegree.CoefLocGap` | build-observed |
@@ -399,6 +402,3 @@
 | M174799 | P0474 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentations.DSymmHypsInhabited` | wave-reused |
 | M174800 | P1243 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentations.Decomp` | wave-reused |
 | M174801 | P0171 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentations.DecompA` | wave-reused |
-| M174802 | P1192 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentations.DecompB` | wave-reused |
-| M174803 | P1216 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentations.DecompC` | wave-reused |
-| M174804 | P1270 | `ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentations.ExistsKEquivariantMap` | wave-reused |

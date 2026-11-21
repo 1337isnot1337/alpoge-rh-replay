@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M014830 | P0296 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditivePeriodExponentLinearStatement` | volunteer-build-reviewed |
+| M014837 | P0918 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveTwoCocycleCoeffRelationsOnePair` | build-observed |
+| M014838 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveTwoCocycleCoeffRelationsOnePairStatement` | build-observed |
 | M014844 | P2094 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdeleBaseChangeMemIdeal` | volunteer-build-reviewed |
 | M014852 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdeleMod` | volunteer-build-reviewed |
 | M014855 | P1474 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdeleQuotientCompactRepresentatives` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M016552 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BottomTriangleNonzeroConstantFirst` | volunteer-build-reviewed |
 | M016553 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BottomTriangleNonzeroConstantFirstStatement` | volunteer-build-reviewed |
 | M016566 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BottomTriangleThetaEvalStatement` | volunteer-build-reviewed |
-| M016567 | P2188 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BottomTriangleUnitConstant` | volunteer-build-reviewed |
-| M016568 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BottomTriangleUnitConstantStatement` | volunteer-build-reviewed |
-| M016570 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BottomTripleThetaKernelMinorsEqConstConjJetStatement` | volunteer-build-reviewed |

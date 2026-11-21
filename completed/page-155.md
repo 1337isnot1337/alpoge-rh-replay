@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M158047 | P0156 | `Formalism.RealPlaceAnalysis.SmoothOnG` | wave-reused |
+| M158048 | P0379 | `Formalism.RealPlaceAnalysis.SmoothOnGVIff` | wave-reused |
+| M158049 | P0332 | `Formalism.RealPlaceAnalysis.SmoothVectorGrowthBound` | wave-reused |
 | M158050 | P0077 | `Formalism.RealPlaceAnalysis.StatementA` | wave-reused |
 | M158051 | P0156 | `Formalism.RealPlaceAnalysis.StatementB` | wave-reused |
 | M158052 | P0221 | `Formalism.RealPlaceAnalysis.StatementC` | wave-reused |
@@ -399,6 +402,3 @@
 | M158499 | P1296 | `Formalism.SharpRestriction.CuspSpanNormBounds.MinorIntegralityTorus` | build-observed |
 | M158500 | P1347 | `Formalism.SharpRestriction.CuspSpanNormBounds.NearParameterGap` | build-observed |
 | M158501 | P0996 | `Formalism.SharpRestriction.CuspSpanNormBounds.NonGenericAndKTwoTheorems` | build-observed |
-| M158502 | P0969 | `Formalism.SharpRestriction.CuspSpanNormBounds.NonemptyParameterModels.AmpTensorDSdNonemptyOfSubsingleton` | build-observed |
-| M158503 | P0941 | `Formalism.SharpRestriction.CuspSpanNormBounds.NonemptyParameterModels.NumericSettingWithGapSatisfiable` | build-observed |
-| M158504 | P1110 | `Formalism.SharpRestriction.CuspSpanNormBounds.NonemptyParameterModels.SixteenLeMulOfStdOfHypOfHyp0` | build-observed |

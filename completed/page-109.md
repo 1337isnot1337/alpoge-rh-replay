@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M121697 | P1752 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ComplexPointsSecondCountable` | volunteer-build-reviewed |
+| M121698 | P1778 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ComplexPointsSecondCountableStatement` | volunteer-build-reviewed |
+| M121700 | P1778 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ConcatenatedJacquetMultiplicityFactorization` | volunteer-build-reviewed |
 | M121701 | P1802 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ConcatenatedJacquetMultiplicityFactorizationStatement` | volunteer-build-reviewed |
 | M121704 | P1681 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ConductorEqTopOfStandardOpen` | volunteer-build-reviewed |
 | M121705 | P0659 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ConeCocycleClassIndependent` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M122422 | P1803 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DominantCosetTwistedConjugacyStatement` | volunteer-build-reviewed |
 | M122425 | P0906 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DominantElementsGlValued` | build-observed |
 | M122428 | P1727 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DominantHeckeOperatorsCommuteStatement` | volunteer-build-reviewed |
-| M122430 | P1550 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DominantIwahoriCosetRepsStatement` | volunteer-build-reviewed |
-| M122431 | P0934 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DominantUnipotentContraction` | build-observed |
-| M122432 | P0962 | `Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DominantUnipotentContractionStatement` | build-observed |

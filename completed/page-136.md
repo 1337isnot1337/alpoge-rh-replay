@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M147074 | P1528 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.ThmPActualCptOfStepParts2` | worker-kernel-checked |
+| M147077 | P0375 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.ThresholdBelowOne` | build-observed |
+| M147078 | P0665 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.ThresholdExponentEstimate` | build-observed |
 | M147079 | P0885 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.ThresholdOfLargeConstant` | wave-reused |
 | M147084 | P0665 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.TopCellsOfParts` | wave-reused |
 | M147086 | P0213 | `Formalism.HermitianCurvature.HermitianCurvatureProofs.TopDegreePolynomials` | build-observed |
@@ -399,6 +402,3 @@
 | M147540 | P0069 | `Formalism.LocalRingCardinality.SpanPowerMembership.BasisOfBasisF` | build-observed |
 | M147541 | P0858 | `Formalism.LocalRingCardinality.SpanPowerMembership.ClassRecordRowDimensionZero` | build-observed |
 | M147542 | P0910 | `Formalism.LocalRingCardinality.SpanPowerMembership.CodeRecordDiscriminantLevel` | build-observed |
-| M147543 | P0802 | `Formalism.LocalRingCardinality.SpanPowerMembership.DivXExample` | build-observed |
-| M147544 | P1048 | `Formalism.LocalRingCardinality.SpanPowerMembership.EACentral` | build-observed |
-| M147545 | P0966 | `Formalism.LocalRingCardinality.SpanPowerMembership.EMjNApply` | build-observed |

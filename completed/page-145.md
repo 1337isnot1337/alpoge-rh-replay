@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M153143 | P0831 | `Formalism.LocalToGlobal.UnitaryNorms.ExistsCycAct` | build-observed |
+| M153144 | P0503 | `Formalism.LocalToGlobal.UnitaryNorms.IotaABijective` | build-observed |
+| M153145 | P0274 | `Formalism.LocalToGlobal.UnitaryNorms.IsUnitaryNormOf` | wave-reused |
 | M153146 | P0831 | `Formalism.LocalToGlobal.UnitaryNorms.JointCut` | build-observed |
 | M153147 | P0995 | `Formalism.LocalToGlobal.UnitaryNorms.LeastSplitAuxiliaryPrimeThetaChainSpec` | build-observed |
 | M153148 | P0503 | `Formalism.LocalToGlobal.UnitaryNorms.Lemmas` | build-observed |
@@ -399,6 +402,3 @@
 | M153561 | P0695 | `Formalism.PeriodIntegrals.HermitianGenusExtension.SemilocalHermitianLattices.ExistsIsomLoc` | build-observed |
 | M153562 | P0073 | `Formalism.PeriodIntegrals.HermitianGenusExtension.SemilocalHermitianLattices.ExistsNormOneOfPair` | build-observed |
 | M153563 | P0462 | `Formalism.PeriodIntegrals.HermitianGenusExtension.SemilocalHermitianLattices.ExistsSqAbsNormOfInert` | build-observed |
-| M153564 | P0603 | `Formalism.PeriodIntegrals.HermitianGenusExtension.SemilocalHermitianLattices.FiniteDimensionalOfOrtho` | build-observed |
-| M153565 | P0666 | `Formalism.PeriodIntegrals.HermitianGenusExtension.SemilocalHermitianLattices.GmapLocEqOfFrame` | build-observed |
-| M153566 | P0538 | `Formalism.PeriodIntegrals.HermitianGenusExtension.SemilocalHermitianLattices.IsHermSemilocalLocRing` | build-observed |

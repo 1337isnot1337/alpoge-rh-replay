@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M075087 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedStandardAddCharConductorProperties` | volunteer-build-reviewed |
+| M075088 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedStandardAddCharConductorPropertiesStatement` | volunteer-build-reviewed |
+| M075092 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedValuationParitySignCharacterKernelNorm` | volunteer-build-reviewed |
 | M075095 | P1513 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedWeilDeligneEqDiagonalInvStatement` | volunteer-build-reviewed |
 | M075096 | P1127 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedWittEmbeddingTwistedAlgebraMapInjectiv` | build-observed |
 | M075097 | P1153 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedWittEmbeddingTwistedAlgebraMapInjectivStatement` | build-observed |
@@ -399,6 +402,3 @@
 | M076375 | P1256 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.CompletedLatticeStabilizerCompactOpenStatement` | volunteer-build-reviewed |
 | M076376 | P0929 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.CompletelySplitPrimeHostPlaceProperties` | build-observed |
 | M076378 | P1514 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.CompletionEmbeddingCompatibleClosures` | volunteer-build-reviewed |
-| M076379 | P1543 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.CompletionEmbeddingCompatibleClosuresStatement` | volunteer-build-reviewed |
-| M076384 | P1099 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.CompletionUnramifiedNormal` | volunteer-build-reviewed |
-| M076386 | P1069 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ComplexFormsFiniteDimensional` | volunteer-build-reviewed |

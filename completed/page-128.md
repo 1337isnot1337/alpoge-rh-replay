@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M140318 | P1466 | `Development.WeilBound.CoreStatements.TemperedRepresentationTheory.MirabolicDerivatives.SegmentCuspLines.ProdIrrFiniteLength` | build-observed |
+| M140319 | P1439 | `Development.WeilBound.CoreStatements.TemperedRepresentationTheory.MirabolicDerivatives.TwistedKernels.BetaFun` | build-observed |
+| M140320 | P1466 | `Development.WeilBound.CoreStatements.TemperedRepresentationTheory.MirabolicDerivatives.TwistedKernels.ExPhiPlusOnto` | build-observed |
 | M140321 | P0145 | `Development.WeilBound.CoreStatements.TemperedRepresentationTheory.MirabolicDerivatives.TwistedKernels.TwKerLeComapOf` | volunteer-build-reviewed |
 | M140322 | P1389 | `Development.WeilBound.CoreStatements.TemperedRepresentationTheory.MirabolicDerivatives.UnipApplyCastSuccLast` | build-observed |
 | M140323 | P1439 | `Development.WeilBound.CoreStatements.TemperedRepresentationTheory.MirabolicDerivatives.UnipotentDerivatives.DerUnipLeUnipB` | build-observed |
@@ -399,6 +402,3 @@
 | M141981 | P1831 | `Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.LGoodEv` | volunteer-build-reviewed |
 | M141982 | P1784 | `Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.LGoodEvA` | volunteer-build-reviewed |
 | M141983 | P1809 | `Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.LGoodEvB` | volunteer-build-reviewed |
-| M141984 | P1784 | `Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.LIdemEx` | volunteer-build-reviewed |
-| M141986 | P1784 | `Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.LJPosA` | volunteer-build-reviewed |
-| M141993 | P0145 | `Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.LMajorA` | volunteer-build-reviewed |

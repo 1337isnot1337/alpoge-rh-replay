@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M022703 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EsymmMemVirtualCharactersOfPowerSumEigenvaluesStatement` | build-observed |
+| M022706 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EsymmPowTwelveDivDiscriminantMemSubring` | build-observed |
+| M022707 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EsymmPowTwelveDivDiscriminantMemSubringStatement` | build-observed |
 | M022708 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtChart` | volunteer-build-reviewed |
 | M022718 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaTildeHeckeCharSplitMulSignOfNormFormula` | volunteer-build-reviewed |
 | M022720 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaValuesCoefficientExists` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M023693 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisOverSubfieldEmbedding` | volunteer-build-reviewed |
 | M023696 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisQuotientLatticeEigen` | wave-reused |
 | M023697 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisQuotientLatticeEigenStatement` | wave-reused |
-| M023702 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisWithDualBasisInHermitianLatticeAwayPl` | volunteer-build-reviewed |
-| M023703 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisWithDualBasisInHermitianLatticeAwayPlStatement` | volunteer-build-reviewed |
-| M023706 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBetaInvHeckeU` | volunteer-build-reviewed |

@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M165225 | P0699 | `GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.PSegreFlagCutForms` | wave-reused |
+| M165231 | P0671 | `GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.PSegreFlagCutTools` | wave-reused |
+| M165233 | P0509 | `GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.PSpanBundleDim` | wave-reused |
 | M165234 | P0468 | `GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.PSpanBundleTrdegGe` | wave-reused |
 | M165235 | P0468 | `GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.PSpanBundleTrdegLe` | wave-reused |
 | M165236 | P0228 | `GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.PSpecialCycleEval` | wave-reused |
@@ -399,6 +402,3 @@
 | M165796 | P0671 | `GroundTheory.HeightsAndTheta.Heights.FiniteCovolume.PIsotropicSplit` | wave-reused |
 | M165797 | P0671 | `GroundTheory.HeightsAndTheta.Heights.FiniteCovolume.PKTransitive` | wave-reused |
 | M165798 | P0671 | `GroundTheory.HeightsAndTheta.Heights.FiniteCovolume.PLatticeOrbitsFinite` | wave-reused |
-| M165799 | P0699 | `GroundTheory.HeightsAndTheta.Heights.FiniteCovolume.PLatticePointsBelowFinite` | wave-reused |
-| M165800 | P0699 | `GroundTheory.HeightsAndTheta.Heights.FiniteCovolume.PLenCauchySchwarz` | wave-reused |
-| M165801 | P0671 | `GroundTheory.HeightsAndTheta.Heights.FiniteCovolume.PLenSq` | wave-reused |

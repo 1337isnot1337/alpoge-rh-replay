@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M043171 | P1906 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemHatMxHomLatIff` | volunteer-build-reviewed |
+| M043189 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemIdealIntegralFiniteAdelesOfMemCompletionStatement` | volunteer-build-reviewed |
+| M043190 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemIdealIntegralTensorSwapIffMemIdealSubgroup` | volunteer-build-reviewed |
 | M043191 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemIdealIntegralTensorSwapIffMemIdealSubgroupStatement` | volunteer-build-reviewed |
 | M043192 | P0184 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemIdealTransformOfForallSmulMem` | wave-reused |
 | M043197 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemIntegersOfMemHatO` | build-observed |
@@ -399,6 +402,3 @@
 | M044567 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormPeriodSq` | volunteer-build-reviewed |
 | M044570 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormPolarisedTopChernCoeffLeOfWeightedBoundStatement` | volunteer-build-reviewed |
 | M044571 | P1886 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormPowLeConstMulOneAddSumAbsBasisCoordPow` | volunteer-build-reviewed |
-| M044572 | P1906 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormPowLeConstMulOneAddSumAbsBasisCoordPowStatement` | volunteer-build-reviewed |
-| M044573 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormPowTwoPowSubOneGe` | volunteer-build-reviewed |
-| M044579 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormRootLeCardMulBoundOfEsymmNormLe` | volunteer-build-reviewed |

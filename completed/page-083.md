@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M094701 | P1948 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeckeKernelEqOfUnipotentFrameChangeStatement` | volunteer-build-reviewed |
+| M094702 | P1930 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeckeKernelSumEqCardTorsionMulTrace` | volunteer-build-reviewed |
+| M094703 | P1948 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeckeKernelSumEqCardTorsionMulTraceStatement` | volunteer-build-reviewed |
 | M094704 | P1912 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeckeKernelValueSumWeightTriangularFrame` | volunteer-build-reviewed |
 | M094705 | P1930 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeckeKernelValueSumWeightTriangularFrameStatement` | volunteer-build-reviewed |
 | M094706 | P0988 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeckeLEntireAndNonzeroAtOneHolds` | build-observed |
@@ -399,6 +402,3 @@
 | M095251 | P0311 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsOpenAndRelIndexNeZero` | volunteer-build-reviewed |
 | M095252 | P2043 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsOpenCongruenceEmbedding` | volunteer-build-reviewed |
 | M095253 | P2059 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsOpenCongruenceEmbeddingStatement` | volunteer-build-reviewed |
-| M095254 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsOpenEmbeddingFiniteAdeleOfSPartAndIntegralPart` | volunteer-build-reviewed |
-| M095255 | P1385 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsOpenEmbeddingFiniteAdeleOfSPartAndIntegralPartStatement` | volunteer-build-reviewed |
-| M095256 | P1362 | `Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsOpenEmbeddingPairOfTuplesToTupleOfPairs` | volunteer-build-reviewed |

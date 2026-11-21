@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M048802 | P1819 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchrodingerActionContinuousStatement` | volunteer-build-reviewed |
+| M048804 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchrodingerFixesScaledLattice` | volunteer-build-reviewed |
+| M048805 | P2097 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchrodingerFixesScaledLatticeStatement` | volunteer-build-reviewed |
 | M048806 | P2124 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchrodingerFunctionalContinuous` | volunteer-build-reviewed |
 | M048807 | P2136 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchrodingerFunctionalContinuousStatement` | volunteer-build-reviewed |
 | M048809 | P1863 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchrodingerIntertwinerL2ConstantStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M049838 | P0520 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ShortExactMappingConeResolutionHomotopyEquivStatement` | wave-reused |
 | M049839 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ShortExactMulPrimeZmodTensorComplex` | volunteer-build-reviewed |
 | M049840 | P0114 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ShortExactMulPrimeZmodTensorComplexStatement` | volunteer-build-reviewed |
-| M049850 | P1450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ShortExactVectorBundlesRankAdd` | volunteer-build-reviewed |
-| M049877 | P0481 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SiegRel` | volunteer-build-reviewed |
-| M049878 | P1981 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SiegelActionFormulaAndDerivative` | volunteer-build-reviewed |

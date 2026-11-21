@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M074072 | P0033 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SmulPowMemSpanPowSmulTop` | volunteer-build-reviewed |
+| M074075 | P1910 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SpanConjUnitaryLieAlgebraRealPlaceEqTop` | volunteer-build-reviewed |
+| M074076 | P1928 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SpanConjUnitaryLieAlgebraRealPlaceEqTopStatement` | volunteer-build-reviewed |
 | M074081 | P0033 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SpanEqTopOfIrreducibleOverAlgClosed` | volunteer-build-reviewed |
 | M074082 | P1945 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SpanFiniteTranslatesVacuumThetaFockVacua` | volunteer-build-reviewed |
 | M074083 | P1964 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SpanFiniteTranslatesVacuumThetaFockVacuaStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M075081 | P0124 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedQuadraticNormsTraceUniformizerFacts` | volunteer-build-reviewed |
 | M075082 | P0193 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedQuadraticNormsTraceUniformizerFactsStatement` | volunteer-build-reviewed |
 | M075084 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedQuadraticTraceEqAddStarStatement` | volunteer-build-reviewed |
-| M075087 | P0255 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedStandardAddCharConductorProperties` | volunteer-build-reviewed |
-| M075088 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedStandardAddCharConductorPropertiesStatement` | volunteer-build-reviewed |
-| M075092 | P0309 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedValuationParitySignCharacterKernelNorm` | volunteer-build-reviewed |

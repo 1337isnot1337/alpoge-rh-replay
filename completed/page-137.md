@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M147543 | P0802 | `Formalism.LocalRingCardinality.SpanPowerMembership.DivXExample` | build-observed |
+| M147544 | P1048 | `Formalism.LocalRingCardinality.SpanPowerMembership.EACentral` | build-observed |
+| M147545 | P0966 | `Formalism.LocalRingCardinality.SpanPowerMembership.EMjNApply` | build-observed |
 | M147546 | P0938 | `Formalism.LocalRingCardinality.SpanPowerMembership.EmbeddingBaseFieldCondition` | build-observed |
 | M147547 | P1021 | `Formalism.LocalRingCardinality.SpanPowerMembership.EmbeddingBaseFieldMul` | build-observed |
 | M147548 | P0858 | `Formalism.LocalRingCardinality.SpanPowerMembership.EntPlNonempty` | build-observed |
@@ -399,6 +402,3 @@
 | M147994 | P0885 | `Formalism.LocalToGlobal.Columns.AtTRank` | build-observed |
 | M147995 | P0858 | `Formalism.LocalToGlobal.Columns.BaseHost` | build-observed |
 | M147996 | P0748 | `Formalism.LocalToGlobal.Columns.BaseInst` | build-observed |
-| M147997 | P0666 | `Formalism.LocalToGlobal.Columns.BaseLemmas` | build-observed |
-| M147998 | P1498 | `Formalism.LocalToGlobal.Columns.BlockTriangularMulVecMemPartialFlag` | build-observed |
-| M147999 | P1211 | `Formalism.LocalToGlobal.Columns.BrpAevalScaleMonomial` | build-observed |

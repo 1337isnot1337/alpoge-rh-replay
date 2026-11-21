@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M085073 | P1911 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsIsoQuotientsSameKernelReducedBaseStatement` | build-observed |
+| M085074 | P1179 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsIsogenyPullbackHeckeModuliObject` | build-observed |
+| M085075 | P1203 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsIsogenyPullbackHeckeModuliObjectStatement` | build-observed |
 | M085076 | P0766 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsIsometryLift` | volunteer-build-reviewed |
 | M085077 | P1258 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsJoinNormalProjectiveModels` | volunteer-build-reviewed |
 | M085081 | P1229 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsKsMatrixStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M085909 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleOfCubeDivGeneratedFieldStatement` | volunteer-build-reviewed |
 | M085910 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleOfFaithfullyFlat` | volunteer-build-reviewed |
 | M085912 | P1230 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleOfFieldExtensionBaseChange` | volunteer-build-reviewed |
-| M085915 | P1458 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleOfPolarisedAtEveryPoint` | build-observed |
-| M085916 | P1487 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmpleOfPolarisedAtEveryPointStatement` | volunteer-build-reviewed |
-| M085917 | P1844 | `Development.AbelianVarietyTheory.Proofs.ModuliProofs.RelAmplePrincipalDescendedBundleNoetherian` | build-observed |

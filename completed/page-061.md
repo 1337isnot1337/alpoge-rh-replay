@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M070098 | P1011 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FaithfullyFlatDescentFreeModuleCocycleStatement` | wave-reused |
+| M070104 | P0031 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FgInfSupOfIsCompl` | volunteer-build-reviewed |
+| M070105 | P0122 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FgInfSupOfIsComplStatement` | volunteer-build-reviewed |
 | M070106 | P0122 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FgUnitsQuotIntegralUnitsFiniteFieldExt` | volunteer-build-reviewed |
 | M070107 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FgUnitsQuotIntegralUnitsFiniteFieldExtStatement` | volunteer-build-reviewed |
 | M070109 | P0191 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FgUnitsQuotIntegralUnitsReducedFiniteAlgebraStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M070956 | P1843 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HeckeCharacterValueAtSplitPlaceDeterminantStatement` | volunteer-build-reviewed |
 | M070969 | P1623 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HeckeFunIAddSmul` | volunteer-build-reviewed |
 | M070970 | P1649 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HeckeFunIAddSmulStatement` | volunteer-build-reviewed |
-| M070972 | P1945 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HeckeOfMemPartW` | volunteer-build-reviewed |
-| M070981 | P1909 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HeckePreservesSupLatticeAndCommutesTypeGroup` | volunteer-build-reviewed |
-| M070983 | P1909 | `Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HeckeQuotientFrameChangeOfTriangularFrameChange` | volunteer-build-reviewed |

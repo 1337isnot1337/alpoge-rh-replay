@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M083083 | P0126 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.VLeOne` | volunteer-build-reviewed |
+| M083088 | P1486 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ValAtAlgebraMap` | build-observed |
+| M083089 | P1515 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ValAtEqOfResidueFieldHom` | volunteer-build-reviewed |
 | M083092 | P1457 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ValLtOfRedM` | volunteer-build-reviewed |
 | M083098 | P1910 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ValSubLtOfHasRes` | volunteer-build-reviewed |
 | M083101 | P0792 | `Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ValuationApplyOfWild` | build-observed |
@@ -399,6 +402,3 @@
 | M084194 | P0448 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.NabValPullbackMonomial` | wave-reused |
 | M084196 | P0361 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.NodeGapNoncompact` | build-observed |
 | M084208 | P0986 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.NormAdjointApplyOfNormPreserving` | build-observed |
-| M084210 | P0127 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.NormCoeffIntegralPowerSeriesLeProdZeros` | volunteer-build-reviewed |
-| M084211 | P0194 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.NormCoeffIntegralPowerSeriesLeProdZerosStatement` | volunteer-build-reviewed |
-| M084212 | P0037 | `Development.AbelianVarietyTheory.Proofs.JetHarmonics.NormEigenLePowMulNormSum` | wave-reused |
