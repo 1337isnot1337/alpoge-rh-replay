@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsComponentSurjectsClopenStatement",
+  "source_sha256": "12f5383d57d2460c51479e06085dd86014954912ecb7efc18b2c265f1df5d82f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

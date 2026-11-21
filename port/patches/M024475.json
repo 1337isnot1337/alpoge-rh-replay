@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoprimeIntegerInIdealStatement",
+  "source_sha256": "791ba1dfa67d72ff9ab7d8f244f91a6dfb104120c1685616a30551cbeaead737",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

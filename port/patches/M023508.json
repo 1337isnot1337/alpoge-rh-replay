@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAnalyticParamOfPrimitivesOnBox",
+  "source_sha256": "b3c85360a7f15d1f4146927b70e8c6be9afefa2406f49ccee002bae4782d3246",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

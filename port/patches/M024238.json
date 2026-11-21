@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCompatibleSymplecticStatement",
+  "source_sha256": "0860cf4b39dffdc2d76bdee26ac7bc54ee051b25c5969d1fccb8a22020fe7a80",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

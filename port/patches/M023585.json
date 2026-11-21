@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAveragingProjectionStatement",
+  "source_sha256": "bd86ea6dfa2f8f0feb9aa076c3098f03b0503a82ac7f3db93d89249bd456db69",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
