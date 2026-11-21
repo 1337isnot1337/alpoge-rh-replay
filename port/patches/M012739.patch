@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DegenerationProofs/CompCMulMap.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DegenerationProofs/CompCMulMap.lean
+@@ -36,7 +36,7 @@
+   ∑ j, (AddMonoidHom.mulLeft (io (b j))).comp ((i : PowerSeries O →+ K).comp (comp b j))
+ 
+ lemma ext_apply (f : PowerSeries O₁) : ext b i io f = ∑ j, io (b j) * i (comp b j f) := by
+-  simp [ext, AddMonoidHom.finset_sum_apply]
++  simp [ext, AddMonoidHom.finsetSum_apply]
+ 
+ variable {b i io}
+ 

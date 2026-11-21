@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DegenerationProofs.CompCMulMap",
+  "source_sha256": "37dad5ca679d617367ff66b233cdbf46009102cfcef8c3e3ba56a1a5ca518c9c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename AddMonoidHom.finset_sum_apply to AddMonoidHom.finsetSum_apply. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0006-lean436-20261121/packet-result.json"
+}
