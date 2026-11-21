@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsTestRep",
+  "source_sha256": "f3d63c4c5c04c42a3dee9d4020d0720f96aad5ed3dec1b66211d8225098a8861",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
