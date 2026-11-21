@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IntegralOfNormBounded",
+  "source_sha256": "fd09b7b49eac33f135cd432bdb4a5b2ee0b588cfff0cd6e4bd0e1b420bb4b7ba",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

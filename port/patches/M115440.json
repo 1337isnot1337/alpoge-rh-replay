@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.InvolutionInvariants",
+  "source_sha256": "2f2722d1bd305fc3403986fcb6aaaebcf015a1d050c28237e8b327383c4cc6d5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Open Pointwise scope for Set.inv and qualify Measure.inv_apply in haar_map_inv for Mathlib v4.36.0."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IwahoriEntryBound",
+  "source_sha256": "f19ef8eca17b89f59070ed8a30731328e3ad15cbf11cae047127bcc5e8efa779",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

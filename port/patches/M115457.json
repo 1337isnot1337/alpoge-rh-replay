@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsDiscreteValuationRingIntegralClosure",
+  "source_sha256": "920e2c4a445d0c9454fe7627c8ab024fcab1f4f6b6e51ef3804bcb9f2904ecf5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use 1-based TFAE indices (1, 2) instead of (0, 1) in IsDiscreteValuationRing.TFAE.out for Mathlib v4.36.0."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsOpenValuationLtOne",
+  "source_sha256": "082996e410eb4164b4e5b5bad0d5d0020e582ca83f5bc626ede39451db103e51",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

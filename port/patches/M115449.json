@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IrreducibleInvariant",
+  "source_sha256": "bbd9275588937b633f7382a2eb5b3b1e75a18cab0a133c4a92b5ebe942e4b759",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

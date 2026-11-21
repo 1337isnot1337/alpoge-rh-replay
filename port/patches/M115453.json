@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IrreducibleSubrep",
+  "source_sha256": "02d8ebe87e89c04e97d3aa34aa4950955dc502afc117668b243a2c421a219ddf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

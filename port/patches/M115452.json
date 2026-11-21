@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IrreducibleProjectionExists",
+  "source_sha256": "43b8b78c88da8bba0d05c34120b0a7d85eda0f05de9d06e52fed576711f6c316",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
