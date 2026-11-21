@@ -211,6 +211,7 @@
 | M041517 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearWeilFunctionalTranslationEquivariant` | volunteer-build-reviewed |
 | M041519 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearWeilFunctionalUnramifiedVector` | volunteer-build-reviewed |
 | M041522 | P2293 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearWittModelUnitaryActionStatement` | volunteer-build-reviewed |
+| M041531 | P2599 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinkedOfGeneratorMultiplication` | volunteer-build-reviewed |
 | M041535 | P2110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralActsEqVolume` | volunteer-build-reviewed |
 | M041536 | P2000 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralAdelicHaarSplitArchimedeanFinite` | volunteer-build-reviewed |
 | M041537 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralAdelicHaarSplitArchimedeanFiniteStatement` | volunteer-build-reviewed |
@@ -364,6 +365,7 @@
 | M041809 | P2168 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalFunctionalTripleSchwartzEvaluationStatement` | volunteer-build-reviewed |
 | M041811 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalGaussSumIntegerDvdResidueCardPow` | volunteer-build-reviewed |
 | M041812 | P2037 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalGaussSumIntegerDvdResidueCardPowStatement` | volunteer-build-reviewed |
+| M041826 | P2599 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalHeightPrimeIntegrality` | volunteer-build-reviewed |
 | M041834 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalHermitianDiagonalizationUnits` | volunteer-build-reviewed |
 | M041839 | P2111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalIdealCountLeOrder` | volunteer-build-reviewed |
 | M041840 | P2123 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalIdealCountLeOrderStatement` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M041897 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalMatrixMomentSurjective` | volunteer-build-reviewed |
 | M041898 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalMatrixMomentSurjectiveConj` | volunteer-build-reviewed |
 | M041901 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalMatrixPreservesLatticeMultiple` | volunteer-build-reviewed |
-| M041902 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalMatrixPreservesLatticeMultipleStatement` | volunteer-build-reviewed |
-| M041905 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalMaximumPrincipleWeightFiniteMvPolynomial` | volunteer-build-reviewed |

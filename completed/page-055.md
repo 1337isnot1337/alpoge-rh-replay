@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M041902 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalMatrixPreservesLatticeMultipleStatement` | volunteer-build-reviewed |
+| M041905 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalMaximumPrincipleWeightFiniteMvPolynomial` | volunteer-build-reviewed |
 | M041919 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalMomentMatrixTransform` | volunteer-build-reviewed |
 | M041922 | P2257 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalNormGaussianWeightForm` | volunteer-build-reviewed |
 | M041924 | P2123 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalNormOfValuationProfile` | volunteer-build-reviewed |
@@ -180,6 +182,7 @@
 | M042186 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyInjectiveOfIsoOnFiniteTypeRings` | wave-reused |
 | M042187 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyInjectiveOfIsoOnFiniteTypeRingsStatement` | wave-reused |
 | M042188 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyIntegrableRep` | volunteer-build-reviewed |
+| M042192 | P2599 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyIntegralSectionsExtendOverFiniteModificatStatement` | volunteer-build-reviewed |
 | M042193 | P0761 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyOfFinitePresentationOfIsQProjOver` | volunteer-build-reviewed |
 | M042202 | P0110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyQuasiFiniteOfFiniteGeometricFibres` | volunteer-build-reviewed |
 | M042203 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyQuasiFiniteOfUniqueGeomPoints` | volunteer-build-reviewed |
@@ -197,6 +200,7 @@
 | M042234 | P0110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogCardEqFinsumLengthLocalizedMaximalStatement` | volunteer-build-reviewed |
 | M042235 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogCardQuotSpanEqFinsumLogNormEmbeddings` | volunteer-build-reviewed |
 | M042236 | P0110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogCardQuotSpanEqFinsumLogNormEmbeddingsStatement` | volunteer-build-reviewed |
+| M042238 | P2458 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogCardSmallSectionsGeOfShiftNef` | volunteer-build-reviewed |
 | M042245 | P2237 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogCmConstantAddLogDerivativeLeSquareTopBound` | volunteer-build-reviewed |
 | M042246 | P2247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogCmConstantAddLogDerivativeLeSquareTopBoundStatement` | volunteer-build-reviewed |
 | M042247 | P1005 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogCocycleCohomologous` | build-observed |
@@ -206,6 +210,7 @@
 | M042261 | P0352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogDerOneHolds` | build-observed |
 | M042264 | P2225 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogDerivLOneBoundFamily` | volunteer-build-reviewed |
 | M042265 | P2237 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogDerivLOneBoundFamilyStatement` | volunteer-build-reviewed |
+| M042271 | P2458 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogDerivativeTransitionUnitsIsoLineBundlesStatement` | volunteer-build-reviewed |
 | M042275 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogDetGramAppendLeStatement` | volunteer-build-reviewed |
 | M042276 | P1377 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogDifferentialMulLogCoordinateWedge` | build-observed |
 | M042277 | P1400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogDifferentialMulLogCoordinateWedgeStatement` | build-observed |
@@ -213,12 +218,14 @@
 | M042287 | P1400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogFormsGeneratedDlog` | build-observed |
 | M042288 | P1377 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogFrobeniusLiftSmulLogCoordinateWedge` | build-observed |
 | M042289 | P1400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogFrobeniusLiftSmulLogCoordinateWedgeStatement` | build-observed |
+| M042290 | P2458 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogFundamentalDomainVolumeLe` | volunteer-build-reviewed |
 | M042294 | P2293 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogGradedNormLeOfComparableStatement` | volunteer-build-reviewed |
 | M042295 | P2308 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogGreenDifferenceDeterminantLe` | volunteer-build-reviewed |
 | M042298 | P2225 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogGroupOrderBoundStatement` | volunteer-build-reviewed |
 | M042299 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogHeightBoundFromInequality` | volunteer-build-reviewed |
 | M042300 | P0110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogHeightBoundFromInequalityStatement` | volunteer-build-reviewed |
 | M042301 | P1400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogIdealMulSpanMap` | build-observed |
+| M042318 | P2599 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogLatticePointsQuadraticBallEstimate` | volunteer-build-reviewed |
 | M042320 | P1147 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogLeLOfLeCond` | volunteer-build-reviewed |
 | M042321 | P2168 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogLiftEigenvalueLowerBoundBasePlace` | volunteer-build-reviewed |
 | M042322 | P2179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogLiftEigenvalueLowerBoundBasePlaceStatement` | volunteer-build-reviewed |
@@ -250,6 +257,7 @@
 | M042391 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogSingularIntegrableDiscStatement` | volunteer-build-reviewed |
 | M042392 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogSingularityBallIntegralBound` | volunteer-build-reviewed |
 | M042393 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogSizeBoundsClassNumberVolume` | volunteer-build-reviewed |
+| M042394 | P2458 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogSumBadPrimesLeSq` | volunteer-build-reviewed |
 | M042396 | P2111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogTensorIdeleAbsDetExpScalarCentreEqMul` | volunteer-build-reviewed |
 | M042397 | P2123 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogTensorIdeleAbsDetExpScalarCentreEqMulStatement` | volunteer-build-reviewed |
 | M042398 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogThetaWeightSizeLe` | volunteer-build-reviewed |
@@ -285,6 +293,7 @@
 | M042460 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowerBoundLogRatioHalf` | volunteer-build-reviewed |
 | M042464 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowerBoundNumericalEnd` | volunteer-build-reviewed |
 | M042466 | P2293 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowerBoundOfAllEstimatesStatement` | volunteer-build-reviewed |
+| M042469 | P2458 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowerPairFormula` | volunteer-build-reviewed |
 | M042470 | P2237 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowerRankCuspFormsDetWeightOneComponent` | volunteer-build-reviewed |
 | M042471 | P2247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowerRankCuspFormsDetWeightOneComponentStatement` | volunteer-build-reviewed |
 | M042472 | P1862 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LowerTriangularTwoBlockMulWeylTwoBlockEqTransvec` | volunteer-build-reviewed |
@@ -310,7 +319,9 @@
 | M042506 | P0110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LuDecompositionUnitriangularUniqueStatement` | volunteer-build-reviewed |
 | M042508 | P1840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LubinTateCrystallineOfLocal` | volunteer-build-reviewed |
 | M042512 | P0813 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.M2ModelEstablished` | wave-reused |
+| M042513 | P2458 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MIntEqDifferencePotentialMeasures` | volunteer-build-reviewed |
 | M042515 | P1118 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MIntEqOfLeviEq` | build-observed |
+| M042516 | P2458 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MK` | volunteer-build-reviewed |
 | M042520 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MajINonneg` | volunteer-build-reviewed |
 | M042521 | P1906 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MajorantChartPointCentreFactorTwo` | volunteer-build-reviewed |
 | M042522 | P1924 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MajorantChartPointCentreFactorTwoStatement` | volunteer-build-reviewed |
@@ -330,6 +341,7 @@
 | M042552 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapEqZeroOfCommuteDoubling` | volunteer-build-reviewed |
 | M042553 | P0352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapEqZeroOfFiberIntegral` | volunteer-build-reviewed |
 | M042558 | P0352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapFrobeniusCharP` | wave-reused |
+| M042561 | P2599 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapGenericPointEqOfAlgIndependentQuotientsStatement` | volunteer-build-reviewed |
 | M042562 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapHaarEqOfLattice` | volunteer-build-reviewed |
 | M042565 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapInvariantDerivationFormalGroupLawIterate` | build-observed |
 | M042566 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapInvariantDerivationFormalGroupLawIterateStatement` | build-observed |
@@ -358,6 +370,7 @@
 | M042602 | P0552 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MappingConeShortExactAugmentationClassEqStatement` | wave-reused |
 | M042603 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MappingConeTermsSheafExtSubsingleton` | wave-reused |
 | M042604 | P0651 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MappingConeTermsSheafExtSubsingletonStatement` | wave-reused |
+| M042605 | P2458 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapsAtExpLeB` | volunteer-build-reviewed |
 | M042614 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MarkWeightedFixedPointDefinitePairOddOfCounts` | volunteer-build-reviewed |
 | M042615 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MarkedFieldPairsEquivDefiniteFieldPairsOdd` | volunteer-build-reviewed |
 | M042616 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MarkedFieldPairsEquivDefiniteFieldPairsOddStatement` | volunteer-build-reviewed |
@@ -380,25 +393,12 @@
 | M042684 | P2293 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedLowPartKEquivariantStatement` | volunteer-build-reviewed |
 | M042687 | P2293 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedPairAnisotropicTheta` | volunteer-build-reviewed |
 | M042692 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedPairAnisotropicThetaReal` | volunteer-build-reviewed |
+| M042702 | P2599 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedPairThetaArchimedeanStatement` | volunteer-build-reviewed |
+| M042703 | P2599 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedPairThetaComparison` | volunteer-build-reviewed |
 | M042709 | P2168 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedPairThetaIdentity` | volunteer-build-reviewed |
 | M042710 | P2179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedPairThetaIdentityStatement` | volunteer-build-reviewed |
+| M042716 | P2599 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedPairThetaLocalGlobalStatement` | volunteer-build-reviewed |
 | M042721 | P2168 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedPairThetaVanishing` | volunteer-build-reviewed |
 | M042722 | P2179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedPairThetaVanishingStatement` | volunteer-build-reviewed |
 | M042728 | P2293 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedPolynomialFiniteCompactStableStatement` | volunteer-build-reviewed |
 | M042729 | P2225 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedPolynomialTripleProduct` | volunteer-build-reviewed |
-| M042730 | P2237 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedPolynomialTripleProductStatement` | volunteer-build-reviewed |
-| M042732 | P2136 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedRealMapArchimedeanAction` | volunteer-build-reviewed |
-| M042733 | P2146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedRealMapArchimedeanActionStatement` | volunteer-build-reviewed |
-| M042784 | P2158 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedTripleFiniteMapsForallPlaces` | volunteer-build-reviewed |
-| M042785 | P2168 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedTripleFiniteMapsForallPlacesStatement` | volunteer-build-reviewed |
-| M042790 | P2146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedTripleGlobalProductFormula` | volunteer-build-reviewed |
-| M042791 | P2158 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedTripleGlobalProductFormulaStatement` | volunteer-build-reviewed |
-| M042799 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedTripleIsotropicTowerStepTwo` | volunteer-build-reviewed |
-| M042800 | P2168 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedTripleLatticeVectorIdentity` | volunteer-build-reviewed |
-| M042801 | P2179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedTripleLatticeVectorIdentityStatement` | volunteer-build-reviewed |
-| M042812 | P2179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedTripleLocalNormIdentity` | volunteer-build-reviewed |
-| M042818 | P2247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedTripleNonarchimedeanComponents` | volunteer-build-reviewed |
-| M042819 | P2257 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedTripleNonarchimedeanComponentsStatement` | volunteer-build-reviewed |
-| M042828 | P2123 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedTripleUnramifiedTestVector` | volunteer-build-reviewed |
-| M042829 | P2136 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedTripleUnramifiedTestVectorStatement` | volunteer-build-reviewed |
-| M042839 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatrixAdelicDecompositionAtFinitePlace` | volunteer-build-reviewed |
