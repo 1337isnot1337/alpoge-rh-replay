@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovGeometry.IdxAssembleStA",
+  "source_sha256": "b1977b4c9d958bf586808cddd624150175ac35f19cd7f6b14eaf4a6e14a5efb4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0168-issue-26518/P0168-receipt.json"
+}

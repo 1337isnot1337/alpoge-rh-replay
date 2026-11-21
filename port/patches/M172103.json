@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.Mollifiers.HasCompactSupport",
+  "source_sha256": "e73a638bb55a2df5e821a6ea808011ad0c87a3066e76ad8da717e271676f9b6a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0168-issue-26518/P0168-receipt.json"
+}

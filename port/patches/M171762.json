@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.DualLattices.FischerSmulRight",
+  "source_sha256": "407aeecd442535cf7f6bac99404d3f962fa69229de3d0ceaada3a77f7089fb5e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "MvPolynomial.coeff was removed and p.coeff m now elaborates to AddMonoidAlgebra.coeff p applied to m, which is exactly what the old MvPolynomial.coeff m p unfolded to. The theorem statements and proofs write P.coeff A in place of coeff A P (with MvPolynomial open), so the propositions are unchanged.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0168-issue-26518/P0168-receipt.json"
+}

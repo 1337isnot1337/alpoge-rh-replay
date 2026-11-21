@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.WeakHolomorphy.MvDivIntegrand",
+  "source_sha256": "498e2007a5988040400fdc0e418649cf0ac4c6339b89274ba31a87208f1bffc5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0168-issue-26518/P0168-receipt.json"
+}

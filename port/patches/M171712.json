@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.DualLattices.CharTableIsUnit",
+  "source_sha256": "ed35b121e274701c8d695001b50b939797a1f045e0e0483f9e07d39eb8d049a4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0168-issue-26518/P0168-receipt.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.GeometryOfNumbers.SphericalMonomials.ChiPSt",
+  "source_sha256": "6011995c347d83e0a8d5d72de839d09d2cbecfe91638ee8a4a6d836898a25b9b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0168-issue-26518/P0168-receipt.json"
+}

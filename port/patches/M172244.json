@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReducedBases.ExistsBoundedBasis",
+  "source_sha256": "2662d50e673e7d30c74bc820d8f108884e63f25b4343a60a33a9a823c94cb85a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0168-issue-26518/P0168-receipt.json"
+}

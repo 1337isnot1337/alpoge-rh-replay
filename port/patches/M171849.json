@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.DualLattices.SumInvMulTrace",
+  "source_sha256": "0b49bfc30d73cae2f3a06c73b799521744986c22b3cc976152e56f1641463dc8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0168-issue-26518/P0168-receipt.json"
+}
