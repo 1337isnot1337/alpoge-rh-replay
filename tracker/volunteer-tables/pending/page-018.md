@@ -93,6 +93,7 @@
 | [@surfyhou](https://github.com/surfyhou) | [P1986](https://github.com/rohanarun/alpoge-rh-replay/issues/12112#issuecomment-7057084848) | Pending review |
 | [@JamCh01](https://github.com/JamCh01) | [P1964](https://github.com/rohanarun/alpoge-rh-replay/issues/12114#issuecomment-7057227354) | Pending review |
 | [@emsi](https://github.com/emsi) | [P2136](https://github.com/rohanarun/alpoge-rh-replay/issues/12115#issuecomment-7057423365) | Pending review |
+| [@emsi](https://github.com/emsi) | [P2192](https://github.com/rohanarun/alpoge-rh-replay/issues/12116#issuecomment-7057583145) | Pending review |
 | [@21Z121Z1](https://github.com/21Z121Z1) | [M128738](https://github.com/rohanarun/alpoge-rh-replay/issues/12117#issuecomment-7056850845) | Pending review |
 | [@twaldin](https://github.com/twaldin) | [P2173](https://github.com/rohanarun/alpoge-rh-replay/issues/12121#issuecomment-7057497794) | Pending review |
 | [@jwr404](https://github.com/jwr404) | [M061884](https://github.com/rohanarun/alpoge-rh-replay/issues/12124#issuecomment-7056916790) | Pending review |
@@ -253,4 +254,3 @@
 | [@UnityChaos](https://github.com/UnityChaos) | [M126650](https://github.com/rohanarun/alpoge-rh-replay/issues/12297#issuecomment-7056992720) | Pending review |
 | [@galakurpi](https://github.com/galakurpi) | [M120502](https://github.com/rohanarun/alpoge-rh-replay/issues/12298#issuecomment-7056981921) | Pending review |
 | [@galakurpi](https://github.com/galakurpi) | [M164143](https://github.com/rohanarun/alpoge-rh-replay/issues/12299#issuecomment-7056971496) | Pending review |
-| [@galakurpi](https://github.com/galakurpi) | [M024442](https://github.com/rohanarun/alpoge-rh-replay/issues/12300#issuecomment-7056972576) | Pending review |
