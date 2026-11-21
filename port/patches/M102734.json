@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.GHommem",
+  "source_sha256": "e5111768f76a6b26fecd3017e65ec09c4dd908821bd1a32891481a907851324c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Update polynomial coefficient access to field notation. All coefficient expressions denote the same values; theorem statements are unchanged."
+}

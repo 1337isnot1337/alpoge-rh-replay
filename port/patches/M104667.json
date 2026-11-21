@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.MomentEntryBounds.SubLeSumAbsConsecutiveDiff",
+  "source_sha256": "3fc5edc7a478bd29aa683918711ae86f879b65eacc0245b8998e8b6b201c78dd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify the protected Matrix.mul_apply lemma. Statements are unchanged."
+}

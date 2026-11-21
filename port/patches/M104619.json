@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.CompactLocalSets.SimpBdM",
+  "source_sha256": "0df9844157b07e4481b241f981b27530aad9cf914d384ea64b51ac3c49d34ca2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename continuous_finset_sum to continuous_finsetSum and use Finset.prod_le_prod\u2080 with the existing nonnegativity hypothesis. Statements are unchanged."
+}

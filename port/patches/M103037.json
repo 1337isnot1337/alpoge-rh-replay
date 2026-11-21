@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.CurveDVRSpecialization.SelfTwistEigenvalues.UnipTorsion",
+  "source_sha256": "9de83bdacc75f02fe489d2892f1ae273109ba6c7dfd46360cb1fb2a3a8df8ab7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the algebra-based ideal-under maximality lemma (under is comap along algebraMap) and rename eval\u2082_finset_sum to eval\u2082_finsetSum. Statements are unchanged."
+}
