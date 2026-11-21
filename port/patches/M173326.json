@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.TransferenceA",
+  "source_sha256": "e34eb78b237c5d1177be8ed12421c92cbde7dfba4ef37f72a1324ea4018014d2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

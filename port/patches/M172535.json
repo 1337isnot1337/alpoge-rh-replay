@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.KappaSt",
+  "source_sha256": "318eeab954ae5e55198a73ae809cd8093b2434931fe6eefdbb46db4bf6a96950",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Mark the same metric-sphere abbreviation noncomputable because the target Euclidean PiLp metric instance is noncomputable. Its definition and reducibility are preserved."
+}

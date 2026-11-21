@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.Signature",
+  "source_sha256": "a8b8f634c2368fd1bb369faebdc6d40cf11005747d4b16feda5dd1dabe11c054",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

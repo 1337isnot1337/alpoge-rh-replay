@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.PlaceDivisors.FiniteLocalLifts.IsLocalHomAlgebraMap",
+  "source_sha256": "769960f898071868f4659ede418958f30291a5d33ee6a4d18773a94ea88066d5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Supply the structure map and its integrality proof, obtained from module finiteness, in both maximal-ideal comap lemmas."
+}

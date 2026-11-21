@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReducedBases.GsInnerBOfLt",
+  "source_sha256": "b9d7dd509420f43178d80910b27a81b252a0d77ec33958ac8136fb11d6bfa0ac",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

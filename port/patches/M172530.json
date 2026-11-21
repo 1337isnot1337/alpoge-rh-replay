@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.IndexSt",
+  "source_sha256": "27d8e69a78bd1ad61be34ade924bfa6490085c3ccdcd34ca5769bb29bb2bc5c2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

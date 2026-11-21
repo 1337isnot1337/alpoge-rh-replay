@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.WeakApprox",
+  "source_sha256": "1223ab1bc8970085492b66eaad0f7bb79bea9a520b14268e8d68b7ae9f80e0ac",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

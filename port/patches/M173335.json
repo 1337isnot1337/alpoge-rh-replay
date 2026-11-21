@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.ValUFD",
+  "source_sha256": "898091eacf34a07846e1fd9ebdf211f2ee7d512d1737d5b0305d2a7f60d5f490",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the irreducible-element self-multiplicity lemma for the prime q, the one-way zero-multiplicity lemma for nondivisibility, and the unit-right lemma with its updated arguments."
+}
