@@ -3,5 +3,5 @@
   "source_sha256": "cc04eebeee12998949e50758e669730bf0a925ac56a8d52f6a84ae02b20363c4",
   "lean": "leanprover/lean4:v4.36.0",
   "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
-  "notes": "Rename continuous_finset_sum to continuous_finsetSum in ctsA_sum, ctsA_mul, and ctsA_map for Mathlib v4.36.0."
+  "notes": "Rename continuous_finset_sum to continuous_finsetSum in ctsA_sum, ctsA_mul, and ctsA_map for Mathlib v4.36.0. Independently compiled in reservation #25252 with all 64 P0074 targets successful on the same pinned toolchain; receipt, transcripts, and source/object hashes: https://github.com/f10etclawdbot/alpoge-rh-replay/releases/tag/port-P0074-issue-25252"
 }
