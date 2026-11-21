@@ -9,7 +9,6 @@
 | [@emsi](https://github.com/emsi) | [P2238](https://github.com/rohanarun/alpoge-rh-replay/issues/13664) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2216](https://github.com/rohanarun/alpoge-rh-replay/issues/13704) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2211](https://github.com/rohanarun/alpoge-rh-replay/issues/13738) | Claimed |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M142417](https://github.com/rohanarun/alpoge-rh-replay/issues/13967) | Claimed |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M139051](https://github.com/rohanarun/alpoge-rh-replay/issues/14342) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2256](https://github.com/rohanarun/alpoge-rh-replay/issues/14499) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2108](https://github.com/rohanarun/alpoge-rh-replay/issues/14743) | Claimed |
