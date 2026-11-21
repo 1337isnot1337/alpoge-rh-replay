@@ -48,13 +48,12 @@ def packets(rows):
     return groups
 
 
-def ready(packet_rows, by_name, done):
+def ready(packet_rows, done):
     """Every project import outside the packet must already be ported."""
     inside = {r['id'] for r in packet_rows}
     for row in packet_rows:
-        for name in row['imports']:
-            dep = by_name.get(name)
-            if dep and dep not in inside and dep not in done:
+        for dep in row['imports']:
+            if dep not in inside and dep not in done:
                 return False
     return True
 
@@ -68,7 +67,6 @@ def main():
     args = parser.parse_args()
 
     rows = list(tasks.module_rows())
-    by_name = {r['module']: r['id'] for r in rows}
     by_id = {r['id']: r for r in rows}
     done, status = ported(), triage()
     groups = packets(rows)
@@ -90,7 +88,7 @@ def main():
     taken = port_issues()
     choices = []
     for packet, members in groups.items():
-        if packet in taken or all(r['id'] in done for r in members) or not ready(members, by_name, done):
+        if packet in taken or all(r['id'] in done for r in members) or not ready(members, done):
             continue
         depth = max(r['depth'] for r in members)
         failing = sum(status.get(r['id']) == 'fail' for r in members)
