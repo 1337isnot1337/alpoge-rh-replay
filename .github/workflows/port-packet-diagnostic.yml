@@ -1,0 +1,80 @@
+name: Port packet diagnostic
+on:
+  push:
+    branches: [port-ci-diagnostic-436]
+    paths:
+      - '.github/workflows/port-packet-diagnostic.yml'
+      - 'scripts/port-packet-diagnostic.py'
+  workflow_dispatch:
+    inputs:
+      packets:
+        description: 'JSON array of packets to diagnose (for example ["P0162"])'
+        required: true
+        default: '["P0156","P0158","P0162"]'
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: port-packet-diagnostic-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  diagnose:
+    name: Diagnose ${{ matrix.packet }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        packet: ${{ fromJSON(github.event_name == 'workflow_dispatch' && inputs.packets || '["P0156","P0158","P0162"]') }}
+    env:
+      PACKET: ${{ matrix.packet }}
+      LEAN_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Initialize evidence and check target
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, os, pathlib, re
+          packet = os.environ['PACKET']
+          assert re.fullmatch(r'P\d{4}', packet), 'Invalid packet ID'
+          out = pathlib.Path('port-diagnostic-results') / packet
+          out.mkdir(parents=True, exist_ok=True)
+          target = json.loads(pathlib.Path('port/target.json').read_text())
+          (out / 'requested-target.json').write_text(json.dumps(target, indent=2) + '\n')
+          assert target['lean'] == 'leanprover/lean4:v4.36.0'
+          assert target['mathlib'] == 'fc4f59e577feb1a4956671bc04ac18aaaf8cd842'
+          PY
+          df -h
+          free -h
+      - name: Install the exact Lean toolchain
+        shell: bash
+        run: |
+          set -o pipefail
+          {
+            sudo apt-get update -qq
+            sudo apt-get install -y elan
+            elan toolchain install leanprover/lean4:v4.36.0
+            elan default leanprover/lean4:v4.36.0
+            lean --version
+            lake --version
+          } 2>&1 | tee "port-diagnostic-results/$PACKET/toolchain.log"
+      - name: Compile every packet module from verified sources
+        shell: bash
+        run: |
+          python3 -u scripts/port-packet-diagnostic.py \
+            --packet "$PACKET" \
+            --workspace "$RUNNER_TEMP/port-$PACKET" \
+            --output "port-diagnostic-results/$PACKET"
+      - name: Upload full evidence, including failed attempts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: port-diagnostic-${{ matrix.packet }}-${{ github.run_attempt }}
+          path: port-diagnostic-results/${{ matrix.packet }}
+          if-no-files-found: error
+          retention-days: 30
