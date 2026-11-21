@@ -4,6 +4,7 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@emsi](https://github.com/emsi) | [P2767](https://github.com/rohanarun/alpoge-rh-replay/issues/23800#issuecomment-7066352675) | Pending review |
 | [@TomMoeras](https://github.com/TomMoeras) | [P2742](https://github.com/rohanarun/alpoge-rh-replay/issues/23837#issuecomment-7067133145) | Pending review |
 | [@TomMoeras](https://github.com/TomMoeras) | [P2732](https://github.com/rohanarun/alpoge-rh-replay/issues/23838#issuecomment-7067151281) | Pending review |
 | [@TomMoeras](https://github.com/TomMoeras) | [P2737](https://github.com/rohanarun/alpoge-rh-replay/issues/23840#issuecomment-7067110078) | Pending review |
@@ -253,4 +254,3 @@
 | [@dga471](https://github.com/dga471) | [M013663](https://github.com/rohanarun/alpoge-rh-replay/issues/24172#issuecomment-7066733816) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M046962](https://github.com/rohanarun/alpoge-rh-replay/issues/24173#issuecomment-7066627767) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M018353](https://github.com/rohanarun/alpoge-rh-replay/issues/24175#issuecomment-7066633648) | Pending review |
-| [@UnityChaos](https://github.com/UnityChaos) | [M075837](https://github.com/rohanarun/alpoge-rh-replay/issues/24176#issuecomment-7066984809) | Pending review |

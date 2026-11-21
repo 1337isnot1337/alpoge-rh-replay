@@ -232,6 +232,7 @@
 | [@sp20262026](https://github.com/sp20262026) | [M113359](https://github.com/rohanarun/alpoge-rh-replay/issues/23249#issuecomment-7065209326) | Pending review |
 | [@surfyhou](https://github.com/surfyhou) | [P2565](https://github.com/rohanarun/alpoge-rh-replay/issues/23272#issuecomment-7066638142) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M096170](https://github.com/rohanarun/alpoge-rh-replay/issues/23347#issuecomment-7065507350) | Pending review |
+| [@surfyhou](https://github.com/surfyhou) | [P2596](https://github.com/rohanarun/alpoge-rh-replay/issues/23503#issuecomment-7067358047) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M025849](https://github.com/rohanarun/alpoge-rh-replay/issues/23540#issuecomment-7065690797) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M063069](https://github.com/rohanarun/alpoge-rh-replay/issues/23589#issuecomment-7066563992) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [P2415](https://github.com/rohanarun/alpoge-rh-replay/issues/23595#issuecomment-7066554766) | Pending review |
@@ -253,4 +254,3 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M108241](https://github.com/rohanarun/alpoge-rh-replay/issues/23781#issuecomment-7066472833) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M131256](https://github.com/rohanarun/alpoge-rh-replay/issues/23782#issuecomment-7066473330) | Pending review |
 | [@hipotures](https://github.com/hipotures) | [P2413](https://github.com/rohanarun/alpoge-rh-replay/issues/23787#issuecomment-7066447237) | Pending review |
-| [@emsi](https://github.com/emsi) | [P2767](https://github.com/rohanarun/alpoge-rh-replay/issues/23800#issuecomment-7066352675) | Pending review |
