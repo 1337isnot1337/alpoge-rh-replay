@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.LatticeBasics.MemLam",
+  "source_sha256": "d09e7741a44018eae2c666349db8d84dd8e2b8a7357fdd4a1b411a384b8a3025",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace the old IsLattice (finite generation plus full span) with IsFullLattice. Over the existing fraction field, the new IsLattice scalar-independence axiom follows from finite generation via IsLattice.of_fg, so all lattice hypotheses and conclusions retain their original meaning."
+}

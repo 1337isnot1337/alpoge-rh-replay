@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.MinorFormulas.IteratedDerivZeroOfBound",
+  "source_sha256": "478bbab3c9dacbe7b85cf44244414ee1e2a369b14d5b9fefa1a47eb18e21e49f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

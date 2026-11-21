@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.LatticeBasics.HgtCount",
+  "source_sha256": "6ee06fb2f28ecbc19faf17fa58c2b1ff1b656bd59d3ba0fd734a6a1f5e3b19e8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specify the source and target sets of measure_mono to resolve membership inference; theorem statements unchanged."
+}

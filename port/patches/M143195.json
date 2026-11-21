@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.CartanFactorisation.IntegrableOnRight",
+  "source_sha256": "7a1724b9b4d57e84d11c1ad22b2e2d02945be4986701fe71ef36444717ee9c8d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.TwistedPieces.FiniteDimensionalDescent.ClosedOrbitPieces.FrobeniusSections.RqLift",
+  "source_sha256": "952335c1dee38639ac9fd0744e46742cf6923bd13d952cbaa4567cbf2e5f1df2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed EuclideanDomain.instIsPrincipalIdealRing instance; theorem statements unchanged."
+}

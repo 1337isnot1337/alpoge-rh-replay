@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.LatticeBasics.FarRight",
+  "source_sha256": "8aaa3727b23d6307800a2e3e2add374eba68f94bc130f6c209eb529ce675aab0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

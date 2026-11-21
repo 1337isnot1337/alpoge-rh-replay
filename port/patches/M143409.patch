@@ -1,0 +1,70 @@
+--- a/src/Development/WeilBound/ThetaLifts/LatticeBasics/MemLam.lean
++++ b/src/Development/WeilBound/ThetaLifts/LatticeBasics/MemLam.lean
+@@ -9,7 +9,7 @@
+ variable {O K : Type} [CommRing O] [IsDomain O] [IsPrincipalIdealRing O] [Field K] [Algebra O K] [IsFractionRing O K]
+ 
+ theorem sep (ψ : AddChar K ℂ) (hψ : ∀ x, (∀ y : O, ψ (x * algebraMap O K y) = 1) ↔ x ∈ (algebraMap O K).range)
+-    {V : Type} [AddCommGroup V] [Module K V] [Module O V] [IsScalarTower O K V] (L : Submodule O V) [L.IsLattice K] {y : V}
++    {V : Type} [AddCommGroup V] [Module K V] [Module O V] [IsScalarTower O K V] (L : Submodule O V) [L.IsFullLattice K] {y : V}
+     (hy : y ∉ L) : ∃ l : V →ₗ[K] K, (∀ z ∈ L, ψ (l z) = 1) ∧ ψ (l y) ≠ 1 := by
+   classical
+   haveI : Module.Free O L := Submodule.IsLattice.free K L
+@@ -21,7 +21,7 @@
+     have hr : Set.range v = L.subtype '' Set.range b := by rw [← Set.range_comp]; rfl
+     rw [hr, Submodule.span_image, b.span_eq, Submodule.map_top, Submodule.range_subtype]
+   have hspK : ⊤ ≤ Submodule.span K (Set.range v) := by
+-    rw [← Submodule.IsLattice.span_eq_top (A := K) (M := L)]
++    rw [← Submodule.IsFullLattice.span_eq_top (A := K) (M := L)]
+     apply Submodule.span_le.mpr
+     intro z hz
+     have hz' : z ∈ Submodule.span O (Set.range v) := by rw [hspanO]; exact hz
+@@ -80,10 +80,11 @@
+   abel
+ 
+ private theorem isLattice_lam_of_ne_zero [IsFractionRing O K] {a : O} {n d : ℕ} (h0 : a ≠ 0) :
+-    (lam K a n d).IsLattice K := by
++    (lam K a n d).IsFullLattice K := by
+   classical
+-  refine ⟨?_, ?_⟩
+-  · unfold lam
++  refine { toIsLattice := ?_, span_eq_top := ?_ }
++  · apply Submodule.IsLattice.of_fg K
++    unfold lam
+     rw [LinearMap.range_eq_map]
+     exact Module.Finite.fg_top.map _
+   · rw [eq_top_iff]
+@@ -101,15 +102,15 @@
+     rw [hrw]
+     exact Submodule.smul_mem _ _ (Submodule.subset_span hmem)
+ 
+-private theorem isLattice_map_of_surjective {n d : ℕ} (L : Submodule O (Matrix (Fin n) (Fin d) K)) [L.IsLattice K]
++private theorem isLattice_map_of_surjective {n d : ℕ} (L : Submodule O (Matrix (Fin n) (Fin d) K)) [L.IsFullLattice K]
+     (G : Matrix (Fin n) (Fin d) K →ₗ[K] Matrix (Fin n) (Fin d) K) (hG : Function.Surjective G) :
+-    (L.map (G.restrictScalars O)).IsLattice K := by
+-  refine ⟨(Submodule.IsLattice.fg (A := K) (M := L)).map _, ?_⟩
++    (L.map (G.restrictScalars O)).IsFullLattice K := by
++  refine { toIsLattice := Submodule.IsLattice.of_fg K ((Submodule.IsLattice.fg (A := K) (M := L)).map _), span_eq_top := ?_ }
+   have himg : ((L.map (G.restrictScalars O) : Submodule O (Matrix (Fin n) (Fin d) K)) :
+       Set (Matrix (Fin n) (Fin d) K)) = G '' (L : Set (Matrix (Fin n) (Fin d) K)) := by
+     rw [Submodule.map_coe]
+     rfl
+-  rw [himg, Submodule.span_image, Submodule.IsLattice.span_eq_top, Submodule.map_top,
++  rw [himg, Submodule.span_image, Submodule.IsFullLattice.span_eq_top, Submodule.map_top,
+     LinearMap.range_eq_top.mpr hG]
+ 
+ private theorem isUnit_det_lemma_3 [IsLocalRing O] {a : O} {n : ℕ} (ha : a ∈ IsLocalRing.maximalIdeal O)
+@@ -139,10 +140,10 @@
+     ⟨(h⁻¹).1 * Y, by
+       show h.1 * ((h⁻¹).1 * Y) = Y
+       rw [← Matrix.mul_assoc, Units.mul_inv, Matrix.one_mul]⟩
+-  haveI : (lam K a n d).IsLattice K := isLattice_lam_of_ne_zero h0
+-  haveI : ((lam K a n d).map (G.restrictScalars O)).IsLattice K := isLattice_map_of_surjective _ G hGs
+-  haveI : ((lam K a n d) ⊔ (lam K a n d).map (G.restrictScalars O)).IsLattice K :=
+-    Submodule.IsLattice.sup K _ _
++  haveI : (lam K a n d).IsFullLattice K := isLattice_lam_of_ne_zero h0
++  haveI : ((lam K a n d).map (G.restrictScalars O)).IsFullLattice K := isLattice_map_of_surjective _ G hGs
++  haveI : ((lam K a n d) ⊔ (lam K a n d).map (G.restrictScalars O)).IsFullLattice K :=
++    Submodule.IsFullLattice.sup K _ _
+   by_cases hmem : h.1 * y.map (algebraMap O K) - y.map (algebraMap O K) ∈
+       (lam K a n d) ⊔ (lam K a n d).map (G.restrictScalars O)
+   · left

@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.CayleyCosetSums.IteratedDerivEqOfEventuallyEq",
+  "source_sha256": "ecbec31a9a3b62da2dae29614aaf08f771781f60b0c7beb449ca7848c9ca53ff",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

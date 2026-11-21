@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.RepresentationTheoryGL.TubeMeasures.DisjointTubes.MassLev2",
+  "source_sha256": "b13cf3e48b15abe05d2e02418a183239741f6278e72471a5020fdf9731bef548",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

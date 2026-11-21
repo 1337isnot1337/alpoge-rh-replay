@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.RepresentationTheoryGL.ResidualSpectrum.ExponentialNegativity.ConstantTermSteps.ConjBlock",
+  "source_sha256": "e248097f3ccbc8958002f54bdfec0481aa4493e4a9110824dcc67d149be5bb28",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify the protected Matrix.mul_apply lemma to avoid resolving the function multiplication lemma; theorem statements unchanged."
+}

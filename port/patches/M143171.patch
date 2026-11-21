@@ -1,0 +1,13 @@
+--- a/src/Development/WeilBound/SimpleEigenvalues/SimpleEigenvalueExtension/SimEig.lean
++++ b/src/Development/WeilBound/SimpleEigenvalues/SimpleEigenvalueExtension/SimEig.lean
+@@ -37,8 +37,8 @@
+   refine ⟨v, hSU hv, hv0, fun j => ?_⟩
+   let t : A := ⟨T j, Algebra.subset_adjoin ⟨j, rfl⟩⟩
+   let f : Module.End A S :=
+-    { toFun := fun x => t • x
+-      map_add' := fun x y => smul_add t x y
++    { toFun := fun x : S => ⟨T j x, S.smul_mem t x.property⟩
++      map_add' := fun x y => Subtype.ext ((T j).map_add x y)
+       map_smul' := fun a x => by
+         apply Subtype.ext
+         exact (LinearMap.congr_fun ((hA a.1 a.2).2 j) (x : M)).symm }

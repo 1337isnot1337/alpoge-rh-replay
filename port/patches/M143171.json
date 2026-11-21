@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.SimpleEigenvalues.SimpleEigenvalueExtension.SimEig",
+  "source_sha256": "583a0c7c2dee60eaacaa9ef39b9556cd6374d1db5446acf0a6275038d12f33ee",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Write the same local endomorphism as the explicit subtype value of T j x, using S.smul_mem for membership and map_add for additivity. This avoids scalar-action inference timeout without changing the map or theorem statement."
+}
