@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Divisors.IsFlatLift",
+  "source_sha256": "54f08b8eb8c092b4f2f076d8c3cc8fe17f32788bd7041e170d1d0030a541a7b6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
