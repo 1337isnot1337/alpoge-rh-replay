@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GaloisIrreducibility.Statement",
+  "source_sha256": "244b5f98f549c2a203f27b65c8ea717f4202b7d13eea7923d3d3aed34b73ba26",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

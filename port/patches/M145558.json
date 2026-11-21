@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.ContinuousOnG2SymmetricInterval",
+  "source_sha256": "d94e0cf703064a5559ce561b8856ef3b4bced1e2fb01da6e2b83dec72134eb60",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

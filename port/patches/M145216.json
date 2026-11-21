@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GradedWeylDivisibility.FockSpaceTableaux.LCassemLemmas",
+  "source_sha256": "aaea4f66d88f5e5470c0aa774f4ef20bd774a9788036b44f16fca1312372e52e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

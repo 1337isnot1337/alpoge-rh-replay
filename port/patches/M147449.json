@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LatticeRigidity.StatementA",
+  "source_sha256": "618ed89d57bf57fdcc75fdce0b330be21a356ce61f30f94cf25dde1d1ba0c7e7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

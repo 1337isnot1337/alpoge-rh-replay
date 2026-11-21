@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LatticeLocalGlobal.Statement",
+  "source_sha256": "d061b81768f16e40cc20023c85f8e61c099af0f2d99a0827503e5d5187eaca4c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

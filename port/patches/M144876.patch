@@ -1,0 +1,22 @@
+--- a/src/Formalism/GL3MeanSquares/GenusMeanAsymptotics/UnimodularClassRepresentatives/MassLandDA.lean
++++ b/src/Formalism/GL3MeanSquares/GenusMeanAsymptotics/UnimodularClassRepresentatives/MassLandDA.lean
+@@ -10,7 +10,7 @@
+ 
+ theorem monic_pol : (X ^ 2 - C c : F[X]).Monic := monic_X_pow_sub_C c two_ne_zero
+ 
+-theorem natDegree_pol : (X ^ 2 - C c : F[X]).natDegree = 2 := natDegree_X_pow_sub_C
++theorem natDegree_pol : (X ^ 2 - C c : F[X]).natDegree = 2 := natDegree_X_pow_sub_C c
+ 
+ theorem root_mul_root :
+     AdjoinRoot.root (X ^ 2 - C c) * AdjoinRoot.root (X ^ 2 - C c) = AdjoinRoot.of (X ^ 2 - C c) c := by
+@@ -46,8 +46,8 @@
+   have h0 : (C b * X + C a : F[X]) ≠ 0 := by
+     intro h0
+     apply hne
+-    have ha := congrArg (fun p => coeff p 0) h0
+-    have hb := congrArg (fun p => coeff p 1) h0
++    have ha := congrArg (fun p => p.coeff 0) h0
++    have hb := congrArg (fun p => p.coeff 1) h0
+     simp at ha hb
+     exact ⟨ha, hb⟩
+   refine AdjoinRoot.mk_ne_zero_of_natDegree_lt (monic_pol c) h0 ?_ h1

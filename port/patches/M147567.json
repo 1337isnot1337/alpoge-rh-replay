@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalRingCardinality.SpanPowerMembership.LeOfEventuallyDown",
+  "source_sha256": "f24bdda5459d1ddeaf14c300fa88a6abb1166652cb4afe09a51eeb78afe1c1c7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

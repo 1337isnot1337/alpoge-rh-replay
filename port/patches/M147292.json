@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.HermitianLattices.StatementJac",
+  "source_sha256": "645370c9c669cb1d1a6fbdc870bf1686c018b67d193cfda7fb848ecc54db5e54",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

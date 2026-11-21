@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LatticeTheta.Statement",
+  "source_sha256": "f7ffef3f178e6561642d908ca1893357c73e9614e0b07c784e7a9a91aee4a735",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GelfandTransference.GelfandCentral",
+  "source_sha256": "94b41467c2d09a6cd24440767331bd0e0d16cc2b1c044b1b2575d63d007a9d69",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

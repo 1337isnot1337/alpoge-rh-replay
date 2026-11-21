@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalRingCardinality.SpanPowerMembership.HasStrictFDerivAtExpZero",
+  "source_sha256": "8bf2ad27f62942f71e8bb0e2c66a5b6fd8ec05c6016d0237232fdd40af4a7c04",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

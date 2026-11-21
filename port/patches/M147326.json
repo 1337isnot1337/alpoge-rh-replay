@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.IncomingBounds.IncomingBound",
+  "source_sha256": "201476c18ccbb46a0022e76b63901c7feea2a565b8f9802910d9c36285791ba6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
