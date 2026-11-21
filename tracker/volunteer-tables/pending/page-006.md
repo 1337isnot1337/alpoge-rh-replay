@@ -4,6 +4,11 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@amrehan](https://github.com/amrehan) | [M115109](https://github.com/rohanarun/alpoge-rh-replay/issues/8854#issuecomment-7054684458) | Pending review |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M061342](https://github.com/rohanarun/alpoge-rh-replay/issues/8856#issuecomment-7054835841) | Pending review |
+| [@matan1905](https://github.com/matan1905) | [M130230](https://github.com/rohanarun/alpoge-rh-replay/issues/8857#issuecomment-7054693479) | Pending review |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M005800](https://github.com/rohanarun/alpoge-rh-replay/issues/8859#issuecomment-7054854960) | Pending review |
+| [@UnityChaos](https://github.com/UnityChaos) | [M124566](https://github.com/rohanarun/alpoge-rh-replay/issues/8860#issuecomment-7054690038) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M104508](https://github.com/rohanarun/alpoge-rh-replay/issues/8861#issuecomment-7054691768) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M030466](https://github.com/rohanarun/alpoge-rh-replay/issues/8862#issuecomment-7054693477) | Pending review |
 | [@egergerfg](https://github.com/egergerfg) | [M167213](https://github.com/rohanarun/alpoge-rh-replay/issues/8863#issuecomment-7054691308) | Pending review |
@@ -167,6 +172,7 @@
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M156790](https://github.com/rohanarun/alpoge-rh-replay/issues/9043#issuecomment-7054982469) | Pending review |
 | [@matan1905](https://github.com/matan1905) | [M106104](https://github.com/rohanarun/alpoge-rh-replay/issues/9044#issuecomment-7054883428) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M173298](https://github.com/rohanarun/alpoge-rh-replay/issues/9046#issuecomment-7054984490) | Pending review |
+| [@WorldianAI](https://github.com/WorldianAI) | [M174815](https://github.com/rohanarun/alpoge-rh-replay/issues/9047#issuecomment-7055117850) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M158796](https://github.com/rohanarun/alpoge-rh-replay/issues/9048#issuecomment-7054989546) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M153022](https://github.com/rohanarun/alpoge-rh-replay/issues/9049#issuecomment-7054911834) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M127263](https://github.com/rohanarun/alpoge-rh-replay/issues/9050#issuecomment-7054912566) | Pending review |
@@ -248,9 +254,3 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M064284](https://github.com/rohanarun/alpoge-rh-replay/issues/9144#issuecomment-7054977466) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M100669](https://github.com/rohanarun/alpoge-rh-replay/issues/9145#issuecomment-7054948062) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M122707](https://github.com/rohanarun/alpoge-rh-replay/issues/9146#issuecomment-7054978042) | Pending review |
-| [@loremcdmx](https://github.com/loremcdmx) | [M002758](https://github.com/rohanarun/alpoge-rh-replay/issues/9147#issuecomment-7054949501) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M124976](https://github.com/rohanarun/alpoge-rh-replay/issues/9148#issuecomment-7054978822) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M131767](https://github.com/rohanarun/alpoge-rh-replay/issues/9149#issuecomment-7054979436) | Pending review |
-| [@sp20262026](https://github.com/sp20262026) | [M166056](https://github.com/rohanarun/alpoge-rh-replay/issues/9150#issuecomment-7054933967) | Pending review |
-| [@loremcdmx](https://github.com/loremcdmx) | [M101214](https://github.com/rohanarun/alpoge-rh-replay/issues/9151#issuecomment-7054950380) | Pending review |
-| [@loremcdmx](https://github.com/loremcdmx) | [M100931](https://github.com/rohanarun/alpoge-rh-replay/issues/9152#issuecomment-7054951124) | Pending review |
