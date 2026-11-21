@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M008916"
+  ],
+  "started_utc": "2026-11-21T16:27:53.436471+00:00",
+  "ended_utc": "2026-11-21T16:28:08.524611+00:00",
+  "elapsed_seconds": 15.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6925556
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSymDataOfUnifCongr:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4c43649c45501165366c24db8274c9837acbd0cc69c45d139306cdba2357ba22",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MemLevelIffSymmetricPositionEntryPatternStatement",
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricChainOneCouplingCosetOfPattern",
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelChainPatternIterated"
+  ],
+  "objects": {
+    "M008916": "efe19afca8aad0a562862d337580847ef018f0037d64c341911641e61cd08c19"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "997e21c72fa6ed8371e55ada3a4b9649e1986e3ce3b2eba12d079ae71c550542",
+  "packet": "M008916",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23562#issuecomment-7065670527",
+  "reviewed_utc": "2026-11-21T16:45:38.757943+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

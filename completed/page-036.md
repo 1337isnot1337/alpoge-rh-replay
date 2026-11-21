@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M035513 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianUnitaryGroupOneParameterChart` | volunteer-build-reviewed |
+| M035514 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianUnitaryGroupOneParameterChartStatement` | volunteer-build-reviewed |
+| M035515 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianVectorEigenDecomposition` | volunteer-build-reviewed |
+| M035516 | P1448 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianVectorEigenDecompositionStatement` | build-observed |
+| M035522 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianWittIndexEqZeroDefiniteBottomStatement` | volunteer-build-reviewed |
+| M035536 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HfMulVecMulVec` | volunteer-build-reviewed |
+| M035538 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HformZeroRight` | volunteer-build-reviewed |
 | M035541 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HighDegreeInPowerSumIdeal` | build-observed |
 | M035542 | P0398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HighDegreeInPowerSumIdealStatement` | build-observed |
 | M035543 | P1669 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HigherCohomologyBoundTwistNegOfRegularSection` | wave-reused |
@@ -395,10 +402,3 @@
 | M036536 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndexIdealMulConjEqGramDetSelfDual` | volunteer-build-reviewed |
 | M036537 | P1999 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndexIdealMulConjEqGramDetSelfDualStatement` | volunteer-build-reviewed |
 | M036538 | P2037 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndexIdealRankOneTensorImageEqMap` | volunteer-build-reviewed |
-| M036539 | P2054 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndexIdealRankOneTensorImageEqMapStatement` | volunteer-build-reviewed |
-| M036541 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndexStandardInfSkewThetaLatticeEqAbsNormPowStatement` | volunteer-build-reviewed |
-| M036543 | P1793 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndicatorCosetScaledIntegralEqRestrictedProductStatement` | volunteer-build-reviewed |
-| M036544 | P1448 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndicatorIntMMemSB` | build-observed |
-| M036547 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndicatorSmallCosetHalfIsSchwartzBruhat` | volunteer-build-reviewed |
-| M036548 | P1999 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndicatorSmallCosetHalfIsSchwartzBruhatStatement` | volunteer-build-reviewed |
-| M036549 | P1999 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InducedCharIntertwiningUnif` | volunteer-build-reviewed |

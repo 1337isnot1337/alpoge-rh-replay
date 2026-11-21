@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M033224 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FullRankNormalFormValuationStatement` | volunteer-build-reviewed |
+| M033225 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FullRankPartialIntegrationProjection` | volunteer-build-reviewed |
+| M033227 | P0299 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FullRankSB` | volunteer-build-reviewed |
+| M033234 | P0299 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FullRk` | volunteer-build-reviewed |
+| M033236 | P1399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FullySplitPrimesDensityOne` | volunteer-build-reviewed |
+| M033237 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FullySplitPrimesDensityOneStatement` | volunteer-build-reviewed |
+| M033241 | P0552 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FunctionFieldFiniteSupportSumOrderEqZero` | build-observed |
 | M033242 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FunctionFieldFiniteSupportSumOrderEqZeroStatement` | build-observed |
 | M033246 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FunctionFieldOneVariableTranscendentalFiniteAndE` | build-observed |
 | M033247 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FunctionFieldOneVariableTranscendentalFiniteAndEStatement` | build-observed |
@@ -395,10 +402,3 @@
 | M034602 | P1448 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtHeisenbergOperatorThetaTransformRealLi` | build-observed |
 | M034603 | P1478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtHeisenbergOperatorThetaTransformRealLiStatement` | volunteer-build-reviewed |
 | M034604 | P2110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtHeisenbergTranslateFockBox` | volunteer-build-reviewed |
-| M034605 | P2122 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtHeisenbergTranslateFockBoxStatement` | volunteer-build-reviewed |
-| M034606 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtIntegralDominatedFamily` | volunteer-build-reviewed |
-| M034607 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtIntegralDominatedFamilyStatement` | volunteer-build-reviewed |
-| M034612 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtOfContinuousRealToComplexExponential` | volunteer-build-reviewed |
-| M034615 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtProductOfRealLines` | volunteer-build-reviewed |
-| M034616 | P1817 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtProductOfRealLinesStatement` | volunteer-build-reviewed |
-| M034617 | P1399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtSchrodingerLinePureTensorZero` | volunteer-build-reviewed |

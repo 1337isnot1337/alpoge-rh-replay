@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M043252 | P1449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemLowLat` | build-observed |
+| M043253 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemLsB` | volunteer-build-reviewed |
+| M043258 | P0018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemMatLat` | volunteer-build-reviewed |
+| M043259 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemMatLatSmulBlockLat` | volunteer-build-reviewed |
+| M043261 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemMaxCompactGLOfCommuteEtaleCharpolyBoundedStatement` | volunteer-build-reviewed |
+| M043265 | P1303 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemMulInvIff` | volunteer-build-reviewed |
+| M043269 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemNilRad` | volunteer-build-reviewed |
+| M043270 | P1449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemNonzeroLocusFormMap` | wave-reused |
+| M043277 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemOfClosedSubmoduleGaussianConvolutionStatement` | volunteer-build-reviewed |
+| M043278 | P1088 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemOfDuplicationEq` | build-observed |
 | M043279 | P1118 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemOfDuplicationEqStatement` | build-observed |
 | M043280 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemOfForallHeightOneLocalizationIntegrallyClosed` | build-observed |
 | M043281 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemOfForallHeightOneLocalizationIntegrallyClosedStatement` | build-observed |
@@ -392,13 +402,3 @@
 | M044496 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormGaussianConvolutionSeriesCoefficientLeIntegr` | volunteer-build-reviewed |
 | M044497 | P0184 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormGaussianConvolutionSeriesCoefficientLeIntegrStatement` | volunteer-build-reviewed |
 | M044498 | P0681 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormGramDetEqIndex` | build-observed |
-| M044499 | P0708 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormGramDetEqIndexStatement` | build-observed |
-| M044504 | P0301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormHeckeTermDecayFourierIntegralLe` | volunteer-build-reviewed |
-| M044505 | P0352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormHeckeTermDecayFourierIntegralLeStatement` | volunteer-build-reviewed |
-| M044508 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIdeal` | volunteer-build-reviewed |
-| M044509 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormInvLePowCardOfNormProdEqOne` | volunteer-build-reviewed |
-| M044510 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormInvLePowCardOfNormProdEqOneStatement` | volunteer-build-reviewed |
-| M044511 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIrreducibleCharacterUnitaryMaxCompactEqOne` | volunteer-build-reviewed |
-| M044512 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIteratedFDerivCexpPhaseLe` | volunteer-build-reviewed |
-| M044513 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIteratedFDerivCexpPhaseLeStatement` | volunteer-build-reviewed |
-| M044514 | P0247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIteratedFDerivHeckeFourierFactorLe` | volunteer-build-reviewed |

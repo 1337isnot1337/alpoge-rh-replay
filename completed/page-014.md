@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M010082 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeLineRatioTransportOfColumnsCarryLines` | volunteer-build-reviewed |
+| M010083 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeLineRatioTransportOfColumnsCarryLinesStatement` | volunteer-build-reviewed |
 | M010084 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeLocalEqIntegralAlmostAll` | volunteer-build-reviewed |
 | M010085 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeLocalEqIntegralAlmostAllStatement` | volunteer-build-reviewed |
 | M010087 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeOrthogonalSumLineAtSplitPlaceStatement` | volunteer-build-reviewed |
@@ -40,6 +42,7 @@
 | M010168 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelZeroElementReductionStatement` | volunteer-build-reviewed |
 | M010169 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelZeroTypeFrameLocality` | volunteer-build-reviewed |
 | M010171 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelZeroUniformizerFrameUnipotentAndEmbedGL` | volunteer-build-reviewed |
+| M010172 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelZeroUniformizerFrameUnipotentAndEmbedGLStatement` | volunteer-build-reviewed |
 | M010173 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LeviFactorCharactersSplitPlace` | volunteer-build-reviewed |
 | M010174 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LeviFactorCharactersSplitPlaceStatement` | volunteer-build-reviewed |
 | M010175 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapHaarFiniteOnCompacts` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M010831 | P0732 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PowPrimePowSubFrobeniusTwistNormLeStatement` | build-observed |
 | M010832 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PrHOUpIncAdj` | volunteer-build-reviewed |
 | M010833 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PrMemOfMemLatV` | volunteer-build-reviewed |
-| M010835 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PrXLeKOOfPrCat` | volunteer-build-reviewed |
-| M010838 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PrimitiveCharacterMatchesLinesDownFlagStatement` | volunteer-build-reviewed |
-| M010849 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ProdFnMemSB` | volunteer-build-reviewed |

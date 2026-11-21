@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M055539 | P1329 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedExtFrobeniusIterateDegreeEqSelf` | build-observed |
+| M055540 | P1354 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedExtFrobeniusIterateDegreeEqSelfStatement` | build-observed |
+| M055542 | P1402 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedExtensionBasisStatement` | volunteer-build-reviewed |
+| M055544 | P1451 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedExtensionProductDecompositionStatement` | volunteer-build-reviewed |
+| M055548 | P2070 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedInnerProductDataDefiniteBottomLargeGri` | volunteer-build-reviewed |
+| M055565 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedPrincipalSeriesNoInvariant` | build-observed |
+| M055566 | P0443 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedPrincipalSeriesNoInvariantStatement` | build-observed |
+| M055567 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedPrincipalSeriesNonzeroAtOne` | build-observed |
+| M055568 | P0443 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedPrincipalSeriesNonzeroAtOneStatement` | build-observed |
+| M055578 | P1770 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedVectorGivesLocalComponentSphericalVectStatement` | volunteer-build-reviewed |
+| M055581 | P0186 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UpperHalfPlaneProductProdImRpowContDiffOn` | volunteer-build-reviewed |
 | M055582 | P0249 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UpperHalfPlaneProductProdImRpowContDiffOnStatement` | volunteer-build-reviewed |
 | M055589 | P0023 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UpperTriangularNearUnitDiagonalOfTwistedGramNear` | volunteer-build-reviewed |
 | M055590 | P0116 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UpperTriangularNearUnitDiagonalOfTwistedGramNearStatement` | volunteer-build-reviewed |
@@ -391,14 +402,3 @@
 | M056901 | P0869 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BigCellExponentialChartStrictDifferentiableSummaStatement` | build-observed |
 | M056906 | P1887 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BinaryHermitianFormRepresentsTotallyPositive` | build-observed |
 | M056907 | P1908 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BinaryHermitianFormRepresentsTotallyPositiveStatement` | build-observed |
-| M056909 | P0895 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BiorthogonalBlockFramesTriangular` | build-observed |
-| M056910 | P0923 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BiorthogonalBlockFramesTriangularStatement` | build-observed |
-| M056911 | P1006 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BlkExt` | build-observed |
-| M056912 | P1006 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BlockDiagonalWithIdentityGLEqOneIff` | wave-reused |
-| M056913 | P0842 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BlockParabolicProductExtendedByZeroAssoc` | wave-reused |
-| M056914 | P0787 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BlockParabolicUnitriangularSubgroupsGLnPrimeFiel` | wave-reused |
-| M056915 | P0813 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BlockParabolicUnitriangularSubgroupsGLnPrimeFielStatement` | wave-reused |
-| M056916 | P1089 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BlockPerpEmbeddingOfDiagonalFrame` | build-observed |
-| M056917 | P1120 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BlockPerpEmbeddingOfDiagonalFrameStatement` | build-observed |
-| M056920 | P0481 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BlockUnitriangularRationalFromCommonStabiliser` | wave-reused |
-| M056921 | P0520 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BlockUnitriangularRationalFromCommonStabiliserStatement` | wave-reused |

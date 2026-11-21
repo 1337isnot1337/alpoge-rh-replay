@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M071529"
+  ],
+  "started_utc": "2026-11-21T16:31:19.244800+00:00",
+  "ended_utc": "2026-11-21T16:31:35.478633+00:00",
+  "elapsed_seconds": 16.2,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6934964
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsCuspidalOfIsSupercuspidal:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "577b663ec970f01fd98d0189b607313b372cbf37c8ca737e10e337e0a78c6eda",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.IrreducibleTensorCharacter",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.CentralExponentBoundOver",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsInvariantForm"
+  ],
+  "objects": {
+    "M071529": "60d56a8d53288c7916ccb79233827320b5973deec5cf188e8d96c6745885ab09"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "e7123531164ed366d686780603e299b26ba46f695fa44360020f6d8e1451caed",
+  "packet": "M071529",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23558#issuecomment-7065713521",
+  "reviewed_utc": "2026-11-21T16:45:38.923650+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

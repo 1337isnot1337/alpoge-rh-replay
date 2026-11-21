@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M047929 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ReframeVerticalDerivative` | build-observed |
+| M047930 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ReframeVerticalDerivativeStatement` | build-observed |
+| M047932 | P1742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegFamOfContinuousAt` | volunteer-build-reviewed |
+| M047954 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularElementSeparableMinpoly` | volunteer-build-reviewed |
+| M047955 | P1424 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularElementsBoundedPadic` | build-observed |
+| M047962 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularFunctionsPthPowerTwist` | volunteer-build-reviewed |
+| M047963 | P0113 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularHeightOneLocalization` | volunteer-build-reviewed |
+| M047985 | P0248 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularPairLiftToPrimePowerField` | wave-reused |
+| M047987 | P1795 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularRationalPointTestSupportDoubleCosetsFinit` | volunteer-build-reviewed |
+| M047988 | P1819 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularRationalPointTestSupportDoubleCosetsFinitStatement` | volunteer-build-reviewed |
 | M047990 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularRepresentationOfFinitePairStatement` | volunteer-build-reviewed |
 | M047991 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularSectionExtendsOverFibre` | volunteer-build-reviewed |
 | M047997 | P0553 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularTopFormPoleOrderHeightOnePrime` | build-observed |
@@ -392,13 +402,3 @@
 | M048956 | P1795 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzBruhatRestrictionAndProductStatement` | volunteer-build-reviewed |
 | M048958 | P1450 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzBruhatSpanBoxIndicatorSchrodingerStatement` | volunteer-build-reviewed |
 | M048959 | P1768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzBruhatSumSplitTensor` | volunteer-build-reviewed |
-| M048960 | P1795 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzBruhatSumSplitTensorStatement` | volunteer-build-reviewed |
-| M048961 | P1769 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzBruhatSupportBoundedDenominators` | volunteer-build-reviewed |
-| M048964 | P0248 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzCharacterSeminormBound` | volunteer-build-reviewed |
-| M048965 | P0302 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzCharacterSeminormBoundStatement` | volunteer-build-reviewed |
-| M048966 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzClosureStableLinearFormFourier` | volunteer-build-reviewed |
-| M048967 | P0113 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzClosureStableLinearFormFourierStatement` | volunteer-build-reviewed |
-| M048968 | P0185 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzCompactSupportDense` | volunteer-build-reviewed |
-| M048969 | P0248 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzCompactSupportDenseStatement` | volunteer-build-reviewed |
-| M048972 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzContinuousAtOfPointwiseOfBounded` | volunteer-build-reviewed |
-| M048973 | P0113 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzContinuousAtOfPointwiseOfBoundedStatement` | volunteer-build-reviewed |

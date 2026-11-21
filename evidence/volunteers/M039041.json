@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M039041"
+  ],
+  "started_utc": "2026-11-21T16:30:11.342923+00:00",
+  "ended_utc": "2026-11-21T16:30:48.336807+00:00",
+  "elapsed_seconds": 37.0,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 7164420
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSubquotSmIndCongr:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "262f161be549405613a68c184926899e3ba1b6fc66c346ac7e1d0dbe045f09ac",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.LineOppositeParabolicUnitaryLeviSectionEq",
+    "Formalism.SatakeDualWeyl.Statement",
+    "Formalism.SatakeDualWeyl.StatementF"
+  ],
+  "objects": {
+    "M039041": "0f124509b69b8f16f25f0b20c8b526297d96a681bea407a242ea6f92b4b47d51"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "5793ac484ec11e1e9a31ea5b78329089c7a2cabe7558108b15d8dac99381b9b2",
+  "packet": "M039041",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23557#issuecomment-7065703418",
+  "reviewed_utc": "2026-11-21T16:45:38.908548+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

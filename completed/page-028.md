@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M026130 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHermitianMultiplicationModelNonsplitStatement` | volunteer-build-reviewed |
+| M026133 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHermitianSplitUnitaryLowerBlockInvertible` | build-observed |
+| M026134 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHermitianSplitUnitaryLowerBlockInvertibleStatement` | build-observed |
+| M026137 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHighestVectorRealWeightUnitaryCompact` | volunteer-build-reviewed |
+| M026138 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHighestVectorRealWeightUnitaryCompactStatement` | volunteer-build-reviewed |
+| M026140 | P2178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHighestWeightLiftModStableSubspaceStatement` | volunteer-build-reviewed |
 | M026145 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHodgeLatticeGermSystem` | volunteer-build-reviewed |
 | M026146 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHodgeSequenceFirstMapLattice` | volunteer-build-reviewed |
 | M026147 | P2036 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHodgeSequenceFirstMapLatticeStatement` | volunteer-build-reviewed |
@@ -20,6 +26,7 @@
 | M026179 | P1941 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomExtOfGrpPullback` | volunteer-build-reviewed |
 | M026180 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomJet` | build-observed |
 | M026182 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomMumfordGeneratorNormalisedOriginStatement` | volunteer-build-reviewed |
+| M026185 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomOfBigCellGenericRelationsStatement` | volunteer-build-reviewed |
 | M026188 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomOfTriv` | volunteer-build-reviewed |
 | M026190 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomSpecProdSelfPreimageEqClopen` | volunteer-build-reviewed |
 | M026191 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomSpecProdSelfPreimageEqClopenStatement` | build-observed |
@@ -395,10 +402,3 @@
 | M027322 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalKaehlerDBasisSmoothSubalgebra` | build-observed |
 | M027323 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalKaehlerDBasisSmoothSubalgebraStatement` | build-observed |
 | M027326 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalModelAtComplexPoint` | volunteer-build-reviewed |
-| M027327 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalModelAtComplexPointStatement` | volunteer-build-reviewed |
-| M027331 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalPointModelEvalStatement` | volunteer-build-reviewed |
-| M027332 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalPushoutUnramifiedCharZero` | volunteer-build-reviewed |
-| M027333 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalPushoutUnramifiedCharZeroStatement` | volunteer-build-reviewed |
-| M027340 | P2036 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalSchroedingerFamilyAtPlace` | volunteer-build-reviewed |
-| M027342 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalSection` | volunteer-build-reviewed |
-| M027344 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalSectionOfOpenImmersionSpecStatement` | volunteer-build-reviewed |

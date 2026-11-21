@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M034605 | P2122 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtHeisenbergTranslateFockBoxStatement` | volunteer-build-reviewed |
+| M034606 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtIntegralDominatedFamily` | volunteer-build-reviewed |
+| M034607 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtIntegralDominatedFamilyStatement` | volunteer-build-reviewed |
+| M034612 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtOfContinuousRealToComplexExponential` | volunteer-build-reviewed |
+| M034615 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtProductOfRealLines` | volunteer-build-reviewed |
+| M034616 | P1817 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtProductOfRealLinesStatement` | volunteer-build-reviewed |
+| M034617 | P1399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtSchrodingerLinePureTensorZero` | volunteer-build-reviewed |
 | M034618 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtSchrodingerLinePureTensorZeroStatement` | volunteer-build-reviewed |
 | M034619 | P1399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtSobolevContinuousOrbit` | volunteer-build-reviewed |
 | M034620 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtSobolevContinuousOrbitStatement` | volunteer-build-reviewed |
@@ -395,10 +402,3 @@
 | M035509 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianTripleTrivialOverRealsOfGramCongruent` | volunteer-build-reviewed |
 | M035510 | P1448 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianTripleTrivialOverRealsOfGramCongruentStatement` | build-observed |
 | M035512 | P1399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianTripleTrivializationsDifferByGroupPointStatement` | volunteer-build-reviewed |
-| M035513 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianUnitaryGroupOneParameterChart` | volunteer-build-reviewed |
-| M035514 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianUnitaryGroupOneParameterChartStatement` | volunteer-build-reviewed |
-| M035515 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianVectorEigenDecomposition` | volunteer-build-reviewed |
-| M035516 | P1448 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianVectorEigenDecompositionStatement` | build-observed |
-| M035522 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianWittIndexEqZeroDefiniteBottomStatement` | volunteer-build-reviewed |
-| M035536 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HfMulVecMulVec` | volunteer-build-reviewed |
-| M035538 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HformZeroRight` | volunteer-build-reviewed |

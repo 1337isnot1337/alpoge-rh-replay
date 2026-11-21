@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M021312 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiffCoeffsInIdealSubstOfConstantCoeffZero` | wave-reused |
+| M021313 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiffCoeffsInIdealSubstOfConstantCoeffZeroStatement` | wave-reused |
+| M021314 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiffCoeffsInIdealTopFormalLogConstOne` | build-observed |
+| M021315 | P1171 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiffCoeffsInIdealTopFormalLogConstOneStatement` | build-observed |
 | M021316 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiffCoeffsInIdealTopPowerSeriesLog` | build-observed |
 | M021317 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiffCoeffsInIdealTopPowerSeriesLogStatement` | build-observed |
 | M021321 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferenceSpanLeStableSubspace` | build-observed |
@@ -398,7 +402,3 @@
 | M022609 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfMemSpan` | volunteer-build-reviewed |
 | M022611 | P1645 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfMemWeakIn` | volunteer-build-reviewed |
 | M022612 | P1446 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfNilpotentCommuteSeparableMinpoly` | build-observed |
-| M022613 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfNilpotentCommuteSeparableMinpolyStatement` | volunteer-build-reviewed |
-| M022615 | P1087 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfOddEllipticOfTendsto` | build-observed |
-| M022616 | P1117 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfOddEllipticOfTendstoStatement` | build-observed |
-| M022618 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfOrthogonalTranslates` | volunteer-build-reviewed |

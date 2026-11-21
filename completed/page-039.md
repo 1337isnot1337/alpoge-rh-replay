@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M038604 | P1005 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenIdentityComponentsSmoothGroupSchemeStatement` | build-observed |
+| M038613 | P2399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenImmersionOfMonoOfSmoothOfRelativeDimensionStatement` | volunteer-build-reviewed |
+| M038614 | P0813 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenImmersionSpecMapOfThickening` | build-observed |
+| M038615 | P0841 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenImmersionSpecMapOfThickeningStatement` | build-observed |
+| M038617 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenImmersionSpecOfQuasiFiniteOfNormalStatement` | volunteer-build-reviewed |
+| M038618 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenImmersionToGradedModelFlatBaseChange` | volunteer-build-reviewed |
+| M038620 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenImmersionToNormalization` | volunteer-build-reviewed |
 | M038623 | P1478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenIntegralTensorAdeleMultiples` | volunteer-build-reviewed |
 | M038625 | P0109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenIsCompactStab` | volunteer-build-reviewed |
 | M038626 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenIsIrreducibleComponentOfRationalPointSmoot` | build-observed |
@@ -172,6 +179,7 @@
 | M039035 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsStronglyTrivialFormalSumTensorNeg` | volunteer-build-reviewed |
 | M039037 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsStronglyTrivialFormalSumTensorZero` | volunteer-build-reviewed |
 | M039040 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSubbundleKernelOfLocallyPrincipal` | volunteer-build-reviewed |
+| M039041 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSubquotSmIndCongr` | volunteer-build-reviewed |
 | M039048 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSymmetricOfGaloisPullbackUniformisationBundle` | volunteer-build-reviewed |
 | M039050 | P2399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSymmetricRigidifiedBundleBaseChange` | volunteer-build-reviewed |
 | M039053 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSymmetricTwoCocycleOfAdditiveStructureTorsorStatement` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M039636 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KTypeWeightMemConeOverLowestKTypeStatement` | volunteer-build-reviewed |
 | M039647 | P0109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KaehlerFibreEquivPushoutFormallyEtale` | volunteer-build-reviewed |
 | M039648 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KaehlerFibreEquivPushoutFormallyEtaleStatement` | volunteer-build-reviewed |
-| M039661 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KaehlerWedgeFormMapEqSmulOfBasis` | volunteer-build-reviewed |
-| M039663 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KahlerFormsOverSubalgebraClosureProperties` | build-observed |
-| M039664 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KahlerFormsOverSubalgebraClosurePropertiesStatement` | build-observed |
-| M039669 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KahlerFormsOverSubalgebraStandardOpenIffPowSmul` | build-observed |
-| M039670 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KahlerFormsOverSubalgebraStandardOpenIffPowSmulStatement` | build-observed |
-| M039671 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KapOrbUnitEqOne` | volunteer-build-reviewed |
-| M039673 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KappaApplyEq` | volunteer-build-reviewed |
-| M039678 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KappaFormulaHookSchur` | volunteer-build-reviewed |

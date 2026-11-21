@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M045662 | P0399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodVectorMoebiusTransform` | volunteer-build-reviewed |
+| M045663 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodVectorMoebiusTransformStatement` | build-observed |
+| M045668 | P0399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicCocycleTranslationCoboundary` | build-observed |
+| M045669 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicCocycleTranslationCoboundaryStatement` | build-observed |
+| M045670 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicCompactSupportFiniteSum` | volunteer-build-reviewed |
+| M045671 | P1819 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicCompactSupportFiniteSumStatement` | volunteer-build-reviewed |
+| M045672 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicContinuousIntegrableDomain` | volunteer-build-reviewed |
+| M045673 | P0112 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicContinuousIntegrableDomainStatement` | volunteer-build-reviewed |
+| M045674 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicHolomorphicFourierExpansion` | build-observed |
+| M045675 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicHolomorphicFourierExpansionStatement` | build-observed |
 | M045678 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicIntegralLeFundamentalDomain` | volunteer-build-reviewed |
 | M045680 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicMetricSectionBound` | build-observed |
 | M045681 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicMetricSectionBoundStatement` | build-observed |
@@ -392,13 +402,3 @@
 | M046877 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PshNormalFrameQuadraticComparison` | wave-reused |
 | M046878 | P1005 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PshNormalFrameQuadraticComparisonStatement` | wave-reused |
 | M046879 | P0301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PshPullbackHolomorphic` | build-observed |
-| M046880 | P0352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PshPullbackHolomorphicStatement` | build-observed |
-| M046884 | P2070 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiAtContNormNontriv` | volunteer-build-reviewed |
-| M046889 | P0894 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantEigenProperty` | wave-reused |
-| M046890 | P0922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantEigenPropertyStatement` | wave-reused |
-| M046891 | P0786 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantElementProperty` | wave-reused |
-| M046892 | P0813 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantElementPropertyStatement` | wave-reused |
-| M046893 | P0841 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantOrdersProperty` | wave-reused |
-| M046894 | P0868 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantOrdersPropertyStatement` | wave-reused |
-| M046895 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantRankProperty` | wave-reused |
-| M046896 | P1005 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantRankPropertyStatement` | wave-reused |

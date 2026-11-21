@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M164356"
+  ],
+  "started_utc": "2026-11-21T16:31:29.376496+00:00",
+  "ended_utc": "2026-11-21T16:32:12.906780+00:00",
+  "elapsed_seconds": 43.5,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5398760
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PSerreSFlatAscent:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "bcb536b83d9323634de018da9699ca6e89efbc1cf12c03d589d5c217a0c0d9e0",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatDimFormula",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatLocalRegularSequence",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatNormalFibres",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StSerreConditions",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StSerreSFlatAscent"
+  ],
+  "objects": {
+    "M164356": "2839eba0c6f0e4781cf240bd3c58bf8dc83fbc6f36861be148e05d4d34b4c795"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "4d432e14b8e4010b4697105466a022650658cd1e380f3e35a02a2324de66f004",
+  "packet": "M164356",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23522#issuecomment-7065748721",
+  "reviewed_utc": "2026-11-21T16:45:55.252540+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

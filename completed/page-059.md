@@ -2,6 +2,24 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M060691 | P1427 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsIsoIntegralModelsMatchingLieBases` | build-observed |
+| M060692 | P1452 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsIsoIntegralModelsMatchingLieBasesStatement` | build-observed |
+| M060693 | P0735 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsJetChartCoordinatesNilpotent` | wave-reused |
+| M060694 | P0762 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsJetChartCoordinatesNilpotentStatement` | wave-reused |
+| M060695 | P0653 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsJetPointsOfIsLieBasis` | wave-reused |
+| M060696 | P2040 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsNonzeroOfGenerator` | volunteer-build-reviewed |
+| M060697 | P0025 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsPolynomialSubMem` | wave-reused |
+| M060698 | P0980 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsPushFr` | build-observed |
+| M060699 | P1007 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsPushFrStatement` | build-observed |
+| M060700 | P0844 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsToJetEq` | wave-reused |
+| M060701 | P0844 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsUniqueNormPrim` | wave-reused |
+| M060704 | P1090 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FamSyPush` | build-observed |
+| M060705 | P1120 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FamSyPushStatement` | build-observed |
+| M060708 | P0653 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FirstJetEqProdTangent` | wave-reused |
+| M060709 | P0925 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FirstPartialLawPushAlongTripleMap` | build-observed |
+| M060710 | P0953 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FirstPartialLawPushAlongTripleMapStatement` | build-observed |
+| M060711 | P0025 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FlatMvPowerSeries` | volunteer-build-reviewed |
+| M060712 | P0116 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FlatMvPowerSeriesOfIsNoetherianRing` | volunteer-build-reviewed |
 | M060713 | P0186 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FlatMvPowerSeriesOfIsNoetherianRingStatement` | volunteer-build-reviewed |
 | M060714 | P0116 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FlatQuotientWeaklyRegular` | volunteer-build-reviewed |
 | M060715 | P0186 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FlatQuotientWeaklyRegularStatement` | volunteer-build-reviewed |
@@ -216,6 +234,7 @@
 | M061117 | P0444 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffMemRangeOfIsRoot` | wave-reused |
 | M061118 | P0482 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffMemRangeOfIsRootStatement` | wave-reused |
 | M061119 | P0025 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.CoeffNormLeOne` | volunteer-build-reviewed |
+| M061129 | P0953 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ColAddGenRenameCastSucc` | volunteer-build-reviewed |
 | M061131 | P0444 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ColemanNormOperatorIterateSuccCongrFrobenius` | build-observed |
 | M061132 | P0482 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ColemanNormOperatorIterateSuccCongrFrobeniusStatement` | build-observed |
 | M061133 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ColemanNormOperatorPowerSeriesCoeffAutMapComm` | build-observed |
@@ -303,6 +322,7 @@
 | M061298 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.DerivationOnVanishingOnSubalgebraKilledSqStatement` | volunteer-build-reviewed |
 | M061299 | P0117 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.DerivativeCyclotomicMul` | volunteer-build-reviewed |
 | M061301 | P1305 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.DetColumnOperationsModelParameterStatement` | volunteer-build-reviewed |
+| M061302 | P0586 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.DetCoverMatrixValuationOne` | volunteer-build-reviewed |
 | M061304 | P1034 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.DetRationalMatrixTwoSidedMulEqProdEmbeddings` | build-observed |
 | M061306 | P2270 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.DeterminantSectionRule` | build-observed |
 | M061307 | P0304 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.DiagMod` | volunteer-build-reviewed |
@@ -344,6 +364,7 @@
 | M061365 | P0980 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.DualLatticeIsLatticeAndHermitianDual` | build-observed |
 | M061366 | P1007 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.DualLatticeIsLatticeAndHermitianDualStatement` | build-observed |
 | M061371 | P1034 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.DualWeylEqEvalAtOneSmulExtremalOfRowWeight` | volunteer-build-reviewed |
+| M061373 | P1062 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.DualWeylExtremalReproducingNormSqOne` | volunteer-build-reviewed |
 | M061386 | P0187 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EdgeEqZeroOfInert` | volunteer-build-reviewed |
 | M061387 | P0117 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EePosFalseDvd` | volunteer-build-reviewed |
 | M061388 | P0187 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EichlerIntegralChangeOfVariablesIntMatrixSlash` | volunteer-build-reviewed |
@@ -360,6 +381,7 @@
 | M061409 | P0763 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EichlerShimuraKummerModularUnitStatement` | worker-kernel-checked |
 | M061410 | P0355 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EichlerShimuraPotentialSubmoduleAndBaseChange` | build-observed |
 | M061411 | P0402 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EichlerShimuraPotentialSubmoduleAndBaseChangeStatement` | build-observed |
+| M061414 | P0871 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EigIdxFiniteTypesCOf` | volunteer-build-reviewed |
 | M061415 | P0844 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EigenfunctionalAllCharactersOfAtkinLehner` | wave-reused |
 | M061416 | P0871 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EigenfunctionalAllCharactersOfAtkinLehnerStatement` | wave-reused |
 | M061419 | P0117 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EisFDistribution` | volunteer-build-reviewed |
@@ -380,25 +402,3 @@
 | M061440 | P0980 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EmbGramDetConjugate` | build-observed |
 | M061441 | P1305 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EpsMemLatSIff` | volunteer-build-reviewed |
 | M061443 | P0187 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EqOfIsMinInClassTwoOfSameClassFour` | wave-reused |
-| M061444 | P0025 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EqOneOfPowEqOne` | volunteer-build-reviewed |
-| M061445 | P1174 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EqOneOfSmulHaarEq` | build-observed |
-| M061446 | P0402 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EqOrEqNegOfWeierstrassPTorsionEq` | wave-reused |
-| M061447 | P0444 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EqOrEqNegOfWeierstrassPTorsionEqStatement` | wave-reused |
-| M061453 | P0187 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EqZeroOfForallPowDvdGerm` | wave-reused |
-| M061459 | P0355 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EvNormOpEqNrm` | build-observed |
-| M061460 | P0402 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EvNormOpEqNrmStatement` | build-observed |
-| M061461 | P0355 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EvOfFintype` | wave-reused |
-| M061462 | P0187 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EvalDiagPolyValuedInvariantTranslationTZpowMul` | volunteer-build-reviewed |
-| M061463 | P0250 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EvalDiagPolyValuedInvariantTranslationTZpowMulStatement` | volunteer-build-reviewed |
-| M061464 | P0117 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EvalPolyDegreeSlashAction` | volunteer-build-reviewed |
-| M061465 | P0355 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EvalSeriesAndDerivUniqueOfCoefficients` | wave-reused |
-| M061467 | P0521 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EvalSeriesCongIffCoeffAndIsUnit` | wave-reused |
-| M061468 | P0554 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EvalSeriesCongIffCoeffAndIsUnitStatement` | wave-reused |
-| M061476 | P1062 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EvenThetaTwoTorsionBasicProperties` | volunteer-build-reviewed |
-| M061478 | P1305 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.EventuallyAlgebraMapMemIntegers` | volunteer-build-reviewed |
-| M061480 | P0117 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExceptionalPrimesFiniteCardLe` | volunteer-build-reviewed |
-| M061481 | P0025 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsAbsoluteValueCompleteSpaceOfDvr` | wave-reused |
-| M061482 | P0117 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsAbsoluteValueCompleteSpaceOfDvrStatement` | wave-reused |
-| M061486 | P1305 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsAdelicUnitaryOfLocalFamilyAlmostAllTrivialStatement` | volunteer-build-reviewed |
-| M061488 | P1198 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsAdelicWeilRepresentationModelStatement` | build-observed |
-| M061489 | P0187 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsAdjacentSelfDualLatticeToward` | volunteer-build-reviewed |

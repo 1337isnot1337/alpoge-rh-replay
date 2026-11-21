@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M012103 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeFinalStatement` | volunteer-build-reviewed |
+| M012106 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeImage` | volunteer-build-reviewed |
+| M012107 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeImageStatement` | volunteer-build-reviewed |
+| M012110 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeIndexStep` | volunteer-build-reviewed |
 | M012111 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeIndexStepStatement` | volunteer-build-reviewed |
 | M012120 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeMeasureStep` | volunteer-build-reviewed |
 | M012122 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeMeasureValue` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M013046 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsPullDegOfVal` | volunteer-build-reviewed |
 | M013047 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsPullbackOfProjChart` | build-observed |
 | M013048 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsPullbackOfProjChartStatement` | volunteer-build-reviewed |
-| M013049 | P1171 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsRigNorm` | build-observed |
-| M013050 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsTorsFrameOfSymLift` | volunteer-build-reviewed |
-| M013052 | P1057 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsoIsMonHomOfIsGtOfRangeEq` | build-observed |
-| M013053 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsoOnG` | volunteer-build-reviewed |

@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M018977 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAThetaUnramifiedStatement` | volunteer-build-reviewed |
+| M018979 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAThetaVanishingStatement` | volunteer-build-reviewed |
+| M018985 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigATripleMatchedCompareStatement` | volunteer-build-reviewed |
+| M018986 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigATripleMatchedEqual` | volunteer-build-reviewed |
 | M018988 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigATripleMatchedFold` | volunteer-build-reviewed |
 | M018989 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigATripleMatchedFoldStatement` | volunteer-build-reviewed |
 | M018996 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigATriplesCompatibility` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M020184 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveBaseChangeTwoDistinctPointsOfFieldStatement` | volunteer-build-reviewed |
 | M020185 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveChernPartOmC1` | volunteer-build-reviewed |
 | M020186 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveChernPartOmC1Statement` | volunteer-build-reviewed |
-| M020188 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveClassDegreeComputations` | build-observed |
-| M020189 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveClassDegreeComputationsStatement` | build-observed |
-| M020190 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveClosedPointIsCentreOfPlace` | volunteer-build-reviewed |
-| M020194 | P1859 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveDegreeNonnegZmodFibreOfNefOnFiniteFieldFibr` | build-observed |

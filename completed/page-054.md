@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M056909 | P0895 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BiorthogonalBlockFramesTriangular` | build-observed |
+| M056910 | P0923 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BiorthogonalBlockFramesTriangularStatement` | build-observed |
+| M056911 | P1006 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BlkExt` | build-observed |
+| M056912 | P1006 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BlockDiagonalWithIdentityGLEqOneIff` | wave-reused |
+| M056913 | P0842 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BlockParabolicProductExtendedByZeroAssoc` | wave-reused |
+| M056914 | P0787 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BlockParabolicUnitriangularSubgroupsGLnPrimeFiel` | wave-reused |
+| M056915 | P0813 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BlockParabolicUnitriangularSubgroupsGLnPrimeFielStatement` | wave-reused |
+| M056916 | P1089 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BlockPerpEmbeddingOfDiagonalFrame` | build-observed |
+| M056917 | P1120 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BlockPerpEmbeddingOfDiagonalFrameStatement` | build-observed |
+| M056920 | P0481 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BlockUnitriangularRationalFromCommonStabiliser` | wave-reused |
+| M056921 | P0520 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.BlockUnitriangularRationalFromCommonStabiliserStatement` | wave-reused |
 | M056926 | P0842 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.CanonicalLatticeFiltrationSizeProperties` | build-observed |
 | M056940 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.CardCokernelUnramifiedOrderMatrixOfDetBase` | wave-reused |
 | M056941 | P0353 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.CardCokernelUnramifiedOrderMatrixOfDetBaseStatement` | wave-reused |
@@ -391,14 +402,3 @@
 | M057745 | P0521 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsProdLeOfIsRadical` | build-observed |
 | M057746 | P1223 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsProductChartTangentEquivBallVolume` | build-observed |
 | M057747 | P1252 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsProductChartTangentEquivBallVolumeStatement` | volunteer-build-reviewed |
-| M057753 | P0896 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsRationalFlagBlockFixingLattice` | build-observed |
-| M057754 | P0923 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsRationalFlagBlockFixingLatticeStatement` | build-observed |
-| M057755 | P2002 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsRationalFramesPrescribedLocalClasses` | volunteer-build-reviewed |
-| M057756 | P2021 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsRationalFramesPrescribedLocalClassesStatement` | volunteer-build-reviewed |
-| M057757 | P0024 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsRealSubmoduleBlockFinrankLe` | volunteer-build-reviewed |
-| M057758 | P1983 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsRectangularConjInstanceMatrixStandardPsi` | volunteer-build-reviewed |
-| M057759 | P2002 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsRectangularConjInstanceMatrixStandardPsiStatement` | volunteer-build-reviewed |
-| M057760 | P0979 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsReductionActionChosenPlaces` | build-observed |
-| M057762 | P0896 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsRetractionOfProjective` | build-observed |
-| M057763 | P1173 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsRiemannianHaarUnitaryJSubgroupOfAlgebra` | build-observed |
-| M057773 | P0869 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsScalarStableLatticeAutomorphismFundamental` | build-observed |

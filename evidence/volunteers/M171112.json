@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M171112"
+  ],
+  "started_utc": "2026-11-21T16:26:31.751520+00:00",
+  "ended_utc": "2026-11-21T16:26:57.685199+00:00",
+  "elapsed_seconds": 25.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5459152
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+PositivityTheory.AutomorphicForms.PublishedInputs.JacquetLanglands.TorusKernels.DualNumberUnitMulDecomposition:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "699d06e55145bcd529dcc0493f88d186610e4002aedd3abc683dffd85187bbc8",
+  "rebuilt_project_modules": [
+    "PositivityTheory.AutomorphicForms.PublishedInputs.JacquetLanglands.TorusKernels.ExistsFix",
+    "PositivityTheory.AutomorphicForms.PublishedInputs.JacquetLanglands.TorusKernels.RadialIntegralUnitCircleEq"
+  ],
+  "objects": {
+    "M171112": "5fd1cbedb5eac67305c5c2ddb3310011bf04a41cab42abbc217d6e048d25138f"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "df3a4c2d482d83fb82619232a20894d76af5aea33b9c908b613ed980104fc02d",
+  "packet": "M171112",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23493#issuecomment-7065668110",
+  "reviewed_utc": "2026-11-21T16:46:16.833950+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

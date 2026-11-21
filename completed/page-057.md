@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M059238 | P0897 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MapInfiniteGLHaarMeasureMulLeft` | build-observed |
+| M059239 | P0924 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MapInfiniteGLHaarMeasureMulLeftStatement` | build-observed |
+| M059240 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassBoundLowTypes` | volunteer-build-reviewed |
+| M059241 | P1330 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassBoundLowTypesAltBis` | volunteer-build-reviewed |
+| M059242 | P1252 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassBoundLowTypesStatement` | volunteer-build-reviewed |
+| M059244 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassBoundLowTypesSumStatement` | volunteer-build-reviewed |
+| M059247 | P0843 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassDefectOrderLe` | wave-reused |
+| M059248 | P0870 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassDefectOrderLeStatement` | wave-reused |
+| M059249 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassEqConstMulContent` | wave-reused |
+| M059256 | P1926 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassIntegralLatticesDiscriminantOrderLe` | build-observed |
+| M059257 | P1944 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassIntegralLatticesDiscriminantOrderLeStatement` | build-observed |
 | M059258 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassLowTypesFirst` | volunteer-build-reviewed |
 | M059259 | P1252 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassLowTypesFirstStatement` | volunteer-build-reviewed |
 | M059260 | P1279 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassLowTypesSecond` | volunteer-build-reviewed |
@@ -73,6 +84,7 @@
 | M059370 | P1908 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MemGenusIffMaximalIntegralHermitianLatticeStatement` | build-observed |
 | M059372 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MemH0sub` | volunteer-build-reviewed |
 | M059373 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MemHcompl` | build-observed |
+| M059378 | P1034 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MemInverseDifferentIdealPowRealIffUnramifiedCm` | volunteer-build-reviewed |
 | M059380 | P0653 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MemIpowSmulOfSmulMem` | build-observed |
 | M059381 | P0897 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MemIsotropicFlagSelfAdjointLeviIffBlock` | build-observed |
 | M059382 | P0924 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MemIsotropicFlagSelfAdjointLeviIffBlockStatement` | build-observed |
@@ -152,6 +164,7 @@
 | M059500 | P1006 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NonzeroDefectHeightPowerAbsorbsConstants` | wave-reused |
 | M059502 | P2071 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NonzeroFlagProbabilityBoundOfVolumeRatioInductioStatement` | volunteer-build-reviewed |
 | M059503 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormAdditiveCharacterTypePrimeEqOne` | wave-reused |
+| M059505 | P0735 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormExpSubOneLeExpNorm` | volunteer-build-reviewed |
 | M059506 | P0116 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormGaussSumHermitianFormLinearLe` | wave-reused |
 | M059507 | P0186 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormGaussSumHermitianFormLinearLeStatement` | wave-reused |
 | M059508 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.NormGaussSumLe` | wave-reused |
@@ -254,6 +267,7 @@
 | M059666 | P0897 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.PoissonSummationInfinitePlaceGaussianLatticeStatement` | build-observed |
 | M059667 | P1090 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.PolarSqCompare` | build-observed |
 | M059668 | P1120 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.PolarSqCompareStatement` | build-observed |
+| M059669 | P1452 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.PostOnMemGoodPart` | volunteer-build-reviewed |
 | M059670 | P0025 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.PowApplyEqZeroOfStrictUpper` | volunteer-build-reviewed |
 | M059671 | P0303 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.PowEqZeroOfMemHermitianFrameUnipotent` | wave-reused |
 | M059672 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.PowEqZeroOfMemHermitianFrameUnipotentStatement` | wave-reused |
@@ -388,17 +402,3 @@
 | M059882 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RelativeLatticeVolumeOfDetValuationStatement` | wave-reused |
 | M059889 | P1305 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RelevantTermNormsGeOneAndBounded` | volunteer-build-reviewed |
 | M059890 | P1330 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RelevantTermNormsGeOneAndBoundedStatement` | volunteer-build-reviewed |
-| M059893 | P1541 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ReproducingFormulaDiscreteSeriesTestGrowth` | build-observed |
-| M059894 | P1567 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ReproducingFormulaDiscreteSeriesTestGrowthStatement` | build-observed |
-| M059896 | P1403 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ReproducingFormulaFixedVectorModerateGrowthStatement` | volunteer-build-reviewed |
-| M059898 | P1983 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ResidueCmFieldFiniteAdeleTensorEquivEqNatCast` | volunteer-build-reviewed |
-| M059899 | P2002 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ResidueCmFieldFiniteAdeleTensorEquivEqNatCastStatement` | volunteer-build-reviewed |
-| M059900 | P0735 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RhoNNormLeAndCasimirArith` | build-observed |
-| M059901 | P1403 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RhsWLimOfLeaves` | volunteer-build-reviewed |
-| M059904 | P1090 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RiemannianHaarGaugeTransportBlockModel` | build-observed |
-| M059905 | P1120 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RiemannianHaarGaugeTransportBlockModelStatement` | build-observed |
-| M059906 | P1279 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RiemannianHaarGaugeVolumeUnitaryGroupEq` | volunteer-build-reviewed |
-| M059907 | P1305 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RiemannianHaarGaugeVolumeUnitaryGroupEqStatement` | volunteer-build-reviewed |
-| M059908 | P1174 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RiemannianHaarGaugeWholeGroup` | build-observed |
-| M059909 | P1198 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RiemannianHaarGaugeWholeGroupStatement` | build-observed |
-| M059910 | P1305 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RightConvUniqueAddSmulMulComm` | volunteer-build-reviewed |

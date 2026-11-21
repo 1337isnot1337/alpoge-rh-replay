@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M014883 | P1373 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicFormsFiniteStabilisers` | volunteer-build-reviewed |
+| M014886 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicFourierMemSchwartzTotallyRealStatement` | volunteer-build-reviewed |
+| M014889 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicFunctionalVanishing` | volunteer-build-reviewed |
+| M014899 | P1396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicHaarMeasureScaling` | build-observed |
 | M014903 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicHeisenbergActsByLocalSchrodingerStatement` | volunteer-build-reviewed |
 | M014909 | P1474 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicIwasawaMaximalParabolicFiniteReps` | volunteer-build-reviewed |
 | M014918 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicLiftMemCuspFormMultiplicitySpaceStatement` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M016323 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigEtaleModuleSheafMonoEpiIffSectionsStatement` | wave-reused |
 | M016339 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveBaseChangeDescendsFilteredColimit` | build-observed |
 | M016340 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveBaseChangeDescendsFilteredColimitStatement` | build-observed |
-| M016341 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveBaseChangeResidueFieldOfFiniteEtale` | wave-reused |
-| M016343 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveIffIsUnitDet` | volunteer-build-reviewed |
-| M016348 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveLinearCombinationOfRankAtStalk` | volunteer-build-reviewed |
-| M016349 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveLinearCombinationOfRankAtStalkStatement` | volunteer-build-reviewed |

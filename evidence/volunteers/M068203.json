@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M068203"
+  ],
+  "started_utc": "2026-11-21T16:29:41.378492+00:00",
+  "ended_utc": "2026-11-21T16:31:06.109228+00:00",
+  "elapsed_seconds": 84.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5421496
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DetModNeZeroIff:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0724f88ae39d5406f381471cb54f3f60317c6040874474b04e1206006f5d382e",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.HeckeFlatSpecialisation",
+    "Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.GaussianBinomialFormula",
+    "Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.IntegralMatrixTranslation",
+    "Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.LatticeCosetUniformizer",
+    "Development.AbelianVarietyTheory.Definitions.CommutativeAlgebra.InvariantSubspaceMobiusInverseRecEqOfFinrankLt",
+    "Development.AbelianVarietyTheory.Proofs.CharacterTheory.CardSubspacesOfFinrankMulCardBases",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsOfMemDoubleCosetK",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.GaussBinomMulProd"
+  ],
+  "objects": {
+    "M068203": "1b5f54d41ff872399afdcb4b1d2bcabddbaca7b3a783f0402c65eead78d09dab"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "6ccbacf2383bf67e43b32cd2ea9a2c30d697c45decd0d02beefa8653f9696b74",
+  "packet": "M068203",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23504#issuecomment-7065713251",
+  "reviewed_utc": "2026-11-21T16:46:11.539239+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

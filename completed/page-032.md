@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M030902 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreCoordinatePartialDerivationCommStatement` | build-observed |
+| M030903 | P0105 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreCosineExplicitFormula` | volunteer-build-reviewed |
+| M030911 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreDenseAffineChartPrimes` | volunteer-build-reviewed |
+| M030912 | P0105 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreDenseAffineChartPrimesStatement` | volunteer-build-reviewed |
+| M030913 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreDensityNullOffCharts` | volunteer-build-reviewed |
+| M030919 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreFiniteCard` | volunteer-build-reviewed |
+| M030920 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreGoingDownTensor` | volunteer-build-reviewed |
 | M030921 | P0105 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreGoingDownTensorStatement` | volunteer-build-reviewed |
 | M030929 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreIntegrationDensities` | volunteer-build-reviewed |
 | M030938 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreLineOverSurjection` | volunteer-build-reviewed |
@@ -395,10 +402,3 @@
 | M032117 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagHeightPairingPullbackDegree` | volunteer-build-reviewed |
 | M032125 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagMat` | volunteer-build-reviewed |
 | M032145 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagModelExistsOfGiven` | build-observed |
-| M032151 | P1477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagOfDominantPointAsTriangularMatrix` | build-observed |
-| M032152 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagOfDominantPointAsTriangularMatrixStatement` | volunteer-build-reviewed |
-| M032154 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagOmegaFormRealStatement` | volunteer-build-reviewed |
-| M032156 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagOmegaFormSqZeroStatement` | volunteer-build-reviewed |
-| M032157 | P1448 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagOrbitMapSurjective` | build-observed |
-| M032158 | P1477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagOrbitMapSurjectiveStatement` | build-observed |
-| M032163 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagPairCompositionExistsStatement` | volunteer-build-reviewed |

@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M032151 | P1477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagOfDominantPointAsTriangularMatrix` | build-observed |
+| M032152 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagOfDominantPointAsTriangularMatrixStatement` | volunteer-build-reviewed |
+| M032154 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagOmegaFormRealStatement` | volunteer-build-reviewed |
+| M032156 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagOmegaFormSqZeroStatement` | volunteer-build-reviewed |
+| M032157 | P1448 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagOrbitMapSurjective` | build-observed |
+| M032158 | P1477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagOrbitMapSurjectiveStatement` | build-observed |
+| M032163 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagPairCompositionExistsStatement` | volunteer-build-reviewed |
 | M032172 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagPairMorphismCompatibility` | volunteer-build-reviewed |
 | M032183 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagPairSameStepsPointEqStatement` | volunteer-build-reviewed |
 | M032185 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagPairTwoStepExchangeStatement` | volunteer-build-reviewed |
@@ -395,10 +402,3 @@
 | M033216 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FullRankIffNonzeroMinorStatement` | build-observed |
 | M033217 | P1817 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FullRankInSpanSmallFProducts` | volunteer-build-reviewed |
 | M033220 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FullRankInvariantFormTransportStatement` | volunteer-build-reviewed |
-| M033224 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FullRankNormalFormValuationStatement` | volunteer-build-reviewed |
-| M033225 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FullRankPartialIntegrationProjection` | volunteer-build-reviewed |
-| M033227 | P0299 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FullRankSB` | volunteer-build-reviewed |
-| M033234 | P0299 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FullRk` | volunteer-build-reviewed |
-| M033236 | P1399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FullySplitPrimesDensityOne` | volunteer-build-reviewed |
-| M033237 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FullySplitPrimesDensityOneStatement` | volunteer-build-reviewed |
-| M033241 | P0552 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FunctionFieldFiniteSupportSumOrderEqZero` | build-observed |

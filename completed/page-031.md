@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M029599 | P1477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymplecticHomOfUnitaryTransposeActionStatement` | build-observed |
+| M029601 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymplecticLevelAfterFiniteExtensionBaseStatement` | volunteer-build-reviewed |
+| M029607 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymplecticLevelGenericFibreGaloisExtensionStatement` | volunteer-build-reviewed |
+| M029614 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymplecticLieOfIndefiniteUnitaryLieRightAc` | volunteer-build-reviewed |
+| M029615 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymplecticLieOfIndefiniteUnitaryLieRightAcStatement` | build-observed |
+| M029616 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymplecticLieRightActionRealCoordinates` | build-observed |
+| M029617 | P1477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymplecticLieRightActionRealCoordinatesStatement` | build-observed |
 | M029632 | P1716 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsTangentRepresentationSmoothGroupScheme` | build-observed |
 | M029633 | P1740 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsTangentRepresentationSmoothGroupSchemeStatement` | build-observed |
 | M029642 | P1941 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsTangentVectorsFunctionsInvertibleDerivs` | volunteer-build-reviewed |
@@ -395,10 +402,3 @@
 | M030896 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreCharacterRankEqTorusRankStatement` | volunteer-build-reviewed |
 | M030898 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreConstOfSpecialisationInvariantStatement` | volunteer-build-reviewed |
 | M030901 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreCoordinatePartialDerivationComm` | build-observed |
-| M030902 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreCoordinatePartialDerivationCommStatement` | build-observed |
-| M030903 | P0105 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreCosineExplicitFormula` | volunteer-build-reviewed |
-| M030911 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreDenseAffineChartPrimes` | volunteer-build-reviewed |
-| M030912 | P0105 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreDenseAffineChartPrimesStatement` | volunteer-build-reviewed |
-| M030913 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreDensityNullOffCharts` | volunteer-build-reviewed |
-| M030919 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreFiniteCard` | volunteer-build-reviewed |
-| M030920 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreGoingDownTensor` | volunteer-build-reviewed |

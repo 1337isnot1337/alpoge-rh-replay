@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M037635 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlgebraicOfMemClosure` | volunteer-build-reviewed |
+| M037639 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlgebraicOfSubringIsAlgebraic` | volunteer-build-reviewed |
+| M037640 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlgebraicOfSubringIsAlgebraicStatement` | volunteer-build-reviewed |
+| M037643 | P1478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlmostLowerTriangularOfShearParabolic` | volunteer-build-reviewed |
+| M037649 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAmpleLineBundlePullbackOfTranslates` | volunteer-build-reviewed |
+| M037652 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAmplePullbackPowerDivOfLocallyAmpleStatement` | volunteer-build-reviewed |
+| M037656 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAmpleTensorNefAmpleFiniteFieldFibreStatement` | volunteer-build-reviewed |
 | M037657 | P1508 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAmpleTensorNefOfDimLeZero` | wave-reused |
 | M037658 | P1564 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAmpleTensorNefOfNonzeroSectionPowInduction` | wave-reused |
 | M037659 | P1590 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAmpleTensorNefOfNonzeroSectionPowInductionStatement` | wave-reused |
@@ -395,10 +402,3 @@
 | M038598 | P2538 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenFlagBundleCellAndCoordsRegular` | build-observed |
 | M038602 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenGraph` | volunteer-build-reviewed |
 | M038603 | P0977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenIdentityComponentsSmoothGroupScheme` | build-observed |
-| M038604 | P1005 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenIdentityComponentsSmoothGroupSchemeStatement` | build-observed |
-| M038613 | P2399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenImmersionOfMonoOfSmoothOfRelativeDimensionStatement` | volunteer-build-reviewed |
-| M038614 | P0813 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenImmersionSpecMapOfThickening` | build-observed |
-| M038615 | P0841 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenImmersionSpecMapOfThickeningStatement` | build-observed |
-| M038617 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenImmersionSpecOfQuasiFiniteOfNormalStatement` | volunteer-build-reviewed |
-| M038618 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenImmersionToGradedModelFlatBaseChange` | volunteer-build-reviewed |
-| M038620 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenImmersionToNormalization` | volunteer-build-reviewed |

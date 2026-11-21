@@ -2,6 +2,29 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M063043 | P0403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MdifferentiableOfHasSomeLevelOverStatement` | wave-reused |
+| M063044 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MdifferentiableQExpansionOfCoeffPolynomialGrowth` | wave-reused |
+| M063045 | P0621 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MdifferentiableQExpansionOfCoeffPolynomialGrowthStatement` | wave-reused |
+| M063046 | P1008 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MeanInfPosLogLe` | volunteer-build-reviewed |
+| M063051 | P1091 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MeanSquareEvenThetaConjugateLatticeStatement` | build-observed |
+| M063054 | P1174 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MeasurableCoshPow` | build-observed |
+| M063055 | P1198 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MeasurableCoshPowStatement` | build-observed |
+| M063058 | P1511 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MeasurePreservingConj` | volunteer-build-reviewed |
+| M063060 | P0026 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemAdjoinDivOfFixed` | volunteer-build-reviewed |
+| M063061 | P0118 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemAdjoinDivOfFixedStatement` | volunteer-build-reviewed |
+| M063070 | P0188 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemFiniteCocyclesIffBcrisTensorCoboundary` | volunteer-build-reviewed |
+| M063072 | P1008 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemISupInfWeightSubmoduleOfDiagonalStable` | build-observed |
+| M063073 | P1035 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemISupInfWeightSubmoduleOfDiagonalStableStatement` | build-observed |
+| M063079 | P1331 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemLpLiftL2DiscreteQuotientOnCompact` | build-observed |
+| M063081 | P1198 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemLpTwoOfCoshDecayUnitaryPQCover` | build-observed |
+| M063082 | P1225 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemLpTwoOfCoshDecayUnitaryPQCoverStatement` | build-observed |
+| M063083 | P0026 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemMaximalPowOfJetsVanish` | volunteer-build-reviewed |
+| M063085 | P0522 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemModularFunctionFractionFieldOfQExpansions` | wave-reused |
+| M063086 | P0554 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemModularFunctionFractionFieldOfQExpansionsStatement` | wave-reused |
+| M063087 | P0522 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemModularFunctionRingOverIffHasSomeLevelOver` | wave-reused |
+| M063088 | P0554 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemModularFunctionRingOverIffHasSomeLevelOverStatement` | wave-reused |
+| M063089 | P1944 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemModularUnitsOfRootMemKummerAdjoin` | build-observed |
+| M063091 | P0251 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemMonicSquarefreeUnitConstPolysIffMonicSquarefr` | wave-reused |
 | M063092 | P0305 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemMonicSquarefreeUnitConstPolysIffMonicSquarefrStatement` | wave-reused |
 | M063094 | P1149 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemOfIsometryEigenOfDenseISup` | build-observed |
 | M063099 | P0026 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemSpanEigenOfBaseChangeEigen` | volunteer-build-reviewed |
@@ -379,26 +402,3 @@
 | M063789 | P0305 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelTorusCardBoundsAndMulStatement` | wave-reused |
 | M063790 | P0522 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelTorusMassDivisorBound` | wave-reused |
 | M063791 | P0555 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelTorusMassDivisorBoundStatement` | wave-reused |
-| M063792 | P0522 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelTorusMassHasDivisorOfDegreeLe` | wave-reused |
-| M063793 | P0555 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelTorusMassHasDivisorOfDegreeLeStatement` | wave-reused |
-| M063794 | P0522 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelTorusMassNoLargePrimeFactorLe` | wave-reused |
-| M063795 | P0555 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelTorusMassNoLargePrimeFactorLeStatement` | wave-reused |
-| M063796 | P0621 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelTorusMassRootsNotDistinctLe` | wave-reused |
-| M063797 | P0653 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelTorusMassRootsNotDistinctLeStatement` | wave-reused |
-| M063798 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelTorusMassSamePartOneFactorLe` | wave-reused |
-| M063799 | P0587 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelTorusMassTwoFactorsLe` | wave-reused |
-| M063800 | P0251 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelTorusMassUnionBounds` | wave-reused |
-| M063801 | P0305 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SquarefreeLabelTorusMassUnionBoundsStatement` | wave-reused |
-| M063803 | P1403 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.StabiliserEqCentraliserCartan` | volunteer-build-reviewed |
-| M063807 | P0980 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.StandardWeylLatticesFockDual` | build-observed |
-| M063808 | P1008 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.StandardWeylLatticesFockDualStatement` | build-observed |
-| M063809 | P1150 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.StarMulOfMemKc` | build-observed |
-| M063810 | P0816 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.StdWeylLatticesFgAndSpanCoeffSpace` | build-observed |
-| M063811 | P0980 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.StdWeylLatticesFgAndSpanCoeffSpaceStatement` | build-observed |
-| M063815 | P0119 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.StripEvalPolynomialDecayMulImRpow` | volunteer-build-reviewed |
-| M063816 | P0189 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.StripEvalPolynomialDecayMulImRpowStatement` | volunteer-build-reviewed |
-| M063819 | P0736 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SturmSumOverCharactersEqZero` | wave-reused |
-| M063820 | P0763 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SturmSumOverCharactersEqZeroStatement` | wave-reused |
-| M063822 | P0872 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SubRkOfPsiOfEqRkOfCEmb` | volunteer-build-reviewed |
-| M063823 | P0305 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SubgroupCharacterIdempotentProperties` | wave-reused |
-| M063824 | P0358 | `Development.AbelianVarietyTheory.Proofs.FoundationProofs.SubgroupCharacterIdempotentPropertiesStatement` | wave-reused |

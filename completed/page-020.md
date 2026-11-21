@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M016341 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveBaseChangeResidueFieldOfFiniteEtale` | wave-reused |
+| M016343 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveIffIsUnitDet` | volunteer-build-reviewed |
+| M016348 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveLinearCombinationOfRankAtStalk` | volunteer-build-reviewed |
+| M016349 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveLinearCombinationOfRankAtStalkStatement` | volunteer-build-reviewed |
 | M016350 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveLocallyConstantComapAlgClosureTensorOfH` | build-observed |
 | M016351 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveLocallyConstantComapAlgClosureTensorOfHStatement` | build-observed |
 | M016352 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveMultiplicativeGroupSectionsUnits` | wave-reused |
@@ -398,7 +402,3 @@
 | M017714 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChiDeltaUConjLongSimpleReflectionUnitary` | volunteer-build-reviewed |
 | M017718 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChiGridVertexRankAddLtTwoExponentAddCentre` | volunteer-build-reviewed |
 | M017719 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChiGridVertexRankAddLtTwoExponentAddCentreStatement` | volunteer-build-reviewed |
-| M017724 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChooseAddLePowMulChooseAdd` | volunteer-build-reviewed |
-| M017729 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChooseMulOneSubLeChoose` | volunteer-build-reviewed |
-| M017730 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafBasicProperti` | wave-reused |
-| M017731 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafBasicPropertiStatement` | wave-reused |

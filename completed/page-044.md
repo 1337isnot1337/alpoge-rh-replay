@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M044499 | P0708 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormGramDetEqIndexStatement` | build-observed |
+| M044504 | P0301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormHeckeTermDecayFourierIntegralLe` | volunteer-build-reviewed |
+| M044505 | P0352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormHeckeTermDecayFourierIntegralLeStatement` | volunteer-build-reviewed |
+| M044508 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIdeal` | volunteer-build-reviewed |
+| M044509 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormInvLePowCardOfNormProdEqOne` | volunteer-build-reviewed |
+| M044510 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormInvLePowCardOfNormProdEqOneStatement` | volunteer-build-reviewed |
+| M044511 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIrreducibleCharacterUnitaryMaxCompactEqOne` | volunteer-build-reviewed |
+| M044512 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIteratedFDerivCexpPhaseLe` | volunteer-build-reviewed |
+| M044513 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIteratedFDerivCexpPhaseLeStatement` | volunteer-build-reviewed |
+| M044514 | P0247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIteratedFDerivHeckeFourierFactorLe` | volunteer-build-reviewed |
 | M044515 | P0301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIteratedFDerivHeckeFourierFactorLeStatement` | volunteer-build-reviewed |
 | M044516 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIteratedFDerivIteratedFDeriv` | volunteer-build-reviewed |
 | M044517 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIteratedFDerivIteratedFDerivStatement` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M045658 | P0247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodTorusFlatCoordsInverse` | volunteer-build-reviewed |
 | M045659 | P0301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodTorusFlatCoordsInverseStatement` | build-observed |
 | M045660 | P2372 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodTransportGaloisConjugate` | build-observed |
-| M045662 | P0399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodVectorMoebiusTransform` | volunteer-build-reviewed |
-| M045663 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodVectorMoebiusTransformStatement` | build-observed |
-| M045668 | P0399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicCocycleTranslationCoboundary` | build-observed |
-| M045669 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicCocycleTranslationCoboundaryStatement` | build-observed |
-| M045670 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicCompactSupportFiniteSum` | volunteer-build-reviewed |
-| M045671 | P1819 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicCompactSupportFiniteSumStatement` | volunteer-build-reviewed |
-| M045672 | P0019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicContinuousIntegrableDomain` | volunteer-build-reviewed |
-| M045673 | P0112 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicContinuousIntegrableDomainStatement` | volunteer-build-reviewed |
-| M045674 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicHolomorphicFourierExpansion` | build-observed |
-| M045675 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicHolomorphicFourierExpansionStatement` | build-observed |

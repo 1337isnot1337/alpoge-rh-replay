@@ -1,0 +1,42 @@
+{
+  "tasks": [
+    "M136988"
+  ],
+  "started_utc": "2026-11-21T16:28:30.222677+00:00",
+  "ended_utc": "2026-11-21T16:29:37.953322+00:00",
+  "elapsed_seconds": 67.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5682672
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.AbelianHeightsDuality.ZarhinTrick.QiCore:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "16942cc4d6996bfdc4c82c0813c003e5b581fc7737056bb0e8f6ff6f1443143a",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.CoreStatements.AbelianHeightsDuality.ZarhinTrick.CompLmulMapId",
+    "Development.WeilBound.CoreStatements.AbelianHeightsDuality.ZarhinTrick.QiCartier",
+    "Development.WeilBound.CoreStatements.AbelianHeightsDuality.ZarhinTrick.QiCharP",
+    "Development.WeilBound.CoreStatements.AbelianHeightsDuality.ZarhinTrick.QiCoreDefs",
+    "Development.WeilBound.CoreStatements.AbelianHeightsDuality.ZarhinTrick.QiIdem",
+    "Development.WeilBound.CoreStatements.AbelianHeightsDuality.ZarhinTrick.QiStab",
+    "PositivityTheory.PublishedTheorems.WeilRepresentations.ZariskiDensity.QiCoreDefs"
+  ],
+  "objects": {
+    "M136988": "42782442f804ed0bfa6dfc7cefa60e2649115bdc76780853b897cbcaf1680c4f"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "316556d8017527f8a479ddc4964ecd90fda3a9bced842c9044d80d298adff9f6",
+  "packet": "M136988",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23502#issuecomment-7065712860",
+  "reviewed_utc": "2026-11-21T16:46:11.560952+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

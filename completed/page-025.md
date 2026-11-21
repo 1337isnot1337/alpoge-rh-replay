@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M022613 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfNilpotentCommuteSeparableMinpolyStatement` | volunteer-build-reviewed |
+| M022615 | P1087 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfOddEllipticOfTendsto` | build-observed |
+| M022616 | P1117 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfOddEllipticOfTendstoStatement` | build-observed |
+| M022618 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfOrthogonalTranslates` | volunteer-build-reviewed |
 | M022619 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfOrthogonalTranslatesProj` | volunteer-build-reviewed |
 | M022621 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfPlaneDerivativeVanishing` | volunteer-build-reviewed |
 | M022622 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfPlaneDerivativeVanishingStatement` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M023411 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineNhdsAvoidingImagesOfSpecializationsStatement` | volunteer-build-reviewed |
 | M023414 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineNonzeroLocusFlatLocalBaseChange` | volunteer-build-reviewed |
 | M023433 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineRingHomPairOfSpecializes` | volunteer-build-reviewed |
-| M023434 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineRingHomPairOfSpecializesStatement` | volunteer-build-reviewed |
-| M023439 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAinfFrameLiftTwistedFrobenius` | build-observed |
-| M023440 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAinfFrameLiftTwistedFrobeniusStatement` | build-observed |
-| M023443 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAinfSolutionOfApproxModPhiXiMu` | build-observed |

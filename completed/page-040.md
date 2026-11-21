@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M039661 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KaehlerWedgeFormMapEqSmulOfBasis` | volunteer-build-reviewed |
+| M039663 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KahlerFormsOverSubalgebraClosureProperties` | build-observed |
+| M039664 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KahlerFormsOverSubalgebraClosurePropertiesStatement` | build-observed |
+| M039669 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KahlerFormsOverSubalgebraStandardOpenIffPowSmul` | build-observed |
+| M039670 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KahlerFormsOverSubalgebraStandardOpenIffPowSmulStatement` | build-observed |
+| M039671 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KapOrbUnitEqOne` | volunteer-build-reviewed |
+| M039673 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KappaApplyEq` | volunteer-build-reviewed |
+| M039678 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KappaFormulaHookSchur` | volunteer-build-reviewed |
 | M039682 | P1088 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KappaIndependentOfEmbedding` | build-observed |
 | M039683 | P1118 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KappaIndependentOfEmbeddingStatement` | build-observed |
 | M039685 | P1840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.KappaOrbitalIntegralCongruenceInertLatticeCount` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M040845 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviEmbeddingMultiplicativeStatement` | volunteer-build-reviewed |
 | M040850 | P1840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormCutoffLogWeightLowerBound` | volunteer-build-reviewed |
 | M040851 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormCutoffLogWeightLowerBoundStatement` | volunteer-build-reviewed |
-| M040852 | P2598 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormGradedLengthSubLogUnitNormSq` | build-observed |
-| M040855 | P1376 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormLogNormPositive` | build-observed |
-| M040856 | P1400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormLogNormPositiveStatement` | build-observed |
-| M040857 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormLogPotentialFormula` | volunteer-build-reviewed |
-| M040858 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormLogPotentialFormulaStatement` | volunteer-build-reviewed |
-| M040861 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormTwistedWeightLowerBound` | wave-reused |
-| M040862 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormTwistedWeightLowerBoundStatement` | wave-reused |
-| M040865 | P1840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormsTransportToOrthonormalChartOrigin` | volunteer-build-reviewed |

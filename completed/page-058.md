@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M059893 | P1541 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ReproducingFormulaDiscreteSeriesTestGrowth` | build-observed |
+| M059894 | P1567 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ReproducingFormulaDiscreteSeriesTestGrowthStatement` | build-observed |
+| M059896 | P1403 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ReproducingFormulaFixedVectorModerateGrowthStatement` | volunteer-build-reviewed |
+| M059898 | P1983 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ResidueCmFieldFiniteAdeleTensorEquivEqNatCast` | volunteer-build-reviewed |
+| M059899 | P2002 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ResidueCmFieldFiniteAdeleTensorEquivEqNatCastStatement` | volunteer-build-reviewed |
+| M059900 | P0735 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RhoNNormLeAndCasimirArith` | build-observed |
+| M059901 | P1403 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RhsWLimOfLeaves` | volunteer-build-reviewed |
+| M059904 | P1090 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RiemannianHaarGaugeTransportBlockModel` | build-observed |
+| M059905 | P1120 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RiemannianHaarGaugeTransportBlockModelStatement` | build-observed |
+| M059906 | P1279 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RiemannianHaarGaugeVolumeUnitaryGroupEq` | volunteer-build-reviewed |
+| M059907 | P1305 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RiemannianHaarGaugeVolumeUnitaryGroupEqStatement` | volunteer-build-reviewed |
+| M059908 | P1174 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RiemannianHaarGaugeWholeGroup` | build-observed |
+| M059909 | P1198 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RiemannianHaarGaugeWholeGroupStatement` | build-observed |
+| M059910 | P1305 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RightConvUniqueAddSmulMulComm` | volunteer-build-reviewed |
 | M059911 | P1355 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RightConvolutionOperatorAeEqIntegralAdelic` | build-observed |
 | M059915 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RightInvariantEqSmulLeftInvariantProbability` | volunteer-build-reviewed |
 | M059916 | P1252 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.RightInvariantEqSmulLeftInvariantProbabilityStatement` | volunteer-build-reviewed |
@@ -106,6 +120,7 @@
 | M060136 | P0788 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SqrtNsqLeOfAbsLe` | build-observed |
 | M060137 | P1149 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SquareIntegrableIffExtension` | volunteer-build-reviewed |
 | M060138 | P1174 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.SquareIntegrableIffExtensionStatement` | build-observed |
+| M060140 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StMatSpec` | volunteer-build-reviewed |
 | M060142 | P1983 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StabiliserCovolumeLeRootCoordinateCover` | volunteer-build-reviewed |
 | M060143 | P2002 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StabiliserCovolumeLeRootCoordinateCoverStatement` | volunteer-build-reviewed |
 | M060144 | P2021 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StabiliserCovolumeRelevantTermLeHeightPow` | volunteer-build-reviewed |
@@ -125,6 +140,7 @@
 | M060168 | P1355 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StandardBaseFlagComplementIntegralLatticeStatement` | build-observed |
 | M060174 | P1279 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StandardLatticeDualVectorsChangeUnipotentStatement` | volunteer-build-reviewed |
 | M060177 | P0025 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StarProjectionInfOrthogonalEqOfMemOrthogonal` | volunteer-build-reviewed |
+| M060178 | P0953 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StdLatIsOrthoLatticeAndMassProperties` | volunteer-build-reviewed |
 | M060181 | P2002 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StepChoiceConstantsCOfSiegelWeilAtInfinity` | volunteer-build-reviewed |
 | M060182 | P0788 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StepLevelTLat` | build-observed |
 | M060189 | P1403 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.StrictFundamentalSetIntegralStabilizerExistsStatement` | volunteer-build-reviewed |
@@ -236,6 +252,7 @@
 | M060402 | P0025 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TsumInvStabilizerEqTsumMulFiber` | volunteer-build-reviewed |
 | M060403 | P0116 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TsumInvStabilizerEqTsumMulFiberStatement` | volunteer-build-reviewed |
 | M060404 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TsumOrbitNormaliser` | wave-reused |
+| M060405 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TsumPiProdEnnreal` | volunteer-build-reviewed |
 | M060407 | P1770 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TsumRationalClassesEqProdLocalSumsStatement` | volunteer-build-reviewed |
 | M060408 | P0025 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TsumTransversalEqTsumOrbitQuotientGeneral` | wave-reused |
 | M060409 | P0402 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.TupleJacobianRightMulIsometry` | wave-reused |
@@ -289,6 +306,7 @@
 | M060529 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.UnitarySubgroupChartAlmostIsometricNearOneStatement` | volunteer-build-reviewed |
 | M060530 | P1198 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.UnitarySubgroupChartSurjectiveNearOrigin` | build-observed |
 | M060531 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.UnitarySubgroupChartSurjectiveNearOriginStatement` | volunteer-build-reviewed |
+| M060532 | P1149 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.UnitaryToSpecialUnitaryLocal` | volunteer-build-reviewed |
 | M060534 | P1034 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.UnitaryTubeProductChartHasStrictFDerivAtEntry` | build-observed |
 | M060535 | P1062 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.UnitaryTubeProductChartHasStrictFDerivAtEntryStatement` | build-observed |
 | M060540 | P1983 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.UnitriangularChangeRationalFlagIffRationalUnipotStatement` | volunteer-build-reviewed |
@@ -384,21 +402,3 @@
 | M060688 | P1983 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsIntegralChartIntegralFramedPointStatement` | volunteer-build-reviewed |
 | M060689 | P1842 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsIsNabUncond` | volunteer-build-reviewed |
 | M060690 | P0788 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsIsUnivChartOfIsLieBasis` | wave-reused |
-| M060691 | P1427 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsIsoIntegralModelsMatchingLieBases` | build-observed |
-| M060692 | P1452 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsIsoIntegralModelsMatchingLieBasesStatement` | build-observed |
-| M060693 | P0735 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsJetChartCoordinatesNilpotent` | wave-reused |
-| M060694 | P0762 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsJetChartCoordinatesNilpotentStatement` | wave-reused |
-| M060695 | P0653 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsJetPointsOfIsLieBasis` | wave-reused |
-| M060696 | P2040 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsNonzeroOfGenerator` | volunteer-build-reviewed |
-| M060697 | P0025 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsPolynomialSubMem` | wave-reused |
-| M060698 | P0980 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsPushFr` | build-observed |
-| M060699 | P1007 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsPushFrStatement` | build-observed |
-| M060700 | P0844 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsToJetEq` | wave-reused |
-| M060701 | P0844 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.ExistsUniqueNormPrim` | wave-reused |
-| M060704 | P1090 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FamSyPush` | build-observed |
-| M060705 | P1120 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FamSyPushStatement` | build-observed |
-| M060708 | P0653 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FirstJetEqProdTangent` | wave-reused |
-| M060709 | P0925 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FirstPartialLawPushAlongTripleMap` | build-observed |
-| M060710 | P0953 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FirstPartialLawPushAlongTripleMapStatement` | build-observed |
-| M060711 | P0025 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FlatMvPowerSeries` | volunteer-build-reviewed |
-| M060712 | P0116 | `Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.FlatMvPowerSeriesOfIsNoetherianRing` | volunteer-build-reviewed |

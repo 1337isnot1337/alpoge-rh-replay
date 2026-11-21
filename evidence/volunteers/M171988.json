@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M171988"
+  ],
+  "started_utc": "2026-11-21T16:27:37.072568+00:00",
+  "ended_utc": "2026-11-21T16:28:13.730467+00:00",
+  "elapsed_seconds": 36.7,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 6860108
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.GroupCohomology.Shapiro:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c617e62045e8d8f71d1d6ffd41a45edc1c63a3d5f12983e694f1a633e69fb1f3",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.GroupCohomology.HomogExistsStatement",
+    "ReciprocityTheory.GroupCohomology.HomogIso",
+    "ReciprocityTheory.GroupCohomology.PrismOpZeroEval"
+  ],
+  "objects": {
+    "M171988": "24d735553f9fc1bde73985fa62b75f9c3020b3b9a7ba618daaa69cd21c88d645"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "0871c0f12a70c0003ddebda8e99619f4d08b32db033b771ed6e66469c610feef",
+  "packet": "M171988",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23570#issuecomment-7065672613",
+  "reviewed_utc": "2026-11-21T16:45:22.533965+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

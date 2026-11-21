@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013716 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemMaximalIdeal` | volunteer-build-reviewed |
+| M013717 | P0617 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemPadicAlgClValuationSubringIffNormLeOne` | wave-reused |
+| M013718 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemRangeAppLEChartIff` | volunteer-build-reviewed |
+| M013719 | P1836 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemRangeIffOfFinite` | build-observed |
 | M013721 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemSpanRowsIffCoordsMem` | volunteer-build-reviewed |
 | M013722 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemSpanRowsOfForallValuationRing` | volunteer-build-reviewed |
 | M013723 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemSupIIffAndHHEqKer` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M014868 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicCompletionComapRationalMatrix` | volunteer-build-reviewed |
 | M014876 | P1474 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicCuspFormTransvectionConstantTermsZero` | volunteer-build-reviewed |
 | M014881 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicFixatorEqUnipotentRadicalMulCommonFixator` | volunteer-build-reviewed |
-| M014883 | P1373 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicFormsFiniteStabilisers` | volunteer-build-reviewed |
-| M014886 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicFourierMemSchwartzTotallyRealStatement` | volunteer-build-reviewed |
-| M014889 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicFunctionalVanishing` | volunteer-build-reviewed |
-| M014899 | P1396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicHaarMeasureScaling` | build-observed |

@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M048960 | P1795 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzBruhatSumSplitTensorStatement` | volunteer-build-reviewed |
+| M048961 | P1769 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzBruhatSupportBoundedDenominators` | volunteer-build-reviewed |
+| M048964 | P0248 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzCharacterSeminormBound` | volunteer-build-reviewed |
+| M048965 | P0302 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzCharacterSeminormBoundStatement` | volunteer-build-reviewed |
+| M048966 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzClosureStableLinearFormFourier` | volunteer-build-reviewed |
+| M048967 | P0113 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzClosureStableLinearFormFourierStatement` | volunteer-build-reviewed |
+| M048968 | P0185 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzCompactSupportDense` | volunteer-build-reviewed |
+| M048969 | P0248 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzCompactSupportDenseStatement` | volunteer-build-reviewed |
+| M048972 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzContinuousAtOfPointwiseOfBounded` | volunteer-build-reviewed |
+| M048973 | P0113 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzContinuousAtOfPointwiseOfBoundedStatement` | volunteer-build-reviewed |
 | M048974 | P0021 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzContinuousOfSeminormBounds` | volunteer-build-reviewed |
 | M048975 | P0113 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzContinuousOfSeminormBoundsStatement` | volunteer-build-reviewed |
 | M048976 | P1742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzCoordinatesInInfiniteFamily` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M050112 | P1795 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SizeMatrixRelativeModulus` | volunteer-build-reviewed |
 | M050113 | P1819 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SizeMatrixRelativeModulusStatement` | volunteer-build-reviewed |
 | M050119 | P2070 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewAdaptedPairEigenUnique` | volunteer-build-reviewed |
-| M050120 | P2084 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewAdaptedPairEigenUniqueStatement` | volunteer-build-reviewed |
-| M050121 | P2020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewAdaptedPairExtensionEigen` | volunteer-build-reviewed |
-| M050122 | P2038 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewAdaptedPairExtensionEigenStatement` | volunteer-build-reviewed |
-| M050123 | P2084 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewAdaptedPairIntegral` | volunteer-build-reviewed |
-| M050124 | P2097 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewAdaptedPairIntegralStatement` | volunteer-build-reviewed |
-| M050129 | P1819 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewAdaptedPairRestrictionTheta` | volunteer-build-reviewed |
-| M050131 | P1769 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewAdaptedPairSeesaw` | volunteer-build-reviewed |
-| M050132 | P1795 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewAdaptedPairSeesawStatement` | volunteer-build-reviewed |
-| M050137 | P1769 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewAdaptedPairVanishing` | volunteer-build-reviewed |
-| M050138 | P1795 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.SkewAdaptedPairVanishingStatement` | volunteer-build-reviewed |

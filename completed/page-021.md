@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M017724 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChooseAddLePowMulChooseAdd` | volunteer-build-reviewed |
+| M017729 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChooseMulOneSubLeChoose` | volunteer-build-reviewed |
+| M017730 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafBasicProperti` | wave-reused |
+| M017731 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafBasicPropertiStatement` | wave-reused |
 | M017732 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafProperties` | wave-reused |
 | M017733 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafPropertiesStatement` | wave-reused |
 | M017734 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafSectionsExact` | wave-reused |
@@ -398,7 +402,3 @@
 | M018965 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAThetaIntegralUnfoldStatement` | volunteer-build-reviewed |
 | M018966 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAThetaLiftCompatible` | volunteer-build-reviewed |
 | M018976 | P2188 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAThetaUnramified` | volunteer-build-reviewed |
-| M018977 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAThetaUnramifiedStatement` | volunteer-build-reviewed |
-| M018979 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAThetaVanishingStatement` | volunteer-build-reviewed |
-| M018985 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigATripleMatchedCompareStatement` | volunteer-build-reviewed |
-| M018986 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigATripleMatchedEqual` | volunteer-build-reviewed |

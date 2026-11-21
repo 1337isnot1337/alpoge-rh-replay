@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M036539 | P2054 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndexIdealRankOneTensorImageEqMapStatement` | volunteer-build-reviewed |
+| M036541 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndexStandardInfSkewThetaLatticeEqAbsNormPowStatement` | volunteer-build-reviewed |
+| M036543 | P1793 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndicatorCosetScaledIntegralEqRestrictedProductStatement` | volunteer-build-reviewed |
+| M036544 | P1448 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndicatorIntMMemSB` | build-observed |
+| M036547 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndicatorSmallCosetHalfIsSchwartzBruhat` | volunteer-build-reviewed |
+| M036548 | P1999 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IndicatorSmallCosetHalfIsSchwartzBruhatStatement` | volunteer-build-reviewed |
+| M036549 | P1999 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InducedCharIntertwiningUnif` | volunteer-build-reviewed |
 | M036550 | P2018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InducedCharIntertwiningUnifStatement` | volunteer-build-reviewed |
 | M036553 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InducedDetTwistPairCharacterStatement` | volunteer-build-reviewed |
 | M036556 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InducedLatticeMapExists` | volunteer-build-reviewed |
@@ -395,10 +402,3 @@
 | M037629 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlgebraicInt` | volunteer-build-reviewed |
 | M037630 | P2399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlgebraicKb` | volunteer-build-reviewed |
 | M037633 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlgebraicOfFiniteTypeOfComapEqBot` | volunteer-build-reviewed |
-| M037635 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlgebraicOfMemClosure` | volunteer-build-reviewed |
-| M037639 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlgebraicOfSubringIsAlgebraic` | volunteer-build-reviewed |
-| M037640 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlgebraicOfSubringIsAlgebraicStatement` | volunteer-build-reviewed |
-| M037643 | P1478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlmostLowerTriangularOfShearParabolic` | volunteer-build-reviewed |
-| M037649 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAmpleLineBundlePullbackOfTranslates` | volunteer-build-reviewed |
-| M037652 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAmplePullbackPowerDivOfLocallyAmpleStatement` | volunteer-build-reviewed |
-| M037656 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAmpleTensorNefAmpleFiniteFieldFibreStatement` | volunteer-build-reviewed |

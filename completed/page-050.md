@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M051193 | P2124 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardPairFirstConjEqSumCosetIndicators` | volunteer-build-reviewed |
+| M051194 | P2136 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardPairFirstConjEqSumCosetIndicatorsStatement` | volunteer-build-reviewed |
+| M051197 | P2020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardPairFirstMemberHalfIsometryMoved` | volunteer-build-reviewed |
+| M051198 | P2084 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardPairFirstMemberIntegralFrameEq` | volunteer-build-reviewed |
+| M051199 | P2097 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardPairFirstMemberIntegralFrameEqStatement` | volunteer-build-reviewed |
+| M051201 | P2070 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardPairFirstMemberMovedDatumSplittingScaleStatement` | volunteer-build-reviewed |
+| M051202 | P2112 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardPairFrameBlocksDetAndNegTranspose` | volunteer-build-reviewed |
+| M051203 | P2112 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardPairLocalZetaMatchNeZero` | volunteer-build-reviewed |
+| M051204 | P2124 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardPairLocalZetaMatchNeZeroStatement` | volunteer-build-reviewed |
+| M051207 | P2112 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardPairMembersMemSchwartzBruhat` | volunteer-build-reviewed |
 | M051208 | P2124 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardPairMembersMemSchwartzBruhatStatement` | volunteer-build-reviewed |
 | M051209 | P1982 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardPairSecondEqMovedBottomDatum` | volunteer-build-reviewed |
 | M051210 | P2001 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.StandardPairSecondEqMovedBottomDatumStatement` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M052392 | P0923 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorModOfTmul` | volunteer-build-reviewed |
 | M052393 | P0869 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorNormLeIffTensorNormBound` | build-observed |
 | M052396 | P1451 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorPlaceActionInjectiveStatement` | volunteer-build-reviewed |
-| M052397 | P0022 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorPointsSeparate` | volunteer-build-reviewed |
-| M052398 | P0115 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorPointsSeparateStatement` | volunteer-build-reviewed |
-| M052406 | P0185 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorPowerFirstFactorAdjoinFinsetFgOverFirstStatement` | volunteer-build-reviewed |
-| M052407 | P0115 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorPowerFirstFactorAdjoinFinsetIsIntegral` | volunteer-build-reviewed |
-| M052412 | P1742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorProductSchwartzAdelic` | volunteer-build-reviewed |
-| M052413 | P1769 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorProductSchwartzAdelicStatement` | volunteer-build-reviewed |
-| M052420 | P0022 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorQuotientOntoAndInjectiveModIdealPow` | volunteer-build-reviewed |
-| M052421 | P0115 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorQuotientOntoAndInjectiveModIdealPowStatement` | volunteer-build-reviewed |
-| M052425 | P0115 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorRatAlgebraDecompFactorwiseStatement` | volunteer-build-reviewed |
-| M052430 | P0895 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorSquarePerfectProjection` | build-observed |

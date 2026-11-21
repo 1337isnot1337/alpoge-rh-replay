@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M008726"
+  ],
+  "started_utc": "2026-11-21T16:27:29.801404+00:00",
+  "ended_utc": "2026-11-21T16:27:44.305068+00:00",
+  "elapsed_seconds": 14.5,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6871460
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNEmbXInvMulMemKOneStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8d8d02b2ef3e9f59d065a345d32887e545e4f5edf28cd370f42fe4d614731489",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNEmbXInvMulMemKOne",
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UpZeroMemLev"
+  ],
+  "objects": {
+    "M008726": "a134379d45865574f0cbfa0ce6a6e32329eb386cd31d3a03efddcdef9d6918f6"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "5d286b98555fca87ee75378c0e4b78a189d6df51142f8805fada4974de2b9cee",
+  "packet": "M008726",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23556#issuecomment-7065665706",
+  "reviewed_utc": "2026-11-21T16:45:38.722614+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

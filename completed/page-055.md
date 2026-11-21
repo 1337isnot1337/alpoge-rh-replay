@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M057753 | P0896 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsRationalFlagBlockFixingLattice` | build-observed |
+| M057754 | P0923 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsRationalFlagBlockFixingLatticeStatement` | build-observed |
+| M057755 | P2002 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsRationalFramesPrescribedLocalClasses` | volunteer-build-reviewed |
+| M057756 | P2021 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsRationalFramesPrescribedLocalClassesStatement` | volunteer-build-reviewed |
+| M057757 | P0024 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsRealSubmoduleBlockFinrankLe` | volunteer-build-reviewed |
+| M057758 | P1983 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsRectangularConjInstanceMatrixStandardPsi` | volunteer-build-reviewed |
+| M057759 | P2002 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsRectangularConjInstanceMatrixStandardPsiStatement` | volunteer-build-reviewed |
+| M057760 | P0979 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsReductionActionChosenPlaces` | build-observed |
+| M057762 | P0896 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsRetractionOfProjective` | build-observed |
+| M057763 | P1173 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsRiemannianHaarUnitaryJSubgroupOfAlgebra` | build-observed |
+| M057773 | P0869 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsScalarStableLatticeAutomorphismFundamental` | build-observed |
 | M057774 | P0896 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsScalarStableLatticeAutomorphismFundamentalStatement` | build-observed |
 | M057775 | P1402 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsScaleNormalisedLocalReading` | volunteer-build-reviewed |
 | M057777 | P0896 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsSelfDualFlagOfSaturatedIsotropicFlag` | build-observed |
@@ -391,14 +402,3 @@
 | M058498 | P0401 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianStabiliserRationalUnitriangularPairs` | wave-reused |
 | M058499 | P0444 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianStabiliserRationalUnitriangularPairsStatement` | wave-reused |
 | M058502 | P0620 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianTermCountFrameClassLe` | wave-reused |
-| M058503 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianTermCountFrameClassLeStatement` | wave-reused |
-| M058504 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianTermSplitsUnimodularComplement` | wave-reused |
-| M058505 | P0521 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianTermSplitsUnimodularComplementStatement` | wave-reused |
-| M058511 | P0683 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianUnipotentGeneratorMapCompNeg` | build-observed |
-| M058512 | P0709 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianUnipotentGeneratorMapCompNegStatement` | build-observed |
-| M058513 | P0683 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianUnipotentGeneratorMapIsometry` | build-observed |
-| M058514 | P0709 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianUnipotentGeneratorMapIsometryStatement` | build-observed |
-| M058523 | P0896 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HilbertSchmidtEqReTrace` | build-observed |
-| M058524 | P0762 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HilbertSchmidtInUJLeOfSignColumns` | build-observed |
-| M058525 | P0787 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HilbertSchmidtInUJLeOfSignColumnsStatement` | build-observed |
-| M058526 | P0709 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HilbertSchmidtLowerBoundInverseDifferent` | build-observed |

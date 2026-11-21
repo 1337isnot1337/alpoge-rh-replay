@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M020188 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveClassDegreeComputations` | build-observed |
+| M020189 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveClassDegreeComputationsStatement` | build-observed |
+| M020190 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveClosedPointIsCentreOfPlace` | volunteer-build-reviewed |
+| M020194 | P1859 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveDegreeNonnegZmodFibreOfNefOnFiniteFieldFibr` | build-observed |
 | M020195 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveDegreeNonnegZmodFibreOfNefOnFiniteFieldFibrStatement` | volunteer-build-reviewed |
 | M020196 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveDegreeUnique` | wave-reused |
 | M020197 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveLieLatticeDegree` | wave-reused |
@@ -398,7 +402,3 @@
 | M021286 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DictionaryCharEqOneOnPrincipalLevel` | volunteer-build-reviewed |
 | M021292 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DictionaryDepthPairStandard` | volunteer-build-reviewed |
 | M021293 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DictionaryDepthPairStandardStatement` | volunteer-build-reviewed |
-| M021312 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiffCoeffsInIdealSubstOfConstantCoeffZero` | wave-reused |
-| M021313 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiffCoeffsInIdealSubstOfConstantCoeffZeroStatement` | wave-reused |
-| M021314 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiffCoeffsInIdealTopFormalLogConstOne` | build-observed |
-| M021315 | P1171 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiffCoeffsInIdealTopFormalLogConstOneStatement` | build-observed |

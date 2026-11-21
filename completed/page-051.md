@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M052397 | P0022 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorPointsSeparate` | volunteer-build-reviewed |
+| M052398 | P0115 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorPointsSeparateStatement` | volunteer-build-reviewed |
+| M052406 | P0185 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorPowerFirstFactorAdjoinFinsetFgOverFirstStatement` | volunteer-build-reviewed |
+| M052407 | P0115 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorPowerFirstFactorAdjoinFinsetIsIntegral` | volunteer-build-reviewed |
+| M052412 | P1742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorProductSchwartzAdelic` | volunteer-build-reviewed |
+| M052413 | P1769 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorProductSchwartzAdelicStatement` | volunteer-build-reviewed |
+| M052420 | P0022 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorQuotientOntoAndInjectiveModIdealPow` | volunteer-build-reviewed |
+| M052421 | P0115 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorQuotientOntoAndInjectiveModIdealPowStatement` | volunteer-build-reviewed |
+| M052425 | P0115 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorRatAlgebraDecompFactorwiseStatement` | volunteer-build-reviewed |
+| M052430 | P0895 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorSquarePerfectProjection` | build-observed |
 | M052431 | P0923 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorSquarePerfectProjectionStatement` | build-observed |
 | M052448 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorialFormPullbackSplit` | volunteer-build-reviewed |
 | M052449 | P0443 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorialFormPullbackSplitStatement` | build-observed |
@@ -392,13 +402,3 @@
 | M054097 | P0249 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationInvariantFunctionalLinearZeroStatement` | volunteer-build-reviewed |
 | M054098 | P1796 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationInvariantFunctionalRestrict` | volunteer-build-reviewed |
 | M054101 | P1863 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationInvariantFunctionalSchwartzStatement` | volunteer-build-reviewed |
-| M054102 | P1863 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationInvariantSchwartzUnique` | volunteer-build-reviewed |
-| M054104 | P0023 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationIsometrySchwartzOperator` | volunteer-build-reviewed |
-| M054105 | P0115 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationIsometrySchwartzOperatorStatement` | volunteer-build-reviewed |
-| M054108 | P0249 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationPreservesFlatForm` | volunteer-build-reviewed |
-| M054109 | P0302 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationPreservesFlatFormStatement` | build-observed |
-| M054113 | P2039 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TransportDenom` | volunteer-build-reviewed |
-| M054115 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TransportModularFamilyGL2ZModWeierstrassStatement` | build-observed |
-| M054137 | P2124 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TransportedWeilDatumCMPreservesSchwartzHeisenber` | volunteer-build-reviewed |
-| M054139 | P2124 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TransportedWeilDatumDoubledTargetRestrictBoxTens` | volunteer-build-reviewed |
-| M054141 | P2097 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TransportedWeilDatumIsUnitaryAdelicSchwartz` | volunteer-build-reviewed |

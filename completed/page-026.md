@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M023434 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineRingHomPairOfSpecializesStatement` | volunteer-build-reviewed |
+| M023439 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAinfFrameLiftTwistedFrobenius` | build-observed |
+| M023440 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAinfFrameLiftTwistedFrobeniusStatement` | build-observed |
+| M023443 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAinfSolutionOfApproxModPhiXiMu` | build-observed |
 | M023444 | P1003 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAinfSolutionOfApproxModPhiXiMuStatement` | build-observed |
 | M023445 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAlexanderWhitneyDiagonalSwapHomotopy` | build-observed |
 | M023446 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAlexanderWhitneyDiagonalSwapHomotopyStatement` | build-observed |
@@ -398,7 +402,3 @@
 | M024774 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDividedPowerEvalTwoVarsRingHom` | wave-reused |
 | M024775 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDividedPowerEvalTwoVarsRingHomStatement` | volunteer-build-reviewed |
 | M024781 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDividedPowersPrimeStatement` | build-observed |
-| M024793 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDivisorsDoubleFlagSpace` | volunteer-build-reviewed |
-| M024795 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDixmierMalliavinDecompProdExp` | build-observed |
-| M024796 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDixmierMalliavinDecompProdExpStatement` | build-observed |
-| M024799 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDomainLiftPolarizedVarietyStatement` | volunteer-build-reviewed |

@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M042042 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalStabilizerPreservesAdelicLattice` | volunteer-build-reviewed |
+| M042043 | P1840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalStabilizerPreservesAdelicLatticeStatement` | volunteer-build-reviewed |
+| M042048 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalTestFactorNeZeroOfGlobalProductNeZero` | volunteer-build-reviewed |
+| M042049 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalTestFactorNeZeroOfGlobalProductNeZeroStatement` | volunteer-build-reviewed |
+| M042050 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalThetaGoodPlaceLattice` | volunteer-build-reviewed |
+| M042051 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalThetaGoodPlaceLatticeStatement` | volunteer-build-reviewed |
+| M042052 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalThetaIntegralAtInertPlace` | volunteer-build-reviewed |
+| M042053 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalThetaIntegralAtInertPlaceStatement` | volunteer-build-reviewed |
+| M042064 | P1840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalUnipotentEmbeddingAction` | volunteer-build-reviewed |
 | M042065 | P1862 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalUnipotentEmbeddingActionStatement` | volunteer-build-reviewed |
 | M042066 | P2136 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalUnipotentEmbeddingsExist` | volunteer-build-reviewed |
 | M042070 | P2111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalUnitIffOrderZero` | volunteer-build-reviewed |
@@ -228,6 +237,7 @@
 | M042829 | P2136 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedTripleUnramifiedTestVectorStatement` | volunteer-build-reviewed |
 | M042839 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatrixAdelicDecompositionAtFinitePlace` | volunteer-build-reviewed |
 | M042840 | P2038 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatrixAdelicDecompositionAtFinitePlaceStatement` | volunteer-build-reviewed |
+| M042843 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatrixCoeffContinuousRapidDecay` | volunteer-build-reviewed |
 | M042844 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatrixCoeffContinuousRapidDecayStatement` | volunteer-build-reviewed |
 | M042845 | P0110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatrixCoeffDecayFirstPart` | volunteer-build-reviewed |
 | M042847 | P0110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatrixCoeffDecaySecondPart` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M043247 | P2038 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemLocalLatticeIdealMapSmulIffGeneratorStatement` | volunteer-build-reviewed |
 | M043248 | P2038 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemLocalNormsOfLiftUFEq` | volunteer-build-reviewed |
 | M043249 | P1424 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemLocalSubringGenericPoint` | build-observed |
-| M043252 | P1449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemLowLat` | build-observed |
-| M043253 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemLsB` | volunteer-build-reviewed |
-| M043258 | P0018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemMatLat` | volunteer-build-reviewed |
-| M043259 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemMatLatSmulBlockLat` | volunteer-build-reviewed |
-| M043261 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemMaxCompactGLOfCommuteEtaleCharpolyBoundedStatement` | volunteer-build-reviewed |
-| M043265 | P1303 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemMulInvIff` | volunteer-build-reviewed |
-| M043269 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemNilRad` | volunteer-build-reviewed |
-| M043270 | P1449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemNonzeroLocusFormMap` | wave-reused |
-| M043277 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemOfClosedSubmoduleGaussianConvolutionStatement` | volunteer-build-reviewed |
-| M043278 | P1088 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemOfDuplicationEq` | build-observed |

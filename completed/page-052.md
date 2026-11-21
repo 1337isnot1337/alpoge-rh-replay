@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M054102 | P1863 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationInvariantSchwartzUnique` | volunteer-build-reviewed |
+| M054104 | P0023 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationIsometrySchwartzOperator` | volunteer-build-reviewed |
+| M054105 | P0115 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationIsometrySchwartzOperatorStatement` | volunteer-build-reviewed |
+| M054108 | P0249 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationPreservesFlatForm` | volunteer-build-reviewed |
+| M054109 | P0302 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationPreservesFlatFormStatement` | build-observed |
+| M054113 | P2039 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TransportDenom` | volunteer-build-reviewed |
+| M054115 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TransportModularFamilyGL2ZModWeierstrassStatement` | build-observed |
+| M054137 | P2124 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TransportedWeilDatumCMPreservesSchwartzHeisenber` | volunteer-build-reviewed |
+| M054139 | P2124 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TransportedWeilDatumDoubledTargetRestrictBoxTens` | volunteer-build-reviewed |
+| M054141 | P2097 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TransportedWeilDatumIsUnitaryAdelicSchwartz` | volunteer-build-reviewed |
 | M054142 | P2112 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TransportedWeilDatumIsUnitaryAdelicSchwartzStatement` | volunteer-build-reviewed |
 | M054151 | P1863 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TransposeInvLeviEmb` | volunteer-build-reviewed |
 | M054152 | P0951 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.TransposeLiftSolvesModFrobXiMu` | build-observed |
@@ -256,6 +266,7 @@
 | M055130 | P0841 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitLocalizationEtaleNbhdEqUnitMulPow` | build-observed |
 | M055131 | P0869 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitLocalizationEtaleNbhdEqUnitMulPowStatement` | build-observed |
 | M055132 | P0023 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitLogSpanTraceZero` | volunteer-build-reviewed |
+| M055135 | P0249 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitLogarithmSpanningStatement` | volunteer-build-reviewed |
 | M055141 | P1120 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitNormGramDetPlaneReduction` | build-observed |
 | M055142 | P1148 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitNormGramDetPlaneReductionStatement` | build-observed |
 | M055143 | P1120 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitNormGramDetRationalApproximation` | build-observed |
@@ -391,14 +402,3 @@
 | M055526 | P1863 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedCharacterNormalizedEquivariantFunctionStatement` | volunteer-build-reviewed |
 | M055530 | P1863 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedCmDataStatement` | volunteer-build-reviewed |
 | M055531 | P1402 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedConjugatePlaceUniformiser` | volunteer-build-reviewed |
-| M055539 | P1329 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedExtFrobeniusIterateDegreeEqSelf` | build-observed |
-| M055540 | P1354 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedExtFrobeniusIterateDegreeEqSelfStatement` | build-observed |
-| M055542 | P1402 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedExtensionBasisStatement` | volunteer-build-reviewed |
-| M055544 | P1451 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedExtensionProductDecompositionStatement` | volunteer-build-reviewed |
-| M055548 | P2070 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedInnerProductDataDefiniteBottomLargeGri` | volunteer-build-reviewed |
-| M055565 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedPrincipalSeriesNoInvariant` | build-observed |
-| M055566 | P0443 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedPrincipalSeriesNoInvariantStatement` | build-observed |
-| M055567 | P0400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedPrincipalSeriesNonzeroAtOne` | build-observed |
-| M055568 | P0443 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedPrincipalSeriesNonzeroAtOneStatement` | build-observed |
-| M055578 | P1770 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnramifiedVectorGivesLocalComponentSphericalVectStatement` | volunteer-build-reviewed |
-| M055581 | P0186 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.UpperHalfPlaneProductProdImRpowContDiffOn` | volunteer-build-reviewed |

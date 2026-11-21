@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M097196"
+  ],
+  "started_utc": "2026-11-21T16:27:52.621446+00:00",
+  "ended_utc": "2026-11-21T16:28:26.874186+00:00",
+  "elapsed_seconds": 34.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5787816
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.SetIntegralPosOfPeriodicNonneg:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "cb6cdcc1952e22b6dd7562ea52e4e4dd24cdcc2bd418c2dac62af43b8a45e6a1",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.HeightProofs.MeanSquareAddFundamentalDomainOfCocompact",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.DescMk",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsDescendPeriodicTrig",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.FourierCoeffMulCharConvAndHasDerivAt"
+  ],
+  "objects": {
+    "M097196": "cee48527498c5e2e1a9e129006656809522206031eb0cc393df978ee4cb0c90f"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "6b90e41ff49623a24f30a5b691c35caf1d565c19566d8523690ff2edb9da87c3",
+  "packet": "M097196",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23501#issuecomment-7065712419",
+  "reviewed_utc": "2026-11-21T16:46:11.632152+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

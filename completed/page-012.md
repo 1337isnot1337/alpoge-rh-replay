@@ -95,6 +95,7 @@
 | M008722 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsMovedNotProportional` | volunteer-build-reviewed |
 | M008723 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsN1LocalHomMemOpen` | volunteer-build-reviewed |
 | M008725 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNEmbXInvMulMemKOne` | volunteer-build-reviewed |
+| M008726 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNEmbXInvMulMemKOneStatement` | volunteer-build-reviewed |
 | M008728 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNatMulSelfDualLatticeAtPlaceIntegral` | volunteer-build-reviewed |
 | M008729 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNatMulSelfDualLatticeAtPlaceIntegralStatement` | volunteer-build-reviewed |
 | M008732 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNeZeroOfEventually` | volunteer-build-reviewed |
@@ -181,6 +182,7 @@
 | M008912 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSumHyperbolicPlanesOrthogonalWittDecomposiStatement` | volunteer-build-reviewed |
 | M008913 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSummableBoundSchwartzMajorantRationalTrans` | volunteer-build-reviewed |
 | M008914 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSummableBoundSchwartzMajorantRationalTransStatement` | volunteer-build-reviewed |
+| M008916 | P0550 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSymDataOfUnifCongr` | volunteer-build-reviewed |
 | M008920 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsSymmetricDataConductorOneStatement` | volunteer-build-reviewed |
 | M008925 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsThetaLiftSpacesPositiveIndexWithLineNorms` | volunteer-build-reviewed |
 | M008934 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsTopologicalIsoParahoricChartSplitPlace` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M009351 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GoodPositionSplitLinesReadCompletionsAtPlaceStatement` | volunteer-build-reviewed |
 | M009354 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GramEqOfInst` | volunteer-build-reviewed |
 | M009355 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GramMatrixOfColumnsUnitriangularConjEq` | volunteer-build-reviewed |
-| M009356 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GramMatrixOfColumnsUnitriangularConjEqStatement` | volunteer-build-reviewed |
-| M009359 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GramUnimodular` | volunteer-build-reviewed |

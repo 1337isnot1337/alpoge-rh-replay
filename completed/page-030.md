@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M028451 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPrimitiveElementSeparabilityCertificateStatement` | volunteer-build-reviewed |
+| M028454 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPrimitiveMonicSeparableSpecialization` | volunteer-build-reviewed |
+| M028455 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPrimitiveMonicSeparableSpecializationStatement` | volunteer-build-reviewed |
+| M028460 | P1960 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPrincipalCongruenceBackTriangularFrame` | volunteer-build-reviewed |
+| M028461 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPrincipalCongruenceBackTriangularFrameStatement` | volunteer-build-reviewed |
+| M028474 | P2188 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsProdLocalComponentsEqPrimePart` | volunteer-build-reviewed |
+| M028475 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsProdLocalComponentsEqPrimePartStatement` | volunteer-build-reviewed |
 | M028476 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsProductDegenerationDataSum` | volunteer-build-reviewed |
 | M028477 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsProductDegenerationDataSumStatement` | volunteer-build-reviewed |
 | M028482 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsProductSchwartzGlue` | volunteer-build-reviewed |
@@ -395,10 +402,3 @@
 | M029595 | P1998 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymplecticFixingIWithDerivativeStatement` | volunteer-build-reviewed |
 | M029597 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymplecticGroupMatrixOfPreservesPhaseSpaceStatement` | volunteer-build-reviewed |
 | M029598 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymplecticHomOfUnitaryTransposeAction` | build-observed |
-| M029599 | P1477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymplecticHomOfUnitaryTransposeActionStatement` | build-observed |
-| M029601 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymplecticLevelAfterFiniteExtensionBaseStatement` | volunteer-build-reviewed |
-| M029607 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymplecticLevelGenericFibreGaloisExtensionStatement` | volunteer-build-reviewed |
-| M029614 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymplecticLieOfIndefiniteUnitaryLieRightAc` | volunteer-build-reviewed |
-| M029615 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymplecticLieOfIndefiniteUnitaryLieRightAcStatement` | build-observed |
-| M029616 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymplecticLieRightActionRealCoordinates` | build-observed |
-| M029617 | P1477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSymplecticLieRightActionRealCoordinatesStatement` | build-observed |

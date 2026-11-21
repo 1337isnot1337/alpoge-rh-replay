@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M024793 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDivisorsDoubleFlagSpace` | volunteer-build-reviewed |
+| M024795 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDixmierMalliavinDecompProdExp` | build-observed |
+| M024796 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDixmierMalliavinDecompProdExpStatement` | build-observed |
+| M024799 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDomainLiftPolarizedVarietyStatement` | volunteer-build-reviewed |
 | M024803 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDominantGeometricGenericPointSpecDomainStatement` | volunteer-build-reviewed |
 | M024808 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDominantTuplePrescribedMemberLinearForm` | volunteer-build-reviewed |
 | M024811 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDominantWeightShiftFlatLineDetStatement` | volunteer-build-reviewed |
@@ -304,6 +308,8 @@
 | M025832 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGeneratorsDualPointDerivationsAugmentedStatement` | volunteer-build-reviewed |
 | M025843 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericFrameAndLocalFramesAllPlaces` | volunteer-build-reviewed |
 | M025844 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericFrameAndLocalFramesAllPlacesStatement` | volunteer-build-reviewed |
+| M025846 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericJacobianDataIterated` | volunteer-build-reviewed |
+| M025847 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericJacobianDataIteratedStatement` | volunteer-build-reviewed |
 | M025863 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericPointOfLiesOverGenericStatement` | volunteer-build-reviewed |
 | M025866 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericPointsUniformisationsWeilPairingGalStatement` | volunteer-build-reviewed |
 | M025869 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGensModNsmulOfFgNumberField` | volunteer-build-reviewed |
@@ -396,9 +402,3 @@
 | M026127 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHermitianModelOfOrthonormalBasis` | volunteer-build-reviewed |
 | M026128 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHermitianModelOfOrthonormalBasisStatement` | volunteer-build-reviewed |
 | M026129 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHermitianMultiplicationModelNonsplit` | volunteer-build-reviewed |
-| M026130 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHermitianMultiplicationModelNonsplitStatement` | volunteer-build-reviewed |
-| M026133 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHermitianSplitUnitaryLowerBlockInvertible` | build-observed |
-| M026134 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHermitianSplitUnitaryLowerBlockInvertibleStatement` | build-observed |
-| M026137 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHighestVectorRealWeightUnitaryCompact` | volunteer-build-reviewed |
-| M026138 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHighestVectorRealWeightUnitaryCompactStatement` | volunteer-build-reviewed |
-| M026140 | P2178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHighestWeightLiftModStableSubspaceStatement` | volunteer-build-reviewed |

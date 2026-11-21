@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M009356 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GramMatrixOfColumnsUnitriangularConjEqStatement` | volunteer-build-reviewed |
+| M009359 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GramUnimodular` | volunteer-build-reviewed |
 | M009360 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.HaarAdelicUpperUnitriangularEntryTranslateInvari` | volunteer-build-reviewed |
 | M009361 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.HaarAdelicUpperUnitriangularEntryTranslateInvariStatement` | volunteer-build-reviewed |
 | M009362 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.HaarFiniteAdeleDisintegrationStabilizerCompact` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M010078 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAtPlacesSelfDualOfSelfDualStatement` | volunteer-build-reviewed |
 | M010080 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionEqOfLocalAgreementStatement` | volunteer-build-reviewed |
 | M010081 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeEqBaseOffTwist` | volunteer-build-reviewed |
-| M010082 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeLineRatioTransportOfColumnsCarryLines` | volunteer-build-reviewed |
-| M010083 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeLineRatioTransportOfColumnsCarryLinesStatement` | volunteer-build-reviewed |

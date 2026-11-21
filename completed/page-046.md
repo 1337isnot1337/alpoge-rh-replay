@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M046880 | P0352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PshPullbackHolomorphicStatement` | build-observed |
+| M046884 | P2070 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiAtContNormNontriv` | volunteer-build-reviewed |
+| M046889 | P0894 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantEigenProperty` | wave-reused |
+| M046890 | P0922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantEigenPropertyStatement` | wave-reused |
+| M046891 | P0786 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantElementProperty` | wave-reused |
+| M046892 | P0813 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantElementPropertyStatement` | wave-reused |
+| M046893 | P0841 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantOrdersProperty` | wave-reused |
+| M046894 | P0868 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantOrdersPropertyStatement` | wave-reused |
+| M046895 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantRankProperty` | wave-reused |
+| M046896 | P1005 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantRankPropertyStatement` | wave-reused |
 | M046897 | P0951 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantValuationBound` | wave-reused |
 | M046898 | P0978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiDeterminantValuationBoundStatement` | wave-reused |
 | M046899 | P1032 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.PsiEmbeddingDeterminantProperty` | wave-reused |
@@ -392,13 +402,3 @@
 | M047914 | P1768 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RefinedBoxDisjointCoverStatement` | volunteer-build-reviewed |
 | M047925 | P2020 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ReflectionOfFunctionalEquation` | volunteer-build-reviewed |
 | M047926 | P2038 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ReflectionOfFunctionalEquationStatement` | volunteer-build-reviewed |
-| M047929 | P0442 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ReframeVerticalDerivative` | build-observed |
-| M047930 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ReframeVerticalDerivativeStatement` | build-observed |
-| M047932 | P1742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegFamOfContinuousAt` | volunteer-build-reviewed |
-| M047954 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularElementSeparableMinpoly` | volunteer-build-reviewed |
-| M047955 | P1424 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularElementsBoundedPadic` | build-observed |
-| M047962 | P1401 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularFunctionsPthPowerTwist` | volunteer-build-reviewed |
-| M047963 | P0113 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularHeightOneLocalization` | volunteer-build-reviewed |
-| M047985 | P0248 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularPairLiftToPrimePowerField` | wave-reused |
-| M047987 | P1795 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularRationalPointTestSupportDoubleCosetsFinit` | volunteer-build-reviewed |
-| M047988 | P1819 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularRationalPointTestSupportDoubleCosetsFinitStatement` | volunteer-build-reviewed |

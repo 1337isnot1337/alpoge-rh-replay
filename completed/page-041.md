@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M040852 | P2598 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormGradedLengthSubLogUnitNormSq` | build-observed |
+| M040855 | P1376 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormLogNormPositive` | build-observed |
+| M040856 | P1400 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormLogNormPositiveStatement` | build-observed |
+| M040857 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormLogPotentialFormula` | volunteer-build-reviewed |
+| M040858 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormLogPotentialFormulaStatement` | volunteer-build-reviewed |
+| M040861 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormTwistedWeightLowerBound` | wave-reused |
+| M040862 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormTwistedWeightLowerBoundStatement` | wave-reused |
+| M040865 | P1840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormsTransportToOrthonormalChartOrigin` | volunteer-build-reviewed |
 | M040866 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormsTransportToOrthonormalChartOriginStatement` | volunteer-build-reviewed |
 | M040869 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviIsoPlaneUnique` | volunteer-build-reviewed |
 | M040872 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviLineEigenvectorAdelicPoint` | volunteer-build-reviewed |
@@ -200,6 +208,7 @@
 | M041570 | P1172 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralExpRhoEqSetLIntegralUnitBallDomainStatement` | build-observed |
 | M041573 | P2000 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralFiniteAdelicFactorOffPlace` | volunteer-build-reviewed |
 | M041574 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralFiniteAdelicFactorOffPlaceStatement` | volunteer-build-reviewed |
+| M041575 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralFourSq` | volunteer-build-reviewed |
 | M041577 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralFubiniStudyDensityEqOne` | volunteer-build-reviewed |
 | M041578 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralFubiniStudyDensityEqOneStatement` | volunteer-build-reviewed |
 | M041580 | P0110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralFundamentalDomainUnfoldRefoldMeasure` | volunteer-build-reviewed |
@@ -393,12 +402,3 @@
 | M042036 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalStabilizerLeviDecomposition` | volunteer-build-reviewed |
 | M042037 | P1840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalStabilizerLeviDecompositionStatement` | volunteer-build-reviewed |
 | M042039 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalStabilizerLocallyCompactStatement` | volunteer-build-reviewed |
-| M042042 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalStabilizerPreservesAdelicLattice` | volunteer-build-reviewed |
-| M042043 | P1840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalStabilizerPreservesAdelicLatticeStatement` | volunteer-build-reviewed |
-| M042048 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalTestFactorNeZeroOfGlobalProductNeZero` | volunteer-build-reviewed |
-| M042049 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalTestFactorNeZeroOfGlobalProductNeZeroStatement` | volunteer-build-reviewed |
-| M042050 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalThetaGoodPlaceLattice` | volunteer-build-reviewed |
-| M042051 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalThetaGoodPlaceLatticeStatement` | volunteer-build-reviewed |
-| M042052 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalThetaIntegralAtInertPlace` | volunteer-build-reviewed |
-| M042053 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalThetaIntegralAtInertPlaceStatement` | volunteer-build-reviewed |
-| M042064 | P1840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalUnipotentEmbeddingAction` | volunteer-build-reviewed |

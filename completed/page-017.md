@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013049 | P1171 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsRigNorm` | build-observed |
+| M013050 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsTorsFrameOfSymLift` | volunteer-build-reviewed |
+| M013052 | P1057 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsoIsMonHomOfIsGtOfRangeEq` | build-observed |
+| M013053 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsoOnG` | volunteer-build-reviewed |
 | M013055 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsoSection` | volunteer-build-reviewed |
 | M013056 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsoSpecialFibreTestGeometricTest` | volunteer-build-reviewed |
 | M013058 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsoSpecialise` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M013711 | P0550 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LinearMapEqZeroOfOneTmulMemRange` | build-observed |
 | M013712 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MaximalMinorsDualThetaTestLatticeBound` | volunteer-build-reviewed |
 | M013713 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MaximalMinorsDualThetaTestLatticeBoundStatement` | volunteer-build-reviewed |
-| M013716 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemMaximalIdeal` | volunteer-build-reviewed |
-| M013717 | P0617 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemPadicAlgClValuationSubringIffNormLeOne` | wave-reused |
-| M013718 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemRangeAppLEChartIff` | volunteer-build-reviewed |
-| M013719 | P1836 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemRangeIffOfFinite` | build-observed |

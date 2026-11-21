@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M010835 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PrXLeKOOfPrCat` | volunteer-build-reviewed |
+| M010838 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PrimitiveCharacterMatchesLinesDownFlagStatement` | volunteer-build-reviewed |
+| M010849 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ProdFnMemSB` | volunteer-build-reviewed |
 | M010854 | P1029 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PsiDatumAgreeColumnDatumAtTypePrime` | build-observed |
 | M010855 | P1057 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PsiDatumAgreeColumnDatumAtTypePrimeStatement` | build-observed |
 | M010857 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PsiPrimitiveOfInverseDifferentLines` | volunteer-build-reviewed |
@@ -272,6 +275,7 @@
 | M011677 | P0437 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricChainSupportOneOfPattern` | build-observed |
 | M011678 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricChainSupportOneOfPatternStatement` | volunteer-build-reviewed |
 | M011685 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelChainOneIndexAtOfClassSupport` | volunteer-build-reviewed |
+| M011686 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelChainOneIndexAtOfClassSupportStatement` | volunteer-build-reviewed |
 | M011687 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelChainPatternIterated` | build-observed |
 | M011688 | P0550 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelChainPatternIteratedStatement` | build-observed |
 | M011689 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelChainPhiSupportPeriodic` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M012099 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeClosedStatement` | volunteer-build-reviewed |
 | M012100 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeConjugate` | volunteer-build-reviewed |
 | M012101 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeConjugateStatement` | volunteer-build-reviewed |
-| M012103 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeFinalStatement` | volunteer-build-reviewed |
-| M012106 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeImage` | volunteer-build-reviewed |
-| M012107 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeImageStatement` | volunteer-build-reviewed |
-| M012110 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeIndexStep` | volunteer-build-reviewed |

@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M058503 | P0652 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianTermCountFrameClassLeStatement` | wave-reused |
+| M058504 | P0482 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianTermSplitsUnimodularComplement` | wave-reused |
+| M058505 | P0521 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianTermSplitsUnimodularComplementStatement` | wave-reused |
+| M058511 | P0683 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianUnipotentGeneratorMapCompNeg` | build-observed |
+| M058512 | P0709 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianUnipotentGeneratorMapCompNegStatement` | build-observed |
+| M058513 | P0683 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianUnipotentGeneratorMapIsometry` | build-observed |
+| M058514 | P0709 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HermitianUnipotentGeneratorMapIsometryStatement` | build-observed |
+| M058523 | P0896 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HilbertSchmidtEqReTrace` | build-observed |
+| M058524 | P0762 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HilbertSchmidtInUJLeOfSignColumns` | build-observed |
+| M058525 | P0787 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HilbertSchmidtInUJLeOfSignColumnsStatement` | build-observed |
+| M058526 | P0709 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HilbertSchmidtLowerBoundInverseDifferent` | build-observed |
 | M058527 | P0735 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HilbertSchmidtLowerBoundInverseDifferentStatement` | build-observed |
 | M058528 | P0354 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HmUnit` | wave-reused |
 | M058531 | P0896 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.HomLatticeCovolumeEmbeddingFamily` | build-observed |
@@ -391,14 +402,3 @@
 | M059228 | P2125 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MajorantLengthTwoSidedMomentsLargeGapStatement` | volunteer-build-reviewed |
 | M059231 | P1305 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MapConjGaugeMeasureEqInvDetSmul` | volunteer-build-reviewed |
 | M059232 | P1330 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MapConjGaugeMeasureEqInvDetSmulStatement` | volunteer-build-reviewed |
-| M059238 | P0897 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MapInfiniteGLHaarMeasureMulLeft` | build-observed |
-| M059239 | P0924 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MapInfiniteGLHaarMeasureMulLeftStatement` | build-observed |
-| M059240 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassBoundLowTypes` | volunteer-build-reviewed |
-| M059241 | P1330 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassBoundLowTypesAltBis` | volunteer-build-reviewed |
-| M059242 | P1252 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassBoundLowTypesStatement` | volunteer-build-reviewed |
-| M059244 | P1224 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassBoundLowTypesSumStatement` | volunteer-build-reviewed |
-| M059247 | P0843 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassDefectOrderLe` | wave-reused |
-| M059248 | P0870 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassDefectOrderLeStatement` | wave-reused |
-| M059249 | P0586 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassEqConstMulContent` | wave-reused |
-| M059256 | P1926 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassIntegralLatticesDiscriminantOrderLe` | build-observed |
-| M059257 | P1944 | `Development.AbelianVarietyTheory.Proofs.FlagMeasures.MassIntegralLatticesDiscriminantOrderLeStatement` | build-observed |

@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M027327 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalModelAtComplexPointStatement` | volunteer-build-reviewed |
+| M027331 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalPointModelEvalStatement` | volunteer-build-reviewed |
+| M027332 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalPushoutUnramifiedCharZero` | volunteer-build-reviewed |
+| M027333 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalPushoutUnramifiedCharZeroStatement` | volunteer-build-reviewed |
+| M027340 | P2036 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalSchroedingerFamilyAtPlace` | volunteer-build-reviewed |
+| M027342 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalSection` | volunteer-build-reviewed |
+| M027344 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalSectionOfOpenImmersionSpecStatement` | volunteer-build-reviewed |
 | M027347 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalSimilitudeOfLevel` | volunteer-build-reviewed |
 | M027354 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalStageTensorPolynomialOrigin` | volunteer-build-reviewed |
 | M027355 | P0298 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalStageTensorPolynomialOriginStatement` | build-observed |
@@ -395,10 +402,3 @@
 | M028444 | P0298 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPrimitiveCechPoincareRichCharts` | build-observed |
 | M028445 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPrimitiveCechPoincareRichChartsStatement` | build-observed |
 | M028450 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPrimitiveElementSeparabilityCertificate` | volunteer-build-reviewed |
-| M028451 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPrimitiveElementSeparabilityCertificateStatement` | volunteer-build-reviewed |
-| M028454 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPrimitiveMonicSeparableSpecialization` | volunteer-build-reviewed |
-| M028455 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPrimitiveMonicSeparableSpecializationStatement` | volunteer-build-reviewed |
-| M028460 | P1960 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPrincipalCongruenceBackTriangularFrame` | volunteer-build-reviewed |
-| M028461 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPrincipalCongruenceBackTriangularFrameStatement` | volunteer-build-reviewed |
-| M028474 | P2188 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsProdLocalComponentsEqPrimePart` | volunteer-build-reviewed |
-| M028475 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsProdLocalComponentsEqPrimePartStatement` | volunteer-build-reviewed |
