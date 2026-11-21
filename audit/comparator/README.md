@@ -22,7 +22,10 @@ Elaborator overrides, notation, instances and `initialize` blocks in the project
 | `Challenge.lean` | `import Mathlib`, the four definitions copied verbatim from the published `Statements.lean` (SHA-256 `79ef7ca7…b47bf`), and the five theorems with `sorry` |
 | `config.json` | Comparator config: challenge `Challenge`, solution `Main`, the five names, the three permitted axioms |
 | `run-comparator.sh` | Builds pinned comparator, lean4export and landrun, then runs comparator on a copy of a freshly prepared volume |
+| `build-tools.sh` | The pins, the tool build and the sandboxed run, shared by the two scripts |
 | `poc/` | Three small projects without Mathlib that show what comparator accepts and rejects |
+| `run-poc.sh` | Runs comparator on the three `poc/` projects and fails unless each gives its expected result |
+| `../../.github/workflows/comparator-poc.yml` | CI job that runs `run-poc.sh` on every change to this directory |
 
 ## Run it
 
@@ -41,17 +44,34 @@ Pins:
 | lean4export | `15f6055e` (from that tag's manifest) |
 | landrun | `ec104f6e` (main, as comparator's README requires) |
 
-comparator and lean4export are rebuilt with Lean 4.33.1, the project's toolchain; both compile unchanged.
+comparator and lean4export are rebuilt with Lean 4.33.1, the project's toolchain; both compile unchanged. The next section explains why.
+
+### Why Lean 4.33.1 for a v4.33.0 tag
+
+comparator has no release for 4.33.1: its tags go from v4.33.0 to v4.34.0. `build-tools.sh` checks out tag v4.33.0 and replaces its `lean-toolchain` with `leanprover/lean4:v4.33.1` before building. We did this on purpose, for three reasons:
+
+1. **lean4export has to be 4.33.1.** It reads the project's `.olean` files, and Lean only loads `.olean` files written by the same Lean version. A lean4export built with 4.33.0 cannot read this project.
+2. **No Lean-level API changed.** [v4.33.0...v4.33.1](https://github.com/leanprover/lean4/compare/v4.33.0...v4.33.1) has 14 commits. They touch only `src/kernel/`, `src/runtime/`, `src/include/lean/lean.h`, the CMake files and tests. No `.lean` file under `src/` changed, so comparator and lean4export get the same `Lean` library interface they were written against. Both compile with no source changes.
+3. **The replay kernel is the patched one.** Comparator replays the solution in the C++ kernel linked into its binary. The 4.33.1 kernel commits are soundness fixes:
+   - `is_prop` requires a sort (lean4#14807, #14843);
+   - generated recursors are type-checked (#14808);
+   - occurrences of the inductive types being declared are checked for uniformity (#14582);
+   - `is_def_eq` caching is order-independent (#14806);
+   - the size of `Nat` numbers the kernel computes is bounded (#14849).
+
+   A 4.33.0 build would replay with the kernel that lacks these fixes. The 4.33.1 build checks at least as strictly, and it is the same kernel the project is compiled with.
+
+The `poc/` projects pin 4.33.1 too, and CI runs them with this exact build.
 
 ### Requirements from comparator's README
 - **Fresh volume.** Nothing from the project may have been built outside the sandbox. `run-comparator.sh` refuses a volume with `lean/.lake/build`. The project's lakefile is TOML, so `--prepare-only` runs no project code.
 - **Trusted challenge.** `Challenge.lean` and its imports (Mathlib at the pinned commit) must be trusted.
 - **Unprivileged user.** Don't run it as root.
-- **AF_UNIX guard.** The script uses comparator's `systemd-run --property=RestrictAddressFamilies=~AF_UNIX` line. `COMPARATOR_NO_SYSTEMD=1` skips it, for test machines without a systemd user session; that is weaker.
+- **AF_UNIX guard.** The script uses comparator's `systemd-run --property=RestrictAddressFamilies=~AF_UNIX` line. On machines without a systemd user session (CI runners), `COMPARATOR_SYSTEMD=system` applies the same property through the system manager with `sudo systemd-run --uid=<you>`, so the job still runs as the unprivileged user. `COMPARATOR_NO_SYSTEMD=1` skips the guard and is weaker.
 
 ## Tested so far
 
-**Mathlib-free projects (`poc/`, `poc/results.txt`)**, run with the exact command above on Linux 7.0:
+**Mathlib-free projects (`poc/`, `poc/results.txt`)**, run with the exact command above on Linux 7.0. CI reruns them on every change to `audit/comparator/` (`comparator-poc.yml`, `run-poc.sh`). The job fails if any project gives a different exit code or message:
 
 | Project | Expected | Result |
 |---|---|---|
