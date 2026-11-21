@@ -3,7 +3,6 @@
 # Added 2026-11-21 from the full review run: failing pending submissions per account.
 ANdATIon  # 898 failing: release files missing x895, other x3
 mu-mei  # 130 failing: log lacks target line x129, other x1
-Amahane-Hikari  # 30 failing: no build.log x30
 WorldianAI  # 19 failing: malformed transcript x19
 CubeJerry  # 16 failing: malformed transcript x16
 jjjhenriksen  # 11 failing: no build.log x11
