@@ -1,0 +1,39 @@
+--- a/src/Formalism/LocalToGlobal/SiegelLatticeTheory/CokernelGLCounts/RankPointCounts/IsMulRightInvariantOfLattice.lean
++++ b/src/Formalism/LocalToGlobal/SiegelLatticeTheory/CokernelGLCounts/RankPointCounts/IsMulRightInvariantOfLattice.lean
+@@ -51,7 +51,7 @@
+ 
+ theorem measurable_lcount (Γ : Subgroup H) [Countable Γ] {K : Set H} (hK : IsCompact K) :
+     Measurable (lcount Γ K) :=
+-  Measurable.ennreal_tsum fun _ =>
++  Measurable.tsum fun _ =>
+     ((measurable_one : Measurable (1 : H → ℝ≥0∞)).indicator hK.measurableSet).comp (measurable_const_mul _)
+ 
+ theorem measurable_lwt (Γ : Subgroup H) [Countable Γ] {K : Set H} (hK : IsCompact K) :
+@@ -184,7 +184,7 @@
+   let c : ℝ≥0∞ := haarScalarFactor μ.inv μ
+   have hc : μ.inv = c • μ := isMulLeftInvariant_eq_smul μ.inv μ
+   have h2 : map Inv.inv (map Inv.inv μ) = c ^ 2 • μ := by
+-    rw [← inv_def μ, hc, Measure.map_smul, ← inv_def μ, hc, smul_smul, pow_two]
++    rw [← inv_def μ, hc, Measure.map_smul _ continuous_inv.measurable.aemeasurable, ← inv_def μ, hc, smul_smul, pow_two]
+   have μeq : μ = c ^ 2 • μ := by
+     rw [map_map continuous_inv.measurable continuous_inv.measurable] at h2
+     simpa only [inv_involutive, Function.Involutive.comp_self, Measure.map_id] using h2
+@@ -220,7 +220,7 @@
+     induction n with
+     | zero => simp
+     | succ n ih =>
+-      rw [Function.iterate_succ, ← map_map (hf.iterate n).measurable hf.measurable, hc, Measure.map_smul,
++      rw [Function.iterate_succ, ← map_map (hf.iterate n).measurable hf.measurable, hc, Measure.map_smul _ (hf.iterate n).measurable.aemeasurable,
+         ih, smul_smul, pow_succ']
+   have hVpos : 0 < μ V := measure_pos_of_mem_nhds μ hV1
+   have hLtop : μ L ≠ ∞ := hL.measure_lt_top.ne
+@@ -258,7 +258,8 @@
+       have : (⇑α.symm ∘ ⇑α) = id := funext fun x => α.symm_apply_apply x
+       rw [this, Measure.map_id]
+     rw [← map_map (show Measurable (⇑α.symm) from α.symm.continuous.measurable)
+-      (show Measurable (⇑α) from α.continuous.measurable), hc, Measure.map_smul, hc',
++      (show Measurable (⇑α) from α.continuous.measurable), hc, Measure.map_smul _
++        (show Measurable (⇑α.symm) from α.symm.continuous.measurable).aemeasurable, hc',
+       smul_smul] at e
+     exact e.symm
+   obtain ⟨W, hW, hW1⟩ := exists_compact_mem_nhds (1 : H)

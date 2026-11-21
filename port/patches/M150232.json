@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.ProjectiveLattices.ArchimedeanQuadraticData.DiscrMulIntegral",
+  "source_sha256": "626df4d03ef16b8ae5ae8b8a9e8ada81fdeecb0fe6a9383aec8396bdb5269bb1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0071-lean436-20261121/packet-result.json"
+}

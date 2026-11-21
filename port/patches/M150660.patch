@@ -1,0 +1,12 @@
+--- a/src/Formalism/LocalToGlobal/SiegelLatticeTheory/ClosedLocalOrbits/GaugeLatticeShifts/EqOneOfZpowMem.lean
++++ b/src/Formalism/LocalToGlobal/SiegelLatticeTheory/ClosedLocalOrbits/GaugeLatticeShifts/EqOneOfZpowMem.lean
+@@ -105,7 +105,8 @@
+     congr 1
+     funext x
+     simp [map_mul]
+-  rw [hmap, map_right, Measure.map_smul, Measure.map_smul, map_right, hmap, smul_smul, smul_smul] at key
++  rw [hmap, map_right, Measure.map_smul _ (measurable_mul_const (α g)).aemeasurable,
++    Measure.map_smul _ hmeas.aemeasurable, map_right, hmap, smul_smul, smul_smul] at key
+   have := congrArg (fun μ : Measure G => μ C) key
+   simp only [Measure.smul_apply, ENNReal.smul_def, smul_eq_mul] at this
+   have hcC : ((c * Δ (α g) : ℝ≥0) : ℝ≥0∞) = ((Δ g * c : ℝ≥0) : ℝ≥0∞) :=

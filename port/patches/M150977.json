@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLatticeShifts.VolumeZeroFintype",
+  "source_sha256": "0dd887a19e3624cea8579f5b6b4539c66df9808a9b46e2c5149173fb78554eb0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: remove tactics after congr has already closed the goal. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0071-lean436-20261121/packet-result.json"
+}

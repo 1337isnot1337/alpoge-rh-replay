@@ -1,0 +1,11 @@
+--- a/src/Formalism/LocalToGlobal/SiegelLatticeTheory/CokernelGLCounts/RankPointCounts/SRLiftGen.lean
++++ b/src/Formalism/LocalToGlobal/SiegelLatticeTheory/CokernelGLCounts/RankPointCounts/SRLiftGen.lean
+@@ -77,7 +77,7 @@
+   · have h0 : (LinearMap.ker A.mulVecLin).projectionOnto C hC (Pi.single (Fin.last n) 1) = 0 :=
+       Submodule.linearProjOfIsCompl_apply_right hC ⟨_, heC⟩
+     rw [LinearMap.toMatrix'_apply]
+-    simp [h, h0]
++    simp [h, h0, φ.map_zero]
+   · intro hdet
+     obtain ⟨v, hv0, hv⟩ := Matrix.exists_mulVec_eq_zero_iff.2 hdet
+     apply hv0
