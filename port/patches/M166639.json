@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.PFiniteSeparatingModel",
+  "source_sha256": "66cbe9ae14ac483b5e7406e9dd45be18da5cfd4259469ca65608024712291c01",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: explicitly type the polynomial coefficient function in congrArg. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0164-lean436-20261121/packet-result.json"
+}

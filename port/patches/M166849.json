@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.PSerreGraded",
+  "source_sha256": "e0fcc7e1a84c383fb498151fdad965d0b4785af2fe49f7dc43ac45387d269928",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the target coefficient projection on the same multivariable polynomial in the degree and factorization proofs. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0164-lean436-20261121/packet-result.json"
+}

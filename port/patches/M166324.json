@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HeightKernels.RestCutBasic",
+  "source_sha256": "300d551e4ac6ddc68d35370d32c6b69718d227c71891980a34b7c787f96cfb33",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent coefficient API adaptation: polynomial.coeff index denotes the same coefficient as the previous namespace-level coefficient function with its arguments in the old order. All indices, rings, polynomial expressions, quantifiers and inequalities are retained.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0164-lean436-20261121/packet-result.json"
+}

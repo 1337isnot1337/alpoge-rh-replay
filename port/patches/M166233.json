@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HeightKernels.PPlueckerNormSq",
+  "source_sha256": "76de9519e83bc955849c247f73c4b9f11d54dbc0ad384541edc7064123a45c88",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the target API [Matrix.mul_apply, for the same mathematical operation, with explicit namespace or updated implicit arguments as required. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0164-lean436-20261121/packet-result.json"
+}
