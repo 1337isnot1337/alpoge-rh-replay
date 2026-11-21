@@ -250,3 +250,7 @@
 | [@jdenwood](https://github.com/jdenwood) | [M164737](https://github.com/rohanarun/alpoge-rh-replay/issues/20824#issuecomment-7061984451) | 1 | [Build evidence verified](../../../evidence/volunteers/M164737.json) |
 | [@jdenwood](https://github.com/jdenwood) | [M164736](https://github.com/rohanarun/alpoge-rh-replay/issues/20823#issuecomment-7061983337) | 1 | [Build evidence verified](../../../evidence/volunteers/M164736.json) |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M126146](https://github.com/rohanarun/alpoge-rh-replay/issues/20804#issuecomment-7061976869) | 1 | [Build evidence verified](../../../evidence/volunteers/M126146.json) |
+| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M011655](https://github.com/rohanarun/alpoge-rh-replay/issues/2438#issuecomment-7059294656) | 1 | [Build evidence verified](../../../evidence/volunteers/M011655.json) |
+| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M019328](https://github.com/rohanarun/alpoge-rh-replay/issues/2563#issuecomment-7059297289) | 1 | [Build evidence verified](../../../evidence/volunteers/M019328.json) |
+| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M019877](https://github.com/rohanarun/alpoge-rh-replay/issues/2584#issuecomment-7059298818) | 1 | [Build evidence verified](../../../evidence/volunteers/M019877.json) |
+| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M031367](https://github.com/rohanarun/alpoge-rh-replay/issues/2599#issuecomment-7059300187) | 1 | [Build evidence verified](../../../evidence/volunteers/M031367.json) |
