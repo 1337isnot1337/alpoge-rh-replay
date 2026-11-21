@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MemIdempotentComplementIff",
+  "source_sha256": "9d81a781d5c9fe5f1506fc11786f1b0e94ca86521c4dbaaf5f309978b1d92a53",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0140-lean436-20261121/packet-result.json"
+}

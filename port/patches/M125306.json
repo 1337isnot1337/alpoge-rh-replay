@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LintegralUniformNearParameterStatement",
+  "source_sha256": "189e2ba64d3cba835275f1e8cbbea94a3fc2c9cbedfe9d001f94a2e596724ac8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0140-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MapWithDensityEqOfScale",
+  "source_sha256": "70c7010c94e0e1d373971c7ca97455432a4d2bca8ac579bacb7e8f67ed6af011",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: supply the known measurability of left multiplication and the product inclusion to measure-map scaling. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0140-lean436-20261121/packet-result.json"
+}
