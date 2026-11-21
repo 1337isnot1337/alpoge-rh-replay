@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RealIndependentSkewMatrices",
+  "source_sha256": "8859ae3408003e13f24d57f849fe2b6db24f98dcc9b3b7afab127bd9e9ecf68b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

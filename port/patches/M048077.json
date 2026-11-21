@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RelIndexISupMapEqPowStatement",
+  "source_sha256": "b3da7230d85392364031e18b4bf39ad6ecc0273eb9f0b197586051a5014ac9d8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

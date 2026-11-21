@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RadicalEltMovingDualToMajorantStatement",
+  "source_sha256": "620a255911b86a17cf12d68e94db27f6677baff67d846f147263acb6ffbd07e4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

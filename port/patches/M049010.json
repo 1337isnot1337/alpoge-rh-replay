@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzFourierRepresentationStatement",
+  "source_sha256": "dc53ae8631313bb5bf1c81f6a405b2fa930221a54718862a6fccfcc8aee829d8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

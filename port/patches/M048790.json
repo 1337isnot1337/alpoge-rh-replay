@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchemeHomExtOfJointlyInjectiveStatement",
+  "source_sha256": "a74efeafacd76be188b8030ce9a822266efbd0ce6200f227718aa8e123f8e0bf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

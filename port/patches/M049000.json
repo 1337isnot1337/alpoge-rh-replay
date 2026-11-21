@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzFamilyPairingIntegralCommuteStatement",
+  "source_sha256": "42adbaefd40034af2991f1935a75f4e1b8c0705a0fe3ad9f85a2ad68b9d3d807",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

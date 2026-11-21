@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RankLeOfGrowthInRadiusStatement",
+  "source_sha256": "9cce54fc094912d69653f825ff58739430b204eaee9ad38b5210699c7755b0d1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

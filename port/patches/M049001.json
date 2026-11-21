@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzFamilyPhaseBound",
+  "source_sha256": "9bfa441342279417dd0384e25722ec398dd4e412186844e2515c2c7c5ee89539",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

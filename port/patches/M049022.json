@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzFunctionalIntegralComm",
+  "source_sha256": "af7aa90dc48b75415acec0aec6860a8f26d532ad55faf2d7ef19885198324ea6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove two coercion rewrites now handled by simplification and use the renamed integrable_finsetSum lemma."
+}

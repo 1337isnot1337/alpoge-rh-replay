@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RealCompactPartitionUnityStatement",
+  "source_sha256": "1e71d73782ed606a532c37b3605fef524effb8ae8a71a38bda13f4876890c4be",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

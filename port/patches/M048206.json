@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RepresentsKillIdeal",
+  "source_sha256": "fda2d8f282a0198b1e51fce5d89fc0e5443fe3e68d91adad3799bf1760938427",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

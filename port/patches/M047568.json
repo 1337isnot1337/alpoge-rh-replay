@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RationalFunctionalTraceRepresentationStatement",
+  "source_sha256": "861bf6a383ac564a7306398fc06d7c5a95c1de52b1f8af78ec94d137799241c6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
