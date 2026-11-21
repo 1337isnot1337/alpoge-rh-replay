@@ -1,0 +1,7 @@
+{
+  "module": "Development.ResolutionOfSingularities.Foundations.Schemes.SchemeCoproduct",
+  "source_sha256": "d18bb0be7cee99e94a2808a74b44c76edc5876bacacb174d8db54ef6ae8e2e97",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Mark private def iSupOpensRangeSigmaι noncomputable in Lean v4.36.0."
+}

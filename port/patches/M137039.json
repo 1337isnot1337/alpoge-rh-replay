@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.AbelianDeRham.AbelianWedgeProducts.ThetaMulti",
+  "source_sha256": "2d2ee1e3164067c7a232e3de4d433bc26dec0a6633d2476e4e2d72c10862c048",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

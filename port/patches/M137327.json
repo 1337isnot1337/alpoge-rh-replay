@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.AwayActions.DecAlg",
+  "source_sha256": "820cbe261ec310b0a5ef4cd6689c106d9db03af8d1c12b47a399b03ea781b354",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

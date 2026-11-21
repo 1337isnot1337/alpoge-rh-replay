@@ -1,0 +1,7 @@
+{
+  "module": "Development.ResolutionOfSingularities.EmbeddedResolution.AlgebraicPreliminaries.SpanSingletonProduct",
+  "source_sha256": "5f31ce6caf3678dfddf62284bc8155af9ac275d15048865f78d04636a8d76e23",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

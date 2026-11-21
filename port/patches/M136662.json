@@ -1,0 +1,7 @@
+{
+  "module": "Development.ResolutionOfSingularities.EmbeddedResolution.IdealPrincipalization.MonomialCase.MonomialSplitting",
+  "source_sha256": "3246ce12d60df33597f779fff7ec02e2c98397ea2a5c081ed53a2583ad010be5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

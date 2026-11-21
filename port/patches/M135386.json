@@ -1,0 +1,7 @@
+{
+  "module": "Development.EtaleCohomology.EtaleSheaves.CurveKrullDimTopology",
+  "source_sha256": "f47d30a441d311f1f23094b374a2372fc4e6e5106cb980e8f2d5e29e83fe3441",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.ResolutionOfSingularities.EmbeddedResolution.AlgebraicPreliminaries.KernelSupport",
+  "source_sha256": "6608476a4bbda32bb739c3fcf8dd368848f4396352e3ac78cc8561a4298b138b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

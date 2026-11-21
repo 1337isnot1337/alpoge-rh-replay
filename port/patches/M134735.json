@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.PublishedTheorems.PublishedGlobalResults.PrimesInProgressionsRelative",
+  "source_sha256": "ac85291324186e0e5e238a230ae4cf4d950c0b1c12d756b374be5b4fd92808ad",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

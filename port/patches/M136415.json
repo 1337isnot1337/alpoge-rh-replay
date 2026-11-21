@@ -1,0 +1,7 @@
+{
+  "module": "Development.ResolutionOfSingularities.EmbeddedResolution.AlgebraicPreliminaries.DerivationLocalization",
+  "source_sha256": "18f08665abb34841ad03ca0f8cfd9a17b4d9bf0399383c5c2de48db0986bf7c7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

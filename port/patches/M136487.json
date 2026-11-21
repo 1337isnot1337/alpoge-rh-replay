@@ -1,0 +1,7 @@
+{
+  "module": "Development.ResolutionOfSingularities.EmbeddedResolution.EtaleCoordinates.JacobianCriterion",
+  "source_sha256": "2fa742b12b4323a281aea99d7b7080c83e02c0296c4843b138c95e1e02b265f7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

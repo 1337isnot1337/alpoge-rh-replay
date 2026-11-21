@@ -1,0 +1,11 @@
+--- a/src/Development/DiscreteGroups/PiInvariants/CompactSupportTwists/TraceUniqueMatrix.lean
++++ b/src/Development/DiscreteGroups/PiInvariants/CompactSupportTwists/TraceUniqueMatrix.lean
+@@ -24,7 +24,7 @@
+     exact h1
+   have hsurj : Function.Surjective Φ :=
+     (LinearMap.injective_iff_surjective_of_finrank_eq_finrank
+-      Subspace.dual_finrank_eq.symm).1 hinj
++      (Subspace.dual_finrank_eq (K := ℂ) (V := Matrix (Fin n) (Fin n) ℂ)).symm).1 hinj
+   obtain ⟨C, hC⟩ := hsurj g
+   have hgC : ∀ A, g A = (A * C).trace := fun A => by rw [← hC, hΦ]
+   have hcomm : ∀ B, B * C = C * B := by

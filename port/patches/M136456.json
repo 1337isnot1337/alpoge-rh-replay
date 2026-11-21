@@ -1,0 +1,7 @@
+{
+  "module": "Development.ResolutionOfSingularities.EmbeddedResolution.DerivativeIdeal.MultiIndexDerivation",
+  "source_sha256": "319416429ca23ab3f1b733443cb2c9bfb48b275c5ed636b51aeb2e732f19f4d3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

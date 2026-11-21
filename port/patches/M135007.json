@@ -1,0 +1,7 @@
+{
+  "module": "Development.DiscreteGroups.PiInvariants.CompactSupportTwists.TraceUniqueMatrix",
+  "source_sha256": "671c75d26d9c49a08184097fb89f8d56d133bbaa52d0dc8e7de82ae8c19d0146",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass explicit (K := ℂ) (V := Matrix (Fin n) (Fin n) ℂ) arguments to Subspace.dual_finrank_eq in trace_unique_matrix to avoid whnf timeout in Mathlib v4.36.0."
+}

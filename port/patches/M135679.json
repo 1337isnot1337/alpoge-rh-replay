@@ -1,0 +1,7 @@
+{
+  "module": "Development.EtaleCohomology.EtaleSheaves.LeafOrdInfHomPf",
+  "source_sha256": "123e711dc4d258858b35d12757881fb32fd94a8eb0c6ca5deec683655a10cf0f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

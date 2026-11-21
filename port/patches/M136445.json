@@ -1,0 +1,7 @@
+{
+  "module": "Development.ResolutionOfSingularities.EmbeddedResolution.DerivativeIdeal.IdealOrder",
+  "source_sha256": "3ebaa223bbeccf076f82e148cf4948d6c109d2df9e5ca62fdd0328b9812f4bc3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

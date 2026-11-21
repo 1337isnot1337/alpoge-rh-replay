@@ -1,0 +1,7 @@
+{
+  "module": "Development.DiscreteGroups.GlobalIrreducibility.LConvKMCore",
+  "source_sha256": "50bf5989e95abdf7802cfb344d8577c29a2196c65d9c0eabc6d8e48fd1a13b68",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

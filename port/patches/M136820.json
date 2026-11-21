@@ -1,0 +1,7 @@
+{
+  "module": "Development.ResolutionOfSingularities.EmbeddedResolution.ResolutionDescent.StandardSmoothLift",
+  "source_sha256": "e93f1a55ce9a1b057e3b7254814d723d4dff45c0164d4d0ab4f77fdbc31a58aa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Increase synthInstance.maxHeartbeats and use 2-case TensorProduct.inductionOn in baseChangeHom_bijective for Mathlib v4.36.0."
+}

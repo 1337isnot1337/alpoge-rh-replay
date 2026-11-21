@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.EisensteinSeriesG2.G2RootData.OnCoroot",
+  "source_sha256": "f89d1f51aa687da0ca7e0dbf32297d4318b1c4fa2550488202a20b6ba3249ef7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

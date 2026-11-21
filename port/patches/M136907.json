@@ -1,0 +1,7 @@
+{
+  "module": "Development.ResolutionOfSingularities.Foundations.Schemes.SchemeMorphismProperties",
+  "source_sha256": "53f21aa56a16f51fb44048d7955aa76b83ea7571a871be0022fae7f34d2e1a41",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

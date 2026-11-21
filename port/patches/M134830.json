@@ -1,0 +1,7 @@
+{
+  "module": "Development.DiscreteGroups.GlobalIrreducibility.DzGalFin",
+  "source_sha256": "d45f2f39fc132137d8dc23329ef4007326e7be34802840a3ec3fcad1b015a05a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,38 @@
+--- a/src/Development/ResolutionOfSingularities/Foundations/Blowup/ReesGrading.lean
++++ b/src/Development/ResolutionOfSingularities/Foundations/Blowup/ReesGrading.lean
+@@ -36,7 +36,7 @@
+   rw [key]
+   constructor
+   · rintro ⟨r, hr⟩ i hi
+-    rw [← hr, Polynomial.coeff_monomial, if_neg (Ne.symm hi)]
++    rw [← hr, Polynomial.coeff_monomial_apply, if_neg (Ne.symm hi)]
+   · intro h
+     refine ⟨(p : R[X]).coeff n, ?_⟩
+     ext i
+@@ -95,7 +95,7 @@
+       ∈ reesGrading I n := by
+   refine (mem_reesGrading_iff_coeff I n _).2 fun i hi => ?_
+   show (Polynomial.monomial n r : R[X]).coeff i = 0
+-  rw [Polynomial.coeff_monomial, if_neg (Ne.symm hi)]
++  rw [Polynomial.coeff_monomial_apply, if_neg (Ne.symm hi)]
+ 
+ theorem reesGrading_iSup_eq_top (I : Ideal R) : (⨆ n : ℕ, reesGrading I n) = ⊤ := by
+   refine Submodule.eq_top_iff'.2 fun p => ?_
+@@ -181,7 +181,7 @@
+ private theorem reesComponent_mem_reesGrading (I : Ideal R) (p : ↥(reesAlgebra I)) (i : ℕ) :
+     reesMonomialOfCoeff I p i ∈ reesGrading I i := by
+   refine (mem_reesGrading_iff_coeff I i _).2 fun j hj => ?_
+-  rw [reesComponent_coe, Polynomial.coeff_monomial, if_neg (Ne.symm hj)]
++  rw [reesComponent_coe, Polynomial.coeff_monomial_apply, if_neg (Ne.symm hj)]
+ 
+ private theorem eq_sum_reesComponent (I : Ideal R) (p : ↥(reesAlgebra I)) :
+     p = ∑ i ∈ (p : R[X]).support, reesMonomialOfCoeff I p i := by
+@@ -338,7 +338,7 @@
+   ext i
+   rcases eq_or_ne i 0 with rfl | hi
+   · simp
+-  · rw [Polynomial.coeff_monomial, if_neg (Ne.symm hi)]
++  · rw [Polynomial.coeff_monomial_apply, if_neg (Ne.symm hi)]
+     exact (hco i hi).symm
+ 
+ theorem reesDegreeZeroRingHom_bijective (I : Ideal R) :

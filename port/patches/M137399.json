@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.FockSpaces.VolumeIsAddHaar",
+  "source_sha256": "e5a9a63c26574cee0a6dc321cdc2dc522f3c2449c0871a1779bdb616dad9c48e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
