@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Theta.EisensteinZeta.DedekindZetaSeries.HeightGeSecondCubicBound",
+  "source_sha256": "562db69b5a22c91e4f087f4f536980066c92eb65fc3d4227a2f159bb08a504e6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Theta.FundDomain",
+  "source_sha256": "a3ff1a7838d34fa1121a7ce76a222a7b38a3234e8f42c753ddb4f673fc7786d6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace isOpen_biUnion with nested isOpen_iUnion in measurableSet_firstHit for Mathlib v4.36.0."
+}

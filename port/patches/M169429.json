@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Statements",
+  "source_sha256": "edafbe7902d2be3aa0b2d232aa7a5a64220d4f8010a474a14c9eb9095120e0e7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Update MvPolynomial.coeff calls in flagIntegral, symmetricGroupCharacter, LemmaA.Statement, SchurPowerSumCoefficient.Statement, and SameFactorFormula.Statement to Mathlib v4.36.0 dot notation P.coeff \u03b1 (mathematically identical definitions)."
+}
