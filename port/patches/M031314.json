@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteJointEigensystemsStatement",
+  "source_sha256": "b00a8db7f76a93468e9dc372fc3b6cc764059a1afc7e8eecd48ac3ea4eecafed",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0105-lean436-20261121/packet-result.json"
+}

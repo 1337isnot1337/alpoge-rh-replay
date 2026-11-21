@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSubMemMaximalIdealPointedEtaleNeighbourhoo",
+  "source_sha256": "e5338326517e7f0a4fff41d96bc0d9ff5cf737756e10147c68d52c71d858a943",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use RingHom.map_sub with the existing localization algebra map explicitly, avoiding generic AddMonoidHomClass inference with unconstrained domains. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0105-lean436-20261121/packet-result.json"
+}
