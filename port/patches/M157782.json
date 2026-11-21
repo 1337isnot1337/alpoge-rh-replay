@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.ZerosWindowIn",
+  "source_sha256": "cba9e0c1f790b71660fa4cc677589bed864801f19ce256cfdcd0dffd430988f9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

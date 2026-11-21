@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SharpRestriction.CuspSpanNormBounds.UnimodularSchurMeasures.RrExistsMeasRep",
+  "source_sha256": "2c72b87e03e16de4ee909f2f13263bc45c9acb71f527b378adcdd09430fe8fa3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Drop propext before EventuallyEqSet Iff goals and replace _root_.not_imp with not_imp in Mathlib v4.36.0."
+}

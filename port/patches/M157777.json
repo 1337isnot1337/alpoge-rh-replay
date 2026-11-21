@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.WwMain",
+  "source_sha256": "5070a2c0a61f1340eb86f09c92402d2a6053e2cc664d9e7d841608bba8601daf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use dot notation P.coeff μ and P.coeff α instead of MvPolynomial.coeff in applyAt0 and applyQ (mathematically identical definitions) for Mathlib v4.36.0."
+}

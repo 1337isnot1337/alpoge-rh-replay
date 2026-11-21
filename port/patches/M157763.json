@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.WedgeDetNz",
+  "source_sha256": "26f9e17fbc70dfef938cb000e8a89e3b8b152441d331bca403013cf849f4434f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

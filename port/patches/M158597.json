@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SharpRestriction.CuspSpanNormBounds.UnimodularSchurMeasures.RrdStronglyMeasurable",
+  "source_sha256": "708b582ec564e89fbf9e193cba6b39071e04b07cfe8b9eebdd15f4e081ad0762",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename continuous_mul_left to continuous_const_mul in Mathlib v4.36.0."
+}

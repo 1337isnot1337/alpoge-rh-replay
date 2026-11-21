@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.VacEntire",
+  "source_sha256": "df019a15213452dbdc57e443fc587295b0e11d83f53bd3451716b43d0f020659",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

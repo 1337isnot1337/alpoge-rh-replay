@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PieriBlockIdeals.CapelliCentralEnveloping",
+  "source_sha256": "72524034449a5fd2db94c9a9b3fe5abb1b1119238f6752381d2453b4d1f4ecf9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

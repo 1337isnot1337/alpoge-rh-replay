@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ResultantValuation.ResultantConjugate",
+  "source_sha256": "b95964aff742f1638e540b946877e0df16a0c73ab3e0a07a7033f46eeadeca24",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

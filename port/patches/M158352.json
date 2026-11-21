@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SharpRestriction.CuspSpanNormBounds.CayleyDegreeNondegeneracy.MassPowLeExpRpow",
+  "source_sha256": "b4a33d0f26a74ce9fcf01b54b54495bbb261e4993b606fe7ca41baefde18e525",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

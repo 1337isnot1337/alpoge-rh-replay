@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.RankGapBounds.LargePrimeFactor",
+  "source_sha256": "979d0dc821de6c9eae209fb5eb603006e9a86659e95b96bc7e9cdaad6a5499ef",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

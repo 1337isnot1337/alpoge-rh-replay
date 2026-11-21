@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeakApproximationDVR.SmOneOfNotIsUnit",
+  "source_sha256": "f12c2bff334c12f28dbb1a447cdaf16966d1bb7436c22e583e72116af72b5107",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

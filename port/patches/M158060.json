@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ResultantValuation.KoszulSecondDifferential",
+  "source_sha256": "001fb9ef3a503ae8f6c62be93bbcabdd4a3b0dcc12602466e946fc68489bd01b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

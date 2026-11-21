@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.RankGapBounds.ConjInOrbit",
+  "source_sha256": "70948707f655937a60e32ef8f0be877ccdf295edd1e4433dfc2a86961ad84e1b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

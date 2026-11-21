@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SharpRestriction.AdmissibleParameterJoins.SfromGLt",
+  "source_sha256": "fdbff336de524b2f3891b4649963aa09ed8882067ab1576a55458e5d56fcd84d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Swap arguments in Ideal.ramificationIdx_pos ℤ P and annotate {v : HeightOneSpectrum (𝓞 K) | ...} in Nat.card_coe_set_eq for Mathlib v4.36.0."
+}
