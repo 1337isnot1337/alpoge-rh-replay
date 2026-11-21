@@ -306,6 +306,52 @@ class WorkerTests(unittest.TestCase):
                     evidence.main()
             lake.assert_not_called()
 
+    def test_inventory_root_is_informational_and_older_inventories_remain_compatible(self):
+        build = self.project / '.lake/build/lib/lean/Fixture'
+        build.mkdir(parents=True)
+        (build / 'Mod0.olean').write_text('Fixture.Mod0')
+        identity = dict(**evidence.pins(), platform='aarch64-unknown-linux-gnu')
+        with patch.object(evidence, 'checkout_info', return_value=(identity, [], {})) as check:
+            inventory = evidence.inventory(self.project / '..' / 'lean', self.rows)
+        check.assert_called_once_with(self.project.resolve())
+        self.assertEqual(inventory['project_root'], str(self.project.resolve()))
+        self.assertEqual(inventory['identity'], identity)
+        self.assertNotIn('project_root', inventory['identity'])
+        self.assertEqual(inventory['modules'], ['M000001'])
+        path = self.root / 'inventory.json'
+        for producer_root in (None, '/different/producer/lean'):
+            with self.subTest(producer_root=producer_root):
+                inventory.pop('project_root', None)
+                if producer_root is not None:
+                    inventory['project_root'] = producer_root
+                path.write_text(json.dumps(inventory))
+                self.assertEqual(evidence.read_inventory(path), inventory)
+
+    def test_receipt_root_does_not_reject_coherent_receiver_relocation(self):
+        out = self.artifacts('M000001', 1)
+        build = self.project / '.lake/build/lib/lean/Fixture'
+        build.mkdir(parents=True)
+        (build / 'Mod0.olean').write_text('Fixture.Mod0')
+        path = out / 'receipt.json'
+        receipt = json.loads(path.read_text())
+        identity = dict(**evidence.pins(), platform='aarch64-unknown-linux-gnu')
+        argv = ['replay_evidence.py', 'reuse-check', 'M000001', str(out), '--checkout', str(self.project)]
+        for producer_root in (None, '/different/producer/lean'):
+            with self.subTest(producer_root=producer_root):
+                receipt.pop('project_root', None)
+                if producer_root is not None:
+                    receipt['project_root'] = producer_root
+                path.write_text(json.dumps(receipt))
+                with patch.object(sys, 'argv', argv), \
+                        patch.object(evidence, 'checkout_info', return_value=(identity, [], {})), \
+                        patch.object(subprocess, 'run') as lake, \
+                        contextlib.redirect_stdout(io.StringIO()) as output:
+                    evidence.main()
+                lake.assert_called_once()
+                self.assertEqual(lake.call_args.args[0],
+                                 ['lake', '--no-build', '--no-cache', 'build', '+Fixture.Mod0:olean'])
+                self.assertEqual(json.loads(output.getvalue())['reuse_checked'], ['M000001'])
+
     @unittest.skipUnless(os.environ.get('REPLAY_NATIVE_TEST'), 'requires the pinned native Lean toolchain')
     def test_real_lake_twenty_assignments_and_restart(self):
         # A small independent Lean package exercises real native Lake, .olean

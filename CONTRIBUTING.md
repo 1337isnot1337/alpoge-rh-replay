@@ -103,6 +103,10 @@ Notes:
 
 Use a Linux or macOS controller with Python 3.9+, Docker and an authenticated GitHub CLI. The builder runs inside the prepared Linux container from the Docker instructions above. Use the same tracker revision on both sides. Keep GitHub credentials on the controller and use a named volume per native Lean toolchain and platform. An existing warm volume should already have known provenance. The first dispatcher build records its platform and pins under `.lake/build` and subsequent dispatcher builds check them.
 
+New receipts and inventories include an informational `project_root` field with the resolved absolute checkout path. An inventory describes the current checkout, not necessarily every cached artifact's original build location.
+
+Some `.olean` files can contain absolute source paths, so different build roots can change artifact hashes even with matching source and compiler pins. When configuring future helpers, use the primary's existing absolute checkout path as the template; do not rebuild the primary just to adopt a new path. Consistent paths reduce one source of hash churn, but do not guarantee reusable artifacts. A coherently transferred cache can still reuse successfully after relocation. This field is not an identity pin or an acceptance rule: old receipts and inventories remain compatible, and source, toolchain, platform, object, receiver no-build and kernel checks remain required.
+
 Capture the worker's inventory inside the container. The inventory contains the archive and toolchain pins, the Lean target triple, and project module IDs present on that worker. Refresh the controller checkout before selecting work.
 
 ```bash

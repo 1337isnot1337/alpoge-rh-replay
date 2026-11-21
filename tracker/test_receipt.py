@@ -1,6 +1,7 @@
 import json
 import os
 from pathlib import Path
+import subprocess
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -90,6 +91,29 @@ class OutputDirectoryTests(unittest.TestCase):
                     tasks.run(self.target(), self.checkout(root), out, False)
             probe.assert_not_called()
             self.assertEqual((out / 'receipt.json').read_text(), 'earlier run')
+
+    def test_successful_receipt_records_the_resolved_project_root(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            project = self.checkout(root)
+            out = root / 'receipt'
+            obj = project / '.lake/build/lib/lean/A/B.olean'
+            obj.parent.mkdir(parents=True)
+            obj.write_bytes(b'fixture object')
+            targets = self.target(tasks.digest(project / 'src/A/B.lean'))
+            mathlib = json.loads((tasks.base / 'summary.json').read_text())['mathlib_commit']
+
+            def build(command, **kwargs):
+                kwargs['stdout'].write(b'Build completed successfully (1 job).\n')
+                return subprocess.CompletedProcess(command, 0)
+
+            with patch.object(tasks.subprocess, 'check_output', side_effect=['Lean (version 4.33.1)', mathlib]), \
+                    patch.object(tasks.subprocess, 'run', side_effect=build):
+                self.assertEqual(tasks.run(targets, project / '..' / 'lean', out, False,
+                                           project_modules={'A.B'}), 0)
+            receipt = json.loads((out / 'receipt.json').read_text())
+            self.assertEqual(receipt['project_root'], str(project.resolve()))
+            self.assertEqual(receipt['objects'], {'M000001': tasks.digest(obj)})
 
 
 if __name__ == '__main__':
