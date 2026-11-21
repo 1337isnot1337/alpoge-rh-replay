@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.TwNormLat",
+  "source_sha256": "a78966865dcf3c379d6f5281f3a5aff50671978245e81da99d1cac2a4f09300d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

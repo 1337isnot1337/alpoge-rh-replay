@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.PolydiscInt",
+  "source_sha256": "b68ae4ccb14799494906bfebbc243819c65a3a008e87cd2fc21fc8b0dd81fb21",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

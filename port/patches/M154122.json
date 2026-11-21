@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.TwistedEisensteinNonvanishing",
+  "source_sha256": "671a5dcd08f81f8c1f9f8837c97266f031d55db5443ef0772067af5200bfb336",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

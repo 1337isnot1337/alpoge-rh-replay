@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.RowLetter",
+  "source_sha256": "19ad3d4fe5382a42f94b979abef3e263be7dd6db8de8a9927c0cc069f0cdcc97",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

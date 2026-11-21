@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.PhiCubeOfFactor",
+  "source_sha256": "5235ea4dfa2ea5253abd19ab4d5154be760d18a933a4402a88cedba33b5c6914",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

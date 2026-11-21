@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.SqfLab",
+  "source_sha256": "90cc3fd589cd76b517fa5bc97b3ab930649a86b70760b91cd38fea3599b8e9e7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

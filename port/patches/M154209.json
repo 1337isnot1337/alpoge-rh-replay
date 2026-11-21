@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdelicUnimodularity.CoordTmulOneMul",
+  "source_sha256": "cc04eebeee12998949e50758e669730bf0a925ac56a8d52f6a84ae02b20363c4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename continuous_finset_sum to continuous_finsetSum in ctsA_sum, ctsA_mul, and ctsA_map for Mathlib v4.36.0."
+}

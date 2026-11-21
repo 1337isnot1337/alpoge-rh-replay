@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.SplitIntLoc",
+  "source_sha256": "7cb4502f8b804200323e75a7e4be9e4f7188bc801d35839eb8680ad208bf178f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

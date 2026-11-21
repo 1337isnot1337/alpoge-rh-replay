@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.SumAntidiagonalTuple",
+  "source_sha256": "337f6908d5b6fe7a6c81186603336422691b3569d44e15ee8aac5a753a224fdc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

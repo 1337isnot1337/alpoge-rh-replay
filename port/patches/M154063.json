@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.RamBound",
+  "source_sha256": "da4a605a4044f4e447e9f236b3f9e52be3c559d4614ef42d7fd639f290e86d9c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use dot notation (P.coeff n) instead of MvPolynomial.coeff n P in gaussGe, applyD, and KG (mathematically identical definitions) for Mathlib v4.36.0."
+}

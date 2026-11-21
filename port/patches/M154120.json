@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.TwChrOne",
+  "source_sha256": "57b6b1a2d94afbd09f254889e4d50ea99eae40424a9f5738dbd6a8479522432b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

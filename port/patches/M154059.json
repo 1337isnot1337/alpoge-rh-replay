@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.QuotNuSigma",
+  "source_sha256": "56bfa43b97f078e90953edcb3982e530776720bb82ff2e06f7128b39ba2e6e46",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

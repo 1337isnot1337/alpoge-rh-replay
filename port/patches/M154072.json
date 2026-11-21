@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.SSAscent",
+  "source_sha256": "66bf9ccbf1bcc5e22a30be98f04afcd61dc5e2b3bf248baa079d2c2dc5c492c1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

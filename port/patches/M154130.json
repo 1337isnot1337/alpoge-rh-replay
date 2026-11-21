@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnimodIdx",
+  "source_sha256": "050f4e1c618a39770fe46645dbb6e39628ce80ace4aa2e5c72f3c8bcee2b0a64",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
