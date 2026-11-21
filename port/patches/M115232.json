@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsSupported",
+  "source_sha256": "26d1370b79ff807deb1558235aae4ba14c7bbcc791ace28855afa3dceb78beeb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

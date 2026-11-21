@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FiniteSpanAddSmul",
+  "source_sha256": "15063e0947991920580c6969ea0c4b7f8f61c735d5e53276e3e9bae4359422d8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

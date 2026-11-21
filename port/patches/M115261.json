@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FinitelyGeneratedModPow",
+  "source_sha256": "d63097f1eb26fd3fbcf64715a62c05a74c37e20b8ebf7291c6631bfa9887637f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsLimitOfApprox",
+  "source_sha256": "0658012deb7fee836f56dc6710cb5f7c83194b1374acbb420b29bbd4b182e457",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

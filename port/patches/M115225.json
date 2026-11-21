@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsSmoothExtensionNear",
+  "source_sha256": "2ff71ca4f4f6cbdcd27a8c41a3572ff3d2cbb031539fd408903ae8f9c5ccb984",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

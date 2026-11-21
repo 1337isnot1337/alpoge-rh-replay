@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsRootCongruence",
+  "source_sha256": "acc4d449b68fa9be196335f9eca9c3ace678cbf0f6bb738ca5af1b3ce7c30494",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExtendPt",
+  "source_sha256": "d1d099c8bc72ecc0545bb5e9a1478d3dd813a548c705267f1b65a1b4c574eedc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Expose the ideal contraction equality as comap for existing membership rewrites; theorem statement unchanged."
+}

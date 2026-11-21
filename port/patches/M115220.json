@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsRingHomExtendOfIsIntegral",
+  "source_sha256": "79a1f41dc68c93f15c2c8a1cd31147eab7661fbbb1d1a489b5a963e34b2141e7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

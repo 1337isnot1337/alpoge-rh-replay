@@ -1,0 +1,15 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/FactorConjugationCancel.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/FactorConjugationCancel.lean
+@@ -35,10 +35,10 @@
+   have ms : Measurable (⇑s : G → G) := s.continuous.measurable
+   have hm' : ∀ r : NNReal, Measure.map (⇑m : G → G) (r • ν) = (r * a) • ν := by
+     intro r
+-    rw [Measure.map_smul, ha, smul_smul]
++    rw [Measure.map_smul _ mm.aemeasurable, ha, smul_smul]
+   have hs' : ∀ r : NNReal, Measure.map (⇑s : G → G) (r • ν) = (r * b) • ν := by
+     intro r
+-    rw [Measure.map_smul, hb, smul_smul]
++    rw [Measure.map_smul _ ms.aemeasurable, hb, smul_smul]
+   have hbb : b * b = 1 := by
+     apply UpperTheory.Reformulated.B.FactorConjugationCancel.smul_cancel ν
+     rw [← hs', ← hb, Measure.map_map ms ms, one_smul]

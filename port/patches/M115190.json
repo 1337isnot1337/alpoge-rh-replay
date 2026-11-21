@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsFixedLift",
+  "source_sha256": "d9c9b0963bfbdf3944ebdd370f312fbaf039d5cb76ec1ba39e56fabfb07e603c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

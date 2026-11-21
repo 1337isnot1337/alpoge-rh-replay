@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FactorialTendstoZero",
+  "source_sha256": "445d4aad256f70ea41c6e4124d105bad4ba833fd1dfe1ed42d8aa1e258416857",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

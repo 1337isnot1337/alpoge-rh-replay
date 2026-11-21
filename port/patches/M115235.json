@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsValuationSubLeOne",
+  "source_sha256": "5619958611e0ceb50889b9256a90fc0a30fe7b478cb2f14d8949c6b5490a8630",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
