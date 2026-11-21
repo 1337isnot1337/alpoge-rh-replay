@@ -1,0 +1,11 @@
+--- a/src/Formalism/LocalToGlobal/ProjectiveLattices/KapTrdegPfA.lean
++++ b/src/Formalism/LocalToGlobal/ProjectiveLattices/KapTrdegPfA.lean
+@@ -21,7 +21,7 @@
+     exact (not_le_of_gt hPlt) (hp.2 ⟨hP, bot_le⟩ hPlt.le)
+   have : p.LiesOver (⊥ : Ideal (MvPolynomial (Fin n) K)) := ⟨hq.symm⟩
+   let := Localization.AtPrime.algebraOfLiesOver (⊥ : Ideal (MvPolynomial (Fin n) K)) p
+-  have : Localization.AtPrime.IsLiesOverAlgebra (⊥ : Ideal (MvPolynomial (Fin n) K)) p := ⟨rfl⟩
++  have : Localization.AtPrime.IsLiesOverAlgebra (⊥ : Ideal (MvPolynomial (Fin n) K)) p := inferInstance
+   have : Algebra.FormallyUnramified A (Localization.AtPrime p) :=
+     Algebra.FormallyUnramified.of_isLocalization p.primeCompl
+   have : Algebra.IsUnramifiedAt (MvPolynomial (Fin n) K) p :=

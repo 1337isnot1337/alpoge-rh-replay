@@ -1,0 +1,14 @@
+--- a/src/Formalism/LocalToGlobal/SiegelLatticeTheory/FlagStabilizerTensors/RootLatticeThresholds/PiMeasureScaling.lean
++++ b/src/Formalism/LocalToGlobal/SiegelLatticeTheory/FlagStabilizerTensors/RootLatticeThresholds/PiMeasureScaling.lean
+@@ -59,8 +59,9 @@
+     rw [pi_smul_vol _ (fun i => ENNReal.ofReal_ne_top), volume_pi]
+   have hcomp : (fun (y : κ → ℂ) (i : ι) => s i * y (e i)) =
+       (fun (x : ι → ℂ) i => s i * x i) ∘ (fun (y : κ → ℂ) (i : ι) => y (e i)) := rfl
+-  rw [hk, Measure.map_smul, hcomp,
+-    ← Measure.map_map (measurable_pi_lambda _ fun i => (measurable_pi_apply i).const_mul (s i))
++  have hms : Measurable (fun (y : κ → ℂ) (i : ι) => s i * y (e i)) := by fun_prop
++  rw [hk, Measure.map_smul _ hms.aemeasurable, hcomp,
++    ← Measure.map_map (Measurable.of_eval fun i => (measurable_pi_apply i).const_mul (s i))
+       (reindex_mp e).measurable, (reindex_mp e).map_eq, hsc, smul_smul]
+   congr 1
+   rw [Finset.prod_mul_distrib, Finset.prod_const, Finset.prod_const, Finset.card_univ,

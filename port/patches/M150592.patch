@@ -1,0 +1,21 @@
+--- a/src/Formalism/LocalToGlobal/SiegelLatticeTheory/CasimirReductionTheory/OneParameterDerivatives/WeilIndicatorMeasures/MeasurableUnitMulIndicator.lean
++++ b/src/Formalism/LocalToGlobal/SiegelLatticeTheory/CasimirReductionTheory/OneParameterDerivatives/WeilIndicatorMeasures/MeasurableUnitMulIndicator.lean
+@@ -107,7 +107,7 @@
+       first | rfl | simp [Set.indicator_apply]
+     have hC : κ {h : H | (h : G) ∈ V⁻¹ * V} < ∞ := measure_coset_lt_top hH κ hVc
+     refine ⟨fun x => ∑' n, (2⁻¹ : ℝ≥0∞) ^ n * V.indicator 1 ((d n)⁻¹ * x), ?_, ?_, ?_⟩
+-    · exact Measurable.ennreal_tsum (fun n => measurable_const.mul
++    · exact Measurable.tsum (fun n => measurable_const.mul
+         ((measurable_one.indicator hVm).comp (measurable_const_mul _)))
+     · intro x
+       rw [hfib x]
+@@ -124,7 +124,8 @@
+       have hpos' := measure_nhds_pos κ hnb
+       calc (0 : ℝ≥0∞) < (2⁻¹ : ℝ≥0∞) ^ n * κ {h : H | (d n)⁻¹ * x * (h : G) ∈ V} :=
+             ENNReal.mul_pos (by simp) hpos'.ne'
+-        _ ≤ _ := ENNReal.le_tsum n
++        _ ≤ _ := ENNReal.le_tsum (f := fun n : ℕ => (2⁻¹ : ℝ≥0∞) ^ n *
++          κ {h : H | (d n)⁻¹ * x * (h : G) ∈ V}) n
+     · intro x
+       rw [hfib x]
+       have hle : ∑' n, (2⁻¹ : ℝ≥0∞) ^ n * κ {h : H | (d n)⁻¹ * x * (h : G) ∈ V}
