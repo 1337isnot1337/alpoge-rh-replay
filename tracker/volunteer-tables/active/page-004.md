@@ -116,7 +116,6 @@
 | [@rohanarun](https://github.com/rohanarun) | [M146010](https://github.com/rohanarun/alpoge-rh-replay/issues/7012) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M133691](https://github.com/rohanarun/alpoge-rh-replay/issues/7016) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M058930](https://github.com/rohanarun/alpoge-rh-replay/issues/7019) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M107448](https://github.com/rohanarun/alpoge-rh-replay/issues/7024) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M160596](https://github.com/rohanarun/alpoge-rh-replay/issues/7027) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M020336](https://github.com/rohanarun/alpoge-rh-replay/issues/7031) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M069659](https://github.com/rohanarun/alpoge-rh-replay/issues/7033) | Claimed |
@@ -254,3 +253,4 @@
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M139051](https://github.com/rohanarun/alpoge-rh-replay/issues/14342) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2256](https://github.com/rohanarun/alpoge-rh-replay/issues/14499) | Claimed |
 | [@dga471](https://github.com/dga471) | [M015310](https://github.com/rohanarun/alpoge-rh-replay/issues/15169) | Claimed |
+| [@dga471](https://github.com/dga471) | [M002890](https://github.com/rohanarun/alpoge-rh-replay/issues/15172) | Claimed |

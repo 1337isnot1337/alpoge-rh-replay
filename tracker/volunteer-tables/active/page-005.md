@@ -4,7 +4,6 @@
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@dga471](https://github.com/dga471) | [M002890](https://github.com/rohanarun/alpoge-rh-replay/issues/15172) | Claimed |
 | [@dga471](https://github.com/dga471) | [M103115](https://github.com/rohanarun/alpoge-rh-replay/issues/15176) | Claimed |
 | [@dga471](https://github.com/dga471) | [M173250](https://github.com/rohanarun/alpoge-rh-replay/issues/15180) | Claimed |
 | [@dga471](https://github.com/dga471) | [M076897](https://github.com/rohanarun/alpoge-rh-replay/issues/15266) | Claimed |
@@ -254,3 +253,4 @@
 | [@dhudakk](https://github.com/dhudakk) | [M012249](https://github.com/rohanarun/alpoge-rh-replay/issues/19562) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M093935](https://github.com/rohanarun/alpoge-rh-replay/issues/19566) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M012028](https://github.com/rohanarun/alpoge-rh-replay/issues/19600) | Claimed |
+| [@dhudakk](https://github.com/dhudakk) | [M118251](https://github.com/rohanarun/alpoge-rh-replay/issues/19640) | Claimed |

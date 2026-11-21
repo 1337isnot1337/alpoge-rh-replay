@@ -4,9 +4,6 @@
 
 | Contributor | Task | Review |
 |---|---|---|
-| [@surfyhou](https://github.com/surfyhou) | [P1891](https://github.com/rohanarun/alpoge-rh-replay/issues/18414#issuecomment-7060542459) | Pending review |
-| [@HITEYY](https://github.com/HITEYY) | [M078156](https://github.com/rohanarun/alpoge-rh-replay/issues/18415#issuecomment-7060312971) | Pending review |
-| [@HITEYY](https://github.com/HITEYY) | [M100306](https://github.com/rohanarun/alpoge-rh-replay/issues/18416#issuecomment-7060318601) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M110469](https://github.com/rohanarun/alpoge-rh-replay/issues/18417#issuecomment-7060321600) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M085325](https://github.com/rohanarun/alpoge-rh-replay/issues/18418#issuecomment-7060315896) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M115651](https://github.com/rohanarun/alpoge-rh-replay/issues/18419#issuecomment-7060323919) | Pending review |
@@ -254,3 +251,6 @@
 | [@dhudakk](https://github.com/dhudakk) | [M171897](https://github.com/rohanarun/alpoge-rh-replay/issues/18916#issuecomment-7060613296) | Pending review |
 | [@dga471](https://github.com/dga471) | [M168696](https://github.com/rohanarun/alpoge-rh-replay/issues/18917#issuecomment-7060737785) | Pending review |
 | [@amrehan](https://github.com/amrehan) | [M163672](https://github.com/rohanarun/alpoge-rh-replay/issues/18918#issuecomment-7060612030) | Pending review |
+| [@amrehan](https://github.com/amrehan) | [M163750](https://github.com/rohanarun/alpoge-rh-replay/issues/18919#issuecomment-7060612705) | Pending review |
+| [@gilad12-coder](https://github.com/gilad12-coder) | [M082769](https://github.com/rohanarun/alpoge-rh-replay/issues/18920#issuecomment-7060637528) | Pending review |
+| [@gilad12-coder](https://github.com/gilad12-coder) | [M088597](https://github.com/rohanarun/alpoge-rh-replay/issues/18921#issuecomment-7060630362) | Pending review |

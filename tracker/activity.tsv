@@ -187,8 +187,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:08:32Z	grant	187	shardmods
 2026-11-20T18:08:34Z	grant	189	shardmods
 2026-11-20T18:08:40Z	grant	195	shardmods
-2026-11-20T18:08:41Z	grant	196	roonastgames
-2026-11-20T18:08:41Z	volunteer	196	roonastgames
 2026-11-20T18:08:43Z	grant	197	BenCaunt
 2026-11-20T18:08:44Z	grant	198	BenCaunt
 2026-11-20T18:08:47Z	grant	202	shardmods
@@ -556,7 +554,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:35:08Z	grant	552	gabeldev
 2026-11-20T18:35:11Z	submission	549	Amahane-Hikari
 2026-11-20T18:35:26Z	grant	553	Amahane-Hikari
-2026-11-20T18:35:30Z	submission	508	BenCaunt
 2026-11-20T18:35:30Z	submission	526	BenCaunt
 2026-11-20T18:35:30Z	submission	528	BenCaunt
 2026-11-20T18:35:31Z	submission	550	Amahane-Hikari
@@ -675,7 +672,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:43:10Z	submission	605	BenCaunt
 2026-11-20T18:43:10Z	submission	608	BenCaunt
 2026-11-20T18:43:12Z	grant	621	BenCaunt
-2026-11-20T18:43:12Z	submission	196	roonastgames
 2026-11-20T18:43:13Z	grant	622	Amahane-Hikari
 2026-11-20T18:43:14Z	grant	623	BenCaunt
 2026-11-20T18:43:15Z	grant	624	Amahane-Hikari
@@ -828,7 +824,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:52:33Z	submission	701	Amahane-Hikari
 2026-11-20T18:52:34Z	grant	713	dhudakk
 2026-11-20T18:52:34Z	volunteer	713	dhudakk
-2026-11-20T18:52:35Z	grant	714	roonastgames
 2026-11-20T18:52:41Z	submission	703	Amahane-Hikari
 2026-11-20T18:52:42Z	submission	519	dga471
 2026-11-20T18:52:42Z	submission	707	gabeldev
@@ -917,7 +912,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T18:57:17Z	submission	756	maddoxjack
 2026-11-20T18:57:28Z	grant	761	Amahane-Hikari
 2026-11-20T18:57:29Z	grant	762	shardmods
-2026-11-20T18:57:29Z	submission	714	roonastgames
 2026-11-20T18:57:30Z	grant	763	shardmods
 2026-11-20T18:57:31Z	grant	764	shardmods
 2026-11-20T18:57:32Z	submission	757	Amahane-Hikari
@@ -1075,7 +1069,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T19:06:10Z	grant	978	maddoxjack
 2026-11-20T19:06:11Z	grant	979	Amahane-Hikari
 2026-11-20T19:06:15Z	grant	982	BenCaunt
-2026-11-20T19:06:16Z	grant	983	roonastgames
 2026-11-20T19:06:19Z	submission	968	Amahane-Hikari
 2026-11-20T19:06:21Z	submission	973	Amahane-Hikari
 2026-11-20T19:06:27Z	submission	469	shardmods
@@ -1139,7 +1132,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T19:09:18Z	submission	1032	jjjhenriksen
 2026-11-20T19:09:20Z	grant	1049	aapolipponen
 2026-11-20T19:09:20Z	submission	1035	Amahane-Hikari
-2026-11-20T19:09:25Z	submission	983	roonastgames
 2026-11-20T19:09:38Z	submission	976	BenCaunt
 2026-11-20T19:09:40Z	grant	1050	aapolipponen
 2026-11-20T19:09:41Z	grant	1051	krisyotam
@@ -1394,7 +1386,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T19:27:20Z	submission	1168	Amahane-Hikari
 2026-11-20T19:27:20Z	submission	1198	maddoxjack
 2026-11-20T19:27:23Z	submission	1191	Amahane-Hikari
-2026-11-20T19:27:29Z	grant	1201	roonastgames
 2026-11-20T19:27:30Z	grant	1202	Amahane-Hikari
 2026-11-20T19:27:31Z	grant	1203	Amahane-Hikari
 2026-11-20T19:27:32Z	grant	1204	Amahane-Hikari
@@ -1446,7 +1437,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T19:30:44Z	submission	1213	BenCaunt
 2026-11-20T19:30:45Z	grant	1246	WilmervH
 2026-11-20T19:30:50Z	submission	1234	maddoxjack
-2026-11-20T19:30:57Z	submission	1201	roonastgames
 2026-11-20T19:31:05Z	submission	732	aapolipponen
 2026-11-20T19:31:05Z	submission	1242	gabeldev
 2026-11-20T19:31:11Z	grant	1248	mu-mei
@@ -2970,6 +2960,7 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T20:37:07Z	grant	2423	sat3n
 2026-11-20T20:37:08Z	grant	2424	mu-mei
 2026-11-20T20:37:09Z	grant	2425	BenCaunt
+2026-11-20T20:37:09Z	submission	2411	Amahane-Hikari
 2026-11-20T20:37:10Z	grant	2426	sat3n
 2026-11-20T20:37:11Z	grant	2427	mu-mei
 2026-11-20T20:37:12Z	grant	2428	mu-mei
@@ -3272,7 +3263,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T20:47:11Z	grant	2593	gabeldev
 2026-11-20T20:47:12Z	grant	2594	mu-mei
 2026-11-20T20:47:12Z	grant	2595	user42245
-2026-11-20T20:47:12Z	submission	538	Genius-Cai-wen-zheng
 2026-11-20T20:47:14Z	grant	2596	Amahane-Hikari
 2026-11-20T20:47:14Z	grant	2597	Amahane-Hikari
 2026-11-20T20:47:39Z	submission	2593	gabeldev
@@ -4653,7 +4643,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T21:30:06Z	grant	3355	SeriousRising
 2026-11-20T21:30:07Z	grant	3356	Amahane-Hikari
 2026-11-20T21:30:08Z	grant	3357	sat3n
-2026-11-20T21:30:10Z	grant	3358	roonastgames
 2026-11-20T21:30:12Z	grant	3359	sat3n
 2026-11-20T21:30:13Z	grant	3360	nicu-chiciuc
 2026-11-20T21:30:14Z	grant	3361	vivekshivarajkumar
@@ -4735,7 +4724,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T21:32:51Z	grant	3412	DanieleCorso
 2026-11-20T21:32:52Z	grant	3413	Amahane-Hikari
 2026-11-20T21:32:54Z	grant	3415	vivekshivarajkumar
-2026-11-20T21:32:54Z	submission	3358	roonastgames
 2026-11-20T21:32:56Z	grant	3416	DanieleCorso
 2026-11-20T21:32:59Z	grant	3418	DanieleCorso
 2026-11-20T21:33:00Z	grant	3419	vivekshivarajkumar
@@ -5125,7 +5113,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T21:45:18Z	submission	3599	Amahane-Hikari
 2026-11-20T21:45:19Z	submission	3561	emsi
 2026-11-20T21:45:20Z	submission	3586	BenCaunt
-2026-11-20T21:45:20Z	submission	3587	nicu-chiciuc
 2026-11-20T21:45:25Z	submission	3562	emsi
 2026-11-20T21:45:32Z	submission	3563	emsi
 2026-11-20T21:45:35Z	grant	3603	maddoxjack
@@ -5593,6 +5580,7 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:00:00Z	grant	3823	Amahane-Hikari
 2026-11-20T22:00:01Z	grant	3824	Amahane-Hikari
 2026-11-20T22:00:03Z	grant	3825	mu-mei
+2026-11-20T22:00:03Z	submission	3647	vivekshivarajkumar
 2026-11-20T22:00:04Z	grant	3827	mu-mei
 2026-11-20T22:00:05Z	grant	3828	vivekshivarajkumar
 2026-11-20T22:00:05Z	submission	3650	vivekshivarajkumar
@@ -5646,7 +5634,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:01:25Z	grant	3857	nicu-chiciuc
 2026-11-20T22:01:26Z	grant	3858	BenCaunt
 2026-11-20T22:01:29Z	submission	3790	emsi
-2026-11-20T22:01:30Z	grant	3862	roonastgames
 2026-11-20T22:01:33Z	grant	3864	Amahane-Hikari
 2026-11-20T22:01:34Z	grant	3865	Amahane-Hikari
 2026-11-20T22:01:36Z	grant	3867	BenCaunt
@@ -5727,7 +5714,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:04:09Z	grant	3914	Amahane-Hikari
 2026-11-20T22:04:10Z	grant	3915	Amahane-Hikari
 2026-11-20T22:04:11Z	grant	3916	nicu-chiciuc
-2026-11-20T22:04:11Z	submission	3862	roonastgames
 2026-11-20T22:04:12Z	grant	3917	nicu-chiciuc
 2026-11-20T22:04:14Z	grant	3918	emsi
 2026-11-20T22:04:15Z	grant	3919	user42245
@@ -5837,7 +5823,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:07:36Z	grant	3978	nicu-chiciuc
 2026-11-20T22:07:37Z	grant	3979	nicu-chiciuc
 2026-11-20T22:07:38Z	grant	3980	Trefoiler
-2026-11-20T22:07:39Z	grant	3981	roonastgames
 2026-11-20T22:07:40Z	grant	3982	mu-mei
 2026-11-20T22:07:42Z	grant	3984	vivekshivarajkumar
 2026-11-20T22:07:44Z	grant	3986	Amahane-Hikari
@@ -5912,7 +5897,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:10:36Z	submission	3969	Amahane-Hikari
 2026-11-20T22:10:38Z	grant	4052	user42245
 2026-11-20T22:10:40Z	grant	4054	mu-mei
-2026-11-20T22:10:43Z	submission	3981	roonastgames
 2026-11-20T22:10:45Z	grant	4058	egergerfg
 2026-11-20T22:10:46Z	grant	4059	egergerfg
 2026-11-20T22:10:47Z	submission	3806	vivekshivarajkumar
@@ -6205,7 +6189,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:18:33Z	grant	4297	vivekshivarajkumar
 2026-11-20T22:18:34Z	grant	4298	vivekshivarajkumar
 2026-11-20T22:18:34Z	submission	3989	vivekshivarajkumar
-2026-11-20T22:18:35Z	grant	4299	roonastgames
 2026-11-20T22:18:36Z	grant	4300	maxime-fleury
 2026-11-20T22:18:36Z	grant	4301	vivekshivarajkumar
 2026-11-20T22:18:36Z	submission	3993	vivekshivarajkumar
@@ -6243,7 +6226,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:19:32Z	submission	4306	Amahane-Hikari
 2026-11-20T22:19:36Z	submission	4318	nicu-chiciuc
 2026-11-20T22:19:36Z	submission	4320	ANdATIon
-2026-11-20T22:19:39Z	submission	4299	roonastgames
 2026-11-20T22:19:40Z	submission	4307	Amahane-Hikari
 2026-11-20T22:19:41Z	submission	4300	maxime-fleury
 2026-11-20T22:20:01Z	grant	4321	maddoxjack
@@ -6307,7 +6289,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:21:31Z	grant	4355	agi-for-my-llama
 2026-11-20T22:21:32Z	grant	4356	maxime-fleury
 2026-11-20T22:21:34Z	grant	4357	agi-for-my-llama
-2026-11-20T22:21:35Z	grant	4358	roonastgames
 2026-11-20T22:21:36Z	grant	4359	egergerfg
 2026-11-20T22:21:38Z	grant	4360	agi-for-my-llama
 2026-11-20T22:21:39Z	grant	4361	egergerfg
@@ -6379,7 +6360,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:22:38Z	submission	4218	loremcdmx
 2026-11-20T22:22:39Z	submission	4216	loremcdmx
 2026-11-20T22:22:41Z	submission	4215	loremcdmx
-2026-11-20T22:22:42Z	submission	4358	roonastgames
 2026-11-20T22:22:43Z	submission	4214	loremcdmx
 2026-11-20T22:22:44Z	submission	4356	maxime-fleury
 2026-11-20T22:22:45Z	submission	4213	loremcdmx
@@ -6501,7 +6481,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:24:31Z	grant	4423	vivekshivarajkumar
 2026-11-20T22:24:31Z	submission	4271	BenCaunt
 2026-11-20T22:24:32Z	grant	4424	vivekshivarajkumar
-2026-11-20T22:24:33Z	grant	4425	roonastgames
 2026-11-20T22:24:35Z	grant	4427	Amahane-Hikari
 2026-11-20T22:24:37Z	grant	4428	Amahane-Hikari
 2026-11-20T22:24:38Z	grant	4429	agi-for-my-llama
@@ -6547,7 +6526,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:25:17Z	submission	4435	ANdATIon
 2026-11-20T22:25:18Z	submission	4434	agi-for-my-llama
 2026-11-20T22:25:23Z	submission	4436	agi-for-my-llama
-2026-11-20T22:25:30Z	submission	4425	roonastgames
 2026-11-20T22:25:30Z	submission	4428	Amahane-Hikari
 2026-11-20T22:25:32Z	submission	4427	Amahane-Hikari
 2026-11-20T22:25:32Z	submission	4445	agi-for-my-llama
@@ -6638,7 +6616,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:27:11Z	grant	4514	ANdATIon
 2026-11-20T22:27:13Z	grant	4516	loremcdmx
 2026-11-20T22:27:14Z	grant	4518	loremcdmx
-2026-11-20T22:27:15Z	submission	4481	mu-mei
 2026-11-20T22:27:16Z	grant	4520	loremcdmx
 2026-11-20T22:27:16Z	submission	4470	Amahane-Hikari
 2026-11-20T22:27:16Z	submission	4490	agi-for-my-llama
@@ -6680,7 +6657,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:27:42Z	submission	4257	vivekshivarajkumar
 2026-11-20T22:27:43Z	grant	4545	loremcdmx
 2026-11-20T22:27:44Z	submission	4523	maddoxjack
-2026-11-20T22:27:45Z	grant	4547	roonastgames
 2026-11-20T22:27:46Z	grant	4548	loremcdmx
 2026-11-20T22:27:47Z	submission	4514	ANdATIon
 2026-11-20T22:27:49Z	grant	4551	loremcdmx
@@ -6775,7 +6751,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:30:27Z	grant	4643	DanieleCorso
 2026-11-20T22:30:28Z	submission	4617	nicu-chiciuc
 2026-11-20T22:30:29Z	grant	4644	maddoxjack
-2026-11-20T22:30:30Z	submission	4547	roonastgames
 2026-11-20T22:30:31Z	grant	4646	mu-mei
 2026-11-20T22:30:31Z	submission	4625	agi-for-my-llama
 2026-11-20T22:30:32Z	grant	4647	mu-mei
@@ -6871,7 +6846,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:32:21Z	submission	4661	agi-for-my-llama
 2026-11-20T22:32:23Z	grant	4695	RobertBarnettProjects
 2026-11-20T22:32:24Z	grant	4696	ANdATIon
-2026-11-20T22:32:25Z	grant	4697	roonastgames
 2026-11-20T22:32:26Z	grant	4698	agi-for-my-llama
 2026-11-20T22:32:28Z	grant	4699	RobertBarnettProjects
 2026-11-20T22:32:28Z	grant	4700	ANdATIon
@@ -6928,7 +6902,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:33:28Z	submission	4472	loremcdmx
 2026-11-20T22:33:29Z	submission	4473	loremcdmx
 2026-11-20T22:33:31Z	submission	4474	loremcdmx
-2026-11-20T22:33:31Z	submission	4697	roonastgames
 2026-11-20T22:33:32Z	submission	4476	loremcdmx
 2026-11-20T22:33:33Z	submission	4673	emsi
 2026-11-20T22:33:34Z	submission	4477	loremcdmx
@@ -7082,13 +7055,11 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:35:38Z	submission	4596	loremcdmx
 2026-11-20T22:35:38Z	submission	4760	maxime-fleury
 2026-11-20T22:35:40Z	submission	4598	loremcdmx
-2026-11-20T22:35:41Z	submission	4599	loremcdmx
 2026-11-20T22:35:41Z	submission	4759	agi-for-my-llama
 2026-11-20T22:35:43Z	submission	4600	loremcdmx
 2026-11-20T22:35:44Z	grant	4764	vivekshivarajkumar
 2026-11-20T22:35:44Z	submission	4602	loremcdmx
 2026-11-20T22:35:45Z	grant	4765	vivekshivarajkumar
-2026-11-20T22:35:46Z	grant	4766	roonastgames
 2026-11-20T22:35:46Z	submission	4603	loremcdmx
 2026-11-20T22:35:46Z	submission	4751	agi-for-my-llama
 2026-11-20T22:35:47Z	grant	4767	vivekshivarajkumar
@@ -7181,7 +7152,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:37:51Z	submission	4801	Amahane-Hikari
 2026-11-20T22:38:00Z	submission	4814	mu-mei
 2026-11-20T22:38:00Z	submission	4815	mu-mei
-2026-11-20T22:38:03Z	submission	4766	roonastgames
 2026-11-20T22:38:14Z	submission	3855	BenCaunt
 2026-11-20T22:38:17Z	submission	4723	BenCaunt
 2026-11-20T22:38:18Z	submission	4776	egergerfg
@@ -7361,7 +7331,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:41:09Z	submission	4930	zediir
 2026-11-20T22:41:10Z	grant	4963	loremcdmx
 2026-11-20T22:41:11Z	grant	4964	BenCaunt
-2026-11-20T22:41:12Z	grant	4965	roonastgames
 2026-11-20T22:41:13Z	grant	4966	agi-for-my-llama
 2026-11-20T22:41:13Z	submission	4796	rayy3535
 2026-11-20T22:41:14Z	grant	4967	agi-for-my-llama
@@ -7380,7 +7349,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:41:41Z	submission	4907	agi-for-my-llama
 2026-11-20T22:41:41Z	submission	4950	Amahane-Hikari
 2026-11-20T22:41:48Z	submission	4910	agi-for-my-llama
-2026-11-20T22:42:08Z	submission	4965	roonastgames
 2026-11-20T22:42:14Z	submission	4905	user42245
 2026-11-20T22:42:18Z	submission	4385	emsi
 2026-11-20T22:42:20Z	grant	4968	loremcdmx
@@ -7566,7 +7534,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:45:26Z	submission	5080	agi-for-my-llama
 2026-11-20T22:45:27Z	submission	5082	agi-for-my-llama
 2026-11-20T22:45:28Z	grant	5090	BenCaunt
-2026-11-20T22:45:29Z	grant	5091	roonastgames
 2026-11-20T22:45:30Z	grant	5092	vivekshivarajkumar
 2026-11-20T22:45:30Z	submission	5044	agi-for-my-llama
 2026-11-20T22:45:31Z	grant	5093	vivekshivarajkumar
@@ -7626,7 +7593,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:46:27Z	grant	5148	emsi
 2026-11-20T22:46:27Z	submission	5120	Amahane-Hikari
 2026-11-20T22:46:28Z	grant	5149	zediir
-2026-11-20T22:46:28Z	submission	5091	roonastgames
 2026-11-20T22:46:29Z	grant	5150	BenCaunt
 2026-11-20T22:46:30Z	grant	5151	zediir
 2026-11-20T22:46:43Z	submission	4680	emsi
@@ -7713,7 +7679,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:48:33Z	grant	5203	BenCaunt
 2026-11-20T22:48:35Z	grant	5204	RobertBarnettProjects
 2026-11-20T22:48:35Z	submission	4252	BenCaunt
-2026-11-20T22:48:36Z	grant	5205	roonastgames
 2026-11-20T22:48:36Z	submission	5175	jjjhenriksen
 2026-11-20T22:48:37Z	grant	5206	RobertBarnettProjects
 2026-11-20T22:48:38Z	grant	5207	RobertBarnettProjects
@@ -7761,7 +7726,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:49:21Z	submission	5211	Amahane-Hikari
 2026-11-20T22:49:23Z	submission	5221	agi-for-my-llama
 2026-11-20T22:49:25Z	submission	5219	agi-for-my-llama
-2026-11-20T22:49:27Z	submission	5205	roonastgames
 2026-11-20T22:49:32Z	submission	5223	agi-for-my-llama
 2026-11-20T22:49:36Z	submission	5168	agi-for-my-llama
 2026-11-20T22:49:40Z	submission	5049	jwr404
@@ -7863,7 +7827,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:51:48Z	grant	5332	BenCaunt
 2026-11-20T22:51:48Z	grant	5333	jjjhenriksen
 2026-11-20T22:51:52Z	grant	5336	agi-for-my-llama
-2026-11-20T22:51:53Z	grant	5337	roonastgames
 2026-11-20T22:51:54Z	submission	5308	nicu-chiciuc
 2026-11-20T22:51:56Z	grant	5339	mu-mei
 2026-11-20T22:51:56Z	submission	5029	ANdATIon
@@ -7886,7 +7849,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:52:47Z	submission	5251	rayy3535
 2026-11-20T22:52:49Z	submission	5283	ANdATIon
 2026-11-20T22:52:55Z	submission	5285	ANdATIon
-2026-11-20T22:52:59Z	submission	5337	roonastgames
 2026-11-20T22:53:01Z	submission	5317	ANdATIon
 2026-11-20T22:53:04Z	submission	4970	vivekshivarajkumar
 2026-11-20T22:53:05Z	submission	5324	ANdATIon
@@ -7993,7 +7955,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:55:59Z	submission	5167	RobertBarnettProjects
 2026-11-20T22:56:02Z	grant	5457	ANdATIon
 2026-11-20T22:56:03Z	submission	5179	RobertBarnettProjects
-2026-11-20T22:56:05Z	grant	5460	roonastgames
 2026-11-20T22:56:06Z	grant	5461	ANdATIon
 2026-11-20T22:56:06Z	submission	5189	RobertBarnettProjects
 2026-11-20T22:56:09Z	submission	5169	RobertBarnettProjects
@@ -8061,7 +8022,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:57:04Z	grant	5516	gilad12-coder
 2026-11-20T22:57:04Z	submission	5191	RobertBarnettProjects
 2026-11-20T22:57:05Z	grant	5517	drew2apps
-2026-11-20T22:57:05Z	submission	5460	roonastgames
 2026-11-20T22:57:05Z	volunteer	5517	drew2apps
 2026-11-20T22:57:06Z	grant	5518	Amahane-Hikari
 2026-11-20T22:57:07Z	grant	5519	t-choudhury
@@ -8136,7 +8096,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:58:47Z	grant	5557	Amahane-Hikari
 2026-11-20T22:58:48Z	grant	5558	Amahane-Hikari
 2026-11-20T22:58:49Z	grant	5559	Amahane-Hikari
-2026-11-20T22:58:50Z	grant	5561	roonastgames
 2026-11-20T22:58:50Z	submission	5520	user42245
 2026-11-20T22:58:51Z	grant	5562	user42245
 2026-11-20T22:58:52Z	grant	5563	RobertBarnettProjects
@@ -8191,7 +8150,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T22:59:40Z	submission	5578	jjjhenriksen
 2026-11-20T22:59:48Z	submission	5603	rayy3535
 2026-11-20T22:59:49Z	submission	5590	maddoxjack
-2026-11-20T22:59:50Z	submission	5561	roonastgames
 2026-11-20T22:59:53Z	submission	5605	rayy3535
 2026-11-20T22:59:54Z	submission	5584	zediir
 2026-11-20T22:59:57Z	submission	5555	BenCaunt
@@ -8281,7 +8239,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:01:50Z	submission	5609	ANdATIon
 2026-11-20T23:01:51Z	grant	5670	rayy3535
 2026-11-20T23:01:52Z	grant	5671	rayy3535
-2026-11-20T23:01:53Z	grant	5672	roonastgames
 2026-11-20T23:01:53Z	grant	5673	gilad12-coder
 2026-11-20T23:01:53Z	submission	5635	ANdATIon
 2026-11-20T23:01:54Z	grant	5674	gilad12-coder
@@ -8326,7 +8283,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:02:51Z	submission	5662	BenCaunt
 2026-11-20T23:02:51Z	submission	5683	ANdATIon
 2026-11-20T23:02:52Z	submission	5684	ANdATIon
-2026-11-20T23:02:55Z	submission	5672	roonastgames
 2026-11-20T23:03:04Z	submission	5679	zediir
 2026-11-20T23:03:11Z	submission	3850	JamCh01
 2026-11-20T23:03:12Z	submission	5299	vivekshivarajkumar
@@ -8437,7 +8393,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:05:54Z	submission	5085	hipotures
 2026-11-20T23:05:55Z	grant	5762	ANdATIon
 2026-11-20T23:05:57Z	grant	5763	BenCaunt
-2026-11-20T23:05:58Z	grant	5764	roonastgames
 2026-11-20T23:06:02Z	grant	5767	zediir
 2026-11-20T23:06:03Z	grant	5768	iAndyHD3
 2026-11-20T23:06:06Z	grant	5770	Amahane-Hikari
@@ -8481,7 +8436,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:06:58Z	submission	5801	amrehan
 2026-11-20T23:07:02Z	submission	5770	Amahane-Hikari
 2026-11-20T23:07:02Z	submission	5783	ANdATIon
-2026-11-20T23:07:04Z	submission	5764	roonastgames
 2026-11-20T23:07:04Z	submission	5774	Amahane-Hikari
 2026-11-20T23:07:05Z	submission	5648	RobertBarnettProjects
 2026-11-20T23:07:08Z	submission	5763	BenCaunt
@@ -8670,14 +8624,12 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:10:42Z	submission	5789	user42245
 2026-11-20T23:10:56Z	grant	5919	BenCaunt
 2026-11-20T23:10:57Z	grant	5920	ANdATIon
-2026-11-20T23:10:59Z	grant	5922	roonastgames
 2026-11-20T23:10:59Z	submission	5878	Amahane-Hikari
 2026-11-20T23:10:59Z	submission	5899	Amahane-Hikari
 2026-11-20T23:10:59Z	submission	5901	Amahane-Hikari
 2026-11-20T23:10:59Z	submission	5911	Amahane-Hikari
 2026-11-20T23:11:00Z	grant	5923	BenCaunt
 2026-11-20T23:11:01Z	grant	5924	JamCh01
-2026-11-20T23:11:02Z	grant	5925	roonastgames
 2026-11-20T23:11:03Z	grant	5926	galakurpi
 2026-11-20T23:11:03Z	submission	5906	BenCaunt
 2026-11-20T23:11:03Z	volunteer	5926	galakurpi
@@ -8756,7 +8708,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:12:05Z	grant	5987	ANdATIon
 2026-11-20T23:12:06Z	grant	5988	zediir
 2026-11-20T23:12:08Z	grant	5990	vivekshivarajkumar
-2026-11-20T23:12:08Z	submission	5922	roonastgames
 2026-11-20T23:12:09Z	grant	5991	RobertBarnettProjects
 2026-11-20T23:12:09Z	submission	5647	vivekshivarajkumar
 2026-11-20T23:12:10Z	grant	5992	mu-mei
@@ -8813,7 +8764,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:13:14Z	submission	5986	Trefoiler
 2026-11-20T23:13:31Z	submission	5975	Amahane-Hikari
 2026-11-20T23:13:37Z	submission	6011	Trefoiler
-2026-11-20T23:13:42Z	submission	5925	roonastgames
 2026-11-20T23:13:46Z	submission	5978	Amahane-Hikari
 2026-11-20T23:13:46Z	submission	6006	Amahane-Hikari
 2026-11-20T23:13:47Z	submission	4820	loremcdmx
@@ -8973,7 +8923,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:15:26Z	submission	4936	loremcdmx
 2026-11-20T23:15:27Z	submission	5782	vivekshivarajkumar
 2026-11-20T23:15:28Z	grant	6088	maddoxjack
-2026-11-20T23:15:29Z	grant	6089	roonastgames
 2026-11-20T23:15:30Z	grant	6090	BenCaunt
 2026-11-20T23:15:33Z	grant	6092	mu-mei
 2026-11-20T23:15:34Z	grant	6093	BenCaunt
@@ -9041,7 +8990,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:16:23Z	submission	4978	loremcdmx
 2026-11-20T23:16:24Z	submission	5851	vivekshivarajkumar
 2026-11-20T23:16:25Z	submission	4979	loremcdmx
-2026-11-20T23:16:25Z	submission	6089	roonastgames
 2026-11-20T23:16:26Z	submission	5853	vivekshivarajkumar
 2026-11-20T23:16:27Z	submission	4980	loremcdmx
 2026-11-20T23:16:28Z	submission	6112	rayy3535
@@ -9091,7 +9039,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:17:25Z	grant	6127	vivekshivarajkumar
 2026-11-20T23:17:25Z	submission	5016	loremcdmx
 2026-11-20T23:17:26Z	grant	6128	m4tthewdavis
-2026-11-20T23:17:27Z	grant	6129	roonastgames
 2026-11-20T23:17:28Z	grant	6130	vivekshivarajkumar
 2026-11-20T23:17:28Z	submission	1241	WilmervH
 2026-11-20T23:17:30Z	grant	6131	vivekshivarajkumar
@@ -9175,7 +9122,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:18:20Z	grant	6179	emsi
 2026-11-20T23:18:21Z	grant	6180	mu-mei
 2026-11-20T23:18:22Z	grant	6181	emsi
-2026-11-20T23:18:22Z	submission	6129	roonastgames
 2026-11-20T23:18:23Z	grant	6182	emsi
 2026-11-20T23:18:23Z	grant	6183	BenCaunt
 2026-11-20T23:18:23Z	submission	6163	nicu-chiciuc
@@ -9204,7 +9150,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:18:49Z	grant	6205	emsi
 2026-11-20T23:18:50Z	grant	6206	BenCaunt
 2026-11-20T23:18:51Z	grant	6207	zediir
-2026-11-20T23:18:53Z	grant	6208	roonastgames
 2026-11-20T23:18:53Z	submission	5930	vivekshivarajkumar
 2026-11-20T23:18:54Z	grant	6209	BenCaunt
 2026-11-20T23:18:54Z	grant	6210	drew2apps
@@ -9230,7 +9175,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:19:50Z	submission	6203	gilad12-coder
 2026-11-20T23:19:55Z	submission	6132	egergerfg
 2026-11-20T23:19:56Z	submission	6150	sp20262026
-2026-11-20T23:19:56Z	submission	6208	roonastgames
 2026-11-20T23:19:57Z	submission	6134	egergerfg
 2026-11-20T23:19:57Z	submission	6156	emsi
 2026-11-20T23:19:58Z	submission	6136	egergerfg
@@ -9294,7 +9238,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:20:56Z	submission	6223	rayy3535
 2026-11-20T23:20:57Z	grant	6242	rayy3535
 2026-11-20T23:20:58Z	grant	6243	rayy3535
-2026-11-20T23:20:59Z	grant	6244	roonastgames
 2026-11-20T23:21:00Z	grant	6245	vivekshivarajkumar
 2026-11-20T23:21:00Z	submission	6010	RobertBarnettProjects
 2026-11-20T23:21:00Z	submission	6059	jwr404
@@ -9408,7 +9351,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:22:06Z	submission	6022	RobertBarnettProjects
 2026-11-20T23:22:09Z	submission	6056	RobertBarnettProjects
 2026-11-20T23:22:10Z	submission	6179	emsi
-2026-11-20T23:22:10Z	submission	6244	roonastgames
 2026-11-20T23:22:10Z	submission	6255	rayy3535
 2026-11-20T23:22:10Z	submission	6276	mu-mei
 2026-11-20T23:22:12Z	submission	6280	mu-mei
@@ -9432,7 +9374,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:22:50Z	submission	6187	emsi
 2026-11-20T23:22:57Z	submission	6151	emsi
 2026-11-20T23:23:04Z	grant	6299	sp20262026
-2026-11-20T23:23:06Z	grant	6300	roonastgames
 2026-11-20T23:23:07Z	grant	6301	BenCaunt
 2026-11-20T23:23:12Z	grant	6307	JanSimeonMetzger
 2026-11-20T23:23:16Z	grant	6311	Trefoiler
@@ -9476,7 +9417,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:23:54Z	grant	6347	rayy3535
 2026-11-20T23:23:54Z	submission	6318	rayy3535
 2026-11-20T23:23:55Z	grant	6348	zediir
-2026-11-20T23:23:56Z	grant	6349	roonastgames
 2026-11-20T23:23:57Z	grant	6350	amrehan
 2026-11-20T23:23:57Z	submission	6319	drew2apps
 2026-11-20T23:23:58Z	submission	6329	nicu-chiciuc
@@ -9495,7 +9435,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:24:04Z	submission	6239	BenCaunt
 2026-11-20T23:24:05Z	grant	6358	emsi
 2026-11-20T23:24:06Z	grant	6359	vivekshivarajkumar
-2026-11-20T23:24:07Z	submission	6300	roonastgames
 2026-11-20T23:24:07Z	submission	6340	rayy3535
 2026-11-20T23:24:08Z	grant	6360	gilad12-coder
 2026-11-20T23:24:08Z	submission	6225	galakurpi
@@ -9531,7 +9470,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:25:27Z	submission	6299	sp20262026
 2026-11-20T23:25:31Z	grant	6365	vivekshivarajkumar
 2026-11-20T23:25:32Z	grant	6366	RobertBarnettProjects
-2026-11-20T23:25:32Z	submission	6349	roonastgames
 2026-11-20T23:25:33Z	grant	6367	zediir
 2026-11-20T23:25:34Z	grant	6368	RobertBarnettProjects
 2026-11-20T23:25:35Z	grant	6369	misuadn-laplace
@@ -9593,7 +9531,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:26:25Z	grant	6415	RobertBarnettProjects
 2026-11-20T23:26:25Z	submission	6355	burbon
 2026-11-20T23:26:26Z	grant	6416	mu-mei
-2026-11-20T23:26:28Z	grant	6417	roonastgames
 2026-11-20T23:26:29Z	grant	6418	jwr404
 2026-11-20T23:26:29Z	submission	6385	Amahane-Hikari
 2026-11-20T23:26:30Z	submission	6383	Amahane-Hikari
@@ -9659,7 +9596,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:27:21Z	submission	6428	mu-mei
 2026-11-20T23:27:25Z	submission	6250	misuadn-laplace
 2026-11-20T23:27:27Z	submission	6384	ANdATIon
-2026-11-20T23:27:30Z	submission	6417	roonastgames
 2026-11-20T23:27:30Z	submission	6444	rayy3535
 2026-11-20T23:27:33Z	submission	6253	misuadn-laplace
 2026-11-20T23:27:34Z	submission	6445	rayy3535
@@ -9700,7 +9636,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:28:38Z	grant	6469	sp20262026
 2026-11-20T23:28:38Z	submission	6274	misuadn-laplace
 2026-11-20T23:28:39Z	grant	6470	vivekshivarajkumar
-2026-11-20T23:28:40Z	grant	6471	roonastgames
 2026-11-20T23:28:41Z	grant	6472	vivekshivarajkumar
 2026-11-20T23:28:42Z	grant	6473	WilmervH
 2026-11-20T23:28:43Z	grant	6474	galakurpi
@@ -9714,9 +9649,7 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:28:49Z	grant	6481	Amahane-Hikari
 2026-11-20T23:28:50Z	grant	6482	Amahane-Hikari
 2026-11-20T23:28:50Z	submission	6214	surfyhou
-2026-11-20T23:28:52Z	grant	6483	roonastgames
 2026-11-20T23:28:53Z	grant	6484	mu-mei
-2026-11-20T23:28:54Z	grant	6485	roonastgames
 2026-11-20T23:28:54Z	submission	6281	misuadn-laplace
 2026-11-20T23:28:55Z	grant	6486	WilmervH
 2026-11-20T23:28:56Z	grant	6487	vivekshivarajkumar
@@ -9763,7 +9696,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:29:31Z	grant	6518	rishabh-16
 2026-11-20T23:29:31Z	volunteer	6518	rishabh-16
 2026-11-20T23:29:32Z	grant	6519	rayy3535
-2026-11-20T23:29:33Z	grant	6520	roonastgames
 2026-11-20T23:29:33Z	submission	6484	mu-mei
 2026-11-20T23:29:34Z	grant	6521	rayy3535
 2026-11-20T23:29:34Z	submission	6379	jdenwood
@@ -9775,7 +9707,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:29:39Z	grant	6526	galakurpi
 2026-11-20T23:29:40Z	grant	6527	galakurpi
 2026-11-20T23:29:41Z	grant	6528	drew2apps
-2026-11-20T23:29:41Z	submission	6471	roonastgames
 2026-11-20T23:29:41Z	submission	6497	mu-mei
 2026-11-20T23:29:42Z	grant	6529	galakurpi
 2026-11-20T23:29:42Z	grant	6530	vivekshivarajkumar
@@ -9786,7 +9717,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:29:44Z	submission	6519	rayy3535
 2026-11-20T23:29:48Z	submission	6492	drew2apps
 2026-11-20T23:29:49Z	submission	6494	zediir
-2026-11-20T23:29:50Z	submission	6215	vivekshivarajkumar
 2026-11-20T23:29:50Z	submission	6502	rayy3535
 2026-11-20T23:29:50Z	submission	6508	rayy3535
 2026-11-20T23:29:52Z	submission	4679	dga471
@@ -9800,7 +9730,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:29:59Z	submission	1258	WilmervH
 2026-11-20T23:30:00Z	submission	6070	m4tthewdavis
 2026-11-20T23:30:00Z	submission	6523	rayy3535
-2026-11-20T23:30:04Z	submission	6483	roonastgames
 2026-11-20T23:30:07Z	submission	6513	mu-mei
 2026-11-20T23:30:08Z	submission	6493	nicu-chiciuc
 2026-11-20T23:30:10Z	submission	1251	WilmervH
@@ -9812,7 +9741,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:30:17Z	submission	6528	drew2apps
 2026-11-20T23:30:22Z	submission	1237	WilmervH
 2026-11-20T23:30:23Z	submission	6477	galakurpi
-2026-11-20T23:30:29Z	submission	6485	roonastgames
 2026-11-20T23:30:31Z	submission	6478	galakurpi
 2026-11-20T23:30:32Z	submission	3155	WilmervH
 2026-11-20T23:30:34Z	submission	6009	BenCaunt
@@ -9822,7 +9750,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:30:43Z	submission	1265	WilmervH
 2026-11-20T23:30:43Z	submission	2496	JanSimeonMetzger
 2026-11-20T23:30:47Z	submission	6495	gilad12-coder
-2026-11-20T23:30:49Z	submission	6520	roonastgames
 2026-11-20T23:30:54Z	submission	1217	WilmervH
 2026-11-20T23:30:55Z	submission	6456	matan1905
 2026-11-20T23:30:56Z	submission	6480	matan1905
@@ -9850,7 +9777,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:31:21Z	grant	6549	drew2apps
 2026-11-20T23:31:22Z	grant	6550	maxime-fleury
 2026-11-20T23:31:22Z	submission	1222	WilmervH
-2026-11-20T23:31:23Z	grant	6551	roonastgames
 2026-11-20T23:31:23Z	submission	6234	vivekshivarajkumar
 2026-11-20T23:31:25Z	grant	6552	amrehan
 2026-11-20T23:31:25Z	submission	6240	vivekshivarajkumar
@@ -9868,11 +9794,9 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:31:34Z	submission	5924	JamCh01
 2026-11-20T23:31:35Z	grant	6560	rayy3535
 2026-11-20T23:31:36Z	grant	6561	rayy3535
-2026-11-20T23:31:36Z	grant	6562	roonastgames
 2026-11-20T23:31:39Z	grant	6564	nicu-chiciuc
 2026-11-20T23:31:40Z	grant	6565	drew2apps
 2026-11-20T23:31:41Z	grant	6567	vivekshivarajkumar
-2026-11-20T23:31:43Z	grant	6568	roonastgames
 2026-11-20T23:31:44Z	grant	6569	galakurpi
 2026-11-20T23:31:44Z	submission	1271	WilmervH
 2026-11-20T23:31:45Z	grant	6570	vivekshivarajkumar
@@ -9910,7 +9834,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:32:30Z	submission	6571	galakurpi
 2026-11-20T23:32:35Z	submission	6063	BenCaunt
 2026-11-20T23:32:36Z	submission	6331	WorldianAI
-2026-11-20T23:32:36Z	submission	6551	roonastgames
 2026-11-20T23:32:38Z	submission	6407	jwr404
 2026-11-20T23:32:45Z	grant	6572	galakurpi
 2026-11-20T23:32:46Z	grant	6573	galakurpi
@@ -9920,7 +9843,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:32:50Z	grant	6577	vivekshivarajkumar
 2026-11-20T23:32:51Z	grant	6578	sp20262026
 2026-11-20T23:32:51Z	submission	6288	vivekshivarajkumar
-2026-11-20T23:32:52Z	grant	6579	roonastgames
 2026-11-20T23:32:53Z	grant	6580	zediir
 2026-11-20T23:32:54Z	submission	6293	vivekshivarajkumar
 2026-11-20T23:32:55Z	grant	6581	zediir
@@ -9932,7 +9854,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:32:58Z	grant	6584	Amahane-Hikari
 2026-11-20T23:32:58Z	submission	6297	vivekshivarajkumar
 2026-11-20T23:32:59Z	grant	6585	Amahane-Hikari
-2026-11-20T23:32:59Z	submission	6562	roonastgames
 2026-11-20T23:33:01Z	grant	6587	gilad12-coder
 2026-11-20T23:33:02Z	grant	6588	galakurpi
 2026-11-20T23:33:03Z	grant	6589	galakurpi
@@ -9958,7 +9879,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:33:22Z	submission	6403	jwr404
 2026-11-20T23:33:23Z	grant	6608	rayy3535
 2026-11-20T23:33:24Z	grant	6609	rayy3535
-2026-11-20T23:33:24Z	submission	6568	roonastgames
 2026-11-20T23:33:25Z	grant	6610	rayy3535
 2026-11-20T23:33:25Z	submission	6574	misuadn-laplace
 2026-11-20T23:33:26Z	grant	6611	vivekshivarajkumar
@@ -9976,7 +9896,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:33:43Z	submission	6597	mu-mei
 2026-11-20T23:33:44Z	submission	6595	mu-mei
 2026-11-20T23:33:44Z	submission	6607	rayy3535
-2026-11-20T23:33:46Z	submission	6579	roonastgames
 2026-11-20T23:33:49Z	submission	6608	rayy3535
 2026-11-20T23:33:50Z	submission	6572	galakurpi
 2026-11-20T23:33:54Z	submission	6609	rayy3535
@@ -10007,7 +9926,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:34:37Z	submission	6453	RobertBarnettProjects
 2026-11-20T23:34:39Z	grant	6626	galakurpi
 2026-11-20T23:34:39Z	grant	6627	nicu-chiciuc
-2026-11-20T23:34:40Z	grant	6628	roonastgames
 2026-11-20T23:34:40Z	submission	6421	RobertBarnettProjects
 2026-11-20T23:34:41Z	grant	6629	emsi
 2026-11-20T23:34:42Z	grant	6630	nicu-chiciuc
@@ -10018,7 +9936,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:34:46Z	grant	6634	BenCaunt
 2026-11-20T23:34:46Z	grant	6635	egergerfg
 2026-11-20T23:34:46Z	submission	6588	galakurpi
-2026-11-20T23:34:47Z	grant	6636	roonastgames
 2026-11-20T23:34:47Z	submission	6458	RobertBarnettProjects
 2026-11-20T23:34:48Z	grant	6637	vivekshivarajkumar
 2026-11-20T23:34:49Z	grant	6638	JamCh01
@@ -10037,7 +9954,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:34:58Z	submission	6578	sp20262026
 2026-11-20T23:34:58Z	submission	6591	galakurpi
 2026-11-20T23:34:59Z	grant	6647	rayy3535
-2026-11-20T23:35:00Z	grant	6648	roonastgames
 2026-11-20T23:35:00Z	grant	6649	rayy3535
 2026-11-20T23:35:01Z	grant	6650	rayy3535
 2026-11-20T23:35:01Z	submission	6389	RobertBarnettProjects
@@ -10077,7 +9993,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:35:39Z	submission	6650	rayy3535
 2026-11-20T23:35:40Z	submission	6652	mu-mei
 2026-11-20T23:35:41Z	submission	6422	RobertBarnettProjects
-2026-11-20T23:35:41Z	submission	6628	roonastgames
 2026-11-20T23:35:43Z	submission	4731	whitegrave1917-web
 2026-11-20T23:35:44Z	submission	6619	maxime-fleury
 2026-11-20T23:35:44Z	submission	6626	galakurpi
@@ -10104,7 +10019,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:36:12Z	grant	6661	ANdATIon
 2026-11-20T23:36:13Z	grant	6662	rayy3535
 2026-11-20T23:36:13Z	submission	6390	RobertBarnettProjects
-2026-11-20T23:36:13Z	submission	6636	roonastgames
 2026-11-20T23:36:14Z	grant	6663	rayy3535
 2026-11-20T23:36:14Z	submission	6655	galakurpi
 2026-11-20T23:36:15Z	grant	6664	matan1905
@@ -10145,7 +10059,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:36:40Z	submission	6371	RobertBarnettProjects
 2026-11-20T23:36:41Z	grant	6688	sp20262026
 2026-11-20T23:36:41Z	grant	6689	drew2apps
-2026-11-20T23:36:41Z	submission	6648	roonastgames
 2026-11-20T23:36:41Z	submission	6666	rayy3535
 2026-11-20T23:36:42Z	grant	6690	vivekshivarajkumar
 2026-11-20T23:36:44Z	grant	6691	jjjhenriksen
@@ -10361,7 +10274,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:42:49Z	grant	6813	RobertBarnettProjects
 2026-11-20T23:42:50Z	grant	6814	RobertBarnettProjects
 2026-11-20T23:42:51Z	grant	6815	RobertBarnettProjects
-2026-11-20T23:42:52Z	grant	6816	roonastgames
 2026-11-20T23:42:53Z	grant	6817	RobertBarnettProjects
 2026-11-20T23:42:54Z	grant	6818	emsi
 2026-11-20T23:42:54Z	submission	6761	zediir
@@ -10372,7 +10284,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:42:58Z	submission	6804	matan1905
 2026-11-20T23:42:59Z	grant	6823	RobertBarnettProjects
 2026-11-20T23:42:59Z	grant	6824	RobertBarnettProjects
-2026-11-20T23:43:00Z	grant	6825	roonastgames
 2026-11-20T23:43:01Z	submission	6775	zediir
 2026-11-20T23:43:03Z	grant	6827	RobertBarnettProjects
 2026-11-20T23:43:04Z	grant	6828	Amahane-Hikari
@@ -10384,11 +10295,9 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:43:09Z	grant	6832	vivekshivarajkumar
 2026-11-20T23:43:10Z	grant	6833	vivekshivarajkumar
 2026-11-20T23:43:11Z	grant	6834	vivekshivarajkumar
-2026-11-20T23:43:12Z	grant	6835	roonastgames
 2026-11-20T23:43:13Z	grant	6836	ANdATIon
 2026-11-20T23:43:14Z	grant	6837	drew2apps
 2026-11-20T23:43:15Z	grant	6838	BenCaunt
-2026-11-20T23:43:16Z	grant	6839	roonastgames
 2026-11-20T23:43:16Z	submission	6111	m4tthewdavis
 2026-11-20T23:43:17Z	grant	6840	ANdATIon
 2026-11-20T23:43:18Z	grant	6841	ANdATIon
@@ -10427,7 +10336,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:43:52Z	submission	6530	vivekshivarajkumar
 2026-11-20T23:43:54Z	submission	6113	m4tthewdavis
 2026-11-20T23:43:54Z	submission	6531	vivekshivarajkumar
-2026-11-20T23:43:55Z	submission	6816	roonastgames
 2026-11-20T23:43:58Z	submission	6812	galakurpi
 2026-11-20T23:44:03Z	submission	6852	egergerfg
 2026-11-20T23:44:06Z	submission	6843	galakurpi
@@ -10436,12 +10344,10 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:44:16Z	submission	6842	Trefoiler
 2026-11-20T23:44:18Z	submission	5242	BenCaunt
 2026-11-20T23:44:23Z	submission	6787	BenCaunt
-2026-11-20T23:44:24Z	submission	6825	roonastgames
 2026-11-20T23:44:29Z	submission	6846	emsi
 2026-11-20T23:44:35Z	submission	6847	emsi
 2026-11-20T23:44:42Z	submission	6848	emsi
 2026-11-20T23:44:48Z	submission	6849	emsi
-2026-11-20T23:44:53Z	submission	6835	roonastgames
 2026-11-20T23:44:55Z	submission	6844	emsi
 2026-11-20T23:44:55Z	submission	6861	Trefoiler
 2026-11-20T23:44:56Z	submission	6118	m4tthewdavis
@@ -10449,7 +10355,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:45:07Z	submission	6850	emsi
 2026-11-20T23:45:08Z	submission	6809	sp20262026
 2026-11-20T23:45:14Z	submission	6539	vivekshivarajkumar
-2026-11-20T23:45:14Z	submission	6839	roonastgames
 2026-11-20T23:45:14Z	submission	6851	emsi
 2026-11-20T23:45:16Z	submission	6541	vivekshivarajkumar
 2026-11-20T23:45:18Z	submission	6543	vivekshivarajkumar
@@ -10519,7 +10424,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:46:41Z	grant	6903	Amahane-Hikari
 2026-11-20T23:46:41Z	submission	6884	amrehan
 2026-11-20T23:46:42Z	grant	6904	Amahane-Hikari
-2026-11-20T23:46:43Z	grant	6905	roonastgames
 2026-11-20T23:46:44Z	grant	6906	BenCaunt
 2026-11-20T23:46:44Z	submission	6880	rayy3535
 2026-11-20T23:46:46Z	grant	6908	Trefoiler
@@ -10552,7 +10456,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:47:06Z	submission	6895	matan1905
 2026-11-20T23:47:07Z	grant	6929	sp20262026
 2026-11-20T23:47:07Z	submission	2702	JanSimeonMetzger
-2026-11-20T23:47:08Z	grant	6930	roonastgames
 2026-11-20T23:47:09Z	submission	6878	rayy3535
 2026-11-20T23:47:09Z	submission	6908	Trefoiler
 2026-11-20T23:47:10Z	submission	6902	egergerfg
@@ -10569,7 +10472,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:47:42Z	submission	6750	ANdATIon
 2026-11-20T23:47:44Z	submission	6757	ANdATIon
 2026-11-20T23:47:45Z	submission	6755	ANdATIon
-2026-11-20T23:47:47Z	submission	6905	roonastgames
 2026-11-20T23:47:49Z	submission	6926	Trefoiler
 2026-11-20T23:47:52Z	submission	6900	maxime-fleury
 2026-11-20T23:47:57Z	grant	6932	vivekshivarajkumar
@@ -10600,7 +10502,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:48:20Z	submission	6917	galakurpi
 2026-11-20T23:48:24Z	submission	6938	egergerfg
 2026-11-20T23:48:27Z	submission	6919	galakurpi
-2026-11-20T23:48:27Z	submission	6930	roonastgames
 2026-11-20T23:48:27Z	submission	6939	nicu-chiciuc
 2026-11-20T23:48:31Z	submission	6870	BenCaunt
 2026-11-20T23:48:32Z	submission	6841	ANdATIon
@@ -10718,7 +10619,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:52:13Z	grant	6991	Amahane-Hikari
 2026-11-20T23:52:13Z	submission	6966	mu-mei
 2026-11-20T23:52:15Z	grant	6993	Amahane-Hikari
-2026-11-20T23:52:16Z	grant	6994	roonastgames
 2026-11-20T23:52:18Z	submission	2632	JanSimeonMetzger
 2026-11-20T23:52:19Z	grant	6997	jsnider3
 2026-11-20T23:52:20Z	submission	6972	rayy3535
@@ -10730,7 +10630,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:52:26Z	grant	7003	egergerfg
 2026-11-20T23:52:26Z	submission	6971	rayy3535
 2026-11-20T23:52:28Z	grant	7005	Amahane-Hikari
-2026-11-20T23:52:28Z	grant	7006	roonastgames
 2026-11-20T23:52:29Z	submission	6975	galakurpi
 2026-11-20T23:52:30Z	grant	7007	misuadn-laplace
 2026-11-20T23:52:30Z	submission	6967	drew2apps
@@ -10756,7 +10655,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:52:47Z	submission	6984	zediir
 2026-11-20T23:52:48Z	grant	7026	misuadn-laplace
 2026-11-20T23:52:49Z	submission	6733	vivekshivarajkumar
-2026-11-20T23:52:50Z	grant	7028	roonastgames
 2026-11-20T23:52:51Z	grant	7029	BenCaunt
 2026-11-20T23:52:51Z	submission	6735	vivekshivarajkumar
 2026-11-20T23:52:52Z	grant	7030	misuadn-laplace
@@ -10777,7 +10675,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:53:03Z	grant	7040	galakurpi
 2026-11-20T23:53:05Z	grant	7042	vivekshivarajkumar
 2026-11-20T23:53:06Z	submission	6993	Amahane-Hikari
-2026-11-20T23:53:07Z	grant	7044	roonastgames
 2026-11-20T23:53:08Z	submission	7025	egergerfg
 2026-11-20T23:53:10Z	grant	7047	amrehan
 2026-11-20T23:53:12Z	submission	7001	Amahane-Hikari
@@ -10785,7 +10682,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:53:15Z	submission	6962	gilad12-coder
 2026-11-20T23:53:16Z	submission	6997	jsnider3
 2026-11-20T23:53:19Z	grant	7053	sp20262026
-2026-11-20T23:53:19Z	submission	6994	roonastgames
 2026-11-20T23:53:22Z	submission	6988	maxime-fleury
 2026-11-20T23:53:29Z	submission	7047	amrehan
 2026-11-20T23:53:30Z	grant	7063	surfyhou
@@ -10802,7 +10698,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:53:48Z	grant	7081	rayy3535
 2026-11-20T23:53:49Z	grant	7082	ANdATIon
 2026-11-20T23:53:50Z	grant	7083	rayy3535
-2026-11-20T23:53:50Z	submission	7006	roonastgames
 2026-11-20T23:53:50Z	submission	7021	galakurpi
 2026-11-20T23:53:52Z	grant	7085	rayy3535
 2026-11-20T23:53:53Z	grant	7086	ANdATIon
@@ -10827,7 +10722,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:54:12Z	submission	7081	rayy3535
 2026-11-20T23:54:13Z	submission	6795	vivekshivarajkumar
 2026-11-20T23:54:15Z	grant	7103	chriswilson413
-2026-11-20T23:54:15Z	submission	7028	roonastgames
 2026-11-20T23:54:16Z	submission	6797	vivekshivarajkumar
 2026-11-20T23:54:17Z	submission	7083	rayy3535
 2026-11-20T23:54:18Z	submission	7076	drew2apps
@@ -10837,7 +10731,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:54:22Z	grant	7110	BenCaunt
 2026-11-20T23:54:28Z	submission	7093	mu-mei
 2026-11-20T23:54:31Z	submission	7096	mu-mei
-2026-11-20T23:54:37Z	submission	7044	roonastgames
 2026-11-20T23:54:44Z	submission	985	aapolipponen
 2026-11-20T23:54:45Z	submission	7074	galakurpi
 2026-11-20T23:54:49Z	submission	988	aapolipponen
@@ -10896,7 +10789,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:55:49Z	grant	7146	egergerfg
 2026-11-20T23:55:49Z	submission	1062	aapolipponen
 2026-11-20T23:55:49Z	submission	5917	BenCaunt
-2026-11-20T23:55:49Z	submission	7124	ANdATIon
 2026-11-20T23:55:50Z	submission	7122	ANdATIon
 2026-11-20T23:55:51Z	grant	7147	vivekshivarajkumar
 2026-11-20T23:55:51Z	submission	7127	ANdATIon
@@ -10998,7 +10890,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:57:10Z	grant	7224	RobertBarnettProjects
 2026-11-20T23:57:10Z	submission	7192	rayy3535
 2026-11-20T23:57:12Z	grant	7226	RobertBarnettProjects
-2026-11-20T23:57:14Z	grant	7228	roonastgames
 2026-11-20T23:57:16Z	grant	7230	RobertBarnettProjects
 2026-11-20T23:57:18Z	grant	7232	RobertBarnettProjects
 2026-11-20T23:57:19Z	grant	7233	vivekshivarajkumar
@@ -11028,7 +10919,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:57:36Z	submission	7214	Amahane-Hikari
 2026-11-20T23:57:37Z	grant	7249	RobertBarnettProjects
 2026-11-20T23:57:38Z	grant	7250	jjjhenriksen
-2026-11-20T23:57:39Z	grant	7251	roonastgames
 2026-11-20T23:57:40Z	grant	7252	emsi
 2026-11-20T23:57:41Z	grant	7253	BenCaunt
 2026-11-20T23:57:41Z	grant	7254	RobertBarnettProjects
@@ -11049,7 +10939,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:57:51Z	grant	7263	RobertBarnettProjects
 2026-11-20T23:57:51Z	grant	7264	rayy3535
 2026-11-20T23:57:51Z	submission	7221	gilad12-coder
-2026-11-20T23:57:52Z	grant	7265	roonastgames
 2026-11-20T23:57:53Z	grant	7266	RobertBarnettProjects
 2026-11-20T23:57:55Z	grant	7267	ANdATIon
 2026-11-20T23:57:56Z	grant	7268	galakurpi
@@ -11058,13 +10947,11 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:57:59Z	grant	7271	mu-mei
 2026-11-20T23:57:59Z	submission	7223	zediir
 2026-11-20T23:58:00Z	grant	7272	mu-mei
-2026-11-20T23:58:01Z	grant	7274	roonastgames
 2026-11-20T23:58:03Z	grant	7275	galakurpi
 2026-11-20T23:58:04Z	submission	7205	galakurpi
 2026-11-20T23:58:06Z	submission	7241	amrehan
 2026-11-20T23:58:06Z	submission	7250	jjjhenriksen
 2026-11-20T23:58:09Z	submission	7206	galakurpi
-2026-11-20T23:58:13Z	submission	7228	roonastgames
 2026-11-20T23:58:19Z	submission	7262	rayy3535
 2026-11-20T23:58:20Z	submission	7247	jsnider3
 2026-11-20T23:58:20Z	submission	7248	ANdATIon
@@ -11082,7 +10969,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:58:34Z	submission	6954	vivekshivarajkumar
 2026-11-20T23:58:36Z	submission	6960	vivekshivarajkumar
 2026-11-20T23:58:38Z	submission	6965	vivekshivarajkumar
-2026-11-20T23:58:39Z	submission	7251	roonastgames
 2026-11-20T23:58:43Z	submission	7188	rayy3535
 2026-11-20T23:58:48Z	submission	6356	WilmervH
 2026-11-20T23:58:52Z	submission	7268	galakurpi
@@ -11096,7 +10982,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:59:04Z	submission	7275	galakurpi
 2026-11-20T23:59:05Z	grant	7282	vivekshivarajkumar
 2026-11-20T23:59:06Z	grant	7283	ANdATIon
-2026-11-20T23:59:06Z	submission	7265	roonastgames
 2026-11-20T23:59:08Z	grant	7285	ANdATIon
 2026-11-20T23:59:09Z	grant	7286	vivekshivarajkumar
 2026-11-20T23:59:09Z	grant	7287	galakurpi
@@ -11127,7 +11012,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-20T23:59:28Z	grant	7307	Amahane-Hikari
 2026-11-20T23:59:28Z	submission	6909	t-choudhury
 2026-11-20T23:59:28Z	submission	7042	vivekshivarajkumar
-2026-11-20T23:59:28Z	submission	7274	roonastgames
 2026-11-20T23:59:29Z	grant	7308	Amahane-Hikari
 2026-11-20T23:59:30Z	grant	7309	vivekshivarajkumar
 2026-11-20T23:59:31Z	grant	7310	mu-mei
@@ -11222,7 +11106,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:00:37Z	grant	7372	galakurpi
 2026-11-21T00:00:37Z	submission	6615	dga471
 2026-11-21T00:00:38Z	grant	7373	ANdATIon
-2026-11-21T00:00:40Z	grant	7375	roonastgames
 2026-11-21T00:00:41Z	grant	7376	amrehan
 2026-11-21T00:00:42Z	grant	7377	drew2apps
 2026-11-21T00:00:42Z	submission	7347	egergerfg
@@ -11260,7 +11143,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:01:39Z	grant	7382	rayy3535
 2026-11-21T00:01:39Z	grant	7383	vivekshivarajkumar
 2026-11-21T00:01:40Z	grant	7384	vivekshivarajkumar
-2026-11-21T00:01:41Z	grant	7385	roonastgames
 2026-11-21T00:01:41Z	submission	7321	ANdATIon
 2026-11-21T00:01:42Z	submission	7318	ANdATIon
 2026-11-21T00:01:43Z	grant	7386	galakurpi
@@ -11272,14 +11154,12 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:01:47Z	grant	7390	rayy3535
 2026-11-21T00:01:48Z	grant	7391	vivekshivarajkumar
 2026-11-21T00:01:48Z	submission	7293	sp20262026
-2026-11-21T00:01:48Z	submission	7375	roonastgames
 2026-11-21T00:01:49Z	grant	7392	rayy3535
 2026-11-21T00:01:50Z	grant	7393	rayy3535
 2026-11-21T00:01:51Z	grant	7394	jsnider3
 2026-11-21T00:01:53Z	grant	7396	jjjhenriksen
 2026-11-21T00:01:53Z	submission	7381	ANdATIon
 2026-11-21T00:01:54Z	grant	7397	ANdATIon
-2026-11-21T00:01:55Z	grant	7398	roonastgames
 2026-11-21T00:01:55Z	submission	7382	rayy3535
 2026-11-21T00:01:56Z	grant	7399	vivekshivarajkumar
 2026-11-21T00:01:56Z	submission	7380	ANdATIon
@@ -11288,7 +11168,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:01:59Z	grant	7402	vivekshivarajkumar
 2026-11-21T00:02:00Z	grant	7403	Amahane-Hikari
 2026-11-21T00:02:00Z	submission	7233	vivekshivarajkumar
-2026-11-21T00:02:01Z	grant	7404	roonastgames
 2026-11-21T00:02:02Z	grant	7405	vivekshivarajkumar
 2026-11-21T00:02:03Z	submission	7235	vivekshivarajkumar
 2026-11-21T00:02:04Z	grant	7406	ANdATIon
@@ -11310,7 +11189,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:02:15Z	submission	7390	rayy3535
 2026-11-21T00:02:17Z	grant	7418	ANdATIon
 2026-11-21T00:02:18Z	grant	7419	Amahane-Hikari
-2026-11-21T00:02:18Z	submission	7385	roonastgames
 2026-11-21T00:02:19Z	grant	7420	ANdATIon
 2026-11-21T00:02:20Z	grant	7421	Amahane-Hikari
 2026-11-21T00:02:20Z	submission	7392	rayy3535
@@ -11342,7 +11220,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:02:39Z	submission	7419	Amahane-Hikari
 2026-11-21T00:02:40Z	grant	7440	vivekshivarajkumar
 2026-11-21T00:02:41Z	grant	7441	egergerfg
-2026-11-21T00:02:41Z	submission	7398	roonastgames
 2026-11-21T00:02:43Z	grant	7443	vivekshivarajkumar
 2026-11-21T00:02:44Z	grant	7444	maxime-fleury
 2026-11-21T00:02:45Z	grant	7445	Amahane-Hikari
@@ -11372,7 +11249,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:03:03Z	grant	7461	Amahane-Hikari
 2026-11-21T00:03:03Z	submission	5118	BenCaunt
 2026-11-21T00:03:03Z	submission	7277	vivekshivarajkumar
-2026-11-21T00:03:04Z	submission	7404	roonastgames
 2026-11-21T00:03:05Z	grant	7462	ANdATIon
 2026-11-21T00:03:05Z	submission	7280	vivekshivarajkumar
 2026-11-21T00:03:05Z	submission	7428	ANdATIon
@@ -11456,7 +11332,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:04:21Z	submission	7463	Amahane-Hikari
 2026-11-21T00:04:22Z	grant	7485	ANdATIon
 2026-11-21T00:04:22Z	submission	7449	ANdATIon
-2026-11-21T00:04:23Z	grant	7486	roonastgames
 2026-11-21T00:04:23Z	submission	7244	RobertBarnettProjects
 2026-11-21T00:04:23Z	submission	7309	vivekshivarajkumar
 2026-11-21T00:04:24Z	grant	7487	sp20262026
@@ -11490,7 +11365,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:04:45Z	grant	7506	rayy3535
 2026-11-21T00:04:45Z	submission	7484	rayy3535
 2026-11-21T00:04:46Z	grant	7507	rayy3535
-2026-11-21T00:04:46Z	grant	7508	roonastgames
 2026-11-21T00:04:48Z	grant	7509	egergerfg
 2026-11-21T00:04:48Z	submission	7263	RobertBarnettProjects
 2026-11-21T00:04:49Z	grant	7510	walkingsophie
@@ -11503,7 +11377,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:04:54Z	grant	7515	Amahane-Hikari
 2026-11-21T00:04:54Z	submission	7144	RobertBarnettProjects
 2026-11-21T00:04:55Z	grant	7516	walkingsophie
-2026-11-21T00:04:56Z	grant	7517	roonastgames
 2026-11-21T00:04:57Z	grant	7518	galakurpi
 2026-11-21T00:04:58Z	grant	7519	BenCaunt
 2026-11-21T00:04:58Z	submission	7258	RobertBarnettProjects
@@ -11541,9 +11414,7 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:05:22Z	submission	7326	vivekshivarajkumar
 2026-11-21T00:05:22Z	submission	7482	zediir
 2026-11-21T00:05:22Z	submission	7507	rayy3535
-2026-11-21T00:05:23Z	grant	7543	roonastgames
 2026-11-21T00:05:23Z	grant	7544	mu-mei
-2026-11-21T00:05:23Z	submission	7486	roonastgames
 2026-11-21T00:05:24Z	submission	7240	RobertBarnettProjects
 2026-11-21T00:05:24Z	submission	7331	vivekshivarajkumar
 2026-11-21T00:05:25Z	grant	7545	rayy3535
@@ -11586,7 +11457,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:05:49Z	submission	7494	Amahane-Hikari
 2026-11-21T00:05:52Z	submission	7202	RobertBarnettProjects
 2026-11-21T00:05:53Z	submission	7496	ANdATIon
-2026-11-21T00:05:53Z	submission	7508	roonastgames
 2026-11-21T00:05:56Z	submission	7185	RobertBarnettProjects
 2026-11-21T00:05:57Z	submission	7544	mu-mei
 2026-11-21T00:05:58Z	submission	7512	Amahane-Hikari
@@ -11611,7 +11481,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:06:15Z	submission	7522	galakurpi
 2026-11-21T00:06:16Z	submission	7558	mu-mei
 2026-11-21T00:06:18Z	submission	7125	RobertBarnettProjects
-2026-11-21T00:06:18Z	submission	7517	roonastgames
 2026-11-21T00:06:22Z	submission	7524	galakurpi
 2026-11-21T00:06:26Z	submission	7560	ANdATIon
 2026-11-21T00:06:27Z	submission	7412	BenCaunt
@@ -11628,7 +11497,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:06:37Z	grant	7564	BenCaunt
 2026-11-21T00:06:38Z	grant	7565	vivekshivarajkumar
 2026-11-21T00:06:39Z	grant	7566	Amahane-Hikari
-2026-11-21T00:06:40Z	submission	7543	roonastgames
 2026-11-21T00:06:41Z	grant	7567	Amahane-Hikari
 2026-11-21T00:06:41Z	submission	7531	galakurpi
 2026-11-21T00:06:42Z	grant	7568	vivekshivarajkumar
@@ -11712,7 +11580,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:07:51Z	grant	7628	ANdATIon
 2026-11-21T00:07:51Z	submission	7595	Amahane-Hikari
 2026-11-21T00:07:53Z	submission	7601	mu-mei
-2026-11-21T00:07:54Z	grant	7629	roonastgames
 2026-11-21T00:07:54Z	grant	7630	BenCaunt
 2026-11-21T00:07:54Z	submission	7383	vivekshivarajkumar
 2026-11-21T00:07:54Z	submission	7599	Amahane-Hikari
@@ -11730,7 +11597,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:08:06Z	grant	7641	Amahane-Hikari
 2026-11-21T00:08:07Z	grant	7642	rayy3535
 2026-11-21T00:08:08Z	grant	7643	rayy3535
-2026-11-21T00:08:09Z	grant	7644	roonastgames
 2026-11-21T00:08:09Z	submission	7581	nicu-chiciuc
 2026-11-21T00:08:09Z	submission	7628	ANdATIon
 2026-11-21T00:08:11Z	submission	7626	ANdATIon
@@ -11765,7 +11631,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:08:41Z	submission	7648	rayy3535
 2026-11-21T00:08:45Z	submission	7603	matan1905
 2026-11-21T00:08:48Z	submission	7625	zediir
-2026-11-21T00:08:52Z	submission	7629	roonastgames
 2026-11-21T00:08:53Z	submission	7588	ANdATIon
 2026-11-21T00:08:54Z	submission	7399	vivekshivarajkumar
 2026-11-21T00:08:54Z	submission	7652	egergerfg
@@ -11783,7 +11648,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:09:10Z	submission	7641	Amahane-Hikari
 2026-11-21T00:09:13Z	submission	7647	rayy3535
 2026-11-21T00:09:19Z	submission	7580	ANdATIon
-2026-11-21T00:09:19Z	submission	7644	roonastgames
 2026-11-21T00:09:21Z	submission	7570	maxime-fleury
 2026-11-21T00:09:22Z	submission	7653	ANdATIon
 2026-11-21T00:09:24Z	submission	7655	ANdATIon
@@ -11812,7 +11676,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:10:56Z	grant	7663	ANdATIon
 2026-11-21T00:10:57Z	grant	7664	ANdATIon
 2026-11-21T00:10:58Z	grant	7665	RobertBarnettProjects
-2026-11-21T00:10:59Z	grant	7666	roonastgames
 2026-11-21T00:11:00Z	grant	7667	ANdATIon
 2026-11-21T00:11:01Z	grant	7668	BenCaunt
 2026-11-21T00:11:02Z	grant	7669	jsnider3
@@ -11836,7 +11699,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:11:16Z	grant	7682	BenCaunt
 2026-11-21T00:11:17Z	grant	7683	sp20262026
 2026-11-21T00:11:18Z	grant	7684	RobertBarnettProjects
-2026-11-21T00:11:19Z	grant	7685	roonastgames
 2026-11-21T00:11:20Z	grant	7686	galakurpi
 2026-11-21T00:11:20Z	submission	7608	misuadn-laplace
 2026-11-21T00:11:21Z	grant	7687	RobertBarnettProjects
@@ -11884,7 +11746,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:11:53Z	grant	7717	RobertBarnettProjects
 2026-11-21T00:11:54Z	grant	7718	RobertBarnettProjects
 2026-11-21T00:11:54Z	submission	7663	ANdATIon
-2026-11-21T00:11:54Z	submission	7666	roonastgames
 2026-11-21T00:11:55Z	grant	7719	vivekshivarajkumar
 2026-11-21T00:11:55Z	submission	7622	misuadn-laplace
 2026-11-21T00:11:56Z	grant	7720	RobertBarnettProjects
@@ -11916,7 +11777,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:12:20Z	grant	7741	jdenwood
 2026-11-21T00:12:21Z	grant	7742	BenCaunt
 2026-11-21T00:12:22Z	grant	7743	zediir
-2026-11-21T00:12:24Z	submission	7685	roonastgames
 2026-11-21T00:12:24Z	submission	7724	zediir
 2026-11-21T00:12:25Z	grant	7745	mu-mei
 2026-11-21T00:12:26Z	grant	7747	RobertBarnettProjects
@@ -11987,7 +11847,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:13:06Z	grant	7787	ANdATIon
 2026-11-21T00:13:06Z	submission	7571	21Z121Z1
 2026-11-21T00:13:06Z	submission	7767	ANdATIon
-2026-11-21T00:13:07Z	grant	7788	roonastgames
 2026-11-21T00:13:07Z	submission	7743	zediir
 2026-11-21T00:13:08Z	submission	7692	galakurpi
 2026-11-21T00:13:09Z	grant	7789	RobertBarnettProjects
@@ -12019,7 +11878,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:13:27Z	grant	7807	rayy3535
 2026-11-21T00:13:27Z	submission	7774	zediir
 2026-11-21T00:13:28Z	submission	7750	nicu-chiciuc
-2026-11-21T00:13:29Z	submission	7738	jdenwood
 2026-11-21T00:13:30Z	grant	7809	maxime-fleury
 2026-11-21T00:13:30Z	submission	7715	galakurpi
 2026-11-21T00:13:31Z	grant	7810	ANdATIon
@@ -12059,7 +11917,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:13:54Z	grant	7834	BenCaunt
 2026-11-21T00:13:54Z	grant	7835	ANdATIon
 2026-11-21T00:14:01Z	submission	7816	ANdATIon
-2026-11-21T00:14:03Z	submission	7788	roonastgames
 2026-11-21T00:14:03Z	submission	7799	rayy3535
 2026-11-21T00:14:04Z	submission	7805	rayy3535
 2026-11-21T00:14:05Z	submission	7815	ANdATIon
@@ -12124,7 +11981,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:15:15Z	grant	7864	Amahane-Hikari
 2026-11-21T00:15:16Z	grant	7865	mu-mei
 2026-11-21T00:15:17Z	grant	7866	vivekshivarajkumar
-2026-11-21T00:15:17Z	grant	7867	roonastgames
 2026-11-21T00:15:19Z	grant	7868	vivekshivarajkumar
 2026-11-21T00:15:20Z	grant	7869	mu-mei
 2026-11-21T00:15:21Z	grant	7870	BenCaunt
@@ -12201,7 +12057,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:16:11Z	grant	7918	mu-mei
 2026-11-21T00:16:11Z	grant	7919	ANdATIon
 2026-11-21T00:16:13Z	grant	7920	BenCaunt
-2026-11-21T00:16:13Z	submission	7867	roonastgames
 2026-11-21T00:16:13Z	submission	7881	ANdATIon
 2026-11-21T00:16:13Z	submission	7883	ANdATIon
 2026-11-21T00:16:13Z	submission	7891	gilad12-coder
@@ -12303,7 +12158,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:17:18Z	submission	7957	mu-mei
 2026-11-21T00:17:19Z	submission	7936	rayy3535
 2026-11-21T00:17:20Z	submission	7926	nicu-chiciuc
-2026-11-21T00:17:24Z	submission	7837	ANdATIon
 2026-11-21T00:17:24Z	submission	7839	ANdATIon
 2026-11-21T00:17:24Z	submission	7939	rayy3535
 2026-11-21T00:17:26Z	submission	7838	ANdATIon
@@ -12336,7 +12190,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:18:13Z	grant	7986	loremcdmx
 2026-11-21T00:18:14Z	grant	7987	ANdATIon
 2026-11-21T00:18:14Z	submission	7915	ANdATIon
-2026-11-21T00:18:15Z	grant	7988	roonastgames
 2026-11-21T00:18:16Z	grant	7989	loremcdmx
 2026-11-21T00:18:18Z	submission	7914	ANdATIon
 2026-11-21T00:18:19Z	submission	7924	sp20262026
@@ -12360,7 +12213,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:19:16Z	submission	7893	BenCaunt
 2026-11-21T00:19:16Z	submission	7968	galakurpi
 2026-11-21T00:19:17Z	submission	7678	whitegrave1917-web
-2026-11-21T00:19:17Z	submission	7988	roonastgames
 2026-11-21T00:19:19Z	submission	7894	misuadn-laplace
 2026-11-21T00:19:24Z	submission	7970	galakurpi
 2026-11-21T00:19:26Z	submission	7794	RobertBarnettProjects
@@ -12516,7 +12368,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:25:11Z	grant	8078	egergerfg
 2026-11-21T00:25:12Z	submission	7855	BenCaunt
 2026-11-21T00:25:14Z	submission	5484	BenCaunt
-2026-11-21T00:25:15Z	grant	8081	roonastgames
 2026-11-21T00:25:15Z	grant	8082	BenCaunt
 2026-11-21T00:25:17Z	submission	8067	ANdATIon
 2026-11-21T00:25:18Z	submission	8050	gilad12-coder
@@ -12531,7 +12382,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:25:26Z	submission	8057	ANdATIon
 2026-11-21T00:25:27Z	submission	8054	Amahane-Hikari
 2026-11-21T00:25:28Z	submission	8052	ANdATIon
-2026-11-21T00:25:29Z	grant	8096	roonastgames
 2026-11-21T00:25:30Z	grant	8097	rayy3535
 2026-11-21T00:25:31Z	grant	8098	zediir
 2026-11-21T00:25:32Z	grant	8099	nicu-chiciuc
@@ -12556,7 +12406,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:25:47Z	submission	8097	rayy3535
 2026-11-21T00:25:48Z	grant	8115	BenCaunt
 2026-11-21T00:25:49Z	submission	7947	vivekshivarajkumar
-2026-11-21T00:25:50Z	grant	8117	roonastgames
 2026-11-21T00:25:50Z	submission	8087	egergerfg
 2026-11-21T00:25:51Z	grant	8118	ljagiello
 2026-11-21T00:25:52Z	grant	8119	maxime-fleury
@@ -12577,7 +12426,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:26:15Z	submission	8105	matan1905
 2026-11-21T00:26:16Z	grant	8140	RobertBarnettProjects
 2026-11-21T00:26:17Z	grant	8141	galakurpi
-2026-11-21T00:26:17Z	submission	8081	roonastgames
 2026-11-21T00:26:18Z	grant	8142	galakurpi
 2026-11-21T00:26:19Z	grant	8143	galakurpi
 2026-11-21T00:26:19Z	submission	8118	ljagiello
@@ -12609,12 +12457,10 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:26:42Z	grant	8167	RobertBarnettProjects
 2026-11-21T00:26:43Z	submission	7523	JamCh01
 2026-11-21T00:26:44Z	grant	8170	RobertBarnettProjects
-2026-11-21T00:26:44Z	submission	8096	roonastgames
 2026-11-21T00:26:46Z	grant	8172	RobertBarnettProjects
 2026-11-21T00:26:47Z	grant	8173	RobertBarnettProjects
 2026-11-21T00:27:01Z	submission	8135	galakurpi
 2026-11-21T00:27:08Z	submission	8137	galakurpi
-2026-11-21T00:27:10Z	submission	8117	roonastgames
 2026-11-21T00:27:15Z	submission	8131	misuadn-laplace
 2026-11-21T00:27:15Z	submission	8138	galakurpi
 2026-11-21T00:27:29Z	submission	7992	loremcdmx
@@ -12652,7 +12498,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:29:46Z	grant	8205	egergerfg
 2026-11-21T00:29:47Z	submission	8181	mu-mei
 2026-11-21T00:29:49Z	grant	8208	t-choudhury
-2026-11-21T00:29:51Z	grant	8210	roonastgames
 2026-11-21T00:29:52Z	submission	8191	rayy3535
 2026-11-21T00:29:53Z	grant	8211	mdpmcc
 2026-11-21T00:29:53Z	volunteer	8211	mdpmcc
@@ -12678,7 +12523,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:30:17Z	submission	8216	amrehan
 2026-11-21T00:30:18Z	grant	8236	jsnider3
 2026-11-21T00:30:18Z	submission	8212	mu-mei
-2026-11-21T00:30:20Z	grant	8238	roonastgames
 2026-11-21T00:30:21Z	grant	8239	emsi
 2026-11-21T00:30:22Z	grant	8240	emsi
 2026-11-21T00:30:22Z	submission	8205	egergerfg
@@ -12692,11 +12536,9 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:30:31Z	grant	8248	UnityChaos
 2026-11-21T00:30:31Z	volunteer	8248	UnityChaos
 2026-11-21T00:30:33Z	grant	8250	ljagiello
-2026-11-21T00:30:34Z	grant	8251	roonastgames
 2026-11-21T00:30:35Z	submission	8222	amrehan
 2026-11-21T00:30:35Z	submission	8228	rayy3535
 2026-11-21T00:30:37Z	submission	8213	egergerfg
-2026-11-21T00:30:39Z	grant	8256	roonastgames
 2026-11-21T00:30:39Z	submission	8223	amrehan
 2026-11-21T00:30:40Z	grant	8257	t-choudhury
 2026-11-21T00:30:40Z	submission	8229	rayy3535
@@ -12713,7 +12555,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:30:55Z	submission	8224	egergerfg
 2026-11-21T00:30:58Z	grant	8276	galakurpi
 2026-11-21T00:30:59Z	grant	8277	galakurpi
-2026-11-21T00:30:59Z	submission	8210	roonastgames
 2026-11-21T00:30:59Z	submission	8234	rayy3535
 2026-11-21T00:31:00Z	grant	8278	galakurpi
 2026-11-21T00:31:01Z	grant	8279	galakurpi
@@ -12737,13 +12578,11 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:31:21Z	submission	8233	rayy3535
 2026-11-21T00:31:24Z	submission	8245	nicu-chiciuc
 2026-11-21T00:31:26Z	submission	6872	WilmervH
-2026-11-21T00:31:28Z	submission	8238	roonastgames
 2026-11-21T00:31:34Z	submission	8241	zediir
 2026-11-21T00:31:35Z	submission	8214	gilad12-coder
 2026-11-21T00:31:35Z	submission	8248	UnityChaos
 2026-11-21T00:31:50Z	submission	8270	galakurpi
 2026-11-21T00:31:52Z	grant	8291	vivekshivarajkumar
-2026-11-21T00:31:52Z	submission	8251	roonastgames
 2026-11-21T00:31:53Z	grant	8292	vivekshivarajkumar
 2026-11-21T00:31:54Z	grant	8293	BenCaunt
 2026-11-21T00:31:55Z	grant	8294	vivekshivarajkumar
@@ -12763,7 +12602,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:32:14Z	submission	8267	galakurpi
 2026-11-21T00:32:15Z	submission	5866	BenCaunt
 2026-11-21T00:32:22Z	submission	8269	galakurpi
-2026-11-21T00:32:23Z	submission	8256	roonastgames
 2026-11-21T00:32:31Z	submission	8296	mu-mei
 2026-11-21T00:32:35Z	submission	8299	rayy3535
 2026-11-21T00:32:39Z	submission	8300	rayy3535
@@ -12824,7 +12662,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:35:34Z	grant	8326	rayy3535
 2026-11-21T00:35:34Z	submission	8185	RobertBarnettProjects
 2026-11-21T00:35:36Z	grant	8327	rayy3535
-2026-11-21T00:35:37Z	grant	8328	roonastgames
 2026-11-21T00:35:38Z	grant	8329	rayy3535
 2026-11-21T00:35:38Z	submission	8159	RobertBarnettProjects
 2026-11-21T00:35:39Z	grant	8330	vivekshivarajkumar
@@ -12866,7 +12703,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:36:27Z	submission	8329	rayy3535
 2026-11-21T00:36:28Z	submission	8340	egergerfg
 2026-11-21T00:36:32Z	submission	8331	rayy3535
-2026-11-21T00:36:34Z	submission	8328	roonastgames
 2026-11-21T00:36:34Z	submission	8338	zediir
 2026-11-21T00:36:43Z	submission	8208	t-choudhury
 2026-11-21T00:36:44Z	grant	8341	jsnider3
@@ -12876,12 +12712,10 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:36:48Z	grant	8345	nicu-chiciuc
 2026-11-21T00:36:48Z	submission	8293	BenCaunt
 2026-11-21T00:36:52Z	grant	8349	gilad12-coder
-2026-11-21T00:36:53Z	grant	8350	roonastgames
 2026-11-21T00:36:54Z	grant	8351	zediir
 2026-11-21T00:36:55Z	grant	8352	21Z121Z1
 2026-11-21T00:36:58Z	grant	8355	rishabh-16
 2026-11-21T00:36:59Z	grant	8356	vivekshivarajkumar
-2026-11-21T00:37:00Z	grant	8357	roonastgames
 2026-11-21T00:37:01Z	grant	8358	vivekshivarajkumar
 2026-11-21T00:37:02Z	grant	8359	vivekshivarajkumar
 2026-11-21T00:37:03Z	submission	8341	jsnider3
@@ -12897,11 +12731,9 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:37:43Z	submission	8345	nicu-chiciuc
 2026-11-21T00:37:46Z	submission	6316	WilmervH
 2026-11-21T00:37:51Z	submission	8351	zediir
-2026-11-21T00:37:56Z	submission	8350	roonastgames
 2026-11-21T00:38:06Z	submission	8139	CubeJerry
 2026-11-21T00:38:08Z	submission	8349	gilad12-coder
 2026-11-21T00:38:10Z	submission	8211	mdpmcc
-2026-11-21T00:38:24Z	submission	8357	roonastgames
 2026-11-21T00:38:45Z	grant	8361	galakurpi
 2026-11-21T00:38:46Z	grant	8362	vivekshivarajkumar
 2026-11-21T00:38:47Z	grant	8363	rishabh-16
@@ -12922,7 +12754,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:40:36Z	submission	8362	vivekshivarajkumar
 2026-11-21T00:40:38Z	grant	8372	rishabh-16
 2026-11-21T00:40:39Z	grant	8373	vivekshivarajkumar
-2026-11-21T00:40:41Z	grant	8374	roonastgames
 2026-11-21T00:40:42Z	grant	8375	vivekshivarajkumar
 2026-11-21T00:40:43Z	grant	8376	vivekshivarajkumar
 2026-11-21T00:40:50Z	submission	8077	BenCaunt
@@ -12934,7 +12765,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:41:24Z	submission	6301	BenCaunt
 2026-11-21T00:41:26Z	submission	6183	BenCaunt
 2026-11-21T00:41:38Z	submission	8370	galakurpi
-2026-11-21T00:41:46Z	submission	8374	roonastgames
 2026-11-21T00:41:56Z	submission	7821	BenCaunt
 2026-11-21T00:41:57Z	submission	7619	BenCaunt
 2026-11-21T00:42:02Z	submission	8220	BenCaunt
@@ -13009,7 +12839,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:44:13Z	submission	8419	matan1905
 2026-11-21T00:44:14Z	grant	8439	vivekshivarajkumar
 2026-11-21T00:44:14Z	submission	8388	rayy3535
-2026-11-21T00:44:15Z	grant	8440	roonastgames
 2026-11-21T00:44:15Z	submission	8420	amrehan
 2026-11-21T00:44:17Z	grant	8441	RobertBarnettProjects
 2026-11-21T00:44:18Z	grant	8442	rayy3535
@@ -13069,7 +12898,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:44:57Z	grant	8477	RobertBarnettProjects
 2026-11-21T00:44:59Z	grant	8478	RobertBarnettProjects
 2026-11-21T00:45:00Z	grant	8479	jwr404
-2026-11-21T00:45:01Z	grant	8480	roonastgames
 2026-11-21T00:45:01Z	submission	8447	rayy3535
 2026-11-21T00:45:02Z	submission	8454	misuadn-laplace
 2026-11-21T00:45:03Z	grant	8481	RobertBarnettProjects
@@ -13093,8 +12921,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:45:16Z	submission	8452	rayy3535
 2026-11-21T00:45:17Z	grant	8495	jwr404
 2026-11-21T00:45:18Z	grant	8496	RobertBarnettProjects
-2026-11-21T00:45:18Z	submission	8440	roonastgames
-2026-11-21T00:45:19Z	grant	8497	roonastgames
 2026-11-21T00:45:20Z	grant	8498	vivekshivarajkumar
 2026-11-21T00:45:21Z	grant	8499	RobertBarnettProjects
 2026-11-21T00:45:21Z	grant	8500	vivekshivarajkumar
@@ -13121,7 +12947,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:45:45Z	grant	8522	t-choudhury
 2026-11-21T00:45:45Z	submission	8393	vivekshivarajkumar
 2026-11-21T00:45:45Z	submission	8400	galakurpi
-2026-11-21T00:45:46Z	submission	8480	roonastgames
 2026-11-21T00:45:47Z	grant	8524	RobertBarnettProjects
 2026-11-21T00:45:53Z	grant	8530	RobertBarnettProjects
 2026-11-21T00:45:53Z	submission	8402	galakurpi
@@ -13135,7 +12960,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:46:11Z	grant	8547	vivekshivarajkumar
 2026-11-21T00:46:11Z	submission	8506	gilad12-coder
 2026-11-21T00:46:13Z	grant	8549	RobertBarnettProjects
-2026-11-21T00:46:13Z	submission	8497	roonastgames
 2026-11-21T00:46:17Z	grant	8553	RobertBarnettProjects
 2026-11-21T00:46:17Z	submission	8405	galakurpi
 2026-11-21T00:46:22Z	grant	8558	RobertBarnettProjects
@@ -13163,7 +12987,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:47:06Z	grant	8608	galakurpi
 2026-11-21T00:47:07Z	submission	8460	dhudakk
 2026-11-21T00:47:08Z	grant	8610	galakurpi
-2026-11-21T00:47:09Z	grant	8611	roonastgames
 2026-11-21T00:47:10Z	grant	8612	BenCaunt
 2026-11-21T00:47:11Z	grant	8613	jjjhenriksen
 2026-11-21T00:47:12Z	grant	8614	mdpmcc
@@ -13174,7 +12997,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:48:05Z	submission	8414	vivekshivarajkumar
 2026-11-21T00:48:07Z	submission	3058	SeriousRising
 2026-11-21T00:48:08Z	submission	8415	vivekshivarajkumar
-2026-11-21T00:48:09Z	submission	8611	roonastgames
 2026-11-21T00:48:10Z	submission	8416	vivekshivarajkumar
 2026-11-21T00:48:30Z	submission	8608	galakurpi
 2026-11-21T00:48:38Z	submission	8610	galakurpi
@@ -13311,7 +13133,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:54:17Z	grant	8666	rayy3535
 2026-11-21T00:54:18Z	submission	8651	matan1905
 2026-11-21T00:54:19Z	grant	8667	rayy3535
-2026-11-21T00:54:19Z	grant	8668	roonastgames
 2026-11-21T00:54:19Z	submission	8484	t-choudhury
 2026-11-21T00:54:20Z	grant	8669	vivekshivarajkumar
 2026-11-21T00:54:21Z	grant	8670	zediir
@@ -13347,7 +13168,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:54:58Z	submission	8664	rayy3535
 2026-11-21T00:55:02Z	submission	8666	rayy3535
 2026-11-21T00:55:07Z	submission	8667	rayy3535
-2026-11-21T00:55:12Z	submission	8668	roonastgames
 2026-11-21T00:55:15Z	submission	8670	zediir
 2026-11-21T00:55:16Z	submission	8532	vivekshivarajkumar
 2026-11-21T00:55:18Z	submission	8537	vivekshivarajkumar
@@ -13358,11 +13178,9 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:55:30Z	grant	8675	HaqtanEfe
 2026-11-21T00:55:30Z	submission	8646	galakurpi
 2026-11-21T00:55:31Z	grant	8676	sp20262026
-2026-11-21T00:55:32Z	grant	8677	roonastgames
 2026-11-21T00:55:33Z	grant	8678	HaqtanEfe
 2026-11-21T00:55:40Z	grant	8685	nicu-chiciuc
 2026-11-21T00:55:45Z	grant	8690	galakurpi
-2026-11-21T00:55:46Z	grant	8691	roonastgames
 2026-11-21T00:55:47Z	grant	8692	vivekshivarajkumar
 2026-11-21T00:55:48Z	grant	8693	vivekshivarajkumar
 2026-11-21T00:55:48Z	submission	8614	mdpmcc
@@ -13390,10 +13208,8 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:56:09Z	submission	8697	gilad12-coder
 2026-11-21T00:56:15Z	submission	8698	gilad12-coder
 2026-11-21T00:56:17Z	grant	8721	BenCaunt
-2026-11-21T00:56:32Z	submission	8677	roonastgames
 2026-11-21T00:56:37Z	submission	8239	emsi
 2026-11-21T00:56:39Z	grant	8743	ljagiello
-2026-11-21T00:56:42Z	grant	8747	roonastgames
 2026-11-21T00:56:43Z	grant	8748	galakurpi
 2026-11-21T00:56:44Z	grant	8749	UnityChaos
 2026-11-21T00:56:45Z	grant	8750	SeriousRising
@@ -13409,14 +13225,12 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T00:56:56Z	submission	8605	vivekshivarajkumar
 2026-11-21T00:56:58Z	submission	8606	vivekshivarajkumar
 2026-11-21T00:56:59Z	submission	8685	nicu-chiciuc
-2026-11-21T00:57:00Z	submission	8691	roonastgames
 2026-11-21T00:57:03Z	submission	8743	ljagiello
 2026-11-21T00:57:05Z	submission	8695	nicu-chiciuc
 2026-11-21T00:57:09Z	submission	8749	UnityChaos
 2026-11-21T00:57:12Z	submission	7758	BenCaunt
 2026-11-21T00:57:13Z	submission	8598	BenCaunt
 2026-11-21T00:57:15Z	submission	7659	BenCaunt
-2026-11-21T00:57:24Z	submission	8747	roonastgames
 2026-11-21T00:57:39Z	submission	8322	JamCh01
 2026-11-21T00:57:45Z	submission	8676	sp20262026
 2026-11-21T00:57:56Z	submission	8655	vivekshivarajkumar
@@ -13562,7 +13376,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:00:21Z	submission	8857	matan1905
 2026-11-21T01:00:21Z	submission	8862	UnityChaos
 2026-11-21T01:00:22Z	grant	8900	t-choudhury
-2026-11-21T01:00:25Z	grant	8903	roonastgames
 2026-11-21T01:00:27Z	submission	8874	zediir
 2026-11-21T01:00:28Z	grant	8906	rayy3535
 2026-11-21T01:00:29Z	grant	8907	rayy3535
@@ -13628,12 +13441,10 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:01:18Z	grant	8954	RobertBarnettProjects
 2026-11-21T01:01:19Z	grant	8955	jwr404
 2026-11-21T01:01:19Z	submission	8892	BenCaunt
-2026-11-21T01:01:20Z	grant	8956	roonastgames
 2026-11-21T01:01:21Z	grant	8957	RobertBarnettProjects
 2026-11-21T01:01:22Z	grant	8958	RobertBarnettProjects
 2026-11-21T01:01:22Z	submission	8911	rayy3535
 2026-11-21T01:01:23Z	grant	8959	RobertBarnettProjects
-2026-11-21T01:01:23Z	submission	8903	roonastgames
 2026-11-21T01:01:25Z	grant	8960	RobertBarnettProjects
 2026-11-21T01:01:26Z	grant	8961	CubeJerry
 2026-11-21T01:01:26Z	submission	8788	vivekshivarajkumar
@@ -13643,22 +13454,18 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:01:28Z	submission	8789	vivekshivarajkumar
 2026-11-21T01:01:30Z	grant	8964	nicu-chiciuc
 2026-11-21T01:01:30Z	submission	8790	vivekshivarajkumar
-2026-11-21T01:01:31Z	grant	8965	roonastgames
 2026-11-21T01:01:31Z	submission	8913	rayy3535
 2026-11-21T01:01:32Z	grant	8966	BenCaunt
 2026-11-21T01:01:32Z	submission	8792	vivekshivarajkumar
-2026-11-21T01:01:33Z	grant	8967	roonastgames
 2026-11-21T01:01:34Z	submission	8943	gilad12-coder
 2026-11-21T01:01:35Z	grant	8968	vivekshivarajkumar
 2026-11-21T01:01:36Z	grant	8969	vivekshivarajkumar
 2026-11-21T01:01:36Z	submission	8914	rayy3535
 2026-11-21T01:01:40Z	submission	8951	gilad12-coder
 2026-11-21T01:01:45Z	submission	8615	mdpmcc
-2026-11-21T01:01:57Z	submission	8956	roonastgames
 2026-11-21T01:01:59Z	submission	7803	BenCaunt
 2026-11-21T01:02:03Z	submission	7782	BenCaunt
 2026-11-21T01:02:14Z	submission	8964	nicu-chiciuc
-2026-11-21T01:02:20Z	submission	8965	roonastgames
 2026-11-21T01:02:30Z	submission	8928	BenCaunt
 2026-11-21T01:02:32Z	grant	8970	vivekshivarajkumar
 2026-11-21T01:02:33Z	grant	8971	vivekshivarajkumar
@@ -13670,7 +13477,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:02:39Z	grant	8978	BenCaunt
 2026-11-21T01:02:43Z	submission	8796	vivekshivarajkumar
 2026-11-21T01:02:45Z	submission	8797	vivekshivarajkumar
-2026-11-21T01:02:45Z	submission	8967	roonastgames
 2026-11-21T01:02:47Z	submission	8801	vivekshivarajkumar
 2026-11-21T01:02:48Z	submission	8804	vivekshivarajkumar
 2026-11-21T01:03:09Z	submission	8963	nicu-chiciuc
@@ -13931,7 +13737,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:12:01Z	grant	9099	rayy3535
 2026-11-21T01:12:02Z	grant	9100	walkingsophie
 2026-11-21T01:12:02Z	submission	8993	BouquetAntoine
-2026-11-21T01:12:03Z	grant	9101	roonastgames
 2026-11-21T01:12:03Z	submission	9055	UnityChaos
 2026-11-21T01:12:04Z	submission	9077	rayy3535
 2026-11-21T01:12:05Z	grant	9103	walkingsophie
@@ -13947,7 +13752,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:12:11Z	grant	9109	vivekshivarajkumar
 2026-11-21T01:12:11Z	submission	9069	egergerfg
 2026-11-21T01:12:12Z	grant	9110	walkingsophie
-2026-11-21T01:12:13Z	grant	9111	roonastgames
 2026-11-21T01:12:13Z	submission	9063	BenCaunt
 2026-11-21T01:12:13Z	submission	9079	rayy3535
 2026-11-21T01:12:14Z	grant	9112	ANdATIon
@@ -13969,7 +13773,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:12:22Z	submission	8997	BouquetAntoine
 2026-11-21T01:12:23Z	grant	9122	BenCaunt
 2026-11-21T01:12:24Z	grant	9123	nicu-chiciuc
-2026-11-21T01:12:25Z	grant	9124	roonastgames
 2026-11-21T01:12:25Z	submission	9071	rayy3535
 2026-11-21T01:12:26Z	grant	9125	vivekshivarajkumar
 2026-11-21T01:12:26Z	submission	9076	BenCaunt
@@ -13990,7 +13793,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:12:34Z	submission	9073	rayy3535
 2026-11-21T01:12:35Z	grant	9135	loremcdmx
 2026-11-21T01:12:35Z	submission	8995	vivekshivarajkumar
-2026-11-21T01:12:36Z	grant	9136	roonastgames
 2026-11-21T01:12:36Z	submission	9097	rayy3535
 2026-11-21T01:12:37Z	grant	9137	loremcdmx
 2026-11-21T01:12:38Z	grant	9138	loremcdmx
@@ -14036,7 +13838,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:13:00Z	submission	9128	ljagiello
 2026-11-21T01:13:01Z	grant	9162	dhudakk
 2026-11-21T01:13:02Z	grant	9163	loremcdmx
-2026-11-21T01:13:02Z	submission	9101	roonastgames
 2026-11-21T01:13:03Z	grant	9164	dhudakk
 2026-11-21T01:13:03Z	submission	8702	galakurpi
 2026-11-21T01:13:03Z	submission	9121	nicu-chiciuc
@@ -14084,7 +13885,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:13:33Z	grant	9193	BenCaunt
 2026-11-21T01:13:34Z	grant	9194	vivekshivarajkumar
 2026-11-21T01:13:34Z	submission	9049	vivekshivarajkumar
-2026-11-21T01:13:34Z	submission	9111	roonastgames
 2026-11-21T01:13:35Z	grant	9195	vivekshivarajkumar
 2026-11-21T01:13:36Z	grant	9196	vivekshivarajkumar
 2026-11-21T01:13:36Z	grant	9197	t-choudhury
@@ -14119,7 +13919,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:14:18Z	submission	9164	dhudakk
 2026-11-21T01:14:19Z	submission	9162	dhudakk
 2026-11-21T01:14:20Z	submission	9166	dhudakk
-2026-11-21T01:14:27Z	submission	9124	roonastgames
 2026-11-21T01:14:29Z	submission	9014	BouquetAntoine
 2026-11-21T01:14:30Z	submission	9080	vivekshivarajkumar
 2026-11-21T01:14:32Z	submission	9089	vivekshivarajkumar
@@ -14130,7 +13929,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:14:56Z	submission	9150	sp20262026
 2026-11-21T01:15:00Z	submission	9185	dhudakk
 2026-11-21T01:15:03Z	submission	9201	Sigomi
-2026-11-21T01:15:04Z	submission	9136	roonastgames
 2026-11-21T01:15:05Z	submission	9011	BouquetAntoine
 2026-11-21T01:15:05Z	submission	9186	dhudakk
 2026-11-21T01:15:05Z	submission	9187	dhudakk
@@ -14362,7 +14160,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:18:57Z	grant	9342	BouquetAntoine
 2026-11-21T01:18:57Z	grant	9343	ANdATIon
 2026-11-21T01:18:57Z	submission	9289	UnityChaos
-2026-11-21T01:18:58Z	grant	9344	roonastgames
 2026-11-21T01:18:59Z	grant	9345	BouquetAntoine
 2026-11-21T01:19:01Z	submission	9298	ANdATIon
 2026-11-21T01:19:02Z	grant	9347	ANdATIon
@@ -14432,9 +14229,7 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:19:51Z	grant	9394	vivekshivarajkumar
 2026-11-21T01:19:52Z	grant	9395	ANdATIon
 2026-11-21T01:19:52Z	grant	9396	jwr404
-2026-11-21T01:19:53Z	grant	9397	roonastgames
 2026-11-21T01:19:53Z	submission	9194	vivekshivarajkumar
-2026-11-21T01:19:53Z	submission	9344	roonastgames
 2026-11-21T01:19:53Z	submission	9354	zediir
 2026-11-21T01:19:54Z	grant	9398	ANdATIon
 2026-11-21T01:19:54Z	submission	9329	rayy3535
@@ -14473,17 +14268,14 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:20:17Z	grant	9420	vivekshivarajkumar
 2026-11-21T01:20:18Z	grant	9421	dhudakk
 2026-11-21T01:20:18Z	submission	9314	ANdATIon
-2026-11-21T01:20:19Z	grant	9422	roonastgames
 2026-11-21T01:20:19Z	submission	9321	ANdATIon
 2026-11-21T01:20:21Z	submission	9404	nicu-chiciuc
 2026-11-21T01:20:22Z	grant	9423	dhudakk
-2026-11-21T01:20:22Z	submission	9397	roonastgames
 2026-11-21T01:20:23Z	grant	9424	mdpmcc
 2026-11-21T01:20:23Z	submission	9309	ANdATIon
 2026-11-21T01:20:24Z	grant	9425	sp20262026
 2026-11-21T01:20:25Z	grant	9426	Sigomi
 2026-11-21T01:20:25Z	submission	9326	ANdATIon
-2026-11-21T01:20:26Z	grant	9427	roonastgames
 2026-11-21T01:20:27Z	grant	9428	vivekshivarajkumar
 2026-11-21T01:20:28Z	grant	9429	vivekshivarajkumar
 2026-11-21T01:20:28Z	grant	9430	mdpmcc
@@ -14505,7 +14297,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:20:44Z	grant	9443	vivekshivarajkumar
 2026-11-21T01:20:45Z	grant	9444	loremcdmx
 2026-11-21T01:20:46Z	grant	9445	vivekshivarajkumar
-2026-11-21T01:20:47Z	submission	9422	roonastgames
 2026-11-21T01:20:50Z	submission	9418	dhudakk
 2026-11-21T01:20:51Z	submission	9330	ANdATIon
 2026-11-21T01:20:52Z	submission	9402	nicu-chiciuc
@@ -14525,7 +14316,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:21:09Z	submission	9421	dhudakk
 2026-11-21T01:21:24Z	submission	9342	BouquetAntoine
 2026-11-21T01:21:24Z	submission	9357	ANdATIon
-2026-11-21T01:21:25Z	submission	9427	roonastgames
 2026-11-21T01:21:28Z	submission	9435	dhudakk
 2026-11-21T01:21:31Z	submission	9345	BouquetAntoine
 2026-11-21T01:21:35Z	submission	9347	ANdATIon
@@ -14784,7 +14574,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:26:05Z	submission	9485	BouquetAntoine
 2026-11-21T01:26:06Z	submission	9527	BenCaunt
 2026-11-21T01:26:07Z	grant	9578	ANdATIon
-2026-11-21T01:26:08Z	grant	9579	roonastgames
 2026-11-21T01:26:09Z	grant	9580	ANdATIon
 2026-11-21T01:26:09Z	submission	9226	RobertBarnettProjects
 2026-11-21T01:26:10Z	grant	9581	ANdATIon
@@ -14827,7 +14616,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:26:30Z	grant	9601	dhudakk
 2026-11-21T01:26:30Z	submission	9233	RobertBarnettProjects
 2026-11-21T01:26:30Z	submission	9431	vivekshivarajkumar
-2026-11-21T01:26:31Z	grant	9602	roonastgames
 2026-11-21T01:26:32Z	grant	9603	gilad12-coder
 2026-11-21T01:26:32Z	submission	9432	vivekshivarajkumar
 2026-11-21T01:26:32Z	submission	9552	UnityChaos
@@ -14874,7 +14662,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:26:53Z	submission	9577	zediir
 2026-11-21T01:26:54Z	grant	9625	emsi
 2026-11-21T01:26:54Z	submission	9268	RobertBarnettProjects
-2026-11-21T01:26:56Z	grant	9626	roonastgames
 2026-11-21T01:26:57Z	grant	9627	ANdATIon
 2026-11-21T01:26:57Z	submission	9224	RobertBarnettProjects
 2026-11-21T01:26:58Z	grant	9628	ANdATIon
@@ -14889,7 +14676,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:27:05Z	submission	9265	RobertBarnettProjects
 2026-11-21T01:27:06Z	grant	9634	dhudakk
 2026-11-21T01:27:07Z	grant	9635	ANdATIon
-2026-11-21T01:27:07Z	submission	9579	roonastgames
 2026-11-21T01:27:08Z	grant	9636	dhudakk
 2026-11-21T01:27:08Z	submission	9227	RobertBarnettProjects
 2026-11-21T01:27:09Z	submission	9497	BouquetAntoine
@@ -14898,7 +14684,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:27:10Z	submission	9603	gilad12-coder
 2026-11-21T01:27:12Z	grant	9638	dhudakk
 2026-11-21T01:27:12Z	submission	9266	RobertBarnettProjects
-2026-11-21T01:27:13Z	grant	9639	roonastgames
 2026-11-21T01:27:14Z	grant	9640	ANdATIon
 2026-11-21T01:27:14Z	submission	9574	UnityChaos
 2026-11-21T01:27:15Z	grant	9641	vivekshivarajkumar
@@ -14936,7 +14721,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:27:33Z	submission	9541	BenCaunt
 2026-11-21T01:27:34Z	grant	9659	sp20262026
 2026-11-21T01:27:34Z	submission	9503	BouquetAntoine
-2026-11-21T01:27:34Z	submission	9602	roonastgames
 2026-11-21T01:27:34Z	submission	9630	dhudakk
 2026-11-21T01:27:35Z	grant	9660	BouquetAntoine
 2026-11-21T01:27:35Z	submission	9440	vivekshivarajkumar
@@ -14980,7 +14764,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:28:00Z	grant	9683	BouquetAntoine
 2026-11-21T01:28:01Z	grant	9684	vivekshivarajkumar
 2026-11-21T01:28:02Z	grant	9685	emsi
-2026-11-21T01:28:02Z	submission	9626	roonastgames
 2026-11-21T01:28:04Z	grant	9686	BouquetAntoine
 2026-11-21T01:28:07Z	submission	9516	BouquetAntoine
 2026-11-21T01:28:11Z	submission	9657	BouquetAntoine
@@ -14989,7 +14772,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:28:17Z	submission	9634	dhudakk
 2026-11-21T01:28:20Z	submission	9656	BouquetAntoine
 2026-11-21T01:28:22Z	submission	9512	BouquetAntoine
-2026-11-21T01:28:24Z	submission	9639	roonastgames
 2026-11-21T01:28:27Z	submission	8696	emsi
 2026-11-21T01:28:31Z	submission	9660	BouquetAntoine
 2026-11-21T01:28:34Z	submission	9638	dhudakk
@@ -15173,7 +14955,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:32:55Z	submission	8240	emsi
 2026-11-21T01:32:55Z	submission	9644	vivekshivarajkumar
 2026-11-21T01:32:56Z	grant	9784	BouquetAntoine
-2026-11-21T01:32:57Z	grant	9785	BouquetAntoine
 2026-11-21T01:32:57Z	submission	9645	vivekshivarajkumar
 2026-11-21T01:32:58Z	grant	9786	BouquetAntoine
 2026-11-21T01:32:58Z	submission	9744	BenCaunt
@@ -15200,7 +14981,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:33:12Z	submission	9749	BenCaunt
 2026-11-21T01:33:13Z	grant	9801	BouquetAntoine
 2026-11-21T01:33:13Z	submission	9178	BenCaunt
-2026-11-21T01:33:14Z	grant	9802	roonastgames
 2026-11-21T01:33:14Z	submission	9761	rayy3535
 2026-11-21T01:33:16Z	grant	9803	BouquetAntoine
 2026-11-21T01:33:17Z	grant	9804	RobertBarnettProjects
@@ -15253,7 +15033,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:33:47Z	grant	9837	RobertBarnettProjects
 2026-11-21T01:33:48Z	grant	9838	RobertBarnettProjects
 2026-11-21T01:33:48Z	submission	9771	BouquetAntoine
-2026-11-21T01:33:50Z	grant	9839	roonastgames
 2026-11-21T01:33:50Z	grant	9840	BenCaunt
 2026-11-21T01:33:51Z	grant	9841	RobertBarnettProjects
 2026-11-21T01:33:52Z	grant	9842	WorldianAI
@@ -15298,7 +15077,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:34:16Z	submission	9784	BouquetAntoine
 2026-11-21T01:34:16Z	submission	9820	dhudakk
 2026-11-21T01:34:18Z	grant	9867	dhudakk
-2026-11-21T01:34:18Z	submission	9802	roonastgames
 2026-11-21T01:34:19Z	grant	9868	dhudakk
 2026-11-21T01:34:20Z	grant	9869	vivekshivarajkumar
 2026-11-21T01:34:20Z	submission	9822	dhudakk
@@ -15320,7 +15098,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:34:44Z	grant	9893	vivekshivarajkumar
 2026-11-21T01:34:45Z	grant	9894	RobertBarnettProjects
 2026-11-21T01:34:47Z	grant	9895	vivekshivarajkumar
-2026-11-21T01:34:48Z	submission	9839	roonastgames
 2026-11-21T01:34:49Z	submission	9786	BouquetAntoine
 2026-11-21T01:34:57Z	submission	9169	TomMoeras
 2026-11-21T01:34:57Z	submission	9790	BouquetAntoine
@@ -15340,7 +15117,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:36:03Z	submission	9803	BouquetAntoine
 2026-11-21T01:36:04Z	grant	9896	vivekshivarajkumar
 2026-11-21T01:36:05Z	grant	9897	BenCaunt
-2026-11-21T01:36:06Z	grant	9898	roonastgames
 2026-11-21T01:36:07Z	grant	9899	emsi
 2026-11-21T01:36:08Z	submission	9840	BenCaunt
 2026-11-21T01:36:09Z	grant	9900	BouquetAntoine
@@ -15421,7 +15197,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:37:07Z	grant	9955	WorldianAI
 2026-11-21T01:37:08Z	grant	9956	rayy3535
 2026-11-21T01:37:09Z	grant	9957	rayy3535
-2026-11-21T01:37:09Z	submission	9898	roonastgames
 2026-11-21T01:37:10Z	grant	9958	BenCaunt
 2026-11-21T01:37:11Z	grant	9959	BenCaunt
 2026-11-21T01:37:12Z	grant	9960	BenCaunt
@@ -15477,7 +15252,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:37:40Z	submission	9951	rayy3535
 2026-11-21T01:37:41Z	grant	9991	vivekshivarajkumar
 2026-11-21T01:37:41Z	submission	9906	BouquetAntoine
-2026-11-21T01:37:42Z	grant	9992	roonastgames
 2026-11-21T01:37:42Z	submission	9766	vivekshivarajkumar
 2026-11-21T01:37:42Z	submission	9968	nicu-chiciuc
 2026-11-21T01:37:43Z	grant	9993	vivekshivarajkumar
@@ -15491,7 +15265,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:37:46Z	submission	9775	vivekshivarajkumar
 2026-11-21T01:37:46Z	submission	9958	BenCaunt
 2026-11-21T01:37:47Z	grant	9996	BenCaunt
-2026-11-21T01:37:48Z	grant	9997	roonastgames
 2026-11-21T01:37:48Z	submission	9907	BouquetAntoine
 2026-11-21T01:37:49Z	grant	9998	TomMoeras
 2026-11-21T01:37:49Z	submission	9780	vivekshivarajkumar
@@ -15532,7 +15305,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:38:36Z	submission	9963	BenCaunt
 2026-11-21T01:38:42Z	submission	9982	zediir
 2026-11-21T01:38:47Z	submission	8389	emsi
-2026-11-21T01:38:49Z	submission	9992	roonastgames
 2026-11-21T01:38:51Z	submission	9827	vivekshivarajkumar
 2026-11-21T01:38:52Z	submission	9914	BouquetAntoine
 2026-11-21T01:38:53Z	submission	9829	vivekshivarajkumar
@@ -15541,7 +15313,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:38:57Z	submission	9946	BenCaunt
 2026-11-21T01:38:57Z	submission	9986	BenCaunt
 2026-11-21T01:38:59Z	submission	9915	BouquetAntoine
-2026-11-21T01:39:12Z	submission	9997	roonastgames
 2026-11-21T01:39:16Z	submission	9917	BouquetAntoine
 2026-11-21T01:39:24Z	submission	9919	BouquetAntoine
 2026-11-21T01:39:36Z	submission	9439	BenCaunt
@@ -15660,7 +15431,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:44:26Z	submission	9708	BenCaunt
 2026-11-21T01:44:27Z	grant	10012	dhudakk
 2026-11-21T01:44:28Z	grant	10013	BouquetAntoine
-2026-11-21T01:44:29Z	grant	10014	roonastgames
 2026-11-21T01:44:29Z	submission	9616	ANdATIon
 2026-11-21T01:44:29Z	submission	9902	BenCaunt
 2026-11-21T01:44:30Z	grant	10015	BouquetAntoine
@@ -15726,7 +15496,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:45:09Z	submission	9646	ANdATIon
 2026-11-21T01:45:09Z	submission	10006	BouquetAntoine
 2026-11-21T01:45:11Z	grant	10056	amrehan
-2026-11-21T01:45:12Z	grant	10057	roonastgames
 2026-11-21T01:45:13Z	grant	10058	vivekshivarajkumar
 2026-11-21T01:45:14Z	grant	10059	gilad12-coder
 2026-11-21T01:45:15Z	grant	10060	vivekshivarajkumar
@@ -15740,7 +15509,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:45:22Z	grant	10068	gilad12-coder
 2026-11-21T01:45:23Z	grant	10069	UnityChaos
 2026-11-21T01:45:24Z	grant	10070	UnityChaos
-2026-11-21T01:45:24Z	submission	10014	roonastgames
 2026-11-21T01:45:25Z	grant	10071	UnityChaos
 2026-11-21T01:45:26Z	grant	10072	BenCaunt
 2026-11-21T01:45:26Z	submission	10008	BouquetAntoine
@@ -15787,7 +15555,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:45:52Z	grant	10098	BenCaunt
 2026-11-21T01:45:52Z	submission	9696	ANdATIon
 2026-11-21T01:45:53Z	grant	10099	vivekshivarajkumar
-2026-11-21T01:45:53Z	submission	10057	roonastgames
 2026-11-21T01:45:53Z	submission	10077	nicu-chiciuc
 2026-11-21T01:45:54Z	grant	10100	dhudakk
 2026-11-21T01:45:54Z	submission	10069	UnityChaos
@@ -15827,7 +15594,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:46:11Z	grant	10119	rayy3535
 2026-11-21T01:46:11Z	submission	10073	UnityChaos
 2026-11-21T01:46:12Z	submission	9996	BenCaunt
-2026-11-21T01:46:13Z	grant	10120	roonastgames
 2026-11-21T01:46:13Z	submission	10016	BouquetAntoine
 2026-11-21T01:46:14Z	grant	10121	BenCaunt
 2026-11-21T01:46:14Z	grant	10122	TOTOGT
@@ -15835,7 +15601,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:46:15Z	grant	10123	BouquetAntoine
 2026-11-21T01:46:16Z	grant	10124	BouquetAntoine
 2026-11-21T01:46:16Z	submission	9990	BenCaunt
-2026-11-21T01:46:17Z	grant	10125	roonastgames
 2026-11-21T01:46:17Z	submission	9704	ANdATIon
 2026-11-21T01:46:17Z	submission	10074	UnityChaos
 2026-11-21T01:46:18Z	grant	10126	BouquetAntoine
@@ -15943,7 +15708,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:47:16Z	submission	10025	BouquetAntoine
 2026-11-21T01:47:16Z	submission	10026	vivekshivarajkumar
 2026-11-21T01:47:17Z	grant	10180	BenCaunt
-2026-11-21T01:47:17Z	submission	10120	roonastgames
 2026-11-21T01:47:18Z	grant	10181	RobertBarnettProjects
 2026-11-21T01:47:18Z	submission	10030	vivekshivarajkumar
 2026-11-21T01:47:18Z	submission	10127	BouquetAntoine
@@ -15979,7 +15743,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:47:47Z	submission	9774	ANdATIon
 2026-11-21T01:47:47Z	submission	9789	ANdATIon
 2026-11-21T01:47:48Z	submission	9778	ANdATIon
-2026-11-21T01:47:48Z	submission	10125	roonastgames
 2026-11-21T01:47:49Z	submission	9791	ANdATIon
 2026-11-21T01:47:49Z	submission	10007	BenCaunt
 2026-11-21T01:47:51Z	submission	9777	ANdATIon
@@ -16065,7 +15828,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:51:37Z	grant	10227	BenCaunt
 2026-11-21T01:51:38Z	grant	10228	walkingsophie
 2026-11-21T01:51:38Z	submission	10087	galakurpi
-2026-11-21T01:51:39Z	grant	10229	roonastgames
 2026-11-21T01:51:40Z	grant	10230	vivekshivarajkumar
 2026-11-21T01:51:41Z	grant	10231	vivekshivarajkumar
 2026-11-21T01:51:42Z	grant	10232	BenCaunt
@@ -16103,7 +15865,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:52:14Z	grant	10265	UnityChaos
 2026-11-21T01:52:14Z	grant	10266	ANdATIon
 2026-11-21T01:52:15Z	grant	10267	dhudakk
-2026-11-21T01:52:16Z	grant	10268	roonastgames
 2026-11-21T01:52:16Z	submission	10244	ANdATIon
 2026-11-21T01:52:17Z	grant	10269	ANdATIon
 2026-11-21T01:52:17Z	submission	10202	BenCaunt
@@ -16149,7 +15910,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:52:38Z	submission	10256	UnityChaos
 2026-11-21T01:52:38Z	submission	10260	dhudakk
 2026-11-21T01:52:39Z	grant	10293	UnityChaos
-2026-11-21T01:52:39Z	submission	10229	roonastgames
 2026-11-21T01:52:39Z	submission	10252	dhudakk
 2026-11-21T01:52:40Z	grant	10294	BenCaunt
 2026-11-21T01:52:41Z	grant	10295	BenCaunt
@@ -16179,7 +15939,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:52:55Z	submission	10262	UnityChaos
 2026-11-21T01:52:56Z	grant	10308	ANdATIon
 2026-11-21T01:52:58Z	grant	10309	ANdATIon
-2026-11-21T01:52:59Z	grant	10310	roonastgames
 2026-11-21T01:52:59Z	grant	10311	BouquetAntoine
 2026-11-21T01:53:00Z	grant	10312	BouquetAntoine
 2026-11-21T01:53:01Z	grant	10313	BouquetAntoine
@@ -16197,7 +15956,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:53:09Z	submission	10290	BenCaunt
 2026-11-21T01:53:10Z	grant	10321	BouquetAntoine
 2026-11-21T01:53:10Z	submission	10254	ANdATIon
-2026-11-21T01:53:10Z	submission	10268	roonastgames
 2026-11-21T01:53:11Z	grant	10322	BouquetAntoine
 2026-11-21T01:53:12Z	grant	10323	BouquetAntoine
 2026-11-21T01:53:12Z	grant	10324	BouquetAntoine
@@ -16241,7 +15999,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:53:32Z	submission	10314	zediir
 2026-11-21T01:53:34Z	grant	10345	ANdATIon
 2026-11-21T01:53:34Z	grant	10346	ANdATIon
-2026-11-21T01:53:34Z	submission	10310	roonastgames
 2026-11-21T01:53:35Z	grant	10347	vivekshivarajkumar
 2026-11-21T01:53:35Z	submission	10311	BouquetAntoine
 2026-11-21T01:53:36Z	grant	10348	ANdATIon
@@ -16253,7 +16010,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:53:39Z	grant	10351	vivekshivarajkumar
 2026-11-21T01:53:40Z	grant	10352	BenCaunt
 2026-11-21T01:53:41Z	submission	10316	zediir
-2026-11-21T01:53:42Z	grant	10353	roonastgames
 2026-11-21T01:53:42Z	submission	10312	BouquetAntoine
 2026-11-21T01:53:43Z	grant	10354	nicu-chiciuc
 2026-11-21T01:53:44Z	grant	10355	BenCaunt
@@ -16355,7 +16111,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:54:48Z	submission	10218	t-choudhury
 2026-11-21T01:54:51Z	submission	10375	BouquetAntoine
 2026-11-21T01:54:52Z	submission	10301	sp20262026
-2026-11-21T01:54:53Z	submission	10353	roonastgames
 2026-11-21T01:54:54Z	submission	10323	BouquetAntoine
 2026-11-21T01:54:57Z	submission	10046	emsi
 2026-11-21T01:55:04Z	submission	10049	emsi
@@ -16500,7 +16255,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:59:02Z	grant	10468	ANdATIon
 2026-11-21T01:59:02Z	submission	10434	ANdATIon
 2026-11-21T01:59:03Z	grant	10469	vivekshivarajkumar
-2026-11-21T01:59:04Z	grant	10470	roonastgames
 2026-11-21T01:59:04Z	submission	10363	galakurpi
 2026-11-21T01:59:05Z	grant	10471	vivekshivarajkumar
 2026-11-21T01:59:05Z	submission	9448	chriswilson413
@@ -16573,7 +16327,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T01:59:46Z	grant	10512	dhudakk
 2026-11-21T01:59:46Z	submission	10201	RobertBarnettProjects
 2026-11-21T01:59:47Z	grant	10513	rayy3535
-2026-11-21T01:59:47Z	grant	10514	roonastgames
 2026-11-21T01:59:47Z	submission	10439	ANdATIon
 2026-11-21T01:59:48Z	grant	10515	jsnider3
 2026-11-21T01:59:49Z	grant	10516	BenCaunt
@@ -16613,18 +16366,15 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:00:03Z	grant	10530	rayy3535
 2026-11-21T02:00:03Z	submission	10175	RobertBarnettProjects
 2026-11-21T02:00:04Z	grant	10531	BenCaunt
-2026-11-21T02:00:05Z	grant	10532	roonastgames
 2026-11-21T02:00:06Z	grant	10533	BenCaunt
 2026-11-21T02:00:06Z	submission	10174	RobertBarnettProjects
 2026-11-21T02:00:06Z	submission	10491	zediir
 2026-11-21T02:00:07Z	grant	10534	BenCaunt
-2026-11-21T02:00:08Z	grant	10535	roonastgames
 2026-11-21T02:00:09Z	grant	10536	BouquetAntoine
 2026-11-21T02:00:10Z	grant	10537	BouquetAntoine
 2026-11-21T02:00:10Z	submission	10220	RobertBarnettProjects
 2026-11-21T02:00:10Z	submission	10478	gilad12-coder
 2026-11-21T02:00:11Z	grant	10538	BouquetAntoine
-2026-11-21T02:00:11Z	submission	10470	roonastgames
 2026-11-21T02:00:11Z	submission	10510	rayy3535
 2026-11-21T02:00:12Z	grant	10539	vivekshivarajkumar
 2026-11-21T02:00:12Z	grant	10540	BouquetAntoine
@@ -16659,7 +16409,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:00:27Z	submission	10525	rayy3535
 2026-11-21T02:00:28Z	grant	10555	BouquetAntoine
 2026-11-21T02:00:28Z	grant	10556	BouquetAntoine
-2026-11-21T02:00:28Z	submission	10480	UnityChaos
 2026-11-21T02:00:30Z	grant	10557	BouquetAntoine
 2026-11-21T02:00:30Z	grant	10558	BouquetAntoine
 2026-11-21T02:00:31Z	grant	10559	BouquetAntoine
@@ -16700,7 +16449,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:00:50Z	grant	10577	BouquetAntoine
 2026-11-21T02:00:51Z	grant	10578	BouquetAntoine
 2026-11-21T02:00:51Z	grant	10579	BouquetAntoine
-2026-11-21T02:00:51Z	submission	10514	roonastgames
 2026-11-21T02:00:52Z	grant	10580	BouquetAntoine
 2026-11-21T02:00:52Z	submission	10183	RobertBarnettProjects
 2026-11-21T02:00:54Z	grant	10581	BouquetAntoine
@@ -16735,7 +16483,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:01:19Z	submission	10542	BouquetAntoine
 2026-11-21T02:01:20Z	submission	10479	ANdATIon
 2026-11-21T02:01:20Z	submission	10530	rayy3535
-2026-11-21T02:01:22Z	submission	10532	roonastgames
 2026-11-21T02:01:23Z	submission	10199	RobertBarnettProjects
 2026-11-21T02:01:24Z	submission	10476	ANdATIon
 2026-11-21T02:01:25Z	submission	9955	WorldianAI
@@ -16754,7 +16501,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:01:43Z	submission	10181	RobertBarnettProjects
 2026-11-21T02:01:44Z	submission	10547	BouquetAntoine
 2026-11-21T02:01:45Z	submission	10507	dhudakk
-2026-11-21T02:01:45Z	submission	10535	roonastgames
 2026-11-21T02:01:46Z	submission	10193	RobertBarnettProjects
 2026-11-21T02:01:47Z	submission	10360	vivekshivarajkumar
 2026-11-21T02:01:50Z	submission	10208	RobertBarnettProjects
@@ -16852,7 +16598,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:06:33Z	grant	10614	BouquetAntoine
 2026-11-21T02:06:33Z	grant	10615	vivekshivarajkumar
 2026-11-21T02:06:35Z	grant	10616	walkingsophie
-2026-11-21T02:06:36Z	grant	10617	BouquetAntoine
 2026-11-21T02:06:36Z	grant	10618	BouquetAntoine
 2026-11-21T02:06:36Z	submission	10580	BouquetAntoine
 2026-11-21T02:06:37Z	grant	10619	BouquetAntoine
@@ -16933,7 +16678,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:07:28Z	grant	10669	zediir
 2026-11-21T02:07:29Z	grant	10670	zediir
 2026-11-21T02:07:29Z	submission	10594	ANdATIon
-2026-11-21T02:07:30Z	grant	10671	roonastgames
 2026-11-21T02:07:31Z	grant	10672	zediir
 2026-11-21T02:07:31Z	grant	10673	vivekshivarajkumar
 2026-11-21T02:07:32Z	grant	10674	ANdATIon
@@ -16998,7 +16742,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:08:10Z	grant	10711	jsnider3
 2026-11-21T02:08:10Z	submission	10623	BouquetAntoine
 2026-11-21T02:08:11Z	grant	10712	t-choudhury
-2026-11-21T02:08:12Z	grant	10713	roonastgames
 2026-11-21T02:08:12Z	submission	10677	dhudakk
 2026-11-21T02:08:13Z	grant	10714	vivekshivarajkumar
 2026-11-21T02:08:13Z	submission	10665	UnityChaos
@@ -17024,7 +16767,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:08:24Z	grant	10726	RobertBarnettProjects
 2026-11-21T02:08:24Z	submission	10642	ANdATIon
 2026-11-21T02:08:24Z	submission	10646	ANdATIon
-2026-11-21T02:08:24Z	submission	10671	roonastgames
 2026-11-21T02:08:25Z	grant	10727	sp20262026
 2026-11-21T02:08:25Z	submission	10659	ANdATIon
 2026-11-21T02:08:25Z	submission	10694	rayy3535
@@ -17044,7 +16786,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:08:33Z	submission	10627	BouquetAntoine
 2026-11-21T02:08:34Z	grant	10737	RobertBarnettProjects
 2026-11-21T02:08:34Z	submission	10658	ANdATIon
-2026-11-21T02:08:36Z	grant	10738	roonastgames
 2026-11-21T02:08:37Z	submission	10672	zediir
 2026-11-21T02:08:38Z	grant	10739	RobertBarnettProjects
 2026-11-21T02:08:39Z	grant	10740	vivekshivarajkumar
@@ -17086,13 +16827,11 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:08:59Z	grant	10760	RobertBarnettProjects
 2026-11-21T02:08:59Z	submission	10587	vivekshivarajkumar
 2026-11-21T02:08:59Z	submission	10634	BouquetAntoine
-2026-11-21T02:09:00Z	grant	10761	roonastgames
 2026-11-21T02:09:00Z	submission	10735	gilad12-coder
 2026-11-21T02:09:01Z	grant	10762	RobertBarnettProjects
 2026-11-21T02:09:01Z	submission	9231	emsi
 2026-11-21T02:09:01Z	submission	10589	vivekshivarajkumar
 2026-11-21T02:09:01Z	submission	10686	dhudakk
-2026-11-21T02:09:01Z	submission	10713	roonastgames
 2026-11-21T02:09:02Z	grant	10763	vivekshivarajkumar
 2026-11-21T02:09:03Z	grant	10764	BouquetAntoine
 2026-11-21T02:09:04Z	grant	10765	BouquetAntoine
@@ -17130,7 +16869,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:09:25Z	submission	10590	21Z121Z1
 2026-11-21T02:09:25Z	submission	10697	rayy3535
 2026-11-21T02:09:26Z	grant	10786	BouquetAntoine
-2026-11-21T02:09:26Z	submission	10738	roonastgames
 2026-11-21T02:09:27Z	grant	10787	BouquetAntoine
 2026-11-21T02:09:28Z	grant	10788	BouquetAntoine
 2026-11-21T02:09:28Z	grant	10789	RobertBarnettProjects
@@ -17164,7 +16902,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:10:00Z	submission	10645	BouquetAntoine
 2026-11-21T02:10:06Z	submission	10647	BouquetAntoine
 2026-11-21T02:10:09Z	submission	10615	vivekshivarajkumar
-2026-11-21T02:10:10Z	submission	10761	roonastgames
 2026-11-21T02:10:10Z	submission	10772	BouquetAntoine
 2026-11-21T02:10:11Z	submission	10620	vivekshivarajkumar
 2026-11-21T02:10:13Z	submission	10624	vivekshivarajkumar
@@ -17422,7 +17159,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:22:01Z	grant	10904	rayy3535
 2026-11-21T02:22:02Z	grant	10905	vivekshivarajkumar
 2026-11-21T02:22:02Z	submission	10876	gilad12-coder
-2026-11-21T02:22:03Z	grant	10906	roonastgames
 2026-11-21T02:22:04Z	grant	10907	rishabh-16
 2026-11-21T02:22:05Z	grant	10908	ANdATIon
 2026-11-21T02:22:05Z	grant	10909	ANdATIon
@@ -17470,7 +17206,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:22:41Z	grant	10940	jsnider3
 2026-11-21T02:22:41Z	grant	10941	BouquetAntoine
 2026-11-21T02:22:42Z	grant	10942	HaqtanEfe
-2026-11-21T02:22:43Z	grant	10943	roonastgames
 2026-11-21T02:22:45Z	grant	10945	HaqtanEfe
 2026-11-21T02:22:45Z	submission	10875	ANdATIon
 2026-11-21T02:22:46Z	grant	10946	BouquetAntoine
@@ -17505,7 +17240,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:23:07Z	grant	10969	HaqtanEfe
 2026-11-21T02:23:08Z	grant	10970	rayy3535
 2026-11-21T02:23:09Z	grant	10971	vivekshivarajkumar
-2026-11-21T02:23:09Z	submission	10906	roonastgames
 2026-11-21T02:23:10Z	grant	10972	HaqtanEfe
 2026-11-21T02:23:10Z	submission	10940	jsnider3
 2026-11-21T02:23:11Z	grant	10973	HaqtanEfe
@@ -17514,7 +17248,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:23:13Z	grant	10975	vivekshivarajkumar
 2026-11-21T02:23:14Z	grant	10976	vivekshivarajkumar
 2026-11-21T02:23:14Z	submission	10882	ANdATIon
-2026-11-21T02:23:15Z	grant	10977	roonastgames
 2026-11-21T02:23:16Z	grant	10978	sp20262026
 2026-11-21T02:23:16Z	submission	10868	ANdATIon
 2026-11-21T02:23:17Z	grant	10979	loremcdmx
@@ -17528,7 +17261,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:23:20Z	submission	10914	BouquetAntoine
 2026-11-21T02:23:21Z	grant	10984	vivekshivarajkumar
 2026-11-21T02:23:21Z	grant	10985	vivekshivarajkumar
-2026-11-21T02:23:22Z	grant	10986	roonastgames
 2026-11-21T02:23:23Z	grant	10987	loremcdmx
 2026-11-21T02:23:23Z	submission	10891	dhudakk
 2026-11-21T02:23:24Z	grant	10988	loremcdmx
@@ -17551,7 +17283,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:23:31Z	grant	10996	loremcdmx
 2026-11-21T02:23:31Z	submission	10880	ANdATIon
 2026-11-21T02:23:32Z	grant	10997	loremcdmx
-2026-11-21T02:23:32Z	submission	10943	roonastgames
 2026-11-21T02:23:33Z	grant	10998	vivekshivarajkumar
 2026-11-21T02:23:33Z	submission	10879	ANdATIon
 2026-11-21T02:23:34Z	grant	10999	vivekshivarajkumar
@@ -17609,7 +17340,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:24:08Z	grant	11035	BouquetAntoine
 2026-11-21T02:24:09Z	grant	11036	BouquetAntoine
 2026-11-21T02:24:09Z	submission	10872	vivekshivarajkumar
-2026-11-21T02:24:09Z	submission	10977	roonastgames
 2026-11-21T02:24:10Z	grant	11037	BouquetAntoine
 2026-11-21T02:24:11Z	grant	11038	BouquetAntoine
 2026-11-21T02:24:11Z	submission	10873	vivekshivarajkumar
@@ -17648,7 +17378,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:24:34Z	grant	11060	loremcdmx
 2026-11-21T02:24:35Z	grant	11061	loremcdmx
 2026-11-21T02:24:36Z	grant	11062	emsi
-2026-11-21T02:24:36Z	submission	10986	roonastgames
 2026-11-21T02:24:36Z	submission	11024	BouquetAntoine
 2026-11-21T02:24:38Z	grant	11063	vivekshivarajkumar
 2026-11-21T02:24:38Z	submission	10922	BouquetAntoine
@@ -18042,7 +17771,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:50:00Z	grant	11235	zediir
 2026-11-21T02:50:01Z	grant	11236	loremcdmx
 2026-11-21T02:50:01Z	submission	11181	ANdATIon
-2026-11-21T02:50:02Z	grant	11238	roonastgames
 2026-11-21T02:50:03Z	grant	11239	vivekshivarajkumar
 2026-11-21T02:50:03Z	submission	11184	ANdATIon
 2026-11-21T02:50:04Z	grant	11240	ANdATIon
@@ -18079,14 +17807,12 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:50:24Z	submission	11189	ANdATIon
 2026-11-21T02:50:25Z	grant	11263	loremcdmx
 2026-11-21T02:50:26Z	grant	11264	loremcdmx
-2026-11-21T02:50:27Z	grant	11265	roonastgames
 2026-11-21T02:50:28Z	grant	11266	loremcdmx
 2026-11-21T02:50:29Z	grant	11267	loremcdmx
 2026-11-21T02:50:29Z	submission	11200	amrehan
 2026-11-21T02:50:29Z	submission	11249	matan1905
 2026-11-21T02:50:30Z	grant	11269	vivekshivarajkumar
 2026-11-21T02:50:31Z	grant	11270	vivekshivarajkumar
-2026-11-21T02:50:32Z	grant	11271	roonastgames
 2026-11-21T02:50:33Z	grant	11272	vivekshivarajkumar
 2026-11-21T02:50:33Z	grant	11273	loremcdmx
 2026-11-21T02:50:33Z	submission	11202	amrehan
@@ -18112,7 +17838,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:50:51Z	submission	11217	zediir
 2026-11-21T02:50:52Z	grant	11292	vivekshivarajkumar
 2026-11-21T02:50:52Z	submission	11209	dhudakk
-2026-11-21T02:50:54Z	grant	11293	roonastgames
 2026-11-21T02:50:54Z	submission	11222	ANdATIon
 2026-11-21T02:50:55Z	grant	11294	vivekshivarajkumar
 2026-11-21T02:50:55Z	submission	11213	ANdATIon
@@ -18137,7 +17862,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:51:06Z	submission	11257	jsnider3
 2026-11-21T02:51:07Z	grant	11306	loremcdmx
 2026-11-21T02:51:07Z	submission	11235	zediir
-2026-11-21T02:51:07Z	submission	11238	roonastgames
 2026-11-21T02:51:08Z	grant	11307	loremcdmx
 2026-11-21T02:51:09Z	grant	11308	ANdATIon
 2026-11-21T02:51:10Z	grant	11309	loremcdmx
@@ -18166,7 +17890,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:51:28Z	submission	11253	ANdATIon
 2026-11-21T02:51:29Z	grant	11330	galakurpi
 2026-11-21T02:51:30Z	grant	11331	galakurpi
-2026-11-21T02:51:30Z	submission	11265	roonastgames
 2026-11-21T02:51:31Z	grant	11332	loremcdmx
 2026-11-21T02:51:32Z	grant	11333	loremcdmx
 2026-11-21T02:51:32Z	submission	11256	ANdATIon
@@ -18214,7 +17937,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:52:00Z	grant	11360	loremcdmx
 2026-11-21T02:52:00Z	submission	11229	UnityChaos
 2026-11-21T02:52:00Z	submission	11242	ANdATIon
-2026-11-21T02:52:00Z	submission	11271	roonastgames
 2026-11-21T02:52:01Z	submission	11246	vivekshivarajkumar
 2026-11-21T02:52:02Z	grant	11361	loremcdmx
 2026-11-21T02:52:03Z	grant	11362	loremcdmx
@@ -18247,7 +17969,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T02:52:23Z	grant	11385	loremcdmx
 2026-11-21T02:52:24Z	grant	11386	loremcdmx
 2026-11-21T02:52:25Z	grant	11387	loremcdmx
-2026-11-21T02:52:25Z	submission	11293	roonastgames
 2026-11-21T02:52:26Z	grant	11388	loremcdmx
 2026-11-21T02:52:27Z	grant	11389	vivekshivarajkumar
 2026-11-21T02:52:27Z	grant	11390	vivekshivarajkumar
@@ -18642,7 +18363,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T03:06:36Z	grant	11534	zediir
 2026-11-21T03:06:37Z	grant	11535	zediir
 2026-11-21T03:06:38Z	grant	11536	CubeJerry
-2026-11-21T03:06:39Z	grant	11537	roonastgames
 2026-11-21T03:06:41Z	grant	11539	ANdATIon
 2026-11-21T03:06:41Z	submission	11480	jjjhenriksen
 2026-11-21T03:06:42Z	grant	11540	CubeJerry
@@ -18678,7 +18398,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T03:07:00Z	grant	11560	ANdATIon
 2026-11-21T03:07:01Z	submission	6911	dgahelper
 2026-11-21T03:07:02Z	grant	11561	hipotures
-2026-11-21T03:07:02Z	grant	11562	roonastgames
 2026-11-21T03:07:03Z	grant	11563	ANdATIon
 2026-11-21T03:07:03Z	submission	10959	BouquetAntoine
 2026-11-21T03:07:04Z	grant	11564	ANdATIon
@@ -18718,7 +18437,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T03:07:30Z	submission	11509	ANdATIon
 2026-11-21T03:07:31Z	grant	11584	UnityChaos
 2026-11-21T03:07:33Z	grant	11585	UnityChaos
-2026-11-21T03:07:33Z	grant	11586	roonastgames
 2026-11-21T03:07:34Z	grant	11587	rayy3535
 2026-11-21T03:07:34Z	submission	11533	zediir
 2026-11-21T03:07:35Z	grant	11588	rayy3535
@@ -18733,7 +18451,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T03:07:41Z	grant	11595	vivekshivarajkumar
 2026-11-21T03:07:42Z	grant	11596	loremcdmx
 2026-11-21T03:07:42Z	submission	11534	zediir
-2026-11-21T03:07:43Z	submission	11537	roonastgames
 2026-11-21T03:07:44Z	grant	11597	loremcdmx
 2026-11-21T03:07:44Z	submission	11507	dhudakk
 2026-11-21T03:07:45Z	grant	11598	rayy3535
@@ -18757,7 +18474,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T03:07:53Z	grant	11606	emsi
 2026-11-21T03:07:54Z	grant	11607	rayy3535
 2026-11-21T03:07:55Z	grant	11608	21Z121Z1
-2026-11-21T03:07:56Z	grant	11609	roonastgames
 2026-11-21T03:07:57Z	grant	11610	loremcdmx
 2026-11-21T03:07:57Z	grant	11611	loremcdmx
 2026-11-21T03:07:58Z	grant	11612	vivekshivarajkumar
@@ -18791,7 +18507,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T03:08:16Z	submission	11049	BouquetAntoine
 2026-11-21T03:08:17Z	grant	11633	loremcdmx
 2026-11-21T03:08:17Z	submission	11522	ANdATIon
-2026-11-21T03:08:17Z	submission	11562	roonastgames
 2026-11-21T03:08:18Z	grant	11634	vivekshivarajkumar
 2026-11-21T03:08:19Z	grant	11635	loremcdmx
 2026-11-21T03:08:20Z	grant	11636	vivekshivarajkumar
@@ -18845,7 +18560,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T03:08:50Z	grant	11666	ANdATIon
 2026-11-21T03:08:51Z	grant	11667	ANdATIon
 2026-11-21T03:08:52Z	grant	11668	ANdATIon
-2026-11-21T03:08:52Z	submission	11586	roonastgames
 2026-11-21T03:08:53Z	grant	11669	ANdATIon
 2026-11-21T03:08:53Z	submission	11524	dhudakk
 2026-11-21T03:08:54Z	grant	11670	ANdATIon
@@ -18911,7 +18625,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T03:09:29Z	submission	11052	BouquetAntoine
 2026-11-21T03:09:30Z	grant	11709	vivekshivarajkumar
 2026-11-21T03:09:31Z	grant	11710	TomMoeras
-2026-11-21T03:09:31Z	submission	11609	roonastgames
 2026-11-21T03:09:32Z	grant	11711	TomMoeras
 2026-11-21T03:09:32Z	grant	11712	RobertBarnettProjects
 2026-11-21T03:09:33Z	submission	11551	ANdATIon
@@ -19303,7 +19016,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T03:39:25Z	grant	11885	BouquetAntoine
 2026-11-21T03:39:26Z	grant	11886	BouquetAntoine
 2026-11-21T03:39:27Z	grant	11887	dgahelper
-2026-11-21T03:39:29Z	grant	11888	roonastgames
 2026-11-21T03:39:29Z	submission	11814	ANdATIon
 2026-11-21T03:39:30Z	grant	11889	BouquetAntoine
 2026-11-21T03:39:31Z	grant	11891	jsnider3
@@ -19342,7 +19054,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T03:39:52Z	submission	11836	dhudakk
 2026-11-21T03:39:53Z	grant	11909	rayy3535
 2026-11-21T03:39:54Z	grant	11910	user42245
-2026-11-21T03:39:55Z	grant	11911	roonastgames
 2026-11-21T03:39:56Z	grant	11912	rayy3535
 2026-11-21T03:39:56Z	submission	11832	dhudakk
 2026-11-21T03:39:57Z	grant	11913	rayy3535
@@ -19361,7 +19072,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T03:40:05Z	grant	11923	ANdATIon
 2026-11-21T03:40:06Z	submission	11783	BouquetAntoine
 2026-11-21T03:40:07Z	grant	11924	ANdATIon
-2026-11-21T03:40:07Z	grant	11925	roonastgames
 2026-11-21T03:40:08Z	grant	11926	ANdATIon
 2026-11-21T03:40:08Z	submission	4871	rahulsundar477-star
 2026-11-21T03:40:09Z	grant	11927	twaldin
@@ -19381,7 +19091,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T03:40:19Z	grant	11941	vivekshivarajkumar
 2026-11-21T03:40:19Z	submission	11820	ANdATIon
 2026-11-21T03:40:20Z	grant	11942	vivekshivarajkumar
-2026-11-21T03:40:21Z	grant	11943	roonastgames
 2026-11-21T03:40:23Z	grant	11944	21Z121Z1
 2026-11-21T03:40:24Z	grant	11945	galakurpi
 2026-11-21T03:40:25Z	grant	11946	galakurpi
@@ -19392,7 +19101,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T03:40:27Z	grant	11948	galakurpi
 2026-11-21T03:40:29Z	grant	11949	galakurpi
 2026-11-21T03:40:29Z	submission	11785	BouquetAntoine
-2026-11-21T03:40:29Z	submission	11888	roonastgames
 2026-11-21T03:40:30Z	grant	11950	loremcdmx
 2026-11-21T03:40:30Z	submission	11853	loremcdmx
 2026-11-21T03:40:30Z	submission	11904	rayy3535
@@ -19435,7 +19143,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T03:40:53Z	grant	11972	galakurpi
 2026-11-21T03:40:53Z	grant	11973	loremcdmx
 2026-11-21T03:40:53Z	submission	11782	BouquetAntoine
-2026-11-21T03:40:53Z	submission	11911	roonastgames
 2026-11-21T03:40:54Z	grant	11975	vivekshivarajkumar
 2026-11-21T03:40:55Z	grant	11976	vivekshivarajkumar
 2026-11-21T03:40:56Z	grant	11977	vivekshivarajkumar
@@ -19471,7 +19178,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T03:41:18Z	submission	11855	ANdATIon
 2026-11-21T03:41:18Z	submission	11906	rayy3535
 2026-11-21T03:41:19Z	grant	12001	loremcdmx
-2026-11-21T03:41:19Z	submission	11925	roonastgames
 2026-11-21T03:41:20Z	grant	12002	loremcdmx
 2026-11-21T03:41:22Z	grant	12004	BouquetAntoine
 2026-11-21T03:41:22Z	submission	11858	ANdATIon
@@ -19506,7 +19212,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T03:41:43Z	grant	12025	vivekshivarajkumar
 2026-11-21T03:41:44Z	grant	12026	BouquetAntoine
 2026-11-21T03:41:45Z	grant	12027	BouquetAntoine
-2026-11-21T03:41:45Z	submission	11943	roonastgames
 2026-11-21T03:41:46Z	grant	12028	BouquetAntoine
 2026-11-21T03:41:46Z	grant	12029	BouquetAntoine
 2026-11-21T03:41:47Z	grant	12030	BouquetAntoine
@@ -21004,7 +20709,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T04:40:04Z	grant	12795	ANdATIon
 2026-11-21T04:40:04Z	submission	12755	Amahane-Hikari
 2026-11-21T04:40:05Z	grant	12796	ANdATIon
-2026-11-21T04:40:05Z	submission	12602	UnityChaos
 2026-11-21T04:40:06Z	grant	12798	ANdATIon
 2026-11-21T04:40:06Z	grant	12799	ANdATIon
 2026-11-21T04:40:06Z	submission	12750	Amahane-Hikari
@@ -22267,7 +21971,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T05:11:12Z	grant	13503	loremcdmx
 2026-11-21T05:11:13Z	grant	13504	loremcdmx
 2026-11-21T05:11:14Z	grant	13505	dga471
-2026-11-21T05:11:14Z	submission	13377	loremcdmx
 2026-11-21T05:11:14Z	submission	13481	ANdATIon
 2026-11-21T05:11:15Z	grant	13506	loremcdmx
 2026-11-21T05:11:16Z	grant	13507	dga471
@@ -22366,7 +22069,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T05:12:15Z	submission	13399	loremcdmx
 2026-11-21T05:12:16Z	grant	13565	amrehan
 2026-11-21T05:12:17Z	grant	13566	amrehan
-2026-11-21T05:12:17Z	submission	13527	ANdATIon
 2026-11-21T05:12:17Z	submission	13538	rayy3535
 2026-11-21T05:12:18Z	grant	13567	rayy3535
 2026-11-21T05:12:19Z	grant	13568	rayy3535
@@ -24219,7 +23921,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T05:53:42Z	grant	14466	ANdATIon
 2026-11-21T05:53:43Z	grant	14467	mu-mei
 2026-11-21T05:53:44Z	grant	14468	dga471
-2026-11-21T05:53:45Z	grant	14469	dga471
 2026-11-21T05:53:45Z	submission	14433	Amahane-Hikari
 2026-11-21T05:53:47Z	grant	14470	dga471
 2026-11-21T05:53:47Z	grant	14471	dga471
@@ -25241,7 +24942,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T06:16:06Z	grant	14987	loremcdmx
 2026-11-21T06:16:07Z	grant	14988	BouquetAntoine
 2026-11-21T06:16:07Z	submission	14302	surfyhou
-2026-11-21T06:16:08Z	grant	14989	zediir
 2026-11-21T06:16:08Z	submission	14974	rayy3535
 2026-11-21T06:16:09Z	grant	14990	BouquetAntoine
 2026-11-21T06:16:10Z	grant	14991	loremcdmx
@@ -30299,14 +29999,12 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:40:00Z	grant	20030	gilad12-coder
 2026-11-21T10:40:00Z	submission	19857	vivekshivarajkumar
 2026-11-21T10:40:01Z	grant	20031	maugomez77
-2026-11-21T10:40:02Z	grant	20032	roonastgames
 2026-11-21T10:40:02Z	submission	19861	vivekshivarajkumar
 2026-11-21T10:40:03Z	grant	20033	vivekshivarajkumar
 2026-11-21T10:40:04Z	grant	20034	vivekshivarajkumar
 2026-11-21T10:40:04Z	grant	20035	vivekshivarajkumar
 2026-11-21T10:40:05Z	grant	20036	jdenwood
 2026-11-21T10:40:06Z	grant	20037	vivekshivarajkumar
-2026-11-21T10:40:07Z	grant	20038	roonastgames
 2026-11-21T10:40:08Z	grant	20039	jdenwood
 2026-11-21T10:40:09Z	grant	20040	jdenwood
 2026-11-21T10:40:09Z	submission	19997	HITEYY
@@ -30326,7 +30024,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:40:28Z	grant	20057	certified-retart
 2026-11-21T10:40:29Z	grant	20058	dhudakk
 2026-11-21T10:40:29Z	submission	20003	HITEYY
-2026-11-21T10:40:30Z	grant	20059	roonastgames
 2026-11-21T10:40:31Z	grant	20060	zediir
 2026-11-21T10:40:33Z	grant	20062	sp20262026
 2026-11-21T10:40:43Z	submission	20036	jdenwood
@@ -30339,20 +30036,17 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:41:05Z	submission	20005	misuadn-laplace
 2026-11-21T10:41:06Z	submission	20056	certified-retart
 2026-11-21T10:41:08Z	submission	19995	HITEYY
-2026-11-21T10:41:08Z	submission	20032	roonastgames
 2026-11-21T10:41:15Z	submission	20006	misuadn-laplace
 2026-11-21T10:41:16Z	submission	20057	certified-retart
 2026-11-21T10:41:25Z	submission	20009	misuadn-laplace
 2026-11-21T10:41:35Z	submission	20012	misuadn-laplace
 2026-11-21T10:41:45Z	submission	19998	HITEYY
 2026-11-21T10:41:45Z	submission	20015	misuadn-laplace
-2026-11-21T10:41:45Z	submission	20038	roonastgames
 2026-11-21T10:41:55Z	submission	20017	misuadn-laplace
 2026-11-21T10:42:03Z	submission	20060	zediir
 2026-11-21T10:42:06Z	submission	20000	HITEYY
 2026-11-21T10:42:06Z	submission	20020	misuadn-laplace
 2026-11-21T10:42:16Z	submission	20023	misuadn-laplace
-2026-11-21T10:42:16Z	submission	20059	roonastgames
 2026-11-21T10:42:22Z	submission	20001	HITEYY
 2026-11-21T10:42:27Z	submission	20025	misuadn-laplace
 2026-11-21T10:42:37Z	submission	20026	misuadn-laplace
@@ -30363,7 +30057,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:42:53Z	submission	20002	HITEYY
 2026-11-21T10:42:54Z	grant	20065	vivekshivarajkumar
 2026-11-21T10:42:55Z	grant	20066	vivekshivarajkumar
-2026-11-21T10:42:56Z	grant	20067	roonastgames
 2026-11-21T10:42:56Z	grant	20068	gilad12-coder
 2026-11-21T10:42:57Z	grant	20069	zediir
 2026-11-21T10:42:58Z	grant	20070	vivekshivarajkumar
@@ -30379,9 +30072,7 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:43:10Z	grant	20082	dhudakk
 2026-11-21T10:43:11Z	grant	20083	certified-retart
 2026-11-21T10:43:12Z	grant	20084	dhudakk
-2026-11-21T10:43:15Z	grant	20086	roonastgames
 2026-11-21T10:43:16Z	grant	20087	zediir
-2026-11-21T10:43:16Z	grant	20088	roonastgames
 2026-11-21T10:43:16Z	submission	20068	gilad12-coder
 2026-11-21T10:43:30Z	submission	19979	t-choudhury
 2026-11-21T10:43:31Z	submission	19825	RobertBarnettProjects
@@ -30397,7 +30088,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:43:56Z	submission	19802	RobertBarnettProjects
 2026-11-21T10:43:58Z	submission	19891	maugomez77
 2026-11-21T10:43:59Z	submission	19830	RobertBarnettProjects
-2026-11-21T10:44:01Z	submission	20067	roonastgames
 2026-11-21T10:44:03Z	submission	19853	RobertBarnettProjects
 2026-11-21T10:44:05Z	submission	19914	maugomez77
 2026-11-21T10:44:06Z	submission	19835	RobertBarnettProjects
@@ -30414,7 +30104,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:44:28Z	submission	19885	vivekshivarajkumar
 2026-11-21T10:44:31Z	submission	19837	RobertBarnettProjects
 2026-11-21T10:44:31Z	submission	19887	vivekshivarajkumar
-2026-11-21T10:44:31Z	submission	20086	roonastgames
 2026-11-21T10:44:33Z	submission	19889	vivekshivarajkumar
 2026-11-21T10:44:35Z	submission	19803	RobertBarnettProjects
 2026-11-21T10:44:36Z	submission	20087	zediir
@@ -30424,7 +30113,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:44:48Z	submission	19845	RobertBarnettProjects
 2026-11-21T10:44:51Z	submission	19820	RobertBarnettProjects
 2026-11-21T10:44:55Z	submission	19829	RobertBarnettProjects
-2026-11-21T10:44:56Z	submission	20088	roonastgames
 2026-11-21T10:44:58Z	submission	19818	RobertBarnettProjects
 2026-11-21T10:45:01Z	submission	19816	RobertBarnettProjects
 2026-11-21T10:45:05Z	submission	19855	RobertBarnettProjects
@@ -30444,7 +30132,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:45:45Z	grant	20099	misuadn-laplace
 2026-11-21T10:45:46Z	grant	20100	Lv-00-ANI
 2026-11-21T10:45:47Z	grant	20101	misuadn-laplace
-2026-11-21T10:45:48Z	grant	20102	roonastgames
 2026-11-21T10:45:49Z	grant	20103	gilad12-coder
 2026-11-21T10:45:50Z	grant	20104	t-choudhury
 2026-11-21T10:45:51Z	grant	20105	Lv-00-ANI
@@ -30456,7 +30143,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:46:03Z	grant	20116	certified-retart
 2026-11-21T10:46:04Z	grant	20117	certified-retart
 2026-11-21T10:46:05Z	grant	20118	certified-retart
-2026-11-21T10:46:06Z	grant	20119	roonastgames
 2026-11-21T10:46:09Z	grant	20121	zediir
 2026-11-21T10:46:10Z	grant	20122	jdenwood
 2026-11-21T10:46:11Z	grant	20123	jdenwood
@@ -30486,7 +30172,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:46:57Z	submission	19906	RobertBarnettProjects
 2026-11-21T10:46:57Z	submission	20117	certified-retart
 2026-11-21T10:47:00Z	submission	19909	RobertBarnettProjects
-2026-11-21T10:47:00Z	submission	20102	roonastgames
 2026-11-21T10:47:03Z	submission	20126	HITEYY
 2026-11-21T10:47:04Z	submission	19926	RobertBarnettProjects
 2026-11-21T10:47:07Z	submission	19910	RobertBarnettProjects
@@ -30498,7 +30183,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:47:18Z	submission	20130	HITEYY
 2026-11-21T10:47:21Z	submission	19898	RobertBarnettProjects
 2026-11-21T10:47:24Z	submission	19918	RobertBarnettProjects
-2026-11-21T10:47:26Z	submission	20119	roonastgames
 2026-11-21T10:47:28Z	submission	19947	RobertBarnettProjects
 2026-11-21T10:47:29Z	submission	20121	zediir
 2026-11-21T10:47:30Z	submission	19572	JamCh01
@@ -30529,7 +30213,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:47:59Z	grant	20150	HITEYY
 2026-11-21T10:47:59Z	submission	19897	RobertBarnettProjects
 2026-11-21T10:47:59Z	submission	20095	sp20262026
-2026-11-21T10:48:00Z	grant	20151	roonastgames
 2026-11-21T10:48:01Z	grant	20152	RobertBarnettProjects
 2026-11-21T10:48:02Z	grant	20153	RobertBarnettProjects
 2026-11-21T10:48:02Z	submission	19896	RobertBarnettProjects
@@ -30545,7 +30228,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:48:09Z	grant	20161	RobertBarnettProjects
 2026-11-21T10:48:09Z	submission	19917	RobertBarnettProjects
 2026-11-21T10:48:10Z	grant	20162	RobertBarnettProjects
-2026-11-21T10:48:11Z	grant	20163	roonastgames
 2026-11-21T10:48:11Z	submission	20128	HITEYY
 2026-11-21T10:48:12Z	grant	20164	RobertBarnettProjects
 2026-11-21T10:48:12Z	submission	19905	RobertBarnettProjects
@@ -30587,12 +30269,10 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:48:57Z	submission	20167	jdenwood
 2026-11-21T10:49:02Z	submission	20127	HITEYY
 2026-11-21T10:49:03Z	submission	20184	jdenwood
-2026-11-21T10:49:10Z	submission	20151	roonastgames
 2026-11-21T10:49:13Z	submission	20158	zediir
 2026-11-21T10:49:19Z	submission	20146	HITEYY
 2026-11-21T10:49:34Z	submission	20090	misuadn-laplace
 2026-11-21T10:49:39Z	submission	20144	HITEYY
-2026-11-21T10:49:41Z	submission	20163	roonastgames
 2026-11-21T10:49:44Z	submission	20091	misuadn-laplace
 2026-11-21T10:49:50Z	submission	20178	zediir
 2026-11-21T10:49:54Z	submission	20092	misuadn-laplace
@@ -30602,7 +30282,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:50:04Z	grant	20188	RobertBarnettProjects
 2026-11-21T10:50:04Z	submission	20093	misuadn-laplace
 2026-11-21T10:50:05Z	grant	20189	RobertBarnettProjects
-2026-11-21T10:50:06Z	grant	20190	roonastgames
 2026-11-21T10:50:07Z	grant	20191	RobertBarnettProjects
 2026-11-21T10:50:09Z	grant	20193	RobertBarnettProjects
 2026-11-21T10:50:09Z	submission	19771	emsi
@@ -30617,7 +30296,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:50:17Z	submission	20145	HITEYY
 2026-11-21T10:50:18Z	grant	20201	RobertBarnettProjects
 2026-11-21T10:50:19Z	grant	20202	sp20262026
-2026-11-21T10:50:20Z	grant	20203	roonastgames
 2026-11-21T10:50:21Z	grant	20205	JamCh01
 2026-11-21T10:50:25Z	grant	20208	RobertBarnettProjects
 2026-11-21T10:50:25Z	submission	20096	misuadn-laplace
@@ -30639,7 +30317,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:50:40Z	grant	20224	jdenwood
 2026-11-21T10:50:41Z	grant	20225	jdenwood
 2026-11-21T10:50:45Z	submission	20098	misuadn-laplace
-2026-11-21T10:50:48Z	grant	20229	roonastgames
 2026-11-21T10:50:51Z	submission	20142	HITEYY
 2026-11-21T10:50:55Z	submission	20099	misuadn-laplace
 2026-11-21T10:51:04Z	submission	20219	gilad12-coder
@@ -30647,7 +30324,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:51:06Z	submission	20101	misuadn-laplace
 2026-11-21T10:51:07Z	submission	20148	HITEYY
 2026-11-21T10:51:10Z	submission	20220	gilad12-coder
-2026-11-21T10:51:16Z	submission	20190	roonastgames
 2026-11-21T10:51:19Z	submission	20028	chriswilson413
 2026-11-21T10:51:24Z	submission	20223	jdenwood
 2026-11-21T10:51:25Z	submission	20147	HITEYY
@@ -30658,9 +30334,7 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:51:33Z	submission	19907	vivekshivarajkumar
 2026-11-21T10:51:37Z	submission	20225	jdenwood
 2026-11-21T10:51:40Z	submission	20149	HITEYY
-2026-11-21T10:51:42Z	submission	20203	roonastgames
 2026-11-21T10:51:55Z	submission	20150	HITEYY
-2026-11-21T10:52:08Z	submission	20229	roonastgames
 2026-11-21T10:52:31Z	submission	20202	sp20262026
 2026-11-21T10:53:14Z	submission	19294	surfyhou
 2026-11-21T10:53:16Z	grant	20234	RobertBarnettProjects
@@ -30676,7 +30350,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:53:31Z	grant	20246	dhudakk
 2026-11-21T10:53:31Z	grant	20247	RobertBarnettProjects
 2026-11-21T10:53:34Z	grant	20249	RobertBarnettProjects
-2026-11-21T10:53:36Z	grant	20251	roonastgames
 2026-11-21T10:53:37Z	grant	20252	RobertBarnettProjects
 2026-11-21T10:53:38Z	grant	20253	dhudakk
 2026-11-21T10:53:39Z	grant	20254	emsi
@@ -30723,7 +30396,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:54:24Z	grant	20297	sp20262026
 2026-11-21T10:54:30Z	submission	20263	zediir
 2026-11-21T10:54:39Z	submission	20264	zediir
-2026-11-21T10:54:40Z	submission	20251	roonastgames
 2026-11-21T10:54:40Z	submission	20272	gilad12-coder
 2026-11-21T10:54:46Z	submission	20293	certified-retart
 2026-11-21T10:54:48Z	submission	20265	zediir
@@ -30737,7 +30409,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:56:42Z	submission	20297	sp20262026
 2026-11-21T10:56:55Z	grant	20298	chriswilson413
 2026-11-21T10:56:56Z	grant	20299	chriswilson413
-2026-11-21T10:56:57Z	grant	20300	roonastgames
 2026-11-21T10:56:58Z	grant	20301	surfyhou
 2026-11-21T10:56:59Z	grant	20302	HITEYY
 2026-11-21T10:57:00Z	grant	20303	HITEYY
@@ -30771,7 +30442,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:57:32Z	grant	20334	maugomez77
 2026-11-21T10:57:32Z	grant	20335	gilad12-coder
 2026-11-21T10:57:34Z	grant	20336	dhudakk
-2026-11-21T10:57:35Z	grant	20337	roonastgames
 2026-11-21T10:57:36Z	grant	20338	vivekshivarajkumar
 2026-11-21T10:57:37Z	grant	20339	vivekshivarajkumar
 2026-11-21T10:57:39Z	grant	20340	vivekshivarajkumar
@@ -30782,11 +30452,9 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:57:42Z	grant	20344	jdenwood
 2026-11-21T10:57:43Z	grant	20345	jdenwood
 2026-11-21T10:57:44Z	grant	20346	vivekshivarajkumar
-2026-11-21T10:57:45Z	grant	20347	roonastgames
 2026-11-21T10:57:45Z	submission	20304	HITEYY
 2026-11-21T10:57:53Z	submission	20335	gilad12-coder
 2026-11-21T10:58:00Z	submission	20308	HITEYY
-2026-11-21T10:58:02Z	submission	20300	roonastgames
 2026-11-21T10:58:05Z	submission	20268	misuadn-laplace
 2026-11-21T10:58:12Z	submission	20343	jdenwood
 2026-11-21T10:58:16Z	submission	20270	misuadn-laplace
@@ -30795,7 +30463,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:58:25Z	submission	20342	gilad12-coder
 2026-11-21T10:58:26Z	submission	20273	misuadn-laplace
 2026-11-21T10:58:28Z	submission	20332	zediir
-2026-11-21T10:58:31Z	submission	20337	roonastgames
 2026-11-21T10:58:32Z	submission	20309	HITEYY
 2026-11-21T10:58:36Z	submission	20275	misuadn-laplace
 2026-11-21T10:58:37Z	submission	20333	zediir
@@ -30808,11 +30475,9 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:59:06Z	submission	20311	HITEYY
 2026-11-21T10:59:10Z	grant	20348	vivekshivarajkumar
 2026-11-21T10:59:11Z	grant	20349	vivekshivarajkumar
-2026-11-21T10:59:11Z	submission	20347	roonastgames
 2026-11-21T10:59:12Z	grant	20350	maugomez77
 2026-11-21T10:59:13Z	grant	20351	vivekshivarajkumar
 2026-11-21T10:59:14Z	grant	20352	sp20262026
-2026-11-21T10:59:15Z	grant	20353	roonastgames
 2026-11-21T10:59:16Z	submission	20286	misuadn-laplace
 2026-11-21T10:59:17Z	grant	20354	certified-retart
 2026-11-21T10:59:18Z	grant	20355	certified-retart
@@ -30820,7 +30485,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:59:19Z	grant	20356	certified-retart
 2026-11-21T10:59:20Z	grant	20357	certified-retart
 2026-11-21T10:59:21Z	grant	20358	t-choudhury
-2026-11-21T10:59:21Z	grant	20359	roonastgames
 2026-11-21T10:59:23Z	grant	20360	dhudakk
 2026-11-21T10:59:23Z	submission	20307	HITEYY
 2026-11-21T10:59:25Z	grant	20362	dhudakk
@@ -30838,13 +30502,11 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T10:59:40Z	submission	19925	emsi
 2026-11-21T10:59:48Z	submission	20355	certified-retart
 2026-11-21T10:59:55Z	submission	20310	HITEYY
-2026-11-21T10:59:58Z	submission	20353	roonastgames
 2026-11-21T10:59:59Z	submission	20356	certified-retart
 2026-11-21T11:00:01Z	submission	20363	jdenwood
 2026-11-21T11:00:06Z	submission	20365	gilad12-coder
 2026-11-21T11:00:10Z	submission	20357	certified-retart
 2026-11-21T11:00:13Z	submission	20314	HITEYY
-2026-11-21T11:00:19Z	submission	20359	roonastgames
 2026-11-21T11:00:22Z	submission	20370	zediir
 2026-11-21T11:00:30Z	submission	20313	HITEYY
 2026-11-21T11:00:48Z	submission	20319	HITEYY
@@ -30858,7 +30520,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:02:06Z	submission	20137	maugomez77
 2026-11-21T11:02:07Z	grant	20374	jdenwood
 2026-11-21T11:02:08Z	grant	20375	gilad12-coder
-2026-11-21T11:02:09Z	grant	20376	roonastgames
 2026-11-21T11:02:10Z	grant	20377	misuadn-laplace
 2026-11-21T11:02:11Z	grant	20378	misuadn-laplace
 2026-11-21T11:02:13Z	grant	20379	misuadn-laplace
@@ -30875,7 +30536,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:02:55Z	submission	20371	zediir
 2026-11-21T11:02:57Z	submission	20317	HITEYY
 2026-11-21T11:03:05Z	submission	20372	zediir
-2026-11-21T11:03:14Z	submission	20376	roonastgames
 2026-11-21T11:03:17Z	submission	20315	HITEYY
 2026-11-21T11:03:18Z	submission	20312	t-choudhury
 2026-11-21T11:03:26Z	submission	20164	RobertBarnettProjects
@@ -30923,7 +30583,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:05:35Z	grant	20388	JamCh01
 2026-11-21T11:05:36Z	grant	20389	gilad12-coder
 2026-11-21T11:05:41Z	grant	20393	dhudakk
-2026-11-21T11:05:42Z	grant	20394	roonastgames
 2026-11-21T11:05:43Z	grant	20395	dhudakk
 2026-11-21T11:05:43Z	grant	20396	certified-retart
 2026-11-21T11:05:46Z	grant	20398	dhudakk
@@ -30931,9 +30590,7 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:05:48Z	grant	20400	dhudakk
 2026-11-21T11:05:48Z	submission	19455	emsi
 2026-11-21T11:05:49Z	grant	20402	emsi
-2026-11-21T11:05:50Z	grant	20403	roonastgames
 2026-11-21T11:05:51Z	grant	20404	sp20262026
-2026-11-21T11:05:52Z	grant	20405	roonastgames
 2026-11-21T11:05:53Z	grant	20406	jdenwood
 2026-11-21T11:05:53Z	submission	20387	jdenwood
 2026-11-21T11:05:54Z	grant	20407	jdenwood
@@ -30941,7 +30598,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:05:55Z	grant	20409	maugomez77
 2026-11-21T11:05:57Z	grant	20410	t-choudhury
 2026-11-21T11:05:58Z	grant	20411	zediir
-2026-11-21T11:05:59Z	grant	20412	roonastgames
 2026-11-21T11:06:00Z	grant	20413	maugomez77
 2026-11-21T11:06:11Z	submission	20389	gilad12-coder
 2026-11-21T11:06:19Z	submission	20358	t-choudhury
@@ -30955,7 +30611,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:06:47Z	submission	20258	RobertBarnettProjects
 2026-11-21T11:06:50Z	submission	20407	jdenwood
 2026-11-21T11:06:51Z	submission	20256	RobertBarnettProjects
-2026-11-21T11:06:51Z	submission	20394	roonastgames
 2026-11-21T11:06:54Z	submission	20234	RobertBarnettProjects
 2026-11-21T11:06:57Z	submission	20252	RobertBarnettProjects
 2026-11-21T11:06:59Z	submission	20411	zediir
@@ -30965,7 +30620,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:07:10Z	submission	20249	RobertBarnettProjects
 2026-11-21T11:07:14Z	submission	20242	RobertBarnettProjects
 2026-11-21T11:07:18Z	submission	20244	RobertBarnettProjects
-2026-11-21T11:07:19Z	submission	20403	roonastgames
 2026-11-21T11:07:21Z	submission	20290	RobertBarnettProjects
 2026-11-21T11:07:25Z	submission	20261	RobertBarnettProjects
 2026-11-21T11:07:28Z	submission	20236	RobertBarnettProjects
@@ -30978,7 +30632,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:07:46Z	submission	20408	zediir
 2026-11-21T11:07:49Z	submission	20271	RobertBarnettProjects
 2026-11-21T11:07:53Z	submission	20283	RobertBarnettProjects
-2026-11-21T11:07:53Z	submission	20405	roonastgames
 2026-11-21T11:07:54Z	submission	19941	vivekshivarajkumar
 2026-11-21T11:07:56Z	submission	20262	RobertBarnettProjects
 2026-11-21T11:07:56Z	submission	20404	sp20262026
@@ -30994,7 +30647,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:08:13Z	submission	20237	RobertBarnettProjects
 2026-11-21T11:08:17Z	submission	20259	RobertBarnettProjects
 2026-11-21T11:08:19Z	submission	19399	surfyhou
-2026-11-21T11:08:19Z	submission	20412	roonastgames
 2026-11-21T11:08:22Z	submission	20379	misuadn-laplace
 2026-11-21T11:08:23Z	grant	20414	HITEYY
 2026-11-21T11:08:23Z	grant	20415	HITEYY
@@ -31065,7 +30717,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:09:27Z	grant	20468	RobertBarnettProjects
 2026-11-21T11:09:28Z	grant	20469	RobertBarnettProjects
 2026-11-21T11:09:29Z	grant	20470	RobertBarnettProjects
-2026-11-21T11:09:30Z	grant	20471	roonastgames
 2026-11-21T11:09:31Z	grant	20472	RobertBarnettProjects
 2026-11-21T11:09:32Z	grant	20473	RobertBarnettProjects
 2026-11-21T11:09:33Z	grant	20474	RobertBarnettProjects
@@ -31075,7 +30726,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:09:38Z	submission	20457	gilad12-coder
 2026-11-21T11:09:39Z	submission	20417	HITEYY
 2026-11-21T11:09:44Z	submission	20459	gilad12-coder
-2026-11-21T11:10:38Z	submission	20471	roonastgames
 2026-11-21T11:12:01Z	submission	20298	chriswilson413
 2026-11-21T11:12:33Z	submission	20334	maugomez77
 2026-11-21T11:12:39Z	submission	20350	maugomez77
@@ -31110,7 +30760,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:13:44Z	submission	19955	vivekshivarajkumar
 2026-11-21T11:13:45Z	grant	20514	misuadn-laplace
 2026-11-21T11:13:46Z	grant	20515	RobertBarnettProjects
-2026-11-21T11:13:47Z	grant	20516	roonastgames
 2026-11-21T11:13:48Z	grant	20517	misuadn-laplace
 2026-11-21T11:13:49Z	grant	20518	RobertBarnettProjects
 2026-11-21T11:13:49Z	grant	20519	dga471
@@ -31144,7 +30793,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:14:19Z	grant	20549	dhudakk
 2026-11-21T11:14:20Z	grant	20550	RobertBarnettProjects
 2026-11-21T11:14:21Z	grant	20551	RobertBarnettProjects
-2026-11-21T11:14:21Z	grant	20552	roonastgames
 2026-11-21T11:14:21Z	submission	20524	gilad12-coder
 2026-11-21T11:14:22Z	grant	20553	RobertBarnettProjects
 2026-11-21T11:14:23Z	grant	20554	RobertBarnettProjects
@@ -31165,7 +30813,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:14:38Z	grant	20570	HITEYY
 2026-11-21T11:14:39Z	grant	20571	HITEYY
 2026-11-21T11:14:39Z	submission	20510	zediir
-2026-11-21T11:14:40Z	grant	20572	roonastgames
 2026-11-21T11:14:40Z	grant	20573	emsi
 2026-11-21T11:14:41Z	grant	20574	HITEYY
 2026-11-21T11:14:42Z	grant	20575	vivekshivarajkumar
@@ -31186,7 +30833,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:14:53Z	grant	20587	HITEYY
 2026-11-21T11:14:54Z	submission	20543	jdenwood
 2026-11-21T11:14:55Z	submission	20523	gilad12-coder
-2026-11-21T11:14:58Z	submission	20516	roonastgames
 2026-11-21T11:15:01Z	submission	20560	certified-retart
 2026-11-21T11:15:08Z	submission	20568	HITEYY
 2026-11-21T11:15:11Z	submission	20562	certified-retart
@@ -31194,10 +30840,8 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:15:23Z	submission	20563	certified-retart
 2026-11-21T11:15:26Z	submission	20570	HITEYY
 2026-11-21T11:15:28Z	submission	20539	jdenwood
-2026-11-21T11:15:45Z	submission	20552	roonastgames
 2026-11-21T11:15:46Z	submission	20567	HITEYY
 2026-11-21T11:16:05Z	submission	20571	HITEYY
-2026-11-21T11:16:15Z	submission	20572	roonastgames
 2026-11-21T11:16:23Z	submission	18833	dgahelper
 2026-11-21T11:16:24Z	submission	20569	HITEYY
 2026-11-21T11:16:25Z	grant	20588	HITEYY
@@ -31210,7 +30854,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:16:33Z	grant	20595	HITEYY
 2026-11-21T11:16:35Z	grant	20596	HITEYY
 2026-11-21T11:16:35Z	grant	20597	maugomez77
-2026-11-21T11:16:36Z	grant	20598	roonastgames
 2026-11-21T11:16:37Z	grant	20599	t-choudhury
 2026-11-21T11:16:40Z	grant	20601	vivekshivarajkumar
 2026-11-21T11:16:42Z	submission	20564	HITEYY
@@ -31233,7 +30876,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:16:58Z	submission	20574	HITEYY
 2026-11-21T11:16:59Z	grant	20620	jdenwood
 2026-11-21T11:16:59Z	grant	20621	certified-retart
-2026-11-21T11:17:01Z	grant	20622	roonastgames
 2026-11-21T11:17:09Z	submission	20610	gilad12-coder
 2026-11-21T11:17:13Z	submission	20578	HITEYY
 2026-11-21T11:17:22Z	submission	20621	certified-retart
@@ -31243,7 +30885,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:17:36Z	submission	20580	HITEYY
 2026-11-21T11:17:41Z	submission	20514	misuadn-laplace
 2026-11-21T11:17:41Z	submission	20620	jdenwood
-2026-11-21T11:17:45Z	submission	20598	roonastgames
 2026-11-21T11:17:45Z	submission	20605	gilad12-coder
 2026-11-21T11:17:51Z	submission	20517	misuadn-laplace
 2026-11-21T11:17:52Z	submission	20608	zediir
@@ -31253,31 +30894,26 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:18:15Z	submission	20584	HITEYY
 2026-11-21T11:18:21Z	submission	20527	misuadn-laplace
 2026-11-21T11:18:29Z	grant	20623	t-choudhury
-2026-11-21T11:18:30Z	grant	20624	roonastgames
 2026-11-21T11:18:31Z	grant	20625	gilad12-coder
 2026-11-21T11:18:31Z	submission	6189	mabdelazim
 2026-11-21T11:18:31Z	submission	20529	misuadn-laplace
 2026-11-21T11:18:32Z	grant	20626	jdenwood
 2026-11-21T11:18:32Z	submission	20607	zediir
-2026-11-21T11:18:32Z	submission	20622	roonastgames
 2026-11-21T11:18:34Z	grant	20627	jdenwood
 2026-11-21T11:18:34Z	submission	20581	HITEYY
 2026-11-21T11:18:35Z	grant	20628	jdenwood
-2026-11-21T11:18:36Z	grant	20629	roonastgames
 2026-11-21T11:18:37Z	grant	20630	dhudakk
 2026-11-21T11:18:38Z	grant	20631	dhudakk
 2026-11-21T11:18:41Z	submission	20531	misuadn-laplace
 2026-11-21T11:18:42Z	submission	20609	zediir
 2026-11-21T11:18:51Z	submission	20533	misuadn-laplace
 2026-11-21T11:18:53Z	submission	20626	jdenwood
-2026-11-21T11:19:01Z	submission	20624	roonastgames
 2026-11-21T11:19:04Z	submission	20583	HITEYY
 2026-11-21T11:19:06Z	submission	20619	sp20262026
 2026-11-21T11:19:24Z	submission	20582	HITEYY
 2026-11-21T11:19:25Z	submission	20625	gilad12-coder
 2026-11-21T11:19:27Z	submission	20627	jdenwood
 2026-11-21T11:19:33Z	submission	20628	jdenwood
-2026-11-21T11:19:37Z	submission	20629	roonastgames
 2026-11-21T11:19:43Z	submission	20586	HITEYY
 2026-11-21T11:19:59Z	submission	19474	surfyhou
 2026-11-21T11:20:02Z	submission	20587	HITEYY
@@ -31296,14 +30932,12 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:21:24Z	grant	20644	dhudakk
 2026-11-21T11:21:25Z	grant	20645	zediir
 2026-11-21T11:21:27Z	grant	20647	zediir
-2026-11-21T11:21:28Z	grant	20648	roonastgames
 2026-11-21T11:21:31Z	grant	20650	dhudakk
 2026-11-21T11:21:32Z	grant	20651	misuadn-laplace
 2026-11-21T11:21:33Z	grant	20652	jdenwood
 2026-11-21T11:21:34Z	grant	20653	sp20262026
 2026-11-21T11:21:35Z	grant	20654	gilad12-coder
 2026-11-21T11:21:36Z	grant	20655	dgahelper
-2026-11-21T11:21:36Z	grant	20656	roonastgames
 2026-11-21T11:21:37Z	grant	20657	surfyhou
 2026-11-21T11:21:40Z	submission	20409	maugomez77
 2026-11-21T11:21:40Z	submission	20594	HITEYY
@@ -31320,12 +30954,10 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:22:23Z	submission	20643	certified-retart
 2026-11-21T11:22:25Z	submission	20638	zediir
 2026-11-21T11:22:31Z	submission	20640	gilad12-coder
-2026-11-21T11:22:31Z	submission	20648	roonastgames
 2026-11-21T11:22:37Z	submission	20645	zediir
 2026-11-21T11:22:39Z	submission	20595	HITEYY
 2026-11-21T11:22:40Z	submission	20623	t-choudhury
 2026-11-21T11:22:58Z	submission	20596	HITEYY
-2026-11-21T11:23:05Z	submission	20656	roonastgames
 2026-11-21T11:23:18Z	submission	20647	zediir
 2026-11-21T11:23:41Z	submission	20299	chriswilson413
 2026-11-21T11:23:48Z	submission	20540	RobertBarnettProjects
@@ -31336,14 +30968,12 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:24:02Z	submission	20547	RobertBarnettProjects
 2026-11-21T11:24:05Z	submission	20537	RobertBarnettProjects
 2026-11-21T11:24:08Z	submission	20550	RobertBarnettProjects
-2026-11-21T11:24:09Z	grant	20658	roonastgames
 2026-11-21T11:24:10Z	grant	20659	hipotures
 2026-11-21T11:24:11Z	grant	20660	dhudakk
 2026-11-21T11:24:12Z	grant	20661	dhudakk
 2026-11-21T11:24:12Z	submission	20505	RobertBarnettProjects
 2026-11-21T11:24:13Z	grant	20662	dhudakk
 2026-11-21T11:24:14Z	grant	20663	dhudakk
-2026-11-21T11:24:15Z	grant	20664	roonastgames
 2026-11-21T11:24:15Z	submission	20534	RobertBarnettProjects
 2026-11-21T11:24:19Z	submission	20522	RobertBarnettProjects
 2026-11-21T11:24:21Z	grant	20668	certified-retart
@@ -31379,7 +31009,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:25:18Z	submission	20458	RobertBarnettProjects
 2026-11-21T11:25:20Z	submission	20554	RobertBarnettProjects
 2026-11-21T11:25:21Z	submission	20442	RobertBarnettProjects
-2026-11-21T11:25:22Z	submission	20658	roonastgames
 2026-11-21T11:25:23Z	submission	20538	RobertBarnettProjects
 2026-11-21T11:25:24Z	submission	20439	RobertBarnettProjects
 2026-11-21T11:25:28Z	submission	20450	RobertBarnettProjects
@@ -31390,7 +31019,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:25:45Z	submission	20472	RobertBarnettProjects
 2026-11-21T11:25:48Z	submission	20475	RobertBarnettProjects
 2026-11-21T11:25:52Z	submission	20464	RobertBarnettProjects
-2026-11-21T11:25:53Z	submission	20664	roonastgames
 2026-11-21T11:25:55Z	submission	20461	RobertBarnettProjects
 2026-11-21T11:25:59Z	submission	20469	RobertBarnettProjects
 2026-11-21T11:26:02Z	submission	20452	RobertBarnettProjects
@@ -31421,12 +31049,10 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:28:43Z	grant	20672	t-choudhury
 2026-11-21T11:28:43Z	grant	20673	zediir
 2026-11-21T11:28:44Z	grant	20674	maugomez77
-2026-11-21T11:28:46Z	grant	20675	roonastgames
 2026-11-21T11:28:46Z	grant	20676	zediir
 2026-11-21T11:28:47Z	grant	20677	jdenwood
 2026-11-21T11:28:48Z	grant	20678	jdenwood
 2026-11-21T11:28:49Z	grant	20679	jdenwood
-2026-11-21T11:28:50Z	grant	20680	roonastgames
 2026-11-21T11:28:51Z	grant	20681	sp20262026
 2026-11-21T11:28:52Z	grant	20682	maugomez77
 2026-11-21T11:28:54Z	grant	20683	gilad12-coder
@@ -31480,11 +31106,9 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:29:42Z	submission	20679	jdenwood
 2026-11-21T11:29:43Z	grant	20730	HITEYY
 2026-11-21T11:29:44Z	grant	20731	RobertBarnettProjects
-2026-11-21T11:29:44Z	grant	20732	roonastgames
 2026-11-21T11:29:45Z	grant	20733	RobertBarnettProjects
 2026-11-21T11:29:47Z	grant	20734	RobertBarnettProjects
 2026-11-21T11:29:48Z	grant	20735	RobertBarnettProjects
-2026-11-21T11:29:48Z	submission	20675	roonastgames
 2026-11-21T11:29:49Z	grant	20736	RobertBarnettProjects
 2026-11-21T11:29:49Z	submission	20676	zediir
 2026-11-21T11:29:50Z	grant	20737	RobertBarnettProjects
@@ -31501,7 +31125,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:29:59Z	grant	20747	RobertBarnettProjects
 2026-11-21T11:30:00Z	grant	20748	RobertBarnettProjects
 2026-11-21T11:30:01Z	grant	20749	t-choudhury
-2026-11-21T11:30:02Z	grant	20750	roonastgames
 2026-11-21T11:30:03Z	grant	20751	RobertBarnettProjects
 2026-11-21T11:30:04Z	grant	20752	RobertBarnettProjects
 2026-11-21T11:30:05Z	grant	20753	RobertBarnettProjects
@@ -31511,7 +31134,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:30:10Z	grant	20758	RobertBarnettProjects
 2026-11-21T11:30:12Z	grant	20760	RobertBarnettProjects
 2026-11-21T11:30:14Z	grant	20762	RobertBarnettProjects
-2026-11-21T11:30:15Z	submission	20680	roonastgames
 2026-11-21T11:30:17Z	grant	20765	RobertBarnettProjects
 2026-11-21T11:30:17Z	submission	20677	jdenwood
 2026-11-21T11:30:17Z	submission	20689	HITEYY
@@ -31531,10 +31153,8 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:30:36Z	submission	20684	HITEYY
 2026-11-21T11:30:43Z	submission	20712	zediir
 2026-11-21T11:30:52Z	submission	20687	HITEYY
-2026-11-21T11:30:52Z	submission	20732	roonastgames
 2026-11-21T11:30:54Z	submission	20681	sp20262026
 2026-11-21T11:31:14Z	submission	20688	HITEYY
-2026-11-21T11:31:16Z	submission	20750	roonastgames
 2026-11-21T11:31:16Z	submission	20766	certified-retart
 2026-11-21T11:31:35Z	submission	20767	certified-retart
 2026-11-21T11:31:38Z	submission	20691	HITEYY
@@ -31608,14 +31228,11 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:40:20Z	grant	20830	gilad12-coder
 2026-11-21T11:40:21Z	grant	20831	jdenwood
 2026-11-21T11:40:22Z	grant	20832	certified-retart
-2026-11-21T11:40:23Z	grant	20833	roonastgames
 2026-11-21T11:40:24Z	grant	20834	sp20262026
-2026-11-21T11:40:24Z	grant	20835	roonastgames
 2026-11-21T11:40:25Z	grant	20836	zediir
 2026-11-21T11:40:26Z	grant	20837	zediir
 2026-11-21T11:40:27Z	grant	20838	zediir
 2026-11-21T11:40:28Z	grant	20839	t-choudhury
-2026-11-21T11:40:29Z	grant	20840	roonastgames
 2026-11-21T11:40:29Z	submission	20786	RobertBarnettProjects
 2026-11-21T11:40:30Z	grant	20841	maugomez77
 2026-11-21T11:40:32Z	grant	20843	hipotures
@@ -31629,7 +31246,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:40:39Z	submission	20762	RobertBarnettProjects
 2026-11-21T11:40:42Z	grant	20851	vivekshivarajkumar
 2026-11-21T11:40:42Z	submission	20738	RobertBarnettProjects
-2026-11-21T11:40:43Z	grant	20852	roonastgames
 2026-11-21T11:40:43Z	grant	20853	gilad12-coder
 2026-11-21T11:40:44Z	grant	20854	dhudakk
 2026-11-21T11:40:45Z	grant	20855	dhudakk
@@ -31669,7 +31285,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:41:18Z	submission	20770	dga471
 2026-11-21T11:41:19Z	submission	20733	RobertBarnettProjects
 2026-11-21T11:41:23Z	submission	20775	RobertBarnettProjects
-2026-11-21T11:41:24Z	submission	20833	roonastgames
 2026-11-21T11:41:27Z	submission	20830	gilad12-coder
 2026-11-21T11:41:33Z	submission	20674	maugomez77
 2026-11-21T11:41:33Z	submission	20856	jdenwood
@@ -31678,14 +31293,11 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:41:39Z	submission	20858	jdenwood
 2026-11-21T11:41:44Z	submission	20870	HITEYY
 2026-11-21T11:41:45Z	submission	20719	maugomez77
-2026-11-21T11:41:56Z	submission	20835	roonastgames
 2026-11-21T11:42:03Z	submission	20871	HITEYY
 2026-11-21T11:42:21Z	submission	20869	HITEYY
-2026-11-21T11:42:24Z	submission	20840	roonastgames
 2026-11-21T11:42:40Z	submission	20868	HITEYY
 2026-11-21T11:42:43Z	submission	20834	sp20262026
 2026-11-21T11:42:45Z	submission	20837	zediir
-2026-11-21T11:42:58Z	submission	20852	roonastgames
 2026-11-21T11:42:59Z	submission	20838	zediir
 2026-11-21T11:43:04Z	submission	20876	HITEYY
 2026-11-21T11:43:22Z	submission	20875	HITEYY
@@ -31721,7 +31333,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:44:02Z	grant	20908	jdenwood
 2026-11-21T11:44:03Z	grant	20909	dhudakk
 2026-11-21T11:44:04Z	grant	20910	dga471
-2026-11-21T11:44:05Z	grant	20911	roonastgames
 2026-11-21T11:44:06Z	grant	20912	maugomez77
 2026-11-21T11:44:07Z	grant	20913	sp20262026
 2026-11-21T11:44:20Z	submission	20874	HITEYY
@@ -31732,7 +31343,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:44:42Z	submission	20908	jdenwood
 2026-11-21T11:45:00Z	submission	20836	zediir
 2026-11-21T11:45:00Z	submission	20877	HITEYY
-2026-11-21T11:45:10Z	submission	20911	roonastgames
 2026-11-21T11:45:19Z	submission	20879	HITEYY
 2026-11-21T11:45:31Z	submission	20070	vivekshivarajkumar
 2026-11-21T11:45:33Z	submission	20071	vivekshivarajkumar
@@ -31746,7 +31356,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:46:37Z	grant	20914	zediir
 2026-11-21T11:46:37Z	submission	20880	HITEYY
 2026-11-21T11:46:38Z	grant	20915	zediir
-2026-11-21T11:46:39Z	grant	20916	roonastgames
 2026-11-21T11:46:40Z	grant	20917	vivekshivarajkumar
 2026-11-21T11:46:41Z	grant	20918	vivekshivarajkumar
 2026-11-21T11:46:42Z	grant	20919	certified-retart
@@ -31756,14 +31365,12 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:46:45Z	grant	20923	certified-retart
 2026-11-21T11:46:46Z	grant	20924	vivekshivarajkumar
 2026-11-21T11:46:47Z	grant	20925	maugomez77
-2026-11-21T11:46:48Z	grant	20926	roonastgames
 2026-11-21T11:46:49Z	grant	20927	dhudakk
 2026-11-21T11:46:50Z	grant	20928	gilad12-coder
 2026-11-21T11:46:55Z	grant	20932	dhudakk
 2026-11-21T11:46:58Z	grant	20934	dhudakk
 2026-11-21T11:47:00Z	grant	20936	zediir
 2026-11-21T11:47:01Z	grant	20938	surfyhou
-2026-11-21T11:47:02Z	grant	20939	roonastgames
 2026-11-21T11:47:02Z	grant	20940	maugomez77
 2026-11-21T11:47:02Z	submission	20882	HITEYY
 2026-11-21T11:47:18Z	submission	20919	certified-retart
@@ -31773,16 +31380,13 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:47:30Z	submission	20920	certified-retart
 2026-11-21T11:47:32Z	submission	20915	zediir
 2026-11-21T11:47:37Z	submission	20883	HITEYY
-2026-11-21T11:47:41Z	submission	20916	roonastgames
 2026-11-21T11:47:41Z	submission	20922	certified-retart
 2026-11-21T11:47:43Z	submission	20936	zediir
 2026-11-21T11:47:51Z	submission	20923	certified-retart
 2026-11-21T11:47:55Z	submission	20886	HITEYY
 2026-11-21T11:48:15Z	submission	20892	HITEYY
-2026-11-21T11:48:15Z	submission	20926	roonastgames
 2026-11-21T11:48:23Z	submission	20864	t-choudhury
 2026-11-21T11:48:34Z	submission	20894	HITEYY
-2026-11-21T11:48:43Z	submission	20939	roonastgames
 2026-11-21T11:48:58Z	submission	20898	HITEYY
 2026-11-21T11:49:14Z	submission	20893	HITEYY
 2026-11-21T11:49:29Z	submission	20136	vivekshivarajkumar
@@ -31798,7 +31402,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:49:38Z	submission	20140	vivekshivarajkumar
 2026-11-21T11:49:39Z	grant	20947	sp20262026
 2026-11-21T11:49:40Z	grant	20948	vivekshivarajkumar
-2026-11-21T11:49:45Z	grant	20949	roonastgames
 2026-11-21T11:49:46Z	submission	20896	HITEYY
 2026-11-21T11:49:48Z	grant	20950	JamCh01
 2026-11-21T11:50:06Z	submission	20895	HITEYY
@@ -31806,7 +31409,6 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:50:13Z	submission	20942	jdenwood
 2026-11-21T11:50:19Z	submission	20943	jdenwood
 2026-11-21T11:50:23Z	submission	20899	HITEYY
-2026-11-21T11:50:42Z	submission	20949	roonastgames
 2026-11-21T11:50:43Z	submission	20900	HITEYY
 2026-11-21T11:51:03Z	submission	20901	HITEYY
 2026-11-21T11:51:38Z	submission	20338	vivekshivarajkumar
@@ -31816,25 +31418,389 @@ timestamp_utc	event	issue	volunteer
 2026-11-21T11:51:47Z	submission	20947	sp20262026
 2026-11-21T11:52:28Z	submission	20841	maugomez77
 2026-11-21T11:52:34Z	submission	20859	maugomez77
+2026-11-21T11:52:38Z	grant	20952	zediir
+2026-11-21T11:52:39Z	grant	20953	zediir
+2026-11-21T11:52:40Z	grant	20954	zediir
+2026-11-21T11:52:41Z	grant	20955	gilad12-coder
+2026-11-21T11:52:42Z	grant	20956	gilad12-coder
+2026-11-21T11:52:43Z	grant	20957	dhudakk
+2026-11-21T11:52:47Z	grant	20960	dhudakk
+2026-11-21T11:52:48Z	grant	20961	dhudakk
+2026-11-21T11:52:52Z	grant	20964	dhudakk
+2026-11-21T11:52:53Z	grant	20965	dhudakk
+2026-11-21T11:52:54Z	grant	20966	certified-retart
+2026-11-21T11:53:14Z	submission	20955	gilad12-coder
 2026-11-21T11:53:20Z	submission	19982	surfyhou
+2026-11-21T11:53:20Z	submission	20956	gilad12-coder
+2026-11-21T11:53:31Z	submission	20966	certified-retart
+2026-11-21T11:53:37Z	submission	20953	zediir
+2026-11-21T11:53:47Z	submission	20954	zediir
 2026-11-21T11:54:16Z	submission	20346	vivekshivarajkumar
 2026-11-21T11:54:18Z	submission	20348	vivekshivarajkumar
 2026-11-21T11:54:20Z	submission	20349	vivekshivarajkumar
 2026-11-21T11:54:23Z	submission	20351	vivekshivarajkumar
+2026-11-21T11:54:30Z	submission	20952	zediir
 2026-11-21T11:54:57Z	submission	20910	dga471
+2026-11-21T11:55:18Z	grant	20967	certified-retart
+2026-11-21T11:55:18Z	grant	20968	certified-retart
+2026-11-21T11:55:20Z	grant	20970	certified-retart
+2026-11-21T11:55:22Z	grant	20971	vivekshivarajkumar
+2026-11-21T11:55:22Z	grant	20972	jdenwood
+2026-11-21T11:55:23Z	grant	20973	jdenwood
+2026-11-21T11:55:24Z	grant	20974	vivekshivarajkumar
+2026-11-21T11:55:25Z	grant	20975	jdenwood
+2026-11-21T11:55:26Z	grant	20976	vivekshivarajkumar
+2026-11-21T11:55:27Z	grant	20977	vivekshivarajkumar
+2026-11-21T11:55:29Z	grant	20979	galakurpi
+2026-11-21T11:55:29Z	grant	20980	galakurpi
+2026-11-21T11:55:30Z	grant	20981	galakurpi
 2026-11-21T11:55:30Z	submission	20575	vivekshivarajkumar
+2026-11-21T11:55:31Z	grant	20982	galakurpi
+2026-11-21T11:55:32Z	grant	20983	galakurpi
 2026-11-21T11:55:32Z	submission	20576	vivekshivarajkumar
+2026-11-21T11:55:33Z	grant	20984	galakurpi
+2026-11-21T11:55:34Z	grant	20985	galakurpi
+2026-11-21T11:55:35Z	grant	20986	galakurpi
 2026-11-21T11:55:35Z	submission	20577	vivekshivarajkumar
+2026-11-21T11:55:36Z	grant	20987	galakurpi
+2026-11-21T11:55:37Z	grant	20988	galakurpi
 2026-11-21T11:55:37Z	submission	20585	vivekshivarajkumar
+2026-11-21T11:55:38Z	grant	20989	galakurpi
+2026-11-21T11:55:39Z	grant	20990	galakurpi
+2026-11-21T11:55:40Z	grant	20991	galakurpi
+2026-11-21T11:55:41Z	grant	20992	galakurpi
+2026-11-21T11:55:42Z	grant	20993	galakurpi
+2026-11-21T11:55:43Z	grant	20994	galakurpi
+2026-11-21T11:55:44Z	grant	20995	galakurpi
+2026-11-21T11:55:44Z	grant	20996	galakurpi
+2026-11-21T11:55:45Z	grant	20997	galakurpi
+2026-11-21T11:55:46Z	grant	20998	galakurpi
+2026-11-21T11:55:48Z	grant	21000	sp20262026
+2026-11-21T11:55:49Z	grant	21001	vivekshivarajkumar
+2026-11-21T11:55:49Z	grant	21003	vivekshivarajkumar
+2026-11-21T11:55:51Z	grant	21004	vivekshivarajkumar
+2026-11-21T11:55:52Z	grant	21005	vivekshivarajkumar
+2026-11-21T11:55:53Z	grant	21006	HITEYY
+2026-11-21T11:55:53Z	grant	21007	HITEYY
+2026-11-21T11:55:54Z	submission	20967	certified-retart
+2026-11-21T11:55:55Z	grant	21008	HITEYY
+2026-11-21T11:55:55Z	grant	21009	HITEYY
+2026-11-21T11:55:56Z	grant	21010	HITEYY
+2026-11-21T11:55:57Z	grant	21011	HITEYY
+2026-11-21T11:55:58Z	grant	21012	HITEYY
+2026-11-21T11:55:59Z	grant	21013	HITEYY
+2026-11-21T11:56:00Z	grant	21014	HITEYY
+2026-11-21T11:56:00Z	grant	21015	dhudakk
+2026-11-21T11:56:04Z	grant	21017	dhudakk
+2026-11-21T11:56:05Z	submission	20968	certified-retart
+2026-11-21T11:56:05Z	submission	20972	jdenwood
+2026-11-21T11:56:10Z	grant	21022	gilad12-coder
+2026-11-21T11:56:11Z	submission	20973	jdenwood
+2026-11-21T11:56:12Z	grant	21024	dhudakk
 2026-11-21T11:56:12Z	submission	20154	TomMoeras
+2026-11-21T11:56:14Z	grant	21025	HITEYY
+2026-11-21T11:56:15Z	grant	21026	HITEYY
+2026-11-21T11:56:15Z	grant	21027	HITEYY
+2026-11-21T11:56:15Z	submission	20970	certified-retart
+2026-11-21T11:56:16Z	grant	21028	HITEYY
+2026-11-21T11:56:17Z	grant	21029	HITEYY
+2026-11-21T11:56:17Z	submission	20975	jdenwood
+2026-11-21T11:56:18Z	grant	21030	HITEYY
+2026-11-21T11:56:19Z	grant	21031	HITEYY
+2026-11-21T11:56:20Z	grant	21032	HITEYY
+2026-11-21T11:56:21Z	grant	21033	HITEYY
+2026-11-21T11:56:21Z	grant	21034	HITEYY
+2026-11-21T11:56:22Z	grant	21035	maugomez77
+2026-11-21T11:56:23Z	grant	21036	zediir
+2026-11-21T11:56:24Z	grant	21037	zediir
+2026-11-21T11:56:26Z	grant	21039	zediir
+2026-11-21T11:56:26Z	grant	21040	surfyhou
 2026-11-21T11:56:43Z	submission	20601	vivekshivarajkumar
 2026-11-21T11:56:45Z	submission	20604	vivekshivarajkumar
 2026-11-21T11:56:48Z	submission	20606	vivekshivarajkumar
 2026-11-21T11:57:01Z	submission	20466	emsi
+2026-11-21T11:57:02Z	submission	21022	gilad12-coder
 2026-11-21T11:57:07Z	submission	20699	chriswilson413
 2026-11-21T11:57:13Z	submission	20701	chriswilson413
+2026-11-21T11:57:18Z	submission	21036	zediir
+2026-11-21T11:57:27Z	submission	21037	zediir
+2026-11-21T11:57:37Z	submission	21039	zediir
 2026-11-21T11:57:42Z	submission	20799	vivekshivarajkumar
 2026-11-21T11:57:45Z	submission	20801	vivekshivarajkumar
 2026-11-21T11:57:47Z	submission	20803	vivekshivarajkumar
 2026-11-21T11:57:50Z	submission	20806	vivekshivarajkumar
+2026-11-21T11:58:03Z	submission	21000	sp20262026
 2026-11-21T11:58:07Z	submission	20659	hipotures
+2026-11-21T11:58:12Z	submission	20979	galakurpi
+2026-11-21T11:58:18Z	submission	20980	galakurpi
+2026-11-21T11:58:24Z	submission	20981	galakurpi
+2026-11-21T11:58:30Z	submission	20982	galakurpi
+2026-11-21T11:58:36Z	submission	20983	galakurpi
+2026-11-21T11:58:41Z	submission	20984	galakurpi
+2026-11-21T11:58:46Z	submission	20844	vivekshivarajkumar
+2026-11-21T11:58:47Z	submission	20985	galakurpi
+2026-11-21T11:58:49Z	submission	20847	vivekshivarajkumar
+2026-11-21T11:58:51Z	submission	20849	vivekshivarajkumar
+2026-11-21T11:58:54Z	submission	20851	vivekshivarajkumar
+2026-11-21T11:58:54Z	submission	20986	galakurpi
+2026-11-21T11:59:42Z	submission	20456	TomMoeras
+2026-11-21T12:00:06Z	submission	20860	vivekshivarajkumar
+2026-11-21T12:00:08Z	grant	21041	maugomez77
+2026-11-21T12:00:09Z	grant	21042	dga471
+2026-11-21T12:00:09Z	submission	20861	vivekshivarajkumar
+2026-11-21T12:00:11Z	grant	21044	jdenwood
+2026-11-21T12:00:11Z	submission	20862	vivekshivarajkumar
+2026-11-21T12:00:12Z	grant	21045	TomMoeras
+2026-11-21T12:00:13Z	grant	21046	jdenwood
+2026-11-21T12:00:13Z	submission	20863	vivekshivarajkumar
+2026-11-21T12:00:14Z	grant	21047	jdenwood
+2026-11-21T12:00:17Z	grant	21049	dhudakk
+2026-11-21T12:00:18Z	grant	21050	dhudakk
+2026-11-21T12:00:19Z	grant	21051	dhudakk
+2026-11-21T12:00:20Z	grant	21052	dhudakk
+2026-11-21T12:00:21Z	grant	21053	dhudakk
+2026-11-21T12:00:22Z	grant	21054	dhudakk
+2026-11-21T12:00:23Z	grant	21055	dhudakk
+2026-11-21T12:00:24Z	grant	21056	gilad12-coder
+2026-11-21T12:00:25Z	grant	21057	certified-retart
+2026-11-21T12:00:26Z	grant	21058	certified-retart
+2026-11-21T12:00:27Z	grant	21059	certified-retart
+2026-11-21T12:00:28Z	grant	21060	certified-retart
+2026-11-21T12:00:30Z	grant	21062	zediir
+2026-11-21T12:00:31Z	grant	21063	zediir
+2026-11-21T12:00:32Z	grant	21064	zediir
+2026-11-21T12:00:33Z	grant	21065	gilad12-coder
+2026-11-21T12:00:34Z	grant	21066	sp20262026
+2026-11-21T12:00:35Z	grant	21067	vivekshivarajkumar
+2026-11-21T12:00:37Z	grant	21068	vivekshivarajkumar
+2026-11-21T12:00:38Z	grant	21070	vivekshivarajkumar
+2026-11-21T12:00:39Z	grant	21071	vivekshivarajkumar
+2026-11-21T12:00:41Z	grant	21072	hipotures
+2026-11-21T12:00:41Z	submission	21044	jdenwood
+2026-11-21T12:00:42Z	grant	21073	galakurpi
+2026-11-21T12:00:43Z	grant	21074	galakurpi
+2026-11-21T12:00:44Z	grant	21075	galakurpi
+2026-11-21T12:00:46Z	grant	21076	galakurpi
+2026-11-21T12:00:47Z	grant	21077	galakurpi
+2026-11-21T12:00:47Z	submission	21046	jdenwood
+2026-11-21T12:00:48Z	grant	21078	galakurpi
+2026-11-21T12:00:49Z	grant	21079	chriswilson413
+2026-11-21T12:00:50Z	grant	21080	vivekshivarajkumar
+2026-11-21T12:00:51Z	grant	21081	vivekshivarajkumar
+2026-11-21T12:00:54Z	submission	21047	jdenwood
+2026-11-21T12:00:58Z	submission	21057	certified-retart
+2026-11-21T12:01:09Z	submission	21058	certified-retart
+2026-11-21T12:01:19Z	submission	21059	certified-retart
+2026-11-21T12:01:29Z	submission	21060	certified-retart
+2026-11-21T12:01:31Z	submission	20987	galakurpi
+2026-11-21T12:01:36Z	submission	21064	zediir
+2026-11-21T12:01:40Z	submission	20989	galakurpi
+2026-11-21T12:01:48Z	submission	20839	t-choudhury
+2026-11-21T12:01:48Z	submission	20990	galakurpi
+2026-11-21T12:01:51Z	submission	20917	vivekshivarajkumar
+2026-11-21T12:01:53Z	submission	20912	maugomez77
+2026-11-21T12:01:53Z	submission	20918	vivekshivarajkumar
+2026-11-21T12:01:55Z	submission	20991	galakurpi
+2026-11-21T12:01:56Z	submission	20921	vivekshivarajkumar
+2026-11-21T12:01:58Z	submission	20924	vivekshivarajkumar
+2026-11-21T12:02:00Z	submission	20925	maugomez77
+2026-11-21T12:02:01Z	submission	20992	galakurpi
+2026-11-21T12:02:07Z	submission	20940	maugomez77
+2026-11-21T12:02:08Z	submission	20993	galakurpi
+2026-11-21T12:02:14Z	submission	20994	galakurpi
+2026-11-21T12:02:14Z	submission	21056	gilad12-coder
+2026-11-21T12:02:20Z	submission	21062	zediir
+2026-11-21T12:02:20Z	submission	21065	gilad12-coder
+2026-11-21T12:02:30Z	submission	21063	zediir
+2026-11-21T12:02:57Z	submission	21066	sp20262026
+2026-11-21T12:02:59Z	submission	20988	galakurpi
+2026-11-21T12:03:24Z	submission	20944	vivekshivarajkumar
+2026-11-21T12:03:27Z	submission	20945	vivekshivarajkumar
+2026-11-21T12:03:29Z	grant	21082	vivekshivarajkumar
+2026-11-21T12:03:29Z	submission	20946	vivekshivarajkumar
+2026-11-21T12:03:30Z	grant	21083	vivekshivarajkumar
+2026-11-21T12:03:32Z	grant	21085	TomMoeras
+2026-11-21T12:03:32Z	submission	20948	vivekshivarajkumar
+2026-11-21T12:03:34Z	grant	21086	galakurpi
+2026-11-21T12:03:35Z	grant	21087	galakurpi
+2026-11-21T12:03:40Z	grant	21090	dhudakk
+2026-11-21T12:03:42Z	grant	21092	vivekshivarajkumar
+2026-11-21T12:03:45Z	grant	21094	vivekshivarajkumar
+2026-11-21T12:03:46Z	grant	21095	dhudakk
+2026-11-21T12:03:47Z	grant	21096	dhudakk
+2026-11-21T12:03:48Z	grant	21097	vivekshivarajkumar
+2026-11-21T12:03:48Z	grant	21098	dhudakk
+2026-11-21T12:03:52Z	grant	21100	vivekshivarajkumar
+2026-11-21T12:03:53Z	grant	21101	jdenwood
+2026-11-21T12:03:54Z	grant	21102	vivekshivarajkumar
+2026-11-21T12:03:55Z	grant	21104	vivekshivarajkumar
+2026-11-21T12:03:57Z	grant	21105	certified-retart
+2026-11-21T12:03:58Z	grant	21106	vivekshivarajkumar
+2026-11-21T12:03:59Z	grant	21107	vivekshivarajkumar
+2026-11-21T12:04:00Z	grant	21108	t-choudhury
+2026-11-21T12:04:01Z	grant	21109	zediir
+2026-11-21T12:04:02Z	grant	21110	t-choudhury
+2026-11-21T12:04:04Z	grant	21112	gilad12-coder
+2026-11-21T12:04:05Z	grant	21113	galakurpi
+2026-11-21T12:04:06Z	grant	21114	galakurpi
+2026-11-21T12:04:06Z	grant	21115	galakurpi
+2026-11-21T12:04:07Z	grant	21116	vivekshivarajkumar
+2026-11-21T12:04:08Z	grant	21117	galakurpi
+2026-11-21T12:04:09Z	grant	21118	galakurpi
+2026-11-21T12:04:10Z	grant	21119	galakurpi
+2026-11-21T12:04:11Z	grant	21120	vivekshivarajkumar
+2026-11-21T12:04:13Z	grant	21121	zediir
+2026-11-21T12:04:13Z	grant	21122	zediir
+2026-11-21T12:04:14Z	grant	21123	vivekshivarajkumar
+2026-11-21T12:04:15Z	grant	21124	vivekshivarajkumar
+2026-11-21T12:04:33Z	submission	21101	jdenwood
+2026-11-21T12:04:33Z	submission	21105	certified-retart
+2026-11-21T12:04:42Z	submission	21112	gilad12-coder
+2026-11-21T12:04:51Z	submission	20971	vivekshivarajkumar
+2026-11-21T12:04:53Z	submission	20974	vivekshivarajkumar
+2026-11-21T12:04:56Z	submission	20976	vivekshivarajkumar
+2026-11-21T12:04:58Z	submission	20977	vivekshivarajkumar
+2026-11-21T12:04:59Z	submission	21109	zediir
+2026-11-21T12:05:09Z	submission	21121	zediir
+2026-11-21T12:05:20Z	submission	21122	zediir
+2026-11-21T12:05:49Z	grant	21125	gilad12-coder
+2026-11-21T12:05:50Z	grant	21126	sp20262026
+2026-11-21T12:05:52Z	grant	21128	maugomez77
+2026-11-21T12:05:54Z	grant	21130	vivekshivarajkumar
+2026-11-21T12:05:55Z	grant	21131	vivekshivarajkumar
+2026-11-21T12:05:56Z	grant	21132	vivekshivarajkumar
+2026-11-21T12:05:57Z	grant	21133	vivekshivarajkumar
+2026-11-21T12:05:58Z	grant	21134	mabdelazim
+2026-11-21T12:06:00Z	grant	21136	vivekshivarajkumar
+2026-11-21T12:06:01Z	grant	21137	vivekshivarajkumar
+2026-11-21T12:06:03Z	grant	21138	gilad12-coder
+2026-11-21T12:06:03Z	submission	21001	vivekshivarajkumar
+2026-11-21T12:06:04Z	grant	21139	vivekshivarajkumar
+2026-11-21T12:06:05Z	grant	21140	vivekshivarajkumar
+2026-11-21T12:06:05Z	grant	21141	maugomez77
+2026-11-21T12:06:05Z	submission	21003	vivekshivarajkumar
+2026-11-21T12:06:08Z	submission	21004	vivekshivarajkumar
+2026-11-21T12:06:10Z	submission	21005	vivekshivarajkumar
+2026-11-21T12:06:14Z	submission	20843	hipotures
+2026-11-21T12:06:24Z	submission	21125	gilad12-coder
+2026-11-21T12:07:03Z	submission	21138	gilad12-coder
+2026-11-21T12:07:20Z	submission	21067	vivekshivarajkumar
+2026-11-21T12:07:22Z	submission	21068	vivekshivarajkumar
+2026-11-21T12:07:24Z	submission	21070	vivekshivarajkumar
+2026-11-21T12:07:27Z	submission	21071	vivekshivarajkumar
+2026-11-21T12:07:59Z	submission	21126	sp20262026
+2026-11-21T12:08:25Z	submission	21108	t-choudhury
+2026-11-21T12:08:32Z	submission	20866	emsi
+2026-11-21T12:08:32Z	submission	21080	vivekshivarajkumar
+2026-11-21T12:08:34Z	submission	21081	vivekshivarajkumar
+2026-11-21T12:08:37Z	submission	21082	vivekshivarajkumar
+2026-11-21T12:08:39Z	submission	21083	vivekshivarajkumar
+2026-11-21T12:08:48Z	submission	20301	surfyhou
+2026-11-21T12:09:44Z	grant	21142	zediir
+2026-11-21T12:09:45Z	grant	21143	zediir
+2026-11-21T12:09:46Z	grant	21144	vivekshivarajkumar
+2026-11-21T12:09:47Z	grant	21145	vivekshivarajkumar
+2026-11-21T12:09:47Z	submission	21092	vivekshivarajkumar
+2026-11-21T12:09:48Z	grant	21146	vivekshivarajkumar
+2026-11-21T12:09:49Z	grant	21148	vivekshivarajkumar
+2026-11-21T12:09:49Z	submission	21094	vivekshivarajkumar
+2026-11-21T12:09:50Z	grant	21149	jdenwood
+2026-11-21T12:09:51Z	grant	21150	jdenwood
+2026-11-21T12:09:52Z	grant	21151	jdenwood
+2026-11-21T12:09:52Z	submission	21097	vivekshivarajkumar
+2026-11-21T12:09:54Z	submission	21100	vivekshivarajkumar
+2026-11-21T12:09:57Z	grant	21155	maugomez77
+2026-11-21T12:10:00Z	grant	21157	vivekshivarajkumar
+2026-11-21T12:10:01Z	grant	21158	dhudakk
+2026-11-21T12:10:02Z	grant	21159	vivekshivarajkumar
+2026-11-21T12:10:05Z	grant	21161	vivekshivarajkumar
+2026-11-21T12:10:06Z	grant	21162	dhudakk
+2026-11-21T12:10:07Z	grant	21164	vivekshivarajkumar
+2026-11-21T12:10:08Z	grant	21165	dhudakk
+2026-11-21T12:10:10Z	grant	21166	hipotures
+2026-11-21T12:10:11Z	grant	21168	gilad12-coder
+2026-11-21T12:10:12Z	grant	21169	gilad12-coder
+2026-11-21T12:10:14Z	grant	21170	vivekshivarajkumar
+2026-11-21T12:10:15Z	grant	21171	vivekshivarajkumar
+2026-11-21T12:10:16Z	grant	21173	vivekshivarajkumar
+2026-11-21T12:10:17Z	grant	21174	vivekshivarajkumar
+2026-11-21T12:10:18Z	grant	21175	sp20262026
+2026-11-21T12:10:19Z	grant	21176	Amahane-Hikari
+2026-11-21T12:10:20Z	grant	21177	Amahane-Hikari
+2026-11-21T12:10:20Z	submission	21149	jdenwood
+2026-11-21T12:10:21Z	grant	21178	Amahane-Hikari
+2026-11-21T12:10:22Z	grant	21179	Amahane-Hikari
+2026-11-21T12:10:26Z	submission	21150	jdenwood
+2026-11-21T12:10:27Z	grant	21180	Amahane-Hikari
+2026-11-21T12:10:28Z	submission	21142	zediir
+2026-11-21T12:10:30Z	grant	21181	Amahane-Hikari
+2026-11-21T12:10:31Z	submission	21168	gilad12-coder
+2026-11-21T12:10:32Z	submission	21151	jdenwood
+2026-11-21T12:10:37Z	submission	21169	gilad12-coder
+2026-11-21T12:10:53Z	submission	21102	vivekshivarajkumar
+2026-11-21T12:10:55Z	submission	21104	vivekshivarajkumar
+2026-11-21T12:10:58Z	submission	21106	vivekshivarajkumar
+2026-11-21T12:11:00Z	submission	21107	vivekshivarajkumar
+2026-11-21T12:11:04Z	submission	21143	zediir
+2026-11-21T12:11:15Z	submission	21177	Amahane-Hikari
+2026-11-21T12:11:17Z	submission	21176	Amahane-Hikari
+2026-11-21T12:11:19Z	submission	21042	dga471
+2026-11-21T12:11:34Z	submission	21178	Amahane-Hikari
+2026-11-21T12:11:35Z	submission	21182	Amahane-Hikari
+2026-11-21T12:11:38Z	submission	21116	vivekshivarajkumar
+2026-11-21T12:11:40Z	submission	21120	vivekshivarajkumar
+2026-11-21T12:11:42Z	submission	21123	vivekshivarajkumar
+2026-11-21T12:11:44Z	submission	21124	vivekshivarajkumar
+2026-11-21T12:11:51Z	submission	21179	Amahane-Hikari
+2026-11-21T12:11:51Z	submission	21180	Amahane-Hikari
+2026-11-21T12:11:57Z	submission	21181	Amahane-Hikari
+2026-11-21T12:12:15Z	grant	21182	Amahane-Hikari
+2026-11-21T12:12:15Z	grant	21183	Amahane-Hikari
+2026-11-21T12:12:16Z	grant	21184	Amahane-Hikari
+2026-11-21T12:12:17Z	grant	21185	Amahane-Hikari
+2026-11-21T12:12:18Z	grant	21186	Amahane-Hikari
+2026-11-21T12:12:19Z	grant	21187	Amahane-Hikari
+2026-11-21T12:12:20Z	grant	21188	surfyhou
+2026-11-21T12:12:21Z	grant	21189	Amahane-Hikari
+2026-11-21T12:12:22Z	grant	21190	Amahane-Hikari
+2026-11-21T12:12:23Z	grant	21191	Amahane-Hikari
+2026-11-21T12:12:24Z	grant	21192	Amahane-Hikari
+2026-11-21T12:12:25Z	grant	21193	Amahane-Hikari
+2026-11-21T12:12:25Z	submission	21130	vivekshivarajkumar
+2026-11-21T12:12:27Z	submission	21131	vivekshivarajkumar
+2026-11-21T12:12:30Z	submission	21132	vivekshivarajkumar
+2026-11-21T12:12:32Z	submission	21133	vivekshivarajkumar
+2026-11-21T12:12:32Z	submission	21175	sp20262026
+2026-11-21T12:13:09Z	submission	21035	maugomez77
+2026-11-21T12:13:16Z	submission	21041	maugomez77
+2026-11-21T12:13:26Z	submission	21136	vivekshivarajkumar
+2026-11-21T12:13:28Z	submission	21137	vivekshivarajkumar
+2026-11-21T12:13:30Z	submission	21139	vivekshivarajkumar
+2026-11-21T12:13:33Z	submission	21140	vivekshivarajkumar
+2026-11-21T12:14:00Z	submission	21187	Amahane-Hikari
+2026-11-21T12:14:00Z	submission	21192	Amahane-Hikari
+2026-11-21T12:14:00Z	submission	21193	Amahane-Hikari
+2026-11-21T12:14:01Z	submission	21194	Amahane-Hikari
+2026-11-21T12:14:38Z	submission	21144	vivekshivarajkumar
+2026-11-21T12:14:40Z	submission	21145	vivekshivarajkumar
+2026-11-21T12:14:42Z	submission	21146	vivekshivarajkumar
+2026-11-21T12:14:45Z	submission	21148	vivekshivarajkumar
+2026-11-21T12:14:56Z	submission	21183	Amahane-Hikari
+2026-11-21T12:14:56Z	submission	21184	Amahane-Hikari
+2026-11-21T12:14:56Z	submission	21190	Amahane-Hikari
+2026-11-21T12:14:56Z	submission	21191	Amahane-Hikari
+2026-11-21T12:14:57Z	submission	21189	Amahane-Hikari
+2026-11-21T12:15:04Z	submission	21185	Amahane-Hikari
+2026-11-21T12:15:13Z	submission	21110	t-choudhury
+2026-11-21T12:15:13Z	submission	21186	Amahane-Hikari
+2026-11-21T12:15:32Z	submission	21157	vivekshivarajkumar
+2026-11-21T12:15:34Z	submission	21159	vivekshivarajkumar
+2026-11-21T12:15:36Z	submission	21161	vivekshivarajkumar
+2026-11-21T12:15:38Z	submission	21164	vivekshivarajkumar
+2026-11-21T12:15:55Z	grant	21194	Amahane-Hikari
+2026-11-21T12:16:26Z	submission	21170	vivekshivarajkumar
+2026-11-21T12:16:28Z	submission	21171	vivekshivarajkumar
+2026-11-21T12:16:31Z	submission	21173	vivekshivarajkumar
+2026-11-21T12:16:33Z	submission	21174	vivekshivarajkumar
+2026-11-21T12:16:40Z	submission	20950	JamCh01
+2026-11-21T12:19:15Z	submission	20493	surfyhou
