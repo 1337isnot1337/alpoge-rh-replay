@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.JetHarmonics.ProdLeOfInterlacingPairing",
+  "source_sha256": "ea524b767b1df7a123773282ddb247691aac0b74248dd50bcb4faee82fa7ebd9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use `Finset.prod_le_prod₀`, the new name of the nonnegative form of `Finset.prod_le_prod`."
+}

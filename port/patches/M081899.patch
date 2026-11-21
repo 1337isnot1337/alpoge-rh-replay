@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ResidueFieldIsAlgebraicOfEtale.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ResidueFieldIsAlgebraicOfEtale.lean
+@@ -13,7 +13,7 @@
+   have hE : Algebra.Etale A B := RingHom.etale_algebraMap.mp hg
+   haveI : P.LiesOver (P.comap g) := ⟨rfl⟩
+   letI := Localization.AtPrime.algebraOfLiesOver (P.comap g) P
+-  haveI : Localization.AtPrime.IsLiesOverAlgebra (P.comap g) P := ⟨rfl⟩
++  haveI : Localization.AtPrime.IsLiesOverAlgebra (P.comap g) P := inferInstance
+   haveI : Algebra.EssFiniteType A B := inferInstance
+   haveI : Algebra.IsUnramifiedAt A P := inferInstance
+   have hsep : Algebra.IsSeparable (P.comap g).ResidueField P.ResidueField := inferInstance

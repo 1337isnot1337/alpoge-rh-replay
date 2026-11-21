@@ -1,0 +1,12 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/RingKrullDimLtTopOfEssFiniteType.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/RingKrullDimLtTopOfEssFiniteType.lean
+@@ -25,7 +25,8 @@
+   obtain ⟨n, f, hf⟩ := Algebra.FiniteType.iff_quotient_mvPolynomial''.mp ‹_›
+   refine lt_of_le_of_lt (ringKrullDim_le_of_surjective f.toRingHom hf) ?_
+   rw [MvPolynomial.ringKrullDim_of_isNoetherianRing,
+-    IsPrincipalIdealRing.ringKrullDim_eq_one ℤ Int.not_isField]
++    IsPrincipalIdealRing.ringKrullDim_eq_one ℤ Int.not_isField,
++    ENat.card_eq_coe_natCard]
+   have h : ((1 + Nat.card (Fin n) : ℕ) : WithBot ℕ∞) < ⊤ :=
+     WithBot.coe_lt_coe.mpr (ENat.coe_lt_top _)
+   exact_mod_cast h

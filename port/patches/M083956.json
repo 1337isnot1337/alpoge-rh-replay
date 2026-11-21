@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.JetHarmonics.HomValueCongruentIntModPrime",
+  "source_sha256": "358fb2e4f49829e64f79b00c8fcebefd2fc2776923d8ffb2f8ce937b4422dd0b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use `Polynomial.X_pow_sub_X_ne_zero` and `Polynomial.natDegree_X_pow_sub_X`, the new names of `FiniteField.X_pow_card_sub_X_ne_zero` and `FiniteField.X_pow_card_sub_X_natDegree_eq`; the ring argument is now implicit."
+}

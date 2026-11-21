@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RiemannZetaNeZeroOfMemIoo",
+  "source_sha256": "f6b802832fb2ebdd6ac81afb4ba122436824853afa976a449aaaeee789479a4b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "State two side goals as the set membership that `IsOpen.mem_nhds` expects (`2 + I ∈ {s | 1 < s.re}` instead of `1 < (2 + I).re`); the target no longer unifies the two before elaborating the `show`. Proof bodies only."
+}

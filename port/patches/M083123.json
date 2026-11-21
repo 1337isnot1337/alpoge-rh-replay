@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.VecMulVecComm",
+  "source_sha256": "1d8ce7d296afb80e409944fdac56969b0105d3d269b17a2627216afc864abb15",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Algebra.isMulCommutative_adjoin` now takes `s.Pairwise Commute`; pass `gen_comm` in that form. Only the proof argument inside the `CommRing (EvenPart n)` instance changes."
+}

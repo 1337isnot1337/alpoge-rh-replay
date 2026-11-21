@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RingKrullDimLtTopOfEssFiniteType",
+  "source_sha256": "d85736cd74f22b9126b355c2498ad30ab82623674877c0054272a1ed12944d1c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`MvPolynomial.ringKrullDim_of_isNoetherianRing` is now stated with `ENat.card`; rewrite with `ENat.card_eq_coe_natCard` to recover the `Nat.card` form the rest of the proof uses. Proof body only."
+}
