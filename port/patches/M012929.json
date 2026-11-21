@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFieldOfIsIntegralImageStatement",
+  "source_sha256": "345e55947b0a3dec2ac8fb359671af631043d048f737ae802e1949c5fcbac5a7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

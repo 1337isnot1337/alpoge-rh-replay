@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbhyankarRootMemMaximalIdealNonZeroDivisors",
+  "source_sha256": "25ccc4edf135dfdbe1dc3e9a24f82e569a5f99a347285bb290c1475baaa3e839",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass explicit RingHom and Algebra.IsIntegral.isIntegral arguments to Ideal.isMaximal_comap_of_isIntegral_of_isMaximal in mem_maximalIdeal_and_mem_nonZeroDivisors_of_pow for Mathlib v4.36.0."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.BurnsideSurjOfIrred",
+  "source_sha256": "d8c21b0441de4d33e560d943a310ca4083ab5440557eae8894e8b262f317aeaf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardBlockParabolicSubgroupGL",
+  "source_sha256": "44366c300e35a4bcea0542d832e90220d91c1d3a6999721f721522ba34cf9fb3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

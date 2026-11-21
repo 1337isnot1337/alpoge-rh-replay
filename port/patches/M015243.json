@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AffineSpaceSmoothNormal",
+  "source_sha256": "301bfbd4051dc87e5af521dbab37ab0f71f697e1bc1202486b6d4caf17570eac",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

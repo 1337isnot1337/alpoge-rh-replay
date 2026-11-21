@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdicCompletionMapInvariants",
+  "source_sha256": "3c5ba022de5686eb16a4e0a7606f85e4224e54815332fd94e165dbebf1e1a40c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

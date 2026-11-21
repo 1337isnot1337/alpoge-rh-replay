@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedCountFiniteIndexSubgroupsStatement",
+  "source_sha256": "643656164a44f0e51a86be61ff09a972b972a8480fe8eedc86bc6a1731e501da",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

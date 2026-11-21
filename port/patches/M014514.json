@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbsNormLeAbsNormMulDivAbsNormOfEisensteinIndexPa",
+  "source_sha256": "6a00550388168f1f838a2cc76c9331d1c840d58071a42a0a9b4d820b4ce7a55e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

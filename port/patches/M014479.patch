@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AbhyankarRootMemMaximalIdealNonZeroDivisors.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AbhyankarRootMemMaximalIdealNonZeroDivisors.lean
+@@ -34,7 +34,7 @@
+       algebraMap D (Localization.AtPrime Q) t ∈ nonZeroDivisors (Localization.AtPrime Q) := by
+   have htDm : t ∈ maximalIdeal D := htu
+   haveI hQmax : (Q.comap (algebraMap D (integralClosure D (D ⊗[S] L)))).IsMaximal :=
+-    Ideal.isMaximal_comap_of_isIntegral_of_isMaximal Q
++    Ideal.isMaximal_comap_of_isIntegral_of_isMaximal (algebraMap D (integralClosure D (D ⊗[S] L))) Algebra.IsIntegral.isIntegral Q
+   have hcomap : Q.comap (algebraMap D (integralClosure D (D ⊗[S] L))) = maximalIdeal D :=
+     IsLocalRing.eq_maximalIdeal hQmax
+   have htQ : algebraMap D (integralClosure D (D ⊗[S] L)) t ∈ Q := by

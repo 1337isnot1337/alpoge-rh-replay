@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AwayCongrModOfIsCoprimeStatement",
+  "source_sha256": "58ed66fe5d45c884a1beeacdde53f7374b920d9d3e39b8febc753d381f04392c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

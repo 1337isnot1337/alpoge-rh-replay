@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharDerivContDiffStatement",
+  "source_sha256": "94f157b1f59a05a9ab7460a460d77655852987bb7802edea828fde6becd99eb1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
