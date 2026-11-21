@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericLinearFormPrime",
+  "source_sha256": "cd31884062f4938ab132538f09b48ad23050e0d78fdf47fc38c8b12055237aab",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

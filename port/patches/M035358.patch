@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianCongrInvolution.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianCongrInvolution.lean
+@@ -33,7 +33,7 @@
+     · rw [mul_neg_one, neg_mul, hsq, abs_of_neg (lt_of_le_of_ne (not_lt.1 h) (hd0 i))]
+       push_cast; ring_nf; rfl
+   have hDH : Dᴴ = D := by
+-    rw [hD, diagonal_conjTranspose]; congr 1; funext i; simp
++    rw [hD, diagonal_conjTranspose]; congr 1
+   have hsH : sᴴ = s := by
+     rw [hs, diagonal_conjTranspose]; congr 1; funext i; by_cases h : 0 < d i <;> simp [h]
+   have hss : s * s = 1 := by

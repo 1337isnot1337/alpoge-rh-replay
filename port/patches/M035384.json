@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFormConstMulInner",
+  "source_sha256": "0ef4e9e99bb24a98c4b359433fc211b18c391b826d5658dd839ed5c8acf92c95",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

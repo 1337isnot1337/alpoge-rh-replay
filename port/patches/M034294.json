@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarLintegralMulRightLeStatement",
+  "source_sha256": "6fc7cd153f010c9ada6a24225ae3829e239749bf1205c9c522d82a90e8babb23",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

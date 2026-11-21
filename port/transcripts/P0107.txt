@@ -1,0 +1,2228 @@
+Packet P0107
+Build command:
+  python3 scripts/port-ci-build.py --workspace <prepared-workspace> --src <verified-archive>/lean/src --patch-ids M033319 M033365 M033378 M033402 M033448 M033456 M033527 M033639 M033800 M033839 M034014 M034018 M034065 M034294 M034297 M034337 M034567 M034612 M034728 M034733 M034737 M034739 M034740 M034744 M034779 M034788 M034790 M034840 M034842 M035140 M035241 M035265 M035358 M035369 M035377 M035379 M035384 M035391 M035477 M035493 M035513 M035637 M035744 M035746 M035915 M035955 M035974 M036172 M036179 M036221
+
+Original archive part verification
+lean.tar.gz.part01: OK
+lean.tar.gz.part02: OK
+lean.tar.gz.part03: OK
+lean.tar.gz.part04: OK
+lean.tar.gz.part05: OK
+lean.tar.gz.part06: OK
+lean.tar.gz.part07: OK
+lean.tar.gz.part08: OK
+lean.tar.gz.part09: OK
+lean.tar.gz.part10: OK
+lean.tar.gz.part11: OK
+lean.tar.gz.part12: OK
+lean.tar.gz.part13: OK
+lean.tar.gz.part14: OK
+
+Earlier batch build status (P0107-ready.log)
+⚠ [18250/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IInfSupPowEq (7.4s)
+⚠ [18251/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealNormEquationFromLocalAssociates (12s)
+⚠ [18252/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HypersurfaceDiffIsPreirreducibleOfNoSplitting (6.7s)
+⚠ [18254/18421] Built Formalism.DegreeFormula.FlagDegFormula (5.2s)
+⚠ [18255/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HomogeneousComponentsOfConeIntegralEquation (6.6s)
+⚠ [18256/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdempotentEqOfBasicOpenEq (5.7s)
+⚠ [18258/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdempotentOfClopen (6.4s)
+⚠ [18259/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsClopenBasicOpenSpecProdSelfFirstIdempotent (4.3s)
+⚠ [18260/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HolomorphicParameterIntegral (6.2s)
+⚠ [18261/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HolomorphicParamIntegral (7.4s)
+⚠ [18262/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeProjectionEigenvalueCompat (6.4s)
+⚠ [18263/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeProjectionFromLattice (8.1s)
+⚠ [18264/18421] Built Formalism.LocalToGlobal.IndefiniteForms.IndefiniteTree.RealCubicMeans.LogMeanShares.LogMeanStatements.HSClaim (6.8s)
+⚠ [18265/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryGroupSecondKindCoordinatesNearOne (10s)
+⚠ [18266/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSpectralPartsAnticommute (6.1s)
+⚠ [18267/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSimilitudeEntrySqBound (6.9s)
+⚠ [18268/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianNormTriangleInequality (6.5s)
+⚠ [18269/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFlagUnipotentMatrixExistsSparse (5.9s)
+⚠ [18270/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFormEqCombinationOfSelfAdjointIdentity (7.6s)
+⚠ [18271/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFlagComplementPosDefFactorization (5.1s)
+⚠ [18272/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianEndoMatrixRationalInLatticeBasis (5.0s)
+⚠ [18273/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.WirtConst (4.7s)
+⚠ [18274/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistOkAll (4.7s)
+⚠ [18275/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveLieLatticeDegree (21s)
+⚠ [18276/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraMapQuotBijective (27s)
+⚠ [18277/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConstantCoeffHasse (25s)
+⚠ [18278/18421] Built Development.AbelianVarietyTheory.BlockTheory.DivisorBase.OmegaFactorization (26s)
+⚠ [18279/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumConjClassesRegroupWithInvariantSelection (15s)
+⚠ [18280/18421] Built Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.HasQExpansionModularForm (12s)
+⚠ [18281/18421] Built Development.AbelianVarietyTheory.Definitions.Divisors.HasQIff (10s)
+⚠ [18282/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtOfContinuousOfMapAdd (11s)
+⚠ [18283/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtIntegralDominatedFamily (18s)
+⚠ [18284/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarMeasureProductGroups (15s)
+⚠ [18285/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousFourierGau (39s)
+⚠ [18286/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarLintegralMulRightLe (12s)
+⚠ [18287/18421] Built Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegralConjInnerMulInnerOfIsEmptyEquiv (26s)
+⚠ [18288/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramPosSemidefOfIntForm (10s)
+⚠ [18289/18421] Built ReciprocityTheory.GeometryOfNumbers.LatticeCovolumes.ConjSymm (9.0s)
+⚠ [18290/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramDetChangeOfBases (7.9s)
+⚠ [18291/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramDetNeZeroOfKerOrth (8.9s)
+⚠ [18292/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GlAdicCompletionEntriesBoundedOfIsCompact (5.9s)
+⚠ [18293/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GlueFlatOverPullbackOfSubsingleton (6.9s)
+⚠ [18294/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeometricSeriesMultiIndex (6.2s)
+⚠ [18295/18421] Built Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.IsWeaklyRegularMapCAppendMapLinForm (11s)
+⚠ [18296/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeneratorMinpolyEigenvalueCompat (9.6s)
+⚠ [18297/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolyMulGaussianBounded (10s)
+⚠ [18298/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.PowForm (10s)
+⚠ [18299/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentIdealSmulMemSpanRational (16s)
+⚠ [18300/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisOfFiniteGeneratingAutomorphisms (5.9s)
+⚠ [18301/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionFreeOver (4.8s)
+⚠ [18302/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FundamentalDomainUnfoldSubgroup (6.8s)
+⚠ [18303/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FundamentalDomainTranslate (9.7s)
+⚠ [18304/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FundamentalDomainSubgroupMeasureConst (16s)
+⚠ [18305/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FundamentalDomainLineDerivativeIntegral (11s)
+⚠ [18358/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IInfSupPowEqOfAdicCompatibleIdeals (9.6s)
+⚠ [18359/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealNormEquationFromLocalAssociatesStatement (8.0s)
+⚠ [18360/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HypersurfaceDiffIsPreirreducibleOfNoSplittingStatement (9.4s)
+✖ [18361/18421] Building Development.AbelianVarietyTheory.Proofs.DivisorProofs.HomogeneousMemSpanLinearRoots (23s)
+error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousMemSpanLinearRoots.lean:38:4: Unknown identifier `coeff`
+error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousMemSpanLinearRoots.lean:39:6: Failed to rewrite using equation theorems for `polOf`
+error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousMemSpanLinearRoots.lean:58:10: Unknown identifier `totalDegree_finset_sum`
+error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousMemSpanLinearRoots.lean:59:2: No goals to be solved
+error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousMemSpanLinearRoots.lean:81:21: Unknown identifier `coeff`
+error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousMemSpanLinearRoots.lean:81:34: Unknown identifier `coeff`
+error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousMemSpanLinearRoots.lean:75:65: unsolved goals
+⚠ [18362/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HomogeneousComponentsOfConeIntegralEquationStatement (11s)
+⚠ [18363/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HomExtSpecProdSelfOfBasicOpenPreimageEq (13s)
+⚠ [18364/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HolomorphicParameterIntegralStatement (10s)
+⚠ [18365/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HolomorphicParamIntegralStatement (6.9s)
+⚠ [18366/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeProjectionEigenvalueCompatStatement (7.6s)
+⚠ [18367/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeProjectionFromLatticeStatement (8.1s)
+⚠ [18368/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HilbertSamuelDegreeRatioLowerBoundRearranged (19s)
+⚠ [18369/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianUnitaryGroupOneParameterChart (17s)
+⚠ [18370/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSpectralPartsAnticommuteStatement (8.2s)
+⚠ [18371/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSimilitudeEntrySqBoundStatement (5.6s)
+⚠ [18372/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianNormTriangleInequalityStatement (7.8s)
+⚠ [18373/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFlagUnipotentMatrixExistsSparseStatement (8.4s)
+⚠ [18374/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFormEqCombinationOfSelfAdjointIdentityStatement (9.2s)
+⚠ [18375/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFlagComplementPosDefFactorizationStatement (8.5s)
+⚠ [18376/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianEndoMatrixRationalInLatticeBasisStatement (6.7s)
+⚠ [18377/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianBoundedFormMulVecBound (7.3s)
+⚠ [18378/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianDerivWirtingerDecomposition (6.8s)
+⚠ [18379/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HenselianNormLift (5.2s)
+⚠ [18380/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeightOneContractionOfEtalePrime (8.0s)
+⚠ [18381/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasseJetVanishingMemPow (13s)
+⚠ [18382/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasseDerivativePowerSeriesMulSubstLeibniz (13s)
+⚠ [18383/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumHilbertEisensteinConstantTermPartialZeta (18s)
+⚠ [18384/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumConjClassesRegroupWithInvariantSelectionStatement (8.7s)
+⚠ [18385/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasQCoeffIffHasQExpansion (7.3s)
+⚠ [18386/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasQExpansionOfLevelCoeffAndFunctionUnique (7.7s)
+⚠ [18387/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasQExpansionOfLevelLinearOperations (7.9s)
+⚠ [18388/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasQExpansionOfLevelMulLevelSubstPow (9.1s)
+⚠ [18389/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasQExpansionOfLevelMulOfPosLevel (5.6s)
+⚠ [18390/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtOfContinuousRealToComplexExponential (7.2s)
+⚠ [18391/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtIntegralDominatedFamilyStatement (7.9s)
+⚠ [18392/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarMeasureProductGroupsStatement (13s)
+⚠ [18393/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HalfAddSelf (28s)
+⚠ [18394/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeisenbergSmoothOfWeakDerivativeClosedSet (22s)
+✖ [18395/18421] Building Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianCongrInvolution (7.4s)
+error: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianCongrInvolution.lean:36:46: No goals to be solved
+⚠ [18396/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarLintegralMulRightLeStatement (7.7s)
+⚠ [18397/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarMeasureClosedCompactDecomp (8.1s)
+⚠ [18398/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramPosSemidefOfIntFormStatement (6.6s)
+⚠ [18399/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramDetScaleVectors (5.5s)
+⚠ [18400/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramDetSnocTriangular (6.0s)
+⚠ [18401/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramDetChangeOfBasesStatement (6.5s)
+⚠ [18402/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramDetNeZeroOfKerOrthStatement (3.9s)
+⚠ [18403/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GlAdicCompletionEntriesBoundedOfIsCompactStatement (5.9s)
+⚠ [18404/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GlueFlatOverPullbackOfSubsingletonStatement (4.7s)
+⚠ [18405/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeometricSeriesMultiIndexStatement (3.0s)
+⚠ [18406/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericLinearFormPrime (14s)
+⚠ [18407/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeneratorMinpolyEigenvalueCompatStatement (6.1s)
+⚠ [18408/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaussianConvolutionSeriesCoefficientDescFactoria (17s)
+⚠ [18409/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaussianIteratedFDerivWeightedExpBounded (20s)
+⚠ [18410/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumGaussianConvolutionSeriesTermIntegral (16s)
+✔ [18411/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisStableLatticeRationalSpanInclusions (12s)
+⚠ [18412/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisOfFiniteGeneratingAutomorphismsStatement (7.8s)
+⚠ [18413/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GalMapGalElt (7.3s)
+⚠ [18414/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GammaRealFunctionalEquationConstantEvenInteger (647s)
+⚠ [18415/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FundamentalDomainUnfoldSubgroupStatement (8.6s)
+⚠ [18416/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HartTensorOfFlat (11s)
+⚠ [18417/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FundamentalDomainTranslateStatement (7.7s)
+⚠ [18418/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FundamentalDomainSubgroupMeasureConstStatement (7.2s)
+⚠ [18420/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.GammaRealFunctionalEquationConstantEvenIntegerStatement (6.7s)
+⚠ [18421/18421] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.FundamentalDomainLineDerivativeIntegralStatement (7.7s)
+error: build failed
+
+Earlier batch build status (P0107-current-final.log)
+⚠ [18366/18383] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianCongrInvolution (4.6s)
+⚠ [18383/18383] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HomogeneousMemSpanLinearRoots (5.8s)
+
+Full final build output
+2026-11-21T22:50:30Z
+077e44ad2a6735825d291df8791444824fdd264b
+Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)
+fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+Building 50 explicitly requested module(s).
+Resolved 45 transitive project import(s) (95 total module(s) to materialize).
+[FETCH] Materializing 95 SHA-256-verified source file(s)...
+[FETCH] Verified 95/95 source file(s).
+[KEEP]  M002164: unchanged (verified against archive source)
+[KEEP]  M003608: unchanged (verified against archive source)
+[PATCH] M006318: applied M006318.patch
+[PATCH] M006455: applied M006455.patch
+[KEEP]  M015316: unchanged (verified against archive source)
+[KEEP]  M019453: unchanged (verified against archive source)
+[KEEP]  M019643: unchanged (verified against archive source)
+[PATCH] M020197: applied M020197.patch
+[KEEP]  M021331: unchanged (verified against archive source)
+[KEEP]  M026283: unchanged (verified against archive source)
+[KEEP]  M033319: unchanged (verified against archive source)
+[KEEP]  M033364: unchanged (verified against archive source)
+[KEEP]  M033365: unchanged (verified against archive source)
+[KEEP]  M033378: unchanged (verified against archive source)
+[KEEP]  M033401: unchanged (verified against archive source)
+[KEEP]  M033402: unchanged (verified against archive source)
+[KEEP]  M033448: unchanged (verified against archive source)
+[KEEP]  M033456: unchanged (verified against archive source)
+[KEEP]  M033526: unchanged (verified against archive source)
+[KEEP]  M033527: unchanged (verified against archive source)
+[KEEP]  M033639: unchanged (verified against archive source)
+[KEEP]  M033799: unchanged (verified against archive source)
+[KEEP]  M033800: unchanged (verified against archive source)
+[KEEP]  M033838: unchanged (verified against archive source)
+[KEEP]  M033839: unchanged (verified against archive source)
+[KEEP]  M034013: unchanged (verified against archive source)
+[KEEP]  M034014: unchanged (verified against archive source)
+[KEEP]  M034017: unchanged (verified against archive source)
+[KEEP]  M034018: unchanged (verified against archive source)
+[KEEP]  M034064: unchanged (verified against archive source)
+[KEEP]  M034065: unchanged (verified against archive source)
+[KEEP]  M034293: unchanged (verified against archive source)
+[KEEP]  M034294: unchanged (verified against archive source)
+[KEEP]  M034297: unchanged (verified against archive source)
+[KEEP]  M034337: unchanged (verified against archive source)
+[KEEP]  M034567: unchanged (verified against archive source)
+[KEEP]  M034611: unchanged (verified against archive source)
+[KEEP]  M034612: unchanged (verified against archive source)
+[KEEP]  M034728: unchanged (verified against archive source)
+[KEEP]  M034733: unchanged (verified against archive source)
+[KEEP]  M034737: unchanged (verified against archive source)
+[KEEP]  M034739: unchanged (verified against archive source)
+[KEEP]  M034740: unchanged (verified against archive source)
+[KEEP]  M034744: unchanged (verified against archive source)
+[PATCH] M034778: applied M034778.patch
+[KEEP]  M034779: unchanged (verified against archive source)
+[KEEP]  M034788: unchanged (verified against archive source)
+[KEEP]  M034790: unchanged (verified against archive source)
+[KEEP]  M034840: unchanged (verified against archive source)
+[KEEP]  M034842: unchanged (verified against archive source)
+[KEEP]  M035140: unchanged (verified against archive source)
+[KEEP]  M035241: unchanged (verified against archive source)
+[KEEP]  M035265: unchanged (verified against archive source)
+[PATCH] M035358: applied M035358.patch
+[PATCH] M035368: applied M035368.patch
+[KEEP]  M035369: unchanged (verified against archive source)
+[KEEP]  M035376: unchanged (verified against archive source)
+[KEEP]  M035377: unchanged (verified against archive source)
+[KEEP]  M035378: unchanged (verified against archive source)
+[KEEP]  M035379: unchanged (verified against archive source)
+[KEEP]  M035384: unchanged (verified against archive source)
+[KEEP]  M035390: unchanged (verified against archive source)
+[KEEP]  M035391: unchanged (verified against archive source)
+[KEEP]  M035476: unchanged (verified against archive source)
+[KEEP]  M035477: unchanged (verified against archive source)
+[KEEP]  M035492: unchanged (verified against archive source)
+[KEEP]  M035493: unchanged (verified against archive source)
+[KEEP]  M035513: unchanged (verified against archive source)
+[KEEP]  M035637: unchanged (verified against archive source)
+[KEEP]  M035743: unchanged (verified against archive source)
+[KEEP]  M035744: unchanged (verified against archive source)
+[KEEP]  M035745: unchanged (verified against archive source)
+[KEEP]  M035746: unchanged (verified against archive source)
+[KEEP]  M035915: unchanged (verified against archive source)
+[KEEP]  M035954: unchanged (verified against archive source)
+[KEEP]  M035955: unchanged (verified against archive source)
+[PATCH] M035974: applied M035974.patch
+[KEEP]  M036171: unchanged (verified against archive source)
+[KEEP]  M036172: unchanged (verified against archive source)
+[KEEP]  M036178: unchanged (verified against archive source)
+[KEEP]  M036179: unchanged (verified against archive source)
+[KEEP]  M036220: unchanged (verified against archive source)
+[KEEP]  M036221: unchanged (verified against archive source)
+[KEEP]  M036336: unchanged (verified against archive source)
+[KEEP]  M037746: unchanged (verified against archive source)
+[KEEP]  M046154: unchanged (verified against archive source)
+[KEEP]  M046334: unchanged (verified against archive source)
+[KEEP]  M053490: unchanged (verified against archive source)
+[PATCH] M054376: applied M054376.patch
+[KEEP]  M055325: unchanged (verified against archive source)
+[KEEP]  M066474: unchanged (verified against archive source)
+[PATCH] M101080: applied M101080.patch
+[KEEP]  M144210: unchanged (verified against archive source)
+[KEEP]  M149215: unchanged (verified against archive source)
+[KEEP]  M163346: unchanged (verified against archive source)
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in /home/cinna/.local/state/alpoge-rh-port-1337/local-worker/workspace-P0107
+
+[BUILD] Building 50 module(s) with `lake build`...
+        IDs: M033319, M033365, M033378, M033402, M033448, M033456, M033527, M033639, M033800, M033839, M034014, M034018, M034065, M034294, M034297, M034337, M034567, M034612, M034728, M034733, M034737, M034739, M034740, M034744, M034779, M034788, M034790, M034840, M034842, M035140, M035241, M035265, M035358, M035369, M035377, M035379, M035384, M035391, M035477, M035493, M035513, M035637, M035744, M035746, M035915, M035955, M035974, M036172, M036179, M036221
+⚠ [18250/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFormEqCombinationOfSelfAdjointIdentity
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFormEqCombinationOfSelfAdjointIdentity.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFormEqCombinationOfSelfAdjointIdentity.lean:53:34: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFormEqCombinationOfSelfAdjointIdentity.lean:60:34: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFormEqCombinationOfSelfAdjointIdentity.lean:70:15: `Module.End.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : One F} [self : IsOneApplyEqSelf F]
+    (x : α), 1 x = x
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (x : M), 1 x = x
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFormEqCombinationOfSelfAdjointIdentity.lean:72:58: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+⚠ [18251/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSimilitudeEntrySqBound
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianSimilitudeEntrySqBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianSimilitudeEntrySqBound.lean:56:18: This simp argument is unused:
+  mulVec_single_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hq, he]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18252/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSpectralPartsAnticommute
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianSpectralPartsAnticommute.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianSpectralPartsAnticommute.lean:108:19: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+⚠ [18253/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryGroupSecondKindCoordinatesNearOne
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryGroupSecondKindCoordinatesNearOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18389] Replayed Formalism.LocalToGlobal.IndefiniteForms.IndefiniteTree.RealCubicMeans.LogMeanShares.LogMeanStatements.HSClaim
+warning: src/Formalism/LocalToGlobal/IndefiniteForms/IndefiniteTree/RealCubicMeans/LogMeanShares/LogMeanStatements/HSClaim.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18255/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeProjectionEigenvalueCompat
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HodgeProjectionEigenvalueCompat.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeProjectionFromLattice
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HodgeProjectionFromLattice.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HodgeProjectionFromLattice.lean:61:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HodgeProjectionFromLattice.lean:65:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18257/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsClopenBasicOpenSpecProdSelfFirstIdempotent
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IsClopenBasicOpenSpecProdSelfFirstIdempotent.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IsClopenBasicOpenSpecProdSelfFirstIdempotent.lean:18:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IsClopenBasicOpenSpecProdSelfFirstIdempotent.lean:25:73: This simp argument is unused:
+  IsIdempotentElem
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18258/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdempotentOfClopen
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsIdempotentOfClopen.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18259/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdempotentEqOfBasicOpenEq
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IdempotentEqOfBasicOpenEq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18260/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HomogeneousComponentsOfConeIntegralEquation
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousComponentsOfConeIntegralEquation.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousComponentsOfConeIntegralEquation.lean:58:56: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousComponentsOfConeIntegralEquation.lean:60:42: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18261/18389] Replayed Formalism.DegreeFormula.FlagDegFormula
+warning: src/Formalism/DegreeFormula/FlagDegFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18262/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HypersurfaceDiffIsPreirreducibleOfNoSplitting
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HypersurfaceDiffIsPreirreducibleOfNoSplitting.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18263/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.HypersurfaceDiffIsPreirreducibleOfNoSplitting:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HypersurfaceDiffIsPreirreducibleOfNoSplitting.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18264/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.IInfSupPowEq
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IInfSupPowEq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18265/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.IInfSupPowEq:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IInfSupPowEq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18266/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealNormEquationFromLocalAssociates
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IdealNormEquationFromLocalAssociates.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IdealNormEquationFromLocalAssociates.lean:18:20: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IdealNormEquationFromLocalAssociates.lean:74:13: This simp argument is unused:
+  AlgHom.toRingHom_eq_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [RingHom.coe_coe, Algebra.TensorProduct.includeRight_apply, toQuot_tmul] at h1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IdealNormEquationFromLocalAssociates.lean:74:38: This simp argument is unused:
+  RingHom.coe_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [AlgHom.toRingHom_eq_coe, Algebra.TensorProduct.includeRight_apply, toQuot_tmul] at h1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IdealNormEquationFromLocalAssociates.lean:114:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+info: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IdealNormEquationFromLocalAssociates.lean:132:2: Try this:
+  [apply] ring_nf
+
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IdealNormEquationFromLocalAssociates.lean:140:15: This simp argument is unused:
+  Ideal.mem_iInf
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [glued]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18267/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealNormEquationFromLocalAssociates:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IdealNormEquationFromLocalAssociates.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18268/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionFreeOver
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionFreeOver.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18269/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionFreeOver:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionFreeOver.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18270/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisOfFiniteGeneratingAutomorphisms
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaloisOfFiniteGeneratingAutomorphisms.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaloisOfFiniteGeneratingAutomorphisms.lean:7:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaloisOfFiniteGeneratingAutomorphisms.lean:8:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18271/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisOfFiniteGeneratingAutomorphisms:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaloisOfFiniteGeneratingAutomorphisms.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18272/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentIdealSmulMemSpanRational
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DifferentIdealSmulMemSpanRational.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DifferentIdealSmulMemSpanRational.lean:11:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DifferentIdealSmulMemSpanRational.lean:12:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DifferentIdealSmulMemSpanRational.lean:14:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18273/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentIdealSmulMemSpanRational:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DifferentIdealSmulMemSpanRational.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18274/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GammaRealFunctionalEquationConstantEvenInteger
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GammaRealFunctionalEquationConstantEvenInteger.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18275/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.GammaRealFunctionalEquationConstantEvenInteger:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GammaRealFunctionalEquationConstantEvenInteger.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18276/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.PowForm
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/PowForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18277/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.PowForm:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/PowForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18278/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolyMulGaussianBounded
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/PolyMulGaussianBounded.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18279/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolyMulGaussianBounded:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/PolyMulGaussianBounded.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18280/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeneratorMinpolyEigenvalueCompat
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GeneratorMinpolyEigenvalueCompat.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GeneratorMinpolyEigenvalueCompat.lean:23:41: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GeneratorMinpolyEigenvalueCompat.lean:33:21: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+⚠ [18281/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeneratorMinpolyEigenvalueCompat:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GeneratorMinpolyEigenvalueCompat.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18282/18389] Replayed Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.IsWeaklyRegularMapCAppendMapLinForm
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsWeaklyRegularMapCAppendMapLinForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsWeaklyRegularMapCAppendMapLinForm.lean:29:6: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsWeaklyRegularMapCAppendMapLinForm.lean:143:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsWeaklyRegularMapCAppendMapLinForm.lean:197:27: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsWeaklyRegularMapCAppendMapLinForm.lean:201:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsWeaklyRegularMapCAppendMapLinForm.lean:207:42: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsWeaklyRegularMapCAppendMapLinForm.lean:212:57: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsWeaklyRegularMapCAppendMapLinForm.lean:225:24: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsWeaklyRegularMapCAppendMapLinForm.lean:229:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsWeaklyRegularMapCAppendMapLinForm.lean:297:106: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18283/18389] Ran Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.IsWeaklyRegularMapCAppendMapLinForm:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsWeaklyRegularMapCAppendMapLinForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18284/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GlAdicCompletionEntriesBoundedOfIsCompact
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlAdicCompletionEntriesBoundedOfIsCompact.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18285/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.GlAdicCompletionEntriesBoundedOfIsCompact:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlAdicCompletionEntriesBoundedOfIsCompact.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18286/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GlueFlatOverPullbackOfSubsingleton
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlueFlatOverPullbackOfSubsingleton.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlueFlatOverPullbackOfSubsingleton.lean:53:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlueFlatOverPullbackOfSubsingleton.lean:54:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlueFlatOverPullbackOfSubsingleton.lean:55:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlueFlatOverPullbackOfSubsingleton.lean:56:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlueFlatOverPullbackOfSubsingleton.lean:61:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlueFlatOverPullbackOfSubsingleton.lean:71:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18287/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.GlueFlatOverPullbackOfSubsingleton:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlueFlatOverPullbackOfSubsingleton.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18288/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramDetChangeOfBases
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramDetChangeOfBases.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18289/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramDetChangeOfBases:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramDetChangeOfBases.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18290/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramDetNeZeroOfKerOrth
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramDetNeZeroOfKerOrth.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18291/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramDetNeZeroOfKerOrth:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramDetNeZeroOfKerOrth.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18292/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramPosSemidefOfIntForm
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramPosSemidefOfIntForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18293/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramPosSemidefOfIntForm:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramPosSemidefOfIntForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18294/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarLintegralMulRightLe
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HaarLintegralMulRightLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HaarLintegralMulRightLe.lean:34:15: `MeasureTheory.Measure.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  M̵e̵a̵s̵u̵r̵e̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+⚠ [18295/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarLintegralMulRightLe:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HaarLintegralMulRightLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18296/18389] Replayed Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegralConjInnerMulInnerOfIsEmptyEquiv
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/IntegralConjInnerMulInnerOfIsEmptyEquiv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/IntegralConjInnerMulInnerOfIsEmptyEquiv.lean:110:12: `FiniteDimensional.complete` has been deprecated: Use `FiniteDimensional.completeSpace` instead
+
+Hint: Replace the deprecated name:
+  FiniteDimensional.completeS̲p̲a̲c̲e̲
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/IntegralConjInnerMulInnerOfIsEmptyEquiv.lean:115:24: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/IntegralConjInnerMulInnerOfIsEmptyEquiv.lean:126:10: `FiniteDimensional.complete` has been deprecated: Use `FiniteDimensional.completeSpace` instead
+
+Hint: Replace the deprecated name:
+  FiniteDimensional.completeS̲p̲a̲c̲e̲
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/IntegralConjInnerMulInnerOfIsEmptyEquiv.lean:291:12: `Continuous.integral_pos_of_hasCompactSupport_nonneg_nonzero` has been deprecated: Use `Continuous.integral_pos_of_hasCompactSupport_nonneg_ne_zero` instead
+
+Hint: Replace the deprecated name:
+  Continuous.integral_pos_of_hasCompactSupport_nonneg_no̵n̵e̲_̲zero
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/IntegralConjInnerMulInnerOfIsEmptyEquiv.lean:302:22: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+⚠ [18297/18389] Ran Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegralConjInnerMulInnerOfIsEmptyEquiv:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/IntegralConjInnerMulInnerOfIsEmptyEquiv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18298/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousFourierGau
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ContinuousFourierGau.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ContinuousFourierGau.lean:33:0: automatically included section variable(s) unused in theorem `GlobalTheory.RealWeil.norm_gau`:
+  [NormedSpace ℝ V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ContinuousFourierGau.lean:45:0: automatically included section variable(s) unused in theorem `GlobalTheory.RealWeil.gau_ne_zero`:
+  [NormedSpace ℝ V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ContinuousFourierGau.lean:47:0: automatically included section variable(s) unused in theorem `GlobalTheory.RealWeil.gau_zero`:
+  [NormedSpace ℝ V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ContinuousFourierGau.lean:49:0: automatically included section variable(s) unused in theorem `GlobalTheory.RealWeil.gau_neg`:
+  [NormedSpace ℝ V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ContinuousFourierGau.lean:51:0: automatically included section variable(s) unused in theorem `GlobalTheory.RealWeil.continuous_gau`:
+  [NormedSpace ℝ V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ContinuousFourierGau.lean:58:0: automatically included section variable(s) unused in theorem `GlobalTheory.RealWeil.IsHeis.continuous`:
+  [NormedSpace ℝ V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ContinuousFourierGau.lean:149:0: automatically included section variable(s) unused in theorem `GlobalTheory.RealWeil.continuous_fourier_gau`:
+  [CompleteSpace B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18299/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousFourierGau:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ContinuousFourierGau.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18300/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtOfContinuousOfMapAdd
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasDerivAtOfContinuousOfMapAdd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18301/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtOfContinuousOfMapAdd:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasDerivAtOfContinuousOfMapAdd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18302/18389] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.HasQIff
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/HasQIff.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18303/18389] Ran Development.AbelianVarietyTheory.Definitions.Divisors.HasQIff:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/HasQIff.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18304/18389] Replayed Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.HasQExpansionModularForm
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/HasQExpansionModularForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/HasQExpansionModularForm.lean:44:14: This simp argument is unused:
+  FormalMultilinearSeries.ofScalars_apply_eq'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/HasQExpansionModularForm.lean:46:14: This simp argument is unused:
+  FormalMultilinearSeries.ofScalars_apply_eq'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hp, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18305/18389] Ran Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.HasQExpansionModularForm:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/HasQExpansionModularForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18306/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasQCoeffIffHasQExpansion
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasQCoeffIffHasQExpansion.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18307/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasQExpansionOfLevelCoeffAndFunctionUnique
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasQExpansionOfLevelCoeffAndFunctionUnique.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18308/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasQExpansionOfLevelLinearOperations
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasQExpansionOfLevelLinearOperations.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18309/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasQExpansionOfLevelMulLevelSubstPow
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasQExpansionOfLevelMulLevelSubstPow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasQExpansionOfLevelMulLevelSubstPow.lean:19:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasQExpansionOfLevelMulLevelSubstPow.lean:24:53: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+⚠ [18310/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasQExpansionOfLevelMulOfPosLevel
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasQExpansionOfLevelMulOfPosLevel.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18311/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumConjClassesRegroupWithInvariantSelection
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasSumConjClassesRegroupWithInvariantSelection.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasSumConjClassesRegroupWithInvariantSelection.lean:15:59: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasSumConjClassesRegroupWithInvariantSelection.lean:20:33: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasSumConjClassesRegroupWithInvariantSelection.lean:72:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [18312/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumConjClassesRegroupWithInvariantSelection:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasSumConjClassesRegroupWithInvariantSelection.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18313/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumConjClassesRegroupWithInvariantSelectionStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasSumConjClassesRegroupWithInvariantSelectionStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasSumConjClassesRegroupWithInvariantSelectionStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasSumConjClassesRegroupWithInvariantSelectionStatement.lean:6:49: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasSumConjClassesRegroupWithInvariantSelectionStatement.lean:6:87: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasSumConjClassesRegroupWithInvariantSelectionStatement.lean:6:49: Unused tactic linter: `exact GlobalTheory.classSum_regroup` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasSumConjClassesRegroupWithInvariantSelectionStatement.lean:6:87: Unused tactic linter: `(intros; apply GlobalTheory.classSum_regroup <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18314/18389] Replayed Development.AbelianVarietyTheory.BlockTheory.DivisorBase.OmegaFactorization
+warning: src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/OmegaFactorization.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/OmegaFactorization.lean:44:0: automatically included section variable(s) unused in theorem `GlobalTheory.IndefiniteRowSideFullHecke.OmegaFactorization.unit_inv_mul`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/OmegaFactorization.lean:227:0: automatically included section variable(s) unused in theorem `GlobalTheory.IndefiniteRowSideFullHecke.OmegaFactorization.latPt_ne_zero`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18315/18389] Ran Development.AbelianVarietyTheory.BlockTheory.DivisorBase.OmegaFactorization:irArts
+warning: src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/OmegaFactorization.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18316/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumHilbertEisensteinConstantTermPartialZeta
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasSumHilbertEisensteinConstantTermPartialZeta.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasSumHilbertEisensteinConstantTermPartialZeta.lean:83:80: `FractionalIdeal.coe_spanSingleton` has been deprecated: Use `FractionalIdeal.coeToSubmodule_spanSingleton` instead
+
+Hint: Replace the deprecated name:
+  FractionalIdeal.coeT̲o̲S̲u̲b̲m̲o̲d̲u̲l̲e̲_spanSingleton
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasSumHilbertEisensteinConstantTermPartialZeta.lean:97:8: `FractionalIdeal.coe_spanSingleton` has been deprecated: Use `FractionalIdeal.coeToSubmodule_spanSingleton` instead
+
+Hint: Replace the deprecated name:
+  FractionalIdeal.coeT̲o̲S̲u̲b̲m̲o̲d̲u̲l̲e̲_spanSingleton
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasSumHilbertEisensteinConstantTermPartialZeta.lean:100:47: `FractionalIdeal.spanSingleton_zero` has been deprecated: use `map_zero`
+⚠ [18317/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConstantCoeffHasse
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConstantCoeffHasse.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18318/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConstantCoeffHasse:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConstantCoeffHasse.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18319/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasseDerivativePowerSeriesMulSubstLeibniz
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasseDerivativePowerSeriesMulSubstLeibniz.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasseDerivativePowerSeriesMulSubstLeibniz.lean:37:55: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasseDerivativePowerSeriesMulSubstLeibniz.lean:40:55: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18320/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraMapQuotBijective
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:12:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:13:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:16:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:17:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:10:0: automatically included section variable(s) unused in theorem `GlobalTheory.DedekindCodimG.algebraMap_quot_bijective`:
+  [IsDedekindDomain A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDedekindDomain A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:54:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:61:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:112:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:111:0: automatically included section variable(s) unused in theorem `GlobalTheory.DedekindCodimG.rank_quot_top`:
+  [IsAlgClosed k]
+  [IsDedekindDomain A]
+  [Algebra.FiniteType k A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsAlgClosed k] [IsDedekindDomain A] [Algebra.FiniteType k A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:148:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:149:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:150:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:162:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:181:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:187:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:188:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:220:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:221:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:222:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:269:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:281:6: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:293:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean:294:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18321/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraMapQuotBijective:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AlgebraMapQuotBijective.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18322/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasseJetVanishingMemPow
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasseJetVanishingMemPow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasseJetVanishingMemPow.lean:43:25: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasseJetVanishingMemPow.lean:43:25: Unused tactic linter: `linear_combination -this` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18323/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveLieLatticeDegree
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean:12:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean:13:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean:20:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean:22:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean:23:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean:26:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean:42:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean:43:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean:44:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean:45:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean:46:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean:47:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean:48:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean:50:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean:56:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean:66:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean:67:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean:81:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18324/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveLieLatticeDegree:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CurveLieLatticeDegree.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18325/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeightOneContractionOfEtalePrime
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HeightOneContractionOfEtalePrime.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HeightOneContractionOfEtalePrime.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HeightOneContractionOfEtalePrime.lean:13:79: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HeightOneContractionOfEtalePrime.lean:13:147: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HeightOneContractionOfEtalePrime.lean:13:79: Unused tactic linter: `(exact GlobalTheory.EtaleHeightOne.height_one_and_comap_eq_map_C)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HeightOneContractionOfEtalePrime.lean:13:147: Unused tactic linter: `(intros;
+  apply GlobalTheory.EtaleHeightOne.height_one_and_comap_eq_map_C <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18326/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistOkAll
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TwistOkAll.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18327/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistOkAll:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TwistOkAll.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18328/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HenselianNormLift
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HenselianNormLift.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HenselianNormLift.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HenselianNormLift.lean:7:65: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HenselianNormLift.lean:7:119: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HenselianNormLift.lean:7:65: Unused tactic linter: `(exact GlobalTheory.hensel_norm_lift_of_involution)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HenselianNormLift.lean:7:119: Unused tactic linter: `(intros; apply GlobalTheory.hensel_norm_lift_of_involution <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18329/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianEndoMatrixRationalInLatticeBasis
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianEndoMatrixRationalInLatticeBasis.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianEndoMatrixRationalInLatticeBasis.lean:11:51: This simp argument is unused:
+  Complex.smul_im
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [star_smul, mulVec_smul, dotProduct_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianEndoMatrixRationalInLatticeBasis.lean:18:27: This simp argument is unused:
+  Complex.smul_im
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [smul_dotProduct]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18330/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianEndoMatrixRationalInLatticeBasis:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianEndoMatrixRationalInLatticeBasis.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18331/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianEndoMatrixRationalInLatticeBasisStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianEndoMatrixRationalInLatticeBasisStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianEndoMatrixRationalInLatticeBasisStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianEndoMatrixRationalInLatticeBasisStatement.lean:14:53: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianEndoMatrixRationalInLatticeBasisStatement.lean:14:95: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianEndoMatrixRationalInLatticeBasisStatement.lean:14:53: Unused tactic linter: `exact GlobalTheory.herm_endo_matrix_rat` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianEndoMatrixRationalInLatticeBasisStatement.lean:14:95: Unused tactic linter: `(intros; apply GlobalTheory.herm_endo_matrix_rat <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18332/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFlagComplementPosDefFactorization
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagComplementPosDefFactorization.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagComplementPosDefFactorization.lean:28:90: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagComplementPosDefFactorization.lean:77:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagComplementPosDefFactorization.lean:28:54: This simp argument is unused:
+  Finset.sum_ite_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [K, Fin.addCases_left, Fin.addCases_right, Matrix.add_apply, Matrix.one_apply, mul_ite, mul_one,
+    mul_zero, Finset.sum_ite_eq', Finset.mem_univ, if_true, Matrix.mul_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18333/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFlagComplementPosDefFactorization:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagComplementPosDefFactorization.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18334/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFlagComplementPosDefFactorizationStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagComplementPosDefFactorizationStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagComplementPosDefFactorizationStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagComplementPosDefFactorizationStatement.lean:17:58: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagComplementPosDefFactorizationStatement.lean:17:105: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagComplementPosDefFactorizationStatement.lean:17:58: Unused tactic linter: `exact GlobalTheory.schur_complement_step_cpx` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagComplementPosDefFactorizationStatement.lean:17:105: Unused tactic linter: `(intros; apply GlobalTheory.schur_complement_step_cpx <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18335/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFlagUnipotentMatrixExistsSparse
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagUnipotentMatrixExistsSparse.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18336/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFlagUnipotentMatrixExistsSparse:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagUnipotentMatrixExistsSparse.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18337/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFlagUnipotentMatrixExistsSparseStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagUnipotentMatrixExistsSparseStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagUnipotentMatrixExistsSparseStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagUnipotentMatrixExistsSparseStatement.lean:18:69: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagUnipotentMatrixExistsSparseStatement.lean:18:127: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagUnipotentMatrixExistsSparseStatement.lean:18:69: Unused tactic linter: `exact GlobalTheory.isotropic_unipotent_column_relations` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFlagUnipotentMatrixExistsSparseStatement.lean:18:127: Unused tactic linter: `(intros;
+  apply GlobalTheory.isotropic_unipotent_column_relations <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18338/18389] Built GroundTheory.GlobalFields.TateThesis.GaussianSchwartz (18s)
+warning: src/GroundTheory/GlobalFields/TateThesis/GaussianSchwartz.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18339/18389] Ran GroundTheory.GlobalFields.TateThesis.GaussianSchwartz:irArts
+warning: src/GroundTheory/GlobalFields/TateThesis/GaussianSchwartz.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18340/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFormEqCombinationOfSelfAdjointIdentity:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFormEqCombinationOfSelfAdjointIdentity.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18341/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFormEqCombinationOfSelfAdjointIdentityStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFormEqCombinationOfSelfAdjointIdentityStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFormEqCombinationOfSelfAdjointIdentityStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFormEqCombinationOfSelfAdjointIdentityStatement.lean:13:51: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFormEqCombinationOfSelfAdjointIdentityStatement.lean:13:91: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFormEqCombinationOfSelfAdjointIdentityStatement.lean:13:51: Unused tactic linter: `exact GlobalTheory.herm_form_identity` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFormEqCombinationOfSelfAdjointIdentityStatement.lean:13:91: Unused tactic linter: `(intros; apply GlobalTheory.herm_form_identity <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18342/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSimilitudeEntrySqBound:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianSimilitudeEntrySqBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18343/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSimilitudeEntrySqBoundStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianSimilitudeEntrySqBoundStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianSimilitudeEntrySqBoundStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianSimilitudeEntrySqBoundStatement.lean:7:57: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianSimilitudeEntrySqBoundStatement.lean:7:103: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianSimilitudeEntrySqBoundStatement.lean:7:57: Unused tactic linter: `(exact GlobalTheory.herm_scale_entry_bound)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianSimilitudeEntrySqBoundStatement.lean:7:103: Unused tactic linter: `(intros; apply GlobalTheory.herm_scale_entry_bound <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18344/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSpectralPartsAnticommute:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianSpectralPartsAnticommute.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18345/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSpectralPartsAnticommuteStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianSpectralPartsAnticommuteStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianSpectralPartsAnticommuteStatement.lean:6:69: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianSpectralPartsAnticommuteStatement.lean:6:127: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianSpectralPartsAnticommuteStatement.lean:6:69: Unused tactic linter: `exact GlobalTheory.hermitian_spectral_parts_anticommute` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianSpectralPartsAnticommuteStatement.lean:6:127: Unused tactic linter: `(intros;
+  apply GlobalTheory.hermitian_spectral_parts_anticommute <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18346/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryGroupSecondKindCoordinatesNearOne:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryGroupSecondKindCoordinatesNearOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18347/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianUnitaryGroupOneParameterChart
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianUnitaryGroupOneParameterChart.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianUnitaryGroupOneParameterChart.lean:21:28: `FiniteDimensional.complete` has been deprecated: Use `FiniteDimensional.completeSpace` instead
+
+Hint: Replace the deprecated name:
+  FiniteDimensional.completeS̲p̲a̲c̲e̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianUnitaryGroupOneParameterChart.lean:97:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18348/18389] Ran Formalism.LocalToGlobal.IndefiniteForms.IndefiniteTree.RealCubicMeans.LogMeanShares.LogMeanStatements.HSClaim:irArts
+warning: src/Formalism/LocalToGlobal/IndefiniteForms/IndefiniteTree/RealCubicMeans/LogMeanShares/LogMeanStatements/HSClaim.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18349/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HilbertSamuelDegreeRatioLowerBoundRearranged
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HilbertSamuelDegreeRatioLowerBoundRearranged.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18350/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeProjectionEigenvalueCompat:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HodgeProjectionEigenvalueCompat.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18351/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeProjectionEigenvalueCompatStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HodgeProjectionEigenvalueCompatStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HodgeProjectionEigenvalueCompatStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HodgeProjectionEigenvalueCompatStatement.lean:12:69: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HodgeProjectionEigenvalueCompatStatement.lean:12:127: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HodgeProjectionEigenvalueCompatStatement.lean:12:69: Unused tactic linter: `exact GlobalTheory.eigenvector_mem_ker_of_ne_coord_char` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HodgeProjectionEigenvalueCompatStatement.lean:12:127: Unused tactic linter: `(intros;
+  apply GlobalTheory.eigenvector_mem_ker_of_ne_coord_char <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18352/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeProjectionFromLattice:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HodgeProjectionFromLattice.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18353/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeProjectionFromLatticeStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HodgeProjectionFromLatticeStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HodgeProjectionFromLatticeStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HodgeProjectionFromLatticeStatement.lean:10:70: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HodgeProjectionFromLatticeStatement.lean:10:129: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HodgeProjectionFromLatticeStatement.lean:10:70: Unused tactic linter: `exact GlobalTheory.spanning_map_factors_through_quotient` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HodgeProjectionFromLatticeStatement.lean:10:129: Unused tactic linter: `(intros;
+  apply GlobalTheory.spanning_map_factors_through_quotient <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18354/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsClopenBasicOpenSpecProdSelfFirstIdempotent:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IsClopenBasicOpenSpecProdSelfFirstIdempotent.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18355/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdempotentOfClopen:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsIdempotentOfClopen.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18356/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdempotentEqOfBasicOpenEq:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IdempotentEqOfBasicOpenEq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18357/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HomExtSpecProdSelfOfBasicOpenPreimageEq
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomExtSpecProdSelfOfBasicOpenPreimageEq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18358/18389] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.HomogeneousComponentsOfConeIntegralEquation:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousComponentsOfConeIntegralEquation.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18359/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HomogeneousComponentsOfConeIntegralEquationStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousComponentsOfConeIntegralEquationStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousComponentsOfConeIntegralEquationStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousComponentsOfConeIntegralEquationStatement.lean:7:76: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousComponentsOfConeIntegralEquationStatement.lean:7:141: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousComponentsOfConeIntegralEquationStatement.lean:7:76: Unused tactic linter: `exact GlobalTheory.homogeneous_components_of_integral_equation` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousComponentsOfConeIntegralEquationStatement.lean:7:141: Unused tactic linter: `(intros;
+  apply GlobalTheory.homogeneous_components_of_integral_equation <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18360/18389] Ran Formalism.DegreeFormula.FlagDegFormula:irArts
+warning: src/Formalism/DegreeFormula/FlagDegFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18361/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HomogeneousMemSpanLinearRoots
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousMemSpanLinearRoots.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HomogeneousMemSpanLinearRoots.lean:44:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18362/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HypersurfaceDiffIsPreirreducibleOfNoSplittingStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HypersurfaceDiffIsPreirreducibleOfNoSplittingStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HypersurfaceDiffIsPreirreducibleOfNoSplittingStatement.lean:7:67: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HypersurfaceDiffIsPreirreducibleOfNoSplittingStatement.lean:7:123: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HypersurfaceDiffIsPreirreducibleOfNoSplittingStatement.lean:7:67: Unused tactic linter: `exact GlobalTheory.hypersurface_diff_isPreirreducible` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HypersurfaceDiffIsPreirreducibleOfNoSplittingStatement.lean:7:123: Unused tactic linter: `(intros;
+  apply GlobalTheory.hypersurface_diff_isPreirreducible <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18363/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.IInfSupPowEqOfAdicCompatibleIdeals
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IInfSupPowEqOfAdicCompatibleIdeals.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IInfSupPowEqOfAdicCompatibleIdeals.lean:11:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IInfSupPowEqOfAdicCompatibleIdeals.lean:12:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IInfSupPowEqOfAdicCompatibleIdeals.lean:13:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IInfSupPowEqOfAdicCompatibleIdeals.lean:14:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IInfSupPowEqOfAdicCompatibleIdeals.lean:15:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IInfSupPowEqOfAdicCompatibleIdeals.lean:11:4: Unused tactic linter: `exact _root_.GlobalTheory.InfimumSupPowerIdeal.iInf_sup_pow_eq` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IInfSupPowEqOfAdicCompatibleIdeals.lean:12:4: Unused tactic linter: `(apply _root_.GlobalTheory.InfimumSupPowerIdeal.iInf_sup_pow_eq <;>
+    assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IInfSupPowEqOfAdicCompatibleIdeals.lean:13:4: Unused tactic linter: `(intros;
+  apply _root_.GlobalTheory.InfimumSupPowerIdeal.iInf_sup_pow_eq <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IInfSupPowEqOfAdicCompatibleIdeals.lean:14:4: Unused tactic linter: `(intros;
+  apply @_root_.GlobalTheory.InfimumSupPowerIdeal.iInf_sup_pow_eq <;>
+    first
+    | assumption
+    | infer_instance)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IInfSupPowEqOfAdicCompatibleIdeals.lean:15:4: Unused tactic linter: `(intros; exact _root_.GlobalTheory.InfimumSupPowerIdeal.iInf_sup_pow_eq ..)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18364/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealNormEquationFromLocalAssociatesStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IdealNormEquationFromLocalAssociatesStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IdealNormEquationFromLocalAssociatesStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IdealNormEquationFromLocalAssociatesStatement.lean:12:49: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IdealNormEquationFromLocalAssociatesStatement.lean:12:87: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IdealNormEquationFromLocalAssociatesStatement.lean:12:49: Unused tactic linter: `exact GlobalTheory.CmIdealGlue.glue` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IdealNormEquationFromLocalAssociatesStatement.lean:12:87: Unused tactic linter: `(intros; apply GlobalTheory.CmIdealGlue.glue <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18365/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GalMapGalElt
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GalMapGalElt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GalMapGalElt.lean:12:2: `Pi.algHom` has been deprecated: Use `AlgHom.pi` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.algHom` to `AlgHom.pi x`).
+
+Hint: Replace the deprecated name:
+  P̵i̵.̵a̵l̵g̵H̵o̵m̵A̲l̲g̲H̲o̲m̲.̲p̲i̲
+⚠ [18366/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisOfFiniteGeneratingAutomorphismsStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaloisOfFiniteGeneratingAutomorphismsStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaloisOfFiniteGeneratingAutomorphismsStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaloisOfFiniteGeneratingAutomorphismsStatement.lean:6:74: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaloisOfFiniteGeneratingAutomorphismsStatement.lean:6:137: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaloisOfFiniteGeneratingAutomorphismsStatement.lean:6:74: Unused tactic linter: `exact GlobalTheory.galois_of_finite_generating_automorphisms` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaloisOfFiniteGeneratingAutomorphismsStatement.lean:6:137: Unused tactic linter: `(intros;
+  apply GlobalTheory.galois_of_finite_generating_automorphisms <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18368/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GammaRealFunctionalEquationConstantEvenIntegerStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GammaRealFunctionalEquationConstantEvenIntegerStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GammaRealFunctionalEquationConstantEvenIntegerStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GammaRealFunctionalEquationConstantEvenIntegerStatement.lean:10:64: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GammaRealFunctionalEquationConstantEvenIntegerStatement.lean:10:117: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GammaRealFunctionalEquationConstantEvenIntegerStatement.lean:10:64: Unused tactic linter: `exact GlobalTheory.gammaℝ_functional_constant_even` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GammaRealFunctionalEquationConstantEvenIntegerStatement.lean:10:117: Unused tactic linter: `(intros; apply GlobalTheory.gammaℝ_functional_constant_even <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18369/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaussianConvolutionSeriesCoefficientDescFactoria
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaussianConvolutionSeriesCoefficientDescFactoria.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18370/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaussianIteratedFDerivWeightedExpBounded
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaussianIteratedFDerivWeightedExpBounded.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaussianIteratedFDerivWeightedExpBounded.lean:59:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaussianIteratedFDerivWeightedExpBounded.lean:60:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaussianIteratedFDerivWeightedExpBounded.lean:61:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaussianIteratedFDerivWeightedExpBounded.lean:58:83: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaussianIteratedFDerivWeightedExpBounded.lean:56:4: Unused tactic linter: `exact
+  @_root_.GlobalTheory.PolynomialGaussianBounded.poly_mul_gaussian_bounded` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaussianIteratedFDerivWeightedExpBounded.lean:57:4: Unused tactic linter: `exact
+  _root_.GlobalTheory.PolynomialGaussianBounded.poly_mul_gaussian_bounded` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaussianIteratedFDerivWeightedExpBounded.lean:58:83: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaussianIteratedFDerivWeightedExpBounded.lean:59:4: Unused tactic linter: `(intros;
+  apply _root_.GlobalTheory.PolynomialGaussianBounded.poly_mul_gaussian_bounded <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaussianIteratedFDerivWeightedExpBounded.lean:60:4: Unused tactic linter: `(intros;
+  apply @_root_.GlobalTheory.PolynomialGaussianBounded.poly_mul_gaussian_bounded <;>
+    first
+    | assumption
+    | infer_instance)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaussianIteratedFDerivWeightedExpBounded.lean:61:4: Unused tactic linter: `(intros;
+  exact _root_.GlobalTheory.PolynomialGaussianBounded.poly_mul_gaussian_bounded ..)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaussianIteratedFDerivWeightedExpBounded.lean:69:17: This simp argument is unused:
+  real_inner_self_eq_norm_sq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hBdef]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaussianIteratedFDerivWeightedExpBounded.lean:71:49: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaussianIteratedFDerivWeightedExpBounded.lean:71:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaussianIteratedFDerivWeightedExpBounded.lean:71:49: Unused tactic linter: `simp [innerSL_apply, real_inner_self_eq_norm_sq]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GaussianIteratedFDerivWeightedExpBounded.lean:71:100: Unused tactic linter: `rfl` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18371/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeneratorMinpolyEigenvalueCompatStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GeneratorMinpolyEigenvalueCompatStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GeneratorMinpolyEigenvalueCompatStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GeneratorMinpolyEigenvalueCompatStatement.lean:10:71: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GeneratorMinpolyEigenvalueCompatStatement.lean:10:131: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GeneratorMinpolyEigenvalueCompatStatement.lean:10:71: Unused tactic linter: `exact GlobalTheory.spanEquivariant_minpoly_eigen_transfer` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GeneratorMinpolyEigenvalueCompatStatement.lean:10:131: Unused tactic linter: `(intros;
+  apply GlobalTheory.spanEquivariant_minpoly_eigen_transfer <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18372/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericLinearFormPrime
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GenericLinearFormPrime.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GenericLinearFormPrime.lean:17:0: automatically included section variable(s) unused in theorem `GlobalTheory.GenericForm.polyEquiv_X_tmul`:
+  [IsDomain A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GenericLinearFormPrime.lean:21:0: automatically included section variable(s) unused in theorem `GlobalTheory.GenericForm.polyEquiv_one_tmul`:
+  [IsDomain A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GenericLinearFormPrime.lean:79:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GenericLinearFormPrime.lean:82:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GenericLinearFormPrime.lean:84:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GenericLinearFormPrime.lean:95:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GenericLinearFormPrime.lean:113:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18373/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GlAdicCompletionEntriesBoundedOfIsCompactStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlAdicCompletionEntriesBoundedOfIsCompactStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlAdicCompletionEntriesBoundedOfIsCompactStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlAdicCompletionEntriesBoundedOfIsCompactStatement.lean:7:76: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlAdicCompletionEntriesBoundedOfIsCompactStatement.lean:7:141: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlAdicCompletionEntriesBoundedOfIsCompactStatement.lean:7:76: Unused tactic linter: `exact GlobalTheory.BCT.SuppFin.gl_entries_bounded_of_isCompact` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlAdicCompletionEntriesBoundedOfIsCompactStatement.lean:7:141: Unused tactic linter: `(intros;
+  apply GlobalTheory.BCT.SuppFin.gl_entries_bounded_of_isCompact <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18374/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GlueFlatOverPullbackOfSubsingletonStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlueFlatOverPullbackOfSubsingletonStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlueFlatOverPullbackOfSubsingletonStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlueFlatOverPullbackOfSubsingletonStatement.lean:7:62: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlueFlatOverPullbackOfSubsingletonStatement.lean:7:113: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlueFlatOverPullbackOfSubsingletonStatement.lean:7:62: Unused tactic linter: `exact GlobalTheory.PinchDeg.glue_of_subsingleton` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GlueFlatOverPullbackOfSubsingletonStatement.lean:7:113: Unused tactic linter: `(intros; apply GlobalTheory.PinchDeg.glue_of_subsingleton <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18375/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramDetChangeOfBasesStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramDetChangeOfBasesStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramDetChangeOfBasesStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramDetChangeOfBasesStatement.lean:7:57: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramDetChangeOfBasesStatement.lean:7:103: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramDetChangeOfBasesStatement.lean:7:57: Unused tactic linter: `exact GlobalTheory.gram_det_change_of_bases` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramDetChangeOfBasesStatement.lean:7:103: Unused tactic linter: `(intros; apply GlobalTheory.gram_det_change_of_bases <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18376/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramDetNeZeroOfKerOrthStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramDetNeZeroOfKerOrthStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramDetNeZeroOfKerOrthStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramDetNeZeroOfKerOrthStatement.lean:7:61: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramDetNeZeroOfKerOrthStatement.lean:7:111: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramDetNeZeroOfKerOrthStatement.lean:7:61: Unused tactic linter: `exact GlobalTheory.gram_det_ne_zero_of_ker_orth` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramDetNeZeroOfKerOrthStatement.lean:7:111: Unused tactic linter: `(intros; apply GlobalTheory.gram_det_ne_zero_of_ker_orth <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18377/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramPosSemidefOfIntFormStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramPosSemidefOfIntFormStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramPosSemidefOfIntFormStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramPosSemidefOfIntFormStatement.lean:6:60: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramPosSemidefOfIntFormStatement.lean:6:109: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramPosSemidefOfIntFormStatement.lean:6:60: Unused tactic linter: `exact GlobalTheory.gram_posSemidef_of_int_form` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GramPosSemidefOfIntFormStatement.lean:6:109: Unused tactic linter: `(intros; apply GlobalTheory.gram_posSemidef_of_int_form <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18378/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarLintegralMulRightLeStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HaarLintegralMulRightLeStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HaarLintegralMulRightLeStatement.lean:6:60: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HaarLintegralMulRightLeStatement.lean:6:109: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HaarLintegralMulRightLeStatement.lean:6:60: Unused tactic linter: `exact GlobalTheory.haar_lintegral_mul_right_le` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HaarLintegralMulRightLeStatement.lean:6:109: Unused tactic linter: `(intros; apply GlobalTheory.haar_lintegral_mul_right_le <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18379/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarMeasureClosedCompactDecomp
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HaarMeasureClosedCompactDecomp.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HaarMeasureClosedCompactDecomp.lean:28:0: automatically included section variable(s) unused in theorem `GlobalTheory.HaarQK.iter_right`:
+  [LocallyCompactSpace G]
+  [CompactSpace ↥K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [LocallyCompactSpace G] [CompactSpace ↥K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HaarMeasureClosedCompactDecomp.lean:50:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HaarMeasureClosedCompactDecomp.lean:47:0: automatically included section variable(s) unused in theorem `GlobalTheory.HaarQK.iter_left`:
+  [LocallyCompactSpace G]
+  [T2Space G]
+  [SecondCountableTopology G]
+  [LocallyCompactSpace ↥Q]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [LocallyCompactSpace G] [T2Space G] [SecondCountableTopology G] [LocallyCompactSpace ↥Q] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HaarMeasureClosedCompactDecomp.lean:77:0: automatically included section variable(s) unused in theorem `GlobalTheory.HaarQK.weil_exchange`:
+  [T2Space G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [T2Space G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HaarMeasureClosedCompactDecomp.lean:133:0: automatically included section variable(s) unused in theorem `GlobalTheory.HaarQK.iter_indicator_pos_finite`:
+  [LocallyCompactSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [LocallyCompactSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HaarMeasureClosedCompactDecomp.lean:168:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HaarMeasureClosedCompactDecomp.lean:169:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18380/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HalfAddSelf
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HalfAddSelf.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HalfAddSelf.lean:17:48: This simp argument is unused:
+  one_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_sub, sub_mul, mul_assoc, pp, mul_one, sub_self]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HalfAddSelf.lean:24:62: This simp argument is unused:
+  pp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_add, add_mul, mul_sub, sub_mul, mul_assoc, pp', one_mul, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HalfAddSelf.lean:42:0: automatically included section variable(s) unused in theorem `GlobalTheory.RealWeil.PosDet.half_add_self`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HalfAddSelf.lean:127:70: This simp argument is unused:
+  pp'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_add, add_mul, mul_sub, sub_mul, mul_assoc, pp, one_mul, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18381/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HartTensorOfFlat
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HartTensorOfFlat.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HartTensorOfFlat.lean:23:20: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HartTensorOfFlat.lean:25:22: This simp argument is unused:
+  LinearMap.lTensor_tmul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [algebraMap_smul, TensorProduct.tmul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HartTensorOfFlat.lean:25:63: This simp argument is unused:
+  TensorProduct.tmul_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [LinearMap.lTensor_tmul, algebraMap_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HartTensorOfFlat.lean:66:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HartTensorOfFlat.lean:61:46: This simp argument is unused:
+  f
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [smul_comm (algebraMap A R a)]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18382/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtOfContinuousRealToComplexExponential
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasDerivAtOfContinuousRealToComplexExponential.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasDerivAtOfContinuousRealToComplexExponential.lean:14:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasDerivAtOfContinuousRealToComplexExponential.lean:15:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasDerivAtOfContinuousRealToComplexExponential.lean:16:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasDerivAtOfContinuousRealToComplexExponential.lean:11:4: Unused tactic linter: `exact
+  @_root_.GlobalTheory.DerivativeOfAdditiveContinuous.hasDerivAt_of_continuous_of_map_add` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasDerivAtOfContinuousRealToComplexExponential.lean:12:4: Unused tactic linter: `exact
+  _root_.GlobalTheory.DerivativeOfAdditiveContinuous.hasDerivAt_of_continuous_of_map_add` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasDerivAtOfContinuousRealToComplexExponential.lean:14:4: Unused tactic linter: `(intros;
+  apply _root_.GlobalTheory.DerivativeOfAdditiveContinuous.hasDerivAt_of_continuous_of_map_add <;>
+    assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasDerivAtOfContinuousRealToComplexExponential.lean:15:4: Unused tactic linter: `(intros;
+  apply @_root_.GlobalTheory.DerivativeOfAdditiveContinuous.hasDerivAt_of_continuous_of_map_add <;>
+    first
+    | assumption
+    | infer_instance)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasDerivAtOfContinuousRealToComplexExponential.lean:16:4: Unused tactic linter: `(intros;
+  exact _root_.GlobalTheory.DerivativeOfAdditiveContinuous.hasDerivAt_of_continuous_of_map_add ..)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18383/18389] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasQVadd (8.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasQVadd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18384/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumGaussianConvolutionSeriesTermIntegral
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasSumGaussianConvolutionSeriesTermIntegral.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18385/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeisenbergSmoothOfWeakDerivativeClosedSet
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HeisenbergSmoothOfWeakDerivativeClosedSet.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HeisenbergSmoothOfWeakDerivativeClosedSet.lean:65:17: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HeisenbergSmoothOfWeakDerivativeClosedSet.lean:99:32: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HeisenbergSmoothOfWeakDerivativeClosedSet.lean:88:28: This simp argument is unused:
+  lsm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [← hgd, h.1, hD, hx]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18386/18389] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianCongrInvolution
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianCongrInvolution.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18387/18389] Built Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.RealMetaplecticRepresentation (100s)
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:152:13: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:152:44: `SchwartzMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  S̵c̵h̵w̵a̵r̵t̵z̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:152:44: This simp argument is unused:
+  SchwartzMap.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ContinuousLinearMap.add_apply, dRho_apply, pPart_add, qPart_add, inner_add_left, map_add,
+    ofReal_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:158:13: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:158:45: `SchwartzMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  S̵c̵h̵w̵a̵r̵t̵z̵M̵a̵p̵.̵smul_apply
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:158:45: This simp argument is unused:
+  SchwartzMap.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ContinuousLinearMap.smul_apply, dRho_apply, pPart_smul, qPart_smul, real_inner_smul_left, map_smul,
+    ofReal_mul, smul_eq_mul, real_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:182:13: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:182:44: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵m̵u̵l̵_̵a̵p̵p̵l̵y̵m̲u̲l̲_̲a̲p̲p̲l̲y̲_̲e̲q̲_̲c̲o̲m̲p̲
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:182:75: `SchwartzMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  S̵c̵h̵w̵a̵r̵t̵z̵M̵a̵p̵.̵sub_apply
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:183:4: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:183:36: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵o̵n̵e̵_̵a̵p̵p̵l̵y̵o̲n̲e̲_̲a̲p̲p̲l̲y̲_̲e̲q̲_̲s̲e̲l̲f̲
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:183:67: `SchwartzMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  S̵c̵h̵w̵a̵r̵t̵z̵M̵a̵p̵.̵smul_apply
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:182:75: This simp argument is unused:
+  SchwartzMap.sub_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ContinuousLinearMap.sub_apply, ContinuousLinearMap.mul_apply, ContinuousLinearMap.smul_apply,
+    ContinuousLinearMap.one_apply, SchwartzMap.smul_apply, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:183:67: This simp argument is unused:
+  SchwartzMap.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ContinuousLinearMap.sub_apply, ContinuousLinearMap.mul_apply, SchwartzMap.sub_apply,
+    ContinuousLinearMap.smul_apply, ContinuousLinearMap.one_apply, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:317:96: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:328:13: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:328:45: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:328:76: `ContinuousLinearMap.sum_apply` has been deprecated: Use `sum_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sum_apply` to `sum_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵m̵_̵a̵p̵p̵l̵y̵s̲u̲m̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:329:4: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:329:35: `ContinuousLinearMap.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵m̵u̵l̵_̵a̵p̵p̵l̵y̵m̲u̲l̲_̲a̲p̲p̲l̲y̲_̲e̲q̲_̲c̲o̲m̲p̲
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:329:66: `ContinuousLinearMap.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵o̵n̵e̵_̵a̵p̵p̵l̵y̵o̲n̲e̲_̲a̲p̲p̲l̲y̲_̲e̲q̲_̲s̲e̲l̲f̲
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:330:4: `SchwartzMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  S̵c̵h̵w̵a̵r̵t̵z̵M̵a̵p̵.̵smul_apply
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:330:28: `SchwartzMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  S̵c̵h̵w̵a̵r̵t̵z̵M̵a̵p̵.̵sub_apply
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:330:51: `SchwartzMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  S̵c̵h̵w̵a̵r̵t̵z̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:330:74: `SchwartzMap.sum_apply` has been deprecated: Use `sum_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sum_apply` to `sum_apply x`).
+
+Hint: Replace the deprecated name:
+  S̵c̵h̵w̵a̵r̵t̵z̵M̵a̵p̵.̵sum_apply
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:305:46: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.J, h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:330:4: This simp argument is unused:
+  SchwartzMap.smul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ContinuousLinearMap.smul_apply, ContinuousLinearMap.sub_apply, ContinuousLinearMap.sum_apply,
+    ContinuousLinearMap.add_apply, ContinuousLinearMap.mul_apply, ContinuousLinearMap.one_apply, SchwartzMap.sub_apply,
+    SchwartzMap.add_apply, SchwartzMap.sum_apply, smul_eq_mul, hQa]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:330:28: This simp argument is unused:
+  SchwartzMap.sub_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ContinuousLinearMap.smul_apply, ContinuousLinearMap.sub_apply, ContinuousLinearMap.sum_apply,
+    ContinuousLinearMap.add_apply, ContinuousLinearMap.mul_apply, ContinuousLinearMap.one_apply, SchwartzMap.smul_apply,
+    SchwartzMap.add_apply, SchwartzMap.sum_apply, smul_eq_mul, hQa]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:330:51: This simp argument is unused:
+  SchwartzMap.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ContinuousLinearMap.smul_apply, ContinuousLinearMap.sub_apply, ContinuousLinearMap.sum_apply,
+    ContinuousLinearMap.add_apply, ContinuousLinearMap.mul_apply, ContinuousLinearMap.one_apply, SchwartzMap.smul_apply,
+    SchwartzMap.sub_apply, SchwartzMap.sum_apply, smul_eq_mul, hQa]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean:330:74: This simp argument is unused:
+  SchwartzMap.sum_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ContinuousLinearMap.smul_apply, ContinuousLinearMap.sub_apply, ContinuousLinearMap.sum_apply,
+    ContinuousLinearMap.add_apply, ContinuousLinearMap.mul_apply, ContinuousLinearMap.one_apply, SchwartzMap.smul_apply,
+    SchwartzMap.sub_apply, SchwartzMap.add_apply, smul_eq_mul, hQa]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18388/18389] Ran Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.RealMetaplecticRepresentation:irArts
+warning: src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/RealMetaplecticRepresentation.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18389/18389] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFormConstMulInner (3.3s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HermitianFormConstMulInner.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18389 jobs).
+[PASS]  M033319 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.GalMapGalElt)
+[PASS]  M033365 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisOfFiniteGeneratingAutomorphismsStatement)
+[PASS]  M033378 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisStableLatticeRationalSpanInclusions)
+[PASS]  M033402 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.GammaRealFunctionalEquationConstantEvenIntegerStatement)
+[PASS]  M033448 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaussianConvolutionSeriesCoefficientDescFactoria)
+[PASS]  M033456 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaussianIteratedFDerivWeightedExpBounded)
+[PASS]  M033527 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeneratorMinpolyEigenvalueCompatStatement)
+[PASS]  M033639 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenericLinearFormPrime)
+[PASS]  M033800 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.GlAdicCompletionEntriesBoundedOfIsCompactStatement)
+[PASS]  M033839 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.GlueFlatOverPullbackOfSubsingletonStatement)
+[PASS]  M034014 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramDetChangeOfBasesStatement)
+[PASS]  M034018 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramDetNeZeroOfKerOrthStatement)
+[PASS]  M034065 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramPosSemidefOfIntFormStatement)
+[PASS]  M034294 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarLintegralMulRightLeStatement)
+[PASS]  M034297 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarMeasureClosedCompactDecomp)
+[PASS]  M034337 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HalfAddSelf)
+[PASS]  M034567 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HartTensorOfFlat)
+[PASS]  M034612 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtOfContinuousRealToComplexExponential)
+[PASS]  M034728 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasQCoeffIffHasQExpansion)
+[PASS]  M034733 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasQExpansionOfLevelCoeffAndFunctionUnique)
+[PASS]  M034737 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasQExpansionOfLevelLinearOperations)
+[PASS]  M034739 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasQExpansionOfLevelMulLevelSubstPow)
+[PASS]  M034740 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasQExpansionOfLevelMulOfPosLevel)
+[PASS]  M034744 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasQVadd)
+[PASS]  M034779 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumConjClassesRegroupWithInvariantSelectionStatement)
+[PASS]  M034788 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumGaussianConvolutionSeriesTermIntegral)
+[PASS]  M034790 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumHilbertEisensteinConstantTermPartialZeta)
+[PASS]  M034840 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasseDerivativePowerSeriesMulSubstLeibniz)
+[PASS]  M034842 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasseJetVanishingMemPow)
+[PASS]  M035140 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeightOneContractionOfEtalePrime)
+[PASS]  M035241 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeisenbergSmoothOfWeakDerivativeClosedSet)
+[PASS]  M035265 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HenselianNormLift)
+[PASS]  M035358 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianCongrInvolution)
+[PASS]  M035369 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianEndoMatrixRationalInLatticeBasisStatement)
+[PASS]  M035377 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFlagComplementPosDefFactorizationStatement)
+[PASS]  M035379 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFlagUnipotentMatrixExistsSparseStatement)
+[PASS]  M035384 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFormConstMulInner)
+[PASS]  M035391 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFormEqCombinationOfSelfAdjointIdentityStatement)
+[PASS]  M035477 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSimilitudeEntrySqBoundStatement)
+[PASS]  M035493 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSpectralPartsAnticommuteStatement)
+[PASS]  M035513 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianUnitaryGroupOneParameterChart)
+[PASS]  M035637 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HilbertSamuelDegreeRatioLowerBoundRearranged)
+[PASS]  M035744 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeProjectionEigenvalueCompatStatement)
+[PASS]  M035746 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeProjectionFromLatticeStatement)
+[PASS]  M035915 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HomExtSpecProdSelfOfBasicOpenPreimageEq)
+[PASS]  M035955 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HomogeneousComponentsOfConeIntegralEquationStatement)
+[PASS]  M035974 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HomogeneousMemSpanLinearRoots)
+[PASS]  M036172 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.HypersurfaceDiffIsPreirreducibleOfNoSplittingStatement)
+[PASS]  M036179 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.IInfSupPowEqOfAdicCompatibleIdeals)
+[PASS]  M036221 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealNormEquationFromLocalAssociatesStatement)
+
+PORT_BUILD_PASSED all 50 module(s).
