@@ -1,8 +1,8 @@
 # Submitted for review
 
-767 entries.
+811 entries.
 
 - [Entries 1–250](page-001.md)
 - [Entries 251–500](page-002.md)
 - [Entries 501–750](page-003.md)
-- [Entries 751–767](page-004.md)
+- [Entries 751–811](page-004.md)
