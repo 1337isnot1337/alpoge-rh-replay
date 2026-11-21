@@ -30,6 +30,7 @@ KNOWN_EVIDENCE = {
     'build-observed',
     'pilot-reused',
     'pilot-witness-checked',
+    'volunteer-build-automated',
     'volunteer-build-reviewed',
     'wave-reused',
     'worker-kernel-checked',
@@ -108,6 +109,9 @@ def main():
     comp_ids = [r['id'] for r in completed]
     check('completed.unique_ids', len(set(comp_ids)) == len(comp_ids),
           f'{len(comp_ids) - len(set(comp_ids))} duplicate ids in {len(completed)} rows')
+    check('completed.sorted', comp_ids == sorted(comp_ids),
+          'rows are sorted by id' if comp_ids == sorted(comp_ids)
+          else 'rows are not sorted by id')
     unknown = [r['id'] for r in completed if r['id'] not in by_id]
     check('completed.ids_exist', not unknown,
           'all ids exist in modules.jsonl.gz' if not unknown

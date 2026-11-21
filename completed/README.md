@@ -11,7 +11,7 @@
 | wave-reused | 16,970 |
 | worker-kernel-checked | 72 |
 
-A source-build observation records a successful Lake build message. A reuse receipt records acceptance with rebuilding disabled. The pilot witness passed a Lean kernel check. A worker kernel check records a successful replay of an exact requested target against its imported environment. A reviewed volunteer build has a matching receipt and transcript. Reviews also check artifact digests when the contributor supplies a bundle. Full RH verification is pending.
+A source-build observation records a successful Lake build message. A reuse receipt records acceptance with rebuilding disabled. The pilot witness passed a Lean kernel check. A worker kernel check records a successful replay of an exact requested target against its imported environment. A reviewed volunteer build has a matching receipt and transcript. Reviews also check artifact digests when the contributor supplies a bundle. An automated volunteer build passed the same receipt and bundle checks in the automated publish sweep (tracker/publish.py), without the prepared-checkout comparisons or a maintainer's per-submission review. Full RH verification is pending.
 
 | ID range | Individual module table |
 |---|---|

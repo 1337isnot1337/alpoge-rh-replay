@@ -35,6 +35,7 @@ EVIDENCE_LABELS = {
     "pilot-witness-checked": "Pilot downstream module kernel-checked",
     "wave-reused": "Distributed proof object reused",
     "worker-kernel-checked": "Worker target kernel replay reviewed",
+    "volunteer-build-automated": "Volunteer build evidence automated",
     "volunteer-build-reviewed": "Volunteer build evidence reviewed",
 }
 
