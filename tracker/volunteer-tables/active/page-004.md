@@ -131,8 +131,6 @@
 | [@rohanarun](https://github.com/rohanarun) | [M085797](https://github.com/rohanarun/alpoge-rh-replay/issues/5832) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M057322](https://github.com/rohanarun/alpoge-rh-replay/issues/5833) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M065702](https://github.com/rohanarun/alpoge-rh-replay/issues/5835) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M101450](https://github.com/rohanarun/alpoge-rh-replay/issues/5940) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M111983](https://github.com/rohanarun/alpoge-rh-replay/issues/6119) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [P1737](https://github.com/rohanarun/alpoge-rh-replay/issues/6121) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [P1666](https://github.com/rohanarun/alpoge-rh-replay/issues/6123) | Claimed |
 | [@mabdelazim](https://github.com/mabdelazim) | [M028626](https://github.com/rohanarun/alpoge-rh-replay/issues/6189) | Claimed |
@@ -254,3 +252,5 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M142761](https://github.com/rohanarun/alpoge-rh-replay/issues/7586) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M007364](https://github.com/rohanarun/alpoge-rh-replay/issues/7605) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M028863](https://github.com/rohanarun/alpoge-rh-replay/issues/7659) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M032927](https://github.com/rohanarun/alpoge-rh-replay/issues/7758) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M032929](https://github.com/rohanarun/alpoge-rh-replay/issues/7782) | Claimed |
