@@ -3,6 +3,6 @@
   "source_sha256": "04eee01c96ab9e8155c88a272fffa810d15920314c781a0b370707c07991af46",
   "lean": "leanprover/lean4:v4.36.0",
   "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
-  "notes": "unchanged",
-  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0092-issue-25404/P0092-receipt.json"
+  "notes": "Mathlib renamed the pinned Submodule.IsLattice (finitely generated and spanning) to IsFullLattice and reused IsLattice for a notion without span_eq_top, so the unchanged text weakened the statement definition IsLatticeOfDiscSt and the closing example. Use IsFullLattice in both. In each, the base ring is the ring of integers and the field is its fraction field (𝓞 K and K, 𝓞 ℚ and ℚ), where IsFullLattice is equivalent to the pinned IsLattice, so the propositions are unchanged.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-M173777-fix/M173777-receipt.json"
 }
