@@ -4,6 +4,7 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@ANdATIon](https://github.com/ANdATIon) | [M039711](https://github.com/rohanarun/alpoge-rh-replay/issues/10440#issuecomment-7055549227) | Pending review |
 | [@amrehan](https://github.com/amrehan) | [M142823](https://github.com/rohanarun/alpoge-rh-replay/issues/10441#issuecomment-7055536226) | Pending review |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M016069](https://github.com/rohanarun/alpoge-rh-replay/issues/10444#issuecomment-7055539792) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M046503](https://github.com/rohanarun/alpoge-rh-replay/issues/10445#issuecomment-7055541836) | Pending review |
@@ -253,4 +254,3 @@
 | [@UnityChaos](https://github.com/UnityChaos) | [M077965](https://github.com/rohanarun/alpoge-rh-replay/issues/10708#issuecomment-7055678158) | Pending review |
 | [@walkingsophie](https://github.com/walkingsophie) | [M059365](https://github.com/rohanarun/alpoge-rh-replay/issues/10710#issuecomment-7055771219) | Pending review |
 | [@jsnider3](https://github.com/jsnider3) | [M168711](https://github.com/rohanarun/alpoge-rh-replay/issues/10711#issuecomment-7055670954) | Pending review |
-| [@t-choudhury](https://github.com/t-choudhury) | [M127039](https://github.com/rohanarun/alpoge-rh-replay/issues/10712#issuecomment-7055719973) | Pending review |

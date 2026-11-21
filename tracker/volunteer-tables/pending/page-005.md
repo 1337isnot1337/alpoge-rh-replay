@@ -199,6 +199,7 @@
 | [@roonastgames](https://github.com/roonastgames) | [M164494](https://github.com/rohanarun/alpoge-rh-replay/issues/8747#issuecomment-7054640748) | Pending review |
 | [@galakurpi](https://github.com/galakurpi) | [M046764](https://github.com/rohanarun/alpoge-rh-replay/issues/8748#issuecomment-7054954064) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M096059](https://github.com/rohanarun/alpoge-rh-replay/issues/8749#issuecomment-7054636277) | Pending review |
+| [@SeriousRising](https://github.com/SeriousRising) | [P1870](https://github.com/rohanarun/alpoge-rh-replay/issues/8750#issuecomment-7056705404) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M103453](https://github.com/rohanarun/alpoge-rh-replay/issues/8751#issuecomment-7054690762) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M131157](https://github.com/rohanarun/alpoge-rh-replay/issues/8754#issuecomment-7054691435) | Pending review |
 | [@galakurpi](https://github.com/galakurpi) | [M016842](https://github.com/rohanarun/alpoge-rh-replay/issues/8755#issuecomment-7054955916) | Pending review |
@@ -253,4 +254,3 @@
 | [@loremcdmx](https://github.com/loremcdmx) | [M063571](https://github.com/rohanarun/alpoge-rh-replay/issues/8833#issuecomment-7054791075) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M097489](https://github.com/rohanarun/alpoge-rh-replay/issues/8834#issuecomment-7054791831) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M002913](https://github.com/rohanarun/alpoge-rh-replay/issues/8835#issuecomment-7054793012) | Pending review |
-| [@loremcdmx](https://github.com/loremcdmx) | [M076299](https://github.com/rohanarun/alpoge-rh-replay/issues/8836#issuecomment-7054794538) | Pending review |

@@ -226,7 +226,6 @@
 | [@user42245](https://github.com/user42245) | [M115645](https://github.com/rohanarun/alpoge-rh-replay/issues/7852) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [P1744](https://github.com/rohanarun/alpoge-rh-replay/issues/8449) | Claimed |
 | [@misuadn-laplace](https://github.com/misuadn-laplace) | [M005465](https://github.com/rohanarun/alpoge-rh-replay/issues/8653) | Claimed |
-| [@SeriousRising](https://github.com/SeriousRising) | [P1870](https://github.com/rohanarun/alpoge-rh-replay/issues/8750) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M161838](https://github.com/rohanarun/alpoge-rh-replay/issues/8776) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M162132](https://github.com/rohanarun/alpoge-rh-replay/issues/9061) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M162273](https://github.com/rohanarun/alpoge-rh-replay/issues/9126) | Claimed |
@@ -254,3 +253,4 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M162217](https://github.com/rohanarun/alpoge-rh-replay/issues/10413) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111963](https://github.com/rohanarun/alpoge-rh-replay/issues/10435) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111964](https://github.com/rohanarun/alpoge-rh-replay/issues/10442) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M110131](https://github.com/rohanarun/alpoge-rh-replay/issues/10452) | Claimed |

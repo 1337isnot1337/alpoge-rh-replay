@@ -4,7 +4,6 @@
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@BenCaunt](https://github.com/BenCaunt) | [M110131](https://github.com/rohanarun/alpoge-rh-replay/issues/10452) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111965](https://github.com/rohanarun/alpoge-rh-replay/issues/10466) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111968](https://github.com/rohanarun/alpoge-rh-replay/issues/10481) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M002715](https://github.com/rohanarun/alpoge-rh-replay/issues/10487) | Claimed |
