@@ -211,6 +211,7 @@
 | [@rayy3535](https://github.com/rayy3535) | [M156794](https://github.com/rohanarun/alpoge-rh-replay/issues/8386#issuecomment-7054411558) | Pending review |
 | [@rishabh-16](https://github.com/rishabh-16) | [M055946](https://github.com/rohanarun/alpoge-rh-replay/issues/8387#issuecomment-7054516194) | Pending review |
 | [@rayy3535](https://github.com/rayy3535) | [M156799](https://github.com/rohanarun/alpoge-rh-replay/issues/8388#issuecomment-7054412968) | Pending review |
+| [@emsi](https://github.com/emsi) | [P2059](https://github.com/rohanarun/alpoge-rh-replay/issues/8389#issuecomment-7055277326) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M021378](https://github.com/rohanarun/alpoge-rh-replay/issues/8390#issuecomment-7054438752) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M017879](https://github.com/rohanarun/alpoge-rh-replay/issues/8391#issuecomment-7054439378) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M063243](https://github.com/rohanarun/alpoge-rh-replay/issues/8392#issuecomment-7054439978) | Pending review |
@@ -253,4 +254,3 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M070706](https://github.com/rohanarun/alpoge-rh-replay/issues/8434#issuecomment-7054531048) | Pending review |
 | [@zediir](https://github.com/zediir) | [M061388](https://github.com/rohanarun/alpoge-rh-replay/issues/8435#issuecomment-7054424983) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M001867](https://github.com/rohanarun/alpoge-rh-replay/issues/8436#issuecomment-7054531675) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M098042](https://github.com/rohanarun/alpoge-rh-replay/issues/8437#issuecomment-7054424394) | Pending review |
