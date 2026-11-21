@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HeightKernels.AltFrob",
+  "source_sha256": "eeda792ebc280b5dc54963b302df783fcd3363444ff17c2196f825d98cc512f9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the target API apply prod_le_prod\u2080 for the same mathematical operation, with explicit namespace or updated implicit arguments as required. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0164-lean436-20261121/packet-result.json"
+}

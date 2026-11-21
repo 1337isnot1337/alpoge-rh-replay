@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.IrreducibleConnected.PMonicRootGrowth",
+  "source_sha256": "f882b1c18203f2c6b2818aea0014e931782ce1cf93edf2bb7a87c501b7c847e7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent coefficient API adaptation: polynomial.coeff index denotes the same coefficient as the previous namespace-level coefficient function with its arguments in the old order. All indices, rings, polynomial expressions, quantifiers and inequalities are retained.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0164-lean436-20261121/packet-result.json"
+}
