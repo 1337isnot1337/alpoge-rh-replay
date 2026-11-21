@@ -4,9 +4,6 @@
 
 | Contributor | Task | Review |
 |---|---|---|
-| [@mu-mei](https://github.com/mu-mei) | [M004601](https://github.com/rohanarun/alpoge-rh-replay/issues/14467#issuecomment-7058269308) | Pending review |
-| [@mu-mei](https://github.com/mu-mei) | [M005125](https://github.com/rohanarun/alpoge-rh-replay/issues/14473#issuecomment-7058274014) | Pending review |
-| [@ANdATIon](https://github.com/ANdATIon) | [M131255](https://github.com/rohanarun/alpoge-rh-replay/issues/14477#issuecomment-7058262311) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M061346](https://github.com/rohanarun/alpoge-rh-replay/issues/14479#issuecomment-7058260409) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M142855](https://github.com/rohanarun/alpoge-rh-replay/issues/14481#issuecomment-7058258131) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M003611](https://github.com/rohanarun/alpoge-rh-replay/issues/14482#issuecomment-7058278168) | Pending review |

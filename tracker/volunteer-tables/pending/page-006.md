@@ -29,9 +29,6 @@
 | [@ANdATIon](https://github.com/ANdATIon) | [M157138](https://github.com/rohanarun/alpoge-rh-replay/issues/11924#issuecomment-7056789351) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M126981](https://github.com/rohanarun/alpoge-rh-replay/issues/11926#issuecomment-7056788723) | Pending review |
 | [@twaldin](https://github.com/twaldin) | [P1957](https://github.com/rohanarun/alpoge-rh-replay/issues/11927#issuecomment-7056848821) | Pending review |
-| [@UnityChaos](https://github.com/UnityChaos) | [M006946](https://github.com/rohanarun/alpoge-rh-replay/issues/11928#issuecomment-7056778024) | Pending review |
-| [@UnityChaos](https://github.com/UnityChaos) | [M006723](https://github.com/rohanarun/alpoge-rh-replay/issues/11929#issuecomment-7056779122) | Pending review |
-| [@UnityChaos](https://github.com/UnityChaos) | [M006945](https://github.com/rohanarun/alpoge-rh-replay/issues/11930#issuecomment-7056780337) | Pending review |
 | [@user42245](https://github.com/user42245) | [M069594](https://github.com/rohanarun/alpoge-rh-replay/issues/11990#issuecomment-7056804743) | Pending review |
 | [@jjjhenriksen](https://github.com/jjjhenriksen) | [M137842](https://github.com/rohanarun/alpoge-rh-replay/issues/11991#issuecomment-7056818786) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M173750](https://github.com/rohanarun/alpoge-rh-replay/issues/12015#issuecomment-7058767774) | Pending review |
@@ -254,3 +251,6 @@
 | [@ANdATIon](https://github.com/ANdATIon) | [M166299](https://github.com/rohanarun/alpoge-rh-replay/issues/13536#issuecomment-7057757231) | Pending review |
 | [@rayy3535](https://github.com/rayy3535) | [M004028](https://github.com/rohanarun/alpoge-rh-replay/issues/13538#issuecomment-7057749212) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M004534](https://github.com/rohanarun/alpoge-rh-replay/issues/13597#issuecomment-7057834659) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M003874](https://github.com/rohanarun/alpoge-rh-replay/issues/13598#issuecomment-7057835813) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M071599](https://github.com/rohanarun/alpoge-rh-replay/issues/13599#issuecomment-7057809033) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M061437](https://github.com/rohanarun/alpoge-rh-replay/issues/13601#issuecomment-7057809889) | Pending review |

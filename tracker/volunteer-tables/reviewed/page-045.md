@@ -27,3 +27,6 @@
 | [@loremcdmx](https://github.com/loremcdmx) | [M079477](https://github.com/rohanarun/alpoge-rh-replay/issues/11699#issuecomment-7056483372) | 1 | [Build evidence verified](../../../evidence/volunteers/M079477.json) |
 | [@BenCaunt](https://github.com/BenCaunt) | [M075082](https://github.com/rohanarun/alpoge-rh-replay/issues/5090#issuecomment-7054355132) | 1 | [Build evidence verified](../../../evidence/volunteers/M075082.json) |
 | [@dgahelper](https://github.com/dgahelper) | [P1594](https://github.com/rohanarun/alpoge-rh-replay/issues/3960#issuecomment-7058500328) | 64 | [Build evidence verified](../../../evidence/volunteers/P1594.json) |
+| [@UnityChaos](https://github.com/UnityChaos) | [M006945](https://github.com/rohanarun/alpoge-rh-replay/issues/11930#issuecomment-7056780337) | 1 | [Build evidence verified](../../../evidence/volunteers/M006945.json) |
+| [@UnityChaos](https://github.com/UnityChaos) | [M006723](https://github.com/rohanarun/alpoge-rh-replay/issues/11929#issuecomment-7056779122) | 1 | [Build evidence verified](../../../evidence/volunteers/M006723.json) |
+| [@UnityChaos](https://github.com/UnityChaos) | [M006946](https://github.com/rohanarun/alpoge-rh-replay/issues/11928#issuecomment-7056778024) | 1 | [Build evidence verified](../../../evidence/volunteers/M006946.json) |
