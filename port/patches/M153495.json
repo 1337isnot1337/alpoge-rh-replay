@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.EfRankSum",
+  "source_sha256": "2378b57f2e1fa6f90ddfa1b35ec124d165acb1f90cd79ac223f568e41f1241d4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0151-lean436-20261121/packet-result.json"
+}

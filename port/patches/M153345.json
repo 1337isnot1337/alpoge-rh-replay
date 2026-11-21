@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PadicSubsetSums.CentralIdempotents.ArchimedeanComponents",
+  "source_sha256": "20ef95ce39f00f78dc05d543f866ab6fb261ea3656650336371a2947365d8808",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent derivative API adaptation: supply the same scalar ring K as an implicit named argument. The power series, coefficients, quantifiers and identities are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0151-lean436-20261121/packet-result.json"
+}

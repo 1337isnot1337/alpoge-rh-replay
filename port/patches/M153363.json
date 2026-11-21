@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PadicSubsetSums.StableGradedCounts.CharpolyFactorAnnihilator",
+  "source_sha256": "bb0a4e44e6a2db68d3a84ca7f883ef8d538bb6ac00a6cdf9b43a04cbc2118b6f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0151-lean436-20261121/packet-result.json"
+}

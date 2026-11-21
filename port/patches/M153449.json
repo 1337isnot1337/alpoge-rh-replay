@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.AreaLat",
+  "source_sha256": "e3ef1fc5749c23a3f48ecae4de880062296be25ae9d07f8ad767ff6d48cfb21e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0151-lean436-20261121/packet-result.json"
+}

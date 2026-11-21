@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.QuotSetU",
+  "source_sha256": "b0da693aede0c6b1f88645fb2df4e2d2a11dfebe70d039bfe0741a0529b4711a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0151-lean436-20261121/packet-result.json"
+}

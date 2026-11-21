@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.NormUnitaryBounds.DetPolynomialWeights.NormMul",
+  "source_sha256": "4d2257dd9059657adf18f34ed4c969b2e7ea2aab210b6b673d20bf1807cd332e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent coefficient API adaptation in the coefficient and norm lemmas: use the identical exponents and polynomial factors with the new argument order; all sums, weights and inequalities are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0151-lean436-20261121/packet-result.json"
+}

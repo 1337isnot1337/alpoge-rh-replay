@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PadicSubsetSums.CentralIdempotents.GaloisConjCentralIdempotent",
+  "source_sha256": "817510482e916e0b96147c8cecfd857a57b64bdd5b84b415f4659fee2aceefc4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: Use the current Finsupp.finsetSum_apply API. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0151-lean436-20261121/packet-result.json"
+}
