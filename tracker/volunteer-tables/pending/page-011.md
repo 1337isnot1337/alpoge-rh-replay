@@ -4,6 +4,8 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M103323](https://github.com/rohanarun/alpoge-rh-replay/issues/17472#issuecomment-7059593141) | Pending review |
+| [@dhudakk](https://github.com/dhudakk) | [M001916](https://github.com/rohanarun/alpoge-rh-replay/issues/17477#issuecomment-7059593226) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M164560](https://github.com/rohanarun/alpoge-rh-replay/issues/17480#issuecomment-7059597025) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M107973](https://github.com/rohanarun/alpoge-rh-replay/issues/17481#issuecomment-7059602933) | Pending review |
 | [@amrehan](https://github.com/amrehan) | [M134510](https://github.com/rohanarun/alpoge-rh-replay/issues/17482#issuecomment-7059751537) | Pending review |
@@ -252,5 +254,3 @@
 | [@dhudakk](https://github.com/dhudakk) | [M131258](https://github.com/rohanarun/alpoge-rh-replay/issues/18062#issuecomment-7060021355) | Pending review |
 | [@JamCh01](https://github.com/JamCh01) | [P1846](https://github.com/rohanarun/alpoge-rh-replay/issues/18063#issuecomment-7060176888) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M088183](https://github.com/rohanarun/alpoge-rh-replay/issues/18068#issuecomment-7060028920) | Pending review |
-| [@zediir](https://github.com/zediir) | [M063735](https://github.com/rohanarun/alpoge-rh-replay/issues/18069#issuecomment-7060030194) | Pending review |
-| [@dga471](https://github.com/dga471) | [M129726](https://github.com/rohanarun/alpoge-rh-replay/issues/18070#issuecomment-7060100156) | Pending review |

@@ -4,6 +4,8 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@zediir](https://github.com/zediir) | [M063735](https://github.com/rohanarun/alpoge-rh-replay/issues/18069#issuecomment-7060030194) | Pending review |
+| [@dga471](https://github.com/dga471) | [M129726](https://github.com/rohanarun/alpoge-rh-replay/issues/18070#issuecomment-7060100156) | Pending review |
 | [@zediir](https://github.com/zediir) | [M061743](https://github.com/rohanarun/alpoge-rh-replay/issues/18071#issuecomment-7060032682) | Pending review |
 | [@dhudakk](https://github.com/dhudakk) | [M063130](https://github.com/rohanarun/alpoge-rh-replay/issues/18072#issuecomment-7060026713) | Pending review |
 | [@zediir](https://github.com/zediir) | [M064177](https://github.com/rohanarun/alpoge-rh-replay/issues/18073#issuecomment-7060034942) | Pending review |
@@ -252,5 +254,3 @@
 | [@dhudakk](https://github.com/dhudakk) | [M169537](https://github.com/rohanarun/alpoge-rh-replay/issues/18381#issuecomment-7060286474) | Pending review |
 | [@dga471](https://github.com/dga471) | [M042261](https://github.com/rohanarun/alpoge-rh-replay/issues/18385#issuecomment-7060405945) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M060612](https://github.com/rohanarun/alpoge-rh-replay/issues/18387#issuecomment-7060287723) | Pending review |
-| [@maugomez77](https://github.com/maugomez77) | [M058569](https://github.com/rohanarun/alpoge-rh-replay/issues/18391#issuecomment-7060331744) | Pending review |
-| [@amrehan](https://github.com/amrehan) | [M123627](https://github.com/rohanarun/alpoge-rh-replay/issues/18392#issuecomment-7060291692) | Pending review |

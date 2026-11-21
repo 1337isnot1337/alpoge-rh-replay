@@ -4,7 +4,6 @@
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@dga471](https://github.com/dga471) | [M034610](https://github.com/rohanarun/alpoge-rh-replay/issues/15538) | Claimed |
 | [@dga471](https://github.com/dga471) | [M036450](https://github.com/rohanarun/alpoge-rh-replay/issues/15540) | Claimed |
 | [@dga471](https://github.com/dga471) | [M040500](https://github.com/rohanarun/alpoge-rh-replay/issues/15541) | Claimed |
 | [@dga471](https://github.com/dga471) | [M044535](https://github.com/rohanarun/alpoge-rh-replay/issues/15543) | Claimed |
@@ -12,7 +11,6 @@
 | [@dga471](https://github.com/dga471) | [M063239](https://github.com/rohanarun/alpoge-rh-replay/issues/15880) | Claimed |
 | [@dga471](https://github.com/dga471) | [M069582](https://github.com/rohanarun/alpoge-rh-replay/issues/15893) | Claimed |
 | [@dga471](https://github.com/dga471) | [M074906](https://github.com/rohanarun/alpoge-rh-replay/issues/15897) | Claimed |
-| [@emsi](https://github.com/emsi) | [P2331](https://github.com/rohanarun/alpoge-rh-replay/issues/15915) | Claimed |
 | [@dga471](https://github.com/dga471) | [M083698](https://github.com/rohanarun/alpoge-rh-replay/issues/15919) | Claimed |
 | [@dga471](https://github.com/dga471) | [M088194](https://github.com/rohanarun/alpoge-rh-replay/issues/15923) | Claimed |
 | [@dga471](https://github.com/dga471) | [M107600](https://github.com/rohanarun/alpoge-rh-replay/issues/15929) | Claimed |
@@ -254,3 +252,5 @@
 | [@dhudakk](https://github.com/dhudakk) | [M151477](https://github.com/rohanarun/alpoge-rh-replay/issues/19731) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M014299](https://github.com/rohanarun/alpoge-rh-replay/issues/19732) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M174417](https://github.com/rohanarun/alpoge-rh-replay/issues/19741) | Claimed |
+| [@dga471](https://github.com/dga471) | [M134771](https://github.com/rohanarun/alpoge-rh-replay/issues/19754) | Claimed |
+| [@dga471](https://github.com/dga471) | [M037528](https://github.com/rohanarun/alpoge-rh-replay/issues/19755) | Claimed |

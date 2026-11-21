@@ -37,6 +37,7 @@
 | [@mu-mei](https://github.com/mu-mei) | [M003961](https://github.com/rohanarun/alpoge-rh-replay/issues/14491#issuecomment-7058282675) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M003886](https://github.com/rohanarun/alpoge-rh-replay/issues/14495#issuecomment-7058288286) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M003907](https://github.com/rohanarun/alpoge-rh-replay/issues/14498#issuecomment-7058283831) | Pending review |
+| [@emsi](https://github.com/emsi) | [P2256](https://github.com/rohanarun/alpoge-rh-replay/issues/14499#issuecomment-7065550597) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M004565](https://github.com/rohanarun/alpoge-rh-replay/issues/14501#issuecomment-7058293732) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M004519](https://github.com/rohanarun/alpoge-rh-replay/issues/14506#issuecomment-7058295877) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M015074](https://github.com/rohanarun/alpoge-rh-replay/issues/14515#issuecomment-7058315447) | Pending review |
@@ -253,4 +254,3 @@
 | [@mu-mei](https://github.com/mu-mei) | [M016757](https://github.com/rohanarun/alpoge-rh-replay/issues/15644#issuecomment-7058847601) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M026036](https://github.com/rohanarun/alpoge-rh-replay/issues/15645#issuecomment-7058853899) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M044114](https://github.com/rohanarun/alpoge-rh-replay/issues/15646#issuecomment-7058857038) | Pending review |
-| [@mu-mei](https://github.com/mu-mei) | [M044702](https://github.com/rohanarun/alpoge-rh-replay/issues/15647#issuecomment-7058857337) | Pending review |

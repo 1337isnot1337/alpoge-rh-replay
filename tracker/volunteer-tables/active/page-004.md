@@ -232,7 +232,6 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M155721](https://github.com/rohanarun/alpoge-rh-replay/issues/10574) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111981](https://github.com/rohanarun/alpoge-rh-replay/issues/10576) | Claimed |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M139051](https://github.com/rohanarun/alpoge-rh-replay/issues/14342) | Claimed |
-| [@emsi](https://github.com/emsi) | [P2256](https://github.com/rohanarun/alpoge-rh-replay/issues/14499) | Claimed |
 | [@dga471](https://github.com/dga471) | [M015310](https://github.com/rohanarun/alpoge-rh-replay/issues/15169) | Claimed |
 | [@dga471](https://github.com/dga471) | [M002890](https://github.com/rohanarun/alpoge-rh-replay/issues/15172) | Claimed |
 | [@dga471](https://github.com/dga471) | [M103115](https://github.com/rohanarun/alpoge-rh-replay/issues/15176) | Claimed |
@@ -254,3 +253,4 @@
 | [@dga471](https://github.com/dga471) | [M063464](https://github.com/rohanarun/alpoge-rh-replay/issues/15531) | Claimed |
 | [@dga471](https://github.com/dga471) | [M166893](https://github.com/rohanarun/alpoge-rh-replay/issues/15532) | Claimed |
 | [@dga471](https://github.com/dga471) | [M116134](https://github.com/rohanarun/alpoge-rh-replay/issues/15534) | Claimed |
+| [@dga471](https://github.com/dga471) | [M034610](https://github.com/rohanarun/alpoge-rh-replay/issues/15538) | Claimed |

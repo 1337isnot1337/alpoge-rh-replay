@@ -4,6 +4,8 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M169788](https://github.com/rohanarun/alpoge-rh-replay/issues/20050#issuecomment-7062009890) | Pending review |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M123331](https://github.com/rohanarun/alpoge-rh-replay/issues/20052#issuecomment-7062010321) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M173552](https://github.com/rohanarun/alpoge-rh-replay/issues/20053#issuecomment-7062010760) | Pending review |
 | [@certified-retart](https://github.com/certified-retart) | [M042872](https://github.com/rohanarun/alpoge-rh-replay/issues/20054#issuecomment-7061397623) | Pending review |
 | [@certified-retart](https://github.com/certified-retart) | [M060884](https://github.com/rohanarun/alpoge-rh-replay/issues/20055#issuecomment-7061399478) | Pending review |
@@ -252,5 +254,3 @@
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M171783](https://github.com/rohanarun/alpoge-rh-replay/issues/20389#issuecomment-7061669734) | Pending review |
 | [@certified-retart](https://github.com/certified-retart) | [M127007](https://github.com/rohanarun/alpoge-rh-replay/issues/20396#issuecomment-7061694321) | Pending review |
 | [@zediir](https://github.com/zediir) | [M139374](https://github.com/rohanarun/alpoge-rh-replay/issues/20399#issuecomment-7061685454) | Pending review |
-| [@emsi](https://github.com/emsi) | [P2185](https://github.com/rohanarun/alpoge-rh-replay/issues/20402#issuecomment-7061970596) | Pending review |
-| [@sp20262026](https://github.com/sp20262026) | [M102598](https://github.com/rohanarun/alpoge-rh-replay/issues/20404#issuecomment-7061688807) | Pending review |
