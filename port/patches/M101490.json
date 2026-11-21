@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HidaCompleteRings.Component",
+  "source_sha256": "b776416bbb1dd1eddfb858eb64ec4cdc86d652832e7a661afc8bd6b12d5e078d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: expose ideal contraction as comap before rewriting the existing zero-contraction equality. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0131-lean436-20261121/packet-result.json"
+}

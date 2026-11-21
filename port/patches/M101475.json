@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DualLattice",
+  "source_sha256": "8ae2541867fd77617bc15d029c648e6b8464bcad83593f98a82ca07dd4f366e8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent lattice API adaptation: the old Submodule.IsLattice meant finite generation plus full scalar span. In the target this is Submodule.IsFullLattice. Over the fraction field assumed throughout these statements, the additional target IsLattice linear-independence field follows automatically from finite generation (Submodule.IsLattice.of_fg). Thus the original hypotheses and full-lattice conclusion keep exactly their old meaning. Use extendOfIsFullLattice and provide the inherited finite-generation witness in the proof; no quantifiers, dual-submodule equalities or power bounds change.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0131-lean436-20261121/packet-result.json"
+}

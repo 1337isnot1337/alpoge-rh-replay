@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.LocFactor",
+  "source_sha256": "a95372200edf340ee36a2a7adef78058853fd7434a94d5a1b98cd5f5d2548607",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use algebra-specialized maximal-ideal contraction lemmas; where needed, use the ring Jacobson radical equality with the same maximal ideal. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0131-lean436-20261121/packet-result.json"
+}
