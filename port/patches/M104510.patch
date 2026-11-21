@@ -1,0 +1,10 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/HomologicalStability/LinkExactnessStability/HomologyRowExactOfStabilisationPattern.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/HomologicalStability/LinkExactnessStability/HomologyRowExactOfStabilisationPattern.lean
+@@ -8,7 +8,6 @@
+ theorem hMap_zero' {k G : Type} [CommRing k] [Group G] (A B : Rep k G) (n : ℕ) :
+     hMap (0 : A ⟶ B) n = 0 := by
+   simp [hMap, groupHomology.map]
+-  rfl
+ 
+ theorem main : ∀ (k G : Type) [CommRing k] [Group G] (C : ℕ → Rep k G) (d : ∀ p, C (p + 1) ⟶ C p),
+     (∀ p, d (p + 1) ≫ d p = 0) → ∀ (M : ℕ → ℕ → ModuleCat.{0} k)

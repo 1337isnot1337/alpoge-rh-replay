@@ -1,0 +1,10 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/HomologicalStability/LinkExactnessStability/HMapSumZsmulAdd.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/HomologicalStability/LinkExactnessStability/HMapSumZsmulAdd.lean
+@@ -21,7 +21,6 @@
+     hMap (f + g) n = hMap f n + hMap g n := by
+   unfold hMap groupHomology.map
+   rw [chainsMap_id_add, HomologicalComplex.homologyMap_add]
+-  rfl
+ 
+ noncomputable def hMapHom {k G : Type} [CommRing k] [Group G] (A B : Rep k G) (n : ℕ) :
+     (A ⟶ B) →+ (groupHomology A n ⟶ groupHomology B n) :=

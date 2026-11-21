@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.PermutationSigns.PlacePermOperatorBicommutantSpan",
+  "source_sha256": "837474b52b1a19cb24b92030c8df1ba824170a9088c4532f3a33bf6ba256f72f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: explicitly select Matrix.mul_apply for the existing matrix products, avoiding another opened namespace with the same lemma name. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0133-lean436-20261121/packet-result.json"
+}

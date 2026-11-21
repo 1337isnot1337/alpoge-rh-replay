@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.LevelCohomology.SumFilterTwoPowRootsEqZeroOfSumEqZero",
+  "source_sha256": "0de8b22808b32762ff44581117194069582e5b3208f5cb725214ae5c57bc098e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0133-lean436-20261121/packet-result.json"
+}
