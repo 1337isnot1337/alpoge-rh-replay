@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMapMulRightEqSmul",
+  "source_sha256": "c1e93c62bcd781c1678665c039683032bbd6fb1fa1a430e7f17865a19d56994d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass the a.e. measurability proof that `Measure.map_smul` now requires."
+}

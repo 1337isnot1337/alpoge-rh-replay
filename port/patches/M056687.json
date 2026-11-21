@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FlagMeasures.AestronglyMeasurableCompRep",
+  "source_sha256": "04bea701cd5606c64bfd2e895156154a632d88078892c99a0d1e9ac6f6b58ca2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass the a.e. strong measurability and null-measurability proofs that the eLpNorm lemmas now require. All edits are inside proof bodies."
+}

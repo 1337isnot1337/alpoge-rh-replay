@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExtendAeLinearOfLocalSqBoundDense",
+  "source_sha256": "3b96e14a1e18c2647b4a859bdedfe430bef6a6c7636d28f4bef613c337f05436",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Statement change to one helper. Mathlib now defines `eLpNorm f p μ` as `∞` when `f` is not a.e. strongly measurable, and `MemLp` as `eLpNorm f p μ < ∞`. The helper `eLpNorm_two_le_of_lintegral` is therefore false on the target without measurability, so it gains the hypothesis `(hg : AEStronglyMeasurable g ν)`; for such `g` its statement is the pinned one. Both call sites already have that proof (`hae`), and no other module in the archive refers to the helper. The statements of `lintegral_enorm_sq_Lp` and of the main theorem `extend_ae_linear_of_local_sq` are unchanged; their proofs pass the measurability proofs that `eLpNorm_nnreal_pow_eq_lintegral` now requires and build `MemLp` from the norm bound alone."
+}

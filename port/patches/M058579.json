@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FlagMeasures.ImportsLast",
+  "source_sha256": "6e91b4b4be94e7af419a6b2a7f28d88a80d31c0cd0a176d71fe583fa537b2dd3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use `Finset.prod_le_one₀` for the product bound with nonnegative factors."
+}

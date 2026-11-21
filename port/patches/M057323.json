@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FlagMeasures.DiscreteSubgroupCountableAndExistsStrictFundamen",
+  "source_sha256": "628477c588bb095a14224093b8f6fa9ca3635594e8c2870ba3d998850c63057b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Open the Pointwise scope so the set inverse `V⁻¹` elaborates, and use the renamed `continuous_mul_const` and `continuous_const_mul`."
+}

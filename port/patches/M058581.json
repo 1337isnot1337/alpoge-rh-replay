@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FlagMeasures.ImportsRest",
+  "source_sha256": "3183ebc279b26ac0d98e27c43243db698392f2c831351246b6c9263ddb917a92",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Statement change, equivalent: the hypothesis `Submodule.IsLattice K L` of `exists_smul_mem` becomes `Submodule.IsFullLattice K L`. Mathlib #44365 renamed the pinned `IsLattice` (finitely generated and spanning) to `IsFullLattice` and reused the name `IsLattice` for a weaker notion without `span_eq_top`. Over `𝓞 K` inside its fraction field `K`, `IsFullLattice K L ↔ L.FG ∧ span K L = ⊤`, which is the pinned definition, because `Submodule.IsLattice.of_fg` supplies the new linear-independence field. The proof is unchanged."
+}

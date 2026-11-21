@@ -1,0 +1,15 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsLatticeComapSubtype.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/IsLatticeComapSubtype.lean
+@@ -37,9 +37,9 @@
+ 
+ theorem isLattice_comap_subtype {K V : Type} [Field K] [NumberField K] [AddCommGroup V]
+     [Module K V] [FiniteDimensional K V] [Module (𝓞 K) V] [IsScalarTower (𝓞 K) K V]
+-    (Λ : Submodule (𝓞 K) V) (hΛ : Submodule.IsLattice K Λ) (W : Submodule K V) :
+-    Submodule.IsLattice K (Submodule.comap (LinearMap.restrictScalars (𝓞 K) W.subtype) Λ) := by
+-  refine ⟨?_, ?_⟩
++    (Λ : Submodule (𝓞 K) V) (hΛ : Submodule.IsFullLattice K Λ) (W : Submodule K V) :
++    Submodule.IsFullLattice K (Submodule.comap (LinearMap.restrictScalars (𝓞 K) W.subtype) Λ) := by
++  refine { toIsLattice := Submodule.IsLattice.of_fg K ?_, span_eq_top := ?_ }
+   · have hinj : Function.Injective (LinearMap.restrictScalars (𝓞 K) W.subtype) :=
+       W.injective_subtype
+     refine Submodule.fg_of_fg_map_injective _ hinj ?_
