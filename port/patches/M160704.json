@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.LevelLetterCocycles.JointConditionsZpowers.BaseLen",
+  "source_sha256": "9e2b623789d348a2cc4f1a97a4ac9b7e136b092825caeec5278b98806312a0db",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the renamed AddSubmonoidClass.coe_finsetSum lemma. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0078-lean436-20261121/packet-result.json"
+}

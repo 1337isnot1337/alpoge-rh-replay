@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.Divisibility.GeneratorPowers.PairEvaluation",
+  "source_sha256": "4bf418a8f95cc00a4b7f6f712b4360dd5be79c789e444da6ef511f7812f73552",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent coefficient API adaptation: the pinned MvPolynomial.coeff m p wrapper is defined as AddMonoidAlgebra.coeff p applied to m. The target p.coeff m is the same operation. Polynomial coefficients and indices in all statements and definitions are unchanged; proof uses are adapted to the new API.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0078-lean436-20261121/packet-result.json"
+}

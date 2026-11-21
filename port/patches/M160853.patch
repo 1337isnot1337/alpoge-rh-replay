@@ -1,0 +1,32 @@
+--- a/src/Formalism/SharpRestriction/LevelLetterCocycles/NatCastEqZeroOfNotDvd.lean
++++ b/src/Formalism/SharpRestriction/LevelLetterCocycles/NatCastEqZeroOfNotDvd.lean
+@@ -152,10 +152,11 @@
+     (hy : 1 ≤ v (x - 1)) {m : ℕ} (hm : m ≠ 0) :
+     v (x ^ m - 1) = v (x - 1) + (padicValNat p m : WithTop ℚ) := by
+   haveI := Fact.mk hp
+-  obtain ⟨n, hn⟩ := (pow_padicValNat_dvd : p ^ padicValNat p m ∣ m)
++  obtain ⟨n, hn⟩ := (show p ^ padicValNat p m ∣ m by simpa only [Nat.padicValNat_def] using pow_multiplicity_dvd p m)
+   have hpn : ¬ p ∣ n := by
+     rintro ⟨c, rfl⟩
+-    exact pow_succ_padicValNat_not_dvd hm ⟨c, hn.trans (by ring)⟩
++    apply pow_succ_padicValNat_not_dvd (p := p) hm
++    simpa only [Nat.padicValNat_def] using (show p ^ (padicValNat p m + 1) ∣ m from ⟨c, hn.trans (by ring)⟩)
+   have key : x ^ m = (x ^ (p ^ padicValNat p m)) ^ n := by
+     rw [← pow_mul, ← hn]
+   have hz := val_pow_pk_sub_one v hp hp2 hv hy (padicValNat p m)
+@@ -172,13 +173,13 @@
+   · have hn : n ≠ 0 := by
+       rintro rfl
+       exact hm rfl
+-    have hpv : padicValInt p (n : ℤ) = padicValNat p n := by simp [padicValInt]
++    have hpv : padicValInt p (n : ℤ) = padicValNat p n := by simp [padicValInt, Nat.padicValNat_def]
+     rw [zpow_natCast, hpv]
+     exact val_pow_sub_one_nat v hp hp2 hv hy hn
+   · have hn : n ≠ 0 := by
+       rintro rfl
+       exact hm (by simp)
+-    have hpv : padicValInt p (-(n : ℤ)) = padicValNat p n := by simp [padicValInt]
++    have hpv : padicValInt p (-(n : ℤ)) = padicValNat p n := by simp [padicValInt, Nat.padicValNat_def]
+     have hvx : v x = 0 := v_x_zero v (lt_of_lt_of_le withTop_zero_lt_one hy)
+     have hx0 : x ≠ 0 := by
+       rintro rfl

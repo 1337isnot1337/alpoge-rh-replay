@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.LevelLetterCocycles.RepresentationCongruences.ConstantCoeffSubstAlgHom",
+  "source_sha256": "2226ace76da7d5a13719887f2a3edb2f226cc9bb6ae7a05e46c22249c1b7c531",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0078-lean436-20261121/packet-result.json"
+}

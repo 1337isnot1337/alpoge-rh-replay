@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.GrowthBounds.DualFockLinear.OpBound",
+  "source_sha256": "7bd22c89355ce8bda72c29474d35f31138064a39748291819ee0c76eff829ea7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use polynomial-first coefficient evaluation in the local proof of the unchanged Ed definition. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0078-lean436-20261121/packet-result.json"
+}

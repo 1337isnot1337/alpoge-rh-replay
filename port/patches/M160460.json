@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.LevelLetterCocycles.CyclotomicPowerSeries.EmultiplicityEqValuation",
+  "source_sha256": "0f19dc071429099872b88930aef3de0534c43b7c2603ab9726d6f7f4d0730249",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: bridge padicValNat to multiplicity using Nat.padicValNat_def before applying the generalized multiplicity lemmas; exported statements retain their original valuation expressions. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0078-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.LevelLetterCocycles.QuotientImageDivisibility.ZpowNeOneOfClose",
+  "source_sha256": "424fce2a109b49b79fe2400aaaa3ecaee556c6cc87197da7e7ca13eb3e8ed81a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0078-lean436-20261121/packet-result.json"
+}

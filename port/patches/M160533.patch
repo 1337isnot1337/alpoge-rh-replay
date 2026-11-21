@@ -1,0 +1,24 @@
+--- a/src/Formalism/SharpRestriction/LevelLetterCocycles/DvrLatticeRank/GradNPfC.lean
++++ b/src/Formalism/SharpRestriction/LevelLetterCocycles/DvrLatticeRank/GradNPfC.lean
+@@ -199,6 +199,7 @@
+       obtain ⟨ε', hε', he'⟩ := lte_pow_prime_step_lemma_7 v ι hι hR l hl2 hl (x ^ m') ε hε
+         (padicValNat l m') (by rw [he]; ring)
+       have hv : padicValNat l (l * m') = padicValNat l m' + 1 := by
++        simp only [Nat.padicValNat_def]
+         rw [padicValNat.mul hp.out.ne_zero hm']
+         first
+           | rw [padicValNat_self]; ring
+@@ -210,11 +211,12 @@
+       ring
+     · obtain ⟨ε, hε, he⟩ := lte_pow_coprime_step_lemma_6 v ι hι hR l hl x t ht hxt m hdvd
+       refine ⟨ε, hε, ?_⟩
+-      rw [padicValNat.eq_zero_of_not_dvd hdvd, he]
++      rw [Nat.padicValNat_def, padicValNat.eq_zero_of_not_dvd hdvd, he]
+       ring
+ 
+ theorem gradNPf_sum_val (l : ℕ) [hp : Fact l.Prime] (N : ℕ) :
+     ∑ y ∈ Ico 1 (N + 1), (1 + padicValNat l y) = N + padicValNat l N.factorial := by
++  simp only [Nat.padicValNat_def]
+   induction N with
+   | zero => simp
+   | succ N ih =>

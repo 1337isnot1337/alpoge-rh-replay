@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.Divisibility.GeneratorPowers.PartialDerivativeExponent",
+  "source_sha256": "a52c8c8d3f53f9d51bc369be3ebcdea9241001b9b9e72526e24ef7b140328543",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent statement API adaptation: supply the unchanged coefficient ring k via the now-implicit R parameter of MvPowerSeries.pderiv. The variable index i, series f and partial derivative operator are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0078-lean436-20261121/packet-result.json"
+}

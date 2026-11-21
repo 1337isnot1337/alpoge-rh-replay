@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.GlobalSchurBounds.GlobalRankLatticeProofs.UnitTraceSumBounds.LocBasisPlace",
+  "source_sha256": "bb88797907bf95cfdca1087f81788cb51b0edc9216895810113eaf5b0295ec14",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0078-lean436-20261121/packet-result.json"
+}

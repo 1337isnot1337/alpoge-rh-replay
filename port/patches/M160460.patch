@@ -1,0 +1,19 @@
+--- a/src/Formalism/SharpRestriction/LevelLetterCocycles/CyclotomicPowerSeries/EmultiplicityEqValuation.lean
++++ b/src/Formalism/SharpRestriction/LevelLetterCocycles/CyclotomicPowerSeries/EmultiplicityEqValuation.lean
+@@ -64,6 +64,7 @@
+     rintro rfl
+     exact hm' (dvd_zero l)
+   have hval : padicValNat l (l ^ e * m') = e := by
++    simp only [Nat.padicValNat_def]
+     rw [padicValNat.mul (pow_ne_zero _ hl.ne_zero) hm'0, padicValNat.prime_pow,
+       padicValNat.eq_zero_of_not_dvd hm', add_zero]
+   rw [hval]
+@@ -111,7 +112,7 @@
+   have key : ∀ j : ℕ, (PadicInt.toZModPow (s + 1) u) ^ (l ^ j) = 1 ↔ s ≤ j := by
+     intro j
+     have hv := factV hl2 u hu (l ^ j) (pow_ne_zero _ hl.ne_zero)
+-    rw [padicValNat.prime_pow] at hv
++    rw [Nat.padicValNat_def, padicValNat.prime_pow] at hv
+     have hne : u ^ (l ^ j) - 1 ≠ 0 := by
+       intro h
+       rw [h, PadicInt.valuation_zero] at hv
