@@ -199,12 +199,13 @@ class PortBuildTest(unittest.TestCase):
         self.assertIn('line 1: IsLattice, whose pinned meaning is now Submodule.IsFullLattice', output.getvalue())
         self.assertEqual(json.loads((self.root / 'out/results.json').read_text())[0]['reused_names'], ['1:IsLattice'])
 
-    def records(self, selection, note_map, reviewed=()):
+    def records(self, selection, note_map, reviewed=(), ready_only=False):
         pins = dict(lean='leanprover/lean4:v4.36.0', mathlib='new')
         notes = self.root / 'notes.json'
         notes.write_text(json.dumps(note_map))
         args = SimpleNamespace(packet=selection, work=self.work, evidence='https://example.test/receipt.json',
-                               notes=notes, patches=None, force=False, reviewed=list(reviewed))
+                               notes=notes, patches=None, force=False, reviewed=list(reviewed),
+                               ready_only=ready_only)
         with patch.object(port_build.tasks, 'load', return_value=self.rows), \
                 patch.object(port_build, 'target', return_value=pins), \
                 contextlib.redirect_stdout(io.StringIO()):
@@ -223,6 +224,30 @@ class PortBuildTest(unittest.TestCase):
         with self.assertRaises(SystemExit) as refused:
             self.records('M000002', {})
         self.assertIn('has no patch', str(refused.exception))
+
+    def test_ready_selection_splits_ready_and_remaining_members(self):
+        self.rows[2]['packet'] = 'P0002'
+        members = port_build.packet(self.rows, 'P0002')
+        self.assertEqual(port_build.ready_selection(members, False), (members, []))
+        with self.assertRaises(SystemExit):
+            port_build.ready_selection(members, True)
+        (self.patches / 'M000001.json').write_text('{}')
+        self.assertEqual(port_build.ready_selection(members, True), (members, []))
+        waiting = dict(id='M000004', module='Waiting', packet='P0002', depth=1, imports=['M000099'])
+        self.assertEqual(port_build.ready_selection(members + [waiting], True), (members, [waiting]))
+
+    def test_records_ready_only_leaves_waiting_members_unrecorded(self):
+        (self.patches / 'M000001.json').write_text('{}')
+        (self.tree / 'src/Waiting.lean').write_text('import Missing\n')
+        self.rows += [dict(id='M000004', module='Waiting', packet='P0002', depth=1, imports=['M000099'],
+                           source_sha256=sha(b'import Missing\n'))]
+        self.records('P0002', {}, ready_only=True)
+        self.assertTrue((self.patches / 'M000002.json').exists())
+        self.assertFalse((self.patches / 'M000004.json').exists())
+        # Without --ready-only the waiting member would be recorded as unchanged although it never built.
+        (self.patches / 'M000002.json').unlink()
+        self.records('P0002', {})
+        self.assertTrue((self.patches / 'M000004.json').exists())
 
     def test_records_pair_notes_with_patches(self):
         (self.patches / 'M000002.patch').write_text('patch')

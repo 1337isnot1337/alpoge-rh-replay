@@ -3,8 +3,8 @@
   python3 tracker/port_build.py prepare WORK [--parts DIR]   # port tree in WORK/lean on the target pins
   python3 tracker/port_build.py check P0123 WORK [--ready-only]  # build each module, list failures
   python3 tracker/port_build.py diff P0123 WORK               # write patches for edited modules
-  python3 tracker/port_build.py reproduce P0123 WORK OUT      # fresh tree + patches, transcript, receipt
-  python3 tracker/port_build.py records P0123 WORK --evidence URL  # write port/patches/<ID>.json
+  python3 tracker/port_build.py reproduce P0123 WORK OUT [--ready-only]  # fresh tree + patches, receipt
+  python3 tracker/port_build.py records P0123 WORK --evidence URL [--ready-only]  # port/patches/<ID>.json
 
 WORK holds the verified archive parts, the Lean toolchain, the Mathlib cache and the
 port tree. Edit modules in WORK/lean/src, then `diff` turns the edits into patches
@@ -166,6 +166,16 @@ def packet(rows, selection):
     return active
 
 
+def ready_selection(members, ready_only):
+    """The members to work on and, with --ready-only, the unported members left for later."""
+    if not ready_only:
+        return members, []
+    ready = ready_members(members, {p.stem for p in PATCHES.glob('M*.json')})
+    if not ready:
+        raise SystemExit('No member of the selection is ready to build')
+    return ready, [r for r in members if r not in ready]
+
+
 def imports_closure(by_id, members):
     """Project modules the members import, directly or indirectly, excluding the members."""
     own = {r['id'] for r in members}
@@ -267,14 +277,9 @@ def cmd_check(args):
     toolchain(tree, env, pins)
     by_id = {r['id']: r for r in rows}
     ported = {p.stem for p in PATCHES.glob('M*.json')}
-    if args.ready_only:
-        ready = ready_members(members, ported)
-        skipped = [r['id'] for r in members if r not in ready]
-        if skipped:
-            print('Skipping members that are ported or wait for unported imports:', ' '.join(skipped))
-        members = ready
-        if not members:
-            raise SystemExit('No member of the selection is ready to build')
+    members, skipped = ready_selection(members, args.ready_only)
+    if skipped:
+        print('Skipping members that are ported or wait for unported imports:', ' '.join(r['id'] for r in skipped))
     applied = sync_imports(tree, imports_closure(by_id, members), ported)
     if applied:
         print('Applied port patches to imports:', ' '.join(applied))
@@ -339,7 +344,7 @@ def cmd_reproduce(args):
     out, patches = args.out.resolve(), (args.patches or PATCHES).resolve()
     if out.exists():
         raise SystemExit(f'{out} already exists')
-    members = packet(rows, args.packet)
+    members, remaining = ready_selection(packet(rows, args.packet), args.ready_only)
     by_id = {r['id']: r for r in rows}
     imports = imports_closure(by_id, members)
     name = args.packet
@@ -358,6 +363,9 @@ def cmd_reproduce(args):
     tree, env = out / 'lean', environment(work)
     check_sources(tree, members + imports)
     say(f'== sources: all {len(members)} packet and {len(imports)} import source hashes match')
+    if remaining:
+        say(f'== remaining: {len(remaining)} members wait for unported imports and are not built: '
+            + ' '.join(r['id'] for r in remaining))
     retarget(tree, pins)
     shutil.copyfile(work / 'lean/lake-manifest.json', tree / 'lake-manifest.json')
     shutil.copytree(work / 'lean/.lake/packages', tree / '.lake/packages', symlinks=True)
@@ -401,7 +409,8 @@ def cmd_reproduce(args):
                    host=tasks.host_resources(),
                    command='lake --no-cache build +<Module>:olean, one run per module, in a fresh tree '
                            'from the pinned archive plus port patches',
-                   patches=applied, build_log_sha256=tasks.digest(out / f'{name}-build.log'), modules=modules)
+                   patches=applied, build_log_sha256=tasks.digest(out / f'{name}-build.log'), modules=modules,
+                   remaining=[r['id'] for r in remaining])
     (out / f'{name}-receipt.json').write_text(json.dumps(receipt, indent=2, ensure_ascii=False) + '\n')
     print(f'Evidence in {out}: {name}-build.log, {name}-receipt.json, {name}-module-logs.tar.gz')
     return int(bool(failed))
@@ -409,7 +418,7 @@ def cmd_reproduce(args):
 
 def cmd_records(args):
     pins, rows = target(), tasks.load()
-    members = packet(rows, args.packet)
+    members, remaining = ready_selection(packet(rows, args.packet), args.ready_only)
     patches = (args.patches or PATCHES).resolve()
     notes = json.loads(args.notes.read_text()) if args.notes else {}
     unknown = sorted(set(notes) - {r['id'] for r in members})
@@ -441,6 +450,8 @@ def cmd_records(args):
             shutil.copyfile(patches / f'{mid}.patch', PATCHES / f'{mid}.patch')
         (PATCHES / f'{mid}.json').write_text(json.dumps(record, indent=2, ensure_ascii=False) + '\n')
     print(f'Wrote {len(records)} records, {sum(n != "unchanged" for n in notes.values())} with patches')
+    if remaining:
+        print('Left for later, waiting for unported imports:', ' '.join(r['id'] for r in remaining))
 
 
 def main(argv=None):
@@ -465,10 +476,14 @@ def main(argv=None):
     p.add_argument('out', type=Path)
     p.add_argument('--patches', type=Path, help="the packet's patch folder (default port/patches)")
     p.add_argument('--issue', type=int, help='Port issue number to record in the receipt')
+    p.add_argument('--ready-only', action='store_true',
+                   help='build only the ready members and list the rest as remaining in the receipt')
     p = sub.add_parser('records', help='write port/patches/<ID>.json for every module of a packet')
     p.add_argument('packet')
     p.add_argument('work', type=Path)
     p.add_argument('--evidence', required=True, help='URL of the published receipt')
+    p.add_argument('--ready-only', action='store_true',
+                   help='write records only for the ready members, as for reproduce --ready-only')
     p.add_argument('--reviewed', action='append', default=[], metavar='ID',
                    help='record an unchanged module that mentions a reused Mathlib name')
     p.add_argument('--notes', type=Path, help='JSON object of module ID to note for patched modules')
