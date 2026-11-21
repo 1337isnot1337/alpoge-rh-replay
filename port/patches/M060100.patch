@@ -1,0 +1,10 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/SobolevIteratedOneParameterSubgroups.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/SobolevIteratedOneParameterSubgroups.lean
+@@ -38,7 +38,6 @@
+     have hsymm : ∀ z : ℝ × (Fin N → ℝ), e.symm z = Fin.snoc (α := fun _ => ℝ) z.2 z.1 := by
+       intro z
+       simp [e, MeasurableEquiv.piFinSuccAbove]
+-      rfl
+     have hS : Set.pi Set.univ (fun _ : Fin (N + 1) => Set.Icc (0 : ℝ) s) =
+         e ⁻¹' (Set.Icc (0 : ℝ) s ×ˢ T) := by
+       ext x
