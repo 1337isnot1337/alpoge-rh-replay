@@ -1,0 +1,8 @@
+{
+ "module": "CompanionTheory.HarishChandraModules.BesselParameterIntegrals.ContDiffOnExpPartialHomeomorphSymm",
+ "source_sha256": "63bc1cbb261225c7182450824f5f3e55be6360cbf3e7f58c85ac83f5fbe4623a",
+ "lean": "leanprover/lean4:v4.36.0",
+ "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+ "notes": "fixed for Lean 4.36",
+ "evidence": "local port build on leanprover/lean4:v4.36.0 (codespace worker): lake build succeeded after patch"
+}
