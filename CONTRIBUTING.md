@@ -157,6 +157,30 @@ When a requested module already exists in the worker cache and has no build line
 
 Cached-target replay uses one checker process by default. To use spare CPUs, set `REPLAY_KERNEL_JOBS` to a positive integer in the builder environment, for example by adding `-e REPLAY_KERNEL_JOBS=4` when creating the builder container. This splits the requested cached targets into contiguous batches and runs at most that many pinned checker processes, with one Lean thread each. Each process loads an imported environment, so choose the count to fit the builder's memory and concurrent source builds. Parallel records list each actual command, exit status and transcript in `replays`; use an updated tracker to verify them. Single-process records keep the existing format. These are module-level checks against imported environments; the final fresh replay of `Main` remains separate.
 
+To avoid the native checker's repeated search for module prefixes, opt into exact
+module replay in the builder environment:
+
+```bash
+REPLAY_KERNEL_METHOD=leanchecker-exact-v1 REPLAY_KERNEL_THREADS=8 \
+  python3 tracker/tasks.py build P0123 /work/vol/lean /work/receipt-P0123 --bundle
+```
+
+This mode calls the pinned `replayFromImports` implementation from `LeanChecker.lean` for
+exactly the cached target names. It uses one Lean process with at most
+`REPLAY_KERNEL_THREADS` concurrent module tasks, refilling each slot as it
+finishes. Leave `REPLAY_KERNEL_JOBS` unset or set it to 1. Each task still loads
+its own imported environment; this does not share dependencies between tasks
+or perform a fresh replay. Start with a worker count that fits the available
+memory alongside source builds. A finite module queue does not bound the cost
+of an individual proof; apply process memory and time limits in the builder.
+
+Use the same updated tracker revision on the builder and verifier. The
+`kernel-replay.json` record embeds the exact driver source and digest, worker
+count, command, successful exit status and completed-module transcript. The
+verifier accepts only its reviewed driver and exact target coverage, so no
+additional driver asset is needed for offline receipt verification. Existing
+native replay receipts remain supported.
+
 For a transfer, capture the primary's inventory before installing reviewed, platform-compatible artifacts using the coordinator's existing procedure. On the primary, run the following inside its prepared environment.
 
 ```bash
