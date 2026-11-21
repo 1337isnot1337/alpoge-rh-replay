@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.BarMSingle",
+  "source_sha256": "9175196f1d5e8350a4c3f75d53a9d6ac70eff5a9f5a9c65015e0f05cc4f0b9a2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
