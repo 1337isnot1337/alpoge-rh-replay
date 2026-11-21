@@ -22,6 +22,37 @@ def record_cached_replay(project, out, missing, receipt, launcher, env):
             evidence.require(tasks.digest(path) == expected, 'Cached object changed: ' + str(path))
 
     check_objects()
+    method = env.get('REPLAY_KERNEL_METHOD', 'native')
+    evidence.require(method in ('native', evidence.EXACT_METHOD), 'Unknown kernel replay method')
+    if method == evidence.EXACT_METHOD:
+        evidence.require(env.get('REPLAY_KERNEL_JOBS', '1') == '1',
+                         'Exact replay uses one process; set REPLAY_KERNEL_THREADS instead')
+        requested = env.get('REPLAY_KERNEL_THREADS', '1')
+        evidence.require(isinstance(requested, str) and re.fullmatch(r'[1-9][0-9]*', requested),
+                         'REPLAY_KERNEL_THREADS must be a positive integer')
+        workers = min(int(requested), len(missing))
+        source = evidence.exact_driver_source(missing, workers)
+        driver = out / evidence.EXACT_DRIVER_FILE
+        driver.write_text(source)
+        driver_digest = tasks.digest(driver)
+        cmd = ['lake', 'env', 'lean', str(driver.resolve())]
+        result = subprocess.run([*launcher, *cmd], cwd=project,
+                                env=dict(env, LEAN_NUM_THREADS=str(workers),
+                                         LEAN_STACK_SIZE_KB=env.get('LEAN_STACK_SIZE_KB', '65536')),
+                                stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+        evidence.require(result.returncode == 0,
+                         f'Kernel replay failed ({result.returncode}): {result.stdout}')
+        check_objects()
+        evidence.require(tasks.digest(driver) == driver_digest, 'Exact driver changed during replay')
+        record = dict(method=evidence.EXACT_METHOD, receipt_sha256=tasks.digest(out / 'receipt.json'),
+                      driver_source=source, driver_sha256=driver_digest, workers=workers,
+                      command=cmd, exit_code=result.returncode, transcript=result.stdout)
+        evidence.check_replay(record, out, missing)
+        path = out / evidence.REPLAY_FILE
+        tmp = path.with_suffix('.tmp')
+        tmp.write_text(json.dumps(record, indent=2) + '\n')
+        tmp.replace(path)
+        return
     requested = env.get('REPLAY_KERNEL_JOBS', '1')
     evidence.require(isinstance(requested, str) and re.fullmatch(r'[1-9][0-9]*', requested),
                      'REPLAY_KERNEL_JOBS must be a positive integer')

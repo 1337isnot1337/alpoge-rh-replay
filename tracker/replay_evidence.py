@@ -48,6 +48,41 @@ def checkout_info(project):
 
 
 REPLAY_FILE = 'kernel-replay.json'
+EXACT_METHOD = 'leanchecker-exact-v1'
+EXACT_DRIVER_FILE = 'kernel-replay-exact.lean'
+EXACT_DRIVER = Path(__file__).resolve().parents[1] / 'kernel' / 'ExactReplay.lean'
+
+
+def exact_driver_source(missing, workers):
+    args = json.dumps([str(workers), *[r['module'] for r in missing]], ensure_ascii=False)
+    return EXACT_DRIVER.read_text() + '\n#eval replayExactModules ' + args + '\n'
+
+
+def check_exact_replay(record, directory, missing):
+    """Accept only the versioned driver, exact names, and completed checks."""
+    require('replays' not in record, 'Exact replay uses one bounded worker pool')
+    workers = record.get('workers')
+    require(type(workers) is int and 1 <= workers <= len(missing), 'Invalid exact replay worker count')
+    source = exact_driver_source(missing, workers)
+    require(record.get('driver_source') == source
+            and record.get('driver_sha256') == hashlib.sha256(source.encode()).hexdigest(),
+            'Exact replay driver differs from the reviewed implementation')
+    command = record.get('command')
+    require(isinstance(command, list) and len(command) == 4
+            and command[:3] == ['lake', 'env', 'lean']
+            and isinstance(command[3], str) and '\x00' not in command[3]
+            and PurePosixPath(command[3]).name == EXACT_DRIVER_FILE,
+            'Invalid exact replay command')
+    names = [r['module'] for r in missing]
+    require(type(record.get('exit_code')) is int and record['exit_code'] == 0,
+            'Invalid kernel replay exit code')
+    transcript = record.get('transcript')
+    require(isinstance(transcript, str), 'Invalid kernel replay transcript')
+    lines = transcript.splitlines()
+    completed = [line[len('replaying '):] for line in lines if line.startswith('replaying ')]
+    require(sorted(completed) == sorted(names), 'Exact replay completed-target coverage mismatch')
+    require(lines.count(f'exact replay completed {len(names)} modules') == 1,
+            'Missing exact replay completion marker')
 
 
 def missing_targets(directory, targets):
@@ -64,6 +99,9 @@ def replay_command(missing):
 def check_replay(record, directory, missing):
     require(record['receipt_sha256'] == tasks.digest(directory / 'receipt.json'),
             'Kernel replay belongs to a different receipt')
+    if record.get('method') == EXACT_METHOD:
+        return check_exact_replay(record, directory, missing)
+    require('method' not in record, 'Unknown kernel replay method')
     if 'replays' in record:
         require(not any(k in record for k in ('command', 'exit_code', 'transcript')),
                 'Ambiguous kernel replay record')
