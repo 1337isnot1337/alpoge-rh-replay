@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StNormalModel",
+  "source_sha256": "75cb73cc36aeb7e86c5e29f4948fe95862f0d98335f45a39ecf49f3b6dc3bb51",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0083-issue-25049/P0083-receipt.json"
+}

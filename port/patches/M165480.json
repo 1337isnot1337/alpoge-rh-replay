@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ElementarySymmetric.PDivisionNearSLocal",
+  "source_sha256": "f1a59347e6a901a87093b88f1c3c2f30ab8d41cbf0f875c1109317c9679ce2bf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0083-issue-25049/P0083-receipt.json"
+}

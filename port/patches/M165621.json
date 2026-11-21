@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.FieldsOfNumbers.NoetherCharPLemmas",
+  "source_sha256": "ac9ac2da84b6b3f8c788774083da97a13e22dc8bbf8a2fb01376b70068ae4874",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Ideal.eq_bot_of_comap_eq_bot now states its goal with Ideal.under, which unfolds to Ideal.comap of algebraMap; unfold it before rewriting with RingHom.comap_ker. Proof-only change.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0083-issue-25049/P0083-receipt.json"
+}

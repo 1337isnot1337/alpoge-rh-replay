@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.Objects",
+  "source_sha256": "b33cc8f104cd365628634b199a045673bce7ed56f1d8c12db016744bab5e2c59",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The Krull-dimension lemmas now count variables with ENat.card instead of Nat.card, so state the helper fact hc with ENat.card and ENat.card_eq_coe_fintype_card. Proof-only change.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0083-issue-25049/P0083-receipt.json"
+}
