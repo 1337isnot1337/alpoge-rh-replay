@@ -238,7 +238,6 @@
 | [@rohanarun](https://github.com/rohanarun) | [M139090](https://github.com/rohanarun/alpoge-rh-replay/issues/7231) | Claimed |
 | [@user42245](https://github.com/user42245) | [M115645](https://github.com/rohanarun/alpoge-rh-replay/issues/7852) | Claimed |
 | [@SeriousRising](https://github.com/SeriousRising) | [P2005](https://github.com/rohanarun/alpoge-rh-replay/issues/8101) | Claimed |
-| [@emsi](https://github.com/emsi) | [P1951](https://github.com/rohanarun/alpoge-rh-replay/issues/8240) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2059](https://github.com/rohanarun/alpoge-rh-replay/issues/8389) | Claimed |
 | [@emsi](https://github.com/emsi) | [P1910](https://github.com/rohanarun/alpoge-rh-replay/issues/8425) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [P1744](https://github.com/rohanarun/alpoge-rh-replay/issues/8449) | Claimed |
@@ -250,7 +249,8 @@
 | [@hipotures](https://github.com/hipotures) | [P1771](https://github.com/rohanarun/alpoge-rh-replay/issues/9029) | Claimed |
 | [@twaldin](https://github.com/twaldin) | [P1857](https://github.com/rohanarun/alpoge-rh-replay/issues/9057) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M162132](https://github.com/rohanarun/alpoge-rh-replay/issues/9061) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M169301](https://github.com/rohanarun/alpoge-rh-replay/issues/9107) | Claimed |
-| [@BenCaunt](https://github.com/BenCaunt) | [M169302](https://github.com/rohanarun/alpoge-rh-replay/issues/9117) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M162273](https://github.com/rohanarun/alpoge-rh-replay/issues/9126) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M162285](https://github.com/rohanarun/alpoge-rh-replay/issues/9131) | Claimed |
+| [@TOTOGT](https://github.com/TOTOGT) | [M162286](https://github.com/rohanarun/alpoge-rh-replay/issues/9133) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M099348](https://github.com/rohanarun/alpoge-rh-replay/issues/9154) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M100671](https://github.com/rohanarun/alpoge-rh-replay/issues/9155) | Claimed |
