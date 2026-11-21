@@ -41,6 +41,22 @@ port/patches/<ModuleId>.json        # {"module", "source_sha256", "lean", "mathl
 2. **Port.** Use a fresh checkout of the pinned archive with the target toolchain and Mathlib. Fix each module until `lake build +<Module>:olean` succeeds.
 3. **Submit a PR to `main`** that adds the packet's `port/patches/` files and links the issue. Include the build transcript for every module in the packet, ending in success, plus the exact toolchain and Mathlib commit.
 
+If no whole packet is ready, `python3 tracker/port.py next --include-partial` also
+lists unreserved packets with some ready modules. Whole packets come first;
+partial packets are ordered by depth and then the number of ready modules.
+Use `python3 tracker/port.py show P0123 --ready-only` to list the unported modules
+whose imports are satisfied by records on your checkout or by other ready members
+of the same packet. Refresh `main` before using these suggestions. Reserve the
+packet, build only its ready members, and retain their successful outputs while
+the other prerequisites are being ported. Recheck the remaining members after
+updating `main`; submit the packet only when all its modules build successfully.
+
+To reserve several independent packets, use `python3 tracker/port.py claim P0123 P0124`.
+The command checks every target against upstream `main`, rejects overlapping
+requests, and checks all reservations with one complete live issue scan before
+creating any issue. Issue creation is sequential: if GitHub rejects a later
+creation, earlier issues remain open. Review the printed issue URLs before retrying.
+
 ## Rules a port PR must follow
 
 - **No `sorry`, `admit`, new `axiom`, `@[implemented_by]`, `native_decide` or `unsafe`** that the original module didn't have.

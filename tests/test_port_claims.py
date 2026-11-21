@@ -106,6 +106,54 @@ class PortClaimTests(unittest.TestCase):
         self.assertEqual(self.run_cli('show', 'M000002').split(),
                          ['M000002', '0', 'untriaged', 'Example.M000002'])
 
+    def test_multiple_claims_share_one_issue_scan(self):
+        with patch.object(self.port.tasks, 'open_issues', return_value=iter([])) as scan:
+            self.run_cli('claim', 'P0001', 'P0002')
+        scan.assert_called_once()
+        self.assertEqual(self.lookup.call_count, 2)
+        self.assertEqual([call.args[0][call.args[0].index('--title') + 1]
+                          for call in self.gh.call_args_list], ['Port P0001', 'Port P0002'])
+
+    def test_later_reservation_conflict_prevents_all_creations(self):
+        self.reserve('M000003')
+        with self.assertRaisesRegex(SystemExit, 'Port M000003'):
+            self.run_cli('claim', 'P0001', 'P0002')
+        self.gh.assert_not_called()
+
+    def test_invalid_or_overlapping_batch_prevents_all_creations(self):
+        cases = [('P0001', 'P9999'), ('P0001', 'P0001'),
+                 ('P0001', 'M000001'), ('M000001', 'P0001')]
+        for targets in cases:
+            with self.subTest(targets=targets), self.assertRaises(SystemExit):
+                self.run_cli('claim', *targets)
+        self.gh.assert_not_called()
+        self.lookup.assert_not_called()
+
+    def test_two_distinct_members_of_one_packet_do_not_overlap(self):
+        self.run_cli('claim', 'M000001', 'M000002')
+        self.assertEqual(self.gh.call_count, 2)
+
+    def test_later_target_lookup_failure_prevents_all_creations(self):
+        response = self.lookup.return_value
+        self.lookup.side_effect = [response, subprocess.CalledProcessError(1, 'gh')]
+        with self.assertRaises(subprocess.CalledProcessError):
+            self.run_cli('claim', 'P0001', 'P0002')
+        self.gh.assert_not_called()
+
+    def test_later_completed_target_prevents_all_creations(self):
+        available = self.lookup.return_value
+        self.main_records({'oid': 'already-ported'})
+        self.lookup.side_effect = [available, self.lookup.return_value]
+        with self.assertRaisesRegex(SystemExit, 'P0002 is already fully ported'):
+            self.run_cli('claim', 'P0001', 'P0002')
+        self.gh.assert_not_called()
+
+    def test_creation_failure_does_not_retry_or_hide_earlier_creation(self):
+        self.gh.side_effect = [None, subprocess.CalledProcessError(1, 'gh')]
+        with self.assertRaises(subprocess.CalledProcessError):
+            self.run_cli('claim', 'P0001', 'P0002')
+        self.assertEqual(self.gh.call_count, 2)
+
 
 if __name__ == '__main__':
     unittest.main()
