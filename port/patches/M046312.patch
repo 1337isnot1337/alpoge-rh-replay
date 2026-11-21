@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/PowCardLeNormProd.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/PowCardLeNormProd.lean
+@@ -14,7 +14,7 @@
+     exact mul_le_mul ha ih' (by positivity) (norm_nonneg _)
+ 
+ theorem exists_root_norm_lt {F : Polynomial ℂ} (hF : Polynomial.Monic F) {ε : ℝ}
+-    (hε : (0 : ℝ) < ε) (h0 : ‖Polynomial.coeff F (0 : ℕ)‖ < ε ^ Polynomial.natDegree F) :
++    (hε : (0 : ℝ) < ε) (h0 : ‖F.coeff 0‖ < ε ^ Polynomial.natDegree F) :
+     ∃ (t : ℂ), Polynomial.IsRoot F t ∧ ‖t‖ < ε := by
+   by_contra hcon
+   have hall : ∀ t ∈ F.roots, ε ≤ ‖t‖ := fun t ht =>

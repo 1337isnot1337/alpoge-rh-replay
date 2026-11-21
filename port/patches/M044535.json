@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormLeOneOfExtension",
+  "source_sha256": "30c0c8e708ca9c15d19ed34dc9056cc1347e3891164451e1d2fda46629c16141",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed Polynomial.eval\u2082_finsetSum; Ideal.isMaximal_under_of_isIntegral_of_isMaximal for the comap."
+}

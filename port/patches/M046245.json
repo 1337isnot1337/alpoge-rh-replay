@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PosDefRealGramPairHermitianForms",
+  "source_sha256": "379839b7c11dc7fa1d0937142dcd12fa751b2d60d41c1295717ace651610e05a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify the now-protected Matrix.mul_apply."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormUnitLeOfEsymm",
+  "source_sha256": "b50189077d4b40fce4a30af446a72483ff7502f66de0f7c22af023bcbf89a0ce",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed Polynomial.eval_finsetSum."
+}

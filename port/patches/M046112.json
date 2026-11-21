@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolarizationSymmetricFormIdentity",
+  "source_sha256": "732dd7d7e395a56b52e3876f8219f5faa5464058c2d6f41480c9866af03d6cda",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "MultilinearMap takes the ring hom explicitly: use MultilinearMap (RingHom.id \u211d) ...; rewrite with RingHom.id_apply where the explicit sigma leaks into the goal."
+}
