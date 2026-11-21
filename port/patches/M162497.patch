@@ -1,0 +1,13 @@
+--- a/src/GroundTheory/AutomorphicForms/ContragredientTranspose/MatrixSimilarity.lean
++++ b/src/GroundTheory/AutomorphicForms/ContragredientTranspose/MatrixSimilarity.lean
+@@ -184,8 +184,8 @@
+     Continuous fun A : Matrix m m F => A.charpoly.coeff k := by
+   have hentry : ∀ i j : m, ContCoeff fun A : Matrix m m F => A.charmatrix i j := by
+     intro i j
+-    simp only [Matrix.charmatrix_apply]
+-    refine (ContCoeff.const _).add ?_
++    simp only [Matrix.charmatrix_apply, sub_eq_add_neg]
++    refine (ContCoeff.const (F := F) (α := Matrix m m F) _).add ?_
+     have hc : Continuous fun A : Matrix m m F => A i j := continuous_id.matrix_elem i j
+     have := ContCoeff.C (α := Matrix m m F) (f := fun A => -A i j) hc.neg
+     simpa [sub_eq_add_neg] using this

@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.GL2Classical.WeightOperators",
+  "source_sha256": "c47f5ec2d4155b6bc6ae6bb4b053e3e9ed0e8aa9234812bbabfaa53b7481ee81",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

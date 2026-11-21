@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/AutomorphicForms/DixmierMalliavinLineLimit.lean
++++ b/src/GroundTheory/AutomorphicForms/DixmierMalliavinLineLimit.lean
+@@ -16,7 +16,7 @@
+     ∫ ξ, 𝓕⁻ f ξ * g ξ = ∫ x, f x * 𝓕⁻ g x := by
+   rw [Real.fourierInv_eq_fourier_comp_neg, integral_fourier_mul_eq hf.comp_neg hg,
+     ← integral_neg_eq_self (fun x => f x * 𝓕⁻ g x)]
+-  congr 1; funext x
++  refine integral_congr_ae (ae_of_all _ fun x => ?_)
+   simp [Real.fourierInv_eq_fourier_neg]
+ 
+ theorem norm_fourier_le (f : ℝ → ℂ) (ξ : ℝ) : ‖𝓕 f ξ‖ ≤ ∫ x, ‖f x‖ :=

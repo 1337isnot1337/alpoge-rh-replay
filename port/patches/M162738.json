@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.HarishChandraCentre.FischerForm",
+  "source_sha256": "51a3f7ec6fb74fedb9e0b74e813f7f57564a63a423137b2b8e054f64e9597a2f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent coefficient API adaptation in fischer, fischer_eq_sum and fischer_self: the pinned MvPolynomial.coeff m p wrapper is AddMonoidAlgebra.coeff p applied to m. The target p.coeff m denotes exactly that operation. Coefficient indices, conjugation, weights and sums are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

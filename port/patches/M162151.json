@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.YangianSpanCharacter.StatementT",
+  "source_sha256": "07487e4592e716bdadca5ebd31b9caeefff7174f4045e878184d90a752f63ff7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

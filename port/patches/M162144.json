@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.WindowSums.Statement",
+  "source_sha256": "09adc6cd40691a98858be12d66bdb593f3dba13eae17037281657c3938a7a591",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

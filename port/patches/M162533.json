@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.CuspidalProjection.Unfold",
+  "source_sha256": "3a01d5a2ae130a291002e5ec05c9c2dea08c8271e7acd8add613dc68c720bab7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: adapt renamed or generalized Mathlib lemmas while retaining the original hypotheses and conclusions. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

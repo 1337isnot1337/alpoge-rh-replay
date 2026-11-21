@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.CuspidalDiscreteness.AltSum",
+  "source_sha256": "dba59f03bbfa811f7fda082e25b22d142a53138a860b11ff28ae6c750f4f5edb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

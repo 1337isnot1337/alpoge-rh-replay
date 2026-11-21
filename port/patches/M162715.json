@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.GeometricLemmaAverage",
+  "source_sha256": "0f524a405a474ae5ec07077c780d56efbaa860c660acb5f22f94205e01c87396",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

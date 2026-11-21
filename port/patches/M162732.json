@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.HaarSK",
+  "source_sha256": "6259bcae18816174585129efa6d67ebf4d768794dc65fdce1b52f858e9105883",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

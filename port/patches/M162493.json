@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.CompactSelfAdjoint",
+  "source_sha256": "2ada953b494e4654c82b3ee3a6191d94218e762d6e145d06048b690eb9c3ebb2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

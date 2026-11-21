@@ -1,0 +1,10 @@
+--- a/src/GroundTheory/AutomorphicForms/CuspidalProjection/Unfold.lean
++++ b/src/GroundTheory/AutomorphicForms/CuspidalProjection/Unfold.lean
+@@ -63,6 +63,7 @@
+   simp_rw [h]
+   exact lintegral_sub_right_eq_self (fun b => ENNReal.ofReal (β (u (-b) * z))) b'
+ 
++open scoped Pointwise in
+ theorem avgWeight_lt_top [IsFiniteMeasureOnCompacts ν] (hu : IsProperHom u) {β : G → ℝ}
+     (hβc : HasCompactSupport β) (hβ1 : ∀ x, β x ≤ 1) (z : G) : avgWeight ν u β z < ∞ := by
+   set E := {b : B | u b * z ∈ tsupport β}

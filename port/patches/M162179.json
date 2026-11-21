@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.ZeroFreeRegion.ZetaLogDerivativeBounds.NormCpowSubLePoint",
+  "source_sha256": "6db6866c4f9995a0670e02331299149db2b66484a3f92c422638c8d75608c4ec",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}

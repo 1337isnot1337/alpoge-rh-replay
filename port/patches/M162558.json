@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.DixmierMalliavinLineLimit",
+  "source_sha256": "4100464d38edb2c72b2ed8b1034f4b2b1f26f95ef6d026e6571b46d684529d67",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use pointwise almost-everywhere congruence of integrals instead of generic congruence, avoiding expensive unfolding of Fourier integrals. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0080-lean436-20261121/packet-result.json"
+}
