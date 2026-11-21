@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M062563"
+  ],
+  "started_utc": "2026-11-21T06:02:25.438701+00:00",
+  "ended_utc": "2026-11-21T06:02:50.773804+00:00",
+  "elapsed_seconds": 25.3,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6630028
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.InertFixesRootOfUnitRatioStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "552b65f979b5321bcc0397713df32098added296da4deac54815498b2e7b84f8",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.IsFirstChernClassOfLineBundle",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.InertFixesRootOfUnitRatio"
+  ],
+  "objects": {
+    "M062563": "2984dbb2cc7feedff42ae81c143318bc217040d22e06035c12867a458e793299"
+  },
+  "bundle_sha256": "bbd18aacca09580c5acd2e759cf810d8243d44bc7a17cc65ad7ec8edb1b76ddb",
+  "packet": "M062563",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14545#issuecomment-7058342450",
+  "reviewed_utc": "2026-11-21T07:00:51.556644+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

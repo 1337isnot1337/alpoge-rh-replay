@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M059944"
+  ],
+  "started_utc": "2026-11-21T06:02:04.391134+00:00",
+  "ended_utc": "2026-11-21T06:02:38.297152+00:00",
+  "elapsed_seconds": 33.9,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 6612624
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FlagMeasures.RowIsometryEntriesInModelCoordinatesStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c826e30a9f7ebd0d2b8a63f22344fb4b32c6349b8e89bf52d6785aeeea1c3d11",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.RowIsometryEntriesInModelCoordinates"
+  ],
+  "objects": {
+    "M059944": "a6bc5ea5289799024a5cfd7f8565f7ddcc7a2da72bca1e6360a06dad6c7caa8a"
+  },
+  "bundle_sha256": "2ce281fdf4b2a56fe88e7f842c9aa2e9a3595edded83e63e3f76765a9ef30c1a",
+  "packet": "M059944",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14575#issuecomment-7058354498",
+  "reviewed_utc": "2026-11-21T07:00:40.493001+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

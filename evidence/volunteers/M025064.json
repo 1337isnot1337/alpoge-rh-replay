@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M025064"
+  ],
+  "started_utc": "2026-11-21T05:55:26.524375+00:00",
+  "ended_utc": "2026-11-21T05:55:55.724164+00:00",
+  "elapsed_seconds": 29.2,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6861444
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEvalEqOfMultiplicativeOnPoints:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "538fc394a69d3f05d0a03c77306c9cfbec505884786c24a96fcc920fbff15f95",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.GroupLikeIntegralOfFiniteFree",
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.TensorEqZeroOfForallGeometricPoint"
+  ],
+  "objects": {
+    "M025064": "781e065b5a5f2988f0753d8f76d1274e0bf256c03204abd3197b4d1703562561"
+  },
+  "bundle_sha256": "278b2b7cf89de3864f6c3cf539a4d82e7b70f5e4bd70b6fd3009b31e4163e768",
+  "packet": "M025064",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14792#issuecomment-7058417457",
+  "reviewed_utc": "2026-11-21T06:59:27.224659+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

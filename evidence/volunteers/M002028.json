@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M002028"
+  ],
+  "started_utc": "2026-11-21T06:06:17.543271+00:00",
+  "ended_utc": "2026-11-21T06:07:02.262645+00:00",
+  "elapsed_seconds": 44.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5465144
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+CompanionTheory.ThickeningEstimates.LieGroupReduction.SiegelHaar:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e95ff266879b937d6dc2b04e9a789e1851739954d0ea03491adab866e3a5de3d",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.HaarProductClosedCompactHolds",
+    "Formalism.UnipotentAdelicQuotients.HaarProductClosedCompact"
+  ],
+  "objects": {
+    "M002028": "ac04f232c79fa14458d1ffea5591a9739153075c90480cc3e1f39119e4929426"
+  },
+  "bundle_sha256": "15c5cb4a567d298f280bf9699f8aea12066a9ef0ce0de8c5f1a8877dfc4cc943",
+  "packet": "M002028",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14733#issuecomment-7058405514",
+  "reviewed_utc": "2026-11-21T06:59:42.963904+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

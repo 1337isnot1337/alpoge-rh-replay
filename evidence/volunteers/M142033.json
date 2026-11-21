@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M142033"
+  ],
+  "started_utc": "2026-11-21T06:30:08.246857+00:00",
+  "ended_utc": "2026-11-21T06:30:32.175556+00:00",
+  "elapsed_seconds": 23.9,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 61933828,
+    "peak_child_rss_kib": 7541512
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.WeakApproximationFinitePlace:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c86c25ad0aedc3cc5a4a373107955c96bd29f7d9dc4bfe6bfb5c29714398b01c",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.HasLevel",
+    "Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.ThetaIdempotents.MapsExist"
+  ],
+  "objects": {
+    "M142033": "5d458eb09aa51500a8c203fd083b3bc4901f682309b949ea9ded473ea7431c42"
+  },
+  "bundle_sha256": "412f2f4b5f20f3effb26c2f7aa6a2965eee6f30211b9a737bc2dbdd070d6e129",
+  "packet": "M142033",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15473#issuecomment-7058654539",
+  "reviewed_utc": "2026-11-21T06:57:18.931857+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M163125"
+  ],
+  "started_utc": "2026-11-21T06:28:28.525994+00:00",
+  "ended_utc": "2026-11-21T06:33:11.179396+00:00",
+  "elapsed_seconds": 282.6,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 4864036
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.GlobalFields.ComplexMultiplication.IdeleActionQuotient:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9660cc4821830b39b0c0fd2163eb9d6b2a4147e343b1afe3a277bd13358db0a8",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsValuationSubLeOne",
+    "GroundTheory.GlobalFields.Adele.Approximation"
+  ],
+  "objects": {
+    "M163125": "31e1db1e1676569b1d06a14d3a926b875259b18e9190e6cb407687dc0aa6535a"
+  },
+  "bundle_sha256": "fd93a8d872e398571f8ea18fbea072bf294077edb45a046b20f5370b85d1c730",
+  "packet": "M163125",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15334#issuecomment-7058682645",
+  "reviewed_utc": "2026-11-21T06:57:40.638551+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

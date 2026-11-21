@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M036215"
+  ],
+  "started_utc": "2026-11-21T06:08:12.579960+00:00",
+  "ended_utc": "2026-11-21T06:23:23.754531+00:00",
+  "elapsed_seconds": 911.2,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 6602120
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealKilledByRingMapsWithPropertyLeKerAppStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "780eb7d10f8646437b6b0d2fe0a2ca449190cb3d5be8959987064bf1328be224",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealKilledByRingMapsWithPropertyLeKerApp",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RepresentsKillIdeal",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsCompletedStrictHens"
+  ],
+  "objects": {
+    "M036215": "bdc2000b89942310b4e0dd87d7db48ea87f0d9b6e40c4e4dca360bfe2b83d4f5"
+  },
+  "bundle_sha256": "ff454deef0dc6d16aa1af4e0c5df0972b8026d30a01acfc41d1973f757f3049b",
+  "packet": "M036215",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14886#issuecomment-7058568744",
+  "reviewed_utc": "2026-11-21T06:59:07.329739+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

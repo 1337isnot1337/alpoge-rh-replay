@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M044520"
+  ],
+  "started_utc": "2026-11-21T06:17:52.746576+00:00",
+  "ended_utc": "2026-11-21T06:18:06.393884+00:00",
+  "elapsed_seconds": 13.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6871248
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIteratedFDerivPdLe:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "494ddf0e060b1831525b406ac13e6c05fe4ca3723aac84a16e6879b906d712ef",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzSeminormTranslateSubLineDerivLe"
+  ],
+  "objects": {
+    "M044520": "45ba586d5af637fba727409a073aae4b53b3fc5a98f482d4bd3a805f563bb166"
+  },
+  "bundle_sha256": "e24a0803242b7fa36c8d0deed4e815cba65c830af6ff21c48d272ebfbdfd5e52",
+  "packet": "M044520",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14994#issuecomment-7058512073",
+  "reviewed_utc": "2026-11-21T06:58:39.612995+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

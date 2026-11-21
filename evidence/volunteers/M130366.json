@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M130366"
+  ],
+  "started_utc": "2026-11-21T06:30:03.408638+00:00",
+  "ended_utc": "2026-11-21T06:37:25.800504+00:00",
+  "elapsed_seconds": 442.4,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 3852492
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueTangentDualNumber:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "27a8813a55c27d59c17e7691cf4e77b1cc5d00276eb473c66629d0062c48d8e6",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ExistsUnitFormLocalizationEtaleNbhd",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.HasValues"
+  ],
+  "objects": {
+    "M130366": "e7679cbdf24243d020725f7a3cddafa5a500de12d08d97dcf5cd47063fbb9547"
+  },
+  "bundle_sha256": "c92c7a08dd817b91db284c95420e8aa79814c4f1f234c34d331456a49de83d1a",
+  "packet": "M130366",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15483#issuecomment-7058727707",
+  "reviewed_utc": "2026-11-21T06:57:16.235679+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

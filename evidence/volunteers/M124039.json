@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M124039"
+  ],
+  "started_utc": "2026-11-21T06:03:00.422996+00:00",
+  "ended_utc": "2026-11-21T06:03:43.368943+00:00",
+  "elapsed_seconds": 42.9,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 6506268
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.HermitianMatricesCard:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6c277354a649311b669843417f15f2aa0d86f304714041277687492c6075a276",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.CardHermitianMatricesDvdSq",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.PrimOfIsUnitDet"
+  ],
+  "objects": {
+    "M124039": "57ee26e41261f7c67cd8085cf3d9537e0ccbbffc22d6200dfa391bf66dd20c90"
+  },
+  "bundle_sha256": "361b0dc5d289ad84a5b2d1cc060125ae60e70e4505f52b49dbf393e546f78a64",
+  "packet": "M124039",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14644#issuecomment-7058351769",
+  "reviewed_utc": "2026-11-21T07:00:12.815454+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

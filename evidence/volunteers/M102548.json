@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M102548"
+  ],
+  "started_utc": "2026-11-21T06:20:34.737370+00:00",
+  "ended_utc": "2026-11-21T06:20:50.316978+00:00",
+  "elapsed_seconds": 14.9,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6878600
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.ChartSum:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "cd5bb843d7d6afacddd0e85f9a33ea43145fcc3005de5b16039f5552e34ad306",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.PredMulSumPadicValNatFactorialAddCardLe",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsUniqueFixedPointOfAdicContraction"
+  ],
+  "objects": {
+    "M102548": "e049f1f99cb576b0751c7dd2c25b39e1b32188509ab6277cefeb223872e7225e"
+  },
+  "bundle_sha256": "d4a63bf10d7a4d491cdaf116b67f56991ed2df113406b73c4b20def27e721ad1",
+  "packet": "M102548",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15026#issuecomment-7058747853",
+  "reviewed_utc": "2026-11-21T06:58:32.265509+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

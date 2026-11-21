@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M154820"
+  ],
+  "started_utc": "2026-11-21T06:29:54.800247+00:00",
+  "ended_utc": "2026-11-21T06:30:15.391596+00:00",
+  "elapsed_seconds": 19.9,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6846920
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicStableLattices.ExistsNormEqTwoPow:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3e27f2cbaec1ddd420908c3f9cb083a8d3f930f3a0981e42e089371905b67ff9",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicStableLattices.AlgebraMapMkO",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicStableLattices.RatIntOfIntegral"
+  ],
+  "objects": {
+    "M154820": "98d1c10751ddccccd682477f0b569cf799853cc21d2bf19d5740373dc27944fd"
+  },
+  "bundle_sha256": "a5c0d90a9c3c8de1ba23aa533c8e15982b416aafb199e1a4ca60229e272541b0",
+  "packet": "M154820",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15307#issuecomment-7058753843",
+  "reviewed_utc": "2026-11-21T06:57:44.097636+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

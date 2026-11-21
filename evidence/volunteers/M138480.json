@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M138480"
+  ],
+  "started_utc": "2026-11-21T05:55:27.689032+00:00",
+  "ended_utc": "2026-11-21T05:56:07.169078+00:00",
+  "elapsed_seconds": 39.5,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6860360
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.HodgeTatePoints.OfMem:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ef44868f1e3399167f00e0e48ced7e18325bb92112e91bc8e99cd33f24d26288",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IsExcisionNbhdAway",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.StdSmoothMvPolynomial"
+  ],
+  "objects": {
+    "M138480": "785290293dff42121af58a61e5db2aeebb470404689a56b27789517c9448ed0b"
+  },
+  "bundle_sha256": "f397d8f30dd732e48f7f0ad81a83f5e214e50ce49f33e25b57d113fa0128115c",
+  "packet": "M138480",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14799#issuecomment-7058421353",
+  "reviewed_utc": "2026-11-21T06:59:25.464142+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

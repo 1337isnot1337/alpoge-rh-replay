@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M142940"
+  ],
+  "started_utc": "2026-11-21T06:29:09.985205+00:00",
+  "ended_utc": "2026-11-21T06:29:33.100024+00:00",
+  "elapsed_seconds": 23.1,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 53467180,
+    "peak_child_rss_kib": 6826708
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.CompactOrbits.NilpotentOrbits.OrbitIntegrals.CentralizerRepresentatives.CbExistsChainOfGen:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4bca04bb80d2e54f4d5bfb880de2a59a4e4f052ed550a608a150cb9e83c00253",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.CompactOrbits.NilpotentOrbits.OrbitIntegrals.CentralizerRepresentatives.CbIsChainApply",
+    "Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.CompactOrbits.NilpotentOrbits.OrbitIntegrals.CentralizerRepresentatives.IsChain"
+  ],
+  "objects": {
+    "M142940": "fcb87b93ca5b1c4920becd8edf2777f00e60cce26d5bc5bdf3b796283e052f55"
+  },
+  "bundle_sha256": "24b01b4670a398a58a72e44d0400aae70248c3003d86c38983a9c4a810979e1b",
+  "packet": "M142940",
+  "contributor": "Sethumathavanpk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15427#issuecomment-7058642142",
+  "reviewed_utc": "2026-11-21T06:57:25.504792+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M038924"
+  ],
+  "started_utc": "2026-11-21T06:31:48.199962+00:00",
+  "ended_utc": "2026-11-21T06:32:04.200169+00:00",
+  "elapsed_seconds": 16.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5445928
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsRootMapMinpolyIffExistsRingHomExtensionStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ae1e6919a32372950353d839dec748d35c962ae3591fa46beb3b7ea7c5c016f8",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsRingHomCompAlgebraMapEq",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsRootMapMinpolyIffExistsRingHomExtension"
+  ],
+  "objects": {
+    "M038924": "b457937552fea35ef18d7566c6862447f96c2b2fc26cddc9ea0ffc2fa11792c9"
+  },
+  "bundle_sha256": "386998706aaadcff24b0fe13d3431b15d5d23d225c618b46ddd34c8652d0fc73",
+  "packet": "M038924",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15430#issuecomment-7058674711",
+  "reviewed_utc": "2026-11-21T06:57:24.221239+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

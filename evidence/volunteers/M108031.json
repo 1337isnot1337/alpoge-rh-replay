@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M108031"
+  ],
+  "started_utc": "2026-11-21T06:36:38.231580+00:00",
+  "ended_utc": "2026-11-21T06:36:54.198268+00:00",
+  "elapsed_seconds": 16.0,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6906116
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.SelmerScaling.EpC:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6f4f3a47e13cfc4307fa12057c99f5e9b3d5f57901213637201eb626b4fb5594",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.SelmerScaling.SelmerSpannedByKappaLaurent"
+  ],
+  "objects": {
+    "M108031": "47fd36154386a81d89c8462071c21f3fb824e82a8b6be0c32fbdbbf6411cd1fa"
+  },
+  "bundle_sha256": "ef115b7afed253b1d511a2879b0bf41db8621987665a6ebb36c5a77a6ebb2c90",
+  "packet": "M108031",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15493#issuecomment-7058741496",
+  "reviewed_utc": "2026-11-21T06:57:13.812693+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

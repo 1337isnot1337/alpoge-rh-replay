@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M109152"
+  ],
+  "started_utc": "2026-11-21T05:55:26.992572+00:00",
+  "ended_utc": "2026-11-21T05:55:52.959553+00:00",
+  "elapsed_seconds": 26.0,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6834808
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.RedDim:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "154cf15f4146f7221ce994975594364106026e6e34d9c25ae8a7efcdc9af9e2e",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.CoSpan",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.DerHom"
+  ],
+  "objects": {
+    "M109152": "1e7503822c209ad93c4fafab5b5e69187c92474f9701b7e8abf966d3f9f3d2bc"
+  },
+  "bundle_sha256": "742dce547a64ffa414811c8f8980f68374cebd0dfa505ab35cc4fba3098a376f",
+  "packet": "M109152",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14795#issuecomment-7058418988",
+  "reviewed_utc": "2026-11-21T06:59:26.545180+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

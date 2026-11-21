@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M079321"
+  ],
+  "started_utc": "2026-11-21T06:24:10.394035+00:00",
+  "ended_utc": "2026-11-21T06:24:45.607056+00:00",
+  "elapsed_seconds": 35.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5476564
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.GlueOfDenseOpenImmersion:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6cb6e4ec573a1056b88e5c10d43abf2972ddb2ba59dea80576665336b4136dc6",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.IsOpenOfMemIrreducibleComponentsOfFinite",
+    "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsIrreducibleGeneralizations"
+  ],
+  "objects": {
+    "M079321": "355cbb9f51801714a8daa023eda8a548299f9828952185d90ab6cb7a032e759d"
+  },
+  "bundle_sha256": "525947c0c5ffb1f350fc9d94f6c8dbedee9279ac71b5380bf4b28a582e17b173",
+  "packet": "M079321",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15250#issuecomment-7058602368",
+  "reviewed_utc": "2026-11-21T06:57:54.091732+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M005807"
+  ],
+  "started_utc": "2026-11-21T05:45:24.258876+00:00",
+  "ended_utc": "2026-11-21T05:45:53.751625+00:00",
+  "elapsed_seconds": 29.5,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 7131328
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.QuasiReflectionEqMulTransvectionsOfHyperbolicPla:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "587d71394ee12280e6227e6ee6cb1b0f963189cbb6e0c81d646782e6d46b8d3f",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TransvectionIdentitiesUnitaryStatement"
+  ],
+  "objects": {
+    "M005807": "9ac9b8d7580afb11e82f64b4ce1dcd22abbfd29a04fc6553fd078c344c04679b"
+  },
+  "bundle_sha256": "23ad4515e67fadd9f5d68f85dec7cd2536df206b41ba657673b923ccdc19070b",
+  "packet": "M005807",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14300#issuecomment-7058360866",
+  "reviewed_utc": "2026-11-21T07:01:28.579865+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M150434"
+  ],
+  "started_utc": "2026-11-21T05:55:25.242179+00:00",
+  "ended_utc": "2026-11-21T05:55:51.273357+00:00",
+  "elapsed_seconds": 26.0,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6867856
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.ProjectiveLattices.ModelDef:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1ce68da1146e5f41c6fb09929ba1fc229d1a4541b9f64c8a7b018948270f0fa2",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.Clauses"
+  ],
+  "objects": {
+    "M150434": "cfe6b7643212a8af17543c9e80dda2740ceabc1c93435e3cda00e30af02940ae"
+  },
+  "bundle_sha256": "b83180de8e3a34d46eb8d7b6f73eb119c42b67c283342b92dee0b43156681354",
+  "packet": "M150434",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14786#issuecomment-7058412749",
+  "reviewed_utc": "2026-11-21T06:59:28.757115+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

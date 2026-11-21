@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M096717"
+  ],
+  "started_utc": "2026-11-21T06:22:18.942763+00:00",
+  "ended_utc": "2026-11-21T06:27:27.570374+00:00",
+  "elapsed_seconds": 308.6,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 5013252
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.RealIsotropicOrOneClass:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6a04610506b82a023655627a1067ff3d6fabedc2482abce0e7afd6cbbade55b4",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.IsHermHyperbolic",
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TransvectionIdentitiesUnitary"
+  ],
+  "objects": {
+    "M096717": "8fe0e2a800151c5c6eab79509dd0f15102b6331dcaac9075c50a9c49a0ed0ab9"
+  },
+  "bundle_sha256": "d8014bead35f8c2a481c86be99bc4a37a08bc25b55f26378f774232f58eba17a",
+  "packet": "M096717",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15256#issuecomment-7058620963",
+  "reviewed_utc": "2026-11-21T06:57:54.906544+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

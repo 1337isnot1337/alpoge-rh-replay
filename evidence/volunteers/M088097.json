@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M088097"
+  ],
+  "started_utc": "2026-11-21T05:55:25.672264+00:00",
+  "ended_utc": "2026-11-21T05:56:05.122216+00:00",
+  "elapsed_seconds": 39.4,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6852624
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.InertiaElementEqOneOrLiesAboveFinitePlace:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1429d01bbb0df91562d6e84e0e7cbb6d47da64e5499547de07a2030e09b95063",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.NeutralLocalFields.HilbertClassField",
+    "ReciprocityTheory.ReductiveGroups.UnramifiedIntegrals.ModGBasic",
+    "ReciprocityTheory.ReductiveGroups.UnramifiedIntegrals.ModGDefs"
+  ],
+  "objects": {
+    "M088097": "dbc0bc6aca3d28b744c11ab1f6cc174c6aeaa5d888d3f1d1273e35939f4d1286"
+  },
+  "bundle_sha256": "ac50abf12be3cd0e8a51c4a7dab446c889b4912809cdb963049bc943abd21926",
+  "packet": "M088097",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14788#issuecomment-7058414355",
+  "reviewed_utc": "2026-11-21T06:59:28.372279+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

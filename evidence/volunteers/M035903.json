@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M035903"
+  ],
+  "started_utc": "2026-11-21T06:22:16.431153+00:00",
+  "ended_utc": "2026-11-21T06:26:07.380931+00:00",
+  "elapsed_seconds": 230.9,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 3675596
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.HolomorphicVanishingDivisibleCoordStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2ddf21acea4cc05971d640be602d8d3584ee72f5637961c92ec95e326cd6fbcd",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HolomorphicVanishingDivisibleCoord"
+  ],
+  "objects": {
+    "M035903": "f3d1d2722624ac464eb8aacfbe420bd2d29e0ec074e1137c45ff70be99f51328"
+  },
+  "bundle_sha256": "31755475b4e046ada6641b63c8147d2a2da657f487ebba00a2d818e03a8cf470",
+  "packet": "M035903",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15213#issuecomment-7058602440",
+  "reviewed_utc": "2026-11-21T06:58:00.905067+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

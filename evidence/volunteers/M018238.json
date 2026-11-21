@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M018238"
+  ],
+  "started_utc": "2026-11-21T05:48:28.189999+00:00",
+  "ended_utc": "2026-11-21T05:48:43.743229+00:00",
+  "elapsed_seconds": 15.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6879752
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffNormFormOfFamilyMemRangeIntegrallyClosed:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "324766e7c06adc11680db2ba9410b435c14795c12ac104ba4292a979773bed36",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AlgebraMapNormCoeff",
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.CharpolyDvdPowFinrankOfAevalEqZero"
+  ],
+  "objects": {
+    "M018238": "d051d6cebe1c2063499389a1b4e82b6470290233624c8acce2cce95aca7fa4ce"
+  },
+  "bundle_sha256": "2bef1cb46172d48aea93b1c12d41df0cc2dea9cacba83373dbf64dfead112bc0",
+  "packet": "M018238",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14333#issuecomment-7058432491",
+  "reviewed_utc": "2026-11-21T07:01:14.438062+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

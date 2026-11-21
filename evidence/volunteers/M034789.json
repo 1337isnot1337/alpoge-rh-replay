@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M034789"
+  ],
+  "started_utc": "2026-11-21T06:30:55.643758+00:00",
+  "ended_utc": "2026-11-21T06:31:28.398872+00:00",
+  "elapsed_seconds": 32.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5493736
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumGaussianConvolutionSeriesTermIntegralStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "45dc087035c823139d5d3fc8b6af85a0925808784e4c9cd326a937b677eb9191",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumGaussianConvolutionSeriesTermIntegral",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PowForm"
+  ],
+  "objects": {
+    "M034789": "d1220e5f4dea5a217e0c2d3ffacb1d8d35b3d98cb41944c580f8928e8af0d3b9"
+  },
+  "bundle_sha256": "ab7f458324579ff1ca38ca5cb0f657e2160c02ced49e2e11890752b040238742",
+  "packet": "M034789",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15342#issuecomment-7058665406",
+  "reviewed_utc": "2026-11-21T06:57:38.530277+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

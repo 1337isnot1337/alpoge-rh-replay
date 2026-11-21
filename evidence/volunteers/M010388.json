@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M010388"
+  ],
+  "started_utc": "2026-11-21T06:19:06.636598+00:00",
+  "ended_utc": "2026-11-21T06:19:29.716047+00:00",
+  "elapsed_seconds": 23.1,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 53467180,
+    "peak_child_rss_kib": 6826708
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MatrixIntegralOfAddCharTraceDualStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6e4efc926837e6ff65e06e468cb61434be1e43c25fe44ac599cd1ca248afee27",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.MatrixMeasurableSpace",
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MatrixIntegralOfAddCharTraceDual"
+  ],
+  "objects": {
+    "M010388": "f9108ac808c9e08c884af5341b7a233a9a020c6a99d1360853fba56fc6c8267b"
+  },
+  "bundle_sha256": "17b2636c4cb0b0b091359e9b1dfd3255a9cda98010e9b1b6d3440da03aeee78f",
+  "packet": "M010388",
+  "contributor": "Sethumathavanpk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15154#issuecomment-7058524538",
+  "reviewed_utc": "2026-11-21T06:58:09.942026+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

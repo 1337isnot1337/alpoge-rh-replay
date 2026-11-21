@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M089442"
+  ],
+  "started_utc": "2026-11-21T06:01:20.132287+00:00",
+  "ended_utc": "2026-11-21T06:01:40.721181+00:00",
+  "elapsed_seconds": 20.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 6524932
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.SplitPlaceGoodSignature:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6e7049b6684b23c2beb46d348426fb9bac2eb149c1c9289938ee6acabeff3b53",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.ThetaLiftOfEachRow",
+    "Development.AbelianVarietyTheory.Definitions.GaloisGeometry.SplitLiftOfLiftParam"
+  ],
+  "objects": {
+    "M089442": "3ca3369508f59abbcfa42946312a1f19ccd681c4ed4a5e394ee4b83201a8ae46"
+  },
+  "bundle_sha256": "64788a1fa8b55cff6f8f3f88c1debf41a20ff296d493275d0738a15806e16a9f",
+  "packet": "M089442",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14559#issuecomment-7058350280",
+  "reviewed_utc": "2026-11-21T07:00:46.449018+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

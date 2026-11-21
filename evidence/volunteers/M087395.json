@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M087395"
+  ],
+  "started_utc": "2026-11-21T06:10:16.536846+00:00",
+  "ended_utc": "2026-11-21T06:11:00.434728+00:00",
+  "elapsed_seconds": 43.9,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 8127348,
+    "peak_child_rss_kib": 5982248
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsIntPolyEsymmEqPowerSumMultiset:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "dcd80914ad5a1b4cb376eb0a58ec9866788cd1a7049874f1abaabb83794dd826",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.GaloisGeometry.PolyApproxZeroPadic",
+    "Development.AbelianVarietyTheory.Proofs.SatakeParameters.NormAevalSubLe"
+  ],
+  "objects": {
+    "M087395": "f2f3d84a41b6b509e37e939e64e36e7dfc9d903abcda59c92ddc05a9edb130fb"
+  },
+  "bundle_sha256": "3af5e38c238943e52f529176e817b0284efc1f16d7602673e4df4dfbe6342ade",
+  "packet": "M087395",
+  "contributor": "jjjhenriksen",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13871#issuecomment-7058431431",
+  "reviewed_utc": "2026-11-21T07:01:37.497031+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

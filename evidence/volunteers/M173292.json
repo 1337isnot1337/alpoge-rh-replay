@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M173292"
+  ],
+  "started_utc": "2026-11-21T06:00:42.981968+00:00",
+  "ended_utc": "2026-11-21T06:01:58.116823+00:00",
+  "elapsed_seconds": 75.1,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6645696
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.OrthogonalProjectorMulEmbeddingColumns:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8d7b90891bfb4d41e5872448b5a32e4ff5d1b5f406ff1e9f7c2167542774551f",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.SemistableReduction.LatSemiSt",
+    "ReciprocityTheory.SemistableReduction.TorsionNonvanishStatement"
+  ],
+  "objects": {
+    "M173292": "4090a3a04bcf7c8905f706804d60836106b7867d1befd99995e85f775537a04f"
+  },
+  "bundle_sha256": "9300d731335bfa8b58ae11c4d158b840a1e83e2c33ef567c1fc4118db5fd764b",
+  "packet": "M173292",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14538#issuecomment-7058333036",
+  "reviewed_utc": "2026-11-21T07:00:54.364967+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

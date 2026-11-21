@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M038583"
+  ],
+  "started_utc": "2026-11-21T05:47:38.337148+00:00",
+  "ended_utc": "2026-11-21T05:47:48.434255+00:00",
+  "elapsed_seconds": 10.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6792064
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsNormalSchemePullbackSpMapOfAlgebraStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1639bc1e55ec1718263c8603001990b08e1b4a2c31d3dc0e7147e7e9f5ddecab",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsNormalSchemePullbackSpMapOfAlgebra"
+  ],
+  "objects": {
+    "M038583": "5efa669ff3523274fa3ebbb9215abb0c9b434459b1330287af26cc5ae083f679"
+  },
+  "bundle_sha256": "5dde58f251ea9132945d5df40e5a9945ccbf9f7468d00ca49e28c7dd0bb0ca92",
+  "packet": "M038583",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14303#issuecomment-7058363798",
+  "reviewed_utc": "2026-11-21T07:01:24.906766+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

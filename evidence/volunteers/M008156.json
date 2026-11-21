@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M008156"
+  ],
+  "started_utc": "2026-11-21T06:02:04.405434+00:00",
+  "ended_utc": "2026-11-21T06:02:38.781835+00:00",
+  "elapsed_seconds": 34.3,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7405332
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CuspFormsArchimedeanKFiniteStarCompMemStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b3970a140275cd5f824f5a3dbcf6eb17d7d484800ff03e56f5b38903b0cd84ec",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.CuspFormsArchimedeanKFiniteStarCompMem"
+  ],
+  "objects": {
+    "M008156": "704e746ea44996e49f248300b3acbd718b25f92673353479ccd1d4746adb09fb"
+  },
+  "bundle_sha256": "692c0d0305791315e9297e5be82f1af59125eaffb80a000bacde1a6c38024423",
+  "packet": "M008156",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14569#issuecomment-7058352735",
+  "reviewed_utc": "2026-11-21T07:00:41.953242+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

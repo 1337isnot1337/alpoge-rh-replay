@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M085048"
+  ],
+  "started_utc": "2026-11-21T06:07:02.603810+00:00",
+  "ended_utc": "2026-11-21T06:08:44.012351+00:00",
+  "elapsed_seconds": 101.4,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6944244
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsIsDerivAt0NotIsDerivAlong:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c733826ce24497883f47c471e2bcd99ab9f4fff13b3a9939d2b7d4c4bc741d10",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.IsLocallyConstantRankAtStalkEigenSub",
+    "Development.AbelianVarietyTheory.Proofs.ToricGeometry.ExistsEquivOfSumEq",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsHolPeriods"
+  ],
+  "objects": {
+    "M085048": "145b194e9ef13ba7850af28b9cff1dafb6aa1b9121365ef3209d387a0504019e"
+  },
+  "bundle_sha256": "2d2b3fc802585e78011cd60316d446b2fecf9e25644da993ebc400650de742fd",
+  "packet": "M085048",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15051#issuecomment-7058525790",
+  "reviewed_utc": "2026-11-21T06:58:25.400674+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

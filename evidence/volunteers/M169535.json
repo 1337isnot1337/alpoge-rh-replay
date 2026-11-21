@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M169535"
+  ],
+  "started_utc": "2026-11-21T06:32:53.316172+00:00",
+  "ended_utc": "2026-11-21T06:33:12.348316+00:00",
+  "elapsed_seconds": 19.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5496624
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.WeightedScaling:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "56028a542602e2fc4fd86ff60341ffa957351099b2344b46d22ce64a31093746",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.FiniteCovolume.IsClosedUnitaryOfComplex",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.StrongApproximation.SAOpenStatement"
+  ],
+  "objects": {
+    "M169535": "11791024c28b2c95925be23db5a4e4ab89032de609aa09c3faf4f80afae1c544"
+  },
+  "bundle_sha256": "48a1174c289bed6a81d8843607988fd9d0c7c67206df48aa87ab2d7c51056326",
+  "packet": "M169535",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15482#issuecomment-7058685404",
+  "reviewed_utc": "2026-11-21T06:57:15.155254+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

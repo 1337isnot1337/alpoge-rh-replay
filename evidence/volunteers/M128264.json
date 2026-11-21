@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M128264"
+  ],
+  "started_utc": "2026-11-21T06:05:50.999524+00:00",
+  "ended_utc": "2026-11-21T06:06:14.395260+00:00",
+  "elapsed_seconds": 23.4,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 53467180,
+    "peak_child_rss_kib": 6823700
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingGaloisEquivariantStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f8ba4e8a87a2b52e54515562db3b872ffc3ede88f49b03d41c82837ed06ca32d",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingGaloisEquivariant",
+    "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.FrobeniusWittActions.PsiApply"
+  ],
+  "objects": {
+    "M128264": "ef8d00e833e493c7b47e6c61c7014c28560a74696bba4289a03b595a0c7e465e"
+  },
+  "bundle_sha256": "3dbf577ec273d718b0b50feabcbd85eeeb4dcafaba7dcffbc902a9174e6bbc89",
+  "packet": "M128264",
+  "contributor": "Sethumathavanpk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14834#issuecomment-7058378823",
+  "reviewed_utc": "2026-11-21T06:59:19.693225+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

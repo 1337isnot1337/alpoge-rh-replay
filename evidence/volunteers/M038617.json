@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M038617"
+  ],
+  "started_utc": "2026-11-21T06:02:19.949969+00:00",
+  "ended_utc": "2026-11-21T06:02:47.726758+00:00",
+  "elapsed_seconds": 27.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5428520
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenImmersionSpecOfQuasiFiniteOfNormalStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "770db03667837d0266f3bb5e610ef57e17d7fb600a63fb3098b8906031d8982a",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenImmersionSpecOfQuasiFiniteOfNormal",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.BijectiveAlgebraMapIntegralClosureOfBirational"
+  ],
+  "objects": {
+    "M038617": "1feaafaffff3e6854dcdeda06bf7fc7b88c9ddf64286bde033b54b8741bf4c04"
+  },
+  "bundle_sha256": "815782e95c2e70e012dfd92e91a790250eb6e9e7b8af18087afca9728324687e",
+  "packet": "M038617",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14585#issuecomment-7058355605",
+  "reviewed_utc": "2026-11-21T07:00:33.650984+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

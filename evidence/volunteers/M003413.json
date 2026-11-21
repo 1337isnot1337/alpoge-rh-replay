@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M003413"
+  ],
+  "started_utc": "2026-11-21T06:17:24.955457+00:00",
+  "ended_utc": "2026-11-21T06:18:22.349462+00:00",
+  "elapsed_seconds": 57.4,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 61933828,
+    "peak_child_rss_kib": 6869596
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.Divisors.AnalyticChartsRealizationCompPointEq:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a5c51131fc55af5c7ee0473399eb6abe700d1f7bd5c3599c3dc3abf7b8f73b07",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.EllFamNontrivial",
+    "Development.AbelianVarietyTheory.Definitions.Divisors.FderivFnCongr"
+  ],
+  "objects": {
+    "M003413": "2e515fee7655b5d080cb3692467252a0eb0236662b702394f7e59d3b3d65d887"
+  },
+  "bundle_sha256": "45208843376108187cfb52847e0e6c2b0cccb2b7cb896131f72c4f34bd2a7878",
+  "packet": "M003413",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15056#issuecomment-7058513715",
+  "reviewed_utc": "2026-11-21T06:58:24.189066+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M034382"
+  ],
+  "started_utc": "2026-11-21T06:07:13.938969+00:00",
+  "ended_utc": "2026-11-21T06:20:51.189963+00:00",
+  "elapsed_seconds": 817.2,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5532552
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLComm:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e174fd92e19a30021a7f185bc5ff5064fac7db2e822d4e5890e9f876842768bc",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.CommutativeAlgebra.AbByPOfComm",
+    "Development.AbelianVarietyTheory.Definitions.Divisors.OrthSubrepresentation",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsBilinCyclic"
+  ],
+  "objects": {
+    "M034382": "246a4bb867bec64b70ad296b78d62c16fd8eb2bc0220d1e1ff1265457c07a9d0"
+  },
+  "bundle_sha256": "b70b479fb46d4e1ddf01102b3277d948404bb926faa3f990bde53029d73a2ccc",
+  "packet": "M034382",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14884#issuecomment-7058540329",
+  "reviewed_utc": "2026-11-21T06:59:07.599099+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M061206"
+  ],
+  "started_utc": "2026-11-21T06:30:34.458812+00:00",
+  "ended_utc": "2026-11-21T06:37:41.088159+00:00",
+  "elapsed_seconds": 426.6,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 3019744
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.CthFacMultipliable:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ab044da692aef5e3b2061d49d56d422fd37e98b819d4b95bff1ca5b087cf082e",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.CthFac",
+    "Development.AbelianVarietyTheory.Definitions.Foundations.Imports"
+  ],
+  "objects": {
+    "M061206": "893305ffe79ffd28d1b0da6b7b0354a0ef000eb895167b65e35354f5fa3ad2f6"
+  },
+  "bundle_sha256": "3e8221d81af845e716d63c4196814ee35e8325dea8ec33105d1c71f79c7758bd",
+  "packet": "M061206",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15495#issuecomment-7058731333",
+  "reviewed_utc": "2026-11-21T06:57:13.418735+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

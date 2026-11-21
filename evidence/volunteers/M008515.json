@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M008515"
+  ],
+  "started_utc": "2026-11-21T06:29:20.546060+00:00",
+  "ended_utc": "2026-11-21T06:29:58.221537+00:00",
+  "elapsed_seconds": 37.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 63244532,
+    "peak_child_rss_kib": 10139576
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCompactOpenLatticeStabilizerAtPlaces:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "38ec6642f2ea1d7b2b20506f9412b5a6318dc2a5f5eae18ec1a356c2971ef5c3",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InLatticeStabilizerAtPlaceOfSupportedStabilizer"
+  ],
+  "objects": {
+    "M008515": "32562af55ea2bb84220dac757fb5fb83c107746217fb945fda60b45a3115cc66"
+  },
+  "bundle_sha256": "4fb8ddd9b777801457ac57a56fbdb70f9e9adeb90179d3811235b150c93de19c",
+  "packet": "M008515",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15417#issuecomment-7058647155",
+  "reviewed_utc": "2026-11-21T06:57:28.261630+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

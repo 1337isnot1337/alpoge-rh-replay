@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M084560"
+  ],
+  "started_utc": "2026-11-21T06:31:06.489805+00:00",
+  "ended_utc": "2026-11-21T06:38:05.309491+00:00",
+  "elapsed_seconds": 418.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 5027880
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.JetHarmonics.TwistedMeasureMomentsEqShiftedSeriesJetsStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1125feeca59dfa1249594b87d09b559676af5c544e74c61f17c6aa08b461e686",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.ConstantCoeffShiftS",
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.TwistedMeasureMomentsEqShiftedSeriesJets"
+  ],
+  "objects": {
+    "M084560": "d4b2831277b99c8a28f94a398053a86ea497aa8332a847d508763fd163a3cca9"
+  },
+  "bundle_sha256": "129af3b62614b1ceebc7bc18857925549a7af1b5292bc020f9063c703ce4c65c",
+  "packet": "M084560",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15522#issuecomment-7058734517",
+  "reviewed_utc": "2026-11-21T06:57:11.703001+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

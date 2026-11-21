@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M071485"
+  ],
+  "started_utc": "2026-11-21T06:09:45.872418+00:00",
+  "ended_utc": "2026-11-21T06:13:33.893032+00:00",
+  "elapsed_seconds": 228.0,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsClosedEmbeddingDiagOneUnitaryGroupEmbedding:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 5077360
+  },
+  "source_sha256": "a092c25668a34b47b8fbeb7b40bc1eca449f9b3187ac60aca4ccc552d64a2a6d",
+  "log_sha256": "5f6d6f419a630fb5fc696aed65186b0013abd404687516d270848fba5dd88a2e",
+  "objects": {
+    "M071485": "acfb4bd4ce1f40b1e1eb1da1458b699170d0ae86d6a93cb84d6181b76136beb6"
+  },
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.FourierMatch",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FullToGlIsSelfAdjoint"
+  ],
+  "bundle_sha256": "228bc0bd35bd3a223f6f04b2bf8776acec27379f06199492584f33de9128a951",
+  "packet": "M071485",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14857#issuecomment-7058469504",
+  "reviewed_utc": "2026-11-21T06:59:13.383524+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

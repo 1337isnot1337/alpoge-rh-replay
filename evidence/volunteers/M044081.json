@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M044081"
+  ],
+  "started_utc": "2026-11-21T06:02:21.114205+00:00",
+  "ended_utc": "2026-11-21T06:02:40.191236+00:00",
+  "elapsed_seconds": 19.1,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6635608
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.MvPolynomialEqZeroOfVanishSkewHermitianStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e177fe4ed3dc42d6590c0461fd52e44db8bc1348b6bc027750b141df7588c422",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MvPolynomialEqZeroOfVanishSkewHermitian"
+  ],
+  "objects": {
+    "M044081": "807c4b3a1efbef20ec6ebc50c02aac1a546b0d5f267f5c4302711c9cf8fcfda8"
+  },
+  "bundle_sha256": "6b50772d6cae4af274c9342051fe4f626c4341c43430d7b5feca4842936a6e5f",
+  "packet": "M044081",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14542#issuecomment-7058340572",
+  "reviewed_utc": "2026-11-21T07:00:52.282306+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

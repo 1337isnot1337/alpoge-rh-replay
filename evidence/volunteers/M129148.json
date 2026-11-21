@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M129148"
+  ],
+  "started_utc": "2026-11-21T06:23:32.326999+00:00",
+  "ended_utc": "2026-11-21T06:23:49.968352+00:00",
+  "elapsed_seconds": 17.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5418960
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.DominantPartialSumBounds:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "cf8954dc48782ff3e632bc494697d659f3eecafb967a7eaa127411d74e124e6b",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.CoreStatements.FlagImmersions.PartialSumOrderedBounds"
+  ],
+  "objects": {
+    "M129148": "56a9517f58c981fed7192df2a381cd9352cb5093e3396d6098e637f5a11249bd"
+  },
+  "bundle_sha256": "2c427bc8e9e13a780ed6c5be638cf6959eff2734b73101e0f07b153130a4a4d5",
+  "packet": "M129148",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15225#issuecomment-7058578808",
+  "reviewed_utc": "2026-11-21T06:57:57.489293+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

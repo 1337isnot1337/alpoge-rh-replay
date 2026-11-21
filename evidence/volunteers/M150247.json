@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M150247"
+  ],
+  "started_utc": "2026-11-21T06:30:09.249629+00:00",
+  "ended_utc": "2026-11-21T06:30:38.266675+00:00",
+  "elapsed_seconds": 29.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 61933828,
+    "peak_child_rss_kib": 7054988
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.ProjectiveLattices.ArchimedeanQuadraticData.MaximalCuspKernels.KerExistsStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9a0ad33bf9cceae69a8ce32c63b8317823258c336d0cc9d54176c96763c74214",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.ProjectiveLattices.ArchimedeanQuadraticData.ArcLineFunctions.QbridgeOf"
+  ],
+  "objects": {
+    "M150247": "fb096a27c6eea89ef650f41f11aa54ac1a6d0e0cd4cfaad7f95904a7dee1a10a"
+  },
+  "bundle_sha256": "cdf82e99fabc596ed0f3595aa4852bed4fa85fbf9a53278953f941c29fcc245a",
+  "packet": "M150247",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15476#issuecomment-7058657027",
+  "reviewed_utc": "2026-11-21T06:57:17.378187+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

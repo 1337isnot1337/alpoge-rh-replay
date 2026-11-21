@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M036233"
+  ],
+  "started_utc": "2026-11-21T06:22:31.693862+00:00",
+  "ended_utc": "2026-11-21T06:22:45.580574+00:00",
+  "elapsed_seconds": 13.9,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6849224
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealRepresentsOfAwayCoverStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "acbbaa2cd6dd3e40586241145f34f77fbbd7f7911223f91652cb5073e2bee9d6",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealRepresentsOfAwayCover",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RepresentsKillIdeal"
+  ],
+  "objects": {
+    "M036233": "6d00f84059921f4b640f2706e29e7852ea563b320bcd76e9fb6f5f88faa14421"
+  },
+  "bundle_sha256": "4c2f72f498eefb3f414c9f9bbd7be852f2e2e53ed54820ccdf920a945f1d2d54",
+  "packet": "M036233",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15053#issuecomment-7058789442",
+  "reviewed_utc": "2026-11-21T06:58:24.811666+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M166101"
+  ],
+  "started_utc": "2026-11-21T05:55:25.866852+00:00",
+  "ended_utc": "2026-11-21T05:56:04.831563+00:00",
+  "elapsed_seconds": 39.0,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6886052
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.HeightKernels.PChartHessCompare:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "20d4555119121524188086c4bab44aa21d0f4b1bc2bbcbcb36bf64a191b1b788",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.ChartGramHess",
+    "GroundTheory.HeightsAndTheta.Heights.HeightKernels.StatementsChartHessCompare",
+    "GroundTheory.HeightsAndTheta.Heights.HeightKernels.StatementsHermFormCompare"
+  ],
+  "objects": {
+    "M166101": "f522ce2827562273e9572f8ec18e8850e11fe0476148804d3545153f14200567"
+  },
+  "bundle_sha256": "2b3f590f57b48827066458ac1f89fa83cf17584330da98f44404e9d6deef586f",
+  "packet": "M166101",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14789#issuecomment-7058415085",
+  "reviewed_utc": "2026-11-21T06:59:28.109045+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

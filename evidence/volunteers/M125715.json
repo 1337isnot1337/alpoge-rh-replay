@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M125715"
+  ],
+  "started_utc": "2026-11-21T06:05:51.047165+00:00",
+  "ended_utc": "2026-11-21T06:06:20.112056+00:00",
+  "elapsed_seconds": 29.1,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 23809704,
+    "peak_child_rss_kib": 6912520
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MeasurableEmbeddingOfInjectiveProperStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "685a07a2fe9ce32857b5e2420b913c4b32066b18c80e627bf11ee7e94e3cb1af",
+  "rebuilt_project_modules": [
+    "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ContinuousDensitiesEqOfIntegralsOnCompacts",
+    "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ContinuousDensitiesEqOfIntegralsOnCompactsStatement",
+    "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.DisintegrationDensityExists",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MeasurableEmbeddingOfInjectiveProper",
+    "Formalism.SatakeDualWeyl.Statement",
+    "Formalism.SharpRestriction.GlobalSchurBounds.GeneralLinearActions.GenusMassVolumes",
+    "Formalism.UnipotentAdelicQuotients.SWXSDefs"
+  ],
+  "objects": {
+    "M125715": "96d84b2b1f0bedfd5050534a8a118f39456116baad8f1927204f46676bfec9ed"
+  },
+  "bundle_sha256": "03c00e48823a8e991db117820542e8e6cca65f2b5dbea9e3d2ff30a21c7aa573",
+  "packet": "M125715",
+  "contributor": "matan1905",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14824#issuecomment-7058385526",
+  "reviewed_utc": "2026-11-21T06:59:22.822755+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

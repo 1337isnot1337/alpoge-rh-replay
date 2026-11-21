@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M032405"
+  ],
+  "started_utc": "2026-11-21T06:07:13.709019+00:00",
+  "ended_utc": "2026-11-21T06:22:11.015646+00:00",
+  "elapsed_seconds": 897.3,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5746168
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatOfLocalRetractionsModMaximalIdealPow:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ecf806ef0308c9a63cfe7c92382a78189242ce81829e7a459fbe427f2b151d4b",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsMemPowSubMemPowSucc",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.IdealEqBotOfFlatQuotientOfMapMaximalIdeal",
+    "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsUniqueFactorCompletedStalkOfMap"
+  ],
+  "objects": {
+    "M032405": "e66841136ca9c4990526b530834f95b0dafbc77d81800369aa27c35fd7ad96d0"
+  },
+  "bundle_sha256": "c7ef1a9cb6cd94f2e774002e43b57b9818fdf805890dc4bf0663617576079272",
+  "packet": "M032405",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14887#issuecomment-7058555463",
+  "reviewed_utc": "2026-11-21T06:59:07.343577+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

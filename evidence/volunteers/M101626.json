@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M101626"
+  ],
+  "started_utc": "2026-11-21T06:19:56.379193+00:00",
+  "ended_utc": "2026-11-21T06:20:12.112712+00:00",
+  "elapsed_seconds": 15.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6830144
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.QRegPS:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f563a29a9e8042211ae8c0c1a27aa9face7a7ec214688ad5633709565c009134",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.IsQuasiRegularSeqSelfIffLocalizationMaximal",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.UltraDefs"
+  ],
+  "objects": {
+    "M101626": "1607824999aae40833be48bfefccfad5803943a22e94feefbfab44142e394456"
+  },
+  "bundle_sha256": "f6ce7866f5a5f31de58971b782ab1d7a80c37c8f45797453007fb300908c3e33",
+  "packet": "M101626",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15019#issuecomment-7058535369",
+  "reviewed_utc": "2026-11-21T06:58:34.066865+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

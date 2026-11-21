@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M132192"
+  ],
+  "started_utc": "2026-11-21T05:56:50.147819+00:00",
+  "ended_utc": "2026-11-21T05:57:29.152632+00:00",
+  "elapsed_seconds": 39.0,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6893948
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.ThetaFunctionsFiniteDimStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f6d186d6d3e8f5d0d44f182b47d73c414bb43c66a0242e1a177d7ba8d4fc71cc",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.ToricGeometry.ReFormPosOfThetaNeZero",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.HodgeIPIffHodgeFormConj",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ThetaFunctionsFiniteDim",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.IsIntersectionFamily"
+  ],
+  "objects": {
+    "M132192": "a0bb7188dd809edc077de7a783f45b0da6edb71b8f590f04f78181b274e8fa09"
+  },
+  "bundle_sha256": "2f209807bc2e29da7642b19eb95b5212e847ef678f4cb5661768bfd782c50b38",
+  "packet": "M132192",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14827#issuecomment-7058422215",
+  "reviewed_utc": "2026-11-21T06:59:21.466248+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M002074"
+  ],
+  "started_utc": "2026-11-21T05:47:47.263060+00:00",
+  "ended_utc": "2026-11-21T05:48:02.714109+00:00",
+  "elapsed_seconds": 15.5,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6832344
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.BlockTheory.CMModuli.PolarizationCorrespondence:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1c1b5411ed1dbfa43854a8d4fc0dbfd23569b29f5c31e8e4d6b6a1eeec1b9ceb",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsGrpPullback",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.CubicalStructures.CubicalPullBaseChangeSt"
+  ],
+  "objects": {
+    "M002074": "02ea513d10f2fc657b7a50eb6884d8bde4b53ca5f6211943d9e6301db9aea57d"
+  },
+  "bundle_sha256": "d990163017768cbe9ed492cb25f1249c2629d38a0604b7508d6fe7696c21a58f",
+  "packet": "M002074",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14310#issuecomment-7058380145",
+  "reviewed_utc": "2026-11-21T07:01:22.820235+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

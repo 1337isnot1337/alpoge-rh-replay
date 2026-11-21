@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M099850"
+  ],
+  "started_utc": "2026-11-21T06:22:21.099343+00:00",
+  "ended_utc": "2026-11-21T06:22:33.722400+00:00",
+  "elapsed_seconds": 12.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6908444
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.UnitaryExistence.IsIntegralAndIsNormalSchemeOfSmoothDvr:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2d5e87282a53ea9e0fa4f710ac29b0d2e751fde371c9c5dbde4c69a0aa1d1c35",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsDomainAndIsIntegrallyClosedAtPrimeOfSmoothOfCo"
+  ],
+  "objects": {
+    "M099850": "5914df135cc676bb45e7095fb3c2811fdfb6c7a53f1d7c68fc387ac0b8496ea6"
+  },
+  "bundle_sha256": "300612c0f93f8624858bd4e8ad0dcf570c5d673b08d10cde4c4bf1d2d0c50f54",
+  "packet": "M099850",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15032#issuecomment-7058773787",
+  "reviewed_utc": "2026-11-21T06:58:31.081589+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

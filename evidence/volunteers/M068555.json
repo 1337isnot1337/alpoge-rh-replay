@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M068555"
+  ],
+  "started_utc": "2026-11-21T06:26:35.834172+00:00",
+  "ended_utc": "2026-11-21T06:28:26.586583+00:00",
+  "elapsed_seconds": 110.7,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 5305104
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsAevalEqOfCharpolySeparableInvolutionStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "916a4199dc1e8fb5689b758b9abeb6b95b6aeb2a1f9f7f6b8e7923149a92bc28",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.UnitLemmaGroup",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsAevalEqOfCharpolySeparableInvolution"
+  ],
+  "objects": {
+    "M068555": "1f0b3d153a0141be0563b7466128741dd3d60749a090df3c10b953ee1e550420"
+  },
+  "bundle_sha256": "def20b2e23b0e581fae03da4ddac33d006b162ffe43124053a14a7e4083c247f",
+  "packet": "M068555",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15260#issuecomment-7058630997",
+  "reviewed_utc": "2026-11-21T06:57:53.803887+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

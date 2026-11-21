@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M015183"
+  ],
+  "started_utc": "2026-11-21T05:35:43.853006+00:00",
+  "ended_utc": "2026-11-21T06:31:06.909750+00:00",
+  "elapsed_seconds": 3323.0,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 7931936,
+    "peak_child_rss_kib": 4000032
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.AffineHilbertIdealSheafOfQuotientIdealTop:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6aafdaa4b12258759d440cbc90640ad739e85b33a7749971ce8491f0be2f1681",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqOfSecAlgTop",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.KappaApplyEq"
+  ],
+  "objects": {
+    "M015183": "82d0576d48a708ab21552f82fbd149861785240837de4b83090b9856f9d3687e"
+  },
+  "bundle_sha256": "4008765ff4a5bb6405fb17f4240749a8199989c936273d53a8833489c742f554",
+  "packet": "M015183",
+  "contributor": "chriswilson413",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14161#issuecomment-7058660151",
+  "reviewed_utc": "2026-11-21T07:01:31.387323+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M171588"
+  ],
+  "started_utc": "2026-11-21T06:21:28.910864+00:00",
+  "ended_utc": "2026-11-21T06:21:55.301659+00:00",
+  "elapsed_seconds": 26.4,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5440448
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ClassFieldTheory.GlobalClassField.AsGabLimB:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b53eb0e707cd319e1d070276cb8838f3ecc069dda80a4f407db448ff8b954d66",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ClassFieldTheory.GlobalClassField.AsGabLim",
+    "ReciprocityTheory.NeutralLocalFields.Reciprocity"
+  ],
+  "objects": {
+    "M171588": "a8a842cbf5077dbf39eed0af91085cb042271bd60b7e1aa175e49aeea6a29479"
+  },
+  "bundle_sha256": "4b88839940e092d1ad419dcc46293e667e3c7309c83184e83cb48f30883e4609",
+  "packet": "M171588",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15208#issuecomment-7058564057",
+  "reviewed_utc": "2026-11-21T06:58:00.589688+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

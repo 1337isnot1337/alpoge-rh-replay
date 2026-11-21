@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M071401"
+  ],
+  "started_utc": "2026-11-21T06:07:47.863763+00:00",
+  "ended_utc": "2026-11-21T06:08:34.836808+00:00",
+  "elapsed_seconds": 47.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5398104
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InvariantRightInverseOfRightInverseStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e1fe0f19d5040635085954f4bf6eeb0c30e9516090589f8d54db6129648c8a6c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInvariantRightInverseField",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InvariantRightInverseOfRightInverse"
+  ],
+  "objects": {
+    "M071401": "79574769d8d91b64c61bb871eace1c69e9661d695ed3d80d8de010625d8038d3"
+  },
+  "bundle_sha256": "720632dcfe036853ebdebc609b1fc094d1ff32ec2dcde66eaf2985060c3fe363",
+  "packet": "M071401",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14738#issuecomment-7058406196",
+  "reviewed_utc": "2026-11-21T06:59:41.721793+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

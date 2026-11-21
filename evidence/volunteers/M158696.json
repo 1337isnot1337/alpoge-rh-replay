@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M158696"
+  ],
+  "started_utc": "2026-11-21T06:27:44.292156+00:00",
+  "ended_utc": "2026-11-21T06:27:53.371680+00:00",
+  "elapsed_seconds": 9.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 62308668,
+    "peak_child_rss_kib": 6691908
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.SharpRestriction.Divisibility.GeneratorPowers.ExistsTruncatedIntegralChart:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e2120d89df1b0eefa5231f40cbaaaaaca8065d549de58e4345c8b129b6c99997",
+  "rebuilt_project_modules": [
+    "Formalism.SharpRestriction.Divisibility.GeneratorPowers.IntChartSt"
+  ],
+  "objects": {
+    "M158696": "ca6aab41570efd9c62f9a963dcec1fa1f3053d6ea96b44d0d9ad0abafbbbab08"
+  },
+  "bundle_sha256": "3b0739708140670ed6fdce541019b5110d553dacfdc977f2f25cd7e497eeb68d",
+  "packet": "M158696",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15335#issuecomment-7058624533",
+  "reviewed_utc": "2026-11-21T06:57:40.565513+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M169729"
+  ],
+  "started_utc": "2026-11-21T06:01:39.946751+00:00",
+  "ended_utc": "2026-11-21T06:01:59.968200+00:00",
+  "elapsed_seconds": 20.0,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6822528
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.WeightedHomogeneous.SectionInjectivityHypothesesProjectiveLine:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "67137785abd346eb9b9430933a5b77df3dee440ebd0cbb185062261379669a60",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.Points",
+    "GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.Slopes",
+    "GroundTheory.HeightsAndTheta.Heights.HermitianLattice"
+  ],
+  "objects": {
+    "M169729": "d1849a65f9b511220125b946e5368f48924def2a91e4487889a487ca61e0bda1"
+  },
+  "bundle_sha256": "92351c90b63f149be8e9bdb4f2502d455b258bcf0cc645b918989ea5f4fc7afc",
+  "packet": "M169729",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14586#issuecomment-7058333130",
+  "reviewed_utc": "2026-11-21T07:00:36.441134+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

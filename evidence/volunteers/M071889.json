@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M071889"
+  ],
+  "started_utc": "2026-11-21T06:31:30.890260+00:00",
+  "ended_utc": "2026-11-21T06:31:47.156422+00:00",
+  "elapsed_seconds": 16.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5472740
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JacquetRallisOrbitInvariantMapProperStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6322f861d46091468e3f8d56eadb7a343a6f0efd6c478728bb5f5c4181d7b0f2",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.JacquetRallisOrbitInvariantMapProper"
+  ],
+  "objects": {
+    "M071889": "04bad73400c3f6db2235ce8a4bc8a769acfbaa45ba7634cf66c373721a245ec3"
+  },
+  "bundle_sha256": "ac5771a05f711fa4caf5eb922226fc6a735c11aa13a1b6bb351c85d3bc1e28f4",
+  "packet": "M071889",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15426#issuecomment-7058674377",
+  "reviewed_utc": "2026-11-21T06:57:24.505750+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

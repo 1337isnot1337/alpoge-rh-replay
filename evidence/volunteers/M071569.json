@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M071569"
+  ],
+  "started_utc": "2026-11-21T06:17:04.459353+00:00",
+  "ended_utc": "2026-11-21T06:17:15.627283+00:00",
+  "elapsed_seconds": 11.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5406696
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsFullLatticeProdOfComapInlMapSnd:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "37deb3c0a9f526d6d9690a45cd6d6e0da6bea32c21c747f78481a9ef08b1ca29",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.LinearDescent"
+  ],
+  "objects": {
+    "M071569": "437b8fad046317d0ba966a41fca3cb09f97ab3f5f0eb9c69d5bc1217923c15d0"
+  },
+  "bundle_sha256": "2c45f062460d6cce733e261ff2517aa472a09f203abf97cdce9d10fd47fbefde",
+  "packet": "M071569",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14915#issuecomment-7058504865",
+  "reviewed_utc": "2026-11-21T06:58:59.278147+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M125981"
+  ],
+  "started_utc": "2026-11-21T06:30:30.321456+00:00",
+  "ended_utc": "2026-11-21T06:30:50.994438+00:00",
+  "elapsed_seconds": 20.7,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 63244532,
+    "peak_child_rss_kib": 7086876
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MulEqOfRangeLe:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9a6da10fbb50bd5d4e5a69d258d7b419ca312ba5ded396d7e66d001d3d3fb67c",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.QuotientVanishing.NonEllFlag"
+  ],
+  "objects": {
+    "M125981": "a211f9c8475846c5cf3e09c254b315097f7d6c10962337da9b0ae488e9a28c69"
+  },
+  "bundle_sha256": "086600b89ef7bd1058fc488a681d45848264dbc89f95a6e28c3d06d1ce15b863",
+  "packet": "M125981",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15490#issuecomment-7058656965",
+  "reviewed_utc": "2026-11-21T06:57:14.757416+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

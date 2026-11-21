@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M028263"
+  ],
+  "started_utc": "2026-11-21T06:00:37.611963+00:00",
+  "ended_utc": "2026-11-21T06:00:52.229181+00:00",
+  "elapsed_seconds": 14.6,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6802976
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarizedSuperlatticeOfRiemannFormStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a968132698d84ee6601678328fff99e06e58a05876e21a9aacd0c971a85444d0",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M028263": "3b3ca13e457384d4b33db504a0754309922c32e070d291d106928967607ddbeb"
+  },
+  "bundle_sha256": "c34879598dd6e5ac2f8902ec760e1f8fa923568db1d1c632dcd250510efb1f0b",
+  "packet": "M028263",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14908#issuecomment-7058444654",
+  "reviewed_utc": "2026-11-21T06:59:02.051302+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

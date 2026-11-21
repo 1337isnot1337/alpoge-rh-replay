@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M028434"
+  ],
+  "started_utc": "2026-11-21T06:02:19.378248+00:00",
+  "ended_utc": "2026-11-21T06:02:54.325683+00:00",
+  "elapsed_seconds": 34.9,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6687772
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPrimeSaturationGenericHyperplaneSection:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ed938e9a3d90df7c3ff4aec7173c034cd74538bdb8423b8c6d3c2314b99bc578",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.WeightedHomogeneousComponentMemElimIdeal",
+    "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.IsWeaklyRegularMapCAppendMapLinForm"
+  ],
+  "objects": {
+    "M028434": "734f08781cefac6f6e25124e2a5c6eb7a346cd2200aaecd367f831a8ba8dd9cb"
+  },
+  "bundle_sha256": "468d378a42b451d67124c71f44868a13ad12c5fb1df300e4816f3c7554cbf9b1",
+  "packet": "M028434",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14541#issuecomment-7058343218",
+  "reviewed_utc": "2026-11-21T07:00:52.621536+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

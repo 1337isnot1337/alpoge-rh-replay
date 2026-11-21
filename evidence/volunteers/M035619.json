@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M035619"
+  ],
+  "started_utc": "2026-11-21T06:00:29.766351+00:00",
+  "ended_utc": "2026-11-21T06:01:16.677731+00:00",
+  "elapsed_seconds": 46.9,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 6019092
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.HilbertFunctorLocalRepresentingDataOfRestrictStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7b24529def36dd483e4b9eb41f8b628ea4604e97dabd099ab5c88a7d6f3c8c80",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComapEqKerIff",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HilbertFunctorLocalRepresentingDataOfRestrict",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsHilbRep"
+  ],
+  "objects": {
+    "M035619": "bbaf71da53ca7af54607431538195d42eedd4cec3f6b372cd882a75c64069573"
+  },
+  "bundle_sha256": "426bbee45181a2abf93e4357b1de1b83e2ad99fdf954082148f21285581542ff",
+  "packet": "M035619",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14517#issuecomment-7058325555",
+  "reviewed_utc": "2026-11-21T07:01:00.551728+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

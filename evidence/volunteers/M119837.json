@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M119837"
+  ],
+  "started_utc": "2026-11-21T06:00:37.183294+00:00",
+  "ended_utc": "2026-11-21T06:01:18.098383+00:00",
+  "elapsed_seconds": 40.9,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6817920
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Definitions.MetricPeriods.SectionInputs:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "38bf2e2e5310707ad489dd67b080b1db276636e86fdfd041778ce756a01a77b7",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.MetricPeriods.HasMultiplier",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ArithmeticHilbertSamuelLowerBound",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.PenHost",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.PenVol"
+  ],
+  "objects": {
+    "M119837": "0f6491b558c33f2ea0a95b47880d671492ea22dff88143fc4daf9f93da72bad8"
+  },
+  "bundle_sha256": "d1a61830e011b2a99e6d0ccadbcab40933cd55d8d907da6ad8dfb5e1e4e6840c",
+  "packet": "M119837",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14906#issuecomment-7058442875",
+  "reviewed_utc": "2026-11-21T06:59:02.627208+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M138314"
+  ],
+  "started_utc": "2026-11-21T05:55:27.442580+00:00",
+  "ended_utc": "2026-11-21T05:56:00.532148+00:00",
+  "elapsed_seconds": 33.1,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6849080
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.HodgeTatePoints.CompMemAddFun:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "56e15e2c4760191ff0f2664af8294071bb93ecc0013c9c656b7b2a7c11fbe537",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.DualLattices.PrimeHopfOrderOfAddEquiv",
+    "ReciprocityTheory.DualLattices.PrimeHopfOrderStatement"
+  ],
+  "objects": {
+    "M138314": "8f2c02412df98e90ff7bbc4e3863a7c2da94c0c6e2b4a8f33846257423feb492"
+  },
+  "bundle_sha256": "c43c225d153e775d93da8c367501c4799da7496fa1209441ca1833e77946a2c9",
+  "packet": "M138314",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14798#issuecomment-7058420516",
+  "reviewed_utc": "2026-11-21T06:59:25.867745+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

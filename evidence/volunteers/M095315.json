@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M095315"
+  ],
+  "started_utc": "2026-11-21T06:19:24.379969+00:00",
+  "ended_utc": "2026-11-21T06:19:33.441963+00:00",
+  "elapsed_seconds": 9.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6817360
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsSplitThetaGridPathFlipGridPathAtSquareStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6c83ffc644a18e351abfe1b7b670170747327798bc148ef5292b5c632aa11276",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsSplitThetaGridPathFlipGridPathAtSquare"
+  ],
+  "objects": {
+    "M095315": "7344e346e86e596084041f691cf72228ffd4a7e2be1f482fef0926d1ce204df1"
+  },
+  "bundle_sha256": "7cd2cf3d906a7cd82df6983ef48ea83fcb30f26cd4e5b1b1ae1316f04e89dcfd",
+  "packet": "M095315",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/15012#issuecomment-7058528474",
+  "reviewed_utc": "2026-11-21T06:58:34.464708+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}
