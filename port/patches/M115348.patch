@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ImportsFurtherMore.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ImportsFurtherMore.lean
+@@ -20,7 +20,7 @@
+       exact Ideal.zero_mem _)
+   have hmem : (p : NumberField.RingOfIntegers F) ∈ Q := by
+     have h : (p : ℤ) ∈ Q.comap (algebraMap ℤ (NumberField.RingOfIntegers F)) := by
+-      rw [hQP]
++      rw [← Ideal.under_def, hQP]
+       exact Ideal.mem_span_singleton_self _
+     rw [Ideal.mem_comap, map_natCast] at h
+     exact h
