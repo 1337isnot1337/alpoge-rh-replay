@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001810 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LeviActionIsGlRepresentationStatement` | volunteer-build-reviewed |
+| M001811 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LeviActionPreservesSupportDegree` | volunteer-build-reviewed |
+| M001812 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LeviActionPreservesSupportDegreeStatement` | volunteer-build-reviewed |
+| M001815 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LeviDecomposition` | volunteer-build-reviewed |
+| M001816 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LeviDecompositionStatement` | volunteer-build-reviewed |
 | M001823 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LineFacts` | volunteer-build-reviewed |
 | M001825 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LineFormulaOfFubiniAndParabolic` | volunteer-build-reviewed |
 | M001829 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LocalLanglandsOfIrreducibleAdmissibleImports` | volunteer-build-reviewed |
@@ -95,6 +100,7 @@
 | M002120 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.EpsilonPairingZeta` | wave-reused |
 | M002121 | P1056 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.EqualVolumeMeanCorrection` | build-observed |
 | M002122 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ExtensionSingularValues` | volunteer-build-reviewed |
+| M002124 | P0549 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.FibreFramesOnModels` | volunteer-build-reviewed |
 | M002127 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.FramedFlatCoordinates` | volunteer-build-reviewed |
 | M002128 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.FramedLatticeZeroCycleHeight` | volunteer-build-reviewed |
 | M002132 | P0810 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.GenericMultiplicityOne` | build-observed |
@@ -114,6 +120,7 @@
 | M002161 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ModelDdcForms` | volunteer-build-reviewed |
 | M002162 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.MultiplicationKernelIdentity` | wave-reused |
 | M002164 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.OmegaFactorization` | volunteer-build-reviewed |
+| M002166 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.OrthogonalNormSquareSum` | volunteer-build-reviewed |
 | M002170 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.PolarisationModuleIndex` | volunteer-build-reviewed |
 | M002172 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuasiPlurisubharmonic` | volunteer-build-reviewed |
 | M002173 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.QuotientEigenDifference` | wave-reused |
@@ -208,12 +215,15 @@
 | M002387 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.FormalDegreeHaarQuotient` | build-observed |
 | M002394 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.LieMatrixVectors` | build-observed |
 | M002395 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.LogExpAdaptedGauge` | build-observed |
+| M002399 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.NodalSeriesPeriods` | volunteer-build-reviewed |
 | M002403 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.PerfectPairings` | wave-reused |
 | M002408 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.RelativeDifferentValues` | volunteer-build-reviewed |
 | M002409 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.RigidNormaliserGenerators` | volunteer-build-reviewed |
 | M002410 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.RootValueClassBasis` | build-observed |
 | M002413 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.SideNormalisedGap` | build-observed |
 | M002416 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.SplitUnramifiedPlaces` | volunteer-build-reviewed |
+| M002419 | P0615 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.ThetaSpanAdjoint` | volunteer-build-reviewed |
+| M002422 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.TraceFormDualSystem` | volunteer-build-reviewed |
 | M002426 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.AdmissibleCharUnramified` | wave-reused |
 | M002427 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.AdmissibleCharacterHyp` | wave-reused |
 | M002430 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.BaseChangeInertUnramified` | volunteer-build-reviewed |
@@ -322,11 +332,13 @@
 | M002702 | P1531 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.KTypeExtension` | volunteer-build-reviewed |
 | M002706 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.LevelGroupLifts` | volunteer-build-reviewed |
 | M002710 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.MinorOrderedEntries` | volunteer-build-reviewed |
+| M002717 | P1419 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ParabolicLeviDecomposition` | volunteer-build-reviewed |
 | M002719 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.PartialLFunctionCharacter` | volunteer-build-reviewed |
 | M002724 | P1472 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.PseudoCoefficientSeparation` | volunteer-build-reviewed |
 | M002725 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.RadicalNoFixedVectors` | volunteer-build-reviewed |
 | M002726 | P1271 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.RaisingLoweringOperators` | volunteer-build-reviewed |
 | M002739 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SemilinearExtensionBases` | volunteer-build-reviewed |
+| M002746 | P1169 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SplitLinearModelNorm` | volunteer-build-reviewed |
 | M002759 | P1501 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.TraceKernelDecomposition` | volunteer-build-reviewed |
 | M002763 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.UniformModerateGrowthLevel` | volunteer-build-reviewed |
 | M002770 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.VolumeFlatSection` | build-observed |
@@ -390,15 +402,3 @@
 | M003003 | P0002 | `Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.SqSubLeNormSub` | wave-reused |
 | M003004 | P0945 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.AnalyticTorusPointBaseEqHolUnifEx` | volunteer-build-reviewed |
 | M003005 | P0758 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.ArcDictExpZeroSection` | build-observed |
-| M003006 | P0865 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.ArcVarZpowInjective` | wave-reused |
-| M003009 | P0615 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.CoeffFSumDerivEqFderiv` | build-observed |
-| M003010 | P0582 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.DegeneratingToriPeriodMapEqBaseOfYEqZero` | build-observed |
-| M003011 | P0917 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.ExistsChartComplexPoint` | build-observed |
-| M003013 | P1114 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.IdealPart` | build-observed |
-| M003014 | P0393 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.IsCoprimeTwoSubRtTwoAddRt` | wave-reused |
-| M003015 | P1084 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.IsFShiftZeroIff` | build-observed |
-| M003016 | P1028 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.IsFramedPointChangedByLetters` | wave-reused |
-| M003017 | P0891 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.IsPrimitiveRootArcRoot` | wave-reused |
-| M003018 | P1056 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.IsThetaL2NormSquared` | wave-reused |
-| M003020 | P0945 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.NonemptyGtAnOfToric` | volunteer-build-reviewed |
-| M003022 | P0347 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.OneAddZeta21PowSevenAddPowFourteenEqZero` | wave-reused |

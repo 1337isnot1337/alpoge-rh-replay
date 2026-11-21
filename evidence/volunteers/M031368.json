@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M031368"
+  ],
+  "started_utc": "2026-11-21T01:11:33.490748+00:00",
+  "ended_utc": "2026-11-21T01:14:21.289028+00:00",
+  "elapsed_seconds": 167.7,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 7981840,
+    "peak_child_rss_kib": 5355316
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteOfBoundedEmbeddingsAndValuationsStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0d2bb6854e4f07775a374bfa3419b225ddd48d5c2a8e6a0feb1505d5ccf9e8c1",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteOfBoundedEmbeddingsAndValuations"
+  ],
+  "objects": {
+    "M031368": "bb9448b0e58e4a07134cb2348cf52b8c2d1cadfe228c3d2ea8538859c7a55f1d"
+  },
+  "bundle_sha256": "26495f8a12ee74f7faa193faeb7d7e1a9676383e886645836e8af5ad74c02230",
+  "packet": "M031368",
+  "contributor": "WorldianAI",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8787#issuecomment-7054968252",
+  "reviewed_utc": "2026-11-21T06:08:22.115761+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

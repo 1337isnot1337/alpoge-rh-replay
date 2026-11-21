@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M097987"
+  ],
+  "started_utc": "2026-11-21T01:00:17.255554+00:00",
+  "ended_utc": "2026-11-21T01:00:35.070545+00:00",
+  "elapsed_seconds": 17.8,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 63244524,
+    "peak_child_rss_kib": 7470056
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnfoldTsumAlongSubgroupStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5ce6ee9fd767f99504660e219f8219a8dcbb121b6c49c3eb988e7fa6a2bd88ef",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnfoldTsumAlongSubgroup"
+  ],
+  "objects": {
+    "M097987": "d6d4b70439c24494d77613df8dc0bc5a32b6d5ab9714ed824546cd64b400d952"
+  },
+  "bundle_sha256": "0d480aefd9804fac56bd975ba28e8722c38c5b108589948a1d4e6c3510ab087d",
+  "packet": "M097987",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8880#issuecomment-7054700071",
+  "reviewed_utc": "2026-11-21T05:58:19.105243+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

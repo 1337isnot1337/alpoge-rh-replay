@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M004649"
+  ],
+  "started_utc": "2026-11-21T01:03:53.562370+00:00",
+  "ended_utc": "2026-11-21T01:04:29.078300+00:00",
+  "elapsed_seconds": 35.5,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7587988
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.LatticeFrames.ValueDoubleExact:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1896badaf98f5df773f20c1864ce64d299b5c8869b90817cdd0f86011a657d49",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ClassFunctionSumIntegral"
+  ],
+  "objects": {
+    "M004649": "d9a7c0442bdf354102aa4b08bbd8026fd48e7ebd1c1bbf781bb99163e2b9fc46"
+  },
+  "bundle_sha256": "250242ef4a0a575c4e9bc73988443e7d049cf3f8aabbf00b3a633237ea2e4369",
+  "packet": "M004649",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8846#issuecomment-7054835429",
+  "reviewed_utc": "2026-11-21T06:00:09.552876+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

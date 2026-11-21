@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M164243"
+  ],
+  "started_utc": "2026-11-21T00:40:51.506437+00:00",
+  "ended_utc": "2026-11-21T00:41:37.441875+00:00",
+  "elapsed_seconds": 45.9,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 7979204,
+    "peak_child_rss_kib": 6233036
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PNormalModelExists:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "38c31b76f39eac6972e5af4f9bf4ad6f182cc0ac8325b6fab0724f545580799b",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FiniteOfFiniteOverNormal",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.NonemptyNormalModelOfPresentation"
+  ],
+  "objects": {
+    "M164243": "f916611660bbf4189c749b47e791d645fb9486e87cf31f1567ab7ae9371c520e"
+  },
+  "bundle_sha256": "4f3ad6dae6fd8d54feb75b798b3cd681215177ced432ec86640ba084aa10554e",
+  "packet": "M164243",
+  "contributor": "roonastgames",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8374#issuecomment-7054368246",
+  "reviewed_utc": "2026-11-21T06:04:59.913388+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

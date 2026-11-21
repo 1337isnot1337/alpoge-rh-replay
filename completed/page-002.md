@@ -2,8 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M000944 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GaussianContinuousRapidDecayStatement` | volunteer-build-reviewed |
 | M000945 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GaussianFourierTransformFormula` | volunteer-build-reviewed |
 | M000946 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GaussianFourierTransformFormulaStatement` | volunteer-build-reviewed |
+| M000948 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GeomSumIntLe` | volunteer-build-reviewed |
 | M000949 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GermConstantsEqAlongAffineSpaceSquare` | volunteer-build-reviewed |
 | M000950 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GermFormPulledBackCombinationsExpandMonomials` | volunteer-build-reviewed |
 | M000953 | P0435 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GlobalUnitScalingHaarProductFormula` | build-observed |
@@ -109,6 +111,7 @@
 | M001080 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.InfiniteComponentCoordinatesAction` | volunteer-build-reviewed |
 | M001081 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.InfiniteComponentCoordinatesActionStatement` | volunteer-build-reviewed |
 | M001082 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.InfiniteProductMultipliable` | volunteer-build-reviewed |
+| M001083 | P0094 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.InfiniteProductMultipliableStatement` | volunteer-build-reviewed |
 | M001084 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.InfiniteProductRenormalization` | volunteer-build-reviewed |
 | M001085 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.InfiniteProductRenormalizationStatement` | volunteer-build-reviewed |
 | M001086 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.IntegralAlmostAllPlaces` | volunteer-build-reviewed |
@@ -289,6 +292,7 @@
 | M001555 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CenterActionCommutesLeviDifferenceStatement` | volunteer-build-reviewed |
 | M001556 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ChartExistence` | volunteer-build-reviewed |
 | M001557 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ChartExistenceStatement` | volunteer-build-reviewed |
+| M001560 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CommuteOfMemAdjoin` | volunteer-build-reviewed |
 | M001561 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CommuteOfUnitaryConjugate` | volunteer-build-reviewed |
 | M001565 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CompactSubgroupFiniteOpenCosets` | volunteer-build-reviewed |
 | M001567 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceEndomorphismInverseExists` | volunteer-build-reviewed |
@@ -349,6 +353,7 @@
 | M001657 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FamilyInduction` | volunteer-build-reviewed |
 | M001674 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FiniteTypeAlgebraCommonEigencharacter` | volunteer-build-reviewed |
 | M001675 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FiniteTypeAlgebraCommonEigencharacterStatement` | volunteer-build-reviewed |
+| M001677 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FinrankAdjoinLeAdd` | volunteer-build-reviewed |
 | M001680 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FixedVectorStatementStatement` | volunteer-build-reviewed |
 | M001681 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FlagFacts` | volunteer-build-reviewed |
 | M001682 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FlagFactsStatement` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M001807 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LeviActionCommutesWithTotalBoundary` | volunteer-build-reviewed |
 | M001808 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LeviActionCommutesWithTotalBoundaryStatement` | volunteer-build-reviewed |
 | M001809 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LeviActionIsGlRepresentation` | volunteer-build-reviewed |
-| M001810 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LeviActionIsGlRepresentationStatement` | volunteer-build-reviewed |
-| M001811 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LeviActionPreservesSupportDegree` | volunteer-build-reviewed |
-| M001812 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LeviActionPreservesSupportDegreeStatement` | volunteer-build-reviewed |
-| M001815 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LeviDecomposition` | volunteer-build-reviewed |
-| M001816 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.LeviDecompositionStatement` | volunteer-build-reviewed |

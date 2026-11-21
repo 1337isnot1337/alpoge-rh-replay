@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M124566"
+  ],
+  "started_utc": "2026-11-21T00:59:51.119005+00:00",
+  "ended_utc": "2026-11-21T01:00:03.850750+00:00",
+  "elapsed_seconds": 12.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 6848152
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IsIntegrallyClosedOfReducedQuotientLocalizationStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b0078c8e999c6f958fa1b8955aa3a17b9a71909958cd0dcca9c6ae49c5c1c0a0",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IsIntegrallyClosedOfReducedQuotientLocalization"
+  ],
+  "objects": {
+    "M124566": "c048d08ba6912192d871633cdff2eec6daf9a41ac6cdecad36fe2bd5136a6863"
+  },
+  "bundle_sha256": "d4d5a923aa8ec4dd90c9ee3c48d088f6b6ce0442de5d5ea70a254a4604c620e9",
+  "packet": "M124566",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8860#issuecomment-7054690038",
+  "reviewed_utc": "2026-11-21T06:07:51.598521+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

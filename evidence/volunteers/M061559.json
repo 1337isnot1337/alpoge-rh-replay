@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M061559"
+  ],
+  "started_utc": "2026-11-21T00:53:52.025973+00:00",
+  "ended_utc": "2026-11-21T00:54:17.943623+00:00",
+  "elapsed_seconds": 25.9,
+  "host": {
+    "cpu_count": 128,
+    "mem_total_kib": 395484908,
+    "peak_child_rss_kib": 6901712
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCommonLevelSpanMultiple:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d62780553950e4151a0cf6d78b53cb81e9631a7e3de0dc519cf99a777badda38",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.EigenOfTwoStep",
+    "Development.AbelianVarietyTheory.Definitions.Foundations.ExpUpper",
+    "Development.AbelianVarietyTheory.Definitions.Foundations.Letter",
+    "Development.AbelianVarietyTheory.Definitions.Foundations.OpLDOneSubMemTriv",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.Klm"
+  ],
+  "objects": {
+    "M061559": "b4bd36a0e1df7df2c7f37dc8db34f4dcb540592d8b606bb98bd34813c859129f"
+  },
+  "bundle_sha256": "c1b694015e4bd31361ab5166dbea8e764e5a055b6edd4f897628226fef58eefb",
+  "packet": "M061559",
+  "contributor": "BenCaunt",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8082#issuecomment-7054592036",
+  "reviewed_utc": "2026-11-21T06:07:04.250924+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

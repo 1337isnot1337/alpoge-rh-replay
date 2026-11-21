@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M003006 | P0865 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.ArcVarZpowInjective` | wave-reused |
+| M003009 | P0615 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.CoeffFSumDerivEqFderiv` | build-observed |
+| M003010 | P0582 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.DegeneratingToriPeriodMapEqBaseOfYEqZero` | build-observed |
+| M003011 | P0917 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.ExistsChartComplexPoint` | build-observed |
+| M003013 | P1114 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.IdealPart` | build-observed |
+| M003014 | P0393 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.IsCoprimeTwoSubRtTwoAddRt` | wave-reused |
+| M003015 | P1084 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.IsFShiftZeroIff` | build-observed |
+| M003016 | P1028 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.IsFramedPointChangedByLetters` | wave-reused |
+| M003017 | P0891 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.IsPrimitiveRootArcRoot` | wave-reused |
+| M003018 | P1056 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.IsThetaL2NormSquared` | wave-reused |
+| M003020 | P0945 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.NonemptyGtAnOfToric` | volunteer-build-reviewed |
+| M003022 | P0347 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.OneAddZeta21PowSevenAddPowFourteenEqZero` | wave-reused |
 | M003024 | P0838 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.PsiWeightZeroLinearCombination` | wave-reused |
 | M003025 | P0515 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.SqrtNegDiscMemCoeffField` | wave-reused |
 | M003026 | P0582 | `Development.AbelianVarietyTheory.Definitions.ArchimedeanThetaValues.ToMatrixTrFormBaseChange` | wave-reused |
@@ -341,6 +353,7 @@
 | M004103 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.LocallyConstantTwoCochain` | wave-reused |
 | M004106 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.Mdl` | build-observed |
 | M004110 | P1472 | `Development.AbelianVarietyTheory.Definitions.Foundations.MemL2OfBoundedContinuousInvariant` | volunteer-build-reviewed |
+| M004111 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.MemPuncturedRingIffPowerSeriesPart` | volunteer-build-reviewed |
 | M004112 | P0295 | `Development.AbelianVarietyTheory.Definitions.Foundations.MemRingOfInR` | wave-reused |
 | M004113 | P0173 | `Development.AbelianVarietyTheory.Definitions.Foundations.MemSiegelOfIffRightAct` | build-observed |
 | M004114 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.MemUnitaryGroupIffIsIsometry` | volunteer-build-reviewed |
@@ -358,6 +371,7 @@
 | M004133 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.PetEqRelIndexMulPetProd` | volunteer-build-reviewed |
 | M004134 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.PetIPSmulRight` | wave-reused |
 | M004135 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.PieceEqPieceT` | wave-reused |
+| M004136 | P0347 | `Development.AbelianVarietyTheory.Definitions.Foundations.PowLtFirstRadius` | volunteer-build-reviewed |
 | M004137 | P0239 | `Development.AbelianVarietyTheory.Definitions.Foundations.RayPrimes` | build-observed |
 | M004139 | P0173 | `Development.AbelianVarietyTheory.Definitions.Foundations.RepL` | wave-reused |
 | M004140 | P0784 | `Development.AbelianVarietyTheory.Definitions.Foundations.RootOfUnityEightQMemCoeffGaloisSubfield` | build-observed |
@@ -388,17 +402,3 @@
 | M004216 | P1245 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.FracZeroOfPos` | build-observed |
 | M004227 | P0648 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.InstFintypeHodgeBidegree` | build-observed |
 | M004229 | P1349 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsCanFam` | build-observed |
-| M004232 | P0095 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsDPMorphismBot` | wave-reused |
-| M004237 | P0002 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsMatrixForm` | wave-reused |
-| M004239 | P0239 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsParahoricVec` | build-observed |
-| M004240 | P1029 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsPlaceCofactorValuationLowerBound` | volunteer-build-reviewed |
-| M004244 | P0347 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsSSFun` | wave-reused |
-| M004245 | P0095 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsSepClosedResidueFieldPowerSeriesComplex` | wave-reused |
-| M004246 | P0393 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsStrictlySemistable` | wave-reused |
-| M004247 | P0095 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsStrictlySemistableAlt` | wave-reused |
-| M004248 | P0173 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsStrictlySemistableModel` | wave-reused |
-| M004250 | P1372 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsTemperedCoeff` | build-observed |
-| M004251 | P1472 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsTemperedGLOfHasSatGL` | volunteer-build-reviewed |
-| M004253 | P1472 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsWeight` | volunteer-build-reviewed |
-| M004258 | P1472 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.JetSplitAmb` | volunteer-build-reviewed |
-| M004263 | P0435 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.KaehlerOneFormsToExtensionDeRhamMulSelf` | build-observed |

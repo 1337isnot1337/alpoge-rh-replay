@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M161192"
+  ],
+  "started_utc": "2026-11-21T00:57:06.070130+00:00",
+  "ended_utc": "2026-11-21T00:57:18.184026+00:00",
+  "elapsed_seconds": 12.1,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16078424,
+    "peak_child_rss_kib": 7284688
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.RdBound:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "db849ac68f74dd6fbc1d029ea90abde87438606eb575cd5549573f96357c00ba",
+  "rebuilt_project_modules": [
+    "Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.RdArith"
+  ],
+  "objects": {
+    "M161192": "8314cd8dbc3309ae2f39459063ff4e24163bd7c1a1b67817d88ed48e1e6c6bd3"
+  },
+  "bundle_sha256": "da64d989bdfaed02ee710db083f4a8c9c62fe6d034af066b2da2f7a3f1bfe224",
+  "packet": "M161192",
+  "contributor": "walkingsophie",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8638#issuecomment-7054682037",
+  "reviewed_utc": "2026-11-21T06:07:41.075732+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

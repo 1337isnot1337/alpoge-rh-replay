@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M140037"
+  ],
+  "started_utc": "2026-11-21T00:24:30.519686+00:00",
+  "ended_utc": "2026-11-21T00:24:37.152112+00:00",
+  "elapsed_seconds": 6.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 63244524,
+    "peak_child_rss_kib": 7248320
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.PublishedTheorems.PoincareDeRhamDuality.DeRhamPerfectPairing.ResSurjD:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "59e5667b6167c70dbe6c877c09cf9b7f777a062229ec34b937d76551659cf94c",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M140037": "21c51faf9a0662342ab1882c6fea0bbc8d8642bdcc309ff31a66887d5fe13d0c"
+  },
+  "bundle_sha256": "83fc313b8a5970bb19f9c1760f3037c2895dcca2257e1021cd3a54b771314b7c",
+  "packet": "M140037",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8005#issuecomment-7054074926",
+  "reviewed_utc": "2026-11-21T06:05:31.158397+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

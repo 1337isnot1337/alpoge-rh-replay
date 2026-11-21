@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M109413"
+  ],
+  "started_utc": "2026-11-21T00:56:47.130489+00:00",
+  "ended_utc": "2026-11-21T00:56:56.046466+00:00",
+  "elapsed_seconds": 8.9,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 24721248,
+    "peak_child_rss_kib": 6790368
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.CommutativeAlgebra.EtaleCohomology.AddIff:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "310f0eee8c5610ab8170e2d2db2a253ed0c04ce3a79a5a5889de4bebc2741b33",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.CommutativeAlgebra.EtaleCohomology.ZeroPull"
+  ],
+  "objects": {
+    "M109413": "723f01a05dcd6cc4fa421249c2c96012e3180f944201c1766044006e4139a626"
+  },
+  "bundle_sha256": "1fae1d11fb3e2d4a6bb52775ec8eed852d28a0a6fe7c5b270f9e0b9e5ef2c7a2",
+  "packet": "M109413",
+  "contributor": "ljagiello",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8743#issuecomment-7054634707",
+  "reviewed_utc": "2026-11-21T06:04:31.597507+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

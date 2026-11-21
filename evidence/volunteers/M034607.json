@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M034607"
+  ],
+  "started_utc": "2026-11-21T00:36:50.868257+00:00",
+  "ended_utc": "2026-11-21T00:37:08.979332+00:00",
+  "elapsed_seconds": 18.1,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 28405976,
+    "peak_child_rss_kib": 6441488
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtIntegralDominatedFamilyStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b883b5c41c3addd974e397bf035a43f5d5a3da4462056f0f951989bede9fb6e3",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtIntegralDominatedFamily"
+  ],
+  "objects": {
+    "M034607": "2ded43dc6da0ca82b2ac7279a5d8228b9696f0ad97461b72d5e7f7c5ad341add"
+  },
+  "bundle_sha256": "e21453cdab93971d682ed9cd96663b93ed6118028b92736e00d0b9afba772ca3",
+  "packet": "M034607",
+  "contributor": "misuadn-laplace",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8342#issuecomment-7054284934",
+  "reviewed_utc": "2026-11-21T06:07:40.527033+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004232 | P0095 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsDPMorphismBot` | wave-reused |
+| M004237 | P0002 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsMatrixForm` | wave-reused |
+| M004239 | P0239 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsParahoricVec` | build-observed |
+| M004240 | P1029 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsPlaceCofactorValuationLowerBound` | volunteer-build-reviewed |
+| M004244 | P0347 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsSSFun` | wave-reused |
+| M004245 | P0095 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsSepClosedResidueFieldPowerSeriesComplex` | wave-reused |
+| M004246 | P0393 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsStrictlySemistable` | wave-reused |
+| M004247 | P0095 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsStrictlySemistableAlt` | wave-reused |
+| M004248 | P0173 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsStrictlySemistableModel` | wave-reused |
+| M004250 | P1372 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsTemperedCoeff` | build-observed |
+| M004251 | P1472 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsTemperedGLOfHasSatGL` | volunteer-build-reviewed |
+| M004253 | P1472 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsWeight` | volunteer-build-reviewed |
+| M004258 | P1472 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.JetSplitAmb` | volunteer-build-reviewed |
+| M004263 | P0435 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.KaehlerOneFormsToExtensionDeRhamMulSelf` | build-observed |
 | M004271 | P1324 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.MZmix` | build-observed |
 | M004280 | P0173 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.NegOnePowBoundaryTermsCancel` | build-observed |
 | M004282 | P1272 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.NormalFam` | build-observed |
@@ -72,13 +86,16 @@
 | M004456 | P0865 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.GeomIntSelf` | build-observed |
 | M004457 | P0731 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.IsSquareDeterminantComparison` | wave-reused |
 | M004458 | P0731 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.KaRuleK` | wave-reused |
+| M004459 | P0393 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.KeyRootOfKeyFormula` | volunteer-build-reviewed |
 | M004460 | P0582 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.KeyRuleOneOfKeyFormula` | wave-reused |
 | M004461 | P0758 | `Development.AbelianVarietyTheory.Definitions.KeyFormula.LevBasis` | wave-reused |
 | M004471 | P1643 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ChainParSucc` | volunteer-build-reviewed |
 | M004492 | P0678 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.EndOmega` | build-observed |
 | M004494 | P1029 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.EvalAtOneExtremalMul` | volunteer-build-reviewed |
+| M004502 | P1502 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ExistsIsFundU` | volunteer-build-reviewed |
 | M004533 | P0393 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.IsCoType` | build-observed |
 | M004576 | P0347 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.NotRedOfMem` | volunteer-build-reviewed |
+| M004649 | P1502 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ValueDoubleExact` | volunteer-build-reviewed |
 | M004654 | P0731 | `Development.AbelianVarietyTheory.Definitions.ModuliSpaces.AuxiliaryInertOddPrime` | build-observed |
 | M004657 | P0758 | `Development.AbelianVarietyTheory.Definitions.ModuliSpaces.ExistsArBaseAway` | wave-reused |
 | M004663 | P0784 | `Development.AbelianVarietyTheory.Definitions.ModuliSpaces.FiniteHomogeneousInf` | wave-reused |
@@ -144,6 +161,7 @@
 | M004815 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MapCSmulMulVec` | volunteer-build-reviewed |
 | M004817 | P0096 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MatMapTmul` | wave-reused |
 | M004819 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MemBallOfGaugeLt` | wave-reused |
+| M004820 | P0096 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MemCentIffTwConj` | volunteer-build-reviewed |
 | M004821 | P0784 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MemEurOfTeichmullerSeries` | wave-reused |
 | M004822 | P0758 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MemRootsBarXSubC` | wave-reused |
 | M004823 | P0550 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MkMemAdmissibleAtIffCocycle` | wave-reused |
@@ -162,6 +180,7 @@
 | M004848 | P0096 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ProjectionSurjective` | wave-reused |
 | M004850 | P0891 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.RealisesUnitPow` | wave-reused |
 | M004853 | P0731 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ResBound` | wave-reused |
+| M004854 | P0096 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.RoundDown` | volunteer-build-reviewed |
 | M004855 | P0810 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.RowsExhaust` | build-observed |
 | M004857 | P0582 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.Saturated` | wave-reused |
 | M004859 | P0891 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.Small2` | build-observed |
@@ -383,22 +402,3 @@
 | M005251 | P0810 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ExistsUniqueWeilIs` | wave-reused |
 | M005252 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FiniteFaithfullyFlatKer` | wave-reused |
 | M005253 | P0648 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FiniteOfNotLinearIndependent` | wave-reused |
-| M005254 | P1057 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FinrankOfIsSecBasis` | wave-reused |
-| M005255 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FinrankSectionsLineBundlePowEqPow` | wave-reused |
-| M005256 | P1712 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FinrankSectionsPrincipalPolarisationEqOne` | wave-reused |
-| M005257 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FinrankTotalDegreeImageGrowth` | wave-reused |
-| M005258 | P0732 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FirstCohomologyVanishesDescent` | wave-reused |
-| M005259 | P0648 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FirstCohomologyVanishesOfIsoOfIsGen` | wave-reused |
-| M005260 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FlatAndSurjectiveOfIsFiniteAbelianEnd` | wave-reused |
-| M005261 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FlatOfIsFiniteOfFlatGeometricFibres` | wave-reused |
-| M005262 | P0393 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FlatQuotientIsoOfSameKernel` | wave-reused |
-| M005263 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.ForallGeometricallyIntegralOfSmoothOfGeometrical` | wave-reused |
-| M005264 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FormallyUnramifiedMulInvertibleInteger` | wave-reused |
-| M005265 | P0648 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.FormallyUnramifiedMulInvertibleIntegerStatement` | wave-reused |
-| M005267 | P0839 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.GeneratorSchemeProperties` | build-observed |
-| M005268 | P0648 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.GlobalFnsHolds` | wave-reused |
-| M005269 | P1057 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.GoodPtOfIrredOfMulPull` | wave-reused |
-| M005270 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.HasEnoughRootsOfUnityGlobalSections` | wave-reused |
-| M005271 | P0393 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.InvariantFunctionsDescend` | wave-reused |
-| M005273 | P0865 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.IsAbelianSchemeThick` | wave-reused |
-| M005274 | P0732 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.IsAffineHomFromSpecResidueField` | wave-reused |
