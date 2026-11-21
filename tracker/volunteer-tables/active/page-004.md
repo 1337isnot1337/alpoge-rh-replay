@@ -129,8 +129,6 @@
 | [@rohanarun](https://github.com/rohanarun) | [M057322](https://github.com/rohanarun/alpoge-rh-replay/issues/5833) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M065702](https://github.com/rohanarun/alpoge-rh-replay/issues/5835) | Claimed |
 | [@mabdelazim](https://github.com/mabdelazim) | [M028626](https://github.com/rohanarun/alpoge-rh-replay/issues/6189) | Claimed |
-| [@SeriousRising](https://github.com/SeriousRising) | [P1681](https://github.com/rohanarun/alpoge-rh-replay/issues/6462) | Claimed |
-| [@WilmervH](https://github.com/WilmervH) | [P1860](https://github.com/rohanarun/alpoge-rh-replay/issues/6473) | Claimed |
 | [@WilmervH](https://github.com/WilmervH) | [P1906](https://github.com/rohanarun/alpoge-rh-replay/issues/6514) | Claimed |
 | [@rayy3535](https://github.com/rayy3535) | [P1703](https://github.com/rohanarun/alpoge-rh-replay/issues/6593) | Claimed |
 | [@WilmervH](https://github.com/WilmervH) | [P1761](https://github.com/rohanarun/alpoge-rh-replay/issues/6784) | Claimed |
@@ -254,3 +252,5 @@
 | [@loremcdmx](https://github.com/loremcdmx) | [M011418](https://github.com/rohanarun/alpoge-rh-replay/issues/9157) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [M064135](https://github.com/rohanarun/alpoge-rh-replay/issues/9158) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [M099552](https://github.com/rohanarun/alpoge-rh-replay/issues/9159) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M141853](https://github.com/rohanarun/alpoge-rh-replay/issues/9163) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M085701](https://github.com/rohanarun/alpoge-rh-replay/issues/9165) | Claimed |
