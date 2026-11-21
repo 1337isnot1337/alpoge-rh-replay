@@ -11,7 +11,6 @@ TOTOGT  # 11 failing: malformed transcript x11
 BouquetAntoine  # 6 failing: cached target without kernel-replay.json x6
 twaldin  # 5 failing: no build.log x5
 yingluom  # 4 failing: other x3, attachment checksum x1
-hipotures  # 4 failing: log lacks target line x4
 rayy3535  # 3 failing: cached target without kernel-replay.json x3
 UnityChaos  # 3 failing: cached target without kernel-replay.json x3
 jsnider3  # 3 failing: no build.log x3
