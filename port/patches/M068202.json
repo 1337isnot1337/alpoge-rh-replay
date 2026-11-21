@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DetMemSpanAdjugate",
+  "source_sha256": "32c110dbf387866e023a702ed71870af158a6f9ea8192c86a921acb2cfde48fa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify the now-protected Matrix.one_apply and Matrix.mul_apply proof references. Definitions, theorem statements, and imports are unchanged."
+}
