@@ -4,6 +4,7 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@rayy3535](https://github.com/rayy3535) | [M143797](https://github.com/rohanarun/alpoge-rh-replay/issues/8019#issuecomment-7054079872) | Pending review |
 | [@BenCaunt](https://github.com/BenCaunt) | [M060959](https://github.com/rohanarun/alpoge-rh-replay/issues/8020#issuecomment-7054606719) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M155827](https://github.com/rohanarun/alpoge-rh-replay/issues/8024#issuecomment-7054078871) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M169808](https://github.com/rohanarun/alpoge-rh-replay/issues/8026#issuecomment-7054077914) | Pending review |
@@ -253,4 +254,3 @@
 | [@galakurpi](https://github.com/galakurpi) | [M109304](https://github.com/rohanarun/alpoge-rh-replay/issues/8398#issuecomment-7054419687) | Pending review |
 | [@galakurpi](https://github.com/galakurpi) | [M046505](https://github.com/rohanarun/alpoge-rh-replay/issues/8400#issuecomment-7054440502) | Pending review |
 | [@galakurpi](https://github.com/galakurpi) | [M035377](https://github.com/rohanarun/alpoge-rh-replay/issues/8402#issuecomment-7054442788) | Pending review |
-| [@galakurpi](https://github.com/galakurpi) | [M158743](https://github.com/rohanarun/alpoge-rh-replay/issues/8403#issuecomment-7054445014) | Pending review |

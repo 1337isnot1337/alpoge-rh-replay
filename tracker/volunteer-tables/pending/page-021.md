@@ -4,6 +4,9 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@ANdATIon](https://github.com/ANdATIon) | [M055003](https://github.com/rohanarun/alpoge-rh-replay/issues/12803#issuecomment-7057416484) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M120034](https://github.com/rohanarun/alpoge-rh-replay/issues/12805#issuecomment-7057414556) | Pending review |
+| [@loremcdmx](https://github.com/loremcdmx) | [M088938](https://github.com/rohanarun/alpoge-rh-replay/issues/12806#issuecomment-7057426801) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M007054](https://github.com/rohanarun/alpoge-rh-replay/issues/12807#issuecomment-7057426585) | Pending review |
 | [@dhudakk](https://github.com/dhudakk) | [M120137](https://github.com/rohanarun/alpoge-rh-replay/issues/12808#issuecomment-7057422498) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M089336](https://github.com/rohanarun/alpoge-rh-replay/issues/12809#issuecomment-7057427458) | Pending review |
@@ -38,6 +41,7 @@
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M046263](https://github.com/rohanarun/alpoge-rh-replay/issues/12840#issuecomment-7057416699) | Pending review |
 | [@zediir](https://github.com/zediir) | [M064246](https://github.com/rohanarun/alpoge-rh-replay/issues/12843#issuecomment-7057423403) | Pending review |
 | [@jsnider3](https://github.com/jsnider3) | [M168821](https://github.com/rohanarun/alpoge-rh-replay/issues/12844#issuecomment-7057422300) | Pending review |
+| [@emsi](https://github.com/emsi) | [P2178](https://github.com/rohanarun/alpoge-rh-replay/issues/12845#issuecomment-7058635567) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M104098](https://github.com/rohanarun/alpoge-rh-replay/issues/12848#issuecomment-7057435611) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M157125](https://github.com/rohanarun/alpoge-rh-replay/issues/12849#issuecomment-7057436106) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M124837](https://github.com/rohanarun/alpoge-rh-replay/issues/12851#issuecomment-7057436471) | Pending review |
@@ -250,7 +254,3 @@
 | [@ANdATIon](https://github.com/ANdATIon) | [M104759](https://github.com/rohanarun/alpoge-rh-replay/issues/13068#issuecomment-7057556144) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M049034](https://github.com/rohanarun/alpoge-rh-replay/issues/13069#issuecomment-7057559910) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M104757](https://github.com/rohanarun/alpoge-rh-replay/issues/13070#issuecomment-7057562417) | Pending review |
-| [@ANdATIon](https://github.com/ANdATIon) | [M154327](https://github.com/rohanarun/alpoge-rh-replay/issues/13071#issuecomment-7057552015) | Pending review |
-| [@ANdATIon](https://github.com/ANdATIon) | [M067468](https://github.com/rohanarun/alpoge-rh-replay/issues/13072#issuecomment-7057552332) | Pending review |
-| [@ANdATIon](https://github.com/ANdATIon) | [M171721](https://github.com/rohanarun/alpoge-rh-replay/issues/13073#issuecomment-7057554942) | Pending review |
-| [@ANdATIon](https://github.com/ANdATIon) | [M023651](https://github.com/rohanarun/alpoge-rh-replay/issues/13074#issuecomment-7057550110) | Pending review |
