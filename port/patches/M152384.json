@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RootLatticeThresholds.TensInt",
+  "source_sha256": "465fdbb90b55146490672913588153f8ca6ec605333bf584530581c7eb95fd54",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed `continuous_finsetProd` (three sites) and `integrable_finsetSum`. Proof body only."
+}

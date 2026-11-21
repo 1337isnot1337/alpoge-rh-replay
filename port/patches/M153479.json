@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.CuspInfChar",
+  "source_sha256": "7e36efea1dfae1165f6ef4171caea35bff099b6999443d298583eb7c5393408f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify `Matrix.mul_apply` (now protected; the bare name resolves to the function `mul_apply`), and drop a trailing `rfl` after a `simp` that now closes the goal. Proof bodies only."
+}

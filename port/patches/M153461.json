@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.BiaddOfCube",
+  "source_sha256": "fc76ee1205d70061d67044a78a6fe43a4894eb06754990de1fe6b02b6cfc5592",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "Compiled unchanged on leanprover/lean4:v4.36.0 with Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842 in the P0072 packet build transcript linked from the PR."
+}

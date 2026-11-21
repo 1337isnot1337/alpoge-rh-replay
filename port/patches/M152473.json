@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.SiegelLatticeTheory.HaarTransversals.UnitaryHaarProducts.LatExistsDefs",
+  "source_sha256": "8828d285823f408660e1a651f1c1273dd284d56ccac927ab007b9548abd45d4d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Definition change, equivalent, made although the module compiles unchanged: in `SatBasisV` the hypothesis `Submodule.IsLattice E Λ` becomes `Submodule.IsFullLattice E Λ`. Mathlib #44365 renamed the pinned `IsLattice` (finitely generated and spanning) to `IsFullLattice` and reused the name `IsLattice` for a weaker notion without `span_eq_top`. Left as is, the module still builds but `SatBasisV` would silently quantify over the weaker notion. Here `Λ : Submodule (𝓞 E) V` and `E` is the fraction field of `𝓞 E`, so `IsFullLattice E Λ ↔ Λ.FG ∧ span E Λ = ⊤`, which is the pinned definition, because `Submodule.IsLattice.of_fg` supplies the new linear-independence field."
+}

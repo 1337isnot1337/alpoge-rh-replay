@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LogFactorialIndices.StatementIdx",
+  "source_sha256": "60b9750a8e35fe3a55d3e6daa51c06e5ce0575e4a3aa47bcd0b70b0d8afcf7f5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "Compiled unchanged on leanprover/lean4:v4.36.0 with Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842 in the P0072 packet build transcript linked from the PR."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.SiegelLatticeTheory.TraceIntegralEstimates.LimitMemLpAndIntegralEq",
+  "source_sha256": "aea15ec4716b5537ef70ccf8fbbfee908c1dd6ba1ac75fe05f9717aa00dcaf4a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`MemLp` is now the norm bound alone, so use `MemLp.aestronglyMeasurable` instead of the projection `.1` (nine sites). The target defines `eLpNorm` as `∞` for functions that are not a.e. strongly measurable, so `MemLp` still implies measurability and the statements mean the same. Proof bodies only."
+}
