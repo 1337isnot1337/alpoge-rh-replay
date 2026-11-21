@@ -1,0 +1,7 @@
+{
+  "module": "Lemmata.GeneralBFactThirdTerForm.Imports",
+  "source_sha256": "cc3e71db3428d78b335fe7e1aa6c1de5c481cffbcf559947ce6a9f927bfc8b70",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use IsFullLattice for the old IsLattice hypothesis (finite generation and full span). The new scalar-independence axiom is automatic over the number field fraction ring, so this retains the original hypothesis and theorem meaning. Read the full-span field by name."
+}

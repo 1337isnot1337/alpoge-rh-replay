@@ -1,0 +1,7 @@
+{
+  "module": "Lemmata.IterateZero.IterZero",
+  "source_sha256": "efbc07bef77a6f887d2322827beb0fc89b28203faef9b743f77f88507a266135",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

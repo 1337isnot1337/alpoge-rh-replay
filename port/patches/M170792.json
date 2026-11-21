@@ -1,0 +1,7 @@
+{
+  "module": "Lemmata.GeneralBFactRightSide.Imports",
+  "source_sha256": "9849724a9703ac4de3984c06d60bb26a83b322a08ea2cf5de3ae1d506935853e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
