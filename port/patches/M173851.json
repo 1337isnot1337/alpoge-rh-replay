@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ValuationLifting.LiftSt",
+  "source_sha256": "48623b049a128dd7055686858a19cab386569fbd22116eaf5f4bd9be0db1f199",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0092-issue-25404/P0092-receipt.json"
+}

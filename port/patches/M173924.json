@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.DiscreteSeries.CasimirCoefficients.CasChainA",
+  "source_sha256": "b717828fde2516803c3d8a88e009abdfd74c8c2c35876448e31e61cb77cd39ed",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "continuous_add_right is now continuous_add_const. Proof-only change.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0092-issue-25404/P0092-receipt.json"
+}

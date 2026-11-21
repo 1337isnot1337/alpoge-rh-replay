@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.PullbackSections.LieBridgeC",
+  "source_sha256": "068985bcff8e30de8c7d69e84ef1db8baaf4f35f36fbd0a7686a1fd0d0c5efe2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "IsLocalization.integerNormalization_map_to_map was removed; obtain the same fact inline from IsLocalization.integerNormalization_spec, as its old proof did. Proof-only change.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0092-issue-25404/P0092-receipt.json"
+}

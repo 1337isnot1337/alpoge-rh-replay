@@ -1,0 +1,14 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/PullbackSections/LieBridgeC.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/PullbackSections/LieBridgeC.lean
+@@ -61,7 +61,10 @@
+     have ha : ((a : 𝓞 E) : E) ∈ Algebra.adjoin ℚ {((α : 𝓞 E) : E)} := by rw [hadj]; trivial
+     rw [Algebra.adjoin_singleton_eq_range_aeval] at ha
+     obtain ⟨r, hr⟩ := ha
+-    obtain ⟨b, hb⟩ := IsLocalization.integerNormalization_map_to_map (nonZeroDivisors ℤ) r
++    obtain ⟨b, hb⟩ : ∃ b : nonZeroDivisors ℤ,
++        (IsLocalization.integerNormalization (nonZeroDivisors ℤ) r).map (algebraMap ℤ ℚ) = (b : ℤ) • r := by
++      obtain ⟨b, hb₁, hb₂⟩ := IsLocalization.integerNormalization_spec (nonZeroDivisors ℤ) r
++      exact ⟨⟨b, hb₁⟩, hb₂⟩
+     refine ⟨(b : ℤ), IsLocalization.integerNormalization (nonZeroDivisors ℤ) r, nonZeroDivisors.coe_ne_zero b, ?_⟩
+     apply hinjE
+     have hr' : aeval (algebraMap (𝓞 E) E α) r = algebraMap (𝓞 E) E a := hr

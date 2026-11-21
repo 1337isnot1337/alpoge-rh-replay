@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/LaplaceOperators/LaplaceFoundations/OneParameterSubgroups/ExistsCyclic.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/LaplaceOperators/LaplaceFoundations/OneParameterSubgroups/ExistsCyclic.lean
+@@ -48,7 +48,7 @@
+   have hI := Lagrange.eq_interpolate hinj hdeg
+   have hc := congrArg (fun p : Polynomial ℝ => p.coeff (m - 1)) hI
+   try simp only at hc
+-  rw [Lagrange.interpolate_apply, Polynomial.finset_sum_coeff] at hc
++  rw [Lagrange.interpolate_apply, Polynomial.finsetSum_coeff] at hc
+   have hb : ∀ s : Fin m, (Lagrange.basis univ x s).coeff (m - 1) =
+       (∏ j ∈ univ.erase s, (x s - x j))⁻¹ := by
+     intro s

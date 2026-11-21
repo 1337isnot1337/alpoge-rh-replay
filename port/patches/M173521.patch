@@ -1,0 +1,14 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/Rationality/BasisChangeSt.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/Rationality/BasisChangeSt.lean
+@@ -4,9 +4,8 @@
+ 
+ def BasisChangeStatement : Prop :=
+   ∀ (K : Type) [NormedField K] [IsUltrametricDist K] (ι : Type) [Fintype ι] (P : MvPolynomial ι K) (d : ℕ),
+-    P.IsHomogeneous d → (∀ μ, ‖MvPolynomial.coeff μ P‖ ≤ 1) →
++    P.IsHomogeneous d → (∀ μ, ‖P.coeff μ‖ ≤ 1) →
+     ∀ (A : ι → ι → K) (C : ℝ), 1 ≤ C → (∀ i k, ‖A i k‖ ≤ C) →
+-      ∀ μ, ‖MvPolynomial.coeff μ
+-        (MvPolynomial.bind₁ (fun i => ∑ k, MvPolynomial.C (A i k) * MvPolynomial.X k) P)‖ ≤ C ^ d
++      ∀ μ, ‖(MvPolynomial.bind₁ (fun i => ∑ k, MvPolynomial.C (A i k) * MvPolynomial.X k) P).coeff μ‖ ≤ C ^ d
+ 
+ end ReciprocityTheory.ChartRestriction.G.FreeQuotientRank
