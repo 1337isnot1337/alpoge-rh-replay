@@ -1,0 +1,8 @@
+{
+ "module": "CompanionTheory.AutomorphicTheory.HeckeStandardModules.ExistsCen",
+ "source_sha256": "2ebabf0a744d173ea3298e7bded0664f4c31e0697e5019da1037efb85560683a",
+ "lean": "leanprover/lean4:v4.36.0",
+ "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+ "notes": "fixed for Lean 4.36",
+ "evidence": "local port build on leanprover/lean4:v4.36.0 (codespace worker): lake build succeeded after patch"
+}

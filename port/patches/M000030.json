@@ -1,0 +1,8 @@
+{
+ "module": "CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.GridSum",
+ "source_sha256": "a71dd03be491f99bc727cb5b95d4392cb4acafef448d8f28a910414f3d5d67b1",
+ "lean": "leanprover/lean4:v4.36.0",
+ "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+ "notes": "fixed for Lean 4.36",
+ "evidence": "local port build on leanprover/lean4:v4.36.0 (codespace worker): lake build succeeded after patch"
+}
