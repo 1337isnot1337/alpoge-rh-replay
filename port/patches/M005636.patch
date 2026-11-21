@@ -1,0 +1,12 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/HeightOneSpectrumPlacesOverFiniteSet.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/HeightOneSpectrumPlacesOverFiniteSet.lean
+@@ -44,6 +44,8 @@
+     · refine Ideal.IsDedekindDomain.ramificationIdx'_ne_zero ?_ w.isPrime Ideal.map_comap_le
+       rw [Ne, Ideal.map_eq_bot_iff_of_injective (FaithfulSMul.algebraMap_injective (𝓞 F) (𝓞 E))]
+       exact (w.under (𝓞 F)).ne_bot
+-    · exact (HeightOneSpectrum.valuation_liesOver E (w.under (𝓞 F)) w x).symm
++    · rw [Ideal.ramificationIdx'_eq_ramificationIdx (w.under (𝓞 F)).asIdeal w.asIdeal
++        (w.under (𝓞 F)).ne_bot]
++      exact (HeightOneSpectrum.valuation_liesOver E (w.under (𝓞 F)) w x).symm
+ 
+ end GlobalTheory.QNorm

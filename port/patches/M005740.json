@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.MemIffForallMemLocalizeRingOfIntegers",
+  "source_sha256": "3b1a27e720a8387ff9fca17ee78d94a91adc958df160c05d6682c408be686cd6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Preserve the pinned lattice predicate exactly with PinnedIsLattice (the same finite-generation and full-span fields). A direct global rename to target IsFullLattice would add an independent-set hypothesis in the arbitrary commutative coefficient-ring frame theorem, so retain the original predicate throughout. The helper instance derives target IsFullLattice only over an existing fraction field, where IsLattice.of_fg proves the additional condition. This lets the original finrank and basis-extension arguments use the target API without strengthening any exported hypothesis, definition or conclusion. All existing declaration names and mathematical quantifiers remain the same.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0097-lean436-20261121/packet-result.json"
+}

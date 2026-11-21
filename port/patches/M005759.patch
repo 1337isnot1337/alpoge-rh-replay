@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/MulLogEqNegLogMul.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/MulLogEqNegLogMul.lean
+@@ -11,7 +11,7 @@
+   ext i j
+   have hij := congrFun (congrFun h i) j
+   rw [mul_diagonal, diagonal_mul] at hij
+-  rw [neg_apply, mul_diagonal, diagonal_mul]
++  rw [Matrix.neg_apply, mul_diagonal, diagonal_mul]
+   by_cases hy : y i j = 0
+   · simp [hy]
+   · have h1 : ((Real.exp (d' i) : ℝ) : ℂ) * (Real.exp (d j) : ℝ) = 1 := by
