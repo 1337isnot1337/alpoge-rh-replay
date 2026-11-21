@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.IsoInvMetric",
+  "source_sha256": "f96aad2563f0574f5b1ebd99ef2e02555333aea1c90d9afc6109800bb2c9fb73",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0073-lean436-20261121/packet-result.json"
+}

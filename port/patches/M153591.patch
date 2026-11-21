@@ -1,0 +1,11 @@
+--- a/src/Formalism/PeriodIntegrals/JointBlockShapes/MinusPart.lean
++++ b/src/Formalism/PeriodIntegrals/JointBlockShapes/MinusPart.lean
+@@ -76,7 +76,7 @@
+ open Classical in
+ 
+ def fockInner (P Q : MvPolynomial σ ℂ) : ℂ :=
+-  ∑ α ∈ P.support, ∑ β ∈ Q.support, (starRingEnd ℂ) (MvPolynomial.coeff α P) * MvPolynomial.coeff β Q *
++  ∑ α ∈ P.support, ∑ β ∈ Q.support, (starRingEnd ℂ) (P.coeff α) * Q.coeff β *
+     (if α = β then α.prod (fun _ k => (k.factorial : ℂ)) else 0)
+ 
+ end Grading

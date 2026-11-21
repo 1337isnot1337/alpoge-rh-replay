@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.EmbTraceSum",
+  "source_sha256": "a57b618ef903c17869a17d87fc6250766483bc6635dd1fda46e3685841823646",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0073-lean436-20261121/packet-result.json"
+}

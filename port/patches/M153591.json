@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.JointBlockShapes.MinusPart",
+  "source_sha256": "91f0d93a0b077e8d2ae1bbee1015e72bb7c87e6c7a5138f22709880b63c530a7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The removed index-first MvPolynomial.coeff wrapper is replaced by polynomial-first coefficient evaluation. In the pinned Mathlib, MvPolynomial.coeff m p is defined as AddMonoidAlgebra.coeff p applied to m; the target exposes that same operation through p.coeff m. Thus the affected definition bodies are definitionally equivalent coefficient expressions, with identical hypotheses, conclusions and polynomial coefficients.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0073-lean436-20261121/packet-result.json"
+}

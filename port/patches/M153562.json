@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.HermitianGenusExtension.SemilocalHermitianLattices.ExistsNormOneOfPair",
+  "source_sha256": "98fa219bcd871a71c9b997bf21b325087b4c6eca0c1f8c4186cb29330cbca84e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0073-lean436-20261121/packet-result.json"
+}

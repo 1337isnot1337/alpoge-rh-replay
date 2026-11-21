@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.LocBasisPlace",
+  "source_sha256": "79d0b046878bdc62cf2dc6c73d995e1fb62e0d5454efdbb204f53665728bb5f7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0073-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.IsoDualPair",
+  "source_sha256": "870230c3fd42a17915227a47dcc6be231694c6d7c5dc7b009063b762df3942bc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0073-lean436-20261121/packet-result.json"
+}
