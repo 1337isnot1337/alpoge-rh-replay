@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.PhNormLimit",
+  "source_sha256": "fbfaed6262dd8425d959f628138510a8feebdeaa34164cfbb3e1bcbb65da313f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

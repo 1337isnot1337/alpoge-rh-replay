@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.PhSchurConv",
+  "source_sha256": "f57416757b4af978388f3ba969f7c3838b307d1f2d553abf1da19c571a84965a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

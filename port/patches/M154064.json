@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.RayBoundIQ",
+  "source_sha256": "a796fab610a8b463f91ca5231b16d057b7a1b446b156ca23d333c3dc2c966701",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

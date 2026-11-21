@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.QuadDiff",
+  "source_sha256": "8b04f099c26eb450c5abe2a4401c9f269c6fb99bc492e171412d723ca5bf3e00",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

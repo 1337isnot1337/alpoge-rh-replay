@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.RhsWLim",
+  "source_sha256": "915efb6461eb284225da5d184862120461928f2103ec3e481d50a46c42498173",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

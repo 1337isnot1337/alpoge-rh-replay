@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.SameFormAllLevels",
+  "source_sha256": "42675eba95fa4c68f845c7d293a8df1937f66fbf74a31f6cd4e069cf06e1fb9a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

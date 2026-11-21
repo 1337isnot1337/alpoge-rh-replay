@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.SplitZeroG",
+  "source_sha256": "530da56714271fd0fc78a5668d124eb7d2cfed449a86ef865a4d73707b3aa1b2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

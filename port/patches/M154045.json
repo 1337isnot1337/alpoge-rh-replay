@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.PrimesDyadicRS",
+  "source_sha256": "2e9c4a15c5d77c8825990bbb71591e880618591d89be545c7ea39f40d30065ee",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

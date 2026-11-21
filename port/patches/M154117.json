@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.Transference",
+  "source_sha256": "da50e9b46fc6fa9c411140b70446e9e1af06333443e57af115bcab55f330fdc7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

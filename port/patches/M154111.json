@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.TayInvPow",
+  "source_sha256": "b0388b916a24339414581e9829793f773f1c56cfe94ed95c5ff81f6e0ea7cfee",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

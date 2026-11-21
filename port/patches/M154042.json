@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.PowBddInt",
+  "source_sha256": "5dfea149cbcedc641d89fc00060a4fcec7a95c21ba0f78805c4bf4e23b1e3b6c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

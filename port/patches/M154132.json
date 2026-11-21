@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnimodularOrthogonalQ2",
+  "source_sha256": "dc9b5d29966c9d392821e7127664bf0ee9143a80e6791814c751bf2b0878b20f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

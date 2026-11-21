@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.PrimeSums",
+  "source_sha256": "e2fa843431c5420abdb5f3248931b7a91ad028bf9ceba98b0a92ab3be4134aa7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.SelfDualLoc",
+  "source_sha256": "9f700eaac60ee09f5765aee089eb6159d50df9be45d608cf3478f80a25410c64",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
