@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.DiscreteSeriesTopClasses.IsInvOne",
+  "source_sha256": "73948cd31fba52e469b511e977cda08ca5f913ba4151591e594e76faa56ea401",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0145-lean436-20261121/packet-result.json"
+}

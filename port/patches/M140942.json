@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.InfinitesimalCharacterLimits.LieSumDecompositions.PSepFacB",
+  "source_sha256": "8d4fe07d2d816b437100d36768da0df06283d0e57348251f57e1295829a6149f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: evaluate singleton coefficients explicitly and construct the original local commutative adjoin-ring instance via the target pairwise-commutativity API. The underlying ring operations and exported statements are unchanged. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0145-lean436-20261121/packet-result.json"
+}

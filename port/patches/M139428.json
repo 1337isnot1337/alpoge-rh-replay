@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.PluriharmonicCharts.ProjectiveLineNormalFrame",
+  "source_sha256": "05bfab3296cd70bcf57bd59799d80e9f969173e0d1d0cd5f20dd403990aea9ed",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0145-lean436-20261121/packet-result.json"
+}

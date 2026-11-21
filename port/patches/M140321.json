@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.TemperedRepresentationTheory.MirabolicDerivatives.TwistedKernels.TwKerLeComapOf",
+  "source_sha256": "e849d37212ec33227b0c4512eb537ec4183eff50d6660eae3ce63092177c060f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0145-lean436-20261121/packet-result.json"
+}

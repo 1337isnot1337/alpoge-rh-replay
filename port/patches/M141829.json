@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.RepresentationTheoryGL.JacquetShalikaBounds.AbsoluteRigidity.EulerLogarithms.EulerProductLogBound",
+  "source_sha256": "e2acda1d89ca006eaea37b94c911499fb46965b231452f926f4dac4b9ba490c9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0145-lean436-20261121/packet-result.json"
+}

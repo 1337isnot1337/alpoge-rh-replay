@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.TwistedPieces.IntegralParts.BezoutHypotheses.Bez2",
+  "source_sha256": "44429a1c84d4e50ebd0e7d77dae84f741620e08bb7b21b5bbb49380cb3feb603",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: omit tactics after the target convert tactic has already closed the original equality. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0145-lean436-20261121/packet-result.json"
+}
