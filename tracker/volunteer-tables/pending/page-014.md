@@ -17,6 +17,7 @@
 | [@loremcdmx](https://github.com/loremcdmx) | [M005107](https://github.com/rohanarun/alpoge-rh-replay/issues/10990#issuecomment-7055891563) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M059340](https://github.com/rohanarun/alpoge-rh-replay/issues/10991#issuecomment-7055892340) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M002402](https://github.com/rohanarun/alpoge-rh-replay/issues/10992#issuecomment-7055893130) | Pending review |
+| [@emsi](https://github.com/emsi) | [P1928](https://github.com/rohanarun/alpoge-rh-replay/issues/10993#issuecomment-7056945450) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M002609](https://github.com/rohanarun/alpoge-rh-replay/issues/10994#issuecomment-7055894118) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M002713](https://github.com/rohanarun/alpoge-rh-replay/issues/10995#issuecomment-7055894953) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M005006](https://github.com/rohanarun/alpoge-rh-replay/issues/10996#issuecomment-7055895693) | Pending review |
@@ -253,4 +254,3 @@
 | [@UnityChaos](https://github.com/UnityChaos) | [M154031](https://github.com/rohanarun/alpoge-rh-replay/issues/11228#issuecomment-7056213538) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M101636](https://github.com/rohanarun/alpoge-rh-replay/issues/11229#issuecomment-7056214713) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M104506](https://github.com/rohanarun/alpoge-rh-replay/issues/11230#issuecomment-7056215889) | Pending review |
-| [@UnityChaos](https://github.com/UnityChaos) | [M057206](https://github.com/rohanarun/alpoge-rh-replay/issues/11231#issuecomment-7056217102) | Pending review |
