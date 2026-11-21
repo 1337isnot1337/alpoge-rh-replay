@@ -1,0 +1,7 @@
+{
+ "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleProdOfEtaleStatement",
+ "source_sha256": "156e3356b44d5307bd8a6c418cd6e62f3ce9427458d0c7b67b8e85cf486c2816",
+ "lean": "leanprover/lean4:v4.36.0",
+ "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+ "notes": "unchanged"
+}
