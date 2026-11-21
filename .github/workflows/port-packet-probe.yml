@@ -1,7 +1,7 @@
-name: Port P0162 complete packet
+name: Port P0162 complete packet V2
 on:
   push:
-    branches: [port-ci-p0162-436]
+    branches: [port-ci-p0162-v2-436]
     paths:
       - '.github/workflows/port-packet-probe.yml'
       - 'scripts/port-packet-diagnostic.py'
