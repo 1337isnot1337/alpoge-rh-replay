@@ -4,6 +4,8 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@rayy3535](https://github.com/rayy3535) | [M116092](https://github.com/rohanarun/alpoge-rh-replay/issues/8097#issuecomment-7054089241) | Pending review |
+| [@zediir](https://github.com/zediir) | [M142307](https://github.com/rohanarun/alpoge-rh-replay/issues/8098#issuecomment-7054094785) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M164770](https://github.com/rohanarun/alpoge-rh-replay/issues/8099#issuecomment-7054099112) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M164881](https://github.com/rohanarun/alpoge-rh-replay/issues/8100#issuecomment-7054100552) | Pending review |
 | [@matan1905](https://github.com/matan1905) | [M106073](https://github.com/rohanarun/alpoge-rh-replay/issues/8104#issuecomment-7054101183) | Pending review |
@@ -252,5 +254,3 @@
 | [@rayy3535](https://github.com/rayy3535) | [M035124](https://github.com/rohanarun/alpoge-rh-replay/issues/8445#issuecomment-7054424466) | Pending review |
 | [@rayy3535](https://github.com/rayy3535) | [M045245](https://github.com/rohanarun/alpoge-rh-replay/issues/8446#issuecomment-7054425848) | Pending review |
 | [@rayy3535](https://github.com/rayy3535) | [M051535](https://github.com/rohanarun/alpoge-rh-replay/issues/8447#issuecomment-7054427342) | Pending review |
-| [@rayy3535](https://github.com/rayy3535) | [M054561](https://github.com/rohanarun/alpoge-rh-replay/issues/8448#issuecomment-7054428978) | Pending review |
-| [@rayy3535](https://github.com/rayy3535) | [M054563](https://github.com/rohanarun/alpoge-rh-replay/issues/8450#issuecomment-7054430455) | Pending review |

@@ -148,6 +148,8 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M032318](https://github.com/rohanarun/alpoge-rh-replay/issues/7710#issuecomment-7054080263) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M013911](https://github.com/rohanarun/alpoge-rh-replay/issues/7745#issuecomment-7053877634) | Pending review |
 | [@BenCaunt](https://github.com/BenCaunt) | [M032927](https://github.com/rohanarun/alpoge-rh-replay/issues/7758#issuecomment-7054637243) | Pending review |
+| [@BenCaunt](https://github.com/BenCaunt) | [M032929](https://github.com/rohanarun/alpoge-rh-replay/issues/7782#issuecomment-7054724207) | Pending review |
+| [@BenCaunt](https://github.com/BenCaunt) | [M034827](https://github.com/rohanarun/alpoge-rh-replay/issues/7803#issuecomment-7054723181) | Pending review |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M024668](https://github.com/rohanarun/alpoge-rh-replay/issues/7809#issuecomment-7053904185) | Pending review |
 | [@BenCaunt](https://github.com/BenCaunt) | [M043352](https://github.com/rohanarun/alpoge-rh-replay/issues/7821#issuecomment-7054371308) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M115203](https://github.com/rohanarun/alpoge-rh-replay/issues/7836#issuecomment-7053950043) | Pending review |
@@ -252,5 +254,3 @@
 | [@egergerfg](https://github.com/egergerfg) | [M165042](https://github.com/rohanarun/alpoge-rh-replay/issues/8087#issuecomment-7054089925) | Pending review |
 | [@rayy3535](https://github.com/rayy3535) | [M093084](https://github.com/rohanarun/alpoge-rh-replay/issues/8091#issuecomment-7054090445) | Pending review |
 | [@roonastgames](https://github.com/roonastgames) | [M163949](https://github.com/rohanarun/alpoge-rh-replay/issues/8096#issuecomment-7054102687) | Pending review |
-| [@rayy3535](https://github.com/rayy3535) | [M116092](https://github.com/rohanarun/alpoge-rh-replay/issues/8097#issuecomment-7054089241) | Pending review |
-| [@zediir](https://github.com/zediir) | [M142307](https://github.com/rohanarun/alpoge-rh-replay/issues/8098#issuecomment-7054094785) | Pending review |
