@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.CoreStatements.IdealCycleValues.FlatColon",
+  "source_sha256": "bbbb9bf3530fba0935609a2e04b0056918c5f7e310670f384d43068d1ba481a1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`IsBaseChange.inductionOn` no longer has a `zero` case; drop it in two inductions. A `simp` that now times out in type class search is replaced by `rw [(b.coord i).map_zero, map_zero]`."
+}

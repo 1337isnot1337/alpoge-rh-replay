@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.ConeSectionRestriction.ExistsTmulOneEqOfIsIntegral",
+  "source_sha256": "97d0a7a038bc839a0b9cd9492b2d0dcb07abb38b73c562dbf25799dc8274d1e4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Induction on `TensorProduct` no longer has a `zero` case; drop it."
+}

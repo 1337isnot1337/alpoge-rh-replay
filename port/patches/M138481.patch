@@ -1,0 +1,20 @@
+--- a/src/Development/WeilBound/CoreStatements/HodgeTatePoints/PdvrExt.lean
++++ b/src/Development/WeilBound/CoreStatements/HodgeTatePoints/PdvrExt.lean
+@@ -27,7 +27,7 @@ theorem exists_root (V : Type) [CommRing V] [IsDomain V] [IsDiscreteValuationRin
+       M = Ideal.map (AdjoinRoot.of P) (maximalIdeal V) := by
+     intro M hM
+     have h1 : (M.comap (algebraMap V (AdjoinRoot P))).IsMaximal :=
+-      Ideal.isMaximal_comap_of_isIntegral_of_isMaximal M
++      Ideal.isMaximal_under_of_isIntegral_of_isMaximal M
+     have h2 := eq_maximalIdeal h1
+     refine (hmax.eq_of_le hM.ne_top ?_).symm
+     rw [Ideal.map_le_iff_le_comap, ← h2]
+@@ -43,7 +43,7 @@ theorem exists_root (V : Type) [CommRing V] [IsDomain V] [IsDiscreteValuationRin
+     exact fun h => hπ.ne_zero (hinj (h.trans (map_zero _).symm))
+   have : IsNoetherianRing (AdjoinRoot P) := IsNoetherianRing.of_finite V _
+   have hdvr : IsDiscreteValuationRing (AdjoinRoot P) :=
+-    ((IsDiscreteValuationRing.TFAE (AdjoinRoot P) hnf).out 0 4).mpr
++    ((IsDiscreteValuationRing.TFAE (AdjoinRoot P) hnf).out 1 5).mpr
+       (show (maximalIdeal (AdjoinRoot P)).IsPrincipal from ⟨_, hme'⟩)
+   have hloc : IsLocalHom (AdjoinRoot.of P) := by
+     refine ⟨fun a ha => ?_⟩

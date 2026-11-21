@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.SiegelWeilActions.IsFirstChernFamily",
+  "source_sha256": "fcb1491627f90fdcd71052975328918d3dfe12f343c8799c56392054e6c60c21",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Measure.QuasiMeasurePreserving` now asks for `AEMeasurable`; pass `hmeas.aemeasurable`."
+}
