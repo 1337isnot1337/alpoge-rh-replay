@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/TaylorDiscriminants/DiscriminantEstimates/DiscriminantLemmas/WickFormula/GenVan.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/TaylorDiscriminants/DiscriminantEstimates/DiscriminantLemmas/WickFormula/GenVan.lean
+@@ -20,7 +20,7 @@
+     (h : R ∈ lowDeg f 0) : R = 0 := by
+   rw [mem_lowDeg] at h
+   ext m
+-  rw [coeff_zero]
++  rw [AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply]
+   by_contra hne
+   exact Nat.not_lt_zero _ (h m (mem_support_iff.mpr hne))
+ 

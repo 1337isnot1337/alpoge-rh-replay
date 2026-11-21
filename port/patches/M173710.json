@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.StrongApproximation.DenseRangeFiniteAdele",
+  "source_sha256": "e2cb120bdf0f3e3dc21d92ab290964695077dcd2ed748c660f5e65618522234b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: obtain continuity of the same translation from the addition rule with explicitly specified constant function. Reduce the pointwise addition application before rewriting its value at zero. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0170-lean436-20261121/packet-result.json"
+}

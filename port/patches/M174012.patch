@@ -1,0 +1,38 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/DiscreteSeriesExistence/CayleyChartDomainIsOpen.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/DiscreteSeriesExistence/CayleyChartDomainIsOpen.lean
+@@ -20,23 +20,31 @@
+         rw [← ENNReal.rpow_mul]; norm_num
+ 
+ private lemma eLpNorm_two_rpow_two_eq_lintegral {Y : Type*} [MeasurableSpace Y] {ν : Measure Y} (f : Y → ℂ) :
+-    eLpNorm f 2 ν ^ (2:ℝ) = ∫⁻ x, ‖f x‖ₑ ^ (2:ℝ) ∂ν := by
+-  rw [eLpNorm_eq_lintegral_rpow_enorm (by norm_num) (by norm_num), ← ENNReal.rpow_mul]
++    eLpNorm' f 2 ν ^ (2:ℝ) = ∫⁻ x, ‖f x‖ₑ ^ (2:ℝ) ∂ν := by
++  rw [eLpNorm'_eq_lintegral_eNorm, ← ENNReal.rpow_mul]
+   norm_num
+ 
+ theorem slm_eLpNorm_le {X : Type*} [MeasurableSpace X] {μ : Measure X} [SFinite μ]
+     (r : X → ℂ) (D : ℝ → X → ℂ) (hD : Measurable (Function.uncurry D))
+     (hr : ∀ x, r x = ∫ s in (0:ℝ)..1, D s x) (B : ENNReal)
+     (hB : ∀ s ∈ Ioc (0:ℝ) 1, eLpNorm (D s) 2 μ ≤ B) : eLpNorm r 2 μ ≤ B := by
++  have hrm : AEStronglyMeasurable r μ := by
++    have heq : r = fun x => ∫ s, D s x ∂volume.restrict (Ioc (0 : ℝ) 1) := by
++      funext x
++      rw [hr x, intervalIntegral.integral_of_le zero_le_one]
++    rw [heq]
++    exact (hD.stronglyMeasurable.integral_prod_left).aestronglyMeasurable
+   have hmeas : ∀ x, Measurable fun s => D s x := fun x => hD.of_uncurry_right
+   have hpt : ∀ x, ‖r x‖ₑ ≤ ∫⁻ s in Ioc (0:ℝ) 1, ‖D s x‖ₑ := fun x => by
+     rw [hr x, intervalIntegral.integral_of_le zero_le_one]
+     exact enorm_integral_le_lintegral_enorm _
+   have hsq : ∀ s ∈ Ioc (0:ℝ) 1, ∫⁻ x, ‖D s x‖ₑ ^ (2:ℝ) ∂μ ≤ B ^ (2:ℝ) := fun s hs => by
+     rw [← eLpNorm_two_rpow_two_eq_lintegral]
+-    exact ENNReal.rpow_le_rpow (hB s hs) (by norm_num)
++    have hDs : AEStronglyMeasurable (D s) μ := hD.of_uncurry_left.aestronglyMeasurable
++    simpa only [eLpNorm_eq_eLpNorm' (p := 2) (by norm_num) (by norm_num) hDs, ENNReal.toReal_ofNat] using
++      ENNReal.rpow_le_rpow (hB s hs) (by norm_num : (0 : ℝ) ≤ 2)
+   have hmain : eLpNorm r 2 μ ^ (2:ℝ) ≤ B ^ (2:ℝ) := by
+-    rw [eLpNorm_two_rpow_two_eq_lintegral]
++    rw [eLpNorm_eq_eLpNorm' (by norm_num) (by norm_num) hrm, ENNReal.toReal_ofNat, eLpNorm_two_rpow_two_eq_lintegral]
+     calc ∫⁻ x, ‖r x‖ₑ ^ (2:ℝ) ∂μ
+         ≤ ∫⁻ x, (∫⁻ s in Ioc (0:ℝ) 1, ‖D s x‖ₑ) ^ (2:ℝ) ∂μ :=
+           lintegral_mono fun x => ENNReal.rpow_le_rpow (hpt x) (by norm_num)

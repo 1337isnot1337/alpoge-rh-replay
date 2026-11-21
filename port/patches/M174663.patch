@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/MultiplicityOne/JTransMA.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/MultiplicityOne/JTransMA.lean
+@@ -144,8 +144,6 @@
+     unfold Matrix.IsHermitian
+     rw [Matrix.conjTranspose_smul, hXs, smul_neg, ← neg_smul]
+     congr 1
+-    show -(starRingEnd ℂ Complex.I) = Complex.I
+-    rw [Complex.conj_I, neg_neg]
+   obtain ⟨W, hW⟩ : ∃ W : Matrix S S ℂ, W = (hH.eigenvectorUnitary : Matrix S S ℂ) := ⟨_, rfl⟩
+   have hW1 : Wᴴ * W = 1 := by
+     rw [hW, ← Matrix.star_eq_conjTranspose (hH.eigenvectorUnitary : Matrix S S ℂ)]
