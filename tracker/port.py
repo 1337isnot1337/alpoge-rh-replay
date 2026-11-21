@@ -48,6 +48,17 @@ def packets(rows):
     return groups
 
 
+def reservation_conflict(target, groups, by_id, taken):
+    """Return the open reservation overlapping target, if any."""
+    if target in taken:
+        return target
+    row = by_id.get(target)
+    if row is not None:
+        packet = row['packet']
+        return packet if packet in taken else None
+    return next((row['id'] for row in groups[target] if row['id'] in taken), None)
+
+
 def ready(packet_rows, done):
     """Every project import outside the packet must already be ported."""
     inside = {r['id'] for r in packet_rows}
@@ -72,15 +83,19 @@ def main():
     groups = packets(rows)
 
     if args.command == 'show':
-        for r in sorted(groups.get(args.packet, []), key=lambda r: r['id']):
+        selected = groups.get(args.packet)
+        if selected is None:
+            selected = [by_id[args.packet]] if args.packet in by_id else []
+        for r in sorted(selected, key=lambda r: r['id']):
             state = 'ported' if r['id'] in done else status.get(r['id'], 'untriaged')
             print(r['id'], r['depth'], state, r['module'])
         return
     if args.command == 'claim':
         if not re.fullmatch(r'P\d{4}|M\d{6}', args.packet) or (args.packet not in groups and args.packet not in by_id):
             raise SystemExit('Unknown packet or module ID')
-        if args.packet in port_issues():
-            raise SystemExit('Already reserved by an open Port issue')
+        conflict = reservation_conflict(args.packet, groups, by_id, port_issues())
+        if conflict is not None:
+            raise SystemExit(f'Already reserved by an open Port issue: Port {conflict}')
         subprocess.run(['gh', 'issue', 'create', '--repo', tasks.repo, '--title', f'Port {args.packet}',
                         '--label', 'port', '--body', 'Porting this packet to the target in port/target.json. See PORTING.md.'],
                        check=True)
@@ -88,7 +103,9 @@ def main():
     taken = port_issues()
     choices = []
     for packet, members in groups.items():
-        if packet in taken or all(r['id'] in done for r in members) or not ready(members, done):
+        if (reservation_conflict(packet, groups, by_id, taken) is not None
+                or all(r['id'] in done for r in members)
+                or not ready(members, done)):
             continue
         depth = max(r['depth'] for r in members)
         failing = sum(status.get(r['id']) == 'fail' for r in members)
