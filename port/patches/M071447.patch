@@ -1,0 +1,22 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/IsAdicCompleteOfFinite.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/IsAdicCompleteOfFinite.lean
+@@ -43,7 +43,7 @@
+   haveI : IsNoetherianRing S := IsNoetherianRing.of_finite R S
+   haveI : Algebra.IsIntegral R S := Algebra.IsIntegral.of_finite R S
+   have hcomap : (maximalIdeal S).comap (algebraMap R S) = maximalIdeal R :=
+-    eq_maximalIdeal (Ideal.isMaximal_comap_of_isIntegral_of_isMaximal (maximalIdeal S))
++    eq_maximalIdeal (Ideal.isMaximal_under_of_isIntegral_of_isMaximal (R := R) (maximalIdeal S))
+   have hle : (maximalIdeal R).map (algebraMap R S) ≤ maximalIdeal S :=
+     Ideal.map_le_iff_le_comap.mpr hcomap.ge
+   have hrad : maximalIdeal S ≤ ((maximalIdeal R).map (algebraMap R S)).radical := by
+@@ -54,8 +54,8 @@
+     have h2 : P.comap (algebraMap R S) = maximalIdeal R :=
+       ((maximalIdeal.isMaximal R).eq_of_le (Ideal.comap_ne_top _ hprime.ne_top) h1).symm
+     have h3 : P.IsMaximal :=
+-      Ideal.isMaximal_of_isIntegral_of_isMaximal_comap (R := R) P
+-        (h2 ▸ maximalIdeal.isMaximal R)
++      Ideal.isMaximal_of_isIntegral_of_isMaximal_under (R := R) P
++        (show (P.comap (algebraMap R S)).IsMaximal from h2 ▸ maximalIdeal.isMaximal R)
+     exact (eq_maximalIdeal h3).ge
+   obtain ⟨k, hk⟩ := Ideal.exists_pow_le_of_le_radical_of_fg hrad (IsNoetherian.noetherian _)
+   haveI : IsPrecomplete (maximalIdeal R) S := isPrecomplete_of_finite _

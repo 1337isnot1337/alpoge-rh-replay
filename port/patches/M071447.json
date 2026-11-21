@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsAdicCompleteOfFinite",
+  "source_sha256": "1c1517df16438d4adcf201d8ac0594641d759e73e2d156b273f06a7527c6b8fb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the algebra-based ideal-under maximality lemmas and annotate the comap maximality proof. Ideal.under is comap along algebraMap. Definitions and theorem statements are unchanged."
+}
