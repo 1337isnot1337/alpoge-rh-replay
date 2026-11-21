@@ -26,6 +26,8 @@ A Google Cloud job compiles each depth-0 module unchanged on the target toolchai
 
 Work in **packets**, the same 64-module groups the replay uses (`python3 tracker/tasks.py show P0123`), in import-depth order. A module can only be ported once everything it imports is ported, so start at depth 0 and move up. `python3 tracker/tasks.py next --cold` lists shallow packets.
 
+The port build, patch, and evidence commands omit packet members listed in `port/pruned.txt`. Every import used by a selected member must still have a port record.
+
 Each ported module is stored as a **patch against its pinned source**, not as a copy of the archive:
 
 ```
