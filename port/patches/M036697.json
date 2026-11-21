@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.InertiaDegBotEqFinrankFiniteDomainStatement",
+  "source_sha256": "578a206cfc2ef1c90aaccc52f16cea28e3500d0fb8b914ce8375f4067fcbbbe3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0108-lean436-20261121/packet-result.json"
+}
