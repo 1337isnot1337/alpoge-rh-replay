@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.NormOnValuationRing",
+  "source_sha256": "586275fb7d6eae0ce97b5b29b17792a142ed9bf942a144047cc8e0a26a477add",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Ideal.isMaximal_of_isIntegral_of_isMaximal_under for the algebra-based integral extension; the under ideal is definitionally the same algebra-map comap. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0055-lean436-20261121/packet-result.json"
+}

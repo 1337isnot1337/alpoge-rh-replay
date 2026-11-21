@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.NormLeOneOfIntegral",
+  "source_sha256": "82227a89e3525c99521e0ead6389ffe32567aea7e3412ffc875f04af0f62b952",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0055-lean436-20261121/packet-result.json"
+}

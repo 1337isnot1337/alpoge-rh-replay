@@ -1,0 +1,12 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/NormOnValuationRing.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/NormOnValuationRing.lean
+@@ -51,7 +51,8 @@
+     ext a
+     rw [Ideal.mem_comap, hP, φ.commutes, UpperTheory.Reformulated.B.NormOnValuationRing.norm_algebraMap,
+       IsLocalRing.mem_maximalIdeal, PadicInt.mem_nonunits]
++  change P.under ℤ_[l] = IsLocalRing.maximalIdeal ℤ_[l] at hcomap
+   have hmax : P.IsMaximal :=
+-    Ideal.isMaximal_of_isIntegral_of_isMaximal_comap (R := ℤ_[l]) P
++    Ideal.isMaximal_of_isIntegral_of_isMaximal_under (R := ℤ_[l]) P
+       (hcomap ▸ IsLocalRing.maximalIdeal.isMaximal ℤ_[l])
+   rw [← IsLocalRing.eq_maximalIdeal hmax, hP]

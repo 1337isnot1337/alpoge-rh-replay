@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MultilinearVanishLattice",
+  "source_sha256": "0c10edd17ac3e8ead651b8581ff01430de1a1713107487dfa5c32024a7209239",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Adapt T in the theorem statement from MultilinearMap \u2102 M N to MultilinearMap (RingHom.id \u2102) M N. The target parameterizes multilinear maps by a scalar ring homomorphism; specializing to the identity preserves ordinary complex multilinearity, since (RingHom.id \u2102) c = c. The same functions, additive laws and complex scalar laws are quantified over; no mathematical assumptions or conclusions change. The proof is unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0055-lean436-20261121/packet-result.json"
+}
