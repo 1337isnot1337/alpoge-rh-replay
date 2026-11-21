@@ -35,10 +35,11 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- active-volunteers-start -->
 
-[1,096 entries. View the full table](tracker/volunteer-tables/active/README.md).
+[1,093 entries. View the full table](tracker/volunteer-tables/active/README.md).
 
 | Contributor | Task | Status |
 |---|---|---|
+| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M121571](https://github.com/rohanarun/alpoge-rh-replay/issues/11036) | Claimed |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M005644](https://github.com/rohanarun/alpoge-rh-replay/issues/11037) | Claimed |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M039414](https://github.com/rohanarun/alpoge-rh-replay/issues/11038) | Claimed |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M025489](https://github.com/rohanarun/alpoge-rh-replay/issues/11039) | Claimed |
@@ -58,7 +59,6 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M120430](https://github.com/rohanarun/alpoge-rh-replay/issues/11053) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2124](https://github.com/rohanarun/alpoge-rh-replay/issues/11062) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2074](https://github.com/rohanarun/alpoge-rh-replay/issues/11070) | Claimed |
-| [@surfyhou](https://github.com/surfyhou) | [P1997](https://github.com/rohanarun/alpoge-rh-replay/issues/11082) | Claimed |
 
 <!-- active-volunteers-end -->
 
@@ -69,7 +69,7 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- pending-volunteers-start -->
 
-[3,360 entries. View the full table](tracker/volunteer-tables/pending/README.md).
+[3,363 entries. View the full table](tracker/volunteer-tables/pending/README.md).
 
 | Contributor | Task | Review |
 |---|---|---|

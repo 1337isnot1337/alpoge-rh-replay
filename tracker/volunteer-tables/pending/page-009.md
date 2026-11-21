@@ -228,6 +228,7 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M033034](https://github.com/rohanarun/alpoge-rh-replay/issues/9896#issuecomment-7055313927) | Pending review |
 | [@BenCaunt](https://github.com/BenCaunt) | [M103919](https://github.com/rohanarun/alpoge-rh-replay/issues/9897#issuecomment-7055326818) | Pending review |
 | [@roonastgames](https://github.com/roonastgames) | [M095857](https://github.com/rohanarun/alpoge-rh-replay/issues/9898#issuecomment-7055253845) | Pending review |
+| [@emsi](https://github.com/emsi) | [P1881](https://github.com/rohanarun/alpoge-rh-replay/issues/9899#issuecomment-7056099621) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M153371](https://github.com/rohanarun/alpoge-rh-replay/issues/9900#issuecomment-7055249096) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M143461](https://github.com/rohanarun/alpoge-rh-replay/issues/9901#issuecomment-7055251101) | Pending review |
 | [@BenCaunt](https://github.com/BenCaunt) | [M103984](https://github.com/rohanarun/alpoge-rh-replay/issues/9902#issuecomment-7055354755) | Pending review |
@@ -253,4 +254,3 @@
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M061914](https://github.com/rohanarun/alpoge-rh-replay/issues/9922#issuecomment-7055296949) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M105883](https://github.com/rohanarun/alpoge-rh-replay/issues/9923#issuecomment-7055298951) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M010702](https://github.com/rohanarun/alpoge-rh-replay/issues/9924#issuecomment-7055300575) | Pending review |
-| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M157469](https://github.com/rohanarun/alpoge-rh-replay/issues/9925#issuecomment-7055304250) | Pending review |

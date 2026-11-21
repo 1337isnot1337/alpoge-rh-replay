@@ -4,7 +4,6 @@
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@emsi](https://github.com/emsi) | [P1881](https://github.com/rohanarun/alpoge-rh-replay/issues/9899) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M108732](https://github.com/rohanarun/alpoge-rh-replay/issues/10035) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M108891](https://github.com/rohanarun/alpoge-rh-replay/issues/10040) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M108937](https://github.com/rohanarun/alpoge-rh-replay/issues/10063) | Claimed |
@@ -22,7 +21,6 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M111956](https://github.com/rohanarun/alpoge-rh-replay/issues/10411) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111962](https://github.com/rohanarun/alpoge-rh-replay/issues/10412) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M162217](https://github.com/rohanarun/alpoge-rh-replay/issues/10413) | Claimed |
-| [@emsi](https://github.com/emsi) | [P2060](https://github.com/rohanarun/alpoge-rh-replay/issues/10416) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111963](https://github.com/rohanarun/alpoge-rh-replay/issues/10435) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111964](https://github.com/rohanarun/alpoge-rh-replay/issues/10442) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M110131](https://github.com/rohanarun/alpoge-rh-replay/issues/10452) | Claimed |
@@ -99,4 +97,3 @@
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M120430](https://github.com/rohanarun/alpoge-rh-replay/issues/11053) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2124](https://github.com/rohanarun/alpoge-rh-replay/issues/11062) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2074](https://github.com/rohanarun/alpoge-rh-replay/issues/11070) | Claimed |
-| [@surfyhou](https://github.com/surfyhou) | [P1997](https://github.com/rohanarun/alpoge-rh-replay/issues/11082) | Claimed |
