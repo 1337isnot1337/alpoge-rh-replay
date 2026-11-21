@@ -48,17 +48,12 @@
 | [@dga471](https://github.com/dga471) | [M120679](https://github.com/rohanarun/alpoge-rh-replay/issues/15267) | Claimed |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M084849](https://github.com/rohanarun/alpoge-rh-replay/issues/15289) | Claimed |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M030618](https://github.com/rohanarun/alpoge-rh-replay/issues/15293) | Claimed |
-| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M041652](https://github.com/rohanarun/alpoge-rh-replay/issues/15295) | Claimed |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M002371](https://github.com/rohanarun/alpoge-rh-replay/issues/15302) | Claimed |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M031374](https://github.com/rohanarun/alpoge-rh-replay/issues/15304) | Claimed |
-| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M115452](https://github.com/rohanarun/alpoge-rh-replay/issues/15305) | Claimed |
-| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M140871](https://github.com/rohanarun/alpoge-rh-replay/issues/15309) | Claimed |
 | [@dga471](https://github.com/dga471) | [M130316](https://github.com/rohanarun/alpoge-rh-replay/issues/15315) | Claimed |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M173533](https://github.com/rohanarun/alpoge-rh-replay/issues/15321) | Claimed |
-| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M149217](https://github.com/rohanarun/alpoge-rh-replay/issues/15324) | Claimed |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M166702](https://github.com/rohanarun/alpoge-rh-replay/issues/15325) | Claimed |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M171931](https://github.com/rohanarun/alpoge-rh-replay/issues/15329) | Claimed |
-| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M115076](https://github.com/rohanarun/alpoge-rh-replay/issues/15332) | Claimed |
 | [@surfyhou](https://github.com/surfyhou) | [P2135](https://github.com/rohanarun/alpoge-rh-replay/issues/15336) | Claimed |
 | [@hipotures](https://github.com/hipotures) | [P2077](https://github.com/rohanarun/alpoge-rh-replay/issues/15338) | Claimed |
 | [@JamCh01](https://github.com/JamCh01) | [P2113](https://github.com/rohanarun/alpoge-rh-replay/issues/15355) | Claimed |
@@ -78,7 +73,6 @@
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M062556](https://github.com/rohanarun/alpoge-rh-replay/issues/15591) | Claimed |
 | [@mu-mei](https://github.com/mu-mei) | [M019751](https://github.com/rohanarun/alpoge-rh-replay/issues/15593) | Claimed |
 | [@mu-mei](https://github.com/mu-mei) | [M039147](https://github.com/rohanarun/alpoge-rh-replay/issues/15597) | Claimed |
-| [@mu-mei](https://github.com/mu-mei) | [M095236](https://github.com/rohanarun/alpoge-rh-replay/issues/15598) | Claimed |
 | [@dga471](https://github.com/dga471) | [M041043](https://github.com/rohanarun/alpoge-rh-replay/issues/15599) | Claimed |
 | [@rayy3535](https://github.com/rayy3535) | [P1860](https://github.com/rohanarun/alpoge-rh-replay/issues/15600) | Claimed |
 | [@dga471](https://github.com/dga471) | [M002920](https://github.com/rohanarun/alpoge-rh-replay/issues/15602) | Claimed |
@@ -87,8 +81,6 @@
 | [@dga471](https://github.com/dga471) | [M165001](https://github.com/rohanarun/alpoge-rh-replay/issues/15605) | Claimed |
 | [@dga471](https://github.com/dga471) | [M165025](https://github.com/rohanarun/alpoge-rh-replay/issues/15607) | Claimed |
 | [@dga471](https://github.com/dga471) | [M165026](https://github.com/rohanarun/alpoge-rh-replay/issues/15608) | Claimed |
-| [@dga471](https://github.com/dga471) | [M165042](https://github.com/rohanarun/alpoge-rh-replay/issues/15609) | Claimed |
-| [@mu-mei](https://github.com/mu-mei) | [M061629](https://github.com/rohanarun/alpoge-rh-replay/issues/15610) | Claimed |
 | [@dga471](https://github.com/dga471) | [M070801](https://github.com/rohanarun/alpoge-rh-replay/issues/15611) | Claimed |
 | [@dga471](https://github.com/dga471) | [M120680](https://github.com/rohanarun/alpoge-rh-replay/issues/15612) | Claimed |
 | [@TomMoeras](https://github.com/TomMoeras) | [P2167](https://github.com/rohanarun/alpoge-rh-replay/issues/15613) | Claimed |

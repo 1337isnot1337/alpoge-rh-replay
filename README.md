@@ -35,7 +35,7 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- active-volunteers-start -->
 
-[1,142 entries. View the full table](tracker/volunteer-tables/active/README.md).
+[1,134 entries. View the full table](tracker/volunteer-tables/active/README.md).
 
 | Contributor | Task | Status |
 |---|---|---|
