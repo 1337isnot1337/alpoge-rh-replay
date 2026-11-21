@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/LimElt.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/LimElt.lean
+@@ -18,7 +18,7 @@
+       exact h'
+     refine ⟨b, fun O => ?_⟩
+     have hopen : IsOpen {y : G | b⁻¹ * y ∈ O.toSubgroup} :=
+-      O.toOpenSubgroup.isOpen.preimage (continuous_mul_left _)
++      O.toOpenSubgroup.isOpen.preimage (continuous_const_mul _)
+     exact hl.eventually (hopen.mem_nhds (by simp))
+   · rw [mem_limKer]
+     intro O

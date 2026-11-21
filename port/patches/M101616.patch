@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/MonomialRepresentations/TwistOfRed.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/MonomialRepresentations/TwistOfRed.lean
+@@ -187,7 +187,7 @@
+     intro g f hf m hm v
+     rw [hc_apply, hc_apply]
+     have hn' : g⁻¹ * m * g ∈ N := by
+-      simpa using Subgroup.Normal.conj_mem ‹N.Normal› m hm g⁻¹
++      simpa using Subgroup.Normal.conj_mem m hm g⁻¹
+     have e1 : ∀ w, ρ m (ρ g w) = ρ g (ρ (g⁻¹ * m * g) w) := by
+       intro w
+       rw [hρ, hρ]

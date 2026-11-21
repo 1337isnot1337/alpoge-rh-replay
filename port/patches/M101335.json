@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.AdditiveValuationNorms.Imports",
+  "source_sha256": "86f8eee544d9b15ef6f155a12ae71fbf35c8603876c2591376780d2e679bba2d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use an explicitly typed polynomial coefficient function over ZMod l. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0131-lean436-20261121/packet-result.json"
+}

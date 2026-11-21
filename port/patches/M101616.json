@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.MonomialRepresentations.TwistOfRed",
+  "source_sha256": "f3a7e3760adc3a5b41feaceca66bc6cc9bc8825f298885047f0447b3a25015e3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: let the normal-subgroup instance be inferred in the updated conjugation lemma. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0131-lean436-20261121/packet-result.json"
+}

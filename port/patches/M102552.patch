@@ -1,0 +1,15 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/CommutativeAlgebra/CoFinite.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/CommutativeAlgebra/CoFinite.lean
+@@ -118,10 +118,10 @@
+       have : P.comap (algebraMap R R') = maximalIdeal R :=
+         le_antisymm (IsLocalRing.le_maximalIdeal hne) hle
+       rw [this]; infer_instance
+-    haveI := Ideal.isMaximal_of_isIntegral_of_isMaximal_comap (R := R) P hcm
++    haveI := Ideal.isMaximal_of_isIntegral_of_isMaximal_under (R := R) P hcm
+     exact IsLocalRing.eq_maximalIdeal this
+   have hcm' : (maximalIdeal R').comap (algebraMap R R') = maximalIdeal R :=
+-    IsLocalRing.eq_maximalIdeal (Ideal.isMaximal_comap_of_isIntegral_of_isMaximal (R := R) (maximalIdeal R'))
++    IsLocalRing.eq_maximalIdeal (Ideal.isMaximal_under_of_isIntegral_of_isMaximal (R := R) (maximalIdeal R'))
+   have hloc : IsLocalHom (algebraMap R R') := by
+     refine ⟨fun a ha => ?_⟩
+     by_contra hna
