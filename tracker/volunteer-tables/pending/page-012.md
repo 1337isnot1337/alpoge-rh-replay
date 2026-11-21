@@ -4,6 +4,8 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@UnityChaos](https://github.com/UnityChaos) | [M122320](https://github.com/rohanarun/alpoge-rh-replay/issues/10455#issuecomment-7055544940) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M146395](https://github.com/rohanarun/alpoge-rh-replay/issues/10456#issuecomment-7055552595) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M104528](https://github.com/rohanarun/alpoge-rh-replay/issues/10457#issuecomment-7055546323) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M163719](https://github.com/rohanarun/alpoge-rh-replay/issues/10458#issuecomment-7055551706) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M120828](https://github.com/rohanarun/alpoge-rh-replay/issues/10459#issuecomment-7055547841) | Pending review |
@@ -252,5 +254,3 @@
 | [@hipotures](https://github.com/hipotures) | [P1865](https://github.com/rohanarun/alpoge-rh-replay/issues/10722#issuecomment-7055909859) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M157225](https://github.com/rohanarun/alpoge-rh-replay/issues/10723#issuecomment-7055764450) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M060894](https://github.com/rohanarun/alpoge-rh-replay/issues/10724#issuecomment-7055775491) | Pending review |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M163531](https://github.com/rohanarun/alpoge-rh-replay/issues/10725#issuecomment-7055776181) | Pending review |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M169294](https://github.com/rohanarun/alpoge-rh-replay/issues/10726#issuecomment-7055789780) | Pending review |
