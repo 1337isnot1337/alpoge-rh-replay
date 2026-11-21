@@ -1,0 +1,10 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ProjectionLattices/IsIntegralTraceOfPow.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ProjectionLattices/IsIntegralTraceOfPow.lean
+@@ -37,6 +37,6 @@
+     have h1 : μ ^ n = 1 := eigen_pow_eq_one M' n hM'n μ (Polynomial.isRoot_of_mem_roots hμ)
+     exact IsIntegral.of_pow hn (by rw [h1]; exact isIntegral_one)
+   rw [← htr] at hint
+-  exact (isIntegral_algebraMap_iff (algebraMap K L).injective).1 hint
++  exact isIntegral_algebraMap_iff.1 hint
+ 
+ end PI.Dv.GLP
