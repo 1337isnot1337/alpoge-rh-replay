@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsLevelOfMemAdjoin",
+  "source_sha256": "f5b15946a8d1fba8707f4a43ed5dd037b5eacfd8918a62a308410e4ec3e896ad",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass explicit C_add, RingHom.map_add, and map_add \u03b9 to avoid AddHomClass synthesis timeout"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.JacobianSmulKaehlerEqZero",
+  "source_sha256": "94f2bbe0a26fd8e590c63b4fb256d6a9e5867f48e6438ac484ab6e148a6085f4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Drop explicit base ring argument on MvPowerSeries.pderiv and update Ideal.jacobson \u22a5 / Ideal.mem_jacobson_bot to Ring.jacobson Q / Ring.mem_jacobson_iff"
+}

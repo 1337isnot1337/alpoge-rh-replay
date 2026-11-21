@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIntGeneratorsCardEqOfIsLatticePiStatement",
+  "source_sha256": "eee96405ef9c779bf9bb8eb307388ec36dbc83c008c7d79c527afb0ec0d25a62",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Statement change, equivalent: replace Submodule.IsLattice with Submodule.IsFullLattice to match M061741 / Mathlib #44365"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.DiamondGenEigenEigen",
+  "source_sha256": "f198ebb1886487538af8e85188ba45363a5f4607c46289f218c43cc653121541",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

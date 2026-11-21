@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsDualOddFrameCuspForms",
+  "source_sha256": "88665b983444bc0403e193efcba47afc34aaa3acc1a3ba57c46cfcad578b79ef",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

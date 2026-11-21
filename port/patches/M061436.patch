@@ -1,0 +1,13 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/EisensteinWronskianNeZero.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/EisensteinWronskianNeZero.lean
+@@ -149,8 +149,8 @@
+   have hcusp : IsCuspForm wrForm := (isCuspForm_iff_coeffZero_eq_zero _).mpr coeff_wr_zero
+   obtain ⟨g, hg⟩ := hcusp
+   obtain ⟨c, hc⟩ := CuspForm.exists_smul_discriminant_of_weight_eq_twelve g
+-  have hgE : (g : ℍ → ℂ) = wr := congrArg DFunLike.coe hg
+-  have hcΔ : (c • CuspForm.discriminant : ℍ → ℂ) = wr := (congrArg DFunLike.coe hc).trans hgE
++  have hcΔ : (c • CuspForm.discriminant : ℍ → ℂ) = wr :=
++    funext fun z => (DFunLike.congr_fun hc z).trans (DFunLike.congr_fun hg z)
+   have hc0 : c ≠ 0 := by
+     rintro rfl
+     have h := coeff_wr_one
