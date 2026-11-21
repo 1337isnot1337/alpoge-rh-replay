@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M153579"
+  ],
+  "started_utc": "2026-11-21T15:59:05.771316+00:00",
+  "ended_utc": "2026-11-21T15:59:29.387122+00:00",
+  "elapsed_seconds": 23.6,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16282904,
+    "peak_child_rss_kib": 6393000
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.InfTypeChar:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "538fde77c10648a3c0502bac1338c0530333ee8ae7766f8393ee51e6413271c4",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.UnitaryNorms.IsUnitaryNormOf",
+    "ReciprocityTheory.NeutralLocalFields.LocalFieldComparison.HCFFromRecipA",
+    "ReciprocityTheory.NeutralLocalFields.LocalFieldComparison.HCFFromRecipB",
+    "ReciprocityTheory.NeutralLocalFields.LocalFieldComparison.HilbertClassFieldA",
+    "ReciprocityTheory.NeutralLocalFields.Reciprocity"
+  ],
+  "objects": {
+    "M153579": "1419029293409d3b7eea6a5f7d7b7d0cc939cc7021f9c7015dbc7b0f2e0bb0e6"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "e0d0c98876cbf8f23a7ff65a6ae3234570ce1d0800674395f2a3f23d28f1fc6a",
+  "packet": "M153579",
+  "contributor": "chriswilson413",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23304#issuecomment-7065294249",
+  "reviewed_utc": "2026-11-21T17:00:20.217210+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

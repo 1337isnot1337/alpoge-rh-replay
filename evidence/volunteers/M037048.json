@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M037048"
+  ],
+  "started_utc": "2026-11-21T16:07:57.683014+00:00",
+  "ended_utc": "2026-11-21T16:08:24.792413+00:00",
+  "elapsed_seconds": 27.1,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5405476
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralFormsEqSpanIntegralRationalForms:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b0c3a02ef13d9c95be621937fdea20b2520ae0d0df07349b744fed23a09d3efa",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentIdealSmulMemSpanRational",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSpanInfRationalSubspaceIntegersExt",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSpanInfRationalSubspaceIntegersExtStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RationalMatrixEigenspaceImageSpannedRational",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RationalMatrixEigenspaceImageSpannedRationalStatement",
+    "Formalism.LocalToGlobal.IndefiniteReal.GramCEqTranspose"
+  ],
+  "objects": {
+    "M037048": "48fbfc526504c9284ec23505bbc068c2f06d384fbc1be0ed6c956c5f33a7f750"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "2464b3e0e1c6aab1dd9740ebf90096c8deaafd7bb5e9b8f8e65c36806bdb8d99",
+  "packet": "M037048",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23291#issuecomment-7065419968",
+  "reviewed_utc": "2026-11-21T17:00:20.601552+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

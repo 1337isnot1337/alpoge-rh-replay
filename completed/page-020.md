@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M016304 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharDerivContDiffStatement` | volunteer-build-reviewed |
 | M016305 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharacterFourierTransformMemSchwartzBruhat` | build-observed |
 | M016306 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharacterFourierTransformMemSchwartzBruhatStatement` | build-observed |
 | M016307 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharacterFourierTransformTwiceEqPosSmulReflect` | build-observed |
@@ -272,6 +273,7 @@
 | M017171 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechPullOneBijectiveLatticeCover` | volunteer-build-reviewed |
 | M017175 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechTripleRestrictCompositeInjectiveSecond` | wave-reused |
 | M017180 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CellCharacterDistinct` | volunteer-build-reviewed |
+| M017198 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CellFunctorScalarUniformizer` | volunteer-build-reviewed |
 | M017200 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CellFunctorTorusCharacter` | volunteer-build-reviewed |
 | M017203 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CellFunctorTransposedTwoBlockStatement` | volunteer-build-reviewed |
 | M017204 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CellFunctorTwoBlockEquiv` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M017642 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernIntegralEqOrderSum` | volunteer-build-reviewed |
 | M017643 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernIntegralEqOrderSumStatement` | volunteer-build-reviewed |
 | M017644 | P2389 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernIntegralIndependentOfCoefficient` | build-observed |
-| M017650 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernIntegralOneEqMongeAmpereIntegral` | volunteer-build-reviewed |
-| M017653 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernIntegralTopIndependentOfSmoothWeightStatement` | volunteer-build-reviewed |

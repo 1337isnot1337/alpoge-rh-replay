@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M067481"
+  ],
+  "started_utc": "2026-11-21T16:04:48.990295+00:00",
+  "ended_utc": "2026-11-21T16:05:26.817059+00:00",
+  "elapsed_seconds": 37.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5416008
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CocycleSplitOfContracting:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "806441223886c326007b97d984d661d86b1944b3f5b9fd073f88d34c1dfa0ea8",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.PowerSeriesOneAddConstMulXMulInv",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NabBijectiveWindow",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SubIdBijOfContracting"
+  ],
+  "objects": {
+    "M067481": "d2bde0f71b0e4f65ae8263798ac1525122ede9c97404bb721ec8bb175a36f112"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "718defc67de571cb371a9371991e8918699a215481555795758838e3c9e92eb9",
+  "packet": "M067481",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23277#issuecomment-7065384527",
+  "reviewed_utc": "2026-11-21T17:00:37.030478+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

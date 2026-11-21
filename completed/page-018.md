@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013702 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoValuesConstantOfSameCubeTheta` | volunteer-build-reviewed |
 | M013703 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoValuesConstantOfSameCubeThetaStatement` | volunteer-build-reviewed |
 | M013704 | P1221 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleSpreadsOutFromGenericFibreProper` | build-observed |
 | M013706 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleSymmetryHypothesisBaseChange` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M014810 | P0516 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveFunctionsFlatBaseChangeBijectiveStatement` | wave-reused |
 | M014811 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveHomogeneousFunctionalLinear` | volunteer-build-reviewed |
 | M014813 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveHomogeneousOperatorLinear` | volunteer-build-reviewed |
-| M014829 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditivePeriodExponentLinear` | volunteer-build-reviewed |

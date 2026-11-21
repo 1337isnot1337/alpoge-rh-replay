@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    "M131985"
+  ],
+  "started_utc": "2026-11-21T16:08:44.306134+00:00",
+  "ended_utc": "2026-11-21T16:08:52.125525+00:00",
+  "elapsed_seconds": 7.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5163612
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.SectionEqZeroOfValues:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "77f63d4db8e73648b4ffdf4274e020dbd96dc5cf8f73e1261d8b39898661b42d",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M131985": "84f0f13fde03d1bc10ee7db4dba1e8debf0aa3e4351f5c7da71ef95132f57618"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "85718373c84d7b314413df6b660b9b3785a54ed2323946b55921ddadcaa8b14a",
+  "packet": "M131985",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23307#issuecomment-7065428595",
+  "reviewed_utc": "2026-11-21T16:59:47.362717+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

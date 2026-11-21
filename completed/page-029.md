@@ -2,6 +2,29 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M026973 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviElementSkewCm` | volunteer-build-reviewed |
+| M026974 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviElementSkewCmStatement` | volunteer-build-reviewed |
+| M026975 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviElementSkewGood` | volunteer-build-reviewed |
+| M026977 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviElementSmallUnitaryStatement` | volunteer-build-reviewed |
+| M026979 | P1031 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviGeneratedCommutingBlockGL` | build-observed |
+| M026980 | P1059 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviGeneratedCommutingBlockGLStatement` | build-observed |
+| M026981 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviLiftOfAdaptedPlane` | volunteer-build-reviewed |
+| M026982 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviLiftOfAdaptedPlaneStatement` | volunteer-build-reviewed |
+| M026983 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviOfUnit` | volunteer-build-reviewed |
+| M026984 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviSectionIsotropicFrame` | volunteer-build-reviewed |
+| M026985 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviSectionIsotropicFrameStatement` | volunteer-build-reviewed |
+| M026987 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviTorusElementCmStatement` | volunteer-build-reviewed |
+| M026991 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLieBasisCompletionInSpanLieLattice` | volunteer-build-reviewed |
+| M026992 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLieBasisCompletionInSpanLieLatticeStatement` | volunteer-build-reviewed |
+| M026993 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLieBasisFibreOverCompletionFractionField` | volunteer-build-reviewed |
+| M026994 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLieBasisFibreOverCompletionFractionFieldStatement` | volunteer-build-reviewed |
+| M026998 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLieBasisSmoothCommGroupSchemeFieldStatement` | volunteer-build-reviewed |
+| M027008 | P2323 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLieDeterminantLineRatioFunction` | build-observed |
+| M027016 | P1941 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLieTieOfFrMap` | volunteer-build-reviewed |
+| M027017 | P1302 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftAdaptedBasisQuasiLogarithmsFrame` | build-observed |
+| M027018 | P1327 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftAdaptedBasisQuasiLogarithmsFrameStatement` | build-observed |
+| M027020 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftAlgebraicallyClosedPoint` | volunteer-build-reviewed |
+| M027021 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftAlgebraicallyClosedPointStatement` | volunteer-build-reviewed |
 | M027027 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftEtaleSheafOfLinearMapsExact` | wave-reused |
 | M027028 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftEtaleSheafOfLinearMapsExactStatement` | wave-reused |
 | M027038 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftGeometricPointOfFaithfullyFlatFiniteTy` | volunteer-build-reviewed |
@@ -379,26 +402,3 @@
 | M028188 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPoincareGoodPatchOutsideOpen` | volunteer-build-reviewed |
 | M028189 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPoincareGoodPatchOutsideOpenStatement` | volunteer-build-reviewed |
 | M028190 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointAlgClosureResidueFieldOfIntegralSurje` | build-observed |
-| M028191 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointAlgClosureResidueFieldOfIntegralSurjeStatement` | build-observed |
-| M028198 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointHol` | build-observed |
-| M028199 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointLocalRingClosedPointCentreOfPlace` | volunteer-build-reviewed |
-| M028200 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointLocalRingClosedPointCentreOfPlaceStatement` | volunteer-build-reviewed |
-| M028205 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointPicardClassEqTranslateOfTrivialLambda` | volunteer-build-reviewed |
-| M028206 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointPicardClassEqTranslateOfTrivialLambdaStatement` | volunteer-build-reviewed |
-| M028214 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointsFramesThetaSectionGenericFibreMemberStatement` | volunteer-build-reviewed |
-| M028217 | P1087 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointsTranslationFamilyChartsThickenings` | build-observed |
-| M028218 | P1117 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointsTranslationFamilyChartsThickeningsStatement` | build-observed |
-| M028227 | P2036 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolAVFibre` | volunteer-build-reviewed |
-| M028229 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolAVInterior` | volunteer-build-reviewed |
-| M028232 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarDecompositionIndefiniteUnitary` | volunteer-build-reviewed |
-| M028233 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarDecompositionIndefiniteUnitaryStatement` | build-observed |
-| M028235 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarisationSectionNonemptyNonvanishingStatement` | volunteer-build-reviewed |
-| M028245 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarisedE8ThetaPowerOverModuliStatement` | volunteer-build-reviewed |
-| M028246 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarisedExtensionFinite` | volunteer-build-reviewed |
-| M028255 | P1941 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarizationTorsionTowerStatement` | volunteer-build-reviewed |
-| M028256 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarizationWeilPairingEq` | volunteer-build-reviewed |
-| M028262 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarizedSuperlatticeOfRiemannForm` | volunteer-build-reviewed |
-| M028263 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarizedSuperlatticeOfRiemannFormStatement` | volunteer-build-reviewed |
-| M028264 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolyAnnihilatesCommutingLinearCombination` | volunteer-build-reviewed |
-| M028265 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolyAnnihilatesCommutingLinearCombinationStatement` | volunteer-build-reviewed |
-| M028266 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolyEntriesConjLeftRightMul` | volunteer-build-reviewed |

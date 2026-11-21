@@ -26,6 +26,7 @@
 | M005935 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.UnitsMappingToPowersLeUnitsLocalKummerNormsStatement` | volunteer-build-reviewed |
 | M005936 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ValuationAlgebraMapEqCount` | wave-reused |
 | M005937 | P0176 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ValuationEqOneOfNormOneOfNotMoved` | volunteer-build-reviewed |
+| M005938 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ValuationUnramifiedKummerOfCoprimeUnit` | volunteer-build-reviewed |
 | M005940 | P0176 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ValuationUnramifiedOfUnit` | wave-reused |
 | M005941 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.WithZeroEqOfLeExpIff` | wave-reused |
 | M005942 | P0394 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ZlatticeTsumDilateSubIntegralLeRapid` | build-observed |
@@ -401,4 +402,3 @@
 | M006325 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthEqTopOfFinrankNeZero` | volunteer-build-reviewed |
 | M006326 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthLocalizedModuleEqZeroOfNotAnnihilatorLe` | volunteer-build-reviewed |
 | M006327 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthQuotRangeEqAddValDet` | volunteer-build-reviewed |
-| M006328 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthQuotientMaximalIdealPowSmulTop` | volunteer-build-reviewed |

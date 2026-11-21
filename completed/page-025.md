@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M022290 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinTransverseTermFormula` | volunteer-build-reviewed |
+| M022291 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinTransverseTermFormulaStatement` | volunteer-build-reviewed |
+| M022293 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinUnfoldingRapidDecayStatement` | volunteer-build-reviewed |
+| M022294 | P1003 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinWeierstrassTorsionConjTransport` | build-observed |
+| M022296 | P0867 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinWeierstrassValuesLatticeTau` | build-observed |
+| M022297 | P0893 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinWeierstrassValuesLatticeTauStatement` | build-observed |
+| M022303 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticCharpolySelfReciprocal` | volunteer-build-reviewed |
+| M022308 | P2363 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticCurveLatticePeriodForm` | build-observed |
+| M022314 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticMapUniformizationLine` | volunteer-build-reviewed |
+| M022317 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticPolyConjSelfReciprocalCoeffStatement` | volunteer-build-reviewed |
+| M022318 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticPolynomialsBoundedFinite` | volunteer-build-reviewed |
 | M022323 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticTraceFromModel` | volunteer-build-reviewed |
 | M022324 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticTraceFromModelStatement` | volunteer-build-reviewed |
 | M022326 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticTraceOfInputsStatement` | volunteer-build-reviewed |
@@ -19,6 +30,7 @@
 | M022350 | P1351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingReducedResidueFieldBijectiveUnramifiedStatement` | build-observed |
 | M022353 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingSumDegreeFormula` | volunteer-build-reviewed |
 | M022355 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingsCurveFieldAboveFiniteNonempty` | volunteer-build-reviewed |
+| M022364 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbedsInRegularRepresentationCopiesOfFreePermute` | volunteer-build-reviewed |
 | M022372 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EncardMulLeOfQuotEmbed` | volunteer-build-reviewed |
 | M022373 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EncardSelfDualLatticeBoundedMajorantLe` | volunteer-build-reviewed |
 | M022374 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EncardSelfDualLatticeBoundedMajorantLeStatement` | volunteer-build-reviewed |
@@ -78,6 +90,7 @@
 | M022613 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfNilpotentCommuteSeparableMinpolyStatement` | volunteer-build-reviewed |
 | M022615 | P1087 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfOddEllipticOfTendsto` | build-observed |
 | M022616 | P1117 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfOddEllipticOfTendstoStatement` | build-observed |
+| M022617 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfOrbit` | volunteer-build-reviewed |
 | M022618 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfOrthogonalTranslates` | volunteer-build-reviewed |
 | M022619 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfOrthogonalTranslatesProj` | volunteer-build-reviewed |
 | M022621 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfPlaneDerivativeVanishing` | volunteer-build-reviewed |
@@ -369,36 +382,23 @@
 | M023094 | P2122 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvaluationTriplePeriodCaseAFourthStatement` | volunteer-build-reviewed |
 | M023096 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvaluationTriplePeriodCaseASecondStatement` | volunteer-build-reviewed |
 | M023098 | P2122 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvaluationTriplePeriodCaseAThird` | volunteer-build-reviewed |
+| M023114 | P1535 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvenOrdLConjGramDetOfUnitGramAdicCompletion` | volunteer-build-reviewed |
 | M023115 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvenOrdLConjGramDetOfUnitGramAdicCompletionStatement` | volunteer-build-reviewed |
 | M023126 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventualSmallOfParts` | volunteer-build-reviewed |
 | M023127 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventualSmallOfPartsStatement` | volunteer-build-reviewed |
 | M023128 | P1397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyAdicIntegralSpanClosedMulStar` | build-observed |
 | M023129 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyAdicIntegralSpanClosedMulStarStatement` | volunteer-build-reviewed |
+| M023130 | P1535 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyBezoutSeparableDerivativeAdicIntegers` | volunteer-build-reviewed |
 | M023131 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyBezoutSeparableDerivativeAdicIntegersStatement` | volunteer-build-reviewed |
 | M023132 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyCompFinMemIntLocAdele` | volunteer-build-reviewed |
 | M023134 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyCompactUnitaryAdelicImageIntegralStatement` | volunteer-build-reviewed |
 | M023135 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyCompletedTensorMatrixSplitSemilocal` | volunteer-build-reviewed |
+| M023137 | P1535 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyDefiniteUnitaryLocalPointMemMaxCompact` | volunteer-build-reviewed |
 | M023138 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyDefiniteUnitaryLocalPointMemMaxCompactStatement` | volunteer-build-reviewed |
 | M023139 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyEqNhdsNEOfMeromorphicOfEqOnHalfPlane` | volunteer-build-reviewed |
 | M023143 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyExistsIntegralCharpolySplitPlaceStatement` | volunteer-build-reviewed |
 | M023146 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyExistsQuaternionNormOneReEq` | build-observed |
 | M023147 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyExistsQuaternionNormOneReEqStatement` | build-observed |
+| M023148 | P1535 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyFiniteAdelicUnitaryComponentMemIntegra` | volunteer-build-reviewed |
 | M023149 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyFiniteAdelicUnitaryComponentMemIntegraStatement` | volunteer-build-reviewed |
 | M023150 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyFiniteBaseChangeFilteredColimit` | build-observed |
-| M023151 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyFiniteBaseChangeFilteredColimitStatement` | build-observed |
-| M023153 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyIntegralConjOfIntegralConjGeneratorStatement` | volunteer-build-reviewed |
-| M023157 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyIntegralConjugatorsDifferByCentralizerStatement` | volunteer-build-reviewed |
-| M023159 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyIntegralCoordsScalarTensorInclusionStatement` | volunteer-build-reviewed |
-| M023161 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyIntegralLiftCoprimeDerivativeStatement` | volunteer-build-reviewed |
-| M023162 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyIntegralMatrixUnitsAtPlaces` | volunteer-build-reviewed |
-| M023164 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyIntegralPointsIndicatorIsVacuum` | volunteer-build-reviewed |
-| M023165 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyIntegralPointsIndicatorIsVacuumStatement` | volunteer-build-reviewed |
-| M023167 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyIntegralTensorPointsSharpStableRingStatement` | volunteer-build-reviewed |
-| M023168 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyIntegralUnitaryConjOfCharpolyEq` | volunteer-build-reviewed |
-| M023171 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyIntegralUnitaryPointsAtPlaceMulMemStatement` | volunteer-build-reviewed |
-| M023173 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyIsIntegralInCompletedTensorBasisMulExpStatement` | volunteer-build-reviewed |
-| M023175 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyIsIntegralOfIntegralCoordsLocalTensorStatement` | volunteer-build-reviewed |
-| M023176 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyKottwitzLatticeSeparableMinpoly` | volunteer-build-reviewed |
-| M023178 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyLeAtNearbyIndices` | volunteer-build-reviewed |
-| M023179 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyLeOfPolyAsymptotics` | volunteer-build-reviewed |
-| M023182 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyLocalCompactSmall` | volunteer-build-reviewed |

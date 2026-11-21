@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M018873 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAGoodModelEvaluationSecondStatement` | volunteer-build-reviewed |
+| M018876 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarEigenTriple` | volunteer-build-reviewed |
+| M018877 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarEigenTripleStatement` | volunteer-build-reviewed |
+| M018878 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarEigenUnfolding` | volunteer-build-reviewed |
+| M018879 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarEigenUnfoldingStatement` | volunteer-build-reviewed |
 | M018883 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarMeasureUnfoldStatement` | volunteer-build-reviewed |
 | M018884 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarStabilizer` | volunteer-build-reviewed |
 | M018892 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarUnfoldingStatement` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M020100 | P1086 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CubicThreeRootsStatement` | build-observed |
 | M020107 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CubicalFunctionOfHomomorphism` | volunteer-build-reviewed |
 | M020108 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CubicalFunctionOfHomomorphismStatement` | volunteer-build-reviewed |
-| M020109 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CubicalMetricLocalToGlobal` | build-observed |
-| M020110 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CubicalMetricLocalToGlobalStatement` | build-observed |
-| M020111 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CubicalMetricOfFlatMetric` | build-observed |
-| M020112 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CubicalMetricOfFlatMetricStatement` | build-observed |
-| M020119 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupChernKummerPullbackNaturality` | wave-reused |

@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M021146 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetSqMulPowLeProdBilinFormLatticeBasis` | volunteer-build-reviewed |
+| M021149 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetTracePowGramNeZeroStatement` | volunteer-build-reviewed |
+| M021152 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetTwistInducedMemFullRankSpace` | volunteer-build-reviewed |
+| M021154 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetTwistedSylvesterSqMulDetPowEqResultantSq` | volunteer-build-reviewed |
+| M021156 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetUnitaryChartSectionConjugatedMatrix` | build-observed |
+| M021157 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetUnitaryChartSectionConjugatedMatrixStatement` | build-observed |
+| M021158 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetValuationsSumZeroSameLocalLattice` | volunteer-build-reviewed |
+| M021159 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetValuationsSumZeroSameLocalLatticeStatement` | volunteer-build-reviewed |
 | M021161 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetWirtingerAntiholomorphicDerivEqSumStatement` | volunteer-build-reviewed |
 | M021164 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantElementProduct` | wave-reused |
 | M021165 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantElementProductStatement` | wave-reused |
@@ -56,6 +64,7 @@
 | M021279 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiagonalUniformizerBoxTransformStatement` | volunteer-build-reviewed |
 | M021281 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiagonalUnitBoxInvariantStatement` | volunteer-build-reviewed |
 | M021286 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DictionaryCharEqOneOnPrincipalLevel` | volunteer-build-reviewed |
+| M021288 | P1374 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DictionaryCharacterTrivialOnPrincipalLevel` | volunteer-build-reviewed |
 | M021292 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DictionaryDepthPairStandard` | volunteer-build-reviewed |
 | M021293 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DictionaryDepthPairStandardStatement` | volunteer-build-reviewed |
 | M021308 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DieudonneRanksFieldCharP` | volunteer-build-reviewed |
@@ -75,6 +84,7 @@
 | M021338 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtReprPullbackHolomorphicFderivStatement` | volunteer-build-reviewed |
 | M021341 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtZeroHeisenbergCMRealLineTheta` | volunteer-build-reviewed |
 | M021342 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtZeroHeisenbergCMRealLineThetaStatement` | volunteer-build-reviewed |
+| M021344 | P1351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableFockVacuumGaussianDefinitePair` | volunteer-build-reviewed |
 | M021347 | P1589 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOfIsSm` | volunteer-build-reviewed |
 | M021349 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOnFderiv` | volunteer-build-reviewed |
 | M021350 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOnFourierCoeffFamily` | build-observed |
@@ -382,6 +392,7 @@
 | M022269 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinLineSumUnipotentInvariantStatement` | volunteer-build-reviewed |
 | M022270 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinMeromorphicContinuation` | volunteer-build-reviewed |
 | M022271 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinMeromorphicContinuationStatement` | volunteer-build-reviewed |
+| M022272 | P1765 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinResidueHolomorphicRegion` | volunteer-build-reviewed |
 | M022273 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinResidueHolomorphicRegionStatement` | volunteer-build-reviewed |
 | M022275 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinResidueHolomorphicRegionTwoStatement` | volunteer-build-reviewed |
 | M022280 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinSeriesFunctionalBound` | volunteer-build-reviewed |
@@ -391,14 +402,3 @@
 | M022285 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinSeriesRationalInvariantStatement` | volunteer-build-reviewed |
 | M022286 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinSettingHeightContinuous` | volunteer-build-reviewed |
 | M022287 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinSettingHeightContinuousStatement` | volunteer-build-reviewed |
-| M022290 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinTransverseTermFormula` | volunteer-build-reviewed |
-| M022291 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinTransverseTermFormulaStatement` | volunteer-build-reviewed |
-| M022293 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinUnfoldingRapidDecayStatement` | volunteer-build-reviewed |
-| M022294 | P1003 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinWeierstrassTorsionConjTransport` | build-observed |
-| M022296 | P0867 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinWeierstrassValuesLatticeTau` | build-observed |
-| M022297 | P0893 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinWeierstrassValuesLatticeTauStatement` | build-observed |
-| M022303 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticCharpolySelfReciprocal` | volunteer-build-reviewed |
-| M022308 | P2363 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticCurveLatticePeriodForm` | build-observed |
-| M022314 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticMapUniformizationLine` | volunteer-build-reviewed |
-| M022317 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticPolyConjSelfReciprocalCoeffStatement` | volunteer-build-reviewed |
-| M022318 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticPolynomialsBoundedFinite` | volunteer-build-reviewed |

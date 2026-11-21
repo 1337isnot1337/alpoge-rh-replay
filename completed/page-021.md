@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M017650 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernIntegralOneEqMongeAmpereIntegral` | volunteer-build-reviewed |
+| M017653 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernIntegralTopIndependentOfSmoothWeightStatement` | volunteer-build-reviewed |
 | M017658 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernMassLineBundleWeightOfIso` | volunteer-build-reviewed |
 | M017675 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernOneEqNegDdcLogDet` | volunteer-build-reviewed |
 | M017684 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernPartSingleton` | volunteer-build-reviewed |
@@ -128,6 +130,7 @@
 | M018147 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CochainEqOfSameDegreeChartMorphismStatement` | build-observed |
 | M018152 | P0649 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CochainProductAlexanderWhitneyFormula` | build-observed |
 | M018153 | P0649 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CochainProductVanishingAboveDegree` | build-observed |
+| M018158 | P1248 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CocompactLatticeUnitCovolume` | volunteer-build-reviewed |
 | M018161 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CocompactNormalSubgroupDescentInvariantsStatement` | volunteer-build-reviewed |
 | M018164 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CocompactStandardParabolicUnipotentRadicalWittFr` | volunteer-build-reviewed |
 | M018165 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CocompactStandardParabolicUnipotentRadicalWittFrStatement` | volunteer-build-reviewed |
@@ -282,6 +285,7 @@
 | M018508 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommutingMultiplierEqConstSmulGeneratorStatement` | volunteer-build-reviewed |
 | M018511 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommutingSemisimpleEigenspacesSpan` | volunteer-build-reviewed |
 | M018512 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommutingSemisimpleEigenspacesSpanStatement` | wave-reused |
+| M018514 | P1301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CompAtMtMul` | volunteer-build-reviewed |
 | M018520 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CompEqOneOfTransl` | volunteer-build-reviewed |
 | M018522 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CompInfRTensorInlA` | volunteer-build-reviewed |
 | M018523 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CompLinearAutLocallyConstantCompactSupportMatrix` | volunteer-build-reviewed |
@@ -327,6 +331,7 @@
 | M018632 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CompatibleHigherFormsExtendAlongFunctorStatement` | wave-reused |
 | M018636 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CompatibleReductionSystemMapImmersion` | volunteer-build-reviewed |
 | M018642 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComplMapSplitProj` | volunteer-build-reviewed |
+| M018644 | P1996 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComplTupBijective` | volunteer-build-reviewed |
 | M018645 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComplementaryAdelicSchwartzOfNonzeroLocal` | volunteer-build-reviewed |
 | M018647 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComplementaryModuleEqTopFormsOfFiniteCover` | build-observed |
 | M018648 | P0706 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComplementaryModuleEqTopFormsOfFiniteCoverStatement` | build-observed |
@@ -397,8 +402,3 @@
 | M018870 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAGoodModelEvaluationFirst` | volunteer-build-reviewed |
 | M018871 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAGoodModelEvaluationFirstStatement` | volunteer-build-reviewed |
 | M018872 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAGoodModelEvaluationSecond` | volunteer-build-reviewed |
-| M018873 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAGoodModelEvaluationSecondStatement` | volunteer-build-reviewed |
-| M018876 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarEigenTriple` | volunteer-build-reviewed |
-| M018877 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarEigenTripleStatement` | volunteer-build-reviewed |
-| M018878 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarEigenUnfolding` | volunteer-build-reviewed |
-| M018879 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarEigenUnfoldingStatement` | volunteer-build-reviewed |

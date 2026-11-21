@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M174933"
+  ],
+  "started_utc": "2026-11-21T16:07:02.832819+00:00",
+  "ended_utc": "2026-11-21T16:07:54.917762+00:00",
+  "elapsed_seconds": 52.1,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5496780
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.UnramifiedIntegrals.ExistsPowerMulUnitNorm:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "80b514f6929942be7a1e07b479d2163a665486c50b2f76af53ecc7d55c19fd4e",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.TorsionIntegrality.CMGoodModels.Statement",
+    "ReciprocityTheory.ReductiveGroups.UnramifiedIntegrals.FrobFixNegOne",
+    "ReciprocityTheory.ReductiveGroups.UnramifiedIntegrals.KurDefs",
+    "ReciprocityTheory.ReductiveGroups.UnramifiedIntegrals.NormEqOfNormSubLt",
+    "ReciprocityTheory.ReductiveGroups.UnramifiedIntegrals.NormNatCastClOfNotDvd"
+  ],
+  "objects": {
+    "M174933": "54940adbba6f81ef63c35ab593a291d535d423ab6fee6acd22b5c08a58b263af"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "898224f0dee0ff9e465e2c8209ca799861c329c6d1bc4039a816a81a53ccf5df",
+  "packet": "M174933",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23288#issuecomment-7065419415",
+  "reviewed_utc": "2026-11-21T17:00:25.237677+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -2,6 +2,29 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M028191 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointAlgClosureResidueFieldOfIntegralSurjeStatement` | build-observed |
+| M028198 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointHol` | build-observed |
+| M028199 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointLocalRingClosedPointCentreOfPlace` | volunteer-build-reviewed |
+| M028200 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointLocalRingClosedPointCentreOfPlaceStatement` | volunteer-build-reviewed |
+| M028205 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointPicardClassEqTranslateOfTrivialLambda` | volunteer-build-reviewed |
+| M028206 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointPicardClassEqTranslateOfTrivialLambdaStatement` | volunteer-build-reviewed |
+| M028214 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointsFramesThetaSectionGenericFibreMemberStatement` | volunteer-build-reviewed |
+| M028217 | P1087 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointsTranslationFamilyChartsThickenings` | build-observed |
+| M028218 | P1117 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointsTranslationFamilyChartsThickeningsStatement` | build-observed |
+| M028227 | P2036 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolAVFibre` | volunteer-build-reviewed |
+| M028229 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolAVInterior` | volunteer-build-reviewed |
+| M028232 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarDecompositionIndefiniteUnitary` | volunteer-build-reviewed |
+| M028233 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarDecompositionIndefiniteUnitaryStatement` | build-observed |
+| M028235 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarisationSectionNonemptyNonvanishingStatement` | volunteer-build-reviewed |
+| M028245 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarisedE8ThetaPowerOverModuliStatement` | volunteer-build-reviewed |
+| M028246 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarisedExtensionFinite` | volunteer-build-reviewed |
+| M028255 | P1941 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarizationTorsionTowerStatement` | volunteer-build-reviewed |
+| M028256 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarizationWeilPairingEq` | volunteer-build-reviewed |
+| M028262 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarizedSuperlatticeOfRiemannForm` | volunteer-build-reviewed |
+| M028263 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarizedSuperlatticeOfRiemannFormStatement` | volunteer-build-reviewed |
+| M028264 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolyAnnihilatesCommutingLinearCombination` | volunteer-build-reviewed |
+| M028265 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolyAnnihilatesCommutingLinearCombinationStatement` | volunteer-build-reviewed |
+| M028266 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolyEntriesConjLeftRightMul` | volunteer-build-reviewed |
 | M028267 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolyEntriesConjLeftRightMulStatement` | volunteer-build-reviewed |
 | M028270 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolyPowMulEqOne` | wave-reused |
 | M028271 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolyPowMulEqOneStatement` | wave-reused |
@@ -379,26 +402,3 @@
 | M029341 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSmulOfRankOneStatement` | volunteer-build-reviewed |
 | M029345 | P0552 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSobolevRepresentationProdExp` | build-observed |
 | M029346 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSobolevRepresentationProdExpStatement` | build-observed |
-| M029351 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpanEqTopOfFinrankFibreEq` | volunteer-build-reviewed |
-| M029352 | P1117 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpanMaximalIdealMapOfFlatRegular` | build-observed |
-| M029353 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpanMaximalIdealMapOfFlatRegularStatement` | build-observed |
-| M029354 | P0105 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpanSubMemSq` | build-observed |
-| M029357 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpanningImageLattice` | wave-reused |
-| M029358 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpanningImageLatticeStatement` | wave-reused |
-| M029363 | P1117 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpecialUnitarySectionLowerUnitriangularCha` | build-observed |
-| M029364 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpecialUnitarySectionLowerUnitriangularChaStatement` | build-observed |
-| M029365 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpecialisationToStrictlyHenselian` | build-observed |
-| M029366 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpecialisationToStrictlyHenselianStatement` | build-observed |
-| M029370 | P2324 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpecializesDominatesStalkOfRegularStatement` | volunteer-build-reviewed |
-| M029371 | P2324 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpecializesMinimal` | volunteer-build-reviewed |
-| M029372 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSphericalCuspFormWhittakerNeZero` | volunteer-build-reviewed |
-| M029373 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSphericalCuspFormWhittakerNeZeroStatement` | volunteer-build-reviewed |
-| M029377 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitCompDet` | volunteer-build-reviewed |
-| M029378 | P1960 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitCompletelyAuxiliaryPlaceOutsideFinset` | volunteer-build-reviewed |
-| M029379 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitCompletelyAuxiliaryPlaceOutsideFinsetStatement` | volunteer-build-reviewed |
-| M029381 | P2068 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitFactorRegularSemisimpleReducibleStatement` | volunteer-build-reviewed |
-| M029382 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitIdempotentConjugation` | volunteer-build-reviewed |
-| M029383 | P2068 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitInert` | volunteer-build-reviewed |
-| M029384 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitInertFactor` | volunteer-build-reviewed |
-| M029385 | P1960 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitInertFactorizationUnitaryLatticeStabi` | volunteer-build-reviewed |
-| M029386 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitInertFactorizationUnitaryLatticeStabiStatement` | volunteer-build-reviewed |

@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M005938"
+  ],
+  "started_utc": "2026-11-21T16:04:14.132885+00:00",
+  "ended_utc": "2026-11-21T16:04:45.653285+00:00",
+  "elapsed_seconds": 31.5,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5337812
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ValuationUnramifiedKummerOfCoprimeUnit:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5ee0dca0ae6ab92804b82676276c1478d3a836d871ef8ebff887485e84f7b044",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.MemPowSub",
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.GaloisPlacesTransitive",
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HeightOneSpectrumPlacesOverFiniteSet",
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.KummerGalois"
+  ],
+  "objects": {
+    "M005938": "cd30d03d5aa9c8da4b32b7cc72a787c5fa0613765c7f99a7c10afc6831e6f284"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "e6b64718a5020547d3031060b616e00d617e44fb4f7eb9862fcb4a2dea1363b0",
+  "packet": "M005938",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23274#issuecomment-7065384068",
+  "reviewed_utc": "2026-11-21T17:00:37.825088+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

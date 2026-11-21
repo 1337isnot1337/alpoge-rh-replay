@@ -2,6 +2,30 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M036154 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HypercohomologyPullbackBijectiveOfTermwiseBijectStatement` | build-observed |
+| M036155 | P0398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HypercohomologyPullbackBiprodInlInrBijective` | wave-reused |
+| M036156 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HypercohomologyPullbackBiprodInlInrBijectiveStatement` | wave-reused |
+| M036157 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HypercohomologyPullbackPushforwardFunctorial` | wave-reused |
+| M036158 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HypercohomologyPullbackPushforwardFunctorialStatement` | wave-reused |
+| M036159 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HypercohomologyTrivialOfTermsDegreeZero` | wave-reused |
+| M036160 | P0552 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HypercohomologyTrivialOfTermsDegreeZeroStatement` | wave-reused |
+| M036161 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HyperplaneFixerSumVanishesCuspidalCharacterGLFin` | build-observed |
+| M036162 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HyperplaneFixerSumVanishesCuspidalCharacterGLFinStatement` | build-observed |
+| M036163 | P0299 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HyperplaneFixerSumVanishesHarishChandraInduction` | build-observed |
+| M036164 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HyperplaneFixerSumVanishesHarishChandraInductionStatement` | build-observed |
+| M036167 | P1905 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HyperspecialFixesVacuaGoodInertPlace` | volunteer-build-reviewed |
+| M036172 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HypersurfaceDiffIsPreirreducibleOfNoSplittingStatement` | volunteer-build-reviewed |
+| M036178 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IInfSupPowEq` | volunteer-build-reviewed |
+| M036179 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IInfSupPowEqOfAdicCompatibleIdeals` | volunteer-build-reviewed |
+| M036180 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IInfSupPowEqOfAdicCompatibleIdealsStatement` | volunteer-build-reviewed |
+| M036184 | P1249 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ISupIInfEigenspaceEqTop` | build-observed |
+| M036191 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ISupStableInfTypeSpace` | volunteer-build-reviewed |
+| M036206 | P2037 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealExtendConjMulEqAbsNorm` | volunteer-build-reviewed |
+| M036207 | P2054 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealExtendConjMulEqAbsNormStatement` | volunteer-build-reviewed |
+| M036210 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealIndicatorReadsNormPowMulIntertwinedVacuum` | volunteer-build-reviewed |
+| M036211 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealIndicatorReadsNormPowMulIntertwinedVacuumStatement` | volunteer-build-reviewed |
+| M036212 | P1817 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealIntersectionNormSeriesBound` | volunteer-build-reviewed |
+| M036214 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealKilledByRingMapsWithPropertyLeKerApp` | volunteer-build-reviewed |
 | M036215 | P0245 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealKilledByRingMapsWithPropertyLeKerAppStatement` | volunteer-build-reviewed |
 | M036216 | P0299 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealMapEqSpanPowUniformizerDvr` | volunteer-build-reviewed |
 | M036217 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealMapEqSpanPowUniformizerDvrStatement` | volunteer-build-reviewed |
@@ -363,6 +387,7 @@
 | M037039 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralExpNegHermitianFormPosDef` | volunteer-build-reviewed |
 | M037040 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralExpNegHermitianFormPosDefStatement` | volunteer-build-reviewed |
 | M037047 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralFlagLiftOfResidue` | volunteer-build-reviewed |
+| M037048 | P0245 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralFormsEqSpanIntegralRationalForms` | volunteer-build-reviewed |
 | M037050 | P1817 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralFrameExtensionExists` | volunteer-build-reviewed |
 | M037057 | P2054 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralFrameSpanCompletedEigenLattice` | volunteer-build-reviewed |
 | M037068 | P2054 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralFundamentalDomainEqVolMulClassSum` | volunteer-build-reviewed |
@@ -377,28 +402,3 @@
 | M037088 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralHolomorphicTypeFamilyHolomorphicType` | volunteer-build-reviewed |
 | M037090 | P2110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralIndicatorGeometric` | volunteer-build-reviewed |
 | M037091 | P2123 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralIndicatorGeometricStatement` | volunteer-build-reviewed |
-| M037092 | P1999 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralInjectiveSubspaceCompactOpenConstNeZero` | volunteer-build-reviewed |
-| M037093 | P2018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralInjectiveSubspaceCompactOpenConstNeZeroStatement` | volunteer-build-reviewed |
-| M037096 | P1793 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralLatticeLAdicCongruence` | volunteer-build-reviewed |
-| M037100 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralLocalCenterFiniteMaximalIdeals` | volunteer-build-reviewed |
-| M037104 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralMemFinDimSpace` | volunteer-build-reviewed |
-| M037105 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralMemFinDimSubspace` | volunteer-build-reviewed |
-| M037106 | P1793 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralMixTopSlotEqZero` | volunteer-build-reviewed |
-| M037113 | P2325 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralModelEmbeddingFirst` | build-observed |
-| M037117 | P2369 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralModelLevelPPower` | build-observed |
-| M037119 | P2325 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralModelLevelPPowerFrameStatement` | build-observed |
-| M037122 | P2484 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralModelLevelPPowerTangentStatement` | build-observed |
-| M037128 | P2484 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralModelMapExtensionStatement` | build-observed |
-| M037130 | P2702 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralModelMapFlatExtensionStatement` | build-observed |
-| M037135 | P2677 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralModelOfAlgebraicModel` | build-observed |
-| M037145 | P2398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralModelTangentOverInclusion` | build-observed |
-| M037155 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralModuleRankOneRight` | volunteer-build-reviewed |
-| M037156 | P1793 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralModuleRankOneRightStatement` | volunteer-build-reviewed |
-| M037157 | P1147 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralMonicPolynomialOfUnitRelation` | volunteer-build-reviewed |
-| M037158 | P1303 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralMulConjSelf` | volunteer-build-reviewed |
-| M037159 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralMulConvolutionEq` | volunteer-build-reviewed |
-| M037160 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralMulConvolutionEqStatement` | volunteer-build-reviewed |
-| M037161 | P2054 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralMulEqSumCosetInd` | volunteer-build-reviewed |
-| M037165 | P0651 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralMultipleInLieLattice` | volunteer-build-reviewed |
-| M037166 | P0681 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralMultipleInLieLatticeStatement` | build-observed |
-| M037171 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralOfCompletedLatticeSelfDualRankOneStatement` | volunteer-build-reviewed |

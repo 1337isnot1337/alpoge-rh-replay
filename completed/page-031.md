@@ -2,6 +2,29 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M029351 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpanEqTopOfFinrankFibreEq` | volunteer-build-reviewed |
+| M029352 | P1117 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpanMaximalIdealMapOfFlatRegular` | build-observed |
+| M029353 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpanMaximalIdealMapOfFlatRegularStatement` | build-observed |
+| M029354 | P0105 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpanSubMemSq` | build-observed |
+| M029357 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpanningImageLattice` | wave-reused |
+| M029358 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpanningImageLatticeStatement` | wave-reused |
+| M029363 | P1117 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpecialUnitarySectionLowerUnitriangularCha` | build-observed |
+| M029364 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpecialUnitarySectionLowerUnitriangularChaStatement` | build-observed |
+| M029365 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpecialisationToStrictlyHenselian` | build-observed |
+| M029366 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpecialisationToStrictlyHenselianStatement` | build-observed |
+| M029370 | P2324 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpecializesDominatesStalkOfRegularStatement` | volunteer-build-reviewed |
+| M029371 | P2324 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSpecializesMinimal` | volunteer-build-reviewed |
+| M029372 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSphericalCuspFormWhittakerNeZero` | volunteer-build-reviewed |
+| M029373 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSphericalCuspFormWhittakerNeZeroStatement` | volunteer-build-reviewed |
+| M029377 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitCompDet` | volunteer-build-reviewed |
+| M029378 | P1960 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitCompletelyAuxiliaryPlaceOutsideFinset` | volunteer-build-reviewed |
+| M029379 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitCompletelyAuxiliaryPlaceOutsideFinsetStatement` | volunteer-build-reviewed |
+| M029381 | P2068 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitFactorRegularSemisimpleReducibleStatement` | volunteer-build-reviewed |
+| M029382 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitIdempotentConjugation` | volunteer-build-reviewed |
+| M029383 | P2068 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitInert` | volunteer-build-reviewed |
+| M029384 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitInertFactor` | volunteer-build-reviewed |
+| M029385 | P1960 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitInertFactorizationUnitaryLatticeStabi` | volunteer-build-reviewed |
+| M029386 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitInertFactorizationUnitaryLatticeStabiStatement` | volunteer-build-reviewed |
 | M029389 | P2068 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitPlaceAdelicMatrixGivenComponents` | volunteer-build-reviewed |
 | M029391 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitPlaceBasisHyperbolicPlaneComplement` | build-observed |
 | M029392 | P1477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSplitPlaceBasisHyperbolicPlaneComplementStatement` | build-observed |
@@ -266,6 +289,7 @@
 | M030207 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUniqueOfCompatible` | build-observed |
 | M030208 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUniqueOfFlatOfIsPushout` | volunteer-build-reviewed |
 | M030209 | P0105 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUniqueOfFlatOfIsPushoutStatement` | volunteer-build-reviewed |
+| M030210 | P0949 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUniqueOfIsAdicColimit` | volunteer-build-reviewed |
 | M030213 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUniquePadicOfFrobeniusEigenAinf` | build-observed |
 | M030217 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUniquePlaceOrdEqOne` | build-observed |
 | M030218 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUniquePlaceOrdEqOneStatement` | build-observed |
@@ -378,27 +402,3 @@
 | M030554 | P2324 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilIsRootLocal` | volunteer-build-reviewed |
 | M030555 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilOver` | build-observed |
 | M030556 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilOverOfClauses` | volunteer-build-reviewed |
-| M030557 | P1998 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilPairingEqCmIntegerOfPureType` | volunteer-build-reviewed |
-| M030558 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilPairingEqCmIntegerOfPureTypeStatement` | volunteer-build-reviewed |
-| M030566 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilRepresentationBigCellRelationFourierStatement` | volunteer-build-reviewed |
-| M030569 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilRepresentationSplitUnitarySchwartzBruh` | volunteer-build-reviewed |
-| M030570 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilRepresentationSplitUnitarySchwartzBruhStatement` | volunteer-build-reviewed |
-| M030572 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilRepresentationVacuumCosetVectorsGridStatement` | volunteer-build-reviewed |
-| M030573 | P1960 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilTransportAdelicSchwartzCmExtension` | volunteer-build-reviewed |
-| M030574 | P1979 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWeilTransportAdelicSchwartzCmExtensionStatement` | volunteer-build-reviewed |
-| M030581 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWhittakerDatumAndHalfLevels` | wave-reused |
-| M030584 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWittFrameFirstColumn` | volunteer-build-reviewed |
-| M030585 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWittFrameFirstColumnStatement` | volunteer-build-reviewed |
-| M030586 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsWittFrameInitCols` | volunteer-build-reviewed |
-| M030603 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsZmodActionModelOfIsColimitFiltered` | build-observed |
-| M030604 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsZmodActionModelOfIsColimitFilteredStatement` | build-observed |
-| M030605 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsZmodTorsorModelOfFilteredColimit` | build-observed |
-| M030606 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsZmodTorsorModelOfFilteredColimitStatement` | build-observed |
-| M030610 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpConjEntriesHasFDerivAtZero` | volunteer-build-reviewed |
-| M030612 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpDerEigenIff` | volunteer-build-reviewed |
-| M030615 | P0977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpGLiAddSmul` | volunteer-build-reviewed |
-| M030616 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpNegLeNormTprodOneSubInv` | volunteer-build-reviewed |
-| M030617 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpSumCoeffEqZeroOfVanishing` | volunteer-build-reviewed |
-| M030618 | P0105 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpSumCoeffEqZeroOfVanishingStatement` | volunteer-build-reviewed |
-| M030623 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpansionOddMultiplicationPullbackAtTrait` | volunteer-build-reviewed |
-| M030628 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExpansionOriginValuesSumModPowStatement` | volunteer-build-reviewed |

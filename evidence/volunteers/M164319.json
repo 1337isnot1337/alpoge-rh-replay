@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M164319"
+  ],
+  "started_utc": "2026-11-21T15:51:14.471548+00:00",
+  "ended_utc": "2026-11-21T15:52:13.096051+00:00",
+  "elapsed_seconds": 58.6,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16282904,
+    "peak_child_rss_kib": 6264636
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PProperSheetedFibreEsymm:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "97dc9b8670c29a813321c59e516d11bff43c18a9afce7c367408907c3dc8a8cf",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StParametricCircleIntegralAnalytic",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StProperSheetedFibreEsymm",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StRiemannExtensionAnalytic",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StUnbranchedProperCountConstant"
+  ],
+  "objects": {
+    "M164319": "a6216c2ba61b4e5409dec585f38f9dd6cb4eba412eaec32c6f2c036b4168101d"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "1419aa23cf9f093c1d51bb5b1c55e24ea360b355d61e29d8589ff008bbb36fa5",
+  "packet": "M164319",
+  "contributor": "chriswilson413",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23260#issuecomment-7065205098",
+  "reviewed_utc": "2026-11-21T17:01:09.849969+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

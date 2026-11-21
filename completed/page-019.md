@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M014829 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditivePeriodExponentLinear` | volunteer-build-reviewed |
 | M014830 | P0296 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditivePeriodExponentLinearStatement` | volunteer-build-reviewed |
 | M014837 | P0918 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveTwoCocycleCoeffRelationsOnePair` | build-observed |
 | M014838 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveTwoCocycleCoeffRelationsOnePairStatement` | build-observed |
@@ -401,4 +402,3 @@
 | M016299 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BialgebraPullbackTwoConvMulSymmetricCocycle` | wave-reused |
 | M016300 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BialgebraPullbackTwoConvMulSymmetricCocycleStatement` | wave-reused |
 | M016303 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharDerivContDiff` | volunteer-build-reviewed |
-| M016304 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharDerivContDiffStatement` | volunteer-build-reviewed |

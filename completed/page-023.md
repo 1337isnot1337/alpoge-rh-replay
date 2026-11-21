@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M020109 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CubicalMetricLocalToGlobal` | build-observed |
+| M020110 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CubicalMetricLocalToGlobalStatement` | build-observed |
+| M020111 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CubicalMetricOfFlatMetric` | build-observed |
+| M020112 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CubicalMetricOfFlatMetricStatement` | build-observed |
+| M020119 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupChernKummerPullbackNaturality` | wave-reused |
 | M020120 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupChernKummerPullbackNaturalityStatement` | wave-reused |
 | M020121 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupEqClassOfIsAW` | wave-reused |
 | M020122 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupEqClassOfIsAWStatement` | wave-reused |
@@ -60,6 +65,7 @@
 | M020225 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspFormGLSiegelConeDecayOneStep` | volunteer-build-reviewed |
 | M020229 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspFormGramSize` | build-observed |
 | M020231 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspFormGrowthLeImageDegreeLowerWeightStatement` | volunteer-build-reviewed |
+| M020238 | P1351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspFormLinearCombination` | volunteer-build-reviewed |
 | M020241 | P1374 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspFormModerateGrowthCompact` | build-observed |
 | M020242 | P1397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspFormModerateGrowthCompactStatement` | build-observed |
 | M020250 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspFormRankLeBergmanBoundGoodCoverStatement` | volunteer-build-reviewed |
@@ -73,6 +79,7 @@
 | M020278 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspFormsFiniteDimensionalStatement` | volunteer-build-reviewed |
 | M020283 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspFormsUniformlySmallOutsideCompactBand` | volunteer-build-reviewed |
 | M020285 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspPhMemChiLat` | volunteer-build-reviewed |
+| M020289 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspRepUnitaryTwistExists` | volunteer-build-reviewed |
 | M020301 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalCharacterFormula` | build-observed |
 | M020302 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalCharacterGLFiniteFieldEqOfModEq` | wave-reused |
 | M020303 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalCharacterGLFiniteFieldEqOfModEqStatement` | wave-reused |
@@ -80,6 +87,7 @@
 | M020305 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalCharacterGLFiniteFieldFrobeniusPowStatement` | wave-reused |
 | M020306 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalCharacterGLIsCharacterNormOneOfRegular` | wave-reused |
 | M020307 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalCharacterGLIsCharacterNormOneOfRegularStatement` | wave-reused |
+| M020308 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalCompactCharacterVanishing` | volunteer-build-reviewed |
 | M020309 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalComponentConstantTerm` | volunteer-build-reviewed |
 | M020310 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalComponentConstantTermStatement` | volunteer-build-reviewed |
 | M020311 | P1618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CuspidalGLLocalComponentsEventuallySatake` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M021140 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetRestrictScalarsTwoSidedMatrixMul` | build-observed |
 | M021141 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetRestrictScalarsTwoSidedMatrixMulStatement` | build-observed |
 | M021142 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetSNeZero` | volunteer-build-reviewed |
-| M021146 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetSqMulPowLeProdBilinFormLatticeBasis` | volunteer-build-reviewed |
-| M021149 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetTracePowGramNeZeroStatement` | volunteer-build-reviewed |
-| M021152 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetTwistInducedMemFullRankSpace` | volunteer-build-reviewed |
-| M021154 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetTwistedSylvesterSqMulDetPowEqResultantSq` | volunteer-build-reviewed |
-| M021156 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetUnitaryChartSectionConjugatedMatrix` | build-observed |
-| M021157 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetUnitaryChartSectionConjugatedMatrixStatement` | build-observed |
-| M021158 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetValuationsSumZeroSameLocalLattice` | volunteer-build-reviewed |
-| M021159 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetValuationsSumZeroSameLocalLatticeStatement` | volunteer-build-reviewed |

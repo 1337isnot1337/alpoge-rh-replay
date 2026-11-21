@@ -2,6 +2,25 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M024479 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoprimeMulIsIntegralOfPadicIntegralStatement` | volunteer-build-reviewed |
+| M024481 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoprimeMulPrimePowMemConductorStatement` | volunteer-build-reviewed |
+| M024491 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoreIsometryOfFixesIsotropicFrameStatement` | volunteer-build-reviewed |
+| M024493 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCornerUnitOfRightInverse` | volunteer-build-reviewed |
+| M024494 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCornerUnitOfRightInverseStatement` | volunteer-build-reviewed |
+| M024495 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCorrectedLocIsoOfDefectCoboundary` | volunteer-build-reviewed |
+| M024501 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCosetIndicatorExpansionOfDepthPeriodic` | volunteer-build-reviewed |
+| M024502 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCosetIndicatorExpansionOfDepthPeriodicStatement` | volunteer-build-reviewed |
+| M024503 | P1589 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCotangentFrameSmoothGroupScheme` | build-observed |
+| M024504 | P1619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCotangentFrameSmoothGroupSchemeStatement` | build-observed |
+| M024505 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCountSpanSingletonEqMul` | volunteer-build-reviewed |
+| M024508 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCountableCompleteDvrExtensionStatement` | volunteer-build-reviewed |
+| M024511 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCovEqMulVec` | volunteer-build-reviewed |
+| M024517 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoverFunctionFieldEmbeddingStatement` | volunteer-build-reviewed |
+| M024532 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCpLinComb` | volunteer-build-reviewed |
+| M024539 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCrystallineFormLiftDifferenceEqSumStatement` | volunteer-build-reviewed |
+| M024546 | P1352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCubeValuationEqDiscriminant` | build-observed |
+| M024547 | P1375 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCubeValuationEqDiscriminantStatement` | build-observed |
+| M024548 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCubicalMetric` | build-observed |
 | M024549 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCubicalMetricStatement` | build-observed |
 | M024553 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCubicalStructureMapClosedFibreLocalHomStatement` | volunteer-build-reviewed |
 | M024555 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCubicalStructureMapOfLineBundleIsoRescaledStatement` | volunteer-build-reviewed |
@@ -263,6 +282,7 @@
 | M025428 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteRelIndexStabilizerCommensurableLattiStatement` | volunteer-build-reviewed |
 | M025435 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteSeparablePointOfSeparableClosurePoin` | volunteer-build-reviewed |
 | M025436 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteSeparablePointOfSeparableClosurePoinStatement` | volunteer-build-reviewed |
+| M025437 | P1249 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteSetDimDropClosed` | volunteer-build-reviewed |
 | M025443 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteSmoothPartitionUnityHolAtlas` | volunteer-build-reviewed |
 | M025445 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteSubextensionCls` | volunteer-build-reviewed |
 | M025454 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteTopologicalKrullDimDiffOpenLt` | volunteer-build-reviewed |
@@ -280,6 +300,7 @@
 | M025485 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetAwayMapSubalgebraBijectiveStatement` | volunteer-build-reviewed |
 | M025486 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetCosetRepsBoundedHalfPoints` | volunteer-build-reviewed |
 | M025487 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetCosetRepsBoundedHalfPointsStatement` | volunteer-build-reviewed |
+| M025488 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetDecoSetLatticeReps` | volunteer-build-reviewed |
 | M025489 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetEqSumAddCosetIndicator` | volunteer-build-reviewed |
 | M025490 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetEqSumAddCosetIndicatorStatement` | volunteer-build-reviewed |
 | M025491 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetFixingPointLocallyFiniteType` | volunteer-build-reviewed |
@@ -381,24 +402,3 @@
 | M025832 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGeneratorsDualPointDerivationsAugmentedStatement` | volunteer-build-reviewed |
 | M025843 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericFrameAndLocalFramesAllPlaces` | volunteer-build-reviewed |
 | M025844 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericFrameAndLocalFramesAllPlacesStatement` | volunteer-build-reviewed |
-| M025846 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericJacobianDataIterated` | volunteer-build-reviewed |
-| M025847 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericJacobianDataIteratedStatement` | volunteer-build-reviewed |
-| M025848 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericJacobianDataOfPrime` | volunteer-build-reviewed |
-| M025863 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericPointOfLiesOverGenericStatement` | volunteer-build-reviewed |
-| M025866 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericPointsUniformisationsWeilPairingGalStatement` | volunteer-build-reviewed |
-| M025869 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGensModNsmulOfFgNumberField` | volunteer-build-reviewed |
-| M025870 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGensModNsmulOfFgNumberFieldStatement` | volunteer-build-reviewed |
-| M025873 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenuineSplittingAdelicSchwartzPlaceSignatuStatement` | volunteer-build-reviewed |
-| M025880 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGeometricallyIntegralImageOfHom` | volunteer-build-reviewed |
-| M025881 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGeometricallyIntegralImageOfHomStatement` | volunteer-build-reviewed |
-| M025894 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalIffEtaProd` | volunteer-build-reviewed |
-| M025897 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalLiftOfChartLocalLiftsSquareZero` | volunteer-build-reviewed |
-| M025899 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalMatrixApproxTwoAdelicModuli` | volunteer-build-reviewed |
-| M025900 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalMatrixApproxTwoAdelicModuliStatement` | volunteer-build-reviewed |
-| M025903 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalOfLocalPrime` | volunteer-build-reviewed |
-| M025905 | P1645 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalOneFormsIsBaseChangeTangentRep` | build-observed |
-| M025906 | P1668 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalOneFormsIsBaseChangeTangentRepStatement` | build-observed |
-| M025910 | P1352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalSectionUnitStalk` | build-observed |
-| M025911 | P1375 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalSectionUnitStalkStatement` | build-observed |
-| M025912 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalSphericalVectorOfSatakeFamily` | volunteer-build-reviewed |
-| M025913 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalSphericalVectorOfSatakeFamilyStatement` | volunteer-build-reviewed |

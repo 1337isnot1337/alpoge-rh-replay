@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M025846 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericJacobianDataIterated` | volunteer-build-reviewed |
+| M025847 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericJacobianDataIteratedStatement` | volunteer-build-reviewed |
+| M025848 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericJacobianDataOfPrime` | volunteer-build-reviewed |
+| M025863 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericPointOfLiesOverGenericStatement` | volunteer-build-reviewed |
+| M025866 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenericPointsUniformisationsWeilPairingGalStatement` | volunteer-build-reviewed |
+| M025869 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGensModNsmulOfFgNumberField` | volunteer-build-reviewed |
+| M025870 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGensModNsmulOfFgNumberFieldStatement` | volunteer-build-reviewed |
+| M025873 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGenuineSplittingAdelicSchwartzPlaceSignatuStatement` | volunteer-build-reviewed |
+| M025880 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGeometricallyIntegralImageOfHom` | volunteer-build-reviewed |
+| M025881 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGeometricallyIntegralImageOfHomStatement` | volunteer-build-reviewed |
+| M025894 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalIffEtaProd` | volunteer-build-reviewed |
+| M025897 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalLiftOfChartLocalLiftsSquareZero` | volunteer-build-reviewed |
+| M025899 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalMatrixApproxTwoAdelicModuli` | volunteer-build-reviewed |
+| M025900 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalMatrixApproxTwoAdelicModuliStatement` | volunteer-build-reviewed |
+| M025903 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalOfLocalPrime` | volunteer-build-reviewed |
+| M025905 | P1645 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalOneFormsIsBaseChangeTangentRep` | build-observed |
+| M025906 | P1668 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalOneFormsIsBaseChangeTangentRepStatement` | build-observed |
+| M025910 | P1352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalSectionUnitStalk` | build-observed |
+| M025911 | P1375 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalSectionUnitStalkStatement` | build-observed |
+| M025912 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalSphericalVectorOfSatakeFamily` | volunteer-build-reviewed |
+| M025913 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalSphericalVectorOfSatakeFamilyStatement` | volunteer-build-reviewed |
 | M025914 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalUniformiserAbovePrime` | volunteer-build-reviewed |
 | M025915 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalUniformiserAbovePrimeStatement` | volunteer-build-reviewed |
 | M025920 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalVectorFieldOfOneFormFunctional` | build-observed |
@@ -129,6 +150,7 @@
 | M026248 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdealSheafComapEqOfOpenCoverStatement` | volunteer-build-reviewed |
 | M026249 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdealSheafDataOfCompatible` | volunteer-build-reviewed |
 | M026250 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdealSheafDataOfCompatibleStatement` | volunteer-build-reviewed |
+| M026260 | P1740 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdeleAbsGtOne` | volunteer-build-reviewed |
 | M026262 | P1302 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdeleAt` | volunteer-build-reviewed |
 | M026265 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdeleWithArchimedeanComponents` | volunteer-build-reviewed |
 | M026266 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdeleWithArchimedeanComponentsStatement` | volunteer-build-reviewed |
@@ -285,6 +307,7 @@
 | M026610 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsHWOfFd` | build-observed |
 | M026615 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsHomogeneousDehomogenize` | volunteer-build-reviewed |
 | M026616 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsHomogeneousDehomogenizeStatement` | volunteer-build-reviewed |
+| M026623 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsIsomComp` | volunteer-build-reviewed |
 | M026626 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsLeastHermLength` | volunteer-build-reviewed |
 | M026632 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsLocalHomAdicCompletionExtend` | volunteer-build-reviewed |
 | M026634 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsLocalRingQuotientPairwiseIsCoprimeIInfEq` | volunteer-build-reviewed |
@@ -379,26 +402,3 @@
 | M026968 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviCharacterModulusStatement` | volunteer-build-reviewed |
 | M026971 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviElementIsotropicOrthogonalComplex` | volunteer-build-reviewed |
 | M026972 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviElementIsotropicOrthogonalComplexStatement` | volunteer-build-reviewed |
-| M026973 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviElementSkewCm` | volunteer-build-reviewed |
-| M026974 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviElementSkewCmStatement` | volunteer-build-reviewed |
-| M026975 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviElementSkewGood` | volunteer-build-reviewed |
-| M026977 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviElementSmallUnitaryStatement` | volunteer-build-reviewed |
-| M026979 | P1031 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviGeneratedCommutingBlockGL` | build-observed |
-| M026980 | P1059 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviGeneratedCommutingBlockGLStatement` | build-observed |
-| M026981 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviLiftOfAdaptedPlane` | volunteer-build-reviewed |
-| M026982 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviLiftOfAdaptedPlaneStatement` | volunteer-build-reviewed |
-| M026983 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviOfUnit` | volunteer-build-reviewed |
-| M026984 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviSectionIsotropicFrame` | volunteer-build-reviewed |
-| M026985 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviSectionIsotropicFrameStatement` | volunteer-build-reviewed |
-| M026987 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLeviTorusElementCmStatement` | volunteer-build-reviewed |
-| M026991 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLieBasisCompletionInSpanLieLattice` | volunteer-build-reviewed |
-| M026992 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLieBasisCompletionInSpanLieLatticeStatement` | volunteer-build-reviewed |
-| M026993 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLieBasisFibreOverCompletionFractionField` | volunteer-build-reviewed |
-| M026994 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLieBasisFibreOverCompletionFractionFieldStatement` | volunteer-build-reviewed |
-| M026998 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLieBasisSmoothCommGroupSchemeFieldStatement` | volunteer-build-reviewed |
-| M027008 | P2323 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLieDeterminantLineRatioFunction` | build-observed |
-| M027016 | P1941 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLieTieOfFrMap` | volunteer-build-reviewed |
-| M027017 | P1302 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftAdaptedBasisQuasiLogarithmsFrame` | build-observed |
-| M027018 | P1327 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftAdaptedBasisQuasiLogarithmsFrameStatement` | build-observed |
-| M027020 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftAlgebraicallyClosedPoint` | volunteer-build-reviewed |
-| M027021 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftAlgebraicallyClosedPointStatement` | volunteer-build-reviewed |

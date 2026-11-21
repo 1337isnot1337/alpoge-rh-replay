@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M128373"
+  ],
+  "started_utc": "2026-11-21T16:08:54.418851+00:00",
+  "ended_utc": "2026-11-21T16:09:13.993765+00:00",
+  "elapsed_seconds": 19.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5196036
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TwistedJacquetExactSmoothStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d719c7240b5dca416883f97c9630eef2372941533d9cd575211d0d3cc20d6adc",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsFiniteSupport",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TwistedJacquetExactSmooth",
+    "Development.WeilBound.CoreStatements.TemperedRepresentationTheory.MirabolicDerivatives.TwistedKernels.TwKerLeComapOf"
+  ],
+  "objects": {
+    "M128373": "4872a5fd0010368c780c378c43622fb50a379f83a9e9801d58f7924ec7aaf015"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "71fca21a34421bf4342f2f4b4530d5bab11a7b8bc0d7d714fa7144867808852a",
+  "packet": "M128373",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23310#issuecomment-7065429042",
+  "reviewed_utc": "2026-11-21T16:59:47.325436+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

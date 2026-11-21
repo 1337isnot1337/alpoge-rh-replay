@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M119816"
+  ],
+  "started_utc": "2026-11-21T16:06:07.092766+00:00",
+  "ended_utc": "2026-11-21T16:06:59.372921+00:00",
+  "elapsed_seconds": 52.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5470856
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Definitions.MetricPeriods.GoodOver:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "782cdfea370e3b4264272ed1f6976c1620d65e2a7246912b7466143f97fc13c0",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.IntStable",
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.Statements",
+    "ReciprocityTheory.L2DbarEstimates.IsLocalHomeomorph",
+    "ReciprocityTheory.L2DbarEstimates.JacobianInterpolationStatement",
+    "ReciprocityTheory.L2DbarEstimates.PlurisubharmonicCharts.FamilyLeCoords",
+    "ReciprocityTheory.L2DbarEstimates.PlurisubharmonicCharts.GROWCountStatement"
+  ],
+  "objects": {
+    "M119816": "3573291a5817df206942ab0e8c6745a82efcbac2f37d70adaad6ac3e62545411"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "cb4d1c51e98dd39a9bd617001d0669c10552e4f4d112bebc333a5d73d9bebe43",
+  "packet": "M119816",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23285#issuecomment-7065418750",
+  "reviewed_utc": "2026-11-21T17:00:36.796149+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M153979"
+  ],
+  "started_utc": "2026-11-21T15:58:40.867290+00:00",
+  "ended_utc": "2026-11-21T15:58:58.312484+00:00",
+  "elapsed_seconds": 17.4,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16282904,
+    "peak_child_rss_kib": 6361916
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.OrbitalBoundsConclusion.TiltDivisibility:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "522cde0df5079c1d40c8cbd266e54db684ce83be061df8c4deda26ffcf330da9",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.ArtSch",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TiltedDivisibility.TiltDivOfGeneral",
+    "GroundTheory.PAdicHodge.PerfectoidField"
+  ],
+  "objects": {
+    "M153979": "a036fa894381e576b4624534a679502005b5cfa20ccbfcefff9b41ced2711514"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "18d46355d0f63c11fa54356a76dfec43cd5c6c03a1fc6f761b3a5ae515d6080d",
+  "packet": "M153979",
+  "contributor": "chriswilson413",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23287#issuecomment-7065287420",
+  "reviewed_utc": "2026-11-21T17:00:41.498344+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M010076 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAtPlacesMemCompletedHermitianLaStatement` | volunteer-build-reviewed |
 | M010077 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAtPlacesSelfDualOfSelfDual` | volunteer-build-reviewed |
 | M010078 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAtPlacesSelfDualOfSelfDualStatement` | volunteer-build-reviewed |
 | M010080 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionEqOfLocalAgreementStatement` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M010824 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PosIffLtCard` | volunteer-build-reviewed |
 | M010825 | P0706 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PositionOneOfSymmetricDoubleIntegralFinite` | build-observed |
 | M010826 | P0732 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PositionOneOfSymmetricDoubleIntegralFiniteStatement` | build-observed |
-| M010828 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PowExpIOrInvInjective` | volunteer-build-reviewed |
