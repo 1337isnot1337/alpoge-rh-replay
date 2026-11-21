@@ -106,7 +106,9 @@ def packet_suggestions(rows, busy, include_partial=False):
 def open_issues():
     route = f'repos/{repo}/issues?state=open&per_page=100'
     cli = which('gh')
-    if cli and subprocess.run([cli, 'auth', 'status', '--hostname', 'github.com'],
+    # `auth status` fails if any saved account is invalid, even when the
+    # active credential used by `gh api` is valid.
+    if cli and subprocess.run([cli, 'auth', 'token', '--hostname', 'github.com'],
                               stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).returncode == 0:
         output = subprocess.check_output(
             [cli, 'api', '--hostname', 'github.com', '--paginate', route],

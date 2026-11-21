@@ -1,4 +1,5 @@
 import io
+import subprocess
 import unittest
 from contextlib import redirect_stdout
 from unittest.mock import patch
@@ -24,6 +25,25 @@ class ClaimCommandTests(unittest.TestCase):
                 self.assertEqual(tasks.main(), 0)
                 command = create.call_args.args[0]
                 self.assertEqual(command[command.index('--title') + 1], 'Claim ' + claim_id)
+
+
+class OpenIssueTests(unittest.TestCase):
+    def test_saved_active_credential_uses_authenticated_pagination(self):
+        with patch.object(tasks, 'which', return_value='/bin/gh'), \
+             patch.object(tasks.subprocess, 'run', return_value=subprocess.CompletedProcess([], 0)) as auth, \
+             patch.object(tasks.subprocess, 'check_output', return_value='[{"number": 1}][{"number": 2}]') as api, \
+             patch.object(tasks.urllib.request, 'urlopen') as anonymous:
+            self.assertEqual(list(tasks.open_issues()), [{'number': 1}, {'number': 2}])
+
+        auth.assert_called_once_with(
+            ['/bin/gh', 'auth', 'token', '--hostname', 'github.com'],
+            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+        )
+        api.assert_called_once_with(
+            ['/bin/gh', 'api', '--hostname', 'github.com', '--paginate',
+             f'repos/{tasks.repo}/issues?state=open&per_page=100'], text=True,
+        )
+        anonymous.assert_not_called()
 
 
 class ColdModuleTests(unittest.TestCase):
