@@ -1,0 +1,17 @@
+Module: M164286 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPowerSumsEsymmAnalytic
+Started: 2026-11-21T22:36:23.700683+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPowerSumsEsymmAnalytic:olean"]
+Pinned source SHA-256: bbdadae6218c84c6f3496afeb3ebdb35ae61b8e3a90553e5b649d2dcc45ab841
+Compiled source SHA-256: bbdadae6218c84c6f3496afeb3ebdb35ae61b8e3a90553e5b649d2dcc45ab841
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StPowerSumsEsymmAnalytic (2.2s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StPowerSumsEsymmAnalytic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StPowerSumsEsymmAnalytic:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StPowerSumsEsymmAnalytic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPowerSumsEsymmAnalytic (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PPowerSumsEsymmAnalytic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.531
+Timed out: False

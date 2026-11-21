@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "packet": "P0162",
+  "purpose": "Frozen repair candidates for fresh complete-packet CI; narrow probes are not final build evidence.",
+  "base_commit": "44c12de2c233da1fa548db2a58c0bb1f19c1e016",
+  "target": {
+    "lean": "leanprover/lean4:v4.36.0",
+    "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+    "mathlib_note": "Mathlib's release tag v4.36.0 (matches Lean v4.36.0). Approved by the maintainer 2026-11-21.",
+    "replay_pins_unchanged": {
+      "lean": "leanprover/lean4:v4.33.1",
+      "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474"
+    }
+  },
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "packet_ids": [
+    "M164128",
+    "M164140",
+    "M164142",
+    "M164143",
+    "M164152",
+    "M164157",
+    "M164160",
+    "M164163",
+    "M164165",
+    "M164191",
+    "M164192",
+    "M164193",
+    "M164208",
+    "M164209",
+    "M164269",
+    "M164278",
+    "M164286",
+    "M164302",
+    "M164309",
+    "M164316",
+    "M164318",
+    "M164319",
+    "M164342",
+    "M164368",
+    "M164430",
+    "M164435",
+    "M164439",
+    "M164456",
+    "M164466",
+    "M164467",
+    "M164468",
+    "M164474",
+    "M164487",
+    "M164557",
+    "M164565",
+    "M164567",
+    "M164570",
+    "M164571",
+    "M164574",
+    "M164576",
+    "M164580",
+    "M164582",
+    "M164585",
+    "M164587",
+    "M164588",
+    "M164592",
+    "M164606",
+    "M164608",
+    "M164630",
+    "M164633",
+    "M164634",
+    "M164637",
+    "M164638",
+    "M164639",
+    "M164640",
+    "M164643",
+    "M164644",
+    "M164648",
+    "M164650",
+    "M164651",
+    "M164669",
+    "M164670",
+    "M164677",
+    "M164678"
+  ],
+  "baseline_run_url": "https://github.com/1337isnot1337/alpoge-rh-replay/actions/runs/44953779207",
+  "baseline_success_count": 59,
+  "patched_modules": {
+    "M164152": {
+      "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PHolomorphicIsolatedFibreOpen",
+      "source_sha256": "555f72a91b5cbecd6453372ba3d38bf91acea8b33368ca71c224ba9f8b7d8900",
+      "compiled_source_sha256": "93f831f6a6659367c319b17959138e5f5b773618e50a351c58501b7b66a50520",
+      "patch_sha256": "9f31eb6090f3cef8d5bbdb911120c6f585df6ab4cffced41cd1f1b10b49e2696",
+      "notes": "Pass the range ball (ball (g u) \u03b5) explicitly to the existing ProperHolomorphicSurjective hypothesis and normalize the preimage-membership goal to g u \u2208 ball (g u) \u03b5 before applying mem_ball_self. The latter goal is definitionally equal to u \u2208 g \u207b\u00b9' ball (g u) \u03b5. These proof annotations prevent the target elaborator from repeatedly unfolding the metric while inferring a ball center. The same range and nonempty witness were already required by later arguments; definitions and theorem statements are unchanged.",
+      "narrow_validation": {
+        "kind": "narrow diagnostic with scratch-only module header; actual legacy-source full packet CI still required",
+        "source_sha256": "3ae23d4e686fc598ccd9feaf4024262af3ba76bd9f883c2799b1804259ed8feb",
+        "log_sha256": "e871b97a170cc21cc319aa6fc23d6a35e910d080f5065894391a3b19777a08a5",
+        "exit_code": 0,
+        "elapsed_seconds": 10.003
+      }
+    },
+    "M164165": {
+      "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PInvarianceOfDomain",
+      "source_sha256": "da319365ed5ddb59d4a6c9e741e4eda9eea0ef32e5ccdc1ea95337c49dd994f4",
+      "compiled_source_sha256": "1fa75ef6c9780be5211bc6a29b175a494df871d585f897267c4b3ee3f6d888eb",
+      "patch_sha256": "7e55cba2567b628ac8e13f641bb56815fffc6aeff6c14b125a05c2c21a636194",
+      "notes": "Pass the constant family (fun _ => \u211d) to contDiff_apply, whose second argument is now a dependent family of codomain types. This is the same coordinate projection from Fin n \u2192 \u211d to \u211d. Only the proof of smoothSubalgebra_separatesPoints changes; definitions and theorem statements are unchanged.",
+      "narrow_validation": {
+        "kind": "narrow diagnostic; actual legacy-source full packet CI still required",
+        "source_sha256": "b17fa59794d908591bcd277cc0a755ff7d6e22c42c2657a8f9bb72500fced221",
+        "log_sha256": "01f8629898949bce2261924a9749745e5434241a5957e710f418ad7aff6dc7a2",
+        "exit_code": 0,
+        "elapsed_seconds": 23.515
+      }
+    },
+    "M164192": {
+      "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLengthCutLocalizedModule",
+      "source_sha256": "7871ac90d50fb2afd8523b20776fc97c972aefa5baef8b0710a6518ace01b874",
+      "compiled_source_sha256": "a67653d87f239b77aea64c0303126845a555fd724de77ae7044f5222d2a30b94",
+      "patch_sha256": "c105cca8ae9219ab32132edec829f788e22b4dff548bbda479995c1ab77108e6",
+      "notes": "Change TFAE.out indices from 0,4 to 1,5 to match the target one-based convention. The selected propositions remain IsPrincipalIdealRing and principality of the maximal ideal, and the same reverse implication proves hpir. Only the proof changes; definitions and theorem statements are unchanged.",
+      "narrow_validation": {
+        "kind": "narrow diagnostic; actual legacy-source full packet CI still required",
+        "source_sha256": "4d390a226331bf8800e9428f06a3793890832cd72bc1fd160f58aa9b41caeb68",
+        "log_sha256": "01f8629898949bce2261924a9749745e5434241a5957e710f418ad7aff6dc7a2",
+        "completion": "Root reported exit0; no separate result JSON was emitted."
+      }
+    },
+    "M164319": {
+      "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PProperSheetedFibreEsymm",
+      "source_sha256": "561b545934b8e0749e9c5a43a4f4f8a6eb0d4eb9b42d41e8dfed05ea7976f04e",
+      "compiled_source_sha256": "93bbb944f6713021e00614da07b9e478222fb9dc412cdf31b5066517f4f5278f",
+      "patch_sha256": "66d1042f4078a621f848ac41e1c947cfd856462f7707bd6eb588c9b5d0d59189",
+      "notes": "Use Finset.prod_le_prod\u2080, the target lemma retaining the original nonnegativity and pointwise-bound hypotheses. Specify the source set U \u00d7\u02e2 {s : \u2102 | s \u2260 0} in DifferentiableOn.comp so the existing product-membership proof has a known conjunction type. These are the same bound and composition on the same source set. Only proofs change; definitions and theorem statements are unchanged.",
+      "narrow_validation": {
+        "kind": "narrow diagnostic; actual legacy-source full packet CI still required",
+        "source_sha256": "6891d4abd857a0cc42a00ee6bfedbc6e0d30e9d0d2ecde9ee85a042bb2b8527b",
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "exit_code": 0,
+        "elapsed_seconds": 5.002
+      }
+    },
+    "M164467": {
+      "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.RegularLocus",
+      "source_sha256": "5eda9ca12eb0db24b9a46b444184121ff5ab4f8e9a182929b1afe7821c6e6f7e",
+      "compiled_source_sha256": "7991fbad05fc8e45c0bb10270e3e85967eafc8746bcf7b19fb001da046bc7d26",
+      "patch_sha256": "8a430f6e4d5a181709026e5d0b7f0e21396de9cb40846cc1fed6a032513250f0",
+      "notes": "Mark seqWithLimit noncomputable because the target Real division instance has no executable implementation. The definition name, type, and entire body are unchanged; noncomputable only suppresses generation of executable code for this definition. Its defining equality is still proved by rfl. This adds no axiom or new assumption.",
+      "narrow_validation": {
+        "kind": "narrow diagnostic; actual legacy-source full packet CI still required",
+        "source_sha256": "6a6bb490c414d5ebc4118ba51719ceb4fa6d7e8d126d555bce48a25de7374ab8",
+        "log_sha256": "36651384268dd9c15172dff9d6f8dbc8ee22abe8f889b12ac10b2101f702c62d",
+        "exit_code": 0,
+        "elapsed_seconds": 5.441
+      }
+    }
+  },
+  "candidate_version": 2,
+  "supersedes_if_needed": "final-candidate-manifest.json; retain V1 if its complete packet CI succeeds",
+  "profile_evidence": {
+    "artifact_id": 14728015002,
+    "artifact_sha256": "fc3c9837bd42bd36bc7645ac9219d184b706f7e627ed0885d0facdbb7c61a57f",
+    "module": "M164152",
+    "diagnosis": "Legacy-source profiling records repeated unification of ball ?m.638 \u03b5 with g \u207b\u00b9' ball (g u) \u03b5 inside the nonempty witness; no heartbeat limit changes."
+  }
+}

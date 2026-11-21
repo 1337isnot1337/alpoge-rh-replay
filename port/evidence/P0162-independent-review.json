@@ -1,0 +1,18 @@
+{
+  "packet": "P0162",
+  "reviewed_utc": "2026-11-21T22:43:49.918122+00:00",
+  "archive_sha256": "06bb74a6ede2dd7a2ec20fa00e690f710f503d38536b29caed72dfb6ba702054",
+  "artifact_id": 14728331989,
+  "run_id": 44956973383,
+  "ci_commit": "8db8aa3148758270fc4e0725ec8a9a4fa5d9c2f6",
+  "artifact_file_digests_verified": 78,
+  "packet_successes": 64,
+  "pinned_source_reconstructions": 111,
+  "target_patches": 5,
+  "unchanged_targets": 59,
+  "dependency_pins_verified": 9,
+  "lakefile_original_options_exact": true,
+  "candidate_manifest_sha256": "f96e8d353ad42c476c95193851a476e9acd9d6df11c7efb3803a458178b1d313",
+  "full_logs_verified": 64,
+  "source_and_statement_review": "All five V2 diffs previously reviewed; no theorem types changed, one noncomputable modifier only."
+}

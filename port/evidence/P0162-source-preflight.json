@@ -1,0 +1,395 @@
+{
+  "packet": "P0162",
+  "tracker_commit": "2187a604f76741e64a5e17ab0d3ea9dc1477ab37",
+  "module_count": 64,
+  "source_pins_verified": true,
+  "checks": [
+    {
+      "id": "M164128",
+      "source_sha256": "a23fabfa771cd745b5a8b91499e90ba07e6089969b07f975ed3e0add5a9ac851",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164140",
+      "source_sha256": "1c5a3bc277f67f27aaf24b167ad09a9e34d2eccc389758626051ee4ced5d0de9",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164142",
+      "source_sha256": "1ce2631202a7967eef4cce7313f2645b077678e6f49c59243ace9b6f6c419349",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164143",
+      "source_sha256": "4db99ae3a93520e60c5e008966169deeec196f6e6fdf048fd7c043f74c32dbd8",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164152",
+      "source_sha256": "555f72a91b5cbecd6453372ba3d38bf91acea8b33368ca71c224ba9f8b7d8900",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164157",
+      "source_sha256": "ffa45c291ff9e84969e9fcb167d03a655b308783a28b6a058bff448e745d33f2",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164160",
+      "source_sha256": "b7527576c7bab506883d9d1538798f48cdc7f3396ce1457138d441350b615123",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164163",
+      "source_sha256": "80d5051d1830dbceba02b7782d2c20e1353cf086b7ebfc626f67166b6bf6c0bb",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164165",
+      "source_sha256": "da319365ed5ddb59d4a6c9e741e4eda9eea0ef32e5ccdc1ea95337c49dd994f4",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164191",
+      "source_sha256": "d91108756b105b9d8f9ed4dc1dab65581db36d92227c476733b5654ba529860f",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164192",
+      "source_sha256": "7871ac90d50fb2afd8523b20776fc97c972aefa5baef8b0710a6518ace01b874",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164193",
+      "source_sha256": "a55eb3638730ecf47cfd01d4687807c9c5d8a2d6c431452b6d2b4af36ca2c434",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164208",
+      "source_sha256": "7a0390784ee583d7595321eed2881ffe2fcb1cd0cb6dfdf6418587bbd9a8b16a",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164209",
+      "source_sha256": "4cb2f0a9571012363dd49826ba292303d8fcfb2973966fae0243054bf9968ae6",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164269",
+      "source_sha256": "f6d2572bef90a4e526078b7b8ad0788c464f92c5841204f70759ebd7798d2d87",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164278",
+      "source_sha256": "87b4279cb74abd57e4c2e8a15fa51d67bf2af594ac928e21401e3c3b523fcf8f",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164286",
+      "source_sha256": "bbdadae6218c84c6f3496afeb3ebdb35ae61b8e3a90553e5b649d2dcc45ab841",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164302",
+      "source_sha256": "cc9e078a742f1da42177247eebe4d5ff9774995551608fceae642e42782d58e5",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164309",
+      "source_sha256": "10159d527148f432a00192a3aa3251c4c88e83e76035a3c939624022e3df1f26",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164316",
+      "source_sha256": "ff075ec85116af8dff7eecd35aab818de83ed5a0478765782dcd0f0d7f4ff67e",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164318",
+      "source_sha256": "dafd9b7b1cac5a69460a4da23da7db6f128154a9dddee90c721ee9aaf01b1304",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164319",
+      "source_sha256": "561b545934b8e0749e9c5a43a4f4f8a6eb0d4eb9b42d41e8dfed05ea7976f04e",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164342",
+      "source_sha256": "011e52c2f62e59b23967ff236984e4da9fe4412a1c08d3f64a64c2da1b6b2d71",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164368",
+      "source_sha256": "a3e7235e452c74a15034aed403c77ff33a7ac08972fe38f73595c592e1ac81c0",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164430",
+      "source_sha256": "7b529c341ae1c2d94a6c6b2c91f492cefc7810f3eef37d7b761ed4ca9434ecc7",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164435",
+      "source_sha256": "b24dad93191592067e6cc0647f89c1d5ea4c6636809a2a9b3a83ad0a9c8a2949",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164439",
+      "source_sha256": "330c8cc0fbe14c3fe0b7a934edd907928ce626279d7f9ee5c9dfd07b9e07312b",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164456",
+      "source_sha256": "001999c728b1683e25161721a6d01412dd7a8d90495a9735dda6b0dd00f188ef",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164466",
+      "source_sha256": "d05edff728c686173e9da3a85784c3fb236427e71a555d3a31066ab1f14e867d",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164467",
+      "source_sha256": "5eda9ca12eb0db24b9a46b444184121ff5ab4f8e9a182929b1afe7821c6e6f7e",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164468",
+      "source_sha256": "9e6302f4a8893cc275ef974de54557fe521dbbd5eb55477b521304c69dbc3473",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164474",
+      "source_sha256": "6b5c31419977eeaaba7a0bf111f5d63c4cf5a3bc6d47aaa68d55321fb6c138c1",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164487",
+      "source_sha256": "67d266d3704a208c92c2429268e34d2c2e82e761caab5a28adda8bc57d483951",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164557",
+      "source_sha256": "c0e2adb48f6ac6764a149ce4be2dcaa766a9f26dc546f77aa9dc3a07b38fcbae",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164565",
+      "source_sha256": "74846104112a3c568b5f3c0c8600c17a71225a989c8c2c1726a071130edf68f5",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164567",
+      "source_sha256": "03d8800f1b0a3dbdc8e295f2bc71d007898069be60804e9fa48919e0d22a5249",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164570",
+      "source_sha256": "8790e6d21371ef71c2fc846ac6b42c113f7c36c45f1ce488fd7e6c87687746dc",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164571",
+      "source_sha256": "1065edef95b6b5c87328de0c4063af8b4e7c9d1fecf733902e15c590bef4b1e1",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164574",
+      "source_sha256": "4d3dd33857b7d3519e025267cb9b4b9fced7beb03e98d4234e492f0563c9929f",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164576",
+      "source_sha256": "3aef6f22cbea23dd20669a76f063557c33c559f8070afb009760a6b37be4fb5d",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164580",
+      "source_sha256": "7d909fa0d8342d24fbfbf89d9889662b8f3f2f54be7a23e805bb792a4322805a",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164582",
+      "source_sha256": "8eb3ab08680114d88ebd18f573a590c4f9483e8db4d67997e93f241018faca1b",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164585",
+      "source_sha256": "f143702640357a31ab896ef742322b6aa8e4e75549036a891fa719bf4bb5223b",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164587",
+      "source_sha256": "3a52d95f80c037573bfa45bfe0c6525614534fbd9041b8ba0fb9433b21b209b8",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164588",
+      "source_sha256": "a3312b15b58cbbd4948284b50231458f5ca4ef36423d534b90d4113d47efe2ee",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164592",
+      "source_sha256": "2f3852d18dabce0794be6235bae3be5e4492f19e5c6306733d227c9cb2221a3b",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164606",
+      "source_sha256": "ff89c1f69b4803055ff01f52d9f039bd29bb7fb1c75645cf8f2df6858268e696",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164608",
+      "source_sha256": "034bc639a81d53145ed101a67f3b9a1c5bd263aa30099bbaa9572a9e13d693c8",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164630",
+      "source_sha256": "6551bb05858532339ab739148f08aaf99eef9d217b7598b391408bea7a593855",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164633",
+      "source_sha256": "59262e1f8980b7c91c04df49a605c6fad4190925ba5d72441ae6471d047aa255",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164634",
+      "source_sha256": "8521912ee6f76edeada2dd0dd0fda55d6c745a9502d2e6dc4d0ae61bde4827ef",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164637",
+      "source_sha256": "b7bc23face4011a379d9b2b7992cdae136fe5054e1a338d357a606b394ab19fa",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164638",
+      "source_sha256": "de48c0dc7a86141338970bd208732011734d63939d01639bfc216471517b45ed",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164639",
+      "source_sha256": "f08a21f07d7967a5be61b4eda5ba634ade920feeb790a636a551c151675c41e4",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164640",
+      "source_sha256": "f3a75e43973d10f28360bc3773f504c2a3c514c8961a9db0ab0a013fb7be1044",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164643",
+      "source_sha256": "cbc6dfa45fe10c696510b1defcc939bb11c080282346119f1fc8e0000b0ded43",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164644",
+      "source_sha256": "319728e4022d71da52f333f32c6161d48364a6db2901ea4e1e31bdd3b43b995e",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164648",
+      "source_sha256": "8d064b96a3db7a43c186e83c4f5f15e0955b1dc300167a076c3fce8b936533f4",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164650",
+      "source_sha256": "c6c453072a926b67db3e03d8c41a075759dcd3e6138ffce2482be203fc16eb8f",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164651",
+      "source_sha256": "d57b82d25aac4a7930c5f5f53031bd46aeab1331b615d0a39216a79bc8754064",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164669",
+      "source_sha256": "f4cc9aa4844a482618f634ffd8ed4b4617b457967ed594b68a18a35c4534bd08",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164670",
+      "source_sha256": "d97ff3c06cf36eb38e611a238d73d5fabfa3ddf9ea109332274a5fbbeae0329a",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164677",
+      "source_sha256": "491d0e2b691a75eef532c3b6f236705374d49507d8bdd3c8aa14e16255c30930",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    },
+    {
+      "id": "M164678",
+      "source_sha256": "1dba2082589750982a5fc1b7983351a958bb60a52baf04ddbfb672552645bb96",
+      "reused_name_occurrences": [],
+      "admission_or_unsafe_occurrences": []
+    }
+  ],
+  "scope": "Known reused-name scan only; not a proof of general statement equivalence.",
+  "compile_status_at_preflight": "awaiting diagnostic CI; local full-import attempts interrupted without a compiler verdict",
+  "observed_utc": "2026-11-21T21:55:11.583091+00:00"
+}

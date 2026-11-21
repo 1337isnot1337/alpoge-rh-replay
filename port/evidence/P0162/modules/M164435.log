@@ -1,0 +1,17 @@
+Module: M164435 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PUnbranchedProperCountLocallyConstant
+Started: 2026-11-21T22:37:55.001672+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PUnbranchedProperCountLocallyConstant:olean"]
+Pinned source SHA-256: b24dad93191592067e6cc0647f89c1d5ea4c6636809a2a9b3a83ad0a9c8a2949
+Compiled source SHA-256: b24dad93191592067e6cc0647f89c1d5ea4c6636809a2a9b3a83ad0a9c8a2949
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StUnbranchedProperCountLocallyConstant (2.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StUnbranchedProperCountLocallyConstant.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StUnbranchedProperCountLocallyConstant:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StUnbranchedProperCountLocallyConstant.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PUnbranchedProperCountLocallyConstant (2.7s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PUnbranchedProperCountLocallyConstant.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.339
+Timed out: False

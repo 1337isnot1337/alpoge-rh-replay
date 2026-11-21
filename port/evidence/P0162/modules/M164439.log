@@ -1,0 +1,20 @@
+Module: M164439 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PUnitaryZariskiDense
+Started: 2026-11-21T22:38:04.341841+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PUnitaryZariskiDense:olean"]
+Pinned source SHA-256: 330c8cc0fbe14c3fe0b7a934edd907928ce626279d7f9ee5c9dfd07b9e07312b
+Compiled source SHA-256: 330c8cc0fbe14c3fe0b7a934edd907928ce626279d7f9ee5c9dfd07b9e07312b
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StUnitaryZariskiDense (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StUnitaryZariskiDense.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StUnitaryZariskiDense:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StUnitaryZariskiDense.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PUnitaryZariskiDense (3.1s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PUnitaryZariskiDense.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PUnitaryZariskiDense.lean:105:37: Unused tactic linter: there are no goals left for `try ring`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.587
+Timed out: False

@@ -1,0 +1,17 @@
+Module: M164638 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermComplementConnected
+Started: 2026-11-21T22:41:25.520292+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermComplementConnected:olean"]
+Pinned source SHA-256: de48c0dc7a86141338970bd208732011734d63939d01639bfc216471517b45ed
+Compiled source SHA-256: de48c0dc7a86141338970bd208732011734d63939d01639bfc216471517b45ed
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermComplementConnected (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StIrreducibleGermComplementConnected.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.58
+Timed out: False

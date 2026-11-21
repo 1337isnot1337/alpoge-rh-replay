@@ -1,0 +1,17 @@
+Module: M164588 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatLocalRegularSequence
+Started: 2026-11-21T22:40:30.764358+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatLocalRegularSequence:olean"]
+Pinned source SHA-256: a3312b15b58cbbd4948284b50231458f5ca4ef36423d534b90d4113d47efe2ee
+Compiled source SHA-256: a3312b15b58cbbd4948284b50231458f5ca4ef36423d534b90d4113d47efe2ee
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatDimFormula
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFlatDimFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatDimFormula:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFlatDimFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatLocalRegularSequence (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFlatLocalRegularSequence.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.478
+Timed out: False

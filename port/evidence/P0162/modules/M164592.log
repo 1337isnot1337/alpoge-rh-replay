@@ -1,0 +1,17 @@
+Module: M164592 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFormalFibresRegular
+Started: 2026-11-21T22:40:37.243921+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFormalFibresRegular:olean"]
+Pinned source SHA-256: 2f3852d18dabce0794be6235bae3be5e4492f19e5c6306733d227c9cb2221a3b
+Compiled source SHA-256: 2f3852d18dabce0794be6235bae3be5e4492f19e5c6306733d227c9cb2221a3b
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatNormalFibres (2.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFlatNormalFibres.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatNormalFibres:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFlatNormalFibres.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFormalFibresRegular (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFormalFibresRegular.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.086
+Timed out: False

@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLocalizeQuotientStages",
+  "source_sha256": "4cb2f0a9571012363dd49826ba292303d8fcfb2973966fae0243054bf9968ae6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

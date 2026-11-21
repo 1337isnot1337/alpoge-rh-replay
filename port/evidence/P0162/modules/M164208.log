@@ -1,0 +1,17 @@
+Module: M164208 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLocalizationAtPrimeQuotient
+Started: 2026-11-21T22:35:46.460117+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLocalizationAtPrimeQuotient:olean"]
+Pinned source SHA-256: 7a0390784ee583d7595321eed2881ffe2fcb1cd0cb6dfdf6418587bbd9a8b16a
+Compiled source SHA-256: 7a0390784ee583d7595321eed2881ffe2fcb1cd0cb6dfdf6418587bbd9a8b16a
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalizationAtPrimeQuotient (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLocalizationAtPrimeQuotient.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalizationAtPrimeQuotient:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLocalizationAtPrimeQuotient.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLocalizationAtPrimeQuotient (2.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PLocalizationAtPrimeQuotient.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.985
+Timed out: False

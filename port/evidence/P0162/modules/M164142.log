@@ -1,0 +1,17 @@
+Module: M164142 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGridProductLowerBound
+Started: 2026-11-21T22:31:12.607504+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGridProductLowerBound:olean"]
+Pinned source SHA-256: 1ce2631202a7967eef4cce7313f2645b077678e6f49c59243ace9b6f6c419349
+Compiled source SHA-256: 1ce2631202a7967eef4cce7313f2645b077678e6f49c59243ace9b6f6c419349
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGridProductLowerBound (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StGridProductLowerBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGridProductLowerBound:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StGridProductLowerBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGridProductLowerBound (2.8s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PGridProductLowerBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.285
+Timed out: False

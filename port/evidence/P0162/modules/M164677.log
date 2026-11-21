@@ -1,0 +1,21 @@
+Module: M164677 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalTrace
+Started: 2026-11-21T22:42:32.322398+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalTrace:olean"]
+Pinned source SHA-256: 491d0e2b691a75eef532c3b6f236705374d49507d8bdd3c8aa14e16255c30930
+Compiled source SHA-256: 491d0e2b691a75eef532c3b6f236705374d49507d8bdd3c8aa14e16255c30930
+
+⚠ [18250/18254] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StNormalModel
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StNormalModel.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StNormalModel:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StNormalModel.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StHolomorphicOnSubset
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StHolomorphicOnSubset.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StHolomorphicOnSubset:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StHolomorphicOnSubset.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalTrace (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLocalTrace.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18254 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.531
+Timed out: False

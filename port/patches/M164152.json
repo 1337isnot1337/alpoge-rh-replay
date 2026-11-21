@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PHolomorphicIsolatedFibreOpen",
+  "source_sha256": "555f72a91b5cbecd6453372ba3d38bf91acea8b33368ca71c224ba9f8b7d8900",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass the range ball (ball (g u) \u03b5) explicitly to the existing ProperHolomorphicSurjective hypothesis and normalize the preimage-membership goal to g u \u2208 ball (g u) \u03b5 before applying mem_ball_self. The latter goal is definitionally equal to u \u2208 g \u207b\u00b9' ball (g u) \u03b5. These proof annotations prevent the target elaborator from repeatedly unfolding the metric while inferring a ball center. The same range and nonempty witness were already required by later arguments; definitions and theorem statements are unchanged."
+}

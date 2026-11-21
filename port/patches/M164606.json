@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGermFiniteProjection",
+  "source_sha256": "ff89c1f69b4803055ff01f52d9f039bd29bb7fb1c75645cf8f2df6858268e696",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

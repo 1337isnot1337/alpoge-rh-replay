@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.RegularLocus",
+  "source_sha256": "5eda9ca12eb0db24b9a46b444184121ff5ab4f8e9a182929b1afe7821c6e6f7e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Mark seqWithLimit noncomputable because the target Real division instance has no executable implementation. The definition name, type, and entire body are unchanged; noncomputable only suppresses generation of executable code for this definition. Its defining equality is still proved by rfl. This adds no axiom or new assumption."
+}

@@ -1,0 +1,56 @@
+Module: M164456 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PWeightedAreaFormula
+Started: 2026-11-21T22:38:13.930973+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PWeightedAreaFormula:olean"]
+Pinned source SHA-256: 001999c728b1683e25161721a6d01412dd7a8d90495a9735dda6b0dd00f188ef
+Compiled source SHA-256: 001999c728b1683e25161721a6d01412dd7a8d90495a9735dda6b0dd00f188ef
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StWeightedAreaFormula (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StWeightedAreaFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StWeightedAreaFormula:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StWeightedAreaFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PWeightedAreaFormula (3.1s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean:59:34: `nnnorm_eq_zero` has been deprecated: Use `nnNorm_eq_zero` instead
+
+Hint: Replace the deprecated name:
+  nnn̵N̲orm_eq_zero
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean:88:35: `enorm_indicator_eq_indicator_enorm` has been deprecated: Use `eNorm_indicator_eq_indicator_eNorm` instead
+
+Hint: Replace the deprecated name:
+  en̵N̲orm_indicator_eq_indicator_en̵N̲orm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean:95:31: `enorm_mul` has been deprecated: Use `eNorm_mul` instead
+
+Hint: Replace the deprecated name:
+  e̵n̵o̵r̵m̵_̵m̵u̵l̵e̲N̲o̲r̲m̲_̲m̲u̲l̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean:95:42: `Real.enorm_eq_ofReal_abs` has been deprecated: Use `Real.eNorm_eq_ofReal_abs` instead
+
+Hint: Replace the deprecated name:
+  Real.en̵N̲orm_eq_ofReal_abs
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean:99:52: `MeasureTheory.hasFiniteIntegral_iff_enorm` has been deprecated: Use `MeasureTheory.hasFiniteIntegral_iff_eNorm` instead
+
+Hint: Replace the deprecated name:
+  hasFiniteIntegral_iff_en̵N̲orm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean:141:8: `MeasureTheory.hasFiniteIntegral_iff_enorm` has been deprecated: Use `MeasureTheory.hasFiniteIntegral_iff_eNorm` instead
+
+Hint: Replace the deprecated name:
+  hasFiniteIntegral_iff_en̵N̲orm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean:146:73: `MeasureTheory.AEStronglyMeasurable.enorm` has been deprecated: Use `MeasureTheory.AEStronglyMeasurable.eNorm` instead
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean:145:17: `enorm_sum_le` has been deprecated: Use `eNorm_sum_le` instead
+
+Hint: Replace the deprecated name:
+  en̵N̲orm_sum_le
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean:145:42: `ENNReal.sum_le_tsum` has been deprecated: Use `sum_le_tsum` instead
+
+Note: The updated constant has a different type:
+  ∀ {ι : Type u_1} {α : Type u_3} [inst : AddCommMonoid α] [inst_1 : CompleteLattice α] [CanonicallyOrderedAdd α]
+    [inst_3 : TopologicalSpace α] [SupConvergenceClass α] {f : ι → α} [IsOrderedAddMonoid α] [OrderClosedTopology α]
+    (s : Finset ι), ∑ x ∈ s, f x ≤ ∑' (x : ι), f x
+instead of
+  ∀ {α : Type u_1} {f : α → ℝ≥0∞} (s : Finset α), ∑ x ∈ s, f x ≤ ∑' (x : α), f x
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sum_le_tsum` to `sum_le_tsum x`).
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.587
+Timed out: False

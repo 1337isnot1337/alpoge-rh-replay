@@ -1,0 +1,21 @@
+Module: M164302 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPrimitiveFormRemainder
+Started: 2026-11-21T22:36:32.232953+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPrimitiveFormRemainder:olean"]
+Pinned source SHA-256: cc9e078a742f1da42177247eebe4d5ff9774995551608fceae642e42782d58e5
+Compiled source SHA-256: cc9e078a742f1da42177247eebe4d5ff9774995551608fceae642e42782d58e5
+
+⚠ [18250/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StPrimitiveFormRemainder (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StPrimitiveFormRemainder.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StPrimitiveFormRemainder:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StPrimitiveFormRemainder.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StSeparateWeierstrassDivision (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StSeparateWeierstrassDivision.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StSeparateWeierstrassDivision:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StSeparateWeierstrassDivision.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPrimitiveFormRemainder (2.8s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PPrimitiveFormRemainder.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18254 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.285
+Timed out: False

@@ -1,0 +1,41 @@
+Module: M164468 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.RegularQuotientGenerators
+Started: 2026-11-21T22:38:42.995777+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.RegularQuotientGenerators:olean"]
+Pinned source SHA-256: 9e6302f4a8893cc275ef974de54557fe521dbbd5eb55477b521304c69dbc3473
+Compiled source SHA-256: 9e6302f4a8893cc275ef974de54557fe521dbbd5eb55477b521304c69dbc3473
+
+⚠ [18250/18252] Built GroundTheory.ArithmeticGeometry.SchemeCohomology.RegularLocalDomain (3.0s)
+warning: src/GroundTheory/ArithmeticGeometry/SchemeCohomology/RegularLocalDomain.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/ArithmeticGeometry/SchemeCohomology/RegularLocalDomain.lean:140:35: `Submodule.eq_bot_of_le_smul_of_le_jacobson_bot` has been deprecated: Use `Submodule.eq_bot_of_le_smul_of_le_jacobson` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} {M : Type u_2} [inst : CommRing R] [inst_1 : AddCommGroup M] [inst_2 : Module R M] (I : Ideal R)
+    (N : Submodule R M), N.FG → N ≤ I • N → I ≤ Ring.jacobson R → N = ⊥
+instead of
+  ∀ {R : Type u_1} {M : Type u_2} [inst : CommRing R] [inst_1 : AddCommGroup M] [inst_2 : Module R M] (I : Ideal R)
+    (N : Submodule R M), N.FG → N ≤ I • N → I ≤ ⊥.jacobson → N = ⊥
+warning: src/GroundTheory/ArithmeticGeometry/SchemeCohomology/RegularLocalDomain.lean:176:26: `Submodule.eq_bot_of_le_smul_of_le_jacobson_bot` has been deprecated: Use `Submodule.eq_bot_of_le_smul_of_le_jacobson` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} {M : Type u_2} [inst : CommRing R] [inst_1 : AddCommGroup M] [inst_2 : Module R M] (I : Ideal R)
+    (N : Submodule R M), N.FG → N ≤ I • N → I ≤ Ring.jacobson R → N = ⊥
+instead of
+  ∀ {R : Type u_1} {M : Type u_2} [inst : CommRing R] [inst_1 : AddCommGroup M] [inst_2 : Module R M] (I : Ideal R)
+    (N : Submodule R M), N.FG → N ≤ I • N → I ≤ ⊥.jacobson → N = ⊥
+⚠ [18251/18252] Ran GroundTheory.ArithmeticGeometry.SchemeCohomology.RegularLocalDomain:irArts
+warning: src/GroundTheory/ArithmeticGeometry/SchemeCohomology/RegularLocalDomain.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.RegularQuotientGenerators (2.7s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/RegularQuotientGenerators.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/RegularQuotientGenerators.lean:43:17: `Submodule.le_of_le_smul_of_le_jacobson_bot` has been deprecated: Use `Submodule.le_of_le_smul_of_le_jacobson` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_3} {M : Type u_4} [inst : CommRing R] [inst_1 : AddCommGroup M] [inst_2 : Module R M] {I : Ideal R}
+    {N N' : Submodule R M}, N'.FG → I ≤ Ring.jacobson R → N' ≤ N ⊔ I • N' → N' ≤ N
+instead of
+  ∀ {R : Type u_3} {M : Type u_4} [inst : CommRing R] [inst_1 : AddCommGroup M] [inst_2 : Module R M] {I : Ideal R}
+    {N N' : Submodule R M}, N'.FG → I ≤ ⊥.jacobson → N' ≤ N ⊔ I • N' → N' ≤ N
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.888
+Timed out: False

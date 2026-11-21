@@ -1,0 +1,21 @@
+Module: M164670 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalBranchedCovering
+Started: 2026-11-21T22:42:23.435232+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalBranchedCovering:olean"]
+Pinned source SHA-256: d97ff3c06cf36eb38e611a238d73d5fabfa3ddf9ea109332274a5fbbeae0329a
+Compiled source SHA-256: d97ff3c06cf36eb38e611a238d73d5fabfa3ddf9ea109332274a5fbbeae0329a
+
+⚠ [18250/18254] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StNormalModel
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StNormalModel.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StNormalModel:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StNormalModel.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StHolomorphicOnSubset (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StHolomorphicOnSubset.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StHolomorphicOnSubset:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StHolomorphicOnSubset.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalBranchedCovering (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLocalBranchedCovering.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18254 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.885
+Timed out: False

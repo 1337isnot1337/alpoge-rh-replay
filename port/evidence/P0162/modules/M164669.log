@@ -1,0 +1,17 @@
+Module: M164669 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLinearNoetherNormalization
+Started: 2026-11-21T22:42:16.955372+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLinearNoetherNormalization:olean"]
+Pinned source SHA-256: f4cc9aa4844a482618f634ffd8ed4b4617b457967ed594b68a18a35c4534bd08
+Compiled source SHA-256: f4cc9aa4844a482618f634ffd8ed4b4617b457967ed594b68a18a35c4534bd08
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLinearNoetherNormalization (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLinearNoetherNormalization.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.478
+Timed out: False

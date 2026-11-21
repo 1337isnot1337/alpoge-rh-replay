@@ -1,0 +1,26 @@
+Module: M164140 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGraphJacContinuous
+Started: 2026-11-21T22:31:02.366960+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGraphJacContinuous:olean"]
+Pinned source SHA-256: 1c5a3bc277f67f27aaf24b167ad09a9e34d2eccc389758626051ee4ced5d0de9
+Compiled source SHA-256: 1c5a3bc277f67f27aaf24b167ad09a9e34d2eccc389758626051ee4ced5d0de9
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGraphJacContinuous (2.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StGraphJacContinuous.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGraphJacContinuous:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StGraphJacContinuous.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGraphJacContinuous (3.6s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PGraphJacContinuous.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PGraphJacContinuous.lean:28:52: `Module.End.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : One F} [self : IsOneApplyEqSelf F]
+    (x : α), 1 x = x
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (x : M), 1 x = x
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.239
+Timed out: False

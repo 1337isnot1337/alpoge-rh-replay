@@ -1,0 +1,17 @@
+Module: M164574 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteGermProjectionOpenAt
+Started: 2026-11-21T22:39:47.067647+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteGermProjectionOpenAt:olean"]
+Pinned source SHA-256: 4d3dd33857b7d3519e025267cb9b4b9fced7beb03e98d4234e492f0563c9929f
+Compiled source SHA-256: 4d3dd33857b7d3519e025267cb9b4b9fced7beb03e98d4234e492f0563c9929f
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteGermProjectionOpenAt (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFiniteGermProjectionOpenAt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.43
+Timed out: False

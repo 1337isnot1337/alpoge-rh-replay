@@ -1,0 +1,17 @@
+Module: M164570 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteFibreCentredEquation
+Started: 2026-11-21T22:39:34.006593+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteFibreCentredEquation:olean"]
+Pinned source SHA-256: 8790e6d21371ef71c2fc846ac6b42c113f7c36c45f1ce488fd7e6c87687746dc
+Compiled source SHA-256: 8790e6d21371ef71c2fc846ac6b42c113f7c36c45f1ce488fd7e6c87687746dc
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteFibreCentredEquation (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFiniteFibreCentredEquation.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.529
+Timed out: False

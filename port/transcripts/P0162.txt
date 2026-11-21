@@ -1,0 +1,1502 @@
+P0162 port build transcript
+CI run: https://github.com/1337isnot1337/alpoge-rh-replay/actions/runs/44956973383
+CI source commit: 8db8aa3148758270fc4e0725ec8a9a4fa5d9c2f6
+Port reservation: https://github.com/rohanarun/alpoge-rh-replay/issues/26760
+Lean: Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)
+Mathlib: fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+
+========================================================================
+M164128
+========================================================================
+Module: M164128 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGenericPrimitive
+Started: 2026-11-21T22:30:52.178859+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGenericPrimitive:olean"]
+Pinned source SHA-256: a23fabfa771cd745b5a8b91499e90ba07e6089969b07f975ed3e0add5a9ac851
+Compiled source SHA-256: a23fabfa771cd745b5a8b91499e90ba07e6089969b07f975ed3e0add5a9ac851
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGenericPrimitive (2.0s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StGenericPrimitive.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGenericPrimitive:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StGenericPrimitive.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGenericPrimitive (2.7s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PGenericPrimitive.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.187
+Timed out: False
+
+========================================================================
+M164140
+========================================================================
+Module: M164140 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGraphJacContinuous
+Started: 2026-11-21T22:31:02.366960+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGraphJacContinuous:olean"]
+Pinned source SHA-256: 1c5a3bc277f67f27aaf24b167ad09a9e34d2eccc389758626051ee4ced5d0de9
+Compiled source SHA-256: 1c5a3bc277f67f27aaf24b167ad09a9e34d2eccc389758626051ee4ced5d0de9
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGraphJacContinuous (2.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StGraphJacContinuous.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGraphJacContinuous:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StGraphJacContinuous.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGraphJacContinuous (3.6s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PGraphJacContinuous.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PGraphJacContinuous.lean:28:52: `Module.End.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : One F} [self : IsOneApplyEqSelf F]
+    (x : α), 1 x = x
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (x : M), 1 x = x
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.239
+Timed out: False
+
+========================================================================
+M164142
+========================================================================
+Module: M164142 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGridProductLowerBound
+Started: 2026-11-21T22:31:12.607504+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGridProductLowerBound:olean"]
+Pinned source SHA-256: 1ce2631202a7967eef4cce7313f2645b077678e6f49c59243ace9b6f6c419349
+Compiled source SHA-256: 1ce2631202a7967eef4cce7313f2645b077678e6f49c59243ace9b6f6c419349
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGridProductLowerBound (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StGridProductLowerBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGridProductLowerBound:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StGridProductLowerBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGridProductLowerBound (2.8s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PGridProductLowerBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.285
+Timed out: False
+
+========================================================================
+M164143
+========================================================================
+Module: M164143 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PHausdorffNullComplementConnected
+Started: 2026-11-21T22:31:21.893943+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PHausdorffNullComplementConnected:olean"]
+Pinned source SHA-256: 4db99ae3a93520e60c5e008966169deeec196f6e6fdf048fd7c043f74c32dbd8
+Compiled source SHA-256: 4db99ae3a93520e60c5e008966169deeec196f6e6fdf048fd7c043f74c32dbd8
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StHausdorffNullComplementConnected (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StHausdorffNullComplementConnected.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StHausdorffNullComplementConnected:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StHausdorffNullComplementConnected.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PHausdorffNullComplementConnected (3.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PHausdorffNullComplementConnected.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PHausdorffNullComplementConnected.lean:80:15: `ContinuousLinearMap.lipschitz` has been deprecated: Use `ContinuousLinearMap.lipschitzWith` instead
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.686
+Timed out: False
+
+========================================================================
+M164152
+========================================================================
+Module: M164152 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PHolomorphicIsolatedFibreOpen
+Started: 2026-11-21T22:31:31.581359+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PHolomorphicIsolatedFibreOpen:olean"]
+Pinned source SHA-256: 555f72a91b5cbecd6453372ba3d38bf91acea8b33368ca71c224ba9f8b7d8900
+Compiled source SHA-256: 93f831f6a6659367c319b17959138e5f5b773618e50a351c58501b7b66a50520
+
+⚠ [18250/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StHolomorphicIsolatedFibreOpen (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StHolomorphicIsolatedFibreOpen.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StHolomorphicIsolatedFibreOpen:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StHolomorphicIsolatedFibreOpen.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StProperHolomorphicSurjective (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StProperHolomorphicSurjective.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StProperHolomorphicSurjective:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StProperHolomorphicSurjective.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PHolomorphicIsolatedFibreOpen (2.6s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PHolomorphicIsolatedFibreOpen.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18254 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.137
+Timed out: False
+
+========================================================================
+M164157
+========================================================================
+Module: M164157 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PIdealHeightSpread
+Started: 2026-11-21T22:31:40.719511+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PIdealHeightSpread:olean"]
+Pinned source SHA-256: ffa45c291ff9e84969e9fcb167d03a655b308783a28b6a058bff448e745d33f2
+Compiled source SHA-256: ffa45c291ff9e84969e9fcb167d03a655b308783a28b6a058bff448e745d33f2
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIdealHeightSpread (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StIdealHeightSpread.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIdealHeightSpread:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StIdealHeightSpread.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PIdealHeightSpread (2.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PIdealHeightSpread.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PIdealHeightSpread.lean:17:18: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.933
+Timed out: False
+
+========================================================================
+M164160
+========================================================================
+Module: M164160 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PInjectiveHolomorphicDerivNeZero
+Started: 2026-11-21T22:31:49.654028+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PInjectiveHolomorphicDerivNeZero:olean"]
+Pinned source SHA-256: b7527576c7bab506883d9d1538798f48cdc7f3396ce1457138d441350b615123
+Compiled source SHA-256: b7527576c7bab506883d9d1538798f48cdc7f3396ce1457138d441350b615123
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInjectiveHolomorphicDerivNeZero (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StInjectiveHolomorphicDerivNeZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInjectiveHolomorphicDerivNeZero:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StInjectiveHolomorphicDerivNeZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PInjectiveHolomorphicDerivNeZero (3.0s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PInjectiveHolomorphicDerivNeZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.537
+Timed out: False
+
+========================================================================
+M164163
+========================================================================
+Module: M164163 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PInjectiveHolomorphicOpen
+Started: 2026-11-21T22:31:59.192043+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PInjectiveHolomorphicOpen:olean"]
+Pinned source SHA-256: 80d5051d1830dbceba02b7782d2c20e1353cf086b7ebfc626f67166b6bf6c0bb
+Compiled source SHA-256: 80d5051d1830dbceba02b7782d2c20e1353cf086b7ebfc626f67166b6bf6c0bb
+
+⚠ [18250/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInvarianceOfDomain (2.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StInvarianceOfDomain.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInvarianceOfDomain:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StInvarianceOfDomain.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInjectiveHolomorphicOpen (2.6s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StInjectiveHolomorphicOpen.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInjectiveHolomorphicOpen:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StInjectiveHolomorphicOpen.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PInjectiveHolomorphicOpen (2.6s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PInjectiveHolomorphicOpen.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18254 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.339
+Timed out: False
+
+========================================================================
+M164165
+========================================================================
+Module: M164165 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PInvarianceOfDomain
+Started: 2026-11-21T22:32:08.532793+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PInvarianceOfDomain:olean"]
+Pinned source SHA-256: da319365ed5ddb59d4a6c9e741e4eda9eea0ef32e5ccdc1ea95337c49dd994f4
+Compiled source SHA-256: 1fa75ef6c9780be5211bc6a29b175a494df871d585f897267c4b3ee3f6d888eb
+
+⚠ [18250/18254] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInvarianceOfDomain
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StInvarianceOfDomain.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInvarianceOfDomain:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StInvarianceOfDomain.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StBrouwerFixedPoint (2.2s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StBrouwerFixedPoint.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StBrouwerFixedPoint:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StBrouwerFixedPoint.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PInvarianceOfDomain (184s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PInvarianceOfDomain.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18254 jobs).
+
+Exit status: 0
+Elapsed seconds: 190.766
+Timed out: False
+
+========================================================================
+M164191
+========================================================================
+Module: M164191 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLengthCutGlobal
+Started: 2026-11-21T22:35:19.300313+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLengthCutGlobal:olean"]
+Pinned source SHA-256: d91108756b105b9d8f9ed4dc1dab65581db36d92227c476733b5654ba529860f
+Compiled source SHA-256: d91108756b105b9d8f9ed4dc1dab65581db36d92227c476733b5654ba529860f
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLengthCutGlobal (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLengthCutGlobal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLengthCutGlobal:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLengthCutGlobal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLengthCutGlobal (3.1s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PLengthCutGlobal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.586
+Timed out: False
+
+========================================================================
+M164192
+========================================================================
+Module: M164192 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLengthCutLocalizedModule
+Started: 2026-11-21T22:35:28.888177+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLengthCutLocalizedModule:olean"]
+Pinned source SHA-256: 7871ac90d50fb2afd8523b20776fc97c972aefa5baef8b0710a6518ace01b874
+Compiled source SHA-256: a67653d87f239b77aea64c0303126845a555fd724de77ae7044f5222d2a30b94
+
+⚠ [18250/18256] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLengthCutGlobal
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLengthCutGlobal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18256] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLengthCutGlobal:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLengthCutGlobal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18256] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLengthLocalizedLocalized (2.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLengthLocalizedLocalized.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18256] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLengthLocalizedLocalized:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLengthLocalizedLocalized.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18256] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLengthCutLocalizedModule (2.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLengthCutLocalizedModule.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18255/18256] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLengthCutLocalizedModule:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLengthCutLocalizedModule.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18256] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLengthCutLocalizedModule (3.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PLengthCutLocalizedModule.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18256 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.888
+Timed out: False
+
+========================================================================
+M164193
+========================================================================
+Module: M164193 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLengthLocalizedLocalized
+Started: 2026-11-21T22:35:38.778066+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLengthLocalizedLocalized:olean"]
+Pinned source SHA-256: a55eb3638730ecf47cfd01d4687807c9c5d8a2d6c431452b6d2b4af36ca2c434
+Compiled source SHA-256: a55eb3638730ecf47cfd01d4687807c9c5d8a2d6c431452b6d2b4af36ca2c434
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLengthLocalizedLocalized
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLengthLocalizedLocalized.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLengthLocalizedLocalized:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLengthLocalizedLocalized.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLengthLocalizedLocalized (3.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PLengthLocalizedLocalized.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.681
+Timed out: False
+
+========================================================================
+M164208
+========================================================================
+Module: M164208 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLocalizationAtPrimeQuotient
+Started: 2026-11-21T22:35:46.460117+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLocalizationAtPrimeQuotient:olean"]
+Pinned source SHA-256: 7a0390784ee583d7595321eed2881ffe2fcb1cd0cb6dfdf6418587bbd9a8b16a
+Compiled source SHA-256: 7a0390784ee583d7595321eed2881ffe2fcb1cd0cb6dfdf6418587bbd9a8b16a
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalizationAtPrimeQuotient (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLocalizationAtPrimeQuotient.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalizationAtPrimeQuotient:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLocalizationAtPrimeQuotient.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLocalizationAtPrimeQuotient (2.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PLocalizationAtPrimeQuotient.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.985
+Timed out: False
+
+========================================================================
+M164209
+========================================================================
+Module: M164209 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLocalizeQuotientStages
+Started: 2026-11-21T22:35:55.446296+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLocalizeQuotientStages:olean"]
+Pinned source SHA-256: 4cb2f0a9571012363dd49826ba292303d8fcfb2973966fae0243054bf9968ae6
+Compiled source SHA-256: 4cb2f0a9571012363dd49826ba292303d8fcfb2973966fae0243054bf9968ae6
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalizeQuotientStages (2.8s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLocalizeQuotientStages.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalizeQuotientStages:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLocalizeQuotientStages.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLocalizeQuotientStages (2.0s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PLocalizeQuotientStages.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.885
+Timed out: False
+
+========================================================================
+M164269
+========================================================================
+Module: M164269 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPerfectFieldExtensionFormallySmoothPartialLifts
+Started: 2026-11-21T22:36:05.332212+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPerfectFieldExtensionFormallySmoothPartialLifts:olean"]
+Pinned source SHA-256: f6d2572bef90a4e526078b7b8ad0788c464f92c5841204f70759ebd7798d2d87
+Compiled source SHA-256: f6d2572bef90a4e526078b7b8ad0788c464f92c5841204f70759ebd7798d2d87
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPerfectFieldExtensionFormallySmoothFrobeniusLift (2.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PPerfectFieldExtensionFormallySmoothFrobeniusLift.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPerfectFieldExtensionFormallySmoothFrobeniusLift:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PPerfectFieldExtensionFormallySmoothFrobeniusLift.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPerfectFieldExtensionFormallySmoothPartialLifts (2.9s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PPerfectFieldExtensionFormallySmoothPartialLifts.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PPerfectFieldExtensionFormallySmoothPartialLifts.lean:88:10: `MonoidHom.coe_coe` has been deprecated: Use `MonoidHom.coe_ofClass` instead
+
+Hint: Replace the deprecated name:
+  M̵o̵n̵o̵i̵d̵H̵o̵m̵.̵c̵o̵e̵_̵c̵o̵e̵M̲o̲n̲o̲i̲d̲H̲o̲m̲.̲c̲o̲e̲_̲o̲f̲C̲l̲a̲s̲s̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.584
+Timed out: False
+
+========================================================================
+M164278
+========================================================================
+Module: M164278 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPolyKaehlerFree
+Started: 2026-11-21T22:36:14.917888+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPolyKaehlerFree:olean"]
+Pinned source SHA-256: 87b4279cb74abd57e4c2e8a15fa51d67bf2af594ac928e21401e3c3b523fcf8f
+Compiled source SHA-256: 87b4279cb74abd57e4c2e8a15fa51d67bf2af594ac928e21401e3c3b523fcf8f
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StPolyKaehlerFree (2.2s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StPolyKaehlerFree.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StPolyKaehlerFree:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StPolyKaehlerFree.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPolyKaehlerFree (2.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PPolyKaehlerFree.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.781
+Timed out: False
+
+========================================================================
+M164286
+========================================================================
+Module: M164286 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPowerSumsEsymmAnalytic
+Started: 2026-11-21T22:36:23.700683+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPowerSumsEsymmAnalytic:olean"]
+Pinned source SHA-256: bbdadae6218c84c6f3496afeb3ebdb35ae61b8e3a90553e5b649d2dcc45ab841
+Compiled source SHA-256: bbdadae6218c84c6f3496afeb3ebdb35ae61b8e3a90553e5b649d2dcc45ab841
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StPowerSumsEsymmAnalytic (2.2s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StPowerSumsEsymmAnalytic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StPowerSumsEsymmAnalytic:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StPowerSumsEsymmAnalytic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPowerSumsEsymmAnalytic (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PPowerSumsEsymmAnalytic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.531
+Timed out: False
+
+========================================================================
+M164302
+========================================================================
+Module: M164302 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPrimitiveFormRemainder
+Started: 2026-11-21T22:36:32.232953+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPrimitiveFormRemainder:olean"]
+Pinned source SHA-256: cc9e078a742f1da42177247eebe4d5ff9774995551608fceae642e42782d58e5
+Compiled source SHA-256: cc9e078a742f1da42177247eebe4d5ff9774995551608fceae642e42782d58e5
+
+⚠ [18250/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StPrimitiveFormRemainder (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StPrimitiveFormRemainder.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StPrimitiveFormRemainder:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StPrimitiveFormRemainder.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StSeparateWeierstrassDivision (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StSeparateWeierstrassDivision.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StSeparateWeierstrassDivision:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StSeparateWeierstrassDivision.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPrimitiveFormRemainder (2.8s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PPrimitiveFormRemainder.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18254 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.285
+Timed out: False
+
+========================================================================
+M164309
+========================================================================
+Module: M164309 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PProjDimSpread
+Started: 2026-11-21T22:36:41.519435+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PProjDimSpread:olean"]
+Pinned source SHA-256: 10159d527148f432a00192a3aa3251c4c88e83e76035a3c939624022e3df1f26
+Compiled source SHA-256: 10159d527148f432a00192a3aa3251c4c88e83e76035a3c939624022e3df1f26
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StProjDimSpread (2.2s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StProjDimSpread.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StProjDimSpread:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StProjDimSpread.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PProjDimSpread (2.6s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PProjDimSpread.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.882
+Timed out: False
+
+========================================================================
+M164316
+========================================================================
+Module: M164316 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PProperOpenProjectionCover
+Started: 2026-11-21T22:36:50.402642+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PProperOpenProjectionCover:olean"]
+Pinned source SHA-256: ff075ec85116af8dff7eecd35aab818de83ed5a0478765782dcd0f0d7f4ff67e
+Compiled source SHA-256: ff075ec85116af8dff7eecd35aab818de83ed5a0478765782dcd0f0d7f4ff67e
+
+⚠ [18250/18256] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StProperOpenProjectionCover (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StProperOpenProjectionCover.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18256] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StProperOpenProjectionCover:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StProperOpenProjectionCover.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18256] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StProperOpenProjectionBranchLocus (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StProperOpenProjectionBranchLocus.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18256] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StProperOpenProjectionBranchLocus:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StProperOpenProjectionBranchLocus.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18256] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StUnbranchedProperCountConstant (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StUnbranchedProperCountConstant.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18255/18256] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StUnbranchedProperCountConstant:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StUnbranchedProperCountConstant.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18256] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PProperOpenProjectionCover (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PProperOpenProjectionCover.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18256 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.238
+Timed out: False
+
+========================================================================
+M164318
+========================================================================
+Module: M164318 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PProperOpenProjectionLocalUnbranched
+Started: 2026-11-21T22:37:01.641742+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PProperOpenProjectionLocalUnbranched:olean"]
+Pinned source SHA-256: dafd9b7b1cac5a69460a4da23da7db6f128154a9dddee90c721ee9aaf01b1304
+Compiled source SHA-256: dafd9b7b1cac5a69460a4da23da7db6f128154a9dddee90c721ee9aaf01b1304
+
+⚠ [18250/18256] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StCompactHolomorphicFibreFinite (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StCompactHolomorphicFibreFinite.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18256] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StCompactHolomorphicFibreFinite:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StCompactHolomorphicFibreFinite.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18256] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIsolatedFibreLocalUnbranched (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StIsolatedFibreLocalUnbranched.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18256] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIsolatedFibreLocalUnbranched:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StIsolatedFibreLocalUnbranched.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18256] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StProperOpenProjectionLocalUnbranched (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StProperOpenProjectionLocalUnbranched.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18255/18256] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StProperOpenProjectionLocalUnbranched:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StProperOpenProjectionLocalUnbranched.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18256] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PProperOpenProjectionLocalUnbranched (3.2s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PProperOpenProjectionLocalUnbranched.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18256 jobs).
+
+Exit status: 0
+Elapsed seconds: 12.092
+Timed out: False
+
+========================================================================
+M164319
+========================================================================
+Module: M164319 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PProperSheetedFibreEsymm
+Started: 2026-11-21T22:37:13.735802+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PProperSheetedFibreEsymm:olean"]
+Pinned source SHA-256: 561b545934b8e0749e9c5a43a4f4f8a6eb0d4eb9b42d41e8dfed05ea7976f04e
+Compiled source SHA-256: 93bbb944f6713021e00614da07b9e478222fb9dc412cdf31b5066517f4f5278f
+
+⚠ [18250/18258] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StUnbranchedProperCountConstant
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StUnbranchedProperCountConstant.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18258] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StUnbranchedProperCountConstant:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StUnbranchedProperCountConstant.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18258] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StRiemannExtensionAnalytic (2.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StRiemannExtensionAnalytic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18258] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StRiemannExtensionAnalytic:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StRiemannExtensionAnalytic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18258] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StParametricCircleIntegralAnalytic (2.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StParametricCircleIntegralAnalytic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18255/18258] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StParametricCircleIntegralAnalytic:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StParametricCircleIntegralAnalytic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18258] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StProperSheetedFibreEsymm (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StProperSheetedFibreEsymm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18257/18258] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StProperSheetedFibreEsymm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StProperSheetedFibreEsymm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18258/18258] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PProperSheetedFibreEsymm (2.9s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PProperSheetedFibreEsymm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PProperSheetedFibreEsymm.lean:27:18: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+Build completed successfully (18258 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.894
+Timed out: False
+
+========================================================================
+M164342
+========================================================================
+Module: M164342 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PRegularSequenceLengthLeDim
+Started: 2026-11-21T22:37:25.631362+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PRegularSequenceLengthLeDim:olean"]
+Pinned source SHA-256: 011e52c2f62e59b23967ff236984e4da9fe4412a1c08d3f64a64c2da1b6b2d71
+Compiled source SHA-256: 011e52c2f62e59b23967ff236984e4da9fe4412a1c08d3f64a64c2da1b6b2d71
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StRegularSequenceLengthLeDim (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StRegularSequenceLengthLeDim.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StRegularSequenceLengthLeDim:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StRegularSequenceLengthLeDim.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PRegularSequenceLengthLeDim (2.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PRegularSequenceLengthLeDim.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.035
+Timed out: False
+
+========================================================================
+M164368
+========================================================================
+Module: M164368 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PSimpleRootBranch
+Started: 2026-11-21T22:37:34.667473+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PSimpleRootBranch:olean"]
+Pinned source SHA-256: a3e7235e452c74a15034aed403c77ff33a7ac08972fe38f73595c592e1ac81c0
+Compiled source SHA-256: a3e7235e452c74a15034aed403c77ff33a7ac08972fe38f73595c592e1ac81c0
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StSimpleRootBranch (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StSimpleRootBranch.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StSimpleRootBranch:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StSimpleRootBranch.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PSimpleRootBranch (3.1s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PSimpleRootBranch.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.638
+Timed out: False
+
+========================================================================
+M164430
+========================================================================
+Module: M164430 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PTubeDeepWeightMass
+Started: 2026-11-21T22:37:44.307190+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PTubeDeepWeightMass:olean"]
+Pinned source SHA-256: 7b529c341ae1c2d94a6c6b2c91f492cefc7810f3eef37d7b761ed4ca9434ecc7
+Compiled source SHA-256: 7b529c341ae1c2d94a6c6b2c91f492cefc7810f3eef37d7b761ed4ca9434ecc7
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StTubeDeepWeightMass (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StTubeDeepWeightMass.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StTubeDeepWeightMass:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StTubeDeepWeightMass.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PTubeDeepWeightMass (4.1s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PTubeDeepWeightMass.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.693
+Timed out: False
+
+========================================================================
+M164435
+========================================================================
+Module: M164435 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PUnbranchedProperCountLocallyConstant
+Started: 2026-11-21T22:37:55.001672+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PUnbranchedProperCountLocallyConstant:olean"]
+Pinned source SHA-256: b24dad93191592067e6cc0647f89c1d5ea4c6636809a2a9b3a83ad0a9c8a2949
+Compiled source SHA-256: b24dad93191592067e6cc0647f89c1d5ea4c6636809a2a9b3a83ad0a9c8a2949
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StUnbranchedProperCountLocallyConstant (2.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StUnbranchedProperCountLocallyConstant.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StUnbranchedProperCountLocallyConstant:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StUnbranchedProperCountLocallyConstant.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PUnbranchedProperCountLocallyConstant (2.7s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PUnbranchedProperCountLocallyConstant.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.339
+Timed out: False
+
+========================================================================
+M164439
+========================================================================
+Module: M164439 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PUnitaryZariskiDense
+Started: 2026-11-21T22:38:04.341841+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PUnitaryZariskiDense:olean"]
+Pinned source SHA-256: 330c8cc0fbe14c3fe0b7a934edd907928ce626279d7f9ee5c9dfd07b9e07312b
+Compiled source SHA-256: 330c8cc0fbe14c3fe0b7a934edd907928ce626279d7f9ee5c9dfd07b9e07312b
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StUnitaryZariskiDense (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StUnitaryZariskiDense.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StUnitaryZariskiDense:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StUnitaryZariskiDense.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PUnitaryZariskiDense (3.1s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PUnitaryZariskiDense.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PUnitaryZariskiDense.lean:105:37: Unused tactic linter: there are no goals left for `try ring`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.587
+Timed out: False
+
+========================================================================
+M164456
+========================================================================
+Module: M164456 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PWeightedAreaFormula
+Started: 2026-11-21T22:38:13.930973+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PWeightedAreaFormula:olean"]
+Pinned source SHA-256: 001999c728b1683e25161721a6d01412dd7a8d90495a9735dda6b0dd00f188ef
+Compiled source SHA-256: 001999c728b1683e25161721a6d01412dd7a8d90495a9735dda6b0dd00f188ef
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StWeightedAreaFormula (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StWeightedAreaFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StWeightedAreaFormula:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StWeightedAreaFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PWeightedAreaFormula (3.1s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean:59:34: `nnnorm_eq_zero` has been deprecated: Use `nnNorm_eq_zero` instead
+
+Hint: Replace the deprecated name:
+  nnn̵N̲orm_eq_zero
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean:88:35: `enorm_indicator_eq_indicator_enorm` has been deprecated: Use `eNorm_indicator_eq_indicator_eNorm` instead
+
+Hint: Replace the deprecated name:
+  en̵N̲orm_indicator_eq_indicator_en̵N̲orm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean:95:31: `enorm_mul` has been deprecated: Use `eNorm_mul` instead
+
+Hint: Replace the deprecated name:
+  e̵n̵o̵r̵m̵_̵m̵u̵l̵e̲N̲o̲r̲m̲_̲m̲u̲l̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean:95:42: `Real.enorm_eq_ofReal_abs` has been deprecated: Use `Real.eNorm_eq_ofReal_abs` instead
+
+Hint: Replace the deprecated name:
+  Real.en̵N̲orm_eq_ofReal_abs
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean:99:52: `MeasureTheory.hasFiniteIntegral_iff_enorm` has been deprecated: Use `MeasureTheory.hasFiniteIntegral_iff_eNorm` instead
+
+Hint: Replace the deprecated name:
+  hasFiniteIntegral_iff_en̵N̲orm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean:141:8: `MeasureTheory.hasFiniteIntegral_iff_enorm` has been deprecated: Use `MeasureTheory.hasFiniteIntegral_iff_eNorm` instead
+
+Hint: Replace the deprecated name:
+  hasFiniteIntegral_iff_en̵N̲orm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean:146:73: `MeasureTheory.AEStronglyMeasurable.enorm` has been deprecated: Use `MeasureTheory.AEStronglyMeasurable.eNorm` instead
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean:145:17: `enorm_sum_le` has been deprecated: Use `eNorm_sum_le` instead
+
+Hint: Replace the deprecated name:
+  en̵N̲orm_sum_le
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PWeightedAreaFormula.lean:145:42: `ENNReal.sum_le_tsum` has been deprecated: Use `sum_le_tsum` instead
+
+Note: The updated constant has a different type:
+  ∀ {ι : Type u_1} {α : Type u_3} [inst : AddCommMonoid α] [inst_1 : CompleteLattice α] [CanonicallyOrderedAdd α]
+    [inst_3 : TopologicalSpace α] [SupConvergenceClass α] {f : ι → α} [IsOrderedAddMonoid α] [OrderClosedTopology α]
+    (s : Finset ι), ∑ x ∈ s, f x ≤ ∑' (x : ι), f x
+instead of
+  ∀ {α : Type u_1} {f : α → ℝ≥0∞} (s : Finset α), ∑ x ∈ s, f x ≤ ∑' (x : α), f x
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sum_le_tsum` to `sum_le_tsum x`).
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.587
+Timed out: False
+
+========================================================================
+M164466
+========================================================================
+Module: M164466 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.RadicalAwayRabinowitsch
+Started: 2026-11-21T22:38:23.519384+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.RadicalAwayRabinowitsch:olean"]
+Pinned source SHA-256: d05edff728c686173e9da3a85784c3fb236427e71a555d3a31066ab1f14e867d
+Compiled source SHA-256: d05edff728c686173e9da3a85784c3fb236427e71a555d3a31066ab1f14e867d
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGenericFibreRadicalAway (2.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StGenericFibreRadicalAway.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGenericFibreRadicalAway:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StGenericFibreRadicalAway.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.RadicalAwayRabinowitsch (3.0s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/RadicalAwayRabinowitsch.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.589
+Timed out: False
+
+========================================================================
+M164467
+========================================================================
+Module: M164467 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.RegularLocus
+Started: 2026-11-21T22:38:34.110014+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.RegularLocus:olean"]
+Pinned source SHA-256: 5eda9ca12eb0db24b9a46b444184121ff5ab4f8e9a182929b1afe7821c6e6f7e
+Compiled source SHA-256: 7991fbad05fc8e45c0bb10270e3e85967eafc8746bcf7b19fb001da046bc7d26
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.RegularLocus (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/RegularLocus.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.884
+Timed out: False
+
+========================================================================
+M164468
+========================================================================
+Module: M164468 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.RegularQuotientGenerators
+Started: 2026-11-21T22:38:42.995777+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.RegularQuotientGenerators:olean"]
+Pinned source SHA-256: 9e6302f4a8893cc275ef974de54557fe521dbbd5eb55477b521304c69dbc3473
+Compiled source SHA-256: 9e6302f4a8893cc275ef974de54557fe521dbbd5eb55477b521304c69dbc3473
+
+⚠ [18250/18252] Built GroundTheory.ArithmeticGeometry.SchemeCohomology.RegularLocalDomain (3.0s)
+warning: src/GroundTheory/ArithmeticGeometry/SchemeCohomology/RegularLocalDomain.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/ArithmeticGeometry/SchemeCohomology/RegularLocalDomain.lean:140:35: `Submodule.eq_bot_of_le_smul_of_le_jacobson_bot` has been deprecated: Use `Submodule.eq_bot_of_le_smul_of_le_jacobson` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} {M : Type u_2} [inst : CommRing R] [inst_1 : AddCommGroup M] [inst_2 : Module R M] (I : Ideal R)
+    (N : Submodule R M), N.FG → N ≤ I • N → I ≤ Ring.jacobson R → N = ⊥
+instead of
+  ∀ {R : Type u_1} {M : Type u_2} [inst : CommRing R] [inst_1 : AddCommGroup M] [inst_2 : Module R M] (I : Ideal R)
+    (N : Submodule R M), N.FG → N ≤ I • N → I ≤ ⊥.jacobson → N = ⊥
+warning: src/GroundTheory/ArithmeticGeometry/SchemeCohomology/RegularLocalDomain.lean:176:26: `Submodule.eq_bot_of_le_smul_of_le_jacobson_bot` has been deprecated: Use `Submodule.eq_bot_of_le_smul_of_le_jacobson` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} {M : Type u_2} [inst : CommRing R] [inst_1 : AddCommGroup M] [inst_2 : Module R M] (I : Ideal R)
+    (N : Submodule R M), N.FG → N ≤ I • N → I ≤ Ring.jacobson R → N = ⊥
+instead of
+  ∀ {R : Type u_1} {M : Type u_2} [inst : CommRing R] [inst_1 : AddCommGroup M] [inst_2 : Module R M] (I : Ideal R)
+    (N : Submodule R M), N.FG → N ≤ I • N → I ≤ ⊥.jacobson → N = ⊥
+⚠ [18251/18252] Ran GroundTheory.ArithmeticGeometry.SchemeCohomology.RegularLocalDomain:irArts
+warning: src/GroundTheory/ArithmeticGeometry/SchemeCohomology/RegularLocalDomain.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.RegularQuotientGenerators (2.7s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/RegularQuotientGenerators.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/RegularQuotientGenerators.lean:43:17: `Submodule.le_of_le_smul_of_le_jacobson_bot` has been deprecated: Use `Submodule.le_of_le_smul_of_le_jacobson` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_3} {M : Type u_4} [inst : CommRing R] [inst_1 : AddCommGroup M] [inst_2 : Module R M] {I : Ideal R}
+    {N N' : Submodule R M}, N'.FG → I ≤ Ring.jacobson R → N' ≤ N ⊔ I • N' → N' ≤ N
+instead of
+  ∀ {R : Type u_3} {M : Type u_4} [inst : CommRing R] [inst_1 : AddCommGroup M] [inst_2 : Module R M] {I : Ideal R}
+    {N N' : Submodule R M}, N'.FG → I ≤ ⊥.jacobson → N' ≤ N ⊔ I • N' → N' ≤ N
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.888
+Timed out: False
+
+========================================================================
+M164474
+========================================================================
+Module: M164474 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StAnalyticGermComponents
+Started: 2026-11-21T22:38:52.884951+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StAnalyticGermComponents:olean"]
+Pinned source SHA-256: 6b5c31419977eeaaba7a0bf111f5d63c4cf5a3bc6d47aaa68d55321fb6c138c1
+Compiled source SHA-256: 6b5c31419977eeaaba7a0bf111f5d63c4cf5a3bc6d47aaa68d55321fb6c138c1
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StAnalyticGermComponents (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StAnalyticGermComponents.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.479
+Timed out: False
+
+========================================================================
+M164487
+========================================================================
+Module: M164487 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StBranchContainsNormalPoint
+Started: 2026-11-21T22:38:59.365416+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StBranchContainsNormalPoint:olean"]
+Pinned source SHA-256: 67d266d3704a208c92c2429268e34d2c2e82e761caab5a28adda8bc57d483951
+Compiled source SHA-256: 67d266d3704a208c92c2429268e34d2c2e82e761caab5a28adda8bc57d483951
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StNormalModel (2.7s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StNormalModel.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StNormalModel:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StNormalModel.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StBranchContainsNormalPoint (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StBranchContainsNormalPoint.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.184
+Timed out: False
+
+========================================================================
+M164557
+========================================================================
+Module: M164557 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StDiscrAdjoin
+Started: 2026-11-21T22:39:08.550829+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StDiscrAdjoin:olean"]
+Pinned source SHA-256: c0e2adb48f6ac6764a149ce4be2dcaa766a9f26dc546f77aa9dc3a07b38fcbae
+Compiled source SHA-256: c0e2adb48f6ac6764a149ce4be2dcaa766a9f26dc546f77aa9dc3a07b38fcbae
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGenericPrimitive
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StGenericPrimitive.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGenericPrimitive:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StGenericPrimitive.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StDiscrAdjoin (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StDiscrAdjoin.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.478
+Timed out: False
+
+========================================================================
+M164565
+========================================================================
+Module: M164565 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StDominantFibreBound
+Started: 2026-11-21T22:39:15.030713+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StDominantFibreBound:olean"]
+Pinned source SHA-256: 74846104112a3c568b5f3c0c8600c17a71225a989c8c2c1726a071130edf68f5
+Compiled source SHA-256: 74846104112a3c568b5f3c0c8600c17a71225a989c8c2c1726a071130edf68f5
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements (3.8s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StDominantFibreBound (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StDominantFibreBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.19
+Timed out: False
+
+========================================================================
+M164567
+========================================================================
+Module: M164567 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFibreDiscriminantHolomorphic
+Started: 2026-11-21T22:39:25.221964+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFibreDiscriminantHolomorphic:olean"]
+Pinned source SHA-256: 03d8800f1b0a3dbdc8e295f2bc71d007898069be60804e9fa48919e0d22a5249
+Compiled source SHA-256: 03d8800f1b0a3dbdc8e295f2bc71d007898069be60804e9fa48919e0d22a5249
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.GenericCountCover (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/GenericCountCover.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.GenericCountCover:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/GenericCountCover.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFibreDiscriminantHolomorphic (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFibreDiscriminantHolomorphic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.783
+Timed out: False
+
+========================================================================
+M164570
+========================================================================
+Module: M164570 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteFibreCentredEquation
+Started: 2026-11-21T22:39:34.006593+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteFibreCentredEquation:olean"]
+Pinned source SHA-256: 8790e6d21371ef71c2fc846ac6b42c113f7c36c45f1ce488fd7e6c87687746dc
+Compiled source SHA-256: 8790e6d21371ef71c2fc846ac6b42c113f7c36c45f1ce488fd7e6c87687746dc
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteFibreCentredEquation (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFiniteFibreCentredEquation.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.529
+Timed out: False
+
+========================================================================
+M164571
+========================================================================
+Module: M164571 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteFibreGermIntegral
+Started: 2026-11-21T22:39:40.537182+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteFibreGermIntegral:olean"]
+Pinned source SHA-256: 1065edef95b6b5c87328de0c4063af8b4e7c9d1fecf733902e15c590bef4b1e1
+Compiled source SHA-256: 1065edef95b6b5c87328de0c4063af8b4e7c9d1fecf733902e15c590bef4b1e1
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteFibreGermIntegral (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFiniteFibreGermIntegral.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.529
+Timed out: False
+
+========================================================================
+M164574
+========================================================================
+Module: M164574 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteGermProjectionOpenAt
+Started: 2026-11-21T22:39:47.067647+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteGermProjectionOpenAt:olean"]
+Pinned source SHA-256: 4d3dd33857b7d3519e025267cb9b4b9fced7beb03e98d4234e492f0563c9929f
+Compiled source SHA-256: 4d3dd33857b7d3519e025267cb9b4b9fced7beb03e98d4234e492f0563c9929f
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteGermProjectionOpenAt (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFiniteGermProjectionOpenAt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.43
+Timed out: False
+
+========================================================================
+M164576
+========================================================================
+Module: M164576 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteModuloEliminate
+Started: 2026-11-21T22:39:53.499318+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteModuloEliminate:olean"]
+Pinned source SHA-256: 3aef6f22cbea23dd20669a76f063557c33c559f8070afb009760a6b37be4fb5d
+Compiled source SHA-256: 3aef6f22cbea23dd20669a76f063557c33c559f8070afb009760a6b37be4fb5d
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteModuloIntegral (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFiniteModuloIntegral.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteModuloIntegral:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFiniteModuloIntegral.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteModuloEliminate (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFiniteModuloEliminate.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.936
+Timed out: False
+
+========================================================================
+M164580
+========================================================================
+Module: M164580 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteProjectionCluster
+Started: 2026-11-21T22:40:02.437295+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteProjectionCluster:olean"]
+Pinned source SHA-256: 7d909fa0d8342d24fbfbf89d9889662b8f3f2f54be7a23e805bb792a4322805a
+Compiled source SHA-256: 7d909fa0d8342d24fbfbf89d9889662b8f3f2f54be7a23e805bb792a4322805a
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteProjectionCluster (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFiniteProjectionCluster.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.529
+Timed out: False
+
+========================================================================
+M164582
+========================================================================
+Module: M164582 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteProjectionProperBall
+Started: 2026-11-21T22:40:08.967755+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteProjectionProperBall:olean"]
+Pinned source SHA-256: 8eb3ab08680114d88ebd18f573a590c4f9483e8db4d67997e93f241018faca1b
+Compiled source SHA-256: 8eb3ab08680114d88ebd18f573a590c4f9483e8db4d67997e93f241018faca1b
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteProjectionProperBall (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFiniteProjectionProperBall.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.428
+Timed out: False
+
+========================================================================
+M164585
+========================================================================
+Module: M164585 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteProjectionsGeneric
+Started: 2026-11-21T22:40:15.397314+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteProjectionsGeneric:olean"]
+Pinned source SHA-256: f143702640357a31ab896ef742322b6aa8e4e75549036a891fa719bf4bb5223b
+Compiled source SHA-256: f143702640357a31ab896ef742322b6aa8e4e75549036a891fa719bf4bb5223b
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFiniteProjectionsGeneric (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFiniteProjectionsGeneric.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.529
+Timed out: False
+
+========================================================================
+M164587
+========================================================================
+Module: M164587 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatLocalRegularElement
+Started: 2026-11-21T22:40:21.927871+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatLocalRegularElement:olean"]
+Pinned source SHA-256: 3a52d95f80c037573bfa45bfe0c6525614534fbd9041b8ba0fb9433b21b209b8
+Compiled source SHA-256: 3a52d95f80c037573bfa45bfe0c6525614534fbd9041b8ba0fb9433b21b209b8
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatDimFormula (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFlatDimFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatDimFormula:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFlatDimFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatLocalRegularElement (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFlatLocalRegularElement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.835
+Timed out: False
+
+========================================================================
+M164588
+========================================================================
+Module: M164588 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatLocalRegularSequence
+Started: 2026-11-21T22:40:30.764358+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatLocalRegularSequence:olean"]
+Pinned source SHA-256: a3312b15b58cbbd4948284b50231458f5ca4ef36423d534b90d4113d47efe2ee
+Compiled source SHA-256: a3312b15b58cbbd4948284b50231458f5ca4ef36423d534b90d4113d47efe2ee
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatDimFormula
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFlatDimFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatDimFormula:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFlatDimFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatLocalRegularSequence (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFlatLocalRegularSequence.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.478
+Timed out: False
+
+========================================================================
+M164592
+========================================================================
+Module: M164592 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFormalFibresRegular
+Started: 2026-11-21T22:40:37.243921+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFormalFibresRegular:olean"]
+Pinned source SHA-256: 2f3852d18dabce0794be6235bae3be5e4492f19e5c6306733d227c9cb2221a3b
+Compiled source SHA-256: 2f3852d18dabce0794be6235bae3be5e4492f19e5c6306733d227c9cb2221a3b
+
+⚠ [18250/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatNormalFibres (2.5s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFlatNormalFibres.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatNormalFibres:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFlatNormalFibres.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFormalFibresRegular (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StFormalFibresRegular.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.086
+Timed out: False
+
+========================================================================
+M164606
+========================================================================
+Module: M164606 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGermFiniteProjection
+Started: 2026-11-21T22:40:46.331308+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGermFiniteProjection:olean"]
+Pinned source SHA-256: ff89c1f69b4803055ff01f52d9f039bd29bb7fb1c75645cf8f2df6858268e696
+Compiled source SHA-256: ff89c1f69b4803055ff01f52d9f039bd29bb7fb1c75645cf8f2df6858268e696
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGermFiniteProjection (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StGermFiniteProjection.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.529
+Timed out: False
+
+========================================================================
+M164608
+========================================================================
+Module: M164608 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGermMinimalPolynomialDivides
+Started: 2026-11-21T22:40:52.862481+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGermMinimalPolynomialDivides:olean"]
+Pinned source SHA-256: 034bc639a81d53145ed101a67f3b9a1c5bd263aa30099bbaa9572a9e13d693c8
+Compiled source SHA-256: 034bc639a81d53145ed101a67f3b9a1c5bd263aa30099bbaa9572a9e13d693c8
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGermMinimalPolynomialDivides (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StGermMinimalPolynomialDivides.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.579
+Timed out: False
+
+========================================================================
+M164630
+========================================================================
+Module: M164630 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StImageDimLe
+Started: 2026-11-21T22:40:59.443082+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StImageDimLe:olean"]
+Pinned source SHA-256: 6551bb05858532339ab739148f08aaf99eef9d217b7598b391408bea7a593855
+Compiled source SHA-256: 6551bb05858532339ab739148f08aaf99eef9d217b7598b391408bea7a593855
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StImageDimLe (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StImageDimLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.48
+Timed out: False
+
+========================================================================
+M164633
+========================================================================
+Module: M164633 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInjectiveHolomorphicInverse
+Started: 2026-11-21T22:41:05.925086+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInjectiveHolomorphicInverse:olean"]
+Pinned source SHA-256: 59262e1f8980b7c91c04df49a605c6fad4190925ba5d72441ae6471d047aa255
+Compiled source SHA-256: 59262e1f8980b7c91c04df49a605c6fad4190925ba5d72441ae6471d047aa255
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInjectiveHolomorphicOpen
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StInjectiveHolomorphicOpen.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInjectiveHolomorphicOpen:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StInjectiveHolomorphicOpen.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInjectiveHolomorphicInverse (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StInjectiveHolomorphicInverse.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.529
+Timed out: False
+
+========================================================================
+M164634
+========================================================================
+Module: M164634 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInjectiveHolomorphicJacobianNeZero
+Started: 2026-11-21T22:41:12.455853+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInjectiveHolomorphicJacobianNeZero:olean"]
+Pinned source SHA-256: 8521912ee6f76edeada2dd0dd0fda55d6c745a9502d2e6dc4d0ae61bde4827ef
+Compiled source SHA-256: 8521912ee6f76edeada2dd0dd0fda55d6c745a9502d2e6dc4d0ae61bde4827ef
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInjectiveHolomorphicOpen
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StInjectiveHolomorphicOpen.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInjectiveHolomorphicOpen:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StInjectiveHolomorphicOpen.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInjectiveHolomorphicJacobianNeZero (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StInjectiveHolomorphicJacobianNeZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.532
+Timed out: False
+
+========================================================================
+M164637
+========================================================================
+Module: M164637 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleFiniteGermProjectionOpenAt
+Started: 2026-11-21T22:41:18.989843+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleFiniteGermProjectionOpenAt:olean"]
+Pinned source SHA-256: b7bc23face4011a379d9b2b7992cdae136fe5054e1a338d357a606b394ab19fa
+Compiled source SHA-256: b7bc23face4011a379d9b2b7992cdae136fe5054e1a338d357a606b394ab19fa
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleFiniteGermProjectionOpenAt (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StIrreducibleFiniteGermProjectionOpenAt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.529
+Timed out: False
+
+========================================================================
+M164638
+========================================================================
+Module: M164638 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermComplementConnected
+Started: 2026-11-21T22:41:25.520292+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermComplementConnected:olean"]
+Pinned source SHA-256: de48c0dc7a86141338970bd208732011734d63939d01639bfc216471517b45ed
+Compiled source SHA-256: de48c0dc7a86141338970bd208732011734d63939d01639bfc216471517b45ed
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermComplementConnected (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StIrreducibleGermComplementConnected.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.58
+Timed out: False
+
+========================================================================
+M164639
+========================================================================
+Module: M164639 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermCurve
+Started: 2026-11-21T22:41:32.101898+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermCurve:olean"]
+Pinned source SHA-256: f08a21f07d7967a5be61b4eda5ba634ade920feeb790a636a551c151675c41e4
+Compiled source SHA-256: f08a21f07d7967a5be61b4eda5ba634ade920feeb790a636a551c151675c41e4
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermCurve (2.2s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StIrreducibleGermCurve.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.378
+Timed out: False
+
+========================================================================
+M164640
+========================================================================
+Module: M164640 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermMeetOverHypersurface
+Started: 2026-11-21T22:41:38.481181+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermMeetOverHypersurface:olean"]
+Pinned source SHA-256: f3a75e43973d10f28360bc3773f504c2a3c514c8961a9db0ab0a013fb7be1044
+Compiled source SHA-256: f3a75e43973d10f28360bc3773f504c2a3c514c8961a9db0ab0a013fb7be1044
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermMeetOverHypersurface (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StIrreducibleGermMeetOverHypersurface.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.377
+Timed out: False
+
+========================================================================
+M164643
+========================================================================
+Module: M164643 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermProjectionImageNear
+Started: 2026-11-21T22:41:44.860010+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermProjectionImageNear:olean"]
+Pinned source SHA-256: cbc6dfa45fe10c696510b1defcc939bb11c080282346119f1fc8e0000b0ded43
+Compiled source SHA-256: cbc6dfa45fe10c696510b1defcc939bb11c080282346119f1fc8e0000b0ded43
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermProjectionImageNear (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StIrreducibleGermProjectionImageNear.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.427
+Timed out: False
+
+========================================================================
+M164644
+========================================================================
+Module: M164644 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermProjectionOpenNear
+Started: 2026-11-21T22:41:51.289147+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermProjectionOpenNear:olean"]
+Pinned source SHA-256: 319728e4022d71da52f333f32c6161d48364a6db2901ea4e1e31bdd3b43b995e
+Compiled source SHA-256: 319728e4022d71da52f333f32c6161d48364a6db2901ea4e1e31bdd3b43b995e
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermProjectionOpenNear (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StIrreducibleGermProjectionOpenNear.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.427
+Timed out: False
+
+========================================================================
+M164648
+========================================================================
+Module: M164648 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIsolatedFibreNear
+Started: 2026-11-21T22:41:57.718180+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIsolatedFibreNear:olean"]
+Pinned source SHA-256: 8d064b96a3db7a43c186e83c4f5f15e0955b1dc300167a076c3fce8b936533f4
+Compiled source SHA-256: 8d064b96a3db7a43c186e83c4f5f15e0955b1dc300167a076c3fce8b936533f4
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/AnalyticGerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIsolatedFibreNear (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StIsolatedFibreNear.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.377
+Timed out: False
+
+========================================================================
+M164650
+========================================================================
+Module: M164650 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIsolatedFibreOpenPoly
+Started: 2026-11-21T22:42:04.096897+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIsolatedFibreOpenPoly:olean"]
+Pinned source SHA-256: c6c453072a926b67db3e03d8c41a075759dcd3e6138ffce2482be203fc16eb8f
+Compiled source SHA-256: c6c453072a926b67db3e03d8c41a075759dcd3e6138ffce2482be203fc16eb8f
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIsolatedFibreOpenPoly (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StIsolatedFibreOpenPoly.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.378
+Timed out: False
+
+========================================================================
+M164651
+========================================================================
+Module: M164651 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIsolatedPointsCount
+Started: 2026-11-21T22:42:10.475950+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIsolatedPointsCount:olean"]
+Pinned source SHA-256: d57b82d25aac4a7930c5f5f53031bd46aeab1331b615d0a39216a79bc8754064
+Compiled source SHA-256: d57b82d25aac4a7930c5f5f53031bd46aeab1331b615d0a39216a79bc8754064
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIsolatedPointsCount (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StIsolatedPointsCount.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.478
+Timed out: False
+
+========================================================================
+M164669
+========================================================================
+Module: M164669 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLinearNoetherNormalization
+Started: 2026-11-21T22:42:16.955372+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLinearNoetherNormalization:olean"]
+Pinned source SHA-256: f4cc9aa4844a482618f634ffd8ed4b4617b457967ed594b68a18a35c4534bd08
+Compiled source SHA-256: f4cc9aa4844a482618f634ffd8ed4b4617b457967ed594b68a18a35c4534bd08
+
+⚠ [18250/18252] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLinearNoetherNormalization (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLinearNoetherNormalization.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.478
+Timed out: False
+
+========================================================================
+M164670
+========================================================================
+Module: M164670 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalBranchedCovering
+Started: 2026-11-21T22:42:23.435232+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalBranchedCovering:olean"]
+Pinned source SHA-256: d97ff3c06cf36eb38e611a238d73d5fabfa3ddf9ea109332274a5fbbeae0329a
+Compiled source SHA-256: d97ff3c06cf36eb38e611a238d73d5fabfa3ddf9ea109332274a5fbbeae0329a
+
+⚠ [18250/18254] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StNormalModel
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StNormalModel.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StNormalModel:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StNormalModel.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StHolomorphicOnSubset (2.3s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StHolomorphicOnSubset.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StHolomorphicOnSubset:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StHolomorphicOnSubset.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalBranchedCovering (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLocalBranchedCovering.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18254 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.885
+Timed out: False
+
+========================================================================
+M164677
+========================================================================
+Module: M164677 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalTrace
+Started: 2026-11-21T22:42:32.322398+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalTrace:olean"]
+Pinned source SHA-256: 491d0e2b691a75eef532c3b6f236705374d49507d8bdd3c8aa14e16255c30930
+Compiled source SHA-256: 491d0e2b691a75eef532c3b6f236705374d49507d8bdd3c8aa14e16255c30930
+
+⚠ [18250/18254] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StNormalModel
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StNormalModel.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StNormalModel:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StNormalModel.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StHolomorphicOnSubset
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StHolomorphicOnSubset.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StHolomorphicOnSubset:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StHolomorphicOnSubset.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalTrace (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLocalTrace.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18254 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.531
+Timed out: False
+
+========================================================================
+M164678
+========================================================================
+Module: M164678 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalUniversalDenominator
+Started: 2026-11-21T22:42:38.854662+00:00
+Command: ["lake", "--no-cache", "build", "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalUniversalDenominator:olean"]
+Pinned source SHA-256: 1dba2082589750982a5fc1b7983351a958bb60a52baf04ddbfb672552645bb96
+Compiled source SHA-256: 1dba2082589750982a5fc1b7983351a958bb60a52baf04ddbfb672552645bb96
+
+⚠ [18250/18254] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StNormalModel
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StNormalModel.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StNormalModel:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StNormalModel.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StHolomorphicOnSubset
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StHolomorphicOnSubset.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18254] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StHolomorphicOnSubset:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StHolomorphicOnSubset.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLocalUniversalDenominator (2.4s)
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StLocalUniversalDenominator.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18254 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.58
+Timed out: False
