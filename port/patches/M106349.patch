@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/SymmetricPowerTransfer/LocalHermitianForms/EvenVal.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/SymmetricPowerTransfer/LocalHermitianForms/EvenVal.lean
+@@ -193,6 +193,7 @@
+   d_norm := by ext <;> simp [sigL, ofE] <;> norm_num
+   m_unit := isUnit_one
+   m_star := by ext <;> simp [sigL, QuadraticAlgebra.re_one, QuadraticAlgebra.im_one]
+-  m_sig := by ext <;> simp [sigL, QuadraticAlgebra.re_one, QuadraticAlgebra.im_one] <;> norm_num
++  m_sig := by ext <;> simp [sigL, QuadraticAlgebra.re_one, QuadraticAlgebra.im_one,
++    Algebra.algebraMap_eq_smul_one] <;> norm_num
+ 
+ end UpperTheory.V.Z.Sym.Loc

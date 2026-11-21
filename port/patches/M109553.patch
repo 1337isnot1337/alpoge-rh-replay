@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/CommutativeAlgebra/ExistsMonicLaurentPolynomialNearRootOfUnity.lean
++++ b/src/Development/AutomorphicArithmetic/CommutativeAlgebra/ExistsMonicLaurentPolynomialNearRootOfUnity.lean
+@@ -69,7 +69,7 @@
+   have hmon : (Polynomial.X ^ q - 1 : Polynomial (LaurentPolynomial A)).Monic := by
+     simpa using Polynomial.monic_X_pow_sub_C (1 : LaurentPolynomial A) hq.ne'
+   have hdeg : (Polynomial.X ^ q - 1 : Polynomial (LaurentPolynomial A)).natDegree ≠ 0 := by
+-    have := Polynomial.natDegree_X_pow_sub_C (n := q) (r := (1 : LaurentPolynomial A))
++    have := Polynomial.natDegree_X_pow_sub_C (n := q) (a := (1 : LaurentPolynomial A))
+     rw [map_one] at this
+     rw [this]
+     exact hq.ne'

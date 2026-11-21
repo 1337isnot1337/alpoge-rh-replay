@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.WeilGroupCharacters.RepAlg",
+  "source_sha256": "bad5968579b606667ba27a0c329b696125ad8e023e89806f7b34a1a725f6dc1b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent coefficient API adaptation in the exported CH definition: MvPolynomial.coeff \u03b2 p is now p.coeff \u03b2. Both select the coefficient of the same monomial \u03b2 from the same polynomial, after evaluating the same characteristic polynomial and taking the same group coefficient g; the defining predicate and quantifiers are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0134-lean436-20261121/packet-result.json"
+}

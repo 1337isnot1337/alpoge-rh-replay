@@ -1,0 +1,10 @@
+--- a/src/Development/AutomorphicArithmetic/CommutativeAlgebra/ExistsGoodRootOfHenselianSepClosedResidue.lean
++++ b/src/Development/AutomorphicArithmetic/CommutativeAlgebra/ExistsGoodRootOfHenselianSepClosedResidue.lean
+@@ -70,6 +70,6 @@
+     have key := split_of_units q ζ hq0 hζq
+       (fun i hi j hj hij => hunits i (Finset.mem_range.1 hi) j (Finset.mem_range.1 hj) hij)
+     have h := congrArg (Polynomial.eval₂ φ x) key
+-    simpa [Polynomial.eval₂_finset_prod, Polynomial.eval₂_pow, Polynomial.eval₂_C] using h
++    simpa [Polynomial.eval₂_finsetProd, Polynomial.eval₂_pow, Polynomial.eval₂_C] using h
+ 
+ end

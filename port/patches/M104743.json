@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.StokesSimplices.SumInsertNth",
+  "source_sha256": "31ede6c2c43ffaa849ba7343b72311a19055eb4ad4e69cd57f1d79b67e6f09ca",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the renamed continuous_finsetSum lemma. Specify the universal finite index set in the continuity-of-subtraction witness. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0134-lean436-20261121/packet-result.json"
+}
