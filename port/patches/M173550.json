@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.Rationality.QuotShiftPfH",
+  "source_sha256": "e6f4c32c83cfa7c7d9c8412fe33fd619fae265001e3d76274361eccce3785c2c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0169-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.Rationality.FinCoreSt",
+  "source_sha256": "bdea3436b116040e18f512cfaa4e11e95dd0d9aaf3e4cff9912c374da307d11f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent coefficient API adaptation in FinCoreStatement: polynomial.coeff exponent denotes the same coefficient as the former namespace-level function with reversed arguments. All quantifiers, bounds, limits and implications remain unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0169-lean436-20261121/packet-result.json"
+}
