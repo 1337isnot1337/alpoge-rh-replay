@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Envelope.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/Envelope.lean
+@@ -141,7 +141,7 @@ theorem exists_eq_mul_of_forall {q : ℕ} (hq0 : 0 < q) (hq : IsUnit (q : B)) {x
+       obtain ⟨z, hz, hz'⟩ := ih (by omega)
+       obtain ⟨a, w, hw, e⟩ := exists_eq_of_mem_dpSpan (m := m) (t := Set.Ico (m + 1) (q * M))
+         (fun k hk => by simp at hk ⊢; omega) hz'
+-      have hw' := pow_dvd_of_mem_dpSpan (n := m + 1) (fun _ hk => hk.1) hw
++      have hw' := pow_dvd_of_mem_dpSpan (n := m + 1) (s := Set.Ico (m + 1) (q * M)) (fun _ hk => hk.1) hw
+       obtain ⟨y, hy, hy'⟩ := h (m + 1)
+       have h1 : algebraMap A B ξ ^ (m + 1) ∣ a • dp m (algebraMap A B ξ) - q * (y - z) := by
+         have : a • dp m (algebraMap A B ξ) - q * (y - z) = (x - q * y) - w := by

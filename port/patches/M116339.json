@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.RealBands.Fourier",
+  "source_sha256": "025400e81ea2e29abae148bea5cbdd8468a9360dcf478cdb0a648b6a5f13e69b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

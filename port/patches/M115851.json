@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IwahoriCommensurability.CharpolySmulSeparable",
+  "source_sha256": "ecde541ae8ffec759ebb4feb83f42672b6a0fac41c809636eb7f64f130396f95",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

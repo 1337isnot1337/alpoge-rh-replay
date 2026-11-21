@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.RootEquality",
+  "source_sha256": "0aee3aaad6522e1cb7dd5ae8ca58c1ba1dc70012f4cb6ee33bce813a5fe1c14f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite via Set.preimage_compl in dec_closed and omit explicit injectivity argument on isIntegral_algebraMap_iff"
+}

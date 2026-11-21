@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.WeightCongruences.NormRootOfUnityQuadraticSubfield",
+  "source_sha256": "427ad65f0e2d05ad45a6cf266d4a15c8574ed22ffc225747b7f97321a35c73a9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

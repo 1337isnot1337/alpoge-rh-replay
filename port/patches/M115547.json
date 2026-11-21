@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MemFixedPiIff",
+  "source_sha256": "3115ec141d6c059b8fa8327f30d9ebf8c46c6cfc734e96a55e6f9bfcc94bf3a8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

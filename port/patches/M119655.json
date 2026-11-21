@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.DualOrder",
+  "source_sha256": "92fba579c03a8d711b01cdfe90f6d57427b9e00abead41daba4d11668660d7cd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

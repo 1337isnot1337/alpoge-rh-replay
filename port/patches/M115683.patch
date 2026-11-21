@@ -1,0 +1,20 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/RootEquality.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/RootEquality.lean
+@@ -1846,7 +1846,7 @@ private theorem dec_closed [Algebra.IsAlgebraic F Ω] :
+     ext σ
+     simp [mem_dec]
+   rw [this]
+-  exact isClosed_iInter fun x ↦ ⟨lc_apply x _ᶜ⟩
++  exact isClosed_iInter fun x ↦ ⟨by rw [← Set.preimage_compl]; exact lc_apply x _⟩
+ 
+ private theorem root_eq {N : ℕ} (hN : A.valuation (N : Ω) = 1) {x y : Ω} (hx : x ^ N = 1)
+     (hy : y ^ N = 1) (h : A.valuation (x - y) < 1) : x = y := by
+@@ -1925,7 +1925,7 @@ private theorem invariant : Algebra.IsInvariant (𝓞 F) (𝓞 Ω) (G F Ω) := b
+   have h1 : IsIntegral ℤ x := by
+     have : IsIntegral ℤ (b : Ω) := b.isIntegral_coe
+     rw [← hx] at this
+-    exact (isIntegral_algebraMap_iff (algebraMap F Ω).injective).1 this
++    exact isIntegral_algebraMap_iff.1 this
+   exact ⟨⟨x, h1⟩, Subtype.ext hx⟩
+ 
+ attribute [local instance] Ideal.Quotient.field in
