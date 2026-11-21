@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.CMTraceForms.SumLogPrimeFactorsMulTwoAddLogbLe",
+  "source_sha256": "a2f7516c8439e23ee4ec2e95bdb23bb99aa0e6d555f1d32df9677b49a9fa8007",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-001: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.FrobeniusLocalisation.LocStab",
+  "source_sha256": "bbc1cca9b74f97f6fc3b309bebe9e8bbc39614eb77495bf0e8ca11981014cbb4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-001: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

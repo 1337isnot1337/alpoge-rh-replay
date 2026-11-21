@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.SqSubLeNormSub",
+  "source_sha256": "c45c5e0b23aa2b3345ba9125ace93cec7372126ae860c9c6e719f89ef92d6713",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-001: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

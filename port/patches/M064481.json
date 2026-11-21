@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.GenericRegularity.PolyChartSmoothFractionLift",
+  "source_sha256": "1f362d0fa64b4b6cb206f7b5e9c7d6db896ebb98dd52a213dbc6d2fce64bf1fe",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-001: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

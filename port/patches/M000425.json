@@ -1,0 +1,8 @@
+{
+  "module": "CompanionTheory.AutomorphicTheory.ThetaDilations.Nuabs",
+  "source_sha256": "bca27f3b553036b37854d04b8e88277e4a3d75fddf56b799d0103bb51dd83f8a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-001: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

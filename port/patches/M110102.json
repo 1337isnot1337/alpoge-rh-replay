@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.DivisorFrames.ClosedSubgroupEqTopOfDense",
+  "source_sha256": "253ae588560736c5a8a09163c5f55c325a5307d5108c30b4ead84c6218c19f0a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-001: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.ExistsLeastOfDiscrete",
+  "source_sha256": "a6b159aec2bebb8d23f61e109d5a6b5b8476ce692737a192185390e8592e6ceb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-001: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

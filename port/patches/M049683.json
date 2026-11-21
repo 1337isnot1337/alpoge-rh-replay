@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SemisimpleEndomorphismsConjOfCharpoly",
+  "source_sha256": "8ff9f1412e78c6e2f4f0c8c3f2ed98a1ae9c07e3c0e3bef825274a74b48e91ad",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-001: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

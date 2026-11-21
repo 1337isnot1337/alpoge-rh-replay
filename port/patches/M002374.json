@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.JetGauges.BalancedHermitianSpace",
+  "source_sha256": "ad7ef487903b1ff944db5c79241163655a45610dfb711f98ae42e3fb575b93db",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-001: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyEqNhdsNEOfMeromorphicOfEqOnHalfPlane",
+  "source_sha256": "c25cb839c229277e822f04b0e5b0d164c122ea8a51c5658ba8fec114841a27de",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-001: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

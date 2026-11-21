@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms\u2082.NormalCompletionSt",
+  "source_sha256": "bb9474c81209812ea6471e3f4442f8b92c8c5419cf50b8f437bc9e0a3468b9f1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-001: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

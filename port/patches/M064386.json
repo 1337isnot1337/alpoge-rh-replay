@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsSubfieldValuationClosure",
+  "source_sha256": "a02c65a1702a620c2b17d8da87b692f4c1773d149fe3b9e6cc328af918307ce5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-001: compiled unchanged on Google Cloud (port/triage/results.json)"
+}
