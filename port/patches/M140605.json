@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.VolumeEquality.ChartMeetsAlg",
+  "source_sha256": "e5050c2460e7612dcd36d5d3a3c133bf26f5ca9d4fe3658a0f849b783a2ea810",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0066-lean436-20261121/packet-result.json"
+}

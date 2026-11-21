@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.FreeModuleNakayamaDescent",
+  "source_sha256": "59d8f9a8b35937ed88854d1f9372e6e5c06f3528c695cd1a5cbc76020712f9c0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: remove the obsolete zero alternative from TensorProduct induction; the current eliminator derives zero from the pure-tensor case. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0066-lean436-20261121/packet-result.json"
+}

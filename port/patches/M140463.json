@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.MemOfFixedByAutomorphisms",
+  "source_sha256": "14a8a49d0967fdb49329a70c60b79c5f8d1e539e3a4dd76f63e227fbf390a6cb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: supply the existing vector-space torsion-free instance explicitly to avoid typeclass search exhaustion. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0066-lean436-20261121/packet-result.json"
+}

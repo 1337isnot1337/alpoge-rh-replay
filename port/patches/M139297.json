@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.HodgeSurjectivity.CombinatorialCechAcyclic",
+  "source_sha256": "fa550f5d0f5550015c43f59118f4e7f48f157f239361ddaabc83a4f8248af2fd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0066-lean436-20261121/packet-result.json"
+}

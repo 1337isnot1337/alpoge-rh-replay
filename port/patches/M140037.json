@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.PublishedTheorems.PoincareDeRhamDuality.DeRhamPerfectPairing.ResSurjD",
+  "source_sha256": "6c1bafd8f6745ee310e4793d6e275dea702e471b877a5a36ee3bd5e79bb983de",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: replace the renamed Submodule.linearProjOfIsCompl_apply_right' lemma with Submodule.projectionOnto_apply_of_mem_right. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0066-lean436-20261121/packet-result.json"
+}

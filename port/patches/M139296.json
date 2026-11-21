@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.GoodCoverEigenspaces.MemRangeOfSol",
+  "source_sha256": "6c58aba1d552a74b4e35e739b0b347ddd38a772c1d670bf7c57fafd318bb3ae1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: replace the renamed Finsupp.finset_sum_apply lemma with Finsupp.finsetSum_apply. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0066-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.KernelRankNormBound",
+  "source_sha256": "25d7260bf72d25bdba27a7bca681c80b207f552856545caadc483debba2eb599",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use padicValNat_def to bridge the unchanged padic valuation statement to the new multiplicity lemmas. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0066-lean436-20261121/packet-result.json"
+}

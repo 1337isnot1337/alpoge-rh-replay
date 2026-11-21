@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.HodgeSurjectivity.EtaleChartBaseChange.CLBAlg",
+  "source_sha256": "6fc54992275dc7fc3a6b4d4efb2de5f9768f925cf6f3f9c0e05d2cb97dadfadb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0066-lean436-20261121/packet-result.json"
+}

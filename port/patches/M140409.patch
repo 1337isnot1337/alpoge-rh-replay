@@ -1,0 +1,11 @@
+--- a/src/Development/WeilBound/CoreStatements/TorusUniformisation/ChowMahlerFamilies/ExistsMonogenicSeparating.lean
++++ b/src/Development/WeilBound/CoreStatements/TorusUniformisation/ChowMahlerFamilies/ExistsMonogenicSeparating.lean
+@@ -309,7 +309,7 @@
+     intro a
+     apply Subtype.ext
+     funext s
+-    rw [SubmonoidClass.coe_finset_prod, Finset.prod_apply]
++    rw [SubmonoidClass.coe_finsetProd, Finset.prod_apply]
+     exact Finset.prod_eq_zero (Finset.mem_univ s) (by simp [hφ])
+   have hnil : ∀ a, ∃ n, (φ a - algebraMap V R (c a)) ^ n ∈
+       (IsLocalRing.maximalIdeal V).map (algebraMap V R) := by

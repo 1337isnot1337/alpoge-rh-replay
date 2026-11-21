@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.ExistsMonogenicSeparating",
+  "source_sha256": "664bc1df7014112f66bbcf7a66f87c209c1de9389c74ae533fb4c13b7db50831",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: replace the renamed SubmonoidClass.coe_finset_prod lemma with SubmonoidClass.coe_finsetProd. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0066-lean436-20261121/packet-result.json"
+}
