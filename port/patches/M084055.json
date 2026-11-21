@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsWtOnIffOfTorus",
+  "source_sha256": "a6b6ba3b181d8b369883ae5f7292a5ee8ccedb799c742b6240beeb7a62f02bb0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ModuliProofs.IsIndEtaleOfForallFinset",
+  "source_sha256": "f318aa04331d1abf3bade873f3c1d820a0e4bead8c1354561af440e2536af71c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.JetHarmonics.SumNormAddSqLeOfBoundsStatement",
+  "source_sha256": "f347e8aca05f034e73be28894ef9a08ceb7e37787e8d41e7396aa8863981a2c5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

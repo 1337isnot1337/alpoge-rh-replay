@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.JetHarmonics.InvSqLeWignerCoeffSqLowering",
+  "source_sha256": "b1ffe4741d610c6f98a3d7863e14c492af15405a3b6f7ebf1bd1b89f693259cb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_le_prod\u2080 for products over nonnegative real factors on the pinned Mathlib."
+}
