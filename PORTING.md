@@ -41,6 +41,14 @@ port/patches/<ModuleId>.json        # {"module", "source_sha256", "lean", "mathl
 2. **Port.** Use a fresh checkout of the pinned archive with the target toolchain and Mathlib. Fix each module until `lake build +<Module>:olean` succeeds.
 3. **Submit a PR to `main`** that adds the packet's `port/patches/` files and links the issue. Include the build transcript for every module in the packet, ending in success, plus the exact toolchain and Mathlib commit.
 
+Use a title such as `Port P0123 to Lean 4.36` for the PR. The queue and claim
+commands recognize packet/module IDs in open PR titles containing `port`,
+`ports`, or `porting` (or carrying the `port` label). This keeps pending port
+submissions reserved if their claim issue closes before the PR merges. These
+checks share the existing live issue scan; unrelated replay PRs do not reserve
+port work. Titles without task IDs cannot be recognized, so keep the claim open
+until the PR merges.
+
 If no whole packet is ready, `python3 tracker/port.py next --include-partial` also
 lists unreserved packets with some ready modules. Whole packets come first;
 partial packets are ordered by depth and then the number of ready modules.
