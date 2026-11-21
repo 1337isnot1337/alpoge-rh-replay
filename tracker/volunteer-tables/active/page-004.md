@@ -251,6 +251,6 @@
 | [@emsi](https://github.com/emsi) | [P1867](https://github.com/rohanarun/alpoge-rh-replay/issues/8629) | Claimed |
 | [@misuadn-laplace](https://github.com/misuadn-laplace) | [M005465](https://github.com/rohanarun/alpoge-rh-replay/issues/8653) | Claimed |
 | [@emsi](https://github.com/emsi) | [P1835](https://github.com/rohanarun/alpoge-rh-replay/issues/8696) | Claimed |
-| [@galakurpi](https://github.com/galakurpi) | [M074711](https://github.com/rohanarun/alpoge-rh-replay/issues/8700) | Claimed |
-| [@galakurpi](https://github.com/galakurpi) | [M041996](https://github.com/rohanarun/alpoge-rh-replay/issues/8701) | Claimed |
-| [@galakurpi](https://github.com/galakurpi) | [M131522](https://github.com/rohanarun/alpoge-rh-replay/issues/8702) | Claimed |
+| [@galakurpi](https://github.com/galakurpi) | [M165413](https://github.com/rohanarun/alpoge-rh-replay/issues/8707) | Claimed |
+| [@galakurpi](https://github.com/galakurpi) | [M069290](https://github.com/rohanarun/alpoge-rh-replay/issues/8709) | Claimed |
+| [@galakurpi](https://github.com/galakurpi) | [M131099](https://github.com/rohanarun/alpoge-rh-replay/issues/8710) | Claimed |
