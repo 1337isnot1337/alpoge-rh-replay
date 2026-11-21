@@ -246,7 +246,6 @@
 | [@SeriousRising](https://github.com/SeriousRising) | [P1870](https://github.com/rohanarun/alpoge-rh-replay/issues/8750) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M161838](https://github.com/rohanarun/alpoge-rh-replay/issues/8776) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2017](https://github.com/rohanarun/alpoge-rh-replay/issues/8976) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P1771](https://github.com/rohanarun/alpoge-rh-replay/issues/9029) | Claimed |
 | [@twaldin](https://github.com/twaldin) | [P1857](https://github.com/rohanarun/alpoge-rh-replay/issues/9057) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M162132](https://github.com/rohanarun/alpoge-rh-replay/issues/9061) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M162273](https://github.com/rohanarun/alpoge-rh-replay/issues/9126) | Claimed |
@@ -254,3 +253,4 @@
 | [@TOTOGT](https://github.com/TOTOGT) | [M162286](https://github.com/rohanarun/alpoge-rh-replay/issues/9133) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [M099348](https://github.com/rohanarun/alpoge-rh-replay/issues/9154) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [M100671](https://github.com/rohanarun/alpoge-rh-replay/issues/9155) | Claimed |
+| [@loremcdmx](https://github.com/loremcdmx) | [M119807](https://github.com/rohanarun/alpoge-rh-replay/issues/9156) | Claimed |
