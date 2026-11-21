@@ -128,6 +128,23 @@ Assignments may contain individual module or packet IDs. The controller bounds o
 
 Restart with the same command and state directory. A durable claim marker and issue history recover writes whose responses were lost. A builder lock and completed receipt let the controller reconnect after an interruption. The controller exits with status 0 when every assignment was submitted or lost to another reservation (an occupied selection or a bot conflict), and 1 when another error needs attention. After a conflict or failure, inspect `worker-state/state.json`, the issue and the numbered local log. Close abandoned claims. After resolving a recoverable error, add `--retry M000001` for that task. If the journal reports an unconfirmed public write, check the issue history before explicitly retrying. An interrupted or failed compiler attempt keeps its evidence on the builder.
 
+### Model persistent campaign assignment offline
+
+With Python 3.10+, compare the published Google campaign's cold runs with a persistent-worker assignment counterfactual:
+
+```bash
+python3 tracker/campaign_plan.py evidence/google-500-source-builds.json.gz \
+  --workers 8 16 32 64 128 500 --include-assignments > campaign-plan.json
+```
+
+The tool checks campaign pins, module IDs and equality between every observed build set and its targets' indexed project-import closure. Each scenario assigns every group exactly once, preserving its requested targets. Both policies process largest groups first. Cold LPT uses the least accumulated module-count load; the persistent policy minimizes projected unique-module load, breaking ties toward reuse. Reports include total and maximum per-worker compile proxies, max/mean imbalance, exact coverage checks and optional assignments. Worker counts are compared at the same parallel capacity.
+
+These are module-count proxies, not CPU time, elapsed speedups or a full-proof ETA. Workers start with empty project caches; valid persistent reuse assumes a consistent native platform, source, toolchain and dependency provenance. The model excludes cache limits, transfers, preparation, task overhead, failures and final verification. This experiment never creates claims, provisions workers or installs artifacts; an actual compatible-worker pilot is needed to measure time savings.
+
+Add `--canonical-cut` to model a single producer for every project module. The shared seed is the dependency-closed set used by more than one persistent worker. Groups sharing any remaining module stay together in a private component; components are balanced across the same worker count. The planner verifies disjoint producer sets, dependency closure and exact group/target coverage. With `--include-assignments`, it emits the seed IDs and private assignments.
+
+This mode requires a new canonical artifact store and executor; it does not implement either. Its constructive two-stage schedule builds the seed first, then runs each private worker serially. Reported rounds assume uniform unit-cost modules and exclude transfer sizes, memory, preparation, failures, audits and kernel replay. Seed-object placements count required objects per receiver, not measured bytes or network cost. Reducing compile occurrences does not imply the same reduction in elapsed time.
+
 ### Check evidence and measure receiver progress
 
 Verify an archived bundle independently with the controller's tracker. To check source and installed object hashes too, pass the prepared checkout. Older unbundled receipts require this checkout.
