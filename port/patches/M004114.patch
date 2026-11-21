@@ -1,0 +1,25 @@
+--- a/src/Development/AbelianVarietyTheory/Definitions/Foundations/MemUnitaryGroupIffIsIsometry.lean
++++ b/src/Development/AbelianVarietyTheory/Definitions/Foundations/MemUnitaryGroupIffIsIsometry.lean
+@@ -356,15 +356,16 @@
+   [FiniteDimensional K V] {h : HermForm K V}
+ 
+ theorem Nondegenerate.unimodular (H : h.Nondegenerate) : h.Unimodular := by
+-  let b := Module.finBasis K V
+-  let σ : V ≃ₗ⋆[K] V :=
+-    (b.equivFun.trans (starLinearEquiv K (A := Fin (Module.finrank K V) → K))).trans
+-      b.equivFun.symm
++  have ⟨σ⟩ : Nonempty (V ≃ₗ⋆[K] V) :=
++    let b := Module.finBasis K V
++    ⟨(b.equivFun.trans (starLinearEquiv K (A := Fin (Module.finrank K V) → K))).trans
++      b.equivFun.symm⟩
+   let φ : V →ₗ[K] Module.Dual K V := h.toDual.comp σ.toLinearMap
+   have hinj : Function.Injective φ := (h.nondegenerate_iff_injective.1 H).comp σ.injective
++  have hdim : Module.finrank K V = Module.finrank K (Module.Dual K V) :=
++    (Subspace.dual_finrank_eq (K := K) (V := V)).symm
+   have hsurj : Function.Surjective φ :=
+-    (LinearMap.injective_iff_surjective_of_finrank_eq_finrank
+-      (Subspace.dual_finrank_eq).symm).1 hinj
++    (LinearMap.injective_iff_surjective_of_finrank_eq_finrank hdim (f := φ)).1 hinj
+   exact ⟨h.nondegenerate_iff_injective.1 H, Function.Surjective.of_comp (g := σ) hsurj⟩
+ 
+ theorem unimodular_iff_nondegenerate : h.Unimodular ↔ h.Nondegenerate :=

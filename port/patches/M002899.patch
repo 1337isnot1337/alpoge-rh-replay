@@ -1,0 +1,12 @@
+--- a/src/Development/AbelianVarietyTheory/Counterexamples/LevelGroupExamples/RightInvariantOfCovolume.lean
++++ b/src/Development/AbelianVarietyTheory/Counterexamples/LevelGroupExamples/RightInvariantOfCovolume.lean
+@@ -102,7 +102,8 @@
+     rw [e]; exact Measure.smul_absolutelyContinuous
+   have e' : μ = (c : ENNReal) • ν := e
+   have hq2 : (μ.restrict F).map (cls Γ) = (c : ENNReal) • (ν.restrict F').map (cls Γ) := by
+-    rw [map_restrict_eq Γ μ h hF', ← Measure.map_smul, ← Measure.restrict_smul, ← e']
++    rw [map_restrict_eq Γ μ h hF', ← Measure.map_smul _ (measurable_cls Γ).aemeasurable,
++      ← Measure.restrict_smul, ← e']
+   have hu : μ F = c * ν F' := by
+     rw [h.measure_eq hF']
+     conv_lhs => rw [e']

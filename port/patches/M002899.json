@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.RightInvariantOfCovolume",
+  "source_sha256": "641a70e36749f6a3a21fa7fd30a3a45aa0638312779b28bbc8f6d9c7f7a2bf3b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Supply AEMeasurable side condition (measurable_cls \u0393).aemeasurable to Measure.map_smul in normalised_eq."
+}

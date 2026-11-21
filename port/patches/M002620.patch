@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/BlockTheory/TorsionBlocks/LowerUnipotentMinors.lean
++++ b/src/Development/AbelianVarietyTheory/BlockTheory/TorsionBlocks/LowerUnipotentMinors.lean
+@@ -69,7 +69,7 @@
+ 
+ def fockForm {σ : Type*} [DecidableEq σ] (P Q : MvPolynomial σ ℂ) : ℂ :=
+   ∑ α ∈ P.support ∪ Q.support,
+-    ((α.prod fun _ k => k.factorial : ℕ) : ℂ) * coeff α P * starRingEnd ℂ (coeff α Q)
++    ((α.prod fun _ k => k.factorial : ℕ) : ℂ) * P.coeff α * starRingEnd ℂ (Q.coeff α)
+ 
+ def fockDensity {σ : Type*} [Fintype σ] (P : MvPolynomial σ ℂ) (z : σ → ℂ) : ℝ :=
+   ‖eval z P‖ ^ 2 * Real.exp (-∑ v, ‖z v‖ ^ 2) / Real.pi ^ Fintype.card σ

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ContFromConst",
+  "source_sha256": "1a1451a645ecf8e6ad3a42796ff7991e8bea8e50cfc5564d030202bc5fa69c1b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

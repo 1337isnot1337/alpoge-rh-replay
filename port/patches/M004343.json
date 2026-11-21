@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.BasicForm",
+  "source_sha256": "adfe82ccc94c13e15cb93d5c45cf3cac88ac20d9712a7ebc5418cf82ea4b9438",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
