@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PolynomialDimension.WeylDim",
+  "source_sha256": "ce78ccbfb3df0877e3ef312d502a7486277b435cbac993a197f0af4845bb087d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

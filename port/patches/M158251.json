@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SharpRestriction.CuspSpanNormBounds.BridgeNGLQ",
+  "source_sha256": "78a111a763efa7317d4ced9bca6228beec97210d9bf2cae90b57dd5e98116666",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

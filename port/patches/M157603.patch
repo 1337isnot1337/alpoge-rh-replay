@@ -1,0 +1,15 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/LBSubm.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/LBSubm.lean
+@@ -45,9 +45,9 @@
+   have hs : HasStrictFDerivAt Θ
+       ((ContinuousLinearEquiv.refl ℝ (Fin n → ℝ) : (Fin n → ℝ) ≃L[ℝ] (Fin n → ℝ)) :
+         (Fin n → ℝ) →L[ℝ] (Fin n → ℝ)) x0 := by
+-    have := hΘc.contDiffAt.hasStrictFDerivAt (x := x0) one_ne_zero
+-    rw [hid] at this
+-    exact this
++    have hfd := (hΘc.differentiable one_ne_zero x0).hasFDerivAt
++    rw [hid] at hfd
++    exact hΘc.contDiffAt.hasStrictFDerivAt hfd one_ne_zero
+   let PH := hs.toOpenPartialHomeomorph Θ
+ 
+   have hO : IsOpen (PH.source ∩ W) := PH.open_source.inter hW

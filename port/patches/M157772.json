@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.WittExtension",
+  "source_sha256": "689fb7d03d6aa2f01a7f09118090e23837e3ef49381e267037f1954fe7a1d80a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

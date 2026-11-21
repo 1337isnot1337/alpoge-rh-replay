@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PieriBlockIdeals.Statement",
+  "source_sha256": "76d7d46a33296545c5e5a9b5a738e126b8dde6d285ab40356c483dffb85a35df",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

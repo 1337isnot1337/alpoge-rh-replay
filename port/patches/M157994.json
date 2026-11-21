@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.RankGapBounds.RankAndGapBounds",
+  "source_sha256": "f773faac07c4f9aee690fc21ec68df73be19cdf3c48e3b2639ff31269f453e32",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

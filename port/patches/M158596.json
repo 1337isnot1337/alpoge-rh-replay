@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SharpRestriction.CuspSpanNormBounds.UnimodularSchurMeasures.RrcTendstoVec",
+  "source_sha256": "5db1a89087322952d0849244e8c5dca46e903542080ac0d5518789c25fad1553",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

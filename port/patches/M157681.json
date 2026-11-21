@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.UnfoldAbs",
+  "source_sha256": "2f0e48411f4d9e9b4a377b51f43c3c09d594dd09cd03e5ac18772913f0bc3b1c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace Measurable.ennreal_tsum with Measurable.tsum for ℝ≥0∞ sums in Mathlib v4.36.0."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PolynomialDimension.FrameSum",
+  "source_sha256": "7713fc506647e0c443bd2da2565f76ec59fbbca778b0ee7974460943da53fec0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

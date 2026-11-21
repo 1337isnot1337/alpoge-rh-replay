@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PolynomialDimension.StatementHar",
+  "source_sha256": "8f77703cbdc80cd305c2f5c04d640b75c33bfaa32af8ebf2afbb5ec0bfd9a598",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use dot notation f.coeff m / g.coeff m for MvPolynomial.coeff (mathematically identical definitions) in Mathlib v4.36.0."
+}

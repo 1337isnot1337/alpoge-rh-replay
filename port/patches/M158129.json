@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.SatakeComb",
+  "source_sha256": "2ae866e3e6227b78422dd49f95a96fcc623acf43fec25e9f9bd27ef3a31eefe7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

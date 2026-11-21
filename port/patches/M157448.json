@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ValuationLocalVolumes.QuadRoot",
+  "source_sha256": "f2469940a9244907d61fdec5aff5425dc1db39ea175e7994a15cc0ab408cc1d7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

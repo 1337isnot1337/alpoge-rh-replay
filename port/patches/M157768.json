@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.WeylProd",
+  "source_sha256": "cbc4de245cb8de30b54ae8691a87c239c80d4ad26774096bde54bfa10679121b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

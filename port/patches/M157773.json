@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.WittUnram",
+  "source_sha256": "21797c23be4b74645ab59fb7b35af40e3ca4c59ebe290f9da82dd5b94d71f019",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
