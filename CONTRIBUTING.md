@@ -124,6 +124,19 @@ Assignments may contain individual module or packet IDs. The controller bounds o
 
 Restart with the same command and state directory. A durable claim marker and issue history recover writes whose responses were lost. A builder lock and completed receipt let the controller reconnect after an interruption. After a conflict or failure, inspect `worker-state/state.json`, the issue and the numbered local log. Close abandoned claims. After resolving a recoverable error, add `--retry M000001` for that task. If the journal reports an unconfirmed public write, check the issue history before explicitly retrying. An interrupted or failed compiler attempt keeps its evidence on the builder.
 
+### Model persistent campaign assignment offline
+
+With Python 3.10+, compare the published Google campaign's cold runs with a persistent-worker assignment counterfactual:
+
+```bash
+python3 tracker/campaign_plan.py evidence/google-500-source-builds.json.gz \
+  --workers 8 16 32 64 128 500 --include-assignments > campaign-plan.json
+```
+
+The tool checks campaign pins, module IDs and equality between every observed build set and its targets' indexed project-import closure. Each scenario assigns every group exactly once, preserving its requested targets. Both policies process largest groups first. Cold LPT uses the least accumulated module-count load; the persistent policy minimizes projected unique-module load, breaking ties toward reuse. Reports include total and maximum per-worker compile proxies, max/mean imbalance, exact coverage checks and optional assignments. Worker counts are compared at the same parallel capacity.
+
+These are module-count proxies, not CPU time, elapsed speedups or a full-proof ETA. Workers start with empty project caches; valid persistent reuse assumes a consistent native platform, source, toolchain and dependency provenance. The model excludes cache limits, transfers, preparation, task overhead, failures and final verification. This experiment never creates claims, provisions workers or installs artifacts; an actual compatible-worker pilot is needed to measure time savings.
+
 ### Check evidence and measure receiver progress
 
 Verify an archived bundle independently with the controller's tracker. To check source and installed object hashes too, pass the prepared checkout. Older unbundled receipts require this checkout.
