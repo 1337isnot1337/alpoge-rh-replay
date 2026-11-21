@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M062143"
+  ],
+  "started_utc": "2026-11-21T12:43:12.157288+00:00",
+  "ended_utc": "2026-11-21T12:43:44.111566+00:00",
+  "elapsed_seconds": 31.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5234844
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.FinrankCocyclesAddTwistedInvariantLeExtensionStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7fdf70ae4343b9fd698e6c4ad456595f00fc6768abf311cead4e36124d7b9279",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.FinrankCocyclesAddTwistedInvariantLeExtension"
+  ],
+  "objects": {
+    "M062143": "c8648c87013351d40cc9084cf4a929e26fecf9af28e7cd875272255dc25d9bef"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "834ce9f1fed73ff797356280ffc67d872ec3b6f9713650eafa7bc18c888d13c7",
+  "packet": "M062143",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21407#issuecomment-7062896218",
+  "reviewed_utc": "2026-11-21T17:47:07.670279+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

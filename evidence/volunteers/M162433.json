@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M162433"
+  ],
+  "started_utc": "2026-11-21T13:09:31.864423+00:00",
+  "ended_utc": "2026-11-21T13:09:48.280983+00:00",
+  "elapsed_seconds": 16.4,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6949724
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.AutomorphicForms.AdelicDixmierMalliavinLie:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "390f794d8790f5128ebea130e91a71503c041f179cf068fb912a7a034cde448b",
+  "rebuilt_project_modules": [
+    "GroundTheory.AutomorphicForms.RealGroupsLie"
+  ],
+  "objects": {
+    "M162433": "e51a7dba4235517efd7e71b0f63c30b0cc5d1439a5f7bf7e68f7cf7769a03a3b"
+  },
+  "bundle_sha256": "b4a8883d6497d1459572980b6155974d5cb969181d7cb8dbf279a8cb8d76c72d",
+  "packet": "M162433",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21401#issuecomment-7063071926",
+  "reviewed_utc": "2026-11-21T17:47:27.629645+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

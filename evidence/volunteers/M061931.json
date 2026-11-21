@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M061931"
+  ],
+  "started_utc": "2026-11-21T12:28:15.133892+00:00",
+  "ended_utc": "2026-11-21T12:29:58.455278+00:00",
+  "elapsed_seconds": 103.3,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 4526180
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsPowerSeriesCompletionEmbedding:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "90e69c21b650f48c2e09f04154cf23383ee2eaf1d5ffa7fd488e6b9503c4e654",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ImportsBis",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.PowLeSpanPowSup",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.Target"
+  ],
+  "objects": {
+    "M061931": "25a28592d2d9b29bddbe218fb2595c34838fef817df9a6f2b4cedc558e4cdc44"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "9ff8f9cdeae7f9f96c9d2f8b7f6b8b32a40413601dd88f1d3f67f0b7678fe55d",
+  "packet": "M061931",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21526#issuecomment-7062613383",
+  "reviewed_utc": "2026-11-21T17:46:22.611919+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

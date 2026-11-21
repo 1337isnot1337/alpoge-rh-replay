@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M109866"
+  ],
+  "started_utc": "2026-11-21T12:27:54.764156+00:00",
+  "ended_utc": "2026-11-21T12:29:58.931016+00:00",
+  "elapsed_seconds": 124.2,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5240372
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.SelmerDuality.CardCokernelTransposeEqCardKernel:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "52640b957d83e4c089ca650bcbc0ef21ace5ea62e76401010ad26a3dc7776c17",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.SelmerDuality.Frobenius",
+    "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.SelmerDuality.PerfCard",
+    "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.SelmerDuality.ZModInj"
+  ],
+  "objects": {
+    "M109866": "bdee95a0e80e3260b51203207b5a9b0ebc95da2a0d5240893240816ede983f46"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "ebf3a6a140c55c92c3841583d52b80ac3bf8cd2556060ecb9f6bbfafe1630f14",
+  "packet": "M109866",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21510#issuecomment-7062613318",
+  "reviewed_utc": "2026-11-21T17:46:26.244739+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

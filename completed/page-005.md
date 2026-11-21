@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002898 | P0549 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.RelabBijective` | volunteer-build-reviewed |
+| M002899 | P0002 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.RightInvariantOfCovolume` | volunteer-build-reviewed |
+| M002902 | P2093 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.SubsingletonOfLeOne` | volunteer-build-reviewed |
+| M002903 | P0582 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.TotalDegreeEqOfMemHarmA` | volunteer-build-reviewed |
 | M002905 | P0238 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.TransvMemZGam` | build-observed |
 | M002906 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.VVAlgebraMapNonneg` | volunteer-build-reviewed |
 | M002907 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ZeroNotAdmissibleOfRankPos` | volunteer-build-reviewed |
@@ -106,6 +110,7 @@
 | M003093 | P1001 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.EvenCeil` | build-observed |
 | M003095 | P1028 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.EventuallyThickCardLeCyclicOrder` | build-observed |
 | M003097 | P0865 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsAllLifts` | build-observed |
+| M003103 | P1688 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsIsAdelicChain` | volunteer-build-reviewed |
 | M003104 | P1993 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsIsBIffCoreB` | build-observed |
 | M003109 | P0238 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsNotCongPow` | wave-reused |
 | M003111 | P0838 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsPotential` | build-observed |
@@ -127,6 +132,7 @@
 | M003153 | P1193 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.GeoTiedPGraft` | build-observed |
 | M003155 | P0891 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.GoodChi` | volunteer-build-reviewed |
 | M003156 | P1472 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.GoodPartEq` | volunteer-build-reviewed |
+| M003157 | P1218 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.GoodPartHasComplexCoordinates` | volunteer-build-reviewed |
 | M003165 | P1665 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.HostPins` | volunteer-build-reviewed |
 | M003172 | P2065 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IntertwinersExistScalarUpdateInvariant` | volunteer-build-reviewed |
 | M003176 | P1323 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsBlockMetricDiagForm` | build-observed |
@@ -396,9 +402,3 @@
 | M003693 | P1372 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLifted` | build-observed |
 | M003694 | P1029 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLimDeg` | build-observed |
 | M003695 | P1531 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLocCompIffEquiv` | volunteer-build-reviewed |
-| M003696 | P1834 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLocalRingTrivSqZeroExt` | build-observed |
-| M003697 | P2133 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLocallyConstantLinOm` | volunteer-build-reviewed |
-| M003698 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLocallyConstantSplitOm` | volunteer-build-reviewed |
-| M003705 | P0393 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsNilDPOfCube` | wave-reused |
-| M003706 | P2320 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsNoetherianRingCompletedStalkSiegelFibrePower` | volunteer-build-reviewed |
-| M003707 | P1974 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPairOfIsTriple` | volunteer-build-reviewed |

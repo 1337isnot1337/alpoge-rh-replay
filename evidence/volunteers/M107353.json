@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M107353"
+  ],
+  "started_utc": "2026-11-21T12:28:33.865930+00:00",
+  "ended_utc": "2026-11-21T13:18:24.743232+00:00",
+  "elapsed_seconds": 2990.8,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 7931936,
+    "peak_child_rss_kib": 4322648
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.TraceFormula.OrbitalIntegrals.TwistedOrbitalIntegrals.NormEx:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "304c7fb8f3f13ac69ed661d6a720e6f2db1b2a69252094cc747609803dd7e5d1",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.TraceFormula.OrbitalIntegrals.QuotFubini",
+    "Development.WeilBound.RepresentationTheoryGL.TwistedFactors.IntegralUnitBaseChange.InvTransposeGLInvTransposeGL"
+  ],
+  "objects": {
+    "M107353": "5ebd3a1956244184efb39af9b4a9c353e26768fcbd89106b32524e0f2c96ef81"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "fb0c5f9bedadaaf92b1f6cf357f069a9a7ff0d371c25f09f8aff2d5068cb89f1",
+  "packet": "M107353",
+  "contributor": "chriswilson413",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21554#issuecomment-7063178360",
+  "reviewed_utc": "2026-11-21T17:46:08.299409+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

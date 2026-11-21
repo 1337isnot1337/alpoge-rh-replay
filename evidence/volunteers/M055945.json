@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M055945"
+  ],
+  "started_utc": "2026-11-21T12:31:28.870509+00:00",
+  "ended_utc": "2026-11-21T12:31:39.773625+00:00",
+  "elapsed_seconds": 13.2,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6862344
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeakBoundedSchwartzTendstoStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "340de6ad09cf7a0d4d8f711a1dcf978bb57a0fda178cd7ccbb8d6ba2a79a5f0d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousIteratedFDerivApply",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeakBoundedSchwartzTendsto"
+  ],
+  "objects": {
+    "M055945": "f76a234da0441179286880c4af46c52a49478cb8668407dd38059818012b18b2"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "9a92a684e030403b08c5a82aad535fa302d27bfe99cdaffe361edd2c202236c0",
+  "packet": "M055945",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21476#issuecomment-7062699947",
+  "reviewed_utc": "2026-11-21T17:46:41.397186+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

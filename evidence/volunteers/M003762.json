@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M003762"
+  ],
+  "started_utc": "2026-11-21T12:27:09.094084+00:00",
+  "ended_utc": "2026-11-21T12:27:32.930455+00:00",
+  "elapsed_seconds": 26.1,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6935472
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.Divisors.LeTwoMulOfForallScale:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ad54a7a3af73f717966c4e41c82cf6f5534209de39765368d585ca3b39ecb322",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.EventuallyDifferentiableAtOfContDiffAtTwo",
+    "ReciprocityTheory.AnalyticForms.MaIntEmpty"
+  ],
+  "objects": {
+    "M003762": "54e955802e1db0b53f3e8a0661e4c172bf1fbf8a204cd6c043a32942ec030e5d"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "ac03afe9e345e0a81f894b9303398b6fa6678afb2e457b40da8757ab76cb8833",
+  "packet": "M003762",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21468#issuecomment-7062690531",
+  "reviewed_utc": "2026-11-21T17:46:50.025151+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M119471"
+  ],
+  "started_utc": "2026-11-21T12:22:18.967110+00:00",
+  "ended_utc": "2026-11-21T12:23:30.611138+00:00",
+  "elapsed_seconds": 71.6,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5471984
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.UnitaryInvolutions.NormInOfFreeAlgebraOfCompleteQuadratic:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "20f8e33cec370b50c8b352136ec1ef69a28e8e49b6fc872a2b2fd0705d610eba",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.Foundations.Convolution.HermitianDescent.IsHerm",
+    "Development.AutomorphicArithmetic.UnitaryInvolutions.ExistsMulInvolutionEqFixedUnitOfComplete"
+  ],
+  "objects": {
+    "M119471": "5846e3c426fb5678254ee1eb3cbed2b18ad966eb8d3d62e473edf6fd8350e1c7"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "c6c4d15af13148aa0b27d95139eadc632577e496afea4c2a78a62c80fcaf5682",
+  "packet": "M119471",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21369#issuecomment-7062538165",
+  "reviewed_utc": "2026-11-21T17:47:42.903672+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

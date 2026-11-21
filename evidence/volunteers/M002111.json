@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M002111"
+  ],
+  "started_utc": "2026-11-21T12:24:04.151980+00:00",
+  "ended_utc": "2026-11-21T12:25:09.883616+00:00",
+  "elapsed_seconds": 65.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5323176
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.BlockTheory.DivisorBase.CovariantDbarLeibniz:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "856cf8d92baabec5c2d8a930fcccce61dde657d63a3bb804f504870d4196a601",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.ExtFormAdjEqNegSecondForm",
+    "Development.AbelianVarietyTheory.Definitions.Divisors.LeTwoMulOfForallScale",
+    "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.EventuallyDifferentiableAtOfContDiffAtTwo"
+  ],
+  "objects": {
+    "M002111": "588a80559b6bab429fd9b73b494d363581119684786d6261b6b58f48d400a8b4"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "54fe87d5a9de3342e59683d1653e987af2d8fc719b30830609cf593b110c0ac1",
+  "packet": "M002111",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21342#issuecomment-7062557909",
+  "reviewed_utc": "2026-11-21T17:47:44.837163+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M092336"
+  ],
+  "started_utc": "2026-11-21T12:21:06.719487+00:00",
+  "ended_utc": "2026-11-21T12:21:24.147268+00:00",
+  "elapsed_seconds": 17.4,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5206548
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.CompactModStabilizer:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9ee0721d99350c92e040977094016ab23be4c9648bf7a2f42892f9a1738e7b7a",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.T2SpaceGeneralLinearGroup",
+    "Development.AbelianVarietyTheory.Definitions.Foundations.SecondCountableAndT2LocalField"
+  ],
+  "objects": {
+    "M092336": "5dee48e86a0df26024ea2744e0b2e009a32b39e38eca0aaab59a3e239e5f991b"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "7d6374d311f129273c2d2d831e020f2cff97c88c45a090fb4f94e06c43859641",
+  "packet": "M092336",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21294#issuecomment-7062514339",
+  "reviewed_utc": "2026-11-21T17:48:09.560115+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M120600"
+  ],
+  "started_utc": "2026-11-21T12:20:51.248305+00:00",
+  "ended_utc": "2026-11-21T12:22:05.416887+00:00",
+  "elapsed_seconds": 74.2,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5945244
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.AlgebraProofs.SaturatedLatticeQuotientCountStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ceb5e6ca6cdcdc3e693fc9d1a4f1ddae25b45ffc59d16d89fcfceb913e3abfdd",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.ModuliProofs.ExistsEqNsmulOfForallDvdOfBijective",
+    "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.SaturatedLatticeQuotientCount"
+  ],
+  "objects": {
+    "M120600": "e6899cf78e8e1006f660313755d94c8836f0ad29a64e3802f3ad80cc3fdd7b01"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "3adf63963198e3d098996fad338847cc3dd96c7bc41c8c3e1f359030d54991f0",
+  "packet": "M120600",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21312#issuecomment-7062519464",
+  "reviewed_utc": "2026-11-21T17:48:12.874569+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

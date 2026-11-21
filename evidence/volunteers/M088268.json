@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M088268"
+  ],
+  "started_utc": "2026-11-21T12:28:36.894784+00:00",
+  "ended_utc": "2026-11-21T12:28:48.974268+00:00",
+  "elapsed_seconds": 14.4,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6870988
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsSemisimpleOfLocallyFiniteCompactGroupStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a28e57f06f1e52097664a6e769ba81b2c54fb43a02c9dc50b73d48884bd647e5",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegralConjInnerMulInnerOfIsEmptyEquiv",
+    "Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsSemisimpleOfLocallyFiniteCompactGroup"
+  ],
+  "objects": {
+    "M088268": "9ba9ddc39e2954238ee932da45a971cda3db693f022123b92f825f8b7c378331"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "0c803b96d26e00a0d0619ea08ecd8dc7e33c83a7e5b55dd85689f7cbbadea237",
+  "packet": "M088268",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21487#issuecomment-7062695021",
+  "reviewed_utc": "2026-11-21T17:46:38.797748+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

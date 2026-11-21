@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M083640"
+  ],
+  "started_utc": "2026-11-21T12:29:13.581155+00:00",
+  "ended_utc": "2026-11-21T12:29:25.829907+00:00",
+  "elapsed_seconds": 12.2,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6810920
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.JetHarmonics.ExistsEqConstMulOfForallExistsNormEq:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3feb18f5920bb15f9ba3b6f32bd004a723d519f0cdd48fc6c90d4c1ef68e78ad",
+  "rebuilt_project_modules": [
+    "Lemmata.FirstBlockLemmaJ.Imports",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.PullbackSections.HolomorphicFamilies.EqZeroOfMulEqZero"
+  ],
+  "objects": {
+    "M083640": "0d01b813a41e0590f6901987be1818039f08dc9d2e35e106f580571a6d1279ec"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "2d1c646f966417dcb5e8a3a4d99a11e20939d0ddc5a4f8d1cc5d1262ff67147f",
+  "packet": "M083640",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21483#issuecomment-7062696253",
+  "reviewed_utc": "2026-11-21T17:46:39.231935+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

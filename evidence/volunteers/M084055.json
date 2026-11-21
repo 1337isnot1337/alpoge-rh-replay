@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M084055"
+  ],
+  "started_utc": "2026-11-21T13:10:16.176438+00:00",
+  "ended_utc": "2026-11-21T13:10:28.865752+00:00",
+  "elapsed_seconds": 12.7,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6898940
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.JetHarmonics.IsWtOnIffOfTorus:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "40d3b416e1db397458467afcb05ed687077fd10d0cfc09cb1ba9662758fcbace",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.JetGauges.HarishChandraParameters",
+    "Formalism.PeriodIntegrals.UpqRep"
+  ],
+  "objects": {
+    "M084055": "9fca8ca33e280a9eddbc8dbe875d780890b472c590d4e865e03c94270d4467e5"
+  },
+  "bundle_sha256": "afa2e16bf033c1544c0daaaa9d9bbc5f0054b7a1f22b387378b3ae607bea3891",
+  "packet": "M084055",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21403#issuecomment-7063079745",
+  "reviewed_utc": "2026-11-21T17:47:26.576177+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

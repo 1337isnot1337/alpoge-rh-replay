@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M000619"
+  ],
+  "started_utc": "2026-11-21T12:34:35.351952+00:00",
+  "ended_utc": "2026-11-21T12:36:29.962383+00:00",
+  "elapsed_seconds": 114.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7542640
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+CompanionTheory.RealGroups.BaseChange.ArchimedeanBaseChange.TensorCompletions.SkewFieldFrames.TensorCompl:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "79818fad16621c50f69d0c2a2034e496f0321ab5c8aa4f8b64c8acd931e3fb6c",
+  "rebuilt_project_modules": [
+    "CompanionTheory.RealGroups.BaseChange.ArchimedeanBaseChange.TensorCompletions.SkewFieldFrames.Imports"
+  ],
+  "objects": {
+    "M000619": "41c97d1e9e95c07feb9972cdfcbd58cf664d40db060be40cca3e940e8941519a"
+  },
+  "bundle_sha256": "14cf3cadf5553275a334e2e13c1c50628923a8802b7954fae2a77a2d3c78c7be",
+  "packet": "M000619",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21359#issuecomment-7062721242",
+  "reviewed_utc": "2026-11-21T17:47:45.736337+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

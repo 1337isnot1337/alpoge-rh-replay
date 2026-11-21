@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M103490"
+  ],
+  "started_utc": "2026-11-21T12:32:22.892544+00:00",
+  "ended_utc": "2026-11-21T12:32:31.374078+00:00",
+  "elapsed_seconds": 10.8,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6844356
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.FerreroWashingtonIndex.SgnAlg:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ce3a252fa36a8c85547e48266df8ecd76e16ce2aeb3a5a3033d02e43b56ce158",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.FerreroWashingtonIndex.NilCard"
+  ],
+  "objects": {
+    "M103490": "25d56259f9660158ce1dfbd69509e9e058e204ced8b3368dba2f92cfedae6796"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "37bf12bd86df66c097e690a1dbb2dafb27489dd2d9c8461c4ce2b63e3563e417",
+  "packet": "M103490",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21452#issuecomment-7062701208",
+  "reviewed_utc": "2026-11-21T17:46:56.301820+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

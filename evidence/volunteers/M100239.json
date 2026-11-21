@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M100239"
+  ],
+  "started_utc": "2026-11-21T12:34:56.811529+00:00",
+  "ended_utc": "2026-11-21T12:35:07.812835+00:00",
+  "elapsed_seconds": 11.0,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6919832
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ExistsFiniteDvrExtensionEmbeddingResidueField:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "caf57af74ddf42893b806656dc342e6492936d51ecd8648a0a0f27dca543d64c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIsDiscreteValuationRingOfMaximalIdealEqSpa"
+  ],
+  "objects": {
+    "M100239": "8fd6ae9da73c2a8a56e254ec5679e66c68800ecfbbc8e362a6c8ea52e0be305d"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "71b582d3c65975057b9674e49c784affa40be03c13ef66622497dcad5026afae",
+  "packet": "M100239",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21444#issuecomment-7062706973",
+  "reviewed_utc": "2026-11-21T17:47:04.086847+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

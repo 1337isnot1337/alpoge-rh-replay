@@ -2,6 +2,25 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M017769 | P1275 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassInvOfUnitTrivial` | build-observed |
+| M017773 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassScalarValueCore` | volunteer-build-reviewed |
+| M017780 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassSumNormEqOfUniqueLeast` | volunteer-build-reviewed |
+| M017783 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassSumVertexLevelsContainPrincipalCongruence` | volunteer-build-reviewed |
+| M017784 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassSumVertexLevelsContainPrincipalCongruenceStatement` | volunteer-build-reviewed |
+| M017790 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassVanishesAwayNonZeroDivisorStatement` | volunteer-build-reviewed |
+| M017791 | P1003 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassVanishesAwayNonzeroNonunitDomain` | build-observed |
+| M017792 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassVanishesAwayNonzeroNonunitDomainStatement` | volunteer-build-reviewed |
+| M017809 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClearingIntegerShortSeriesIntegralCoprimeLevel` | volunteer-build-reviewed |
+| M017813 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClearsIdempotentOfExponentBound` | build-observed |
+| M017817 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CliffordSemidirectPrimeIndexIrreducibleCharacter` | wave-reused |
+| M017818 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CliffordSemidirectPrimeIndexIrreducibleCharacterStatement` | wave-reused |
+| M017819 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClmSupBound` | volunteer-build-reviewed |
+| M017829 | P1116 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CloseTaylorShift` | build-observed |
+| M017830 | P1145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CloseTaylorShiftStatement` | volunteer-build-reviewed |
+| M017831 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CloseTensor` | volunteer-build-reviewed |
+| M017832 | P1059 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CloseTensorStatement` | build-observed |
+| M017833 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosedComplementDimBound` | volunteer-build-reviewed |
+| M017834 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosedComplementDimBoundStatement` | volunteer-build-reviewed |
 | M017835 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosedCoverAffineNbhdMapsIntoAffine` | volunteer-build-reviewed |
 | M017836 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosedCoverAffineNbhdMapsIntoAffineStatement` | volunteer-build-reviewed |
 | M017870 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosedFormsMulClosed` | volunteer-build-reviewed |
@@ -17,6 +36,7 @@
 | M017921 | P1275 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosureDivMem` | volunteer-build-reviewed |
 | M017922 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosureFiniteEtale` | wave-reused |
 | M017923 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosureFiniteOverBase` | wave-reused |
+| M017924 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosureGenericFibreClopenSplit` | volunteer-build-reviewed |
 | M017928 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosurePrimeRegularHeight` | wave-reused |
 | M017929 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosureUAt` | volunteer-build-reviewed |
 | M017930 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosureVanishingLatticeEqRowLatticeMatrices` | volunteer-build-reviewed |
@@ -158,6 +178,7 @@
 | M018267 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstRestrictSumVariablesStatement` | build-observed |
 | M018268 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSumElimPowerSeriesSwapVariableGroups` | wave-reused |
 | M018269 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSumElimPowerSeriesSwapVariableGroupsStatement` | wave-reused |
+| M018271 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSumPowMulFactorialStatement` | volunteer-build-reviewed |
 | M018275 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffValuationLossFinsetSumAndInvPowStatement` | volunteer-build-reviewed |
 | M018276 | P2081 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffValuationLossLeAddCharNegUnfoldingPhase` | volunteer-build-reviewed |
 | M018277 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffValuationLossLeAddCharNegUnfoldingPhaseStatement` | volunteer-build-reviewed |
@@ -381,24 +402,3 @@
 | M018783 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentRepresentativesInjectiveDoubleCoset` | volunteer-build-reviewed |
 | M018784 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentRepresentativesInjectiveDoubleCosetStatement` | volunteer-build-reviewed |
 | M018786 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentStabilizerActsByLevelChangeStatement` | volunteer-build-reviewed |
-| M018788 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentSurjectsOfOpenClosedStatement` | volunteer-build-reviewed |
-| M018791 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentsPeterssonOrthogonalAndMasses` | volunteer-build-reviewed |
-| M018795 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CompositionSeriesIntertwiningChain` | volunteer-build-reviewed |
-| M018797 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CompositumIntermediateFieldExistsPlaceValuationE` | volunteer-build-reviewed |
-| M018799 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComulChartSubSubstMemPSmul` | build-observed |
-| M018800 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComulChartSubSubstMemPSmulStatement` | build-observed |
-| M018801 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CondEIsCoprimeHalfDifferent` | volunteer-build-reviewed |
-| M018802 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CondESupConj` | volunteer-build-reviewed |
-| M018803 | P2420 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConductorOrderFiniteIntegers` | volunteer-build-reviewed |
-| M018805 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConductorSquareFlatBaseChangeSchemes` | volunteer-build-reviewed |
-| M018809 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeContractingHomotopy` | build-observed |
-| M018811 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeCoordinateLePowOfProdEqOneStatement` | volunteer-build-reviewed |
-| M018812 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeCoordinateRatioBounded` | volunteer-build-reviewed |
-| M018814 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeDegreeGrowthChowFormIntegrality` | volunteer-build-reviewed |
-| M018815 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeDegreeGrowthChowFormIntegralityStatement` | volunteer-build-reviewed |
-| M018816 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeEvFun` | volunteer-build-reviewed |
-| M018817 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeFinIntEq` | volunteer-build-reviewed |
-| M018819 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeIntZero` | volunteer-build-reviewed |
-| M018828 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeLin` | volunteer-build-reviewed |
-| M018829 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeMapFApply` | wave-reused |
-| M018833 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeSeqExact` | wave-reused |

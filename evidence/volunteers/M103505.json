@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M103505"
+  ],
+  "started_utc": "2026-11-21T12:22:01.625647+00:00",
+  "ended_utc": "2026-11-21T12:22:20.191181+00:00",
+  "elapsed_seconds": 18.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5188704
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.FerreroWashingtonIndex.TwCoef:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fe2232ae928b8c289e26819454b1eb23cc49b11aa4766e6b855cd27957939afb",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.FerreroWashingtonIndex.EvenTot",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.FerreroWashingtonIndex.ToZModPowOneEqZeroIff"
+  ],
+  "objects": {
+    "M103505": "32afb46401df5b480e053a16dc384eed4af9b903b90fd864b31a5c058a292209"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "0bb43df286d03e25e933b9a0a3f84c299e39e756422c46c76f1eb0d9898b74dc",
+  "packet": "M103505",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21315#issuecomment-7062536672",
+  "reviewed_utc": "2026-11-21T17:47:56.055472+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

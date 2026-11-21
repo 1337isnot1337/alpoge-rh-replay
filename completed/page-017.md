@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M010701 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PZeroHyperbolicZeroEqOne` | volunteer-build-reviewed |
+| M010702 | P0177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PadicResidueFieldCardAndPrimeIrreducible` | volunteer-build-reviewed |
+| M010703 | P0241 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PadicResidueFieldCardAndPrimeIrreducibleStatement` | volunteer-build-reviewed |
+| M010707 | P1300 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PairVrGramPRatPosDef` | volunteer-build-reviewed |
+| M010708 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PairedFlatMapFamilyContinuousInvariantIntegral` | volunteer-build-reviewed |
+| M010710 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PairedThetaKernelContinuousAndRationallyInvarian` | volunteer-build-reviewed |
+| M010711 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PairedThetaKernelContinuousAndRationallyInvarianStatement` | volunteer-build-reviewed |
+| M010712 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PairsAmplitudeBoundOfTypeBound` | volunteer-build-reviewed |
+| M010713 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PairsAmplitudeBoundOfTypeBoundStatement` | volunteer-build-reviewed |
+| M010714 | P1115 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricBiTransformingLowerUnipotentDiagValue` | volunteer-build-reviewed |
+| M010715 | P1144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricBiTransformingLowerUnipotentDiagValueStatement` | build-observed |
+| M010716 | P0348 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricChainLastTwoStepsRootOfUnity` | volunteer-build-reviewed |
+| M010717 | P0394 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricChainLastTwoStepsRootOfUnityStatement` | volunteer-build-reviewed |
+| M010720 | P0732 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricDoubleCosetValuation` | build-observed |
+| M010725 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricLevelCharacterEqInvBlockDet` | volunteer-build-reviewed |
 | M010726 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricLevelCharacterEqInvBlockDetStatement` | volunteer-build-reviewed |
 | M010727 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricLevelsCharactersDoubleCosetsAgreeRation` | volunteer-build-reviewed |
 | M010728 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricLevelsCharactersDoubleCosetsAgreeRationStatement` | volunteer-build-reviewed |
@@ -230,6 +245,8 @@
 | M011125 | P2052 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SchwartzBruhatHalfTensorOrthogonalIdempotentsStatement` | volunteer-build-reviewed |
 | M011126 | P1995 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SchwartzBruhatHalfTensorSplitPlaceSelfDual` | volunteer-build-reviewed |
 | M011128 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SchwartzBruhatLinearFunctional` | volunteer-build-reviewed |
+| M011129 | P0177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SchwartzBruhatMatrixTranslationModulationIrreduc` | volunteer-build-reviewed |
+| M011130 | P0241 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SchwartzBruhatMatrixTranslationModulationIrreducStatement` | volunteer-build-reviewed |
 | M011131 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SchwartzBruhatMatrixUniformlyLocallyConstantBoun` | volunteer-build-reviewed |
 | M011132 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SchwartzBruhatMatrixUniformlyLocallyConstantBounStatement` | volunteer-build-reviewed |
 | M011133 | P0583 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SchwartzBruhatMulAddCharLinearForm` | build-observed |
@@ -385,20 +402,3 @@
 | M011444 | P2052 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjPartLineMultipleMemIff` | volunteer-build-reviewed |
 | M011445 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjPartLineMultipleMemIffStatement` | volunteer-build-reviewed |
 | M011446 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjStabilizesFramedLatticeIff` | volunteer-build-reviewed |
-| M011447 | P2108 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjStabilizesFramedLatticeIffStatement` | volunteer-build-reviewed |
-| M011448 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjugateStabilizerKeepsMovedFrameLatt` | volunteer-build-reviewed |
-| M011449 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjugateStabilizerKeepsMovedFrameLattStatement` | volunteer-build-reviewed |
-| M011450 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceDataDistinctPlacesCommute` | volunteer-build-reviewed |
-| M011451 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceDataDistinctPlacesCommuteStatement` | volunteer-build-reviewed |
-| M011452 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceDatumBoxTensorLineOverVacuum` | volunteer-build-reviewed |
-| M011453 | P2108 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceDatumBoxTensorLineOverVacuumStatement` | volunteer-build-reviewed |
-| M011454 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceDatumCarriedBackToBaseVacuum` | volunteer-build-reviewed |
-| M011455 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceDatumCarriedBackToBaseVacuumStatement` | volunteer-build-reviewed |
-| M011456 | P1957 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceDetRootCharMul` | volunteer-build-reviewed |
-| M011468 | P2052 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceFrameGLMemCompactRealTrivial` | volunteer-build-reviewed |
-| M011469 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceFrameGLMemCompactRealTrivialStatement` | volunteer-build-reviewed |
-| M011470 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceFrameLatticeOfMovedLattice` | volunteer-build-reviewed |
-| M011472 | P2052 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceFrameMovedBackIsLatticeBasis` | volunteer-build-reviewed |
-| M011473 | P2067 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceFrameMovedBackIsLatticeBasisStatement` | volunteer-build-reviewed |
-| M011474 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceHeisenbergActionLineModulationTranslat` | volunteer-build-reviewed |
-| M011475 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceHeisenbergActionLineModulationTranslatStatement` | volunteer-build-reviewed |

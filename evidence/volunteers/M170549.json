@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M170549"
+  ],
+  "started_utc": "2026-11-21T13:15:27.060013+00:00",
+  "ended_utc": "2026-11-21T13:15:43.122024+00:00",
+  "elapsed_seconds": 16.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6864928
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.ProfiniteCohomology.RealPlaces.InvolutionDuality:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7e7253baea2dac9ea3126dab4f18f145290e41c993bb3cf1bd706969b6e894f3",
+  "rebuilt_project_modules": [
+    "GroundTheory.ProfiniteCohomology.TorsionDualDefs",
+    "GroundTheory.ProfiniteCohomology.TorsionDualFinite"
+  ],
+  "objects": {
+    "M170549": "816ffb1a5f0edb63f61a731df68e724667de85b64b17d37e2183e6eba114335f"
+  },
+  "bundle_sha256": "cf912200ac7ca64c8df08b68159c8cbed4ffd36ad313e30ade19b9b79e72d620",
+  "packet": "M170549",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21559#issuecomment-7063143873",
+  "reviewed_utc": "2026-11-21T17:46:06.629210+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

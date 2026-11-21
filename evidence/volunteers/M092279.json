@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M092279"
+  ],
+  "started_utc": "2026-11-21T12:17:25.947356+00:00",
+  "ended_utc": "2026-11-21T12:17:43.675629+00:00",
+  "elapsed_seconds": 17.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5164032
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.CoeffMatrixFamilyBilateralSubstitutionMonomialCoStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e5af8f525b409085c4db5c7c814157d53306d516311544cd2cd924c5d499b0cc",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TotalDegreeAevalLeOfLinear",
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TotalDegreeSubstFLe",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.CoeffMatrixFamilyBilateralSubstitutionMonomialCo"
+  ],
+  "objects": {
+    "M092279": "1f7e7302033524734b8f3abff1661d789c4723807176ee396c4f9a4f518fbc71"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "0e112d7b8d503b512859f300b9f2a57719067603e5519ef5c89620b0d3ce57fb",
+  "packet": "M092279",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21239#issuecomment-7062476082",
+  "reviewed_utc": "2026-11-21T17:48:19.988935+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M104594"
+  ],
+  "started_utc": "2026-11-21T12:17:24.906450+00:00",
+  "ended_utc": "2026-11-21T12:17:36.107115+00:00",
+  "elapsed_seconds": 11.2,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 6045528
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.ArithmeticGapBounds.PGlueK:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ca2587672dae13fbd1a427a627c070d92402856689c60d1e57b8e823dc47baff",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.ArithmeticGapBounds.AEConst",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.ArithmeticGapBounds.Arith"
+  ],
+  "objects": {
+    "M104594": "51e4077fe80762bf36b51ea4fa1806dbbf7e431fea755ff2fecd56a040dc9c27"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "22a7195852c47ab71fbfceec228da9a320bf62771efb925f93d5d254267db210",
+  "packet": "M104594",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21274#issuecomment-7062464415",
+  "reviewed_utc": "2026-11-21T17:48:27.900396+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

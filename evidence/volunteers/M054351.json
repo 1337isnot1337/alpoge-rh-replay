@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M054351"
+  ],
+  "started_utc": "2026-11-21T12:36:09.757096+00:00",
+  "ended_utc": "2026-11-21T12:37:50.991031+00:00",
+  "elapsed_seconds": 101.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7418044
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwOrbEqFinsumTwTerm:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "55806ddbc8db6b7b1c068bbca0dd8c5b1b1707824cf70cc77114b9c9af9459fe",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.T2SpaceFiniteAdeleRing"
+  ],
+  "objects": {
+    "M054351": "cfcefd6d42d166ea693f2cf1dbbef781270a348bad52962ea290583117c4b996"
+  },
+  "bundle_sha256": "980aac74f73e8095013a477a465c02ca0ae1c30c6056af2732050b6c45e7734f",
+  "packet": "M054351",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21361#issuecomment-7062725324",
+  "reviewed_utc": "2026-11-21T17:47:45.000084+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

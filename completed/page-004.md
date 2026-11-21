@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002192 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TaylorCoefficientForms` | volunteer-build-reviewed |
+| M002194 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorNormBound` | volunteer-build-reviewed |
 | M002195 | P0838 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorPlaceNorm` | build-observed |
 | M002196 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorProductAction` | wave-reused |
 | M002197 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ThetaKernelFiring` | volunteer-build-reviewed |
@@ -272,6 +274,7 @@
 | M002642 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.TwistedTriples` | volunteer-build-reviewed |
 | M002645 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.WeightDictionaryLifting` | volunteer-build-reviewed |
 | M002646 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.WeightFlagWeyl` | volunteer-build-reviewed |
+| M002649 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.AdjointOperatorIdentities` | volunteer-build-reviewed |
 | M002650 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.AdjointRadical` | volunteer-build-reviewed |
 | M002654 | P0475 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.CentralizerTensorForms` | volunteer-build-reviewed |
 | M002655 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ChainMatrices` | volunteer-build-reviewed |
@@ -288,6 +291,7 @@
 | M002672 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.DualLiftInvariance` | volunteer-build-reviewed |
 | M002674 | P1298 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ExponentSeparation` | volunteer-build-reviewed |
 | M002675 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ExponentTerms` | volunteer-build-reviewed |
+| M002676 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.FlagVolumeFiltration` | volunteer-build-reviewed |
 | M002677 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.FlatSpaceComponents` | volunteer-build-reviewed |
 | M002678 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.FourierJacobiAverage` | volunteer-build-reviewed |
 | M002680 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.FramePositiveSum` | build-observed |
@@ -398,7 +402,3 @@
 | M002893 | P1169 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.LocClauseOfUnifPlaces` | build-observed |
 | M002894 | P1169 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.OrthonormalBaseFrameNeg` | build-observed |
 | M002895 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.PEqQOfNeg` | volunteer-build-reviewed |
-| M002898 | P0549 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.RelabBijective` | volunteer-build-reviewed |
-| M002899 | P0002 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.RightInvariantOfCovolume` | volunteer-build-reviewed |
-| M002902 | P2093 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.SubsingletonOfLeOne` | volunteer-build-reviewed |
-| M002903 | P0582 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.TotalDegreeEqOfMemHarmA` | volunteer-build-reviewed |

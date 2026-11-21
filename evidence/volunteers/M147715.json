@@ -1,0 +1,52 @@
+{
+  "tasks": [
+    "M147715"
+  ],
+  "started_utc": "2026-11-21T12:34:33.326445+00:00",
+  "ended_utc": "2026-11-21T12:35:35.300447+00:00",
+  "elapsed_seconds": 62.0,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16377408,
+    "peak_child_rss_kib": 6809844
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.CMDeterminantIdeals.CMIdealValuations.AbsNormEqRelIndexMul:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "381cbda4e5cc3159e41dcb66c7791204f19d3120762c694e2754f61dbdf2c498",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.CMDeterminantIdeals.CMIdealValuations.AbsNormSpanGalois",
+    "Formalism.LocalToGlobal.CMDeterminantIdeals.CMIdealValuations.OneLeAbsNormOfLeOne",
+    "Formalism.LocalToGlobal.CMDeterminantIdeals.CMIdealValuations.ProdMulLeDetIdeal",
+    "Formalism.LocalToGlobal.CMDeterminantIdeals.CMIdealValuations.ValuationLeOfEqAlgebraMap",
+    "Formalism.LocalToGlobal.CMDeterminantIdeals.CmNumbersLink",
+    "Formalism.LocalToGlobal.CMDeterminantIdeals.CoeffMemOfLoc",
+    "Formalism.LocalToGlobal.CMDeterminantIdeals.DetIdeal",
+    "Formalism.LocalToGlobal.CMDeterminantIdeals.StatementA",
+    "Formalism.LocalToGlobal.CMDeterminantIdeals.StatementB",
+    "Formalism.LocalToGlobal.CMDeterminantIdeals.StatementC",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsLieBasis",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.TwoWeightEqOneAddRoot",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ConstGen",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.NonzeroLocus",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ThickTransComp",
+    "ReciprocityTheory.SemistableReduction.LatSemiSt",
+    "ReciprocityTheory.SemistableReduction.TorsionNonvanishStatement"
+  ],
+  "objects": {
+    "M147715": "839168fc9b6c9b43fe11a69041d7f1b2b035a4db71a8595af395a9f94c69a76f"
+  },
+  "project_root": "/tmp/rhvol/lean",
+  "bundle_sha256": "98de22430ccc17932476f130103d50f633bdf06d21cb1206f132b37cbdb619a3",
+  "packet": "M147715",
+  "contributor": "maugomez77",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21539#issuecomment-7062782504",
+  "reviewed_utc": "2026-11-21T17:46:17.977756+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

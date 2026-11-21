@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M153970"
+  ],
+  "started_utc": "2026-11-21T12:35:28.933928+00:00",
+  "ended_utc": "2026-11-21T12:35:40.024109+00:00",
+  "elapsed_seconds": 11.1,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6849592
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.OrbitalBoundsConclusion.SwSandwichOf:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ddffc793d0411f7bbe7bf4b408c140dde3ccd18f86e21711c40ef2f374a6886c",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SandwichChart.SideAUnrealifyRL"
+  ],
+  "objects": {
+    "M153970": "60e3df10697b712f0c18c2362b4d846e792b38a7f04ca614b0ab19624732d42f"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "703aa0fe2fbd459008dceada3c780e9efbd2cd24fa0528d4d3526a6ec99e7f97",
+  "packet": "M153970",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21435#issuecomment-7062709038",
+  "reviewed_utc": "2026-11-21T17:47:10.310660+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

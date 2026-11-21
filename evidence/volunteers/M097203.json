@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M097203"
+  ],
+  "started_utc": "2026-11-21T13:18:11.492438+00:00",
+  "ended_utc": "2026-11-21T13:18:29.555983+00:00",
+  "elapsed_seconds": 18.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6928120
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.ShuffleCountLinearIndependentClassesStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "04773cb57cbc1aff52ded9768c7795f3e667537a63be66779768199f9425e1ae",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ShuffleCountLinearIndependentClasses",
+    "Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.RadfordShufflePolynomialHolds"
+  ],
+  "objects": {
+    "M097203": "089c5254ca3a7a5e2e1a9bc469a343ae7844ae77da8a0a3ed4852b7efdab517d"
+  },
+  "bundle_sha256": "ed861d3a6be05163ed27ea8d538af4c774e80d814db787b978a6be0b0e29fd6f",
+  "packet": "M097203",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21567#issuecomment-7063179173",
+  "reviewed_utc": "2026-11-21T17:46:02.602675+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

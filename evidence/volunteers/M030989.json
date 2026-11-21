@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M030989"
+  ],
+  "started_utc": "2026-11-21T12:50:46.967359+00:00",
+  "ended_utc": "2026-11-21T12:51:15.339531+00:00",
+  "elapsed_seconds": 28.4,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5344464
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiltrationCentralCharacterIsolate:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0553f0b8f2c5d8a824aa83321b45ab9f778c8f0f83f31090c33ab5ed29248768",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsSubquotientDetRepParInd",
+    "Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.LeviEmbMemNormalizerLower"
+  ],
+  "objects": {
+    "M030989": "994a9d0046ce3b8e460c2ba19cbeea5ca9e33c5d11dc18a421f738e180744c31"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "163240abb81057146904451821eae8407b208ee34c4f2c52d66d4d734ce2cea5",
+  "packet": "M030989",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21537#issuecomment-7062890879",
+  "reviewed_utc": "2026-11-21T17:46:01.791809+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013694 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionValuedFieldTwistedUniformisationStatement` | volunteer-build-reviewed |
+| M013696 | P1958 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LiftValuationIntegralNormStatement` | volunteer-build-reviewed |
+| M013698 | P0785 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoExtendOfNormalBase` | build-observed |
+| M013699 | P0811 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoExtendOfNormalBaseStatement` | build-observed |
+| M013701 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoPullbackUniformisedThetaModelStatement` | volunteer-build-reviewed |
+| M013702 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoValuesConstantOfSameCubeTheta` | volunteer-build-reviewed |
+| M013703 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoValuesConstantOfSameCubeThetaStatement` | volunteer-build-reviewed |
+| M013704 | P1221 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleSpreadsOutFromGenericFibreProper` | build-observed |
+| M013706 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleSymmetryHypothesisBaseChange` | volunteer-build-reviewed |
+| M013707 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleSymmetryHypothesisBaseChangeStatement` | volunteer-build-reviewed |
+| M013708 | P0649 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LinearIndependentOnFibresOfClosedPoints` | build-observed |
+| M013710 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LinearIndependentThetaBasisGeometricFibreStatement` | volunteer-build-reviewed |
+| M013711 | P0550 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LinearMapEqZeroOfOneTmulMemRange` | build-observed |
+| M013712 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MaximalMinorsDualThetaTestLatticeBound` | volunteer-build-reviewed |
+| M013713 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MaximalMinorsDualThetaTestLatticeBoundStatement` | volunteer-build-reviewed |
+| M013716 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemMaximalIdeal` | volunteer-build-reviewed |
+| M013717 | P0617 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemPadicAlgClValuationSubringIffNormLeOne` | wave-reused |
 | M013718 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemRangeAppLEChartIff` | volunteer-build-reviewed |
 | M013719 | P1836 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemRangeIffOfFinite` | build-observed |
 | M013721 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemSpanRowsIffCoordsMem` | volunteer-build-reviewed |
@@ -385,20 +402,3 @@
 | M014667 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneDarbouxCoordinatesExistStatement` | volunteer-build-reviewed |
 | M014668 | P2052 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneDarbouxEvaluationIdentity` | volunteer-build-reviewed |
 | M014669 | P2067 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneDarbouxEvaluationIdentityStatement` | volunteer-build-reviewed |
-| M014676 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneEvaluationIntertwines` | volunteer-build-reviewed |
-| M014677 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneEvaluationIntertwinesStatement` | volunteer-build-reviewed |
-| M014682 | P2094 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneFormMemInverseDifferent` | volunteer-build-reviewed |
-| M014683 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneFormMemInverseDifferentStatement` | volunteer-build-reviewed |
-| M014687 | P1420 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneHermitianIdealCoprimeStatement` | volunteer-build-reviewed |
-| M014691 | P1445 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneLeftInverseExists` | volunteer-build-reviewed |
-| M014692 | P1474 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneLeftInverseExistsStatement` | volunteer-build-reviewed |
-| M014698 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneModelRestrictionCompatible` | volunteer-build-reviewed |
-| M014699 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneOrthogonalIdempotents` | volunteer-build-reviewed |
-| M014705 | P2177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlanePairRestriction` | volunteer-build-reviewed |
-| M014707 | P2094 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlanePairRestrictionFirst` | volunteer-build-reviewed |
-| M014708 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlanePairRestrictionFirstStatement` | volunteer-build-reviewed |
-| M014726 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneRestrictionPairReal` | volunteer-build-reviewed |
-| M014728 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneRestrictionPairThird` | volunteer-build-reviewed |
-| M014729 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneRestrictionPairThirdStatement` | volunteer-build-reviewed |
-| M014735 | P2052 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneSkewIdealCoprime` | volunteer-build-reviewed |
-| M014736 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneSkewIdealCoprimeLt` | volunteer-build-reviewed |

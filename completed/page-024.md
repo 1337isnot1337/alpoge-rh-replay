@@ -2,6 +2,25 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M016653 | P1396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedEigenvaluesClassesStatement` | build-observed |
+| M016654 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedEntriesIsCompact` | volunteer-build-reviewed |
+| M016655 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedEntriesOfIsCompactClosureZpowersUnitary` | volunteer-build-reviewed |
+| M016661 | P2081 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedIntegersStableSubgroupEqDoubleOrthogonal` | volunteer-build-reviewed |
+| M016662 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedIntegersStableSubgroupEqDoubleOrthogonalStatement` | volunteer-build-reviewed |
+| M016663 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedNormCompactPreimage` | volunteer-build-reviewed |
+| M016665 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedNormIdealElementsFiniteCount` | volunteer-build-reviewed |
+| M016670 | P1195 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedPluriharmonicExtendsSmoothlyStatement` | volunteer-build-reviewed |
+| M016673 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedPowersPadicIntegral` | volunteer-build-reviewed |
+| M016678 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoxC` | volunteer-build-reviewed |
+| M016690 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoxFunctionTwistedCoinvariantStatement` | volunteer-build-reviewed |
+| M016691 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoxGraphGraphHeis` | volunteer-build-reviewed |
+| M016692 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoxLatticeDiscrete` | volunteer-build-reviewed |
+| M016693 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoxLatticeDiscreteStatement` | volunteer-build-reviewed |
+| M016694 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoxLatticeDualCharacter` | volunteer-build-reviewed |
+| M016695 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoxLatticeDualCharacterStatement` | volunteer-build-reviewed |
+| M016696 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoxLatticeIsZlattice` | volunteer-build-reviewed |
+| M016697 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoxLatticeIsZlatticeStatement` | volunteer-build-reviewed |
+| M016699 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoxMonomialFamilyProdMemNormBallOfExponentLtStatement` | volunteer-build-reviewed |
 | M016700 | P2081 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoxProductDiagonalFunctionalNeZero` | volunteer-build-reviewed |
 | M016701 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoxProductDiagonalFunctionalNeZeroStatement` | volunteer-build-reviewed |
 | M016702 | P1996 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BrPairFApply` | volunteer-build-reviewed |
@@ -383,22 +402,3 @@
 | M017766 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassGroupNthPowerOfCodimOneMod` | volunteer-build-reviewed |
 | M017767 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassGroupTorsionPrincipalPower` | volunteer-build-reviewed |
 | M017768 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassGroupTorsionPrincipalPowerStatement` | volunteer-build-reviewed |
-| M017769 | P1275 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassInvOfUnitTrivial` | build-observed |
-| M017773 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassScalarValueCore` | volunteer-build-reviewed |
-| M017780 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassSumNormEqOfUniqueLeast` | volunteer-build-reviewed |
-| M017783 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassSumVertexLevelsContainPrincipalCongruence` | volunteer-build-reviewed |
-| M017784 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassSumVertexLevelsContainPrincipalCongruenceStatement` | volunteer-build-reviewed |
-| M017790 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassVanishesAwayNonZeroDivisorStatement` | volunteer-build-reviewed |
-| M017791 | P1003 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassVanishesAwayNonzeroNonunitDomain` | build-observed |
-| M017792 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassVanishesAwayNonzeroNonunitDomainStatement` | volunteer-build-reviewed |
-| M017809 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClearingIntegerShortSeriesIntegralCoprimeLevel` | volunteer-build-reviewed |
-| M017813 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClearsIdempotentOfExponentBound` | build-observed |
-| M017817 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CliffordSemidirectPrimeIndexIrreducibleCharacter` | wave-reused |
-| M017818 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CliffordSemidirectPrimeIndexIrreducibleCharacterStatement` | wave-reused |
-| M017819 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClmSupBound` | volunteer-build-reviewed |
-| M017829 | P1116 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CloseTaylorShift` | build-observed |
-| M017830 | P1145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CloseTaylorShiftStatement` | volunteer-build-reviewed |
-| M017831 | P1030 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CloseTensor` | volunteer-build-reviewed |
-| M017832 | P1059 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CloseTensorStatement` | build-observed |
-| M017833 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosedComplementDimBound` | volunteer-build-reviewed |
-| M017834 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosedComplementDimBoundStatement` | volunteer-build-reviewed |

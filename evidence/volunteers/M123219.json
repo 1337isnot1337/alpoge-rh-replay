@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M123219"
+  ],
+  "started_utc": "2026-11-21T12:20:00.216738+00:00",
+  "ended_utc": "2026-11-21T12:20:13.217680+00:00",
+  "elapsed_seconds": 13.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5184100
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FiniteDimensionalFixedTensorStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "888084f4fb75817b09f14b2def6e5b604f6da9af378850ad7c7f6fdf1996520a",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FiniteDimensionalFixedTensor"
+  ],
+  "objects": {
+    "M123219": "d47a603a355c7fbc0a4941115d33b417e453d7bafff428fdf26fc15f3cc4899f"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "cd8121289d4662511dd848b866d80d07b1869e85a8e7db809511865aba477d2a",
+  "packet": "M123219",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21279#issuecomment-7062501024",
+  "reviewed_utc": "2026-11-21T17:48:11.635021+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

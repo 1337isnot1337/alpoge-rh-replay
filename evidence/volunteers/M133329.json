@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M133329"
+  ],
+  "started_utc": "2026-11-21T12:28:33.426016+00:00",
+  "ended_utc": "2026-11-21T13:01:44.271366+00:00",
+  "elapsed_seconds": 1990.8,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 7931936,
+    "peak_child_rss_kib": 4322436
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.MetricProofs.EtaleLocalizationAtPrimeTensorOfEtaleAway:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "549c030b3cd4cc69fa5658c5da951d830ac6f91e723a3f8f3696982564e9ec96",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.MetricPeriods.PairRelationOfScaledRatio",
+    "GroundTheory.HeightsAndTheta.Heights.Antisymmetric.Statements"
+  ],
+  "objects": {
+    "M133329": "171580633147ebf2a844007bc8ec2167421d2aa840919020dcb68b77b9b73aa8"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "4ae69a8e0464fe3e6b2c84a6adc9edb010ee81b9b749dcc249caa8001c8fbcdb",
+  "packet": "M133329",
+  "contributor": "chriswilson413",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21553#issuecomment-7062978933",
+  "reviewed_utc": "2026-11-21T17:46:08.890135+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

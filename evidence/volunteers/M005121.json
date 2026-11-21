@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M005121"
+  ],
+  "started_utc": "2026-11-21T12:29:28.657429+00:00",
+  "ended_utc": "2026-11-21T12:30:59.341658+00:00",
+  "elapsed_seconds": 90.7,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7999588
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsCoreLat:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d7466f173124897036f884fad321e80c777e32d5c3865c698023a8de9afaf152",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Counterexamples.JetSurvey.OwnPrimeIntegralOfBqd",
+    "Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.OffQOfSizeRows"
+  ],
+  "objects": {
+    "M005121": "72159e55c84c6897281e0dcf9b85b6083f08b81c46269cdf8ea47ffdc75295e2"
+  },
+  "bundle_sha256": "6eb72be0c0de0fdbf8e3a286d5e0bce9d8ff7b5b07dd398aa42541edb47cb870",
+  "packet": "M005121",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21300#issuecomment-7062655740",
+  "reviewed_utc": "2026-11-21T17:48:20.571079+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

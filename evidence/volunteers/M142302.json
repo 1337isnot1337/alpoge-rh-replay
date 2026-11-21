@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M142302"
+  ],
+  "started_utc": "2026-11-21T12:33:21.659918+00:00",
+  "ended_utc": "2026-11-21T12:33:33.450051+00:00",
+  "elapsed_seconds": 14.1,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6888224
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.AnalyticDeterminants.ContDiffOnSecondCayleyBlockEntries:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "47def42cec7a9ee80d4d64d35fdc8831cc03de0f436607c71ad00afd7547a064",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.AnalyticDeterminants.ScalarSectionCompactBlockInvariant",
+    "Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.AnalyticDeterminants.SecondCayleyBlockMulConjTransposeEq"
+  ],
+  "objects": {
+    "M142302": "7fd2c5378222af208dc091c4ec3a2b1504bafaca23b787462981731174b9f15d"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "77232e50f29aa25fa9103013133982009249e4de5ce24c48f7b05f81b4c94b2f",
+  "packet": "M142302",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21520#issuecomment-7062669167",
+  "reviewed_utc": "2026-11-21T17:46:22.923639+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

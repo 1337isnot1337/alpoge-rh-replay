@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M010175 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapHaarFiniteOnCompacts` | volunteer-build-reviewed |
+| M010176 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapHaarFiniteOnCompactsStatement` | volunteer-build-reviewed |
+| M010177 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapHaarIsMulLeftInvariant` | volunteer-build-reviewed |
+| M010178 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapHaarIsMulLeftInvariantStatement` | volunteer-build-reviewed |
+| M010179 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapPreimageIntegralGL` | volunteer-build-reviewed |
+| M010180 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapPreimageIntegralGLStatement` | volunteer-build-reviewed |
+| M010181 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapToFourierJacobiPreimageIntegralGL` | volunteer-build-reviewed |
+| M010182 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapToFourierJacobiPreimageIntegralGLStatement` | volunteer-build-reviewed |
+| M010183 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LiftConvContGrowth` | volunteer-build-reviewed |
+| M010184 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LiftLaws` | volunteer-build-reviewed |
+| M010186 | P1813 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LiftPairPositiveDefiniteWittIndexZeroCartan` | volunteer-build-reviewed |
+| M010187 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LiftPairPositiveDefiniteWittIndexZeroCartanStatement` | volunteer-build-reviewed |
+| M010188 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LiftsCharOfResidueCharAtSplitPlace` | volunteer-build-reviewed |
+| M010189 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LiftsCharOfResidueCharAtSplitPlaceStatement` | volunteer-build-reviewed |
+| M010190 | P1813 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LineContractionSplitPlaceLocalModel` | volunteer-build-reviewed |
 | M010191 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LineContractionSplitPlaceLocalModelStatement` | volunteer-build-reviewed |
 | M010192 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LineHomAdjointTwistMemCompletedHomLattice` | volunteer-build-reviewed |
 | M010193 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LineHomAdjointTwistMemCompletedHomLatticeStatement` | volunteer-build-reviewed |
@@ -387,18 +402,3 @@
 | M010697 | P2093 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OrthogonalSumCoresHomotheticOffLevelStatement` | volunteer-build-reviewed |
 | M010698 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OtherPlacesConvolutionFiniteAwayOrthogonal` | volunteer-build-reviewed |
 | M010699 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OtherPlacesConvolutionFiniteAwayOrthogonalStatement` | volunteer-build-reviewed |
-| M010701 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PZeroHyperbolicZeroEqOne` | volunteer-build-reviewed |
-| M010702 | P0177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PadicResidueFieldCardAndPrimeIrreducible` | volunteer-build-reviewed |
-| M010703 | P0241 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PadicResidueFieldCardAndPrimeIrreducibleStatement` | volunteer-build-reviewed |
-| M010707 | P1300 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PairVrGramPRatPosDef` | volunteer-build-reviewed |
-| M010708 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PairedFlatMapFamilyContinuousInvariantIntegral` | volunteer-build-reviewed |
-| M010710 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PairedThetaKernelContinuousAndRationallyInvarian` | volunteer-build-reviewed |
-| M010711 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PairedThetaKernelContinuousAndRationallyInvarianStatement` | volunteer-build-reviewed |
-| M010712 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PairsAmplitudeBoundOfTypeBound` | volunteer-build-reviewed |
-| M010713 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PairsAmplitudeBoundOfTypeBoundStatement` | volunteer-build-reviewed |
-| M010714 | P1115 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricBiTransformingLowerUnipotentDiagValue` | volunteer-build-reviewed |
-| M010715 | P1144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricBiTransformingLowerUnipotentDiagValueStatement` | build-observed |
-| M010716 | P0348 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricChainLastTwoStepsRootOfUnity` | volunteer-build-reviewed |
-| M010717 | P0394 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricChainLastTwoStepsRootOfUnityStatement` | volunteer-build-reviewed |
-| M010720 | P0732 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricDoubleCosetValuation` | build-observed |
-| M010725 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricLevelCharacterEqInvBlockDet` | volunteer-build-reviewed |

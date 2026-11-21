@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M102546"
+  ],
+  "started_utc": "2026-11-21T12:52:06.760145+00:00",
+  "ended_utc": "2026-11-21T12:52:46.613807+00:00",
+  "elapsed_seconds": 39.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5444884
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.ChartKer:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "16b08e880769125bc79c417d174ed3b60c281c84b6ec7c6605cbf7b835629e87",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.GrInternal",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.Graded",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.OrbitVanishingLocal",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.PartSpan"
+  ],
+  "objects": {
+    "M102546": "55442b1fead00a9cbfac3f848f9ef49d9f66396b6da37c280153d9feb54c27af"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "81fbe1d6ddc5a295896537552550ae5b64c72aeb01c5035ee9f32c376c25e562",
+  "packet": "M102546",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21455#issuecomment-7062892877",
+  "reviewed_utc": "2026-11-21T17:46:39.399673+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

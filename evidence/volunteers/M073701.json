@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M073701"
+  ],
+  "started_utc": "2026-11-21T12:35:15.018741+00:00",
+  "ended_utc": "2026-11-21T12:35:28.037001+00:00",
+  "elapsed_seconds": 13.0,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6820144
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RieszEigenvectorSesquilinearFunctionSpaceStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2d0134b90d81e63c263ca85036645a9f87302e6978d2a76564e0220b24ce24bc",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.HermitianAdjointExistsUniqueOfPosDef",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RieszEigenvectorSesquilinearFunctionSpace"
+  ],
+  "objects": {
+    "M073701": "4f3dcd4628858fac0211aa34c0df12f21520849ac0d4074d0e707f3456bad7b0"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "5aba311171b79d9d5fd78809098280f9832e481393df37792cd3dfbc1d57bcde",
+  "packet": "M073701",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21479#issuecomment-7062708434",
+  "reviewed_utc": "2026-11-21T17:46:39.376714+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

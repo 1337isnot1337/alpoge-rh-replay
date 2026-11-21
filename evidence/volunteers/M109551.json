@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M109551"
+  ],
+  "started_utc": "2026-11-21T12:23:07.269652+00:00",
+  "ended_utc": "2026-11-21T12:23:30.722746+00:00",
+  "elapsed_seconds": 23.5,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5174376
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsMonicFactorLiftOfPowMulSubOnePow:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "db012609d3896715cf01e670f543e725ea213fd8f5895ed2f0b3efba545cd11a",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsEvalRootsSymmetricEqAlgebraMap",
+    "Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsMonicFactorOfRootSubsetProductEquation",
+    "Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsPolynomialEqMapEvalRootsOfPermInvariant",
+    "Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsRootSubsetProductEquationOfHenselianReduct"
+  ],
+  "objects": {
+    "M109551": "c81e5e2fd4b29770caad797ce95c0fc0a4e81bb68c1de939c00c2a90a159dd24"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "6988804b4fd72a33d89dbfa198e70524b1c096ff188c91bd752db221e141b340",
+  "packet": "M109551",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21318#issuecomment-7062537445",
+  "reviewed_utc": "2026-11-21T17:47:55.970515+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

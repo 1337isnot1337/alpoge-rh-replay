@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005633 | P1002 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HasseNormPrincipleOfIsCyclicStatement` | volunteer-build-reviewed |
+| M005634 | P0784 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HasseNormTheoremQuadraticExtension` | wave-reused |
+| M005635 | P0811 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HasseNormTheoremQuadraticExtensionStatement` | wave-reused |
+| M005636 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HeightOneSpectrumPlacesOverFiniteSet` | wave-reused |
+| M005637 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HeightOneSpectrumPlacesOverFiniteSetStatement` | wave-reused |
+| M005638 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HerbrandPrimeOrder` | wave-reused |
+| M005639 | P0348 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HerbrandPrimeOrderStatement` | volunteer-build-reviewed |
+| M005640 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HermitianLogTraceSqFirstVariationBound` | volunteer-build-reviewed |
+| M005642 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HigherUnitsLeSquaresHigherUnits` | wave-reused |
+| M005643 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HigherUnitsLeSquaresHigherUnitsStatement` | wave-reused |
+| M005644 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.Hilbert90BaseChange` | volunteer-build-reviewed |
+| M005645 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.Hilbert90BaseChangeStatement` | volunteer-build-reviewed |
 | M005648 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.Hilbert90SUnitsQuadraticExtension` | wave-reused |
 | M005649 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.Hilbert90SUnitsQuadraticExtensionStatement` | wave-reused |
 | M005650 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HilbertFinitenessLeftInvariantMatrixPoly` | volunteer-build-reviewed |
@@ -390,15 +402,3 @@
 | M006118 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.KerAevalAddStabilizerNilradicalSocleStatement` | wave-reused |
 | M006119 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.LinearMapShortExactCommute` | wave-reused |
 | M006120 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.LinearMapShortExactCommuteStatement` | wave-reused |
-| M006121 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MatrixTraceIffIsCharacterOverSubfieldComplex` | wave-reused |
-| M006122 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MatrixTraceIffIsCharacterOverSubfieldComplexStatement` | wave-reused |
-| M006123 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MemVirtualCharactersIffSubCharacters` | wave-reused |
-| M006124 | P0296 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MemVirtualCharactersIffSubCharactersStatement` | wave-reused |
-| M006125 | P0394 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MemVirtualCharactersOfAbelianByPrimePower` | wave-reused |
-| M006126 | P0436 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MemVirtualCharactersOfAbelianByPrimePowerStatement` | wave-reused |
-| M006127 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MonicFactorizationConvolutionCancelOfOne` | wave-reused |
-| M006128 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MonicFactorizationConvolutionCancelOfOneStatement` | wave-reused |
-| M006129 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MonicFactorizationConvolutionFiniteCommAssocAdd` | wave-reused |
-| M006130 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MonicFactorizationConvolutionFiniteCommAssocAddStatement` | wave-reused |
-| M006131 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MultisetPowerSumNewtonIdentity` | wave-reused |
-| M006132 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormEightOfFourierVanishingOrderFifteen` | build-observed |

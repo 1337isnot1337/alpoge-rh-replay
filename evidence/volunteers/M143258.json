@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M143258"
+  ],
+  "started_utc": "2026-11-21T13:05:30.206240+00:00",
+  "ended_utc": "2026-11-21T13:05:46.109937+00:00",
+  "elapsed_seconds": 15.9,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6925268
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.ThetaLifts.EigenvalueEndgame.SignatureSplitting.EmbMMul:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8e16eb223f827cb7bd7c6eba09d52df57311c40343f02b4a837cec23018c7f56",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.HilbertNinetyQuotientHomEqIff"
+  ],
+  "objects": {
+    "M143258": "3ba88d045f6f0061a5e3b7960a88e6a92e8d79603d4f3772b399aa9a276717bd"
+  },
+  "bundle_sha256": "d9d93e98afe9eea58ef8bd50774a2c9001d4623f39312f2fe1b4f364b65e57f2",
+  "packet": "M143258",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21260#issuecomment-7063025335",
+  "reviewed_utc": "2026-11-21T17:48:28.540323+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

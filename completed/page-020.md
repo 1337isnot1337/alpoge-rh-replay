@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013034 | P1171 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInvertibleAdaptedBasisLinkMatrixStatement` | build-observed |
+| M013035 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInvertibleMatrixChangeOfSpanEq` | volunteer-build-reviewed |
+| M013037 | P0550 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsAffineOpenDisjointImageOfIsConstructible` | build-observed |
+| M013038 | P0348 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsAffineOpenPreimageEqOfIsNilpotent` | build-observed |
+| M013040 | P1247 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsFib` | volunteer-build-reviewed |
+| M013042 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsLBGenTrivOfRatios` | build-observed |
+| M013043 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsLBGenTrivOfRatiosStatement` | volunteer-build-reviewed |
+| M013046 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsPullDegOfVal` | volunteer-build-reviewed |
+| M013047 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsPullbackOfProjChart` | build-observed |
+| M013048 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsPullbackOfProjChartStatement` | volunteer-build-reviewed |
+| M013049 | P1171 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsRigNorm` | build-observed |
+| M013050 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsTorsFrameOfSymLift` | volunteer-build-reviewed |
+| M013052 | P1057 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsoIsMonHomOfIsGtOfRangeEq` | build-observed |
+| M013053 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsoOnG` | volunteer-build-reviewed |
+| M013055 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsoSection` | volunteer-build-reviewed |
+| M013056 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsoSpecialFibreTestGeometricTest` | volunteer-build-reviewed |
+| M013058 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsoSpecialise` | volunteer-build-reviewed |
 | M013063 | P1445 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsKernelPolarisationTrivialSpreadLocalisatioStatement` | volunteer-build-reviewed |
 | M013064 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLabelMapTorsionCharacters` | volunteer-build-reviewed |
 | M013065 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLabelMapTorsionCharactersStatement` | volunteer-build-reviewed |
@@ -385,20 +402,3 @@
 | M013690 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LePreimageOpenPartIffTestCoordinatesStatement` | volunteer-build-reviewed |
 | M013691 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionOfOneAlgClosedField` | volunteer-build-reviewed |
 | M013693 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionValuedFieldTwistedUniformisation` | volunteer-build-reviewed |
-| M013694 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionValuedFieldTwistedUniformisationStatement` | volunteer-build-reviewed |
-| M013696 | P1958 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LiftValuationIntegralNormStatement` | volunteer-build-reviewed |
-| M013698 | P0785 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoExtendOfNormalBase` | build-observed |
-| M013699 | P0811 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoExtendOfNormalBaseStatement` | build-observed |
-| M013701 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoPullbackUniformisedThetaModelStatement` | volunteer-build-reviewed |
-| M013702 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoValuesConstantOfSameCubeTheta` | volunteer-build-reviewed |
-| M013703 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoValuesConstantOfSameCubeThetaStatement` | volunteer-build-reviewed |
-| M013704 | P1221 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleSpreadsOutFromGenericFibreProper` | build-observed |
-| M013706 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleSymmetryHypothesisBaseChange` | volunteer-build-reviewed |
-| M013707 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleSymmetryHypothesisBaseChangeStatement` | volunteer-build-reviewed |
-| M013708 | P0649 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LinearIndependentOnFibresOfClosedPoints` | build-observed |
-| M013710 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LinearIndependentThetaBasisGeometricFibreStatement` | volunteer-build-reviewed |
-| M013711 | P0550 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LinearMapEqZeroOfOneTmulMemRange` | build-observed |
-| M013712 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MaximalMinorsDualThetaTestLatticeBound` | volunteer-build-reviewed |
-| M013713 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MaximalMinorsDualThetaTestLatticeBoundStatement` | volunteer-build-reviewed |
-| M013716 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemMaximalIdeal` | volunteer-build-reviewed |
-| M013717 | P0617 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemPadicAlgClValuationSubringIffNormLeOne` | wave-reused |

@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M104759"
+  ],
+  "started_utc": "2026-11-21T12:22:29.165198+00:00",
+  "ended_utc": "2026-11-21T12:23:40.675130+00:00",
+  "elapsed_seconds": 71.5,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 6179164
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.WhittakerSmoothForms.SkipSuccAbove:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5fc353dc1a8ee1eacb629fabe10494d32de2ef7af08eb2f67b308d45d7bb1f7e",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.WhittakerSmoothForms.PSmooth",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.WhittakerSmoothForms.SimplexMem"
+  ],
+  "objects": {
+    "M104759": "5c62d826c5ffb0926ae4dd30abbad6a7fad81e404346f22663d5b5deabe54aae"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "34089af9d9a22df048caa727db5b372a19c0a8b44731801d7800a9546b9a7da0",
+  "packet": "M104759",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21375#issuecomment-7062539858",
+  "reviewed_utc": "2026-11-21T17:47:39.186274+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

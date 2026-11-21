@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M094361"
+  ],
+  "started_utc": "2026-11-21T12:33:08.614672+00:00",
+  "ended_utc": "2026-11-21T12:33:21.132582+00:00",
+  "elapsed_seconds": 12.5,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6853052
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.GammaFunctionBoundedSupportStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0ce6d0a7e191b6081178b3bfeede0b98c4278a9c34d4dcaae3acbd1f1b2bbdf6",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.EpsOfCZero",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.GammaFunctionBoundedSupport"
+  ],
+  "objects": {
+    "M094361": "9e5bfc89f4ba17859f8f6540f2fb7b514bd2b08784f662a8e51523fa5cd79167"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "eed4171a41c8da14315d5ab39f14fe9a65fb9902ca3e08638339b6430b44beab",
+  "packet": "M094361",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21489#issuecomment-7062702541",
+  "reviewed_utc": "2026-11-21T17:46:38.859133+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

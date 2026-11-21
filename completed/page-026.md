@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M018788 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentSurjectsOfOpenClosedStatement` | volunteer-build-reviewed |
+| M018791 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentsPeterssonOrthogonalAndMasses` | volunteer-build-reviewed |
+| M018795 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CompositionSeriesIntertwiningChain` | volunteer-build-reviewed |
+| M018797 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CompositumIntermediateFieldExistsPlaceValuationE` | volunteer-build-reviewed |
+| M018799 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComulChartSubSubstMemPSmul` | build-observed |
+| M018800 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComulChartSubSubstMemPSmulStatement` | build-observed |
+| M018801 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CondEIsCoprimeHalfDifferent` | volunteer-build-reviewed |
+| M018802 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CondESupConj` | volunteer-build-reviewed |
+| M018803 | P2420 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConductorOrderFiniteIntegers` | volunteer-build-reviewed |
+| M018805 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConductorSquareFlatBaseChangeSchemes` | volunteer-build-reviewed |
+| M018809 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeContractingHomotopy` | build-observed |
+| M018811 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeCoordinateLePowOfProdEqOneStatement` | volunteer-build-reviewed |
+| M018812 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeCoordinateRatioBounded` | volunteer-build-reviewed |
+| M018814 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeDegreeGrowthChowFormIntegrality` | volunteer-build-reviewed |
+| M018815 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeDegreeGrowthChowFormIntegralityStatement` | volunteer-build-reviewed |
+| M018816 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeEvFun` | volunteer-build-reviewed |
+| M018817 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeFinIntEq` | volunteer-build-reviewed |
+| M018819 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeIntZero` | volunteer-build-reviewed |
+| M018828 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeLin` | volunteer-build-reviewed |
+| M018829 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeMapFApply` | wave-reused |
+| M018833 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConeSeqExact` | wave-reused |
 | M018846 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAEigenStabilizerIntegral` | volunteer-build-reviewed |
 | M018847 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAEigenStabilizerIntegralStatement` | volunteer-build-reviewed |
 | M018848 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAEigenStabilizerTriples` | volunteer-build-reviewed |
@@ -215,6 +236,7 @@
 | M019262 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjPlInvolutive` | volunteer-build-reviewed |
 | M019263 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjPlaceIntegerMem` | volunteer-build-reviewed |
 | M019265 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjPointNormPowEqStatement` | volunteer-build-reviewed |
+| M019268 | P1505 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjRelEquiv` | volunteer-build-reviewed |
 | M019270 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjResultantOfEllPolysStatement` | volunteer-build-reviewed |
 | M019272 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjSkewMemProductSpecialUnitaryLieAlgebra` | build-observed |
 | M019273 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjSkewMemProductSpecialUnitaryLieAlgebraStatement` | build-observed |
@@ -380,25 +402,3 @@
 | M019631 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousComplEquivSymm` | volunteer-build-reviewed |
 | M019632 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousComponents` | volunteer-build-reviewed |
 | M019633 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousConeDescendsEtaleSurjective` | build-observed |
-| M019634 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousConeDescendsEtaleSurjectiveStatement` | build-observed |
-| M019637 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousExtensionDoubledUnitary` | volunteer-build-reviewed |
-| M019639 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousFamF` | volunteer-build-reviewed |
-| M019642 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousFirstCoords` | volunteer-build-reviewed |
-| M019643 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousFourierGau` | volunteer-build-reviewed |
-| M019644 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousFunctionStabilizerIntegral` | volunteer-build-reviewed |
-| M019645 | P2122 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousFunctionStabilizerIntegralStatement` | volunteer-build-reviewed |
-| M019652 | P2082 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousHeckeCharacterFinitePart` | volunteer-build-reviewed |
-| M019653 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousHeckeCharacterFinitePartStatement` | volunteer-build-reviewed |
-| M019660 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousIsBigORpowLipschitzProductKernel` | volunteer-build-reviewed |
-| M019661 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousIsBigORpowLipschitzProductKernelStatement` | volunteer-build-reviewed |
-| M019662 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousIteratedFDerivApply` | volunteer-build-reviewed |
-| M019666 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousIteratedRealLineDerivUnitaryAdelicStatement` | volunteer-build-reviewed |
-| M019667 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousKernelIntegralProd` | volunteer-build-reviewed |
-| M019668 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousKernelIntegralProdStatement` | volunteer-build-reviewed |
-| M019673 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousLeftTranslateBoundedDerivFunctional` | build-observed |
-| M019674 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousLeftTranslateBoundedDerivFunctionalStatement` | build-observed |
-| M019676 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousLeviIdeleHomExists` | volunteer-build-reviewed |
-| M019679 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousLeviStatement` | volunteer-build-reviewed |
-| M019680 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousLiftV` | volunteer-build-reviewed |
-| M019681 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousLinearHeightForm` | volunteer-build-reviewed |
-| M019682 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousLinearHeightFormStatement` | volunteer-build-reviewed |

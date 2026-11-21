@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M138176"
+  ],
+  "started_utc": "2026-11-21T12:29:48.859992+00:00",
+  "ended_utc": "2026-11-21T12:29:58.549242+00:00",
+  "elapsed_seconds": 9.7,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6831364
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.FlagImmersions.LinearRootPowerLipschitz:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "703e3178bda94c4ea9c6971abc5331a8929d13f8a6e5ff2a08df987ba8670e05",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.CompactGapsGE",
+    "Development.WeilBound.CoreStatements.FlagImmersions.MapProdLinear"
+  ],
+  "objects": {
+    "M138176": "2bea655031304407803b0952da1204c3e75144613dd5181c758c4fe04c8fa3df"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "0da3c9b4d561ae009933d1aa9ff83bb58ecb37c9a5ca9000febcd90221d7610e",
+  "packet": "M138176",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21519#issuecomment-7062662510",
+  "reviewed_utc": "2026-11-21T17:46:22.889255+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

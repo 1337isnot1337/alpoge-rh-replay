@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M123365"
+  ],
+  "started_utc": "2026-11-21T13:12:36.176624+00:00",
+  "ended_utc": "2026-11-21T13:12:55.676628+00:00",
+  "elapsed_seconds": 19.5,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6914400
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FinsumCosetSmulLinear:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "bb036c24e05c431d13f94e397be9ef4bb977ce217f5625a312569d7abcf119ac",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.SmoothPartStable",
+    "Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsUnitarisableOfCharIff"
+  ],
+  "objects": {
+    "M123365": "efb03e2cc54241c720c6457856d5cb831b343328c5936dda7f6fa059d64e7688"
+  },
+  "bundle_sha256": "ed2e53137a7469b84f8dbaa0a09e27b486512c81c9ef5c0938a668af507b5eb6",
+  "packet": "M123365",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21421#issuecomment-7063108826",
+  "reviewed_utc": "2026-11-21T17:47:13.923548+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

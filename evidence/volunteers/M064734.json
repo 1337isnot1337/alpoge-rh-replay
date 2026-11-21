@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M064734"
+  ],
+  "started_utc": "2026-11-21T12:29:01.906697+00:00",
+  "ended_utc": "2026-11-21T12:34:36.522206+00:00",
+  "elapsed_seconds": 334.6,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsBruhatFunctionOfClosedEmbeddingStatement:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 4834156
+  },
+  "source_sha256": "358f96bab9406324b8d93ee08b1ac1eecc894c3b5ea2ab86a28be4acfc0bcbad",
+  "log_sha256": "aaa7999ec1c4df4c636cbeb9736f463f9f8a8b0f13aee632aa306749af0c2ad4",
+  "objects": {
+    "M064734": "d3bcdb4979ef9322fc2055843f65804a4484451382042f7e2ec44b9572db6b24"
+  },
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.InvariantRadonFibre",
+    "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsBruhatFunctionClosedSubgroup",
+    "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsBruhatFunctionOfClosedEmbedding"
+  ],
+  "bundle_sha256": "339ac690614ad6ec4f0d60021e524dada1e9e00979bd8bb20dcf787f1d8f0365",
+  "packet": "M064734",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21296#issuecomment-7062688593",
+  "reviewed_utc": "2026-11-21T17:48:09.495962+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M111015"
+  ],
+  "started_utc": "2026-11-21T12:32:49.702843+00:00",
+  "ended_utc": "2026-11-21T12:32:57.392273+00:00",
+  "elapsed_seconds": 10.0,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6853544
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.Foundations.Convolution.PolynomialCoefficientBounds.Reduce:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c78fd74c69205e96a032e87430cf21f9e7f5aea18eaa3a33b47c170d05a74f71",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.Foundations.Convolution.PolynomialCoefficientBounds.MatrixEntryAbsSumUnitaryLieCoordinatesSplit"
+  ],
+  "objects": {
+    "M111015": "308c64b42b3346e697a5af8a672f5d39d6fba89e42bf32a7d1a3872a0afd3a27"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "4a8ac12101541408192f5954bc24299031d5223a752ed4b3812c1c29b147cb50",
+  "packet": "M111015",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21462#issuecomment-7062701882",
+  "reviewed_utc": "2026-11-21T17:46:51.519127+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

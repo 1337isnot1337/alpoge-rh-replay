@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M101660"
+  ],
+  "started_utc": "2026-11-21T12:35:03.882493+00:00",
+  "ended_utc": "2026-11-21T12:55:51.369293+00:00",
+  "elapsed_seconds": 1247.4,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5743268
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.UnitsExist:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1f4a20dd3974012feab76c256aeac7ce8da4e8d79f485aeb9bbca3e17c64a30c",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.EqLagIff",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.InvAlg",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.SqrtOneAdd"
+  ],
+  "objects": {
+    "M101660": "a83a5373e79e5f3749e1eb9daf1f7fb3ae70541ee16ed4026e82211e174361c9"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "eaf737c2deff7ddc5fc5633d52c26c44760cf90388f648e01aeb05a79244ccb8",
+  "packet": "M101660",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21445#issuecomment-7063085087",
+  "reviewed_utc": "2026-11-21T17:46:58.671932+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

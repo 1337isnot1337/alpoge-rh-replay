@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004433 | P0946 | `Development.AbelianVarietyTheory.Definitions.Jets.CubWeilOneIffPairOne` | build-observed |
+| M004434 | P1218 | `Development.AbelianVarietyTheory.Definitions.Jets.DepthNumbersThresholdEq` | build-observed |
+| M004435 | P1193 | `Development.AbelianVarietyTheory.Definitions.Jets.EmbShortThLeThetaPlain` | build-observed |
+| M004437 | P1298 | `Development.AbelianVarietyTheory.Definitions.Jets.ExistsSecTieFOfTies` | build-observed |
+| M004438 | P0096 | `Development.AbelianVarietyTheory.Definitions.Jets.FactorNonneg` | volunteer-build-reviewed |
+| M004439 | P0003 | `Development.AbelianVarietyTheory.Definitions.Jets.Imports` | volunteer-build-reviewed |
+| M004440 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.ImportsAlt` | volunteer-build-reviewed |
+| M004442 | P1245 | `Development.AbelianVarietyTheory.Definitions.Jets.IsSelfOf` | build-observed |
 | M004443 | P0865 | `Development.AbelianVarietyTheory.Definitions.Jets.JetsOnCopiesCompatibleFrames` | build-observed |
 | M004445 | P0003 | `Development.AbelianVarietyTheory.Definitions.Jets.PowerSeriesHasSumAt` | volunteer-build-reviewed |
 | M004446 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.SameFns` | build-observed |
@@ -394,11 +402,3 @@
 | M005105 | P0295 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExistsFFNeZeroThree` | volunteer-build-reviewed |
 | M005106 | P0174 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExistsGlOfEquiv` | build-observed |
 | M005107 | P1444 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExistsHasCls` | volunteer-build-reviewed |
-| M005110 | P1920 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExistsMatchOver` | build-observed |
-| M005113 | P2065 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExtendByZeroTrivialDecomposition` | volunteer-build-reviewed |
-| M005116 | P0239 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.HasConductorMulShift` | volunteer-build-reviewed |
-| M005119 | P0731 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsAdmOnOfFiniteDimensional` | volunteer-build-reviewed |
-| M005120 | P1531 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsAuxiliaryVectorWittDec` | volunteer-build-reviewed |
-| M005122 | P1444 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsHermitianAuxiliaryVectorSystemBesselVectors` | volunteer-build-reviewed |
-| M005124 | P1761 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsPointedOfIsHkIsog` | build-observed |
-| M005126 | P1245 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsStepWeil` | build-observed |

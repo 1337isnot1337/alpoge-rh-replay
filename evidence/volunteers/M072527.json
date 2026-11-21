@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M072527"
+  ],
+  "started_utc": "2026-11-21T13:19:17.738844+00:00",
+  "ended_utc": "2026-11-21T13:19:32.754996+00:00",
+  "elapsed_seconds": 15.0,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6868884
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MatrixGaussSumMulDualEqCardPowSqStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fe06fd42fa3d1570f12fda2b4670e6c90403dc5e24cd3d999c0d8a517fef5106",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MatrixGaussSumMulDualEqCardPowSq",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.MatrixGaussSumSingularAndInvertible"
+  ],
+  "objects": {
+    "M072527": "31e5ccf61675bf187dad56d586c2c455b02ed5c4d59e43f9b911e83f462e36c6"
+  },
+  "bundle_sha256": "2e0b6d4630237f2645e5eadf630467f9b1ce98698414c933cd8b587f6f002434",
+  "packet": "M072527",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21571#issuecomment-7063191475",
+  "reviewed_utc": "2026-11-21T17:46:01.040577+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

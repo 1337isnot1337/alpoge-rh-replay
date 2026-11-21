@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M101719"
+  ],
+  "started_utc": "2026-11-21T12:36:33.046254+00:00",
+  "ended_utc": "2026-11-21T12:38:22.279266+00:00",
+  "elapsed_seconds": 109.2,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7460752
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AutomorphicForms.BlochKatoSelmerVanishes:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5c51f687136068252dd39ba8e74a3caf0f9704f394f7d6a1c65dd3c4e7992cb5",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.PadicHodgeTheory.FiniteCohomology"
+  ],
+  "objects": {
+    "M101719": "6585914edcf22fbe00e40daff1d8c6e8e62c6cea72fac9554fe1a8031aa36ae9"
+  },
+  "bundle_sha256": "75583f88f72d28d0ae23f12b83d23af5fc739abbe8c60a9b9a58cb92d4de841a",
+  "packet": "M101719",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21362#issuecomment-7062727109",
+  "reviewed_utc": "2026-11-21T17:47:45.018625+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

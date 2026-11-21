@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M054720"
+  ],
+  "started_utc": "2026-11-21T13:11:26.066386+00:00",
+  "ended_utc": "2026-11-21T13:11:41.226309+00:00",
+  "elapsed_seconds": 15.2,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6860700
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnfoldingIntegralCountableStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "704d625e7204909cf2544b0925cec72aa750319475e7a9d0ed9b9d5d7cafffce",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FundamentalDomainIndicatorTsumOneStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnfoldingIntegralCountable"
+  ],
+  "objects": {
+    "M054720": "d28c8591a203e3956473349d142e366ec618467d3522de06495d32c2978d8f95"
+  },
+  "bundle_sha256": "2811b33fa728d6ebfbf08a4aeb05cacce87d4fe1697c85acb5b537368f06602f",
+  "packet": "M054720",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21416#issuecomment-7063093866",
+  "reviewed_utc": "2026-11-21T17:47:20.276793+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

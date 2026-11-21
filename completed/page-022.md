@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M014676 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneEvaluationIntertwines` | volunteer-build-reviewed |
+| M014677 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneEvaluationIntertwinesStatement` | volunteer-build-reviewed |
+| M014682 | P2094 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneFormMemInverseDifferent` | volunteer-build-reviewed |
+| M014683 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneFormMemInverseDifferentStatement` | volunteer-build-reviewed |
+| M014687 | P1420 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneHermitianIdealCoprimeStatement` | volunteer-build-reviewed |
+| M014691 | P1445 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneLeftInverseExists` | volunteer-build-reviewed |
+| M014692 | P1474 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneLeftInverseExistsStatement` | volunteer-build-reviewed |
+| M014698 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneModelRestrictionCompatible` | volunteer-build-reviewed |
+| M014699 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneOrthogonalIdempotents` | volunteer-build-reviewed |
+| M014705 | P2177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlanePairRestriction` | volunteer-build-reviewed |
+| M014707 | P2094 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlanePairRestrictionFirst` | volunteer-build-reviewed |
+| M014708 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlanePairRestrictionFirstStatement` | volunteer-build-reviewed |
+| M014726 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneRestrictionPairReal` | volunteer-build-reviewed |
+| M014728 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneRestrictionPairThird` | volunteer-build-reviewed |
+| M014729 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneRestrictionPairThirdStatement` | volunteer-build-reviewed |
+| M014735 | P2052 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneSkewIdealCoprime` | volunteer-build-reviewed |
+| M014736 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneSkewIdealCoprimeLt` | volunteer-build-reviewed |
 | M014737 | P2052 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneSkewIdealCoprimeLtStatement` | volunteer-build-reviewed |
 | M014738 | P2067 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneSkewIdealCoprimeStatement` | volunteer-build-reviewed |
 | M014740 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneThetaEmbeddingExistsStatement` | volunteer-build-reviewed |
@@ -342,6 +359,7 @@
 | M015480 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnisotropicDoubleCosetFinite` | volunteer-build-reviewed |
 | M015481 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnisotropicFundamentalDomainHaarSecond` | volunteer-build-reviewed |
 | M015493 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnisotropicThetaLiftRestriction` | volunteer-build-reviewed |
+| M015498 | P1837 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnnSeqShortExact` | volunteer-build-reviewed |
 | M015499 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnnihilatorAvoidsFibreMinimalPrimes` | volunteer-build-reviewed |
 | M015500 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnnihilatorAvoidsFibreMinimalPrimesStatement` | volunteer-build-reviewed |
 | M015501 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AnnihilatorLiftOfMulEqP` | volunteer-build-reviewed |
@@ -384,21 +402,3 @@
 | M015603 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchFactorMulPSeriesEqIntegral` | volunteer-build-reviewed |
 | M015604 | P0892 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchFactorMulPSeriesEqIntegralStatement` | build-observed |
 | M015614 | P2475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchIntegrableRegularVariety` | volunteer-build-reviewed |
-| M015627 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanBoundBottomPairsNormsGrid` | volunteer-build-reviewed |
-| M015628 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanBoundBottomPairsNormsGridStatement` | volunteer-build-reviewed |
-| M015636 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanCoordsMovedStaySupportedAndRecoveredStatement` | volunteer-build-reviewed |
-| M015637 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanDecayOperatorApplyMemAdelicSchwartz` | volunteer-build-reviewed |
-| M015639 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanEigenvectorIdeleMem` | volunteer-build-reviewed |
-| M015640 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanEigenvectorIdeleMemStatement` | volunteer-build-reviewed |
-| M015647 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanFourierInversionConstant` | volunteer-build-reviewed |
-| M015648 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanFourierInversionConstantStatement` | volunteer-build-reviewed |
-| M015655 | P2067 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanIntertwinerUnique` | volunteer-build-reviewed |
-| M015656 | P2081 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanIntertwinerUniqueStatement` | volunteer-build-reviewed |
-| M015658 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanIwasawaMajorantFrameStatement` | volunteer-build-reviewed |
-| M015659 | P1301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanKernelSpanCuspFormRightInvariantOpen` | build-observed |
-| M015660 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanKernelSpanCuspFormRightInvariantOpenStatement` | build-observed |
-| M015661 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanLaplacianPolData` | volunteer-build-reviewed |
-| M015662 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanLaplacianPolDataStatement` | volunteer-build-reviewed |
-| M015664 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanLevelSubgroupClosedMulStatement` | volunteer-build-reviewed |
-| M015667 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanMatrixSmoothingModerateGrowth` | build-observed |
-| M015668 | P1351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanMatrixSmoothingModerateGrowthStatement` | build-observed |

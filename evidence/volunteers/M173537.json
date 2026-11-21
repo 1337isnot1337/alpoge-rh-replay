@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M173537"
+  ],
+  "started_utc": "2026-11-21T12:40:55.480677+00:00",
+  "ended_utc": "2026-11-21T12:41:55.072533+00:00",
+  "elapsed_seconds": 59.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5240304
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.Rationality.GlobQuotPf:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f54a3e925d735e28e6c8a136e79aab33f3e593358ce07e5bfec62078151877d4",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.Rationality.GlobQuotH",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.Rationality.GlobSt",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.Rationality.QuotSt"
+  ],
+  "objects": {
+    "M173537": "e930c897ecc43d85c012ef7ae7251daaaefacdbe835f67aa82fd9ccb86cd07b2"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "cdc8511e7b14dbf99125c8bc44723b7d6fd4fa8f607450c783bc52516d591e84",
+  "packet": "M173537",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21446#issuecomment-7062894122",
+  "reviewed_utc": "2026-11-21T17:46:42.424011+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

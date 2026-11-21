@@ -318,6 +318,7 @@
 | M000597 | P0094 | `CompanionTheory.HarishChandraModules.NonemptyRepresentations.HWRepD` | volunteer-build-reviewed |
 | M000599 | P0001 | `CompanionTheory.HarishChandraModules.NonemptyRepresentations.NonemptyOfAntitone` | volunteer-build-reviewed |
 | M000601 | P0945 | `CompanionTheory.HarishChandraModules.NonemptyRepresentations.TypeHW` | volunteer-build-reviewed |
+| M000619 | P1559 | `CompanionTheory.RealGroups.BaseChange.ArchimedeanBaseChange.TensorCompletions.SkewFieldFrames.TensorCompl` | volunteer-build-reviewed |
 | M000621 | P1643 | `CompanionTheory.RealGroups.DiscreteSeries.DiscreteSeriesClassification.Development` | build-observed |
 | M000626 | P0549 | `CompanionTheory.RealGroups.DiscreteSeries.DiscreteSeriesClassification.DiscreteSeriesExhaustion.HeckeAlgebraActions.BackStable` | volunteer-build-reviewed |
 | M000630 | P0757 | `CompanionTheory.RealGroups.DiscreteSeries.DiscreteSeriesClassification.DiscreteSeriesExhaustion.HeckeAlgebraActions.HeckeUnitTensors.CommuteLeftRightCasimir` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M000779 | P1323 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicHaarMeasureScalingStatement` | build-observed |
 | M000780 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicHaarScalingByRealIdele` | volunteer-build-reviewed |
 | M000781 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicHaarScalingByRealIdeleStatement` | volunteer-build-reviewed |
-| M000782 | P1349 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicLatticeMeasureFormula` | build-observed |

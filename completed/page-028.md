@@ -2,6 +2,28 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M020434 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxSchrodingerCompatibility` | volunteer-build-reviewed |
+| M020435 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxSchrodingerCompatibilityStatement` | volunteer-build-reviewed |
+| M020436 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxSchroedingerArchimedeanActs` | volunteer-build-reviewed |
+| M020437 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxSchroedingerArchimedeanActsStatement` | volunteer-build-reviewed |
+| M020438 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxSymplecticDoubledHermitian` | volunteer-build-reviewed |
+| M020439 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxSymplecticDoubledHermitianStatement` | volunteer-build-reviewed |
+| M020442 | P2256 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxSymplecticWeilAction` | volunteer-build-reviewed |
+| M020446 | P2082 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DataBoundOfHalfFlip` | volunteer-build-reviewed |
+| M020447 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DataBoundOfHalfFlipStatement` | volunteer-build-reviewed |
+| M020449 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DatumCountBoundLargeData` | volunteer-build-reviewed |
+| M020450 | P2053 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DatumCountBoundLargeDataStatement` | volunteer-build-reviewed |
+| M020451 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DatumMorphismMatrixCompat` | volunteer-build-reviewed |
+| M020452 | P2134 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DatumPhiASplitPlaceTransportEq` | volunteer-build-reviewed |
+| M020453 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DatumPhiASplitPlaceTransportEqStatement` | volunteer-build-reviewed |
+| M020454 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DatumTieHodgeTateKernel` | volunteer-build-reviewed |
+| M020455 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DatumTieHodgeTateKernelStatement` | volunteer-build-reviewed |
+| M020456 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DatumTieLatticeCompatibility` | volunteer-build-reviewed |
+| M020458 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DatumTieNumberFieldPoint` | volunteer-build-reviewed |
+| M020459 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DatumTieNumberFieldPointStatement` | volunteer-build-reviewed |
+| M020460 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DatumTransformUnderSymplectic` | volunteer-build-reviewed |
+| M020461 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DatumTransformUnderSymplecticStatement` | volunteer-build-reviewed |
+| M020463 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DatumTwistByCharacter` | volunteer-build-reviewed |
 | M020464 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DatumTwistByCharacterStatement` | volunteer-build-reviewed |
 | M020465 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DbarAddVectorScalar` | volunteer-build-reviewed |
 | M020466 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DbarAdjointFibreOperator` | build-observed |
@@ -283,6 +305,7 @@
 | M021161 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetWirtingerAntiholomorphicDerivEqSumStatement` | volunteer-build-reviewed |
 | M021164 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantElementProduct` | wave-reused |
 | M021165 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantElementProductStatement` | wave-reused |
+| M021166 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantExpansionBound` | volunteer-build-reviewed |
 | M021168 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantFrameComparison` | wave-reused |
 | M021169 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantFrameComparisonStatement` | wave-reused |
 | M021170 | P0733 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantFrameComparisonUnit` | wave-reused |
@@ -369,6 +392,7 @@
 | M021326 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentCoprimeAtGoodPlacesStatement` | volunteer-build-reviewed |
 | M021331 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentIdealSmulMemSpanRational` | volunteer-build-reviewed |
 | M021332 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentValuationBound` | volunteer-build-reviewed |
+| M021334 | P1765 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtFoldrLineDer` | volunteer-build-reviewed |
 | M021335 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtPullbackForm` | volunteer-build-reviewed |
 | M021336 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtPullbackFormStatement` | volunteer-build-reviewed |
 | M021337 | P1922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtReprPullbackHolomorphicFderiv` | build-observed |
@@ -378,27 +402,3 @@
 | M021344 | P1351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableFockVacuumGaussianDefinitePair` | volunteer-build-reviewed |
 | M021347 | P1589 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOfIsSm` | volunteer-build-reviewed |
 | M021349 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOnFderiv` | volunteer-build-reviewed |
-| M021350 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOnFourierCoeffFamily` | build-observed |
-| M021351 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOnFourierCoeffFamilyStatement` | build-observed |
-| M021352 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOnFramesOfKilledNilpotentDerivativ` | volunteer-build-reviewed |
-| M021356 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOnHolomorphicChartTransEtaleChart` | volunteer-build-reviewed |
-| M021358 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOnSummableFourierSeries` | build-observed |
-| M021359 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOnSummableFourierSeriesStatement` | build-observed |
-| M021363 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableRisingS` | volunteer-build-reviewed |
-| M021364 | P1248 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableZterm` | build-observed |
-| M021365 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentialOperatorDepthIntegralCoordinates` | build-observed |
-| M021366 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentialOperatorDepthIntegralCoordinatesStatement` | build-observed |
-| M021371 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentialRelationLocalRingBound` | build-observed |
-| M021374 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentialsSpanOfUniformizerBasis` | build-observed |
-| M021376 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiffsZeroOfLev` | volunteer-build-reviewed |
-| M021377 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DigitsSumLeLogb` | volunteer-build-reviewed |
-| M021378 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DigitsSumLeLogbStatement` | volunteer-build-reviewed |
-| M021379 | P2224 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DilatedFlatDatumIsSBHalfTameKernel` | volunteer-build-reviewed |
-| M021381 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DilationDifferenceMemSpan` | build-observed |
-| M021382 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DilationDifferenceMemSpanStatement` | build-observed |
-| M021386 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DimClosureLeOfSpecializes` | volunteer-build-reviewed |
-| M021389 | P1691 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DimPartsAtIffBadAndOff` | build-observed |
-| M021390 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DimensionOfDominantFlatCover` | volunteer-build-reviewed |
-| M021394 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DimensionZeroCase` | volunteer-build-reviewed |
-| M021396 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DirectedSystemEtaleBaseChangePolynomial` | volunteer-build-reviewed |
-| M021397 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DirectedSystemEtaleBaseChangePolynomialStatement` | volunteer-build-reviewed |

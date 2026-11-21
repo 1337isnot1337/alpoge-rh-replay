@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M017924"
+  ],
+  "started_utc": "2026-11-21T12:49:08.406793+00:00",
+  "ended_utc": "2026-11-21T12:49:37.831681+00:00",
+  "elapsed_seconds": 29.4,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5221108
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClosureGenericFibreClopenSplit:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "48645878a0f36c276272d878de4c04af3b6cd70e7276b7fda337eee3024a6741",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdempotentTmulOneEqOfSmoothAlgebra",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdempotentTmulOneEqOfSmoothAlgebraStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsIntegralOfIsIdempotentElem",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RangeComapIncludeRightField",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RangeComapIncludeRightFieldStatement"
+  ],
+  "objects": {
+    "M017924": "ecf6529e67cd9cb9207c61dd1681de2697fcbf4ee7744218236c038394401479"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "30b5ae5cdd4fbddd11029058611fc687ee1645c9e0998c7c918607d00aababb6",
+  "packet": "M017924",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21548#issuecomment-7062888136",
+  "reviewed_utc": "2026-11-21T17:45:58.965145+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001342 | P0238 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WittExtensionGlobal` | volunteer-build-reviewed |
 | M001343 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WittExtensionGlobalStatement` | volunteer-build-reviewed |
 | M001374 | P2554 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ContactSetSpansOfPosDefStatement` | volunteer-build-reviewed |
 | M001376 | P2594 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.EqOfOrbitMarkInCellConeStatement` | volunteer-build-reviewed |
@@ -347,6 +348,7 @@
 | M002103 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.BracketAbsoluteSums` | volunteer-build-reviewed |
 | M002105 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.CompletedLStripBounds` | volunteer-build-reviewed |
 | M002107 | P1056 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ComponentMean` | build-observed |
+| M002111 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.CovariantDbarLeibniz` | volunteer-build-reviewed |
 | M002113 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.CuspValueComparison` | build-observed |
 | M002114 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.CuspidalInducedCharacter` | build-observed |
 | M002115 | P0810 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.CuspidalProductMultiplicity` | build-observed |
@@ -400,5 +402,3 @@
 | M002187 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SpecialFibreUnits` | volunteer-build-reviewed |
 | M002190 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TameCharacterTorusValues` | build-observed |
 | M002191 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TameInvariantLevelAction` | build-observed |
-| M002192 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TaylorCoefficientForms` | volunteer-build-reviewed |
-| M002194 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorNormBound` | volunteer-build-reviewed |

@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M031484"
+  ],
+  "started_utc": "2026-11-21T13:10:24.705394+00:00",
+  "ended_utc": "2026-11-21T13:11:05.432758+00:00",
+  "elapsed_seconds": 40.7,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 6236056
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteSubgroupKilledNearPointOfFibre:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d9fcc44a303818551d6225d2d67852c6c2cadbab12947da74b8ed4c7ba45c0b8",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConvPowSubNsmulMemAugIdealSq",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNotMemSmulEqZeroOfSubmodule",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FundamentalSequenceContinuityAll"
+  ],
+  "objects": {
+    "M031484": "7d18de1c146c7ebee1697989fb1d5f55c62345c7dd448272d70eaca538ed98d9"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "10187e2761d557bef12ef8685d050011b59b008fa0b82540a7ccef83ffd4a983",
+  "packet": "M031484",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21603#issuecomment-7063091818",
+  "reviewed_utc": "2026-11-21T17:45:45.395387+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

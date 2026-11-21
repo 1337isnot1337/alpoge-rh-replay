@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M153026"
+  ],
+  "started_utc": "2026-11-21T12:30:29.516007+00:00",
+  "ended_utc": "2026-11-21T12:30:40.017818+00:00",
+  "elapsed_seconds": 12.8,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6854240
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.TorsionIntegrality.UniformGaussModels.OrthogonalGaussModels.HermitianBlockFrames.HfSelfProj:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2c12a2940f228996bf9e22a245e068ee990dfc3d3e7750f711d413544488d2f8",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.TorsionIntegrality.UniformGaussModels.OrthogonalGaussModels.HermitianBlockFrames.ExistsUnitVec",
+    "Formalism.LocalToGlobal.TorsionIntegrality.UniformGaussModels.OrthogonalGaussModels.HermitianBlockFrames.LocAbs"
+  ],
+  "objects": {
+    "M153026": "7c75022bb5fe0b5f984cfe90c440fb58417c4b47e43b88d31b86b9851ad92ac3"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "80c7ab654de1cb51c7b5d38433a20e8f95c5288f46d63fae827afce239849123",
+  "packet": "M153026",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21521#issuecomment-7062663932",
+  "reviewed_utc": "2026-11-21T17:46:23.608475+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M108039"
+  ],
+  "started_utc": "2026-11-21T12:36:19.918394+00:00",
+  "ended_utc": "2026-11-21T12:36:30.175937+00:00",
+  "elapsed_seconds": 10.3,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6836996
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.SelmerScaling.Ired:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6623fe60003dd7ea9985456164e3f119b6e17b8023839e3f9239fb9445d346d8",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.CoFinite"
+  ],
+  "objects": {
+    "M108039": "9f43021ae949026d5391bc3979feadbc5bc0418ee035985b5fa81a5e51bda8b2"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "14a94cdd1e7b42c0d07e7c6e2f79035a7b3bb9ab56740217d759b8010eee908f",
+  "packet": "M108039",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21457#issuecomment-7062712303",
+  "reviewed_utc": "2026-11-21T17:46:55.592229+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

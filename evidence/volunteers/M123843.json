@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M123843"
+  ],
+  "started_utc": "2026-11-21T12:21:25.220730+00:00",
+  "ended_utc": "2026-11-21T12:21:41.173153+00:00",
+  "elapsed_seconds": 15.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5176568
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.HaarMeasureSemidirectProductFormulaStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "40e1cc9535e5b462af0f3f4a4de2f866c7131ba88c894a84ee4537050997c385",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.HaarMeasureSemidirectProductFormula",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ModularCharacterFunEqOfMapLeftMul"
+  ],
+  "objects": {
+    "M123843": "abd58c403955734b64c269751139356bcba71f01a1bed00039cce87e297c9619"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "b7689a155aa3dff93c68ef74bd6ff3cde3217beb6f97b247a6acde3ab29fd8f9",
+  "packet": "M123843",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21295#issuecomment-7062514884",
+  "reviewed_utc": "2026-11-21T17:48:09.536607+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

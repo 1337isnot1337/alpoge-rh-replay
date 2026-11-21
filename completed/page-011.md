@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006609 | P0099 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsDiagonalCoordinates` | volunteer-build-reviewed |
+| M006612 | P1272 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsEllipticCurvePolarisedLatticeFamily` | build-observed |
+| M006613 | P1299 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsEllipticCurvePolarisedLatticeFamilyStatement` | build-observed |
+| M006614 | P1299 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsEqNsmul` | volunteer-build-reviewed |
+| M006615 | P1834 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsEqProdBlockDetPolyPowMul` | volunteer-build-reviewed |
+| M006616 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsEqPtHomOfIsLocalRing` | wave-reused |
+| M006617 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsEqSmulOfFinrankOne` | volunteer-build-reviewed |
+| M006619 | P0516 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsFieldCmCurvesUnitDiscriminant` | build-observed |
+| M006622 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsFractionalIdealTraceFormRankOne` | volunteer-build-reviewed |
+| M006624 | P1856 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsFramedPointOfLieEigenbasis` | volunteer-build-reviewed |
+| M006629 | P1956 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsGoodCmPointAtCmBasisFrameStatement` | volunteer-build-reviewed |
+| M006632 | P1114 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsGoodModelOfIsogeny` | build-observed |
+| M006636 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsGrpObjOverOfPoints` | volunteer-build-reviewed |
 | M006637 | P1194 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsGrpObjPolarised` | build-observed |
 | M006641 | P0649 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsHomOfLinearScalingHermForm` | build-observed |
 | M006644 | P1246 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsInverseIsogenyPolAV` | build-observed |
@@ -159,6 +172,7 @@
 | M007012 | P1084 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.AnalyticFrameSecondPartialLawTrivialStatement` | build-observed |
 | M007024 | P1170 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.CardCompLePeriodSpaces` | build-observed |
 | M007026 | P0177 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.CardExponentsAndChooseRatioBoundsPair` | volunteer-build-reviewed |
+| M007028 | P1220 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.CardLatticeQuotientHalfLevel` | volunteer-build-reviewed |
 | M007030 | P0649 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.CardLevGrpAndSpan` | volunteer-build-reviewed |
 | M007031 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.CardNonisometricCmTorusDataLe` | volunteer-build-reviewed |
 | M007032 | P1002 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.CardNonisometricCmTorusDataLeStatement` | volunteer-build-reviewed |
@@ -388,17 +402,3 @@
 | M007519 | P1002 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaConstantPowEqOneOfPowerTrivialStatement` | volunteer-build-reviewed |
 | M007526 | P1856 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaGeneratorPointwiseBoundOrthonormalFrame` | volunteer-build-reviewed |
 | M007530 | P1194 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaGroupShiftHalfTorsionRoot` | build-observed |
-| M007531 | P1220 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaGroupShiftHalfTorsionRootStatement` | build-observed |
-| M007533 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaIdealLatticeEqSumLevelTranslatesStatement` | volunteer-build-reviewed |
-| M007534 | P2065 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaIndexBoundHypothesesAtInstance` | volunteer-build-reviewed |
-| M007536 | P1587 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaLatticeWeightScalarNeZeroAndLogBounds` | volunteer-build-reviewed |
-| M007539 | P1956 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaNetDimensionAndPointCountBound` | volunteer-build-reviewed |
-| M007540 | P1974 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaNetDimensionAndPointCountBoundStatement` | volunteer-build-reviewed |
-| M007547 | P1856 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaRuleValueTestRingEqThetaValueStatement` | volunteer-build-reviewed |
-| M007551 | P1560 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaRunParametersAtTypePrimesProductStatement` | volunteer-build-reviewed |
-| M007552 | P1835 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaValueAnalyticFrameEqPolyDerivFock` | volunteer-build-reviewed |
-| M007553 | P1856 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaValueAnalyticFrameEqPolyDerivFockStatement` | volunteer-build-reviewed |
-| M007559 | P1170 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.TorsionIsotropicCommutatorPairing` | build-observed |
-| M007560 | P1194 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.TorsionIsotropicCommutatorPairingStatement` | build-observed |
-| M007562 | P0296 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.TraceHermNondegenerate` | wave-reused |
-| M007563 | P0839 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.TripleProductTorusPeriodicBounded` | build-observed |

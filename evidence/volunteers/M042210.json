@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M042210"
+  ],
+  "started_utc": "2026-11-21T12:17:44.720802+00:00",
+  "ended_utc": "2026-11-21T12:18:17.523283+00:00",
+  "elapsed_seconds": 32.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5272796
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyTrivialUnitCocycleFaithfullyFlatStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ed793de736102fce1a96dffb3d69c6694b2ba879b1089c25cbcf778327fa135e",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.MemHomogIffIsHomogeneous",
+    "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SpanSingletonEqTopIffIsUnitOfIsBaseChange",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyTrivialUnitCocycleFaithfullyFlat",
+    "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsUniqueBaseChangeEqOfMem"
+  ],
+  "objects": {
+    "M042210": "bd7d6252d32ca087022b55c68cd085c554ef0d1dcb36ef5ae156b5370895fec1"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "eab050ed02608dac92ae5c9b6c63d3f3164e59103a4cb5315dc99df6cf084a49",
+  "packet": "M042210",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21246#issuecomment-7062476410",
+  "reviewed_utc": "2026-11-21T17:48:18.036436+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

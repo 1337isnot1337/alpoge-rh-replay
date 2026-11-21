@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M171721"
+  ],
+  "started_utc": "2026-11-21T13:16:15.972662+00:00",
+  "ended_utc": "2026-11-21T13:16:30.299307+00:00",
+  "elapsed_seconds": 14.3,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6887748
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.DualLattices.ConstantCoeffRowSubst:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d97ae0ca46d179e12a227ad4b88f1825811520ed9dd88e65f89dcaa197a8fd3b",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.DualLattices.FischerAdjointStatement",
+    "ReciprocityTheory.DualLattices.FischerSmulRight"
+  ],
+  "objects": {
+    "M171721": "2f8d54b352ec6d7f5c164508703b31a0cb46a424f8e67544aed76b7e24cf8e68"
+  },
+  "bundle_sha256": "0e2ba73131852a3519d1dfee06ce90d8ae31bd6b982bfb3cf6844df3662c528e",
+  "packet": "M171721",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21562#issuecomment-7063154105",
+  "reviewed_utc": "2026-11-21T17:46:06.442579+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

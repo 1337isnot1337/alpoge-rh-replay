@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M003696 | P1834 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLocalRingTrivSqZeroExt` | build-observed |
+| M003697 | P2133 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLocallyConstantLinOm` | volunteer-build-reviewed |
+| M003698 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLocallyConstantSplitOm` | volunteer-build-reviewed |
+| M003705 | P0393 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsNilDPOfCube` | wave-reused |
+| M003706 | P2320 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsNoetherianRingCompletedStalkSiegelFibrePower` | volunteer-build-reviewed |
+| M003707 | P1974 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPairOfIsTriple` | volunteer-build-reviewed |
 | M003709 | P0946 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPeriodHom` | build-observed |
 | M003710 | P1271 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPolAVSectionInverseImage` | build-observed |
 | M003711 | P1298 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPow8F` | build-observed |
@@ -29,6 +35,7 @@
 | M003753 | P2133 | `Development.AbelianVarietyTheory.Definitions.Divisors.KerToCoinvIffInvFactor` | volunteer-build-reviewed |
 | M003757 | P1856 | `Development.AbelianVarietyTheory.Definitions.Divisors.KottwitzDimSignatureOneOne` | volunteer-build-reviewed |
 | M003761 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.LandherrCSA` | volunteer-build-reviewed |
+| M003762 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.LeTwoMulOfForallScale` | volunteer-build-reviewed |
 | M003768 | P1298 | `Development.AbelianVarietyTheory.Definitions.Divisors.LineBundleGlobalSectionsDimCongrPicardClass` | wave-reused |
 | M003769 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.LineOppositeParabolicUnitaryLeviSectionEq` | build-observed |
 | M003770 | P2446 | `Development.AbelianVarietyTheory.Definitions.Divisors.LineSCShortExact` | build-observed |
@@ -117,6 +124,7 @@
 | M003930 | P0393 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToBaseChangePtsBijective` | wave-reused |
 | M003931 | P1502 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToBidualDualMapEigenImageInclusion` | build-observed |
 | M003932 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToBidualNaturalityDualSheafTranspose` | wave-reused |
+| M003933 | P1531 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToIThCapDegOfAddNsmulDivP` | volunteer-build-reviewed |
 | M003934 | P2266 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToKnownTheoremsOf` | build-observed |
 | M003937 | P0475 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToRepFam` | volunteer-build-reviewed |
 | M003938 | P0435 | `Development.AbelianVarietyTheory.Definitions.Divisors.ToRingActOpOfRingAct` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M004430 | P0096 | `Development.AbelianVarietyTheory.Definitions.Jets.CmLatticeCommutatorPairingPowEqOneOfGoodLift` | volunteer-build-reviewed |
 | M004431 | P1245 | `Development.AbelianVarietyTheory.Definitions.Jets.CmQuadraticFormEqAlternatingForm` | volunteer-build-reviewed |
 | M004432 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.ColValMonomial` | wave-reused |
-| M004433 | P0946 | `Development.AbelianVarietyTheory.Definitions.Jets.CubWeilOneIffPairOne` | build-observed |
-| M004434 | P1218 | `Development.AbelianVarietyTheory.Definitions.Jets.DepthNumbersThresholdEq` | build-observed |
-| M004435 | P1193 | `Development.AbelianVarietyTheory.Definitions.Jets.EmbShortThLeThetaPlain` | build-observed |
-| M004437 | P1298 | `Development.AbelianVarietyTheory.Definitions.Jets.ExistsSecTieFOfTies` | build-observed |
-| M004438 | P0096 | `Development.AbelianVarietyTheory.Definitions.Jets.FactorNonneg` | volunteer-build-reviewed |
-| M004439 | P0003 | `Development.AbelianVarietyTheory.Definitions.Jets.Imports` | volunteer-build-reviewed |
-| M004440 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.ImportsAlt` | volunteer-build-reviewed |
-| M004442 | P1245 | `Development.AbelianVarietyTheory.Definitions.Jets.IsSelfOf` | build-observed |

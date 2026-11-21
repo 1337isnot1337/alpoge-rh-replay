@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M069241"
+  ],
+  "started_utc": "2026-11-21T12:20:46.152527+00:00",
+  "ended_utc": "2026-11-21T12:21:05.533232+00:00",
+  "elapsed_seconds": 19.4,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5171828
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntegralGLMulDiagOneOfUnitIndicatorLiftNeZ:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b64170530818057c2dadceb9b06a4b1b8c8e70baed66e75ec770a399a866a81b",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FullToGlIsSelfAdjoint",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NormMulApplyLeOne",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NormSubLeMaxUltra"
+  ],
+  "objects": {
+    "M069241": "1a6256a93890214dbf11b59fd26cc5082e30c8e94970db35fc4dab8a3813461d"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "039520f6e1e7eabe0314bd29fb688f17f8f4a46c64144043e3b87bdacf19122e",
+  "packet": "M069241",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21293#issuecomment-7062513758",
+  "reviewed_utc": "2026-11-21T17:48:09.581515+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

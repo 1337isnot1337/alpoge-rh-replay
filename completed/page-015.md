@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M009645 | P1195 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InfIdeleNegOneNotMemClosurePrincipalIdentityCompStatement` | volunteer-build-reviewed |
+| M009646 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InfPartEqZero` | volunteer-build-reviewed |
+| M009647 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InfinitelyManySplitPlaces` | volunteer-build-reviewed |
+| M009648 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InfinitelyManySplitPlacesStatement` | volunteer-build-reviewed |
+| M009649 | P1666 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InnerPoincareSeriesEqSetIntegralUnfolding` | volunteer-build-reviewed |
+| M009650 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InnerPoincareSeriesEqSetIntegralUnfoldingStatement` | volunteer-build-reviewed |
+| M009654 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntIffUpMemStdHom` | volunteer-build-reviewed |
+| M009655 | P1813 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntIndFromCols` | volunteer-build-reviewed |
+| M009656 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntMOfMulRight` | volunteer-build-reviewed |
+| M009658 | P2133 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntOfSmul` | volunteer-build-reviewed |
+| M009659 | P1957 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntSubIsLattice` | volunteer-build-reviewed |
+| M009660 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegrableMajorantCoordinateCosetMeasure` | volunteer-build-reviewed |
+| M009661 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegrableMajorantCoordinateCosetMeasureStatement` | volunteer-build-reviewed |
+| M009664 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegrableOfRapidDecay` | volunteer-build-reviewed |
+| M009665 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegrableSchwartzMajorantPullbackUnitriangular` | volunteer-build-reviewed |
 | M009667 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegrableStandardPairThetaWeilRange` | volunteer-build-reviewed |
 | M009668 | P2065 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegrableStandardPairThetaWeilRangeStatement` | volunteer-build-reviewed |
 | M009669 | P1666 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegrableUnitaryQuotientHeightPowMulRapidlyDecr` | volunteer-build-reviewed |
@@ -387,18 +402,3 @@
 | M010172 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelZeroUniformizerFrameUnipotentAndEmbedGLStatement` | volunteer-build-reviewed |
 | M010173 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LeviFactorCharactersSplitPlace` | volunteer-build-reviewed |
 | M010174 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LeviFactorCharactersSplitPlaceStatement` | volunteer-build-reviewed |
-| M010175 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapHaarFiniteOnCompacts` | volunteer-build-reviewed |
-| M010176 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapHaarFiniteOnCompactsStatement` | volunteer-build-reviewed |
-| M010177 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapHaarIsMulLeftInvariant` | volunteer-build-reviewed |
-| M010178 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapHaarIsMulLeftInvariantStatement` | volunteer-build-reviewed |
-| M010179 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapPreimageIntegralGL` | volunteer-build-reviewed |
-| M010180 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapPreimageIntegralGLStatement` | volunteer-build-reviewed |
-| M010181 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapToFourierJacobiPreimageIntegralGL` | volunteer-build-reviewed |
-| M010182 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapToFourierJacobiPreimageIntegralGLStatement` | volunteer-build-reviewed |
-| M010183 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LiftConvContGrowth` | volunteer-build-reviewed |
-| M010184 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LiftLaws` | volunteer-build-reviewed |
-| M010186 | P1813 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LiftPairPositiveDefiniteWittIndexZeroCartan` | volunteer-build-reviewed |
-| M010187 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LiftPairPositiveDefiniteWittIndexZeroCartanStatement` | volunteer-build-reviewed |
-| M010188 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LiftsCharOfResidueCharAtSplitPlace` | volunteer-build-reviewed |
-| M010189 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LiftsCharOfResidueCharAtSplitPlaceStatement` | volunteer-build-reviewed |
-| M010190 | P1813 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LineContractionSplitPlaceLocalModel` | volunteer-build-reviewed |

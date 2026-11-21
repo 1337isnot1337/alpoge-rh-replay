@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M130382"
+  ],
+  "started_utc": "2026-11-21T12:29:03.234536+00:00",
+  "ended_utc": "2026-11-21T12:29:15.184269+00:00",
+  "elapsed_seconds": 12.1,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6824672
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExtendToFractionFieldStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7b233421fad9112411a25729b26830ca384010ecc97541bdba5025b502ba5c32",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExtendToFractionField",
+    "Development.WeilBound.CoreStatements.HomogeneousNonvanishing.ExtendsToFractionField"
+  ],
+  "objects": {
+    "M130382": "b3d5314bed2ebb57951424bf52d618a88400fd52fa3668e5f464cc465735f04e"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "c40328ab56e4ddaec143c113f4613f504ccc3eb950a28d0967ff1a4f8984c6b7",
+  "packet": "M130382",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21515#issuecomment-7062661118",
+  "reviewed_utc": "2026-11-21T17:46:24.526871+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,48 @@
+{
+  "tasks": [
+    "M171747"
+  ],
+  "started_utc": "2026-11-21T12:23:10.504057+00:00",
+  "ended_utc": "2026-11-21T12:24:12.658766+00:00",
+  "elapsed_seconds": 62.2,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16377408,
+    "peak_child_rss_kib": 6837504
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.DualLattices.EvCotStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5a5d06da0cb74f2388025310c37ecd7473346e3a41719ba1cbb1f96ceac3f270",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.DualLattices.CotangentSurjective",
+    "ReciprocityTheory.DualLattices.FormalChartAtZero",
+    "ReciprocityTheory.DualLattices.HtLinStatement",
+    "ReciprocityTheory.DualLattices.ModuliPointsState",
+    "ReciprocityTheory.DualLattices.NsetExpInjectiveSurjective",
+    "ReciprocityTheory.DualLattices.SeriesState",
+    "ReciprocityTheory.DualLattices.SmallLevelClassSet",
+    "ReciprocityTheory.DualLattices.SqZeroOfSpan",
+    "ReciprocityTheory.DualLattices.StThmA",
+    "ReciprocityTheory.DualLattices.StThmAFull",
+    "ReciprocityTheory.DualLattices.TangentPairingStatement",
+    "ReciprocityTheory.DualLattices.TensorSpan",
+    "ReciprocityTheory.DualLattices.TowerZeroSurjective"
+  ],
+  "objects": {
+    "M171747": "81ffcb051e2a6adcd93c314160c48e1eee3d90d32fb1bcc77252110107a752f7"
+  },
+  "project_root": "/tmp/rhvol/lean",
+  "bundle_sha256": "73f1783c9be8a76b75ea2564a2ebe1bfc6f7111449800a7cc180b7c3f8908cd0",
+  "packet": "M171747",
+  "contributor": "maugomez77",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21291#issuecomment-7062660034",
+  "reviewed_utc": "2026-11-21T17:48:25.747187+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M011447 | P2108 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjStabilizesFramedLatticeIffStatement` | volunteer-build-reviewed |
+| M011448 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjugateStabilizerKeepsMovedFrameLatt` | volunteer-build-reviewed |
+| M011449 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjugateStabilizerKeepsMovedFrameLattStatement` | volunteer-build-reviewed |
+| M011450 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceDataDistinctPlacesCommute` | volunteer-build-reviewed |
+| M011451 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceDataDistinctPlacesCommuteStatement` | volunteer-build-reviewed |
+| M011452 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceDatumBoxTensorLineOverVacuum` | volunteer-build-reviewed |
+| M011453 | P2108 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceDatumBoxTensorLineOverVacuumStatement` | volunteer-build-reviewed |
+| M011454 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceDatumCarriedBackToBaseVacuum` | volunteer-build-reviewed |
+| M011455 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceDatumCarriedBackToBaseVacuumStatement` | volunteer-build-reviewed |
+| M011456 | P1957 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceDetRootCharMul` | volunteer-build-reviewed |
+| M011468 | P2052 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceFrameGLMemCompactRealTrivial` | volunteer-build-reviewed |
+| M011469 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceFrameGLMemCompactRealTrivialStatement` | volunteer-build-reviewed |
+| M011470 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceFrameLatticeOfMovedLattice` | volunteer-build-reviewed |
+| M011472 | P2052 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceFrameMovedBackIsLatticeBasis` | volunteer-build-reviewed |
+| M011473 | P2067 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceFrameMovedBackIsLatticeBasisStatement` | volunteer-build-reviewed |
+| M011474 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceHeisenbergActionLineModulationTranslat` | volunteer-build-reviewed |
+| M011475 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceHeisenbergActionLineModulationTranslatStatement` | volunteer-build-reviewed |
 | M011478 | P1995 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceHermitianFrameProperties` | volunteer-build-reviewed |
 | M011479 | P2015 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceHermitianFramePropertiesStatement` | volunteer-build-reviewed |
 | M011480 | P2108 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceHomLatticeCompletionOpenCompact` | volunteer-build-reviewed |
@@ -385,20 +402,3 @@
 | M012237 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistEulerFactorsRestoreNormalizingFactorStatement` | volunteer-build-reviewed |
 | M012238 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistEulerFactorsRestoreQuotientLValues` | volunteer-build-reviewed |
 | M012239 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistEulerFactorsRestoreQuotientLValuesStatement` | volunteer-build-reviewed |
-| M012240 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistFiniteDatumThetaAtLevelPrime` | volunteer-build-reviewed |
-| M012241 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistFiniteDatumThetaAtLevelPrimeStatement` | volunteer-build-reviewed |
-| M012243 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistIndexDataRepresentativeDependsOnDoubleCosetStatement` | volunteer-build-reviewed |
-| M012245 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistIndexSetEqProdLocalRepresentativesStatement` | volunteer-build-reviewed |
-| M012256 | P1836 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistPlaceCouplingIndexFiniteLevelStable` | volunteer-build-reviewed |
-| M012260 | P1836 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistPlaceLastTwoStepEntriesSchwartzBruhat` | volunteer-build-reviewed |
-| M012264 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistPlacesGroupEqProductLocalGroups` | volunteer-build-reviewed |
-| M012268 | P2034 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistPrimeCongruentMapsFrameReadingsBound` | volunteer-build-reviewed |
-| M012269 | P2052 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistPrimeCongruentMapsFrameReadingsBoundStatement` | volunteer-build-reviewed |
-| M012282 | P1957 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistedChainDatumLawsUnderLevels` | volunteer-build-reviewed |
-| M012284 | P2177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistedChainRealZetaNonvanishing` | volunteer-build-reviewed |
-| M012288 | P2052 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistedChainStepConstantsTupleIndep` | volunteer-build-reviewed |
-| M012289 | P2067 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistedChainStepConstantsTupleIndepStatement` | volunteer-build-reviewed |
-| M012294 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistedChainThetaLiftUpSpan` | volunteer-build-reviewed |
-| M012295 | P2108 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistedChainThetaLiftUpSpanStatement` | volunteer-build-reviewed |
-| M012300 | P2067 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistedThetaChainStepAdjointScalar` | volunteer-build-reviewed |
-| M012301 | P2081 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistedThetaChainStepAdjointScalarStatement` | volunteer-build-reviewed |

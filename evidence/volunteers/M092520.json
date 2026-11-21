@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M092520"
+  ],
+  "started_utc": "2026-11-21T12:25:23.615434+00:00",
+  "ended_utc": "2026-11-21T12:25:48.009824+00:00",
+  "elapsed_seconds": 24.4,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5227120
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.ContinuousMultilinearMapExtHilbertBasisStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "08824d9632f72b62c9dc14baadcbac7e720e551068f73f05375627c9e2dc0161",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.IsHilbertSchmidtOfFiniteDimensional",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SplitHeightSummableExpNegAbs",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ContinuousMultilinearMapExtHilbertBasis"
+  ],
+  "objects": {
+    "M092520": "e1caf8516b870bd58f387417d1743f0b56a15561b6610b76cf06fa29c04d13ad"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "48afe2f4dffc9787dc2c600a176f9031335b807355e9d636a1d3e39bea97c662",
+  "packet": "M092520",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21368#issuecomment-7062567185",
+  "reviewed_utc": "2026-11-21T17:47:27.653038+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

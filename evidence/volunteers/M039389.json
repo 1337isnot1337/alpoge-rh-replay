@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M039389"
+  ],
+  "started_utc": "2026-11-21T12:19:28.182249+00:00",
+  "ended_utc": "2026-11-21T12:19:44.070265+00:00",
+  "elapsed_seconds": 15.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5169516
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedDerivHeckePhiTransformHasDerivAtHolo:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "98ac6fe58e87ceca94be9ddb540b479221d3148635731a36bdff142a41443ea3",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HTransABTwoZero",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.KFacDifferentiable",
+    "Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.PartialZetaFunctionalEquation"
+  ],
+  "objects": {
+    "M039389": "8687d88e7fb0f4fbf89001c110b18a0df87b627d1649033ddb4d7186f1a15e70"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "1637e1dc98902aedab5c44cc47c38ed8820108175c9bfc40c94a779fe7e93b66",
+  "packet": "M039389",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21267#issuecomment-7062489768",
+  "reviewed_utc": "2026-11-21T17:48:12.083114+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

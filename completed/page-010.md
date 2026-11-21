@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006121 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MatrixTraceIffIsCharacterOverSubfieldComplex` | wave-reused |
+| M006122 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MatrixTraceIffIsCharacterOverSubfieldComplexStatement` | wave-reused |
+| M006123 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MemVirtualCharactersIffSubCharacters` | wave-reused |
+| M006124 | P0296 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MemVirtualCharactersIffSubCharactersStatement` | wave-reused |
+| M006125 | P0394 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MemVirtualCharactersOfAbelianByPrimePower` | wave-reused |
+| M006126 | P0436 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MemVirtualCharactersOfAbelianByPrimePowerStatement` | wave-reused |
+| M006127 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MonicFactorizationConvolutionCancelOfOne` | wave-reused |
+| M006128 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MonicFactorizationConvolutionCancelOfOneStatement` | wave-reused |
+| M006129 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MonicFactorizationConvolutionFiniteCommAssocAdd` | wave-reused |
+| M006130 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MonicFactorizationConvolutionFiniteCommAssocAddStatement` | wave-reused |
+| M006131 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MultisetPowerSumNewtonIdentity` | wave-reused |
+| M006132 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormEightOfFourierVanishingOrderFifteen` | build-observed |
 | M006133 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormEightOfFourierVanishingOrderFifteenStatement` | build-observed |
 | M006134 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormTwelveOrderSixtythree` | build-observed |
 | M006135 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormTwelveOrderSixtythreeStatement` | build-observed |
@@ -390,15 +402,3 @@
 | M006598 | P0550 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsCommGrpObjWeierstrassSchemeStatement` | build-observed |
 | M006603 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsConjDatum` | volunteer-build-reviewed |
 | M006604 | P0476 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsConstOfSqMulTendstoZero` | volunteer-build-reviewed |
-| M006609 | P0099 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsDiagonalCoordinates` | volunteer-build-reviewed |
-| M006612 | P1272 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsEllipticCurvePolarisedLatticeFamily` | build-observed |
-| M006613 | P1299 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsEllipticCurvePolarisedLatticeFamilyStatement` | build-observed |
-| M006614 | P1299 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsEqNsmul` | volunteer-build-reviewed |
-| M006616 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsEqPtHomOfIsLocalRing` | wave-reused |
-| M006617 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsEqSmulOfFinrankOne` | volunteer-build-reviewed |
-| M006619 | P0516 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsFieldCmCurvesUnitDiscriminant` | build-observed |
-| M006622 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsFractionalIdealTraceFormRankOne` | volunteer-build-reviewed |
-| M006624 | P1856 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsFramedPointOfLieEigenbasis` | volunteer-build-reviewed |
-| M006629 | P1956 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsGoodCmPointAtCmBasisFrameStatement` | volunteer-build-reviewed |
-| M006632 | P1114 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsGoodModelOfIsogeny` | build-observed |
-| M006636 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsGrpObjOverOfPoints` | volunteer-build-reviewed |
