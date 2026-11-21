@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.SumSmulMemOfSumZpowSmulMem",
+  "source_sha256": "76ef5890b638bfa42103f5d8024ee1b1d48dc4c4eab1322718cbba5a176d660c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged Replace the removed coefficient function with the same polynomial coefficient projection; coefficient values, including any occurrences in statements, are definitionally unchanged. Proof-only: rename the finite-sum evaluation lemma. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0099-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteDimensionalSpanMultilinearValuesStatement",
+  "source_sha256": "e8e266d5458dc69c0b159f8895509714e9bbf3506e492200630cf670ca07b947",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged The target generalizes multilinear maps to semilinear maps indexed by a scalar ring homomorphism. The identity homomorphism gives precisely the pinned complex-multilinear map, so the statement is equivalent.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0099-lean436-20261121/packet-result.json"
+}
