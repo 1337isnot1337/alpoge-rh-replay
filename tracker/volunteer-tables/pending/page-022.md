@@ -4,6 +4,9 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@loremcdmx](https://github.com/loremcdmx) | [M079679](https://github.com/rohanarun/alpoge-rh-replay/issues/25897#issuecomment-7068900815) | Pending review |
+| [@loremcdmx](https://github.com/loremcdmx) | [M079850](https://github.com/rohanarun/alpoge-rh-replay/issues/25898#issuecomment-7068903265) | Pending review |
+| [@UnityChaos](https://github.com/UnityChaos) | [M136108](https://github.com/rohanarun/alpoge-rh-replay/issues/25899#issuecomment-7068910418) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M025048](https://github.com/rohanarun/alpoge-rh-replay/issues/25903#issuecomment-7068870885) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M005641](https://github.com/rohanarun/alpoge-rh-replay/issues/25911#issuecomment-7068867813) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M033332](https://github.com/rohanarun/alpoge-rh-replay/issues/25914#issuecomment-7068875388) | Pending review |
@@ -251,6 +254,3 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M005861](https://github.com/rohanarun/alpoge-rh-replay/issues/26321#issuecomment-7069272000) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M167111](https://github.com/rohanarun/alpoge-rh-replay/issues/26324#issuecomment-7069221844) | Pending review |
 | [@matiasm15](https://github.com/matiasm15) | [M120863](https://github.com/rohanarun/alpoge-rh-replay/issues/26326#issuecomment-7069273346) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M007227](https://github.com/rohanarun/alpoge-rh-replay/issues/26327#issuecomment-7069331287) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M003195](https://github.com/rohanarun/alpoge-rh-replay/issues/26328#issuecomment-7069331720) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M163664](https://github.com/rohanarun/alpoge-rh-replay/issues/26329#issuecomment-7069332084) | Pending review |

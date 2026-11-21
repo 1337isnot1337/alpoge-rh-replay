@@ -170,9 +170,6 @@
 | [@rohanarun](https://github.com/rohanarun) | [M030945](https://github.com/rohanarun/alpoge-rh-replay/issues/17946) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M166777](https://github.com/rohanarun/alpoge-rh-replay/issues/17947) | Claimed |
 | [@mdpmcc](https://github.com/mdpmcc) | [M039423](https://github.com/rohanarun/alpoge-rh-replay/issues/19453) | Claimed |
-| [@amrehan](https://github.com/amrehan) | [M153019](https://github.com/rohanarun/alpoge-rh-replay/issues/19725) | Claimed |
-| [@amrehan](https://github.com/amrehan) | [M001966](https://github.com/rohanarun/alpoge-rh-replay/issues/19726) | Claimed |
-| [@amrehan](https://github.com/amrehan) | [M001842](https://github.com/rohanarun/alpoge-rh-replay/issues/19727) | Claimed |
 | [@mdpmcc](https://github.com/mdpmcc) | [M002384](https://github.com/rohanarun/alpoge-rh-replay/issues/19860) | Claimed |
 | [@dh5at](https://github.com/dh5at) | [P2104](https://github.com/rohanarun/alpoge-rh-replay/issues/20041) | Claimed |
 | [@Lv-00-ANI](https://github.com/Lv-00-ANI) | [P2118](https://github.com/rohanarun/alpoge-rh-replay/issues/20089) | Claimed |
@@ -254,3 +251,6 @@
 | [@RhizoNymph](https://github.com/RhizoNymph) | [P2748](https://github.com/rohanarun/alpoge-rh-replay/issues/25103) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [M133655](https://github.com/rohanarun/alpoge-rh-replay/issues/25271) | Claimed |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M063130](https://github.com/rohanarun/alpoge-rh-replay/issues/25879) | Claimed |
+| [@maugomez77](https://github.com/maugomez77) | [M118930](https://github.com/rohanarun/alpoge-rh-replay/issues/25886) | Claimed |
+| [@gilad12-coder](https://github.com/gilad12-coder) | [M131258](https://github.com/rohanarun/alpoge-rh-replay/issues/25970) | Claimed |
+| [@maugomez77](https://github.com/maugomez77) | [M168980](https://github.com/rohanarun/alpoge-rh-replay/issues/26195) | Claimed |

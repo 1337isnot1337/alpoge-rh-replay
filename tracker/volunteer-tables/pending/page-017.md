@@ -4,6 +4,9 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@certified-retart](https://github.com/certified-retart) | [M019728](https://github.com/rohanarun/alpoge-rh-replay/issues/20563#issuecomment-7061770359) | Pending review |
+| [@HITEYY](https://github.com/HITEYY) | [M031742](https://github.com/rohanarun/alpoge-rh-replay/issues/20564#issuecomment-7061785040) | Pending review |
+| [@HITEYY](https://github.com/HITEYY) | [M029145](https://github.com/rohanarun/alpoge-rh-replay/issues/20567#issuecomment-7061774593) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M019878](https://github.com/rohanarun/alpoge-rh-replay/issues/20568#issuecomment-7061767695) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M031186](https://github.com/rohanarun/alpoge-rh-replay/issues/20569#issuecomment-7061781648) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M021586](https://github.com/rohanarun/alpoge-rh-replay/issues/20570#issuecomment-7061770992) | Pending review |
@@ -251,6 +254,3 @@
 | [@loremcdmx](https://github.com/loremcdmx) | [M040051](https://github.com/rohanarun/alpoge-rh-replay/issues/23922#issuecomment-7066374220) | Pending review |
 | [@MLEARNER701](https://github.com/MLEARNER701) | [M138645](https://github.com/rohanarun/alpoge-rh-replay/issues/23923#issuecomment-7067171983) | Pending review |
 | [@MLEARNER701](https://github.com/MLEARNER701) | [M161749](https://github.com/rohanarun/alpoge-rh-replay/issues/23924#issuecomment-7067172221) | Pending review |
-| [@MLEARNER701](https://github.com/MLEARNER701) | [M173536](https://github.com/rohanarun/alpoge-rh-replay/issues/23925#issuecomment-7067172476) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M164169](https://github.com/rohanarun/alpoge-rh-replay/issues/23926#issuecomment-7066957520) | Pending review |
-| [@MLEARNER701](https://github.com/MLEARNER701) | [M174908](https://github.com/rohanarun/alpoge-rh-replay/issues/23927#issuecomment-7067172711) | Pending review |

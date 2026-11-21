@@ -4,6 +4,9 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@gilad12-coder](https://github.com/gilad12-coder) | [M155291](https://github.com/rohanarun/alpoge-rh-replay/issues/20219#issuecomment-7061507873) | Pending review |
+| [@gilad12-coder](https://github.com/gilad12-coder) | [M167373](https://github.com/rohanarun/alpoge-rh-replay/issues/20220#issuecomment-7061509025) | Pending review |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M096918](https://github.com/rohanarun/alpoge-rh-replay/issues/20221#issuecomment-7061662391) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M099903](https://github.com/rohanarun/alpoge-rh-replay/issues/20222#issuecomment-7061654670) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M164539](https://github.com/rohanarun/alpoge-rh-replay/issues/20223#issuecomment-7061511692) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M164540](https://github.com/rohanarun/alpoge-rh-replay/issues/20224#issuecomment-7061512938) | Pending review |
@@ -251,6 +254,3 @@
 | [@certified-retart](https://github.com/certified-retart) | [M120545](https://github.com/rohanarun/alpoge-rh-replay/issues/20559#issuecomment-7061764608) | Pending review |
 | [@certified-retart](https://github.com/certified-retart) | [M001334](https://github.com/rohanarun/alpoge-rh-replay/issues/20560#issuecomment-7061766433) | Pending review |
 | [@certified-retart](https://github.com/certified-retart) | [M019624](https://github.com/rohanarun/alpoge-rh-replay/issues/20562#issuecomment-7061768282) | Pending review |
-| [@certified-retart](https://github.com/certified-retart) | [M019728](https://github.com/rohanarun/alpoge-rh-replay/issues/20563#issuecomment-7061770359) | Pending review |
-| [@HITEYY](https://github.com/HITEYY) | [M031742](https://github.com/rohanarun/alpoge-rh-replay/issues/20564#issuecomment-7061785040) | Pending review |
-| [@HITEYY](https://github.com/HITEYY) | [M029145](https://github.com/rohanarun/alpoge-rh-replay/issues/20567#issuecomment-7061774593) | Pending review |

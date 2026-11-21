@@ -4,6 +4,9 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M071497](https://github.com/rohanarun/alpoge-rh-replay/issues/19887#issuecomment-7061438946) | Pending review |
+| [@gilad12-coder](https://github.com/gilad12-coder) | [M167375](https://github.com/rohanarun/alpoge-rh-replay/issues/19888#issuecomment-7061305149) | Pending review |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M040863](https://github.com/rohanarun/alpoge-rh-replay/issues/19889#issuecomment-7061439386) | Pending review |
 | [@zediir](https://github.com/zediir) | [M138132](https://github.com/rohanarun/alpoge-rh-replay/issues/19890#issuecomment-7061309557) | Pending review |
 | [@maugomez77](https://github.com/maugomez77) | [M074242](https://github.com/rohanarun/alpoge-rh-replay/issues/19891#issuecomment-7061433384) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M108035](https://github.com/rohanarun/alpoge-rh-replay/issues/19892#issuecomment-7061483423) | Pending review |
@@ -251,6 +254,3 @@
 | [@certified-retart](https://github.com/certified-retart) | [M060969](https://github.com/rohanarun/alpoge-rh-replay/issues/20214#issuecomment-7061508061) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M091739](https://github.com/rohanarun/alpoge-rh-replay/issues/20216#issuecomment-7061649478) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M091773](https://github.com/rohanarun/alpoge-rh-replay/issues/20218#issuecomment-7061661170) | Pending review |
-| [@gilad12-coder](https://github.com/gilad12-coder) | [M155291](https://github.com/rohanarun/alpoge-rh-replay/issues/20219#issuecomment-7061507873) | Pending review |
-| [@gilad12-coder](https://github.com/gilad12-coder) | [M167373](https://github.com/rohanarun/alpoge-rh-replay/issues/20220#issuecomment-7061509025) | Pending review |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M096918](https://github.com/rohanarun/alpoge-rh-replay/issues/20221#issuecomment-7061662391) | Pending review |
