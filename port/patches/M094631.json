@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.HasSumCosetsEulerProduct",
+  "source_sha256": "a7473e90123799b7cbe264de1c0059df4e4bf5d060b3e47cb90d6e44e44d74fc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Finset.prod_le_prod` no longer takes the nonnegativity hypothesis; use `Finset.prod_le_prod₀`, which has the original arguments."
+}

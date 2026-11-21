@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.LatticeSumProdNormLeOfProdNormLowerBound",
+  "source_sha256": "df0d62d9432d211a2a5811edc217052664c0529f53abddf437e527584f13b815",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Finset.prod_le_prod` and `Finset.prod_le_one` no longer take the nonnegativity hypothesis; use `Finset.prod_le_prod₀` and `Finset.prod_le_one₀`, which have the original arguments."
+}

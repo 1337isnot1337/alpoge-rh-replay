@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntegralHaarEqZeroOfFibreIntegralsEqZero",
+  "source_sha256": "d5cc62cc7a95c051a075381242bc93717c8cb7e8d29ca7c46405cc000bdd5a2a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Subtype.borelSpace` now takes a predicate instead of a set (`Set` is a structure on the target), so pass `(· ∈ P)` and `(· ∈ Q)`; the resulting instance is on the same type `↥P`."
+}

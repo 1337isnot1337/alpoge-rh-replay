@@ -1,0 +1,99 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/ExistsMultilinearSlotwiseExtensionOfEquivariant.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/ExistsMultilinearSlotwiseExtensionOfEquivariant.lean
+@@ -11,8 +11,8 @@ def piecewiseSubmodule (A B : ∀ τ, Submodule ℂ (H τ)) (s : Finset ι) (τ
+   if τ ∈ s then B τ else A τ
+ 
+ def Invariant (A B : ∀ τ, Submodule ℂ (H τ)) (Rk Rg : ∀ τ, Set ((H τ → H τ) × (E →ₗ[ℂ] E)))
+-    (C : ∀ τ, Submodule ℂ (H τ →ₗ[ℂ] E)) (T₀ : MultilinearMap ℂ H E) (s : Finset ι)
+-    (T : MultilinearMap ℂ H E) : Prop :=
++    (C : ∀ τ, Submodule ℂ (H τ →ₗ[ℂ] E)) (T₀ : MultilinearMap (RingHom.id ℂ) H E) (s : Finset ι)
++    (T : MultilinearMap (RingHom.id ℂ) H E) : Prop :=
+   (∀ u, (∀ τ, u τ ∈ A τ) → T u = T₀ u) ∧
+   (∀ τ, τ ∉ s → ∀ u : ∀ τ, H τ, (∀ τ', τ' ≠ τ → u τ' ∈ piecewiseSubmodule A B s τ') →
+       ∀ r ∈ Rk τ, ∀ x ∈ A τ, T (update u τ (r.1 x)) = r.2 (T (update u τ x))) ∧
+@@ -20,7 +20,7 @@ def Invariant (A B : ∀ τ, Submodule ℂ (H τ)) (Rk Rg : ∀ τ, Set ((H τ 
+       T.toLinearMap u τ ∈ C τ ∧
+       ∀ r ∈ Rg τ, ∀ x ∈ B τ, T (update u τ (r.1 x)) = r.2 (T (update u τ x)))
+ 
+-theorem toLinearMap_congr (T : MultilinearMap ℂ H E) {w w' : ∀ τ, H τ} (i : ι)
++theorem toLinearMap_congr (T : MultilinearMap (RingHom.id ℂ) H E) {w w' : ∀ τ, H τ} (i : ι)
+     (h : ∀ j, j ≠ i → w j = w' j) : T.toLinearMap w i = T.toLinearMap w' i := by
+   ext x
+   simp only [MultilinearMap.toLinearMap_apply]
+@@ -30,18 +30,18 @@ theorem toLinearMap_congr (T : MultilinearMap ℂ H E) {w w' : ∀ τ, H τ} (i
+   · subst hj; simp
+   · simp [update_of_ne hj, h j hj]
+ 
+-theorem toLinearMap_update_add (T : MultilinearMap ℂ H E) {i j : ι} (h : i ≠ j) (w : ∀ τ, H τ)
++theorem toLinearMap_update_add (T : MultilinearMap (RingHom.id ℂ) H E) {i j : ι} (h : i ≠ j) (w : ∀ τ, H τ)
+     (x y : H i) : T.toLinearMap (update w i (x + y)) j =
+       T.toLinearMap (update w i x) j + T.toLinearMap (update w i y) j := by
+   ext a
+   simp only [MultilinearMap.toLinearMap_apply, LinearMap.add_apply]
+   rw [update_comm h, update_comm h, update_comm h, T.map_update_add]
+ 
+-theorem toLinearMap_update_smul (T : MultilinearMap ℂ H E) {i j : ι} (h : i ≠ j) (w : ∀ τ, H τ)
++theorem toLinearMap_update_smul (T : MultilinearMap (RingHom.id ℂ) H E) {i j : ι} (h : i ≠ j) (w : ∀ τ, H τ)
+     (c : ℂ) (x : H i) : T.toLinearMap (update w i (c • x)) j = c • T.toLinearMap (update w i x) j := by
+   ext a
+   simp only [MultilinearMap.toLinearMap_apply, LinearMap.smul_apply]
+-  rw [update_comm h, update_comm h, T.map_update_smul]
++  rw [update_comm h, update_comm h, T.map_update_smul, RingHom.id_apply]
+ 
+ end GlobalTheory.FactorwiseExtension
+ 
+@@ -61,7 +61,7 @@ theorem invariant_insert (A B : ∀ τ, Submodule ℂ (H τ)) (hAB : ∀ τ, A 
+     (hpostC : ∀ τ τ', τ ≠ τ' → ∀ r ∈ Rk τ ∪ Rg τ, ∀ L ∈ C τ', r.2 ∘ₗ L ∈ C τ')
+     (hbs : ∀ τ τ', τ ≠ τ' → ∀ F : H τ →ₗ[ℂ] H τ' →ₗ[ℂ] E, (∀ w ∈ B τ, F w ∈ C τ') →
+       (∀ a ∈ A τ', F.flip a ∈ C τ) → ∀ b ∈ B τ', F.flip b ∈ C τ)
+-    (T₀ : MultilinearMap ℂ H E) (s : Finset ι) (τ₀ : ι) (hτ₀ : τ₀ ∉ s) (T : MultilinearMap ℂ H E)
++    (T₀ : MultilinearMap (RingHom.id ℂ) H E) (s : Finset ι) (τ₀ : ι) (hτ₀ : τ₀ ∉ s) (T : MultilinearMap (RingHom.id ℂ) H E)
+     (hT : Invariant A B Rk Rg C T₀ s T) : ∃ T', Invariant A B Rk Rg C T₀ (insert τ₀ s) T' := by
+   obtain ⟨hTa, hTb, hTc⟩ := hT
+   set D' := piecewiseSubmodule A B (insert τ₀ s) with hD'
+@@ -150,7 +150,7 @@ theorem invariant_insert (A B : ∀ τ, Submodule ℂ (H τ)) (hAB : ∀ τ, A 
+       T.toLinearMap (update (fun τ => R τ (v τ)) i (R i z)) τ₀ (r.1 x) =
+         r.2 (T.toLinearMap (update (fun τ => R τ (v τ)) i (R i z)) τ₀ x) :=
+     fun v i z => goodL _ (fun τ' _ => hmemU v i z τ')
+-  let T' : MultilinearMap ℂ H E := MultilinearMap.mk' f
++  let T' : MultilinearMap (RingHom.id ℂ) H E := MultilinearMap.mk' f
+     (by
+       intro v i x y
+       by_cases hi : i = τ₀
+@@ -162,9 +162,9 @@ theorem invariant_insert (A B : ∀ τ, Submodule ℂ (H τ)) (hAB : ∀ τ, A 
+       intro v i c x
+       by_cases hi : i = τ₀
+       · subst hi
+-        rw [h0position, h0position, map_smul, map_smul]
++        rw [h0position, h0position, map_smul, map_smul, RingHom.id_apply]
+       · rw [hiposition i hi, hiposition i hi, map_smul, toLinearMap_update_smul T hi,
+-          ExtSmul _ _ (hgU v i x) _ (hRB _)])
++          ExtSmul _ _ (hgU v i x) _ (hRB _), RingHom.id_apply])
+   have hT'apply : ∀ v, T' v = f v := fun v => rfl
+   have goodval : ∀ v : ∀ τ, H τ, (∀ τ', τ' ≠ τ₀ → v τ' ∈ D' τ') →
+       T' v = Ext (T.toLinearMap v τ₀) (R τ₀ (v τ₀)) := by
+@@ -241,9 +241,9 @@ theorem invariant_insert (A B : ∀ τ, Submodule ℂ (H τ)) (hAB : ∀ τ, A 
+     constructor
+     · let F : H τ →ₗ[ℂ] H τ₀ →ₗ[ℂ] E := LinearMap.mk₂ ℂ (fun w b => T' (update (update u τ w) τ₀ b))
+         (by intro w₁ w₂ b; rw [update_comm hne, update_comm hne, update_comm hne, T'.map_update_add])
+-        (by intro c w b; rw [update_comm hne, update_comm hne, T'.map_update_smul])
++        (by intro c w b; rw [update_comm hne, update_comm hne, T'.map_update_smul, RingHom.id_apply])
+         (by intro w b₁ b₂; rw [T'.map_update_add])
+-        (by intro c w b; rw [T'.map_update_smul])
++        (by intro c w b; rw [T'.map_update_smul, RingHom.id_apply])
+       have hF1 : ∀ w ∈ B τ, F w ∈ C τ₀ := by
+         intro w hw
+         have h := (hposition0 (update u τ w) (fun τ' _ => hgen τ u hu w (hBDτ w hw) τ')).1
+@@ -285,10 +285,10 @@ theorem GlobalTheory.FactorwiseExtension.exists_multilinear_positionwise_extensi
+     (∀ τ τ', τ ≠ τ' → ∀ r ∈ Rk τ ∪ Rg τ, ∀ r' ∈ Rg τ', r.2 ∘ₗ r'.2 = r'.2 ∘ₗ r.2) →
+     (∀ τ τ', τ ≠ τ' → ∀ F : H τ →ₗ[ℂ] H τ' →ₗ[ℂ] E, (∀ w ∈ B τ, F w ∈ C τ') → (∀ a ∈ A τ', F.flip a ∈ C τ) →
+       ∀ b ∈ B τ', F.flip b ∈ C τ) →
+-    ∀ T₀ : MultilinearMap ℂ H E,
++    ∀ T₀ : MultilinearMap (RingHom.id ℂ) H E,
+     (∀ τ (u : ∀ τ, H τ), (∀ τ', τ' ≠ τ → u τ' ∈ A τ') → ∀ r ∈ Rk τ, ∀ x ∈ A τ,
+       T₀ (Function.update u τ (r.1 x)) = r.2 (T₀ (Function.update u τ x))) →
+-    ∃ T : MultilinearMap ℂ H E, (∀ u, (∀ τ, u τ ∈ A τ) → T u = T₀ u) ∧
++    ∃ T : MultilinearMap (RingHom.id ℂ) H E, (∀ u, (∀ τ, u τ ∈ A τ) → T u = T₀ u) ∧
+       ∀ τ (u : ∀ τ, H τ), (∀ τ', τ' ≠ τ → u τ' ∈ B τ') →
+         T.toLinearMap u τ ∈ C τ ∧
+           ∀ r ∈ Rg τ, ∀ x ∈ B τ, T (Function.update u τ (r.1 x)) = r.2 (T (Function.update u τ x)) := by

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsSmoothMulExtensionOfContinuousChar",
+  "source_sha256": "2d2db9af24e6c358497d4204958a57ccf43d3f139dda422c6cdf3c7db3a74ebb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`contDiff_apply` now takes a dependent family of codomains, so pass `fun _ => ℝ` and `fun _ => ℂ` instead of `ℝ` and `ℂ`."
+}

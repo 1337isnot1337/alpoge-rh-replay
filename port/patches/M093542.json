@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMultilinearSlotwiseExtensionOfEquivariant",
+  "source_sha256": "30ebec99b99e11db35a821775409f46cf22164ac974f824b4dfb6c292f1d9f09",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Statement change, equivalent: `MultilinearMap ℂ H E` becomes `MultilinearMap (RingHom.id ℂ) H E` (printed `→ₘₗ[ℂ]`) in the definition `Invariant` and the theorems `toLinearMap_congr`, `toLinearMap_update_add`, `toLinearMap_update_smul`, `invariant_insert` and `exists_multilinear_positionwise_extension`. Mathlib generalized `MultilinearMap` to maps that are semilinear over a ring hom `σ`. With `σ = RingHom.id ℂ` the structure has the same fields as the pinned one: `toFun` and `map_update_add'` are unchanged, and `map_update_smul'` reads `RingHom.id ℂ c • _` where it read `c • _`, which is definitionally equal (the pinned field proof is accepted as is, and a map is determined by its function). The proof adds `RingHom.id_apply` to five rewrites that use `map_update_smul` or build the scalar field of `MultilinearMap.mk'`."
+}

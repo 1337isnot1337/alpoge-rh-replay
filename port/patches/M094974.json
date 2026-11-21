@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.InnerMapEqConstMulProdInner",
+  "source_sha256": "d05e951c56a53524151d0f720af0887da7f117ee4e3b0642bf155287693d4695",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Statement change, equivalent: `MultilinearMap ℂ Xs E` becomes `MultilinearMap (RingHom.id ℂ) Xs E` (printed `→ₘₗ[ℂ]`) in `MultilinearMap.inner_map_eq_const_mul_prod_inner`. Mathlib generalized `MultilinearMap` to maps that are semilinear over a ring hom `σ`. With `σ = RingHom.id ℂ` the structure has the same fields as the pinned one: `toFun` and `map_update_add'` are unchanged, and `map_update_smul'` reads `RingHom.id ℂ c • _` where it read `c • _`, which is definitionally equal (the pinned field proof is accepted as is, and a map is determined by its function). The proof adds `RingHom.id_apply` to the `simp only` that expands `map_update_smul`."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsNsmulMemLattice",
+  "source_sha256": "caf17c1098eb71105320fb552993b8ccfe9cc5a39a02c6ef0e861e3511d710ed",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Statement change, equivalent: the hypothesis `Submodule.IsLattice E L` becomes `Submodule.IsFullLattice E L` in `exists_nsmul_mem_lattice`. Mathlib renamed the pinned `IsLattice` (finitely generated and spanning) to `IsFullLattice` and reused the name `IsLattice` for a weaker notion without `span_eq_top`. Over `𝓞 E` inside its fraction field `E`, `IsFullLattice E L ↔ L.FG ∧ span E L = ⊤`, which is the pinned definition, because `Submodule.IsLattice.of_fg` supplies the new linear-independence field. The proof is unchanged."
+}
