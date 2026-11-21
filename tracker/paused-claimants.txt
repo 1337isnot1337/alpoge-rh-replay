@@ -13,7 +13,6 @@ yingluom  # 4 failing: other x3, attachment checksum x1
 rayy3535  # 3 failing: cached target without kernel-replay.json x3
 UnityChaos  # 3 failing: cached target without kernel-replay.json x3
 jsnider3  # 3 failing: no build.log x3
-user42245  # 2 failing: no build.log x2
 WilmervH  # 2 failing: log lacks target line x1, cached target without kernel-replay.json x1
 21Z121Z1  # 1 failing: malformed transcript x1
 SeriousRising  # 1 failing: log lacks target line x1
