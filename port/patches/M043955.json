@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MultilinearVanishOfProdVanish",
+  "source_sha256": "a6e47e57beef5a38d3ffbab7b4adbcce858049349bbd4199b72bfbcb880e08c4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "MultilinearMap was generalized to multisemilinear maps over a ring hom in Mathlib v4.36.0; MultilinearMap (RingHom.id K) (fun i => A i) M is definitionally equivalent to the old K-linear MultilinearMap K (fun i => A i) M (same underlying map and scalar compatibility). Statement updated solely for this Mathlib signature change; added RingHom.id_apply in proof."
+}

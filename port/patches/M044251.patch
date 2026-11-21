@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/NilpotentTwistCharacterContinuous.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/NilpotentTwistCharacterContinuous.lean
+@@ -89,7 +89,7 @@
+     rw [this]
+     refine Continuous.div_const ?_ _
+     simp only [Matrix.trace, Matrix.diag]
+-    exact continuous_finset_sum _ (fun i _ => hcont i i)
++    exact continuous_finsetSum _ (fun i _ => hcont i i)
+   · intro γ hγ
+     apply Units.ext
+     show χ γ = 1

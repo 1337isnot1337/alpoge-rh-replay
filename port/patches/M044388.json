@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonvanishingSectionQuotientLimit",
+  "source_sha256": "8ff22aa9b895f918fefb83ef453bae01657c23774c1b18571cbfa44098ab1c5d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace renamed tendsto_finset_sum with tendsto_finsetSum. Proof body only."
+}

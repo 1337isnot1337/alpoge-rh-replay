@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MvPolynomialIdealEqBotOfPderivStableNoConstants",
+  "source_sha256": "465352521136593fa6c9a89575e2fe10b5cc01779e961f1d0c4cd03f3d348db6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use MvPolynomial.coeff_zero and dot notation P.coeff m after MvPolynomial.coeff unification with AddMonoidAlgebra.coeff. Proof body only."
+}

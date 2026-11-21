@@ -1,0 +1,18 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/NoCommonZeroSpreadsConstructibleNbhd.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/NoCommonZeroSpreadsConstructibleNbhd.lean
+@@ -130,12 +130,12 @@
+   refine ⟨b, E.coeffs, hb, ?_, ?_⟩
+   · intro y hy
+     obtain ⟨n, -, rfl⟩ := MvPolynomial.mem_coeffs_iff.1 hy
+-    have := congrArg (MvPolynomial.coeff n) hE
+-    rwa [MvPolynomial.coeff_map, MvPolynomial.coeff_zero] at this
++    have := congrArg (fun p : MvPolynomial τ Ω => p.coeff n) hE
++    rwa [MvPolynomial.coeff_map, AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply] at this
+   · intro k _ ψ hψb hψI ⟨z, hz⟩
+     have h0 : MvPolynomial.map ψ E = 0 := by
+       ext n
+-      rw [MvPolynomial.coeff_map, MvPolynomial.coeff_zero]
++      rw [MvPolynomial.coeff_map, AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply]
+       by_cases hn : n ∈ E.support
+       · exact hψI _ (MvPolynomial.mem_coeffs_iff.2 ⟨n, hn, rfl⟩)
+       · rw [MvPolynomial.notMem_support_iff.1 hn, map_zero]

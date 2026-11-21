@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NoetherNormalizationFiniteAevalPowAdd",
+  "source_sha256": "7c258baf92d684d677e7433bd10d6bf8e688c616499bbbcd2a4ac43b463467f1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass explicit argument _ to natDegree_X_pow_sub_C. Proof body only."
+}

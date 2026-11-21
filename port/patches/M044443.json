@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormCompHomogeneousIsHomogeneous",
+  "source_sha256": "56b9d34c2e10b2bae4f7b4e85cfd0d26cfc9e1bb6aeba410c579d07b095a000b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace removed coeff s G with dot notation G.coeff s. Proof body only."
+}

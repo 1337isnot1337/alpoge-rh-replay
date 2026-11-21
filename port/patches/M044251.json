@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentTwistCharacterContinuous",
+  "source_sha256": "3b5db72d54ecd03fd251e1b73beb67a5ec517d3cd21910d5fa01b62c54d1c0ab",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace renamed continuous_finset_sum with continuous_finsetSum. Proof body only."
+}

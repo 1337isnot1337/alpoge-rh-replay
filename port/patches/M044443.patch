@@ -1,0 +1,20 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/NormCompHomogeneousIsHomogeneous.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/NormCompHomogeneousIsHomogeneous.lean
+@@ -37,7 +37,7 @@
+     simp [g]
+     rfl
+   let M : Matrix (Fin m) (Fin m) (MvPolynomial (Fin n × Fin m) K) :=
+-    fun i j => ∑ s ∈ G.support, monomial s (Algebra.leftMulMatrix b (coeff s G) i j)
++    fun i j => ∑ s ∈ G.support, monomial s (Algebra.leftMulMatrix b (G.coeff s) i j)
+   have hM : ∀ i j, (M i j).IsHomogeneous d := by
+     intro i j
+     refine IsHomogeneous.sum _ _ _ (fun s hs => isHomogeneous_monomial _ ?_)
+@@ -61,7 +61,7 @@
+     simp only [M, map_sum, eval_monomial]
+     rw [eval_eq' _ G, map_sum, Matrix.sum_apply]
+     refine Finset.sum_congr rfl (fun s _ => ?_)
+-    have : coeff s G * ∏ k, (algebraMap K L (y k)) ^ (s k) = (∏ k, y k ^ s k) • coeff s G := by
++    have : G.coeff s * ∏ k, (algebraMap K L (y k)) ^ (s k) = (∏ k, y k ^ s k) • G.coeff s := by
+       rw [Algebra.smul_def, mul_comm]
+       simp [map_prod, map_pow]
+     rw [this, map_smul, Matrix.smul_apply, smul_eq_mul, mul_comm, Finsupp.prod_fintype]
