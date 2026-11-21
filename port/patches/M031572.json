@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankDvdOfRingOfIntegersToIntMatrix",
+  "source_sha256": "a58979fe9edd207b91b0ce3ab8ac5605e91dd136e10c8a5120bfad1508f10219",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace removed Algebra.adjoinCommRingOfComm with an explicit CommRing instance proving commutativity by Algebra.adjoin_induction. Theorem statement is unchanged."
+}

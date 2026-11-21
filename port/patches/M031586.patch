@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FinrankEqZeroOfDualKilledByTensor.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FinrankEqZeroOfDualKilledByTensor.lean
+@@ -96,7 +96,7 @@ theorem finrank_eq_zero_of_dual_killed : ∀ (F : Type) [Field F] [NumberField F
+   have lin : ∀ (e : ι → ℤ) (χ : X) (r : Module.Free.ChooseBasisIndex ℤ X),
+       B.repr (ρ (∑ i, e i • b i) χ) r = ∑ i, e i * B.repr (ρ (b i) χ) r := by
+     intro e χ r
+-    simp [map_sum, map_zsmul, LinearMap.sum_apply, Finsupp.finset_sum_apply]
++    simp [map_sum, map_zsmul, LinearMap.sum_apply, Finsupp.finsetSum_apply]
+   rcases CharP.char_is_prime_or_zero k (ringChar k) with hp | hp
+   · set p := ringChar k with hpdef
+     haveI : Fact p.Prime := ⟨hp⟩

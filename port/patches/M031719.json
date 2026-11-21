@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsetMemRangeLocalizationAwayOfDvd",
+  "source_sha256": "b2e198e4e26bdc419507ce4089a21cd5c51a16f68b7213f09225dc30a7a88c91",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename Submonoid.coe_finset_prod to Submonoid.coe_finsetProd. Statement is unchanged."
+}

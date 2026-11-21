@@ -1,0 +1,43 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FlowDerivativeIntegralByParts.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FlowDerivativeIntegralByParts.lean
+@@ -64,9 +64,10 @@ theorem eLpNorm_diffQuot_sub_deriv_le_iSup {H : Type} [Group H] [TopologicalSpac
+     field_simp
+     ring
+ 
+-  have hL : ∀ (ν : Measure H) (F : H → ℂ), eLpNorm F 2 ν ^ 2 = ∫⁻ x, ‖F x‖ₑ ^ 2 ∂ν := by
+-    intro ν F
+-    have := eLpNorm_nnreal_pow_eq_lintegral (μ := ν) (f := F) (p := 2) two_ne_zero
++  have hL : ∀ (ν : Measure H) (F : H → ℂ), AEStronglyMeasurable F ν →
++      eLpNorm F 2 ν ^ 2 = ∫⁻ x, ‖F x‖ₑ ^ 2 ∂ν := by
++    intro ν F hFm
++    have := eLpNorm_nnreal_pow_eq_lintegral (μ := ν) (f := F) (p := 2) two_ne_zero hFm
+     simpa [ENNReal.rpow_two] using this
+   have htn0 : ‖t‖ₑ ≠ 0 := by simpa using ht
+   have htnt : ‖t‖ₑ ≠ ∞ := enorm_ne_top
+@@ -99,13 +100,24 @@ theorem eLpNorm_diffQuot_sub_deriv_le_iSup {H : Type} [Group H] [TopologicalSpac
+   have hmeas : Measurable fun p : H × ℝ => ‖g p.1 p.2‖ₑ ^ 2 := hgc.measurable.enorm.pow_const 2
+   have hinner : ∀ s ∈ Set.uIoc 0 t, ∫⁻ x in 𝓕, ‖g x s‖ₑ ^ 2 ∂μ ≤ S ^ 2 := by
+     intro s hs
+-    rw [← hL]
++    have hgs : AEStronglyMeasurable (fun x => g x s) (μ.restrict 𝓕) :=
++      ((hf₁.comp (continuous_id.mul continuous_const)).sub hf₁).aestronglyMeasurable
++    rw [← hL _ _ hgs]
+     gcongr
+     exact le_iSup₂ (f := fun s _ => eLpNorm (fun x => f₁ (x * γ (Multiplicative.ofAdd s)) - f₁ x) 2
+       (μ.restrict 𝓕)) s (Set.uIoc_subset_uIcc hs)
+   have key : eLpNorm (fun x => (t : ℂ)⁻¹ * (f (x * γ (Multiplicative.ofAdd t)) - f x) - f₁ x) 2
+       (μ.restrict 𝓕) ^ 2 ≤ S ^ 2 := by
+-    rw [hL]
++    have hFm : AEStronglyMeasurable
++        (fun x => (t : ℂ)⁻¹ * (f (x * γ (Multiplicative.ofAdd t)) - f x) - f₁ x)
++        (μ.restrict 𝓕) := by
++      have hcont : Continuous (fun x => (t : ℂ)⁻¹ * ∫ s in (0:ℝ)..t, g x s) :=
++        continuous_const.mul
++          (intervalIntegral.continuous_parametric_intervalIntegral_of_continuous' hgc 0 t)
++      rw [show (fun x => (t : ℂ)⁻¹ * (f (x * γ (Multiplicative.ofAdd t)) - f x) - f₁ x) =
++          (fun x => (t : ℂ)⁻¹ * ∫ s in (0:ℝ)..t, g x s) from funext hF]
++      exact hcont.aestronglyMeasurable
++    rw [hL _ _ hFm]
+     calc ∫⁻ x in 𝓕, ‖(t : ℂ)⁻¹ * (f (x * γ (Multiplicative.ofAdd t)) - f x) - f₁ x‖ₑ ^ 2 ∂μ
+         ≤ ∫⁻ x in 𝓕, (‖t‖ₑ⁻¹ * ∫⁻ s in Set.uIoc 0 t, ‖g x s‖ₑ ^ 2) ∂μ := by
+           refine lintegral_mono fun x => ?_

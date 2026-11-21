@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankEqZeroOfDualKilledByTensor",
+  "source_sha256": "0e05bf45e9e23a872d3ed4eab8b28464dc67898502dcf6e3a9ec40455cf87fae",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename Finsupp.finset_sum_apply to Finsupp.finsetSum_apply. Statement is unchanged."
+}

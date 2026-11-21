@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumDoubleCosetEqFinprodLocalSums",
+  "source_sha256": "8ac0324a3e4f225d49803a38e8dc23507fe49d364631deeedd4cb58a4785a9f3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Update DoubleCoset.out_eq' and DoubleCoset.eq implicit arguments and match the updated binder order in DoubleCoset.mk_out_eq_mul. Theorem statements are unchanged."
+}
