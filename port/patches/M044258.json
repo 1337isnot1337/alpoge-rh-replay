@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NoCommonZeroSpreadsConstructibleNbhd",
+  "source_sha256": "8472ea24392694af6feb3799d336e9e1ad3feab7ebcc7268b4f4ba339678310b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace removed MvPolynomial.coeff with dot notation p.coeff and MvPolynomial.coeff_zero with AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply. Proof body only."
+}

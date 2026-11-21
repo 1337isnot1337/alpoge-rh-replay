@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MonicSplitsValuationSubringOfSeparableReduction",
+  "source_sha256": "9c460672f0167a208e45b2185b0fcd44b2cd2c6b95203ba33e059ea7c5d2b7d4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "splits_iff_splits was removed in Mathlib v4.36.0; derive Splits from the same irreducible-factor degree-1 proof via UniqueFactorizationMonoid.exists_prime_factors, Splits.multisetProd, Splits.of_degree_eq_one, and IsUnit.splits. Proof body only."
+}

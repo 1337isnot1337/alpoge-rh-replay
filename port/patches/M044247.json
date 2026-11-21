@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentExpLogSeries",
+  "source_sha256": "cae5afd489cffbd37c24840f8774a84242683c3a813626e6aac79465b499b16e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace removed eval_finset_sum with \u2190 coe_evalRingHom, map_sum. Proof body only."
+}

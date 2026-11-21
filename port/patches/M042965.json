@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MaximalIdealPowNatCastDvdFiniteIntegersAlgebra",
+  "source_sha256": "6af87adc3e14208712f83d48fa67757dc95dd6c0ff226ecfaec5f0fd3098bba4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Ideal.isMaximal_comap_of_isIntegral_of_isMaximal and Ideal.isMaximal_of_isIntegral_of_isMaximal_comap now take the ring homomorphism (algebraMap O A) and its integrality proof (Algebra.IsIntegral.isIntegral) explicitly. Proof body only."
+}

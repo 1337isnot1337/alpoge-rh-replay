@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemOfMapMemSpanIntegralClosure",
+  "source_sha256": "76ae51d228d973cdbe18485b7cbdc1caa5dcebacfc2cb4a2186827478930403e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "isIntegral_algebraMap_iff now uses typeclass FaithfulSMul instead of an explicit injectivity argument. Proof body only."
+}

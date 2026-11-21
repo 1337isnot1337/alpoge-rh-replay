@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MultilinearMemSpanImagePartial",
+  "source_sha256": "5756e01314d0fbb44db63019823776d77d8c7144bb45d824ce2f6d2bfaf90a52",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "MultilinearMap was generalized to multisemilinear maps over a ring hom in Mathlib v4.36.0; MultilinearMap (RingHom.id \u2102) M N is definitionally equivalent to the old \u2102-linear MultilinearMap \u2102 M N (same underlying map and scalar compatibility). Statement updated solely for this Mathlib signature change; proof body unchanged."
+}

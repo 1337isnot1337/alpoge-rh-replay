@@ -1,0 +1,20 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MulTensorInjectiveOfFlatBaseChangeKerInf.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MulTensorInjectiveOfFlatBaseChangeKerInf.lean
+@@ -95,7 +95,7 @@
+     exact L1 _ _ _ (by rw [hsmulB, hs, hs]))
+   have hχψ : ∀ t, χ (ψ t) = t := by
+     intro t
+-    induction t with
++    induction t using TensorProduct.induction_on with
+     | zero => simp
+     | add u v hu hv => rw [map_add, map_add, hu, hv]
+     | tmul k b =>
+@@ -111,7 +111,7 @@
+   set μ := TensorProduct.lift ((LinearMap.lsmul P B).comp K₁.subtype) with hμ
+   have key : ∀ t, ν (ψ t) = c₂ (μ t) := by
+     intro t
+-    induction t with
++    induction t using TensorProduct.induction_on with
+     | zero => simp
+     | add u v hu hv => rw [map_add, map_add, hu, hv, map_add, map_add]
+     | tmul k b =>

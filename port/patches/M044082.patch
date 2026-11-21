@@ -1,0 +1,13 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MvPolynomialIdealEqBotOfPderivStableNoConstants.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MvPolynomialIdealEqBotOfPderivStableNoConstants.lean
+@@ -35,8 +35,8 @@
+       have hQne : pderiv i P ≠ 0 := by
+         intro h0
+         have hc := coeff_pderiv (i := i) P (m - single i 1)
+-        rw [h0, coeff_zero, sub_add_single_one_cancel hi] at hc
+-        have hcm : coeff m P ≠ 0 := MvPolynomial.mem_support_iff.mp hm
++        rw [h0, MvPolynomial.coeff_zero, sub_add_single_one_cancel hi] at hc
++        have hcm : P.coeff m ≠ 0 := MvPolynomial.mem_support_iff.mp hm
+         have hk : (((m - single i 1 : Fin r →₀ ℕ) i : ℕ) : R) + 1 ≠ 0 :=
+           Nat.cast_add_one_ne_zero _
+         exact (mul_ne_zero hcm hk) hc.symm

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemSubfieldOfBilinFormBasisMonomials",
+  "source_sha256": "afd4860e9466c1ab14763c8301992ed9a7ec21d16a27b4f50d4bf6612b3e0a34",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace removed AddSubmonoidClass.coe_finset_sum with Submodule.coe_sum. Proof body only."
+}

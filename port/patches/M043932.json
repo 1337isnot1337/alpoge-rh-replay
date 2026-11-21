@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MulTensorInjectiveOfFlatBaseChangeKerInf",
+  "source_sha256": "942ed5048f85537904f4046cf23a5534c0cdd4ad0a8754ed9e9f13a1962e0a09",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use explicit induction t using TensorProduct.induction_on with for both tensor-product inductions. Proof body only."
+}
