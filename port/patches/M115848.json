@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.RegAlgFam",
+  "source_sha256": "99f42b5b93f8d5145c491a303b96e715ec3e09d3511dd6329bd1c690661992e8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
