@@ -60,6 +60,7 @@
 | [@mu-mei](https://github.com/mu-mei) | [M004923](https://github.com/rohanarun/alpoge-rh-replay/issues/3178#issuecomment-7050895478) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M058898](https://github.com/rohanarun/alpoge-rh-replay/issues/3184#issuecomment-7050918644) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M057684](https://github.com/rohanarun/alpoge-rh-replay/issues/3190#issuecomment-7050933687) | Pending review |
+| [@dgahelper](https://github.com/dgahelper) | [P1598](https://github.com/rohanarun/alpoge-rh-replay/issues/3191#issuecomment-7055864609) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M000131](https://github.com/rohanarun/alpoge-rh-replay/issues/3196#issuecomment-7050930711) | Pending review |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M002399](https://github.com/rohanarun/alpoge-rh-replay/issues/3197#issuecomment-7050942776) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M100733](https://github.com/rohanarun/alpoge-rh-replay/issues/3198#issuecomment-7050930699) | Pending review |
@@ -253,4 +254,3 @@
 | [@SeriousRising](https://github.com/SeriousRising) | [P1717](https://github.com/rohanarun/alpoge-rh-replay/issues/5244#issuecomment-7053018901) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M000573](https://github.com/rohanarun/alpoge-rh-replay/issues/5274#issuecomment-7052557169) | Pending review |
 | [@iAndyHD3](https://github.com/iAndyHD3) | [M018492](https://github.com/rohanarun/alpoge-rh-replay/issues/5291#issuecomment-7052683175) | Pending review |
-| [@agi-for-my-llama](https://github.com/agi-for-my-llama) | [M064520](https://github.com/rohanarun/alpoge-rh-replay/issues/5310#issuecomment-7052820917) | Pending review |
