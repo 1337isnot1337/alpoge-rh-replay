@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FirstCohomology.PrimeLogSum",
+  "source_sha256": "03a94b48fd26e5f6d642ff7c73649d2628bd759ae89b9be6d1c716a4bdd444b3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the target name primorial_le_four_pow for the same bound. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0169-lean436-20261121/packet-result.json"
+}

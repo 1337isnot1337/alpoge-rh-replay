@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.HNormA",
+  "source_sha256": "3a453a5aaafa8198572712d03a01450a828aca8b60c4e490f7b49fcd73fa0b00",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the target lemma Polynomial.eval\u2082_finsetSum for the same operation and hypotheses. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0169-lean436-20261121/packet-result.json"
+}

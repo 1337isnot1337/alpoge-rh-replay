@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterDivSuppAC.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterDivSuppAC.lean
+@@ -82,7 +82,7 @@
+   refine ⟨s, fun M hM => ?_⟩
+   haveI := hM
+   haveI hmax : (M.under (MvPolynomial (Fin s) k)).IsMaximal :=
+-    Ideal.isMaximal_comap_of_isIntegral_of_isMaximal M
++    Ideal.isMaximal_under_of_isIntegral_of_isMaximal M
+   haveI : M.LiesOver (M.under (MvPolynomial (Fin s) k)) := ⟨rfl⟩
+   rw [Ideal.height_eq_height_add_of_liesOver_of_hasGoingDown (M.under (MvPolynomial (Fin s) k)) M,
+     height_mvPolynomial_fin_of_isMaximal s _ hmax, height_map_under_eq_zero M, add_zero]

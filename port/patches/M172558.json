@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.MultihomogeneousIdeals.SwapLoc",
+  "source_sha256": "44e615f4acd10f2688222ee53a8c5774c50eed734883b23f45239d3b2964c4ab",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the renamed localization contraction lemma; Ideal.under unfolds to the same comap. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0169-lean436-20261121/packet-result.json"
+}

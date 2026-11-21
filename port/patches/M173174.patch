@@ -1,0 +1,15 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/CoeffPsiBNeZero.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/CoeffPsiBNeZero.lean
+@@ -46,10 +46,10 @@
+     (s : Fin B × Fin n →₀ ℕ) (hs : s ∈ f.support) : (psiB b f).coeff (bw b s) ≠ 0 := by
+   classical
+   intro h0
+-  have h1 := congrArg (MvPolynomial.coeff s) h0
++  have h1 := congrArg (fun p : MvPolynomial (Fin B × Fin n) K => p.coeff s) h0
+   conv at h1 => lhs; rw [f.as_sum]
+   rw [map_sum, Polynomial.finsetSum_coeff, coeff_sum] at h1
+-  simp only [psiB_monomial, Polynomial.coeff_C_mul_X_pow, coeff_zero] at h1
++  simp only [psiB_monomial, Polynomial.coeff_C_mul_X_pow, AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply] at h1
+   rw [Finset.sum_eq_single s] at h1
+   · simp at h1; exact (mem_support_iff.1 hs) h1
+   · intro s' _ hne

@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.SymExp",
+  "source_sha256": "713b1c44ff8b28bc1c5ad3506e8a01c181073e538e7bc9f91e6e8e06ff3a0e15",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent multilinear-map type adaptation: the target MultilinearMap takes a scalar ring homomorphism; RingHom.id \u211d specializes it to the original real multilinear maps. Domains, codomains, operations, quantifiers and symmetry conditions are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0169-lean436-20261121/packet-result.json"
+}
