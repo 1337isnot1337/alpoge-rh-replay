@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.CurveDVRSpecialization.GlobProp",
+  "source_sha256": "1363c4db136fb262902705fb6e1cd640560e685a2f94917b43c9f0440d7af45a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: annotate the finite-subset witnesses with the already specified good/bad component predicates so Lean infers the intended sets. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0132-lean436-20261121/packet-result.json"
+}

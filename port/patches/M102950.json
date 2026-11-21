@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.ConvexNerveComplexes.VertFinite",
+  "source_sha256": "2bdb52332476ff32c2c11f57ec77c826275e63010a8049a3f11dee6331f7f2ff",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0132-lean436-20261121/packet-result.json"
+}

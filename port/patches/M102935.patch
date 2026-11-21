@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/AltDoubleSum.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ConvexNerveComplexes/AltDoubleSum.lean
+@@ -60,7 +60,7 @@
+     rw [two_nsmul, smul_zero]
+     nth_rewrite 1 [hneg]
+     exact neg_add_cancel S
+-  exact nsmul_right_injective (by norm_num) h2
++  exact (nsmul_eq_zero_iff_right (by norm_num : (2 : ℕ) ≠ 0)).mp (by simpa using h2)
+ 
+ theorem UpperTheory.V.ConeExtensionAcyclic.bd_bd :
+     ∀ (I : Type) (n : ℕ) (c : Ch I (n + 2)), bd I n (bd I (n + 1) c) = 0 := by

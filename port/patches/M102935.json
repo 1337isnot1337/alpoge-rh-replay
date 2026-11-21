@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.ConvexNerveComplexes.AltDoubleSum",
+  "source_sha256": "14532c174a335955dd9de1b5854f7b96444195d62137b0026f7a67850c26bed6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: cancel the nonzero natural scalar using nsmul_eq_zero_iff_right, which uses the existing IsAddTorsionFree hypothesis. No stronger HasUniqueDiv assumption is introduced. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0132-lean436-20261121/packet-result.json"
+}
