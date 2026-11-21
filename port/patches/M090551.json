@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.CardHomVanishingOfDiagBasis",
+  "source_sha256": "c4c496401d4662c907feb1059772a96c8c1950b7c0c60f4fbdf99df980047cab",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename Finsupp.coe_finset_sum to Finsupp.coe_finsetSum. Statements are unchanged."
+}

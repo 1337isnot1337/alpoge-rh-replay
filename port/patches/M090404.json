@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SummableProdPi",
+  "source_sha256": "d307041f98de4418c268539524912def4a392de528cc2754727ffdca35406af5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_le_prod\u2080 instead of Finset.prod_le_prod for nonnegativity on \u211d. Statement is unchanged."
+}

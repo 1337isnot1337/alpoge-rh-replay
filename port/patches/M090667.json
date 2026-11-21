@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsPrimeDimensionLEOneAvoiding",
+  "source_sha256": "b408f7a37978a0eefcdbe1ef50265b6fd395e9d7c3d6d59319c442bd78d0bb3f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite Ideal.under_def before hQc on hlt' and update Ideal.isMaximal_of_isIntegral_of_isMaximal_comap to Ideal.isMaximal_of_isIntegral_of_isMaximal_under. Statements are unchanged."
+}

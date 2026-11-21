@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/ExistsAlgHomNeZeroOfCountable.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/ExistsAlgHomNeZeroOfCountable.lean
+@@ -69,7 +69,7 @@ theorem exists_algHom_ne_zero_of_countable (E : Type) [CommRing E] [IsDomain E]
+   have h2 : r ∈ Q := Ideal.Quotient.eq_zero_iff_mem.1 h1
+   have h3 : n r ∈ Q.comap (algebraMap (MvPolynomial (Fin d) ℂ) E) :=
+     (Ideal.span_singleton_le_iff_mem Q).2 h2 (hnr r (hne r hr))
+-  rw [hQp] at h3
++  rw [← Ideal.under_def, hQp] at h3
+   exact hc (n r) ⟨r, hr, rfl⟩ h3
+ 
+ end GlobalTheory

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.SummableExpNegSumAbs",
+  "source_sha256": "3581facdd1bdb03f5fc0abe17cae5a43155dd812d1bc482d38e34df5f480c103",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_le_prod\u2080 instead of Finset.prod_le_prod for nonnegativity on \u211d. Statements are unchanged."
+}
