@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MajorantSquareBound",
+  "source_sha256": "ada2261802dad8087f70ab519c1409b2b152204cda015ce03b26ceb106c65110",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Ideal.isMaximal_under_of_isIntegral_of_isMaximal and expose Ideal.under as the same ideal comap before rewriting in the extension proof. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0054-lean436-20261121/packet-result.json"
+}
