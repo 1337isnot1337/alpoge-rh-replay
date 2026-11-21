@@ -8,6 +8,7 @@ from urllib.error import HTTPError
 import credit_commit
 import grants
 import submissions
+from claim_comments import COMMENT_FEED, comments_by_issue, repository_comments
 
 
 def issue(n, target, *labels, count=1):
@@ -21,6 +22,38 @@ def comment(i, n, body, login='github-actions[bot]'):
 
 
 class CoordinatorTests(unittest.TestCase):
+    def test_late_submission_and_edit_survive_capped_comment_windows(self):
+        claim = issue(1, 'M000001')
+        def entry(number, second, body):
+            return dict(comment(claim, number, body, 'owner'),
+                        updated_at=f'2026-11-21T07:00:{second:02d}Z')
+
+        before = entry(1, 1, 'Initial text')
+        same_second = [entry(n, 2, 'Progress') for n in (2, 3, 4)]
+        edited = entry(1, 4, 'Edited text')
+        late = entry(5, 5, 'Replay submission')
+        read = Mock(side_effect=[
+            [before, entry(6, 1, 'Progress'), *same_second[:2]],
+            [*same_second, edited],
+            [edited, late],
+        ])
+        histories = comments_by_issue([claim], repository_comments(read, window_size=4))
+        self.assertEqual([c.args[0] for c in read.call_args_list], [
+            COMMENT_FEED, COMMENT_FEED + '&since=2026-11-21T07:00:01Z',
+            COMMENT_FEED + '&since=2026-11-21T07:00:03Z'])
+        result = histories[1]
+        self.assertEqual(len(result), 6)
+        self.assertEqual({c['id']: c['body'] for c in result}, {
+            1: 'Edited text', 2: 'Progress', 3: 'Progress', 4: 'Progress',
+            5: 'Replay submission', 6: 'Progress'})
+
+    def test_saturated_second_stops_instead_of_silently_losing_comments(self):
+        row = {'id': 1, 'updated_at': '2026-11-21T07:00:00Z'}
+        read = Mock(return_value=[row])
+        with self.assertRaisesRegex(RuntimeError, 'did not advance'):
+            list(repository_comments(read, window_size=1))
+        self.assertEqual(read.call_count, 2)
+
     def test_batched_credit_commit_uses_changed_issue_authors_once(self):
         readme_diff = """-| [@one](https://github.com/one) | [P0001](https://github.com/r/p/issues/1) | Claimed |
 +| [@one](https://github.com/one) | [P0001](https://github.com/r/p/issues/1#issuecomment-12) | Pending review |
