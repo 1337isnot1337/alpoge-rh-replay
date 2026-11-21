@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsDyadicShellIndex",
+  "source_sha256": "23b7d2efa9815dc043de7a715f0a5c2e7a78e299554e85d2702126f55b3f3436",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use Finset.prod_le_prod\u2080 with the original nonnegativity and pointwise inequality witnesses. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0116-lean436-20261121/packet-result.json"
+}

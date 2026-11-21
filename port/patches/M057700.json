@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsNetCardLeOfSubsetClosedBall",
+  "source_sha256": "3b25eab8f60de0b47bd9bb70b84a9aec1169b277771e70b551a687bc37641de6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0116-lean436-20261121/packet-result.json"
+}
