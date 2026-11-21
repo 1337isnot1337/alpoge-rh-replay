@@ -4,6 +4,9 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M124449](https://github.com/rohanarun/alpoge-rh-replay/issues/8839#issuecomment-7054755050) | Pending review |
+| [@loremcdmx](https://github.com/loremcdmx) | [M097529](https://github.com/rohanarun/alpoge-rh-replay/issues/8840#issuecomment-7054796062) | Pending review |
+| [@loremcdmx](https://github.com/loremcdmx) | [M005119](https://github.com/rohanarun/alpoge-rh-replay/issues/8841#issuecomment-7054796883) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M098429](https://github.com/rohanarun/alpoge-rh-replay/issues/8842#issuecomment-7054755584) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M158811](https://github.com/rohanarun/alpoge-rh-replay/issues/8843#issuecomment-7054831249) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M148924](https://github.com/rohanarun/alpoge-rh-replay/issues/8844#issuecomment-7054832126) | Pending review |
@@ -251,6 +254,3 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M169381](https://github.com/rohanarun/alpoge-rh-replay/issues/9122#issuecomment-7055068147) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M005403](https://github.com/rohanarun/alpoge-rh-replay/issues/9123#issuecomment-7054905430) | Pending review |
 | [@roonastgames](https://github.com/roonastgames) | [M164293](https://github.com/rohanarun/alpoge-rh-replay/issues/9124#issuecomment-7054926022) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M125308](https://github.com/rohanarun/alpoge-rh-replay/issues/9125#issuecomment-7054959128) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M113386](https://github.com/rohanarun/alpoge-rh-replay/issues/9127#issuecomment-7054959684) | Pending review |
-| [@ljagiello](https://github.com/ljagiello) | [M165518](https://github.com/rohanarun/alpoge-rh-replay/issues/9128#issuecomment-7054902875) | Pending review |

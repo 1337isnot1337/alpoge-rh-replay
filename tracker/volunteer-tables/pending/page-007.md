@@ -4,6 +4,9 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M125308](https://github.com/rohanarun/alpoge-rh-replay/issues/9125#issuecomment-7054959128) | Pending review |
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M113386](https://github.com/rohanarun/alpoge-rh-replay/issues/9127#issuecomment-7054959684) | Pending review |
+| [@ljagiello](https://github.com/ljagiello) | [M165518](https://github.com/rohanarun/alpoge-rh-replay/issues/9128#issuecomment-7054902875) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M001906](https://github.com/rohanarun/alpoge-rh-replay/issues/9129#issuecomment-7054960308) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M069707](https://github.com/rohanarun/alpoge-rh-replay/issues/9130#issuecomment-7054960976) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M065531](https://github.com/rohanarun/alpoge-rh-replay/issues/9132#issuecomment-7054939331) | Pending review |
@@ -251,6 +254,3 @@
 | [@ANdATIon](https://github.com/ANdATIon) | [M132824](https://github.com/rohanarun/alpoge-rh-replay/issues/9384#issuecomment-7055083660) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M087548](https://github.com/rohanarun/alpoge-rh-replay/issues/9385#issuecomment-7055077837) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M121046](https://github.com/rohanarun/alpoge-rh-replay/issues/9386#issuecomment-7055082000) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M019419](https://github.com/rohanarun/alpoge-rh-replay/issues/9387#issuecomment-7055037212) | Pending review |
-| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M173751](https://github.com/rohanarun/alpoge-rh-replay/issues/9388#issuecomment-7055081955) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M018589](https://github.com/rohanarun/alpoge-rh-replay/issues/9389#issuecomment-7055067519) | Pending review |

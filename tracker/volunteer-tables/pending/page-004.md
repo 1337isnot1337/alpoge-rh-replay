@@ -4,6 +4,9 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@BenCaunt](https://github.com/BenCaunt) | [M061299](https://github.com/rohanarun/alpoge-rh-replay/issues/8061#issuecomment-7054588979) | Pending review |
+| [@egergerfg](https://github.com/egergerfg) | [M165330](https://github.com/rohanarun/alpoge-rh-replay/issues/8062#issuecomment-7054082213) | Pending review |
+| [@ANdATIon](https://github.com/ANdATIon) | [M102198](https://github.com/rohanarun/alpoge-rh-replay/issues/8063#issuecomment-7054082343) | Pending review |
 | [@amrehan](https://github.com/amrehan) | [M142791](https://github.com/rohanarun/alpoge-rh-replay/issues/8066#issuecomment-7054087298) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M044388](https://github.com/rohanarun/alpoge-rh-replay/issues/8067#issuecomment-7054081824) | Pending review |
 | [@amrehan](https://github.com/amrehan) | [M062870](https://github.com/rohanarun/alpoge-rh-replay/issues/8068#issuecomment-7054088453) | Pending review |
@@ -251,6 +254,3 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M038650](https://github.com/rohanarun/alpoge-rh-replay/issues/8422#issuecomment-7054503471) | Pending review |
 | [@egergerfg](https://github.com/egergerfg) | [M165025](https://github.com/rohanarun/alpoge-rh-replay/issues/8423#issuecomment-7054417266) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M046113](https://github.com/rohanarun/alpoge-rh-replay/issues/8424#issuecomment-7054504118) | Pending review |
-| [@emsi](https://github.com/emsi) | [P1910](https://github.com/rohanarun/alpoge-rh-replay/issues/8425#issuecomment-7056169022) | Pending review |
-| [@amrehan](https://github.com/amrehan) | [M146040](https://github.com/rohanarun/alpoge-rh-replay/issues/8426#issuecomment-7054414751) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M059316](https://github.com/rohanarun/alpoge-rh-replay/issues/8427#issuecomment-7054504740) | Pending review |
