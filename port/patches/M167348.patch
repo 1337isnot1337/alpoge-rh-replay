@@ -1,0 +1,31 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneCoeff.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneCoeff.lean
+@@ -14,7 +14,7 @@
+ 
+ theorem flagInt_unit_eq (N : ℕ) (P : RootPoly Unit N) :
+     flagInt Unit N P =
+-      ∑ σ : Equiv.Perm (Fin N), ((Equiv.Perm.sign σ : ℤ) : ℚ) * coeff (rhoPerm N σ) P := by
++      ∑ σ : Equiv.Perm (Fin N), ((Equiv.Perm.sign σ : ℤ) : ℚ) * P.coeff (rhoPerm N σ) := by
+   unfold flagInt antisym
+   rw [coeff_sum, ← (Equiv.funUnique Unit (Equiv.Perm (Fin N))).symm.sum_comp]
+   refine Finset.sum_congr rfl fun σ _ => ?_
+@@ -29,7 +29,7 @@
+       ext ⟨⟨⟩, k⟩
+       obtain ⟨i, rfl⟩ := σ.surjective k
+       have : ((), σ i) = weylAct Unit N ((Equiv.funUnique Unit _).symm σ) ((), i) := rfl
+-      rw [this, Finsupp.mapDomain_apply hinj]
++      rw [this, Finsupp.mapDomain_apply_of_injective hinj]
+       simp [rhoMono, rhoPerm, weylAct]
+     rw [hρ, coeff_rename_mapDomain _ hinj]
+ 
+@@ -41,8 +41,8 @@
+   split_ifs <;> simp_all
+ 
+ theorem coeff_muPow_rhoBlock (j m : ℕ) (σ : Equiv.Perm (Fin (j + m))) :
+-    coeff (rhoPerm (j + m) σ)
+-        (muPoly Unit (j + m) j ^ (j * m) * monomial (rhoBlock Unit (j + m) j) 1) =
++    (muPoly Unit (j + m) j ^ (j * m) * monomial (rhoBlock Unit (j + m) j) 1).coeff
++        (rhoPerm (j + m) σ) =
+       ((j * m).factorial : ℚ) * ∏ i, flagMat j m i (σ i) := by
+   set d := rhoPerm (j + m) σ with hd
+   set s := rhoBlock Unit (j + m) j with hs

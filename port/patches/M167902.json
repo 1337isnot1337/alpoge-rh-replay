@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.Intersections.PRelBaseChange",
+  "source_sha256": "88d251d975d29e9deeeefc20de44c699e7812968ded6f325996ade8f765d8fca",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the target tensor-product induction, which treats zero via the pure tensor case."
+}

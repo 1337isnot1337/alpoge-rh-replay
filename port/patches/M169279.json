@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Inhabitants",
+  "source_sha256": "02dc308e9851a955c3d6caa8d708939e3639446843b920adc7d33fa3e576782a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the target coefficient accessor for the same two coefficient expressions."
+}
