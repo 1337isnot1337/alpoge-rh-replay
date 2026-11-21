@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FlagMeasures.SizeIntegralsAndCardCompositions",
+  "source_sha256": "1bacc5146bc1f3edcc9a7ccb6bb6f0974d911447ef36f3fa42e506845e596d1a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_le_one₀ for the product estimate with nonnegative real factors."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FlagMeasures.ZetaProdSphereVolumeBounds",
+  "source_sha256": "7c2d82a85f7deaaa853283896750ea119b51d62859cefac9be8b02c034688906",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_le_prod₀ with the existing nonnegativity bound on the zeta factors."
+}

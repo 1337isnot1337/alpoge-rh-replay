@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FlagMeasures.MeasurePreservingCons",
+  "source_sha256": "f6fbee5c1439bc2d5d8b0e834ebe3fdde592d380f3422d85512be288de412240",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Measurable.of_eval for measurable matrix-valued maps. The coordinate function is implicit in the target API."
+}

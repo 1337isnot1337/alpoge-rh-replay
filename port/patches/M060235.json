@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FlagMeasures.SummableAndTsumLeOfBoxCount",
+  "source_sha256": "3cd753df52de6409a8de9a87608e94229a3af286e7fb25d58714842c92e29bf1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_le_prod₀ for the real product estimate and its existing nonnegativity proof."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FlagMeasures.SpanInfEq",
+  "source_sha256": "a815599178d35c4c913f5c755ef8fdc68985fcfd9b52da21ebdc06030d79f950",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "In exists_smul_mem, span_inf_eq and main, the pinned Submodule.IsLattice hypothesis meant finite generation and full span. On the target this is Submodule.IsFullLattice. Over the ring of integers of K, with fraction field K, Submodule.IsLattice.of_fg supplies the independence field from finite generation. The old and new hypotheses are therefore equivalent."
+}

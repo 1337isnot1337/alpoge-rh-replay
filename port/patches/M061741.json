@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIntGeneratorsCardEqOfIsLatticePi",
+  "source_sha256": "1e0e538decbd88c40c03031d6f13245ef1b973f3a63ac3df9eb66a5e1f63911f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "In mem_ratSpan_of_isLattice_pi and exists_intGenerators_card_eq_of_isLattice_pi, use Submodule.IsFullLattice for the pinned finitely generated, full-span hypothesis. Since E is the fraction field of its ring of integers, Submodule.IsLattice.of_fg gives the independence field of the target class. Use its span projection and Submodule.IsLattice.finite in the proofs."
+}

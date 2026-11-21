@@ -1,0 +1,12 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/TendstoOfSqueeze.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/TendstoOfSqueeze.lean
+@@ -73,7 +73,8 @@
+     rw [e] at T
+     refine ge_of_tendsto (ENNReal.Tendsto.const_mul T (Or.inr ENNReal.coe_ne_top)) ?_
+     filter_upwards [Ioc_mem_nhdsGT hδ] with r hr
+-    exact (measure_mono fun y (hy : f y ≤ 0) => le_trans hy hr.1.le).trans (H r hr.1 hr.2)
++    have hsub : {y | f y ≤ 0} ⊆ {y | f y ≤ r} := fun _ hy => le_trans hy hr.1.le
++    exact (measure_mono hsub).trans (H r hr.1 hr.2)
+   · exact H s h hs
+ 
+ theorem sqrt_set {A : Type*} (f : A → ℝ) {r : ℝ} (hr : 0 ≤ r) :

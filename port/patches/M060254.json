@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FlagMeasures.TendstoOfSqueeze",
+  "source_sha256": "769dad2af8729e19b76a2571fe8adf21ffb276254f543712402bcda0375d926a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Give the inclusion of the two sublevel sets its explicit type before applying measure_mono."
+}

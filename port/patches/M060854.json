@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.AbsNormSqOfMulConjEqDifferentIdeal",
+  "source_sha256": "5d00f2dd665c755b2c162cdb51aa35fbccb5184f45b7729a932a8586c175710e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Derive Infinite R from the existing free ℤ-module structure and nontriviality using Module.Free.infinite before applying Ideal.absNorm_apply."
+}
