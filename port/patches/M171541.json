@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.Chebotarev.AbsProdSubProdLeSumAbsSub",
+  "source_sha256": "4b39d28a76a0f3f4e3ab8c1dc90875f1a071a09c879aa7f2495883e51ba87cd1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the product comparison for nonnegative factors for both the absolute-value and tent-function bounds."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.Chebotarev.CrossFix",
+  "source_sha256": "20d38e5595477e7136f520a1ba795430a07ff00dfe9b430c6395fdacb29f672d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

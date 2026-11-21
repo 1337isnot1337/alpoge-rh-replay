@@ -1,0 +1,7 @@
+{
+  "module": "Lemmata.PowMulVecEigenvalue.PowMulVecEig",
+  "source_sha256": "ac0211ef76484ba0ddddb8ca94b41413aba0ef3a187322532e0d7d55c26491b9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

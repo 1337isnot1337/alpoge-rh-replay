@@ -1,0 +1,7 @@
+{
+  "module": "Lemmata.ProductIdentities.ProdInvZpowMulOfProdZpowEqOne",
+  "source_sha256": "b531b3c93e3371ad80d278c045aa33726024773bb51bbb1f8009606b49cb3d5b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

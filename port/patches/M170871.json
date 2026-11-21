@@ -1,0 +1,7 @@
+{
+  "module": "Lemmata.NearbyExistence.ExistsNear",
+  "source_sha256": "8ccfcabcebad73368102aebd139c6f2d5d06c6bbc2e9bda1b71ff1636bfc7971",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

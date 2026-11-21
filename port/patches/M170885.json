@@ -1,0 +1,7 @@
+{
+  "module": "Lemmata.SecondBlockLemmaA.Imports",
+  "source_sha256": "781920b611619cf59d2d5fa416663fe73e8edb5ee67da0f2ab0ec13da6d6e2ba",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

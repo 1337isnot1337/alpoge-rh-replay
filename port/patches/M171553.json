@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.Chebotarev.CyclotomicIrreducibleOfForallIsUnramifiedAt",
+  "source_sha256": "d4b66f3a8ccab57ffc7285d7820aefa4a28c7809b2911fc0a0b168a6f39d4e5f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

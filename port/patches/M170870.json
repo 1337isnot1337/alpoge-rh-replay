@@ -1,0 +1,7 @@
+{
+  "module": "Lemmata.NatMulIsIntegral.ExistsNatMulIsIntegral",
+  "source_sha256": "88d526e31dc9b9b0bf3e92e371efd41f335875bc18f96a4303da3b0513a62c2b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

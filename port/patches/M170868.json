@@ -1,0 +1,7 @@
+{
+  "module": "Lemmata.MovedPointExistence.ExistsMoved",
+  "source_sha256": "75b1f414000def245f822bb873f636ff8913506d5753c1327c436949517e6cee",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

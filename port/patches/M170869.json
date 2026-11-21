@@ -1,0 +1,7 @@
+{
+  "module": "Lemmata.MultivariateIntegrals.IntegralMv",
+  "source_sha256": "d1ebc8e86f9feb587d7b8401caaecee329d9453679e3816d8ac35008cf51864b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

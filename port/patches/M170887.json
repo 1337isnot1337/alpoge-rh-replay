@@ -1,0 +1,7 @@
+{
+  "module": "Lemmata.SmulListSum.SmulListSum",
+  "source_sha256": "07e6a06f4a6b626a3b03c1a838b61f222ee04e507d8c16fccb01d90054d16bdb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

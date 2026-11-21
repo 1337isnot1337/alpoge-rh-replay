@@ -1,0 +1,11 @@
+--- a/src/PositivityTheory/AutomorphicForms/PublishedInputs/JacquetLanglands/TorusKernels/SigmaFiniteInverseAbsDensity.lean
++++ b/src/PositivityTheory/AutomorphicForms/PublishedInputs/JacquetLanglands/TorusKernels/SigmaFiniteInverseAbsDensity.lean
+@@ -53,7 +53,7 @@
+   have hc : ENNReal.ofReal |t| * ENNReal.ofReal |t⁻¹| = 1 := by
+     rw [← ENNReal.ofReal_mul (abs_nonneg t), ← abs_mul, mul_inv_cancel₀ ht, abs_one, ENNReal.ofReal_one]
+   conv_lhs => rw [hpt]
+-  rw [Measure.map_smul, map_withDensity_comp_of_measurableEmbedding hemb volume (fun y : ℝ => ENNReal.ofReal (1 / |y|)),
++  rw [Measure.map_smul _ hemb.measurable.aemeasurable, map_withDensity_comp_of_measurableEmbedding hemb volume (fun y : ℝ => ENNReal.ofReal (1 / |y|)),
+     Real.map_volume_mul_left ht, withDensity_smul_measure, smul_smul, hc, one_smul]
+ 
+ instance sigmaFinite_inverse_abs_density : SigmaFinite nu1 :=

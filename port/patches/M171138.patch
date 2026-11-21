@@ -1,0 +1,14 @@
+--- a/src/PositivityTheory/AutomorphicForms/PublishedInputs/JacquetLanglands/TorusKernels/IntegralProdLog.lean
++++ b/src/PositivityTheory/AutomorphicForms/PublishedInputs/JacquetLanglands/TorusKernels/IntegralProdLog.lean
+@@ -47,9 +47,9 @@
+     push_cast
+     ring
+   simp_rw [key]
+-  rw [integral_add (hP.const_mul _) (integrable_finset_sum _ fun w _ => (hψP w).const_mul _),
++  rw [integral_add (hP.const_mul _) (integrable_finsetSum _ fun w _ => (hψP w).const_mul _),
+     integral_const_mul, hφzero,
+-    integral_finset_sum _ fun w _ => (hψP w).const_mul _]
++    integral_finsetSum _ fun w _ => (hψP w).const_mul _]
+   simp [integral_const_mul, hψzero]
+ 
+ end UpperTheory.Esk.UnipotentIntegrandLemmas

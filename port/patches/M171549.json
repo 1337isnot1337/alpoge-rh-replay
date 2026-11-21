@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.Chebotarev.CrossRes",
+  "source_sha256": "83acf4d7d536c57c3720d3acd9c9641c987932bd927813314ad3d98b7305a07c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.Automorphisms.Unitary",
+  "source_sha256": "551b76a2e444b5e24d4a5f0f91c9229c5184c3b540bc4116e8b6fed98a4080f3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

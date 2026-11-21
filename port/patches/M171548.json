@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.Chebotarev.CrossLift",
+  "source_sha256": "f8ed84ee726f8be12292cb12f046afc9190e33fbb32ff719f34055e1264706e4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

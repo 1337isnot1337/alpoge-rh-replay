@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshLap",
+  "source_sha256": "d3b6561a3762ce106e20efe2247081b54e152701887d5430e8eef6e088d603c5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

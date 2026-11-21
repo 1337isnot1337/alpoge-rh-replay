@@ -1,0 +1,10 @@
+--- a/src/Lemmata/MiscLemmasB/Imports.lean
++++ b/src/Lemmata/MiscLemmasB/Imports.lean
+@@ -1,6 +1,7 @@
+ import Mathlib
+ 
+ open MeasureTheory Topology
++open scoped Pointwise
+ 
+ namespace Bl.SecondBlockLemmaC
+ 

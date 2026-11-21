@@ -1,0 +1,7 @@
+{
+  "module": "Lemmata.PadicNatCastNorm.NormNatCastOfNotDvd",
+  "source_sha256": "be700569ea74306a953a791939132a5360bfeb5d4195a1d4d45284d46d190e52",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

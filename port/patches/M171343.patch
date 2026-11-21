@@ -1,0 +1,10 @@
+--- a/src/ReciprocityTheory/AnalyticForms/AnalyticCharts/NullZero.lean
++++ b/src/ReciprocityTheory/AnalyticForms/AnalyticCharts/NullZero.lean
+@@ -88,7 +88,6 @@
+       intro w
+       ext t
+       simp [e, MeasurableEquiv.piFinSuccAbove_symm_apply]
+-      rfl
+     simp_rw [hslice]
+     set t₀ := z₀ 0 with ht₀_def
+     have hz₀' : (Fin.cons t₀ (Fin.tail z₀) : Fin (D + 1) → ℂ) = z₀ := Fin.cons_self_tail z₀

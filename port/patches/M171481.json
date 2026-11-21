@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.RegularLocalRings.FromSpecResidueFieldAppTopIso",
+  "source_sha256": "3e3ab0b02a677674c14e8cc5eac09cd276bbabdc33f6166545087203c6c2fa49",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

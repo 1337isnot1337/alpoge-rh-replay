@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshPoisson",
+  "source_sha256": "a18b13a5ae4df9a34adcb2bde3aaf56763578be14e3e29978ff1cebba570edfe",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Give the numerator and denominator as typed continuous functions. Name the same nonnegative radius and use Metric.eball_coe to apply the original ball hypothesis to the Cauchy power series."
+}

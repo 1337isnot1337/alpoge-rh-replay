@@ -1,0 +1,7 @@
+{
+  "module": "Lemmata.PowerApplication.PowApp",
+  "source_sha256": "8fc8813c2945f1d0998f749373017e5e198119c0315a3f72776272cd157999cc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
