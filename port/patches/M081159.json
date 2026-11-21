@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NormSmulLeOneOfPrimitiveBoundedPowers",
+  "source_sha256": "bee2085676b6f3a07f6c502ecf64b3ec537950d8ff9c2bb7155b9a63f13961f9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use multiplicity in a local auxiliary equality, matching the updated valuation lemmas, and pass primality explicitly to the factorial identity. padicValNat_def equates the old and new quantities. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0036-lean436-20261121/packet-result.json"
+}

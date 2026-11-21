@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ImportsFurther",
+  "source_sha256": "a34c83f15f52ee14db95a92ee39f22b7d59df2fce10fd3f579c09729329fc60d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Express the local ideal membership as membership in Ideal.under before rewriting. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0036-lean436-20261121/packet-result.json"
+}

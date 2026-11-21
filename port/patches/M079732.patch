@@ -1,0 +1,10 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ImportsFurther.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ImportsFurther.lean
+@@ -15,6 +15,7 @@
+   obtain ⟨Q, hQ, hQc⟩ := Ideal.exists_ideal_over_maximal_of_isIntegral (Ideal.span {(l : ℤ)}) hker
+   have hlQ : ((l : ℕ) : NumberField.RingOfIntegers K) ∈ Q := by
+     have h1 : (l : ℤ) ∈ Q.comap (algebraMap ℤ (NumberField.RingOfIntegers K)) := by
++      change (l : ℤ) ∈ Q.under ℤ
+       rw [hQc]
+       exact Ideal.subset_span rfl
+     simpa using h1

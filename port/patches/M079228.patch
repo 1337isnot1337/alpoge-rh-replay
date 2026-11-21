@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/GaussianPhaseCriticalValueBlocksGeneral.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/GaussianPhaseCriticalValueBlocksGeneral.lean
+@@ -50,7 +50,7 @@
+     apply inv_eq_left_inv
+     have h1 : (1 - T * S) = fromBlocks (1 - B * C) 0 0 (1 - C * B)ᵀ := by
+       simp only [T, S, fromBlocks_multiply, ← fromBlocks_one]
+-      ext (i | i) (j | j) <;> simp [transpose_mul, one_apply, eq_comm]
++      ext (i | i) (j | j) <;> simp [transpose_mul, Matrix.one_apply, eq_comm]
+     rw [h1, fromBlocks_multiply, ← transpose_mul, hM1, hN2]
+     simp
+   have hw : w = Sum.elim (M *ᵥ (c + B *ᵥ b)) (Nᵀ *ᵥ (d + Bᵀ *ᵥ a)) := by

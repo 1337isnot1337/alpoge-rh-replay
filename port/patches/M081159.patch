@@ -1,0 +1,17 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/NormSmulLeOneOfPrimitiveBoundedPowers.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/NormSmulLeOneOfPrimitiveBoundedPowers.lean
+@@ -37,12 +37,12 @@
+   have hlt : ‖(p : C)‖ < 1 := by rw [h]; exact inv_lt_one_of_one_lt₀ hp1
+   obtain ⟨v, m, hm, hv⟩ := Nat.exists_eq_pow_mul_and_not_dvd (Nat.factorial_ne_zero n) p
+     hp.out.ne_one
+-  have hval : padicValNat p n.factorial = v := by
++  have hval : multiplicity p n.factorial = v := by
+     have hm0 : m ≠ 0 := by rintro rfl; exact hm (dvd_zero _)
+     rw [hv, padicValNat.mul (pow_ne_zero _ hp.out.ne_zero) hm0, padicValNat.prime_pow,
+       padicValNat.eq_zero_of_not_dvd hm, add_zero]
+   have hle : (p - 1) * v ≤ n := by
+-    rw [← hval, sub_one_mul_padicValNat_factorial]
++    rw [← hval, hp.out.sub_one_mul_multiplicity_factorial]
+     exact Nat.sub_le _ _
+   have hle' : ((p : ℝ) - 1) * v ≤ n := by
+     have : (((p - 1) * v : ℕ) : ℝ) ≤ n := by exact_mod_cast hle

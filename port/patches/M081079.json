@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.NonemptyAlgHomAlgebraicClosure",
+  "source_sha256": "90fb1a6a555c992e752996a063332bdce14801574aafb8793de5739b11fcc633",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use isIntegral_algebraMap_iff with its implicit injectivity instance. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0036-lean436-20261121/packet-result.json"
+}

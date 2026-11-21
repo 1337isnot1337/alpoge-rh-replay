@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsReducedOfNonZeroDivisorMemJacobsonOfAssociated",
+  "source_sha256": "ec5b1b24891f1b94117ea9e965506fdea18d0b455ceb039e634436fc338ecf82",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Convert the local radical membership using Ideal.jacobson_bot. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0036-lean436-20261121/packet-result.json"
+}
