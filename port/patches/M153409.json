@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PadicSubsetSums.StableGradedCounts.TOPSgLe",
+  "source_sha256": "bf1e0f626da3c94c0a07314b05dd0bb3d2ed41cf53d0fa7867f8be5cbcece0b0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0151-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.EagonNorthcottSpec",
+  "source_sha256": "a423e22eef98fc064e1b86ec2ee0fdd13b90905ddacfe1d2cab3c7b0fde42091",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0151-lean436-20261121/packet-result.json"
+}

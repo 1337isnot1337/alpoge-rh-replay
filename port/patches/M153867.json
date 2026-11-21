@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.PhProdConv",
+  "source_sha256": "dd6a0b5b333f8a9db361968811aeaa893377c442577e26083b6cf632b74e1d27",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: specify the coordinate functions and measures in both finite-product integrability applications. This avoids underconstrained elaboration while retaining the same integrability and convolution conclusions. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0151-lean436-20261121/packet-result.json"
+}

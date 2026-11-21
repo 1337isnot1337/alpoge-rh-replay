@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.NormUnitaryBounds.DetPolynomialWeights.NormUnitary",
+  "source_sha256": "aad30453d88e8317002e862967752e88552b0f4c2aa270222691a915a151f49d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent coefficient API adaptation in definitions and lemmas: use the same exponent and polynomial with polynomial.coeff index. T, ip and FR retain their exact formulas, factorial weights and scalar fields.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0151-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.SqfDivDeg",
+  "source_sha256": "c468b004101a15ced60c152b02cf8bef9f5c86ea7851ea17cf16d018b068595e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0151-lean436-20261121/packet-result.json"
+}

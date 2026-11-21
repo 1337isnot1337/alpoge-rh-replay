@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.IdealLattice",
+  "source_sha256": "8c6a16a3a9a0512d5dd78ff0e5e6b7019388582989479f11fa9211992eedd6d1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0151-lean436-20261121/packet-result.json"
+}

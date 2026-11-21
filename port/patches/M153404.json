@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PadicSubsetSums.StableGradedCounts.PadicValCardGL",
+  "source_sha256": "ca3b9a4d403175128e678e3eb3652491d56f18397d2ceb926c51991f16e7d57b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent valuation API adaptation: Nat.padicValNat_def proves padicValNat p n = multiplicity p n for all natural p,n, including the zero and one edge cases. Use multiplicity in the local lemmas and normalize imported statement predicates by this equality. No primality, bounds or quantifiers change.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0151-lean436-20261121/packet-result.json"
+}

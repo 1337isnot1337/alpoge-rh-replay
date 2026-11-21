@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.JointBlockShapes.JointShape",
+  "source_sha256": "643c61bdf5e1bd8ef068005c4edc17d8c78071f2ea4f1f9bd480e3d84cbd2fd2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0151-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.HeisNorm",
+  "source_sha256": "ae80ddb04e51cb7366a02c8825dd54c323c468bfbb180fc2a8679b80772274a1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0151-lean436-20261121/packet-result.json"
+}

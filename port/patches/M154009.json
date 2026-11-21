@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.WedgeDetNz",
+  "source_sha256": "78943ed3e4b41e0f570032baae6727cf8ff14f4a462d9dbf80da417ac7340f40",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0151-lean436-20261121/packet-result.json"
+}

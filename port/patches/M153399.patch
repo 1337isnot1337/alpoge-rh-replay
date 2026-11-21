@@ -1,0 +1,60 @@
+--- a/src/Formalism/PadicSubsetSums/StableGradedCounts/LiftingTheExponent.lean
++++ b/src/Formalism/PadicSubsetSums/StableGradedCounts/LiftingTheExponent.lean
+@@ -3,7 +3,7 @@
+ namespace Formalism.IrreducibleCountingLemmas.WindowSums
+ 
+ theorem sum_one_add_val (l : ℕ) [Fact l.Prime] (n : ℕ) :
+-    ∑ i ∈ Finset.range n, (1 + padicValNat l (i + 1)) = n + padicValNat l n.factorial := by
++    ∑ i ∈ Finset.range n, (1 + multiplicity l (i + 1)) = n + multiplicity l n.factorial := by
+   induction n with
+   | zero => simp
+   | succ n ih =>
+@@ -13,26 +13,27 @@
+     omega
+ 
+ theorem two_mul_val_factorial_le (l : ℕ) [hl : Fact l.Prime] (h2 : l ≠ 2) (n : ℕ) :
+-    2 * padicValNat l n.factorial ≤ n := by
++    2 * multiplicity l n.factorial ≤ n := by
+   have h3 : 3 ≤ l := by have := hl.out.two_le; omega
+-  have key := sub_one_mul_padicValNat_factorial (p := l) n
+-  have hle : (l - 1) * padicValNat l n.factorial ≤ n := by rw [key]; exact Nat.sub_le _ _
+-  have h2le : 2 * padicValNat l n.factorial ≤ (l - 1) * padicValNat l n.factorial :=
++  have key := sub_one_mul_padicValNat_factorial (p := l) (n := n) hl.out
++  have hle : (l - 1) * multiplicity l n.factorial ≤ n := by rw [key]; exact Nat.sub_le _ _
++  have h2le : 2 * multiplicity l n.factorial ≤ (l - 1) * multiplicity l n.factorial :=
+     Nat.mul_le_mul_right _ (by omega)
+   omega
+ 
+ private theorem padicValInt_neg_natCast_add_one (l i : ℕ) :
+-    padicValInt l (-((i : ℤ) + 1)) = padicValNat l (i + 1) := by
++    padicValInt l (-((i : ℤ) + 1)) = multiplicity l (i + 1) := by
+   simp only [padicValInt]
+   rw [show (-((i : ℤ) + 1)).natAbs = i + 1 by omega]
+ 
+ private theorem padicValInt_natCast_add_one (l i : ℕ) :
+-    padicValInt l ((i : ℤ) + 1) = padicValNat l (i + 1) := by
++    padicValInt l ((i : ℤ) + 1) = multiplicity l (i + 1) := by
+   simp only [padicValInt]
+   rw [show ((i : ℤ) + 1).natAbs = i + 1 by omega]
+ 
+ theorem valuationSumBound : LiftExp := by
+   intro l h J hl hl2 hJ h0
++  simp only [Nat.padicValNat_def] at *
+   have : Fact l.Prime := ⟨hl⟩
+   set f : ℤ → ℕ := fun j => 1 + padicValInt l j with hf
+   set A : Finset ℤ := (Finset.range h).image (fun i : ℕ => -((i : ℤ) + 1)) with hA
+@@ -47,12 +48,12 @@
+       exact ⟨(-j - 1).toNat, by rw [Finset.mem_range]; omega, by omega⟩
+     · right
+       exact ⟨(j - 1).toNat, by rw [Finset.mem_range]; omega, by omega⟩
+-  have hA_sum : ∑ j ∈ A, f j = h + padicValNat l h.factorial := by
++  have hA_sum : ∑ j ∈ A, f j = h + multiplicity l h.factorial := by
+     rw [hA, Finset.sum_image (fun x _ y _ e => by simpa using e)]
+     rw [← sum_one_add_val l h]
+     refine Finset.sum_congr rfl (fun i _ => ?_)
+     simp only [hf, padicValInt_neg_natCast_add_one]
+-  have hB_sum : ∑ j ∈ B, f j = 2 * h + padicValNat l (2 * h).factorial := by
++  have hB_sum : ∑ j ∈ B, f j = 2 * h + multiplicity l (2 * h).factorial := by
+     rw [hB, Finset.sum_image (fun x _ y _ e => by simpa using e)]
+     rw [← sum_one_add_val l (2 * h)]
+     refine Finset.sum_congr rfl (fun i _ => ?_)
