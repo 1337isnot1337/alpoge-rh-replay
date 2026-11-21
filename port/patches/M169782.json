@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Theta.LocallyCompactField.Countability",
+  "source_sha256": "53f87d4130779e07e7ae118f05c3823fdcfad2703339906ae8ede9cfe7af3920",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Wrap pointwise neighborhood hypothesis with mem_nhdsSet_iff_forall.mpr for exists_subset_nhds_of_isCompact in Mathlib v4.36.0."
+}

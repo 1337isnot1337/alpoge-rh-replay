@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/HeightsAndTheta/Theta/LocallyCompactField/Countability.lean
++++ b/src/GroundTheory/HeightsAndTheta/Theta/LocallyCompactField/Countability.lean
+@@ -154,7 +154,7 @@
+   refine ⟨t, ht0', ?_⟩
+   intro U hU
+   obtain ⟨n, hn⟩ := exists_subset_nhds_of_isCompact hSanti.directed_ge hSc
+-    (U := U) (fun x hx => by rw [hinter x hx]; exact hU)
++    (U := U) (mem_nhdsSet_iff_forall.mpr fun x hx => by rw [hinter x hx]; exact hU)
+   rw [mem_map, mem_atTop_sets]
+   exact ⟨n, fun m hm => hn (hSanti hm (hSmem m))⟩
+ 

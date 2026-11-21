@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Theta.EisensteinZeta.DedekindZetaSeries.ZetaSevenHalves",
+  "source_sha256": "6af4199777620f423b7e370ce6446ed5d6e56216a9577d70946fb6aba6366ad3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
