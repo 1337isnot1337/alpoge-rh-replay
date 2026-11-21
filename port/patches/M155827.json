@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LocalCartanPairs.SplPlane",
+  "source_sha256": "46a53479508429328427d3bbebf37283a50889d3c4587b26cc3a3ef89e984608",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: adapt renamed or generalized Mathlib lemmas with the same hypotheses and conclusions. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0076-lean436-20261121/packet-result.json"
+}

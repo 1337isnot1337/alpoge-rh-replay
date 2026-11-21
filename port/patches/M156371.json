@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ProductFormulaHaar.TrBase",
+  "source_sha256": "6afac4d9150f9daa1bafe2b84086f96e58becadf8abfcabf6716770d6b7a307d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0076-lean436-20261121/packet-result.json"
+}

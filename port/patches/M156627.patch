@@ -1,0 +1,11 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/SesquilinearRowSplitting/CoordStep.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/SesquilinearRowSplitting/CoordStep.lean
+@@ -8,7 +8,7 @@
+   ∀ (E V : Type) [Field E] [NumberField E] [StarRing E] [AddCommGroup V] [Module E V]
+     [Module (𝓞 E) V] [IsScalarTower (𝓞 E) E V] [FiniteDimensional E V]
+     (h : V →ₗ⋆[E] V →ₗ[E] E), h.Nondegenerate →
+-    ∀ (Λ : Submodule (𝓞 E) V), Submodule.IsLattice E Λ →
++    ∀ (Λ : Submodule (𝓞 E) V), Submodule.IsFullLattice E Λ →
+     ∀ ℓ : Λ →ₗ[𝓞 E] E, ∃ w : V, ∀ x : Λ, h w x = ℓ x
+ 
+ def CoordStep : Prop :=

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientMeasureUniqueness.QmuWeight",
+  "source_sha256": "18cd72b3b0cd81ab90110c9bc2e6db6a51a9e04a6fba2cf6f1ea39e0c66e4bfd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0076-lean436-20261121/packet-result.json"
+}

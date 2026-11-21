@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LocalMassType.WCoreDef",
+  "source_sha256": "031cdb49a9a2499f93b2a15ce577d7b42c9eac851a7b6c9b6f6a0def2b88fa14",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0076-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.NormOneInverseMembership.UnitBallK",
+  "source_sha256": "9206096e4fcc7d2216f00a6ec01aa9458bee01533a3db450a7cc3207e9c43e31",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0076-lean436-20261121/packet-result.json"
+}
