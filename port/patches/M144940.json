@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.VolumeNormSqLeOne",
+  "source_sha256": "ca90a58d749d2c122c182eadb3ecd46fa193cc379abe6b28fecfe0f4a89b4ec2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename continuous_finset_sum to continuous_finsetSum in isClosed_ell for Mathlib v4.36.0."
+}

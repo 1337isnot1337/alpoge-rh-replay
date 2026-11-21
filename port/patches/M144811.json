@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.ExistsMulSubOneMemPow",
+  "source_sha256": "162f0e27e0299a8bf8ae71019fc6633f90eaf5443235f5cc3786cd70ee89f7bd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

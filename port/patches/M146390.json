@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.HasDerivAtTMul",
+  "source_sha256": "be9c968b9a9136dea263495d43eb05d15ad10374586d2635a7987f5560b98494",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

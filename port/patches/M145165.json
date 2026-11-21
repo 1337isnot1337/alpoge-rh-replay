@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GelfandTransference.EnergyIdentity",
+  "source_sha256": "41563d75bbc37240058dbbc9ca05cc8b37bafaa086b0e9bd1de540fee6817628",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

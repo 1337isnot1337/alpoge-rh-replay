@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.TailMertens",
+  "source_sha256": "8b1784897a83b7f3da7e12162f0bd613f3b4f98caec1d2bb3a1aac202db63d13",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

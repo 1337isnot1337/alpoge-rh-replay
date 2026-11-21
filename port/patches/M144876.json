@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.MassLandDA",
+  "source_sha256": "7c63b445781d1ce93ff4569a533efc2d8bc9eea62e89cca76f03d463e3266319",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass argument c to natDegree_X_pow_sub_C and use Polynomial.coeff dot notation for Mathlib v4.36.0."
+}

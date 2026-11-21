@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.IncomingBounds.FrobOrbitPeriod",
+  "source_sha256": "3c55affd45029edccff048cd085c16d159a853d4e128dbe01fd952e4e0bdf642",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.CardFiberMulCardRange",
+  "source_sha256": "a87a1e516a7cbc409e46755b83a2ea13f7d0a309e0a996f9252bd6fec59816a4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,36 @@
+--- a/src/Formalism/LocalRingCardinality/SpanPowerMembership/GatRing.lean
++++ b/src/Formalism/LocalRingCardinality/SpanPowerMembership/GatRing.lean
+@@ -39,8 +39,8 @@
+     refine ⟨2 * j + 1, ⟨v, a'⟩, isUnit_of_re hϖ _ v.isUnit, ?_⟩
+     rw [pow_succ, om_pow, algebraMap_eq]
+     ext
+-    · simp only [re_mul, im_mul, omega_re, omega_im, h2]; ring
+-    · simp only [re_mul, im_mul, omega_re, omega_im, h1]; ring
++    · simp only [re_mul, im_mul, re_omega, im_omega, re_C, im_C, h2]; ring
++    · simp only [re_mul, im_mul, re_omega, im_omega, re_C, im_C, h1]; ring
+   by_cases ha : z.re = 0
+   · have hb : z.im ≠ 0 := fun hb => hz (by ext <;> simp [ha, hb])
+     obtain ⟨j, v, hv⟩ := IsDiscreteValuationRing.eq_unit_mul_pow_irreducible hb hϖ
+@@ -51,8 +51,8 @@
+       refine ⟨2 * i, ⟨u, b'⟩, isUnit_of_re hϖ _ u.isUnit, ?_⟩
+       rw [om_pow, algebraMap_eq]
+       ext
+-      · simp [hu]; ring
+-      · simp [hb']
++      · simp only [re_mul, re_C, im_C, hu]; ring
++      · simp only [im_mul, re_C, im_C, hb']; ring
+     · have hb : z.im ≠ 0 := fun hb => hd (by rw [hb]; exact dvd_zero _)
+       obtain ⟨j, v, hv⟩ := IsDiscreteValuationRing.eq_unit_mul_pow_irreducible hb hϖ
+       have hji : j < i := by
+@@ -109,9 +109,9 @@
+   rw [Ideal.mem_span_singleton, om_pow, algebraMap_eq]
+   constructor
+   · rintro ⟨t, rfl⟩
+-    exact ⟨⟨t.re, by simp⟩, ⟨t.im, by simp⟩⟩
++    exact ⟨⟨t.re, by simp only [re_mul, re_C, im_C, mul_zero, zero_mul, add_zero]⟩, ⟨t.im, by simp only [im_mul, re_C, im_C, mul_zero, zero_mul, add_zero]⟩⟩
+   · rintro ⟨⟨a, ha⟩, ⟨b, hb⟩⟩
+-    exact ⟨⟨a, b⟩, by ext <;> simp [ha, hb]⟩
++    exact ⟨⟨a, b⟩, by ext <;> simp only [re_mul, im_mul, re_C, im_C, ha, hb, mul_zero, zero_mul, add_zero]⟩
+ 
+ theorem isAdicComplete (hϖ : Irreducible ϖ) (hC : IsAdicComplete (Ideal.span {ϖ}) W) :
+     haveI := isDomain hϖ; haveI := isDVR hϖ

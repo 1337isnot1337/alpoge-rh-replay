@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.HermitianCurvature.StatementH",
+  "source_sha256": "906444c817fcc63d2aa457748c1243a49b2f5fa0311d59e6bb61ddf83c036f8a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

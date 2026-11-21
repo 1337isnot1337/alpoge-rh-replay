@@ -1,0 +1,10 @@
+--- a/src/Formalism/GL3MeanSquares/GenusMeanAsymptotics/JacobiCharacterSums/TailNum.lean
++++ b/src/Formalism/GL3MeanSquares/GenusMeanAsymptotics/JacobiCharacterSums/TailNum.lean
+@@ -1,5 +1,7 @@
+ import Mathlib
+ 
++set_option maxRecDepth 4096
++
+ noncomputable section
+ 
+ namespace Formalism.HermitianLattices.Ext.BoxTail

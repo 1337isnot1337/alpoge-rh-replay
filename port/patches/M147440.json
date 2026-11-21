@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LatticeRigidity.HeightMin",
+  "source_sha256": "49ea7c4cf4ee3715fbf761b218ea2b558b0aea617a4023d4eedbc2bffe31f61b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

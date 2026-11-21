@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.TendstoTsumDivPow",
+  "source_sha256": "1aa2a011d59d3dc98aa8e6219e6282a0f06fbf48557a1dbfbe7be5a20b53e340",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use e.toContinuousLinearMap.lipschitz instead of ContinuousLinearEquiv dot notation in Mathlib v4.36.0."
+}

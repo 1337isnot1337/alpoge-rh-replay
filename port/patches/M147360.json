@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.JumpKernelCokernel.KerCokerEq",
+  "source_sha256": "5618754b6b66a29bfa65ae00257f9af103a4fe336acb19586cb5478cd8adfb63",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

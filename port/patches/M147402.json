@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LandauZeroFreeBounds.ExceptionalZeroBounds.LeOfSecondDifferenceBound",
+  "source_sha256": "aa8abfbf98fd8b84420b0c486ac7e7a7ab9fefa5c3acd2f3293338079f8f8426",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

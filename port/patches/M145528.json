@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.CoeffOfValues",
+  "source_sha256": "04a543b3b72c7cf6ee63c308e27748c43b94c349b2fded20c8cb86fc1a276394",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

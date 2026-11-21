@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LagrangeIdealLifts.Statement",
+  "source_sha256": "25a8dd82e18d31d1ab5c18131ae3686be7960bafe25cdeeafd8a6751e250661b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

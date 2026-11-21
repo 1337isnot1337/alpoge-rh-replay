@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GrowthSums.FactorialBaseGrowth.Length",
+  "source_sha256": "cb0ca48a13c150fef334212d711773f92894273126d45e7e4407db2875ced762",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

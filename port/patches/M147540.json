@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalRingCardinality.SpanPowerMembership.BasisOfBasisF",
+  "source_sha256": "3a45944dc3ffde6c30ef5a4905169e5929d803898148ebd280730ad145b5a2e5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

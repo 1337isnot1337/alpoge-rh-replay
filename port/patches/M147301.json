@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.HyperbolicPlaceProducts.Statement",
+  "source_sha256": "09d7ec3e661b1d7c805efe8d4f73413f6e0b203edf75700526b8d8e546d54bf2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

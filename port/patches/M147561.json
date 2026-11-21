@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalRingCardinality.SpanPowerMembership.GatRing",
+  "source_sha256": "0841e1c761d3027ecde2df85b078731058fac8d6927078707a696a314c67fe17",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Simplify QuadraticAlgebra.C coordinates explicitly with re_C, im_C, re_omega, and im_omega in Mathlib v4.36.0."
+}

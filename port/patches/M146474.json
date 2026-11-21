@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.IntegralIteratedFDerivEqZero",
+  "source_sha256": "f114addde150d1d42cf63a510b3ced642940ad0031d69d68c10cb6cf1353a5fd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
