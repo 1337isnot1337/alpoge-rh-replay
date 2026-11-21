@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AbhyankarExistsFractionLocalisationNormalisation",
+  "source_sha256": "61327dc566c7ac06184e500563954f8bba14eef4113e003f9bf8953785fdf5e1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use explicit RingHom.map_add in hT add case of exists_frac_closure to avoid AddHomClass typeclass synthesis timeout in Mathlib v4.36.0."
+}

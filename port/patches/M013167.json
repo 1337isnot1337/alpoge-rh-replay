@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsPowSmulKerEqZeroOfDense",
+  "source_sha256": "de1bb5f59ff6b9a54d92d2ed3b489bc42cad92c6a33d8337d266068cf4e9e577",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove obsolete zero branch from TensorProduct induction in IsBasisAway.exists_basis_apply_eq and exists_baseChange_injective_of_dense for Mathlib v4.36.0."
+}

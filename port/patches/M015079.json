@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdjoinHomExtendOfDenominator",
+  "source_sha256": "36fc6cacf5871115d6354238cbaa566e608626a3276bf93da97f2ed263cdcf46",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

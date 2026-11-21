@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdjugateGramSymm",
+  "source_sha256": "3471bcba023928c1964e99d2a74ffa552f35199a01da251a4d10f69989607a64",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify Matrix.mul_apply and Matrix.one_apply in det_smul_eq_sum to avoid shadowing by IsMulApply and _root_.one_apply in Mathlib v4.36.0."
+}

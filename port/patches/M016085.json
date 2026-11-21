@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AzumayaBaseChangeStatement",
+  "source_sha256": "728f21d98768783f9dbeacd6de9fcbb2e2c59d8df344adac37d462aacdd916af",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
