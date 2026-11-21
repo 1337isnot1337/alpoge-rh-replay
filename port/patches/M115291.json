@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.GradedPowerSeriesLemmas",
+  "source_sha256": "f52f50e516f9d99b968aa6c9c6848b2a5bc0b0bad5bb6a0204f121baf3b0f3d9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

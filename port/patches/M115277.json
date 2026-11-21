@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FourierTransformBijective",
+  "source_sha256": "f3a41837d3e73f1db6c9c8222847a9104bc0d48314fbe1b08d513572239a8fc8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

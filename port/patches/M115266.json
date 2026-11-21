@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FirstStatementD",
+  "source_sha256": "003a9e41539f3fa8ee1191c11cbd26de9f0e2a6e8d83b15e73680f3073fef517",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

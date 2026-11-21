@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.HermitianProjectionEq",
+  "source_sha256": "4d110b2af8dd8281dc7a1d9a71dea1172c2ef987813c044074b0221d75faeb63",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

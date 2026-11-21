@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FormallySmoothSurjectiveDerivation",
+  "source_sha256": "7887956f103ecb4c250377a39fba64aeefc1df449df668d2b0d172d74a5a86e7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove obsolete | zero branch from TensorProduct induction in Mathlib v4.36.0."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FixedSubgroup",
+  "source_sha256": "27eb80f1e0ea0bcef163660197f5d28c82238d1a9269b9f0e5cd5e22353d3e07",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

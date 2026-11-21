@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FrobInPowCong",
+  "source_sha256": "a552b896d6977facf9a175aa3eb5ba02bea5d45cccf6db5467e7ee897b94b654",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
