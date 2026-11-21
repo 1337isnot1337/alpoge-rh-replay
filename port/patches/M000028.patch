@@ -1,0 +1,16 @@
+diff --git a/src/CompanionTheory/AutomorphicTheory/BesselWaveGrids/InterlacingGrids/CloudProd.lean b/src/CompanionTheory/AutomorphicTheory/BesselWaveGrids/InterlacingGrids/CloudProd.lean
+--- a/src/CompanionTheory/AutomorphicTheory/BesselWaveGrids/InterlacingGrids/CloudProd.lean
++++ b/src/CompanionTheory/AutomorphicTheory/BesselWaveGrids/InterlacingGrids/CloudProd.lean
+@@ -36,10 +36,10 @@ theorem prod_le_prod_range_of_rank (A : Finset ℕ) (F : ℕ → ℝ) (φ : ℕ
+     (hmap : ∀ s ∈ A, φ s < k) (hw : ∀ j, 1 ≤ w j) :
+     ∏ s ∈ A, F s ≤ ∏ j ∈ range k, w j := by
+   classical
+-  calc ∏ s ∈ A, F s ≤ ∏ s ∈ A, w (φ s) := prod_le_prod hF0 hF
++  calc ∏ s ∈ A, F s ≤ ∏ s ∈ A, w (φ s) := prod_le_prod₀ hF0 hF
+     _ = ∏ j ∈ A.image φ, w j := (prod_image hinj).symm
+     _ ≤ ∏ j ∈ range k, w j := by
+-      apply prod_le_prod_of_subset_of_one_le
++      apply prod_le_prod_of_subset_of_one_le₀
+       · intro j hj
+         obtain ⟨s, hs, rfl⟩ := mem_image.mp hj
+         exact mem_range.mpr (hmap s hs)
