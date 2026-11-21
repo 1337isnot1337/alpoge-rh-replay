@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankEqZeroOfDualKilledByTensorStatement",
+  "source_sha256": "8f9e8014aa0dd15d3a8eb16d93fe66cb7cd7c05663fa0a5a3def896c89727985",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0106-lean436-20261121/packet-result.json"
+}
