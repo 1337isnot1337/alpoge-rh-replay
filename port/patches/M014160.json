@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DegenerationProofs.UnitOnProductEqOne",
+  "source_sha256": "970e0207c34ee78c6761709a63e4f504f7401b7d02f891d09d169b21b59378bd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename Finsupp.coe_finset_sum to Finsupp.coe_finsetSum. Statements are unchanged."
+}

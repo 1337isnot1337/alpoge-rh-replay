@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddValuationNatCastEqPadicValNat",
+  "source_sha256": "22f9a645caf0bed0ffbaaff469c86e316abd74b87ffe7e6894088a0fa8d33525",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use multiplicity lemmas (pow_multiplicity_dvd, pow_succ_multiplicity_not_dvd) and rewrite with Nat.padicValNat_def inside the proof. Statements are unchanged."
+}

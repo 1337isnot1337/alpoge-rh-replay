@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraMapEqMk",
+  "source_sha256": "4e08d7e26910a051f88f0db5c090fae095fd9471ec547e32e55187f74ddc1535",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass (RingHom.id B) as the ring-hom argument to Mathlib v4.36.0's semilinear MultilinearMap in rels, ideal, Alg, and \u03c6 (mathematically identical B-multilinear map type; notation \u2192\u2098\u2097[B]). Theorems and behavior are unchanged."
+}

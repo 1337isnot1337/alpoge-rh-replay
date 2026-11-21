@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AeMeasureSetOfSmulMemEqZero",
+  "source_sha256": "2c89d830f87e1adb9fdb751bd326bd48eb17ec75326b7fd6eb7899bff28cfede",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use QuasiMeasurePreserving.preimage_ae_eq with propext in filter_upwards. Statements are unchanged."
+}

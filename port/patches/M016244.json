@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.BasisApply",
+  "source_sha256": "cf089ae5e8848ae6125f2808f6991a23be9c11efabfcba546f67d7b92ba418cf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename DistribMulAction.toAddMonoidHom to DistribSMul.toAddMonoidHom. Statements are unchanged."
+}

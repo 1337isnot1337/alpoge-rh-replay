@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdjoinRootXPowSubUniformizerIsDomain",
+  "source_sha256": "e53646d16350b9312e7d7e590a60f7cdaf27c6f096f5b408d3fbbffadebe7de5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass explicit constant \u03c0 to natDegree_X_pow_sub_C. Statements are unchanged."
+}

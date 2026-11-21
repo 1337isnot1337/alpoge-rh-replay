@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AeMeasureSetOfSmulMemEqZero.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AeMeasureSetOfSmulMemEqZero.lean
+@@ -13,7 +13,7 @@
+     have hall : ∀ᵐ x ∂μ, ∀ g : Γ, (g • x ∈ t) = (g • x ∈ s) := by
+       rw [ae_all_iff]
+       intro g
+-      exact (measurePreserving_smul g μ).quasiMeasurePreserving.ae_eq hst
++      filter_upwards [(measurePreserving_smul g μ).quasiMeasurePreserving.preimage_ae_eq hst] with x hx; exact propext hx
+     filter_upwards [h.ae_covers, hall] with x ⟨g, hg⟩ hx
+     exact ⟨g, by rw [hx g]; exact hg⟩
+   aedisjoint a b hab := by
