@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsExponentStrictlyLeastWeight.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsExponentStrictlyLeastWeight.lean
+@@ -12,7 +12,7 @@
+         ∀ a ∈ S, a ≠ m → ∑ i, m i * c i < ∑ i, a i * c i := by
+   intro ρ S hS
+   have hwf : WellFounded (Pi.Lex (fun i j : Fin ρ => j < i) (fun {_} (x y : ℕ) => x < y)) :=
+-    Pi.Lex.wellFounded _ (fun _ => wellFounded_lt)
++    Pi.Lex.wellFounded _
+   refine ⟨hwf.min S hS, hwf.min_mem S hS, ?_⟩
+   set m := hwf.min S hS with hm
+   intro c hc a ha hne
