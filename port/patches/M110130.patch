@@ -1,0 +1,31 @@
+--- a/src/Development/AutomorphicArithmetic/DivisorFrames/EqTopOfCircleSup.lean
++++ b/src/Development/AutomorphicArithmetic/DivisorFrames/EqTopOfCircleSup.lean
+@@ -19,7 +19,7 @@
+         exact M.inv_mem ha }
+   have hSmem : ∀ t, t ∈ S ↔ c (Circle.exp t) ∈ M := fun t => Iff.rfl
+   have hScl : IsClosed (S : Set ℝ) := hM.preimage (hc.comp Circle.exp.continuous)
+-  rcases S.dense_or_cyclic with hd | ⟨a, ha⟩
++  rcases S.dense_or_isCyclic with hd | hcyc
+   · have hall : (S : Set ℝ) = Set.univ := by rw [← hScl.closure_eq, hd.closure_eq]
+     rw [← hsup]
+     refine (sup_eq_left.2 ?_).symm
+@@ -28,8 +28,9 @@
+     have : t ∈ (S : Set ℝ) := by rw [hall]; trivial
+     exact this
+   · exfalso
++    obtain ⟨a, ha⟩ := S.isAddCyclic_iff_exists_zmultiples_eq.mp hcyc
+     have h2 : (2 * Real.pi) ∈ S := by rw [hSmem]; simp
+-    rw [ha, AddSubgroup.mem_closure_singleton] at h2
++    rw [← ha, AddSubgroup.mem_zmultiples_iff] at h2
+     obtain ⟨n, hn⟩ := h2
+     have hn0 : n ≠ 0 := by
+       rintro rfl
+@@ -53,7 +54,7 @@
+       have ht : t ∈ S := by
+         rw [hSmem]
+         exact (QuotientGroup.eq_one_iff _).1 hz
+-      rw [ha, AddSubgroup.mem_closure_singleton] at ht
++      rw [← ha, AddSubgroup.mem_zmultiples_iff] at ht
+       obtain ⟨k, rfl⟩ := ht
+       rw [MonoidHom.mem_ker, zpowGroupHom_apply, ← Circle.exp_intCast_mul, Circle.exp_eq_one]
+       refine ⟨k, ?_⟩

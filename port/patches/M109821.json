@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.HeckeCharacterChoice.TendstoUnderCofinite",
+  "source_sha256": "a5177b18e95877aaf7f626f71589f2a3be5feb9f69b2fa8d665c34adc8a792da",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use AbsoluteValue.Completion.map, continuous_map, and map_coe on the absolute values underlying the same infinite places. The infinite-adele map is the same canonical extension to completions; only the generalized API spelling and arguments change. Update ramificationIdx_pos argument order and keep the valuation formula in the new ramificationIdx convention. All mathematical statements are preserved."
+}
