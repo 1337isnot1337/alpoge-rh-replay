@@ -137,6 +137,10 @@ The tool checks campaign pins, module IDs and equality between every observed bu
 
 These are module-count proxies, not CPU time, elapsed speedups or a full-proof ETA. Workers start with empty project caches; valid persistent reuse assumes a consistent native platform, source, toolchain and dependency provenance. The model excludes cache limits, transfers, preparation, task overhead, failures and final verification. This experiment never creates claims, provisions workers or installs artifacts; an actual compatible-worker pilot is needed to measure time savings.
 
+Add `--canonical-cut` to model a single producer for every project module. The shared seed is the dependency-closed set used by more than one persistent worker. Groups sharing any remaining module stay together in a private component; components are balanced across the same worker count. The planner verifies disjoint producer sets, dependency closure and exact group/target coverage. With `--include-assignments`, it emits the seed IDs and private assignments.
+
+This mode requires a new canonical artifact store and executor; it does not implement either. Its constructive two-stage schedule builds the seed first, then runs each private worker serially. Reported rounds assume uniform unit-cost modules and exclude transfer sizes, memory, preparation, failures, audits and kernel replay. Seed-object placements count required objects per receiver, not measured bytes or network cost. Reducing compile occurrences does not imply the same reduction in elapsed time.
+
 ### Check evidence and measure receiver progress
 
 Verify an archived bundle independently with the controller's tracker. To check source and installed object hashes too, pass the prepared checkout. Older unbundled receipts require this checkout.

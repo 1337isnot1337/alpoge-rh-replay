@@ -9,6 +9,7 @@ from pathlib import Path
 
 import replay_evidence as evidence
 import tasks
+from canonical_cut import plan as canonical_cut_plan
 
 
 DEFAULT_WORKERS = (8, 16, 32, 64, 128, 500)
@@ -125,7 +126,7 @@ def assign(groups, worker_count, persistent=False, include_assignments=False):
     return report
 
 
-def compare(campaign, rows, worker_counts=None, include_assignments=False):
+def compare(campaign, rows, worker_counts=None, include_assignments=False, canonical_cut=False):
     groups, distinct = prepare(campaign, rows)
     if worker_counts is None:
         worker_counts = [w for w in DEFAULT_WORKERS if w <= len(groups)] or [len(groups)]
@@ -134,11 +135,19 @@ def compare(campaign, rows, worker_counts=None, include_assignments=False):
     comparisons = []
     for count in worker_counts:
         cold = assign(groups, count, include_assignments=include_assignments)
-        warm = assign(groups, count, persistent=True, include_assignments=include_assignments)
-        comparisons.append(dict(workers=count, cold_lpt=cold, persistent=warm,
+        warm = assign(groups, count, persistent=True, include_assignments=include_assignments or canonical_cut)
+        comparison = dict(workers=count, cold_lpt=cold, persistent=warm,
             compile_proxy_reduction_fraction=round(1 - warm['total_compile_proxy'] / cold['total_compile_proxy'], 6),
             max_worker_proxy_reduction_fraction=round(
-                1 - warm['max_worker_compile_proxy'] / cold['max_worker_compile_proxy'], 6)))
+                1 - warm['max_worker_compile_proxy'] / cold['max_worker_compile_proxy'], 6))
+        if canonical_cut:
+            module_ids = sorted({m for record in campaign['workers'] for m in record['modules']})
+            imports = {row['id']: set(row['imports']) for row in rows}
+            comparison['canonical_cut'] = canonical_cut_plan(groups, warm, module_ids, imports,
+                                                               count, include_assignments)
+            if not include_assignments:
+                del warm['assignments']
+        comparisons.append(comparison)
     targets = [target for group in groups for target in group.targets]
     return dict(scope='Offline persistent-worker assignment counterfactual, not a runtime forecast.',
                 campaign=dict(groups=len(groups), requested_target_occurrences=len(targets),
@@ -153,12 +162,13 @@ def main(argv=None):
     parser.add_argument('campaign', type=Path, help='published campaign JSON or JSON.gz')
     parser.add_argument('--workers', nargs='+', type=int, help='fixed worker counts to compare')
     parser.add_argument('--include-assignments', action='store_true', help='include group/target assignment details')
+    parser.add_argument('--canonical-cut', action='store_true', help='model a canonical shared seed and disjoint private components')
     args = parser.parse_args(argv)
     try:
         opener = gzip.open if args.campaign.suffix == '.gz' else open
         with opener(args.campaign, 'rt', encoding='utf-8') as stream:
             campaign = json.load(stream)
-        report = compare(campaign, list(tasks.module_rows()), args.workers, args.include_assignments)
+        report = compare(campaign, list(tasks.module_rows()), args.workers, args.include_assignments, args.canonical_cut)
         report['input'] = dict(name=args.campaign.name, sha256=tasks.digest(args.campaign),
                               lean=campaign['lean'], lean_commit=campaign['lean_commit'],
                               mathlib=campaign['mathlib'], input_manifest_sha256=campaign['input_manifest_sha256'])
