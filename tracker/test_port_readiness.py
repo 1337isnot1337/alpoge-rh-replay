@@ -102,7 +102,38 @@ class PortReadinessTest(unittest.TestCase):
         with patch.object(sys, 'argv', ['port.py', 'show', 'P0001', '--ready-only']), \
                 patch.object(port.tasks, 'module_rows', return_value=rows), \
                 patch.object(port, 'ported', return_value={'M000001', 'M900001'}), \
+                patch.object(port, 'pruned', return_value=set()), \
                 patch.object(port, 'triage', return_value={}), \
                 redirect_stdout(io.StringIO()) as output:
             port.main()
             self.assertEqual(output.getvalue().splitlines(), ['M000002 1 untriaged Ready'])
+
+    def test_pruned_modules_are_skipped_in_next_and_show(self):
+        rows = [
+            dict(id='M000001', module='DeadOnly', packet='P0001', depth=0, imports=[]),
+            dict(id='M000002', module='DeadInMixed', packet='P0002', depth=1, imports=['M999999']),
+            dict(id='M000003', module='LiveInMixed', packet='P0002', depth=0, imports=[]),
+        ]
+        with patch.object(sys, 'argv', ['port.py', 'next']), \
+                patch.object(port.tasks, 'module_rows', return_value=rows), \
+                patch.object(port, 'ported', return_value=set()), \
+                patch.object(port, 'pruned', return_value={'M000001', 'M000002'}), \
+                patch.object(port, 'triage', return_value={}), \
+                patch.object(port, 'port_issues', return_value=set()), \
+                redirect_stdout(io.StringIO()) as output:
+            port.main()
+            lines = output.getvalue().splitlines()
+            self.assertEqual([l.split()[0] for l in lines], ['P0002'])
+            self.assertIn('1 modules', lines[0])
+
+        with patch.object(sys, 'argv', ['port.py', 'show', 'P0002']), \
+                patch.object(port.tasks, 'module_rows', return_value=rows), \
+                patch.object(port, 'ported', return_value=set()), \
+                patch.object(port, 'pruned', return_value={'M000001', 'M000002'}), \
+                patch.object(port, 'triage', return_value={}), \
+                redirect_stdout(io.StringIO()) as output:
+            port.main()
+            self.assertEqual(output.getvalue().splitlines(), [
+                'M000002 1 pruned DeadInMixed',
+                'M000003 0 untriaged LiveInMixed',
+            ])
