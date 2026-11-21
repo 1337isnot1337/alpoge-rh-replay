@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.RegularLocalRings.BaseChangeCA",
+  "source_sha256": "6dc51b763498530a335b80e7a1beebff0c8f8e0ef1097b8e72988216ba630510",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

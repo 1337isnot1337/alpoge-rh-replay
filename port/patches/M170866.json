@@ -1,0 +1,7 @@
+{
+  "module": "Lemmata.MiscLemmasQ.Imports",
+  "source_sha256": "0623cb558fb726774e16e9e5b941c1a3c7707250667b43402f38735c77dd225f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

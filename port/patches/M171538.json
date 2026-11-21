@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.BasicDefinitions.ExistsUnique",
+  "source_sha256": "6febec01d94cd87fbb0f40e03ef9901f989197e83e1b5db5dfacf63442cbf31e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

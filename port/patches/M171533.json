@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.Automorphisms.InstMainA",
+  "source_sha256": "44685505638b4a9850591be15f02727790500ad7142cbaa71b88bfc5a53294ec",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

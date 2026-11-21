@@ -1,0 +1,7 @@
+{
+  "module": "Lemmata.MiscLemmasB.Imports",
+  "source_sha256": "69665dfad266da9cd9a170c812df1bec4fa0bd5b93044096f8d48dfe5885abd9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Open the Pointwise scope for the inverse of the neighborhood as a set."
+}

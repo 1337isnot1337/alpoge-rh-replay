@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.RegularLocalRings.FinalTheorems",
+  "source_sha256": "efa8d965f418f44895189d0a6d166d1ade67f244611619196e2934234931e25b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.AnalyticCharts.Partition",
+  "source_sha256": "ca2d4d524c18daf07502c701dd140b7a6f0070699e9cc95e1a3cef3b4e5f2551",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

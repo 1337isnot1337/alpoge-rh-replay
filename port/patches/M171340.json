@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.AdicCompleteness.IsAdicCompleteComapConstantCoeff",
+  "source_sha256": "be8f8c259e808fe867b0fb37b6e61bbe6ebc4a43c1e26316371daf6d33c17a7f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

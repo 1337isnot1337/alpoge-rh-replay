@@ -1,0 +1,7 @@
+{
+  "module": "Lemmata.MiscLemmasK.Imports",
+  "source_sha256": "49cce2cca96827dbd6085e07d4c81422b3b13fa2350d53dad98cab2bb36a247f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Identify the natural p-adic valuation with multiplicity and use the existing proof that the prime cannot divide the ideal norm."
+}
