@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.DvrMapOfCodimOnePrime",
+  "source_sha256": "1541d62836aa20c1ef61fc0ffb2724c05e30160d244a8b575c6f866bee9c18f8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace Localization.AtPrime.comap_maximalIdeal with under_maximalIdeal; Ideal.under is the same comap along algebraMap. The theorem statement is unchanged."
+}

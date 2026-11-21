@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsQuasiFinitePolynomialMap",
+  "source_sha256": "3273b8a701218bb39a47d4388f3d5fb22f94c84b0357ede544a7c06b78f8507e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use polynomial coefficient field notation and an explicitly typed congrArg in map_finSuccEquiv to avoid a congr elaboration timeout. Coefficient notation denotes the same coefficients; theorem statements and definitions are unchanged mathematically."
+}

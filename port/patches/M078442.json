@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsSmulEqZeroOfCrossed",
+  "source_sha256": "70ad3c8fd95aa93352483b7b42c192087ff3e53bad5750a67e84be76d0ace7ec",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify Abelianization and its API as Group.Abelianization. The former name is a deprecated alias of the latter, so the quotient in the statement is definitionally identical."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FlatMapColonIdeal",
+  "source_sha256": "859b85be7032c621ba66d193529076b260b19ea7fac2c2562ba9ac5823c86387",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Ideal.colon_span and Submodule.mem_colon for colon membership, remove the obsolete Pi.prod simp reference, and rename Finsupp.finset_sum_apply to finsetSum_apply. Theorem statements are unchanged."
+}

@@ -1,0 +1,10 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/DvrMapOfCodimOnePrime.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/DvrMapOfCodimOnePrime.lean
+@@ -49,6 +49,6 @@
+       · exact Ideal.comap_ne_top G (maximalIdeal.isMaximal W).ne_top
+       · rw [← Ideal.map_le_iff_le_comap, hmapV]
+     rw [← hGc, ← Ideal.comap_comap, hcm]
+-    exact Localization.AtPrime.comap_maximalIdeal (I := Q)
++    exact Localization.AtPrime.under_maximalIdeal (I := Q)
+ 
+ end GlobalTheory
