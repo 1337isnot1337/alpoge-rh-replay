@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M010980"
+  ],
+  "started_utc": "2026-11-21T02:32:40.674897+00:00",
+  "ended_utc": "2026-11-21T02:32:50.046010+00:00",
+  "elapsed_seconds": 9.4,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6857444
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ReducedBasisIntegralConjEntriesBounded:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7aa9ac33fabf023641fff84e4d210990d489b5b21a22bcb04014035165df9726",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnipotentUpperInvUpperTriangularBounded"
+  ],
+  "objects": {
+    "M010980": "f7cc56530fd2afe3a24cb50d5c373f866a2a9a76e368bec722532faea6e56673"
+  },
+  "bundle_sha256": "8fc107bad838f56d3a81d959dbf1b45f2763a778826d84f6d9988f47759887a5",
+  "packet": "M010980",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11119#issuecomment-7056036458",
+  "reviewed_utc": "2026-11-21T06:09:04.791547+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

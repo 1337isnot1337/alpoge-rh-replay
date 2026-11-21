@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M083966"
+  ],
+  "started_utc": "2026-11-21T02:55:04.320576+00:00",
+  "ended_utc": "2026-11-21T02:56:05.206115+00:00",
+  "elapsed_seconds": 60.9,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 20440728,
+    "peak_child_rss_kib": 6898484
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.JetHarmonics.IdemEvalAndDualDiffIff:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d2cd1caf94de8860b4289d26479068584da1a21c3469c14f64689e7ccc2c069f",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.IdemDen"
+  ],
+  "objects": {
+    "M083966": "3a958bc09e041c36b04fcf8db53ec1145b034e970bef7824d7d1e26819541d80"
+  },
+  "bundle_sha256": "3a00254b5423a661586a0f511337fa6300c5b0a1a6e64a5e1026f5926b93af74",
+  "packet": "M083966",
+  "contributor": "maxime-fleury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11371#issuecomment-7056262918",
+  "reviewed_utc": "2026-11-21T06:05:13.391496+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

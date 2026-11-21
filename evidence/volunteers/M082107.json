@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M082107"
+  ],
+  "started_utc": "2026-11-21T02:51:47.872210+00:00",
+  "ended_utc": "2026-11-21T02:52:09.924341+00:00",
+  "elapsed_seconds": 22.1,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6254248
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SelfDualLatticeStandardAtRationalPrimeStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d670c073e269eb035fe3e98a6e463b87caca10f50f3e63550221f526d406d817",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SelfDualLatticeStandardAtRationalPrime"
+  ],
+  "objects": {
+    "M082107": "9ebb33982659f08577bbf98c03052b94b215bed588c9c905d36867ed110aa089"
+  },
+  "bundle_sha256": "f16c7f4cd542283f1c90b08e8ddd9be2bcf10fdb24545b0a8071e5287d2680b5",
+  "packet": "M082107",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11269#issuecomment-7056226895",
+  "reviewed_utc": "2026-11-21T06:10:11.321913+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

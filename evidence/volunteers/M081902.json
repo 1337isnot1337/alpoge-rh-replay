@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M081902"
+  ],
+  "started_utc": "2026-11-21T02:54:30.004875+00:00",
+  "ended_utc": "2026-11-21T02:55:47.565328+00:00",
+  "elapsed_seconds": 77.6,
+  "host": {
+    "cpu_count": 9,
+    "mem_total_kib": 10206472,
+    "peak_child_rss_kib": 5256412
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ResidueFieldMapFiniteOfQuasiFiniteStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9537428a2c787822cdaa4d17c1b73baf222640f8290e2ade55df0b1eed01362a",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ResidueFieldMapFiniteOfQuasiFinite"
+  ],
+  "objects": {
+    "M081902": "e558c964c182b74ec485361b167f2b40b5536decad1e2823c06e880badc604cb"
+  },
+  "bundle_sha256": "40b17320768ff0e302e003333f343e236e14104ca9611e161ca8a1a94c0d85ba",
+  "packet": "M081902",
+  "contributor": "21Z121Z1",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11346#issuecomment-7056270342",
+  "reviewed_utc": "2026-11-21T06:11:38.638322+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

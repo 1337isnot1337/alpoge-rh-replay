@@ -363,6 +363,7 @@
 | M001583 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CreAnnApply` | volunteer-build-reviewed |
 | M001584 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CreApply` | volunteer-build-reviewed |
 | M001589 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CuspidalTwistInjectiveImports` | volunteer-build-reviewed |
+| M001590 | P0094 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.DecompositionOfFrameWittTorus` | volunteer-build-reviewed |
 | M001591 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.DecompositionOfFrameWittTorusStatement` | volunteer-build-reviewed |
 | M001592 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.DecompositionOfIwasawaLeviCartan` | volunteer-build-reviewed |
 | M001593 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.DecompositionOfIwasawaLeviCartanStatement` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M001648 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorDifferentialSignRuleQuadratic` | volunteer-build-reviewed |
 | M001649 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorDifferentialSignRuleQuadraticStatement` | volunteer-build-reviewed |
 | M001650 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorIntegrality` | volunteer-build-reviewed |
-| M001651 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorIntegralityStatement` | volunteer-build-reviewed |

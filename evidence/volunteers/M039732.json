@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M039732"
+  ],
+  "started_utc": "2026-11-21T02:24:18.624780+00:00",
+  "ended_utc": "2026-11-21T02:24:30.167440+00:00",
+  "elapsed_seconds": 11.5,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6788528
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.KerInfMapLeMapMulKerOfFlatTargetStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "41a7c8b4cf591a2aff40bb36a502c0c44ae58bcdc3ba3de3df0307693c89f9d8",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.KerInfMapLeMapMulKerOfFlatTarget"
+  ],
+  "objects": {
+    "M039732": "f7c7676efc08ae8d1278805442d554ca44e14c1ec4a8c1299c08e37c0499dd05"
+  },
+  "bundle_sha256": "827d871aa1a638fd492cc7431d44f10ed0c310bdbbd4b1ed11f7eb7d4fa654c1",
+  "packet": "M039732",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11025#issuecomment-7055882960",
+  "reviewed_utc": "2026-11-21T06:19:26.747877+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

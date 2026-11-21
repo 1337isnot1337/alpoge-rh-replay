@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M173812"
+  ],
+  "started_utc": "2026-11-21T03:00:19.540816+00:00",
+  "ended_utc": "2026-11-21T03:00:34.680121+00:00",
+  "elapsed_seconds": 15.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 6787940
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.WickVanishing.GGConn:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3ebe7834d687afd48b1887aae475585148d0b2948b86d292a4ca1f4012b32da9",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.WickVanishing.GGConnA"
+  ],
+  "objects": {
+    "M173812": "560a5b5e0abf7c399b1a6793664617996e1a677b679a3c49a1143746cb296608"
+  },
+  "bundle_sha256": "9c1cd52487944340544cbc538a7269675a1f3f93a9c1467bbebe675fb1a16d18",
+  "packet": "M173812",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11386#issuecomment-7056322513",
+  "reviewed_utc": "2026-11-21T06:13:31.246603+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

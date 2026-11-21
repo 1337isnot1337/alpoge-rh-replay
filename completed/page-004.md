@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002614 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.IwahoriSubgroup` | volunteer-build-reviewed |
+| M002615 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.JumpDictionary` | volunteer-build-reviewed |
+| M002616 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.LatticeConditions` | volunteer-build-reviewed |
+| M002618 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.LocalIntegralGL` | volunteer-build-reviewed |
+| M002620 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.LowerUnipotentMinors` | volunteer-build-reviewed |
 | M002623 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.RationalFormValues` | volunteer-build-reviewed |
 | M002627 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.SelfDualLatticeMass` | build-observed |
 | M002628 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.SelmerCrystallineCocycles` | build-observed |
@@ -70,6 +75,7 @@
 | M002789 | P1501 | `Development.AbelianVarietyTheory.Counterexamples.AbelianLawCounterexamples.HomExtendsOverDVRHolds` | volunteer-build-reviewed |
 | M002793 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.LfacDenominatorNeZero` | volunteer-build-reviewed |
 | M002794 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.LocalConditionsOfGlobal` | volunteer-build-reviewed |
+| M002795 | P0173 | `Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.TwoPrimesOfSplitPl` | volunteer-build-reviewed |
 | M002798 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.ExistsStrictAnti` | volunteer-build-reviewed |
 | M002805 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.PremisesModel` | volunteer-build-reviewed |
 | M002811 | P0838 | `Development.AbelianVarietyTheory.Counterexamples.HeckeCharacterExamples.SecondTwistCrystallineSmallOfJumpsOfCrys` | build-observed |
@@ -178,11 +184,13 @@
 | M003115 | P1501 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsSameFOfDiv` | volunteer-build-reviewed |
 | M003120 | P1501 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsTangentOrigin` | volunteer-build-reviewed |
 | M003128 | P1001 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExpoConjOfIsCsd` | build-observed |
+| M003129 | P1056 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExtUHInjective` | volunteer-build-reviewed |
 | M003134 | P1501 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FinTypRepCast` | volunteer-build-reviewed |
 | M003135 | P0838 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FiniteDimensionalLetter` | wave-reused |
 | M003136 | P0865 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FiniteDimensionalWdSpace` | wave-reused |
 | M003142 | P1028 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FixedCoefficientFieldInComplex` | build-observed |
 | M003147 | P1472 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.FormalTwistingNeTrivial` | volunteer-build-reviewed |
+| M003155 | P0891 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.GoodChi` | volunteer-build-reviewed |
 | M003156 | P1472 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.GoodPartEq` | volunteer-build-reviewed |
 | M003177 | P0095 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsClosedFlagsIff` | volunteer-build-reviewed |
 | M003179 | P0515 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsCrisP` | wave-reused |
@@ -275,6 +283,7 @@
 | M003441 | P1394 | `Development.AbelianVarietyTheory.Definitions.Divisors.ChernOn` | volunteer-build-reviewed |
 | M003447 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.CommAlgFunctorCoboundaryZeroMemCocyclesOne` | wave-reused |
 | M003448 | P1323 | `Development.AbelianVarietyTheory.Definitions.Divisors.CommGroupMulMulEqMulInvMulMulMul` | wave-reused |
+| M003450 | P0475 | `Development.AbelianVarietyTheory.Definitions.Divisors.CompactBIffCompact` | volunteer-build-reviewed |
 | M003451 | P0475 | `Development.AbelianVarietyTheory.Definitions.Divisors.ComparisonMemCechHodgeFiltration` | wave-reused |
 | M003456 | P1501 | `Development.AbelianVarietyTheory.Definitions.Divisors.ContinuousBcPt` | volunteer-build-reviewed |
 | M003459 | P2187 | `Development.AbelianVarietyTheory.Definitions.Divisors.CovolXOfCovol` | volunteer-build-reviewed |
@@ -306,6 +315,7 @@
 | M003558 | P1856 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsUniqueIsTanFrameOfIsEmpty` | volunteer-build-reviewed |
 | M003559 | P1856 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsUniqueIsWeilChar` | volunteer-build-reviewed |
 | M003565 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExtFormAdjEqNegSecondForm` | volunteer-build-reviewed |
+| M003568 | P1084 | `Development.AbelianVarietyTheory.Definitions.Divisors.FactorBounds` | volunteer-build-reviewed |
 | M003570 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.FderivFnCongr` | volunteer-build-reviewed |
 | M003571 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.FibreRankCompOfSurjective` | wave-reused |
 | M003575 | P1084 | `Development.AbelianVarietyTheory.Definitions.Divisors.FirstChernLeviEqConstant` | build-observed |
@@ -390,15 +400,5 @@
 | M003823 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.NormSub` | volunteer-build-reviewed |
 | M003825 | P0435 | `Development.AbelianVarietyTheory.Definitions.Divisors.NotCompactOfMEqOne` | build-observed |
 | M003826 | P1472 | `Development.AbelianVarietyTheory.Definitions.Divisors.NotDominatesTopPlace` | volunteer-build-reviewed |
+| M003839 | P1298 | `Development.AbelianVarietyTheory.Definitions.Divisors.OfCore` | volunteer-build-reviewed |
 | M003843 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.OmAUnipFourierInv` | volunteer-build-reviewed |
-| M003844 | P0347 | `Development.AbelianVarietyTheory.Definitions.Divisors.OneFormMapEqKaehlerDifferentialMap` | wave-reused |
-| M003845 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.OneMemH0WeightZero` | volunteer-build-reviewed |
-| M003848 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.OrthSubrepresentation` | wave-reused |
-| M003851 | P0347 | `Development.AbelianVarietyTheory.Definitions.Divisors.PadicActionConstInjective` | wave-reused |
-| M003855 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.PerFactor` | volunteer-build-reviewed |
-| M003856 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.PlacesOverU` | volunteer-build-reviewed |
-| M003857 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.PointHeight` | wave-reused |
-| M003859 | P1323 | `Development.AbelianVarietyTheory.Definitions.Divisors.PointSide` | build-observed |
-| M003864 | P0974 | `Development.AbelianVarietyTheory.Definitions.Divisors.PrimitiveCrystalHodgeLiftClasses` | wave-reused |
-| M003865 | P1029 | `Development.AbelianVarietyTheory.Definitions.Divisors.PrimitiveStructureSheafDegTwoVanish` | wave-reused |
-| M003866 | P0784 | `Development.AbelianVarietyTheory.Definitions.Divisors.PrismaticDieudonnePerfdIff` | wave-reused |

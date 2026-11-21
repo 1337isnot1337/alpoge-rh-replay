@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M039295"
+  ],
+  "started_utc": "2026-11-21T02:51:19.467640+00:00",
+  "ended_utc": "2026-11-21T02:51:36.047087+00:00",
+  "elapsed_seconds": 16.6,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6627452
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsolateMaximalAmongPrimesContainingEtaleStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d70d75287139d374e7c8a5c333cc07a55ec383d7bae1aef1c39163cd6bec2809",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsolateMaximalAmongPrimesContainingEtale"
+  ],
+  "objects": {
+    "M039295": "b5bc9e3de83a5bcaba14ef7c9980a2724bd32f4299acc8855fe46c6936bcea23"
+  },
+  "bundle_sha256": "61086f21cbad480f1f17b50769e8fa5edb4b6ddb0ba04bd28006dfabd30c3f16",
+  "packet": "M039295",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11212#issuecomment-7056211707",
+  "reviewed_utc": "2026-11-21T05:59:05.710497+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

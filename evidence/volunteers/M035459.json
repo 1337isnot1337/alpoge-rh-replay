@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M035459"
+  ],
+  "started_utc": "2026-11-21T02:33:23.120949+00:00",
+  "ended_utc": "2026-11-21T02:33:31.691154+00:00",
+  "elapsed_seconds": 8.6,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6829036
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianModelCharpolyEqAndUnitaryStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "676e42395b99c2b51e4eb8ec6b5c344147d97eaf600a4fb314dee0f0da0fb888",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianModelCharpolyEqAndUnitary"
+  ],
+  "objects": {
+    "M035459": "01a46516d2d9c68214f0b862415f0d79185737671385dc59a661fc4dd36d9abf"
+  },
+  "bundle_sha256": "e2883c2f22f80d921c02741b9dd2c1af0bac5561018336c1cb46f5655c300f24",
+  "packet": "M035459",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11146#issuecomment-7056039825",
+  "reviewed_utc": "2026-11-21T06:03:40.503058+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

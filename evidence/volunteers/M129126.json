@@ -1,0 +1,65 @@
+{
+  "tasks": [
+    "M129126"
+  ],
+  "started_utc": "2026-11-21T02:29:20.644163+00:00",
+  "ended_utc": "2026-11-21T02:30:13.791341+00:00",
+  "elapsed_seconds": 53.1,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16078416,
+    "peak_child_rss_kib": 7239784
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.CutoffCoefficientsBoundStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "38f348b769957280d92dc13c48c7ef1af515675b2dbb917e90adf509f66e46c1",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.Birational",
+    "Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.CompactGapsGE",
+    "Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.HeckeSectionsIsotropicCommutatorPairingPower",
+    "Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.Proportional",
+    "Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.CutoffCoefficientsBound",
+    "Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.ExistsFlagDegreeOnePolys",
+    "Development.WeilBound.CoreStatements.FlagImmersions.DegFlPowerSumMul",
+    "Development.WeilBound.CoreStatements.FlagImmersions.ExistsDegreeOneClass",
+    "Development.WeilBound.CoreStatements.FlagImmersions.FlagDegreeLinearFunctionals",
+    "Development.WeilBound.CoreStatements.FlagImmersions.ShiftPowerSumMul",
+    "Formalism.DegreeFormula.FlagDegFormula",
+    "Formalism.DegreeFormula.PointDegree.PermExpInj",
+    "Formalism.DegreeFormula.PointDegree.PowSum",
+    "GroundTheory.HeightsAndTheta.Heights.Antisymmetric.Statements",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovGeometry.KleimanNefness.KleimanSt",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.DiagonalDivisors.InhabitBaseStatement",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.DiagonalDivisors.ModelsSt",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.IndexSt",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.MixedFieldContraction.ContractMixedFieldStatement",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.MixedFieldContraction.GenericFibreKerTarget",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.MultihomogeneousIdeals.ExistsUniqueStatement",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.MultihomogeneousIdeals.IsFieldIntersection",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.RationalSections.IsRatSectionOn",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.RationalSections.ThmISt",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ArithmeticHilbertSamuelLowerBound",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.Bundle",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterNamed",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterSt",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.IsIntersectionFamily",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.IsSemipositiveOn",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.PenVol"
+  ],
+  "objects": {
+    "M129126": "d0485377f0527a50de15a4abde149a54d7d6c90269fa6c538fd9f9f04e3bda36"
+  },
+  "bundle_sha256": "577b4d511a997da68648dbfcf132f0d22c07d8448d8c0702774bed53a683754a",
+  "packet": "M129126",
+  "contributor": "walkingsophie",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11087#issuecomment-7056004904",
+  "reviewed_utc": "2026-11-21T06:11:37.005066+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}
