@@ -235,7 +235,6 @@
 | [@dhudakk](https://github.com/dhudakk) | [M044017](https://github.com/rohanarun/alpoge-rh-replay/issues/21053) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M043747](https://github.com/rohanarun/alpoge-rh-replay/issues/21054) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M141918](https://github.com/rohanarun/alpoge-rh-replay/issues/21055) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P2175](https://github.com/rohanarun/alpoge-rh-replay/issues/21072) | Claimed |
 | [@galakurpi](https://github.com/galakurpi) | [M153494](https://github.com/rohanarun/alpoge-rh-replay/issues/21073) | Claimed |
 | [@galakurpi](https://github.com/galakurpi) | [M132456](https://github.com/rohanarun/alpoge-rh-replay/issues/21074) | Claimed |
 | [@galakurpi](https://github.com/galakurpi) | [M063507](https://github.com/rohanarun/alpoge-rh-replay/issues/21075) | Claimed |
@@ -254,3 +253,4 @@
 | [@galakurpi](https://github.com/galakurpi) | [M131214](https://github.com/rohanarun/alpoge-rh-replay/issues/21115) | Claimed |
 | [@galakurpi](https://github.com/galakurpi) | [M137346](https://github.com/rohanarun/alpoge-rh-replay/issues/21117) | Claimed |
 | [@galakurpi](https://github.com/galakurpi) | [M108927](https://github.com/rohanarun/alpoge-rh-replay/issues/21118) | Claimed |
+| [@galakurpi](https://github.com/galakurpi) | [M173750](https://github.com/rohanarun/alpoge-rh-replay/issues/21119) | Claimed |
