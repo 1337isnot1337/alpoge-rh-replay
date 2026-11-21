@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MapHaarEqOfLattice",
+  "source_sha256": "4954e4bdc08539c224ba76a5957613776d1047e1ec36cc1f7bf687ec5c9bd5dd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use QuasiMeasurePreserving in its current namespace and pass almost-everywhere measurability to its constructor."
+}

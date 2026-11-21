@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeMulSetIntegralImage2OfForallLe",
+  "source_sha256": "0583c3fe22cfcda811195a8669e73034762d8dc01a866f2f79459a741f52e86e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed eventually-subset lemma to lift set inclusion to almost-everywhere inclusion."
+}
