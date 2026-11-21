@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HasSumLogZetaSqMul",
+  "source_sha256": "43ad2a76a914e67d4c136b00465d7e319db7f5e9c45779402b76bafa8381cc91",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Match the new convert goal order: prove the HasSum function equality by funext first, then close the series equality by rfl."
+}

@@ -1,0 +1,29 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/HasSumLogZetaSqMul.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/HasSumLogZetaSqMul.lean
+@@ -68,16 +68,15 @@
+     (hsum _ hs)
+   have h := ((h1.mul_left 2).add h2).add h3
+   convert h using 1
+-  · rfl
+-  funext p
+-  revert p
+-  rintro ⟨i, k⟩
+-  simp only
+-  generalize Complex.exp _ = E
+-  rw [← map_pow]
+-  have := Complex.add_conj (c i ^ (k + 1))
+-  rw [Complex.ofReal_div, Complex.ofReal_add, ← this]
+-  push_cast
+-  ring
++  · funext p
++    revert p
++    rintro ⟨i, k⟩
++    simp only
++    generalize Complex.exp _ = E
++    rw [← map_pow]
++    have := Complex.add_conj (c i ^ (k + 1))
++    rw [Complex.ofReal_div, Complex.ofReal_add, ← this]
++    push_cast
++    ring
+ 
+ end GlobalTheory.LogEulerSeries

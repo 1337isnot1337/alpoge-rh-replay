@@ -1,0 +1,126 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/ExistsUnitSmulEqOfBijectiveToSpanSingleton.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/ExistsUnitSmulEqOfBijectiveToSpanSingleton.lean
+@@ -192,7 +192,6 @@
+     have key : ∀ z : ρ'.invariants, (z : M') ∈ Submodule.span S (f '' ρ.invariants) := by
+       intro z
+       induction z using (isBaseChange_invariantsMap S ρ ρ' f hb hf).inductionOn with
+-      | zero => exact zero_mem _
+       | tmul m => exact Submodule.subset_span ⟨m, m.2, rfl⟩
+       | smul s n hn => exact Submodule.smul_mem _ s hn
+       | add a b ha hb => exact add_mem ha hb
+@@ -300,7 +299,6 @@
+   have key : ∀ z : FixedPoints.subalgebra S A' G, ∃ s, algebraMap S A' s = z := by
+     intro z
+     induction z using (isBaseChange_fixedSubalgebraMap G f hb hf).inductionOn with
+-    | zero => exact ⟨0, map_zero _⟩
+     | tmul m =>
+       obtain ⟨r, hr⟩ := Algebra.IsInvariant.isInvariant (A := R) (G := G) (m : A) m.2
+       refine ⟨algebraMap R S r, ?_⟩
+@@ -342,14 +340,12 @@
+   one_smul x := by
+     change Algebra.TensorProduct.map _ _ x = x
+     induction x with
+-    | zero => simp
+     | tmul s a => simp
+     | add x y hx hy => rw [map_add, hx, hy]
+   mul_smul g h x := by
+     change Algebra.TensorProduct.map _ _ x =
+       Algebra.TensorProduct.map _ _ (Algebra.TensorProduct.map _ _ x)
+     induction x with
+-    | zero => simp
+     | tmul s a => simp [mul_smul]
+     | add x y hx hy => rw [map_add, hx, hy, map_add, map_add]
+   smul_zero g := map_zero (Algebra.TensorProduct.map _ _)
+@@ -493,6 +489,34 @@
+   simp only [LinearMap.toSpanSingleton_apply] at ha hb
+   have : b * a = 1 := he.1 (by simp [mul_smul, ha, hb])
+   exact ⟨Units.mkOfMulEqOne a b (by rw [mul_comm, this]), ha.symm⟩
++
++theorem tprod_prod_smul {ι : Type*} [Fintype ι] {A : Type*} [CommRing A]
++    {M : ι → Type*} [∀ i, AddCommGroup (M i)] [∀ i, Module A (M i)]
++    (c : ι → A) (e : ∀ i, M i) :
++    (∏ i, c i) • PiTensorProduct.tprod A e
++      = PiTensorProduct.tprod A (fun i => c i • e i) := by
++  classical
++  have step : ∀ (F : ∀ i, M i) (a : ι) (d : A),
++      d • PiTensorProduct.tprod A F
++        = PiTensorProduct.tprod A (Function.update F a (d • F a)) := by
++    intro F a d
++    have h1 : PiTensorProduct.tprod A F = PiTensorProduct.tprodCoeff A 1 F := rfl
++    have h2 : PiTensorProduct.tprod A (Function.update F a (d • F a))
++        = PiTensorProduct.tprodCoeff A 1 (Function.update F a (d • F a)) := rfl
++    rw [h1, h2, PiTensorProduct.smul_tprodCoeff' d (1 : A) F,
++      PiTensorProduct.smul_tprodCoeff (1 : A) F a d]
++  have key : ∀ (s : Finset ι),
++      (∏ i ∈ s, c i) • PiTensorProduct.tprod A e
++        = PiTensorProduct.tprod A (s.piecewise (fun i => c i • e i) e) := by
++    intro s
++    induction s using Finset.induction with
++    | empty => simp
++    | @insert a s has ih =>
++      rw [Finset.prod_insert has, mul_smul, ih, Finset.piecewise_insert]
++      have haF : (s.piecewise (fun i => c i • e i) e) a = e a := by simp [has]
++      rw [← haF]
++      exact step _ _ _
++  simpa using key Finset.univ
+ 
+ theorem bijective_toSpanSingleton_tprod {ι : Type*} [Finite ι] {M : ι → Type*}
+     [∀ i, AddCommGroup (M i)] [∀ i, Module A (M i)] (e : ∀ i, M i)
+@@ -515,8 +539,10 @@
+   · intro y
+     induction y using PiTensorProduct.induction_on with
+     | smul_tprod r x =>
++      cases nonempty_fintype ι
+       refine ⟨r * ∏ i, φ i (x i), ?_⟩
+-      rw [LinearMap.toSpanSingleton_apply, mul_smul, ← MultilinearMap.map_smul_univ]
++      rw [LinearMap.toSpanSingleton_apply, mul_smul, tprod_prod_smul]
++      show r • PiTensorProduct.tprod A (fun i => (φ i) (x i) • e i) = _
+       simp only [hφ]
+     | add x y hx hy =>
+       obtain ⟨a, rfl⟩ := hx
+@@ -547,9 +573,15 @@
+       f m ^ Fintype.card ι • PiTensorProduct.tprod A (s := fun _ ↦ M) x =
+         (∏ i, f (x i)) • PiTensorProduct.tprod A (s := fun _ ↦ M) (fun _ ↦ m) := by
+     intro f m x
+-    rw [← MultilinearMap.map_smul_univ, ← Finset.card_univ, ← Finset.prod_const,
+-      ← MultilinearMap.map_smul_univ]
+-    simp only [dual_apply_smul_comm f m]
++    rw [← Finset.card_univ, ← Finset.prod_const]
++    have e1 : (∏ _ : ι, f m) • PiTensorProduct.tprod A (s := fun _ ↦ M) x
++        = PiTensorProduct.tprod A (fun _ => f m • x _) := tprod_prod_smul _ _
++    have e2 : (∏ i, f (x i)) • PiTensorProduct.tprod A (s := fun _ ↦ M) (fun _ => m)
++        = PiTensorProduct.tprod A (fun i => f (x i) • m) := tprod_prod_smul _ _
++    rw [e1, e2]
++    congr 1
++    funext i
++    exact dual_apply_smul_comm f m (x i)
+   rw [← sub_eq_zero]
+   set d := PiTensorProduct.tprod A (s := fun _ ↦ M) (fun i ↦ x (σ i))
+       - PiTensorProduct.tprod A (s := fun _ ↦ M) x with hd
+@@ -636,7 +668,6 @@
+   haveI : Module.Invertible A' M' := .congr hl.equiv
+   refine Module.Invertible.bijective_of_surjective fun y ↦ ?_
+   induction y using hl.inductionOn with
+-  | zero => exact ⟨0, map_zero _⟩
+   | tmul m =>
+     obtain ⟨u, hu⟩ := hu
+     refine ⟨↑u⁻¹ * algebraMap A A' (f m), ?_⟩
+@@ -688,7 +719,8 @@
+     (fun r r' x ↦ by simp [add_smul])
+     (fun r x i r' ↦ by
+       simp only [Function.apply_update (fun i ↦ (f i : M i → N i)), map_smulₛₗ,
+-        MultilinearMap.map_update_smul, Function.update_eq_self, map_mul, smul_smul, mul_comm])
++        MultilinearMap.map_update_smul, Function.update_eq_self, map_mul, smul_smul, mul_comm,
++        RingHom.id_apply])
+   map_smul' r y := by
+     induction y using PiTensorProduct.induction_on' with
+     | tprodCoeff z x =>
+@@ -842,7 +874,7 @@
+     tensorNorm A κ (a • x) = (∏ g : G, g • a) • tensorNorm A κ x := by
+   letI : Fintype ι := .ofEquiv _ κ.symm
+   simp only [tensorNorm, smul_distrib_smul]
+-  rw [MultilinearMap.map_smul_univ, Equiv.prod_comp κ (fun g ↦ g • a)]
++  rw [← tprod_prod_smul, Equiv.prod_comp κ (fun g ↦ g • a)]
+ 
+ theorem smul_tensorNorm [Finite G] [Module.Invertible A M] (κ : ι ≃ G) (x : M) (g : G) :
+     letI := piTensorDistribMulAction G A (fun _ : ι ↦ M)

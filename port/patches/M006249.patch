@@ -1,0 +1,66 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/ExistsMvPolynomialOfIteratedBackwardDifferenceVa.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/ExistsMvPolynomialOfIteratedBackwardDifferenceVa.lean
+@@ -227,7 +227,7 @@
+     h.shiftAct_eq_zero hm, sub_zero, LinearMap.add_apply]
+ 
+ def DiffVanish.form {d : ℕ} {φ : G → M} (h : DiffVanish (d + 1) φ) :
+-    MultilinearMap ℤ (fun _ : Fin d ↦ G) M :=
++    MultilinearMap (RingHom.id ℤ) (fun _ : Fin d ↦ G) M :=
+   MultilinearMap.mk' (fun g ↦ multiDiff g φ 0)
+     (fun g i a b ↦ by exact congrFun (h.multiDiff_update_add g i a b) 0)
+     (fun g i c a ↦ by
+@@ -235,10 +235,10 @@
+         (fun a b ↦ congrFun (h.multiDiff_update_add g i a b) 0)) c a)
+ 
+ theorem DiffVanish.form_apply {d : ℕ} {φ : G → M} (h : DiffVanish (d + 1) φ) (g : Fin d → G)
+-    (x : G) : h.form g = multiDiff g φ x := h.multiDiff_eq g 0 x
++    (x : G) : DiffVanish.form h g = multiDiff g φ x := h.multiDiff_eq g 0 x
+ 
+ theorem DiffVanish.form_comp_perm {d : ℕ} {φ : G → M} (h : DiffVanish (d + 1) φ)
+-    (g : Fin d → G) (σ : Equiv.Perm (Fin d)) : h.form (g ∘ σ) = h.form g := by
++    (g : Fin d → G) (σ : Equiv.Perm (Fin d)) : DiffVanish.form h (g ∘ σ) = DiffVanish.form h g := by
+   rw [h.form_apply _ 0, h.form_apply _ 0, multiDiff_comp_equiv]
+ 
+ end Calculus
+@@ -312,8 +312,8 @@
+ 
+ theorem DiffVanish.multiDiff_form_diag {d : ℕ} {φ : G → M} (h : DiffVanish (d + 1) φ)
+     (g : Fin d → G) (x : G) :
+-    multiDiff g (fun y ↦ h.form fun _ ↦ y) x = d.factorial • h.form g := by
+-  have e : ∀ S : Finset (Fin d), (h.form fun _ ↦ x - ∑ i ∈ S, g i) =
++    multiDiff g (fun y ↦ DiffVanish.form h fun _ ↦ y) x = d.factorial • DiffVanish.form h g := by
++  have e : ∀ S : Finset (Fin d), (DiffVanish.form h fun _ ↦ x - ∑ i ∈ S, g i) =
+       shiftAct G M ((diffElt x - ∑ i ∈ S, diffElt (g i)) ^ d) φ 0 := fun S ↦ by
+     have := h.shiftAct_eq_zero (pow_sub_pow_mem_pow_succ (diffElt_mem _)
+       (Ideal.sub_mem _ (diffElt_mem x) (Ideal.sum_mem _ fun i _ ↦ diffElt_mem (g i)))
+@@ -336,10 +336,10 @@
+ variable {G K : Type*} [AddCommGroup G] [Field K] [CharZero K]
+ 
+ theorem DiffVanish.sub_form_diag {d : ℕ} {φ : G → K} (h : DiffVanish (d + 1) φ) :
+-    DiffVanish d (φ - fun y ↦ (d.factorial : K)⁻¹ * h.form fun _ ↦ y) := fun g ↦ by
++    DiffVanish d (φ - fun y ↦ (d.factorial : K)⁻¹ * DiffVanish.form h fun _ ↦ y) := fun g ↦ by
+   ext x
+   have := congrFun (multiDiff_map (AddMonoidHom.mulLeft (d.factorial : K)⁻¹) g
+-    (fun y ↦ h.form fun _ ↦ y)) x
++    (fun y ↦ DiffVanish.form h fun _ ↦ y)) x
+   simp only [Function.comp_def, AddMonoidHom.coe_mulLeft] at this
+   have hd : (d.factorial : K) ≠ 0 := by exact_mod_cast d.factorial_ne_zero
+   rw [multiDiff_sub, Pi.sub_apply, this, h.multiDiff_form_diag, ← h.form_apply, nsmul_eq_mul,
+@@ -361,7 +361,7 @@
+ theorem DiffVanish.eval_diffTopPoly {d : ℕ} {φ : G → K} (h : DiffVanish (d + 1) φ) {ι : Type*}
+     [Fintype ι] [DecidableEq ι] (g : ι → G) (x : G) (n : ι → ℤ) :
+     MvPolynomial.eval (fun i ↦ (n i : K)) (diffTopPoly d g φ x) =
+-      (d.factorial : K)⁻¹ * h.form fun _ ↦ ∑ i, n i • g i := by
++      (d.factorial : K)⁻¹ * DiffVanish.form h fun _ ↦ ∑ i, n i • g i := by
+   rw [MultilinearMap.map_sum, mul_sum, diffTopPoly, map_sum]
+   refine sum_congr rfl fun a _ ↦ ?_
+   rw [MultilinearMap.map_smul_univ, ← h.form_apply]
+@@ -394,7 +394,7 @@
+       P.totalDegree ≤ d ∧ (∀ n : ι → ℤ, P.eval (fun i ↦ (n i : K)) = φ (x + ∑ i, n i • g i)) ∧
+       MvPolynomial.homogeneousComponent d P = diffTopPoly d g φ x ∧
+       ∀ n : ι → ℤ, (MvPolynomial.homogeneousComponent d P).eval (fun i ↦ (n i : K)) =
+-        (d.factorial : K)⁻¹ * h.form fun _ ↦ ∑ i, n i • g i := by
++        (d.factorial : K)⁻¹ * DiffVanish.form h fun _ ↦ ∑ i, n i • g i := by
+   obtain ⟨P, h1, h2, h3⟩ := exists_mvPolynomial_of_iteratedBackwardDifferenceVanish g d _ (h.translate x)
+   have h4 : MvPolynomial.homogeneousComponent d P = diffTopPoly d g φ x := by
+     rw [h3]; simp only [diffTopPoly, multiDiff_translate, add_zero]

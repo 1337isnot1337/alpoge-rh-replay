@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemOfMulMemOfForallPrimeNotDvd",
+  "source_sha256": "cbdefde5c43a8caf18e3ddca1e3b4a4cded557d4b43d2229e64523e972ff760f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use AddSubgroup.isAddCyclic_iff_exists_zmultiples_eq to obtain a generator in zmultiples form directly, replacing the deprecated Int.subgroup_cyclic and the removed zmultiples_eq_closure rewrite."
+}

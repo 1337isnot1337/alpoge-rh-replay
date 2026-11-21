@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsUnitSmulEqOfBijectiveToSpanSingleton",
+  "source_sha256": "0275ca9024d55b4d8de646ac1293006702b1a6cf7341f564c51e633e0233db65",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "TensorProduct/IsBaseChange induction no longer has a zero case; add a local tprod_prod_smul helper (the bundled tprod is now linear, so the old multilinear map_smul_univ form no longer applies) and rewrite RingHom.id applications away."
+}

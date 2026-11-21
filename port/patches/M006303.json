@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.IsDiscreteValuationRingLocalizationOfIsDedekindD",
+  "source_sha256": "22848b87b4bad22e1a3f9bc831ad49e8957f1526f15c5add6db628fc7c441724",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use IsMaximal_under_of_isIntegral_of_isMaximal (comap became under) and convert the residue-field AlgEquiv to a RingEquiv for finrank_eq_of_equiv_equiv."
+}

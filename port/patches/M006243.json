@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsIsRegularQuotSMulTop",
+  "source_sha256": "dac86b9a8ea99a65dfbf82b415954e8affa406777a68384b4d19478eec20f96e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "TFAE indices are 1-based: .out 3 1 becomes .out 4 2 and .out 1 3 becomes .out 2 4."
+}

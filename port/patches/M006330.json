@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthRestrictScalarsEqSumInertiaDegOfSubset",
+  "source_sha256": "776bb8c4ecb8732ffa11e77031819ef92cc9648b46b4d8ae349c44cd05cd9c6b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use IsMaximal_under_of_isIntegral_of_isMaximal (comap became under)."
+}

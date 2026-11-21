@@ -1,0 +1,27 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CharacterTheory/OneMemOfMulMemOfForallPrimeNotDvd.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CharacterTheory/OneMemOfMulMemOfForallPrimeNotDvd.lean
+@@ -8,21 +8,20 @@
+   classical
+   have h1 : ∀ x : X, ∃ f ∈ S, f x = 1 := by
+     intro x
+-    obtain ⟨d, hd⟩ := Int.subgroup_cyclic (S.map (Pi.evalAddMonoidHom (fun _ : X => ℤ) x))
+-    rw [← AddSubgroup.zmultiples_eq_closure] at hd
++    obtain ⟨d, hd⟩ := (S.map (Pi.evalAddMonoidHom (fun _ : X => ℤ) x)).isAddCyclic_iff_exists_zmultiples_eq.mp ((S.map (Pi.evalAddMonoidHom (fun _ : X => ℤ) x)).isAddCyclic)
+     have hd1 : d.natAbs = 1 := by
+       rw [Nat.eq_one_iff_not_exists_prime_dvd]
+       intro p pp hpd
+       obtain ⟨f, hf, hnd⟩ := hp x p pp
+       apply hnd
+       have hmem : f x ∈ AddSubgroup.zmultiples d := by
+-        rw [← hd]
++        rw [hd]
+         exact ⟨f, hf, rfl⟩
+       exact (Int.natCast_dvd.mpr hpd).trans (Int.mem_zmultiples_iff.mp hmem)
+     have : (1 : ℤ) ∈ AddSubgroup.zmultiples d := by
+       rw [Int.mem_zmultiples_iff]
+       exact isUnit_iff_dvd_one.mp (Int.isUnit_iff_natAbs_eq.mpr hd1)
+-    rw [← hd] at this
++    rw [hd] at this
+     obtain ⟨f, hf, hfx⟩ := this
+     exact ⟨f, hf, hfx⟩
+   choose f hfS hf1 using h1
