@@ -79,6 +79,7 @@
 | [@loremcdmx](https://github.com/loremcdmx) | [M109901](https://github.com/rohanarun/alpoge-rh-replay/issues/22294#issuecomment-7063491831) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M134678](https://github.com/rohanarun/alpoge-rh-replay/issues/22295#issuecomment-7063493643) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M134680](https://github.com/rohanarun/alpoge-rh-replay/issues/22296#issuecomment-7063495488) | Pending review |
+| [@surfyhou](https://github.com/surfyhou) | [P2449](https://github.com/rohanarun/alpoge-rh-replay/issues/22297#issuecomment-7064408985) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M134717](https://github.com/rohanarun/alpoge-rh-replay/issues/22298#issuecomment-7063497154) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M096396](https://github.com/rohanarun/alpoge-rh-replay/issues/22299#issuecomment-7063556181) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M140291](https://github.com/rohanarun/alpoge-rh-replay/issues/22300#issuecomment-7063499260) | Pending review |
@@ -253,4 +254,3 @@
 | [@loremcdmx](https://github.com/loremcdmx) | [M080173](https://github.com/rohanarun/alpoge-rh-replay/issues/22482#issuecomment-7063828954) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M080663](https://github.com/rohanarun/alpoge-rh-replay/issues/22483#issuecomment-7063830838) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M086946](https://github.com/rohanarun/alpoge-rh-replay/issues/22484#issuecomment-7063832977) | Pending review |
-| [@loremcdmx](https://github.com/loremcdmx) | [M087910](https://github.com/rohanarun/alpoge-rh-replay/issues/22485#issuecomment-7063835581) | Pending review |
