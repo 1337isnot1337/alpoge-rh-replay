@@ -1,6 +1,6 @@
 """Pick and reserve porting work (see PORTING.md).
 
-  python3 tracker/port.py next [--limit 10]   # shallowest open packets with no open Port issue
+  python3 tracker/port.py next [--limit 10]   # shallowest packets without a port reservation
   python3 tracker/port.py next --include-partial  # also show packets with some ready modules
   python3 tracker/port.py show P0123          # modules, depth, and port status of one packet
   python3 tracker/port.py show P0123 --ready-only  # unported modules whose imports are ready
@@ -54,9 +54,15 @@ def triage():
 
 
 def port_issues():
+    """Reservations from open claim issues and pending port pull requests."""
     taken = set()
     for issue in tasks.open_issues():
         if 'pull_request' in issue:
+            labels = {label if isinstance(label, str) else label['name']
+                      for label in issue.get('labels', [])}
+            if ('port' in labels or re.search(r'\bport(?:s|ing)?\b', issue['title'], re.I)):
+                taken.update(match.upper() for match in
+                             re.findall(r'\b(?:P\d{4}|M\d{6})\b', issue['title'], re.I))
             continue
         match = re.fullmatch(r'Port (P\d{4}|M\d{6})', issue['title'])
         if match:
@@ -155,7 +161,7 @@ def main():
         for target in requested:
             conflict = reservation_conflict(target, groups, by_id, taken)
             if conflict is not None:
-                raise SystemExit(f'Already reserved by an open Port issue: Port {conflict}')
+                raise SystemExit(f'Already reserved by an open port issue or pull request: Port {conflict}')
         # Validate every requested reservation before creating the first issue.
         for target in requested:
             subprocess.run(['gh', 'issue', 'create', '--repo', tasks.repo, '--title', f'Port {target}',
