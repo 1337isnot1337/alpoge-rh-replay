@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExtIntegral",
+  "source_sha256": "913b7aa44cd35e7c582bb865fcd43f176f8d87314c60b19e31e5a9bc4ea7f3f3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Expose Ideal.under as comap for the existing kernel rewrite; theorem statement unchanged."
+}

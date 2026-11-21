@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsSum",
+  "source_sha256": "6df9090c2a0d9f1e220e16fd2487ddcd7b2e95212c8493ff67fa82962e959258",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename MeasureTheory.integral_finset_sum to MeasureTheory.integral_finsetSum; theorem statement unchanged."
+}

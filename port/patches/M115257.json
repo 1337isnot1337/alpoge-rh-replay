@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FinitePlaceSumLe",
+  "source_sha256": "eb969e463f4cd56dcbe6cd620734d6ee9bf778e13e3298acb4d44fb370c70078",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FiniteOfIsFiniteLength",
+  "source_sha256": "85cf7fadc5e5ed0675a0f40b2b197fe515f6e2373ec6c20da118a020156a4a0c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the integral-algebra maximal-ideal criterion and expose Ideal.under as comap for the existing proof; theorem statement unchanged."
+}

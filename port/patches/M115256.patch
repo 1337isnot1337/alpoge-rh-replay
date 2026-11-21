@@ -1,0 +1,12 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/FiniteOfIsFiniteLength.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/FiniteOfIsFiniteLength.lean
+@@ -49,7 +49,8 @@
+     exact Ideal.Quotient.eq_zero_iff_mem.mpr (hJI hx)⟩
+   have hm : (Ideal.span {ϖ}).IsMaximal := PrincipalIdealRing.isMaximal_of_irreducible hϖ
+   haveI : Ring.KrullDimLE 0 (R ⧸ I) := Ring.krullDimLE_zero_iff.mpr fun Q hQ =>
+-    Ideal.isMaximal_of_isIntegral_of_isMaximal_comap (R := O) Q (by
++    Ideal.isMaximal_of_isIntegral_of_isMaximal_under (R := O) Q (by
++      change (Q.comap (algebraMap O (R ⧸ I))).IsMaximal
+       have hle : Ideal.span {ϖ} ≤ Q.comap (algebraMap O (R ⧸ I)) := by
+         rw [Ideal.span_singleton_le_iff_mem, Ideal.mem_comap]
+         have : algebraMap O (R ⧸ I) ϖ = 0 := Ideal.Quotient.eq_zero_iff_mem.mpr hϖI

@@ -1,0 +1,10 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExtIntegral.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ExtIntegral.lean
+@@ -9,6 +9,7 @@
+   haveI hP : (RingHom.ker φ).IsPrime := RingHom.ker_isPrime φ
+   obtain ⟨Q, -, hQ, hQP⟩ := Ideal.exists_ideal_over_prime_of_isIntegral (S := S)
+     (RingHom.ker φ) ⊥ (by
++      change Ideal.comap (algebraMap B S) ⊥ ≤ RingHom.ker φ
+       rw [← RingHom.ker_eq_comap_bot, (RingHom.injective_iff_ker_eq_bot _).1 hinj]
+       exact bot_le)
+   haveI : Q.LiesOver (RingHom.ker φ) := ⟨hQP.symm⟩

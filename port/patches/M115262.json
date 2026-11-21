@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FinrankOfPlace",
+  "source_sha256": "30cead7d21aea543e0697fbc3d3ac10fc882b96c4b1cfb2a8dcbd2c8254e7b2f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

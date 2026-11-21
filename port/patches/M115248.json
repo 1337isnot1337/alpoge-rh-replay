@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FiltrationExponentBound",
+  "source_sha256": "a7ae9d99bf803c1ba0537dfdc61b8373adb4e84013a5e116707388ac3614597a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
