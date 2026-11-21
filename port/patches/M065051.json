@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.IntegralNormSqLp",
+  "source_sha256": "d30e1e3be438037fb0c93c0c5aaaa877807200b0cf213736793dedfc42171a12",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass the null-measurability consequence of measurableSet_Ico to memLp_indicator_const. Statements are unchanged."
+}

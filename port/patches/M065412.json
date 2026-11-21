@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.QuadraticUnramifiedIffInertOrSplit",
+  "source_sha256": "a357623822fd77ef6964dfd007528bc8eaed5c0739d09a9cc1d8aa70dbebd453",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Update the argument order of Ideal.ramificationIdx_pos. Statements are unchanged."
+}
