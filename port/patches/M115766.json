@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SummableProdCoord",
+  "source_sha256": "de132d559305113e9b37b97d34effda010aff1f151506d4c6f115912f9ccbdec",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use `Finset.prod_le_prod₀`, the target's name for the ordered-semiring product inequality with nonnegativity hypotheses (`Finset.prod_le_prod` is now the ordered-monoid version without them). Proof body only."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SummandLocalization",
+  "source_sha256": "54a5e652aa1c9fe2b4338f87776494bb7f20913f09ad0d7eacdbce122e0eb8fe",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Statement changes, equivalent: `Submodule.IsLattice K` becomes `Submodule.IsFullLattice K` in the definition `UpperTheory.Reformulated.B.SummandLocalization.SummandLoc` (hypothesis on `Λ₀ : Submodule (𝓞 K) V`) and in the hypothesis `hL` of the private lemma `exists_proj` (`L : Submodule R V` with `[IsFractionRing R K]`). Mathlib #44365 renamed the pinned `IsLattice` (finitely generated and spanning) to `IsFullLattice` and reused the name `IsLattice` for a weaker notion without `span_eq_top`. Note that `SummandLoc` still compiles with the old name, but would then silently mean the weaker notion, so it is changed too. In both places the scalar field is the fraction field of the coefficient ring (`K` for `𝓞 K`, and `K` for `R` by `IsFractionRing R K`), so `IsFullLattice K M ↔ M.FG ∧ span K M = ⊤`, which is the pinned definition, because `Submodule.IsLattice.of_fg` supplies the new linear-independence field. Proofs are unchanged."
+}

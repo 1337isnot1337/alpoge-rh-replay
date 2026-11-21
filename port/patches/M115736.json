@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SpecialLinearMap",
+  "source_sha256": "1b940299d71311c164cc450ccebdbc2095941faed4e681cdb2934b3db76bc5d9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Definition type change, same type: the type of `UpperTheory.Reformulated.B.SpecialLinearMap.slM` changes from `MultilinearMap ℂ W (W v)` to `MultilinearMap (RingHom.id ℂ) W (W v)`. `MultilinearMap` now takes the ring homomorphism explicitly (semilinear multilinear maps), and `MultilinearMap (RingHom.id ℂ)` is the target's ordinary ℂ-multilinear map (the `→ₘₗ[ℂ]` notation unfolds to it). The definition body is the same; add `RingHom.id_apply` to one `simp` set in the `map_update_smul'` proof."
+}

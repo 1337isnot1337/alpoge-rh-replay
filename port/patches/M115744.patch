@@ -1,0 +1,31 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SquareOfApproximation.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SquareOfApproximation.lean
+@@ -11,7 +11,8 @@
+   obtain ⟨k, hk⟩ : ∃ k : ℤ, MonoidWithZeroHom.ValueGroup₀.embedding γ.1 = exp k :=
+     ⟨log _, (exp_log hg).symm⟩
+   refine ⟨(-k + 1).toNat, fun x hx => ?_⟩
+-  rw [Valuation.restrict_lt_iff_lt_embedding, hk]
++  refine (Valuation.restrict_lt_iff_lt_embedding (v := _i.v) (g := γ.1)).2 ?_
++  refine lt_of_lt_of_eq ?_ hk.symm
+   refine lt_of_le_of_lt hx ?_
+   rw [exp_lt_exp]
+   have := Int.self_le_toNat (-k + 1)
+@@ -148,7 +149,7 @@
+     obtain ⟨u, hu⟩ := hfix (y : E) (by rw [← hs, hy])
+     have hint : IsIntegral ℤ u := by
+       have h1 : IsIntegral ℤ (algebraMap F E u) := hu ▸ RingOfIntegers.isIntegral_coe y
+-      exact (isIntegral_algebraMap_iff (algebraMap F E).injective).1 h1
++      exact isIntegral_algebraMap_iff.1 h1
+     refine ⟨⟨u, hint⟩, ?_⟩
+     apply RingOfIntegers.ext
+     exact hu.symm
+@@ -178,7 +179,8 @@
+       x ∈ v.asIdeal ^ m := by
+     intro x m hx
+     rw [← intValuation_le_pow_iff_mem] at hx ⊢
+-    rw [← intValuation_liesOver v P x] at hx
++    rw [← intValuation_liesOver v P x,
++      ← Ideal.ramificationIdx'_eq_ramificationIdx v.asIdeal P.asIdeal v.ne_bot] at hx
+     have h1 : exp (-((e * m : ℕ) : ℤ)) = (exp (-(m : ℤ))) ^ e := by
+       rw [← exp_nsmul]
+       congr 1

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SquareOfApproximation",
+  "source_sha256": "06b3d746c397786d98c5d05576ede97fd64bcfccb687ae2b4b079b8e69613f51",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof body changes only. `Valuation.restrict` now lands in `ValueGroup₀ (v : R →*₀ Γ₀)` rather than the `.ofClass` form used in the statement of the private lemma `small_power_bound`; the two are definitionally equal, so apply `Valuation.restrict_lt_iff_lt_embedding` with explicit `v`/`g` and finish with `lt_of_lt_of_eq _ hk.symm` instead of rewriting. `isIntegral_algebraMap_iff` now takes `[FaithfulSMul A B]` instead of an injectivity proof. `intValuation_liesOver` is now stated with `Ideal.ramificationIdx`, so convert back to the `ramificationIdx'` used for `e` with `Ideal.ramificationIdx'_eq_ramificationIdx`. Statements are unchanged."
+}

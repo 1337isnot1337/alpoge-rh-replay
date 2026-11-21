@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SplittingFieldConstruction.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SplittingFieldConstruction.lean
+@@ -48,7 +48,7 @@
+   have hφ : Function.Injective φ := by
+     rw [RingHom.injective_iff_ker_eq_bot]
+     apply Ideal.eq_bot_of_comap_eq_bot (R := A)
+-    rw [RingHom.comap_ker]
++    rw [Ideal.under, RingHom.comap_ker]
+     exact (RingHom.injective_iff_ker_eq_bot _).1 hinj
+   have hzA : ∀ a : A, z (algebraMap A B a) = φ (algebraMap A C a) := fun a =>
+     DFunLike.congr_fun hz a

@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SpectrumNonemptyOfCountableRank.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/SpectrumNonemptyOfCountableRank.lean
+@@ -40,7 +40,7 @@
+   have hp0 : p ≠ 0 := by
+     intro h0
+     have h1 : eval i p = m i * ∏ j ∈ s.erase i, (i - j) := by
+-      simp only [p, eval_finset_sum, eval_mul, eval_C]
++      simp only [p, eval_finsetSum, eval_mul, eval_C]
+       rw [Finset.sum_eq_single_of_mem i hi]
+       · simp [q, eval_prod]
+       · intro b hb hbi
