@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralBasisChangeDeterminant",
+  "source_sha256": "113c42a1148ad6aeea55b4ad2e34f02978aed67e40d3092f762405ee89a7a77b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`List.TFAE.out` is 1-indexed on the target, so `.out 0 1` becomes `.out 1 2` (the same first and second statements). Proof body only."
+}

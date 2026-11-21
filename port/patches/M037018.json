@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralDoubleSeriesInterchange",
+  "source_sha256": "d72e41d740f444f72144a39675c3f2158a3ca882b7aaf404fe41a94b0658eb5f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed `integral_finsetSum` and `integrable_finsetSum`."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.InjectiveOfMapPderivEqAndMapOneNeZero",
+  "source_sha256": "6e854d111a52d92f81a745662c964ee58d593fb185ac01014a0d0679ab12635d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`MvPolynomial.coeff` no longer exists as a function: inside the proof write `p.coeff m` for `coeff m p`, replace `congrArg (coeff m) h` by `MvPolynomial.ext_iff.mp h m`, and rewrite the zero coefficient with `AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply`. Proof body only; the statement is unchanged."
+}

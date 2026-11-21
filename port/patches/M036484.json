@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsTerRest",
+  "source_sha256": "3a08b9d2f660c4f1a41b56100b9188e76f1d8670938e324078ddaf1db13c7808",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Polynomial.coeff_smul` is protected on the target, so the bare name under `open Polynomial` no longer refers to it; qualify it. Proof body only."
+}
