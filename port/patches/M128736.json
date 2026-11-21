@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.VandermondeSeparation",
+  "source_sha256": "4b964d0591ea5778dcebd3998ba5670d3f902c315426ad9e9e325c5c64802f9a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

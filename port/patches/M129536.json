@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.AdjoinInverseElementForm",
+  "source_sha256": "3c00b1295516e55da2aad4486c40b40814a1a576274a135c41aee967fae5104e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

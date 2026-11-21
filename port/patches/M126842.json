@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RangeVecMulLinearEq",
+  "source_sha256": "f79045403effd016c350d6dcab304fb60522394c4d416813edb89bbeabd4ced3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

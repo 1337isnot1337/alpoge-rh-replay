@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsSectionNotInSet",
+  "source_sha256": "f24e8118c4a101260e4e068f44d9a17b8ba33ad8d6649a172309210d7db2f097",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SummableOfLatticeDecay",
+  "source_sha256": "5dd6a34833d74eea607971ceb4d85b05bc4b70439a1320bafc459271b69e0cab",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_le_prod\u2080 with the existing nonnegativity hypotheses; theorem statements unchanged."
+}

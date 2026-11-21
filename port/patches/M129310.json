@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.MemSmulOfTmulEqZero",
+  "source_sha256": "afa6099daa11163809940c05803231311c8aa6d72ac2ad24252a0b3ec48da773",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

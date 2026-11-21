@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.VolumeSingularMatricesEqZero",
+  "source_sha256": "32d2ea5a86176f6faf7a0c084e0b76ef4013f6856d886561575cdb2df7379a8e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

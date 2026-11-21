@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.SumLogDivNSqLeTwo",
+  "source_sha256": "ee1795edbe054c5c87617ac1ffc839457f1fe15b1f890630e60d841196a9b7cb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

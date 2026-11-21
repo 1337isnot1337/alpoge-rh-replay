@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SummableTwistedSquareCoefficients",
+  "source_sha256": "4b9ac7560a78e20ab6cefbe232fad3d522bc35aaa6cc47ad33722dd074a4a5a9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

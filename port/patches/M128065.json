@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TensorSumAnnihilator",
+  "source_sha256": "00edd262626b58ff46537ce67c2ddb063675ededc1cf594526418e9c8cd6a48b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

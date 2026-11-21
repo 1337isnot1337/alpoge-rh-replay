@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.FrobeniusStableSubspaceElement",
+  "source_sha256": "e1c3aff58fffd579869a1ac8a54424b43df75e179d786ec9f668a7e396a55602",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

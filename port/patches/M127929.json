@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SummableProdPowMultiIndex",
+  "source_sha256": "3fa91b317114807cfcfa1b7c1fb4d0895bcb0fad93c2589d8bc4055fe608caab",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

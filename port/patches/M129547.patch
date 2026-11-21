@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/AlgIndepOfSameAdjoin.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/AlgIndepOfSameAdjoin.lean
+@@ -36,7 +36,7 @@
+     exact hq0 (by rw [← hqq]; rfl)
+   refine ⟨Polynomial.C (⟨q', hq'⟩ : A) * Polynomial.X - Polynomial.C ⟨p', hp'⟩, ?_, ?_⟩
+   · intro h
+-    have h2 := congrArg (fun f => Polynomial.coeff f 1) h
++    have h2 := congrArg (fun f : Polynomial A => f.coeff 1) h
+     simp at h2
+     exact hq'0 (congrArg Subtype.val h2 :)
+   · rw [map_sub, map_mul, Polynomial.aeval_C, Polynomial.aeval_C, Polynomial.aeval_X, sub_eq_zero]

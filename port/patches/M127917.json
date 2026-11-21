@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SummableLatticeHeightSeries",
+  "source_sha256": "833080db3559eb086c37ed2185557d9f60a4f7bcd9eeef17d388fa94a5f68de2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

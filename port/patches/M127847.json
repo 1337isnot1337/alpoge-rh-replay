@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.StripOpenRealDiscs",
+  "source_sha256": "5ae61963ddefb1c6e1f3d821470fc7ceadee57057ec9948c6cb2ce2f35c7a195",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

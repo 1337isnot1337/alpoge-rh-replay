@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UniformLowerBoundNearInjective",
+  "source_sha256": "44d11f471c506e2fef7f22a9f03e77e425a3edb6c38c68c98f6e8a72e6f1b1ab",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

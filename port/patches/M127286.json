@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SecondCountableHermC",
+  "source_sha256": "4d7ff6bace0314558a191ad2cf1adcd02d4197af4dbe0bca9143be72e1a7e7a8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

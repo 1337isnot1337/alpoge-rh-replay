@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.RelIndexOpenCompactNeZero",
+  "source_sha256": "e981e585b168a5288a22dc54d044f48d27e2b5116c0ae711a640d4a5dd3fe559",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

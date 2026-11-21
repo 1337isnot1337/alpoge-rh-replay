@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsEqMulMultOfUnits",
+  "source_sha256": "563dfa7b5c1d2807cc5e5ba7715628c8d1664c08e6019f9b11c148d057f58cb0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

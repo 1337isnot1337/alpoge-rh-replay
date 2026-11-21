@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.EpSplit",
+  "source_sha256": "95a3e9ae4ba608d18d4e52d61f3a0927a491719e1186b3a184064dc243f0f536",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
