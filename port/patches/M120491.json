@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.NormalNoethLocalDimOneIsDVR",
+  "source_sha256": "1914194a7037c780162da85fdf6a2f18b30e5f2e5dff208217122dc76bf5f3f8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use one-based TFAE indices for the same DVR and integrally-closed propositions; theorem statement unchanged."
+}

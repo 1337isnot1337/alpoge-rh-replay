@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.AntitoneWeightedSumZero",
+  "source_sha256": "afbc1a811e3304abe92156934dff244a95e281cc93d82a1423b3347c46c22bba",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

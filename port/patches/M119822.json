@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Definitions.MetricPeriods.InFlagDomainOne",
+  "source_sha256": "3d9e5a60191008331d74e684cbfc260f7471a97ee0a12734dafc2e90bb2b2178",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.AnnihilatorCompactWithinNhds",
+  "source_sha256": "4620c649b5a002a629254cee739d75b92ff7b609140421d5c2da1af91d3d6c90",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

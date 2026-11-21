@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ExistsUnitFormLocalizationEtaleNbhd",
+  "source_sha256": "e9ebc1eb609432367ee904bbed20e377d24a9ab1623e651be3f0b20d304fb32a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

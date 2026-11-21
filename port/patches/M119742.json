@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.InstBorelGL",
+  "source_sha256": "16a87c38bdb696a44030a36208e125abe63ae923fce36be1c7a1f6da62482989",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

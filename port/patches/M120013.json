@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.CompactCentralizerTranslate",
+  "source_sha256": "d7810ab413cc806249c5c267e59a354190c70abc8b53e42249cce9e15e6d232e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

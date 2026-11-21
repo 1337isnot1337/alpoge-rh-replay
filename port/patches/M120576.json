@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.RealOfFixedByConjugations",
+  "source_sha256": "b76bdf63c85c401b2faecca37ee9480a79d815532422d16acf25f2e6f79567cf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

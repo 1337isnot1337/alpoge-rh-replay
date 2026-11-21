@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.AePolynomialNonvanishing",
+  "source_sha256": "5fbe3671e4529fbe18c8ce54f53e33fef2249fd969946439e2ffc7835add4ed8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use typed polynomial coefficient field notation; theorem statements unchanged."
+}

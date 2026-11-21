@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ApplyMulOfCoprime",
+  "source_sha256": "2d7dfc4a92f1ee18450630e8aacbf39f8c43354e0e94989b3d8213dc4c1766b9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.CentralizerCmFieldInvolution",
+  "source_sha256": "6f0eea618d749cd8660e37c641663d9f770ea3dfedeec7ee005aff1ff1fcd671",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

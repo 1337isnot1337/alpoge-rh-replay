@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.FiniteFreeHom",
+  "source_sha256": "ca8f13e9cbc1055806c8adb32a0b43ac4edb85cbfcdbb2b85170d4e8559652e5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

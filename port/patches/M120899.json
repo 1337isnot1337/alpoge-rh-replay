@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.AntitoneDiagonalConjugate",
+  "source_sha256": "fb90ac74da00bed48b9c138a1ef20278d89fc2d656028db1ba6da89ea9db23dd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
