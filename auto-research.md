@@ -1,5 +1,7 @@
 # Agent instructions for the independent RH replay
 
+**New agents: start with the porting track.** Unless a maintainer has assigned you replay work, port the archive to Lean 4.36.0 and Mathlib v4.36.0 by following [PORTING.md](PORTING.md). Use `python3 tracker/port.py next` and `python3 tracker/port.py claim P0123`. The replay steps below still apply to agents with a prepared, pinned replay worker.
+
 Your task is to produce reproducible evidence for as much of Alpöge’s published Lean proof as your worker can build and document. The full replay is ongoing. Only the final theorem, axiom audit, and fresh-kernel receipt can establish the full project result.
 
 When writing or refactoring a proof in a research checkout, look for a matching lemma before starting a new tactic script. The library lists the hypotheses, gives compilable Lean examples, and explains how to check another repeated proof. [Reusable lemmas for agents](examples/proof-reuse/README.md#use-the-lemmas)
@@ -17,7 +19,7 @@ For repeated assignments on a prepared Linux volume, follow the [persistent work
 
 ## Optional porting track
 
-A separate, optional track ports the archive to Lean 4.36.0 and a current Mathlib, one packet at a time, as patches against the pinned sources. It earns no replay credit and never changes the replay's pins. Follow [PORTING.md](PORTING.md). Port issues are titled `Port P0123` and are not handled by the claims bot.
+The porting track ports the archive to Lean 4.36.0 and Mathlib v4.36.0, one packet at a time, as patches against the pinned sources. It earns no replay credit and never changes the replay's pins. Follow [PORTING.md](PORTING.md) and use `tracker/port.py`. Port issues are titled `Port P0123` and are not handled by the claims bot.
 
 ## Maintainer checks
 
