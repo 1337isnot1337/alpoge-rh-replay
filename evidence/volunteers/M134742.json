@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M134742"
+  ],
+  "started_utc": "2026-11-21T00:07:38.977873+00:00",
+  "ended_utc": "2026-11-21T00:08:16.800910+00:00",
+  "elapsed_seconds": 37.8,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 23809704,
+    "peak_child_rss_kib": 6955524
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Statements.AlgebraStatements.HodgeTateNormComparison:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1707ebee9662e071f2578e5a217489525473499cb00351f37cd66da93f2b116d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.LogAbsVpOfNormalised",
+    "Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.IsLocallyConstantRankAtStalkEigenSub",
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.IsCompactUnitaryPointsAtPlaceFstMemCompact",
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.LatNormGrLatNeZeroOfSpan",
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.LeadMinor",
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.OmStable",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.IdemDen"
+  ],
+  "objects": {
+    "M134742": "84f0422e2d2ec46e6140e0c6a9cfe9b2b5084a439da8b89fa9764a216c38241d"
+  },
+  "bundle_sha256": "e9176f48fcb32e0020eb6512674e4286155e97bb765afe1fb5bb9fbaf04aa356",
+  "packet": "M134742",
+  "contributor": "matan1905",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/7603#issuecomment-7053816554",
+  "reviewed_utc": "2026-11-21T00:17:45.706813+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

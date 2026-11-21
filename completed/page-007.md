@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006097 | P0296 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldInducedClassFunction` | wave-reused |
+| M006098 | P0348 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldInducedClassFunctionStatement` | wave-reused |
+| M006099 | P0436 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldInductionIrreducible` | wave-reused |
+| M006100 | P0475 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldInductionIrreducibleStatement` | wave-reused |
+| M006101 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldLinearOfPrimitiveRoot` | wave-reused |
+| M006102 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldLinearOfPrimitiveRootStatement` | wave-reused |
+| M006103 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldOfRepresentation` | wave-reused |
+| M006104 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldOfRepresentationStatement` | wave-reused |
+| M006105 | P0516 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldOfVirtualAndCharacter` | wave-reused |
+| M006106 | P0550 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldOfVirtualAndCharacterStatement` | wave-reused |
+| M006107 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldRestrictClassFunctionOne` | wave-reused |
+| M006108 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldRestrictClassFunctionOneStatement` | wave-reused |
+| M006109 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldZeroAndAdd` | wave-reused |
+| M006110 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldZeroAndAddStatement` | wave-reused |
+| M006111 | P0394 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsPrimitiveEndClassFunctionInvariantSubspaceMobi` | wave-reused |
 | M006112 | P0436 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsPrimitiveEndClassFunctionInvariantSubspaceMobiStatement` | wave-reused |
 | M006113 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsPrimitiveExtendZeroOfSumUnipotentRadical` | build-observed |
 | M006114 | P0296 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsPrimitiveExtendZeroOfSumUnipotentRadicalStatement` | build-observed |
@@ -387,18 +402,3 @@
 | M006678 | P1170 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldDefiningCmCurveHoms` | build-observed |
 | M006679 | P1194 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldDefiningCmCurveHomsStatement` | build-observed |
 | M006682 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldPointOfCountable` | volunteer-build-reviewed |
-| M006683 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldTorsionPoints` | volunteer-build-reviewed |
-| M006684 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsOActExtendDedekind` | volunteer-build-reviewed |
-| M006691 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPeriodPairOfLatticeInLine` | build-observed |
-| M006694 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPolarisedAbelianSchemeLieBasisInvariants` | volunteer-build-reviewed |
-| M006695 | P1246 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPolarisedAbelianSchemeLieBasisInvariantsStatement` | build-observed |
-| M006697 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPolarisedAbelianSchemePowerStatement` | volunteer-build-reviewed |
-| M006699 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPosKeyArchAt` | volunteer-build-reviewed |
-| M006704 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsProdPolAV` | volunteer-build-reviewed |
-| M006706 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPullback` | volunteer-build-reviewed |
-| M006708 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPureVectorsPeriodsSpan` | volunteer-build-reviewed |
-| M006715 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsSecGeneric` | volunteer-build-reviewed |
-| M006717 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTateIsoZetaEq` | volunteer-build-reviewed |
-| M006718 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTensorBundle` | volunteer-build-reviewed |
-| M006724 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTorsionFieldExtStatement` | volunteer-build-reviewed |
-| M006734 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueExtendRingOfIntegersHom` | volunteer-build-reviewed |

@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005310 | P1057 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.PolBaseChangeOfRelAmpleLocal` | wave-reused |
+| M005312 | P0811 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.PrimitiveCocycle` | build-observed |
+| M005315 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.QuotientIsAbelianSchemeOfQuotientScheme` | wave-reused |
+| M005316 | P0239 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.RangeRestrictCompSubtypeOfOrthogonalOfNe` | wave-reused |
+| M005317 | P1084 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.RelAmpleOfLocallyOnBase` | wave-reused |
+| M005318 | P1114 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.RelAmpleOfLocallyOnBaseStatement` | wave-reused |
+| M005319 | P1084 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.RingKrullDimLeOfQuasiFinite` | wave-reused |
+| M005320 | P1057 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SecBaseChangeOfPerf` | wave-reused |
+| M005321 | P0758 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SecDivOfThickenings` | wave-reused |
+| M005322 | P0515 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SecEqZeroAndHomEqOfThickenings` | wave-reused |
+| M005323 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SecEqZeroOfDvdPowUniformiser` | wave-reused |
+| M005324 | P1029 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SecMInvariantEqBotOrUnivAtGeometricPoint` | wave-reused |
+| M005325 | P1324 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SerreVanishingVeryAmple` | wave-reused |
 | M005326 | P1350 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SerreVanishingVeryAmpleStatement` | wave-reused |
 | M005327 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SmoothDense` | wave-reused |
 | M005328 | P0758 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SpanEqTopOfFunctionals` | wave-reused |
@@ -53,6 +66,7 @@
 | M005446 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsCongrIffTraceFormsIsometric` | wave-reused |
 | M005447 | P0550 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsCongrIffTraceFormsIsometricCm` | wave-reused |
 | M005450 | P0003 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsContinuousCircleCharExtension` | volunteer-build-reviewed |
+| M005452 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsDenominatorPrimesPrescribed` | volunteer-build-reviewed |
 | M005453 | P1194 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsDualFamilySelfDualHermitianSpace` | build-observed |
 | M005454 | P1218 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsDualFamilySelfDualHermitianSpaceStatement` | build-observed |
 | M005456 | P0003 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsEntireMellinSmoothedDirichletSum` | volunteer-build-reviewed |
@@ -341,6 +355,7 @@
 | M006045 | P0348 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FinsumMobiusInverseCharpolyTransversalSubspacesStatement` | wave-reused |
 | M006046 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FinsumSubspaceStabilizerMulBlockFunctions` | wave-reused |
 | M006047 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FinsumSubspaceStabilizerMulBlockFunctionsStatement` | wave-reused |
+| M006048 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FinsumUnipotentRadicalEqZero` | volunteer-build-reviewed |
 | M006050 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FrobeniusTorusCharacterOrthogonality` | wave-reused |
 | M006051 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FrobeniusTorusCharacterOrthogonalityStatement` | wave-reused |
 | M006052 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.FrobeniusTorusMinpolyDegreeRootPowerSum` | wave-reused |
@@ -387,18 +402,3 @@
 | M006094 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterFinsumConjSubgroupFunctionExtendByZerStatement` | wave-reused |
 | M006095 | P0516 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldAbelianByPrimePower` | wave-reused |
 | M006096 | P0550 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldAbelianByPrimePowerStatement` | wave-reused |
-| M006097 | P0296 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldInducedClassFunction` | wave-reused |
-| M006098 | P0348 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldInducedClassFunctionStatement` | wave-reused |
-| M006099 | P0436 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldInductionIrreducible` | wave-reused |
-| M006100 | P0475 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldInductionIrreducibleStatement` | wave-reused |
-| M006101 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldLinearOfPrimitiveRoot` | wave-reused |
-| M006102 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldLinearOfPrimitiveRootStatement` | wave-reused |
-| M006103 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldOfRepresentation` | wave-reused |
-| M006104 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldOfRepresentationStatement` | wave-reused |
-| M006105 | P0516 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldOfVirtualAndCharacter` | wave-reused |
-| M006106 | P0550 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldOfVirtualAndCharacterStatement` | wave-reused |
-| M006107 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldRestrictClassFunctionOne` | wave-reused |
-| M006108 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldRestrictClassFunctionOneStatement` | wave-reused |
-| M006109 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldZeroAndAdd` | wave-reused |
-| M006110 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldZeroAndAddStatement` | wave-reused |
-| M006111 | P0394 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsPrimitiveEndClassFunctionInvariantSubspaceMobi` | wave-reused |

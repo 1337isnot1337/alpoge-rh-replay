@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M003078 | P0945 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.DifferentiableAtChart` | volunteer-build-reviewed |
+| M003081 | P0810 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.DuStarPos` | build-observed |
+| M003090 | P0810 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.EqOfPowEqOneOfNormSubLt` | wave-reused |
+| M003092 | P1349 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.EtaJUntw` | build-observed |
+| M003097 | P0865 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsAllLifts` | build-observed |
+| M003109 | P0238 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsNotCongPow` | wave-reused |
+| M003111 | P0838 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsPotential` | build-observed |
 | M003112 | P0945 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsPreDataDyadicFrame` | volunteer-build-reviewed |
 | M003115 | P1501 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsSameFOfDiv` | volunteer-build-reviewed |
 | M003120 | P1501 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsTangentOrigin` | volunteer-build-reviewed |
@@ -21,6 +28,7 @@
 | M003202 | P0294 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsSemisimpleOfISupEigenspace` | wave-reused |
 | M003203 | P1472 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsTangent` | volunteer-build-reviewed |
 | M003209 | P1084 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.JetsInIffStepField` | volunteer-build-reviewed |
+| M003212 | P1394 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.LatAtLattice` | volunteer-build-reviewed |
 | M003217 | P1501 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.LinearIndependentOfCutSec` | volunteer-build-reviewed |
 | M003220 | P0945 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.LocAutHodgeTateWeightsLevelZeroDef` | volunteer-build-reviewed |
 | M003222 | P0784 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.LocalPrimeGaloisActionPeriodT` | wave-reused |
@@ -277,12 +285,16 @@
 | M004023 | P0238 | `Development.AbelianVarietyTheory.Definitions.Foundations.EeProd` | wave-reused |
 | M004024 | P0239 | `Development.AbelianVarietyTheory.Definitions.Foundations.EigenOfTwoStep` | wave-reused |
 | M004029 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.EtaSixProductDifferentiable` | volunteer-build-reviewed |
+| M004030 | P1084 | `Development.AbelianVarietyTheory.Definitions.Foundations.EventuallyEqOfIsPreconnected` | build-observed |
+| M004031 | P1218 | `Development.AbelianVarietyTheory.Definitions.Foundations.EventuallyNormFinLeOne` | build-observed |
 | M004039 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.ExistsFinsetOfEventually` | volunteer-build-reviewed |
+| M004041 | P1298 | `Development.AbelianVarietyTheory.Definitions.Foundations.ExistsGLSubmatrix` | build-observed |
 | M004046 | P0173 | `Development.AbelianVarietyTheory.Definitions.Foundations.ExistsRootOfIsAlgClosed` | volunteer-build-reviewed |
 | M004049 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.ExpUpper` | wave-reused |
 | M004055 | P1349 | `Development.AbelianVarietyTheory.Definitions.Foundations.GLintEqKOAndPrincEqKOne` | volunteer-build-reviewed |
 | M004057 | P0295 | `Development.AbelianVarietyTheory.Definitions.Foundations.HTBasis` | wave-reused |
 | M004060 | P0173 | `Development.AbelianVarietyTheory.Definitions.Foundations.HahnPowOrderLeadingCoeff` | volunteer-build-reviewed |
+| M004062 | P1272 | `Development.AbelianVarietyTheory.Definitions.Foundations.HermitianSpaceBaseLatticeEqFrameLattice` | build-observed |
 | M004065 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.Imports` | wave-reused |
 | M004066 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.InFrameStabilizer` | volunteer-build-reviewed |
 | M004068 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.Integral` | wave-reused |
@@ -316,6 +328,7 @@
 | M004122 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.NotCoboundaryConstantOne` | wave-reused |
 | M004126 | P0784 | `Development.AbelianVarietyTheory.Definitions.Foundations.NotIsSelfDualETwo` | build-observed |
 | M004128 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.NotIsTrDataGaussianIntOne` | volunteer-build-reviewed |
+| M004130 | P1245 | `Development.AbelianVarietyTheory.Definitions.Foundations.OfInfProjInfMulOfFinProjFin` | build-observed |
 | M004131 | P0173 | `Development.AbelianVarietyTheory.Definitions.Foundations.OpLDOneSubMemTriv` | wave-reused |
 | M004132 | P0239 | `Development.AbelianVarietyTheory.Definitions.Foundations.OrderedConst` | volunteer-build-reviewed |
 | M004133 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.PetEqRelIndexMulPetProd` | volunteer-build-reviewed |
@@ -389,16 +402,3 @@
 | M004376 | P0891 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.IdxMatNF` | build-observed |
 | M004386 | P1001 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LFunctionPositiveConductorFourEight` | build-observed |
 | M004387 | P0295 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LamIdealOfNotPrimePow` | build-observed |
-| M004388 | P0173 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LatIntZero` | volunteer-build-reviewed |
-| M004392 | P0095 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LinkExactAff` | volunteer-build-reviewed |
-| M004393 | P1084 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LogCondLeThree` | build-observed |
-| M004395 | P0096 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.MemSplitSeqIff` | volunteer-build-reviewed |
-| M004401 | P1001 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.PairRowIffQdRows` | build-observed |
-| M004402 | P0002 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.PermRepSingle` | volunteer-build-reviewed |
-| M004405 | P1029 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.RedPEqZeroOfDiv` | build-observed |
-| M004407 | P1169 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate` | build-observed |
-| M004409 | P0974 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SmulCommClassGalIntegers` | build-observed |
-| M004410 | P1834 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SquareIntegrableColumnsCompatible` | build-observed |
-| M004411 | P0003 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SubClosed` | volunteer-build-reviewed |
-| M004412 | P1056 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ThinScalesIffHostBound` | build-observed |
-| M004415 | P1712 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking` | build-observed |

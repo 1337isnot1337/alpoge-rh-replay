@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M011383 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SpanRhoTEqTop` | volunteer-build-reviewed |
+| M011391 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalOperatorEigenvaluesDeterminedByParamsStatement` | volunteer-build-reviewed |
+| M011397 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalParameterBoundSplitPlaceStatement` | volunteer-build-reviewed |
+| M011430 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceCharacterConductorIntegers` | volunteer-build-reviewed |
+| M011553 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.StabilizerInductionLaw` | volunteer-build-reviewed |
+| M011561 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.StandardCharacterConductorAlmostAll` | volunteer-build-reviewed |
+| M011591 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.StarEqHostConj` | volunteer-build-reviewed |
+| M011594 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.StarSmulVec` | volunteer-build-reviewed |
+| M011604 | P1115 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.StepDatumCompletionEqColumnTestFunctionStatement` | volunteer-build-reviewed |
+| M011628 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SumBorelSphericalDoubleCosetRepsMul` | volunteer-build-reviewed |
+| M011631 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SumBorelSphericalOverDiagonalDoubleCosetRepsStatement` | volunteer-build-reviewed |
+| M011640 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SumMatApply` | volunteer-build-reviewed |
+| M011656 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SurjectiveOfAdjointSeparatesLabelledPartsStatement` | volunteer-build-reviewed |
+| M011658 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymChainPatternIffPlaceConditions` | volunteer-build-reviewed |
+| M011659 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymChainPatternIffPlaceConditionsStatement` | volunteer-build-reviewed |
 | M011664 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymLevelChainTestFunctionAddRowStatement` | volunteer-build-reviewed |
 | M011669 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymLevelTestFunctionsAgreeRationalPoints` | volunteer-build-reviewed |
 | M011670 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymLevelTestFunctionsAgreeRationalPointsStatement` | volunteer-build-reviewed |
@@ -223,6 +238,7 @@
 | M012939 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFiniteNormalExtContainingAlgebraicElements` | volunteer-build-reviewed |
 | M012940 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFiniteNormalExtContainingAlgebraicElementsStatement` | volunteer-build-reviewed |
 | M012942 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFiniteSplitTorusExtensionOfTorusExtensionStatement` | volunteer-build-reviewed |
+| M012946 | P0706 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFinsetModelOfIsAffine` | volunteer-build-reviewed |
 | M012948 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFinsetOfPoint` | volunteer-build-reviewed |
 | M012949 | P0006 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsForallNeZeroOfCountableAnalytic` | volunteer-build-reviewed |
 | M012950 | P1534 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFormCorrectionNextThickeningLocal` | build-observed |
@@ -230,6 +246,7 @@
 | M012952 | P1420 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFormCorrectionOfVanishingAfterBaseChange` | build-observed |
 | M012953 | P1445 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFormCorrectionOfVanishingAfterBaseChangeStatement` | volunteer-build-reviewed |
 | M012955 | P0679 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFormSec` | wave-reused |
+| M012956 | P0617 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFractionEvalSectionAffineNearPoint` | volunteer-build-reviewed |
 | M012958 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFramesOnUniformisedFibreThroughIso` | volunteer-build-reviewed |
 | M012959 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFramesOnUniformisedFibreThroughIsoStatement` | volunteer-build-reviewed |
 | M012960 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFramesOnUniformisedModelFibre` | build-observed |
@@ -385,20 +402,3 @@
 | M013261 | P1474 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSemiAbelianSplitCubicalExtensionClosure` | volunteer-build-reviewed |
 | M013262 | P1504 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSemiAbelianSplitCubicalExtensionClosureStatement` | worker-kernel-checked |
 | M013263 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSemiAbelianTorusExtensionOfPotentialModel` | volunteer-build-reviewed |
-| M013264 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSemiAbelianTorusExtensionOfPotentialModelStatement` | volunteer-build-reviewed |
-| M013271 | P1220 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSmoothOfRelativeDimensionSpreadFromGeneric` | build-observed |
-| M013273 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSmoothTorusQuotientOfGoodOpenCover` | volunteer-build-reviewed |
-| M013274 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSmoothTorusQuotientOfGoodOpenCoverStatement` | volunteer-build-reviewed |
-| M013276 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSpecialFibreProjectionAbelianPart` | volunteer-build-reviewed |
-| M013277 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSpecialFibreProjectionAbelianPartStatement` | volunteer-build-reviewed |
-| M013281 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSplitTorusExtensionDescentGaloisInvariant` | volunteer-build-reviewed |
-| M013283 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSplitTorusKernelGenericFibre` | build-observed |
-| M013284 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSplitTorusKernelGenericFibreStatement` | build-observed |
-| M013286 | P1247 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsStrict` | build-observed |
-| M013289 | P0006 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSubMemMaximalIdeal` | wave-reused |
-| M013290 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSums` | volunteer-build-reviewed |
-| M013291 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymLiftGlobal` | volunteer-build-reviewed |
-| M013292 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymLiftGlobalStatement` | volunteer-build-reviewed |
-| M013293 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymPmaps` | volunteer-build-reviewed |
-| M013297 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymmetricSpreadOutLineBundleAbelianSchemeStatement` | volunteer-build-reviewed |
-| M013300 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSymplecticLevelBaseChangePolarisedAbelian` | volunteer-build-reviewed |

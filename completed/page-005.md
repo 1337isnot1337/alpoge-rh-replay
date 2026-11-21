@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004388 | P0173 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LatIntZero` | volunteer-build-reviewed |
+| M004392 | P0095 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LinkExactAff` | volunteer-build-reviewed |
+| M004393 | P1084 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LogCondLeThree` | build-observed |
+| M004395 | P0096 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.MemSplitSeqIff` | volunteer-build-reviewed |
+| M004401 | P1001 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.PairRowIffQdRows` | build-observed |
+| M004402 | P0002 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.PermRepSingle` | volunteer-build-reviewed |
+| M004405 | P1029 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.RedPEqZeroOfDiv` | build-observed |
+| M004407 | P1169 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SetUnipotentTranslate` | build-observed |
+| M004409 | P0974 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SmulCommClassGalIntegers` | build-observed |
+| M004410 | P1834 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SquareIntegrableColumnsCompatible` | build-observed |
+| M004411 | P0003 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SubClosed` | volunteer-build-reviewed |
+| M004412 | P1056 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ThinScalesIffHostBound` | build-observed |
+| M004415 | P1712 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ValidForConstructedPointClassesEventuallyWorking` | build-observed |
 | M004417 | P1559 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.ConclOfInputs4` | build-observed |
 | M004418 | P1001 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.FiniteDimensionalOfSz` | build-observed |
 | M004419 | P1531 | `Development.AbelianVarietyTheory.Definitions.HeightFunctions.GrowthConstantBoundGcR` | build-observed |
@@ -389,16 +402,3 @@
 | M005307 | P1272 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.NonemptyPerfectSectionsComplexOfSmoothProjStatement` | wave-reused |
 | M005308 | P0865 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.NonemptyTorusExtensionOfIsGt` | wave-reused |
 | M005309 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.OneTmulNeZeroOfDomain` | wave-reused |
-| M005310 | P1057 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.PolBaseChangeOfRelAmpleLocal` | wave-reused |
-| M005312 | P0811 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.PrimitiveCocycle` | build-observed |
-| M005315 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.QuotientIsAbelianSchemeOfQuotientScheme` | wave-reused |
-| M005316 | P0239 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.RangeRestrictCompSubtypeOfOrthogonalOfNe` | wave-reused |
-| M005317 | P1084 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.RelAmpleOfLocallyOnBase` | wave-reused |
-| M005318 | P1114 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.RelAmpleOfLocallyOnBaseStatement` | wave-reused |
-| M005319 | P1084 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.RingKrullDimLeOfQuasiFinite` | wave-reused |
-| M005320 | P1057 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SecBaseChangeOfPerf` | wave-reused |
-| M005321 | P0758 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SecDivOfThickenings` | wave-reused |
-| M005322 | P0515 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SecEqZeroAndHomEqOfThickenings` | wave-reused |
-| M005323 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SecEqZeroOfDvdPowUniformiser` | wave-reused |
-| M005324 | P1029 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SecMInvariantEqBotOrUnivAtGeometricPoint` | wave-reused |
-| M005325 | P1324 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.SerreVanishingVeryAmple` | wave-reused |

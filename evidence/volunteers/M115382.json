@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M115382"
+  ],
+  "started_utc": "2026-11-21T00:08:04.366200+00:00",
+  "ended_utc": "2026-11-21T00:08:41.823625+00:00",
+  "elapsed_seconds": 37.4,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 7979188,
+    "peak_child_rss_kib": 6141404
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ImportsSideRest:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fd10fe08ddeb3bad0a226891c8eb74508b5e97329274fbb0a74e67cdc05dbc25",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M115382": "4bedbfa7ebd39ad9488f24c0827fd55e7a21db75834314d3dbe5fa983fa02ee4"
+  },
+  "bundle_sha256": "6460c2a6072a10d8e00060e14a72c058cf9d9fc06cee329352edae046983851f",
+  "packet": "M115382",
+  "contributor": "roonastgames",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/7629#issuecomment-7053818309",
+  "reviewed_utc": "2026-11-21T00:17:39.810063+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -220,12 +220,16 @@
 | M002441 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.CrystallineSubrepresentation` | build-observed |
 | M002442 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.DefiniteFormInstances` | volunteer-build-reviewed |
 | M002443 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.DeterminantInTorus` | volunteer-build-reviewed |
+| M002447 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.GammaStableInverse` | volunteer-build-reviewed |
 | M002448 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.GoodPairSystems` | volunteer-build-reviewed |
 | M002449 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.GradedSeries` | volunteer-build-reviewed |
 | M002450 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.HeckeFlatSpecialisation` | volunteer-build-reviewed |
 | M002454 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.InvariantsVanishing` | wave-reused |
+| M002458 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.LettersFreeOfRank` | volunteer-build-reviewed |
+| M002459 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.LocalRingStructure` | volunteer-build-reviewed |
 | M002460 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.OnePlusPowerAssembly` | wave-reused |
 | M002461 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.PlaceBelowAllPowers` | volunteer-build-reviewed |
+| M002462 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.PointRingCommRing` | volunteer-build-reviewed |
 | M002463 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.PrimeTypeRows` | volunteer-build-reviewed |
 | M002466 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.ReadingAllLemmas` | volunteer-build-reviewed |
 | M002468 | P0705 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.RepresentationOverSumChar` | build-observed |
@@ -237,6 +241,9 @@
 | M002478 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.SplitPlacesEmbeddingType` | volunteer-build-reviewed |
 | M002480 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.TensorMultiplication` | build-observed |
 | M002482 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.TwistedGLEmbedding` | volunteer-build-reviewed |
+| M002483 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.UnitDualParts` | volunteer-build-reviewed |
+| M002486 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.WachLettersFree` | volunteer-build-reviewed |
+| M002487 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.WachModuleUniqueness` | volunteer-build-reviewed |
 | M002489 | P0515 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.CurvatureFamilyNorm` | wave-reused |
 | M002492 | P0435 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.FormalGroupTorsionCharts` | build-observed |
 | M002498 | P0095 | `Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.RealPointModes` | volunteer-build-reviewed |
@@ -395,10 +402,3 @@
 | M003067 | P0974 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ContinuousConjFin` | build-observed |
 | M003069 | P0758 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ContinuousOfDense` | build-observed |
 | M003074 | P1472 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.CxStage` | volunteer-build-reviewed |
-| M003078 | P0945 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.DifferentiableAtChart` | volunteer-build-reviewed |
-| M003081 | P0810 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.DuStarPos` | build-observed |
-| M003090 | P0810 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.EqOfPowEqOneOfNormSubLt` | wave-reused |
-| M003092 | P1349 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.EtaJUntw` | build-observed |
-| M003097 | P0865 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsAllLifts` | build-observed |
-| M003109 | P0238 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsNotCongPow` | wave-reused |
-| M003111 | P0838 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ExistsPotential` | build-observed |

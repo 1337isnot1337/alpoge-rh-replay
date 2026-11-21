@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M135056"
+  ],
+  "started_utc": "2026-11-21T00:13:01.935535+00:00",
+  "ended_utc": "2026-11-21T00:13:18.176916+00:00",
+  "elapsed_seconds": 16.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 10159536,
+    "peak_child_rss_kib": 2438220
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.EtaleCohomology.CohomologicalPurity.LeafCompPf:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "47f80ca9ef65f533383a443e81d45c50de305a40b29ea310dcb300f0609826d3",
+  "rebuilt_project_modules": [
+    "Development.EtaleCohomology.CohomologicalPurity.LeafHensCutDef"
+  ],
+  "objects": {
+    "M135056": "fec765fb6dab566e9172a5e68b55535196a4ae2a53078a53634c6296c20a4194"
+  },
+  "bundle_sha256": "56bdc24a68aaec00d4f508d12f6da7755c0c49c860fd2e105a6fad243cb5e4d1",
+  "packet": "M135056",
+  "contributor": "drew2apps",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/7778#issuecomment-7053887073",
+  "reviewed_utc": "2026-11-21T00:17:19.501206+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

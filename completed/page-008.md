@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006683 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldTorsionPoints` | volunteer-build-reviewed |
+| M006684 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsOActExtendDedekind` | volunteer-build-reviewed |
+| M006691 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPeriodPairOfLatticeInLine` | build-observed |
+| M006694 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPolarisedAbelianSchemeLieBasisInvariants` | volunteer-build-reviewed |
+| M006695 | P1246 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPolarisedAbelianSchemeLieBasisInvariantsStatement` | build-observed |
+| M006697 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPolarisedAbelianSchemePowerStatement` | volunteer-build-reviewed |
+| M006699 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPosKeyArchAt` | volunteer-build-reviewed |
+| M006704 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsProdPolAV` | volunteer-build-reviewed |
+| M006706 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPullback` | volunteer-build-reviewed |
+| M006708 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPureVectorsPeriodsSpan` | volunteer-build-reviewed |
+| M006715 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsSecGeneric` | volunteer-build-reviewed |
+| M006717 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTateIsoZetaEq` | volunteer-build-reviewed |
+| M006718 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTensorBundle` | volunteer-build-reviewed |
+| M006724 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTorsionFieldExtStatement` | volunteer-build-reviewed |
+| M006734 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueExtendRingOfIntegersHom` | volunteer-build-reviewed |
 | M006735 | P1246 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueHomOfIsGrpPullback` | build-observed |
 | M006736 | P0616 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueLinearLiftOfHolomorphicAbelianVariet` | wave-reused |
 | M006737 | P0649 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueLinearLiftOfHolomorphicAbelianVarietStatement` | build-observed |
@@ -387,18 +402,3 @@
 | M008728 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNatMulSelfDualLatticeAtPlaceIntegral` | volunteer-build-reviewed |
 | M008729 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNatMulSelfDualLatticeAtPlaceIntegralStatement` | volunteer-build-reviewed |
 | M008741 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNormOfConjFixedUnitTamePlace` | volunteer-build-reviewed |
-| M008749 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNormalFramesAndBasePointSplitPlace` | volunteer-build-reviewed |
-| M008759 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNsmulMemHomLatticeOfIntegralFrameCoords` | volunteer-build-reviewed |
-| M008760 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNsmulMemHomLatticeOfIntegralFrameCoordsStatement` | volunteer-build-reviewed |
-| M008766 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsOpenPrincipalCongruenceFinitelyManyPrimesStatement` | volunteer-build-reviewed |
-| M008767 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsOrthDec` | volunteer-build-reviewed |
-| M008768 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsOrthogonalComplementPreimageOfFixLine` | volunteer-build-reviewed |
-| M008774 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsOrthonormalBasisUnimodularHermitianLocalRi` | volunteer-build-reviewed |
-| M008775 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsOrthonormalBasisUnimodularHermitianLocalRiStatement` | volunteer-build-reviewed |
-| M008777 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsPadicCoordinatesOfDegreeOneSplitPlaceStatement` | volunteer-build-reviewed |
-| M008778 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsPairSpaceLinearMapViaPartialFourier` | volunteer-build-reviewed |
-| M008784 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsPartitionOne` | volunteer-build-reviewed |
-| M008796 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsPolynomialMulGaussianOfAnnihilatedStatement` | volunteer-build-reviewed |
-| M008799 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsPowHeckeCharUnramifiedEverywhere` | volunteer-build-reviewed |
-| M008800 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsPowHeckeCharUnramifiedEverywhereStatement` | volunteer-build-reviewed |
-| M008807 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRationalAdelicPointOfUnitaryBaseSpaceStatement` | volunteer-build-reviewed |

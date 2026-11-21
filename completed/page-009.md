@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M008749 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNormalFramesAndBasePointSplitPlace` | volunteer-build-reviewed |
+| M008759 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNsmulMemHomLatticeOfIntegralFrameCoords` | volunteer-build-reviewed |
+| M008760 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNsmulMemHomLatticeOfIntegralFrameCoordsStatement` | volunteer-build-reviewed |
+| M008766 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsOpenPrincipalCongruenceFinitelyManyPrimesStatement` | volunteer-build-reviewed |
+| M008767 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsOrthDec` | volunteer-build-reviewed |
+| M008768 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsOrthogonalComplementPreimageOfFixLine` | volunteer-build-reviewed |
+| M008774 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsOrthonormalBasisUnimodularHermitianLocalRi` | volunteer-build-reviewed |
+| M008775 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsOrthonormalBasisUnimodularHermitianLocalRiStatement` | volunteer-build-reviewed |
+| M008777 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsPadicCoordinatesOfDegreeOneSplitPlaceStatement` | volunteer-build-reviewed |
+| M008778 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsPairSpaceLinearMapViaPartialFourier` | volunteer-build-reviewed |
+| M008784 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsPartitionOne` | volunteer-build-reviewed |
+| M008796 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsPolynomialMulGaussianOfAnnihilatedStatement` | volunteer-build-reviewed |
+| M008799 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsPowHeckeCharUnramifiedEverywhere` | volunteer-build-reviewed |
+| M008800 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsPowHeckeCharUnramifiedEverywhereStatement` | volunteer-build-reviewed |
+| M008807 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRationalAdelicPointOfUnitaryBaseSpaceStatement` | volunteer-build-reviewed |
 | M008813 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRationalOrbitPointEqBesselBasePointStatement` | volunteer-build-reviewed |
 | M008815 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRationalRepLevelDecompositionFiniteUnitaryStatement` | volunteer-build-reviewed |
 | M008816 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsRationalWittFlagCoordinatesOfMemUnipotent` | volunteer-build-reviewed |
@@ -387,18 +402,3 @@
 | M011359 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmallEntriesAndStringsAvoidExcludedNormPowers` | volunteer-build-reviewed |
 | M011368 | P0177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmoothOfLimitClassStableUnderDirectionalDerivs` | volunteer-build-reviewed |
 | M011371 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmoothVecHeadOfDerivativeFamilyStatement` | volunteer-build-reviewed |
-| M011383 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SpanRhoTEqTop` | volunteer-build-reviewed |
-| M011391 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalOperatorEigenvaluesDeterminedByParamsStatement` | volunteer-build-reviewed |
-| M011397 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalParameterBoundSplitPlaceStatement` | volunteer-build-reviewed |
-| M011430 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceCharacterConductorIntegers` | volunteer-build-reviewed |
-| M011553 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.StabilizerInductionLaw` | volunteer-build-reviewed |
-| M011561 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.StandardCharacterConductorAlmostAll` | volunteer-build-reviewed |
-| M011591 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.StarEqHostConj` | volunteer-build-reviewed |
-| M011594 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.StarSmulVec` | volunteer-build-reviewed |
-| M011604 | P1115 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.StepDatumCompletionEqColumnTestFunctionStatement` | volunteer-build-reviewed |
-| M011628 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SumBorelSphericalDoubleCosetRepsMul` | volunteer-build-reviewed |
-| M011631 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SumBorelSphericalOverDiagonalDoubleCosetRepsStatement` | volunteer-build-reviewed |
-| M011640 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SumMatApply` | volunteer-build-reviewed |
-| M011656 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SurjectiveOfAdjointSeparatesLabelledPartsStatement` | volunteer-build-reviewed |
-| M011658 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymChainPatternIffPlaceConditions` | volunteer-build-reviewed |
-| M011659 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymChainPatternIffPlaceConditionsStatement` | volunteer-build-reviewed |
