@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ZpowCongrOfModEq",
+  "source_sha256": "5744b3c6d8efadf4d1e4e67fc4c438beb0613ec0b9292a1449625344ba176286",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0119-lean436-20261121/packet-result.json"
+}

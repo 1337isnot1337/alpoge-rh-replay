@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.MemMaximalPowOfJetsVanishStatement",
+  "source_sha256": "56f2be599549a4ee2f0a502c94cf4d543fdc764243f3b523e276037502042c73",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0119-lean436-20261121/packet-result.json"
+}

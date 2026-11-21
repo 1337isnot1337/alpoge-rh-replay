@@ -1,0 +1,13 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/GenericRegularity/AlgebraicIndependentResidueIffGauss.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/GenericRegularity/AlgebraicIndependentResidueIffGauss.lean
+@@ -61,8 +61,8 @@
+     rw [MvPolynomial.coeff_map] at hα
+     rw [← coe_eval₂_comapInclusion_eq_eval₂_map f v σ t ht q, ← residue_valuationSubring_ne_zero_iff, residue_eval₂_comap]
+     intro h0
+-    have hq := congrArg (MvPolynomial.coeff α) (hind _ h0)
+-    rw [MvPolynomial.coeff_map, MvPolynomial.coeff_zero] at hq
++    have hq := congrArg (fun p : MvPolynomial σ _ => p.coeff α) (hind _ h0)
++    rw [MvPolynomial.coeff_map, AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply] at hq
+     exact (residue_comap_ne_zero_iff_valuation_eq_one f v (q.coeff α)).mpr hα hq
+   · intro hg r hr
+     by_contra hne

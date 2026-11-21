@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SecondDerivSigmaProductAtZero",
+  "source_sha256": "9ff88962876d1861114922e93a33902728c60e2e8856de2fcfc3839eaf4effd6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: provide explicit continuity proofs for the Wronskian and shifted products, using the existing continuous function and its first two derivatives, to avoid runaway definitional reduction in fun_prop. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0119-lean436-20261121/packet-result.json"
+}
