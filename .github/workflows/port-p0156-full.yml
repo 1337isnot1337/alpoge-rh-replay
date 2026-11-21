@@ -1,0 +1,86 @@
+name: Port P0156 full packet
+on:
+  push:
+    branches: [port-ci-p0156-full-436]
+    paths:
+      - '.github/workflows/port-p0156-full.yml'
+      - 'scripts/port-packet-diagnostic.py'
+      - 'port/diagnostic-patches/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: port-p0156-full-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    name: Compile all 64 P0156 modules
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      LEAN_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Verify target and reviewed candidates
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import gzip, hashlib, json, pathlib, shutil
+          out = pathlib.Path('port-p0156-results/P0156')
+          out.mkdir(parents=True, exist_ok=True)
+          target = json.loads(pathlib.Path('port/target.json').read_text())
+          (out / 'requested-target.json').write_text(json.dumps(target, indent=2) + '\n')
+          (out / 'requested-modules.json').write_text('null\n')
+          assert target['lean'] == 'leanprover/lean4:v4.36.0'
+          assert target['mathlib'] == 'fc4f59e577feb1a4956671bc04ac18aaaf8cd842'
+          rows = {r['id']: r for r in map(json.loads, gzip.open('tracker/modules.jsonl.gz', 'rt'))}
+          assert sum(r['packet'] == 'P0156' for r in rows.values()) == 64
+          folder = pathlib.Path('port/diagnostic-patches')
+          manifest_path = folder / 'P0156-candidate-manifest.json'
+          manifest = json.loads(manifest_path.read_text())
+          expected = {'M157820', 'M157829', 'M157895', 'M157898',
+                      'M157908', 'M158019', 'M158063', 'M158068'}
+          assert set(manifest) == expected
+          assert {p.stem for p in folder.glob('*.patch')} == expected
+          for mid, record in manifest.items():
+              assert rows[mid]['packet'] == 'P0156'
+              assert rows[mid]['source_sha256'] == record['source_sha256']
+              assert hashlib.sha256((folder / (mid + '.patch')).read_bytes()).hexdigest() == record['patch_sha256']
+          shutil.copyfile(manifest_path, out / 'requested-candidate-manifest.json')
+          print('Verified target, all 64 packet members, and eight reviewed patch digests.')
+          PY
+          df -h
+          free -h
+      - name: Install the exact Lean toolchain
+        shell: bash
+        run: |
+          set -o pipefail
+          {
+            sudo apt-get update -qq
+            sudo apt-get install -y elan
+            elan toolchain install leanprover/lean4:v4.36.0
+            elan default leanprover/lean4:v4.36.0
+            lean --version
+            lake --version
+          } 2>&1 | tee port-p0156-results/P0156/toolchain.log
+      - name: Compile every module from verified pinned sources
+        shell: bash
+        run: |
+          # The wall-clock allowance avoids runner-speed variance. Lean options
+          # and resource limits are exactly the original project configuration.
+          python3 -u scripts/port-packet-diagnostic.py \
+            --packet P0156 \
+            --workspace "$RUNNER_TEMP/port-p0156-full" \
+            --output port-p0156-results/P0156 \
+            --module-timeout 1800
+      - name: Upload complete evidence, including failed attempts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: port-full-P0156-${{ github.run_attempt }}
+          path: port-p0156-results/P0156
+          if-no-files-found: error
+          retention-days: 30
