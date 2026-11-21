@@ -4,6 +4,7 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M120046](https://github.com/rohanarun/alpoge-rh-replay/issues/25064#issuecomment-7067963915) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M139652](https://github.com/rohanarun/alpoge-rh-replay/issues/25066#issuecomment-7067964302) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M049226](https://github.com/rohanarun/alpoge-rh-replay/issues/25067#issuecomment-7067964813) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M040500](https://github.com/rohanarun/alpoge-rh-replay/issues/25077#issuecomment-7067973716) | Pending review |
@@ -253,4 +254,3 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M104540](https://github.com/rohanarun/alpoge-rh-replay/issues/25499#issuecomment-7068594872) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M007035](https://github.com/rohanarun/alpoge-rh-replay/issues/25500#issuecomment-7068595336) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M108780](https://github.com/rohanarun/alpoge-rh-replay/issues/25502#issuecomment-7068595739) | Pending review |
-| [@loremcdmx](https://github.com/loremcdmx) | [M003631](https://github.com/rohanarun/alpoge-rh-replay/issues/25503#issuecomment-7068601329) | Pending review |
