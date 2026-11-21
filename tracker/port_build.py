@@ -26,7 +26,7 @@ import time
 from pathlib import Path
 
 import tasks
-from port import PATCHES, ROOT, ready_members
+from port import PATCHES, ROOT, pruned, ready_members
 from validate_ports import BLOCK_COMMENT_RE, strip_lean_comments, validate_patch_content
 
 TARGET = ROOT / 'port' / 'target.json'
@@ -157,7 +157,11 @@ def packet(rows, selection):
     members = [r for r in rows if selection in (r['id'], r['packet'])]
     if not members:
         raise SystemExit('Unknown packet or module ID: ' + selection)
-    return members
+    omitted = pruned()
+    active = [r for r in members if r['id'] not in omitted]
+    if not active:
+        raise SystemExit('Selection contains only pruned modules: ' + selection)
+    return active
 
 
 def imports_closure(by_id, members):

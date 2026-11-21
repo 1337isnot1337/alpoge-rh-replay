@@ -10,6 +10,7 @@ from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import patch
 
+import port
 import port_build
 
 ORIGINAL = 'theorem a : True := by\n  trivial\n'
@@ -40,8 +41,11 @@ class PortBuildTest(unittest.TestCase):
         for rel, text in files.items():
             (self.tree / rel).parent.mkdir(parents=True, exist_ok=True)
             (self.tree / rel).write_text(text)
-        for name, value in [('PARTS', self.root / 'parts.sha256'), ('PATCHES', self.patches)]:
-            change = patch.object(port_build, name, value)
+        overrides = [(port_build, 'PARTS', self.root / 'parts.sha256'),
+                     (port_build, 'PATCHES', self.patches),
+                     (port, 'PRUNED', self.root / 'pruned.txt')]
+        for module, name, value in overrides:
+            change = patch.object(module, name, value)
             change.start()
             self.addCleanup(change.stop)
 
@@ -77,6 +81,16 @@ class PortBuildTest(unittest.TestCase):
         self.assertEqual([r['id'] for r in port_build.imports_closure(by_id, [self.rows[2]])],
                          ['M000001', 'M000002'])
         self.assertEqual([r['id'] for r in port_build.imports_closure(by_id, self.rows[1:])], ['M000001'])
+
+    def test_packet_skips_pruned_members_but_preserves_imports(self):
+        self.rows[1]['packet'] = 'P0001'
+        port.PRUNED.write_text('# upstream pruning\nM000001\n')
+        selected = port_build.packet(self.rows, 'P0001')
+        self.assertEqual(selected, [self.rows[1]])
+        by_id = {r['id']: r for r in self.rows}
+        self.assertEqual(port_build.imports_closure(by_id, selected), [self.rows[0]])
+        with self.assertRaisesRegex(SystemExit, 'pruned'):
+            port_build.packet(self.rows, 'M000001')
 
     def test_originals_read_split_parts_and_reject_corruption(self):
         parts = self.work / 'parts'
