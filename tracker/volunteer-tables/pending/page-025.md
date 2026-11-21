@@ -235,6 +235,7 @@
 | [@loremcdmx](https://github.com/loremcdmx) | [M002944](https://github.com/rohanarun/alpoge-rh-replay/issues/23005#issuecomment-7064720436) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M002949](https://github.com/rohanarun/alpoge-rh-replay/issues/23006#issuecomment-7064721913) | Pending review |
 | [@emsi](https://github.com/emsi) | [P2549](https://github.com/rohanarun/alpoge-rh-replay/issues/23007#issuecomment-7064964119) | Pending review |
+| [@chriswilson413](https://github.com/chriswilson413) | [M156621](https://github.com/rohanarun/alpoge-rh-replay/issues/23008#issuecomment-7065415942) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M127355](https://github.com/rohanarun/alpoge-rh-replay/issues/23010#issuecomment-7064681024) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M135670](https://github.com/rohanarun/alpoge-rh-replay/issues/23011#issuecomment-7064682701) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M135719](https://github.com/rohanarun/alpoge-rh-replay/issues/23012#issuecomment-7064684164) | Pending review |
@@ -253,4 +254,3 @@
 | [@HITEYY](https://github.com/HITEYY) | [M031146](https://github.com/rohanarun/alpoge-rh-replay/issues/23026#issuecomment-7064755497) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M061413](https://github.com/rohanarun/alpoge-rh-replay/issues/23027#issuecomment-7064771170) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M101563](https://github.com/rohanarun/alpoge-rh-replay/issues/23028#issuecomment-7064816178) | Pending review |
-| [@HITEYY](https://github.com/HITEYY) | [M062697](https://github.com/rohanarun/alpoge-rh-replay/issues/23029#issuecomment-7064778117) | Pending review |
