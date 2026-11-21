@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsLeNormLFunctionOne",
+  "source_sha256": "ec24e14f34d834d20432ec9a508436a1a71907db8b9c2faea8c4a36f5326048f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace a failing gcongr call with mul_le_mul_of_nonneg_right using the existing order and positivity hypotheses. Statements are unchanged."
+}

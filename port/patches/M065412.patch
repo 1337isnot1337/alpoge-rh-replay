@@ -1,0 +1,20 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/QuadraticUnramifiedIffInertOrSplit.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/QuadraticUnramifiedIffInertOrSplit.lean
+@@ -41,7 +41,7 @@
+     have hP' := (hs P).1 hP
+     haveI : P.IsPrime := hP'.1
+     haveI : P.LiesOver v.asIdeal := hP'.2
+-    have h1 : 0 < P.ramificationIdx (𝓞 F) := Ideal.ramificationIdx_pos P (𝓞 F)
++    have h1 : 0 < P.ramificationIdx (𝓞 F) := Ideal.ramificationIdx_pos (𝓞 F) P
+     have h2 : 0 < v.asIdeal.inertiaDeg' P := Ideal.inertiaDeg'_pos v.asIdeal P
+     exact Nat.one_le_iff_ne_zero.mpr (Nat.mul_ne_zero h1.ne' h2.ne')
+   have hncard : (v.asIdeal.primesOver (𝓞 E)).ncard = s.card := by
+@@ -105,7 +105,7 @@
+       have hP' := (hs P).1 hP
+       haveI : P.IsPrime := hP'.1
+       haveI : P.LiesOver v.asIdeal := hP'.2
+-      have he : 0 < P.ramificationIdx (𝓞 F) := Ideal.ramificationIdx_pos P (𝓞 F)
++      have he : 0 < P.ramificationIdx (𝓞 F) := Ideal.ramificationIdx_pos (𝓞 F) P
+       have hf : 0 < v.asIdeal.inertiaDeg' P := Ideal.inertiaDeg'_pos v.asIdeal P
+       have hge : 2 * 1 ≤ P.ramificationIdx (𝓞 F) * v.asIdeal.inertiaDeg' P :=
+         Nat.mul_le_mul (by omega) hf
