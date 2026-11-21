@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvDer",
+  "source_sha256": "f2105e2676e558f03ceea830eb89fd4a23ee09bfccbfc70bc1cb88001e015ffd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Definition body change, same term: `pderiv R (Sum.inr i)` becomes `pderiv (R := R) (Sum.inr i)` in `invDer`. `MvPowerSeries.pderiv` has the same definition in both Mathlib revisions; only its coefficient-ring argument changed from explicit to implicit."
+}

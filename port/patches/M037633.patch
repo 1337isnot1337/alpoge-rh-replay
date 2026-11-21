@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IsAlgebraicOfFiniteTypeOfComapEqBot.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IsAlgebraicOfFiniteTypeOfComapEqBot.lean
+@@ -35,7 +35,7 @@
+       exact Set.disjoint_left.1 hdisj hrM hr
+     have hQb : Q = ⊥ := h Q hQ hQc
+     have : m = ⊥ := by
+-      rw [← IsLocalization.map_comap M T m]
++      rw [← IsLocalization.map_under M T m]
+       change Ideal.map (algebraMap S T) Q = ⊥
+       rw [hQb, Ideal.map_bot]
+     rw [← this]; exact hm

@@ -1,0 +1,22 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ImportsFurtherLast.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ImportsFurtherLast.lean
+@@ -9,7 +9,7 @@
+ 
+   have : (RingHom.ker ev).IsPrime := RingHom.ker_isPrime ev
+   obtain ⟨Q, -, hQ, hQp⟩ := Ideal.exists_ideal_over_prime_of_isIntegral (S := R) (RingHom.ker ev) ⊥ (by
+-    rw [Ideal.comap_bot_of_injective _ (FaithfulSMul.algebraMap_injective V R)]
++    rw [Ideal.under_def, Ideal.comap_bot_of_injective _ (FaithfulSMul.algebraMap_injective V R)]
+     exact bot_le)
+   have := hQ
+   have : Q.LiesOver (RingHom.ker ev) := ⟨hQp.symm⟩
+@@ -36,8 +36,8 @@
+   intro V R K _ _ _ _ _ _ _ _ ρ hinj hfin
+   have hint : ρ.IsIntegral := hfin.to_isIntegral
+   refine ⟨?_, fun ev => ?_⟩
+-  · refine ((IsLocalRing.local_hom_TFAE ρ).out 4 0).mp ?_
+-    exact IsLocalRing.eq_maximalIdeal (Ideal.isMaximal_comap_of_isIntegral_of_isMaximal' ρ hint _)
++  · refine ((IsLocalRing.local_hom_TFAE ρ).out 5 1).mp ?_
++    exact IsLocalRing.eq_maximalIdeal (Ideal.isMaximal_comap_of_isIntegral_of_isMaximal ρ hint _)
+   · let := ρ.toAlgebra
+     have : Algebra.IsIntegral V R := ⟨hint⟩
+     have : FaithfulSMul V R := (faithfulSMul_iff_algebraMap_injective V R).2 hinj

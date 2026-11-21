@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralRowSpaceBasisExists",
+  "source_sha256": "eb330ebc9c03f02db4f96af447bcf4cc010f6e7a0c9211c54eec002f2a829e3d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Inside the proof, build `Submodule.IsFullLattice k L` (the pinned `IsLattice`, renamed by Mathlib #44365) from the same finite-generation and spanning facts, with the new field from `Submodule.IsLattice.of_fg`; supply `Module.Finite O L` and `Module.Free O L` from `Submodule.IsLattice.finite`/`.free`, which are no longer instances; use the renamed `Module.Basis.extendOfIsFullLattice`. Proof body only; the statement does not mention lattices."
+}

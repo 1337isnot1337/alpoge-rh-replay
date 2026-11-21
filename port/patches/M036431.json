@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsFurtherLast",
+  "source_sha256": "2f310f4063fea51b7cb13998dde66b2c235bac5f325c5f32f74d5479ff02e114",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Ideal.exists_ideal_over_prime_of_isIntegral` is now stated with `Ideal.under`, so unfold it with `Ideal.under_def` before the rewrite; `List.TFAE.out` is 1-indexed on the target, so `.out 4 0` becomes `.out 5 1` (the same fifth and first statements); use `Ideal.isMaximal_comap_of_isIntegral_of_isMaximal`, the new name of the primed ring-hom form. Proof bodies only."
+}

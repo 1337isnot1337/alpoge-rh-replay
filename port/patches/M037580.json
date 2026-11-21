@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAdicCompleteOfLeOfIsNoetherianRing",
+  "source_sha256": "85b45d179d6747cae63d74dad62fe4bc64d1c7c368edc9246abada7358c1d68d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use `IsAdicComplete.le_jacobson`, since `Ideal.iInf_pow_smul_eq_bot_of_le_jacobson` now takes `J ≤ Ring.jacobson R` (equal to `(⊥ : Ideal R).jacobson` by `Ideal.jacobson_bot`). Proof body only."
+}

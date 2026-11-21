@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsMoreTail",
+  "source_sha256": "e94d120e32223ef1f1559a67262fcacd4d461a17f77f5ff283894842763eace1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed `IsLocalization.AtPrime.under_maximalIdeal` and `IsLocalization.map_under`; `List.TFAE.out` is 1-indexed on the target, so `.out 0 3` becomes `.out 1 4` (the same first and fourth statements). Proof body only."
+}
