@@ -1,0 +1,11 @@
+--- a/src/Development/WeilBound/CoreStatements/TorusUniformisation/ChowMahlerFamilies/MemOfFixedByAutomorphisms.lean
++++ b/src/Development/WeilBound/CoreStatements/TorusUniformisation/ChowMahlerFamilies/MemOfFixedByAutomorphisms.lean
+@@ -49,6 +49,8 @@
+   · have hint : IsIntegral F c := hc.isIntegral
+     haveI : FiniteDimensional F (IntermediateField.adjoin F {c}) :=
+       IntermediateField.adjoin.finiteDimensional hint
++    haveI : Module.IsTorsionFree F (IntermediateField.adjoin F {c}) :=
++      DivisionSemiring.to_moduleIsTorsionFree
+     have hE : Cardinal.mk (IntermediateField.adjoin F {c}) ≤ Cardinal.aleph0 := by
+       refine (Algebra.IsAlgebraic.cardinalMk_le_max F _).trans (max_le hFc le_rfl)
+     have key : ∀ φ : IntermediateField.adjoin F {c} →ₐ[F] ℂ,

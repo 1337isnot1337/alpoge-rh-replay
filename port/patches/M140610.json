@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.VolumeEquality.CoverRootsAlg",
+  "source_sha256": "09c8c38063179997fde056fb2d324a6afbcff49f6472375ec3be3a92485f0ca2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: replace the renamed eval\u2082_finset_sum lemma with eval\u2082_finsetSum. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0066-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,10 @@
+--- a/src/Development/WeilBound/CoreStatements/TorusUniformisation/ChowMahlerFamilies/FreeModuleNakayamaDescent.lean
++++ b/src/Development/WeilBound/CoreStatements/TorusUniformisation/ChowMahlerFamilies/FreeModuleNakayamaDescent.lean
+@@ -73,7 +73,6 @@
+     intro i n
+     obtain ⟨t, rfl⟩ := e.surjective n
+     induction t with
+-    | zero => simp
+     | add u v hu hv => simp only [map_add, hu, hv, smul_add]
+     | tmul s m =>
+       have h1 : (s ⊗ₜ[F] m : k ⊗[F] M) = s • (1 ⊗ₜ[F] m) := by simp [smul_tmul']
