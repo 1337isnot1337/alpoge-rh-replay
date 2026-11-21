@@ -4,6 +4,7 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@loremcdmx](https://github.com/loremcdmx) | [M004913](https://github.com/rohanarun/alpoge-rh-replay/issues/9135#issuecomment-7054940505) | Pending review |
 | [@roonastgames](https://github.com/roonastgames) | [M109824](https://github.com/rohanarun/alpoge-rh-replay/issues/9136#issuecomment-7054935885) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M011829](https://github.com/rohanarun/alpoge-rh-replay/issues/9137#issuecomment-7054941362) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M004940](https://github.com/rohanarun/alpoge-rh-replay/issues/9138#issuecomment-7054942251) | Pending review |
@@ -253,4 +254,3 @@
 | [@ANdATIon](https://github.com/ANdATIon) | [M001158](https://github.com/rohanarun/alpoge-rh-replay/issues/9391#issuecomment-7055066135) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M081482](https://github.com/rohanarun/alpoge-rh-replay/issues/9392#issuecomment-7055089929) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M116335](https://github.com/rohanarun/alpoge-rh-replay/issues/9394#issuecomment-7055068002) | Pending review |
-| [@ANdATIon](https://github.com/ANdATIon) | [M066583](https://github.com/rohanarun/alpoge-rh-replay/issues/9395#issuecomment-7055090001) | Pending review |

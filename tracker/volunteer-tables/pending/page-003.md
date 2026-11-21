@@ -93,6 +93,7 @@
 | [@WilmervH](https://github.com/WilmervH) | [P1840](https://github.com/rohanarun/alpoge-rh-replay/issues/6532#issuecomment-7054291926) | Pending review |
 | [@jjjhenriksen](https://github.com/jjjhenriksen) | [M081484](https://github.com/rohanarun/alpoge-rh-replay/issues/6534#issuecomment-7053221782) | Pending review |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M010327](https://github.com/rohanarun/alpoge-rh-replay/issues/6550#issuecomment-7053233587) | Pending review |
+| [@rayy3535](https://github.com/rayy3535) | [P1703](https://github.com/rohanarun/alpoge-rh-replay/issues/6593#issuecomment-7055797410) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M134768](https://github.com/rohanarun/alpoge-rh-replay/issues/6598#issuecomment-7053252889) | Pending review |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M012954](https://github.com/rohanarun/alpoge-rh-replay/issues/6619#issuecomment-7053284620) | Pending review |
 | [@WorldianAI](https://github.com/WorldianAI) | [M115076](https://github.com/rohanarun/alpoge-rh-replay/issues/6623#issuecomment-7053739865) | Pending review |
@@ -253,4 +254,3 @@
 | [@amrehan](https://github.com/amrehan) | [M142791](https://github.com/rohanarun/alpoge-rh-replay/issues/8066#issuecomment-7054087298) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M044388](https://github.com/rohanarun/alpoge-rh-replay/issues/8067#issuecomment-7054081824) | Pending review |
 | [@amrehan](https://github.com/amrehan) | [M062870](https://github.com/rohanarun/alpoge-rh-replay/issues/8068#issuecomment-7054088453) | Pending review |
-| [@amrehan](https://github.com/amrehan) | [M153547](https://github.com/rohanarun/alpoge-rh-replay/issues/8069#issuecomment-7054082467) | Pending review |
