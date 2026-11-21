@@ -227,7 +227,7 @@
 | [@mu-mei](https://github.com/mu-mei) | [M000557](https://github.com/rohanarun/alpoge-rh-replay/issues/4738#issuecomment-7052264661) | Pending review |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M005822](https://github.com/rohanarun/alpoge-rh-replay/issues/4760#issuecomment-7052281808) | Pending review |
 | [@SeriousRising](https://github.com/SeriousRising) | [P1741](https://github.com/rohanarun/alpoge-rh-replay/issues/4775#issuecomment-7052482206) | Pending review |
-| [@rayy3535](https://github.com/rayy3535) | [M075416](https://github.com/rohanarun/alpoge-rh-replay/issues/4796#issuecomment-7052379295) | Pending review |
+| [@rayy3535](https://github.com/rayy3535) | [M075416](https://github.com/rohanarun/alpoge-rh-replay/issues/4796#issuecomment-7057004840) | Pending review |
 | [@maxime-fleury](https://github.com/maxime-fleury) | [M005823](https://github.com/rohanarun/alpoge-rh-replay/issues/4811#issuecomment-7052330397) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M000561](https://github.com/rohanarun/alpoge-rh-replay/issues/4815#issuecomment-7052323638) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M036450](https://github.com/rohanarun/alpoge-rh-replay/issues/4819#issuecomment-7056359484) | Pending review |
