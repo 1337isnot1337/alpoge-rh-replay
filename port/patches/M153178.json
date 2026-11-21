@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LogSumExpBounds.CharacterSumPhase.LatSum",
+  "source_sha256": "562ed2cc5dabe15e714c552d7dfeb50e85c7aa9581563d62c4b028e66dd8ae2f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: Use prod_le_prod\u2080 for the original nonnegative real-product inequality. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0150-lean436-20261121/packet-result.json"
+}

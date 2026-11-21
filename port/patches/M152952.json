@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.TorsionIntegrality.SecondCoefficientNorms.ChordSecondLogDeriv",
+  "source_sha256": "5f193da15a80c4a7e4256bb31f092b7f525ffedcb8b2e517e54ea5a140628a15",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent derivative API adaptation: supply the same scalar ring K as an implicit named argument. The power series, coefficients, quantifiers and identities are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0150-lean436-20261121/packet-result.json"
+}

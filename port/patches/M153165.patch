@@ -1,0 +1,16 @@
+--- a/src/Formalism/LogFactorialIndices/SignedSubspaceIndex/IdxDet.lean
++++ b/src/Formalism/LogFactorialIndices/SignedSubspaceIndex/IdxDet.lean
+@@ -325,9 +325,11 @@
+   intro O K X _ _ _ _ _ _ _ _ _ _ _ A hA
+   have : Module.IsTorsionFree O K :=
+     isTorsionFree_iff_algebraMap_injective.mpr (IsFractionRing.injective O K)
+-  have : Submodule.IsLattice K A := ⟨hA.1, hA.2⟩
++  have : Submodule.IsFullLattice K A := { toIsLattice := Submodule.IsLattice.of_fg K hA.1, span_eq_top := hA.2 }
++  have : Module.Free O A := Submodule.IsLattice.free K A
++  have : Module.Finite O A := Submodule.IsLattice.finite K A
+   let b := Module.Free.chooseBasis O A
+-  let bK := b.extendOfIsLattice K
++  let bK := b.extendOfIsFullLattice K
+   refine ⟨bK.reindex (bK.indexEquiv (Module.finBasis K X)), ?_⟩
+   rw [Basis.range_reindex]
+   have hr : Set.range bK = A.subtype '' Set.range b := by

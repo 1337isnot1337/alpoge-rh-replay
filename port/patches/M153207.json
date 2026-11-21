@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LogVandermondeBounds.LogVandermondeProofs.PrimePowerSubgroupTrivial",
+  "source_sha256": "e0e1a29f5e7fefc1162ee83cbbae383ce3d996586b4f14c544785c0990f3d788",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0150-lean436-20261121/packet-result.json"
+}

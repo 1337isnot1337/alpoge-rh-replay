@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LogFactorialIndices.SignedSubspaceIndex.IdxBase",
+  "source_sha256": "d5688578dd987ebc700a23b1605b2d27485363fa8b8e123e215d58782303cc3a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: Construct the full-lattice instance from the existing finite-generation and span hypotheses, and provide the local finite/free instances explicitly. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0150-lean436-20261121/packet-result.json"
+}

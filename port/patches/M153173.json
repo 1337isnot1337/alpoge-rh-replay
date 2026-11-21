@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LogFactorialIndices.SubspaceIndexSigned",
+  "source_sha256": "7cefe1e38a087e9fd8d7ed6da9091a413d0996a2eeb85a1e88600f0fa5bb6977",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0150-lean436-20261121/packet-result.json"
+}

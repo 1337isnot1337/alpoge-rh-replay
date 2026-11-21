@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.NormUnitaryBounds.DetPolynomialWeights.IntegralExpInt",
+  "source_sha256": "f5b8270960530f0b35f009e6395582d7fb5332e33cc508df03e7ce3b095226e0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0150-lean436-20261121/packet-result.json"
+}
