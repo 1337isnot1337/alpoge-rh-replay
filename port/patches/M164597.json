@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGenericFibreRadical",
+  "source_sha256": "77bb59df512ff8f0b0be2076970a0407fe6ae4e0f1ea13b6de074f9bc6feb420",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

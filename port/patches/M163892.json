@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ChowlaSelberg.IntSeries",
+  "source_sha256": "f6c903c646b215b96c0b8eac0bf9089f529bc058362db2e80a57eba17e1b0479",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

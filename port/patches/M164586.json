@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFlatDimFormula",
+  "source_sha256": "823f42fd5aa1c0151e3300163e04f1fa1149f84761a6e36ba9c5df3949a67980",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

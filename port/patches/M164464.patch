@@ -1,0 +1,13 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PrimitiveLinearForm.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PrimitiveLinearForm.lean
+@@ -37,8 +37,8 @@
+     apply hne
+     apply hx
+     intro j
+-    have hc := congrArg (fun q => Polynomial.coeff q (j : ℕ)) h
+-    simp only [p, Polynomial.finsetSum_coeff, Polynomial.coeff_monomial, Polynomial.coeff_zero] at hc
++    have hc := congrArg (fun q => q.coeff (j : ℕ)) h
++    simp only [p, Polynomial.finsetSum_coeff, Polynomial.coeff_monomial_apply, Polynomial.coeff_zero] at hc
+     rw [Finset.sum_eq_single j] at hc
+     · simpa [sub_eq_zero] using hc
+     · intro b _ hb; rw [if_neg]; exact fun h => hb (Fin.ext h)

@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ChowlaSelberg.DeltaQExpansionIntegral",
+  "source_sha256": "7f206f3713c1f8eab687c418dfe9cd4604cbeb9db3a874f10493c1780e934926",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

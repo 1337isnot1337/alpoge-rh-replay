@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.MonotoneDoubleLimit",
+  "source_sha256": "ebcd49fab88a871f18ddfbdbb8d499c77d60f218950edd35411afa82809287dc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
