@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.PartFilt",
+  "source_sha256": "051a68318e9b058536785b48a87e975b3c61ab42bb0997c9b42fd1459e2311f9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
