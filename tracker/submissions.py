@@ -9,7 +9,7 @@ import subprocess
 import sys
 import time
 
-from claim_comments import COMMENT_FEED, comments_by_issue
+from claim_comments import comments_by_issue, repository_comments
 from volunteer_tables import update_reviewed, update_table
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -53,7 +53,7 @@ def pages(repo, route):
 def claim_snapshot(repo):
     issues = [issue for issue in pages(repo, 'issues?labels=claim&state=all&per_page=100')
               if 'pull_request' not in issue]
-    histories = comments_by_issue(issues, pages(repo, COMMENT_FEED))
+    histories = comments_by_issue(issues, repository_comments(lambda route: pages(repo, route)))
     return issues, histories
 
 

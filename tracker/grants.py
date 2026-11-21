@@ -1,6 +1,6 @@
 """Reconcile mutually exclusive volunteer reservations from trusted main-branch code."""
 import json,os,re,sys,urllib.request
-from claim_comments import COMMENT_FEED, comments_by_issue
+from claim_comments import COMMENT_FEED, comments_by_issue, repository_comments
 from tasks import load
 from github_rate_limit import rate_limit_delay, retry_rate_limited
 from collections import defaultdict
@@ -16,6 +16,11 @@ def api(route,method='GET',body=None):
  request=urllib.request.Request(base+route,method=method,headers={'Authorization':'Bearer '+os.environ['GITHUB_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'replay-claims'},data=None if body is None else json.dumps(body).encode())
  with urllib.request.urlopen(request,timeout=30) as response:return json.loads(response.read() or 'null')
 def pages(route):
+    if route == '/' + COMMENT_FEED:
+        return repository_comments(api_pages, route)
+    return api_pages(route)
+
+def api_pages(route):
     page = 1
     while True:
         batch = api(f'{route}&page={page}')
