@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.PermRepSingle",
+  "source_sha256": "24efa6d18cd39eaf2d9a55514b8a004def7ca8a8f9df9ef335b32ef908b224bc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

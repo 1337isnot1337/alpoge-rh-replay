@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.MemUnitaryGroupIffIsIsometry",
+  "source_sha256": "116e5786ce254afcc7266c28faec4d8c28fe868e5c8011744fc1daaac60b2c0d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Avoid whnf timeout in Nondegenerate.unimodular by wrapping the constructed conjugate-linear equiv in Nonempty and pinning Subspace.dual_finrank_eq arguments."
+}

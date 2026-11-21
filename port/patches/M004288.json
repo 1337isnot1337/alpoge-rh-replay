@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.GaloisGeometry.OfNatTrans",
+  "source_sha256": "c30c15e14b0a910f7754a28b1312927d7a96148153e73c40625b27a8dde51c55",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

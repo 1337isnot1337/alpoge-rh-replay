@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Divisors.PlacesOverU",
+  "source_sha256": "7a72bdad0e44836de650ca96f7596f580719267c34cdb8314edfd11c72ff8565",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Nat.Coprime.mul_left instead of Nat.Coprime.mul in OBp for Mathlib v4.36.0."
+}

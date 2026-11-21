@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.LowerUnipotentMinors",
+  "source_sha256": "51ac37316b753aab139098ee6ea06022afb9595440ce297869d0f2df21ce402a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use dot-notation P.coeff \u03b1 instead of two-argument coeff \u03b1 P in fockForm for Mathlib v4.36.0."
+}

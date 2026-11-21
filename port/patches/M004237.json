@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsMatrixForm",
+  "source_sha256": "0c144b2f3a6b0ec690dcad6c2781de8388269962dd9c4456ee42289fa9186cb4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
