@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/EichlerIntegralFromIFinsetSum.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/EichlerIntegralFromIFinsetSum.lean
+@@ -33,7 +33,7 @@
+   rw [Finset.sum_comm]
+   refine Finset.sum_congr rfl fun j _ => ?_
+   rw [← Finset.sum_mul, ← map_sum, ← Finset.mul_sum,
+-    ← intervalIntegral.integral_finset_sum fun i _ => eichler_integrand_intervalIntegrable (hg i) τ (w - j)]
++    ← intervalIntegral.integral_finsetSum fun i _ => eichler_integrand_intervalIntegrable (hg i) τ (w - j)]
+   congr 4
+   funext t
+   simp only [Function.comp_apply, Finset.sum_apply, Finset.sum_mul]

@@ -1,0 +1,22 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/DividedPowersValuations.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/DividedPowersValuations.lean
+@@ -8,6 +8,7 @@
+   · intro l m hl hl2 hm
+     haveI : Fact l.Prime := ⟨hl⟩
+     have h := sub_one_mul_padicValNat_factorial_lt_of_ne_zero l (n := m) (by omega)
++    rw [← Nat.padicValNat_def] at h
+     have hl3 : 3 ≤ l := by
+       have := hl.two_le
+       omega
+@@ -17,9 +18,11 @@
+   · intro m hm
+     haveI : Fact (Nat.Prime 2) := ⟨Nat.prime_two⟩
+     have := padicValNat_factorial_lt_of_ne_zero 2 (n := m) (by omega)
++    rw [← Nat.padicValNat_def] at this
+     omega
+   · intro j
+     haveI : Fact (Nat.Prime 2) := ⟨Nat.prime_two⟩
++    simp only [Nat.padicValNat_def]
+     induction j with
+     | zero => simp
+     | succ j ih =>

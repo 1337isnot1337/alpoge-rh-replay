@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExceptionalPrimesFiniteCardLe",
+  "source_sha256": "dcaa1aa85865a8cfe19c34924585037a5d68675474db2af32421ba66b1e15f43",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite via Nat.padicValNat_def to bridge multiplicity and padicValNat"
+}

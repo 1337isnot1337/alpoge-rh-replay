@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.EisensteinWronskianNeZero",
+  "source_sha256": "f3dfbb6159dbfe5dece8a61550249fc43afef10780a735c3302d65fcba4a6d2a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace congrArg DFunLike.coe equality chain with funext fun z => DFunLike.congr_fun ..."
+}

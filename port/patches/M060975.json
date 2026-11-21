@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardDualZmodModuleEqCard",
+  "source_sha256": "6c044c801df4c3027de890226965859aa8d58c2786321b29249c00fd5b04de11",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIsDlog",
+  "source_sha256": "9efc945119b24fd120184e98507839ececd80e8826933d4718ec8ee7811f1e5a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Disambiguate map_add as RingHom.map_add"
+}

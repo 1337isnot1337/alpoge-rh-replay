@@ -1,0 +1,20 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsLevelOfMemAdjoin.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/ExistsLevelOfMemAdjoin.lean
+@@ -78,7 +78,7 @@
+       rw [this, AlgHom.commutes]
+       exact Subalgebra.algebraMap_mem _ c
+     | add f g hf hg =>
+-      rw [map_add, map_add, map_add]; exact Subalgebra.add_mem _ hf hg
++      rw [C_add, RingHom.map_add, map_add ι]; exact Subalgebra.add_mem _ hf hg
+     | monomial k c _ =>
+       simp only [map_mul, map_pow]
+       refine Subalgebra.mul_mem _ ?_ (Subalgebra.pow_mem _ hX _)
+@@ -87,7 +87,7 @@
+       exact Subalgebra.algebraMap_mem _ c
+   induction P using Polynomial.induction_on with
+   | C a => exact hC a
+-  | add f g hf hg => rw [map_add, map_add]; exact Subalgebra.add_mem _ hf hg
++  | add f g hf hg => rw [RingHom.map_add, map_add ι]; exact Subalgebra.add_mem _ hf hg
+   | monomial k a _ =>
+     simp only [map_mul, map_pow]
+     exact Subalgebra.mul_mem _ (hC a) (Subalgebra.pow_mem _ hY _)
