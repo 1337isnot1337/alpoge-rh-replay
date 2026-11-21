@@ -5,6 +5,8 @@ This fork-only diagnostic uses the repository's source materializer and Lake
 configuration. Optional diagnostic patches are diffs against pristine sources;
 they are never treated as landed port records. Results are checkpointed after
 all setup stages and after every module, including failed compiler attempts.
+Repeat --module to probe selected packet members; successful subsets are marked
+partial_success and cannot count as a complete packet build.
 """
 from __future__ import annotations
 
@@ -21,6 +23,7 @@ import shutil
 import signal
 import subprocess
 import sys
+import threading
 import time
 import traceback
 
@@ -68,6 +71,23 @@ def save_result(output: Path, result: dict) -> None:
     temporary.replace(output / "result.json")
 
 
+def select_targets(packet: str, requested: list[str] | None,
+                   ledger: dict) -> tuple[list[str], list[str]]:
+    packet_ids = sorted(mid for mid, row in ledger.items() if row["packet"] == packet)
+    if not packet_ids:
+        raise RuntimeError("Unknown packet: " + packet)
+    if requested is None:
+        return packet_ids, packet_ids
+    if len(requested) != len(set(requested)):
+        raise RuntimeError("Duplicate requested module IDs")
+    outside = sorted(set(requested) - set(packet_ids))
+    if outside:
+        raise RuntimeError("Requested modules do not belong to " + packet + ": " + ", ".join(outside))
+    if not requested:
+        raise RuntimeError("A module probe must request at least one module")
+    return sorted(requested), packet_ids
+
+
 def package_pins(workspace: Path) -> list[dict]:
     manifest = json.loads((workspace / "lake-manifest.json").read_text())
     pins = []
@@ -103,37 +123,84 @@ def build_one(lake: str, workspace: Path, output: Path, mid: str, row: dict,
     started = dt.datetime.now(dt.timezone.utc).isoformat()
     clock = time.monotonic()
     timed_out = False
+    capture_errors = []
     print(f"\nBEGIN_MODULE {mid} {row['module']}", flush=True)
     with log_path.open("w") as log:
-        log.write(f"Module: {mid} {row['module']}\nStarted: {started}\n")
-        log.write("Command: " + json.dumps(command) + "\n")
-        log.write("Pinned source SHA-256: " + row["source_sha256"] + "\n")
-        log.write("Compiled source SHA-256: " + source_record["compiled_source_sha256"] + "\n\n")
+        header = (f"Module: {mid} {row['module']}\nStarted: {started}\n"
+                  + "Command: " + json.dumps(command) + "\n"
+                  + "Pinned source SHA-256: " + row["source_sha256"] + "\n"
+                  + "Compiled source SHA-256: " + source_record["compiled_source_sha256"] + "\n\n")
+        log.write(header)
         log.flush()
-        proc = subprocess.Popen(command, cwd=workspace, stdout=log,
-                                stderr=subprocess.STDOUT, start_new_session=True)
+        print(header, end="", flush=True)
+        proc = subprocess.Popen(command, cwd=workspace, stdout=subprocess.PIPE,
+                                stderr=subprocess.STDOUT, start_new_session=True,
+                                text=True, encoding="utf-8", bufsize=1)
+
+        def capture():
+            try:
+                assert proc.stdout is not None
+                for line in proc.stdout:
+                    log.write(line)
+                    log.flush()
+                    print(line, end="", flush=True)
+            except Exception as exc:
+                capture_errors.append(repr(exc))
+
+        def signal_group(sig):
+            try:
+                os.killpg(proc.pid, sig)
+            except ProcessLookupError:
+                pass
+
+        reader = threading.Thread(target=capture, daemon=True)
+        reader.start()
         try:
-            proc.wait(timeout=timeout)
-        except subprocess.TimeoutExpired:
-            timed_out = True
-            os.killpg(proc.pid, signal.SIGTERM)
+            try:
+                proc.wait(timeout=timeout)
+            except subprocess.TimeoutExpired:
+                timed_out = True
+                signal_group(signal.SIGTERM)
+                try:
+                    proc.wait(timeout=5)
+                except subprocess.TimeoutExpired:
+                    signal_group(signal.SIGKILL)
+                    proc.wait(timeout=5)
+                signal_group(signal.SIGKILL)
+            reader.join(timeout=10)
+            if reader.is_alive():
+                capture_errors.append("Compiler descendants kept the output pipe open after exit")
+                signal_group(signal.SIGKILL)
+                reader.join(timeout=5)
+                if reader.is_alive():
+                    raise RuntimeError("Compiler transcript reader did not terminate after cleanup")
+        except BaseException:
+            signal_group(signal.SIGKILL)
             try:
                 proc.wait(timeout=5)
             except subprocess.TimeoutExpired:
-                os.killpg(proc.pid, signal.SIGKILL)
-                proc.wait()
+                pass
+            reader.join(timeout=5)
+            raise
+        finally:
+            if not reader.is_alive() and proc.stdout is not None:
+                proc.stdout.close()
         elapsed = round(time.monotonic() - clock, 3)
-        log.write(f"\nExit status: {proc.returncode}\nElapsed seconds: {elapsed}\n")
-        log.write(f"Timed out: {timed_out}\n")
+        trailer = (f"\nExit status: {proc.returncode}\nElapsed seconds: {elapsed}\n"
+                   + f"Timed out: {timed_out}\n")
+        if capture_errors:
+            trailer += "Transcript capture errors: " + json.dumps(capture_errors) + "\n"
+        log.write(trailer)
+        print(trailer, end="", flush=True)
     transcript = log_path.read_text()
-    print(transcript, end="", flush=True)
     source = workspace / "src" / ci.module_relpath(row["module"])
     unchanged_during_build = digest(source) == source_record["compiled_source_sha256"]
     has_sorry = bool(ci.SORRY_DIAG_RE.search(transcript))
     obj = workspace / ".lake/build/lib/lean" / (row["module"].replace(".", "/") + ".olean")
-    success = proc.returncode == 0 and not timed_out and not has_sorry and unchanged_during_build and obj.is_file()
+    success = proc.returncode == 0 and not timed_out and not capture_errors and not has_sorry and unchanged_during_build and obj.is_file()
     result = {"module": row["module"], "started_utc": started, "elapsed_seconds": elapsed,
               "command": command, "exit_code": proc.returncode, "timed_out": timed_out,
+              "transcript_capture_errors": capture_errors,
               "sorry_diagnostic": has_sorry, "source_unchanged_during_build": unchanged_during_build,
               "success": success, "log": f"modules/{mid}.log", "log_sha256": digest(log_path),
               "object_sha256": digest(obj) if success else None,
@@ -151,12 +218,11 @@ def run(args, result: dict) -> int:
         raise RuntimeError("Diagnostic workspace must be fresh and empty")
     workspace.mkdir(parents=True, exist_ok=True)
     ledger = ci.load_ledger()
-    ids = sorted(mid for mid, row in ledger.items() if row["packet"] == args.packet)
-    if not ids:
-        raise RuntimeError("Unknown packet: " + args.packet)
+    ids, packet_ids = select_targets(args.packet, args.module, ledger)
     closure = ci.transitive_closure(ids, ledger)
     external = set(closure) - set(ids)
-    result.update({"target": target, "target_ids": ids, "closure_ids": closure,
+    result.update({"target": target, "target_ids": ids, "packet_ids": packet_ids,
+                   "packet_complete": False, "closure_ids": closure,
                    "tracker_commit": command_output(["git", "rev-parse", "HEAD"], ROOT),
                    "ledger_sha256": digest(ci.MODULES_LEDGER), "status": "preparing"})
     save_result(output, result)
@@ -221,7 +287,11 @@ def run(args, result: dict) -> int:
     if digest(workspace / "lake-manifest.json") != result["lake_manifest_sha256"]:
         raise RuntimeError("Lake manifest changed during compilation")
     passed = sum(row["success"] for row in result["modules"].values())
-    result["status"] = "success" if passed == len(ids) else "failed"
+    result["packet_complete"] = ids == packet_ids and passed == len(ids)
+    if passed != len(ids):
+        result["status"] = "failed"
+    else:
+        result["status"] = "success" if result["packet_complete"] else "partial_success"
     result["passed"] = passed
     result["failed"] = len(ids) - passed
     return 0 if passed == len(ids) else 1
@@ -230,6 +300,9 @@ def run(args, result: dict) -> int:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--packet", required=True)
+    parser.add_argument("--module", action="append", metavar="MODULE_ID",
+                        help="Build only this packet member; repeat for a diagnostic subset. "
+                             "A passing subset is partial_success, never packet success.")
     parser.add_argument("--workspace", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--lake", default="lake")
@@ -238,11 +311,14 @@ def main() -> int:
     args = parser.parse_args()
     if not re.fullmatch(r"P\d{4}", args.packet) or args.module_timeout <= 0:
         parser.error("Expected a packet ID and a positive per-module timeout")
+    if args.module is not None and any(not re.fullmatch(r"M\d{6}", mid) for mid in args.module):
+        parser.error("Expected module IDs of the form M000001")
     output = args.output.resolve()
     output.mkdir(parents=True, exist_ok=True)
     for name in ("modules", "patches"):
         (output / name).mkdir(exist_ok=True)
     result = {"packet": args.packet, "status": "initializing", "modules": {},
+              "requested_module_ids": args.module, "packet_complete": False,
               "started_utc": dt.datetime.now(dt.timezone.utc).isoformat(),
               "diagnostic_only": True, "creates_port_records": False,
               "cpu_count": os.cpu_count(), "lean_num_threads": os.environ.get("LEAN_NUM_THREADS")}

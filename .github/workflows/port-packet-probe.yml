@@ -1,0 +1,97 @@
+name: Port packet repair checks
+on:
+  push:
+    branches: [port-ci-probe-436]
+    paths:
+      - '.github/workflows/port-packet-probe.yml'
+      - 'scripts/port-packet-diagnostic.py'
+      - 'port/diagnostic-patches/**'
+permissions:
+  contents: read
+concurrency:
+  group: port-packet-probe-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  probe:
+    name: Check ${{ matrix.packet }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        include:
+          - packet: P0156
+            modules: '["M157820"]'
+          - packet: P0158
+            modules: 'null'
+          - packet: P0162
+            modules: '["M164152","M164165","M164192"]'
+    env:
+      PACKET: ${{ matrix.packet }}
+      MODULES_JSON: ${{ matrix.modules }}
+      LEAN_NUM_THREADS: '2'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Initialize evidence and check target
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, os, pathlib, re
+          packet = os.environ['PACKET']
+          modules = json.loads(os.environ['MODULES_JSON'])
+          assert re.fullmatch(r'P\d{4}', packet), 'Invalid packet ID'
+          if modules is not None:
+              assert isinstance(modules, list) and modules, 'Expected nonempty module list'
+              assert all(isinstance(mid, str) and re.fullmatch(r'M\d{6}', mid) for mid in modules)
+              assert len(modules) == len(set(modules)), 'Duplicate module IDs'
+          out = pathlib.Path('port-probe-results') / packet
+          out.mkdir(parents=True, exist_ok=True)
+          target = json.loads(pathlib.Path('port/target.json').read_text())
+          (out / 'requested-target.json').write_text(json.dumps(target, indent=2) + '\n')
+          (out / 'requested-modules.json').write_text(json.dumps(modules, indent=2) + '\n')
+          assert target['lean'] == 'leanprover/lean4:v4.36.0'
+          assert target['mathlib'] == 'fc4f59e577feb1a4956671bc04ac18aaaf8cd842'
+          PY
+          df -h
+          free -h
+      - name: Install the exact Lean toolchain
+        shell: bash
+        run: |
+          set -o pipefail
+          {
+            sudo apt-get update -qq
+            sudo apt-get install -y elan
+            elan toolchain install leanprover/lean4:v4.36.0
+            elan default leanprover/lean4:v4.36.0
+            lean --version
+            lake --version
+          } 2>&1 | tee "port-probe-results/$PACKET/toolchain.log"
+      - name: Compile requested modules from verified sources
+        shell: bash
+        run: |
+          python3 -u - <<'PY'
+          import json, os, pathlib, subprocess, sys
+          packet = os.environ['PACKET']
+          command = [sys.executable, '-u', 'scripts/port-packet-diagnostic.py',
+                     '--packet', packet,
+                     '--workspace', str(pathlib.Path(os.environ['RUNNER_TEMP']) / ('port-probe-' + packet)),
+                     '--output', str(pathlib.Path('port-probe-results') / packet)]
+          # A null module list requests every module in the packet.
+          modules = json.loads(os.environ['MODULES_JSON'])
+          if modules is not None:
+              for module in modules:
+                  command.extend(['--module', module])
+          raise SystemExit(subprocess.run(command).returncode)
+          PY
+      - name: Upload probe evidence, including failed attempts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: port-probe-${{ matrix.packet }}-${{ github.run_attempt }}
+          path: port-probe-results/${{ matrix.packet }}
+          if-no-files-found: error
+          retention-days: 30

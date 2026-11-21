@@ -1,0 +1,63 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PHolomorphicIsolatedFibreOpen.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PHolomorphicIsolatedFibreOpen.lean
+@@ -7,15 +7,24 @@
+ 
+ open Topology Metric
+ 
++set_option diagnostics true
++set_option diagnostics.threshold 100
++set_option trace.profiler true
++set_option trace.profiler.threshold 100
+ theorem HolomorphicIsolatedFibreOpen.proof (hPS : ProperHolomorphicSurjective.Statement) :
+     HolomorphicIsolatedFibreOpen.Statement := by
++  run_tac do let out ← IO.getStdout; out.putStrLn "M164152 BEFORE intro k U g u hU hu hg ⟨W, hW, hiso⟩ V hV"; out.flush
+   intro k U g u hU hu hg ⟨W, hW, hiso⟩ V hV
++  run_tac do let out ← IO.getStdout; out.putStrLn "M164152 BEFORE obtain ⟨r, hr, hrsub⟩"; out.flush
+   obtain ⟨r, hr, hrsub⟩ : ∃ r > 0, closedBall u r ⊆ U ∩ W ∩ V :=
+     nhds_basis_closedBall.mem_iff.1 (Filter.inter_mem (Filter.inter_mem (hU.mem_nhds hu) hW) hV)
++  run_tac do let out ← IO.getStdout; out.putStrLn "M164152 BEFORE have hgc"; out.flush
+   have hgc : ContinuousOn g (closedBall u r) := hg.continuousOn.mono fun x hx => (hrsub hx).1.1
+ 
++  run_tac do let out ← IO.getStdout; out.putStrLn "M164152 BEFORE have hSc"; out.flush
+   have hSc : IsCompact (g '' sphere u r) :=
+     (isCompact_sphere u r).image_of_continuousOn (hgc.mono sphere_subset_closedBall)
++  run_tac do let out ← IO.getStdout; out.putStrLn "M164152 BEFORE have hnot"; out.flush
+   have hnot : g u ∉ g '' sphere u r := by
+     rintro ⟨s, hs, hgs⟩
+     have hsK := hrsub (sphere_subset_closedBall hs)
+@@ -23,15 +32,19 @@
+     subst this
+     rw [mem_sphere, dist_self] at hs
+     exact hr.ne' hs.symm
++  run_tac do let out ← IO.getStdout; out.putStrLn "M164152 BEFORE obtain ⟨ε, hε, hεsub⟩"; out.flush
+   obtain ⟨ε, hε, hεsub⟩ := Metric.isOpen_iff.1 hSc.isClosed.isOpen_compl (g u) hnot
+ 
++  run_tac do let out ← IO.getStdout; out.putStrLn "M164152 BEFORE have key"; out.flush
+   have key : ∀ v ∈ closedBall u r, g v ∈ ball (g u) ε → v ∈ ball u r := by
+     intro v hv hgv
+     rcases (mem_closedBall.1 hv).lt_or_eq with h | h
+     · exact h
+     · exact (hεsub hgv ⟨v, mem_sphere.2 h, rfl⟩).elim
++  run_tac do let out ← IO.getStdout; out.putStrLn "M164152 BEFORE have hΩ"; out.flush
+   have hΩ : IsOpen (ball u r ∩ g ⁻¹' ball (g u) ε) :=
+     (hgc.mono ball_subset_closedBall).isOpen_inter_preimage isOpen_ball isOpen_ball
++  run_tac do let out ← IO.getStdout; out.putStrLn "M164152 BEFORE have hproper"; out.flush
+   have hproper : ∀ L ⊆ ball (g u) ε, IsCompact L →
+       IsCompact ((ball u r ∩ g ⁻¹' ball (g u) ε) ∩ g ⁻¹' L) := by
+     intro L hLD hL
+@@ -45,11 +58,15 @@
+     rw [heq]
+     exact (isCompact_closedBall u r).of_isClosed_subset
+       (hgc.preimage_isClosed_of_isClosed isClosed_closedBall hL.isClosed) Set.inter_subset_left
++  run_tac do let out ← IO.getStdout; out.putStrLn "M164152 BEFORE have hsurj"; out.flush
+   have hsurj := hPS k _ _ g hΩ ⟨u, mem_ball_self hr, mem_ball_self hε⟩ isOpen_ball
+     (convex_ball _ _).isPreconnected (hg.mono fun x hx => (hrsub (ball_subset_closedBall hx.1)).1.1)
+     (fun x hx => hx.2) hproper
++  run_tac do let out ← IO.getStdout; out.putStrLn "M164152 BEFORE refine Filter.mem_of_superset (ball_mem_nhds _ hε) ?_"; out.flush
+   refine Filter.mem_of_superset (ball_mem_nhds _ hε) ?_
++  run_tac do let out ← IO.getStdout; out.putStrLn "M164152 BEFORE rw [← hsurj]"; out.flush
+   rw [← hsurj]
++  run_tac do let out ← IO.getStdout; out.putStrLn "M164152 BEFORE exact Set.image_mono fun x hx => (hrsub (ball_subset_closedBall hx.1))"; out.flush
+   exact Set.image_mono fun x hx => (hrsub (ball_subset_closedBall hx.1)).2
+ 
+ end GroundTheory.Heights₂.Heights.IndefiniteRowSideFullHecke.ComplexSets
