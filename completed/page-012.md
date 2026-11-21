@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M008538 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierLevelCharacterSumCongr` | volunteer-build-reviewed |
 | M008539 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierLevelCharacterSumCongrStatement` | volunteer-build-reviewed |
 | M008540 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierNegativeVectorTermNear` | volunteer-build-reviewed |
 | M008541 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierNegativeVectorTermNearStatement` | volunteer-build-reviewed |
@@ -281,6 +282,7 @@
 | M009120 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatBesselToFourierJacobiRowMulLawsStatement` | volunteer-build-reviewed |
 | M009121 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnIndicatorPureAtSymmetricPosition` | volunteer-build-reviewed |
 | M009123 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnMapEqRootExchangeOperatorTranslate` | volunteer-build-reviewed |
+| M009126 | P0583 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnSupportOfOneIndexAtSymPositionStatement` | volunteer-build-reviewed |
 | M009127 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatContrIntIndicator` | volunteer-build-reviewed |
 | M009128 | P0679 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatFactorReductionKernelAllNonFreeUnreadEntries` | build-observed |
 | M009129 | P0706 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatFactorReductionKernelAllNonFreeUnreadEntriesStatement` | build-observed |
@@ -305,6 +307,7 @@
 | M009161 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapsHeisenbergTranslationLawStatement` | volunteer-build-reviewed |
 | M009162 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapsPreserveSchwartzBruhatAndSurjective` | volunteer-build-reviewed |
 | M009163 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapsPreserveSchwartzBruhatAndSurjectiveStatement` | build-observed |
+| M009169 | P0583 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatRowIndicatorOfSymLevelExchangeStatement` | volunteer-build-reviewed |
 | M009170 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatRowMapEqRootExchangeOperatorTranslate` | volunteer-build-reviewed |
 | M009176 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatThetaIntegrandLocallyUniformMajorantStatement` | volunteer-build-reviewed |
 | M009178 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatThetaMapsConvergeThetaFunctionsStatement` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M009347 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GodementSectionSmoothBounded` | volunteer-build-reviewed |
 | M009348 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GoodMajorantLevelConjUnitaryAdelicMaximalCompact` | volunteer-build-reviewed |
 | M009349 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GoodMajorantLevelConjUnitaryAdelicMaximalCompactStatement` | volunteer-build-reviewed |
-| M009350 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GoodPositionSplitLinesReadCompletionsAtPlace` | volunteer-build-reviewed |
-| M009351 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GoodPositionSplitLinesReadCompletionsAtPlaceStatement` | volunteer-build-reviewed |
-| M009354 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GramEqOfInst` | volunteer-build-reviewed |

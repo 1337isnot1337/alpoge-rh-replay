@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M095056"
+  ],
+  "started_utc": "2026-11-21T16:13:25.980293+00:00",
+  "ended_utc": "2026-11-21T16:13:46.759946+00:00",
+  "elapsed_seconds": 20.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6995892
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntegralIntegralGLMulRightComplexProductSigma:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "97c6bfcad0aba3e27481560ae02b2070076327ca9b421d1c5f8a51d159f7d061",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.BlockTriangularOneAddMat",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsLocallyConstantModulus"
+  ],
+  "objects": {
+    "M095056": "bef206fcb4e16df330cf260360f8f232c3e44392366412a9b8a4dcc1c679fc22"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "f37a9a9fc324e4948f2889cfca109330d2d77c0908ea2f0224cd03daa984a9e2",
+  "packet": "M095056",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23358#issuecomment-7065485463",
+  "reviewed_utc": "2026-11-21T16:56:20.312255+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

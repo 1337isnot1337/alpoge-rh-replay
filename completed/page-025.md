@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M022323 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticTraceFromModel` | volunteer-build-reviewed |
+| M022324 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticTraceFromModelStatement` | volunteer-build-reviewed |
+| M022326 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticTraceOfInputsStatement` | volunteer-build-reviewed |
+| M022328 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticWeakSolWordDerivLeConstMulSupStatement` | volunteer-build-reviewed |
+| M022329 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbAApply` | volunteer-build-reviewed |
+| M022333 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbLInlZeroRight` | volunteer-build-reviewed |
+| M022334 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbLLMem` | volunteer-build-reviewed |
+| M022335 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbOverSumInjective` | volunteer-build-reviewed |
 | M022341 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingConjugateOscillatorEighth` | volunteer-build-reviewed |
 | M022343 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingConjugateOscillatorNinth` | volunteer-build-reviewed |
 | M022345 | P2122 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingEvaluationCompatible` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M023178 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyLeAtNearbyIndices` | volunteer-build-reviewed |
 | M023179 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyLeOfPolyAsymptotics` | volunteer-build-reviewed |
 | M023182 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyLocalCompactSmall` | volunteer-build-reviewed |
-| M023184 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyLocalIntegralPointsMemOpenSubgroupDefiStatement` | volunteer-build-reviewed |
-| M023185 | P1505 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyLogNcardSeminormBallOneGe` | build-observed |
-| M023187 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyMemKGL` | volunteer-build-reviewed |
-| M023188 | P2188 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyMemMaximalCompact` | volunteer-build-reviewed |
-| M023189 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyMemMaximalCompactStatement` | volunteer-build-reviewed |
-| M023190 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyMulRight` | volunteer-build-reviewed |
-| M023192 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyNotMemChartBallSaturation` | volunteer-build-reviewed |
-| M023194 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyOfForall` | volunteer-build-reviewed |

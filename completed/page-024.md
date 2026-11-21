@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M021161 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetWirtingerAntiholomorphicDerivEqSumStatement` | volunteer-build-reviewed |
+| M021164 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantElementProduct` | wave-reused |
+| M021165 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantElementProductStatement` | wave-reused |
+| M021168 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantFrameComparison` | wave-reused |
+| M021169 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantFrameComparisonStatement` | wave-reused |
+| M021170 | P0733 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantFrameComparisonUnit` | wave-reused |
+| M021171 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantFrameComparisonUnitStatement` | wave-reused |
+| M021176 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantInducedIrreducibleAdmissible` | volunteer-build-reviewed |
 | M021178 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantInducedIsAdmissible` | volunteer-build-reviewed |
 | M021179 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantInducedIsAdmissibleStatement` | volunteer-build-reviewed |
 | M021181 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantInducedRepEquivProductStatement` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M022314 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticMapUniformizationLine` | volunteer-build-reviewed |
 | M022317 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticPolyConjSelfReciprocalCoeffStatement` | volunteer-build-reviewed |
 | M022318 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticPolynomialsBoundedFinite` | volunteer-build-reviewed |
-| M022323 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticTraceFromModel` | volunteer-build-reviewed |
-| M022324 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticTraceFromModelStatement` | volunteer-build-reviewed |
-| M022326 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticTraceOfInputsStatement` | volunteer-build-reviewed |
-| M022328 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticWeakSolWordDerivLeConstMulSupStatement` | volunteer-build-reviewed |
-| M022329 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbAApply` | volunteer-build-reviewed |
-| M022333 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbLInlZeroRight` | volunteer-build-reviewed |
-| M022334 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbLLMem` | volunteer-build-reviewed |
-| M022335 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbOverSumInjective` | volunteer-build-reviewed |

@@ -1,0 +1,50 @@
+{
+  "tasks": [
+    "M168681"
+  ],
+  "started_utc": "2026-11-21T16:01:57.209314+00:00",
+  "ended_utc": "2026-11-21T16:03:38.793962+00:00",
+  "elapsed_seconds": 101.6,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16367524,
+    "peak_child_rss_kib": 7283760
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.LatticeLemmas.PLocalChange:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "44a60a9073219efd3593e79ced3f9d51151e58489eba7ef9531672b0fb12ad66",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ArithDegree",
+    "GroundTheory.HeightsAndTheta.Heights.ArithDegreeExact",
+    "GroundTheory.HeightsAndTheta.Heights.ArithDegreeIdeal",
+    "GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.Slopes",
+    "GroundTheory.HeightsAndTheta.Heights.HermitianDual",
+    "GroundTheory.HeightsAndTheta.Heights.HermitianEuclidean",
+    "GroundTheory.HeightsAndTheta.Heights.HermitianLattice",
+    "GroundTheory.HeightsAndTheta.Heights.HermitianSum",
+    "GroundTheory.HeightsAndTheta.Heights.HermitianTensor",
+    "GroundTheory.HeightsAndTheta.Heights.LatticeLemmas.Statements",
+    "GroundTheory.HeightsAndTheta.Heights.LatticeLemmas.StatementsBundles",
+    "GroundTheory.HeightsAndTheta.Heights.LatticeLemmas.StatementsExamples",
+    "GroundTheory.HeightsAndTheta.Heights.LatticeLemmas.StatementsIndex",
+    "GroundTheory.HeightsAndTheta.Heights.LatticeLemmas.StatementsLocal"
+  ],
+  "objects": {
+    "M168681": "e998a5eb2a303b7ac995ba1c9db437872902892a16d66a805558465ad6e2512a"
+  },
+  "project_root": "/home/runner/work/_temp/replay/lean",
+  "bundle_sha256": "1dea2ba6bd3e9eca46816d6a8167c89689ed469d6b60b68a1f811fcd7db004db",
+  "run": "https://github.com/JanSimeonMetzger/alpoge-rh-replay/actions/runs/44922082315",
+  "packet": "M168681",
+  "contributor": "JanSimeonMetzger",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23322#issuecomment-7065365429",
+  "reviewed_utc": "2026-11-21T16:57:26.397478+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

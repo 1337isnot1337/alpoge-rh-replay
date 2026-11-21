@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M017658 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernMassLineBundleWeightOfIso` | volunteer-build-reviewed |
+| M017675 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernOneEqNegDdcLogDet` | volunteer-build-reviewed |
+| M017684 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernPartSingleton` | volunteer-build-reviewed |
+| M017693 | P2506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernTopChartIndependent` | build-observed |
+| M017703 | P2531 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernTransgressionFormsFrameInvariant` | build-observed |
+| M017704 | P2555 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernTransgressionFormsFrameInvariantStatement` | build-observed |
+| M017705 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernTwoDdcExtTrace` | volunteer-build-reviewed |
+| M017712 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChevalleyExistsLeSupMaximalIdealPowOfAntitoneStatement` | volunteer-build-reviewed |
 | M017714 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChiDeltaUConjLongSimpleReflectionUnitary` | volunteer-build-reviewed |
 | M017718 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChiGridVertexRankAddLtTwoExponentAddCentre` | volunteer-build-reviewed |
 | M017719 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChiGridVertexRankAddLtTwoExponentAddCentreStatement` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M018877 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarEigenTripleStatement` | volunteer-build-reviewed |
 | M018878 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarEigenUnfolding` | volunteer-build-reviewed |
 | M018879 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarEigenUnfoldingStatement` | volunteer-build-reviewed |
-| M018883 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarMeasureUnfoldStatement` | volunteer-build-reviewed |
-| M018884 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarStabilizer` | volunteer-build-reviewed |
-| M018892 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarUnfoldingStatement` | volunteer-build-reviewed |
-| M018893 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAIdeleUnitIntegralIdentity` | volunteer-build-reviewed |
-| M018905 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalMeasurePreserving` | volunteer-build-reviewed |
-| M018909 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartEqualStatement` | volunteer-build-reviewed |
-| M018910 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartFold` | volunteer-build-reviewed |
-| M018914 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartProduct` | volunteer-build-reviewed |

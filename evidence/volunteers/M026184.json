@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M026184"
+  ],
+  "started_utc": "2026-11-21T16:10:36.090135+00:00",
+  "ended_utc": "2026-11-21T16:10:53.649312+00:00",
+  "elapsed_seconds": 17.6,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6906204
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomOfBigCellGenericRelations:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2a8d8a855d49f1273f78294bb93aab7f00483095b729ea0f96e3f9fd32ab154c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.UnipVal",
+    "Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.KudlaSplittingSplitUnitary"
+  ],
+  "objects": {
+    "M026184": "146ca0141994bf8a83729d87b108272d231ce72086b16f26487a700d39c7b159"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "0b1535a0b8b5a6f208aab91d0071194a3d39ea43a011c6eeb2ee460573d4f774",
+  "packet": "M026184",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23355#issuecomment-7065446813",
+  "reviewed_utc": "2026-11-21T16:56:36.175725+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

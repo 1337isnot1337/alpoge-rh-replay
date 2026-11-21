@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M095552"
+  ],
+  "started_utc": "2026-11-21T16:14:39.872611+00:00",
+  "ended_utc": "2026-11-21T16:14:57.162323+00:00",
+  "elapsed_seconds": 17.3,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6919584
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.LatticeBounds:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a90912eefa65cab399a001962b53f66f847866862e105e94389ad6d9ad4a6ca6",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.NormalRepresentationLattice",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsEmbXMul",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ZpowMulMemPow"
+  ],
+  "objects": {
+    "M095552": "f7a7cc293ae0baf2f973a114c336fdd7ab6fee2b2db214cb10dc6e7072662c5b"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "027020171816359bcd1d986bc68cc2e56e2d1817ee44b6b207b3ec461c060ce3",
+  "packet": "M095552",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23366#issuecomment-7065501670",
+  "reviewed_utc": "2026-11-21T16:56:04.049196+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

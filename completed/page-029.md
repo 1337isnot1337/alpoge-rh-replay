@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M027027 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftEtaleSheafOfLinearMapsExact` | wave-reused |
+| M027028 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftEtaleSheafOfLinearMapsExactStatement` | wave-reused |
+| M027038 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftGeometricPointOfFaithfullyFlatFiniteTy` | volunteer-build-reviewed |
+| M027039 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftGeometricPointOfFaithfullyFlatFiniteTyStatement` | volunteer-build-reviewed |
+| M027046 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftOfEtaleSurjective` | volunteer-build-reviewed |
+| M027050 | P1004 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftOfLiftingObstructionEqZero` | build-observed |
+| M027051 | P1031 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftOfLiftingObstructionEqZeroStatement` | build-observed |
+| M027064 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftSummandLieResidueCharZero` | volunteer-build-reviewed |
+| M027068 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftToCompleteDvrOfFinite` | volunteer-build-reviewed |
+| M027071 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftValuativeCriterionVarieties` | volunteer-build-reviewed |
 | M027072 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftValuativeCriterionVarietiesStatement` | volunteer-build-reviewed |
 | M027074 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftedFunctionOnLogResolutionStatement` | volunteer-build-reviewed |
 | M027083 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLinCombSectionsNeZeroOnFinset` | wave-reused |
@@ -392,13 +402,3 @@
 | M028264 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolyAnnihilatesCommutingLinearCombination` | volunteer-build-reviewed |
 | M028265 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolyAnnihilatesCommutingLinearCombinationStatement` | volunteer-build-reviewed |
 | M028266 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolyEntriesConjLeftRightMul` | volunteer-build-reviewed |
-| M028267 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolyEntriesConjLeftRightMulStatement` | volunteer-build-reviewed |
-| M028270 | P0180 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolyPowMulEqOne` | wave-reused |
-| M028271 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolyPowMulEqOneStatement` | wave-reused |
-| M028276 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolynomialChernIntegralTensPow` | volunteer-build-reviewed |
-| M028277 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolynomialChernIntegralTensPowStatement` | volunteer-build-reviewed |
-| M028280 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolynomialMongeAmpereMassAddZsmul` | volunteer-build-reviewed |
-| M028281 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolynomialMongeAmpereMassAddZsmulStatement` | volunteer-build-reviewed |
-| M028284 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolynomialMultilinear` | volunteer-build-reviewed |
-| M028288 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPosDefGrD` | volunteer-build-reviewed |
-| M028290 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPosDefMajorantOfPositiveIndexOneStatement` | volunteer-build-reviewed |

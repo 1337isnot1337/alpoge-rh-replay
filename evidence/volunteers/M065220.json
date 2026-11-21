@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M065220"
+  ],
+  "started_utc": "2026-11-21T16:10:25.864570+00:00",
+  "ended_utc": "2026-11-21T16:10:50.323595+00:00",
+  "elapsed_seconds": 24.5,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5317276
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LogDerivRiemannZetaLocalZeroSumStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6d3bd1a60c8b26a35e60e2bccd190a545801ba6b31b52621f4a181fd79ae253b",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.DifferentiableAtFractInt",
+    "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsFactorOrder",
+    "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LogDerivRiemannZetaLocalZeroSum",
+    "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.NormOneSubConjMul",
+    "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.TsumOneDivRpowLe",
+    "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ZetaEqSubIntegralFract"
+  ],
+  "objects": {
+    "M065220": "362324255553cf78c13a83d5c8df2e6e47bf8b5f00e92dfd504984d9d7406fcd"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "364cc7c9fb8d9e8b008a0a605b87e21b7a328777e083a7152cd13220e62d187c",
+  "packet": "M065220",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23342#issuecomment-7065448623",
+  "reviewed_utc": "2026-11-21T16:56:36.612180+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

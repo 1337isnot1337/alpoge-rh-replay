@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M132990"
+  ],
+  "started_utc": "2026-11-21T16:17:23.020677+00:00",
+  "ended_utc": "2026-11-21T16:17:39.416581+00:00",
+  "elapsed_seconds": 16.4,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6858956
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.MembershipProofs.DblCoordUnique:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e3bd5f4835f17aa5997ed31982cc0eaac3dbf1df108006b95ab50759acc91a00",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.MembershipProofs.ExistsEqMulApplyZero",
+    "Development.AutomorphicSpectrum.Proofs.MembershipProofs.ExistsInvariantForm",
+    "Development.AutomorphicSpectrum.Proofs.MembershipProofs.LagrangianStabilizerCharacterTrivial"
+  ],
+  "objects": {
+    "M132990": "baf7100ba65259906a066966be854c6c66904d9536d9c896032eaabb9a48fe67"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "ad2f636fca0cc9e09827833e87858c74892a3d6165342e9aacacff84051b03e5",
+  "packet": "M132990",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23363#issuecomment-7065536685",
+  "reviewed_utc": "2026-11-21T16:56:20.000917+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

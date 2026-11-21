@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M020120 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupChernKummerPullbackNaturalityStatement` | wave-reused |
+| M020121 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupEqClassOfIsAW` | wave-reused |
+| M020122 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupEqClassOfIsAWStatement` | wave-reused |
+| M020123 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupGradedCommOfIsFlip` | build-observed |
+| M020124 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupGradedCommOfIsFlipStatement` | build-observed |
+| M020125 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupHypercohomologyPullback` | wave-reused |
+| M020126 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupHypercohomologyPullbackStatement` | wave-reused |
+| M020127 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupPeriodClassesSumConst` | build-observed |
 | M020128 | P1003 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupPeriodClassesSumConstStatement` | build-observed |
 | M020129 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupProductAssocOfPairingAssoc` | build-observed |
 | M020130 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupProductAssocOfPairingAssocStatement` | build-observed |
@@ -394,11 +402,3 @@
 | M021157 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetUnitaryChartSectionConjugatedMatrixStatement` | build-observed |
 | M021158 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetValuationsSumZeroSameLocalLattice` | volunteer-build-reviewed |
 | M021159 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetValuationsSumZeroSameLocalLatticeStatement` | volunteer-build-reviewed |
-| M021161 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetWirtingerAntiholomorphicDerivEqSumStatement` | volunteer-build-reviewed |
-| M021164 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantElementProduct` | wave-reused |
-| M021165 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantElementProductStatement` | wave-reused |
-| M021168 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantFrameComparison` | wave-reused |
-| M021169 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantFrameComparisonStatement` | wave-reused |
-| M021170 | P0733 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantFrameComparisonUnit` | wave-reused |
-| M021171 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantFrameComparisonUnitStatement` | wave-reused |
-| M021176 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantInducedIrreducibleAdmissible` | volunteer-build-reviewed |

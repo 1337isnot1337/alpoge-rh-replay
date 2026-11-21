@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M025914 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalUniformiserAbovePrime` | volunteer-build-reviewed |
+| M025915 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalUniformiserAbovePrimeStatement` | volunteer-build-reviewed |
+| M025920 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalVectorFieldOfOneFormFunctional` | build-observed |
+| M025921 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlobalVectorFieldOfOneFormFunctionalStatement` | build-observed |
+| M025924 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlueClosedImmersionsOpenCover` | volunteer-build-reviewed |
+| M025925 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlueClosedImmersionsOpenCoverStatement` | volunteer-build-reviewed |
+| M025938 | P0298 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlueSpecCompleteLocalRingThickenings` | volunteer-build-reviewed |
+| M025939 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlueSpecCompleteLocalRingThickeningsStatement` | volunteer-build-reviewed |
+| M025940 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlueSpecLocalizationAwayMorphisms` | volunteer-build-reviewed |
 | M025942 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlueToLocallyDirectedColimitOfBasis` | build-observed |
 | M025943 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlueToLocallyDirectedColimitOfBasisStatement` | build-observed |
 | M025949 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGluedLineBundleSectionOverCoverStatement` | volunteer-build-reviewed |
@@ -91,6 +100,7 @@
 | M026179 | P1941 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomExtOfGrpPullback` | volunteer-build-reviewed |
 | M026180 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomJet` | build-observed |
 | M026182 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomMumfordGeneratorNormalisedOriginStatement` | volunteer-build-reviewed |
+| M026184 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomOfBigCellGenericRelations` | volunteer-build-reviewed |
 | M026185 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomOfBigCellGenericRelationsStatement` | volunteer-build-reviewed |
 | M026188 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomOfTriv` | volunteer-build-reviewed |
 | M026190 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomSpecProdSelfPreimageEqClopen` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M027018 | P1327 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftAdaptedBasisQuasiLogarithmsFrameStatement` | build-observed |
 | M027020 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftAlgebraicallyClosedPoint` | volunteer-build-reviewed |
 | M027021 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftAlgebraicallyClosedPointStatement` | volunteer-build-reviewed |
-| M027027 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftEtaleSheafOfLinearMapsExact` | wave-reused |
-| M027028 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftEtaleSheafOfLinearMapsExactStatement` | wave-reused |
-| M027038 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftGeometricPointOfFaithfullyFlatFiniteTy` | volunteer-build-reviewed |
-| M027039 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftGeometricPointOfFaithfullyFlatFiniteTyStatement` | volunteer-build-reviewed |
-| M027046 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftOfEtaleSurjective` | volunteer-build-reviewed |
-| M027050 | P1004 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftOfLiftingObstructionEqZero` | build-observed |
-| M027051 | P1031 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftOfLiftingObstructionEqZeroStatement` | build-observed |
-| M027064 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftSummandLieResidueCharZero` | volunteer-build-reviewed |
-| M027068 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftToCompleteDvrOfFinite` | volunteer-build-reviewed |
-| M027071 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftValuativeCriterionVarieties` | volunteer-build-reviewed |

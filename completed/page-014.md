@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M010077 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAtPlacesSelfDualOfSelfDual` | volunteer-build-reviewed |
+| M010078 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAtPlacesSelfDualOfSelfDualStatement` | volunteer-build-reviewed |
+| M010080 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionEqOfLocalAgreementStatement` | volunteer-build-reviewed |
 | M010081 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeEqBaseOffTwist` | volunteer-build-reviewed |
 | M010082 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeLineRatioTransportOfColumnsCarryLines` | volunteer-build-reviewed |
 | M010083 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeLineRatioTransportOfColumnsCarryLinesStatement` | volunteer-build-reviewed |
@@ -348,6 +351,7 @@
 | M010713 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PairsAmplitudeBoundOfTypeBoundStatement` | volunteer-build-reviewed |
 | M010714 | P1115 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricBiTransformingLowerUnipotentDiagValue` | volunteer-build-reviewed |
 | M010715 | P1144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricBiTransformingLowerUnipotentDiagValueStatement` | build-observed |
+| M010717 | P0394 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricChainLastTwoStepsRootOfUnityStatement` | volunteer-build-reviewed |
 | M010720 | P0732 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricDoubleCosetValuation` | build-observed |
 | M010726 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricLevelCharacterEqInvBlockDetStatement` | volunteer-build-reviewed |
 | M010727 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ParahoricLevelsCharactersDoubleCosetsAgreeRation` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M010825 | P0706 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PositionOneOfSymmetricDoubleIntegralFinite` | build-observed |
 | M010826 | P0732 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PositionOneOfSymmetricDoubleIntegralFiniteStatement` | build-observed |
 | M010828 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PowExpIOrInvInjective` | volunteer-build-reviewed |
-| M010829 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PowExpIOrInvInjectiveStatement` | volunteer-build-reviewed |
-| M010830 | P0706 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PowPrimePowSubFrobeniusTwistNormLe` | build-observed |
-| M010831 | P0732 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PowPrimePowSubFrobeniusTwistNormLeStatement` | build-observed |
-| M010832 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PrHOUpIncAdj` | volunteer-build-reviewed |

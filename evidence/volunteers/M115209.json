@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M115209"
+  ],
+  "started_utc": "2026-11-21T16:16:11.451632+00:00",
+  "ended_utc": "2026-11-21T16:16:27.885348+00:00",
+  "elapsed_seconds": 16.4,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6873312
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsOrthogonalUnitVector:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "99e6d92e662e11aa7ffcc6a702aacab42f4880515b07c817c3144e294150b1c4",
+  "rebuilt_project_modules": [
+    "Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.ExistsIsomFix",
+    "Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.ExistsIsomFrame",
+    "Formalism.GL3MeanSquares.GenusMeanAsymptotics.UnimodularClassRepresentatives.ExistsNormOneOfPair"
+  ],
+  "objects": {
+    "M115209": "0212bc500e90b185a5646f06808f2f3c1b94d5532e0360d616a976b0f647763c"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "ad69697f9e043a2275cad0dd66c4770627769caf285c6c13f0dd0d7494b53725",
+  "packet": "M115209",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23368#issuecomment-7065521743",
+  "reviewed_utc": "2026-11-21T16:56:04.030744+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

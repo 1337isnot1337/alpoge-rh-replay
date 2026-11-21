@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M014830 | P0296 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditivePeriodExponentLinearStatement` | volunteer-build-reviewed |
+| M014837 | P0918 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveTwoCocycleCoeffRelationsOnePair` | build-observed |
+| M014838 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveTwoCocycleCoeffRelationsOnePairStatement` | build-observed |
+| M014844 | P2094 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdeleBaseChangeMemIdeal` | volunteer-build-reviewed |
+| M014852 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdeleMod` | volunteer-build-reviewed |
+| M014855 | P1474 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdeleQuotientCompactRepresentatives` | volunteer-build-reviewed |
+| M014868 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicCompletionComapRationalMatrix` | volunteer-build-reviewed |
+| M014876 | P1474 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicCuspFormTransvectionConstantTermsZero` | volunteer-build-reviewed |
 | M014881 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicFixatorEqUnipotentRadicalMulCommonFixator` | volunteer-build-reviewed |
 | M014883 | P1373 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicFormsFiniteStabilisers` | volunteer-build-reviewed |
 | M014886 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicFourierMemSchwartzTotallyRealStatement` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M016300 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BialgebraPullbackTwoConvMulSymmetricCocycleStatement` | wave-reused |
 | M016303 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharDerivContDiff` | volunteer-build-reviewed |
 | M016304 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharDerivContDiffStatement` | volunteer-build-reviewed |
-| M016305 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharacterFourierTransformMemSchwartzBruhat` | build-observed |
-| M016306 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharacterFourierTransformMemSchwartzBruhatStatement` | build-observed |
-| M016307 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharacterFourierTransformTwiceEqPosSmulReflect` | build-observed |
-| M016308 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharacterFourierTransformTwiceEqPosSmulReflectStatement` | build-observed |
-| M016314 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigCellFactorisationDoubledUnitaryGroup` | volunteer-build-reviewed |
-| M016322 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigEtaleModuleSheafMonoEpiIffSections` | wave-reused |
-| M016323 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigEtaleModuleSheafMonoEpiIffSectionsStatement` | wave-reused |
-| M016339 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveBaseChangeDescendsFilteredColimit` | build-observed |

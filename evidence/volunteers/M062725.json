@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M062725"
+  ],
+  "started_utc": "2026-11-21T16:12:13.105968+00:00",
+  "ended_utc": "2026-11-21T16:12:23.242814+00:00",
+  "elapsed_seconds": 10.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6865060
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsKummerCharacterAtLevelPadicIntSmul:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "304dd76a37eee964c2cf12585dba547e78e9dd54d5da11b7981c0b4dc7426828",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.TowerUnitClassModPrimePowPropertiesStatement",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.UpperHalfPlaneHolomorphicGermPropertiesStatement"
+  ],
+  "objects": {
+    "M062725": "15c05029ba45f54628ea90f1c7207205cb802398c78b795008ca35c9f793e8d0"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "918434919fa58aa4cb86ef67c3f58d3b8ebc87f6d6e4df4f44bfd6a410d1ffdd",
+  "packet": "M062725",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23362#issuecomment-7065467800",
+  "reviewed_utc": "2026-11-21T16:56:19.893277+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -75,6 +75,7 @@
 | M006402 | P0648 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.BlockEmbConjTranspose` | build-observed |
 | M006403 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.CoeffSubstInvMemOfTwoLeOrder` | wave-reused |
 | M006404 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ConjTransposeBoostMulSignatureMulBoost` | volunteer-build-reviewed |
+| M006405 | P0296 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ContinuousNormMulOneAddAbsLogPow` | volunteer-build-reviewed |
 | M006406 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DifferentiableOnOfTendstoLocallyUniformlyOn` | wave-reused |
 | M006407 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DiscreteTopologySpanOfLinearIndependent` | volunteer-build-reviewed |
 | M006408 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DualRestrictSurjectiveOfIsTorsionFreeQuotient` | wave-reused |
@@ -401,4 +402,3 @@
 | M007127 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsFaithfullyFlatRoots` | volunteer-build-reviewed |
 | M007128 | P1144 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsFaithfullyFlatRootsStatement` | build-observed |
 | M007129 | P1324 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsFaithfullyFlatSplitIsotropicGroup` | build-observed |
-| M007130 | P1350 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsFaithfullyFlatSplitIsotropicGroupStatement` | build-observed |

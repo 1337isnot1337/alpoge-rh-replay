@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M016305 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharacterFourierTransformMemSchwartzBruhat` | build-observed |
+| M016306 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharacterFourierTransformMemSchwartzBruhatStatement` | build-observed |
+| M016307 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharacterFourierTransformTwiceEqPosSmulReflect` | build-observed |
+| M016308 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharacterFourierTransformTwiceEqPosSmulReflectStatement` | build-observed |
+| M016314 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigCellFactorisationDoubledUnitaryGroup` | volunteer-build-reviewed |
+| M016322 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigEtaleModuleSheafMonoEpiIffSections` | wave-reused |
+| M016323 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigEtaleModuleSheafMonoEpiIffSectionsStatement` | wave-reused |
+| M016339 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveBaseChangeDescendsFilteredColimit` | build-observed |
 | M016340 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveBaseChangeDescendsFilteredColimitStatement` | build-observed |
 | M016341 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveBaseChangeResidueFieldOfFiniteEtale` | wave-reused |
 | M016343 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveIffIsUnitDet` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M017644 | P2389 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernIntegralIndependentOfCoefficient` | build-observed |
 | M017650 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernIntegralOneEqMongeAmpereIntegral` | volunteer-build-reviewed |
 | M017653 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernIntegralTopIndependentOfSmoothWeightStatement` | volunteer-build-reviewed |
-| M017658 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernMassLineBundleWeightOfIso` | volunteer-build-reviewed |
-| M017675 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernOneEqNegDdcLogDet` | volunteer-build-reviewed |
-| M017684 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernPartSingleton` | volunteer-build-reviewed |
-| M017693 | P2506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernTopChartIndependent` | build-observed |
-| M017703 | P2531 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernTransgressionFormsFrameInvariant` | build-observed |
-| M017704 | P2555 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernTransgressionFormsFrameInvariantStatement` | build-observed |
-| M017705 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernTwoDdcExtTrace` | volunteer-build-reviewed |
-| M017712 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChevalleyExistsLeSupMaximalIdealPowOfAntitoneStatement` | volunteer-build-reviewed |

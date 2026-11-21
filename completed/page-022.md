@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M018883 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarMeasureUnfoldStatement` | volunteer-build-reviewed |
+| M018884 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarStabilizer` | volunteer-build-reviewed |
+| M018892 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAHaarUnfoldingStatement` | volunteer-build-reviewed |
+| M018893 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAIdeleUnitIntegralIdentity` | volunteer-build-reviewed |
+| M018905 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalMeasurePreserving` | volunteer-build-reviewed |
+| M018909 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartEqualStatement` | volunteer-build-reviewed |
+| M018910 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartFold` | volunteer-build-reviewed |
+| M018914 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartProduct` | volunteer-build-reviewed |
 | M018918 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartUnfold` | volunteer-build-reviewed |
 | M018923 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalUnitLeviStatement` | volunteer-build-reviewed |
 | M018926 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAMatchedIntegral` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M020111 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CubicalMetricOfFlatMetric` | build-observed |
 | M020112 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CubicalMetricOfFlatMetricStatement` | build-observed |
 | M020119 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupChernKummerPullbackNaturality` | wave-reused |
-| M020120 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupChernKummerPullbackNaturalityStatement` | wave-reused |
-| M020121 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupEqClassOfIsAW` | wave-reused |
-| M020122 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupEqClassOfIsAWStatement` | wave-reused |
-| M020123 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupGradedCommOfIsFlip` | build-observed |
-| M020124 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupGradedCommOfIsFlipStatement` | build-observed |
-| M020125 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupHypercohomologyPullback` | wave-reused |
-| M020126 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupHypercohomologyPullbackStatement` | wave-reused |
-| M020127 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupPeriodClassesSumConst` | build-observed |

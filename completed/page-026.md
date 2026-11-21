@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M023184 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyLocalIntegralPointsMemOpenSubgroupDefiStatement` | volunteer-build-reviewed |
+| M023185 | P1505 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyLogNcardSeminormBallOneGe` | build-observed |
+| M023187 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyMemKGL` | volunteer-build-reviewed |
+| M023188 | P2188 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyMemMaximalCompact` | volunteer-build-reviewed |
+| M023189 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyMemMaximalCompactStatement` | volunteer-build-reviewed |
+| M023190 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyMulRight` | volunteer-build-reviewed |
+| M023192 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyNotMemChartBallSaturation` | volunteer-build-reviewed |
+| M023194 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyOfForall` | volunteer-build-reviewed |
 | M023196 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyOneTmulAdicIntegralCoordsStatement` | volunteer-build-reviewed |
 | M023197 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyParameterSizesTestChoices` | volunteer-build-reviewed |
 | M023205 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallySelfDualLatticeIndicatorIsVacuum` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M024546 | P1352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCubeValuationEqDiscriminant` | build-observed |
 | M024547 | P1375 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCubeValuationEqDiscriminantStatement` | build-observed |
 | M024548 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCubicalMetric` | build-observed |
-| M024549 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCubicalMetricStatement` | build-observed |
-| M024553 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCubicalStructureMapClosedFibreLocalHomStatement` | volunteer-build-reviewed |
-| M024555 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCubicalStructureMapOfLineBundleIsoRescaledStatement` | volunteer-build-reviewed |
-| M024558 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCubicalSymmetricStructureOfGenericSymmetri` | volunteer-build-reviewed |
-| M024561 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCubicalTrivialisationSplitTorusFieldStatement` | volunteer-build-reviewed |
-| M024563 | P1352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCuspCentre` | wave-reused |
-| M024564 | P2188 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCuspFormClassSumNormalisedData` | volunteer-build-reviewed |
-| M024565 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCuspFormClassSumNormalisedDataStatement` | volunteer-build-reviewed |

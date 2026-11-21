@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M011683"
+  ],
+  "started_utc": "2026-11-21T16:09:12.810043+00:00",
+  "ended_utc": "2026-11-21T16:09:25.150646+00:00",
+  "elapsed_seconds": 12.3,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6894028
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SymmetricLevelChainClassAtEveryPosition:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2c445c006a4775934f71a5ffeee309b0d4a1f6c1f9da2cf0db50ca4a15043ca2",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.OpEOmTargetUnipotent"
+  ],
+  "objects": {
+    "M011683": "bc554a5b44867b8d52d1aa20ad941e6191ab0cd859081d2515b88757e9425402"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "3079d1aa211983ea8ceef129eac52cb8136333ea8898a494a9f1e6d40057e7ed",
+  "packet": "M011683",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23353#issuecomment-7065427444",
+  "reviewed_utc": "2026-11-21T16:56:36.260415+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

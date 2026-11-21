@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M125736"
+  ],
+  "started_utc": "2026-11-21T16:09:28.971037+00:00",
+  "ended_utc": "2026-11-21T16:09:53.120846+00:00",
+  "elapsed_seconds": 24.1,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5218420
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MeasurableZeroCount:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f860a0f634e5a17296fa44dec7c99f5d44e2d253bb71530f060a9475237de7a7",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.JoinCol",
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.PAreaMultiplicityWeight",
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StatementsAreaMultiplicityWeight",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PAreaMultiplicity",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StAreaMultiplicity"
+  ],
+  "objects": {
+    "M125736": "b98a70a1075b2811c9a064a28b509f28761a342eb71a957ae555b565e967b8f5"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "098a136e814af60460962598728c16a98d371d01303ddb2d1abf228592455757",
+  "packet": "M125736",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23338#issuecomment-7065447163",
+  "reviewed_utc": "2026-11-21T16:56:36.677817+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

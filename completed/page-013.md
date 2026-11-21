@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M009350 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GoodPositionSplitLinesReadCompletionsAtPlace` | volunteer-build-reviewed |
+| M009351 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GoodPositionSplitLinesReadCompletionsAtPlaceStatement` | volunteer-build-reviewed |
+| M009354 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GramEqOfInst` | volunteer-build-reviewed |
 | M009355 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GramMatrixOfColumnsUnitriangularConjEq` | volunteer-build-reviewed |
 | M009356 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GramMatrixOfColumnsUnitriangularConjEqStatement` | volunteer-build-reviewed |
 | M009359 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GramUnimodular` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M010074 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAAScaledEqAtUnitSplitPlacesStatement` | volunteer-build-reviewed |
 | M010075 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAtPlacesMemCompletedHermitianLa` | volunteer-build-reviewed |
 | M010076 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAtPlacesMemCompletedHermitianLaStatement` | volunteer-build-reviewed |
-| M010077 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAtPlacesSelfDualOfSelfDual` | volunteer-build-reviewed |
-| M010078 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionAtPlacesSelfDualOfSelfDualStatement` | volunteer-build-reviewed |
-| M010080 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticeCompletionEqOfLocalAgreementStatement` | volunteer-build-reviewed |

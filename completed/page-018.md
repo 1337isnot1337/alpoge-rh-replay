@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013703 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoValuesConstantOfSameCubeThetaStatement` | volunteer-build-reviewed |
+| M013704 | P1221 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleSpreadsOutFromGenericFibreProper` | build-observed |
+| M013706 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleSymmetryHypothesisBaseChange` | volunteer-build-reviewed |
+| M013707 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleSymmetryHypothesisBaseChangeStatement` | volunteer-build-reviewed |
+| M013708 | P0649 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LinearIndependentOnFibresOfClosedPoints` | build-observed |
+| M013710 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LinearIndependentThetaBasisGeometricFibreStatement` | volunteer-build-reviewed |
+| M013711 | P0550 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LinearMapEqZeroOfOneTmulMemRange` | build-observed |
+| M013712 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MaximalMinorsDualThetaTestLatticeBound` | volunteer-build-reviewed |
 | M013713 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MaximalMinorsDualThetaTestLatticeBoundStatement` | volunteer-build-reviewed |
 | M013716 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemMaximalIdeal` | volunteer-build-reviewed |
 | M013717 | P0617 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemPadicAlgClValuationSubringIffNormLeOne` | wave-reused |
@@ -394,11 +402,3 @@
 | M014811 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveHomogeneousFunctionalLinear` | volunteer-build-reviewed |
 | M014813 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveHomogeneousOperatorLinear` | volunteer-build-reviewed |
 | M014829 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditivePeriodExponentLinear` | volunteer-build-reviewed |
-| M014830 | P0296 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditivePeriodExponentLinearStatement` | volunteer-build-reviewed |
-| M014837 | P0918 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveTwoCocycleCoeffRelationsOnePair` | build-observed |
-| M014838 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdditiveTwoCocycleCoeffRelationsOnePairStatement` | build-observed |
-| M014844 | P2094 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdeleBaseChangeMemIdeal` | volunteer-build-reviewed |
-| M014852 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdeleMod` | volunteer-build-reviewed |
-| M014855 | P1474 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdeleQuotientCompactRepresentatives` | volunteer-build-reviewed |
-| M014868 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicCompletionComapRationalMatrix` | volunteer-build-reviewed |
-| M014876 | P1474 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicCuspFormTransvectionConstantTermsZero` | volunteer-build-reviewed |

@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M120803"
+  ],
+  "started_utc": "2026-11-21T16:16:37.464546+00:00",
+  "ended_utc": "2026-11-21T16:16:58.915855+00:00",
+  "elapsed_seconds": 21.5,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6931756
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.AdicCompleteTensorFiniteStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a48be93ea1044b1e5f44046ea2f5bc1041f43a491d6f4f660866673ccddc4d32",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.SatakeParameters.FaceFaceApply",
+    "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.CechPairings.InstAddCommGroup",
+    "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.TwistedRepresentations.Tens"
+  ],
+  "objects": {
+    "M120803": "9ba68edfc2bf82a719cd433c3c11e35e629cb00414a93dc8d21cb15744636063"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "75c52c9d35e88ce0ade013d331e7c43b180b077d3498904497a2f16b0e55bd24",
+  "packet": "M120803",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23370#issuecomment-7065528159",
+  "reviewed_utc": "2026-11-21T16:56:03.758915+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

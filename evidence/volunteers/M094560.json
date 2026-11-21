@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M094560"
+  ],
+  "started_utc": "2026-11-21T16:12:56.721713+00:00",
+  "ended_utc": "2026-11-21T16:13:17.312624+00:00",
+  "elapsed_seconds": 20.6,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6919948
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.HaarMeasurePiChangeConstantStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5dfb3c9cbb4eea926ea188b770220e137a0de7cd455b41d94ff714fac6d95c0f",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.HaarMeasurePiChangeConstant",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntegralCompBlocks",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.NabsDetEqOfActEq"
+  ],
+  "objects": {
+    "M094560": "362b96741e8645f5ff762a82f972c33e10338199c8d574d849b482ee99f1f9f2"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "6c01382d340ca0f37c09dfafbe849ae5ca5a53be0016128453c4e9817974aad5",
+  "packet": "M094560",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23367#issuecomment-7065479199",
+  "reviewed_utc": "2026-11-21T16:56:03.777233+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

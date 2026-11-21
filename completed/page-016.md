@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M012090 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryJointTwistData` | volunteer-build-reviewed |
+| M012091 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryJointTwistDataStatement` | volunteer-build-reviewed |
+| M012096 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryJointTwistValue` | volunteer-build-reviewed |
+| M012097 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryJointTwistValueStatement` | volunteer-build-reviewed |
+| M012098 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeClosed` | volunteer-build-reviewed |
+| M012099 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeClosedStatement` | volunteer-build-reviewed |
+| M012100 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeConjugate` | volunteer-build-reviewed |
 | M012101 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeConjugateStatement` | volunteer-build-reviewed |
 | M012103 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeFinalStatement` | volunteer-build-reviewed |
 | M012106 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeImage` | volunteer-build-reviewed |
@@ -64,6 +71,7 @@
 | M012307 | P2034 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TypeDataLocalRelationStatement` | volunteer-build-reviewed |
 | M012308 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TypeDataUnitShiftRelation` | volunteer-build-reviewed |
 | M012312 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TypeFrameConjugationDecomposition` | volunteer-build-reviewed |
+| M012313 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TypeFrameConjugationDecompositionStatement` | volunteer-build-reviewed |
 | M012328 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldedBesselJacobiIntegralAbsLe` | volunteer-build-reviewed |
 | M012329 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldedBesselJacobiIntegralAbsLeStatement` | volunteer-build-reviewed |
 | M012334 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldedFunctionEqBesselPeriodIntegrand` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M013031 | P0706 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInverseExtensionProperClosure` | build-observed |
 | M013033 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInvertibleAdaptedBasisLinkMatrix` | volunteer-build-reviewed |
 | M013034 | P1171 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInvertibleAdaptedBasisLinkMatrixStatement` | build-observed |
-| M013035 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInvertibleMatrixChangeOfSpanEq` | volunteer-build-reviewed |
-| M013037 | P0550 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsAffineOpenDisjointImageOfIsConstructible` | build-observed |
-| M013038 | P0348 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsAffineOpenPreimageEqOfIsNilpotent` | build-observed |
-| M013040 | P1247 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsFib` | volunteer-build-reviewed |
-| M013042 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsLBGenTrivOfRatios` | build-observed |
-| M013043 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsLBGenTrivOfRatiosStatement` | volunteer-build-reviewed |
-| M013046 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsPullDegOfVal` | volunteer-build-reviewed |
-| M013047 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsPullbackOfProjChart` | build-observed |
