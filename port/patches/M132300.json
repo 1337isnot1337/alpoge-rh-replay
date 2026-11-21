@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TraceIntegralSubringExtension",
+  "source_sha256": "b5d501b21b8427ac08ddd09d6fd6dddb6d7892721d118831ee4d9fa9300368fb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the target lemma Finsupp.finsetSum_apply for the same operation and hypotheses. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0142-lean436-20261121/packet-result.json"
+}

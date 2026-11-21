@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.TorusPointOverFractionField",
+  "source_sha256": "5f2cbe9d95f8d55ff2eb26ce05f57581afc70aec4fb59f90fb4fe910c8556b5f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the target lemma Ideal.isPrime_bot for the same operation and hypotheses. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0142-lean436-20261121/packet-result.json"
+}
