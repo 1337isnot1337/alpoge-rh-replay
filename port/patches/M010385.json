@@ -1,0 +1,7 @@
+{
+ "module": "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MatrixFieldStableRangeOneDetNeZeroStatement",
+ "source_sha256": "3418ecda6d09812514371d389654f46f504f27a9501e50aca4cde382a2766a18",
+ "lean": "leanprover/lean4:v4.36.0",
+ "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+ "notes": "unchanged"
+}
