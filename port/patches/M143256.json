@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.EigenvalueEndgame.SignatureSplitting.ConvCont",
+  "source_sha256": "3f0a8922a7ed499fbc3fc2a6c3ecbab0680b1a1eebb8fe8250f1ce8325f80cd9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

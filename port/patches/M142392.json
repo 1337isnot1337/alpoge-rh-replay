@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.CayleyCosetSums.HasDerivAtDetOneAdd",
+  "source_sha256": "8e3e62d09162d74ec6c965e63cb19d5b6eb604d77cdd2efeeeb8109f759642fe",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

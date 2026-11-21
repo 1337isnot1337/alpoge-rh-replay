@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.AnalyticDeterminants.HasFDerivAtInt",
+  "source_sha256": "0fabe66739714b15c12ddfdabad9bc5211f2347aaddac1c737311d9d0b7effdf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.FrameEstimates.CoefRealA",
+  "source_sha256": "a015d3d25a8ccbeb8f9c8ea33c90ceaff1f0583c684a7f8bb8ea122c5de834b2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Simplify the section embedding using Function.Embedding.sectR_apply in the existing Fourier bound; theorem statements unchanged."
+}

@@ -1,0 +1,11 @@
+--- a/src/Development/WeilBound/ThetaLifts/FrameEstimates/FourierInjA.lean
++++ b/src/Development/WeilBound/ThetaLifts/FrameEstimates/FourierInjA.lean
+@@ -8,7 +8,7 @@
+     [LocallyCompactSpace G] [SecondCountableTopology G] : PolishSpace G := by
+   let _ : UniformSpace G := IsTopologicalAddGroup.rightUniformSpace G
+   have : IsUniformAddGroup G := isUniformAddGroup_of_addCommGroup
+-  have : CompleteSpace G := IsRightUniformAddGroup.completeSpace_of_weaklyLocallyCompactSpace
++  have : CompleteSpace G := IsRightUniformAddGroup.completeSpace_of_weaklyLocallyCompactSpace G
+   have : (uniformity G).IsCountablyGenerated := IsUniformAddGroup.uniformity_countably_generated
+   have : TopologicalSpace.IsCompletelyMetrizableSpace G := inferInstance
+   infer_instance

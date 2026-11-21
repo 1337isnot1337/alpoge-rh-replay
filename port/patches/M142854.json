@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.RepresentationTheoryGL.TwistedFactors.IntegralUnitBaseChange.InvTransposeGLInvTransposeGL",
+  "source_sha256": "3ab186f231d580a3238ae1da71737aaaf10360e2dc5dfd56c0c64a36699c3c5b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use typed polynomial coefficient field notation; theorem statements unchanged."
+}

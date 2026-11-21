@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.CompactOrbits.NilpotentOrbits.OrbitIntegrals.ModulusInduction.Imports",
+  "source_sha256": "ef15644d25510209683d442b08ad33244a7963f319fd1c9ceaf63c2290e06b66",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.GlobalGaussLaws.GaussScalar",
+  "source_sha256": "0fe2e9224267f5a395e76af5115f7d9d6e5817e705c909ce6639bf8bdc8d3ea4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

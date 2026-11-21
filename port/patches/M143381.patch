@@ -1,0 +1,11 @@
+--- a/src/Development/WeilBound/ThetaLifts/LatticeBasics/HgtCount.lean
++++ b/src/Development/WeilBound/ThetaLifts/LatticeBasics/HgtCount.lean
+@@ -67,7 +67,7 @@
+           ← Real.mul_rpow (by positivity) (by positivity)]
+         exact ENNReal.ofReal_le_ofReal (Real.rpow_le_rpow (h0 g).le hg.2 t0)
+       · rw [setLIntegral_const]
+-        refine (mul_le_mul_right ((measure_mono fun g hg => hg.1).trans (h j)) _).trans_eq ?_
++        refine (mul_le_mul_right ((measure_mono (show P j ⊆ {g | (1 / 2) ^ j ≤ f g} from fun g hg => hg.1)).trans (h j)) _).trans_eq ?_
+         simp only [ρ, mul_pow]; ring
+     _ < ⊤ := by
+       rw [ENNReal.tsum_mul_left, ENNReal.tsum_geometric]

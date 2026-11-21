@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.EigenvalueEndgame.OrthogonalDecomposition.Imports",
+  "source_sha256": "f0c7b4ed8d13dae15a7aa36e87a62cda827f70f7a9700d34d6c9f2fee37a1d13",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

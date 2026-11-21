@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.CompactOrbits.NilpotentOrbits.NilpotentHypotheses.AevalProdLinearFactors",
+  "source_sha256": "e9fa1b3842509ac319bbfd44eb9c80157009a784aaecac19767275db076e1b0b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove the redundant List.map_congr_left and rfl after convert now closes the goal; theorem statements unchanged."
+}

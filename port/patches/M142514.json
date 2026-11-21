@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.GlobalGaussLaws.DerOneAbs",
+  "source_sha256": "7182b958ed6916fc990ea14411893c11784efa8eda1bbb1a43875a8d91205ade",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specify the summand explicitly for ENNReal.le_tsum to resolve elaboration; theorem statement unchanged."
+}

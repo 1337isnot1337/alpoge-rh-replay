@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.LatticeBasics.EulerA",
+  "source_sha256": "001545389729c96307569545c952cc7ffc0e6bf41c51c8c4d2a6fac8833b64df",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.FrameEstimates.CoefSumA",
+  "source_sha256": "36354e25167087274e8274b13fdedfd547b252d89f5c3bb17a129ca35b40758f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

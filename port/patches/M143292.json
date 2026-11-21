@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.FrameEstimates.FourierInjA",
+  "source_sha256": "b82e5b3032cf2cf5ae00e9c9f12ac7af0c97551dbd271027533419a680f59944",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass the explicit group type to the completeness instance theorem; theorem statements unchanged."
+}

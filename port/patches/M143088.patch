@@ -1,0 +1,11 @@
+--- a/src/Development/WeilBound/RepresentationTheoryGL/UnitaryDualProof/TwistedPieces/FiniteDimensionalDescent/ClosedOrbitPieces/FrobeniusSections/RqLift.lean
++++ b/src/Development/WeilBound/RepresentationTheoryGL/UnitaryDualProof/TwistedPieces/FiniteDimensionalDescent/ClosedOrbitPieces/FrobeniusSections/RqLift.lean
+@@ -90,7 +90,7 @@
+     isPrincipalIdealRing_pi _ (fun I => by
+       have := I.isMaximal
+       letI : Field (A ⧸ I.asIdeal) := Ideal.Quotient.field _
+-      exact EuclideanDomain.to_principal_ideal_domain)
++      exact EuclideanDomain.instIsPrincipalIdealRing)
+   have hPI' : IsPrincipalIdealRing ((∀ I : MaximalSpectrum A, A ⧸ I.asIdeal)[X]) :=
+     IsPrincipalIdealRing.of_surjective (Polynomial.piEquiv (fun I : MaximalSpectrum A => A ⧸ I.asIdeal)).symm
+       (Polynomial.piEquiv _).symm.surjective

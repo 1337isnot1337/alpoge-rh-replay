@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.CartanFactorisation.SpanOrbitStab",
+  "source_sha256": "36b9d1a22cf40eb311f3dc28451876c3b55ce009ad3e1214aea139abcc647ea1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
