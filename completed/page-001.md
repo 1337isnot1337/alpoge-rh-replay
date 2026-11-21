@@ -171,6 +171,7 @@
 | M000317 | P0237 | `CompanionTheory.AutomorphicTheory.PlaceSeparation.ArtinA` | volunteer-build-reviewed |
 | M000318 | P0392 | `CompanionTheory.AutomorphicTheory.PlaceSeparation.ArtinKer` | volunteer-build-reviewed |
 | M000321 | P1472 | `CompanionTheory.AutomorphicTheory.ProductFormulaTheory.CuspidalExhaustion.CuspEmbP` | volunteer-build-reviewed |
+| M000326 | P1856 | `CompanionTheory.AutomorphicTheory.ProductFormulaTheory.CuspidalExhaustion.IrreducibleAdmissibleGL` | volunteer-build-reviewed |
 | M000329 | P1501 | `CompanionTheory.AutomorphicTheory.ProductFormulaTheory.CuspidalExhaustion.JuxtDefs` | volunteer-build-reviewed |
 | M000337 | P1501 | `CompanionTheory.AutomorphicTheory.ProductFormulaTheory.CuspidalExhaustion.MidDefs` | volunteer-build-reviewed |
 | M000340 | P1501 | `CompanionTheory.AutomorphicTheory.ProductFormulaTheory.CuspidalExhaustion.NotAboveTransGenSelf` | volunteer-build-reviewed |
@@ -186,6 +187,7 @@
 | M000396 | P1217 | `CompanionTheory.AutomorphicTheory.SegmentRepresentations.JacquetShalikaBounds.lift_levelP_alt₂` | volunteer-build-reviewed |
 | M000397 | P1244 | `CompanionTheory.AutomorphicTheory.SegmentRepresentations.RapidDecayFamilies.MirabolicColumnBlock` | volunteer-build-reviewed |
 | M000402 | P1169 | `CompanionTheory.AutomorphicTheory.SiegelWeilFiniteness.AdelicCovolumeFinite` | wave-reused |
+| M000419 | P1856 | `CompanionTheory.AutomorphicTheory.ThetaDilations.BoundedA` | volunteer-build-reviewed |
 | M000420 | P1244 | `CompanionTheory.AutomorphicTheory.ThetaDilations.ContinuousPm` | volunteer-build-reviewed |
 | M000421 | P1761 | `CompanionTheory.AutomorphicTheory.ThetaDilations.FstarDil` | build-observed |
 | M000422 | P1001 | `CompanionTheory.AutomorphicTheory.ThetaDilations.HfSubSmul` | build-observed |
@@ -241,6 +243,7 @@
 | M000529 | P0172 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.MapStdPoly` | volunteer-build-reviewed |
 | M000530 | P0237 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.SmallPI` | volunteer-build-reviewed |
 | M000531 | P0237 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.Transfer` | volunteer-build-reviewed |
+| M000532 | P1856 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AnalyticIntertwiners.AdmissibleVectors` | volunteer-build-reviewed |
 | M000534 | P1501 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AnalyticIntertwiners.CasimirRealScalar` | volunteer-build-reviewed |
 | M000537 | P1472 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AnalyticIntertwiners.GelfandCentralHolds` | volunteer-build-reviewed |
 | M000551 | P0001 | `CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.FundamentalDomainCusps.CompactIntegralBoundedByQuotientNorm` | volunteer-build-reviewed |
@@ -399,6 +402,3 @@
 | M000891 | P0582 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsGramFiberMeasures` | build-observed |
 | M000892 | P0615 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsGramFiberMeasuresStatement` | build-observed |
 | M000893 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsIsCharAF` | volunteer-build-reviewed |
-| M000894 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsNormOneUnitShift` | volunteer-build-reviewed |
-| M000895 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsNormOneUnitShiftStatement` | volunteer-build-reviewed |
-| M000896 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsRealFlowAdelicUnits` | volunteer-build-reviewed |

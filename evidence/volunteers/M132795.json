@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M132795"
+  ],
+  "started_utc": "2026-11-21T01:52:50.413366+00:00",
+  "ended_utc": "2026-11-21T01:53:05.729844+00:00",
+  "elapsed_seconds": 15.3,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 63244524,
+    "peak_child_rss_kib": 7253088
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GlobalProofs.LocalFieldTopologyNormBallsStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "048e6dada65608d1d0ab0a73e5c7b7ce83df5eceba388b5a68b2ae9c2fdacd61",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.InstBorelGL",
+    "Development.AutomorphicSpectrum.Proofs.GlobalProofs.LocalFieldTopologyNormBalls"
+  ],
+  "objects": {
+    "M132795": "6f742d61f5a470aa1a5065b29a1c03d380163667833fe45c136bac6f57a683b6"
+  },
+  "bundle_sha256": "b254d1ce3f3d99736c45e27000b8862f3f74551a6416c720b42d2230d79d3ae0",
+  "packet": "M132795",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10281#issuecomment-7055469086",
+  "reviewed_utc": "2026-11-21T06:16:22.613974+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

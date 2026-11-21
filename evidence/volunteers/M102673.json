@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M102673"
+  ],
+  "started_utc": "2026-11-21T01:53:15.928782+00:00",
+  "ended_utc": "2026-11-21T01:53:29.516128+00:00",
+  "elapsed_seconds": 13.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 62308664,
+    "peak_child_rss_kib": 7268880
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.ClFin:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4feb7183646261bc5566628d25401dc569c4bb13295a30ceddbbca770ecbf417",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.ResMapBijective",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.IsLocalHom"
+  ],
+  "objects": {
+    "M102673": "e868cf86b43f165a09e64efef815ffb2edceea27779d1bf2320abc179e4b6486"
+  },
+  "bundle_sha256": "37dc5c04367f00e4501abff2eb5107f23bd2039195997236b0b8cbe56139e194",
+  "packet": "M102673",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10307#issuecomment-7055472509",
+  "reviewed_utc": "2026-11-21T06:10:11.332829+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

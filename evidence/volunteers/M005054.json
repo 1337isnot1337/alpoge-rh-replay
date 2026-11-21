@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M005054"
+  ],
+  "started_utc": "2026-11-21T01:58:03.769269+00:00",
+  "ended_utc": "2026-11-21T01:58:26.775259+00:00",
+  "elapsed_seconds": 23.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6895080
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsSmulMemOfMemSpanLattice:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "930032298de0596431b854a3db7c2abe5202cd7dc11e84252a5d2e4ce8ccf389",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.MemSaturatedOrderIsoSubspaceSpanSymmApply"
+  ],
+  "objects": {
+    "M005054": "25a3ce6fed2c281c47346877fa44fa94e6676522a848b429dc06e983b7ccb551"
+  },
+  "bundle_sha256": "5a061f82dcff021db31581abccdd38703e01e3cb3930af5c8a0478ebe472ab4c",
+  "packet": "M005054",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10394#issuecomment-7055531921",
+  "reviewed_utc": "2026-11-21T06:17:46.533631+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

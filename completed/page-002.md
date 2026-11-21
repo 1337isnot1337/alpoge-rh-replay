@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M000894 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsNormOneUnitShift` | volunteer-build-reviewed |
+| M000895 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsNormOneUnitShiftStatement` | volunteer-build-reviewed |
+| M000896 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsRealFlowAdelicUnits` | volunteer-build-reviewed |
 | M000897 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsRealFlowAdelicUnitsStatement` | volunteer-build-reviewed |
 | M000898 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsSizeMulLe` | volunteer-build-reviewed |
 | M000900 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsStandardLocalMeasuresStatement` | volunteer-build-reviewed |
@@ -256,6 +259,7 @@
 | M001282 | P1323 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ThetaAverageExpectedCountStatement` | build-observed |
 | M001283 | P1349 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ThetaAverageIntegralFormula` | build-observed |
 | M001284 | P1372 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ThetaAverageIntegralFormulaStatement` | build-observed |
+| M001285 | P1856 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ThetaCountCompactFinite` | volunteer-build-reviewed |
 | M001287 | P1643 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ThetaFunctionAutomorphy` | build-observed |
 | M001288 | P1665 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ThetaFunctionAutomorphyStatement` | build-observed |
 | M001289 | P1787 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ThetaFunctionCuspExpansion` | build-observed |
@@ -379,6 +383,7 @@
 | M001615 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.DominantMonoidElementsAreAntitonePowersStatement` | volunteer-build-reviewed |
 | M001617 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.DualClassInvolutiveImports` | volunteer-build-reviewed |
 | M001620 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.EntryMulSubOne` | volunteer-build-reviewed |
+| M001622 | P0094 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExistenceOfSandwichStatement` | volunteer-build-reviewed |
 | M001623 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExistenceOfSandwichStatementStatement` | volunteer-build-reviewed |
 | M001625 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExistsCocycleOfMapToDegreeOneTerm` | volunteer-build-reviewed |
 | M001626 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExistsFactor` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M001651 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorIntegralityStatement` | volunteer-build-reviewed |
 | M001656 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FamilyFiltration` | volunteer-build-reviewed |
 | M001657 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FamilyInduction` | volunteer-build-reviewed |
-| M001674 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FiniteTypeAlgebraCommonEigencharacter` | volunteer-build-reviewed |
-| M001675 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FiniteTypeAlgebraCommonEigencharacterStatement` | volunteer-build-reviewed |
-| M001677 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FinrankAdjoinLeAdd` | volunteer-build-reviewed |
-| M001678 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FinrankRangePowConvex` | volunteer-build-reviewed |
-| M001680 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FixedVectorStatementStatement` | volunteer-build-reviewed |

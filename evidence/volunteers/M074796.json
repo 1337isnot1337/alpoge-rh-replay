@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M074796"
+  ],
+  "started_utc": "2026-11-21T01:54:02.462124+00:00",
+  "ended_utc": "2026-11-21T01:58:29.294992+00:00",
+  "elapsed_seconds": 266.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 3803104
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TsumSetIntegralProdEqZeroOfInnerStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "bf3e61d0bd52a1252f5c981041608c46ab2f9d952ebb15d41694592f96309043",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TsumSetIntegralProdEqZeroOfInner"
+  ],
+  "objects": {
+    "M074796": "437bf8b3bf775e526e91ce80552c49c570e37b0a5e4f4d05e03890cf6eec0cf9"
+  },
+  "bundle_sha256": "991d6bca3a6e51d0b086d0b697a47ce63b6a1b70ac07811939c0aaa79b7e9ced",
+  "packet": "M074796",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10363#issuecomment-7055539324",
+  "reviewed_utc": "2026-11-21T06:00:20.317486+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M031264"
+  ],
+  "started_utc": "2026-11-21T01:53:33.890402+00:00",
+  "ended_utc": "2026-11-21T01:53:44.456026+00:00",
+  "elapsed_seconds": 10.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 6832372
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteGaloisFractionRingOfIsFractionRingStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "948976a36a6ac8b601e070bb2fe701254febe99d96090037fec126a604152302",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteGaloisFractionRingOfIsFractionRing"
+  ],
+  "objects": {
+    "M031264": "c5cd85ff64a22e0f43db0ffb23c3023ab299305a06d6a36bf08f887253e7c5cc"
+  },
+  "bundle_sha256": "c9ba87612c470c0806b90f7c64a002e1ca287140f6139ca8ba3f59c5b832fc81",
+  "packet": "M031264",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10293#issuecomment-7055473988",
+  "reviewed_utc": "2026-11-21T06:02:32.131585+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

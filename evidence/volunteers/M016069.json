@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M016069"
+  ],
+  "started_utc": "2026-11-21T01:58:52.809650+00:00",
+  "ended_utc": "2026-11-21T01:59:00.511752+00:00",
+  "elapsed_seconds": 7.7,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 5771496
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.AwayMapBijectiveOfRangeEqSubalgebraStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "104673272547e73600f4933d765bbf2e4dfd2c8f7306e670ea2bdd9137cd373f",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AwayMapBijectiveOfRangeEqSubalgebra"
+  ],
+  "objects": {
+    "M016069": "7831048c80e71a586863a2968f0d74876201bcb6e3a5f584c5fe0e8a5991bb77"
+  },
+  "bundle_sha256": "3e35af4eda18ce37d10d608f4d10069450fa79520109dc75b74e914a0326f7bc",
+  "packet": "M016069",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10444#issuecomment-7055539792",
+  "reviewed_utc": "2026-11-21T06:04:08.517172+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

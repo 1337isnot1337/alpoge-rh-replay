@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M020108"
+  ],
+  "started_utc": "2026-11-21T02:03:00.467667+00:00",
+  "ended_utc": "2026-11-21T02:03:09.786166+00:00",
+  "elapsed_seconds": 9.3,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6726112
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.CubicalFunctionOfHomomorphismStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f08489d21f0883c745c718acb51a71b3ea295dae9fab6199c4d281ea4d9ae68e",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CubicalFunctionOfHomomorphism"
+  ],
+  "objects": {
+    "M020108": "6de4885415f6379932f254e502b00415628b489c7fb6f68f0d85e85376bd2a71"
+  },
+  "bundle_sha256": "18910dc8dc33c76fe4417c9cc824d18ebdeb60c8ac8bd2446da60af035e61049",
+  "packet": "M020108",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10558#issuecomment-7055596726",
+  "reviewed_utc": "2026-11-21T06:05:41.726445+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

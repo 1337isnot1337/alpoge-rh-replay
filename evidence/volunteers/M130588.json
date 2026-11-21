@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M130588"
+  ],
+  "started_utc": "2026-11-21T02:10:41.722258+00:00",
+  "ended_utc": "2026-11-21T02:11:14.162974+00:00",
+  "elapsed_seconds": 32.4,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16367524,
+    "peak_child_rss_kib": 7224604
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.FrameNearGenericPointStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5968c6de0b3190fce2a3d072c15b55ce0eeafd503e38327fcc935e1ee40851f2",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.CoordsAt",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.EtaleLocalizationAtPrimeTensorOfLowHeight",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ExistsGenOfIsVBOne",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsCptGen",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsGenericFlag",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsLineGenOn",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LevelSectionsExactKernelLocusOpen",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.FrameNearGenericPoint",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GenMapGermEqGenMapGerm"
+  ],
+  "objects": {
+    "M130588": "6a022bc514aaed25fb03e6a9883707823f6e2ae6a7bf2bef22cdefd7fa970e19"
+  },
+  "bundle_sha256": "ce74e103c0536f348208d9551fbd97855c268e829d4fb2c70ee44f04bc79e2a0",
+  "packet": "M130588",
+  "contributor": "walkingsophie",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10616#issuecomment-7055770349",
+  "reviewed_utc": "2026-11-21T06:17:48.063172+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

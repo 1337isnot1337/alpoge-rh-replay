@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M020367"
+  ],
+  "started_utc": "2026-11-21T02:07:54.739275+00:00",
+  "ended_utc": "2026-11-21T02:08:04.352237+00:00",
+  "elapsed_seconds": 9.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6748628
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicIrreducibleOfNotDvdDiscr:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e08a5366cf5cf3dcacc869a42cf30dfbebffce22af5946e5ab3108c3e95b6afd",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.Chebotarev.CyclotomicIrreducibleOfForallIsUnramifiedAt"
+  ],
+  "objects": {
+    "M020367": "65d2de31bbbae1b19d6fe8e053d2fba0e3d2c3ddbf982c1fc53152c4016273ca"
+  },
+  "bundle_sha256": "f104e0b3dbe8f97038bcdb2d24f47c46f1dc638aba1044ad44be295d34188788",
+  "packet": "M020367",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10625#issuecomment-7055664325",
+  "reviewed_utc": "2026-11-21T06:02:05.258066+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}
