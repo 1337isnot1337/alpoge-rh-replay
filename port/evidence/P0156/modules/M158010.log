@@ -1,0 +1,16 @@
+Module: M158010 Formalism.RealPlaceAnalysis.LminorPos
+Started: 2026-11-21T22:51:08.589265+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RealPlaceAnalysis.LminorPos:olean"]
+Pinned source SHA-256: c448ff273861bcbdc088158a70046e46ef0bad08b4d9c3ce69cd8c5788508031
+Compiled source SHA-256: c448ff273861bcbdc088158a70046e46ef0bad08b4d9c3ce69cd8c5788508031
+
+⚠ [18250/18252] Built Formalism.RealPlaceAnalysis.Complexify (2.8s)
+warning: src/Formalism/RealPlaceAnalysis/Complexify.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RealPlaceAnalysis.Complexify:irArts
+warning: src/Formalism/RealPlaceAnalysis/Complexify.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.RealPlaceAnalysis.LminorPos (2.6s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.64
+Timed out: False

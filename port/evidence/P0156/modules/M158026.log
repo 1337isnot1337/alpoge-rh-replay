@@ -1,0 +1,32 @@
+Module: M158026 Formalism.RealPlaceAnalysis.RealPlaceTaylor.HalfSumRootsStandard
+Started: 2026-11-21T22:51:33.052733+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RealPlaceAnalysis.RealPlaceTaylor.HalfSumRootsStandard:olean"]
+Pinned source SHA-256: 1888d263cc08f546227246aa477b674aa79e19f1e67c7234c89a1818e8f96c4f
+Compiled source SHA-256: 1888d263cc08f546227246aa477b674aa79e19f1e67c7234c89a1818e8f96c4f
+
+⚠ [18250/18252] Replayed Formalism.RealPlaceAnalysis.StatementA
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RealPlaceAnalysis.StatementA:irArts
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.RealPlaceAnalysis.RealPlaceTaylor.HalfSumRootsStandard (3.1s)
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/HalfSumRootsStandard.lean:60:20: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h1, h2, hab, Ne.symm hab]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/HalfSumRootsStandard.lean:63:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/HalfSumRootsStandard.lean:60:63: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/HalfSumRootsStandard.lean:63:25: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.335
+Timed out: False

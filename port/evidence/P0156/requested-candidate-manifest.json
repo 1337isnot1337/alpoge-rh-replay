@@ -1,0 +1,42 @@
+{
+  "M157820": {
+    "source_sha256": "397d784dc54488930e83bc19cf3b5556f3fd668ade7ce7698bde7c9e6791976f",
+    "compiled_source_sha256": "b4991fed269b3ce182e6f011783859dfb373d45d6e98ff87b00456025386b578",
+    "patch_sha256": "d050f3ee4fa64931db1fb8544edf815f84f317cb2e48fe876db0b7502edc2d45"
+  },
+  "M157829": {
+    "source_sha256": "7631adfb2ca63d8a5653c6cdb87e7195f38fad63e2b877b9bd3344ccc9ce6f1d",
+    "compiled_source_sha256": "3ce773c0243c193db3131796deb2d83b273d79c83eb03ffb33522d01bd8df510",
+    "patch_sha256": "c834bd1b035db43a657afb24795042e5d2a428eb5045d7156dec69299e1d57d4"
+  },
+  "M157895": {
+    "source_sha256": "08abad9b909ae0bc0143f83b1296f5c3c517ff1037356baa9ed336c835ddbe66",
+    "compiled_source_sha256": "b013047fb6f74bc9b691de0a2858f93a1fe1fcacb5be44112ff2a6354da39362",
+    "patch_sha256": "8f2e428f086229d46ff193b65b3b338cb9afef7657635090e401c94d1172fa8b"
+  },
+  "M157898": {
+    "source_sha256": "f9aa8e958b0e3151e79d94bb3f2cab8345e02ab3ac8d9ddef1e43570241eec40",
+    "compiled_source_sha256": "d78b1faf1c6d30071afdc031c1feb2d739949fe466ca063ace35e3196146874a",
+    "patch_sha256": "c521ddebed0a2e0da70b560e3db2906ec375296159bb80b1240daf07e5027962"
+  },
+  "M157908": {
+    "source_sha256": "03536da8f5b9a61e7708f81ac3a34a2ed1dc73f03f921dfcc6bb86901a0d395b",
+    "compiled_source_sha256": "8a3966b2cc48b9e0eeb475144cac169cfa5bc27152dbda4305f1d1cd3e8bbad1",
+    "patch_sha256": "3646051fd451004c3d3a925eff051dba89603dd6ba7eefbd19e055ec4aa67f96"
+  },
+  "M158019": {
+    "source_sha256": "d6c602772eee6c38a957206f839285aa955cd64da6e270705d365cfd2f8d8f93",
+    "compiled_source_sha256": "263f63b2a2f93b2fb4d0fd64a5d62872ecc52ac55a2bad03bd3c2ac181308b22",
+    "patch_sha256": "4d8bcc292a39439dc8f826b509ac7383d832562507fa18cd64ef82a4a29febec"
+  },
+  "M158063": {
+    "source_sha256": "eb81d5d70b6b79d0d45e3b636fb7c51361a7a7e4812705327e4e9d001f401ef3",
+    "compiled_source_sha256": "b9cb031fa006071090264f032c8861a7c3b92c7a2a18763452fa02ea3599a335",
+    "patch_sha256": "c1a5b992a09499255dd17362a7e7a7481963c8637db86d1d2097b72fffececae"
+  },
+  "M158068": {
+    "source_sha256": "e295ed23d055e6354f6adda7973803bb21897eb5c4016e7fa8c5ac2ba2c850a9",
+    "compiled_source_sha256": "95e1a92f64c1c7a797c25f99a4c1ec7c1359771d696c25a668cf22d07019536f",
+    "patch_sha256": "69b3288298263ee4bfe03af192a4ce2f2e691c261e376494c16444704b8ade66"
+  }
+}

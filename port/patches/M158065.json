@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ResultantValuation.ResultantAdjugateProofs.Laplace",
+  "source_sha256": "a71f7b5f9c32e8ae1c4ba27ea180ab4df1c36c0e405819b84023cdb60a9b9abb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

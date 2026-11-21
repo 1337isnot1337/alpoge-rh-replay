@@ -1,0 +1,26 @@
+Module: M158044 Formalism.RealPlaceAnalysis.RealPlaceTaylor.SumOfSquaresIdentityHolds
+Started: 2026-11-21T22:52:02.144847+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RealPlaceAnalysis.RealPlaceTaylor.SumOfSquaresIdentityHolds:olean"]
+Pinned source SHA-256: af1f1f9df7ed39b09ed7a7a20f6bf277b06f0933960e85f3f02c76460f15e44a
+Compiled source SHA-256: af1f1f9df7ed39b09ed7a7a20f6bf277b06f0933960e85f3f02c76460f15e44a
+
+⚠ [18250/18252] Replayed Formalism.RealPlaceAnalysis.StatementA
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RealPlaceAnalysis.StatementA:irArts
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.RealPlaceAnalysis.RealPlaceTaylor.SumOfSquaresIdentityHolds (2.8s)
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/SumOfSquaresIdentityHolds.lean:38:56: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.033
+Timed out: False

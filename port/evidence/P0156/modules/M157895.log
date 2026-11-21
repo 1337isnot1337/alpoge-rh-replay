@@ -1,0 +1,185 @@
+Module: M157895 Formalism.PolynomialDimension.MultinomialDepth.DiagLaplacianDivPowMemSqrtFockLattice
+Started: 2026-11-21T22:48:30.774735+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PolynomialDimension.MultinomialDepth.DiagLaplacianDivPowMemSqrtFockLattice:olean"]
+Pinned source SHA-256: 08abad9b909ae0bc0143f83b1296f5c3c517ff1037356baa9ed336c835ddbe66
+Compiled source SHA-256: b013047fb6f74bc9b691de0a2858f93a1fe1fcacb5be44112ff2a6354da39362
+
+⚠ [18250/18252] Built Formalism.PolynomialDimension.StatementHar (3.2s)
+warning: src/Formalism/PolynomialDimension/StatementHar.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PolynomialDimension.StatementHar:irArts
+warning: src/Formalism/PolynomialDimension/StatementHar.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PolynomialDimension.MultinomialDepth.DiagLaplacianDivPowMemSqrtFockLattice (7.6s)
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:122:50: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:131:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.diagLaplacian_apply`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:137:55: `MvPolynomial.monomial_mul` has been deprecated: Use `MvPolynomial.monomial_mul_monomial` instead
+
+Hint: Replace the deprecated name:
+  monomial_mul_̲m̲o̲n̲o̲m̲i̲a̲l̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:134:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.diagMul_pow_apply`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:151:18: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:144:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.coeff_diagLaplacian_pow`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:167:13: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:165:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.diagMul_commute`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:173:13: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:170:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.diagLaplacian_commute`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:184:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.pairingDivPow_eq`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:190:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.laplacianDivPow_eq`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:198:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.descFactorial_cast_eq`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:202:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.zero_mem_fockLattice`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:208:6: `MvPolynomial.coeff_add` has been deprecated: Use `AddMonoidAlgebra.coeff_add` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] (x y : AddMonoidAlgebra R M), (x + y).coeff = x.coeff + y.coeff
+instead of
+  ∀ {R : Type u} {σ : Type u_1} [inst : CommSemiring R] (m : σ →₀ ℕ) (p q : MvPolynomial σ R),
+    (p + q).coeff m = p.coeff m + q.coeff m
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coeff_add` to `AddMonoidAlgebra.coeff_add x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:205:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.add_mem_fockLattice`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:211:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.smul_mem_fockLattice`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:267:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.linearSubst_pairing`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:285:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.pderiv_aeval_eq_sum_chain_rule`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:324:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.laplacian_apply'`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:354:40: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:354:62: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:367:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.zero_mem_translateLattice`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:370:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.add_mem_translateLattice`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:376:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.smul_mem_translateLattice`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 15.107
+Timed out: False

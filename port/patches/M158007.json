@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.RealPlaceAnalysis.FockPairGl",
+  "source_sha256": "78f113e12b44d0172f0165e5b3abb33f6f30eec8333e4d7a758d21f7c9454391",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

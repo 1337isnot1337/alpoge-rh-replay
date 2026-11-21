@@ -1,0 +1,55 @@
+Module: M158002 Formalism.RankGapBounds.RankGapProofs.WeightedMeanData
+Started: 2026-11-21T22:50:29.017922+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RankGapBounds.RankGapProofs.WeightedMeanData:olean"]
+Pinned source SHA-256: 09a43ceb6bb6c35febfb8d280b2e83c8d923733bd9152640789ded33153462f8
+Compiled source SHA-256: 09a43ceb6bb6c35febfb8d280b2e83c8d923733bd9152640789ded33153462f8
+
+⚠ [18250/18252] Built Formalism.RankGapBounds.MeanBoundSecondForm (2.8s)
+warning: src/Formalism/RankGapBounds/MeanBoundSecondForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RankGapBounds.MeanBoundSecondForm:irArts
+warning: src/Formalism/RankGapBounds/MeanBoundSecondForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.RankGapBounds.RankGapProofs.WeightedMeanData (3.3s)
+warning: src/Formalism/RankGapBounds/RankGapProofs/WeightedMeanData.lean:149:0: automatically included section variable(s) unused in theorem `Formalism.RankGapBounds.WeightedMeanData.Data.nT_nonneg`:
+  [Fintype U0]
+  [(u0 : U0) → Fintype (W u0)]
+  [∀ (u0 : U0), Nonempty (W u0)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype U0] [(u0 : U0) → Fintype (W u0)] [∀ (u0 : U0), Nonempty (W u0)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/RankGapBounds/RankGapProofs/WeightedMeanData.lean:152:0: automatically included section variable(s) unused in theorem `Formalism.RankGapBounds.WeightedMeanData.Data.sumA_nonneg`:
+  [Fintype U0]
+  [(u0 : U0) → Fintype (W u0)]
+  [∀ (u0 : U0), Nonempty (W u0)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype U0] [(u0 : U0) → Fintype (W u0)] [∀ (u0 : U0), Nonempty (W u0)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/RankGapBounds/RankGapProofs/WeightedMeanData.lean:156:0: automatically included section variable(s) unused in theorem `Formalism.RankGapBounds.WeightedMeanData.Data.sum_aT_mul`:
+  [Fintype U0]
+  [(u0 : U0) → Fintype (W u0)]
+  [∀ (u0 : U0), Nonempty (W u0)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype U0] [(u0 : U0) → Fintype (W u0)] [∀ (u0 : U0), Nonempty (W u0)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/RankGapBounds/RankGapProofs/WeightedMeanData.lean:159:0: automatically included section variable(s) unused in theorem `Formalism.RankGapBounds.WeightedMeanData.Data.uF_nonneg`:
+  [Fintype U0]
+  [Fintype Top]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype U0] [Fintype Top] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/RankGapBounds/RankGapProofs/WeightedMeanData.lean:170:0: automatically included section variable(s) unused in theorem `Formalism.RankGapBounds.WeightedMeanData.Data.key_identity`:
+  [Fintype U0]
+  [(u0 : U0) → Fintype (W u0)]
+  [∀ (u0 : U0), Nonempty (W u0)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype U0] [(u0 : U0) → Fintype (W u0)] [∀ (u0 : U0), Nonempty (W u0)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.293
+Timed out: False

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PolynomialDimension.DigitClassSize",
+  "source_sha256": "72de03f41130bd0d7065458908dcd3b65a495b2d50c06c752903fe719d8a6440",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

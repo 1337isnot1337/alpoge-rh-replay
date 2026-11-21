@@ -1,0 +1,42 @@
+Module: M158065 Formalism.ResultantValuation.ResultantAdjugateProofs.Laplace
+Started: 2026-11-21T22:53:12.020016+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.ResultantValuation.ResultantAdjugateProofs.Laplace:olean"]
+Pinned source SHA-256: a71f7b5f9c32e8ae1c4ba27ea180ab4df1c36c0e405819b84023cdb60a9b9abb
+Compiled source SHA-256: a71f7b5f9c32e8ae1c4ba27ea180ab4df1c36c0e405819b84023cdb60a9b9abb
+
+⚠ [18250/18252] Built Formalism.ResultantValuation.ResultantConjugate (2.5s)
+warning: src/Formalism/ResultantValuation/ResultantConjugate.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.ResultantValuation.ResultantConjugate:irArts
+warning: src/Formalism/ResultantValuation/ResultantConjugate.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.ResultantValuation.ResultantAdjugateProofs.Laplace (3.0s)
+warning: src/Formalism/ResultantValuation/ResultantAdjugateProofs/Laplace.lean:90:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/ResultantValuation/ResultantAdjugateProofs/Laplace.lean:90:2: Unused tactic linter: there are no goals left for `all_goals rfl`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/ResultantValuation/ResultantAdjugateProofs/Laplace.lean:103:57: `Fin.lt_iff_val_lt_val` has been deprecated: Use `Fin.lt_def` instead
+
+Hint: Replace the deprecated name:
+  F̵i̵n̵.̵l̵t̵_̵i̵f̵f̵_̵v̵a̵l̵_̵l̵t̵_̵v̵a̵l̵F̲i̲n̲.̲l̲t̲_̲d̲e̲f̲
+warning: src/Formalism/ResultantValuation/ResultantAdjugateProofs/Laplace.lean:103:80: `Fin.coe_castAdd` has been deprecated: Use `Fin.val_castAdd` instead
+
+Hint: Replace the deprecated name:
+  F̵i̵n̵.̵c̵o̵e̵_̵c̵a̵s̵t̵A̵d̵d̵F̲i̲n̲.̲v̲a̲l̲_̲c̲a̲s̲t̲A̲d̲d̲
+warning: src/Formalism/ResultantValuation/ResultantAdjugateProofs/Laplace.lean:104:4: `Fin.coe_natAdd` has been deprecated: Use `Fin.val_natAdd` instead
+
+Hint: Replace the deprecated name:
+  F̵i̵n̵.̵c̵o̵e̵_̵n̵a̵t̵A̵d̵d̵F̲i̲n̲.̲v̲a̲l̲_̲n̲a̲t̲A̲d̲d̲
+warning: src/Formalism/ResultantValuation/ResultantAdjugateProofs/Laplace.lean:104:87: This simp argument is unused:
+  mul_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fin.prod_univ_add, Finset.prod_mul_distrib, Fin.lt_iff_val_lt_val, Fin.coe_castAdd, Fin.coe_natAdd,
+    add_lt_add_iff_left, hlt, hnlt, ↓reduceIte, Finset.prod_const_one, one_mul, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.793
+Timed out: False

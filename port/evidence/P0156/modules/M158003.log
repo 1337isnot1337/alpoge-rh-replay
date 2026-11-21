@@ -1,0 +1,23 @@
+Module: M158003 Formalism.RankGapBounds.TheoremALocOfLemmaA
+Started: 2026-11-21T22:50:39.313356+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RankGapBounds.TheoremALocOfLemmaA:olean"]
+Pinned source SHA-256: b950e37e7a1d932412fd9a042b4ca8589d1f7a9a29e5cd53f93844b55dc09142
+Compiled source SHA-256: b950e37e7a1d932412fd9a042b4ca8589d1f7a9a29e5cd53f93844b55dc09142
+
+⚠ [18250/18252] Built Formalism.SatakeDualWeyl.Statement (4.0s)
+warning: src/Formalism/SatakeDualWeyl/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SatakeDualWeyl/Statement.lean:23:0: automatically included section variable(s) unused in theorem `Formalism.UG.cT_one`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18251/18252] Ran Formalism.SatakeDualWeyl.Statement:irArts
+warning: src/Formalism/SatakeDualWeyl/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.RankGapBounds.TheoremALocOfLemmaA (3.3s)
+warning: src/Formalism/RankGapBounds/TheoremALocOfLemmaA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 12.499
+Timed out: False

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PieriBlockIdeals.ContentDistanceBounds",
+  "source_sha256": "9b428ec2cbc24fee6fe549f2f032ce4abdda66e55a9b85ffe35c8a6fdb948fef",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

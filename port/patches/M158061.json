@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ResultantValuation.PrimePairDisjointBB",
+  "source_sha256": "f6854c3890cb97b028de39eda8bf962568ec79723f9322032dac7f8e14e92a5f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

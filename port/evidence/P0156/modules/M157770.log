@@ -1,0 +1,16 @@
+Module: M157770 Formalism.PeriodIntegrals.WfSubst
+Started: 2026-11-21T22:34:14.738406+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.WfSubst:olean"]
+Pinned source SHA-256: 7f4d4eb3b9a8baf3b09ac5155900ab2a579cbb877ef7cdc70e9130a834974288
+Compiled source SHA-256: 7f4d4eb3b9a8baf3b09ac5155900ab2a579cbb877ef7cdc70e9130a834974288
+
+⚠ [18250/18252] Replayed Formalism.PeriodIntegrals.ExpIntW
+warning: src/Formalism/PeriodIntegrals/ExpIntW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PeriodIntegrals.ExpIntW:irArts
+warning: src/Formalism/PeriodIntegrals/ExpIntW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.PeriodIntegrals.WfSubst (2.3s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.531
+Timed out: False

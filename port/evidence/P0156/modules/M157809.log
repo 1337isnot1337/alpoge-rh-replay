@@ -1,0 +1,35 @@
+Module: M157809 Formalism.PieriBlockIdeals.PieriColumnMinors.ContentLinkageHolds
+Started: 2026-11-21T22:34:39.747463+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PieriBlockIdeals.PieriColumnMinors.ContentLinkageHolds:olean"]
+Pinned source SHA-256: 5d1af3f44a13c0e3d1eb1b3a994f11d386764475ebcc3a8d20c7840700c0bf65
+Compiled source SHA-256: 5d1af3f44a13c0e3d1eb1b3a994f11d386764475ebcc3a8d20c7840700c0bf65
+
+⚠ [18250/18252] Replayed Formalism.PieriBlockIdeals.Statement
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PieriBlockIdeals.Statement:irArts
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PieriBlockIdeals.PieriColumnMinors.ContentLinkageHolds (2.6s)
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/ContentLinkageHolds.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/ContentLinkageHolds.lean:25:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/ContentLinkageHolds.lean:38:13: This simp argument is unused:
+  map_intCast
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ψ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/ContentLinkageHolds.lean:43:26: Unused tactic linter: `try` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.781
+Timed out: False

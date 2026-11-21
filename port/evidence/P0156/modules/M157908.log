@@ -1,0 +1,16 @@
+Module: M157908 Formalism.PolynomialDimension.MultinomialDepth.PairingAdjointLaplacianHolds
+Started: 2026-11-21T22:49:19.801448+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PolynomialDimension.MultinomialDepth.PairingAdjointLaplacianHolds:olean"]
+Pinned source SHA-256: 03536da8f5b9a61e7708f81ac3a34a2ed1dc73f03f921dfcc6bb86901a0d395b
+Compiled source SHA-256: 8a3966b2cc48b9e0eeb475144cac169cfa5bc27152dbda4305f1d1cd3e8bbad1
+
+⚠ [18250/18252] Replayed Formalism.PolynomialDimension.StatementHar
+warning: src/Formalism/PolynomialDimension/StatementHar.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PolynomialDimension.StatementHar:irArts
+warning: src/Formalism/PolynomialDimension/StatementHar.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.PolynomialDimension.MultinomialDepth.PairingAdjointLaplacianHolds (3.1s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.333
+Timed out: False

@@ -1,0 +1,16 @@
+Module: M158053 Formalism.RealPlaceAnalysis.StatementD
+Started: 2026-11-21T22:52:22.997742+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RealPlaceAnalysis.StatementD:olean"]
+Pinned source SHA-256: 77d8dc774ab04c06454bfc8be0d2bf453eba2c834e1d439da2baa5aee44599d2
+Compiled source SHA-256: 77d8dc774ab04c06454bfc8be0d2bf453eba2c834e1d439da2baa5aee44599d2
+
+⚠ [18250/18252] Replayed Formalism.RealPlaceAnalysis.StatementA
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RealPlaceAnalysis.StatementA:irArts
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.RealPlaceAnalysis.StatementD (2.6s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.882
+Timed out: False

@@ -1,0 +1,26 @@
+Module: M157998 Formalism.RankGapBounds.RankGapProofs.PmModulusFacts
+Started: 2026-11-21T22:50:12.887764+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RankGapBounds.RankGapProofs.PmModulusFacts:olean"]
+Pinned source SHA-256: 091ea52dd47a21c139fcde10cf947a294efe689a040a2e23bc87a0162d26fc05
+Compiled source SHA-256: 091ea52dd47a21c139fcde10cf947a294efe689a040a2e23bc87a0162d26fc05
+
+⚠ [18250/18252] Replayed Formalism.RankGapBounds.RandomSubsetCounterexample
+warning: src/Formalism/RankGapBounds/RandomSubsetCounterexample.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RankGapBounds.RandomSubsetCounterexample:irArts
+warning: src/Formalism/RankGapBounds/RandomSubsetCounterexample.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.RankGapBounds.RankGapProofs.PmModulusFacts (4.6s)
+warning: src/Formalism/RankGapBounds/RankGapProofs/PmModulusFacts.lean:79:4: Unused tactic linter: `exact (div_le_div_iff_of_pos hb hd).mpr h` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/RankGapBounds/RankGapProofs/PmModulusFacts.lean:80:4: Unused tactic linter: `exact (div_le_div_iff hb hd).mpr h` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/RankGapBounds/RankGapProofs/PmModulusFacts.lean:178:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.841
+Timed out: False

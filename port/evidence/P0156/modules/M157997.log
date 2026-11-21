@@ -1,0 +1,16 @@
+Module: M157997 Formalism.RankGapBounds.RankGapProofs.FourNotDvdOddSqAddOne
+Started: 2026-11-21T22:50:05.551660+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RankGapBounds.RankGapProofs.FourNotDvdOddSqAddOne:olean"]
+Pinned source SHA-256: 8288ef1ffa5472a903b111c4e0f5712c5886d9365632caa8984cbcdab7f29f1d
+Compiled source SHA-256: 8288ef1ffa5472a903b111c4e0f5712c5886d9365632caa8984cbcdab7f29f1d
+
+⚠ [18250/18252] Replayed Formalism.RankGapBounds.RandomSubsetCounterexample
+warning: src/Formalism/RankGapBounds/RandomSubsetCounterexample.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RankGapBounds.RandomSubsetCounterexample:irArts
+warning: src/Formalism/RankGapBounds/RandomSubsetCounterexample.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.RankGapBounds.RankGapProofs.FourNotDvdOddSqAddOne (3.1s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.334
+Timed out: False

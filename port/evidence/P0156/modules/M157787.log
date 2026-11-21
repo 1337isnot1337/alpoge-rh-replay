@@ -1,0 +1,17 @@
+Module: M157787 Formalism.PieriBlockIdeals.ContentDistanceBounds
+Started: 2026-11-21T22:34:21.270467+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PieriBlockIdeals.ContentDistanceBounds:olean"]
+Pinned source SHA-256: 9b428ec2cbc24fee6fe549f2f032ce4abdda66e55a9b85ffe35c8a6fdb948fef
+Compiled source SHA-256: 9b428ec2cbc24fee6fe549f2f032ce4abdda66e55a9b85ffe35c8a6fdb948fef
+
+⚠ [18250/18252] Built Formalism.PieriBlockIdeals.Statement (2.7s)
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PieriBlockIdeals.Statement:irArts
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PieriBlockIdeals.ContentDistanceBounds (2.5s)
+warning: src/Formalism/PieriBlockIdeals/ContentDistanceBounds.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.387
+Timed out: False

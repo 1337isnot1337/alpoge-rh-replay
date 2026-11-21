@@ -1,0 +1,17 @@
+Module: M157636 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.LocDensSAInt
+Started: 2026-11-21T22:32:14.773311+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.LocDensSAInt:olean"]
+Pinned source SHA-256: 1b7e71a9ab6ee4402303a6e65054a10b0ccbd3618c1ade5c5b5c61b604401bb3
+Compiled source SHA-256: 1b7e71a9ab6ee4402303a6e65054a10b0ccbd3618c1ade5c5b5c61b604401bb3
+
+⚠ [18250/18252] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.LocDensSAChar (3.3s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/LocDensSAChar.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.LocDensSAChar:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/LocDensSAChar.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.LocDensSAInt (2.9s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/LocDensSAInt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.893
+Timed out: False

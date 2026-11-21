@@ -1,0 +1,40 @@
+Module: M157705 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeylProduct.WeylProd
+Started: 2026-11-21T22:32:35.007898+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeylProduct.WeylProd:olean"]
+Pinned source SHA-256: eb64710f540c660da7a52093633386a985ef8b9c9a9120b3b8771311f74589dd
+Compiled source SHA-256: eb64710f540c660da7a52093633386a985ef8b9c9a9120b3b8771311f74589dd
+
+⚠ [18250/18252] Built Formalism.PeriodIntegrals.WeylProd (2.5s)
+warning: src/Formalism/PeriodIntegrals/WeylProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PeriodIntegrals.WeylProd:irArts
+warning: src/Formalism/PeriodIntegrals/WeylProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeylProduct.WeylProd (2.6s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeylProduct/WeylProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeylProduct/WeylProd.lean:38:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeylProduct/WeylProd.lean:53:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeylProduct/WeylProd.lean:53:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeylProduct/WeylProd.lean:62:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeylProduct/WeylProd.lean:62:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.287
+Timed out: False

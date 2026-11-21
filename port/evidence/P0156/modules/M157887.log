@@ -1,0 +1,21 @@
+Module: M157887 Formalism.PolynomialDimension.DigitClassSize
+Started: 2026-11-21T22:48:20.832601+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PolynomialDimension.DigitClassSize:olean"]
+Pinned source SHA-256: 72de03f41130bd0d7065458908dcd3b65a495b2d50c06c752903fe719d8a6440
+Compiled source SHA-256: 72de03f41130bd0d7065458908dcd3b65a495b2d50c06c752903fe719d8a6440
+
+⚠ [18250/18254] Replayed Formalism.PolynomialDimension.WeylDim
+warning: src/Formalism/PolynomialDimension/WeylDim.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18254] Ran Formalism.PolynomialDimension.WeylDim:irArts
+warning: src/Formalism/PolynomialDimension/WeylDim.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Built Formalism.SubspaceCounting.Statement (2.8s)
+warning: src/Formalism/SubspaceCounting/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18254] Ran Formalism.SubspaceCounting.Statement:irArts
+warning: src/Formalism/SubspaceCounting/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built Formalism.PolynomialDimension.DigitClassSize (2.9s)
+warning: src/Formalism/PolynomialDimension/DigitClassSize.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18254 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.941
+Timed out: False

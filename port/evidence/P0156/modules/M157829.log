@@ -1,0 +1,35 @@
+Module: M157829 Formalism.PieriBlockIdeals.PieriColumnMinors.LabelSumNeedsLeFalse
+Started: 2026-11-21T22:47:03.793694+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PieriBlockIdeals.PieriColumnMinors.LabelSumNeedsLeFalse:olean"]
+Pinned source SHA-256: 7631adfb2ca63d8a5653c6cdb87e7195f38fad63e2b877b9bd3344ccc9ce6f1d
+Compiled source SHA-256: 3ce773c0243c193db3131796deb2d83b273d79c83eb03ffb33522d01bd8df510
+
+⚠ [18250/18252] Replayed Formalism.PieriBlockIdeals.Statement
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PieriBlockIdeals.Statement:irArts
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PieriBlockIdeals.PieriColumnMinors.LabelSumNeedsLeFalse (9.7s)
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/LabelSumNeedsLeFalse.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/LabelSumNeedsLeFalse.lean:20:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [Nat.padicValNat_def]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/LabelSumNeedsLeFalse.lean:210:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/LabelSumNeedsLeFalse.lean:238:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/LabelSumNeedsLeFalse.lean:254:71: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 19.021
+Timed out: False

@@ -1,0 +1,17 @@
+Module: M157844 Formalism.PieriBlockIdeals.PieriColumnMinors.MinorValuationBoundHolds
+Started: 2026-11-21T22:47:22.816334+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PieriBlockIdeals.PieriColumnMinors.MinorValuationBoundHolds:olean"]
+Pinned source SHA-256: a00d02931ebba28d887509e7295965a62d79eea5e82ac4eb0a58e5baa95f057a
+Compiled source SHA-256: a00d02931ebba28d887509e7295965a62d79eea5e82ac4eb0a58e5baa95f057a
+
+⚠ [18250/18252] Built Formalism.PieriBlockIdeals.StatementLW (2.6s)
+warning: src/Formalism/PieriBlockIdeals/StatementLW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PieriBlockIdeals.StatementLW:irArts
+warning: src/Formalism/PieriBlockIdeals/StatementLW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PieriBlockIdeals.PieriColumnMinors.MinorValuationBoundHolds (2.8s)
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/MinorValuationBoundHolds.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.64
+Timed out: False

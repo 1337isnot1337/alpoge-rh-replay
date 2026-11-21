@@ -1,0 +1,16 @@
+Module: M157995 Formalism.RankGapBounds.RankGapProofs.CardLargePrimeFactorsLeOneHolds
+Started: 2026-11-21T22:49:57.764749+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RankGapBounds.RankGapProofs.CardLargePrimeFactorsLeOneHolds:olean"]
+Pinned source SHA-256: 37b0b886e7b366b36813820aa8af399d53ceaa5b00d47d7b8beceaaf60ec29e9
+Compiled source SHA-256: 37b0b886e7b366b36813820aa8af399d53ceaa5b00d47d7b8beceaaf60ec29e9
+
+⚠ [18250/18252] Replayed Formalism.RankGapBounds.LargePrimeFactor
+warning: src/Formalism/RankGapBounds/LargePrimeFactor.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RankGapBounds.LargePrimeFactor:irArts
+warning: src/Formalism/RankGapBounds/LargePrimeFactor.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.RankGapBounds.RankGapProofs.CardLargePrimeFactorsLeOneHolds (3.6s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.785
+Timed out: False

@@ -1,0 +1,16 @@
+Module: M158063 Formalism.ResultantValuation.ResultantAdjugateProofs.Adjugate
+Started: 2026-11-21T22:52:53.489319+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.ResultantValuation.ResultantAdjugateProofs.Adjugate:olean"]
+Pinned source SHA-256: eb81d5d70b6b79d0d45e3b636fb7c51361a7a7e4812705327e4e9d001f401ef3
+Compiled source SHA-256: b9cb031fa006071090264f032c8861a7c3b92c7a2a18763452fa02ea3599a335
+
+⚠ [18250/18252] Built Formalism.ResultantValuation.KoszulSecondDifferential (2.0s)
+warning: src/Formalism/ResultantValuation/KoszulSecondDifferential.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.ResultantValuation.KoszulSecondDifferential:irArts
+warning: src/Formalism/ResultantValuation/KoszulSecondDifferential.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.ResultantValuation.ResultantAdjugateProofs.Adjugate (2.0s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.191
+Timed out: False

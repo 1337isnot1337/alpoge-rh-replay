@@ -1,0 +1,24 @@
+Module: M157766 Formalism.PeriodIntegrals.WeylForK
+Started: 2026-11-21T22:33:58.264780+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.WeylForK:olean"]
+Pinned source SHA-256: 8b0a5748e76065c2b01ad650b37353fce114bf5ef83e3e4dfcdb448a0e95552d
+Compiled source SHA-256: 8b0a5748e76065c2b01ad650b37353fce114bf5ef83e3e4dfcdb448a0e95552d
+
+⚠ [18250/18252] Built Formalism.PeriodIntegrals.UpqRep (3.2s)
+warning: src/Formalism/PeriodIntegrals/UpqRep.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UpqRep.lean:141:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18251/18252] Ran Formalism.PeriodIntegrals.UpqRep:irArts
+warning: src/Formalism/PeriodIntegrals/UpqRep.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.PeriodIntegrals.WeylForK (2.5s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.891
+Timed out: False

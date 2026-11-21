@@ -1,0 +1,41 @@
+Module: M157707 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittCoefficients.CoeffEqOfSubMem
+Started: 2026-11-21T22:32:44.296333+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittCoefficients.CoeffEqOfSubMem:olean"]
+Pinned source SHA-256: 66803996324bfa00e6aab311e95be2326f15fd8b07b2b112ef09286ea2b766c7
+Compiled source SHA-256: 66803996324bfa00e6aab311e95be2326f15fd8b07b2b112ef09286ea2b766c7
+
+⚠ [18250/18252] Built Formalism.PeriodIntegrals.ArtSch (2.7s)
+warning: src/Formalism/PeriodIntegrals/ArtSch.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/ArtSch.lean:17:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/ArtSch.lean:18:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/ArtSch.lean:17:10: Unused tactic linter: `norm_cast` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/ArtSch.lean:18:10: Unused tactic linter: `simp` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18251/18252] Ran Formalism.PeriodIntegrals.ArtSch:irArts
+warning: src/Formalism/PeriodIntegrals/ArtSch.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittCoefficients.CoeffEqOfSubMem (2.9s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittCoefficients/CoeffEqOfSubMem.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittCoefficients/CoeffEqOfSubMem.lean:14:6: Unused tactic linter: `exact WittVector.mem_ker_truncate x` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittCoefficients/CoeffEqOfSubMem.lean:15:6: Unused tactic linter: `exact WittVector.mem_ker_truncate` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittCoefficients/CoeffEqOfSubMem.lean:112:8: automatically included section variable(s) unused in theorem `_private.Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittCoefficients.CoeffEqOfSubMem.0.PI.ArtSch.WittLiftWork.eq_iterate_verschiebung_mk_shift`:
+  [CharP k p]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharP k p] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.841
+Timed out: False

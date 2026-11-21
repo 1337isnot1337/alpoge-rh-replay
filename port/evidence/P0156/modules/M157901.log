@@ -1,0 +1,172 @@
+Module: M157901 Formalism.PolynomialDimension.MultinomialDepth.HarmonicDecompositionHolds
+Started: 2026-11-21T22:49:10.249489+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PolynomialDimension.MultinomialDepth.HarmonicDecompositionHolds:olean"]
+Pinned source SHA-256: d58ccbf0e15764753cf2cbf4be5288506a539e8edbccd69d8477df23ab3a5f97
+Compiled source SHA-256: d58ccbf0e15764753cf2cbf4be5288506a539e8edbccd69d8477df23ab3a5f97
+
+⚠ [18250/18252] Replayed Formalism.PolynomialDimension.StatementHar
+warning: src/Formalism/PolynomialDimension/StatementHar.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PolynomialDimension.StatementHar:irArts
+warning: src/Formalism/PolynomialDimension/StatementHar.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PolynomialDimension.MultinomialDepth.HarmonicDecompositionHolds (5.3s)
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:43:14: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [yDeg]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:45:14: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [xDeg]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:55:8: `MvPolynomial.monomial_mul` has been deprecated: Use `MvPolynomial.monomial_mul_monomial` instead
+
+Hint: Replace the deprecated name:
+  monomial_mul_̲m̲o̲n̲o̲m̲i̲a̲l̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:65:8: `MvPolynomial.monomial_mul` has been deprecated: Use `MvPolynomial.monomial_mul_monomial` instead
+
+Hint: Replace the deprecated name:
+  monomial_mul_̲m̲o̲n̲o̲m̲i̲a̲l̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:166:19: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:172:15: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:172:48: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:195:75: `MvPolynomial.monomial_mul` has been deprecated: Use `MvPolynomial.monomial_mul_monomial` instead
+
+Hint: Replace the deprecated name:
+  monomial_mul_̲m̲o̲n̲o̲m̲i̲a̲l̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:266:18: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:318:2: Unused tactic linter: `all_goals` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:336:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:336:2: Unused tactic linter: there are no goals left for `all_goals (congr 1; ring)`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:348:40: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:387:34: `Module.End.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : One F} [self : IsOneApplyEqSelf F]
+    (x : α), 1 x = x
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (x : M), 1 x = x
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:394:41: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:520:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:522:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:532:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:531:14: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:531:4: Unused tactic linter: there are no goals left for `all_goals ring`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:553:55: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:575:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:575:28: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:632:26: This simp argument is unused:
+  Finsupp.fst_sumFinsuppEquivProdFinsupp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [xDeg, yDeg, Finsupp.snd_sumFinsuppEquivProdFinsupp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:633:10: This simp argument is unused:
+  Finsupp.snd_sumFinsuppEquivProdFinsupp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [xDeg, yDeg, Finsupp.fst_sumFinsuppEquivProdFinsupp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:654:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.548
+Timed out: False

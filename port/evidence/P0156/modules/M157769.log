@@ -1,0 +1,16 @@
+Module: M157769 Formalism.PeriodIntegrals.WfRing
+Started: 2026-11-21T22:34:08.156679+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.WfRing:olean"]
+Pinned source SHA-256: 320d66671ec815b0201ae291d3ac880f7b643765fb007821deea2c8e7460d8d4
+Compiled source SHA-256: 320d66671ec815b0201ae291d3ac880f7b643765fb007821deea2c8e7460d8d4
+
+⚠ [18250/18252] Replayed Formalism.PeriodIntegrals.ExpIntW
+warning: src/Formalism/PeriodIntegrals/ExpIntW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PeriodIntegrals.ExpIntW:irArts
+warning: src/Formalism/PeriodIntegrals/ExpIntW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.PeriodIntegrals.WfRing (2.4s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.581
+Timed out: False

@@ -1,0 +1,16 @@
+Module: M157897 Formalism.PolynomialDimension.MultinomialDepth.ExistsNonzeroExchangedMinorHolds
+Started: 2026-11-21T22:48:45.884389+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PolynomialDimension.MultinomialDepth.ExistsNonzeroExchangedMinorHolds:olean"]
+Pinned source SHA-256: 3ce8124b8fb832ab23d7e125583b8d902fafafcdd38090bbf0de449feaea8fd0
+Compiled source SHA-256: 3ce8124b8fb832ab23d7e125583b8d902fafafcdd38090bbf0de449feaea8fd0
+
+⚠ [18250/18252] Built Formalism.PolynomialDimension.FrameSum (2.9s)
+warning: src/Formalism/PolynomialDimension/FrameSum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PolynomialDimension.FrameSum:irArts
+warning: src/Formalism/PolynomialDimension/FrameSum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.PolynomialDimension.MultinomialDepth.ExistsNonzeroExchangedMinorHolds (2.6s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.792
+Timed out: False
