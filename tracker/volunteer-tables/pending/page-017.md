@@ -4,6 +4,7 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@gilad12-coder](https://github.com/gilad12-coder) | [M122327](https://github.com/rohanarun/alpoge-rh-replay/issues/20156#issuecomment-7061482741) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M051587](https://github.com/rohanarun/alpoge-rh-replay/issues/20157#issuecomment-7061656099) | Pending review |
 | [@zediir](https://github.com/zediir) | [M076081](https://github.com/rohanarun/alpoge-rh-replay/issues/20158#issuecomment-7061488052) | Pending review |
 | [@maugomez77](https://github.com/maugomez77) | [M083384](https://github.com/rohanarun/alpoge-rh-replay/issues/20159#issuecomment-7061626253) | Pending review |
@@ -253,4 +254,3 @@
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M008587](https://github.com/rohanarun/alpoge-rh-replay/issues/20507#issuecomment-7061878848) | Pending review |
 | [@zediir](https://github.com/zediir) | [M129179](https://github.com/rohanarun/alpoge-rh-replay/issues/20508#issuecomment-7061760729) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M012880](https://github.com/rohanarun/alpoge-rh-replay/issues/20509#issuecomment-7061865943) | Pending review |
-| [@zediir](https://github.com/zediir) | [M138208](https://github.com/rohanarun/alpoge-rh-replay/issues/20510#issuecomment-7061762476) | Pending review |

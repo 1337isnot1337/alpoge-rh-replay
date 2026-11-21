@@ -4,6 +4,7 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@dhudakk](https://github.com/dhudakk) | [M006315](https://github.com/rohanarun/alpoge-rh-replay/issues/18109#issuecomment-7060047934) | Pending review |
 | [@amrehan](https://github.com/amrehan) | [M154932](https://github.com/rohanarun/alpoge-rh-replay/issues/18110#issuecomment-7060045109) | Pending review |
 | [@amrehan](https://github.com/amrehan) | [M163668](https://github.com/rohanarun/alpoge-rh-replay/issues/18111#issuecomment-7060048722) | Pending review |
 | [@amrehan](https://github.com/amrehan) | [M157741](https://github.com/rohanarun/alpoge-rh-replay/issues/18112#issuecomment-7060049395) | Pending review |
@@ -253,4 +254,3 @@
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M031628](https://github.com/rohanarun/alpoge-rh-replay/issues/18431#issuecomment-7060308251) | Pending review |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M068209](https://github.com/rohanarun/alpoge-rh-replay/issues/18432#issuecomment-7060309353) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M164023](https://github.com/rohanarun/alpoge-rh-replay/issues/18433#issuecomment-7060310815) | Pending review |
-| [@dhudakk](https://github.com/dhudakk) | [M146285](https://github.com/rohanarun/alpoge-rh-replay/issues/18434#issuecomment-7060317327) | Pending review |
