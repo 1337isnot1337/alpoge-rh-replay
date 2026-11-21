@@ -1,11 +1,14 @@
 """Pick and reserve porting work (see PORTING.md).
 
   python3 tracker/port.py next [--limit 10]   # shallowest open packets with no open Port issue
+  python3 tracker/port.py next --include-partial  # also show packets with some ready modules
   python3 tracker/port.py show P0123          # modules, depth, and port status of one packet
-  python3 tracker/port.py claim P0123         # open a 'Port P0123' issue with the port label
+  python3 tracker/port.py show P0123 --ready-only  # unported modules whose imports are ready
+  python3 tracker/port.py claim P0123 P0124   # reserve independent packets with one issue scan
 
 A packet is done when every module has port/patches/<ID>.json. Ports go in import-depth
-order, so `next` only offers packets whose project imports are already ported.
+order. By default, `next` offers packets whose project imports are already ported;
+`--include-partial` also identifies ready members of otherwise blocked packets.
 """
 import argparse
 import json
@@ -89,12 +92,34 @@ def ready(packet_rows, done):
     return True
 
 
+def ready_members(packet_rows, done):
+    """Unported members buildable from landed imports and other ready packet members."""
+    known = set(done)
+    remaining = {r['id']: r for r in packet_rows if r['id'] not in done}
+    selected = set()
+    # At least one member leaves remaining on each successful pass.
+    while remaining:
+        available = {mid for mid, row in remaining.items()
+                     if all(dep in known for dep in row['imports'])}
+        if not available:
+            break
+        selected.update(available)
+        known.update(available)
+        for mid in available:
+            del remaining[mid]
+    return [r for r in packet_rows if r['id'] in selected]
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest='command', required=True)
     nxt = sub.add_parser('next'); nxt.add_argument('--limit', type=int, default=10)
+    nxt.add_argument('--include-partial', action='store_true',
+                     help='also list packets with some unported modules ready to build')
     show = sub.add_parser('show'); show.add_argument('packet')
-    claim = sub.add_parser('claim'); claim.add_argument('packet')
+    show.add_argument('--ready-only', action='store_true',
+                      help='show only unported modules whose imports can be satisfied')
+    claim = sub.add_parser('claim'); claim.add_argument('packet', nargs='+', metavar='TASK')
     args = parser.parse_args()
 
     rows = list(tasks.module_rows())
@@ -106,34 +131,60 @@ def main():
         selected = groups.get(args.packet)
         if selected is None:
             selected = [by_id[args.packet]] if args.packet in by_id else []
+        if args.ready_only:
+            selected = ready_members(selected, done)
         for r in sorted(selected, key=lambda r: r['id']):
             state = 'ported' if r['id'] in done else status.get(r['id'], 'untriaged')
             print(r['id'], r['depth'], state, r['module'])
         return
     if args.command == 'claim':
-        if not re.fullmatch(r'P\d{4}|M\d{6}', args.packet) or (args.packet not in groups and args.packet not in by_id):
+        requested = args.packet
+        if any(not re.fullmatch(r'P\d{4}|M\d{6}', target)
+               or (target not in groups and target not in by_id) for target in requested):
             raise SystemExit('Unknown packet or module ID')
-        members = groups[args.packet] if args.packet in groups else [by_id[args.packet]]
-        check_unported(args.packet, members)
-        conflict = reservation_conflict(args.packet, groups, by_id, port_issues())
-        if conflict is not None:
-            raise SystemExit(f'Already reserved by an open Port issue: Port {conflict}')
-        subprocess.run(['gh', 'issue', 'create', '--repo', tasks.repo, '--title', f'Port {args.packet}',
-                        '--label', 'port', '--body', 'Porting this packet to the target in port/target.json. See PORTING.md.'],
-                       check=True)
+        checked = set()
+        for target in requested:
+            conflict = reservation_conflict(target, groups, by_id, checked)
+            if conflict is not None:
+                raise SystemExit(f'Requested tasks overlap: {target} and {conflict}')
+            checked.add(target)
+        for target in requested:
+            members = groups[target] if target in groups else [by_id[target]]
+            check_unported(target, members)
+        taken = port_issues()
+        for target in requested:
+            conflict = reservation_conflict(target, groups, by_id, taken)
+            if conflict is not None:
+                raise SystemExit(f'Already reserved by an open Port issue: Port {conflict}')
+        # Validate every requested reservation before creating the first issue.
+        for target in requested:
+            subprocess.run(['gh', 'issue', 'create', '--repo', tasks.repo, '--title', f'Port {target}',
+                            '--label', 'port', '--body', 'Porting this packet to the target in port/target.json. See PORTING.md.'],
+                           check=True)
         return
     taken = port_issues()
     choices = []
     for packet, members in groups.items():
         if (reservation_conflict(packet, groups, by_id, taken) is not None
-                or all(r['id'] in done for r in members)
-                or not ready(members, done)):
+                or all(r['id'] in done for r in members)):
+            continue
+        partial = not ready(members, done)
+        if partial and not args.include_partial:
+            continue
+        available = ready_members(members, done) if partial else [r for r in members if r['id'] not in done]
+        if not available:
             continue
         depth = max(r['depth'] for r in members)
-        failing = sum(status.get(r['id']) == 'fail' for r in members)
-        choices.append((depth, -failing, packet, len(members), failing))
-    for depth, _, packet, size, failing in sorted(choices)[:args.limit]:
-        print(f'{packet}\tdepth {depth}\t{size} modules\t{failing} known failing on the target')
+        failing = sum(status.get(r['id']) == 'fail' for r in (available if partial else members))
+        remaining = sum(r['id'] not in done for r in members)
+        choices.append((partial, depth, -len(available) if partial else 0,
+                        -failing, packet, len(members), len(available), remaining))
+    for partial, depth, _, negative_failing, packet, size, count, remaining in sorted(choices)[:args.limit]:
+        if partial:
+            print(f'{packet}\tdepth {depth}\t{count}/{remaining} unported modules ready '
+                  f'({size} total)\t{remaining - count} waiting for imports')
+        else:
+            print(f'{packet}\tdepth {depth}\t{size} modules\t{-negative_failing} known failing on the target')
 
 
 if __name__ == '__main__':
