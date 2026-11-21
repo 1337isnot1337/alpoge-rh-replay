@@ -246,7 +246,6 @@
 | [@jwr404](https://github.com/jwr404) | [M064731](https://github.com/rohanarun/alpoge-rh-replay/issues/9407) | Claimed |
 | [@jwr404](https://github.com/jwr404) | [M122198](https://github.com/rohanarun/alpoge-rh-replay/issues/9408) | Claimed |
 | [@jwr404](https://github.com/jwr404) | [M123431](https://github.com/rohanarun/alpoge-rh-replay/issues/9410) | Claimed |
-| [@loremcdmx](https://github.com/loremcdmx) | [P1737](https://github.com/rohanarun/alpoge-rh-replay/issues/9411) | Claimed |
 | [@jwr404](https://github.com/jwr404) | [M150231](https://github.com/rohanarun/alpoge-rh-replay/issues/9415) | Claimed |
 | [@mdpmcc](https://github.com/mdpmcc) | [M120379](https://github.com/rohanarun/alpoge-rh-replay/issues/9449) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M162433](https://github.com/rohanarun/alpoge-rh-replay/issues/9856) | Claimed |
@@ -254,3 +253,4 @@
 | [@TOTOGT](https://github.com/TOTOGT) | [M175177](https://github.com/rohanarun/alpoge-rh-replay/issues/9881) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M175180](https://github.com/rohanarun/alpoge-rh-replay/issues/9884) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M108732](https://github.com/rohanarun/alpoge-rh-replay/issues/10035) | Claimed |
+| [@BenCaunt](https://github.com/BenCaunt) | [M108891](https://github.com/rohanarun/alpoge-rh-replay/issues/10040) | Claimed |
