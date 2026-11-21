@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M078852"
+  ],
+  "started_utc": "2026-11-21T04:00:40.224175+00:00",
+  "ended_utc": "2026-11-21T04:01:08.397578+00:00",
+  "elapsed_seconds": 28.2,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7190672
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FiniteDoubleCosetsDefiniteUnitaryMaximalLevelStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "10222f7b93840a77996ba4a5e3debe980315260f36a165a214e9ebf1c6aaab4d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FiniteDoubleCosetsDefiniteUnitaryMaximalLevel"
+  ],
+  "objects": {
+    "M078852": "729048ef8057fd58e426d8241194230379da76f18fc6d4ccee3f3e0bc4fce090"
+  },
+  "bundle_sha256": "4f4c0ca98a3092fde0b3f1a3477cccdd0ba4454be436eb5c8d78e562e87b1e28",
+  "packet": "M078852",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12283#issuecomment-7056997744",
+  "reviewed_utc": "2026-11-21T06:19:38.866028+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

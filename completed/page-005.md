@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M003682 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsHolPeriods` | build-observed |
+| M003689 | P1531 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsIsoQuotToImOmegaLieOfSplit` | build-observed |
+| M003690 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsKMOne` | volunteer-build-reviewed |
+| M003691 | P0891 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsKSValueOneOfRetraction` | wave-reused |
+| M003693 | P1372 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLifted` | build-observed |
+| M003694 | P1029 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLimDeg` | build-observed |
+| M003698 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLocallyConstantSplitOm` | volunteer-build-reviewed |
+| M003705 | P0393 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsNilDPOfCube` | wave-reused |
+| M003707 | P1974 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPairOfIsTriple` | volunteer-build-reviewed |
+| M003716 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsQuasiRegularSeqOfIsFreeGen` | wave-reused |
+| M003717 | P1372 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsQuasicoherentEigenQuot` | wave-reused |
+| M003718 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsRapidInf` | build-observed |
+| M003720 | P0917 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsRatioCover` | build-observed |
+| M003723 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsRightActFunPull` | volunteer-build-reviewed |
+| M003725 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsSimplicial` | volunteer-build-reviewed |
+| M003726 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsSmoothVector` | build-observed |
+| M003728 | P1559 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsSquareIntegrableIffMemL2` | volunteer-build-reviewed |
 | M003729 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsStrictlySemistableIff` | volunteer-build-reviewed |
 | M003735 | P1394 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsTorsionFreeOfForallExists` | wave-reused |
 | M003736 | P0810 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsTrSelf` | build-observed |
@@ -53,6 +70,7 @@
 | M003880 | P0974 | `Development.AbelianVarietyTheory.Definitions.Divisors.RatBasisLinearIndependentInt` | wave-reused |
 | M003889 | P0865 | `Development.AbelianVarietyTheory.Definitions.Divisors.SRelOneOneIff` | volunteer-build-reviewed |
 | M003890 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.SameDiv` | volunteer-build-reviewed |
+| M003891 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.SameIdIff` | volunteer-build-reviewed |
 | M003894 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.SecClass` | wave-reused |
 | M003895 | P1193 | `Development.AbelianVarietyTheory.Definitions.Divisors.SecJets4` | volunteer-build-reviewed |
 | M003896 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.SecMapApply` | volunteer-build-reviewed |
@@ -90,6 +108,7 @@
 | M003983 | P1193 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.CoeSelfDualLatticeInFrameCoordinatesEq` | build-observed |
 | M003986 | P0002 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.Hat1` | wave-reused |
 | M003987 | P1169 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.MarkSpec` | build-observed |
+| M003988 | P1193 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.NegBaseElementImNegBaseEmbedding` | volunteer-build-reviewed |
 | M003989 | P0549 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.NormConst` | build-observed |
 | M003990 | P0784 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.PermutesRefl` | build-observed |
 | M003992 | P0095 | `Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.SmulBasisMemHatIff` | volunteer-build-reviewed |
@@ -204,8 +223,11 @@
 | M004200 | P0946 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.DualOm` | volunteer-build-reviewed |
 | M004201 | P1298 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.Edge1` | build-observed |
 | M004210 | P0002 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.FiniteResidueFieldPadicInt` | volunteer-build-reviewed |
+| M004213 | P1169 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.FormsAre` | volunteer-build-reviewed |
 | M004215 | P1444 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.FourthPowerTheta` | build-observed |
 | M004216 | P1245 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.FracZeroOfPos` | build-observed |
+| M004219 | P1372 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.GoodGeneric` | volunteer-build-reviewed |
+| M004223 | P0810 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.HeckeCharEqOfLAdicRealisation` | volunteer-build-reviewed |
 | M004224 | P0515 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.HeckeSplitOne` | volunteer-build-reviewed |
 | M004225 | P0731 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.HodgeTateJumpsAtModulesForSign` | volunteer-build-reviewed |
 | M004227 | P0648 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.InstFintypeHodgeBidegree` | build-observed |
@@ -229,6 +251,7 @@
 | M004258 | P1472 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.JetSplitAmb` | volunteer-build-reviewed |
 | M004262 | P0731 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.JumpWindow` | volunteer-build-reviewed |
 | M004263 | P0435 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.KaehlerOneFormsToExtensionDeRhamMulSelf` | build-observed |
+| M004269 | P1193 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.LocSpBot` | volunteer-build-reviewed |
 | M004271 | P1324 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.MZmix` | build-observed |
 | M004276 | P1056 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.ModelsOK` | volunteer-build-reviewed |
 | M004278 | P0946 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.MtType` | volunteer-build-reviewed |
@@ -320,6 +343,7 @@
 | M004475 | P1114 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ColHeightSharpWith` | volunteer-build-reviewed |
 | M004491 | P1531 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.DoubleCollapse` | volunteer-build-reviewed |
 | M004492 | P0678 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.EndOmega` | build-observed |
+| M004493 | P0917 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.EntryAgree` | volunteer-build-reviewed |
 | M004494 | P1029 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.EvalAtOneExtremalMul` | volunteer-build-reviewed |
 | M004498 | P1856 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ExistsDoubleDescentRanksOneThreeFive` | volunteer-build-reviewed |
 | M004499 | P1856 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ExistsFoldr` | volunteer-build-reviewed |
@@ -332,6 +356,7 @@
 | M004557 | P1974 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.LatNotSelfDual` | volunteer-build-reviewed |
 | M004559 | P1974 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.LevAtZ` | volunteer-build-reviewed |
 | M004563 | P1974 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.LineLatAt` | volunteer-build-reviewed |
+| M004566 | P1736 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.MeanPair` | volunteer-build-reviewed |
 | M004576 | P0347 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.NotRedOfMem` | volunteer-build-reviewed |
 | M004593 | P1665 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.PrinInf` | volunteer-build-reviewed |
 | M004603 | P1974 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.RealOf` | volunteer-build-reviewed |
@@ -341,6 +366,7 @@
 | M004620 | P1559 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.SphericalEisensteinSeriesOnGroup` | volunteer-build-reviewed |
 | M004633 | P1245 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.TopFormula` | volunteer-build-reviewed |
 | M004634 | P1272 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.TopLevExists` | volunteer-build-reviewed |
+| M004637 | P1665 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.TransferOn` | volunteer-build-reviewed |
 | M004640 | P1974 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.TwTrans` | volunteer-build-reviewed |
 | M004645 | P1712 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.UpNeNSOfUpNe` | volunteer-build-reviewed |
 | M004649 | P1502 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ValueDoubleExact` | volunteer-build-reviewed |
@@ -362,6 +388,7 @@
 | M004684 | P0917 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.AdmissibleIndexBoundAllPowers` | build-observed |
 | M004685 | P0096 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.AevalRootEqZeroIff` | volunteer-build-reviewed |
 | M004687 | P1143 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.BddGood` | volunteer-build-reviewed |
+| M004690 | P1056 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.BoundAtTwoThreeFamily` | volunteer-build-reviewed |
 | M004691 | P1531 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.BuiltEx` | volunteer-build-reviewed |
 | M004693 | P0731 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.CentralIdemCoeff` | wave-reused |
 | M004701 | P0239 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ConnPhiExtensionGeneratorEqZeta` | wave-reused |
@@ -375,30 +402,3 @@
 | M004718 | P0475 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsAlgebraMapEqRoot` | wave-reused |
 | M004719 | P0347 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsEqAlgebraMapAddPowMul` | wave-reused |
 | M004720 | P0436 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsEqMulAddOfIsAdicComplete` | wave-reused |
-| M004721 | P0917 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsGenIsUnitSub` | wave-reused |
-| M004724 | P1001 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsIterateDerivative` | wave-reused |
-| M004726 | P0295 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsOfLayers` | wave-reused |
-| M004730 | P1856 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsRealisesNeOne` | volunteer-build-reviewed |
-| M004733 | P0946 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExistsSumMonomialAdd` | wave-reused |
-| M004734 | P0731 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ExpStar` | wave-reused |
-| M004736 | P0865 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.FiltrationZeroMembership` | build-observed |
-| M004738 | P1245 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.FinIso` | volunteer-build-reviewed |
-| M004739 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.FiniteCocycles` | wave-reused |
-| M004741 | P0784 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.FinrankMaxUnramifiedSubfieldPadicFinExtPos` | volunteer-build-reviewed |
-| M004742 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.FourierMatch` | volunteer-build-reviewed |
-| M004744 | P0810 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.GaloisSideTwistedSelmerAuxiliaryPrimes` | build-observed |
-| M004745 | P0758 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.GlobalCore` | wave-reused |
-| M004748 | P0838 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.H1MapSubgroup` | build-observed |
-| M004751 | P0917 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.HeckeSplitOne` | build-observed |
-| M004752 | P0946 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.Imports` | build-observed |
-| M004753 | P0436 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ImportsAlt` | volunteer-build-reviewed |
-| M004754 | P0784 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.InjPrimeTo` | wave-reused |
-| M004755 | P0295 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.InstTameDescentExponentDataPadicThree` | wave-reused |
-| M004756 | P1194 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IntFormsSubset` | volunteer-build-reviewed |
-| M004759 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.InvertibleSpanSingleton` | wave-reused |
-| M004761 | P0891 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsAdicCompleteOfPowLe` | wave-reused |
-| M004762 | P0891 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsAuxiliaryHeckeCharacter` | volunteer-build-reviewed |
-| M004763 | P0758 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsCharLab` | wave-reused |
-| M004766 | P1001 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsCuspidalIffCompositions` | build-observed |
-| M004768 | P0865 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsDualDualRep` | build-observed |
-| M004770 | P0550 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsGauss` | build-observed |

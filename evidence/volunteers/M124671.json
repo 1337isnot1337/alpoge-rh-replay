@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M124671"
+  ],
+  "started_utc": "2026-11-21T04:18:04.271083+00:00",
+  "ended_utc": "2026-11-21T04:18:55.740351+00:00",
+  "elapsed_seconds": 51.5,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 26442420,
+    "peak_child_rss_kib": 6732644
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IteratedDerivEqOfEqOnRealSegmentStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "29e3d1a37a87bc33fed6929b106abc5b86b7997ec593c1de674e37cd3e7b729d",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IteratedDerivEqOfEqOnRealSegment"
+  ],
+  "objects": {
+    "M124671": "492ea58d2adda7f2feaae9e88183dcb97b10ad0673b559580d5112aadfa69b87"
+  },
+  "bundle_sha256": "e40d77b22557150384fc3500a1c2171c1798582956fecc06a1bc6134058bd4bf",
+  "packet": "M124671",
+  "contributor": "jwr404",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12523#issuecomment-7057275880",
+  "reviewed_utc": "2026-11-21T06:08:02.247985+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M076715"
+  ],
+  "started_utc": "2026-11-21T03:59:55.349961+00:00",
+  "ended_utc": "2026-11-21T04:02:47.048676+00:00",
+  "elapsed_seconds": 171.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 5244000
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.DiagMatLower:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "832df699fd4d4c1b624396a33b6ccbd95f4d16e48f5ce8541dfce8f3515ee386",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsClosedFlagsIff",
+    "Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.ExistsIsAdaptedOfIsLocalRing"
+  ],
+  "objects": {
+    "M076715": "2a865c0457a5a8841a9f04e91a1ea1cd1816273af9a961dedadfe272c44ffee1"
+  },
+  "bundle_sha256": "ad7a39aab7520d725bce7d3edc87f195e4304442f325bd1d38df82fcd821f58a",
+  "packet": "M076715",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12288#issuecomment-7056999992",
+  "reviewed_utc": "2026-11-21T06:00:57.179786+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

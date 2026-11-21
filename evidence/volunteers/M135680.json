@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M135680"
+  ],
+  "started_utc": "2026-11-21T04:02:16.453671+00:00",
+  "ended_utc": "2026-11-21T04:02:30.776722+00:00",
+  "elapsed_seconds": 14.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6225920
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.EtaleCohomology.EtaleSheaves.LeafOrdInfLocalPf:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "bd2703d4b090493fde2baf77f4cf25c7318af25e6dfda692e49307233aba1fba",
+  "rebuilt_project_modules": [
+    "Development.EtaleCohomology.EtaleSheaves.LeafOrdInfHomPf"
+  ],
+  "objects": {
+    "M135680": "ae1fad0ad34c3bb28df0a28ec3f68d1c9814818a47f0274e9a91ac65c0ba2732"
+  },
+  "bundle_sha256": "8496bdb0588a9eaa094d5ff081e779d4b6f75b068354181d75a2c6ecffba5b30",
+  "packet": "M135680",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12337#issuecomment-7056998312",
+  "reviewed_utc": "2026-11-21T06:07:24.312176+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

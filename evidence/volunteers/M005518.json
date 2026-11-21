@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M005518"
+  ],
+  "started_utc": "2026-11-21T04:16:57.445775+00:00",
+  "ended_utc": "2026-11-21T04:17:07.215073+00:00",
+  "elapsed_seconds": 9.8,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6815528
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsPlaceValuationAut:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e1b81bff6bd92bb63e422116163024938c030380b3e612c123f1d0af2d439328",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HeightOneSpectrumPlacesOverFiniteSet"
+  ],
+  "objects": {
+    "M005518": "8c32e48d1a6e7a1991d7ac4e4a4d319f1e7b1e6f45560189a545732a21aa42b2"
+  },
+  "bundle_sha256": "7dc1f72643ebba1e1f0b7274d96d0f435be9294c69899ce88e4db711e0c8f3a7",
+  "packet": "M005518",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12550#issuecomment-7057157782",
+  "reviewed_utc": "2026-11-21T06:02:43.668893+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

@@ -1,0 +1,42 @@
+{
+  "tasks": [
+    "M119666"
+  ],
+  "started_utc": "2026-11-21T04:14:08.731342+00:00",
+  "ended_utc": "2026-11-21T04:14:59.210575+00:00",
+  "elapsed_seconds": 50.5,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 6906664
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.IsLatticeFamily:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "525782477820736e5480ea5bde7b72f5106be1a7cff134de56dcc7a6a738a7db",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.FlagMinor",
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.LieLatticeData",
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.TrivFlagMod",
+    "GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.InstFintypeSumElim",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.MultihomogeneousIdeals.IsFieldIntersection",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.Bundle",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.IsIntersectionFamily",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.IsSemipositiveOn"
+  ],
+  "objects": {
+    "M119666": "727b3d6afa1bb8afbc670e0d591b2b5eaeb11fcd6000dec3ba79b9766f57b438"
+  },
+  "bundle_sha256": "b26d381cb00a96e8a19a6647744991893a28407eb0e25a1687f61acf7612ec37",
+  "packet": "M119666",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12478#issuecomment-7057136587",
+  "reviewed_utc": "2026-11-21T06:03:46.256342+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}
