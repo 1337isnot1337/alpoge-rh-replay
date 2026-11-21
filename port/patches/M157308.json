@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnitaryClassFiniteness.Development",
+  "source_sha256": "452673fa9349a8b379fb6514e4654b21a765092f1b1479e8e47f387c37a7e655",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

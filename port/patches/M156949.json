@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.StabilizerVolume.LintFibre",
+  "source_sha256": "6f9c4ef0045e14ccc50a95cc5e2ea88d2ef248babaa517bf1c65db125d3127b8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TransferIndices.TauCentralScalar",
+  "source_sha256": "bd3f9fa370cd468340b7d910016334ccd66f01d0d5fab7f0535b601b66e2d44e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

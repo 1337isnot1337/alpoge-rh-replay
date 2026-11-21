@@ -1,0 +1,28 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/UnipotentCost/ZIterB.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/UnipotentCost/ZIterB.lean
+@@ -37,7 +37,7 @@
+ theorem eA_mul_inv {Z : Fin s → Fin s → ℂ} (h : (Matrix.of Z).det ≠ 0) :
+     eA s Z * eA s (invF s Z) = 1 ∧ eA s (invF s Z) * eA s Z = 1 := by
+   have hu : IsUnit (Matrix.of Z).det := isUnit_iff_ne_zero.mpr h
+-  have hinv : Matrix.of (invF s Z) = (Matrix.of Z)⁻¹ := by simp [invF]
++  have hinv : Matrix.of (invF s Z) = (Matrix.of Z)⁻¹ := Matrix.of.apply_symm_apply _
+   constructor <;> ext1 v <;>
+     simp only [ContinuousLinearMap.mul_apply, eA_apply, ContinuousLinearMap.one_apply,
+       Matrix.mulVec_mulVec, hinv, Matrix.mul_nonsing_inv _ hu, Matrix.nonsing_inv_mul _ hu,
+@@ -82,7 +82,7 @@
+     (W : Fin s → Fin s → ℂ) :
+     cF s i Z W = if i.2.2 then (((Matrix.of Z)⁻¹ * Matrix.of W) i.1 i.2.1).re
+       else (((Matrix.of Z)⁻¹ * Matrix.of W) i.1 i.2.1).im := by
+-  have hinv : Matrix.of (invF s Z) = (Matrix.of Z)⁻¹ := by simp [invF]
++  have hinv : Matrix.of (invF s Z) = (Matrix.of Z)⁻¹ := Matrix.of.apply_symm_apply _
+   rw [cF, inverse_eA s h]
+   show lamL s i.1 i.2.1 i.2.2 (eA s (invF s Z)) W = _
+   rw [lamL_apply, eA_apply, hinv]
+@@ -112,6 +112,7 @@
+   rw [inverse_eA s h]
+   exact (eA s).le_opNorm _
+ 
++set_option synthInstance.maxHeartbeats 100000 in
+ theorem cF_bound (n : ℕ) : ∃ K : ℝ, 0 ≤ K ∧ ∀ Z : Fin s → Fin s → ℂ, (Matrix.of Z).det ≠ 0 → ∀ i, ∀ a ≤ n,
+     ‖iteratedFDeriv ℝ a (cF s i) Z‖ ≤ K * (max 1 ‖eA s‖ * max 1 ‖Ring.inverse (eA s Z)‖) ^ (a + 1) := by
+   set U := {Z : Fin s → Fin s → ℂ | (Matrix.of Z).det ≠ 0} with hU_def

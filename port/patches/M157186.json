@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnimodularGenus.Development",
+  "source_sha256": "855964232896af794464f68c6e0e5851bd5fe247a3a545b0cef76e4b617e7669",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use IsFullLattice for both hypotheses. It retains finite generation and spanning, the two fields of IsLattice at the replay pin, and matches the port of UnimodGenus."
+}

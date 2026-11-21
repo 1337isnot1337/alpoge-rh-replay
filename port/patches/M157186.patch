@@ -1,0 +1,17 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/UnimodularGenus/Development.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/UnimodularGenus/Development.lean
+@@ -24,12 +24,12 @@
+ 
+ def UnimodLocal : Prop :=
+   ∀ (E : Type) [Field E] [NumberField E] [StarRing E] (n : ℕ),
+-    ∀ N : Submodule (𝓞 E) (Sp E n), Submodule.IsLattice E N → IsUnimodular (hStd E n) N →
++    ∀ N : Submodule (𝓞 E) (Sp E n), Submodule.IsFullLattice E N → IsUnimodular (hStd E n) N →
+       ∀ p : Ideal (𝓞 E), p.IsMaximal → IsUnimodularAt (hStd E n) p N
+ 
+ def IsomLocStd : Prop :=
+   ∀ (E : Type) [Field E] [NumberField E] [StarRing E] (n : ℕ), IsCMUnram E →
+-    ∀ N : Submodule (𝓞 E) (Sp E n), Submodule.IsLattice E N →
++    ∀ N : Submodule (𝓞 E) (Sp E n), Submodule.IsFullLattice E N →
+       ∀ p : Ideal (𝓞 E), p.IsMaximal → IsUnimodularAt (hStd E n) p N →
+         ∃ g ∈ isom (hStd E n), gmap g (loc (K := E) p (stdLat E n)) = loc (K := E) p N
+ 
