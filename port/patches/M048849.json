@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchrodingerRepUnitary",
+  "source_sha256": "eafc9e2bcddb49e2af29c4d5b0524c1071cab93f9f0963ed1b2742f51361a1b6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

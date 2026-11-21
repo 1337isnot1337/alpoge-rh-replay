@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RatIntOfIsIntegral",
+  "source_sha256": "0318ffeec4c4dbcd8d908398761be3a786956ddf5c28e8e1670025cd518b7648",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the FaithfulSMul-based isIntegral_algebraMap_iff at the same field extension."
+}

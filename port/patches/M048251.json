@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ResidueFieldBaseChangePullbackStatement",
+  "source_sha256": "1adca24fb3a1e4582e215e669f3ca77f374c7afda258bd4bea8d4df1c496c377",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

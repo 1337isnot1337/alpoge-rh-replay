@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.QuotientIntegralEquivariantComplexStatement",
+  "source_sha256": "5914cbb9e251487634d87e3d4da8b51d62a0f540ad871fb02c91564e0b171524",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

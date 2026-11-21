@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/RationalMatrixEigenspaceImageSpannedRational.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/RationalMatrixEigenspaceImageSpannedRational.lean
+@@ -26,7 +26,7 @@
+ theorem repr_coord {K L : Type} [Field K] [Field L] [Algebra K L] {n : ℕ} {s : Type}
+     (b : Module.Basis s K L) (a : Fin n → K) (y : Fin n → L) (j : s) :
+     b.repr (∑ k, algebraMap K L (a k) * y k) j = ∑ k, a k * b.repr (y k) j := by
+-  simp [← Algebra.smul_def, map_sum, Finsupp.finset_sum_apply]
++  simp [← Algebra.smul_def, map_sum, Finsupp.finsetSum_apply]
+ 
+ theorem map_mulVec_comp {K L : Type} [Field K] [Field L] [Algebra K L] {n : ℕ}
+     (M : Matrix (Fin n) (Fin n) K) (x : Fin n → K) :

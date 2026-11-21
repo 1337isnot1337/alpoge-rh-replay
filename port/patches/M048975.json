@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzContinuousOfSeminormBoundsStatement",
+  "source_sha256": "d18bc14df06994e1d57fca87806f1bf5745f20dc0422fa6db210529d00c9f965",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzDoubleIntegralExistsStatement",
+  "source_sha256": "e7d36e2eb1cb2e13d216d48785532801c5b81e8105af5ab1fb983b620b5bbabb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

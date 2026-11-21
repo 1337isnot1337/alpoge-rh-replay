@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RelIndexMapMulRelIndexKer",
+  "source_sha256": "5f2b2d14a6e6f6082f50c8a0b32460a139ced838f93a424dd0c24723f6dd9cd1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
