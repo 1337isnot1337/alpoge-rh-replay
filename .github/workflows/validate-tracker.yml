@@ -1,10 +1,10 @@
 name: Validate tracker data
 on:
   pull_request:
-    paths: ['examples/M115085/**', 'examples/proof-reuse/**', 'tracker/**', 'completed/**', 'evidence/**', 'verify.sh', 'Audit.lean', 'audit/**', 'tests/**', '.github/workflows/validate-tracker.yml']
+    paths: ['examples/M115085/**', 'examples/proof-reuse/**', 'tracker/**', 'port/**', 'completed/**', 'evidence/**', 'verify.sh', 'Audit.lean', 'audit/**', 'tests/**', '.github/workflows/validate-tracker.yml']
   push:
     branches: [main]
-    paths: ['examples/M115085/**', 'examples/proof-reuse/**', 'tracker/**', 'completed/**', 'evidence/**', 'verify.sh', 'Audit.lean', 'audit/**', 'tests/**', '.github/workflows/validate-tracker.yml']
+    paths: ['examples/M115085/**', 'examples/proof-reuse/**', 'tracker/**', 'port/**', 'completed/**', 'evidence/**', 'verify.sh', 'Audit.lean', 'audit/**', 'tests/**', '.github/workflows/validate-tracker.yml']
   workflow_dispatch:
 permissions:
   contents: read
@@ -17,6 +17,8 @@ jobs:
           persist-credentials: false
       - name: Check that the ledger files agree with each other
         run: python3 tracker/validate_tracker.py
+      - name: Check port records against the source ledger and port target
+        run: python3 tracker/validate_ports.py
       - name: Run the tracker unit tests (includes the validator regression tests)
         run: python3 -m unittest discover -s tracker -p 'test_*.py' -v
       - name: Run the proof scanner unit tests
