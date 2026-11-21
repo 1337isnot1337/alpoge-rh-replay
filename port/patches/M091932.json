@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.AffineChangeFundamentalDomainMeanPeriodic",
+  "source_sha256": "ba54973d2002cb8ee58d58669bad920b745ccd92a55934a832bcfb0d4b61314c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Supply almost-everywhere measurability for the translated measure and the quasi-measure-preserving map."
+}
