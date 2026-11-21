@@ -1,0 +1,7 @@
+{
+  "module": "CompanionTheory.SpectralGeometry.CountingDefinitions.AdelicEulerProducts.IsEulerProd",
+  "source_sha256": "ed80c757225192c59eedff933544a99e3edf3669e8522c2211ab7a8106490b61",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
