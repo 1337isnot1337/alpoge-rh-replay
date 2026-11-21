@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M030750 | P0893 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExteriorDerivGlobalOneFormEqSumWedge` | build-observed |
+| M030751 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExteriorDerivGlobalOneFormEqSumWedgeStatement` | build-observed |
 | M030752 | P0867 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExteriorDerivSumWedgeSemilinearPullback` | build-observed |
 | M030753 | P0893 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExteriorDerivSumWedgeSemilinearPullbackStatement` | build-observed |
 | M030754 | P1398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExteriorDerivativeIsDifferential` | build-observed |
@@ -400,5 +402,3 @@
 | M031783 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsuppMapDomainEqZeroAtFilteredStageStatement` | wave-reused |
 | M031784 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstAndFinite` | volunteer-build-reviewed |
 | M031789 | P0552 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernClassTateTwistCocycleUniqueNaturalAddi` | wave-reused |
-| M031790 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernClassTateTwistCocycleUniqueNaturalAddiStatement` | wave-reused |
-| M031793 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernDualNegStatement` | volunteer-build-reviewed |

@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M043042 | P2111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasurableSetIdelesInIdealStatement` | volunteer-build-reviewed |
+| M043043 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasurableSetInterPreimage` | build-observed |
+| M043045 | P1906 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasurableThetaSumOfSchrodinger` | volunteer-build-reviewed |
+| M043047 | P1173 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasurableToGLEntry` | build-observed |
+| M043051 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasureCballZpow` | volunteer-build-reviewed |
+| M043052 | P0922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasureComplNonvanishingSetEqZeroOfDense` | wave-reused |
+| M043053 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasureComplNonvanishingSetEqZeroOfDenseStatement` | wave-reused |
+| M043056 | P1670 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasureFundDomLtTop` | volunteer-build-reviewed |
+| M043057 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasureFundDomLtTopSmul` | volunteer-build-reviewed |
+| M043058 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasureFundamentalDomainProdLtTop` | volunteer-build-reviewed |
+| M043059 | P2111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasureFundamentalDomainProdLtTopStatement` | volunteer-build-reviewed |
+| M043060 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasureHeightShellLeIsotropicFrameQuotient` | volunteer-build-reviewed |
+| M043062 | P0018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasureLeOfLocalLe` | volunteer-build-reviewed |
+| M043064 | P2539 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasurePreservingCurry` | build-observed |
+| M043065 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasurePreservingOfNormSqEqSumComplexCoords` | volunteer-build-reviewed |
+| M043067 | P0399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasurePreservingPolarGaussianProbabilityComplex` | build-observed |
+| M043068 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasurePreservingPolarGaussianProbabilityComplexStatement` | build-observed |
+| M043069 | P2539 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasurePreservingPtSplit` | build-observed |
+| M043073 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasureTranslateShellLeDivModulus` | volunteer-build-reviewed |
+| M043074 | P2038 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasureTranslateShellLeDivModulusStatement` | volunteer-build-reviewed |
+| M043075 | P0352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MellinDerivativeLinearComb` | build-observed |
 | M043076 | P0399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MellinDerivativeLinearCombStatement` | build-observed |
 | M043083 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemAddValuationIntegerRingNormalizedIff` | volunteer-build-reviewed |
 | M043084 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemAdelicLatticeAtFinitePlaceIffInert` | volunteer-build-reviewed |
@@ -150,6 +171,8 @@
 | M043416 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemWeylCellUnitaryGroupLongSimpleReflectionIff` | volunteer-build-reviewed |
 | M043417 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemWeylCellUnitaryGroupLongSimpleReflectionIffStatement` | volunteer-build-reviewed |
 | M043420 | P1060 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemZalgCommuteCompactRep` | volunteer-build-reviewed |
+| M043421 | P1088 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemZalgCommuteCompactRepStatement` | volunteer-build-reviewed |
+| M043422 | P1060 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemZalgCommuteLieAction` | volunteer-build-reviewed |
 | M043428 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemberRowsOfKernelDatumSizes` | volunteer-build-reviewed |
 | M043429 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemberRowsOfKernelDatumSizesStatement` | volunteer-build-reviewed |
 | M043434 | P0018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeromorphicContinuationDistinctConstants` | volunteer-build-reviewed |
@@ -379,26 +402,3 @@
 | M044220 | P1981 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NegIdxOfIsStd` | volunteer-build-reviewed |
 | M044221 | P2038 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NegIdxOfOrth` | volunteer-build-reviewed |
 | M044223 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NegInvRatioIsNormOfNegRatioIsNormStatement` | volunteer-build-reviewed |
-| M044234 | P1377 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NegativeFrameDomainProductOpenPreconnectedStable` | build-observed |
-| M044236 | P1088 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NewPrimesSetDescription` | build-observed |
-| M044237 | P1119 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NewPrimesSetDescriptionStatement` | build-observed |
-| M044238 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilOne` | volunteer-build-reviewed |
-| M044239 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentApproximationSurjective` | volunteer-build-reviewed |
-| M044245 | P0018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentExpInjectiveCommuting` | volunteer-build-reviewed |
-| M044246 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentExpInjectiveCommutingStatement` | volunteer-build-reviewed |
-| M044247 | P0018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentExpLogSeries` | volunteer-build-reviewed |
-| M044248 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentExpLogSeriesStatement` | volunteer-build-reviewed |
-| M044249 | P0018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentMatrixPowDimEqZero` | volunteer-build-reviewed |
-| M044250 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentMatrixPowDimEqZeroStatement` | volunteer-build-reviewed |
-| M044251 | P0018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentTwistCharacterContinuous` | volunteer-build-reviewed |
-| M044252 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilpotentTwistCharacterContinuousStatement` | volunteer-build-reviewed |
-| M044253 | P1621 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NilradicalAdjointExpStable` | build-observed |
-| M044255 | P0399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NmatEqLowMat` | volunteer-build-reviewed |
-| M044256 | P1742 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NmatMulVec` | volunteer-build-reviewed |
-| M044258 | P0018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NoCommonZeroSpreadsConstructibleNbhd` | volunteer-build-reviewed |
-| M044259 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NoCommonZeroSpreadsConstructibleNbhdStatement` | volunteer-build-reviewed |
-| M044262 | P0018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NoOrderLOfCyclotomicIrreducible` | volunteer-build-reviewed |
-| M044263 | P0018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NoSplittingFactorisationOfPderivNeZero` | volunteer-build-reviewed |
-| M044264 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NoSplittingFactorisationOfPderivNeZeroStatement` | volunteer-build-reviewed |
-| M044265 | P0018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NoetherNormalizationFiniteAevalPowAdd` | volunteer-build-reviewed |
-| M044266 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.NoetherNormalizationFiniteAevalPowAddStatement` | volunteer-build-reviewed |

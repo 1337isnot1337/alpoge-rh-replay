@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M033046 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FreeSheafHomValueAtCechNerveSimplexBijectiveStatement` | wave-reused |
+| M033047 | P2536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FrobKerIdealLeAugIdeal` | volunteer-build-reviewed |
 | M033048 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FrobLiftLocalization` | volunteer-build-reviewed |
 | M033050 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FrobPolyOfRecTwist` | volunteer-build-reviewed |
 | M033053 | P1352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FrobQIterateSelf` | build-observed |
@@ -400,5 +402,3 @@
 | M034295 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarMeasureAdditiveAutomorphismScale` | volunteer-build-reviewed |
 | M034296 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarMeasureAdditiveAutomorphismScaleStatement` | volunteer-build-reviewed |
 | M034297 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarMeasureClosedCompactDecomp` | volunteer-build-reviewed |
-| M034298 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarMeasureClosedCompactDecompStatement` | volunteer-build-reviewed |
-| M034302 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarMeasureProductGroups` | volunteer-build-reviewed |

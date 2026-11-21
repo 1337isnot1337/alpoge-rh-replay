@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M014881 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicFixatorEqUnipotentRadicalMulCommonFixator` | volunteer-build-reviewed |
 | M014883 | P1373 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicFormsFiniteStabilisers` | volunteer-build-reviewed |
 | M014886 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicFourierMemSchwartzTotallyRealStatement` | volunteer-build-reviewed |
 | M014889 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicFunctionalVanishing` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M016322 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigEtaleModuleSheafMonoEpiIffSections` | wave-reused |
 | M016323 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigEtaleModuleSheafMonoEpiIffSectionsStatement` | wave-reused |
 | M016339 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveBaseChangeDescendsFilteredColimit` | build-observed |
-| M016340 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveBaseChangeDescendsFilteredColimitStatement` | build-observed |

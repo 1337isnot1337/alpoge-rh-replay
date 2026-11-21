@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005904 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoMulCardPlacesLeCardOverQuadratic` | wave-reused |
 | M005905 | P0348 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoMulCardPlacesLeCardOverQuadraticStatement` | wave-reused |
 | M005906 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoMulIndexSqsInvolution` | wave-reused |
 | M005907 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoMulIndexSqsInvolutionStatement` | wave-reused |
@@ -401,4 +402,3 @@
 | M006326 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthLocalizedModuleEqZeroOfNotAnnihilatorLe` | volunteer-build-reviewed |
 | M006327 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthQuotRangeEqAddValDet` | volunteer-build-reviewed |
 | M006328 | P0099 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthQuotientMaximalIdealPowSmulTop` | volunteer-build-reviewed |
-| M006329 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthQuotientSpanSingleton` | wave-reused |

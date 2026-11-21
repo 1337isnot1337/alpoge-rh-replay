@@ -2,6 +2,10 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M036405 | P0734 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImaginaryLatticeScalingIndexStatement` | build-observed |
+| M036407 | P1793 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImaginaryLineMeasureScalingStatement` | volunteer-build-reviewed |
+| M036410 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsAlt` | volunteer-build-reviewed |
+| M036413 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsBisLast` | volunteer-build-reviewed |
 | M036414 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsBisRest` | volunteer-build-reviewed |
 | M036415 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsBisSide` | volunteer-build-reviewed |
 | M036416 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsBisTail` | volunteer-build-reviewed |
@@ -300,6 +304,7 @@
 | M037145 | P2398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralModelTangentOverInclusion` | build-observed |
 | M037155 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralModuleRankOneRight` | volunteer-build-reviewed |
 | M037156 | P1793 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralModuleRankOneRightStatement` | volunteer-build-reviewed |
+| M037157 | P1147 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralMonicPolynomialOfUnitRelation` | volunteer-build-reviewed |
 | M037158 | P1303 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralMulConjSelf` | volunteer-build-reviewed |
 | M037159 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralMulConvolutionEq` | volunteer-build-reviewed |
 | M037160 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralMulConvolutionEqStatement` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M037413 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvariantExtensionMeasurableContDiffOnChartStatement` | volunteer-build-reviewed |
 | M037421 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvariantFormAbelianVarietyTranslateValueStatement` | volunteer-build-reviewed |
 | M037422 | P2037 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvariantFormFullRankBoxVanishes` | volunteer-build-reviewed |
-| M037423 | P2054 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvariantFormFullRankBoxVanishesStatement` | volunteer-build-reviewed |
-| M037425 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvariantFormFullRankBruhatVanishesStatement` | volunteer-build-reviewed |
-| M037427 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvariantFormNormalizedHeisenbergIntertwinerEq` | volunteer-build-reviewed |
-| M037428 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvariantFormNormalizedHeisenbergIntertwinerEqStatement` | build-observed |
-| M037430 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvariantFunctionRadialLogDependence` | volunteer-build-reviewed |

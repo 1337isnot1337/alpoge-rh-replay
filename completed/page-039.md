@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M038430 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocPart` | volunteer-build-reviewed |
+| M038431 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocSecZero` | volunteer-build-reviewed |
+| M038432 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocSubSB` | volunteer-build-reviewed |
+| M038436 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocalHomCompletedStalkToDvrOverTrait` | volunteer-build-reviewed |
+| M038447 | P0813 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocalizationAwayFib` | build-observed |
+| M038448 | P0841 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocalizationAwayFibStatement` | build-observed |
+| M038450 | P0552 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocalizationOfData` | wave-reused |
+| M038455 | P1478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocallyBlockUnitaryPiFinStatement` | volunteer-build-reviewed |
 | M038456 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocallyConstantAddChar` | volunteer-build-reviewed |
 | M038457 | P0398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocallyConstantApply` | wave-reused |
 | M038459 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocallyConstantFinprodSchwartzBruhatFiniteAdelStatement` | volunteer-build-reviewed |
@@ -15,6 +23,7 @@
 | M038469 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocallyFlatEtaleSheafBiprodStatement` | wave-reused |
 | M038470 | P0398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocallyFlatEtaleSheafIsoAndZero` | wave-reused |
 | M038471 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocallyFlatEtaleSheafIsoAndZeroStatement` | wave-reused |
+| M038473 | P0681 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocallyNoetherianOfIsQProjOverNoeth` | volunteer-build-reviewed |
 | M038475 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocallyNoetherianOfSmoothOverModification` | volunteer-build-reviewed |
 | M038490 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsMetricOfIsOrtho` | volunteer-build-reviewed |
 | M038491 | P2399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsMetricOnLineGram` | volunteer-build-reviewed |
@@ -343,6 +352,7 @@
 | M039308 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsometricPullDetDual` | volunteer-build-reviewed |
 | M039310 | P2110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsometryCommutingHeisenbergActsFibrewise` | volunteer-build-reviewed |
 | M039311 | P2123 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsometryCommutingHeisenbergActsFibrewiseStatement` | volunteer-build-reviewed |
+| M039314 | P1303 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsometryMatchesParahoricLevels` | volunteer-build-reviewed |
 | M039317 | P1478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsometryMatchingLatticesMatchesSphericalOpsStatement` | volunteer-build-reviewed |
 | M039318 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsometryMovedRiggingIs` | volunteer-build-reviewed |
 | M039319 | P2037 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsometryMovedRiggingIsStatement` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M039397 | P2514 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedDerivativeEqHilbertEisensteinJet` | build-observed |
 | M039398 | P2538 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedDerivativeEqHilbertEisensteinJetStatement` | build-observed |
 | M039406 | P1906 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedFDerivApplyEqFoldrDirectionalFderivStatement` | volunteer-build-reviewed |
-| M039408 | P0109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedFDerivIntegralSchwartz` | volunteer-build-reviewed |
-| M039409 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedFDerivIntegralSchwartzStatement` | volunteer-build-reviewed |
-| M039410 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedFDerivWeightedIntegral` | volunteer-build-reviewed |
-| M039412 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedFDerivWordEqCoeff` | build-observed |
-| M039413 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedFderivParametricUniformBound` | volunteer-build-reviewed |
-| M039414 | P0109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedFderivParametricUniformBoundStatement` | volunteer-build-reviewed |
-| M039426 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IwasawaDecompInfiniteIsotropic` | volunteer-build-reviewed |
-| M039427 | P1886 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IwasawaDecompInfiniteIsotropicStatement` | volunteer-build-reviewed |
-| M039428 | P1793 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IwasawaDecompIsotropicVector` | volunteer-build-reviewed |
-| M039431 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IwasawaDecompositionAdelicSL2` | volunteer-build-reviewed |

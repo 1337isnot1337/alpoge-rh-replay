@@ -2,6 +2,9 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M035380 | P2018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFockNormAdjugateSubstSymmLe` | volunteer-build-reviewed |
+| M035381 | P2037 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFockNormAdjugateSubstSymmLeStatement` | volunteer-build-reviewed |
+| M035385 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFormConstMulInnerStatement` | volunteer-build-reviewed |
 | M035386 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFormDecompositionComparison` | volunteer-build-reviewed |
 | M035395 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFormInvariantQuotientDefiniteStatement` | volunteer-build-reviewed |
 | M035396 | P1376 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFormNegOnOrthogonalOfPositiveIndexOne` | build-observed |
@@ -110,6 +113,7 @@
 | M035629 | P1979 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HilbertModelExtremalValuesEqHolomorphicCuspFormsStatement` | volunteer-build-reviewed |
 | M035630 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HilbertPointEqOfOpenCover` | volunteer-build-reviewed |
 | M035632 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HilbertPointGlueOpenCover` | volunteer-build-reviewed |
+| M035633 | P0245 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HilbertPointGlueOpenCoverStatement` | volunteer-build-reviewed |
 | M035634 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HilbertSamuelALogALe` | volunteer-build-reviewed |
 | M035636 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HilbertSamuelComponentShortBasisBoundStatement` | volunteer-build-reviewed |
 | M035637 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HilbertSamuelDegreeRatioLowerBoundRearranged` | volunteer-build-reviewed |
@@ -398,7 +402,3 @@
 | M036394 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImageCochainExists` | wave-reused |
 | M036395 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImageDegEqDel` | volunteer-build-reviewed |
 | M036404 | P0708 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImaginaryLatticeScalingIndex` | build-observed |
-| M036405 | P0734 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImaginaryLatticeScalingIndexStatement` | build-observed |
-| M036407 | P1793 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImaginaryLineMeasureScalingStatement` | volunteer-build-reviewed |
-| M036410 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsAlt` | volunteer-build-reviewed |
-| M036413 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsBisLast` | volunteer-build-reviewed |

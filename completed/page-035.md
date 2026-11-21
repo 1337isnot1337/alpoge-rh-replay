@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M034298 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarMeasureClosedCompactDecompStatement` | volunteer-build-reviewed |
+| M034302 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarMeasureProductGroups` | volunteer-build-reviewed |
 | M034303 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarMeasureProductGroupsStatement` | volunteer-build-reviewed |
 | M034308 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarOIsAddHaar` | volunteer-build-reviewed |
 | M034311 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HaarScalingMultiplicative` | volunteer-build-reviewed |
@@ -80,6 +82,7 @@
 | M034620 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtSobolevContinuousOrbitStatement` | volunteer-build-reviewed |
 | M034621 | P2036 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtThetaTransformHeisenbergRealLine` | volunteer-build-reviewed |
 | M034622 | P2054 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasDerivAtThetaTransformHeisenbergRealLineStatement` | volunteer-build-reviewed |
+| M034630 | P0651 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasFDerivAtDeformedProductDerivativeTerm` | volunteer-build-reviewed |
 | M034641 | P0868 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasFrameOfIsBaseChange` | build-observed |
 | M034642 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasGaussIntegralCompAddEquivRescale` | build-observed |
 | M034643 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasGaussIntegralCompAddEquivRescaleStatement` | build-observed |
@@ -399,6 +402,3 @@
 | M035377 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFlagComplementPosDefFactorizationStatement` | volunteer-build-reviewed |
 | M035378 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFlagUnipotentMatrixExistsSparse` | volunteer-build-reviewed |
 | M035379 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFlagUnipotentMatrixExistsSparseStatement` | volunteer-build-reviewed |
-| M035380 | P2018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFockNormAdjugateSubstSymmLe` | volunteer-build-reviewed |
-| M035381 | P2037 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFockNormAdjugateSubstSymmLeStatement` | volunteer-build-reviewed |
-| M035385 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianFormConstMulInnerStatement` | volunteer-build-reviewed |

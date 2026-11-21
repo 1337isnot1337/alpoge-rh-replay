@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M040568 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftSmoothingProdExpSmoothCommuteStatement` | build-observed |
+| M040569 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftTranslateSmoothCommuteLeftInvariantOps` | build-observed |
+| M040570 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftTranslateSmoothCommuteLeftInvariantOpsStatement` | build-observed |
+| M040575 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthCokerLsmulEqLengthKerAddSumStatement` | volunteer-build-reviewed |
+| M040576 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthEqKerAddRange` | volunteer-build-reviewed |
+| M040582 | P1424 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthStalkNeTopOfNoGenerisation` | wave-reused |
+| M040583 | P1449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthStalkNeTopOfNoGenerisationStatement` | wave-reused |
+| M040584 | P1424 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthStalkReducedClosedGenericPointEqRank` | wave-reused |
+| M040585 | P1449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthStalkReducedClosedGenericPointEqRankStatement` | wave-reused |
+| M040587 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthSumHeightOneDisjointDivisorsStatement` | volunteer-build-reviewed |
+| M040590 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeraySimplicialCocycleCoboundaryOfAcyclicLevels` | wave-reused |
+| M040591 | P0651 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeraySimplicialCocycleCoboundaryOfAcyclicLevelsStatement` | wave-reused |
+| M040600 | P1906 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevMoveCommLevelMapOfTrivialMod` | volunteer-build-reviewed |
+| M040601 | P1924 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevMoveCommLevelMapOfTrivialModStatement` | volunteer-build-reviewed |
+| M040604 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevPhInjectiveOfLevDetNonZeroDivisor` | volunteer-build-reviewed |
 | M040606 | P1793 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevSplitOf` | volunteer-build-reviewed |
 | M040609 | P1924 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelActionFramedPointsIsAction` | volunteer-build-reviewed |
 | M040612 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelActionMemCuspFormsOfActionLawsStatement` | volunteer-build-reviewed |
@@ -93,6 +108,7 @@
 | M040887 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviNormalizesUnipotentBis` | volunteer-build-reviewed |
 | M040888 | P1886 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviNormalizesUnipotentBisStatement` | volunteer-build-reviewed |
 | M040890 | P2123 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviNormalizesUnipotentRadicalAltBis` | volunteer-build-reviewed |
+| M040891 | P1942 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviNormalizesUnipotentRadicalBis` | volunteer-build-reviewed |
 | M040893 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviNormalizesUnipotentRadicalStatement` | volunteer-build-reviewed |
 | M040894 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviNormalizesUnipotentStatement` | volunteer-build-reviewed |
 | M040895 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviPiTensorRepresentationIsIrreducible` | build-observed |
@@ -149,6 +165,7 @@
 | M041014 | P0786 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LieLatticeDualIndexStatement` | build-observed |
 | M041029 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LieMultIffFinrankCommonEigenspaceCoords` | volunteer-build-reviewed |
 | M041032 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LieMultIffFinrankSimultaneousEigenSubmoduleStatement` | volunteer-build-reviewed |
+| M041033 | P1449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LieMultLabelRank` | volunteer-build-reviewed |
 | M041043 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LieRankAt` | volunteer-build-reviewed |
 | M041044 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LieRankEqFinrankEigenInter` | wave-reused |
 | M041045 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LieRankEqFinrankEigenInterStatement` | volunteer-build-reviewed |
@@ -175,6 +192,7 @@
 | M041119 | P0110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LiftModMaximalSkewStatement` | volunteer-build-reviewed |
 | M041127 | P1147 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LiftQuasiLogarithmAlongPdThickening` | build-observed |
 | M041128 | P1172 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LiftQuasiLogarithmAlongPdThickeningStatement` | build-observed |
+| M041141 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LiftSquarePresentationOfFlatStatement` | volunteer-build-reviewed |
 | M041149 | P2430 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LiftToPrimeLocalization` | build-observed |
 | M041155 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LiftVOneMul` | volunteer-build-reviewed |
 | M041173 | P1840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LiftZero` | volunteer-build-reviewed |
@@ -384,21 +402,3 @@
 | M041845 | P1538 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalIdeleMemNsUnits` | volunteer-build-reviewed |
 | M041846 | P2037 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalIdempotentCharacterValue` | volunteer-build-reviewed |
 | M041848 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalIdempotentConjugationSign` | volunteer-build-reviewed |
-| M041849 | P2000 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalIdempotentConjugationSignStatement` | volunteer-build-reviewed |
-| M041850 | P2000 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalIdentityOfTensorHeisenbergEigen` | volunteer-build-reviewed |
-| M041851 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalIdentityOfTensorHeisenbergEigenStatement` | volunteer-build-reviewed |
-| M041860 | P0110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalInverseQuantitativeBall` | volunteer-build-reviewed |
-| M041861 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalInverseQuantitativeBallStatement` | volunteer-build-reviewed |
-| M041870 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalLatticeHermitianSkew` | volunteer-build-reviewed |
-| M041871 | P2111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalLatticeHermitianSkewStatement` | volunteer-build-reviewed |
-| M041874 | P2000 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalLatticeImageOpen` | volunteer-build-reviewed |
-| M041875 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalLatticeImageOpenStatement` | volunteer-build-reviewed |
-| M041876 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalLatticeIndicatorFourier` | volunteer-build-reviewed |
-| M041877 | P2037 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalLatticeIndicatorFourierStatement` | volunteer-build-reviewed |
-| M041878 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalLatticeIsClosed` | volunteer-build-reviewed |
-| M041880 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalLeviDecompositionExists` | volunteer-build-reviewed |
-| M041881 | P1840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalLeviDecompositionExistsStatement` | volunteer-build-reviewed |
-| M041888 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalMatrixActionColumnSpan` | volunteer-build-reviewed |
-| M041889 | P1840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalMatrixActionColumnSpanStatement` | volunteer-build-reviewed |
-| M041891 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalMatrixDiagonalColumnAction` | volunteer-build-reviewed |
-| M041892 | P1840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalMatrixDiagonalColumnActionStatement` | volunteer-build-reviewed |

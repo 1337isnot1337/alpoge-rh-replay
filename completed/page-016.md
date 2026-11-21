@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M012101 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeConjugateStatement` | volunteer-build-reviewed |
 | M012103 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeFinalStatement` | volunteer-build-reviewed |
 | M012106 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeImage` | volunteer-build-reviewed |
 | M012107 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeImageStatement` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M013043 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsLBGenTrivOfRatiosStatement` | volunteer-build-reviewed |
 | M013046 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsPullDegOfVal` | volunteer-build-reviewed |
 | M013047 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsPullbackOfProjChart` | build-observed |
-| M013048 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsPullbackOfProjChartStatement` | volunteer-build-reviewed |

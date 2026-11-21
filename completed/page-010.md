@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006329 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthQuotientSpanSingleton` | wave-reused |
 | M006330 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthRestrictScalarsEqSumInertiaDegOfSubset` | wave-reused |
 | M006331 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthSelfEqTop` | wave-reused |
 | M006332 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LinearIndependentLaurentMonomial` | wave-reused |
@@ -401,4 +402,3 @@
 | M007128 | P1144 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsFaithfullyFlatRootsStatement` | build-observed |
 | M007129 | P1324 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsFaithfullyFlatSplitIsotropicGroup` | build-observed |
 | M007130 | P1350 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsFaithfullyFlatSplitIsotropicGroupStatement` | build-observed |
-| M007133 | P0583 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsFinsetMeetingFibres` | wave-reused |

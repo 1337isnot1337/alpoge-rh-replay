@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M022341 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingConjugateOscillatorEighth` | volunteer-build-reviewed |
 | M022343 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingConjugateOscillatorNinth` | volunteer-build-reviewed |
 | M022345 | P2122 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingEvaluationCompatible` | volunteer-build-reviewed |
 | M022347 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingMatrixIndependent` | wave-reused |
@@ -401,4 +402,3 @@
 | M023190 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyMulRight` | volunteer-build-reviewed |
 | M023192 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyNotMemChartBallSaturation` | volunteer-build-reviewed |
 | M023194 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyOfForall` | volunteer-build-reviewed |
-| M023196 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EventuallyOneTmulAdicIntegralCoordsStatement` | volunteer-build-reviewed |

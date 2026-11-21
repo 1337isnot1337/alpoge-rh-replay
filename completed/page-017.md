@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013048 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsPullbackOfProjChartStatement` | volunteer-build-reviewed |
 | M013049 | P1171 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsRigNorm` | build-observed |
 | M013050 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsTorsFrameOfSymLift` | volunteer-build-reviewed |
 | M013052 | P1057 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsoIsMonHomOfIsGtOfRangeEq` | build-observed |
@@ -401,4 +402,3 @@
 | M013710 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LinearIndependentThetaBasisGeometricFibreStatement` | volunteer-build-reviewed |
 | M013711 | P0550 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LinearMapEqZeroOfOneTmulMemRange` | build-observed |
 | M013712 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MaximalMinorsDualThetaTestLatticeBound` | volunteer-build-reviewed |
-| M013713 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MaximalMinorsDualThetaTestLatticeBoundStatement` | volunteer-build-reviewed |

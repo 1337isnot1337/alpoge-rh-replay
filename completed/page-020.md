@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M016340 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveBaseChangeDescendsFilteredColimitStatement` | build-observed |
 | M016341 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveBaseChangeResidueFieldOfFiniteEtale` | wave-reused |
 | M016343 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveIffIsUnitDet` | volunteer-build-reviewed |
 | M016348 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BijectiveLinearCombinationOfRankAtStalk` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M017704 | P2555 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernTransgressionFormsFrameInvariantStatement` | build-observed |
 | M017705 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernTwoDdcExtTrace` | volunteer-build-reviewed |
 | M017712 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChevalleyExistsLeSupMaximalIdealPowOfAntitoneStatement` | volunteer-build-reviewed |
-| M017714 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChiDeltaUConjLongSimpleReflectionUnitary` | volunteer-build-reviewed |

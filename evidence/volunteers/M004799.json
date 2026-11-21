@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M004799"
+  ],
+  "started_utc": "2026-11-21T16:10:53.537723+00:00",
+  "ended_utc": "2026-11-21T16:11:14.751006+00:00",
+  "elapsed_seconds": 21.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5319120
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.KillingFormDiffCartanInvolution:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a790a4b974244b3c69192465197597dc37a1673cb678b961e272df2bc5225828",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsHermitianOfMemRealScalars",
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MemCentIffTwConj"
+  ],
+  "objects": {
+    "M004799": "060e82faa86df66e3ea541285de9ab027ec45361096550b0b3b3e70eef4e068a"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "6af797bbb800a5db85c257c34989fcb3f9e034d43d1bcaa494464d52e59091a9",
+  "packet": "M004799",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23379#issuecomment-7065466600",
+  "reviewed_utc": "2026-11-21T16:52:48.557051+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

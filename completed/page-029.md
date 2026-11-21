@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M027072 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftValuativeCriterionVarietiesStatement` | volunteer-build-reviewed |
+| M027074 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftedFunctionOnLogResolutionStatement` | volunteer-build-reviewed |
 | M027083 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLinCombSectionsNeZeroOnFinset` | wave-reused |
 | M027084 | P0949 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLinCombSectionsNeZeroOnFinsetStatement` | wave-reused |
 | M027098 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLineBundleExtensionOfGenericFibreDvr` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M028284 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolynomialMultilinear` | volunteer-build-reviewed |
 | M028288 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPosDefGrD` | volunteer-build-reviewed |
 | M028290 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPosDefMajorantOfPositiveIndexOneStatement` | volunteer-build-reviewed |
-| M028295 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPosMulExtendIntLinearForm` | volunteer-build-reviewed |
-| M028296 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPosMulExtendIntLinearFormStatement` | volunteer-build-reviewed |

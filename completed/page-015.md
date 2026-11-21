@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M010833 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PrMemOfMemLatV` | volunteer-build-reviewed |
 | M010835 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PrXLeKOOfPrCat` | volunteer-build-reviewed |
 | M010838 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PrimitiveCharacterMatchesLinesDownFlagStatement` | volunteer-build-reviewed |
 | M010849 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ProdFnMemSB` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M012098 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeClosed` | volunteer-build-reviewed |
 | M012099 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeClosedStatement` | volunteer-build-reviewed |
 | M012100 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeConjugate` | volunteer-build-reviewed |
-| M012101 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeConjugateStatement` | volunteer-build-reviewed |

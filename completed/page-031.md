@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M029435 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSqrtHeckePointWeilPairingOrthogonal` | volunteer-build-reviewed |
+| M029436 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSqrtHeckePointWeilPairingOrthogonalStatement` | volunteer-build-reviewed |
 | M029438 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSqrtLatticeHomFiniteExtensionCompleteStatement` | volunteer-build-reviewed |
 | M029451 | P0733 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSquareIsomorphism` | build-observed |
 | M029452 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSquareIsomorphismStatement` | build-observed |
@@ -400,5 +402,3 @@
 | M030738 | P0552 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtensionIntoInjectiveSheaf` | build-observed |
 | M030739 | P1960 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtensionOfLowSmoothLines` | volunteer-build-reviewed |
 | M030744 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExtensionResult` | volunteer-build-reviewed |
-| M030750 | P0893 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExteriorDerivGlobalOneFormEqSumWedge` | build-observed |
-| M030751 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExteriorDerivGlobalOneFormEqSumWedgeStatement` | build-observed |

@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013713 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MaximalMinorsDualThetaTestLatticeBoundStatement` | volunteer-build-reviewed |
 | M013716 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemMaximalIdeal` | volunteer-build-reviewed |
 | M013717 | P0617 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemPadicAlgClValuationSubringIffNormLeOne` | wave-reused |
 | M013718 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemRangeAppLEChartIff` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M014855 | P1474 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdeleQuotientCompactRepresentatives` | volunteer-build-reviewed |
 | M014868 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicCompletionComapRationalMatrix` | volunteer-build-reviewed |
 | M014876 | P1474 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicCuspFormTransvectionConstantTermsZero` | volunteer-build-reviewed |
-| M014881 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdelicFixatorEqUnipotentRadicalMulCommonFixator` | volunteer-build-reviewed |

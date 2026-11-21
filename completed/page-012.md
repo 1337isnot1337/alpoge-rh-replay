@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M008539 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierLevelCharacterSumCongrStatement` | volunteer-build-reviewed |
 | M008540 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierNegativeVectorTermNear` | volunteer-build-reviewed |
 | M008541 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierNegativeVectorTermNearStatement` | volunteer-build-reviewed |
 | M008542 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierOneSubNormCongrZero` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M009350 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GoodPositionSplitLinesReadCompletionsAtPlace` | volunteer-build-reviewed |
 | M009351 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GoodPositionSplitLinesReadCompletionsAtPlaceStatement` | volunteer-build-reviewed |
 | M009354 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GramEqOfInst` | volunteer-build-reviewed |
-| M009355 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.GramMatrixOfColumnsUnitriangularConjEq` | volunteer-build-reviewed |

@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M164297"
+  ],
+  "started_utc": "2026-11-21T16:17:47.387317+00:00",
+  "ended_utc": "2026-11-21T16:18:21.143645+00:00",
+  "elapsed_seconds": 33.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5319904
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPrimitive:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c6e986fadffbfc6319df58eb950b6f14f2979d648844bb94d34a92bc8b40da04",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StDiscrAdjoin",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StFunctionFieldDegree",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGenericPrimitive",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StPrimitiveDiscriminant"
+  ],
+  "objects": {
+    "M164297": "eff6363b08928818cbfc45123abc6954f962c1ff188f7c8d7b367ca909a93516"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "57a9beed905cab9bece5f0f42ab0b6dd55aac886eb9b777729cda107f7e62407",
+  "packet": "M164297",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23422#issuecomment-7065548146",
+  "reviewed_utc": "2026-11-21T16:51:58.949713+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

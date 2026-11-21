@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M018918 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartUnfold` | volunteer-build-reviewed |
 | M018923 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalUnitLeviStatement` | volunteer-build-reviewed |
 | M018926 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigAMatchedIntegral` | volunteer-build-reviewed |
 | M018930 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigASchwartzEvalCompare` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M020125 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupHypercohomologyPullback` | wave-reused |
 | M020126 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupHypercohomologyPullbackStatement` | wave-reused |
 | M020127 | P0976 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupPeriodClassesSumConst` | build-observed |
-| M020128 | P1003 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupPeriodClassesSumConstStatement` | build-observed |

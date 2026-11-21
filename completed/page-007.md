@@ -5,6 +5,7 @@
 | M004791 | P0615 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsUltrametricDistFinExt` | wave-reused |
 | M004795 | P0974 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsWildInertiaCyclotomicElement` | build-observed |
 | M004796 | P0758 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.JSmul` | wave-reused |
+| M004799 | P0239 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.KillingFormDiffCartanInvolution` | volunteer-build-reviewed |
 | M004801 | P0731 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.LabelDatum` | wave-reused |
 | M004802 | P1419 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.Langlands` | volunteer-build-reviewed |
 | M004804 | P0096 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.LatticeMembershipByPowerSeries` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M005345 | P1057 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.VeryAmpleByOfRelAmple` | wave-reused |
 | M005346 | P0784 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.WeilIsAlternatingSkewNatural` | wave-reused |
 | M005347 | P0839 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.WeilIsIffCommIsOfAndLiftSubsingleton` | wave-reused |
-| M005348 | P0839 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.WeilIsValueEq` | wave-reused |

@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M037423 | P2054 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvariantFormFullRankBoxVanishesStatement` | volunteer-build-reviewed |
+| M037425 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvariantFormFullRankBruhatVanishesStatement` | volunteer-build-reviewed |
+| M037427 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvariantFormNormalizedHeisenbergIntertwinerEq` | volunteer-build-reviewed |
+| M037428 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvariantFormNormalizedHeisenbergIntertwinerEqStatement` | build-observed |
+| M037430 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvariantFunctionRadialLogDependence` | volunteer-build-reviewed |
 | M037431 | P1793 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvariantFunctionRadialLogDependenceStatement` | volunteer-build-reviewed |
 | M037439 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvariantMeasurableModification` | volunteer-build-reviewed |
 | M037440 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.InvariantMeasurableModificationStatement` | volunteer-build-reviewed |
@@ -153,6 +158,7 @@
 | M037862 | P0299 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsCompactPiUpperHalfPlaneImBoundsStatement` | volunteer-build-reviewed |
 | M037863 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsCompactPreimageQuadraticMapNoNullVectors` | volunteer-build-reviewed |
 | M037864 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsCompactPreimageQuadraticMapNoNullVectorsStatement` | volunteer-build-reviewed |
+| M037865 | P0398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsCompactPseudoUnitaryOffDiagNormSublevel` | volunteer-build-reviewed |
 | M037867 | P1399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsCompactSpecialUnitarySupportedAtPlaces` | volunteer-build-reviewed |
 | M037868 | P1353 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsCompactSpecialUnitarySupportedAtPlacesBis` | build-observed |
 | M037869 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsCompactSpecialUnitarySupportedAtPlacesStatement` | volunteer-build-reviewed |
@@ -213,6 +219,7 @@
 | M037999 | P1999 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExpansionIff` | volunteer-build-reviewed |
 | M038003 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExtensionSecPull` | volunteer-build-reviewed |
 | M038004 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFamConstLevelOne` | wave-reused |
+| M038005 | P1669 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFieldCompletionTensorOfIsInertAt` | volunteer-build-reviewed |
 | M038007 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFieldMonicRootsTensorFractionRingStrictlyHense` | build-observed |
 | M038008 | P0552 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFieldMonicRootsTensorFractionRingStrictlyHenseStatement` | build-observed |
 | M038009 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFieldOfUniquePrimeStalk` | volunteer-build-reviewed |
@@ -352,6 +359,7 @@
 | M038296 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsIntegrallyClosedAdjoin` | volunteer-build-reviewed |
 | M038297 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsIntegrallyClosedInClosureLocalization` | volunteer-build-reviewed |
 | M038298 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsIntegrallyClosedInClosureLocalizationStatement` | wave-reused |
+| M038306 | P0708 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsInvertibleUnitaryAdelicMatrixOfRationalUnitary` | volunteer-build-reviewed |
 | M038308 | P1118 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsIrrRepHarishChandraDistinctCuspidalLabels` | build-observed |
 | M038309 | P1147 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsIrrRepHarishChandraDistinctCuspidalLabelsStatement` | build-observed |
 | M038310 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsIrreducible` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M038419 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLineBundleFrameOnBasisRestrictFinerOpens` | volunteer-build-reviewed |
 | M038423 | P1793 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLineReps` | volunteer-build-reviewed |
 | M038427 | P1999 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocCoLocDarboux` | volunteer-build-reviewed |
-| M038430 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocPart` | volunteer-build-reviewed |
-| M038431 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocSecZero` | volunteer-build-reviewed |
-| M038432 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocSubSB` | volunteer-build-reviewed |
-| M038436 | P2456 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocalHomCompletedStalkToDvrOverTrait` | volunteer-build-reviewed |
-| M038447 | P0813 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocalizationAwayFib` | build-observed |
-| M038448 | P0841 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocalizationAwayFibStatement` | build-observed |
-| M038450 | P0552 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocalizationOfData` | wave-reused |
-| M038455 | P1478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocallyBlockUnitaryPiFinStatement` | volunteer-build-reviewed |

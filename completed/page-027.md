@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M024574 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCuspFormSemiLocalWhittakerSpace` | volunteer-build-reviewed |
 | M024575 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCuspFormSemiLocalWhittakerSpaceStatement` | build-observed |
 | M024579 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCuspOnRestrict` | volunteer-build-reviewed |
 | M024584 | P2068 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCutOperatorsMirabolicFinitePlacesStatement` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M025938 | P0298 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlueSpecCompleteLocalRingThickenings` | volunteer-build-reviewed |
 | M025939 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlueSpecCompleteLocalRingThickeningsStatement` | volunteer-build-reviewed |
 | M025940 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlueSpecLocalizationAwayMorphisms` | volunteer-build-reviewed |
-| M025942 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlueToLocallyDirectedColimitOfBasis` | build-observed |

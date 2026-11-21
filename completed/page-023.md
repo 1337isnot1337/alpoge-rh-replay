@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M020128 | P1003 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupPeriodClassesSumConstStatement` | build-observed |
 | M020129 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupProductAssocOfPairingAssoc` | build-observed |
 | M020130 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupProductAssocOfPairingAssocStatement` | build-observed |
 | M020131 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CupProductCastMkOfIsAlexanderWhitney` | build-observed |
@@ -401,4 +402,3 @@
 | M021170 | P0733 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantFrameComparisonUnit` | wave-reused |
 | M021171 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantFrameComparisonUnitStatement` | wave-reused |
 | M021176 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantInducedIrreducibleAdmissible` | volunteer-build-reviewed |
-| M021178 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantInducedIsAdmissible` | volunteer-build-reviewed |

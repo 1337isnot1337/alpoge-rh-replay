@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M039408 | P0109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedFDerivIntegralSchwartz` | volunteer-build-reviewed |
+| M039409 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedFDerivIntegralSchwartzStatement` | volunteer-build-reviewed |
+| M039410 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedFDerivWeightedIntegral` | volunteer-build-reviewed |
+| M039412 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedFDerivWordEqCoeff` | build-observed |
+| M039413 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedFderivParametricUniformBound` | volunteer-build-reviewed |
+| M039414 | P0109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedFderivParametricUniformBoundStatement` | volunteer-build-reviewed |
+| M039426 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IwasawaDecompInfiniteIsotropic` | volunteer-build-reviewed |
+| M039427 | P1886 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IwasawaDecompInfiniteIsotropicStatement` | volunteer-build-reviewed |
+| M039428 | P1793 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IwasawaDecompIsotropicVector` | volunteer-build-reviewed |
+| M039431 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IwasawaDecompositionAdelicSL2` | volunteer-build-reviewed |
 | M039434 | P0681 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IwasawaDecompositionAdmissibleFamily` | build-observed |
 | M039435 | P0708 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IwasawaDecompositionAdmissibleFamilyStatement` | build-observed |
 | M039438 | P1399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IwasawaDecompositionLocal` | volunteer-build-reviewed |
@@ -248,6 +258,7 @@
 | M040193 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeCocycleZeroOfGeneratorsStatement` | build-observed |
 | M040203 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeCompletionStableBaseChange` | volunteer-build-reviewed |
 | M040204 | P1793 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeCompletionStableBaseChangeStatement` | volunteer-build-reviewed |
+| M040209 | P0708 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeCongruenceIffCompletion` | volunteer-build-reviewed |
 | M040211 | P1999 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeCoordinateInjectionAdapted` | volunteer-build-reviewed |
 | M040212 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeCoordinateInjectionAdaptedStatement` | volunteer-build-reviewed |
 | M040213 | P1999 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeCoordinateInjectionDarboux` | volunteer-build-reviewed |
@@ -294,14 +305,17 @@
 | M040305 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeInvariantPlaneTransformStatement` | volunteer-build-reviewed |
 | M040306 | P2037 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeInvariantVectorLocalSupport` | volunteer-build-reviewed |
 | M040307 | P2054 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeInvariantVectorLocalSupportStatement` | volunteer-build-reviewed |
+| M040309 | P1424 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeIsometrySignFirstStatement` | volunteer-build-reviewed |
 | M040312 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeIsometrySignThird` | volunteer-build-reviewed |
 | M040313 | P1999 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeIsometrySignThirdStatement` | volunteer-build-reviewed |
 | M040318 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeLevelOpenNbhd` | volunteer-build-reviewed |
 | M040320 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeLevelPreservesLattice` | volunteer-build-reviewed |
 | M040326 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeLocalDarbouxCoordinatesBounded` | volunteer-build-reviewed |
 | M040327 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeLocalDarbouxCoordinatesBoundedStatement` | volunteer-build-reviewed |
+| M040330 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeModRepsCardLe` | volunteer-build-reviewed |
 | M040331 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeModRepsCardLeStatement` | volunteer-build-reviewed |
 | M040333 | P2370 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeModelInducesRootMetric` | volunteer-build-reviewed |
+| M040336 | P1147 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeMovePreservingLocalParts` | volunteer-build-reviewed |
 | M040337 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeMultipleMemSublattice` | volunteer-build-reviewed |
 | M040338 | P0109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeMultipleMemSublatticeStatement` | volunteer-build-reviewed |
 | M040344 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticePadicGradingCompareStatement` | volunteer-build-reviewed |
@@ -332,6 +346,7 @@
 | M040394 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSpannedByGLColumnsMulLeftMatrixEqMulStatement` | volunteer-build-reviewed |
 | M040401 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeStabilizerInertSphere` | volunteer-build-reviewed |
 | M040404 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeStabilizerReductionEqLocalReductionStatement` | volunteer-build-reviewed |
+| M040407 | P1669 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeStableAlmostAllPlacesLeft` | volunteer-build-reviewed |
 | M040413 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSumEqConeSum` | volunteer-build-reviewed |
 | M040414 | P1793 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSumPolynomialBound` | volunteer-build-reviewed |
 | M040415 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSumPolynomialBoundStatement` | volunteer-build-reviewed |
@@ -387,18 +402,3 @@
 | M040564 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftMulNearOneLuSplitSmallChartStatement` | build-observed |
 | M040565 | P0110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftMulUnitaryRepresentation` | volunteer-build-reviewed |
 | M040567 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftSmoothingProdExpSmoothCommute` | build-observed |
-| M040568 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftSmoothingProdExpSmoothCommuteStatement` | build-observed |
-| M040569 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftTranslateSmoothCommuteLeftInvariantOps` | build-observed |
-| M040570 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftTranslateSmoothCommuteLeftInvariantOpsStatement` | build-observed |
-| M040575 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthCokerLsmulEqLengthKerAddSumStatement` | volunteer-build-reviewed |
-| M040576 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthEqKerAddRange` | volunteer-build-reviewed |
-| M040582 | P1424 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthStalkNeTopOfNoGenerisation` | wave-reused |
-| M040583 | P1449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthStalkNeTopOfNoGenerisationStatement` | wave-reused |
-| M040584 | P1424 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthStalkReducedClosedGenericPointEqRank` | wave-reused |
-| M040585 | P1449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthStalkReducedClosedGenericPointEqRankStatement` | wave-reused |
-| M040587 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthSumHeightOneDisjointDivisorsStatement` | volunteer-build-reviewed |
-| M040590 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeraySimplicialCocycleCoboundaryOfAcyclicLevels` | wave-reused |
-| M040591 | P0651 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeraySimplicialCocycleCoboundaryOfAcyclicLevelsStatement` | wave-reused |
-| M040600 | P1906 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevMoveCommLevelMapOfTrivialMod` | volunteer-build-reviewed |
-| M040601 | P1924 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevMoveCommLevelMapOfTrivialModStatement` | volunteer-build-reviewed |
-| M040604 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevPhInjectiveOfLevDetNonZeroDivisor` | volunteer-build-reviewed |

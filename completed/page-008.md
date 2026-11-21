@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005348 | P0839 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.WeilIsValueEq` | wave-reused |
 | M005349 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.WeilStOfParts` | wave-reused |
 | M005350 | P1194 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.AddCharTrivialIntegralFiniteAdeleMul` | build-observed |
 | M005351 | P1218 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.AddCharTrivialIntegralFiniteAdeleMulStatement` | build-observed |
@@ -401,4 +402,3 @@
 | M005901 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TsumIdealMulAbsNormCpowEqExpTsum` | volunteer-build-reviewed |
 | M005902 | P0240 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoMulCardInfinitePlaceLeQuadratic` | wave-reused |
 | M005903 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoMulCardInfinitePlaceLeQuadraticStatement` | wave-reused |
-| M005904 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoMulCardPlacesLeCardOverQuadratic` | wave-reused |

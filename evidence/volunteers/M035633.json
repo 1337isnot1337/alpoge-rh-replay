@@ -1,0 +1,42 @@
+{
+  "tasks": [
+    "M035633"
+  ],
+  "started_utc": "2026-11-21T16:16:02.472308+00:00",
+  "ended_utc": "2026-11-21T16:16:32.136071+00:00",
+  "elapsed_seconds": 29.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5299460
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.HilbertPointGlueOpenCoverStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "70efeaa1fc669580f2dce08a8ac709a2db0b04fdd8a69b895f905b15bdab8bd9",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComapEqKerIff",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdealSheafDataOfCompatible",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdealSheafDataOfCompatibleStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HilbertPointGlueOpenCover",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealSheafGlueOfOpenImmersions",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealSheafGlueOfOpenImmersionsStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsHilbRep"
+  ],
+  "objects": {
+    "M035633": "5e95ab8b94422cbc5a0ae5dc044a3e8bd9b39350c212f679fd09a0ee5056edc6"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "d090f80e152f637abf786da9793d2ea05263f87001435644b56d793bed0b106d",
+  "packet": "M035633",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23414#issuecomment-7065546740",
+  "reviewed_utc": "2026-11-21T16:52:15.417422+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

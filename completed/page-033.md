@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M031790 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernClassTateTwistCocycleUniqueNaturalAddiStatement` | wave-reused |
+| M031793 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernDualNegStatement` | volunteer-build-reviewed |
 | M031800 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernFormPullback` | volunteer-build-reviewed |
 | M031802 | P1979 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernIntegralEqDegree` | volunteer-build-reviewed |
 | M031804 | P2511 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstChernIsometricEqStatement` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M033042 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FreeRankOneEtaleSheafEquivLocallyConstant` | build-observed |
 | M033043 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FreeRankOneEtaleSheafEquivLocallyConstantStatement` | build-observed |
 | M033045 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FreeSheafHomValueAtCechNerveSimplexBijective` | wave-reused |
-| M033046 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FreeSheafHomValueAtCechNerveSimplexBijectiveStatement` | wave-reused |
-| M033047 | P2536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FrobKerIdealLeAugIdeal` | volunteer-build-reviewed |

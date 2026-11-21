@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M017714 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChiDeltaUConjLongSimpleReflectionUnitary` | volunteer-build-reviewed |
 | M017718 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChiGridVertexRankAddLtTwoExponentAddCentre` | volunteer-build-reviewed |
 | M017719 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChiGridVertexRankAddLtTwoExponentAddCentreStatement` | volunteer-build-reviewed |
 | M017724 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChooseAddLePowMulChooseAdd` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M018909 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartEqualStatement` | volunteer-build-reviewed |
 | M018910 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartFold` | volunteer-build-reviewed |
 | M018914 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartProduct` | volunteer-build-reviewed |
-| M018918 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConfigALocalPartUnfold` | volunteer-build-reviewed |

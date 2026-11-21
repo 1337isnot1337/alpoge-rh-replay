@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M021178 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantInducedIsAdmissible` | volunteer-build-reviewed |
 | M021179 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantInducedIsAdmissibleStatement` | volunteer-build-reviewed |
 | M021181 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantInducedRepEquivProductStatement` | volunteer-build-reviewed |
 | M021182 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DeterminantLatticePrincipal` | wave-reused |
@@ -401,4 +402,3 @@
 | M022333 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbLInlZeroRight` | volunteer-build-reviewed |
 | M022334 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbLLMem` | volunteer-build-reviewed |
 | M022335 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbOverSumInjective` | volunteer-build-reviewed |
-| M022341 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EmbeddingConjugateOscillatorEighth` | volunteer-build-reviewed |

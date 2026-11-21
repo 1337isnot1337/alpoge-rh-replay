@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M025942 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlueToLocallyDirectedColimitOfBasis` | build-observed |
 | M025943 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGlueToLocallyDirectedColimitOfBasisStatement` | build-observed |
 | M025949 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGluedLineBundleSectionOverCoverStatement` | volunteer-build-reviewed |
 | M025952 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsGluedSectionUpwardFamilyStandardCover` | wave-reused |
@@ -98,6 +99,7 @@
 | M026198 | P2036 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomeomorphColumnFixatorCoreUnitaryGroup` | volunteer-build-reviewed |
 | M026204 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomogeneousFormOfOverlapIdealPowThickening` | volunteer-build-reviewed |
 | M026205 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomogeneousFormOfOverlapIdealPowThickeningStatement` | volunteer-build-reviewed |
+| M026208 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomogeneousIdealOverReesAlgebra` | volunteer-build-reviewed |
 | M026215 | P2342 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomologyWedgeCoordinateNonzeroStatement` | build-observed |
 | M026218 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHormanderPeakCutoffSingularWeights` | volunteer-build-reviewed |
 | M026223 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHtLeTwoMulQht` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M027064 | P2534 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftSummandLieResidueCharZero` | volunteer-build-reviewed |
 | M027068 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftToCompleteDvrOfFinite` | volunteer-build-reviewed |
 | M027071 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftValuativeCriterionVarieties` | volunteer-build-reviewed |
-| M027072 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftValuativeCriterionVarietiesStatement` | volunteer-build-reviewed |
-| M027074 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftedFunctionOnLogResolutionStatement` | volunteer-build-reviewed |
