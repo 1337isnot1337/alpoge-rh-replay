@@ -208,6 +208,7 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M005650](https://github.com/rohanarun/alpoge-rh-replay/issues/8759#issuecomment-7054692073) | Pending review |
 | [@galakurpi](https://github.com/galakurpi) | [M042860](https://github.com/rohanarun/alpoge-rh-replay/issues/8760#issuecomment-7054959724) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M074099](https://github.com/rohanarun/alpoge-rh-replay/issues/8761#issuecomment-7054692703) | Pending review |
+| [@TOTOGT](https://github.com/TOTOGT) | [M161838](https://github.com/rohanarun/alpoge-rh-replay/issues/8776#issuecomment-7056830895) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M132602](https://github.com/rohanarun/alpoge-rh-replay/issues/8781#issuecomment-7054688236) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M169508](https://github.com/rohanarun/alpoge-rh-replay/issues/8783#issuecomment-7054680172) | Pending review |
 | [@WorldianAI](https://github.com/WorldianAI) | [M028856](https://github.com/rohanarun/alpoge-rh-replay/issues/8785#issuecomment-7054875315) | Pending review |
@@ -253,4 +254,3 @@
 | [@loremcdmx](https://github.com/loremcdmx) | [M004544](https://github.com/rohanarun/alpoge-rh-replay/issues/8831#issuecomment-7054788073) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M055922](https://github.com/rohanarun/alpoge-rh-replay/issues/8832#issuecomment-7054789848) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M063571](https://github.com/rohanarun/alpoge-rh-replay/issues/8833#issuecomment-7054791075) | Pending review |
-| [@loremcdmx](https://github.com/loremcdmx) | [M097489](https://github.com/rohanarun/alpoge-rh-replay/issues/8834#issuecomment-7054791831) | Pending review |
