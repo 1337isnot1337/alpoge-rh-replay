@@ -37,10 +37,11 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 
 <!-- active-volunteers-start -->
 
-[1,281 entries. View the full table](tracker/volunteer-tables/active/README.md).
+[1,276 entries. View the full table](tracker/volunteer-tables/active/README.md).
 
 | Contributor | Task | Status |
 |---|---|---|
+| [@mabdelazim](https://github.com/mabdelazim) | [M062155](https://github.com/rohanarun/alpoge-rh-replay/issues/22332) | Claimed |
 | [@rahulsundar477-star](https://github.com/rahulsundar477-star) | [P2725](https://github.com/rohanarun/alpoge-rh-replay/issues/22562) | Claimed |
 | [@rahulsundar477-star](https://github.com/rahulsundar477-star) | [P2445](https://github.com/rohanarun/alpoge-rh-replay/issues/23207) | Claimed |
 | [@UnityChaos](https://github.com/UnityChaos) | [P2451](https://github.com/rohanarun/alpoge-rh-replay/issues/24080) | Claimed |
@@ -48,19 +49,18 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 | [@RhizoNymph](https://github.com/RhizoNymph) | [P2583](https://github.com/rohanarun/alpoge-rh-replay/issues/24993) | Claimed |
 | [@RhizoNymph](https://github.com/RhizoNymph) | [P2748](https://github.com/rohanarun/alpoge-rh-replay/issues/25103) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [M133655](https://github.com/rohanarun/alpoge-rh-replay/issues/25271) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P2601](https://github.com/rohanarun/alpoge-rh-replay/issues/25547) | Claimed |
 | [@hipotures](https://github.com/hipotures) | [P2130](https://github.com/rohanarun/alpoge-rh-replay/issues/25668) | Claimed |
-| [@emsi](https://github.com/emsi) | [P2692](https://github.com/rohanarun/alpoge-rh-replay/issues/25682) | Claimed |
-| [@UnityChaos](https://github.com/UnityChaos) | [M038128](https://github.com/rohanarun/alpoge-rh-replay/issues/25760) | Claimed |
-| [@UnityChaos](https://github.com/UnityChaos) | [M044153](https://github.com/rohanarun/alpoge-rh-replay/issues/25762) | Claimed |
-| [@UnityChaos](https://github.com/UnityChaos) | [M089779](https://github.com/rohanarun/alpoge-rh-replay/issues/25764) | Claimed |
-| [@maugomez77](https://github.com/maugomez77) | [M115203](https://github.com/rohanarun/alpoge-rh-replay/issues/25788) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M171935](https://github.com/rohanarun/alpoge-rh-replay/issues/25804) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M016868](https://github.com/rohanarun/alpoge-rh-replay/issues/25805) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M168971](https://github.com/rohanarun/alpoge-rh-replay/issues/25806) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M061105](https://github.com/rohanarun/alpoge-rh-replay/issues/25807) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M103502](https://github.com/rohanarun/alpoge-rh-replay/issues/25808) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M109552](https://github.com/rohanarun/alpoge-rh-replay/issues/25809) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M115384](https://github.com/rohanarun/alpoge-rh-replay/issues/25811) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M155827](https://github.com/rohanarun/alpoge-rh-replay/issues/25812) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M166285](https://github.com/rohanarun/alpoge-rh-replay/issues/25813) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M166288](https://github.com/rohanarun/alpoge-rh-replay/issues/25815) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M045679](https://github.com/rohanarun/alpoge-rh-replay/issues/25818) | Claimed |
 
 <!-- active-volunteers-end -->
 
@@ -71,16 +71,13 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 
 <!-- pending-volunteers-start -->
 
-[5,434 entries. View the full table](tracker/volunteer-tables/pending/README.md).
+[5,447 entries. View the full table](tracker/volunteer-tables/pending/README.md).
 
 | Contributor | Task | Review |
 |---|---|---|
-| [@JanSimeonMetzger](https://github.com/JanSimeonMetzger) | [M144623](https://github.com/rohanarun/alpoge-rh-replay/issues/25781#issuecomment-7068759562) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M164686](https://github.com/rohanarun/alpoge-rh-replay/issues/25782#issuecomment-7068781916) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M127512](https://github.com/rohanarun/alpoge-rh-replay/issues/25783#issuecomment-7068782394) | Pending review |
-| [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M100218](https://github.com/rohanarun/alpoge-rh-replay/issues/25784#issuecomment-7068782814) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M062022](https://github.com/rohanarun/alpoge-rh-replay/issues/25785#issuecomment-7068783265) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M111746](https://github.com/rohanarun/alpoge-rh-replay/issues/25787#issuecomment-7068728214) | Pending review |
+| [@maugomez77](https://github.com/maugomez77) | [M115203](https://github.com/rohanarun/alpoge-rh-replay/issues/25788#issuecomment-7068851519) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M111751](https://github.com/rohanarun/alpoge-rh-replay/issues/25789#issuecomment-7068727024) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M043179](https://github.com/rohanarun/alpoge-rh-replay/issues/25790#issuecomment-7068756837) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M043536](https://github.com/rohanarun/alpoge-rh-replay/issues/25791#issuecomment-7068758744) | Pending review |
@@ -95,6 +92,9 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 | [@loremcdmx](https://github.com/loremcdmx) | [M050190](https://github.com/rohanarun/alpoge-rh-replay/issues/25800#issuecomment-7068768471) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M163674](https://github.com/rohanarun/alpoge-rh-replay/issues/25801#issuecomment-7068794169) | Pending review |
 | [@sp20262026](https://github.com/sp20262026) | [M062858](https://github.com/rohanarun/alpoge-rh-replay/issues/25803#issuecomment-7068742099) | Pending review |
+| [@loremcdmx](https://github.com/loremcdmx) | [M050515](https://github.com/rohanarun/alpoge-rh-replay/issues/25814#issuecomment-7068794096) | Pending review |
+| [@loremcdmx](https://github.com/loremcdmx) | [M050598](https://github.com/rohanarun/alpoge-rh-replay/issues/25816#issuecomment-7068795668) | Pending review |
+| [@loremcdmx](https://github.com/loremcdmx) | [M051528](https://github.com/rohanarun/alpoge-rh-replay/issues/25817#issuecomment-7068797088) | Pending review |
 
 <!-- pending-volunteers-end -->
 

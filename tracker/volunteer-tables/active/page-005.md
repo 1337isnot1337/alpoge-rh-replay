@@ -244,13 +244,13 @@
 | [@galakurpi](https://github.com/galakurpi) | [M137346](https://github.com/rohanarun/alpoge-rh-replay/issues/21117) | Claimed |
 | [@galakurpi](https://github.com/galakurpi) | [M108927](https://github.com/rohanarun/alpoge-rh-replay/issues/21118) | Claimed |
 | [@galakurpi](https://github.com/galakurpi) | [M173750](https://github.com/rohanarun/alpoge-rh-replay/issues/21119) | Claimed |
-| [@maugomez77](https://github.com/maugomez77) | [M173170](https://github.com/rohanarun/alpoge-rh-replay/issues/21517) | Claimed |
-| [@maugomez77](https://github.com/maugomez77) | [M161049](https://github.com/rohanarun/alpoge-rh-replay/issues/21584) | Claimed |
-| [@maugomez77](https://github.com/maugomez77) | [M070219](https://github.com/rohanarun/alpoge-rh-replay/issues/21716) | Claimed |
-| [@maugomez77](https://github.com/maugomez77) | [M155716](https://github.com/rohanarun/alpoge-rh-replay/issues/21922) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M000801](https://github.com/rohanarun/alpoge-rh-replay/issues/22118) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M019590](https://github.com/rohanarun/alpoge-rh-replay/issues/22119) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M045884](https://github.com/rohanarun/alpoge-rh-replay/issues/22120) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M045887](https://github.com/rohanarun/alpoge-rh-replay/issues/22121) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M045904](https://github.com/rohanarun/alpoge-rh-replay/issues/22122) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M050398](https://github.com/rohanarun/alpoge-rh-replay/issues/22123) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M051640](https://github.com/rohanarun/alpoge-rh-replay/issues/22125) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M120932](https://github.com/rohanarun/alpoge-rh-replay/issues/22126) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M122023](https://github.com/rohanarun/alpoge-rh-replay/issues/22127) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M127218](https://github.com/rohanarun/alpoge-rh-replay/issues/22129) | Claimed |
