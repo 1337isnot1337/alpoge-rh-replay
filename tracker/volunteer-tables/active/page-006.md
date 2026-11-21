@@ -4,8 +4,6 @@
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@dhudakk](https://github.com/dhudakk) | [M118251](https://github.com/rohanarun/alpoge-rh-replay/issues/19640) | Claimed |
-| [@dhudakk](https://github.com/dhudakk) | [M093048](https://github.com/rohanarun/alpoge-rh-replay/issues/19668) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M090907](https://github.com/rohanarun/alpoge-rh-replay/issues/19669) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M045157](https://github.com/rohanarun/alpoge-rh-replay/issues/19676) | Claimed |
 | [@dga471](https://github.com/dga471) | [M130082](https://github.com/rohanarun/alpoge-rh-replay/issues/19680) | Claimed |
@@ -234,7 +232,6 @@
 | [@loremcdmx](https://github.com/loremcdmx) | [M006615](https://github.com/rohanarun/alpoge-rh-replay/issues/21364) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [P2291](https://github.com/rohanarun/alpoge-rh-replay/issues/21365) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [M007028](https://github.com/rohanarun/alpoge-rh-replay/issues/21366) | Claimed |
-| [@surfyhou](https://github.com/surfyhou) | [P2420](https://github.com/rohanarun/alpoge-rh-replay/issues/21394) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M140904](https://github.com/rohanarun/alpoge-rh-replay/issues/21414) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M077039](https://github.com/rohanarun/alpoge-rh-replay/issues/21425) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M123438](https://github.com/rohanarun/alpoge-rh-replay/issues/21430) | Claimed |
@@ -254,3 +251,6 @@
 | [@dhudakk](https://github.com/dhudakk) | [M121204](https://github.com/rohanarun/alpoge-rh-replay/issues/21596) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M112350](https://github.com/rohanarun/alpoge-rh-replay/issues/21597) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M152892](https://github.com/rohanarun/alpoge-rh-replay/issues/21598) | Claimed |
+| [@dhudakk](https://github.com/dhudakk) | [M042883](https://github.com/rohanarun/alpoge-rh-replay/issues/21599) | Claimed |
+| [@dhudakk](https://github.com/dhudakk) | [M080969](https://github.com/rohanarun/alpoge-rh-replay/issues/21645) | Claimed |
+| [@dhudakk](https://github.com/dhudakk) | [M087745](https://github.com/rohanarun/alpoge-rh-replay/issues/21648) | Claimed |

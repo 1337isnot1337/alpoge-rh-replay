@@ -4,6 +4,8 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@HITEYY](https://github.com/HITEYY) | [M018593](https://github.com/rohanarun/alpoge-rh-replay/issues/20427#issuecomment-7062915288) | Pending review |
+| [@HITEYY](https://github.com/HITEYY) | [M018208](https://github.com/rohanarun/alpoge-rh-replay/issues/20428#issuecomment-7062918861) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M018233](https://github.com/rohanarun/alpoge-rh-replay/issues/20429#issuecomment-7062923110) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M019561](https://github.com/rohanarun/alpoge-rh-replay/issues/20430#issuecomment-7062926971) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M009132](https://github.com/rohanarun/alpoge-rh-replay/issues/20431#issuecomment-7062930373) | Pending review |
@@ -252,5 +254,3 @@
 | [@certified-retart](https://github.com/certified-retart) | [M074708](https://github.com/rohanarun/alpoge-rh-replay/issues/20832#issuecomment-7062056663) | Pending review |
 | [@sp20262026](https://github.com/sp20262026) | [M102612](https://github.com/rohanarun/alpoge-rh-replay/issues/20834#issuecomment-7062076802) | Pending review |
 | [@zediir](https://github.com/zediir) | [M081905](https://github.com/rohanarun/alpoge-rh-replay/issues/20836#issuecomment-7062101383) | Pending review |
-| [@zediir](https://github.com/zediir) | [M016849](https://github.com/rohanarun/alpoge-rh-replay/issues/20837#issuecomment-7062077121) | Pending review |
-| [@zediir](https://github.com/zediir) | [M018270](https://github.com/rohanarun/alpoge-rh-replay/issues/20838#issuecomment-7062079644) | Pending review |
