@@ -1,5 +1,4 @@
 diff --git a/src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/MultiplicationKernelIdentity.lean b/src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/MultiplicationKernelIdentity.lean
-index 0000000..0000000 100644
 --- a/src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/MultiplicationKernelIdentity.lean
 +++ b/src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/MultiplicationKernelIdentity.lean
 @@ -31,7 +31,7 @@ def cofac (a : S → O) (τ : S) : RS a := ∏ s ∈ Finset.univ.erase τ, lin a

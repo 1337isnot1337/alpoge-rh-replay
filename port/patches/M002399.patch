@@ -1,5 +1,4 @@
 diff --git a/src/Development/AbelianVarietyTheory/BlockTheory/JetGauges/NodalSeriesPeriods.lean b/src/Development/AbelianVarietyTheory/BlockTheory/JetGauges/NodalSeriesPeriods.lean
-index 0000000..0000000 100644
 --- a/src/Development/AbelianVarietyTheory/BlockTheory/JetGauges/NodalSeriesPeriods.lean
 +++ b/src/Development/AbelianVarietyTheory/BlockTheory/JetGauges/NodalSeriesPeriods.lean
 @@ -144,7 +144,7 @@ theorem _root_.GlobalTheory.IndefiniteRowSideFullHecke.NodalSeriesPeriods.wSer_e
