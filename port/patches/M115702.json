@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SchwartzBilinear.PowMulExpLeHalfExp",
+  "source_sha256": "0566a98cc7915491f0aa3de16525dbb7437c76e1aa3580347b686a2bdd2f82a8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

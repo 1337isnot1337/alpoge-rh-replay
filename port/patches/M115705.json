@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SchwartzFunctionGeneration",
+  "source_sha256": "19acecf84a1e9e1e4c8f8246cd75d27a13670f57b2a90a1ece1c002f368489d7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

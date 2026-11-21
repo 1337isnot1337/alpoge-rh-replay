@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ProjectiveCharts",
+  "source_sha256": "6f83fbfc0fade9ad13bb716880949bfb36322abecdd10f22b6540a0f2dc413d6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

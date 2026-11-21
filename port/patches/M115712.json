@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SesquilinearFlipConj",
+  "source_sha256": "798e71ef23fbd542d93b3ed6b14c7ed81cb83d7efd6bcd2a8c0e3b165b8c0f55",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

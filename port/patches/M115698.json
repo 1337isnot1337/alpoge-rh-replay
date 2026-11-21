@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SchwartzBilinear.IntegerSmulEqAlgebraMapSmul",
+  "source_sha256": "321e7ea47ba528666e42d6a34233711e63f0233194c7a8a92419c677b89b3c18",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

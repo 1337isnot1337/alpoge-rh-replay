@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ResidueHomNorm",
+  "source_sha256": "b087ba8fdc10ecdfffdc52f3efec6d75d1eb79380567d73b15a6d200e2b2f1cc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

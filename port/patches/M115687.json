@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SaturationByPowers",
+  "source_sha256": "c3e2225be368112d3d9116735d8f488f56e6f4a56e1a7fb2912d75f4039a7d5c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
