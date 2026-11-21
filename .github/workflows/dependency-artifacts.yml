@@ -1,9 +1,9 @@
 name: Dependency artifact integrity
 on:
   pull_request:
-    paths: ['Audit.lean', 'audit/dependency-artifacts.py', 'tests/dependency-artifacts-native.py', 'tests/test_dependency_artifacts.py', 'tests/test-verify-sh.sh', 'verify.sh', '.github/workflows/dependency-artifacts.yml']
+    paths: ['Audit.lean', 'audit/dependency-artifacts.py', 'tests/audit-import-order-native.py', 'tests/dependency-artifacts-native.py', 'tests/test_dependency_artifacts.py', 'tests/test-verify-sh.sh', 'verify.sh', '.github/workflows/dependency-artifacts.yml']
   push:
-    paths: ['Audit.lean', 'audit/dependency-artifacts.py', 'tests/dependency-artifacts-native.py', 'tests/test_dependency_artifacts.py', 'tests/test-verify-sh.sh', 'verify.sh', '.github/workflows/dependency-artifacts.yml']
+    paths: ['Audit.lean', 'audit/dependency-artifacts.py', 'tests/audit-import-order-native.py', 'tests/dependency-artifacts-native.py', 'tests/test_dependency_artifacts.py', 'tests/test-verify-sh.sh', 'verify.sh', '.github/workflows/dependency-artifacts.yml']
   workflow_dispatch:
 permissions:
   contents: read
@@ -34,4 +34,5 @@ jobs:
           LEAN_NUM_THREADS: '2'
         run: |
           prefix="$(elan run leanprover/lean4:v4.33.1 lean --print-prefix)"
+          python3 tests/audit-import-order-native.py "$prefix/bin"
           python3 tests/dependency-artifacts-native.py "$prefix/bin" --fresh
