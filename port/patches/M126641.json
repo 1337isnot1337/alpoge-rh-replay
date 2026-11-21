@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ProdLeRevEqProdGe",
+  "source_sha256": "a642fad0278645cbd1a5431c5f78cee276af6891a5ac65854843a1f7930ae56f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

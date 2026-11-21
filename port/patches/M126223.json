@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.NotMemLpOfGrowth",
+  "source_sha256": "bb5aeb2b86ec1cb625beb57f315c8ab7c89310b8db06348ab51ef89454ae9749",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass hf.aestronglyMeasurable to eLpNorm_lt_top_iff_lintegral_rpow_enorm_lt_top in Mathlib v4.36.0."
+}

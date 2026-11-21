@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FourierInversionInvariantMatrix",
+  "source_sha256": "5e6c6bed1bf41115cacbba3aa6dc800247686874b77ca86da96311c8e7e8f0e6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

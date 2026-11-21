@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LocalFactorisationHolomorphic",
+  "source_sha256": "d04d4d0acd5772dadd8bbdb215bf395918f77c502eb7b6038c72157472a9544e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

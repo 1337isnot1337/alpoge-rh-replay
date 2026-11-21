@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FundamentalDomainFourierUnfolding",
+  "source_sha256": "99422c7ca3997ba65188927701561c9df422909e211a38c18235edc3a8957146",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename integral_finset_sum and integrable_finset_sum to integral_finsetSum and integrable_finsetSum in Mathlib v4.36.0."
+}

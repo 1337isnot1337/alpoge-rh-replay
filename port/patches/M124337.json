@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IntegrableOfMulUnimodular",
+  "source_sha256": "4d19148d9fd9cee53ef62086b79ce186e7909e33d5124fbb977fa8394dc2ac82",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass explicit subset proof (fun _ hz₁ => hzero _ hz₁) to closure_minimal in vanish_abs for Mathlib v4.36.0."
+}

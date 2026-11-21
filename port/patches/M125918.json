@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ModularCharacterFunEqOfMapLeftMul",
+  "source_sha256": "ed8a98a8011095e6d7e0b2b6ce9e4309ef6ce2c5910ae096ce4af33eebc62e26",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Discharge the AEMeasurable Inv.inv side goal produced by Measure.map_smul with measurable_inv.aemeasurable in Mathlib v4.36.0."
+}

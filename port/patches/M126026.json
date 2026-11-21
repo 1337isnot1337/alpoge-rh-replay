@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MultisetAntitoneEnumeration",
+  "source_sha256": "023786e229ef717f805d768633ec5669f9063bde24655a6ab7ebc41a38ac4ce8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Std.Total instead of IsTotal for List.pairwise_insertionSort in Mathlib v4.36.0."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FourierParameterDerivative",
+  "source_sha256": "b8c302297ed417018f6c95f740160e85e3c7fcc86cff368d4bbd3a6283c6dbfd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

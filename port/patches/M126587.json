@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.PolynomialTimesGaussianBounded",
+  "source_sha256": "a088e971bf34a3923bf2143d04bf0dba853abc4c5ea298c908ef7619a0c7aaba",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

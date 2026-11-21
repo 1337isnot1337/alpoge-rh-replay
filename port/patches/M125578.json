@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LowerLeftBlock",
+  "source_sha256": "32bf92ae99fe41362e82922c5f5aba5cd55968d16f9a5d82afd56281d2ffd8cb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

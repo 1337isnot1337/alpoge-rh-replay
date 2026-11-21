@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LocalSplittingKernelBaseChange",
+  "source_sha256": "aff79b203243b792cdb80b881c6a81f5ef84123082f72fc50fcf58034d51ec66",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
