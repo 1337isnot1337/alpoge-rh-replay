@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.MainThm",
+  "source_sha256": "e73cdc0a3ecba78641e1b75326c1d8bff26a9d46cfc35c5cb4a9eb8e164cb550",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`DoubleCoset.eq` and `DoubleCoset.out_eq'` now take their subgroup and element arguments implicitly, and `DoubleCoset.mk_out_eq_mul` states `∃ h ∈ H, ∃ k ∈ K, _`, so the pattern binds each witness before its membership proof. The statement of `main_thm` is unchanged."
+}

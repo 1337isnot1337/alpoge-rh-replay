@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.NewtonRecursionPolyUnique",
+  "source_sha256": "749c6012da64319f475b7243ab7b32f87f689f65ac6e21975cdbfb868601ee81",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`finset_sum_coeff` and `eval_finset_sum` are now `finsetSum_coeff` and `eval_finsetSum`."
+}

@@ -1,0 +1,13 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/IntegralHaarEqZeroOfFibreIntegralsEqZero.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/IntegralHaarEqZeroOfFibreIntegralsEqZero.lean
+@@ -10,8 +10,8 @@ theorem integral_haar_eq_zero_of_fibre_integrals_eq_zero :
+   haveI : LocallyCompactSpace Q := hQ.locallyCompactSpace
+   haveI : SecondCountableTopology P := TopologicalSpace.Subtype.secondCountableTopology (P : Set H)
+   haveI : SecondCountableTopology Q := TopologicalSpace.Subtype.secondCountableTopology (Q : Set H)
+-  haveI : BorelSpace P := Subtype.borelSpace (P : Set H)
+-  haveI : BorelSpace Q := Subtype.borelSpace (Q : Set H)
++  haveI : BorelSpace P := Subtype.borelSpace (· ∈ P)
++  haveI : BorelSpace Q := Subtype.borelSpace (· ∈ Q)
+   let m : P × Q →* H :=
+     { toFun := fun x => (x.1 : H) * x.2
+       map_one' := by simp

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.FiniteAndNcardMinpolyCoeffHeightLe",
+  "source_sha256": "04afe51417ff25301a9ed757ffbee3d9f70fb23d2c342efbaa5c635f4c143498",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Finset.one_le_prod` now needs `MulLeftMono`, which `ℝ` lacks; use `Finset.one_le_prod₀`, which has the original argument."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.FourierUniquenessOfOpenSubgroup",
+  "source_sha256": "9eeed483e01bd9994715faff3ca5b6343baaaf3bbc3fcd09e30591e276a251d5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`continuous_add_left` and `integral_finset_sum` are now `continuous_const_add` and `integral_finsetSum`."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.NullMeasurableSetShearImage",
+  "source_sha256": "aaaf160624a55bdc618b2503f50732859358a6d89005a2976d883c47b0b0919c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Set` is now a structure, so a set can no longer be applied to a point and `s =ᵐ[μ] t` no longer unfolds to a pointwise equation. The predicate passed to `ae_map_iff` and the facts `e1`, `e2` use membership instead, and `Filter.eventuallyEqSet_iff` converts the goal and `toMeasurable_ae_eq` to the pointwise form."
+}

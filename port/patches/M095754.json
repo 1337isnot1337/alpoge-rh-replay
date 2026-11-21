@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.LintegralHaarEqCompactSubgroupTransversal",
+  "source_sha256": "add74b52c27349fa8c91fa573983f21907608191aec8888077f881938e0ec11f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Measure.map_smul` now takes `AEMeasurable f μ`; pass `measurable_inv.aemeasurable`."
+}
