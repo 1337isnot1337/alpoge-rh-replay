@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TransferContinuousOfContinuousOn",
+  "source_sha256": "fe78d4148630869416902b08318ac09348321d546dec065f4aebeacfa404675c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename continuous_finset_sum to continuous_finsetSum. Statements are unchanged."
+}

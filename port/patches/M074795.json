@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TsumSetIntegralProdEqZeroOfInner",
+  "source_sha256": "3268ca63fee683dba8086a8ac43fe9de7b1b1b2dd8dba6c5f4f8edfb7c0f9d13",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename AEMeasurable.ennreal_tsum to AEMeasurable.tsum. Statements are unchanged."
+}
