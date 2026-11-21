@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffAnnihilatedOfAevalMemKerPow",
+  "source_sha256": "a95c0651a38de3d4ea152f741a17b5d948762d16a8d9326af13a2ca102f1f379",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Update coefficient applications in the coefficient, evaluation and annihilation statements and their proofs. The declaration text replaces MvPolynomial.coeff m p by p.coeff m (AddMonoidAlgebra.coeff p applied to m). This is the same coefficient: the original pinned Mathlib defines MvPolynomial.coeff m p as @DFunLike.coe _ _ _ _ (AddMonoidAlgebra.coeff p) m (Mathlib/Algebra/MvPolynomial/Basic.lean:513-514). Expanding that removed wrapper gives the ported expression, with the same polynomial and exponent. No assumptions or conclusions are added or removed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0008-lean436-20261121/packet-result.json"
+}

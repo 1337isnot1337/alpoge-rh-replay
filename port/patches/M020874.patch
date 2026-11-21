@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DenseAnalyticGrowthSchwartz.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DenseAnalyticGrowthSchwartz.lean
+@@ -66,7 +66,7 @@
+   let T : V ≃L[ℝ] EuclideanSpace ℝ (Fin (Module.finrank ℝ V)) := toEuclidean
+   let C := SchwartzMap.compCLMOfContinuousLinearEquiv ℂ (F := ℂ) T
+   let Ci := SchwartzMap.compCLMOfContinuousLinearEquiv ℂ (F := ℂ) T.symm
+-  let Fe := SchwartzMap.fourierTransformCLE ℂ (E := 𝓢(EuclideanSpace ℝ (Fin (Module.finrank ℝ V)), ℂ))
++  let Fe := FourierTransform.fourierCLE ℂ 𝓢(EuclideanSpace ℝ (Fin (Module.finrank ℝ V)), ℂ)
+   let Φ : 𝓢(EuclideanSpace ℝ (Fin (Module.finrank ℝ V)), ℂ) →L[ℂ] 𝓢(V, ℂ) :=
+     C.comp (Fe : 𝓢(EuclideanSpace ℝ (Fin (Module.finrank ℝ V)), ℂ) →L[ℂ] _)
+   have hsurj : Function.Surjective Φ := by

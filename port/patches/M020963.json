@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DerivationExtendMvPolynomial",
+  "source_sha256": "96d22301bbf86c7717f2a401bb1cbd750c198e11db1def749622c010103f2b10",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Update coefficient applications in coeffDerivFun, coeff_coeffDerivFun and the monomial proof. The declaration text replaces MvPolynomial.coeff m p by p.coeff m (AddMonoidAlgebra.coeff p applied to m). This is the same coefficient: the original pinned Mathlib defines MvPolynomial.coeff m p as @DFunLike.coe _ _ _ _ (AddMonoidAlgebra.coeff p) m (Mathlib/Algebra/MvPolynomial/Basic.lean:513-514). Expanding that removed wrapper gives the ported expression, with the same polynomial and exponent. No assumptions or conclusions are added or removed. In coeffDerivFun the summation support, monomials and derivation are unchanged; only this definitionally equal coefficient expression changes, so the derived additive homomorphism is preserved.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0008-lean436-20261121/packet-result.json"
+}
