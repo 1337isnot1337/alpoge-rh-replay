@@ -41,10 +41,22 @@ jobs:
         run: |
           test -n "$ARTIFACT_ID"
           for attempt in {1..20}; do
-            if gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" --paginate \
-              --jq '.artifacts[] | select(.name == "github-pages" and (.expired | not)) | .id' \
-              | grep -Fxq "$ARTIFACT_ID"; then
-              exit 0
+            err_file=$(mktemp)
+            if out=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" --paginate \
+              --jq '.artifacts[] | select(.name == "github-pages" and (.expired | not)) | .id' 2>"$err_file"); then
+              rm -f "$err_file"
+              if printf '%s\n' "$out" | grep -Fxq "$ARTIFACT_ID"; then
+                exit 0
+              fi
+            else
+              err=$(cat "$err_file")
+              rm -f "$err_file"
+              printf '%s\n' "$err" >&2
+              if printf '%s\n' "$err" | grep -qiE 'rate limit|HTTP 403|HTTP 429'; then
+                echo "GitHub API rate limit hit while polling artifacts; waiting briefly and proceeding to deploy-pages." >&2
+                sleep 10
+                exit 0
+              fi
             fi
             sleep 3
           done
