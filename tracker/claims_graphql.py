@@ -4,12 +4,16 @@ import io
 import json
 import os
 import re
+import sys
+import time
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 from github_rate_limit import ATTEMPTS, retry_rate_limited, wait_for_rate_limit
 
 LABELS = ('claim', 'claim-granted', 'claim-conflict')
+GATEWAY_ATTEMPTS = 4
+GATEWAY_DELAY = 20
 COMMENT_FIELDS = 'databaseId body author { login __typename }'
 
 
@@ -39,7 +43,16 @@ class ClaimsGraphQL:
 
     def read_query(self, query, **variables):
         # Retry this page before advancing its cursor. No mutation is replayed here.
-        return retry_rate_limited(lambda: self.query(query, **variables), 'Retrying GraphQL read')
+        # Large pages can time out at GitHub's gateway; a read is safe to repeat.
+        for attempt in range(GATEWAY_ATTEMPTS):
+            try:
+                return retry_rate_limited(lambda: self.query(query, **variables), 'Retrying GraphQL read')
+            except HTTPError as error:
+                if error.code not in (502, 503, 504) or attempt == GATEWAY_ATTEMPTS - 1:
+                    raise
+                error.close()
+                print(f'GitHub gateway error (HTTP {error.code}). Retrying GraphQL read.', file=sys.stderr, flush=True)
+                time.sleep(GATEWAY_DELAY * (attempt + 1))
 
     def snapshot(self):
         query = '''
