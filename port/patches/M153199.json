@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LogVandermondeBounds.LogVandermondeProofs.GammaIntegralPolynomialBound",
+  "source_sha256": "d8b56fc86525bef94ada05f34e166b1b91d8a4c7eec6ab746637ab6623c7cf40",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: Use prod_le_prod\u2080 for the original nonnegative real-product inequality. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0150-lean436-20261121/packet-result.json"
+}

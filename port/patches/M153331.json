@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.NormUnitaryBounds.DetPolynomialWeights.CoefficientBoundHolds",
+  "source_sha256": "7e925e34fb51b7d207de1b13ba6cf2df9ca17f566cf100880b86193c34e2c071",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0150-lean436-20261121/packet-result.json"
+}

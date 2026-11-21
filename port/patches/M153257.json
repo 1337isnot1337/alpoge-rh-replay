@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.MahlerMeasure.MahlerMeasureProofs.TrueRing",
+  "source_sha256": "b06c0c00d1743cebe99d89bc79eea99777ffd2e08262b59fc809ca504059e375",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0150-lean436-20261121/packet-result.json"
+}

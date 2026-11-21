@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.SiegelLatticeTheory.TraceIntegralEstimates.EnergyAbsDefs",
+  "source_sha256": "22073e264298deb623a349b3259e0b8845af0a5e4188acbd78b1f3dc1f8cdbbb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0150-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.MahlerMeasure.MahlerMeasureProofs.DeterminantBlockLeadingTerm",
+  "source_sha256": "1f4882b677236c11b97450689713fce69e2ee9ddd031911635b037ab165ca74d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0150-lean436-20261121/packet-result.json"
+}
