@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/CommutativeAlgebra/GrGen.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/CommutativeAlgebra/GrGen.lean
+@@ -98,7 +98,7 @@
+       · exact Algebra.subset_adjoin (Set.mem_union_left _ (he m))
+     convert hmem using 1
+     apply Subtype.ext
+-    simp only [AddSubmonoidClass.coe_finset_sum, MulMemClass.coe_mul, SubmonoidClass.coe_finset_prod,
++    simp only [AddSubmonoidClass.coe_finsetSum, MulMemClass.coe_mul, SubmonoidClass.coe_finsetProd,
+       SubmonoidClass.coe_pow, e, WPres.zA, WPres.z]
+     rw [AlgHom.toLinearMap_apply, hfe, map_sum]
+     refine Finset.sum_congr rfl fun m hm => ?_
