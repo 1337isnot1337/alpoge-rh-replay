@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Divisors.OrthSubrepresentation",
+  "source_sha256": "93a139341ca69d8bce6780a8aaaa9812da80482bfefa2181c00431b7dc487951",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Unfold the trivial representation in the character calculation so the trace simplifies to the trace of the identity."
+}
