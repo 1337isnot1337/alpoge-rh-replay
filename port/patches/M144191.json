@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CyclotomicNorms.NonsquarefreeBounds.Central",
+  "source_sha256": "efe22d8cab215f48b1d497e09333cee6e3238828b18b35951eb27afe3d71ed14",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

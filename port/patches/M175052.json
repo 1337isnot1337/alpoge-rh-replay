@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ResidueCardinality.ArtinOntoB",
+  "source_sha256": "8a87a54076d17015356893141a74233aca19f0e5184b695f4fd6bd94a314b5d4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

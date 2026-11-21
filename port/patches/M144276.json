@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.DoubleCosetMeasures.LowerUnipotentOrbits.IsIntOfLatOfLe",
+  "source_sha256": "80d14abb2a34e698a7ca6c697221de6b2adfe3925eb3e138b7552ba0f72f2cca",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

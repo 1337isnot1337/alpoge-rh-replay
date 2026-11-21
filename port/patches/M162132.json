@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.WeightedDeltaMeans.LogBaseHeightBound",
+  "source_sha256": "9bc47e78561330c7aa450dc690a9dd8055055eed7199cafc8c4890063825a5f2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

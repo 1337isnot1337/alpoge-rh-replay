@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.Brauer.CrossedProduct",
+  "source_sha256": "8ec84231ca70914d646eab4db6273e99b22ba80bc1ec094d4a5650d3ac999c0d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d0-rem-v2: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.FlagImmersions.MapProdLinear",
+  "source_sha256": "2d81f31a088b19582bf8f6f0ff5a2b660d66a8d8c317ea9426d6f7a1bde6a4c6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d0-rem-v2: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

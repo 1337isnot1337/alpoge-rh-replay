@@ -3,5 +3,6 @@
   "source_sha256": "a52b77d5b1d1f6f1da9e381958b4d0baad222246cb95a5fbadb2496d15c0484d",
   "lean": "leanprover/lean4:v4.36.0",
   "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
-  "notes": "unchanged"
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
 }

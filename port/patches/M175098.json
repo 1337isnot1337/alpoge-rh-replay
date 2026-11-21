@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.SemistableReduction.LogNormEvalZeroLeCircleAverage",
+  "source_sha256": "22a9003eb44a6df27423037060a6ad021189b05704e51cbeb76467561ba37d7a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d0-rem-v2: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

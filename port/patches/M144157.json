@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CharacterColumnKernels.StatementG",
+  "source_sha256": "1c47c209c5a618b7b7046876603ed2b0fdfe29e4d19369eeea918dad3ec9bfca",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

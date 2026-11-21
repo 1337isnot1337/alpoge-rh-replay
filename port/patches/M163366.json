@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.TateThesis.NoSmallSubgroups",
+  "source_sha256": "6ba05d2c9de5c67749fcfbbfe32163bb5fae4cae622adb4fd893481f947a8da5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d0-rem-v2: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

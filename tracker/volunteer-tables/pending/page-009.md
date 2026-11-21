@@ -4,6 +4,8 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@rayy3535](https://github.com/rayy3535) | [M090673](https://github.com/rohanarun/alpoge-rh-replay/issues/15793#issuecomment-7058824378) | Pending review |
+| [@mu-mei](https://github.com/mu-mei) | [M080144](https://github.com/rohanarun/alpoge-rh-replay/issues/15794#issuecomment-7058957494) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M082776](https://github.com/rohanarun/alpoge-rh-replay/issues/15795#issuecomment-7058964035) | Pending review |
 | [@mu-mei](https://github.com/mu-mei) | [M119807](https://github.com/rohanarun/alpoge-rh-replay/issues/15796#issuecomment-7058961387) | Pending review |
 | [@t-choudhury](https://github.com/t-choudhury) | [M071904](https://github.com/rohanarun/alpoge-rh-replay/issues/15797#issuecomment-7058892871) | Pending review |
@@ -252,5 +254,3 @@
 | [@dga471](https://github.com/dga471) | [M038616](https://github.com/rohanarun/alpoge-rh-replay/issues/17624#issuecomment-7059897661) | Pending review |
 | [@dga471](https://github.com/dga471) | [M039983](https://github.com/rohanarun/alpoge-rh-replay/issues/17625#issuecomment-7059898367) | Pending review |
 | [@dga471](https://github.com/dga471) | [M039985](https://github.com/rohanarun/alpoge-rh-replay/issues/17626#issuecomment-7059899193) | Pending review |
-| [@dga471](https://github.com/dga471) | [M040266](https://github.com/rohanarun/alpoge-rh-replay/issues/17627#issuecomment-7059899963) | Pending review |
-| [@dga471](https://github.com/dga471) | [M041131](https://github.com/rohanarun/alpoge-rh-replay/issues/17628#issuecomment-7059900700) | Pending review |

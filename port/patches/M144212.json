@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.DegreeFormula.PointDegree.PermExpInj",
+  "source_sha256": "1a0458ccbccc75c01eff1ac16598810977ac49c534711dc4d15741630301b8aa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}
