@@ -35,30 +35,30 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- active-volunteers-start -->
 
-[1,129 entries. View the full table](tracker/volunteer-tables/active/README.md).
+[1,040 entries. View the full table](tracker/volunteer-tables/active/README.md).
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@mu-mei](https://github.com/mu-mei) | [M101147](https://github.com/rohanarun/alpoge-rh-replay/issues/15661) | Claimed |
-| [@mu-mei](https://github.com/mu-mei) | [M101868](https://github.com/rohanarun/alpoge-rh-replay/issues/15662) | Claimed |
-| [@mu-mei](https://github.com/mu-mei) | [M004276](https://github.com/rohanarun/alpoge-rh-replay/issues/15663) | Claimed |
-| [@mu-mei](https://github.com/mu-mei) | [M005362](https://github.com/rohanarun/alpoge-rh-replay/issues/15666) | Claimed |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M034380](https://github.com/rohanarun/alpoge-rh-replay/issues/15667) | Claimed |
-| [@mu-mei](https://github.com/mu-mei) | [M038946](https://github.com/rohanarun/alpoge-rh-replay/issues/15668) | Claimed |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M109831](https://github.com/rohanarun/alpoge-rh-replay/issues/15669) | Claimed |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M021541](https://github.com/rohanarun/alpoge-rh-replay/issues/15670) | Claimed |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M103638](https://github.com/rohanarun/alpoge-rh-replay/issues/15672) | Claimed |
-| [@mu-mei](https://github.com/mu-mei) | [M079749](https://github.com/rohanarun/alpoge-rh-replay/issues/15674) | Claimed |
-| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M120322](https://github.com/rohanarun/alpoge-rh-replay/issues/15675) | Claimed |
-| [@mu-mei](https://github.com/mu-mei) | [M100701](https://github.com/rohanarun/alpoge-rh-replay/issues/15676) | Claimed |
-| [@mu-mei](https://github.com/mu-mei) | [M101804](https://github.com/rohanarun/alpoge-rh-replay/issues/15678) | Claimed |
+| [@dga471](https://github.com/dga471) | [M164987](https://github.com/rohanarun/alpoge-rh-replay/issues/15498) | Claimed |
+| [@dga471](https://github.com/dga471) | [M160926](https://github.com/rohanarun/alpoge-rh-replay/issues/15500) | Claimed |
+| [@dga471](https://github.com/dga471) | [M063464](https://github.com/rohanarun/alpoge-rh-replay/issues/15531) | Claimed |
+| [@dga471](https://github.com/dga471) | [M166893](https://github.com/rohanarun/alpoge-rh-replay/issues/15532) | Claimed |
+| [@dga471](https://github.com/dga471) | [M116134](https://github.com/rohanarun/alpoge-rh-replay/issues/15534) | Claimed |
+| [@dga471](https://github.com/dga471) | [M041043](https://github.com/rohanarun/alpoge-rh-replay/issues/15599) | Claimed |
+| [@dga471](https://github.com/dga471) | [M002920](https://github.com/rohanarun/alpoge-rh-replay/issues/15602) | Claimed |
+| [@dga471](https://github.com/dga471) | [M169431](https://github.com/rohanarun/alpoge-rh-replay/issues/15603) | Claimed |
+| [@dga471](https://github.com/dga471) | [M099544](https://github.com/rohanarun/alpoge-rh-replay/issues/15604) | Claimed |
+| [@dga471](https://github.com/dga471) | [M165001](https://github.com/rohanarun/alpoge-rh-replay/issues/15605) | Claimed |
+| [@dga471](https://github.com/dga471) | [M165025](https://github.com/rohanarun/alpoge-rh-replay/issues/15607) | Claimed |
+| [@dga471](https://github.com/dga471) | [M165026](https://github.com/rohanarun/alpoge-rh-replay/issues/15608) | Claimed |
+| [@dga471](https://github.com/dga471) | [M165042](https://github.com/rohanarun/alpoge-rh-replay/issues/15609) | Claimed |
+| [@dga471](https://github.com/dga471) | [M070801](https://github.com/rohanarun/alpoge-rh-replay/issues/15611) | Claimed |
+| [@dga471](https://github.com/dga471) | [M120680](https://github.com/rohanarun/alpoge-rh-replay/issues/15612) | Claimed |
 | [@amrehan](https://github.com/amrehan) | [M161051](https://github.com/rohanarun/alpoge-rh-replay/issues/15679) | Claimed |
 | [@emsi](https://github.com/emsi) | [P1772](https://github.com/rohanarun/alpoge-rh-replay/issues/15680) | Claimed |
-| [@mu-mei](https://github.com/mu-mei) | [M119705](https://github.com/rohanarun/alpoge-rh-replay/issues/15681) | Claimed |
 | [@dga471](https://github.com/dga471) | [M164986](https://github.com/rohanarun/alpoge-rh-replay/issues/15682) | Claimed |
 | [@dga471](https://github.com/dga471) | [M165004](https://github.com/rohanarun/alpoge-rh-replay/issues/15683) | Claimed |
 | [@dga471](https://github.com/dga471) | [M165021](https://github.com/rohanarun/alpoge-rh-replay/issues/15684) | Claimed |
-| [@mu-mei](https://github.com/mu-mei) | [M128308](https://github.com/rohanarun/alpoge-rh-replay/issues/15685) | Claimed |
 
 <!-- active-volunteers-end -->
 
