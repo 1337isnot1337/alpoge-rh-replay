@@ -1,0 +1,24 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/ContourShiftTubeDomain.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/ContourShiftTubeDomain.lean
+@@ -7,7 +7,10 @@
+ lemma tubeShift_gauss_integrable (ι : Type) [Fintype ι] :
+     Integrable (fun y : ι → ℝ => Real.exp (-(∑ i, y i ^ 2) / 4)) := by
+   have h : Integrable (fun y : ι → ℝ => ∏ i, Real.exp (-(1 / 4 : ℝ) * y i ^ 2)) :=
+-    Integrable.fintype_prod (fun _ => integrable_exp_neg_mul_sq (by norm_num))
++    Integrable.fintype_prod
++      (f := fun (_ : ι) (t : ℝ) => Real.exp (-(1 / 4 : ℝ) * t ^ 2))
++      (μ := fun _ : ι => (volume : Measure ℝ))
++      (fun _ => integrable_exp_neg_mul_sq (by norm_num))
+   refine h.congr (ae_of_all _ fun y => ?_)
+   simp only []
+   rw [← Real.exp_sum]
+@@ -178,7 +181,8 @@
+       (fun w hw => (hcont w hw).aestronglyMeasurable) ?_
+     intro w₀ _ ρ _ hb
+     refine ⟨fun y => (|C| * Real.exp ((|w₀.im| + ρ) ^ 2 * (∑ i, v i ^ 2) / 2)) *
+-      Real.exp (-(∑ i, y i ^ 2) / 4), (tubeShift_gauss_integrable ι).const_mul _, ?_⟩
++      Real.exp (-(∑ i, y i ^ 2) / 4), (tubeShift_gauss_integrable ι).const_mul
++        (|C| * Real.exp ((|w₀.im| + ρ) ^ 2 * (∑ i, v i ^ 2) / 2)), ?_⟩
+     intro w hw y
+     refine (hbd w (hb hw) y).trans ?_
+     beta_reduce

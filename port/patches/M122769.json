@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsFiniteAffineCover",
+  "source_sha256": "5645f4f967fb4f9a5ae10f1a354497d19643589e78c266415941741470b19a5e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: give injective_iff_map_eq_zero the existing algebra map as an AddMonoidHom and expose its application with change. The IsFractionRing proposition instance has the identical type and a definitionally equal proof by proof irrelevance. No data definitions or exported theorem statements change.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0060-lean436-20261121/packet-result.json"
+}
