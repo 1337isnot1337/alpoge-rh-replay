@@ -1,0 +1,107 @@
+Module: M018412 Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComapEqKerIff
+Started: 2026-11-21T23:34:42.537457+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComapEqKerIff:olean"]
+Pinned source SHA-256: dc7940729fc00a2ed7843dee7d838ff33151876e5f0b1b71c77cdb5713484b87
+Compiled source SHA-256: dc7940729fc00a2ed7843dee7d838ff33151876e5f0b1b71c77cdb5713484b87
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsHilbRep (2.8s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IsHilbRep.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsHilbRep:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IsHilbRep.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComapEqKerIff (2.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ComapEqKerIff.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ComapEqKerIff.lean:41:65: This simp argument is unused:
+  pullback.lift_fst
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [bc, pullback.map, pullback.lift_snd, pullback.lift_fst_assoc, pullback.lift_snd_assoc,
+    Category.comp_id, Category.assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ComapEqKerIff.lean:41:103: This simp argument is unused:
+  pullback.lift_fst_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [bc, pullback.map, pullback.lift_fst, pullback.lift_snd, pullback.lift_snd_assoc, Category.comp_id,
+    Category.assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ComapEqKerIff.lean:41:128: This simp argument is unused:
+  pullback.lift_snd_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [bc, pullback.map, pullback.lift_fst, pullback.lift_snd, pullback.lift_fst_assoc, Category.comp_id,
+    Category.assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ComapEqKerIff.lean:41:171: This simp argument is unused:
+  Category.assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [bc, pullback.map, pullback.lift_fst, pullback.lift_snd, pullback.lift_fst_assoc,
+    pullback.lift_snd_assoc, Category.comp_id]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ComapEqKerIff.lean:42:130: This simp argument is unused:
+  pullback.lift_snd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [bc, pullback.map, pullback.lift_fst, pullback.lift_fst_assoc, pullback.lift_snd_assoc,
+    Category.comp_id, Category.assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ComapEqKerIff.lean:42:149: This simp argument is unused:
+  pullback.lift_fst_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [bc, pullback.map, pullback.lift_fst, pullback.lift_snd, pullback.lift_snd_assoc, Category.comp_id,
+    Category.assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ComapEqKerIff.lean:42:174: This simp argument is unused:
+  pullback.lift_snd_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [bc, pullback.map, pullback.lift_fst, pullback.lift_snd, pullback.lift_fst_assoc, Category.comp_id,
+    Category.assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ComapEqKerIff.lean:42:217: This simp argument is unused:
+  Category.assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [bc, pullback.map, pullback.lift_fst, pullback.lift_snd, pullback.lift_fst_assoc,
+    pullback.lift_snd_assoc, Category.comp_id]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ComapEqKerIff.lean:52:96: This simp argument is unused:
+  pullback.lift_fst_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [bc, pullback.map, pullback.lift_fst, pullback.lift_snd, pullback.lift_snd_assoc, Category.comp_id,
+    Category.assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ComapEqKerIff.lean:105:9: Variable name `T` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _T
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ComapEqKerIff.lean:106:11: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ComapEqKerIff.lean:106:13: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.835
+Timed out: False

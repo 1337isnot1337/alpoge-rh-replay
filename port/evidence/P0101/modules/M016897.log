@@ -1,0 +1,69 @@
+Module: M016897 Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardMultisetWordsMulFactorialStatement
+Started: 2026-11-21T23:29:19.124766+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardMultisetWordsMulFactorialStatement:olean"]
+Pinned source SHA-256: e9ebf499af759691b6359e57aa5a15ab2e04b93b87f805256e1139d3c704e323
+Compiled source SHA-256: e9ebf499af759691b6359e57aa5a15ab2e04b93b87f805256e1139d3c704e323
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardMultisetWordsMulFactorial (3.9s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CardMultisetWordsMulFactorial.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CardMultisetWordsMulFactorial.lean:18:15: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CardMultisetWordsMulFactorial.lean:23:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CardMultisetWordsMulFactorial.lean:24:44: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CardMultisetWordsMulFactorial.lean:27:82: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CardMultisetWordsMulFactorial.lean:29:44: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CardMultisetWordsMulFactorial.lean:30:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CardMultisetWordsMulFactorial.lean:68:22: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hμ, hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CardMultisetWordsMulFactorial.lean:77:14: This simp argument is unused:
+  ha
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [this]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardMultisetWordsMulFactorial:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CardMultisetWordsMulFactorial.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardMultisetWordsMulFactorialStatement (2.9s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CardMultisetWordsMulFactorialStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CardMultisetWordsMulFactorialStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CardMultisetWordsMulFactorialStatement.lean:7:73: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CardMultisetWordsMulFactorialStatement.lean:7:135: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CardMultisetWordsMulFactorialStatement.lean:7:73: Unused tactic linter: `exact GlobalTheory.MultinomialCount.card_mul_prod_factorial` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CardMultisetWordsMulFactorialStatement.lean:7:135: Unused tactic linter: `(intros;
+  apply GlobalTheory.MultinomialCount.card_mul_prod_factorial <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.84
+Timed out: False

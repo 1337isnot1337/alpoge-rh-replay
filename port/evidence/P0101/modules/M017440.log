@@ -1,0 +1,77 @@
+Module: M017440 Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharmatrixBlockDiagonal
+Started: 2026-11-21T23:32:17.958348+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharmatrixBlockDiagonal:olean"]
+Pinned source SHA-256: cd0d67e3e64e375f05f362a76175f3bed23aeab8cb4832d770b2afc99415608a
+Compiled source SHA-256: cd0d67e3e64e375f05f362a76175f3bed23aeab8cb4832d770b2afc99415608a
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorProductAction (3.0s)
+warning: src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/TensorProductAction.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/TensorProductAction.lean:110:40: `WittVector.p_nonzero` has been deprecated: Use `WittVector.p_ne_zero` instead
+
+Hint: Replace the deprecated name:
+  WittVector.p_no̵n̵e̲_̲zero
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorProductAction:irArts
+warning: src/Development/AbelianVarietyTheory/BlockTheory/DivisorBase/TensorProductAction.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharmatrixBlockDiagonal (3.3s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CharmatrixBlockDiagonal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CharmatrixBlockDiagonal.lean:39:22: unused name: h2
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CharmatrixBlockDiagonal.lean:39:25: unused name: h2
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CharmatrixBlockDiagonal.lean:36:64: This simp argument is unused:
+  Module.Basis.repr_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [LinearMap.toMatrix_apply, Module.Basis.smulTower_apply, Module.Basis.smulTower_repr,
+    Matrix.blockDiagonal_apply, Algebra.lsmul_coe, smul_smul, Module.Basis.repr_self, Finsupp.smul_single,
+    Finsupp.single_apply, LinearMap.mulLeft_apply, smul_eq_mul, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CharmatrixBlockDiagonal.lean:37:6: This simp argument is unused:
+  Module.Basis.repr_self
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [LinearMap.toMatrix_apply, Module.Basis.smulTower_apply, Module.Basis.smulTower_repr,
+    Matrix.blockDiagonal_apply, Algebra.lsmul_coe, smul_smul, Module.Basis.repr_smul, Finsupp.smul_single,
+    Finsupp.single_apply, LinearMap.mulLeft_apply, smul_eq_mul, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CharmatrixBlockDiagonal.lean:37:30: This simp argument is unused:
+  Finsupp.smul_single
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [LinearMap.toMatrix_apply, Module.Basis.smulTower_apply, Module.Basis.smulTower_repr,
+    Matrix.blockDiagonal_apply, Algebra.lsmul_coe, smul_smul, Module.Basis.repr_smul, Module.Basis.repr_self,
+    Finsupp.single_apply, LinearMap.mulLeft_apply, smul_eq_mul, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CharmatrixBlockDiagonal.lean:37:51: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [LinearMap.toMatrix_apply, Module.Basis.smulTower_apply, Module.Basis.smulTower_repr,
+    Matrix.blockDiagonal_apply, Algebra.lsmul_coe, smul_smul, Module.Basis.repr_smul, Module.Basis.repr_self,
+    Finsupp.smul_single, LinearMap.mulLeft_apply, smul_eq_mul, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CharmatrixBlockDiagonal.lean:38:6: This simp argument is unused:
+  smul_eq_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [LinearMap.toMatrix_apply, Module.Basis.smulTower_apply, Module.Basis.smulTower_repr,
+    Matrix.blockDiagonal_apply, Algebra.lsmul_coe, smul_smul, Module.Basis.repr_smul, Module.Basis.repr_self,
+    Finsupp.smul_single, Finsupp.single_apply, LinearMap.mulLeft_apply, mul_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CharmatrixBlockDiagonal.lean:38:19: This simp argument is unused:
+  mul_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [LinearMap.toMatrix_apply, Module.Basis.smulTower_apply, Module.Basis.smulTower_repr,
+    Matrix.blockDiagonal_apply, Algebra.lsmul_coe, smul_smul, Module.Basis.repr_smul, Module.Basis.repr_self,
+    Finsupp.smul_single, Finsupp.single_apply, LinearMap.mulLeft_apply, smul_eq_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.388
+Timed out: False

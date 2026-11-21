@@ -1,0 +1,17 @@
+Module: M019707 Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousOnComplexHessianOfContDiffOnTwo
+Started: 2026-11-21T23:38:21.195305+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousOnComplexHessianOfContDiffOnTwo:olean"]
+Pinned source SHA-256: 4d8065d0644a93dabcf676307b6ea419d237c44b6dc527e3ce9eaad57e371ac4
+Compiled source SHA-256: 4d8065d0644a93dabcf676307b6ea419d237c44b6dc527e3ce9eaad57e371ac4
+
+⚠ [18250/18252] Built ReciprocityTheory.L2DbarEstimates.IsLocalHomeomorph (3.1s)
+warning: src/ReciprocityTheory/L2DbarEstimates/IsLocalHomeomorph.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran ReciprocityTheory.L2DbarEstimates.IsLocalHomeomorph:irArts
+warning: src/ReciprocityTheory/L2DbarEstimates/IsLocalHomeomorph.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousOnComplexHessianOfContDiffOnTwo (3.1s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ContinuousOnComplexHessianOfContDiffOnTwo.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.286
+Timed out: False

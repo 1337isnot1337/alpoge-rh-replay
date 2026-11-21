@@ -1,0 +1,30 @@
+Module: M019329 Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugateLinearTensorModuleDecompositionStatement
+Started: 2026-11-21T23:36:18.492449+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugateLinearTensorModuleDecompositionStatement:olean"]
+Pinned source SHA-256: 73dad2f0066d43ecfade74a4a9dbfcea7d275902518b5ee249617ce62c29086d
+Compiled source SHA-256: 73dad2f0066d43ecfade74a4a9dbfcea7d275902518b5ee249617ce62c29086d
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugateLinearTensorModuleDecomposition (4.5s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjugateLinearTensorModuleDecomposition.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugateLinearTensorModuleDecomposition:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjugateLinearTensorModuleDecomposition.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugateLinearTensorModuleDecompositionStatement (3.1s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjugateLinearTensorModuleDecompositionStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjugateLinearTensorModuleDecompositionStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjugateLinearTensorModuleDecompositionStatement.lean:26:63: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjugateLinearTensorModuleDecompositionStatement.lean:26:115: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjugateLinearTensorModuleDecompositionStatement.lean:26:63: Unused tactic linter: `exact GlobalTheory.CMNorm.associated_det_mul_conj` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjugateLinearTensorModuleDecompositionStatement.lean:26:115: Unused tactic linter: `(intros; apply GlobalTheory.CMNorm.associated_det_mul_conj <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.693
+Timed out: False

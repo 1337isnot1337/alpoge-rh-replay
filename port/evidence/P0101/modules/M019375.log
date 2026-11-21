@@ -1,0 +1,86 @@
+Module: M019375 Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugationDerivCutoffPolynomialMemUnitarySpan
+Started: 2026-11-21T23:36:30.187301+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugationDerivCutoffPolynomialMemUnitarySpan:olean"]
+Pinned source SHA-256: 0d99599cd001302fb383cd4f35cb55c6cd102412b8a1cfb4bb902755d0865809
+Compiled source SHA-256: 0d99599cd001302fb383cd4f35cb55c6cd102412b8a1cfb4bb902755d0865809
+
+⚠ [18250/18252] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.TCoefMInMMul
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/TCoefMInMMul.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Definitions.Divisors.TCoefMInMMul:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/TCoefMInMMul.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugationDerivCutoffPolynomialMemUnitarySpan (3.4s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjugationDerivCutoffPolynomialMemUnitarySpan.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjugationDerivCutoffPolynomialMemUnitarySpan.lean:41:19: `Derivation.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {β : outParam (Type u_3)} {inst : FunLike F α β} {inst_1 : Add β}
+    {inst_2 : Add F} [self : IsAddApply F] (f g : F) (x : α), (f + g) x = f x + g x
+instead of
+  ∀ {R : Type u_1} {A : Type u_2} {M : Type u_4} [inst : CommSemiring R] [inst_1 : CommSemiring A]
+    [inst_2 : AddCommMonoid M] [inst_3 : Algebra R A] [inst_4 : Module A M] [inst_5 : Module R M]
+    {D1 D2 : Derivation R A M} (a : A), (D1 + D2) a = D1 a + D2 a
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjugationDerivCutoffPolynomialMemUnitarySpan.lean:41:41: `Derivation.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ {M : Type u_1} {F : Type u_2} {α : outParam (Type u_3)} {β : outParam (Type u_4)} {inst : FunLike F α β}
+    {inst_1 : SMul M β} {inst_2 : SMul M F} [self : IsSMulApply M F] (f : F) (n : M) (x : α), (n • f) x = n • f x
+instead of
+  ∀ {R : Type u_1} {A : Type u_2} {M : Type u_4} [inst : CommSemiring R] [inst_1 : CommSemiring A]
+    [inst_2 : AddCommMonoid M] [inst_3 : Algebra R A] [inst_4 : Module A M] [inst_5 : Module R M] (a : A) {S : Type u_5}
+    [inst_6 : Monoid S] [inst_7 : DistribMulAction S M] [inst_8 : SMulCommClass R S M] [inst_9 : SMulCommClass S A M]
+    (r : S) (D : Derivation R A M), (r • D) a = r • D a
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjugationDerivCutoffPolynomialMemUnitarySpan.lean:45:19: `Derivation.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {β : outParam (Type u_3)} {inst : FunLike F α β} {inst_1 : Add β}
+    {inst_2 : Add F} [self : IsAddApply F] (f g : F) (x : α), (f + g) x = f x + g x
+instead of
+  ∀ {R : Type u_1} {A : Type u_2} {M : Type u_4} [inst : CommSemiring R] [inst_1 : CommSemiring A]
+    [inst_2 : AddCommMonoid M] [inst_3 : Algebra R A] [inst_4 : Module A M] [inst_5 : Module R M]
+    {D1 D2 : Derivation R A M} (a : A), (D1 + D2) a = D1 a + D2 a
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjugationDerivCutoffPolynomialMemUnitarySpan.lean:45:41: `Derivation.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ {M : Type u_1} {F : Type u_2} {α : outParam (Type u_3)} {β : outParam (Type u_4)} {inst : FunLike F α β}
+    {inst_1 : SMul M β} {inst_2 : SMul M F} [self : IsSMulApply M F] (f : F) (n : M) (x : α), (n • f) x = n • f x
+instead of
+  ∀ {R : Type u_1} {A : Type u_2} {M : Type u_4} [inst : CommSemiring R] [inst_1 : CommSemiring A]
+    [inst_2 : AddCommMonoid M] [inst_3 : Algebra R A] [inst_4 : Module A M] [inst_5 : Module R M] (a : A) {S : Type u_5}
+    [inst_6 : Monoid S] [inst_7 : DistribMulAction S M] [inst_8 : SMulCommClass R S M] [inst_9 : SMulCommClass S A M]
+    (r : S) (D : Derivation R A M), (r • D) a = r • D a
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjugationDerivCutoffPolynomialMemUnitarySpan.lean:55:38: `Derivation.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {β : outParam (Type u_3)} {inst : FunLike F α β} {inst_1 : Add β}
+    {inst_2 : Add F} [self : IsAddApply F] (f g : F) (x : α), (f + g) x = f x + g x
+instead of
+  ∀ {R : Type u_1} {A : Type u_2} {M : Type u_4} [inst : CommSemiring R] [inst_1 : CommSemiring A]
+    [inst_2 : AddCommMonoid M] [inst_3 : Algebra R A] [inst_4 : Module A M] [inst_5 : Module R M]
+    {D1 D2 : Derivation R A M} (a : A), (D1 + D2) a = D1 a + D2 a
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjugationDerivCutoffPolynomialMemUnitarySpan.lean:55:60: `Derivation.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ {M : Type u_1} {F : Type u_2} {α : outParam (Type u_3)} {β : outParam (Type u_4)} {inst : FunLike F α β}
+    {inst_1 : SMul M β} {inst_2 : SMul M F} [self : IsSMulApply M F] (f : F) (n : M) (x : α), (n • f) x = n • f x
+instead of
+  ∀ {R : Type u_1} {A : Type u_2} {M : Type u_4} [inst : CommSemiring R] [inst_1 : CommSemiring A]
+    [inst_2 : AddCommMonoid M] [inst_3 : Algebra R A] [inst_4 : Module A M] [inst_5 : Module R M] (a : A) {S : Type u_5}
+    [inst_6 : Monoid S] [inst_7 : DistribMulAction S M] [inst_8 : SMulCommClass R S M] [inst_9 : SMulCommClass S A M]
+    (r : S) (D : Derivation R A M), (r • D) a = r • D a
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.53
+Timed out: False

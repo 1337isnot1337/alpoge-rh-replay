@@ -1,0 +1,29 @@
+Module: M019977 Development.AbelianVarietyTheory.Proofs.DivisorProofs.CovolumeNumericalBoundsCollectStatement
+Started: 2026-11-21T23:39:08.576754+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.CovolumeNumericalBoundsCollectStatement:olean"]
+Pinned source SHA-256: c3a96ec4169f738c6b7f8a8c77235407943d2cb5eeb43ec7009cc78382de3461
+Compiled source SHA-256: c3a96ec4169f738c6b7f8a8c77235407943d2cb5eeb43ec7009cc78382de3461
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CovolumeNumericalBoundsCollect (14s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CovolumeNumericalBoundsCollect.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.CovolumeNumericalBoundsCollect:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CovolumeNumericalBoundsCollect.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CovolumeNumericalBoundsCollectStatement (2.8s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CovolumeNumericalBoundsCollectStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CovolumeNumericalBoundsCollectStatement.lean:6:56: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CovolumeNumericalBoundsCollectStatement.lean:6:101: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CovolumeNumericalBoundsCollectStatement.lean:6:56: Unused tactic linter: `exact GlobalTheory.covol_numerical_collect` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CovolumeNumericalBoundsCollectStatement.lean:6:101: Unused tactic linter: `(intros; apply GlobalTheory.covol_numerical_collect <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 21.061
+Timed out: False

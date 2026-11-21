@@ -1,0 +1,71 @@
+Module: M019288 Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjTransposeMulMulSelfOfUnitaryConjStatement
+Started: 2026-11-21T23:36:07.903931+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjTransposeMulMulSelfOfUnitaryConjStatement:olean"]
+Pinned source SHA-256: c17759fd4917d332b0eb4f3582c5e60aa97b0a6c8d186619dfe88622f7950efd
+Compiled source SHA-256: c17759fd4917d332b0eb4f3582c5e60aa97b0a6c8d186619dfe88622f7950efd
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjTransposeMulMulSelfOfUnitaryConj (3.6s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjTransposeMulMulSelfOfUnitaryConj.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjTransposeMulMulSelfOfUnitaryConj.lean:78:78: This simp argument is unused:
+  r7
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [conjTranspose_add, conjTranspose_mul, conjTranspose_sub, conjTranspose_one,
+    conjTranspose_conjTranspose, hJ, Matrix.add_mul, Matrix.mul_add, Matrix.sub_mul, Matrix.mul_sub, Matrix.one_mul,
+    Matrix.mul_one, Matrix.mul_assoc, r1, r2, r3, r4, r5, r6, r8, r9, r10, hXP, hYP, Matrix.mul_zero, Matrix.zero_mul,
+    sub_zero, add_zero, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjTransposeMulMulSelfOfUnitaryConj.lean:78:82: This simp argument is unused:
+  r8
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [conjTranspose_add, conjTranspose_mul, conjTranspose_sub, conjTranspose_one,
+    conjTranspose_conjTranspose, hJ, Matrix.add_mul, Matrix.mul_add, Matrix.sub_mul, Matrix.mul_sub, Matrix.one_mul,
+    Matrix.mul_one, Matrix.mul_assoc, r1, r2, r3, r4, r5, r6, r7, r9, r10, hXP, hYP, Matrix.mul_zero, Matrix.zero_mul,
+    sub_zero, add_zero, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjTransposeMulMulSelfOfUnitaryConj.lean:79:21: This simp argument is unused:
+  Matrix.zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [conjTranspose_add, conjTranspose_mul, conjTranspose_sub, conjTranspose_one,
+    conjTranspose_conjTranspose, hJ, Matrix.add_mul, Matrix.mul_add, Matrix.sub_mul, Matrix.mul_sub, Matrix.one_mul,
+    Matrix.mul_one, Matrix.mul_assoc, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, hXP, hYP, Matrix.mul_zero, sub_zero,
+    add_zero, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjTransposeMulMulSelfOfUnitaryConj.lean:79:58: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [conjTranspose_add, conjTranspose_mul, conjTranspose_sub, conjTranspose_one,
+    conjTranspose_conjTranspose, hJ, Matrix.add_mul, Matrix.mul_add, Matrix.sub_mul, Matrix.mul_sub, Matrix.one_mul,
+    Matrix.mul_one, Matrix.mul_assoc, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, hXP, hYP, Matrix.mul_zero,
+    Matrix.zero_mul, sub_zero, add_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjTransposeMulMulSelfOfUnitaryConj:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjTransposeMulMulSelfOfUnitaryConj.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjTransposeMulMulSelfOfUnitaryConjStatement (2.8s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjTransposeMulMulSelfOfUnitaryConjStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjTransposeMulMulSelfOfUnitaryConjStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjTransposeMulMulSelfOfUnitaryConjStatement.lean:14:75: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjTransposeMulMulSelfOfUnitaryConjStatement.lean:14:139: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjTransposeMulMulSelfOfUnitaryConjStatement.lean:14:75: Unused tactic linter: `exact GlobalTheory.conjTranspose_mul_mul_self_of_unitary_conj` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjTransposeMulMulSelfOfUnitaryConjStatement.lean:14:139: Unused tactic linter: `(intros;
+  apply GlobalTheory.conjTranspose_mul_mul_self_of_unitary_conj <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.587
+Timed out: False

@@ -1,0 +1,67 @@
+Module: M019878 Development.AbelianVarietyTheory.Proofs.DivisorProofs.CotangentMapInjectiveOfSquarePresentationAtPointStatement
+Started: 2026-11-21T23:38:56.332992+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.CotangentMapInjectiveOfSquarePresentationAtPointStatement:olean"]
+Pinned source SHA-256: 048d4497dba17ce39bd80a46bd1b2bc629775656be8b80224107f9f04c21706d
+Compiled source SHA-256: 048d4497dba17ce39bd80a46bd1b2bc629775656be8b80224107f9f04c21706d
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CotangentMapInjectiveOfSquarePresentationAtPoint (5.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CotangentMapInjectiveOfSquarePresentationAtPoint.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CotangentMapInjectiveOfSquarePresentationAtPoint.lean:18:43: This simp argument is unused:
+  pderiv_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hF, hF' l]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CotangentMapInjectiveOfSquarePresentationAtPoint.lean:24:17: This simp argument is unused:
+  pderiv_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [map_sum, hf, this]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CotangentMapInjectiveOfSquarePresentationAtPoint.lean:50:48: This simp argument is unused:
+  pderiv_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ha, hb']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CotangentMapInjectiveOfSquarePresentationAtPoint.lean:96:12: This simp argument is unused:
+  pderiv_X_self
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hη, hΨ, ← IsScalarTower.algebraMap_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CotangentMapInjectiveOfSquarePresentationAtPoint.lean:97:17: This simp argument is unused:
+  pderiv_X_of_ne (Ne.symm hjl)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hjl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.CotangentMapInjectiveOfSquarePresentationAtPoint:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CotangentMapInjectiveOfSquarePresentationAtPoint.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CotangentMapInjectiveOfSquarePresentationAtPointStatement (3.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CotangentMapInjectiveOfSquarePresentationAtPointStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CotangentMapInjectiveOfSquarePresentationAtPointStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CotangentMapInjectiveOfSquarePresentationAtPointStatement.lean:7:95: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CotangentMapInjectiveOfSquarePresentationAtPointStatement.lean:7:179: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CotangentMapInjectiveOfSquarePresentationAtPointStatement.lean:7:95: Unused tactic linter: `exact
+  GlobalTheory.CotangentSquare.cotangent_map_injective_of_square_presentation` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CotangentMapInjectiveOfSquarePresentationAtPointStatement.lean:7:179: Unused tactic linter: `(intros;
+  apply GlobalTheory.CotangentSquare.cotangent_map_injective_of_square_presentation <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 12.242
+Timed out: False

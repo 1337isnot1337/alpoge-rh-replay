@@ -1,0 +1,29 @@
+Module: M017819 Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClmSupBound
+Started: 2026-11-21T23:32:55.039032+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClmSupBound:olean"]
+Pinned source SHA-256: 1d59d8c12c479b0ce3061789a847d7069f4ab3fbf1780c9eec316240568448fc
+Compiled source SHA-256: 1d59d8c12c479b0ce3061789a847d7069f4ab3fbf1780c9eec316240568448fc
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasTemperateGrowthElim (2.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasTemperateGrowthElim.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasTemperateGrowthElim.lean:25:0: automatically included section variable(s) unused in theorem `GlobalTheory.SliceSchwartz.norm_le_norm_elim`:
+  [NormedSpace ℝ V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℝ V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasTemperateGrowthElim:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HasTemperateGrowthElim.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClmSupBound (3.1s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ClmSupBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ClmSupBound.lean:38:9: `Seminorm.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  S̵e̵m̵i̵n̵o̵r̵m̵.̵smul_apply
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.135
+Timed out: False

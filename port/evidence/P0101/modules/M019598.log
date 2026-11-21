@@ -1,0 +1,31 @@
+Module: M019598 Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffTsumOfLocallySummableBoundsStatement
+Started: 2026-11-21T23:36:37.720147+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffTsumOfLocallySummableBoundsStatement:olean"]
+Pinned source SHA-256: 81122a056e1ba43028c9132c26c5def0786a83dd3ea300ea13810693c9edd209
+Compiled source SHA-256: 81122a056e1ba43028c9132c26c5def0786a83dd3ea300ea13810693c9edd209
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffTsumOfLocallySummableBounds (4.1s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ContDiffTsumOfLocallySummableBounds.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffTsumOfLocallySummableBounds:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ContDiffTsumOfLocallySummableBounds.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffTsumOfLocallySummableBoundsStatement (3.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ContDiffTsumOfLocallySummableBoundsStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ContDiffTsumOfLocallySummableBoundsStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ContDiffTsumOfLocallySummableBoundsStatement.lean:9:73: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ContDiffTsumOfLocallySummableBoundsStatement.lean:9:135: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ContDiffTsumOfLocallySummableBoundsStatement.lean:9:73: Unused tactic linter: `exact GlobalTheory.contDiff_tsum_of_locally_summable_bounds` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ContDiffTsumOfLocallySummableBoundsStatement.lean:9:135: Unused tactic linter: `(intros;
+  apply GlobalTheory.contDiff_tsum_of_locally_summable_bounds <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.289
+Timed out: False

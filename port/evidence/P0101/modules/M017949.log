@@ -1,0 +1,31 @@
+Module: M017949 Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmAlgCharEqArgMulAbsStatement
+Started: 2026-11-21T23:33:24.951266+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmAlgCharEqArgMulAbsStatement:olean"]
+Pinned source SHA-256: 356cc50b323b00527e8f70e68dcd9421308020d375768808c12afb4f083db262
+Compiled source SHA-256: 356cc50b323b00527e8f70e68dcd9421308020d375768808c12afb4f083db262
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmAlgCharEqArgMulAbs (2.9s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CmAlgCharEqArgMulAbs.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmAlgCharEqArgMulAbs:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CmAlgCharEqArgMulAbs.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CmAlgCharEqArgMulAbsStatement (2.8s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CmAlgCharEqArgMulAbsStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CmAlgCharEqArgMulAbsStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CmAlgCharEqArgMulAbsStatement.lean:10:69: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CmAlgCharEqArgMulAbsStatement.lean:10:127: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CmAlgCharEqArgMulAbsStatement.lean:10:69: Unused tactic linter: `exact GlobalTheory.Div.CMAlgChar.algChar_eq_arg_mul_abs` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CmAlgCharEqArgMulAbsStatement.lean:10:127: Unused tactic linter: `(intros;
+  apply GlobalTheory.Div.CMAlgChar.algChar_eq_arg_mul_abs <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.785
+Timed out: False

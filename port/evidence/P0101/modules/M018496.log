@@ -1,0 +1,35 @@
+Module: M018496 Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommuteOfCommuteSeparableCharpolyStatement
+Started: 2026-11-21T23:35:13.102498+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommuteOfCommuteSeparableCharpolyStatement:olean"]
+Pinned source SHA-256: 00607aa81b6c2569a80f1920370af7b25d1d97853919479be05133baea5b9b95
+Compiled source SHA-256: 00607aa81b6c2569a80f1920370af7b25d1d97853919479be05133baea5b9b95
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommuteOfCommuteSeparableCharpoly (3.1s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommuteOfCommuteSeparableCharpoly.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommuteOfCommuteSeparableCharpoly.lean:23:8: `Matrix.linearIndependent_cols_iff_isUnit` has been deprecated: Use `Matrix.linearIndependent_col_iff_isUnit` instead
+
+Hint: Replace the deprecated name:
+  M̵a̵t̵r̵i̵x̵.̵l̵i̵n̵e̵a̵r̵I̵n̵d̵e̵p̵e̵n̵d̵e̵n̵t̵_̵c̵o̵l̵s̵_̵i̵f̵f̵_̵i̵s̵U̵n̵i̵t̵l̲i̲n̲e̲a̲r̲I̲n̲d̲e̲p̲e̲n̲d̲e̲n̲t̲_̲c̲o̲l̲_̲i̲f̲f̲_̲i̲s̲U̲n̲i̲t̲
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommuteOfCommuteSeparableCharpoly:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommuteOfCommuteSeparableCharpoly.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommuteOfCommuteSeparableCharpolyStatement (2.8s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommuteOfCommuteSeparableCharpolyStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommuteOfCommuteSeparableCharpolyStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommuteOfCommuteSeparableCharpolyStatement.lean:7:70: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommuteOfCommuteSeparableCharpolyStatement.lean:7:129: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommuteOfCommuteSeparableCharpolyStatement.lean:7:70: Unused tactic linter: `exact GlobalTheory.commute_of_commute_separable_charpoly` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommuteOfCommuteSeparableCharpolyStatement.lean:7:129: Unused tactic linter: `(intros;
+  apply GlobalTheory.commute_of_commute_separable_charpoly <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.936
+Timed out: False

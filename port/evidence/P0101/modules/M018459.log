@@ -1,0 +1,31 @@
+Module: M018459 Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommensurableConjRangeGLSubringStatement
+Started: 2026-11-21T23:34:52.374386+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommensurableConjRangeGLSubringStatement:olean"]
+Pinned source SHA-256: e7d96eec6ee8776758de1131773ff65e432f2110091e367fcc5aa2ec2d1cb557
+Compiled source SHA-256: e7d96eec6ee8776758de1131773ff65e432f2110091e367fcc5aa2ec2d1cb557
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommensurableConjRangeGLSubring (3.9s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommensurableConjRangeGLSubring.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommensurableConjRangeGLSubring:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommensurableConjRangeGLSubring.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommensurableConjRangeGLSubringStatement (2.8s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommensurableConjRangeGLSubringStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommensurableConjRangeGLSubringStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommensurableConjRangeGLSubringStatement.lean:7:70: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommensurableConjRangeGLSubringStatement.lean:7:129: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommensurableConjRangeGLSubringStatement.lean:7:70: Unused tactic linter: `(exact GlobalTheory.commensurable_conj_range_GL_subring)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommensurableConjRangeGLSubringStatement.lean:7:129: Unused tactic linter: `(intros;
+  apply GlobalTheory.commensurable_conj_range_GL_subring <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.84
+Timed out: False
