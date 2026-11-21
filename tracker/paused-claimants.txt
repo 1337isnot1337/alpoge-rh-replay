@@ -1,17 +1,13 @@
 # GitHub logins whose NEW claims get no grant. Existing grants are kept so
 # pending submissions can be fixed. Remove a line to resume normal grants.
 # Added 2026-11-21 from the full review run: failing pending submissions per account.
-ANdATIon  # 898 failing: release files missing x895, other x3
 mu-mei  # 130 failing: log lacks target line x129, other x1
 WorldianAI  # 19 failing: malformed transcript x19
-CubeJerry  # 16 failing: malformed transcript x16
-jjjhenriksen  # 11 failing: no build.log x11
 TOTOGT  # 11 failing: malformed transcript x11
 BouquetAntoine  # 6 failing: cached target without kernel-replay.json x6
 twaldin  # 5 failing: no build.log x5
 yingluom  # 4 failing: other x3, attachment checksum x1
 rayy3535  # 3 failing: cached target without kernel-replay.json x3
-UnityChaos  # 3 failing: cached target without kernel-replay.json x3
 jsnider3  # 3 failing: no build.log x3
 WilmervH  # 2 failing: log lacks target line x1, cached target without kernel-replay.json x1
 21Z121Z1  # 1 failing: malformed transcript x1
