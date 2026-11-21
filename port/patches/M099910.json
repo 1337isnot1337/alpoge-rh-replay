@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.MapRestrictSubgroupEqCommonSmulHaar",
+  "source_sha256": "e21b955aa99146cf9e7baf053e9b3f8e80073f8897149a1c6f89fa39c2d45e34",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass the almost-everywhere measurability proofs required by Measure.map_smul."
+}

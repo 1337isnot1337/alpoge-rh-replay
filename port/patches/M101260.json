@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AdelicQuotients.ExistsNatCombinationIsUnitOfIsUnitCombination",
+  "source_sha256": "bb55f2b53617e8fa180bb607de3f1dc3752d8bcc97ca1c09cda2f919b42d1d2d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the polynomial-first coefficient projection."
+}
