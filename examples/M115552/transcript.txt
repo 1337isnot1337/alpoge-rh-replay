@@ -1,0 +1,136 @@
+Verified original, revised, renamed reference, audit and regenerated diff SHA-256.
+Lean (version 4.33.1, x86_64-w64-windows-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)
+Mathlib 0df444a360eaa60ab8c11dca51a86af692955474
+Compiling PublishedMemOfClosed
+PublishedMemOfClosed.lean:1716:2: warning: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+PublishedMemOfClosed.lean:2042:2: warning: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+PublishedMemOfClosed.lean:2043:2: warning: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+PublishedMemOfClosed.lean:3494:17: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+PublishedMemOfClosed.lean:3885:18: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+PublishedMemOfClosed.lean:4732:19: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+PublishedMemOfClosed.lean:5123:20: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+PublishedMemOfClosed.lean:5380:8: warning: `AddSubmonoidClass.coe_finset_sum` has been deprecated: Use `AddSubmonoidClass.coe_finsetSum` instead
+PublishedMemOfClosed.lean:5737:2: warning: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+PublishedMemOfClosed.lean:5697:36: warning: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Compiling Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MemOfClosed
+Development\AutomorphicArithmetic\IntegralCasts\CapelliIdentities\MemOfClosed.lean:17:39: warning: Variable name `inst_4` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_4
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Development\AutomorphicArithmetic\IntegralCasts\CapelliIdentities\MemOfClosed.lean:80:8: warning: `AddSubmonoidClass.coe_finset_sum` has been deprecated: Use `AddSubmonoidClass.coe_finsetSum` instead
+Development\AutomorphicArithmetic\IntegralCasts\CapelliIdentities\MemOfClosed.lean:112:2: warning: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Compiling AuditAll
+PublishedMemOfClosed.aux1: [propext, Classical.choice, Quot.sound]
+UpperTheory.Reformulated.B.Qi13.aux1: [propext, Classical.choice, Quot.sound]
+PublishedMemOfClosed.algRes: [propext, Classical.choice, Quot.sound]
+UpperTheory.Reformulated.B.Qi13.algRes: [propext, Classical.choice, Quot.sound]
+PublishedMemOfClosed.fdim: [propext, Classical.choice, Quot.sound]
+UpperTheory.Reformulated.B.Qi13.fdim: [propext, Classical.choice, Quot.sound]
+PublishedMemOfClosed.aux4: [propext, Classical.choice, Quot.sound]
+UpperTheory.Reformulated.B.Qi13.aux4: [propext, Classical.choice, Quot.sound]
+PublishedMemOfClosed.aux5: [propext, Classical.choice, Quot.sound]
+UpperTheory.Reformulated.B.Qi13.aux5: [propext, Classical.choice, Quot.sound]
+PublishedMemOfClosed.aux6: [propext, Classical.choice, Quot.sound]
+UpperTheory.Reformulated.B.Qi13.aux6: [propext, Classical.choice, Quot.sound]
+PublishedMemOfClosed.bb: [propext, Classical.choice, Quot.sound]
+UpperTheory.Reformulated.B.Qi13.bb: [propext, Classical.choice, Quot.sound]
+PublishedMemOfClosed.aux8: [propext, Classical.choice, Quot.sound]
+UpperTheory.Reformulated.B.Qi13.aux8: [propext, Classical.choice, Quot.sound]
+PublishedMemOfClosed.blift: [propext, Classical.choice, Quot.sound]
+UpperTheory.Reformulated.B.Qi13.blift: [propext, Classical.choice, Quot.sound]
+PublishedMemOfClosed.linIndep: [propext, Classical.choice, Quot.sound]
+UpperTheory.Reformulated.B.Qi13.linIndep: [propext, Classical.choice, Quot.sound]
+Matched 10 public declarations, binder names, visibility and universes
+'UpperTheory.Reformulated.B.Qi13.linIndep' depends on axioms: [propext, Classical.choice, Quot.sound]
+replaying AuditAll
+replaying Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MemOfClosed
+replaying PublishedMemOfClosed
+  published aux1: 290
+  published algRes: 3509
+  published fdim: 3024
+  published aux4: 2343
+  published aux5: 28
+  published aux6: 2428
+  published bb: 5682
+  published aux8: 4847
+  published blift: 6372
+  published key: 14881
+  published mem_of_closed: 456
+  published linIndep: 3227
+published: 31750 public; 47087 including private proofs
+  revised aux1: 576
+  revised algRes: 402
+  revised fdim: 890
+  revised aux4: 1528
+  revised aux5: 184
+  revised aux6: 914
+  revised bb: 3669
+  revised aux8: 568
+  revised blift: 272
+  revised key: 14874
+  revised mem_of_closed: 448
+  revised linIndep: 1913
+revised: 10916 public; 26238 including private proofs
+REPLAY_M115552_KERNEL_PASSED
