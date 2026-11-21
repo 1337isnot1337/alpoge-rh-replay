@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CurveLieLatticeDegree",
+  "source_sha256": "fddfdab4416fff3f186028262c7a4d125e7f916d25f95ba15ed07aab0e9f02a8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename Ideal.bot_prime to Ideal.isPrime_bot. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0008-lean436-20261121/packet-result.json"
+}

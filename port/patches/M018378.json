@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ColengthDvdOfNeZero",
+  "source_sha256": "166874445352e986801a5db1fa26c731ac70bdeb99a16358c0d80a3ec9ad8de2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Unfold Ideal.under before rewriting the kernel comap. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0008-lean436-20261121/packet-result.json"
+}

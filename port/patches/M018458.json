@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CommensurableConjRangeGLSubring",
+  "source_sha256": "da593050aac11b2e88164ec848996c85a823ad979853debdded841cfd6b28e28",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Expand Subgroup.Commensurable through isFiniteRelIndex_iff_relIndex_ne_zero to use the original relative-index proof. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0008-lean436-20261121/packet-result.json"
+}

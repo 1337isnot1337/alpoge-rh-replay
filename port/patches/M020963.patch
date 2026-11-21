@@ -1,0 +1,26 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DerivationExtendMvPolynomial.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DerivationExtendMvPolynomial.lean
+@@ -7,12 +7,12 @@
+ 
+ noncomputable def coeffDerivFun {B τ : Type} [CommRing B] (D : Derivation ℤ B B)
+     (p : MvPolynomial τ B) : MvPolynomial τ B :=
+-  ∑ s ∈ p.support, monomial s (D (coeff s p))
++  ∑ s ∈ p.support, monomial s (D ((p).coeff s))
+ 
+ open MvPolynomial in
+ theorem coeff_coeffDerivFun {B τ : Type} [CommRing B] (D : Derivation ℤ B B)
+     (p : MvPolynomial τ B) (m : τ →₀ ℕ) :
+-    coeff m (coeffDerivFun D p) = D (coeff m p) := by
++    (coeffDerivFun D p).coeff m = D ((p).coeff m) := by
+   classical
+   rw [coeffDerivFun, coeff_sum]
+   simp only [coeff_monomial]
+@@ -32,7 +32,7 @@
+     coeffDerivAddHom D (MvPolynomial.monomial s a) = MvPolynomial.monomial s (D a) := by
+   classical
+   ext m
+-  change MvPolynomial.coeff m (coeffDerivFun D _) = _
++  change (coeffDerivFun D _).coeff m = _
+   rw [coeff_coeffDerivFun, MvPolynomial.coeff_monomial, MvPolynomial.coeff_monomial]
+   split_ifs <;> simp
+ 

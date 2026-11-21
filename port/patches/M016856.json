@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardFiberDoubleCosetMapEqCardInfConj",
+  "source_sha256": "c90c1ad6cd675669c4780173f575ae5773f861c02ab393e9a95947466600040b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Adapt DoubleCoset.mk_out_eq_mul witness order and the now-implicit subgroup arguments of DoubleCoset.eq and out_eq'. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0008-lean436-20261121/packet-result.json"
+}

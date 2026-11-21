@@ -1,0 +1,10 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommensurableConjRangeGLSubring.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/CommensurableConjRangeGLSubring.lean
+@@ -102,6 +102,7 @@
+     Subgroup.Commensurable ((GeneralLinearGroup.map R.subtype).range.map (MulAut.conj g).toMonoidHom)
+       (GeneralLinearGroup.map R.subtype).range := by
+   set K := (GeneralLinearGroup.map (n := Fin n) R.subtype).range
++  simp only [Subgroup.Commensurable, Subgroup.isFiniteRelIndex_iff_relIndex_ne_zero]
+   refine ⟨glcong_relIndex_ne_zero R c hfin g hg hg', ?_⟩
+   have e := Subgroup.relIndex_map_map_of_injective (f := (MulAut.conj g).toMonoidHom)
+     (K.map (MulAut.conj g⁻¹).toMonoidHom) K (MulEquiv.injective _)
