@@ -58,6 +58,8 @@ of the same packet. Refresh `main` before using these suggestions. Reserve the
 packet, build only its ready members, and retain their successful outputs while
 the other prerequisites are being ported. Recheck the remaining members after
 updating `main`; submit the packet only when all its modules build successfully.
+Pruned modules are omitted from the queue. An import of a pruned module in the
+pinned source still requires a port record.
 
 To reserve several independent packets, use `python3 tracker/port.py claim P0123 P0124`.
 The command checks every target against upstream `main`, rejects overlapping

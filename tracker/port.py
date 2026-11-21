@@ -146,7 +146,7 @@ def main():
         if selected is None:
             selected = [by_id[args.packet]] if args.packet in by_id else []
         if args.ready_only:
-            selected = ready_members(selected, resolved)
+            selected = ready_members([r for r in selected if r['id'] not in skipped], done)
         for r in sorted(selected, key=lambda r: r['id']):
             if r['id'] in done:
                 state = 'ported'
@@ -191,10 +191,10 @@ def main():
                 or all(r['id'] in resolved for r in members)):
             continue
         live_members = [r for r in members if r['id'] not in skipped]
-        partial = not ready(live_members, resolved)
+        partial = not ready(live_members, done)
         if partial and not args.include_partial:
             continue
-        available = ready_members(live_members, resolved) if partial else [r for r in live_members if r['id'] not in done]
+        available = ready_members(live_members, done) if partial else [r for r in live_members if r['id'] not in done]
         if not available:
             continue
         depth = max(r['depth'] for r in live_members)
