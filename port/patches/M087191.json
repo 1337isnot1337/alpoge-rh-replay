@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.EqOneOfNormOneValuationSubOneSmall",
+  "source_sha256": "09f1359d3c366b797dbd90bf7c11f29e5fe3d66d653cf144d58d0f59a6d1ba63",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_le_prod\u2080, which accepts the existing nonnegativity hypothesis. Statements are unchanged."
+}

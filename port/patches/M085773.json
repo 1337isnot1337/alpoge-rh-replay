@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ModuliProofs.MvPolynomialMapMaximalIdealIsPrime",
+  "source_sha256": "9dbe0db60022b56f8552434ef12490658c082cd64a5425b2a782ebc7fc99cf2a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Add Finsupp.zero_apply to simplify the zero coefficient function before applying residue_eq_zero_iff. Statements are unchanged."
+}
