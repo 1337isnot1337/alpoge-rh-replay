@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.KummerCochainCupProductCongruence",
+  "source_sha256": "a2934f1e4486f18eb8aab09a10f77f1b92d28561ad9257a60a0e6803440f1cc0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0118-lean436-20261121/packet-result.json"
+}

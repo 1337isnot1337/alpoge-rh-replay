@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.IdealEqBotOfFlatQuotientOfMapMaximalIdeal",
+  "source_sha256": "eb416a6c8c0b60a2ce2e2e9bbb27c1fa4e8c492e0246f4bb76c11aa6bac9faa5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: transport the existing bottom-ideal Jacobson inclusion through Ideal.jacobson_bot, and use one-based TFAE indices for the same local-homomorphism equivalences. Remove the zero alternative from tensor induction, which now has only tmul and add alternatives. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0118-lean436-20261121/packet-result.json"
+}
