@@ -1,0 +1,30 @@
+Module: M055158 Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitRealOfCongrOneStatement
+Started: 2026-11-21T23:36:04.019220+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitRealOfCongrOneStatement:olean"]
+Pinned source SHA-256: c66d24996b07f09adfb6949705049db1a488aaf2d76dfc0c36f03a19ef410ec3
+Compiled source SHA-256: c66d24996b07f09adfb6949705049db1a488aaf2d76dfc0c36f03a19ef410ec3
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitRealOfCongrOne (2.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitRealOfCongrOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitRealOfCongrOne:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitRealOfCongrOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitRealOfCongrOneStatement (2.4s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitRealOfCongrOneStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitRealOfCongrOneStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitRealOfCongrOneStatement.lean:9:64: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitRealOfCongrOneStatement.lean:9:117: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitRealOfCongrOneStatement.lean:9:64: Unused tactic linter: `exact GlobalTheory.UnitReal.unit_real_of_congr_one` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitRealOfCongrOneStatement.lean:9:117: Unused tactic linter: `(intros; apply GlobalTheory.UnitReal.unit_real_of_congr_one <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.589
+Timed out: False

@@ -1,0 +1,17 @@
+Module: M052407 Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorPowerFirstFactorAdjoinFinsetIsIntegral
+Started: 2026-11-21T23:31:46.316583+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorPowerFirstFactorAdjoinFinsetIsIntegral:olean"]
+Pinned source SHA-256: 8f6fe7022e7a222d092a68cecab469ab9e3a50d3d3b969d2ca76ad2803a73761
+Compiled source SHA-256: 8f6fe7022e7a222d092a68cecab469ab9e3a50d3d3b969d2ca76ad2803a73761
+
+⚠ [18250/18252] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstAndFinite
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FirstAndFinite.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.FirstAndFinite:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FirstAndFinite.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorPowerFirstFactorAdjoinFinsetIsIntegral (2.7s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TensorPowerFirstFactorAdjoinFinsetIsIntegral.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.883
+Timed out: False

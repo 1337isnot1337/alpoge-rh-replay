@@ -1,0 +1,36 @@
+Module: M053460 Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionCountMultiplicativePrimePowersStatement
+Started: 2026-11-21T23:33:04.426801+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionCountMultiplicativePrimePowersStatement:olean"]
+Pinned source SHA-256: 18e66942d283fe66d89abbf3ebff9d4d33d4db6293b2c11386ea8f29ea781531
+Compiled source SHA-256: 18e66942d283fe66d89abbf3ebff9d4d33d4db6293b2c11386ea8f29ea781531
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionCountMultiplicativePrimePowers (2.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionCountMultiplicativePrimePowers.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionCountMultiplicativePrimePowers.lean:24:45: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionCountMultiplicativePrimePowers:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionCountMultiplicativePrimePowers.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionCountMultiplicativePrimePowersStatement (2.4s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionCountMultiplicativePrimePowersStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionCountMultiplicativePrimePowersStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionCountMultiplicativePrimePowersStatement.lean:12:63: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionCountMultiplicativePrimePowersStatement.lean:12:115: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionCountMultiplicativePrimePowersStatement.lean:12:63: Unused tactic linter: `exact GlobalTheory.card_primaryTorsion_mul_blocks` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionCountMultiplicativePrimePowersStatement.lean:12:115: Unused tactic linter: `(intros; apply GlobalTheory.card_primaryTorsion_mul_blocks <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.537
+Timed out: False

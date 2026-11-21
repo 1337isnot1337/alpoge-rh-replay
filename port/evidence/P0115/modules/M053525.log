@@ -1,0 +1,30 @@
+Module: M053525 Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionLiftNumberFieldModuleStatement
+Started: 2026-11-21T23:33:13.965744+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionLiftNumberFieldModuleStatement:olean"]
+Pinned source SHA-256: 478c80ced7d2f6fa2e4d7ae6ac0a8d6166ff10562bbea6fd8fcb5c7fc14f4eef
+Compiled source SHA-256: 478c80ced7d2f6fa2e4d7ae6ac0a8d6166ff10562bbea6fd8fcb5c7fc14f4eef
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionLiftNumberFieldModule (2.6s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionLiftNumberFieldModule.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionLiftNumberFieldModule:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionLiftNumberFieldModule.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionLiftNumberFieldModuleStatement (2.4s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionLiftNumberFieldModuleStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionLiftNumberFieldModuleStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionLiftNumberFieldModuleStatement.lean:9:59: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionLiftNumberFieldModuleStatement.lean:9:107: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionLiftNumberFieldModuleStatement.lean:9:59: Unused tactic linter: `exact GlobalTheory.nsmul_surj_of_card_torsion` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionLiftNumberFieldModuleStatement.lean:9:107: Unused tactic linter: `(intros; apply GlobalTheory.nsmul_surj_of_card_torsion <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.288
+Timed out: False

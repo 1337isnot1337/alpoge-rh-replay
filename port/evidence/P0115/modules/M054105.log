@@ -1,0 +1,36 @@
+Module: M054105 Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationIsometrySchwartzOperatorStatement
+Started: 2026-11-21T23:34:23.800767+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationIsometrySchwartzOperatorStatement:olean"]
+Pinned source SHA-256: 5a14528b531bf2479801ca08a5ee532d7afc3e6df5eecce99f4ab9cc8570d79a
+Compiled source SHA-256: 5a14528b531bf2479801ca08a5ee532d7afc3e6df5eecce99f4ab9cc8570d79a
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationIsometrySchwartzOperator (3.4s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TranslationIsometrySchwartzOperator.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TranslationIsometrySchwartzOperator.lean:112:8: `Seminorm.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  S̵e̵m̵i̵n̵o̵r̵m̵.̵smul_apply
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationIsometrySchwartzOperator:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TranslationIsometrySchwartzOperator.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationIsometrySchwartzOperatorStatement (2.4s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TranslationIsometrySchwartzOperatorStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TranslationIsometrySchwartzOperatorStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TranslationIsometrySchwartzOperatorStatement.lean:14:49: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TranslationIsometrySchwartzOperatorStatement.lean:14:87: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TranslationIsometrySchwartzOperatorStatement.lean:14:49: Unused tactic linter: `exact GlobalTheory.TransDecay.decay` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TranslationIsometrySchwartzOperatorStatement.lean:14:87: Unused tactic linter: `(intros; apply GlobalTheory.TransDecay.decay <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.988
+Timed out: False

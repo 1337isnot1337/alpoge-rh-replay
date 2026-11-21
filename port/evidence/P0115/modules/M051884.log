@@ -1,0 +1,21 @@
+Module: M051884 Development.AbelianVarietyTheory.Proofs.DivisorProofs.TDualProd
+Started: 2026-11-21T23:30:55.148959+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TDualProd:olean"]
+Pinned source SHA-256: b441df2610d7a04ba9f884adf6cc2dbe0dc3e56c3327f559452136323f404d22
+Compiled source SHA-256: b441df2610d7a04ba9f884adf6cc2dbe0dc3e56c3327f559452136323f404d22
+
+⚠ [18250/18254] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.DualProdLogDerivModSq (2.7s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DualProdLogDerivModSq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18254] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.DualProdLogDerivModSq:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DualProdLogDerivModSq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Built Development.AbelianVarietyTheory.Definitions.Divisors.TCoefMInMMul (3.1s)
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/TCoefMInMMul.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18254] Ran Development.AbelianVarietyTheory.Definitions.Divisors.TCoefMInMMul:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/TCoefMInMMul.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TDualProd (2.4s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TDualProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18254 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.693
+Timed out: False

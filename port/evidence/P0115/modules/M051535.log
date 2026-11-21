@@ -1,0 +1,23 @@
+Module: M051535 Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumPrimesInvPredLeLoglog
+Started: 2026-11-21T23:29:44.548218+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumPrimesInvPredLeLoglog:olean"]
+Pinned source SHA-256: a2d30105242956309fa4a625f04a478c234a1dc17c4a25c4f2c06df236e01497
+Compiled source SHA-256: a2d30105242956309fa4a625f04a478c234a1dc17c4a25c4f2c06df236e01497
+
+⚠ [18250/18252] Replayed Development.AbelianVarietyTheory.Proofs.JetHarmonics.SumPrimeLogDivPredLeLogAdd
+warning: src/Development/AbelianVarietyTheory/Proofs/JetHarmonics/SumPrimeLogDivPredLeLogAdd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/JetHarmonics/SumPrimeLogDivPredLeLogAdd.lean:141:15: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Development/AbelianVarietyTheory/Proofs/JetHarmonics/SumPrimeLogDivPredLeLogAdd.lean:141:15: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.JetHarmonics.SumPrimeLogDivPredLeLogAdd:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/JetHarmonics/SumPrimeLogDivPredLeLogAdd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumPrimesInvPredLeLoglog (3.8s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SumPrimesInvPredLeLoglog.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.985
+Timed out: False

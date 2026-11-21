@@ -1,0 +1,4 @@
+{
+  "M051585": "Rename Finset.prod_le_prod to Finset.prod_le_prod\u2080, keeping the existing nonnegativity and pointwise inequality arguments. This changes a proof only; every theorem statement is unchanged.",
+  "M053945": "Replace the removed DistribMulAction.toAddMonoidHom by DistribSMul.toAddMonoidHom in the theorem statement and its proof-local equality. At the replay Mathlib pin 0df444a360eaa60ab8c11dca51a86af692955474, the removed declaration was defined exactly as DistribSMul.toAddMonoidHom A x (Mathlib/Algebra/GroupWithZero/Action/Defs.lean, line385). The replacement therefore preserves the additive homomorphism, its toIntLinearMap and its trace definitionally. All types, hypotheses, quantifiers and the conclusion remain the same."
+}

@@ -1,0 +1,52 @@
+Module: M055256 Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryConjMapsKerAevalBasisAndGram
+Started: 2026-11-21T23:36:22.899298+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryConjMapsKerAevalBasisAndGram:olean"]
+Pinned source SHA-256: 33825b1998fbdbfa76e8403e63d50b9add848aaf26b49ace672deab6e9d86359
+Compiled source SHA-256: 33825b1998fbdbfa76e8403e63d50b9add848aaf26b49ace672deab6e9d86359
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjAlgApply (2.9s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjAlgApply.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjAlgApply.lean:45:29: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjAlgApply:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ConjAlgApply.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryConjMapsKerAevalBasisAndGram (2.5s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryConjMapsKerAevalBasisAndGram.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryConjMapsKerAevalBasisAndGram.lean:21:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryConjMapsKerAevalBasisAndGram.lean:22:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryConjMapsKerAevalBasisAndGram.lean:23:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryConjMapsKerAevalBasisAndGram.lean:18:4: Unused tactic linter: `exact @_root_.GlobalTheory.ConjugateAlgebraLemmas.main` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryConjMapsKerAevalBasisAndGram.lean:19:4: Unused tactic linter: `exact _root_.GlobalTheory.ConjugateAlgebraLemmas.main` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryConjMapsKerAevalBasisAndGram.lean:21:4: Unused tactic linter: `(intros;
+  apply _root_.GlobalTheory.ConjugateAlgebraLemmas.main <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryConjMapsKerAevalBasisAndGram.lean:22:4: Unused tactic linter: `(intros;
+  apply @_root_.GlobalTheory.ConjugateAlgebraLemmas.main <;>
+    first
+    | assumption
+    | infer_instance)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryConjMapsKerAevalBasisAndGram.lean:23:4: Unused tactic linter: `(intros; exact _root_.GlobalTheory.ConjugateAlgebraLemmas.main ..)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.638
+Timed out: False

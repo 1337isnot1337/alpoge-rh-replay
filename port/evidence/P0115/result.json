@@ -1,0 +1,1927 @@
+{
+  "packet": "P0115",
+  "status": "partial_success",
+  "modules": {
+    "M051491": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumHadamardPosDefPosSemidefStatement",
+      "started_utc": "2026-11-21T23:29:24.467240+00:00",
+      "elapsed_seconds": 9.287,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumHadamardPosDefPosSemidefStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M051491.log",
+      "log_sha256": "f5a180a8595fc053b5023f0f194114b8fc15cb3e58dc4816d62473d3294398fe",
+      "object_sha256": "63040a770a170496c3fecd29d04189ec10a69a7c0e1b7635fb1387a4ed74bbc3",
+      "source_sha256": "7c6d0b2e3341a31b1f4d7cead3909cfad5ac4b7365c4c91a5d8292e1e132f420",
+      "compiled_source_sha256": "7c6d0b2e3341a31b1f4d7cead3909cfad5ac4b7365c4c91a5d8292e1e132f420",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M051501": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumLogDivPredLeReal",
+      "started_utc": "2026-11-21T23:29:33.754901+00:00",
+      "elapsed_seconds": 10.792,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumLogDivPredLeReal:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M051501.log",
+      "log_sha256": "fd45e18b5ee8fca4595993ca1387559d090cabbeb2524f9a637af3d34e478c94",
+      "object_sha256": "bf87cb39cc008cf782bf7cb0ef5cc38efa4c9332999dedd2c31d50db85c1ceb0",
+      "source_sha256": "3cb584a01c9c4cc5797246687c09d1c7eb01ca91df12b6cc46134610c933d0fd",
+      "compiled_source_sha256": "3cb584a01c9c4cc5797246687c09d1c7eb01ca91df12b6cc46134610c933d0fd",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M051535": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumPrimesInvPredLeLoglog",
+      "started_utc": "2026-11-21T23:29:44.548218+00:00",
+      "elapsed_seconds": 7.985,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumPrimesInvPredLeLoglog:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M051535.log",
+      "log_sha256": "ea6225d41037b2098d604d9f84d9dd3729c4c22946cdca5b0a2dddfc7d3a9a3f",
+      "object_sha256": "ae1d1162a90de0bfc815ae10e9fd95536d8e8dc439d5a10aacb769794b03f591",
+      "source_sha256": "a2d30105242956309fa4a625f04a478c234a1dc17c4a25c4f2c06df236e01497",
+      "compiled_source_sha256": "a2d30105242956309fa4a625f04a478c234a1dc17c4a25c4f2c06df236e01497",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M051566": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumTranslatesEqDoubleCosetAverageStatement",
+      "started_utc": "2026-11-21T23:29:52.534835+00:00",
+      "elapsed_seconds": 11.191,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumTranslatesEqDoubleCosetAverageStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M051566.log",
+      "log_sha256": "b951e49e526615dec78a247988f7f6dff137486f3e365e6e8e8344a270bc7a83",
+      "object_sha256": "103d3fbfc90301720f54f8f700fd5fc85871965325b22c9e0ab81b8e084332c1",
+      "source_sha256": "cb928e4aef81560f7bed139b5d8a076f40972576f02300747c4b5e5b315c6a3c",
+      "compiled_source_sha256": "cb928e4aef81560f7bed139b5d8a076f40972576f02300747c4b5e5b315c6a3c",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M051583": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SummableAbsNormInvSq",
+      "started_utc": "2026-11-21T23:30:03.727373+00:00",
+      "elapsed_seconds": 9.896,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SummableAbsNormInvSq:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M051583.log",
+      "log_sha256": "b4f01e23b2c84b025efd19df237f6318da5f3804ff715b31d63bf50905969721",
+      "object_sha256": "272b4cc7e900594093d244767576a88ab2ff9321c2c1b18901ebb1f088bb5dfb",
+      "source_sha256": "1ffd40adb0cb72561b6788d4c027b23238fa0adcc596b72ebfc9705e3b1f10bc",
+      "compiled_source_sha256": "1ffd40adb0cb72561b6788d4c027b23238fa0adcc596b72ebfc9705e3b1f10bc",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M051585": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SummableExpNegTraceTotallyPositiveFractionalIdea",
+      "started_utc": "2026-11-21T23:30:13.624613+00:00",
+      "elapsed_seconds": 10.694,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SummableExpNegTraceTotallyPositiveFractionalIdea:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M051585.log",
+      "log_sha256": "02b680594f10376fcc8d54070a33258dbd1efdf18af21659e5cce04a3eb4bbec",
+      "object_sha256": "1a8eb85003b5401928c33d606a2ecf9ce82ccf8f1ddb9f21578fbb28df948df2",
+      "source_sha256": "25e2d4f9794a4bb2c41367a81ac580670bcc42c79f2aadba50277b2d16eb9ba8",
+      "compiled_source_sha256": "579dd24b9c8d7ee94c500fb3b3f49fe4353017a9ca27d50f870a8eebfad7bf18",
+      "patch_kind": "diagnostic",
+      "patch_sha256": "0fbc11c342b999cee7e5d55f909cd5bf333a917b2a18cdb9d6ea82d311e802fc"
+    },
+    "M051881": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.T2SpaceTensorRatFiniteAlgebraModuleTopology",
+      "started_utc": "2026-11-21T23:30:24.320605+00:00",
+      "elapsed_seconds": 24.194,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.T2SpaceTensorRatFiniteAlgebraModuleTopology:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M051881.log",
+      "log_sha256": "a2fe5246c95dc859717e93600f7a562cae4aeadadd721e3160724996f8e0ed23",
+      "object_sha256": "dd26e6cab9543253b5fc25107bcdf36c9e923a873f6250b16767e18ac9952792",
+      "source_sha256": "b35839ceb7134d8abc86225b013f8e6a036a5bd1e19d33d777254808f88af6d6",
+      "compiled_source_sha256": "b35839ceb7134d8abc86225b013f8e6a036a5bd1e19d33d777254808f88af6d6",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M051882": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TC",
+      "started_utc": "2026-11-21T23:30:48.516373+00:00",
+      "elapsed_seconds": 6.631,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TC:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M051882.log",
+      "log_sha256": "17eb213e0a12dd24f91ad64e7391d19d98dfe8a9bdc46ca309089f4cb384e712",
+      "object_sha256": "e5906215b1f0d419f6fe89ca3a0cab24c0bfc96a9701ddc77cbb183d56ba5cd2",
+      "source_sha256": "9c06643db9bc3574b466a6dd253e7ef253a2bd0b3d6e7fcf663d95ffbb62edc0",
+      "compiled_source_sha256": "9c06643db9bc3574b466a6dd253e7ef253a2bd0b3d6e7fcf663d95ffbb62edc0",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M051884": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TDualProd",
+      "started_utc": "2026-11-21T23:30:55.148959+00:00",
+      "elapsed_seconds": 9.693,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TDualProd:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M051884.log",
+      "log_sha256": "8006bb5d0a6bd03a09b1a1fd2675e19c8b0263acc23eca01c8ef51432a61826b",
+      "object_sha256": "605805caf95ae23dde8f66fff236e944e3a3b6980179cb513fabea1af8a7ff66",
+      "source_sha256": "b441df2610d7a04ba9f884adf6cc2dbe0dc3e56c3327f559452136323f404d22",
+      "compiled_source_sha256": "b441df2610d7a04ba9f884adf6cc2dbe0dc3e56c3327f559452136323f404d22",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M052278": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TendstoLintegralPoissonKernelBoundaryStatement",
+      "started_utc": "2026-11-21T23:31:04.842882+00:00",
+      "elapsed_seconds": 10.141,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TendstoLintegralPoissonKernelBoundaryStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M052278.log",
+      "log_sha256": "4654b329a995d58305c8b16ff0cce1b499e943fb176cf05fd49d771c3a81257d",
+      "object_sha256": "52f6422f919f6984f70e38156219ce93d449a5f6567bc3bcac5b67c90a48c210",
+      "source_sha256": "b9dd41f61d1e340ce8c28543346b834321551939b9bad2c723cff793da296605",
+      "compiled_source_sha256": "b9dd41f61d1e340ce8c28543346b834321551939b9bad2c723cff793da296605",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M052288": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TendstoRankDivPowOfChooseBoundsStatement",
+      "started_utc": "2026-11-21T23:31:14.985501+00:00",
+      "elapsed_seconds": 11.847,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TendstoRankDivPowOfChooseBoundsStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M052288.log",
+      "log_sha256": "775c3e9036bae7ca9a4e4c52643d557f2085a9252b4882ad584483e0bcc4bcef",
+      "object_sha256": "a2fff14d36ab69b9076cea39098b25c25b4a2c9ce2eaa827b71e626852da52a4",
+      "source_sha256": "3dbea2ee4ed214996eecf9bff43ede382ff180826da7e3950a906e2cc98c975e",
+      "compiled_source_sha256": "3dbea2ee4ed214996eecf9bff43ede382ff180826da7e3950a906e2cc98c975e",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M052315": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorCentralizerInjectiveCommutantEqStatement",
+      "started_utc": "2026-11-21T23:31:26.833785+00:00",
+      "elapsed_seconds": 10.242,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorCentralizerInjectiveCommutantEqStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M052315.log",
+      "log_sha256": "f97e115904871913bcd7519453af823ddcf733856b218a783e186b638f2e5f43",
+      "object_sha256": "4bc1daf5cecb071be1d58e81a555f7643802e7e2889d873ea161fd241bd1aef0",
+      "source_sha256": "9b1afec3d7b892ced665fb0971120f3e43ffc6a21ff2191f7d9b04db680718fc",
+      "compiled_source_sha256": "9b1afec3d7b892ced665fb0971120f3e43ffc6a21ff2191f7d9b04db680718fc",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M052405": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorPowerFirstFactorAdjoinFinsetFgOverFirst",
+      "started_utc": "2026-11-21T23:31:37.076942+00:00",
+      "elapsed_seconds": 9.238,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorPowerFirstFactorAdjoinFinsetFgOverFirst:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M052405.log",
+      "log_sha256": "242e0c651d35acd28b3ad481f54de83b5d3424ba325f5bbec0ce972ceba356ed",
+      "object_sha256": "5f94c7f41b9b3a0c47876e4398107d32119465ed0d73a227cf266a86591909b8",
+      "source_sha256": "158a433ec0906ad3d257eef70e865cddaf74c06cd071bab587a68b2cfcc46f8b",
+      "compiled_source_sha256": "158a433ec0906ad3d257eef70e865cddaf74c06cd071bab587a68b2cfcc46f8b",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M052407": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorPowerFirstFactorAdjoinFinsetIsIntegral",
+      "started_utc": "2026-11-21T23:31:46.316583+00:00",
+      "elapsed_seconds": 6.883,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorPowerFirstFactorAdjoinFinsetIsIntegral:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M052407.log",
+      "log_sha256": "e543f138a70dd300b733d54a93bd4536de4c22d94bd349ac1b22871758dc8330",
+      "object_sha256": "28701c2c74f8b59a9b62b75bea370a4cbc5a357283a4189c768c3e9723fa76df",
+      "source_sha256": "8f6fe7022e7a222d092a68cecab469ab9e3a50d3d3b969d2ca76ad2803a73761",
+      "compiled_source_sha256": "8f6fe7022e7a222d092a68cecab469ab9e3a50d3d3b969d2ca76ad2803a73761",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M052421": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorQuotientOntoAndInjectiveModIdealPowStatement",
+      "started_utc": "2026-11-21T23:31:53.200587+00:00",
+      "elapsed_seconds": 21.172,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorQuotientOntoAndInjectiveModIdealPowStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M052421.log",
+      "log_sha256": "00f2f721a1191253be14823fcc31459a29404d8871aad3fbce06167c10960449",
+      "object_sha256": "1ae013a7c47ab999909f7870eaba85fca50737a15829e1330446915996b5e908",
+      "source_sha256": "ea55d92fffa2f6da20b9031c6cba2f6ffcbaa57b2ba8524ccd2052c49d106223",
+      "compiled_source_sha256": "ea55d92fffa2f6da20b9031c6cba2f6ffcbaa57b2ba8524ccd2052c49d106223",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M052425": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorRatAlgebraDecompFactorwiseStatement",
+      "started_utc": "2026-11-21T23:32:14.373525+00:00",
+      "elapsed_seconds": 10.943,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorRatAlgebraDecompFactorwiseStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M052425.log",
+      "log_sha256": "8370dc60fb50012e23b91f88f5d6aa7b570373931dcb3ac19fe0bd686909e2c9",
+      "object_sha256": "539b03d764c7b4e0adcb354df92619a731064b3a036ae204bd3fd87aa3ed5ca6",
+      "source_sha256": "df6acc98cd63502d8275492133c3bd957955f68b9fd13968be83361d8eb01cda",
+      "compiled_source_sha256": "df6acc98cd63502d8275492133c3bd957955f68b9fd13968be83361d8eb01cda",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053304": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TopologicalKrullDimDropAndFiniteOfDimZeroStatement",
+      "started_utc": "2026-11-21T23:32:25.317378+00:00",
+      "elapsed_seconds": 9.09,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TopologicalKrullDimDropAndFiniteOfDimZeroStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M053304.log",
+      "log_sha256": "87de92f04d99c8d998fb3ba7bf5271c2016635ea85f272f05f67a8bc6d42f8d1",
+      "object_sha256": "2fbcd95341988bc5fd1d8c3b69246c8349aa21e98d0bf72f5516702b2fa7b777",
+      "source_sha256": "ca67bce445550715bfa78e02dd4ddf0f48bf69eae0aef6a4b8736350ed53ae4b",
+      "compiled_source_sha256": "ca67bce445550715bfa78e02dd4ddf0f48bf69eae0aef6a4b8736350ed53ae4b",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053439": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionBasisRelationsDivisibleStatement",
+      "started_utc": "2026-11-21T23:32:34.408591+00:00",
+      "elapsed_seconds": 9.386,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionBasisRelationsDivisibleStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M053439.log",
+      "log_sha256": "ca6f34d1df40533eaabdee84e390b963f4f3f610673b6c01cfde01fdc24dfdf5",
+      "object_sha256": "280791745be3bd6dcc0fd9911be739204856d1e91fdef3f98ec993a2184ea53d",
+      "source_sha256": "b278fe14f1ac8c1a6117517b194d774ec20ece58b55a12b9558586bbaeeceeef",
+      "compiled_source_sha256": "b278fe14f1ac8c1a6117517b194d774ec20ece58b55a12b9558586bbaeeceeef",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053441": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionBySetPowFreeOfCardPowNumberFieldStatement",
+      "started_utc": "2026-11-21T23:32:43.795547+00:00",
+      "elapsed_seconds": 10.84,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionBySetPowFreeOfCardPowNumberFieldStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M053441.log",
+      "log_sha256": "d70a5797058ab9932638aaa9ae6ad679833a2b934bc29736931eaa2c10798085",
+      "object_sha256": "c62e4f2efdd62347e3fb6311cf675fcbef28cf303d3ca66e0f8e7668b1e47d72",
+      "source_sha256": "32967a4ead9414b261d7d5f3b168118821ea7193a94a7006c24f17e33060b935",
+      "compiled_source_sha256": "32967a4ead9414b261d7d5f3b168118821ea7193a94a7006c24f17e33060b935",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053458": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionCountLogConcavePrimePowersStatement",
+      "started_utc": "2026-11-21T23:32:54.636941+00:00",
+      "elapsed_seconds": 9.788,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionCountLogConcavePrimePowersStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M053458.log",
+      "log_sha256": "f7698929556d5e7815c7d9a6950e7b0bfb301bad5b7faa3c179e16f6eb6c184f",
+      "object_sha256": "c7fb5d40c2b096d8507f13e86ff5ce838056446b4e10f33645d2bc324298bccf",
+      "source_sha256": "953a0d23d5170521e27c4736624814463634a507c9d73b88ec25b9023e76c226",
+      "compiled_source_sha256": "953a0d23d5170521e27c4736624814463634a507c9d73b88ec25b9023e76c226",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053460": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionCountMultiplicativePrimePowersStatement",
+      "started_utc": "2026-11-21T23:33:04.426801+00:00",
+      "elapsed_seconds": 9.537,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionCountMultiplicativePrimePowersStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M053460.log",
+      "log_sha256": "6d731883d44a672140496f24e2ce94d27e2018a9a7c38565640c256dd501fa56",
+      "object_sha256": "07178cda63dfe67e6a84f56dbd52f2495550c8258504057f0353cf5183f8cd80",
+      "source_sha256": "18e66942d283fe66d89abbf3ebff9d4d33d4db6293b2c11386ea8f29ea781531",
+      "compiled_source_sha256": "18e66942d283fe66d89abbf3ebff9d4d33d4db6293b2c11386ea8f29ea781531",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053525": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionLiftNumberFieldModuleStatement",
+      "started_utc": "2026-11-21T23:33:13.965744+00:00",
+      "elapsed_seconds": 9.288,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionLiftNumberFieldModuleStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M053525.log",
+      "log_sha256": "7472494a9c669cc3a011d035580266e7df48adcb5d3ad395a478ca990507482d",
+      "object_sha256": "e57f6597abd78e6eacf5ba0b8ad7e2752d0501fc639696bc9df02407ba7e6e54",
+      "source_sha256": "478c80ced7d2f6fa2e4d7ae6ac0a8d6166ff10562bbea6fd8fcb5c7fc14f4eef",
+      "compiled_source_sha256": "478c80ced7d2f6fa2e4d7ae6ac0a8d6166ff10562bbea6fd8fcb5c7fc14f4eef",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053640": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionTwoGeneratorsGlobalStatement",
+      "started_utc": "2026-11-21T23:33:23.255120+00:00",
+      "elapsed_seconds": 10.143,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionTwoGeneratorsGlobalStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M053640.log",
+      "log_sha256": "e6f5fedae589cedab10330296f0eb28d382e64f0ac4adab80b312cd2d2276266",
+      "object_sha256": "9f279c5dfb04e8aebdd885b35a791f572ce155d4f5d7637ab382020317a6c97c",
+      "source_sha256": "dbcddc3035d648255d84e77c5d4edbc26c2a9ac9f1e5f24d283ac21b5e6a3480",
+      "compiled_source_sha256": "dbcddc3035d648255d84e77c5d4edbc26c2a9ac9f1e5f24d283ac21b5e6a3480",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053642": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionTwoGeneratorsModPrimeStatement",
+      "started_utc": "2026-11-21T23:33:33.399382+00:00",
+      "elapsed_seconds": 10.389,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionTwoGeneratorsModPrimeStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M053642.log",
+      "log_sha256": "53dc6aea34bfffa528dc5cb9cac302e143bbcae368d1b0ec0435267aedc3e1b0",
+      "object_sha256": "b70eab7f767f6d461cd5614b0cca98424e2050b249dbc0ae12dee17cdbf0e7bc",
+      "source_sha256": "943c503b3ac92c615796fb8068c05c7286c497dc8a841481dfa12789bd02e35e",
+      "compiled_source_sha256": "943c503b3ac92c615796fb8068c05c7286c497dc8a841481dfa12789bd02e35e",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053661": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsorsTrivial",
+      "started_utc": "2026-11-21T23:33:43.789841+00:00",
+      "elapsed_seconds": 9.288,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsorsTrivial:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M053661.log",
+      "log_sha256": "12843e82ca7329d82b70fc09e45f9f4e0f11af1e57a8ceb1c85f3f43941c441a",
+      "object_sha256": "f4a8680829e33db1c7c6539ddbaa63c0487f4ea8407b68231e6d0ba175d02014",
+      "source_sha256": "fe4abeb36186c061769bc8452070dadd005021283358a9ec3fd4d12e00a0f1f5",
+      "compiled_source_sha256": "fe4abeb36186c061769bc8452070dadd005021283358a9ec3fd4d12e00a0f1f5",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053809": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TotalDegreeLeOfIntegralAtInfinityStatement",
+      "started_utc": "2026-11-21T23:33:53.079550+00:00",
+      "elapsed_seconds": 10.641,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TotalDegreeLeOfIntegralAtInfinityStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M053809.log",
+      "log_sha256": "1a85998a772b42f3cca11d499e72af749a715fe2ac37a43848bb834a201b8aa0",
+      "object_sha256": "d8fab7c27bf2a5495ec6ec8c92c6feb88510cae2d3b8f362cb6234c12ac25eb7",
+      "source_sha256": "f1cd7efe58ec342727ef7251bb88ac871ba88f0dc09efc0c71522bf120674fef",
+      "compiled_source_sha256": "f1cd7efe58ec342727ef7251bb88ac871ba88f0dc09efc0c71522bf120674fef",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053922": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TraceMonicOverMvPolynomialStatement",
+      "started_utc": "2026-11-21T23:34:03.721977+00:00",
+      "elapsed_seconds": 9.838,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TraceMonicOverMvPolynomialStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M053922.log",
+      "log_sha256": "23a1b51cbd31346642444a2d63fd3d8c5f8afa204a4a8035c633af30a7ecda55",
+      "object_sha256": "d32e32d11849e53a81e2d88285ede97baaa134f34717c5acd4f12b8a9e473215",
+      "source_sha256": "b69df8ccb14a3b1ab62526c2e3b10db6eb9489023d9dda905d00d1729be90a1e",
+      "compiled_source_sha256": "b69df8ccb14a3b1ab62526c2e3b10db6eb9489023d9dda905d00d1729be90a1e",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053945": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TraceRingOfIntegersActionLatticeEq",
+      "started_utc": "2026-11-21T23:34:13.561094+00:00",
+      "elapsed_seconds": 10.238,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TraceRingOfIntegersActionLatticeEq:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M053945.log",
+      "log_sha256": "688a62c7a4ce884c70cdb9a2eb51a38eb0429187f499af44f3e54e185620dac2",
+      "object_sha256": "ea362d8cd5e8c8079c45e94bf1b1e50fc6bff6098368c37e06358d98439f6ba6",
+      "source_sha256": "c30f48cddc960e657a92769b61390502e2b9c5ec02ab0354a9116201005f3504",
+      "compiled_source_sha256": "bf02d9c14e5e49831e9ba24cc6e0a2841e716f9a91291e5e6abae01771cb6938",
+      "patch_kind": "diagnostic",
+      "patch_sha256": "e47b4b37eadb0267c0227c664a028507d7cdf6422d749df2c4a518e042c625f8"
+    },
+    "M054105": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationIsometrySchwartzOperatorStatement",
+      "started_utc": "2026-11-21T23:34:23.800767+00:00",
+      "elapsed_seconds": 9.988,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationIsometrySchwartzOperatorStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M054105.log",
+      "log_sha256": "794b34f50aa43ac439a8a7011e13a2a378a54a647344957750a4316afdde5f48",
+      "object_sha256": "2f0f1fd69cb0df1ad72bdb0543b3c59cecb91d6ab3b13aa7b17fc438be3392ed",
+      "source_sha256": "5a14528b531bf2479801ca08a5ee532d7afc3e6df5eecce99f4ab9cc8570d79a",
+      "compiled_source_sha256": "5a14528b531bf2479801ca08a5ee532d7afc3e6df5eecce99f4ab9cc8570d79a",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054163": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TrdegComplexBaseChangeEqStatement",
+      "started_utc": "2026-11-21T23:34:33.789578+00:00",
+      "elapsed_seconds": 10.088,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TrdegComplexBaseChangeEqStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M054163.log",
+      "log_sha256": "12f2fdc68a21f944c34ea9eddd7f5ed7d56b70366ccfe5aab8ee03651c9d1263",
+      "object_sha256": "0ed5fba20b5d080caf1b1bd1c6084f8294f34c97593ea62719e85f72339a46d7",
+      "source_sha256": "545129e2e02bd08f8e6ff50dc99501c8fe8357a9eb6b75190d02e0b38df71fae",
+      "compiled_source_sha256": "545129e2e02bd08f8e6ff50dc99501c8fe8357a9eb6b75190d02e0b38df71fae",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054320": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TruncatedMonomialsLinearIndependentOverConstantsStatement",
+      "started_utc": "2026-11-21T23:34:43.879484+00:00",
+      "elapsed_seconds": 9.688,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TruncatedMonomialsLinearIndependentOverConstantsStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M054320.log",
+      "log_sha256": "717790b8073845b6cee22d44887b5c479df9cdd8a6a3a0ec3a7aa1b3128ce6dd",
+      "object_sha256": "6c6b2e079a69e439d3ada18af7e821663d98cf56c5d5c5f6fa514b1bc1d467cc",
+      "source_sha256": "cd2e060b08fcbce1dbee0809584660acead367afc854318cc26ffe275170f43a",
+      "compiled_source_sha256": "cd2e060b08fcbce1dbee0809584660acead367afc854318cc26ffe275170f43a",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054474": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedFixedCosetDecompositionStatement",
+      "started_utc": "2026-11-21T23:34:53.568901+00:00",
+      "elapsed_seconds": 9.59,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedFixedCosetDecompositionStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M054474.log",
+      "log_sha256": "2044eafb46b6547b7c9a9bf66eef8e065cf5eb0360766614bcf9d18423dd477a",
+      "object_sha256": "73c8158f9d795c17aafa90cdc03ead887a044b5c57be428c42af12d5a599bd2d",
+      "source_sha256": "2b9b11824fd56d5985ca9259e45f46cf0efe2a8e82b45818c324b1a7cbbe0a0c",
+      "compiled_source_sha256": "2b9b11824fd56d5985ca9259e45f46cf0efe2a8e82b45818c324b1a7cbbe0a0c",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054517": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedNormFixedDecompositionStatement",
+      "started_utc": "2026-11-21T23:35:03.160551+00:00",
+      "elapsed_seconds": 9.388,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedNormFixedDecompositionStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M054517.log",
+      "log_sha256": "16479c4f7340fa9b9b0eec25833822791cbc5517c337505b8f760b32cf4591c8",
+      "object_sha256": "4ed0e408f6c23c2a96c67459228314b915d5d11b1ce01b2258fbbb848bafbefa",
+      "source_sha256": "43d98260e2475c32cac893acf9d3434fe37890d04a35111326ee39a11ec2fa17",
+      "compiled_source_sha256": "43d98260e2475c32cac893acf9d3434fe37890d04a35111326ee39a11ec2fa17",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054561": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedProjectorIdempotentOfGroupAlgebraIdem",
+      "started_utc": "2026-11-21T23:35:12.550182+00:00",
+      "elapsed_seconds": 10.748,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedProjectorIdempotentOfGroupAlgebraIdem:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M054561.log",
+      "log_sha256": "5ec1eb46f4b2ed9dd82d63ea15f4d3e7a9f309eea1dba8361e1834f0cd2bdf96",
+      "object_sha256": "0a1930112ab52f0f782ead99d590f0ff571802fa335a05fd25f166b92c20b9dc",
+      "source_sha256": "df2c373e56f6cf200fba799cb2e3ead86e16fb073956c1ca64518c3445c514a7",
+      "compiled_source_sha256": "df2c373e56f6cf200fba799cb2e3ead86e16fb073956c1ca64518c3445c514a7",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054563": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedProjectorOrthogonalOfUnitaryAction",
+      "started_utc": "2026-11-21T23:35:23.300078+00:00",
+      "elapsed_seconds": 7.081,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedProjectorOrthogonalOfUnitaryAction:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M054563.log",
+      "log_sha256": "dd458f5c76672ad549ee8e7174dd25dee582f4b83ab223fec5c84c874f68eba8",
+      "object_sha256": "84a35671e8c1928a5bd35342cde4f427cf3db5b951a029642cc93e8543194640",
+      "source_sha256": "161f406a676fea0bd7a653dc1461fb8fd800bdb6740593bafc5e28e493caeb11",
+      "compiled_source_sha256": "161f406a676fea0bd7a653dc1461fb8fd800bdb6740593bafc5e28e493caeb11",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054707": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnfoldPoincareSeriesLatticeFourierStatement",
+      "started_utc": "2026-11-21T23:35:30.383089+00:00",
+      "elapsed_seconds": 10.59,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnfoldPoincareSeriesLatticeFourierStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M054707.log",
+      "log_sha256": "9887680b91f81d7b1a5c0cf72166e5708afa76a82c987fce643d39af4e64b98b",
+      "object_sha256": "198a7596c7539bd6bd39a782dff72ff0f5f86e6e0d755017606021792ab483bb",
+      "source_sha256": "11a13ad737d89d4f98ea2b089ee5de847e5cbb9c2a095c2384ec183a995a3ddb",
+      "compiled_source_sha256": "11a13ad737d89d4f98ea2b089ee5de847e5cbb9c2a095c2384ec183a995a3ddb",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054709": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnfoldSumInvariantLeviConjStatement",
+      "started_utc": "2026-11-21T23:35:40.974857+00:00",
+      "elapsed_seconds": 9.338,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnfoldSumInvariantLeviConjStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M054709.log",
+      "log_sha256": "29fddc15f5eaa567e886b517efe418abb8722bf32981764b7400814800e9d697",
+      "object_sha256": "28a7e5f609e369017324259d43bd96f64cdfa4183be2e5ec64d26b26db420ffc",
+      "source_sha256": "ebc71181793e798f0be115eda49007d21b9f397a49afa5588b56d1e2e679aeb5",
+      "compiled_source_sha256": "ebc71181793e798f0be115eda49007d21b9f397a49afa5588b56d1e2e679aeb5",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054914": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.UniformizerEqPowRamificationIdxMulUnitIntegralClStatement",
+      "started_utc": "2026-11-21T23:35:50.314442+00:00",
+      "elapsed_seconds": 13.703,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.UniformizerEqPowRamificationIdxMulUnitIntegralClStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M054914.log",
+      "log_sha256": "75b5e4ea1dad87ce4aea0eadc83ae6303e29161b251e24e341eac741ebcd1467",
+      "object_sha256": "febc310a3e24f5f95ade6ddbd41bad79e7701952189173fd2d6a2d23db27fd12",
+      "source_sha256": "0813f3403201f858cd7b4bf206cf49f33ead5a59fb963f2d9a460fbacbf2dc5a",
+      "compiled_source_sha256": "0813f3403201f858cd7b4bf206cf49f33ead5a59fb963f2d9a460fbacbf2dc5a",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M055158": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitRealOfCongrOneStatement",
+      "started_utc": "2026-11-21T23:36:04.019220+00:00",
+      "elapsed_seconds": 9.589,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitRealOfCongrOneStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M055158.log",
+      "log_sha256": "1832ad3b417eac558441a862dc7fffe6f8fcbf08a9f47647387190a539efddab",
+      "object_sha256": "a910b7ed92bebfb3781fa49975c10348323c0e4bd24c76a53c14eb5710e24f99",
+      "source_sha256": "c66d24996b07f09adfb6949705049db1a488aaf2d76dfc0c36f03a19ef410ec3",
+      "compiled_source_sha256": "c66d24996b07f09adfb6949705049db1a488aaf2d76dfc0c36f03a19ef410ec3",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M055159": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitSectionAvoidPrime",
+      "started_utc": "2026-11-21T23:36:13.609518+00:00",
+      "elapsed_seconds": 9.288,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitSectionAvoidPrime:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M055159.log",
+      "log_sha256": "368791a4ccc397a7ed82812572719d1e5e1eceaf1e989c0720843de5d7a7a79b",
+      "object_sha256": "ae187f17d4c355499c7e8d6680fa6f0f8a6365cc236aaed73f43f37734515229",
+      "source_sha256": "5614c213d5ecb00d5ae5352fc1d8a9f6e4711305d1f539ae09f37f4df1220c4d",
+      "compiled_source_sha256": "5614c213d5ecb00d5ae5352fc1d8a9f6e4711305d1f539ae09f37f4df1220c4d",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M055256": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryConjMapsKerAevalBasisAndGram",
+      "started_utc": "2026-11-21T23:36:22.899298+00:00",
+      "elapsed_seconds": 9.638,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryConjMapsKerAevalBasisAndGram:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M055256.log",
+      "log_sha256": "6e7aceee1e657892c0903bddfa74a87dc99b3792e28cfbeb85c5b62968099bc5",
+      "object_sha256": "8297be710ceb24980ebdfcb20328596e58b7aea7bd3eb6688e98376500aa9ff6",
+      "source_sha256": "33825b1998fbdbfa76e8403e63d50b9add848aaf26b49ace672deab6e9d86359",
+      "compiled_source_sha256": "33825b1998fbdbfa76e8403e63d50b9add848aaf26b49ace672deab6e9d86359",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M055319": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryGroupContinuousCharEqDetZpow",
+      "started_utc": "2026-11-21T23:36:32.538854+00:00",
+      "elapsed_seconds": 10.088,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryGroupContinuousCharEqDetZpow:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M055319.log",
+      "log_sha256": "dd905011f4c89164c26d388c0e5b9d016b77fc7e4b23af1b98e05e78d47be62d",
+      "object_sha256": "54770f801cdca77d81868c5ff23d10a87226aeff8a9536e4a0a3917edb12fff3",
+      "source_sha256": "ee3785dfbd46f1eb4a12b6719ab540c7be2a30d8f48c0dc3c5b181835f1a0823",
+      "compiled_source_sha256": "ee3785dfbd46f1eb4a12b6719ab540c7be2a30d8f48c0dc3c5b181835f1a0823",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M055326": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryGroupSecondKindCoordinatesNearOneStatement",
+      "started_utc": "2026-11-21T23:36:42.629749+00:00",
+      "elapsed_seconds": 10.741,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryGroupSecondKindCoordinatesNearOneStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M055326.log",
+      "log_sha256": "d36a3bef0b8b77b32a1aeff5167af8560cfae3c6fd4277884c53721347c43bf4",
+      "object_sha256": "8621567523965ecb23204e48bb0d4d8ee1cdd505141755aa7f067bc28c7ef566",
+      "source_sha256": "6e738dcdb4b6caf2d8b64941a5f65e873f1d1c72dcb73199069f841902d82022",
+      "compiled_source_sha256": "6e738dcdb4b6caf2d8b64941a5f65e873f1d1c72dcb73199069f841902d82022",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M055372": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryLieAlgebraSpannedStatement",
+      "started_utc": "2026-11-21T23:36:53.372654+00:00",
+      "elapsed_seconds": 9.839,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryLieAlgebraSpannedStatement:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M055372.log",
+      "log_sha256": "56de6880a565d136dddd8358420a9da3b1c9a4c128dd0203af265aee3ec1d76d",
+      "object_sha256": "9e07d3eef2da3cd44fad5444b853baa39a8e0c452d7a2cd8e8f73dadb034847a",
+      "source_sha256": "ab1963b3260753ca846536dc2318cbb8cca7d7c8fc6b315c12b5e732ea26e4a2",
+      "compiled_source_sha256": "ab1963b3260753ca846536dc2318cbb8cca7d7c8fc6b315c12b5e732ea26e4a2",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M055440": {
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryStandardLatticeAlternatingFormBijective",
+      "started_utc": "2026-11-21T23:37:03.213381+00:00",
+      "elapsed_seconds": 10.291,
+      "command": [
+        "lake",
+        "--no-cache",
+        "build",
+        "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryStandardLatticeAlternatingFormBijective:olean"
+      ],
+      "exit_code": 0,
+      "timed_out": false,
+      "transcript_capture_errors": [],
+      "sorry_diagnostic": false,
+      "source_unchanged_during_build": true,
+      "success": true,
+      "log": "modules/M055440.log",
+      "log_sha256": "c83f15b56455e8b7b42c314051afb40caf818bf18b05c4f578c85c14a9c66eaf",
+      "object_sha256": "764da4bb0de69cad5b312b2bf0ac187c9c649da4b30a07f1d9dd8675ff4bd0da",
+      "source_sha256": "c4764966244cfe4a70fbcd8d7221f64dda50a889944d8da4f55abc28b1445506",
+      "compiled_source_sha256": "c4764966244cfe4a70fbcd8d7221f64dda50a889944d8da4f55abc28b1445506",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    }
+  },
+  "requested_module_ids": [
+    "M051491",
+    "M051501",
+    "M051535",
+    "M051566",
+    "M051583",
+    "M051585",
+    "M051881",
+    "M051882",
+    "M051884",
+    "M052278",
+    "M052288",
+    "M052315",
+    "M052405",
+    "M052407",
+    "M052421",
+    "M052425",
+    "M053304",
+    "M053439",
+    "M053441",
+    "M053458",
+    "M053460",
+    "M053525",
+    "M053640",
+    "M053642",
+    "M053661",
+    "M053809",
+    "M053922",
+    "M053945",
+    "M054105",
+    "M054163",
+    "M054320",
+    "M054474",
+    "M054517",
+    "M054561",
+    "M054563",
+    "M054707",
+    "M054709",
+    "M054914",
+    "M055158",
+    "M055159",
+    "M055256",
+    "M055319",
+    "M055326",
+    "M055372",
+    "M055440"
+  ],
+  "packet_complete": false,
+  "started_utc": "2026-11-21T23:28:18.256898+00:00",
+  "diagnostic_only": true,
+  "creates_port_records": false,
+  "cpu_count": 4,
+  "lean_num_threads": "2",
+  "target": {
+    "lean": "leanprover/lean4:v4.36.0",
+    "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+    "mathlib_note": "Mathlib's release tag v4.36.0 (matches Lean v4.36.0). Approved by the maintainer 2026-11-21.",
+    "replay_pins_unchanged": {
+      "lean": "leanprover/lean4:v4.33.1",
+      "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474"
+    }
+  },
+  "target_ids": [
+    "M051491",
+    "M051501",
+    "M051535",
+    "M051566",
+    "M051583",
+    "M051585",
+    "M051881",
+    "M051882",
+    "M051884",
+    "M052278",
+    "M052288",
+    "M052315",
+    "M052405",
+    "M052407",
+    "M052421",
+    "M052425",
+    "M053304",
+    "M053439",
+    "M053441",
+    "M053458",
+    "M053460",
+    "M053525",
+    "M053640",
+    "M053642",
+    "M053661",
+    "M053809",
+    "M053922",
+    "M053945",
+    "M054105",
+    "M054163",
+    "M054320",
+    "M054474",
+    "M054517",
+    "M054561",
+    "M054563",
+    "M054707",
+    "M054709",
+    "M054914",
+    "M055158",
+    "M055159",
+    "M055256",
+    "M055319",
+    "M055326",
+    "M055372",
+    "M055440"
+  ],
+  "packet_ids": [
+    "M051429",
+    "M051491",
+    "M051501",
+    "M051527",
+    "M051535",
+    "M051566",
+    "M051583",
+    "M051585",
+    "M051881",
+    "M051882",
+    "M051884",
+    "M051887",
+    "M052259",
+    "M052278",
+    "M052288",
+    "M052294",
+    "M052315",
+    "M052398",
+    "M052405",
+    "M052407",
+    "M052421",
+    "M052425",
+    "M053304",
+    "M053439",
+    "M053441",
+    "M053458",
+    "M053460",
+    "M053525",
+    "M053533",
+    "M053640",
+    "M053642",
+    "M053661",
+    "M053746",
+    "M053809",
+    "M053922",
+    "M053940",
+    "M053945",
+    "M054054",
+    "M054105",
+    "M054163",
+    "M054165",
+    "M054320",
+    "M054474",
+    "M054517",
+    "M054561",
+    "M054563",
+    "M054705",
+    "M054707",
+    "M054709",
+    "M054716",
+    "M054718",
+    "M054733",
+    "M054914",
+    "M055003",
+    "M055133",
+    "M055153",
+    "M055158",
+    "M055159",
+    "M055237",
+    "M055256",
+    "M055319",
+    "M055326",
+    "M055372",
+    "M055440"
+  ],
+  "closure_ids": [
+    "M002078",
+    "M002164",
+    "M003661",
+    "M003923",
+    "M005375",
+    "M006419",
+    "M016244",
+    "M017275",
+    "M019214",
+    "M021887",
+    "M031784",
+    "M037516",
+    "M051490",
+    "M051491",
+    "M051501",
+    "M051535",
+    "M051565",
+    "M051566",
+    "M051583",
+    "M051585",
+    "M051881",
+    "M051882",
+    "M051884",
+    "M052277",
+    "M052278",
+    "M052287",
+    "M052288",
+    "M052314",
+    "M052315",
+    "M052405",
+    "M052407",
+    "M052420",
+    "M052421",
+    "M052424",
+    "M052425",
+    "M053303",
+    "M053304",
+    "M053438",
+    "M053439",
+    "M053440",
+    "M053441",
+    "M053457",
+    "M053458",
+    "M053459",
+    "M053460",
+    "M053524",
+    "M053525",
+    "M053639",
+    "M053640",
+    "M053641",
+    "M053642",
+    "M053661",
+    "M053808",
+    "M053809",
+    "M053921",
+    "M053922",
+    "M053945",
+    "M054104",
+    "M054105",
+    "M054162",
+    "M054163",
+    "M054319",
+    "M054320",
+    "M054473",
+    "M054474",
+    "M054516",
+    "M054517",
+    "M054561",
+    "M054563",
+    "M054706",
+    "M054707",
+    "M054708",
+    "M054709",
+    "M054913",
+    "M054914",
+    "M055157",
+    "M055158",
+    "M055159",
+    "M055256",
+    "M055319",
+    "M055325",
+    "M055326",
+    "M055371",
+    "M055372",
+    "M055440",
+    "M084461",
+    "M149412",
+    "M163269"
+  ],
+  "tracker_commit": "885d71e85e2087afacc066c4c8c946dbed47fcc3",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "sources": {
+    "M002078": {
+      "source_sha256": "fef2442d1d8f881ccd35805eb365f669889bf8801b21b25c6eb43673b16913f3",
+      "compiled_source_sha256": "fef2442d1d8f881ccd35805eb365f669889bf8801b21b25c6eb43673b16913f3",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M002164": {
+      "source_sha256": "ca100f483d352015c0dedd13ec2adbecc66e3d536bcd10b09278febb04d54ca0",
+      "compiled_source_sha256": "ca100f483d352015c0dedd13ec2adbecc66e3d536bcd10b09278febb04d54ca0",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M003661": {
+      "source_sha256": "31c3765576cc9800982fb55a53d3cad70865776a6ab52fd95cad81c3e082b60f",
+      "compiled_source_sha256": "31c3765576cc9800982fb55a53d3cad70865776a6ab52fd95cad81c3e082b60f",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M003923": {
+      "source_sha256": "38621732250b19211df100dcd5b833a2957885c182de83d0a2d9cc4a3f8abc9a",
+      "compiled_source_sha256": "38621732250b19211df100dcd5b833a2957885c182de83d0a2d9cc4a3f8abc9a",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M005375": {
+      "source_sha256": "c6dd05532d7ff9a42365f7b6af732761a01cd0b6fe0fc01b6ffee6d109a77338",
+      "compiled_source_sha256": "c6dd05532d7ff9a42365f7b6af732761a01cd0b6fe0fc01b6ffee6d109a77338",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M006419": {
+      "source_sha256": "80863752e73e523938d9337daede02072fe40346f6b0c6637de40d6e66a5d578",
+      "compiled_source_sha256": "80863752e73e523938d9337daede02072fe40346f6b0c6637de40d6e66a5d578",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M016244": {
+      "source_sha256": "cf089ae5e8848ae6125f2808f6991a23be9c11efabfcba546f67d7b92ba418cf",
+      "compiled_source_sha256": "8b1869368fc4d368d663e5960fb9ade0b527dd8c2468956126835cea04aa5a33",
+      "patch_kind": "landed",
+      "patch_sha256": "c943fc7465adf6e5202a340d74d391ee652a478543f053cd99b0d497e97a0afd"
+    },
+    "M017275": {
+      "source_sha256": "974452aba7518fc6cc2d0736d8da5ceb8b9deeb4f53c5e16c69898e4db01f90f",
+      "compiled_source_sha256": "974452aba7518fc6cc2d0736d8da5ceb8b9deeb4f53c5e16c69898e4db01f90f",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M019214": {
+      "source_sha256": "007a8b7324343c34b9aff9232705147cb1a9b42b3ab63f13c8b848ad1d8ab73d",
+      "compiled_source_sha256": "007a8b7324343c34b9aff9232705147cb1a9b42b3ab63f13c8b848ad1d8ab73d",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M021887": {
+      "source_sha256": "68dc8d2444e9f378696b4ebc45c12f90d4b189db382851463f1feb42eb73c02d",
+      "compiled_source_sha256": "68dc8d2444e9f378696b4ebc45c12f90d4b189db382851463f1feb42eb73c02d",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M031784": {
+      "source_sha256": "4846fd3bfa82e8cbfecc1ac4d990f623c6fd736d42a345b0f2c13bdf14e3f33b",
+      "compiled_source_sha256": "4846fd3bfa82e8cbfecc1ac4d990f623c6fd736d42a345b0f2c13bdf14e3f33b",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M037516": {
+      "source_sha256": "838091a48dbc059ff93789e8d61c32ffdfcdc159af4d34f1b7ab2c49d27998b3",
+      "compiled_source_sha256": "838091a48dbc059ff93789e8d61c32ffdfcdc159af4d34f1b7ab2c49d27998b3",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M051490": {
+      "source_sha256": "3e7b8ef0e94693fa6184a91ff9c088fc3e09c354b8b4d76dc022fcf382953239",
+      "compiled_source_sha256": "3e7b8ef0e94693fa6184a91ff9c088fc3e09c354b8b4d76dc022fcf382953239",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M051491": {
+      "source_sha256": "7c6d0b2e3341a31b1f4d7cead3909cfad5ac4b7365c4c91a5d8292e1e132f420",
+      "compiled_source_sha256": "7c6d0b2e3341a31b1f4d7cead3909cfad5ac4b7365c4c91a5d8292e1e132f420",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M051501": {
+      "source_sha256": "3cb584a01c9c4cc5797246687c09d1c7eb01ca91df12b6cc46134610c933d0fd",
+      "compiled_source_sha256": "3cb584a01c9c4cc5797246687c09d1c7eb01ca91df12b6cc46134610c933d0fd",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M051535": {
+      "source_sha256": "a2d30105242956309fa4a625f04a478c234a1dc17c4a25c4f2c06df236e01497",
+      "compiled_source_sha256": "a2d30105242956309fa4a625f04a478c234a1dc17c4a25c4f2c06df236e01497",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M051565": {
+      "source_sha256": "f334d3e39c4cfde53dd4001890980d1764d8483964feb4d158a1a6294f590954",
+      "compiled_source_sha256": "f334d3e39c4cfde53dd4001890980d1764d8483964feb4d158a1a6294f590954",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M051566": {
+      "source_sha256": "cb928e4aef81560f7bed139b5d8a076f40972576f02300747c4b5e5b315c6a3c",
+      "compiled_source_sha256": "cb928e4aef81560f7bed139b5d8a076f40972576f02300747c4b5e5b315c6a3c",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M051583": {
+      "source_sha256": "1ffd40adb0cb72561b6788d4c027b23238fa0adcc596b72ebfc9705e3b1f10bc",
+      "compiled_source_sha256": "1ffd40adb0cb72561b6788d4c027b23238fa0adcc596b72ebfc9705e3b1f10bc",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M051585": {
+      "source_sha256": "25e2d4f9794a4bb2c41367a81ac580670bcc42c79f2aadba50277b2d16eb9ba8",
+      "compiled_source_sha256": "579dd24b9c8d7ee94c500fb3b3f49fe4353017a9ca27d50f870a8eebfad7bf18",
+      "patch_kind": "diagnostic",
+      "patch_sha256": "0fbc11c342b999cee7e5d55f909cd5bf333a917b2a18cdb9d6ea82d311e802fc"
+    },
+    "M051881": {
+      "source_sha256": "b35839ceb7134d8abc86225b013f8e6a036a5bd1e19d33d777254808f88af6d6",
+      "compiled_source_sha256": "b35839ceb7134d8abc86225b013f8e6a036a5bd1e19d33d777254808f88af6d6",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M051882": {
+      "source_sha256": "9c06643db9bc3574b466a6dd253e7ef253a2bd0b3d6e7fcf663d95ffbb62edc0",
+      "compiled_source_sha256": "9c06643db9bc3574b466a6dd253e7ef253a2bd0b3d6e7fcf663d95ffbb62edc0",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M051884": {
+      "source_sha256": "b441df2610d7a04ba9f884adf6cc2dbe0dc3e56c3327f559452136323f404d22",
+      "compiled_source_sha256": "b441df2610d7a04ba9f884adf6cc2dbe0dc3e56c3327f559452136323f404d22",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M052277": {
+      "source_sha256": "fcefcfd594ad594445c19e756192a14c08352595715f59b32ecee8333102f161",
+      "compiled_source_sha256": "d43f750949c801ec83c917ee3e4d0f25cf37d3669f323651b31c06b8ecbd6bac",
+      "patch_kind": "landed",
+      "patch_sha256": "d13cec6a8cc71e07b136c4a09f8c203bab64c7ffac17518036cc9b33e66b2522"
+    },
+    "M052278": {
+      "source_sha256": "b9dd41f61d1e340ce8c28543346b834321551939b9bad2c723cff793da296605",
+      "compiled_source_sha256": "b9dd41f61d1e340ce8c28543346b834321551939b9bad2c723cff793da296605",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M052287": {
+      "source_sha256": "a443d6f05430cf6e311eb119631f94f4c6785befee4307e430c5d7d02df3c5c4",
+      "compiled_source_sha256": "a443d6f05430cf6e311eb119631f94f4c6785befee4307e430c5d7d02df3c5c4",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M052288": {
+      "source_sha256": "3dbea2ee4ed214996eecf9bff43ede382ff180826da7e3950a906e2cc98c975e",
+      "compiled_source_sha256": "3dbea2ee4ed214996eecf9bff43ede382ff180826da7e3950a906e2cc98c975e",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M052314": {
+      "source_sha256": "693f575600f57847e164527225b34cb8a3ae9e69bbb0dd642c4e1abfdbe72a5d",
+      "compiled_source_sha256": "693f575600f57847e164527225b34cb8a3ae9e69bbb0dd642c4e1abfdbe72a5d",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M052315": {
+      "source_sha256": "9b1afec3d7b892ced665fb0971120f3e43ffc6a21ff2191f7d9b04db680718fc",
+      "compiled_source_sha256": "9b1afec3d7b892ced665fb0971120f3e43ffc6a21ff2191f7d9b04db680718fc",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M052405": {
+      "source_sha256": "158a433ec0906ad3d257eef70e865cddaf74c06cd071bab587a68b2cfcc46f8b",
+      "compiled_source_sha256": "158a433ec0906ad3d257eef70e865cddaf74c06cd071bab587a68b2cfcc46f8b",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M052407": {
+      "source_sha256": "8f6fe7022e7a222d092a68cecab469ab9e3a50d3d3b969d2ca76ad2803a73761",
+      "compiled_source_sha256": "8f6fe7022e7a222d092a68cecab469ab9e3a50d3d3b969d2ca76ad2803a73761",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M052420": {
+      "source_sha256": "5aa0162853045058a8068cb1efa00b32f6418c87fac86f00f69070d7e38eb134",
+      "compiled_source_sha256": "5aa0162853045058a8068cb1efa00b32f6418c87fac86f00f69070d7e38eb134",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M052421": {
+      "source_sha256": "ea55d92fffa2f6da20b9031c6cba2f6ffcbaa57b2ba8524ccd2052c49d106223",
+      "compiled_source_sha256": "ea55d92fffa2f6da20b9031c6cba2f6ffcbaa57b2ba8524ccd2052c49d106223",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M052424": {
+      "source_sha256": "88e105a124a15b5d000249027e7ed55eb3d054c90c73ccf42cf83786e244c1fb",
+      "compiled_source_sha256": "88e105a124a15b5d000249027e7ed55eb3d054c90c73ccf42cf83786e244c1fb",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M052425": {
+      "source_sha256": "df6acc98cd63502d8275492133c3bd957955f68b9fd13968be83361d8eb01cda",
+      "compiled_source_sha256": "df6acc98cd63502d8275492133c3bd957955f68b9fd13968be83361d8eb01cda",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053303": {
+      "source_sha256": "e66067aa0b9666e940b28edbbf85bf4d653318e80f0082f2008e587388a07087",
+      "compiled_source_sha256": "e66067aa0b9666e940b28edbbf85bf4d653318e80f0082f2008e587388a07087",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053304": {
+      "source_sha256": "ca67bce445550715bfa78e02dd4ddf0f48bf69eae0aef6a4b8736350ed53ae4b",
+      "compiled_source_sha256": "ca67bce445550715bfa78e02dd4ddf0f48bf69eae0aef6a4b8736350ed53ae4b",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053438": {
+      "source_sha256": "f4fe53d583918dfd493c3089b948ce9c2a1ea87bbaf573d2b31e594c1eb224ab",
+      "compiled_source_sha256": "f22ea04191390efceaad260c16e80ff7a731b4e7d1629137f7251b0aefc20fad",
+      "patch_kind": "landed",
+      "patch_sha256": "18ac26607cb52c98db3f1cf8d3968c7cb43c11e09ee5fc17f7de8798beb6ec65"
+    },
+    "M053439": {
+      "source_sha256": "b278fe14f1ac8c1a6117517b194d774ec20ece58b55a12b9558586bbaeeceeef",
+      "compiled_source_sha256": "b278fe14f1ac8c1a6117517b194d774ec20ece58b55a12b9558586bbaeeceeef",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053440": {
+      "source_sha256": "7099243b80c1046f6320fc5980e315680177b18b2caef51ddc4d9dfa65028102",
+      "compiled_source_sha256": "7099243b80c1046f6320fc5980e315680177b18b2caef51ddc4d9dfa65028102",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053441": {
+      "source_sha256": "32967a4ead9414b261d7d5f3b168118821ea7193a94a7006c24f17e33060b935",
+      "compiled_source_sha256": "32967a4ead9414b261d7d5f3b168118821ea7193a94a7006c24f17e33060b935",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053457": {
+      "source_sha256": "2b1f641f5e3780690d8ad1e94c8617d6057a069a87cc03b0d129d0740ac4c79e",
+      "compiled_source_sha256": "5fff33ff1a1445440f8e58b1554592928b7af3c6a9e0ee92927e6a19b0abcb55",
+      "patch_kind": "landed",
+      "patch_sha256": "0eff3ffc2db4d24ee7b466d4190aeff1674ad1c1d265d6ef3cd1e256b329bb03"
+    },
+    "M053458": {
+      "source_sha256": "953a0d23d5170521e27c4736624814463634a507c9d73b88ec25b9023e76c226",
+      "compiled_source_sha256": "953a0d23d5170521e27c4736624814463634a507c9d73b88ec25b9023e76c226",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053459": {
+      "source_sha256": "df6cc5792f01eb28b91f91b0439c6e883e5a6e0e22a53937f44a2905226e7d56",
+      "compiled_source_sha256": "df6cc5792f01eb28b91f91b0439c6e883e5a6e0e22a53937f44a2905226e7d56",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053460": {
+      "source_sha256": "18e66942d283fe66d89abbf3ebff9d4d33d4db6293b2c11386ea8f29ea781531",
+      "compiled_source_sha256": "18e66942d283fe66d89abbf3ebff9d4d33d4db6293b2c11386ea8f29ea781531",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053524": {
+      "source_sha256": "69d5eb44a64866ec270afc50a0cda310897e41114e5d9c894f197c8a5539bbfe",
+      "compiled_source_sha256": "ad9f9d65295d21f721ba4ebeac06f0dcb58bfdbfeaaff2e62657e3c93a69f3bf",
+      "patch_kind": "landed",
+      "patch_sha256": "1ba8f3253df51741c1155a55b4b145ac4962d4ecac8139344d62dcc1710e35b9"
+    },
+    "M053525": {
+      "source_sha256": "478c80ced7d2f6fa2e4d7ae6ac0a8d6166ff10562bbea6fd8fcb5c7fc14f4eef",
+      "compiled_source_sha256": "478c80ced7d2f6fa2e4d7ae6ac0a8d6166ff10562bbea6fd8fcb5c7fc14f4eef",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053639": {
+      "source_sha256": "00c601412533ef6d9043b3ac6b8653e1d50426313356fdb870fa9a8de840e049",
+      "compiled_source_sha256": "00c601412533ef6d9043b3ac6b8653e1d50426313356fdb870fa9a8de840e049",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053640": {
+      "source_sha256": "dbcddc3035d648255d84e77c5d4edbc26c2a9ac9f1e5f24d283ac21b5e6a3480",
+      "compiled_source_sha256": "dbcddc3035d648255d84e77c5d4edbc26c2a9ac9f1e5f24d283ac21b5e6a3480",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053641": {
+      "source_sha256": "07d443a105a1f01f0eb356719549d5ef543bcd2cd1f3660d0350f392424bf9f6",
+      "compiled_source_sha256": "07d443a105a1f01f0eb356719549d5ef543bcd2cd1f3660d0350f392424bf9f6",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053642": {
+      "source_sha256": "943c503b3ac92c615796fb8068c05c7286c497dc8a841481dfa12789bd02e35e",
+      "compiled_source_sha256": "943c503b3ac92c615796fb8068c05c7286c497dc8a841481dfa12789bd02e35e",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053661": {
+      "source_sha256": "fe4abeb36186c061769bc8452070dadd005021283358a9ec3fd4d12e00a0f1f5",
+      "compiled_source_sha256": "fe4abeb36186c061769bc8452070dadd005021283358a9ec3fd4d12e00a0f1f5",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053808": {
+      "source_sha256": "9697dd3b0352166ad1dc4bb33d0164c7013636607af52f8aa7e8b7de23423ecc",
+      "compiled_source_sha256": "c7c5154df63590cb307339f948ce3bbe7fdcbd7b577d920a36eaa377fbe24409",
+      "patch_kind": "landed",
+      "patch_sha256": "447f75deaecc49ba50ab4c6a629be461c2515bebe83a5d83b81028860dffc849"
+    },
+    "M053809": {
+      "source_sha256": "f1cd7efe58ec342727ef7251bb88ac871ba88f0dc09efc0c71522bf120674fef",
+      "compiled_source_sha256": "f1cd7efe58ec342727ef7251bb88ac871ba88f0dc09efc0c71522bf120674fef",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053921": {
+      "source_sha256": "b84c36deb1276cef026897be3151e4c48fb796eedb0283bbca031bd42a5fbad2",
+      "compiled_source_sha256": "b84c36deb1276cef026897be3151e4c48fb796eedb0283bbca031bd42a5fbad2",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053922": {
+      "source_sha256": "b69df8ccb14a3b1ab62526c2e3b10db6eb9489023d9dda905d00d1729be90a1e",
+      "compiled_source_sha256": "b69df8ccb14a3b1ab62526c2e3b10db6eb9489023d9dda905d00d1729be90a1e",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M053945": {
+      "source_sha256": "c30f48cddc960e657a92769b61390502e2b9c5ec02ab0354a9116201005f3504",
+      "compiled_source_sha256": "bf02d9c14e5e49831e9ba24cc6e0a2841e716f9a91291e5e6abae01771cb6938",
+      "patch_kind": "diagnostic",
+      "patch_sha256": "e47b4b37eadb0267c0227c664a028507d7cdf6422d749df2c4a518e042c625f8"
+    },
+    "M054104": {
+      "source_sha256": "f35591eb2f22ca59c373824fab28193bffcee13ac4beab5c1f0bfdca32b23cb3",
+      "compiled_source_sha256": "f35591eb2f22ca59c373824fab28193bffcee13ac4beab5c1f0bfdca32b23cb3",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054105": {
+      "source_sha256": "5a14528b531bf2479801ca08a5ee532d7afc3e6df5eecce99f4ab9cc8570d79a",
+      "compiled_source_sha256": "5a14528b531bf2479801ca08a5ee532d7afc3e6df5eecce99f4ab9cc8570d79a",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054162": {
+      "source_sha256": "93e4b05b6b9ee7b008f378fd25c2e49204d8e8316ec09d8443343267d66c3db3",
+      "compiled_source_sha256": "93e4b05b6b9ee7b008f378fd25c2e49204d8e8316ec09d8443343267d66c3db3",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054163": {
+      "source_sha256": "545129e2e02bd08f8e6ff50dc99501c8fe8357a9eb6b75190d02e0b38df71fae",
+      "compiled_source_sha256": "545129e2e02bd08f8e6ff50dc99501c8fe8357a9eb6b75190d02e0b38df71fae",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054319": {
+      "source_sha256": "e615aee1636f0e3cd013ccb35f59407dd5570fe01657a7c456288129d5ccd380",
+      "compiled_source_sha256": "a07ad279764f2f45ba616c5ac17e4a8158a10e3d16afd7898adef4356a8f846f",
+      "patch_kind": "landed",
+      "patch_sha256": "819630dbec3b91e5d97a238dfba4f2c4389ac651a36f0de25b98c1652995963c"
+    },
+    "M054320": {
+      "source_sha256": "cd2e060b08fcbce1dbee0809584660acead367afc854318cc26ffe275170f43a",
+      "compiled_source_sha256": "cd2e060b08fcbce1dbee0809584660acead367afc854318cc26ffe275170f43a",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054473": {
+      "source_sha256": "317ba96eed6f5ebc345f0890212f0602e71a859119a463e9a16d57f084deb8b1",
+      "compiled_source_sha256": "317ba96eed6f5ebc345f0890212f0602e71a859119a463e9a16d57f084deb8b1",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054474": {
+      "source_sha256": "2b9b11824fd56d5985ca9259e45f46cf0efe2a8e82b45818c324b1a7cbbe0a0c",
+      "compiled_source_sha256": "2b9b11824fd56d5985ca9259e45f46cf0efe2a8e82b45818c324b1a7cbbe0a0c",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054516": {
+      "source_sha256": "d1736bd217d101c68e973fb5b999730c7f5943dc810125994b1596ea9282c5ec",
+      "compiled_source_sha256": "66cb2ee0544f219905c4b0300302a6c34323f3329c0e75c49162c29621e47a37",
+      "patch_kind": "landed",
+      "patch_sha256": "0b131da69fc912c6043c51ce29cb06f3eff6fde4be3233a2fb87a1adb7302272"
+    },
+    "M054517": {
+      "source_sha256": "43d98260e2475c32cac893acf9d3434fe37890d04a35111326ee39a11ec2fa17",
+      "compiled_source_sha256": "43d98260e2475c32cac893acf9d3434fe37890d04a35111326ee39a11ec2fa17",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054561": {
+      "source_sha256": "df2c373e56f6cf200fba799cb2e3ead86e16fb073956c1ca64518c3445c514a7",
+      "compiled_source_sha256": "df2c373e56f6cf200fba799cb2e3ead86e16fb073956c1ca64518c3445c514a7",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054563": {
+      "source_sha256": "161f406a676fea0bd7a653dc1461fb8fd800bdb6740593bafc5e28e493caeb11",
+      "compiled_source_sha256": "161f406a676fea0bd7a653dc1461fb8fd800bdb6740593bafc5e28e493caeb11",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054706": {
+      "source_sha256": "97b5b3912a6fffb5c8726b7b00bd33a984c6ac13cd8e955a688fe570d38e296f",
+      "compiled_source_sha256": "cda5ff0fc8430c020164c3c4a12dadba3669b431683d03a5db5014d1dbd0d536",
+      "patch_kind": "landed",
+      "patch_sha256": "ad4a5e90a717cab3d834507170d84646c9b47198841af2df9fca0190f9bae234"
+    },
+    "M054707": {
+      "source_sha256": "11a13ad737d89d4f98ea2b089ee5de847e5cbb9c2a095c2384ec183a995a3ddb",
+      "compiled_source_sha256": "11a13ad737d89d4f98ea2b089ee5de847e5cbb9c2a095c2384ec183a995a3ddb",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054708": {
+      "source_sha256": "dd97f5294806a9b1517f89ebbb4d0dd28ec218e1349123b77c92e37ea3426d30",
+      "compiled_source_sha256": "dd97f5294806a9b1517f89ebbb4d0dd28ec218e1349123b77c92e37ea3426d30",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054709": {
+      "source_sha256": "ebc71181793e798f0be115eda49007d21b9f397a49afa5588b56d1e2e679aeb5",
+      "compiled_source_sha256": "ebc71181793e798f0be115eda49007d21b9f397a49afa5588b56d1e2e679aeb5",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054913": {
+      "source_sha256": "0f409900073a7ccffa8bdbb3ffd8468aa5498e8dc96c8a6bc63d1df8ba3a210b",
+      "compiled_source_sha256": "0f409900073a7ccffa8bdbb3ffd8468aa5498e8dc96c8a6bc63d1df8ba3a210b",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M054914": {
+      "source_sha256": "0813f3403201f858cd7b4bf206cf49f33ead5a59fb963f2d9a460fbacbf2dc5a",
+      "compiled_source_sha256": "0813f3403201f858cd7b4bf206cf49f33ead5a59fb963f2d9a460fbacbf2dc5a",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M055157": {
+      "source_sha256": "e2bb9ef877f10af424d2b5bb3e3e923c7d01fa18d33527b4a2a16d4cbc2b8a19",
+      "compiled_source_sha256": "e2bb9ef877f10af424d2b5bb3e3e923c7d01fa18d33527b4a2a16d4cbc2b8a19",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M055158": {
+      "source_sha256": "c66d24996b07f09adfb6949705049db1a488aaf2d76dfc0c36f03a19ef410ec3",
+      "compiled_source_sha256": "c66d24996b07f09adfb6949705049db1a488aaf2d76dfc0c36f03a19ef410ec3",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M055159": {
+      "source_sha256": "5614c213d5ecb00d5ae5352fc1d8a9f6e4711305d1f539ae09f37f4df1220c4d",
+      "compiled_source_sha256": "5614c213d5ecb00d5ae5352fc1d8a9f6e4711305d1f539ae09f37f4df1220c4d",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M055256": {
+      "source_sha256": "33825b1998fbdbfa76e8403e63d50b9add848aaf26b49ace672deab6e9d86359",
+      "compiled_source_sha256": "33825b1998fbdbfa76e8403e63d50b9add848aaf26b49ace672deab6e9d86359",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M055319": {
+      "source_sha256": "ee3785dfbd46f1eb4a12b6719ab540c7be2a30d8f48c0dc3c5b181835f1a0823",
+      "compiled_source_sha256": "ee3785dfbd46f1eb4a12b6719ab540c7be2a30d8f48c0dc3c5b181835f1a0823",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M055325": {
+      "source_sha256": "8db9dbd1aa50f0673c5728c5d32966ca99c5a6ac97b8c695f30cd8266fced80f",
+      "compiled_source_sha256": "8db9dbd1aa50f0673c5728c5d32966ca99c5a6ac97b8c695f30cd8266fced80f",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M055326": {
+      "source_sha256": "6e738dcdb4b6caf2d8b64941a5f65e873f1d1c72dcb73199069f841902d82022",
+      "compiled_source_sha256": "6e738dcdb4b6caf2d8b64941a5f65e873f1d1c72dcb73199069f841902d82022",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M055371": {
+      "source_sha256": "098a415f8d27e93759c961bd6d7ab5abc33c2a4601a42c35cf141855e2c003f3",
+      "compiled_source_sha256": "098a415f8d27e93759c961bd6d7ab5abc33c2a4601a42c35cf141855e2c003f3",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M055372": {
+      "source_sha256": "ab1963b3260753ca846536dc2318cbb8cca7d7c8fc6b315c12b5e732ea26e4a2",
+      "compiled_source_sha256": "ab1963b3260753ca846536dc2318cbb8cca7d7c8fc6b315c12b5e732ea26e4a2",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M055440": {
+      "source_sha256": "c4764966244cfe4a70fbcd8d7221f64dda50a889944d8da4f55abc28b1445506",
+      "compiled_source_sha256": "c4764966244cfe4a70fbcd8d7221f64dda50a889944d8da4f55abc28b1445506",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M084461": {
+      "source_sha256": "d7d762fb22cba91d269b8ea8cf48064874c1581989ad3f8d99b7cd0122004510",
+      "compiled_source_sha256": "d7d762fb22cba91d269b8ea8cf48064874c1581989ad3f8d99b7cd0122004510",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M149412": {
+      "source_sha256": "9bcac15cdedb0852561187834c7d325f74a1069594c7e2de8f8c86b8c616ec60",
+      "compiled_source_sha256": "9bcac15cdedb0852561187834c7d325f74a1069594c7e2de8f8c86b8c616ec60",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    },
+    "M163269": {
+      "source_sha256": "f07176f6b892a3fa1e4d3361a823a9663f37da3a0ad428d09dce9c2238fabf4c",
+      "compiled_source_sha256": "f07176f6b892a3fa1e4d3361a823a9663f37da3a0ad428d09dce9c2238fabf4c",
+      "patch_kind": "unchanged",
+      "patch_sha256": null
+    }
+  },
+  "lean_version": "Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)",
+  "lean_commit": "611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+  "dependencies": [
+    {
+      "name": "mathlib",
+      "commit": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842"
+    },
+    {
+      "name": "plausible",
+      "commit": "054b228ce0ac61d767c6e71ba73a24728f191b72"
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "4fb58e749ef3fc0395fe274f6cab70c2ea85f1c9"
+    },
+    {
+      "name": "importGraph",
+      "commit": "8370c640afcd1cc3fb1cb9bf1560cc66eafee5e0"
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "2f0f3520daeac2d9310ff25b7a877a0e5cdaa203"
+    },
+    {
+      "name": "aesop",
+      "commit": "66ff77cf0c4c898799e4b94d14db55f7a02d0c5a"
+    },
+    {
+      "name": "Qq",
+      "commit": "ff055a2fcc835935e0ae607339b455a5f5896b4b"
+    },
+    {
+      "name": "batteries",
+      "commit": "b4b25a3886a16daacaf6615c2eea7170a6e8f458"
+    },
+    {
+      "name": "Cli",
+      "commit": "50810f72af7618bee62fe9800dc26e806c188703"
+    }
+  ],
+  "lake_manifest_sha256": "ee003c5c7a9b2b2a82a142b6633916661c07117199dd143d94d1af63910237df",
+  "passed": 45,
+  "failed": 0,
+  "ended_utc": "2026-11-21T23:37:13.576949+00:00"
+}

@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnfoldPoincareSeriesLatticeFourier.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnfoldPoincareSeriesLatticeFourier.lean
+@@ -178,7 +178,7 @@
+       simp_rw [enorm_eq_nnnorm]
+       refine ENNReal.tsum_coe_ne_top_iff_summable.2 ?_
+       rw [← NNReal.summable_coe]
+-      exact ha.subtype s
++      exact ha.subtype (fun x => x ∈ s)
+   have hLHS : ∫ v in D, (∑' x, Q x * F (j x + v)) ∂μ = (∑ k, Q (t k)) * ∫ v, F v ∂μ := by
+     have hDm : MeasurableSet D := ZSpan.fundamentalDomain_measurableSet _
+     set e : Fin n × C → Γ := fun p => t p.1 + p.2 with he

@@ -1,0 +1,59 @@
+Module: M054517 Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedNormFixedDecompositionStatement
+Started: 2026-11-21T23:35:03.160551+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedNormFixedDecompositionStatement:olean"]
+Pinned source SHA-256: 43d98260e2475c32cac893acf9d3434fe37890d04a35111326ee39a11ec2fa17
+Compiled source SHA-256: 43d98260e2475c32cac893acf9d3434fe37890d04a35111326ee39a11ec2fa17
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedNormFixedDecomposition (2.9s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TwistedNormFixedDecomposition.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TwistedNormFixedDecomposition.lean:8:42: Variable name `hf` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hf
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TwistedNormFixedDecomposition.lean:14:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TwistedNormFixedDecomposition.lean:15:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TwistedNormFixedDecomposition.lean:138:59: This simp argument is unused:
+  MulAut.conj_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedNormFixedDecomposition:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TwistedNormFixedDecomposition.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TwistedNormFixedDecompositionStatement (2.3s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TwistedNormFixedDecompositionStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TwistedNormFixedDecompositionStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TwistedNormFixedDecompositionStatement.lean:13:60: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TwistedNormFixedDecompositionStatement.lean:13:109: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TwistedNormFixedDecompositionStatement.lean:13:60: Unused tactic linter: `(exact GlobalTheory.TwistStab.stable_subgroup)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TwistedNormFixedDecompositionStatement.lean:13:109: Unused tactic linter: `(intros; apply GlobalTheory.TwistStab.stable_subgroup <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.388
+Timed out: False

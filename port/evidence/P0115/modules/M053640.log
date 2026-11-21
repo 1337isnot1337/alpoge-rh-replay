@@ -1,0 +1,38 @@
+Module: M053640 Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionTwoGeneratorsGlobalStatement
+Started: 2026-11-21T23:33:23.255120+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionTwoGeneratorsGlobalStatement:olean"]
+Pinned source SHA-256: dbcddc3035d648255d84e77c5d4edbc26c2a9ac9f1e5f24d283ac21b5e6a3480
+Compiled source SHA-256: dbcddc3035d648255d84e77c5d4edbc26c2a9ac9f1e5f24d283ac21b5e6a3480
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionTwoGeneratorsGlobal (3.5s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionTwoGeneratorsGlobal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionTwoGeneratorsGlobal.lean:19:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionTwoGeneratorsGlobal:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionTwoGeneratorsGlobal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionTwoGeneratorsGlobalStatement (2.4s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionTwoGeneratorsGlobalStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionTwoGeneratorsGlobalStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionTwoGeneratorsGlobalStatement.lean:11:59: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionTwoGeneratorsGlobalStatement.lean:11:107: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionTwoGeneratorsGlobalStatement.lean:11:59: Unused tactic linter: `exact GlobalTheory.torsion_gens_glue_of_local` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsionTwoGeneratorsGlobalStatement.lean:11:107: Unused tactic linter: `(intros; apply GlobalTheory.torsion_gens_glue_of_local <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.143
+Timed out: False

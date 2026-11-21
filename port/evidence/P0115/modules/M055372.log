@@ -1,0 +1,46 @@
+Module: M055372 Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryLieAlgebraSpannedStatement
+Started: 2026-11-21T23:36:53.372654+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryLieAlgebraSpannedStatement:olean"]
+Pinned source SHA-256: ab1963b3260753ca846536dc2318cbb8cca7d7c8fc6b315c12b5e732ea26e4a2
+Compiled source SHA-256: ab1963b3260753ca846536dc2318cbb8cca7d7c8fc6b315c12b5e732ea26e4a2
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryLieAlgebraSpanned (3.2s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryLieAlgebraSpanned.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryLieAlgebraSpanned.lean:13:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryLieAlgebraSpanned.lean:22:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryLieAlgebraSpanned.lean:100:44: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryLieAlgebraSpanned:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryLieAlgebraSpanned.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryLieAlgebraSpannedStatement (2.4s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryLieAlgebraSpannedStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryLieAlgebraSpannedStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryLieAlgebraSpannedStatement.lean:7:80: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryLieAlgebraSpannedStatement.lean:7:149: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryLieAlgebraSpannedStatement.lean:7:80: Unused tactic linter: `exact GlobalTheory.TracelessSkewSpan.mem_span_of_linearIndependent` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/UnitaryLieAlgebraSpannedStatement.lean:7:149: Unused tactic linter: `(intros;
+  apply GlobalTheory.TracelessSkewSpan.mem_span_of_linearIndependent <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.839
+Timed out: False

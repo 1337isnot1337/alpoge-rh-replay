@@ -1,0 +1,38 @@
+Module: M053809 Development.AbelianVarietyTheory.Proofs.DivisorProofs.TotalDegreeLeOfIntegralAtInfinityStatement
+Started: 2026-11-21T23:33:53.079550+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TotalDegreeLeOfIntegralAtInfinityStatement:olean"]
+Pinned source SHA-256: f1cd7efe58ec342727ef7251bb88ac871ba88f0dc09efc0c71522bf120674fef
+Compiled source SHA-256: f1cd7efe58ec342727ef7251bb88ac871ba88f0dc09efc0c71522bf120674fef
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TotalDegreeLeOfIntegralAtInfinity (4.1s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TotalDegreeLeOfIntegralAtInfinity.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TotalDegreeLeOfIntegralAtInfinity.lean:73:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.TotalDegreeLeOfIntegralAtInfinity:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TotalDegreeLeOfIntegralAtInfinity.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TotalDegreeLeOfIntegralAtInfinityStatement (2.4s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TotalDegreeLeOfIntegralAtInfinityStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TotalDegreeLeOfIntegralAtInfinityStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TotalDegreeLeOfIntegralAtInfinityStatement.lean:7:71: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TotalDegreeLeOfIntegralAtInfinityStatement.lean:7:131: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TotalDegreeLeOfIntegralAtInfinityStatement.lean:7:71: Unused tactic linter: `exact GlobalTheory.totalDegree_le_of_integral_at_infinity` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TotalDegreeLeOfIntegralAtInfinityStatement.lean:7:131: Unused tactic linter: `(intros;
+  apply GlobalTheory.totalDegree_le_of_integral_at_infinity <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.641
+Timed out: False
