@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SchurOrthogonalitySubgroupMeasureOne",
+  "source_sha256": "60bdaf12a746768b394a7c25a03effde142646eb54cc02a7e401299120690fb2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed `integral_finsetSum` (was `integral_finset_sum`)."
+}

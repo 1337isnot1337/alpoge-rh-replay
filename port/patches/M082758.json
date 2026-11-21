@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.TotalDegreeAevalLeOfLinear",
+  "source_sha256": "93be084649a18b7c0e7dee3987fc7b7784a2fd918638b64c2b91215793e3a829",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed `totalDegree_finsetSum` and `totalDegree_finsetProd` (were `totalDegree_finset_sum`, `totalDegree_finset_prod`)."
+}

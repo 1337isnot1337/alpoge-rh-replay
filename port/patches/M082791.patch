@@ -1,0 +1,10 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/TrdegLeGenerators.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/TrdegLeGenerators.lean
+@@ -37,6 +37,7 @@
+     (IsAlgebraic.tower_top E (hL z hz)).isIntegral
+   haveI : Algebra.IsAlgebraic E F := IntermediateField.isAlgebraic_adjoin hint
+   have hF : Algebra.trdeg k F = Algebra.trdeg k E := by
++    haveI : FaithfulSMul k E := (faithfulSMul_iff_algebraMap_injective k E).mpr (algebraMap k E).injective
+     haveI : FaithfulSMul E F := (faithfulSMul_iff_algebraMap_injective E F).mpr (algebraMap E F).injective
+     have h := trdeg_add_eq k E (A := F)
+     rw [trdeg_eq_zero (R := E) (A := F), add_zero] at h

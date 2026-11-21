@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.JetHarmonics.ContDiffOnIffLocalExtension",
+  "source_sha256": "cf1b91006c1bbe8f2953018164e1f03074be142802521b67e365168bc9089d83",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`contDiff_apply` now takes the codomain as a family; pass `fun _ => ℂ` and `fun _ => Fin n → ℂ`. Proof term of a private lemma only."
+}
