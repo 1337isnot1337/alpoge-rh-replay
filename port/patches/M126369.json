@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.PairingBoundInfinitePlaces",
+  "source_sha256": "7ca26b5171d82e71ffc23289fe83c94ceee9ff22096b0af69324076d901b64a6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0140-lean436-20261121/packet-result.json"
+}

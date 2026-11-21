@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/MonomialCoefficientComparison.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/MonomialCoefficientComparison.lean
+@@ -108,7 +108,7 @@
+       ring
+     rw [map_sum, Finset.sum_congr rfl hterm, ← Finset.mul_sum, H z hz hi, mul_zero]
+   intro m hm
+-  have h1 := congrArg (MvPolynomial.coeff (s m)) hp
++  have h1 := congrArg (fun p : MvPolynomial (Fin n) ℂ => p.coeff (s m)) hp
+   rw [MvPolynomial.coeff_sum, Finset.sum_eq_single m] at h1
+   · simpa [MvPolynomial.coeff_monomial] using h1
+   · intro b hb hne
