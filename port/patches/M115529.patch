@@ -1,0 +1,19 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/MajorantSquareBound.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/MajorantSquareBound.lean
+@@ -121,7 +121,7 @@
+   have hcomap : ∀ n : Ideal S, n.IsMaximal →
+       n.comap (algebraMap B S) = IsLocalRing.maximalIdeal B := by
+     intro n hn
+-    have := Ideal.isMaximal_comap_of_isIntegral_of_isMaximal (R := B) n
++    have := Ideal.isMaximal_under_of_isIntegral_of_isMaximal (R := B) n
+     exact IsLocalRing.eq_maximalIdeal this
+   have hkerI : ∀ n : Ideal S, n.IsMaximal → ∀ b, algebraMap B S b ∈ n ↔ b ∈ IsLocalRing.maximalIdeal B := by
+     intro n hn b
+@@ -252,6 +252,7 @@
+       have : algebraMap B S b = 0 := hb
+       have hb0 : b = 0 := hinj (by rw [this, map_zero])
+       rw [hb0]; exact Ideal.zero_mem _)
++  change P.comap (algebraMap B S) = RingHom.ker f at hc
+   set q := P.comap (algebraMap B S) with hq
+   have hqk : ∀ b ∈ q, f b = 0 := by
+     intro b hb

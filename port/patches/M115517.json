@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.LocalQuotientHomExt",
+  "source_sha256": "9efe5422c41fb1c8a76f8ae5de52a6f2e3295ed6eb3b50a8e2d5339721c814f8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0054-lean436-20261121/packet-result.json"
+}

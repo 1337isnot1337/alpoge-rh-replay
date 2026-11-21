@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MapCastMono",
+  "source_sha256": "85dab86094c042236e130489fb8a704ab2d2df664809dce8bc5a868db76d2eae",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0054-lean436-20261121/packet-result.json"
+}

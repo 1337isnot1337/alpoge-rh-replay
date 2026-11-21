@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MemConj",
+  "source_sha256": "31d3b09c1a84c46e1f5d37f13496f896200657d5d1d83547b32fd59b49e0ee7c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0054-lean436-20261121/packet-result.json"
+}

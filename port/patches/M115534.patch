@@ -1,0 +1,24 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/MapMulVolumeOfSubgroup.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/MapMulVolumeOfSubgroup.lean
+@@ -53,7 +53,10 @@
+   have hU : IsOpen {v : Fin n → Fin n → ℂ | (Matrix.of v).det ≠ 0} :=
+     isOpen_ne_fun continuous_detE continuous_const
+   have h1 : (Matrix.of.symm (1 : Matrix (Fin n) (Fin n) ℂ)) ∈
+-      {v : Fin n → Fin n → ℂ | (Matrix.of v).det ≠ 0} := by simp
++      {v : Fin n → Fin n → ℂ | (Matrix.of v).det ≠ 0} := by
++    change (Matrix.of (Matrix.of.symm (1 : Matrix (Fin n) (Fin n) ℂ))).det ≠ 0
++    rw [Equiv.apply_symm_apply, Matrix.det_one]
++    exact one_ne_zero
+   obtain ⟨V, hV, hi, hsub⟩ := exists_compact_subset hU h1
+   refine ⟨V, (fun p : (Fin n → Fin n → ℂ) × (Fin n → Fin n → ℂ) =>
+     ((Matrix.of p.2).det)⁻¹ • mulE p.1 (Matrix.of.symm (Matrix.of p.2).adjugate)) '' (V ×ˢ V),
+@@ -121,7 +124,8 @@
+       obtain ⟨rfl, h'⟩ := Prod.mk.inj he'
+       exact hK y v hv w hw (mulE_cancel (hdet _ haG) h')
+     · have : μ ((fun g => (g, x)) ⁻¹' S) = 0 :=
+-        measure_mono_null (fun g hg hgG => hne ⟨g, hg, hgG⟩) hG
++        measure_mono_null (show ((fun g => (g, x)) ⁻¹' S) ⊆ Gᶜ from
++          fun g hg hgG => hne ⟨g, hg, hgG⟩) hG
+       show μ _ ≤ _
+       rw [this]
+       exact zero_le

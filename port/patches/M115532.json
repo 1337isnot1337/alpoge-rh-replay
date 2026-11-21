@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MapInvolutionEqSelf",
+  "source_sha256": "ee7b488d3251a44cc3d2143df0f31dc586f4ec01001f374796f6a1a3cd3cfea6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass the existing measurable involution proof as AEMeasurable to the updated Measure.map_smul API. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0054-lean436-20261121/packet-result.json"
+}

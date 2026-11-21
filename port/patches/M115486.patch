@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/JumpSets.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/JumpSets.lean
+@@ -252,6 +252,8 @@
+     have h := hL.2.2.1
+     have hd : (d : L) ≠ 0 := Nat.cast_ne_zero.mpr hqd.2.1.ne_zero
+     exact hd (by simpa using h)
++  haveI : Module.Free ↥(UpperTheory.Reformulated.B.JumpSetsAlt.hostF ζ a b)
++      ↥(UpperTheory.Reformulated.B.JumpSetsAlt.hostE ζ a b) := Module.Free.of_divisionRing _ _
+   refine ⟨?_, fun x => ⟨?_, ?_⟩⟩
+   · have h := Module.finrank_mul_finrank ℚ ↥(UpperTheory.Reformulated.B.JumpSetsAlt.hostF ζ a b) ↥(UpperTheory.Reformulated.B.JumpSetsAlt.hostE ζ a b)
+     rw [Algebra.IsQuadraticExtension.finrank_eq_two ↥(UpperTheory.Reformulated.B.JumpSetsAlt.hostF ζ a b) ↥(UpperTheory.Reformulated.B.JumpSetsAlt.hostE ζ a b),
