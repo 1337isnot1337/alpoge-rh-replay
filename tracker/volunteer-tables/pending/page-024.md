@@ -195,6 +195,7 @@
 | [@jdenwood](https://github.com/jdenwood) | [M135615](https://github.com/rohanarun/alpoge-rh-replay/issues/22683#issuecomment-7064125063) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M164431](https://github.com/rohanarun/alpoge-rh-replay/issues/22684#issuecomment-7064126379) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M104554](https://github.com/rohanarun/alpoge-rh-replay/issues/22685#issuecomment-7064131338) | Pending review |
+| [@emsi](https://github.com/emsi) | [P2242](https://github.com/rohanarun/alpoge-rh-replay/issues/22686#issuecomment-7064890684) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M063300](https://github.com/rohanarun/alpoge-rh-replay/issues/22688#issuecomment-7064160064) | Pending review |
 | [@hipotures](https://github.com/hipotures) | [P2252](https://github.com/rohanarun/alpoge-rh-replay/issues/22689#issuecomment-7064349017) | Pending review |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M122816](https://github.com/rohanarun/alpoge-rh-replay/issues/22690#issuecomment-7064150854) | Pending review |
@@ -253,4 +254,3 @@
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M064106](https://github.com/rohanarun/alpoge-rh-replay/issues/22755#issuecomment-7064290394) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M007441](https://github.com/rohanarun/alpoge-rh-replay/issues/22757#issuecomment-7064292750) | Pending review |
 | [@JamCh01](https://github.com/JamCh01) | [P2299](https://github.com/rohanarun/alpoge-rh-replay/issues/22765#issuecomment-7064358760) | Pending review |
-| [@loremcdmx](https://github.com/loremcdmx) | [M150227](https://github.com/rohanarun/alpoge-rh-replay/issues/22766#issuecomment-7064305140) | Pending review |
