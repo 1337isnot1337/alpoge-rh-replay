@@ -1,6 +1,7 @@
 import gzip
 import io
 import json
+import multiprocessing
 import os
 from pathlib import Path
 import shutil
@@ -109,6 +110,32 @@ class DependencyBundleTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Missing project object'):
             self.export_fake()
         self.assertFalse((self.output / 'transfer-result.json').exists())
+
+    def test_spawn_workers_preserve_artifacts_and_propagate_snapshot_failures(self):
+        # A fresh interpreter cannot inherit the exporter's module state.
+        # Exercise both the returned shard inventory and a worker exception.
+        executor = bundle.ProcessPoolExecutor
+        for missing in (False, True):
+            with self.subTest(missing=missing):
+                self.fake_producer()
+                if missing:
+                    (self.project / '.lake/build/lib/lean/Fixture/Mod0.olean').unlink()
+                with patch.object(bundle, 'ProcessPoolExecutor',
+                                  side_effect=lambda **kwargs: executor(
+                                      **kwargs, mp_context=multiprocessing.get_context('spawn'))):
+                    if missing:
+                        with self.assertRaisesRegex(ValueError, 'Missing project object'):
+                            self.export_fake()
+                        self.assertFalse((self.output / 'transfer-result.json').exists())
+                    else:
+                        self.assertEqual(self.export_fake()['project_modules'], 3)
+                        manifest = json.loads((self.output / 'dependency-manifest.json').read_text())
+                        modules = [r['id'] for shard in manifest['shards'] for r in shard['modules']]
+                        self.assertCountEqual(modules, [r['id'] for r in self.rows[:3]])
+                        bundle.verify(self.target, self.output, self.rows)
+                shutil.rmtree(self.output)
+                shutil.rmtree(self.project / '.lake')
+                shutil.rmtree(self.receipt)
 
     def test_snapshot_rejects_source_change_and_symlinked_parents(self):
         for mode in ['source', 'symlink']:
