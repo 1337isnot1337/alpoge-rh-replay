@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M053945"
+  ],
+  "started_utc": "2026-11-21T02:20:46.139145+00:00",
+  "ended_utc": "2026-11-21T02:26:23.465891+00:00",
+  "elapsed_seconds": 337.3,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 4038268
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TraceRingOfIntegersActionLatticeEq:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5c5528c148b5db15b9e7aab0139cb09fce3f7d77a42832b2768f4dfa9ce0577f",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IrreducibleDvdOfDvdCharpolyOfAevalMatrix"
+  ],
+  "objects": {
+    "M053945": "8e17b51ff6287442f069ba4a3fc0c0aace95da4da03a8fc16173a38128d2c26b"
+  },
+  "bundle_sha256": "56ad1d005ef1e4c29a6828f961b2771049a9cc9348d7eeb15fcbdb38fd4bb108",
+  "packet": "M053945",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10822#issuecomment-7055908983",
+  "reviewed_utc": "2026-11-21T06:08:38.283973+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M161822"
+  ],
+  "started_utc": "2026-11-21T02:08:53.275533+00:00",
+  "ended_utc": "2026-11-21T02:12:52.268306+00:00",
+  "elapsed_seconds": 238.9,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 7981840,
+    "peak_child_rss_kib": 5389724
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.UnipotentAdelicQuotients.EllipticRegularity.SymbLower:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e0810db00ffb47210f69204843eb7982c2127453be3cb5594d96f1f7072d02a4",
+  "rebuilt_project_modules": [
+    "Formalism.UnipotentAdelicQuotients.EllReg",
+    "Formalism.UnipotentAdelicQuotients.EllRegCut"
+  ],
+  "objects": {
+    "M161822": "2cad425f4b60bcabf9ef29a5d8511e6a2799bc7f67f7c360a22537ca422203a0"
+  },
+  "bundle_sha256": "4b54d2b97c3992d91ad68c0a07b0c6d6fe49360f5a19aa8dec0ce05079b42851",
+  "packet": "M161822",
+  "contributor": "WorldianAI",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10721#issuecomment-7055745221",
+  "reviewed_utc": "2026-11-21T06:14:27.791334+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

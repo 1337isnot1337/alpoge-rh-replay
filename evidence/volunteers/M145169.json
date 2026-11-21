@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M145169"
+  ],
+  "started_utc": "2026-11-21T02:19:17.751129+00:00",
+  "ended_utc": "2026-11-21T02:22:36.821274+00:00",
+  "elapsed_seconds": 199.0,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 7981840,
+    "peak_child_rss_kib": 5266816
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.GelfandTransference.HadamardGelfand.Highest:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "de7c2a99e5af9634f5a3a1378d741aa307d51974b12466f37cf0f7696933d130",
+  "rebuilt_project_modules": [
+    "Formalism.GelfandTransference.GelfandCentral",
+    "Formalism.GelfandTransference.HadamardGelfand.Gelfand",
+    "Formalism.GelfandTransference.Statement",
+    "Formalism.NormUnitaryBounds.Statement"
+  ],
+  "objects": {
+    "M145169": "95c24024802a72a387f1f261c3a9ef7bea42568b5ddd63c627a88c8957e036c7"
+  },
+  "bundle_sha256": "8ac4d15a99bba3e7c416e0beff45e08c15708f37e4aced63eec1a47df60862b6",
+  "packet": "M145169",
+  "contributor": "WorldianAI",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10746#issuecomment-7055866355",
+  "reviewed_utc": "2026-11-21T06:07:56.363351+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

@@ -223,6 +223,7 @@
 | M001206 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ReductionToSiegelDomain` | volunteer-build-reviewed |
 | M001207 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ReductionToSiegelDomainStatement` | volunteer-build-reviewed |
 | M001208 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.RestrFamily` | volunteer-build-reviewed |
+| M001211 | P0094 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SL2BruhatDecompositionIdentities` | volunteer-build-reviewed |
 | M001212 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SL2BruhatDecompositionIdentitiesStatement` | volunteer-build-reviewed |
 | M001214 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ScalarHermitianTraceAndUnit` | volunteer-build-reviewed |
 | M001215 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ScalarHermitianTraceAndUnitStatement` | volunteer-build-reviewed |
@@ -318,6 +319,7 @@
 | M001502 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.AdaptExists` | volunteer-build-reviewed |
 | M001503 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.AdaptExistsStatement` | volunteer-build-reviewed |
 | M001508 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.AlgCoreSubOfAlgCore` | volunteer-build-reviewed |
+| M001509 | P0094 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.AnisotropicOfHenselAndSandwich` | volunteer-build-reviewed |
 | M001510 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.AnisotropicOfHenselAndSandwichStatement` | volunteer-build-reviewed |
 | M001511 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.AntiInvolutionSwapsUpperLower` | volunteer-build-reviewed |
 | M001513 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.AntitonePowersInDominantMonoid` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M001649 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorDifferentialSignRuleQuadraticStatement` | volunteer-build-reviewed |
 | M001650 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorIntegrality` | volunteer-build-reviewed |
 | M001651 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ExteriorIntegralityStatement` | volunteer-build-reviewed |
-| M001656 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FamilyFiltration` | volunteer-build-reviewed |
-| M001657 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.FamilyInduction` | volunteer-build-reviewed |

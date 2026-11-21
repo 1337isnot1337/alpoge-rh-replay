@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M005934"
+  ],
+  "started_utc": "2026-11-21T02:14:32.849151+00:00",
+  "ended_utc": "2026-11-21T02:18:02.213375+00:00",
+  "elapsed_seconds": 209.3,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 7981840,
+    "peak_child_rss_kib": 5281940
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.UnitsMappingToPowersLeUnitsLocalKummerNorms:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6fdd89693c4b370c8c28a0ae8788f873bf156c40ba5cb6efd6eb40c8f7a5990b",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.MemPowSub",
+    "Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.SqSubLeNormSub"
+  ],
+  "objects": {
+    "M005934": "7d7d6712f22f0a8637c63436dbc6f6f0b4f29879340b4f12311dead122465b27"
+  },
+  "bundle_sha256": "c30db3e30f0ec3c222231dc17b13e968bdb10671cd460d8bacf7461644c310f5",
+  "packet": "M005934",
+  "contributor": "WorldianAI",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10732#issuecomment-7055809123",
+  "reviewed_utc": "2026-11-21T05:59:49.298806+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

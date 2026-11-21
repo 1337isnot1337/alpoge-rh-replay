@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M125652"
+  ],
+  "started_utc": "2026-11-21T02:27:10.567589+00:00",
+  "ended_utc": "2026-11-21T02:32:06.916223+00:00",
+  "elapsed_seconds": 296.3,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 3537448
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MapWithDensityEqOfScale:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "23a77759ec44188e7466e4a36ab37b3b1a08a80ebc29442b7850165dda57609f",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.StabilizerVolume.TopoPolish"
+  ],
+  "objects": {
+    "M125652": "2111674442e17db53012dbf505bfcd28baf83d7c914fa5335869afd398772642"
+  },
+  "bundle_sha256": "a62bbdaae33ca2d714cd20845f3be423c9b5fe3fc2a6766d9436cc138d75478e",
+  "packet": "M125652",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10885#issuecomment-7055982983",
+  "reviewed_utc": "2026-11-21T06:02:34.669156+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

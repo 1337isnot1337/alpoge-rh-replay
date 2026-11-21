@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M045565"
+  ],
+  "started_utc": "2026-11-21T02:20:43.432951+00:00",
+  "ended_utc": "2026-11-21T02:26:23.393525+00:00",
+  "elapsed_seconds": 339.9,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 4059324
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.PerfectionExistsUniqueSubMatrixFrobeniusEqStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "25ef227c92802f1800a3316091cfb7ce73fca0ec36fceeda0b9b2492474ff224",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PerfectionExistsUniqueSubMatrixFrobeniusEq"
+  ],
+  "objects": {
+    "M045565": "d9da3073903667e88bc8b257b2c9e29395b7800d93b83b52761e88426cb6e7d6"
+  },
+  "bundle_sha256": "03d1f923fb60f85903769a56953c279aec3ba76f6121ac8caf45cd7fe58ce46e",
+  "packet": "M045565",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10815#issuecomment-7055904639",
+  "reviewed_utc": "2026-11-21T06:04:43.177614+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

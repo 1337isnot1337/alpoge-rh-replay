@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002623 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.RationalFormValues` | volunteer-build-reviewed |
+| M002627 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.SelfDualLatticeMass` | build-observed |
+| M002628 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.SelmerCrystallineCocycles` | build-observed |
+| M002629 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.SelmerRankVanishing` | build-observed |
+| M002630 | P0705 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.SelmerWindowSums` | build-observed |
+| M002631 | P1394 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.SingularValueFrame` | volunteer-build-reviewed |
+| M002634 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.StandardHermitianSpace` | volunteer-build-reviewed |
+| M002635 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.SublevelSplitting` | volunteer-build-reviewed |
+| M002636 | P0705 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.TameGeneratorProjectors` | build-observed |
 | M002638 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.ThetaLift` | volunteer-build-reviewed |
 | M002641 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.TwistCoverDesign` | volunteer-build-reviewed |
 | M002642 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.TwistedTriples` | volunteer-build-reviewed |
@@ -40,6 +49,7 @@
 | M002706 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.LevelGroupLifts` | volunteer-build-reviewed |
 | M002707 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.LocalDataValues` | volunteer-build-reviewed |
 | M002710 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.MinorOrderedEntries` | volunteer-build-reviewed |
+| M002713 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.NormalRepresentationLattice` | volunteer-build-reviewed |
 | M002717 | P1419 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ParabolicLeviDecomposition` | volunteer-build-reviewed |
 | M002718 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ParameterTransferTypes` | volunteer-build-reviewed |
 | M002719 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.PartialLFunctionCharacter` | volunteer-build-reviewed |
@@ -177,6 +187,7 @@
 | M003177 | P0095 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsClosedFlagsIff` | volunteer-build-reviewed |
 | M003179 | P0515 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsCrisP` | wave-reused |
 | M003182 | P1323 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsEqnIffGeneratesAtInv` | wave-reused |
+| M003187 | P0974 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsHalfPtIff` | volunteer-build-reviewed |
 | M003191 | P0731 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsLogAExtends` | wave-reused |
 | M003199 | P0865 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsRationalUnitaryDeterminantMapRationalUnitaryTo` | build-observed |
 | M003200 | P0549 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.IsRealPD` | build-observed |
@@ -391,14 +402,3 @@
 | M003864 | P0974 | `Development.AbelianVarietyTheory.Definitions.Divisors.PrimitiveCrystalHodgeLiftClasses` | wave-reused |
 | M003865 | P1029 | `Development.AbelianVarietyTheory.Definitions.Divisors.PrimitiveStructureSheafDegTwoVanish` | wave-reused |
 | M003866 | P0784 | `Development.AbelianVarietyTheory.Definitions.Divisors.PrismaticDieudonnePerfdIff` | wave-reused |
-| M003867 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.ProdFam` | volunteer-build-reviewed |
-| M003868 | P1114 | `Development.AbelianVarietyTheory.Definitions.Divisors.ProjectiveNotIsUnit` | volunteer-build-reviewed |
-| M003871 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.PullHlComp` | wave-reused |
-| M003872 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.Pullback1MemHodgeFiltration` | wave-reused |
-| M003875 | P1372 | `Development.AbelianVarietyTheory.Definitions.Divisors.QuasiRegularAlongOfEtale` | wave-reused |
-| M003877 | P1472 | `Development.AbelianVarietyTheory.Definitions.Divisors.RangeShape` | volunteer-build-reviewed |
-| M003879 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.RankEqCardIffExistsFrameMatrixFirstColumnBlock` | volunteer-build-reviewed |
-| M003880 | P0974 | `Development.AbelianVarietyTheory.Definitions.Divisors.RatBasisLinearIndependentInt` | wave-reused |
-| M003889 | P0865 | `Development.AbelianVarietyTheory.Definitions.Divisors.SRelOneOneIff` | volunteer-build-reviewed |
-| M003890 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.SameDiv` | volunteer-build-reviewed |
-| M003894 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.SecClass` | wave-reused |

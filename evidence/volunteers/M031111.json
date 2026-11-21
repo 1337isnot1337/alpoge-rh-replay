@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M031111"
+  ],
+  "started_utc": "2026-11-21T02:13:32.275996+00:00",
+  "ended_utc": "2026-11-21T02:13:43.584076+00:00",
+  "elapsed_seconds": 10.8,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6757676
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteCovolumeKernelOfSplitCentralOneParamStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f09d9aa81d5c136145051b7a687de9fd5c56660548c1f71fc38d6094a0eb4546",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteCovolumeKernelOfSplitCentralOneParam"
+  ],
+  "objects": {
+    "M031111": "7d3a01f7e64f22caea9423133182560e9868e35994fd4b46a5825796952a7f19"
+  },
+  "bundle_sha256": "61ddef98c1fbc263d087f972d68affee70f2a35b0f144a59f6eb5e136d0cc631",
+  "packet": "M031111",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10800#issuecomment-7055741170",
+  "reviewed_utc": "2026-11-21T06:17:09.540397+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

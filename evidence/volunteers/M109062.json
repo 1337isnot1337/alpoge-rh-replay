@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M109062"
+  ],
+  "started_utc": "2026-11-21T02:08:02.772163+00:00",
+  "ended_utc": "2026-11-21T02:08:13.723989+00:00",
+  "elapsed_seconds": 11.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 62308664,
+    "peak_child_rss_kib": 7208368
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.PolynomialTori.FinPow:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e2e61ac3929cd553281360af5028a63e4e9fcad1f56c1b0a69c7b3058bd7918a",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.LocalRingsCompletion.nakayama",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FinitelyGeneratedModPow"
+  ],
+  "objects": {
+    "M109062": "c96e1d3ef8c64a4ae14fc87441fc08266f2ffe44e86b1366f5d6765c101c6a7e"
+  },
+  "bundle_sha256": "a7873cc87888ce6dbd7e0686a96968b22828cea411d0127083243d3a920a434d",
+  "packet": "M109062",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10694#issuecomment-7055666333",
+  "reviewed_utc": "2026-11-21T05:59:03.497580+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

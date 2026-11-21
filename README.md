@@ -103,17 +103,10 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- volunteers-start -->
 
-[7,744 entries. View the full table](tracker/volunteer-tables/reviewed/README.md).
+[8,044 entries. View the full table](tracker/volunteer-tables/reviewed/README.md).
 
 | Contributor | Task | Modules | Review |
 |---|---|---:|---|
-| [@rayy3535](https://github.com/rayy3535) | [M007117](https://github.com/rohanarun/alpoge-rh-replay/issues/9952#issuecomment-7055262561) | 1 | [Build evidence verified](evidence/volunteers/M007117.json) |
-| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M108639](https://github.com/rohanarun/alpoge-rh-replay/issues/9508#issuecomment-7055124673) | 1 | [Build evidence verified](evidence/volunteers/M108639.json) |
-| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M158797](https://github.com/rohanarun/alpoge-rh-replay/issues/9915#issuecomment-7055280108) | 1 | [Build evidence verified](evidence/volunteers/M158797.json) |
-| [@zediir](https://github.com/zediir) | [M062409](https://github.com/rohanarun/alpoge-rh-replay/issues/9730#issuecomment-7055186159) | 1 | [Build evidence verified](evidence/volunteers/M062409.json) |
-| [@roonastgames](https://github.com/roonastgames) | [M164005](https://github.com/rohanarun/alpoge-rh-replay/issues/10470#issuecomment-7055555017) | 1 | [Build evidence verified](evidence/volunteers/M164005.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M109811](https://github.com/rohanarun/alpoge-rh-replay/issues/9841#issuecomment-7055306045) | 1 | [Build evidence verified](evidence/volunteers/M109811.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M108552](https://github.com/rohanarun/alpoge-rh-replay/issues/9804#issuecomment-7055309586) | 1 | [Build evidence verified](evidence/volunteers/M108552.json) |
 | [@dhudakk](https://github.com/dhudakk) | [M153797](https://github.com/rohanarun/alpoge-rh-replay/issues/10100#issuecomment-7055381273) | 1 | [Build evidence verified](evidence/volunteers/M153797.json) |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M171556](https://github.com/rohanarun/alpoge-rh-replay/issues/10137#issuecomment-7055408455) | 1 | [Build evidence verified](evidence/volunteers/M171556.json) |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M064190](https://github.com/rohanarun/alpoge-rh-replay/issues/10174#issuecomment-7055554046) | 1 | [Build evidence verified](evidence/volunteers/M064190.json) |
@@ -125,8 +118,15 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M124081](https://github.com/rohanarun/alpoge-rh-replay/issues/10618#issuecomment-7055650541) | 1 | [Build evidence verified](evidence/volunteers/M124081.json) |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M164205](https://github.com/rohanarun/alpoge-rh-replay/issues/10544#issuecomment-7055577947) | 1 | [Build evidence verified](evidence/volunteers/M164205.json) |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M164095](https://github.com/rohanarun/alpoge-rh-replay/issues/10581#issuecomment-7055642629) | 1 | [Build evidence verified](evidence/volunteers/M164095.json) |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M166067](https://github.com/rohanarun/alpoge-rh-replay/issues/10766#issuecomment-7055768513) | 1 | [Build evidence verified](evidence/volunteers/M166067.json) |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M169295](https://github.com/rohanarun/alpoge-rh-replay/issues/10729#issuecomment-7055789097) | 1 | [Build evidence verified](evidence/volunteers/M169295.json) |
+| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M063841](https://github.com/rohanarun/alpoge-rh-replay/issues/10803#issuecomment-7055744364) | 1 | [Build evidence verified](evidence/volunteers/M063841.json) |
 | [@dhudakk](https://github.com/dhudakk) | [M017766](https://github.com/rohanarun/alpoge-rh-replay/issues/10507#issuecomment-7055576198) | 1 | [Build evidence verified](evidence/volunteers/M017766.json) |
+| [@rayy3535](https://github.com/rayy3535) | [M128194](https://github.com/rohanarun/alpoge-rh-replay/issues/10692#issuecomment-7055663942) | 1 | [Build evidence verified](evidence/volunteers/M128194.json) |
+| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M034018](https://github.com/rohanarun/alpoge-rh-replay/issues/10914#issuecomment-7055864921) | 1 | [Build evidence verified](evidence/volunteers/M034018.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M150446](https://github.com/rohanarun/alpoge-rh-replay/issues/10988#issuecomment-7055889867) | 1 | [Build evidence verified](evidence/volunteers/M150446.json) |
 | [@SeriousRising](https://github.com/SeriousRising) | [P2005](https://github.com/rohanarun/alpoge-rh-replay/issues/8101#issuecomment-7055621828) | 64 | [Build evidence verified](evidence/volunteers/P2005.json) |
+| [@hipotures](https://github.com/hipotures) | [P1843](https://github.com/rohanarun/alpoge-rh-replay/issues/9989#issuecomment-7055506851) | 64 | [Build evidence verified](evidence/volunteers/P1843.json) |
 
 <!-- volunteers-end -->
 
@@ -142,9 +142,9 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 | Pilot proof object reused | 150 |
 | Pilot downstream module kernel-checked | 1 |
 | Distributed proof object reused | 16,970 |
-| Volunteer build evidence reviewed | 28,829 |
+| Volunteer build evidence reviewed | 29,507 |
 | Worker target kernel replay reviewed | 99 |
-| **Total with recorded module evidence** | **64,518 / 175,187** |
+| **Total with recorded module evidence** | **65,196 / 175,187** |
 
 [See each completed part and its evidence](completed/README.md) · [Machine-readable ledger](tracker/completed.tsv)
 

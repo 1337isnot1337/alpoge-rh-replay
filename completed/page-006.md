@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004904 | P0003 | `Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.SubsingletonOfSubsingletonFreeSheaf` | wave-reused |
+| M004905 | P0096 | `Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.ToAbSheafPreservesFiniteLimits` | wave-reused |
+| M004906 | P0239 | `Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.TopologicalKrullDimLeOfIrreducibleCloseds` | wave-reused |
+| M004909 | P1029 | `Development.AbelianVarietyTheory.Definitions.RegularCharts.MatrixTwoByTwoCongr` | wave-reused |
+| M004910 | P0582 | `Development.AbelianVarietyTheory.Definitions.RegularCharts.ModelAt` | wave-reused |
+| M004912 | P0550 | `Development.AbelianVarietyTheory.Definitions.RegularCharts.Reframe` | volunteer-build-reviewed |
+| M004913 | P0615 | `Development.AbelianVarietyTheory.Definitions.RegularCharts.SCharts` | volunteer-build-reviewed |
+| M004915 | P0810 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.ActSingleNeZero` | build-observed |
+| M004916 | P0648 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.AdaptSelf` | build-observed |
+| M004923 | P0784 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.BlockAnti` | build-observed |
+| M004925 | P0393 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.ChartGen` | build-observed |
+| M004926 | P0003 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.Cint` | wave-reused |
+| M004927 | P0174 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.CintTranslate` | wave-reused |
+| M004929 | P0515 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.CmStarOfIsCMUnram` | build-observed |
+| M004930 | P0239 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.CokernelPairSum` | volunteer-build-reviewed |
 | M004931 | P0239 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.ComplementReferenceCompactSubgroup` | wave-reused |
 | M004934 | P0758 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.DefClassNum` | build-observed |
 | M004935 | P0810 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.DegVand` | volunteer-build-reviewed |
@@ -38,6 +53,7 @@
 | M004999 | P0918 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.SiegelMeanCc` | build-observed |
 | M005003 | P0615 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.SymmetricFlagBasisVectorsApplyCentre` | build-observed |
 | M005005 | P0731 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.ToGlob0` | volunteer-build-reviewed |
+| M005006 | P0475 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.TopfBasis` | volunteer-build-reviewed |
 | M005010 | P0758 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.UpperOff` | build-observed |
 | M005011 | P0003 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.AwayLiftCompFromZeroRingHom` | wave-reused |
 | M005012 | P0003 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.ExistsIsAdaptedOfIsLocalRing` | volunteer-build-reviewed |
@@ -100,6 +116,7 @@
 | M005088 | P0918 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.PolyDerivSmulLetter` | wave-reused |
 | M005090 | P1218 | `Development.AbelianVarietyTheory.Definitions.ThetaValues.SWEqSOf` | build-observed |
 | M005093 | P1084 | `Development.AbelianVarietyTheory.Definitions.TorusSections.IsTorusOf` | wave-reused |
+| M005107 | P1444 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExistsHasCls` | volunteer-build-reviewed |
 | M005116 | P0239 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.HasConductorMulShift` | volunteer-build-reviewed |
 | M005119 | P0731 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsAdmOnOfFiniteDimensional` | volunteer-build-reviewed |
 | M005126 | P1245 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsStepWeil` | build-observed |
@@ -275,6 +292,7 @@
 | M005352 | P1194 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.AddNsmulResidueAssoc` | build-observed |
 | M005353 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.AdeleIdemPrimeCriterion` | volunteer-build-reviewed |
 | M005360 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.AlgebraMapNormTensorEqProdConjugates` | volunteer-build-reviewed |
+| M005361 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.AlgebraMapNormTensorEqProdConjugatesStatement` | volunteer-build-reviewed |
 | M005363 | P0003 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.BinaryFormUniversal` | wave-reused |
 | M005364 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.BlockDiagPartOfRatIdempotentOneAndMulOfTriangula` | volunteer-build-reviewed |
 | M005365 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.BlockDiagPartOfRatIdempotentOneAndMulOfTriangulaStatement` | volunteer-build-reviewed |
@@ -343,6 +361,7 @@
 | M005486 | P0003 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsIsUnitFormSelfOfNotMem` | wave-reused |
 | M005488 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsIsotropicBasisNonorthogonalTwoVectors` | volunteer-build-reviewed |
 | M005491 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsLeftInvariantPolySeparatingCoset` | volunteer-build-reviewed |
+| M005492 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsLeftInvariantPolySeparatingCosetStatement` | volunteer-build-reviewed |
 | M005495 | P0347 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsLocalNonnormOfNonsquareAdicCompletion` | wave-reused |
 | M005496 | P0394 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsLocalNonnormOfNonsquareAdicCompletionStatement` | wave-reused |
 | M005497 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsMinNormTensorOfIsClosedTensorSLOrbit` | volunteer-build-reviewed |
@@ -383,22 +402,3 @@
 | M005581 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitMulSqQuadraticDefectStep` | wave-reused |
 | M005582 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitMulSqQuadraticDefectStepStatement` | wave-reused |
 | M005583 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitNormEqOfAlgHom` | volunteer-build-reviewed |
-| M005586 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitValuationEqOfAdm` | wave-reused |
-| M005587 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitValuedTernaryLtOne` | wave-reused |
-| M005593 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsZeroCoordNeZero` | wave-reused |
-| M005594 | P0003 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsZeroFiveOfValuation` | wave-reused |
-| M005595 | P0003 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExpSeriesContDiffAndHasDerivAt` | volunteer-build-reviewed |
-| M005596 | P1170 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.FinTensMemLatO` | build-observed |
-| M005598 | P1001 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.FiniteAdelicDoubleCosetsOfRationalSLSubgroupStatement` | worker-kernel-checked |
-| M005604 | P0516 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.FiniteResidueFieldAdicCompletionIntegers` | wave-reused |
-| M005605 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.FinrankSUnitsNumberFieldAddOne` | wave-reused |
-| M005606 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.FinrankSUnitsNumberFieldAddOneStatement` | wave-reused |
-| M005607 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.FinrankSpanBlockDiagPartImageLt` | volunteer-build-reviewed |
-| M005609 | P0394 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.FirstInequalitySUnits` | wave-reused |
-| M005612 | P0436 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.FirstInequalitySUnitsStatement` | wave-reused |
-| M005618 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.GlFreeAlgebraEmbIntegralAndRational` | volunteer-build-reviewed |
-| M005621 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.GlFreeAlgebraToSpecialLinearEmbInjectiveHomStatement` | volunteer-build-reviewed |
-| M005622 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.GramLeadingMinorLowerBoundIntegral` | volunteer-build-reviewed |
-| M005624 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.GramMinorSwapAdjacentColumns` | volunteer-build-reviewed |
-| M005629 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HasSumLogZetaSqMul` | volunteer-build-reviewed |
-| M005633 | P1002 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HasseNormPrincipleOfIsCyclicStatement` | volunteer-build-reviewed |
