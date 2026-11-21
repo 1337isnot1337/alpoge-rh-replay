@@ -1,0 +1,36 @@
+Module: M070166 Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteFreeModuleCompactAdicDvrStatement
+Started: 2026-11-21T23:36:20.271705+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteFreeModuleCompactAdicDvrStatement:olean"]
+Pinned source SHA-256: 2d0fba692c4403e4d9246582d5c6553a8a19f414cf1f1625e0002dd6cc1959f1
+Compiled source SHA-256: 2d0fba692c4403e4d9246582d5c6553a8a19f414cf1f1625e0002dd6cc1959f1
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteFreeModuleCompactAdicDvr (3.6s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteFreeModuleCompactAdicDvr.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteFreeModuleCompactAdicDvr:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteFreeModuleCompactAdicDvr.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteFreeModuleCompactAdicDvrStatement (3.1s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteFreeModuleCompactAdicDvrStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteFreeModuleCompactAdicDvrStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteFreeModuleCompactAdicDvrStatement.lean:6:61: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteFreeModuleCompactAdicDvrStatement.lean:6:111: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteFreeModuleCompactAdicDvrStatement.lean:5:8: Overlapping instance parameters in `GlobalTheory.T.finite_free_module_compact_adic_dvr`:
+
+⚠️ `[IsDomain O]` and `[IsDiscreteValuationRing O]` each imply `[Nontrivial O]`.
+💡️ Of these, `[IsDomain O]` and `[IsDiscreteValuationRing O]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteFreeModuleCompactAdicDvrStatement.lean:6:61: Unused tactic linter: `exact GlobalTheory.finite_free_compact_adic_dvr` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteFreeModuleCompactAdicDvrStatement.lean:6:111: Unused tactic linter: `(intros; apply GlobalTheory.finite_free_compact_adic_dvr <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.89
+Timed out: False

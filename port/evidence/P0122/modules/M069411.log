@@ -1,0 +1,30 @@
+Module: M069411 Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLimitFamilyOfFiniteCoefficientsStatement
+Started: 2026-11-21T23:30:16.766495+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLimitFamilyOfFiniteCoefficientsStatement:olean"]
+Pinned source SHA-256: b50f92240309cc0e30cec1786ae3dc6522a2eb66d593c4a0205689968c2b6129
+Compiled source SHA-256: b50f92240309cc0e30cec1786ae3dc6522a2eb66d593c4a0205689968c2b6129
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLimitFamilyOfFiniteCoefficients (3.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsLimitFamilyOfFiniteCoefficients.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLimitFamilyOfFiniteCoefficients:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsLimitFamilyOfFiniteCoefficients.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLimitFamilyOfFiniteCoefficientsStatement (3.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsLimitFamilyOfFiniteCoefficientsStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsLimitFamilyOfFiniteCoefficientsStatement.lean:6:75: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsLimitFamilyOfFiniteCoefficientsStatement.lean:6:139: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsLimitFamilyOfFiniteCoefficientsStatement.lean:6:75: Unused tactic linter: `exact GlobalTheory.exists_limit_family_of_finite_coefficients` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsLimitFamilyOfFiniteCoefficientsStatement.lean:6:139: Unused tactic linter: `(intros;
+  apply GlobalTheory.exists_limit_family_of_finite_coefficients <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.189
+Timed out: False

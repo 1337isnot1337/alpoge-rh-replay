@@ -1,0 +1,51 @@
+Module: M071159 Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ImageFiniteOfTrivialOnInfFiniteIndexStatement
+Started: 2026-11-21T23:41:56.323267+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ImageFiniteOfTrivialOnInfFiniteIndexStatement:olean"]
+Pinned source SHA-256: 7db12e451fda952d775c110fac3eea02c5b61b44f005233338a475c698c988fc
+Compiled source SHA-256: 7db12e451fda952d775c110fac3eea02c5b61b44f005233338a475c698c988fc
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ImageFiniteOfTrivialOnInfFiniteIndex (3.3s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ImageFiniteOfTrivialOnInfFiniteIndex.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ImageFiniteOfTrivialOnInfFiniteIndex.lean:8:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ImageFiniteOfTrivialOnInfFiniteIndex.lean:9:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ImageFiniteOfTrivialOnInfFiniteIndex.lean:16:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ImageFiniteOfTrivialOnInfFiniteIndex:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ImageFiniteOfTrivialOnInfFiniteIndex.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ImageFiniteOfTrivialOnInfFiniteIndexStatement (3.2s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ImageFiniteOfTrivialOnInfFiniteIndexStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ImageFiniteOfTrivialOnInfFiniteIndexStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ImageFiniteOfTrivialOnInfFiniteIndexStatement.lean:6:75: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ImageFiniteOfTrivialOnInfFiniteIndexStatement.lean:6:139: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ImageFiniteOfTrivialOnInfFiniteIndexStatement.lean:6:75: Unused tactic linter: `exact GlobalTheory.image_finite_of_trivial_on_inf_finiteIndex` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ImageFiniteOfTrivialOnInfFiniteIndexStatement.lean:6:139: Unused tactic linter: `(intros;
+  apply GlobalTheory.image_finite_of_trivial_on_inf_finiteIndex <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.642
+Timed out: False

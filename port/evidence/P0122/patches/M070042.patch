@@ -1,0 +1,9 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsWittVectorGhostEqFrobeniusIterate.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsWittVectorGhostEqFrobeniusIterate.lean
+@@ -49,6 +49,5 @@ theorem exists_witt_ghost_iterate : ∀ (l : ℕ) [Fact l.Prime] (A : Type) [Com
+   intro l _ A _ φ hφ a
+   refine ⟨WittVector.mk l (coeff l φ a), fun n => ?_⟩
+   rw [WittVector.ghostComponent_apply, aeval_wittPolynomial, ghost_eq l φ hφ a n]
+-  rfl
+ 
+ end GlobalTheory.DworkGhost

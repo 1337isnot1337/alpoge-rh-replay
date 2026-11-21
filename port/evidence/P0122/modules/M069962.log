@@ -1,0 +1,53 @@
+Module: M069962 Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsUnitFrobeniusIterateProductEqStatement
+Started: 2026-11-21T23:33:47.347064+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsUnitFrobeniusIterateProductEqStatement:olean"]
+Pinned source SHA-256: 2f1cbdefa12996206ef64fd2c208c782131c1d5d3f011b85db93d01b40277cae
+Compiled source SHA-256: 2f1cbdefa12996206ef64fd2c208c782131c1d5d3f011b85db93d01b40277cae
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsUnitFrobeniusIterateProductEq (3.8s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsUnitFrobeniusIterateProductEq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsUnitFrobeniusIterateProductEq.lean:46:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsUnitFrobeniusIterateProductEq.lean:96:6: `IsAdicComplete.le_jacobson_bot` has been deprecated: Use `IsAdicComplete.le_jacobson` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommRing R] (I : Ideal R) [IsAdicComplete I R], I ≤ Ring.jacobson R
+instead of
+  ∀ {R : Type u_1} [inst : CommRing R] (I : Ideal R) [IsAdicComplete I R], I ≤ ⊥.jacobson
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsUnitFrobeniusIterateProductEq.lean:97:17: `Ideal.mem_jacobson_bot` has been deprecated: Use `Ring.mem_jacobson_iff` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u} [inst : CommRing R] {x : R}, x ∈ Ring.jacobson R ↔ ∀ (y : R), IsUnit (x * y + 1)
+instead of
+  ∀ {R : Type u} [inst : CommRing R] {x : R}, x ∈ ⊥.jacobson ↔ ∀ (y : R), IsUnit (x * y + 1)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mem_jacobson_bot` to `Ring.mem_jacobson_iff x`).
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsUnitFrobeniusIterateProductEq:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsUnitFrobeniusIterateProductEq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsUnitFrobeniusIterateProductEqStatement (3.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsUnitFrobeniusIterateProductEqStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsUnitFrobeniusIterateProductEqStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsUnitFrobeniusIterateProductEqStatement.lean:6:76: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsUnitFrobeniusIterateProductEqStatement.lean:6:141: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsUnitFrobeniusIterateProductEqStatement.lean:6:76: Unused tactic linter: `exact GlobalTheory.FrobeniusProduct.exists_unit_iterate_mul_eq` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsUnitFrobeniusIterateProductEqStatement.lean:6:141: Unused tactic linter: `(intros;
+  apply GlobalTheory.FrobeniusProduct.exists_unit_iterate_mul_eq <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.941
+Timed out: False

@@ -1,0 +1,37 @@
+Module: M070043 Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsWittVectorGhostEqFrobeniusIterateStatement
+Started: 2026-11-21T23:34:39.900747+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsWittVectorGhostEqFrobeniusIterateStatement:olean"]
+Pinned source SHA-256: 01e2a02fc3d200568c00f586e11d897192dcfc112b2ce2c9fdb0d5b3e71dab2b
+Compiled source SHA-256: 01e2a02fc3d200568c00f586e11d897192dcfc112b2ce2c9fdb0d5b3e71dab2b
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsWittVectorGhostEqFrobeniusIterate (3.3s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsWittVectorGhostEqFrobeniusIterate.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsWittVectorGhostEqFrobeniusIterate.lean:13:14: Unused tactic linter: `all_goals` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsWittVectorGhostEqFrobeniusIterate.lean:21:15: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsWittVectorGhostEqFrobeniusIterate:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsWittVectorGhostEqFrobeniusIterate.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsWittVectorGhostEqFrobeniusIterateStatement (3.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsWittVectorGhostEqFrobeniusIterateStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsWittVectorGhostEqFrobeniusIterateStatement.lean:6:69: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsWittVectorGhostEqFrobeniusIterateStatement.lean:6:127: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsWittVectorGhostEqFrobeniusIterateStatement.lean:6:69: Unused tactic linter: `exact GlobalTheory.DworkGhost.exists_witt_ghost_iterate` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsWittVectorGhostEqFrobeniusIterateStatement.lean:6:127: Unused tactic linter: `(intros;
+  apply GlobalTheory.DworkGhost.exists_witt_ghost_iterate <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.389
+Timed out: False

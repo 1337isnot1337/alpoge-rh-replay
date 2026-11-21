@@ -1,0 +1,45 @@
+Module: M070535 Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FrobeniusPowEquationDvdAllPowStatement
+Started: 2026-11-21T23:39:45.258483+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FrobeniusPowEquationDvdAllPowStatement:olean"]
+Pinned source SHA-256: 999ce25bfe4b4eecb854fec6e6cbe8395570f75412864e380bc7d57ca5f93a20
+Compiled source SHA-256: 999ce25bfe4b4eecb854fec6e6cbe8395570f75412864e380bc7d57ca5f93a20
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FrobeniusPowEquationDvdAllPow (3.5s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FrobeniusPowEquationDvdAllPow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FrobeniusPowEquationDvdAllPow.lean:55:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FrobeniusPowEquationDvdAllPow.lean:56:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FrobeniusPowEquationDvdAllPow:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FrobeniusPowEquationDvdAllPow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FrobeniusPowEquationDvdAllPowStatement (3.2s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FrobeniusPowEquationDvdAllPowStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FrobeniusPowEquationDvdAllPowStatement.lean:6:50: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FrobeniusPowEquationDvdAllPowStatement.lean:6:89: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FrobeniusPowEquationDvdAllPowStatement.lean:6:50: Unused tactic linter: `exact GlobalTheory.phiEq_dvd_all_pow` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FrobeniusPowEquationDvdAllPowStatement.lean:6:89: Unused tactic linter: `(intros; apply GlobalTheory.phiEq_dvd_all_pow <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.843
+Timed out: False

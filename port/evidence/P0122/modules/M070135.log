@@ -1,0 +1,44 @@
+Module: M070135 Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteClassesModUniformizerPowMatricesStatement
+Started: 2026-11-21T23:35:45.246090+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteClassesModUniformizerPowMatricesStatement:olean"]
+Pinned source SHA-256: c5463a002f82224cbb28fd349c84f4fd45187897583e8bdf02e24fc9a8c64144
+Compiled source SHA-256: c5463a002f82224cbb28fd349c84f4fd45187897583e8bdf02e24fc9a8c64144
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteClassesModUniformizerPowMatrices (3.4s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteClassesModUniformizerPowMatrices.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteClassesModUniformizerPowMatrices.lean:19:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteClassesModUniformizerPowMatrices:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteClassesModUniformizerPowMatrices.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteClassesModUniformizerPowMatricesStatement (3.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteClassesModUniformizerPowMatricesStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteClassesModUniformizerPowMatricesStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteClassesModUniformizerPowMatricesStatement.lean:8:62: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteClassesModUniformizerPowMatricesStatement.lean:8:113: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteClassesModUniformizerPowMatricesStatement.lean:7:8: Overlapping instance parameters in `GlobalTheory.T.finite_classes_mod_uniformizer_pow_matrices`:
+
+⚠️ `[IsDomain O]` and `[IsDiscreteValuationRing O]` each imply `[Nontrivial O]`.
+💡️ Of these, `[IsDomain O]` and `[IsDiscreteValuationRing O]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteClassesModUniformizerPowMatricesStatement.lean:8:62: Unused tactic linter: `exact GlobalTheory.GenUnr.finite_classes_mod_pow` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteClassesModUniformizerPowMatricesStatement.lean:8:113: Unused tactic linter: `(intros; apply GlobalTheory.GenUnr.finite_classes_mod_pow <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.539
+Timed out: False

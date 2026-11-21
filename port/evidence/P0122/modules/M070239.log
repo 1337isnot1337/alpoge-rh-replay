@@ -1,0 +1,55 @@
+Module: M070239 Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteSqEqOneOfFiniteAlgebraStatement
+Started: 2026-11-21T23:36:55.651405+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteSqEqOneOfFiniteAlgebraStatement:olean"]
+Pinned source SHA-256: 7a13c8bb3b903feb8c12b0fcbe129f3c8ea422b27b687440339089722bb8d355
+Compiled source SHA-256: 7a13c8bb3b903feb8c12b0fcbe129f3c8ea422b27b687440339089722bb8d355
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteSqEqOneOfFiniteAlgebra (3.3s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteSqEqOneOfFiniteAlgebra.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteSqEqOneOfFiniteAlgebra.lean:7:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteSqEqOneOfFiniteAlgebra.lean:8:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteSqEqOneOfFiniteAlgebra.lean:11:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteSqEqOneOfFiniteAlgebra:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteSqEqOneOfFiniteAlgebra.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteSqEqOneOfFiniteAlgebraStatement (3.1s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteSqEqOneOfFiniteAlgebraStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteSqEqOneOfFiniteAlgebraStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteSqEqOneOfFiniteAlgebraStatement.lean:6:67: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteSqEqOneOfFiniteAlgebraStatement.lean:6:123: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteSqEqOneOfFiniteAlgebraStatement.lean:6:67: Unused tactic linter: `exact GlobalTheory.finite_sq_eq_one_of_finite_algebra` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteSqEqOneOfFiniteAlgebraStatement.lean:6:123: Unused tactic linter: `(intros;
+  apply GlobalTheory.finite_sq_eq_one_of_finite_algebra <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.439
+Timed out: False

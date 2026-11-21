@@ -1,0 +1,58 @@
+Module: M070105 Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FgInfSupOfIsComplStatement
+Started: 2026-11-21T23:35:15.229510+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FgInfSupOfIsComplStatement:olean"]
+Pinned source SHA-256: 014c9a1939db3d307903c7b388138ffa3c23eed7398fb5e9453ea158f8bf5c3d
+Compiled source SHA-256: 014c9a1939db3d307903c7b388138ffa3c23eed7398fb5e9453ea158f8bf5c3d
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FgInfSupOfIsCompl (3.4s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FgInfSupOfIsCompl.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FgInfSupOfIsCompl.lean:11:36: `Submodule.linearProjOfIsCompl` has been deprecated: Use `Submodule.projectionOnto` instead
+
+Hint: Replace the deprecated name:
+  S̵u̵b̵m̵o̵d̵u̵l̵e̵.̵l̵i̵n̵e̵a̵r̵P̵r̵o̵j̵O̵f̵I̵s̵C̵o̵m̵p̵l̵S̲u̲b̲m̲o̲d̲u̲l̲e̲.̲p̲r̲o̲j̲e̲c̲t̲i̲o̲n̲O̲n̲t̲o̲
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FgInfSupOfIsCompl.lean:13:39: `Submodule.linearProjOfIsCompl` has been deprecated: Use `Submodule.projectionOnto` instead
+
+Hint: Replace the deprecated name:
+  S̵u̵b̵m̵o̵d̵u̵l̵e̵.̵l̵i̵n̵e̵a̵r̵P̵r̵o̵j̵O̵f̵I̵s̵C̵o̵m̵p̵l̵S̲u̲b̲m̲o̲d̲u̲l̲e̲.̲p̲r̲o̲j̲e̲c̲t̲i̲o̲n̲O̲n̲t̲o̲
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FgInfSupOfIsCompl.lean:15:26: `Submodule.linearProjOfIsCompl_apply_left` has been deprecated: Use `Submodule.projectionOnto_apply_left` instead
+
+Hint: Replace the deprecated name:
+  S̵u̵b̵m̵o̵d̵u̵l̵e̵.̵l̵i̵n̵e̵a̵r̵P̵r̵o̵j̵O̵f̵I̵s̵C̵o̵m̵p̵l̵_̵a̵p̵p̵l̵y̵_̵l̵e̵f̵t̵S̲u̲b̲m̲o̲d̲u̲l̲e̲.̲p̲r̲o̲j̲e̲c̲t̲i̲o̲n̲O̲n̲t̲o̲_̲a̲p̲p̲l̲y̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FgInfSupOfIsCompl.lean:17:13: `Submodule.linearProjOfIsCompl_apply_eq_zero_iff` has been deprecated: Use `Submodule.projectionOnto_apply_eq_zero_iff` instead
+
+Hint: Replace the deprecated name:
+  S̵u̵b̵m̵o̵d̵u̵l̵e̵.̵l̵i̵n̵e̵a̵r̵P̵r̵o̵j̵O̵f̵I̵s̵C̵o̵m̵p̵l̵_̵a̵p̵p̵l̵y̵_̵e̵q̵_̵z̵e̵r̵o̵_̵i̵f̵f̵S̲u̲b̲m̲o̲d̲u̲l̲e̲.̲p̲r̲o̲j̲e̲c̲t̲i̲o̲n̲O̲n̲t̲o̲_̲a̲p̲p̲l̲y̲_̲e̲q̲_̲z̲e̲r̲o̲_̲i̲f̲f̲
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FgInfSupOfIsCompl.lean:18:11: `Submodule.linearProjOfIsCompl` has been deprecated: Use `Submodule.projectionOnto` instead
+
+Hint: Replace the deprecated name:
+  S̵u̵b̵m̵o̵d̵u̵l̵e̵.̵l̵i̵n̵e̵a̵r̵P̵r̵o̵j̵O̵f̵I̵s̵C̵o̵m̵p̵l̵S̲u̲b̲m̲o̲d̲u̲l̲e̲.̲p̲r̲o̲j̲e̲c̲t̲i̲o̲n̲O̲n̲t̲o̲
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FgInfSupOfIsCompl.lean:21:10: `Submodule.linearProjOfIsCompl_apply_eq_zero_iff` has been deprecated: Use `Submodule.projectionOnto_apply_eq_zero_iff` instead
+
+Hint: Replace the deprecated name:
+  S̵u̵b̵m̵o̵d̵u̵l̵e̵.̵l̵i̵n̵e̵a̵r̵P̵r̵o̵j̵O̵f̵I̵s̵C̵o̵m̵p̵l̵_̵a̵p̵p̵l̵y̵_̵e̵q̵_̵z̵e̵r̵o̵_̵i̵f̵f̵S̲u̲b̲m̲o̲d̲u̲l̲e̲.̲p̲r̲o̲j̲e̲c̲t̲i̲o̲n̲O̲n̲t̲o̲_̲a̲p̲p̲l̲y̲_̲e̲q̲_̲z̲e̲r̲o̲_̲i̲f̲f̲
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FgInfSupOfIsCompl.lean:23:16: `Submodule.linearProjOfIsCompl` has been deprecated: Use `Submodule.projectionOnto` instead
+
+Hint: Replace the deprecated name:
+  S̵u̵b̵m̵o̵d̵u̵l̵e̵.̵l̵i̵n̵e̵a̵r̵P̵r̵o̵j̵O̵f̵I̵s̵C̵o̵m̵p̵l̵S̲u̲b̲m̲o̲d̲u̲l̲e̲.̲p̲r̲o̲j̲e̲c̲t̲i̲o̲n̲O̲n̲t̲o̲
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FgInfSupOfIsCompl:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FgInfSupOfIsCompl.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FgInfSupOfIsComplStatement (3.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FgInfSupOfIsComplStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FgInfSupOfIsComplStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FgInfSupOfIsComplStatement.lean:7:54: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FgInfSupOfIsComplStatement.lean:7:97: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FgInfSupOfIsComplStatement.lean:7:54: Unused tactic linter: `exact GlobalTheory.fg_inf_sup_of_isCompl` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FgInfSupOfIsComplStatement.lean:7:97: Unused tactic linter: `(intros; apply GlobalTheory.fg_inf_sup_of_isCompl <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.491
+Timed out: False

@@ -1,0 +1,54 @@
+Module: M069537 Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsOneLeNormPsumMultiset
+Started: 2026-11-21T23:31:43.737403+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsOneLeNormPsumMultiset:olean"]
+Pinned source SHA-256: f90a82c807117acaf15fabd4119213c044fc60455ac8befb7ef2fb58638913e0
+Compiled source SHA-256: f90a82c807117acaf15fabd4119213c044fc60455ac8befb7ef2fb58638913e0
+
+⚠ [18250/18252] Built ReciprocityTheory.NeutralLocalFields.LocalFieldComparison.TendstoPrimeIdealZetaSumUniv (4.1s)
+warning: src/ReciprocityTheory/NeutralLocalFields/LocalFieldComparison/TendstoPrimeIdealZetaSumUniv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/NeutralLocalFields/LocalFieldComparison/TendstoPrimeIdealZetaSumUniv.lean:28:59: `Ideal.finite_setOfPred_absNorm_eq` has been deprecated: Use `Ring.HasFiniteQuotients.finite_absNorm_eq` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.finite_setOfPred_absNorm_eq` to `Ring.HasFiniteQuotients.finite_absNorm_eq x`).
+
+Hint: Replace the deprecated name:
+  I̵d̵e̵a̵l̵.̵f̵i̵n̵i̵t̵e̵_̵s̵e̵t̵O̵f̵P̵r̵e̵d̵_̵a̵b̵s̵N̵o̵r̵m̵_̵e̵q̵R̲i̲n̲g̲.̲H̲a̲s̲F̲i̲n̲i̲t̲e̲Q̲u̲o̲t̲i̲e̲n̲t̲s̲.̲f̲i̲n̲i̲t̲e̲_̲a̲b̲s̲N̲o̲r̲m̲_̲e̲q̲
+warning: src/ReciprocityTheory/NeutralLocalFields/LocalFieldComparison/TendstoPrimeIdealZetaSumUniv.lean:75:15: `Ideal.finite_setOfPred_absNorm_eq` has been deprecated: Use `Ring.HasFiniteQuotients.finite_absNorm_eq` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.finite_setOfPred_absNorm_eq` to `Ring.HasFiniteQuotients.finite_absNorm_eq x`).
+
+Hint: Replace the deprecated name:
+  I̵d̵e̵a̵l̵.̵f̵i̵n̵i̵t̵e̵_̵s̵e̵t̵O̵f̵P̵r̵e̵d̵_̵a̵b̵s̵N̵o̵r̵m̵_̵e̵q̵R̲i̲n̲g̲.̲H̲a̲s̲F̲i̲n̲i̲t̲e̲Q̲u̲o̲t̲i̲e̲n̲t̲s̲.̲f̲i̲n̲i̲t̲e̲_̲a̲b̲s̲N̲o̲r̲m̲_̲e̲q̲
+warning: src/ReciprocityTheory/NeutralLocalFields/LocalFieldComparison/TendstoPrimeIdealZetaSumUniv.lean:223:32: `Ideal.finite_setOfPred_absNorm_eq` has been deprecated: Use `Ring.HasFiniteQuotients.finite_absNorm_eq` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.finite_setOfPred_absNorm_eq` to `Ring.HasFiniteQuotients.finite_absNorm_eq x`).
+
+Hint: Replace the deprecated name:
+  I̵d̵e̵a̵l̵.̵f̵i̵n̵i̵t̵e̵_̵s̵e̵t̵O̵f̵P̵r̵e̵d̵_̵a̵b̵s̵N̵o̵r̵m̵_̵e̵q̵R̲i̲n̲g̲.̲H̲a̲s̲F̲i̲n̲i̲t̲e̲Q̲u̲o̲t̲i̲e̲n̲t̲s̲.̲f̲i̲n̲i̲t̲e̲_̲a̲b̲s̲N̲o̲r̲m̲_̲e̲q̲
+warning: src/ReciprocityTheory/NeutralLocalFields/LocalFieldComparison/TendstoPrimeIdealZetaSumUniv.lean:228:17: `Ideal.finite_setOfPred_absNorm_eq` has been deprecated: Use `Ring.HasFiniteQuotients.finite_absNorm_eq` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.finite_setOfPred_absNorm_eq` to `Ring.HasFiniteQuotients.finite_absNorm_eq x`).
+
+Hint: Replace the deprecated name:
+  I̵d̵e̵a̵l̵.̵f̵i̵n̵i̵t̵e̵_̵s̵e̵t̵O̵f̵P̵r̵e̵d̵_̵a̵b̵s̵N̵o̵r̵m̵_̵e̵q̵R̲i̲n̲g̲.̲H̲a̲s̲F̲i̲n̲i̲t̲e̲Q̲u̲o̲t̲i̲e̲n̲t̲s̲.̲f̲i̲n̲i̲t̲e̲_̲a̲b̲s̲N̲o̲r̲m̲_̲e̲q̲
+⚠ [18251/18252] Ran ReciprocityTheory.NeutralLocalFields.LocalFieldComparison.TendstoPrimeIdealZetaSumUniv:irArts
+warning: src/ReciprocityTheory/NeutralLocalFields/LocalFieldComparison/TendstoPrimeIdealZetaSumUniv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsOneLeNormPsumMultiset (4.7s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsOneLeNormPsumMultiset.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsOneLeNormPsumMultiset.lean:31:40: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsOneLeNormPsumMultiset.lean:31:40: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsOneLeNormPsumMultiset.lean:60:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 14.004
+Timed out: False

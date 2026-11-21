@@ -1,0 +1,25 @@
+Module: M069939 Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsUniqueIntegralAdditiveSystemFrobeniusPower
+Started: 2026-11-21T23:33:24.813186+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsUniqueIntegralAdditiveSystemFrobeniusPower:olean"]
+Pinned source SHA-256: 36e8617d84669dfbdafd28a9e67cee2ae185d76a8ebc93f0a5ed3a5fb8e8bb46
+Compiled source SHA-256: 36e8617d84669dfbdafd28a9e67cee2ae185d76a8ebc93f0a5ed3a5fb8e8bb46
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MooreNorm (3.2s)
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/MooreNorm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MooreNorm:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/MooreNorm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsUniqueIntegralAdditiveSystemFrobeniusPower (4.1s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsUniqueIntegralAdditiveSystemFrobeniusPower.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsUniqueIntegralAdditiveSystemFrobeniusPower.lean:89:10: `mul_le_one₀` has been deprecated: No replacement, use constituent lemmas from proof.
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsUniqueIntegralAdditiveSystemFrobeniusPower.lean:63:18: This simp argument is unused:
+  Nat.lt_succ_iff
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hn]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 12.342
+Timed out: False

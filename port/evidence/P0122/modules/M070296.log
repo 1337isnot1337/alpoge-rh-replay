@@ -1,0 +1,27 @@
+Module: M070296 Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankSpanImageEqCard
+Started: 2026-11-21T23:38:19.170403+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankSpanImageEqCard:olean"]
+Pinned source SHA-256: 81d4b23f1dc1ad873d75122ccbca62e7e2d626cf8e8967b4d6b3563eeb698af0
+Compiled source SHA-256: 81d4b23f1dc1ad873d75122ccbca62e7e2d626cf8e8967b4d6b3563eeb698af0
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AntitoneFiltrationExistsAdaptedLinearIndepSet (3.4s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/AntitoneFiltrationExistsAdaptedLinearIndepSet.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/AntitoneFiltrationExistsAdaptedLinearIndepSet.lean:52:30: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AntitoneFiltrationExistsAdaptedLinearIndepSet:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/AntitoneFiltrationExistsAdaptedLinearIndepSet.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankSpanImageEqCard (4.1s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FinrankSpanImageEqCard.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FinrankSpanImageEqCard.lean:78:28: `SetLike.exists_of_lt` has been deprecated: Use `IsConcreteLE.exists_of_lt` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.exists_of_lt` to `IsConcreteLE.exists_of_lt x`).
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵L̵i̵k̵e̵.̵e̵x̵i̵s̵t̵s̵_̵o̵f̵_̵l̵t̵I̲s̲C̲o̲n̲c̲r̲e̲t̲e̲L̲E̲.̲e̲x̲i̲s̲t̲s̲_̲o̲f̲_̲l̲t̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 12.644
+Timed out: False

@@ -1,0 +1,31 @@
+Module: M070285 Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankInvariantsEqOfInvertiblePeriodMatrixStatement
+Started: 2026-11-21T23:37:51.669033+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankInvariantsEqOfInvertiblePeriodMatrixStatement:olean"]
+Pinned source SHA-256: 8fcd693a91d44e27ee79323da44f07c366e06e2f3d50542acac5905b8550ec27
+Compiled source SHA-256: 8fcd693a91d44e27ee79323da44f07c366e06e2f3d50542acac5905b8550ec27
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankInvariantsEqOfInvertiblePeriodMatrix (3.8s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FinrankInvariantsEqOfInvertiblePeriodMatrix.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankInvariantsEqOfInvertiblePeriodMatrix:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FinrankInvariantsEqOfInvertiblePeriodMatrix.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankInvariantsEqOfInvertiblePeriodMatrixStatement (3.2s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FinrankInvariantsEqOfInvertiblePeriodMatrixStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FinrankInvariantsEqOfInvertiblePeriodMatrixStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FinrankInvariantsEqOfInvertiblePeriodMatrixStatement.lean:7:90: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FinrankInvariantsEqOfInvertiblePeriodMatrixStatement.lean:7:169: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FinrankInvariantsEqOfInvertiblePeriodMatrixStatement.lean:7:90: Unused tactic linter: `exact GlobalTheory.InertiaEigenvalues.finrank_invariants_eq_of_period_matrix` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FinrankInvariantsEqOfInvertiblePeriodMatrixStatement.lean:7:169: Unused tactic linter: `(intros;
+  apply GlobalTheory.InertiaEigenvalues.finrank_invariants_eq_of_period_matrix <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 12.148
+Timed out: False

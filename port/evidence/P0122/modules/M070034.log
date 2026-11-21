@@ -1,0 +1,21 @@
+Module: M070034 Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsWindowRadii
+Started: 2026-11-21T23:34:29.812691+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsWindowRadii:olean"]
+Pinned source SHA-256: 63f35ea7f6eab767c8ed127cfa11807744c02f91e584cc83d6eacb52bd5768f3
+Compiled source SHA-256: 63f35ea7f6eab767c8ed127cfa11807744c02f91e584cc83d6eacb52bd5768f3
+
+⚠ [18250/18252] Replayed Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MooreNorm
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/MooreNorm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MooreNorm:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/MooreNorm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsWindowRadii (4.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsWindowRadii.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsWindowRadii.lean:85:29: `Fin.coe_castSucc` has been deprecated: Use `Fin.val_castSucc` instead
+
+Hint: Replace the deprecated name:
+  F̵i̵n̵.̵c̵o̵e̵_̵c̵a̵s̵t̵S̵u̵c̵c̵F̲i̲n̲.̲v̲a̲l̲_̲c̲a̲s̲t̲S̲u̲c̲c̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.086
+Timed out: False

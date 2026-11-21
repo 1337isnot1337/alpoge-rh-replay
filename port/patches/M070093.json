@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FactorialTruncatedLogAdditivityDefectCoeffDvd",
+  "source_sha256": "4369b2d8081ddd527e1d2666048c6376ccb5da55edb3c68e438126650c6cd67c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace the removed MvPolynomial.coeff m p spelling by p.coeff m at its three uses. The pinned accessor is the DFunLike application of AddMonoidAlgebra.coeff p to m, which is definitionally the target field accessor on the same MvPolynomial abbreviation. Thus coeff_monomial_two and logDefect_coeff_dvd state the same propositions, and Good retains its exact quantified condition, coefficient index, polynomial, and divisibility expression. All proof bodies are unchanged."
+}

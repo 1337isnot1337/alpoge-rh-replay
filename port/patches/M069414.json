@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLinearExtension",
+  "source_sha256": "9d1fef00ce1a2a7978c0c5ee138470f2cfd7cf288da0deb620ea8a590ccc6bc2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The target generalizes MultilinearMap to maps over an explicit scalar ring homomorphism. Change the result type of altMultilinear from MultilinearMap A to MultilinearMap (RingHom.id A). With the identity map, the scalar compatibility field reduces to the pinned A-linearity condition. The underlying function alt, additivity proof, scalar proof, and all theorem statements and hypotheses are unchanged; this selects the same A-multilinear object in the generalized target type."
+}

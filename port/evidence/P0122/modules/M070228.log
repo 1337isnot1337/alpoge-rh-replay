@@ -1,0 +1,31 @@
+Module: M070228 Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteQuotientOfCompleteNakayamaStatement
+Started: 2026-11-21T23:36:43.858849+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteQuotientOfCompleteNakayamaStatement:olean"]
+Pinned source SHA-256: cea49713d2e166fc77f9bab2423421a665298ae2efa2a5662ddfba102b830bc7
+Compiled source SHA-256: cea49713d2e166fc77f9bab2423421a665298ae2efa2a5662ddfba102b830bc7
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteQuotientOfCompleteNakayama (3.5s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteQuotientOfCompleteNakayama.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteQuotientOfCompleteNakayama:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteQuotientOfCompleteNakayama.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteQuotientOfCompleteNakayamaStatement (3.1s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteQuotientOfCompleteNakayamaStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteQuotientOfCompleteNakayamaStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteQuotientOfCompleteNakayamaStatement.lean:6:69: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteQuotientOfCompleteNakayamaStatement.lean:6:127: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteQuotientOfCompleteNakayamaStatement.lean:6:69: Unused tactic linter: `exact GlobalTheory.finite_quotient_of_complete_nakayama` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FiniteQuotientOfCompleteNakayamaStatement.lean:6:127: Unused tactic linter: `(intros;
+  apply GlobalTheory.finite_quotient_of_complete_nakayama <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.79
+Timed out: False

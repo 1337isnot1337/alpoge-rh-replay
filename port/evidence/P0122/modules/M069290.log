@@ -1,0 +1,61 @@
+Module: M069290 Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInvariantMatrixLiftOfAdicCompleteStatement
+Started: 2026-11-21T23:29:25.725016+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInvariantMatrixLiftOfAdicCompleteStatement:olean"]
+Pinned source SHA-256: 95eb82337649e5e3abbdb8c0c9ff3e0c21950413dc23a7080917e5e5b5fe8e65
+Compiled source SHA-256: 95eb82337649e5e3abbdb8c0c9ff3e0c21950413dc23a7080917e5e5b5fe8e65
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInvariantMatrixLiftOfAdicComplete (4.1s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsInvariantMatrixLiftOfAdicComplete.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsInvariantMatrixLiftOfAdicComplete.lean:16:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsInvariantMatrixLiftOfAdicComplete.lean:100:80: This simp argument is unused:
+  QuotientGroup.out_eq'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [MulAction.Quotient.smul_mk, smul_eq_mul, QuotientGroup.mk_mul, Quotient.out_eq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsInvariantMatrixLiftOfAdicComplete.lean:121:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsInvariantMatrixLiftOfAdicComplete.lean:122:4: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInvariantMatrixLiftOfAdicComplete:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsInvariantMatrixLiftOfAdicComplete.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsInvariantMatrixLiftOfAdicCompleteStatement (3.1s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsInvariantMatrixLiftOfAdicCompleteStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsInvariantMatrixLiftOfAdicCompleteStatement.lean:6:68: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsInvariantMatrixLiftOfAdicCompleteStatement.lean:6:125: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsInvariantMatrixLiftOfAdicCompleteStatement.lean:6:68: Unused tactic linter: `exact GlobalTheory.InvariantLift.exists_invariant_lift` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsInvariantMatrixLiftOfAdicCompleteStatement.lean:6:125: Unused tactic linter: `(intros;
+  apply GlobalTheory.InvariantLift.exists_invariant_lift <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 12.344
+Timed out: False

@@ -1,0 +1,38 @@
+Module: M070471 Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FreeModuleAdicCompleteSeparatedStatement
+Started: 2026-11-21T23:39:08.159759+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FreeModuleAdicCompleteSeparatedStatement:olean"]
+Pinned source SHA-256: a0f8353bab7681d496ba776fdfe9fa324e73dc64f431f14e4e72ef481006beaf
+Compiled source SHA-256: a0f8353bab7681d496ba776fdfe9fa324e73dc64f431f14e4e72ef481006beaf
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FreeModuleAdicCompleteSeparated (3.6s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FreeModuleAdicCompleteSeparated.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FreeModuleAdicCompleteSeparated.lean:9:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FreeModuleAdicCompleteSeparated:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FreeModuleAdicCompleteSeparated.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FreeModuleAdicCompleteSeparatedStatement (3.2s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FreeModuleAdicCompleteSeparatedStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FreeModuleAdicCompleteSeparatedStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FreeModuleAdicCompleteSeparatedStatement.lean:6:66: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FreeModuleAdicCompleteSeparatedStatement.lean:6:121: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FreeModuleAdicCompleteSeparatedStatement.lean:6:66: Unused tactic linter: `exact GlobalTheory.freeModule_adicComplete_separated` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FreeModuleAdicCompleteSeparatedStatement.lean:6:121: Unused tactic linter: `(intros; apply GlobalTheory.freeModule_adicComplete_separated <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 12.046
+Timed out: False

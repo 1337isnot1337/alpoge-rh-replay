@@ -1,0 +1,31 @@
+Module: M070260 Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankAddLeFinrankRangeAddOfComapLeStatement
+Started: 2026-11-21T23:37:39.722056+00:00
+Command: ["lake", "--no-cache", "build", "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankAddLeFinrankRangeAddOfComapLeStatement:olean"]
+Pinned source SHA-256: 218add97c77671e1ae6b953d2b1e9ceb9e87f2802b293754ade440f8f375dd2d
+Compiled source SHA-256: 218add97c77671e1ae6b953d2b1e9ceb9e87f2802b293754ade440f8f375dd2d
+
+⚠ [18250/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankAddLeFinrankRangeAddOfComapLe (3.6s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FinrankAddLeFinrankRangeAddOfComapLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankAddLeFinrankRangeAddOfComapLe:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FinrankAddLeFinrankRangeAddOfComapLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FinrankAddLeFinrankRangeAddOfComapLeStatement (3.1s)
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FinrankAddLeFinrankRangeAddOfComapLeStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FinrankAddLeFinrankRangeAddOfComapLeStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FinrankAddLeFinrankRangeAddOfComapLeStatement.lean:7:77: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FinrankAddLeFinrankRangeAddOfComapLeStatement.lean:7:143: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FinrankAddLeFinrankRangeAddOfComapLeStatement.lean:7:77: Unused tactic linter: `exact GlobalTheory.finrank_add_le_finrank_range_add_of_comap_le` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FinrankAddLeFinrankRangeAddOfComapLeStatement.lean:7:143: Unused tactic linter: `(intros;
+  apply GlobalTheory.finrank_add_le_finrank_range_add_of_comap_le <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.945
+Timed out: False
