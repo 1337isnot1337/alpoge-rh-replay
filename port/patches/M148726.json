@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.GlobalTheory.GL4.PLemTAmgm",
+  "source_sha256": "cb254122e69157c39ca93bc7ad721b06c572e7e251c9abcd12dcded36796db7e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

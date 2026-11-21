@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.IndefiniteForms.IndefiniteTree.RealCubicMeans.LogMeanShares.LogMeanStatements.MeanLogS",
+  "source_sha256": "6dbebe1725d9735378f4fb0d9f5dc01182e4ef1343193403f25e6c6eb6ea19a7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.GlobalTheory.GL3.PFourSq",
+  "source_sha256": "142016010c53606bbfac7a3c380c6474a3f6d289560b0a0fd364e5dacbf67cac",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

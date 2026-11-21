@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.PairingIndexBounds.RowActionCoefficients.AdmissibleInterpolation.GeXZero",
+  "source_sha256": "0160deb95a7541b3a4ee8e7eb05b6c12940539d45edd944c2a99746c3b470ae9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

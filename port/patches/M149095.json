@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.GroupLattices.TiedFamilies.TieDim",
+  "source_sha256": "d127ab719211a3927f5ce67529b3c66c07b0e3b4c11836897acb18a0df11a3fa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

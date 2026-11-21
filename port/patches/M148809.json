@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.GlobalTheory.GL6.LinearIndependentProdRenameOfCard",
+  "source_sha256": "947ea8a1a8379e727417f94352b18214d57b1d6d29e4f697d7bb3a982618f9c9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use dot notation (a.coeff m) for MvPolynomial.coeff instead of (coeff m a) in Mathlib v4.36.0."
+}

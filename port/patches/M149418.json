@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.IndefiniteReal.HaarTransfer.Unimod",
+  "source_sha256": "55d313267190936e503644c448c4613ce796f0722382607308ff9225c0db36ff",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

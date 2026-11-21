@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.GroupLattices.PerfectRings.ExistsSqEqIntCast",
+  "source_sha256": "ced0314f5d1e62825e79bb6bd6f3d8c7c1d19ba7778e80ff2b1199f756dfb585",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

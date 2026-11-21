@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.AdelicCompactOpens.HermDefONFamily",
+  "source_sha256": "22d156d641d2e6e9100514dcb4b8df3a27c0cf1310575f626f02274ee06908cd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

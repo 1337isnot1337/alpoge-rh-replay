@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.KernelLattices.DeterminantCokernelCount.CokernelIndexFactors.StatementB",
+  "source_sha256": "375305d3fc656e51e67eae859e6a3790ca7b034f347b6bac3d2ca0be5736482c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,11 @@
+--- a/src/Formalism/LocalRingCardinality/SpanPowerMembership/NZTypeD.lean
++++ b/src/Formalism/LocalRingCardinality/SpanPowerMembership/NZTypeD.lean
+@@ -141,7 +141,7 @@
+     open Classical in ∑ a : (∀ i, L i), if S a then ∏ i, (E i (a i)).coeff (g i) else 0 := by
+   classical
+   unfold eSum
+-  rw [MonoidAlgebra.coeff_sum, Finsupp.finset_sum_apply]
++  rw [MonoidAlgebra.coeff_sum, Finsupp.finsetSum_apply]
+   refine Finset.sum_congr rfl fun a _ => ?_
+   split_ifs
+   · rfl

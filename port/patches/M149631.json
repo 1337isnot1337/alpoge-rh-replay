@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.IndefiniteReal.SobolevIteration.HasFDerivAtIntegralPIter",
+  "source_sha256": "14cdecd7fd33aeff4134642038108f1752af110f1cc9a6a0855f72a540f309cc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

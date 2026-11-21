@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.LatticeGeometry.RealizationNorms.ExistsStarMulSelf",
+  "source_sha256": "bcc1fd7b17793a48bb9fb02f37dd99d33cc5087781d86f0a617b8dcb0211eba7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use diag_apply and Matrix.mul_apply in trace calculations for Mathlib v4.36.0."
+}

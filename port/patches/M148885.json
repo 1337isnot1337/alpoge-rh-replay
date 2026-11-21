@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.GlobalTheory.UnramifiedTrace.SumFib",
+  "source_sha256": "6802879d0c0bfb4676cab5d17e520f72d484b6b0ce4e39cb2260312348db33ec",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

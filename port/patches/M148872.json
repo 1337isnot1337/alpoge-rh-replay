@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.GlobalTheory.UnramifiedTrace.CardFilterSubtype",
+  "source_sha256": "55205118f839a934db6c58b7da80b44d6492147a5c07f605d249c11360f73a35",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

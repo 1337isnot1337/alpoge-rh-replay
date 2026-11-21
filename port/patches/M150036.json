@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.NormalizedHeckeFactors.CoverVal",
+  "source_sha256": "5978e9ae9e1ec8078f1e8203f068e75f89b7289a2fc7268dbeccc24db1b53904",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

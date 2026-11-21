@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.CharacterGerms.PoincEx",
+  "source_sha256": "9f9b8b9d728dba387f07406125d74ab9053ae0241c6f9e1e3a46f40d8530b870",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Omit the now-implicit ring parameter K in MvPowerSeries.pderiv (including theorem poinc statement) for Mathlib v4.36.0."
+}

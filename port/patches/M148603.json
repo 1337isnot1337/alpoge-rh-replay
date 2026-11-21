@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.GlobalTheory.GL1.CompactFixesLattice.AdeleIntA",
+  "source_sha256": "6ef5ec1aa3ba732edff94fd41b62cebb6973173f4554105f32f201391a3e463f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

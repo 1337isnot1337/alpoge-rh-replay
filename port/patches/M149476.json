@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.IndefiniteReal.LevelTypeEquivalence.IterSymmR",
+  "source_sha256": "7ac9a3aa08a86aaff9201920179bd5f95dca318d36aa0cda3f5c53e29e739e09",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

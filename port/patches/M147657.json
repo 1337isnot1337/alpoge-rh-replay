@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.AdelicCompactOpens.GLintCompactOpen",
+  "source_sha256": "1f1167c7276b6c45131d3adc68f3e87b50cef1e77416ff3f073767c2daf5304b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

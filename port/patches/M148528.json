@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.GlobalTheory.BlockActions.ExtendOneMulVecSingleLast",
+  "source_sha256": "2922c02c44c734821ba0f921861946a4ecf0cd29548c4ce01fb89f3794595cd3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify mul_apply as Matrix.mul_apply in extendOne_mul_inclusion and ext_general for Mathlib v4.36.0."
+}

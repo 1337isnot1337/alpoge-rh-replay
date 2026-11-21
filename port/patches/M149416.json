@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.IndefiniteReal.HaarTransfer.SchurClosable",
+  "source_sha256": "5cca7955de3ea3c46d3619be2a781d0765cdb916de0f70034cbf29c75cc52af8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

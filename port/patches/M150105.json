@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.LocalToGlobal.PairingIndexBounds.ModelLatticeMoves.IsBichar",
+  "source_sha256": "d566d8af024ae8c501c1ceea4ef8e96770764a33f6d6f6a1ec269be177aaa8a0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
