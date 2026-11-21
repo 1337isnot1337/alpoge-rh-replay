@@ -1,0 +1,51 @@
+--- a/src/Formalism/SharpRestriction/LevelLetterCocycles/RepresentationCongruences/ExistsSumPadicValIntWindowEq.lean
++++ b/src/Formalism/SharpRestriction/LevelLetterCocycles/RepresentationCongruences/ExistsSumPadicValIntWindowEq.lean
+@@ -14,7 +14,9 @@
+       rw [show m + (n + 1) = m + n + 1 by omega, Nat.factorial_succ]
+     have h2 : padicValNat l ((m + n + 1) * (m + n).factorial) =
+         padicValNat l (m + n + 1) + padicValNat l (m + n).factorial :=
+-      padicValNat.mul (by omega) (Nat.factorial_ne_zero _)
++      by
++        simp only [Nat.padicValNat_def]
++        exact padicValNat.mul (by omega) (Nat.factorial_ne_zero _)
+     rw [Finset.sum_range_succ, h1, h2, show m + 1 + n = m + n + 1 by omega]
+     omega
+ 
+@@ -24,9 +26,9 @@
+   have hlR : (0 : ℝ) < (l : ℝ) - 1 := by
+     have : (2 : ℝ) ≤ l := by exact_mod_cast hl
+     linarith
+-  have key := sub_one_mul_padicValNat_factorial (p := l) n
++  have key := Nat.Prime.sub_one_mul_multiplicity_factorial (n := n) hp.out
+   have hle : (l - 1) * padicValNat l n.factorial ≤ n := by
+-    rw [key]; exact Nat.sub_le _ _
++    rw [Nat.padicValNat_def, key]; exact Nat.sub_le _ _
+   have hcast : ((l - 1 : ℕ) : ℝ) = (l : ℝ) - 1 := by
+     rw [Nat.cast_sub (by omega), Nat.cast_one]
+   have h' : ((l : ℝ) - 1) * (padicValNat l n.factorial : ℝ) ≤ n := by
+@@ -60,6 +62,7 @@
+   have hB := padicValNat_factorial (p := l) (n := m)
+     (lt_of_le_of_lt (Nat.log_mono_right (by omega)) hb)
+   have h1 := padicValNat_factorial_add_sum l m S
++  simp only [← Nat.padicValNat_def] at hA hB
+   rw [hA, hB] at h1
+   have h1' : ∑ i ∈ Finset.Ico 1 b, ((m / l ^ i : ℕ) : ℝ) +
+       ((∑ j ∈ range S, padicValNat l (m + 1 + j) : ℕ) : ℝ) =
+@@ -151,7 +154,7 @@
+       intro j hj
+       rw [Finset.mem_range] at hj
+       have he : a + (j : ℤ) = -(((m + 1 + (S - 1 - j) : ℕ)) : ℤ) := by omega
+-      rw [padicValInt, he, Int.natAbs_neg]
++      rw [padicValInt, he, Int.natAbs_neg, Nat.padicValNat_def]
+       rfl
+   · obtain ⟨m, hm⟩ := Int.eq_ofNat_of_zero_le (show (0 : ℤ) ≤ a - 1 by omega)
+     refine ⟨m, ?_, ?_⟩
+@@ -160,7 +163,7 @@
+     · apply Finset.sum_congr rfl
+       intro j _
+       have he : a + (j : ℤ) = ((m + 1 + j : ℕ) : ℤ) := by push_cast; omega
+-      rw [padicValInt, he]
++      rw [padicValInt, he, Nat.padicValNat_def]
+       rfl
+ 
+ theorem sum_padicValInt_window_le (l : ℕ) [Fact l.Prime] (a : ℤ) (S N : ℕ)

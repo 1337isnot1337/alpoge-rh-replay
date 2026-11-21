@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SizeWindowBrackets.RealSlopeBoundsSplit",
+  "source_sha256": "9f1c426df7eb7fc21f5d0825f48e51b74d9535e567477a5da1c3967a5b046422",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0079-lean436-20261121/packet-result.json"
+}

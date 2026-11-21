@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.TranslateCocycles.StatementHC",
+  "source_sha256": "335ff1f92af61b819050a717a8c60fa1e06da6e177bdde46296f771d9e4b7fce",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0079-lean436-20261121/packet-result.json"
+}

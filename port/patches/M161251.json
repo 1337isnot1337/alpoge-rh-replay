@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LiftInvariantsFinrankEq",
+  "source_sha256": "8bb448a8302a45c41f40798edbc096789541c9419332c96b0f5c9a3f8b1eee2e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0079-lean436-20261121/packet-result.json"
+}
