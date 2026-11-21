@@ -1,0 +1,20 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/CurveDVRSpecialization/SelfTwistEigenvalues/UnipTorsion.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/CurveDVRSpecialization/SelfTwistEigenvalues/UnipTorsion.lean
+@@ -14,7 +14,7 @@
+   set π : AdjoinRoot χ →+* AdjoinRoot χ ⧸ M := Ideal.Quotient.mk M with hπdef
+   set φ : A →+* AdjoinRoot χ ⧸ M := π.comp (algebraMap A (AdjoinRoot χ)) with hφdef
+   have hcomap : Ideal.comap (algebraMap A (AdjoinRoot χ)) M = IsLocalRing.maximalIdeal A :=
+-    IsLocalRing.eq_maximalIdeal (Ideal.isMaximal_comap_of_isIntegral_of_isMaximal M)
++    IsLocalRing.eq_maximalIdeal (Ideal.isMaximal_under_of_isIntegral_of_isMaximal M)
+   have hker : ∀ a ∈ IsLocalRing.maximalIdeal A, φ a = 0 := by
+     intro a ha
+     rw [← hcomap, Ideal.mem_comap] at ha
+@@ -34,7 +34,7 @@
+   have hs := key (∑ i ∈ Finset.range m, X ^ i)
+   have hz : π (AdjoinRoot.mk χ (∑ i ∈ Finset.range m, X ^ i)) = 0 := Ideal.Quotient.eq_zero_iff_mem.mpr hmem
+   rw [hz, hroot] at hs
+-  simp only [eval₂_finset_sum, eval₂_X_pow, one_pow, Finset.sum_const, Finset.card_range,
++  simp only [eval₂_finsetSum, eval₂_X_pow, one_pow, Finset.sum_const, Finset.card_range,
+     nsmul_eq_mul, mul_one] at hs
+   have hu := hm.map φ
+   rw [map_natCast] at hu
