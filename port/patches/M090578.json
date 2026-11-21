@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsAlgHomNeZeroOfCountable",
+  "source_sha256": "22b21eea40b206ff600be45d2a05a3eac972b96c1ae3273afbc1ba4d44e7addc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite with \u2190 Ideal.under_def before applying hQp : Ideal.under _ Q = RingHom.ker _. Statement is unchanged."
+}

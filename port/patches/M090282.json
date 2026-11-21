@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.LintegralMulRight",
+  "source_sha256": "5907c45c13afaeac1ed446b43da5147bc8aec8d0a037ff8aa0259b3371048216",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Disambiguate Matrix.one_apply in simp and refine the subset hypothesis of Set.indicator_le_indicator_of_subset before introducing binders. Statements are unchanged."
+}

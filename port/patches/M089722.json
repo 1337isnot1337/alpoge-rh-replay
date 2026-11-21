@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.TraceQuotientEqOfProjective",
+  "source_sha256": "3248b4ea4fb7312f697b1c7c9f357528c9911e6319e4d99e3d6c1b4bd8eed77e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace RingEquiv.apply_symm_apply with AlgEquiv.apply_symm_apply for equivQuotMaximalIdeal and close the quotient residue equality via simp. Statement is unchanged."
+}

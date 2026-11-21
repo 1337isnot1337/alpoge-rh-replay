@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.DifferentiableOnCoordOfLinearIndependent",
+  "source_sha256": "07636ba7127d687f24513703e22722af3968444678767d6440ba14fde12fba6b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename HasFDerivAt.finset_prod to HasFDerivAt.finsetProd. Statements are unchanged."
+}
