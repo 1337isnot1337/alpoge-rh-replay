@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteFreeModuleCompactAdicDvr",
+  "source_sha256": "a8cbff495cae48bc4abd52eb4ea1cef879f99062447a3c6aac81a141dafe2b2d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename continuous_finset_sum to continuous_finsetSum. Statement is unchanged."
+}

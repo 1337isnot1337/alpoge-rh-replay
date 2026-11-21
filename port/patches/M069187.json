@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIdempotentSubMemOfPowSubMem",
+  "source_sha256": "d61e2cbc883954f2e832e34d5189376b054092bc89f9f46b63e6e6b8bb447cbb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace removed continuous_mul_right with continuous_mul_const. Statement is unchanged."
+}

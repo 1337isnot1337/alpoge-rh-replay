@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsFiniteGaloisContainsRootsOfUnits",
+  "source_sha256": "3ce9e94a1ef84b9f077f77c6e5a9e332f0c43a6f675d1598a202b744f6cc2238",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Monoid.fg_iff to obtain a generating set as a Set and convert to a Finset via Set.Finite.toFinset instead of relying on the updated Monoid.fg_def coercion. Statement is unchanged."
+}

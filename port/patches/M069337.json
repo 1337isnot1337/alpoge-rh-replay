@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIsPrimitiveRootSubIsUnitOfDvdSubOne",
+  "source_sha256": "3698b84943d0dc0001dc90b41ecee0bdcd14701ebd62ddf8c96ae8c2022a86d0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Disambiguate Polynomial.derivative_X_pow from PowerSeries.derivative_X_pow in simp. Statement is unchanged."
+}

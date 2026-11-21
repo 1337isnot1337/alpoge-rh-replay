@@ -1,0 +1,16 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsGLOfSpanRangeEqLocalRing.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsGLOfSpanRangeEqLocalRing.lean
+@@ -44,9 +44,10 @@ theorem exists_det_add_mul_one_sub_mul_ne_zero {k : Type*} [Field k] {n : ℕ}
+     Submodule.linearProjOfIsCompl_apply_left hK' ⟨v, hvK⟩
+   have he : e ⟨v, hvK⟩ = 0 := by
+     apply Subtype.ext
+-    have : f v = 0 := hv
+-    simpa [f, hp] using this
+-  have : (⟨v, hvK⟩ : K) = 0 := by simpa using he
++    have hfv : (U.subtype ((e : K →ₗ[k] U) (Submodule.linearProjOfIsCompl K K' hK' v))) = 0 := hv
++    rw [hp] at hfv
++    exact hfv
++  have : (⟨v, hvK⟩ : K) = 0 := e.injective (he.trans e.map_zero.symm)
+   simpa using congrArg Subtype.val this
+ 
+ theorem exists_GL_of_span_range_eq : ∀ (O M : Type) [CommRing O] [IsLocalRing O] [AddCommGroup M]
