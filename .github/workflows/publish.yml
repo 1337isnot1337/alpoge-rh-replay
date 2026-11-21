@@ -1,0 +1,122 @@
+name: Publish replay submissions
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Maximum submissions to publish in this run'
+        default: '300'
+      dry_run:
+        description: 'Verify and report only; write nothing'
+        type: boolean
+        default: false
+  schedule:
+    - cron: '47 */2 * * *'
+permissions:
+  contents: write
+  issues: read
+  actions: write
+concurrency:
+  group: replay-publish-sweep
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - name: Mark the job start for the sweep deadline
+        run: echo "SWEEP_STARTED=$(date +%s)" >> "$GITHUB_ENV"
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Publish verified volunteer submissions
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PUBLISH_LIMIT: ${{ inputs.limit || '300' }}
+          PUBLISH_DRY_RUN: ${{ inputs.dry_run || false }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # The sweep runs once per job.  If the push loses a race with
+          # a commit that touches none of the sweep's inputs or outputs
+          # (a README or dashboard commit, say), the batch is rebased
+          # onto the new main and revalidated instead of re-running
+          # every download.  Anything else falls back to a fresh sweep:
+          # a rebase conflict, or a new main that changed the module
+          # snapshot, the pins, the tracker code, the ledger or the
+          # evidence directory -- the batch was produced against the
+          # old state of all of those, so it must be re-derived, not
+          # rebased across the change.  (The changed-file list goes
+          # through a file, not a pipe: grep -q closing a pipe early
+          # would SIGPIPE git diff and, under pipefail, hide a match.)
+          for attempt in 1 2 3; do
+            git fetch origin main
+            rebased=0
+            if [ -f "$RUNNER_TEMP/sweep-commit" ]; then
+              git -c core.quotepath=false diff --name-only --no-renames \
+                "$(cat "$RUNNER_TEMP/sweep-base")" FETCH_HEAD \
+                > "$RUNNER_TEMP/changed.txt"
+              # submissions.yml's derived UI files (the activity
+              # tables and the volunteer tables) change on main
+              # constantly and are never inputs to the sweep or the
+              # validator, so they do not invalidate a verified batch.
+              # (grep exit 1 = every line filtered out, which is fine;
+              # any other grep failure aborts the step.)
+              grep -Ev '^tracker/(volunteer-tables/|activity\.(tsv|svg)$)' \
+                "$RUNNER_TEMP/changed.txt" > "$RUNNER_TEMP/changed-keep.txt" || [ $? -eq 1 ]
+              if grep -qE '^(tracker/.*|evidence/.*|parts\.sha256)$' \
+                  "$RUNNER_TEMP/changed-keep.txt"; then
+                rm "$RUNNER_TEMP/sweep-commit"
+              elif ! git rebase FETCH_HEAD; then
+                git rebase --abort
+                rm "$RUNNER_TEMP/sweep-commit"
+              else
+                rebased=1
+              fi
+            fi
+            if [ ! -f "$RUNNER_TEMP/sweep-commit" ]; then
+              git rev-parse FETCH_HEAD > "$RUNNER_TEMP/sweep-base"
+              git checkout --detach FETCH_HEAD
+              if [ -f "$RUNNER_TEMP/publish-summary.md" ]; then
+                echo '_Re-running the sweep; the earlier batch above was not pushed._' >> "$GITHUB_STEP_SUMMARY"
+              fi
+              args=(--limit "$PUBLISH_LIMIT"
+                    --message-file "$RUNNER_TEMP/publish-message"
+                    --summary-file "$RUNNER_TEMP/publish-summary.md")
+              if [ "$PUBLISH_DRY_RUN" = "true" ]; then args+=(--dry-run); fi
+              python3 tracker/publish.py "${args[@]}"
+              # publish.py caps its own summary at 300 KB, so several
+              # sweeps in one job stay under the 1 MiB summary limit.
+              cat "$RUNNER_TEMP/publish-summary.md" >> "$GITHUB_STEP_SUMMARY"
+              git add evidence/volunteers tracker/completed.tsv
+              if git diff --cached --quiet; then exit 0; fi
+              git commit -F "$RUNNER_TEMP/publish-message"
+              touch "$RUNNER_TEMP/sweep-commit"
+            fi
+            if ! python3 tracker/validate_tracker.py; then
+              # A rebased batch that no longer validates is discarded
+              # and re-derived by a fresh sweep; a fresh batch that
+              # fails validation is a real ledger problem -- fail loudly.
+              if [ "$rebased" = 1 ]; then
+                rm "$RUNNER_TEMP/sweep-commit"
+                continue
+              fi
+              exit 1
+            fi
+            if git push origin HEAD:main; then
+              # Pushes made with GITHUB_TOKEN do not trigger other
+              # workflows, so the push above fires neither the dashboard
+              # refresh (pages.yml's completed.tsv trigger), the claims
+              # reconciliation (claims.yml's completed.tsv trigger), the
+              # README credit update (submissions.yml's evidence
+              # trigger) nor the post-push ledger validation.
+              # Dispatch them explicitly; workflow_dispatch is exempt
+              # from the recursion guard.  A failed dispatch warns but
+              # does not fail the job: the publish has already landed.
+              gh workflow run pages.yml --ref main || echo "::warning::pages.yml dispatch failed"
+              gh workflow run claims.yml --ref main || echo "::warning::claims.yml dispatch failed"
+              gh workflow run submissions.yml --ref main || echo "::warning::submissions.yml dispatch failed"
+              gh workflow run validate-tracker.yml --ref main || echo "::warning::validate-tracker.yml dispatch failed"
+              exit 0
+            fi
+          done
+          exit 1
