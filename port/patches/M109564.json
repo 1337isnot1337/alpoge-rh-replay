@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsSectionLiftOfEtaleOfHenselian",
+  "source_sha256": "beb65161b4055bc44f5aa0ef33b697b2a14eedbaf0ad4b4f4124277a7a71df71",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the current coercion lemma for an algebra equivalence viewed as an algebra homomorphism. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0135-lean436-20261121/packet-result.json"
+}
