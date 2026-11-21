@@ -111,6 +111,7 @@
 | [@egergerfg](https://github.com/egergerfg) | [M166104](https://github.com/rohanarun/alpoge-rh-replay/issues/8626#issuecomment-7054583839) | Pending review |
 | [@walkingsophie](https://github.com/walkingsophie) | [M165729](https://github.com/rohanarun/alpoge-rh-replay/issues/8627#issuecomment-7054681707) | Pending review |
 | [@HaqtanEfe](https://github.com/HaqtanEfe) | [M155125](https://github.com/rohanarun/alpoge-rh-replay/issues/8628#issuecomment-7054802498) | Pending review |
+| [@emsi](https://github.com/emsi) | [P1867](https://github.com/rohanarun/alpoge-rh-replay/issues/8629#issuecomment-7055374554) | Pending review |
 | [@rayy3535](https://github.com/rayy3535) | [M153824](https://github.com/rohanarun/alpoge-rh-replay/issues/8630#issuecomment-7054582508) | Pending review |
 | [@rayy3535](https://github.com/rayy3535) | [M155857](https://github.com/rohanarun/alpoge-rh-replay/issues/8631#issuecomment-7054583890) | Pending review |
 | [@egergerfg](https://github.com/egergerfg) | [M152585](https://github.com/rohanarun/alpoge-rh-replay/issues/8632#issuecomment-7054590265) | Pending review |
@@ -253,4 +254,3 @@
 | [@loremcdmx](https://github.com/loremcdmx) | [M004459](https://github.com/rohanarun/alpoge-rh-replay/issues/8848#issuecomment-7054836495) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M145292](https://github.com/rohanarun/alpoge-rh-replay/issues/8849#issuecomment-7054837604) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M062770](https://github.com/rohanarun/alpoge-rh-replay/issues/8850#issuecomment-7054839319) | Pending review |
-| [@BenCaunt](https://github.com/BenCaunt) | [M157503](https://github.com/rohanarun/alpoge-rh-replay/issues/8851#issuecomment-7054884778) | Pending review |
