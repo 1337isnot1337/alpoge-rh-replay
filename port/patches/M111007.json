@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.Foundations.Convolution.PolynomialCoefficientBounds.MatrixEntryAbsSumUnitaryLieCoordinatesSplit",
+  "source_sha256": "dafd3106aedde9c551f1c8172de206e91444192c3deb41c27d93a9e42110ee48",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use AddMonoidAlgebra.coeff_add and Finsupp.add_apply to simplify the polynomial coefficient sum. Statements are unchanged."
+}

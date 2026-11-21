@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.DivisorFrames.EqTopOfCircleSup",
+  "source_sha256": "1225a1fc65ebd2c0a3f81345e205452dc75fc88389b99c4b329f446ba433af5c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use dense_or_isCyclic and extract a generator with isAddCyclic_iff_exists_zmultiples_eq; use mem_zmultiples_iff for its integer multiples. This reconstructs the same cyclic-subgroup argument. Statements are unchanged."
+}

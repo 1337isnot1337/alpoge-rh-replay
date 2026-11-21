@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.DivisorFrames.ExistsNsmulMemSumImageLatticeOfSurjectiveMod",
+  "source_sha256": "141b370aa668d908cd221670f32b44cf337d9e4cc2b58e36d7c966ba22c92e44",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use AddSubgroup.isClosed_of_discreteTopology with its renamed U argument. Statements are unchanged."
+}
