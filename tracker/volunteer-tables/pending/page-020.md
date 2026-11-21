@@ -4,6 +4,7 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@loremcdmx](https://github.com/loremcdmx) | [M046962](https://github.com/rohanarun/alpoge-rh-replay/issues/24173#issuecomment-7066627767) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M018353](https://github.com/rohanarun/alpoge-rh-replay/issues/24175#issuecomment-7066633648) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M075837](https://github.com/rohanarun/alpoge-rh-replay/issues/24176#issuecomment-7066984809) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M022041](https://github.com/rohanarun/alpoge-rh-replay/issues/24177#issuecomment-7066986276) | Pending review |
@@ -253,4 +254,3 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M018761](https://github.com/rohanarun/alpoge-rh-replay/issues/24602#issuecomment-7067442453) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M037624](https://github.com/rohanarun/alpoge-rh-replay/issues/24604#issuecomment-7067346803) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M038655](https://github.com/rohanarun/alpoge-rh-replay/issues/24611#issuecomment-7067358251) | Pending review |
-| [@HITEYY](https://github.com/HITEYY) | [M037945](https://github.com/rohanarun/alpoge-rh-replay/issues/24613#issuecomment-7067352142) | Pending review |
