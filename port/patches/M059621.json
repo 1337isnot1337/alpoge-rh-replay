@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FlagMeasures.PackingGeometricMeanSeparated",
+  "source_sha256": "e86f2551f88a4e187ae329f9e4d0b305c4200f8771b3383138725e6e953ba0f7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_le_prod₀ for the product inequality with nonnegative real factors."
+}

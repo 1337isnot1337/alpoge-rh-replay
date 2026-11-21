@@ -1,0 +1,27 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/SesqEqZeroOfDiagEqZero.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/FlagMeasures/SesqEqZeroOfDiagEqZero.lean
+@@ -131,14 +131,15 @@
+       ⟪w, σ g v'⟫_ℂ ⟪w', σ g v'⟫_ℂ]
+     simp only [inner_add_left, inner_sub_left, inner_smul_left, Complex.conj_I, Complex.star_def,
+       neg_mul, ← sub_eq_add_neg, sub_neg_eq_add]
+-  rw [integral_congr_ae (Filter.Eventually.of_forall hpt), integral_const_mul,
+-    integral_add, integral_sub, integral_sub, integral_const_mul, integral_const_mul,
+-    hone, hone, hone, hone, inner_eq_polarization w w']
+-  · ring
+-  all_goals first
+-    | exact hint _ _ _ _
+-    | exact (hint _ _ _ _).const_mul _
+-    | exact (hint _ _ _ _).sub (hint _ _ _ _)
+-    | exact ((hint _ _ _ _).sub (hint _ _ _ _)).sub ((hint _ _ _ _).const_mul _)
++  have hadd := hint v (w + w') v' (w + w')
++  have hsub := hint v (w - w') v' (w - w')
++  have haddI := hint v (w + Complex.I • w') v' (w + Complex.I • w')
++  have hsubI := hint v (w - Complex.I • w') v' (w - Complex.I • w')
++  rw [integral_congr_ae (Filter.Eventually.of_forall hpt), integral_const_mul]
++  erw [integral_add ((hadd.sub hsub).sub (haddI.const_mul Complex.I)) (hsubI.const_mul Complex.I),
++    integral_sub (hadd.sub hsub) (haddI.const_mul Complex.I), integral_sub hadd hsub]
++  rw [integral_const_mul, integral_const_mul, hone v v' (w + w'), hone v v' (w - w'),
++    hone v v' (w + Complex.I • w'), hone v v' (w - Complex.I • w'), inner_eq_polarization w w']
++  ring
+ 
+ end GlobalTheory

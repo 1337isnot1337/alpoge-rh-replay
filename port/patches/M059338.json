@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FlagMeasures.MeasurePreimageReindexScaleComplexLe",
+  "source_sha256": "82a34f5bfd75f4d3dff8d70984b2c12fa2c0e665975e9010ab84877b3bb51f6f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Measurable.of_eval for measurable coordinate maps and supply the a.e. measurability hypothesis to Measure.map_smul from the existing measure-preserving map."
+}
