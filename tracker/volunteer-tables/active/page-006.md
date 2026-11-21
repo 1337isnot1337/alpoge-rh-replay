@@ -249,8 +249,8 @@
 | [@dhudakk](https://github.com/dhudakk) | [M090946](https://github.com/rohanarun/alpoge-rh-replay/issues/21531) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M060057](https://github.com/rohanarun/alpoge-rh-replay/issues/21532) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M032673](https://github.com/rohanarun/alpoge-rh-replay/issues/21535) | Claimed |
-| [@HITEYY](https://github.com/HITEYY) | [M107375](https://github.com/rohanarun/alpoge-rh-replay/issues/21576) | Claimed |
-| [@HITEYY](https://github.com/HITEYY) | [M107368](https://github.com/rohanarun/alpoge-rh-replay/issues/21577) | Claimed |
-| [@HITEYY](https://github.com/HITEYY) | [M107371](https://github.com/rohanarun/alpoge-rh-replay/issues/21578) | Claimed |
-| [@HITEYY](https://github.com/HITEYY) | [M107355](https://github.com/rohanarun/alpoge-rh-replay/issues/21579) | Claimed |
-| [@HITEYY](https://github.com/HITEYY) | [M107354](https://github.com/rohanarun/alpoge-rh-replay/issues/21580) | Claimed |
+| [@maugomez77](https://github.com/maugomez77) | [M161049](https://github.com/rohanarun/alpoge-rh-replay/issues/21584) | Claimed |
+| [@t-choudhury](https://github.com/t-choudhury) | [M125747](https://github.com/rohanarun/alpoge-rh-replay/issues/21586) | Claimed |
+| [@dhudakk](https://github.com/dhudakk) | [M084967](https://github.com/rohanarun/alpoge-rh-replay/issues/21592) | Claimed |
+| [@dhudakk](https://github.com/dhudakk) | [M010921](https://github.com/rohanarun/alpoge-rh-replay/issues/21595) | Claimed |
+| [@dhudakk](https://github.com/dhudakk) | [M121204](https://github.com/rohanarun/alpoge-rh-replay/issues/21596) | Claimed |
