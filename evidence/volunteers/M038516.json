@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M038516"
+  ],
+  "started_utc": "2026-11-21T14:48:18.807556+00:00",
+  "ended_utc": "2026-11-21T14:59:40.105881+00:00",
+  "elapsed_seconds": 681.3,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 24607700,
+    "peak_child_rss_kib": 6932748
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsMonHomProdPow:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1b99b855e4f9b6dfabb543e91f538c15f33decd19758366dd28127c6b62a048c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.NonemptyHomFixRepTrivial",
+    "Development.AbelianVarietyTheory.Definitions.Divisors.ToRingActOpOfRingAct",
+    "Development.AbelianVarietyTheory.Definitions.ModuliSpaces.ExistsArBaseAway",
+    "Development.AbelianVarietyTheory.Definitions.ModuliSpaces.FiniteHomogeneousInf",
+    "Development.AbelianVarietyTheory.Definitions.ModuliSpaces.GoodClass",
+    "Development.AbelianVarietyTheory.Definitions.ModuliSpaces.IsGaloisCover",
+    "Development.AbelianVarietyTheory.Proofs.CharacterTheory.W8AddTransposeEqE8"
+  ],
+  "objects": {
+    "M038516": "b3cc6bfb3d4c289265fe8faec93bd9300cac113e53afe482acfe93119e7bfe5f"
+  },
+  "bundle_sha256": "4d8bba7aa7a6487bfcb12501399026794bd29f54082e96d1369f727bec8da013",
+  "packet": "M038516",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22837#issuecomment-7064526534",
+  "reviewed_utc": "2026-11-21T17:29:22.446166+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

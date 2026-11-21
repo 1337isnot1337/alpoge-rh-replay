@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M053307"
+  ],
+  "started_utc": "2026-11-21T14:32:09.360233+00:00",
+  "ended_utc": "2026-11-21T14:42:36.615149+00:00",
+  "elapsed_seconds": 627.3,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 24607692,
+    "peak_child_rss_kib": 6950432
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TopologicalKrullDimEqOfIsIsoRestrict:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "86d3636d5877ef7491ed0ccd9946a91530ea6a858611a730b167d8f831aac159",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.RingKrullDimQuotientEqOfMemMinimalPrimes"
+  ],
+  "objects": {
+    "M053307": "e2fbdc788b04b794fa61de1190e653cfbea9ccbc4e9bfbe2b5f51bfbcd058fa7"
+  },
+  "bundle_sha256": "835e7522827b1c4c1d44d728ba6bee6c83df8724fef6f5372d6ba459a6d4afb9",
+  "packet": "M053307",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22723#issuecomment-7064302489",
+  "reviewed_utc": "2026-11-21T17:30:30.230422+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

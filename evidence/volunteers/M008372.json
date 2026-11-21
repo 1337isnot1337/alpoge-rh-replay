@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M008372"
+  ],
+  "started_utc": "2026-11-21T14:50:12.423058+00:00",
+  "ended_utc": "2026-11-21T14:51:02.259285+00:00",
+  "elapsed_seconds": 49.7,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7138584
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DoublingVectorFockPairIsCompactFinite:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ff585f446ec2091fcd699011af3397a154faade1b9c77cdedef474e259e57f62",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.DoubledCartanInvolutionCommuteMaximalCompactStatement"
+  ],
+  "objects": {
+    "M008372": "57c41870a6b9bfea7302b2716c3b665af9ee3405c3669ef41fee6900f7006158"
+  },
+  "bundle_sha256": "2829f5af0d35bd86820d916922c26be3dca7fa2518f8074a6376a1d199d2b556",
+  "packet": "M008372",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22844#issuecomment-7064442607",
+  "reviewed_utc": "2026-11-21T17:29:19.784484+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M155295"
+  ],
+  "started_utc": "2026-11-21T15:02:28.685700+00:00",
+  "ended_utc": "2026-11-21T15:02:53.376193+00:00",
+  "elapsed_seconds": 24.7,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 6224636
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.IdempotentTransfer.CharacteristicPolynomialCompatibility:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d2407a2278c3a884a51a6a9f4d2b74b2263e3de77614c82ba44aba538a8cfa98",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.KudlaSiegelWeil",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.IdempotentTransfer.ESMulESOfNeZero"
+  ],
+  "objects": {
+    "M155295": "28aed5ca342afd739b8771b0dea1c0b95106636c51196146ab3429c2a3a66238"
+  },
+  "bundle_sha256": "a92f9f91db5e1edf76ec5f6ce0d022a92b671072f136bae1cf0eddfe3851eed2",
+  "packet": "M155295",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22920#issuecomment-7064590095",
+  "reviewed_utc": "2026-11-21T17:28:20.508669+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

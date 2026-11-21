@@ -34,6 +34,7 @@
 | M000072 | P0346 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.HeckeStdStatement` | volunteer-build-reviewed |
 | M000073 | P0615 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.IntegralOfModule` | build-observed |
 | M000074 | P0648 | `CompanionTheory.AutomorphicTheory.HeckeStandardModules.InvMemRl` | build-observed |
+| M000082 | P0515 | `CompanionTheory.AutomorphicTheory.JacobiDiagonalBounds.TieAlg` | volunteer-build-reviewed |
 | M000084 | P0001 | `CompanionTheory.AutomorphicTheory.JacobiDiagonalBounds.Vander` | volunteer-build-reviewed |
 | M000087 | P2093 | `CompanionTheory.AutomorphicTheory.LocalBesselUniqueness.BesselModels.AmplitudeOrbitalIntegral` | volunteer-build-reviewed |
 | M000090 | P0757 | `CompanionTheory.AutomorphicTheory.LocalBesselUniqueness.BesselModels.AtFormAdmOneOfSteps` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M000780 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicHaarScalingByRealIdele` | volunteer-build-reviewed |
 | M000781 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicHaarScalingByRealIdeleStatement` | volunteer-build-reviewed |
 | M000782 | P1349 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicLatticeMeasureFormula` | build-observed |
-| M000783 | P1372 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicLatticeMeasureFormulaStatement` | build-observed |

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M036574"
+  ],
+  "started_utc": "2026-11-21T15:01:46.744525+00:00",
+  "ended_utc": "2026-11-21T15:02:00.180489+00:00",
+  "elapsed_seconds": 13.4,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6943312
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.InducedScalarIrreducibleStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a832d292d7cd68d9e88ce94ce99720bf66791c820c3e52f26c1980c3f0d2289e",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.InducedScalarIrreducible"
+  ],
+  "objects": {
+    "M036574": "fae02cfd81a36b551da9879deb6f40515bae8ea8c63153b1d24037e7cf33bde3"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "147d4ebcd415e2fef9f1d0ecbcc753729f497d4b216b1d98df85740b3b492396",
+  "packet": "M036574",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22946#issuecomment-7064556648",
+  "reviewed_utc": "2026-11-21T17:28:02.212987+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

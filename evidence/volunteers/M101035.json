@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M101035"
+  ],
+  "started_utc": "2026-11-21T14:39:12.212694+00:00",
+  "ended_utc": "2026-11-21T14:39:25.439985+00:00",
+  "elapsed_seconds": 13.2,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6902688
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.HasFiniteLengthOfFiniteDimensional:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "641cf81ed055e05baeb18af8a3950e757bfca00ed540f8f2e6e5f4e0130a7fbc",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.HasFiniteLengthOfIsIrreducible"
+  ],
+  "objects": {
+    "M101035": "85003cab6aabe18148342095c0992eba2c0e61452c7f73d2590f210194a5f995"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "6420514b9cac0355fd4fcb78647cb995968670414edf5bc8280ed4676b613fb5",
+  "packet": "M101035",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22694#issuecomment-7064253584",
+  "reviewed_utc": "2026-11-21T17:30:57.812235+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

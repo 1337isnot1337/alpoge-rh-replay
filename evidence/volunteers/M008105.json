@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M008105"
+  ],
+  "started_utc": "2026-11-21T14:57:47.251522+00:00",
+  "ended_utc": "2026-11-21T14:58:19.862489+00:00",
+  "elapsed_seconds": 32.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7329744
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ContinuousIntegralCompactAutomorphicQuotientPara:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "05ddc052bfd42df8a04e4d086942fbdf9c9ae9c2208e2265cec7fb3aa7596d93",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.IntegrableOnFundamentalDomain"
+  ],
+  "objects": {
+    "M008105": "aee71a8f670227f29307593d905343c604903aac9b3fbf8b382747114d807bea"
+  },
+  "bundle_sha256": "cd8098463a6b8c5e93306800c87fe79cb4980b347c8c5d84bb14b9c78ba212e3",
+  "packet": "M008105",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22883#issuecomment-7064546649",
+  "reviewed_utc": "2026-11-21T17:28:49.678931+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

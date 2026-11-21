@@ -2,6 +2,26 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M003728 | P1559 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsSquareIntegrableIffMemL2` | volunteer-build-reviewed |
+| M003729 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsStrictlySemistableIff` | volunteer-build-reviewed |
+| M003730 | P1084 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsTamagawa` | volunteer-build-reviewed |
+| M003731 | P0946 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsTaylorExpansionOrderOne` | build-observed |
+| M003735 | P1394 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsTorsionFreeOfForallExists` | wave-reused |
+| M003736 | P0810 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsTrSelf` | build-observed |
+| M003739 | P1114 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsUnitMkOfFormallyUnramified` | wave-reused |
+| M003744 | P1394 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsoRows` | build-observed |
+| M003750 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.KerIdealCompOfSurjective` | wave-reused |
+| M003751 | P1323 | `Development.AbelianVarietyTheory.Definitions.Divisors.KerInfIntegrableOfMemRspan` | build-observed |
+| M003753 | P2133 | `Development.AbelianVarietyTheory.Definitions.Divisors.KerToCoinvIffInvFactor` | volunteer-build-reviewed |
+| M003757 | P1856 | `Development.AbelianVarietyTheory.Definitions.Divisors.KottwitzDimSignatureOneOne` | volunteer-build-reviewed |
+| M003761 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.LandherrCSA` | volunteer-build-reviewed |
+| M003768 | P1298 | `Development.AbelianVarietyTheory.Definitions.Divisors.LineBundleGlobalSectionsDimCongrPicardClass` | wave-reused |
+| M003769 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.LineOppositeParabolicUnitaryLeviSectionEq` | build-observed |
+| M003770 | P2446 | `Development.AbelianVarietyTheory.Definitions.Divisors.LineSCShortExact` | build-observed |
+| M003771 | P0435 | `Development.AbelianVarietyTheory.Definitions.Divisors.LinearIndependentBasisCoords` | wave-reused |
+| M003772 | P1394 | `Development.AbelianVarietyTheory.Definitions.Divisors.LinearIndependentPullChart` | wave-reused |
+| M003776 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.LogAbsVpOfNormalised` | wave-reused |
+| M003778 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.MapInclKMemTwCentResOne` | build-observed |
 | M003779 | P1834 | `Development.AbelianVarietyTheory.Definitions.Divisors.MapSmulOfIsHausdorff` | wave-reused |
 | M003781 | P1372 | `Development.AbelianVarietyTheory.Definitions.Divisors.MarkedSumIrr` | build-observed |
 | M003783 | P1394 | `Development.AbelianVarietyTheory.Definitions.Divisors.MatchingOfParts` | build-observed |
@@ -382,23 +402,3 @@
 | M004465 | P2093 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.AmbIsTrueOfAmbTrue` | volunteer-build-reviewed |
 | M004466 | P1956 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.BaseMatrixGlApply` | volunteer-build-reviewed |
 | M004469 | P1920 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.BuiltCols` | volunteer-build-reviewed |
-| M004471 | P1643 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ChainParSucc` | volunteer-build-reviewed |
-| M004474 | P1974 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ChartZero` | volunteer-build-reviewed |
-| M004475 | P1114 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ColHeightSharpWith` | volunteer-build-reviewed |
-| M004478 | P1372 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.CollSBound` | volunteer-build-reviewed |
-| M004480 | P2050 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.CombSmulLeft` | volunteer-build-reviewed |
-| M004483 | P0435 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ContrFactor` | build-observed |
-| M004485 | P1901 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.CornerCoordinateAutomatic` | volunteer-build-reviewed |
-| M004491 | P1531 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.DoubleCollapse` | volunteer-build-reviewed |
-| M004492 | P0678 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.EndOmega` | build-observed |
-| M004493 | P0917 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.EntryAgree` | volunteer-build-reviewed |
-| M004494 | P1029 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.EvalAtOneExtremalMul` | volunteer-build-reviewed |
-| M004495 | P2093 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ExistsBuiltAndNot` | volunteer-build-reviewed |
-| M004498 | P1856 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ExistsDoubleDescentRanksOneThreeFive` | volunteer-build-reviewed |
-| M004499 | P1856 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ExistsFoldr` | volunteer-build-reviewed |
-| M004502 | P1502 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ExistsIsFundU` | volunteer-build-reviewed |
-| M004504 | P2177 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ExistsLatInd` | volunteer-build-reviewed |
-| M004510 | P1502 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ExistsUnitarySupportedAtPlaceOfMulEqIdem` | volunteer-build-reviewed |
-| M004511 | P1956 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.FamAllQ` | volunteer-build-reviewed |
-| M004513 | P1956 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.FinAfLocalIdele` | volunteer-build-reviewed |
-| M004515 | P1856 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.FiniteOfPlaces` | volunteer-build-reviewed |

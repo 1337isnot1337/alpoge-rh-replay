@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    "M061534"
+  ],
+  "started_utc": "2026-11-21T14:50:58.517544+00:00",
+  "ended_utc": "2026-11-21T14:51:04.651764+00:00",
+  "elapsed_seconds": 6.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6835684
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsCharacterAverageEigenvectorCompactSubgroupStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4c1721843658602a69e67bb820a525ba6db9c03ad6c3ddfec896776e39333433",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M061534": "2ad57251bbccdc010b306318c4b7def9a728398c53436263d29f46fd463181a0"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "a2d4aed9e3b5074e470bbc82583cc255d62637c629025b034e2981a479c80e57",
+  "packet": "M061534",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22804#issuecomment-7064422721",
+  "reviewed_utc": "2026-11-21T17:29:44.438847+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

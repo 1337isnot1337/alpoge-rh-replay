@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M143782"
+  ],
+  "started_utc": "2026-11-21T14:52:31.243532+00:00",
+  "ended_utc": "2026-11-21T14:53:00.798788+00:00",
+  "elapsed_seconds": 29.5,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7683112
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.ThetaLifts.Reductions.WeilPairs.WeilPairData.ImportsAlt:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "07790d0c1caa0e47e9cdfec1dcf29bfff36a09ea4cd5c6ce39d148024cc05e6c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ReindexDblIncM"
+  ],
+  "objects": {
+    "M143782": "80b112f04e1d10409c3d63e7c8cc567c1b1011d2328ed76fea81ed09c7cb0002"
+  },
+  "bundle_sha256": "a193f5b4b82bd9b4590c0a4754e3c4c2a7276a32e394716e5d48bc1616221c85",
+  "packet": "M143782",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22860#issuecomment-7064467731",
+  "reviewed_utc": "2026-11-21T17:29:06.332150+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

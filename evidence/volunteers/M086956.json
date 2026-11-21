@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M086956"
+  ],
+  "started_utc": "2026-11-21T15:01:54.780455+00:00",
+  "ended_utc": "2026-11-21T15:02:26.255258+00:00",
+  "elapsed_seconds": 31.5,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 6521460
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.ContinuousIdeleCharLocalFactorization:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2e4397ed967f51d00ff34698f85ea2ff241d818d4dfb792a90e238f3456b362c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.GaloisGeometry.DegOneIffSurjective",
+    "Formalism.UnipotentAdelicQuotients.FinOrdValGen"
+  ],
+  "objects": {
+    "M086956": "ee18da9376d0ff6d73fe8eebe6f00c1da5ed14d2308f2d15522f95b5c8939378"
+  },
+  "bundle_sha256": "720024b88d93fc7d6a76f7f0c393f67adf2da3e7503b1e4642f46d57725b1ac8",
+  "packet": "M086956",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22917#issuecomment-7064582816",
+  "reviewed_utc": "2026-11-21T17:28:21.991516+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

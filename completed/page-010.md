@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006167 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.SumConjIdempotentEqCardSmul` | wave-reused |
+| M006168 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.SumGaussianMulProd` | wave-reused |
+| M006169 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.SumPrimitiveEndClassFunctionRestrictMixedSubspac` | wave-reused |
+| M006170 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.SumPrimitiveEndClassFunctionRestrictMixedSubspacStatement` | wave-reused |
+| M006171 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.TraceLiftMonomialMatrixEqSumEigenvalues` | wave-reused |
+| M006172 | P0296 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.TraceLiftMonomialMatrixEqSumEigenvaluesStatement` | wave-reused |
+| M006173 | P0732 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.VirtualCharacterInnerEqIntMulCard` | wave-reused |
+| M006174 | P0759 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.VirtualCharacterInnerEqIntMulCardStatement` | wave-reused |
+| M006175 | P0732 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.VirtualCharacterIrreducibleExpansionNormSq` | wave-reused |
+| M006176 | P0759 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.VirtualCharacterIrreducibleExpansionNormSqStatement` | wave-reused |
+| M006177 | P0348 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.VirtualCharactersMulComapConjIndLinear` | wave-reused |
+| M006178 | P0394 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.VirtualCharactersMulComapConjIndLinearStatement` | wave-reused |
+| M006179 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.W8AddTransposeEqE8` | wave-reused |
+| M006180 | P1114 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.AbelianProjectiveBaseChange` | wave-reused |
+| M006182 | P1395 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.AbelianVarietyTorsionCardEqPowProofStatement` | build-observed |
+| M006183 | P0705 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.AcyclicSliceSecCubeOfIsAffineOpen` | wave-reused |
+| M006184 | P0004 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.AlternatingMapSumSmulEqDetSmul` | wave-reused |
+| M006185 | P1194 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.AwayEquivAwayFracEqIff` | wave-reused |
+| M006186 | P0240 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.BijOnKerAndExactOfQuasiIsoBaseChange` | wave-reused |
+| M006187 | P0616 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.BijectiveToPushforwardComp` | wave-reused |
+| M006188 | P1324 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CechComplexAcyclicAdditiveLineBundleNoSections` | wave-reused |
 | M006189 | P1350 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CechComplexAcyclicAdditiveLineBundleNoSectionsStatement` | wave-reused |
 | M006190 | P0732 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CechLBHomologyEquivOfAffineCovers` | wave-reused |
 | M006191 | P0759 | `Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.CechLBHomologyEquivOfAffineCoversStatement` | wave-reused |
@@ -381,24 +402,3 @@
 | M006716 | P0550 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsSmulOfPreservesFrameOrbits` | volunteer-build-reviewed |
 | M006717 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTateIsoZetaEq` | volunteer-build-reviewed |
 | M006718 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTensorBundle` | volunteer-build-reviewed |
-| M006723 | P0811 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTorsionFieldExt` | volunteer-build-reviewed |
-| M006724 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsTorsionFieldExtStatement` | volunteer-build-reviewed |
-| M006734 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueExtendRingOfIntegersHom` | volunteer-build-reviewed |
-| M006735 | P1246 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueHomOfIsGrpPullback` | build-observed |
-| M006736 | P0616 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueLinearLiftOfHolomorphicAbelianVariet` | wave-reused |
-| M006737 | P0649 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUniqueLinearLiftOfHolomorphicAbelianVarietStatement` | build-observed |
-| M006740 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsUnitMul` | wave-reused |
-| M006743 | P1114 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsWeierstrassCoordinatesOnLine` | build-observed |
-| M006744 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsWeierstrassCoordinatesOnLineStatement` | build-observed |
-| M006747 | P0839 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.FamilyUniformisationFibreTheta` | volunteer-build-reviewed |
-| M006749 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.FinrankInt` | volunteer-build-reviewed |
-| M006754 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.GramStdBasisPosDefAndHq` | volunteer-build-reviewed |
-| M006756 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HasTypeBaseChange` | volunteer-build-reviewed |
-| M006757 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HasTypeOfIso` | volunteer-build-reviewed |
-| M006758 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HermFamIsometryInjective` | volunteer-build-reviewed |
-| M006759 | P0616 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HermFormPrincipalDimOne` | build-observed |
-| M006760 | P0516 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HermFormPullEqOfLbIsoPow` | wave-reused |
-| M006766 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HolomorphicUniformisationTangentUnimodularRiemanStatement` | build-observed |
-| M006767 | P1114 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HolomorphicUniformizationTangentUnimodularRiemann` | build-observed |
-| M006768 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HomDerivBaseChange` | build-observed |
-| M006769 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.HomDerivDescendsToNumberField` | build-observed |

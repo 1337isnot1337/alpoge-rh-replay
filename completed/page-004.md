@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002201 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TraceDualDifferent` | wave-reused |
+| M002203 | P0838 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TwistChoiceExample` | volunteer-build-reviewed |
+| M002204 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TwistedLevelValues` | volunteer-build-reviewed |
+| M002205 | P1271 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TypedPartSplitPrimes` | build-observed |
+| M002206 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TypedRowsIdempotent` | volunteer-build-reviewed |
+| M002209 | P1501 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.UnitaryConjugation` | volunteer-build-reviewed |
+| M002211 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.VpBounds` | wave-reused |
 | M002212 | P1056 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.WeightedNormSquareRows` | volunteer-build-reviewed |
 | M002214 | P1372 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.WeilTensorModels` | build-observed |
 | M002216 | P1472 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ZeroSectionBase` | volunteer-build-reviewed |
@@ -19,10 +26,12 @@
 | M002245 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.GeneratorValues` | volunteer-build-reviewed |
 | M002246 | P1143 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.HalfDepthValuations` | volunteer-build-reviewed |
 | M002251 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.JetChartLaws` | build-observed |
+| M002253 | P0549 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.LatticeEmbeddingHalf` | volunteer-build-reviewed |
 | M002254 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.LevelIndexFourierCharacter` | build-observed |
 | M002257 | P0615 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.NormFactorThetaValue` | build-observed |
 | M002262 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.ShortRuleRepresentationChange` | volunteer-build-reviewed |
 | M002265 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.SymmetricAdjointUnits` | volunteer-build-reviewed |
+| M002268 | P0615 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.UnitaryDeterminantRoot` | volunteer-build-reviewed |
 | M002269 | P0615 | `Development.AbelianVarietyTheory.BlockTheory.ExistenceTori.UnitaryHaarVolume` | volunteer-build-reviewed |
 | M002270 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.AbsoluteLogMeanBounds` | volunteer-build-reviewed |
 | M002271 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ActionCoordinates` | volunteer-build-reviewed |
@@ -30,6 +39,7 @@
 | M002273 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.CharacterValuation` | build-observed |
 | M002274 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ClassMeanPeriods` | build-observed |
 | M002275 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ClassesDoubleCosets` | volunteer-build-reviewed |
+| M002276 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ColumnStabiliser` | volunteer-build-reviewed |
 | M002277 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.CosetGroupMembership` | volunteer-build-reviewed |
 | M002278 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.DualExponentDensity` | volunteer-build-reviewed |
 | M002279 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.EquidistributedConjugates` | build-observed |
@@ -52,7 +62,10 @@
 | M002305 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SelfDualLatticeActions` | build-observed |
 | M002306 | P0705 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SelfDualLatticeComplements` | volunteer-build-reviewed |
 | M002307 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SelfDualLatticeIndex` | volunteer-build-reviewed |
+| M002308 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SelfDualStabiliserIndex` | volunteer-build-reviewed |
 | M002309 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SelfDualUnramifiedPlaces` | volunteer-build-reviewed |
+| M002310 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SignatureFrame` | volunteer-build-reviewed |
+| M002311 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SignatureLatticeIndependence` | volunteer-build-reviewed |
 | M002312 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SignedLogMeans` | volunteer-build-reviewed |
 | M002313 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SourceLatticeInvariance` | build-observed |
 | M002314 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SplittingProjection` | build-observed |
@@ -64,6 +77,7 @@
 | M002321 | P1084 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.TameGeneratorWindow` | build-observed |
 | M002322 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ThetaCharacteristicZeroNorm` | volunteer-build-reviewed |
 | M002323 | P0094 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.ThetaConstantWeber` | wave-reused |
+| M002324 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.TrivialColumnStabiliser` | volunteer-build-reviewed |
 | M002325 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.UnfoldingOperatorConditions` | build-observed |
 | M002327 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.UnitaryLatticeOrthogonal` | build-observed |
 | M002331 | P0917 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.AdelicUnitaryGroups` | build-observed |
@@ -71,6 +85,7 @@
 | M002333 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.BesselDatum` | build-observed |
 | M002339 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.CuspFormNormData` | volunteer-build-reviewed |
 | M002340 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.DegreeIdentityCharacter` | volunteer-build-reviewed |
+| M002344 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.FieldTwistConditions` | volunteer-build-reviewed |
 | M002345 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.FinitePartTypes` | build-observed |
 | M002346 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.FockOrthogonalDecomposition` | build-observed |
 | M002349 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.HeightDefect.FullTranscendenceDegree` | volunteer-build-reviewed |
@@ -97,6 +112,7 @@
 | M002387 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.FormalDegreeHaarQuotient` | build-observed |
 | M002390 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.HarmonicValueIntegrality` | volunteer-build-reviewed |
 | M002391 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.HodgeTateCharacterSystems` | volunteer-build-reviewed |
+| M002393 | P0435 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.LieMatrixCoordinates` | volunteer-build-reviewed |
 | M002394 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.LieMatrixVectors` | build-observed |
 | M002395 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.LogExpAdaptedGauge` | build-observed |
 | M002402 | P1001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.ParabolicPointMembership` | volunteer-build-reviewed |
@@ -178,6 +194,7 @@
 | M002522 | P1472 | `Development.AbelianVarietyTheory.BlockTheory.SiegelEisenstein.WeightedNormColumns` | volunteer-build-reviewed |
 | M002524 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.AutomorphicBallCount` | volunteer-build-reviewed |
 | M002525 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.CenteredPerpendicularSets` | volunteer-build-reviewed |
+| M002526 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.ColumnDimensionRational` | volunteer-build-reviewed |
 | M002527 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.CoveringRadii` | build-observed |
 | M002528 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.CuspidalFrames` | build-observed |
 | M002529 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.DeepKernelBound` | volunteer-build-reviewed |
@@ -187,6 +204,7 @@
 | M002535 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.FarTermsLatticeBound` | volunteer-build-reviewed |
 | M002537 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.FullySplitStabilizers` | volunteer-build-reviewed |
 | M002538 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.GramDensityRealCoordinates` | volunteer-build-reviewed |
+| M002540 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.HermitianPerpSubgroup` | volunteer-build-reviewed |
 | M002541 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.LatticeCountingTheorem` | volunteer-build-reviewed |
 | M002542 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.NearNonzeroTerms` | volunteer-build-reviewed |
 | M002543 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.OrbitStepSpace` | build-observed |
@@ -329,6 +347,7 @@
 | M002794 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.LocalConditionsOfGlobal` | volunteer-build-reviewed |
 | M002795 | P0173 | `Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.TwoPrimesOfSplitPl` | volunteer-build-reviewed |
 | M002798 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.ExistsStrictAnti` | volunteer-build-reviewed |
+| M002800 | P0758 | `Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.NotAdmissibleWithAmbientTop` | volunteer-build-reviewed |
 | M002803 | P1323 | `Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.NotVstdOfGramOne` | volunteer-build-reviewed |
 | M002805 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.PremisesModel` | volunteer-build-reviewed |
 | M002811 | P0838 | `Development.AbelianVarietyTheory.Counterexamples.HeckeCharacterExamples.SecondTwistCrystallineSmallOfJumpsOfCrys` | build-observed |
@@ -383,22 +402,3 @@
 | M002915 | P0758 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.HeckeKerZero` | build-observed |
 | M002916 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.IsQProjOverOfIsProjOver` | build-observed |
 | M002917 | P0475 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.IsThetaFrameMulUnit` | volunteer-build-reviewed |
-| M002919 | P0917 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.MemOfPowEqInt` | volunteer-build-reviewed |
-| M002920 | P0393 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.ModuliNonemptyOfObj` | volunteer-build-reviewed |
-| M002924 | P0393 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.RangeJSubsetAbLocus` | volunteer-build-reviewed |
-| M002926 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.W0EqOfRtEq` | volunteer-build-reviewed |
-| M002930 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.NonGaloisSurvey.CrystallineCyclotomic` | volunteer-build-reviewed |
-| M002932 | P0783 | `Development.AbelianVarietyTheory.Counterexamples.NonGaloisSurvey.MemTypeSubspaceIffUnipotentCharacter` | volunteer-build-reviewed |
-| M002938 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.NonGaloisSurvey.UnitsOfFieldDD` | volunteer-build-reviewed |
-| M002940 | P1084 | `Development.AbelianVarietyTheory.Counterexamples.PlaceInjectivity.PlaceInjective` | volunteer-build-reviewed |
-| M002941 | P0917 | `Development.AbelianVarietyTheory.Counterexamples.PlaceInjectivity.StandardDeterminantUnits` | build-observed |
-| M002944 | P1271 | `Development.AbelianVarietyTheory.Counterexamples.RotationExamples.FreeLiftMetric` | volunteer-build-reviewed |
-| M002949 | P0891 | `Development.AbelianVarietyTheory.Counterexamples.RotationExamples.MeasureFailsForLargeConstant` | volunteer-build-reviewed |
-| M002952 | P1372 | `Development.AbelianVarietyTheory.Counterexamples.RotationExamples.PhaseBreaksTargetParts` | volunteer-build-reviewed |
-| M002955 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.SubgroupCharacterSums.SumSubgroupEqZeroIff` | build-observed |
-| M002956 | P1974 | `Development.AbelianVarietyTheory.Counterexamples.ThetaValuation.CongruenceSpanLevel` | volunteer-build-reviewed |
-| M002958 | P0294 | `Development.AbelianVarietyTheory.Counterexamples.TransversalityLocal.FramePairFixatorUnitaryAndFixesFrame` | volunteer-build-reviewed |
-| M002961 | P1349 | `Development.AbelianVarietyTheory.Counterexamples.TwistSurvey.ConjModelCast` | build-observed |
-| M002967 | P0475 | `Development.AbelianVarietyTheory.Counterexamples.UniformisationSurvey.NeTopOfAdmissibleBase` | volunteer-build-reviewed |
-| M002972 | P0173 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.HasColenNotUniqueWithoutGuard` | volunteer-build-reviewed |
-| M002973 | P1028 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.MemSSgtOfZeroOnDom` | volunteer-build-reviewed |

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M134844"
+  ],
+  "started_utc": "2026-11-21T14:40:35.090350+00:00",
+  "ended_utc": "2026-11-21T14:40:45.495651+00:00",
+  "elapsed_seconds": 10.4,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6868104
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.DiscreteGroups.GlobalIrreducibility.DzGenMat:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b0f2b6e5c3008ce33956682b41a7d5aaf1b93ffa7dddb898861c947969cc5caa",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology\u2082.NotIsGenericDetRepTwo"
+  ],
+  "objects": {
+    "M134844": "8c33f764b6551060678e0a6a43370b5391fc97bf9bcdc9f8cc09181b770484ef"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "0397224166eb438468bdb85f01fe94db8aa37faf42714f9ee739f5df757068eb",
+  "packet": "M134844",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22708#issuecomment-7064272950",
+  "reviewed_utc": "2026-11-21T17:30:43.525439+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

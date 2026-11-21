@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M103688"
+  ],
+  "started_utc": "2026-11-21T14:32:01.306849+00:00",
+  "ended_utc": "2026-11-21T14:32:09.858150+00:00",
+  "elapsed_seconds": 8.6,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 6747700
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.WeylAlgebraQuantumDet.CoefDiff:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4e16c2ef46547c0637478810aed2042024e2fa8e3469d0663a11f373420e8630",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.WeylAlgebraQuantumDet.IsTop"
+  ],
+  "objects": {
+    "M103688": "3dd2414ff42f1cf9bf58dee23a86ba7216059a5341d2c224bb9565562ef669c3"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "0a798d5aa90781742041e311d90e17bd5cfb8cf56656751a3ee737d5cab7ba28",
+  "packet": "M103688",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22722#issuecomment-7064169265",
+  "reviewed_utc": "2026-11-21T17:30:30.213609+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

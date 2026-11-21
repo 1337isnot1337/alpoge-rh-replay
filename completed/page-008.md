@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005178 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.SeriesFrame` | volunteer-build-reviewed |
+| M005179 | P0784 | `Development.AbelianVarietyTheory.Definitions.Uniformization.SmulOneSecEqZeroIff` | wave-reused |
+| M005180 | P0974 | `Development.AbelianVarietyTheory.Definitions.Uniformization.SvalTwistOne` | wave-reused |
+| M005181 | P0839 | `Development.AbelianVarietyTheory.Definitions.Uniformization.TXFrame` | wave-reused |
+| M005182 | P0918 | `Development.AbelianVarietyTheory.Definitions.Uniformization.WCompat` | wave-reused |
+| M005184 | P0865 | `Development.AbelianVarietyTheory.Definitions.UpperBounds.FreeBallIffOfDimXEqZero` | wave-reused |
+| M005186 | P0393 | `Development.AbelianVarietyTheory.Definitions.UpperBounds.SingleMemIntVec` | build-observed |
+| M005188 | P1194 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianSchemeLawsOfCubeBundleGenerator` | wave-reused |
+| M005189 | P1218 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianSchemeLawsOfCubeBundleGeneratorStatement` | wave-reused |
+| M005190 | P1736 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianSchemeLawsUnconditional` | wave-reused |
+| M005191 | P1761 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianSchemeLawsUnconditionalStatement` | build-observed |
+| M005192 | P1144 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianSchemeLawsWithoutCohomology` | wave-reused |
+| M005193 | P1170 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianSchemeLawsWithoutCohomologyStatement` | wave-reused |
+| M005194 | P0347 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianSchemeTorusCompare` | volunteer-build-reviewed |
+| M005195 | P0648 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianVarietyLineBundleSectionsFinite` | wave-reused |
+| M005196 | P0678 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianVarietyLineBundleSectionsFiniteStatement` | wave-reused |
+| M005197 | P0615 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AcyclicityLemmaDepthDifferentialCokernelsFiniteL` | wave-reused |
+| M005198 | P0678 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CechHOneVanishesOnOpenOfIsAffineOpen` | wave-reused |
+| M005199 | P0003 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CoequifiberedDiagramMap` | wave-reused |
+| M005200 | P1057 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CompAutEqOfSerreBaseChange` | wave-reused |
+| M005201 | P0784 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CoordOfHasWeight` | wave-reused |
 | M005202 | P0784 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CorrOfGenericOfIsSeparated` | build-observed |
 | M005204 | P1372 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CubeTheoremAndSectionsFiniteGrowthAbelianVariety` | wave-reused |
 | M005205 | P1395 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CubeTheoremAndSectionsFiniteGrowthAbelianVarietyStatement` | wave-reused |
@@ -381,24 +402,3 @@
 | M005683 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsAutStableSLMatrixGroupImageBlockDiagPart` | volunteer-build-reviewed |
 | M005684 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsAutStableSLMatrixGroupImageBlockDiagPartStatement` | volunteer-build-reviewed |
 | M005685 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsClosedImageSLUnderGeneratingInvariants` | volunteer-build-reviewed |
-| M005686 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsClosedImageSLUnderGeneratingInvariantsStatement` | volunteer-build-reviewed |
-| M005687 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsClosedIsHermitianLogOfPosDef` | volunteer-build-reviewed |
-| M005694 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsCompletelyReducibleMatrixSetTransposeImage` | volunteer-build-reviewed |
-| M005695 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsCompletelyReducibleMatrixSetTransposeImageStatement` | volunteer-build-reviewed |
-| M005696 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsFiniteAdeleLikePairElementary` | volunteer-build-reviewed |
-| M005697 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsLogKronecker` | volunteer-build-reviewed |
-| M005698 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsNilpotentTmulSubTmulOfConstOnFibres` | volunteer-build-reviewed |
-| M005699 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsNilpotentTmulSubTmulOfConstOnFibresStatement` | volunteer-build-reviewed |
-| M005700 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsNormFromBaseChangeBaseChangeProperties` | volunteer-build-reviewed |
-| M005701 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsNormFromBaseChangeBaseChangePropertiesStatement` | volunteer-build-reviewed |
-| M005704 | P1245 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsOpenCongruenceIdelesAndRealFinitePartsStatement` | build-observed |
-| M005707 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsQuadraticSqrtExtensionBasicFacts` | wave-reused |
-| M005708 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsQuadraticSqrtExtensionBasicFactsStatement` | wave-reused |
-| M005709 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsQuadraticSqrtExtensionIsGaloisAndEmbedding` | wave-reused |
-| M005710 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsQuadraticSqrtExtensionIsGaloisAndEmbeddingStatement` | wave-reused |
-| M005711 | P1272 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsSelfDualCLatFrame` | build-observed |
-| M005712 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsSemisimpleRepresentationOfISupRangeEquivariant` | volunteer-build-reviewed |
-| M005713 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsSemisimpleRepresentationOfISupRangeEquivariantStatement` | volunteer-build-reviewed |
-| M005714 | P0582 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsSemisimpleRepresentationTprodChevalley` | build-observed |
-| M005715 | P0616 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsSemisimpleRepresentationTprodChevalleyStatement` | build-observed |
-| M005716 | P0516 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsSemisimpleRepresentationTprodOfIsIrreducibleAl` | build-observed |

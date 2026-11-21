@@ -2,6 +2,25 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002919 | P0917 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.MemOfPowEqInt` | volunteer-build-reviewed |
+| M002920 | P0393 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.ModuliNonemptyOfObj` | volunteer-build-reviewed |
+| M002924 | P0393 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.RangeJSubsetAbLocus` | volunteer-build-reviewed |
+| M002926 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.W0EqOfRtEq` | volunteer-build-reviewed |
+| M002930 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.NonGaloisSurvey.CrystallineCyclotomic` | volunteer-build-reviewed |
+| M002932 | P0783 | `Development.AbelianVarietyTheory.Counterexamples.NonGaloisSurvey.MemTypeSubspaceIffUnipotentCharacter` | volunteer-build-reviewed |
+| M002938 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.NonGaloisSurvey.UnitsOfFieldDD` | volunteer-build-reviewed |
+| M002940 | P1084 | `Development.AbelianVarietyTheory.Counterexamples.PlaceInjectivity.PlaceInjective` | volunteer-build-reviewed |
+| M002941 | P0917 | `Development.AbelianVarietyTheory.Counterexamples.PlaceInjectivity.StandardDeterminantUnits` | build-observed |
+| M002944 | P1271 | `Development.AbelianVarietyTheory.Counterexamples.RotationExamples.FreeLiftMetric` | volunteer-build-reviewed |
+| M002949 | P0891 | `Development.AbelianVarietyTheory.Counterexamples.RotationExamples.MeasureFailsForLargeConstant` | volunteer-build-reviewed |
+| M002952 | P1372 | `Development.AbelianVarietyTheory.Counterexamples.RotationExamples.PhaseBreaksTargetParts` | volunteer-build-reviewed |
+| M002955 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.SubgroupCharacterSums.SumSubgroupEqZeroIff` | build-observed |
+| M002956 | P1974 | `Development.AbelianVarietyTheory.Counterexamples.ThetaValuation.CongruenceSpanLevel` | volunteer-build-reviewed |
+| M002958 | P0294 | `Development.AbelianVarietyTheory.Counterexamples.TransversalityLocal.FramePairFixatorUnitaryAndFixesFrame` | volunteer-build-reviewed |
+| M002961 | P1349 | `Development.AbelianVarietyTheory.Counterexamples.TwistSurvey.ConjModelCast` | build-observed |
+| M002967 | P0475 | `Development.AbelianVarietyTheory.Counterexamples.UniformisationSurvey.NeTopOfAdmissibleBase` | volunteer-build-reviewed |
+| M002972 | P0173 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.HasColenNotUniqueWithoutGuard` | volunteer-build-reviewed |
+| M002973 | P1028 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.MemSSgtOfZeroOnDom` | volunteer-build-reviewed |
 | M002974 | P0582 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.NonemptyAlgebra` | build-observed |
 | M002976 | P0393 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.ValOfKindIndep` | build-observed |
 | M002977 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.WeightEqZeroOfOneIsSec` | volunteer-build-reviewed |
@@ -263,6 +282,7 @@
 | M003485 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.EllFamNontrivial` | volunteer-build-reviewed |
 | M003486 | P1444 | `Development.AbelianVarietyTheory.Definitions.Divisors.EndValuedForm11Coeffs` | build-observed |
 | M003487 | P0515 | `Development.AbelianVarietyTheory.Definitions.Divisors.EntireEqOfHalfPlane` | wave-reused |
+| M003488 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.EqOfHasValueAtInfinite` | volunteer-build-reviewed |
 | M003489 | P1419 | `Development.AbelianVarietyTheory.Definitions.Divisors.EqOfSpecializesOfFinite` | build-observed |
 | M003490 | P0891 | `Development.AbelianVarietyTheory.Definitions.Divisors.EqZeroOfForallPowDvd` | wave-reused |
 | M003493 | P0515 | `Development.AbelianVarietyTheory.Definitions.Divisors.EtaLin` | volunteer-build-reviewed |
@@ -382,23 +402,3 @@
 | M003722 | P1787 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsRecTLocRecT` | volunteer-build-reviewed |
 | M003725 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsSimplicial` | volunteer-build-reviewed |
 | M003726 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsSmoothVector` | build-observed |
-| M003728 | P1559 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsSquareIntegrableIffMemL2` | volunteer-build-reviewed |
-| M003729 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsStrictlySemistableIff` | volunteer-build-reviewed |
-| M003730 | P1084 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsTamagawa` | volunteer-build-reviewed |
-| M003731 | P0946 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsTaylorExpansionOrderOne` | build-observed |
-| M003735 | P1394 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsTorsionFreeOfForallExists` | wave-reused |
-| M003736 | P0810 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsTrSelf` | build-observed |
-| M003739 | P1114 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsUnitMkOfFormallyUnramified` | wave-reused |
-| M003744 | P1394 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsoRows` | build-observed |
-| M003750 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.KerIdealCompOfSurjective` | wave-reused |
-| M003751 | P1323 | `Development.AbelianVarietyTheory.Definitions.Divisors.KerInfIntegrableOfMemRspan` | build-observed |
-| M003753 | P2133 | `Development.AbelianVarietyTheory.Definitions.Divisors.KerToCoinvIffInvFactor` | volunteer-build-reviewed |
-| M003757 | P1856 | `Development.AbelianVarietyTheory.Definitions.Divisors.KottwitzDimSignatureOneOne` | volunteer-build-reviewed |
-| M003761 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.LandherrCSA` | volunteer-build-reviewed |
-| M003768 | P1298 | `Development.AbelianVarietyTheory.Definitions.Divisors.LineBundleGlobalSectionsDimCongrPicardClass` | wave-reused |
-| M003769 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.LineOppositeParabolicUnitaryLeviSectionEq` | build-observed |
-| M003770 | P2446 | `Development.AbelianVarietyTheory.Definitions.Divisors.LineSCShortExact` | build-observed |
-| M003771 | P0435 | `Development.AbelianVarietyTheory.Definitions.Divisors.LinearIndependentBasisCoords` | wave-reused |
-| M003772 | P1394 | `Development.AbelianVarietyTheory.Definitions.Divisors.LinearIndependentPullChart` | wave-reused |
-| M003776 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.LogAbsVpOfNormalised` | wave-reused |
-| M003778 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.MapInclKMemTwCentResOne` | build-observed |

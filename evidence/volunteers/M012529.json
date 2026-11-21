@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M012529"
+  ],
+  "started_utc": "2026-11-21T14:50:14.732399+00:00",
+  "ended_utc": "2026-11-21T14:51:03.853128+00:00",
+  "elapsed_seconds": 49.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 6995448
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.WeilMixedCoordinatesContinuousBoundedSupNorm:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ec78022386498f144edccdf08bd1f46aaca6d765d8f497667207e17b1c765a59",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.WeilDatumThetaJointlyContinuous"
+  ],
+  "objects": {
+    "M012529": "62bf6136907042b7d71c644ea996cfb39c2a4f5dec38f17c32a59e243b26de9a"
+  },
+  "bundle_sha256": "4e5fb96bc5b37e8fcfb0b75315e2bef793886673805f8ec18a884b7afc7b42d6",
+  "packet": "M012529",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22845#issuecomment-7064444636",
+  "reviewed_utc": "2026-11-21T17:29:19.503919+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

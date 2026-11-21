@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M036468"
+  ],
+  "started_utc": "2026-11-21T14:48:49.927598+00:00",
+  "ended_utc": "2026-11-21T14:48:59.492339+00:00",
+  "elapsed_seconds": 9.6,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6838148
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsSideFurther:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0b70fd9795b4f2e24a4f6c06a763ee26280e223ffa5ac0cb44e3a4d3eca9aff0",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.StandardFunctorsFiniteLength"
+  ],
+  "objects": {
+    "M036468": "d3bc75c2920243b4c72a423bb70a1d3315cbd0c6600f5a563b2351aad35ed951"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "2d7473e9d8f58acb18624547d1150d0b98b96219eaf6c97f053d8e99a307b661",
+  "packet": "M036468",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22827#issuecomment-7064397375",
+  "reviewed_utc": "2026-11-21T17:29:25.804798+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

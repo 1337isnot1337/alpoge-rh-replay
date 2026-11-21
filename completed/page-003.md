@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001380 | P2417 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsBalancedFormsDominatingStatement` | volunteer-build-reviewed |
 | M001382 | P2474 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsCarrierDimensionLabelStatement` | volunteer-build-reviewed |
 | M001428 | P2359 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.MemRationalConeOfPerturbation` | volunteer-build-reviewed |
 | M001430 | P2417 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.MultipleCellsAmongPolyhedralFan` | volunteer-build-reviewed |
@@ -316,6 +317,7 @@
 | M002056 | P0435 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.CyclotomicRootsOfUnity` | volunteer-build-reviewed |
 | M002059 | P0347 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.ExponentialDifferential` | volunteer-build-reviewed |
 | M002062 | P0549 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.FlatIsoUnitGenerator` | volunteer-build-reviewed |
+| M002065 | P0549 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.FullLevelModel` | volunteer-build-reviewed |
 | M002069 | P0435 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.LevelActionTransitions` | volunteer-build-reviewed |
 | M002070 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.LieCharpolyRootPairs` | volunteer-build-reviewed |
 | M002071 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.LocalFramePowerSections` | volunteer-build-reviewed |
@@ -327,8 +329,10 @@
 | M002078 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.ProjectiveSpaceOverSpec` | wave-reused |
 | M002079 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.RelativeGroupHatForm` | volunteer-build-reviewed |
 | M002080 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.SiegelFamilyZetaUnit` | volunteer-build-reviewed |
+| M002082 | P0475 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.TateUniformizationInput` | volunteer-build-reviewed |
 | M002084 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.ThetaTowerRecognition` | volunteer-build-reviewed |
 | M002085 | P0435 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.TorusGraphMaps` | volunteer-build-reviewed |
+| M002087 | P0515 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.UniformTorsionIsomorphism` | volunteer-build-reviewed |
 | M002094 | P0435 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.AdelicDegreeTameRamification` | volunteer-build-reviewed |
 | M002095 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.AdelicScalarMultiplier` | volunteer-build-reviewed |
 | M002097 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.BadPlacesGoodCoefficients` | build-observed |
@@ -352,8 +356,10 @@
 | M002128 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.FramedLatticeZeroCycleHeight` | volunteer-build-reviewed |
 | M002131 | P1419 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.GenericFiniteMaps` | volunteer-build-reviewed |
 | M002132 | P0810 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.GenericMultiplicityOne` | build-observed |
+| M002133 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.GeometricComponentEmbedding` | volunteer-build-reviewed |
 | M002135 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.GoodIdempotentBadPlaces` | build-observed |
 | M002136 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.GoodReductionModelReading` | build-observed |
+| M002139 | P1349 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HalfLatticeTypes` | volunteer-build-reviewed |
 | M002140 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HermitianCompactForm` | volunteer-build-reviewed |
 | M002141 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HermitianCurvatureForms` | volunteer-build-reviewed |
 | M002142 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HermitianInterpolation` | volunteer-build-reviewed |
@@ -396,9 +402,3 @@
 | M002196 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorProductAction` | wave-reused |
 | M002197 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ThetaKernelFiring` | volunteer-build-reviewed |
 | M002200 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ToricSymbols` | wave-reused |
-| M002201 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TraceDualDifferent` | wave-reused |
-| M002204 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TwistedLevelValues` | volunteer-build-reviewed |
-| M002205 | P1271 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TypedPartSplitPrimes` | build-observed |
-| M002206 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TypedRowsIdempotent` | volunteer-build-reviewed |
-| M002209 | P1501 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.UnitaryConjugation` | volunteer-build-reviewed |
-| M002211 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.VpBounds` | wave-reused |

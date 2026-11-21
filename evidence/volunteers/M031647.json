@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M031647"
+  ],
+  "started_utc": "2026-11-21T14:53:06.144583+00:00",
+  "ended_utc": "2026-11-21T14:53:53.423389+00:00",
+  "elapsed_seconds": 47.2,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7016056
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankKilledEqOfEqualMultiplicitiesStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9fb1fdbcd5026155374792ac284a09cab746d1ded9641abdc9ff78d0a25811ca",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsNeZeroOfRankEq",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankKilledEqOfEqualMultiplicities"
+  ],
+  "objects": {
+    "M031647": "1b57e30aee7f478231c873189d15cc33fe9cf7d3cef929af4079178184a12ea2"
+  },
+  "bundle_sha256": "de78de4dd0e00fab3379ec44d6764cc99a5f89e3fece66430fec4fe89a2c5dd9",
+  "packet": "M031647",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22872#issuecomment-7064515273",
+  "reviewed_utc": "2026-11-21T17:28:55.021195+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

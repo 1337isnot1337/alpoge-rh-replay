@@ -1,6 +1,6 @@
 # Reviewed volunteer evidence
 
-11,883 entries.
+12,154 entries.
 
 - [Entries 1–250](page-001.md)
 - [Entries 251–500](page-002.md)
@@ -49,4 +49,5 @@
 - [Entries 11,001–11,250](page-045.md)
 - [Entries 11,251–11,500](page-046.md)
 - [Entries 11,501–11,750](page-047.md)
-- [Entries 11,751–11,883](page-048.md)
+- [Entries 11,751–12,000](page-048.md)
+- [Entries 12,001–12,154](page-049.md)

@@ -1,0 +1,47 @@
+{
+  "tasks": [
+    "M109668"
+  ],
+  "started_utc": "2026-11-21T14:58:13.440849+00:00",
+  "ended_utc": "2026-11-21T14:58:37.780439+00:00",
+  "elapsed_seconds": 24.3,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 6871808
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.CommutativeAlgebra.MayerVietorisCoverOfMonoOfZariskiLocal:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8ce3da8718a524971d0ec2a6ec430056058a6e0b6a5163799db70c42922b2364",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigEtaleModuleSheafMonoEpiIffSections",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigEtaleModuleSheafMonoEpiIffSectionsStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleLocalPropertyCalculusRules",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleLocalPropertyCalculusRulesStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleToSheafifyLocallyBijectiveAndLift",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleToSheafifyLocallyBijectiveAndLiftStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FreeEtaleModuleSheafMapMonoEpiIso",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FreeEtaleModuleSheafMapMonoEpiIsoStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FreeEtaleSheafSectionLocallyFiniteCombination",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FreeEtaleSheafSectionLocallyFiniteCombinationStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FreeHomSections",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FreeHomSectionsStatement"
+  ],
+  "objects": {
+    "M109668": "9b1dd8dff60b872a3c3d6f399436fd7ff338af6267d36c637a6358c9b8f52513"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "d23ef78cfd9202a03a9bf6c4ef1b7eddcd9c63fcb9c1a56ee8735ffa59a5d36a",
+  "packet": "M109668",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22900#issuecomment-7064513848",
+  "reviewed_utc": "2026-11-21T17:28:35.458839+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

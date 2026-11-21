@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M143734"
+  ],
+  "started_utc": "2026-11-21T15:00:53.206049+00:00",
+  "ended_utc": "2026-11-21T15:01:25.393332+00:00",
+  "elapsed_seconds": 32.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7443700
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.ThetaLifts.Reductions.WeilPairs.GoodLat:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "86a68d58190e7651cdebcffbfd384bcf773e953421acb90fc67dba251b6b7383",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.ThetaLifts.Reductions.WeilPairs.LatD"
+  ],
+  "objects": {
+    "M143734": "1af5768834f5ca6c62606612b26c01317034d6b4a8696d091aa90c8434ddf407"
+  },
+  "bundle_sha256": "4e5292c7ca8e4a9688d965210e9b6e521760d851e6a13f047bc7741b73fe87e3",
+  "packet": "M143734",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22907#issuecomment-7064569940",
+  "reviewed_utc": "2026-11-21T17:28:32.154554+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

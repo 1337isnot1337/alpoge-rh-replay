@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M061142"
+  ],
+  "started_utc": "2026-11-21T14:50:39.217688+00:00",
+  "ended_utc": "2026-11-21T14:50:49.541812+00:00",
+  "elapsed_seconds": 10.3,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6895648
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.CompactSubgroupSmoothCharacterDatumMonotone:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "145533f4fc3636397752970aac7c050b4ccaf774f2469c94b2f006710c816276",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.CompactModStabilizer"
+  ],
+  "objects": {
+    "M061142": "b183e2df621dda345797a813c5868ee2c18b4ebf41c2d375a9bb6572850fd462"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "4743554f472ade521b0b5ddbc0666b867f06955ce4a7f7cfccf76d219931fc97",
+  "packet": "M061142",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22829#issuecomment-7064419632",
+  "reviewed_utc": "2026-11-21T17:29:24.834512+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

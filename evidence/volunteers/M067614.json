@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M067614"
+  ],
+  "started_utc": "2026-11-21T15:01:25.997041+00:00",
+  "ended_utc": "2026-11-21T15:02:25.624694+00:00",
+  "elapsed_seconds": 59.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 6528868
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CompletionLines:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "06d00a3d996c157d6fa93b6e7b06529a378b227de1c94eaad19addbc061d5d7c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MkMemAdmissibleAtIffCocycle",
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.PowerSeriesOneAddConstMulXMulInv"
+  ],
+  "objects": {
+    "M067614": "fa9cf22980290e82f2b4bd250f82443b6ca31341a6b37b12aee3f26bd1469f13"
+  },
+  "bundle_sha256": "56eb69fba10be755407ac2e0a83104da853adf328af255209a25d1a031aed128",
+  "packet": "M067614",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22915#issuecomment-7064579359",
+  "reviewed_utc": "2026-11-21T17:28:29.911639+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

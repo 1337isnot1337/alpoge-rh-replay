@@ -2,6 +2,26 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004471 | P1643 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ChainParSucc` | volunteer-build-reviewed |
+| M004474 | P1974 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ChartZero` | volunteer-build-reviewed |
+| M004475 | P1114 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ColHeightSharpWith` | volunteer-build-reviewed |
+| M004478 | P1372 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.CollSBound` | volunteer-build-reviewed |
+| M004480 | P2050 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.CombSmulLeft` | volunteer-build-reviewed |
+| M004483 | P0435 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ContrFactor` | build-observed |
+| M004485 | P1901 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.CornerCoordinateAutomatic` | volunteer-build-reviewed |
+| M004491 | P1531 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.DoubleCollapse` | volunteer-build-reviewed |
+| M004492 | P0678 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.EndOmega` | build-observed |
+| M004493 | P0917 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.EntryAgree` | volunteer-build-reviewed |
+| M004494 | P1029 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.EvalAtOneExtremalMul` | volunteer-build-reviewed |
+| M004495 | P2093 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ExistsBuiltAndNot` | volunteer-build-reviewed |
+| M004498 | P1856 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ExistsDoubleDescentRanksOneThreeFive` | volunteer-build-reviewed |
+| M004499 | P1856 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ExistsFoldr` | volunteer-build-reviewed |
+| M004502 | P1502 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ExistsIsFundU` | volunteer-build-reviewed |
+| M004504 | P2177 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ExistsLatInd` | volunteer-build-reviewed |
+| M004510 | P1502 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ExistsUnitarySupportedAtPlaceOfMulEqIdem` | volunteer-build-reviewed |
+| M004511 | P1956 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.FamAllQ` | volunteer-build-reviewed |
+| M004513 | P1956 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.FinAfLocalIdele` | volunteer-build-reviewed |
+| M004515 | P1856 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.FiniteOfPlaces` | volunteer-build-reviewed |
 | M004521 | P1856 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.GammaRangeOfSizeHypotheses` | volunteer-build-reviewed |
 | M004523 | P1586 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.HeckeFSingleOne` | volunteer-build-reviewed |
 | M004524 | P1688 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.HeckeFormNSOfHeckeForm` | volunteer-build-reviewed |
@@ -147,6 +167,7 @@
 | M004823 | P0550 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MkMemAdmissibleAtIffCocycle` | wave-reused |
 | M004824 | P0003 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MooreNorm` | volunteer-build-reviewed |
 | M004826 | P0174 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.NearbyCyclesDegreeZeroEquiv` | build-observed |
+| M004827 | P1350 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.NegOneNotMemNatLat` | volunteer-build-reviewed |
 | M004829 | P0891 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.NoTowerQ` | build-observed |
 | M004830 | P1350 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.NonemptyEquivMultiProdOne` | build-observed |
 | M004831 | P1298 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.NonemptyEquivOfRangeEq` | build-observed |
@@ -381,24 +402,3 @@
 | M005175 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.PsiScal` | wave-reused |
 | M005176 | P1974 | `Development.AbelianVarietyTheory.Definitions.Uniformization.RankOneModel` | volunteer-build-reviewed |
 | M005177 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.SameB` | wave-reused |
-| M005178 | P0946 | `Development.AbelianVarietyTheory.Definitions.Uniformization.SeriesFrame` | volunteer-build-reviewed |
-| M005179 | P0784 | `Development.AbelianVarietyTheory.Definitions.Uniformization.SmulOneSecEqZeroIff` | wave-reused |
-| M005180 | P0974 | `Development.AbelianVarietyTheory.Definitions.Uniformization.SvalTwistOne` | wave-reused |
-| M005181 | P0839 | `Development.AbelianVarietyTheory.Definitions.Uniformization.TXFrame` | wave-reused |
-| M005182 | P0918 | `Development.AbelianVarietyTheory.Definitions.Uniformization.WCompat` | wave-reused |
-| M005184 | P0865 | `Development.AbelianVarietyTheory.Definitions.UpperBounds.FreeBallIffOfDimXEqZero` | wave-reused |
-| M005186 | P0393 | `Development.AbelianVarietyTheory.Definitions.UpperBounds.SingleMemIntVec` | build-observed |
-| M005188 | P1194 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianSchemeLawsOfCubeBundleGenerator` | wave-reused |
-| M005189 | P1218 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianSchemeLawsOfCubeBundleGeneratorStatement` | wave-reused |
-| M005190 | P1736 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianSchemeLawsUnconditional` | wave-reused |
-| M005191 | P1761 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianSchemeLawsUnconditionalStatement` | build-observed |
-| M005192 | P1144 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianSchemeLawsWithoutCohomology` | wave-reused |
-| M005193 | P1170 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianSchemeLawsWithoutCohomologyStatement` | wave-reused |
-| M005194 | P0347 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianSchemeTorusCompare` | volunteer-build-reviewed |
-| M005195 | P0648 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianVarietyLineBundleSectionsFinite` | wave-reused |
-| M005196 | P0678 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianVarietyLineBundleSectionsFiniteStatement` | wave-reused |
-| M005197 | P0615 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AcyclicityLemmaDepthDifferentialCokernelsFiniteL` | wave-reused |
-| M005198 | P0678 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CechHOneVanishesOnOpenOfIsAffineOpen` | wave-reused |
-| M005199 | P0003 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CoequifiberedDiagramMap` | wave-reused |
-| M005200 | P1057 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CompAutEqOfSerreBaseChange` | wave-reused |
-| M005201 | P0784 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CoordOfHasWeight` | wave-reused |

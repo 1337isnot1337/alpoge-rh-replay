@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M097039"
+  ],
+  "started_utc": "2026-11-21T15:07:42.118495+00:00",
+  "ended_utc": "2026-11-21T15:08:01.428770+00:00",
+  "elapsed_seconds": 19.3,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 7000280
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzBruhatDistributionEqZeroBaire:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b82a4646fa3e68ef24407db50d62014835bb361f7de42d411057cf5caea6f9a1",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.IsHilbertSchmidtOfFiniteDimensional"
+  ],
+  "objects": {
+    "M097039": "678cd5dee03e24cc2bb88c874b5bcf6c6cfffe9e4fc60fa00ac19f81735366be"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "75e912a27d82577ecd0d17fd6267edc46f8174fbe130c45a1ccfcc92ba8d0176",
+  "packet": "M097039",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22957#issuecomment-7064634556",
+  "reviewed_utc": "2026-11-21T17:27:50.073311+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

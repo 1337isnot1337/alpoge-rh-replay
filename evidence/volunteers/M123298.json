@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M123298"
+  ],
+  "started_utc": "2026-11-21T15:08:46.831181+00:00",
+  "ended_utc": "2026-11-21T15:08:58.003760+00:00",
+  "elapsed_seconds": 11.2,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6905052
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FiniteOutNeZero:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b218f049c67074a82b1128f5f01ccf7347af70507ff7cdf05cb90a998072719d",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.SatakeExponents.UniformizerValuations.SubOfNonNil"
+  ],
+  "objects": {
+    "M123298": "d0df93a29100411afb5a46ab824f1f04676e6171084841d839e23338e31a20ad"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "4cf47eb81de8978bd0a077b535a498b87aaeb067ee5ac428a48449f1f728fe96",
+  "packet": "M123298",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/22958#issuecomment-7064646557",
+  "reviewed_utc": "2026-11-21T17:27:49.344020+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}
