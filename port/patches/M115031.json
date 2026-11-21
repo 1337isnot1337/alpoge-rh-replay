@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ChoiceFunction",
+  "source_sha256": "1eccc56f42e2a206466eb56de7e85d9de4c6393e2ce6ea2df5c82ba7eaaae29d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0048-issue-24571/P0048-receipt.json"
+}

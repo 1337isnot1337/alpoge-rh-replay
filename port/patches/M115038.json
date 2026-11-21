@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CoboundaryOfGenerator",
+  "source_sha256": "d16aa4ed9342a454195ccb388cb45bb182c36d10468975809b36df784c72b8ce",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The statement of cobOfGen spells out the CommRing instance on ℤ_[l]. Mathlib renamed PadicInt.instCommRing to instCommRingPadicInt, which is what instance resolution for CommRing (PadicInt l) now returns. Only the instance name changes, so the proposition is the same.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0048-issue-24571/P0048-receipt.json"
+}

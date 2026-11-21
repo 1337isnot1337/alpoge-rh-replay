@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CyclicTrivialInductionRing",
+  "source_sha256": "31c6b41d58cc81c4bb3d1aa4ef223b9212c7438fbd77ca3849d7b54ca57bc43d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "ULift.ext now takes x and y implicitly, so drop the two placeholders. Proof-only change.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0048-issue-24571/P0048-receipt.json"
+}

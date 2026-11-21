@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CoproductAdjoin",
+  "source_sha256": "13179121247d59dfaa19f8fa1ee527c2b53dd15e1cf0098d4ab24f0edff55457",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0048-issue-24571/P0048-receipt.json"
+}

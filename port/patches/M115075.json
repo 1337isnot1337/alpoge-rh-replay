@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ContDiffHerm",
+  "source_sha256": "0cef059b7434365b3bce3ac279d136ed1af0ea7ef7e24f45a507fc7ba9bc9ca1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "contDiff_apply_apply now takes E implicitly, so the explicit ℂ was read as an index. Pass 𝕜 and E by name. Proof-only change.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0048-issue-24571/P0048-receipt.json"
+}

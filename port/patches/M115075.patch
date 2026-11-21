@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ContDiffHerm.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ContDiffHerm.lean
+@@ -1514,7 +1514,7 @@
+ 
+ private theorem contDiff_entry {n : ℕ} (i j : Fin n) :
+     ContDiff ℝ ((⊤ : ℕ∞) : WithTop ℕ∞) (fun g : Matrix (Fin n) (Fin n) ℂ => g i j) :=
+-  contDiff_apply_apply ℝ ℂ i j
++  contDiff_apply_apply (𝕜 := ℝ) (E := ℂ) i j
+ 
+ private theorem contDiff_cst {n : ℕ} (c : ℂ) :
+     ContDiff ℝ ((⊤ : ℕ∞) : WithTop ℕ∞) (fun _ : Matrix (Fin n) (Fin n) ℂ => c) :=
