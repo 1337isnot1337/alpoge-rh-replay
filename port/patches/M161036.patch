@@ -1,0 +1,32 @@
+--- a/src/Formalism/SharpRestriction/LevelLetterCocycles/RepresentationCongruences/LeValOneAddPowSub.lean
++++ b/src/Formalism/SharpRestriction/LevelLetterCocycles/RepresentationCongruences/LeValOneAddPowSub.lean
+@@ -154,6 +154,7 @@
+   have hcop : Nat.Coprime r l := ((Nat.Prime.coprime_iff_not_dvd hl).mpr hr).symm
+   have : Fact l.Prime := ⟨hl⟩
+   have hpv : padicValNat l (l ^ k * r) = k := by
++    simp only [Nat.padicValNat_def]
+     rw [padicValNat.mul (pow_ne_zero k hl.ne_zero) hr0, padicValNat.prime_pow,
+       padicValNat.eq_zero_of_not_dvd hr, add_zero]
+   have hk0 : (0 : WithTop ℚ) ≤ k := by exact_mod_cast (Nat.cast_nonneg k : (0 : ℚ) ≤ k)
+@@ -188,10 +189,10 @@
+   obtain ⟨n, rfl | rfl⟩ := Int.eq_nat_or_neg m
+   · have hn : n ≠ 0 := by rintro rfl; exact hm rfl
+     rw [zpow_natCast, padicValInt.of_nat]
+-    exact LemGA.chi_pow_nat_val v l hl hl2 hvl χ hχ n hn
++    simpa only [Nat.padicValNat_def] using LemGA.chi_pow_nat_val v l hl hl2 hvl χ hχ n hn
+   · have hn : n ≠ 0 := by rintro rfl; exact hm (by simp)
+     have hpv : padicValInt l (-(n : ℤ)) = padicValNat l n := by
+-      unfold padicValInt; rw [Int.natAbs_neg]; simp
++      unfold padicValInt; rw [Int.natAbs_neg]; simp [Nat.padicValNat_def]
+     rw [hpv, zpow_neg, zpow_natCast]
+     have hxn : v (χ ^ n) = 0 := by
+       rw [AddValuation.map_pow, hχ0, smul_zero]
+@@ -201,7 +202,7 @@
+     have e : (χ ^ n)⁻¹ - 1 = (χ ^ n)⁻¹ * -(χ ^ n - 1) := by
+       rw [mul_neg, mul_sub, inv_mul_cancel₀ (pow_ne_zero n hne), mul_one]; ring
+     rw [e, AddValuation.map_mul, AddValuation.map_neg, hinv, zero_add]
+-    exact LemGA.chi_pow_nat_val v l hl hl2 hvl χ hχ n hn
++    simpa only [Nat.padicValNat_def] using LemGA.chi_pow_nat_val v l hl hl2 hvl χ hχ n hn
+ 
+ theorem cc_assoc {LL O : Type*} [Field LL] [CommRing O] [Algebra O LL] (v : AddValuation LL (WithTop ℚ))
+     (l : ℕ) [Fact l.Prime] (hl2 : l ≠ 2) (hvl : v (l : LL) = 1)

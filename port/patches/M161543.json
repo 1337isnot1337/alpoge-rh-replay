@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.ThetaLogCoordinates.JacobiPathWeights.DetLetters",
+  "source_sha256": "11d01c118594bfe7339554065932f056aa8e74ab5dccdf4bf5f441dd15ee71cc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0079-lean436-20261121/packet-result.json"
+}

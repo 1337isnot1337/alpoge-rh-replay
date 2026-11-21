@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.ThetaLogCoordinates.ProductIdealMonotone.ParamDefs",
+  "source_sha256": "3df212c6e9c891cdd9f9c496513cf01af452cc7041c79480aa12cbdc3f42e036",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0079-lean436-20261121/packet-result.json"
+}

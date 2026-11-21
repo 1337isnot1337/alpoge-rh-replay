@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.TowerValuationBounds.HermitianSumValuationBound",
+  "source_sha256": "63177259e89f60168457724ac26043829a9197445a2bd273d65a4d387cc6b119",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0079-lean436-20261121/packet-result.json"
+}

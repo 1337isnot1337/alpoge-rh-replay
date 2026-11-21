@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.ThetaLogCoordinates.ResidueClassEstimates.StatementL",
+  "source_sha256": "7d06d5f9e31e396f68e78abb701711818733dadb5c7045319b921f1f6834ea2f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0079-lean436-20261121/packet-result.json"
+}

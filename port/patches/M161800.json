@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.UnipotentAdelicQuotients.ClassNumberQuad",
+  "source_sha256": "3f04aac139dcc1705c462c295d5a1fa32e61b7a7d8848bc20001bfac7b4dfad3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0079-lean436-20261121/packet-result.json"
+}

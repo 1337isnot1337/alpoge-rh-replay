@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.ScaledValuations.ScaleEps",
+  "source_sha256": "2807effce6d140049b7ccd36383b8a76ddc3d3386ecde622bb572730cc28204f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent coefficient API adaptation: the pinned MvPolynomial.coeff m p wrapper is AddMonoidAlgebra.coeff p applied to m. The target p.coeff m is the same operation. Inv, invCoef and the Det.inv field retain the same coefficient indices, polynomials and equalities.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0079-lean436-20261121/packet-result.json"
+}

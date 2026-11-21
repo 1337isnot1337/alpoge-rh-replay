@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.LevelLetterCocycles.RepresentationCongruences.ExistsSumPadicValIntWindowEq",
+  "source_sha256": "fe949f530aa5b982d9bc0fbc51516f28140f7ca4a7b3a2a396f1ac3bbbff3bf3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: bridge unchanged padicValNat expressions to multiplicity with Nat.padicValNat_def before applying the generalized valuation lemmas. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0079-lean436-20261121/packet-result.json"
+}
