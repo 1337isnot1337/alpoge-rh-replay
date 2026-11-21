@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingGaloisEquivariant",
+  "source_sha256": "3816909161c8c594025b7ff022059b71e7ef24aa7a02544ecbea91e8367a54e1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current tensor-product induction recursor with pure-tensor and sum cases."
+}

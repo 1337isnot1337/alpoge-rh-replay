@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SolveUnitriangular",
+  "source_sha256": "090d7e3ee84c465da13548232c3c8e433e783cefd26c6af32e1d23dc1d395403",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed product monotonicity lemma with nonnegativity hypotheses."
+}

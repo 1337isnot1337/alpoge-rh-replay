@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ResAlgSplitTwo",
+  "source_sha256": "61f11b8e58f8d3e72c368c6f2577bc5d9e99effe0af2eec618f9f202b754b416",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
