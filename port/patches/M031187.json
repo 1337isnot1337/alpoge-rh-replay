@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteDimensionalSpanCommutant",
+  "source_sha256": "48fba0ad6806e45a64680b7673be6d4682144da4f4e0c14c0589642b328f9d6e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename Polynomial.eval_finset_sum to eval_finsetSum and remove the obsolete wrapper around WellFoundedLT/WellFoundedGT proofs. Statements are unchanged."
+}

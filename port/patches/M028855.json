@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsRingEquivExtendingOfKerLe",
+  "source_sha256": "bf15fc0c7407f3a9d8c83d3b723aafc61f289c07155f60cba138a755c1dbe77e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Apply the injectivity criterion to the underlying additive homomorphism to avoid unconstrained typeclass search. The original heartbeat limits and statements are unchanged."
+}

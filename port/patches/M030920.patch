@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FibreGoingDownTensor.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FibreGoingDownTensor.lean
+@@ -33,7 +33,7 @@
+       = algebraMap F₁ E (Algebra.TensorProduct.includeRight c) := by
+     intro c
+     simp only [Φ, e1, e2, e3, Algebra.TensorProduct.includeRight_apply, RingEquiv.trans_apply,
+-      AlgEquiv.toRingEquiv_eq_coe, AlgEquiv.coe_ringEquiv, Algebra.TensorProduct.cancelBaseChange_tmul, one_smul]
++      AlgEquiv.coe_toRingEquiv, Algebra.TensorProduct.cancelBaseChange_tmul, one_smul]
+     erw [Algebra.TensorProduct.cancelBaseChange_symm_tmul]
+     rfl
+ 

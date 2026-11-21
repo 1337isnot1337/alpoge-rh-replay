@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FibreGoingDownTensor",
+  "source_sha256": "73a9a7a511171014e15fb95dd812a9ffa06c7ea04957e7bc602dbceb84817b62",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use AlgEquiv.coe_toRingEquiv in place of the obsolete coercion simplification lemmas. Statements are unchanged."
+}
