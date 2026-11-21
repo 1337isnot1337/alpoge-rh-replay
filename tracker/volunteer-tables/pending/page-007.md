@@ -253,4 +253,4 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M123256](https://github.com/rohanarun/alpoge-rh-replay/issues/9379#issuecomment-7055067029) | Pending review |
 | [@ANdATIon](https://github.com/ANdATIon) | [M001095](https://github.com/rohanarun/alpoge-rh-replay/issues/9380#issuecomment-7055045675) | Pending review |
 | [@ljagiello](https://github.com/ljagiello) | [M069315](https://github.com/rohanarun/alpoge-rh-replay/issues/9381#issuecomment-7055018194) | Pending review |
-| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M104110](https://github.com/rohanarun/alpoge-rh-replay/issues/9383#issuecomment-7055079696) | Pending review |
+| [@jwr404](https://github.com/jwr404) | [M042137](https://github.com/rohanarun/alpoge-rh-replay/issues/9382#issuecomment-7056641763) | Pending review |
