@@ -80,6 +80,46 @@ class ValidateTrackerTests(unittest.TestCase):
             self.assertNotEqual(result.returncode, 0, result.stdout + result.stderr)
             self.assertIn('FAIL evidence.volunteers_tasks_present', result.stdout)
 
+    def test_unknown_packet_with_empty_tasks_fails(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            copy = Path(tmp) / 'repo'
+            shutil.copytree(ROOT, copy,
+                            ignore=shutil.ignore_patterns('.git', '__pycache__'))
+            (copy / 'evidence/volunteers/FAKE.json').write_text(
+                json.dumps({'packet': 'FAKE_PACKET', 'tasks': [], 'objects': {}})
+            )
+            result = run_validator(copy)
+            self.assertNotEqual(result.returncode, 0, result.stdout + result.stderr)
+            self.assertIn('FAIL evidence.reviewed_tasks_complete_claim', result.stdout)
+            self.assertIn('FAIL evidence.volunteers_tasks_present', result.stdout)
+
+    def test_bool_exit_code_and_non_sha256_object_digest_fail(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            copy = Path(tmp) / 'repo'
+            shutil.copytree(ROOT, copy,
+                            ignore=shutil.ignore_patterns('.git', '__pycache__'))
+            receipt_path = copy / RECEIPT
+            receipt = json.loads(receipt_path.read_text())
+            receipt['exit_code'] = False
+            first_task = receipt['tasks'][0]
+            receipt['objects'][first_task] = 'not-a-sha256'
+            receipt_path.write_text(json.dumps(receipt))
+            result = run_validator(copy)
+            self.assertNotEqual(result.returncode, 0, result.stdout + result.stderr)
+            self.assertIn('FAIL evidence.receipt_exit_code', result.stdout)
+            self.assertIn('FAIL evidence.reviewed_objects_match_tasks', result.stdout)
+
+    def test_nested_volunteer_receipt_without_tasks_fails(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            copy = Path(tmp) / 'repo'
+            shutil.copytree(ROOT, copy,
+                            ignore=shutil.ignore_patterns('.git', '__pycache__'))
+            nested = copy / 'evidence/volunteers/sub/bad.json'
+            nested.parent.mkdir(parents=True, exist_ok=True)
+            nested.write_text(json.dumps({'notes': 'missing tasks'}))
+            result = run_validator(copy)
+            self.assertNotEqual(result.returncode, 0, result.stdout + result.stderr)
+            self.assertIn('FAIL evidence.volunteers_tasks_present', result.stdout)
 
 if __name__ == '__main__':
     unittest.main()
