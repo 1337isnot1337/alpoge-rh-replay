@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CuspFormEvaluations/ProdLeadMinorDiagonal.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CuspFormEvaluations/ProdLeadMinorDiagonal.lean
+@@ -286,7 +286,7 @@
+     intro s
+     by_cases hs : ∃ w, z w = s
+     · obtain ⟨⟨u, v⟩, rfl⟩ := hs
+-      simp only [w, setBlock_apply hz, diagonal_apply, one_apply, of_apply]
++      simp only [w, setBlock_apply hz, diagonal_apply, Matrix.one_apply, of_apply]
+       split_ifs <;> simp
+     · simp [w, setBlock_of_not _ _ hs]
+   rw [eval_eq, eval_eq, Finset.sum_mul]

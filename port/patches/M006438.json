@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FinrankMulDiscrRpowLeSumSqOfMemTraceDual",
+  "source_sha256": "57e8f0bb370e5278de43edbd440fca4eb62149192f9b0864d652035a0c27b06b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Normalize the coerced ideal bottom explicitly with FractionalIdeal.coeIdeal_bot before applying spanSingleton_eq_zero_iff."
+}

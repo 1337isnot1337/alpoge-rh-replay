@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.RowAddGenericRowAddTerm",
+  "source_sha256": "d628903aa89ad9eadd28f35658537d62745e1162ed5a2687670e350ab329a9a2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Avoid congr/simp defeq search over the unfolded aeval/bind terms; split with congrArg2 and rewrite with the X lemmas plus explicit distribution lemmas."
+}

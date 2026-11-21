@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.SummablePiProd",
+  "source_sha256": "29c0f95eec6bbd86091fe1f6e73ca390d0875157617c666e6def127389071acf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_le_prod0 for the two-hypothesis product bound."
+}

@@ -1,0 +1,14 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/FiniteAndNcardSetOfSubmoduleLeRelIndexEqLe.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/FiniteAndNcardSetOfSubmoduleLeRelIndexEqLe.lean
+@@ -263,7 +263,10 @@
+     (φ : Γ → L →ₗ[ℤ] L) (hφ : Set.InjOn φ G) (hG : ∀ g ∈ G, ∀ i, ‖(φ g (v i) : E)‖ ≤ R) :
+     G.Finite ∧ (G.ncard : ℝ) ≤ (1 + 2 * R / d) ^ (n ^ 2) := by
+   classical
+-  haveI : IsAddTorsionFree E := IsAddTorsionFree.of_isTorsionFree ℝ E
++  haveI : HasUniqueDiv E := HasUniqueDiv.of_isTorsionFree ℝ E
++  haveI : Module.IsTorsionFree ℤ ↥L :=
++    Function.Injective.moduleIsTorsionFree (fun x : ↥L => (x : E)) Subtype.coe_injective
++      (fun r m => rfl)
+   obtain ⟨hf, hc⟩ := finite_and_ncard_setOf_norm_le_of_rank L hn hv hd hR hL
+   rw [Set.ncard_eq_toFinset_card _ hf] at hc
+   refine finite_and_ncard_le_of_forall_finset _ _ fun s hs => ?_

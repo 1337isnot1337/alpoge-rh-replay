@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.LinearIndependentRealOfIntOfDiscrete",
+  "source_sha256": "c9e16386746d5a6c7c8bde32e5731f888e2a53e9470e9f196c453696b5bbf84b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_le_prod0; qualify Matrix.mul_apply (now protected)."
+}

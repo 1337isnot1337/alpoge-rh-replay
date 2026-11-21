@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.NatCastMulCoeffOfPderivEq",
+  "source_sha256": "529d50a90f442ba0df49e08cf04bbea5de25286fc36a40dfa062b87d7661265a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "MvPowerSeries.pderiv no longer takes the ring explicitly; adapt to the torsion-free refactor with a local HasUniqueDiv instance and the class projection lemma. No statement changes."
+}

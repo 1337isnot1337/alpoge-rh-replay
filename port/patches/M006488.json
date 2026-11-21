@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ResidueNormValuationSubringEqZeroIff",
+  "source_sha256": "35b8d2cba81314dc1d735ead75b9a37f3409126b715568a1eb29827442485332",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_le_prod0; rewrite the finitely-supported zero explicitly with Finsupp.zero_apply in the coeff_zero chain."
+}

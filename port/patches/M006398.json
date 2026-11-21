@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.WeightAddLeOfMemSupportDividedContraction",
+  "source_sha256": "99a07505e3a4dfeae5904e078af79e550fda83d22d3bb67d78f3973bfb197900",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Adapt to renamed Mathlib lemmas: isMulCommutative_adjoin takes Set.Pairwise and implicit R; MvPolynomial.coeff moved to AddMonoidAlgebra (dot notation); coeff_add is now protected; Finsupp.mapDomain_apply needs the _of_injective variant."
+}

@@ -1,0 +1,20 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/ResidueNormValuationSubringEqZeroIff.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/ResidueNormValuationSubringEqZeroIff.lean
+@@ -26,7 +26,7 @@
+ 
+ theorem finsuppProd_pow_mono (t : σ →₀ ℕ) {c d : σ → ℝ} (h0 : ∀ i, 0 ≤ c i) (h : ∀ i, c i ≤ d i) :
+     t.prod (c · ^ ·) ≤ t.prod (d · ^ ·) :=
+-  Finset.prod_le_prod (fun i _ => pow_nonneg (h0 i) _) fun i _ => pow_le_pow_left₀ (h0 i) (h i) _
++  Finset.prod_le_prod₀ (fun i _ => pow_nonneg (h0 i) _) fun i _ => pow_le_pow_left₀ (h0 i) (h i) _
+ 
+ theorem finsuppProd_const_pow (t : σ →₀ ℕ) (r : ℝ) : t.prod (fun _ n => r ^ n) = r ^ t.degree := by
+   simp [Finsupp.prod, Finsupp.degree_apply, Finset.prod_pow_eq_pow_sum]
+@@ -57,7 +57,7 @@
+     intro h
+     have h1 : P.coeff t₀ = IsLocalRing.residue 𝒪 (b' t₀) := by
+       simp [P, MvPolynomial.coeff_sum, MvPolynomial.coeff_monomial, h₀]
+-    rw [h, MvPolynomial.coeff_zero, eq_comm, residue_normValuationSubring_eq_zero_iff] at h1
++    rw [h, MvPolynomial.coeff_zero, Finsupp.zero_apply, eq_comm, residue_normValuationSubring_eq_zero_iff] at h1
+     exact absurd hb₀ h1.ne
+   obtain ⟨x, hx⟩ : ∃ x, MvPolynomial.eval x P ≠ 0 := by
+     by_contra! h

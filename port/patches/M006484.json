@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.OneLeDetOneAdd",
+  "source_sha256": "e21db90a972c1c560a3974dc029731712b41ba964aa070434bb10096cac53eed",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_le_prod0 for the two-hypothesis product bound."
+}

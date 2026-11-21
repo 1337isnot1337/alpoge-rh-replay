@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/OneLeDetOneAdd.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/OneLeDetOneAdd.lean
+@@ -19,7 +19,7 @@
+     linarith
+   have hprod : (1 : ℝ) ≤ ∏ i, hA.eigenvalues i := by
+     calc (1 : ℝ) = ∏ _i : n, (1 : ℝ) := by simp
+-      _ ≤ ∏ i, hA.eigenvalues i := Finset.prod_le_prod (fun _ _ => zero_le_one) (fun i _ => hμ i)
++      _ ≤ ∏ i, hA.eigenvalues i := Finset.prod_le_prod₀ (fun _ _ => zero_le_one) (fun i _ => hμ i)
+   rw [hA.det_eq_prod_eigenvalues, ← RCLike.ofReal_prod]
+   calc (1 : 𝕜) = ((1 : ℝ) : 𝕜) := by simp
+     _ ≤ _ := RCLike.ofReal_le_ofReal.mpr hprod
