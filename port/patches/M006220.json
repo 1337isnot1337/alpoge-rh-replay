@@ -3,5 +3,5 @@
   "source_sha256": "2f47279857121fd579f22c3220c21253b81cb7532e599811e241869e5cb6e41c",
   "lean": "leanprover/lean4:v4.36.0",
   "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
-  "notes": "unchanged"
+  "notes": "Use one-based TFAE.out indices 1 and 2 for the original first two equivalent statements, and remove the obsolete zero case from tensor induction in the scalar-linearity proof. Only proof terms change: theorem statements, linear-equivalence maps, assumptions and limits are preserved."
 }
