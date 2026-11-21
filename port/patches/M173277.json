@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.LinearIndependentC",
+  "source_sha256": "43c3beb4188a38749963890b6c14f88d95ea9c49a3548f512a28a4d7509c9d76",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the target projection syntax for the same multivariate polynomial coefficients and type the coefficient map explicitly under congrArg."
+}

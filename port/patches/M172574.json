@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterBridgeG",
+  "source_sha256": "0984a72746a0f23d85ef83b2dc736ab1fe40362860985f1e9f10dd4581238f43",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Give the two set inclusions explicit types so Lean can elaborate their components, and use AEMeasurable.tsum for the same nonnegative measurable sum."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.BaseChangeKernels.SurjOfCover",
+  "source_sha256": "6dc198daa5e79b4a2b0106c9a88103c7114b509ce572b4bdffdb052c5a40255d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finsupp.finsetSum_apply to evaluate the same finite sum of singletons."
+}

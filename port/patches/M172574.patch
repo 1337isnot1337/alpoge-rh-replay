@@ -1,0 +1,33 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterBridgeG.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/InterBridgeG.lean
+@@ -80,8 +80,10 @@
+   classical
+   set s : Set (Set (Fin e → ℂ)) :=
+     insert ∅ {b | b ∈ TopologicalSpace.countableBasis (Fin e → ℂ) ∧ b ⊆ O ∧ InjOn Q b}
++  have hbasis : {b | b ∈ TopologicalSpace.countableBasis (Fin e → ℂ) ∧ b ⊆ O ∧ InjOn Q b} ⊆
++      TopologicalSpace.countableBasis (Fin e → ℂ) := fun _ hb => hb.1
+   have hs : s.Countable :=
+-    ((TopologicalSpace.countable_countableBasis _).mono fun b hb => hb.1).insert ∅
++    ((TopologicalSpace.countable_countableBasis _).mono hbasis).insert ∅
+   have hmem : ∀ n, Set.enumerateCountable hs ∅ n ∈ s := Set.enumerateCountable_mem hs
+     (Set.mem_insert _ _)
+   refine ⟨Set.enumerateCountable hs ∅, fun n => ?_, fun n => ?_, fun n => ?_, ?_⟩
+@@ -125,7 +127,7 @@
+     simp_rw [this]
+     rw [← ENNReal.ofReal_tsum_of_nonneg (fun n => integral_nonneg fun _ => norm_nonneg _) hs]
+     exact ENNReal.ofReal_ne_top
+-  have hae : ∀ᵐ y ∂μ, ∑' n, ‖F n y‖ₑ < ⊤ := ae_lt_top' (AEMeasurable.ennreal_tsum hmeas) hlin
++  have hae : ∀ᵐ y ∂μ, ∑' n, ‖F n y‖ₑ < ⊤ := ae_lt_top' (AEMeasurable.tsum hmeas) hlin
+   have hsum : ∀ᵐ y ∂μ, Summable fun n => F n y := by
+     filter_upwards [hae] with y hy
+     refine Summable.of_norm ?_
+@@ -145,7 +147,8 @@
+   have hsub : ∀ n, D n ⊆ O := fun n => hU ▸ subset_iUnion D n
+   have hterm : ∀ n, ∑ᶠ u ∈ D n ∩ G, f u = ∑ u ∈ hG.toFinset, if u ∈ D n then f u else 0 := by
+     intro n
+-    rw [finsum_mem_eq_finite_toFinset_sum f (hG.subset fun u hu => ⟨hsub n hu.1, hu.2⟩),
++    have hsubset : D n ∩ G ⊆ O ∩ G := fun _ hu => ⟨hsub n hu.1, hu.2⟩
++    rw [finsum_mem_eq_finite_toFinset_sum f (hG.subset hsubset),
+       Finset.sum_ite, Finset.sum_const_zero, add_zero]
+     congr 1
+     ext u

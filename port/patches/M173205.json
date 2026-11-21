@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.GaussHeights.GaussGenericHeight.GaussGenericStatements.GaussGenericLemmas.TranslationDomainMaps.MapDomainMemOfDvd",
+  "source_sha256": "eacb9892742a560ebbcc6f6f9b35df942c03f8da029c30863fec2e4c8e2ae6b1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Write multivariate polynomial coefficients with the polynomial as receiver, including coefficient evaluation under congrArg. Use the injective mapDomain evaluation lemma for the same permutation."
+}

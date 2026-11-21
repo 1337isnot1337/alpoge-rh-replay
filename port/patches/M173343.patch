@@ -1,0 +1,22 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/PlaceDivisors/FiniteLocalLifts/IsLocalHomAlgebraMap.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/PlaceDivisors/FiniteLocalLifts/IsLocalHomAlgebraMap.lean
+@@ -29,7 +29,8 @@
+   intro a ha
+   by_contra hna
+   have hmax : (Ideal.comap (algebraMap O R) (maximalIdeal R)).IsMaximal :=
+-    Ideal.isMaximal_comap_of_isIntegral_of_isMaximal (maximalIdeal R)
++    Ideal.isMaximal_comap_of_isIntegral_of_isMaximal (algebraMap O R)
++      Algebra.IsIntegral.isIntegral (maximalIdeal R)
+   have heq : Ideal.comap (algebraMap O R) (maximalIdeal R) = maximalIdeal O :=
+     IsLocalRing.eq_maximalIdeal hmax
+   have h1 : a ∈ Ideal.comap (algebraMap O R) (maximalIdeal R) := by
+@@ -49,7 +50,8 @@
+       mem_nonunits_iff]
+     exact ⟨fun h ha => h (ha.map _), fun h ha => h (hS.map_nonunit a ha)⟩
+   have hmax : (Ideal.comap (χ : R →+* S) (maximalIdeal S)).IsMaximal :=
+-    Ideal.isMaximal_of_isIntegral_of_isMaximal_comap _ (by rw [hcomap]; infer_instance)
++    Ideal.isMaximal_of_isIntegral_of_isMaximal_comap (algebraMap O R)
++      Algebra.IsIntegral.isIntegral _ (by rw [hcomap]; infer_instance)
+   have hPeq : Ideal.comap (χ : R →+* S) (maximalIdeal S) = maximalIdeal R := IsLocalRing.eq_maximalIdeal hmax
+   have hrP : r ∈ Ideal.comap (χ : R →+* S) (maximalIdeal S) := by
+     rw [hPeq]

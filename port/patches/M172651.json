@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.CocycleRightZeroThd",
+  "source_sha256": "a7b757dcc7fc3d9a15768a83e1bead2ad38c2d456c62308ac421d08c94643115",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "In the definition of Dof, pass the same coefficient ring R by name to MvPowerSeries.pderiv. The indices and power series in both derivatives are unchanged."
+}

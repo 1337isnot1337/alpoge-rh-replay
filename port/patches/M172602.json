@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterGoodA",
+  "source_sha256": "5180270943321863760a7e92559d9ed95b0c589e3fcccf9b0bde11bf9fd54c37",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Expose Ideal.under as comap along the structure map where the going-up argument rewrites an ideal. Use the localization map_under lemma for that same contraction."
+}

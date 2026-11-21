@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArakelovVolumes/UpperBounds/SCoordStatementPfB.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArakelovVolumes/UpperBounds/SCoordStatementPfB.lean
+@@ -74,7 +74,7 @@
+     AlgebraicIndependent.matroid_indep_iff.mpr hT.to_subtype_range
+   have h0 := hI.encard_le_eRk_of_subset hsub
+   rw [Matroid.eRk_closure_eq] at h0
+-  have h1 := hT.injective.encard_range.trans h0
++  have h1 := hT.injective.encard_range.symm.le.trans h0
+   have h2 := M.eRk_le_encard (Set.range Z)
+   let rng := Finset.univ.image Z
+   have hrng : Set.range Z = ↑rng := by simp [rng]

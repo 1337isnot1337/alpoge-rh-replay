@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FirstCohomology.JetApproximation",
+  "source_sha256": "49808f0f751d4cd67d5b6a9edb9aa610a2a5e783eeb8feae4a9c6f274e286fe9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

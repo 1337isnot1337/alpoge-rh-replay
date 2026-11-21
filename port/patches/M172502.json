@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovVolumes.UpperBounds.SCoordStatementPfB",
+  "source_sha256": "783a0b834b070e42b91223a0d002d69d191c24bf18298c9456499b75ae096d9f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the range-cardinality equality in the direction from the cardinality of the domain to that of the range before applying the rank inequality."
+}
