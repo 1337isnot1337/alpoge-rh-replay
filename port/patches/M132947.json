@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.TraceIdempotentNotDivisible",
+  "source_sha256": "a279e81ab5cd985ec3ba65ba5aa9a41e5b53ed75b063329d233dc948ec7b8f32",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0063-lean436-20261121/packet-result.json"
+}

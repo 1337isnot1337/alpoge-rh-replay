@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.NumberFieldMapsLocalRingUnique",
+  "source_sha256": "0cdd84f9f8ddc3d3ff145a546f5f1a574a4175ba3d3083fdf24d7d1c3483e464",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0063-lean436-20261121/packet-result.json"
+}

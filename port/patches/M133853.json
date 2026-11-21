@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.IntegralAngMeas",
+  "source_sha256": "1eae3b96b2833d6443b1b9667207f0080d9bc60871fa7cb65d1035e765944f2e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0063-lean436-20261121/packet-result.json"
+}

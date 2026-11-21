@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MaximalIdealMembershipOfLocal.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MaximalIdealMembershipOfLocal.lean
+@@ -18,7 +18,7 @@
+     have key := Polynomial.hom_eval₂ p f (integralClosure R K).toSubring.subtype x
+     exact key.trans h
+   have hm : (P.comap (algebraMap R (integralClosure R K).toSubring)).IsMaximal :=
+-    Ideal.isMaximal_comap_of_isIntegral_of_isMaximal P
++    Ideal.isMaximal_under_of_isIntegral_of_isMaximal (R := R) P
+   have hmax : P.comap (algebraMap R (integralClosure R K).toSubring)
+       = IsLocalRing.maximalIdeal R := IsLocalRing.eq_maximalIdeal hm
+   have hrt : algebraMap R (integralClosure R K).toSubring ⟨t, htR⟩ = t := Subtype.ext rfl

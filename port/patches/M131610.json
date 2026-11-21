@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.MultiplicativeDerivationRank",
+  "source_sha256": "1ed641b7c265f55c5062dc5f405a50b82ae857cbd638c712b990adfd46cbc2cf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the generalized Polynomial nonvanishing and degree lemmas for X^p-X with the existing 1<p hypothesis. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0063-lean436-20261121/packet-result.json"
+}

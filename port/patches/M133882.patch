@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsCompactSphere.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/MetricProofs/IsCompactSphere.lean
+@@ -86,7 +86,7 @@
+     · obtain ⟨p₀, hp₀, hmin⟩ := hKS.exists_isMinOn h hfc
+       refine ⟨_, hfpos p₀.1 (Set.mem_prod.mp hp₀).1 p₀.2 (Set.mem_prod.mp hp₀).2,
+         fun x hx w hw => ?_⟩
+-      exact hmin (Set.mk_mem_prod hx hw)
++      exact (isMinOn_iff.mp hmin) (x, w) (Set.mk_mem_prod hx hw)
+   obtain ⟨M, hM⟩ := hKS.exists_bound_of_continuousOn hfc
+   have hC1 : c⁻¹ ≤ max 1 (max c⁻¹ M) := (le_max_left _ _).trans (le_max_right _ _)
+   have hCM : M ≤ max 1 (max c⁻¹ M) := (le_max_right _ _).trans (le_max_right _ _)

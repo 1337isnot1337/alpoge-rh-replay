@@ -1,0 +1,13 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRank.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/MultiplicativeDerivationRank.lean
+@@ -9,8 +9,8 @@
+     (μ : k) (h : μ ^ p = μ) : ∃ i < p, μ = (i : k) := by
+   classical
+   have hone : 1 < p := hp.out.one_lt
+-  have hP : (X ^ p - X : k[X]) ≠ 0 := FiniteField.X_pow_card_sub_X_ne_zero k hone
+-  have hdeg : (X ^ p - X : k[X]).natDegree = p := FiniteField.X_pow_card_sub_X_natDegree_eq k hone
++  have hP : (X ^ p - X : k[X]) ≠ 0 := Polynomial.X_pow_sub_X_ne_zero hone
++  have hdeg : (X ^ p - X : k[X]).natDegree = p := Polynomial.natDegree_X_pow_sub_X hone
+   haveI : ExpChar k p := ExpChar.prime hp.out
+   set S : Finset k := (Finset.range p).image (fun i : ℕ => (i : k)) with hS
+   have hcard : S.card = p := by

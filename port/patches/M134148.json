@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.MulVecEqZeroOfPair",
+  "source_sha256": "469b93edb056586e6dbdde52b190ae3267e13431c796e95588f0b15143557b36",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: supply the now implicit vector argument and use the renamed tendsto_finsetProd lemma. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0063-lean436-20261121/packet-result.json"
+}

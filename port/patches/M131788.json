@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ProjectiveModulesGlueCover",
+  "source_sha256": "ee5f7ab015bd6e4beeb0c4f4a7d18868eab5ec36b14e48d45863da7a65dd006c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0063-lean436-20261121/packet-result.json"
+}

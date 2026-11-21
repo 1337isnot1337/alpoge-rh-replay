@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/MetricProofs/TendstoLimUnderOfCauchyRate.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/MetricProofs/TendstoLimUnderOfCauchyRate.lean
+@@ -14,7 +14,7 @@
+   set F : Filter ℝ := nhdsWithin 0 (Set.Ioi 0) with hF
+ 
+   have hS : ∀ ε > 0, {t | δ t < ε ∧ 0 < t ∧ t ≤ t₁} ∈ F := fun ε hε =>
+-    Filter.inter_mem (hδ (Iio_mem_nhds hε))
++    Filter.inter_mem (show {t | δ t < ε} ∈ F from hδ (Iio_mem_nhds hε))
+       (Filter.inter_mem self_mem_nhdsWithin (mem_nhdsWithin_of_mem_nhds (Iic_mem_nhds ht₁)))
+   have hC : Cauchy (Filter.map f F) := by
+     rw [Metric.cauchy_iff]

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LocalSubringIntegralClosureMax",
+  "source_sha256": "b375f0d73d82d41df4523d372f82cb54e57d6280c9e48ac470e5e65c4fea88ff",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Ideal.isMaximal_of_isIntegral_of_isMaximal_under with the existing local algebra instance. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0063-lean436-20261121/packet-result.json"
+}

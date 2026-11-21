@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.DigammaTendstoLogSubHarmonic",
+  "source_sha256": "45b897beaeba6856b67e6862361611be6f30055cdce63c64c58f68ebc3c99a48",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use prod_le_prod\u2080, renamed fun_finsetProd differentiability lemmas and the lambda-form logDeriv_fun_div/mul/prod lemmas. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0063-lean436-20261121/packet-result.json"
+}
