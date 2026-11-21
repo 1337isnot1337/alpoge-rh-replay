@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.CountBindWordShuffleByPositions",
+  "source_sha256": "e2797cdb1146f352dcdd9ecd4f82b8aba4d1b17e4b8ee9b2b72e2ede21c8d198",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

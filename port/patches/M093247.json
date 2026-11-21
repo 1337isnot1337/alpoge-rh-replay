@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsFiniteReproducingOfSubmodule",
+  "source_sha256": "e56497c327e13d4d5deb55f09ffd7889c70fb72ed7137dbf9eabbd56f313562b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Statement change, equivalent: MultilinearMap \u2102 becomes MultilinearMap (RingHom.id \u2102) (printed \u2192\u2098\u2097[\u2102]) in finsupp_sum_multilinear_eq_of_prod_eq, and add RingHom.id_apply to map_smul_univ simp for Mathlib v4.36.0."
+}
