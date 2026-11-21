@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.GroupCohomology.IsTowerLim",
+  "source_sha256": "114fa1190e7d660966a9f8b901b31f3d3bf1214446d995988c116d2532a4b0d9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "Compiled unchanged on leanprover/lean4:v4.36.0 with Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842 in the P0090 packet build transcript linked from the PR."
+}

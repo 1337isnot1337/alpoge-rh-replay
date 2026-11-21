@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.DualLattices.ProdEraseUpdate",
+  "source_sha256": "72f30acec1b21a9e4d06b41d8394a3cd59bd20d9818cd700ed95f73541547739",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "Compiled unchanged on leanprover/lean4:v4.36.0 with Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842 in the P0090 packet build transcript linked from the PR."
+}

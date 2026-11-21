@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.GeometryOfNumbers.LatticeCovolumes.HadZStA",
+  "source_sha256": "f5f30a0edfbb462c3ffde9fe7481b94a93084a242699394bb1ce33dd096d2976",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed `linearIndependent_finSnoc` (was `linearIndependent_fin_snoc`). Proof body only."
+}

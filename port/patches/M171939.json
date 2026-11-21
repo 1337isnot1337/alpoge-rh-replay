@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.GroupCohomology.ChiRkA",
+  "source_sha256": "9a82b06220489ba280b6c1e27597027029015b7092a84b24653841578e43334c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "Compiled unchanged on leanprover/lean4:v4.36.0 with Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842 in the P0090 packet build transcript linked from the PR."
+}

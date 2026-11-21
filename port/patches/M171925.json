@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.GeometryOfNumbers.PluriharmonicAnalysis.LogDetSt",
+  "source_sha256": "ebe39b12fc0098aac7790a86742eb5f1dbd773148d778363e7563526b753ee7b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed `HasDerivAt.fun_finsetProd` and `HasDerivAt.finsetProd` (were `fun_finset_prod`, `finset_prod`). Proof body only."
+}

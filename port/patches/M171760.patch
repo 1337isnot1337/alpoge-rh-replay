@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/DualLattices/FischerAdjointStatement.lean
++++ b/src/ReciprocityTheory/DualLattices/FischerAdjointStatement.lean
+@@ -44,7 +44,7 @@
+ 
+ def fischer (P Q : MvPolynomial (Fin ν × ι) ℂ) : ℂ :=
+   ∑ A ∈ P.support ∪ Q.support,
+-    coeff A P * starRingEnd ℂ (coeff A Q) * ((A.prod fun _ e => e.factorial : ℕ) : ℂ)
++    P.coeff A * starRingEnd ℂ (Q.coeff A) * ((A.prod fun _ e => e.factorial : ℕ) : ℂ)
+ 
+ def IsUpperUnitri (g : Matrix (Fin ν) (Fin ν) ℂ) : Prop :=
+   (∀ i, g i i = 1) ∧ ∀ i j, j < i → g i j = 0

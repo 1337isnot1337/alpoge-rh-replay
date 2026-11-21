@@ -1,0 +1,17 @@
+--- a/src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean
++++ b/src/ReciprocityTheory/GeometryOfNumbers/PluriharmonicAnalysis/LogDetSt.lean
+@@ -41,11 +41,11 @@
+         ((Equiv.Perm.sign σ : ℂ) * ∑ i, (∏ j ∈ Finset.univ.erase i, G t (σ j) j) • G' (σ i) i) t :=
+     fun σ _ => by
+       first
+-        | exact (HasDerivAt.fun_finset_prod (u := Finset.univ) (fun j _ => hG (σ j) j)).const_mul _
+-        | (have hp := HasDerivAt.finset_prod (u := Finset.univ) (fun j _ => hG (σ j) j)
++        | exact (HasDerivAt.fun_finsetProd (u := Finset.univ) (fun j _ => hG (σ j) j)).const_mul _
++        | (have hp := HasDerivAt.finsetProd (u := Finset.univ) (fun j _ => hG (σ j) j)
+            simp only [Finset.prod_apply] at hp
+            exact hp.const_mul _)
+-        | (have hp := HasDerivAt.finset_prod (u := Finset.univ) (fun j _ => hG (σ j) j)
++        | (have hp := HasDerivAt.finsetProd (u := Finset.univ) (fun j _ => hG (σ j) j)
+            convert hp.const_mul (Equiv.Perm.sign σ : ℂ) using 2
+            funext s
+            simp [Finset.prod_apply])

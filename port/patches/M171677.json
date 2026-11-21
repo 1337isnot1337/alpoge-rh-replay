@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ClassFieldTheory.PadicCompatibleSequences.ExistsPadicIntOfCompatibleSeq",
+  "source_sha256": "70be53d3f34869a19c2b247cff1724c759d26946b4a76513088c0fa72b7239c4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "Compiled unchanged on leanprover/lean4:v4.36.0 with Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842 in the P0090 packet build transcript linked from the PR."
+}
