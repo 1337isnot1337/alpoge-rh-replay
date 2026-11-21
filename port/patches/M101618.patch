@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/OrdExt.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/OrdExt.lean
+@@ -8,7 +8,7 @@
+   let φ : Fin n → (MonoidAlgebra R Γ →ₗ[R] E) := fun i =>
+     (MonoidAlgebra.lift R E Γ r).toLinearMap -
+       (Algebra.linearMap R E).comp (MonoidAlgebra.lift R R Γ (ψ i)).toLinearMap
+-  let F : MultilinearMap R (fun _ : Fin n => MonoidAlgebra R Γ) E :=
++  let F : MultilinearMap (RingHom.id R) (fun _ : Fin n => MonoidAlgebra R Γ) E :=
+     (MultilinearMap.mkPiAlgebraFin R n E).compLinearMap φ
+   have hF : F = 0 := by
+     refine Module.Basis.ext_multilinear (f := F) (g := 0)

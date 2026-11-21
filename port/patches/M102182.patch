@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/BuildingsResidueChars/ExistsEquivariantProjectionsOfSumIrreducible.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/BuildingsResidueChars/ExistsEquivariantProjectionsOfSumIrreducible.lean
+@@ -30,7 +30,7 @@
+     have h1 : ∀ i, e (Q i w) = DFinsupp.single i (e w i) := fun i => by simp [Q]
+     simp_rw [h1]
+     ext1 m
+-    rw [DFinsupp.finset_sum_apply]
++    rw [DFinsupp.finsetSum_apply]
+     rw [Finset.sum_eq_single m]
+     · simp
+     · intro b _ hb

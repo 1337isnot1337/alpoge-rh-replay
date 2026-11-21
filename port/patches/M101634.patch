@@ -1,0 +1,29 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/SmithZeroOne.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/SmithZeroOne.lean
+@@ -3,13 +3,15 @@
+ open Polynomial Matrix IsLocalRing TensorProduct
+ 
+ theorem UpperTheory.V.AlgebraTools.smith_zero_one :
+-    ∀ {A : Type} [CommRing A] [IsDomain A] [IsDiscreteValuationRing A] {F V : Type} [Field F] [Algebra A F] [IsFractionRing A F] [AddCommGroup V] [Module F V] [Module A V] [IsScalarTower A F V] [Module.Finite F V] (ϖ : A) (Y Z : Submodule A V), Irreducible ϖ → Submodule.IsLattice F Z → Y ≤ Z → maximalIdeal A • Z ≤ Y → ∃ (b : Module.Basis (Fin (Module.finrank F V)) F V) (S : Finset (Fin (Module.finrank F V))), Z = Submodule.span A (Set.range b) ∧ Y = Submodule.span A (Set.range fun i => if i ∈ S then ϖ • b i else b i) := by
++    ∀ {A : Type} [CommRing A] [IsDomain A] [IsDiscreteValuationRing A] {F V : Type} [Field F] [Algebra A F] [IsFractionRing A F] [AddCommGroup V] [Module F V] [Module A V] [IsScalarTower A F V] [Module.Finite F V] (ϖ : A) (Y Z : Submodule A V), Irreducible ϖ → Submodule.IsFullLattice F Z → Y ≤ Z → maximalIdeal A • Z ≤ Y → ∃ (b : Module.Basis (Fin (Module.finrank F V)) F V) (S : Finset (Fin (Module.finrank F V))), Z = Submodule.span A (Set.range b) ∧ Y = Submodule.span A (Set.range fun i => if i ∈ S then ϖ • b i else b i) := by
+   intro A _ _ _ F V _ _ _ _ _ _ _ _ ϖ Y Z hϖ hZ hYZ hmY
+   classical
+   haveI := hZ
++  haveI : Module.Finite A Z := Submodule.IsLattice.finite F Z
++  haveI : Module.Free A Z := Submodule.IsLattice.free F Z
+   have hfr : Module.finrank A Z = Module.finrank F V := by
+     apply Module.finrank_eq_of_rank_eq
+-    rw [Submodule.IsLattice.rank' F Z, Module.finrank_eq_rank]
++    rw [Submodule.IsFullLattice.rank_eq F Z, Module.finrank_eq_rank]
+   let b0 : Module.Basis (Fin (Module.finrank F V)) A Z := Module.finBasisOfFinrankEq A Z hfr
+   let N : Submodule A Z := Y.comap Z.subtype
+   have hϖm : ϖ ∈ maximalIdeal A := (IsLocalRing.mem_maximalIdeal _).2 hϖ.not_isUnit
+@@ -33,7 +35,7 @@
+     have := congrArg (fun m => b'.repr m i) hx
+     simp [x, Finsupp.single_apply, Finset.sum_apply'] at this
+     exact ⟨ab'.repr x i, by rw [this, mul_comm]⟩
+-  let B := b'.extendOfIsLattice F
++  let B := b'.extendOfIsFullLattice F
+   let S : Finset (Fin (Module.finrank F V)) := Finset.univ.filter fun i => ¬ IsUnit (a i)
+   refine ⟨B, S, ?_, ?_⟩
+   · have h1 : Submodule.map Z.subtype (⊤ : Submodule A Z) = Z := by simp
