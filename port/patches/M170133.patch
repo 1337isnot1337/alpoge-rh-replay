@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/PAdicHodge/SenTateCharUnits.lean
++++ b/src/GroundTheory/PAdicHodge/SenTateCharUnits.lean
+@@ -40,7 +40,7 @@
+ theorem eq_one_of_forall_mem_unitsOneAdd {u : ℤ_[p]ˣ} (hu : ∀ k, u ∈ unitsOneAdd p k) : u = 1 := by
+   by_contra hne
+   have h0 : (u : ℤ_[p]) - 1 ≠ 0 := by
+-    intro h; apply hne; ext; simpa [sub_eq_zero] using h
++    intro h; apply hne; exact Units.ext (sub_eq_zero.mp h)
+   have h := (PadicInt.mem_span_pow_iff_le_valuation _ h0 (((u : ℤ_[p]) - 1).valuation + 1)).1
+     (Ideal.mem_span_singleton.2 (hu _))
+   omega

@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.LocalFields.AbstractLocalReciprocity.ProfiniteInteger",
+  "source_sha256": "33f180a3b9ec75261fb57a91ea58d1a0d6e7a9f83d4e6ba3ba46731a851d406b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0086-lean436-20261121/packet-result.json"
+}

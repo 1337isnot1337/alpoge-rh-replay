@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.PowerSubgroups.CountableNeighbourhoods.SingleMemInitialCoordSubspace",
+  "source_sha256": "d7c740cda6b1768326a15a44e80c88ff149154e35dd1e8f68b20b7cf772d7f6e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0086-lean436-20261121/packet-result.json"
+}

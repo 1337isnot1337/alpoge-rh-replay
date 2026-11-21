@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.PAdicHodge.CompletedAlgClosure",
+  "source_sha256": "3b3378b512c4f77aa4a7dd4981d662b2a13e64f0c2cd5c2fdae46ef4574203c8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0086-lean436-20261121/packet-result.json"
+}

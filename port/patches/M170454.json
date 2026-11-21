@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ProfiniteCohomology.LocalEulerCharacteristic.CoprimeRegular",
+  "source_sha256": "e94b0e137332dba1d47c51434f2fdf9d6b19450d45e51d38f7b9c92ab13f7f50",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: adapt renamed and generalized Mathlib lemmas without changing the original hypotheses or conclusions. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0086-lean436-20261121/packet-result.json"
+}

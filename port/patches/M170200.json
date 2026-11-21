@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.PowerSubgroups.CountableNeighbourhoods.ExistsSmulMemFamilyOfSpanEqTop",
+  "source_sha256": "daa50bf390e2b0f8a6c722d84a55e48a0f3e31c8660b9d4529a6b7e7102e1d4b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0086-lean436-20261121/packet-result.json"
+}

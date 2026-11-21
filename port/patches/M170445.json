@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ProfiniteCohomology.LocalEulerCharacteristic.AdditiveDefs",
+  "source_sha256": "15fea463872edf20ce43b628fd39b0cf7c904c89795eec0eeb8f179ca6f507b8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0086-lean436-20261121/packet-result.json"
+}

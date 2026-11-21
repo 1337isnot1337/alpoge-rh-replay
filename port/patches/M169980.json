@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.PAdicHodge.Admissible",
+  "source_sha256": "a8418765e590b622474d8de6020b762c9b8b664c1a881a23339f7b605e10779d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the renamed Finsupp.coe_finsetSum lemma. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0086-lean436-20261121/packet-result.json"
+}
