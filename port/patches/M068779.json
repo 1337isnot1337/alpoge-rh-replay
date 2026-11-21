@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsCorestrictionCocycle",
+  "source_sha256": "316a19b46c23f412bf7dc3e71f86351347e84e13e830f660903efe9d2a97ea43",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename continuous_finset_sum to continuous_finsetSum; theorem statements and all other proof steps unchanged."
+}
