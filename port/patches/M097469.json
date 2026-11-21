@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.SumProdUpdateRegroupStatement",
+  "source_sha256": "5123650e70d1271d70880eb2e75f94d381a3b209594cc132ff61e0c1eac24c72",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0130-lean436-20261121/packet-result.json"
+}

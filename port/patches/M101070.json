@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.NegOneNotSqSqrtTwo",
+  "source_sha256": "155d36776b3b4a9a561ab82cd6c34010ddb0ddb4fb3040304162768b87e9b3b4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: adapt the target lemma name or explicit arguments while preserving the original mathematical operations, hypotheses and conclusion. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0130-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ShuffleCountLinearIndependentClasses",
+  "source_sha256": "bc9358442cd43cbab73c6f2ef7e2c0780ffeec3947b4a1ac2165e883f3e81c1c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent coefficient API: polynomial.coeff exponent is the same coefficient as the former namespace-level function with reversed arguments. The restriction map, support hypotheses and coefficient-zero statements are unchanged. Use the corresponding zero coefficient lemma. Use the corresponding addition coefficient lemma.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0130-lean436-20261121/packet-result.json"
+}

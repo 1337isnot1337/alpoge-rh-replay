@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.InvariantProbabilityLatticeQuotientUnique",
+  "source_sha256": "c925b87df9670a4e11b2e66ee94cfcb6112bd0fbfd916550fb68fd9becac4b28",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the renamed measurable sum, derive the required pointwise implication from the same almost-everywhere set equality, and supply measurability of inversion for measure-map scaling. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0130-lean436-20261121/packet-result.json"
+}

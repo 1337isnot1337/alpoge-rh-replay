@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.ExistsHorizontalGeneratorOfCharts",
+  "source_sha256": "a417837942c4e76d193486913c7f2a3c51e232831938139c7dc51c23e3ea9e97",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0130-lean436-20261121/packet-result.json"
+}
