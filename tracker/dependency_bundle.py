@@ -80,7 +80,10 @@ def check_archive(path, expected):
 
 def snapshot_shard(index, rows, project, receiver, output):
     artifacts, modules = {}, []
-    directories = ArtifactDirectoryIndex(ignored_suffixes=('.setup.json', '.trace.nobuild'))
+    rows = tuple(rows)
+    paths = (project / '.lake/build' / prefix / row['module'].replace('.', '/')
+             for row in rows for prefix in ('lib/lean', 'ir'))
+    directories = ArtifactDirectoryIndex(paths, ignored_suffixes=('.setup.json', '.trace.nobuild'))
     for row in rows:
         stem = row['module'].replace('.', '/')
         source = Path('src') / (stem + '.lean')
@@ -113,7 +116,10 @@ def reuse_command(targets):
 
 
 def artifact_names(root, rows):
-    directories = ArtifactDirectoryIndex(ignored_suffixes=('.setup.json', '.trace.nobuild'))
+    rows = tuple(rows)
+    paths = (root / '.lake/build' / prefix / row['module'].replace('.', '/')
+             for row in rows for prefix in ('lib/lean', 'ir'))
+    directories = ArtifactDirectoryIndex(paths, ignored_suffixes=('.setup.json', '.trace.nobuild'))
     names = set()
     for row in rows:
         for prefix in ('lib/lean', 'ir'):
