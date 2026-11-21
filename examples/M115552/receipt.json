@@ -1,0 +1,55 @@
+{
+  "task": "M115552",
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MemOfClosed",
+  "toolchain": "leanprover/lean4:v4.33.1",
+  "lean_commit": "819816b2e0a3bf405af45ae5c7af2491d8f5bee6",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "lean_flags": [
+    "-j1",
+    "-DElab.async=false",
+    "-DautoImplicit=false",
+    "-DrelaxedAutoImplicit=false",
+    "-DmaxSynthPendingDepth=3",
+    "-Dpp.unicode.fun=true",
+    "-DmaxHeartbeats=4000000",
+    "--tstack=400000"
+  ],
+  "sha256": {
+    "published": "644439f6a09726d3d3c4952b0add3c5d18ee8bb6d40e920bbe89b5685a8b6acf",
+    "revised": "cdd2e21bfbab6920114033d749ed4115806d29cc4f0dd246f89a5eef1c77e8a7",
+    "reference": "1ced4fa7e78faabf00de1734ad2ac352fcc0a6b1ff952b97e756799577b08791",
+    "audit": "a4f874d89d0ebe9e284da78746d192e62eabed88661b90899d1056514b2c4087",
+    "diff": "cbccce196b04313913909f1d5c9f39c2cf34bdb5ca2934a6884a92f1b4d32d80",
+    "transcript": "fc3f237b164e7dff9c47e81cf0c317ba40ea44682679f86a2d98d8074ff70f24"
+  },
+  "source_lines": {
+    "published": 5746,
+    "revised": 123
+  },
+  "heartbeats": {
+    "published": {
+      "public": 31750,
+      "total": 47087
+    },
+    "revised": {
+      "public": 10916,
+      "total": 26238
+    }
+  },
+  "audit": {
+    "public_declarations": 10,
+    "private_helpers": 2,
+    "counts_exclude_imports": true,
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "kernel_modules": [
+      "PublishedMemOfClosed",
+      "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MemOfClosed",
+      "AuditAll"
+    ],
+    "platform": "x86_64-w64-windows-gnu"
+  }
+}
