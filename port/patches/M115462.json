@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsIntegralDetOfIsIntegral",
+  "source_sha256": "78c69f9a3a98d70c2ecc05a0850eafb12138909b7b498f68be30da44f9d95241",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Adapt isIntegral_algebraMap_iff to use FaithfulSMul instance instead of explicit injectivity proof in Mathlib v4.36.0."
+}

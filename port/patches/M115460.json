@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsInfEmbUnique",
+  "source_sha256": "06b012b629e93a12977f5b57c395d3099a2f19c8ef69f397ae7f265bea2b961b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsIntegralOfNormLeOne",
+  "source_sha256": "6d183cb112c37d57c02b07247a4f3f85158bec2e855c2954a89d0d9792217de9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

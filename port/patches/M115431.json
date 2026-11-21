@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IntegralPolynomialSecond",
+  "source_sha256": "2323bdb0c5f9b131e968215fd093550970e3f577fdb3ceb0d22104d64b8f1107",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

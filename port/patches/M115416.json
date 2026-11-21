@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IntMvPderiv",
+  "source_sha256": "6667c6af7c80f18abf077578670db54fc9fdd3cff2bead6a68bebc7522cd17f4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Adapt MvPowerSeries.pderiv call in theorem statement and proof to implicit ring argument R = ℂ_[p] in Mathlib v4.36.0."
+}

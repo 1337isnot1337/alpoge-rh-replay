@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IntegralImagQuadraticHalfInt",
+  "source_sha256": "5b108d4696d449876a30ca9a9dbb66c85bf2948f0c78c0d6518e535a9172d48c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Adapt isIntegral_algebraMap_iff to use FaithfulSMul instance instead of explicit injectivity proof in Mathlib v4.36.0."
+}

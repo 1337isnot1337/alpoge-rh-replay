@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.InverseOmegaHolds",
+  "source_sha256": "2390e451e224b659df6df0210f7264dbb8a5cdbcbc3b480d22889a7c616545e6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Adapt PowerSeries.derivative calls to implicit coefficient ring argument R in Mathlib v4.36.0."
+}

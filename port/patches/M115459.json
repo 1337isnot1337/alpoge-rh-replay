@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsInducingCoeMatrix",
+  "source_sha256": "7e2b4019da251bbe4e4d6025a4060d940694883790cd35a0ce6d26c3e90e1f33",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

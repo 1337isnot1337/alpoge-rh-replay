@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsotypicStableGlOperator",
+  "source_sha256": "e5a6352c483bb14e3baa496555cdb5077d97f32d8b84f58780b1a74cfa8a91e5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

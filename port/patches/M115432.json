@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IntegralPolynomialSixth",
+  "source_sha256": "e46f3eb3562749a14f0387542493ef2bf6b8770a96f31ac42360158f7600a839",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
