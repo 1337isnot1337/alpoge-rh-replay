@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002602 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.ExtendedRepresentation` | volunteer-build-reviewed |
+| M002603 | P0705 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.FactorSeriesSupport` | build-observed |
+| M002605 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.FlatZetaIntegral` | volunteer-build-reviewed |
+| M002606 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.FockSingularValues` | build-observed |
+| M002609 | P1394 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.GraphHeightLattice` | volunteer-build-reviewed |
+| M002610 | P0758 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.HeckeCharacterParameters` | build-observed |
+| M002611 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.HermitianLattices` | wave-reused |
+| M002612 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.IndexAtLevel` | volunteer-build-reviewed |
 | M002614 | P0002 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.IwahoriSubgroup` | volunteer-build-reviewed |
 | M002615 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.JumpDictionary` | volunteer-build-reviewed |
 | M002616 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.LatticeConditions` | volunteer-build-reviewed |
@@ -93,9 +101,11 @@
 | M002852 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.FramePointsTrunc` | volunteer-build-reviewed |
 | M002853 | P0783 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.HtCharOfIsUnit` | volunteer-build-reviewed |
 | M002855 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.KFinDecayOfDecInf` | build-observed |
+| M002857 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.LowKAddStrictAnti` | volunteer-build-reviewed |
 | M002859 | P1856 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.NaturalOfChartIndep` | volunteer-build-reviewed |
 | M002868 | P0002 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.PremisesInhabited` | volunteer-build-reviewed |
 | M002871 | P1501 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ThetaMemLattice` | volunteer-build-reviewed |
+| M002875 | P0648 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.AdmissibleSmulIffOfCoprime` | volunteer-build-reviewed |
 | M002881 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ChosenEqOfAllRules` | volunteer-build-reviewed |
 | M002884 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ExistsBaseRingOfConjugationFixedTensor` | volunteer-build-reviewed |
 | M002890 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.JetTruncNotInjective` | volunteer-build-reviewed |
@@ -224,6 +234,7 @@
 | M003306 | P1501 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RingSpecNormalisedCharacterEq` | volunteer-build-reviewed |
 | M003309 | P0838 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.RowsRestWordColumnUnitBaseTuple` | build-observed |
 | M003311 | P0865 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SCuIsom` | build-observed |
+| M003314 | P1419 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SameForm` | volunteer-build-reviewed |
 | M003317 | P1856 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SecondChernDegreeVanishesTrueSurfaces` | volunteer-build-reviewed |
 | M003319 | P1856 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SeriesRatSOf` | volunteer-build-reviewed |
 | M003326 | P0810 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.SpreadLe` | build-observed |
@@ -391,14 +402,3 @@
 | M003786 | P1245 | `Development.AbelianVarietyTheory.Definitions.Divisors.MeasurableCompInfGL` | build-observed |
 | M003791 | P1114 | `Development.AbelianVarietyTheory.Definitions.Divisors.MemMspan` | build-observed |
 | M003793 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.MemShaKernelIffLocallyTrivial` | volunteer-build-reviewed |
-| M003796 | P1245 | `Development.AbelianVarietyTheory.Definitions.Divisors.MemSubPtsCutBaseChangeIff` | wave-reused |
-| M003801 | P1143 | `Development.AbelianVarietyTheory.Definitions.Divisors.MirSet` | build-observed |
-| M003810 | P1372 | `Development.AbelianVarietyTheory.Definitions.Divisors.NefFibOfIsNef` | wave-reused |
-| M003812 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.NoCommonZeroCombVal` | wave-reused |
-| M003816 | P0435 | `Development.AbelianVarietyTheory.Definitions.Divisors.NonemptyHomFixRepTrivial` | volunteer-build-reviewed |
-| M003821 | P2166 | `Development.AbelianVarietyTheory.Definitions.Divisors.NormNegCmConstantEqAtAllEmbeddings` | volunteer-build-reviewed |
-| M003823 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.NormSub` | volunteer-build-reviewed |
-| M003825 | P0435 | `Development.AbelianVarietyTheory.Definitions.Divisors.NotCompactOfMEqOne` | build-observed |
-| M003826 | P1472 | `Development.AbelianVarietyTheory.Definitions.Divisors.NotDominatesTopPlace` | volunteer-build-reviewed |
-| M003839 | P1298 | `Development.AbelianVarietyTheory.Definitions.Divisors.OfCore` | volunteer-build-reviewed |
-| M003843 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.OmAUnipFourierInv` | volunteer-build-reviewed |

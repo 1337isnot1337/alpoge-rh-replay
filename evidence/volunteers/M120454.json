@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M120454"
+  ],
+  "started_utc": "2026-11-21T03:14:38.720421+00:00",
+  "ended_utc": "2026-11-21T03:14:55.991985+00:00",
+  "elapsed_seconds": 17.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6307008
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.AlgebraProofs.MemRangeOfIntegralAtHeightOneOver:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2a5952aaaac97c4cab0dd75c2c316aeebd71189c6c1eadbdf9bbb3bcb930d81a",
+  "rebuilt_project_modules": [
+    "GroundTheory.ArithmeticGeometry.ToricVarieties.KrullDomain"
+  ],
+  "objects": {
+    "M120454": "7a928e4211e65c8c6d8bf7a2a59248bded33017597bec829a84dac950c9a56ae"
+  },
+  "bundle_sha256": "57d54fd8f240d2722da8c5ed86fd676a388dfedc379ff10ce087e14182e9a0e0",
+  "packet": "M120454",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11647#issuecomment-7056479624",
+  "reviewed_utc": "2026-11-21T06:14:44.618849+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

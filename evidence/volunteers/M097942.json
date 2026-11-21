@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M097942"
+  ],
+  "started_utc": "2026-11-21T03:15:31.488068+00:00",
+  "ended_utc": "2026-11-21T03:15:48.746943+00:00",
+  "elapsed_seconds": 17.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6305752
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.TsumSetIntegralFundamentalDomainEqZeroByOrbitsStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4aa2eaeda17cb65fc0268df45b7a71c932655e7f96d7ef70cd1cb057c033715d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.TsumSetIntegralFundamentalDomainEqZeroByOrbits"
+  ],
+  "objects": {
+    "M097942": "3610cac865bd7d4eefdca2083978a22150a4f871561b10cdc7112dca02805e4b"
+  },
+  "bundle_sha256": "392e6aa632bf5b5ea66b6f8e978161c95cd5f69d9d6546ee0019f0882cb5e83c",
+  "packet": "M097942",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11662#issuecomment-7056491787",
+  "reviewed_utc": "2026-11-21T06:02:35.620405+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. No binary bundle was supplied for independent object checksum review."
+}

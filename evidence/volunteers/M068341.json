@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M068341"
+  ],
+  "started_utc": "2026-11-21T03:10:31.299802+00:00",
+  "ended_utc": "2026-11-21T03:11:46.416288+00:00",
+  "elapsed_seconds": 75.1,
+  "host": {
+    "cpu_count": 9,
+    "mem_total_kib": 10206472,
+    "peak_child_rss_kib": 5327876
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DvrMatrixProjPreimageStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "caf892bb57d5f3ff475869d33921e004f84f360c86a1e1298a47601e19ff7ab4",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DvrMatrixProjPreimage"
+  ],
+  "objects": {
+    "M068341": "6703eefe8ec1c6a3cd1d474bddb45e862ff8a1c1c27d62ee682cfb8f93d89e8f"
+  },
+  "bundle_sha256": "d98d2794c44018a9dbc1869dabf0f6cdc70cbe33b7f7433e9e14ad608fdf51ef",
+  "packet": "M068341",
+  "contributor": "21Z121Z1",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11628#issuecomment-7056450166",
+  "reviewed_utc": "2026-11-21T06:04:13.327316+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M067195"
+  ],
+  "started_utc": "2026-11-21T03:36:10.785341+00:00",
+  "ended_utc": "2026-11-21T03:36:16.869348+00:00",
+  "elapsed_seconds": 6.1,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6805140
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardClProdFiniteAlgebraWithInvolution:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "017537e4b7c7cfab47cc7a4d71b158deed3d5773a03e2bb05af788ae8d9c3c3f",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M067195": "3acbc5e1f5b2b6cedf5f37579d37373ef8e3aacf5d14f6bd1980bdd45e877768"
+  },
+  "bundle_sha256": "092b6ac80a097750891f1ff67245fb137bd9af7ccd55f184967ced761b90672c",
+  "packet": "M067195",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11706#issuecomment-7056742891",
+  "reviewed_utc": "2026-11-21T06:06:19.133251+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

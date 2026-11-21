@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M041602"
+  ],
+  "started_utc": "2026-11-21T03:06:29.564311+00:00",
+  "ended_utc": "2026-11-21T03:07:37.511512+00:00",
+  "elapsed_seconds": 67.9,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6604168
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralNormPowMulLeSqrtWeightedSqStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "09a5cd9a463435328e737b0adcfc3b24638a826fe6432463e5560aa6be6a6a4c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralNormPowMulLeSqrtWeightedSq"
+  ],
+  "objects": {
+    "M041602": "b3fb4d005926b65cdc48360837aa9161355d5026132a44ac3f82f76c78dd02de"
+  },
+  "bundle_sha256": "3bfd0c24354a2f679d1ca6b921db05d2f3412891ae0b1b933b6c5fd1e0904998",
+  "packet": "M041602",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11508#issuecomment-7056389345",
+  "reviewed_utc": "2026-11-21T05:59:06.350355+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}

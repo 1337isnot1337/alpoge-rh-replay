@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M005437"
+  ],
+  "started_utc": "2026-11-21T03:38:17.645129+00:00",
+  "ended_utc": "2026-11-21T03:38:45.430841+00:00",
+  "elapsed_seconds": 27.2,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6808844
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsApproxModPowers:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "947ed375fe8ce450aa3dbc22676cafa5cd29804f8b5a094a3bc78be94879a0f2",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsForallAbvSubLt"
+  ],
+  "objects": {
+    "M005437": "c0e1d6b651d23c72db08bf6d2c10da6fcd26f614af939d8dcf3201a6b1357484"
+  },
+  "bundle_sha256": "1fcc8b339c3a60e3a995141f8ab83c4e98a97a3618956629e07bff358b3c79e1",
+  "packet": "M005437",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11780#issuecomment-7056751052",
+  "reviewed_utc": "2026-11-21T06:06:20.311685+00:00",
+  "review": "Verified the GitHub grant, target source hashes in the pinned archive, toolchain and input pins, exact target list and command, and the SHA-256 of the successful Lake transcript. Verified the uploaded bundle and every target .olean checksum."
+}
