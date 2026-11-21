@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingBasisEval",
+  "source_sha256": "7fe5f2b32213606d61804b3f7070716a3a5faa9cb733ef46f4ea34b9fec80976",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

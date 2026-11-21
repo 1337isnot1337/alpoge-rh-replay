@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingLTensorNaturality",
+  "source_sha256": "59e9109b1d3294c329a48ea0162c79643c57bccc6e56faf4fed6a5f2e156d12b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
