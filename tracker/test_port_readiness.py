@@ -137,3 +137,26 @@ class PortReadinessTest(unittest.TestCase):
                 'M000002 1 pruned DeadInMixed',
                 'M000003 0 untriaged LiveInMixed',
             ])
+
+    def test_missing_record_for_pruned_import_blocks_readiness(self):
+        rows = [
+            dict(id='M000001', module='PrunedImport', packet='P0001', depth=0, imports=[]),
+            dict(id='M000002', module='StillImportsIt', packet='P0002', depth=1, imports=['M000001']),
+            dict(id='M000003', module='Independent', packet='P0002', depth=1, imports=[]),
+        ]
+        cases = [
+            (['next'], []),
+            (['next', '--include-partial'],
+             ['P0002\tdepth 1\t1/2 unported modules ready (2 total)\t1 waiting for imports']),
+            (['show', 'P0002', '--ready-only'], ['M000003 1 untriaged Independent']),
+        ]
+        with patch.object(port.tasks, 'module_rows', return_value=rows), \
+                patch.object(port, 'ported', return_value=set()), \
+                patch.object(port, 'pruned', return_value={'M000001'}), \
+                patch.object(port, 'triage', return_value={}), \
+                patch.object(port, 'port_issues', return_value=set()):
+            for args, expected in cases:
+                with self.subTest(args=args), patch.object(sys, 'argv', ['port.py', *args]), \
+                        redirect_stdout(io.StringIO()) as output:
+                    port.main()
+                    self.assertEqual(output.getvalue().splitlines(), expected)
