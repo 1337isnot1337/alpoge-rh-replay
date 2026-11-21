@@ -2,6 +2,17 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M000837 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ContinuousDensitiesEqOfIntegralsOnCompacts` | volunteer-build-reviewed |
+| M000838 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ContinuousDensitiesEqOfIntegralsOnCompactsStatement` | volunteer-build-reviewed |
+| M000839 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ContinuousHermScal` | volunteer-build-reviewed |
+| M000840 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.CoordinateBijectionTraceForm` | volunteer-build-reviewed |
+| M000841 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.CoordinateBijectionTraceFormStatement` | volunteer-build-reviewed |
+| M000842 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.CoordinateHaarMeasure` | volunteer-build-reviewed |
+| M000843 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.CoordinateHaarMeasureStatement` | volunteer-build-reviewed |
+| M000844 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.CoordinateHomeomorphRankOneTuples` | volunteer-build-reviewed |
+| M000845 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.CoordinateHomeomorphRankOneTuplesStatement` | volunteer-build-reviewed |
+| M000846 | P0974 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.CoordinateHomeomorphTensorProductMeasure` | build-observed |
+| M000847 | P1001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.CoordinateHomeomorphTensorProductMeasureStatement` | build-observed |
 | M000848 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.CoordinatePolynomialsFormMemKernelDifferential` | volunteer-build-reviewed |
 | M000850 | P1834 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.CountingRationalVectorsBoxBoundStatement` | build-observed |
 | M000853 | P0094 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.CuspRepresentativesFinite` | volunteer-build-reviewed |
@@ -22,9 +33,11 @@
 | M000870 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.DualLatticeParametrizationStatement` | volunteer-build-reviewed |
 | M000872 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.EisensteinLatticeSumBoundStatement` | volunteer-build-reviewed |
 | M000873 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.EtaleAwayQuotientEqLocalization` | volunteer-build-reviewed |
+| M000876 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.EulerProductLocallyFinite` | volunteer-build-reviewed |
 | M000879 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.EulerProductMeasureIntegralStatement` | volunteer-build-reviewed |
 | M000880 | P1323 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.EulerProductMeasureTransport` | build-observed |
 | M000881 | P1349 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.EulerProductMeasureTransportStatement` | build-observed |
+| M000882 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.EulerProductMeasureZero` | volunteer-build-reviewed |
 | M000884 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsCompactForMeasurePreservingEndos` | build-observed |
 | M000887 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsCuspReductionBoundStatement` | volunteer-build-reviewed |
 | M000888 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsEqAdelicCharMul` | volunteer-build-reviewed |
@@ -43,10 +56,12 @@
 | M000902 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsTraceFormGramMatrixInBasisStatement` | volunteer-build-reviewed |
 | M000904 | P1761 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsUnipotentInvariantCompactlySupportedWeightStatement` | build-observed |
 | M000909 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FibreFamilySmul` | volunteer-build-reviewed |
-| M000914 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FiniteAdeleTopology` | build-observed |
+| M000912 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FiniteAdeleHaarPiRestrictedProduct` | volunteer-build-reviewed |
+| M000914 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FiniteAdeleTopology` | volunteer-build-reviewed |
 | M000915 | P1271 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FiniteAdeleTopologyStatement` | build-observed |
 | M000916 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FiniteAdelicLatticeMembershipIff` | volunteer-build-reviewed |
 | M000917 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FiniteAdelicLatticeMembershipIffStatement` | volunteer-build-reviewed |
+| M000918 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FiniteAdelicTraceFormCoordinates` | volunteer-build-reviewed |
 | M000920 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FiniteCovolumeUnimodular` | volunteer-build-reviewed |
 | M000921 | P0094 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FiniteCovolumeUnimodularStatement` | volunteer-build-reviewed |
 | M000922 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FiniteFieldQuadraticFormPointCount` | volunteer-build-reviewed |
@@ -75,6 +90,7 @@
 | M000955 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramBlockOneFirstVectorFormula` | volunteer-build-reviewed |
 | M000956 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramBlockOneFirstVectorFormulaStatement` | volunteer-build-reviewed |
 | M000957 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramCoordinatesMeasurable` | volunteer-build-reviewed |
+| M000958 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramCoordinatesMeasurableStatement` | volunteer-build-reviewed |
 | M000959 | P0582 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramFiberConsProductDensity` | build-observed |
 | M000960 | P0615 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramFiberConsProductDensityStatement` | build-observed |
 | M000961 | P0515 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramFiberConsProductDisintegration` | build-observed |
@@ -135,6 +151,7 @@
 | M001020 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramTransposeDualTraceIdentityStatement` | volunteer-build-reviewed |
 | M001021 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GroupActionHaarScalingContinuous` | volunteer-build-reviewed |
 | M001023 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarFundamentalDomainExistsUnitary` | volunteer-build-reviewed |
+| M001024 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarFundamentalDomainExistsUnitaryStatement` | volunteer-build-reviewed |
 | M001027 | P2013 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarFundamentalDomainRankOneDensity` | build-observed |
 | M001028 | P2032 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarFundamentalDomainRankOneDensityStatement` | build-observed |
 | M001029 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarInvariantUnderTransvection` | volunteer-build-reviewed |
@@ -146,6 +163,7 @@
 | M001036 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMeasureProdOfAddGroupsStatement` | volunteer-build-reviewed |
 | M001037 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarModularCharacterOfContinuousAction` | volunteer-build-reviewed |
 | M001038 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarModularCharacterOfContinuousActionStatement` | volunteer-build-reviewed |
+| M001039 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarScalingUnderFlow` | volunteer-build-reviewed |
 | M001041 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HarrisTaylorCardKilledByIdealEqAbsNormPow` | volunteer-build-reviewed |
 | M001042 | P0974 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianDiagonalizeOverReducedTensor` | build-observed |
 | M001043 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianFormDiagonalizesOverField` | volunteer-build-reviewed |
@@ -197,14 +215,18 @@
 | M001106 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LatticeStableAlmostEverywhereStatement` | volunteer-build-reviewed |
 | M001107 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LebesgueSelfdualForDotCharacter` | volunteer-build-reviewed |
 | M001108 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LinearChangeEulerProduct` | volunteer-build-reviewed |
-| M001109 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LinearChangeEulerProductStatement` | build-observed |
+| M001109 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LinearChangeEulerProductStatement` | volunteer-build-reviewed |
+| M001110 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalDensitiesBlockOneAlmostAll` | volunteer-build-reviewed |
 | M001113 | P1616 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalDensitiesBoundedAlmostAllStatement` | build-observed |
+| M001114 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalDensitiesCongruentTargetAlmostAll` | volunteer-build-reviewed |
 | M001116 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalDensityBlockOneEventually` | volunteer-build-reviewed |
+| M001117 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalDensityBlockOneEventuallyStatement` | volunteer-build-reviewed |
 | M001118 | P1169 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalDensityBlockOneProduct` | build-observed |
 | M001119 | P1193 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalDensityBlockOneProductStatement` | build-observed |
 | M001120 | P1084 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalDensityBlockOneSum` | build-observed |
 | M001121 | P1114 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalDensityBlockOneSumStatement` | build-observed |
 | M001122 | P0515 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalFieldSelfdualMeasureExists` | build-observed |
+| M001124 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalGramFiberMeasuresAgreeAlmostAll` | volunteer-build-reviewed |
 | M001130 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalHermitianDiagonalizationUnits` | volunteer-build-reviewed |
 | M001131 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalHermitianDiagonalizationUnitsStatement` | volunteer-build-reviewed |
 | M001133 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalLatticeCompactOpenUnitVolumeStatement` | volunteer-build-reviewed |
@@ -212,6 +234,7 @@
 | M001138 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalQuadraticDensityBoundNonzero` | volunteer-build-reviewed |
 | M001139 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalQuadraticDensityBoundNonzeroStatement` | volunteer-build-reviewed |
 | M001140 | P1419 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalQuadraticDensityNearOne` | build-observed |
+| M001142 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalRankOneDensityUniformizerPower` | volunteer-build-reviewed |
 | M001143 | P1271 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalRankOneDensityUniformizerPowerStatement` | build-observed |
 | M001144 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalUnitsContinuousSquareRoot` | volunteer-build-reviewed |
 | M001145 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LocalUnitsContinuousSquareRootStatement` | volunteer-build-reviewed |
@@ -223,6 +246,7 @@
 | M001152 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.MatrixTransvectionDiagonalDecompositionStatement` | volunteer-build-reviewed |
 | M001153 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.MeasurableCoordinateMapsTensor` | volunteer-build-reviewed |
 | M001154 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.MeasurableCoordinateMapsTensorStatement` | volunteer-build-reviewed |
+| M001155 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.MeasurableFiniteLevelLatticeSet` | volunteer-build-reviewed |
 | M001156 | P1271 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.MeasurableFiniteLevelLatticeSetStatement` | build-observed |
 | M001157 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.MeasureEqHaarProdOfLeftInvariant` | volunteer-build-reviewed |
 | M001159 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.MobiusActionUpperHalfPlaneStatement` | volunteer-build-reviewed |
@@ -274,6 +298,7 @@
 | M001242 | P1688 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SiegelWeilFormulaRange` | build-observed |
 | M001248 | P1372 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SiegelWeilMeasureOfCongruentForm` | build-observed |
 | M001251 | P1394 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SiegelWeilMeasureOfCongruentTargetStatement` | build-observed |
+| M001256 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SiegelWeilMeasureRankZero` | volunteer-build-reviewed |
 | M001261 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SizeFunctionRapidDecayIntegrable` | volunteer-build-reviewed |
 | M001262 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SizeFunctionRapidDecayIntegrableStatement` | volunteer-build-reviewed |
 | M001265 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SplitAnisotropic` | volunteer-build-reviewed |
@@ -324,6 +349,7 @@
 | M001323 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryActionPreservesHaarLocal` | volunteer-build-reviewed |
 | M001324 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryActionPreservesHaarLocalStatement` | volunteer-build-reviewed |
 | M001325 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryGroupFiniteVolume` | volunteer-build-reviewed |
+| M001326 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryGroupFiniteVolumeStatement` | volunteer-build-reviewed |
 | M001327 | P0238 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryIsomOfIsometry` | build-observed |
 | M001328 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryTransitiveOnIsotropicVectors` | volunteer-build-reviewed |
 | M001329 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryTransitiveOnIsotropicVectorsStatement` | volunteer-build-reviewed |
@@ -351,6 +377,8 @@
 | M001456 | P2530 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.StarDepthBoundedDenominatorStatement` | volunteer-build-reviewed |
 | M001482 | P0238 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.GlobalTheory.ExistsExpUnitary` | volunteer-build-reviewed |
 | M001489 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.NefEffectiveCones.EventuallyEvalNegOfCoeffNeg` | volunteer-build-reviewed |
+| M001496 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.SmoothMorphisms.ExistsFgSmoothOfRelativeDimension` | volunteer-build-reviewed |
+| M001500 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.SmoothMorphisms.LineBundleSpreadsOut` | volunteer-build-reviewed |
 | M001502 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.AdaptExists` | volunteer-build-reviewed |
 | M001503 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.AdaptExistsStatement` | volunteer-build-reviewed |
 | M001508 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.AlgCoreSubOfAlgCore` | volunteer-build-reviewed |
@@ -374,31 +402,3 @@
 | M001537 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CartanDecompositionStatement` | volunteer-build-reviewed |
 | M001538 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CartanExists` | volunteer-build-reviewed |
 | M001542 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CasimirSplitting` | volunteer-build-reviewed |
-| M001543 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CasimirSplittingStatement` | volunteer-build-reviewed |
-| M001544 | P0731 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CayleyHamiltonStatement` | build-observed |
-| M001545 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CayleyHamiltonStatementStatement` | volunteer-build-reviewed |
-| M001554 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CenterActionCommutesLeviDifference` | volunteer-build-reviewed |
-| M001555 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CenterActionCommutesLeviDifferenceStatement` | volunteer-build-reviewed |
-| M001556 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ChartExistence` | volunteer-build-reviewed |
-| M001557 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ChartExistenceStatement` | volunteer-build-reviewed |
-| M001561 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CommuteOfUnitaryConjugate` | volunteer-build-reviewed |
-| M001562 | P1938 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CommutingLocallyNilpotentCommonKernel` | build-observed |
-| M001564 | P0435 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CompactFiniteAdelesAwayPBoundedDenominators` | build-observed |
-| M001565 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CompactSubgroupFiniteOpenCosets` | volunteer-build-reviewed |
-| M001566 | P0094 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CompactSubgroupFiniteOpenCosetsStatement` | volunteer-build-reviewed |
-| M001567 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceEndomorphismInverseExists` | volunteer-build-reviewed |
-| M001568 | P0238 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceEndomorphismInverseExistsStatement` | volunteer-build-reviewed |
-| M001569 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsCompact` | volunteer-build-reviewed |
-| M001570 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsCompactStatement` | volunteer-build-reviewed |
-| M001571 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsOpen` | volunteer-build-reviewed |
-| M001572 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupIsOpenStatement` | volunteer-build-reviewed |
-| M001573 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupNormalInMaximalCompact` | volunteer-build-reviewed |
-| M001574 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupNormalInMaximalCompactStatement` | volunteer-build-reviewed |
-| M001575 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupsNeighborhoodBasis` | volunteer-build-reviewed |
-| M001576 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CongruenceSubgroupsNeighborhoodBasisStatement` | volunteer-build-reviewed |
-| M001577 | P1501 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ConjQdet` | volunteer-build-reviewed |
-| M001578 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.ContinuousDiag` | volunteer-build-reviewed |
-| M001581 | P0757 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CountingBound` | volunteer-build-reviewed |
-| M001582 | P0783 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CountingBoundStatement` | volunteer-build-reviewed |
-| M001583 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CreAnnApply` | volunteer-build-reviewed |
-| M001584 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.CreApply` | volunteer-build-reviewed |

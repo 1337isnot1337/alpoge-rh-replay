@@ -1,0 +1,50 @@
+{
+  "tasks": [
+    "M014047"
+  ],
+  "started_utc": "2026-11-20T20:11:02.548539+00:00",
+  "ended_utc": "2026-11-20T20:12:10.798623+00:00",
+  "elapsed_seconds": 66.4,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16473744,
+    "peak_child_rss_kib": 7068980
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ThetaSystemOrthogonalLabelsAreTorusPoints:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "58757ee2750d74b8027bcc6be51331be8c92b3ed3c45293eb39a66ae5c53eaa5",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Degenerations.BaseFacts",
+    "Development.AbelianVarietyTheory.Definitions.Degenerations.CompanionTheory",
+    "Development.AbelianVarietyTheory.Definitions.Degenerations.IsAffineSplitTorusLeft",
+    "Development.AbelianVarietyTheory.Definitions.Degenerations.IsBasisB",
+    "Development.AbelianVarietyTheory.Definitions.Degenerations.IsNormalSchemeSp",
+    "Development.AbelianVarietyTheory.Definitions.Degenerations.PullChartIsLB",
+    "Development.AbelianVarietyTheory.Definitions.Degenerations.Ser",
+    "Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorusPoint",
+    "Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsTorusTorsionPointStandardAlternatingForm",
+    "Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsoFreePerpLabelKernelWeights",
+    "Development.AbelianVarietyTheory.Proofs.DegenerationProofs.KfBijective",
+    "Development.AbelianVarietyTheory.Proofs.DegenerationProofs.OrthogonalFreeOfPerfectAltZmod",
+    "Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ThetaSysFFMemFinitePerpProj",
+    "Development.AbelianVarietyTheory.Proofs.ModuliProofs.WeilIsIffOfIsGrpPullbackComm",
+    "Development.AbelianVarietyTheory.Proofs.UniformizationProofs.TxFrameOfOne",
+    "Development.AbelianVarietyTheory.Proofs.UniformizationProofs.UnivIdentity"
+  ],
+  "objects": {
+    "M014047": "a48dcdf050f55a8f2d264615e54249db4114b7a2b7c90c57514959b588f9039b"
+  },
+  "bundle_sha256": "7b8d55e1a581c759ed429818a94e561e0971d7da75b24015af01e7614509edf9",
+  "packet": "M014047",
+  "contributor": "m4tthewdavis",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6099#issuecomment-7053317314",
+  "reviewed_utc": "2026-11-21T11:16:44.647562+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}
