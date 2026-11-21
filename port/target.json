@@ -1,0 +1,6 @@
+{
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": null,
+  "mathlib_note": "Pinned by the first port PR: newest Mathlib master commit whose lean-toolchain is v4.36.0 (full hash), reviewed by a maintainer.",
+  "replay_pins_unchanged": {"lean": "leanprover/lean4:v4.33.1", "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474"}
+}

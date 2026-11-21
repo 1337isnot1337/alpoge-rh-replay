@@ -15,6 +15,10 @@ When writing or refactoring a proof in a research checkout, look for a matching 
 
 For repeated assignments on a prepared Linux volume, follow the [persistent worker guide](CONTRIBUTING.md#run-a-persistent-volunteer-worker). Refresh the worker inventory and use `tracker/tasks.py next --warm WORKER.json` for a queue of distinct candidates. Let `tracker/worker.py` own the reservations and submissions for that queue. Set `--jobs` to the number of active claims your container can build within its memory and disk limits. Save the state directory so the worker can resume and reconcile each grant after an interruption. On a warm cache, include the target-level kernel replay record with the build receipt.
 
+## Optional porting track
+
+A separate, optional track ports the archive to Lean 4.36.0 and a current Mathlib, one packet at a time, as patches against the pinned sources. It earns no replay credit and never changes the replay's pins. Follow [PORTING.md](PORTING.md). Port issues are titled `Port P0123` and are not handled by the claims bot.
+
 ## Maintainer checks
 
 The claim workflow serializes reconciliation of all open issues, preserves valid grants, and rejects overlap between packet and module reservations. Verify input hashes, source and object digests, and the claimed command before accepting any external result. Keep outside artifacts and code in isolated environments. Publish a full-RH verdict only after the criteria in README.md are satisfied.
