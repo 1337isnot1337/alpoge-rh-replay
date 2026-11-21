@@ -178,6 +178,7 @@ def main():
     reviewed = 0
     missing_volunteer_tasks = []
     dup_reviewed, claim_mismatch, bad_objects, incomplete_reviewed = [], [], [], []
+    sha256_re = re.compile(r'^[0-9a-f]{64}$')
     packet_task_ids = defaultdict(set)
     for r in rows:
         packet_task_ids[r['packet']].add(r['id'])
@@ -187,45 +188,59 @@ def main():
         except Exception as e:
             unparsed.append(f'{path.relative_to(root)}: {e}')
             continue
-        # Files under evidence/volunteers/ are build receipts, so each
-        # one must carry a task list: without one, the receipt checks
-        # below (which are keyed on 'tasks') would skip the file
-        # entirely. Other evidence records keep their existing formats.
-        if path.parent.name == 'volunteers':
-            if not isinstance(record, dict) or not isinstance(record.get('tasks'), list):
-                missing_volunteer_tasks.append(path.name)
-        if isinstance(record, dict) and 'tasks' in record:
+        rel_evidence = path.relative_to(root / 'evidence')
+        in_volunteers = bool(rel_evidence.parts) and rel_evidence.parts[0] == 'volunteers'
+        # Every file anywhere under evidence/volunteers/ is a reviewed build receipt
+        # and must carry a non-empty string task list, a valid packet/module claim,
+        # pinned mathlib commit, strict integer exit_code == 0, and SHA-256 object digests.
+        if in_volunteers:
+            if (not isinstance(record, dict)
+                    or not isinstance(record.get('tasks'), list)
+                    or not record['tasks']
+                    or not all(isinstance(t, str) for t in record['tasks'])):
+                missing_volunteer_tasks.append(str(rel_evidence))
+            if isinstance(record, dict):
+                if record.get('mathlib') != summary['mathlib_commit']:
+                    bad_mathlib.append(str(rel_evidence))
+                if type(record.get('exit_code')) is not int or record.get('exit_code') != 0:
+                    bad_exit.append(str(rel_evidence))
+                if 'packet' not in record:
+                    incomplete_reviewed.append(str(rel_evidence))
+        if isinstance(record, dict) and 'tasks' in record and isinstance(record['tasks'], list):
             receipts += 1
-            bad_tasks += [f'{path.name}:{t}' for t in record['tasks'] if t not in by_id]
-            if 'mathlib' in record and record['mathlib'] != summary['mathlib_commit']:
-                bad_mathlib.append(path.name)
-            if 'exit_code' in record and record['exit_code'] != 0:
-                bad_exit.append(path.name)
+            tasks_list = record['tasks']
+            bad_tasks += [f'{path.name}:{t}' for t in tasks_list if not isinstance(t, str) or t not in by_id]
+            if not in_volunteers:
+                if 'mathlib' in record and record['mathlib'] != summary['mathlib_commit']:
+                    bad_mathlib.append(path.name)
+                if 'exit_code' in record and (type(record['exit_code']) is not int or record['exit_code'] != 0):
+                    bad_exit.append(path.name)
             # A reviewed receipt (one carrying a 'packet' claim: a packet id
             # for a packet build, or a module id for a single-module build)
             # credits work, so its task list has to be exactly what it
             # claims: no duplicates, every task in the claimed packet (or
-            # the claimed module itself), one object digest per task, and
-            # the full set of ids for the claim -- a receipt missing a
-            # target is incomplete even if every remaining task matches.
+            # the claimed module itself), one valid SHA-256 object digest per task,
+            # and the full set of ids for a known claim.
             if 'packet' in record:
                 reviewed += 1
                 claim = record['packet']
-                tasks = record['tasks']
+                tasks = tasks_list
                 if len(set(tasks)) != len(tasks):
                     dup_reviewed.append(path.name)
                 claim_mismatch += [f'{path.name}:{t}' for t in tasks
-                                   if t in by_id and by_id[t]['packet'] != claim and t != claim]
-                if claim in packet_task_ids:
+                                   if isinstance(t, str) and t in by_id and by_id[t]['packet'] != claim and t != claim]
+                if isinstance(claim, str) and claim in packet_task_ids:
                     expected_tasks = packet_task_ids[claim]
-                elif claim in by_id:
+                elif isinstance(claim, str) and claim in by_id:
                     expected_tasks = {claim}
                 else:
-                    expected_tasks = set()
-                if set(tasks) != expected_tasks:
+                    expected_tasks = None
+                if expected_tasks is None or not tasks or set(tasks) != expected_tasks:
                     incomplete_reviewed.append(path.name)
                 objects = record.get('objects')
-                if not isinstance(objects, dict) or set(objects) != set(tasks):
+                if (not isinstance(objects, dict)
+                        or set(objects) != set(tasks)
+                        or not all(isinstance(v, str) and sha256_re.fullmatch(v) for v in objects.values())):
                     bad_objects.append(path.name)
     check('evidence.json_parses', not unparsed,
           'every evidence file parses as JSON' if not unparsed
