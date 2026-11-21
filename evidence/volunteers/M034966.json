@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M034966"
+  ],
+  "started_utc": "2026-11-21T05:33:24.153199+00:00",
+  "ended_utc": "2026-11-21T05:33:37.341120+00:00",
+  "elapsed_seconds": 13.2,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6827032
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeckeFourierTermWirtingerWordDifferentiableOn:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "181e719fc81435c7d013db3d91c9675d71aaf9014c7f05e3712774efabd44690",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedDerivHeckePhiTransformHasDerivAtHolo",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedDerivHeckePhiTransformHasDerivAtHoloStatement"
+  ],
+  "objects": {
+    "M034966": "4762c7607a68659601437afde04804281f345ccd43a93416aa7062405611423f"
+  },
+  "bundle_sha256": "5667edb7a378fdaa6c96041ceaf840743a8b4ab014878e156a9ceda419f83a1f",
+  "packet": "M034966",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13998#issuecomment-7058096973",
+  "reviewed_utc": "2026-11-21T06:05:46.928462+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

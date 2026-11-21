@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M088107"
+  ],
+  "started_utc": "2026-11-21T02:00:32.224023+00:00",
+  "ended_utc": "2026-11-21T02:00:46.111097+00:00",
+  "elapsed_seconds": 13.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6257288
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.InfinitePlaceEqOfEmbeddingCompAlgebraMapEqStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "76cdb7e4b0aeb1786bd3aebe026463c2b0ac23e786bdd588d38f569ec380791d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.SatakeParameters.InfinitePlaceEqOfEmbeddingCompAlgebraMapEq"
+  ],
+  "objects": {
+    "M088107": "24c16aa5786795609d3be3eb863c4f2507123c26cbee1e40e889b80095025ab2"
+  },
+  "bundle_sha256": "bfbcaa1e6d5c831113d256b6812ec307bb5abc01aa507f3279cae8cba6d9f1bf",
+  "packet": "M088107",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10360#issuecomment-7055576711",
+  "reviewed_utc": "2026-11-21T06:20:24.080688+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

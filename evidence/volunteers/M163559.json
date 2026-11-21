@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M163559"
+  ],
+  "started_utc": "2026-11-21T01:52:08.947821+00:00",
+  "ended_utc": "2026-11-21T01:52:31.449512+00:00",
+  "elapsed_seconds": 22.5,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6658800
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.PBaseChangeAvoid:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e2c3d25dfafc153165f628eb970dc55f7358f28baf9b42a37a3f54d02e2002aa",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.ConeBall",
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.Statements"
+  ],
+  "objects": {
+    "M163559": "02b322f1793dd8d8c5d646cfb3f1b4555b265f875e187a3bcdc292c21cc651f7"
+  },
+  "bundle_sha256": "c02ad56c998775655c3ed80c45085454b4ffbb98222fb1581d748835cd42146b",
+  "packet": "M163559",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10252#issuecomment-7055455344",
+  "reviewed_utc": "2026-11-21T06:20:47.633685+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

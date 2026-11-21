@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M001482"
+  ],
+  "started_utc": "2026-11-21T04:54:39.931039+00:00",
+  "ended_utc": "2026-11-21T04:54:50.287566+00:00",
+  "elapsed_seconds": 9.7,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6811648
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+CompanionTheory.SpectralGeometry.LocalGlobalProofs.GlobalTheory.ExistsExpUnitary:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "884a660e36c9095d05f74ea64660a5e34351882d136f3925cf93ad17bd97333a",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.DiscreteSeries.AnalyticVectors.ExistsExpEqOfMemKset"
+  ],
+  "objects": {
+    "M001482": "ac242bb90d70c75699f5b7a40cf4d8865f0fa3e0b183e025932a99613ada88c4"
+  },
+  "bundle_sha256": "2a009719426e30ad15b91ede8553bf77deddebaf79af4e6527faf462bb96dfe7",
+  "packet": "M001482",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13084#issuecomment-7058107295",
+  "reviewed_utc": "2026-11-21T06:10:08.752083+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

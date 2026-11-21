@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M111957"
+  ],
+  "started_utc": "2026-11-21T05:24:23.339905+00:00",
+  "ended_utc": "2026-11-21T05:25:01.480743+00:00",
+  "elapsed_seconds": 38.1,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 26442420,
+    "peak_child_rss_kib": 6789264
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PNilAnn:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b3865cfcead6961ff1883d4cbced2d11896dc12c276cf4906eb259d439a021ab",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.DinvExact",
+    "Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.GenericMulOfProd"
+  ],
+  "objects": {
+    "M111957": "8bf9068d3c0e2f56d641711598fcfc1f425e273e4f6cd17cc442f0eafb7af1c5"
+  },
+  "bundle_sha256": "37783cfc300151f603f13ec76139037161e59c018013a2752362aaed418522d8",
+  "packet": "M111957",
+  "contributor": "jwr404",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13752#issuecomment-7057913218",
+  "reviewed_utc": "2026-11-21T06:06:57.510514+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

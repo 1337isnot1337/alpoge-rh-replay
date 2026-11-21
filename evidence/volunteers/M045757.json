@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M045757"
+  ],
+  "started_utc": "2026-11-21T05:06:18.382411+00:00",
+  "ended_utc": "2026-11-21T05:06:39.057855+00:00",
+  "elapsed_seconds": 20.7,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6634780
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.PicIsOfFinOrderOfFiniteInt:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3af0cbcfc5909d4515f1034997e0bc1b17d03821468c8fc7ee3e23e1e571600d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOfFinOrderOfIsOfFinOrderMapRingHom",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOfFinOrderOfIsOfFinOrderMapRingHomStatement"
+  ],
+  "objects": {
+    "M045757": "ba630a5527942963ec63af3b0d1f71adc2397189c778e78e912517375685802a"
+  },
+  "bundle_sha256": "8e121412a253fcb5ec3c735ac9a77abece940b40cfcfcfbfff538dd440680689",
+  "packet": "M045757",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13327#issuecomment-7057686264",
+  "reviewed_utc": "2026-11-21T06:09:00.532193+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M016673"
+  ],
+  "started_utc": "2026-11-21T01:59:39.066398+00:00",
+  "ended_utc": "2026-11-21T01:59:55.139190+00:00",
+  "elapsed_seconds": 16.1,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6618704
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedPowersPadicIntegral:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b103079d295414975b8baa4aaf966c91839f18fbfabcbbc4535a533cb7206aff",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SiegelWeilOrbitalMeasure"
+  ],
+  "objects": {
+    "M016673": "c74c99cf4b8534551f53b549d9216ecd5b1c8c802041f48dc8df23472531bbe5"
+  },
+  "bundle_sha256": "c77127ec4941e8495b9098c67e8676142f13a2faa1b4c4cbeca2e1d2057c2c50",
+  "packet": "M016673",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10499#issuecomment-7055552829",
+  "reviewed_utc": "2026-11-21T06:19:58.801506+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

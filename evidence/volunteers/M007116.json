@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M007116"
+  ],
+  "started_utc": "2026-11-21T01:32:19.012362+00:00",
+  "ended_utc": "2026-11-21T01:32:35.755587+00:00",
+  "elapsed_seconds": 16.7,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 63244524,
+    "peak_child_rss_kib": 7256916
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsCoordsNoHomogeneousRelationGenericHyperpla:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "27443372e516beb67fdf0e97a489b472f5cbc10df1c90ae25e7eda1bfb39c6f3",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsAlgebraicIndependentRatiosOfGenericZero",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.LaTIsPrime"
+  ],
+  "objects": {
+    "M007116": "5ffab1fbed283b700bdde5542f20b476985de658d8d907975f2ef8267080e901"
+  },
+  "bundle_sha256": "ae318739fcfa1b44971035dd489ffda5be05b1eccaa238a6b6e009d13044f1cf",
+  "packet": "M007116",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9738#issuecomment-7055191265",
+  "reviewed_utc": "2026-11-21T06:22:42.479576+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

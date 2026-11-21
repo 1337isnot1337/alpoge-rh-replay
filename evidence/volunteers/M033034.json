@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M033034"
+  ],
+  "started_utc": "2026-11-21T01:40:47.475602+00:00",
+  "ended_utc": "2026-11-21T01:41:03.735111+00:00",
+  "elapsed_seconds": 16.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6221380
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FreeOfPrincipalMaximalIdealOfKerSmulLeStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e7c520714fb05573dd80522f3c0a186036ecc49679aba94f5fab79d0bdce0e5a",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FreeOfPrincipalMaximalIdealOfKerSmulLe"
+  ],
+  "objects": {
+    "M033034": "972317b80af59f4516fee11f60c7842693a4efa95ac97099588ddd1b9e521a84"
+  },
+  "bundle_sha256": "2fd7415a1c8f6ab5efd2375b6368c42b961f21a0f136e5ea9e25d9658acd1b56",
+  "packet": "M033034",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9896#issuecomment-7055313927",
+  "reviewed_utc": "2026-11-21T06:22:09.689941+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

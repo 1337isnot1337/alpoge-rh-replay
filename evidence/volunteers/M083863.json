@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M083863"
+  ],
+  "started_utc": "2026-11-21T02:08:05.501981+00:00",
+  "ended_utc": "2026-11-21T02:08:14.860067+00:00",
+  "elapsed_seconds": 9.4,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 63244524,
+    "peak_child_rss_kib": 7253548
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.JetHarmonics.FormalGroupNatMulSeriesEvalOpenDiscPropertiesStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "75d9139243a103406314aa0f025f6a0251ac8df87d0e9ec9c4abb450b5917575",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.FormalGroupNatMulSeriesEvalOpenDiscProperties"
+  ],
+  "objects": {
+    "M083863": "a91e7c941af8a385bdfc30fcd76b7aad19d851246194cafde13f69bfd310e48b"
+  },
+  "bundle_sha256": "5add15a42c23f730eaaa1d85ab1b6440f6e6c192fc66f61896ba678df6b1f299",
+  "packet": "M083863",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10703#issuecomment-7055667649",
+  "reviewed_utc": "2026-11-21T06:19:18.620871+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

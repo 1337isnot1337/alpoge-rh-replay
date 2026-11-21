@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M071110"
+  ],
+  "started_utc": "2026-11-21T05:35:39.580034+00:00",
+  "ended_utc": "2026-11-21T05:35:49.808656+00:00",
+  "elapsed_seconds": 10.2,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6820724
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HyperbolicPartialFourierScaleEqTorusActionStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "aac238530332564de8252ca5300ca10d9a00fcaa822284381ad6d194ec6695a5",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.HyperbolicPartialFourierScaleEqTorusAction"
+  ],
+  "objects": {
+    "M071110": "88c4a5774f90b049043e8e78f6b0e144784bf6dcc1dc131663a110ddbe36d5b3"
+  },
+  "bundle_sha256": "fcc029aebd33c6b5b0f5752a3d7872e6365a0861634954fecaece4344d210a52",
+  "packet": "M071110",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13954#issuecomment-7058108724",
+  "reviewed_utc": "2026-11-21T06:05:58.769815+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

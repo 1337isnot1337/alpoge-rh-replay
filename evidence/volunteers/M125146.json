@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M125146"
+  ],
+  "started_utc": "2026-11-21T05:44:31.036923+00:00",
+  "ended_utc": "2026-11-21T05:44:49.896838+00:00",
+  "elapsed_seconds": 18.8,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 61933828,
+    "peak_child_rss_kib": 7064228
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LeviBlockMemParabolicStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "119d8492386ea60566c12312f34ca8f794d729698ec3a289fe7253abc7ad560f",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LeviBlockMemParabolic"
+  ],
+  "objects": {
+    "M125146": "629c5ec44c677b70fc49672b2ad4d29fbf4862d89d230e07d66127a2579bf63d"
+  },
+  "bundle_sha256": "cd153fd66990749173a9d2af26731ed78d7ef12f5de054749c7506eafc81e3dc",
+  "packet": "M125146",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14259#issuecomment-7058136167",
+  "reviewed_utc": "2026-11-21T06:04:52.641750+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

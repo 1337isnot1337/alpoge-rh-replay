@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M061332"
+  ],
+  "started_utc": "2026-11-21T04:42:33.694925+00:00",
+  "ended_utc": "2026-11-21T04:42:37.068547+00:00",
+  "elapsed_seconds": 3.4,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 63244532,
+    "peak_child_rss_kib": 969876
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.DifferentiableComb:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3ccb7498486a232937e3043e380516d78f51e20f2c95756635ddd4a741265c35",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M061332": "a0ab9dd833e7e64e8877dc1fca41366f85a4215950d094ff6d10ee8a53e2199e"
+  },
+  "bundle_sha256": "ec81d3b8fad035829959db0b917c759287a381374ad82724d55309567d0a406b",
+  "kernel_replay_sha256": "bb27aa7e36bdf3e2fd053bab2b9154262c22c17e4622e8f513c4e1a6af953e3f",
+  "kernel_replayed_targets": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.DifferentiableComb"
+  ],
+  "kernel_receipt_scope": "target",
+  "packet": "M061332",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12942#issuecomment-7057433796",
+  "reviewed_utc": "2026-11-21T06:10:42.867752+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum. The upstream verifier matched the kernel record to this receipt, the exact cached targets, and their successful module-level replay transcript."
+}

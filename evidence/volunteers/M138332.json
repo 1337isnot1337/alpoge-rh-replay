@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M138332"
+  ],
+  "started_utc": "2026-11-21T05:04:41.473153+00:00",
+  "ended_utc": "2026-11-21T05:06:05.498162+00:00",
+  "elapsed_seconds": 84.0,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6838476
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.HodgeTatePoints.ExtTensor:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7570bcddf697d8fbcc95acf0787c0d2ee53c9b539e1f05ec5e86287aa826a3af",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.DualOrder",
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.TranslateMemIndOrder",
+    "Development.WeilBound.CoreStatements.HodgeTatePoints.HtatDesc",
+    "Development.WeilBound.CoreStatements.HodgeTatePoints.TwhopfInd"
+  ],
+  "objects": {
+    "M138332": "409a72b088dfbff602beefd61c040c037392c6e37dfe1e0640b006c542fdeb09"
+  },
+  "bundle_sha256": "88a16db390a5d444f26a4d1b2720e6661b5655b8ca996a1a353865977a02d83a",
+  "packet": "M138332",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13247#issuecomment-7057687503",
+  "reviewed_utc": "2026-11-21T06:09:22.515675+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M004524"
+  ],
+  "started_utc": "2026-11-21T04:53:13.919774+00:00",
+  "ended_utc": "2026-11-21T04:53:20.987726+00:00",
+  "elapsed_seconds": 7.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 61933828,
+    "peak_child_rss_kib": 1021300
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.LatticeFrames.HeckeFormNSOfHeckeForm:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a074c6da1dd035fad8a530b952250d16bd300b0342ad9b8b4b2b5187d41614d3",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M004524": "5ac9e1a12b884d521d2f07a714785481a7123dce2e4520eb4ff73c0d3cfab371"
+  },
+  "bundle_sha256": "d65424d1aef1c443e517d68260d42d63c1915280e9fc963dad9312af3eee38da",
+  "kernel_replay_sha256": "a6feb2b210e380b3b8b95f7954ae5d549bf1868af6addf57a9eec19d1b1aa3ca",
+  "kernel_replayed_targets": [
+    "Development.AbelianVarietyTheory.Definitions.LatticeFrames.HeckeFormNSOfHeckeForm"
+  ],
+  "kernel_receipt_scope": "target",
+  "packet": "M004524",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13097#issuecomment-7057550618",
+  "reviewed_utc": "2026-11-21T06:10:07.664502+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum. The upstream verifier matched the kernel record to this receipt, the exact cached targets, and their successful module-level replay transcript."
+}

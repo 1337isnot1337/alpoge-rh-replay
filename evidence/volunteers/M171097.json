@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M171097"
+  ],
+  "started_utc": "2026-11-21T05:14:13.035580+00:00",
+  "ended_utc": "2026-11-21T05:23:36.091288+00:00",
+  "elapsed_seconds": 563.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 3461972
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+PositivityTheory.AutomorphicForms.PublishedInputs.JacquetLanglands.TorusKernels.ActionsPreserveMeasuresProof:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2f9c3baa0a3ca77841aca0031ca98fd90bc4b80babdceb0781fdf2b06f99904d",
+  "rebuilt_project_modules": [
+    "PositivityTheory.AutomorphicForms.PublishedInputs.JacquetLanglands.TorusKernels.ComplexMinusRealLineMeasureCoordinates",
+    "PositivityTheory.AutomorphicForms.PublishedInputs.JacquetLanglands.TorusKernels.MultivariableReproducingFormula"
+  ],
+  "objects": {
+    "M171097": "451bd807a4111b25e2801943646f5c293b85cbf46627ead8b934d33a703d19a7"
+  },
+  "bundle_sha256": "4f11f1d5f39b7618b6b34b1a0710127bc747b8c0d88264b88bece1bee8a2fd9a",
+  "packet": "M171097",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13385#issuecomment-7057885969",
+  "reviewed_utc": "2026-11-21T06:08:41.891366+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

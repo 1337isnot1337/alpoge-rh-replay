@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M127088"
+  ],
+  "started_utc": "2026-11-21T05:39:32.124005+00:00",
+  "ended_utc": "2026-11-21T05:41:54.837744+00:00",
+  "elapsed_seconds": 142.7,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ResidueUpperUnipotentLift:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 5131248
+  },
+  "source_sha256": "78ee4f467dc8e53afd53627315bf98d0b6b3df7dd0e3023ad912468673b86287",
+  "log_sha256": "5a643db8750e0bb93a3486ff6df8f109c8dae4429ad16e2a5be57be8b6c31456",
+  "objects": {
+    "M127088": "0dc0cdaabc1fd672881f318a580c614b467197d89fa9380a9fc70be16c636f2e"
+  },
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.JpUnif",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LowerLeftBlock"
+  ],
+  "bundle_sha256": "5bf56fc37dae394afcb9ac89e2d37ee8d7acd5e31ed2d30d35dcf2ef2653f841",
+  "packet": "M127088",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14191#issuecomment-7058119990",
+  "reviewed_utc": "2026-11-21T06:05:02.712896+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

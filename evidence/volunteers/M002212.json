@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M002212"
+  ],
+  "started_utc": "2026-11-21T04:54:00.095030+00:00",
+  "ended_utc": "2026-11-21T04:54:06.288398+00:00",
+  "elapsed_seconds": 6.2,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 63244532,
+    "peak_child_rss_kib": 1010308
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.BlockTheory.DivisorBase.WeightedNormSquareRows:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "33787a683d3a79243033e9e9961133b565d8e8ed2f33c0262624f2645d616ce7",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M002212": "742154f741d078873ae0b8b2a096ebc939fa034a8646f14c08b5292d86136b2f"
+  },
+  "bundle_sha256": "f58c111240d050d3a95e6183b17911122e3cc1d4b0282c3638aafa3f8b686d8f",
+  "kernel_replay_sha256": "a43bd5b45b9feb6220d382e37b25becd9224e4070486833632e9a3c6b4f3110d",
+  "kernel_replayed_targets": [
+    "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.WeightedNormSquareRows"
+  ],
+  "kernel_receipt_scope": "target",
+  "packet": "M002212",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13143#issuecomment-7057567721",
+  "reviewed_utc": "2026-11-21T06:09:55.233469+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum. The upstream verifier matched the kernel record to this receipt, the exact cached targets, and their successful module-level replay transcript."
+}

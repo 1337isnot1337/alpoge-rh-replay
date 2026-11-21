@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M153800"
+  ],
+  "started_utc": "2026-11-21T01:45:24.673759+00:00",
+  "ended_utc": "2026-11-21T01:45:43.152758+00:00",
+  "elapsed_seconds": 18.5,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 5763952
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.OrbitalBoundsConclusion.KerPerPair:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b425df4f233cb255b61d84bb01cde7c2a28f2f94d3d03d21fc37ad6bdab77789",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.KerLat",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PeriodPairIndependence.IndepOfImNe"
+  ],
+  "objects": {
+    "M153800": "3e784efd6b54a37579740d9f756d0214e0cad7c4a3e6b37f79b69d9cf4ed025c"
+  },
+  "bundle_sha256": "2796c358d5910a041993654bd1e1cb60deae01c77390414d67f83000a920f4dd",
+  "packet": "M153800",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10059#issuecomment-7055378386",
+  "reviewed_utc": "2026-11-21T06:21:31.719683+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

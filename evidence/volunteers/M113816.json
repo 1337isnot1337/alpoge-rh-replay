@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M113816"
+  ],
+  "started_utc": "2026-11-21T03:00:19.397784+00:00",
+  "ended_utc": "2026-11-21T03:00:34.427836+00:00",
+  "elapsed_seconds": 15.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7113640
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.ThetaParseval.SatakeLifts.PairOfLiftAlt:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d027a7d95d2dc117f983348eb59b5d2054e790c358f246c680d1e8460ae6b276",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.ThetaParseval.SatakeLifts.SrcApply"
+  ],
+  "objects": {
+    "M113816": "6731641bc3e33fb6b45d0e0018f3f68a72fb9b2eba7cb0ff1ad0949cacf78a77"
+  },
+  "bundle_sha256": "78653ef0dd72dd74b9a5319724e182b83346d4861204fb62d0e89300022fae05",
+  "packet": "M113816",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11385#issuecomment-7056321604",
+  "reviewed_utc": "2026-11-21T06:16:53.990878+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M108561"
+  ],
+  "started_utc": "2026-11-21T03:43:50.576995+00:00",
+  "ended_utc": "2026-11-21T03:44:03.325915+00:00",
+  "elapsed_seconds": 12.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6834164
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.UnitaryThreeDeformations.AbsDefs:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1284c7fa5225bf957cebf8c7d43944260972e47055d48105580789a099f19ee4",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.GrInternal",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.Graded"
+  ],
+  "objects": {
+    "M108561": "ba753066a32f1ac566a128b182afb21233fcea6ed3c0b679a1fdb9e2fd39b6c1"
+  },
+  "bundle_sha256": "305a1b053c9c3e50d070954794ec1551c70c509a3400be64ee5925d024181869",
+  "packet": "M108561",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12010#issuecomment-7056807385",
+  "reviewed_utc": "2026-11-21T06:14:24.339450+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

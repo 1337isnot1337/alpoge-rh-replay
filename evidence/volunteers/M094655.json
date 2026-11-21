@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M094655"
+  ],
+  "started_utc": "2026-11-21T04:46:01.056363+00:00",
+  "ended_utc": "2026-11-21T05:00:05.818074+00:00",
+  "elapsed_seconds": 844.6,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5223208
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.HasSumTupleProdOfSummableNormComplex:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "35592e31b0c0a5c6ed900f5dc52c6ad9e1d68084ce493fc788a1ebb3805c7609",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.IsHilbertSchmidtOfFiniteDimensional",
+    "Development.AbelianVarietyTheory.Definitions.Foundations.SmoothPartStable",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SplitHeightSummableExpNegAbs"
+  ],
+  "objects": {
+    "M094655": "357164db5e376d428f3af204c21d54e7cfdf68e966ebfe7048598318013d9df5"
+  },
+  "bundle_sha256": "07b9d45ae8c674510d949c339732b9ecddbaa9b4623d0b50ab9604c394f2d335",
+  "packet": "M094655",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12863#issuecomment-7057616237",
+  "reviewed_utc": "2026-11-21T06:11:03.190040+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

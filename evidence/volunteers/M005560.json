@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M005560"
+  ],
+  "started_utc": "2026-11-21T01:23:47.057701+00:00",
+  "ended_utc": "2026-11-21T01:58:56.523788+00:00",
+  "elapsed_seconds": 2109.4,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 7931936,
+    "peak_child_rss_kib": 4042832
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsReynoldsOfCompletelyReducibleStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "bdcbb16a033d4f1de7cedb9eb31cfc91a2d5a518027b795276e8dfc8720a3f7b",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.AdelicPair",
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsReynoldsOfCompletelyReducible"
+  ],
+  "objects": {
+    "M005560": "9ce612846aac975dac8f51137e97d6b0361371d5be806f18e8251c19c096fc17"
+  },
+  "bundle_sha256": "c0f4f771e65e29d00064d361f64e1fcfb1ed0e662017f3af25120bbb1caa96bf",
+  "packet": "M005560",
+  "contributor": "chriswilson413",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9448#issuecomment-7055539636",
+  "reviewed_utc": "2026-11-21T06:23:34.873715+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M055590"
+  ],
+  "started_utc": "2026-11-21T00:31:33.693738+00:00",
+  "ended_utc": "2026-11-21T00:33:06.946406+00:00",
+  "elapsed_seconds": 93.2,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 4575092
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.UpperTriangularNearUnitDiagonalOfTwistedGramNearStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "bef0370372ff54f2f984034c01d1594e1c743eaace8f38cd1451940193560c42",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.UpperTriangularNearUnitDiagonalOfTwistedGramNear"
+  ],
+  "objects": {
+    "M055590": "ad8d566cacc5df7e29c8c28c3fc511ce08e9f144f352563faacd070f159b2703"
+  },
+  "bundle_sha256": "c7b5b1fd354447c6d7a95a1a7279b1309c6baa59dc4286e8f6dc2ad5f04a81d8",
+  "packet": "M055590",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8278#issuecomment-7054215337",
+  "reviewed_utc": "2026-11-21T06:27:16.615943+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

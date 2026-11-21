@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M075164"
+  ],
+  "started_utc": "2026-11-21T03:39:19.123857+00:00",
+  "ended_utc": "2026-11-21T03:39:28.255363+00:00",
+  "elapsed_seconds": 9.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6789384
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ValuationLeOneOfSqSubSelfIntegralBasisStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "cc8bac1fbba85d86ad2088842ff40385c57f15312b202d1850adf1381cc6e601",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ValuationLeOneOfSqSubSelfIntegralBasis"
+  ],
+  "objects": {
+    "M075164": "f1533ee6d832381212393c6e9dfdb4940052189353839b3bcccfe60c267d9d2b"
+  },
+  "bundle_sha256": "c6969d1e881de99d8d1d884a9b84f0e80ee9156cd45b8c41fc4859abd6a4fc8b",
+  "packet": "M075164",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11861#issuecomment-7056755583",
+  "reviewed_utc": "2026-11-21T06:14:56.826738+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

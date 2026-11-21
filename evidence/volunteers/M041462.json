@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M041462"
+  ],
+  "started_utc": "2026-11-21T02:08:12.224838+00:00",
+  "ended_utc": "2026-11-21T02:11:56.502358+00:00",
+  "elapsed_seconds": 224.3,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 3872996
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearIndependentKaehlerDOfAlgebraicIndependentStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "34b01355a529b935b0c9205c96d7fe7b1e8cbdf260bb06a260d4e7fd771ed10b",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearIndependentKaehlerDOfAlgebraicIndependent"
+  ],
+  "objects": {
+    "M041462": "36a104bedd7c6bf531fe09be06db2cf00121b9362f51b281268e8b172d0c6493"
+  },
+  "bundle_sha256": "da74a8d0d8f82f47f45a7df7ad6f9ba612ac325ed6b680a7e9cf176237665061",
+  "packet": "M041462",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10667#issuecomment-7055723002",
+  "reviewed_utc": "2026-11-21T06:19:24.988862+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

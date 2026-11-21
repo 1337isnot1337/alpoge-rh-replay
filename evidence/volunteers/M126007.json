@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M126007"
+  ],
+  "started_utc": "2026-11-21T04:18:32.816159+00:00",
+  "ended_utc": "2026-11-21T04:19:23.150271+00:00",
+  "elapsed_seconds": 50.3,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 26442420,
+    "peak_child_rss_kib": 6772228
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MultiplicativityFinitePlaces:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c9f491b0a4db77ba04f1fd54ae5dd4dcaf820eb66391f055c8ed01940c7de1a9",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.IsotropicMahlerBounds.LogAbsoluteWedges.WedgeSub"
+  ],
+  "objects": {
+    "M126007": "ac97f79ebd95b33f7679dcb55b78fd8dc65e8e551d90f1f5ab32a2218c4cc272"
+  },
+  "bundle_sha256": "c634bd21bc382690f3d6866eb0eaad299d7b3ae0669e511538407ac7f33dff4e",
+  "packet": "M126007",
+  "contributor": "jwr404",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12524#issuecomment-7057277170",
+  "reviewed_utc": "2026-11-21T06:12:21.958609+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

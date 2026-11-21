@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M122989"
+  ],
+  "started_utc": "2026-11-21T04:44:54.015588+00:00",
+  "ended_utc": "2026-11-21T04:45:18.003061+00:00",
+  "elapsed_seconds": 24.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5478036
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsSmoothLog:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "cb329e66f303662e740e04cca7b91ef7c1122cdf73564d7eed8b6ca34ffe3c8f",
+  "rebuilt_project_modules": [
+    "CompanionTheory.HarishChandraModules.BesselParameterIntegrals.ContDiffOnExpPartialHomeomorphSymm"
+  ],
+  "objects": {
+    "M122989": "4e6c856cea47a1ca4d6a1c0979e42f3a218b77df2f60ea23c5e2fc1cf77eb5f8"
+  },
+  "bundle_sha256": "38a9f50932922ccaf5c005d90302eb90007475d6b12fdb20fdee10af8f307fca",
+  "packet": "M122989",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12882#issuecomment-7057468192",
+  "reviewed_utc": "2026-11-21T06:10:56.194095+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M175173"
+  ],
+  "started_utc": "2026-11-21T04:56:54.840454+00:00",
+  "ended_utc": "2026-11-21T05:03:17.089847+00:00",
+  "elapsed_seconds": 382.2,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 4274032
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ThetaQuasiPeriods.NormInvSmulMemSphere:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f8f210a4a6c1f34f1a36d82e9e4f6869f3b921ada8a2276c4ef78a2e925e3c97",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ThetaQuasiPeriods.PeriodLattice",
+    "ReciprocityTheory.ThetaQuasiPeriods.ThetaQuasiPeriodStatement"
+  ],
+  "objects": {
+    "M175173": "6fdde0fed1435ee02d5da4db29ec3519a3cc5f2b7f9f100e3118494a8e3e922e"
+  },
+  "bundle_sha256": "28bb43eb5acd847c44e9e83dc8bc451895d6dd2116a47b82d0cff97779494a73",
+  "packet": "M175173",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13206#issuecomment-7057656485",
+  "reviewed_utc": "2026-11-21T06:09:31.900908+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

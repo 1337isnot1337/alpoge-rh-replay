@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M171836"
+  ],
+  "started_utc": "2026-11-21T03:06:09.644759+00:00",
+  "ended_utc": "2026-11-21T03:06:17.462401+00:00",
+  "elapsed_seconds": 7.8,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6793680
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.DualLattices.SmKerSurj:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4efc3e779b0d3e9a877aa90f2e0cb8ffdd5e7ef7dc8cef023cdfcc618eebd31c",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M171836": "30376cd2ed8aeb710004ce5e4a9cfaebd3aced1c09ee0eef257941161328ab20"
+  },
+  "bundle_sha256": "645bf58f66b72fa23742d105f45567e06baccc00c32735677c4b6f0835e4bd02",
+  "packet": "M171836",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11503#issuecomment-7056373250",
+  "reviewed_utc": "2026-11-21T06:16:19.627290+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

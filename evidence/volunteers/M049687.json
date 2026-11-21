@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M049687"
+  ],
+  "started_utc": "2026-11-21T03:39:36.155154+00:00",
+  "ended_utc": "2026-11-21T03:40:20.252204+00:00",
+  "elapsed_seconds": 44.1,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 7979196,
+    "peak_child_rss_kib": 6163712
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SemisimpleEquivariantProjectionUniqueStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3ca409d369d44c79a00c07fbd09197070df7d83dfe0c50236d592c30268c8fe1",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SemisimpleEquivariantProjectionUnique"
+  ],
+  "objects": {
+    "M049687": "7c2c7b508d1a6b1b7cd47ab1e7feb5329bf8a5b19660e85b8e8c661cff990a9f"
+  },
+  "bundle_sha256": "8e5a2d5d7f2a685735d81c3f54b409fc62034bd53d8ef4a99b799673b232343e",
+  "packet": "M049687",
+  "contributor": "roonastgames",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11888#issuecomment-7056760702",
+  "reviewed_utc": "2026-11-21T06:14:49.657918+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

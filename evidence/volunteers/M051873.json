@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M051873"
+  ],
+  "started_utc": "2026-11-21T04:52:38.598931+00:00",
+  "ended_utc": "2026-11-21T04:54:21.752505+00:00",
+  "elapsed_seconds": 103.2,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5842492
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SymplecticZmodLift:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "62b685ab1b22cc8bd3a49212a12cadd50f9b02b398bfef318172aba734458768",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DualRestrictSurjectiveOfIsTorsionFreeQuotient",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIsSymplecticBasisToMatrixOffDiagDvd"
+  ],
+  "objects": {
+    "M051873": "cfb2937ade09901d285f719ee3f9e6cbc14c0becea8fed688b703f759e7f286a"
+  },
+  "bundle_sha256": "ccd24b5064d1cb96a4c2425dd181dcf427d33e1558a3bd0d4e7ec4e8ebe7255b",
+  "packet": "M051873",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13046#issuecomment-7057558338",
+  "reviewed_utc": "2026-11-21T06:10:15.382598+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M005908"
+  ],
+  "started_utc": "2026-11-21T05:13:28.097989+00:00",
+  "ended_utc": "2026-11-21T05:13:43.146704+00:00",
+  "elapsed_seconds": 15.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6871416
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TwoPlacesOfEmbeddings:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f23115959318cef8dedd45c989d9fb5af0917a12987e2b1b6377e5481d3fcb99",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsTwoPlacesOverOfIsSquareLocal",
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IsQuadraticSqrtExtensionBasicFacts"
+  ],
+  "objects": {
+    "M005908": "dc1eca06136060b3a5966794f7e400d5d1ae76438bccdb6c63080485d32d3d60"
+  },
+  "bundle_sha256": "2df9615dae649d21a82f5efd65967d92f90fbc86b749ad5c066223cb9c82c998",
+  "packet": "M005908",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13441#issuecomment-7058085943",
+  "reviewed_utc": "2026-11-21T06:08:26.794101+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

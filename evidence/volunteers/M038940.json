@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M038940"
+  ],
+  "started_utc": "2026-11-21T01:11:54.477604+00:00",
+  "ended_utc": "2026-11-21T01:12:07.266763+00:00",
+  "elapsed_seconds": 12.8,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6830292
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsScalarTowerCenAlgebra:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5053cd0c7ae34216df744515032c0eeca96a85c86a8c26f347e1844e72272c3a",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CenMapTmulEq",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentreCompat"
+  ],
+  "objects": {
+    "M038940": "52b4a1887a1250d2f7150cd6c6b4fbaf77fb4834e1b2e4199aa82ecb9dcfff4a"
+  },
+  "bundle_sha256": "9ba6d4d9237f4d6782e19835618659b67f4fdb17c2336b250c41145a3fa846b4",
+  "packet": "M038940",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8997#issuecomment-7054892819",
+  "reviewed_utc": "2026-11-21T06:25:11.523563+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

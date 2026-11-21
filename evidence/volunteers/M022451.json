@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M022451"
+  ],
+  "started_utc": "2026-11-21T01:33:35.002025+00:00",
+  "ended_utc": "2026-11-21T01:33:47.240046+00:00",
+  "elapsed_seconds": 12.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 6836308
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqMapMaximalIdealOfRingKrullDimEqOneStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fc6f4fdf2a1962bc0c0deadbf868e548c953a86ecb4226f2435a96aeb72c67c7",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqMapMaximalIdealOfRingKrullDimEqOne"
+  ],
+  "objects": {
+    "M022451": "cd0fc14e5781b40c22eb9cbafe09de694a81a52f2f8e99e64e913249dfe2c906"
+  },
+  "bundle_sha256": "adc72f977ac815d9378625f3acda25fd906bc25fa2914824c99dd1c841a6e50a",
+  "packet": "M022451",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9772#issuecomment-7055208441",
+  "reviewed_utc": "2026-11-21T06:22:34.562957+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M121199"
+  ],
+  "started_utc": "2026-11-21T05:20:42.218462+00:00",
+  "ended_utc": "2026-11-21T05:21:00.959485+00:00",
+  "elapsed_seconds": 18.7,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6645536
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CardTwoAffineHyperplanes:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "85e8c11fc862ba22c57feae5474ec6ffcf1ac83abc17b0a8a9bea971bda71d16",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MemRiemannRochSpaceIffRegularAtEverywhere",
+    "Development.WeilBound.RepresentationTheoryGL.ResidualSpectrum.ExponentialNegativity.GapAbsOf"
+  ],
+  "objects": {
+    "M121199": "a8a9d78dca7c5ccc382ea9bb45249acb941d295b8170604234a473dfd3ddb6de"
+  },
+  "bundle_sha256": "edca1147de5e988793670c16d72524e887289d6cdf0d8bc804ccb8c014fdd3aa",
+  "packet": "M121199",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13766#issuecomment-7057853646",
+  "reviewed_utc": "2026-11-21T06:06:53.212209+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

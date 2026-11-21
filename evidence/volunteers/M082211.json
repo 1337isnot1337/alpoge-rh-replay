@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M082211"
+  ],
+  "started_utc": "2026-11-21T05:27:26.779927+00:00",
+  "ended_utc": "2026-11-21T05:33:39.576916+00:00",
+  "elapsed_seconds": 372.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 3684632
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SmoothOfFiniteDimensionalTranslationStable:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "69a1f902eace75891136e564f720eaa8a11d4d9ae61673d7d6edc5ff9eabfe90",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ContDiffOfContinuousOneParameter",
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ContDiffOfContinuousOneParameterStatement"
+  ],
+  "objects": {
+    "M082211": "fe804c320198e1e63db7106f5e8e00d553510aaca9b4c146829984fd9c5d84f2"
+  },
+  "bundle_sha256": "647e4bcc9eb8b93114c8762ad58653905ff40a7ae065e1fbbd8b8325f14ba012",
+  "packet": "M082211",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13878#issuecomment-7058005912",
+  "reviewed_utc": "2026-11-21T06:06:15.858294+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

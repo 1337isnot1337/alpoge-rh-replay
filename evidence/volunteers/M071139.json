@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M071139"
+  ],
+  "started_utc": "2026-11-21T05:34:38.902856+00:00",
+  "ended_utc": "2026-11-21T05:34:51.397011+00:00",
+  "elapsed_seconds": 14.1,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6845496
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IdempotentCoordinatesStructureStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d995b2b70ddad7e4b79d3fe507a559e747e854be7e72c5e7f8278ad9e39e0de7",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IdempotentCoordinatesStructure",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.QuadraticStarStructure"
+  ],
+  "objects": {
+    "M071139": "538b0f5f18f4fae86a5c20a5a9aae9e2bc8230a7c0b20679f3b91d24f7d67ab9"
+  },
+  "bundle_sha256": "6048e0859583445b4880ae477cc04ff2e62a39d9549310269548bd9a6841f5e1",
+  "packet": "M071139",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13944#issuecomment-7058101973",
+  "reviewed_utc": "2026-11-21T06:06:02.113077+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

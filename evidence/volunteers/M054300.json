@@ -1,0 +1,49 @@
+{
+  "tasks": [
+    "M054300"
+  ],
+  "started_utc": "2026-11-21T04:53:31.655722+00:00",
+  "ended_utc": "2026-11-21T04:55:55.965374+00:00",
+  "elapsed_seconds": 144.3,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 7647944
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TrivV:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5b7581993e5650e7be18d8ec35ffcac706c88f82e72730ac07c276bfbb16ab9c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.BlockGLMap",
+    "Development.AbelianVarietyTheory.Definitions.Divisors.DivisorSupportCondition",
+    "Development.AbelianVarietyTheory.Definitions.Divisors.GalMapMul",
+    "Development.AbelianVarietyTheory.Definitions.Divisors.PullHlComp",
+    "Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsMatrixForm",
+    "Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsStrictlySemistableAlt",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProjectiveBundleFormulaOfUnitOnEtalePoints",
+    "GroundTheory.ProfiniteCohomology.Bridge",
+    "GroundTheory.ProfiniteCohomology.BridgeDefs",
+    "GroundTheory.ProfiniteCohomology.BridgeNested",
+    "GroundTheory.ProfiniteCohomology.ContinuousCochains",
+    "GroundTheory.ProfiniteCohomology.CupProducts",
+    "GroundTheory.ProfiniteCohomology.DiscreteModules",
+    "GroundTheory.ProfiniteCohomology.DiscreteModules.IsDiscreteRepIffForallExistsOpenNormalSubgroup",
+    "GroundTheory.TateCohomology.CupCochains"
+  ],
+  "objects": {
+    "M054300": "cc2d1884de5d4aad399536dbc61764cb7ee290487bcf6e3eca26dfea64da5ef8"
+  },
+  "bundle_sha256": "828e48302c37fc96fbbe8ee55ddad7b4e920fb63abef8c8d062b13fc23346bcb",
+  "packet": "M054300",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13105#issuecomment-7057574386",
+  "reviewed_utc": "2026-11-21T06:10:03.613976+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

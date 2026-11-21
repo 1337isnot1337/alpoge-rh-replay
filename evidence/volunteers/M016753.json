@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M016753"
+  ],
+  "started_utc": "2026-11-21T05:09:01.420736+00:00",
+  "ended_utc": "2026-11-21T05:13:30.090339+00:00",
+  "elapsed_seconds": 268.7,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.COnePropertyFiniteExtension:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 4604696
+  },
+  "source_sha256": "7edf48789760961e5f4575b9e5ad2b5bba9c072c03cbf6281416ab2272c5ec87",
+  "log_sha256": "1654ea481beed911402d32c767cded030ebd3f110768c598d4ded446ccdc9f58",
+  "objects": {
+    "M016753": "4d443ce5eac70e79e12d56b6dd3592a3f9a65550ac1cc3df194c7a76130c04c4"
+  },
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormCompHomogeneousIsHomogeneous",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormCompHomogeneousIsHomogeneousStatement"
+  ],
+  "bundle_sha256": "38ee8b9e981b6930b4f77cf8f08cef7df2d16fe2714a2b94cb7f6ebaa936c0c7",
+  "packet": "M016753",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13358#issuecomment-7057779659",
+  "reviewed_utc": "2026-11-21T06:08:48.586239+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

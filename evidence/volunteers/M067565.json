@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M067565"
+  ],
+  "started_utc": "2026-11-21T05:04:41.055489+00:00",
+  "ended_utc": "2026-11-21T05:06:07.061395+00:00",
+  "elapsed_seconds": 86.0,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6838308
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ComapInlMemStLat:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "db6f5bec2d0f7d3e0f39c52e5610eb5c6ffc4f3326925ce4b21d7727d0ad2385",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.UnitLemmaGroup",
+    "Lemmata.MiscLemmasL.Imports",
+    "ReciprocityTheory.DualLattices.ExistsSmulMemOfMemSpan",
+    "ReciprocityTheory.DualLattices.TensorSpan"
+  ],
+  "objects": {
+    "M067565": "087bcf61c63c89f7b0c3dab5120fbe2b6ef97c3811691ff98d4a880c6f9e8dad"
+  },
+  "bundle_sha256": "3dfeb802af134a3f0d2128f1ea510b996f966da7be450f3bd87c2e3b6e3b348c",
+  "packet": "M067565",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13243#issuecomment-7057683317",
+  "reviewed_utc": "2026-11-21T06:09:23.706159+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

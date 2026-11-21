@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M101516"
+  ],
+  "started_utc": "2026-11-21T04:47:10.491043+00:00",
+  "ended_utc": "2026-11-21T04:47:20.112307+00:00",
+  "elapsed_seconds": 9.6,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6820420
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HidaCompleteRings.QuotOfEig:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "20de4d95b1aad721254b742ac68b47403d3b1c29f0182ea53839d58d289e586a",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HidaCompleteRings.EigOfQuot"
+  ],
+  "objects": {
+    "M101516": "04f4a9c60829299d56b29a1289dcf32d5b44389832b90be75762a2afd11e8c66"
+  },
+  "bundle_sha256": "133d57b04c6bb3b376efc9664f95747d19b867a061dbbdcd9134af21df60db4f",
+  "packet": "M101516",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12985#issuecomment-7057528030",
+  "reviewed_utc": "2026-11-21T06:10:30.110265+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

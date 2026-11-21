@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M065217"
+  ],
+  "started_utc": "2026-11-21T05:22:39.359062+00:00",
+  "ended_utc": "2026-11-21T05:23:09.563277+00:00",
+  "elapsed_seconds": 30.2,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 26442420,
+    "peak_child_rss_kib": 6809576
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LogDerivLFunctionNearZero:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6316b85eb38ce730485947bf3b964c47e4c800671d3691305c579055d24d7662",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.CompletedLFunctionNeZeroOfReNonpos",
+    "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LogDerivEqOrderDivAddAnalytic"
+  ],
+  "objects": {
+    "M065217": "5b2a8e81e964d091fa1aa4af1f7f0063f39ad47d867d33e01498cbe47ce6e5ec"
+  },
+  "bundle_sha256": "18df7b1b9a6a7f81f9fa0edfd55331a9d52fb3907ebd94c8ec93ab40f55c3b24",
+  "packet": "M065217",
+  "contributor": "jwr404",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13672#issuecomment-7057911330",
+  "reviewed_utc": "2026-11-21T06:07:24.164506+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

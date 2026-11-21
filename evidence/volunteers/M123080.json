@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M123080"
+  ],
+  "started_utc": "2026-11-21T05:34:54.681988+00:00",
+  "ended_utc": "2026-11-21T05:45:20.317992+00:00",
+  "elapsed_seconds": 625.6,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5636776
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExteriorPowerSplit:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "53ce296f790fc6e8cd24d9805bcce25d9c3c22f698c4ebc5bcc42ed0bdd2136d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.MemHomogIffIsHomogeneous",
+    "Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.ExistsDetEquivOfSubsingleton"
+  ],
+  "objects": {
+    "M123080": "280b8b7f4afa0a63b2dc56fb5d58de508420428624506b7b17ad7eba7a01beb2"
+  },
+  "bundle_sha256": "2985fbe4bf00dc54eea0ee1ea5bc64290ce303edb75d5ade941d77c789cb88de",
+  "packet": "M123080",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13242#issuecomment-7058144069",
+  "reviewed_utc": "2026-11-21T06:09:23.064565+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

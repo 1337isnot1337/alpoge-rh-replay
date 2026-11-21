@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M105190"
+  ],
+  "started_utc": "2026-11-21T02:29:42.380282+00:00",
+  "ended_utc": "2026-11-21T02:32:46.754372+00:00",
+  "elapsed_seconds": 184.4,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.CrystallineOrdinaryIdeals.ExistsLeMemPowOfMulMemPowOfNonZeroDivisor:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 4762528
+  },
+  "source_sha256": "9a29dc9d060be2cf956232e1bf15fadba484bbd78f9b0f7cbcb28f1b1a668795",
+  "log_sha256": "023e57e475b68a2ce0b678399dbc38a6c6a0a024959b4fdd7bc8aba7c97faaed",
+  "objects": {
+    "M105190": "2f2d480ccdc326d46581f65083b7a9146f2d490897c620a88693915802d135b1"
+  },
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ExistsPowMemOfMulMemPow"
+  ],
+  "bundle_sha256": "7eee737fd7b8fff1fd5e4f4babd2f5ccd443b204021119133df07672b2400df2",
+  "packet": "M105190",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11000#issuecomment-7056020150",
+  "reviewed_utc": "2026-11-21T06:18:21.960772+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

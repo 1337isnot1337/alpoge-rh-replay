@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M086648"
+  ],
+  "started_utc": "2026-11-21T04:13:55.693092+00:00",
+  "ended_utc": "2026-11-21T04:15:02.541527+00:00",
+  "elapsed_seconds": 66.8,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6603288
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.BilinFormInjectiveExistsNsmulMemRangeStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "145d69ecdceebecbbb25c3153847efec5421c85c6c83c5c82149b1247213a5a3",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.SatakeParameters.BilinFormInjectiveExistsNsmulMemRange"
+  ],
+  "objects": {
+    "M086648": "1cc1d4a37b927eee0835873c8670e01a7aea331637d6feed624934b13a32714d"
+  },
+  "bundle_sha256": "5e676a76d51f219b5379c8492d67450bc238fc8bee753eb62cfdffebb75209aa",
+  "packet": "M086648",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12458#issuecomment-7057132395",
+  "reviewed_utc": "2026-11-21T06:12:38.450156+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

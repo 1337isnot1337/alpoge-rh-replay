@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M028424"
+  ],
+  "started_utc": "2026-11-21T04:50:51.530505+00:00",
+  "ended_utc": "2026-11-21T04:55:06.641473+00:00",
+  "elapsed_seconds": 255.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 5190572
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPrimeNotMemForallGtEqMaximalIdealStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ead9827143dc9b1072119baf96a65b2b94ae5ace97d7d831d46dbc18109db13c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPrimeNotMemForallGtEqMaximalIdeal",
+    "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsValuationSubringLiftOfSpecialFibre"
+  ],
+  "objects": {
+    "M028424": "fc6332a000615de67a054ce30f03dc7d029a0516d41a886e6525ce564febe045"
+  },
+  "bundle_sha256": "f32dba94a5aa71fe318e685c60f4081c95d218190b71ba59af8a33f908d86175",
+  "packet": "M028424",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12937#issuecomment-7057572613",
+  "reviewed_utc": "2026-11-21T06:10:44.005970+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

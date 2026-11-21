@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M138348"
+  ],
+  "started_utc": "2026-11-21T05:18:19.356491+00:00",
+  "ended_utc": "2026-11-21T05:18:42.128912+00:00",
+  "elapsed_seconds": 22.8,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6849516
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.HodgeTatePoints.FormMemLin:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c357385991934c2d9df414f4c85fbb2cf3c66bc6cbb7829b6265d48a465e0e90",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.ComapFgOfValuationRing"
+  ],
+  "objects": {
+    "M138348": "369694f71af1ebcafdaf1db957c2b4e8962e731da92189370336f2b690d32dd7"
+  },
+  "bundle_sha256": "11e5c2b5c12ca3ddf3bade3d05205aa1e324f8b2213cb47e7a038ce910b17902",
+  "packet": "M138348",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13811#issuecomment-7057866481",
+  "reviewed_utc": "2026-11-21T06:06:38.276415+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

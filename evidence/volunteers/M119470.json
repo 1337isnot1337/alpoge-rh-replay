@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M119470"
+  ],
+  "started_utc": "2026-11-21T03:42:30.239332+00:00",
+  "ended_utc": "2026-11-21T03:42:50.236595+00:00",
+  "elapsed_seconds": 20.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6247220
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.UnitaryInvolutions.ExistsMulInvolutionEqFixedUnitOfComplete:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7f78a61a1b4c489f355eb1d7a0b88d590b35d5be34c5c781edd71d69dfd42e0e",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.SatakeParameters.FiniteInvolutionFixedUnitEqMulConj"
+  ],
+  "objects": {
+    "M119470": "f785f872904511c140d9559f77a8055cfa0a0928a8194ca9fa1ae5eb4f037f6f"
+  },
+  "bundle_sha256": "c90f7042d33d1867a20de8c9d5b99a206af35cce7cd6eaa098064b5ce8598182",
+  "packet": "M119470",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11977#issuecomment-7056789084",
+  "reviewed_utc": "2026-11-21T06:14:31.478183+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

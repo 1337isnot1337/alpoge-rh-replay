@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M080068"
+  ],
+  "started_utc": "2026-11-21T05:13:17.130462+00:00",
+  "ended_utc": "2026-11-21T05:13:31.466102+00:00",
+  "elapsed_seconds": 13.7,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6881440
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsOpenMapCellMapStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "66ec67fe4fb666c8b0f9d549098d339aebee94c27585b18426a3a22d01a01ac0",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsOpenMapCellMap",
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LuLowerLowerTriangular"
+  ],
+  "objects": {
+    "M080068": "84b1c12bd7d40b258c43909b02f454b49cde904fed21ae9c2a252c5d97377125"
+  },
+  "bundle_sha256": "fe2527c23fa81e68b147cfcede8ef62cba90c1d72c426be260d6faeed46bddbf",
+  "packet": "M080068",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13431#issuecomment-7057832507",
+  "reviewed_utc": "2026-11-21T06:08:28.992323+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

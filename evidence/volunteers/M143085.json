@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M143085"
+  ],
+  "started_utc": "2026-11-21T02:22:00.757930+00:00",
+  "ended_utc": "2026-11-21T02:22:20.065549+00:00",
+  "elapsed_seconds": 19.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 6862232
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.TwistedPieces.FiniteDimensionalDescent.ClosedOrbitPieces.FrobeniusSections.FinrankAdjoinPowLe:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fddfab1c1b431ef71fdc80ee70506d7ecf3788ccc9720954cb05ad9c4913a70e",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.TwistedPieces.FiniteDimensionalDescent.ClosedOrbitPieces.FrobeniusSections.CompIterateFrobenius",
+    "Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.TwistedPieces.FiniteDimensionalDescent.ClosedOrbitPieces.FrobeniusSections.FieldGen",
+    "Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.TwistedPieces.FiniteDimensionalDescent.ClosedOrbitPieces.FrobeniusSections.MemPw"
+  ],
+  "objects": {
+    "M143085": "27e6f6a120694332fa9eacacf6196dd552dd2c8a6d0c30d99e94fd1eb55f7727"
+  },
+  "bundle_sha256": "ed88055aa262f7b55aa4addd2f86a9727183f4c4e5829a9627cdc2e0a917147e",
+  "packet": "M143085",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10887#issuecomment-7055851382",
+  "reviewed_utc": "2026-11-21T06:18:42.975539+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

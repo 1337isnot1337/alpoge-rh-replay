@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M009691"
+  ],
+  "started_utc": "2026-11-21T01:46:16.278881+00:00",
+  "ended_utc": "2026-11-21T01:46:35.736981+00:00",
+  "elapsed_seconds": 19.5,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 24721248,
+    "peak_child_rss_kib": 6761496
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralFoldViaLintegralFormulaStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "565193bd74d434045cb7f883d6e5f1e998e4f5a02ed35e680d2230687ba7e1cf",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralFoldViaLintegralFormula"
+  ],
+  "objects": {
+    "M009691": "f258eeced1a46298d2bb609941c604d8c0c1a4a84bc7ec29f00d9c9caf3de58d"
+  },
+  "bundle_sha256": "44e7046b05bfbf5c6d7d4f998faca01423baef897dc443619e2950da1ddbb8e2",
+  "packet": "M009691",
+  "contributor": "ljagiello",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10106#issuecomment-7055383260",
+  "reviewed_utc": "2026-11-21T06:21:21.430094+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

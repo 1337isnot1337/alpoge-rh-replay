@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M005372"
+  ],
+  "started_utc": "2026-11-21T01:13:52.391942+00:00",
+  "ended_utc": "2026-11-21T01:14:57.293611+00:00",
+  "elapsed_seconds": 64.9,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 12303924,
+    "peak_child_rss_kib": 6838600
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CayleyTransformUnitarySkewInvolutive:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8ea3b010ef2c5da64812f0690defd15f77192a7f8dd2193a95d6dbb6d9d0af02",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.IsHermForm",
+    "Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.Hat1"
+  ],
+  "objects": {
+    "M005372": "0c26bfafe0b1fa32e95c916c6cc53af759807873720a6e94bfc0fdd8203bf801"
+  },
+  "bundle_sha256": "8a80502d030abf39af028db41bb250610409956515df3e1ee79938417c180d3a",
+  "packet": "M005372",
+  "contributor": "Sigomi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9200#issuecomment-7054942731",
+  "reviewed_utc": "2026-11-21T06:24:29.500882+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

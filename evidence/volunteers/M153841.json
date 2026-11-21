@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M153841"
+  ],
+  "started_utc": "2026-11-21T05:50:53.691335+00:00",
+  "ended_utc": "2026-11-21T05:51:48.180302+00:00",
+  "elapsed_seconds": 54.5,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5418964
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.OrbitalBoundsConclusion.MirabIndex:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f4b511c82074c1589573ca4482b411b325b879058bac6ce3c7a9a4d16c489456",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.MirabIndex",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.MirabolicIndex.RowMulOfMirab"
+  ],
+  "objects": {
+    "M153841": "b97c646b2df49cc1f07d492f3e04a61c76d255fe486f074b86c27de3f7295355"
+  },
+  "bundle_sha256": "6dd5a86f5a4bdc4ff2e1c7e4aeca899cd376f8597233b7f44c5a3744c8e02845",
+  "packet": "M153841",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14351#issuecomment-7058242144",
+  "reviewed_utc": "2026-11-21T06:04:40.291425+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

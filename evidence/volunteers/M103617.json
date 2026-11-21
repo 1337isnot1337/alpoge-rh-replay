@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M103617"
+  ],
+  "started_utc": "2026-11-21T04:41:15.354053+00:00",
+  "ended_utc": "2026-11-21T04:43:32.306661+00:00",
+  "elapsed_seconds": 137.0,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5525084
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.SelmerTransport.CocycleZeroMemInvariants:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "28e553b230cdec52ca72fdd6f1122fd95fdbe1e93a2ecfbc513d483985ab1906",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.SelmerTransport.RestrictionMemInvariantH1",
+    "ReciprocityTheory.GaloisValuations.ContinuousConstSMulQuotient",
+    "ReciprocityTheory.GaloisValuations.SeparatedDvrSecondCohomologyMem"
+  ],
+  "objects": {
+    "M103617": "5268b31c2120502d5ee0a78265d35cd9fe10e38a7f9674ae8615450c11c6e6e6"
+  },
+  "bundle_sha256": "0ceb97d4c066a8acd2bf87824d7f3ceeffc11951ef7fdaadd382905b5715c77f",
+  "packet": "M103617",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12858#issuecomment-7057443123",
+  "reviewed_utc": "2026-11-21T06:11:04.097635+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

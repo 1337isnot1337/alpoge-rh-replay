@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M119656"
+  ],
+  "started_utc": "2026-11-21T05:14:12.996599+00:00",
+  "ended_utc": "2026-11-21T05:23:36.135884+00:00",
+  "elapsed_seconds": 563.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 3461496
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.DualTopTwoNeTop:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "640d3612f03055dd3edcc008df4af61e3c4a83909581fe0787c0c101db5340f5",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.DualOrder",
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.TranslateMemIndOrder"
+  ],
+  "objects": {
+    "M119656": "9360bb6ea29b336c1e21093aae3b84cdf93b67d1a9de7a33bb994e64d6cbd0b5"
+  },
+  "bundle_sha256": "40bc543107359193eb29f988900ef41efe13b332928b12139ebad6a774e6f202",
+  "packet": "M119656",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13423#issuecomment-7057887171",
+  "reviewed_utc": "2026-11-21T06:08:30.704197+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

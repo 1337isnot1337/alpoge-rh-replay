@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M067247"
+  ],
+  "started_utc": "2026-11-21T04:01:17.429453+00:00",
+  "ended_utc": "2026-11-21T04:01:26.204932+00:00",
+  "elapsed_seconds": 8.8,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6832868
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardMulCoeffMemStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ef2ac5998b9bb664aa5f44b827f99e77a606b98b99bb428cd7bc9a6a2def5638",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardMulCoeffMem"
+  ],
+  "objects": {
+    "M067247": "2e4fa07cbe6f091196322366cac2a84fd06473b40e170a80c306bec510a162c7"
+  },
+  "bundle_sha256": "9e600937851ca9e96dbb517d33b25dd8d01f76a89d3a2074b70670b05aecfcdb",
+  "packet": "M067247",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12262#issuecomment-7057027431",
+  "reviewed_utc": "2026-11-21T06:13:16.354079+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

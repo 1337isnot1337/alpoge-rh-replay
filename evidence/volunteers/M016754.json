@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M016754"
+  ],
+  "started_utc": "2026-11-21T04:52:18.924745+00:00",
+  "ended_utc": "2026-11-21T04:54:21.691037+00:00",
+  "elapsed_seconds": 122.8,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5835668
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.COnePropertyFiniteExtensionStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f7ece21351395c7e44592e93912a09d57a643ff33f765147157ca76c8d3b6e05",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.COnePropertyFiniteExtension",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormCompHomogeneousIsHomogeneous",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormCompHomogeneousIsHomogeneousStatement"
+  ],
+  "objects": {
+    "M016754": "1b19904fe11edb60b18c9b7f2a6ac054d553e2702bfbaf876032fa6bf62fe053"
+  },
+  "bundle_sha256": "7e74ef9ed77e7f99ab44aba8b9cd54ddc79efdc37531087a4188a820f4f83f69",
+  "packet": "M016754",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13029#issuecomment-7057558352",
+  "reviewed_utc": "2026-11-21T06:10:17.686371+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

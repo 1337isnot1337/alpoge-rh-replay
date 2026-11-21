@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M101440"
+  ],
+  "started_utc": "2026-11-21T04:46:23.898187+00:00",
+  "ended_utc": "2026-11-21T04:46:36.038820+00:00",
+  "elapsed_seconds": 12.1,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6821992
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DeterminantRepresentations.Expand:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d7ce4036868ff0ff2fc0d77a477f87b68e10a68785823fd0cc1523808a3210bb",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DeterminantRepresentations.GenEval",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DeterminantRepresentations.GenHomog"
+  ],
+  "objects": {
+    "M101440": "630b49e48c4c925cabc815f10d448ebefcc1704131c05a2119a5fa6b13673221"
+  },
+  "bundle_sha256": "f4db261b5096b0b8a4e70ab0e556d779724de2281f8f49ec639dbb91ff049fc3",
+  "packet": "M101440",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12977#issuecomment-7057525599",
+  "reviewed_utc": "2026-11-21T06:10:31.903502+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

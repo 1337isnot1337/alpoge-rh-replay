@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M068335"
+  ],
+  "started_utc": "2026-11-21T04:56:24.538656+00:00",
+  "ended_utc": "2026-11-21T04:57:07.816106+00:00",
+  "elapsed_seconds": 43.3,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 6696888
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DvrComplete:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b2208b50f6b2e44d56bb44f40a2efc9ebc61872c97d1e01de7b2596473b038bb",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsCompleteDvrFiniteSubalgebra",
+    "Development.AbelianVarietyTheory.Proofs.UniformizationProofs.IsPrecompleteOfLeOfPowLe"
+  ],
+  "objects": {
+    "M068335": "c3a36f9d4ab4f3fdcd1b4e99435feb6a7776c9268cb07674355e4c3c7d1e2061"
+  },
+  "bundle_sha256": "1a3eacb6d89bb60917bd8995097f3114bd73c704eebdb2368536645c03d448ea",
+  "packet": "M068335",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13167#issuecomment-7057610460",
+  "reviewed_utc": "2026-11-21T06:09:47.915639+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

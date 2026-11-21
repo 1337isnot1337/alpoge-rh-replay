@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M171933"
+  ],
+  "started_utc": "2026-11-21T00:57:31.753269+00:00",
+  "ended_utc": "2026-11-21T00:57:45.061134+00:00",
+  "elapsed_seconds": 13.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6244960
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.GeometryOfNumbers.SphericalMonomials.GaussSt:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4e487cdbc2d92e5b174fec3c53ba7e7518efaec1cbc71e4e0ac69c36d6cb487c",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.GeometryOfNumbers.SphericalMonomials.MonoNormSq"
+  ],
+  "objects": {
+    "M171933": "eaeafbeb61c6f44f73b07a524a4e91dd41c63d17a6ad5e992d01647624b5ca50"
+  },
+  "bundle_sha256": "5278b3b3622a5d093a67ceb59a9aaa9de19428b4ce0db7114ee1e71c87e6af90",
+  "packet": "M171933",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8669#issuecomment-7054652201",
+  "reviewed_utc": "2026-11-21T06:26:11.160157+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

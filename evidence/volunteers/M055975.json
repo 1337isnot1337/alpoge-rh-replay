@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M055975"
+  ],
+  "started_utc": "2026-11-21T01:13:30.588089+00:00",
+  "ended_utc": "2026-11-21T01:13:43.183352+00:00",
+  "elapsed_seconds": 12.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6808008
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.WeierstrassEisensteinNonholomorphicIdentity:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3bf37c79a80964655282e36a94c9844796662ed50f077e2fd50fc57b51b8498b",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.HasQIff",
+    "Development.AbelianVarietyTheory.Definitions.Divisors.ZetaActRefl"
+  ],
+  "objects": {
+    "M055975": "276e5934ab96ffae89964af396553d777448cfefa02cef87dbde74d9ac37c004"
+  },
+  "bundle_sha256": "d467645c99e490403e63f35f99f31e33619cfccaf9411f34df54608e083cc08d",
+  "packet": "M055975",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9010#issuecomment-7054918163",
+  "reviewed_utc": "2026-11-21T06:25:08.445542+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

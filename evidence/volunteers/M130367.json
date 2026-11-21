@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M130367"
+  ],
+  "started_utc": "2026-11-21T05:11:51.896361+00:00",
+  "ended_utc": "2026-11-21T05:13:17.431042+00:00",
+  "elapsed_seconds": 85.5,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6817576
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueTangentDualNumberStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4fd01ca8f6a60002eb127517f5f06bcb151cce8f868ce16eae1f82fc59eec338",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ExistsUnitFormLocalizationEtaleNbhd",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.HasValues",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LieModel",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueTangentDualNumber"
+  ],
+  "objects": {
+    "M130367": "0deb7f0ed796b0d78fe56919539dc67bf5ed11079346a6b7ec01871b097a839a"
+  },
+  "bundle_sha256": "dbd7c2f8a65c16a214b023ac3cfe84fa0c6a3ed142f00cc0104fa39a1ef54c2c",
+  "packet": "M130367",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13505#issuecomment-7057775392",
+  "reviewed_utc": "2026-11-21T06:08:15.092590+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

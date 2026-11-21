@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M046253"
+  ],
+  "started_utc": "2026-11-21T04:01:44.779119+00:00",
+  "ended_utc": "2026-11-21T04:01:59.046932+00:00",
+  "elapsed_seconds": 14.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6201304
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.PosSemidefQuadraticAdjointPairBoundStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "aaaf21cfb9d42943445f4a554932aae83d1e3ad544fc8e6febb3b9ca923058c5",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PosSemidefQuadraticAdjointPairBound"
+  ],
+  "objects": {
+    "M046253": "17453259fdb3fe7a1b84e5c7723cc2cf1071458e7664ca0b23d1a0a80c938d8c"
+  },
+  "bundle_sha256": "1c678f3be394fcebfd7e4814b82cd83fb55462655281d906bb73a26db5dadeef",
+  "packet": "M046253",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12334#issuecomment-7056997480",
+  "reviewed_utc": "2026-11-21T06:12:58.891936+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

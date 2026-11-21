@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M070160"
+  ],
+  "started_utc": "2026-11-21T02:58:04.490359+00:00",
+  "ended_utc": "2026-11-21T02:58:22.285556+00:00",
+  "elapsed_seconds": 17.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6291312
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteFieldExistsGeneratorMinpolyStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "afbfb8610c6781526c642adf8f81393968d5a3a7496ddd1d72210f0b5078b829",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteFieldExistsGeneratorMinpoly"
+  ],
+  "objects": {
+    "M070160": "18be6baf365bb0946c3c89cb3080e353aa7f427f5183cdac333d8c38b82ab657"
+  },
+  "bundle_sha256": "e36dc94dd48f9fe072bdbf8e44f0f781ea4fd2a60a0d5f4d9e93de01b550d323",
+  "packet": "M070160",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11382#issuecomment-7056293565",
+  "reviewed_utc": "2026-11-21T06:16:52.873986+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

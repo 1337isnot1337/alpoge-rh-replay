@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M061602"
+  ],
+  "started_utc": "2026-11-21T05:54:18.376855+00:00",
+  "ended_utc": "2026-11-21T05:54:41.977595+00:00",
+  "elapsed_seconds": 23.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 53467180,
+    "peak_child_rss_kib": 6823700
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsDegreeLtTwoCorrectionSimpleZero:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "69da331b873d7f6763ead15d80bff578c12aad822554404af6fe7720605a9503",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.DedekindFiniteTypeIdealCodimension",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.DedekindFiniteTypeIdealCodimensionStatement"
+  ],
+  "objects": {
+    "M061602": "5d5bf231679cdf7fc4e45ebfe993ba7df6023c5e20724f084fece574e10a7af1"
+  },
+  "bundle_sha256": "7a54ccb177e5a05197af44ae045e10ff74c9fed8cd00df1cad4f392a9368e707",
+  "packet": "M061602",
+  "contributor": "Sethumathavanpk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14489#issuecomment-7058257847",
+  "reviewed_utc": "2026-11-21T06:04:12.779259+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

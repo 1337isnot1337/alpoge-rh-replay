@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M044126"
+  ],
+  "started_utc": "2026-11-21T05:05:00.835305+00:00",
+  "ended_utc": "2026-11-21T05:10:41.718424+00:00",
+  "elapsed_seconds": 340.9,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 5042520
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.NatCastMulTorsMemLatticeIff:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4d8c05044cf9137b8edfac8c189138ca850cd6050b619831c4ff21854eaabf55",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.HasQIff",
+    "Development.AbelianVarietyTheory.Definitions.Divisors.ZetaActRefl"
+  ],
+  "objects": {
+    "M044126": "e62d136b7f2434a52e2c276fe75d4b5850d3da78a2bfae1a4e07cfd42b3ab385"
+  },
+  "bundle_sha256": "658284f9548a89029c4a6ea591ee568fce4b656b7f0d4fe0c3e39482506adcab",
+  "packet": "M044126",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13222#issuecomment-7057731178",
+  "reviewed_utc": "2026-11-21T06:09:25.921473+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

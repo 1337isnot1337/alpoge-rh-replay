@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M120422"
+  ],
+  "started_utc": "2026-11-21T04:54:46.215315+00:00",
+  "ended_utc": "2026-11-21T04:54:50.228666+00:00",
+  "elapsed_seconds": 4.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 974080
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.AlgebraProofs.LocallyFreeBaseChangeQuotient:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "dd9be4dc32c00a988c3705eaee98df0a21cd79d811c68aeda803ac1f507913df",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M120422": "b157fd27c27f8690642596f4885c5bba21f52dcba7fed35a60ddab54a2ac2551"
+  },
+  "bundle_sha256": "838ec97469c908248bc57fcaf000c5e00f4ef0290f2f666bdcc6fe6e7d8debc6",
+  "kernel_replay_sha256": "5b9f1773cca7626a4910ca25f1a921aba1450cfe1fc9af6e1b33e88643e4de7e",
+  "kernel_replayed_targets": [
+    "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.LocallyFreeBaseChangeQuotient"
+  ],
+  "kernel_receipt_scope": "target",
+  "packet": "M120422",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13086#issuecomment-7058112099",
+  "reviewed_utc": "2026-11-21T06:10:09.125312+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum. The upstream verifier matched the kernel record to this receipt, the exact cached targets, and their successful module-level replay transcript."
+}

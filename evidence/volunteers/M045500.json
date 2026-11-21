@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M045500"
+  ],
+  "started_utc": "2026-11-21T05:37:22.343770+00:00",
+  "ended_utc": "2026-11-21T05:37:34.868591+00:00",
+  "elapsed_seconds": 14.4,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6868256
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.PartialZetaTotallyRealAtMostSimplePole:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4f9cdea5a85f0c2c5296198a0190ea85b86269705aee436d1a28cd63bf8f6f57",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.Chebotarev.EulerSum",
+    "ReciprocityTheory.Chebotarev.NZIdeal"
+  ],
+  "objects": {
+    "M045500": "930247cccd3db41e7e9e37f8e12a63dbfd848628d502b1225545d8855342d084"
+  },
+  "bundle_sha256": "20c232f87af2bf495da7e91f1b5ccfd75f3ff9ae45b551e47770d2aee671bfa0",
+  "packet": "M045500",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13999#issuecomment-7058116341",
+  "reviewed_utc": "2026-11-21T06:05:46.765361+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

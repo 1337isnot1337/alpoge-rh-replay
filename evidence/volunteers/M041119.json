@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M041119"
+  ],
+  "started_utc": "2026-11-21T02:52:05.045472+00:00",
+  "ended_utc": "2026-11-21T02:52:16.899594+00:00",
+  "elapsed_seconds": 11.8,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 7979188,
+    "peak_child_rss_kib": 5965412
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.LiftModMaximalSkewStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6bf1f4f2f608f52e7229e61ff5e9b9ef843b7f67ac07f70ef7f7bf57be182176",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LiftModMaximalSkew"
+  ],
+  "objects": {
+    "M041119": "9ba91d47b5f5ebd47f94c4e393016c681b69fb1576f4af2f835b3c9ca3e8f271"
+  },
+  "bundle_sha256": "07c24685d26c2427b143bbbcdab1ecd04d81247d202943b6540d17a4b4be0da3",
+  "packet": "M041119",
+  "contributor": "roonastgames",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11293#issuecomment-7056219568",
+  "reviewed_utc": "2026-11-21T06:17:11.544960+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

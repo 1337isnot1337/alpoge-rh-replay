@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M166592"
+  ],
+  "started_utc": "2026-11-21T05:27:40.063688+00:00",
+  "ended_utc": "2026-11-21T05:27:58.869959+00:00",
+  "elapsed_seconds": 18.8,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6720596
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.PComplexFormsOnPoints:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "44d0d47f6c8addd52752e8ce3d3493bb5790888c7adab02f49a4c2998831fd5a",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.StatementsComplexFormsOnPoints",
+    "GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.StatementsComplexMinimalPrimesContract",
+    "GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.StatementsPrimeComplexRadical"
+  ],
+  "objects": {
+    "M166592": "a9321c474901824e6069b0127f1ba6fba2be19d8f909de69c5d6efbb23dc4ce8"
+  },
+  "bundle_sha256": "15e3558720220a131aa735af23f0f3a8bb530c24b504efd9a0a94653a2d15615",
+  "packet": "M166592",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13950#issuecomment-7057944077",
+  "reviewed_utc": "2026-11-21T06:06:00.061388+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

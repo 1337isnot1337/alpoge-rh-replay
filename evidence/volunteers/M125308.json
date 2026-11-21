@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M125308"
+  ],
+  "started_utc": "2026-11-21T01:15:20.155329+00:00",
+  "ended_utc": "2026-11-21T01:15:34.245361+00:00",
+  "elapsed_seconds": 14.1,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6208284
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LintegralWeightedSqLe:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b0df45e67d4cdfd17c2a78bb7603a9a08657c679bcd4307dafa964cde0da5fce",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.ThetaCellCovers.KernelL2RowsColumns"
+  ],
+  "objects": {
+    "M125308": "22ad4f9e41e62e722f97edfc6134f700b9af2d90208eb159d5dfad65ab6b678d"
+  },
+  "bundle_sha256": "67303d880828fe428d8d0cc5d631c2fbb88438ab3bb741f2ee5ac48fd00c371f",
+  "packet": "M125308",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9125#issuecomment-7054959128",
+  "reviewed_utc": "2026-11-21T06:24:46.820983+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

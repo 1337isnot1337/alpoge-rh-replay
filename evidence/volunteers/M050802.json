@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M050802"
+  ],
+  "started_utc": "2026-11-21T05:12:22.892070+00:00",
+  "ended_utc": "2026-11-21T05:12:57.934119+00:00",
+  "elapsed_seconds": 35.0,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6744724
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SplitInjectiveOfForallPrimeBaseChangeFieldInject:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5de8f508364ec39052818d97f68e540e671508d2444387a02a2a6d06b3bf3e04",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExactAndKerBaseChangeOfForallResidueField",
+    "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsFiniteProjectiveComplexQuasiIso"
+  ],
+  "objects": {
+    "M050802": "d02c3d151a7b6330140b6b03f834b6a5a41f8a1f87dba3c1397fcb75a6eab06b"
+  },
+  "bundle_sha256": "d22b80a96078a54672bdcb8b7d667a2e9700b83803a6f31eb716451fa5fb70cf",
+  "packet": "M050802",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13559#issuecomment-7057758534",
+  "reviewed_utc": "2026-11-21T06:08:00.584190+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

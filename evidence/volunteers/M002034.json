@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M002034"
+  ],
+  "started_utc": "2026-11-21T01:56:19.849475+00:00",
+  "ended_utc": "2026-11-21T01:56:31.057023+00:00",
+  "elapsed_seconds": 11.2,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6869528
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.BlockTheory.AbelianSchemeLaw.GroupHomPullback:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "131685378998a5a353bf8d43191847a25248b31af1217bcff23522517b47a628",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.CubicalStructures.CubeSymmetricSwapFirst"
+  ],
+  "objects": {
+    "M002034": "9cb0195dc5fccbb4f489fa51dc0db54862d6f4fc565dea4256853dc3955a08df"
+  },
+  "bundle_sha256": "993259a75465354b537e1366b414554c826f89d991de353dc171103246812c51",
+  "packet": "M002034",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10195#issuecomment-7055565117",
+  "reviewed_utc": "2026-11-21T06:20:59.188310+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

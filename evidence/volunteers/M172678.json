@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M172678"
+  ],
+  "started_utc": "2026-11-21T05:38:04.834267+00:00",
+  "ended_utc": "2026-11-21T05:38:43.862014+00:00",
+  "elapsed_seconds": 39.0,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6909868
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.ExtVStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b417dda2a882d6b3561e5ee9c886c994432baaae4ce5ef4965665de9f071a0d4",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.TwoWeightEqOneAddRoot",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ConstGen",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.NonzeroLocus"
+  ],
+  "objects": {
+    "M172678": "9dc8b15eae4eb6c9c932b355cd9845bbaeeffe21dbca2c8ecd09e3b8c15b06df"
+  },
+  "bundle_sha256": "6a623aa3385a0de20f615c8c6fe7ed31b9a8ba904ca418ca8e7aa6fb23e8f73a",
+  "packet": "M172678",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14206#issuecomment-7058082856",
+  "reviewed_utc": "2026-11-21T06:04:59.971023+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

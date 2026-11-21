@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M156296"
+  ],
+  "started_utc": "2026-11-21T00:31:03.461385+00:00",
+  "ended_utc": "2026-11-21T00:35:22.634922+00:00",
+  "elapsed_seconds": 259.2,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PolydiscIntegrality.NormPPosLtOne:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 4658676
+  },
+  "source_sha256": "137b899e06f683841406b0e25d789ddb47d3fe4193027825baeaed09a42e5174",
+  "log_sha256": "d81e0319818d6c859c86dc95c17e6b59cd8b9312e2e8900f61b1531be3abe760",
+  "objects": {
+    "M156296": "0213a7c6f48b88c3991a38afe99c43a8e4cd686d3251cf24ff370a942b7e3c80"
+  },
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.PolydiscInt"
+  ],
+  "bundle_sha256": "8680c340c179cb51f579932f106190cd1b1d5890405a35926b61564aff06ee18",
+  "packet": "M156296",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8257#issuecomment-7054289810",
+  "reviewed_utc": "2026-11-21T06:27:17.764205+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

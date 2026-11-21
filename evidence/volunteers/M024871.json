@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M024871"
+  ],
+  "started_utc": "2026-11-21T04:53:24.557581+00:00",
+  "ended_utc": "2026-11-21T04:54:51.127223+00:00",
+  "elapsed_seconds": 86.6,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6684196
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrExtensionOfEssentiallyEtaleLocalStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f3b9e1bc0480531c859f6e7e649487c23d5b61b3e4f8fb6fea06a5e45635fde9",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrExtensionOfEssentiallyEtaleLocal",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIsDiscreteValuationRingOfMaximalIdealEqSpa"
+  ],
+  "objects": {
+    "M024871": "37e49944ca52d48be1d50442816effbb52bd6694bb1fe850d106b62080c6ec56"
+  },
+  "bundle_sha256": "e9703f1b73a4720025ed25936b3713b537c6b82eacfda6247e83f8be8356bb4b",
+  "packet": "M024871",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13104#issuecomment-7057563286",
+  "reviewed_utc": "2026-11-21T06:10:03.659789+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

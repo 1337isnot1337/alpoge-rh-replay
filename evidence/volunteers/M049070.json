@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M049070"
+  ],
+  "started_utc": "2026-11-21T05:12:34.901673+00:00",
+  "ended_utc": "2026-11-21T05:14:00.900815+00:00",
+  "elapsed_seconds": 86.0,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5619260
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzSeminormLinearPhaseSecondOrderLeStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9e11b8418067fdf9393b59392178a61252fb266eb2e2cc9c9dc713fbf7a65858",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIteratedFDerivRemCompLe",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzSeminormLinearPhaseSecondOrderLe"
+  ],
+  "objects": {
+    "M049070": "e94beb5a9ea879775fb67838ad1e28f9b4623359ace364284d32823e3dfc9aee"
+  },
+  "bundle_sha256": "756c9b23eb5a4224c1af39862caf9f32c71b2b89adf02aaddcd97f76fcddd34a",
+  "packet": "M049070",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13531#issuecomment-7057770951",
+  "reviewed_utc": "2026-11-21T06:08:09.632247+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

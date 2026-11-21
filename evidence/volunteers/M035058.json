@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M035058"
+  ],
+  "started_utc": "2026-11-21T04:03:18.640566+00:00",
+  "ended_utc": "2026-11-21T04:03:28.255793+00:00",
+  "elapsed_seconds": 9.6,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6911264
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeckeWeightTwoIsGoodOfTsum:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "34762e98107126aa306cbc64e5e77b79bf3700e3d4e79946bfb9280fce3f6bcc",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSmoothHolomorphicInSigmaFamilyAdd"
+  ],
+  "objects": {
+    "M035058": "9f68e13b6b782ca775ca79afc144f0d278c6477827f38c4cbe2f39cf1c1e2077"
+  },
+  "bundle_sha256": "767e6016020cdd6742dd88e4bc3935b49c1318645d5f30e0799be2f4e72c1230",
+  "packet": "M035058",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12199#issuecomment-7057036430",
+  "reviewed_utc": "2026-11-21T06:13:27.453184+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

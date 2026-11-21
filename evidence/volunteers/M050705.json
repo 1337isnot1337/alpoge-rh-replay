@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M050705"
+  ],
+  "started_utc": "2026-11-21T04:01:07.098882+00:00",
+  "ended_utc": "2026-11-21T04:01:16.372458+00:00",
+  "elapsed_seconds": 9.3,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6825800
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpecialFibreConnectedOfBaseChange:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d7e80533c208532eeca19cd26b7af0a457a87fd04af1bbf14c3f49e8ee61f6c5",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SpecialFibreUnits"
+  ],
+  "objects": {
+    "M050705": "2cf6a370002e5632c1908c27eb6c125f971e335c69a5c6cf716fb77e3de6d6c9"
+  },
+  "bundle_sha256": "140ecb96dcefe6a7b72995fd420001f11a78da9fdd16b0c75335b4e9f6523f95",
+  "packet": "M050705",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12207#issuecomment-7057026820",
+  "reviewed_utc": "2026-11-21T06:13:26.119104+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

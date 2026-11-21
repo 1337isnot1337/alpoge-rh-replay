@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M021238"
+  ],
+  "started_utc": "2026-11-21T02:04:22.750764+00:00",
+  "ended_utc": "2026-11-21T02:04:33.238062+00:00",
+  "elapsed_seconds": 10.5,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6759356
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiagonalEntryOfSemilinearModSubspaceStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "eb4c999ac76cf4645306a9606addc2a5096d6016c1dcc57fcef4dbd774125457",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DiagonalEntryOfSemilinearModSubspace"
+  ],
+  "objects": {
+    "M021238": "84c68210496aa193a6068e9347045be95085487e39f3d31fc63dde6447703e52"
+  },
+  "bundle_sha256": "3338d4f272a0caf44e9d90541ce94f752452ca28a5921ef10153f8b0d5140bcb",
+  "packet": "M021238",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10567#issuecomment-7055614743",
+  "reviewed_utc": "2026-11-21T06:19:45.117323+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M140278"
+  ],
+  "started_utc": "2026-11-21T05:11:05.382210+00:00",
+  "ended_utc": "2026-11-21T05:11:20.213933+00:00",
+  "elapsed_seconds": 14.8,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 6141768
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.TemperedRepresentationTheory.CubeTheorem.LBSpreads:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "56a055aea6103449b32af7bdd8198b63a5280cce73d8463c9b3911f1fdd6562a",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.CoreStatements.TemperedRepresentationTheory.CubeTheorem.SchemeModels"
+  ],
+  "objects": {
+    "M140278": "8eb23c40bde539336ed7f29fc563c7e98cb88976e7b1f2cec08fe29c827af881"
+  },
+  "bundle_sha256": "bb13537824b1318ee56924b94d694c0620b4ffc8dd10c666af855c832059d165",
+  "packet": "M140278",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13437#issuecomment-7057756420",
+  "reviewed_utc": "2026-11-21T06:08:27.496644+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

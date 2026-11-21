@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M032637"
+  ],
+  "started_utc": "2026-11-21T05:27:15.811765+00:00",
+  "ended_utc": "2026-11-21T05:27:41.475680+00:00",
+  "elapsed_seconds": 25.7,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 15725248,
+    "peak_child_rss_kib": 6730716
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FormAtContinuous:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d1cc8eeec7d5660928a92de420cfec1e47d5e91998e1dafba5463f4bba9a36f9",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ModelDdcForms",
+    "ReciprocityTheory.AnalyticForms.PotentialTheory.PshShiftA"
+  ],
+  "objects": {
+    "M032637": "b1780e8449798923f8772617d6b25cbbe371c44fd45fa2ee19b2065c26bfcd32"
+  },
+  "bundle_sha256": "0c15414ceb7caf2d7c6cb548324d4cfe868e7d8684501c8afc036fb522eeb699",
+  "packet": "M032637",
+  "contributor": "jsnider3",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13918#issuecomment-7057931949",
+  "reviewed_utc": "2026-11-21T06:06:06.142879+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

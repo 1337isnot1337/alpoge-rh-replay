@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M123982"
+  ],
+  "started_utc": "2026-11-21T01:53:14.137454+00:00",
+  "ended_utc": "2026-11-21T01:53:23.511637+00:00",
+  "elapsed_seconds": 9.4,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 62308664,
+    "peak_child_rss_kib": 7234120
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.HenselPolynomialRefinement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "309166bc07e68f12ebf2944ad6ae4f95402f490c96db4baf22cac7e69ce78fbc",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsEvalEqProdOfNatDegreeEq"
+  ],
+  "objects": {
+    "M123982": "ee4021630169f093875fab5231fb0c15ba0ee7ee9c303fe9897b9961adf80a9f"
+  },
+  "bundle_sha256": "f1bee37116e26171d3780387d013871785cfbc647c9d3b87f9addb9f6b0bf1f0",
+  "packet": "M123982",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10304#issuecomment-7055470614",
+  "reviewed_utc": "2026-11-21T06:20:36.873040+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M150854"
+  ],
+  "started_utc": "2026-11-21T04:59:48.332278+00:00",
+  "ended_utc": "2026-11-21T05:00:13.765943+00:00",
+  "elapsed_seconds": 25.4,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 26442420,
+    "peak_child_rss_kib": 6777500
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLatticeShifts.RelativeIndexFlags.RelIndexUnipotentConjSymm:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "906fb4d1140c5e61be6beb485f8f804e7fcf3b4211b3369b86d916d9713a9648",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLatticeShifts.RelativeIndexFlags.InvSubOneBd"
+  ],
+  "objects": {
+    "M150854": "ddfa58b33f18b7eb8bb4c27c0e39cd37424597db3b096523c3718b9e80a600b0"
+  },
+  "bundle_sha256": "e70e6f6250342eb593123be7f4a285d3bcfc65e97fdf647b106f6f531fcfdc95",
+  "packet": "M150854",
+  "contributor": "jwr404",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13198#issuecomment-7057662531",
+  "reviewed_utc": "2026-11-21T06:09:36.080634+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

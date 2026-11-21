@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M108237"
+  ],
+  "started_utc": "2026-11-21T02:10:07.740536+00:00",
+  "ended_utc": "2026-11-21T02:10:20.896110+00:00",
+  "elapsed_seconds": 13.2,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6739644
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.StickelbergerCharacterEval.Chcard:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0c9185335433ef4dbaa09ca4913927d43da68e956ed3293889b2870c65615072",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.StickelbergerCharacterEval.MemZpowersIff",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.StickelbergerElements.CoefMapSingle"
+  ],
+  "objects": {
+    "M108237": "214d1fc20ebdaf40856892782174fa4c1ce176248519e81938957b14b340ceaf"
+  },
+  "bundle_sha256": "f5d2a314cea95667c42531a141d59eb0ae372059c457d58b0ba14f38183af49e",
+  "packet": "M108237",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10648#issuecomment-7055696057",
+  "reviewed_utc": "2026-11-21T06:19:29.110273+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

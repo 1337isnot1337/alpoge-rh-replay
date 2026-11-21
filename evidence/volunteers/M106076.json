@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M106076"
+  ],
+  "started_utc": "2026-11-21T03:45:35.661172+00:00",
+  "ended_utc": "2026-11-21T03:45:48.215266+00:00",
+  "elapsed_seconds": 11.9,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6818540
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ScatteringLimits.ConvolutionSpectra.FourAe:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9061281425359cc9bbe813f0be177eb8584d742a747885e03bd9748cbd4ffb83",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ScatteringLimits.Carries",
+    "GroundTheory.AutomorphicForms.TraceNormComp"
+  ],
+  "objects": {
+    "M106076": "08cec3f9a4583ce73523a0ab2f2359a7f4f05c70bfc7ea76f214412f0c18f2cb"
+  },
+  "bundle_sha256": "e89cc4defeb30e520dded85de8db9b1da9ad7ef32c566124c71d6e7a2c752ecb",
+  "packet": "M106076",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11901#issuecomment-7057046019",
+  "reviewed_utc": "2026-11-21T06:14:49.491434+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

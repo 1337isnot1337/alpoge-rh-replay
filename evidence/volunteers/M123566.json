@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M123566"
+  ],
+  "started_utc": "2026-11-21T02:07:24.409332+00:00",
+  "ended_utc": "2026-11-21T02:07:57.800380+00:00",
+  "elapsed_seconds": 33.4,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 5498660
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FundamentalDomainFibrationVolume:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "caf712018d8e69ffbbb30c7c06b1aad3547dc43d4396994079998185445eb492",
+  "rebuilt_project_modules": [
+    "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.FiniteCovolumeUnimodular"
+  ],
+  "objects": {
+    "M123566": "652bf7e9534467b29b9d003f79cfce24e0a0c38f3f687991669c0e5d5073b6a2"
+  },
+  "bundle_sha256": "7d621adb156a3854e4dc42d92c90b198470650de53f949a1d0ce16754e739143",
+  "packet": "M123566",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10630#issuecomment-7055661847",
+  "reviewed_utc": "2026-11-21T06:19:33.101703+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

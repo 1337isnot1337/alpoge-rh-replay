@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M052421"
+  ],
+  "started_utc": "2026-11-21T03:57:38.297828+00:00",
+  "ended_utc": "2026-11-21T03:59:11.538670+00:00",
+  "elapsed_seconds": 93.2,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6613980
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorQuotientOntoAndInjectiveModIdealPowStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "62a4beeaab39a15f37a7fb7720bb20796677dc3f83014717075d39aa2217385f",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorQuotientOntoAndInjectiveModIdealPow"
+  ],
+  "objects": {
+    "M052421": "4303dcc231f2369bdbcbf2fb74709fc9c7da521e0a3a91e88ea5d7d767562abb"
+  },
+  "bundle_sha256": "75bdb43ba033cc7f54ed8495fefaf4b44ab0085c8e59053e3f87377aa42b5fcc",
+  "packet": "M052421",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12152#issuecomment-7056957215",
+  "reviewed_utc": "2026-11-21T06:13:37.046148+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

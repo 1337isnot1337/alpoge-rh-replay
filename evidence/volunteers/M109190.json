@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M109190"
+  ],
+  "started_utc": "2026-11-21T05:33:14.004832+00:00",
+  "ended_utc": "2026-11-21T05:33:22.945153+00:00",
+  "elapsed_seconds": 10.9,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6822660
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.StabilizerIndexBounds.IsClosedZeroLocusMvPolynomialEvalAdicContinuous:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fdb936b98b054a86a56d933fceb96fc61b9753727f9ad83ee4a512cda83f38c1",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CurveDVRSpecialization.LinClosedOfAdic"
+  ],
+  "objects": {
+    "M109190": "f8d4dd413bc2aa75a60e114efa85293a5e1fd3cb4fdf94217841275ffdea089c"
+  },
+  "bundle_sha256": "c9b1fec51d77789b17b45f658820861df57d0835627f3735c3afd7ff7bef58d6",
+  "packet": "M109190",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13962#issuecomment-7058096222",
+  "reviewed_utc": "2026-11-21T06:05:56.412010+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

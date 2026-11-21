@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M020878"
+  ],
+  "started_utc": "2026-11-21T01:02:13.294748+00:00",
+  "ended_utc": "2026-11-21T01:02:31.897514+00:00",
+  "elapsed_seconds": 18.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6254552
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.DenseCompactSupportSchwartz:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6ba64cf56b0c07b726498d448e48b70847e8edaa85b257b737289027246770ab",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzContinuousAtOfPointwiseOfBounded"
+  ],
+  "objects": {
+    "M020878": "baff8108995e3e1cba65e7b5de1b5398ec12b924952563be8392c692ff53bac8"
+  },
+  "bundle_sha256": "14b9c0cbb88b04afed892228ee50ede7139c2f4c6fbb9391fc1da4a1bd9f5086",
+  "packet": "M020878",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8804#issuecomment-7054736957",
+  "reviewed_utc": "2026-11-21T06:25:55.938331+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

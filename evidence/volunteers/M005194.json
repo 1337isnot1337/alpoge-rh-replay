@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M005194"
+  ],
+  "started_utc": "2026-11-21T05:13:48.720429+00:00",
+  "ended_utc": "2026-11-21T05:13:59.644868+00:00",
+  "elapsed_seconds": 10.3,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6800984
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianSchemeTorusCompare:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4fad52bc406e8282b23f8774f8b1cc7f05f23619c913baaede4c40a44debdaef",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.GenericFiberGluing.PlusConditionToZeroCondition",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.GenericFiberGluing.SemistableCompleteSplit"
+  ],
+  "objects": {
+    "M005194": "475fde8123bb8e84054c88742b03f99ff693fb55231633050256b5a89e793c7a"
+  },
+  "bundle_sha256": "c47d61927bbc4c42a7117f7b58b378280d37c9e60ab741b4b62d61ed57a5e772",
+  "packet": "M005194",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13463#issuecomment-7058116981",
+  "reviewed_utc": "2026-11-21T06:08:22.861506+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

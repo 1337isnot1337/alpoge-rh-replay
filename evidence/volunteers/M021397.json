@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M021397"
+  ],
+  "started_utc": "2026-11-21T02:08:33.917896+00:00",
+  "ended_utc": "2026-11-21T02:08:54.296333+00:00",
+  "elapsed_seconds": 20.4,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6722944
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.DirectedSystemEtaleBaseChangePolynomialStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d7f4d8cb647904ea807f319b6fc5d68ec707ac50cc2c282d7ccd85ac77746a64",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DirectedSystemEtaleBaseChangePolynomial"
+  ],
+  "objects": {
+    "M021397": "67ff874c2a62cb60c17248b7372ef6d253f8e41b81e01423cbe9c5fba08dbcba"
+  },
+  "bundle_sha256": "d98a77ff80f80a4fec2cfe67332d6a8a93446eddcc1b6014062c9c3674df370b",
+  "packet": "M021397",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10686#issuecomment-7055674731",
+  "reviewed_utc": "2026-11-21T06:19:22.365094+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

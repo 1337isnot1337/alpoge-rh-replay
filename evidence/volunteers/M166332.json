@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M166332"
+  ],
+  "started_utc": "2026-11-21T05:05:11.277536+00:00",
+  "ended_utc": "2026-11-21T05:05:52.783072+00:00",
+  "elapsed_seconds": 41.5,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6875488
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.HeightKernels.StatementsChartCutoffEnergy:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "15b82225f4f95415ad56cf15646ec152758a0a9141912b8a33ffb3d35790db4e",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.HeightKernels.StatementsChartMass",
+    "ReciprocityTheory.AnalyticForms.MaIntEmpty",
+    "ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PartsSt",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.IsSemipositiveOn"
+  ],
+  "objects": {
+    "M166332": "8dd7ca8ff9dfc67e3a4c96ac3814e870df1d7b09232fb2ff35a2f356e1b3fa08"
+  },
+  "bundle_sha256": "2160e0e40bc4ebb0301c1ea9a3f43f0aabc7b9127c233703c8b7888a73a6e440",
+  "packet": "M166332",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13249#issuecomment-7057690431",
+  "reviewed_utc": "2026-11-21T06:09:22.010552+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

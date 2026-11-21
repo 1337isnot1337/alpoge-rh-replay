@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M096149"
+  ],
+  "started_utc": "2026-11-21T04:52:10.781698+00:00",
+  "ended_utc": "2026-11-21T04:59:18.222746+00:00",
+  "elapsed_seconds": 427.1,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 5653720
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.MultilinearZeroOfKillsTranslatesTensor:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d4abff78fb6b6fd14f99c8cce65b921b951f65b56803e4386b1d5cfb965ae73b",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.IrreducibleUnitaryVectorDensity",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.IrreducibleUnitaryVectorDensityStatement"
+  ],
+  "objects": {
+    "M096149": "537b19f0e76f2d7f880e4e708c07aad03fc47e1f50d5f6cb9c6b6a50cc188901"
+  },
+  "bundle_sha256": "c08dd797b1962b75d578f3fa2ff070f6746727a51e3f3cc56a76dd2c87823ab8",
+  "packet": "M096149",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13019#issuecomment-7057610235",
+  "reviewed_utc": "2026-11-21T06:10:19.693614+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

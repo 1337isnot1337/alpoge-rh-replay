@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M131257"
+  ],
+  "started_utc": "2026-11-21T05:36:18.932991+00:00",
+  "ended_utc": "2026-11-21T05:36:46.638243+00:00",
+  "elapsed_seconds": 27.7,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6766332
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.KaehlerRankTranscendenceDegree:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "430c5e4d92b9029d35a938e331a953e39b1d9b96a534e4e8c9bf4dade69e0f01",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsBasisKaehlerOfAlgebraicIndependent"
+  ],
+  "objects": {
+    "M131257": "922cc478d51aca5880cdf875c67cfbce829d113d22e8d174a1c58444bc3e0ede"
+  },
+  "bundle_sha256": "81e0e3d51e70670968d38d1ecb0d32a834c1cb297c0877f693547f482a6646e8",
+  "packet": "M131257",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14169#issuecomment-7058041317",
+  "reviewed_utc": "2026-11-21T06:05:08.744128+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

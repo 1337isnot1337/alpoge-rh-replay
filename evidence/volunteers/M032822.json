@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M032822"
+  ],
+  "started_utc": "2026-11-21T04:43:31.829441+00:00",
+  "ended_utc": "2026-11-21T04:58:07.274271+00:00",
+  "elapsed_seconds": 875.4,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5585852
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FourierLipschitzOneVariableKernelEq:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "14a0c0162944dcdf5e92e8b6f0656f560c1bfdb29953aeb202a0e08c0f6f8aa5",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TraceDualDifferent",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RembApply",
+    "Formalism.LatticeTheta.Statement"
+  ],
+  "objects": {
+    "M032822": "1eab4ee0cbb83694613bb52ab66db88c3cce1537a02656ae24cbf826af17037b"
+  },
+  "bundle_sha256": "2fbe5a98c1f27cdde949d13b5ef241aefa501ef58765e49fc808aa871bc0f137",
+  "packet": "M032822",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12853#issuecomment-7057596392",
+  "reviewed_utc": "2026-11-21T06:11:04.393360+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

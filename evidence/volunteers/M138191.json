@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M138191"
+  ],
+  "started_utc": "2026-11-21T04:20:11.749533+00:00",
+  "ended_utc": "2026-11-21T04:21:00.142226+00:00",
+  "elapsed_seconds": 48.4,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 26442420,
+    "peak_child_rss_kib": 6767512
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.FlagImmersions.PolarizationCoefficientsBound:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1dc03a93771f4af2b748ea92a529baec56f53cb647faac14153ff420a83ede81",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.CompactGapsGE"
+  ],
+  "objects": {
+    "M138191": "20f804835ce07e218d32391735601fe7550f3731455acac598aebddadd882ca2"
+  },
+  "bundle_sha256": "87eb7411c3e5302b5feb716c39a0c498a50a95ca64f36345b3d6443a9c3cf956",
+  "packet": "M138191",
+  "contributor": "jwr404",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12531#issuecomment-7057282655",
+  "reviewed_utc": "2026-11-21T06:12:20.025639+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

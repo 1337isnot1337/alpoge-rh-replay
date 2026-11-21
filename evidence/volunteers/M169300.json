@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M169300"
+  ],
+  "started_utc": "2026-11-21T01:06:42.113946+00:00",
+  "ended_utc": "2026-11-21T01:06:57.793798+00:00",
+  "elapsed_seconds": 15.7,
+  "host": {
+    "cpu_count": 128,
+    "mem_total_kib": 395484908,
+    "peak_child_rss_kib": 6900116
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.RemainderTerms.PCoinvStaircaseComponent:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "41b4b644c551e5ae79b4ca97cf56355153eb6c8c5de7d07dff0b5b8a273f6a5d",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.CoinvReduction",
+    "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Statements",
+    "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.StatementsCoinv"
+  ],
+  "objects": {
+    "M169300": "d51031847fa7d033e8d4dc1f4ae1e68b4eead87010040d3f2701e4e5b19035c5"
+  },
+  "bundle_sha256": "4014d651dc5dbf1fcc500c343336178e25ee9410476db3f4d9c77ed2030d84d8",
+  "packet": "M169300",
+  "contributor": "BenCaunt",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8978#issuecomment-7054810065",
+  "reviewed_utc": "2026-11-21T06:25:14.927959+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

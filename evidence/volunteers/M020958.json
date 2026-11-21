@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M020958"
+  ],
+  "started_utc": "2026-11-21T02:00:56.660360+00:00",
+  "ended_utc": "2026-11-21T02:01:06.283036+00:00",
+  "elapsed_seconds": 9.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6726772
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.DerivationDetEqDoubleSumAdjugateEntryStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4ae1cbdef1cc2ea721879f840c958182c0793c365deef3cb921b4bfbb8e85b50",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DerivationDetEqDoubleSumAdjugateEntry"
+  ],
+  "objects": {
+    "M020958": "5cfe2715226ac3bbc557c6e5f1c00ad8d69d387a4ca6907e01bfa5193c4dd650"
+  },
+  "bundle_sha256": "3ad34897df08a215a1866cae65700419497eea6affadd5eb006f7cefc1f5e0f6",
+  "packet": "M020958",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10542#issuecomment-7055570643",
+  "reviewed_utc": "2026-11-21T06:19:50.981816+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,45 @@
+{
+  "tasks": [
+    "M000580"
+  ],
+  "started_utc": "2026-11-21T03:57:27.096510+00:00",
+  "ended_utc": "2026-11-21T03:58:30.550656+00:00",
+  "elapsed_seconds": 63.5,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 6827352
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.CreationOperators.CreApply:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "76d4a2d63b1c71cdd4d31c0e63e8a70e6bc5e99e4f329ff275e65b967e61b1f8",
+  "rebuilt_project_modules": [
+    "CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.DiscreteSeriesCharacters.CapelliDeterminantBlockProduct",
+    "CompanionTheory.HarishChandraModules.LowKTypeMultiplicity.EigenspaceCyclicDensity.LowKMultOneP",
+    "Formalism.FormalDegreeBessel.StatementDS",
+    "Formalism.PeriodIntegrals.DSInfCharCap",
+    "Formalism.PeriodIntegrals.IsLowUnitH",
+    "Formalism.PeriodIntegrals.PhMeasCore",
+    "Formalism.PeriodIntegrals.UpqRep",
+    "Formalism.RealPlaceAnalysis.Complexify",
+    "Formalism.RealPlaceAnalysis.StatementA",
+    "Formalism.RealPlaceAnalysis.StatementB",
+    "Formalism.RealPlaceAnalysis.StatementE"
+  ],
+  "objects": {
+    "M000580": "5b32a4563bc7bf52ca57d5732b90ac36f0fafc06f5a5f08d5ebf21f99e3cfb61"
+  },
+  "bundle_sha256": "3ea6021c9f5ec9b004c24b40477d5f54d05dc8aa2e04755558e780ca71cdca23",
+  "packet": "M000580",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12145#issuecomment-7056957011",
+  "reviewed_utc": "2026-11-21T06:13:39.629542+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

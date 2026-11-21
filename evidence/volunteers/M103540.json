@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M103540"
+  ],
+  "started_utc": "2026-11-21T03:35:00.063160+00:00",
+  "ended_utc": "2026-11-21T03:35:09.726438+00:00",
+  "elapsed_seconds": 9.7,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6850092
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.IntCrit:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "19f2d01073762439ba277e4e8121ae9f7c2970abc0b4bcc639a217fe024f78bb",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsPadicAlgClRingEquivComplexCompEqOfCountabl",
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.MkLeContinuumOfDenseRange"
+  ],
+  "objects": {
+    "M103540": "f2500efa873ef68df62600f1e3d1445c2fe4bcc4e52fc5985dd43394a6940d33"
+  },
+  "bundle_sha256": "e4bacc1ca338fe41ad9e763b6950a3c1e64d6d3bc58baa8da3b378b8a4ae21b9",
+  "packet": "M103540",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11719#issuecomment-7056738088",
+  "reviewed_utc": "2026-11-21T06:15:24.936324+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

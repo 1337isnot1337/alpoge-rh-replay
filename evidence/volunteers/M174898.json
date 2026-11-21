@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M174898"
+  ],
+  "started_utc": "2026-11-21T01:14:57.377208+00:00",
+  "ended_utc": "2026-11-21T01:15:08.264434+00:00",
+  "elapsed_seconds": 10.3,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6816188
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.LatticeEmbeddings.IotaPlace:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c60df18c39987b5222bad83e72fccb9ff2767f349c988b7fd970a624ccdcda03",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.LatticeEmbeddings.IotaPlaceB"
+  ],
+  "objects": {
+    "M174898": "ed7174c51885e346b7aca8e500628a4853951c4970666d8e569f8a04313e4600"
+  },
+  "bundle_sha256": "521687caef6773a62acd202709fdcb9416c84be04b26e3346b9909553f2125f8",
+  "packet": "M174898",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9021#issuecomment-7054939210",
+  "reviewed_utc": "2026-11-21T06:25:06.006455+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

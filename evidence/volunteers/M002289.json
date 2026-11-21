@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M002289"
+  ],
+  "started_utc": "2026-11-21T05:07:28.763267+00:00",
+  "ended_utc": "2026-11-21T05:07:31.916890+00:00",
+  "elapsed_seconds": 3.2,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 63244532,
+    "peak_child_rss_kib": 982128
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.LatticeTensorUnfolding:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d39bba06f4ea4d08401f7737399a683e4d365070f4bf00e47e934ab2cf9b1028",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M002289": "e0b0302deb45912638cce3d36cafbcfaa9a8dba2aef94572dd83a8bd52842ed5"
+  },
+  "bundle_sha256": "40034fc887d40e96c99eff0390d082cd9367af76f7f227183e66712cee686c8e",
+  "kernel_replay_sha256": "2d7644a3cc41e20ff57afa1b8c6a46f5b0145fd338e16d3a674315c775069fb4",
+  "kernel_replayed_targets": [
+    "Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.LatticeTensorUnfolding"
+  ],
+  "kernel_receipt_scope": "target",
+  "packet": "M002289",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13369#issuecomment-7057697319",
+  "reviewed_utc": "2026-11-21T06:08:47.031863+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum. The upstream verifier matched the kernel record to this receipt, the exact cached targets, and their successful module-level replay transcript."
+}

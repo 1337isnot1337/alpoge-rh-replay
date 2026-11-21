@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M106073"
+  ],
+  "started_utc": "2026-11-21T00:25:59.859278+00:00",
+  "ended_utc": "2026-11-21T00:26:11.595930+00:00",
+  "elapsed_seconds": 11.7,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 23809704,
+    "peak_child_rss_kib": 6869208
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ScatteringLimits.ConvolutionSpectra.CutLaws:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a031f66095d030b5a17e598c91c1a191eb88d2cce1eb8e377655c3bab34b0749",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ScatteringLimits.ConvolutionSpectra.CutSpec"
+  ],
+  "objects": {
+    "M106073": "fe8944207128f957e2524456c315dd43e0a1c612b7b58c135d673a0e93047767"
+  },
+  "bundle_sha256": "3d85fdb7acaadfa5486bc46d26ae35ad474d3e95ab3dabd37f2816f3a635d7b3",
+  "packet": "M106073",
+  "contributor": "matan1905",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8104#issuecomment-7054101183",
+  "reviewed_utc": "2026-11-21T00:29:21.920005+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

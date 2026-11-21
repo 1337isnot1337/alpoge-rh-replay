@@ -1,0 +1,65 @@
+{
+  "tasks": [
+    "M107877"
+  ],
+  "started_utc": "2026-11-21T01:45:55.638036+00:00",
+  "ended_utc": "2026-11-21T01:53:49.481854+00:00",
+  "elapsed_seconds": 473.8,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 65758100,
+    "peak_child_rss_kib": 6756720
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.DeterminantPadicFree.DiscStIff:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b74e5b4ec74de1d90ab4aeabd6c5dc90e83ace4767916081edfce6dbcc1f4931",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.IrredIffSpan",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.BcChiTmul",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.ChEltOne",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.DChKer",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.DComm",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.DFactor",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.DFaithfulSs",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.DGmap",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.DIdemRank",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.DKerSs",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.DKillsPoly",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.DMatrix",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.DOfRep",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.DPoly",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.DProd",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.DPull",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.DToDet",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.DToDetOfRep",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.DUnit",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.DkerOfKills",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.ExistsSemisimpleRepOfDetLawOfIsAlgClosed",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.GGram",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.GroupDetExistsSemisimpleRepresentation",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.HomTwo",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.LeftInvOfJac",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.DeterminantPadicFree.FrameWith",
+    "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.IrreducibleSpans.Burnside",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.BurnsideEnd",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IrreducibleOfSpanningMatrices",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MapSurj",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SpanMapRingHomEqTop"
+  ],
+  "objects": {
+    "M107877": "61add7c0db3f21274d777cf2baa24428dbca2f40ee2c94336162a4097e29b47b"
+  },
+  "bundle_sha256": "9c5e94953a22a2cd77c2c14c2555cfd002ea8a8ab3bfe24cddc8aa26516bbc9a",
+  "packet": "M107877",
+  "contributor": "emsi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10049#issuecomment-7055485203",
+  "reviewed_utc": "2026-11-21T06:21:34.181566+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

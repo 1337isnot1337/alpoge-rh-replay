@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M009060"
+  ],
+  "started_utc": "2026-11-21T01:56:41.968741+00:00",
+  "ended_utc": "2026-11-21T01:56:50.767172+00:00",
+  "elapsed_seconds": 8.8,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6800144
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteDimensionalSpanMultilinearValuesStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "aeeddb973a655cac2adb3ef625de699392d4d287d9adb72ceb9627aa22459cca",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteDimensionalSpanMultilinearValues"
+  ],
+  "objects": {
+    "M009060": "9c0f9ff330612545b75ba5b734f6cc8c3cfea9d4c423f819e311d0830a4e3c06"
+  },
+  "bundle_sha256": "cd9654afb47a02932a3caa844e6e3a5361d602014b668629f21bdad5257c674a",
+  "packet": "M009060",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10210#issuecomment-7055566803",
+  "reviewed_utc": "2026-11-21T06:20:54.569977+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

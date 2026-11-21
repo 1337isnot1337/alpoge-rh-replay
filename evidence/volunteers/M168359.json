@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M168359"
+  ],
+  "started_utc": "2026-11-21T02:29:42.381233+00:00",
+  "ended_utc": "2026-11-21T02:32:46.703798+00:00",
+  "elapsed_seconds": 184.3,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.PDedekindFibreRank:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 4760136
+  },
+  "source_sha256": "dc5f000484ffff4203ca0ea9ffa035998f3eadb0747025b2f57cad71b0c84bf4",
+  "log_sha256": "cebda4d02489e349863e407b356629b9a05816f6d04f825b8735c689fb89dfb3",
+  "objects": {
+    "M168359": "7825b7535f39a09371638a85d3d0dbafc6bd323f6fe69a80d207be6f1836639a"
+  },
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.StatementsDedekindFibreRank"
+  ],
+  "bundle_sha256": "03445138a2e7805cd4ca9b6fec7b89ca7077e1eee44b628f7108f532c7a117a7",
+  "packet": "M168359",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11058#issuecomment-7056019528",
+  "reviewed_utc": "2026-11-21T06:18:06.169474+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

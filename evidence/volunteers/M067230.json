@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M067230"
+  ],
+  "started_utc": "2026-11-21T04:49:28.160414+00:00",
+  "ended_utc": "2026-11-21T04:53:51.773149+00:00",
+  "elapsed_seconds": 263.6,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardKerMulCardEq:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 4645324
+  },
+  "source_sha256": "28fb1b20c78b7c5f16afba620cf3f6b2a468becf888eebcbf3a86f9378cbbc70",
+  "log_sha256": "32fa315e4c5494b21ef1274dd285ee69a5449c7783806c4fb35b634688e3a84d",
+  "objects": {
+    "M067230": "4fa3b717323c0fccecccdf98ecf3538c0b88ea8d3660a82a078aedb6d2ef81c2"
+  },
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.BijectiveDualAddChar",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardDualZmodModuleEqCard"
+  ],
+  "bundle_sha256": "03d3043811820feb08e5d292cae1fa8afb8bc7ac59faf25676307e734587b45a",
+  "packet": "M067230",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12984#issuecomment-7057566903",
+  "reviewed_utc": "2026-11-21T06:10:29.054142+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M109873"
+  ],
+  "started_utc": "2026-11-21T01:26:27.705843+00:00",
+  "ended_utc": "2026-11-21T01:26:40.881331+00:00",
+  "elapsed_seconds": 12.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6827212
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.SelmerDuality.PerfCard:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5821424b87c5eac047306ecb8202f9aea7cac1fd31195d5d3b37ae8447a23cce",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.SelmerDuality.H1cEqH1",
+    "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.SelmerDuality.ZModInj"
+  ],
+  "objects": {
+    "M109873": "78d1025b063652437f3a5c29901fb6ae8172a7df227fe704d4e3154d0f1d43df"
+  },
+  "bundle_sha256": "59706f729a57f96fe7e5d46cdf43cb5f2de9b20236359deddee8a4543dd8031e",
+  "packet": "M109873",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9494#issuecomment-7055110662",
+  "reviewed_utc": "2026-11-21T06:23:26.112300+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

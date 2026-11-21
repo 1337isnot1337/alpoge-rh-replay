@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M131327"
+  ],
+  "started_utc": "2026-11-21T05:18:19.787787+00:00",
+  "ended_utc": "2026-11-21T05:18:53.310495+00:00",
+  "elapsed_seconds": 33.5,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6816900
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.LatticeVectorBundlePullbackStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "31eebea3509e98a1d05a44986b5771fbcd6093077acf15615aad995f17e410cb",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GenMapStalkMap",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GenMapStalkSpecializes",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LatticeVectorBundlePullback"
+  ],
+  "objects": {
+    "M131327": "8a39e66cef258b1ba845fe85c53c984537bb2da93bce18d8a7fb6f11d6b274e0"
+  },
+  "bundle_sha256": "f6d9ba8fb718718b608620e3137d1e113a399d504698e05f4f1624b565287022",
+  "packet": "M131327",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13814#issuecomment-7057868521",
+  "reviewed_utc": "2026-11-21T06:06:37.011220+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M092550"
+  ],
+  "started_utc": "2026-11-21T01:26:52.506410+00:00",
+  "ended_utc": "2026-11-21T01:27:07.967621+00:00",
+  "elapsed_seconds": 14.9,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6861768
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.ContinuousVanishingHyperplaneExtendStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "efb565451896f9e3273fc8bedaed3a590648d0365e5f3d7d0bea2fe3f631d6ee",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ContinuousVanishingHyperplaneExtend",
+    "Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.InverseChamberMap"
+  ],
+  "objects": {
+    "M092550": "94be94d14d90f647d8f99b3cf9a66cd91f6dfe63ec10119b839c4c99800ad064"
+  },
+  "bundle_sha256": "1c65855b603a7c1be64b140b28dc8b7cdec2f5d9e0ad826d60ffb6f62199d091",
+  "packet": "M092550",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9496#issuecomment-7055118971",
+  "reviewed_utc": "2026-11-21T06:23:25.814898+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

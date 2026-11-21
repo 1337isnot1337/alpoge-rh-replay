@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M040575"
+  ],
+  "started_utc": "2026-11-21T05:35:23.395740+00:00",
+  "ended_utc": "2026-11-21T05:35:56.981302+00:00",
+  "elapsed_seconds": 33.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 53467180,
+    "peak_child_rss_kib": 6823700
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthCokerLsmulEqLengthKerAddSumStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "38f1db50a9cf6eecea51e1422f8ac077605bd3b18c870873c54dd1fdb1dd2be3",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthCokerLsmulEqLengthKerAddSum",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthEqKerAddRange"
+  ],
+  "objects": {
+    "M040575": "ac78e7738203fb6b95d5fbbf84786a900c08cfb8833b39e8ab48cd884c4ecb61"
+  },
+  "bundle_sha256": "20b130c3c1a2d524ebd443fbe0e47404d22c3ecc6e0af023b38e94a403551b88",
+  "packet": "M040575",
+  "contributor": "Sethumathavanpk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14158#issuecomment-7058031625",
+  "reviewed_utc": "2026-11-21T06:05:10.921050+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

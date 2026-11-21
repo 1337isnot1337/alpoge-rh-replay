@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M137893"
+  ],
+  "started_utc": "2026-11-21T05:34:53.064512+00:00",
+  "ended_utc": "2026-11-21T05:35:13.342130+00:00",
+  "elapsed_seconds": 20.3,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 61933828,
+    "peak_child_rss_kib": 7441304
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.AutomorphicKernels.UnitarySchrodingerModel.CoefDataExists:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1600ae82eae1910cf51781181985e4aca44df2d0b7629d8246462bbac028f23a",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.CoreStatements.TemperedRepresentationTheory.WeilSiegelTheta.PoissonAbs"
+  ],
+  "objects": {
+    "M137893": "9f389b75c0823eed84d56ec0d3de6717d8aeb0b4732a7ca4a189effbcb57a9eb"
+  },
+  "bundle_sha256": "ae9fbc0ee4a5f49a400ed46ab6c9c63af07573dac8a0fb9087a0aaae24bcaee6",
+  "packet": "M137893",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14114#issuecomment-7058023604",
+  "reviewed_utc": "2026-11-21T06:05:20.742832+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M066067"
+  ],
+  "started_utc": "2026-11-21T02:26:10.961269+00:00",
+  "ended_utc": "2026-11-21T02:26:31.916869+00:00",
+  "elapsed_seconds": 21.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6220708
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.HeightProofs.ExpNegMulSqrtDivPowLeStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0b4f42c69086cbd6f2489e42f47c573cb61a8d973add26675332ecb30a4939c8",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.HeightProofs.ExpNegMulSqrtDivPowLe"
+  ],
+  "objects": {
+    "M066067": "2a2de46ba71948a3ff98785af348214d7b765ff6f55de4fa0d7a3d06017f567a"
+  },
+  "bundle_sha256": "12f0c997eefbccb73dd1901ffecda81b85856fe06533620c11d32bb566c8a874",
+  "packet": "M066067",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10981#issuecomment-7055922734",
+  "reviewed_utc": "2026-11-21T06:18:26.787126+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

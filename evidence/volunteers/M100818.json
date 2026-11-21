@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M100818"
+  ],
+  "started_utc": "2026-11-21T03:59:30.493440+00:00",
+  "ended_utc": "2026-11-21T03:59:57.842321+00:00",
+  "elapsed_seconds": 27.3,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 6753428
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.TamagawaSpecialUnitary:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2312d22d1f8a5cea3623cc4c2d2627de8ebafe0c25e61384baf2c82de887c441",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.EmbGLMemRealSU"
+  ],
+  "objects": {
+    "M100818": "9411f697bbd08b246719a4f902bd943cfc97d05c520da692842ae49097fc3a2e"
+  },
+  "bundle_sha256": "65458de744bd8e871c18578f4c4ceea8981484ea815cc7e77eeb419b6f3df71a",
+  "packet": "M100818",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12252#issuecomment-7056986821",
+  "reviewed_utc": "2026-11-21T06:13:19.058674+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

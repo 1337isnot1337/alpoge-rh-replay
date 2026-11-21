@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M175006"
+  ],
+  "started_utc": "2026-11-21T05:44:25.375631+00:00",
+  "ended_utc": "2026-11-21T05:45:48.739678+00:00",
+  "elapsed_seconds": 83.4,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 6201476
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.UnramifiedIntegrals.MuMEvalPowEqZero:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4c4d4c8eeb459d6e5604a44df35194f7289300c632c14227d25e413bd26383bd",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.TorsionIntegrality.CMGoodModels.Statement",
+    "ReciprocityTheory.ReductiveGroups.UnramifiedIntegrals.KurDefs"
+  ],
+  "objects": {
+    "M175006": "204e5e48b5aefe75ae772116016e8fe18cb1e36a35ca2636561faf23b9eec076"
+  },
+  "bundle_sha256": "8352cb05218bd81815444b711037811329f3c7148e6e518dd26e54e04ed796a9",
+  "packet": "M175006",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14232#issuecomment-7058148306",
+  "reviewed_utc": "2026-11-21T06:04:57.229348+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

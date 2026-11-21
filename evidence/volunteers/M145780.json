@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M145780"
+  ],
+  "started_utc": "2026-11-21T04:16:04.628427+00:00",
+  "ended_utc": "2026-11-21T04:16:52.562006+00:00",
+  "elapsed_seconds": 47.9,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 6687552
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.HermitianCurvature.HermitianCurvatureProofs.CutJA:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5122a9b471c9ceb97c5345cfe9454c64817c45e2e9624e8c40b2c9ab6a7625b5",
+  "rebuilt_project_modules": [
+    "Formalism.HermitianCurvature.HermitianCurvatureProofs.CutJD",
+    "Formalism.HermitianCurvature.HermitianCurvatureProofs.CutMP2"
+  ],
+  "objects": {
+    "M145780": "dbbb5b98cf4e4cec6e192cad6587ee2d1590414c1d25586fb2c5f692ce5ea946"
+  },
+  "bundle_sha256": "89afa66e252fadfdaa537a91baab81037a0cafed561df81233a644b50d02285e",
+  "packet": "M145780",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12474#issuecomment-7057220771",
+  "reviewed_utc": "2026-11-21T06:12:33.984109+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

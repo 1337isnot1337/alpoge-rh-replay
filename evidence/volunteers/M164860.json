@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M164860"
+  ],
+  "started_utc": "2026-11-21T03:38:36.393770+00:00",
+  "ended_utc": "2026-11-21T03:39:23.889800+00:00",
+  "elapsed_seconds": 47.5,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 6820428
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StSliceObjects:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "affd6ed3b82f6764eb8a1da9c92d60597822c5be49b868156d71f36ade281220",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.Characterised",
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.LineInhabitant",
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.MahlerSectionBasic",
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.Statements",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StatementsCurrent",
+    "ReciprocityTheory.AnalyticForms.MaIntEmpty"
+  ],
+  "objects": {
+    "M164860": "5fd0d42371adc5a4f1b0fb4b980d75195bcbadeda979abe582943f7ce446bc86"
+  },
+  "bundle_sha256": "efecb9b748d48555fbfd8af11fa49e315c39a976d49d9e033535beff47b91713",
+  "packet": "M164860",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11833#issuecomment-7056749839",
+  "reviewed_utc": "2026-11-21T06:15:02.406051+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M119961"
+  ],
+  "started_utc": "2026-11-21T05:11:52.525621+00:00",
+  "ended_utc": "2026-11-21T05:13:20.612294+00:00",
+  "elapsed_seconds": 88.1,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6872164
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.AlgebraProofs.CharacterIdealPrincipalEigen:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "24f8fce6fb8696dd11c432b10bda611069d8f103a6b8a7389d3db29c227b6ca6",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.IsTight",
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.StepOrderRes",
+    "ReciprocityTheory.DualLattices.CotangentSurjective",
+    "ReciprocityTheory.DualLattices.SmallLevelClassSet"
+  ],
+  "objects": {
+    "M119961": "53dc5a1410fffefd0d8b90006e719a2c401671c9fe3cbc558730d1ac45cc6678"
+  },
+  "bundle_sha256": "7312226a0f107b9c3fb74edbdcff741d6e572badfdcaff0a2653b77773553c6f",
+  "packet": "M119961",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13510#issuecomment-7057778248",
+  "reviewed_utc": "2026-11-21T06:08:13.832356+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

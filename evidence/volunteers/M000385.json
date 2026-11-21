@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M000385"
+  ],
+  "started_utc": "2026-11-21T00:55:05.305183+00:00",
+  "ended_utc": "2026-11-21T01:00:28.472802+00:00",
+  "elapsed_seconds": 323.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 8133396,
+    "peak_child_rss_kib": 4232048
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+CompanionTheory.AutomorphicTheory.SchurLimitBounds.SchurOrthogonality.URepSchur:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a107f1fd7d0b700344d25219780bc69a94c283c5327c44c4c2e7fdfd01c0a120",
+  "rebuilt_project_modules": [
+    "CompanionTheory.AutomorphicTheory.SchurLimitBounds.SchurOrthogonality.URepBasic"
+  ],
+  "objects": {
+    "M000385": "7a53e2a6c61fb15f7d22ee0e191abd4c034ed11bd4be07ee3e4fcb800e9db59e"
+  },
+  "bundle_sha256": "803e87eefde4b3428e9f1d445c75d8a3729034313ab51eeb8b58d9ab0f63c5b2",
+  "packet": "M000385",
+  "contributor": "mdpmcc",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8615#issuecomment-7054718668",
+  "reviewed_utc": "2026-11-21T06:26:24.726337+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

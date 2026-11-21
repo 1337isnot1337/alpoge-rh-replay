@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M041447"
+  ],
+  "started_utc": "2026-11-21T02:59:36.426071+00:00",
+  "ended_utc": "2026-11-21T02:59:46.977069+00:00",
+  "elapsed_seconds": 10.6,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6817168
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearIndepOnPowOfIsDomainTensorPurelyInseparablStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "aaa719a2fe52a8ad083562de277dc335b1c9890cbde536e3a061fc8fbb3076ee",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearIndepOnPowOfIsDomainTensorPurelyInseparabl"
+  ],
+  "objects": {
+    "M041447": "06415b8cb610af14afac0b5cece0477c553322880b45b4ff619e67a92281f555"
+  },
+  "bundle_sha256": "5fcfeb82f722bf5e438ac0d7e30204565ca01d907789a19b2f8dfc8ab5a87990",
+  "packet": "M041447",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11469#issuecomment-7056331556",
+  "reviewed_utc": "2026-11-21T06:16:28.779833+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M096480"
+  ],
+  "started_utc": "2026-11-21T05:09:52.108376+00:00",
+  "ended_utc": "2026-11-21T05:31:07.006634+00:00",
+  "elapsed_seconds": 1274.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 5615232
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.PeriodicThetaNormMeanFactorLe:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "537a5ffaa93d256d11489c1e8e21dc476f3a1966dd3f81aa018adffca2b4083d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.AffineChangeFundamentalDomainMeanPeriodic",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.AffineChangeFundamentalDomainMeanPeriodicStatement",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.MeanFundamentalDomainOfLe",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.MeanFundamentalDomainOfLeStatement"
+  ],
+  "objects": {
+    "M096480": "27dd6a65b26fa12160cee938b2f61cbe2ccd566cd8b63a456a10fb29a39d5128"
+  },
+  "bundle_sha256": "37d0f2f3f02bc4a29b18bef3692a08aef446d3b357bf3f00f9795d87e939ff3b",
+  "packet": "M096480",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13409#issuecomment-7057977219",
+  "reviewed_utc": "2026-11-21T06:08:34.534709+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

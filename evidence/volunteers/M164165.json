@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M164165"
+  ],
+  "started_utc": "2026-11-21T01:52:10.644992+00:00",
+  "ended_utc": "2026-11-21T01:52:27.324983+00:00",
+  "elapsed_seconds": 16.7,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6671272
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PInvarianceOfDomain:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b1908d45054ffe0b15f8b1285874b4d5326bd8053d154604480cb40dbb498f95",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StBrouwerFixedPoint",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StInvarianceOfDomain"
+  ],
+  "objects": {
+    "M164165": "5b3a166e16d4a7d84f915700d6194af09186ae114ecc31ad60341c1fd7969d5a"
+  },
+  "bundle_sha256": "97c03578b00d2bac41f92e04963751e2f82fb7c6281f59414f84616bcf0f1d48",
+  "packet": "M164165",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10255#issuecomment-7055454491",
+  "reviewed_utc": "2026-11-21T06:20:47.041282+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

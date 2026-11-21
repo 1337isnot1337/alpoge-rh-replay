@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M131157"
+  ],
+  "started_utc": "2026-11-21T00:59:22.643403+00:00",
+  "ended_utc": "2026-11-21T00:59:37.007624+00:00",
+  "elapsed_seconds": 14.4,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6173604
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.IotaMultiChangeOfBasisDetStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1947f69b6ba74f3903e3ae50ba79d98b6c44b0d38486b6727fa285e5c2b8726e",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.IotaMultiChangeOfBasisDet"
+  ],
+  "objects": {
+    "M131157": "b5ef0a1093103802496d37fbb4f57a4691f26028a64edd38e7aca0e6697e956e"
+  },
+  "bundle_sha256": "5a9610fb208ca8a815f69e2dfc42e75c24761e222324b87d67a39805a4f709ce",
+  "packet": "M131157",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8754#issuecomment-7054691435",
+  "reviewed_utc": "2026-11-21T06:25:58.723648+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

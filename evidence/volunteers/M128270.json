@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M128270"
+  ],
+  "started_utc": "2026-11-21T05:54:47.901611+00:00",
+  "ended_utc": "2026-11-21T05:55:34.420012+00:00",
+  "elapsed_seconds": 46.5,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5408076
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingSmulLeftStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7976525314c4409fbcfe420e8b8583757bc6628ac588239edf08005f62e4bddb",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingSmulLeft",
+    "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.FrobeniusWittActions.PsiApply"
+  ],
+  "objects": {
+    "M128270": "af0c671a9dfbe00d49962c9bad045a04ef6a7e0c7b2d8ad3b5f7ab6cb8544141"
+  },
+  "bundle_sha256": "cf9cbc5f0086edcf95d873083b5d8ba0ded14b7dfc0c9c996c82ae5104faf280",
+  "packet": "M128270",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14373#issuecomment-7058268882",
+  "reviewed_utc": "2026-11-21T06:04:34.917568+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

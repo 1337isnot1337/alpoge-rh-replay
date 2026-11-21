@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M004223"
+  ],
+  "started_utc": "2026-11-21T04:01:03.372263+00:00",
+  "ended_utc": "2026-11-21T04:01:43.521183+00:00",
+  "elapsed_seconds": 40.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 6875736
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.GaloisGeometry.HeckeCharEqOfLAdicRealisation:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "31bf7846bc2e9bef3de62f222f24a47b46d55e5d240757579d13d5b769b4a8d1",
+  "rebuilt_project_modules": [
+    "Formalism.SharpRestriction.LevelLetterCocycles.JointConditionsZpowers.ResidualIrreducibleOfTheorem",
+    "Formalism.SharpRestriction.LevelLetterCocycles.JointConditionsZpowers.ResidualIrreducibleRankR"
+  ],
+  "objects": {
+    "M004223": "25e4247b4ca25978c14fbeb47284600f92f91e33286c638bc525f0f8c4930098"
+  },
+  "bundle_sha256": "efcc94305d6d6eb366abf098a017d38270e6456902ebb871af096ebfb3188bca",
+  "packet": "M004223",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12290#issuecomment-7056999282",
+  "reviewed_utc": "2026-11-21T06:13:11.528513+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

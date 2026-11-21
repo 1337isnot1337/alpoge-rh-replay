@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M049080"
+  ],
+  "started_utc": "2026-11-21T05:25:18.300420+00:00",
+  "ended_utc": "2026-11-21T05:41:50.599883+00:00",
+  "elapsed_seconds": 992.2,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5672956
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzSliceSeminormLeStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b603c76028ced2b8a856a03639b5f20678cc95f943d76ecc120b48d02b5898de",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasTemperateGrowthProdMkConst",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzSliceSeminormLe"
+  ],
+  "objects": {
+    "M049080": "b5f14093d20e8da082f174dbb22f00e42c674d7e432589ef03189c6a15d5cc92"
+  },
+  "bundle_sha256": "ca7c4ea59503b7df09972bc30d79664f2e1ba0d1305a3bfd1d689596964975c7",
+  "packet": "M049080",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13131#issuecomment-7058101018",
+  "reviewed_utc": "2026-11-21T06:09:57.018397+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M142729"
+  ],
+  "started_utc": "2026-11-21T04:42:42.914356+00:00",
+  "ended_utc": "2026-11-21T04:43:07.701553+00:00",
+  "elapsed_seconds": 24.8,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6802596
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.MollifiedIntegrability.ClsGainA:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "cf39159a0fffaa3fe57b01edcd43321d81d3504eb23bed3971edeb689eeb0805",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.MollifiedIntegrability.ClsBoundAlt",
+    "Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.MollifiedIntegrability.ClsGainSt"
+  ],
+  "objects": {
+    "M142729": "077f5f276aa4eb1c4da0c9c91e4759029133fa77ab2f31a7b76757681848b886"
+  },
+  "bundle_sha256": "fba54d01678dbaa441533e0bc9dc16f4acde5a06885d74e2d80eaafb1add5194",
+  "packet": "M142729",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12962#issuecomment-7057444426",
+  "reviewed_utc": "2026-11-21T06:10:36.312959+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

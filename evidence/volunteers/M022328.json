@@ -1,0 +1,65 @@
+{
+  "tasks": [
+    "M022328"
+  ],
+  "started_utc": "2026-11-21T01:45:57.421464+00:00",
+  "ended_utc": "2026-11-21T01:53:50.444850+00:00",
+  "elapsed_seconds": 473.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 65758100,
+    "peak_child_rss_kib": 6784516
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticWeakSolWordDerivLeConstMulSupStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "71343a33b36bd874c621e67c47e64ccbde37268d6c98b29ad879b2b3661b2082",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.ZeroMemSolSet",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AestronglyMeasurableExtendByZeroOffSubset",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DwSmoothLocalLinear",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticSystemDerivativeContinuousFunctional",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticSystemDerivativeContinuousFunctionalStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EllipticWeakSolWordDerivLeConstMulSup",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsContinuousFunctionalIterPartialDeriv",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsContinuousFunctionalIterPartialDerivStatement",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ConvSqLe",
+    "Formalism.UnipotentAdelicQuotients.EllReg",
+    "Formalism.UnipotentAdelicQuotients.EllRegCheck",
+    "Formalism.UnipotentAdelicQuotients.EllRegCut",
+    "Formalism.UnipotentAdelicQuotients.EllRegStep",
+    "Formalism.UnipotentAdelicQuotients.EllipticRegularity.BaseLevel",
+    "Formalism.UnipotentAdelicQuotients.EllipticRegularity.ConvolutionBound",
+    "Formalism.UnipotentAdelicQuotients.EllipticRegularity.Decompose",
+    "Formalism.UnipotentAdelicQuotients.EllipticRegularity.ExistsSmoothExt",
+    "Formalism.UnipotentAdelicQuotients.EllipticRegularity.IteratedPartialFourierChar",
+    "Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDecay",
+    "Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDer",
+    "Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDil",
+    "Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernGr",
+    "Formalism.UnipotentAdelicQuotients.EllipticRegularity.Moments",
+    "Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingFourier",
+    "Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingLocal",
+    "Formalism.UnipotentAdelicQuotients.EllipticRegularity.SmoothOfLocallySmooth",
+    "Formalism.UnipotentAdelicQuotients.EllipticRegularity.StepCore",
+    "Formalism.UnipotentAdelicQuotients.EllipticRegularity.SymbLower",
+    "Formalism.UnipotentAdelicQuotients.EllipticRegularity.WeakFourier",
+    "Formalism.UnipotentAdelicQuotients.EllipticRegularity.WeightDiff",
+    "Formalism.UnipotentAdelicQuotients.EllipticRegularity.WeightedNormFinite"
+  ],
+  "objects": {
+    "M022328": "22cddb229c8e5a208e5227a87ccbea29633c4c5a512d0e4d9552224e4c259950"
+  },
+  "bundle_sha256": "b28fa7aca3af6712a5ca0d56d4ca7f32302f3621ce7e0c671bd60684a803ce42",
+  "packet": "M022328",
+  "contributor": "emsi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10052#issuecomment-7055487958",
+  "reviewed_utc": "2026-11-21T06:21:33.502329+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

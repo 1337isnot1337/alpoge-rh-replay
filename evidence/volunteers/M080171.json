@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M080171"
+  ],
+  "started_utc": "2026-11-21T03:49:13.265541+00:00",
+  "ended_utc": "2026-11-21T03:49:42.633927+00:00",
+  "elapsed_seconds": 29.4,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 26442420,
+    "peak_child_rss_kib": 6808920
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsUnitMapOfMemNonZeroDivisorsTensorStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f0c03c519e3f2b15405d934eec352a7dede97d32d8b68ca81057fa70adffac31",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsUnitMapOfMemNonZeroDivisorsTensor"
+  ],
+  "objects": {
+    "M080171": "cba7505e585231a8b0b6645c63197e99138a3ea8e4def9b524f940f998d7d560"
+  },
+  "bundle_sha256": "224436b492d0463ef8fa2972aba98c188ace9a5f81d1d0aca2d686c4b236a1b0",
+  "packet": "M080171",
+  "contributor": "jwr404",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12133#issuecomment-7056924725",
+  "reviewed_utc": "2026-11-21T06:13:42.957640+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M040385"
+  ],
+  "started_utc": "2026-11-21T02:50:14.146628+00:00",
+  "ended_utc": "2026-11-21T02:50:57.468730+00:00",
+  "elapsed_seconds": 43.3,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 7979188,
+    "peak_child_rss_kib": 6171252
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeSpanInfRationalSubspaceIntegersExt:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9068f3b8b87d201fffd3d5ef126bfbd98cc0d7fc26345b4ba90af62aaaec6bc4",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentIdealSmulMemSpanRational"
+  ],
+  "objects": {
+    "M040385": "ac04802c9739120d13cce2e5876f30e4a9c80b96c867662c1f5d18da32210571"
+  },
+  "bundle_sha256": "e592129d28668463677a20a53f96323e8456182c74795277c236abaf2ccf400f",
+  "packet": "M040385",
+  "contributor": "roonastgames",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11238#issuecomment-7056204936",
+  "reviewed_utc": "2026-11-21T06:17:19.908495+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M097616"
+  ],
+  "started_utc": "2026-11-21T04:14:43.436795+00:00",
+  "ended_utc": "2026-11-21T04:14:52.809448+00:00",
+  "elapsed_seconds": 9.4,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 61933828,
+    "peak_child_rss_kib": 7728848
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.ThetaEqB:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c7a3dcafb8399e6911f84e680e5f2ccac203b25dc57053766c52ddd37ef615e2",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M097616": "96e004760abb4e784559883879c7682f3c843cdbf3e27e41104d8fff926f1614"
+  },
+  "bundle_sha256": "357498f70a4f7392fd214e09e6b161199a26df947bd30d02d1e444811b46a36a",
+  "packet": "M097616",
+  "contributor": "rayy3535",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12499#issuecomment-7057138116",
+  "reviewed_utc": "2026-11-21T06:12:28.517637+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

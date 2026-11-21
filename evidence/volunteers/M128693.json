@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M128693"
+  ],
+  "started_utc": "2026-11-21T05:20:40.579909+00:00",
+  "ended_utc": "2026-11-21T05:20:51.307808+00:00",
+  "elapsed_seconds": 10.7,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 5778592
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedQuotientCard:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7c3d18f6ab8423de38f4c699ac839c33a2ba3df5a8791c6843becce017cc0003",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ResAlgSplitTwo",
+    "Development.WeilBound.CoreStatements.AutomorphicKernels.UnitarySchrodingerModel.LocalDefs"
+  ],
+  "objects": {
+    "M128693": "01ee3556abd1b9d12df6f079fd1a2e2f94877e43c43b8cf2e406539ba3c6c410"
+  },
+  "bundle_sha256": "1a3dec21b9dd6a57196c0d11b555918ca892c6e19256c118fc67697247f77cb2",
+  "packet": "M128693",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13821#issuecomment-7057851743",
+  "reviewed_utc": "2026-11-21T06:06:34.204160+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M030835"
+  ],
+  "started_utc": "2026-11-21T01:55:33.550703+00:00",
+  "ended_utc": "2026-11-21T01:55:56.294182+00:00",
+  "elapsed_seconds": 22.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6282160
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FaithfullyFlatAppOfIsAffineHomFlatSurjectiveStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e5ab1695e60d0835a6b953725f6464eaeb8fb190d63ba4b2d48e48eeb3a33037",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FaithfullyFlatAppOfIsAffineHomFlatSurjective"
+  ],
+  "objects": {
+    "M030835": "625520536dfcd32ecd467227bdca103fc20a22ec321125bb223950eab506d534"
+  },
+  "bundle_sha256": "7e8ce209e61d70236be1e278c08caa7eeddc087b934ea37220de14ec05b0e45b",
+  "packet": "M030835",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10219#issuecomment-7055508409",
+  "reviewed_utc": "2026-11-21T06:20:52.316605+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

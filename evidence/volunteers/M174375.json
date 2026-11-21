@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M174375"
+  ],
+  "started_utc": "2026-11-21T05:05:39.039180+00:00",
+  "ended_utc": "2026-11-21T05:13:22.334563+00:00",
+  "elapsed_seconds": 463.3,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 3996236
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.DiscreteSeries.LaplaceOperators.CapelliIdentity.BasicCycleRangeLastCastSucc:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "10a7ec89a47bd14a4d7e583e8b09f25d88c75707004ba8167ba85ba390799c70",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.DiscreteSeries.IsInfUnitary",
+    "ReciprocityTheory.ReductiveGroups.DiscreteSeries.LaplaceOperators.CapelliIdentity.CapelliCentralStatement"
+  ],
+  "objects": {
+    "M174375": "4b98be4f6907eb5cb742dd651770a832162abf60ca5e1a77e5ffff1a8eb5536b"
+  },
+  "bundle_sha256": "52aa0311845d2823a0f3bee91bb60020de1b305d0f52e3dd97c95736807805fd",
+  "packet": "M174375",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13231#issuecomment-7057768017",
+  "reviewed_utc": "2026-11-21T06:09:25.065744+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

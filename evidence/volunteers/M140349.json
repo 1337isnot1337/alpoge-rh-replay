@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M140349"
+  ],
+  "started_utc": "2026-11-21T04:53:52.679693+00:00",
+  "ended_utc": "2026-11-21T04:54:28.982792+00:00",
+  "elapsed_seconds": 36.3,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7169928
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.TemperedRepresentationTheory.WeilSiegelTheta.BigCellDefs:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "95f563b69f46a0d9e68a87d776752f6214b244295067a16b5dddd0a88e6e6365",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.CoreStatements.TemperedRepresentationTheory.WeilSiegelTheta.ThetaOrbits"
+  ],
+  "objects": {
+    "M140349": "4171a68ea608e4977908383589c586fecb1abe2226549b3c5d12034f43a57baa"
+  },
+  "bundle_sha256": "ee7b743e62e5b5ee7e39dad3dae7dc35144db6c384909ca13b29b2711c9e61f9",
+  "packet": "M140349",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13127#issuecomment-7057576409",
+  "reviewed_utc": "2026-11-21T06:09:58.393532+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M097662"
+  ],
+  "started_utc": "2026-11-21T05:04:11.315295+00:00",
+  "ended_utc": "2026-11-21T05:04:18.990158+00:00",
+  "elapsed_seconds": 7.7,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 906876
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.ThetaKORatLeftAndEigenRight:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "15cc58cafe38836716e90cd084c9bd24bea92dc3b1d0836e865956fe7d7a3f7f",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M097662": "d0420399371142fdbab3e8792cc0634675db2120445e57607013546b43f38d0b"
+  },
+  "bundle_sha256": "be1dd7425962d0a9a2ef240e0e47067281a1a8d4583c1d43b79664b6551c55f9",
+  "kernel_replay_sha256": "a979c5034d3975046ff63fef6ae579f7c42853c589381b5dfd18254f2dcc4520",
+  "kernel_replayed_targets": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ThetaKORatLeftAndEigenRight"
+  ],
+  "kernel_receipt_scope": "target",
+  "packet": "M097662",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11365#issuecomment-7057681370",
+  "reviewed_utc": "2026-11-21T06:16:58.154732+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum. The upstream verifier matched the kernel record to this receipt, the exact cached targets, and their successful module-level replay transcript."
+}

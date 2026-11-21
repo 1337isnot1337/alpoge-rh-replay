@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M054059"
+  ],
+  "started_utc": "2026-11-21T05:13:21.022550+00:00",
+  "ended_utc": "2026-11-21T05:13:36.767510+00:00",
+  "elapsed_seconds": 15.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6846600
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslateOpenSubgroupsFinite:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "daf234f8d7f7b88a81ff927b1ba1612aa2783ae7b020440a2ae67de2a2a061bc",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdelicLocalCompactness.AdeleLC",
+    "ReciprocityTheory.GeneralLinearIntegers.AlgebraMapIntMemOint"
+  ],
+  "objects": {
+    "M054059": "3be875e2593e096875370d92d4b1a50863fff0e855538cfec08d34188ae781a7"
+  },
+  "bundle_sha256": "a23343378b614a3d4a4697910760f5c80d8ebc41345f03fee4e8a30a07337e37",
+  "packet": "M054059",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13439#issuecomment-7058074187",
+  "reviewed_utc": "2026-11-21T06:08:26.967856+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

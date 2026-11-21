@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M082538"
+  ],
+  "started_utc": "2026-11-21T03:45:50.167893+00:00",
+  "ended_utc": "2026-11-21T03:46:00.215716+00:00",
+  "elapsed_seconds": 10.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6815216
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SymmetricFormSumOfSquaresStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "456b841025341866dbeed6c9f330fa42d905597ac02043b281fc7b6ad08c1a4e",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.SymmetricFormSumOfSquares"
+  ],
+  "objects": {
+    "M082538": "f905d6ad1281d88d36d5a79f218f66656d7ecd180498bc586b1bb51a66cf565e"
+  },
+  "bundle_sha256": "721253328888118a23657f0dabaa0d9ac2cbd0fc238f8c058e03325952807b1e",
+  "packet": "M082538",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12020#issuecomment-7057045558",
+  "reviewed_utc": "2026-11-21T06:14:21.641463+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

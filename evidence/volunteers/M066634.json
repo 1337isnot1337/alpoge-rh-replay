@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M066634"
+  ],
+  "started_utc": "2026-11-21T05:13:41.828300+00:00",
+  "ended_utc": "2026-11-21T05:26:25.211008+00:00",
+  "elapsed_seconds": 763.4,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5786380
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdjoinEqTopAndIsReducedOfCharpolySeparable:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "743282cfd86883f57c809d3d99fd26b86e11950de155a1fb62f47efbe82a0e19",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.CommutativeAlgebra.InvariantSubspaceMobiusInverseRecEqOfFinrankLt",
+    "Development.AbelianVarietyTheory.Proofs.CharacterTheory.EqZeroOfNotPrimary",
+    "Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsConjEqAddOfIsCoprime"
+  ],
+  "objects": {
+    "M066634": "e66f08d017cfa452a94614529d6374225fd1134e726a257292a804513de14eab"
+  },
+  "bundle_sha256": "37b536a7b3e26c1e06e30dcbf002d650538f4cad95502e7dc3daa31827833e8b",
+  "packet": "M066634",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13060#issuecomment-7057919018",
+  "reviewed_utc": "2026-11-21T06:10:12.997503+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

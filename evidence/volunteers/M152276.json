@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M152276"
+  ],
+  "started_utc": "2026-11-21T03:46:57.027361+00:00",
+  "ended_utc": "2026-11-21T03:47:11.026540+00:00",
+  "elapsed_seconds": 14.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6232588
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RootLatticeThresholds.LastDiagMulVec:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "18771567e91962dc34e5fbeba91eef869b0229528004c07dbae16046afd417a5",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.SiegelLatticeTheory.FlagStabilizerTensors.RootLatticeThresholds.ZeroOfBlk"
+  ],
+  "objects": {
+    "M152276": "e13db52d2a9b9e86780415a3780907be0c6f499e7d58e18d4a6e2d8ae305644c"
+  },
+  "bundle_sha256": "2b6a464b83f1f68890cf95c2806d25977160a64a7c526bffd9ab2b619cf3ab3b",
+  "packet": "M152276",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12064#issuecomment-7056834773",
+  "reviewed_utc": "2026-11-21T06:14:11.719613+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

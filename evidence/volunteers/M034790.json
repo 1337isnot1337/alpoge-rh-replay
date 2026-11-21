@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M034790"
+  ],
+  "started_utc": "2026-11-21T02:33:01.043574+00:00",
+  "ended_utc": "2026-11-21T02:33:11.289598+00:00",
+  "elapsed_seconds": 10.2,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6866516
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumHilbertEisensteinConstantTermPartialZeta:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "df2dd4fa6f6e67a815e1cdc8afc3ec67d3f1e4fc65b802486d4090f41bfcc8f0",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.OmegaFactorization"
+  ],
+  "objects": {
+    "M034790": "480ba4dae8642ae832d787c1e345544c0585c56c74fe060d520666d124cdd566"
+  },
+  "bundle_sha256": "7d5447cc3d4aab6e159589420c647abb30aa06890b76f685dbbd40ddaf118f6e",
+  "packet": "M034790",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11139#issuecomment-7056038139",
+  "reviewed_utc": "2026-11-21T06:17:44.867649+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

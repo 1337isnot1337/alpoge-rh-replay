@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M130365"
+  ],
+  "started_utc": "2026-11-21T05:38:05.047056+00:00",
+  "ended_utc": "2026-11-21T05:38:42.196403+00:00",
+  "elapsed_seconds": 37.1,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6840760
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsUniqueSection:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b5bc675e216fa8a4027ff380bc13c7937b6395f277c63511dd6c17d18155dfac",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ExistsGenOfIsVBOne",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsLineGenOn",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LevelSectionsExactKernelLocusOpen",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.GenMapGermEqGenMapGerm"
+  ],
+  "objects": {
+    "M130365": "2efd400df3ca6d8f776078ec07f3844774439ccd4bbcd278eb9c47e70c4d7ebb"
+  },
+  "bundle_sha256": "51de9592846839f8122cd0baf605403393c1bb4ff2dc51a55278e7036a525391",
+  "packet": "M130365",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14242#issuecomment-7058155812",
+  "reviewed_utc": "2026-11-21T06:04:56.163970+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

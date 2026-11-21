@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M025234"
+  ],
+  "started_utc": "2026-11-21T04:58:23.456161+00:00",
+  "ended_utc": "2026-11-21T05:07:59.125642+00:00",
+  "elapsed_seconds": 575.6,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5319772
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteAlgebraSplittingNormFormStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "721756112a2d5317f3bb2562a2128c0e8f8f8e0598650ed85e8a92eee66fadd2",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteAlgebraSplittingNormForm",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIdeal"
+  ],
+  "objects": {
+    "M025234": "af3d1ba8ab338b11f8ea57d786be5ef3ba9c6ae98923480b47e064814f88f18e"
+  },
+  "bundle_sha256": "bd8f478e9b45535817c145c9d78016cdd708d5563953e316edbac5230b8c7d4b",
+  "packet": "M025234",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12875#issuecomment-7057700864",
+  "reviewed_utc": "2026-11-21T06:10:58.675314+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

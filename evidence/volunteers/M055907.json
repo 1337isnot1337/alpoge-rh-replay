@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M055907"
+  ],
+  "started_utc": "2026-11-21T01:26:07.605292+00:00",
+  "ended_utc": "2026-11-21T01:26:23.751901+00:00",
+  "elapsed_seconds": 16.1,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 6874672
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.VolumeCoordinateBoxLeHadamard:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c3528b08f3142238a510897aa5941e5d43f29c68366b1cd94fe8d6233c9e1fb7",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsOrthonormalOfLinearIndependent"
+  ],
+  "objects": {
+    "M055907": "26cda392e62ac5d57813d70065a09033490eda66fb1759f5991e02a936caee7b"
+  },
+  "bundle_sha256": "8f12d09afbb9b254c86a6aeee79f2787947ed2732c149187aca5612efb6d2379",
+  "packet": "M055907",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9552#issuecomment-7055106518",
+  "reviewed_utc": "2026-11-21T06:23:13.010151+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

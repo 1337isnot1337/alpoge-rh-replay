@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M062850"
+  ],
+  "started_utc": "2026-11-21T01:35:06.059368+00:00",
+  "ended_utc": "2026-11-21T01:35:18.658940+00:00",
+  "elapsed_seconds": 12.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6860768
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.KroneckerReal:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8654ef5754d136410aa440b2a5b7f3c204197d842e24445467040bbc9c444acd",
+  "rebuilt_project_modules": [
+    "Formalism.GL3MeanSquares.SmoothedRemainderRealIntegralFormula",
+    "Formalism.LandauZeroFreeBounds.Statement"
+  ],
+  "objects": {
+    "M062850": "66f50f7962dc2ce541646bf31acc6e19af445494d59a4fdf0d158b22ca070d1e"
+  },
+  "bundle_sha256": "6d3c59b38a7d78b374f766b460c98de3da31863cfa642767ee3f6086666a1324",
+  "packet": "M062850",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9793#issuecomment-7055230603",
+  "reviewed_utc": "2026-11-21T06:22:30.724910+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

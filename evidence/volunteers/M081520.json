@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M081520"
+  ],
+  "started_utc": "2026-11-21T00:48:33.780087+00:00",
+  "ended_utc": "2026-11-21T00:48:42.570279+00:00",
+  "elapsed_seconds": 8.8,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6842204
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PosDefUniformBoundsNearPointStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "583e0ca66989f2c829acc37ae7f374efbf8cc6c765f89958d4e88082259ac9ab",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.PosDefUniformBoundsNearPoint"
+  ],
+  "objects": {
+    "M081520": "6116cdf7dc1180e7d015b5b8d0e1450d046bd4f0bd8c5f085430b86de38da194"
+  },
+  "bundle_sha256": "19ba8a39b0f7f9a1541db5ba5622e984b42a4c02093ec68795384125db82d67b",
+  "packet": "M081520",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8558#issuecomment-7054563260",
+  "reviewed_utc": "2026-11-21T06:26:27.366641+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

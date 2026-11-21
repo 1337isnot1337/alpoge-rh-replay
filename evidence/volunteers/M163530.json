@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M163530"
+  ],
+  "started_utc": "2026-11-21T01:54:52.694506+00:00",
+  "ended_utc": "2026-11-21T01:55:04.845852+00:00",
+  "elapsed_seconds": 12.2,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6867940
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.GaussSum:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "88cfa6d32e5bad831764ed75594dd2f7c14a80bb7cc0deed007d0475f9154539",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.LogGaussNormSupportFinite",
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.Statements"
+  ],
+  "objects": {
+    "M163530": "36054a86a6f3678646de07ab3f150dea07e52488e945d3f4d730be4f1100a560"
+  },
+  "bundle_sha256": "8a7a47c8ba1eca87169f80d2d62bdc9a062420c748abe660859a3fc369cf4ecd",
+  "packet": "M163530",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10184#issuecomment-7055558776",
+  "reviewed_utc": "2026-11-21T06:21:01.522395+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M126134"
+  ],
+  "started_utc": "2026-11-21T05:29:01.017827+00:00",
+  "ended_utc": "2026-11-21T05:29:33.581900+00:00",
+  "elapsed_seconds": 32.6,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6698864
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.NormCentralizerIdentification:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "68b5d5a1041ec5474fab3b709a70f6486cf1e21bb90273e40798121d0548d1e8",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.TwistedFactors.IntegralUnitBaseChange.Development",
+    "Development.WeilBound.RepresentationTheoryGL.TwistedFactors.IntegralUnitBaseChange.InvTransposeGLInvTransposeGL"
+  ],
+  "objects": {
+    "M126134": "c99471b09943b43918bd483912dc7e96e52c5bceeff6f148d11f0dbfb900eba8"
+  },
+  "bundle_sha256": "219c8e51139046b2e87efbb04471ed95ff1a17967bf0ff47642cf6872a50966c",
+  "packet": "M126134",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13994#issuecomment-7057955010",
+  "reviewed_utc": "2026-11-21T06:05:47.776224+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

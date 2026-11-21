@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M074328"
+  ],
+  "started_utc": "2026-11-21T03:22:20.389826+00:00",
+  "ended_utc": "2026-11-21T03:22:42.358501+00:00",
+  "elapsed_seconds": 22.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6227892
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SumSublatticeIndexRpowLeSolomonStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "be0e0a978157b4d3e4cb4799607f1550f2896b7d9460e6cd327ae55e1d3d3b96",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SumSublatticeIndexRpowLeSolomon"
+  ],
+  "objects": {
+    "M074328": "f27cdd95af7111026639750f5143a7101cf5fca7217772c60c5741035db16b38"
+  },
+  "bundle_sha256": "79d1ef53894bb1c1e5c8a537dd43445372a014f1e03ab2c916d42a37055d27d2",
+  "packet": "M074328",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11769#issuecomment-7056562718",
+  "reviewed_utc": "2026-11-21T06:15:09.116419+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

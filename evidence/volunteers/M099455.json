@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M099455"
+  ],
+  "started_utc": "2026-11-21T05:11:52.339022+00:00",
+  "ended_utc": "2026-11-21T05:13:15.117200+00:00",
+  "elapsed_seconds": 82.8,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6830332
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.UnitaryExistence.EqOneOfPowEqOneOfCompEqOne:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8c9ec07925f1c98bf06a154dbd4acb73872cf386950f95131554554ec26b046f",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.BijectiveRestrictPointsOfEtaleOfHenselian",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsGrpPullback",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.CubicalStructures.CubeSymmetricSwapFirst",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.CubicalStructures.CubicalPullBaseChangeSt"
+  ],
+  "objects": {
+    "M099455": "ec837e7d2527250a7906d66385367c9adad2eb8bfd5fe6ab7efccfd4444ab1e0"
+  },
+  "bundle_sha256": "232a522afcd1410bc991882c822c057c1bb2a10c7183142685ad4656e182070b",
+  "packet": "M099455",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13508#issuecomment-7057776837",
+  "reviewed_utc": "2026-11-21T06:08:14.525008+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

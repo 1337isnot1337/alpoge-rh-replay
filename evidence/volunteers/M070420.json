@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M070420"
+  ],
+  "started_utc": "2026-11-21T05:31:16.794110+00:00",
+  "ended_utc": "2026-11-21T05:31:28.904173+00:00",
+  "elapsed_seconds": 13.0,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6827244
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FourierEtaleKEqIntegralPartialFourierStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ea0c00c545e505d9c2ce311d5f6ea15ed4d31efa07f998517ac666a8be89b1b7",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FourierEtaleKEqIntegralPartialFourier",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnifConst"
+  ],
+  "objects": {
+    "M070420": "6665b34647453354b48c5b80f95ccbf530fae2839aea6476445002a7e430e020"
+  },
+  "bundle_sha256": "a746e8560ff34c25ef56c19c0e14e7465fe131e003a0c7574b79d300b1e3ee82",
+  "packet": "M070420",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14008#issuecomment-7058086475",
+  "reviewed_utc": "2026-11-21T06:05:44.065744+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

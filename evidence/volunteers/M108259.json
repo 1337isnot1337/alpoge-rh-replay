@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M108259"
+  ],
+  "started_utc": "2026-11-21T05:20:44.874125+00:00",
+  "ended_utc": "2026-11-21T05:24:25.762882+00:00",
+  "elapsed_seconds": 220.9,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.StickelbergerElements.StickelbergerCarrySpecAndWeightOneCoeffOfOdd:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 5058032
+  },
+  "source_sha256": "587e358ecb40ead4d338e91c390ba48bdd8cf6f16026811d43f9fc00ba4ccd90",
+  "log_sha256": "6bdaf8d3ec182bfaea88f87857b9adc0433c10e6f9dcd6f211825504994e9696",
+  "objects": {
+    "M108259": "c591c2aa909b0f980c0f283d4ecb1e74847a901d3ec8602288fa331c3aa96afc"
+  },
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.BernoulliNumbers.MapGenBChar",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.StickelbergerElements.SamePrimesMulPow"
+  ],
+  "bundle_sha256": "b48560aa48d406e0bd6abefaa8a6059838844206807b85c841cf6050ddc6d25f",
+  "packet": "M108259",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13812#issuecomment-7057906277",
+  "reviewed_utc": "2026-11-21T06:06:37.035803+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

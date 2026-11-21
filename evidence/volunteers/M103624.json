@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M103624"
+  ],
+  "started_utc": "2026-11-21T05:06:39.065656+00:00",
+  "ended_utc": "2026-11-21T05:07:24.322999+00:00",
+  "elapsed_seconds": 45.3,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5443376
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.SelmerTransport.CorInv:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d5e5680b46ce1a27014a86add307e8637fb6b9c3a65d4e7fef4efc9e294c8c38",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsCorestrictionCocycle"
+  ],
+  "objects": {
+    "M103624": "de9a8c08d29074ff095706064276083ec61c9c3026a45216dbf61b62c706c202"
+  },
+  "bundle_sha256": "19e7c34ba11427443a051f65d7f1e8272f02b8476f556b046c45f8a6eed45b64",
+  "packet": "M103624",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13360#issuecomment-7057694494",
+  "reviewed_utc": "2026-11-21T06:08:48.107224+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

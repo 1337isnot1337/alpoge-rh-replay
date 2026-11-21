@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M070127"
+  ],
+  "started_utc": "2026-11-21T04:20:43.594790+00:00",
+  "ended_utc": "2026-11-21T04:20:52.149375+00:00",
+  "elapsed_seconds": 8.6,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6806412
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteAlgebraInvolutionRhoPowEqCardBoxStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d2ed07ef6f53ffd0dfac6f55aef87c81f8a502a1cba1fcbd3961d5684acf456d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteAlgebraInvolutionRhoPowEqCardBox"
+  ],
+  "objects": {
+    "M070127": "5396b26eec5b2cc80e51c85fc4244d705f0fac5e058830bbc7b0a2a775c61e6a"
+  },
+  "bundle_sha256": "fd64c41ce5fa6567d932af76f134b6bc5bd0b47671a52d5fd94af75bf834d2be",
+  "packet": "M070127",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12667#issuecomment-7057246870",
+  "reviewed_utc": "2026-11-21T06:11:45.359038+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

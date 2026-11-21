@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M066478"
+  ],
+  "started_utc": "2026-11-21T02:06:35.243589+00:00",
+  "ended_utc": "2026-11-21T02:08:00.283298+00:00",
+  "elapsed_seconds": 85.0,
+  "host": {
+    "cpu_count": 9,
+    "mem_total_kib": 10206472,
+    "peak_child_rss_kib": 5246300
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IrreducibleSpacePrimeSpectrumAway:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "326a3893abc49eef01d92ab9f6bdbe288fe2cc273ff15d2f62be72beeb852ded",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsAdicCompleteComapConstantCoeff"
+  ],
+  "objects": {
+    "M066478": "5eef95eb335fb0edc3e9c99b9d21d855ef8dd39ae4bc86ed5cfe049c9f394c16"
+  },
+  "bundle_sha256": "82b590bc2d33c5710f0f4170661fd18ce75846936e86edbba4674f1f49349643",
+  "packet": "M066478",
+  "contributor": "21Z121Z1",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10590#issuecomment-7055680316",
+  "reviewed_utc": "2026-11-21T06:19:40.674089+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

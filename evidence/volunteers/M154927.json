@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M154927"
+  ],
+  "started_utc": "2026-11-21T05:11:43.389520+00:00",
+  "ended_utc": "2026-11-21T05:11:54.646526+00:00",
+  "elapsed_seconds": 11.3,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6760672
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockDegreeOne.EqZeroOfFockInnerSelfRe:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2c4b337053f068ba02dd6fec4b7bf5b9486cbfd27948c8184dd33f1545aa4e8b",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockRaisingLowering.FockInnerEqSumRight",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockRaisingLowering.SameSign"
+  ],
+  "objects": {
+    "M154927": "004e0ebff1b95691fe2d471ae49b8ab6f2ab3c52feae2a0b8ae37e6696ded823"
+  },
+  "bundle_sha256": "9eea4696f6c327a5a469ffc08d95c5aa5b0371f5841400abe1d35290dd76f9cc",
+  "packet": "M154927",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13532#issuecomment-7057745644",
+  "reviewed_utc": "2026-11-21T06:08:10.545314+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

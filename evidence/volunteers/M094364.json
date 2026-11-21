@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M094364"
+  ],
+  "started_utc": "2026-11-21T04:54:09.092765+00:00",
+  "ended_utc": "2026-11-21T04:54:29.005213+00:00",
+  "elapsed_seconds": 19.9,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 15725248,
+    "peak_child_rss_kib": 6742856
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.GaussBinomMulProd:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3022aef7c2e388845181d542887edfb901285a1cab61b7d9c72ac8e5b82ff3f8",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.GaussianBinomialFormula",
+    "Development.AbelianVarietyTheory.Proofs.CharacterTheory.CardSubspacesOfFinrankMulCardBases"
+  ],
+  "objects": {
+    "M094364": "d67328cc6ae65bd9cfd0f091580b65f0c30f655b78123fc08b019a1ec5e25db1"
+  },
+  "bundle_sha256": "f5d4a7750b86325ca5f6823a77f9d49134f45b08799e2096efe54142f5a34099",
+  "packet": "M094364",
+  "contributor": "jsnider3",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13140#issuecomment-7057558809",
+  "reviewed_utc": "2026-11-21T06:09:54.218582+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M095923"
+  ],
+  "started_utc": "2026-11-21T05:35:36.336306+00:00",
+  "ended_utc": "2026-11-21T05:36:01.013719+00:00",
+  "elapsed_seconds": 24.7,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6701064
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.MatrixConjTransposeBySymmetricTausskyZassenhausStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f4920d63f540bfc85cf72cdaa1e00d3aca9b4750f68b64ba368820dd1e594c67",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsBilinCyclic",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.MatrixConjTransposeBySymmetricTausskyZassenhaus"
+  ],
+  "objects": {
+    "M095923": "93acdc5e4612354dcf738d93f996bba0922114d0eacba7dfe8deefecf854d1b8"
+  },
+  "bundle_sha256": "41e456d8e59d9ddc4f707c06e78327e2f6a8dd2d05e29c1dc41121196baa7975",
+  "packet": "M095923",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14166#issuecomment-7058032802",
+  "reviewed_utc": "2026-11-21T06:05:09.381755+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

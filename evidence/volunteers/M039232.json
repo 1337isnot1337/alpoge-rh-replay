@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M039232"
+  ],
+  "started_utc": "2026-11-21T02:48:58.741773+00:00",
+  "ended_utc": "2026-11-21T02:50:33.393380+00:00",
+  "elapsed_seconds": 94.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7170964
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsVacuumMovedThetaVacuum:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8fd64979a1a565faba4b831d3f9adca2dbe4169f2fa34784498c5b206b215cf0",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.AdmissibleCharactersExist",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.GaussPowFourHom"
+  ],
+  "objects": {
+    "M039232": "1a1e7de0cbdacb754751ca39149fb8346cd5cb5d85ffb7614438054278680b8c"
+  },
+  "bundle_sha256": "24a89957463c8ddbc8bb3de16c977df6c34158cbaa91d68124cc3a6b8829a2fa",
+  "packet": "M039232",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11166#issuecomment-7056225815",
+  "reviewed_utc": "2026-11-21T06:17:37.580663+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

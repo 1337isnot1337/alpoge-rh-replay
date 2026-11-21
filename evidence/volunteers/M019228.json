@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M019228"
+  ],
+  "started_utc": "2026-11-21T02:10:52.249399+00:00",
+  "ended_utc": "2026-11-21T02:11:02.920196+00:00",
+  "elapsed_seconds": 10.3,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6731320
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjDualPartsKilledOfPerfectPairingStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "30025776d89c00dbf2eadde16a24ad4883f49b55c05aeb63bcca242144d8a5a9",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjDualPartsKilledOfPerfectPairing"
+  ],
+  "objects": {
+    "M019228": "7b5111d7eae62c0d0d610e650f23600495bdbd439cce8425d6e25e2f6f4aaaa7"
+  },
+  "bundle_sha256": "d07a48118f010cb200f99812aaf3a19c8f26ab506c18877fdfb3b370c72db088",
+  "packet": "M019228",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10654#issuecomment-7055705197",
+  "reviewed_utc": "2026-11-21T06:19:27.645832+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

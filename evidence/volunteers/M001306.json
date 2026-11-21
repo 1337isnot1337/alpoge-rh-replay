@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M001306"
+  ],
+  "started_utc": "2026-11-21T05:27:28.357053+00:00",
+  "ended_utc": "2026-11-21T05:33:37.125202+00:00",
+  "elapsed_seconds": 368.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 3694324
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.TotallyRealIntegralBasisExistsStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2199b6b57843be40dad5a939bba3a7cf6c87dc5dd0e6e06e71c16a064dd9bc7b",
+  "rebuilt_project_modules": [
+    "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SumRhoEqTrace",
+    "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.TotallyRealIntegralBasisExists"
+  ],
+  "objects": {
+    "M001306": "a044bcba1786d7f2c75e944dc7ed72cfc8938d3a6850295ee27c246fefc0f236"
+  },
+  "bundle_sha256": "c8d97f5f35471e94b573842dadadbf2160bf411a44bdaa60b7af27042256c922",
+  "packet": "M001306",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13883#issuecomment-7058009517",
+  "reviewed_utc": "2026-11-21T06:06:14.388644+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

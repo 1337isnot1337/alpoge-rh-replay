@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M035053"
+  ],
+  "started_utc": "2026-11-21T04:03:36.719765+00:00",
+  "ended_utc": "2026-11-21T04:03:45.929060+00:00",
+  "elapsed_seconds": 9.2,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6863732
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeckeWeightTwoConstantTermEqPartialZetaNegOneStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4af336a07098678b662c6171e4b01c71ca3838d6dabf99a30b599026eea830b1",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeckeWeightTwoConstantTermEqPartialZetaNegOne"
+  ],
+  "objects": {
+    "M035053": "321dcb9bba7d01133f806fa834a2de910ddd71edecf135fa95545b111c6cc164"
+  },
+  "bundle_sha256": "5cdd9868062036552a1d9989d68e050d6a3b66d02fee9db58bf6b9b5ed828068",
+  "packet": "M035053",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12195#issuecomment-7057037786",
+  "reviewed_utc": "2026-11-21T06:13:27.876244+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

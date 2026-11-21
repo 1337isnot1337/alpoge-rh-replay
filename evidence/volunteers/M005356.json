@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M005356"
+  ],
+  "started_utc": "2026-11-21T02:55:43.743294+00:00",
+  "ended_utc": "2026-11-21T02:55:52.848244+00:00",
+  "elapsed_seconds": 9.1,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6853352
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.AdelicUnitaryScalingUnit:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "64f7b3abae7239dda5bad9bc4176c5b307fcdbf56850b5307d660c149f1dbe75",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.NormOneInfinite"
+  ],
+  "objects": {
+    "M005356": "d159c2b2c8218c646114d9b10bdda3a140102a6fb5228a7a130ab6e26915543d"
+  },
+  "bundle_sha256": "d23134219a0827d66bb8a9ab930fc108f95a1b5de790cebfef21642cbba54dc6",
+  "packet": "M005356",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11465#issuecomment-7056313509",
+  "reviewed_utc": "2026-11-21T06:16:31.589802+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

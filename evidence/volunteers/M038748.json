@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M038748"
+  ],
+  "started_utc": "2026-11-21T04:55:13.619060+00:00",
+  "ended_utc": "2026-11-21T04:55:32.545879+00:00",
+  "elapsed_seconds": 18.9,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6624832
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsProperOfRepresentsHilbertFunctorOfLocal:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "aef5f5009f1157b4909d1a8672c578387fd5f2652f7c6553a14f937b40619125",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComapEqKerIff",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsHilbRep"
+  ],
+  "objects": {
+    "M038748": "0d7c8fa87b7e84fc5a835b35beaa864117f7eecb0eee0724835a2ccf828db1d8"
+  },
+  "bundle_sha256": "4e56061a806782e9043309970ce51166f03b9ea2d3f155c342a0ebeb2cc161f4",
+  "packet": "M038748",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13119#issuecomment-7057570373",
+  "reviewed_utc": "2026-11-21T06:09:59.963765+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

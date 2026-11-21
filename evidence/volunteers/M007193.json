@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M007193"
+  ],
+  "started_utc": "2026-11-21T01:58:58.195700+00:00",
+  "ended_utc": "2026-11-21T01:59:09.708635+00:00",
+  "elapsed_seconds": 11.5,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6888636
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ExistsReducedBasisIntegralPartOfLinearIndependen:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9d5df389ab8ab5afcf00b06f2ef7f4b7f2bd97ffd2e3de208c7c7ec08060dde0",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.SumFinsuppAntidiagProdPowDivMultiFactorial"
+  ],
+  "objects": {
+    "M007193": "ef4fe90704e00a59cc6f2384b6f5db10aa1dfbd05a38e384534b7c2d44b31cac"
+  },
+  "bundle_sha256": "38e2e03093b11b620a2778b2798a896a7787158273d5d68bace45352b1f73dd7",
+  "packet": "M007193",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10208#issuecomment-7055577304",
+  "reviewed_utc": "2026-11-21T06:20:55.762104+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M120423"
+  ],
+  "started_utc": "2026-11-21T02:04:50.666533+00:00",
+  "ended_utc": "2026-11-21T02:05:03.796494+00:00",
+  "elapsed_seconds": 12.7,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6740612
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.AlgebraProofs.LocallyFreeBaseChangeQuotientStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6059286d0c496626bb0fe10d49ae2e0809c98dfb0ffb7a5e215c32a94a19e317",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.LocallyFreeBaseChangeQuotient",
+    "Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.XGraphRestrictBc"
+  ],
+  "objects": {
+    "M120423": "030534a4d5c256114d4c07caf54fe0a8fdd4d7154fa75cd86ec3fce26d40bc5e"
+  },
+  "bundle_sha256": "2da0885b117578afeb106f3cd599633fe71a953d8dfcb304bfc50b079fc81492",
+  "packet": "M120423",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10570#issuecomment-7055621352",
+  "reviewed_utc": "2026-11-21T06:19:44.072609+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

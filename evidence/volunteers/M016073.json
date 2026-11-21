@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M016073"
+  ],
+  "started_utc": "2026-11-21T01:13:09.958178+00:00",
+  "ended_utc": "2026-11-21T01:13:22.555012+00:00",
+  "elapsed_seconds": 12.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6202368
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.AwayMapSpanSingletonDivisibilityDescendsStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "660f2011c063165a29002401cb78cf83c2ada92956c9970bc7f9957e2b2b6676",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AwayMapSpanSingletonDivisibilityDescends"
+  ],
+  "objects": {
+    "M016073": "773cb0291a626153dd8978bda02d8f7eb8e8f7c7a61d6b114ddea3690307eaf5"
+  },
+  "bundle_sha256": "99bae958227c3a7d32291754c2a31f468718e48543757e9fb751d802312d3e7a",
+  "packet": "M016073",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9054#issuecomment-7054913785",
+  "reviewed_utc": "2026-11-21T06:24:56.999100+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

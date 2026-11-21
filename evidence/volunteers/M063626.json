@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M063626"
+  ],
+  "started_utc": "2026-11-21T04:44:19.345023+00:00",
+  "ended_utc": "2026-11-21T04:44:50.018691+00:00",
+  "elapsed_seconds": 30.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5458896
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.SecondDerivSigmaProductAtZero:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "45492c2f858c5a8d056e3ae4e2441edd07462f54421455e55ba5b8ca1c5467eb",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.JetRelOfWeierstrassSystem",
+    "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.WeierstrassPAddOfNeOfDerivNeZero"
+  ],
+  "objects": {
+    "M063626": "04b722d91db1fc9081d67cb09932a11a92dea0ea0c63503e486020d8bc66697b"
+  },
+  "bundle_sha256": "dc8733352af441786643a75378b64e1548b243938d87dec7ec9c0567815de4fa",
+  "packet": "M063626",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12861#issuecomment-7057458710",
+  "reviewed_utc": "2026-11-21T06:11:03.135863+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

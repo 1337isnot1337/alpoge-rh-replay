@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M131099"
+  ],
+  "started_utc": "2026-11-21T01:06:39.533489+00:00",
+  "ended_utc": "2026-11-21T01:07:23.643574+00:00",
+  "elapsed_seconds": 44.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 843984
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.ImplicitFunctionHolomorphic:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f400878c527c2a9607990e23d89f9cbdaef86f1358ca93bf265733736314f4d9",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M131099": "189102cfc9d23ad034b61062a75bc3a45959d19c7ed1b90c12f5a2b3632ca346"
+  },
+  "bundle_sha256": "b56bd2d6947150cf2b251e026b0bf039bf1eb1b041d2e50227cbbf2624a5c469",
+  "kernel_replay_sha256": "76360891ca07600fed01677b40a52a8010a855f7188be9fcd9655d1e784a1bc9",
+  "kernel_replayed_targets": [
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ImplicitFunctionHolomorphic"
+  ],
+  "kernel_receipt_scope": "target",
+  "packet": "M131099",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8710#issuecomment-7054950383",
+  "reviewed_utc": "2026-11-21T06:26:04.177185+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum. The upstream verifier matched the kernel record to this receipt, the exact cached targets, and their successful module-level replay transcript."
+}

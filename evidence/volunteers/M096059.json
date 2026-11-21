@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M096059"
+  ],
+  "started_utc": "2026-11-21T00:56:52.740646+00:00",
+  "ended_utc": "2026-11-21T00:57:03.292517+00:00",
+  "elapsed_seconds": 10.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 6840020
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.MemSymplecticLieAlgebraOfExpSmulMemSymplecticGroStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a2820d89ffd3e35d91d8dc72ddcb6f5e6ea7bd37b04d1526a0823e03260bde9d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.MemSymplecticLieAlgebraOfExpSmulMemSymplecticGro"
+  ],
+  "objects": {
+    "M096059": "0ec66ee1dadccedc5a5fff6dac567ea179090e0d45811ed72fd0ad5316ffae07"
+  },
+  "bundle_sha256": "0e1b0c46029981f63aeb3c72240a4bea7e5116c5a0165fb1bad95265163397da",
+  "packet": "M096059",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8749#issuecomment-7054636277",
+  "reviewed_utc": "2026-11-21T06:26:01.176638+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

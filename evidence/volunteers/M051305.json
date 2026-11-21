@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M051305"
+  ],
+  "started_utc": "2026-11-21T00:53:27.033428+00:00",
+  "ended_utc": "2026-11-21T00:53:55.721850+00:00",
+  "elapsed_seconds": 28.7,
+  "host": {
+    "cpu_count": 128,
+    "mem_total_kib": 395484908,
+    "peak_child_rss_kib": 6987420
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.StrPullOperatorEq:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7c9f2ba9589073c4f6600fa081d825ae6b5780ef5821fa9c84139c5cf85c2d8f",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SiegelReframe",
+    "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsEventuallyNormRiemannThetaTermLe",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullFullL",
+    "Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.IsTorsionFormPoint",
+    "Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.TranslationInv",
+    "ReciprocityTheory.ThetaQuasiPeriods.PeriodLattice"
+  ],
+  "objects": {
+    "M051305": "a9007d96d5b58bec04a3ff692c0aa725e99634593771e16a8082facf9b99f2d1"
+  },
+  "bundle_sha256": "bc456c7ec6a6cb631ea4bb99a49c4d851aa8f6df91b1a767ccb79bb231697c77",
+  "packet": "M051305",
+  "contributor": "BenCaunt",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/7907#issuecomment-7054586450",
+  "reviewed_utc": "2026-11-21T06:27:57.709782+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

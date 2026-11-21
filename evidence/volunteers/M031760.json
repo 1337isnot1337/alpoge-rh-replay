@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M031760"
+  ],
+  "started_utc": "2026-11-21T00:34:06.566825+00:00",
+  "ended_utc": "2026-11-21T00:34:17.053180+00:00",
+  "elapsed_seconds": 10.5,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6863720
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumOrdMulInertiaDegEqFinrankMulOrd:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "36f0fecbe53286b683cd9d0072da823d9cd04c68bedf88556cd074cb011e8707",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthRestrictScalarsEqSumInertiaDegOfSubset"
+  ],
+  "objects": {
+    "M031760": "a5240dca9682a3f15fd5505b4f79e72251d4ca738865cf6c66383bf9dff11947"
+  },
+  "bundle_sha256": "2ecd6ad1aba9789ab27c63370902217d7dfc3d1362e1e985d279743d9aaebf80",
+  "packet": "M031760",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8172#issuecomment-7054264427",
+  "reviewed_utc": "2026-11-21T06:27:33.383633+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

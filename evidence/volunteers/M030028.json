@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M030028"
+  ],
+  "started_utc": "2026-11-21T04:53:46.443555+00:00",
+  "ended_utc": "2026-11-21T04:54:27.678597+00:00",
+  "elapsed_seconds": 40.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 7151392
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsTwistedGroupLike:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "006d52d9d5f689d0e609074c99863f0736753d2768ae3dd2c4bc652c4cf2f353",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.MemPrimitiveTensorsIffIsPrimitiveElem",
+    "ReciprocityTheory.DualLattices.RidConvolutionDerivation"
+  ],
+  "objects": {
+    "M030028": "0144e1586ba05efd1586b7c212068bca9317c0a3cb21fe0dabf182395f68b3b9"
+  },
+  "bundle_sha256": "923d55ad59c8cd96dd045191cf97c99dfba947184d880c0b7c3689c08d513321",
+  "packet": "M030028",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13017#issuecomment-7057700874",
+  "reviewed_utc": "2026-11-21T06:10:20.451793+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M172494"
+  ],
+  "started_utc": "2026-11-21T01:14:34.089018+00:00",
+  "ended_utc": "2026-11-21T01:14:46.261268+00:00",
+  "elapsed_seconds": 12.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6199516
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovVolumes.UpperBounds.PolyGrowthStatementPfB:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5d3dadb6a7f8f542f7e460c7e8177b738b0d7036857491c97ac80a65b4c75887",
+  "rebuilt_project_modules": [
+    "Lemmata.CofiniteContinuousBounds.LeOfCofinite"
+  ],
+  "objects": {
+    "M172494": "d8d089da39f967156e689a39d2812adfe349e4db989f6a40164bdcdeddfc667c"
+  },
+  "bundle_sha256": "9fe43083a1c21d82ba5aac83e89031cd9d794fe08b2f0ac54bbfd36923736fc5",
+  "packet": "M172494",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9106#issuecomment-7054943165",
+  "reviewed_utc": "2026-11-21T06:24:48.729690+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

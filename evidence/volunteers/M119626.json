@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M119626"
+  ],
+  "started_utc": "2026-11-21T05:20:02.242454+00:00",
+  "ended_utc": "2026-11-21T05:20:41.699756+00:00",
+  "elapsed_seconds": 39.5,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6653696
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.WhittakerHecke.SurjectiveEvalBlowupChartOfSpanEq:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "571714e9cb7178e5bf696b11b503a0299ab73f89a075ee590ed770efee3f1908",
+  "rebuilt_project_modules": [
+    "Development.ResolutionOfSingularities.Foundations.Blowup.AffineBlowup",
+    "Development.ResolutionOfSingularities.Foundations.Blowup.ReesGrading"
+  ],
+  "objects": {
+    "M119626": "6bfe049991e597c714f69c9e3eb101e6f0d5189100427813101b9da6ecac087d"
+  },
+  "bundle_sha256": "05cfe6f53f64acc5cc219b6e585ecc8e68993dee6e3fdc1d7f83c0ee1ce54d52",
+  "packet": "M119626",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13764#issuecomment-7057850137",
+  "reviewed_utc": "2026-11-21T06:06:53.602762+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

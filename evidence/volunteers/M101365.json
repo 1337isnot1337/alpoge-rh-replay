@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M101365"
+  ],
+  "started_utc": "2026-11-21T05:21:04.415871+00:00",
+  "ended_utc": "2026-11-21T05:34:46.577019+00:00",
+  "elapsed_seconds": 822.1,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5501832
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.CaCplFree:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c05d48afb373070d34239482a55a31551b88e34005853e26a21f759816c3a70e",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.CaCplMap",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.IsCplAtSelf"
+  ],
+  "objects": {
+    "M101365": "b8d44d0b45882069483f270ffc29da9ea110087a0fa3883ad69c444380e3dab8"
+  },
+  "bundle_sha256": "c242946701d93bca77668d8b941a0deda96e8f147802b794b52d2401774ae2b5",
+  "packet": "M101365",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13128#issuecomment-7058018884",
+  "reviewed_utc": "2026-11-21T06:09:57.519491+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

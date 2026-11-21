@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M062818"
+  ],
+  "started_utc": "2026-11-21T03:12:26.547058+00:00",
+  "ended_utc": "2026-11-21T03:12:49.800611+00:00",
+  "elapsed_seconds": 23.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6279100
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.JetsMemSubalgebraOfFiniteTypeAlgebraStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "289a8df0759b50eced4a51ff4c77de81fca7e7fd5b47990d3b8e44d22787e83d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.JetsMemSubalgebraOfFiniteTypeAlgebra"
+  ],
+  "objects": {
+    "M062818": "423fb9dceef947b5402f0c19f371dc7eb19ed04ba0a42134e89228b2d42a9cc0"
+  },
+  "bundle_sha256": "1a08755e5a8faada21f40e1d5e0998b2ac889cfa9cd97edb19969572d2dc65fa",
+  "packet": "M062818",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11621#issuecomment-7056450618",
+  "reviewed_utc": "2026-11-21T06:15:52.037532+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

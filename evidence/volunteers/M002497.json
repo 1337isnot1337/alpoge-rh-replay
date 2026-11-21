@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M002497"
+  ],
+  "started_utc": "2026-11-21T01:11:26.244221+00:00",
+  "ended_utc": "2026-11-21T01:11:39.798667+00:00",
+  "elapsed_seconds": 13.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6821192
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.ProperlyDiscontinuousFlags:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "73c657864ab9b6c29652edaf7f479628497fe3c60d97d4260f24d4a3c5de9fe1",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.ModerateCoefficientPositivity",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.Signature"
+  ],
+  "objects": {
+    "M002497": "b6de8ade22603535dd000b3de7ba5f148730b7b004ba91145760cb08fb60d728"
+  },
+  "bundle_sha256": "39cd489ce8ae7decb17491852f0f0080c6325ddce8ae70ef7db8aaf4a98d007a",
+  "packet": "M002497",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8993#issuecomment-7054887282",
+  "reviewed_utc": "2026-11-21T06:25:12.014833+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

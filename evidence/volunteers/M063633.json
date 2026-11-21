@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M063633"
+  ],
+  "started_utc": "2026-11-21T03:13:28.237212+00:00",
+  "ended_utc": "2026-11-21T03:13:46.176964+00:00",
+  "elapsed_seconds": 17.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6321168
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.SelfDualHermitianLatticeExistsNormOneModStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b5b324be465c8b4b2bfebeca2d2768e2a3b2a19568a7366984facc747c91b973",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SelfDualHermitianLatticeExistsNormOneMod"
+  ],
+  "objects": {
+    "M063633": "f7d1d0c082e27ee961ef69ce63bdabf1ac28ba7b48b0f3d82075602367a08a63"
+  },
+  "bundle_sha256": "8cee0ed40bb9105357a32536fab80ed09c101969a04843fa286a5797c2062aa7",
+  "packet": "M063633",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11631#issuecomment-7056466246",
+  "reviewed_utc": "2026-11-21T06:15:49.475899+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

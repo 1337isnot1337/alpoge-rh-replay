@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M069434"
+  ],
+  "started_utc": "2026-11-21T05:07:56.805825+00:00",
+  "ended_utc": "2026-11-21T05:08:06.481976+00:00",
+  "elapsed_seconds": 9.7,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6819028
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLocallyConstantCutoffClosedEmbeddingStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "21c8fe8e8bfe30d25d3e1e3911e3f104e8cf2ef95032ca94c68a8f068a32bf8e",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLocallyConstantCutoffClosedEmbedding"
+  ],
+  "objects": {
+    "M069434": "0c3dd75ad7ee84984b18150a11bdc20c541e786999f3721a1e85f48f099f77e2"
+  },
+  "bundle_sha256": "3c6b3a9ae16f5e6863bbb8a15a59f03948aa35af688c9d42e02e648594d80499",
+  "packet": "M069434",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13343#issuecomment-7057777100",
+  "reviewed_utc": "2026-11-21T06:08:53.383489+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

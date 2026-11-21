@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M055512"
+  ],
+  "started_utc": "2026-11-21T03:38:39.584404+00:00",
+  "ended_utc": "2026-11-21T03:39:46.467821+00:00",
+  "elapsed_seconds": 66.9,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6601768
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.UniversallyClosedOfClosedCoverInUniversallyCloseStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7c8dad58bcf2c70c439b462e2531a488a9e624ad26c58c8cdf59f5c93c74baaa",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.UniversallyClosedOfClosedCoverInUniversallyClose"
+  ],
+  "objects": {
+    "M055512": "98e7607e577bc7aa1c64b4f25b87d8f6686c0b5cebf1427f7d7b9329c8c10056"
+  },
+  "bundle_sha256": "c754c3c6bb23b042b1db5f3abe044bf164017df51e6a8dde27645b637fa6fba0",
+  "packet": "M055512",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11836#issuecomment-7056753535",
+  "reviewed_utc": "2026-11-21T06:15:01.235202+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

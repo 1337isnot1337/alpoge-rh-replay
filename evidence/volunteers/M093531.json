@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M093531"
+  ],
+  "started_utc": "2026-11-21T05:28:09.875850+00:00",
+  "ended_utc": "2026-11-21T05:28:26.091342+00:00",
+  "elapsed_seconds": 16.2,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6618904
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMaximalOperatorStableOfFinsetGeneratingStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b180ab6f725f53d6ae5337068e44e02fc8c7ea9b753b56a57ca1d19a0b17c27f",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMaximalOperatorStableOfFinsetGenerating"
+  ],
+  "objects": {
+    "M093531": "7af5d3e8109f9b9effb40820a35ce48c7bfb179a0310ed743da0d4e8598bbb1a"
+  },
+  "bundle_sha256": "c131d5d2e10bde396063db4243354b2c2ae83416cccc5428ff193eb796efdf83",
+  "packet": "M093531",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13985#issuecomment-7057941734",
+  "reviewed_utc": "2026-11-21T06:05:49.890295+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

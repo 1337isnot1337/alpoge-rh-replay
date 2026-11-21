@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M152575"
+  ],
+  "started_utc": "2026-11-21T01:58:53.662876+00:00",
+  "ended_utc": "2026-11-21T01:59:13.706325+00:00",
+  "elapsed_seconds": 20.0,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6787952
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.SiegelLatticeTheory.TraceIntegralEstimates.EnergyAbsFolnerExp:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "79c86dc22c660ca0700d466603c31f09186cce9aff10b2477571775a22f50fd9",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.SiegelLatticeTheory.ClosedLocalOrbits.GaugeLatticeShifts.EnergyAbs",
+    "Formalism.LocalToGlobal.SiegelLatticeTheory.TraceIntegralEstimates.EnergyAbsDefs",
+    "Formalism.LocalToGlobal.SiegelLatticeTheory.TraceIntegralEstimates.EnergyAbsFolnerConv"
+  ],
+  "objects": {
+    "M152575": "fcb053cd4cff45b4d1344e7186e5cfa5c57d4f7696e5108f88fd2c111b8998d1"
+  },
+  "bundle_sha256": "ef4f6fce4d0255d3f6dcd6af1305b78f82141ae56558485ba7027dd967d12bd9",
+  "packet": "M152575",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10450#issuecomment-7055545072",
+  "reviewed_utc": "2026-11-21T06:20:04.292343+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

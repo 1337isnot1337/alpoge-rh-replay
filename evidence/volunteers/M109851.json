@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M109851"
+  ],
+  "started_utc": "2026-11-21T03:08:41.038839+00:00",
+  "ended_utc": "2026-11-21T03:09:05.064280+00:00",
+  "elapsed_seconds": 24.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6292900
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.InertiaRamification.FieldDisc:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7c6c7f7aafa9afd713b08eee475f5195c0e4b153eeb58b8f8a44cf1fc5a7f01c",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.InertiaRamification.FieldDefs"
+  ],
+  "objects": {
+    "M109851": "5f44a6ec9356bdefad0dd3addb8bc1b24ad3e8e635b08b7f4bde8e5150e9bd03"
+  },
+  "bundle_sha256": "edc319478110b44d4ebc615152165bc87527809a33d07cecf360b48635026c63",
+  "packet": "M109851",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11569#issuecomment-7056411552",
+  "reviewed_utc": "2026-11-21T06:16:08.149328+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

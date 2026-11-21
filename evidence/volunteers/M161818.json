@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M161818"
+  ],
+  "started_utc": "2026-11-21T05:44:33.306600+00:00",
+  "ended_utc": "2026-11-21T05:44:58.181865+00:00",
+  "elapsed_seconds": 24.9,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6671824
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingFourier:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a578819a7607de7f1a1ece1909e356c0d74b0f916e1d648180f0e0000ef68b9c",
+  "rebuilt_project_modules": [
+    "Formalism.UnipotentAdelicQuotients.EllReg",
+    "Formalism.UnipotentAdelicQuotients.EllRegCut"
+  ],
+  "objects": {
+    "M161818": "12e621f3f9932849aebc53ac141e69707c8e788ea34ff3e899882c13a4834427"
+  },
+  "bundle_sha256": "b09e267c23bc8a7095b94d1b510c3b57796eaf1e3dd783ad528d810a4e0f7d2a",
+  "packet": "M161818",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14267#issuecomment-7058136674",
+  "reviewed_utc": "2026-11-21T06:04:50.407694+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

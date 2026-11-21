@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M109437"
+  ],
+  "started_utc": "2026-11-21T01:55:30.378010+00:00",
+  "ended_utc": "2026-11-21T01:55:54.015445+00:00",
+  "elapsed_seconds": 23.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 7327516
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.CommutativeAlgebra.EtaleCohomology.EtaleProperBaseChange:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e790dbe70cce0afcd7d206f509bd67fdb190aec7cb5585068200279a0a15ddc3",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.CommutativeAlgebra.EtaleCohomology.LocallyExactCech"
+  ],
+  "objects": {
+    "M109437": "d5b0fe43ae54d882665d49249a55130571c9d09a969aeb616e4a425cb80788b7"
+  },
+  "bundle_sha256": "61bd1abbb8d95327b346025894e9b717f87f1736ca7e339d7092d5aff45ae3b3",
+  "packet": "M109437",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10330#issuecomment-7055497389",
+  "reviewed_utc": "2026-11-21T06:20:29.535971+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

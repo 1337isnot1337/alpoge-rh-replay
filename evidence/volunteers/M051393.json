@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M051393"
+  ],
+  "started_utc": "2026-11-21T05:13:40.029949+00:00",
+  "ended_utc": "2026-11-21T05:14:09.368912+00:00",
+  "elapsed_seconds": 28.7,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6982700
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubharmonicLogConvexityQuotientStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "eb73539d6fcfb80a55e16cdea340a0bb9204de5ecc11715e8a53841df1d8e6ad",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.EventuallyDifferentiableAtOfContDiffAtTwo",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubharmonicLogConvexityQuotient"
+  ],
+  "objects": {
+    "M051393": "32c8b335035f5f49d2a295c62c313a685f7e51f94db12d276af2c0cb578014b7"
+  },
+  "bundle_sha256": "6655a945e89d417861367bd676a55aa033c17cd8e6edb6eaed9a392566a84fc9",
+  "packet": "M051393",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13456#issuecomment-7058101927",
+  "reviewed_utc": "2026-11-21T06:08:24.657801+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

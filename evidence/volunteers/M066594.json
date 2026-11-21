@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M066594"
+  ],
+  "started_utc": "2026-11-21T05:56:29.926165+00:00",
+  "ended_utc": "2026-11-21T05:57:08.986179+00:00",
+  "elapsed_seconds": 39.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5413656
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdditiveSystemSurjectivityAndCountOrderZero:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ee7f4360dc10753dcc3fccd92a300995c1770fd64c9ced2f4d50962edd2c37f9",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsUniqueIntegralAdditiveSystemFrobeniusPower"
+  ],
+  "objects": {
+    "M066594": "836bcef15d969058e138eaa770e1fb8568cd7fb5f02203a75c01ada43d6df894"
+  },
+  "bundle_sha256": "52cc7f06bdc705b1d2ac33dba11a7de33116930fe27fda5bc789473f3282afb9",
+  "packet": "M066594",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14438#issuecomment-7058293910",
+  "reviewed_utc": "2026-11-21T06:04:21.881532+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

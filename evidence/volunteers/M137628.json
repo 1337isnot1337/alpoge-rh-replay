@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M137628"
+  ],
+  "started_utc": "2026-11-21T01:02:35.407685+00:00",
+  "ended_utc": "2026-11-21T01:02:44.128364+00:00",
+  "elapsed_seconds": 8.7,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6823752
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.SiegelWeilActions.AddFDOfCover:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "bfae11d514ef336b4ea473fd6448048f80e6b794f77c8db9a7fcc85d064692da",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Theta.FundDomain"
+  ],
+  "objects": {
+    "M137628": "1ae0b86c273106443c42eb5a9210bbd84fdf402838909ab810405aa858a1deb4"
+  },
+  "bundle_sha256": "9489571e55ef1b1688d6c1e6c6797de4c22db8a4e355f889a41cbe2310a34e46",
+  "packet": "M137628",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8953#issuecomment-7054828575",
+  "reviewed_utc": "2026-11-21T06:25:22.761179+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M134720"
+  ],
+  "started_utc": "2026-11-21T04:46:58.378021+00:00",
+  "ended_utc": "2026-11-21T04:47:32.985456+00:00",
+  "elapsed_seconds": 34.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 6502128
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.PublishedTheorems.Algebra\u2082.RegularHypothesesAndConclusion:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "35174dd61c4d1ddfa9167986a6a2941900f1e2c1c2a864400ebced6a533be4e5",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.IsAffineHomOfFlatQuotientOfAffineKernel"
+  ],
+  "objects": {
+    "M134720": "2b2f932fb4d7370cf9e34eeec4dc61b36735f90c8f50447e7f5ddc2018c37c3e"
+  },
+  "bundle_sha256": "bfcdcbd3652fa07af3cbf8595b1dc0dbe7bd02462897b68d5a1cac7b86437ff1",
+  "packet": "M134720",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12943#issuecomment-7057495284",
+  "reviewed_utc": "2026-11-21T06:10:41.927128+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M151032"
+  ],
+  "started_utc": "2026-11-21T01:37:36.837525+00:00",
+  "ended_utc": "2026-11-21T01:37:56.117880+00:00",
+  "elapsed_seconds": 19.3,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6641448
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.BoxFundT:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3505e213a03191d7aa0deef3497b22a5333345e917727ddc303e92700a39a5aa",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.BoxFund",
+    "Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.ShearMp"
+  ],
+  "objects": {
+    "M151032": "abb6c084d137485ddf7c06ccf08dc20a79a7f53641acb88c703bfcd96cfed506"
+  },
+  "bundle_sha256": "3773777b71008b163173dc1415bcc3f70cf171a45d1505cf48c98cfce29199eb",
+  "packet": "M151032",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9984#issuecomment-7055267278",
+  "reviewed_utc": "2026-11-21T06:21:50.568932+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

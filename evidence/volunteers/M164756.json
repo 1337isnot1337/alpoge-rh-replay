@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M164756"
+  ],
+  "started_utc": "2026-11-21T00:44:25.534994+00:00",
+  "ended_utc": "2026-11-21T00:45:08.909127+00:00",
+  "elapsed_seconds": 43.3,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 7979196,
+    "peak_child_rss_kib": 6169936
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StPrimeGermPrimitivePresentation:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "153fe31ffdc7da4a4344ba0939e0fa710b34bca9a9bcffa3f36718a117f5269e",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StPrimeGermNullstellensatz"
+  ],
+  "objects": {
+    "M164756": "50a276cf25d6cd11754e86563b1752409fcc43d48d01299ba2db7d0f3af63be3"
+  },
+  "bundle_sha256": "89f80fb2b8e3de4aa18d00547d3ea3cd7e14e319031bbde8d38361f06550bcd6",
+  "packet": "M164756",
+  "contributor": "roonastgames",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8440#issuecomment-7054432422",
+  "reviewed_utc": "2026-11-21T06:26:46.469649+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M022903"
+  ],
+  "started_utc": "2026-11-21T05:11:41.977055+00:00",
+  "ended_utc": "2026-11-21T05:20:52.578090+00:00",
+  "elapsed_seconds": 550.5,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5821604
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleLocalizationAtPrimeTensorOfLowHeight:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "449359db5a9476d555376cc51e7e1e88570c73a5db7be4fbd1c17c45d4b14922",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.GalMapGalElt",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionFreeOver"
+  ],
+  "objects": {
+    "M022903": "24ce8cc4ebf0c41625afef540716a1fdb29faaa589719c793ab25c3e4248909e"
+  },
+  "bundle_sha256": "57a9815cfed8ec44bc42bb8bc0b6421edce59324964f42ac5b8a92fa7a2bd0b3",
+  "packet": "M022903",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13058#issuecomment-7057852224",
+  "reviewed_utc": "2026-11-21T06:10:12.985131+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

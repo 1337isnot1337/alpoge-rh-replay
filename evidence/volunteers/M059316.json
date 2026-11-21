@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M059316"
+  ],
+  "started_utc": "2026-11-21T00:48:37.885437+00:00",
+  "ended_utc": "2026-11-21T00:48:55.163284+00:00",
+  "elapsed_seconds": 17.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6158436
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FlagMeasures.MeasurableSetIwasawaSliceOfTransversalStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8ea4c32ce02068e4744a223bc74be1ac2d2ebb0d9eae191f1c53a42eb0f9b106",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.MeasurableSetIwasawaSliceOfTransversal"
+  ],
+  "objects": {
+    "M059316": "11442b85edcbca74000b96eaedba0386364acb74af0c436a1247c03b048ab464"
+  },
+  "bundle_sha256": "f8f543fecc4fe12b0c878f7c6e34c78f7835da0cfd685c591ce5c4716d9a7cd5",
+  "packet": "M059316",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8427#issuecomment-7054504740",
+  "reviewed_utc": "2026-11-21T06:26:48.199291+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

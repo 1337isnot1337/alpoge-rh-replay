@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M027521"
+  ],
+  "started_utc": "2026-11-21T04:53:26.595995+00:00",
+  "ended_utc": "2026-11-21T04:54:37.271543+00:00",
+  "elapsed_seconds": 70.7,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6604156
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMemSubmonoidDvdMulOfForallHeightEqOneStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "20af2611752d3e741ae48f5ea3266b2d85722bf50891b62d58afafc78d9e5710",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMemSubmonoidDvdMulOfForallHeightEqOne"
+  ],
+  "objects": {
+    "M027521": "f699a33cfd2a6992044c67312d36c57652a8ea10fb08fa48de745d20985d6ac6"
+  },
+  "bundle_sha256": "2ea094bc1fa5c963285a4004c9b45c5414a30d1b89ef690eaba1e49f775a4086",
+  "packet": "M027521",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13106#issuecomment-7057561208",
+  "reviewed_utc": "2026-11-21T06:10:03.291669+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

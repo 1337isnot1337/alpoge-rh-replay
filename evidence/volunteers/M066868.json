@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M066868"
+  ],
+  "started_utc": "2026-11-21T01:26:06.862682+00:00",
+  "ended_utc": "2026-11-21T01:26:21.662055+00:00",
+  "elapsed_seconds": 14.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 6857444
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BaseChangePolynomialAnnihilatesDescentStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "35bd918d3640f6b8d9d67f476c7180c43dbd28edbbb5644ab524b66e706cfb58",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BaseChangePolynomialAnnihilatesDescent"
+  ],
+  "objects": {
+    "M066868": "b1474c168f0c65381bcf7393515ab59bb0a2207b1a796f0da7e21490962fd2f9"
+  },
+  "bundle_sha256": "bb154b93297f98d188a05d761912959cd90ddd0f66a330a5e8a5c1207fe71a02",
+  "packet": "M066868",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9539#issuecomment-7055115250",
+  "reviewed_utc": "2026-11-21T06:23:14.558951+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

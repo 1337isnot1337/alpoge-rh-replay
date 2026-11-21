@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M018206"
+  ],
+  "started_utc": "2026-11-21T02:10:25.342947+00:00",
+  "ended_utc": "2026-11-21T02:10:35.217865+00:00",
+  "elapsed_seconds": 9.9,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6725140
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffAllOnesSumAlgEquivMkDerivationStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a7e619b03d355c8043d0afc68ab826eaa0efcac24d867b3fd2e9a8f5ebe6bcc6",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffAllOnesSumAlgEquivMkDerivation"
+  ],
+  "objects": {
+    "M018206": "8a1bdf08ade18cb78124e83d63ea5a39bce0965c1c4ff48cdd5e64f584b4f38f"
+  },
+  "bundle_sha256": "fa47bd3165a860bbfba8fff9d1170c875b01497bb29677ffc9b181f768b7ef7c",
+  "packet": "M018206",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10650#issuecomment-7055698667",
+  "reviewed_utc": "2026-11-21T06:19:28.219914+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

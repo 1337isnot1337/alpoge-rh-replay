@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M167789"
+  ],
+  "started_utc": "2026-11-21T04:42:43.654226+00:00",
+  "ended_utc": "2026-11-21T04:43:11.664607+00:00",
+  "elapsed_seconds": 28.0,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6770356
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.Intersections.LinEmbedSt:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "14e1ebb9c9b3c0b709a26147a164a34b2dac183534d461cad284bf9c4cfe3818",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.MultihomogeneousIdeals.ExistsUniqueStatement",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.MultihomogeneousIdeals.InhDivCycleOfSuppEmpty",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.MultihomogeneousIdeals.Inhabit"
+  ],
+  "objects": {
+    "M167789": "da6b017aaefcca1cada74c18313017c5006d9d1e2ee9e1b94c023a9d75dabd74"
+  },
+  "bundle_sha256": "5d827fb03279db7f0a856eed6ba681db17e6ed5cdb5fcf959691b3de55e08e0e",
+  "packet": "M167789",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12964#issuecomment-7057445264",
+  "reviewed_utc": "2026-11-21T06:10:35.473552+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

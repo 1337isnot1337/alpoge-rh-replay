@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M100925"
+  ],
+  "started_utc": "2026-11-21T04:14:58.651719+00:00",
+  "ended_utc": "2026-11-21T04:15:27.077107+00:00",
+  "elapsed_seconds": 28.4,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7070468
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry\u2082.EssSquareIntegrableSegments:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "bb3abb36956bdc8bec8e3856b3c26f0f317ef5bfa70411b11c2a0c2710652fdf",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsTemperedCoeff"
+  ],
+  "objects": {
+    "M100925": "604c346e287b56df29c12a5e92770fa9dc8d20a54f3f04d2f237129498e3e8c1"
+  },
+  "bundle_sha256": "e8069d4b43357805c75fd2c41527f7c835a62a20a1153fe0dd3ec4866c72f84f",
+  "packet": "M100925",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12465#issuecomment-7057157466",
+  "reviewed_utc": "2026-11-21T06:12:36.738460+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

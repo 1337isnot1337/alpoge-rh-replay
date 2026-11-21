@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M122349"
+  ],
+  "started_utc": "2026-11-21T00:40:59.235827+00:00",
+  "ended_utc": "2026-11-21T00:41:10.159477+00:00",
+  "elapsed_seconds": 10.9,
+  "host": {
+    "cpu_count": 128,
+    "mem_total_kib": 395484908,
+    "peak_child_rss_kib": 6881504
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DifferentiableAffLine:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "91c8caa6a0aef9fa95f2465ffcf70f6a84833bf473eb8d0c0cf7cfeccefe01c4",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.EisensteinSeries.SiegelEisensteinContinuation.StripEntire"
+  ],
+  "objects": {
+    "M122349": "eba4471e00e25ec40b73fc9b0937a39278f78abd0f755b945467e8bfd3a1e987"
+  },
+  "bundle_sha256": "5f061782f5f6b756c480a1840b05d6988c1e690da94fd63c4adcfff9955abf7c",
+  "packet": "M122349",
+  "contributor": "BenCaunt",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/6183#issuecomment-7054362037",
+  "reviewed_utc": "2026-11-21T06:28:34.018586+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M094777"
+  ],
+  "started_utc": "2026-11-21T05:54:07.071606+00:00",
+  "ended_utc": "2026-11-21T05:54:46.529360+00:00",
+  "elapsed_seconds": 39.5,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5461992
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeisenbergSmoothRapidSuperpositionTranslatesStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b061b8cede2d54b2b4721533c070c1f0cc5bc1313e66cca6f4ac9cc593a6414e",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeisenbergSmoothRapidSuperpositionTranslates"
+  ],
+  "objects": {
+    "M094777": "ae94b4ac30c35eeee8131fc3e7ffc74d58e38296f648acdf9bf01a457f279e3d"
+  },
+  "bundle_sha256": "b92d08588bc77a45b5a62ba2cd46985cbc1877328c9c4e506806580c97fcb72c",
+  "packet": "M094777",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14372#issuecomment-7058268533",
+  "reviewed_utc": "2026-11-21T06:04:34.936915+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

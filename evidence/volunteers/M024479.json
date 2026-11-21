@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M024479"
+  ],
+  "started_utc": "2026-11-21T04:43:57.717091+00:00",
+  "ended_utc": "2026-11-21T04:44:27.795277+00:00",
+  "elapsed_seconds": 29.4,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6816916
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoprimeMulIsIntegralOfPadicIntegralStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "cc0f34ba7ffb21fc7d01a13c11fc589181f5721fae2fa7f722e065b84942167c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffMinpolyMemAdicCompletionIntegers",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoprimeMulIsIntegralOfPadicIntegral"
+  ],
+  "objects": {
+    "M024479": "459704f68fcf258c1647fb70f7d8f20d91d89fa0ced0992c5e6f9da6e78183b5"
+  },
+  "bundle_sha256": "241604fb294be8cd40a45e5c2168905631c50be1dca346cc3346cbb31b3fd108",
+  "packet": "M024479",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13007#issuecomment-7057651278",
+  "reviewed_utc": "2026-11-21T06:10:23.262510+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

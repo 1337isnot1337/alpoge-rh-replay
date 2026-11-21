@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M047509"
+  ],
+  "started_utc": "2026-11-21T05:16:08.044705+00:00",
+  "ended_utc": "2026-11-21T05:25:01.825973+00:00",
+  "elapsed_seconds": 533.6,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5586364
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.RatFiniteAdelesSplitAwayFromPrimePadicStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e274a52a093843b98c62536b4559585e0f6eeb034a859a3943b3cf9c2f54bfb7",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RatFiniteAdelesSplitAwayFromPrimePadic"
+  ],
+  "objects": {
+    "M047509": "ecc55f5004680eb66965e143db44f86f299bb5c8aff4a8b3699573f051bea626"
+  },
+  "bundle_sha256": "cb0c24ffeaa0b224a3fb4bc20c040e6829a74a74b1a66da7c08e5fb076257b1f",
+  "packet": "M047509",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13110#issuecomment-7057903438",
+  "reviewed_utc": "2026-11-21T06:10:01.829080+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

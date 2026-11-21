@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M094555"
+  ],
+  "started_utc": "2026-11-21T05:23:24.150951+00:00",
+  "ended_utc": "2026-11-21T05:23:59.111555+00:00",
+  "elapsed_seconds": 35.0,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 26442420,
+    "peak_child_rss_kib": 6765088
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.HaarMapConjNormalizingLatticeEqSelfStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "884828d61b856d592aab3695009b4bda54298200c993b7dbca4c533e66018224",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.HaarMapConjNormalizingLatticeEqSelf",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.NullMeasurableSetShearImage"
+  ],
+  "objects": {
+    "M094555": "296e5cadd987948a6ef81bedeed6ea287dcc74df8c377a6cf58c6d5c94928422"
+  },
+  "bundle_sha256": "ebe80e2aecf91df2c8cd8933626f7ac5a5809a35d5d9e4f5acdd21b5ce420c6b",
+  "packet": "M094555",
+  "contributor": "jwr404",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13720#issuecomment-7057913947",
+  "reviewed_utc": "2026-11-21T06:07:07.314730+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

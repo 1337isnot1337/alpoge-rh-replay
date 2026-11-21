@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M154539"
+  ],
+  "started_utc": "2026-11-21T01:12:55.532051+00:00",
+  "ended_utc": "2026-11-21T01:13:05.496564+00:00",
+  "elapsed_seconds": 10.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6859948
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CircleGaugeAction.DglApplyOff:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "754c77f3e086df331241ce6d0f89ced90ed5ff3a7ea2626be783c154bd82b70e",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.ExistsGaugeMeasureForEachRank"
+  ],
+  "objects": {
+    "M154539": "e88963ae31815b367bdeaf331ada9e568c585a026f114eebe32159aabc195d8e"
+  },
+  "bundle_sha256": "18616325c0e0e45dd7038087fc7dbb9792cc7164d2ba015c9b43b6ad680cf5db",
+  "packet": "M154539",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9004#issuecomment-7054906485",
+  "reviewed_utc": "2026-11-21T06:25:09.646532+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

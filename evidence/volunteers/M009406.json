@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M009406"
+  ],
+  "started_utc": "2026-11-21T01:53:33.111758+00:00",
+  "ended_utc": "2026-11-21T01:53:42.573373+00:00",
+  "elapsed_seconds": 9.5,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6830664
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.HasFDerivAtOfContinuousCoordinatePartials:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "31a1bf93581de636e51a60835144f19fc89f60892c44d4e7c412ecc4a1ac16d6",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.HasFDerivAtOfContinuousPartials"
+  ],
+  "objects": {
+    "M009406": "19afa5901637a894f512369094d3d8facdcf95ba470ac886cb06e1748e7276c0"
+  },
+  "bundle_sha256": "e02caccc4d1dbdf628fd0df245eade98789a0788b02376590dd3020e3bb59a4a",
+  "packet": "M009406",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10211#issuecomment-7055551825",
+  "reviewed_utc": "2026-11-21T06:20:54.619409+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

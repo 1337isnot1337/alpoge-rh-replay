@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M070156"
+  ],
+  "started_utc": "2026-11-21T05:09:35.197429+00:00",
+  "ended_utc": "2026-11-21T05:09:44.165626+00:00",
+  "elapsed_seconds": 9.0,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6796892
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteEtaleHermitianLinearEquivContinuousStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2300b01c0ea8573a112c5a2a8d77db57d0328a25112338ce771ffdb05cc9182e",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FiniteEtaleHermitianLinearEquivContinuous"
+  ],
+  "objects": {
+    "M070156": "59a27ad930e5bc5716b49b949acd62938bbd75299d9921ca0e16945ee4961183"
+  },
+  "bundle_sha256": "9a9b311887a0e90da6ff2a52d56d1bf4b26f7fcc83b8008a1ce3f8c8bbd5ddeb",
+  "packet": "M070156",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13353#issuecomment-7057785843",
+  "reviewed_utc": "2026-11-21T06:08:50.437997+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

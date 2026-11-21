@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M155125"
+  ],
+  "started_utc": "2026-11-21T01:02:55.706731+00:00",
+  "ended_utc": "2026-11-21T01:03:23.727827+00:00",
+  "elapsed_seconds": 28.0,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 32869296,
+    "peak_child_rss_kib": 7175908
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GordanIntegerMultiple.ExistsIntMultiple:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8bf5034d44c2461c5ea6a0770f1933f130b67a48b4d3ec69674acd5eeb2bb669",
+  "rebuilt_project_modules": [
+    "Formalism.UnipotentAdelicQuotients.GordanCones"
+  ],
+  "objects": {
+    "M155125": "95a2202000c187d2ffe862871a9e10885bcae053701b756eaa5cb3691a456b53"
+  },
+  "bundle_sha256": "0a849d125d830e3be409acaaa107996b0a0734c86342c0204dccb2d126c1d2d8",
+  "packet": "M155125",
+  "contributor": "HaqtanEfe",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8628#issuecomment-7054802498",
+  "reviewed_utc": "2026-11-21T06:26:21.427760+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

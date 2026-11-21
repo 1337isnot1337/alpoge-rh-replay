@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M096540"
+  ],
+  "started_utc": "2026-11-21T04:16:00.518016+00:00",
+  "ended_utc": "2026-11-21T04:16:13.781311+00:00",
+  "elapsed_seconds": 13.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5862124
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.PosDefConjTransposeMulSelfEqExpPolynomialStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c959f948152d507b95c3ca6e33cae9001684770df209a4be567f9ecffcb43b65",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.PosDefConjTransposeMulSelfEqExpPolynomial"
+  ],
+  "objects": {
+    "M096540": "be0fac27ce73570b2548854fa44171300c66e06485f966e734bb338374149a05"
+  },
+  "bundle_sha256": "2bd4dd1415115444fa00d6db21418af468d1a7aabebd5a7473762a00ddf378bb",
+  "packet": "M096540",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12551#issuecomment-7057150637",
+  "reviewed_utc": "2026-11-21T06:12:13.054590+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

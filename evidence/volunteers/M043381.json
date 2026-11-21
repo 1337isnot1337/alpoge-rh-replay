@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M043381"
+  ],
+  "started_utc": "2026-11-21T05:05:42.530727+00:00",
+  "ended_utc": "2026-11-21T05:06:04.221125+00:00",
+  "elapsed_seconds": 21.7,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6640588
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemSupportQuotientSpanIffOfIsPushoutStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "dc6f62e2e781c55208c8e9a1060dc604e9d74dd947276ab0ecfaa8cfec4f9acb",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemSupportQuotientIff",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemSupportQuotientSpanIffOfIsPushout"
+  ],
+  "objects": {
+    "M043381": "b4921d0984fbb66162907e8286b2e72b1ab2994e92584a56802db5391bd13f1c"
+  },
+  "bundle_sha256": "8915fd4ecf216ba0a79b9fc8a49d68e5bb9e4033f1513899302ac384cf1d676a",
+  "packet": "M043381",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13310#issuecomment-7057680230",
+  "reviewed_utc": "2026-11-21T06:09:09.303008+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

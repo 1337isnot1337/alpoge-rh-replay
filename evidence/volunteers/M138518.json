@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M138518"
+  ],
+  "started_utc": "2026-11-21T05:38:04.392742+00:00",
+  "ended_utc": "2026-11-21T05:38:39.972429+00:00",
+  "elapsed_seconds": 35.6,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6854372
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.HodgeTatePoints.RdBase:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "38dcc6ea454e83eec6b4e3e32dcf90ce52b2e2c6e119020b1f14b32ec0e2a614",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.DualLattices.IsLocalOfIntegers",
+    "ReciprocityTheory.DualLattices.ProdDvdOfIso"
+  ],
+  "objects": {
+    "M138518": "370b066870807c56b56674089707c695a63947876d4a1b9f0089fb1552d5e3ae"
+  },
+  "bundle_sha256": "bfce08db0d40a65828769ea6b0d08a0ce58703361612cef805194c3c5c0e9403",
+  "packet": "M138518",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14202#issuecomment-7058080080",
+  "reviewed_utc": "2026-11-21T06:05:01.484174+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

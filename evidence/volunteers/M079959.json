@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M079959"
+  ],
+  "started_utc": "2026-11-21T00:44:12.853775+00:00",
+  "ended_utc": "2026-11-21T00:45:28.800392+00:00",
+  "elapsed_seconds": 75.9,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 4585724
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsDomainOfIsIntegrallyClosedOfIsReducedStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b6eecb6a348f7fe545c736acc39cf6e31ad3a7c62cedca3cc3c6f428ab69777c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsDomainOfIsIntegrallyClosedOfIsReduced"
+  ],
+  "objects": {
+    "M079959": "1d19893ebc4bd9af722305a110567a5d3085bfd318858f02a466cba25f1c17ff"
+  },
+  "bundle_sha256": "030d9425401a2c65f588204e33fb307f039fc13271b15522e032162659fd661c",
+  "packet": "M079959",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8405#issuecomment-7054449815",
+  "reviewed_utc": "2026-11-21T06:26:54.238830+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

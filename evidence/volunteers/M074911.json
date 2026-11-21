@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M074911"
+  ],
+  "started_utc": "2026-11-21T02:59:39.261453+00:00",
+  "ended_utc": "2026-11-21T03:02:08.218816+00:00",
+  "elapsed_seconds": 149.0,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UltrametricNormHasSumSubFinsetSumLeStatement:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 4853420
+  },
+  "source_sha256": "f1d42754982e4ef3351f61630cdf728985fcd02275d58a77d509b37d6ec42aee",
+  "log_sha256": "2712267ab303502df10a8c5eb3f5d772c49e697377f77b31f44e7d32a4d2a248",
+  "objects": {
+    "M074911": "c4d5c36f6cfd1dfef2aeea76e133b90973c0843532bd58012969faa8e076b41d"
+  },
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UltrametricNormHasSumSubFinsetSumLe"
+  ],
+  "bundle_sha256": "eaeb3b78bda07ebf703383913917204d5da09bc331c30e922baa031bcdb432ab",
+  "packet": "M074911",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11411#issuecomment-7056350141",
+  "reviewed_utc": "2026-11-21T06:16:46.425024+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

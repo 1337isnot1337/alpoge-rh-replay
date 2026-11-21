@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M034018"
+  ],
+  "started_utc": "2026-11-21T02:22:46.832352+00:00",
+  "ended_utc": "2026-11-21T02:23:13.701736+00:00",
+  "elapsed_seconds": 26.3,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6790752
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramDetNeZeroOfKerOrthStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a3ae4d8dae3eebb16791d05327b3ce79fd70a088e06c6cc42ac860c0c8d2c5b0",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramDetNeZeroOfKerOrth"
+  ],
+  "objects": {
+    "M034018": "d2be9dc4c54f3830af5ab622471f6cbb72b704a2c81038ac5f6c26d82ae01bf2"
+  },
+  "bundle_sha256": "3c29a0228584a33c7ceba323476706c4de4d86968d80c536fcd9d84c6d520139",
+  "packet": "M034018",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10914#issuecomment-7055864921",
+  "reviewed_utc": "2026-11-21T06:18:38.899219+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

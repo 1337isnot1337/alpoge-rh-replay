@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M004187"
+  ],
+  "started_utc": "2026-11-21T02:04:05.389436+00:00",
+  "ended_utc": "2026-11-21T02:05:36.371085+00:00",
+  "elapsed_seconds": 90.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 8346828
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.GaloisGeometry.CohomZeroEquivSections:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f015e084f5b84f0e7847b2c60a429713215f06ba5413c11dae0d5a4e01f269d2",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.SatakeParameters.YonedaAddNaturalityLeft"
+  ],
+  "objects": {
+    "M004187": "37d12ca20b42f0651b6bdcca6ca0cf7825a53702f90ce422ba8f4d7010e2805c"
+  },
+  "bundle_sha256": "e5affbe61ad6195a11c1a87b4644b3854d36678880df2bbb33d69600358c6c2a",
+  "packet": "M004187",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10564#issuecomment-7055628503",
+  "reviewed_utc": "2026-11-21T06:19:45.849533+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M070035"
+  ],
+  "started_utc": "2026-11-21T01:29:51.370279+00:00",
+  "ended_utc": "2026-11-21T01:30:11.407613+00:00",
+  "elapsed_seconds": 20.0,
+  "host": {
+    "cpu_count": 128,
+    "mem_total_kib": 395484908,
+    "peak_child_rss_kib": 6932024
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsWittBasis:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d97526678a6eec6806903725af46120c996eefb67c413f4b98db78d8acfcd6de",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.UnitLemmaGroup",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedQuadraticNormsTraceUniformizerFacts",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedQuadraticNormsTraceUniformizerFactsStatement"
+  ],
+  "objects": {
+    "M070035": "2d2f7689d9dbe2447990df7c043d2897831e5b29e388adcfb5d93d5620d29f10"
+  },
+  "bundle_sha256": "793c3559327747324b84090e8481f30cc62f9f59e8964bde247b4f91371b2ba2",
+  "packet": "M070035",
+  "contributor": "BenCaunt",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9655#issuecomment-7055159927",
+  "reviewed_utc": "2026-11-21T06:23:00.657398+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

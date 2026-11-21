@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M033493"
+  ],
+  "started_utc": "2026-11-21T04:55:11.567313+00:00",
+  "ended_utc": "2026-11-21T04:55:34.575776+00:00",
+  "elapsed_seconds": 23.0,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6705920
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.GenFibMapCompAlgebraMap:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b18b4af04cec7848e39f9d6e7c213a2e2a59d345a0d4caeb898becee1eb2a817",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.CMModuli.ProjectiveSpaceOverSpec",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsorsTrivial"
+  ],
+  "objects": {
+    "M033493": "67e6f5f4f6749378d853680252d34febb9936500ff5274fa44a0cda7871940f9"
+  },
+  "bundle_sha256": "3b36d56b441538be5716bb4d1587051834224c89db38a36e821413d5376df999",
+  "packet": "M033493",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13116#issuecomment-7057570806",
+  "reviewed_utc": "2026-11-21T06:10:00.608967+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

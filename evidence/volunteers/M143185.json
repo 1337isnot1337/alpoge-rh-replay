@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M143185"
+  ],
+  "started_utc": "2026-11-21T05:13:07.877545+00:00",
+  "ended_utc": "2026-11-21T05:13:26.529554+00:00",
+  "elapsed_seconds": 18.0,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6961480
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.ThetaLifts.CartanFactorisation.EqOfInner:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b7177c100d489fa6b878b39d28df642fce433d90eda81f265f1dd45872428f58",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.IteratedLineDerivMemWeylAlg"
+  ],
+  "objects": {
+    "M143185": "3643070d35248d6d17755d5f6d5cc4239f1feb45156de2d370d97d9a749ffa2e"
+  },
+  "bundle_sha256": "82b1bebb6a1997b61b4fd75648053399502a8bb7317d7fe8de28cff0c03a7588",
+  "packet": "M143185",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13420#issuecomment-7057810998",
+  "reviewed_utc": "2026-11-21T06:08:32.310177+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

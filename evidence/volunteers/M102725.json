@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M102725"
+  ],
+  "started_utc": "2026-11-21T04:41:39.343815+00:00",
+  "ended_utc": "2026-11-21T04:53:48.337457+00:00",
+  "elapsed_seconds": 729.0,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 24607688,
+    "peak_child_rss_kib": 6945732
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.FinDefs:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b501e9abc41ce1c5ffe6a522b4a89fca32e1d39fcea9dc7f5f5371410c3c5275",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.ResMapBijective",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.IsLocalHom",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.OfDetToDet",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.WeilGroupCharacters.RepAlg",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.UnopSMul",
+    "ReciprocityTheory.CommutativeAlgebra.ChainConnInDim",
+    "ReciprocityTheory.CommutativeAlgebra.SaturatedChains.IsSaturatedChain"
+  ],
+  "objects": {
+    "M102725": "9e130253c6eeb548dc1b523ec490ddbcb63e3dca595d3b85377fdf3fe027ba20"
+  },
+  "bundle_sha256": "3522241bdb7fb42d59c919cd58f32b36dfaa4c339b46c3762e45b10e03efc9dc",
+  "packet": "M102725",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12888#issuecomment-7057552604",
+  "reviewed_utc": "2026-11-21T06:10:56.314703+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

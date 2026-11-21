@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M098082"
+  ],
+  "started_utc": "2026-11-21T04:53:14.470682+00:00",
+  "ended_utc": "2026-11-21T04:53:44.844147+00:00",
+  "elapsed_seconds": 29.7,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6831236
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnitaryCharacterKillsUnitaryTransvections:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "bee6f793e0e60f0d97eb93eaa2e587dccf4130b85afeae99f02139a369988f4e",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TransvectionIdentitiesUnitary"
+  ],
+  "objects": {
+    "M098082": "aefe2f4edb0740cf7564c327751de5ceedf6ac314529c01653495b846d98a733"
+  },
+  "bundle_sha256": "996b5ec6eefb0e601dcf512256775b66c67c94ab10897ffe6e0f21bc11d54757",
+  "packet": "M098082",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13012#issuecomment-7057683535",
+  "reviewed_utc": "2026-11-21T06:10:21.688253+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

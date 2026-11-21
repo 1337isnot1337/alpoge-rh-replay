@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M165597"
+  ],
+  "started_utc": "2026-11-21T05:09:52.421113+00:00",
+  "ended_utc": "2026-11-21T05:36:44.474399+00:00",
+  "elapsed_seconds": 1611.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 5613940
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ElementarySymmetric.VanishingCechMultInvariants:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8cb145a7111f180742c74479f9120bdbbc193584fb6416a3f444f161d4a067bc",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ThetaKeyFormula.RigSymFormTauIIsBasisOf",
+    "GroundTheory.HeightsAndTheta.Heights.ThetaKeyFormula.RigSymFormTauINontrivial",
+    "GroundTheory.HeightsAndTheta.Heights.ThetaKeyFormula.ThetaThreeFamLinearIndependent",
+    "GroundTheory.HeightsAndTheta.Heights.ThetaKeyFormula.ZeroSetFinite"
+  ],
+  "objects": {
+    "M165597": "935c4889bc2d009af495325b9917929e534b8e906c9afd28e758d6c6f5df459e"
+  },
+  "bundle_sha256": "d2678f694270327c03a955b125ced618b4a3f845be42f76da7f84c5898671def",
+  "packet": "M165597",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13412#issuecomment-7058042778",
+  "reviewed_utc": "2026-11-21T06:08:34.334098+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

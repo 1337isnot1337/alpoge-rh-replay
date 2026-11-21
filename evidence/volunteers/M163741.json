@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M163741"
+  ],
+  "started_utc": "2026-11-21T02:14:17.247896+00:00",
+  "ended_utc": "2026-11-21T02:14:30.505283+00:00",
+  "elapsed_seconds": 13.3,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6836732
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StatementsChowFormBirationalAlgClosed:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "879e4e11a9c9a7fe5f380e2142ff18dc7a94e9d1c4cd89358273a56fe73bcff7",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ChowForms.Imports",
+    "GroundTheory.HeightsAndTheta.Heights.ChowForms.Statements"
+  ],
+  "objects": {
+    "M163741": "ff37377fc47166f1f24f9f1c45e3af64850d3cfae47ec06e3f32e18114f8f842"
+  },
+  "bundle_sha256": "45c151b19eec26d7a9c08b4f35cf415f4cb93d7942f7885821c85f48c644e10a",
+  "packet": "M163741",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10808#issuecomment-7055786154",
+  "reviewed_utc": "2026-11-21T06:18:55.212671+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

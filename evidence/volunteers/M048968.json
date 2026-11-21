@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M048968"
+  ],
+  "started_utc": "2026-11-21T04:52:20.889817+00:00",
+  "ended_utc": "2026-11-21T04:54:11.447114+00:00",
+  "elapsed_seconds": 110.6,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5142680
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzCompactSupportDense:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e360726b4cfc263f823fbd0f4a67409da05ac0dee36b7ed24f3d4e0b257fe562",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzContinuousAtOfPointwiseOfBounded",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzDenseHasCompactSupport"
+  ],
+  "objects": {
+    "M048968": "f3a0e4b2af81ff04020bef5a158340e122508abad6e66cf064f28429c32be815"
+  },
+  "bundle_sha256": "35d7bed33582d26b66346bd93229a0e1b402acb134e8375ac670f50d6e52e81b",
+  "packet": "M048968",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13031#issuecomment-7057556670",
+  "reviewed_utc": "2026-11-21T06:10:17.469409+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

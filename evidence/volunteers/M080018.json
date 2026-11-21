@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M080018"
+  ],
+  "started_utc": "2026-11-21T05:04:41.238636+00:00",
+  "ended_utc": "2026-11-21T05:06:02.795415+00:00",
+  "elapsed_seconds": 81.6,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6879184
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsIsoOfIsProperOfExistsUniqueFieldPointOfIsInteg:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "62ad24a81317e97548eccaf023b7630cb70da378eb6d880fd2661702dfb569eb",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.IsOpenOfMemIrreducibleComponentsOfFinite",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.BijectiveAlgebraMapIntegralClosureOfBirational",
+    "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsIrreducibleGeneralizations",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsCompletedStrictHens"
+  ],
+  "objects": {
+    "M080018": "3bdcedda80a6d6a287cad2d36621ab9fe7c663cc2ed244b51e67d2c708628c8a"
+  },
+  "bundle_sha256": "c53a88947445f7adb88bb00d4ae678f8c65af98e15cb7416f04a0d9d9f4ef891",
+  "packet": "M080018",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13246#issuecomment-7057686104",
+  "reviewed_utc": "2026-11-21T06:09:23.266522+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

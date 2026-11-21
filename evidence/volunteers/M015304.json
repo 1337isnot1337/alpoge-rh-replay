@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M015304"
+  ],
+  "started_utc": "2026-11-21T04:44:42.755322+00:00",
+  "ended_utc": "2026-11-21T04:56:58.437227+00:00",
+  "elapsed_seconds": 735.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 5660128
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgHomQuotientSpanPowEqOfEtaleLow:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a501f59786d8299f0d86ffb358871a4174a9c51cb9c850620d8cf24b49501730",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FaithfullyFlatAdicCompletionSpan",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionFreeOver"
+  ],
+  "objects": {
+    "M015304": "3b5105c988928ffc8de83fa9d985e2436c04e209396ebf5c9b8fa26008d90b40"
+  },
+  "bundle_sha256": "bb9f6a292f834c15e82749fdf7ec250991bfcb2f927f4f99aeff0057174dcc61",
+  "packet": "M015304",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13002#issuecomment-7057586258",
+  "reviewed_utc": "2026-11-21T06:10:24.791073+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

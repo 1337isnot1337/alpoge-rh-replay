@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M092514"
+  ],
+  "started_utc": "2026-11-21T01:27:51.323412+00:00",
+  "ended_utc": "2026-11-21T01:28:04.142355+00:00",
+  "elapsed_seconds": 12.8,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6815616
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.ContinuousMatrixOneParameterGroupEqExpStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0c0db6343f9eeee19453b7d35ab8799e2078da267e57302298eb259f735d10ab",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ContinuousMatrixOneParameterGroupEqExp",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIsUnitIntegral"
+  ],
+  "objects": {
+    "M092514": "50ff033d581935e9ca31c474e02d78dcd25a05e40e7ba70e3cca3110a92ba3b1"
+  },
+  "bundle_sha256": "92c7991006ae75b084c30d26f2e41333f67abdb72683120e80df3b97f3317895",
+  "packet": "M092514",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9512#issuecomment-7055132081",
+  "reviewed_utc": "2026-11-21T06:23:21.336231+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

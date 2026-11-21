@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M075716"
+  ],
+  "started_utc": "2026-11-21T00:30:41.886972+00:00",
+  "ended_utc": "2026-11-21T00:33:25.859204+00:00",
+  "elapsed_seconds": 164.0,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AssociatedOfHeightOneLocalizations:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 4359604
+  },
+  "source_sha256": "dc183394428f5f1ff2b9d1aa358715ad3ec503f9d3ae7c4391163cb3a332427b",
+  "log_sha256": "711a43a902c8b29f7909463badb71beb88709d73d419ea640ac38354a1783ba1",
+  "objects": {
+    "M075716": "8f5f014f9aa27be1c7dd0950d3fed60cf6d3abb63e5de9ef1854f0d3bb24eddb"
+  },
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ChartPullbacks.UniformBaseChange.MemRangeOfForallHeightOne"
+  ],
+  "bundle_sha256": "0f8d1f59d26b7c3edb56ef4f1fd06fd30c1d76289d396088168002c9f51b8436",
+  "packet": "M075716",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8208#issuecomment-7054274526",
+  "reviewed_utc": "2026-11-21T06:27:28.131267+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

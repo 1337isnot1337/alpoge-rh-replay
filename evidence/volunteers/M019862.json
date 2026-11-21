@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M019862"
+  ],
+  "started_utc": "2026-11-21T05:38:11.353834+00:00",
+  "ended_utc": "2026-11-21T05:38:25.230599+00:00",
+  "elapsed_seconds": 13.9,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6864436
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.CosineSquarePushforwardUniform:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c4c75ab39a85ab5613a4f7f0f33634c960c7566e348d6e608d2961176a1efd86",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousOnCosSq",
+    "ReciprocityTheory.L2DbarEstimates.IsLocalHomeomorph"
+  ],
+  "objects": {
+    "M019862": "5ef63c4bad0ad3d586a2446b7e07ee805cf895e54a3b92a82423762e0575c46b"
+  },
+  "bundle_sha256": "b0f18b37c65dfe53d17d847d25ac2dc7b18a25c725c8122b1e2c3a011f735d06",
+  "packet": "M019862",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13995#issuecomment-7058120204",
+  "reviewed_utc": "2026-11-21T06:05:47.955449+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

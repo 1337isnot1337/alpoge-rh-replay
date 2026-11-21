@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M131986"
+  ],
+  "started_utc": "2026-11-21T05:18:19.131047+00:00",
+  "ended_utc": "2026-11-21T05:18:59.622042+00:00",
+  "elapsed_seconds": 40.5,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6829260
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.SectionEqZeroOfValuesStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f5c673e1b0735acfc4e6ae9bb5a3b70c90072ec329646a96b4e9c3e534e16624",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.Models",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.SectionEqZeroOfValues",
+    "Development.WeilBound.CoreStatements.HodgeTatePoints.ValAtRestrict",
+    "GroundTheory.PAdicHodge.FiniteFlat"
+  ],
+  "objects": {
+    "M131986": "5f4beccd3fb2c8bf3b7905f974585abcd838e3f0731d25052a637078fc56700c"
+  },
+  "bundle_sha256": "f2c61bb0468f114c421dc23e1b3821c995637779b700c802c8476a528f4d3d16",
+  "packet": "M131986",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13810#issuecomment-7057865626",
+  "reviewed_utc": "2026-11-21T06:06:38.489913+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

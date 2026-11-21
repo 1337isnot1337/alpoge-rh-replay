@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M026291"
+  ],
+  "started_utc": "2026-11-21T04:49:28.159904+00:00",
+  "ended_utc": "2026-11-21T04:53:51.676765+00:00",
+  "elapsed_seconds": 263.5,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdempotentTmulOneEqOfSmoothAlgebraStatement:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 4644428
+  },
+  "source_sha256": "c2acfbfada5df8030d4b74e635fe1f03fd9dbb14e2dcaa75ae8e665a8cc1d889",
+  "log_sha256": "a27e7c3d3a63ebbd200553ea7c055d6806abe5106e11538b3aec367be7e54b6c",
+  "objects": {
+    "M026291": "95adbb77f2f601445c3e0d4c8ea58783e271ace475d0d42e3367f8cd9dbcde6c"
+  },
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdempotentTmulOneEqOfSmoothAlgebra",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsIntegralOfIsIdempotentElem"
+  ],
+  "bundle_sha256": "825c2eb63a34485685ca33865272085f795d74fff38b5f6ef9152216aeb31d9b",
+  "packet": "M026291",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12981#issuecomment-7057573116",
+  "reviewed_utc": "2026-11-21T06:10:29.827495+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M121212"
+  ],
+  "started_utc": "2026-11-21T04:00:31.289618+00:00",
+  "ended_utc": "2026-11-21T04:03:37.683821+00:00",
+  "elapsed_seconds": 186.4,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 4236100
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CartanDecompositionLieAlgebraStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9454ca715803f7863b4e147996b1100b3c81c10c9354886af3aebf5e652ce324",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CartanDecompositionLieAlgebra"
+  ],
+  "objects": {
+    "M121212": "2451b0beea7a2062cc1fab14da58e9bfd2adfef745cb9c82addb5186d6192b6c"
+  },
+  "bundle_sha256": "ca3772bc5f9ec66663e22b0bb5862f2e9f81b9144c83a09cc29595bdec7d51d9",
+  "packet": "M121212",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12319#issuecomment-7057013436",
+  "reviewed_utc": "2026-11-21T06:13:04.138105+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

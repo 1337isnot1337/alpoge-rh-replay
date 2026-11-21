@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M031078"
+  ],
+  "started_utc": "2026-11-21T02:12:33.219377+00:00",
+  "ended_utc": "2026-11-21T02:12:43.664884+00:00",
+  "elapsed_seconds": 9.9,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6750372
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteCardTorsionQuotSmulTopLePowFinrankStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "863921e8c42731c58f61cea3ef11c25f83943ae5503339bdee37e8b449d65f85",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteCardTorsionQuotSmulTopLePowFinrank"
+  ],
+  "objects": {
+    "M031078": "3c7830c72cf80e823718c2fecc559b874130c9e617635a25009b86d46e884704"
+  },
+  "bundle_sha256": "cb1a964f695a83388bd75e6ac6198397eeab8c1604539da9c82672d77b0f2ddf",
+  "packet": "M031078",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10794#issuecomment-7055730021",
+  "reviewed_utc": "2026-11-21T06:18:58.800861+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

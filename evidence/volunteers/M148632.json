@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M148632"
+  ],
+  "started_utc": "2026-11-21T00:49:27.705142+00:00",
+  "ended_utc": "2026-11-21T00:52:20.706724+00:00",
+  "elapsed_seconds": 173.0,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.GlobalTheory.GL3.CubicFields.EisensteinSeries.RemLipTermB:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 4766856
+  },
+  "source_sha256": "949a933b10f9c434c2ddd1e0edd80a6e45916a1ed133862a5be6b0f0e07043f9",
+  "log_sha256": "bf35832e980c94dce0c56e3c041b8e56e9c185b22569fcaed5d0698f0b7c6bdc",
+  "objects": {
+    "M148632": "a83ee67cadb6997fd5f7d47948aa2295c3d0de0e0db9fa4384ec1aab7b4e1467"
+  },
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.GlobalTheory.GL3.CubicFields.EisensteinSeries.RemLipTermA"
+  ],
+  "bundle_sha256": "3438d8c6ec083a257b87bb3d315017c31737922de4445605274bdde2628b6731",
+  "packet": "M148632",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8484#issuecomment-7054588159",
+  "reviewed_utc": "2026-11-21T06:26:34.872685+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

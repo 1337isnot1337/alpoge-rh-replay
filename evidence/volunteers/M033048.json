@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M033048"
+  ],
+  "started_utc": "2026-11-21T05:27:26.310267+00:00",
+  "ended_utc": "2026-11-21T05:33:37.157234+00:00",
+  "elapsed_seconds": 370.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 3688444
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FrobLiftLocalization:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c7e9250e3420d8435807fe9b8d9b3b59384ef06511e0764b30064cf8acdbfbf0",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.IsFlatLift",
+    "Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.IsIsoTermComparisonRestrictScalars"
+  ],
+  "objects": {
+    "M033048": "515c19b0a3ea012dc266d779b8cce4be4a535c84083ba0e377717959d6d07ba7"
+  },
+  "bundle_sha256": "2f16beb2a1072a09d850b966cedefb8dee229f9428846db6527c98fe11851c2f",
+  "packet": "M033048",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13841#issuecomment-7058004637",
+  "reviewed_utc": "2026-11-21T06:06:23.693533+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

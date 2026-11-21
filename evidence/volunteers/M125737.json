@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M125737"
+  ],
+  "started_utc": "2026-11-21T04:54:04.315871+00:00",
+  "ended_utc": "2026-11-21T04:54:22.428543+00:00",
+  "elapsed_seconds": 18.1,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6750072
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MeasurableZeroCountStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ecf71714ea4dbd390874503c82cefb4fa2bfcc885eaa1003098d46f50edfd3db",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.JoinCol",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MeasurableZeroCount",
+    "ReciprocityTheory.L2DbarEstimates.IsLocalHomeomorph"
+  ],
+  "objects": {
+    "M125737": "c261dd2e79b9982e8fddfee96e945827240a0af7c81bad7f03d4bd37866db2f0"
+  },
+  "bundle_sha256": "0f0dbdfdb636ae726134264ecec404e7a85b11f8f40768b3bece4fa4f983090f",
+  "packet": "M125737",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13146#issuecomment-7057564311",
+  "reviewed_utc": "2026-11-21T06:09:53.903969+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

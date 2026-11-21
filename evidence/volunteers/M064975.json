@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M064975"
+  ],
+  "started_utc": "2026-11-21T04:48:57.623522+00:00",
+  "ended_utc": "2026-11-21T04:49:11.998447+00:00",
+  "elapsed_seconds": 14.4,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6929592
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.GoodLiftEqIdempotentLift:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "bba6611ace9bd996fccc3fa2ae1074ac8b0a6e68221757ac2aaa56bd48f6ab1c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.CmThetaOperatorInvariantOfLiftCongrOne"
+  ],
+  "objects": {
+    "M064975": "7bb271821ddb03eecec50af6c85f3cb290a023dbb9fba1b0956307d55948d98e"
+  },
+  "bundle_sha256": "3024b0f9d2861b0f75636a0d312e4f2869c7f5195fdec8e54d598b40ceb64758",
+  "packet": "M064975",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12979#issuecomment-7057536010",
+  "reviewed_utc": "2026-11-21T06:10:31.409964+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

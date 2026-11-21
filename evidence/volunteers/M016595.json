@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M016595"
+  ],
+  "started_utc": "2026-11-21T05:54:19.322837+00:00",
+  "ended_utc": "2026-11-21T05:59:49.651605+00:00",
+  "elapsed_seconds": 330.3,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 6262144
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryNormZeroIffOpenCompl:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0cba0b3999b4a0e8373e5beee1e2da6e618e54785f4ab2ac04b3389689cce114",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ModelDdcForms",
+    "ReciprocityTheory.AnalyticForms.MaIntEmpty",
+    "ReciprocityTheory.AnalyticForms.PotentialTheory.IsPotentialOfFun"
+  ],
+  "objects": {
+    "M016595": "77caad9188dbc3f467cbd03b287657a98d106eb0efc1bebebac1d8faa1d5b8e4"
+  },
+  "bundle_sha256": "caa5fb280bd1cc8d8c02cdd932ae7115250c27e11a7d95df8baeaeed01dbb891",
+  "packet": "M016595",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14486#issuecomment-7058310435",
+  "reviewed_utc": "2026-11-21T06:04:12.832230+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

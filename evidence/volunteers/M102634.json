@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M102634"
+  ],
+  "started_utc": "2026-11-21T01:16:45.312059+00:00",
+  "ended_utc": "2026-11-21T01:17:01.761332+00:00",
+  "elapsed_seconds": 16.4,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6848072
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.HhSmall:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4a79635b936f85c65b56052bffcb948c553c9344f9ef16d9a9280bbf66c8f9d8",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.FramedTwoCoboundaries",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.ResMapBijective"
+  ],
+  "objects": {
+    "M102634": "7e79ec0796beb632046e3ac74031c32b322b2b0e168bebebf9d5d37cce6dde20"
+  },
+  "bundle_sha256": "5a6dbc7a1f809f29f3a08e966da368cd2f657467f66c40a117eb8e857198c2a6",
+  "packet": "M102634",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9036#issuecomment-7054972438",
+  "reviewed_utc": "2026-11-21T06:25:00.922866+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

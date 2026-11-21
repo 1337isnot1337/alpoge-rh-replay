@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M049641"
+  ],
+  "started_utc": "2026-11-21T04:56:53.286618+00:00",
+  "ended_utc": "2026-11-21T05:03:16.812263+00:00",
+  "elapsed_seconds": 383.5,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 4283748
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SemidirectMeasureRestrictionNormalPartStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4f274892795952ea3de9f31ba133575508a758eb1c826c4d2c6804297a2efa94",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SemidirectMeasureRestrictionNormalPart",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SupMeas"
+  ],
+  "objects": {
+    "M049641": "551060e0c24fcaae75fe832bf3d931de62816db95171cf43ce9b12a7f8b1fc11"
+  },
+  "bundle_sha256": "7b7443f633bfd89a884be3386f9ca520021340a4e2d4695ee36c2efc6b52e631",
+  "packet": "M049641",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13199#issuecomment-7057653065",
+  "reviewed_utc": "2026-11-21T06:09:35.562312+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

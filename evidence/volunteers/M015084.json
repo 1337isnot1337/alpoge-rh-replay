@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M015084"
+  ],
+  "started_utc": "2026-11-21T01:55:13.029352+00:00",
+  "ended_utc": "2026-11-21T01:55:22.088966+00:00",
+  "elapsed_seconds": 9.1,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6800912
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdjoinMatrixReducedOfCharpolySeparableStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e67b561335cfc0a6108f0bae17b5e811d705d5c337fc2d1b572c04dad506f3a3",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdjoinMatrixReducedOfCharpolySeparable"
+  ],
+  "objects": {
+    "M015084": "427183f0678c3902ea24df17dba4de658f58fed2fc0c66524a29c926c524e7e5"
+  },
+  "bundle_sha256": "9616ccf4b45c88f3ca006545879a6d751beaa46d24d9e15fa2a4890ad5e77552",
+  "packet": "M015084",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10224#issuecomment-7055560325",
+  "reviewed_utc": "2026-11-21T06:20:52.844770+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

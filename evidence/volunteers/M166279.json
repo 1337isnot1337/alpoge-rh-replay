@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M166279"
+  ],
+  "started_utc": "2026-11-21T05:45:14.274100+00:00",
+  "ended_utc": "2026-11-21T05:45:33.728043+00:00",
+  "elapsed_seconds": 19.5,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6645804
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.HeightKernels.PSymplDetBound:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2f251c984972d511e3e1b74b011784c51991a652e79c2d47a15a340148807652",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.HeightKernels.StatementsSympl",
+    "GroundTheory.HeightsAndTheta.Heights.KernelsMatrix"
+  ],
+  "objects": {
+    "M166279": "6a987ad65c6c7b464e558f196edf55ccf1ef14cb27bc3b83acfcd734de289b3a"
+  },
+  "bundle_sha256": "24199a04f2777848019facbfd2b860324d6245773babac2b5a0f4f28f5b36a9e",
+  "packet": "M166279",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14268#issuecomment-7058145078",
+  "reviewed_utc": "2026-11-21T06:04:49.813173+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

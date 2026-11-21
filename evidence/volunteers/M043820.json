@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M043820"
+  ],
+  "started_utc": "2026-11-21T04:53:51.162298+00:00",
+  "ended_utc": "2026-11-21T04:55:30.378621+00:00",
+  "elapsed_seconds": 99.2,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 5722532
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.MoritaNonemptyEquivOfLocalQuotientMatrixStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2d1caa915f560d3d4831974ec3d27f1cb70167e820dc8db6aa079e2c07d36bb7",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MoritaNonemptyEquivOfLocalQuotientMatrix",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SpanEqTopIffDense"
+  ],
+  "objects": {
+    "M043820": "5dc691ce51237bab079a82faa93ad1d4a183421d902ed4231a4a6c55d22b7722"
+  },
+  "bundle_sha256": "bae04954f5e4ef6aa762837e4d67801bd7c483a29b0c9f9769f0733abdc4d382",
+  "packet": "M043820",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12938#issuecomment-7057573528",
+  "reviewed_utc": "2026-11-21T06:10:43.873229+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

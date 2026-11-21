@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M021542"
+  ],
+  "started_utc": "2026-11-21T05:45:42.695294+00:00",
+  "ended_utc": "2026-11-21T05:47:06.517092+00:00",
+  "elapsed_seconds": 83.8,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 4745476
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivisorsOfConstantsClosedPointsOfOrigin:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "eff3ff2d749b7e9bff2bd349775ecf9412fe72358fa6acf98aa6528b824dcc71",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DivConstClosedPts"
+  ],
+  "objects": {
+    "M021542": "b4bdadaf09ca9a9032f2287e4c43498e448f2dce8569598d288095ef9564cc7d"
+  },
+  "bundle_sha256": "dc493701e8c2ba98b58cd054ec3a065ffeaabbaba32e74e5a1660d6c44132aea",
+  "packet": "M021542",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14239#issuecomment-7058164004",
+  "reviewed_utc": "2026-11-21T06:04:56.652898+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

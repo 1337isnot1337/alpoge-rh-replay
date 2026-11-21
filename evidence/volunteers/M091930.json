@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M091930"
+  ],
+  "started_utc": "2026-11-21T05:13:02.404111+00:00",
+  "ended_utc": "2026-11-21T05:13:23.472699+00:00",
+  "elapsed_seconds": 21.1,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6640156
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.AedisjointPairGroupSmulShearedDomainStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c9b8ec1288a60416c1e8d62d2e970afed6d76604626aa09e483a69fddbe44aef",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.AedisjointPairGroupSmulShearedDomain",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.NullMeasurableSetShearImage"
+  ],
+  "objects": {
+    "M091930": "d8799bac262226eac4abb81d51ec0529c2a6d4735ff724c2734967246c8aca96"
+  },
+  "bundle_sha256": "032ba48e67979e1bcda45c34c47b5f84de4c0fe94d2ec9f49a4973c9f877f53e",
+  "packet": "M091930",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13561#issuecomment-7057763759",
+  "reviewed_utc": "2026-11-21T06:07:59.813834+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

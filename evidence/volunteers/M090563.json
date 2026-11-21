@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M090563"
+  ],
+  "started_utc": "2026-11-21T05:40:41.444292+00:00",
+  "ended_utc": "2026-11-21T05:41:15.553135+00:00",
+  "elapsed_seconds": 34.1,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6898184
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.DifferentiableAtDerivAtZero:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d67c645bfe4cfcf5ae42e91a03f6bc59d4405684795cea10308105cf498208af",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsLieBasis",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ThickTransComp"
+  ],
+  "objects": {
+    "M090563": "38dbca0e6486fda9eb1a44591862e0e90a327a610fbbfd4d1eb1a7964115e798"
+  },
+  "bundle_sha256": "a3a602dc23c1ff949bff166b00cd61d4d59afd74cda2cde306832753e8c39130",
+  "packet": "M090563",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14285#issuecomment-7058163874",
+  "reviewed_utc": "2026-11-21T06:04:46.946061+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

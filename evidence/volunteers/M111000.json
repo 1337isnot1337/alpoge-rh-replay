@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M111000"
+  ],
+  "started_utc": "2026-11-21T04:15:29.367431+00:00",
+  "ended_utc": "2026-11-21T04:15:46.829806+00:00",
+  "elapsed_seconds": 17.5,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 5513240
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.Foundations.Convolution.PolynomialCoefficientBounds.GenRed:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c97a2930d3e2c746dc09d286bdfe9b216ce720b92d1a7338f46bbf12f23070b1",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.Foundations.Convolution.PolynomialCoefficientBounds.MatrixEntryAbsSumUnitaryLieCoordinatesSplit"
+  ],
+  "objects": {
+    "M111000": "88d32819f30bea8e89f24cf717b1c75c2c8d5dac6e963f7e473a25872ecee254"
+  },
+  "bundle_sha256": "89e1c8d68d73fdf7b2ecb0661b431d7f27d684ec57fd494447e74411dcd013f6",
+  "packet": "M111000",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12545#issuecomment-7057140453",
+  "reviewed_utc": "2026-11-21T06:12:15.615204+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

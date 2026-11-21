@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M104529"
+  ],
+  "started_utc": "2026-11-21T03:18:09.119468+00:00",
+  "ended_utc": "2026-11-21T03:18:26.621499+00:00",
+  "elapsed_seconds": 17.5,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6284252
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.SeqChainBoundaryPrefixChain:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f2f2f5e49cb2483fdd091fca1750da6cbf27356cfa85099a930bc9b4134602d7",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SubClosed"
+  ],
+  "objects": {
+    "M104529": "0eb44f7a28211f45d1ec40f17fb6320ee362541971e9c2893ff4ff1ce5b60967"
+  },
+  "bundle_sha256": "5e3fad4665738ca61baf6686c83c4a3641fa0031ba7cc7eb5d9ec0054a94ded5",
+  "packet": "M104529",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11684#issuecomment-7056523513",
+  "reviewed_utc": "2026-11-21T06:15:37.028741+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

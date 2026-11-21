@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M026504"
+  ],
+  "started_utc": "2026-11-21T05:14:13.599671+00:00",
+  "ended_utc": "2026-11-21T05:23:36.034716+00:00",
+  "elapsed_seconds": 562.4,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 3468436
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvariantDerivationsQuotientBialgebraStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b41d92aa7169577de9df55271d643fc5590a6472632fc19c68f01d3f89b3a4f2",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvariantDerivationOfCounitalComul",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvariantDerivationsQuotientBialgebra"
+  ],
+  "objects": {
+    "M026504": "f9827a885d220f2ba0d34454f8acb17f5280bc85c45ee22a42e25d6eb7f0e4df"
+  },
+  "bundle_sha256": "a3785de498d0f87566e797bd7f62d2c7af3286895abef82c0f9112e9e316c1c8",
+  "packet": "M026504",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13482#issuecomment-7057889373",
+  "reviewed_utc": "2026-11-21T06:08:19.066975+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

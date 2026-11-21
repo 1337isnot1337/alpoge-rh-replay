@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M034586"
+  ],
+  "started_utc": "2026-11-21T01:15:34.429895+00:00",
+  "ended_utc": "2026-11-21T02:08:58.029520+00:00",
+  "elapsed_seconds": 3203.5,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 6927480
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasCompactSupportFlatIntegrand:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f332e01ad97f84efdab73cdfaa4b3022b5b72253b86d612f0e733386f9fa048d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.FlatTensorVacuum",
+    "Development.AbelianVarietyTheory.Definitions.Divisors.RankEqCardIffExistsFrameMatrixFirstColumnBlock"
+  ],
+  "objects": {
+    "M034586": "7a4c86859ab4090b29fa7b768c17fa7763c0e84b98f24fc218f3461249c77c49"
+  },
+  "bundle_sha256": "2c6e9567934d353ebc9598fefa79a23e0e160467536ce620b7fea89112c524c6",
+  "packet": "M034586",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9167#issuecomment-7055705186",
+  "reviewed_utc": "2026-11-21T06:24:35.352491+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

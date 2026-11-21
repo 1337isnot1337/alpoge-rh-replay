@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M115572"
+  ],
+  "started_utc": "2026-11-21T04:17:20.739618+00:00",
+  "ended_utc": "2026-11-21T04:49:55.533299+00:00",
+  "elapsed_seconds": 1954.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 5595056
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MulLinearAe:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b303dc81c793ee1b66e05cccf2b9ba11aa4839c53e8ba91a414b9144ef798582",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MultiplicationFunction",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MultiplicationNormBound"
+  ],
+  "objects": {
+    "M115572": "22fdb2daa51bcc331413d8c3555da8cded2d75f01410c45ec0b7e1ea798dc3c1"
+  },
+  "bundle_sha256": "55718f81a7894fc352d3cd182c849c05cfd3b2a058bcb0a793c2cd0266142e5a",
+  "packet": "M115572",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12612#issuecomment-7057513123",
+  "reviewed_utc": "2026-11-21T06:11:56.853540+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

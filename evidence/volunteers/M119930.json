@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M119930"
+  ],
+  "started_utc": "2026-11-21T05:28:25.486259+00:00",
+  "ended_utc": "2026-11-21T05:29:33.539987+00:00",
+  "elapsed_seconds": 68.1,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 53467180,
+    "peak_child_rss_kib": 6817396
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.AlgebraProofs.AlgClosedTensorIsDomainStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8158bc5eac2374e4fa8c2c3001f684761633892ee161c68b4527b88d6bb9d1af",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.AlgClosedTensorIsDomain",
+    "Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.TensorAlgebraicallyClosedDomain"
+  ],
+  "objects": {
+    "M119930": "70dfee3396e15a1bbd7b607bf10a981072387e58ac83b016bf4671357a27be71"
+  },
+  "bundle_sha256": "faf74c6e8782ee54c35bdf98709ea039c606cd234326cc7f6bf336b9b87379ef",
+  "packet": "M119930",
+  "contributor": "Sethumathavanpk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14000#issuecomment-7057954922",
+  "reviewed_utc": "2026-11-21T06:05:46.711979+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

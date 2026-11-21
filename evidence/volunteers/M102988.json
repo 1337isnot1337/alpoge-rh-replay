@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M102988"
+  ],
+  "started_utc": "2026-11-21T04:47:59.576746+00:00",
+  "ended_utc": "2026-11-21T04:48:09.479911+00:00",
+  "elapsed_seconds": 9.9,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6832376
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.CurveDVRSpecialization.FullEx:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7e8fbd397a4b27d7c6d3073c2f0a425d7c77a8632feb57643f92ac088eb4e75d",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CurveDVRSpecialization.ExpSums",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IrreducibleCoverForms"
+  ],
+  "objects": {
+    "M102988": "8c64c3062199c3573f97b1ba55003aafab2de4800b9f64ddb374de2097adb2d8"
+  },
+  "bundle_sha256": "5c2a22788436ed5c7231182fceed4a8ef5052ac669d1093a5308f51dc3bb2803",
+  "packet": "M102988",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12978#issuecomment-7057531580",
+  "reviewed_utc": "2026-11-21T06:10:31.394377+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

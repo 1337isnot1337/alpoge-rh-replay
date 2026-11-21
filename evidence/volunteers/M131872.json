@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M131872"
+  ],
+  "started_utc": "2026-11-21T04:22:05.640773+00:00",
+  "ended_utc": "2026-11-21T04:22:15.859478+00:00",
+  "elapsed_seconds": 10.2,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6841812
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.RegularLatticeLocalFree:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8c50c2db614b9cc97afa6ae59f6e8e19b77e8bab77f6a7fd6942eab70456bb31",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.LatticeSectionAlgebra"
+  ],
+  "objects": {
+    "M131872": "f6c4e815be2152e6c6d8f7394d574f136dc22fc05bc96cc7023098cb10cc69fd"
+  },
+  "bundle_sha256": "66f7d48a46f522d4043a1341c6b5b84d4607d4f206e63ae6df44752f9dc84f91",
+  "packet": "M131872",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12702#issuecomment-7057645402",
+  "reviewed_utc": "2026-11-21T06:11:34.241185+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

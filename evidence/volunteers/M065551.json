@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M065551"
+  ],
+  "started_utc": "2026-11-21T06:00:51.716193+00:00",
+  "ended_utc": "2026-11-21T06:01:22.326083+00:00",
+  "elapsed_seconds": 30.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5451836
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.SumIccThreeQuartersPowLe:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4a562fe166e53f982e10bc10c10e5c72a3a4666b2d5206a94caa55fdd08b72db",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.WeightedFejerPositivity",
+    "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.WeightedFejerPositivityStatement"
+  ],
+  "objects": {
+    "M065551": "9d2197b0cefefb74af8b8b9f621dbde05e866aca3a871b82e77e010ef62b24ca"
+  },
+  "bundle_sha256": "fab33e81bc03e350f51ef8e84a22eb93b7498a135643b1e2f6270f36316f03a2",
+  "packet": "M065551",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14509#issuecomment-7058337115",
+  "reviewed_utc": "2026-11-21T06:04:04.809223+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

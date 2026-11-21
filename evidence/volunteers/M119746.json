@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M119746"
+  ],
+  "started_utc": "2026-11-21T05:13:10.033850+00:00",
+  "ended_utc": "2026-11-21T05:13:46.630591+00:00",
+  "elapsed_seconds": 36.6,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6893120
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsChartOfLineBundle:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "59274990265cd8ab1d5947ef7111c1f13bee293ee185f1e6ee5264e45fa21054",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.CoordsAt",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.EtaleLocalizationAtPrimeTensorOfLowHeight",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsCptGen",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.Bundle"
+  ],
+  "objects": {
+    "M119746": "4f44e1bfc1a853973bb2e8e33661b1348f89899a326d5eebee2ef266da9e2342"
+  },
+  "bundle_sha256": "6fca46ce428068fe6c9aad57a5f9773c5e43e3cf21d1720864ccfe2acc5e49a5",
+  "packet": "M119746",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13548#issuecomment-7057784335",
+  "reviewed_utc": "2026-11-21T06:08:05.617924+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

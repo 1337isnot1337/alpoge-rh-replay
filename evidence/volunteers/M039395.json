@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M039395"
+  ],
+  "started_utc": "2026-11-21T04:53:14.471808+00:00",
+  "ended_utc": "2026-11-21T04:53:48.625989+00:00",
+  "elapsed_seconds": 33.5,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6828204
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedDerivativeBoundByPartials:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "48565314cc000569538814ba305f406c4801dfbbd7c80c3ea8fa0d67cc33ca22",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClmSupBound",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasTemperateGrowthElim"
+  ],
+  "objects": {
+    "M039395": "00276b40c8f8b710e612bc778746a3b019b826c21c17716e893ddd99724fd919"
+  },
+  "bundle_sha256": "2ff07f6a747c59728fb4c78fc78ea1d8147fb75fc839ba1ab52d28a8431812ef",
+  "packet": "M039395",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13009#issuecomment-7057667378",
+  "reviewed_utc": "2026-11-21T06:10:22.794236+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

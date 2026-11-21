@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M090243"
+  ],
+  "started_utc": "2026-11-21T01:47:54.929691+00:00",
+  "ended_utc": "2026-11-21T01:48:09.399604+00:00",
+  "elapsed_seconds": 13.9,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6863380
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.IsCosetQuadraticPhaseTestFunctionConjCharacterMu:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "594e13806581ea31cfabb964f07548fb2ce044c9807388a30c4832c14dcb6454",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.FinsumQuotientOfLe",
+    "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.RationalSchwartzBruhatAlgebraIntegralLinear"
+  ],
+  "objects": {
+    "M090243": "6b2272fffd7d11303f006021fde1aaf205e857cac7ce3ec902db1f8db403acf3"
+  },
+  "bundle_sha256": "2d0f92ff63ee21737f364ff14dad439e0859f92d8b3c2737bf06a6744bf0d9a2",
+  "packet": "M090243",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10032#issuecomment-7055402365",
+  "reviewed_utc": "2026-11-21T06:21:39.279604+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

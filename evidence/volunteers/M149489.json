@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M149489"
+  ],
+  "started_utc": "2026-11-21T05:15:24.472433+00:00",
+  "ended_utc": "2026-11-21T05:24:14.752942+00:00",
+  "elapsed_seconds": 530.3,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 3735208
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.IndefiniteReal.LevelTypeEquivalence.NormIterFderivApplyLe:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "06cba3e98e8a3dd3ec953f8875ffb9c2696bd0af265a58b0cee0b064f3c5eb3f",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.IndefiniteReal.LevelTypeEquivalence.IterSymmR",
+    "Formalism.LocalToGlobal.IndefiniteReal.LevelTypeEquivalence.SobSym"
+  ],
+  "objects": {
+    "M149489": "6f859671e2fe50d33609fc3c1bbca6596e59a6ddeda1b7a4c05d4ae3bff72754"
+  },
+  "bundle_sha256": "35a9c995c4114d12cbf7d8b291a9f56b2009c9fd02a6bafb738044d3a11a4e08",
+  "packet": "M149489",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13483#issuecomment-7057901559",
+  "reviewed_utc": "2026-11-21T06:08:18.968372+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

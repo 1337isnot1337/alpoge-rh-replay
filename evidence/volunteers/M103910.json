@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M103910"
+  ],
+  "started_utc": "2026-11-21T03:59:56.100893+00:00",
+  "ended_utc": "2026-11-21T04:02:46.385766+00:00",
+  "elapsed_seconds": 170.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 5249320
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.OrdinaryHeckeCharacters.DcGelfand:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "33df32937994fa8eaba4ee2b661b6bfc01adbe72d19e99364d24e620dec11b9e",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.ContinuousTorusCharacter",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FixedSubgroup"
+  ],
+  "objects": {
+    "M103910": "41a34894808b05b5aa4adc2b532c2306d3aaf12f9da6adf3c5349f65d9eb5863"
+  },
+  "bundle_sha256": "6da789bfe566960a693ef7025691eac564670821f385f51f20ddb39000a08f8d",
+  "packet": "M103910",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12284#issuecomment-7056998031",
+  "reviewed_utc": "2026-11-21T06:13:13.068853+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

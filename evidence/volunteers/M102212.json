@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M102212"
+  ],
+  "started_utc": "2026-11-21T05:08:17.198145+00:00",
+  "ended_utc": "2026-11-21T05:20:53.522210+00:00",
+  "elapsed_seconds": 756.2,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5594856
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.BuildingsResidueChars.ExistsNondegenerateRightInvariantFormOfCompactQu:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a78e9422d42ebef7632ec9b016bd111e2f4d3c071a94c965d38ee40fc2879ab7",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.EqZeroOfAeFundamentalDomainOfLeftInvariant",
+    "Formalism.LocalToGlobal.IndefiniteReal.LevelTypeEquivalence.FdomExistsAll",
+    "Lemmata.MiscLemmasB.Imports"
+  ],
+  "objects": {
+    "M102212": "b9122bea0b9d3a34ab16341006c54d4c0bb97feecae36c9ec7c3727542a15ea7"
+  },
+  "bundle_sha256": "cd2fa7db4a078a9563aa3619e7e0f1083215d3177408c84b4a602359416bceb8",
+  "packet": "M102212",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13042#issuecomment-7057852670",
+  "reviewed_utc": "2026-11-21T06:10:15.844979+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M033712"
+  ],
+  "started_utc": "2026-11-21T03:33:27.166925+00:00",
+  "ended_utc": "2026-11-21T03:33:33.148232+00:00",
+  "elapsed_seconds": 6.0,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6786544
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeomRegFibOfIsRegularRingTensorEssFiniteTypeStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "97930a5f31b1be1aa2d053ffd0876252c14fecbb6f1b4abe8f4f0467c9af31bc",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M033712": "f42bfc6f2ff3f1b2d5a84c956b51744d2a6a92b0b0b282789aadd4383dc38167"
+  },
+  "bundle_sha256": "2d2367eedb6d95e659e80d4d25a235eedb26edc0011e842e9213c4c0f095eacc",
+  "packet": "M033712",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11697#issuecomment-7056731971",
+  "reviewed_utc": "2026-11-21T06:15:34.251824+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M062714"
+  ],
+  "started_utc": "2026-11-21T00:47:20.667433+00:00",
+  "ended_utc": "2026-11-21T00:47:30.254645+00:00",
+  "elapsed_seconds": 9.6,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 24721248,
+    "peak_child_rss_kib": 6958280
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsIntegralOfForallMemDiscreteValuationSubring:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b52f8a24e157fffa5fa076a00b37f5c2b0fafae23c9b1f7f229e3403b6836fd0",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.RangeAlgebraMapEqIInfDiscreteValuationSubring"
+  ],
+  "objects": {
+    "M062714": "66d8ac3c13c0876516f4c25bc34ad59bfb2e6d09060ff4f383ac4aa2a84c1883"
+  },
+  "bundle_sha256": "0f1477b50dd9eb5fb1f036eaf663ee7a013111c71787292a065497143205b9b8",
+  "packet": "M062714",
+  "contributor": "ljagiello",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/8607#issuecomment-7054475553",
+  "reviewed_utc": "2026-11-21T06:26:26.203164+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M120685"
+  ],
+  "started_utc": "2026-11-21T01:34:57.669372+00:00",
+  "ended_utc": "2026-11-21T01:36:49.863832+00:00",
+  "elapsed_seconds": 112.2,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.AlgebraProofs.TelescopingCoordinateDifferenceStatement:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 4872380
+  },
+  "source_sha256": "3b94d3623fc8876eabe21374ae5f701728b91aa8493b7d7bd52c50b3eaa9e95b",
+  "log_sha256": "65eec95a6a13a6d132e1d6839d29c65c701bc943a4903839645c215652c469fc",
+  "objects": {
+    "M120685": "7043774a995dd6dd0bdd699a23d93537a37c4200d0f64370eba2a5131daae078"
+  },
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.TelescopingCoordinateDifference"
+  ],
+  "bundle_sha256": "febf577d5821e2535de84e4dfec815bdff6e0f2aa0c3e51cc7125ed805b80490",
+  "packet": "M120685",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/9794#issuecomment-7055266304",
+  "reviewed_utc": "2026-11-21T06:22:29.416751+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

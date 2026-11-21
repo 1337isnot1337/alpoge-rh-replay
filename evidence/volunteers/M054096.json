@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M054096"
+  ],
+  "started_utc": "2026-11-21T03:59:55.940580+00:00",
+  "ended_utc": "2026-11-21T04:02:45.235736+00:00",
+  "elapsed_seconds": 168.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 5227068
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.TranslationInvariantFunctionalLinearZero:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ddee20fdceb500332bc54f536c3d6bc2b6537d49026142bca4cac81c5e96d89c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdentityAsSumExpMinusOne",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdentityAsSumExpMinusOneStatement"
+  ],
+  "objects": {
+    "M054096": "da6daea4f25161c2f9fd3c89b9ec66454955a13bfecaa843598c7ea0eedcecf2"
+  },
+  "bundle_sha256": "570f1184bb8e65d18be29a7ae48dfd9066f4e7f6117e35ead41ae403360ad244",
+  "packet": "M054096",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12286#issuecomment-7056998991",
+  "reviewed_utc": "2026-11-21T06:13:12.687682+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

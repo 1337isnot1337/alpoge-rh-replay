@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M120172"
+  ],
+  "started_utc": "2026-11-21T03:10:38.911313+00:00",
+  "ended_utc": "2026-11-21T03:11:05.058426+00:00",
+  "elapsed_seconds": 26.1,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6345232
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.AlgebraProofs.FixedByAutomorphismsMemField:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "bceb9be456e05b2feda396584bebd383fb4fbf93edb3f6d9197409aac9ad6a52",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ExtensionEmbeddings.ExtEmb"
+  ],
+  "objects": {
+    "M120172": "53b6287ad533bcad66efeefcc766da01e62add81aeb40de02758bdd79ccb7209"
+  },
+  "bundle_sha256": "8438cfb4f7eaf301cab6d6ec552f26ef4d84fadf2c1d5febcef723f59420adac",
+  "packet": "M120172",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11599#issuecomment-7056430939",
+  "reviewed_utc": "2026-11-21T06:15:58.333869+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

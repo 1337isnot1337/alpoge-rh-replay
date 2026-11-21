@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M116053"
+  ],
+  "started_utc": "2026-11-21T02:06:32.177828+00:00",
+  "ended_utc": "2026-11-21T02:06:59.704751+00:00",
+  "elapsed_seconds": 27.5,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 23809704,
+    "peak_child_rss_kib": 6898708
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.PrimeDiscriminants.SlopeTestRemainingChoices:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6099cb866d23ce8866ef60504348b423da9534978f06eef093059a861207eb1b",
+  "rebuilt_project_modules": [
+    "Formalism.FrobeniusOrbits.Statement",
+    "Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.ConjEMemHostFIff",
+    "Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.PrimePairSizeCondition",
+    "Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.ZsmulGeneratorEqZeroOfProjection",
+    "Formalism.TameInertiaTowers.StatementField",
+    "Formalism.TameInertiaTowers.StatementGroup"
+  ],
+  "objects": {
+    "M116053": "1a86af666db00bdd2543d354b7cfcc259b14488a64ae87724b054470b37c730f"
+  },
+  "bundle_sha256": "188cfc2f9858fdf94285ed89a1b7d3834aca956c30c625e7e6e88f67b61acd76",
+  "packet": "M116053",
+  "contributor": "matan1905",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10602#issuecomment-7055647316",
+  "reviewed_utc": "2026-11-21T06:19:38.490105+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

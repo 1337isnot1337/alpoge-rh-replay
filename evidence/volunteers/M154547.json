@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M154547"
+  ],
+  "started_utc": "2026-11-21T05:44:29.152802+00:00",
+  "ended_utc": "2026-11-21T05:44:50.708910+00:00",
+  "elapsed_seconds": 21.6,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6633324
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CommutingMultiplicity.IntegrableEntry:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9812b93aa1a787e277d4f1245831b782adc14d6f9d32fbf7862a0028fe60f8e5",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.UMultOne",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CommutingMultiplicity.SchurStep"
+  ],
+  "objects": {
+    "M154547": "d364f769b7e94d6acda5b654c863918653f3e16fd71eca1191fbdb2587a9982b"
+  },
+  "bundle_sha256": "d40247b6bd11f3a39e3bd9161a599a997846a1e66127ef1e1c0ea34a766e8817",
+  "packet": "M154547",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/14265#issuecomment-7058135370",
+  "reviewed_utc": "2026-11-21T06:04:50.772633+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M069442"
+  ],
+  "started_utc": "2026-11-21T02:58:25.118382+00:00",
+  "ended_utc": "2026-11-21T03:02:07.146523+00:00",
+  "elapsed_seconds": 222.0,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 4347528
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLowCoeffNotDvdOfCongrMulStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "49d5bf9f1b56a1fbb7f1a9a65c6c5194a8fed75975e4e7c74e9701f3bfcf51ac",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsLowCoeffNotDvdOfCongrMul"
+  ],
+  "objects": {
+    "M069442": "91e221a3b54d0451988f1073b68ae1482071d5a1c5da7c16814388c9ed46369f"
+  },
+  "bundle_sha256": "49159d71f8bddb20c24cb415ff1587241d884bac0de34a05cdb0c4b6dc57476f",
+  "packet": "M069442",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/11413#issuecomment-7056330503",
+  "reviewed_utc": "2026-11-21T06:16:46.403676+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

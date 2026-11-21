@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M140659"
+  ],
+  "started_utc": "2026-11-21T04:44:42.223745+00:00",
+  "ended_utc": "2026-11-21T04:57:24.349172+00:00",
+  "elapsed_seconds": 761.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 5660348
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CuspidalAdmissibility.OccPair:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "472645f64e17179716d3e61be65ed646dad6a32c840f966b290b384d64666359",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.StabilizerOf",
+    "GroundTheory.AutomorphicForms.LocallyProfinite",
+    "GroundTheory.AutomorphicForms.SmoothRep"
+  ],
+  "objects": {
+    "M140659": "29a8856ddfe18877d8c874de0510e98421d2fc164d9dd7a592284a2866dcccfa"
+  },
+  "bundle_sha256": "8bd64fcbe58197ac178f93d1365826b1cfda68d4639fdcd5290069034e6d8b11",
+  "packet": "M140659",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13004#issuecomment-7057589729",
+  "reviewed_utc": "2026-11-21T06:10:24.014843+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

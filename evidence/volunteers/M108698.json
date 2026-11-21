@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M108698"
+  ],
+  "started_utc": "2026-11-21T04:56:00.536090+00:00",
+  "ended_utc": "2026-11-21T05:01:29.336457+00:00",
+  "elapsed_seconds": 328.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 16137536,
+    "peak_child_rss_kib": 4811596
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.UnitaryThreeGroups.ExistsLieElementMiddleBlockPart:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fe43b2ff11e7709cd9dea0070447f0c882600959913b8383d855914dd8b74ca0",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.UnitaryThreeGroups.BaseRepGL3NormalisedOfPsiEqOne",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.UnitaryThreeGroups.UnitaryThreeReflectionRight"
+  ],
+  "objects": {
+    "M108698": "12a0ac3bd745301473f562290196d322a4b8ebed0268d7c88051ec0897210678"
+  },
+  "bundle_sha256": "e19ead55e297f587931a92c5b5187301ddcc6da7a059005aca366f9601ffda2d",
+  "packet": "M108698",
+  "contributor": "galakurpi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13179#issuecomment-7057632826",
+  "reviewed_utc": "2026-11-21T06:09:43.992951+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M065073"
+  ],
+  "started_utc": "2026-11-21T04:54:08.583634+00:00",
+  "ended_utc": "2026-11-21T04:54:19.353350+00:00",
+  "elapsed_seconds": 10.1,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32863404,
+    "peak_child_rss_kib": 6836672
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.IsFibreFamilyEqAtContinuityPointStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d25f59710f37d338d2328291cbcb800aa919b054e66140b0cf4ce15d5f8a0486",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.IsFibreFamilyEqAtContinuityPoint"
+  ],
+  "objects": {
+    "M065073": "9d0b79eb4b9572d208fd69df50c79117958e36e9cfcc86f7ea82db43f4bcb784"
+  },
+  "bundle_sha256": "45b0dda2afaf22374fba93d974929a9b83597140eaca25c40d6d1a320d88e2ba",
+  "packet": "M065073",
+  "contributor": "BouquetAntoine",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13038#issuecomment-7057806728",
+  "reviewed_utc": "2026-11-21T06:10:16.968069+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,65 @@
+{
+  "tasks": [
+    "M134565"
+  ],
+  "started_utc": "2026-11-21T01:45:41.518671+00:00",
+  "ended_utc": "2026-11-21T01:53:08.164650+00:00",
+  "elapsed_seconds": 446.6,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 65758100,
+    "peak_child_rss_kib": 6863612
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.MetricProofs.UniformisedDegreePolynomialAntisymmetricStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fa8eece49c42cddc51a96b36dadd826049585b8c97845d63bea179826587a131",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.MetricPeriods.GeometricAbelianConnected",
+    "Development.AutomorphicSpectrum.Definitions.MetricPeriods.InFlagDomainOne",
+    "Development.AutomorphicSpectrum.Definitions.MetricPeriods.IsTwiceDifferentiableAt",
+    "Development.AutomorphicSpectrum.Definitions.MetricPeriods.MetricsProjectionFormulaNef",
+    "Development.AutomorphicSpectrum.Definitions.MetricPeriods.PairRelationOfScaledRatio",
+    "Development.AutomorphicSpectrum.Definitions.MetricPeriods.Pull1",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.AnalyticSystemRegularityProperties",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.FlagPotentialLeviFormCell",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.FlagPotentialLeviFormCellStatement",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.GramLogUnitaryTriangularInvariance",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.GramLogUnitaryTriangularInvarianceStatement",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinors",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.IsOpenFlagDomainNondegenerateMinorsStatement",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBound",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.LogDetComparableGramBoundStatement",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.MongeAmpereDensityDiagonalLevi",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.MongeAmpereDensityDiagonalLeviStatement",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.MongeAmpereIntegralMultilinearExpansion",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.MongeAmpereSingularTotalMassDegree",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.UniformisedDegreePolynomialAntisymmetric",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.UniformisedPotentialIntegralFormula",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.UniformisedPotentialIntegralFormulaStatement",
+    "Development.AutomorphicSpectrum.Statements.MetricStatements.AgreementIffGuarded",
+    "Development.WeilBound.CoreStatements.PluriharmonicCharts.LeviDiagonalOfIsPeriodChart",
+    "Development.WeilBound.CoreStatements.PluriharmonicCharts.XPerCell",
+    "Development.WeilBound.CoreStatements.PluriharmonicCharts.XPerInt",
+    "Development.WeilBound.CoreStatements.PluriharmonicCharts.XPerPoint",
+    "Development.WeilBound.CoreStatements.PluriharmonicCharts.XPolyDelta",
+    "ReciprocityTheory.AnalyticForms.LeviForms.HomDens",
+    "ReciprocityTheory.AnalyticForms.LeviForms.HomDensA",
+    "ReciprocityTheory.AnalyticForms.LeviForms.HomDensB"
+  ],
+  "objects": {
+    "M134565": "d74af5b49f7fc4e43cecb9609ac6d9600fdfabb1318abc81530129b0238ca294"
+  },
+  "bundle_sha256": "a32d837769f3099dfa91fdb4a07d697ac779c4e2cf4474a1c67ee34bd9f619f2",
+  "packet": "M134565",
+  "contributor": "emsi",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10042#issuecomment-7055477209",
+  "reviewed_utc": "2026-11-21T06:21:36.791379+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

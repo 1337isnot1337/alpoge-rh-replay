@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M044527"
+  ],
+  "started_utc": "2026-11-21T05:06:16.740449+00:00",
+  "ended_utc": "2026-11-21T05:06:36.562889+00:00",
+  "elapsed_seconds": 19.8,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 22550976,
+    "peak_child_rss_kib": 6638176
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormLeLintegralRayIteratedFDeriv:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d64ad46adbe8f2f709e057f66aa74d127f095c55665a91cb5fe6a3751f70b1e9",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormLeLintegralTaylorTailIteratedDeriv",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormLeLintegralTaylorTailIteratedDerivStatement"
+  ],
+  "objects": {
+    "M044527": "d48ab851f62e9764f8bc54c351a3efc452d3acd05bca60002b91f43cffef9bff"
+  },
+  "bundle_sha256": "d1cbb4c027b74217c5b93de04a83462514be1efc00b8fe13ad4ed35f1bda7d9a",
+  "packet": "M044527",
+  "contributor": "dhudakk",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/13311#issuecomment-7057685912",
+  "reviewed_utc": "2026-11-21T06:09:09.358657+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

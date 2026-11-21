@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M149232"
+  ],
+  "started_utc": "2026-11-21T04:16:57.228139+00:00",
+  "ended_utc": "2026-11-21T04:17:55.137279+00:00",
+  "elapsed_seconds": 57.9,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7046996
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.IndefiniteReal.BridgeColPts:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5c733e59e5f6448e502a8e078d009b0cd26473f55cf1f303b0cec58865549b1e",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.Columns.RowFormsAdelic",
+    "Formalism.LocalToGlobal.IndefiniteReal.BridgeCol"
+  ],
+  "objects": {
+    "M149232": "3c7782cc0bc47b798d47643ac46b83e60bdb3fe2d0b8a3229a9cb1e9234438b0"
+  },
+  "bundle_sha256": "8296bf3af1cda156bbef4a27a77feb821bb330ead320db56508927c3deba2f51",
+  "packet": "M149232",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/12508#issuecomment-7057227164",
+  "reviewed_utc": "2026-11-21T06:12:25.590830+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}
