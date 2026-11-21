@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SetIntegralLeOfExpanding",
+  "source_sha256": "772bb25f6c3d8252b8e45c4efabdbefce2827c78d037330932ff4113db367c66",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specify the measurable-level-set intersection in the existing expanding-map volume bound so the membership conjunctions infer correctly. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0021-lean436-20261121/packet-result.json"
+}

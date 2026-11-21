@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SchwartzSeminormTranslateSubLineDerivLe.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/SchwartzSeminormTranslateSubLineDerivLe.lean
+@@ -25,7 +25,7 @@
+       ext w
+       rw [fderiv_clm_apply ((hg1.differentiable (by simp)) y) (differentiableAt_const _)]
+       simp
+-      have h2le : minSmoothness ℝ 2 ≤ ∞ := by simp; exact WithTop.coe_le_coe.mpr le_top
++      have h2le : minSmoothness ℝ 2 ≤ ∞ := by simp
+       exact (ContDiffAt.isSymmSndFDerivAt (hg.contDiffAt (x := y)) h2le) w a
+     simp_rw [iteratedFDeriv_succ_apply_right]
+     rw [fderiv_clm_apply ((hdiff x).continuousMultilinear_apply_const _) (differentiableAt_const _)]

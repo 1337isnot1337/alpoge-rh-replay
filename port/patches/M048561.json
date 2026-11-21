@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RootModelPointHeightDegree",
+  "source_sha256": "b79611fd28b6d669bf85369af35921b4c0fb3f58e5df4a6050f6b7e6e87b2903",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Unfold Commute and SemiconjBy after the centralizer membership lemma so the original group-product rewrites apply. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0021-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SemilinearRankComparison",
+  "source_sha256": "cabc6d31a4ced7939f5c616069ead08fcb084b79f202dc3576974fff05dbd1f8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename Finsupp.finset_sum_apply to Finsupp.finsetSum_apply. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0021-lean436-20261121/packet-result.json"
+}
