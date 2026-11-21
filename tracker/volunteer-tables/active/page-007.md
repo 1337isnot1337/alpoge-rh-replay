@@ -4,12 +4,6 @@
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@dhudakk](https://github.com/dhudakk) | [M052658](https://github.com/rohanarun/alpoge-rh-replay/issues/21945) | Claimed |
-| [@dhudakk](https://github.com/dhudakk) | [M127967](https://github.com/rohanarun/alpoge-rh-replay/issues/21950) | Claimed |
-| [@dhudakk](https://github.com/dhudakk) | [M001360](https://github.com/rohanarun/alpoge-rh-replay/issues/21953) | Claimed |
-| [@TomMoeras](https://github.com/TomMoeras) | [P2459](https://github.com/rohanarun/alpoge-rh-replay/issues/22059) | Claimed |
-| [@TomMoeras](https://github.com/TomMoeras) | [P2485](https://github.com/rohanarun/alpoge-rh-replay/issues/22060) | Claimed |
-| [@TomMoeras](https://github.com/TomMoeras) | [P2481](https://github.com/rohanarun/alpoge-rh-replay/issues/22061) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M063784](https://github.com/rohanarun/alpoge-rh-replay/issues/22064) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M016672](https://github.com/rohanarun/alpoge-rh-replay/issues/22066) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M070380](https://github.com/rohanarun/alpoge-rh-replay/issues/22068) | Claimed |
@@ -31,7 +25,6 @@
 | [@mabdelazim](https://github.com/mabdelazim) | [M062140](https://github.com/rohanarun/alpoge-rh-replay/issues/22254) | Claimed |
 | [@mabdelazim](https://github.com/mabdelazim) | [M062151](https://github.com/rohanarun/alpoge-rh-replay/issues/22327) | Claimed |
 | [@mabdelazim](https://github.com/mabdelazim) | [M062155](https://github.com/rohanarun/alpoge-rh-replay/issues/22332) | Claimed |
-| [@surfyhou](https://github.com/surfyhou) | [P2307](https://github.com/rohanarun/alpoge-rh-replay/issues/22479) | Claimed |
 | [@rahulsundar477-star](https://github.com/rahulsundar477-star) | [P2725](https://github.com/rohanarun/alpoge-rh-replay/issues/22562) | Claimed |
 | [@surfyhou](https://github.com/surfyhou) | [P2293](https://github.com/rohanarun/alpoge-rh-replay/issues/22619) | Claimed |
 | [@RhizoNymph](https://github.com/RhizoNymph) | [P2832](https://github.com/rohanarun/alpoge-rh-replay/issues/22628) | Claimed |
@@ -53,9 +46,8 @@
 | [@dhudakk](https://github.com/dhudakk) | [M169969](https://github.com/rohanarun/alpoge-rh-replay/issues/22759) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M174475](https://github.com/rohanarun/alpoge-rh-replay/issues/22761) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M118857](https://github.com/rohanarun/alpoge-rh-replay/issues/22763) | Claimed |
-| [@emsi](https://github.com/emsi) | [P2423](https://github.com/rohanarun/alpoge-rh-replay/issues/22770) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P2264](https://github.com/rohanarun/alpoge-rh-replay/issues/22772) | Claimed |
-| [@emsi](https://github.com/emsi) | [P2588](https://github.com/rohanarun/alpoge-rh-replay/issues/22832) | Claimed |
 | [@surfyhou](https://github.com/surfyhou) | [P2457](https://github.com/rohanarun/alpoge-rh-replay/issues/22843) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P2274](https://github.com/rohanarun/alpoge-rh-replay/issues/22853) | Claimed |
 | [@surfyhou](https://github.com/surfyhou) | [P2557](https://github.com/rohanarun/alpoge-rh-replay/issues/22880) | Claimed |
+| [@JamCh01](https://github.com/JamCh01) | [P2286](https://github.com/rohanarun/alpoge-rh-replay/issues/22902) | Claimed |
+| [@hipotures](https://github.com/hipotures) | [P2275](https://github.com/rohanarun/alpoge-rh-replay/issues/22922) | Claimed |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M062721](https://github.com/rohanarun/alpoge-rh-replay/issues/22932) | Claimed |
