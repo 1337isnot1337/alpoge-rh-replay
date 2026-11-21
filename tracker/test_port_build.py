@@ -153,25 +153,65 @@ class PortBuildTest(unittest.TestCase):
             args.packet = 'M000003'
             with self.assertRaises(SystemExit):
                 port_build.cmd_check(args)
+            # A member may wait on another ready member of its own packet, as in port.py show --ready-only.
+            self.rows[2]['packet'] = 'P0002'
+            args.packet, built[:] = 'P0002', []
+            self.assertEqual(port_build.cmd_check(args), 0)
+            self.assertEqual(built, ['M000002', 'M000003'])
+
+    def test_reused_names_ignore_comments_and_other_identifiers(self):
+        text = ('/-- A doc comment about IsLattice\n  spanning two lines -/\n'
+                'theorem t : Submodule.IsLattice K M := by  -- not IsAddTorsionFree\n'
+                '  exact ⟨IsZLattice.x, isLattice_foo, h.IsLatticeish⟩\n'
+                'instance : IsMulTorsionFree G := inferInstance\n')
+        self.assertEqual(port_build.reused_names(text), [(3, 'IsLattice'), (5, 'IsMulTorsionFree')])
+
+    def test_check_warns_about_unchanged_modules_with_reused_names(self):
+        (self.tree / 'src/Base.lean').write_text('def L : Prop := Submodule.IsLattice K M\n')
+        self.rows[0]['source_sha256'] = sha((self.tree / 'src/Base.lean').read_bytes())
+        args = SimpleNamespace(packet='M000001', work=self.work, out=self.root / 'out', ready_only=False)
+        with patch.object(port_build.tasks, 'load', return_value=self.rows), \
+                patch.object(port_build, 'target', return_value={}), \
+                patch.object(port_build, 'toolchain'), \
+                patch.object(port_build, 'build', return_value=(0, 1.0)), \
+                contextlib.redirect_stdout(io.StringIO()) as output:
+            self.assertEqual(port_build.cmd_check(args), 0)
+        self.assertIn('line 1: IsLattice, whose pinned meaning is now Submodule.IsFullLattice', output.getvalue())
+        self.assertEqual(json.loads((self.root / 'out/results.json').read_text())[0]['reused_names'], ['1:IsLattice'])
+
+    def records(self, selection, note_map, reviewed=()):
+        pins = dict(lean='leanprover/lean4:v4.36.0', mathlib='new')
+        notes = self.root / 'notes.json'
+        notes.write_text(json.dumps(note_map))
+        args = SimpleNamespace(packet=selection, work=self.work, evidence='https://example.test/receipt.json',
+                               notes=notes, patches=None, force=False, reviewed=list(reviewed))
+        with patch.object(port_build.tasks, 'load', return_value=self.rows), \
+                patch.object(port_build, 'target', return_value=pins), \
+                contextlib.redirect_stdout(io.StringIO()):
+            port_build.cmd_records(args)
+        return pins
+
+    def test_records_refuse_unreviewed_reused_names_and_unsaved_edits(self):
+        (self.tree / 'src/Base.lean').write_text('def L : Prop := Submodule.IsLattice K M\n')
+        self.rows[0]['source_sha256'] = sha((self.tree / 'src/Base.lean').read_bytes())
+        with self.assertRaises(SystemExit) as refused:
+            self.records('M000001', {})
+        self.assertIn('M000001 line 1: IsLattice', str(refused.exception))
+        self.records('M000001', {}, reviewed=['M000001'])
+        self.assertEqual(json.loads((self.patches / 'M000001.json').read_text())['notes'], 'unchanged')
+        self.edit('src/Mid.lean', 'Base', 'Base\n-- edited')
+        with self.assertRaises(SystemExit) as refused:
+            self.records('M000002', {})
+        self.assertIn('has no patch', str(refused.exception))
 
     def test_records_pair_notes_with_patches(self):
-        pins = dict(lean='leanprover/lean4:v4.36.0', mathlib='new')
         (self.patches / 'M000002.patch').write_text('patch')
-        notes = self.root / 'notes.json'
-
-        def write(selection, note_map):
-            notes.write_text(json.dumps(note_map))
-            args = SimpleNamespace(packet=selection, evidence='https://example.test/receipt.json',
-                                   notes=notes, patches=None, force=False)
-            with patch.object(port_build.tasks, 'load', return_value=self.rows), \
-                    patch.object(port_build, 'target', return_value=pins), \
-                    contextlib.redirect_stdout(io.StringIO()):
-                port_build.cmd_records(args)
+        write = self.records
 
         for selection, note_map in [('M000002', {}), ('M000001', {'M000001': 'why'}), ('M000001', {'M000002': 'why'})]:
             with self.subTest(selection=selection, notes=note_map), self.assertRaises(SystemExit):
                 write(selection, note_map)
-        write('M000002', {'M000002': 'Renamed lemma.'})
+        pins = write('M000002', {'M000002': 'Renamed lemma.'})
         record = json.loads((self.patches / 'M000002.json').read_text())
         self.assertEqual((record['notes'], record['source_sha256'], record['lean']),
                          ('Renamed lemma.', self.rows[1]['source_sha256'], pins['lean']))

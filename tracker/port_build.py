@@ -4,7 +4,7 @@
   python3 tracker/port_build.py check P0123 WORK [--ready-only]  # build each module, list failures
   python3 tracker/port_build.py diff P0123 WORK               # write patches for edited modules
   python3 tracker/port_build.py reproduce P0123 WORK OUT      # fresh tree + patches, transcript, receipt
-  python3 tracker/port_build.py records P0123 --evidence URL  # write port/patches/<ID>.json records
+  python3 tracker/port_build.py records P0123 WORK --evidence URL  # write port/patches/<ID>.json
 
 WORK holds the verified archive parts, the Lean toolchain, the Mathlib cache and the
 port tree. Edit modules in WORK/lean/src, then `diff` turns the edits into patches
@@ -16,6 +16,7 @@ import datetime
 import io
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -25,12 +26,31 @@ import time
 from pathlib import Path
 
 import tasks
-from port import PATCHES, ROOT
-from validate_ports import validate_patch_content
+from port import PATCHES, ROOT, ready_members
+from validate_ports import BLOCK_COMMENT_RE, strip_lean_comments, validate_patch_content
 
 TARGET = ROOT / 'port' / 'target.json'
 PARTS = ROOT / 'parts.sha256'
 ARCHIVE_URL = 'https://alpo.ge/lean.tar.gz.'
+
+# Names Mathlib reused for a different notion between the pinned and target revisions,
+# with where the pinned meaning went. Unchanged text that mentions one can build and
+# still say something else on the target (#26196).
+REUSED_NAMES = {
+    'IsLattice': 'Submodule.IsFullLattice (the pinned IsLattice also required span_eq_top)',
+    'IsAddTorsionFree': 'HasUniqueDiv (the new IsAddTorsionFree adds an AddCommute hypothesis, '
+                        'so the meaning is kept in commutative monoids)',
+    'IsMulTorsionFree': 'HasUniqueRoots (the new IsMulTorsionFree adds a Commute hypothesis, '
+                        'so the meaning is kept in commutative monoids)',
+}
+REUSED_RE = re.compile(r'(?<![\w.])(?:[A-Z]\w*\.)*(' + '|'.join(REUSED_NAMES) + r')\b')
+
+
+def reused_names(text):
+    """Line numbers and names of reused Mathlib names in Lean code, ignoring comments."""
+    text = BLOCK_COMMENT_RE.sub(lambda m: '\n' * m.group().count('\n'), text)
+    return [(n, m.group(1)) for n, line in enumerate(text.splitlines(), 1)
+            for m in REUSED_RE.finditer(strip_lean_comments(line))]
 
 
 def target():
@@ -242,13 +262,13 @@ def cmd_check(args):
     by_id = {r['id']: r for r in rows}
     ported = {p.stem for p in PATCHES.glob('M*.json')}
     if args.ready_only:
-        # Members whose imports are not all ported yet cannot build against ported imports.
-        blocked = [r for r in members if any(i['id'] not in ported for i in imports_closure(by_id, [r]))]
-        if blocked:
-            print('Skipping members with unported imports:', ' '.join(r['id'] for r in blocked))
-        members = [r for r in members if r not in blocked]
+        ready = ready_members(members, ported)
+        skipped = [r['id'] for r in members if r not in ready]
+        if skipped:
+            print('Skipping members that are ported or wait for unported imports:', ' '.join(skipped))
+        members = ready
         if not members:
-            raise SystemExit('No member of the selection has all of its imports ported')
+            raise SystemExit('No member of the selection is ready to build')
     applied = sync_imports(tree, imports_closure(by_id, members), ported)
     if applied:
         print('Applied port patches to imports:', ' '.join(applied))
@@ -258,12 +278,18 @@ def cmd_check(args):
     for r in members:
         log = out / 'logs' / f"{r['id']}.log"
         status, seconds = build(tree, env, pins, r, log)
+        edited = tasks.digest(tree / source_relpath(r)) != r['source_sha256']
+        reused = [] if edited else reused_names((tree / source_relpath(r)).read_text())
         results.append(dict(id=r['id'], module=r['module'], exit_code=status, seconds=seconds,
-                            edited=tasks.digest(tree / source_relpath(r)) != r['source_sha256']))
+                            edited=edited, reused_names=[f'{n}:{name}' for n, name in reused]))
         if status:
             print(f"{r['id']} {r['module']} failed")
             for line in first_errors(log.read_text(errors='replace')):
                 print('    ' + line)
+        elif reused:
+            print(f"{r['id']} {r['module']} builds unchanged but mentions reused Mathlib names:")
+            for n, name in reused:
+                print(f'    line {n}: {name}, whose pinned meaning is now {REUSED_NAMES[name]}')
     (out / 'results.json').write_text(json.dumps(results, indent=2, ensure_ascii=False) + '\n')
     failed = sum(1 for r in results if r['exit_code'])
     print(f'{len(results) - failed} of {len(results)} modules built; logs in {out}')
@@ -383,7 +409,8 @@ def cmd_records(args):
     unknown = sorted(set(notes) - {r['id'] for r in members})
     if unknown:
         raise SystemExit('Notes for modules outside the selection: ' + ', '.join(unknown))
-    records = {}
+    tree = args.work.resolve() / 'lean'
+    records, flagged = {}, []
     for r in members:
         patched = (patches / f"{r['id']}.patch").exists()
         note = notes.get(r['id'], 'unchanged')
@@ -391,8 +418,18 @@ def cmd_records(args):
             raise SystemExit(f"{r['id']}: a patched module needs a note, and only a patched module can have one")
         if (PATCHES / f"{r['id']}.json").exists() and not args.force:
             raise SystemExit(f"{r['id']} already has a record; pass --force to replace it")
+        if not patched:
+            source = tree / source_relpath(r)
+            if tasks.digest(source) != r['source_sha256']:
+                raise SystemExit(f"{r['id']} is edited in {tree} but has no patch; run diff first")
+            if r['id'] not in args.reviewed:
+                flagged += [f"{r['id']} line {n}: {name}, whose pinned meaning is now {REUSED_NAMES[name]}"
+                            for n, name in reused_names(source.read_text())]
         records[r['id']] = dict(module=r['module'], source_sha256=r['source_sha256'], lean=pins['lean'],
                                 mathlib=pins['mathlib'], notes=note, evidence=args.evidence)
+    if flagged:
+        raise SystemExit('Unchanged modules mention reused Mathlib names. Patch them, or pass --reviewed ID '
+                         'once every use keeps its pinned meaning:\n  ' + '\n  '.join(flagged))
     for mid, record in records.items():
         if patches != PATCHES.resolve() and (patches / f'{mid}.patch').exists():
             shutil.copyfile(patches / f'{mid}.patch', PATCHES / f'{mid}.patch')
@@ -411,7 +448,7 @@ def main(argv=None):
     p.add_argument('work', type=Path)
     p.add_argument('--out', type=Path, help='logs and results folder (default WORK/check-<ID>)')
     p.add_argument('--ready-only', action='store_true',
-                   help='build only members whose project imports are all ported')
+                   help='build only the members port.py show --ready-only lists')
     p = sub.add_parser('diff', help='write patches for edited modules of a packet')
     p.add_argument('packet')
     p.add_argument('work', type=Path)
@@ -424,7 +461,10 @@ def main(argv=None):
     p.add_argument('--issue', type=int, help='Port issue number to record in the receipt')
     p = sub.add_parser('records', help='write port/patches/<ID>.json for every module of a packet')
     p.add_argument('packet')
+    p.add_argument('work', type=Path)
     p.add_argument('--evidence', required=True, help='URL of the published receipt')
+    p.add_argument('--reviewed', action='append', default=[], metavar='ID',
+                   help='record an unchanged module that mentions a reused Mathlib name')
     p.add_argument('--notes', type=Path, help='JSON object of module ID to note for patched modules')
     p.add_argument('--patches', type=Path, help="the packet's patch folder (default port/patches)")
     p.add_argument('--force', action='store_true', help='replace existing records')
