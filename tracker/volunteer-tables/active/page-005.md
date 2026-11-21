@@ -4,7 +4,6 @@
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@BenCaunt](https://github.com/BenCaunt) | [M108732](https://github.com/rohanarun/alpoge-rh-replay/issues/10035) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M108891](https://github.com/rohanarun/alpoge-rh-replay/issues/10040) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M108937](https://github.com/rohanarun/alpoge-rh-replay/issues/10063) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M109153](https://github.com/rohanarun/alpoge-rh-replay/issues/10078) | Claimed |
@@ -42,7 +41,6 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M155721](https://github.com/rohanarun/alpoge-rh-replay/issues/10574) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M111981](https://github.com/rohanarun/alpoge-rh-replay/issues/10576) | Claimed |
 | [@twaldin](https://github.com/twaldin) | [P1975](https://github.com/rohanarun/alpoge-rh-replay/issues/10758) | Claimed |
-| [@TomMoeras](https://github.com/TomMoeras) | [P1980](https://github.com/rohanarun/alpoge-rh-replay/issues/10817) | Claimed |
 | [@SeriousRising](https://github.com/SeriousRising) | [P1857](https://github.com/rohanarun/alpoge-rh-replay/issues/10824) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2028](https://github.com/rohanarun/alpoge-rh-replay/issues/10854) | Claimed |
 | [@HaqtanEfe](https://github.com/HaqtanEfe) | [M000523](https://github.com/rohanarun/alpoge-rh-replay/issues/10925) | Claimed |

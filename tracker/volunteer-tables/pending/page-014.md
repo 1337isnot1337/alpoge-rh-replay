@@ -4,6 +4,8 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M031632](https://github.com/rohanarun/alpoge-rh-replay/issues/11024#issuecomment-7055881420) | Pending review |
+| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M039732](https://github.com/rohanarun/alpoge-rh-replay/issues/11025#issuecomment-7055882960) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M005433](https://github.com/rohanarun/alpoge-rh-replay/issues/11026#issuecomment-7055884552) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M081547](https://github.com/rohanarun/alpoge-rh-replay/issues/11027#issuecomment-7055888097) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M153018](https://github.com/rohanarun/alpoge-rh-replay/issues/11028#issuecomment-7055889804) | Pending review |
