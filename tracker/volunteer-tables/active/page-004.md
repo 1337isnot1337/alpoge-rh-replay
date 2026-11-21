@@ -252,5 +252,5 @@
 | [@emsi](https://github.com/emsi) | [P1835](https://github.com/rohanarun/alpoge-rh-replay/issues/8696) | Claimed |
 | [@SeriousRising](https://github.com/SeriousRising) | [P1870](https://github.com/rohanarun/alpoge-rh-replay/issues/8750) | Claimed |
 | [@TOTOGT](https://github.com/TOTOGT) | [M161838](https://github.com/rohanarun/alpoge-rh-replay/issues/8776) | Claimed |
-| [@WorldianAI](https://github.com/WorldianAI) | [M073681](https://github.com/rohanarun/alpoge-rh-replay/issues/8791) | Claimed |
 | [@CubeJerry](https://github.com/CubeJerry) | [M005540](https://github.com/rohanarun/alpoge-rh-replay/issues/8961) | Claimed |
+| [@JamCh01](https://github.com/JamCh01) | [P1848](https://github.com/rohanarun/alpoge-rh-replay/issues/8973) | Claimed |
