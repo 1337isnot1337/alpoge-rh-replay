@@ -1,0 +1,8 @@
+{
+  "module": "Development.ResolutionOfSingularities.EmbeddedResolution.ResolutionDescent.GraphAlgebraStandardSmooth",
+  "source_sha256": "809bc19b88d888a9f51d77381a854cde85d0930507348d291e9bc6194a6b9c3e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0144-lean436-20261121/packet-result.json"
+}

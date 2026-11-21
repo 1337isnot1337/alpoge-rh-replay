@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.HomogeneousNonvanishing.TwGStd",
+  "source_sha256": "9001683809e8d1913efd5884f135c7939e6e6ac0c71415fd5648d2470d6810e1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0144-lean436-20261121/packet-result.json"
+}
