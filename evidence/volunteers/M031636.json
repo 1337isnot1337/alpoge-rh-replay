@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M031636"
+  ],
+  "started_utc": "2026-11-21T13:29:02.665888+00:00",
+  "ended_utc": "2026-11-21T13:29:22.577009+00:00",
+  "elapsed_seconds": 19.9,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6899016
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankJointWeightSpaceEqOfCharpolyStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "71e9bfe7cf2d0b884499b779309bc9f5871fa0a6838cf5b6ad46f6c1f993c030",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSeparatingElementRingHomModuleFiniteInt",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSeparatingElementRingHomModuleFiniteIntStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankJointWeightSpaceEqOfCharpoly"
+  ],
+  "objects": {
+    "M031636": "2f68c891b91139f8c0f1489dbaee41d2d07ba7be8e35a75580295bbab9f3d50c"
+  },
+  "bundle_sha256": "264d20af52c8fbf9f2dce8f3c7e85f0c6a4a4ada2931a38574022ed995413cbe",
+  "packet": "M031636",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21698#issuecomment-7063317076",
+  "reviewed_utc": "2026-11-21T17:43:56.358372+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

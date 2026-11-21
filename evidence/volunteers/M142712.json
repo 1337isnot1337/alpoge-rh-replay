@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M142712"
+  ],
+  "started_utc": "2026-11-21T13:42:02.924971+00:00",
+  "ended_utc": "2026-11-21T13:42:23.320015+00:00",
+  "elapsed_seconds": 20.4,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6886156
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.MinorFormulas.MinorCore:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "444c61f0e8c198e74a46734265fcb6f66b007d7f8cc55c0b50ffddc4302fe28e",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.MinorFormulas.MinorB",
+    "Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.MinorFormulas.MinorCoreA",
+    "Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.MinorFormulas.MinorDefs"
+  ],
+  "objects": {
+    "M142712": "f0be558d4c7624db445206229284d9db58d48ea5b3c68476b926297aa02f9a17"
+  },
+  "bundle_sha256": "c69e6bf55e1254a9ecbb138ac41d893946096aa65bfa80b8ce418022e6b1851e",
+  "packet": "M142712",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21786#issuecomment-7063511559",
+  "reviewed_utc": "2026-11-21T17:42:57.086030+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

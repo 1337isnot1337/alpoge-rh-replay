@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M122076"
+  ],
+  "started_utc": "2026-11-21T13:39:26.588931+00:00",
+  "ended_utc": "2026-11-21T13:39:42.573188+00:00",
+  "elapsed_seconds": 16.0,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6866464
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CrossingOfWallsAndHeights:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "361bb5fb89c6484a7d858a5811cd7a034d5688929e9da31b28d2a405da791f32",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CosetSeriesSummableShifted",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CosetSeriesSummableShiftedStatement",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.HolomorphicSeriesUniformTubeStatement"
+  ],
+  "objects": {
+    "M122076": "340e4c72c78248cfd9fbf9ce38839ab456fa6de6b60c3f5f343869b3dd4f653b"
+  },
+  "bundle_sha256": "e11e82e680accc12c22e9ef644137e4d068e9bce3bffbaa1d82b1f58fd5edbee",
+  "packet": "M122076",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21779#issuecomment-7063469723",
+  "reviewed_utc": "2026-11-21T17:43:07.061929+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

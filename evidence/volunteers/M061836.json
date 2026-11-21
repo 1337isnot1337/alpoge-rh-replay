@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M061836"
+  ],
+  "started_utc": "2026-11-21T13:34:11.466340+00:00",
+  "ended_utc": "2026-11-21T13:34:30.382129+00:00",
+  "elapsed_seconds": 18.9,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6884744
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsMapConstEqOfIsAlgClosed:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b427bc8dbd65a329ceec2c55fc785fd526afd7f12b6e822cdce36e308bced618",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.ExpUpper",
+    "Development.AbelianVarietyTheory.Definitions.Foundations.HahnPowOrderLeadingCoeff",
+    "Development.AbelianVarietyTheory.Definitions.Foundations.Mdl"
+  ],
+  "objects": {
+    "M061836": "d04731d1d80e95c73110e09534f598a129956de9e756d7da9c59f93b6d84d5fb"
+  },
+  "bundle_sha256": "7b4251f5280cabf4f641889ebd33e7599bd89a429605c1fd25c723aa8935e226",
+  "packet": "M061836",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21765#issuecomment-7063395390",
+  "reviewed_utc": "2026-11-21T17:43:12.929506+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

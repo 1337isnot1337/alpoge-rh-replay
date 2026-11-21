@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M031443"
+  ],
+  "started_utc": "2026-11-21T12:53:31.044347+00:00",
+  "ended_utc": "2026-11-21T12:53:40.270968+00:00",
+  "elapsed_seconds": 9.2,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6811736
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteQuotientOfIsLatLeStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "bbd36d192107d6a385bbaee1c2a4e1384d846029e44b4a26d8cb44ca3605ab38",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteQuotientOfIsLatLe"
+  ],
+  "objects": {
+    "M031443": "db436a998e471cd52601c97ae2b6173896253a2e645f1942a377a035f0b130bf"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "c573fa1800aeec184e16c39619184781fa2df812d776858a70afe04291c72637",
+  "packet": "M031443",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21856#issuecomment-7062931784",
+  "reviewed_utc": "2026-11-21T17:42:09.273903+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

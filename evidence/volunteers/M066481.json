@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M066481"
+  ],
+  "started_utc": "2026-11-21T12:38:58.419344+00:00",
+  "ended_utc": "2026-11-21T12:41:02.552204+00:00",
+  "elapsed_seconds": 124.1,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 4751508
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsBigOPowIffIteratedFDerivEqZero:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0475df8a9ed144dd8bd57dc1d4277d128c0ef0289812ba2bd38d822950d6a77f",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.MemUnitaryGroupIffIsIsometry",
+    "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsAddFundamentalDomainLatticeDomain",
+    "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.EqExpFderiv"
+  ],
+  "objects": {
+    "M066481": "4f8e8d5bd45d9ec97c411b372073135a73758028d650f001f3ccd4d28f7d10b8"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "449ea9fa18c2d6610ce23973d13e748f8b24d11919a463a04a1288a56864250a",
+  "packet": "M066481",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21630#issuecomment-7062740936",
+  "reviewed_utc": "2026-11-21T17:44:34.629559+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

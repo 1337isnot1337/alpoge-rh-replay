@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002905 | P0238 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.TransvMemZGam` | build-observed |
+| M002906 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.VVAlgebraMapNonneg` | volunteer-build-reviewed |
 | M002907 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ZeroNotAdmissibleOfRankPos` | volunteer-build-reviewed |
 | M002909 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.CubeMapTripleProductUnique` | volunteer-build-reviewed |
 | M002912 | P0393 | `Development.AbelianVarietyTheory.Counterexamples.ModuliSurvey.DominatesLiftUnique` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M003705 | P0393 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsNilDPOfCube` | wave-reused |
 | M003706 | P2320 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsNoetherianRingCompletedStalkSiegelFibrePower` | volunteer-build-reviewed |
 | M003707 | P1974 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPairOfIsTriple` | volunteer-build-reviewed |
-| M003709 | P0946 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPeriodHom` | build-observed |
-| M003710 | P1271 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPolAVSectionInverseImage` | build-observed |

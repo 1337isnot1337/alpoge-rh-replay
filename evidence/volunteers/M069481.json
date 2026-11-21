@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    "M069481"
+  ],
+  "started_utc": "2026-11-21T12:50:39.001855+00:00",
+  "ended_utc": "2026-11-21T12:50:57.594808+00:00",
+  "elapsed_seconds": 18.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6612740
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsMonicBasePolynomialRootNearDecompositionStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "294b1a0e395d8b378d7063dc1c529ad6ad0c678292d47394fb17dcb83015903d",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M069481": "2d0c4b93d7df47661d8d2f45b8d986e9691c3f7a50bdee80aa695b7398b1d4be"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "b8f913c2b9f8a104439177ffd93266a0f23b257e66cddcdbb1d4d978ce2c40f9",
+  "packet": "M069481",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21841#issuecomment-7062855035",
+  "reviewed_utc": "2026-11-21T17:42:23.445144+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

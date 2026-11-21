@@ -2,6 +2,28 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M012304 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwoLeOfLogPos` | volunteer-build-reviewed |
+| M012305 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwoLtCardResidueField` | volunteer-build-reviewed |
+| M012307 | P2034 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TypeDataLocalRelationStatement` | volunteer-build-reviewed |
+| M012308 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TypeDataUnitShiftRelation` | volunteer-build-reviewed |
+| M012309 | P2108 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TypeDataUnitShiftRelationStatement` | volunteer-build-reviewed |
+| M012312 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TypeFrameConjugationDecomposition` | volunteer-build-reviewed |
+| M012313 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TypeFrameConjugationDecompositionStatement` | volunteer-build-reviewed |
+| M012314 | P2067 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TypeIdxUnique` | volunteer-build-reviewed |
+| M012319 | P2067 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TypePrimesDisjoint` | volunteer-build-reviewed |
+| M012320 | P2081 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TypePrimesDisjointStatement` | volunteer-build-reviewed |
+| M012323 | P2108 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldNormBaseTermTranslate` | volunteer-build-reviewed |
+| M012326 | P2177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldedBesselContinuousLeftInvariant` | volunteer-build-reviewed |
+| M012328 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldedBesselJacobiIntegralAbsLe` | volunteer-build-reviewed |
+| M012329 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldedBesselJacobiIntegralAbsLeStatement` | volunteer-build-reviewed |
+| M012331 | P2177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldedBesselJacobiKernelLawsStatement` | volunteer-build-reviewed |
+| M012334 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldedFunctionEqBesselPeriodIntegrand` | volunteer-build-reviewed |
+| M012336 | P1995 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldedPeriodEqIntegralBesselPeriods` | volunteer-build-reviewed |
+| M012339 | P2034 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldedTermBasePointEqFlatMapPairingStatement` | volunteer-build-reviewed |
+| M012340 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingBasePointFourierJacobiGroup` | volunteer-build-reviewed |
+| M012342 | P0975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingIntegralEqFiniteSumOverNumberField` | volunteer-build-reviewed |
+| M012343 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingIntegralEqFiniteSumOverNumberFieldStatement` | volunteer-build-reviewed |
+| M012344 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingIntegralPositionOneEqFiniteSum` | volunteer-build-reviewed |
 | M012348 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingLevelsAndStepsHaarMeasuresExist` | volunteer-build-reviewed |
 | M012350 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingOnlyBaseGramRationalPointsContribute` | volunteer-build-reviewed |
 | M012351 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.UnfoldingOnlyBaseGramRationalPointsContributeStatement` | volunteer-build-reviewed |
@@ -380,25 +402,3 @@
 | M013055 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsoSection` | volunteer-build-reviewed |
 | M013056 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsoSpecialFibreTestGeometricTest` | volunteer-build-reviewed |
 | M013058 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsoSpecialise` | volunteer-build-reviewed |
-| M013063 | P1445 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsKernelPolarisationTrivialSpreadLocalisatioStatement` | volunteer-build-reviewed |
-| M013064 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLabelMapTorsionCharacters` | volunteer-build-reviewed |
-| M013065 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLabelMapTorsionCharactersStatement` | volunteer-build-reviewed |
-| M013066 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLabelOfPowEqOne` | volunteer-build-reviewed |
-| M013067 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLabelOfPowEqOneStatement` | volunteer-build-reviewed |
-| M013068 | P1714 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLbOfGeneratedSystem` | build-observed |
-| M013071 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLevelIso` | volunteer-build-reviewed |
-| M013074 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLevelPoint` | volunteer-build-reviewed |
-| M013075 | P0550 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLiftClosedImmersionOfDense` | build-observed |
-| M013076 | P1171 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLiftIntegralPointClosureTestModel` | wave-reused |
-| M013077 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLiftIntegralPointClosureTestModelStatement` | volunteer-build-reviewed |
-| M013081 | P1247 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLimitPointTateIsoSequenceStatement` | build-observed |
-| M013083 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLineBundleExtensionThetaSectionSemiAbelianStatement` | volunteer-build-reviewed |
-| M013087 | P1738 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLineBundleOfThickenings` | build-observed |
-| M013088 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLineBundleSectionsOfUnimodularTuples` | volunteer-build-reviewed |
-| M013091 | P1351 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLinearUniformisationBaseChangeAdmissibleStatement` | build-observed |
-| M013092 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLocalBasisAlong` | volunteer-build-reviewed |
-| M013094 | P0006 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLocalRingSecondVariable` | volunteer-build-reviewed |
-| M013095 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLocalSectionNeZeroOnFibres` | volunteer-build-reviewed |
-| M013096 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLocalSectionNeZeroOnFibresStatement` | volunteer-build-reviewed |
-| M013098 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLocalThetaSectionFibreNonzeroStatement` | volunteer-build-reviewed |
-| M013099 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsLogFrame` | volunteer-build-reviewed |

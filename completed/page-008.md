@@ -2,7 +2,22 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005127 | P0174 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsSubquotientDetRepParInd` | volunteer-build-reviewed |
+| M005129 | P0096 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsUnitarisableOfCharIff` | volunteer-build-reviewed |
+| M005130 | P1420 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsVacFOfIsVacVec` | volunteer-build-reviewed |
+| M005131 | P0003 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.LeviEmbMemNormalizerLower` | volunteer-build-reviewed |
+| M005132 | P1444 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.LowVanishFockOfLowVanish` | volunteer-build-reviewed |
+| M005133 | P1938 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.MemHalfCosetSelf` | build-observed |
+| M005138 | P1218 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.NotInSupportOfSubsingleton` | build-observed |
+| M005142 | P1531 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.PartFixed` | volunteer-build-reviewed |
+| M005143 | P1299 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.PartW` | volunteer-build-reviewed |
+| M005145 | P0758 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ProjExists` | volunteer-build-reviewed |
+| M005147 | P1395 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.SqNormIntegralFundamentalDomainEqL2NormSq` | volunteer-build-reviewed |
+| M005148 | P0295 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.StandardOrderExtendedBasisApplyLowBlock` | volunteer-build-reviewed |
+| M005151 | P1350 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.TupPrimeEmpty` | volunteer-build-reviewed |
+| M005152 | P1974 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.TwistPlacesOffPrimeQZero` | volunteer-build-reviewed |
 | M005153 | P0347 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.TypeChainPrincipalEntryNeZero` | volunteer-build-reviewed |
+| M005154 | P1444 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.UPartBot` | volunteer-build-reviewed |
 | M005155 | P0239 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ValuationDetOfMemKO` | build-observed |
 | M005159 | P1350 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.WittHyperbolicAnisotropicCommuteLevi` | build-observed |
 | M005162 | P0891 | `Development.AbelianVarietyTheory.Definitions.TwoChartAtlas.AdditionLawSecondIdentity` | build-observed |
@@ -287,6 +302,7 @@
 | M005505 | P0394 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsNormOneReflectionCorrectionAtLevelStatement` | build-observed |
 | M005506 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsNormalFormNonsquareAdicCompletion` | wave-reused |
 | M005507 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsNormaliseMeanSquareOfCocompact` | volunteer-build-reviewed |
+| M005508 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsNormaliseMeanSquareOfCocompactStatement` | volunteer-build-reviewed |
 | M005509 | P0003 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsNsmulMem` | volunteer-build-reviewed |
 | M005510 | P0003 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsNsmulMulVecMem` | volunteer-build-reviewed |
 | M005511 | P0678 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsPlaceIsSquareAndNotIsSquare` | wave-reused |
@@ -385,20 +401,4 @@
 | M005642 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HigherUnitsLeSquaresHigherUnits` | wave-reused |
 | M005643 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HigherUnitsLeSquaresHigherUnitsStatement` | wave-reused |
 | M005644 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.Hilbert90BaseChange` | volunteer-build-reviewed |
-| M005648 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.Hilbert90SUnitsQuadraticExtension` | wave-reused |
-| M005649 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.Hilbert90SUnitsQuadraticExtensionStatement` | wave-reused |
-| M005650 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HilbertFinitenessLeftInvariantMatrixPoly` | volunteer-build-reviewed |
-| M005654 | P0678 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IdealCharacterLContinuationNeZeroOne` | build-observed |
-| M005655 | P0616 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IdealCharacterLSeriesContinuation` | build-observed |
-| M005656 | P0550 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IdealSumPeriodicDilate` | build-observed |
-| M005657 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IdeleCongruenceUnitCriterion` | build-observed |
-| M005658 | P0582 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IdempotentAdelesAndSmallAdelicMatrices` | build-observed |
-| M005659 | P0616 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IdempotentAdelesAndSmallAdelicMatricesStatement` | build-observed |
-| M005660 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.Imports` | volunteer-build-reviewed |
-| M005661 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ImportsBis` | volunteer-build-reviewed |
-| M005662 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ImportsTer` | volunteer-build-reviewed |
-| M005663 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexFormulaNormsInvolution` | wave-reused |
-| M005664 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexFormulaNormsInvolutionStatement` | wave-reused |
-| M005665 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexRangeKerIterateEndomorphism` | wave-reused |
-| M005666 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexRangeKerIterateEndomorphismStatement` | wave-reused |
-| M005667 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.IndexSqsTopOfFg` | wave-reused |
+| M005645 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.Hilbert90BaseChangeStatement` | volunteer-build-reviewed |

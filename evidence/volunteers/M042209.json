@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M042209"
+  ],
+  "started_utc": "2026-11-21T12:39:20.696061+00:00",
+  "ended_utc": "2026-11-21T12:41:30.163294+00:00",
+  "elapsed_seconds": 129.5,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5674892
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocallyTrivialUnitCocycleFaithfullyFlat:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6fddf54acba96d1c432e6c0b55a417ddc764af48a1303a71675c039cf577f450",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.MemHomogIffIsHomogeneous",
+    "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SpanSingletonEqTopIffIsUnitOfIsBaseChange",
+    "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsUniqueBaseChangeEqOfMem"
+  ],
+  "objects": {
+    "M042209": "5dc22e352a2b77a9fa9538a12794d26fecf690dc2fa78b160abb1d5d63717ced"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "4fc44a4c3aa53f6b1d453921c2caf0713fa4c62a0ef416c5f19a7054d66d899d",
+  "packet": "M042209",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21639#issuecomment-7062746342",
+  "reviewed_utc": "2026-11-21T17:44:29.916167+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

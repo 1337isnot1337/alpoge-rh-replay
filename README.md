@@ -71,7 +71,7 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 
 <!-- pending-volunteers-start -->
 
-[5,280 entries. View the full table](tracker/volunteer-tables/pending/README.md).
+[5,012 entries. View the full table](tracker/volunteer-tables/pending/README.md).
 
 | Contributor | Task | Review |
 |---|---|---|
@@ -105,30 +105,30 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 
 <!-- volunteers-start -->
 
-[12,692 entries. View the full table](tracker/volunteer-tables/reviewed/README.md).
+[12,960 entries. View the full table](tracker/volunteer-tables/reviewed/README.md).
 
 | Contributor | Task | Modules | Review |
 |---|---|---:|---|
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M045600](https://github.com/rohanarun/alpoge-rh-replay/issues/22002#issuecomment-7063102049) | 1 | [Build evidence verified](evidence/volunteers/M045600.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M168867](https://github.com/rohanarun/alpoge-rh-replay/issues/21998#issuecomment-7063118219) | 1 | [Build evidence verified](evidence/volunteers/M168867.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M169269](https://github.com/rohanarun/alpoge-rh-replay/issues/22000#issuecomment-7063118896) | 1 | [Build evidence verified](evidence/volunteers/M169269.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M168840](https://github.com/rohanarun/alpoge-rh-replay/issues/21996#issuecomment-7063100732) | 1 | [Build evidence verified](evidence/volunteers/M168840.json) |
-| [@jdenwood](https://github.com/jdenwood) | [M136230](https://github.com/rohanarun/alpoge-rh-replay/issues/21995#issuecomment-7062999236) | 1 | [Build evidence verified](evidence/volunteers/M136230.json) |
-| [@jdenwood](https://github.com/jdenwood) | [M109420](https://github.com/rohanarun/alpoge-rh-replay/issues/21994#issuecomment-7063001952) | 1 | [Build evidence verified](evidence/volunteers/M109420.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M168832](https://github.com/rohanarun/alpoge-rh-replay/issues/21992#issuecomment-7063121998) | 1 | [Build evidence verified](evidence/volunteers/M168832.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M154355](https://github.com/rohanarun/alpoge-rh-replay/issues/21990#issuecomment-7063117580) | 1 | [Build evidence verified](evidence/volunteers/M154355.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M134591](https://github.com/rohanarun/alpoge-rh-replay/issues/21988#issuecomment-7063108023) | 1 | [Build evidence verified](evidence/volunteers/M134591.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M126205](https://github.com/rohanarun/alpoge-rh-replay/issues/21986#issuecomment-7063102696) | 1 | [Build evidence verified](evidence/volunteers/M126205.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M122022](https://github.com/rohanarun/alpoge-rh-replay/issues/21984#issuecomment-7063119528) | 1 | [Build evidence verified](evidence/volunteers/M122022.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M121999](https://github.com/rohanarun/alpoge-rh-replay/issues/21981#issuecomment-7063105982) | 1 | [Build evidence verified](evidence/volunteers/M121999.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M121996](https://github.com/rohanarun/alpoge-rh-replay/issues/21979#issuecomment-7063105369) | 1 | [Build evidence verified](evidence/volunteers/M121996.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M061438](https://github.com/rohanarun/alpoge-rh-replay/issues/21977#issuecomment-7063101410) | 1 | [Build evidence verified](evidence/volunteers/M061438.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M055296](https://github.com/rohanarun/alpoge-rh-replay/issues/21975#issuecomment-7063096663) | 1 | [Build evidence verified](evidence/volunteers/M055296.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M053168](https://github.com/rohanarun/alpoge-rh-replay/issues/21973#issuecomment-7063108717) | 1 | [Build evidence verified](evidence/volunteers/M053168.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M053166](https://github.com/rohanarun/alpoge-rh-replay/issues/21971#issuecomment-7063109422) | 1 | [Build evidence verified](evidence/volunteers/M053166.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M053154](https://github.com/rohanarun/alpoge-rh-replay/issues/21969#issuecomment-7063103393) | 1 | [Build evidence verified](evidence/volunteers/M053154.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M035720](https://github.com/rohanarun/alpoge-rh-replay/issues/21967#issuecomment-7063111588) | 1 | [Build evidence verified](evidence/volunteers/M035720.json) |
-| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M035716](https://github.com/rohanarun/alpoge-rh-replay/issues/21965#issuecomment-7063120149) | 1 | [Build evidence verified](evidence/volunteers/M035716.json) |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M154342](https://github.com/rohanarun/alpoge-rh-replay/issues/21634#issuecomment-7062807060) | 1 | [Build evidence verified](evidence/volunteers/M154342.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M004953](https://github.com/rohanarun/alpoge-rh-replay/issues/21633#issuecomment-7062784142) | 1 | [Build evidence verified](evidence/volunteers/M004953.json) |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M142301](https://github.com/rohanarun/alpoge-rh-replay/issues/21632#issuecomment-7062816808) | 1 | [Build evidence verified](evidence/volunteers/M142301.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M101643](https://github.com/rohanarun/alpoge-rh-replay/issues/21631#issuecomment-7062741075) | 1 | [Build evidence verified](evidence/volunteers/M101643.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M066481](https://github.com/rohanarun/alpoge-rh-replay/issues/21630#issuecomment-7062740936) | 1 | [Build evidence verified](evidence/volunteers/M066481.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M166084](https://github.com/rohanarun/alpoge-rh-replay/issues/21628#issuecomment-7062729441) | 1 | [Build evidence verified](evidence/volunteers/M166084.json) |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M110858](https://github.com/rohanarun/alpoge-rh-replay/issues/21629#issuecomment-7062808238) | 1 | [Build evidence verified](evidence/volunteers/M110858.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M063419](https://github.com/rohanarun/alpoge-rh-replay/issues/21626#issuecomment-7063394663) | 1 | [Build evidence verified](evidence/volunteers/M063419.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M004120](https://github.com/rohanarun/alpoge-rh-replay/issues/21627#issuecomment-7063178666) | 1 | [Build evidence verified](evidence/volunteers/M004120.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M006049](https://github.com/rohanarun/alpoge-rh-replay/issues/21625#issuecomment-7063394734) | 1 | [Build evidence verified](evidence/volunteers/M006049.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M003852](https://github.com/rohanarun/alpoge-rh-replay/issues/21624#issuecomment-7062782437) | 1 | [Build evidence verified](evidence/volunteers/M003852.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M015507](https://github.com/rohanarun/alpoge-rh-replay/issues/21623#issuecomment-7062780853) | 1 | [Build evidence verified](evidence/volunteers/M015507.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M004302](https://github.com/rohanarun/alpoge-rh-replay/issues/21622#issuecomment-7062778453) | 1 | [Build evidence verified](evidence/volunteers/M004302.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M004700](https://github.com/rohanarun/alpoge-rh-replay/issues/21621#issuecomment-7062777010) | 1 | [Build evidence verified](evidence/volunteers/M004700.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M038489](https://github.com/rohanarun/alpoge-rh-replay/issues/21620#issuecomment-7062767864) | 1 | [Build evidence verified](evidence/volunteers/M038489.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M072385](https://github.com/rohanarun/alpoge-rh-replay/issues/21618#issuecomment-7062763743) | 1 | [Build evidence verified](evidence/volunteers/M072385.json) |
+| [@loremcdmx](https://github.com/loremcdmx) | [M100632](https://github.com/rohanarun/alpoge-rh-replay/issues/21619#issuecomment-7062765403) | 1 | [Build evidence verified](evidence/volunteers/M100632.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M142855](https://github.com/rohanarun/alpoge-rh-replay/issues/21617#issuecomment-7063231066) | 1 | [Build evidence verified](evidence/volunteers/M142855.json) |
+| [@zediir](https://github.com/zediir) | [M164156](https://github.com/rohanarun/alpoge-rh-replay/issues/21616#issuecomment-7062699122) | 1 | [Build evidence verified](evidence/volunteers/M164156.json) |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M037848](https://github.com/rohanarun/alpoge-rh-replay/issues/21615#issuecomment-7063338227) | 1 | [Build evidence verified](evidence/volunteers/M037848.json) |
 
 <!-- volunteers-end -->
 
@@ -144,9 +144,9 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 | Pilot proof object reused | 150 |
 | Pilot downstream module kernel-checked | 1 |
 | Distributed proof object reused | 16,970 |
-| Volunteer build evidence reviewed | 48,463 |
+| Volunteer build evidence reviewed | 48,731 |
 | Worker target kernel replay reviewed | 72 |
-| **Total with recorded module evidence** | **92,247 / 175,187** |
+| **Total with recorded module evidence** | **92,515 / 175,187** |
 
 [See each completed part and its evidence](completed/README.md) · [Machine-readable ledger](tracker/completed.tsv)
 

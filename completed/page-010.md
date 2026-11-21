@@ -2,6 +2,24 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006133 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormEightOfFourierVanishingOrderFifteenStatement` | build-observed |
+| M006134 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormTwelveOrderSixtythree` | build-observed |
+| M006135 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.NoNormTwelveOrderSixtythreeStatement` | build-observed |
+| M006136 | P0839 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemClosureInducedCentralByPrimePower` | wave-reused |
+| M006137 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemOfMulMemOfForallPrimeNotDvd` | wave-reused |
+| M006138 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemOfMulMemOfForallPrimeNotDvdStatement` | wave-reused |
+| M006139 | P0784 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemVirtualCharactersOfIntegralCombination` | wave-reused |
+| M006140 | P0811 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OneMemVirtualCharactersOfIntegralCombinationStatement` | wave-reused |
+| M006141 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.OrthogonalIntVectorsNotAgreeOnRegular` | build-observed |
+| M006142 | P0436 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ParabolicInductionTrivialPreservesVirtualCharact` | wave-reused |
+| M006143 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ParsevalBoundIntegerVectorSmallFourierSupport` | build-observed |
+| M006144 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.ParsevalBoundIntegerVectorSmallFourierSupportStatement` | build-observed |
+| M006145 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.PrimaryEndomorphismCyclicDecompositionFinrankKer` | wave-reused |
+| M006146 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.PrimaryEndomorphismCyclicDecompositionFinrankKerStatement` | wave-reused |
+| M006147 | P0648 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.PrimitiveClassFunctionExpansionRootSums` | build-observed |
+| M006148 | P0678 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.PrimitiveClassFunctionExpansionRootSumsStatement` | build-observed |
+| M006149 | P0348 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.PrimitiveEndClassFunctionEqZeroOfPrimary` | wave-reused |
+| M006150 | P0394 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.PrimitiveEndClassFunctionEqZeroOfPrimaryStatement` | wave-reused |
 | M006151 | P0583 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.PrimitiveEndClassFunctionZeroOfCharpolyMassZero` | wave-reused |
 | M006152 | P0616 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.PrimitiveEndClassFunctionZeroOfCharpolyMassZeroStatement` | wave-reused |
 | M006153 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.RegularIffNatDegreeAndExistsEllipticGL` | build-observed |
@@ -384,21 +402,3 @@
 | M006629 | P1956 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsGoodCmPointAtCmBasisFrameStatement` | volunteer-build-reviewed |
 | M006632 | P1114 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsGoodModelOfIsogeny` | build-observed |
 | M006636 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsGrpObjOverOfPoints` | volunteer-build-reviewed |
-| M006637 | P1194 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsGrpObjPolarised` | build-observed |
-| M006641 | P0649 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsHomOfLinearScalingHermForm` | build-observed |
-| M006644 | P1246 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsInverseIsogenyPolAV` | build-observed |
-| M006645 | P1272 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsInverseIsogenyPolAVStatement` | build-observed |
-| M006646 | P1299 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsInverseIsogenyRingOfIntegers` | build-observed |
-| M006650 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsIsExpPush` | volunteer-build-reviewed |
-| M006652 | P1856 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsIsFramePolynomialOfRuleNumberFieldStatement` | volunteer-build-reviewed |
-| M006653 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsIsHomFamilyBaseChange` | build-observed |
-| M006655 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsIsPolFibreOfKeyPB` | volunteer-build-reviewed |
-| M006656 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsKroneckerCmLogPeriodEqConst` | volunteer-build-reviewed |
-| M006662 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsLeftInverse` | volunteer-build-reviewed |
-| M006669 | P0679 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsLinearOfIsMonHom` | build-observed |
-| M006671 | P1856 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsMetricDataCmPointComplexEmbeddingStatement` | volunteer-build-reviewed |
-| M006674 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsMonHomFactorOfFlatSurjective` | volunteer-build-reviewed |
-| M006675 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsMulEquivPointsOfIsGrpPullback` | volunteer-build-reviewed |
-| M006676 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNormalisedPolarisation` | volunteer-build-reviewed |
-| M006678 | P1170 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldDefiningCmCurveHoms` | build-observed |
-| M006679 | P1194 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldDefiningCmCurveHomsStatement` | build-observed |

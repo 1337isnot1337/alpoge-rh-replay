@@ -2,6 +2,28 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013718 | P0866 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemRangeAppLEChartIff` | volunteer-build-reviewed |
+| M013719 | P1836 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemRangeIffOfFinite` | build-observed |
+| M013721 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemSpanRowsIffCoordsMem` | volunteer-build-reviewed |
+| M013722 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemSpanRowsOfForallValuationRing` | volunteer-build-reviewed |
+| M013723 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemSupIIffAndHHEqKer` | volunteer-build-reviewed |
+| M013726 | P1221 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemTorusExtensionConeIffSmallDegreeForms` | wave-reused |
+| M013727 | P1248 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MemTorusExtensionConeIffSmallDegreeFormsStatement` | wave-reused |
+| M013730 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ModelIsoOfValuedAgreementOverField` | volunteer-build-reviewed |
+| M013734 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ModelPointExtendsTorsionPointMul` | volunteer-build-reviewed |
+| M013735 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ModelPointExtendsTorsionPointMulStatement` | volunteer-build-reviewed |
+| M013739 | P1445 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ModelSeriesEqUnitMulThetaPointStatement` | volunteer-build-reviewed |
+| M013743 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ModelTraitExtensionPolarisedFlatBundleIso` | volunteer-build-reviewed |
+| M013744 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ModelTraitExtensionPolarisedFlatBundleIsoStatement` | volunteer-build-reviewed |
+| M013747 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ModuliModelUltrametricPoints` | volunteer-build-reviewed |
+| M013748 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ModuliModelUltrametricPointsStatement` | volunteer-build-reviewed |
+| M013749 | P0785 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MulEqZeroOfAppEqZero` | build-observed |
+| M013750 | P0811 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MulqLaws` | build-observed |
+| M013751 | P0839 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.MulqLawsStatement` | build-observed |
+| M013752 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NatCastNeZeroOfIsUnit` | volunteer-build-reviewed |
+| M013755 | P1373 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyAlgebraisationFormalTowerAmple` | build-observed |
+| M013757 | P0947 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyBiTrivOfIsIntegrallyClosed` | build-observed |
+| M013759 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyClosureExtensionAbelianSchemeStatement` | volunteer-build-reviewed |
 | M013760 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyFormalUniformisationTower` | volunteer-build-reviewed |
 | M013761 | P1221 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyFormalUniformisationTowerStatement` | build-observed |
 | M013764 | P0811 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.NonemptyLawAbelianSchemeProperClosure` | build-observed |
@@ -380,25 +402,3 @@
 | M014729 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneRestrictionPairThirdStatement` | volunteer-build-reviewed |
 | M014735 | P2052 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneSkewIdealCoprime` | volunteer-build-reviewed |
 | M014736 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneSkewIdealCoprimeLt` | volunteer-build-reviewed |
-| M014737 | P2052 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneSkewIdealCoprimeLtStatement` | volunteer-build-reviewed |
-| M014738 | P2067 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneSkewIdealCoprimeStatement` | volunteer-build-reviewed |
-| M014740 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneThetaEmbeddingExistsStatement` | volunteer-build-reviewed |
-| M014745 | P2094 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlanesDarbouxReordering` | volunteer-build-reviewed |
-| M014746 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlanesDarbouxReorderingStatement` | volunteer-build-reviewed |
-| M014748 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlanesDoubleRestrictionModelStatement` | volunteer-build-reviewed |
-| M014753 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPolydiscExistsAt` | volunteer-build-reviewed |
-| M014754 | P0296 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPolydiscExistsAtStatement` | volunteer-build-reviewed |
-| M014756 | P2177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedRealFrameExistsStatement` | volunteer-build-reviewed |
-| M014759 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedRealLineFirst` | volunteer-build-reviewed |
-| M014760 | P2177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedRealLineFirstStatement` | volunteer-build-reviewed |
-| M014761 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedRealLineSecond` | volunteer-build-reviewed |
-| M014762 | P2177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedRealLineSecondStatement` | volunteer-build-reviewed |
-| M014763 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedRealLineThird` | volunteer-build-reviewed |
-| M014764 | P2177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedRealLineThirdStatement` | volunteer-build-reviewed |
-| M014765 | P2081 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddCharDotMulMemAdelicSchwartzSpace` | volunteer-build-reviewed |
-| M014766 | P2094 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddCharDotMulMemAdelicSchwartzSpaceStatement` | volunteer-build-reviewed |
-| M014768 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddCharHalfTraceTensorLatticeHeisenbergCocycleStatement` | volunteer-build-reviewed |
-| M014769 | P0296 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddCharNegEqOne` | volunteer-build-reviewed |
-| M014770 | P2081 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddCharNegUnfoldingPhaseMulUniformizerPowLattice` | volunteer-build-reviewed |
-| M014771 | P2094 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddCharNegUnfoldingPhaseMulUniformizerPowLatticeStatement` | volunteer-build-reviewed |
-| M014776 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AddHaarCharLeftRightMatrixMulAdeleTensor` | volunteer-build-reviewed |

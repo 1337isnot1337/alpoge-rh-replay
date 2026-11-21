@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M173762"
+  ],
+  "started_utc": "2026-11-21T13:25:23.147722+00:00",
+  "ended_utc": "2026-11-21T13:25:36.947961+00:00",
+  "elapsed_seconds": 13.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6825216
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantTheorems.TBIdemDen:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "477932a71d51c6bb696ebd2362e7f25b4580f6eb553f6cc439e70c88a462f27e",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantLemmas.IdempotentEvaluation.DualDiff",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantLemmas.IdempotentEvaluation.IdemEval",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.IdemDen"
+  ],
+  "objects": {
+    "M173762": "bcf689ede9ade591ff95f071fdafedf1c174eefe69525b6e4b206f91890426ef"
+  },
+  "bundle_sha256": "eb6e03b1dd376c37ec8264025ba4d3c6a3c7ca4406adbe397fe3e4871dbf7f3f",
+  "packet": "M173762",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21690#issuecomment-7063265793",
+  "reviewed_utc": "2026-11-21T17:44:01.724666+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

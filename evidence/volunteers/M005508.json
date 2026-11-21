@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M005508"
+  ],
+  "started_utc": "2026-11-21T13:25:45.220726+00:00",
+  "ended_utc": "2026-11-21T13:26:11.949931+00:00",
+  "elapsed_seconds": 26.7,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6910224
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsNormaliseMeanSquareOfCocompactStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1dcc3fe2eb294e6f51795b731b72f27b1bd3a34fbc9f5630192b33ca6a9ea130",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsNormaliseMeanSquareOfCocompact",
+    "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ExistsIsFundamentalDomainAndQuotMeasureEq",
+    "Development.AbelianVarietyTheory.Proofs.HeightProofs.MeanSquareAddFundamentalDomainOfCocompact"
+  ],
+  "objects": {
+    "M005508": "1344dd566178f8a41bb78c7d3ce9bddedf2b665d261b63dc3f22d98decc67669"
+  },
+  "bundle_sha256": "137710e3c62c3a5766970304a58faddd9c811541560c4ed89be4dd965433a73f",
+  "packet": "M005508",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21691#issuecomment-7063273626",
+  "reviewed_utc": "2026-11-21T17:44:01.742184+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

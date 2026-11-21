@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M128665"
+  ],
+  "started_utc": "2026-11-21T12:43:44.867244+00:00",
+  "ended_utc": "2026-11-21T12:43:59.132890+00:00",
+  "elapsed_seconds": 14.3,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6883952
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedExtensionIntegralBasisStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0f6c8fd8e0e5929d59ff5ac379048f3149f4aba40cfea47d47e4de5e0f72bc0f",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedExtensionIntegralBasis",
+    "Development.WeilBound.RepresentationTheoryGL.TwistedFactors.IntegralUnitBaseChange.Development"
+  ],
+  "objects": {
+    "M128665": "4e4274b0d2415ae5892073156d61243f94d51c97d954c79b2979ecddc21f804e"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "7efa7cb508da9e100e25dc611b79f9898de7844e0da90f79010c2e59e3441639",
+  "packet": "M128665",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21727#issuecomment-7062787910",
+  "reviewed_utc": "2026-11-21T17:43:34.147145+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

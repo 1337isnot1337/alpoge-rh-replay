@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M028080"
+  ],
+  "started_utc": "2026-11-21T13:27:48.743229+00:00",
+  "ended_utc": "2026-11-21T13:28:09.835615+00:00",
+  "elapsed_seconds": 21.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6942188
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOscillatorActionOfGaussianPairingsStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "20b136bdb7a575a0738c7b6c2446a672de1a1f4074dd9fa6c98b34d8bb35270e",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsOscillatorActionOfGaussianPairings",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralGauTwistedConv",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PowMulNormGauLe"
+  ],
+  "objects": {
+    "M028080": "4d3070ea0588aa40fe8315e9cd953807048872f4b2ccd48c7dba4258b9d866b9"
+  },
+  "bundle_sha256": "c8475d1585cc130f9ad8b311d57d2c625cf6048c5eb39ea9a6942086ce4770f9",
+  "packet": "M028080",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21695#issuecomment-7063301004",
+  "reviewed_utc": "2026-11-21T17:43:57.855460+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

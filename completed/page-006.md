@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M003709 | P0946 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPeriodHom` | build-observed |
+| M003710 | P1271 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPolAVSectionInverseImage` | build-observed |
 | M003711 | P1298 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPow8F` | build-observed |
 | M003712 | P1323 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsPowMod` | build-observed |
 | M003713 | P2359 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsProjOverWeierstrass` | volunteer-build-reviewed |
@@ -70,6 +72,7 @@
 | M003846 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.OneSubOfIsIrreducible` | volunteer-build-reviewed |
 | M003848 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.OrthSubrepresentation` | wave-reused |
 | M003851 | P0347 | `Development.AbelianVarietyTheory.Definitions.Divisors.PadicActionConstInjective` | wave-reused |
+| M003852 | P1993 | `Development.AbelianVarietyTheory.Definitions.Divisors.PairsOfSquareTriple` | volunteer-build-reviewed |
 | M003854 | P1169 | `Development.AbelianVarietyTheory.Definitions.Divisors.PerCEmb` | build-observed |
 | M003855 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.PerFactor` | volunteer-build-reviewed |
 | M003856 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.PlacesOverU` | volunteer-build-reviewed |
@@ -221,6 +224,7 @@
 | M004115 | P0095 | `Development.AbelianVarietyTheory.Definitions.Foundations.MultipliableAndSgNeZero` | wave-reused |
 | M004116 | P1324 | `Development.AbelianVarietyTheory.Definitions.Foundations.NonemptyAlgHomOfNotIsField` | build-observed |
 | M004119 | P0758 | `Development.AbelianVarietyTheory.Definitions.Foundations.NormEulerPolySubOneLe` | build-observed |
+| M004120 | P0295 | `Development.AbelianVarietyTheory.Definitions.Foundations.NormOneSevenOneTwo` | volunteer-build-reviewed |
 | M004121 | P0974 | `Development.AbelianVarietyTheory.Definitions.Foundations.NormSumPairRankZeroOfCurveCoordNorm` | volunteer-build-reviewed |
 | M004122 | P0002 | `Development.AbelianVarietyTheory.Definitions.Foundations.NotCoboundaryConstantOne` | wave-reused |
 | M004126 | P0784 | `Development.AbelianVarietyTheory.Definitions.Foundations.NotIsSelfDualETwo` | build-observed |
@@ -276,6 +280,7 @@
 | M004206 | P1272 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.ExistsReadingLaws` | build-observed |
 | M004208 | P2093 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.ExistsUniqueVec` | volunteer-build-reviewed |
 | M004210 | P0002 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.FiniteResidueFieldPadicInt` | volunteer-build-reviewed |
+| M004212 | P0239 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.FirstChernClassMemHodgeFiltration` | volunteer-build-reviewed |
 | M004213 | P1169 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.FormsAre` | volunteer-build-reviewed |
 | M004215 | P1444 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.FourthPowerTheta` | build-observed |
 | M004216 | P1245 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.FracZeroOfPos` | build-observed |
@@ -317,6 +322,7 @@
 | M004290 | P0648 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.OverOnePrimeOfCardLeOne` | build-observed |
 | M004296 | P0095 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.PolyApproxZeroPadic` | wave-reused |
 | M004300 | P0549 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.PullTotMemBTot` | build-observed |
+| M004302 | P0705 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.RankOneUnitary` | volunteer-build-reviewed |
 | M004303 | P1974 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.ReadsMove` | volunteer-build-reviewed |
 | M004307 | P0002 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.ReductionUniformizerPoint` | volunteer-build-reviewed |
 | M004309 | P1901 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.RegPolOfRepOf` | volunteer-build-reviewed |
@@ -328,6 +334,7 @@
 | M004326 | P1531 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.ThetaMod` | build-observed |
 | M004327 | P2245 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.ThetaSeriesDataHypothesesBelowMaximalLevel` | volunteer-build-reviewed |
 | M004328 | P1114 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.ThetaZJetsThree` | volunteer-build-reviewed |
+| M004329 | P0810 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.ThickLetterWordLatticeSurjectionHypotheses` | volunteer-build-reviewed |
 | M004330 | P0615 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.ToPtIdPtBijective` | build-observed |
 | M004331 | P1029 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.TrueWtAddSSNonneg` | volunteer-build-reviewed |
 | M004335 | P1956 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.UnderTie` | volunteer-build-reviewed |
@@ -395,10 +402,3 @@
 | M004439 | P0003 | `Development.AbelianVarietyTheory.Definitions.Jets.Imports` | volunteer-build-reviewed |
 | M004440 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.ImportsAlt` | volunteer-build-reviewed |
 | M004442 | P1245 | `Development.AbelianVarietyTheory.Definitions.Jets.IsSelfOf` | build-observed |
-| M004443 | P0865 | `Development.AbelianVarietyTheory.Definitions.Jets.JetsOnCopiesCompatibleFrames` | build-observed |
-| M004445 | P0003 | `Development.AbelianVarietyTheory.Definitions.Jets.PowerSeriesHasSumAt` | volunteer-build-reviewed |
-| M004446 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.SameFns` | build-observed |
-| M004447 | P0758 | `Development.AbelianVarietyTheory.Definitions.Jets.SideFam` | wave-reused |
-| M004448 | P0295 | `Development.AbelianVarietyTheory.Definitions.Jets.SumIoPr` | wave-reused |
-| M004449 | P0705 | `Development.AbelianVarietyTheory.Definitions.Jets.SumIoPrAlt` | wave-reused |
-| M004451 | P1084 | `Development.AbelianVarietyTheory.Definitions.Jets.SurjectiveAppTopSqCube` | wave-reused |

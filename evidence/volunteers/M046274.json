@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M046274"
+  ],
+  "started_utc": "2026-11-21T12:56:38.351727+00:00",
+  "ended_utc": "2026-11-21T12:56:52.530678+00:00",
+  "elapsed_seconds": 14.2,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6950380
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.PositivePotentialMinusSmallMultiplePshStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "07522836e4c5731935fc2c7f84eae61f886c06a51e18c18c7007150ceed53a1d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PositivePotentialMinusSmallMultiplePsh",
+    "ReciprocityTheory.AnalyticForms.PotentialTheory.PshShiftA"
+  ],
+  "objects": {
+    "M046274": "b41a6cdb7623fcdcfa2cb7bc586564c51705207ead943cd2ea027524fe56b0a0"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "8f6c41325d139836a6c8686d1300bd9daf92cb77e46d51efd221c2dac43c8cba",
+  "packet": "M046274",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21866#issuecomment-7062934606",
+  "reviewed_utc": "2026-11-21T17:42:05.799522+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

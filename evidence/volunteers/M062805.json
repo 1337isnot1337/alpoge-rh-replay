@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M062805"
+  ],
+  "started_utc": "2026-11-21T12:56:02.149098+00:00",
+  "ended_utc": "2026-11-21T12:56:13.086306+00:00",
+  "elapsed_seconds": 13.1,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6845392
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.JInvariantEqualSl2OrbitStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f67f8293c03646f1b5d79464b8faf9147e253fb616ab1235a93b5c32f82862ce",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.FiniteIndexOfGammaLe",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.JInvariantEqualSl2Orbit"
+  ],
+  "objects": {
+    "M062805": "c0f445e4de5e67d99e74fdf69d4b5240076161de49804983664d176fe3d208af"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "67de31c8c2cabcbb3e31ea1640d6e0425604484903ac17dae6b6e2a9fdf0dc6c",
+  "packet": "M062805",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21831#issuecomment-7062940077",
+  "reviewed_utc": "2026-11-21T17:42:28.768906+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

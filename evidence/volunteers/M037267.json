@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    "M037267"
+  ],
+  "started_utc": "2026-11-21T12:54:36.396662+00:00",
+  "ended_utc": "2026-11-21T12:54:41.119944+00:00",
+  "elapsed_seconds": 7.0,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6812272
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralZeroOfTwistedPeriodic:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "438416b44e6150eb8f52af60c6f4ee40dfd724199c503bd4d5bd1a6195880377",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M037267": "517d5714471cea5f2f16ae19ee24f537be2201c2ed5cb6d757bb6fb11ecb38b3"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "2dcfe274e42df1e4c27d0874ee45855b27c77f88603ebf4baaf080df0a923fa1",
+  "packet": "M037267",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21804#issuecomment-7062936925",
+  "reviewed_utc": "2026-11-21T17:42:43.408540+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

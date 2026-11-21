@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M153599"
+  ],
+  "started_utc": "2026-11-21T13:44:00.296988+00:00",
+  "ended_utc": "2026-11-21T13:44:19.610414+00:00",
+  "elapsed_seconds": 19.3,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6833468
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.LatIdxDet:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "11770c54b4ed3199379c7afb378b5a98c9448d8456e5c5d81924a286c591fa61",
+  "rebuilt_project_modules": [
+    "Formalism.FockGram.StatementHerm",
+    "Formalism.FockGram.StatementLat",
+    "Formalism.HermitianLattices.StatementLat"
+  ],
+  "objects": {
+    "M153599": "5d47695642ab9f068b55b4ad54f715e97d7418c0668f72b68c869ee3cff4bb20"
+  },
+  "bundle_sha256": "44490f9bda0ec1d1b214a14141841a426cb10cda2d4654bd1bf0857208c0f5e7",
+  "packet": "M153599",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21791#issuecomment-7063541935",
+  "reviewed_utc": "2026-11-21T17:42:56.488987+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

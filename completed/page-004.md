@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002195 | P0838 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorPlaceNorm` | build-observed |
+| M002196 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorProductAction` | wave-reused |
 | M002197 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ThetaKernelFiring` | volunteer-build-reviewed |
 | M002200 | P0731 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ToricSymbols` | wave-reused |
 | M002201 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TraceDualDifferent` | wave-reused |
@@ -400,5 +402,3 @@
 | M002899 | P0002 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.RightInvariantOfCovolume` | volunteer-build-reviewed |
 | M002902 | P2093 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.SubsingletonOfLeOne` | volunteer-build-reviewed |
 | M002903 | P0582 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.TotalDegreeEqOfMemHarmA` | volunteer-build-reviewed |
-| M002905 | P0238 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.TransvMemZGam` | build-observed |
-| M002906 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.VVAlgebraMapNonneg` | volunteer-build-reviewed |

@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M006049"
+  ],
+  "started_utc": "2026-11-21T13:11:43.786306+00:00",
+  "ended_utc": "2026-11-21T13:34:13.484739+00:00",
+  "elapsed_seconds": 1349.5,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5864372
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.CharacterTheory.FinsumUnipotentRadicalEqZeroStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "de6a0ff68d97e0fbd70c42a8c486933a89e9ca8eff0a9240aae39a052cd378e5",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsStandardUnipotentRadicalBijOnNilradical",
+    "Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsStandardUnipotentRadicalBijOnNilradicalStatement",
+    "Development.AbelianVarietyTheory.Proofs.CharacterTheory.FinsumUnipotentRadicalEqZero"
+  ],
+  "objects": {
+    "M006049": "93ab4e5dfb114dbd851cd2e82f96ef67a70208b3c30be5f9e5ed1cdaf8e2f9fe"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "78f5068d066dabc2b7c12481e3d2cbb5da876f09f36d7e9528c421d48674b45f",
+  "packet": "M006049",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21625#issuecomment-7063394734",
+  "reviewed_utc": "2026-11-21T17:44:37.697033+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

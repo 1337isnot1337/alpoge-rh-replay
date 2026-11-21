@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M109897"
+  ],
+  "started_utc": "2026-11-21T13:37:29.215474+00:00",
+  "ended_utc": "2026-11-21T13:37:46.326908+00:00",
+  "elapsed_seconds": 17.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6867012
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.UnimodularGram.Orthonormal:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3a0eeb8d902cf1672822955f98de951535c00e5349c2865e96294cd8a7c649b7",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.UnimodularGram.IsUnimodIffGram",
+    "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.UnimodularGram.StarRingOfInvolution",
+    "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.UnimodularGram.UnitVector"
+  ],
+  "objects": {
+    "M109897": "311c54978f6ac2281295f25e5d3bcc466523d1772536831b1f8263ce91cceac4"
+  },
+  "bundle_sha256": "3b16141d95d366df8752371ea55a04a90e12603c98ed2923f2f7526afe22236c",
+  "packet": "M109897",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21774#issuecomment-7063441563",
+  "reviewed_utc": "2026-11-21T17:43:11.394040+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

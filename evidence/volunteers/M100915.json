@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M100915"
+  ],
+  "started_utc": "2026-11-21T13:02:44.707325+00:00",
+  "ended_utc": "2026-11-21T13:03:38.338153+00:00",
+  "elapsed_seconds": 53.5,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7291892
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry\u2082.CaraianiLocalGlobalDual:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "381f2491ed9eb195fc7d95ac84697bf4b9034909bedfedaa018db113c1473344",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry\u2082.LocalGlobalAboveL"
+  ],
+  "objects": {
+    "M100915": "dcb1c8fde4133b24659e0925b260077cc9391dd802a16736fdc4fbd67ce1fd77"
+  },
+  "bundle_sha256": "b1abca8fe5811f4fac05dce4ae1400714eb584d047bedd6452353684680f26cc",
+  "packet": "M100915",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21940#issuecomment-7063163316",
+  "reviewed_utc": "2026-11-21T17:41:18.442493+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

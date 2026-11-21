@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M029326"
+  ],
+  "started_utc": "2026-11-21T13:28:43.796629+00:00",
+  "ended_utc": "2026-11-21T13:28:54.299788+00:00",
+  "elapsed_seconds": 10.5,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6853640
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSmulDvdOfLocalizationAtPrimeTensorStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "23b89634702fc8370bb03239de1351c433ac318d8cb1ae42d44e58bd1991fd71",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSmulDvdOfLocalizationAtPrimeTensor"
+  ],
+  "objects": {
+    "M029326": "b09c78f735d0e0ecb0fd3e754e400d81e760844dd12b9247acf27f2e5d18a601"
+  },
+  "bundle_sha256": "e89e49159815f80b4f5181127adf90ba4814659441bd74df6db1bdbdd377616e",
+  "packet": "M029326",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21697#issuecomment-7063310683",
+  "reviewed_utc": "2026-11-21T17:43:56.847427+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

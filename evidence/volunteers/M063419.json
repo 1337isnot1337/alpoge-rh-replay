@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M063419"
+  ],
+  "started_utc": "2026-11-21T13:18:32.008296+00:00",
+  "ended_utc": "2026-11-21T13:34:11.350313+00:00",
+  "elapsed_seconds": 939.2,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5975320
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.PieceTUnitSetEqFourPieceTRaw:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "66564f14392583c387e83f94e39681c0da3c69da4484404b8bcf8e057cb017d9",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.Integral",
+    "Development.AbelianVarietyTheory.Definitions.Foundations.PieceEqPieceT",
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.PieceUnitSetEqSmoothingMulPieceRaw"
+  ],
+  "objects": {
+    "M063419": "e1f860c4b044f68e7b67edc59c77f98f4e9486555a191c14a3cd3c475ceaa744"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "8766d32e18f86b3570cd911988874e0419560bd95062c9ff3e587a2bf81f5de0",
+  "packet": "M063419",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21626#issuecomment-7063394663",
+  "reviewed_utc": "2026-11-21T17:44:36.099881+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

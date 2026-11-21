@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M101643"
+  ],
+  "started_utc": "2026-11-21T12:39:00.209861+00:00",
+  "ended_utc": "2026-11-21T12:41:02.614072+00:00",
+  "elapsed_seconds": 122.4,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 4441884
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.ThetaDiag:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3972b8b0119024e4b82b32650915692cfc2ad0235f19042ffbad2d9a48442613",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.UnitsBasic"
+  ],
+  "objects": {
+    "M101643": "90a2e60e47a0641ce21e2b4c82c2a7db0f96cfc58dd15dc143f7f39a67332064"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "a93882d65f125da3b99634259cef3c7ed8dc2f43c860a3a058d076db141c1dc1",
+  "packet": "M101643",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21631#issuecomment-7062741075",
+  "reviewed_utc": "2026-11-21T17:44:34.554512+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

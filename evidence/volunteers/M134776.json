@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M134776"
+  ],
+  "started_utc": "2026-11-21T12:44:24.407620+00:00",
+  "ended_utc": "2026-11-21T12:45:12.286449+00:00",
+  "elapsed_seconds": 47.9,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 6918600
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Statements.GeometryStatements.LamLevel:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c29802c5ef451f81cb39c51cb3a07e25d504ebbed45bfe5c0b0b0d67216139f6",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.AbsAZero",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.TraceWedgePairingPerfectRationalForms"
+  ],
+  "objects": {
+    "M134776": "9b3d54b0cc9245cbe544ebb1f62738124c3316d1049d0f51b5b146d512947b74"
+  },
+  "bundle_sha256": "1991c6b17041903cec9589ac1c42be5c7b2e6c2667721a0459b6b2f60c98bbaf",
+  "packet": "M134776",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21708#issuecomment-7062806880",
+  "reviewed_utc": "2026-11-21T17:43:45.890165+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

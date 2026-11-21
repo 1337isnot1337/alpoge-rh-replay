@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M143801"
+  ],
+  "started_utc": "2026-11-21T13:43:33.039787+00:00",
+  "ended_utc": "2026-11-21T13:43:52.196426+00:00",
+  "elapsed_seconds": 19.2,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6956228
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.ThetaLifts.SchwartzMoments.SchwartzDqTendsto:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9e9b82d367ad7bdbc5315aa3bdc29d1bde00cd4eb13aea408a181af5a365ff14",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.MembershipCriteria.ExistsHarrisTaylorObjectOfLevelLift",
+    "Development.AutomorphicSpectrum.Proofs.MembershipProofs.BoundMulTranslate"
+  ],
+  "objects": {
+    "M143801": "75e6b161966b8ce27e87231c01fab30a720aa0deead43696724fd4372504765d"
+  },
+  "bundle_sha256": "097c3f3e0f21804c9b6db2054830c01464786f96f2114f4eb512984bbb5eae46",
+  "packet": "M143801",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21790#issuecomment-7063534708",
+  "reviewed_utc": "2026-11-21T17:42:56.390429+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

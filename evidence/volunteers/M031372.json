@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M031372"
+  ],
+  "started_utc": "2026-11-21T13:28:18.080864+00:00",
+  "ended_utc": "2026-11-21T13:28:35.591551+00:00",
+  "elapsed_seconds": 17.5,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6844672
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteOfGaloisTraceRelationStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "784fa4c52bfb254691ad65efff572bcee897a9e724bafce6978269820a64b6f1",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteOfGaloisTraceRelation",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.GalMapGalElt",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsionFreeOver"
+  ],
+  "objects": {
+    "M031372": "12a5bc92124908f5b7cc38d31e230d710fc505c6ee16827db39bf3cdd500f7eb"
+  },
+  "bundle_sha256": "619ac4ddd4a39b73dd97b5e738f37ee73e85490c9523bd4ccb235886b0d40494",
+  "packet": "M031372",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21696#issuecomment-7063306593",
+  "reviewed_utc": "2026-11-21T17:43:57.198338+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

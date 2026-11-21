@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M036969"
+  ],
+  "started_utc": "2026-11-21T13:29:31.502263+00:00",
+  "ended_utc": "2026-11-21T13:29:48.758606+00:00",
+  "elapsed_seconds": 17.3,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6937252
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralCombinationGlLatticeStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "258ff2b6ee80f2f2df039917bb30c975dd2b6bc4678b2f4980488f6b75334645",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.T2SpaceGeneralLinearGroup",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralCombinationGlLattice"
+  ],
+  "objects": {
+    "M036969": "7a149d84467801bbfc97b03ab3e83c9da97c9967a90540d27cf0df866a545dd3"
+  },
+  "bundle_sha256": "2237c3fe077854f12f306f6f431420aee27f1b17e99ee76fa095e636dfc7c1dc",
+  "packet": "M036969",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21699#issuecomment-7063323098",
+  "reviewed_utc": "2026-11-21T17:43:56.297607+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

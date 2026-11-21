@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M142855"
+  ],
+  "started_utc": "2026-11-21T13:11:23.801094+00:00",
+  "ended_utc": "2026-11-21T13:22:27.385974+00:00",
+  "elapsed_seconds": 663.4,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5810712
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.RepresentationTheoryGL.TwistedFactors.IntegralUnitBaseChange.QuotientIntegralOfCompactOpen:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "759b7bda1d9b4d12ab63d832d2ad91d6ddb6a6b862401f39e44b5f251335bddb",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.TwistedFactors.IntegralUnitBaseChange.Development",
+    "Development.WeilBound.RepresentationTheoryGL.TwistedFactors.IntegralUnitBaseChange.InvTransposeGLInvTransposeGL"
+  ],
+  "objects": {
+    "M142855": "dd6238f9bc665e72931cb6f1d2e817b3cded776b03ad153b183b30a9e23184c7"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "9c6db0825693076cf42af4ad91f8ab79f2a67b34a0541e65de11be601adfbb9f",
+  "packet": "M142855",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21617#issuecomment-7063231066",
+  "reviewed_utc": "2026-11-21T17:44:46.792656+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M164166"
+  ],
+  "started_utc": "2026-11-21T12:46:17.915941+00:00",
+  "ended_utc": "2026-11-21T12:46:29.466551+00:00",
+  "elapsed_seconds": 11.5,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 6091700
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PIrreducibleFiniteGermProjectionOpenAt:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1415ca00a74d98d9aff4fe35c79f3cc5161c3eeee58b597ba04845a5d1591441",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleFiniteGermProjectionOpenAt",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StIrreducibleGermPointsOffDiscriminant"
+  ],
+  "objects": {
+    "M164166": "775973385d7a7bc6de9efeb8e3b0e477a1014afd4a59ca4bfe957b44b3818ea7"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "3c28d3e43de7b974c8e861d5c4f499d3012e9fc86af8097fc831696b282346c3",
+  "packet": "M164166",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21747#issuecomment-7062806364",
+  "reviewed_utc": "2026-11-21T17:43:28.457937+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

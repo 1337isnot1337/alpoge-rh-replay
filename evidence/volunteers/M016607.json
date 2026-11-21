@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M016607"
+  ],
+  "started_utc": "2026-11-21T12:54:53.226614+00:00",
+  "ended_utc": "2026-11-21T12:55:05.320590+00:00",
+  "elapsed_seconds": 12.1,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6818584
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialSmoothOffDivisor:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2f5cc54585bf964f135d1cdd53982dd248e577f690a92ad570074a6520d128f3",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PotentialSmoothInChart",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PotentialSmoothInChartStatement"
+  ],
+  "objects": {
+    "M016607": "d8fc5ddceb9a31e0f626dcf3f91a0052172ddc883482b4839d8aaea64d09b4aa"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "8fd7081434b6f4c018851f358e0d97d5eb5745795e4a00cea88c40d3b8b8eeba",
+  "packet": "M016607",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21865#issuecomment-7062931446",
+  "reviewed_utc": "2026-11-21T17:42:06.136254+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -2,6 +2,24 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006637 | P1194 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsGrpObjPolarised` | build-observed |
+| M006641 | P0649 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsHomOfLinearScalingHermForm` | build-observed |
+| M006644 | P1246 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsInverseIsogenyPolAV` | build-observed |
+| M006645 | P1272 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsInverseIsogenyPolAVStatement` | build-observed |
+| M006646 | P1299 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsInverseIsogenyRingOfIntegers` | build-observed |
+| M006650 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsIsExpPush` | volunteer-build-reviewed |
+| M006652 | P1856 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsIsFramePolynomialOfRuleNumberFieldStatement` | volunteer-build-reviewed |
+| M006653 | P1144 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsIsHomFamilyBaseChange` | build-observed |
+| M006655 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsIsPolFibreOfKeyPB` | volunteer-build-reviewed |
+| M006656 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsKroneckerCmLogPeriodEqConst` | volunteer-build-reviewed |
+| M006662 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsLeftInverse` | volunteer-build-reviewed |
+| M006669 | P0679 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsLinearOfIsMonHom` | build-observed |
+| M006671 | P1856 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsMetricDataCmPointComplexEmbeddingStatement` | volunteer-build-reviewed |
+| M006674 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsMonHomFactorOfFlatSurjective` | volunteer-build-reviewed |
+| M006675 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsMulEquivPointsOfIsGrpPullback` | volunteer-build-reviewed |
+| M006676 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNormalisedPolarisation` | volunteer-build-reviewed |
+| M006678 | P1170 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldDefiningCmCurveHoms` | build-observed |
+| M006679 | P1194 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldDefiningCmCurveHomsStatement` | build-observed |
 | M006682 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldPointOfCountable` | volunteer-build-reviewed |
 | M006683 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldTorsionPoints` | volunteer-build-reviewed |
 | M006684 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsOActExtendDedekind` | volunteer-build-reviewed |
@@ -333,6 +351,7 @@
 | M007434 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.PolyDerivProdColumnFunctionsStatement` | volunteer-build-reviewed |
 | M007440 | P1057 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ProjAEqSumReps` | volunteer-build-reviewed |
 | M007441 | P0241 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.PushLettersIntCastOfIsHomogeneous` | volunteer-build-reviewed |
+| M007444 | P1532 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.RamifiedPrimePowersSizeBounds` | volunteer-build-reviewed |
 | M007446 | P0839 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.RawChartBaseChangeRigGerm` | build-observed |
 | M007447 | P0866 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.RawChartBaseChangeRigGermStatement` | volunteer-build-reviewed |
 | M007448 | P0891 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.RawChartFormalBiextensionBaseChange` | build-observed |
@@ -383,22 +402,3 @@
 | M007560 | P1194 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.TorsionIsotropicCommutatorPairingStatement` | build-observed |
 | M007562 | P0296 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.TraceHermNondegenerate` | wave-reused |
 | M007563 | P0839 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.TripleProductTorusPeriodicBounded` | build-observed |
-| M007566 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.UniversalNormalisedMulByNatPullbackIso` | volunteer-build-reviewed |
-| M007567 | P1144 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.UniversalNormalisedMulByNatPullbackIsoStatement` | build-observed |
-| M007568 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.UniversalSymLiftExistsUniqueGlobal` | volunteer-build-reviewed |
-| M007569 | P1144 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.UniversalSymLiftExistsUniqueGlobalStatement` | build-observed |
-| M007570 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.UniversalSymLiftMulOdd` | volunteer-build-reviewed |
-| M007571 | P1144 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.UniversalSymLiftMulOddStatement` | build-observed |
-| M007572 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.UniversalWeilPairingPullbackExistsUnique` | volunteer-build-reviewed |
-| M007573 | P1144 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.UniversalWeilPairingPullbackExistsUniqueStatement` | build-observed |
-| M007580 | P1956 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AbsThetaIntegralLeSobolevSeminorm` | volunteer-build-reviewed |
-| M007581 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AbsThetaIntegralLeSobolevSeminormStatement` | volunteer-build-reviewed |
-| M007583 | P1956 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AbstractDiagonalBoundCollisionsCountedOnceStatement` | volunteer-build-reviewed |
-| M007584 | P1856 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AconvSingleList` | volunteer-build-reviewed |
-| M007585 | P2065 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdAtKStdOfTwist` | volunteer-build-reviewed |
-| M007587 | P1956 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AdAtToEAfOfIsIdemSum` | volunteer-build-reviewed |
-| M007589 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AddCharConductorIntegersContinuousNeOne` | volunteer-build-reviewed |
-| M007590 | P1856 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AddCharConductorIntegersContinuousNeOneStatement` | volunteer-build-reviewed |
-| M007591 | P0296 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AddCharDotProductTrivialOnTsupportNhds` | volunteer-build-reviewed |
-| M007593 | P2093 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AddCharSymplecticFinitePartRestEqOneStatement` | volunteer-build-reviewed |
-| M007594 | P0005 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.AddSubgroupFiniteQuotOfCommensurable` | volunteer-build-reviewed |

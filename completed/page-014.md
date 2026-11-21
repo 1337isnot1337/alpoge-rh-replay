@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M009143 | P0550 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapFourierJacobiRowAddStatement` | build-observed |
+| M009144 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapFourierJacobiToBesselLocalModel` | volunteer-build-reviewed |
+| M009145 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapFourierJacobiToBesselLocalModelStatement` | volunteer-build-reviewed |
+| M009149 | P1956 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapIntegrableAndBoundedLinearFormStatement` | volunteer-build-reviewed |
+| M009150 | P1813 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapIntertwinesCoreHeisenbergOperators` | volunteer-build-reviewed |
+| M009151 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapIntertwinesCoreHeisenbergOperatorsStatement` | volunteer-build-reviewed |
+| M009152 | P0649 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapLawsFactorFourierJacobiSource` | build-observed |
+| M009153 | P0679 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapLawsFactorFourierJacobiSourceStatement` | build-observed |
+| M009156 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapRowEqZeroUnlessRowMemDualLattice` | volunteer-build-reviewed |
+| M009157 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapRowEqZeroUnlessRowMemDualLatticeStatement` | volunteer-build-reviewed |
+| M009158 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapSupportFirstHalfAtLevelPlace` | volunteer-build-reviewed |
+| M009159 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapSupportFirstHalfAtLevelPlaceStatement` | volunteer-build-reviewed |
+| M009160 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapsHeisenbergTranslationLaw` | volunteer-build-reviewed |
+| M009161 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapsHeisenbergTranslationLawStatement` | volunteer-build-reviewed |
+| M009162 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapsPreserveSchwartzBruhatAndSurjective` | volunteer-build-reviewed |
+| M009163 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapsPreserveSchwartzBruhatAndSurjectiveStatement` | build-observed |
+| M009165 | P2177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatMapsSatisfyFlatLawsFinitePlacesStatement` | volunteer-build-reviewed |
+| M009168 | P0550 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatRowIndicatorOfSymLevelExchange` | volunteer-build-reviewed |
+| M009169 | P0583 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatRowIndicatorOfSymLevelExchangeStatement` | volunteer-build-reviewed |
+| M009170 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatRowMapEqRootExchangeOperatorTranslate` | volunteer-build-reviewed |
+| M009172 | P2133 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatSchwartzTargetUnipotentConjBesselCharacter` | volunteer-build-reviewed |
 | M009173 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatSchwartzTargetUnipotentConjBesselCharacterStatement` | volunteer-build-reviewed |
 | M009174 | P1813 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatSectionParabolicChange` | volunteer-build-reviewed |
 | M009175 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatThetaIntegrandLocallyUniformMajorant` | volunteer-build-reviewed |
@@ -381,24 +402,3 @@
 | M009661 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegrableMajorantCoordinateCosetMeasureStatement` | volunteer-build-reviewed |
 | M009664 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegrableOfRapidDecay` | volunteer-build-reviewed |
 | M009665 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegrableSchwartzMajorantPullbackUnitriangular` | volunteer-build-reviewed |
-| M009667 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegrableStandardPairThetaWeilRange` | volunteer-build-reviewed |
-| M009668 | P2065 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegrableStandardPairThetaWeilRangeStatement` | volunteer-build-reviewed |
-| M009669 | P1666 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegrableUnitaryQuotientHeightPowMulRapidlyDecr` | volunteer-build-reviewed |
-| M009670 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegrableUnitaryQuotientHeightPowMulRapidlyDecrStatement` | volunteer-build-reviewed |
-| M009671 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralAdeleCongrZeroOfResiduesSquarefree` | volunteer-build-reviewed |
-| M009675 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralBlockIndicator` | volunteer-build-reviewed |
-| M009676 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralBlockIndicatorStatement` | volunteer-build-reviewed |
-| M009677 | P0296 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralBoxInvariantEqMeasureRealMulSumReps` | build-observed |
-| M009678 | P0348 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralBoxInvariantEqMeasureRealMulSumRepsStatement` | build-observed |
-| M009679 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralCompAddEquivEqSmul` | volunteer-build-reviewed |
-| M009680 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralCoordinateShearHaarLocalField` | build-observed |
-| M009681 | P0550 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralCoordinateShearHaarLocalFieldStatement` | build-observed |
-| M009682 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralCoordinateVectorsChainSpaceSelfDual` | volunteer-build-reviewed |
-| M009683 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralCoordinateVectorsChainSpaceSelfDualStatement` | volunteer-build-reviewed |
-| M009685 | P1957 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralDefiniteQuotientEqClassSumStatement` | volunteer-build-reviewed |
-| M009686 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralEntriesOfCarriesStandardLattice` | volunteer-build-reviewed |
-| M009687 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralEntriesOfCarriesStandardLatticeStatement` | volunteer-build-reviewed |
-| M009688 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralFiniteAdeleOfSplitPlaceComponents` | volunteer-build-reviewed |
-| M009689 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralFiniteAdeleOfSplitPlaceComponentsStatement` | volunteer-build-reviewed |
-| M009690 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralFoldViaLintegralFormula` | volunteer-build-reviewed |
-| M009691 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IntegralFoldViaLintegralFormulaStatement` | volunteer-build-reviewed |

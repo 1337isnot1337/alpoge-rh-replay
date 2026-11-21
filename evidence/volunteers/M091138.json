@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M091138"
+  ],
+  "started_utc": "2026-11-21T13:39:51.919964+00:00",
+  "ended_utc": "2026-11-21T13:40:07.756352+00:00",
+  "elapsed_seconds": 15.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6881848
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.FactorCommutatorEqOfNonvanishing:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ebedd21d544012672318884e209082031773dcd394c54476f9286e1d2437479b",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.EntireApplyEqOfPeriodicOfSpanReal",
+    "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.EntireEqZeroOrEqZeroOfMulEqZero",
+    "Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.ExistsEqCexpQuadraticOfEquivalentFactors"
+  ],
+  "objects": {
+    "M091138": "5025527c669b8dfdc542590dd942a2e15284cbfc8cf8f371ffd9863a408f91bb"
+  },
+  "bundle_sha256": "efbe558b96e059ab51930efb5d315bef668d43c06a07a5784b677fd1400cd3dc",
+  "packet": "M091138",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21780#issuecomment-7063476320",
+  "reviewed_utc": "2026-11-21T17:43:03.432826+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M064053"
+  ],
+  "started_utc": "2026-11-21T12:40:28.335075+00:00",
+  "ended_utc": "2026-11-21T12:41:34.139247+00:00",
+  "elapsed_seconds": 65.8,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 6235856
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.TowerPadicCompletionMapEvalDependsOnLevel:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fd9cd7aeb628bc38108f3a1cca7d9346ae78a07f51cf3c8e90ae0ad624e6b93e",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.EigenOfTwoStep",
+    "Development.AbelianVarietyTheory.Definitions.Foundations.OpLDOneSubMemTriv"
+  ],
+  "objects": {
+    "M064053": "87bfe813cac2c593ae6c51b829d4e89cdb66d8ef64b35484ab3f6f6a4faf43b7"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "921dafe63b95e73475209879da9a1f47882bcaaf279d1250737f861be64f205d",
+  "packet": "M064053",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21638#issuecomment-7062746705",
+  "reviewed_utc": "2026-11-21T17:44:29.897888+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

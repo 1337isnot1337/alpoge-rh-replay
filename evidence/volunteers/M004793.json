@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M004793"
+  ],
+  "started_utc": "2026-11-21T13:01:57.762436+00:00",
+  "ended_utc": "2026-11-21T13:02:40.318211+00:00",
+  "elapsed_seconds": 42.5,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 7261204
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsUnitarisableTrivChar:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f2d92b2f45ca866c9303a5f4f2e3720d71c03c9c9099ae346e13f9799b7193f7",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology\u2082.InfOfIsBaseChange"
+  ],
+  "objects": {
+    "M004793": "7b35f826be96a1a959b4c26a43d2b9db26fec045c4f70ae8a54c80d16724bfe8"
+  },
+  "bundle_sha256": "28b75eb84383a3120b7116797a9794ea8e5913583283d4f2a50f79b8338d5c88",
+  "packet": "M004793",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21937#issuecomment-7063022344",
+  "reviewed_utc": "2026-11-21T17:41:20.653426+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

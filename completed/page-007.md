@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004443 | P0865 | `Development.AbelianVarietyTheory.Definitions.Jets.JetsOnCopiesCompatibleFrames` | build-observed |
+| M004445 | P0003 | `Development.AbelianVarietyTheory.Definitions.Jets.PowerSeriesHasSumAt` | volunteer-build-reviewed |
+| M004446 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.SameFns` | build-observed |
+| M004447 | P0758 | `Development.AbelianVarietyTheory.Definitions.Jets.SideFam` | wave-reused |
+| M004448 | P0295 | `Development.AbelianVarietyTheory.Definitions.Jets.SumIoPr` | wave-reused |
+| M004449 | P0705 | `Development.AbelianVarietyTheory.Definitions.Jets.SumIoPrAlt` | wave-reused |
+| M004451 | P1084 | `Development.AbelianVarietyTheory.Definitions.Jets.SurjectiveAppTopSqCube` | wave-reused |
 | M004452 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.TauZero` | build-observed |
 | M004453 | P1193 | `Development.AbelianVarietyTheory.Definitions.Jets.TwoPlaces` | build-observed |
 | M004454 | P0678 | `Development.AbelianVarietyTheory.Definitions.Jets.WigMap` | build-observed |
@@ -60,6 +67,7 @@
 | M004579 | P0393 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.OnesRepresent` | build-observed |
 | M004584 | P0758 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.PerIntOnAmb` | volunteer-build-reviewed |
 | M004585 | P0891 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.PhiTopAgree` | build-observed |
+| M004586 | P1993 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.PinColL` | volunteer-build-reviewed |
 | M004593 | P1665 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.PrinInf` | volunteer-build-reviewed |
 | M004603 | P1974 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.RealOf` | volunteer-build-reviewed |
 | M004610 | P1349 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.RowsPtAt` | volunteer-build-reviewed |
@@ -75,6 +83,7 @@
 | M004634 | P1272 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.TopLevExists` | volunteer-build-reviewed |
 | M004639 | P2050 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.TruePack` | volunteer-build-reviewed |
 | M004640 | P1974 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.TwTrans` | volunteer-build-reviewed |
+| M004641 | P1993 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.TwTransAlt` | volunteer-build-reviewed |
 | M004645 | P1712 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.UpNeNSOfUpNe` | volunteer-build-reviewed |
 | M004649 | P1502 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.ValueDoubleExact` | volunteer-build-reviewed |
 | M004651 | P1169 | `Development.AbelianVarietyTheory.Definitions.LatticeFrames.VanishingGramTermsBoundParams` | volunteer-build-reviewed |
@@ -89,6 +98,7 @@
 | M004668 | P0838 | `Development.AbelianVarietyTheory.Definitions.ModuliSpaces.IsSeparatedOfIsQProjOver` | volunteer-build-reviewed |
 | M004669 | P0731 | `Development.AbelianVarietyTheory.Definitions.ModuliSpaces.IsSymm` | wave-reused |
 | M004670 | P0436 | `Development.AbelianVarietyTheory.Definitions.ModuliSpaces.KerScheme` | volunteer-build-reviewed |
+| M004671 | P1114 | `Development.AbelianVarietyTheory.Definitions.ModuliSpaces.NotGoodClassZeroSucc` | volunteer-build-reviewed |
 | M004674 | P0731 | `Development.AbelianVarietyTheory.Definitions.ModuliSpaces.SectionsHaveFiniteDimension` | build-observed |
 | M004676 | P1193 | `Development.AbelianVarietyTheory.Definitions.ModuliSpaces.TopAmpExists` | volunteer-build-reviewed |
 | M004678 | P0810 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.AcrisTorsionFreeComplete` | wave-reused |
@@ -106,6 +116,7 @@
 | M004693 | P0731 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.CentralIdemCoeff` | wave-reused |
 | M004694 | P0891 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.CharAbove` | build-observed |
 | M004698 | P0917 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.CoeffRingsHaveRootsOfUnity` | build-observed |
+| M004700 | P1372 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ConjTupRefl` | volunteer-build-reviewed |
 | M004701 | P0239 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ConnPhiExtensionGeneratorEqZeta` | wave-reused |
 | M004702 | P0347 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ConvZero` | volunteer-build-reviewed |
 | M004703 | P2032 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.CoreEq` | build-observed |
@@ -162,6 +173,7 @@
 | M004787 | P0784 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsTameInertiaElementAtTwistPrime` | build-observed |
 | M004788 | P0096 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsTestRep` | volunteer-build-reviewed |
 | M004791 | P0615 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsUltrametricDistFinExt` | wave-reused |
+| M004793 | P1395 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsUnitarisableTrivChar` | volunteer-build-reviewed |
 | M004795 | P0974 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsWildInertiaCyclotomicElement` | build-observed |
 | M004796 | P0758 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.JSmul` | wave-reused |
 | M004799 | P0239 | `Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.KillingFormDiffCartanInvolution` | volunteer-build-reviewed |
@@ -274,6 +286,7 @@
 | M004950 | P0865 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.GaussDensDefinite` | build-observed |
 | M004951 | P0295 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.GgNone` | wave-reused |
 | M004952 | P0891 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.GlVolEqTsumSlabVol` | build-observed |
+| M004953 | P1616 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.GlobSet` | volunteer-build-reviewed |
 | M004956 | P0239 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.HermLat` | wave-reused |
 | M004957 | P0784 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.HermitianFormUnitaryOneOne` | build-observed |
 | M004958 | P1324 | `Development.AbelianVarietyTheory.Definitions.SemilocalFrames.IsBesPosOfBesselTied` | build-observed |
@@ -378,6 +391,7 @@
 | M005100 | P1395 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ConjScalarThm` | build-observed |
 | M005103 | P2065 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.DecayAtOfPos` | volunteer-build-reviewed |
 | M005104 | P1559 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.DepthPays` | volunteer-build-reviewed |
+| M005105 | P0295 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExistsFFNeZeroThree` | volunteer-build-reviewed |
 | M005106 | P0174 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExistsGlOfEquiv` | build-observed |
 | M005107 | P1444 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExistsHasCls` | volunteer-build-reviewed |
 | M005110 | P1920 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExistsMatchOver` | build-observed |
@@ -388,17 +402,3 @@
 | M005122 | P1444 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsHermitianAuxiliaryVectorSystemBesselVectors` | volunteer-build-reviewed |
 | M005124 | P1761 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsPointedOfIsHkIsog` | build-observed |
 | M005126 | P1245 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsStepWeil` | build-observed |
-| M005127 | P0174 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsSubquotientDetRepParInd` | volunteer-build-reviewed |
-| M005129 | P0096 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsUnitarisableOfCharIff` | volunteer-build-reviewed |
-| M005130 | P1420 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsVacFOfIsVacVec` | volunteer-build-reviewed |
-| M005131 | P0003 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.LeviEmbMemNormalizerLower` | volunteer-build-reviewed |
-| M005132 | P1444 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.LowVanishFockOfLowVanish` | volunteer-build-reviewed |
-| M005133 | P1938 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.MemHalfCosetSelf` | build-observed |
-| M005138 | P1218 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.NotInSupportOfSubsingleton` | build-observed |
-| M005142 | P1531 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.PartFixed` | volunteer-build-reviewed |
-| M005143 | P1299 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.PartW` | volunteer-build-reviewed |
-| M005145 | P0758 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ProjExists` | volunteer-build-reviewed |
-| M005147 | P1395 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.SqNormIntegralFundamentalDomainEqL2NormSq` | volunteer-build-reviewed |
-| M005148 | P0295 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.StandardOrderExtendedBasisApplyLowBlock` | volunteer-build-reviewed |
-| M005151 | P1350 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.TupPrimeEmpty` | volunteer-build-reviewed |
-| M005152 | P1974 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.TwistPlacesOffPrimeQZero` | volunteer-build-reviewed |

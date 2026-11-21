@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M140377"
+  ],
+  "started_utc": "2026-11-21T12:51:54.217405+00:00",
+  "ended_utc": "2026-11-21T12:52:05.062928+00:00",
+  "elapsed_seconds": 10.8,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6883280
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.ThetaDilations.ParAlg:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5b76fcc1eb0e54d93e5013c1f6f16e57f815b860be4dca3daac34485bc2d878b",
+  "rebuilt_project_modules": [
+    "CompanionTheory.SpectralGeometry.CountingDefinitions.AdelicEulerProducts.HypJ"
+  ],
+  "objects": {
+    "M140377": "f7769dd70ee978eff9643ca2aca124ef40f458f7ceff0daaa65e8b575cc2e86f"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "447339481f4c88e99d2c59c5f83cab59b675a4a262494d374c0ca5712d4e3795",
+  "packet": "M140377",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21842#issuecomment-7062924089",
+  "reviewed_utc": "2026-11-21T17:42:22.767317+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

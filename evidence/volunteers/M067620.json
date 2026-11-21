@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M067620"
+  ],
+  "started_utc": "2026-11-21T13:35:55.734885+00:00",
+  "ended_utc": "2026-11-21T13:36:42.032054+00:00",
+  "elapsed_seconds": 46.3,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 7144944
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CompletionUniversalLocalHom:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b0d5a8a5869e9e516451dd860e64f6ed033f36b19ef31c142fb475276bc3f697",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.FiniteCocycles",
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.ProjectionSurjective",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsCplAtApprox"
+  ],
+  "objects": {
+    "M067620": "4c9ebefde67d605a364b308e99c92b89c0ac7bc0f3564bde0dd66c02374cc38b"
+  },
+  "bundle_sha256": "b9090ff448df97c8863e3dae0f663e2be68e6100da93c647544538ec27efcf43",
+  "packet": "M067620",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21772#issuecomment-7063426511",
+  "reviewed_utc": "2026-11-21T17:43:12.171867+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

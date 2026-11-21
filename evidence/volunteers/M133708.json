@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M133708"
+  ],
+  "started_utc": "2026-11-21T12:42:35.826312+00:00",
+  "ended_utc": "2026-11-21T12:43:03.981407+00:00",
+  "elapsed_seconds": 30.5,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6795116
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.MetricProofs.GapEqWeightSubNext:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2217a2df19106171faffb097947035981bc91aa85870fa6a1b261ee57e5df7d5",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.CoreStatements.PluriharmonicCharts.XPolyTowtBound"
+  ],
+  "objects": {
+    "M133708": "77167d336608b996a718e52949e71d4965fb0546975b3744b5fbcdd0951596fe"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "6fdc20ddbe9bb811a2137e444d477a1613d4b0aed0436b0c2b81ae2c4f6b04fd",
+  "packet": "M133708",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21662#issuecomment-7062806404",
+  "reviewed_utc": "2026-11-21T17:44:17.972117+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

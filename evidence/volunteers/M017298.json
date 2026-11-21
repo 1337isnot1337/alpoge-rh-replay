@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M017298"
+  ],
+  "started_utc": "2026-11-21T12:43:10.231289+00:00",
+  "ended_utc": "2026-11-21T12:43:27.051376+00:00",
+  "elapsed_seconds": 16.8,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6959644
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChTwoBlockDiagonalSum:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e74b1a5b235a92f8271232f96386e0337ac09c352f5ae5b05c9f438584a5c5b6",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.ExtFormAdjEqNegSecondForm"
+  ],
+  "objects": {
+    "M017298": "1930d328168780c9e4cb0f5b9300c47974d714d08baae665c349eec01347df9e"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "4d4a1f7a662d517d1ca6091365ac4cbd7c0e11ce3417c5a526b5622f948f918e",
+  "packet": "M017298",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21637#issuecomment-7062807667",
+  "reviewed_utc": "2026-11-21T17:44:30.552056+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M047966"
+  ],
+  "started_utc": "2026-11-21T13:31:10.071040+00:00",
+  "ended_utc": "2026-11-21T13:31:25.046021+00:00",
+  "elapsed_seconds": 15.0,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6849276
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularLocalDifferentialsBasis:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "772e582271052b55d4b038954aa4b642eb8bb8891d92e6a78103e16e32513935",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMinimalLocalGenerators",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulMemOfForall",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemSqLocalizationOfPderivMem"
+  ],
+  "objects": {
+    "M047966": "8b9271d47ad503921dfc5c7c87c4ed764f991a990b422e836122a2971da80dc6"
+  },
+  "bundle_sha256": "336fb037ca10a592b051cb694cbc1cd59ad4ace17fcfea0793208c35ba134270",
+  "packet": "M047966",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21703#issuecomment-7063347865",
+  "reviewed_utc": "2026-11-21T17:43:48.918569+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

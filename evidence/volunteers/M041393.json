@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M041393"
+  ],
+  "started_utc": "2026-11-21T12:55:05.947876+00:00",
+  "ended_utc": "2026-11-21T12:55:13.302170+00:00",
+  "elapsed_seconds": 9.7,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6837232
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.LineGramCurvatureAllFormulaStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5ccb37715db20245e78a101648585aa61b2addd2ce15d48f8c3809f271a8b876",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LineGramCurvatureAllFormula"
+  ],
+  "objects": {
+    "M041393": "4baec962948a7d65cce493ba8ff8a14444573c4f1b249a94527521afbcfa5ab6"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "cf146720ff81203584581ad95b2e097a05d9f15196c0355e1beb86050390b263",
+  "packet": "M041393",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21836#issuecomment-7062938122",
+  "reviewed_utc": "2026-11-21T17:42:24.544897+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

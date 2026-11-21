@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M104657"
+  ],
+  "started_utc": "2026-11-21T12:59:45.166427+00:00",
+  "ended_utc": "2026-11-21T13:00:16.309095+00:00",
+  "elapsed_seconds": 31.1,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 6179720
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.IteratedHeckeBounds.Lemmas:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4ca1deef53c7bde4d9577d1325349e45f0999e5cd47db70d80b650ea00cae2c6",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.IteratedHeckeBounds.HkIterContOn",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.ReductionBoundsTorsion.IteratedHeckeBounds.NormSqLeSum"
+  ],
+  "objects": {
+    "M104657": "d32fcfa892dd56810022e777e0a0919fe99d542185aa5fe18baf81fb3f8dcb04"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "7d9dfd84a84abcccc9f9ff04c49c3949506e3e59b1743fac1b2fccf478eaa964",
+  "packet": "M104657",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21935#issuecomment-7062966080",
+  "reviewed_utc": "2026-11-21T17:41:23.248866+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

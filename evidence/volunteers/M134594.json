@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M134594"
+  ],
+  "started_utc": "2026-11-21T12:44:23.143534+00:00",
+  "ended_utc": "2026-11-21T12:44:32.780425+00:00",
+  "elapsed_seconds": 11.9,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936484,
+    "peak_child_rss_kib": 6816176
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.MetricProofs.WeightMapAntisymmetricDeltaIdentityStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9fe6b9614ddf54b3414a086cb1af4a765a11e9ca6cb8026c88acb384c2e59467",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.WeightMapAntisymmetricDeltaIdentity",
+    "Development.WeilBound.CoreStatements.PluriharmonicCharts.XPolyDelta"
+  ],
+  "objects": {
+    "M134594": "c827bccac43ea9c86577818abad8b2b23b242713a3208d61ca01a07cfa2c2983"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "e203f0dc700e2db6a50e11c5eb8f9357d47bea35a7d91666ee3cf23882d57224",
+  "packet": "M134594",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21644#issuecomment-7062809421",
+  "reviewed_utc": "2026-11-21T17:44:25.189169+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

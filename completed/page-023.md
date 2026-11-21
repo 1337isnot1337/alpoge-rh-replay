@@ -2,6 +2,30 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M015669 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanMatrixUnitaryGroupPreservesGram` | volunteer-build-reviewed |
+| M015670 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanMatrixUnitaryGroupPreservesGramStatement` | volunteer-build-reviewed |
+| M015671 | P2134 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanMaximalCompactIntertwinesFockDerivati` | volunteer-build-reviewed |
+| M015672 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanMaximalCompactIntertwinesFockDerivatiStatement` | volunteer-build-reviewed |
+| M015673 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanMaximalCompactIsCompact` | volunteer-build-reviewed |
+| M015676 | P1588 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanNormSquareBaseChangeStatement` | build-observed |
+| M015677 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanNormSquareExists` | volunteer-build-reviewed |
+| M015678 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanNormWittColumnTranslate` | volunteer-build-reviewed |
+| M015686 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanParabolicFixedDecomposition` | volunteer-build-reviewed |
+| M015687 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanParabolicFixedDecompositionStatement` | volunteer-build-reviewed |
+| M015688 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanPartialFourierSurjective` | volunteer-build-reviewed |
+| M015690 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanPolynomialTensorCharacter` | volunteer-build-reviewed |
+| M015691 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanPolynomialTensorCharacterStatement` | volunteer-build-reviewed |
+| M015692 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanPolynomialTensorWeight` | volunteer-build-reviewed |
+| M015696 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanRapidKernelOperatorCompRapidFamily` | build-observed |
+| M015697 | P1351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanRapidKernelOperatorCompRapidFamilyStatement` | build-observed |
+| M015698 | P2134 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSchwartzDatumStableHeisenbergDerivati` | volunteer-build-reviewed |
+| M015699 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSchwartzDatumStableHeisenbergDerivatiStatement` | volunteer-build-reviewed |
+| M015706 | P2682 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSectionIntegralFrame` | build-observed |
+| M015708 | P1301 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSectionMatrixInvertibleLevelReduction` | build-observed |
+| M015709 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSectionMatrixInvertibleLevelReductionStatement` | build-observed |
+| M015711 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSlabCoveredByTranslatesOfSmallerSlabStatement` | volunteer-build-reviewed |
+| M015713 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSlabOpenUnitCubeHaarPosFiniteStatement` | volunteer-build-reviewed |
+| M015714 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSmoothBumpWithTrigonometricExpansion` | volunteer-build-reviewed |
 | M015715 | P2052 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSmoothBumpWithTrigonometricExpansionStatement` | volunteer-build-reviewed |
 | M015720 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSplittingsDifferByCharacter` | volunteer-build-reviewed |
 | M015721 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanSplittingsDifferByCharacterStatement` | volunteer-build-reviewed |
@@ -67,6 +91,7 @@
 | M015980 | P1588 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AsymptoticRiemannRochAmpleCoherentStatement` | wave-reused |
 | M015981 | P1667 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AtAlgebraMapSgnAdSubOne` | volunteer-build-reviewed |
 | M015983 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AtPrimeTensorIsDomainIsIntegrallyClosedFaithfulS` | wave-reused |
+| M015985 | P1790 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AtVecMulVecRight` | volunteer-build-reviewed |
 | M015986 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AtWAtPlSelf` | volunteer-build-reviewed |
 | M015987 | P0918 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AtlasSectionsMulDivNonvanishingIsOpen` | wave-reused |
 | M015988 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AtlasSectionsMulDivNonvanishingIsOpenStatement` | wave-reused |
@@ -89,6 +114,7 @@
 | M016049 | P2447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AuxiliarySetLAdicPlace` | volunteer-build-reviewed |
 | M016050 | P2475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AuxiliarySetLAdicPlaceStatement` | volunteer-build-reviewed |
 | M016051 | P2081 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AuxiliaryVectorDecompositionEqZero` | volunteer-build-reviewed |
+| M016052 | P1921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AuxiliaryVectorUniformizerExponent` | volunteer-build-reviewed |
 | M016055 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AveragedIntegralFunctional` | volunteer-build-reviewed |
 | M016056 | P1504 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AvgEqOfLeRightStabiliser` | volunteer-build-reviewed |
 | M016058 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AvgFormApply` | volunteer-build-reviewed |
@@ -330,6 +356,8 @@
 | M016604 | P1504 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialSectionAtlasStatement` | build-observed |
 | M016605 | P1644 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialSectionBound` | build-observed |
 | M016606 | P1667 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialSectionBoundStatement` | build-observed |
+| M016607 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialSmoothOffDivisor` | volunteer-build-reviewed |
+| M016608 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPotentialSmoothOffDivisorStatement` | volunteer-build-reviewed |
 | M016609 | P0583 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPshExhaustionWeights` | build-observed |
 | M016610 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundaryPshExhaustionWeightsStatement` | build-observed |
 | M016611 | P2475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundarySectionDiagonalInteriorEmpty` | volunteer-build-reviewed |
@@ -374,31 +402,3 @@
 | M016696 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoxLatticeIsZlattice` | volunteer-build-reviewed |
 | M016697 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoxLatticeIsZlatticeStatement` | volunteer-build-reviewed |
 | M016699 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoxMonomialFamilyProdMemNormBallOfExponentLtStatement` | volunteer-build-reviewed |
-| M016700 | P2081 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoxProductDiagonalFunctionalNeZero` | volunteer-build-reviewed |
-| M016701 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoxProductDiagonalFunctionalNeZeroStatement` | volunteer-build-reviewed |
-| M016702 | P1996 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BrPairFApply` | volunteer-build-reviewed |
-| M016707 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BranchingMapHermitianNormLeProdBounds` | volunteer-build-reviewed |
-| M016708 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BranchingMapHermitianNormLeProdBoundsStatement` | volunteer-build-reviewed |
-| M016709 | P2067 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BranchingPairingArchimedeanBoundFockNorm` | volunteer-build-reviewed |
-| M016710 | P2081 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BranchingPairingArchimedeanBoundFockNormStatement` | volunteer-build-reviewed |
-| M016711 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BranchingPairingExtendScalars` | volunteer-build-reviewed |
-| M016712 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BranchingPairingExtendScalarsStatement` | volunteer-build-reviewed |
-| M016713 | P2053 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BranchingPairingIntegralUpToExponents` | volunteer-build-reviewed |
-| M016714 | P2067 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BranchingPairingIntegralUpToExponentsStatement` | volunteer-build-reviewed |
-| M016715 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BranchingPairingMapExtendScalarsEmbedding` | volunteer-build-reviewed |
-| M016716 | P2053 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BranchingPairingMapExtendScalarsEmbeddingStatement` | volunteer-build-reviewed |
-| M016720 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BruhatCellRationalDecompositionStatement` | volunteer-build-reviewed |
-| M016721 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BruhatUnipotentLeviDecomp` | volunteer-build-reviewed |
-| M016722 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BtOrderEmbeddingOpenImmersion` | volunteer-build-reviewed |
-| M016723 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BtOrderEqTopOfEtale` | volunteer-build-reviewed |
-| M016724 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BtOrderIsHopfOrderNoetherian` | volunteer-build-reviewed |
-| M016732 | P0296 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BundleIsomorphismLocalToGlobal` | build-observed |
-| M016733 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BundleIsomorphismLocalToGlobalStatement` | build-observed |
-| M016734 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BundleOfRows` | volunteer-build-reviewed |
-| M016743 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BurnsideSurjOfIrred` | volunteer-build-reviewed |
-| M016749 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CMColumnLocalGLStabilizer` | volunteer-build-reviewed |
-| M016751 | P2669 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CMLatticeDividedPowerJetIntegralityOfHyp` | build-observed |
-| M016752 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.COneH2UnitsSubsingleton` | build-observed |
-| M016753 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.COnePropertyFiniteExtension` | volunteer-build-reviewed |
-| M016754 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.COnePropertyFiniteExtensionStatement` | volunteer-build-reviewed |
-| M016756 | P1618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CTSubmatrixMul` | volunteer-build-reviewed |

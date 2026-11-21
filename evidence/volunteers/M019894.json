@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M019894"
+  ],
+  "started_utc": "2026-11-21T13:27:10.873857+00:00",
+  "ended_utc": "2026-11-21T13:27:39.970557+00:00",
+  "elapsed_seconds": 29.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6934836
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.CountGrowthExponentialRadiiStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "081e013206fbbfe488ef89dfed94e251864b102bcda9cd26db6bed9d05dc7892",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CountGrowthExponentialRadii",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TendstoRankDivPowOfChooseBounds",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TendstoRankDivPowOfChooseBoundsStatement"
+  ],
+  "objects": {
+    "M019894": "9dc1f91b552dbfcf62aa5f96c21f0b838e37f12eed9a6653ea94af34617aadc4"
+  },
+  "bundle_sha256": "7d8c56403404ef4fee1b5d2be5fd0609ad0e6d082a115cb98d94b66ff04fba90",
+  "packet": "M019894",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21694#issuecomment-7063294189",
+  "reviewed_utc": "2026-11-21T17:44:00.127839+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}
