@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.IsWeaklyRegularMapCAppendMapLinForm",
+  "source_sha256": "7cc955fdb99e10b7f7f794e6384c0d11789867391bb2ac90499b0cd8b6be1aca",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Unfold elimIndices membership with mem_elimIndices so dot notation resolves; qualify Matrix.one_apply (now protected)."
+}

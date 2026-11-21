@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/AlternatingMapSumSmulEqDetSmul.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/AlternatingMapSumSmulEqDetSmul.lean
+@@ -63,7 +63,7 @@
+         congr 1
+         simp
+         ring
+-  exact congrArg (fun F : MultilinearMap A (fun _ : Fin (D + 1) => A × M) N => F v) key
++  exact congrArg (fun F : MultilinearMap _ (fun _ : Fin (D + 1) => A × M) N => F v) key
+ 
+ theorem alternating_map_sum_smul_eq_det_smul {n : ℕ} (ω : M [⋀^Fin n]→ₗ[A] N)
+     (a : Matrix (Fin n) (Fin n) A) (w : Fin n → M) :

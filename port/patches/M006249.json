@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsMvPolynomialOfIteratedBackwardDifferenceVa",
+  "source_sha256": "93433548d5ea94fe22824f69f2a06a1f17ee0a77efe8c45ae0baa88f2a677956",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "MultilinearMap now takes the ring homomorphism explicitly (RingHom.id \u2124); refer to the locally defined DiffVanish.form by its full name since dot notation no longer unfolds the reducible DiffVanish abbreviation."
+}

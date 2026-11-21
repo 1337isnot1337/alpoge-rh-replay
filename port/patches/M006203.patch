@@ -1,0 +1,29 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/ContractMultilinearApply.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/ContractMultilinearApply.lean
+@@ -18,7 +18,7 @@
+     simp
+   · simp [Function.update_of_ne h]
+ 
+-def contractMultilinear (φ : ∀ i, X i →ₗ[R] R) (j : ι) : MultilinearMap R X (X j) where
++def contractMultilinear (φ : ∀ i, X i →ₗ[R] R) (j : ι) : MultilinearMap (RingHom.id R) X (X j) where
+   toFun x := (∏ i ∈ Finset.univ.erase j, φ i (x i)) • x j
+   map_update_add' := by
+     intro inst x k y z
+@@ -48,7 +48,7 @@
+       exact smul_comm _ _ _
+     · have hk := h₂ h
+       simp only [Finset.prod_update_of_mem hk, Function.update_of_ne (Ne.symm h), map_smul,
+-        smul_eq_mul, mul_assoc, mul_smul]
++        smul_eq_mul, mul_assoc, mul_smul, RingHom.id_apply]
+ 
+ @[simp] theorem contractMultilinear_apply (φ : ∀ i, X i →ₗ[R] R) (j : ι) (x : ∀ i, X i) :
+     contractMultilinear φ j x = (∏ i ∈ Finset.univ.erase j, φ i (x i)) • x j := rfl
+@@ -70,7 +70,7 @@
+ variable {ι : Type*} [Fintype ι] {R : Type*} [CommSemiring R]
+   {X : ι → Type*} [∀ i, AddCommMonoid (X i)] [∀ i, Module R (X i)]
+ 
+-def prodMultilinear (φ : ∀ i, X i →ₗ[R] R) : MultilinearMap R X R :=
++def prodMultilinear (φ : ∀ i, X i →ₗ[R] R) : MultilinearMap (RingHom.id R) X R :=
+   (MultilinearMap.mkPiAlgebra R ι R).compLinearMap φ
+ 
+ @[simp] theorem prodMultilinear_apply (φ : ∀ i, X i →ₗ[R] R) (x : ∀ i, X i) :

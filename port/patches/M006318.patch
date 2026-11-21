@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsWeaklyRegularMapCAppendMapLinForm.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsWeaklyRegularMapCAppendMapLinForm.lean
+@@ -294,7 +294,7 @@
+     killVars_X_of_mem (by exact ⟨hi, rfl⟩), mul_zero, zero_add, map_sum,
+     Finset.sum_subtype (p := fun j => j ≠ j₀) _ (by simp), ← Finset.sum_neg_distrib]
+   refine Finset.sum_congr rfl fun j _ => ?_
+-  rw [map_mul, killVars_C, killVars_X_of_notMem (fun h => j.2 h.2), linFormInvCoeff, if_neg j.2,
++  rw [map_mul, killVars_C, killVars_X_of_notMem (fun h => j.2 (mem_elimIndices.mp h).2), linFormInvCoeff, if_neg j.2,
+     C_neg, neg_mul]
+ 
+ theorem linFormElim_linForm {S : Set ι} {i : ι} (hi : i ∈ S) :

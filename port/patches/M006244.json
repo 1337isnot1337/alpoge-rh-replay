@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsLinearEquivMapLatticeEq",
+  "source_sha256": "e86c79bccb81d8d141f0ad5ee04de0638d0a83857f505bab854d37ddc44265eb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use IsFullLattice in place of IsLattice for the spanning hypotheses; use Module.Free.chooseBasis with an IsLattice.free-derived instance and the renamed Module.Basis.extendOfIsFullLattice."
+}

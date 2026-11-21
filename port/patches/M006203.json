@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ContractMultilinearApply",
+  "source_sha256": "5e41e89a4d4b90ec65528b2c18d1cfe667c3de7691573297140b0ed8fdfd3040",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "MultilinearMap now takes the ring homomorphism explicitly (RingHom.id R); qualify RingHom.id_apply in the simp set."
+}

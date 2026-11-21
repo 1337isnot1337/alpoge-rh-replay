@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MapSpanBaseChangeEquivSubmoduleOf",
+  "source_sha256": "51e99a426e151ddaef79aa8c229871ca1ee1225acc111616cefea9494b9159ad",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "TensorProduct.induction no longer has a zero case; drop the zero branches (tmul and add branches already cover them)."
+}

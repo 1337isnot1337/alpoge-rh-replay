@@ -1,0 +1,20 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsDiscreteValuationRingLocalizationOfIsDedekindD.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsDiscreteValuationRingLocalizationOfIsDedekindD.lean
+@@ -96,7 +96,7 @@
+   [Module.Finite R S]
+ 
+ lemma liesOver_maximalIdeal (n : Ideal S) [n.IsMaximal] : n.LiesOver (maximalIdeal R) :=
+-  ⟨(eq_maximalIdeal (Ideal.isMaximal_comap_of_isIntegral_of_isMaximal n)).symm⟩
++  ⟨(eq_maximalIdeal (Ideal.isMaximal_under_of_isIntegral_of_isMaximal n)).symm⟩
+ 
+ lemma length_quot_maximal (n : Ideal S) [n.IsMaximal] :
+     Module.length R (S ⧸ n) = n.inertiaDeg R := by
+@@ -123,7 +123,7 @@
+   have := liesOver_maximalIdeal R n
+   rw [Ideal.inertiaDeg_eq_of_isMaximal (maximalIdeal R) n]
+   refine Algebra.finrank_eq_of_equiv_equiv (RingEquiv.refl _)
+-    (IsLocalization.AtPrime.equivQuotMaximalIdeal n B) ?_
++    (IsLocalization.AtPrime.equivQuotMaximalIdeal n B).toRingEquiv ?_
+   ext a
+   change residue B (algebraMap R B a) =
+     IsLocalization.AtPrime.equivQuotMaximalIdeal n B (Ideal.Quotient.mk n (algebraMap R S a))

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.ExistsBasicOpenEqZeroOfMemIInfPowSmul",
+  "source_sha256": "6f7db540f5844000292a0e502d9fb2767c1250f76d47f4dc924a77f31136a28e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "TensorProduct.induction no longer has a zero case; drop the zero branch (the add and tmul branches already cover it)."
+}

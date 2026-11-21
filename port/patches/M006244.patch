@@ -1,0 +1,41 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/ExistsLinearEquivMapLatticeEq.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/ExistsLinearEquivMapLatticeEq.lean
+@@ -13,12 +13,14 @@
+     rw [← Set.range_comp]; rfl
+   rw [h, ← Submodule.map_span, b.span_eq, Submodule.map_top, Submodule.range_subtype]
+ 
+-theorem exists_linearEquiv_map_lattice_eq : ∀ {R : Type u_1} [inst : CommRing R] [inst_1 : IsDomain R] [IsDiscreteValuationRing R] (K : Type u_2) [inst_3 : Field K] [inst_4 : Algebra R K] [IsFractionRing R K] {V : Type u_3} [inst_6 : AddCommGroup V] [inst_7 : Module K V] [inst_8 : Module R V] [inst_9 : IsScalarTower R K V] (A B : Submodule R V) [Submodule.IsLattice K A] [Submodule.IsLattice K B], Exists fun (g : LinearEquiv (RingHom.id K) V V) ↦ Eq (Submodule.map (LinearMap.restrictScalars R (LinearEquiv.toLinearMap g)) A) B := by
++theorem exists_linearEquiv_map_lattice_eq : ∀ {R : Type u_1} [inst : CommRing R] [inst_1 : IsDomain R] [IsDiscreteValuationRing R] (K : Type u_2) [inst_3 : Field K] [inst_4 : Algebra R K] [IsFractionRing R K] {V : Type u_3} [inst_6 : AddCommGroup V] [inst_7 : Module K V] [inst_8 : Module R V] [inst_9 : IsScalarTower R K V] (A B : Submodule R V) [Submodule.IsFullLattice K A] [Submodule.IsFullLattice K B], Exists fun (g : LinearEquiv (RingHom.id K) V V) ↦ Eq (Submodule.map (LinearMap.restrictScalars R (LinearEquiv.toLinearMap g)) A) B := by
+   intro R _ _ _ K _ _ _ V _ _ _ _ A B _ _
+-  let bA := Free.chooseBasis R A
+-  let bB := Free.chooseBasis R B
+-  let eA := bA.extendOfIsLattice K
+-  let eB := bB.extendOfIsLattice K
++  haveI : Module.Free R ↥A := Submodule.IsLattice.free K A
++  haveI : Module.Free R ↥B := Submodule.IsLattice.free K B
++  let bA := Module.Free.chooseBasis R A
++  let bB := Module.Free.chooseBasis R B
++  let eA := bA.extendOfIsFullLattice K
++  let eB := bB.extendOfIsFullLattice K
+   let e := eA.indexEquiv eB
+   refine ⟨eA.equiv eB e, ?_⟩
+   have hA := span_range_basis_coe A bA
+@@ -33,14 +35,14 @@
+   constructor
+   · rintro ⟨_, ⟨i, rfl⟩, rfl⟩
+     refine ⟨e i, ?_⟩
+-    have h1 : (bA i : V) = eA i := (bA.extendOfIsLattice_apply K i).symm
+-    have h2 : (bB (e i) : V) = eB (e i) := (bB.extendOfIsLattice_apply K (e i)).symm
++    have h1 : (bA i : V) = eA i := (bA.extendOfIsFullLattice_apply K i).symm
++    have h2 : (bB (e i) : V) = eB (e i) := (bB.extendOfIsFullLattice_apply K (e i)).symm
+     simp only [LinearMap.restrictScalars_apply, LinearEquiv.coe_coe]
+     rw [h1, h2, Basis.equiv_apply]
+   · rintro ⟨j, rfl⟩
+     refine ⟨(bA (e.symm j) : V), ⟨e.symm j, rfl⟩, ?_⟩
+-    have h1 : (bA (e.symm j) : V) = eA (e.symm j) := (bA.extendOfIsLattice_apply K _).symm
+-    have h2 : (bB j : V) = eB j := (bB.extendOfIsLattice_apply K j).symm
++    have h1 : (bA (e.symm j) : V) = eA (e.symm j) := (bA.extendOfIsFullLattice_apply K _).symm
++    have h2 : (bB j : V) = eB j := (bB.extendOfIsFullLattice_apply K j).symm
+     simp only [LinearMap.restrictScalars_apply, LinearEquiv.coe_coe]
+     rw [h1, h2, Basis.equiv_apply, Equiv.apply_symm_apply]
+ 

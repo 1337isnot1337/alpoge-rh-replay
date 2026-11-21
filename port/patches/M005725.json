@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.LandauSummableOfExpDirichletSeriesEntire",
+  "source_sha256": "09a9818d3921f33109f3c0312e9c91f773fae2a488644e4f75cb0fc99462e04f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed Metric.mem_eball (the EMetric ball API moved to Metric.eball)."
+}
