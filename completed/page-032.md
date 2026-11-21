@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M023833 | P2478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCarriedFrameTheoremOfCube` | volunteer-build-reviewed |
+| M023842 | P2449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCarriesTransportUniformisingIsoStatement` | volunteer-build-reviewed |
+| M023849 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartanInvolutionExtendSwappingHyperbolicPa` | build-observed |
+| M023850 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartanInvolutionExtendSwappingHyperbolicPaStatement` | volunteer-build-reviewed |
+| M023851 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartanInvolutionHermitianSignature` | volunteer-build-reviewed |
+| M023853 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartanInvolutionHyperbolicSwapExtension` | volunteer-build-reviewed |
+| M023855 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartanInvolutionOfHasHermitianSignature` | build-observed |
+| M023856 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartanInvolutionOfHasHermitianSignatureStatement` | volunteer-build-reviewed |
+| M023858 | P2478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartierDivisorDetLieEigenpartsToroidal` | volunteer-build-reviewed |
+| M023866 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartierDualLiftLinearCoefficientsMod` | build-observed |
+| M023867 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartierDualLiftLinearCoefficientsModStatement` | build-observed |
+| M023868 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartierDualTangentOfCoboundaryOneEqSmul` | build-observed |
 | M023869 | P0948 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartierDualTangentOfCoboundaryOneEqSmulStatement` | build-observed |
 | M023879 | P2449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCdvrDominating` | volunteer-build-reviewed |
 | M023900 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCechPrimitiveBoxSegment` | volunteer-build-reviewed |
@@ -390,15 +402,3 @@
 | M024710 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDescentLinearisedLineBundleFiniteGroupQuotStatement` | volunteer-build-reviewed |
 | M024712 | P2364 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDescentMorphismToLocalSchemeStatement` | volunteer-build-reviewed |
 | M024713 | P2557 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDescentMumfordBundleQuotient` | volunteer-build-reviewed |
-| M024717 | P2478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDescentOfEqualisedProperCoverNormal` | volunteer-build-reviewed |
-| M024719 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetCharInvariantSameValueTwisted` | volunteer-build-reviewed |
-| M024720 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetCharInvariantSameValueTwistedStatement` | volunteer-build-reviewed |
-| M024723 | P2246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetIdealCoprimeSplitSupportedPointStatement` | volunteer-build-reviewed |
-| M024724 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetLineCoordinateIso` | wave-reused |
-| M024725 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetLineCoordinateIsoStatement` | wave-reused |
-| M024727 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetNeZeroOfRowsSeparating` | volunteer-build-reviewed |
-| M024728 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetNeZeroOfRowsSeparatingStatement` | volunteer-build-reviewed |
-| M024729 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetOneMulBlockUnitaryDecomposition` | volunteer-build-reviewed |
-| M024730 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetOneMulBlockUnitaryDecompositionStatement` | volunteer-build-reviewed |
-| M024731 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetOneMulStdBlock` | volunteer-build-reviewed |
-| M024732 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetOneMulStdBlockStatement` | volunteer-build-reviewed |

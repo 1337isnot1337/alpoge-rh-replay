@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013026 | P1220 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralGauge` | volunteer-build-reviewed |
+| M013027 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralNthRootTestModelPoint` | volunteer-build-reviewed |
+| M013029 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralPointOfTorusPointValuationZero` | volunteer-build-reviewed |
+| M013030 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralPointOfTorusPointValuationZeroStatement` | volunteer-build-reviewed |
+| M013031 | P0706 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInverseExtensionProperClosure` | build-observed |
+| M013033 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInvertibleAdaptedBasisLinkMatrix` | volunteer-build-reviewed |
 | M013034 | P1171 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInvertibleAdaptedBasisLinkMatrixStatement` | build-observed |
 | M013035 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInvertibleMatrixChangeOfSpanEq` | volunteer-build-reviewed |
 | M013037 | P0550 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIsAffineOpenDisjointImageOfIsConstructible` | build-observed |
@@ -396,9 +402,3 @@
 | M013680 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.KfBijective` | volunteer-build-reviewed |
 | M013681 | P0007 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.KummerTwistRelationAndFixedField` | volunteer-build-reviewed |
 | M013683 | P1789 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LabelMapKernelEqIntegralTorsionStatement` | build-observed |
-| M013685 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LabelledTorsionValuesAdditiveKernelSurjectiveStatement` | volunteer-build-reviewed |
-| M013688 | P0583 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LeOfZpowMulUnitEq` | build-observed |
-| M013689 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LePreimageOpenPartIffTestCoordinates` | wave-reused |
-| M013690 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LePreimageOpenPartIffTestCoordinatesStatement` | volunteer-build-reviewed |
-| M013691 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionOfOneAlgClosedField` | volunteer-build-reviewed |
-| M013693 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionValuedFieldTwistedUniformisation` | volunteer-build-reviewed |

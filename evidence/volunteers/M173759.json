@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M173759"
+  ],
+  "started_utc": "2026-11-21T12:21:37.303341+00:00",
+  "ended_utc": "2026-11-21T12:30:46.794828+00:00",
+  "elapsed_seconds": 549.5,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5806756
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantTheorems.FormPartialDerivatives:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "25de65fc214124643400415a99ce6f476e9bb1c15db9dae34c681f2723d52031",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantLemmas.PerpendicularDeterminants.DetMemSubalgebra",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantLemmas.PerpendicularDeterminants.PerpVecOfPerp",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.PerpVecPerpSt"
+  ],
+  "objects": {
+    "M173759": "3b081cf4367b513fe5046eebbf4bf1c07aa66e6e07fdd4a3076781a08cdfa0d5"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "14703bb32c6b1e14def45a5d36ff041c68863cba2fa0459710a4c2baa57ae343",
+  "packet": "M173759",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21223#issuecomment-7062622719",
+  "reviewed_utc": "2026-11-21T17:49:31.935493+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013685 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LabelledTorsionValuesAdditiveKernelSurjectiveStatement` | volunteer-build-reviewed |
+| M013688 | P0583 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LeOfZpowMulUnitEq` | build-observed |
+| M013689 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LePreimageOpenPartIffTestCoordinates` | wave-reused |
+| M013690 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LePreimageOpenPartIffTestCoordinatesStatement` | volunteer-build-reviewed |
+| M013691 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionOfOneAlgClosedField` | volunteer-build-reviewed |
+| M013693 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionValuedFieldTwistedUniformisation` | volunteer-build-reviewed |
 | M013694 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LevelConditionValuedFieldTwistedUniformisationStatement` | volunteer-build-reviewed |
 | M013696 | P1958 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LiftValuationIntegralNormStatement` | volunteer-build-reviewed |
 | M013698 | P0785 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.LineBundleIsoExtendOfNormalBase` | build-observed |
@@ -396,9 +402,3 @@
 | M014660 | P1445 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneComplementSkewHermitian` | volunteer-build-reviewed |
 | M014661 | P1474 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneComplementSkewHermitianStatement` | volunteer-build-reviewed |
 | M014662 | P1445 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneComplementSplitBasis` | volunteer-build-reviewed |
-| M014663 | P1474 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneComplementSplitBasisStatement` | volunteer-build-reviewed |
-| M014664 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneDarbouxCoordinatesCompatible` | volunteer-build-reviewed |
-| M014665 | P2052 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneDarbouxCoordinatesCompatibleStatement` | volunteer-build-reviewed |
-| M014667 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneDarbouxCoordinatesExistStatement` | volunteer-build-reviewed |
-| M014668 | P2052 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneDarbouxEvaluationIdentity` | volunteer-build-reviewed |
-| M014669 | P2067 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneDarbouxEvaluationIdentityStatement` | volunteer-build-reviewed |

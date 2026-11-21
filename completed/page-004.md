@@ -3,6 +3,7 @@
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
 | M002192 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TaylorCoefficientForms` | volunteer-build-reviewed |
+| M002193 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorCoordinateForms` | volunteer-build-reviewed |
 | M002194 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorNormBound` | volunteer-build-reviewed |
 | M002195 | P0838 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorPlaceNorm` | build-observed |
 | M002196 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.TensorProductAction` | wave-reused |
@@ -111,6 +112,7 @@
 | M002372 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.AdjointCanonicalGauge` | build-observed |
 | M002373 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.BalancedFrameGauge` | volunteer-build-reviewed |
 | M002374 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.BalancedHermitianSpace` | volunteer-build-reviewed |
+| M002376 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.BiadditiveBalancedSeries` | volunteer-build-reviewed |
 | M002379 | P0757 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.ConjugateKernelCount` | volunteer-build-reviewed |
 | M002382 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.DegreeProportionalWords` | wave-reused |
 | M002383 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.JetGauges.DiagonalActionLiftPull` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M002890 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.JetTruncNotInjective` | volunteer-build-reviewed |
 | M002891 | P1501 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.KerMemAbLocus` | volunteer-build-reviewed |
 | M002893 | P1169 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.LocClauseOfUnifPlaces` | build-observed |
-| M002894 | P1169 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.OrthonormalBaseFrameNeg` | build-observed |
-| M002895 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.PEqQOfNeg` | volunteer-build-reviewed |

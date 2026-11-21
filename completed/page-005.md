@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002894 | P1169 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.OrthonormalBaseFrameNeg` | build-observed |
+| M002895 | P0347 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.PEqQOfNeg` | volunteer-build-reviewed |
 | M002898 | P0549 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.RelabBijective` | volunteer-build-reviewed |
 | M002899 | P0002 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.RightInvariantOfCovolume` | volunteer-build-reviewed |
 | M002902 | P2093 | `Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.SubsingletonOfLeOne` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M003690 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsKMOne` | volunteer-build-reviewed |
 | M003691 | P0891 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsKSValueOneOfRetraction` | wave-reused |
 | M003693 | P1372 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLifted` | build-observed |
-| M003694 | P1029 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLimDeg` | build-observed |
-| M003695 | P1531 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLocCompIffEquiv` | volunteer-build-reviewed |

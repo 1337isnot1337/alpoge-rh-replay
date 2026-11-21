@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M018749 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComplexUniformisationComponentsCovolumeEqStatement` | volunteer-build-reviewed |
+| M018760 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComplexWittBasisNormalForm` | volunteer-build-reviewed |
+| M018766 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComplexifiedDerivedActionIsLieActionStatement` | volunteer-build-reviewed |
+| M018768 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentDegreesSumLeTotalDegree` | volunteer-build-reviewed |
+| M018772 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentGeometricallyIrreducibleStatement` | volunteer-build-reviewed |
+| M018775 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentInFibreIffOfIsPullback` | volunteer-build-reviewed |
+| M018776 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentInFibreIffOfIsPullbackStatement` | volunteer-build-reviewed |
+| M018783 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentRepresentativesInjectiveDoubleCoset` | volunteer-build-reviewed |
+| M018784 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentRepresentativesInjectiveDoubleCosetStatement` | volunteer-build-reviewed |
+| M018786 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentStabilizerActsByLevelChangeStatement` | volunteer-build-reviewed |
 | M018788 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentSurjectsOfOpenClosedStatement` | volunteer-build-reviewed |
 | M018791 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentsPeterssonOrthogonalAndMasses` | volunteer-build-reviewed |
 | M018795 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CompositionSeriesIntertwiningChain` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M019607 | P1031 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuityCofilteredLimitRepresentedAffineStatement` | wave-reused |
 | M019608 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousAddCharSymplecticSelfPairingPlaceCoord` | volunteer-build-reviewed |
 | M019609 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousAddCharSymplecticSelfPairingPlaceCoordStatement` | volunteer-build-reviewed |
-| M019614 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousAtCharSeriesCoefZero` | volunteer-build-reviewed |
-| M019619 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousAtPolarisedTopChernCoeff` | volunteer-build-reviewed |
-| M019623 | P1446 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousCA` | volunteer-build-reviewed |
-| M019625 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousCharacterCocycleTrivialNearZeroStatement` | volunteer-build-reviewed |
-| M019626 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousCharacterTrivialOnSmallIdeles` | volunteer-build-reviewed |
-| M019628 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousCharpolyCoeffMulLeftFiniteAdelesAwayPStatement` | volunteer-build-reviewed |
-| M019629 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousCircleIntegralFamily` | volunteer-build-reviewed |
-| M019631 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousComplEquivSymm` | volunteer-build-reviewed |
-| M019632 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousComponents` | volunteer-build-reviewed |
-| M019633 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousConeDescendsEtaleSurjective` | build-observed |

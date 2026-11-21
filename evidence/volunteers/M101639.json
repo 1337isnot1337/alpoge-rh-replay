@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M101639"
+  ],
+  "started_utc": "2026-11-21T12:16:14.664168+00:00",
+  "ended_utc": "2026-11-21T12:18:03.194078+00:00",
+  "elapsed_seconds": 108.5,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 4866624
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.StCoiLift:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e8e2e6b1cd7258f0ae260b4d4b383627172084d90030f082b325c0699852cf8c",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.EqLagIff",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.IdemLiftComplete",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.InvAlg"
+  ],
+  "objects": {
+    "M101639": "d13814f63539a9940cd6982883c74a04579d131648cffb071081f6db5dc60a6f"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "5af5d2dd7d0307d2586b53919b14e83668b353a325a31c3cca86b43b6ff30fe7",
+  "packet": "M101639",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21205#issuecomment-7062472267",
+  "reviewed_utc": "2026-11-21T17:49:38.657627+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

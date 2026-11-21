@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M009120 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatBesselToFourierJacobiRowMulLawsStatement` | volunteer-build-reviewed |
+| M009121 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnIndicatorPureAtSymmetricPosition` | volunteer-build-reviewed |
+| M009122 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnIndicatorPureAtSymmetricPositionStatement` | volunteer-build-reviewed |
+| M009123 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnMapEqRootExchangeOperatorTranslate` | volunteer-build-reviewed |
+| M009124 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnMapEqRootExchangeOperatorTranslateStatement` | volunteer-build-reviewed |
+| M009125 | P0550 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnSupportOfOneIndexAtSymPosition` | volunteer-build-reviewed |
 | M009126 | P0583 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnSupportOfOneIndexAtSymPositionStatement` | volunteer-build-reviewed |
 | M009127 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatContrIntIndicator` | volunteer-build-reviewed |
 | M009128 | P0679 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatFactorReductionKernelAllNonFreeUnreadEntries` | build-observed |
@@ -396,9 +402,3 @@
 | M009634 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InducedSectionSmooth` | volunteer-build-reviewed |
 | M009635 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InducedSectionZFinite` | volunteer-build-reviewed |
 | M009636 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertPlaceLocalCharacterConjugationInverse` | volunteer-build-reviewed |
-| M009637 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertPlaceLocalCharacterConjugationInverseStatement` | volunteer-build-reviewed |
-| M009638 | P1920 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertPlaceLocalTraceCharacterConductorIntegers` | volunteer-build-reviewed |
-| M009640 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertSupportedPointIntegralFramesMemLattice` | volunteer-build-reviewed |
-| M009641 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertSupportedPointIntegralFramesMemLatticeStatement` | volunteer-build-reviewed |
-| M009642 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertUnitaryCosetSymmetryHeckeEven` | volunteer-build-reviewed |
-| M009643 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertUnitaryCosetSymmetryHeckeEvenStatement` | volunteer-build-reviewed |

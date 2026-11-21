@@ -1,0 +1,45 @@
+{
+  "tasks": [
+    "M157072"
+  ],
+  "started_utc": "2026-11-21T11:41:54.134011+00:00",
+  "ended_utc": "2026-11-21T11:42:43.129928+00:00",
+  "elapsed_seconds": 49.0,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16377408,
+    "peak_child_rss_kib": 6753000
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TensorSpanning.MatHHOne:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "849650dc1b8105f3aff32a47c1ed6fcbe29ae8c210ae2b31b54d8b5c557fabb8",
+  "rebuilt_project_modules": [
+    "Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.CMQuasiPeriodConst",
+    "Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.Legendre",
+    "Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.SemiChar",
+    "Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.ThetaLine",
+    "Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.ThetaZeroLogDerivative",
+    "Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.ThetaZeroTranslateProduct",
+    "Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.TranslateProduct",
+    "Formalism.LocalToGlobal.TorsionIntegrality.QuadraticSemicharacters.IsSemiChar",
+    "Formalism.LocalToGlobal.TorsionIntegrality.QuadraticSemicharacters.ProductThetaMem",
+    "Formalism.PeriodIntegrals.KerTens"
+  ],
+  "objects": {
+    "M157072": "13f58e47d8be868c1b6a1649456a02895dd35fa716c523e595216d06254136eb"
+  },
+  "project_root": "/tmp/rhvol/lean",
+  "bundle_sha256": "df4d5cdf9a42cda3df29f967a44604e7170243bb8ad738bc5558c183d85c5324",
+  "packet": "M157072",
+  "contributor": "maugomez77",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20841#issuecomment-7062179722",
+  "reviewed_utc": "2026-11-21T17:51:58.943336+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

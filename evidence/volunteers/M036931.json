@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M036931"
+  ],
+  "started_utc": "2026-11-21T11:59:56.988311+00:00",
+  "ended_utc": "2026-11-21T12:00:18.775170+00:00",
+  "elapsed_seconds": 21.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5165972
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralCasimirElementMulPosStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2c0d39155fc508892cf203abcac82b5c6df6e5cfaa20cdcd2ff4a9b54fe8bc18",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdjugateGramSymm",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramPosSemidefOfIntForm",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralCasimirElementMulPos"
+  ],
+  "objects": {
+    "M036931": "4c0f86e1b6739291c7b54dbfd285f2a5bfd210d4c1d0983d42acec3212354f33"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "f8fb5b07f2043bdeb785f0b1c612ec565430a1f29680a29d0d122b7322b5f5f4",
+  "packet": "M036931",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20917#issuecomment-7062281714",
+  "reviewed_utc": "2026-11-21T17:51:09.444261+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

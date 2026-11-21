@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M094591"
+  ],
+  "started_utc": "2026-11-21T12:01:08.702375+00:00",
+  "ended_utc": "2026-11-21T12:01:39.634221+00:00",
+  "elapsed_seconds": 30.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5233908
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.HarmonicColumnOperatorEndMemOfUnitaryStableStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d5a700d84000aae02db17db64760b941e4eac11eb830d60e34885b6f13c2d94f",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.SumSmulMemOfSumZpowSmulMem",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.HarmonicColumnOperatorEndMemOfUnitaryStable"
+  ],
+  "objects": {
+    "M094591": "460975306c2055ebce8d80231e249caba5fb788d89cf88c1bfc1f9429fe596de"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "a64faae4e498a3760b213cd1c817bced9c467b8ecb31d696b9be9a0832fd78c5",
+  "packet": "M094591",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20924#issuecomment-7062283189",
+  "reviewed_utc": "2026-11-21T17:51:00.355513+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

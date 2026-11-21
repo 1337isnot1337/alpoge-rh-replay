@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M028205 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointPicardClassEqTranslateOfTrivialLambda` | volunteer-build-reviewed |
+| M028206 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointPicardClassEqTranslateOfTrivialLambdaStatement` | volunteer-build-reviewed |
+| M028209 | P2343 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointTranslatePrimitiveOfAmpleKTrivial` | volunteer-build-reviewed |
+| M028210 | P2366 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointTranslatePrimitiveOfAmpleKTrivialStatement` | volunteer-build-reviewed |
+| M028211 | P2343 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointTranslatesInOpenSemiAbelianLocal` | volunteer-build-reviewed |
+| M028212 | P2366 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointTranslatesInOpenSemiAbelianLocalStatement` | volunteer-build-reviewed |
+| M028213 | P2480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointsFramesThetaSectionGenericFibreMember` | volunteer-build-reviewed |
+| M028214 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointsFramesThetaSectionGenericFibreMemberStatement` | volunteer-build-reviewed |
+| M028217 | P1087 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointsTranslationFamilyChartsThickenings` | build-observed |
+| M028218 | P1117 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointsTranslationFamilyChartsThickeningsStatement` | build-observed |
+| M028225 | P2366 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolAV` | volunteer-build-reviewed |
+| M028227 | P2036 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolAVFibre` | volunteer-build-reviewed |
+| M028228 | P2366 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolAVGeneric` | volunteer-build-reviewed |
 | M028229 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolAVInterior` | volunteer-build-reviewed |
 | M028232 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarDecompositionIndefiniteUnitary` | volunteer-build-reviewed |
 | M028233 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolarDecompositionIndefiniteUnitaryStatement` | build-observed |
@@ -389,16 +402,3 @@
 | M028984 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionNonvanishingClosedFibreOfThreeLe` | volunteer-build-reviewed |
 | M028985 | P2535 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionNonvanishingClosedFibreOfThreeLeStatement` | volunteer-build-reviewed |
 | M028987 | P2480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionNonvanishingOverClosedPointFibreStatement` | volunteer-build-reviewed |
-| M028992 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionNonzeroChartOfEffectiveClass` | volunteer-build-reviewed |
-| M028993 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionNonzeroChartOfEffectiveClassStatement` | build-observed |
-| M028994 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionNonzeroOnClosedFibreCompleteLocal` | volunteer-build-reviewed |
-| M028995 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionNonzeroOnClosedFibreCompleteLocalStatement` | volunteer-build-reviewed |
-| M028996 | P2480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionNonzeroUniformisedModelDvr` | volunteer-build-reviewed |
-| M028997 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionNonzeroUniformisedModelDvrStatement` | volunteer-build-reviewed |
-| M028999 | P2425 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionOfAppellHumbertThetaFunctionStatement` | build-observed |
-| M029000 | P2535 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionOfExtendsOverCompleteDvrs` | volunteer-build-reviewed |
-| M029001 | P2558 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionOfExtendsOverCompleteDvrsStatement` | volunteer-build-reviewed |
-| M029002 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionOfFinite` | volunteer-build-reviewed |
-| M029003 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionOfGaloisFixed` | volunteer-build-reviewed |
-| M029004 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionOfLargeAdelicDegree` | build-observed |
-| M029005 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionOfLargeAdelicDegreeStatement` | build-observed |

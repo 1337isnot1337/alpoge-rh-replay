@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M099233"
+  ],
+  "started_utc": "2026-11-21T12:02:05.429505+00:00",
+  "ended_utc": "2026-11-21T12:02:39.789906+00:00",
+  "elapsed_seconds": 34.4,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5281264
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.UniformizationProofs.TopLePtHomPreimageSmoothOpenIff:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e88cb5707f2402c5fa814f076e3fa99c6b956b6d3bce5a4e05621b08fc3d0ceb",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.AwayLiftCompFromZeroRingHom",
+    "Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.OpensRangeChartYSupOpensRangeChartZ",
+    "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsStandardSmoothOfRelativeDimensionAwayJacobian"
+  ],
+  "objects": {
+    "M099233": "80ce277b93f7489858bd701d1d13eac28893407757199e44edbd0e758d40aafa"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "0ac4a5470c3191c61568314de5e98d45e935ce07ec5d40e114e53296eb928d4f",
+  "packet": "M099233",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20945#issuecomment-7062301348",
+  "reviewed_utc": "2026-11-21T17:50:58.094458+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

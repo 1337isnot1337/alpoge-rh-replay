@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M162635"
+  ],
+  "started_utc": "2026-11-21T12:16:14.927764+00:00",
+  "ended_utc": "2026-11-21T12:21:12.273506+00:00",
+  "elapsed_seconds": 297.3,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5511400
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.AutomorphicForms.GL2.GJGlobalUnfoldRank:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "206efb489f1c06c03b012d17f57e7a4d54d94e66a09ff64b97d39fdce453a6f8",
+  "rebuilt_project_modules": [
+    "GroundTheory.PowerSubgroups.CountableNeighbourhoods.SingleMemInitialCoordSubspace"
+  ],
+  "objects": {
+    "M162635": "1e6ce0c575fa69f3e1627e9bd134d57b587046847a19d1964d877eb59d1afa7e"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "1ecec4b2023e0a1483b8569fe9ad9e7eb56fbc765eccf98acb7875feb2db735d",
+  "packet": "M162635",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21203#issuecomment-7062508458",
+  "reviewed_utc": "2026-11-21T17:49:39.777024+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

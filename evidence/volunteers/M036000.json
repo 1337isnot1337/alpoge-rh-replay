@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M036000"
+  ],
+  "started_utc": "2026-11-21T12:16:01.245192+00:00",
+  "ended_utc": "2026-11-21T12:16:15.255389+00:00",
+  "elapsed_seconds": 14.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5232288
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.HookFunctionalPowerSumStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a4059eea672960cab32549c37a2b4a311a38888e1cf00c3118821fb1d3126f4d",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.AltCoeffRho",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HookFunctionalPowerSum"
+  ],
+  "objects": {
+    "M036000": "b0c466994d40c220c14b42128c201c55beaa3c267b4299f64b31899f011bc55b"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "a1dc19989e0037205e6ad23d96f1cd841c43cd50fbb995924d1a469ff4f8398b",
+  "packet": "M036000",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21174#issuecomment-7062450206",
+  "reviewed_utc": "2026-11-21T17:49:48.705340+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

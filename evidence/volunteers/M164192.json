@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M164192"
+  ],
+  "started_utc": "2026-11-21T12:14:05.002440+00:00",
+  "ended_utc": "2026-11-21T12:14:44.412375+00:00",
+  "elapsed_seconds": 39.4,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5762920
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLengthCutLocalizedModule:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "652ab8c64222d656fa8821869b2feb681f623f5b85b84dac71b713b6e34917f9",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLengthCutLocalizedModule",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StLengthLocalizedLocalized"
+  ],
+  "objects": {
+    "M164192": "680ae6973595fbdf843a269b2dc016f5a88d49bc8da493a6557b5cc679d92ae2"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "b088e4cd24023438295fdbae7fa17cfdd3883a4e61232558a3e05089108b490a",
+  "packet": "M164192",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21185#issuecomment-7062433430",
+  "reviewed_utc": "2026-11-21T17:49:53.532707+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

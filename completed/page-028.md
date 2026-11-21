@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M020420 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxDerivativeExistenceStatement` | volunteer-build-reviewed |
+| M020421 | P2224 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxDoubledCoordinates` | volunteer-build-reviewed |
+| M020425 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxDoublingSchrodingerFormula` | volunteer-build-reviewed |
+| M020426 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxDoublingSchrodingerFormulaStatement` | volunteer-build-reviewed |
+| M020427 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxLiftMulEqZero` | volunteer-build-reviewed |
+| M020428 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxModelCoordinates` | volunteer-build-reviewed |
+| M020429 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxModelCoordinatesStatement` | volunteer-build-reviewed |
+| M020430 | P2082 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxPhaseMulBoxEqHeisenbergTranslates` | volunteer-build-reviewed |
+| M020431 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxPhaseMulBoxEqHeisenbergTranslatesStatement` | volunteer-build-reviewed |
+| M020432 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxRationalBasisCompatible` | volunteer-build-reviewed |
 | M020434 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxSchrodingerCompatibility` | volunteer-build-reviewed |
 | M020435 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxSchrodingerCompatibilityStatement` | volunteer-build-reviewed |
 | M020436 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxSchroedingerArchimedeanActs` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M021326 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentCoprimeAtGoodPlacesStatement` | volunteer-build-reviewed |
 | M021331 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentIdealSmulMemSpanRational` | volunteer-build-reviewed |
 | M021332 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentValuationBound` | volunteer-build-reviewed |
-| M021334 | P1765 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtFoldrLineDer` | volunteer-build-reviewed |
-| M021335 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtPullbackForm` | volunteer-build-reviewed |
-| M021336 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtPullbackFormStatement` | volunteer-build-reviewed |
-| M021337 | P1922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtReprPullbackHolomorphicFderiv` | build-observed |
-| M021338 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtReprPullbackHolomorphicFderivStatement` | volunteer-build-reviewed |
-| M021341 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtZeroHeisenbergCMRealLineTheta` | volunteer-build-reviewed |
-| M021342 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtZeroHeisenbergCMRealLineThetaStatement` | volunteer-build-reviewed |
-| M021344 | P1351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableFockVacuumGaussianDefinitePair` | volunteer-build-reviewed |
-| M021347 | P1589 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOfIsSm` | volunteer-build-reviewed |
-| M021349 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOnFderiv` | volunteer-build-reviewed |

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M083046"
+  ],
+  "started_utc": "2026-11-21T11:44:02.481341+00:00",
+  "ended_utc": "2026-11-21T11:44:13.285737+00:00",
+  "elapsed_seconds": 10.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6857288
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.UnitriangularInductionTransvectionStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "53c7c60de497effbf124ced65208f8e23fd32cda4e236566d30aa0ae2e180eb0",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.UnitriangularInductionTransvection"
+  ],
+  "objects": {
+    "M083046": "0c3345a4bf64e9bebd877c0d1f3e499630cd8030c0752a5e5ccc1eabf34cc008"
+  },
+  "bundle_sha256": "496f0f42a319a46dd252ced45eaf96c08519d0f326bc8d0d90c7e5e92aeb64c1",
+  "packet": "M083046",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20874#issuecomment-7062094298",
+  "reviewed_utc": "2026-11-21T17:51:46.849276+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

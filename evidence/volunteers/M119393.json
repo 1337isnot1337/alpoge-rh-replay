@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M119393"
+  ],
+  "started_utc": "2026-11-21T12:21:34.099282+00:00",
+  "ended_utc": "2026-11-21T12:29:17.317246+00:00",
+  "elapsed_seconds": 463.2,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5137244
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.TwistedTraces.ExistsScalarOfTwistedIntertwinerCommutingAlgebra:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b3996308ee736f1c157955165f9292b77be87cef21fdfe979519368d26a5d5d7",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.TwistedTraces.LinearFormEqMulTraceOfTwistedInvariant",
+    "Development.AutomorphicArithmetic.TwistedTraces.ListOfFnProdEqMulUpdateOneOfPairwiseCommute"
+  ],
+  "objects": {
+    "M119393": "60932b328316b9c61e01debbbb19df37f91646201d4a434fcdaa4a83fc1126d5"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "65a461841e5656372b306a5d7a8d06177547d1636b4ac843f5f42ef4a80f0a86",
+  "packet": "M119393",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21222#issuecomment-7062604765",
+  "reviewed_utc": "2026-11-21T17:49:31.917938+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

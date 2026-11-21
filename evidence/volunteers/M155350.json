@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M155350"
+  ],
+  "started_utc": "2026-11-21T12:14:21.460936+00:00",
+  "ended_utc": "2026-11-21T12:16:47.593250+00:00",
+  "elapsed_seconds": 146.1,
+  "host": {
+    "cpu_count": 9,
+    "mem_total_kib": 10206472,
+    "peak_child_rss_kib": 4920928
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.IntegerCoordinatesZero.IntCoordsZero:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a3548f868d273af961d0e038c2c0399935bb2fe3ede8e4cba97191fc0e58c599",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.KerLat"
+  ],
+  "objects": {
+    "M155350": "32ce342d90c0e5dc11fc74ec53be09f052f96b2507b02c7c3da023712bcc5a41"
+  },
+  "project_root": "/workspace/scratch/2464d4986472/replay-volume/lean",
+  "bundle_sha256": "eb85219552266b4040324b97b27da98f66d19f57bb9050ee4dae6a8d67449a7f",
+  "packet": "M155350",
+  "contributor": "mabdelazim",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21134#issuecomment-7063183989",
+  "reviewed_utc": "2026-11-21T17:50:04.771830+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -2,6 +2,15 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M017733 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafPropertiesStatement` | wave-reused |
+| M017734 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafSectionsExact` | wave-reused |
+| M017735 | P0583 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafSectionsExactStatement` | wave-reused |
+| M017746 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CircleIntegralZpowMulHoloMulEqSum` | volunteer-build-reviewed |
+| M017764 | P0733 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassGroupDedekindAlgClosedDivisible` | build-observed |
+| M017765 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassGroupDedekindAlgClosedDivisibleStatement` | build-observed |
+| M017766 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassGroupNthPowerOfCodimOneMod` | volunteer-build-reviewed |
+| M017767 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassGroupTorsionPrincipalPower` | volunteer-build-reviewed |
+| M017768 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassGroupTorsionPrincipalPowerStatement` | volunteer-build-reviewed |
 | M017769 | P1275 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassInvOfUnitTrivial` | build-observed |
 | M017773 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassScalarValueCore` | volunteer-build-reviewed |
 | M017780 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassSumNormEqOfUniqueLeast` | volunteer-build-reviewed |
@@ -178,6 +187,7 @@
 | M018267 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSubstRestrictSumVariablesStatement` | build-observed |
 | M018268 | P0919 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSumElimPowerSeriesSwapVariableGroups` | wave-reused |
 | M018269 | P0947 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSumElimPowerSeriesSwapVariableGroupsStatement` | wave-reused |
+| M018270 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSumPowMulFactorial` | volunteer-build-reviewed |
 | M018271 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffSumPowMulFactorialStatement` | volunteer-build-reviewed |
 | M018275 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffValuationLossFinsetSumAndInvPowStatement` | volunteer-build-reviewed |
 | M018276 | P2081 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffValuationLossLeAddCharNegUnfoldingPhase` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M018739 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComplexPointsPartsDistinctTypesOrthogonalStatement` | volunteer-build-reviewed |
 | M018742 | P2595 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComplexPointsSmoothAtLogUnitAddGradedLength` | build-observed |
 | M018744 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComplexPointsSmoothProjVarietyCompactManifold` | volunteer-build-reviewed |
-| M018749 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComplexUniformisationComponentsCovolumeEqStatement` | volunteer-build-reviewed |
-| M018760 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComplexWittBasisNormalForm` | volunteer-build-reviewed |
-| M018766 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComplexifiedDerivedActionIsLieActionStatement` | volunteer-build-reviewed |
-| M018768 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentDegreesSumLeTotalDegree` | volunteer-build-reviewed |
-| M018772 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentGeometricallyIrreducibleStatement` | volunteer-build-reviewed |
-| M018775 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentInFibreIffOfIsPullback` | volunteer-build-reviewed |
-| M018776 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentInFibreIffOfIsPullbackStatement` | volunteer-build-reviewed |
-| M018783 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentRepresentativesInjectiveDoubleCoset` | volunteer-build-reviewed |
-| M018784 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentRepresentativesInjectiveDoubleCosetStatement` | volunteer-build-reviewed |
-| M018786 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComponentStabilizerActsByLevelChangeStatement` | volunteer-build-reviewed |

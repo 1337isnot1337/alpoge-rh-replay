@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M045971"
+  ],
+  "started_utc": "2026-11-21T12:18:41.561493+00:00",
+  "ended_utc": "2026-11-21T12:20:27.056802+00:00",
+  "elapsed_seconds": 105.5,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5570388
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.PoissonIntegralSmoothOffAxes:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d077f7470b27fff376512d1e4cfb5a2921f9be3178b425ca217d549bc94a7bfa",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.AnalyticForms.MaIntEmpty",
+    "ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.PshPoisson",
+    "ReciprocityTheory.AnalyticForms.PotentialTheory.PshShiftA"
+  ],
+  "objects": {
+    "M045971": "290c39eff3ea0fa4ebfc0cbcc27c2c988ccc5d1e054cf3740bae4bfd02e5de9f"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "8f96836105d8285bc25823fe14eb838eb9d3cc97c3c6eb533518fc577565be91",
+  "packet": "M045971",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21221#issuecomment-7062498771",
+  "reviewed_utc": "2026-11-21T17:49:32.437713+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

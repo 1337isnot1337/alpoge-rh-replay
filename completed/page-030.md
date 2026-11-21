@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M022194 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenvectorMemSpanTwistedTraceImage` | volunteer-build-reviewed |
+| M022199 | P2533 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerEndomorphismLatticeAdjoint` | volunteer-build-reviewed |
+| M022202 | P2533 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerFibreIsoEqCoordinatewisePowerStatement` | volunteer-build-reviewed |
+| M022205 | P2533 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerFirstFactorThetaModel` | volunteer-build-reviewed |
+| M022208 | P2449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerFormBundleMatricesAdjointStatement` | volunteer-build-reviewed |
+| M022214 | P2449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerPresentationEndomorphismsPullback` | volunteer-build-reviewed |
+| M022219 | P2533 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerProjectionsExtendUniformisedGroupsStatement` | volunteer-build-reviewed |
+| M022221 | P2449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerProjectionsGroupPullbackStatement` | volunteer-build-reviewed |
+| M022230 | P2449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerTrivialisationEqUnitMulMonomial` | volunteer-build-reviewed |
+| M022234 | P2533 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerUniversalObjectAtModelStalk` | volunteer-build-reviewed |
 | M022236 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EilenbergZilberHomotopyEquivalence` | build-observed |
 | M022237 | P1739 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisAtMinusRho` | volunteer-build-reviewed |
 | M022238 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisAtMinusRhoOfCore` | volunteer-build-reviewed |
@@ -129,8 +139,10 @@
 | M022534 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqOrEqOfUnderMaximalRealSubfieldEqCMFieldStatement` | volunteer-build-reviewed |
 | M022536 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqPowOfBaseChangeEqPowPrincipalAbelianCMTripleStatement` | volunteer-build-reviewed |
 | M022542 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqSelfOfTrivial` | volunteer-build-reviewed |
+| M022543 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqSigmaLiftW` | volunteer-build-reviewed |
 | M022544 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqSmulOfCommute` | volunteer-build-reviewed |
 | M022552 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqSumIntegralCubeDerivatives` | volunteer-build-reviewed |
+| M022553 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqSumIntegralCubeDerivativesStatement` | volunteer-build-reviewed |
 | M022557 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqUnitMulZpowRegularLocalModelDimTwo` | volunteer-build-reviewed |
 | M022561 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfActsTriviallyAbelianVarietyAlgClosureStatement` | volunteer-build-reviewed |
 | M022562 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfAdelicFourierSeparatingCharsVanish` | volunteer-build-reviewed |
@@ -390,15 +402,3 @@
 | M022973 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafShortComplexExactIffLocally` | wave-reused |
 | M022974 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSheafShortComplexExactIffLocallyStatement` | wave-reused |
 | M022975 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceChainsMayerVietorisShortExact` | wave-reused |
-| M022976 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceChainsMayerVietorisShortExactStatement` | wave-reused |
-| M022977 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyBaseChangeCoprodBijective` | build-observed |
-| M022978 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyBaseChangeCoprodBijectiveStatement` | build-observed |
-| M022979 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyCoprodSchemesBijective` | wave-reused |
-| M022980 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyCoprodSchemesBijectiveStatement` | wave-reused |
-| M022983 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyLevelwiseCoproductBijective` | wave-reused |
-| M022984 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyLevelwiseCoproductBijectiveStatement` | wave-reused |
-| M022985 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyPresheafClassesAsCocycles` | wave-reused |
-| M022986 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyPresheafClassesAsCocyclesStatement` | wave-reused |
-| M022987 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyStalkLocalClasses` | build-observed |
-| M022988 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCohomologyStalkLocalClassesStatement` | build-observed |
-| M022989 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleSpaceCoveringMap` | volunteer-build-reviewed |

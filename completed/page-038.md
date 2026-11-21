@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M028992 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionNonzeroChartOfEffectiveClass` | volunteer-build-reviewed |
+| M028993 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionNonzeroChartOfEffectiveClassStatement` | build-observed |
+| M028994 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionNonzeroOnClosedFibreCompleteLocal` | volunteer-build-reviewed |
+| M028995 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionNonzeroOnClosedFibreCompleteLocalStatement` | volunteer-build-reviewed |
+| M028996 | P2480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionNonzeroUniformisedModelDvr` | volunteer-build-reviewed |
+| M028997 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionNonzeroUniformisedModelDvrStatement` | volunteer-build-reviewed |
+| M028999 | P2425 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionOfAppellHumbertThetaFunctionStatement` | build-observed |
+| M029000 | P2535 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionOfExtendsOverCompleteDvrs` | volunteer-build-reviewed |
+| M029001 | P2558 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionOfExtendsOverCompleteDvrsStatement` | volunteer-build-reviewed |
+| M029002 | P0012 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionOfFinite` | volunteer-build-reviewed |
+| M029003 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionOfGaloisFixed` | volunteer-build-reviewed |
+| M029004 | P0680 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionOfLargeAdelicDegree` | build-observed |
+| M029005 | P0707 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionOfLargeAdelicDegreeStatement` | build-observed |
 | M029006 | P2366 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionOfNaturalOnAlgebraPointsOfCover` | volunteer-build-reviewed |
 | M029009 | P2480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionPointwiseOneCocycleOpenCoverStatement` | volunteer-build-reviewed |
 | M029010 | P2343 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsSectionPowAmpleForallLocalCondition` | volunteer-build-reviewed |
@@ -389,16 +402,3 @@
 | M029748 | P2558 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsThetaImmersionTorusExtensionProjectiveStatement` | volunteer-build-reviewed |
 | M029751 | P2082 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsThetaLiftIdempotentForm` | volunteer-build-reviewed |
 | M029752 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsThetaLiftIdempotentFormStatement` | volunteer-build-reviewed |
-| M029755 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsThetaLocal` | volunteer-build-reviewed |
-| M029766 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsThetaProjection` | wave-reused |
-| M029767 | P0298 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsThetaProjectionStatement` | wave-reused |
-| M029768 | P1960 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsThetaReNonneg` | volunteer-build-reviewed |
-| M029790 | P2558 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsThetaSystemMovedToAffineOpen` | volunteer-build-reviewed |
-| M029801 | P1941 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsThetaTransformEqOrientedThetaFunctionCMStatement` | volunteer-build-reviewed |
-| M029808 | P2178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsThetaWeightExponentsOfLargeGap` | volunteer-build-reviewed |
-| M029810 | P2535 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsThetaWitnessesBaseChangeMember` | volunteer-build-reviewed |
-| M029811 | P2558 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsThetaWitnessesBaseChangeMemberStatement` | volunteer-build-reviewed |
-| M029812 | P1941 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsThetaZeroMeanLogLeConstMul` | volunteer-build-reviewed |
-| M029813 | P1960 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsThetaZeroMeanLogLeConstMulStatement` | volunteer-build-reviewed |
-| M029817 | P2178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsTieCoordBase` | volunteer-build-reviewed |
-| M029818 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsTiltAutomorphismTransport` | wave-reused |

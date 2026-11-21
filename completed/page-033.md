@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M024717 | P2478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDescentOfEqualisedProperCoverNormal` | volunteer-build-reviewed |
+| M024719 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetCharInvariantSameValueTwisted` | volunteer-build-reviewed |
+| M024720 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetCharInvariantSameValueTwistedStatement` | volunteer-build-reviewed |
+| M024723 | P2246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetIdealCoprimeSplitSupportedPointStatement` | volunteer-build-reviewed |
+| M024724 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetLineCoordinateIso` | wave-reused |
+| M024725 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetLineCoordinateIsoStatement` | wave-reused |
+| M024727 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetNeZeroOfRowsSeparating` | volunteer-build-reviewed |
+| M024728 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetNeZeroOfRowsSeparatingStatement` | volunteer-build-reviewed |
+| M024729 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetOneMulBlockUnitaryDecomposition` | volunteer-build-reviewed |
+| M024730 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetOneMulBlockUnitaryDecompositionStatement` | volunteer-build-reviewed |
+| M024731 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetOneMulStdBlock` | volunteer-build-reviewed |
+| M024732 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetOneMulStdBlockStatement` | volunteer-build-reviewed |
 | M024733 | P2211 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetPowerSectionNeZeroDefinite` | volunteer-build-reviewed |
 | M024734 | P2224 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetPowerSectionNeZeroDefiniteStatement` | volunteer-build-reviewed |
 | M024736 | P2364 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDeterminantLineSectionRestrictionStatement` | volunteer-build-reviewed |
@@ -390,15 +402,3 @@
 | M025467 | P2393 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteTypeModelSameFibreStatement` | volunteer-build-reviewed |
 | M025473 | P2364 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteTypeSubringModelAbelianLineBundleStatement` | volunteer-build-reviewed |
 | M025474 | P2017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteUnitaryPointSelfDualToOrthonormal` | volunteer-build-reviewed |
-| M025475 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteUnitaryPointSelfDualToOrthonormalStatement` | volunteer-build-reviewed |
-| M025476 | P2256 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteUnitarySelfDualLatticeGridDoubling` | volunteer-build-reviewed |
-| M025480 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinrankQuotientSpanModEqOne` | build-observed |
-| M025481 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinrankQuotientSpanModEqOneStatement` | build-observed |
-| M025482 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetAdicIntegralTensorBasisOneMul` | build-observed |
-| M025483 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetAdicIntegralTensorBasisOneMulStatement` | volunteer-build-reviewed |
-| M025484 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetAwayMapSubalgebraBijective` | volunteer-build-reviewed |
-| M025485 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetAwayMapSubalgebraBijectiveStatement` | volunteer-build-reviewed |
-| M025486 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetCosetRepsBoundedHalfPoints` | volunteer-build-reviewed |
-| M025487 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetCosetRepsBoundedHalfPointsStatement` | volunteer-build-reviewed |
-| M025488 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetDecoSetLatticeReps` | volunteer-build-reviewed |
-| M025489 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetEqSumAddCosetIndicator` | volunteer-build-reviewed |

@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006588 | P1114 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsCmCurvesOfWeierstrassCurves` | build-observed |
+| M006597 | P0516 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsCommGrpObjWeierstrassScheme` | build-observed |
+| M006598 | P0550 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsCommGrpObjWeierstrassSchemeStatement` | build-observed |
+| M006603 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsConjDatum` | volunteer-build-reviewed |
+| M006604 | P0476 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsConstOfSqMulTendstoZero` | volunteer-build-reviewed |
 | M006609 | P0099 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsDiagonalCoordinates` | volunteer-build-reviewed |
 | M006612 | P1272 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsEllipticCurvePolarisedLatticeFamily` | build-observed |
 | M006613 | P1299 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsEllipticCurvePolarisedLatticeFamilyStatement` | build-observed |
@@ -397,8 +402,3 @@
 | M007512 | P0241 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.SupLeL2PrincipalTorus` | volunteer-build-reviewed |
 | M007514 | P1085 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.SymmetricLiftOddOrderActsAsTranslation` | build-observed |
 | M007515 | P1115 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.SymmetricLiftOddOrderActsAsTranslationStatement` | volunteer-build-reviewed |
-| M007516 | P1029 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaConstSymmetricSquareEqOne` | build-observed |
-| M007518 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaConstantPowEqOneOfPowerTrivial` | volunteer-build-reviewed |
-| M007519 | P1002 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaConstantPowEqOneOfPowerTrivialStatement` | volunteer-build-reviewed |
-| M007526 | P1856 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaGeneratorPointwiseBoundOrthonormalFrame` | volunteer-build-reviewed |
-| M007530 | P1194 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ThetaGroupShiftHalfTorsionRoot` | build-observed |

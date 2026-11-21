@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M016643 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedCountLatticeStabilizersStatement` | volunteer-build-reviewed |
+| M016646 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedDenominatorIntegralPower` | volunteer-build-reviewed |
+| M016647 | P1504 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedDenominatorsNonzeroTerms` | build-observed |
+| M016648 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedDerivFunctionalContDiffExpLine` | build-observed |
+| M016649 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedDerivFunctionalContDiffExpLineStatement` | build-observed |
+| M016650 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedDerivFunctionalTsumReplicate` | build-observed |
+| M016651 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedDerivFunctionalTsumReplicateStatement` | build-observed |
+| M016652 | P1373 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedEigenvaluesClasses` | build-observed |
 | M016653 | P1396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedEigenvaluesClassesStatement` | build-observed |
 | M016654 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedEntriesIsCompact` | volunteer-build-reviewed |
 | M016655 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedEntriesOfIsCompactClosureZpowersUnitary` | volunteer-build-reviewed |
@@ -62,6 +70,7 @@
 | M016843 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardBlockParabolicSubgroupGLStatement` | volunteer-build-reviewed |
 | M016846 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardComapMulFinsumEqFinsumFibres` | wave-reused |
 | M016847 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardComapMulFinsumEqFinsumFibresStatement` | wave-reused |
+| M016849 | P0348 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardCrossingSetEqGrassmannianDimStatement` | volunteer-build-reviewed |
 | M016850 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardDivisorsLeAbsNormNumberField` | volunteer-build-reviewed |
 | M016851 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardDivisorsLeAbsNormNumberFieldStatement` | volunteer-build-reviewed |
 | M016852 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardDvdSumOfInvariantOfCardStabilizerDvd` | build-observed |
@@ -393,12 +402,3 @@
 | M017730 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafBasicProperti` | wave-reused |
 | M017731 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafBasicPropertiStatement` | wave-reused |
 | M017732 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafProperties` | wave-reused |
-| M017733 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafPropertiesStatement` | wave-reused |
-| M017734 | P0551 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafSectionsExact` | wave-reused |
-| M017735 | P0583 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChosenInjectiveResolutionEtaleSheafSectionsExactStatement` | wave-reused |
-| M017746 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CircleIntegralZpowMulHoloMulEqSum` | volunteer-build-reviewed |
-| M017764 | P0733 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassGroupDedekindAlgClosedDivisible` | build-observed |
-| M017765 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassGroupDedekindAlgClosedDivisibleStatement` | build-observed |
-| M017766 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassGroupNthPowerOfCodimOneMod` | volunteer-build-reviewed |
-| M017767 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassGroupTorsionPrincipalPower` | volunteer-build-reviewed |
-| M017768 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClassGroupTorsionPrincipalPowerStatement` | volunteer-build-reviewed |

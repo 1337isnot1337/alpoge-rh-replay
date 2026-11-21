@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M121556"
+  ],
+  "started_utc": "2026-11-21T11:53:15.872073+00:00",
+  "ended_utc": "2026-11-21T11:53:21.383036+00:00",
+  "elapsed_seconds": 5.5,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 31930456,
+    "peak_child_rss_kib": 7251832
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ColOp:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c3f18d8018b91ff0805e160e63d74088def534f4fdc82d7ad32f6edbfab9885e",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.ThetaCellCovers.KernelL2RowsColumns"
+  ],
+  "objects": {
+    "M121556": "706a7b298e4f40df2920dd5bc2c44cc54bc41d50a024445882dcb8a90be7b6ba"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "2e42c63f8c94c97c270ffb5f394c78f38c9a467666ff538241ed964d2b4e6e27",
+  "packet": "M121556",
+  "contributor": "certified-retart",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20966#issuecomment-7062190749",
+  "reviewed_utc": "2026-11-21T17:51:11.001151+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

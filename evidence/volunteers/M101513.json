@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M101513"
+  ],
+  "started_utc": "2026-11-21T11:44:14.530808+00:00",
+  "ended_utc": "2026-11-21T11:44:29.542837+00:00",
+  "elapsed_seconds": 15.0,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 5980536
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HidaCompleteRings.OneVar:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5b63ade4b91cf21ce12200aae982cbf43c85a5dd479ebee39049bffd1b64d14c",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.LocalRingsCompletion.MuDvd",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.LocalRingsCompletion.Weier"
+  ],
+  "objects": {
+    "M101513": "d1d73dcce5db526faaabac29791ffe1cc0f24f45c793f99378a352a0b61f9af2"
+  },
+  "bundle_sha256": "79c8cf5fa5ca77d80fb086a122f3d56cf38ee004f7e907e9fe5ba711371a58aa",
+  "packet": "M101513",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20905#issuecomment-7062097768",
+  "reviewed_utc": "2026-11-21T17:51:28.099982+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M002376"
+  ],
+  "started_utc": "2026-11-21T12:15:22.611495+00:00",
+  "ended_utc": "2026-11-21T12:15:41.687015+00:00",
+  "elapsed_seconds": 19.1,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5197600
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.BlockTheory.JetGauges.BiadditiveBalancedSeries:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0018a423394b7f09f1e72dd6f270f0897162d4983a4d3c7a7541ab5ba6481d79",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.CocycleRightZeroThd",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.HasSubstEv",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.ChartChg",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.ConnectionKillsSeries"
+  ],
+  "objects": {
+    "M002376": "42e68d160a3be43499bd9a474a7cfa5cc1cf0676e117dbf806b02974b6d9a2af"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "b9738508f8084897244749b41daa54a2d1d095aa22417c18b93032be04b12702",
+  "packet": "M002376",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21170#issuecomment-7062449042",
+  "reviewed_utc": "2026-11-21T17:49:48.772211+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

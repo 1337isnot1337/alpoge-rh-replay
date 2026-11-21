@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M071665"
+  ],
+  "started_utc": "2026-11-21T12:09:51.608386+00:00",
+  "ended_utc": "2026-11-21T12:13:55.754989+00:00",
+  "elapsed_seconds": 244.1,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsLocallyConstantTestRepresentationTensorProductStatement:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 4754016
+  },
+  "source_sha256": "34391efcae9ea84c9b9d9aa0daa0bd73f735a4d61a6f815fc7dbc89c130b2a4c",
+  "log_sha256": "8da03c6e92f4d7dcaffb84a7a6144cc7739cfddb96cf2f2b3ada704e9e7289ca",
+  "objects": {
+    "M071665": "3df9d9c01a93ae0b3c92a2ed494afa54699eef9afbba38c322c9f8e13d70ea2b"
+  },
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsLocallyConstantTestRepresentationTensorProduct",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TensorRepApply"
+  ],
+  "bundle_sha256": "19ce057c34026a7c5b15ecf606fc0e82ebfcb27f687ac1b86052fd9296bfdf61",
+  "packet": "M071665",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21110#issuecomment-7062435122",
+  "reviewed_utc": "2026-11-21T17:50:04.005450+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

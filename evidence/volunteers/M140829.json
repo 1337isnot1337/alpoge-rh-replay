@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M140829"
+  ],
+  "started_utc": "2026-11-21T12:04:20.352403+00:00",
+  "ended_utc": "2026-11-21T12:06:07.501442+00:00",
+  "elapsed_seconds": 107.1,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Imports:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 4418200
+  },
+  "source_sha256": "7d16e97b94b653587e1e63af4986549c16c8dd975a2de431951af2e40a78884f",
+  "log_sha256": "d1cb525dee0c0fb2fcfdf8beab8c2d7e37b2e4768a10b4eecfedf6be162ffa22",
+  "objects": {
+    "M140829": "896ae5f6ec29ae879d2348650bec8110e66ae0908c3f8665e7d839ac56152d4d"
+  },
+  "rebuilt_project_modules": [],
+  "bundle_sha256": "1e155ecb736db238b687fbbbb0499b681de04cc562ee91becdf6cb7afd01ff09",
+  "packet": "M140829",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21108#issuecomment-7062356701",
+  "reviewed_utc": "2026-11-21T17:50:04.462602+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

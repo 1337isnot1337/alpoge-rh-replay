@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M106485"
+  ],
+  "started_utc": "2026-11-21T12:21:38.734022+00:00",
+  "ended_utc": "2026-11-21T12:33:26.724479+00:00",
+  "elapsed_seconds": 707.8,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5801372
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.TraceFormulaEigenvalues.TraceFibreCardinality.EigVec:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "622738adfcbd860e18852727a7af93960a6168d82d00115c5aa62884bfa2dc78",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.TraceFormulaEigenvalues.FormsFin",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.TraceFormulaEigenvalues.IsGenEig",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.Wcount"
+  ],
+  "objects": {
+    "M106485": "1ff3bb7a231f4e69fc7ce1c6e1cca8413bf2230ffa783dab591769f5d5405c20"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "ac79b4f55cc18447f53a3ff7d16ac9333340de8326c2bb643116b3560573bb48",
+  "packet": "M106485",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21230#issuecomment-7062655112",
+  "reviewed_utc": "2026-11-21T17:49:15.116636+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

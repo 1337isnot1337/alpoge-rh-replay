@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M119840"
+  ],
+  "started_utc": "2026-11-21T11:47:03.398534+00:00",
+  "ended_utc": "2026-11-21T11:47:09.030816+00:00",
+  "elapsed_seconds": 5.6,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 31930456,
+    "peak_child_rss_kib": 7220020
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Definitions.MetricPeriods.ZeroMemLieBall:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "cdf9d9d717bc36ff855c5814c548c5dea6dff80a5d3c5d3b933eee424bf82eaf",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.IsCompactDualHaar"
+  ],
+  "objects": {
+    "M119840": "6c3299e5bd532b43981876b6ac333af6db289c999f19962e804103b67eb57154"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "1a9c254feab85664421e9de82ad9e6abd77e6190819f90bf4d54bf155047358b",
+  "packet": "M119840",
+  "contributor": "certified-retart",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20923#issuecomment-7062131934",
+  "reviewed_utc": "2026-11-21T17:51:16.691997+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

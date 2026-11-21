@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M008538 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierLevelCharacterSumCongr` | volunteer-build-reviewed |
+| M008539 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierLevelCharacterSumCongrStatement` | volunteer-build-reviewed |
+| M008540 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierNegativeVectorTermNear` | volunteer-build-reviewed |
+| M008541 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierNegativeVectorTermNearStatement` | volunteer-build-reviewed |
+| M008542 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierOneSubNormCongrZero` | volunteer-build-reviewed |
 | M008543 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierOneSubNormCongrZeroStatement` | volunteer-build-reviewed |
 | M008544 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierUnipotentPartCongrZero` | volunteer-build-reviewed |
 | M008545 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCoprimeMultiplierUnipotentPartCongrZeroStatement` | volunteer-build-reviewed |
@@ -97,6 +102,7 @@
 | M008700 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLinearIsQuotIntTIntStatement` | volunteer-build-reviewed |
 | M008701 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLinearMapVaryPureTensorFactorSplitPlace` | volunteer-build-reviewed |
 | M008703 | P0177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLinearOfBilinearSchwartzBruhatProduct` | volunteer-build-reviewed |
+| M008704 | P0241 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLinearOfBilinearSchwartzBruhatProductStatement` | volunteer-build-reviewed |
 | M008705 | P2050 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLocComb` | volunteer-build-reviewed |
 | M008706 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLocPlOff` | volunteer-build-reviewed |
 | M008707 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLocalModelSliceSourceLine` | volunteer-build-reviewed |
@@ -396,9 +402,3 @@
 | M009116 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlagUnitaryOrbitActionTransitiveWithStabilizerStatement` | volunteer-build-reviewed |
 | M009117 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlagVecMemAndSpan` | volunteer-build-reviewed |
 | M009119 | P1813 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatBesselToFourierJacobiRowMulLaws` | volunteer-build-reviewed |
-| M009120 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatBesselToFourierJacobiRowMulLawsStatement` | volunteer-build-reviewed |
-| M009121 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnIndicatorPureAtSymmetricPosition` | volunteer-build-reviewed |
-| M009122 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnIndicatorPureAtSymmetricPositionStatement` | volunteer-build-reviewed |
-| M009123 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnMapEqRootExchangeOperatorTranslate` | volunteer-build-reviewed |
-| M009124 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnMapEqRootExchangeOperatorTranslateStatement` | volunteer-build-reviewed |
-| M009125 | P0550 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FlatColumnSupportOfOneIndexAtSymPosition` | volunteer-build-reviewed |

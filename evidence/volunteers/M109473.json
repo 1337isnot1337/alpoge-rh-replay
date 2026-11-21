@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M109473"
+  ],
+  "started_utc": "2026-11-21T11:56:41.992690+00:00",
+  "ended_utc": "2026-11-21T11:56:57.561031+00:00",
+  "elapsed_seconds": 15.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5209380
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.CommutativeAlgebra.EtaleCohomology.SplitOnSpec:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "55f54311e5487262bb0ba9c82a6f6fa8539a851aefa888dd6d95f45a3cd55a0d",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.CommutativeAlgebra.EtaleCohomology.SplitRules",
+    "Development.AutomorphicArithmetic.CommutativeAlgebra.EtaleCohomology.SplitsOfSplitOn"
+  ],
+  "objects": {
+    "M109473": "3fad68d65fff81e4791ce05647af57d4558c7a1d5f3959abf836f5144f1cccaa"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "ef27869471ca99dd6e635e660f65e880fa08a84ef9ee6bedc5ee468a276f063b",
+  "packet": "M109473",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20801#issuecomment-7062234610",
+  "reviewed_utc": "2026-11-21T17:51:47.440733+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

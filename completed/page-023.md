@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M015598 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchDecay` | volunteer-build-reviewed |
+| M015599 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchDerivativeKeepsSumsFixedFiniteParts` | volunteer-build-reviewed |
+| M015600 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchDerivativeKeepsSumsFixedFinitePartsStatement` | volunteer-build-reviewed |
+| M015601 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchEmbeddingConjByAdelic` | volunteer-build-reviewed |
+| M015603 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchFactorMulPSeriesEqIntegral` | volunteer-build-reviewed |
+| M015604 | P0892 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchFactorMulPSeriesEqIntegralStatement` | build-observed |
+| M015614 | P2475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchIntegrableRegularVariety` | volunteer-build-reviewed |
 | M015627 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanBoundBottomPairsNormsGrid` | volunteer-build-reviewed |
 | M015628 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanBoundBottomPairsNormsGridStatement` | volunteer-build-reviewed |
 | M015636 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchimedeanCoordsMovedStaySupportedAndRecoveredStatement` | volunteer-build-reviewed |
@@ -244,6 +251,7 @@
 | M016308 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BicharacterFourierTransformTwiceEqPosSmulReflectStatement` | build-observed |
 | M016311 | P2016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigCAnd` | volunteer-build-reviewed |
 | M016314 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigCellFactorisationDoubledUnitaryGroup` | volunteer-build-reviewed |
+| M016315 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigCellFactorisationDoubledUnitaryGroupStatement` | volunteer-build-reviewed |
 | M016322 | P0394 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigEtaleModuleSheafMonoEpiIffSections` | wave-reused |
 | M016323 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigEtaleModuleSheafMonoEpiIffSectionsStatement` | wave-reused |
 | M016328 | P2067 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigRouteKernelIntegrableOnUnitaryQuotient` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M016639 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedCoordinatesPPowerDenominator` | volunteer-build-reviewed |
 | M016640 | P0007 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedCountFiniteIndexSubgroups` | volunteer-build-reviewed |
 | M016641 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedCountFiniteIndexSubgroupsStatement` | volunteer-build-reviewed |
-| M016643 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedCountLatticeStabilizersStatement` | volunteer-build-reviewed |
-| M016646 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedDenominatorIntegralPower` | volunteer-build-reviewed |
-| M016647 | P1504 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedDenominatorsNonzeroTerms` | build-observed |
-| M016648 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedDerivFunctionalContDiffExpLine` | build-observed |
-| M016649 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedDerivFunctionalContDiffExpLineStatement` | build-observed |
-| M016650 | P0477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedDerivFunctionalTsumReplicate` | build-observed |
-| M016651 | P0517 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedDerivFunctionalTsumReplicateStatement` | build-observed |
-| M016652 | P1373 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedEigenvaluesClasses` | build-observed |

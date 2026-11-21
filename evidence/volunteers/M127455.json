@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M127455"
+  ],
+  "started_utc": "2026-11-21T11:59:35.313185+00:00",
+  "ended_utc": "2026-11-21T11:59:44.879502+00:00",
+  "elapsed_seconds": 9.6,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6833368
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ShufflePermFlatten:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9229ed2ee3212826a2454a43c7411e2248b8915e37d75817bf89c4cb97e48896",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.CoreStatements.TemperedRepresentationTheory.ZelevinskyJacquet.ZelevinskyInterleaving.Interleave"
+  ],
+  "objects": {
+    "M127455": "4330d39ca121f1dd3745a70ae790c021973dd389cfb5746b1274ec1afe51bf5b"
+  },
+  "bundle_sha256": "979297670743c82f6f48227acc1d05ded8fccb8d70e508dc1fc34ec22134d545",
+  "packet": "M127455",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21034#issuecomment-7062963854",
+  "reviewed_utc": "2026-11-21T17:50:37.031719+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

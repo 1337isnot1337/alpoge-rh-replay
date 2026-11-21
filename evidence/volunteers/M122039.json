@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M122039"
+  ],
+  "started_utc": "2026-11-21T11:55:39.084993+00:00",
+  "ended_utc": "2026-11-21T11:55:47.117777+00:00",
+  "elapsed_seconds": 8.0,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 31930456,
+    "peak_child_rss_kib": 7337416
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CountLeOfDvd:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "206969f3e752f0b55a4d10c4dace8ed451c795980d9a08e34d37c5ffb793e721",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.ResidualSpectrum.ExponentialNegativity.GapAbsOf"
+  ],
+  "objects": {
+    "M122039": "d25e743e7bb27c5dc2080c641bd04d89b00561d31b05554fe8c87171d0fa6aa8"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "d14dd3e2c855d9b1c0f05093a295f7fc8e31648808f2d4aee86eac4cd4fe1050",
+  "packet": "M122039",
+  "contributor": "certified-retart",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20968#issuecomment-7062217057",
+  "reviewed_utc": "2026-11-21T17:51:09.537777+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

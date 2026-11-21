@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M063040"
+  ],
+  "started_utc": "2026-11-21T12:12:31.811968+00:00",
+  "ended_utc": "2026-11-21T12:13:39.922598+00:00",
+  "elapsed_seconds": 68.1,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 4650956
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.MdifferentiableHeckeOperatorsExplicit:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0ba54ecb92a002f17241e57ae23b12e02967e8cd89b1468e5b1ee1008fd1cb31",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.PetEqRelIndexMulPetProd"
+  ],
+  "objects": {
+    "M063040": "140a55cd4aeef0aa4fcc18e89cc7b2f9a7490554090968f0746d22efdd1d8f91"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "915e73bbf2b5923f471279e737f4fd66fdcf98e2dbfd19f5e9d32febc8d28313",
+  "packet": "M063040",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21192#issuecomment-7062420927",
+  "reviewed_utc": "2026-11-21T17:49:52.924525+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

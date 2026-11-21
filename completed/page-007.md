@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004431 | P1245 | `Development.AbelianVarietyTheory.Definitions.Jets.CmQuadraticFormEqAlternatingForm` | volunteer-build-reviewed |
+| M004432 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.ColValMonomial` | wave-reused |
 | M004433 | P0946 | `Development.AbelianVarietyTheory.Definitions.Jets.CubWeilOneIffPairOne` | build-observed |
 | M004434 | P1218 | `Development.AbelianVarietyTheory.Definitions.Jets.DepthNumbersThresholdEq` | build-observed |
 | M004435 | P1193 | `Development.AbelianVarietyTheory.Definitions.Jets.EmbShortThLeThetaPlain` | build-observed |
@@ -400,5 +402,3 @@
 | M005103 | P2065 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.DecayAtOfPos` | volunteer-build-reviewed |
 | M005104 | P1559 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.DepthPays` | volunteer-build-reviewed |
 | M005105 | P0295 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExistsFFNeZeroThree` | volunteer-build-reviewed |
-| M005106 | P0174 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExistsGlOfEquiv` | build-observed |
-| M005107 | P1444 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExistsHasCls` | volunteer-build-reviewed |

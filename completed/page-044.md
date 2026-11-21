@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M034362 | P1960 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraCapelliUniformDiagonalBlocks` | volunteer-build-reviewed |
+| M034363 | P1979 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraCapelliUniformDiagonalBlocksStatement` | volunteer-build-reviewed |
+| M034364 | P1817 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraExistsReproducingTestFunctionGL` | volunteer-build-reviewed |
+| M034371 | P1399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraFinitenessAutomorphicGLOfEigenStatement` | volunteer-build-reviewed |
+| M034372 | P2135 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraFinitenessTotallyComplexGLProof` | volunteer-build-reviewed |
+| M034373 | P2146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraFinitenessTotallyComplexGLProofStatement` | volunteer-build-reviewed |
+| M034374 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraFormsEquicontinuousOnBand` | volunteer-build-reviewed |
+| M034376 | P1327 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInducedTypeCharEqProductList` | build-observed |
+| M034377 | P1353 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInducedTypeCharEqProductListStatement` | build-observed |
+| M034380 | P0299 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLAssoc` | build-observed |
+| M034381 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLAssocStatement` | build-observed |
+| M034382 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLComm` | volunteer-build-reviewed |
+| M034383 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLCommStatement` | build-observed |
+| M034384 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLFieldAutomorphism` | wave-reused |
+| M034385 | P0245 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLFieldAutomorphismStatement` | wave-reused |
+| M034386 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLIsCharacter` | build-observed |
+| M034387 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLIsCharacterStatement` | build-observed |
+| M034388 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLOneLeftRightUnit` | volunteer-build-reviewed |
+| M034389 | P0245 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLOneLeftRightUnitStatement` | volunteer-build-reviewed |
+| M034390 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLTrivialOrthogonalHyperpl` | build-observed |
+| M034391 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLTrivialOrthogonalHyperplStatement` | build-observed |
 | M034392 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraProductCuspidalGLFrobeniusPow` | build-observed |
 | M034393 | P0651 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraProductCuspidalGLFrobeniusPowStatement` | build-observed |
 | M034394 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraProductCuspidalGLListProperties` | build-observed |
@@ -381,24 +402,3 @@
 | M035293 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermLineBundleGeometricDegreeNonnegOfSemiPosStatement` | volunteer-build-reviewed |
 | M035294 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermLineBundleGeometricDegreePow` | volunteer-build-reviewed |
 | M035295 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermLineBundleGeometricDegreePowStatement` | volunteer-build-reviewed |
-| M035302 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermLineBundlePairNormIndependentOfFrames` | volunteer-build-reviewed |
-| M035303 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermLineBundlePairNormIndependentOfFramesStatement` | volunteer-build-reviewed |
-| M035306 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermLineBundlePairSectionsMulMemNormMul` | volunteer-build-reviewed |
-| M035307 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermLineBundlePairSectionsMulMemNormMulStatement` | volunteer-build-reviewed |
-| M035310 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermPairSectionsGoodShiftSecondBundleNormPair` | volunteer-build-reviewed |
-| M035314 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermSkewAdaptedLocalModel` | volunteer-build-reviewed |
-| M035315 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermSkewAdaptedLocalModelStatement` | volunteer-build-reviewed |
-| M035316 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermSkewAdaptedLocalModelTwo` | volunteer-build-reviewed |
-| M035317 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermSkewAdaptedLocalModelTwoStatement` | volunteer-build-reviewed |
-| M035319 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedMatrixDecompositionStatement` | volunteer-build-reviewed |
-| M035320 | P2018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPairConverse` | volunteer-build-reviewed |
-| M035321 | P2037 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPairConverseStatement` | volunteer-build-reviewed |
-| M035322 | P2069 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPairOfPair` | volunteer-build-reviewed |
-| M035323 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPairOfPairStatement` | volunteer-build-reviewed |
-| M035324 | P1979 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPlaneConstant` | volunteer-build-reviewed |
-| M035325 | P1998 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPlaneConstantStatement` | volunteer-build-reviewed |
-| M035329 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPlaneFactorStatement` | volunteer-build-reviewed |
-| M035330 | P2246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPlaneIntegral` | volunteer-build-reviewed |
-| M035331 | P2256 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPlaneIntegralStatement` | volunteer-build-reviewed |
-| M035332 | P2246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPlaneLocal` | volunteer-build-reviewed |
-| M035335 | P2256 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPlaneLocalStatement` | volunteer-build-reviewed |

@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M035302 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermLineBundlePairNormIndependentOfFrames` | volunteer-build-reviewed |
+| M035303 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermLineBundlePairNormIndependentOfFramesStatement` | volunteer-build-reviewed |
+| M035306 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermLineBundlePairSectionsMulMemNormMul` | volunteer-build-reviewed |
+| M035307 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermLineBundlePairSectionsMulMemNormMulStatement` | volunteer-build-reviewed |
+| M035310 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermPairSectionsGoodShiftSecondBundleNormPair` | volunteer-build-reviewed |
+| M035314 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermSkewAdaptedLocalModel` | volunteer-build-reviewed |
+| M035315 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermSkewAdaptedLocalModelStatement` | volunteer-build-reviewed |
+| M035316 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermSkewAdaptedLocalModelTwo` | volunteer-build-reviewed |
+| M035317 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermSkewAdaptedLocalModelTwoStatement` | volunteer-build-reviewed |
+| M035319 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedMatrixDecompositionStatement` | volunteer-build-reviewed |
+| M035320 | P2018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPairConverse` | volunteer-build-reviewed |
+| M035321 | P2037 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPairConverseStatement` | volunteer-build-reviewed |
+| M035322 | P2069 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPairOfPair` | volunteer-build-reviewed |
+| M035323 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPairOfPairStatement` | volunteer-build-reviewed |
+| M035324 | P1979 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPlaneConstant` | volunteer-build-reviewed |
+| M035325 | P1998 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPlaneConstantStatement` | volunteer-build-reviewed |
+| M035329 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPlaneFactorStatement` | volunteer-build-reviewed |
+| M035330 | P2246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPlaneIntegral` | volunteer-build-reviewed |
+| M035331 | P2256 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPlaneIntegralStatement` | volunteer-build-reviewed |
+| M035332 | P2246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPlaneLocal` | volunteer-build-reviewed |
+| M035335 | P2256 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPlaneLocalStatement` | volunteer-build-reviewed |
 | M035336 | P1740 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPlaneRestriction` | volunteer-build-reviewed |
 | M035338 | P2211 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPlaneSeesaw` | volunteer-build-reviewed |
 | M035339 | P2225 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianAdaptedPlaneSeesawStatement` | volunteer-build-reviewed |
@@ -281,6 +302,7 @@
 | M035997 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HookFunctionalPowerSum` | volunteer-build-reviewed |
 | M035998 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HookFunctionalPowerSumOther` | volunteer-build-reviewed |
 | M035999 | P0245 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HookFunctionalPowerSumOtherStatement` | volunteer-build-reviewed |
+| M036000 | P0245 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HookFunctionalPowerSumStatement` | volunteer-build-reviewed |
 | M036001 | P2211 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HookLogSumSubSizeTermLeLowerBound` | volunteer-build-reviewed |
 | M036002 | P2225 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HookLogSumSubSizeTermLeLowerBoundStatement` | volunteer-build-reviewed |
 | M036003 | P2178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HookPlusLeMainTerm` | volunteer-build-reviewed |
@@ -380,25 +402,3 @@
 | M036161 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HyperplaneFixerSumVanishesCuspidalCharacterGLFin` | build-observed |
 | M036162 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HyperplaneFixerSumVanishesCuspidalCharacterGLFinStatement` | build-observed |
 | M036163 | P0299 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HyperplaneFixerSumVanishesHarishChandraInduction` | build-observed |
-| M036164 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HyperplaneFixerSumVanishesHarishChandraInductionStatement` | build-observed |
-| M036167 | P1905 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HyperspecialFixesVacuaGoodInertPlace` | volunteer-build-reviewed |
-| M036172 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HypersurfaceDiffIsPreirreducibleOfNoSplittingStatement` | volunteer-build-reviewed |
-| M036178 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IInfSupPowEq` | volunteer-build-reviewed |
-| M036179 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IInfSupPowEqOfAdicCompatibleIdeals` | volunteer-build-reviewed |
-| M036180 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IInfSupPowEqOfAdicCompatibleIdealsStatement` | volunteer-build-reviewed |
-| M036184 | P1249 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ISupIInfEigenspaceEqTop` | build-observed |
-| M036191 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ISupStableInfTypeSpace` | volunteer-build-reviewed |
-| M036192 | P2069 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdA` | volunteer-build-reviewed |
-| M036206 | P2037 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealExtendConjMulEqAbsNorm` | volunteer-build-reviewed |
-| M036207 | P2054 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealExtendConjMulEqAbsNormStatement` | volunteer-build-reviewed |
-| M036210 | P2083 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealIndicatorReadsNormPowMulIntertwinedVacuum` | volunteer-build-reviewed |
-| M036211 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealIndicatorReadsNormPowMulIntertwinedVacuumStatement` | volunteer-build-reviewed |
-| M036212 | P1817 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealIntersectionNormSeriesBound` | volunteer-build-reviewed |
-| M036214 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealKilledByRingMapsWithPropertyLeKerApp` | volunteer-build-reviewed |
-| M036215 | P0245 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealKilledByRingMapsWithPropertyLeKerAppStatement` | volunteer-build-reviewed |
-| M036216 | P0299 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealMapEqSpanPowUniformizerDvr` | volunteer-build-reviewed |
-| M036217 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealMapEqSpanPowUniformizerDvrStatement` | volunteer-build-reviewed |
-| M036218 | P2018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealMapSmulIsLatticeOfNeBot` | volunteer-build-reviewed |
-| M036219 | P2037 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealMapSmulIsLatticeOfNeBotStatement` | volunteer-build-reviewed |
-| M036220 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealNormEquationFromLocalAssociates` | volunteer-build-reviewed |
-| M036221 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdealNormEquationFromLocalAssociatesStatement` | volunteer-build-reviewed |

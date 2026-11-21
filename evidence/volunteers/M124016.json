@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M124016"
+  ],
+  "started_utc": "2026-11-21T12:00:39.999140+00:00",
+  "ended_utc": "2026-11-21T12:00:47.980001+00:00",
+  "elapsed_seconds": 8.0,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 31930456,
+    "peak_child_rss_kib": 7263948
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.HermitianCountFromHyperplanesStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "bd924ada56acf2150726baaa6a8354af76869447ed4a476e1adda096e5116f79",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.HermitianCountFromHyperplanes",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MemRiemannRochSpaceIffRegularAtEverywhere"
+  ],
+  "objects": {
+    "M124016": "74ad043ba748255b995ac558e1403746ff7ed2011ea851df3207badad4b3d40d"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "d18878fe92971978dfea62f06ee678eb05659f7f38fca3b3bf8346e0e685dcdf",
+  "packet": "M124016",
+  "contributor": "certified-retart",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21057#issuecomment-7062270565",
+  "reviewed_utc": "2026-11-21T17:50:25.929002+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

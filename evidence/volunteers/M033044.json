@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M033044"
+  ],
+  "started_utc": "2026-11-21T12:12:34.837578+00:00",
+  "ended_utc": "2026-11-21T12:12:57.696887+00:00",
+  "elapsed_seconds": 22.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5202608
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FreeSheafCechDegreeTwoExactForall:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "933673542e0341b242c62e0bc151adab71925afc16d6f1312dea8177df5616fd",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.Pr13Snd",
+    "Development.AbelianVarietyTheory.Proofs.SatakeParameters.CechAcyclic",
+    "Development.AbelianVarietyTheory.Proofs.SatakeParameters.FreeOnCechNerveExactAt"
+  ],
+  "objects": {
+    "M033044": "e63d29dad8f6e09face5fa5501fde73307ff3046838347161a5d2a4d2574fe5e"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "3af68c57fd721609982bda924bb377091b550f7f1c39249326cf9b1e7f1b1fe5",
+  "packet": "M033044",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21137#issuecomment-7062414380",
+  "reviewed_utc": "2026-11-21T17:49:53.634178+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

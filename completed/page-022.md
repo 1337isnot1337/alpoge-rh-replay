@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M014663 | P1474 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneComplementSplitBasisStatement` | volunteer-build-reviewed |
+| M014664 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneDarbouxCoordinatesCompatible` | volunteer-build-reviewed |
+| M014665 | P2052 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneDarbouxCoordinatesCompatibleStatement` | volunteer-build-reviewed |
+| M014667 | P2034 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneDarbouxCoordinatesExistStatement` | volunteer-build-reviewed |
+| M014668 | P2052 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneDarbouxEvaluationIdentity` | volunteer-build-reviewed |
+| M014669 | P2067 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneDarbouxEvaluationIdentityStatement` | volunteer-build-reviewed |
 | M014676 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneEvaluationIntertwines` | volunteer-build-reviewed |
 | M014677 | P2121 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneEvaluationIntertwinesStatement` | volunteer-build-reviewed |
 | M014682 | P2094 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdaptedPlaneFormMemInverseDifferent` | volunteer-build-reviewed |
@@ -241,6 +247,7 @@
 | M015194 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AffineHilbertSectionsBasisSpanEqTopStatement` | volunteer-build-reviewed |
 | M015195 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AffineHilbertSectionsFiniteFlat` | volunteer-build-reviewed |
 | M015196 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AffineHilbertSectionsFiniteFlatStatement` | volunteer-build-reviewed |
+| M015198 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AffineHilbertSectionsRankAtStalkStatement` | volunteer-build-reviewed |
 | M015199 | P0177 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AffineHilbertTensorToSubschemeSectionsSurjective` | volunteer-build-reviewed |
 | M015200 | P0241 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AffineHilbertTensorToSubschemeSectionsSurjectiveStatement` | volunteer-build-reviewed |
 | M015201 | P0100 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.AffineHilbertValuativeCriterionUniqueness` | volunteer-build-reviewed |
@@ -395,10 +402,3 @@
 | M015589 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchAt` | volunteer-build-reviewed |
 | M015595 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchBoundLinearMatrixStatement` | volunteer-build-reviewed |
 | M015597 | P1815 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchBoundUnitaryActionStatement` | volunteer-build-reviewed |
-| M015598 | P2108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchDecay` | volunteer-build-reviewed |
-| M015599 | P2145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchDerivativeKeepsSumsFixedFiniteParts` | volunteer-build-reviewed |
-| M015600 | P2156 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchDerivativeKeepsSumsFixedFinitePartsStatement` | volunteer-build-reviewed |
-| M015601 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchEmbeddingConjByAdelic` | volunteer-build-reviewed |
-| M015603 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchFactorMulPSeriesEqIntegral` | volunteer-build-reviewed |
-| M015604 | P0892 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchFactorMulPSeriesEqIntegralStatement` | build-observed |
-| M015614 | P2475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ArchIntegrableRegularVariety` | volunteer-build-reviewed |

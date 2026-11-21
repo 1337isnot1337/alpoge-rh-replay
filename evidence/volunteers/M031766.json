@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M031766"
+  ],
+  "started_utc": "2026-11-21T12:13:50.361697+00:00",
+  "ended_utc": "2026-11-21T12:14:07.741846+00:00",
+  "elapsed_seconds": 17.4,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5167132
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumOverConjPairsEqOrbitSum:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2c6071f7003d34521a1c1d5ea5fad0e43f3c611eac08ba5fb83fe53b7a211ee3",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumFiberwiseOfFiniteSupportComplex",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumOrbitsInvStabilizerCardMass",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HodgeLieBundleIntersection"
+  ],
+  "objects": {
+    "M031766": "70d71307e2f7d1c69e43f5a814b8fe15767c8e72415021fcddeb776ab033f6c9"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "4ca70c61d9af95b0b2768be027b620385632ddb83690ac33d613a7b8806a930e",
+  "packet": "M031766",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21146#issuecomment-7062429549",
+  "reviewed_utc": "2026-11-21T17:49:53.341534+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

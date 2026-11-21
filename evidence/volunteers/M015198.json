@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M015198"
+  ],
+  "started_utc": "2026-11-21T11:57:48.216794+00:00",
+  "ended_utc": "2026-11-21T11:58:06.711227+00:00",
+  "elapsed_seconds": 18.5,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5132744
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.AffineHilbertSectionsRankAtStalkStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "31bf849e85c3076cce69ef50d3fb7ecea2dc03a743e8c909e7395471aec9702a",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AffineHilbertSectionsRankAtStalk",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.BasicIff",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComapBcComp"
+  ],
+  "objects": {
+    "M015198": "54b53757dac28b3f1cc810669f58dbf0a351f6f268a57431b90b8786dd6529d0"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "2d8515efa5d3bcb426138a2b3c07d8335bec381e740485e959c33ceb46c71afd",
+  "packet": "M015198",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20847#issuecomment-7062246229",
+  "reviewed_utc": "2026-11-21T17:51:42.673867+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

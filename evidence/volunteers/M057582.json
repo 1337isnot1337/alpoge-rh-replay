@@ -1,0 +1,45 @@
+{
+  "tasks": [
+    "M057582"
+  ],
+  "started_utc": "2026-11-21T12:13:28.733517+00:00",
+  "ended_utc": "2026-11-21T12:14:08.065149+00:00",
+  "elapsed_seconds": 39.3,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16377412,
+    "peak_child_rss_kib": 6775452
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsIdealCoprimeConjMulEqSpanSingleton:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ab618c19f64a7b0f1bfe6fed3b0d766388d6ed0f0f1b0e6f4938da118c91847c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMemFractionalIdealGeneratorAtPrimesOver",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMemFractionalIdealGeneratorAtPrimesOverStatement",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMemFractionalIdealPrimitiveLocalGeneratorA",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsMemFractionalIdealPrimitiveLocalGeneratorAStatement",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.ExistsUnimodularLiftOfUnimodularMod",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.LeMapComapOfLeConjMaximalCmData",
+    "Development.AbelianVarietyTheory.Proofs.FlagMeasures.LeMapComapOfLeConjMaximalCmDataStatement",
+    "Formalism.LocalToGlobal.SiegelLatticeTheory.HaarTransversals.UnitaryHaarProducts.LatExistsDefs",
+    "Formalism.LocalToGlobal.SiegelLatticeTheory.HaarTransversals.UnitaryHaarProducts.LatExistsSat",
+    "Lemmata.MiscLemmasD.Imports"
+  ],
+  "objects": {
+    "M057582": "400866dc2f8eb332b23884ff50efd3728387fbc522d13c76c0d5df2ecd4f2c25"
+  },
+  "project_root": "/tmp/rhvol/lean",
+  "bundle_sha256": "33ee909b0ebb61ddee6687415a76e92b242f3543ada0a6f29c81e39d279a904a",
+  "packet": "M057582",
+  "contributor": "maugomez77",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21155#issuecomment-7062527574",
+  "reviewed_utc": "2026-11-21T17:50:08.441911+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

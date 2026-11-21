@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M143107"
+  ],
+  "started_utc": "2026-11-21T12:00:42.453367+00:00",
+  "ended_utc": "2026-11-21T12:01:07.347379+00:00",
+  "elapsed_seconds": 24.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5214888
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.TwistedPieces.FiniteDimensionalDescent.ClosedOrbitPieces.ToMatrixMulVec:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "717a6d4da544ec54e38f785b81479ff667cb5518cf2e1ca85c74fc20ed9d3ecd",
+  "rebuilt_project_modules": [
+    "GroundTheory.Brauer.DoubleCentralizer",
+    "GroundTheory.Brauer.SkolemNoether"
+  ],
+  "objects": {
+    "M143107": "e2a96e83921eeb7b1c0ce01c6ddc70bb39ed1705c5d476ab737cd90282217ddc"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "a6fadf301dfb5939c7778d7a7b6e3a394580c601984e9c20a9c141c5f23ee363",
+  "packet": "M143107",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20921#issuecomment-7062282775",
+  "reviewed_utc": "2026-11-21T17:51:08.790561+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

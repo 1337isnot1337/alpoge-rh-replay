@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M010169 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelZeroTypeFrameLocality` | volunteer-build-reviewed |
+| M010170 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelZeroTypeFrameLocalityStatement` | volunteer-build-reviewed |
+| M010171 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelZeroUniformizerFrameUnipotentAndEmbedGL` | volunteer-build-reviewed |
+| M010172 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelZeroUniformizerFrameUnipotentAndEmbedGLStatement` | volunteer-build-reviewed |
+| M010173 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LeviFactorCharactersSplitPlace` | volunteer-build-reviewed |
+| M010174 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LeviFactorCharactersSplitPlaceStatement` | volunteer-build-reviewed |
 | M010175 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapHaarFiniteOnCompacts` | volunteer-build-reviewed |
 | M010176 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapHaarFiniteOnCompactsStatement` | volunteer-build-reviewed |
 | M010177 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevyProductMapHaarIsMulLeftInvariant` | volunteer-build-reviewed |
@@ -396,9 +402,3 @@
 | M010690 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OrthRealHeisenbergTranslatesVacuumOfOrthFock` | volunteer-build-reviewed |
 | M010692 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OrthogonalEmbeddingKeepsGluedCoreIffFixesPair` | volunteer-build-reviewed |
 | M010693 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OrthogonalEmbeddingKeepsGluedCoreIffFixesPairStatement` | volunteer-build-reviewed |
-| M010694 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OrthogonalEmbeddingSplitPlaceBlockDiagonal` | volunteer-build-reviewed |
-| M010695 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OrthogonalEmbeddingSplitPlaceBlockDiagonalStatement` | volunteer-build-reviewed |
-| M010696 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OrthogonalSumCoresHomotheticOffLevel` | volunteer-build-reviewed |
-| M010697 | P2093 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OrthogonalSumCoresHomotheticOffLevelStatement` | volunteer-build-reviewed |
-| M010698 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OtherPlacesConvolutionFiniteAwayOrthogonal` | volunteer-build-reviewed |
-| M010699 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OtherPlacesConvolutionFiniteAwayOrthogonalStatement` | volunteer-build-reviewed |

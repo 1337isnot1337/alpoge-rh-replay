@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M012234 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistCombinationSplitsSinglePlaceVacuum` | volunteer-build-reviewed |
+| M012235 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistCombinationSplitsSinglePlaceVacuumStatement` | volunteer-build-reviewed |
+| M012236 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistEulerFactorsRestoreNormalizingFactor` | volunteer-build-reviewed |
+| M012237 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistEulerFactorsRestoreNormalizingFactorStatement` | volunteer-build-reviewed |
+| M012238 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistEulerFactorsRestoreQuotientLValues` | volunteer-build-reviewed |
+| M012239 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistEulerFactorsRestoreQuotientLValuesStatement` | volunteer-build-reviewed |
 | M012240 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistFiniteDatumThetaAtLevelPrime` | volunteer-build-reviewed |
 | M012241 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistFiniteDatumThetaAtLevelPrimeStatement` | volunteer-build-reviewed |
 | M012243 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistIndexDataRepresentativeDependsOnDoubleCosetStatement` | volunteer-build-reviewed |
@@ -396,9 +402,3 @@
 | M013022 | P1247 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralDegenerationValues` | build-observed |
 | M013023 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralDegenerationValuesStatement` | volunteer-build-reviewed |
 | M013024 | P0006 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralExtIsAlgClosedResidueField` | volunteer-build-reviewed |
-| M013026 | P1220 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralGauge` | volunteer-build-reviewed |
-| M013027 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralNthRootTestModelPoint` | volunteer-build-reviewed |
-| M013029 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralPointOfTorusPointValuationZero` | volunteer-build-reviewed |
-| M013030 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsIntegralPointOfTorusPointValuationZeroStatement` | volunteer-build-reviewed |
-| M013031 | P0706 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInverseExtensionProperClosure` | build-observed |
-| M013033 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsInvertibleAdaptedBasisLinkMatrix` | volunteer-build-reviewed |

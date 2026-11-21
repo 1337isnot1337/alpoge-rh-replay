@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M146391"
+  ],
+  "started_utc": "2026-11-21T11:52:37.378015+00:00",
+  "ended_utc": "2026-11-21T11:53:10.695504+00:00",
+  "elapsed_seconds": 33.3,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 12304536,
+    "peak_child_rss_kib": 6843100
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.HermitianCurvature.HermitianCurvatureProofs.HasFDerivAtBrReal:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b1d3955e646b006df74f032fe6657fdc4f153a73f5aa523c3a6e477e1a73a20a",
+  "rebuilt_project_modules": [
+    "Formalism.HermitianCurvature.HermitianCurvatureProofs.NeZeroOfAn"
+  ],
+  "objects": {
+    "M146391": "69591f2a0db6591085a2e711dc460a4a882079b857a10dab47c8114b806ef351"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "1bc6c8793b4f63396d0057b69f686c41a3ab6988be7f4773c3ac86c775a62b88",
+  "packet": "M146391",
+  "contributor": "maugomez77",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20912#issuecomment-7062282254",
+  "reviewed_utc": "2026-11-21T17:51:26.218979+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

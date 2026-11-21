@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M051467"
+  ],
+  "started_utc": "2026-11-21T12:18:48.625091+00:00",
+  "ended_utc": "2026-11-21T12:20:20.727547+00:00",
+  "elapsed_seconds": 92.1,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5488924
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.SumCoeffWindowCrossingFiberPoint:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "ccc51939da12ea6008d01bd24f4bb48a98d9c74c5c0e909c4f19651c87641bb0",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.WinSet"
+  ],
+  "objects": {
+    "M051467": "8c01443bb7cb9910ce71d04ade892fbfab492b3cdf86e38acad132e50bb6bdba"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "5d5b5248945658c9e13984915de69d4daa0077a3d3a1ec96f235a1f81f862ada",
+  "packet": "M051467",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21219#issuecomment-7062498089",
+  "reviewed_utc": "2026-11-21T17:49:36.886254+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

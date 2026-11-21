@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M009637 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertPlaceLocalCharacterConjugationInverseStatement` | volunteer-build-reviewed |
+| M009638 | P1920 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertPlaceLocalTraceCharacterConductorIntegers` | volunteer-build-reviewed |
+| M009640 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertSupportedPointIntegralFramesMemLattice` | volunteer-build-reviewed |
+| M009641 | P1737 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertSupportedPointIntegralFramesMemLatticeStatement` | volunteer-build-reviewed |
+| M009642 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertUnitaryCosetSymmetryHeckeEven` | volunteer-build-reviewed |
+| M009643 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InertUnitaryCosetSymmetryHeckeEvenStatement` | volunteer-build-reviewed |
 | M009645 | P1195 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InfIdeleNegOneNotMemClosurePrincipalIdentityCompStatement` | volunteer-build-reviewed |
 | M009646 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InfPartEqZero` | volunteer-build-reviewed |
 | M009647 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.InfinitelyManySplitPlaces` | volunteer-build-reviewed |
@@ -396,9 +402,3 @@
 | M010164 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelTraceAdaptedTranslateStatement` | volunteer-build-reviewed |
 | M010167 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelZeroElementReduction` | volunteer-build-reviewed |
 | M010168 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelZeroElementReductionStatement` | volunteer-build-reviewed |
-| M010169 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelZeroTypeFrameLocality` | volunteer-build-reviewed |
-| M010170 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelZeroTypeFrameLocalityStatement` | volunteer-build-reviewed |
-| M010171 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelZeroUniformizerFrameUnipotentAndEmbedGL` | volunteer-build-reviewed |
-| M010172 | P0516 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelZeroUniformizerFrameUnipotentAndEmbedGLStatement` | volunteer-build-reviewed |
-| M010173 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LeviFactorCharactersSplitPlace` | volunteer-build-reviewed |
-| M010174 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LeviFactorCharactersSplitPlaceStatement` | volunteer-build-reviewed |

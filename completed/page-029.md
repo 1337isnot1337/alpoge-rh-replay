@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M021334 | P1765 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtFoldrLineDer` | volunteer-build-reviewed |
+| M021335 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtPullbackForm` | volunteer-build-reviewed |
+| M021336 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtPullbackFormStatement` | volunteer-build-reviewed |
+| M021337 | P1922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtReprPullbackHolomorphicFderiv` | build-observed |
+| M021338 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtReprPullbackHolomorphicFderivStatement` | volunteer-build-reviewed |
+| M021341 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtZeroHeisenbergCMRealLineTheta` | volunteer-build-reviewed |
+| M021342 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableAtZeroHeisenbergCMRealLineThetaStatement` | volunteer-build-reviewed |
+| M021344 | P1351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableFockVacuumGaussianDefinitePair` | volunteer-build-reviewed |
+| M021347 | P1589 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOfIsSm` | volunteer-build-reviewed |
+| M021349 | P0102 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOnFderiv` | volunteer-build-reviewed |
 | M021350 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOnFourierCoeffFamily` | build-observed |
 | M021351 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOnFourierCoeffFamilyStatement` | build-observed |
 | M021352 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DifferentiableOnFramesOfKilledNilpotentDerivativ` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M022190 | P2188 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenvectorFixedByCompactCommuting` | volunteer-build-reviewed |
 | M022191 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenvectorFixedByCompactCommutingStatement` | volunteer-build-reviewed |
 | M022192 | P2304 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenvectorIntegralCompletion` | volunteer-build-reviewed |
-| M022194 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenvectorMemSpanTwistedTraceImage` | volunteer-build-reviewed |
-| M022199 | P2533 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerEndomorphismLatticeAdjoint` | volunteer-build-reviewed |
-| M022202 | P2533 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerFibreIsoEqCoordinatewisePowerStatement` | volunteer-build-reviewed |
-| M022205 | P2533 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerFirstFactorThetaModel` | volunteer-build-reviewed |
-| M022208 | P2449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerFormBundleMatricesAdjointStatement` | volunteer-build-reviewed |
-| M022214 | P2449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerPresentationEndomorphismsPullback` | volunteer-build-reviewed |
-| M022219 | P2533 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerProjectionsExtendUniformisedGroupsStatement` | volunteer-build-reviewed |
-| M022221 | P2449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerProjectionsGroupPullbackStatement` | volunteer-build-reviewed |
-| M022230 | P2449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerTrivialisationEqUnitMulMonomial` | volunteer-build-reviewed |
-| M022234 | P2533 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EighthPowerUniversalObjectAtModelStalk` | volunteer-build-reviewed |

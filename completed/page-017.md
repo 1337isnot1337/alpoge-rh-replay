@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M010694 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OrthogonalEmbeddingSplitPlaceBlockDiagonal` | volunteer-build-reviewed |
+| M010695 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OrthogonalEmbeddingSplitPlaceBlockDiagonalStatement` | volunteer-build-reviewed |
+| M010696 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OrthogonalSumCoresHomotheticOffLevel` | volunteer-build-reviewed |
+| M010697 | P2093 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OrthogonalSumCoresHomotheticOffLevelStatement` | volunteer-build-reviewed |
+| M010698 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OtherPlacesConvolutionFiniteAwayOrthogonal` | volunteer-build-reviewed |
+| M010699 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OtherPlacesConvolutionFiniteAwayOrthogonalStatement` | volunteer-build-reviewed |
 | M010701 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PZeroHyperbolicZeroEqOne` | volunteer-build-reviewed |
 | M010702 | P0177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PadicResidueFieldCardAndPrimeIrreducible` | volunteer-build-reviewed |
 | M010703 | P0241 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.PadicResidueFieldCardAndPrimeIrreducibleStatement` | volunteer-build-reviewed |
@@ -396,9 +402,3 @@
 | M011435 | P2108 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceCombinationExtendByZeroOrthSumLineStatement` | volunteer-build-reviewed |
 | M011436 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceComponentKeepsLevelFunctional` | volunteer-build-reviewed |
 | M011438 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceComponentMemBaseLatticeLevelOfFixesPai` | volunteer-build-reviewed |
-| M011441 | P2034 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceComponentMonomialLatticeSplitCoreStatement` | volunteer-build-reviewed |
-| M011442 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjFrameMatrixReindex` | volunteer-build-reviewed |
-| M011443 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjFrameMatrixReindexStatement` | volunteer-build-reviewed |
-| M011444 | P2052 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjPartLineMultipleMemIff` | volunteer-build-reviewed |
-| M011445 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjPartLineMultipleMemIffStatement` | volunteer-build-reviewed |
-| M011446 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjStabilizesFramedLatticeIff` | volunteer-build-reviewed |

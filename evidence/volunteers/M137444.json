@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M137444"
+  ],
+  "started_utc": "2026-11-21T12:16:14.188072+00:00",
+  "ended_utc": "2026-11-21T12:21:11.867714+00:00",
+  "elapsed_seconds": 297.6,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5456300
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.LagrangianDecomposition.IteratedFDerivIntegral:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e6c39c165a3a2c505229feba3aebc41ae9d5b98862604f4a6263a4fcee72675c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzVanishingDecomposition"
+  ],
+  "objects": {
+    "M137444": "2b12f087e37e732f6fd4586c677abe150e5cc4d9c9b1fd7a1083667c31b09c7c"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "179b4f884348c9ccc5a6417ea911c3ac37f3672b1365570ec5fffc769e4960d5",
+  "packet": "M137444",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21197#issuecomment-7062508244",
+  "reviewed_utc": "2026-11-21T17:49:48.645777+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

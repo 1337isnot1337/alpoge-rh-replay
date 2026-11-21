@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006116 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsUnitIffCharpolyCoeffZeroNe` | wave-reused |
+| M006117 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.KerAevalAddStabilizerNilradicalSocle` | wave-reused |
+| M006118 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.KerAevalAddStabilizerNilradicalSocleStatement` | wave-reused |
+| M006119 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.LinearMapShortExactCommute` | wave-reused |
+| M006120 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.LinearMapShortExactCommuteStatement` | wave-reused |
 | M006121 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MatrixTraceIffIsCharacterOverSubfieldComplex` | wave-reused |
 | M006122 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MatrixTraceIffIsCharacterOverSubfieldComplexStatement` | wave-reused |
 | M006123 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.MemVirtualCharactersIffSubCharacters` | wave-reused |
@@ -397,8 +402,3 @@
 | M006577 | P0476 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EqZeroOfSumEmbeddingMul` | volunteer-build-reviewed |
 | M006578 | P0705 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.EqZeroOfSumEmbeddingSmul` | build-observed |
 | M006584 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsCmAdjoinActionOfEquation` | volunteer-build-reviewed |
-| M006588 | P1114 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsCmCurvesOfWeierstrassCurves` | build-observed |
-| M006597 | P0516 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsCommGrpObjWeierstrassScheme` | build-observed |
-| M006598 | P0550 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsCommGrpObjWeierstrassSchemeStatement` | build-observed |
-| M006603 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsConjDatum` | volunteer-build-reviewed |
-| M006604 | P0476 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsConstOfSqMulTendstoZero` | volunteer-build-reviewed |

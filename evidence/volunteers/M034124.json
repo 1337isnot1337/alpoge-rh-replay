@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M034124"
+  ],
+  "started_utc": "2026-11-21T12:17:03.737932+00:00",
+  "ended_utc": "2026-11-21T12:27:29.281354+00:00",
+  "elapsed_seconds": 625.5,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 24607696,
+    "peak_child_rss_kib": 6854924
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.GrothendieckDeformationOfLifting:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "cea6ba8f9ed4220c403d04799d25eada629114d6c6f7034b8032dcf688a62cb5",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.AbelianLifting"
+  ],
+  "objects": {
+    "M034124": "6a9baebb53a7a0b2b63409fb4b17085e03e669254c9bd80e6b10bf61de4ab844"
+  },
+  "bundle_sha256": "618804c57ba5d3da0f74862dd79b748d1ba19273edff2c341adec3ade98fefca",
+  "packet": "M034124",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21232#issuecomment-7062580165",
+  "reviewed_utc": "2026-11-21T17:49:15.787497+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

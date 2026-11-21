@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005106 | P0174 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExistsGlOfEquiv` | build-observed |
+| M005107 | P1444 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExistsHasCls` | volunteer-build-reviewed |
 | M005110 | P1920 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExistsMatchOver` | build-observed |
 | M005113 | P2065 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExtendByZeroTrivialDecomposition` | volunteer-build-reviewed |
 | M005116 | P0239 | `Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.HasConductorMulShift` | volunteer-build-reviewed |
@@ -371,6 +373,7 @@
 | M005581 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitMulSqQuadraticDefectStep` | wave-reused |
 | M005582 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitMulSqQuadraticDefectStepStatement` | wave-reused |
 | M005583 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitNormEqOfAlgHom` | volunteer-build-reviewed |
+| M005585 | P0516 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitNotLocalKummerNormOfNotPowStatement` | volunteer-build-reviewed |
 | M005586 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitValuationEqOfAdm` | wave-reused |
 | M005587 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitValuedTernaryLtOne` | wave-reused |
 | M005588 | P0784 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitaryAdelicDecompositionSplitSupport` | build-observed |
@@ -399,6 +402,3 @@
 | M005622 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.GramLeadingMinorLowerBoundIntegral` | volunteer-build-reviewed |
 | M005623 | P0175 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.GramLeadingMinorLowerBoundIntegralStatement` | volunteer-build-reviewed |
 | M005624 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.GramMinorSwapAdjacentColumns` | volunteer-build-reviewed |
-| M005627 | P0865 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HasFiniteAdelicDoubleCosetsOfBlockDiagPartImage` | build-observed |
-| M005628 | P0891 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HasFiniteAdelicDoubleCosetsOfBlockDiagPartImageStatement` | build-observed |
-| M005629 | P0004 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HasSumLogZetaSqMul` | volunteer-build-reviewed |

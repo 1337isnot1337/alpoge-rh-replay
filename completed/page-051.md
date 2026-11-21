@@ -2,6 +2,30 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M040643 | P2293 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelCoverComponentIndexSumEqConst` | volunteer-build-reviewed |
+| M040645 | P2237 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelCoverComponentOverBaseRationalIsometry` | volunteer-build-reviewed |
+| M040646 | P2247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelCoverComponentOverBaseRationalIsometryStatement` | volunteer-build-reviewed |
+| M040655 | P2146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelCoverPullbackReadingEqUnitConstPowMul` | volunteer-build-reviewed |
+| M040656 | P2157 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelCoverPullbackReadingEqUnitConstPowMulStatement` | volunteer-build-reviewed |
+| M040657 | P2237 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelElementLocalCoprimeActsTrivially` | volunteer-build-reviewed |
+| M040658 | P2247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelElementLocalCoprimeActsTriviallyStatement` | volunteer-build-reviewed |
+| M040664 | P2293 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelGeometryWeightBoundStatement` | volunteer-build-reviewed |
+| M040671 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelIdempotentMulLevelProjMulGoodPartEq` | volunteer-build-reviewed |
+| M040674 | P2293 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelIndexBoundOfPublished` | volunteer-build-reviewed |
+| M040689 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelMapSurjectiveSkewStatement` | volunteer-build-reviewed |
+| M040690 | P2037 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelMeasureEqRelIndexSmul` | volunteer-build-reviewed |
+| M040691 | P2054 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelMeasureEqRelIndexSmulStatement` | volunteer-build-reviewed |
+| M040694 | P2237 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelMoveEigenlatticeSlopeDefinite` | volunteer-build-reviewed |
+| M040695 | P2247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelMoveEigenlatticeSlopeDefiniteStatement` | volunteer-build-reviewed |
+| M040698 | P2225 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelMoveStabiliserCharacterDet` | volunteer-build-reviewed |
+| M040699 | P2237 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelMoveStabiliserCharacterDetStatement` | volunteer-build-reviewed |
+| M040700 | P1886 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelOnFibreUniqueTwist` | volunteer-build-reviewed |
+| M040711 | P0480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelPosOfCoprime` | volunteer-build-reviewed |
+| M040712 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelQuotientModuleSurjection` | build-observed |
+| M040713 | P2146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelReductionHolds` | volunteer-build-reviewed |
+| M040714 | P2157 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelReductionHoldsStatement` | volunteer-build-reviewed |
+| M040715 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelRowsEqPrincipalRowsOfType` | volunteer-build-reviewed |
+| M040716 | P2037 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelRowsEqPrincipalRowsOfTypeStatement` | volunteer-build-reviewed |
 | M040719 | P2019 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelRowsOrthogonalSumOfParts` | volunteer-build-reviewed |
 | M040720 | P2037 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelRowsOrthogonalSumOfPartsStatement` | volunteer-build-reviewed |
 | M040734 | P2293 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LevelStructureBaseChangeLabelsTorsion` | volunteer-build-reviewed |
@@ -73,6 +97,7 @@
 | M040858 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormLogPotentialFormulaStatement` | volunteer-build-reviewed |
 | M040861 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormTwistedWeightLowerBound` | wave-reused |
 | M040862 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormTwistedWeightLowerBoundStatement` | wave-reused |
+| M040864 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormZeroExtensionStatement` | volunteer-build-reviewed |
 | M040865 | P1840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormsTransportToOrthonormalChartOrigin` | volunteer-build-reviewed |
 | M040866 | P1861 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviFormsTransportToOrthonormalChartOriginStatement` | volunteer-build-reviewed |
 | M040869 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeviIsoPlaneUnique` | volunteer-build-reviewed |
@@ -307,6 +332,7 @@
 | M041489 | P2225 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearModelUnitaryIntertwinesStatement` | volunteer-build-reviewed |
 | M041495 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearSectionEtaleOfSquarefreeChowFormStatement` | volunteer-build-reviewed |
 | M041497 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearSectionFiniteInOpenOffBadFormStatement` | volunteer-build-reviewed |
+| M041498 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearSubLogLowerBoundShifted` | volunteer-build-reviewed |
 | M041499 | P1840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearSystemHilbertFunctionEqFinrankConePiece` | volunteer-build-reviewed |
 | M041500 | P1862 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearSystemHilbertFunctionEqFinrankConePieceStatement` | volunteer-build-reviewed |
 | M041509 | P2237 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LinearWeilFunctionalDeterminedByUnramified` | volunteer-build-reviewed |
@@ -376,29 +402,3 @@
 | M041637 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralUnitBallRayAverageLe` | volunteer-build-reviewed |
 | M041638 | P0110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralUnitBallRayAverageLeStatement` | volunteer-build-reviewed |
 | M041639 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralUnitCubeTranslatesSlabPeriodicLe` | volunteer-build-reviewed |
-| M041640 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralUnitCubeTranslatesSlabPeriodicLeStatement` | volunteer-build-reviewed |
-| M041645 | P1032 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralWeightedAtlasFrameEtaleTransfer` | wave-reused |
-| M041646 | P1060 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LintegralWeightedAtlasFrameEtaleTransferStatement` | wave-reused |
-| M041649 | P0399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LipschitzFormulaTotallyRealPoisson` | build-observed |
-| M041651 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ListProdUpdateConjugate` | volunteer-build-reviewed |
-| M041652 | P0110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ListProdUpdateConjugateStatement` | volunteer-build-reviewed |
-| M041655 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocAdMul` | volunteer-build-reviewed |
-| M041656 | P1924 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocCO` | volunteer-build-reviewed |
-| M041657 | P1449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocCharEqValZpow` | volunteer-build-reviewed |
-| M041658 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocCompactSecondCountable` | volunteer-build-reviewed |
-| M041663 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocEqOneOfMemGam` | volunteer-build-reviewed |
-| M041665 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocFieldFv` | volunteer-build-reviewed |
-| M041666 | P2000 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocFieldLP` | volunteer-build-reviewed |
-| M041670 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocHomAlgebraMap` | volunteer-build-reviewed |
-| M041672 | P2237 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocIdeleEqIdl` | volunteer-build-reviewed |
-| M041673 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocIndEtaleIsDomainIsIntegrallyClosed` | volunteer-build-reviewed |
-| M041676 | P1376 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocKCongr` | build-observed |
-| M041677 | P1741 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocKLeLocU` | volunteer-build-reviewed |
-| M041678 | P2247 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocMInvMul` | volunteer-build-reviewed |
-| M041680 | P2110 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocOpInfMul` | volunteer-build-reviewed |
-| M041684 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocUnifSum` | volunteer-build-reviewed |
-| M041685 | P2146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocZero` | volunteer-build-reviewed |
-| M041686 | P2200 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalActionLinearInVector` | volunteer-build-reviewed |
-| M041689 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalAddCharComponentTrivialIntegersEventuallyStatement` | volunteer-build-reviewed |
-| M041690 | P1980 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalAddCharUnramifiedOfSplitsCompletelyAbovePla` | volunteer-build-reviewed |
-| M041691 | P2000 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LocalAddCharUnramifiedOfSplitsCompletelyAbovePlaStatement` | volunteer-build-reviewed |

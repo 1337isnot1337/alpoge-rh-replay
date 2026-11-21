@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M026345 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInjectivePointsLargerFieldGalois` | volunteer-build-reviewed |
+| M026355 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntFrExtension` | volunteer-build-reviewed |
+| M026356 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntInv` | build-observed |
+| M026358 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntMatrixTransposeMulEqSmulOne` | volunteer-build-reviewed |
+| M026361 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntOfDenLe` | volunteer-build-reviewed |
+| M026363 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntSmulIsAdicIntegralInTensorBasisStatement` | volunteer-build-reviewed |
+| M026364 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntSmulMemOfIsLattice` | volunteer-build-reviewed |
+| M026365 | P1087 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntVVariableChange` | build-observed |
+| M026366 | P1117 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntVVariableChangeStatement` | build-observed |
+| M026367 | P1398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntWitness` | build-observed |
+| M026368 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntegerAddConjEqOneUnramifiedCm` | volunteer-build-reviewed |
+| M026369 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntegerAddConjEqOneUnramifiedCmStatement` | volunteer-build-reviewed |
 | M026372 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntegerDenominatorNotMemOfValuationLeOneStatement` | volunteer-build-reviewed |
 | M026373 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntegerOfAlgebraMapMemAdelesFiniteMultiple` | volunteer-build-reviewed |
 | M026374 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntegerOfAlgebraMapMemAdelesFiniteMultipleStatement` | volunteer-build-reviewed |
@@ -130,6 +142,7 @@
 | M026666 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsTensorEtaleSheafComplexPairing` | wave-reused |
 | M026667 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsTensorEtaleSheafComplexPairingStatement` | wave-reused |
 | M026669 | P1352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsThetaAtOfVac` | build-observed |
+| M026672 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsUnitDetKrylovMatrixOfSeparable` | volunteer-build-reviewed |
 | M026674 | P0867 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsUnitMemOfSpanBaseChange` | build-observed |
 | M026675 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsUnitMulSubMemJacobsonOfFiniteResidueFiel` | volunteer-build-reviewed |
 | M026676 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsUnitMulSubMemJacobsonOfFiniteResidueFielStatement` | volunteer-build-reviewed |
@@ -389,16 +402,3 @@
 | M027363 | P2135 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalUnipotentAdditiveStatement` | volunteer-build-reviewed |
 | M027366 | P1172 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalUnitNormVectorIsotropicHermitian` | build-observed |
 | M027367 | P1196 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalUnitNormVectorIsotropicHermitianStatement` | build-observed |
-| M027368 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalUnitOfDvrUnit` | volunteer-build-reviewed |
-| M027369 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalUnitOfDvrUnitStatement` | volunteer-build-reviewed |
-| M027374 | P2157 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalWeilHomFinitePlace` | volunteer-build-reviewed |
-| M027375 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalWeilHomFinitePlaceStatement` | volunteer-build-reviewed |
-| M027376 | P2157 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalWeilOperatorsSupportedAtPlace` | volunteer-build-reviewed |
-| M027377 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalWeilOperatorsSupportedAtPlaceStatement` | volunteer-build-reviewed |
-| M027378 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalWittBasis` | volunteer-build-reviewed |
-| M027379 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalWittBasisStatement` | volunteer-build-reviewed |
-| M027381 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalizationAwayFromPrime` | volunteer-build-reviewed |
-| M027382 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalizationAwayFromPrimeStatement` | volunteer-build-reviewed |
-| M027383 | P2480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalizationCoverOfPoint` | volunteer-build-reviewed |
-| M027384 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalizationCoverOfPointStatement` | volunteer-build-reviewed |
-| M027385 | P2082 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalizingWeightEqualOffPlaceMasses` | volunteer-build-reviewed |

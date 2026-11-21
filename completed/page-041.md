@@ -2,6 +2,22 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M031568 | P1477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankDdREqOfEquiv` | build-observed |
+| M031571 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankDualAndRangeDualMapBaseChange` | wave-reused |
+| M031572 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankDvdOfRingOfIntegersToIntMatrix` | volunteer-build-reviewed |
+| M031573 | P0106 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankDvdOfRingOfIntegersToIntMatrixStatement` | volunteer-build-reviewed |
+| M031574 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankEigenCoindMackeyDoubleCosets` | build-observed |
+| M031575 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankEigenCoindMackeyDoubleCosetsStatement` | build-observed |
+| M031579 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankEqMulOfRankAtStalk` | volunteer-build-reviewed |
+| M031583 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankEqRankMulDegree` | volunteer-build-reviewed |
+| M031584 | P0106 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankEqRankMulDegreeStatement` | volunteer-build-reviewed |
+| M031586 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankEqZeroOfDualKilledByTensor` | volunteer-build-reviewed |
+| M031587 | P0106 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankEqZeroOfDualKilledByTensorStatement` | volunteer-build-reviewed |
+| M031588 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankEquivariantHomEqAugmentationQuotient` | volunteer-build-reviewed |
+| M031591 | P1941 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankFiberEqCardSectionsMulLengthStatement` | volunteer-build-reviewed |
+| M031594 | P0949 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankFirstDeRhamHomologyHodgeFiltrationOfField` | volunteer-build-reviewed |
+| M031598 | P2558 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankFrobeniusDualAddFinrankKerVerschiebung` | volunteer-build-reviewed |
+| M031599 | P2579 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankFrobeniusDualAddFinrankKerVerschiebungStatement` | volunteer-build-reviewed |
 | M031600 | P2579 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankFrobeniusKernelHopfLePowCotangent` | volunteer-build-reviewed |
 | M031603 | P2579 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankFrobeniusKernelQuotientLePowCotangentStatement` | volunteer-build-reviewed |
 | M031606 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankGraphJetsLeChoose` | volunteer-build-reviewed |
@@ -72,6 +88,7 @@
 | M031761 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumOrdMulInertiaDegEqFinrankMulOrdStatement` | volunteer-build-reviewed |
 | M031764 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumOrderPlacesAboveEqFinrankMul` | build-observed |
 | M031765 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumOrderPlacesAboveEqFinrankMulStatement` | build-observed |
+| M031766 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumOverConjPairsEqOrbitSum` | volunteer-build-reviewed |
 | M031768 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumRegroupFibreBij` | volunteer-build-reviewed |
 | M031770 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumReindexEquivalentSubtypes` | volunteer-build-reviewed |
 | M031772 | P0106 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinsumRestrictedProductCountStatement` | volunteer-build-reviewed |
@@ -385,20 +402,3 @@
 | M032540 | P0893 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockHarmonicsGradedCompactStable` | build-observed |
 | M032541 | P0920 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockHarmonicsGradedCompactStableStatement` | build-observed |
 | M032542 | P1448 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockHarmonicsSupCoinvariantsEqTop` | build-observed |
-| M032543 | P1477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockHarmonicsSupCoinvariantsEqTopStatement` | build-observed |
-| M032544 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockHeisenbergOperatorISignatureConjApplyOne` | volunteer-build-reviewed |
-| M032545 | P1448 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockHeisenbergOperatorISignatureConjApplyOneStatement` | build-observed |
-| M032552 | P2178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockIpSelfRePos` | volunteer-build-reviewed |
-| M032557 | P1998 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockJetsOriginOppositeSignVacuumConjPeriod` | volunteer-build-reviewed |
-| M032558 | P2018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockJetsOriginOppositeSignVacuumConjPeriodStatement` | volunteer-build-reviewed |
-| M032560 | P1941 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockJetsUnitVacuumEqScaledThetaJetsStatement` | volunteer-build-reviewed |
-| M032561 | P1960 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockJetsUnitVacuumEqUnitMulPeriodJets` | volunteer-build-reviewed |
-| M032562 | P1979 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockJetsUnitVacuumEqUnitMulPeriodJetsStatement` | volunteer-build-reviewed |
-| M032565 | P1032 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockLoweringPartEqSubFockOperators` | build-observed |
-| M032566 | P1060 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockLoweringPartEqSubFockOperatorsStatement` | build-observed |
-| M032568 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockMapOfCanonicalCommutationPlacewiseSignatureStatement` | volunteer-build-reviewed |
-| M032569 | P1118 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockMinimalKTypeSecondMember` | build-observed |
-| M032570 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockMinimalKTypeSecondMemberStatement` | build-observed |
-| M032571 | P2096 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockMinorPolZero` | volunteer-build-reviewed |
-| M032573 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockMonomialAtOriginGaussianEntireOrthonormalStatement` | volunteer-build-reviewed |
-| M032574 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockNormBoundsMulXPderiv` | build-observed |

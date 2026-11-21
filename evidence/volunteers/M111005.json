@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M111005"
+  ],
+  "started_utc": "2026-11-21T12:00:19.892601+00:00",
+  "ended_utc": "2026-11-21T12:00:41.046833+00:00",
+  "elapsed_seconds": 21.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5164144
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.Foundations.Convolution.PolynomialCoefficientBounds.LiftSingle:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fd45b0571eb5100b77490b1f0d1481322eb59415bc4c976150fcbd214c329757",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.Foundations.Convolution.PolynomialCoefficientBounds.PieceAdd",
+    "Development.WeilBound.RepresentationTheoryGL.TwistedFactors.AffineCharacterGenerators.AffChar",
+    "Development.WeilBound.RepresentationTheoryGL.TwistedFactors.AffineCharacterGenerators.Generators"
+  ],
+  "objects": {
+    "M111005": "8dced33301aa744c9c31b3116caa3262be5678a3ecd33dc0172f180d6427408d"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "02fff09916397ddb6c09dae9e0a579ef4b5e64a56954c7a7a6fdd32e36147b11",
+  "packet": "M111005",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20918#issuecomment-7062282214",
+  "reviewed_utc": "2026-11-21T17:51:09.423010+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

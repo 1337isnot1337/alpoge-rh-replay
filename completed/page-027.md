@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M019614 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousAtCharSeriesCoefZero` | volunteer-build-reviewed |
+| M019619 | P1475 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousAtPolarisedTopChernCoeff` | volunteer-build-reviewed |
+| M019623 | P1446 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousCA` | volunteer-build-reviewed |
+| M019625 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousCharacterCocycleTrivialNearZeroStatement` | volunteer-build-reviewed |
+| M019626 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousCharacterTrivialOnSmallIdeles` | volunteer-build-reviewed |
+| M019628 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousCharpolyCoeffMulLeftFiniteAdelesAwayPStatement` | volunteer-build-reviewed |
+| M019629 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousCircleIntegralFamily` | volunteer-build-reviewed |
+| M019631 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousComplEquivSymm` | volunteer-build-reviewed |
+| M019632 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousComponents` | volunteer-build-reviewed |
+| M019633 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousConeDescendsEtaleSurjective` | build-observed |
 | M019634 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousConeDescendsEtaleSurjectiveStatement` | build-observed |
 | M019637 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousExtensionDoubledUnitary` | volunteer-build-reviewed |
 | M019639 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousFamF` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M020415 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxCoordsTransferHaarFundamentalDomainCm` | volunteer-build-reviewed |
 | M020418 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxCoordsTransportCovolumeOneHaarStatement` | volunteer-build-reviewed |
 | M020419 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxDerivativeExistence` | volunteer-build-reviewed |
-| M020420 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxDerivativeExistenceStatement` | volunteer-build-reviewed |
-| M020421 | P2224 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxDoubledCoordinates` | volunteer-build-reviewed |
-| M020425 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxDoublingSchrodingerFormula` | volunteer-build-reviewed |
-| M020426 | P2109 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxDoublingSchrodingerFormulaStatement` | volunteer-build-reviewed |
-| M020427 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxLiftMulEqZero` | volunteer-build-reviewed |
-| M020428 | P1764 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxModelCoordinates` | volunteer-build-reviewed |
-| M020429 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxModelCoordinatesStatement` | volunteer-build-reviewed |
-| M020430 | P2082 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxPhaseMulBoxEqHeisenbergTranslates` | volunteer-build-reviewed |
-| M020431 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxPhaseMulBoxEqHeisenbergTranslatesStatement` | volunteer-build-reviewed |
-| M020432 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.DarbouxRationalBasisCompatible` | volunteer-build-reviewed |

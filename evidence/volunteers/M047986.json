@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M047986"
+  ],
+  "started_utc": "2026-11-21T12:16:11.345721+00:00",
+  "ended_utc": "2026-11-21T12:18:16.481474+00:00",
+  "elapsed_seconds": 125.1,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 5753132
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularQuotientPrimeElement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5263f629e861aba8d870e8253f12fc012309d4675a44d170af9b99c199562d70",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsSaturated",
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.RegularLocalRingNormalDomain",
+    "ReciprocityTheory.CommutativeAlgebra.MaximalIdealSquares.RingKrullDimQuotientSpanSingletonAddOne"
+  ],
+  "objects": {
+    "M047986": "1992c983b1d53eabc12cb0b0b8ee82478b17a19b21caf4f93a2b59a1d0b38609"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "152cbc5eb5fc25508290a4b53285a72e759ae55000b2e3d537bfb17bfcfa4c9c",
+  "packet": "M047986",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21201#issuecomment-7062474252",
+  "reviewed_utc": "2026-11-21T17:49:47.631185+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

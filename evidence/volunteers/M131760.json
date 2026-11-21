@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M131760"
+  ],
+  "started_utc": "2026-11-21T12:12:34.118682+00:00",
+  "ended_utc": "2026-11-21T12:13:39.936130+00:00",
+  "elapsed_seconds": 65.8,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 8155564,
+    "peak_child_rss_kib": 4649344
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimeIdealExtensionLocalDomainStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "cea0960da5d7a5b92e59c872b1de4f456373388476179457fc6d908ae0b7d93e",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.PrimeIdealExtensionLocalDomain"
+  ],
+  "objects": {
+    "M131760": "a95b5a5a73c2b3f4c9262511a32a3b5c36fd531b6fdc6f61ea5f234b58659d4a"
+  },
+  "project_root": "/data/workspace/rh/replay/lean",
+  "bundle_sha256": "54a9b2245c510f32ce37deb4522826188bba453a9af580a19a21b6204b29121d",
+  "packet": "M131760",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21193#issuecomment-7062420939",
+  "reviewed_utc": "2026-11-21T17:49:53.021614+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

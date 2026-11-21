@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M075423"
+  ],
+  "started_utc": "2026-11-21T12:21:37.301343+00:00",
+  "ended_utc": "2026-11-21T12:30:46.328699+00:00",
+  "elapsed_seconds": 549.0,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5808232
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorGaussNormUltrametricStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "57cc6018eae99ee991977dd9860e765978fb812aad70edd01d080e7a747edb91",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UltraSumLe",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorGaussNormUltrametric"
+  ],
+  "objects": {
+    "M075423": "0da6755f10e0f3c55e34a9126acb028512d1a70432f1e367bdf1d4f183fd078a"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "c6916a0125b119716f3c9c01194dfd7a724ae5d8fd0bfd45000a529377213b32",
+  "packet": "M075423",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21231#issuecomment-7062622604",
+  "reviewed_utc": "2026-11-21T17:49:15.249965+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

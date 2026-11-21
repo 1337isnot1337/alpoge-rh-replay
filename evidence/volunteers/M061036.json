@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M061036"
+  ],
+  "started_utc": "2026-11-21T12:08:22.448355+00:00",
+  "ended_utc": "2026-11-21T12:08:39.755257+00:00",
+  "elapsed_seconds": 17.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5165492
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.ClassGroupNthPowerOfCongruentPointsModStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8e29149f98d190099bd93c1450cd38302803ef01619367c87f79064e62767e9f",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ClassGroupNthPowerOfCongruentPointsMod"
+  ],
+  "objects": {
+    "M061036": "129aa5c9b481cf2395db5e22baf1037ee72b4de39c71f091a24a16f0235bcbd5"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "0e10ba9d3225e81dc4da0a1f0ec44382b9bdd3ec6f0088dc2302404aec15420d",
+  "packet": "M061036",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21092#issuecomment-7062371730",
+  "reviewed_utc": "2026-11-21T17:50:04.909987+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M097051"
+  ],
+  "started_utc": "2026-11-21T11:45:41.174477+00:00",
+  "ended_utc": "2026-11-21T11:45:52.001900+00:00",
+  "elapsed_seconds": 10.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6858556
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzEqGaussianOfFderivAddEqZeroStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0092e6b22ce784ed9b32f7e47e50d7a4e582266f595743b8e8085c5c5463178a",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzEqGaussianOfFderivAddEqZero"
+  ],
+  "objects": {
+    "M097051": "6983014c852b0e19eedf45b49afcad004fc0f398692895769a2c269371950307"
+  },
+  "bundle_sha256": "f79f8688370ed81c0bf5c87f93e82177205285c67b56ca8b71f1136aa4e3f827",
+  "packet": "M097051",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20878#issuecomment-7062112055",
+  "reviewed_utc": "2026-11-21T17:51:45.779536+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

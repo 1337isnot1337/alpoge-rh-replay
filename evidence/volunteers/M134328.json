@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M134328"
+  ],
+  "started_utc": "2026-11-21T12:29:40.265283+00:00",
+  "ended_utc": "2026-11-21T12:34:35.124866+00:00",
+  "elapsed_seconds": 294.8,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5848016
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBound:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9c55bc0699aca3574a1df1d46761817f936d5b78dea490cac9d5d02e1aeb7c41",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.FcIndepDetNeZeroOfRank"
+  ],
+  "objects": {
+    "M134328": "613b448f20d6cd990f0ea95594476c0f09dec1163e86a22924a8a52bd7eb3b51"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "c5d8889f86302343c775384a68a9b9eac297fdb9838c6c63be97258a58e98251",
+  "packet": "M134328",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21229#issuecomment-7062669011",
+  "reviewed_utc": "2026-11-21T17:49:23.526613+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

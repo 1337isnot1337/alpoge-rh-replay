@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M132976"
+  ],
+  "started_utc": "2026-11-21T12:01:09.688555+00:00",
+  "ended_utc": "2026-11-21T12:24:59.456550+00:00",
+  "elapsed_seconds": 1429.7,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 7931936,
+    "peak_child_rss_kib": 4222868
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.JetProofs.ContinuousIteratedFDerivPartial:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7012ff690084fbc396b6287b9457384995fe47b97825e1a0222a8b897301baa1",
+  "rebuilt_project_modules": [
+    "GroundTheory.AutomorphicForms.GKModules.ParametricIntegral"
+  ],
+  "objects": {
+    "M132976": "2c850e922760b91a67827a9a953c37576b2b7b6f8bc6c01e2a2d731acef31c6b"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "b4fba94a1af92b70bf020264b4430e342d5c6b4d4c3acc82a091cd3601b2200d",
+  "packet": "M132976",
+  "contributor": "chriswilson413",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21079#issuecomment-7062552283",
+  "reviewed_utc": "2026-11-21T17:50:21.360404+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

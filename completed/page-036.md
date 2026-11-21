@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M027368 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalUnitOfDvrUnit` | volunteer-build-reviewed |
+| M027369 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalUnitOfDvrUnitStatement` | volunteer-build-reviewed |
+| M027374 | P2157 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalWeilHomFinitePlace` | volunteer-build-reviewed |
+| M027375 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalWeilHomFinitePlaceStatement` | volunteer-build-reviewed |
+| M027376 | P2157 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalWeilOperatorsSupportedAtPlace` | volunteer-build-reviewed |
+| M027377 | P2167 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalWeilOperatorsSupportedAtPlaceStatement` | volunteer-build-reviewed |
+| M027378 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalWittBasis` | volunteer-build-reviewed |
+| M027379 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalWittBasisStatement` | volunteer-build-reviewed |
+| M027381 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalizationAwayFromPrime` | volunteer-build-reviewed |
+| M027382 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalizationAwayFromPrimeStatement` | volunteer-build-reviewed |
+| M027383 | P2480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalizationCoverOfPoint` | volunteer-build-reviewed |
+| M027384 | P2509 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalizationCoverOfPointStatement` | volunteer-build-reviewed |
+| M027385 | P2082 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalizingWeightEqualOffPlaceMasses` | volunteer-build-reviewed |
 | M027386 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalizingWeightEqualOffPlaceMassesStatement` | volunteer-build-reviewed |
 | M027396 | P2480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLogCanonicalMultipleOfGloballyKltStatement` | volunteer-build-reviewed |
 | M027397 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLogCutoffBoundedPoincareGradient` | volunteer-build-reviewed |
@@ -389,16 +402,3 @@
 | M028199 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointLocalRingClosedPointCentreOfPlace` | volunteer-build-reviewed |
 | M028200 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointLocalRingClosedPointCentreOfPlaceStatement` | volunteer-build-reviewed |
 | M028203 | P2366 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointOfTrivialO1Pullback` | volunteer-build-reviewed |
-| M028205 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointPicardClassEqTranslateOfTrivialLambda` | volunteer-build-reviewed |
-| M028206 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointPicardClassEqTranslateOfTrivialLambdaStatement` | volunteer-build-reviewed |
-| M028209 | P2343 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointTranslatePrimitiveOfAmpleKTrivial` | volunteer-build-reviewed |
-| M028210 | P2366 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointTranslatePrimitiveOfAmpleKTrivialStatement` | volunteer-build-reviewed |
-| M028211 | P2343 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointTranslatesInOpenSemiAbelianLocal` | volunteer-build-reviewed |
-| M028212 | P2366 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointTranslatesInOpenSemiAbelianLocalStatement` | volunteer-build-reviewed |
-| M028213 | P2480 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointsFramesThetaSectionGenericFibreMember` | volunteer-build-reviewed |
-| M028214 | P2510 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointsFramesThetaSectionGenericFibreMemberStatement` | volunteer-build-reviewed |
-| M028217 | P1087 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointsTranslationFamilyChartsThickenings` | build-observed |
-| M028218 | P1117 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPointsTranslationFamilyChartsThickeningsStatement` | build-observed |
-| M028225 | P2366 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolAV` | volunteer-build-reviewed |
-| M028227 | P2036 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolAVFibre` | volunteer-build-reviewed |
-| M028228 | P2366 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPolAVGeneric` | volunteer-build-reviewed |

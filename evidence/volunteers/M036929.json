@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M036929"
+  ],
+  "started_utc": "2026-11-21T11:42:00.524319+00:00",
+  "ended_utc": "2026-11-21T11:47:05.503934+00:00",
+  "elapsed_seconds": 305.0,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralCasimirElementCentralStatement:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 4706488
+  },
+  "source_sha256": "df668a9c07a6607f1e23e37a97cd53dc9ac412b74db2c07793d34c005044250f",
+  "log_sha256": "24c9abdcec2f2b7963ba94b2c365ce9685523e6a122a04feace560a6c65ee4a4",
+  "objects": {
+    "M036929": "fca0f11e944e932af51928a506a69849c8f19ac02d5086c209d7266bd13a2ba8"
+  },
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AdjugateGramSymm",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramPosSemidefOfIntForm",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralCasimirElementCentral"
+  ],
+  "bundle_sha256": "5d307a8919b56f080159531f7118e7b700c8648700c8909a154e51c848eb7e9a",
+  "packet": "M036929",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20864#issuecomment-7062137634",
+  "reviewed_utc": "2026-11-21T17:51:41.109351+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

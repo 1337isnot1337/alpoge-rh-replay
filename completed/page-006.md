@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M003694 | P1029 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLimDeg` | build-observed |
+| M003695 | P1531 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLocCompIffEquiv` | volunteer-build-reviewed |
 | M003696 | P1834 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLocalRingTrivSqZeroExt` | build-observed |
 | M003697 | P2133 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLocallyConstantLinOm` | volunteer-build-reviewed |
 | M003698 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsLocallyConstantSplitOm` | volunteer-build-reviewed |
@@ -400,5 +402,3 @@
 | M004428 | P0347 | `Development.AbelianVarietyTheory.Definitions.HermitianLattices.TraceFormBilinSeparatingLeftIff` | wave-reused |
 | M004429 | P0865 | `Development.AbelianVarietyTheory.Definitions.Jets.BasicLiftAll` | volunteer-build-reviewed |
 | M004430 | P0096 | `Development.AbelianVarietyTheory.Definitions.Jets.CmLatticeCommutatorPairingPowEqOneOfGoodLift` | volunteer-build-reviewed |
-| M004431 | P1245 | `Development.AbelianVarietyTheory.Definitions.Jets.CmQuadraticFormEqAlternatingForm` | volunteer-build-reviewed |
-| M004432 | P0838 | `Development.AbelianVarietyTheory.Definitions.Jets.ColValMonomial` | wave-reused |

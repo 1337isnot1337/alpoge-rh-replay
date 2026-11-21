@@ -2,6 +2,12 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M011441 | P2034 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceComponentMonomialLatticeSplitCoreStatement` | volunteer-build-reviewed |
+| M011442 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjFrameMatrixReindex` | volunteer-build-reviewed |
+| M011443 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjFrameMatrixReindexStatement` | volunteer-build-reviewed |
+| M011444 | P2052 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjPartLineMultipleMemIff` | volunteer-build-reviewed |
+| M011445 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjPartLineMultipleMemIffStatement` | volunteer-build-reviewed |
+| M011446 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjStabilizesFramedLatticeIff` | volunteer-build-reviewed |
 | M011447 | P2108 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjStabilizesFramedLatticeIffStatement` | volunteer-build-reviewed |
 | M011448 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjugateStabilizerKeepsMovedFrameLatt` | volunteer-build-reviewed |
 | M011449 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SplitPlaceConjugateStabilizerKeepsMovedFrameLattStatement` | volunteer-build-reviewed |
@@ -396,9 +402,3 @@
 | M012228 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistChainLevelProductInverseScalarLaws` | volunteer-build-reviewed |
 | M012229 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistChainLevelProductInverseScalarLawsStatement` | volunteer-build-reviewed |
 | M012231 | P2177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistChainLevelProductOverPlacesCompactOpenStatement` | volunteer-build-reviewed |
-| M012234 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistCombinationSplitsSinglePlaceVacuum` | volunteer-build-reviewed |
-| M012235 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistCombinationSplitsSinglePlaceVacuumStatement` | volunteer-build-reviewed |
-| M012236 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistEulerFactorsRestoreNormalizingFactor` | volunteer-build-reviewed |
-| M012237 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistEulerFactorsRestoreNormalizingFactorStatement` | volunteer-build-reviewed |
-| M012238 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistEulerFactorsRestoreQuotientLValues` | volunteer-build-reviewed |
-| M012239 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TwistEulerFactorsRestoreQuotientLValuesStatement` | volunteer-build-reviewed |

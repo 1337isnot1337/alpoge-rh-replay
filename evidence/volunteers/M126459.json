@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M126459"
+  ],
+  "started_utc": "2026-11-21T12:16:13.893491+00:00",
+  "ended_utc": "2026-11-21T12:21:12.160813+00:00",
+  "elapsed_seconds": 298.2,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5492116
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.PartialFractionDiagonalIdentity:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8ba2d02454951ea9e7460c36f22a3aff9e7631b5d41902492c9561ecbd129649",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.HolomorphicDiscreteSeries.EmbeddedFrames.PfD"
+  ],
+  "objects": {
+    "M126459": "c9645fe1b3c9b14476860e5989378571cb9d9a77098507930e33e68ef076174f"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "49ebb02be27aeebcc7005f3e47b719bffa8fdc990917a996e97baf9c0e93a19c",
+  "packet": "M126459",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21202#issuecomment-7062508272",
+  "reviewed_utc": "2026-11-21T17:49:47.713806+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

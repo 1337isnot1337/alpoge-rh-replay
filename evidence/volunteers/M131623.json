@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M131623"
+  ],
+  "started_utc": "2026-11-21T12:16:14.187093+00:00",
+  "ended_utc": "2026-11-21T12:21:11.612821+00:00",
+  "elapsed_seconds": 297.4,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 10172504,
+    "peak_child_rss_kib": 5562084
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.NonarchValuationOfPrimeStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "edeeec0b847fb290c74651dd89a1cc5155121e6a741423ca1dbeb3d213fd611f",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.NonarchValuationOfPrime"
+  ],
+  "objects": {
+    "M131623": "1d1b9de0b2a60387a373610f67406308ecd6ceeba1a7d20fd1906009764f1f15"
+  },
+  "project_root": "/work/replay/lean",
+  "bundle_sha256": "19884532ebd589f0e0b06e62e1af3b0f3d686d9e4faab67125d4d16542cfabc7",
+  "packet": "M131623",
+  "contributor": "Amahane-Hikari",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/21204#issuecomment-7062507813",
+  "reviewed_utc": "2026-11-21T17:49:38.728120+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

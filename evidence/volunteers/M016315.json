@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M016315"
+  ],
+  "started_utc": "2026-11-21T11:56:58.826353+00:00",
+  "ended_utc": "2026-11-21T11:57:19.213053+00:00",
+  "elapsed_seconds": 20.4,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5208572
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigCellFactorisationDoubledUnitaryGroupStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "899ef70d2dfed4916053670ce56db32c693226cddc97c4a868458a1fd160c560",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Divisors.HilbertNinetyQuotientHomEqIff",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.BigCellFactorisationDoubledUnitaryGroup"
+  ],
+  "objects": {
+    "M016315": "f2e344a52cf643f7fce98959da7c2a60f458c42f7252b3d519825c0328a11f0a"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "8959a0a72dd3977707c0240e45900388d1e449b4024b97774d18494940c4f7c7",
+  "packet": "M016315",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20803#issuecomment-7062235041",
+  "reviewed_utc": "2026-11-21T17:51:47.418415+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

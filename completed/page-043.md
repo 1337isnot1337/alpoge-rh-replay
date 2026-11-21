@@ -2,6 +2,26 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M033331 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisComparisonMapInjectiveOfFlat` | volunteer-build-reviewed |
+| M033334 | P2579 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisConjQExpansionFamilyDiagOneUnitStatement` | volunteer-build-reviewed |
+| M033339 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisDescentFreeSheafCechLevelSepClosure` | wave-reused |
+| M033340 | P0651 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisDescentFreeSheafCechLevelSepClosureStatement` | wave-reused |
+| M033343 | P2454 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisDescentInvariantMorphismFlatExistsUnique` | volunteer-build-reviewed |
+| M033347 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisDescentSemilinearBijective` | wave-reused |
+| M033348 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisDescentSemilinearBijectiveStatement` | wave-reused |
+| M033349 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisElementDvdOfFormallyUnramified` | volunteer-build-reviewed |
+| M033350 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisElementDvdOfFormallyUnramifiedStatement` | volunteer-build-reviewed |
+| M033362 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisLocallyConstantTupleRingTensorPowerUnivers` | wave-reused |
+| M033363 | P0518 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisLocallyConstantTupleRingTensorPowerUniversStatement` | wave-reused |
+| M033364 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisOfFiniteGeneratingAutomorphisms` | volunteer-build-reviewed |
+| M033365 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisOfFiniteGeneratingAutomorphismsStatement` | volunteer-build-reviewed |
+| M033372 | P2579 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisQuotientSmoothBaseChangeIsoClosedFibre` | volunteer-build-reviewed |
+| M033376 | P1118 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisStableLatticePointsSymmetricMem` | build-observed |
+| M033377 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisStableLatticePointsSymmetricMemStatement` | build-observed |
+| M033378 | P0107 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisStableLatticeRationalSpanInclusions` | volunteer-build-reviewed |
+| M033379 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisStableLatticeRationalSpanInclusionsStatement` | volunteer-build-reviewed |
+| M033387 | P2454 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisTransitiveOnFibresFlatBaseChangeStatement` | volunteer-build-reviewed |
+| M033388 | P1885 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisTransitiveOnValuationRings` | wave-reused |
 | M033391 | P0977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisTransportSecondEisensteinCmStatement` | build-observed |
 | M033394 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisTwistedNormGLBasicProperties` | wave-reused |
 | M033395 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisTwistedNormGLBasicPropertiesStatement` | wave-reused |
@@ -302,6 +322,7 @@
 | M034119 | P2036 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GridSquareInfinityExponentGapLargeGridsStatement` | volunteer-build-reviewed |
 | M034120 | P1998 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GridSquareSkewSumSpaceIsSkewHermitianSelfDual` | volunteer-build-reviewed |
 | M034121 | P2018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GridSquareSkewSumSpaceIsSkewHermitianSelfDualStatement` | volunteer-build-reviewed |
+| M034124 | P1004 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GrothendieckDeformationOfLifting` | volunteer-build-reviewed |
 | M034131 | P1448 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GrothendieckMessingLiftOfNoetherianCase` | build-observed |
 | M034132 | P1477 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GrothendieckMessingLiftOfNoetherianCaseStatement` | build-observed |
 | M034139 | P2199 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.GroupIdempotentCoefficients` | volunteer-build-reviewed |
@@ -381,24 +402,3 @@
 | M034357 | P2268 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HalfWeightLocPot` | build-observed |
 | M034358 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HalvedSymplecticFormFiniteRealOrthogonal` | volunteer-build-reviewed |
 | M034359 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HalvedSymplecticFormFiniteRealOrthogonalStatement` | volunteer-build-reviewed |
-| M034362 | P1960 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraCapelliUniformDiagonalBlocks` | volunteer-build-reviewed |
-| M034363 | P1979 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraCapelliUniformDiagonalBlocksStatement` | volunteer-build-reviewed |
-| M034364 | P1817 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraExistsReproducingTestFunctionGL` | volunteer-build-reviewed |
-| M034371 | P1399 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraFinitenessAutomorphicGLOfEigenStatement` | volunteer-build-reviewed |
-| M034372 | P2135 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraFinitenessTotallyComplexGLProof` | volunteer-build-reviewed |
-| M034373 | P2146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraFinitenessTotallyComplexGLProofStatement` | volunteer-build-reviewed |
-| M034374 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraFormsEquicontinuousOnBand` | volunteer-build-reviewed |
-| M034376 | P1327 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInducedTypeCharEqProductList` | build-observed |
-| M034377 | P1353 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInducedTypeCharEqProductListStatement` | build-observed |
-| M034380 | P0299 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLAssoc` | build-observed |
-| M034381 | P0350 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLAssocStatement` | build-observed |
-| M034382 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLComm` | volunteer-build-reviewed |
-| M034383 | P0244 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLCommStatement` | build-observed |
-| M034384 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLFieldAutomorphism` | wave-reused |
-| M034385 | P0245 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLFieldAutomorphismStatement` | wave-reused |
-| M034386 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLIsCharacter` | build-observed |
-| M034387 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLIsCharacterStatement` | build-observed |
-| M034388 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLOneLeftRightUnit` | volunteer-build-reviewed |
-| M034389 | P0245 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLOneLeftRightUnitStatement` | volunteer-build-reviewed |
-| M034390 | P0397 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLTrivialOrthogonalHyperpl` | build-observed |
-| M034391 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLTrivialOrthogonalHyperplStatement` | build-observed |

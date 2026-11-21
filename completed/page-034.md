@@ -2,6 +2,18 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M025475 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteUnitaryPointSelfDualToOrthonormalStatement` | volunteer-build-reviewed |
+| M025476 | P2256 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteUnitarySelfDualLatticeGridDoubling` | volunteer-build-reviewed |
+| M025480 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinrankQuotientSpanModEqOne` | build-observed |
+| M025481 | P0650 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinrankQuotientSpanModEqOneStatement` | build-observed |
+| M025482 | P1447 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetAdicIntegralTensorBasisOneMul` | build-observed |
+| M025483 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetAdicIntegralTensorBasisOneMulStatement` | volunteer-build-reviewed |
+| M025484 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetAwayMapSubalgebraBijective` | volunteer-build-reviewed |
+| M025485 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetAwayMapSubalgebraBijectiveStatement` | volunteer-build-reviewed |
+| M025486 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetCosetRepsBoundedHalfPoints` | volunteer-build-reviewed |
+| M025487 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetCosetRepsBoundedHalfPointsStatement` | volunteer-build-reviewed |
+| M025488 | P1146 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetDecoSetLatticeReps` | volunteer-build-reviewed |
+| M025489 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetEqSumAddCosetIndicator` | volunteer-build-reviewed |
 | M025490 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetEqSumAddCosetIndicatorStatement` | volunteer-build-reviewed |
 | M025491 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetFixingPointLocallyFiniteType` | volunteer-build-reviewed |
 | M025495 | P2095 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetLatStabMemNhds` | volunteer-build-reviewed |
@@ -390,15 +402,3 @@
 | M026342 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInjectiveNormLeOneOfFinitePadicIntDomain` | volunteer-build-reviewed |
 | M026343 | P0179 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInjectiveNormLeOneOfFinitePadicIntDomainStatement` | volunteer-build-reviewed |
 | M026344 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInjectiveOfIsIntegral` | volunteer-build-reviewed |
-| M026345 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInjectivePointsLargerFieldGalois` | volunteer-build-reviewed |
-| M026355 | P1860 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntFrExtension` | volunteer-build-reviewed |
-| M026356 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntInv` | build-observed |
-| M026358 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntMatrixTransposeMulEqSmulOne` | volunteer-build-reviewed |
-| M026361 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntOfDenLe` | volunteer-build-reviewed |
-| M026363 | P1422 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntSmulIsAdicIntegralInTensorBasisStatement` | volunteer-build-reviewed |
-| M026364 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntSmulMemOfIsLattice` | volunteer-build-reviewed |
-| M026365 | P1087 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntVVariableChange` | build-observed |
-| M026366 | P1117 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntVVariableChangeStatement` | build-observed |
-| M026367 | P1398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntWitness` | build-observed |
-| M026368 | P1978 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntegerAddConjEqOneUnramifiedCm` | volunteer-build-reviewed |
-| M026369 | P1997 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntegerAddConjEqOneUnramifiedCmStatement` | volunteer-build-reviewed |

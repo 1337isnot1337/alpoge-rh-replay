@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M043023"
+  ],
+  "started_utc": "2026-11-21T11:58:37.618649+00:00",
+  "ended_utc": "2026-11-21T11:58:52.168914+00:00",
+  "elapsed_seconds": 14.5,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5145184
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeanZeroCompSmulPeriodicFundamentalDomain:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "609b769c3d25efc5cda0ebde7e5769599b850c9e4f6ad6fceeacc663318ac103",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.MeanFundamentalDomainEqOfPeriodic",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.ModerateCoefficientPositivity"
+  ],
+  "objects": {
+    "M043023": "6834ce9f24ac1a62f703cfa73d4c02eff391521df507ef2ee8d913fd865dc608"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "1399452be1a346aa9a3fca3395028e06de850e66c7f264e4254cc5d32927d3b0",
+  "packet": "M043023",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20860#issuecomment-7062259683",
+  "reviewed_utc": "2026-11-21T17:51:41.240514+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

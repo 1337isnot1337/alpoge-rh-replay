@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M122328"
+  ],
+  "started_utc": "2026-11-21T11:59:29.213108+00:00",
+  "ended_utc": "2026-11-21T11:59:43.591224+00:00",
+  "elapsed_seconds": 14.4,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5135676
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DetWEqNormSqDetOneAddIStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7f913d31fbed6e313fdacbcbb2cf570a05876ec129ec42e7959850eaedb0f044",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ContinuousBlkM",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DetWEqNormSqDetOneAddI"
+  ],
+  "objects": {
+    "M122328": "67b4ca2c8d18314610859e71d64878ed3efaad37654c585d7aa46a04ad0beda6"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "c1de2e52a7d52672aa908a6434909c808d24e85814dbee81aa93b29458f0b61c",
+  "packet": "M122328",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/20862#issuecomment-7062260638",
+  "reviewed_utc": "2026-11-21T17:51:41.179235+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}
