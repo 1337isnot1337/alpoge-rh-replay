@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FundamentalDomainL2Bound",
+  "source_sha256": "d750c889682a95fdb917e804ca03eb7cea4b41ece9c6a9aa46002ef69e12ee3a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the renamed eLpNorm integral formula with the existing measurability proofs, and construct MemLp using the finite norm bound under its target definition. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0106-lean436-20261121/packet-result.json"
+}

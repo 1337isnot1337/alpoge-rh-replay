@@ -1,0 +1,14 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FinsumOrdMulInertiaDegEqFinrankMulOrd.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FinsumOrdMulInertiaDegEqFinrankMulOrd.lean
+@@ -241,9 +241,9 @@
+     · intro hQ
+       have : (Q.asIdeal.comap (algebraMap A B)).IsMaximal := by
+         rw [show Q.asIdeal.comap (algebraMap A B) = maximalIdeal A from hQ]; infer_instance
+-      exact ⟨⟨Q.asIdeal, Ideal.isMaximal_of_isIntegral_of_isMaximal_comap _ this⟩, rfl⟩
++      exact ⟨⟨Q.asIdeal, Ideal.isMaximal_of_isIntegral_of_isMaximal_under (R := A) _ this⟩, rfl⟩
+     · rintro ⟨n, rfl⟩
+-      exact IsLocalRing.eq_maximalIdeal (Ideal.isMaximal_comap_of_isIntegral_of_isMaximal n.asIdeal)
++      exact IsLocalRing.eq_maximalIdeal (Ideal.isMaximal_under_of_isIntegral_of_isMaximal n.asIdeal)
+   rw [hS, finsum_mem_range MaximalSpectrum.toPrimeSpectrum_injective, finsum_eq_sum_of_fintype]
+   exact_mod_cast h3.symm
+ 

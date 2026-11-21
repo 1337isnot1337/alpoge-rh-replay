@@ -1,0 +1,26 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FiniteTypeVectorMatrixCoefficients.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/FiniteTypeVectorMatrixCoefficients.lean
+@@ -94,12 +94,12 @@
+   rw [← LinearMap.adjoint_inner_right, ← Matrix.toEuclideanLin_conjTranspose_eq_adjoint]
+   have h : A.conjTranspose * A = 1 := Matrix.mem_unitaryGroup_iff'.mp hA
+   congr 1
+-  rw [Matrix.toEuclideanLin_apply, Matrix.toEuclideanLin_apply]
++  rw [Matrix.toLpLin_apply, Matrix.toLpLin_apply]
+   simp [Matrix.mulVec_mulVec, h]
+ 
+ example (m : ℕ) (A : Matrix (Fin m) (Fin m) ℂ) (e : EuclideanSpace ℂ (Fin m)) (i : Fin m) :
+     (Matrix.toEuclideanLin A e) i = ∑ j, A i j * e j := by
+-  simp [Matrix.toEuclideanLin_apply, Matrix.mulVec, dotProduct]
++  simp [Matrix.toLpLin_apply, Matrix.mulVec, dotProduct]
+ 
+ end GlobalTheory.LocFinIso
+ 
+@@ -195,7 +195,7 @@
+       rw [hρ]
+       simp only [vec, map_sum, map_smul, hact κ κ.2, Finset.smul_sum, smul_smul]
+       rw [Finset.sum_comm]
+-      simp only [vec, Matrix.toEuclideanLin_apply, Matrix.mulVec, dotProduct, PiLp.smul_apply, smul_eq_mul, Finset.mul_sum, Finset.sum_smul, smul_smul]
++      simp only [vec, Matrix.toLpLin_apply, Matrix.mulVec, dotProduct, PiLp.smul_apply, smul_eq_mul, Finset.mul_sum, Finset.sum_smul, smul_smul]
+       exact Finset.sum_congr rfl fun y _ => Finset.sum_congr rfl fun x _ => by rw [mul_comm (e.ofLp x)]
+     exact isSemisimple_of_unitary_model (fun κ => Matrix.toEuclideanLin (A κ))
+       (fun κ => inner_toEuclideanLin_of_unitary _ (hun κ κ.2)) g hbij hint
