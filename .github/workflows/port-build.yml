@@ -1,0 +1,85 @@
+name: Port build check
+on:
+  pull_request:
+    paths:
+      - 'port/patches/M*.patch'
+      - 'port/patches/M*.json'
+      - 'port/target.json'
+      - 'scripts/port-ci-build.py'
+      - '.github/workflows/port-build.yml'
+  workflow_dispatch:
+    inputs:
+      patch_ids:
+        description: 'Space-separated module (M005629) or packet (P0015) IDs to build'
+        required: false
+        default: 'M005629'
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: port-build-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  port-build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Validate port records and patch policy
+        run: python3 tracker/validate_ports.py
+      - name: Determine target modules
+        id: targets
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BASE_REF: ${{ github.base_ref }}
+          DISPATCH_IDS: ${{ inputs.patch_ids }}
+        run: |
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            ids="${DISPATCH_IDS:-M005629}"
+            echo "mode=explicit" >> "$GITHUB_OUTPUT"
+            echo "ids=$ids" >> "$GITHUB_OUTPUT"
+          else
+            changed=$(git diff --name-only --diff-filter=ACMR "origin/${BASE_REF}...HEAD" -- 'port/patches/M*.json' 'port/patches/M*.patch')
+            if [ -n "$changed" ]; then
+              echo "mode=diff" >> "$GITHUB_OUTPUT"
+              echo "ids=" >> "$GITHUB_OUTPUT"
+            else
+              echo "No port/patches/M* files changed; running smoke test on M005629."
+              echo "mode=explicit" >> "$GITHUB_OUTPUT"
+              echo "ids=M005629" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+      - name: Free disk space for Mathlib cache and Lean build
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
+          df -h
+      - name: Install elan and the target Lean toolchain
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y elan
+          LEAN_TOOLCHAIN="$(python3 -c "import json; print(json.load(open('port/target.json'))['lean'])")"
+          elan toolchain install "$LEAN_TOOLCHAIN"
+          elan default "$LEAN_TOOLCHAIN"
+          lean --version
+          lake --version
+      - name: Fetch verified sources, apply patches, and build with Lean
+        env:
+          BASE_REF: ${{ github.base_ref }}
+          TARGET_MODE: ${{ steps.targets.outputs.mode }}
+          TARGET_IDS: ${{ steps.targets.outputs.ids }}
+        run: |
+          if [ "$TARGET_MODE" = "explicit" ]; then
+            # shellcheck disable=SC2086
+            python3 scripts/port-ci-build.py \
+              --workspace "$RUNNER_TEMP/port-workspace" \
+              --setup-lake \
+              --patch-ids $TARGET_IDS
+          else
+            python3 scripts/port-ci-build.py \
+              --workspace "$RUNNER_TEMP/port-workspace" \
+              --setup-lake \
+              --base-ref "origin/${BASE_REF}"
+          fi
