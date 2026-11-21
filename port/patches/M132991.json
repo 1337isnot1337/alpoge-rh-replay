@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.MembershipProofs.DenseHasCompactSupport",
+  "source_sha256": "7f14c9013d4a5a8f72f2fef976de191fd4beb2c0755c12128ecbf55db7bf6298",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use prod_le_prod\u2080/prod_le_one\u2080, specify dependent evaluation families in contDiffAt_apply/contDiff_apply, and explicitly type the real inequality before exact_mod_cast. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0063-lean436-20261121/packet-result.json"
+}

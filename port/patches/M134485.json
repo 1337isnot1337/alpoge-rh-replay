@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.TendstoLimUnderOfCauchyRate",
+  "source_sha256": "a5b70245f44101fda24e2d03315c1c78decab7d5b80a08a05a1299df17b99dd8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: explicitly type the pulled-back event before intersecting it, preventing inference from treating subsequent events as preimages. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0063-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.MaximalIdealMembershipOfLocal",
+  "source_sha256": "7d59ce8b7e2cc474802846a18eea145d35ca182c6f5ede0d0edaa5e6d65ba316",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Ideal.isMaximal_under_of_isIntegral_of_isMaximal with the existing integral algebra instance. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0063-lean436-20261121/packet-result.json"
+}
