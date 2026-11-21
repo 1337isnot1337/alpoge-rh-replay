@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M062556"
+  ],
+  "started_utc": "2026-11-21T17:01:13.024262+00:00",
+  "ended_utc": "2026-11-21T17:01:29.969292+00:00",
+  "elapsed_seconds": 16.9,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6851088
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.InPartMulOutPartMulSq:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b7270b908aa287dca3aec318787a4be4daff7356bd6924a702cc3ffc575c1f3d",
+  "rebuilt_project_modules": [
+    "Formalism.GL3MeanSquares.PrimeCountAsymptoticInProgressions",
+    "Formalism.GL3MeanSquares.SmoothedRemainderRealIntegralFormula",
+    "Formalism.LandauZeroFreeBounds.Statement"
+  ],
+  "objects": {
+    "M062556": "1fa299b847853487bb9b7df58d376543ec4f7c3b1484c75360a33db086c32722"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "50dd0171b59ebb0af0d8f5cd9d1c15264ff59035f71994449a29a4fbed3d479a",
+  "packet": "M062556",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23829#issuecomment-7066151138",
+  "reviewed_utc": "2026-11-21T17:21:52.411249+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

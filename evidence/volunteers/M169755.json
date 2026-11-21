@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M169755"
+  ],
+  "started_utc": "2026-11-21T17:09:33.035708+00:00",
+  "ended_utc": "2026-11-21T17:09:49.143340+00:00",
+  "elapsed_seconds": 16.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6920328
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Theta.EisensteinZeta.DedekindZetaSeries.SummableDedekindZetaTerm:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "512694265fc39e46ce340d1b25563a7707da4dbd3a37f91c9acf895232828c3f",
+  "rebuilt_project_modules": [
+    "GroundTheory.GlobalFields.TateThesis.DegreeOnePrimes",
+    "GroundTheory.GlobalFields.TateThesis.PrimeZetaPole",
+    "GroundTheory.HeightsAndTheta.Theta.EisensteinZeta.DedekindZetaSeries.ZetaSevenHalves"
+  ],
+  "objects": {
+    "M169755": "9f7a744cef9220c16cfa6fb082aba1b09db580427f9dfecb393b56adc6159235"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "075bb37b5f7ae5b237fdad77f46b6a81003d924a3d0daf6643e526646a41d846",
+  "packet": "M169755",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23830#issuecomment-7066260783",
+  "reviewed_utc": "2026-11-21T17:21:52.288919+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

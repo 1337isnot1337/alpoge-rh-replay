@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M143082"
+  ],
+  "started_utc": "2026-11-21T17:06:41.940741+00:00",
+  "ended_utc": "2026-11-21T17:07:08.084107+00:00",
+  "elapsed_seconds": 26.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6923168
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.TwistedPieces.FiniteDimensionalDescent.ClosedOrbitPieces.FeIsField:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7a39991696c91c2f860b1afe0ae863fbc29ca32a426c4e93d0bfaa6d6691bb34",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.RepresentationTheoryGL.UnitaryDualProof.TwistedPieces.FiniteDimensionalDescent.ClosedOrbitPieces.ToMatrixMulVec",
+    "GroundTheory.Brauer.DoubleCentralizer",
+    "GroundTheory.Brauer.SkolemNoether"
+  ],
+  "objects": {
+    "M143082": "a9559da840ebf878fe6a1d6d3f741e1cd05713d0cc94077523ed821bd0119c6e"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "bb21d0559339a267e6557590ef0d0c512f4083706b9058c790e37ca5a33a4d1b",
+  "packet": "M143082",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23820#issuecomment-7066226395",
+  "reviewed_utc": "2026-11-21T17:21:54.056801+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

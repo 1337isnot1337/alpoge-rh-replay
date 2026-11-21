@@ -1,0 +1,45 @@
+{
+  "tasks": [
+    "M139123"
+  ],
+  "started_utc": "2026-11-21T17:11:14.887274+00:00",
+  "ended_utc": "2026-11-21T17:14:03.361655+00:00",
+  "elapsed_seconds": 168.4,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6169556
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.FrobeniusWittActions.TLTensor:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "45f14468753e34d80c5208a1b0076cb40017ac1595c121913c15459c79f187db",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TensorEvalFixedOfFixed",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TensorEvalFixedOfFixedStatement",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingFrobeniusCompat",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingFrobeniusCompatStatement",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingGaloisEquivariant",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingGaloisEquivariantStatement",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingLTensorNaturality",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingLTensorNaturalityStatement",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingSmulDual",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingSmulDualStatement"
+  ],
+  "objects": {
+    "M139123": "e8b348a961df4417df7b99fc6a85d961fb3ea5b06f1085117b7dafb11f4429cb"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "d96b00b8832ee2fa490c29b58575609cd58963df3b71c1af5df5911fce5a863f",
+  "packet": "M139123",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23753#issuecomment-7066322056",
+  "reviewed_utc": "2026-11-21T17:22:10.408100+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

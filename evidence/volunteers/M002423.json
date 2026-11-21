@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M002423"
+  ],
+  "started_utc": "2026-11-21T17:01:12.577567+00:00",
+  "ended_utc": "2026-11-21T17:02:12.119159+00:00",
+  "elapsed_seconds": 59.5,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 26442420,
+    "peak_child_rss_kib": 6861252
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.BlockTheory.JetGauges.TwistedPoints:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4346d29f90b33bedc6e1750563e1e74d65b096a2721b73756a54f5a022ae9c5b",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.AppCompatGeneric",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.LBLocal",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.LBTransport",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.CubicalStructures.CubeSymmetricSwapFirst"
+  ],
+  "objects": {
+    "M002423": "20faa0b61ce25d68663ea1c0af9f86d4f1eb2e210e33c6c39195581510c20160"
+  },
+  "project_root": "/run/media/jwr/Data/AI/math-work/riemann/replay-vol/lean",
+  "bundle_sha256": "ee7d39c79e52668e371e2887cf00e02b99e9485070f6414c9f5b9267476b7a1d",
+  "packet": "M002423",
+  "contributor": "jwr404",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23778#issuecomment-7066226009",
+  "reviewed_utc": "2026-11-21T17:22:23.720821+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

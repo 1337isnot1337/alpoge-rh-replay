@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    "M108251"
+  ],
+  "started_utc": "2026-11-21T16:53:44.372123+00:00",
+  "ended_utc": "2026-11-21T16:54:01.227947+00:00",
+  "elapsed_seconds": 16.9,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 26442420,
+    "peak_child_rss_kib": 6753032
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.StickelbergerElements.Bridge:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "378688204edc8785bb4c6da0c32090d85830d5cba45b9b1fe5e57203f957b3b2",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M108251": "5326128f01d5646f3d96d82e801ce4ebd237a830d38682f7bf43d2caf8450ea7"
+  },
+  "project_root": "/run/media/jwr/Data/AI/math-work/riemann/replay-vol/lean",
+  "bundle_sha256": "942b5efe8466d2781c8049c4bc0fecff06d1a9d6fd464da2ac90978fa7f9d8af",
+  "packet": "M108251",
+  "contributor": "jwr404",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23709#issuecomment-7066218764",
+  "reviewed_utc": "2026-11-21T17:22:39.015513+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

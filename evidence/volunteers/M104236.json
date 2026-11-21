@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M104236"
+  ],
+  "started_utc": "2026-11-21T16:48:21.988336+00:00",
+  "ended_utc": "2026-11-21T16:49:01.394751+00:00",
+  "elapsed_seconds": 39.4,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32753216,
+    "peak_child_rss_kib": 6036964
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.IntegralityNearIdentity.EqOneOfNear:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "af5868074a0b0fd065cb8ae12e5c869cd81a98140d1d114325c37f6fa4a6812b",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.EqOneOfNear",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FinitelyGeneratedModPow",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ImportsExtraAlt",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ImportsExtraBis",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.MirabolicColumnBlock"
+  ],
+  "objects": {
+    "M104236": "eef54c24d89a7cfca04b621ef4f939b84a69afdf21a12f57e197e0c1106c236b"
+  },
+  "project_root": "/home/user/rh-replay/vol/replay/lean",
+  "bundle_sha256": "d8defba5a91d6e2340c9b78769b8c0306889226138f6593f647e836d8dba502b",
+  "packet": "M104236",
+  "contributor": "user42245",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23742#issuecomment-7065951167",
+  "reviewed_utc": "2026-11-21T17:22:33.138176+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

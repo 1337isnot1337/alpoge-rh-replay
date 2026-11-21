@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M101464"
+  ],
+  "started_utc": "2026-11-21T17:01:28.379859+00:00",
+  "ended_utc": "2026-11-21T17:01:56.131309+00:00",
+  "elapsed_seconds": 27.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 4794684
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DeterminantRepresentations.MatIrrIff:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3d7ddfc8e427bed55f16c3c55276d40ca7ff62967f795c45344bff7413967825",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DeterminantRepresentations.IrrIffSpan",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.WeilGroupCharacters.RepAlg",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.WeilGroupCharacters.UniversalOrdinaryDeterminantRing",
+    "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.IrreducibleSpans.Burnside",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.BurnsideEnd",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IrrIffSpan"
+  ],
+  "objects": {
+    "M101464": "5033656b605c7c50390d67be3df5bee34bfcd926f807fc3859f09ce318eb3bec"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "c53a73552dcc162de236018fa041afc7b54aa9921aa00995e2918e86a0cc0c0a",
+  "packet": "M101464",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23713#issuecomment-7066176073",
+  "reviewed_utc": "2026-11-21T17:22:22.730732+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

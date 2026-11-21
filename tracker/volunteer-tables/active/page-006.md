@@ -112,7 +112,6 @@
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M108069](https://github.com/rohanarun/alpoge-rh-replay/issues/20752) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M110860](https://github.com/rohanarun/alpoge-rh-replay/issues/20754) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M108081](https://github.com/rohanarun/alpoge-rh-replay/issues/20755) | Claimed |
-| [@TomMoeras](https://github.com/TomMoeras) | [P2477](https://github.com/rohanarun/alpoge-rh-replay/issues/20756) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M108084](https://github.com/rohanarun/alpoge-rh-replay/issues/20758) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M108087](https://github.com/rohanarun/alpoge-rh-replay/issues/20760) | Claimed |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M108117](https://github.com/rohanarun/alpoge-rh-replay/issues/20765) | Claimed |
@@ -163,7 +162,6 @@
 | [@dhudakk](https://github.com/dhudakk) | [M138185](https://github.com/rohanarun/alpoge-rh-replay/issues/21015) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M050893](https://github.com/rohanarun/alpoge-rh-replay/issues/21017) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M118390](https://github.com/rohanarun/alpoge-rh-replay/issues/21024) | Claimed |
-| [@TomMoeras](https://github.com/TomMoeras) | [P2479](https://github.com/rohanarun/alpoge-rh-replay/issues/21045) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M103992](https://github.com/rohanarun/alpoge-rh-replay/issues/21049) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M135370](https://github.com/rohanarun/alpoge-rh-replay/issues/21050) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M037818](https://github.com/rohanarun/alpoge-rh-replay/issues/21051) | Claimed |
@@ -177,7 +175,6 @@
 | [@galakurpi](https://github.com/galakurpi) | [M171102](https://github.com/rohanarun/alpoge-rh-replay/issues/21076) | Claimed |
 | [@galakurpi](https://github.com/galakurpi) | [M171173](https://github.com/rohanarun/alpoge-rh-replay/issues/21077) | Claimed |
 | [@galakurpi](https://github.com/galakurpi) | [M137498](https://github.com/rohanarun/alpoge-rh-replay/issues/21078) | Claimed |
-| [@TomMoeras](https://github.com/TomMoeras) | [P2426](https://github.com/rohanarun/alpoge-rh-replay/issues/21085) | Claimed |
 | [@galakurpi](https://github.com/galakurpi) | [M110994](https://github.com/rohanarun/alpoge-rh-replay/issues/21086) | Claimed |
 | [@galakurpi](https://github.com/galakurpi) | [M081918](https://github.com/rohanarun/alpoge-rh-replay/issues/21087) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M039502](https://github.com/rohanarun/alpoge-rh-replay/issues/21090) | Claimed |
@@ -249,8 +246,11 @@
 | [@dhudakk](https://github.com/dhudakk) | [M052658](https://github.com/rohanarun/alpoge-rh-replay/issues/21945) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M127967](https://github.com/rohanarun/alpoge-rh-replay/issues/21950) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M001360](https://github.com/rohanarun/alpoge-rh-replay/issues/21953) | Claimed |
-| [@TomMoeras](https://github.com/TomMoeras) | [P2459](https://github.com/rohanarun/alpoge-rh-replay/issues/22059) | Claimed |
-| [@TomMoeras](https://github.com/TomMoeras) | [P2485](https://github.com/rohanarun/alpoge-rh-replay/issues/22060) | Claimed |
-| [@TomMoeras](https://github.com/TomMoeras) | [P2481](https://github.com/rohanarun/alpoge-rh-replay/issues/22061) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M063784](https://github.com/rohanarun/alpoge-rh-replay/issues/22064) | Claimed |
 | [@dhudakk](https://github.com/dhudakk) | [M016672](https://github.com/rohanarun/alpoge-rh-replay/issues/22066) | Claimed |
+| [@dhudakk](https://github.com/dhudakk) | [M070380](https://github.com/rohanarun/alpoge-rh-replay/issues/22068) | Claimed |
+| [@dhudakk](https://github.com/dhudakk) | [M035769](https://github.com/rohanarun/alpoge-rh-replay/issues/22072) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M000801](https://github.com/rohanarun/alpoge-rh-replay/issues/22118) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M019590](https://github.com/rohanarun/alpoge-rh-replay/issues/22119) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M045884](https://github.com/rohanarun/alpoge-rh-replay/issues/22120) | Claimed |
+| [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M045887](https://github.com/rohanarun/alpoge-rh-replay/issues/22121) | Claimed |

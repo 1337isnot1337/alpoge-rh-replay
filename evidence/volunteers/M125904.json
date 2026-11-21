@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M125904"
+  ],
+  "started_utc": "2026-11-21T17:04:30.755293+00:00",
+  "ended_utc": "2026-11-21T17:04:41.812179+00:00",
+  "elapsed_seconds": 11.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6913304
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MkOfMemB:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e7918026648fb41da0d49a03044542633551bd6d28a95378efaab5c7accffb0c",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MapHCompEqSmul",
+    "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.LocalSystemQuotients.FlatL"
+  ],
+  "objects": {
+    "M125904": "e831a8f04c1c825a2e2f034bef042c24d914ca764d752b875473f9f482b047a5"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "290c7ddf9a3c2866c5308de93bd827302fdeb4102e72aacfc098f4f2b3081643",
+  "packet": "M125904",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23811#issuecomment-7066194615",
+  "reviewed_utc": "2026-11-21T17:22:04.778929+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

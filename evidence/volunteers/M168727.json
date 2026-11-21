@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M168727"
+  ],
+  "started_utc": "2026-11-21T17:00:46.939612+00:00",
+  "ended_utc": "2026-11-21T17:01:24.744345+00:00",
+  "elapsed_seconds": 37.8,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 26442420,
+    "peak_child_rss_kib": 6761952
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.LocalDensities.PIntegralPointThroughPrime:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1750db9f783695266e6683635a150a2e715fd437cc45bd38826033e06b778159",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsClosedPointGenericFibre",
+    "GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsIntegralPoint",
+    "GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsIntegralPointAlgebraic"
+  ],
+  "objects": {
+    "M168727": "77a576bc66fbc46093b6fb9bf5ef48b5988ed10e75132a5a3e58dc7bc8e6f29a"
+  },
+  "project_root": "/run/media/jwr/Data/AI/math-work/riemann/replay-vol/lean",
+  "bundle_sha256": "a904ed80c21916dd12215dd31a2182ec317d9d669011cb7c1171716734e4a44b",
+  "packet": "M168727",
+  "contributor": "jwr404",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23777#issuecomment-7066225292",
+  "reviewed_utc": "2026-11-21T17:22:24.560312+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

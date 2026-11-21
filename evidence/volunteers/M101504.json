@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M101504"
+  ],
+  "started_utc": "2026-11-21T17:04:04.406805+00:00",
+  "ended_utc": "2026-11-21T17:04:30.457718+00:00",
+  "elapsed_seconds": 26.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5228032
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HidaCompleteRings.HeckeRestr:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7d5ccca316bc05d066658a95ad1ead07ead2097a4c4418829352084ca537b574",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.HidaCompleteRings.LocChar",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.ContinuousTorusCharacter",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.FixedSubgroup"
+  ],
+  "objects": {
+    "M101504": "1c740694a91d410a42a18a845c9edb593fd4db8a6c91f35ea814d28a3e1fd2c3"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "1c4fc14b046ddff85aca9a34f1bda712d5bda153aedcc9e4b56b24e3da35c11e",
+  "packet": "M101504",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23722#issuecomment-7066197920",
+  "reviewed_utc": "2026-11-21T17:22:21.303225+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

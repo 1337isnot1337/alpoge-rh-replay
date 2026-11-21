@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M156209"
+  ],
+  "started_utc": "2026-11-21T16:59:49.231665+00:00",
+  "ended_utc": "2026-11-21T17:00:30.694194+00:00",
+  "elapsed_seconds": 41.5,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 26442420,
+    "peak_child_rss_kib": 6792268
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.OddDualWeylJacobian.JacobiMinorIdentity:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "05628aedb2e4ff24cd5eecd5bdca81070ebed90fd54225467ca8575c6a9a2967",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.OddDualWeyl",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.OddDualWeylJacobian.DualSub",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.OddDualWeylJacobian.JacRev"
+  ],
+  "objects": {
+    "M156209": "2ba2fd34563a348918c41f43297662e761f1ffb8c9d0fe4487eaee5ff9c18b27"
+  },
+  "project_root": "/run/media/jwr/Data/AI/math-work/riemann/replay-vol/lean",
+  "bundle_sha256": "b30dd3e179451006363cc2b91a5283b6c6e1acd034f3ead74c89723a53bc4ec8",
+  "packet": "M156209",
+  "contributor": "jwr404",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23749#issuecomment-7066220237",
+  "reviewed_utc": "2026-11-21T17:22:26.651808+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

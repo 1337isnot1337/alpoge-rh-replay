@@ -1,0 +1,48 @@
+{
+  "tasks": [
+    "M066840"
+  ],
+  "started_utc": "2026-11-21T17:05:55.958396+00:00",
+  "ended_utc": "2026-11-21T17:08:50.652350+00:00",
+  "elapsed_seconds": 174.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 6589072
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AssociatedRootSubOnePow:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8f14c7d2debc578f7bb96c0011a8c387d79b347f711cf5d34ad256f47f6763ac",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MapCSmulMulVec",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CDvdOfDvdXPowMul",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CoprimeVal",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DvdSubOfDvdSubX",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsAdicCompletionExtension",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsAlgEquivXAddC",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsConstOfLvlInvariant",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsCosetRepresentativesOfFiniteSubgroupPadicI",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsCosetRepresentativesOfFiniteSubgroupPadicIStatement",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsRootMulPowApprox",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.LvlPolyDistinguished",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.OneAddXMulDerivativeBin",
+    "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PadicIntAlgebraMapInjectiveOfCharZero"
+  ],
+  "objects": {
+    "M066840": "d225de997de711f2402cfe5b7ec8e35839c71f7aa0aa14ff8f38cd3bc4142f7f"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "aa834bc731313b09d7990730c04416455282bdb4306d39b6673018e20526ec71",
+  "packet": "M066840",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23740#issuecomment-7066261987",
+  "reviewed_utc": "2026-11-21T17:22:19.201439+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

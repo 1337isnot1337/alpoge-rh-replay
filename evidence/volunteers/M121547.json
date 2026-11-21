@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M121547"
+  ],
+  "started_utc": "2026-11-21T17:03:24.213919+00:00",
+  "ended_utc": "2026-11-21T17:03:40.088562+00:00",
+  "elapsed_seconds": 15.9,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6894552
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CoinvariantsFiniteOfSmoothLevi:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d86d2fc47df2e351dc5479f5d517b1295afe2629b049cd13b224aa16b9e293e1",
+  "rebuilt_project_modules": [
+    "GroundTheory.AutomorphicForms.FiniteLengthLattice"
+  ],
+  "objects": {
+    "M121547": "4269f6a878e36b302796975c28775099a6e6f18929601f4a83b62ec8c4fc1f33"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "a83c2c8088f60306f734441a78e25d12b4d117eef2ff044925d13f59be7cfc91",
+  "packet": "M121547",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23810#issuecomment-7066181019",
+  "reviewed_utc": "2026-11-21T17:22:06.107273+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M059196"
+  ],
+  "started_utc": "2026-11-21T17:00:49.099365+00:00",
+  "ended_utc": "2026-11-21T17:01:03.381879+00:00",
+  "elapsed_seconds": 14.3,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6885404
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FlagMeasures.LoweringDifferenceOfIsometries:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1516cf9af0408ad44d6a072b5016c2ede3a92edd2b80b613a136c52d0ebd3575",
+  "rebuilt_project_modules": [
+    "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.Bridge",
+    "Formalism.SatakeDualWeyl.StatementB"
+  ],
+  "objects": {
+    "M059196": "a3a4734edc9765125ba6b948d7c07dc21cdce3f26c6089d6233027b0e0a441f7"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "1f363ed102152810cde777e0b21114f36a86923cc68d2b8cc992384a49fc3971",
+  "packet": "M059196",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23813#issuecomment-7066144347",
+  "reviewed_utc": "2026-11-21T17:22:02.273574+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

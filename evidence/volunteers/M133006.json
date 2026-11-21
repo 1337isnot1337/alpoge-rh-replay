@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M133006"
+  ],
+  "started_utc": "2026-11-21T17:04:52.410770+00:00",
+  "ended_utc": "2026-11-21T17:05:06.558955+00:00",
+  "elapsed_seconds": 14.1,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6861588
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.MembershipProofs.IsLatticeOfCompactOpen:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1bf093a070cad675f3a3e8b7621faecab66adc747fce09057a1509a017f6da22",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.MembershipCriteria.HasElemDiv",
+    "Development.AutomorphicSpectrum.Proofs.MembershipProofs.IsArtinianRingKummerAdjoinRootQuotientRoot"
+  ],
+  "objects": {
+    "M133006": "6995cf7265c9f3759530a282529849801e11d9ec13c2814513f4a6bf7d26a1f1"
+  },
+  "project_root": "/home/yuchan/work/rh-vol/lean",
+  "bundle_sha256": "6360ddf93b0e66e2fb9184e2757939b1d37777e3a5f2e8520a315fddf39ed179",
+  "packet": "M133006",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23807#issuecomment-7066199496",
+  "reviewed_utc": "2026-11-21T17:22:08.140901+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

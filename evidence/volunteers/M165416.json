@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M165416"
+  ],
+  "started_utc": "2026-11-21T17:00:31.938905+00:00",
+  "ended_utc": "2026-11-21T17:01:11.259717+00:00",
+  "elapsed_seconds": 39.3,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 26442420,
+    "peak_child_rss_kib": 6804512
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.EffectiveHilbertSamuel.PShare:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "928f555891ffe7047b02d9a3574475dac2dcaa8733e48127a070de725c5fc130",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.EffectiveHilbertSamuel.PShareCore",
+    "GroundTheory.HeightsAndTheta.Heights.EffectiveHilbertSamuel.StatementsShare",
+    "GroundTheory.HeightsAndTheta.Heights.EffectiveHilbertSamuel.StatementsShareBound"
+  ],
+  "objects": {
+    "M165416": "d367e055001669620c4cef4ec57175d62640b3db73f887cb4c5d2e98038d2ec3"
+  },
+  "project_root": "/run/media/jwr/Data/AI/math-work/riemann/replay-vol/lean",
+  "bundle_sha256": "bec18354738439d60d226d8fed8fd3bd2a8a38a385d1fbcacd2933bf7a4cec5b",
+  "packet": "M165416",
+  "contributor": "jwr404",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23775#issuecomment-7066224569",
+  "reviewed_utc": "2026-11-21T17:22:25.310935+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}
