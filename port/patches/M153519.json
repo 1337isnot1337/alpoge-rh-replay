@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.FglPhSplit",
+  "source_sha256": "a6f05a04a19791a3153ca7b63e86960dc3dcfa6ba4fecf7c0ab31d0c78e2c686",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0073-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.MiracleFlat",
+  "source_sha256": "c464f8d22f26081f072466baf5861a43e5e60e23df395e4042e9045b3da58551",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0073-lean436-20261121/packet-result.json"
+}

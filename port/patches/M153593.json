@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.KerIso",
+  "source_sha256": "164926dcf8e9571ec6ed4e79dea9c0d18dde7e8df0f97c80258b2685421a4ed8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0073-lean436-20261121/packet-result.json"
+}

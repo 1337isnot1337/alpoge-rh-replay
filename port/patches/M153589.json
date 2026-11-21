@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.JetsPhW",
+  "source_sha256": "e95e095ca741b95834929c487b1fd6f67a24e1896da1eb01791c094475dac363",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0073-lean436-20261121/packet-result.json"
+}

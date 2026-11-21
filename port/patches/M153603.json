@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.LeafCoeffVal",
+  "source_sha256": "cdfe18dabfbf4744df8496461242142a86e923f02240ac8cf6abd0b6e68c0235",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0073-lean436-20261121/packet-result.json"
+}

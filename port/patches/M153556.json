@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.Hensel",
+  "source_sha256": "b346170195b2a3da8fce3f68b6a021cd91dabe0372a2db11b9a179352912a9cd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0073-lean436-20261121/packet-result.json"
+}
