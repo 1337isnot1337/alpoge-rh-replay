@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M087198"
+  ],
+  "started_utc": "2026-11-21T00:16:16.247691+00:00",
+  "ended_utc": "2026-11-21T00:16:36.170560+00:00",
+  "elapsed_seconds": 19.9,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 6964100
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.EqZeroOfForallLeExp:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3bc1c10c37da2dd37da50bc4b6b3a27eb4bcffeac1415d8e7846e0129b315abb",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUniqueIdeleOfLinearEquivQuotientLocal",
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ValuationAlgebraMapEqCount",
+    "Development.AbelianVarietyTheory.Proofs.SatakeParameters.ContinuousOfValuationEq"
+  ],
+  "objects": {
+    "M087198": "a45b66a1e3b11dbf54fd9f08337962fa7e2f4918c45f7b6277119f2fa07ddc59"
+  },
+  "bundle_sha256": "be21e796a1e2ab41814d8fedf505a9ad86fa0e74206c8091b5f85fc72a2daa76",
+  "packet": "M087198",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/7916#issuecomment-7053936616",
+  "reviewed_utc": "2026-11-21T00:23:26.055544+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

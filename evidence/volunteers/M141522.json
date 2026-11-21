@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M141522"
+  ],
+  "started_utc": "2026-11-21T00:15:19.792676+00:00",
+  "ended_utc": "2026-11-21T00:15:26.332608+00:00",
+  "elapsed_seconds": 6.5,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 15936476,
+    "peak_child_rss_kib": 6822408
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.RepresentationTheoryGL.CasimirAlgebra.KugaCoordinates.UnitaryCurves.ExistsUnitaryCurve:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "0730280f52bbf577963f11ce27e1926e27f50835b50f7799bf07a6e8884627ad",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M141522": "a4de49202b6ffe66b57e4b0726e66febf8be658da0c54f275e7bf7a201c344c9"
+  },
+  "bundle_sha256": "3a96867a1b15f455c2b4ae84dd5992ce946d6624c35559390e7bc43dd945cd19",
+  "packet": "M141522",
+  "contributor": "RobertBarnettProjects",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/7687#issuecomment-7053987888",
+  "reviewed_utc": "2026-11-21T00:23:45.290026+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

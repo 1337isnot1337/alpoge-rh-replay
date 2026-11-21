@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004359 | P1029 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.DisjointExceptional` | build-observed |
+| M004360 | P2198 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.DivRows3GIff` | build-observed |
+| M004369 | P1193 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.FamilyClassSevenDutiesAndStableLattices` | build-observed |
+| M004375 | P0295 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.GoodTopBot` | volunteer-build-reviewed |
+| M004376 | P0891 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.IdxMatNF` | build-observed |
+| M004386 | P1001 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LFunctionPositiveConductorFourEight` | build-observed |
+| M004387 | P0295 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LamIdealOfNotPrimePow` | build-observed |
 | M004388 | P0173 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LatIntZero` | volunteer-build-reviewed |
 | M004392 | P0095 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LinkExactAff` | volunteer-build-reviewed |
 | M004393 | P1084 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LogCondLeThree` | build-observed |
@@ -395,10 +402,3 @@
 | M005298 | P0839 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.MemRangeOfSumEqZero` | wave-reused |
 | M005299 | P0096 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.MemRangeRTensorOfForallDual` | wave-reused |
 | M005300 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.MulAFiniteFlatSurjectiveEtale` | wave-reused |
-| M005301 | P0758 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.MulPullOfCubeOfSymm` | wave-reused |
-| M005302 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.NatCardEqOfEquivPiField` | wave-reused |
-| M005304 | P0810 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.NonemptyEquivPiOfWeights` | wave-reused |
-| M005306 | P1245 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.NonemptyPerfectSectionsComplexOfSmoothProj` | wave-reused |
-| M005307 | P1272 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.NonemptyPerfectSectionsComplexOfSmoothProjStatement` | wave-reused |
-| M005308 | P0865 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.NonemptyTorusExtensionOfIsGt` | wave-reused |
-| M005309 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.OneTmulNeZeroOfDomain` | wave-reused |

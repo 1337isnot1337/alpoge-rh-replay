@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005301 | P0758 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.MulPullOfCubeOfSymm` | wave-reused |
+| M005302 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.NatCardEqOfEquivPiField` | wave-reused |
+| M005304 | P0810 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.NonemptyEquivPiOfWeights` | wave-reused |
+| M005306 | P1245 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.NonemptyPerfectSectionsComplexOfSmoothProj` | wave-reused |
+| M005307 | P1272 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.NonemptyPerfectSectionsComplexOfSmoothProjStatement` | wave-reused |
+| M005308 | P0865 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.NonemptyTorusExtensionOfIsGt` | wave-reused |
+| M005309 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.OneTmulNeZeroOfDomain` | wave-reused |
 | M005310 | P1057 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.PolBaseChangeOfRelAmpleLocal` | wave-reused |
 | M005312 | P0811 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.PrimitiveCocycle` | build-observed |
 | M005315 | P0616 | `Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.QuotientIsAbelianSchemeOfQuotientScheme` | wave-reused |
@@ -395,10 +402,3 @@
 | M006087 | P0583 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharOfIsPrimitiveRoot` | wave-reused |
 | M006088 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharTraceMulIdempotent` | wave-reused |
 | M006089 | P0348 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterBrauerLiftAbelianByPrimePower` | wave-reused |
-| M006090 | P0918 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterCuspidalRootSumRegular` | wave-reused |
-| M006091 | P0946 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterCuspidalRootSumRegularStatement` | build-observed |
-| M006092 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterEsymmRootsCharpoly` | wave-reused |
-| M006093 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterFinsumConjSubgroupFunctionExtendByZer` | wave-reused |
-| M006094 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterFinsumConjSubgroupFunctionExtendByZerStatement` | wave-reused |
-| M006095 | P0516 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldAbelianByPrimePower` | wave-reused |
-| M006096 | P0550 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldAbelianByPrimePowerStatement` | wave-reused |

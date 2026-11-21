@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M013993 | P1086 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.TestQuadraticFormEqPsiValuationMulStatement` | build-observed |
+| M013996 | P0918 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ThetaConstantTermRepresentativeDependence` | build-observed |
+| M013997 | P0947 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ThetaConstantTermRepresentativeDependenceStatement` | build-observed |
+| M014010 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ThetaModelCoordinatesLocalBasisStatement` | volunteer-build-reviewed |
+| M014013 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ThetaModelTorsionRationalOverFractionField` | volunteer-build-reviewed |
+| M014014 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ThetaModelTorsionRationalOverFractionFieldStatement` | volunteer-build-reviewed |
+| M014023 | P1003 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ThetaPtEqUnitMulTh` | wave-reused |
+| M014025 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ThetaRecognitionLabelsAgreeOfIsoStatement` | volunteer-build-reviewed |
 | M014026 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ThetaRecognitionLatticeIsoAndTermsAgree` | volunteer-build-reviewed |
 | M014028 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ThetaRecognitionMatchedPartsDimEq` | volunteer-build-reviewed |
 | M014029 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ThetaRecognitionMatchedPartsDimEqStatement` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M016878 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardKerIntegralCombinationEndoLePowStatement` | volunteer-build-reviewed |
 | M016880 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardKilledByIdealModIntEqAbsNormPowStatement` | volunteer-build-reviewed |
 | M016886 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardLeFinrankSupEigenspaces` | volunteer-build-reviewed |
-| M016891 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardLeftCosetsDoubleCosetInvEq` | volunteer-build-reviewed |
-| M016897 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardMultisetWordsMulFactorialStatement` | volunteer-build-reviewed |
-| M016898 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardNonempty` | volunteer-build-reviewed |
-| M016899 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardPowLeEncardSeminormBallDigitSums` | volunteer-build-reviewed |
-| M016902 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardQuotPrimeSmulEqCardKerMulPowFinrank` | volunteer-build-reviewed |
-| M016914 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardSmulTwistedProjectorMemIntegralFormsStatement` | volunteer-build-reviewed |
-| M016917 | P1145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardSqModPrime` | volunteer-build-reviewed |
-| M016918 | P1171 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardSqModPrimeStatement` | build-observed |

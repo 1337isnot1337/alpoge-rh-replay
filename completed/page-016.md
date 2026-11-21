@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M023856 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartanInvolutionOfHasHermitianSignatureStatement` | volunteer-build-reviewed |
+| M023908 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCentralUnipotentTranslate` | volunteer-build-reviewed |
+| M023936 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsChartOfQuotient` | volunteer-build-reviewed |
+| M023947 | P1248 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsChartsSquareZeroPresentedScheme` | build-observed |
+| M023955 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsChgFromBlocksEqOne` | volunteer-build-reviewed |
+| M023961 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsClassDegreeOne` | build-observed |
+| M023962 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsClassDegreeOneStatement` | build-observed |
+| M024020 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsClosedSubschemeRigidifiedBundleTrivialLocu` | volunteer-build-reviewed |
 | M024021 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsClosedSubschemeRigidifiedBundleTrivialLocuStatement` | volunteer-build-reviewed |
 | M024024 | P0439 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsClosureBaseChangeMapsAndRetraction` | wave-reused |
 | M024025 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsClosureBaseChangeMapsAndRetractionStatement` | wave-reused |
@@ -61,6 +69,7 @@
 | M024357 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConjRiemannData` | volunteer-build-reviewed |
 | M024358 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConjSameSeparableCharpolySplitPlace` | volunteer-build-reviewed |
 | M024359 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConjSameSeparableCharpolySplitPlaceStatement` | volunteer-build-reviewed |
+| M024360 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConjSkewDetUnitOfAvoidance` | volunteer-build-reviewed |
 | M024361 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConjSkewDetUnitOfAvoidanceStatement` | volunteer-build-reviewed |
 | M024376 | P0584 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConnectingCocycleHypercohomologyLes` | wave-reused |
 | M024377 | P0618 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsConnectingCocycleHypercohomologyLesStatement` | wave-reused |
@@ -116,6 +125,7 @@
 | M024708 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDescentHomQuotientGaloisGroupSchemeStatement` | volunteer-build-reviewed |
 | M024724 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetLineCoordinateIso` | wave-reused |
 | M024725 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetLineCoordinateIsoStatement` | wave-reused |
+| M024727 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetNeZeroOfRowsSeparating` | volunteer-build-reviewed |
 | M024728 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetNeZeroOfRowsSeparatingStatement` | volunteer-build-reviewed |
 | M024731 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetOneMulStdBlock` | volunteer-build-reviewed |
 | M024732 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDetOneMulStdBlockStatement` | volunteer-build-reviewed |
@@ -227,6 +237,7 @@
 | M025464 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteTypeLocalizationSameFractionField` | volunteer-build-reviewed |
 | M025465 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteTypeLocalizationSameFractionFieldStatement` | volunteer-build-reviewed |
 | M025483 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetAdicIntegralTensorBasisOneMulStatement` | volunteer-build-reviewed |
+| M025484 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetAwayMapSubalgebraBijective` | volunteer-build-reviewed |
 | M025485 | P0103 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetAwayMapSubalgebraBijectiveStatement` | volunteer-build-reviewed |
 | M025491 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetFixingPointLocallyFiniteType` | volunteer-build-reviewed |
 | M025496 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetLeftTransversalOfRelIndexNeZero` | volunteer-build-reviewed |
@@ -391,14 +402,3 @@
 | M026545 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInversionCoordinateLocalizationPolynomial` | volunteer-build-reviewed |
 | M026546 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInversionCoordinateLocalizationPolynomialStatement` | volunteer-build-reviewed |
 | M026549 | P1506 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvolutiveAlgebraAdjoinRootSelfReciprocal` | volunteer-build-reviewed |
-| M026550 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvolutiveAlgebraAdjoinRootSelfReciprocalStatement` | volunteer-build-reviewed |
-| M026552 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIotaScalarExactPair` | wave-reused |
-| M026553 | P0298 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIotaScalarExactPairStatement` | wave-reused |
-| M026559 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsAlgClosedEmbeddingsOfFamily` | volunteer-build-reviewed |
-| M026560 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsAlgClosedEmbeddingsOfFamilyStatement` | volunteer-build-reviewed |
-| M026561 | P0011 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsAlgebraicRatFuncFractionRingDedekind` | volunteer-build-reviewed |
-| M026562 | P0104 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsAlgebraicRatFuncFractionRingDedekindStatement` | volunteer-build-reviewed |
-| M026563 | P1326 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsAmpleTensorAmplePowProjective` | wave-reused |
-| M026571 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsColimitPushoutUnder` | wave-reused |
-| M026589 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsDualRiemannOf` | volunteer-build-reviewed |
-| M026599 | P0396 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsFlipSheafComplexPairing` | wave-reused |

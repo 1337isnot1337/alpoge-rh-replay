@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M008716 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsMaxCompactRealPointsOfOrthonormalFramesStatement` | volunteer-build-reviewed |
+| M008717 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsMaximalCompactUnnComponentStandardCartanIn` | volunteer-build-reviewed |
+| M008723 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsN1LocalHomMemOpen` | volunteer-build-reviewed |
+| M008725 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNEmbXInvMulMemKOne` | volunteer-build-reviewed |
+| M008728 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNatMulSelfDualLatticeAtPlaceIntegral` | volunteer-build-reviewed |
+| M008729 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNatMulSelfDualLatticeAtPlaceIntegralStatement` | volunteer-build-reviewed |
+| M008741 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNormOfConjFixedUnitTamePlace` | volunteer-build-reviewed |
 | M008749 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNormalFramesAndBasePointSplitPlace` | volunteer-build-reviewed |
 | M008759 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNsmulMemHomLatticeOfIntegralFrameCoords` | volunteer-build-reviewed |
 | M008760 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNsmulMemHomLatticeOfIntegralFrameCoordsStatement` | volunteer-build-reviewed |
@@ -395,10 +402,3 @@
 | M011324 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SiegelEisensteinSphericalModerateGrowthRealPointStatement` | volunteer-build-reviewed |
 | M011328 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SiegelHeightFinitePlaceDoublingEmbeddingLeOneStatement` | volunteer-build-reviewed |
 | M011330 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SiegelLeviDeterminantIntegralSelfDualLatticeStatement` | volunteer-build-reviewed |
-| M011344 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SiegelWeilSectionDoublingEqMatrixCoefficientStatement` | volunteer-build-reviewed |
-| M011346 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SiegelWeilSectionIntegrableAndContinuousStatement` | volunteer-build-reviewed |
-| M011347 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SigV` | volunteer-build-reviewed |
-| M011354 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SkewHermitianTracePairingStandardCharacterPerfec` | volunteer-build-reviewed |
-| M011359 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmallEntriesAndStringsAvoidExcludedNormPowers` | volunteer-build-reviewed |
-| M011368 | P0177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmoothOfLimitClassStableUnderDirectionalDerivs` | volunteer-build-reviewed |
-| M011371 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmoothVecHeadOfDerivativeFamilyStatement` | volunteer-build-reviewed |

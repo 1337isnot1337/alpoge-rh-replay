@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006090 | P0918 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterCuspidalRootSumRegular` | wave-reused |
+| M006091 | P0946 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterCuspidalRootSumRegularStatement` | build-observed |
+| M006092 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterEsymmRootsCharpoly` | wave-reused |
+| M006093 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterFinsumConjSubgroupFunctionExtendByZer` | wave-reused |
+| M006094 | P0240 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterFinsumConjSubgroupFunctionExtendByZerStatement` | wave-reused |
+| M006095 | P0516 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldAbelianByPrimePower` | wave-reused |
+| M006096 | P0550 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldAbelianByPrimePowerStatement` | wave-reused |
 | M006097 | P0296 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldInducedClassFunction` | wave-reused |
 | M006098 | P0348 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldInducedClassFunctionStatement` | wave-reused |
 | M006099 | P0436 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterOverSubfieldInductionIrreducible` | wave-reused |
@@ -395,10 +402,3 @@
 | M006655 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsIsPolFibreOfKeyPB` | volunteer-build-reviewed |
 | M006656 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsKroneckerCmLogPeriodEqConst` | volunteer-build-reviewed |
 | M006662 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsLeftInverse` | volunteer-build-reviewed |
-| M006669 | P0679 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsLinearOfIsMonHom` | build-observed |
-| M006674 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsMonHomFactorOfFlatSurjective` | volunteer-build-reviewed |
-| M006675 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsMulEquivPointsOfIsGrpPullback` | volunteer-build-reviewed |
-| M006676 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNormalisedPolarisation` | volunteer-build-reviewed |
-| M006678 | P1170 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldDefiningCmCurveHoms` | build-observed |
-| M006679 | P1194 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldDefiningCmCurveHomsStatement` | build-observed |
-| M006682 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldPointOfCountable` | volunteer-build-reviewed |

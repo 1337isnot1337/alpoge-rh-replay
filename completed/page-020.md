@@ -2,6 +2,27 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M035438 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianLineBundleIsNefShiftOfNonneg` | volunteer-build-reviewed |
+| M035439 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianLineBundleIsNefShiftOfNonnegStatement` | volunteer-build-reviewed |
+| M035440 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianLineBundlePositivityPreservedIsometric` | volunteer-build-reviewed |
+| M035441 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianLineBundlePositivityPreservedIsometricStatement` | volunteer-build-reviewed |
+| M035444 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianLocalContinuousCongruenceSection` | volunteer-build-reviewed |
+| M035458 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianModelCharpolyEqAndUnitary` | volunteer-build-reviewed |
+| M035460 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianModelsConjUnitaryDifferByNorm` | volunteer-build-reviewed |
+| M035462 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianModelsConjUnitaryOfNormClass` | volunteer-build-reviewed |
+| M035469 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianPosDefSimultaneousNormalForm` | volunteer-build-reviewed |
+| M035471 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianPositivityInvariant` | volunteer-build-reviewed |
+| M035472 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSelfDualLatticeSpaceFormHermitianNondeg` | volunteer-build-reviewed |
+| M035476 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSimilitudeEntrySqBound` | volunteer-build-reviewed |
+| M035492 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSpectralPartsAnticommute` | volunteer-build-reviewed |
+| M035509 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianTripleTrivialOverRealsOfGramCongruent` | volunteer-build-reviewed |
+| M035514 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianUnitaryGroupOneParameterChartStatement` | volunteer-build-reviewed |
+| M035515 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianVectorEigenDecomposition` | volunteer-build-reviewed |
+| M035536 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HfMulVecMulVec` | volunteer-build-reviewed |
+| M035538 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HformZeroRight` | volunteer-build-reviewed |
+| M035541 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HighDegreeInPowerSumIdeal` | build-observed |
+| M035542 | P0398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HighDegreeInPowerSumIdealStatement` | build-observed |
+| M035543 | P1669 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HigherCohomologyBoundTwistNegOfRegularSection` | wave-reused |
 | M035544 | P1693 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HigherCohomologyBoundTwistNegOfRegularSectionStatement` | wave-reused |
 | M035545 | P1716 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HigherCohomologyGrowthTwist` | wave-reused |
 | M035546 | P1564 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HigherCohomologyTwistBoundOfRegularSection` | wave-reused |
@@ -105,6 +126,7 @@
 | M036373 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdempotentTensorEqZeroOrOneOfIsPurelyInseparableStatement` | volunteer-build-reviewed |
 | M036376 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdempotentTriangularDecomposition` | volunteer-build-reviewed |
 | M036377 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdempotentTriangularDecompositionStatement` | volunteer-build-reviewed |
+| M036378 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdentityAsSumExpMinusOne` | volunteer-build-reviewed |
 | M036379 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IdentityAsSumExpMinusOneStatement` | volunteer-build-reviewed |
 | M036394 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImageCochainExists` | wave-reused |
 | M036410 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ImportsAlt` | volunteer-build-reviewed |
@@ -319,6 +341,7 @@
 | M037629 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlgebraicInt` | volunteer-build-reviewed |
 | M037633 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlgebraicOfFiniteTypeOfComapEqBot` | volunteer-build-reviewed |
 | M037635 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlgebraicOfMemClosure` | volunteer-build-reviewed |
+| M037639 | P0015 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlgebraicOfSubringIsAlgebraic` | volunteer-build-reviewed |
 | M037640 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlgebraicOfSubringIsAlgebraicStatement` | volunteer-build-reviewed |
 | M037643 | P1478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAlmostLowerTriangularOfShearParabolic` | volunteer-build-reviewed |
 | M037652 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsAmplePullbackPowerDivOfLocallyAmpleStatement` | volunteer-build-reviewed |
@@ -379,26 +402,3 @@
 | M037979 | P0479 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsEtaleCohomologyEquivalenceIffElementwiseStatement` | build-observed |
 | M037983 | P1478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsEtaleCoordinatesOnOpenBaseChangePreimageStatement` | volunteer-build-reviewed |
 | M037987 | P1478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsEtaleCoordinatesOnOpenPullOpenImmersionStatement` | volunteer-build-reviewed |
-| M037989 | P1478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsEtaleCoordinatesOnOpenRestrictAffineOpenStatement` | volunteer-build-reviewed |
-| M037990 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsEtaleCoordinatesSectionQuotients` | wave-reused |
-| M037991 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsEtaleCoordinatesSectionQuotientsStatement` | wave-reused |
-| M037992 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdAway` | volunteer-build-reviewed |
-| M037993 | P0398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdAwayOfIsUnitMod` | wave-reused |
-| M037994 | P0441 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdAwayOfIsUnitModStatement` | wave-reused |
-| M037995 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdAwayStatement` | volunteer-build-reviewed |
-| M037996 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdSelf` | wave-reused |
-| M037997 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdTrans` | volunteer-build-reviewed |
-| M037998 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdTransStatement` | volunteer-build-reviewed |
-| M038004 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFamConstLevelOne` | wave-reused |
-| M038007 | P0519 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFieldMonicRootsTensorFractionRingStrictlyHense` | build-observed |
-| M038008 | P0552 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFieldMonicRootsTensorFractionRingStrictlyHenseStatement` | build-observed |
-| M038009 | P0016 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFieldOfUniquePrimeStalk` | volunteer-build-reviewed |
-| M038010 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFieldOfUniquePrimeStalkStatement` | volunteer-build-reviewed |
-| M038032 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFiniteFlatRankClosedSubschemeOfOpenCover` | volunteer-build-reviewed |
-| M038033 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFiniteFlatRankClosedSubschemeOfOpenCoverStatement` | volunteer-build-reviewed |
-| M038034 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFiniteFlatRankClosedSubschemeOfQuotientBasis` | volunteer-build-reviewed |
-| M038055 | P1924 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFlagCh2FlagPull` | volunteer-build-reviewed |
-| M038070 | P1924 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFormMulStatement` | volunteer-build-reviewed |
-| M038080 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFractionRingTensorOfFractionFieldsStatement` | volunteer-build-reviewed |
-| M038083 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFrameMapOfAppendStatement` | volunteer-build-reviewed |
-| M038100 | P0108 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsFullRankLatticeImageStandardLatticeGL` | volunteer-build-reviewed |

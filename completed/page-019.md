@@ -2,6 +2,26 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M032416 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatQuotientSmulTopOfSurjectiveFlat` | volunteer-build-reviewed |
+| M032432 | P0440 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatSectionsOfInjectiveZmodEtaleSheaf` | wave-reused |
+| M032433 | P0478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatSectionsOfInjectiveZmodEtaleSheafStatement` | wave-reused |
+| M032434 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatSubschemeOfQuotientFlatAffine` | volunteer-build-reviewed |
+| M032448 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatTensorSubalgebraMvPolynomialEvalOfFlatAeval` | volunteer-build-reviewed |
+| M032449 | P1563 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatTensorSubalgebraMvPolynomialEvalOfFlatAevalStatement` | volunteer-build-reviewed |
+| M032459 | P1087 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatValueCoefficientBound` | build-observed |
+| M032460 | P1118 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlatValueCoefficientBoundStatement` | build-observed |
+| M032472 | P0013 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlowDerivativeIntegralByParts` | volunteer-build-reviewed |
+| M032478 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockAct2EqSymmetrisedHeisenbergQuadratic` | volunteer-build-reviewed |
+| M032480 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockActDualPairCommutingLieActions` | build-observed |
+| M032491 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockActionPowAnalyticVectorNormLe` | build-observed |
+| M032492 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockActionPowAnalyticVectorNormLeStatement` | build-observed |
+| M032494 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockActionQuadraticOperatorsFactorSignaturesStatement` | volunteer-build-reviewed |
+| M032495 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockActionRowCapelliFormula` | volunteer-build-reviewed |
+| M032496 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockActionRowCapelliFormulaStatement` | volunteer-build-reviewed |
+| M032499 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockActionVanishing` | volunteer-build-reviewed |
+| M032525 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockDerivedActionsTensorMembers` | build-observed |
+| M032526 | P0786 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockDerivedActionsTensorMembersStatement` | build-observed |
+| M032531 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockDualPairSwapSymmetry` | build-observed |
 | M032532 | P0786 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockDualPairSwapSymmetryStatement` | build-observed |
 | M032536 | P1004 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockHarmonicHomogeneousOfKType` | build-observed |
 | M032540 | P0893 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.FockHarmonicsGradedCompactStable` | build-observed |
@@ -244,6 +264,7 @@
 | M034377 | P1353 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInducedTypeCharEqProductListStatement` | build-observed |
 | M034384 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLFieldAutomorphism` | wave-reused |
 | M034385 | P0245 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLFieldAutomorphismStatement` | wave-reused |
+| M034388 | P0181 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLOneLeftRightUnit` | volunteer-build-reviewed |
 | M034575 | P1478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasBlocksOfSystemOccursInBlockPart` | volunteer-build-reviewed |
 | M034576 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasBlocksOfSystemOccursInBlockPartStatement` | volunteer-build-reviewed |
 | M034587 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasCompactSupportHfun` | volunteer-build-reviewed |
@@ -381,24 +402,3 @@
 | M035430 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianLatticeSelfDualEverywhere` | volunteer-build-reviewed |
 | M035436 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianLineBundleIsNefShiftMonotone` | volunteer-build-reviewed |
 | M035437 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianLineBundleIsNefShiftMonotoneStatement` | volunteer-build-reviewed |
-| M035438 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianLineBundleIsNefShiftOfNonneg` | volunteer-build-reviewed |
-| M035439 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianLineBundleIsNefShiftOfNonnegStatement` | volunteer-build-reviewed |
-| M035440 | P1507 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianLineBundlePositivityPreservedIsometric` | volunteer-build-reviewed |
-| M035441 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianLineBundlePositivityPreservedIsometricStatement` | volunteer-build-reviewed |
-| M035444 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianLocalContinuousCongruenceSection` | volunteer-build-reviewed |
-| M035458 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianModelCharpolyEqAndUnitary` | volunteer-build-reviewed |
-| M035460 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianModelsConjUnitaryDifferByNorm` | volunteer-build-reviewed |
-| M035462 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianModelsConjUnitaryOfNormClass` | volunteer-build-reviewed |
-| M035469 | P1792 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianPosDefSimultaneousNormalForm` | volunteer-build-reviewed |
-| M035471 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianPositivityInvariant` | volunteer-build-reviewed |
-| M035472 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSelfDualLatticeSpaceFormHermitianNondeg` | volunteer-build-reviewed |
-| M035476 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSimilitudeEntrySqBound` | volunteer-build-reviewed |
-| M035492 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianSpectralPartsAnticommute` | volunteer-build-reviewed |
-| M035509 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianTripleTrivialOverRealsOfGramCongruent` | volunteer-build-reviewed |
-| M035514 | P0182 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianUnitaryGroupOneParameterChartStatement` | volunteer-build-reviewed |
-| M035515 | P1423 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianVectorEigenDecomposition` | volunteer-build-reviewed |
-| M035536 | P0014 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HfMulVecMulVec` | volunteer-build-reviewed |
-| M035538 | P1537 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HformZeroRight` | volunteer-build-reviewed |
-| M035541 | P0351 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HighDegreeInPowerSumIdeal` | build-observed |
-| M035542 | P0398 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HighDegreeInPowerSumIdealStatement` | build-observed |
-| M035543 | P1669 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.HigherCohomologyBoundTwistNegOfRegularSection` | wave-reused |

@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M022178 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenspacesOfRingHomsIndependent` | volunteer-build-reviewed |
+| M022179 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenspacesOfRingHomsIndependentStatement` | wave-reused |
+| M022183 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenvalueIntegralNormBound` | volunteer-build-reviewed |
+| M022187 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenvalueNormSqOfSimilitudeHermitianSignatureStatement` | volunteer-build-reviewed |
+| M022194 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenvectorMemSpanTwistedTraceImage` | volunteer-build-reviewed |
+| M022242 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinConstantTermFormulaStatement` | volunteer-build-reviewed |
+| M022243 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinConstantTermRationalUnipotent` | volunteer-build-reviewed |
+| M022244 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinConstantTermRationalUnipotentStatement` | volunteer-build-reviewed |
 | M022246 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinConstantTermSettingAltBis` | volunteer-build-reviewed |
 | M022248 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinDeltaQExpansionIntegrality` | wave-reused |
 | M022249 | P0438 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinDeltaQExpansionIntegralityStatement` | wave-reused |
@@ -394,11 +402,3 @@
 | M023850 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartanInvolutionExtendSwappingHyperbolicPaStatement` | volunteer-build-reviewed |
 | M023851 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartanInvolutionHermitianSignature` | volunteer-build-reviewed |
 | M023853 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartanInvolutionHyperbolicSwapExtension` | volunteer-build-reviewed |
-| M023856 | P1476 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCartanInvolutionOfHasHermitianSignatureStatement` | volunteer-build-reviewed |
-| M023908 | P1838 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCentralUnipotentTranslate` | volunteer-build-reviewed |
-| M023936 | P0010 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsChartOfQuotient` | volunteer-build-reviewed |
-| M023947 | P1248 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsChartsSquareZeroPresentedScheme` | build-observed |
-| M023955 | P1884 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsChgFromBlocksEqOne` | volunteer-build-reviewed |
-| M023961 | P0243 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsClassDegreeOne` | build-observed |
-| M023962 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsClassDegreeOneStatement` | build-observed |
-| M024020 | P1536 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsClosedSubschemeRigidifiedBundleTrivialLocu` | volunteer-build-reviewed |

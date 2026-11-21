@@ -2,6 +2,30 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M040478 | P1088 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LazardAdditiveLawWittVectorFractionFieldModPStatement` | build-observed |
+| M040479 | P0894 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LazardOneVariableExistsWittLift` | build-observed |
+| M040480 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LazardOneVariableExistsWittLiftStatement` | build-observed |
+| M040484 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LbIsoOfIsFrame` | volunteer-build-reviewed |
+| M040503 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeFixedAtOfSummands` | volunteer-build-reviewed |
+| M040511 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeMulSetIntegralImage2OfForallLe` | volunteer-build-reviewed |
+| M040513 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeNatCastOfAddOneLe` | volunteer-build-reviewed |
+| M040514 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeOfCountableHolomorphicImagesCover` | volunteer-build-reviewed |
+| M040518 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeOfInjOnDifferentiableOnComplex` | volunteer-build-reviewed |
+| M040526 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeSocleOverOfSimple` | volunteer-build-reviewed |
+| M040530 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeadDet` | volunteer-build-reviewed |
+| M040532 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeadMulUnique` | wave-reused |
+| M040553 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftInverseExtendsToGL` | volunteer-build-reviewed |
+| M040555 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftInverseOfIntegralSolutions` | volunteer-build-reviewed |
+| M040559 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftMulEigenspaceFinrankOne` | wave-reused |
+| M040560 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftMulEigenspaceFinrankOneStatement` | wave-reused |
+| M040561 | P0183 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftMulMatrixRingHomTrace` | wave-reused |
+| M040562 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftMulMatrixRingHomTraceStatement` | wave-reused |
+| M040563 | P0921 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftMulNearOneLuSplitSmallChart` | build-observed |
+| M040564 | P0950 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeftMulNearOneLuSplitSmallChartStatement` | build-observed |
+| M040576 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthEqKerAddRange` | volunteer-build-reviewed |
+| M040582 | P1424 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthStalkNeTopOfNoGenerisation` | wave-reused |
+| M040583 | P1449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthStalkNeTopOfNoGenerisationStatement` | wave-reused |
+| M040584 | P1424 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthStalkReducedClosedGenericPointEqRank` | wave-reused |
 | M040585 | P1449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthStalkReducedClosedGenericPointEqRankStatement` | wave-reused |
 | M040587 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LengthSumHeightOneDisjointDivisorsStatement` | volunteer-build-reviewed |
 | M040590 | P0619 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LeraySimplicialCocycleCoboundaryOfAcyclicLevels` | wave-reused |
@@ -246,6 +270,7 @@
 | M042379 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogResidueChernBoundProjective` | volunteer-build-reviewed |
 | M042380 | P1620 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogResidueChernBoundProjectiveStatement` | build-observed |
 | M042391 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogSingularIntegrableDiscStatement` | volunteer-build-reviewed |
+| M042392 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogSingularityBallIntegralBound` | volunteer-build-reviewed |
 | M042393 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogSizeBoundsClassNumberVolume` | volunteer-build-reviewed |
 | M042398 | P0017 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogThetaWeightSizeLe` | volunteer-build-reviewed |
 | M042412 | P0352 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogisticFactorMem` | volunteer-build-reviewed |
@@ -309,6 +334,7 @@
 | M042799 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatchedTripleIsotropicTowerStepTwo` | volunteer-build-reviewed |
 | M042844 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatrixCoeffContinuousRapidDecayStatement` | volunteer-build-reviewed |
 | M042852 | P1924 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatrixDescentUnramifiedDvrStatement` | volunteer-build-reviewed |
+| M042853 | P0018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatrixDiagonalizableOfCharpolyEqProdDistinct` | volunteer-build-reviewed |
 | M042854 | P1767 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatrixEntriesBoundedAlmostEverywhere` | volunteer-build-reviewed |
 | M042855 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatrixEntriesBoundedAlmostEverywhereStatement` | volunteer-build-reviewed |
 | M042862 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MatrixExtPLoc` | volunteer-build-reviewed |
@@ -376,29 +402,3 @@
 | M043132 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemCompletedOrderOfLocalCongruenceSplit` | volunteer-build-reviewed |
 | M043139 | P1794 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemCtIntSub` | volunteer-build-reviewed |
 | M043143 | P0922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemDivsOfMem` | build-observed |
-| M043144 | P0922 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemDomOfOrth` | build-observed |
-| M043153 | P0184 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemFiltrationOfComponentsMemEigenSpan` | wave-reused |
-| M043154 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemFiltrationOfComponentsMemEigenSpanStatement` | wave-reused |
-| M043155 | P0184 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemFiltrationPreimageIffEvalMem` | wave-reused |
-| M043156 | P0246 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemFiltrationPreimageIffEvalMemStatement` | wave-reused |
-| M043157 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemFiniteUnitIdelesOfMapMaxRealSubfield` | volunteer-build-reviewed |
-| M043164 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemGLintIffMatrixImageStandardLatticeEq` | volunteer-build-reviewed |
-| M043192 | P0184 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemIdealTransformOfForallSmulMem` | wave-reused |
-| M043197 | P0585 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemIntegersOfMemHatO` | build-observed |
-| M043199 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemIntegralOfCommuteSeparableReductionStatement` | volunteer-build-reviewed |
-| M043201 | P0111 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemIntermediateFieldOfForallComplexAutFixed` | volunteer-build-reviewed |
-| M043202 | P1088 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemIntermediateFieldOfForallComplexAutFixedStatement` | build-observed |
-| M043203 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemIsotropicFlagLeviOfKeepsWeights` | volunteer-build-reviewed |
-| M043207 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemKGLIffVal` | volunteer-build-reviewed |
-| M043216 | P1250 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemKernelOfCubWeilOrthogonal` | volunteer-build-reviewed |
-| M043224 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemLagrangianSetArchimedean` | volunteer-build-reviewed |
-| M043235 | P1818 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemLatticeZeroTorus` | volunteer-build-reviewed |
-| M043241 | P1862 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemLinearSystemConeAlgebraIffCoeffStatement` | volunteer-build-reviewed |
-| M043249 | P1424 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemLocalSubringGenericPoint` | build-observed |
-| M043258 | P0018 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemMatLat` | volunteer-build-reviewed |
-| M043259 | P0300 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemMatLatSmulBlockLat` | volunteer-build-reviewed |
-| M043261 | P1565 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemMaxCompactGLOfCommuteEtaleCharpolyBoundedStatement` | volunteer-build-reviewed |
-| M043269 | P1591 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemNilRad` | volunteer-build-reviewed |
-| M043270 | P1449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemNonzeroLocusFormMap` | wave-reused |
-| M043278 | P1088 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemOfDuplicationEq` | build-observed |
-| M043279 | P1118 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemOfDuplicationEqStatement` | build-observed |

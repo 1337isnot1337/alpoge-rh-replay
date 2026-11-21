@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M019633 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousConeDescendsEtaleSurjective` | build-observed |
+| M019634 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousConeDescendsEtaleSurjectiveStatement` | build-observed |
+| M019639 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousFamF` | volunteer-build-reviewed |
+| M019642 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousFirstCoords` | volunteer-build-reviewed |
+| M019643 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousFourierGau` | volunteer-build-reviewed |
+| M019660 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousIsBigORpowLipschitzProductKernel` | volunteer-build-reviewed |
+| M019662 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousIteratedFDerivApply` | volunteer-build-reviewed |
+| M019691 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousMatrixCoefficientStatement` | volunteer-build-reviewed |
 | M019697 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousMultilinearMapNormLeSumBasisValues` | volunteer-build-reviewed |
 | M019698 | P1903 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousMultilinearMapNormLeSumBasisValuesStatement` | volunteer-build-reviewed |
 | M019700 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousOfForallExistsFix` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M022156 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenbasisBaseChange` | volunteer-build-reviewed |
 | M022160 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenbasisSignatureExists` | volunteer-build-reviewed |
 | M022164 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigencharactersFiniteOfCommutingAnnihilated` | volunteer-build-reviewed |
-| M022178 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenspacesOfRingHomsIndependent` | volunteer-build-reviewed |
-| M022179 | P0242 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenspacesOfRingHomsIndependentStatement` | wave-reused |
-| M022183 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenvalueIntegralNormBound` | volunteer-build-reviewed |
-| M022187 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenvalueNormSqOfSimilitudeHermitianSignatureStatement` | volunteer-build-reviewed |
-| M022194 | P0009 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EigenvectorMemSpanTwistedTraceImage` | volunteer-build-reviewed |
-| M022242 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinConstantTermFormulaStatement` | volunteer-build-reviewed |
-| M022243 | P1791 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinConstantTermRationalUnipotent` | volunteer-build-reviewed |
-| M022244 | P1816 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.EisensteinConstantTermRationalUnipotentStatement` | volunteer-build-reviewed |

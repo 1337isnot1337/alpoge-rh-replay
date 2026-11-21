@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    "M135171"
+  ],
+  "started_utc": "2026-11-21T00:16:45.727579+00:00",
+  "ended_utc": "2026-11-21T00:16:54.421357+00:00",
+  "elapsed_seconds": 8.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 10159536,
+    "peak_child_rss_kib": 2455180
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.EtaleCohomology.CohomologicalPurity.LeafStagePf:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "01ae85d21c6f02cdc676d2d044025aec387db9497dfbab20e702725cfb0c811c",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M135171": "185a99e2399df7ae45f4aa7fa8c149e968d61bb9ef896e2906493e9b1cf00940"
+  },
+  "bundle_sha256": "d99b38719084df413feb909a4dd474e05caf646e171f162f9d3288c3983343c5",
+  "packet": "M135171",
+  "contributor": "drew2apps",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/7930#issuecomment-7053943062",
+  "reviewed_utc": "2026-11-21T00:23:23.683255+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

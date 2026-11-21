@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M011344 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SiegelWeilSectionDoublingEqMatrixCoefficientStatement` | volunteer-build-reviewed |
+| M011346 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SiegelWeilSectionIntegrableAndContinuousStatement` | volunteer-build-reviewed |
+| M011347 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SigV` | volunteer-build-reviewed |
+| M011354 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SkewHermitianTracePairingStandardCharacterPerfec` | volunteer-build-reviewed |
+| M011359 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmallEntriesAndStringsAvoidExcludedNormPowers` | volunteer-build-reviewed |
+| M011368 | P0177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmoothOfLimitClassStableUnderDirectionalDerivs` | volunteer-build-reviewed |
+| M011371 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmoothVecHeadOfDerivativeFamilyStatement` | volunteer-build-reviewed |
 | M011383 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SpanRhoTEqTop` | volunteer-build-reviewed |
 | M011391 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalOperatorEigenvaluesDeterminedByParamsStatement` | volunteer-build-reviewed |
 | M011397 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalParameterBoundSplitPlaceStatement` | volunteer-build-reviewed |
@@ -258,6 +265,7 @@
 | M012970 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFunctionFieldOfIsDominantStatement` | volunteer-build-reviewed |
 | M012971 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsGenOfFrames` | volunteer-build-reviewed |
 | M012974 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsGeneratorNormalisedMulByNIsoStatement` | volunteer-build-reviewed |
+| M012976 | P1351 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsGeneratorThetaConstantsOverAlgClosedExtensStatement` | volunteer-build-reviewed |
 | M012977 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsGeneratorThetaPointNormalisedThetaConstant` | volunteer-build-reviewed |
 | M012978 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsGeneratorThetaPointNormalisedThetaConstantStatement` | volunteer-build-reviewed |
 | M012980 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsGenericFibreSectionOfModelSectionStatement` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M013239 | P0550 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSectionApplyEqOfIsAlgClosed` | build-observed |
 | M013241 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSectionExtendingTorsionPointsSupportStatement` | volunteer-build-reviewed |
 | M013242 | P1373 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSectionLiftClosedBaseChangeOfH1Vanishes` | build-observed |
-| M013243 | P1395 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSectionLiftClosedBaseChangeOfH1VanishesStatement` | build-observed |
-| M013248 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSectionPullbackMulGenerator` | volunteer-build-reviewed |
-| M013250 | P1325 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSectionsBasisBaseChangeH1Vanishing` | build-observed |
-| M013251 | P1351 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSectionsBasisBaseChangeH1VanishingStatement` | build-observed |
-| M013260 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSemiAbelianModelSplitSpecialFibre` | volunteer-build-reviewed |
-| M013261 | P1474 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSemiAbelianSplitCubicalExtensionClosure` | volunteer-build-reviewed |
-| M013262 | P1504 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSemiAbelianSplitCubicalExtensionClosureStatement` | worker-kernel-checked |
-| M013263 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSemiAbelianTorusExtensionOfPotentialModel` | volunteer-build-reviewed |

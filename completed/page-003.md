@@ -267,6 +267,7 @@
 | M002559 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.CrystallineWindowLifts` | volunteer-build-reviewed |
 | M002561 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.FourierColumnIndicator` | build-observed |
 | M002592 | P0783 | `Development.AbelianVarietyTheory.BlockTheory.ThetaLiftGeometry.UnramifiedLatticeEmbeddings` | volunteer-build-reviewed |
+| M002595 | P0294 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.BlochKatoGeneratorBound` | volunteer-build-reviewed |
 | M002596 | P0705 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.BlockRootsCuspidal` | build-observed |
 | M002598 | P1028 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.CartanCoshPower` | build-observed |
 | M002599 | P0705 | `Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.CongruenceMaxGalois` | build-observed |
@@ -401,4 +402,3 @@
 | M003063 | P1501 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ConcreteLevelAdelicSubset` | volunteer-build-reviewed |
 | M003067 | P0974 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ContinuousConjFin` | build-observed |
 | M003069 | P0758 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.ContinuousOfDense` | build-observed |
-| M003074 | P1472 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.CxStage` | volunteer-build-reviewed |

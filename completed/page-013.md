@@ -2,6 +2,14 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M016891 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardLeftCosetsDoubleCosetInvEq` | volunteer-build-reviewed |
+| M016897 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardMultisetWordsMulFactorialStatement` | volunteer-build-reviewed |
+| M016898 | P0866 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardNonempty` | volunteer-build-reviewed |
+| M016899 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardPowLeEncardSeminormBallDigitSums` | volunteer-build-reviewed |
+| M016902 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardQuotPrimeSmulEqCardKerMulPowFinrank` | volunteer-build-reviewed |
+| M016914 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardSmulTwistedProjectorMemIntegralFormsStatement` | volunteer-build-reviewed |
+| M016917 | P1145 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardSqModPrime` | volunteer-build-reviewed |
+| M016918 | P1171 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardSqModPrimeStatement` | build-observed |
 | M016919 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardSubtypeEqOfMultiset` | volunteer-build-reviewed |
 | M016922 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardTorsionBySetPowOfDivisibleNumberField` | volunteer-build-reviewed |
 | M016923 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardTorsionBySetPowOfDivisibleNumberFieldStatement` | volunteer-build-reviewed |
@@ -394,11 +402,3 @@
 | M019614 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousAtCharSeriesCoefZero` | volunteer-build-reviewed |
 | M019625 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousCharacterCocycleTrivialNearZeroStatement` | volunteer-build-reviewed |
 | M019628 | P1421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousCharpolyCoeffMulLeftFiniteAdelesAwayPStatement` | volunteer-build-reviewed |
-| M019633 | P0812 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousConeDescendsEtaleSurjective` | build-observed |
-| M019634 | P0840 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousConeDescendsEtaleSurjectiveStatement` | build-observed |
-| M019639 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousFamF` | volunteer-build-reviewed |
-| M019642 | P0101 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousFirstCoords` | volunteer-build-reviewed |
-| M019643 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousFourierGau` | volunteer-build-reviewed |
-| M019660 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousIsBigORpowLipschitzProductKernel` | volunteer-build-reviewed |
-| M019662 | P0008 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousIteratedFDerivApply` | volunteer-build-reviewed |
-| M019691 | P0178 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousMatrixCoefficientStatement` | volunteer-build-reviewed |

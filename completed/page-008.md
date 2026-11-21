@@ -2,6 +2,13 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006669 | P0679 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsLinearOfIsMonHom` | build-observed |
+| M006674 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsMonHomFactorOfFlatSurjective` | volunteer-build-reviewed |
+| M006675 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsMulEquivPointsOfIsGrpPullback` | volunteer-build-reviewed |
+| M006676 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNormalisedPolarisation` | volunteer-build-reviewed |
+| M006678 | P1170 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldDefiningCmCurveHoms` | build-observed |
+| M006679 | P1194 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldDefiningCmCurveHomsStatement` | build-observed |
+| M006682 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldPointOfCountable` | volunteer-build-reviewed |
 | M006683 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsNumberFieldTorsionPoints` | volunteer-build-reviewed |
 | M006684 | P1219 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsOActExtendDedekind` | volunteer-build-reviewed |
 | M006691 | P0436 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.ExistsPeriodPairOfLatticeInLine` | build-observed |
@@ -395,10 +402,3 @@
 | M008707 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLocalModelSliceSourceLine` | volunteer-build-reviewed |
 | M008709 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLocalModelSliceTargetLine` | volunteer-build-reviewed |
 | M008711 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsLogNearOneUnitaryGroupOfFormLinearBound` | volunteer-build-reviewed |
-| M008716 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsMaxCompactRealPointsOfOrthonormalFramesStatement` | volunteer-build-reviewed |
-| M008717 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsMaximalCompactUnnComponentStandardCartanIn` | volunteer-build-reviewed |
-| M008723 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsN1LocalHomMemOpen` | volunteer-build-reviewed |
-| M008725 | P0476 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNEmbXInvMulMemKOne` | volunteer-build-reviewed |
-| M008728 | P1560 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNatMulSelfDualLatticeAtPlaceIntegral` | volunteer-build-reviewed |
-| M008729 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNatMulSelfDualLatticeAtPlaceIntegralStatement` | volunteer-build-reviewed |
-| M008741 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNormOfConjFixedUnitTamePlace` | volunteer-build-reviewed |
