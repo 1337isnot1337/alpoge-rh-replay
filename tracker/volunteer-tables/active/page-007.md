@@ -94,7 +94,6 @@
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M007512](https://github.com/rohanarun/alpoge-rh-replay/issues/23543) | Claimed |
 | [@HITEYY](https://github.com/HITEYY) | [M128803](https://github.com/rohanarun/alpoge-rh-replay/issues/23544) | Claimed |
 | [@HITEYY](https://github.com/HITEYY) | [M123402](https://github.com/rohanarun/alpoge-rh-replay/issues/23547) | Claimed |
-| [@HITEYY](https://github.com/HITEYY) | [M116272](https://github.com/rohanarun/alpoge-rh-replay/issues/23548) | Claimed |
 | [@HITEYY](https://github.com/HITEYY) | [M121098](https://github.com/rohanarun/alpoge-rh-replay/issues/23549) | Claimed |
 | [@HITEYY](https://github.com/HITEYY) | [M125240](https://github.com/rohanarun/alpoge-rh-replay/issues/23552) | Claimed |
 | [@HITEYY](https://github.com/HITEYY) | [M125592](https://github.com/rohanarun/alpoge-rh-replay/issues/23553) | Claimed |

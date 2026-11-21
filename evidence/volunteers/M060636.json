@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M060636"
+  ],
+  "started_utc": "2026-11-21T16:25:13.925841+00:00",
+  "ended_utc": "2026-11-21T16:25:31.970775+00:00",
+  "elapsed_seconds": 18.0,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5409216
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.AlgHomDualNumberExt:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7eb96653c9d1407a64c324870570d1518e77f473ebd30152b50144d19ec21c15",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.IsAdicCompleteOfFgOfNatCastMem",
+    "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.IsAdicCompleteOfFgOfNatCastMemStatement",
+    "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.MvPowerSeriesExistsPolynomialTotalDegreeLeSubMemStatement"
+  ],
+  "objects": {
+    "M060636": "d4e4c7f42c10f7e426472e11589e7d14a8e9b7af9dcea4b1ee58a43e5cad95d0"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "4e2d83797c17d1c9d8f56f2b10f6f8d47eee784cdb6e02e80b5c4db290885a23",
+  "packet": "M060636",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23487#issuecomment-7065645633",
+  "reviewed_utc": "2026-11-21T16:48:14.793293+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

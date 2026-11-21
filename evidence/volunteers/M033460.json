@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M033460"
+  ],
+  "started_utc": "2026-11-21T16:24:50.646933+00:00",
+  "ended_utc": "2026-11-21T16:25:11.416143+00:00",
+  "elapsed_seconds": 20.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5425572
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaussianPairingUnitaryGroupTwoThree:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4e581a9d90549b26f16589f48d0992c856b9f62f602d46e9ab5c56953efba5ca",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegrableMonomialMulConjComplexGaussian",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralComplexGaussianPosDefHermitianPart",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralComplexGaussianPosDefHermitianPartStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeasurePreservingOfNormSqEqSumComplexCoords"
+  ],
+  "objects": {
+    "M033460": "e76178b6e343dbaee3b67d1a4615673b3eb9aaa6208257c43da4fabb72649181"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "8966de46d3610ad2719daa92466e2876ad6051d0482310c3bc3df00dddd094b5",
+  "packet": "M033460",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23486#issuecomment-7065645221",
+  "reviewed_utc": "2026-11-21T16:48:14.752205+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

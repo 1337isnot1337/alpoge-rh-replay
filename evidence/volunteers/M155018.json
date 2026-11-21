@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M155018"
+  ],
+  "started_utc": "2026-11-21T16:25:45.117633+00:00",
+  "ended_utc": "2026-11-21T16:26:00.771360+00:00",
+  "elapsed_seconds": 15.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5390936
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FourSquareQuaternions.FourSqOfFromDiag:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5791927633d610f4ce8bb3204559f07d699e42b00cdc79c6737ef65fbd442b9f",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FourSquareQuaternions.FourSqOf",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FourSquareQuaternions.OrthogonalDiagonal",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FourSquareQuaternions.QmapInjective",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FourSquareQuaternions.QuatMatTransposeMul"
+  ],
+  "objects": {
+    "M155018": "9f9647834c0c2c22e20d498b1f9ac39346244d70ae9abf89cd697ef698a20f63"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "7985053ce2596692f3edc67d4f9374d6afef4d20bcff63198df06a6f9e21144f",
+  "packet": "M155018",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23489#issuecomment-7065646521",
+  "reviewed_utc": "2026-11-21T16:48:14.717126+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

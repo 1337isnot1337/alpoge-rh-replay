@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M045685"
+  ],
+  "started_utc": "2026-11-21T16:22:41.072944+00:00",
+  "ended_utc": "2026-11-21T16:23:18.166477+00:00",
+  "elapsed_seconds": 37.1,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5541892
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicSectionContinuousLimitStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "835217ed0ba6bc8e908480ea5c7f644dbc7d73a53f00415f4e2c5056a7fb2ba3",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogOfExpContinuity",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogOfExpContinuityStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonvanishingSectionQuotientLimit",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonvanishingSectionQuotientLimitStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PeriodicSectionContinuousLimit"
+  ],
+  "objects": {
+    "M045685": "d90680d0a1723acd17f228bc7581be45f47007299defd0a7d293fe2f9025d763"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "caa385343d62c288c891762575d45da63532601f205daa1e0829fdcd1e3a0188",
+  "packet": "M045685",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23460#issuecomment-7065630004",
+  "reviewed_utc": "2026-11-21T16:48:46.959634+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

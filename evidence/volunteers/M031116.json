@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M031116"
+  ],
+  "started_utc": "2026-11-21T16:23:20.489749+00:00",
+  "ended_utc": "2026-11-21T16:23:49.307224+00:00",
+  "elapsed_seconds": 28.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5758548
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteCutOutSubalgebraQuasiCoherentStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fe7dd6387a0b64662dd8e1f1d7a28b72ea4b963991ed884107c0921ed4646e24",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FgLocalizationAwaySpanFinset",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FgLocalizationAwaySpanFinsetStatement",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteCutOutSubalgebraQuasiCoherent",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubNatCompSubIncl",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubmoduleFgOfLocallyLeFg",
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SubmoduleFgOfLocallyLeFgStatement"
+  ],
+  "objects": {
+    "M031116": "584b36004e995f2d210df32e25485835e178f8151ed123bfdc60516e99bc338f"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "2a076b058ece0a9edc22033f6d7897b1f396f289b85726fa1edcccbc17c8b8f2",
+  "packet": "M031116",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23461#issuecomment-7065630466",
+  "reviewed_utc": "2026-11-21T16:48:46.936788+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

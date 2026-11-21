@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M102650"
+  ],
+  "started_utc": "2026-11-21T16:21:41.102711+00:00",
+  "ended_utc": "2026-11-21T16:22:37.018782+00:00",
+  "elapsed_seconds": 55.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5531604
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.ObsCorrect:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "a0f2a31ee9cabd2f50926b325dd89ceed129a3bb01e371b29f2e7199f39248f6",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.CocycleNormalForm",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.HhGroup",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.HhSmall",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.TripleNe"
+  ],
+  "objects": {
+    "M102650": "e3e4779f59529fdbe5b9123556f911df7eab5316bed7c40c2861fb2db4d056dc"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "61cccad78046b768d4b8192e2427dc620d6a2d7e6a92ca9c33b8fad32985216c",
+  "packet": "M102650",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23453#issuecomment-7065604209",
+  "reviewed_utc": "2026-11-21T16:48:47.663495+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

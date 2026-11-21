@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    "M065230"
+  ],
+  "started_utc": "2026-11-21T16:19:36.248506+00:00",
+  "ended_utc": "2026-11-21T16:20:14.614216+00:00",
+  "elapsed_seconds": 38.4,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5382996
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.MahlerCoefficientNormLeOneIffJetsBoundedMeasureM:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "784b6fb04b7f9ef7d57c8cdc2c925e6672bbdad19c90349209138344c2772041",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LatIntZero",
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.ExistsMeasureOfBoundedMoments",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.Taylor"
+  ],
+  "objects": {
+    "M065230": "5e970eb94fb46a9604eaf89612661df1e20fd4c8bf06ebeef807d55ab9da26b4"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "b990082b9f8b3b86569059b7fbc482b3e79f48b5491f26983cf1fb17a5a4563e",
+  "packet": "M065230",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/23436#issuecomment-7065577210",
+  "reviewed_utc": "2026-11-21T16:49:03.977991+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -361,6 +361,7 @@
 | M017529 | P2339 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartPointGenericFibreStatement` | build-observed |
 | M017530 | P0395 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartPotentialContinuousOn` | build-observed |
 | M017531 | P0437 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartPotentialContinuousOnStatement` | build-observed |
+| M017545 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartRestrictOpenStatement` | volunteer-build-reviewed |
 | M017550 | P0617 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartRingLocalizationMembership` | wave-reused |
 | M017553 | P2035 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartSmooth` | volunteer-build-reviewed |
 | M017559 | P0760 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChartSumIntegralLeMongeAmpere` | build-observed |
@@ -399,6 +400,5 @@
 | M017703 | P2531 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernTransgressionFormsFrameInvariant` | build-observed |
 | M017704 | P2555 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernTransgressionFormsFrameInvariantStatement` | build-observed |
 | M017705 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChernTwoDdcExtTrace` | volunteer-build-reviewed |
+| M017712 | P2340 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChevalleyExistsLeSupMaximalIdealPowOfAntitoneStatement` | volunteer-build-reviewed |
 | M017714 | P1562 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChiDeltaUConjLongSimpleReflectionUnitary` | volunteer-build-reviewed |
-| M017718 | P1958 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChiGridVertexRankAddLtTwoExponentAddCentre` | volunteer-build-reviewed |
-| M017719 | P1977 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ChiGridVertexRankAddLtTwoExponentAddCentreStatement` | volunteer-build-reviewed |
