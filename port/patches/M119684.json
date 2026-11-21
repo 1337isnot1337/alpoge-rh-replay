@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.CompactGapsGE",
+  "source_sha256": "f0b3cc3288c790783c6fad76f990b07dfd3cfc0ffa03c68ed08f6353b57fda2a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

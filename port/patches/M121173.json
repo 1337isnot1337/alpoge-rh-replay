@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CardDivisorsSqLeTwoMul",
+  "source_sha256": "b4c98635ccaff57c99ad37702072fcc3d0504f0e72c63bffce197cf0120db403",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

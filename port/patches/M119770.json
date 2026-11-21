@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LieModel",
+  "source_sha256": "6dd729b9c7e8bcfc5f1890b33a297fb34c251d8df7a62240b66e94164e1f6105",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

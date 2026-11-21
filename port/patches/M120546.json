@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.ProdNormEmbeddingsEqAbsNorm",
+  "source_sha256": "9d3855638ec7d8ae5edfebe61decb1a97a1fb23ffcec30be5bca056128be3acd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use FinitePlace.norm_embedding' for the norm of the same finite-place embedding; theorem statements unchanged. Use WithZero.log_exp for the updated valuation exponent representation."
+}

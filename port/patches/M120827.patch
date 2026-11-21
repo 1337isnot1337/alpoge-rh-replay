@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/AePolynomialNonvanishing.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/AePolynomialNonvanishing.lean
+@@ -41,7 +41,7 @@
+         have hR : (MvPolynomial.finSuccEquiv ℂ d Q).map (MvPolynomial.eval s) ≠ 0 := by
+           intro h0
+           apply hs
+-          have := congrArg (fun p => Polynomial.coeff p
++          have := congrArg (fun p : Polynomial ℂ => p.coeff
+             (MvPolynomial.finSuccEquiv ℂ d Q).natDegree) h0
+           simpa [Polynomial.coeff_map] using this
+         refine measure_mono_null ?_ ((Polynomial.finite_setOf_isRoot hR).measure_zero volume)

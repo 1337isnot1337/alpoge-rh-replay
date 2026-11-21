@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsCptGen",
+  "source_sha256": "368276f16ea1f2a352e0f18d965391a314af6ea58f0f1622b22446aabc3e77ef",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

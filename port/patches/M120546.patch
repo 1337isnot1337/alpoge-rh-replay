@@ -1,0 +1,14 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/AlgebraProofs/ProdNormEmbeddingsEqAbsNorm.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/AlgebraProofs/ProdNormEmbeddingsEqAbsNorm.lean
+@@ -14,9 +14,8 @@
+     (v : HeightOneSpectrum (𝓞 F)) (α : F) (k : ℤ)
+     (h : v.valuation F α = WithZero.exp (-k)) :
+     ‖FinitePlace.embedding v α‖ = (Ideal.absNorm v.asIdeal : ℝ) ^ (-k) := by
+-  rw [FinitePlace.norm_def', h, WithZeroMulInt.toNNReal_neg_apply _ (WithZero.exp_ne_zero (a := -k))]
+-  have hk : Multiplicative.toAdd (WithZero.unzero (WithZero.exp_ne_zero (a := -k))) = -k := rfl
+-  rw [hk, NNReal.coe_zpow]
++  rw [FinitePlace.norm_embedding', h, WithZeroMulInt.toNNReal_neg_apply _ (WithZero.exp_ne_zero (a := -k))]
++  rw [WithZero.log_exp, NNReal.coe_zpow]
+   rfl
+ 
+ theorem sum_log_embeddings_eq (F : Type) [Field F] [NumberField F]

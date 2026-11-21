@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CardEqCardKerMulCardRange",
+  "source_sha256": "31889ce0c3438aaef9ea62892091d12556a168a9e3568da5d27f060fe0e901c1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

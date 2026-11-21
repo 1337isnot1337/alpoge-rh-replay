@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Definitions.MembershipCriteria.LaEqSqrtSmulLam",
+  "source_sha256": "afaaa1bf346b3b5431e28d8ad607a1c0e2603c99c2b35cce8ee4bcdf91a020df",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Expand the current Xor proposition with xor_iff_or_and_not_and in the finite index-two proof; theorem statements unchanged."
+}

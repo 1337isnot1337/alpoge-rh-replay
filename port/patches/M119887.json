@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.AdelicProofs.MapMulRightEqOfMemCompactSubgroup",
+  "source_sha256": "4a8d14c9ab045fc68874795efbe930da80281b7febc38036cc46ec0f1de9d2b3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Supply the existing measurability proof to Measure.map_smul; theorem statement unchanged."
+}

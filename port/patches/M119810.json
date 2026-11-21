@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Definitions.MetricPeriods.EtaCut",
+  "source_sha256": "5b2825bf4933aeb757204ecd805f54237bb5d66fe645c9b614853eba39a98be1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
