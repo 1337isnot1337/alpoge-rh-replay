@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ConjInvariantCharacterMem",
+  "source_sha256": "65375243a7c750d41f775d2eadabb7f33efd4b2425d4c35086e18894c09c20d5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The statement spells out s ∩ t on sets. Mathlib dropped Set.instInter and now elaborates s ∩ t as @min (Set α) (@Set.instMin α) s t, definitionally Set.inter s t. The term is the same s ∩ t written in the new elaboration, so the proposition is unchanged.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0048-issue-24571/P0048-receipt.json"
+}

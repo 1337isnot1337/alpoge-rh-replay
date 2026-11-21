@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CharpolyCoeffValuation",
+  "source_sha256": "df49682c1b3bc82462e3e5632b9d2eb9c68fab7dc80db16058261aa53249b9ac",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Mathlib renamed the positivity-hypothesis form of Finset.prod_lt_prod_of_nonempty to Finset.prod_lt_prod_of_nonempty₀ with the same arguments; the unprimed name now has the old primed signature. Proof-only change.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0048-issue-24571/P0048-receipt.json"
+}

@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CuspidalIrreducibleSubrep.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CuspidalIrreducibleSubrep.lean
+@@ -9,7 +9,7 @@
+               ((i : I) → Module.Dual ℂ (W i)) → (PiTensorProduct ℂ fun (i : I) ↦ W i) →ₗ[ℂ] ℂ :=
+     fun {I : Type} [Fintype I] {W : I → Type} [(i : I) → AddCommGroup (W i)] [(i : I) → _root_.Module ℂ (W i)]
+         (f : (i : I) → Module.Dual ℂ (W i)) ↦
+-      (PiTensorProduct.lift : MultilinearMap ℂ W ℂ → (PiTensorProduct ℂ fun (i : I) ↦ W i) →ₗ[ℂ] ℂ)
++      (PiTensorProduct.lift : MultilinearMap (RingHom.id ℂ) W ℂ → (PiTensorProduct ℂ fun (i : I) ↦ W i) →ₗ[ℂ] ℂ)
+         ((MultilinearMap.mkPiAlgebra ℂ I ℂ).compLinearMap f)
+ 
+ theorem UpperTheory.Reformulated.B.CuspidalIrreducibleSubrep.ev_tprod :

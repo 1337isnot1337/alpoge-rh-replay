@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CuspidalIrreducibleSubrep",
+  "source_sha256": "a8a8958cd002c6d2cbcc9f4e6f9f6619ad12e3d4be3efbea351a4014925d3753",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "MultilinearMap now takes a ring homomorphism (semilinear maps). The type ascription inside the body of ev now reads MultilinearMap (RingHom.id ℂ) W ℂ, which is what →ₘₗ[ℂ] denotes. The type of ev and the elaborated value are unchanged.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0048-issue-24571/P0048-receipt.json"
+}
