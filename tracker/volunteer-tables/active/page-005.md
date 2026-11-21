@@ -51,8 +51,6 @@
 | [@SeriousRising](https://github.com/SeriousRising) | [P2642](https://github.com/rohanarun/alpoge-rh-replay/issues/12135) | Claimed |
 | [@user42245](https://github.com/user42245) | [M075427](https://github.com/rohanarun/alpoge-rh-replay/issues/12148) | Claimed |
 | [@user42245](https://github.com/user42245) | [M087341](https://github.com/rohanarun/alpoge-rh-replay/issues/12224) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P1983](https://github.com/rohanarun/alpoge-rh-replay/issues/12241) | Claimed |
-| [@RhizoNymph](https://github.com/RhizoNymph) | [P2392](https://github.com/rohanarun/alpoge-rh-replay/issues/12256) | Claimed |
 | [@user42245](https://github.com/user42245) | [M115737](https://github.com/rohanarun/alpoge-rh-replay/issues/12322) | Claimed |
 | [@hipotures](https://github.com/hipotures) | [P1984](https://github.com/rohanarun/alpoge-rh-replay/issues/12482) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2033](https://github.com/rohanarun/alpoge-rh-replay/issues/12493) | Claimed |
@@ -88,7 +86,6 @@
 | [@rayy3535](https://github.com/rayy3535) | [P2089](https://github.com/rohanarun/alpoge-rh-replay/issues/12619) | Claimed |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M005787](https://github.com/rohanarun/alpoge-rh-replay/issues/12677) | Claimed |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M089454](https://github.com/rohanarun/alpoge-rh-replay/issues/12679) | Claimed |
-| [@TomMoeras](https://github.com/TomMoeras) | [P2067](https://github.com/rohanarun/alpoge-rh-replay/issues/12680) | Claimed |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M173978](https://github.com/rohanarun/alpoge-rh-replay/issues/12681) | Claimed |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M173853](https://github.com/rohanarun/alpoge-rh-replay/issues/12682) | Claimed |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M102551](https://github.com/rohanarun/alpoge-rh-replay/issues/12685) | Claimed |

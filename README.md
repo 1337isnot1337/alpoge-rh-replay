@@ -35,11 +35,11 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- active-volunteers-start -->
 
-[1,104 entries. View the full table](tracker/volunteer-tables/active/README.md).
+[1,101 entries. View the full table](tracker/volunteer-tables/active/README.md).
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@TomMoeras](https://github.com/TomMoeras) | [P2067](https://github.com/rohanarun/alpoge-rh-replay/issues/12680) | Claimed |
+| [@BouquetAntoine](https://github.com/BouquetAntoine) | [M089454](https://github.com/rohanarun/alpoge-rh-replay/issues/12679) | Claimed |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M173978](https://github.com/rohanarun/alpoge-rh-replay/issues/12681) | Claimed |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M173853](https://github.com/rohanarun/alpoge-rh-replay/issues/12682) | Claimed |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M102551](https://github.com/rohanarun/alpoge-rh-replay/issues/12685) | Claimed |
@@ -69,7 +69,7 @@ Working on a new Lean proof? The verified lemma library includes continuity of u
 
 <!-- pending-volunteers-start -->
 
-[4,837 entries. View the full table](tracker/volunteer-tables/pending/README.md).
+[4,840 entries. View the full table](tracker/volunteer-tables/pending/README.md).
 
 | Contributor | Task | Review |
 |---|---|---|

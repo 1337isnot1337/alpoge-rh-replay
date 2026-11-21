@@ -4,6 +4,8 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@loremcdmx](https://github.com/loremcdmx) | [M010482](https://github.com/rohanarun/alpoge-rh-replay/issues/12611#issuecomment-7057259027) | Pending review |
+| [@t-choudhury](https://github.com/t-choudhury) | [M028302](https://github.com/rohanarun/alpoge-rh-replay/issues/12613#issuecomment-7057272966) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M012514](https://github.com/rohanarun/alpoge-rh-replay/issues/12615#issuecomment-7057260084) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M012591](https://github.com/rohanarun/alpoge-rh-replay/issues/12616#issuecomment-7057260968) | Pending review |
 | [@galakurpi](https://github.com/galakurpi) | [M166500](https://github.com/rohanarun/alpoge-rh-replay/issues/12617#issuecomment-7057176600) | Pending review |
@@ -66,6 +68,7 @@
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M078686](https://github.com/rohanarun/alpoge-rh-replay/issues/12675#issuecomment-7057250505) | Pending review |
 | [@BouquetAntoine](https://github.com/BouquetAntoine) | [M106075](https://github.com/rohanarun/alpoge-rh-replay/issues/12676#issuecomment-7057181252) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M083683](https://github.com/rohanarun/alpoge-rh-replay/issues/12678#issuecomment-7057256492) | Pending review |
+| [@TomMoeras](https://github.com/TomMoeras) | [P2067](https://github.com/rohanarun/alpoge-rh-replay/issues/12680#issuecomment-7057351605) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M091758](https://github.com/rohanarun/alpoge-rh-replay/issues/12683#issuecomment-7057236360) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M006327](https://github.com/rohanarun/alpoge-rh-replay/issues/12684#issuecomment-7057272160) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M101434](https://github.com/rohanarun/alpoge-rh-replay/issues/12687#issuecomment-7057245156) | Pending review |
