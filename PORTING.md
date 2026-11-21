@@ -9,9 +9,13 @@ The port asks a different question: does the same proof still go through on a cu
 `port/target.json` records the target:
 
 - **Lean:** `leanprover/lean4:v4.36.0`, the latest stable release (2026-11-16).
-- **Mathlib:** not pinned yet. The first port PR pins it: the newest Mathlib `master` commit whose `lean-toolchain` is `v4.36.0`, with its full commit hash. A maintainer reviews that choice before any other port work merges.
+- **Mathlib:** `fc4f59e577feb1a4956671bc04ac18aaaf8cd842`, Mathlib's `v4.36.0` release tag.
 
 Retargeting to a later release is a separate PR that updates `port/target.json` and says which landed patches need rework.
+
+## Triage results
+
+A Google Cloud job compiles each depth-0 module unchanged on the target toolchain and records whether it builds. When it fails, it records the first errors. Results are published in `port/triage/`. Start with modules marked `fail`. Modules marked `ok` need only an `unchanged` record.
 
 ## Unit of work
 
