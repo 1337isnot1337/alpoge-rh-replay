@@ -4,7 +4,6 @@
 
 | Contributor | Task | Review |
 |---|---|---|
-| [@HITEYY](https://github.com/HITEYY) | [M018233](https://github.com/rohanarun/alpoge-rh-replay/issues/20429#issuecomment-7062923110) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M019561](https://github.com/rohanarun/alpoge-rh-replay/issues/20430#issuecomment-7062926971) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M009132](https://github.com/rohanarun/alpoge-rh-replay/issues/20431#issuecomment-7062930373) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M017221](https://github.com/rohanarun/alpoge-rh-replay/issues/20432#issuecomment-7062933825) | Pending review |
@@ -254,3 +253,4 @@
 | [@zediir](https://github.com/zediir) | [M016849](https://github.com/rohanarun/alpoge-rh-replay/issues/20837#issuecomment-7062077121) | Pending review |
 | [@zediir](https://github.com/zediir) | [M018270](https://github.com/rohanarun/alpoge-rh-replay/issues/20838#issuecomment-7062079644) | Pending review |
 | [@t-choudhury](https://github.com/t-choudhury) | [M140827](https://github.com/rohanarun/alpoge-rh-replay/issues/20839#issuecomment-7062281118) | Pending review |
+| [@maugomez77](https://github.com/maugomez77) | [M157072](https://github.com/rohanarun/alpoge-rh-replay/issues/20841#issuecomment-7062179722) | Pending review |

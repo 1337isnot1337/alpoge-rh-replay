@@ -4,7 +4,6 @@
 
 | Contributor | Task | Review |
 |---|---|---|
-| [@maugomez77](https://github.com/maugomez77) | [M157072](https://github.com/rohanarun/alpoge-rh-replay/issues/20841#issuecomment-7062179722) | Pending review |
 | [@hipotures](https://github.com/hipotures) | [P2164](https://github.com/rohanarun/alpoge-rh-replay/issues/20843#issuecomment-7062332774) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M140841](https://github.com/rohanarun/alpoge-rh-replay/issues/20844#issuecomment-7062245757) | Pending review |
 | [@vivekshivarajkumar](https://github.com/vivekshivarajkumar) | [M015198](https://github.com/rohanarun/alpoge-rh-replay/issues/20847#issuecomment-7062246229) | Pending review |
@@ -254,3 +253,4 @@
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M101639](https://github.com/rohanarun/alpoge-rh-replay/issues/21205#issuecomment-7062472267) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M131654](https://github.com/rohanarun/alpoge-rh-replay/issues/21206#issuecomment-7062492260) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M115683](https://github.com/rohanarun/alpoge-rh-replay/issues/21207#issuecomment-7062473850) | Pending review |
+| [@jdenwood](https://github.com/jdenwood) | [M164861](https://github.com/rohanarun/alpoge-rh-replay/issues/21208#issuecomment-7062452320) | Pending review |
