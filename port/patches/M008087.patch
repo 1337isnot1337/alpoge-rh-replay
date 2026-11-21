@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/ContDiffCompactAverageOfClosedPartials.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/ContDiffCompactAverageOfClosedPartials.lean
+@@ -57,7 +57,7 @@
+       rw [clm_expand (fderiv ℝ (F k) t)] at h
+       simpa only [he] using h)
+   refine key.congr_fderiv ?_
+-  rw [integral_finset_sum _ fun i _ => (integrable_cont μ (hGk i t₀)).smul_const _]
++  rw [integral_finsetSum _ fun i _ => (integrable_cont μ (hGk i t₀)).smul_const _]
+   exact Finset.sum_congr rfl fun i _ => integral_smul_const _ _
+ 
+ end GlobalTheory.AvgSmooth

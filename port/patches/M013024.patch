@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DegenerationProofs/ExistsIntegralExtIsAlgClosedResidueField.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DegenerationProofs/ExistsIntegralExtIsAlgClosedResidueField.lean
+@@ -149,7 +149,7 @@
+     (by rwa [Ne, Ideal.span_singleton_eq_top])
+   haveI : Algebra.IsIntegral W N :=
+     ⟨fun x => (isIntegral_algHom_iff N.val Subtype.val_injective).1 (hN x x.2)⟩
+-  have hmax : (m.comap (algebraMap W N)).IsMaximal := Ideal.isMaximal_comap_of_isIntegral_of_isMaximal m
++  have hmax : (m.comap (algebraMap W N)).IsMaximal := Ideal.isMaximal_under_of_isIntegral_of_isMaximal m
+   have hc : m.comap (algebraMap W N) = IsLocalRing.maximalIdeal W := IsLocalRing.eq_maximalIdeal hmax
+   have hπm : algebraMap W N π ∈ m := by
+     rw [← Ideal.mem_comap, hc]; exact hπ

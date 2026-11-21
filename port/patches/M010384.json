@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MatrixFieldStableRangeOneDetNeZero",
+  "source_sha256": "d9a41d81fbc86df231551635ef1b0556abd033b300621d8dc59b0476d50ef295",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Expose the composed linear-map application and use the explicit LinearEquiv.map_zero and LinearMap.map_zero lemmas, avoiding a generic ZeroHomClass search that reaches the typeclass heartbeat limit. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0006-lean436-20261121/packet-result.json"
+}

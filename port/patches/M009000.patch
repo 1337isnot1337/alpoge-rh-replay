@@ -1,0 +1,15 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/ExistsZsmulMemLattice.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/ExistsZsmulMemLattice.lean
+@@ -12,10 +12,10 @@
+   exact ⟨m, ⟨m • a, hi⟩, hm, rfl⟩
+ 
+ theorem exists_zsmul_mem_lattice {E : Type} [Field E] [NumberField E] {n : ℕ}
+-    (L : Submodule (RingOfIntegers E) (Fin n → E)) [Submodule.IsLattice E L] (x : Fin n → E) :
++    (L : Submodule (RingOfIntegers E) (Fin n → E)) [Submodule.IsFullLattice E L] (x : Fin n → E) :
+     ∃ (m : ℤ), m ≠ (0 : ℤ) ∧ m • x ∈ L := by
+   have hx : x ∈ Submodule.span E (L : Set (Fin n → E)) := by
+-    rw [Submodule.IsLattice.span_eq_top (A := E)]
++    rw [Submodule.IsFullLattice.span_eq_top (A := E)]
+     trivial
+   induction hx using Submodule.span_induction with
+   | mem y hy => exact ⟨1, one_ne_zero, by simpa using hy⟩

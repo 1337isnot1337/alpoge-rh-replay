@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsSubMemMaximalIdeal",
+  "source_sha256": "8ae636d4347c7fbcfdd2351913f1152383351a6aaf574a75b7f448cca60ca6a9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Ideal.isMaximal_under_of_isIntegral_of_isMaximal and AddMonoidAlgebra.coeff_smul_apply. Adapt the discrete valuation ring TFAE indices from zero-based (0,2) to one-based (1,3), and remove the now-implicit algebra-map injectivity arguments with the target algebra explicit. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0006-lean436-20261121/packet-result.json"
+}

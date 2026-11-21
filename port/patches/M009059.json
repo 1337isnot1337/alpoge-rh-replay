@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteDimensionalSpanMultilinearValues",
+  "source_sha256": "0d2ef579df10fe9267a11a3bbd1bb5d63e62fc69e024aedce873c97890f9b0df",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specialize the target semilinear MultilinearMap parameter to RingHom.id \u2102 in the theorem and local restricted map. The old MultilinearMap \u2102 and the target MultilinearMap (RingHom.id \u2102) both consist of the same function and additivity/scalar-linearity laws: the target scalar law uses (RingHom.id \u2102) c, which reduces to c. The quantified maps, submodules and finite-dimensional conclusion are therefore equivalent; no hypothesis is added.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0006-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsZsmulMemLattice",
+  "source_sha256": "8faf716976da13f88cba285462d0f0826c22e3d8d23301db12de20cf899d2532",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace the old Submodule.IsLattice assumption and its span_eq_top projection with Submodule.IsFullLattice. This preserves the original hypothesis in this number-field setting: the old class in Mathlib/Algebra/Module/Lattice.lean:70-74 requires exactly L.FG and span E L = top. The target IsFullLattice has these conditions plus linearIndepOn inherited from the new IsLattice. Since E is the fraction field of its ring of integers, target Submodule.IsLattice.of_fg (Mathlib/Algebra/Module/Lattice/Basic.lean:187-190) derives the extra condition from L.FG; conversely the target full lattice supplies both old fields. Thus the assumptions are equivalent here. The integer-multiple conclusion is unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0006-lean436-20261121/packet-result.json"
+}
