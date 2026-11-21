@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Definitions/Divisors/OrthSubrepresentation.lean
++++ b/src/Development/AbelianVarietyTheory/Definitions/Divisors/OrthSubrepresentation.lean
+@@ -265,7 +265,7 @@
+   intro h
+   have h1 := h ℂ (Representation.trivial ℂ ℤˣ ℂ) (by
+     rw [finsum_eq_sum_of_fintype]
+-    simp [UnitsInt.univ])
++    simp [UnitsInt.univ, Representation.trivial])
+   rw [finsum_eq_sum_of_fintype] at h1
+   have h2 := congrArg (fun F : ℂ →ₗ[ℂ] ℂ => F 1) h1
+   simp [UnitsInt.univ] at h2
