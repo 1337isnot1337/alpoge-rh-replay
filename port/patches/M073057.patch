@@ -1,0 +1,59 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/OneAddXMulDerivativeBin.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/OneAddXMulDerivativeBin.lean
+@@ -151,7 +151,7 @@ open PowerSeries in
+ variable {l : ℕ} [Fact l.Prime] (O : Type) [CommRing O] [Algebra ℤ_[l] O] in
+ variable {O} in
+ theorem _root_.GlobalTheory.CycFr.derivative_bin (c : ℤ_[l]) :
+-    derivative O (_root_.GlobalTheory.CycFr.bin O c) = C (algebraMap ℤ_[l] O c) * _root_.GlobalTheory.CycFr.bin O (c - 1) := by
++    derivative (R := O) (_root_.GlobalTheory.CycFr.bin O c) = C (algebraMap ℤ_[l] O c) * _root_.GlobalTheory.CycFr.bin O (c - 1) := by
+   ext n
+   have key : ((n : ℤ_[l]) + 1) * Ring.choose c (n + 1) = c * Ring.choose (c - 1) n := by
+     have h := Ring.choose_smul_choose c (n := n + 1) (k := 1) (by omega)
+@@ -174,7 +174,7 @@ open PowerSeries in
+ variable {l : ℕ} [Fact l.Prime] (O : Type) [CommRing O] [Algebra ℤ_[l] O] in
+ variable {O} in
+ theorem _root_.GlobalTheory.CycFr.one_add_X_mul_derivative_bin (c : ℤ_[l]) :
+-    (1 + X : O⟦X⟧) * derivative O (_root_.GlobalTheory.CycFr.bin O c) =
++    (1 + X : O⟦X⟧) * derivative (R := O) (_root_.GlobalTheory.CycFr.bin O c) =
+       C (algebraMap ℤ_[l] O c) * _root_.GlobalTheory.CycFr.bin O c := by
+   rw [_root_.GlobalTheory.CycFr.derivative_bin, mul_left_comm,
+     one_add_X_mul_bin_sub_one_eq_bin]
+@@ -186,13 +186,13 @@ variable {l : ℕ} [Fact l.Prime] (O : Type) [CommRing O] [Algebra ℤ_[l] O] in
+ variable {O} in
+ variable [IsDomain O] [CharZero O] in
+ private theorem eq_of_one_add_X_mul_derivative_eq_C_mul {F H : O⟦X⟧} (a : O)
+-    (hF : (1 + X) * derivative O F = C a * F) (hH : (1 + X) * derivative O H = C a * H)
++    (hF : (1 + X) * derivative (R := O) F = C a * F) (hH : (1 + X) * derivative (R := O) H = C a * H)
+     (h0 : constantCoeff F = constantCoeff H) : F = H := by
+-  have hD : (1 + X) * derivative O (F - H) = C a * (F - H) := by
++  have hD : (1 + X) * derivative (R := O) (F - H) = C a * (F - H) := by
+     rw [map_sub, mul_sub, mul_sub, hF, hH]
+   have hD0 : coeff 0 (F - H) = 0 := by
+     rw [coeff_zero_eq_constantCoeff_apply, map_sub, h0, sub_self]
+-  have key : ∀ n, coeff n (F - H) = 0 ∧ coeff n (derivative O (F - H)) = 0 := by
++  have key : ∀ n, coeff n (F - H) = 0 ∧ coeff n (derivative (R := O) (F - H)) = 0 := by
+     intro n
+     induction n with
+     | zero =>
+@@ -220,9 +220,9 @@ variable [IsDomain O] [CharZero O] in
+ theorem _root_.GlobalTheory.CycFr.act_bin (c d : ℤ_[l]) :
+     _root_.GlobalTheory.CycFr.act O c (_root_.GlobalTheory.CycFr.bin O d) =
+       _root_.GlobalTheory.CycFr.bin O (c * d) := by
+-  have hG : derivative O (_root_.GlobalTheory.CycFr.act O c (_root_.GlobalTheory.CycFr.bin O d)) =
+-      _root_.GlobalTheory.CycFr.act O c (derivative O (_root_.GlobalTheory.CycFr.bin O d)) *
+-        derivative O (_root_.GlobalTheory.CycFr.bin O c) := by
++  have hG : derivative (R := O) (_root_.GlobalTheory.CycFr.act O c (_root_.GlobalTheory.CycFr.bin O d)) =
++      _root_.GlobalTheory.CycFr.act O c (derivative (R := O) (_root_.GlobalTheory.CycFr.bin O d)) *
++        derivative (R := O) (_root_.GlobalTheory.CycFr.bin O c) := by
+     rw [_root_.GlobalTheory.CycFr.act_apply, _root_.GlobalTheory.CycFr.act_apply,
+       derivative_subst (_root_.GlobalTheory.CycFr.hasSubst_bin O c), map_sub,
+       Derivation.map_one_eq_zero, sub_zero]
+@@ -340,7 +340,7 @@ theorem _root_.GlobalTheory.CycFr.dvd_algHom_sub [IsNoetherianRing O] (f g : O
+     intro y
+     rw [isUnit_iff_constantCoeff]
+     simp
+-  have hH := IsHausdorff.of_le_jacobson (Ideal.span {(X : O⟦X⟧)}) (O⟦X⟧ ⧸ Ideal.span {h}) hX
++  have hH := IsHausdorff.of_le_jacobson (Ideal.span {(X : O⟦X⟧)}) (O⟦X⟧ ⧸ Ideal.span {h}) (hX.trans_eq Ideal.jacobson_bot)
+   have key : (Submodule.Quotient.mk (f a - g a) : O⟦X⟧ ⧸ Ideal.span {h}) = 0 := by
+     refine hH.haus _ fun n => ?_
+     rw [SModEq.zero]

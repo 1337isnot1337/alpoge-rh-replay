@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NotXPowSuccDvdDetOfFirstOrderKernelEqZero",
+  "source_sha256": "bcef1f57eff9bead4490a17f6daf49231c09df0e4a71e9f497a7a9fb38233180",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Polynomial.finset_sum_coeff` is now `Polynomial.finsetSum_coeff`."
+}

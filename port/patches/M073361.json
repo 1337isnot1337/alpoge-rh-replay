@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ProdOneSubBoundedBelowOfSummable",
+  "source_sha256": "259d3f28f67a8355a30279c871604fc5823fb3eac267e2bbccb77587ed4c70d3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Finset.prod_le_one` and `Finset.prod_le_prod` no longer take the nonnegativity hypothesis; use `Finset.prod_le_one₀` and `Finset.prod_le_prod₀`, which have the original arguments."
+}

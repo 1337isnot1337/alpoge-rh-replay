@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NormEvalLeSumNormCoeff",
+  "source_sha256": "c732318e816c3cbbcd51f58dc1b5249176dd232fa3296e324613c8354bbb2c95",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Statement change, equivalent: in `norm_eval_le_sum_norm_coeff`, `MvPolynomial.coeff d P` becomes `P.coeff d`. `MvPolynomial.coeff` no longer exists. At the pin it was defined as `⇑(AddMonoidAlgebra.coeff p) m`, which is exactly what `P.coeff d` (`AddMonoidAlgebra.coeff`) means on the target, and `MvPolynomial.support` is `p.coeff.support` in both versions. Also `Finset.prod_le_one` no longer takes the nonnegativity hypothesis; use `Finset.prod_le_one₀`, which has the original arguments."
+}
