@@ -1,0 +1,13 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapHaarEqOfLattice.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MapHaarEqOfLattice.lean
+@@ -16,8 +16,8 @@
+       measurable_smul_const := fun _ => measurable_from_top }
+   haveI : (Measure.map φ ν).IsHaarMeasure := MulEquiv.isHaarMeasure_map ν φ hφ hφ'
+   have hs := Measure.isMulLeftInvariant_eq_smul (Measure.map φ ν) ν
+-  have hq : Measure.QuasiMeasurePreserving φ ν ν :=
+-    ⟨hφ.measurable, by rw [hs]; exact Measure.AbsolutelyContinuous.rfl.smul_left _⟩
++  have hq : QuasiMeasurePreserving φ ν ν :=
++    ⟨hφ.aemeasurable, by rw [hs]; exact Measure.AbsolutelyContinuous.rfl.smul_left _⟩
+   let e : Λ → Λ := fun l => ⟨φ.symm l, hΛ' l l.2⟩
+   have he : Function.Bijective e := by
+     refine ⟨fun a b hab => ?_, fun b => ⟨⟨φ b, hΛ b b.2⟩, ?_⟩⟩

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LogConcaveMultiplicativeGrowthBound",
+  "source_sha256": "760cc165f23a05edb139d6f0b5a36b8942b8e7d8f507556054e6068e16668fc1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_lt_prod₀, the product comparison accepting positivity on the real factors."
+}
