@@ -170,6 +170,29 @@ class WorkerTests(unittest.TestCase):
         self.assertEqual(self.launch(fail_first), 1)
         self.assertEqual(self.gh.posts, [2])
 
+    def test_release_probe_failure_preserves_peer_submission(self):
+        failed, peer = 'M000001', 'M000002'
+        self.assignments.write_text(f'{failed} {peer}')
+        self.artifacts(failed, 1)
+        self.artifacts(peer, 2)
+        publish_peer = self.gh.publish_assets
+
+        def publish(number, target, files):
+            if target == failed:
+                return worker_github.GitHub.publish_assets(self.gh, number, target, files)
+            return publish_peer(number, target, files)
+
+        message = 'gh: Bad Gateway (HTTP 502)'
+        probe = subprocess.CompletedProcess([], 1, '', message)
+        with patch.object(self.gh, 'publish_assets', side_effect=publish), \
+                patch.object(subprocess, 'run', return_value=probe), \
+                contextlib.redirect_stderr(io.StringIO()):
+            self.assertEqual(self.launch(self.artifacts, jobs=2), 1)
+        tasks_state = json.loads((self.root / 'state/state.json').read_text())['tasks']
+        self.assertIn(message, tasks_state[failed]['error'])
+        self.assertEqual(tasks_state[peer]['submission'], 'https://example.test/issues/2#comment')
+        self.assertEqual(self.gh.posts, [2])
+
     def test_lost_races_are_not_failures(self):
         self.assignments.write_text('M000001 M000002 M000003')
         self.gh.issues[1] = dict(number=1, title='Claim M000002', state='open', body='', labels=[],
