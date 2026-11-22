@@ -27,8 +27,6 @@
 | [@UnityChaos](https://github.com/UnityChaos) | [M033588](https://github.com/rohanarun/alpoge-rh-replay/issues/27865) | Claimed |
 | [@UnityChaos](https://github.com/UnityChaos) | [M036751](https://github.com/rohanarun/alpoge-rh-replay/issues/27871) | Claimed |
 | [@UnityChaos](https://github.com/UnityChaos) | [M066520](https://github.com/rohanarun/alpoge-rh-replay/issues/27873) | Claimed |
-| [@JamCh01](https://github.com/JamCh01) | [P2638](https://github.com/rohanarun/alpoge-rh-replay/issues/27885) | Claimed |
-| [@t-choudhury](https://github.com/t-choudhury) | [M102209](https://github.com/rohanarun/alpoge-rh-replay/issues/27889) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P2643](https://github.com/rohanarun/alpoge-rh-replay/issues/27926) | Claimed |
 | [@user42245](https://github.com/user42245) | [M164829](https://github.com/rohanarun/alpoge-rh-replay/issues/27937) | Claimed |
 | [@user42245](https://github.com/user42245) | [M164026](https://github.com/rohanarun/alpoge-rh-replay/issues/27938) | Claimed |
+| [@user42245](https://github.com/user42245) | [M164834](https://github.com/rohanarun/alpoge-rh-replay/issues/27968) | Claimed |
