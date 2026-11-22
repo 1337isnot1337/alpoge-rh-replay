@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.MvPowerSeriesEvalOfPowMem",
+  "source_sha256": "4d335b2ed39bcf38c1114bd7ef688770cb16813db639ba0a6956c3dbe1c10088",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-m060808-lean436/receipt.json"
+}
