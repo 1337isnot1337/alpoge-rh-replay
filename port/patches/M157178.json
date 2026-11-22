@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TwistedNormLattice.PrXLeOfNf",
+  "source_sha256": "c338260afd6a535f93f5aa4b1e66f8fb0a4eec6e281eb4ef1649a50c34222c45",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0220-lean436-20261121/packet-result.json"
+}

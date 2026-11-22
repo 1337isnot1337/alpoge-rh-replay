@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.StabilizerVolume.UnfoldAbsAlt",
+  "source_sha256": "f242c0a82eb3d1d1328ca82fd0ca71aac04aed69333387f5917d3474e24c135d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current measurable nonnegative series theorem and negated-implication equivalence. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0220-lean436-20261121/packet-result.json"
+}
