@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.AbelianSchemeLaw.TrivialBiextension",
+  "source_sha256": "6dcda4e88a874b5c8ef21f8bb6400fde2b8db506d8f5eb6628be2eda86c6d438",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: prove the existing trivial bundle cover condition by the constant supremum identity with its updated implicit instance arguments. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0094-lean436-20261121/packet-result.json"
+}
