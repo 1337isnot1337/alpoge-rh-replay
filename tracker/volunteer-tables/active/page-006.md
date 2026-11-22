@@ -20,9 +20,4 @@
 | [@maugomez77](https://github.com/maugomez77) | [M116378](https://github.com/rohanarun/alpoge-rh-replay/issues/28207) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [M111760](https://github.com/rohanarun/alpoge-rh-replay/issues/28316) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [M113163](https://github.com/rohanarun/alpoge-rh-replay/issues/28725) | Claimed |
-| [@emsi](https://github.com/emsi) | [P2693](https://github.com/rohanarun/alpoge-rh-replay/issues/28742) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P2691](https://github.com/rohanarun/alpoge-rh-replay/issues/28868) | Claimed |
-| [@emsi](https://github.com/emsi) | [P2711](https://github.com/rohanarun/alpoge-rh-replay/issues/28877) | Claimed |
-| [@JamCh01](https://github.com/JamCh01) | [P2708](https://github.com/rohanarun/alpoge-rh-replay/issues/28914) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P2695](https://github.com/rohanarun/alpoge-rh-replay/issues/28915) | Claimed |
 | [@hipotures](https://github.com/hipotures) | [P2696](https://github.com/rohanarun/alpoge-rh-replay/issues/28936) | Claimed |
