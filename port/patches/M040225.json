@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LatticeDeformationMultiplication",
+  "source_sha256": "0d45d4e7a9974d58ee3c0bb5a24f85c692825e074aff4d4dc502a250c7a77426",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0183-lean436-20261121/packet-result.json"
+}

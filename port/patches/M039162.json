@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsUSplittingTrRep",
+  "source_sha256": "8ba1157ebde35d617c2852e2de00bb737a8ccb1b49fc3865501c28dc2e639cde",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0183-lean436-20261121/packet-result.json"
+}

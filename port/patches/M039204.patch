@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IsUnitOneAddPiOMul.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/IsUnitOneAddPiOMul.lean
+@@ -107,7 +107,7 @@
+   by_contra hn
+   obtain ⟨M, hM, hxM⟩ := Ideal.exists_le_maximal (Ideal.span {1 + algebraMap (intL L) (GlobalTheory.UTr.Alg P) (piO h) * a})
+     (by rwa [Ne, Ideal.span_singleton_eq_top])
+-  have hmax := Ideal.isMaximal_comap_of_isIntegral_of_isMaximal (R := intL L) M
++  have hmax := Ideal.isMaximal_under_of_isIntegral_of_isMaximal (R := intL L) M
+   have hϖ : algebraMap (intL L) (GlobalTheory.UTr.Alg P) (piO h) ∈ M := piO_mem_of_isMaximal h hmax
+   have h1 : 1 + algebraMap (intL L) (GlobalTheory.UTr.Alg P) (piO h) * a ∈ M := hxM (Ideal.mem_span_singleton_self _)
+   have : (1 : GlobalTheory.UTr.Alg P) ∈ M := by
