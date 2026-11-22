@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GaussJetBounds.GaussJetProofs.OneLetterRadiusIdentity",
+  "source_sha256": "32d01b4b931944f7d5368c336537a525390ddef2adabf5f26def3171b96ebca8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

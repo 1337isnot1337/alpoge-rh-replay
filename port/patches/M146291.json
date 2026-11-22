@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.FiniteSumSwap",
+  "source_sha256": "e21b866364c59fc47a84f135e8f581c8fa9870a0aea130727558cfa54e7d69da",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

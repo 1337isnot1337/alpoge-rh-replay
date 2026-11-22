@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GaussJetBounds.GaussJetProofs.Special",
+  "source_sha256": "390f2dffb8061a86501f13ca77c5393148029e55aa9de82c82b14ba4377c83a1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the same multivariate coefficient projection at the chosen exponent and evaluate the coefficient of zero."
+}

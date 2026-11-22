@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.AveragedVectorChoices",
+  "source_sha256": "e063aada19d4c76eb7dca79e89457122beee140c336e1ed2757ea23275acbe13",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

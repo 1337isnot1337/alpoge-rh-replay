@@ -1,0 +1,13 @@
+--- a/src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean
++++ b/src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean
+@@ -38,8 +38,8 @@
+     (Matrix.of fun r c => (MvPolynomial.monomial (E r c) (1 : R))).det ≠ 0 := by
+   classical
+   intro h
+-  have h2 := congrArg (MvPolynomial.coeff (∑ c, E c c)) h
+-  rw [Matrix.det_apply, MvPolynomial.coeff_sum, MvPolynomial.coeff_zero] at h2
++  have h2 := congrArg (fun p : MvPolynomial σ R => p.coeff (∑ c, E c c)) h
++  rw [Matrix.det_apply, MvPolynomial.coeff_sum, MvPolynomial.coeff_zero, Finsupp.zero_apply] at h2
+   simp only [Matrix.of_apply, ← MvPolynomial.monomial_sum_one] at h2
+   rw [Finset.sum_eq_single (1 : Equiv.Perm n)] at h2
+   · simp [MvPolynomial.coeff_monomial] at h2

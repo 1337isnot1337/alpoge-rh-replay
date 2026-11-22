@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GaussJetBounds.GaussJetProofs.SubstitutionWeightBound",
+  "source_sha256": "a1ceaa5d109e857c479171cab6b89a62b6b432962c816773cad81365629d9f48",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.AveragedKernelSums",
+  "source_sha256": "48f56ee9a0853663a8b8740caff57eb03336093f33f6e020bcbe2150fc5fc65b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

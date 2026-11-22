@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.FiniteClassesPositiveSums",
+  "source_sha256": "4eebbd384d4fe0452fb6afa4eef35f289ee331b72865d8c7407acad6f49e0165",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

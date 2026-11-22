@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GaussJetBounds.GaussJetProofs.ExistsNeZeroOfFinsumNeZero",
+  "source_sha256": "f1ad9c128f35faa1ee21726a3501904fd9782caf98c73f16e920bf7f44f58836",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
