@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.UnipotentAdelicQuotients.EllRegStep",
+  "source_sha256": "25380e5a6d9cbb0f43666e7809bb6fdd02c937201919b2c9bf877a841df55d4c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.UnipotentAdelicQuotients.EllipticRegularity.Moments",
+  "source_sha256": "1722cf00d98afba29838f882902c6e2224251f9553ced9589b303d7f841ec3c2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

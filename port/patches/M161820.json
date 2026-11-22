@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.UnipotentAdelicQuotients.EllipticRegularity.SmoothOfLocallySmooth",
+  "source_sha256": "efa371cb4758edfe1c39fce392bae486f0b132a3f9218cdff2d21d2e51cf032a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

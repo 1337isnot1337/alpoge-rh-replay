@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ThetaSupremumBounds.GaussianShiftBounds.Assembly",
+  "source_sha256": "8f4160cbf5a9217ab8985aa9c372c1e6187c0b5ced155e434983f19f5d115db7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

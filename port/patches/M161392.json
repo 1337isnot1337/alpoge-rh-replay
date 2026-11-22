@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.TameInertiaTowers.CentralOrderTwo.Galois",
+  "source_sha256": "377f906abe8093cd62f6006b1d9398902223a237786b69e5deedaf1d32bf5fd6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

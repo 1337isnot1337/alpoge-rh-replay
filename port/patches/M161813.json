@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDecay",
+  "source_sha256": "fd5811f9c908c8ad775f3f50bc7609c634c51b3e368b3dbb1b3eda8e7c9f1ebc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

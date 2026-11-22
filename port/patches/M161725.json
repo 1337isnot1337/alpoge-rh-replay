@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ThetaSupremumBounds.StatementE",
+  "source_sha256": "e148fd9b0489e872dc44e26f53408a6ddecb6d4b25b84c6b20933a8515beda82",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

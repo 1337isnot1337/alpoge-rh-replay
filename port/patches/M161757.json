@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.TruncatedSeriesCounting.AprimeArith",
+  "source_sha256": "42e89b092e80fcbc2fd757c21c93d8b7cba651887b5201f7b7f05c2326f4254e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

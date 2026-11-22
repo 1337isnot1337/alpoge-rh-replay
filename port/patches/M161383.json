@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MeasureEqCovolumeMulVolumeImage",
+  "source_sha256": "5aec38b928a0846eccb5202ce9658be9c365313d2a76c8a5beb9e6bdfe4deb1a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the continuous linear equivalence's LipschitzWith bound."
+}

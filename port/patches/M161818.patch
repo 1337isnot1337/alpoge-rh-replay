@@ -1,0 +1,17 @@
+--- a/src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/PairingFourier.lean
++++ b/src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/PairingFourier.lean
+@@ -50,9 +50,11 @@
+     have hprod : Integrable (fun p : E d × E d => g p.1 * 𝓕 k p.2) (volume.prod volume) := by
+       exact hg.mul_prod hK
+     refine hprod.mono ?_ (Filter.Eventually.of_forall fun p => le_of_eq ?_)
+-    · first
+-      | exact hg.1.fst.mul (hcχ.aestronglyMeasurable.mul hK.1.snd)
+-      | exact hg.1.comp_fst.mul (hcχ.aestronglyMeasurable.mul hK.1.comp_snd)
++    · have hg' : AEStronglyMeasurable (fun p : E d × E d => g p.1) (volume.prod volume) :=
++        hg.aestronglyMeasurable.comp_fst
++      have hK' : AEStronglyMeasurable (fun p : E d × E d => 𝓕 k p.2) (volume.prod volume) :=
++        hK.aestronglyMeasurable.comp_snd
++      exact hg'.mul (hcχ.aestronglyMeasurable.mul hK')
+     · try dsimp only
+       rw [norm_mul, norm_mul, norm_mul, norm_eF_eq_one, one_mul]
+   calc ∫ y, g y * k y = ∫ y, ∫ η, g y * (eF (-η) y * 𝓕 k η) := by

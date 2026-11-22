@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDil",
+  "source_sha256": "cba0caa57633da5561040a6129e7ef8946a502916910c258a79381b35ebfe89f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

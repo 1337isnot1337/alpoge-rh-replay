@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.AtypicalWeightBoundOf",
+  "source_sha256": "aa886ade8d33367a3b8d3f3ffc83ada64d21c5f9746800257c014ee0675452d3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove filter equality steps closed by congruence."
+}

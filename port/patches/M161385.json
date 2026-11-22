@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MinkowskiIILowerOf",
+  "source_sha256": "56e35c2b02c48b878a657cf2d3abe4c0b2223683b7b433584d6f53b0e2e9b07d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

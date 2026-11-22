@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.UnipotentAdelicQuotients.EllipticRegularity.ConvolutionBound",
+  "source_sha256": "4cf111309428e1381227eb91cc1f388a94c4706b7dddeb198b9512eb1a2cccb2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

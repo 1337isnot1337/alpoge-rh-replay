@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LogWeylDimensionEstimate",
+  "source_sha256": "fa30bdc9b2ffe09e67939126a34e7976f829505e59282a59784ce3430e4c6991",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

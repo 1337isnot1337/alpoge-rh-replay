@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.HomRelationHolds",
+  "source_sha256": "19cfdca9473f9513603d05f2e55f690cef2f24e9d38bd8c6268c227827fe8c99",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

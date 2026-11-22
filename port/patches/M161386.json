@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NPUnit",
+  "source_sha256": "f572b719e90b06af6be782dadf5217864ab851f31b87ea8994010f038fc9ce2c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

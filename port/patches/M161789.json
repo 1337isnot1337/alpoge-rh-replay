@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.SubSmulOneInjective",
+  "source_sha256": "d23e256f284e2b6513eea968f0318dbe53a1e99fb8292c8f55a9a828a8198e87",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.HeckeOneLift",
+  "source_sha256": "ea7632aad0939c7668f9b7a43ec14cc5745091bffa90c2cc9a8c81cbe8536fe1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

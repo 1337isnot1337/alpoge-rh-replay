@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.UnipotentAdelicQuotients.EllipticRegularity.IteratedPartialFourierChar",
+  "source_sha256": "41f4175509327eb3556f000fe75b7733339c5513f5e47a48d0eb989727ebda57",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

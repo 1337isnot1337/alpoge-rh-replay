@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.TruncatedSeriesCounting.WindowSeparated",
+  "source_sha256": "b7153fcdeb662f4db510149ba4f81350f321000083af6124bd164d2ad8cf9c34",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

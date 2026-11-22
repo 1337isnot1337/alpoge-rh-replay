@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.InvInt",
+  "source_sha256": "85ff8f703f6365b10ec15a11bdda939efb157034a7f780cdc9c28c2e8f3ee63f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
