@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/AdelicProofs/SchurTranslationsCharacters.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/AdelicProofs/SchurTranslationsCharacters.lean
+@@ -179,7 +179,7 @@
+   funext x
+   set φ₁ : V → ℂ := fun u => φ₀ (u + -x) with hφ₁
+   have hφ₁SB : SB φ₁ :=
+-    ⟨hφ₀SB.1.comp_continuous (continuous_add_right _),
++    ⟨hφ₀SB.1.comp_continuous (continuous_id.add_const (-x)),
+       hφ₀SB.2.comp_homeomorph (Homeomorph.addRight (-x))⟩
+   have hψ := sb_add hφ (sb_smul (-φ x) hφ₁SB)
+   have hz : (φ + (-φ x) • φ₁) x = 0 := by
