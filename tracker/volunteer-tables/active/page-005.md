@@ -165,8 +165,6 @@
 | [@mabdelazim](https://github.com/mabdelazim) | [M062140](https://github.com/rohanarun/alpoge-rh-replay/issues/22254) | Claimed |
 | [@mabdelazim](https://github.com/mabdelazim) | [M062151](https://github.com/rohanarun/alpoge-rh-replay/issues/22327) | Claimed |
 | [@mabdelazim](https://github.com/mabdelazim) | [M062155](https://github.com/rohanarun/alpoge-rh-replay/issues/22332) | Claimed |
-| [@rahulsundar477-star](https://github.com/rahulsundar477-star) | [P2725](https://github.com/rohanarun/alpoge-rh-replay/issues/22562) | Claimed |
-| [@rahulsundar477-star](https://github.com/rahulsundar477-star) | [P2445](https://github.com/rohanarun/alpoge-rh-replay/issues/23207) | Claimed |
 | [@RhizoNymph](https://github.com/RhizoNymph) | [P2583](https://github.com/rohanarun/alpoge-rh-replay/issues/24993) | Claimed |
 | [@RhizoNymph](https://github.com/RhizoNymph) | [P2748](https://github.com/rohanarun/alpoge-rh-replay/issues/25103) | Claimed |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M063130](https://github.com/rohanarun/alpoge-rh-replay/issues/25879) | Claimed |
@@ -195,8 +193,7 @@
 | [@user42245](https://github.com/user42245) | [M168805](https://github.com/rohanarun/alpoge-rh-replay/issues/28987) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M154515](https://github.com/rohanarun/alpoge-rh-replay/issues/30000) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M126615](https://github.com/rohanarun/alpoge-rh-replay/issues/30041) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P2739](https://github.com/rohanarun/alpoge-rh-replay/issues/30109) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P2728](https://github.com/rohanarun/alpoge-rh-replay/issues/30128) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2741](https://github.com/rohanarun/alpoge-rh-replay/issues/30161) | Claimed |
-| [@t-choudhury](https://github.com/t-choudhury) | [M153025](https://github.com/rohanarun/alpoge-rh-replay/issues/30162) | Claimed |
 | [@t-choudhury](https://github.com/t-choudhury) | [M039712](https://github.com/rohanarun/alpoge-rh-replay/issues/30164) | Claimed |
+| [@hipotures](https://github.com/hipotures) | [P2745](https://github.com/rohanarun/alpoge-rh-replay/issues/30166) | Claimed |
+| [@JamCh01](https://github.com/JamCh01) | [P2761](https://github.com/rohanarun/alpoge-rh-replay/issues/30202) | Claimed |
