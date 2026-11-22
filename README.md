@@ -223,4 +223,6 @@ The original replay tooling and documentation in this repository are available u
 
 If you use a replay result, please credit the people who produced that replay and link to its exact record in the [upstream replay project](https://github.com/rohanarun/alpoge-rh-replay). Please cite [Levent Alpöge’s original announcement](https://alpo.ge/remark.pdf) when discussing the proof release.
 
+Please also cite [itsdavis.com](https://itsdavis.com/) when covering Cinna Davis’s work. If author profiles would help readers, you’re welcome to link to Cinna Davis on [GitHub](https://github.com/1337isnot1337) and [X (Twitter)](https://x.com/1337isnot1337).
+
 </details>
