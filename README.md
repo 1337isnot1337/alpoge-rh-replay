@@ -37,17 +37,14 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 
 <!-- active-volunteers-start -->
 
-[1,270 entries. View the full table](tracker/volunteer-tables/active/README.md).
+[1,272 entries. View the full table](tracker/volunteer-tables/active/README.md).
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@loremcdmx](https://github.com/loremcdmx) | [M034703](https://github.com/rohanarun/alpoge-rh-replay/issues/26994) | Claimed |
-| [@loremcdmx](https://github.com/loremcdmx) | [M036491](https://github.com/rohanarun/alpoge-rh-replay/issues/27042) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [M079838](https://github.com/rohanarun/alpoge-rh-replay/issues/27043) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [M140261](https://github.com/rohanarun/alpoge-rh-replay/issues/27044) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [P2600](https://github.com/rohanarun/alpoge-rh-replay/issues/27248) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [M118430](https://github.com/rohanarun/alpoge-rh-replay/issues/27317) | Claimed |
-| [@maugomez77](https://github.com/maugomez77) | [M155317](https://github.com/rohanarun/alpoge-rh-replay/issues/27399) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [M174913](https://github.com/rohanarun/alpoge-rh-replay/issues/27448) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [M166809](https://github.com/rohanarun/alpoge-rh-replay/issues/27563) | Claimed |
 | [@CubeJerry](https://github.com/CubeJerry) | [P2646](https://github.com/rohanarun/alpoge-rh-replay/issues/28062) | Claimed |
@@ -61,6 +58,9 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 | [@emsi](https://github.com/emsi) | [P2693](https://github.com/rohanarun/alpoge-rh-replay/issues/28742) | Claimed |
 | [@hipotures](https://github.com/hipotures) | [P2691](https://github.com/rohanarun/alpoge-rh-replay/issues/28868) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2711](https://github.com/rohanarun/alpoge-rh-replay/issues/28877) | Claimed |
+| [@JamCh01](https://github.com/JamCh01) | [P2708](https://github.com/rohanarun/alpoge-rh-replay/issues/28914) | Claimed |
+| [@hipotures](https://github.com/hipotures) | [P2695](https://github.com/rohanarun/alpoge-rh-replay/issues/28915) | Claimed |
+| [@hipotures](https://github.com/hipotures) | [P2696](https://github.com/rohanarun/alpoge-rh-replay/issues/28936) | Claimed |
 
 <!-- active-volunteers-end -->
 
@@ -71,30 +71,30 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 
 <!-- pending-volunteers-start -->
 
-[6,162 entries. View the full table](tracker/volunteer-tables/pending/README.md).
+[6,164 entries. View the full table](tracker/volunteer-tables/pending/README.md).
 
 | Contributor | Task | Review |
 |---|---|---|
-| [@UnityChaos](https://github.com/UnityChaos) | [M015479](https://github.com/rohanarun/alpoge-rh-replay/issues/28812#issuecomment-7073009088) | Pending review |
-| [@UnityChaos](https://github.com/UnityChaos) | [M163705](https://github.com/rohanarun/alpoge-rh-replay/issues/28813#issuecomment-7073027225) | Pending review |
-| [@UnityChaos](https://github.com/UnityChaos) | [M046454](https://github.com/rohanarun/alpoge-rh-replay/issues/28814#issuecomment-7073029227) | Pending review |
-| [@UnityChaos](https://github.com/UnityChaos) | [M036715](https://github.com/rohanarun/alpoge-rh-replay/issues/28815#issuecomment-7073030291) | Pending review |
-| [@UnityChaos](https://github.com/UnityChaos) | [M068763](https://github.com/rohanarun/alpoge-rh-replay/issues/28816#issuecomment-7073031155) | Pending review |
-| [@UnityChaos](https://github.com/UnityChaos) | [M072615](https://github.com/rohanarun/alpoge-rh-replay/issues/28817#issuecomment-7073031969) | Pending review |
-| [@UnityChaos](https://github.com/UnityChaos) | [M082093](https://github.com/rohanarun/alpoge-rh-replay/issues/28818#issuecomment-7073033124) | Pending review |
-| [@UnityChaos](https://github.com/UnityChaos) | [M077791](https://github.com/rohanarun/alpoge-rh-replay/issues/28819#issuecomment-7073010251) | Pending review |
-| [@1337isnot1337](https://github.com/1337isnot1337) | [M105790](https://github.com/rohanarun/alpoge-rh-replay/issues/28820#issuecomment-7073025704) | Pending review |
-| [@jdenwood](https://github.com/jdenwood) | [M136001](https://github.com/rohanarun/alpoge-rh-replay/issues/28821#issuecomment-7073004588) | Pending review |
-| [@jdenwood](https://github.com/jdenwood) | [M135999](https://github.com/rohanarun/alpoge-rh-replay/issues/28822#issuecomment-7073005598) | Pending review |
-| [@user42245](https://github.com/user42245) | [M078771](https://github.com/rohanarun/alpoge-rh-replay/issues/28852#issuecomment-7073014813) | Pending review |
-| [@user42245](https://github.com/user42245) | [M164282](https://github.com/rohanarun/alpoge-rh-replay/issues/28853#issuecomment-7073020722) | Pending review |
-| [@user42245](https://github.com/user42245) | [M164452](https://github.com/rohanarun/alpoge-rh-replay/issues/28854#issuecomment-7073027072) | Pending review |
-| [@1337isnot1337](https://github.com/1337isnot1337) | [M062052](https://github.com/rohanarun/alpoge-rh-replay/issues/28863#issuecomment-7073032571) | Pending review |
-| [@1337isnot1337](https://github.com/1337isnot1337) | [M162223](https://github.com/rohanarun/alpoge-rh-replay/issues/28873#issuecomment-7073069850) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M135442](https://github.com/rohanarun/alpoge-rh-replay/issues/28875#issuecomment-7073043995) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M135990](https://github.com/rohanarun/alpoge-rh-replay/issues/28876#issuecomment-7073045037) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M002787](https://github.com/rohanarun/alpoge-rh-replay/issues/28878#issuecomment-7073047824) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M017926](https://github.com/rohanarun/alpoge-rh-replay/issues/28879#issuecomment-7073048754) | Pending review |
+| [@1337isnot1337](https://github.com/1337isnot1337) | [M062747](https://github.com/rohanarun/alpoge-rh-replay/issues/28880#issuecomment-7073113071) | Pending review |
+| [@1337isnot1337](https://github.com/1337isnot1337) | [M105788](https://github.com/rohanarun/alpoge-rh-replay/issues/28881#issuecomment-7073130092) | Pending review |
+| [@user42245](https://github.com/user42245) | [M164259](https://github.com/rohanarun/alpoge-rh-replay/issues/28882#issuecomment-7073105929) | Pending review |
+| [@user42245](https://github.com/user42245) | [M163814](https://github.com/rohanarun/alpoge-rh-replay/issues/28912#issuecomment-7073126270) | Pending review |
+| [@user42245](https://github.com/user42245) | [M168807](https://github.com/rohanarun/alpoge-rh-replay/issues/28913#issuecomment-7073133497) | Pending review |
+| [@UnityChaos](https://github.com/UnityChaos) | [M148114](https://github.com/rohanarun/alpoge-rh-replay/issues/28917#issuecomment-7073133072) | Pending review |
+| [@UnityChaos](https://github.com/UnityChaos) | [M068948](https://github.com/rohanarun/alpoge-rh-replay/issues/28918#issuecomment-7073127200) | Pending review |
+| [@UnityChaos](https://github.com/UnityChaos) | [M140146](https://github.com/rohanarun/alpoge-rh-replay/issues/28919#issuecomment-7073131701) | Pending review |
+| [@UnityChaos](https://github.com/UnityChaos) | [M071065](https://github.com/rohanarun/alpoge-rh-replay/issues/28920#issuecomment-7073146884) | Pending review |
+| [@UnityChaos](https://github.com/UnityChaos) | [M015547](https://github.com/rohanarun/alpoge-rh-replay/issues/28921#issuecomment-7073145470) | Pending review |
+| [@UnityChaos](https://github.com/UnityChaos) | [M077591](https://github.com/rohanarun/alpoge-rh-replay/issues/28923#issuecomment-7073144058) | Pending review |
+| [@jdenwood](https://github.com/jdenwood) | [M136050](https://github.com/rohanarun/alpoge-rh-replay/issues/28929#issuecomment-7073128071) | Pending review |
+| [@jdenwood](https://github.com/jdenwood) | [M136068](https://github.com/rohanarun/alpoge-rh-replay/issues/28930#issuecomment-7073116381) | Pending review |
+| [@f10etclawdbot](https://github.com/f10etclawdbot) | [M157230](https://github.com/rohanarun/alpoge-rh-replay/issues/28931#issuecomment-7073134871) | Pending review |
+| [@1337isnot1337](https://github.com/1337isnot1337) | [M061466](https://github.com/rohanarun/alpoge-rh-replay/issues/28933#issuecomment-7073138842) | Pending review |
+| [@1337isnot1337](https://github.com/1337isnot1337) | [M162220](https://github.com/rohanarun/alpoge-rh-replay/issues/28934#issuecomment-7073136128) | Pending review |
 
 <!-- pending-volunteers-end -->
 
@@ -105,30 +105,30 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 
 <!-- volunteers-start -->
 
-[14,452 entries. View the full table](tracker/volunteer-tables/reviewed/README.md).
+[14,467 entries. View the full table](tracker/volunteer-tables/reviewed/README.md).
 
 | Contributor | Task | Modules | Review |
 |---|---|---:|---|
-| [@dga471](https://github.com/dga471) | [M169405](https://github.com/rohanarun/alpoge-rh-replay/issues/18287#issuecomment-7060281499) | 1 | [Build evidence verified](evidence/volunteers/M169405.json) |
-| [@dga471](https://github.com/dga471) | [M169406](https://github.com/rohanarun/alpoge-rh-replay/issues/18288#issuecomment-7060282917) | 1 | [Build evidence verified](evidence/volunteers/M169406.json) |
-| [@gilad12-coder](https://github.com/gilad12-coder) | [M040417](https://github.com/rohanarun/alpoge-rh-replay/issues/18289#issuecomment-7060210630) | 1 | [Build evidence verified](evidence/volunteers/M040417.json) |
-| [@hipotures](https://github.com/hipotures) | [P2662](https://github.com/rohanarun/alpoge-rh-replay/issues/28255#issuecomment-7072226422) | 64 | [Build evidence verified](evidence/volunteers/P2662.json) |
-| [@hipotures](https://github.com/hipotures) | [P2663](https://github.com/rohanarun/alpoge-rh-replay/issues/28262#issuecomment-7072380029) | 64 | [Build evidence verified](evidence/volunteers/P2663.json) |
-| [@JamCh01](https://github.com/JamCh01) | [P2672](https://github.com/rohanarun/alpoge-rh-replay/issues/28299#issuecomment-7072392197) | 64 | [Build evidence verified](evidence/volunteers/P2672.json) |
-| [@JamCh01](https://github.com/JamCh01) | [P2665](https://github.com/rohanarun/alpoge-rh-replay/issues/28199#issuecomment-7072142407) | 64 | [Build evidence verified](evidence/volunteers/P2665.json) |
-| [@hipotures](https://github.com/hipotures) | [P2660](https://github.com/rohanarun/alpoge-rh-replay/issues/28175#issuecomment-7072104188) | 64 | [Build evidence verified](evidence/volunteers/P2660.json) |
-| [@hipotures](https://github.com/hipotures) | [P2661](https://github.com/rohanarun/alpoge-rh-replay/issues/28187#issuecomment-7072169819) | 60 | [Build evidence verified](evidence/volunteers/P2661.json) |
-| [@hipotures](https://github.com/hipotures) | [P2659](https://github.com/rohanarun/alpoge-rh-replay/issues/28142#issuecomment-7072065662) | 64 | [Build evidence verified](evidence/volunteers/P2659.json) |
-| [@hipotures](https://github.com/hipotures) | [P2654](https://github.com/rohanarun/alpoge-rh-replay/issues/28133#issuecomment-7071894182) | 64 | [Build evidence verified](evidence/volunteers/P2654.json) |
-| [@JamCh01](https://github.com/JamCh01) | [P2658](https://github.com/rohanarun/alpoge-rh-replay/issues/28087#issuecomment-7071973150) | 64 | [Build evidence verified](evidence/volunteers/P2658.json) |
-| [@hipotures](https://github.com/hipotures) | [P2653](https://github.com/rohanarun/alpoge-rh-replay/issues/28084#issuecomment-7071846379) | 32 | [Build evidence verified](evidence/volunteers/P2653.json) |
-| [@hipotures](https://github.com/hipotures) | [P2652](https://github.com/rohanarun/alpoge-rh-replay/issues/28079#issuecomment-7071824604) | 64 | [Build evidence verified](evidence/volunteers/P2652.json) |
-| [@hipotures](https://github.com/hipotures) | [P2645](https://github.com/rohanarun/alpoge-rh-replay/issues/28030#issuecomment-7071762055) | 64 | [Build evidence verified](evidence/volunteers/P2645.json) |
 | [@emsi](https://github.com/emsi) | [P2675](https://github.com/rohanarun/alpoge-rh-replay/issues/28022#issuecomment-7072174882) | 5 | [Build evidence verified](evidence/volunteers/P2675.json) |
 | [@hipotures](https://github.com/hipotures) | [P2644](https://github.com/rohanarun/alpoge-rh-replay/issues/27969#issuecomment-7071697406) | 61 | [Build evidence verified](evidence/volunteers/P2644.json) |
 | [@hipotures](https://github.com/hipotures) | [P2643](https://github.com/rohanarun/alpoge-rh-replay/issues/27926#issuecomment-7071670220) | 64 | [Build evidence verified](evidence/volunteers/P2643.json) |
 | [@JamCh01](https://github.com/JamCh01) | [P2638](https://github.com/rohanarun/alpoge-rh-replay/issues/27885#issuecomment-7071662973) | 64 | [Build evidence verified](evidence/volunteers/P2638.json) |
 | [@UnityChaos](https://github.com/UnityChaos) | [P2410](https://github.com/rohanarun/alpoge-rh-replay/issues/26207#issuecomment-7072273489) | 64 | [Build evidence verified](evidence/volunteers/P2410.json) |
+| [@JamCh01](https://github.com/JamCh01) | [P2684](https://github.com/rohanarun/alpoge-rh-replay/issues/28758#issuecomment-7073017181) | 64 | [Build evidence verified](evidence/volunteers/P2684.json) |
+| [@hipotures](https://github.com/hipotures) | [P2690](https://github.com/rohanarun/alpoge-rh-replay/issues/28808#issuecomment-7073062058) | 64 | [Build evidence verified](evidence/volunteers/P2690.json) |
+| [@hipotures](https://github.com/hipotures) | [P2678](https://github.com/rohanarun/alpoge-rh-replay/issues/28595#issuecomment-7072896443) | 64 | [Build evidence verified](evidence/volunteers/P2678.json) |
+| [@hipotures](https://github.com/hipotures) | [P2683](https://github.com/rohanarun/alpoge-rh-replay/issues/28755#issuecomment-7072967521) | 64 | [Build evidence verified](evidence/volunteers/P2683.json) |
+| [@hipotures](https://github.com/hipotures) | [P2674](https://github.com/rohanarun/alpoge-rh-replay/issues/28584#issuecomment-7072837627) | 64 | [Build evidence verified](evidence/volunteers/P2674.json) |
+| [@emsi](https://github.com/emsi) | [P2700](https://github.com/rohanarun/alpoge-rh-replay/issues/28582#issuecomment-7072980128) | 64 | [Build evidence verified](evidence/volunteers/P2700.json) |
+| [@JamCh01](https://github.com/JamCh01) | [P2686](https://github.com/rohanarun/alpoge-rh-replay/issues/28576#issuecomment-7072802859) | 64 | [Build evidence verified](evidence/volunteers/P2686.json) |
+| [@JamCh01](https://github.com/JamCh01) | [P2679](https://github.com/rohanarun/alpoge-rh-replay/issues/28442#issuecomment-7072609617) | 64 | [Build evidence verified](evidence/volunteers/P2679.json) |
+| [@hipotures](https://github.com/hipotures) | [P2671](https://github.com/rohanarun/alpoge-rh-replay/issues/28474#issuecomment-7072790276) | 64 | [Build evidence verified](evidence/volunteers/P2671.json) |
+| [@hipotures](https://github.com/hipotures) | [P2670](https://github.com/rohanarun/alpoge-rh-replay/issues/28433#issuecomment-7072657917) | 64 | [Build evidence verified](evidence/volunteers/P2670.json) |
+| [@hipotures](https://github.com/hipotures) | [P2687](https://github.com/rohanarun/alpoge-rh-replay/issues/28766#issuecomment-7073016707) | 64 | [Build evidence verified](evidence/volunteers/P2687.json) |
+| [@hipotures](https://github.com/hipotures) | [P2664](https://github.com/rohanarun/alpoge-rh-replay/issues/28305#issuecomment-7072507223) | 64 | [Build evidence verified](evidence/volunteers/P2664.json) |
+| [@hipotures](https://github.com/hipotures) | [P2667](https://github.com/rohanarun/alpoge-rh-replay/issues/28329#issuecomment-7072624030) | 64 | [Build evidence verified](evidence/volunteers/P2667.json) |
+| [@emsi](https://github.com/emsi) | [P2721](https://github.com/rohanarun/alpoge-rh-replay/issues/28387#issuecomment-7072726269) | 64 | [Build evidence verified](evidence/volunteers/P2721.json) |
+| [@emsi](https://github.com/emsi) | [P2698](https://github.com/rohanarun/alpoge-rh-replay/issues/28304#issuecomment-7072588891) | 64 | [Build evidence verified](evidence/volunteers/P2698.json) |
 
 <!-- volunteers-end -->
 
@@ -144,9 +144,9 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 | Pilot proof object reused | 150 |
 | Pilot downstream module kernel-checked | 1 |
 | Distributed proof object reused | 16,970 |
-| Volunteer build evidence reviewed | 59,033 |
+| Volunteer build evidence reviewed | 59,993 |
 | Worker target kernel replay reviewed | 72 |
-| **Total with recorded module evidence** | **102,817 / 175,187** |
+| **Total with recorded module evidence** | **103,777 / 175,187** |
 
 [See each completed part and its evidence](completed/README.md) · [Machine-readable ledger](tracker/completed.tsv)
 

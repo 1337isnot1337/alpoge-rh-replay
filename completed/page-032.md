@@ -352,6 +352,7 @@
 | M023373 | P2478 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineChartThetaSystemUnitaryModelStatement` | volunteer-build-reviewed |
 | M023374 | P0297 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineCombinationSquareZeroLiftsChart` | volunteer-build-reviewed |
 | M023375 | P0349 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineCombinationSquareZeroLiftsChartStatement` | volunteer-build-reviewed |
+| M023377 | P2721 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineCoverByPolarizationPowerSectionsStatement` | volunteer-build-reviewed |
 | M023378 | P1940 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineCoverWithDualNumberDerivations` | volunteer-build-reviewed |
 | M023381 | P2392 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineEigenFrameLocalStatement` | volunteer-build-reviewed |
 | M023382 | P1883 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAffineEtaleCoordinatesGenericPoint` | volunteer-build-reviewed |
@@ -401,4 +402,3 @@
 | M023470 | P2053 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAlgebraicNumbersExtensionCurveFieldConjLat` | volunteer-build-reviewed |
 | M023471 | P2068 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAlgebraicNumbersExtensionCurveFieldConjLatStatement` | volunteer-build-reviewed |
 | M023474 | P2421 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAlgebraicPointSpecializing` | volunteer-build-reviewed |
-| M023475 | P2449 | `Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAlgebraicPointSpecializingStatement` | volunteer-build-reviewed |
