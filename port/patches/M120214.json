@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.FrobeniusChainCarry",
+  "source_sha256": "f79a8b57ff68b3e82b2fef3d98fdacd97b5ba16c179e8feb4012d17777e3659b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0137-lean436-20261121-r2/packet-result.json"
+}

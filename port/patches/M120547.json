@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.ProductInequalitiesForceEquality",
+  "source_sha256": "3ac5334a14cf560071672aeb8e9c627147d8b96e68ca5fffb60bd5b7d3b9fe6d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0137-lean436-20261121-r2/packet-result.json"
+}
