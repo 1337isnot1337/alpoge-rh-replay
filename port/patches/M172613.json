@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterOsgood",
+  "source_sha256": "2c2f66c1f0c13bb0a81d9269feea0c58d8c1defbe0566f939daf6014bc2a40da",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

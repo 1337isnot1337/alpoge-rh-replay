@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArakelovVolumes.UpperBounds.SCoordStatementPfD",
+  "source_sha256": "15d112fb61a95614ae2c2b2cd3b2a2ee90874c66b276f23beca461d6c9d45bf0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

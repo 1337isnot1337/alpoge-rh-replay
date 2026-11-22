@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.OrthogonalProjectorMulEmbeddingColumns",
+  "source_sha256": "1f0a858408abc231781557f18f97369000195047c9ed52c5e9b8159332a088f0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the renamed equivalence for linear independence after adjoining the first vector."
+}

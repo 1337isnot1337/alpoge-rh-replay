@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.GaussHeights.PlaceSumHeights.PlaceSumStatements.PlaceSumLemmas.GaussValuationSums.GaussMaximalIdeal",
+  "source_sha256": "39ea02800542ec66c53a069644639d973e0fc40ab7faa1770c9bee3d5d15e3bf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the current one-based TFAE indices for discrete valuation rings and principal maximal ideals."
+}

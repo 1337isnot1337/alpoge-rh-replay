@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.Rationality.GlobQuotH",
+  "source_sha256": "99b8d214f83cd5c1541379629954b3f073225154d835802f247bbf030f370f29",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the logarithm form of the finite-place norm, the renamed finite-support lemma, and the product comparison for nonnegative real factors."
+}

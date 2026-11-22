@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FirstCohomology.IntegralRingEmbedding",
+  "source_sha256": "7eda72476e01ad6114aaae705fe76d418d6bd0fc14f339d88a74e3bf419228d2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

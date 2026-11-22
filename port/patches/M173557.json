@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.Biextensions.CubicalExtendsSt",
+  "source_sha256": "922e65011b42f3285b64a9d810d4d894b35a87e6cedd8e915ef3b2306bea0447",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Spells out the singleton set in the ideal span; the principal ideal and proposition are definitionally unchanged."
+}

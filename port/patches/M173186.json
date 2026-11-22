@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.DiscreteValuationPoint",
+  "source_sha256": "024885ded304ea53ca49530d6177c8f692c74a28d279e54d01cecf821e4fba27",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Supply the integral algebra map explicitly for maximal-ideal contraction and use its localization map-under lemma."
+}

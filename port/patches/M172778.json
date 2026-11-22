@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.DiscreteValuationRings.LBTransport",
+  "source_sha256": "82c055a1890f6d3c19549ed706a1ffe918237fff4ddb12b209042ef78150232b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the current Finsupp finite-sum evaluation and domain-map lemmas."
+}

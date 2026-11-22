@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.WeakHolomorphy.RegConv",
+  "source_sha256": "0bc97634c9dfd5ae1974943e2066fb10342daaa8740a647df95ca456875d4b31",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.WeakHolomorphy.ExtCutB",
+  "source_sha256": "ffcb3ff69857bd92652d65ac04413536f270d31e8e86fc5b938416cdb9b98201",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.PositiveMinorUnits",
+  "source_sha256": "d4b33b92a77b399edc0e3965df05c825d29fba874642cb5d4062dfe5d51bdb87",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

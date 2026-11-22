@@ -1,0 +1,12 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/ValPlRes.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/ValPlRes.lean
+@@ -146,7 +146,8 @@
+   let jO : (O ⧸ maximalIdeal O) ≃+* ResidueField ((vRing w).comap (algebraMap F L)) :=
+     (Ideal.quotEquivOfEq hkerO.symm).trans (RingHom.quotientKerEquivOfSurjective hsurjO)
+   have hmax : (v.asIdeal.comap (algebraMap O (integralClosure O L))).IsMaximal :=
+-    Ideal.isMaximal_comap_of_isIntegral_of_isMaximal v.asIdeal
++    Ideal.isMaximal_comap_of_isIntegral_of_isMaximal (algebraMap O (integralClosure O L))
++      Algebra.IsIntegral.isIntegral v.asIdeal
+   haveI : v.asIdeal.LiesOver (maximalIdeal O) := ⟨(IsLocalRing.eq_maximalIdeal hmax).symm⟩
+   have hc : (algebraMap (ResidueField ((vRing w).comap (algebraMap F L)))
+       (ResidueField (vRing w))).comp jO.toRingHom =

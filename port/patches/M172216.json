@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.WeakHolomorphy.MeasurableEmbeddingRotAbout",
+  "source_sha256": "f45fa765655774feb4792dfc793e7ace56ded735ad303fe737307024d4ea6e94",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

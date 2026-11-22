@@ -1,0 +1,25 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArithmeticIntersection/LintegralIoiOfRealMul.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArithmeticIntersection/LintegralIoiOfRealMul.lean
+@@ -152,9 +152,10 @@
+ 
+ lemma measurableSet_cone0 {s : Set ℝ} (hs : MeasurableSet s) :
+     MeasurableSet {y : E3 | 0 < ‖y‖ ∧ ‖y‖ < 1 ∧ y 0 / ‖y‖ ∈ s} := by
+-  refine (measurableSet_lt measurable_const measurable_norm).inter
+-    ((measurableSet_lt measurable_norm measurable_const).inter ?_)
+-  exact (by fun_prop : Measurable fun y : E3 => y 0 / ‖y‖) hs
++  have hn : Measurable (fun y : E3 => ‖y‖) := measurable_norm
++  have hf : Measurable (fun y : E3 => y 0 / ‖y‖) := by fun_prop
++  exact (measurableSet_lt (measurable_const (a := (0 : ℝ))) hn).inter
++    ((measurableSet_lt hn (measurable_const (a := (1 : ℝ)))).inter (hf hs))
+ 
+ lemma volume_cone0 {s : Set ℝ} (hs : MeasurableSet s) :
+     volume {y : E3 | 0 < ‖y‖ ∧ ‖y‖ < 1 ∧ y 0 / ‖y‖ ∈ s} =
+@@ -176,7 +177,7 @@
+       · rw [indicator_of_mem (show y ∈ {y : E3 | 0 < ‖y‖ ∧ ‖y‖ < 1 ∧ y 0 / ‖y‖ ∈ s} from
+           ⟨h0, h1, hy⟩), ← hn, indicator_of_mem hy]
+         rfl
+-      · rw [indicator_of_notMem (fun h => hy h.2.2), ← hn, indicator_of_notMem hy]
++      · rw [indicator_of_notMem (fun (h : y ∈ {y : E3 | 0 < ‖y‖ ∧ ‖y‖ < 1 ∧ y 0 / ‖y‖ ∈ s}) => hy h.2.2), ← hn, indicator_of_notMem hy]
+     · rw [if_neg hc, indicator_of_notMem]
+       rintro ⟨h0, h1, -⟩
+       apply hc

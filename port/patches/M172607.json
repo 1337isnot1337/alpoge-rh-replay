@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.InterGoodF",
+  "source_sha256": "1f850f50bd20e39d6514e18ee0c2b5033392b5be361d97d030344f15b9f7ee33",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed evaluation lemma for finite sums of finitely supported functions."
+}
