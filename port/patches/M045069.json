@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.OriginIdeal",
+  "source_sha256": "9eea50a9cacacdd0b99d3479f1f74147765e55c0606e6290d8cc034427bb6a99",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,374 @@
+{
+  "target": "P0184",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/29438",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "build_base_commit": "f9159417b7732369c6d44bdea2f0cbe57fc33290",
+  "port_record_commit": "c9802f9118d6d658c5fa1c91ec46e232cecce5e8",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "build_log_sha256": "57a78a348cfbf239c00fe03b1c5fcd54aa42d506f3db9d9ebb5d22a068be2a4f",
+  "audit": {
+    "command": "lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.DivisorProofs.OriginIdeal",
+    "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
+    "result": "islattice-audit: 1 module(s), 0 hit(s)"
+  },
+  "modules": [
+    {
+      "id": "M045069",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.OriginIdeal",
+      "source_sha256": "9eea50a9cacacdd0b99d3479f1f74147765e55c0606e6290d8cc034427bb6a99",
+      "patch_sha256": null,
+      "built_source_sha256": "9eea50a9cacacdd0b99d3479f1f74147765e55c0606e6290d8cc034427bb6a99",
+      "olean_sha256": "d5471ca991f0ae4dee245df6492306fd7aca28646b08975173adda494cdd1b7e",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    }
+  ],
+  "project_imports": [
+    {
+      "id": "M002078",
+      "module": "Development.AbelianVarietyTheory.BlockTheory.CMModuli.ProjectiveSpaceOverSpec",
+      "source_sha256": "fef2442d1d8f881ccd35805eb365f669889bf8801b21b25c6eb43673b16913f3",
+      "patch_sha256": null,
+      "built_source_sha256": "fef2442d1d8f881ccd35805eb365f669889bf8801b21b25c6eb43673b16913f3",
+      "port_record_sha256": "65da095d3669cca69bf7fc96acdbd843e08f35a1335b5042cd072222f0d9812b"
+    },
+    {
+      "id": "M053661",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsorsTrivial",
+      "source_sha256": "fe4abeb36186c061769bc8452070dadd005021283358a9ec3fd4d12e00a0f1f5",
+      "patch_sha256": null,
+      "built_source_sha256": "fe4abeb36186c061769bc8452070dadd005021283358a9ec3fd4d12e00a0f1f5",
+      "port_record_sha256": "9858a484858bb7e4983ff7309b1b12fb7eeee03fec7b78f232e7202c05d3064c"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M042963",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MaximalIdealPointedEtaleNeighbourhoodEqMapStatement",
+      "missing_imports": [
+        "M042962"
+      ]
+    },
+    {
+      "id": "M043089",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemAdjoinRestrictedSectionsOfLocalStatement",
+      "missing_imports": [
+        "M043088"
+      ]
+    },
+    {
+      "id": "M043117",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemClosureWideGaussianMulSchwartzStatement",
+      "missing_imports": [
+        "M043116"
+      ]
+    },
+    {
+      "id": "M043153",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemFiltrationOfComponentsMemEigenSpan",
+      "missing_imports": [
+        "M043083"
+      ]
+    },
+    {
+      "id": "M043155",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemFiltrationPreimageIffEvalMem",
+      "missing_imports": [
+        "M043083"
+      ]
+    },
+    {
+      "id": "M043165",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemGLintIffMatrixImageStandardLatticeEqStatement",
+      "missing_imports": [
+        "M043164"
+      ]
+    },
+    {
+      "id": "M043192",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemIdealTransformOfForallSmulMem",
+      "missing_imports": []
+    },
+    {
+      "id": "M043300",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemPolynomialEvalFreeLatticeIffExistsEval",
+      "missing_imports": [
+        "M043083"
+      ]
+    },
+    {
+      "id": "M043381",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemSupportQuotientSpanIffOfIsPushoutStatement",
+      "missing_imports": [
+        "M043380"
+      ]
+    },
+    {
+      "id": "M043398",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemTraceDualSignedPositiveConeIffTotallyPositive",
+      "missing_imports": []
+    },
+    {
+      "id": "M043449",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MetaplecticQuadraticOperatorEqSumSymplecticDualStatement",
+      "missing_imports": [
+        "M043448"
+      ]
+    },
+    {
+      "id": "M043608",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MobiusChangeOfVariables",
+      "missing_imports": []
+    },
+    {
+      "id": "M043618",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ModDepthGETwoOfRegularQuotientNoSocle",
+      "missing_imports": []
+    },
+    {
+      "id": "M043717",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ModularGroupRowVecAndConjRightActions",
+      "missing_imports": []
+    },
+    {
+      "id": "M043724",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ModulatedSchwartzSeminormPolynomialStatement",
+      "missing_imports": [
+        "M043723"
+      ]
+    },
+    {
+      "id": "M043820",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MoritaNonemptyEquivOfLocalQuotientMatrixStatement",
+      "missing_imports": [
+        "M043819"
+      ]
+    },
+    {
+      "id": "M044081",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MvPolynomialEqZeroOfVanishSkewHermitianStatement",
+      "missing_imports": [
+        "M044080"
+      ]
+    },
+    {
+      "id": "M044126",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NatCastMulTorsMemLatticeIff",
+      "missing_imports": []
+    },
+    {
+      "id": "M044142",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NatDegreeMulEsymmRootsPow",
+      "missing_imports": []
+    },
+    {
+      "id": "M044301",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NonemptyEquivOfCardHom",
+      "missing_imports": []
+    },
+    {
+      "id": "M044497",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormGaussianConvolutionSeriesCoefficientLeIntegrStatement",
+      "missing_imports": [
+        "M044496"
+      ]
+    },
+    {
+      "id": "M044519",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIteratedFDerivMultilinearDiagonalLeStatement",
+      "missing_imports": [
+        "M044518"
+      ]
+    },
+    {
+      "id": "M044520",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormIteratedFDerivPdLe",
+      "missing_imports": []
+    },
+    {
+      "id": "M044527",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormLeLintegralRayIteratedFDeriv",
+      "missing_imports": [
+        "M044530"
+      ]
+    },
+    {
+      "id": "M044580",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormRootLeCardMulBoundOfEsymmNormLeStatement",
+      "missing_imports": [
+        "M044579"
+      ]
+    },
+    {
+      "id": "M044595",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormSqMulExpNegTraceLeStatement",
+      "missing_imports": [
+        "M044594"
+      ]
+    },
+    {
+      "id": "M044597",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormSqMulIntegralBallLeOfCircleInvariantStatement",
+      "missing_imports": [
+        "M044596"
+      ]
+    },
+    {
+      "id": "M044655",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormalisationDvrTensorSeparableFinite",
+      "missing_imports": []
+    },
+    {
+      "id": "M044657",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormalisationMulEqAevalRoot",
+      "missing_imports": []
+    },
+    {
+      "id": "M044734",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NotModEqOfLt",
+      "missing_imports": []
+    },
+    {
+      "id": "M045245",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PadicEmbeddingLiesOverOrComplexConjLiesOverStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M045500",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PartialZetaTotallyRealAtMostSimplePole",
+      "missing_imports": []
+    },
+    {
+      "id": "M045714",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PermutedModularFamilySumEsymmSlashInvariantStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M045735",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PiEigenSublatticeFreeEqDifferentScaledStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M045757",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PicIsOfFinOrderOfFiniteInt",
+      "missing_imports": []
+    },
+    {
+      "id": "M045957",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PointedEtaleNeighbourhoodLocalRingIsDirectedStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M046004",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolUnitNeZero",
+      "missing_imports": []
+    },
+    {
+      "id": "M046194",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialGrowthOfPeriodicIntegralSpans",
+      "missing_imports": []
+    },
+    {
+      "id": "M046348",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PowNormMulSeminormSliceRLe",
+      "missing_imports": []
+    },
+    {
+      "id": "M046802",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProjectiveReductionOfFlatLift",
+      "missing_imports": [
+        "M042139",
+        "M042160"
+      ]
+    },
+    {
+      "id": "M047090",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PullbackSquareSectionsGlueOfBasisStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M047152",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PurityFree",
+      "missing_imports": []
+    },
+    {
+      "id": "M047173",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.QAllQConjOfDvd",
+      "missing_imports": []
+    },
+    {
+      "id": "M047178",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.QExpansionCoeffsInSubringRingClosedStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M047183",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.QExpansionsCoeffwiseConjugateRingClosure",
+      "missing_imports": []
+    },
+    {
+      "id": "M047479",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RankOneLatticeSpanSingleton",
+      "missing_imports": []
+    },
+    {
+      "id": "M047509",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RatFiniteAdelesSplitAwayFromPrimePadicStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M047600",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RationalMatrixEigenspaceImageSpannedRationalStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M047751",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RealIndependentSkewMatricesStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M047966",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularLocalDifferentialsBasis",
+      "missing_imports": []
+    },
+    {
+      "id": "M047986",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularQuotientPrimeElement",
+      "missing_imports": [
+        "M081856"
+      ]
+    },
+    {
+      "id": "M048108",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RelLenChainAdd",
+      "missing_imports": []
+    },
+    {
+      "id": "M048110",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RelLengthFiltrationInterKerCofactorLinearFactor",
+      "missing_imports": []
+    },
+    {
+      "id": "M048187",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RepresentationsEqualTracesConjugateStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M048189",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RepresentativeParametricIntegralContinuousFamilyStatement",
+      "missing_imports": []
+    }
+  ],
+  "pruned": [
+    "M044701",
+    "M044760",
+    "M045684",
+    "M045971",
+    "M046218",
+    "M046263",
+    "M046273",
+    "M048085"
+  ]
+}

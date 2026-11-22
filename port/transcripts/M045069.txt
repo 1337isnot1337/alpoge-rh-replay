@@ -1,0 +1,86 @@
+Packet P0184, partial submission
+Upstream base f9159417b7732369c6d44bdea2f0cbe57fc33290
+Port record commit c9802f9118d6d658c5fa1c91ec46e232cecce5e8
+Lean leanprover/lean4:v4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+python3 scripts/port-ci-build.py --workspace <workspace> --src <archive-source> --patch-ids M045069
+
+Elaborated IsLattice audit
+lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.DivisorProofs.OriginIdeal
+islattice-audit: 1 module(s), 0 hit(s)
+
+Earlier source builds for reused outputs
+
+Build verification on the upstream base
+Building 1 explicitly requested module(s).
+Resolved 2 transitive project import(s) (3 total module(s) to materialize).
+[FETCH] Materializing 3 SHA-256-verified source file(s)...
+[FETCH] Verified 3/3 source file(s).
+[KEEP]  M002078: unchanged (verified against archive source)
+[KEEP]  M045069: unchanged (verified against archive source)
+[KEEP]  M053661: unchanged (verified against archive source)
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in <workspace>
+
+[BUILD] Building 1 module(s) with `lake build`...
+        IDs: M045069
+⚠ [18250/18254] Built Development.AbelianVarietyTheory.BlockTheory.CMModuli.ProjectiveSpaceOverSpec (56s)
+warning: src/Development/AbelianVarietyTheory/BlockTheory/CMModuli/ProjectiveSpaceOverSpec.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/BlockTheory/CMModuli/ProjectiveSpaceOverSpec.lean:52:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/BlockTheory/CMModuli/ProjectiveSpaceOverSpec.lean:57:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/BlockTheory/CMModuli/ProjectiveSpaceOverSpec.lean:58:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18251/18254] Ran Development.AbelianVarietyTheory.BlockTheory.CMModuli.ProjectiveSpaceOverSpec:irArts
+warning: src/Development/AbelianVarietyTheory/BlockTheory/CMModuli/ProjectiveSpaceOverSpec.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsorsTrivial (8.3s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsorsTrivial.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsorsTrivial.lean:19:7: `Pi.algHom` has been deprecated: Use `AlgHom.pi` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.algHom` to `AlgHom.pi x`).
+
+Hint: Replace the deprecated name:
+  P̵i̵.̵a̵l̵g̵H̵o̵m̵A̲l̲g̲H̲o̲m̲.̲p̲i̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsorsTrivial.lean:20:7: `Pi.algHom` has been deprecated: Use `AlgHom.pi` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.algHom` to `AlgHom.pi x`).
+
+Hint: Replace the deprecated name:
+  P̵i̵.̵a̵l̵g̵H̵o̵m̵A̲l̲g̲H̲o̲m̲.̲p̲i̲
+⚠ [18253/18254] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsorsTrivial:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TorsorsTrivial.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.OriginIdeal (8.5s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/OriginIdeal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/OriginIdeal.lean:15:7: `Pi.algHom` has been deprecated: Use `AlgHom.pi` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.algHom` to `AlgHom.pi x`).
+
+Hint: Replace the deprecated name:
+  P̵i̵.̵a̵l̵g̵H̵o̵m̵A̲l̲g̲H̲o̲m̲.̲p̲i̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/OriginIdeal.lean:16:7: `Pi.algHom` has been deprecated: Use `AlgHom.pi` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.algHom` to `AlgHom.pi x`).
+
+Hint: Replace the deprecated name:
+  P̵i̵.̵a̵l̵g̵H̵o̵m̵A̲l̲g̲H̲o̲m̲.̲p̲i̲
+Build completed successfully (18254 jobs).
+[PASS]  M045069 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.OriginIdeal)
+
+PORT_BUILD_PASSED all 1 module(s).
