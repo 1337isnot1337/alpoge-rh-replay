@@ -4,12 +4,6 @@
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@rohanarun](https://github.com/rohanarun) | [M138998](https://github.com/rohanarun/alpoge-rh-replay/issues/5335) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M027061](https://github.com/rohanarun/alpoge-rh-replay/issues/5338) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M152580](https://github.com/rohanarun/alpoge-rh-replay/issues/5340) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M140258](https://github.com/rohanarun/alpoge-rh-replay/issues/5341) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M104599](https://github.com/rohanarun/alpoge-rh-replay/issues/5342) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M143022](https://github.com/rohanarun/alpoge-rh-replay/issues/5343) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M109690](https://github.com/rohanarun/alpoge-rh-replay/issues/5345) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M083492](https://github.com/rohanarun/alpoge-rh-replay/issues/5346) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M138747](https://github.com/rohanarun/alpoge-rh-replay/issues/5347) | Claimed |
@@ -254,3 +248,9 @@
 | [@rohanarun](https://github.com/rohanarun) | [M056306](https://github.com/rohanarun/alpoge-rh-replay/issues/16326) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M028125](https://github.com/rohanarun/alpoge-rh-replay/issues/16329) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M031086](https://github.com/rohanarun/alpoge-rh-replay/issues/16330) | Claimed |
+| [@rohanarun](https://github.com/rohanarun) | [M045235](https://github.com/rohanarun/alpoge-rh-replay/issues/16331) | Claimed |
+| [@rohanarun](https://github.com/rohanarun) | [M049068](https://github.com/rohanarun/alpoge-rh-replay/issues/16332) | Claimed |
+| [@rohanarun](https://github.com/rohanarun) | [M081007](https://github.com/rohanarun/alpoge-rh-replay/issues/16333) | Claimed |
+| [@rohanarun](https://github.com/rohanarun) | [M163951](https://github.com/rohanarun/alpoge-rh-replay/issues/16337) | Claimed |
+| [@rohanarun](https://github.com/rohanarun) | [M051356](https://github.com/rohanarun/alpoge-rh-replay/issues/16338) | Claimed |
+| [@rohanarun](https://github.com/rohanarun) | [M026237](https://github.com/rohanarun/alpoge-rh-replay/issues/16339) | Claimed |

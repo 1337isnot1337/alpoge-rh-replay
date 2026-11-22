@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    "M163749"
+  ],
+  "started_utc": "2026-11-21T08:48:50.450852+00:00",
+  "ended_utc": "2026-11-21T08:49:01.377172+00:00",
+  "elapsed_seconds": 10.9,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6723696
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StatementsConeChartIntegrable:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "086ec59af0c569d029ac4b6e4e7366418f85a041c1896d3d23217fb4b007daa1",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.ComplexFibreIdealBot",
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.MemMinimalPrimesOfMemFundCycleSupport"
+  ],
+  "objects": {
+    "M163749": "9477af2b0c841a99c2f42425eb38ee9d5966929fd0246e6d52bc76ccd8b8a9b2"
+  },
+  "bundle_sha256": "d66a2f47bf596131fa74dd7da19c8def8879176b2c7ec737e67c5e3ce086b5dc",
+  "packet": "M163749",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18224#issuecomment-7060168516",
+  "reviewed_utc": "2026-11-22T00:54:04.829695+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44967790389",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StatementsConeChartIntegrable"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M161222"
+  ],
+  "started_utc": "2026-11-21T08:28:24.753399+00:00",
+  "ended_utc": "2026-11-21T08:30:15.834094+00:00",
+  "elapsed_seconds": 111.1,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 32837812,
+    "peak_child_rss_kib": 6468044
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerAdditivityDegreeZero:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "84fe4a3657bd98138b0a59d3c97c3d3f2e9f4efa8144fc369fc0a09dce82c6a0",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M161222": "6814dfe0a0be30b9e6a8bbf7ee7d8706e55ce6543a93a26de8e92b9b6716efae"
+  },
+  "bundle_sha256": "efc14bba38b5146a1e6b76d2c884d4c744b0bdb0184e40c9e2ba7fec4a310ae9",
+  "packet": "M161222",
+  "contributor": "sp20262026",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/17955#issuecomment-7059952907",
+  "reviewed_utc": "2026-11-22T00:50:48.541990+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44967790389",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerAdditivityDegreeZero"
+    ]
+  }
+}
