@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry\u2082.TateHonda",
+  "source_sha256": "20eeb765911d0be77e3491642d8816559ab75b6c8ca444ce9d3499a698e228b2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0197-lean436-20261121-r2/packet-result.json"
+}

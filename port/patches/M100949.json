@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.PublishedTheorems.GaloisGeometry\u2082.SmoothNearbyCycles",
+  "source_sha256": "52e3fc70635794b41df5e0c9eb31b5e5a57e7ff2248b4a32db09b37b5544500e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0197-lean436-20261121-r2/packet-result.json"
+}
