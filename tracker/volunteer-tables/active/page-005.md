@@ -199,9 +199,8 @@
 | [@user42245](https://github.com/user42245) | [M163709](https://github.com/rohanarun/alpoge-rh-replay/issues/28973) | Claimed |
 | [@user42245](https://github.com/user42245) | [M168805](https://github.com/rohanarun/alpoge-rh-replay/issues/28987) | Claimed |
 | [@hipotures](https://github.com/hipotures) | [P2734](https://github.com/rohanarun/alpoge-rh-replay/issues/29841) | Claimed |
-| [@1337isnot1337](https://github.com/1337isnot1337) | [M132885](https://github.com/rohanarun/alpoge-rh-replay/issues/29842) | Claimed |
-| [@1337isnot1337](https://github.com/1337isnot1337) | [M065971](https://github.com/rohanarun/alpoge-rh-replay/issues/29844) | Claimed |
-| [@1337isnot1337](https://github.com/1337isnot1337) | [M165063](https://github.com/rohanarun/alpoge-rh-replay/issues/29845) | Claimed |
-| [@1337isnot1337](https://github.com/1337isnot1337) | [M165074](https://github.com/rohanarun/alpoge-rh-replay/issues/29846) | Claimed |
-| [@t-choudhury](https://github.com/t-choudhury) | [M164300](https://github.com/rohanarun/alpoge-rh-replay/issues/29849) | Claimed |
 | [@hipotures](https://github.com/hipotures) | [P2735](https://github.com/rohanarun/alpoge-rh-replay/issues/29852) | Claimed |
+| [@JamCh01](https://github.com/JamCh01) | [P2755](https://github.com/rohanarun/alpoge-rh-replay/issues/29894) | Claimed |
+| [@emsi](https://github.com/emsi) | [M055245](https://github.com/rohanarun/alpoge-rh-replay/issues/29904) | Claimed |
+| [@emsi](https://github.com/emsi) | [P2764](https://github.com/rohanarun/alpoge-rh-replay/issues/29967) | Claimed |
+| [@hipotures](https://github.com/hipotures) | [P2736](https://github.com/rohanarun/alpoge-rh-replay/issues/29987) | Claimed |
