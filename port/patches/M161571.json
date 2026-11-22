@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementE",
+  "source_sha256": "4086bf191f3f97b8cee9fab823f9b4f09873b4ea0ad5b230fa88e3230485fde3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "In the body of CoordChangeCoeff, replace the removed coefficient accessor coeff e H with H.coeff e. The replay-pinned MvPolynomial.coeff e H was defined as application of AddMonoidAlgebra.coeff H to e, exactly the target field accessor. Thus this proposition definition remains definitionally equivalent, with every quantifier, polynomial expression, exponent, and other proposition unchanged. The equality with the old accessor body is verified by rfl in a narrow target-toolchain test."
+}
