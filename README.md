@@ -217,3 +217,10 @@ The [M115707 example](examples/M115707/README.md) compares a shorter local Gram 
 ## License
 
 The original replay tooling and documentation in this repository are available under the [MIT License](LICENSE). Upstream Lean source, Mathlib, and third-party artifacts retain their respective licenses.
+
+<details>
+<summary>Citation and sources</summary>
+
+If you use a replay result, please credit the people who produced that replay and link to its exact record in the [upstream replay project](https://github.com/rohanarun/alpoge-rh-replay). Please cite [Levent Alpöge’s original announcement](https://alpo.ge/remark.pdf) when discussing the proof release.
+
+</details>
