@@ -98,6 +98,7 @@
 | [@user42245](https://github.com/user42245) | [M107109](https://github.com/rohanarun/alpoge-rh-replay/issues/27527#issuecomment-7070861740) | Pending review |
 | [@f10etclawdbot](https://github.com/f10etclawdbot) | [M131323](https://github.com/rohanarun/alpoge-rh-replay/issues/27529#issuecomment-7070868819) | Pending review |
 | [@user42245](https://github.com/user42245) | [M164315](https://github.com/rohanarun/alpoge-rh-replay/issues/27561#issuecomment-7070925077) | Pending review |
+| [@maugomez77](https://github.com/maugomez77) | [M166809](https://github.com/rohanarun/alpoge-rh-replay/issues/27563#issuecomment-7075104820) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M135882](https://github.com/rohanarun/alpoge-rh-replay/issues/27566#issuecomment-7070914775) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M135900](https://github.com/rohanarun/alpoge-rh-replay/issues/27568#issuecomment-7070915908) | Pending review |
 | [@1337isnot1337](https://github.com/1337isnot1337) | [M140437](https://github.com/rohanarun/alpoge-rh-replay/issues/27571#issuecomment-7070921780) | Pending review |
@@ -253,4 +254,3 @@
 | [@jdenwood](https://github.com/jdenwood) | [M135906](https://github.com/rohanarun/alpoge-rh-replay/issues/28183#issuecomment-7072003984) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M135291](https://github.com/rohanarun/alpoge-rh-replay/issues/28184#issuecomment-7072005018) | Pending review |
 | [@f10etclawdbot](https://github.com/f10etclawdbot) | [M059412](https://github.com/rohanarun/alpoge-rh-replay/issues/28190#issuecomment-7072018494) | Pending review |
-| [@1337isnot1337](https://github.com/1337isnot1337) | [M171975](https://github.com/rohanarun/alpoge-rh-replay/issues/28191#issuecomment-7072012750) | Pending review |
