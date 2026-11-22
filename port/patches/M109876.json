@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.TotallyRealRoots.EmultiplicityPowSubOneOdd",
+  "source_sha256": "3291bb939246a7d39c58f67ab98955970161da7b2291c17dd57341d27141b6b2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0201-lean436-20261121/packet-result.json"
+}

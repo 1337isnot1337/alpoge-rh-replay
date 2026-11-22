@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.HeckeCharacterChoice.NCField",
+  "source_sha256": "c4bea2bd6387d236384484d2028485ecb55f7b370ff8c48c36f97c483366f457",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Expose the equality of padicValNat and multiplicity before applying the current zero criterion. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0201-lean436-20261121/packet-result.json"
+}
