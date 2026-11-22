@@ -3,6 +3,6 @@
   "source_sha256": "2c5dc04a35afea7133ce9757013087e5d7a40960931079c6abf3426d02bcd493",
   "lean": "leanprover/lean4:v4.36.0",
   "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
-  "notes": "unchanged Bridge the target ring Jacobson radical to the ideal radical at bottom in the local-ring proofs. No exported declaration statements, definitions or instances changed.",
+  "notes": "Bridge the target ring Jacobson radical to the ideal radical at bottom in the local-ring proofs. No exported declaration statements, definitions or instances changed.",
   "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0209-lean436-20261121/packet-result.json"
 }

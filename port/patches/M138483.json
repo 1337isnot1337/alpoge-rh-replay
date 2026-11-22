@@ -3,6 +3,6 @@
   "source_sha256": "e6d6ff39b8566f611c9303a222c186042c93d980f652ccc28894a831ba7eaaea",
   "lean": "leanprover/lean4:v4.36.0",
   "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
-  "notes": "unchanged Remove obsolete zero alternatives from target tensor induction, whose pure-tensor case includes zero. No exported declaration statements, definitions or instances changed.",
+  "notes": "Remove obsolete zero alternatives from target tensor induction, whose pure-tensor case includes zero. No exported declaration statements, definitions or instances changed.",
   "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0209-lean436-20261121/packet-result.json"
 }
