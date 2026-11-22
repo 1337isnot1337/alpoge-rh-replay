@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMuEqExtDerivation",
+  "source_sha256": "d087060bd1f5be7ba2de6bc5152b0ab0f2adf6951218d59c278d2ceb12ecd78f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

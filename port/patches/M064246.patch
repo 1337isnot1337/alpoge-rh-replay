@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/WirtingerEichler.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/WirtingerEichler.lean
+@@ -69,7 +69,7 @@
+   refine ⟨L, hL.congr_of_eventuallyEq ?_, ?_⟩
+   · filter_upwards [isOpen_upperHalfPlaneSet.mem_nhds hs] with z hz
+     rw [he f z hz, he h z hz]
+-    simp [Polynomial.map_sum, eval_finset_sum]
++    simp [Polynomial.map_sum, eval_finsetSum]
+   · rw [hd]
+     have hb : (s - (starRingEnd ℂ) s) ^ w = ∑ j ∈ Finset.range (w + 1),
+         s ^ j * (-(starRingEnd ℂ) s) ^ (w - j) * (w.choose j : ℂ) := by

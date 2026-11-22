@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.PAdicHodge.AxLemma",
+  "source_sha256": "4808495a196e74c2929710220bb33c3c244c829cf5feb683e969e8b84cf338a2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Mathlib moved the padicValNat lemmas used here (padicValNat_choose, padicValNat.eq_zero_iff, padicValNat_dvd_iff_le, padicValRat.of_nat, padicValNat.eq_zero_of_not_dvd, pow_padicValNat_dvd) to statements about multiplicity. Rewrite with Nat.padicValNat_def (padicValNat p n = multiplicity p n) where each is used, and pass pow_padicValNat_dvd its now-explicit arguments. The theorem statements keep padicValNat. Proof-only change.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0166-issue-26976/P0166-receipt.json"
+}

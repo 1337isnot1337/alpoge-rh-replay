@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CharacterColumnKernels.IdempotentNormalForms.LenCokerOfDetNeZero",
+  "source_sha256": "efdbb8841b952c360027660fb1c06f828ab3c925e97545f3f196dd08121cae58",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}

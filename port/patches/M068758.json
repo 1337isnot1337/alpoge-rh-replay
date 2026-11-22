@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsConstOfLvlInvariant",
+  "source_sha256": "308fee8d17a54825bcc90698ad89b4102b8a9ebaf5e7fceaee3f749cc1e74aeb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use dot notation for polynomial coefficients with the residue field type explicit."
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.AicValOfIsColim",
+  "source_sha256": "17fc0dd8cfe11b73e42ac63a231a0c8877703621dd43d8e0375919da9f500317",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: adapt the target lemma name or explicit arguments while preserving the original mathematical operations, hypotheses and conclusion. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0137-lean436-20261121/packet-result.json"
+}

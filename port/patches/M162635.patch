@@ -1,0 +1,24 @@
+--- a/src/GroundTheory/AutomorphicForms/GL2/GJGlobalUnfoldRank.lean
++++ b/src/GroundTheory/AutomorphicForms/GL2/GJGlobalUnfoldRank.lean
+@@ -168,7 +168,10 @@
+         exact this
+       have hc0 : c = 0 := Subtype.ext hc
+       subst hc0
+-      simp
++      have hz : LinearEquiv.ofFinrankEq C C' h2 (0 : C) = 0 :=
++        (LinearEquiv.ofFinrankEq C C' h2).map_zero
++      simp only [hz, ZeroMemClass.coe_zero, add_zero]
++      exact (LinearEquiv.ofFinrankEq W (U0 k) h1 w).property
+     · intro hv
+       have hc : ((LinearEquiv.ofFinrankEq C C' h2 c : C') : Fin n → K) = 0 := by
+         have hcU : ((LinearEquiv.ofFinrankEq C C' h2 c : C') : Fin n → K) ∈ U0 k := by
+@@ -180,7 +183,8 @@
+         have : (LinearEquiv.ofFinrankEq C C' h2 c) = 0 := Subtype.ext hc
+         exact (LinearEquiv.ofFinrankEq C C' h2).map_eq_zero_iff.1 this
+       subst hc0
+-      simp
++      simp only [ZeroMemClass.coe_zero, add_zero]
++      exact w.property
+   let A := LinearMap.toMatrix' (e : (Fin n → K) →ₗ[K] (Fin n → K))
+   let B := LinearMap.toMatrix' (e.symm : (Fin n → K) →ₗ[K] (Fin n → K))
+   have hAB : A * B = 1 := by

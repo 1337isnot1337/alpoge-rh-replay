@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.FinsumQuotientOfLe",
+  "source_sha256": "319c3a68ff1f9b68eee30421fc07f865488bb55f557cbeaa3f2fe20ec9e8cd5f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

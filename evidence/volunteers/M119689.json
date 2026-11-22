@@ -1,0 +1,45 @@
+{
+  "tasks": [
+    "M119689"
+  ],
+  "started_utc": "2026-11-21T08:11:51.782381+00:00",
+  "ended_utc": "2026-11-21T08:13:39.913213+00:00",
+  "elapsed_seconds": 108.1,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6801256
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.HeckeSectionsIsotropicCommutatorPairingPower:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "91b5398ac1d9bc22a409fb2e08f9895c0c11c25f8342dfa4fda5087f99ee6467",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.Birational",
+    "Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.CompactGapsGE",
+    "Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.Proportional"
+  ],
+  "objects": {
+    "M119689": "691d8c3e5b8de8405632f6d50f938b4649f17f0159db3694e4d038ca0aa8f15e"
+  },
+  "bundle_sha256": "c53e2fe2ae512ad56511ac12c2740482400c37f129052be1c9fe3f44e5f169a6",
+  "packet": "M119689",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/17593#issuecomment-7059790536",
+  "reviewed_utc": "2026-11-22T00:49:11.687514+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44967790389",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.HeckeSectionsIsotropicCommutatorPairingPower"
+    ]
+  }
+}

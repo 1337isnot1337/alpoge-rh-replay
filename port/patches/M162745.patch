@@ -1,0 +1,33 @@
+--- a/src/GroundTheory/AutomorphicForms/HarishChandraCentre/RhoOneEqZeroOfRhoZeroEqZero.lean
++++ b/src/GroundTheory/AutomorphicForms/HarishChandraCentre/RhoOneEqZeroOfRhoZeroEqZero.lean
+@@ -164,9 +164,9 @@
+   rw [rho_one_shift, h, LinearMap.zero_apply, map_zero, LinearMap.zero_apply]
+ 
+ def geDeg (t : ℕ) : Submodule ℂ (Poly n) where
+-  carrier := {f | ∀ s : Fin n × Fin n →₀ ℕ, s.degree < t → coeff s f = 0}
+-  add_mem' {f g} hf hg s hs := by rw [coeff_add, hf s hs, hg s hs, add_zero]
+-  zero_mem' s _ := coeff_zero s
++  carrier := {f | ∀ s : Fin n × Fin n →₀ ℕ, s.degree < t → f.coeff s = 0}
++  add_mem' {f g} hf hg s hs := by rw [AddMonoidAlgebra.coeff_add, Finsupp.add_apply, hf s hs, hg s hs, add_zero]
++  zero_mem' s _ := by simp
+   smul_mem' r f hf s hs := by rw [coeff_smul, hf s hs, smul_zero]
+ 
+ theorem geDeg_anti {t t' : ℕ} (h : t' ≤ t) : (geDeg t : Submodule ℂ (Poly n)) ≤ geDeg t' :=
+@@ -181,7 +181,7 @@
+ 
+ theorem constantCoeff_eq_zero_of_mem_geDeg {f : Poly n} (hf : f ∈ geDeg 1) :
+     constantCoeff f = 0 := by
+-  have h0 : constantCoeff f = coeff 0 f := by rw [constantCoeff_eq]
++  have h0 : constantCoeff f = f.coeff 0 := by rw [constantCoeff_eq]
+   rw [h0]
+   exact hf 0 (by simp)
+ 
+@@ -193,7 +193,7 @@
+   omega
+ 
+ theorem map_mem_of_monomial (L : Poly n →ₗ[ℂ] Poly n) (P : Submodule ℂ (Poly n))
+-    (Q : (Fin n × Fin n →₀ ℕ) → Prop) {f : Poly n} (hf : ∀ s, coeff s f ≠ 0 → Q s)
++    (Q : (Fin n × Fin n →₀ ℕ) → Prop) {f : Poly n} (hf : ∀ s, f.coeff s ≠ 0 → Q s)
+     (h : ∀ s (c : ℂ), Q s → L (monomial s c) ∈ P) : L f ∈ P := by
+   rw [f.as_sum, map_sum]
+   exact Submodule.sum_mem _ fun s hs => h s _ (hf s (mem_support_iff.1 hs))

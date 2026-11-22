@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002812 | P1114 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.BesselPeriodPositionOneEqZero` | build-observed |
+| M002813 | P0974 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.BlattnerShiftsSignedParameters` | build-observed |
+| M002815 | P0945 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.EmbRelExistsUnique` | volunteer-build-reviewed |
+| M002817 | P0917 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.ExistsExpoScalar` | build-observed |
+| M002818 | P1084 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.ExistsGoodFamily` | build-observed |
+| M002822 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.FromTestIffOfValAtCx` | build-observed |
+| M002825 | P1056 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.IsTypeAtCentral` | build-observed |
+| M002827 | P0974 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.NotHasInfExpThird` | build-observed |
+| M002828 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.NotOverAndTriv` | volunteer-build-reviewed |
+| M002832 | P1028 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.StarPurelyImaginaryEqNeg` | build-observed |
 | M002833 | P1056 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.SymplHAddRight` | build-observed |
 | M002836 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.BilLActRight` | build-observed |
 | M002837 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ChartIndepTruncOfExpGauge` | volunteer-build-reviewed |
@@ -199,6 +209,7 @@
 | M003254 | P2065 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NonzeroPlacesOverPrimesOfLifts` | volunteer-build-reviewed |
 | M003257 | P2093 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NotConditionOfFalse` | volunteer-build-reviewed |
 | M003258 | P2320 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NotGeoClFalse` | build-observed |
+| M003262 | P2654 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NotMemPlaceholder` | volunteer-build-reviewed |
 | M003263 | P1501 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NotNonemptyZero` | volunteer-build-reviewed |
 | M003265 | P1974 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NotTopPtOne` | volunteer-build-reviewed |
 | M003266 | P0865 | `Development.AbelianVarietyTheory.Definitions.AutomorphicMembership.NuInRange` | build-observed |
@@ -340,6 +351,7 @@
 | M003518 | P0475 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsIntMulIntegral` | build-observed |
 | M003519 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsIsClosedImmersionGenericPoint` | wave-reused |
 | M003520 | P1472 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsIsEffAddNsmulDiv` | volunteer-build-reviewed |
+| M003523 | P2645 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsIsHoloDelta` | volunteer-build-reviewed |
 | M003525 | P1444 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsIsLocModelIsPrimeOf` | volunteer-build-reviewed |
 | M003527 | P1056 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsIsOb1NeZero` | build-observed |
 | M003528 | P1245 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsIsObUNeZero` | build-observed |
@@ -349,6 +361,7 @@
 | M003539 | P1586 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsNotIsConstTerm` | volunteer-build-reviewed |
 | M003544 | P1901 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsPointGaussian` | build-observed |
 | M003547 | P1472 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsResolProjSpace` | volunteer-build-reviewed |
+| M003548 | P0347 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsRetractionMulP` | volunteer-build-reviewed |
 | M003549 | P1349 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsRootSelectionUnitaryRankOne` | build-observed |
 | M003551 | P2320 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsTjCorrDiagModel` | volunteer-build-reviewed |
 | M003557 | P1974 | `Development.AbelianVarietyTheory.Definitions.Divisors.ExistsUniqueIsLv` | volunteer-build-reviewed |
@@ -382,23 +395,10 @@
 | M003612 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.HasSumZeroOfTwoLe` | build-observed |
 | M003613 | P2747 | `Development.AbelianVarietyTheory.Definitions.Divisors.HasTraitsOnOfHasTraitsP` | volunteer-build-reviewed |
 | M003617 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.HilbertNinetyQuotientHomEqIff` | volunteer-build-reviewed |
+| M003619 | P2654 | `Development.AbelianVarietyTheory.Definitions.Divisors.HolCuspLevDeltaNeBot` | volunteer-build-reviewed |
 | M003620 | P2635 | `Development.AbelianVarietyTheory.Definitions.Divisors.HoloOcc` | volunteer-build-reviewed |
 | M003621 | P2093 | `Development.AbelianVarietyTheory.Definitions.Divisors.HolomorphicSectionSignatureOneOne` | volunteer-build-reviewed |
 | M003622 | P0515 | `Development.AbelianVarietyTheory.Definitions.Divisors.HopfLaurent` | build-observed |
 | M003624 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.HxiTZeroComb` | build-observed |
 | M003630 | P0347 | `Development.AbelianVarietyTheory.Definitions.Divisors.IdTower` | volunteer-build-reviewed |
 | M003632 | P1974 | `Development.AbelianVarietyTheory.Definitions.Divisors.Imports` | volunteer-build-reviewed |
-| M003634 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IndEtOfForallFinset` | wave-reused |
-| M003636 | P1271 | `Development.AbelianVarietyTheory.Definitions.Divisors.InstCMHostS` | volunteer-build-reviewed |
-| M003641 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.IotaScalarOne` | wave-reused |
-| M003642 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IrreducibleOfIrreducibleMap` | wave-reused |
-| M003643 | P2417 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsActIffIsDiagEnd` | volunteer-build-reviewed |
-| M003644 | P1084 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsAddHaarMeasureVolumeLie` | build-observed |
-| M003646 | P0475 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsAdmDOne` | volunteer-build-reviewed |
-| M003647 | P0347 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsAdmissibleIntegralBasisChangeOne` | volunteer-build-reviewed |
-| M003649 | P1444 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsAffineOpenAndIsPushout` | build-observed |
-| M003650 | P2266 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsAlgAtlasAtlasOf` | build-observed |
-| M003651 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsAlgLowZero` | volunteer-build-reviewed |
-| M003652 | P2504 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsAmbOfIsArithVar` | volunteer-build-reviewed |
-| M003653 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsBasOpens` | wave-reused |
-| M003654 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsBasisOfBot` | wave-reused |

@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/SignedLengthSpanEqOrdFracDet.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/SignedLengthSpanEqOrdFracDet.lean
+@@ -160,7 +160,7 @@
+   refine ⟨hcomm, ?_⟩
+   have hq : g.det = algebraMap R K P.det / algebraMap R K D.det := by
+     rw [hdet, mul_div_cancel_left₀ _ hD0']
+-  rw [hs, hq, map_div₀, Ring.ordFrac_eq_ord R hP0, Ring.ordFrac_eq_ord R hD0,
++  rw [hs, hq, map_div₀, Ring.ordFrac_eq_ord R, Ring.ordFrac_eq_ord R,
+     Ring.ordMonoidWithZeroHom_eq_coe R hPn hm.symm,
+     Ring.ordMonoidWithZeroHom_eq_coe R hDn hn.symm, WithZero.exp_sub]
+   rfl

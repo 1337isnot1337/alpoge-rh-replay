@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BigCellConjugation.Monomial",
+  "source_sha256": "46f6bd5596dab4e7e8503a21de341d538f95320d9c7d987a5e3ce624d4ed915a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

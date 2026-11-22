@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BochnerTheorem.RMKComplex",
+  "source_sha256": "a4d769503419c4ff4042cb2c7aa3e1cd8f61fe9d237292d5246652fe89a2141a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ArithmeticGeometry.SchemeCohomology.InvertibleSheaf",
+  "source_sha256": "40f10934eea0517b6ac2b4acae032abf854feb0959c0acc88c96d8a5e69c45af",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: recover the existing structure sheaf commutative-ring instance locally after forgetting to RingCat, so the tensor-product equivalence uses the same scalar ring. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0159-lean436-20261121/packet-result.json"
+}

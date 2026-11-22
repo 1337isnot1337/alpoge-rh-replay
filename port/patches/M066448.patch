@@ -1,0 +1,10 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsPolynomialModularJOfHasQExpansion.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsPolynomialModularJOfHasQExpansion.lean
+@@ -189,6 +189,7 @@
+     · simp [Polynomial.coeff_eq_zero_of_natDegree_lt (Nat.lt_succ_of_le hP1)]
+     · rw [Polynomial.coeff_add, Polynomial.coeff_monomial]
+       refine A.add_mem (hP3 i) ?_
++      rw [Finsupp.single_apply]
+       split_ifs
+       exacts [hA 0, A.zero_mem]
+     · simp [← hP4]

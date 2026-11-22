@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.RelIndexDualSubmoduleInfOfSelfDual",
+  "source_sha256": "5ebcd892b32e2171e38348071209e1274657f81914e33df1fab348f297553112",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace the reused Submodule.IsLattice predicate with Submodule.IsFullLattice throughout the existing integer/rational lattice statements and proof-local predicates. At the replay pin, IsLattice means finite generation plus full rational span. For the existing scalar pair ℤ ⊆ ℚ, the target full-lattice predicate is equivalent: its additional independence field follows from finite generation by Submodule.IsLattice.of_fg ℚ, while its finite-generation and spanning fields recover the old predicate. A target-toolchain probe proves both implications under exactly the existing AddCommGroup and rational Module assumptions. The seven affected theorem statements preserve all other quantifiers, assumptions and conclusions; no definition or theorem name changes. Fill the two constructor independence fields from the same finite-generation proofs, and supply proof-local finite/free instances using the target IsLattice.finite/free theorems, which are no longer global instances. No assumptions are strengthened. See port/evidence/P0128/statement-scan.md. Give Set.encard_le_encard the existing source set explicitly before elaborating hM.2; the source predicate, subset proof and resulting inequality are unchanged."
+}

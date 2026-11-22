@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.SemistableReduction.LemmaH",
+  "source_sha256": "cb7ac77c31fb74b78f48cc676153fb147a2cef4e02c606e2a413829f12919191",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the finite-product inequality with the existing nonnegativity premises. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0171-lean436-20261121/packet-result.json"
+}

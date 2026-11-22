@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.RankGapBounds.RankGapProofs.FourNotDvdOddSqAddOne",
+  "source_sha256": "8288ef1ffa5472a903b111c4e0f5712c5886d9365632caa8984cbcdab7f29f1d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

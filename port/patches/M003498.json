@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Divisors.ExistsAlgHomOfIsBaseChange",
+  "source_sha256": "111b047d2b14d0ef78fc23f5906af30e2cd0be65174c1f39366f8f4a05aa36b1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove the redundant zero cases from base-change induction."
+}

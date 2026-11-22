@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.StabilizerOrbitVolume.EventuallySmulSub",
+  "source_sha256": "52e5d9e1bc4f6f4f819fa2c4ec8d0c549906413ea803a551af709f287c195fe9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed constructor and application lemma for the same additive map given by scalar multiplication."
+}

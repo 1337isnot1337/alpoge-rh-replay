@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GaloisCohomology.StatementLoc",
+  "source_sha256": "6dacb4911ed7151b3c2896e89ad0678a334b4ab214838dedb18872dab94ccabb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0212-lean436-20261121/packet-result.json"
+}

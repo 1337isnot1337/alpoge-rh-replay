@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ChosenEqOfAllRules",
+  "source_sha256": "cd77f579596989d9ddbd3c052c84518522ecbe4261f661c25af90034aad7d122",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

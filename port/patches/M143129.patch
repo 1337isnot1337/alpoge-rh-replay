@@ -1,0 +1,10 @@
+--- a/src/Development/WeilBound/RepresentationTheoryGL/UnitaryDualProof/TwistedPieces/IntegralParts/BezoutHypotheses/Bez2.lean
++++ b/src/Development/WeilBound/RepresentationTheoryGL/UnitaryDualProof/TwistedPieces/IntegralParts/BezoutHypotheses/Bez2.lean
+@@ -42,7 +42,5 @@
+   · rw [aeval_prod_lin R γ b]; exact h1
+   · rw [aeval_prod_linear_factors R β γ a]
+     convert hQ using 3
+-    refine List.map_congr_left fun x _ => ?_
+-    rfl
+ 
+ end PositivityTheory.RgUd.TP.Nil.Asm

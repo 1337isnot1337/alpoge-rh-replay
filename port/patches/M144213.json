@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.DegreeFormula.PointDegree.PowSum",
+  "source_sha256": "fa943b277388a27a71985dd0625795ac07a39204e11d5d5f67a06df24716ba59",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "MvPolynomial.coeff_add is now protected, so the unqualified coeff_add no longer resolves with MvPolynomial open; name it. Proof-only change.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}

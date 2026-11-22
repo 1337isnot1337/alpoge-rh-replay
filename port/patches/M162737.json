@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.HarishChandraCentre.Fischer",
+  "source_sha256": "5962c4be67c3fc6c35dc0132efc322eb216f9e9026b6a1d404af7d38f66c262a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The coefficient accessor is now the polynomial coefficient projection instead of the removed MvPolynomial.coeff alias. Statements and wtProj still use the identical coefficients of the same finitely supported polynomial; this is definitionally the pinned operation. Proofs expose pointwise addition and zero.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

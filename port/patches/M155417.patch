@@ -1,0 +1,38 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/IsometryFunctionSpace/InstFintypeOE.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/IsometryFunctionSpace/InstFintypeOE.lean
+@@ -18,11 +18,11 @@
+   unfold ColChoice; infer_instance
+ 
+ def linW {σ : Type} (w : (σ →₀ ℕ) → ℂ) : MvPolynomial σ ℂ →ₗ[ℂ] ℂ where
+-  toFun P := ∑ α ∈ P.support, coeff α P * w α
++  toFun P := ∑ α ∈ P.support, P.coeff α * w α
+   map_add' P Q := by
+     classical
+     have key : ∀ (R : MvPolynomial σ ℂ) (S : Finset (σ →₀ ℕ)), R.support ⊆ S →
+-        ∑ α ∈ R.support, coeff α R * w α = ∑ α ∈ S, coeff α R * w α := by
++        ∑ α ∈ R.support, R.coeff α * w α = ∑ α ∈ S, R.coeff α * w α := by
+       intro R S hS
+       refine Finset.sum_subset hS (fun α _ hα => ?_)
+       rw [MvPolynomial.mem_support_iff, not_not] at hα
+@@ -31,18 +31,18 @@
+       key P (P.support ∪ Q.support) subset_union_left,
+       key Q (P.support ∪ Q.support) subset_union_right, ← Finset.sum_add_distrib]
+     refine Finset.sum_congr rfl (fun α _ => ?_)
+-    rw [coeff_add, add_mul]
++    simp only [AddMonoidAlgebra.coeff_add, Finsupp.add_apply, add_mul]
+   map_smul' c P := by
+     simp only [RingHom.id_apply, smul_eq_mul]
+     rw [Finset.mul_sum]
+     refine (Finset.sum_subset support_smul (fun α _ hα => ?_)).trans ?_
+     · rw [MvPolynomial.mem_support_iff, not_not] at hα
+-      simp [hα]
++      rw [hα, zero_mul]
+     · refine Finset.sum_congr rfl (fun α _ => ?_)
+       rw [coeff_smul, smul_eq_mul, mul_assoc]
+ 
+ theorem linW_apply {σ : Type} (w : (σ →₀ ℕ) → ℂ) (P : MvPolynomial σ ℂ) :
+-    linW w P = ∑ α ∈ P.support, coeff α P * w α := rfl
++    linW w P = ∑ α ∈ P.support, P.coeff α * w α := rfl
+ 
+ def wTh {T : Type} [Fintype T] {N N' : ℕ} (Θ : VC T N N' → ℂ) (α : Mono T N N') : ℂ :=
+   (α.prod fun _ n => (n.factorial : ℂ)) * taylor Θ α

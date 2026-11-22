@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ResultantValuation.ResultantAdjugateProofs.Window",
+  "source_sha256": "e295ed23d055e6354f6adda7973803bb21897eb5c4016e7fa8c5ac2ba2c850a9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite padicValNat with Nat.padicValNat_def before using the target multiplicity multiplication, prime-power, and nondivisibility lemmas. This explicitly applies the target theorem equating padicValNat with multiplicity, then the same valuation identities under the existing nonzero and prime hypotheses. Only the proof of the local equality hv changes; all definitions and theorem statements are unchanged."
+}

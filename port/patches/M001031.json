@@ -1,0 +1,7 @@
+{
+  "module": "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarMapLinearScalingByDeterminant",
+  "source_sha256": "63fe63b54606a95227ba6aaef696e164cb5568bb4ca9abf30feea52c30a68efa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the original product-coercion theorem under its current canonical name ENNReal.ofNNReal_finsetProd. Supply both new Measure.map_smul measurability premises from the existing measurable_mulVec lemma via .aemeasurable. All affected matrix actions are globally measurable under the original hypotheses, preserving their pushforwards; statements, definitions, assumptions, imports, options and limits are unchanged."
+}

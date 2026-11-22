@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.GL2CharacterZeros",
+  "source_sha256": "b2d0b07e320b87a1810207385b5040cee4c4bc5c414d2a27eca050406d159339",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

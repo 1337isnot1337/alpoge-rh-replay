@@ -1,0 +1,20 @@
+--- a/src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean
++++ b/src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean
+@@ -196,7 +196,7 @@
+ theorem norm_sqrt_apply (C : H →L[ℂ] K) (x : H) :
+     ‖(CFC.sqrt (adjoint C ∘L C) : H →L[ℂ] H) x‖ = ‖C x‖ := by
+   have hp : (0 : H →L[ℂ] H) ≤ adjoint C ∘L C :=
+-    (nonneg_iff_isPositive _).2 (isPositive_adjoint_comp_self C)
++    nonneg_iff_isPositive.2 (isPositive_adjoint_comp_self C)
+   set A : H →L[ℂ] H := CFC.sqrt (adjoint C ∘L C)
+   have hA : IsSelfAdjoint A := IsSelfAdjoint.of_nonneg (CFC.sqrt_nonneg _)
+   have h2 : A * A = adjoint C ∘L C := CFC.sqrt_mul_sqrt_self _ hp
+@@ -626,7 +626,7 @@
+     intro x
+     simp [Set.indicator_apply]
+   simp only [h1, h2, map_sum, map_smul]
+-  rw [integral_finset_sum]
++  rw [integral_finsetSum]
+   · refine Finset.sum_congr rfl fun w _ => ?_
+     rw [integral_indicator_const _ (hF _).measurableSet, Complex.coe_smul]
+   · intro w _

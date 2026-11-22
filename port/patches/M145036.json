@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GaloisCohomology.StatementAlg",
+  "source_sha256": "fa84a5c3ac6a0b4f69e307876540c1017a5b6a79e233e7aa8071934c6e25e737",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0212-lean436-20261121/packet-result.json"
+}

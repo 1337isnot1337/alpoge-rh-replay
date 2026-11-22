@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.FactorialWeightedPairingDetPowProportional",
+  "source_sha256": "0f7b22dc0342c130826050ada52d0a9a97f9510a2a4b82bf5fc296e7af7f3441",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace the removed degree-first polynomial coefficient function by the same coefficient projection with polynomial first. The coefficient value is definitionally unchanged, including every occurrence in definitions and theorem statements.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0197-lean436-20261121/packet-result.json"
+}

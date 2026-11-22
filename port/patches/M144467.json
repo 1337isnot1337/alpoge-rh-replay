@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FockGram.FockGramProofs.FockPerm",
+  "source_sha256": "dffa789ad5ef30ce85757abf79a13631b264bf1b69d83a3a3e4ee4ae17f42160",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "MvPolynomial.coeff_add is now protected, so name it, and the removed alias mem_vars is mem_vars_iff_mem_support. Proof-only change.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}

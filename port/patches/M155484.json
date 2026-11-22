@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LFunctionMinors.FintypeColChoice",
+  "source_sha256": "e73b99700afbc4028760e2673fc2ef021b01526c72f81f3135b383149c15b1f4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current multivariate polynomial coefficient projection."
+}

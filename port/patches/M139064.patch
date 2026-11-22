@@ -1,0 +1,17 @@
+--- a/src/Development/WeilBound/CoreStatements/PadicHodgeComparison/EtaleCohomologyComparison/PerfectoidPullbacks/ConeSectionRestriction/InfinityCoordAlgebraicIndependent.lean
++++ b/src/Development/WeilBound/CoreStatements/PadicHodgeComparison/EtaleCohomologyComparison/PerfectoidPullbacks/ConeSectionRestriction/InfinityCoordAlgebraicIndependent.lean
+@@ -212,11 +212,11 @@
+   rw [hf, mul_zero] at hg
+   have hg0 : g = 0 := ht (hg.trans (map_zero _).symm)
+   ext β
+-  rw [MvPolynomial.coeff_zero]
++  rw [AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply]
+   by_contra hβ
+   have hβ' : β ∈ f.support := MvPolynomial.mem_support_iff.2 hβ
+-  have := congrArg (MvPolynomial.coeff (h β)) hg0
+-  rw [MvPolynomial.coeff_zero, MvPolynomial.coeff_sum, Finset.sum_eq_single β] at this
++  have := congrArg (fun p : MvPolynomial (Fin (n + 1)) K => p.coeff (h β)) hg0
++  rw [AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply, MvPolynomial.coeff_sum, Finset.sum_eq_single β] at this
+   · rw [MvPolynomial.coeff_monomial, if_pos rfl] at this
+     exact hβ this
+   · intro α hα hne

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ZeroWindow.RightHalfWith",
+  "source_sha256": "21f6803fde8204a12cb31f43fc2c9d7bbe1e972a22c713afc756a783d228ce41",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

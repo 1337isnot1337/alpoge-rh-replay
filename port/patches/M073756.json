@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RowTEqRowS",
+  "source_sha256": "9c99cbb1d6e2ab03e875867a4455964d07ac97c0a6a5e7d44b59d944672b1629",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

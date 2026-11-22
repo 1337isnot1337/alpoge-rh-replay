@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.EllipticTorsion.Statement",
+  "source_sha256": "669883db0cfbf3d8022288cc48ea0617d7084b047eab6a255180fb846ab80077",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "MvPowerSeries.pderiv now takes its coefficient ring implicitly, so the statement passes it by name as (R := K); the term is the same, so the proposition is unchanged.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}

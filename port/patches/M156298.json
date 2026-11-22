@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PolynomialDifferentialWords.DivideAll",
+  "source_sha256": "810afa66394ba8f72cf7444f565fa2e7d84eb39309bf2763fd2cb4217c93ee6e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite the zero polynomial coefficient projection and then evaluate the zero finitely supported function."
+}

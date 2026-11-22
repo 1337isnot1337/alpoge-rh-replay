@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.IsFlagIntegralOne",
+  "source_sha256": "0f8649bffe1826aea0dbe91d95cebe1ef9ca36102cef3c02d672e2365573891b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the polynomial coefficient accessor with reordered arguments in the Frobenius character definition. The selected monomial and polynomial are unchanged."
+}

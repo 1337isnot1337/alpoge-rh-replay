@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.FlagImmersions.PolarizationCoefficientsBound",
+  "source_sha256": "fcb69a898f59ed238cd4eb5128c67946f1085697bd3eafb15a1f8ee522c7f336",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged Replace the removed coefficient function with the same polynomial coefficient projection; coefficient values, including any occurrences in statements, are definitionally unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0144-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PGenericFibreRadicalPrime.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PGenericFibreRadicalPrime.lean
+@@ -226,7 +226,7 @@
+   have hψD : ψ D ≠ 0 := by
+     intro h0'
+     apply ht₂
+-    have := congrArg (MvPolynomial.coeff μ) h0'
++    have := congrArg (fun p : MvPolynomial (Fin d) ℂ => p.coeff μ) h0'
+     simpa [ψ, MvPolynomial.coeff_map] using this
+ 
+   have hnzd : ∀ (k : ℕ) (g : MvPolynomial ι ℂ), φ (aeval y D) ^ k * g ∈ K.map φ → g ∈ K.map φ := by

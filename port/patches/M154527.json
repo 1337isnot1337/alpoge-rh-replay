@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CharacterIdempotents.Development",
+  "source_sha256": "743129248ee287ba86bec5f3e8b9fb5aedb0b92fc337fde5c9c674d48e4167e0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PFlagIntMuProdSlice",
+  "source_sha256": "9ec237999047314e9049e626372694a510d01998d003050bb33caab4022b0862",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the target polynomial coefficient accessor and the injective mapDomain lemma in the same product expansion."
+}

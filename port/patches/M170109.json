@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.PAdicHodge.PerfectoidCriterion",
+  "source_sha256": "1c4f26d5654f3b6eb9b5e8cd9bb2638def24e5de220459aa4493082cb9290014",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0166-issue-26976/P0166-receipt.json"
+}

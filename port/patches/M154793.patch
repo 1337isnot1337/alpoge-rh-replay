@@ -1,0 +1,11 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/DiagonalRank/DetOneSubPNe.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/DiagonalRank/DetOneSubPNe.lean
+@@ -29,7 +29,7 @@
+   have hnp : ‖(p : ℚ_[p]) ^ (D + 1)‖ = (p : ℝ) ^ (-(D + 1)) := by
+     rw [norm_zpow, Padic.norm_p, inv_zpow', zpow_neg]
+   refine ⟨⟨x / (p : ℚ_[p]) ^ (D + 1), ?_⟩, ?_⟩
+-  · rw [norm_div, hnp, Padic.norm_eq_zpow_neg_valuation h0]
++  · rw [PadicInt.mem_subring_iff, norm_div, hnp, Padic.norm_eq_zpow_neg_valuation h0]
+     rw [div_le_one (zpow_pos (by linarith) _)]
+     exact zpow_le_zpow_right₀ hp1.le (by omega)
+   · show x = (p : ℚ_[p]) ^ (D + 1) * (x / (p : ℚ_[p]) ^ (D + 1))

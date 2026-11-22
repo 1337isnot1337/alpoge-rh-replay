@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CoboundaryTransfers.GammaStableTransfers.DiffOneSmulOfTower",
+  "source_sha256": "f36d97c262a5e500c0526883d0e49b2ee2d4ef13aa1bfbefc1eabeab1d46f1ac",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}

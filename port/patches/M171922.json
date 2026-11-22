@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.GeometryOfNumbers.PluriharmonicAnalysis.BergmanDerivSt",
+  "source_sha256": "291f47b0345a88890bae62057211deb7aab98feefcf8396d9f93fbc0a113549d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffAnnihilatedOfAevalMemKerPowStatement",
+  "source_sha256": "d84774813f450c05036f9ed401465401275c89c9247db9c5d752366d5bc73832",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace the two removed MvPolynomial.coeff α P applications in coeff_annihilated_of_aeval_mem_ker_pow with P.coeff α. The replay-pinned Mathlib accessor MvPolynomial.coeff e p is defined as @DFunLike.coe ((σ →₀ ℕ) →₀ R) _ _ _ (AddMonoidAlgebra.coeff p) e; target notation p.coeff e is exactly that application. Thus the changed theorem-statement spellings are definitionally equivalent. Coefficient rings, polynomial operands, indices, binders, hypotheses and conclusions are preserved, and the proof, imports and Lean options are unchanged. The exact old accessor body was independently checked against Mathlib commit 0df444a360eaa60ab8c11dca51a86af692955474/Mathlib/Algebra/MvPolynomial/Basic.lean, and its equality to field notation was proved by rfl in the existing coefficient compatibility probe. The resulting wrapper type equals the already landed prerequisite theorem GlobalTheory.TriangularityLowCoeff.exists_mul_coeff_eq_zero after quantifying its existing explicit d,N parameters and omitting redundant parentheses around P."
+}

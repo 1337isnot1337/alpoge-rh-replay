@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardSubtypeEqOfMultiset",
+  "source_sha256": "676a4f603a2c1f302f5b58428f61e22f3fd1b0f80fc98f5d916ae0be7cda379d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.EtaleCohomology.CohomologicalPurity.LeafColHensPf",
+  "source_sha256": "d9efd5109ee3ba8fe7d82c8cea796ceb01c61d51e13716bbfc488ed995c43d6b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the target lemma names or updated explicit map argument for the same operations and hypotheses. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0143-lean436-20261121/packet-result.json"
+}

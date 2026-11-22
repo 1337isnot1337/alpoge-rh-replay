@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsSepClosedResidueFieldPowerSeriesComplex",
+  "source_sha256": "023d2e3a7a9781019145701f881e56d233ae4c08fe58726c0b5a4acbe5d22175",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the underlying morphism of each categorical endomorphism and its composition law."
+}

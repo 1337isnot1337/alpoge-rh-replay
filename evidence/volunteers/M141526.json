@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    "M141526"
+  ],
+  "started_utc": "2026-11-21T22:27:46.239477+00:00",
+  "ended_utc": "2026-11-21T22:28:46.700423+00:00",
+  "elapsed_seconds": 60.5,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 8024536,
+    "peak_child_rss_kib": 6519812
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.RepresentationTheoryGL.CasimirAlgebra.TensorRelationsGL.KTypeData:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f8debfbf90ac1b83187194d7caee22de081d600483aa2976a54a5ad5efca9734",
+  "rebuilt_project_modules": [
+    "Formalism.RealPlaceAnalysis.StatementB",
+    "Formalism.RealPlaceAnalysis.StatementE"
+  ],
+  "objects": {
+    "M141526": "c6c9fc5844c70616bdba900b5f5c6867bb7a19a9b3200552db95c19b6377bcaf"
+  },
+  "bundle_sha256": "ba9011b73f5a56100da325e7ab9b16d6215ae4ae858a2a40677b4f19956c83f9",
+  "packet": "M141526",
+  "contributor": "BenCaunt",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/10533#issuecomment-7070210693",
+  "reviewed_utc": "2026-11-22T00:49:06.158003+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44967790389",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.WeilBound.RepresentationTheoryGL.CasimirAlgebra.TensorRelationsGL.KTypeData"
+    ]
+  }
+}

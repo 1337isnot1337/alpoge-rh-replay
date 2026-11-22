@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockHarmonicSplitting.FockInnerSelfReNonneg",
+  "source_sha256": "3e682b5a7dce5aa61b4383cfbd782d6024963748c876c693eabf11de9f6fd1ec",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current polynomial coefficient projection and the coefficient laws inherited from AddMonoidAlgebra."
+}

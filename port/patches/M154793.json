@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DiagonalRank.DetOneSubPNe",
+  "source_sha256": "d3f9c3fed3ce225e22ac767e5d8d2340742a76e9ae8b0e7841aaa1c81fdad30d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite membership in the p-adic integer subring as the norm bound before applying the norm lemmas."
+}

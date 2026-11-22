@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.KernelRankAlgebraicBound",
+  "source_sha256": "73fc216bcb6a1e03b84117af57fd778e587c18fb410a6adaf726165e79f91ff6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: rewrite the local natural valuation to multiplicity using Nat.padicValNat_def and use the corresponding prime-power and product lemmas, preserving exported statements. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0145-lean436-20261121/packet-result.json"
+}

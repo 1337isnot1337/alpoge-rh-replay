@@ -1,0 +1,82 @@
+--- a/src/GroundTheory/AutomorphicForms/HilbertSchmidtKernel.lean
++++ b/src/GroundTheory/AutomorphicForms/HilbertSchmidtKernel.lean
+@@ -24,10 +24,15 @@
+         norm_num
+ 
+ theorem eLpNorm_two_sq {α E : Type*} [MeasurableSpace α] [NormedAddCommGroup E] (μ : Measure α)
+-    (g : α → E) : eLpNorm g 2 μ ^ 2 = ∫⁻ a, ‖g a‖ₑ ^ 2 ∂μ := by
+-  rw [eLpNorm_eq_lintegral_rpow_enorm_toReal two_ne_zero ENNReal.ofNat_ne_top,
+-    ENNReal.toReal_ofNat, ← ENNReal.rpow_natCast, ← ENNReal.rpow_mul]
++    (g : α → E) : eLpNorm' g 2 μ ^ 2 = ∫⁻ a, ‖g a‖ₑ ^ 2 ∂μ := by
++  rw [eLpNorm'_eq_lintegral_eNorm, ← ENNReal.rpow_natCast, ← ENNReal.rpow_mul]
+   norm_num [ENNReal.rpow_two]
++
++private theorem measurable_eLpNorm_two_sq {α E : Type*} [MeasurableSpace α]
++    [NormedAddCommGroup E] (μ : Measure α) (g : α → E)
++    (hg : AEStronglyMeasurable g μ) : eLpNorm g 2 μ ^ 2 = ∫⁻ a, ‖g a‖ₑ ^ 2 ∂μ := by
++  rw [eLpNorm_eq_eLpNorm' two_ne_zero ENNReal.ofNat_ne_top hg, ENNReal.toReal_ofNat]
++  exact eLpNorm_two_sq μ g
+ 
+ theorem lt_top_of_sq_lt_top {a : ℝ≥0∞} (h : a ^ 2 < ∞) : a < ∞ := by
+   by_contra hc
+@@ -53,7 +58,7 @@
+ 
+ theorem lintegral_rowSq : ∫⁻ x, ∫⁻ y, ‖k (x, y)‖ₑ ^ 2 ∂ν ∂μ = ‖k‖ₑ ^ 2 := by
+   rw [← lintegral_prod _ ((Lp.stronglyMeasurable k).measurable.enorm.pow_const 2).aemeasurable,
+-    Lp.enorm_def, eLpNorm_two_sq]
++    Lp.enorm_def, measurable_eLpNorm_two_sq _ _ (Lp.aestronglyMeasurable k)]
+ 
+ theorem ae_rowSq_lt_top : ∀ᵐ x ∂μ, ∫⁻ y, ‖k (x, y)‖ₑ ^ 2 ∂ν < ∞ := by
+   refine ae_lt_top (measurable_rowSq k) ?_
+@@ -61,7 +66,7 @@
+   exact (ENNReal.pow_lt_top enorm_lt_top).ne
+ 
+ theorem enorm_Lp_sq (f : Lp 𝕜 2 ν) : ‖f‖ₑ ^ 2 = ∫⁻ y, ‖f y‖ₑ ^ 2 ∂ν := by
+-  rw [Lp.enorm_def, eLpNorm_two_sq]
++  rw [Lp.enorm_def, measurable_eLpNorm_two_sq _ _ (Lp.aestronglyMeasurable f)]
+ 
+ theorem measurable_row (x : X) : Measurable fun y => k (x, y) :=
+   (Lp.stronglyMeasurable k).measurable.comp measurable_prodMk_left
+@@ -91,8 +96,9 @@
+         rw [lintegral_mul_const _ (measurable_rowSq k), lintegral_rowSq]
+ 
+ theorem memLp_kernelFun (f : Lp 𝕜 2 ν) : MemLp (kernelFun (ν := ν) k f) 2 μ := by
+-  refine ⟨aestronglyMeasurable_kernelFun k f, lt_top_of_sq_lt_top ?_⟩
+-  rw [eLpNorm_two_sq]
++  change eLpNorm (kernelFun (ν := ν) k f) 2 μ < ∞
++  refine lt_top_of_sq_lt_top ?_
++  rw [measurable_eLpNorm_two_sq _ _ (aestronglyMeasurable_kernelFun k f)]
+   exact (lintegral_kernelFun_sq_le k f).trans_lt
+     (ENNReal.mul_lt_top (ENNReal.pow_lt_top enorm_lt_top) (ENNReal.pow_lt_top enorm_lt_top))
+ 
+@@ -132,8 +138,8 @@
+ 
+ theorem enorm_kernelOpₗ_sq (f : Lp 𝕜 2 ν) :
+     ‖kernelOpₗ k f‖ₑ ^ 2 = ∫⁻ x, ‖kernelFun (ν := ν) k f x‖ₑ ^ 2 ∂μ := by
+-  rw [Lp.enorm_def, eLpNorm_congr_ae (kernelOpₗ_apply_ae k f), eLpNorm_two_sq]
+-  rfl
++  rw [Lp.enorm_def, eLpNorm_congr_ae (kernelOpₗ_apply_ae k f)]
++  exact measurable_eLpNorm_two_sq _ _ (aestronglyMeasurable_kernelFun k f)
+ 
+ theorem norm_kernelOpₗ_le (f : Lp 𝕜 2 ν) : ‖kernelOpₗ k f‖ ≤ ‖k‖ * ‖f‖ := by
+   have h : ‖kernelOpₗ k f‖ₑ ^ 2 ≤ (‖k‖ₑ * ‖f‖ₑ) ^ 2 := by
+@@ -156,12 +162,15 @@
+   have hconj : ∀ y, ‖conj (k (x, y))‖ₑ = ‖k (x, y)‖ₑ := fun y => by
+     rw [← ofReal_norm, ← ofReal_norm, RCLike.norm_conj]
+   have hm : MemLp (fun y => conj (k (x, y))) 2 ν := by
+-    refine ⟨(RCLike.continuous_conj.comp_aestronglyMeasurable
+-      (measurable_row k x).aestronglyMeasurable), lt_top_of_sq_lt_top ?_⟩
+-    rw [eLpNorm_two_sq]
++    change eLpNorm (fun y => conj (k (x, y))) 2 ν < ∞
++    refine lt_top_of_sq_lt_top ?_
++    rw [measurable_eLpNorm_two_sq _ _
++      (RCLike.continuous_conj.comp_aestronglyMeasurable
++        (measurable_row k x).aestronglyMeasurable)]
+     simpa only [hconj] using hx
+   refine ⟨hm.toLp _, ?_, fun f => ?_⟩
+-  · rw [Lp.enorm_def, eLpNorm_congr_ae hm.coeFn_toLp, eLpNorm_two_sq]
++  · rw [Lp.enorm_def, eLpNorm_congr_ae hm.coeFn_toLp,
++      measurable_eLpNorm_two_sq _ _ hm.aestronglyMeasurable]
+     simp only [hconj]
+   · rw [MeasureTheory.L2.inner_def, kernelFun]
+     refine integral_congr_ae ?_

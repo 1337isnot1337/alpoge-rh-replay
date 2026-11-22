@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.RankGapBounds.GridNumericalHypotheses",
+  "source_sha256": "060f70cfaf69d0056c721ccfdd322c3ae693b0b96c40ef7bd2a894bd273e4e88",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

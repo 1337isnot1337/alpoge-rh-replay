@@ -1,0 +1,20 @@
+--- a/src/Formalism/GL3MeanSquares/HookFormulaTorsion/OrthogonalMinorBound.lean
++++ b/src/Formalism/GL3MeanSquares/HookFormulaTorsion/OrthogonalMinorBound.lean
+@@ -80,7 +80,7 @@
+     have := hR.eigenvalues_nonneg i
+     linarith
+   calc (1 : ℝ) = ∏ _i : Fin r, (1 : ℝ) := by simp
+-    _ ≤ _ := Finset.prod_le_prod (fun _ _ => zero_le_one) this
++    _ ≤ _ := Finset.prod_le_prod₀ (fun _ _ => zero_le_one) this
+ 
+ private lemma minor_le_gram {r n : ℕ} (A : Matrix (Fin r) (Fin n) ℂ) (e : Fin r → Fin n)
+     (he : Function.Injective e) :
+@@ -102,7 +102,7 @@
+     split_ifs <;> simp
+   have hsplit : A * A.conjTranspose = B * B.conjTranspose + Q := by
+     ext i k
+-    rw [hQ, hB, Matrix.add_apply, mul_apply, mul_apply, mul_apply]
++    rw [hQ, hB, Matrix.add_apply, Matrix.mul_apply, Matrix.mul_apply, Matrix.mul_apply]
+     simp only [mul_diagonal, conjTranspose_apply, submatrix_apply, id]
+     have h1 : ∑ l, A i (e l) * star (A k (e l))
+         = ∑ j, if j ∈ Set.range e then A i j * star (A k j) else 0 := by

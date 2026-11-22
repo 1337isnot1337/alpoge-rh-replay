@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.RealPointModes",
+  "source_sha256": "f85d49e956e7f122bce3235d67b4eb50c91cd07f3af4072b147496aa60f36036",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

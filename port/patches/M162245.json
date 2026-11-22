@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ArithmeticGeometry.AbelianVarieties.JacobianSmoothness.SmoothOfRegular",
+  "source_sha256": "68db3f01f8115fc0f4363a3d9b734ebfbfb6cbb5a01c84a641d7aaa4bf3821fc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0159-lean436-20261121/packet-result.json"
+}

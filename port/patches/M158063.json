@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ResultantValuation.ResultantAdjugateProofs.Adjugate",
+  "source_sha256": "eb81d5d70b6b79d0d45e3b636fb7c51361a7a7e4812705327e4e9d001f401ef3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify mul_apply and one_apply with Matrix so rewriting uses matrix multiplication and the identity matrix, rather than the function-operation lemmas now selected by unqualified name resolution. The same matrix-entry formulas and proof steps are used. Only the proof of mulVec_adjugate_col changes; all definitions and theorem statements are unchanged."
+}

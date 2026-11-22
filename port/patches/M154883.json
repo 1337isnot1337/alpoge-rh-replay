@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialIntegrality.Development",
+  "source_sha256": "79593ce00354fb19f63a6b8c5120f606faf47ac6e4915e0e6edafc462ff514e8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

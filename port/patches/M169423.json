@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Pluecker",
+  "source_sha256": "27c1855a118f6c14774084b2ab72c1c9bcab523873436e007f64a3318e70fbff",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify the multiplication-entry lemma in the determinant expansion and trace evaluation."
+}

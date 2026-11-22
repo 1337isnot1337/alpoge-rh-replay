@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.AbstractCompleteReducibilityStatement",
+  "source_sha256": "f32f2944dd0256adee7512d49aa8f48813916e6486f1a7773542df92f2d6258b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
