@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.SemistableReduction.SphereTorusB",
+  "source_sha256": "55b064d5f5456e8a09632d59b0805e4af013df667756c473eb695a6936e6a420",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0236-lean436-20261121/packet-result.json"
+}

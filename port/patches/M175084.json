@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.SemistableReduction.GaussValLeIffDivMem",
+  "source_sha256": "1d8d6a5b352c61814a3a41882c263263c928ad34a2eba77da2359e23259367e4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0236-lean436-20261121/packet-result.json"
+}
