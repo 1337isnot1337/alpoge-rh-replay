@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.BoundedOfIsIntegral",
+  "source_sha256": "94f3dd1b67d8465e569055c3d6c17d89b2f1aa985f75875cbc402ef9c7464081",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Construct the commutative adjoin through the current pairwise-commutativity API and use the updated integrality iff lemma."
+}

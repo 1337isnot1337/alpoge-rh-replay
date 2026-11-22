@@ -1,0 +1,31 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/BoundedOfIsIntegral.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/BoundedOfIsIntegral.lean
+@@ -10,11 +10,16 @@
+ theorem isIntegral_mul_of_commute {R A : Type} [CommRing R] [Ring A] [Algebra R A] {x y : A}
+     (hc : Commute x y) (hx : IsIntegral R x) (hy : IsIntegral R y) : IsIntegral R (x * y) := by
+   let S := Algebra.adjoin R ({x, y} : Set A)
+-  letI : CommRing S := Algebra.adjoinCommRingOfComm R (by
+-    intro a ha b hb
++  have hcomm : ({x, y} : Set A).Pairwise Commute := by
++    intro a ha b hb _
+     simp only [Set.mem_insert_iff, Set.mem_singleton_iff] at ha hb
+     rcases ha with rfl | rfl <;> rcases hb with rfl | rfl
+-    exacts [rfl, hc.eq, hc.eq.symm, rfl])
++    · exact Commute.refl _
++    · exact hc
++    · exact hc.symm
++    · exact Commute.refl _
++  letI : IsMulCommutative S := Algebra.isMulCommutative_adjoin R hcomm
++  letI : CommRing S := { S.toRing with mul_comm := fun a b => mul_comm' a b }
+   have hx' : x ∈ S := Algebra.subset_adjoin (by simp)
+   have hy' : y ∈ S := Algebra.subset_adjoin (by simp)
+   have h1 : IsIntegral R (⟨x, hx'⟩ : S) :=
+@@ -32,7 +37,7 @@
+   have htr : algebraMap K L M.trace = (φ M).trace := by
+     simp only [Matrix.trace, Matrix.diag, map_sum]
+     rfl
+-  rw [← isIntegral_algebraMap_iff (A := K) (B := L) (algebraMap K L).injective, htr,
++  rw [← isIntegral_algebraMap_iff (A := K) (B := L), htr,
+     Matrix.trace_eq_sum_roots_charpoly]
+   refine IsIntegral.multiset_sum fun μ hμ => ?_
+   have hroot : IsRoot (φ M).charpoly μ := (mem_roots'.1 hμ).2
