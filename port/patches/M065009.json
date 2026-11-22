@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.HermitianFormFiniteZerosOnLineCmExt",
+  "source_sha256": "bd22c39ed0731cd47d65396ea5d3d2cdbe170721269210589a532d5241d4ee7a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use typed field notation for the second polynomial coefficient."
+}
