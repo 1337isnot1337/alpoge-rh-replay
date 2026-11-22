@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.BorelHarishChandra",
+  "source_sha256": "3267b9fb0b5d0f40916a4883a8a4310c6cccdb755ce3b905b7064783c0701043",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
