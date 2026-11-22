@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HTransABTwoZero",
+  "source_sha256": "38c13aaa708486725766d8491c6c69ddb8c0a3c72d71471268dd4f97a6387db9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
