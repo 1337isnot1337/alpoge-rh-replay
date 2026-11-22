@@ -1,0 +1,359 @@
+{
+  "target": "P0179",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/29162",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "build_base_commit": "cdfdd90acc4cfa12349e8d717fd1c60f624ff266",
+  "port_record_commit": "be308838b2a32a58e5b59e24530f40775d7b6148",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "build_log_sha256": "7eff6062bbc55a1348a59b490831324a5020ab31e93d740aa21d376439084c03",
+  "audit": {
+    "command": "lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsExteriorAlgebraExtensionOfFrobeniusSemilin",
+    "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
+    "result": "islattice-audit: 1 module(s), 0 hit(s)"
+  },
+  "modules": [
+    {
+      "id": "M025128",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsExteriorAlgebraExtensionOfFrobeniusSemilin",
+      "source_sha256": "1363b20e5e48e54a2162c537ae26f803b48937e48e76c22cd46e39f5e19c7718",
+      "patch_sha256": null,
+      "built_source_sha256": "1363b20e5e48e54a2162c537ae26f803b48937e48e76c22cd46e39f5e19c7718",
+      "olean_sha256": "3ce54790a4eeacc431f497e15065a9ed7b60246f87baa152b7bb9ad3f48de69d",
+      "exit_code": 0,
+      "validated_output": "reused"
+    }
+  ],
+  "project_imports": [
+    {
+      "id": "M003673",
+      "module": "Development.AbelianVarietyTheory.Definitions.Divisors.IsFlatLift",
+      "source_sha256": "54f08b8eb8c092b4f2f076d8c3cc8fe17f32788bd7041e170d1d0030a541a7b6",
+      "patch_sha256": null,
+      "built_source_sha256": "54f08b8eb8c092b4f2f076d8c3cc8fe17f32788bd7041e170d1d0030a541a7b6",
+      "port_record_sha256": "43434f091d7498c81f3741ea47035199df8ed29f4e1f8bb80b9058346f773ce5"
+    },
+    {
+      "id": "M004896",
+      "module": "Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.IsIsoTermComparisonRestrictScalars",
+      "source_sha256": "d08b8ee1bdd997b04bb81bbe7dea4976d7cf081ebe65975937fd798bd1ccb89f",
+      "patch_sha256": null,
+      "built_source_sha256": "d08b8ee1bdd997b04bb81bbe7dea4976d7cf081ebe65975937fd798bd1ccb89f",
+      "port_record_sha256": "c3d631b59c2424fc39376b0eedb661c9aa5d835841f16a3cbf3e0564a6d1ec57"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M022730",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleAwayQuotientEqLocalization",
+      "missing_imports": [
+        "M042135",
+        "M042148",
+        "M044239"
+      ]
+    },
+    {
+      "id": "M022743",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleChartLocalizationFiniteTypeFormallyUnramifiStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M022903",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleLocalizationAtPrimeTensorOfLowHeight",
+      "missing_imports": []
+    },
+    {
+      "id": "M022905",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleLocalizationOfInjectiveCokernelKilled",
+      "missing_imports": []
+    },
+    {
+      "id": "M022910",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraicStatement",
+      "missing_imports": [
+        "M022909"
+      ]
+    },
+    {
+      "id": "M022922",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleNbhdLocalRingToHenselisationAlgebraMapStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M022926",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleNbhdLocalRingTransitionMapIsLocalHomInjectiStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M022942",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleOverDirectedUnionEssEtaleLocal",
+      "missing_imports": []
+    },
+    {
+      "id": "M023055",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EvalQuotientRingVectorAtPointsInjective",
+      "missing_imports": [
+        "M043083"
+      ]
+    },
+    {
+      "id": "M023269",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsActionFactorThroughTensorCharacterStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M023351",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsAdmissibleIsUnitDetLocalInvolution",
+      "missing_imports": []
+    },
+    {
+      "id": "M023597",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBalancedUnitMultipleTotallyReal",
+      "missing_imports": []
+    },
+    {
+      "id": "M023651",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasicOpenCoverIdealRepresents",
+      "missing_imports": []
+    },
+    {
+      "id": "M023691",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBasisOfLatticeSpan",
+      "missing_imports": []
+    },
+    {
+      "id": "M023738",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsBlockParabolicSubgroupLeviProjection",
+      "missing_imports": []
+    },
+    {
+      "id": "M023822",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCandidateBorelMoveOpenFramesBaireStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M023999",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsClosedImmersionRepresentsOfAffineOpens",
+      "missing_imports": []
+    },
+    {
+      "id": "M024199",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCompactOpenAddSubgroup",
+      "missing_imports": []
+    },
+    {
+      "id": "M024263",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCompleteDvrExtension",
+      "missing_imports": []
+    },
+    {
+      "id": "M024425",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsContinuousFiniteAdeleEquivRatInt",
+      "missing_imports": []
+    },
+    {
+      "id": "M024442",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsContinuousRepresentativeAverageStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M024479",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCoprimeMulIsIntegralOfPadicIntegralStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M024588",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsCyclicGeneratorsSeparableMinStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M024860",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvdMulPowEtaleNbhdZeroLocusStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M024871",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsDvrExtensionOfEssentiallyEtaleLocalStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M024968",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEqAlgebraMapOfIntegralAtHeightOnePrimesStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M024973",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEqMulApplyZero",
+      "missing_imports": []
+    },
+    {
+      "id": "M024998",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEquivLatticeClassesFibreSummand",
+      "missing_imports": []
+    },
+    {
+      "id": "M025025",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEtaleChartSmoothAlgebraLocalPointStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M025058",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEtalePolynomialModelOfDirectedUnionStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M025068",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsEvaluationExtensionClosureRepresentativesStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M025091",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsExcisionNbhdAdjoinRootStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M025234",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteAlgebraSplittingNormFormStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M025358",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteFreeEtaleLift",
+      "missing_imports": []
+    },
+    {
+      "id": "M025428",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFiniteRelIndexStabilizerCommensurableLattiStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M025498",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFinsetMemTensorPowerFirstFactorAdjoinFinseStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M025510",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFixedAverageApproxOfSubgroupFixedStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M025549",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsFlatIdealValuationRingPullbackStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M026102",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHeightOneValuationsControlSubgroup",
+      "missing_imports": [
+        "M080701"
+      ]
+    },
+    {
+      "id": "M026125",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHermitianModelOfNormNeZero",
+      "missing_imports": []
+    },
+    {
+      "id": "M026175",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomAffineHilbertBaseSectionRingHom",
+      "missing_imports": []
+    },
+    {
+      "id": "M026191",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsHomSpecProdSelfPreimageEqClopenStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M026247",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdealSheafComapEqOfOpenCover",
+      "missing_imports": []
+    },
+    {
+      "id": "M026291",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIdempotentTmulOneEqOfSmoothAlgebraStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M026343",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInjectiveNormLeOneOfFinitePadicIntDomainStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M026495",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntertwiningBijectiveOfFieldBaseChangeStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M026504",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvariantDerivationsQuotientBialgebraStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M026603",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsGamma",
+      "missing_imports": []
+    },
+    {
+      "id": "M026635",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsLocalRingQuotientPairwiseIsCoprimeIInfEqStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M026675",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIsUnitMulSubMemJacobsonOfFiniteResidueFiel",
+      "missing_imports": []
+    },
+    {
+      "id": "M026880",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLatticeRelativeLengthOfSmulLe",
+      "missing_imports": []
+    },
+    {
+      "id": "M027068",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftToCompleteDvrOfFinite",
+      "missing_imports": []
+    },
+    {
+      "id": "M027079",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLiftsOfSeparable",
+      "missing_imports": []
+    },
+    {
+      "id": "M027332",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalPushoutUnramifiedCharZero",
+      "missing_imports": []
+    },
+    {
+      "id": "M027369",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsLocalUnitOfDvrUnitStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M027521",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMemSubmonoidDvdMulOfForallHeightEqOneStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M027525",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMergeFibrePrimitivesConvexBoxes",
+      "missing_imports": []
+    },
+    {
+      "id": "M027531",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMinimalLocalGeneratorsStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M027599",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulEqMulSqOfFaithfullyFlatHeightOne",
+      "missing_imports": [
+        "M080701"
+      ]
+    }
+  ],
+  "pruned": [
+    "M022885",
+    "M022990"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsExteriorAlgebraExtensionOfFrobeniusSemilin",
+  "source_sha256": "1363b20e5e48e54a2162c537ae26f803b48937e48e76c22cd46e39f5e19c7718",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
