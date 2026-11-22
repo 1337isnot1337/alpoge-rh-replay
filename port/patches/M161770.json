@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ColChain",
+  "source_sha256": "275e7c54bfe67f31b6a40e7c5bc2901b1fa78badf039e4fb2fd9c594f05b43ce",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

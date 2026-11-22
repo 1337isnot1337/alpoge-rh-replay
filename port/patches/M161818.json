@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingFourier",
+  "source_sha256": "c2471b131581c153f76b21a19a5052f403ca40b44b9438b87f81129ced6cb29a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Give explicit types to the measurable functions on the product measure for Parseval."
+}

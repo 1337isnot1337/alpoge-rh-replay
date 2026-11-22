@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ColAssembly",
+  "source_sha256": "1701169554c58fc45d64ae449f8d40ec01a5e815f1e8dccfb4a231fd564866a0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ThetaSupremumBounds.GaussianShiftBounds.DominanceMono",
+  "source_sha256": "2d878dae8fc402fb7fd3248375c17f0c32c8fa7cf4350f83b8b36f2d7d5ca10c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

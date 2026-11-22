@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.TranslateCocycles.TranslateCocycleProofs.NetGLMapSurjective",
+  "source_sha256": "565e9491303efeda05badd7f732305387f4ec57d39768f103c1e552298a5d560",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

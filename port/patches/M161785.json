@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.RamifiedValuationInequality",
+  "source_sha256": "1e645943823d1f10c99d6e18d82c0f753f7d8205ecc9b4fb1f7202cc229c6f4e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

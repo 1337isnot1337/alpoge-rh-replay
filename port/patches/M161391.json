@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.TameInertiaTowers.CentralOrderTwo.DecompositionSubgroupIndex",
+  "source_sha256": "777e723cf46e4f9490d733b781b328a1ac395db8a3d6643155c8a045a2803069",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ThetaLogCoordinates.JacobiPathWeights.JacobiMinorProofs.ExistsSuppOfEvalNe",
+  "source_sha256": "ed757c53346285cb97a1a889dd6937b915b973f4e801f69d14be118e8b8c4103",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current polynomial coefficient projections and coefficient of zero."
+}

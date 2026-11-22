@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingLocal",
+  "source_sha256": "432b59727d8e8f11e4753524a1bf9ddf37f96e0b6f8d478b50fd591625688d6c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

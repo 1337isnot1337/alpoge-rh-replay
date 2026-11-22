@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.N0LeNs",
+  "source_sha256": "aa1946ed865d5b3776a48372512317c58f8b7d20362ba415991a7f097ff003e4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove extensionality steps closed by congruence."
+}

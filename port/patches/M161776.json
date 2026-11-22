@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.HCoefficientBound",
+  "source_sha256": "b827c1cfe7cc391bb4f64644f0e053631159d4a6f8997df01a7c251cc112cb5a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

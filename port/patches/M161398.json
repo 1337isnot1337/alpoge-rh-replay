@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.TameInertiaTowers.CentralOrderTwo.OrderOfThreeUnitsTwoPow",
+  "source_sha256": "2085dfaf2cde652c18dea7bd0559f3188f9a8da648a6474b5fb5574178d29b69",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

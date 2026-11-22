@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ThetaSupremumBounds.GaussianShiftBounds.BlockIntegralOf",
+  "source_sha256": "3ebe5f17eceab313186f6df7ef54224ea2f341cd362e52c054b790bb6bf10c79",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use product monotonicity with the factor nonnegativity hypotheses."
+}

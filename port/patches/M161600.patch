@@ -1,0 +1,13 @@
+--- a/src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/AtypicalWeightBoundOf.lean
++++ b/src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/AtypicalWeightBoundOf.lean
+@@ -438,10 +438,6 @@
+       ∑ i ∈ (Icc 1 D.n0).filter (fun i => (!D.vec i) = true), fT D.k' (D.B i : ℝ) := by
+     rw [← Finset.sum_filter_add_sum_filter_not (Icc 1 D.n0) (fun i => D.vec i = true)]
+     congr 1
+-    apply Finset.sum_congr _ (fun _ _ => rfl)
+-    apply Finset.filter_congr
+-    intro x _
+-    simp
+   have hSv := Formalism.InvariantFactorPaths.BranchingDimensions.TTyp.sum_lat (fun x : ℕ => fT D.k' (x : ℝ)) (fun l => D.vec l) D.B D.n0
+   have hSc := Formalism.InvariantFactorPaths.BranchingDimensions.TTyp.sum_lat (fun x : ℕ => fT D.k' (x : ℝ)) (fun l => !D.vec l) D.B D.n0
+   have hLk : ∀ (q : ℕ → Bool) l, l < (Formalism.InvariantFactorPaths.BranchingDimensions.TTyp.lat q D.B D.n0).length →

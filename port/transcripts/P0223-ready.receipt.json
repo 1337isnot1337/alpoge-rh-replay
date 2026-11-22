@@ -1,0 +1,1060 @@
+{
+  "target": "P0223",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/28082",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "build_base_commit": "82f522b09a3e0ef920716dada3753e9b30f385bf",
+  "port_record_commit": "f18177d4178672b73337aa53083b3478f15bbd25",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "build_log_sha256": "481aa12b651eb3fbd4f188a05914626160033075132e0b9f3924658c329d75a5",
+  "audit": {
+    "command": "lake env lean --run <repository>/port/islattice_audit.lean Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MeasureEqCovolumeMulVolumeImage Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MinkCore Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MinkowskiIILowerOf Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NPUnit Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NPWDivision Formalism.SuccessiveMinima.SuccessiveMinimaProofs.SuccMin Formalism.TameInertiaTowers.CentralOrderTwo.ConjEqInvOfPowEqOne Formalism.TameInertiaTowers.CentralOrderTwo.DecompositionSubgroupIndex Formalism.TameInertiaTowers.CentralOrderTwo.Galois Formalism.TameInertiaTowers.CentralOrderTwo.NegOneNeOneUnitsZmodFour Formalism.TameInertiaTowers.CentralOrderTwo.NormalOrderTwoCentral Formalism.TameInertiaTowers.CentralOrderTwo.OrderOfThreeUnitsTwoPow Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementA Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementB Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementC Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementH Formalism.ThetaLogCoordinates.JacobiPathWeights.JacobiMinorProofs.ExistsSuppOfEvalNe Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementA Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementC Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.AtypicalWeightBoundOf Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.Branch Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LogBinomialProperties Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LogWeylDimensionEstimate Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.N0LeNs Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.TTotal Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.HomRelationHolds Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.InvInt Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.InvInv Formalism.ThetaLogCoordinates.UniformThetaSubstitution.EdgeExponent Formalism.ThetaLogCoordinates.UniformThetaSubstitution.HeckeOneLift Formalism.ThetaLogCoordinates.UniformThetaSubstitution.OddLogRelation Formalism.ThetaSupremumBounds.GaussianShiftBounds.Assembly Formalism.ThetaSupremumBounds.GaussianShiftBounds.BlockIntegralOf Formalism.ThetaSupremumBounds.GaussianShiftBounds.ClassSchur Formalism.ThetaSupremumBounds.GaussianShiftBounds.DominanceMono Formalism.ThetaSupremumBounds.GaussianShiftBounds.FockJet Formalism.ThetaSupremumBounds.GaussianShiftBounds.HeightsoundOf Formalism.ThetaSupremumBounds.StatementE Formalism.TorsionNormIteration.InvIntegralOfClass Formalism.TowerValuationBounds.TowerValuationProofs.ValuationRatioIndex Formalism.TranslateCocycles.TranslateCocycleProofs.NetGLMapSurjective Formalism.TruncatedSeriesCounting.AprimeArith Formalism.TruncatedSeriesCounting.PowMemSpanOfMemSpanLinearDistinguished Formalism.TruncatedSeriesCounting.StatementX Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ColAssembly Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ColChain Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ExpBound Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.HCoefficientBound Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.KappaSecondExponentBound Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.RamifiedValuationInequality Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.SubGen Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.SubSmulOneInjective Formalism.TruncatedSeriesCounting.WindowSeparated Formalism.UnipotentAdelicQuotients.EllRegStep Formalism.UnipotentAdelicQuotients.EllipticRegularity.BaseLevel Formalism.UnipotentAdelicQuotients.EllipticRegularity.ConvolutionBound Formalism.UnipotentAdelicQuotients.EllipticRegularity.IteratedPartialFourierChar Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDecay Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDil Formalism.UnipotentAdelicQuotients.EllipticRegularity.Moments Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingFourier Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingLocal Formalism.UnipotentAdelicQuotients.EllipticRegularity.SmoothOfLocallySmooth",
+    "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
+    "result": "islattice-audit: 63 module(s), 0 hit(s)"
+  },
+  "modules": [
+    {
+      "id": "M161383",
+      "module": "Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MeasureEqCovolumeMulVolumeImage",
+      "source_sha256": "5aec38b928a0846eccb5202ce9658be9c365313d2a76c8a5beb9e6bdfe4deb1a",
+      "patch_sha256": "92e35776af37c56409cbb775a81b9d8530a306380d0b52e00ba7ce2527b553aa",
+      "built_source_sha256": "19b7d4027247e85d0a7b1a87add487afb709d4cc61a22b7ff94d6e1b7c773ca3",
+      "olean_sha256": "ca8167baddfe787609adef21751514c97fd958a40ed1992a31537611cc3d7db1",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161384",
+      "module": "Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MinkCore",
+      "source_sha256": "1db1ecb5476e7d636c960c5348744c69897595348913ba38ef5eb63bbeb69509",
+      "patch_sha256": null,
+      "built_source_sha256": "1db1ecb5476e7d636c960c5348744c69897595348913ba38ef5eb63bbeb69509",
+      "olean_sha256": "c98ad3862ec248091a0abf2265dd88d5307a81c49f24f0f7694e1846696d28ca",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161385",
+      "module": "Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MinkowskiIILowerOf",
+      "source_sha256": "56e35c2b02c48b878a657cf2d3abe4c0b2223683b7b433584d6f53b0e2e9b07d",
+      "patch_sha256": null,
+      "built_source_sha256": "56e35c2b02c48b878a657cf2d3abe4c0b2223683b7b433584d6f53b0e2e9b07d",
+      "olean_sha256": "a4c60cfd8dd073f88d4996dbfbd2243a1e5779de9c323675218343bf4d876f05",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161386",
+      "module": "Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NPUnit",
+      "source_sha256": "f572b719e90b06af6be782dadf5217864ab851f31b87ea8994010f038fc9ce2c",
+      "patch_sha256": null,
+      "built_source_sha256": "f572b719e90b06af6be782dadf5217864ab851f31b87ea8994010f038fc9ce2c",
+      "olean_sha256": "e6950869b1cbd14746019f4d1bbcf8fe4de6fa65b47539533f9a953df52d5869",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161387",
+      "module": "Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NPWDivision",
+      "source_sha256": "ba1ee0028943428aca68c1f529535ca0bf4265a4bac2712ab38aef5328acdaaf",
+      "patch_sha256": null,
+      "built_source_sha256": "ba1ee0028943428aca68c1f529535ca0bf4265a4bac2712ab38aef5328acdaaf",
+      "olean_sha256": "c5151639879f2e76ca58f0867b3c4f6f09dda4a1bc84595af441441703537980",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161389",
+      "module": "Formalism.SuccessiveMinima.SuccessiveMinimaProofs.SuccMin",
+      "source_sha256": "8a7ceb22f263b1c96680deaae2cc9a93dc078141923199d665f377d4e0d47fcb",
+      "patch_sha256": "d1c12ee27a5611ddaa66303eadb2f00142a1d636a7869899abc61be3310407b6",
+      "built_source_sha256": "dcbb857199da7930c55c05f6a8cff7efc6e0a03f7a0f0a4d9d8e82d49f87236f",
+      "olean_sha256": "ac08124d7df55a456efcbf1d3c4d853423210ac078ac386e3806d5dfbffcb0b7",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161390",
+      "module": "Formalism.TameInertiaTowers.CentralOrderTwo.ConjEqInvOfPowEqOne",
+      "source_sha256": "3faa4dc8bbe1e3321642f912eb39129976ac406cd346bf62d9d0410ebadbcacb",
+      "patch_sha256": null,
+      "built_source_sha256": "3faa4dc8bbe1e3321642f912eb39129976ac406cd346bf62d9d0410ebadbcacb",
+      "olean_sha256": "d7508e7c820e52ce43e0630ccaaa9105b43cfbe2b51c93f983ef0eeda2a04174",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161391",
+      "module": "Formalism.TameInertiaTowers.CentralOrderTwo.DecompositionSubgroupIndex",
+      "source_sha256": "777e723cf46e4f9490d733b781b328a1ac395db8a3d6643155c8a045a2803069",
+      "patch_sha256": null,
+      "built_source_sha256": "777e723cf46e4f9490d733b781b328a1ac395db8a3d6643155c8a045a2803069",
+      "olean_sha256": "234f44e7a419d59a75b202aae09ec5f2d763d8392034cc250e12bdadfbd0dea8",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161392",
+      "module": "Formalism.TameInertiaTowers.CentralOrderTwo.Galois",
+      "source_sha256": "377f906abe8093cd62f6006b1d9398902223a237786b69e5deedaf1d32bf5fd6",
+      "patch_sha256": null,
+      "built_source_sha256": "377f906abe8093cd62f6006b1d9398902223a237786b69e5deedaf1d32bf5fd6",
+      "olean_sha256": "d40825e3a4927ac0ac7776da8aefe347c79b50a461b209f0da746ea81de76e50",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161395",
+      "module": "Formalism.TameInertiaTowers.CentralOrderTwo.NegOneNeOneUnitsZmodFour",
+      "source_sha256": "c1335659cf198321f80deb86799b505a7c4020ea58092b314c84da85d5449f2b",
+      "patch_sha256": null,
+      "built_source_sha256": "c1335659cf198321f80deb86799b505a7c4020ea58092b314c84da85d5449f2b",
+      "olean_sha256": "27f1aa3a3717a6fac688b0e15ada7156a35852a8393e55922bac858d217d83c1",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161396",
+      "module": "Formalism.TameInertiaTowers.CentralOrderTwo.NormalOrderTwoCentral",
+      "source_sha256": "5e4c4b03c2e7c28baf056897f0561d3213617255b598278cb0f02e96c3f06144",
+      "patch_sha256": "c1f93c24d6129dbf8738eddb31f8b7445d6a129fbc6220354910330f18a32a49",
+      "built_source_sha256": "eb324322169150046b8b1677e6b2cefa5c767e6a19d2ebefcee85ae24ad6a653",
+      "olean_sha256": "ad3c2ca619c2de572ece2676fa1d3e72a4c339e11898ed9ad01cc609d8040cca",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161398",
+      "module": "Formalism.TameInertiaTowers.CentralOrderTwo.OrderOfThreeUnitsTwoPow",
+      "source_sha256": "2085dfaf2cde652c18dea7bd0559f3188f9a8da648a6474b5fb5574178d29b69",
+      "patch_sha256": null,
+      "built_source_sha256": "2085dfaf2cde652c18dea7bd0559f3188f9a8da648a6474b5fb5574178d29b69",
+      "olean_sha256": "250cf36cbf0ed74ea6aa722603ec373fa25916ef612b78257f18e6c4e3f6a311",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161499",
+      "module": "Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementA",
+      "source_sha256": "d69e3bbed0f2013ccbf3dec8e4244b640d7edcc714d9fae9819cdb7f847571aa",
+      "patch_sha256": null,
+      "built_source_sha256": "d69e3bbed0f2013ccbf3dec8e4244b640d7edcc714d9fae9819cdb7f847571aa",
+      "olean_sha256": "9dcc5f14af74a53085a84e076cb36a422caf7422ed404d7f705c54858c1f2adb",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161500",
+      "module": "Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementB",
+      "source_sha256": "9dc6c8e9e3b5665a088024399e35f91c4ef81258e64d447404b91b73387f1f88",
+      "patch_sha256": null,
+      "built_source_sha256": "9dc6c8e9e3b5665a088024399e35f91c4ef81258e64d447404b91b73387f1f88",
+      "olean_sha256": "ae1d3904eb6ee921ee257b6694adb42bfda07adb360127d9ec315353cd9cbe61",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161501",
+      "module": "Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementC",
+      "source_sha256": "56146bae2f7a3a2441ad0799260803bcc69608b0707ccb5d66f9848944512aee",
+      "patch_sha256": null,
+      "built_source_sha256": "56146bae2f7a3a2441ad0799260803bcc69608b0707ccb5d66f9848944512aee",
+      "olean_sha256": "c51e63f57264f1cca10ef24041a1ff25dd46322d4a71803fab53bcd306983cf7",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161502",
+      "module": "Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementH",
+      "source_sha256": "5d1af46d32d10144fd1fb1d4805576f1315db355e758ee72b208dbc743f959c8",
+      "patch_sha256": null,
+      "built_source_sha256": "5d1af46d32d10144fd1fb1d4805576f1315db355e758ee72b208dbc743f959c8",
+      "olean_sha256": "f56f74b21451d8aa37418ce024097626b9c9f5299a78cd08da60ed4c02253b4f",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161550",
+      "module": "Formalism.ThetaLogCoordinates.JacobiPathWeights.JacobiMinorProofs.ExistsSuppOfEvalNe",
+      "source_sha256": "ed757c53346285cb97a1a889dd6937b915b973f4e801f69d14be118e8b8c4103",
+      "patch_sha256": "723cc32ae41eea6be6fb55531a1b5f6c6e5bcd40e727834e1ed9ae6b8344862c",
+      "built_source_sha256": "26a75a96af548a09ad2af2300abb86fb0db8dfedd85950dda7b34ab5eb68e939",
+      "olean_sha256": "34f00c0c2f2160dcbfc90d59fb225cc263ca7fe94467fbd61748df960db95ad8",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161568",
+      "module": "Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementA",
+      "source_sha256": "d86093c608ef5d24369f25b29e958d12d70495e7ed3f994c37dc5039c75b79f3",
+      "patch_sha256": "46a6e84ba35db0b416cde38d700361bf6ba441c128f87207b17f500d797d49ed",
+      "built_source_sha256": "5d5c5dad8ae666aeff4224b4cc82b24ccdb1aecee5859d5e6c96535d8818f29b",
+      "olean_sha256": "18855a6362df3faf18b10dfaab01260918d2a464f81c9ed1a33885a37014341f",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161570",
+      "module": "Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementC",
+      "source_sha256": "f279c1d221aedbb68570be7c643f1678223034b4ecb49f4491aa6f715ef9b1ef",
+      "patch_sha256": "ae984dff36e3250925e860c992e26ec8981647f3f69f0e2cdf5db3fda0546eb2",
+      "built_source_sha256": "b7070b16fcecdde83239590823cfcd28c6b5dd949ab5b84f49876d54a6abc541",
+      "olean_sha256": "06c2fbeb25dec33cee3f2b72cce04b8f0135dc1355d42139ec20b69fe0d99c08",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161600",
+      "module": "Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.AtypicalWeightBoundOf",
+      "source_sha256": "aa886ade8d33367a3b8d3f3ffc83ada64d21c5f9746800257c014ee0675452d3",
+      "patch_sha256": "f4e0ddefe0deb66c18058ce8e57357e009546515aedbc7d5e4174da3eee5948c",
+      "built_source_sha256": "be4c5fe03a867a78e64b0dd8a1e0c68b2d49203a22f8483513a99f5859ca5780",
+      "olean_sha256": "bca5ce37359abcb2542d7241a23943a320c4e7d1ff5f065c3eda535d16a68c34",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161601",
+      "module": "Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.Branch",
+      "source_sha256": "53cb6b089c93e29c654d182849544da338b0a29211560f3b6cdf096f0b78fc30",
+      "patch_sha256": null,
+      "built_source_sha256": "53cb6b089c93e29c654d182849544da338b0a29211560f3b6cdf096f0b78fc30",
+      "olean_sha256": "f93ebde2ddc75a5d1611e4fcd507afdc69d0266961c1b957496886fd3fa8a4bc",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161603",
+      "module": "Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LogBinomialProperties",
+      "source_sha256": "0c976ad30d7473e53a80f1edbccc2876830cc683accddda5a482d260e2f606f7",
+      "patch_sha256": null,
+      "built_source_sha256": "0c976ad30d7473e53a80f1edbccc2876830cc683accddda5a482d260e2f606f7",
+      "olean_sha256": "5272fe51ad53ce520a64e6ba990c143f036827aa016f0d49baa932e7e1856b2b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161604",
+      "module": "Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LogWeylDimensionEstimate",
+      "source_sha256": "fa30bdc9b2ffe09e67939126a34e7976f829505e59282a59784ce3430e4c6991",
+      "patch_sha256": null,
+      "built_source_sha256": "fa30bdc9b2ffe09e67939126a34e7976f829505e59282a59784ce3430e4c6991",
+      "olean_sha256": "e7f3eaca05cdecc5761cfe7c5e03d5ab02517391fc434743101f844b67212016",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161605",
+      "module": "Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.N0LeNs",
+      "source_sha256": "aa1946ed865d5b3776a48372512317c58f8b7d20362ba415991a7f097ff003e4",
+      "patch_sha256": "2a9032cfbea7343182313945b993cfaed3bee31bcf06a8332d499b037381411f",
+      "built_source_sha256": "b46bd96c7e9247c8c3e1fde31a0c12443cf5cb51008590741e1299420569c061",
+      "olean_sha256": "058475850adfe8d5cd11e7bc3ddb02c19b0d37c84b14a49eaec2e58d442b4947",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161606",
+      "module": "Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.TTotal",
+      "source_sha256": "23214771eb442b0c5f70410133caececa497da0d2899bf0de890af911aad09c1",
+      "patch_sha256": null,
+      "built_source_sha256": "23214771eb442b0c5f70410133caececa497da0d2899bf0de890af911aad09c1",
+      "olean_sha256": "7fb78cbf4812182df2007073b0392ef593ab2a863ecfb880269d9c5f1785dbed",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161626",
+      "module": "Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.HomRelationHolds",
+      "source_sha256": "19cfdca9473f9513603d05f2e55f690cef2f24e9d38bd8c6268c227827fe8c99",
+      "patch_sha256": null,
+      "built_source_sha256": "19cfdca9473f9513603d05f2e55f690cef2f24e9d38bd8c6268c227827fe8c99",
+      "olean_sha256": "0d5b188cbd8d28cd577fff801c616bc5b4acaa3da32de7ded58bf0d0b49eb729",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161627",
+      "module": "Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.InvInt",
+      "source_sha256": "85ff8f703f6365b10ec15a11bdda939efb157034a7f780cdc9c28c2e8f3ee63f",
+      "patch_sha256": null,
+      "built_source_sha256": "85ff8f703f6365b10ec15a11bdda939efb157034a7f780cdc9c28c2e8f3ee63f",
+      "olean_sha256": "80297d6abf405f568b02c122d6d1295eb957edcabb852b919c0ec6f48fe7e1ce",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161628",
+      "module": "Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.InvInv",
+      "source_sha256": "df1b01800dcc7858f11a132534bb61a68e3c3d65d97addf6e2cf17b5f40d2f8a",
+      "patch_sha256": null,
+      "built_source_sha256": "df1b01800dcc7858f11a132534bb61a68e3c3d65d97addf6e2cf17b5f40d2f8a",
+      "olean_sha256": "42b2184aa10d38bbf8c0dd600a3cea23b0f7e5f2390678c73d0235846e196e72",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161646",
+      "module": "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.EdgeExponent",
+      "source_sha256": "969201044e0584261e78edd27182df15da232e87cfb6eeccc6a614de88ed2ee4",
+      "patch_sha256": null,
+      "built_source_sha256": "969201044e0584261e78edd27182df15da232e87cfb6eeccc6a614de88ed2ee4",
+      "olean_sha256": "0344242316893c51541ce805e1d9bbeba541b0c33e2a1e487c3fa5fa4d0b4d61",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161688",
+      "module": "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.HeckeOneLift",
+      "source_sha256": "ea7632aad0939c7668f9b7a43ec14cc5745091bffa90c2cc9a8c81cbe8536fe1",
+      "patch_sha256": null,
+      "built_source_sha256": "ea7632aad0939c7668f9b7a43ec14cc5745091bffa90c2cc9a8c81cbe8536fe1",
+      "olean_sha256": "e3932d9c49e6c136dff0816c2b96802893a992990fa418b1aa97e974f3002f0f",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161693",
+      "module": "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.OddLogRelation",
+      "source_sha256": "b525022a133672071d91c1d9bcde85b26b943a74ec44328c467048f6805b0653",
+      "patch_sha256": null,
+      "built_source_sha256": "b525022a133672071d91c1d9bcde85b26b943a74ec44328c467048f6805b0653",
+      "olean_sha256": "1a1282303d4e15ba8e81a05c5bbff1c2144372ac1559a56421a553a650f57c55",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161710",
+      "module": "Formalism.ThetaSupremumBounds.GaussianShiftBounds.Assembly",
+      "source_sha256": "8f4160cbf5a9217ab8985aa9c372c1e6187c0b5ced155e434983f19f5d115db7",
+      "patch_sha256": null,
+      "built_source_sha256": "8f4160cbf5a9217ab8985aa9c372c1e6187c0b5ced155e434983f19f5d115db7",
+      "olean_sha256": "e4b163d5d6e5e3f947078214d4361258386dde059898e5668d6dbfed2e3da055",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161711",
+      "module": "Formalism.ThetaSupremumBounds.GaussianShiftBounds.BlockIntegralOf",
+      "source_sha256": "3ebe5f17eceab313186f6df7ef54224ea2f341cd362e52c054b790bb6bf10c79",
+      "patch_sha256": "b4d5b352a1728691cd97c5e869b36214e97cbdb10070a59926476a2fef9eaa72",
+      "built_source_sha256": "e1a3e1179dfffde6eaf90ecaff859a4029dec648df20edc83104c1778142e9eb",
+      "olean_sha256": "f0fb2bd19e4e6e4b6cb17c3bcb9c55c1ac45a883e5e08fe681d917e3fda03d01",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161712",
+      "module": "Formalism.ThetaSupremumBounds.GaussianShiftBounds.ClassSchur",
+      "source_sha256": "93e5639431281e76d09ba7fbef716c86329a43f48cd5cafe68476afbcf826689",
+      "patch_sha256": null,
+      "built_source_sha256": "93e5639431281e76d09ba7fbef716c86329a43f48cd5cafe68476afbcf826689",
+      "olean_sha256": "ae23b821d429529accb34fd5d3dffebaef312da276851f5604604238c199aa9d",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161713",
+      "module": "Formalism.ThetaSupremumBounds.GaussianShiftBounds.DominanceMono",
+      "source_sha256": "2d878dae8fc402fb7fd3248375c17f0c32c8fa7cf4350f83b8b36f2d7d5ca10c",
+      "patch_sha256": null,
+      "built_source_sha256": "2d878dae8fc402fb7fd3248375c17f0c32c8fa7cf4350f83b8b36f2d7d5ca10c",
+      "olean_sha256": "20592ecda0ba9e58c593302f295047a51fdb381753bc8e9684459b7b8c423228",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161714",
+      "module": "Formalism.ThetaSupremumBounds.GaussianShiftBounds.FockJet",
+      "source_sha256": "a4a0ac1c8bb7c7825c2553d1f3010bfc3feac7e5dccade5cbf250f56c87e1fa5",
+      "patch_sha256": "aa8ff0df4d6af15b3b1162048e1f6695659bd4fc4735b165bafa0c2942c0d498",
+      "built_source_sha256": "113066492f4a074c4ee5abb246d42a1223e6c5d07d8bc4000510e46cc91c55fb",
+      "olean_sha256": "aeb8121625e73b7228f9b530edab428ff8d884f232007ac1f78d9c63eaeb39cd",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161717",
+      "module": "Formalism.ThetaSupremumBounds.GaussianShiftBounds.HeightsoundOf",
+      "source_sha256": "6ad0c3725fce05718dedfce33ec0a406df57a1df47d81b24b4e25038d829f613",
+      "patch_sha256": "b356e4bf167417e70df07f2fa75e12f5ea957cfe8b3516df40dd0b791fc4f2d6",
+      "built_source_sha256": "197692d3b2500112ea2505b28b6f81b7be0fe20bc2dcf3aa3878c87f9a342d8c",
+      "olean_sha256": "47111537a896c59afc959d9d861e7a701b5f35286f782d3b1f843630f929607b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161725",
+      "module": "Formalism.ThetaSupremumBounds.StatementE",
+      "source_sha256": "e148fd9b0489e872dc44e26f53408a6ddecb6d4b25b84c6b20933a8515beda82",
+      "patch_sha256": null,
+      "built_source_sha256": "e148fd9b0489e872dc44e26f53408a6ddecb6d4b25b84c6b20933a8515beda82",
+      "olean_sha256": "6e5d1d9e873e5f6113e4b77a0832576cd7d38ef22ea6a9f8232cd6f3b2a5b53d",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161731",
+      "module": "Formalism.TorsionNormIteration.InvIntegralOfClass",
+      "source_sha256": "8dc0ee132cef9c4d7c549b552d12139a2e96a5b09b37cfba088c4714d2ff7630",
+      "patch_sha256": null,
+      "built_source_sha256": "8dc0ee132cef9c4d7c549b552d12139a2e96a5b09b37cfba088c4714d2ff7630",
+      "olean_sha256": "9043ca3f369d469a0ad6cbbf924c4795a75b55885dda55ab54f79c671794a7ad",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161749",
+      "module": "Formalism.TowerValuationBounds.TowerValuationProofs.ValuationRatioIndex",
+      "source_sha256": "2d6584f0be605549211de9321a81f971ba359b45a3c0a6e4545f28b0fcd9559a",
+      "patch_sha256": null,
+      "built_source_sha256": "2d6584f0be605549211de9321a81f971ba359b45a3c0a6e4545f28b0fcd9559a",
+      "olean_sha256": "c1849a582993f7f872ffeffcfc535e384ed61d52405fdf2fdbb4ebe0270d8de3",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161755",
+      "module": "Formalism.TranslateCocycles.TranslateCocycleProofs.NetGLMapSurjective",
+      "source_sha256": "565e9491303efeda05badd7f732305387f4ec57d39768f103c1e552298a5d560",
+      "patch_sha256": null,
+      "built_source_sha256": "565e9491303efeda05badd7f732305387f4ec57d39768f103c1e552298a5d560",
+      "olean_sha256": "c57a8fe5b198402812cc73384bb66220691273aaf4a1180fc30da9eb6a4f77db",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161757",
+      "module": "Formalism.TruncatedSeriesCounting.AprimeArith",
+      "source_sha256": "42e89b092e80fcbc2fd757c21c93d8b7cba651887b5201f7b7f05c2326f4254e",
+      "patch_sha256": null,
+      "built_source_sha256": "42e89b092e80fcbc2fd757c21c93d8b7cba651887b5201f7b7f05c2326f4254e",
+      "olean_sha256": "2ede37b27b9b9cd65f7a6dcf4f07d490c065e5fe6d53b44fcedb50849913abfe",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161761",
+      "module": "Formalism.TruncatedSeriesCounting.PowMemSpanOfMemSpanLinearDistinguished",
+      "source_sha256": "d19d568385569cfd58ace9bd5cb2b674f940ce54b011145939c9723014aeed57",
+      "patch_sha256": null,
+      "built_source_sha256": "d19d568385569cfd58ace9bd5cb2b674f940ce54b011145939c9723014aeed57",
+      "olean_sha256": "47ffe7e66540858f22405d9c22e3dc75996b58851b00af10435267513d08d3c9",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161763",
+      "module": "Formalism.TruncatedSeriesCounting.StatementX",
+      "source_sha256": "16921d2545bd278b70dc035bb4eae10f016799b45ac963442f3da01edd5c66d2",
+      "patch_sha256": null,
+      "built_source_sha256": "16921d2545bd278b70dc035bb4eae10f016799b45ac963442f3da01edd5c66d2",
+      "olean_sha256": "b9214e20629e72b581d7541d38e743af97cf6eca5619091496b3372c306c4725",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161769",
+      "module": "Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ColAssembly",
+      "source_sha256": "1701169554c58fc45d64ae449f8d40ec01a5e815f1e8dccfb4a231fd564866a0",
+      "patch_sha256": null,
+      "built_source_sha256": "1701169554c58fc45d64ae449f8d40ec01a5e815f1e8dccfb4a231fd564866a0",
+      "olean_sha256": "9f2297f364b892c2a3562174f4b6c446dc5d38f2f0f43c0330a39c12e7f78d47",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161770",
+      "module": "Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ColChain",
+      "source_sha256": "275e7c54bfe67f31b6a40e7c5bc2901b1fa78badf039e4fb2fd9c594f05b43ce",
+      "patch_sha256": null,
+      "built_source_sha256": "275e7c54bfe67f31b6a40e7c5bc2901b1fa78badf039e4fb2fd9c594f05b43ce",
+      "olean_sha256": "e79d6091cae6974e28fd885648f42c8c89f93f34cf01ad8685dd8bb7ff4bf609",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161774",
+      "module": "Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ExpBound",
+      "source_sha256": "3b0ccc85465c85a02aadff86366c26534227fd47b79a1e06c3f05b51c0b9362c",
+      "patch_sha256": null,
+      "built_source_sha256": "3b0ccc85465c85a02aadff86366c26534227fd47b79a1e06c3f05b51c0b9362c",
+      "olean_sha256": "0768660523ce33b6a3baca62f0feddb85d53bd16afb58e3d0410e2eb6aab4b44",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161776",
+      "module": "Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.HCoefficientBound",
+      "source_sha256": "b827c1cfe7cc391bb4f64644f0e053631159d4a6f8997df01a7c251cc112cb5a",
+      "patch_sha256": null,
+      "built_source_sha256": "b827c1cfe7cc391bb4f64644f0e053631159d4a6f8997df01a7c251cc112cb5a",
+      "olean_sha256": "928bb3ff1eed043c20c6e0d45413d30d8b9a41c6a14d96f31b0b4537fa700f43",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161778",
+      "module": "Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.KappaSecondExponentBound",
+      "source_sha256": "ddcc50254e598fabe522a7a6dcb2b29b9b3773967eeb79f5a8c15e0c58cc2040",
+      "patch_sha256": null,
+      "built_source_sha256": "ddcc50254e598fabe522a7a6dcb2b29b9b3773967eeb79f5a8c15e0c58cc2040",
+      "olean_sha256": "a355cdb51c0787093c73b6f5b437ee1824b41ccef67443aae33938df2009b3bf",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161785",
+      "module": "Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.RamifiedValuationInequality",
+      "source_sha256": "1e645943823d1f10c99d6e18d82c0f753f7d8205ecc9b4fb1f7202cc229c6f4e",
+      "patch_sha256": null,
+      "built_source_sha256": "1e645943823d1f10c99d6e18d82c0f753f7d8205ecc9b4fb1f7202cc229c6f4e",
+      "olean_sha256": "0f1444b5308833ef5e9e32df97aba6979cfa6a52f388aabc871af7f9df7fddd7",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161788",
+      "module": "Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.SubGen",
+      "source_sha256": "ac83cf2a7c100f9bdb7374603df0a0e1afc2dad1c2a13f53ae825425da979522",
+      "patch_sha256": null,
+      "built_source_sha256": "ac83cf2a7c100f9bdb7374603df0a0e1afc2dad1c2a13f53ae825425da979522",
+      "olean_sha256": "4ea1f12261c00d06ddbba96d7deb759bab0864467991d50563052cdadf93359e",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161789",
+      "module": "Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.SubSmulOneInjective",
+      "source_sha256": "d23e256f284e2b6513eea968f0318dbe53a1e99fb8292c8f55a9a828a8198e87",
+      "patch_sha256": null,
+      "built_source_sha256": "d23e256f284e2b6513eea968f0318dbe53a1e99fb8292c8f55a9a828a8198e87",
+      "olean_sha256": "7d15f455ad4ceb46903c3ceee6d4c43bf5e88cb2d9e7b7898eac469d17ff963c",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161795",
+      "module": "Formalism.TruncatedSeriesCounting.WindowSeparated",
+      "source_sha256": "b7153fcdeb662f4db510149ba4f81350f321000083af6124bd164d2ad8cf9c34",
+      "patch_sha256": null,
+      "built_source_sha256": "b7153fcdeb662f4db510149ba4f81350f321000083af6124bd164d2ad8cf9c34",
+      "olean_sha256": "a3e466e3c1ef97c97f863b4ab227f40a0a85a11e7ef85b190085dc2d36583de2",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161807",
+      "module": "Formalism.UnipotentAdelicQuotients.EllRegStep",
+      "source_sha256": "25380e5a6d9cbb0f43666e7809bb6fdd02c937201919b2c9bf877a841df55d4c",
+      "patch_sha256": null,
+      "built_source_sha256": "25380e5a6d9cbb0f43666e7809bb6fdd02c937201919b2c9bf877a841df55d4c",
+      "olean_sha256": "b1d25b16bbbdb0d01b12f0781f249477eee68ebf29c76c6a18f5b3d49eab6f45",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161808",
+      "module": "Formalism.UnipotentAdelicQuotients.EllipticRegularity.BaseLevel",
+      "source_sha256": "6f43fdb6cd0fcd85362113b50685edf1c25f3e300337eb0372ea1bf34e450cfc",
+      "patch_sha256": null,
+      "built_source_sha256": "6f43fdb6cd0fcd85362113b50685edf1c25f3e300337eb0372ea1bf34e450cfc",
+      "olean_sha256": "e4f0349be406a99b622c34bdb354d0f6ff3a920d730c599fb77bac17fe4d0ebb",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161809",
+      "module": "Formalism.UnipotentAdelicQuotients.EllipticRegularity.ConvolutionBound",
+      "source_sha256": "4cf111309428e1381227eb91cc1f388a94c4706b7dddeb198b9512eb1a2cccb2",
+      "patch_sha256": null,
+      "built_source_sha256": "4cf111309428e1381227eb91cc1f388a94c4706b7dddeb198b9512eb1a2cccb2",
+      "olean_sha256": "b6b1664b3c2e93372947ba4d4eb49138839477744f696fcbefce95f5dde2466f",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161812",
+      "module": "Formalism.UnipotentAdelicQuotients.EllipticRegularity.IteratedPartialFourierChar",
+      "source_sha256": "41f4175509327eb3556f000fe75b7733339c5513f5e47a48d0eb989727ebda57",
+      "patch_sha256": null,
+      "built_source_sha256": "41f4175509327eb3556f000fe75b7733339c5513f5e47a48d0eb989727ebda57",
+      "olean_sha256": "a877764c951a1b08d6ce12dd8636fa3022cff373e79148ff9c6eb976018d01ea",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161813",
+      "module": "Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDecay",
+      "source_sha256": "fd5811f9c908c8ad775f3f50bc7609c634c51b3e368b3dbb1b3eda8e7c9f1ebc",
+      "patch_sha256": null,
+      "built_source_sha256": "fd5811f9c908c8ad775f3f50bc7609c634c51b3e368b3dbb1b3eda8e7c9f1ebc",
+      "olean_sha256": "998b501f839ccee25b0dbd9dc89780f5183245ba9e75c4cd495279a98b281bb1",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161815",
+      "module": "Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDil",
+      "source_sha256": "cba0caa57633da5561040a6129e7ef8946a502916910c258a79381b35ebfe89f",
+      "patch_sha256": null,
+      "built_source_sha256": "cba0caa57633da5561040a6129e7ef8946a502916910c258a79381b35ebfe89f",
+      "olean_sha256": "46bb4fd013060f900aefb5d859eeb76d04930a0876d4520d3e1b8e79946f2195",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161817",
+      "module": "Formalism.UnipotentAdelicQuotients.EllipticRegularity.Moments",
+      "source_sha256": "1722cf00d98afba29838f882902c6e2224251f9553ced9589b303d7f841ec3c2",
+      "patch_sha256": null,
+      "built_source_sha256": "1722cf00d98afba29838f882902c6e2224251f9553ced9589b303d7f841ec3c2",
+      "olean_sha256": "19752a1468d568ad0b2ad953c0291c1956979ec42ab797ce8b0af29e36b37604",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161818",
+      "module": "Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingFourier",
+      "source_sha256": "c2471b131581c153f76b21a19a5052f403ca40b44b9438b87f81129ced6cb29a",
+      "patch_sha256": "e124f8fe75c647c4f154947c09f9c448a1166daf9946bed40b917d535720285c",
+      "built_source_sha256": "7dbc3fa155506cc162a7e56cec44c83097968ba942c73886a475b6e62e8d1b8c",
+      "olean_sha256": "fc393b7dacbfbc8a4313147c3563d0da8989fc3faf9e95f1ae52609caf4ef781",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161819",
+      "module": "Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingLocal",
+      "source_sha256": "432b59727d8e8f11e4753524a1bf9ddf37f96e0b6f8d478b50fd591625688d6c",
+      "patch_sha256": null,
+      "built_source_sha256": "432b59727d8e8f11e4753524a1bf9ddf37f96e0b6f8d478b50fd591625688d6c",
+      "olean_sha256": "52967804651dc39557e2f13ba0f459c0c1cc7b7b10cf22407035096199939550",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161820",
+      "module": "Formalism.UnipotentAdelicQuotients.EllipticRegularity.SmoothOfLocallySmooth",
+      "source_sha256": "efa371cb4758edfe1c39fce392bae486f0b132a3f9218cdff2d21d2e51cf032a",
+      "patch_sha256": null,
+      "built_source_sha256": "efa371cb4758edfe1c39fce392bae486f0b132a3f9218cdff2d21d2e51cf032a",
+      "olean_sha256": "29b208f0726a54519c7d60987e5d75dc58de097e5c86db6cb208576951cc0912",
+      "exit_code": 0,
+      "validated_output": "reused"
+    }
+  ],
+  "project_imports": [
+    {
+      "id": "M115004",
+      "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CapelliComplements.FirstLemmaM",
+      "source_sha256": "54abaaf9cf4dc6996eb8b3c81e70887e8df0ea22682c8d4b4ab3399f397f25ea",
+      "patch_sha256": null,
+      "built_source_sha256": "54abaaf9cf4dc6996eb8b3c81e70887e8df0ea22682c8d4b4ab3399f397f25ea",
+      "port_record_sha256": "7ac7296eeceba864ee09c259180a2d59420945f0be908834c22037041c35e4a0"
+    },
+    {
+      "id": "M115078",
+      "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ConvSqLe",
+      "source_sha256": "2126a7493f46561ad6a193cef9ace7f445254948a4d6a92e9b414168be46e0b4",
+      "patch_sha256": null,
+      "built_source_sha256": "2126a7493f46561ad6a193cef9ace7f445254948a4d6a92e9b414168be46e0b4",
+      "port_record_sha256": "d66bfc68029ad1688f0d736b529a82a0e4db7e0f9c5d2975515966a8ef0a3e5f"
+    },
+    {
+      "id": "M144513",
+      "module": "Formalism.FormalGroupLog.Statement",
+      "source_sha256": "c7aca667a0ff620455c0bfc01637c5c6806302db64383a24f0832ee7021df277",
+      "patch_sha256": "28d169a8b705bcc223ed3bb8019ae04d13edbb6732fd490fcde1499fc098bc0b",
+      "built_source_sha256": "941bbc840dc51cc5817009b81ac3b5efcdc3551c1958690d9b3150defecb742a",
+      "port_record_sha256": "78ec15d52d546e4a90c87629d2fdd9e1e5a38c9ed3260f5afaf797abcb6a2bd1"
+    },
+    {
+      "id": "M144554",
+      "module": "Formalism.FrobeniusContraction.FrobeniusContractionProofs.LenBound",
+      "source_sha256": "ea7f04b87a1ca46b09a0bbdc8fb9623d025e9c8b3280f307ad6886f8870c7e18",
+      "patch_sha256": null,
+      "built_source_sha256": "ea7f04b87a1ca46b09a0bbdc8fb9623d025e9c8b3280f307ad6886f8870c7e18",
+      "port_record_sha256": "4cf59cc96907c44e4828e76628c09f69705c3d365ce1dbfdf88d574858f7b5ff"
+    },
+    {
+      "id": "M144556",
+      "module": "Formalism.FrobeniusContraction.HighestWeightResidueAvoids",
+      "source_sha256": "55e07db1d84f40277b1fda708ac17e64ac45c9adb2dc9be37c2f1a30c30007f2",
+      "patch_sha256": null,
+      "built_source_sha256": "55e07db1d84f40277b1fda708ac17e64ac45c9adb2dc9be37c2f1a30c30007f2",
+      "port_record_sha256": "5fd885afd8978bfca56d8835edaefc77d7b172c4ca6f4b0889e3514d7357e7eb"
+    },
+    {
+      "id": "M144557",
+      "module": "Formalism.FrobeniusContraction.Statement",
+      "source_sha256": "951844b053e215265e982d2a73a84cbfefbcdbd0a618be83f93768b3381d35a2",
+      "patch_sha256": null,
+      "built_source_sha256": "951844b053e215265e982d2a73a84cbfefbcdbd0a618be83f93768b3381d35a2",
+      "port_record_sha256": "dd1d3aeb3ac6e29ebb551d3374af5e077a2e65d8211e0028ce606cb24ed13da1"
+    },
+    {
+      "id": "M144559",
+      "module": "Formalism.FrobeniusContraction.StatementTop",
+      "source_sha256": "d3a8dc011749f5ffa485e1a05c6ca673ccd3881fd3b2b6bc6e16e480e3a1f8ff",
+      "patch_sha256": null,
+      "built_source_sha256": "d3a8dc011749f5ffa485e1a05c6ca673ccd3881fd3b2b6bc6e16e480e3a1f8ff",
+      "port_record_sha256": "a9542338dfaf00af149a3ddee003f6613203b9bb8299e72ef03fa01e8a2936cb"
+    },
+    {
+      "id": "M145124",
+      "module": "Formalism.GaussJetBounds.Statement",
+      "source_sha256": "5db560c0efb876e30b084b6480501338be2250b1e694cb2cb8e881aa678a137b",
+      "patch_sha256": null,
+      "built_source_sha256": "5db560c0efb876e30b084b6480501338be2250b1e694cb2cb8e881aa678a137b",
+      "port_record_sha256": "6db4c1a8edb699b2f4e59987a441624cc26a8116544e9a40efe08082a203c522"
+    },
+    {
+      "id": "M145164",
+      "module": "Formalism.GaussValuationBounds.Statement",
+      "source_sha256": "ddb3e09856d0ccb0c236e9a610dd187ec0e212050cc94686e57f7e952d01f0c6",
+      "patch_sha256": null,
+      "built_source_sha256": "ddb3e09856d0ccb0c236e9a610dd187ec0e212050cc94686e57f7e952d01f0c6",
+      "port_record_sha256": "887e7e562df57946080326e8cc14096133753c3665e3d2d3a1425cdf30fa6148"
+    },
+    {
+      "id": "M147326",
+      "module": "Formalism.IncomingBounds.IncomingBound",
+      "source_sha256": "201476c18ccbb46a0022e76b63901c7feea2a565b8f9802910d9c36285791ba6",
+      "patch_sha256": null,
+      "built_source_sha256": "201476c18ccbb46a0022e76b63901c7feea2a565b8f9802910d9c36285791ba6",
+      "port_record_sha256": "4bddf41d87a22debb0c7c551b39731761ae24f11e7b28b68ec52e172921b1d46"
+    },
+    {
+      "id": "M147379",
+      "module": "Formalism.LagrangeIdealLifts.Statement",
+      "source_sha256": "25a8dd82e18d31d1ab5c18131ae3686be7960bafe25cdeeafd8a6751e250661b",
+      "patch_sha256": null,
+      "built_source_sha256": "25a8dd82e18d31d1ab5c18131ae3686be7960bafe25cdeeafd8a6751e250661b",
+      "port_record_sha256": "fc231920904f10b311aa5ae916b34a70396f3d29d46068b60973c38a16e9090d"
+    },
+    {
+      "id": "M153162",
+      "module": "Formalism.LogFactorialBounds.LogFactorialSandwich",
+      "source_sha256": "7564e6a0c94515b7a8840ca733f1bdd53b87b3db3bc2f2de626110d43eaace33",
+      "patch_sha256": null,
+      "built_source_sha256": "7564e6a0c94515b7a8840ca733f1bdd53b87b3db3bc2f2de626110d43eaace33",
+      "port_record_sha256": "c1fd79c0313f5d7d8d983e3e560de86fb493cf699416c2282a15293df9ea18e7"
+    },
+    {
+      "id": "M153172",
+      "module": "Formalism.LogFactorialIndices.StatementSize",
+      "source_sha256": "826342bb663a7c8520d302da2c80438073469fcabdcd0a7b56c4f14dda1827b3",
+      "patch_sha256": null,
+      "built_source_sha256": "826342bb663a7c8520d302da2c80438073469fcabdcd0a7b56c4f14dda1827b3",
+      "port_record_sha256": "4880ea0495e99c92fdfc1032153984e338d378a970db4c23c755ffc9acd95d33"
+    },
+    {
+      "id": "M161347",
+      "module": "Formalism.SubspaceCounting.StatementB",
+      "source_sha256": "5118b67dcbfb14424d56c1eb44dbc290b9d94a386bf5027c46557e1fc51e4017",
+      "patch_sha256": null,
+      "built_source_sha256": "5118b67dcbfb14424d56c1eb44dbc290b9d94a386bf5027c46557e1fc51e4017",
+      "port_record_sha256": "f5bbaceb3244e7fde55fc4ca62ac0165558f60b4876ac7a2b1c2ce99f318aa99"
+    },
+    {
+      "id": "M161375",
+      "module": "Formalism.SuccessiveMinima.DefsMink",
+      "source_sha256": "f4dfcb8628ec5b371f483bebec64145b89d971cc530e1e210262f6b475b07208",
+      "patch_sha256": null,
+      "built_source_sha256": "f4dfcb8628ec5b371f483bebec64145b89d971cc530e1e210262f6b475b07208",
+      "port_record_sha256": "8f7d6e44f789cdcb6e4045a207c20fb984c52312f95124c32b618ac8d8de1161"
+    },
+    {
+      "id": "M161376",
+      "module": "Formalism.SuccessiveMinima.DefsNP",
+      "source_sha256": "7f2b78bdfc23cfdca045eec3ce00f7399ad0ca55a1e7bad45716babf72f4ab77",
+      "patch_sha256": null,
+      "built_source_sha256": "7f2b78bdfc23cfdca045eec3ce00f7399ad0ca55a1e7bad45716babf72f4ab77",
+      "port_record_sha256": "bbf7bb9db5ff13487f84189b9836d71807279fae0db9f1ad85656669c3715717"
+    },
+    {
+      "id": "M161378",
+      "module": "Formalism.SuccessiveMinima.StatementMink",
+      "source_sha256": "bf40cefe5d30725a1d97fdd426106bcdff7aa23789cf2ad59c82ce87ffc5460e",
+      "patch_sha256": null,
+      "built_source_sha256": "bf40cefe5d30725a1d97fdd426106bcdff7aa23789cf2ad59c82ce87ffc5460e",
+      "port_record_sha256": "2d4ee15618501dfc30d8c0563b196756b5c8a2c4d3bf30a4dc5f811b180a2a29"
+    },
+    {
+      "id": "M161379",
+      "module": "Formalism.SuccessiveMinima.StatementNP",
+      "source_sha256": "eb6803dbb489ce9d0c1febb6f1833967a045775d758ba1b95089260038a9768d",
+      "patch_sha256": null,
+      "built_source_sha256": "eb6803dbb489ce9d0c1febb6f1833967a045775d758ba1b95089260038a9768d",
+      "port_record_sha256": "6c04bc0b671de413784e7caaa8a43fbf6a86b77735df6392ed4bb236639b2b24"
+    },
+    {
+      "id": "M161388",
+      "module": "Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NewtonSlope",
+      "source_sha256": "babd1869b153097cb9782e6195ee84d93a100b978f6fdd83581650aaa34dbdd6",
+      "patch_sha256": null,
+      "built_source_sha256": "babd1869b153097cb9782e6195ee84d93a100b978f6fdd83581650aaa34dbdd6",
+      "port_record_sha256": "fcb30b0831bf8d9ca243ee77dd88efe11f9d32d17021e386a3dc1180c4d7f2e2"
+    },
+    {
+      "id": "M161399",
+      "module": "Formalism.TameInertiaTowers.CentralOrderTwo.TwoAdic",
+      "source_sha256": "142d56ed64156395ac3d20b4afafb317ee4d3c2b6ac5714d2cb77e8ba932e53a",
+      "patch_sha256": "7e1078dd4eb79691245a2413d43f2093f27a688006d245c30bbdb5d908a1315b",
+      "built_source_sha256": "a1c536f10bc736718ed863a1bebb9c151559258036b6e88813eb6e2a67260d22",
+      "port_record_sha256": "e57ccb2ac66e8349a8899bed13a84c97858ef31ef64f7f7781efb7ace8aff4c7"
+    },
+    {
+      "id": "M161402",
+      "module": "Formalism.TameInertiaTowers.StatementField",
+      "source_sha256": "a06694e8193eb9ae7dfc7c0473a28912fc24ec8ea8c238b1b41068ae2cf2c853",
+      "patch_sha256": null,
+      "built_source_sha256": "a06694e8193eb9ae7dfc7c0473a28912fc24ec8ea8c238b1b41068ae2cf2c853",
+      "port_record_sha256": "6cb49b1d62f089b0a6878d57cc0c72fa8fb2deb95205c1bc9d8287b4dc32cc5f"
+    },
+    {
+      "id": "M161403",
+      "module": "Formalism.TameInertiaTowers.StatementGroup",
+      "source_sha256": "bbb8ec2bfe8e048ab04370e7a5cb870e10a636b0f0c84f47092b309c35e25b87",
+      "patch_sha256": null,
+      "built_source_sha256": "bbb8ec2bfe8e048ab04370e7a5cb870e10a636b0f0c84f47092b309c35e25b87",
+      "port_record_sha256": "cf16e8f611ba56148eb66fe15ae25592c04888d66476f0cc45c7aa5e2315888d"
+    },
+    {
+      "id": "M161432",
+      "module": "Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsMod",
+      "source_sha256": "f347f465ac76462358dd33900f7ae6c1256d687bad38642f2e27c2f60fb4548f",
+      "patch_sha256": "648d65be7062792615f58a5e5034ca0585bb9110c8581906eb63a46761a20662",
+      "built_source_sha256": "20d2b34d7806f2a9515e81d5a07552946b53fc58443bb0b04dd36f603fdbab4b",
+      "port_record_sha256": "725698fc032378ea7ac6012dffee87f16f9ad1f7230a2306ced4e0ea924e01ac"
+    },
+    {
+      "id": "M161433",
+      "module": "Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsObj",
+      "source_sha256": "d69a19ba51abebf56206ce33aa758cd337bd718cf5846c6efa20ecd676b59dd4",
+      "patch_sha256": null,
+      "built_source_sha256": "d69a19ba51abebf56206ce33aa758cd337bd718cf5846c6efa20ecd676b59dd4",
+      "port_record_sha256": "4ea1a757d059aa7869fe0bbf2f346d30fac2a23ddb59e4190f7c8eafff128716"
+    },
+    {
+      "id": "M161542",
+      "module": "Formalism.ThetaLogCoordinates.JacobiPathWeights.DefsCol",
+      "source_sha256": "d0cb3bc9da3b63733a19a13054e81ae75f84189f2e7270ddb5868e1c4a09a64a",
+      "patch_sha256": null,
+      "built_source_sha256": "d0cb3bc9da3b63733a19a13054e81ae75f84189f2e7270ddb5868e1c4a09a64a",
+      "port_record_sha256": "597c99149bdd9adabc2a895673d65305b836016645feb90762dd77879803949f"
+    },
+    {
+      "id": "M161543",
+      "module": "Formalism.ThetaLogCoordinates.JacobiPathWeights.DetLetters",
+      "source_sha256": "11d01c118594bfe7339554065932f056aa8e74ab5dccdf4bf5f441dd15ee71cc",
+      "patch_sha256": null,
+      "built_source_sha256": "11d01c118594bfe7339554065932f056aa8e74ab5dccdf4bf5f441dd15ee71cc",
+      "port_record_sha256": "839dd6f8bd52f83951013b1669391583f3786cb6601063010fcd69eb659a1f51"
+    },
+    {
+      "id": "M161566",
+      "module": "Formalism.ThetaLogCoordinates.JacobiPathWeights.LiftWord",
+      "source_sha256": "df95ad7543d073afeebc9a3738f11009497d20046056dcc707a09542def93686",
+      "patch_sha256": null,
+      "built_source_sha256": "df95ad7543d073afeebc9a3738f11009497d20046056dcc707a09542def93686",
+      "port_record_sha256": "8d3e0f9301f0d8cef560fd92c64d9e4deac68ae24bb68fe930de73aa796faaf5"
+    },
+    {
+      "id": "M161569",
+      "module": "Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementB",
+      "source_sha256": "fad524c43a25e2156bb55112125730201b56dd0a23c84d6cfb50830455eece9e",
+      "patch_sha256": null,
+      "built_source_sha256": "fad524c43a25e2156bb55112125730201b56dd0a23c84d6cfb50830455eece9e",
+      "port_record_sha256": "72ef028e33e9f9f95b7f2039e049f94da41ebbaaf28ccc934f0c346a47070390"
+    },
+    {
+      "id": "M161571",
+      "module": "Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementE",
+      "source_sha256": "4086bf191f3f97b8cee9fab823f9b4f09873b4ea0ad5b230fa88e3230485fde3",
+      "patch_sha256": "9cf022ba2716ee9bdcf73b4f7b3150b0b1f15ad89e8c1a5309be295cdd7d7185",
+      "built_source_sha256": "a066000399bab35ca97788a5ec5164775232794cad6f6f6e50e56cbd37539404",
+      "port_record_sha256": "03a9dea62e261b6cbb29b49bdb99d2079ea7cf69b4b3f67707a5df7d37627cc2"
+    },
+    {
+      "id": "M161594",
+      "module": "Formalism.ThetaLogCoordinates.ResidueClassEstimates.Letters",
+      "source_sha256": "278395ef621569f55bef2c7ffbaf00f91066290ddac47e74791a24253f8659ab",
+      "patch_sha256": null,
+      "built_source_sha256": "278395ef621569f55bef2c7ffbaf00f91066290ddac47e74791a24253f8659ab",
+      "port_record_sha256": "07944f714e4f603778a26c8be01e4b679fc1289ae24469dc3dc79efb00e7b2e2"
+    },
+    {
+      "id": "M161597",
+      "module": "Formalism.ThetaLogCoordinates.ResidueClassEstimates.StatementT",
+      "source_sha256": "d6bbb526a5e19872e7c1645d6c37b6093f3fa884d2915ad1f6f03bcdfd9387bd",
+      "patch_sha256": null,
+      "built_source_sha256": "d6bbb526a5e19872e7c1645d6c37b6093f3fa884d2915ad1f6f03bcdfd9387bd",
+      "port_record_sha256": "a6bcd0378d3f3760394120a6aca4bcf932eb4609a8cb2cc1d1cffb099906873f"
+    },
+    {
+      "id": "M161618",
+      "module": "Formalism.ThetaLogCoordinates.TraceIsometryWeights.DivStable",
+      "source_sha256": "93cc1f2f8788f648ffa938460dc406dc9f7d0dceed541b36066faff958ffdb4b",
+      "patch_sha256": null,
+      "built_source_sha256": "93cc1f2f8788f648ffa938460dc406dc9f7d0dceed541b36066faff958ffdb4b",
+      "port_record_sha256": "ac775e8c1e343c09295eee156da066c1a314a2f7dedb2bd938fdb153270fc5d2"
+    },
+    {
+      "id": "M161639",
+      "module": "Formalism.ThetaLogCoordinates.TraceIsometryWeights.StatementA",
+      "source_sha256": "1fadc5f30a279853ccfc4f2dc0d27232cb16d771207ee99d9b0efad5411e242c",
+      "patch_sha256": null,
+      "built_source_sha256": "1fadc5f30a279853ccfc4f2dc0d27232cb16d771207ee99d9b0efad5411e242c",
+      "port_record_sha256": "d2c6c93b1bbefded5270ef766153ddc3eccddf20cc54cc8fd2141e36e4f25dbb"
+    },
+    {
+      "id": "M161696",
+      "module": "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.StatementC",
+      "source_sha256": "5c8d4730ca724b5e5ae60d4acce1fa1876c6854468b7bc3df31883a86b690f5e",
+      "patch_sha256": null,
+      "built_source_sha256": "5c8d4730ca724b5e5ae60d4acce1fa1876c6854468b7bc3df31883a86b690f5e",
+      "port_record_sha256": "ca4ad4f55c2d67595be3f327ba59447d823343222c3e9da7da7b37d600675068"
+    },
+    {
+      "id": "M161720",
+      "module": "Formalism.ThetaSupremumBounds.StatementA",
+      "source_sha256": "471a2298bf3eab5d7e6846fe1b22d7eb1bc8a2c2942cf55281d0cbe678697d8d",
+      "patch_sha256": null,
+      "built_source_sha256": "471a2298bf3eab5d7e6846fe1b22d7eb1bc8a2c2942cf55281d0cbe678697d8d",
+      "port_record_sha256": "f2efe7f5de3834bb1794ade3c3c9968fe4d9d920d1c2059e25d00d918dbaa613"
+    },
+    {
+      "id": "M161721",
+      "module": "Formalism.ThetaSupremumBounds.StatementB",
+      "source_sha256": "a9d3f260a8c4e5bff4181cdcf829f618edee5f1ff5b7b88eb29794941082c2b6",
+      "patch_sha256": null,
+      "built_source_sha256": "a9d3f260a8c4e5bff4181cdcf829f618edee5f1ff5b7b88eb29794941082c2b6",
+      "port_record_sha256": "88b7db878d0fd5d67ba327458603b0a11a1e40f751a306c1e6c13796871eaed1"
+    },
+    {
+      "id": "M161722",
+      "module": "Formalism.ThetaSupremumBounds.StatementC",
+      "source_sha256": "d76e8bdbaa62b8381022075462f4eaf1a560c3ade113cb29f5111e70c0bb4cab",
+      "patch_sha256": null,
+      "built_source_sha256": "d76e8bdbaa62b8381022075462f4eaf1a560c3ade113cb29f5111e70c0bb4cab",
+      "port_record_sha256": "a8ad8fb69e804f2f8289f83f0fe4768e079b7a05c0365bc45bc2fd22464061e8"
+    },
+    {
+      "id": "M161746",
+      "module": "Formalism.TowerValuationBounds.HermitianSumValuationBound",
+      "source_sha256": "63177259e89f60168457724ac26043829a9197445a2bd273d65a4d387cc6b119",
+      "patch_sha256": null,
+      "built_source_sha256": "63177259e89f60168457724ac26043829a9197445a2bd273d65a4d387cc6b119",
+      "port_record_sha256": "252fff09f4f7cf68c110c5174e63091eb7f5670aad2c0c478db6e25be2009026"
+    },
+    {
+      "id": "M161747",
+      "module": "Formalism.TowerValuationBounds.TowerValuationBoundIndexed",
+      "source_sha256": "197b33ec0b0ea32d7aa925274c0a8abe0f0a58f16cf83056e06fc9bde9c98fd4",
+      "patch_sha256": null,
+      "built_source_sha256": "197b33ec0b0ea32d7aa925274c0a8abe0f0a58f16cf83056e06fc9bde9c98fd4",
+      "port_record_sha256": "f0926a2445a394ec865b2a4eb727baba74fb0de90730b251b607d8bea7a17445"
+    },
+    {
+      "id": "M161748",
+      "module": "Formalism.TowerValuationBounds.TowerValuationProofs.SumAdditiveCharacterEqZero",
+      "source_sha256": "329527ab05e1af0d8aa30b290820398b5848ce5f3c9b973d05241ade4a27eb67",
+      "patch_sha256": null,
+      "built_source_sha256": "329527ab05e1af0d8aa30b290820398b5848ce5f3c9b973d05241ade4a27eb67",
+      "port_record_sha256": "eab3457e8fce5b3a4e442808a167437164e9c4b990f7dbf7407d8467c2033a48"
+    },
+    {
+      "id": "M161750",
+      "module": "Formalism.TranslateCocycles.Statement",
+      "source_sha256": "c2f78bfe532b755a2710e9a4faea13183408e486e05c6f68d049641351138643",
+      "patch_sha256": null,
+      "built_source_sha256": "c2f78bfe532b755a2710e9a4faea13183408e486e05c6f68d049641351138643",
+      "port_record_sha256": "d6a5eb2950f193b6b9fd8b914130979b681e704d4b37eec9ca9ff0f4597d6ec7"
+    },
+    {
+      "id": "M161753",
+      "module": "Formalism.TranslateCocycles.StatementNet",
+      "source_sha256": "edcd9d6f02c343a41951194c26bbec06838527729425b5f58b7e367a0e051654",
+      "patch_sha256": null,
+      "built_source_sha256": "edcd9d6f02c343a41951194c26bbec06838527729425b5f58b7e367a0e051654",
+      "port_record_sha256": "6ff3224ce961b5907c2aa80c7b6a54091519f2de2ab634fab09ddb502673f708"
+    },
+    {
+      "id": "M161756",
+      "module": "Formalism.TranslateCocycles.TranslateCocycleProofs.TranslateScale",
+      "source_sha256": "2589d80e81d872dd779909fcfe9c3dfcce92c545d1a32b838b85a16acc9a4005",
+      "patch_sha256": null,
+      "built_source_sha256": "2589d80e81d872dd779909fcfe9c3dfcce92c545d1a32b838b85a16acc9a4005",
+      "port_record_sha256": "a27e5cb634cfea63a14cbddb0765c05efd909e7490574cc42723f0bca17a8885"
+    },
+    {
+      "id": "M161762",
+      "module": "Formalism.TruncatedSeriesCounting.RamifiedValuationInequality",
+      "source_sha256": "d079406ab8a3b3cde8dcd247de26e416d3aee66ef614aaa575c305a149f0ccfc",
+      "patch_sha256": null,
+      "built_source_sha256": "d079406ab8a3b3cde8dcd247de26e416d3aee66ef614aaa575c305a149f0ccfc",
+      "port_record_sha256": "638078dfa0024b07c8737b9bbf3992e27ca4fabf64d3cc9d2d48009bb1f524e9"
+    },
+    {
+      "id": "M161804",
+      "module": "Formalism.UnipotentAdelicQuotients.EllReg",
+      "source_sha256": "9b81135827233cc0c294fe40ddaab1ccae196d589a1d43f3282e06540d1d8cac",
+      "patch_sha256": null,
+      "built_source_sha256": "9b81135827233cc0c294fe40ddaab1ccae196d589a1d43f3282e06540d1d8cac",
+      "port_record_sha256": "d07e2989afe43c5b4da170f7f19cbc631eacdc6d5d04a20a2062a6f0c9c10477"
+    },
+    {
+      "id": "M161806",
+      "module": "Formalism.UnipotentAdelicQuotients.EllRegCut",
+      "source_sha256": "afbb057d1716a2beecfcd3d839e6ac954385ad3b1486035adcd748d01c77fd29",
+      "patch_sha256": null,
+      "built_source_sha256": "afbb057d1716a2beecfcd3d839e6ac954385ad3b1486035adcd748d01c77fd29",
+      "port_record_sha256": "95d1196c50bfd45a3b3de43ef354ebb26313ae5a64fa7747b3e1fd08ecb21cb6"
+    },
+    {
+      "id": "M162135",
+      "module": "Formalism.WindowSums.AnnihilatorPolynomials.DistinctTerms",
+      "source_sha256": "cd2b482dc233ec676604a61bfc808a3462f28e2009cd2677d8f2ece8016da231",
+      "patch_sha256": null,
+      "built_source_sha256": "cd2b482dc233ec676604a61bfc808a3462f28e2009cd2677d8f2ece8016da231",
+      "port_record_sha256": "9050bf18e3605e40ff4780debf27eb86d3d51a0a93a489857a3191de9934c314"
+    },
+    {
+      "id": "M162144",
+      "module": "Formalism.WindowSums.Statement",
+      "source_sha256": "09adc6cd40691a98858be12d66bdb593f3dba13eae17037281657c3938a7a591",
+      "patch_sha256": null,
+      "built_source_sha256": "09adc6cd40691a98858be12d66bdb593f3dba13eae17037281657c3938a7a591",
+      "port_record_sha256": "59ea34b739b252d8e6375d9b00d55dc218d5b31538f477f44f3a77cd7980b2ed"
+    },
+    {
+      "id": "M170742",
+      "module": "Lemmata.FirstBlockLemmaE.Imports",
+      "source_sha256": "4fb23a9706bb5c5dd7c358604d945de53bb9a75521d54d65943db0da9a103c69",
+      "patch_sha256": null,
+      "built_source_sha256": "4fb23a9706bb5c5dd7c358604d945de53bb9a75521d54d65943db0da9a103c69",
+      "port_record_sha256": "4bbcfc3d104533be3a998000998add676ded306bd3ce0dae4448cac1821f8642"
+    },
+    {
+      "id": "M170794",
+      "module": "Lemmata.GeneralBFactRightTerForm.Imports",
+      "source_sha256": "39e4e31d989082eb8ebc20554186a13e88cbd205275c3ceb118ce7deede61c42",
+      "patch_sha256": null,
+      "built_source_sha256": "39e4e31d989082eb8ebc20554186a13e88cbd205275c3ceb118ce7deede61c42",
+      "port_record_sha256": "e20465431574cb1a1acc729c03add976fa01e649194aa895e515ead05ff78419"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M161666",
+      "module": "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.GaussElementarySymmetric",
+      "missing_imports": [
+        "M144060"
+      ]
+    }
+  ],
+  "pruned": []
+}

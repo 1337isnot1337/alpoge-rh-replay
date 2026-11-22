@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementA",
+  "source_sha256": "d86093c608ef5d24369f25b29e958d12d70495e7ed3f994c37dc5039c75b79f3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use dot notation for multivariate polynomial coefficients."
+}

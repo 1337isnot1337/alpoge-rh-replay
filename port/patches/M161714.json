@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ThetaSupremumBounds.GaussianShiftBounds.FockJet",
+  "source_sha256": "a4a0ac1c8bb7c7825c2553d1f3010bfc3feac7e5dccade5cbf250f56c87e1fa5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the ordered product bounds with factor nonnegativity."
+}

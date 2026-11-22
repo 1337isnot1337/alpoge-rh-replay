@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.TameInertiaTowers.CentralOrderTwo.NormalOrderTwoCentral",
+  "source_sha256": "5e4c4b03c2e7c28baf056897f0561d3213617255b598278cb0f02e96c3f06144",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite p-adic valuations with the multiplicity formula before applying the arithmetic lemmas."
+}

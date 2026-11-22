@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementA",
+  "source_sha256": "d69e3bbed0f2013ccbf3dec8e4244b640d7edcc714d9fae9819cdb7f847571aa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,2152 @@
+Packet P0223, partial submission
+Upstream base 82f522b09a3e0ef920716dada3753e9b30f385bf
+Port record commit f18177d4178672b73337aa53083b3478f15bbd25
+Lean leanprover/lean4:v4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+python3 scripts/port-ci-build.py --workspace <workspace> --src <archive-source> --patch-ids M161383 M161384 M161385 M161386 M161387 M161389 M161390 M161391 M161392 M161395 M161396 M161398 M161499 M161500 M161501 M161502 M161550 M161568 M161570 M161600 M161601 M161603 M161604 M161605 M161606 M161626 M161627 M161628 M161646 M161688 M161693 M161710 M161711 M161712 M161713 M161714 M161717 M161725 M161731 M161749 M161755 M161757 M161761 M161763 M161769 M161770 M161774 M161776 M161778 M161785 M161788 M161789 M161795 M161807 M161808 M161809 M161812 M161813 M161815 M161817 M161818 M161819 M161820
+
+Elaborated IsLattice audit
+lake env lean --run <repository>/port/islattice_audit.lean Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MeasureEqCovolumeMulVolumeImage Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MinkCore Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MinkowskiIILowerOf Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NPUnit Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NPWDivision Formalism.SuccessiveMinima.SuccessiveMinimaProofs.SuccMin Formalism.TameInertiaTowers.CentralOrderTwo.ConjEqInvOfPowEqOne Formalism.TameInertiaTowers.CentralOrderTwo.DecompositionSubgroupIndex Formalism.TameInertiaTowers.CentralOrderTwo.Galois Formalism.TameInertiaTowers.CentralOrderTwo.NegOneNeOneUnitsZmodFour Formalism.TameInertiaTowers.CentralOrderTwo.NormalOrderTwoCentral Formalism.TameInertiaTowers.CentralOrderTwo.OrderOfThreeUnitsTwoPow Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementA Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementB Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementC Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementH Formalism.ThetaLogCoordinates.JacobiPathWeights.JacobiMinorProofs.ExistsSuppOfEvalNe Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementA Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementC Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.AtypicalWeightBoundOf Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.Branch Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LogBinomialProperties Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LogWeylDimensionEstimate Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.N0LeNs Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.TTotal Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.HomRelationHolds Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.InvInt Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.InvInv Formalism.ThetaLogCoordinates.UniformThetaSubstitution.EdgeExponent Formalism.ThetaLogCoordinates.UniformThetaSubstitution.HeckeOneLift Formalism.ThetaLogCoordinates.UniformThetaSubstitution.OddLogRelation Formalism.ThetaSupremumBounds.GaussianShiftBounds.Assembly Formalism.ThetaSupremumBounds.GaussianShiftBounds.BlockIntegralOf Formalism.ThetaSupremumBounds.GaussianShiftBounds.ClassSchur Formalism.ThetaSupremumBounds.GaussianShiftBounds.DominanceMono Formalism.ThetaSupremumBounds.GaussianShiftBounds.FockJet Formalism.ThetaSupremumBounds.GaussianShiftBounds.HeightsoundOf Formalism.ThetaSupremumBounds.StatementE Formalism.TorsionNormIteration.InvIntegralOfClass Formalism.TowerValuationBounds.TowerValuationProofs.ValuationRatioIndex Formalism.TranslateCocycles.TranslateCocycleProofs.NetGLMapSurjective Formalism.TruncatedSeriesCounting.AprimeArith Formalism.TruncatedSeriesCounting.PowMemSpanOfMemSpanLinearDistinguished Formalism.TruncatedSeriesCounting.StatementX Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ColAssembly Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ColChain Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ExpBound Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.HCoefficientBound Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.KappaSecondExponentBound Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.RamifiedValuationInequality Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.SubGen Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.SubSmulOneInjective Formalism.TruncatedSeriesCounting.WindowSeparated Formalism.UnipotentAdelicQuotients.EllRegStep Formalism.UnipotentAdelicQuotients.EllipticRegularity.BaseLevel Formalism.UnipotentAdelicQuotients.EllipticRegularity.ConvolutionBound Formalism.UnipotentAdelicQuotients.EllipticRegularity.IteratedPartialFourierChar Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDecay Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDil Formalism.UnipotentAdelicQuotients.EllipticRegularity.Moments Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingFourier Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingLocal Formalism.UnipotentAdelicQuotients.EllipticRegularity.SmoothOfLocallySmooth
+islattice-audit: 63 module(s), 0 hit(s)
+
+Earlier source builds for reused outputs
+✔ [18335/18394] Built Formalism.UnipotentAdelicQuotients.EllipticRegularity.SmoothOfLocallySmooth (6.4s)
+⚠ [18336/18394] Built Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingLocal (10s)
+⚠ [18337/18394] Built Formalism.UnipotentAdelicQuotients.EllipticRegularity.Moments (10s)
+✔ [18338/18394] Built Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDecay (6.3s)
+⚠ [18339/18394] Built Formalism.UnipotentAdelicQuotients.EllipticRegularity.IteratedPartialFourierChar (6.4s)
+⚠ [18340/18394] Built Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDil (19s)
+⚠ [18341/18394] Built Formalism.UnipotentAdelicQuotients.EllipticRegularity.BaseLevel (4.5s)
+⚠ [18342/18394] Built Formalism.UnipotentAdelicQuotients.EllipticRegularity.ConvolutionBound (5.1s)
+✔ [18343/18394] Built Formalism.UnipotentAdelicQuotients.EllRegStep (3.8s)
+⚠ [18344/18394] Built Formalism.TruncatedSeriesCounting.PowMemSpanOfMemSpanLinearDistinguished (4.1s)
+⚠ [18345/18394] Built Formalism.TruncatedSeriesCounting.AprimeArith (3.3s)
+⚠ [18346/18394] Built Formalism.TruncatedSeriesCounting.WindowSeparated (3.8s)
+⚠ [18347/18394] Built Formalism.TruncatedSeriesCounting.StatementX (3.6s)
+⚠ [18348/18394] Built Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.SubSmulOneInjective (5.3s)
+✔ [18349/18394] Built Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.SubGen (5.2s)
+✔ [18350/18394] Built Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.RamifiedValuationInequality (5.8s)
+✔ [18351/18394] Built Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.KappaSecondExponentBound (5.3s)
+✔ [18352/18394] Built Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.HCoefficientBound (4.3s)
+✔ [18353/18394] Built Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ColChain (4.2s)
+✔ [18354/18394] Built Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ExpBound (6.8s)
+✔ [18355/18394] Built Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ColAssembly (7.3s)
+⚠ [18356/18394] Built Formalism.TranslateCocycles.TranslateCocycleProofs.NetGLMapSurjective (9.4s)
+✔ [18357/18394] Built Formalism.TorsionNormIteration.InvIntegralOfClass (55s)
+⚠ [18358/18394] Built Formalism.ThetaSupremumBounds.GaussianShiftBounds.Assembly (53s)
+⚠ [18361/18394] Built Formalism.ThetaSupremumBounds.StatementE (4.9s)
+✔ [18363/18394] Built Formalism.ThetaSupremumBounds.GaussianShiftBounds.DominanceMono (3.9s)
+⚠ [18364/18394] Built Formalism.ThetaSupremumBounds.GaussianShiftBounds.ClassSchur (4.4s)
+⚠ [18365/18394] Built Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.InvInv (6.5s)
+⚠ [18366/18394] Built Formalism.TowerValuationBounds.TowerValuationProofs.ValuationRatioIndex (8.3s)
+⚠ [18367/18394] Built Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.InvInt (4.3s)
+⚠ [18368/18394] Built Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.HomRelationHolds (4.8s)
+⚠ [18369/18394] Built Formalism.ThetaLogCoordinates.UniformThetaSubstitution.EdgeExponent (3.5s)
+⚠ [18370/18394] Built Formalism.ThetaLogCoordinates.UniformThetaSubstitution.HeckeOneLift (3.9s)
+⚠ [18371/18394] Built Formalism.ThetaLogCoordinates.UniformThetaSubstitution.OddLogRelation (4.2s)
+⚠ [18379/18394] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.TTotal (4.4s)
+⚠ [18381/18394] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LogWeylDimensionEstimate (4.9s)
+⚠ [18382/18394] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LogBinomialProperties (4.4s)
+✔ [18383/18394] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.Branch (3.5s)
+⚠ [18384/18394] Built Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NPUnit (5.3s)
+⚠ [18385/18394] Built Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NPWDivision (3.5s)
+⚠ [18386/18394] Built Formalism.TameInertiaTowers.CentralOrderTwo.ConjEqInvOfPowEqOne (4.4s)
+⚠ [18388/18394] Built Formalism.TameInertiaTowers.CentralOrderTwo.Galois (6.2s)
+⚠ [18389/18394] Built Formalism.TameInertiaTowers.CentralOrderTwo.DecompositionSubgroupIndex (11s)
+✔ [18391/18394] Built Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MinkowskiIILowerOf (4.9s)
+⚠ [18392/18394] Built Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MinkCore (4.0s)
+⚠ [18364/18394] Built Formalism.ThetaSupremumBounds.GaussianShiftBounds.FockJet (7.9s)
+⚠ [18367/18394] Built Formalism.ThetaSupremumBounds.GaussianShiftBounds.BlockIntegralOf (8.3s)
+⚠ [18374/18394] Built Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingFourier (10s)
+⚠ [18377/18394] Built Formalism.ThetaSupremumBounds.GaussianShiftBounds.HeightsoundOf (4.3s)
+⚠ [18378/18394] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.N0LeNs (5.0s)
+⚠ [18383/18394] Built Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementC (4.1s)
+⚠ [18389/18394] Built Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementA (3.4s)
+⚠ [18392/18394] Built Formalism.SuccessiveMinima.SuccessiveMinimaProofs.SuccMin (5.0s)
+⚠ [18393/18394] Built Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MeasureEqCovolumeMulVolumeImage (5.8s)
+⚠ [18394/18394] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.AtypicalWeightBoundOf (19s)
+⚠ [18408/18419] Built Formalism.TameInertiaTowers.CentralOrderTwo.OrderOfThreeUnitsTwoPow (4.6s)
+⚠ [18413/18419] Built Formalism.TameInertiaTowers.CentralOrderTwo.NegOneNeOneUnitsZmodFour (5.7s)
+✔ [18416/18419] Built Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementH (4.2s)
+✔ [18417/18419] Built Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementC (3.8s)
+✔ [18418/18419] Built Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementB (4.1s)
+✔ [18419/18419] Built Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementA (3.9s)
+⚠ [18418/18419] Built Formalism.TameInertiaTowers.CentralOrderTwo.NormalOrderTwoCentral (40s)
+⚠ [18419/18419] Built Formalism.ThetaLogCoordinates.JacobiPathWeights.JacobiMinorProofs.ExistsSuppOfEvalNe (41s)
+
+Build verification on the upstream base
+Building 63 explicitly requested module(s).
+Resolved 50 transitive project import(s) (113 total module(s) to materialize).
+[FETCH] Materializing 113 SHA-256-verified source file(s)...
+[FETCH] Verified 113/113 source file(s).
+[KEEP]  M115004: unchanged (verified against archive source)
+[KEEP]  M115078: unchanged (verified against archive source)
+[PATCH] M144513: applied M144513.patch
+[KEEP]  M144554: unchanged (verified against archive source)
+[KEEP]  M144556: unchanged (verified against archive source)
+[KEEP]  M144557: unchanged (verified against archive source)
+[KEEP]  M144559: unchanged (verified against archive source)
+[KEEP]  M145124: unchanged (verified against archive source)
+[KEEP]  M145164: unchanged (verified against archive source)
+[KEEP]  M147326: unchanged (verified against archive source)
+[KEEP]  M147379: unchanged (verified against archive source)
+[KEEP]  M153162: unchanged (verified against archive source)
+[KEEP]  M153172: unchanged (verified against archive source)
+[KEEP]  M161347: unchanged (verified against archive source)
+[KEEP]  M161375: unchanged (verified against archive source)
+[KEEP]  M161376: unchanged (verified against archive source)
+[KEEP]  M161378: unchanged (verified against archive source)
+[KEEP]  M161379: unchanged (verified against archive source)
+[PATCH] M161383: applied M161383.patch
+[KEEP]  M161384: unchanged (verified against archive source)
+[KEEP]  M161385: unchanged (verified against archive source)
+[KEEP]  M161386: unchanged (verified against archive source)
+[KEEP]  M161387: unchanged (verified against archive source)
+[KEEP]  M161388: unchanged (verified against archive source)
+[PATCH] M161389: applied M161389.patch
+[KEEP]  M161390: unchanged (verified against archive source)
+[KEEP]  M161391: unchanged (verified against archive source)
+[KEEP]  M161392: unchanged (verified against archive source)
+[KEEP]  M161395: unchanged (verified against archive source)
+[PATCH] M161396: applied M161396.patch
+[KEEP]  M161398: unchanged (verified against archive source)
+[PATCH] M161399: applied M161399.patch
+[KEEP]  M161402: unchanged (verified against archive source)
+[KEEP]  M161403: unchanged (verified against archive source)
+[PATCH] M161432: applied M161432.patch
+[KEEP]  M161433: unchanged (verified against archive source)
+[KEEP]  M161499: unchanged (verified against archive source)
+[KEEP]  M161500: unchanged (verified against archive source)
+[KEEP]  M161501: unchanged (verified against archive source)
+[KEEP]  M161502: unchanged (verified against archive source)
+[KEEP]  M161542: unchanged (verified against archive source)
+[KEEP]  M161543: unchanged (verified against archive source)
+[PATCH] M161550: applied M161550.patch
+[KEEP]  M161566: unchanged (verified against archive source)
+[PATCH] M161568: applied M161568.patch
+[KEEP]  M161569: unchanged (verified against archive source)
+[PATCH] M161570: applied M161570.patch
+[PATCH] M161571: applied M161571.patch
+[KEEP]  M161594: unchanged (verified against archive source)
+[KEEP]  M161597: unchanged (verified against archive source)
+[PATCH] M161600: applied M161600.patch
+[KEEP]  M161601: unchanged (verified against archive source)
+[KEEP]  M161603: unchanged (verified against archive source)
+[KEEP]  M161604: unchanged (verified against archive source)
+[PATCH] M161605: applied M161605.patch
+[KEEP]  M161606: unchanged (verified against archive source)
+[KEEP]  M161618: unchanged (verified against archive source)
+[KEEP]  M161626: unchanged (verified against archive source)
+[KEEP]  M161627: unchanged (verified against archive source)
+[KEEP]  M161628: unchanged (verified against archive source)
+[KEEP]  M161639: unchanged (verified against archive source)
+[KEEP]  M161646: unchanged (verified against archive source)
+[KEEP]  M161688: unchanged (verified against archive source)
+[KEEP]  M161693: unchanged (verified against archive source)
+[KEEP]  M161696: unchanged (verified against archive source)
+[KEEP]  M161710: unchanged (verified against archive source)
+[PATCH] M161711: applied M161711.patch
+[KEEP]  M161712: unchanged (verified against archive source)
+[KEEP]  M161713: unchanged (verified against archive source)
+[PATCH] M161714: applied M161714.patch
+[PATCH] M161717: applied M161717.patch
+[KEEP]  M161720: unchanged (verified against archive source)
+[KEEP]  M161721: unchanged (verified against archive source)
+[KEEP]  M161722: unchanged (verified against archive source)
+[KEEP]  M161725: unchanged (verified against archive source)
+[KEEP]  M161731: unchanged (verified against archive source)
+[KEEP]  M161746: unchanged (verified against archive source)
+[KEEP]  M161747: unchanged (verified against archive source)
+[KEEP]  M161748: unchanged (verified against archive source)
+[KEEP]  M161749: unchanged (verified against archive source)
+[KEEP]  M161750: unchanged (verified against archive source)
+[KEEP]  M161753: unchanged (verified against archive source)
+[KEEP]  M161755: unchanged (verified against archive source)
+[KEEP]  M161756: unchanged (verified against archive source)
+[KEEP]  M161757: unchanged (verified against archive source)
+[KEEP]  M161761: unchanged (verified against archive source)
+[KEEP]  M161762: unchanged (verified against archive source)
+[KEEP]  M161763: unchanged (verified against archive source)
+[KEEP]  M161769: unchanged (verified against archive source)
+[KEEP]  M161770: unchanged (verified against archive source)
+[KEEP]  M161774: unchanged (verified against archive source)
+[KEEP]  M161776: unchanged (verified against archive source)
+[KEEP]  M161778: unchanged (verified against archive source)
+[KEEP]  M161785: unchanged (verified against archive source)
+[KEEP]  M161788: unchanged (verified against archive source)
+[KEEP]  M161789: unchanged (verified against archive source)
+[KEEP]  M161795: unchanged (verified against archive source)
+[KEEP]  M161804: unchanged (verified against archive source)
+[KEEP]  M161806: unchanged (verified against archive source)
+[KEEP]  M161807: unchanged (verified against archive source)
+[KEEP]  M161808: unchanged (verified against archive source)
+[KEEP]  M161809: unchanged (verified against archive source)
+[KEEP]  M161812: unchanged (verified against archive source)
+[KEEP]  M161813: unchanged (verified against archive source)
+[KEEP]  M161815: unchanged (verified against archive source)
+[KEEP]  M161817: unchanged (verified against archive source)
+[PATCH] M161818: applied M161818.patch
+[KEEP]  M161819: unchanged (verified against archive source)
+[KEEP]  M161820: unchanged (verified against archive source)
+[KEEP]  M162135: unchanged (verified against archive source)
+[KEEP]  M162144: unchanged (verified against archive source)
+[KEEP]  M170742: unchanged (verified against archive source)
+[KEEP]  M170794: unchanged (verified against archive source)
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in /var/tmp/alpoge-rh-port-1337/workspace-P0223
+
+[BUILD] Building 63 module(s) with `lake build`...
+        IDs: M161383, M161384, M161385, M161386, M161387, M161389, M161390, M161391, M161392, M161395, M161396, M161398, M161499, M161500, M161501, M161502, M161550, M161568, M161570, M161600, M161601, M161603, M161604, M161605, M161606, M161626, M161627, M161628, M161646, M161688, M161693, M161710, M161711, M161712, M161713, M161714, M161717, M161725, M161731, M161749, M161755, M161757, M161761, M161763, M161769, M161770, M161774, M161776, M161778, M161785, M161788, M161789, M161795, M161807, M161808, M161809, M161812, M161813, M161815, M161817, M161818, M161819, M161820
+⚠ [18250/18412] Replayed Formalism.SuccessiveMinima.StatementMink
+warning: src/Formalism/SuccessiveMinima/StatementMink.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18412] Ran Formalism.SuccessiveMinima.StatementMink:irArts
+warning: src/Formalism/SuccessiveMinima/StatementMink.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18412] Replayed Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MeasureEqCovolumeMulVolumeImage
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/MeasureEqCovolumeMulVolumeImage.lean:27:19: `MeasureTheory.Measure.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  M̵e̵a̵s̵u̵r̵e̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+⚠ [18255/18412] Replayed Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MinkCore
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/MinkCore.lean:30:21: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [18257/18412] Replayed Formalism.SuccessiveMinima.StatementNP
+warning: src/Formalism/SuccessiveMinima/StatementNP.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18258/18412] Ran Formalism.SuccessiveMinima.StatementNP:irArts
+warning: src/Formalism/SuccessiveMinima/StatementNP.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18263/18412] Replayed Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NPUnit
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/NPUnit.lean:93:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18264/18412] Replayed Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NPWDivision
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/NPWDivision.lean:13:0: automatically included section variable(s) unused in theorem `Formalism.FN.WDiv.term_eq`:
+  [IsUltrametricDist K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/NPWDivision.lean:76:0: automatically included section variable(s) unused in theorem `Formalism.FN.WDiv.exists_eps`:
+  [IsUltrametricDist K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsUltrametricDist K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18265/18412] Replayed Formalism.SuccessiveMinima.SuccessiveMinimaProofs.SuccMin
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:12:0: automatically included section variable(s) unused in theorem `Formalism.FN.SuccessiveMinima.mem_smul_iff_gauge`:
+  [FiniteDimensional ℝ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:35:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:36:53: `AddSubgroup.isClosed_of_discrete` has been deprecated: Use `AddSubgroup.isClosed_of_discreteTopology` instead
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:40:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:40:8: Unused tactic linter: `exact isDiscrete_iff_discreteTopology.mpr ‹DiscreteTopology L›` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:82:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:145:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:161:8: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:170:38: `Fin.coe_castSucc` has been deprecated: Use `Fin.val_castSucc` instead
+
+Hint: Replace the deprecated name:
+  F̵i̵n̵.̵c̵o̵e̵_̵c̵a̵s̵t̵S̵u̵c̵c̵F̲i̲n̲.̲v̲a̲l̲_̲c̲a̲s̲t̲S̲u̲c̲c̲
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:192:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/SuccessiveMinima/SuccessiveMinimaProofs/SuccMin.lean:223:10: `Fin.lt_iff_val_lt_val` has been deprecated: Use `Fin.lt_def` instead
+
+Hint: Replace the deprecated name:
+  F̵i̵n̵.̵l̵t̵_̵i̵f̵f̵_̵v̵a̵l̵_̵l̵t̵_̵v̵a̵l̵F̲i̲n̲.̲l̲t̲_̲d̲e̲f̲
+⚠ [18266/18412] Replayed Formalism.TameInertiaTowers.StatementGroup
+warning: src/Formalism/TameInertiaTowers/StatementGroup.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18267/18412] Ran Formalism.TameInertiaTowers.StatementGroup:irArts
+warning: src/Formalism/TameInertiaTowers/StatementGroup.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18268/18412] Replayed Formalism.TameInertiaTowers.StatementField
+warning: src/Formalism/TameInertiaTowers/StatementField.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18269/18412] Ran Formalism.TameInertiaTowers.StatementField:irArts
+warning: src/Formalism/TameInertiaTowers/StatementField.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18270/18412] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.ConjEqInvOfPowEqOne
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/ConjEqInvOfPowEqOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18271/18412] Replayed Lemmata.FirstBlockLemmaE.Imports
+warning: src/Lemmata/FirstBlockLemmaE/Imports.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Lemmata/FirstBlockLemmaE/Imports.lean:6:16: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18272/18412] Ran Lemmata.FirstBlockLemmaE.Imports:irArts
+warning: src/Lemmata/FirstBlockLemmaE/Imports.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18273/18412] Replayed Lemmata.GeneralBFactRightTerForm.Imports
+warning: src/Lemmata/GeneralBFactRightTerForm/Imports.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Lemmata/GeneralBFactRightTerForm/Imports.lean:6:37: Variable name `inst_1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Lemmata/GeneralBFactRightTerForm/Imports.lean:31:7: Variable name `hP` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hP
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Lemmata/GeneralBFactRightTerForm/Imports.lean:223:20: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18274/18412] Ran Lemmata.GeneralBFactRightTerForm.Imports:irArts
+warning: src/Lemmata/GeneralBFactRightTerForm/Imports.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18275/18412] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.DecompositionSubgroupIndex
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:98: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:157: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:209: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:269: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:346: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:398: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:447: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:494: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:539: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:580: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:80: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:10: Unused tactic linter: `exact Bl.FirstBlockLemmaE.goal1 ..` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:80: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:98: Unused tactic linter: `(intros; apply Bl.FirstBlockLemmaE.goal1 <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:157: Unused tactic linter: `(apply @Bl.FirstBlockLemmaE.goal1 <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:209: Unused tactic linter: `(intros; apply @Bl.FirstBlockLemmaE.goal1 <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:269: Unused tactic linter: `(apply @Bl.FirstBlockLemmaE.goal1 <;>
+    first
+    | assumption
+    | infer_instance)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:346: Unused tactic linter: `exact @Bl.FirstBlockLemmaE.goal1 L ‹_› ‹_› x c hx` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:398: Unused tactic linter: `exact @Bl.FirstBlockLemmaE.goal1 L ‹_› ‹_› x c` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:447: Unused tactic linter: `exact @Bl.FirstBlockLemmaE.goal1 L ‹_› ‹_› x` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:494: Unused tactic linter: `exact @Bl.FirstBlockLemmaE.goal1 L ‹_› ‹_›` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:539: Unused tactic linter: `exact @Bl.FirstBlockLemmaE.goal1 L ‹_›` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/DecompositionSubgroupIndex.lean:21:580: Unused tactic linter: `exact @Bl.FirstBlockLemmaE.goal1 L` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18276/18412] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.Galois
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/Galois.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/Galois.lean:316:29: This simp argument is unused:
+  C_eq_natCast
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [f, map_cyclotomic]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18277/18412] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.TwoAdic
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:7:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:13:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:38:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:43:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:61:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:74:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:94:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:99:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:105:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18278/18412] Ran Formalism.TameInertiaTowers.CentralOrderTwo.TwoAdic:irArts
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18279/18412] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.NegOneNeOneUnitsZmodFour
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/NegOneNeOneUnitsZmodFour.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/NegOneNeOneUnitsZmodFour.lean:9:29: `padicValNat.mul` has been deprecated: Use `Nat.multiplicity_mul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul` to `Nat.multiplicity_mul x`).
+
+Hint: Replace the deprecated name:
+  p̵a̵d̵i̵c̵V̵a̵l̵N̵a̵t̵.̵m̵u̵l̵N̲a̲t̲.̲m̲u̲l̲t̲i̲p̲l̲i̲c̲i̲t̲y̲_̲m̲u̲l̲
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/NegOneNeOneUnitsZmodFour.lean:10:4: `padicValNat.prime_pow` has been deprecated: Use `Nat.multiplicity_prime_pow` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.prime_pow` to `Nat.multiplicity_prime_pow x`).
+
+Hint: Replace the deprecated name:
+  p̵a̵d̵i̵c̵V̵a̵l̵N̵a̵t̵.̵p̵r̵i̵m̵e̵_̵p̵o̵w̵N̲a̲t̲.̲m̲u̲l̲t̲i̲p̲l̲i̲c̲i̲t̲y̲_̲p̲r̲i̲m̲e̲_̲p̲o̲w̲
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/NegOneNeOneUnitsZmodFour.lean:10:27: `padicValNat.eq_zero_of_not_dvd` has been deprecated: Use `multiplicity_eq_zero_of_not_dvd` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.eq_zero_of_not_dvd` to `multiplicity_eq_zero_of_not_dvd x`).
+
+Hint: Replace the deprecated name:
+  p̵a̵d̵i̵c̵V̵a̵l̵N̵a̵t̵.̵e̵q̵_̵z̵e̵r̵o̵_̵o̵f̵_̵n̵o̵t̵_̵d̵v̵d̵m̲u̲l̲t̲i̲p̲l̲i̲c̲i̲t̲y̲_̲e̲q̲_̲z̲e̲r̲o̲_̲o̲f̲_̲n̲o̲t̲_̲d̲v̲d̲
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/NegOneNeOneUnitsZmodFour.lean:26:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/NegOneNeOneUnitsZmodFour.lean:28:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/NegOneNeOneUnitsZmodFour.lean:60:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/NegOneNeOneUnitsZmodFour.lean:96:2: Unused tactic linter: `all_goals` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/NegOneNeOneUnitsZmodFour.lean:320:8: Unused tactic linter: `all_goals` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18280/18412] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.NormalOrderTwoCentral
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/NormalOrderTwoCentral.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/NormalOrderTwoCentral.lean:28:32: `padicValNat.mul` has been deprecated: Use `Nat.multiplicity_mul` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul` to `Nat.multiplicity_mul x`).
+
+Hint: Replace the deprecated name:
+  p̵a̵d̵i̵c̵V̵a̵l̵N̵a̵t̵.̵m̵u̵l̵N̲a̲t̲.̲m̲u̲l̲t̲i̲p̲l̲i̲c̲i̲t̲y̲_̲m̲u̲l̲
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/NormalOrderTwoCentral.lean:29:4: `padicValNat.prime_pow` has been deprecated: Use `Nat.multiplicity_prime_pow` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.prime_pow` to `Nat.multiplicity_prime_pow x`).
+
+Hint: Replace the deprecated name:
+  p̵a̵d̵i̵c̵V̵a̵l̵N̵a̵t̵.̵p̵r̵i̵m̵e̵_̵p̵o̵w̵N̲a̲t̲.̲m̲u̲l̲t̲i̲p̲l̲i̲c̲i̲t̲y̲_̲p̲r̲i̲m̲e̲_̲p̲o̲w̲
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/NormalOrderTwoCentral.lean:29:27: `padicValNat.eq_zero_of_not_dvd` has been deprecated: Use `multiplicity_eq_zero_of_not_dvd` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.eq_zero_of_not_dvd` to `multiplicity_eq_zero_of_not_dvd x`).
+
+Hint: Replace the deprecated name:
+  p̵a̵d̵i̵c̵V̵a̵l̵N̵a̵t̵.̵e̵q̵_̵z̵e̵r̵o̵_̵o̵f̵_̵n̵o̵t̵_̵d̵v̵d̵m̲u̲l̲t̲i̲p̲l̲i̲c̲i̲t̲y̲_̲e̲q̲_̲z̲e̲r̲o̲_̲o̲f̲_̲n̲o̲t̲_̲d̲v̲d̲
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/NormalOrderTwoCentral.lean:33:32: `padicValNat.prime_pow` has been deprecated: Use `Nat.multiplicity_prime_pow` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.prime_pow` to `Nat.multiplicity_prime_pow x`).
+
+Hint: Replace the deprecated name:
+  p̵a̵d̵i̵c̵V̵a̵l̵N̵a̵t̵.̵p̵r̵i̵m̵e̵_̵p̵o̵w̵N̲a̲t̲.̲m̲u̲l̲t̲i̲p̲l̲i̲c̲i̲t̲y̲_̲p̲r̲i̲m̲e̲_̲p̲o̲w̲
+⚠ [18281/18412] Replayed Formalism.TameInertiaTowers.CentralOrderTwo.OrderOfThreeUnitsTwoPow
+warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/OrderOfThreeUnitsTwoPow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18282/18412] Replayed Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsObj
+warning: src/Formalism/ThetaLogCoordinates/DualWeylCoordinates/DefsObj.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18283/18412] Ran Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsObj:irArts
+warning: src/Formalism/ThetaLogCoordinates/DualWeylCoordinates/DefsObj.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18290/18412] Replayed Formalism.ThetaLogCoordinates.JacobiPathWeights.DetLetters
+warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/DetLetters.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18291/18412] Ran Formalism.ThetaLogCoordinates.JacobiPathWeights.DetLetters:irArts
+warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/DetLetters.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18292/18412] Replayed Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementE
+warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/StatementE.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18293/18412] Ran Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementE:irArts
+warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/StatementE.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18294/18412] Replayed Formalism.ThetaLogCoordinates.JacobiPathWeights.JacobiMinorProofs.ExistsSuppOfEvalNe
+warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/JacobiMinorProofs/ExistsSuppOfEvalNe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/JacobiMinorProofs/ExistsSuppOfEvalNe.lean:15:0: automatically included section variable(s) unused in theorem `Formalism.InvariantFactorPaths.GelfandTsetlinBases.lp_supp_nonempty`:
+  [IsDomain A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/JacobiMinorProofs/ExistsSuppOfEvalNe.lean:349:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18295/18412] Replayed Formalism.ThetaLogCoordinates.JacobiPathWeights.DefsCol
+warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/DefsCol.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18296/18412] Ran Formalism.ThetaLogCoordinates.JacobiPathWeights.DefsCol:irArts
+warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/DefsCol.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18297/18412] Replayed Formalism.ThetaLogCoordinates.JacobiPathWeights.LiftWord
+warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/LiftWord.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18298/18412] Ran Formalism.ThetaLogCoordinates.JacobiPathWeights.LiftWord:irArts
+warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/LiftWord.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18299/18412] Replayed Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementB
+warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18300/18412] Ran Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementB:irArts
+warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18301/18412] Replayed Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementA
+warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18302/18412] Replayed Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementC
+warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/StatementC.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18303/18412] Replayed Formalism.ThetaLogCoordinates.ResidueClassEstimates.Letters
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/Letters.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18304/18412] Ran Formalism.ThetaLogCoordinates.ResidueClassEstimates.Letters:irArts
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/Letters.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18307/18412] Replayed Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.AtypicalWeightBoundOf
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/AtypicalWeightBoundOf.lean:110:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/AtypicalWeightBoundOf.lean:112:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/AtypicalWeightBoundOf.lean:197:13: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/AtypicalWeightBoundOf.lean:214:15: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/AtypicalWeightBoundOf.lean:245:15: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/AtypicalWeightBoundOf.lean:296:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/AtypicalWeightBoundOf.lean:338:48: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/AtypicalWeightBoundOf.lean:526:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/AtypicalWeightBoundOf.lean:530:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/AtypicalWeightBoundOf.lean:535:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/AtypicalWeightBoundOf.lean:577:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/AtypicalWeightBoundOf.lean:624:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [18309/18412] Replayed Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LogBinomialProperties
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogBinomialProperties.lean:166:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogBinomialProperties.lean:167:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18310/18412] Replayed Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LogWeylDimensionEstimate
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:138:69: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:138:34: This simp argument is unused:
+  Finset.mem_filter
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.coe_filter, Finset.mem_Ico, Set.mem_setOf_eq, Finset.mem_coe] at hx hy
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:139:6: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.coe_filter, Finset.mem_filter, Finset.mem_Ico, Set.mem_setOf_eq] at hx hy
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:214:71: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:214:34: This simp argument is unused:
+  Finset.mem_filter
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.coe_filter, Finset.mem_range, Set.mem_setOf_eq, Finset.mem_coe] at hx hy
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:215:6: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.coe_filter, Finset.mem_filter, Finset.mem_range, Set.mem_setOf_eq] at hx hy
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:293:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:293:68: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:293:80: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:299:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:299:68: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:299:80: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:304:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:304:68: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:304:80: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:306:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:306:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:306:39: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:388:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:391:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:392:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:399:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:400:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:402:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:402:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:401:20: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:401:10: Unused tactic linter: there are no goals left for `all_goals exact le_rfl`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:496:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:496:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:504:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:504:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:519:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:519:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:528:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LogWeylDimensionEstimate.lean:528:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18311/18412] Replayed Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.N0LeNs
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/N0LeNs.lean:62:6: Unused tactic linter: `simp only at h` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/N0LeNs.lean:114:26: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/N0LeNs.lean:114:35: This simp argument is unused:
+  ite_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.zero_le, if_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/N0LeNs.lean:116:6: Unused tactic linter: `simp only at h` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/N0LeNs.lean:275:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/N0LeNs.lean:275:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/N0LeNs.lean:284:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/N0LeNs.lean:284:22: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/N0LeNs.lean:303:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/N0LeNs.lean:303:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/N0LeNs.lean:311:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/N0LeNs.lean:311:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/N0LeNs.lean:575:27: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/N0LeNs.lean:586:25: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/N0LeNs.lean:605:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/N0LeNs.lean:620:27: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/N0LeNs.lean:631:25: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/N0LeNs.lean:651:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18312/18412] Replayed Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.TTotal
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/TTotal.lean:24:6: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/TTotal.lean:37:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/TTotal.lean:37:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/TTotal.lean:38:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/TTotal.lean:38:44: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/TTotal.lean:56:49: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/TTotal.lean:208:15: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/TTotal.lean:208:34: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/TTotal.lean:213:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/TTotal.lean:213:31: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/TTotal.lean:214:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/TTotal.lean:283:30: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/TTotal.lean:305:30: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18313/18412] Replayed Formalism.ThetaLogCoordinates.TraceIsometryWeights.DivStable
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/DivStable.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18314/18412] Ran Formalism.ThetaLogCoordinates.TraceIsometryWeights.DivStable:irArts
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/DivStable.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18317/18412] Replayed Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.HomRelationHolds
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/HomRelationHolds.lean:11:0: automatically included section variable(s) unused in theorem `Formalism.InvariantFactorPaths.PW.homAct_apply`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/HomRelationHolds.lean:14:0: automatically included section variable(s) unused in theorem `Formalism.InvariantFactorPaths.PW.homAct_postcomp`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/HomRelationHolds.lean:21:0: automatically included section variable(s) unused in theorem `Formalism.InvariantFactorPaths.PW.homAct_precomp`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/HomRelationHolds.lean:64:0: automatically included section variable(s) unused in theorem `Formalism.InvariantFactorPaths.PW.homAct_eq`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/HomRelationHolds.lean:80:35: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/HomRelationHolds.lean:91:34: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/HomRelationHolds.lean:93:81: This simp argument is unused:
+  map_neg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [LinearMap.zero_apply, map_zero, homAct_apply, sub_zero, zero_sub, LinearMap.sub_apply,
+    map_sub] at h1 h2 ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/HomRelationHolds.lean:93:90: This simp argument is unused:
+  LinearMap.sub_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [LinearMap.zero_apply, map_zero, homAct_apply, sub_zero, zero_sub, map_neg, map_sub] at h1 h2 ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/HomRelationHolds.lean:93:111: This simp argument is unused:
+  map_sub
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [LinearMap.zero_apply, map_zero, homAct_apply, sub_zero, zero_sub, map_neg,
+    LinearMap.sub_apply] at h1 h2 ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18318/18412] Replayed Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.InvInt
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInt.lean:21:18: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInt.lean:28:13: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInt.lean:38:19: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInt.lean:33:0: automatically included section variable(s) unused in theorem `Formalism.InvariantFactorPaths.PW.Om_eq_pow`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInt.lean:45:21: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInt.lean:51:37: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInt.lean:65:6: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInt.lean:65:28: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInt.lean:65:50: `Module.End.natCast_apply` has been deprecated: Use `natCast_apply_eq_smul` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : NatCast F} {inst_2 : SMul ℕ α}
+    [self : IsNatCastApplyEqSMul F] (n : ℕ) (x : α), ↑n x = n • x
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (n : ℕ) (m : M),
+    ↑n m = n • m
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.natCast_apply` to `natCast_apply_eq_smul x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInt.lean:104:16: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [Om]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInt.lean:119:37: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInt.lean:175:17: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+⚠ [18319/18412] Replayed Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.InvInv
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:18:49: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:11:0: automatically included section variable(s) unused in theorem `Formalism.InvariantFactorPaths.PW.Om_nat`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:31:22: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:76:17: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:76:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:84:70: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:84:81: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:100:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:100:41: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:121:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:121:41: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:128:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:128:44: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:130:22: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:130:70: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:134:52: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:148:28: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:158:28: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:158:76: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:164:75: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:178:45: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:223:0: automatically included section variable(s) unused in theorem `Formalism.InvariantFactorPaths.PW.Pstep_comm`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:245:40: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:239:0: automatically included section variable(s) unused in theorem `Formalism.InvariantFactorPaths.PW.Om_mem`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:266:40: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:271:17: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:271:81: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:272:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:271:60: This simp argument is unused:
+  LinearMap.sub_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Module.End.mul_apply, LinearMap.add_apply, if_neg (Ne.symm hiz), if_pos (rfl : z = z),
+    LinearMap.zero_apply, zero_sub, LinearMap.neg_apply] at e1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:272:8: This simp argument is unused:
+  if_pos (rfl : z = z)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Module.End.mul_apply, LinearMap.add_apply, LinearMap.sub_apply, if_neg (Ne.symm hiz),
+    LinearMap.zero_apply, zero_sub, LinearMap.neg_apply] at e1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:272:30: This simp argument is unused:
+  LinearMap.zero_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Module.End.mul_apply, LinearMap.add_apply, LinearMap.sub_apply, if_neg (Ne.symm hiz),
+    if_pos (rfl : z = z), zero_sub, LinearMap.neg_apply] at e1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:299:0: automatically included section variable(s) unused in theorem `Formalism.InvariantFactorPaths.PW.Pstep_eq`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:309:82: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:312:13: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:336:28: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:343:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:343:44: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:345:22: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:345:34: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:347:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:347:44: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:353:18: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:353:73: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:361:18: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:361:73: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:368:18: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:371:26: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:372:8: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:394:0: automatically included section variable(s) unused in theorem `Formalism.InvariantFactorPaths.PW.range_mem`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:401:57: `Module.End.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : One F} [self : IsOneApplyEqSelf F]
+    (x : α), 1 x = x
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (x : M), 1 x = x
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:402:47: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:415:15: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:419:15: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:426:17: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:427:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:427:56: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:426:60: This simp argument is unused:
+  LinearMap.sub_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Module.End.mul_apply, LinearMap.add_apply, if_neg (show ¬z = j from fun e => hjz e.symm),
+    if_pos (rfl : z = z), ↓reduceIte, LinearMap.zero_apply, zero_sub, LinearMap.neg_apply, hzz, map_zero,
+    zero_add] at e1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:427:56: This simp argument is unused:
+  if_pos (rfl : z = z)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Module.End.mul_apply, LinearMap.add_apply, LinearMap.sub_apply,
+    if_neg (show ¬z = j from fun e => hjz e.symm), ↓reduceIte, LinearMap.zero_apply, zero_sub, LinearMap.neg_apply, hzz,
+    map_zero, zero_add] at e1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:427:90: This simp argument is unused:
+  LinearMap.zero_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Module.End.mul_apply, LinearMap.add_apply, LinearMap.sub_apply,
+    if_neg (show ¬z = j from fun e => hjz e.symm), if_pos (rfl : z = z), ↓reduceIte, zero_sub, LinearMap.neg_apply, hzz,
+    map_zero, zero_add] at e1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:457:17: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/SchurTraceProofs/InvInv.lean:463:22: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+⚠ [18320/18412] Replayed Formalism.SubspaceCounting.StatementB
+warning: src/Formalism/SubspaceCounting/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18321/18412] Ran Formalism.SubspaceCounting.StatementB:irArts
+warning: src/Formalism/SubspaceCounting/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18322/18412] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.StatementC
+warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/StatementC.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18323/18412] Ran Formalism.ThetaLogCoordinates.UniformThetaSubstitution.StatementC:irArts
+warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/StatementC.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18324/18412] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.EdgeExponent
+warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/EdgeExponent.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18325/18412] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.HeckeOneLift
+warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/HeckeOneLift.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18326/18412] Replayed Formalism.IncomingBounds.IncomingBound
+warning: src/Formalism/IncomingBounds/IncomingBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18327/18412] Ran Formalism.IncomingBounds.IncomingBound:irArts
+warning: src/Formalism/IncomingBounds/IncomingBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18328/18412] Replayed Formalism.GaussJetBounds.Statement
+warning: src/Formalism/GaussJetBounds/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18329/18412] Ran Formalism.GaussJetBounds.Statement:irArts
+warning: src/Formalism/GaussJetBounds/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18330/18412] Replayed Formalism.ThetaLogCoordinates.UniformThetaSubstitution.OddLogRelation
+warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/OddLogRelation.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18331/18412] Replayed Formalism.LogFactorialIndices.StatementSize
+warning: src/Formalism/LogFactorialIndices/StatementSize.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18332/18412] Ran Formalism.LogFactorialIndices.StatementSize:irArts
+warning: src/Formalism/LogFactorialIndices/StatementSize.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18333/18412] Replayed Formalism.ThetaSupremumBounds.StatementC
+warning: src/Formalism/ThetaSupremumBounds/StatementC.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18334/18412] Ran Formalism.ThetaSupremumBounds.StatementC:irArts
+warning: src/Formalism/ThetaSupremumBounds/StatementC.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18335/18412] Replayed Formalism.ThetaSupremumBounds.GaussianShiftBounds.Assembly
+warning: src/Formalism/ThetaSupremumBounds/GaussianShiftBounds/Assembly.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18336/18412] Replayed Formalism.LogFactorialBounds.LogFactorialSandwich
+warning: src/Formalism/LogFactorialBounds/LogFactorialSandwich.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18337/18412] Ran Formalism.LogFactorialBounds.LogFactorialSandwich:irArts
+warning: src/Formalism/LogFactorialBounds/LogFactorialSandwich.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18338/18412] Replayed Formalism.ThetaSupremumBounds.StatementA
+warning: src/Formalism/ThetaSupremumBounds/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18339/18412] Ran Formalism.ThetaSupremumBounds.StatementA:irArts
+warning: src/Formalism/ThetaSupremumBounds/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18340/18412] Replayed Formalism.ThetaSupremumBounds.GaussianShiftBounds.BlockIntegralOf
+warning: src/Formalism/ThetaSupremumBounds/GaussianShiftBounds/BlockIntegralOf.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/ThetaSupremumBounds/GaussianShiftBounds/BlockIntegralOf.lean:100:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/ThetaSupremumBounds/GaussianShiftBounds/BlockIntegralOf.lean:155:41: Unused tactic linter: there are no goals left for `ring`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18341/18412] Replayed Formalism.ThetaSupremumBounds.StatementB
+warning: src/Formalism/ThetaSupremumBounds/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18342/18412] Ran Formalism.ThetaSupremumBounds.StatementB:irArts
+warning: src/Formalism/ThetaSupremumBounds/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18343/18412] Replayed Formalism.ThetaSupremumBounds.GaussianShiftBounds.ClassSchur
+warning: src/Formalism/ThetaSupremumBounds/GaussianShiftBounds/ClassSchur.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18345/18412] Replayed Formalism.ThetaSupremumBounds.GaussianShiftBounds.FockJet
+warning: src/Formalism/ThetaSupremumBounds/GaussianShiftBounds/FockJet.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18346/18412] Replayed Formalism.ThetaSupremumBounds.GaussianShiftBounds.HeightsoundOf
+warning: src/Formalism/ThetaSupremumBounds/GaussianShiftBounds/HeightsoundOf.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18347/18412] Replayed Formalism.ThetaSupremumBounds.StatementE
+warning: src/Formalism/ThetaSupremumBounds/StatementE.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18348/18412] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CapelliComplements.FirstLemmaM
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CapelliComplements/FirstLemmaM.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CapelliComplements/FirstLemmaM.lean:10:10: `mul_le_one₀` has been deprecated: No replacement, use constituent lemmas from proof.
+⚠ [18349/18412] Ran Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CapelliComplements.FirstLemmaM:irArts
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CapelliComplements/FirstLemmaM.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18350/18412] Replayed Formalism.FormalGroupLog.Statement
+warning: src/Formalism/FormalGroupLog/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/FormalGroupLog/Statement.lean:72:50: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/FormalGroupLog/Statement.lean:72:86: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/FormalGroupLog/Statement.lean:72:118: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/FormalGroupLog/Statement.lean:72:50: Unused tactic linter: `exact @Bl.FirstLemmaM.goal1 K ‹_›` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/FormalGroupLog/Statement.lean:72:86: Unused tactic linter: `exact @Bl.FirstLemmaM.goal1 K` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/FormalGroupLog/Statement.lean:72:118: Unused tactic linter: `exact @Bl.FirstLemmaM.goal1` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18351/18412] Ran Formalism.FormalGroupLog.Statement:irArts
+warning: src/Formalism/FormalGroupLog/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18353/18412] Replayed Formalism.TowerValuationBounds.TowerValuationBoundIndexed
+warning: src/Formalism/TowerValuationBounds/TowerValuationBoundIndexed.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18354/18412] Ran Formalism.TowerValuationBounds.TowerValuationBoundIndexed:irArts
+warning: src/Formalism/TowerValuationBounds/TowerValuationBoundIndexed.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18355/18412] Replayed Formalism.TowerValuationBounds.HermitianSumValuationBound
+warning: src/Formalism/TowerValuationBounds/HermitianSumValuationBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18356/18412] Ran Formalism.TowerValuationBounds.HermitianSumValuationBound:irArts
+warning: src/Formalism/TowerValuationBounds/HermitianSumValuationBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18357/18412] Replayed Formalism.TowerValuationBounds.TowerValuationProofs.SumAdditiveCharacterEqZero
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/SumAdditiveCharacterEqZero.lean:272:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/SumAdditiveCharacterEqZero.lean:277:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/SumAdditiveCharacterEqZero.lean:344:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/SumAdditiveCharacterEqZero.lean:344:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/SumAdditiveCharacterEqZero.lean:351:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/SumAdditiveCharacterEqZero.lean:351:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/SumAdditiveCharacterEqZero.lean:838:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/SumAdditiveCharacterEqZero.lean:838:34: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/SumAdditiveCharacterEqZero.lean:838:45: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/SumAdditiveCharacterEqZero.lean:847:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/SumAdditiveCharacterEqZero.lean:847:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/SumAdditiveCharacterEqZero.lean:847:43: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/SumAdditiveCharacterEqZero.lean:857:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18359/18412] Replayed Formalism.TowerValuationBounds.TowerValuationProofs.ValuationRatioIndex
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/ValuationRatioIndex.lean:46:45: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.mem_Icc] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/ValuationRatioIndex.lean:47:45: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.mem_Icc] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/ValuationRatioIndex.lean:58:45: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.mem_Icc] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/ValuationRatioIndex.lean:59:45: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.mem_Icc] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/ValuationRatioIndex.lean:60:45: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.mem_Icc] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/ValuationRatioIndex.lean:61:45: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.mem_Icc] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/ValuationRatioIndex.lean:66:45: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.mem_Icc] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/ValuationRatioIndex.lean:67:45: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.mem_Icc] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/ValuationRatioIndex.lean:68:45: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.mem_Icc] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/ValuationRatioIndex.lean:69:45: This simp argument is unused:
+  Finset.mem_coe
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.mem_Icc] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18360/18412] Replayed Formalism.TranslateCocycles.StatementNet
+warning: src/Formalism/TranslateCocycles/StatementNet.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18361/18412] Ran Formalism.TranslateCocycles.StatementNet:irArts
+warning: src/Formalism/TranslateCocycles/StatementNet.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18362/18412] Replayed Formalism.TranslateCocycles.Statement
+warning: src/Formalism/TranslateCocycles/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18363/18412] Ran Formalism.TranslateCocycles.Statement:irArts
+warning: src/Formalism/TranslateCocycles/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18366/18412] Replayed Formalism.TranslateCocycles.TranslateCocycleProofs.NetGLMapSurjective
+warning: src/Formalism/TranslateCocycles/TranslateCocycleProofs/NetGLMapSurjective.lean:133:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/TranslateCocycles/TranslateCocycleProofs/NetGLMapSurjective.lean:137:17: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/TranslateCocycles/TranslateCocycleProofs/NetGLMapSurjective.lean:150:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/TranslateCocycles/TranslateCocycleProofs/NetGLMapSurjective.lean:155:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/TranslateCocycles/TranslateCocycleProofs/NetGLMapSurjective.lean:156:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/TranslateCocycles/TranslateCocycleProofs/NetGLMapSurjective.lean:193:70: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/TranslateCocycles/TranslateCocycleProofs/NetGLMapSurjective.lean:198:34: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18367/18412] Replayed Formalism.WindowSums.Statement
+warning: src/Formalism/WindowSums/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18368/18412] Ran Formalism.WindowSums.Statement:irArts
+warning: src/Formalism/WindowSums/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18369/18412] Replayed Formalism.FrobeniusContraction.Statement
+warning: src/Formalism/FrobeniusContraction/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18370/18412] Ran Formalism.FrobeniusContraction.Statement:irArts
+warning: src/Formalism/FrobeniusContraction/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18371/18412] Replayed Formalism.GaussValuationBounds.Statement
+warning: src/Formalism/GaussValuationBounds/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18372/18412] Ran Formalism.GaussValuationBounds.Statement:irArts
+warning: src/Formalism/GaussValuationBounds/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18373/18412] Replayed Formalism.TruncatedSeriesCounting.AprimeArith
+warning: src/Formalism/TruncatedSeriesCounting/AprimeArith.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18374/18412] Replayed Formalism.TruncatedSeriesCounting.PowMemSpanOfMemSpanLinearDistinguished
+warning: src/Formalism/TruncatedSeriesCounting/PowMemSpanOfMemSpanLinearDistinguished.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18375/18412] Replayed Formalism.LagrangeIdealLifts.Statement
+warning: src/Formalism/LagrangeIdealLifts/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18376/18412] Ran Formalism.LagrangeIdealLifts.Statement:irArts
+warning: src/Formalism/LagrangeIdealLifts/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18377/18412] Replayed Formalism.TruncatedSeriesCounting.RamifiedValuationInequality
+warning: src/Formalism/TruncatedSeriesCounting/RamifiedValuationInequality.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18378/18412] Ran Formalism.TruncatedSeriesCounting.RamifiedValuationInequality:irArts
+warning: src/Formalism/TruncatedSeriesCounting/RamifiedValuationInequality.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18379/18412] Replayed Formalism.TruncatedSeriesCounting.StatementX
+warning: src/Formalism/TruncatedSeriesCounting/StatementX.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18380/18412] Replayed Formalism.FrobeniusContraction.FrobeniusContractionProofs.LenBound
+warning: src/Formalism/FrobeniusContraction/FrobeniusContractionProofs/LenBound.lean:46:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18387/18412] Replayed Formalism.WindowSums.AnnihilatorPolynomials.DistinctTerms
+warning: src/Formalism/WindowSums/AnnihilatorPolynomials/DistinctTerms.lean:15:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/WindowSums/AnnihilatorPolynomials/DistinctTerms.lean:23:59: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/WindowSums/AnnihilatorPolynomials/DistinctTerms.lean:29:68: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/WindowSums/AnnihilatorPolynomials/DistinctTerms.lean:36:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/WindowSums/AnnihilatorPolynomials/DistinctTerms.lean:40:10: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/WindowSums/AnnihilatorPolynomials/DistinctTerms.lean:44:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18391/18412] Replayed Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.SubSmulOneInjective
+warning: src/Formalism/TruncatedSeriesCounting/TruncatedSeriesProofs/SubSmulOneInjective.lean:78:51: `Module.End.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : One F} [self : IsOneApplyEqSelf F]
+    (x : α), 1 x = x
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (x : M), 1 x = x
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+warning: src/Formalism/TruncatedSeriesCounting/TruncatedSeriesProofs/SubSmulOneInjective.lean:84:34: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (f g : End R M)
+    (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/TruncatedSeriesCounting/TruncatedSeriesProofs/SubSmulOneInjective.lean:142:23: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (f g : End R M)
+    (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/TruncatedSeriesCounting/TruncatedSeriesProofs/SubSmulOneInjective.lean:142:56: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (f g : End R M)
+    (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/TruncatedSeriesCounting/TruncatedSeriesProofs/SubSmulOneInjective.lean:146:59: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (f g : End R M)
+    (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+⚠ [18392/18412] Replayed Formalism.FrobeniusContraction.StatementTop
+warning: src/Formalism/FrobeniusContraction/StatementTop.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18393/18412] Ran Formalism.FrobeniusContraction.StatementTop:irArts
+warning: src/Formalism/FrobeniusContraction/StatementTop.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18396/18412] Replayed Formalism.TruncatedSeriesCounting.WindowSeparated
+warning: src/Formalism/TruncatedSeriesCounting/WindowSeparated.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18397/18412] Replayed Formalism.UnipotentAdelicQuotients.EllReg
+warning: src/Formalism/UnipotentAdelicQuotients/EllReg.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18398/18412] Ran Formalism.UnipotentAdelicQuotients.EllReg:irArts
+warning: src/Formalism/UnipotentAdelicQuotients/EllReg.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18402/18412] Replayed Formalism.UnipotentAdelicQuotients.EllipticRegularity.BaseLevel
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/BaseLevel.lean:37:10: `ofReal_norm_eq_enorm` has been deprecated: Use `ofReal_norm` instead
+
+Hint: Replace the deprecated name:
+  ofReal_norm_̵e̵q̵_̵e̵n̵o̵r̵m̵
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/BaseLevel.lean:41:10: `ofReal_norm_eq_enorm` has been deprecated: Use `ofReal_norm` instead
+
+Hint: Replace the deprecated name:
+  ofReal_norm_̵e̵q̵_̵e̵n̵o̵r̵m̵
+⚠ [18403/18412] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ConvSqLe
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ConvSqLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18404/18412] Ran Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.ConvSqLe:irArts
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/ConvSqLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18405/18412] Replayed Formalism.UnipotentAdelicQuotients.EllipticRegularity.ConvolutionBound
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:130: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:205: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:273: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:349: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:442: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:507: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:570: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:630: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:687: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:742: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:10: Unused tactic linter: `exact UpperTheory.Reformulated.B.Qj8.conv_sq_le ..` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:130: Unused tactic linter: `(intros; apply UpperTheory.Reformulated.B.Qj8.conv_sq_le <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:205: Unused tactic linter: `(apply @UpperTheory.Reformulated.B.Qj8.conv_sq_le <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:273: Unused tactic linter: `(intros; apply @UpperTheory.Reformulated.B.Qj8.conv_sq_le <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:349: Unused tactic linter: `(apply @UpperTheory.Reformulated.B.Qj8.conv_sq_le <;>
+    first
+    | assumption
+    | infer_instance)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:442: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qj8.conv_sq_le d k g hk hg ξ` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:507: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qj8.conv_sq_le d k g hk hg` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:570: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qj8.conv_sq_le d k g hk` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:630: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qj8.conv_sq_le d k g` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:687: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qj8.conv_sq_le d k` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:13:742: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qj8.conv_sq_le d` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:50:54: `Measurable.enorm` has been deprecated: Use `Measurable.eNorm` instead
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:53:65: `Measurable.enorm` has been deprecated: Use `Measurable.eNorm` instead
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:56:84: `Measurable.enorm` has been deprecated: Use `Measurable.eNorm` instead
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:58:90: `Measurable.enorm` has been deprecated: Use `Measurable.eNorm` instead
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:70:14: `MeasureTheory.enorm_integral_le_lintegral_enorm` has been deprecated: Use `MeasureTheory.eNorm_integral_le_lintegral_eNorm` instead
+
+Hint: Replace the deprecated name:
+  en̵N̲orm_integral_le_lintegral_en̵N̲orm
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/ConvolutionBound.lean:72:10: `enorm_mul` has been deprecated: Use `eNorm_mul` instead
+
+Hint: Replace the deprecated name:
+  e̵n̵o̵r̵m̵_̵m̵u̵l̵e̲N̲o̲r̲m̲_̲m̲u̲l̲
+⚠ [18406/18412] Replayed Formalism.UnipotentAdelicQuotients.EllipticRegularity.IteratedPartialFourierChar
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/IteratedPartialFourierChar.lean:13:21: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/IteratedPartialFourierChar.lean:23:21: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/IteratedPartialFourierChar.lean:37:15: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+⚠ [18408/18412] Replayed Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDil
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/KernDil.lean:39:57: Variable name `hD` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hD
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18409/18412] Replayed Formalism.UnipotentAdelicQuotients.EllipticRegularity.Moments
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/Moments.lean:24:8: `Real.enorm_eq_ofReal` has been deprecated: Use `Real.eNorm_eq_ofReal` instead
+
+Hint: Replace the deprecated name:
+  Real.en̵N̲orm_eq_ofReal
+⚠ [18410/18412] Replayed Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingFourier
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/PairingFourier.lean:23:2: Unused tactic linter: `try` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/PairingFourier.lean:32:2: Unused tactic linter: `try` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/PairingFourier.lean:58:10: Unused tactic linter: `dsimp only` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/PairingFourier.lean:62:8: Unused tactic linter: `try` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/PairingFourier.lean:67:8: Unused tactic linter: `try` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/PairingFourier.lean:70:8: Unused tactic linter: `try` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/PairingFourier.lean:102:6: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/PairingFourier.lean:120:24: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/PairingFourier.lean:166:2: Unused tactic linter: `try` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18411/18412] Replayed Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingLocal
+warning: src/Formalism/UnipotentAdelicQuotients/EllipticRegularity/PairingLocal.lean:33:10: Unused tactic linter: `exact image_eq_zero_of_nmem_tsupport (fun h => hy (hg h))` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18412 jobs).
+[PASS]  M161383 (Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MeasureEqCovolumeMulVolumeImage)
+[PASS]  M161384 (Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MinkCore)
+[PASS]  M161385 (Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MinkowskiIILowerOf)
+[PASS]  M161386 (Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NPUnit)
+[PASS]  M161387 (Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NPWDivision)
+[PASS]  M161389 (Formalism.SuccessiveMinima.SuccessiveMinimaProofs.SuccMin)
+[PASS]  M161390 (Formalism.TameInertiaTowers.CentralOrderTwo.ConjEqInvOfPowEqOne)
+[PASS]  M161391 (Formalism.TameInertiaTowers.CentralOrderTwo.DecompositionSubgroupIndex)
+[PASS]  M161392 (Formalism.TameInertiaTowers.CentralOrderTwo.Galois)
+[PASS]  M161395 (Formalism.TameInertiaTowers.CentralOrderTwo.NegOneNeOneUnitsZmodFour)
+[PASS]  M161396 (Formalism.TameInertiaTowers.CentralOrderTwo.NormalOrderTwoCentral)
+[PASS]  M161398 (Formalism.TameInertiaTowers.CentralOrderTwo.OrderOfThreeUnitsTwoPow)
+[PASS]  M161499 (Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementA)
+[PASS]  M161500 (Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementB)
+[PASS]  M161501 (Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementC)
+[PASS]  M161502 (Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementH)
+[PASS]  M161550 (Formalism.ThetaLogCoordinates.JacobiPathWeights.JacobiMinorProofs.ExistsSuppOfEvalNe)
+[PASS]  M161568 (Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementA)
+[PASS]  M161570 (Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementC)
+[PASS]  M161600 (Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.AtypicalWeightBoundOf)
+[PASS]  M161601 (Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.Branch)
+[PASS]  M161603 (Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LogBinomialProperties)
+[PASS]  M161604 (Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LogWeylDimensionEstimate)
+[PASS]  M161605 (Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.N0LeNs)
+[PASS]  M161606 (Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.TTotal)
+[PASS]  M161626 (Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.HomRelationHolds)
+[PASS]  M161627 (Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.InvInt)
+[PASS]  M161628 (Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.InvInv)
+[PASS]  M161646 (Formalism.ThetaLogCoordinates.UniformThetaSubstitution.EdgeExponent)
+[PASS]  M161688 (Formalism.ThetaLogCoordinates.UniformThetaSubstitution.HeckeOneLift)
+[PASS]  M161693 (Formalism.ThetaLogCoordinates.UniformThetaSubstitution.OddLogRelation)
+[PASS]  M161710 (Formalism.ThetaSupremumBounds.GaussianShiftBounds.Assembly)
+[PASS]  M161711 (Formalism.ThetaSupremumBounds.GaussianShiftBounds.BlockIntegralOf)
+[PASS]  M161712 (Formalism.ThetaSupremumBounds.GaussianShiftBounds.ClassSchur)
+[PASS]  M161713 (Formalism.ThetaSupremumBounds.GaussianShiftBounds.DominanceMono)
+[PASS]  M161714 (Formalism.ThetaSupremumBounds.GaussianShiftBounds.FockJet)
+[PASS]  M161717 (Formalism.ThetaSupremumBounds.GaussianShiftBounds.HeightsoundOf)
+[PASS]  M161725 (Formalism.ThetaSupremumBounds.StatementE)
+[PASS]  M161731 (Formalism.TorsionNormIteration.InvIntegralOfClass)
+[PASS]  M161749 (Formalism.TowerValuationBounds.TowerValuationProofs.ValuationRatioIndex)
+[PASS]  M161755 (Formalism.TranslateCocycles.TranslateCocycleProofs.NetGLMapSurjective)
+[PASS]  M161757 (Formalism.TruncatedSeriesCounting.AprimeArith)
+[PASS]  M161761 (Formalism.TruncatedSeriesCounting.PowMemSpanOfMemSpanLinearDistinguished)
+[PASS]  M161763 (Formalism.TruncatedSeriesCounting.StatementX)
+[PASS]  M161769 (Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ColAssembly)
+[PASS]  M161770 (Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ColChain)
+[PASS]  M161774 (Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ExpBound)
+[PASS]  M161776 (Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.HCoefficientBound)
+[PASS]  M161778 (Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.KappaSecondExponentBound)
+[PASS]  M161785 (Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.RamifiedValuationInequality)
+[PASS]  M161788 (Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.SubGen)
+[PASS]  M161789 (Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.SubSmulOneInjective)
+[PASS]  M161795 (Formalism.TruncatedSeriesCounting.WindowSeparated)
+[PASS]  M161807 (Formalism.UnipotentAdelicQuotients.EllRegStep)
+[PASS]  M161808 (Formalism.UnipotentAdelicQuotients.EllipticRegularity.BaseLevel)
+[PASS]  M161809 (Formalism.UnipotentAdelicQuotients.EllipticRegularity.ConvolutionBound)
+[PASS]  M161812 (Formalism.UnipotentAdelicQuotients.EllipticRegularity.IteratedPartialFourierChar)
+[PASS]  M161813 (Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDecay)
+[PASS]  M161815 (Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDil)
+[PASS]  M161817 (Formalism.UnipotentAdelicQuotients.EllipticRegularity.Moments)
+[PASS]  M161818 (Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingFourier)
+[PASS]  M161819 (Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingLocal)
+[PASS]  M161820 (Formalism.UnipotentAdelicQuotients.EllipticRegularity.SmoothOfLocallySmooth)
+
+PORT_BUILD_PASSED all 63 module(s).
