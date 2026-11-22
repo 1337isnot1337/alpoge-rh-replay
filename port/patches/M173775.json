@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.KillAdd",
+  "source_sha256": "61cc3dcbc1d3b95eef24669ccb6199433a6a21c1177f081657299b300af282bf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The coefficient ring of MvPowerSeries.pderiv is now implicit and inferred from the same power series. All exported derivative expressions retain the same mathematical meaning.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0235-lean436-20261121/packet-result.json"
+}

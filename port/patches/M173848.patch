@@ -1,0 +1,20 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/TaylorDiscriminants/WickVanishing/TaylorMul.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/TaylorDiscriminants/WickVanishing/TaylorMul.lean
+@@ -106,7 +106,7 @@
+   rw [Multiset.add_cons, mD_cons_deriv hθ]
+ 
+ theorem pderiv_tay {θ : (Fin g → ℂ) → ℂ} (hθ : ContDiffAt ℂ ω θ 0) (j : Fin g) :
+-    pderiv ℂ ((0 : Fin 1), j) (tay θ 0) = tay (fun y => fderiv ℂ θ y (Pi.single j 1)) 0 := by
++    pderiv ((0 : Fin 1), j) (tay θ 0) = tay (fun y => fderiv ℂ θ y (Pi.single j 1)) 0 := by
+   ext n
+   rw [MvPowerSeries.coeff_pderiv]
+   show mD θ 0 (dirs (n + Finsupp.single ((0 : Fin 1), j) 1) + 0) / fct (n + Finsupp.single ((0 : Fin 1), j) 1) * ((n ((0 : Fin 1), j) : ℂ) + 1) =
+@@ -168,7 +168,7 @@
+           rw [hnm, map_add, Finsupp.degree_single]
+         omega
+       have key : ∀ F : MvPowerSeries (Fin 1 × Fin g) ℂ,
+-          coeff m (pderiv ℂ ((0 : Fin 1), j) F) = coeff n F * ((m ((0 : Fin 1), j) : ℂ) + 1) := fun F => by
++          coeff m (pderiv ((0 : Fin 1), j) F) = coeff n F * ((m ((0 : Fin 1), j) : ℂ) + 1) := fun F => by
+         rw [MvPowerSeries.coeff_pderiv, ← hnm]
+       have hc : ((m ((0 : Fin 1), j) : ℂ) + 1) ≠ 0 := Nat.cast_add_one_ne_zero _
+       apply mul_right_cancel₀ hc

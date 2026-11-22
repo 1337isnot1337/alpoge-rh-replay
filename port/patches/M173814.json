@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.WickVanishing.GaugeBilinearTermEqNegDoubleSum",
+  "source_sha256": "00bc346c646a7d64a28ee7182b4174446223a96b69c727bc81eeda88a6c9e677",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The coefficient ring of MvPowerSeries.pderiv is now implicit and inferred from the same power series. All exported derivative expressions retain the same mathematical meaning.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0235-lean436-20261121/packet-result.json"
+}

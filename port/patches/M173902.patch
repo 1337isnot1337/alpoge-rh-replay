@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/BochnerInequality/LayerBasic.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/BochnerInequality/LayerBasic.lean
+@@ -40,7 +40,7 @@
+     exact hT a b v (ih hv)
+ 
+ theorem layer_le_genSub (k : ℕ) : layer ε E V k ≤ genSub E V := by
+-  refine layer_le_of_stable (le_sInf fun T hT => hT.1) ?_ k
++  refine layer_le_of_stable (le_sInf fun T (hT : V ≤ T ∧ ∀ a b, ∀ v ∈ T, E a b v ∈ T) => hT.1) ?_ k
+   intro a b v hv
+   simp only [genSub, Submodule.mem_sInf, Set.mem_setOf_eq] at hv ⊢
+   intro T hT

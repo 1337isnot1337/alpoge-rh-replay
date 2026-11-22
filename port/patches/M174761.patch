@@ -1,0 +1,12 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/TailIntegrals/RhoSqInsSucc.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/TailIntegrals/RhoSqInsSucc.lean
+@@ -198,7 +198,8 @@
+ 
+ lemma cont_Lsq {p m : ℕ} (l : Fin (p + 1)) : Continuous (fun x : Xp p m => Lsq x l) := by
+   unfold ReciprocityTheory.ChartRestriction.DS.Xi.Lsq
+-  exact continuous_const.add (continuous_finsetSum _ (fun j _ => by
++  exact continuous_const.add (continuous_finsetSum (s := Finset.univ)
++    (f := fun (j : Fin p) (x : Xp p m) => if j.val < l.val then ‖x.1 j‖ ^ 2 else 0) (fun j _ => by
+     by_cases h : j.val < l.val <;> simp only [h, ↓reduceIte] <;> fun_prop))
+ 
+ lemma cont_rhoSq {p m : ℕ} (l : Fin (p + 1)) : Continuous (fun x : Xp p m => rhoSq x l) := by
