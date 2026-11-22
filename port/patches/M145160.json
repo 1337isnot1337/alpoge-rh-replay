@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GaussValuationBounds.GaussValueContraction.TruncationExponentBounds",
+  "source_sha256": "9cff3e81b50af41f0e1db0fcb3e676cb6701b8c51b996498d4886798176c4445",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite the existing natural p-adic valuation as multiplicity before applying the renamed Legendre factorial formula with its explicit prime hypothesis. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0212-lean436-20261121-r2/packet-result.json"
+}
