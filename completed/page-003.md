@@ -2,6 +2,8 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M001319 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryActionConsTupleMeasurable` | volunteer-build-reviewed |
+| M001320 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryActionConsTupleMeasurableStatement` | volunteer-build-reviewed |
 | M001321 | P1271 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryActionEulerProduct` | build-observed |
 | M001322 | P1298 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryActionEulerProductStatement` | build-observed |
 | M001323 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryActionPreservesHaarLocal` | volunteer-build-reviewed |
@@ -23,10 +25,14 @@
 | M001340 | P1028 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WittExtensionDiagonalGramTuples` | build-observed |
 | M001342 | P0238 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WittExtensionGlobal` | volunteer-build-reviewed |
 | M001343 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.WittExtensionGlobalStatement` | volunteer-build-reviewed |
+| M001350 | P2645 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.BarycentricStageExtension` | volunteer-build-reviewed |
+| M001351 | P2654 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.BarycentricStageExtensionStatement` | volunteer-build-reviewed |
 | M001374 | P2554 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ContactSetSpansOfPosDefStatement` | volunteer-build-reviewed |
 | M001376 | P2594 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.EqOfOrbitMarkInCellConeStatement` | volunteer-build-reviewed |
 | M001380 | P2417 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsBalancedFormsDominatingStatement` | volunteer-build-reviewed |
 | M001382 | P2474 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsCarrierDimensionLabelStatement` | volunteer-build-reviewed |
+| M001386 | P2662 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsFanLowerMaxMultiplicity` | volunteer-build-reviewed |
+| M001399 | P2662 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsSimplicialLabelledRefinement` | volunteer-build-reviewed |
 | M001406 | P2623 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsStarSubdivision` | volunteer-build-reviewed |
 | M001407 | P2635 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsStarSubdivisionStatement` | volunteer-build-reviewed |
 | M001409 | P2623 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsTwistedCentreSetStatement` | volunteer-build-reviewed |
@@ -38,7 +44,10 @@
 | M001449 | P2623 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.PsdConeFinitelyManyOrbitsStatement` | volunteer-build-reviewed |
 | M001454 | P2446 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.SmoothOfMaxMultiplicityLeOneStatement` | volunteer-build-reviewed |
 | M001456 | P2530 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.StarDepthBoundedDenominatorStatement` | volunteer-build-reviewed |
+| M001467 | P2645 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.StarSubdivisionDropsMultCells` | volunteer-build-reviewed |
+| M001468 | P2654 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.StarSubdivisionDropsMultCellsStatement` | volunteer-build-reviewed |
 | M001477 | P2635 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.VoronoiFanIsPolyhedral` | volunteer-build-reviewed |
+| M001478 | P2645 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.VoronoiFanIsPolyhedralStatement` | volunteer-build-reviewed |
 | M001482 | P0238 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.GlobalTheory.ExistsExpUnitary` | volunteer-build-reviewed |
 | M001489 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.NefEffectiveCones.EventuallyEvalNegOfCoeffNeg` | volunteer-build-reviewed |
 | M001490 | P0238 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.NefEffectiveCones.ExistsNsmulMulVecMemHat` | volunteer-build-reviewed |
@@ -359,6 +368,7 @@
 | M002078 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.ProjectiveSpaceOverSpec` | wave-reused |
 | M002079 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.RelativeGroupHatForm` | volunteer-build-reviewed |
 | M002080 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.SiegelFamilyZetaUnit` | volunteer-build-reviewed |
+| M002081 | P0475 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.SymplecticBasisLevel` | volunteer-build-reviewed |
 | M002082 | P0475 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.TateUniformizationInput` | volunteer-build-reviewed |
 | M002084 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.ThetaTowerRecognition` | volunteer-build-reviewed |
 | M002085 | P0435 | `Development.AbelianVarietyTheory.BlockTheory.CMModuli.TorusGraphMaps` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M002136 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.GoodReductionModelReading` | build-observed |
 | M002139 | P1349 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HalfLatticeTypes` | volunteer-build-reviewed |
 | M002140 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HermitianCompactForm` | volunteer-build-reviewed |
-| M002141 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HermitianCurvatureForms` | volunteer-build-reviewed |
-| M002142 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HermitianInterpolation` | volunteer-build-reviewed |
-| M002143 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HodgeFrameGram` | volunteer-build-reviewed |
-| M002144 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HodgePeriodGram` | volunteer-build-reviewed |
-| M002147 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.IdeleNormTraceForm` | volunteer-build-reviewed |
-| M002152 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LatticeNormTransport` | wave-reused |
-| M002153 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LevelLiftConditions` | volunteer-build-reviewed |
-| M002154 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LevelLossDegreeBounds` | volunteer-build-reviewed |
-| M002156 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LieAlgebraMaps` | volunteer-build-reviewed |
-| M002157 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LiftFormsMainTerm` | volunteer-build-reviewed |
