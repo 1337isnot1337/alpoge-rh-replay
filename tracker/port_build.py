@@ -202,6 +202,23 @@ def apply_patch(tree, patch):
     return result.stdout.strip()
 
 
+def matches_port_patch(tree, patch, row):
+    """Check the entire source is exactly the pinned source plus its port patch."""
+    with tempfile.TemporaryDirectory() as tmp:
+        copy = Path(tmp) / source_relpath(row)
+        copy.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(tree / source_relpath(row), copy)
+        candidate = copy.read_bytes()
+        result = run_patch(Path(tmp), patch, '-R')
+        if result.returncode or tasks.digest(copy) != row['source_sha256']:
+            return False
+        try:
+            apply_patch(Path(tmp), patch)
+        except SystemExit:
+            return False
+        return copy.read_bytes() == candidate
+
+
 def sync_imports(tree, imports, ported):
     """Give each project import its merged port patch, leaving already patched files alone."""
     missing = [r['id'] for r in imports if r['id'] not in ported]
@@ -214,7 +231,7 @@ def sync_imports(tree, imports, ported):
         if pristine and patch.exists():
             apply_patch(tree, patch)
             applied.append(r['id'])
-        elif not pristine and not (patch.exists() and run_patch(tree, patch, '-R', '--dry-run').returncode == 0):
+        elif not pristine and not (patch.exists() and matches_port_patch(tree, patch, r)):
             raise SystemExit(f"{r['id']} differs from both its pinned source and its port patch")
     return applied
 

@@ -1,4 +1,5 @@
 import contextlib
+import difflib
 import hashlib
 import io
 import json
@@ -145,6 +146,38 @@ class PortBuildTest(unittest.TestCase):
         self.edit('src/Base.lean', 'exact True.intro', 'exact trivial')
         with self.assertRaises(SystemExit):
             port_build.sync_imports(self.tree, imports, {'M000001'})
+
+    def test_sync_imports_rejects_edits_outside_patch_without_changing_source(self):
+        original = ORIGINAL + '\n' * 8 + 'def existing : Nat := 1\n'
+        accepted = original.replace('  trivial', '  exact True.intro')
+        row = dict(self.rows[0], source_sha256=sha(original.encode()))
+        (self.patches / 'M000001.patch').write_text(''.join(difflib.unified_diff(
+            original.splitlines(keepends=True), accepted.splitlines(keepends=True),
+            fromfile='a/src/Base.lean', tofile='b/src/Base.lean')))
+        source = self.tree / 'src/Base.lean'
+        accepted = accepted.encode()
+        extra = b'def extraUnrecorded : Nat := 42\n'
+        for dirty in (accepted + extra, extra + accepted):
+            with self.subTest(dirty=dirty):
+                source.write_bytes(dirty)
+                with self.assertRaisesRegex(SystemExit, 'differs from both'):
+                    port_build.sync_imports(self.tree, [row], {'M000001'})
+                self.assertEqual(source.read_bytes(), dirty)
+
+    def test_sync_imports_rejects_patch_applied_to_wrong_duplicate_block(self):
+        block = 'example : True := by\n  trivial\n' + '\n' * 8
+        original = block + block
+        accepted = original.replace('  trivial', '  exact True.intro', 1)
+        dirty = block + block.replace('  trivial', '  exact True.intro', 1)
+        row = dict(self.rows[0], source_sha256=sha(original.encode()))
+        (self.patches / 'M000001.patch').write_text(''.join(difflib.unified_diff(
+            original.splitlines(keepends=True), accepted.splitlines(keepends=True),
+            fromfile='a/src/Base.lean', tofile='b/src/Base.lean')))
+        source = self.tree / 'src/Base.lean'
+        source.write_text(dirty)
+        with self.assertRaisesRegex(SystemExit, 'differs from both'):
+            port_build.sync_imports(self.tree, [row], {'M000001'})
+        self.assertEqual(source.read_text(), dirty)
 
     def test_apply_patch_requires_an_exact_match(self):
         self.edit('src/Base.lean', '  trivial', '  exact True.intro')
