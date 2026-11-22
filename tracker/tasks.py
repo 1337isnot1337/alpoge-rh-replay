@@ -103,13 +103,19 @@ def packet_suggestions(rows, busy, include_partial=False):
     partial.sort(key=lambda e: (e[0]['depth'], -e[1], e[0]['packet']))
     return full, partial
 
-def open_issues():
-    route = f'repos/{repo}/issues?state=open&per_page=100'
+def authenticated_gh():
     cli = which('gh')
     # `auth status` fails if any saved account is invalid, even when the
     # active credential used by `gh api` is valid.
     if cli and subprocess.run([cli, 'auth', 'token', '--hostname', 'github.com'],
                               stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).returncode == 0:
+        return cli
+
+
+def open_issues():
+    route = f'repos/{repo}/issues?state=open&per_page=100'
+    cli = authenticated_gh()
+    if cli:
         output = subprocess.check_output(
             [cli, 'api', '--hostname', 'github.com', '--paginate', route],
             text=True,
@@ -135,13 +141,28 @@ def open_issues():
 
 
 def claims():
-    refs = set()
-    for issue in open_issues():
-        if 'pull_request' not in issue:
-            match = re.fullmatch(r'Claim (M\d{6}|P\d{4})', issue['title'])
-            if match:
-                refs.add(match[1])
-    return refs
+    cli = authenticated_gh()
+    if cli:
+        owner, name = repo.split('/')
+        query = '''
+        query($owner: String!, $name: String!, $endCursor: String) {
+          repository(owner: $owner, name: $name) {
+            issues(states: OPEN, first: 100, after: $endCursor) {
+              nodes { title }
+              pageInfo { hasNextPage endCursor }
+            }
+          }
+        }
+        '''
+        pages = json.loads(subprocess.check_output(
+            [cli, 'api', 'graphql', '--hostname', 'github.com', '--paginate', '--slurp',
+             '-f', f'owner={owner}', '-f', f'name={name}', '-f', f'query={query}'],
+            text=True))
+        titles = (issue['title'] for page in pages
+                  for issue in page['data']['repository']['issues']['nodes'])
+    else:
+        titles = (issue['title'] for issue in open_issues() if 'pull_request' not in issue)
+    return {match[1] for title in titles if (match := re.fullmatch(r'Claim (M\d{6}|P\d{4})', title))}
 
 def run(targets,checkout,out,bundle,fast_bundle=False,*,project_modules=None):
  project=checkout.resolve();output=out.resolve()
