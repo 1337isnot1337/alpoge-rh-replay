@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.QuotGraded",
+  "source_sha256": "571988b59aad82807d1125ca16823fd5b38f538026bde9a7c5180251d9268d66",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the coefficient-of-zero lemma from the target underlying monoid-algebra namespace. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0230-lean436-20261121/packet-result.json"
+}

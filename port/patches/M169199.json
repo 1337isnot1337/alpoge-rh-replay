@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsPushForwardOpen",
+  "source_sha256": "fa4ca4db653e1ba0a5ab4544ab8c05efcea5b35b5f27d26ba2aa375c1b591357",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0230-lean436-20261121/packet-result.json"
+}

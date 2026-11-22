@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PProjPotDensLevi",
+  "source_sha256": "4fe30bd94862169513f47234d7448b1e0e0be593ed0bc14f80b2be8e3ca219f0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the target coordinate-family argument to contDiff_apply. Specify the composite function and linear map explicitly in levi_comp, avoiding expensive higher-order inference through ContDiffAt. Retain a finite 200000-heartbeat budget. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0230-lean436-20261121/packet-result.json"
+}

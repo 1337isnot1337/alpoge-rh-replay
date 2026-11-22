@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/HilbertSamuel/PMixedNumberPolynomial.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/HilbertSamuel/PMixedNumberPolynomial.lean
+@@ -184,7 +184,7 @@
+     exact Nat.zero_lt_one
+ 
+ theorem low_dPoly (b : K → ℤ) (p : MvPolynomial K ℚ) : Low (dPoly b p) p.totalDegree := by
+-  have hsum : dPoly b p = ∑ s ∈ p.support, dPoly b (monomial s (coeff s p)) := by
++  have hsum : dPoly b p = ∑ s ∈ p.support, dPoly b (monomial s (p.coeff s)) := by
+     simp only [dPoly]
+     conv_lhs => rw [p.as_sum]
+     rw [map_sum, ← Finset.sum_sub_distrib]

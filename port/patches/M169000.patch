@@ -1,0 +1,31 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/OrbitLimits/PProjPotDensLevi.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/OrbitLimits/PProjPotDensLevi.lean
+@@ -2,6 +2,8 @@
+ import ReciprocityTheory.AnalyticForms.PotentialTheory.PshShiftA
+ import ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.FsMetricFinIsSemipositive
+ set_option maxSynthPendingDepth 1
++
++set_option maxHeartbeats 200000
+ 
+ noncomputable section
+ 
+@@ -56,7 +58,9 @@
+     rw [hs, Real.log_pow]
+     push_cast
+     rfl
+-  rw [e, levi_comp v ((blockCLM k).analyticAt z)
++  rw [e, levi_comp
++      (φ := fun w : ι k → ℂ => (0 : ℝ) + 2 * Real.log ((fsMetric (ι k)).ρ w))
++      (τ := blockCLM k) v ((blockCLM k).analyticAt z)
+       (contDiffAt_const.add (contDiffAt_const.mul hg)), (blockCLM k).fderiv,
+     levi_add_smul 2 contDiffAt_const hg]
+   have h0 : levi (fun _ : ι k → ℂ => (0 : ℝ)) (blockCLM k z) (blockCLM k v) = 0 := by
+@@ -76,7 +80,7 @@
+   have hC : ∀ k ∈ (Finset.univ : Finset K),
+       ContDiffAt ℝ 2 (fun y : (Σ k, ι k) → ℂ => Real.log (∑ i, ‖y ⟨k, i⟩‖ ^ 2)) z := fun k _ =>
+     ((ContDiff.sum fun i _ => (contDiff_norm_sq ℝ).comp
+-      (contDiff_apply ℝ ℂ (⟨k, i⟩ : Σ k, ι k))).contDiffAt).log (hpos k).ne'
++      (contDiff_apply ℝ (fun _ => ℂ) (⟨k, i⟩ : Σ k, ι k))).contDiffAt).log (hpos k).ne'
+   have hsum : levi fsMultiPot z v = ∑ k, 2 * leviForm (fun w => Real.log ((fsMetric (ι k)).ρ w))
+       (blockCLM k z) (blockCLM k v) := by
+     rw [show (fsMultiPot : ((Σ k, ι k) → ℂ) → ℝ) =

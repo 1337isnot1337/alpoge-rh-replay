@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.AmpleRingFiniteSt",
+  "source_sha256": "88d91850503c0d320af9c27f2eb46fa28fffdcd70b84ea99be8ac0bb9f5cbcd0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0230-lean436-20261121/packet-result.json"
+}
