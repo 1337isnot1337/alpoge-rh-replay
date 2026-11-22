@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.TuranSecondMainTheoremPowerSumsUnitCoefficients",
+  "source_sha256": "9bab7a55dc59104e1d9ebffafd832fd495e20c3a7431aee840b890b0323e09e0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_le_prod\u2080 with the existing nonnegativity hypotheses."
+}
