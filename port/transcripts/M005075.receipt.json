@@ -1,0 +1,374 @@
+{
+  "target": "P0174",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/29742",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "build_base_commit": "161ac3c38bbdfaf28515017c306f516c5ec550a6",
+  "port_record_commit": "a02077d288b880c66a5215b2b829cbf0fce4a569",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "build_log_sha256": "4e98b614ccd1577260ec728294262727783a0c5ab17334b31aaad6d5f08ef6f1",
+  "audit": {
+    "command": "lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Definitions.ThetaValues.ExistsMemRowHighestTotalDegreeEqTwo",
+    "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
+    "result": "islattice-audit: 1 module(s), 0 hit(s)"
+  },
+  "modules": [
+    {
+      "id": "M005075",
+      "module": "Development.AbelianVarietyTheory.Definitions.ThetaValues.ExistsMemRowHighestTotalDegreeEqTwo",
+      "source_sha256": "5a2f2883e3c0414a0b34761ed641a0d89fdc82b0ec82cfbbcc7504aaecdffc63",
+      "patch_sha256": "e59190997350f0c037c85967cb7c9cdc6df6adf4a27fd67c9bf6de46bb01b1e5",
+      "built_source_sha256": "446b3e82f5beb559e18cc8541bab61a51b260b54049faa80cd12bf0e36e9785f",
+      "olean_sha256": "5a697c62c5ab5150f24e85114a2cc9b0d5e881ad119e3278b99c8480d6f498a6",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    }
+  ],
+  "project_imports": [
+    {
+      "id": "M005061",
+      "module": "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsWeightedHomogeneousOfMemOrbitSpan",
+      "source_sha256": "7b78f03e24b450db83c4ac64c748ac1c06db24a47309c0513c64f6d4d29defdf",
+      "patch_sha256": null,
+      "built_source_sha256": "7b78f03e24b450db83c4ac64c748ac1c06db24a47309c0513c64f6d4d29defdf",
+      "port_record_sha256": "8b964e7dcc275b17f8e633486dfb4ac870e896f2f5847c124f3034a7b6443778"
+    },
+    {
+      "id": "M006459",
+      "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsHarmonicProdOfDisjointColumns",
+      "source_sha256": "d3b0153c2f3669737c08494455498ba4027b7b8df219a147c4bf828468597704",
+      "patch_sha256": null,
+      "built_source_sha256": "d3b0153c2f3669737c08494455498ba4027b7b8df219a147c4bf828468597704",
+      "port_record_sha256": "6f06d40bcbbe761dcaba572d5f2d54eb4693fd11d4a6cf6ff4817b619030cf58"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M004772",
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsHermitianOfMemRealScalars",
+      "missing_imports": []
+    },
+    {
+      "id": "M004826",
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.NearbyCyclesDegreeZeroEquiv",
+      "missing_imports": []
+    },
+    {
+      "id": "M004841",
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.OfKillsOne",
+      "missing_imports": []
+    },
+    {
+      "id": "M004847",
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.PowerSeriesVecReduceModUMulVec",
+      "missing_imports": [
+        "M004861"
+      ]
+    },
+    {
+      "id": "M004849",
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.QuotIntegrableIffCutoff",
+      "missing_imports": []
+    },
+    {
+      "id": "M004888",
+      "module": "Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.ExistsAwayFracOfMemHomLoc",
+      "missing_imports": []
+    },
+    {
+      "id": "M004891",
+      "module": "Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.HdimEqZeroOfSubsingleton",
+      "missing_imports": []
+    },
+    {
+      "id": "M004892",
+      "module": "Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.HomologyRestrictScalarsBijective",
+      "missing_imports": []
+    },
+    {
+      "id": "M004897",
+      "module": "Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.IsLocalizedModuleGermLinearPointOfPrime",
+      "missing_imports": []
+    },
+    {
+      "id": "M004927",
+      "module": "Development.AbelianVarietyTheory.Definitions.SemilocalFrames.CintTranslate",
+      "missing_imports": []
+    },
+    {
+      "id": "M005019",
+      "module": "Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.IsDomainAndIsIntegrallyClosedLocalizationOfIsInv",
+      "missing_imports": []
+    },
+    {
+      "id": "M005043",
+      "module": "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.AevalEqZeroOfHomogeneousComponent",
+      "missing_imports": []
+    },
+    {
+      "id": "M005068",
+      "module": "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.SmulOneLeAndLeSmulOneIffEigenvalues",
+      "missing_imports": []
+    },
+    {
+      "id": "M005106",
+      "module": "Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.ExistsGlOfEquiv",
+      "missing_imports": []
+    },
+    {
+      "id": "M005127",
+      "module": "Development.AbelianVarietyTheory.Definitions.TwistedInnerProducts.IsSubquotientDetRepParInd",
+      "missing_imports": [
+        "M005131"
+      ]
+    },
+    {
+      "id": "M005206",
+      "module": "Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.CubeTotalComplexAcyclicOfSlicesInductionOnCard",
+      "missing_imports": []
+    },
+    {
+      "id": "M005356",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.AdelicUnitaryScalingUnit",
+      "missing_imports": []
+    },
+    {
+      "id": "M005360",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.AlgebraMapNormTensorEqProdConjugates",
+      "missing_imports": []
+    },
+    {
+      "id": "M005365",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.BlockDiagPartOfRatIdempotentOneAndMulOfTriangulaStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005366",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.BorelHarishChandra",
+      "missing_imports": []
+    },
+    {
+      "id": "M005369",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CardQuotSpanAlgebraMap",
+      "missing_imports": []
+    },
+    {
+      "id": "M005371",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CardRingHomRealEqNrRealPlacesStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005372",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CayleyTransformUnitarySkewInvolutive",
+      "missing_imports": []
+    },
+    {
+      "id": "M005389",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CompactMeetsFinitelyManyLeftCosetsOpenStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005393",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CompletelyReducibleToMatrixIffIsSemisimpleRepresStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005396",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ContinuousBicharacterWeilSetupStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005404",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CoordsLeftMulMatrixConstBaseChangeStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005405",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.CountableIdealSummableAbsNormRpow",
+      "missing_imports": [
+        "M081779"
+      ]
+    },
+    {
+      "id": "M005412",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.DetLeadingMinorGramIwasawaStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005417",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.EntriesBoundedOfConjSpanningBoundedStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005426",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.EvenOrderNormsOneAddFourMulOfNoRootStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005430",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsAdmissiblePlacesContainingPrimeSupersetMon",
+      "missing_imports": []
+    },
+    {
+      "id": "M005433",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsAnisotropicOrthogonalBasisHermitian",
+      "missing_imports": []
+    },
+    {
+      "id": "M005436",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsApproxModLocalSquaresStatement",
+      "missing_imports": [
+        "M005435"
+      ]
+    },
+    {
+      "id": "M005437",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsApproxModPowers",
+      "missing_imports": [
+        "M005460"
+      ]
+    },
+    {
+      "id": "M005442",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsCommonDenominatorNilpotentCoboundary",
+      "missing_imports": []
+    },
+    {
+      "id": "M005452",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsDenominatorPrimesPrescribed",
+      "missing_imports": []
+    },
+    {
+      "id": "M005463",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsGlobalUniformizerResidueRepresentatives",
+      "missing_imports": []
+    },
+    {
+      "id": "M005466",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsGroupHomRangeEqOfAutStableStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005468",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsIndependentPrimeRelIndexSubgroups",
+      "missing_imports": []
+    },
+    {
+      "id": "M005469",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsInfiniteAdeleTensorEquivMixedSpace",
+      "missing_imports": []
+    },
+    {
+      "id": "M005477",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsIsHermitianLogOfPosDefGramStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005478",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsIsKum",
+      "missing_imports": []
+    },
+    {
+      "id": "M005484",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsIsQuadraticSqrtExtensionOfNotSquareStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005487",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsIsometryMatrixRange",
+      "missing_imports": []
+    },
+    {
+      "id": "M005489",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsIsotropicBasisNonorthogonalTwoVectorsStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005492",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsLeftInvariantPolySeparatingCosetStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005498",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsMinNormTensorOfIsClosedTensorSLOrbitStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005507",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsNormaliseMeanSquareOfCocompact",
+      "missing_imports": []
+    },
+    {
+      "id": "M005518",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsPlaceValuationAut",
+      "missing_imports": []
+    },
+    {
+      "id": "M005527",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsPushoutPrimitiveRoot",
+      "missing_imports": []
+    },
+    {
+      "id": "M005528",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsQuasiReflectionProdMulVecEq",
+      "missing_imports": []
+    },
+    {
+      "id": "M005538",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRatOfForallComplexRingEquivFixed",
+      "missing_imports": []
+    },
+    {
+      "id": "M005541",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRatPolyEvalEqTensorPowerSumRightActionStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005545",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRationalCoordPolynomialBaseChangeStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005560",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsReynoldsOfCompletelyReducibleStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005568",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsSmoothHomogeneousHasSumUnitSmul",
+      "missing_imports": []
+    },
+    {
+      "id": "M005576",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsTraceZeroAdjustmentOfHermitianLatticeStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005577",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsTwoPlacesOverOfIsSquareLocal",
+      "missing_imports": []
+    },
+    {
+      "id": "M005582",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitMulSqQuadraticDefectStepStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M005583",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitNormEqOfAlgHom",
+      "missing_imports": []
+    },
+    {
+      "id": "M005587",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitValuedTernaryLtOne",
+      "missing_imports": []
+    },
+    {
+      "id": "M005605",
+      "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.FinrankSUnitsNumberFieldAddOne",
+      "missing_imports": []
+    }
+  ],
+  "pruned": []
+}
