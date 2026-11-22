@@ -4,6 +4,11 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@loremcdmx](https://github.com/loremcdmx) | [M039240](https://github.com/rohanarun/alpoge-rh-replay/issues/23975#issuecomment-7066420994) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M156203](https://github.com/rohanarun/alpoge-rh-replay/issues/23976#issuecomment-7066450668) | Pending review |
+| [@loremcdmx](https://github.com/loremcdmx) | [M052293](https://github.com/rohanarun/alpoge-rh-replay/issues/23977#issuecomment-7066423381) | Pending review |
+| [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M070423](https://github.com/rohanarun/alpoge-rh-replay/issues/23978#issuecomment-7066453558) | Pending review |
+| [@jdenwood](https://github.com/jdenwood) | [M041667](https://github.com/rohanarun/alpoge-rh-replay/issues/23979#issuecomment-7066375745) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M049176](https://github.com/rohanarun/alpoge-rh-replay/issues/23980#issuecomment-7066377027) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M167214](https://github.com/rohanarun/alpoge-rh-replay/issues/23981#issuecomment-7067045553) | Pending review |
 | [@Amahane-Hikari](https://github.com/Amahane-Hikari) | [M164622](https://github.com/rohanarun/alpoge-rh-replay/issues/23982#issuecomment-7066903912) | Pending review |
@@ -249,8 +254,3 @@
 | [@loremcdmx](https://github.com/loremcdmx) | [M040052](https://github.com/rohanarun/alpoge-rh-replay/issues/24350#issuecomment-7067018298) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M043931](https://github.com/rohanarun/alpoge-rh-replay/issues/24351#issuecomment-7067042622) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M052055](https://github.com/rohanarun/alpoge-rh-replay/issues/24352#issuecomment-7067046186) | Pending review |
-| [@jdenwood](https://github.com/jdenwood) | [M103274](https://github.com/rohanarun/alpoge-rh-replay/issues/24354#issuecomment-7066980575) | Pending review |
-| [@jdenwood](https://github.com/jdenwood) | [M103632](https://github.com/rohanarun/alpoge-rh-replay/issues/24355#issuecomment-7066969412) | Pending review |
-| [@loremcdmx](https://github.com/loremcdmx) | [M054129](https://github.com/rohanarun/alpoge-rh-replay/issues/24356#issuecomment-7067048103) | Pending review |
-| [@loremcdmx](https://github.com/loremcdmx) | [M055995](https://github.com/rohanarun/alpoge-rh-replay/issues/24357#issuecomment-7067050568) | Pending review |
-| [@loremcdmx](https://github.com/loremcdmx) | [M082219](https://github.com/rohanarun/alpoge-rh-replay/issues/24358#issuecomment-7067053515) | Pending review |
