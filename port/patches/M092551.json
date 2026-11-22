@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ContinuousWittExtendByZero",
+  "source_sha256": "c602134106f644240fc53cfa451adf7326fcf8b1613a9d089029647224ea4577",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use coordinatewise measurability for the product map and the renamed finite-sum continuity lemma."
+}

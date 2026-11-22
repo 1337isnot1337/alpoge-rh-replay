@@ -1,0 +1,20 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/ContinuousWittExtendByZero.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/ContinuousWittExtendByZero.lean
+@@ -25,7 +25,7 @@
+   let g : ({i // ¬ J i} → k) → ({i // ¬ ¬ J i} → k) → ({i // ¬ ¬ J i} → k) :=
+     fun a b => b + fun i => S (E.symm (a, 0)) i.1
+   have hgm : Measurable (Function.uncurry g) := by
+-    refine measurable_snd.add (measurable_pi_lambda _ fun i => ?_)
++    refine measurable_snd.add (measurable_pi_iff.2 fun i => ?_)
+     exact (measurable_pi_apply i.1).comp (hS.measurable.comp
+       (E.symm.measurable.comp (measurable_fst.prodMk measurable_const)))
+   have hT := (MeasurePreserving.id (Measure.pi fun _ : {i // ¬ J i} => ν)).skew_product
+@@ -259,7 +259,7 @@
+   unfold big ch
+   refine ((hχ.comp (continuous_pi fun s => continuous_id.matrix_elem _ _)).mul hΦ).mul
+     (continuous_subtype_val.comp (hψ.comp (Continuous.neg ?_)))
+-  exact continuous_finset_sum _ fun i _ => continuous_id.matrix_elem _ _
++  exact continuous_finsetSum _ fun i _ => continuous_id.matrix_elem _ _
+ 
+ omit [Fintype n] [DecidableEq n] [Fintype n'] [DecidableEq n'] in
+ theorem hasCompactSupport_big (ψ : AddChar k Circle) (q : Fin c) (χ : (n' → k) → ℂ)
