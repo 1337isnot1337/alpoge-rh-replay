@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/ToricGeometry/IsUnitOfLagrangian.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/ToricGeometry/IsUnitOfLagrangian.lean
+@@ -299,7 +299,7 @@
+         Pi.single j 1 := by
+       ext k
+       have h := congrFun (congrFun hYB k) j
+-      simp only [mul_apply, map_apply, one_apply] at h
++      simp only [Matrix.mul_apply, Matrix.map_apply, Matrix.one_apply] at h
+       simp only [mulVec, dotProduct, map_apply, Pi.single_apply]
+       have h' : ((∑ i, Y k i * (τ i j).im : ℝ) : ℂ) = ((if k = j then 1 else 0 : ℝ) : ℂ) := by
+         rw [h]

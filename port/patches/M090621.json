@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsIsUnitField",
+  "source_sha256": "34160439ba5fb4666e0e9397f9c853fe179314a55bfbc36838d95120ce92f998",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

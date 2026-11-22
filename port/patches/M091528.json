@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsDetAddEqDetMulDetOneAdd",
+  "source_sha256": "da1ce95b50ba152d73993b137760b4b6a7b23ed67648824a58b13c5c44ec926c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename two proof-only Finset.one_le_prod calls to Finset.one_le_prod₀, the target ordered-monoid-with-zero lemma applicable to real numbers. Both use exactly the same pointwise lower bound by one and prove the same finite-product inequality. All definition and theorem statements, hypotheses, proof continuations, imports and options are unchanged."
+}
