@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.HaarDefs",
+  "source_sha256": "f2377a55871ec57573de868332dc8055a08ec26366af85507309864a41ff60e7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

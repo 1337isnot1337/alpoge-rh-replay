@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.RowLetter",
+  "source_sha256": "aa24ce12373fa6c55b597de5040bc6d0b0472e57b823ea4e3665a973235649aa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
