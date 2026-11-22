@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.TorsionIntegrality.UniformGaussModels.OrthogonalGaussModels.HermitianBlockFrames.HfSelfProj",
+  "source_sha256": "50c43d2be5aedf7f5115dd7a882ec3683c31beb6f1a734f9973d243404ffae04",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0214-lean436-20261121/packet-result.json"
+}

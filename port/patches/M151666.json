@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.SiegelLatticeTheory.CokernelGLCounts.RankPointCounts.MemTorsionOfMulConj",
+  "source_sha256": "2692546c2c5822fe446f252d74eea09a2d60f8d05b4ac485a19c9c713bbef8d0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0214-lean436-20261121/packet-result.json"
+}

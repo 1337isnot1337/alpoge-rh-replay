@@ -1,0 +1,42 @@
+--- a/src/Formalism/LogSumExpBounds/CharacterSumPhase/DetMulDiagonalMulEqSum.lean
++++ b/src/Formalism/LogSumExpBounds/CharacterSumPhase/DetMulDiagonalMulEqSum.lean
+@@ -17,7 +17,7 @@
+       = (X : R[X]) • (diagonal d * (B * A)).map C := by
+     rw [Matrix.mul_smul, ← Matrix.map_mul, Matrix.mul_assoc]
+   rw [e1, e2] at h
+-  have h2 := congrArg (fun p => Polynomial.coeff p k) h
++  have h2 := congrArg (fun p : Polynomial R => p.coeff k) h
+   simp only [coeff_det_one_add_X_smul_eq_sum_minors] at h2
+   have hu : powersetCard k (univ : Finset (Fin k)) = {univ} := by
+     simpa using Finset.powersetCard_self (univ : Finset (Fin k))
+@@ -55,7 +55,7 @@
+     = (det (1 + (X : ℂ[X]) • (A * diagonal ν * Aᴴ).map C)).coeff m := by
+   have h := det_mul_diagonal_mul_eq_sum (A.map C) (Aᴴ.map C) (fun j => 1 + X * C (ν j))
+   have hd : diagonal (fun j => (1 : ℂ[X]) + X * C (ν j)) = 1 + (X : ℂ[X]) • (diagonal ν).map C := by
+-    ext a b; by_cases hab : a = b <;> simp [diagonal, one_apply, hab]
++    ext a b; by_cases hab : a = b <;> simp [diagonal, Matrix.one_apply, hab]
+   have h1 : A.map C * Aᴴ.map C = 1 := by rw [← Matrix.map_mul, hA]; simp
+   have h3 : A.map C * (diagonal ν).map C * Aᴴ.map C = (A * diagonal ν * Aᴴ).map C := by
+     rw [Matrix.map_mul, Matrix.map_mul]
+@@ -134,7 +134,7 @@
+   have hAA : A * Aᴴ = 1 := by
+     have := hsub (fun _ => 1)
+     rw [diagonal_one, Matrix.mul_one, Matrix.mul_one, hUU] at this
+-    rw [← this]; ext a b; simp [one_apply, c]
++    rw [← this]; ext a b; simp [Matrix.one_apply, c]
+   set W : Finset (Fin N) → ℂ := fun J =>
+     ((Aᴴ * A).submatrix (fun x : J => (x : Fin N)) (fun x : J => (x : Fin N))).det with hWdef
+   have hWnn : ∀ J, 0 ≤ W J := by
+@@ -222,10 +222,10 @@
+       refine sum_congr rfl fun J _ => ?_
+       rw [hsplit]; ring
+     have t1 : trace ((Y * Y).submatrix c c) = ∑ a : Fin i, ∑ b : Fin N, Y (c a) b * Y b (c a) := by
+-      simp [trace, mul_apply]
++      simp [trace, Matrix.mul_apply]
+     have t2 : trace (Y.submatrix c c * Y.submatrix c c)
+         = ∑ a : Fin i, ∑ a' : Fin i, Y (c a) (c a') * Y (c a') (c a) := by
+-      simp [trace, mul_apply]
++      simp [trace, Matrix.mul_apply]
+     have t0 : trace (Y.submatrix c c) = ∑ a : Fin i, Y (c a) (c a) := rfl
+     have hG : ∀ f : Fin N → ℂ, ∑ b, f b = ∑ b ∈ F, f b + ∑ b ∈ G, f b := by
+       intro f

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.ProjectiveLattices.ArchimedeanQuadraticData.MaximalCuspKernels.MaxCuspsSt",
+  "source_sha256": "80051b3b83ec30f8e7247bd45af922b10865836839035334aecf0a400749d05b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0214-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.TorsionIntegrality.SecondCoefficientNorms.BinomialSeriesCoefficients.HasSecondLogDerivPowerSeriesExp",
+  "source_sha256": "35167d2da608a88b94d8bdeee5db97baf14878d7e3396a5685171f03d8741a27",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The coefficient ring of PowerSeries.derivative is now implicit and inferred from the same input series; the derivative expression and helper statements are definitionally equivalent.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0214-lean436-20261121/packet-result.json"
+}

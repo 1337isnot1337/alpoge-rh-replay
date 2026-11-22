@@ -1,0 +1,25 @@
+--- a/src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/SigmaConv.lean
++++ b/src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/SigmaConv.lean
+@@ -31,16 +31,13 @@
+       have := Complex.re_le_norm (x + x ^ 2 / 2)
+       nlinarith [norm_nonneg x]
+     have he : Real.exp ((x + x ^ 2 / 2).re) ≤ 2 := by
+-      calc Real.exp ((x + x ^ 2 / 2).re) ≤ Real.exp (5 / 8) := Real.exp_le_exp.mpr hre
+-        _ ≤ 2 := by
+-          rw [← Real.exp_log (by norm_num : (0 : ℝ) < 2)]
+-          apply Real.exp_le_exp.mpr
+-          have := Real.log_two_gt_d9
+-          norm_num at this ⊢
+-          linarith
++      generalize (x + x ^ 2 / 2).re = y at hre ⊢
++      exact (Real.le_log_iff_exp_le (x := y) (y := 2) (by norm_num)).mp
++        (hre.trans (Real.log_two_gt_d9.le.trans' (by norm_num)))
+     have hx2' : ‖x‖ ^ 2 ≤ ‖w‖ ^ 2 := by gcongr
+-    calc ‖x‖ ^ 2 * Real.exp ((x + x ^ 2 / 2).re) ≤ ‖w‖ ^ 2 * 2 :=
+-          mul_le_mul hx2' he (Real.exp_pos _).le (sq_nonneg _)
++    generalize Real.exp ((x + x ^ 2 / 2).re) = e at he ⊢
++    calc ‖x‖ ^ 2 * e ≤ ‖x‖ ^ 2 * 2 := mul_le_mul_of_nonneg_left he (sq_nonneg ‖x‖)
++      _ ≤ ‖w‖ ^ 2 * 2 := mul_le_mul_of_nonneg_right hx2' (by norm_num)
+       _ = 2 * ‖w‖ ^ 2 := by ring
+   have hw0 : w ∈ Metric.closedBall (0 : ℂ) ‖w‖ := by
+     rw [Metric.mem_closedBall, dist_zero_right]

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.SigmaConv",
+  "source_sha256": "271250ecbf82b0b18c0c77d2b5dfdf5de2d4f4193f789592ce4a43fc69207186",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Abstract the real part and exponential value before applying real-order inequalities, using the existing logarithm-of-two bound. This prevents expensive unfolding during elaboration while proving the same estimates. The diagnostic proof passed with 200000 heartbeats; the original compiler limit is restored. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0214-lean436-20261121/packet-result.json"
+}

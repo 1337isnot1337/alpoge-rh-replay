@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LogVandermondeBounds.UpperPlace",
+  "source_sha256": "393646671992f7164311d697b8a90e3a909163e3a37bb84033ac06ba5935c7f8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0214-lean436-20261121/packet-result.json"
+}

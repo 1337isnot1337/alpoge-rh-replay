@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LogSumExpBounds.CharacterSumPhase.NuclearNormBoundHolds",
+  "source_sha256": "f5ee08de03556e5d988585e7ba87d6afcd59f4d302a10fcf21bf961a9b5db49a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Disambiguate matrix multiplication and identity-entry lemmas in the existing entrywise proofs. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0214-lean436-20261121/packet-result.json"
+}

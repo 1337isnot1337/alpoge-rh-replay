@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.TorsionIntegrality.SecondCoefficientNorms.BinomialSeriesCoefficients.DegreeLeOfMemAntidiagonal",
+  "source_sha256": "d7fc419c410b0c20334ab58206a46f42effd08ce4877d63bf57fa792cac015a1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The coefficient ring of MvPowerSeries.pderiv is now implicit and inferred from the same input series. The derivative and all helper statements retain their meanings. The coefficient ring of PowerSeries.derivative is now implicit and inferred from the same input series; the derivative expression and helper statements are definitionally equivalent.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0214-lean436-20261121/packet-result.json"
+}

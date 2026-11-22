@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LogSumExpBounds.CharacterSumPhase.LogSumExpBoundHolds",
+  "source_sha256": "61e4ad456003e413977a83bb53259a414b8e747b14a7690f4b63e3fade70859a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0214-lean436-20261121/packet-result.json"
+}

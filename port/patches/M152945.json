@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.TorsionIntegrality.SecondCoefficientNorms.BinomialSeriesCoefficients.SecondCoeffConsistency",
+  "source_sha256": "7588477f9aee5a6a50e84651485969a09ab0b82af6c2765ab7e60c4aeffd3675",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0214-lean436-20261121/packet-result.json"
+}

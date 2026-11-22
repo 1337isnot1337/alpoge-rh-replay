@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.TorsionIntegrality.EisensteinTranslationProducts.AnalyticIdentityTheorems.SigmaBasic",
+  "source_sha256": "d26c0b204a081f27a26dc80e7ce878065959c17897db092aa85ec2b0713dbee2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed differentiability theorem for a finite product and apply tprod_congr directly to the infinite product, preventing congr from unfolding its implementation. The diagnostic run passed under 200000 heartbeats; the original compiler limit is restored. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0214-lean436-20261121/packet-result.json"
+}
