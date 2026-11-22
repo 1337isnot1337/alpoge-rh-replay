@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.PHilbertPrime",
+  "source_sha256": "7e9af58f84af4ee44307823a07de7ba9de54e269246b366e1431a8e22d342457",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the finite-product inequality with the existing nonnegativity premises. Target MultilinearMap is indexed by a scalar ring homomorphism. The identity on integers specializes it to exactly the original integer-multilinear map, preserving the helper statements and all operations.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0229-lean436-20261121/packet-result.json"
+}
