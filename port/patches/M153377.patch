@@ -1,0 +1,10 @@
+--- a/src/Formalism/PadicSubsetSums/StableGradedCounts/IRRBBDivides.lean
++++ b/src/Formalism/PadicSubsetSums/StableGradedCounts/IRRBBDivides.lean
+@@ -14,6 +14,6 @@
+     have h6 : (l : ℝ) ^ (4 * padicValNat l (g ^ d - 1)) ≤ (g : ℝ) := h5.trans hY
+     have h7 : l ^ (4 * padicValNat l (g ^ d - 1)) ≤ g := by exact_mod_cast h6
+     omega
+-  exact (pow_dvd_pow l hj).trans pow_padicValNat_dvd
++  exact (pow_dvd_pow l hj).trans (by simpa only [Nat.padicValNat_def] using pow_multiplicity_dvd l (g ^ d - 1))
+ 
+ end Formalism.IrreducibleCountingLemmas.GaloisIrreducibility

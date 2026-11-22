@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.NormUnitaryBounds.DetPolynomialWeights.GaussianCoefficientFactorialBound",
+  "source_sha256": "f1a55b7c1fe436282d632bb3ead2e4c98c3d16e5cfbe6d52f3706a4f667ec572",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0215-lean436-20261121/packet-result.json"
+}

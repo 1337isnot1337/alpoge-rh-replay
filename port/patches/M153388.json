@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PadicSubsetSums.StableGradedCounts.IRRIrredCountUpper",
+  "source_sha256": "076f7f9649ef73a5daef1896e9d1c2a7cc30ee19a9e92c057b5950c657fad1a0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed polynomial coefficient-of-finite-sum lemma. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0215-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PadicSubsetSums.CentralIdempotents.EigenbasisOfDistinctRoots",
+  "source_sha256": "17e9b6713f809fc31180a7625ceaa460b07a1716574c77211814b5ddd3792530",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0215-lean436-20261121/packet-result.json"
+}

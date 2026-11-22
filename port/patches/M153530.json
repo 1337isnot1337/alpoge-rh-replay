@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.FoldDCUnfold",
+  "source_sha256": "ba57b6bd4ae1ebd1f67d82addca35d2333ec122323a7b446a08caf7eacbbce69",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0215-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.MahlerMeasure.MahlerMeasureProofs.Mahler",
+  "source_sha256": "a8207c354cbae65093e256d4c387e01af4b25d8851ee3ccdfb6aba47d915f0e5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the new multiplicity API with the proved padicValNat_def equality; all exported statements and definitions are unchanged. Qualify the valuation equivalence lemma in its Nat namespace. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0215-lean436-20261121/packet-result.json"
+}
