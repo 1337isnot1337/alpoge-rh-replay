@@ -1,0 +1,45 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/ExistsIsComplEigenSubOfValuationRing.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/ExistsIsComplEigenSubOfValuationRing.lean
+@@ -228,7 +228,6 @@
+   have hf' : ∀ a x, hB.lift f (baseChangeAction B ρ a x) = ρ' a (hB.lift f x) := by
+     intro a x
+     induction x using hB.inductionOn with
+-    | zero => simp
+     | tmul x => rw [← mk_equivariant, hB.lift_eq, hB.lift_eq, hf]
+     | smul s x hx =>
+       rw [map_smul, map_smul, map_smul, hx, ← algebraMap_smul S s, ← algebraMap_smul S s, map_smul]
+@@ -254,7 +253,7 @@
+       (algebraMap S T) = ∏ i, (X - C (algebraMap A T (σ i a)))
+       ^ Module.finrank A (eigenSub ρ (σ i)) := by
+     simp [Polynomial.map_prod, ← IsScalarTower.algebraMap_apply]
+-  have := congrArg (fun q => Polynomial.coeff q n) (h1.trans h2.symm)
++  have := congrArg (fun q : T[X] => q.coeff n) (h1.trans h2.symm)
+   simp only [Polynomial.coeff_map] at this
+   exact this
+ 
+@@ -314,10 +313,13 @@
+     eigenSub ρ' ((algebraMap A S).comp χ) = Submodule.span S (f '' eigenSub ρ χ) := by
+   refine le_antisymm (fun y hy => ?_) (Submodule.span_le.2 ?_)
+   · change ((⟨y, hy⟩ : eigenSub ρ' ((algebraMap A S).comp χ)) : M) ∈ _
+-    refine hb.inductionOn ⟨y, hy⟩
+-      (fun z => (z : M) ∈ Submodule.span S (f '' eigenSub ρ χ)) (Submodule.zero_mem _)
+-      (fun x => Submodule.subset_span ⟨x, x.2, rfl⟩) (fun s _ hz => Submodule.smul_mem _ s hz)
+-      fun _ _ h₁ h₂ => Submodule.add_mem _ h₁ h₂
++    refine hb.inductionOn ⟨y, hy⟩ ?_ ?_ ?_
++    · intro x
++      exact Submodule.subset_span ⟨x, x.2, rfl⟩
++    · intro s _ hz
++      exact Submodule.smul_mem _ s hz
++    · intro _ _ h₁ h₂
++      exact Submodule.add_mem _ h₁ h₂
+   · rintro _ ⟨x, hx, rfl⟩
+     exact map_mem_eigenSub_algebraMap hf hx
+ 
+@@ -334,7 +336,6 @@
+   have hf' : ∀ a x, hN.lift f (baseChangeAction B ρ a x) = ρ' a (hN.lift f x) := by
+     intro a x
+     induction x using hN.inductionOn with
+-    | zero => simp
+     | tmul x => rw [← mk_equivariant, hN.lift_eq, hN.lift_eq, hf]
+     | smul s x hx =>
+       rw [map_smul, map_smul, map_smul, hx, ← algebraMap_smul S s, ← algebraMap_smul S s, map_smul]

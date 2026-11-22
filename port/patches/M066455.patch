@@ -1,0 +1,29 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsUniqueHomogeneousIdealFixedSubalgebra.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/ExistsUniqueHomogeneousIdealFixedSubalgebra.lean
+@@ -69,7 +69,6 @@
+       ((MulSemiringAction.toAlgHom K L g).toLinearMap.rTensor N t) = g • f.liftBaseChange L t := by
+     intro g t
+     induction t with
+-    | zero => simp
+     | tmul a n => simp [smul_distrib_smul, h]
+     | add x y hx hy => simp only [map_add, hx, hy, smul_add]
+   have h1 := baseChange_rationalPart (fun g : G => MulSemiringAction.toAlgHom K L g)
+@@ -178,8 +177,8 @@
+ theorem smul_decompose_of_fixed (h : ∀ (g : G) i, ∀ v ∈ 𝒱 i, g • v ∈ 𝒱 i) {v : V}
+     (hv : ∀ g : G, g • v = v) (i : ι) (g : G) :
+     g • (DirectSum.decompose 𝒱 v i : V) = DirectSum.decompose 𝒱 v i := by
+-  have := decompose_addMonoidHom 𝒱 𝒱 (DistribMulAction.toAddMonoidHom V g) (h g) v i
+-  simp only [DistribMulAction.toAddMonoidHom_apply, hv] at this
++  have := decompose_addMonoidHom 𝒱 𝒱 (DistribSMul.toAddMonoidHom V g) (h g) v i
++  simp only [DistribSMul.toAddMonoidHom_apply, hv] at this
+   exact this.symm
+ 
+ end Graded
+@@ -208,7 +207,6 @@
+         (isBaseChange_fixedSubalgebra K L G A).equiv := by
+       funext t
+       induction t with
+-      | zero => simp
+       | tmul a v => simp
+       | add x y hx hy => simp only [map_add, hx, hy]
+     rw [this]

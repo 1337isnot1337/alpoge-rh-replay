@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardKernelQuotOfBijective",
+  "source_sha256": "ffe904b5fe73e7ce9a81d11c6b0af2ddd243e65ee32df8372e40b85a7d677d89",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

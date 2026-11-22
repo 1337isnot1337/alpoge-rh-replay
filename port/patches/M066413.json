@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.ExistsIsComplEigenSubOfValuationRing",
+  "source_sha256": "b8974c946f4c133c8451192720424194abf22cbbe8c5d6d0f4fd3bb00775a22c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current base-change induction cases and polynomial coefficient projection."
+}

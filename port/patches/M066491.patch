@@ -1,0 +1,15 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/IsPrincipalIdealRingOfIsLocalization.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/IsPrincipalIdealRingOfIsLocalization.lean
+@@ -309,9 +309,9 @@
+       IsPrincipalIdealRing (Localization.Away (C π : O⟦X⟧)) ∧
+       ringKrullDim (Localization.Away (C π : O⟦X⟧)) = 1) ∧
+ 
+-    (∀ a : ℕ, (Ideal.span {algebraMap O⟦X⟧
+-        (Localization.AtPrime (Ideal.span {X} : Ideal O⟦X⟧)) X ^ a}).comap (algebraMap O⟦X⟧ _) =
+-      Ideal.span {(X : O⟦X⟧) ^ a}) ∧
++    (∀ a : ℕ, (Ideal.span (Set.singleton (algebraMap O⟦X⟧
++        (Localization.AtPrime (Ideal.span {X} : Ideal O⟦X⟧)) X ^ a))).comap (algebraMap O⟦X⟧ _) =
++      Ideal.span (Set.singleton ((X : O⟦X⟧) ^ a))) ∧
+ 
+     ((ConnectedSpace (PrimeSpectrum (Localization.Away (C π * X : O⟦X⟧))) ∧
+       DenseRange (PrimeSpectrum.comap (algebraMap O⟦X⟧ (Localization.Away (C π * X : O⟦X⟧))))) ∧

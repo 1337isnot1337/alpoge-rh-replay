@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsEqTransposeMulDiagonalMul",
+  "source_sha256": "d3c8e89ccec0a47df8f0ce76579bbbf7d9b4dbfbff71abf0e11f420c0a9af62d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify the matrix multiplication expansion in the entrywise proofs."
+}

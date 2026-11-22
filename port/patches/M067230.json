@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardKerMulCardEq",
+  "source_sha256": "28fb1b20c78b7c5f16afba620cf3f6b2a468becf888eebcbf3a86f9378cbbc70",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

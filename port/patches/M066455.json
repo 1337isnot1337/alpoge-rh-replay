@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsUniqueHomogeneousIdealFixedSubalgebra",
+  "source_sha256": "a968bfd564eb5bb39c82f100e7286810659601a66c95df976863cff2b8e56ce8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current tensor induction cases and the distributive scalar action homomorphism."
+}
