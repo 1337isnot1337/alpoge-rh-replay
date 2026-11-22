@@ -1,0 +1,7 @@
+{
+  "module": "CompanionTheory.AutomorphicTheory.PlaceSeparation.ArtinA",
+  "source_sha256": "196bdf5384af3385203f050eb3058319468dedeb61bde4ac9f439245b4ffd1cd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

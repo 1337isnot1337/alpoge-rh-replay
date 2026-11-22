@@ -1,0 +1,7 @@
+{
+  "module": "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ContinuousHermScal",
+  "source_sha256": "0b68cc9fcaf82ba8f71946e4158b3961a15033b42150bd39bacfdc5645c4fa83",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the current criterion for measurability into a product, with the same coordinate maps."
+}
