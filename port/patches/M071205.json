@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.InducedRepresentationCharacter",
+  "source_sha256": "dd9df1b533aee0d12c8192bbaeaf6294da73376ba7f44dabc84cf548e9836077",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0254-lean436-20261121/packet-result.json"
+}

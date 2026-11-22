@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/IsFrobRestrictScalarsOfPrimeAbsNorm.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/IsFrobRestrictScalarsOfPrimeAbsNorm.lean
+@@ -31,7 +31,7 @@
+     rw [ValuationSubring.mem_pointwise_smul_iff_inv_smul_mem,
+       ValuationSubring.mem_pointwise_smul_iff_inv_smul_mem]
+     rfl
+-  · have e : normV v = normV w := hn
++  · have e : normV v = normV w := by simpa only [normV, Ideal.absNorm_eq_natCard] using hn
+     rw [e]
+     exact hσ.2 x hx
+ 
