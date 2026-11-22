@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.EigenvalueEndgame.SignatureSplitting.ClosedEmb",
+  "source_sha256": "526e442c568126acb9d8b34b617ffe71d6f7da8d526d03ee7e6d7061350f11ef",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: explicitly specialize the subtype-neighborhood equivalence to the identity of SL(2,R) and the given neighborhood. Specify the determinant-one subtype predicate in the neighborhood equivalence. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0145-lean436-20261121/packet-result.json"
+}
