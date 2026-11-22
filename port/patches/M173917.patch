@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/CasimirAlgebra/KhwLowKSubRootEqZero.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/CasimirAlgebra/KhwLowKSubRootEqZero.lean
+@@ -135,7 +135,7 @@
+     simp only [LinearMap.sum_apply, inner_sum]
+     push_cast
+     congr 1
+-    · exact sum_congr rfl (fun a _ => by rw [Module.End.mul_apply, hA]; push_cast; ring)
++    · exact sum_congr rfl (fun a _ => by rw [Function.comp_apply, hA]; push_cast; ring)
+     · refine sum_congr rfl (fun a _ => ?_)
+       refine sum_congr rfl (fun b hb => ?_)
+       rw [hB a b (mem_filter.1 hb).2]; push_cast; ring

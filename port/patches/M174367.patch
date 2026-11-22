@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/InhabRep.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/InhabRep.lean
+@@ -164,6 +164,8 @@
+     HasDerivAt (fun t : ℝ => toEuclideanCLM (n := Fin n) (𝕜 := ℂ) (NormedSpace.exp ((t : ℂ) • X)) v)
+       (toEuclideanCLM (n := Fin n) (𝕜 := ℂ) X v) 0 := by
+ 
++  haveI : CompleteSpace (EH n) := inferInstance
++  haveI : CompleteSpace (EH n →L[ℂ] EH n) := ContinuousLinearMap.instCompleteSpace
+   have h2 : HasDerivAt (fun s : ℂ => NormedSpace.exp (s • toEuclideanCLM (n := Fin n) (𝕜 := ℂ) X))
+       (NormedSpace.exp ((0 : ℂ) • toEuclideanCLM (n := Fin n) (𝕜 := ℂ) X) * toEuclideanCLM (n := Fin n) (𝕜 := ℂ) X) 0 :=
+     hasDerivAt_exp_smul_const (toEuclideanCLM (n := Fin n) (𝕜 := ℂ) X) 0

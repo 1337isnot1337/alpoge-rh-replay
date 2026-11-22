@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantLemmas.WickFormula.XdegLeTotalDegree",
+  "source_sha256": "df2103a73f5f4aa8d14c0e213c6a75ced571f31f3d2f7cd01ed919b5398cec03",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the same multivariate polynomial coefficient projection with polynomial first. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0235-lean436-20261121/packet-result.json"
+}

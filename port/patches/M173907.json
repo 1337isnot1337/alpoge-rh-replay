@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.DiscreteSeries.BochnerInequality.NumRho",
+  "source_sha256": "e4ab1557e27027a64a4295bbc90217b7da956c8367a577e1655e8b6ca3ad951b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0235-lean436-20261121/packet-result.json"
+}
