@@ -1,0 +1,7 @@
+{
+ "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FactorThroughGenericFiberStatement",
+ "source_sha256": "e58543cf4b29ef1a0339b8d26261fcfe701d6dea1cf4992a595d45efd73423b9",
+ "lean": "leanprover/lean4:v4.36.0",
+ "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+ "notes": "unchanged"
+}
