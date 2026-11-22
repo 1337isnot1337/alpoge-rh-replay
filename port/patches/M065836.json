@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.BeSumStatementIffDefectSumBound",
+  "source_sha256": "5f9059d12da189a221e98c02d0d1fc25cb5ee0094007eb97e5750a2a9ee22174",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
