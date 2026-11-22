@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContDiffOnHeckeEisensteinFourierTerm",
+  "source_sha256": "8ffb9fa55ba0851315d63f1d764d9e43903a4834ebfde158e893a69d92a4a0eb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`contDiff_apply` now takes the fibre family of the Pi type, so pass `(fun _ => ℂ)` instead of `ℂ` (two sites). Proof bodies only."
+}
