@@ -177,6 +177,7 @@ cat > "$OUT/nanoda-config.json" <<EOF
   "unpermitted_axiom_hard_error": true,
   "nat_extension": true,
   "string_extension": true,
+  "pp_to_stdout": true,
   "print_success_message": true
 }
 EOF
