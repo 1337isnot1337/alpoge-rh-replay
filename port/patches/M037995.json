@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsExcisionNbhdAwayStatement",
+  "source_sha256": "d16b27389fb81b635df479a386732711f25f78f71c247f0fea70b639624af7da",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0182-lean436-20261121/packet-result.json"
+}

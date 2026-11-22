@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsContOnOfLocal",
+  "source_sha256": "5dd8550d1bce4c0db4ed7ae8a5b6450e09686717009edc2f2065a1ee6d1b1b4c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Restrict simplification to the ring-equivalence inverse identity, avoiding premature expansion of the infinite-adele equivalence. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0182-lean436-20261121/packet-result.json"
+}

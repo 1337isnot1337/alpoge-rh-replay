@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsLocallyConstantAddChar",
+  "source_sha256": "0c867f06f2586c80f5e8a7c87f8db7ed9adc58b970c73b237962f492e7e201eb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed ENNReal product coercion and supply the existing matrix-map measurability when commuting scalar multiplication with measure mapping. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0182-lean436-20261121/packet-result.json"
+}
