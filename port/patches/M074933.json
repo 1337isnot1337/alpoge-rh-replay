@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnifConst",
+  "source_sha256": "9836e25b68a72c407d7d2293a22ef8651321a1279983b429a29124fbdc8b5770",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
