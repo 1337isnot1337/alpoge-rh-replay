@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/EulerProductNeZeroOneOfEntire.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/EulerProductNeZeroOneOfEntire.lean
+@@ -118,7 +118,7 @@
+           (1 - starRingEnd ℂ (c i) * ((N i : ℕ) : ℂ) ^ (-s))) := by
+         simp only [hL']
+         rw [hLs _ (by simpa using hs), ← Complex.exp_conj, Complex.conj_tsum]
+-        congr 1
++        apply congrArg Complex.exp
+         exact tsum_congr fun i => _root_.GlobalTheory.conj_neg_log_euler_factor (N i) (hN i) (c i) (hc i) s hs
+       simp only [dslope_of_ne _ hs1, slope_def_field, h1, hL'1, sub_zero]
+       rw [hZs s hs, hLs s hs, hL's, two_mul, Complex.exp_add, Complex.exp_add, Complex.exp_add]

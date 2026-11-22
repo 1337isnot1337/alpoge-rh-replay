@@ -1,0 +1,10 @@
+--- a/src/Development/AbelianVarietyTheory/Definitions/TwistedInnerProducts/IsUnitarisableOfCharIff.lean
++++ b/src/Development/AbelianVarietyTheory/Definitions/TwistedInnerProducts/IsUnitarisableOfCharIff.lean
+@@ -255,7 +255,6 @@
+   intro x
+   show x ∈ smoothPart (extTensor ρ σ)
+   induction x with
+-  | zero => exact zero_mem _
+   | add x y hx hy => exact add_mem hx hy
+   | tmul v w =>
+     refine mem_smoothPart_of_nhds (Filter.mem_of_superset

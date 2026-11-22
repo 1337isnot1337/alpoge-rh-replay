@@ -1,0 +1,64 @@
+--- a/src/Development/AbelianVarietyTheory/Definitions/QuasicoherentCohomology/ToAbSheafPreservesFiniteLimits.lean
++++ b/src/Development/AbelianVarietyTheory/Definitions/QuasicoherentCohomology/ToAbSheafPreservesFiniteLimits.lean
+@@ -48,7 +48,7 @@
+ 
+ def smulHom (F : X.Modules) (r : Γ(X, ⊤)) : F ⟶ F :=
+   SheafOfModules.Hom.mk <| PresheafOfModules.homMk
+-    { app := fun U ↦ F.smul (restrictGlobal X U.unop r)
++    { app := fun U ↦ (F.smul (restrictGlobal X U.unop r)).asHom
+       naturality := fun U V i ↦ by
+         have := F.map_comp_smul i.unop (restrictGlobal X U.unop r)
+         rw [map_restrictGlobal] at this
+@@ -78,11 +78,11 @@
+   exact φ.app_smul (restrictGlobal X U r) x
+ 
+ @[simps] def smulEnd (F : X.Modules) : Γ(X, ⊤) →+* End F where
+-  toFun := smulHom F
+-  map_one' := smulHom_one F
+-  map_mul' := smulHom_mul F
+-  map_zero' := smulHom_zero F
+-  map_add' := smulHom_add F
++  toFun r := End.of (smulHom F r)
++  map_one' := End.ext (smulHom_one F)
++  map_mul' r s := End.ext (smulHom_mul F r s)
++  map_zero' := End.ext (smulHom_zero F)
++  map_add' r s := End.ext (smulHom_add F r s)
+ 
+ instance linearModules : Linear Γ(X, ⊤) X.Modules where
+   homModule F G :=
+@@ -198,11 +198,11 @@
+ 
+ @[simps] def functorEndRingHom {C D : Type*} [Category C] [Category D] [Preadditive C]
+     [Preadditive D] (G : C ⥤ D) [G.Additive] (Y : C) : End Y →+* End (G.obj Y) where
+-  toFun f := G.map f
+-  map_one' := G.map_id Y
+-  map_mul' f g := G.map_comp g f
+-  map_zero' := G.map_zero Y Y
+-  map_add' _ _ := G.map_add
++  toFun f := End.of (G.map f.asHom)
++  map_one' := End.ext (G.map_id Y)
++  map_mul' f g := End.ext (G.map_comp g.asHom f.asHom)
++  map_zero' := End.ext (G.map_zero Y Y)
++  map_add' _ _ := End.ext G.map_add
+ 
+ namespace SiteCoh
+ 
+@@ -239,13 +239,13 @@
+ variable (F n U) in
+ 
+ def endAction : End F →+* AddMonoid.End (F.H' n U) where
+-  toFun f := (map f n U).hom
++  toFun f := (map f.asHom n U).hom
+   map_one' := AddMonoidHom.ext map_id_apply
+-  map_mul' f g := AddMonoidHom.ext (map_comp_apply g f)
++  map_mul' f g := AddMonoidHom.ext (map_comp_apply g.asHom f.asHom)
+   map_zero' := AddMonoidHom.ext map_zero_apply
+-  map_add' f g := AddMonoidHom.ext (map_add_apply f g)
+-
+-lemma endAction_apply (f : End F) (x : F.H' n U) : endAction F n U f x = map f n U x := rfl
++  map_add' f g := AddMonoidHom.ext (map_add_apply f.asHom g.asHom)
++
++lemma endAction_apply (f : End F) (x : F.H' n U) : endAction F n U f x = map f.asHom n U x := rfl
+ 
+ end SiteCoh
+ 
