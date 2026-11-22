@@ -64,6 +64,22 @@ class ClaimLookupTests(unittest.TestCase):
         self.assertIn('nodes { title }', command[-1])
         rest.assert_not_called()
 
+    def test_anonymous_lookup_filters_pull_request_titles(self):
+        issues = [{'title': 'Claim M000001'},
+                  {'title': 'Claim M000002', 'pull_request': {}},
+                  {'title': 'Claim P0123'}]
+        with patch.object(tasks, 'which', return_value=None), \
+             patch.object(tasks.json, 'load', return_value=issues), \
+             patch.object(tasks.urllib.request, 'urlopen') as fetch, \
+             patch.object(tasks.subprocess, 'check_output') as cli:
+            fetch.return_value.__enter__.return_value.headers = {}
+            self.assertEqual(tasks.claims(), {'M000001', 'P0123'})
+
+        request = fetch.call_args.args[0]
+        self.assertEqual(request.full_url,
+                         f'https://api.github.com/repos/{tasks.repo}/issues?state=open&per_page=100')
+        cli.assert_not_called()
+
 
 class ColdModuleTests(unittest.TestCase):
     def test_claims_and_ledger_states(self):
