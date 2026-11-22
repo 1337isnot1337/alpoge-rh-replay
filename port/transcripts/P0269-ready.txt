@@ -1,0 +1,391 @@
+Packet P0269, partial submission
+Upstream base 990c354d292858e6d3e867af20005a78ed3ad7a1
+Port record commit 95ddb318f181225d8998bda8155400800cb53df9
+Lean leanprover/lean4:v4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+python3 scripts/port-ci-build.py --workspace <workspace> --src <archive-source> --patch-ids M138131 M138151 M139374
+
+Elaborated IsLattice audit
+lake env lean --run <repository>/port/islattice_audit.lean Development.WeilBound.CoreStatements.FlagImmersions.DegFlPowerSumMul Development.WeilBound.CoreStatements.FlagImmersions.FlagDegreeLinearFunctionals Development.WeilBound.CoreStatements.PlaceConnectedComponents.ArtinA
+islattice-audit: 3 module(s), 0 hit(s)
+
+Earlier source builds for reused outputs
+
+Build verification on the upstream base
+Building 3 explicitly requested module(s).
+Resolved 8 transitive project import(s) (11 total module(s) to materialize).
+[FETCH] Materializing 11 SHA-256-verified source file(s)...
+[FETCH] Verified 11/11 source file(s).
+[KEEP]  M119684: unchanged (verified against archive source)
+[KEEP]  M138131: unchanged (verified against archive source)
+[KEEP]  M138151: unchanged (verified against archive source)
+[KEEP]  M139374: unchanged (verified against archive source)
+[KEEP]  M144183: unchanged (verified against archive source)
+[KEEP]  M144210: unchanged (verified against archive source)
+[KEEP]  M144212: unchanged (verified against archive source)
+[PATCH] M144213: applied M144213.patch
+[KEEP]  M171891: unchanged (verified against archive source)
+[KEEP]  M171892: unchanged (verified against archive source)
+[PATCH] M171893: applied M171893.patch
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in <workspace>
+
+[BUILD] Building 3 module(s) with `lake build`...
+        IDs: M138131, M138151, M139374
+⚠ [18250/18268] Built Formalism.DegreeFormula.FlagDegFormula (6.3s)
+warning: src/Formalism/DegreeFormula/FlagDegFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18268] Built ReciprocityTheory.GaloisValuations.GlobalA (8.4s)
+warning: src/ReciprocityTheory/GaloisValuations/GlobalA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/GaloisValuations/GlobalA.lean:15:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/ReciprocityTheory/GaloisValuations/GlobalA.lean:143:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18252/18268] Ran Formalism.DegreeFormula.FlagDegFormula:irArts
+warning: src/Formalism/DegreeFormula/FlagDegFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18268] Built Formalism.ConjugateSelfDual.Statement (8.1s)
+warning: src/Formalism/ConjugateSelfDual/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18268] Ran Formalism.ConjugateSelfDual.Statement:irArts
+warning: src/Formalism/ConjugateSelfDual/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18255/18268] Ran ReciprocityTheory.GaloisValuations.GlobalA:irArts
+warning: src/ReciprocityTheory/GaloisValuations/GlobalA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18268] Built Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.CompactGapsGE (7.5s)
+warning: src/Development/AutomorphicSpectrum/Definitions/DivisibilityTowers/CompactGapsGE.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18257/18268] Ran Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.CompactGapsGE:irArts
+warning: src/Development/AutomorphicSpectrum/Definitions/DivisibilityTowers/CompactGapsGE.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18258/18268] Built Formalism.DegreeFormula.PointDegree.PermExpInj (11s)
+warning: src/Formalism/DegreeFormula/PointDegree/PermExpInj.lean:45:41: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/DegreeFormula/PointDegree/PermExpInj.lean:51:43: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18260/18268] Built Formalism.DegreeFormula.PointDegree.PowSum (8.9s)
+warning: src/Formalism/DegreeFormula/PointDegree/PowSum.lean:11:20: `MvPolynomial.coeff_add` has been deprecated: Use `AddMonoidAlgebra.coeff_add` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] (x y : AddMonoidAlgebra R M), (x + y).coeff = x.coeff + y.coeff
+instead of
+  ∀ {R : Type u} {σ : Type u_1} [inst : CommSemiring R] (m : σ →₀ ℕ) (p q : MvPolynomial σ R),
+    (p + q).coeff m = p.coeff m + q.coeff m
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coeff_add` to `AddMonoidAlgebra.coeff_add x`).
+warning: src/Formalism/DegreeFormula/PointDegree/PowSum.lean:60:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/DegreeFormula/PointDegree/PowSum.lean:60:46: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/DegreeFormula/PointDegree/PowSum.lean:61:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DegreeFormula/PointDegree/PowSum.lean:61:60: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DegreeFormula/PointDegree/PowSum.lean:100:16: This simp argument is unused:
+  hne
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h1, Ne.symm hne]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/DegreeFormula/PointDegree/PowSum.lean:100:34: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/DegreeFormula/PointDegree/PowSum.lean:102:36: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/DegreeFormula/PointDegree/PowSum.lean:100:34: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/DegreeFormula/PointDegree/PowSum.lean:102:36: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/DegreeFormula/PointDegree/PowSum.lean:131:53: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/DegreeFormula/PointDegree/PowSum.lean:137:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18262/18268] Built ReciprocityTheory.GaloisValuations.GlobalB (23s)
+warning: src/ReciprocityTheory/GaloisValuations/GlobalB.lean:53:14: `FractionalIdeal.mem_coe` has been deprecated: Use `FractionalIdeal.mem_coeToSubmodule` instead
+
+Hint: Replace the deprecated name:
+  FractionalIdeal.mem_coeT̲o̲S̲u̲b̲m̲o̲d̲u̲l̲e̲
+warning: src/ReciprocityTheory/GaloisValuations/GlobalB.lean:53:39: `FractionalIdeal.coe_sup` has been deprecated: Use `FractionalIdeal.coeToSubmodule_sup` instead
+
+Hint: Replace the deprecated name:
+  FractionalIdeal.coeT̲o̲S̲u̲b̲m̲o̲d̲u̲l̲e̲_sup
+warning: src/ReciprocityTheory/GaloisValuations/GlobalB.lean:114:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.smul_valuation_lt_one_iff`:
+  [NumberField F]
+  [IsAlgClosure F Ω]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] [IsAlgClosure F Ω] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/GlobalB.lean:131:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.valuation_le_one_intCl`:
+  [IsAlgClosure F Ω]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsAlgClosure F Ω] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/GlobalB.lean:190:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.continuousSMul_intCl`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18263/18268] Built Development.WeilBound.CoreStatements.FlagImmersions.FlagDegreeLinearFunctionals (7.3s)
+warning: src/Development/WeilBound/CoreStatements/FlagImmersions/FlagDegreeLinearFunctionals.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18265/18268] Built Development.WeilBound.CoreStatements.FlagImmersions.DegFlPowerSumMul (8.5s)
+warning: src/Development/WeilBound/CoreStatements/FlagImmersions/DegFlPowerSumMul.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/WeilBound/CoreStatements/FlagImmersions/DegFlPowerSumMul.lean:61:56: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Development/WeilBound/CoreStatements/FlagImmersions/DegFlPowerSumMul.lean:61:65: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: src/Development/WeilBound/CoreStatements/FlagImmersions/DegFlPowerSumMul.lean:65:53: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Development/WeilBound/CoreStatements/FlagImmersions/DegFlPowerSumMul.lean:65:62: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: src/Development/WeilBound/CoreStatements/FlagImmersions/DegFlPowerSumMul.lean:70:48: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: src/Development/WeilBound/CoreStatements/FlagImmersions/DegFlPowerSumMul.lean:72:46: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: src/Development/WeilBound/CoreStatements/FlagImmersions/DegFlPowerSumMul.lean:85:92: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/WeilBound/CoreStatements/FlagImmersions/DegFlPowerSumMul.lean:86:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/WeilBound/CoreStatements/FlagImmersions/DegFlPowerSumMul.lean:96:43: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18266/18268] Built ReciprocityTheory.GaloisValuations.Global (11s)
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:17:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.mem_Dec`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:42:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.mul_inv_apply`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:95:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.cyc_eq_map_cycZ`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:101:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.continuous_cycZ`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:137:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.isClosed_NS`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:148:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.continuous_toGS`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:168:31: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:175:35: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:160:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.unramOutside_iff`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:189:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.not_valuation_lt_one_of_isPlaceOver`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:207:20: `HasEnoughRootsOfUnity.exists_primitiveRoot` has been deprecated: Use `HasEnoughRootsOfUnity.exists_isPrimitiveRoot` instead
+
+Hint: Replace the deprecated name:
+  HasEnoughRootsOfUnity.exists_p̵i̲s̲P̲rimitiveRoot
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:231:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.Gal.eq_of_isPlaceOver`:
+  [NumberField F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:269:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:271:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:387:29: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:395:48: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/ReciprocityTheory/GaloisValuations/Global.lean:409:67: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [18268/18268] Built Development.WeilBound.CoreStatements.PlaceConnectedComponents.ArtinA (10s)
+warning: src/Development/WeilBound/CoreStatements/PlaceConnectedComponents/ArtinA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/WeilBound/CoreStatements/PlaceConnectedComponents/ArtinA.lean:16:0: automatically included section variable(s) unused in theorem `PositivityTheory.FamInh.exists_place_between`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/WeilBound/CoreStatements/PlaceConnectedComponents/ArtinA.lean:65:0: automatically included section variable(s) unused in theorem `PositivityTheory.FamInh.res_mem_stabilizer`:
+  [NumberField L]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField L] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/WeilBound/CoreStatements/PlaceConnectedComponents/ArtinA.lean:73:0: automatically included section variable(s) unused in theorem `PositivityTheory.FamInh.val_int_le_one`:
+  [NumberField L]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField L] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/WeilBound/CoreStatements/PlaceConnectedComponents/ArtinA.lean:114:11: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/WeilBound/CoreStatements/PlaceConnectedComponents/ArtinA.lean:115:12: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/WeilBound/CoreStatements/PlaceConnectedComponents/ArtinA.lean:116:11: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/WeilBound/CoreStatements/PlaceConnectedComponents/ArtinA.lean:116:13: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/WeilBound/CoreStatements/PlaceConnectedComponents/ArtinA.lean:117:11: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/WeilBound/CoreStatements/PlaceConnectedComponents/ArtinA.lean:117:13: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/WeilBound/CoreStatements/PlaceConnectedComponents/ArtinA.lean:122:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/WeilBound/CoreStatements/PlaceConnectedComponents/ArtinA.lean:123:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/WeilBound/CoreStatements/PlaceConnectedComponents/ArtinA.lean:124:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/WeilBound/CoreStatements/PlaceConnectedComponents/ArtinA.lean:125:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/WeilBound/CoreStatements/PlaceConnectedComponents/ArtinA.lean:127:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (18268 jobs).
+[PASS]  M138131 (Development.WeilBound.CoreStatements.FlagImmersions.DegFlPowerSumMul)
+[PASS]  M138151 (Development.WeilBound.CoreStatements.FlagImmersions.FlagDegreeLinearFunctionals)
+[PASS]  M139374 (Development.WeilBound.CoreStatements.PlaceConnectedComponents.ArtinA)
+
+PORT_BUILD_PASSED all 3 module(s).

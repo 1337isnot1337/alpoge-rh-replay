@@ -1,0 +1,570 @@
+{
+  "target": "P0269",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/29054",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "build_base_commit": "990c354d292858e6d3e867af20005a78ed3ad7a1",
+  "port_record_commit": "95ddb318f181225d8998bda8155400800cb53df9",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "build_log_sha256": "a190f5107bc7395883f90776b6d78e58314a8a8f8ac4a095f4e18e9f2872fee1",
+  "audit": {
+    "command": "lake env lean --run <repository>/port/islattice_audit.lean Development.WeilBound.CoreStatements.FlagImmersions.DegFlPowerSumMul Development.WeilBound.CoreStatements.FlagImmersions.FlagDegreeLinearFunctionals Development.WeilBound.CoreStatements.PlaceConnectedComponents.ArtinA",
+    "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
+    "result": "islattice-audit: 3 module(s), 0 hit(s)"
+  },
+  "modules": [
+    {
+      "id": "M138131",
+      "module": "Development.WeilBound.CoreStatements.FlagImmersions.DegFlPowerSumMul",
+      "source_sha256": "64045aebec7fffc228e3b079c323b347484e3c58eb89d991e1cad3280b13cfce",
+      "patch_sha256": null,
+      "built_source_sha256": "64045aebec7fffc228e3b079c323b347484e3c58eb89d991e1cad3280b13cfce",
+      "olean_sha256": "a5c19e66084d65115120b33275c373eee8191a3720feef2f257d5850f39f5d77",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M138151",
+      "module": "Development.WeilBound.CoreStatements.FlagImmersions.FlagDegreeLinearFunctionals",
+      "source_sha256": "9007e07a830c4b5d054c5f0e3fa81ad1e7a10479f14371a8909ce3eedb3d7ed3",
+      "patch_sha256": null,
+      "built_source_sha256": "9007e07a830c4b5d054c5f0e3fa81ad1e7a10479f14371a8909ce3eedb3d7ed3",
+      "olean_sha256": "b963a7d475d4685366637771b9a62c5e97da20a99721663b26f95ffd95f5bd5c",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M139374",
+      "module": "Development.WeilBound.CoreStatements.PlaceConnectedComponents.ArtinA",
+      "source_sha256": "2a5fc4130dd8990c4d04b9af9a0ae071cc1e7315a65dace725e7edaa5cb61e34",
+      "patch_sha256": null,
+      "built_source_sha256": "2a5fc4130dd8990c4d04b9af9a0ae071cc1e7315a65dace725e7edaa5cb61e34",
+      "olean_sha256": "690a4f14a6fabf08049d615799372be87ffe894cc659a2d50c0cac31c95dd473",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    }
+  ],
+  "project_imports": [
+    {
+      "id": "M119684",
+      "module": "Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.CompactGapsGE",
+      "source_sha256": "f0b3cc3288c790783c6fad76f990b07dfd3cfc0ffa03c68ed08f6353b57fda2a",
+      "patch_sha256": null,
+      "built_source_sha256": "f0b3cc3288c790783c6fad76f990b07dfd3cfc0ffa03c68ed08f6353b57fda2a",
+      "port_record_sha256": "62f9d1cc67bca1ade6001131c8f2f76168146f9f7cf27052a80270ae9f2fd659"
+    },
+    {
+      "id": "M144183",
+      "module": "Formalism.ConjugateSelfDual.Statement",
+      "source_sha256": "8d249d25b306976cf622c4c79137456f46ee90aac3271b3647ee7cb217219dae",
+      "patch_sha256": null,
+      "built_source_sha256": "8d249d25b306976cf622c4c79137456f46ee90aac3271b3647ee7cb217219dae",
+      "port_record_sha256": "227e5b58f2d986f44c3b0fcc892617611584c7ba8a035fbc669f94c38d7959be"
+    },
+    {
+      "id": "M144210",
+      "module": "Formalism.DegreeFormula.FlagDegFormula",
+      "source_sha256": "aaaf54513f25ac93916956f7ec953f2feb297088ae511aa4dcba796972881fea",
+      "patch_sha256": null,
+      "built_source_sha256": "aaaf54513f25ac93916956f7ec953f2feb297088ae511aa4dcba796972881fea",
+      "port_record_sha256": "2ff1a66bfd311dcebf513fe92bc24a0bd277be7637e53f863bb1b209eaeae765"
+    },
+    {
+      "id": "M144212",
+      "module": "Formalism.DegreeFormula.PointDegree.PermExpInj",
+      "source_sha256": "1a0458ccbccc75c01eff1ac16598810977ac49c534711dc4d15741630301b8aa",
+      "patch_sha256": null,
+      "built_source_sha256": "1a0458ccbccc75c01eff1ac16598810977ac49c534711dc4d15741630301b8aa",
+      "port_record_sha256": "b9d67bec1a8955aa8bf1047122270eb65361b78a38f8ad2ad265fb77987e3f6c"
+    },
+    {
+      "id": "M144213",
+      "module": "Formalism.DegreeFormula.PointDegree.PowSum",
+      "source_sha256": "fa943b277388a27a71985dd0625795ac07a39204e11d5d5f67a06df24716ba59",
+      "patch_sha256": "5cbdbb4248a52f270e5337548deb8d1c6be2ba8e52e0235d133a64df6afc6e48",
+      "built_source_sha256": "ae988fc85642e34b6674bda4f534801a865f5de178d9d666c765a6ce0e79c988",
+      "port_record_sha256": "bddcc1552cd5834716f23d3f9a13e68182a6343de466ddc3a5ec8199be033287"
+    },
+    {
+      "id": "M171891",
+      "module": "ReciprocityTheory.GaloisValuations.Global",
+      "source_sha256": "c8e9465c22e48ca68c4e2cfec74c1f9407d8c471b2eb5e2440f11b910a6bfbd6",
+      "patch_sha256": null,
+      "built_source_sha256": "c8e9465c22e48ca68c4e2cfec74c1f9407d8c471b2eb5e2440f11b910a6bfbd6",
+      "port_record_sha256": "430642261473958226daa75d3840cf27c6b7876def0e058089c3c907f50656bb"
+    },
+    {
+      "id": "M171892",
+      "module": "ReciprocityTheory.GaloisValuations.GlobalA",
+      "source_sha256": "8e6770954d32d574bf4553c92f3087fb13806dba00456512b515d48098b7ef53",
+      "patch_sha256": null,
+      "built_source_sha256": "8e6770954d32d574bf4553c92f3087fb13806dba00456512b515d48098b7ef53",
+      "port_record_sha256": "7e4d58a4dab6dca598c703fedb5405925fda50dc715bfc24ad7528851b6cf7fe"
+    },
+    {
+      "id": "M171893",
+      "module": "ReciprocityTheory.GaloisValuations.GlobalB",
+      "source_sha256": "99fe9063535e36b9eaa66cf69bc675aca4cd4ed270094bc6e2849ce3feae28cb",
+      "patch_sha256": "e9e3a58a8c7024984d2615dea0ca10edfc9127b4ab88cdce949355ca54029b8b",
+      "built_source_sha256": "4328fd38852c6519b71c03a132f964574f23a70fc6247c86235d34357d72981a",
+      "port_record_sha256": "35cd0fddd31081639f1d2144902f7c716aa2a5d353ce7f6f4f81234d1cd99ec5"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M138111",
+      "module": "Development.WeilBound.CoreStatements.FiniteTypeHarishChandra.FiniteDimensionalHcSpace",
+      "missing_imports": [
+        "M153352"
+      ]
+    },
+    {
+      "id": "M138130",
+      "module": "Development.WeilBound.CoreStatements.FlagImmersions.DecompositionPowerSumsTopDegree",
+      "missing_imports": [
+        "M169292",
+        "M169293",
+        "M169296",
+        "M169297",
+        "M169298",
+        "M169299",
+        "M169300",
+        "M169301",
+        "M169302",
+        "M169364"
+      ]
+    },
+    {
+      "id": "M138268",
+      "module": "Development.WeilBound.CoreStatements.GaussianSeminormBounds.RealSeminormFiltration.TensorIrr",
+      "missing_imports": [
+        "M138250",
+        "M152630"
+      ]
+    },
+    {
+      "id": "M138330",
+      "module": "Development.WeilBound.CoreStatements.HodgeTatePoints.ExistsMinorNeZero",
+      "missing_imports": [
+        "M119669"
+      ]
+    },
+    {
+      "id": "M138332",
+      "module": "Development.WeilBound.CoreStatements.HodgeTatePoints.ExtTensor",
+      "missing_imports": [
+        "M138555"
+      ]
+    },
+    {
+      "id": "M138376",
+      "module": "Development.WeilBound.CoreStatements.HodgeTatePoints.GhModelAlg",
+      "missing_imports": [
+        "M119669"
+      ]
+    },
+    {
+      "id": "M138474",
+      "module": "Development.WeilBound.CoreStatements.HodgeTatePoints.MjBase",
+      "missing_imports": [
+        "M138555"
+      ]
+    },
+    {
+      "id": "M138645",
+      "module": "Development.WeilBound.CoreStatements.HomogeneousNonvanishing.TwGLam",
+      "missing_imports": [
+        "M138650"
+      ]
+    },
+    {
+      "id": "M138869",
+      "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.BocksteinBaseChange.AtlasGroupActions.TowerSmulZero",
+      "missing_imports": [
+        "M138952"
+      ]
+    },
+    {
+      "id": "M138874",
+      "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.BocksteinBaseChange.BocksteinSheafHomotopy.BocksteinLemmas",
+      "missing_imports": [
+        "M003588"
+      ]
+    },
+    {
+      "id": "M138933",
+      "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.BocksteinBaseChange.SmoothGaloisGeometry.SmoothSndOfIsStrictlySemistable",
+      "missing_imports": [
+        "M004248"
+      ]
+    },
+    {
+      "id": "M138947",
+      "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.CechPairings.CxPairing",
+      "missing_imports": [
+        "M138952"
+      ]
+    },
+    {
+      "id": "M139093",
+      "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.ConeSectionRestriction.TorusMemFldF",
+      "missing_imports": [
+        "M139088"
+      ]
+    },
+    {
+      "id": "M139104",
+      "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.DpZeroRight",
+      "missing_imports": [
+        "M138952"
+      ]
+    },
+    {
+      "id": "M139123",
+      "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.FrobeniusWittActions.TLTensor",
+      "missing_imports": [
+        "M128039",
+        "M128260",
+        "M128262",
+        "M128264",
+        "M128266",
+        "M128268",
+        "M128270"
+      ]
+    },
+    {
+      "id": "M139218",
+      "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.TwistedRepresentations.Tens",
+      "missing_imports": [
+        "M138952"
+      ]
+    },
+    {
+      "id": "M139537",
+      "module": "Development.WeilBound.CoreStatements.PlurisubharmonicCones.GeoNumOneLin",
+      "missing_imports": [
+        "M172563"
+      ]
+    },
+    {
+      "id": "M139642",
+      "module": "Development.WeilBound.CoreStatements.PublishedTheorems.CasselmanWallach.FunctionalCalculusLaws",
+      "missing_imports": [
+        "M139630"
+      ]
+    },
+    {
+      "id": "M139860",
+      "module": "Development.WeilBound.CoreStatements.PublishedTheorems.NadelVanishingPairs.NadelVanishingLemmas.ExistsFrobeniusSplittingDatum",
+      "missing_imports": [
+        "M025128"
+      ]
+    },
+    {
+      "id": "M139888",
+      "module": "Development.WeilBound.CoreStatements.PublishedTheorems.NadelVanishingPairs.NadelVanishingLemmas.FlatModPSquaredTorsion",
+      "missing_imports": [
+        "M032389"
+      ]
+    },
+    {
+      "id": "M139896",
+      "module": "Development.WeilBound.CoreStatements.PublishedTheorems.NadelVanishingPairs.NadelVanishingLemmas.FrobeniusSplittingClosed",
+      "missing_imports": [
+        "M139800"
+      ]
+    },
+    {
+      "id": "M139955",
+      "module": "Development.WeilBound.CoreStatements.PublishedTheorems.NadelVanishingPairs.NadelVanishingLemmas.RegularLocalDifferentialsLinearIndependent",
+      "missing_imports": [
+        "M047966"
+      ]
+    },
+    {
+      "id": "M139956",
+      "module": "Development.WeilBound.CoreStatements.PublishedTheorems.NadelVanishingPairs.NadelVanishingLemmas.RegularQuotientPrimeElement",
+      "missing_imports": [
+        "M047986",
+        "M081856"
+      ]
+    },
+    {
+      "id": "M139994",
+      "module": "Development.WeilBound.CoreStatements.PublishedTheorems.NadelVanishingPairs.NadelVanishingLemmas.TotalDifferentialCupProduct",
+      "missing_imports": [
+        "M017096"
+      ]
+    },
+    {
+      "id": "M140206",
+      "module": "Development.WeilBound.CoreStatements.SesquilinearFractions.ExistsIntegerNearConjVector",
+      "missing_imports": [
+        "M119669"
+      ]
+    },
+    {
+      "id": "M140236",
+      "module": "Development.WeilBound.CoreStatements.SesquilinearFractions.NBasic",
+      "missing_imports": [
+        "M119669"
+      ]
+    },
+    {
+      "id": "M140237",
+      "module": "Development.WeilBound.CoreStatements.SesquilinearFractions.NIdeal",
+      "missing_imports": [
+        "M119669"
+      ]
+    },
+    {
+      "id": "M140245",
+      "module": "Development.WeilBound.CoreStatements.SesquilinearFractions.RatProductFormula",
+      "missing_imports": [
+        "M119669"
+      ]
+    },
+    {
+      "id": "M140251",
+      "module": "Development.WeilBound.CoreStatements.SesquilinearFractions.UltrametricNormProdSubLt",
+      "missing_imports": [
+        "M119669"
+      ]
+    },
+    {
+      "id": "M140395",
+      "module": "Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.DualBasisReverseTriangular",
+      "missing_imports": [
+        "M164974"
+      ]
+    },
+    {
+      "id": "M140432",
+      "module": "Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.HodgeDualFrameExists",
+      "missing_imports": [
+        "M164974"
+      ]
+    },
+    {
+      "id": "M140433",
+      "module": "Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.HodgeDualLatticeOverlap",
+      "missing_imports": [
+        "M164974"
+      ]
+    },
+    {
+      "id": "M140531",
+      "module": "Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.XDotdualBc",
+      "missing_imports": [
+        "M119928"
+      ]
+    },
+    {
+      "id": "M140541",
+      "module": "Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.XHaLattice",
+      "missing_imports": [
+        "M140560"
+      ]
+    },
+    {
+      "id": "M140658",
+      "module": "Development.WeilBound.CuspidalAdmissibility.OccLocSpan",
+      "missing_imports": [
+        "M162936"
+      ]
+    },
+    {
+      "id": "M140822",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.AeZero",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140823",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Aeeq",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140824",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Convcont",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140825",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Desint",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140826",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Eigae",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140827",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Gelf",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140828",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Hssep",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140829",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Imports",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140830",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Jointrep",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140831",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Locint",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140832",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.MulLeWeightedSquares",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140833",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Nonzero",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140834",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Rowseig",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140835",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Rowsex",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140836",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Smooth",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140837",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Speciso",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140838",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Specmeas",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140839",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Tonelli",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140840",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Unfold",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140841",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.EigenvalueSeparation.AlmostEverywhereEigen.PositiveMeasureNorms.Weakae",
+      "missing_imports": [
+        "M140820"
+      ]
+    },
+    {
+      "id": "M140988",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.IwahoriFactorisation.StrictDominance.JointGeneralisedEigenvectors.IsJointGenEig",
+      "missing_imports": [
+        "M142864"
+      ]
+    },
+    {
+      "id": "M141347",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.SatakeExponents.UniformizerValuations.PeakTraceBoundHolds",
+      "missing_imports": [
+        "M127028"
+      ]
+    },
+    {
+      "id": "M141409",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.SatakeExponents.UniformizerValuations.SubOfNonNil",
+      "missing_imports": [
+        "M005127"
+      ]
+    },
+    {
+      "id": "M141427",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.ThetaCellCovers.KernelRowsColumnsSquareIntegrable",
+      "missing_imports": [
+        "M121130",
+        "M121816",
+        "M122185",
+        "M122599",
+        "M124836",
+        "M128417",
+        "M128744",
+        "M128745",
+        "M128748",
+        "M128749"
+      ]
+    },
+    {
+      "id": "M141526",
+      "module": "Development.WeilBound.RepresentationTheoryGL.CasimirAlgebra.TensorRelationsGL.KTypeData",
+      "missing_imports": [
+        "M158054"
+      ]
+    },
+    {
+      "id": "M142004",
+      "module": "Development.WeilBound.RepresentationTheoryGL.RegularisedSiegelWeil.SingularNullSets.LPosExtE",
+      "missing_imports": [
+        "M142003"
+      ]
+    }
+  ],
+  "pruned": []
+}
