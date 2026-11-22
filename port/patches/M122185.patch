@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/CvAdjEqAvg.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/CvAdjEqAvg.lean
+@@ -5,6 +5,8 @@
+ 
+ open MeasureTheory
+ open PositivityTheory.Rg.BcB.E1
++
++open scoped Pointwise
+ 
+ namespace GlobalTheory.CompanionTheory.ApproxUnit
+ 

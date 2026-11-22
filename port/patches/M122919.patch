@@ -1,0 +1,29 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/ExistsPderivNotDvd.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/ExistsPderivNotDvd.lean
+@@ -11,7 +11,7 @@
+   have hT : π.totalDegree ≠ 0 := by
+     intro h
+     have hC := totalDegree_eq_zero_iff_eq_C.1 h
+-    by_cases ha : coeff 0 π = 0
++    by_cases ha : π.coeff 0 = 0
+     · rw [ha, map_zero] at hC
+       exact hπ.ne_zero hC
+     · apply hπ.not_unit
+@@ -32,7 +32,7 @@
+   have hne : pderiv j π ≠ 0 := by
+     intro h0
+     have h2 := coeff_pderiv (i := j) π (m - Finsupp.single j 1)
+-    rw [h0, hm', coeff_zero] at h2
++    rw [h0, hm', AddMonoidAlgebra.coeff_zero] at h2
+     have h3 : (((m - Finsupp.single j 1 : σ →₀ ℕ) j : ℕ) + 1 : K) ≠ 0 := by
+       exact Nat.cast_add_one_ne_zero _
+     exact mul_ne_zero (mem_support_iff.1 hm) h3 h2.symm
+@@ -155,7 +155,7 @@
+     simpa using hπR0
+   have hprin : (IsLocalRing.maximalIdeal R).IsPrincipal := ⟨⟨_, hmax⟩⟩
+   haveI : IsDiscreteValuationRing R := by
+-    have h5 := (IsDiscreteValuationRing.TFAE R hnf).out 0 4
++    have h5 := (IsDiscreteValuationRing.TFAE R hnf).out 1 5
+     exact h5.2 hprin
+   have hirr : Irreducible (algebraMap P R π) :=
+     (IsDiscreteValuationRing.irreducible_iff_uniformizer _).2 hmax

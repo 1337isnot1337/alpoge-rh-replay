@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsPderivNotDvd",
+  "source_sha256": "f1cd49e9ce7fd50d1a41eb6fa554e1451e3ef29837b907a97fb75ec3a55ac23b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the polynomial coefficient projection and qualify its zero lemma; update TFAE indices from zero-based to one-based, preserving the same DVR/principal-maximal-ideal equivalence. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0205-lean436-20261121/packet-result.json"
+}
