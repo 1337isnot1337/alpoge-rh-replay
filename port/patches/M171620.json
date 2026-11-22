@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ClassFieldTheory.LocalClassField.KbarRepContAction",
+  "source_sha256": "81053d90a75c43036d65522a3ec22440cb818f03ce13e866dc39a5e3581f54a7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0289-lean436-20261122/P0289-receipt.json"
+}

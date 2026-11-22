@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.DualLattices.MemMapAugmentationIdealComapPullbackQuotient",
+  "source_sha256": "8d16dcf9c828fbc9f0cae5f7bd877a649b10035617ca69f522eefb3df2033d73",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0289-lean436-20261122/P0289-receipt.json"
+}

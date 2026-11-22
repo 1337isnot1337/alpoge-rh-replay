@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.RegularLocalRings.PreMemIrreducibleComponents",
+  "source_sha256": "3eaf5bdddc532caf339c3dfa66cf510ca11b85bb573999c1b1136c12d6d2de58",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0289-lean436-20261122/P0289-receipt.json"
+}

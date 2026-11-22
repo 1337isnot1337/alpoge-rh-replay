@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.CommutativeAlgebra.CohenMacaulay.Unmixed",
+  "source_sha256": "2005ef439e7bb5756965d3ef724aadbcd510d480d10f1765139f528206cb298d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0289-lean436-20261122/P0289-receipt.json"
+}

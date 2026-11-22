@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/Chebotarev/IdealLat.lean
++++ b/src/ReciprocityTheory/Chebotarev/IdealLat.lean
+@@ -102,7 +102,7 @@
+       simp only [f, norm_mul, Complex.norm_real, Real.norm_eq_abs, abs_of_nonneg (uphi_nonneg _)]
+     rw [e]; exact this
+   have hHn : Summable fun a : S => (torsionOrder E : ℝ) * ‖H (a.1.1 * b.1)‖ :=
+-    ((summable_norm_iff.2 hH).subtype S).mul_left _
++    ((summable_norm_iff.2 hH).subtype (· ∈ S)).mul_left _
+   have hfs : Summable f := by
+     apply Summable.of_norm
+     rw [summable_prod_of_nonneg (fun p => norm_nonneg _)]

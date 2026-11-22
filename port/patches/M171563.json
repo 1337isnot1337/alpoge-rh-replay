@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.Chebotarev.MeanZero",
+  "source_sha256": "b94779b8a739bf6ca846dc1c7117dd9e27e00a310d25b6bf5c16ccb50af39551",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0289-lean436-20261122/P0289-receipt.json"
+}
