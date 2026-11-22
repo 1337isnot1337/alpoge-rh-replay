@@ -1,0 +1,211 @@
+Packet P0184, partial submission
+Upstream base dce4be58c85158d3b3936f26d30d653e856fc045
+Port record commit a17597a8ea1dd3373b5018ab39b36fced0e121ff
+Lean leanprover/lean4:v4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+python3 scripts/port-ci-build.py --workspace <workspace> --src <archive-source> --patch-ids M047966
+
+Elaborated IsLattice audit
+lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularLocalDifferentialsBasis
+islattice-audit: 1 module(s), 0 hit(s)
+
+Earlier source builds for reused outputs
+⚠ [18256/18258] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularLocalDifferentialsBasis (119s)
+
+Build verification on the upstream base
+Building 1 explicitly requested module(s).
+Resolved 3 transitive project import(s) (4 total module(s) to materialize).
+[FETCH] Materializing 4 SHA-256-verified source file(s)...
+[FETCH] Verified 4/4 source file(s).
+[KEEP]  M027530: unchanged (verified against archive source)
+[KEEP]  M027613: unchanged (verified against archive source)
+[KEEP]  M043362: unchanged (verified against archive source)
+[KEEP]  M047966: unchanged (verified against archive source)
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in <workspace>
+
+[BUILD] Building 1 module(s) with `lake build`...
+        IDs: M047966
+⚠ [18250/18256] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemSqLocalizationOfPderivMem
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemSqLocalizationOfPderivMem.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemSqLocalizationOfPderivMem.lean:25:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemSqLocalizationOfPderivMem.lean:34:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemSqLocalizationOfPderivMem.lean:35:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemSqLocalizationOfPderivMem.lean:37:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemSqLocalizationOfPderivMem.lean:38:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemSqLocalizationOfPderivMem.lean:39:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemSqLocalizationOfPderivMem.lean:41:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemSqLocalizationOfPderivMem.lean:42:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemSqLocalizationOfPderivMem.lean:43:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemSqLocalizationOfPderivMem.lean:44:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemSqLocalizationOfPderivMem.lean:45:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemSqLocalizationOfPderivMem.lean:46:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemSqLocalizationOfPderivMem.lean:47:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemSqLocalizationOfPderivMem.lean:48:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18251/18256] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemSqLocalizationOfPderivMem:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MemSqLocalizationOfPderivMem.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18256] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulMemOfForall
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulMemOfForall.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulMemOfForall.lean:128:22: `Submodule.le_of_le_smul_of_le_jacobson_bot` has been deprecated: Use `Submodule.le_of_le_smul_of_le_jacobson` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_3} {M : Type u_4} [inst : CommRing R] [inst_1 : AddCommGroup M] [inst_2 : Module R M] {I : Ideal R}
+    {N N' : Submodule R M}, N'.FG → I ≤ Ring.jacobson R → N' ≤ N ⊔ I • N' → N' ≤ N
+instead of
+  ∀ {R : Type u_3} {M : Type u_4} [inst : CommRing R] [inst_1 : AddCommGroup M] [inst_2 : Module R M] {I : Ideal R}
+    {N N' : Submodule R M}, N'.FG → I ≤ ⊥.jacobson → N' ≤ N ⊔ I • N' → N' ≤ N
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulMemOfForall.lean:36:29: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulMemOfForall.lean:37:5: Variable name `inst_2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18253/18256] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMulMemOfForall:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMulMemOfForall.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18256] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMinimalLocalGenerators
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMinimalLocalGenerators.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMinimalLocalGenerators.lean:42:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMinimalLocalGenerators.lean:43:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMinimalLocalGenerators.lean:44:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMinimalLocalGenerators.lean:45:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMinimalLocalGenerators.lean:46:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMinimalLocalGenerators.lean:42:4: Unused tactic linter: `exact _root_.GlobalTheory.MultipleMembershipForAll.main` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMinimalLocalGenerators.lean:43:4: Unused tactic linter: `(apply _root_.GlobalTheory.MultipleMembershipForAll.main <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMinimalLocalGenerators.lean:44:4: Unused tactic linter: `(intros;
+  apply _root_.GlobalTheory.MultipleMembershipForAll.main <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMinimalLocalGenerators.lean:45:4: Unused tactic linter: `(intros;
+  apply @_root_.GlobalTheory.MultipleMembershipForAll.main <;>
+    first
+    | assumption
+    | infer_instance)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMinimalLocalGenerators.lean:46:4: Unused tactic linter: `(intros; exact _root_.GlobalTheory.MultipleMembershipForAll.main ..)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18255/18256] Ran Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMinimalLocalGenerators:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMinimalLocalGenerators.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18256] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularLocalDifferentialsBasis
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/RegularLocalDifferentialsBasis.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18256 jobs).
+[PASS]  M047966 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularLocalDifferentialsBasis)
+
+PORT_BUILD_PASSED all 1 module(s).
