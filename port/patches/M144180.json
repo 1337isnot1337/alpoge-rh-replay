@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CoboundaryTransfers.StatementTransfer",
+  "source_sha256": "609c2f29eb3e9f66a67d86f09e9c59e59dbbb49eeb38b6139859bec887839bb6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0270-lean436-20261121/packet-result.json"
+}

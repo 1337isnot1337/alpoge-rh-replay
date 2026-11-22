@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CharacterColumnKernels.IdempotentNormalForms.LengthQuotSmulRangeFree",
+  "source_sha256": "cbf5cab7ae2eff0d2b73e5bed5d827f7639f2f4fb69d53e658406c0c5aabcd67",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed constructor for regular nonzero elements. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0270-lean436-20261121/packet-result.json"
+}

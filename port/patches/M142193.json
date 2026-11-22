@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.BinaryMassMeans.MeanVal",
+  "source_sha256": "6fe0ccd9db8b96dae92a71b544b1db7eee910e6230d519ef7efb479c332c1ba4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0270-lean436-20261121/packet-result.json"
+}

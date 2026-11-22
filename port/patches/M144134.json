@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CharacterColumnKernels.IdempotentNormalForms.LengthEpsImgEqAdd",
+  "source_sha256": "e0e1d1f8402595399b4fbd14a4ca2b6e26a7229acbb3bff0d5cace41e806a5ba",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0270-lean436-20261121/packet-result.json"
+}
