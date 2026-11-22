@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.GrowthBounds.RootWeights.MatrixSubstTransvectionX",
+  "source_sha256": "8776e28025bb5892b3e0cc6e443ad310e809528a5192151bf3c16b023d665ab8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0222-lean436-20261121/packet-result.json"
+}

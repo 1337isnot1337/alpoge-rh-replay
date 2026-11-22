@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.LevelLetterCocycles.QuotientImageDivisibility.ExistsInfFilVEqBot",
+  "source_sha256": "cb91e32558767999d82def8dc59af4a53fc465ad9b9b4c2be7a35f39d7c0fac7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0222-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.LevelLetterCocycles.CohomologyScalarsVanish.PfCohScalarsVanish",
+  "source_sha256": "a4197bf6740824368cc90f3368a6be118ca09ee5dc96bd676df09ac0bc917d13",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0222-lean436-20261121/packet-result.json"
+}

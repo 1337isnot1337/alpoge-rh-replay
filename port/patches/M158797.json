@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.Divisibility.GeneratorPowers.PhiCMinD",
+  "source_sha256": "91fcc653585638cf0559fc4feb22f4fad3f1d6c23bae001e4a82534bf59feb77",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0222-lean436-20261121/packet-result.json"
+}

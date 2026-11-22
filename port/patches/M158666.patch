@@ -1,0 +1,11 @@
+--- a/src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/CPfSym.lean
++++ b/src/Formalism/SharpRestriction/Divisibility/GeneratorPowers/CPfSym.lean
+@@ -23,7 +23,7 @@
+   rw [map_add, hf e he, hg e he, add_zero]
+ 
+ def op {d : ℕ} (a : Fin d → MvPowerSeries σ k) (cd : Fin d → σ) (g : MvPowerSeries σ k) : MvPowerSeries σ k :=
+-  ∑ j, a j * pderiv k (cd j) g
++  ∑ j, a j * pderiv (cd j) g
+ 
+ end Sym
+ 

@@ -1,0 +1,15 @@
+--- a/src/Formalism/SharpRestriction/CuspSpanNormBounds/UnimodularSchurMeasures/RrkaMeasKabRight.lean
++++ b/src/Formalism/SharpRestriction/CuspSpanNormBounds/UnimodularSchurMeasures/RrkaMeasKabRight.lean
+@@ -147,10 +147,10 @@
+     refine rrk_aesm_tsum (fun γ => (hφm.comp (measurable_const_mul _)).aestronglyMeasurable) ?_
+     filter_upwards [haeD] with y hy
+     exact rrka_summable_of hy.ne
+-  refine ⟨hS, ?_, hKm, ?_⟩
++  refine ⟨hS, ?_, ?_⟩
+   · rw [e1, e2, e3, ← integral_complex_ofReal]
+     exact integral_congr_ae (Filter.Eventually.of_forall e4)
+-  · rw [eLpNorm_lt_top_iff_lintegral_rpow_enorm_lt_top (by norm_num) (by norm_num)]
++  · rw [memLp_iff, eLpNorm_lt_top_iff_lintegral_rpow_eNorm_lt_top (by norm_num) (by norm_num) hKm]
+     refine lt_of_le_of_lt (lintegral_mono fun y => ?_) (lt_top_iff_ne_top.2 hx)
+     simp only [ENNReal.toReal_ofNat, ENNReal.rpow_two]
+     gcongr

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SuccessiveMinima.SuccessiveMinimaProofs.AdaptedBasis",
+  "source_sha256": "d9c51f10cd264da6c5844e85e15d0b6a35f7023717e1dea83199c7442821d12e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current closedness theorem with the same discrete subgroup. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0222-lean436-20261121/packet-result.json"
+}

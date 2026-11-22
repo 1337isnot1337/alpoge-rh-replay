@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.Divisibility.GeneratorPowers.CPfSym",
+  "source_sha256": "7199ad95c93567061d95fdf1de4ca5319ea80279c71c048239a0caa17b7c7870",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The coefficient ring of the same power-series partial derivative is now implicit; the definition and statement retain the same derivative.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0222-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.CuspSpanNormBounds.UnimodularSchurMeasures.RrkaMeasKabRight",
+  "source_sha256": "16080edfc4e9d9d22de2dc7e370e1b969c78a1d84f5135c0cdef390e9cc55c7b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Target MemLp includes strong measurability through its finite eLpNorm definition; supply the existing hKm measurability proof to the integral criterion. The original MemLp assertion and its proof obligations are preserved. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0222-lean436-20261121/packet-result.json"
+}
