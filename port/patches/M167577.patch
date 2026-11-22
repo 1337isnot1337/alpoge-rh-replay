@@ -1,0 +1,31 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/IntegralModels/FiniteIntegralClosureCharZero.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/IntegralModels/FiniteIntegralClosureCharZero.lean
+@@ -38,7 +38,8 @@
+     exact CharP.cast_eq_zero _ p
+   · exfalso
+     have : CharZero (A ⧸ 𝔪) := CharP.charP_to_charZero (A ⧸ 𝔪)
+-    have hmax := Ideal.isMaximal_comap_of_isIntegral_of_isMaximal (R := ℤ) (⊥ : Ideal (A ⧸ 𝔪))
++    have hmax := Ideal.isMaximal_comap_of_isIntegral_of_isMaximal (algebraMap ℤ (A ⧸ 𝔪))
++      Algebra.IsIntegral.isIntegral (⊥ : Ideal (A ⧸ 𝔪))
+     have hbot : (⊥ : Ideal (A ⧸ 𝔪)).comap (algebraMap ℤ (A ⧸ 𝔪)) = ⊥ := by
+       rw [← RingHom.ker_eq_comap_bot, RingHom.ker_eq_bot_iff_eq_zero]
+       intro n hn
+@@ -103,12 +104,13 @@
+     rw [injective_iff_map_eq_zero]
+     intro F hF
+     ext m
+-    rw [MvPolynomial.coeff_zero]
++    rw [AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply]
+     by_contra hc
+-    obtain ⟨G, hG⟩ := hpow (MvPolynomial.coeff m F).natAbs F hF
+-    have hdvd : (p : ℤ) ^ (MvPolynomial.coeff m F).natAbs ∣ MvPolynomial.coeff m F :=
+-      ⟨MvPolynomial.coeff m G, by conv_lhs => rw [hG]
+-                                  rw [MvPolynomial.coeff_C_mul]⟩
++    obtain ⟨G, hG⟩ := hpow (F.coeff m).natAbs F hF
++    have hdvd : (p : ℤ) ^ (F.coeff m).natAbs ∣ F.coeff m :=
++      ⟨G.coeff m, by
++        conv_lhs => rw [hG]
++        rw [MvPolynomial.coeff_C_mul]⟩
+     have h1 := Int.natAbs_dvd_natAbs.mpr hdvd
+     rw [Int.natAbs_pow, Int.natAbs_natCast] at h1
+     have h2 := Nat.le_of_dvd (Int.natAbs_pos.mpr hc) h1

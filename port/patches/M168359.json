@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.PDedekindFibreRank",
+  "source_sha256": "dc5f000484ffff4203ca0ea9ffa035998f3eadb0747025b2f57cad71b0c84bf4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

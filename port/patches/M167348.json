@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PFlagIntMuOneCoeff",
+  "source_sha256": "b34cbd8d28d0ebb2426fb7ebd3d6c738c1b197a5e8418be7d38d2e11c8e71189",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the target polynomial coefficient accessor and the injective mapDomain lemma in the same flag integral identities."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.Intersections.PAdjoinIndepRelfinrank",
+  "source_sha256": "6d9eb8ed31ea319b3d1be6911142d2d825ff14baf6fcc419bb7e511a7431ce05",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the target coefficient API and raise the instance-search budget for the unchanged finrank proof."
+}
