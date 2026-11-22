@@ -1,0 +1,245 @@
+Packet P0177, partial submission
+Upstream base a1c5ccdb52733eaeed7a5cabb5a85cee0bcb5e32
+Port record commit e883ec5b5771970ea959f32ed37a6e7b64f5a75e
+Lean leanprover/lean4:v4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+python3 scripts/port-ci-build.py --workspace <workspace> --src <archive-source> --patch-ids M011129 M011384 M013577
+
+Elaborated IsLattice audit
+lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SchwartzBruhatMatrixTranslationModulationIrreduc Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SpanSchwartzBruhatProductEqTop Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IntegralClosureFiniteLocalOfIsAdicComplete
+islattice-audit: 3 module(s), 0 hit(s)
+
+Earlier source builds for reused outputs
+⚠ [18266/18266] Built Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IntegralClosureFiniteLocalOfIsAdicComplete (7.9s)
+
+Build verification on the upstream base
+Building 3 explicitly requested module(s).
+Resolved 7 transitive project import(s) (10 total module(s) to materialize).
+[FETCH] Materializing 10 SHA-256-verified source file(s)...
+[FETCH] Verified 10/10 source file(s).
+[KEEP]  M004105: unchanged (verified against archive source)
+[KEEP]  M008732: unchanged (verified against archive source)
+[KEEP]  M010386: unchanged (verified against archive source)
+[KEEP]  M010387: unchanged (verified against archive source)
+[KEEP]  M010849: unchanged (verified against archive source)
+[PATCH] M011129: applied M011129.patch
+[PATCH] M011384: applied M011384.patch
+[KEEP]  M013577: unchanged (verified against archive source)
+[KEEP]  M115475: unchanged (verified against archive source)
+[PATCH] M173194: applied M173194.patch
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in <workspace>
+
+[BUILD] Building 3 module(s) with `lake build`...
+        IDs: M011129, M011384, M013577
+⚠ [18250/18266] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.MatrixMeasurableSpace
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/MatrixMeasurableSpace.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/MatrixMeasurableSpace.lean:13:14: Variable name `f` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _f
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18251/18266] Ran Development.AbelianVarietyTheory.Definitions.Foundations.MatrixMeasurableSpace:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/MatrixMeasurableSpace.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18266] Replayed Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNeZeroOfEventually
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/ExistsNeZeroOfEventually.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/ExistsNeZeroOfEventually.lean:10:44: Variable name `hc` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hc
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18253/18266] Ran Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsNeZeroOfEventually:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/ExistsNeZeroOfEventually.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18266] Replayed Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MatrixIntegersModNatFinite
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/MatrixIntegersModNatFinite.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18255/18266] Ran Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MatrixIntegersModNatFinite:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/MatrixIntegersModNatFinite.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18266] Replayed Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MatrixIntegralOfAddCharTraceDual
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/MatrixIntegralOfAddCharTraceDual.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/MatrixIntegralOfAddCharTraceDual.lean:77:0: automatically included section variable(s) unused in theorem `GlobalTheory.CharDualMat.valuation_nsmul_le`:
+  [TopologicalSpace k]
+  [IsNonarchimedeanLocalField k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace k] [IsNonarchimedeanLocalField k] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/MatrixIntegralOfAddCharTraceDual.lean:149:12: `AddChar.one_apply` has been deprecated: Use `one_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {β : outParam (Type u_3)} {inst : FunLike F α β} {inst_1 : One β}
+    {inst_2 : One F} [self : IsOneApply F] (x : α), 1 x = 1
+instead of
+  ∀ {A : Type u_1} {M : Type u_3} [inst : AddMonoid A] [inst_1 : Monoid M] (a : A), 1 a = 1
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply x`).
+⚠ [18257/18266] Ran Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.MatrixIntegralOfAddCharTraceDual:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/MatrixIntegralOfAddCharTraceDual.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18258/18266] Replayed Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ProdFnMemSB
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/ProdFnMemSB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18259/18266] Ran Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ProdFnMemSB:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/ProdFnMemSB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18260/18266] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsPrecompleteFiniteModule
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/IsPrecompleteFiniteModule.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/IsPrecompleteFiniteModule.lean:17:22: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/IsPrecompleteFiniteModule.lean:18:5: Variable name `inst_2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/IsPrecompleteFiniteModule.lean:18:31: Variable name `inst_3` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst_3
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18261/18266] Ran Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.IsPrecompleteFiniteModule:irArts
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/IsPrecompleteFiniteModule.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18262/18266] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.FiniteAlgebraLocalCompletion
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/FiniteAlgebraLocalCompletion.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/FiniteAlgebraLocalCompletion.lean:12:81: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/FiniteAlgebraLocalCompletion.lean:12:166: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/FiniteAlgebraLocalCompletion.lean:12:259: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/FiniteAlgebraLocalCompletion.lean:12:345: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/FiniteAlgebraLocalCompletion.lean:12:439: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/FiniteAlgebraLocalCompletion.lean:12:81: Unused tactic linter: `(apply UpperTheory.Reformulated.B.Qk17.isPrecomplete_finite_module <;>
+    assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/FiniteAlgebraLocalCompletion.lean:12:166: Unused tactic linter: `(intros;
+  apply UpperTheory.Reformulated.B.Qk17.isPrecomplete_finite_module <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/FiniteAlgebraLocalCompletion.lean:12:259: Unused tactic linter: `(apply @UpperTheory.Reformulated.B.Qk17.isPrecomplete_finite_module <;>
+    assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/FiniteAlgebraLocalCompletion.lean:12:345: Unused tactic linter: `(intros;
+  apply @UpperTheory.Reformulated.B.Qk17.isPrecomplete_finite_module <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/FiniteAlgebraLocalCompletion.lean:12:439: Unused tactic linter: `(apply @UpperTheory.Reformulated.B.Qk17.isPrecomplete_finite_module <;>
+    first
+    | assumption
+    | infer_instance)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/FiniteAlgebraLocalCompletion.lean:53:20: `IsArtinianRing.isNilpotent_jacobson_bot` has been deprecated: Use `IsArtinianRing.isNilpotent_jacobson` instead
+
+Note: The updated constant has a different type:
+  ∀ (R : Type u_1) [inst : Ring R] [IsArtinianRing R], IsNilpotent (Ring.jacobson R)
+instead of
+  ∀ {R : Type u_1} [inst : Ring R] [IsArtinianRing R], IsNilpotent ⊥.jacobson
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/FiniteAlgebraLocalCompletion.lean:186:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.T0.FiniteAlgebraLocalCompletion.cl_inj`:
+  [IsDomain R]
+  [IsDiscreteValuationRing R]
+  [Module.Finite R ↥(integralClosure R L)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain R] [IsDiscreteValuationRing R] [Module.Finite R ↥(integralClosure R L)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/FiniteAlgebraLocalCompletion.lean:191:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.T0.FiniteAlgebraLocalCompletion.cl_isLocalRing`:
+  [FaithfulSMul R L]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FaithfulSMul R L] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/FiniteAlgebraLocalCompletion.lean:208:0: automatically included section variable(s) unused in theorem `ReciprocityTheory.ChartRestriction.G.T0.FiniteAlgebraLocalCompletion.cl_faithful`:
+  [IsDomain R]
+  [IsDiscreteValuationRing R]
+  [FiniteDimensional K L]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain R] [IsDiscreteValuationRing R] [FiniteDimensional K L] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18263/18266] Ran ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.FiniteAlgebraLocalCompletion:irArts
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/FiniteAlgebraLocalCompletion.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18264/18266] Replayed Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IntegralClosureFiniteLocalOfIsAdicComplete
+warning: src/Development/AbelianVarietyTheory/Proofs/DegenerationProofs/IntegralClosureFiniteLocalOfIsAdicComplete.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DegenerationProofs/IntegralClosureFiniteLocalOfIsAdicComplete.lean:6:8: Overlapping instance parameters in `integralClosure_finite_local_of_isAdicComplete`:
+
+⚠️ `[IsDomain R]` and `[IsLocalRing R]` each imply `[Nontrivial R]`.
+💡️ Of these, `[IsDomain R]` and `[IsLocalRing R]` may be removed.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+⚠ [18265/18266] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SpanSchwartzBruhatProductEqTop (9.1s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/SpanSchwartzBruhatProductEqTop.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/SpanSchwartzBruhatProductEqTop.lean:22:83: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/SpanSchwartzBruhatProductEqTop.lean:47:0: automatically included section variable(s) unused in theorem `GlobalTheory.LocFlat.CFac.Span.U_cons`:
+  [TopologicalSpace X]
+  [TopologicalSpace Y]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace X] [TopologicalSpace Y] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/SpanSchwartzBruhatProductEqTop.lean:50:0: automatically included section variable(s) unused in theorem `GlobalTheory.LocFlat.CFac.Span.inter_U`:
+  [TopologicalSpace X]
+  [TopologicalSpace Y]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace X] [TopologicalSpace Y] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/SpanSchwartzBruhatProductEqTop.lean:115:31: `loc_compact_Haus_tot_disc_of_zero_dim` has been deprecated: Use `instZeroDimensionalSpaceOfT2SpaceOfTotallyDisconnectedSpaceOfWeaklyLocallyCompactSpace` instead
+
+Note: The updated constant has a different type:
+  ∀ {X : Type u_1} [inst : TopologicalSpace X] [T2Space X] [TotallyDisconnectedSpace X] [WeaklyLocallyCompactSpace X],
+    ZeroDimensionalSpace X
+instead of
+  ∀ {X : Type u_1} [inst : TopologicalSpace X] [T2Space X] [TotallyDisconnectedSpace X] [WeaklyLocallyCompactSpace X],
+    TopologicalSpace.IsTopologicalBasis {s | IsClopen s}
+⚠ [18266/18266] Built Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SchwartzBruhatMatrixTranslationModulationIrreduc (9.2s)
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/SchwartzBruhatMatrixTranslationModulationIrreduc.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/SchwartzBruhatMatrixTranslationModulationIrreduc.lean:22:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/SchwartzBruhatMatrixTranslationModulationIrreduc.lean:22:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/SchwartzBruhatMatrixTranslationModulationIrreduc.lean:23:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/SchwartzBruhatMatrixTranslationModulationIrreduc.lean:23:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/SchwartzBruhatMatrixTranslationModulationIrreduc.lean:59:13: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/SchwartzBruhatMatrixTranslationModulationIrreduc.lean:274:15: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/DecoratedLatticeProofs/SchwartzBruhatMatrixTranslationModulationIrreduc.lean:277:30: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+Build completed successfully (18266 jobs).
+[PASS]  M011129 (Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SchwartzBruhatMatrixTranslationModulationIrreduc)
+[PASS]  M011384 (Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SpanSchwartzBruhatProductEqTop)
+[PASS]  M013577 (Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IntegralClosureFiniteLocalOfIsAdicComplete)
+
+PORT_BUILD_PASSED all 3 module(s).
