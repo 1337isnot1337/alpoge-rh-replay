@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ChowlaSelberg.IntSeriesNorm",
+  "source_sha256": "3e96f5304354e59deba2c234f9b73788703db20e8bcf49afcc7f8eb8b67d1c81",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0161-lean436-20261121/packet-result.json"
+}
