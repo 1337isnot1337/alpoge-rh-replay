@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.WeakHolomorphy.MollLeClosedBall",
+  "source_sha256": "c585a6d80121f9c690fee0187d6bb4be28ae189505e6983926413c405dd5a413",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

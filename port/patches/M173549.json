@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.Rationality.QuotShiftPf",
+  "source_sha256": "f16c05139bd03f4398e19ac5cb2de4d9f3e6301e69127e8339f8fe48b7e20165",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

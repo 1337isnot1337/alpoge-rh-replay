@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.SymmetricSections.RemovableFinset",
+  "source_sha256": "37477a5c7bebff23e6408ee656366a01143be92363472ea16748eee03d56fb44",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Builds continuity of the growth bound from norm, sum, power, product and quotient lemmas explicitly."
+}

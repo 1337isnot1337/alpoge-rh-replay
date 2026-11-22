@@ -1,0 +1,38 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArithmeticIntersection/APrime.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArithmeticIntersection/APrime.lean
+@@ -3,7 +3,7 @@
+ namespace ReciprocityTheory.ChartRestriction.G.AI
+ 
+ theorem symm_swap_nat {V : Type*} [AddCommGroup V] [Module ℝ V] {n : ℕ}
+-    (I : MultilinearMap ℝ (fun _ : Fin n => V) ℝ) (hI : IsSymmForm I) (f : ℕ → V) (a b : ℕ)
++    (I : MultilinearMap (RingHom.id ℝ) (fun _ : Fin n => V) ℝ) (hI : IsSymmForm I) (f : ℕ → V) (a b : ℕ)
+     (ha : a < n) (hb : b < n) :
+     I (fun j => f j) = I (fun j => f (if (j : ℕ) = a then b else if (j : ℕ) = b then a else j)) := by
+   have h := hI (Equiv.swap (⟨a, ha⟩ : Fin n) ⟨b, hb⟩) (fun j => f j)
+@@ -42,7 +42,7 @@
+       split_ifs <;> first | rfl | omega
+ 
+ theorem symm_consWord_left {V : Type*} [AddCommGroup V] [Module ℝ V] {D : ℕ}
+-    (I : MultilinearMap ℝ (fun _ : Fin (D + 2) => V) ℝ) (hI : IsSymmForm I) (k i : ℕ) (hi : i < k)
++    (I : MultilinearMap (RingHom.id ℝ) (fun _ : Fin (D + 2) => V) ℝ) (hI : IsSymmForm I) (k i : ℕ) (hi : i < k)
+     (hD : 2 * k ≤ D + 1) (x₁ x₂ a : V) :
+     I (fun j => consWord k i x₁ x₁ x₂ a j) = I (fun j => interp k (i + 1) x₁ x₂ a j) := by
+   refine (symm_swap_nat I hI (consWord k i x₁ x₁ x₂ a) 0 2 (by omega) (by omega)).trans ?_
+@@ -52,7 +52,7 @@
+   split_ifs <;> first | rfl | omega
+ 
+ theorem symm_consWord_right {V : Type*} [AddCommGroup V] [Module ℝ V] {D : ℕ}
+-    (I : MultilinearMap ℝ (fun _ : Fin (D + 2) => V) ℝ) (hI : IsSymmForm I) (k i : ℕ) (hi : i < k)
++    (I : MultilinearMap (RingHom.id ℝ) (fun _ : Fin (D + 2) => V) ℝ) (hI : IsSymmForm I) (k i : ℕ) (hi : i < k)
+     (hD : 2 * k ≤ D + 1) (x₁ x₂ a : V) :
+     I (fun j => consWord k i x₂ x₁ x₂ a j) = I (fun j => interp k i x₁ x₂ a j) := by
+   refine (symm_swap_nat I hI (consWord k i x₂ x₁ x₂ a) 1 (2 * i + 1) (by omega)
+@@ -109,7 +109,7 @@
+   have htop : S.I (mix (2 * k) S.ξ S.A) =
+       -S.IW (fun j => interp k k (S.p₁ S.ξ) (S.p₂ S.ξ) (S.p₁ S.A) j) := by
+     rw [← S.cons_comp_left, show -(S.p₂ S.ξ) = (-1 : ℝ) • S.p₂ S.ξ by simp,
+-      MultilinearMap.cons_smul, neg_one_smul, hfun]
++      MultilinearMap.cons_smul, RingHom.id_apply, neg_one_smul, hfun]
+   rw [hsum, hzero, htop, sub_zero]
+ 
+ end ReciprocityTheory.ChartRestriction.G.AI

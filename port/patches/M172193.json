@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.SymmetricSections.NormVanishOfParts",
+  "source_sha256": "8e7120101e85fa12ac1c4cd9599ecac39b8216675eadda9d2906d855e40e1c2c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

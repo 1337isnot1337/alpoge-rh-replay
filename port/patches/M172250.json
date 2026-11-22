@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReducedBases.PrefixProdGeOne",
+  "source_sha256": "c96a47b28d4f31c2974deb575bd01a5e3f67e19cbb0c7e2ec8427e3e8493c1d9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the Mathlib product comparison lemma for nonnegative real factors."
+}

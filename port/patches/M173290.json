@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.OpIsDVR",
+  "source_sha256": "b116e01e8a32309003c1866dcfdecdd12ee12d63b5b2d719cf0a9c919dfc6b14",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the current one-based TFAE indices for discrete valuation rings and principal maximal ideals."
+}

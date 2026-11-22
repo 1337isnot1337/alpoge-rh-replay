@@ -1,0 +1,14 @@
+--- a/src/ReciprocityTheory/L2DbarEstimates/SymmetricSections/RemovableFinset.lean
++++ b/src/ReciprocityTheory/L2DbarEstimates/SymmetricSections/RemovableFinset.lean
+@@ -93,8 +93,9 @@
+       rw [div_le_iff₀ hxn]
+       exact hx
+     · have hcont : ContinuousAt (fun x : ℂ => |A| * (1 + ‖x‖) ^ K / ‖x‖ ^ N) c := by
+-        apply ContinuousAt.div (by fun_prop) (by fun_prop)
+-        exact pow_ne_zero N (norm_ne_zero_iff.mpr hc0')
++        have hn : ContinuousAt (fun x : ℂ => ‖x‖) c := continuous_norm.continuousAt
++        exact (continuousAt_const.mul ((continuousAt_const.add hn).pow K)).div
++          (hn.pow N) (pow_ne_zero N (norm_ne_zero_iff.mpr hc0'))
+       refine ⟨|A| * (1 + ‖c‖) ^ K / ‖c‖ ^ N + 1, ?_⟩
+       have h1 : ∀ᶠ x in 𝓝 c, |A| * (1 + ‖x‖) ^ K / ‖x‖ ^ N < |A| * (1 + ‖c‖) ^ K / ‖c‖ ^ N + 1 :=
+         hcont.eventually (gt_mem_nhds (lt_add_one _))

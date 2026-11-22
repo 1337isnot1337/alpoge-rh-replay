@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/Rationality/RationalityHolds.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/Rationality/RationalityHolds.lean
+@@ -189,7 +189,7 @@
+         rw [hx1]
+         congr 1
+         refine Finset.sum_congr rfl fun j _ => ?_
+-        rw [← hx1, ← hph_cc j x, algebraMap_smul]
++        rw [← hx1, ← hph_cc j x, algebraMap_smul Ω (ph j x) (dd j)]
+       show Qm ((1 : Ω) ⊗ₜ[K] u) ∈ S
+       rw [← hval]
+       exact Submodule.subset_span ⟨_, hmdesc, rfl⟩

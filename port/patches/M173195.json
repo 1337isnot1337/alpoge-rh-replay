@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.FiniteDimensionalOfLiftY",
+  "source_sha256": "a00173b4e54b278371d8197b3cc2a1f5a7eaa55d0a0aa4094caaddc9ea071f0c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the equivalent multivariate polynomial coefficient projection and evaluate the zero finitely supported function."
+}

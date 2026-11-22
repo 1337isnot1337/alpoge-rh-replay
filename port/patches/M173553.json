@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.Rationality.UnitPointLiftBall",
+  "source_sha256": "80e3c550f9638ea85db30b88359ff96cafd0f62e3112889d3380431457f556d6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the equivalent coefficient projection at the same multi-index in statements and proofs, and evaluates the zero finitely supported function explicitly."
+}
