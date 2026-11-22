@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.SjIffJensenInequality",
+  "source_sha256": "187428e339c80d180d3739a817dca8beb23aa897de5038022dbe606cfb3caab9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0120-lean436-20261121-r2/packet-result.json"
+}
