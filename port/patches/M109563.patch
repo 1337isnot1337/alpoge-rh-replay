@@ -1,0 +1,20 @@
+--- a/src/Development/AutomorphicArithmetic/CommutativeAlgebra/ExistsRootSubsetProductEquationOfHenselianReduct.lean
++++ b/src/Development/AutomorphicArithmetic/CommutativeAlgebra/ExistsRootSubsetProductEquationOfHenselianReduct.lean
+@@ -38,7 +38,7 @@
+ private lemma eval_derivative_prod_X_sub_C {R ι : Type*} [CommRing R] [DecidableEq ι] (s : Finset ι) (y : ι → R) (a : R) :
+     (derivative (∏ J ∈ s, ((X : R[X]) - C (y J)))).eval a = ∑ J ∈ s, ∏ J' ∈ s.erase J, (a - y J') := by
+   rw [derivative_prod_finset]
+-  simp [eval_finset_sum, eval_prod]
++  simp [eval_finsetSum, eval_prod]
+ 
+ private lemma exists_chi {A : Type} [CommRing A] [Nontrivial A] (g : A[X]) (N m : ℕ) (hm : m ≤ N) :
+     ∃ χ : A[X], χ.Monic ∧ ∀ (S : Type) [CommRing S] [Algebra A S] (x : Fin N → S),
+@@ -170,7 +170,7 @@
+       rw [hk]
+       exact I.mul_mem_right k hα1
+     have hunit : IsUnit ((derivative χ).eval α) := by
+-      haveI := isLocalHom_of_le_jacobson_bot I (HenselianRing.jac (I := I))
++      haveI := isLocalHom_of_le_jacobson_bot I (by simpa only [Ideal.jacobson_bot] using (HenselianRing.jac (I := I)))
+       exact isUnit_of_map_unit (Ideal.Quotient.mk I) _ (by rw [hcong, hE1]; exact isUnit_one)
+     refine ⟨α, hunit.unit, hα1, ?_⟩
+     intro S _ _ x hx

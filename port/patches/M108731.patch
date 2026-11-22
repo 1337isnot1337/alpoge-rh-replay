@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/UnitaryThreeGroups/NormCob.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/UnitaryThreeGroups/NormCob.lean
+@@ -94,7 +94,7 @@
+     · rw [hA]
+       ext i j
+       fin_cases i <;> fin_cases j <;>
+-        simp [thetaLie, Jmat, wt1, Matrix.mul_apply, Fin.sum_univ_three, Fin.rev, Matrix.diagonal] <;> ring
++        simp [thetaLie, Jmat, wt1, Matrix.mul_apply, Fin.sum_univ_three, Fin.rev, Matrix.diagonal, Pi.smul_apply, Function.swap] <;> ring
+     · rw [hW]
+       simp [Jmat, wt1, Matrix.mul_apply, Fin.sum_univ_three, Fin.rev, Matrix.diagonal]
+       linear_combination a * z12
