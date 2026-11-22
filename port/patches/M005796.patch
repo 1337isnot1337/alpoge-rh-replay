@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowPrimeRangeEqIteratedDifference.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/PowPrimeRangeEqIteratedDifference.lean
+@@ -45,7 +45,7 @@
+     have hpz : (p : ℤ) ≠ 0 := by exact_mod_cast hp.ne_zero
+     exact (mul_right_eq_self₀.1 h.symm).resolve_right hpz
+   obtain ⟨H, hH⟩ : X ∣ G - 1 := by
+-    rw [X_dvd_iff, coeff_sub, coeff_one_zero, h0, sub_self]
++    rw [X_dvd_iff, coeff_sub, AddMonoidAlgebra.coeff_one_zero, h0, sub_self]
+   refine ⟨H, ?_⟩
+   rw [← hH, ← C_eq_natCast]
+   linear_combination hG
