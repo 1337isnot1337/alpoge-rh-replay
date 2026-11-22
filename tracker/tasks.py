@@ -103,13 +103,19 @@ def packet_suggestions(rows, busy, include_partial=False):
     partial.sort(key=lambda e: (e[0]['depth'], -e[1], e[0]['packet']))
     return full, partial
 
-def open_issues():
-    route = f'repos/{repo}/issues?state=open&per_page=100'
+def authenticated_gh():
     cli = which('gh')
     # `auth status` fails if any saved account is invalid, even when the
     # active credential used by `gh api` is valid.
     if cli and subprocess.run([cli, 'auth', 'token', '--hostname', 'github.com'],
                               stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).returncode == 0:
+        return cli
+
+
+def open_issues():
+    route = f'repos/{repo}/issues?state=open&per_page=100'
+    cli = authenticated_gh()
+    if cli:
         output = subprocess.check_output(
             [cli, 'api', '--hostname', 'github.com', '--paginate', route],
             text=True,
