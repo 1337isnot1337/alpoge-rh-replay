@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PJoinAbs",
+  "source_sha256": "da9ceae22463ef63b527392c4bfe5c9d7eaa7eb42611611b7f27dfd9ee7ba71f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0202-lean436-20261121-r2/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.DedekindLFunctions.LandauTheorems.kernelIntegral",
+  "source_sha256": "b487d899307a350276d6c5fa1be392104f912a6ccd3e32f426828d7421030502",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0202-lean436-20261121-r2/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.Foundations.Convolution.PolynomialCoefficientBounds.PieceHom",
+  "source_sha256": "cf2dcc0622251935752a85222357ae0b977213a9a8b2801aefc5e65afb2867b5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0202-lean436-20261121-r2/packet-result.json"
+}

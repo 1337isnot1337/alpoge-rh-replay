@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PLiftP",
+  "source_sha256": "32e23f4686797a28975552c3a095aabd235c8f94827cb145769ff27b1bd28e5f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0202-lean436-20261121-r2/packet-result.json"
+}

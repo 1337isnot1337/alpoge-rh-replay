@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.Foundations.Convolution.HermitianDescent.ConjSep",
+  "source_sha256": "9884fff5f21a2fab563cd20ed3bfbaa1dbb349a5ff1a7ee1506107cbe61813df",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Reduce the Finsupp-valued monomial coefficient explicitly before summing over Fin. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0202-lean436-20261121-r2/packet-result.json"
+}

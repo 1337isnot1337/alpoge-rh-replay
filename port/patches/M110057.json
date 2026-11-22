@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.DedekindLFunctions.LandauTheorems.MellinRamp",
+  "source_sha256": "b3a4ff30ab74518685987e24c0617626b0ef698f1bae8ffa73dab3bc6944e948",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0202-lean436-20261121-r2/packet-result.json"
+}

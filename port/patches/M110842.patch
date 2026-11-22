@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/Foundations/Convolution/HermitianDescent/ConjSep.lean
++++ b/src/Development/AutomorphicArithmetic/Foundations/Convolution/HermitianDescent/ConjSep.lean
+@@ -26,7 +26,7 @@
+   exact Finset.sum_congr rfl fun j _ => mul_comm _ _
+ 
+ private theorem coeff_pol (c : Fin n → R) (i : Fin n) : (pol c).coeff i = c i := by
+-  simp [pol, coeff_monomial, Fin.val_inj]
++  simp [pol, coeff_monomial, Finsupp.single_apply, Fin.val_inj]
+ 
+ private theorem degree_pol (c : Fin n → R) : (pol c).degree < n := by
+   simp only [pol, ← C_mul_X_pow_eq_monomial]

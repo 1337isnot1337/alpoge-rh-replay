@@ -1,0 +1,43 @@
+--- a/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/LFunctionConj.lean
++++ b/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/LFunctionConj.lean
+@@ -1,6 +1,8 @@
+ import Development.AutomorphicArithmetic.DedekindLFunctions.LandauZeroFreeCriterion
+ 
+ open Complex MeasureTheory Set Filter Topology
++
++set_option maxHeartbeats 200000
+ 
+ noncomputable section
+ 
+@@ -62,10 +64,12 @@
+     rw [reg, reg, map_sub, h1, h2]
+   have hF : Differentiable ℂ (fun z => (starRingEnd ℂ) (reg a ((starRingEnd ℂ) z))) :=
+     fun z => differentiableAt_conj_conj_iff.mpr (differentiable_reg a _)
++  have hneigh : {z : ℂ | (1 : ℝ) < z.re} ∈ 𝓝 (2 : ℂ) :=
++    (isOpen_lt continuous_const continuous_re).mem_nhds (by norm_num)
+   have heq : (fun z => (starRingEnd ℂ) (reg a ((starRingEnd ℂ) z))) = reg a :=
+     AnalyticOnNhd.eq_of_eventuallyEq (z₀ := 2) (hF.differentiableOn.analyticOnNhd isOpen_univ)
+       ((differentiable_reg a).differentiableOn.analyticOnNhd isOpen_univ)
+-      (eventuallyEq_of_mem ((isOpen_lt continuous_const continuous_re).mem_nhds (by norm_num)) hreg)
++      (eventuallyEq_of_mem hneigh hreg)
+   have h3 : (starRingEnd ℂ) (reg a ((starRingEnd ℂ) ((starRingEnd ℂ) s))) = reg a ((starRingEnd ℂ) s) :=
+     congrFun heq _
+   rw [Complex.conj_conj] at h3
+@@ -87,12 +91,13 @@
+ 
+ theorem LFunction_conj {N : ℕ} [NeZero N] (χ : DirichletCharacter ℂ N) (s : ℂ) :
+     DirichletCharacter.LFunction χ⁻¹ ((starRingEnd ℂ) s) = (starRingEnd ℂ) (DirichletCharacter.LFunction χ s) := by
+-  simp only [DirichletCharacter.LFunction, ZMod.LFunction, map_mul, map_sum]
+-  congr 1
++  simp only [DirichletCharacter.LFunction, ZMod.LFunction]
++  rw [map_mul (starRingEnd ℂ), map_sum (starRingEnd ℂ)]
++  apply congrArg₂ (fun x y : ℂ => x * y)
+   · have h := LFunctionConjugation.ofReal_cpow_conj (Nat.cast_nonneg N : (0 : ℝ) ≤ N) (-s)
+-    simpa using h
++    simpa only [map_neg, Complex.ofReal_natCast] using h
+   · refine Finset.sum_congr rfl fun j _ => ?_
+-    rw [LFunctionConjugation.hurwitz_conj, ← MulChar.star_apply']
++    rw [map_mul (starRingEnd ℂ), LFunctionConjugation.hurwitz_conj, ← MulChar.star_apply']
+     rfl
+ 
+ end Deduction

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.Foundations.Convolution.PolynomialCoefficientBounds.Taylor",
+  "source_sha256": "be489b579fd13c518e1babb268bedc28ece5361f08918753fae923b08757df6e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Adapt the Taylor remainder theorem to its current argument list; interval membership already implies endpoint order. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0202-lean436-20261121-r2/packet-result.json"
+}

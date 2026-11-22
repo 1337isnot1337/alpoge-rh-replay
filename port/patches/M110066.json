@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.DedekindLFunctions.LandauTheorems.measurableGchi",
+  "source_sha256": "4838a8a6154d8fa0fb87a4008feeb663bca977cdc66fcdb16b6294e3177d5e4b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0202-lean436-20261121-r2/packet-result.json"
+}

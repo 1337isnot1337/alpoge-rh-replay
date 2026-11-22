@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.DedekindLFunctions.LandauTheorems.LandauGrowthContra",
+  "source_sha256": "2f3e6d7a5d2e7b1cf2b0b92c82f50b2ebb661ab8fb519092795fcade18f88df5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0202-lean436-20261121-r2/packet-result.json"
+}
