@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.IsOpenNsmulAdelicCompletionOfVectorSet",
+  "source_sha256": "60bfca724de7035c4bd1a39e8b796fe098c45c700ace4e4886a3033ce172a77c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Mathlib\u2019s renamed continuous_finsetSum lemma for continuity of the finite sum."
+}
