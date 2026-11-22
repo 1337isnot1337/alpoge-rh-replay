@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/HeightKernels/StatementsRest.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/HeightKernels/StatementsRest.lean
+@@ -21,7 +21,7 @@
+ 
+ def realFlagIntegral (f N : ℕ) (P : MvPolynomial (Fin f × Fin N) ℝ) : ℝ :=
+   ∑ α ∈ (RestTerms.blockVandermonde f N).support,
+-    coeff α P * ((coeff α (RestTerms.blockVandermonde f N) *
++    P.coeff α * (((RestTerms.blockVandermonde f N).coeff α *
+       α.prod (fun _ e => (e.factorial : ℚ)) : ℚ) : ℝ)
+ 
+ def restStair (f N : ℕ) : RestTerms.RootRing f N :=
