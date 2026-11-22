@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.DifferentiableOddTheta",
+  "source_sha256": "6dfeb55c0491306aa7210b1d3c0c9ff7b6fc0d4fbab054590e3a955647a820e4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
