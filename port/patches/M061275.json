@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.DeformMultipleZerosLinearFamily",
+  "source_sha256": "2d9ac1e25ae38e32fffbe9debbd888e45aed910058e81eaaa57f7b14eeeca06b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "PowerSeries.derivative now takes its coefficient ring implicitly, so pass it as (R := k). The lemma iter_eq states the same equation (iterates of derivativeFun equal iterates of the derivative over k), so its statement is equivalent to the pinned one. No other change.",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0187-lean436-20261122/P0187-receipt.json"
+}

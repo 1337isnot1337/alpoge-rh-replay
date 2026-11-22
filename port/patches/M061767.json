@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsIrreducibleEquivariantProjection",
+  "source_sha256": "9308064c755a90e439b3b4eac3d31cdba99be56ce8e01ed32818a95926e1b72f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only rename: continuous_mul_left is now continuous_const_mul. No statement or definition changed.",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0187-lean436-20261122/P0187-receipt.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.DivLeRpowThreeQuarters",
+  "source_sha256": "1337c7de5a56b82657bf9c452ff2fa8d9e4c709f744b7c27f2a0fefb1e3727f1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only adaptation: pow_padicValNat_dvd is now a deprecated alias of the general pow_multiplicity_dvd, so prove the padicValNat divisibility by rewriting with Nat.padicValNat_def and applying pow_multiplicity_dvd. No statement or definition changed.",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0187-lean436-20261122/P0187-receipt.json"
+}
