@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.WeilGroupCharacters.Inertia",
+  "source_sha256": "5379909b06f10c0bb923d54b8bf443b368fb1968e8c5b398c49b5061395333b7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

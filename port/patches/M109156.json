@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.RedTanFlow",
+  "source_sha256": "b216329395289f9f3762c51c7a59beb4a099d7a1be4a0fe1f8db0cd13c5f976d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the renamed downward induction eliminator for integers."
+}

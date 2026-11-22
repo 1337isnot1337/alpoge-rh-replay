@@ -1,0 +1,13 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/CokerTors.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/TorsionBoundsChains/CokerTors.lean
+@@ -12,9 +12,7 @@
+       TorsLe ((ι →₀ ℤ) ⧸ Submodule.span ℤ L) (b ^ A) := by
+   intro ι A b L hι hb hL
+   obtain ⟨hfin, hA⟩ := hι
+-  haveI : IsAddTorsionFree (ι →₀ ℤ) :=
+-    Function.Injective.isAddTorsionFree (Finsupp.coeFnAddHom : (ι →₀ ℤ) →+ (ι → ℤ))
+-      DFunLike.coe_injective
++  haveI : HasUniqueDiv (ι →₀ ℤ) := inferInstance
+   obtain ⟨b₀, -, hb₀L, hb₀i, hb₀⟩ := maxIndep (ι →₀ ℤ) ∅ L (Set.empty_subset _)
+     (linearIndepOn_empty _ _)
+   obtain ⟨b₁, h01, hb₁s, hb₁i, hb₁⟩ := maxIndep (ι →₀ ℤ) b₀

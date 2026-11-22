@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.PublishedTheorems.KAcyclicHomology",
+  "source_sha256": "5e0a3513a4012cddf6702e571543aee1bc56491bd3cf1a28eb4d33622f90a6ad",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

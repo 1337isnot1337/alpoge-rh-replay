@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.CokerTors",
+  "source_sha256": "de2f2d61b0b43bcbc1fec677a42bfbb7b5217672e2a7ac08845b079492549dc3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses HasUniqueDiv, the pinned unique-division notion on the additive commutative group of integer finitely supported functions, via the current Finsupp instance."
+}

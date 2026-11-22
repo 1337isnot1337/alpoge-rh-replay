@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.TorsionBoundsChains.ImportsAlt",
+  "source_sha256": "0500155ca89d5ca71142b634521bff204d7a033ff7c90e66c58f848e2a7bbd00",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
