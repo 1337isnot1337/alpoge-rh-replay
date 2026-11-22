@@ -146,9 +146,17 @@ class ClaimsGraphQL:
         self.writes.append(mutation)
 
     def apply(self):
-        for offset in range(0, len(self.writes), 8):
-            batch = self.writes[offset:offset+8]
-            self.query('mutation{' + '\n'.join(f'm{i}:{item}' for i, item in enumerate(batch)) + '}')
+        started = time.monotonic()
+        acknowledged = 0
+        try:
+            for offset in range(0, len(self.writes), 8):
+                batch = self.writes[offset:offset+8]
+                self.query('mutation{' + '\n'.join(f'm{i}:{item}' for i, item in enumerate(batch)) + '}')
+                acknowledged += len(batch)
+        finally:
+            elapsed = time.monotonic() - started
+            print(f'Claim writes acknowledged {acknowledged} of {len(self.writes)} queued changes '
+                  f'in {elapsed:.1f}s.', flush=True)
         print(f'Reconciled {len(self.issues)} claims with {len(self.writes)} changes.', flush=True)
 
 
