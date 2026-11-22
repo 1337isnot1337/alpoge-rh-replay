@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.PairingIndexBounds.ModelLatticeMoves.ModelIndexPairings.FourierTransformIdentityHolds",
+  "source_sha256": "9b1bdfa7f1c9238b5dddd9557127f4bf27ac15bb88d82639ee3aea666cdd3894",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0214-lean436-20261121-r2/packet-result.json"
+}

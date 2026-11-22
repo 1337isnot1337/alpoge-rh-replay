@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.ThetaOperatorCommutation.RealTh",
+  "source_sha256": "2337778a00973087290d6f2d1b721db2cd2a5e90129a4d3f765a3670b0798874",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0214-lean436-20261121-r2/packet-result.json"
+}

@@ -1,0 +1,18 @@
+--- a/src/Formalism/LocalToGlobal/ProjectiveLattices/GenSectC.lean
++++ b/src/Formalism/LocalToGlobal/ProjectiveLattices/GenSectC.lean
+@@ -86,6 +86,7 @@
+   have hχ : Function.Injective χ :=
+     (IsFractionRing.injective (CT Ω D j₀) (FractionRing (CT Ω D j₀))).comp hI
+   letI : Algebra (KT K D m) (FractionRing (CT Ω D j₀)) := χ.toAlgebra
++  letI : SMul (KT K D m) (FractionRing (CT Ω D j₀)) := χ.toAlgebra.toSMul
+   letI : Algebra (KTf K D m) (FractionRing (CT Ω D j₀)) := (IsFractionRing.lift hχ).toAlgebra
+   haveI : IsScalarTower (KT K D m) (KTf K D m) (FractionRing (CT Ω D j₀)) :=
+     IsScalarTower.of_algebraMap_eq fun q => (IsFractionRing.lift_algebraMap hχ q).symm
+@@ -192,6 +193,7 @@
+       intro a b h
+       have h' := congrArg (fun e : E' => (e : FractionRing (CT Ω D j₀))) h
+       exact Subtype.ext h')
++  haveI : Algebra.IsIntegral (KTf K D m) S := Algebra.IsIntegral.of_finite (KTf K D m) S
+   have hSf : IsField S :=
+     (Algebra.IsIntegral.isField_iff_isField (algebraMap (KTf K D m) S).injective).1 (Field.toIsField _)
+   let E := S.toIntermediateField' hSf

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.ProjectiveLattices.GenSectC",
+  "source_sha256": "57fc7db0a13f38abcf457a8e3e4e2a37d779d3267715ebcfffa5dc669b1f1f34",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pin the already constructed base scalar action before installing the fraction field action, avoiding recursive typeclass search. Provide the finite-dimensional integrality instance directly before constructing the range field. Supply both explicit rings to the finite-dimensional integrality constructor. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0214-lean436-20261121-r2/packet-result.json"
+}
