@@ -1,0 +1,29 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/DiscreteValuationNumbers/PBlockAdjoinPrime.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/DiscreteValuationNumbers/PBlockAdjoinPrime.lean
+@@ -47,7 +47,7 @@
+ 
+ open Classical in
+ theorem coeff_killB (B : Set K) (p : MRing ι R) (d : (Σ k, ι k) →₀ ℕ) :
+-    coeff d (killB B p) = if ∀ v ∈ d.support, v.1 ∉ B then coeff d p else 0 := by
++    ((killB B p)).coeff d = if ∀ v ∈ d.support, v.1 ∉ B then (p).coeff d else 0 := by
+   induction p using MvPolynomial.induction_on' with
+   | monomial e a =>
+     rw [killB_monomial]
+@@ -56,7 +56,7 @@
+       split_ifs <;> simp
+     · split_ifs <;> simp [coeff_monomial, hed]
+   | add p q hp hq =>
+-    rw [map_add, coeff_add, hp, hq]
++    rw [map_add, AddMonoidAlgebra.coeff_add, Finsupp.add_apply, hp, hq]
+     split_ifs <;> simp
+ 
+ theorem sub_killB_mem (B : Set K) (p : MRing ι R) : p - killB B p ∈ varIdeal (R := R) B := by
+@@ -108,7 +108,7 @@
+     rw [coeff_killB, coeff_sum]
+     simp_rw [coeff_weightedHomogeneousComponent]
+     rw [Finset.sum_ite_eq]
+-    by_cases hd : coeff d q = 0
++    by_cases hd : (q).coeff d = 0
+     · simp [hd]
+     · have hmem : d ∈ q.support := mem_support_iff.mpr hd
+       have hiff : Finsupp.weight (blockWeight ι) d ∈ M ↔ ∀ v ∈ d.support, v.1 ∉ B := by

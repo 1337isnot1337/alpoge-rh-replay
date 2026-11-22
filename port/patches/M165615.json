@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.FieldsOfNumbers.HilbEventuallyPolyQualified",
+  "source_sha256": "3b4bc3149597bde3b4e9330080222262d00b73c846e18cdbec021cc1b8b789a3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace the removed degree-first polynomial coefficient function by the same coefficient projection with polynomial first. The coefficient value is definitionally unchanged, including every occurrence in definitions and theorem statements.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0228-lean436-20261121/packet-result.json"
+}
