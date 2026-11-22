@@ -3,15 +3,15 @@
   "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/28082",
   "toolchain": "leanprover/lean4:v4.36.0",
   "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
-  "build_base_commit": "5a067f8d23e12b7c98be83b12add05a724e8177a",
-  "port_record_commit": "c666ce6c88f04b73a524027d5659f1fa9268b287",
+  "build_base_commit": "82f522b09a3e0ef920716dada3753e9b30f385bf",
+  "port_record_commit": "f18177d4178672b73337aa53083b3478f15bbd25",
   "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
   "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
-  "build_log_sha256": "6b5db103ce46618b7002ce67431371f7b9827feda5af55ba51d39a6afa40103d",
+  "build_log_sha256": "481aa12b651eb3fbd4f188a05914626160033075132e0b9f3924658c329d75a5",
   "audit": {
-    "command": "lake env lean --run <repository>/port/islattice_audit.lean Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MeasureEqCovolumeMulVolumeImage Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MinkCore Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MinkowskiIILowerOf Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NPUnit Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NPWDivision Formalism.SuccessiveMinima.SuccessiveMinimaProofs.SuccMin Formalism.TameInertiaTowers.CentralOrderTwo.ConjEqInvOfPowEqOne Formalism.TameInertiaTowers.CentralOrderTwo.DecompositionSubgroupIndex Formalism.TameInertiaTowers.CentralOrderTwo.Galois Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementA Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementC Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.AtypicalWeightBoundOf Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.Branch Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LogBinomialProperties Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LogWeylDimensionEstimate Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.N0LeNs Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.TTotal Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.HomRelationHolds Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.InvInt Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.InvInv Formalism.ThetaLogCoordinates.UniformThetaSubstitution.EdgeExponent Formalism.ThetaLogCoordinates.UniformThetaSubstitution.HeckeOneLift Formalism.ThetaLogCoordinates.UniformThetaSubstitution.OddLogRelation Formalism.ThetaSupremumBounds.GaussianShiftBounds.Assembly Formalism.ThetaSupremumBounds.GaussianShiftBounds.BlockIntegralOf Formalism.ThetaSupremumBounds.GaussianShiftBounds.ClassSchur Formalism.ThetaSupremumBounds.GaussianShiftBounds.DominanceMono Formalism.ThetaSupremumBounds.GaussianShiftBounds.FockJet Formalism.ThetaSupremumBounds.GaussianShiftBounds.HeightsoundOf Formalism.ThetaSupremumBounds.StatementE Formalism.TorsionNormIteration.InvIntegralOfClass Formalism.TowerValuationBounds.TowerValuationProofs.ValuationRatioIndex Formalism.TranslateCocycles.TranslateCocycleProofs.NetGLMapSurjective Formalism.TruncatedSeriesCounting.AprimeArith Formalism.TruncatedSeriesCounting.PowMemSpanOfMemSpanLinearDistinguished Formalism.TruncatedSeriesCounting.StatementX Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ColAssembly Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ColChain Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ExpBound Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.HCoefficientBound Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.KappaSecondExponentBound Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.RamifiedValuationInequality Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.SubGen Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.SubSmulOneInjective Formalism.TruncatedSeriesCounting.WindowSeparated Formalism.UnipotentAdelicQuotients.EllRegStep Formalism.UnipotentAdelicQuotients.EllipticRegularity.BaseLevel Formalism.UnipotentAdelicQuotients.EllipticRegularity.ConvolutionBound Formalism.UnipotentAdelicQuotients.EllipticRegularity.IteratedPartialFourierChar Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDecay Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDil Formalism.UnipotentAdelicQuotients.EllipticRegularity.Moments Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingFourier Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingLocal Formalism.UnipotentAdelicQuotients.EllipticRegularity.SmoothOfLocallySmooth",
+    "command": "lake env lean --run <repository>/port/islattice_audit.lean Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MeasureEqCovolumeMulVolumeImage Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MinkCore Formalism.SuccessiveMinima.SuccessiveMinimaProofs.MinkowskiIILowerOf Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NPUnit Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NPWDivision Formalism.SuccessiveMinima.SuccessiveMinimaProofs.SuccMin Formalism.TameInertiaTowers.CentralOrderTwo.ConjEqInvOfPowEqOne Formalism.TameInertiaTowers.CentralOrderTwo.DecompositionSubgroupIndex Formalism.TameInertiaTowers.CentralOrderTwo.Galois Formalism.TameInertiaTowers.CentralOrderTwo.NegOneNeOneUnitsZmodFour Formalism.TameInertiaTowers.CentralOrderTwo.NormalOrderTwoCentral Formalism.TameInertiaTowers.CentralOrderTwo.OrderOfThreeUnitsTwoPow Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementA Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementB Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementC Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementH Formalism.ThetaLogCoordinates.JacobiPathWeights.JacobiMinorProofs.ExistsSuppOfEvalNe Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementA Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementC Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.AtypicalWeightBoundOf Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.Branch Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LogBinomialProperties Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LogWeylDimensionEstimate Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.N0LeNs Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.TTotal Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.HomRelationHolds Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.InvInt Formalism.ThetaLogCoordinates.TraceIsometryWeights.SchurTraceProofs.InvInv Formalism.ThetaLogCoordinates.UniformThetaSubstitution.EdgeExponent Formalism.ThetaLogCoordinates.UniformThetaSubstitution.HeckeOneLift Formalism.ThetaLogCoordinates.UniformThetaSubstitution.OddLogRelation Formalism.ThetaSupremumBounds.GaussianShiftBounds.Assembly Formalism.ThetaSupremumBounds.GaussianShiftBounds.BlockIntegralOf Formalism.ThetaSupremumBounds.GaussianShiftBounds.ClassSchur Formalism.ThetaSupremumBounds.GaussianShiftBounds.DominanceMono Formalism.ThetaSupremumBounds.GaussianShiftBounds.FockJet Formalism.ThetaSupremumBounds.GaussianShiftBounds.HeightsoundOf Formalism.ThetaSupremumBounds.StatementE Formalism.TorsionNormIteration.InvIntegralOfClass Formalism.TowerValuationBounds.TowerValuationProofs.ValuationRatioIndex Formalism.TranslateCocycles.TranslateCocycleProofs.NetGLMapSurjective Formalism.TruncatedSeriesCounting.AprimeArith Formalism.TruncatedSeriesCounting.PowMemSpanOfMemSpanLinearDistinguished Formalism.TruncatedSeriesCounting.StatementX Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ColAssembly Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ColChain Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.ExpBound Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.HCoefficientBound Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.KappaSecondExponentBound Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.RamifiedValuationInequality Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.SubGen Formalism.TruncatedSeriesCounting.TruncatedSeriesProofs.SubSmulOneInjective Formalism.TruncatedSeriesCounting.WindowSeparated Formalism.UnipotentAdelicQuotients.EllRegStep Formalism.UnipotentAdelicQuotients.EllipticRegularity.BaseLevel Formalism.UnipotentAdelicQuotients.EllipticRegularity.ConvolutionBound Formalism.UnipotentAdelicQuotients.EllipticRegularity.IteratedPartialFourierChar Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDecay Formalism.UnipotentAdelicQuotients.EllipticRegularity.KernDil Formalism.UnipotentAdelicQuotients.EllipticRegularity.Moments Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingFourier Formalism.UnipotentAdelicQuotients.EllipticRegularity.PairingLocal Formalism.UnipotentAdelicQuotients.EllipticRegularity.SmoothOfLocallySmooth",
     "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
-    "result": "islattice-audit: 55 module(s), 0 hit(s)"
+    "result": "islattice-audit: 63 module(s), 0 hit(s)"
   },
   "modules": [
     {
@@ -101,6 +101,86 @@
       "patch_sha256": null,
       "built_source_sha256": "377f906abe8093cd62f6006b1d9398902223a237786b69e5deedaf1d32bf5fd6",
       "olean_sha256": "d40825e3a4927ac0ac7776da8aefe347c79b50a461b209f0da746ea81de76e50",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161395",
+      "module": "Formalism.TameInertiaTowers.CentralOrderTwo.NegOneNeOneUnitsZmodFour",
+      "source_sha256": "c1335659cf198321f80deb86799b505a7c4020ea58092b314c84da85d5449f2b",
+      "patch_sha256": null,
+      "built_source_sha256": "c1335659cf198321f80deb86799b505a7c4020ea58092b314c84da85d5449f2b",
+      "olean_sha256": "27f1aa3a3717a6fac688b0e15ada7156a35852a8393e55922bac858d217d83c1",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161396",
+      "module": "Formalism.TameInertiaTowers.CentralOrderTwo.NormalOrderTwoCentral",
+      "source_sha256": "5e4c4b03c2e7c28baf056897f0561d3213617255b598278cb0f02e96c3f06144",
+      "patch_sha256": "c1f93c24d6129dbf8738eddb31f8b7445d6a129fbc6220354910330f18a32a49",
+      "built_source_sha256": "eb324322169150046b8b1677e6b2cefa5c767e6a19d2ebefcee85ae24ad6a653",
+      "olean_sha256": "ad3c2ca619c2de572ece2676fa1d3e72a4c339e11898ed9ad01cc609d8040cca",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161398",
+      "module": "Formalism.TameInertiaTowers.CentralOrderTwo.OrderOfThreeUnitsTwoPow",
+      "source_sha256": "2085dfaf2cde652c18dea7bd0559f3188f9a8da648a6474b5fb5574178d29b69",
+      "patch_sha256": null,
+      "built_source_sha256": "2085dfaf2cde652c18dea7bd0559f3188f9a8da648a6474b5fb5574178d29b69",
+      "olean_sha256": "250cf36cbf0ed74ea6aa722603ec373fa25916ef612b78257f18e6c4e3f6a311",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161499",
+      "module": "Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementA",
+      "source_sha256": "d69e3bbed0f2013ccbf3dec8e4244b640d7edcc714d9fae9819cdb7f847571aa",
+      "patch_sha256": null,
+      "built_source_sha256": "d69e3bbed0f2013ccbf3dec8e4244b640d7edcc714d9fae9819cdb7f847571aa",
+      "olean_sha256": "9dcc5f14af74a53085a84e076cb36a422caf7422ed404d7f705c54858c1f2adb",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161500",
+      "module": "Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementB",
+      "source_sha256": "9dc6c8e9e3b5665a088024399e35f91c4ef81258e64d447404b91b73387f1f88",
+      "patch_sha256": null,
+      "built_source_sha256": "9dc6c8e9e3b5665a088024399e35f91c4ef81258e64d447404b91b73387f1f88",
+      "olean_sha256": "ae1d3904eb6ee921ee257b6694adb42bfda07adb360127d9ec315353cd9cbe61",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161501",
+      "module": "Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementC",
+      "source_sha256": "56146bae2f7a3a2441ad0799260803bcc69608b0707ccb5d66f9848944512aee",
+      "patch_sha256": null,
+      "built_source_sha256": "56146bae2f7a3a2441ad0799260803bcc69608b0707ccb5d66f9848944512aee",
+      "olean_sha256": "c51e63f57264f1cca10ef24041a1ff25dd46322d4a71803fab53bcd306983cf7",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161502",
+      "module": "Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementH",
+      "source_sha256": "5d1af46d32d10144fd1fb1d4805576f1315db355e758ee72b208dbc743f959c8",
+      "patch_sha256": null,
+      "built_source_sha256": "5d1af46d32d10144fd1fb1d4805576f1315db355e758ee72b208dbc743f959c8",
+      "olean_sha256": "f56f74b21451d8aa37418ce024097626b9c9f5299a78cd08da60ed4c02253b4f",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M161550",
+      "module": "Formalism.ThetaLogCoordinates.JacobiPathWeights.JacobiMinorProofs.ExistsSuppOfEvalNe",
+      "source_sha256": "ed757c53346285cb97a1a889dd6937b915b973f4e801f69d14be118e8b8c4103",
+      "patch_sha256": "723cc32ae41eea6be6fb55531a1b5f6c6e5bcd40e727834e1ed9ae6b8344862c",
+      "built_source_sha256": "26a75a96af548a09ad2af2300abb86fb0db8dfedd85950dda7b34ab5eb68e939",
+      "olean_sha256": "34f00c0c2f2160dcbfc90d59fb225cc263ca7fe94467fbd61748df960db95ad8",
       "exit_code": 0,
       "validated_output": "reused"
     },
@@ -719,6 +799,14 @@
       "port_record_sha256": "fcb30b0831bf8d9ca243ee77dd88efe11f9d32d17021e386a3dc1180c4d7f2e2"
     },
     {
+      "id": "M161399",
+      "module": "Formalism.TameInertiaTowers.CentralOrderTwo.TwoAdic",
+      "source_sha256": "142d56ed64156395ac3d20b4afafb317ee4d3c2b6ac5714d2cb77e8ba932e53a",
+      "patch_sha256": "7e1078dd4eb79691245a2413d43f2093f27a688006d245c30bbdb5d908a1315b",
+      "built_source_sha256": "a1c536f10bc736718ed863a1bebb9c151559258036b6e88813eb6e2a67260d22",
+      "port_record_sha256": "e57ccb2ac66e8349a8899bed13a84c97858ef31ef64f7f7781efb7ace8aff4c7"
+    },
+    {
       "id": "M161402",
       "module": "Formalism.TameInertiaTowers.StatementField",
       "source_sha256": "a06694e8193eb9ae7dfc7c0473a28912fc24ec8ea8c238b1b41068ae2cf2c853",
@@ -735,12 +823,36 @@
       "port_record_sha256": "cf16e8f611ba56148eb66fe15ae25592c04888d66476f0cc45c7aa5e2315888d"
     },
     {
+      "id": "M161432",
+      "module": "Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsMod",
+      "source_sha256": "f347f465ac76462358dd33900f7ae6c1256d687bad38642f2e27c2f60fb4548f",
+      "patch_sha256": "648d65be7062792615f58a5e5034ca0585bb9110c8581906eb63a46761a20662",
+      "built_source_sha256": "20d2b34d7806f2a9515e81d5a07552946b53fc58443bb0b04dd36f603fdbab4b",
+      "port_record_sha256": "725698fc032378ea7ac6012dffee87f16f9ad1f7230a2306ced4e0ea924e01ac"
+    },
+    {
+      "id": "M161433",
+      "module": "Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsObj",
+      "source_sha256": "d69a19ba51abebf56206ce33aa758cd337bd718cf5846c6efa20ecd676b59dd4",
+      "patch_sha256": null,
+      "built_source_sha256": "d69a19ba51abebf56206ce33aa758cd337bd718cf5846c6efa20ecd676b59dd4",
+      "port_record_sha256": "4ea1a757d059aa7869fe0bbf2f346d30fac2a23ddb59e4190f7c8eafff128716"
+    },
+    {
       "id": "M161542",
       "module": "Formalism.ThetaLogCoordinates.JacobiPathWeights.DefsCol",
       "source_sha256": "d0cb3bc9da3b63733a19a13054e81ae75f84189f2e7270ddb5868e1c4a09a64a",
       "patch_sha256": null,
       "built_source_sha256": "d0cb3bc9da3b63733a19a13054e81ae75f84189f2e7270ddb5868e1c4a09a64a",
       "port_record_sha256": "597c99149bdd9adabc2a895673d65305b836016645feb90762dd77879803949f"
+    },
+    {
+      "id": "M161543",
+      "module": "Formalism.ThetaLogCoordinates.JacobiPathWeights.DetLetters",
+      "source_sha256": "11d01c118594bfe7339554065932f056aa8e74ab5dccdf4bf5f441dd15ee71cc",
+      "patch_sha256": null,
+      "built_source_sha256": "11d01c118594bfe7339554065932f056aa8e74ab5dccdf4bf5f441dd15ee71cc",
+      "port_record_sha256": "839dd6f8bd52f83951013b1669391583f3786cb6601063010fcd69eb659a1f51"
     },
     {
       "id": "M161566",
@@ -757,6 +869,14 @@
       "patch_sha256": null,
       "built_source_sha256": "fad524c43a25e2156bb55112125730201b56dd0a23c84d6cfb50830455eece9e",
       "port_record_sha256": "72ef028e33e9f9f95b7f2039e049f94da41ebbaaf28ccc934f0c346a47070390"
+    },
+    {
+      "id": "M161571",
+      "module": "Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementE",
+      "source_sha256": "4086bf191f3f97b8cee9fab823f9b4f09873b4ea0ad5b230fa88e3230485fde3",
+      "patch_sha256": "9cf022ba2716ee9bdcf73b4f7b3150b0b1f15ad89e8c1a5309be295cdd7d7185",
+      "built_source_sha256": "a066000399bab35ca97788a5ec5164775232794cad6f6f6e50e56cbd37539404",
+      "port_record_sha256": "03a9dea62e261b6cbb29b49bdb99d2079ea7cf69b4b3f67707a5df7d37627cc2"
     },
     {
       "id": "M161594",
@@ -928,62 +1048,6 @@
     }
   ],
   "remaining": [
-    {
-      "id": "M161395",
-      "module": "Formalism.TameInertiaTowers.CentralOrderTwo.NegOneNeOneUnitsZmodFour",
-      "missing_imports": [
-        "M161399"
-      ]
-    },
-    {
-      "id": "M161396",
-      "module": "Formalism.TameInertiaTowers.CentralOrderTwo.NormalOrderTwoCentral",
-      "missing_imports": [
-        "M161399"
-      ]
-    },
-    {
-      "id": "M161398",
-      "module": "Formalism.TameInertiaTowers.CentralOrderTwo.OrderOfThreeUnitsTwoPow",
-      "missing_imports": [
-        "M161399"
-      ]
-    },
-    {
-      "id": "M161499",
-      "module": "Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementA",
-      "missing_imports": [
-        "M161432"
-      ]
-    },
-    {
-      "id": "M161500",
-      "module": "Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementB",
-      "missing_imports": [
-        "M161432"
-      ]
-    },
-    {
-      "id": "M161501",
-      "module": "Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementC",
-      "missing_imports": [
-        "M161432"
-      ]
-    },
-    {
-      "id": "M161502",
-      "module": "Formalism.ThetaLogCoordinates.DualWeylCoordinates.StatementH",
-      "missing_imports": [
-        "M161432"
-      ]
-    },
-    {
-      "id": "M161550",
-      "module": "Formalism.ThetaLogCoordinates.JacobiPathWeights.JacobiMinorProofs.ExistsSuppOfEvalNe",
-      "missing_imports": [
-        "M161571"
-      ]
-    },
     {
       "id": "M161666",
       "module": "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.FrobeniusLiftNorms.GaussElementarySymmetric",
