@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.Stdform",
+  "source_sha256": "cc7bda6f191bfd6caf3c2ea3f7f8eb38aae185ea81ddb3ad051280d2dd15e7d1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed continuity theorem for a finite sum. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0222-lean436-20261121-r2/packet-result.json"
+}

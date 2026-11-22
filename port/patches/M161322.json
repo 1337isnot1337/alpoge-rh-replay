@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SmithDeterminants.DivisibilityChains.SmithExists",
+  "source_sha256": "60ba6e4de38257f25a8302fa8439a5fa155cc0374a0bf2b05f512a5ab7cfa8f8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0222-lean436-20261121-r2/packet-result.json"
+}

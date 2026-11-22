@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.StatementCM",
+  "source_sha256": "34b777490bcd150acd710d51293b810083e53eeb71f0f7b06b48846a93524d32",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0222-lean436-20261121-r2/packet-result.json"
+}

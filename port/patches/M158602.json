@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.CuspSpanNormBounds.UnimodularSchurMeasures.RrkbLeOneAddSq",
+  "source_sha256": "da6c7f0caf65371c055eb22ac3cfd2b34d2f6b3419bdd7a6be8825587b1f9d28",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0222-lean436-20261121-r2/packet-result.json"
+}

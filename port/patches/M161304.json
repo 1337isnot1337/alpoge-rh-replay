@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SizeWindowBrackets.PowerBoundGivesRiemannHypothesis",
+  "source_sha256": "a3072880564cce8841c194684c353eba7e8577f2cd347698cd991b26209dd174",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0222-lean436-20261121-r2/packet-result.json"
+}

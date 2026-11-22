@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SobolevGaussianKernels.GaussianKernelBounds.NeighbourhoodHilbertSchmidtHolds",
+  "source_sha256": "0379bed3bb1d19348b875df8a175a19e5961a3716308150ff3b0752435c173c8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0222-lean436-20261121-r2/packet-result.json"
+}

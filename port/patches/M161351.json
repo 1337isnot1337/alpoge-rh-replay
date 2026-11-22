@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SubspaceCounting.SubspaceCountingProofs.AllButLESmith",
+  "source_sha256": "2c76f86bca77ecf63229f42c41a8db6972b09192217b71e5229292ea8715b25c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0222-lean436-20261121-r2/packet-result.json"
+}

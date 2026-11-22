@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SuccessiveMinima.SuccessiveMinimaProofs.GjLevel",
+  "source_sha256": "1c5fb0295306906b76d9b90d89a1c14729629bc1562e128b6eaa74c086bdd242",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0222-lean436-20261121-r2/packet-result.json"
+}

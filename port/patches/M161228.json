@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerZeroSectionVanishing",
+  "source_sha256": "15e14afbfe0e7567fb850b9699ea4ddb0f8ed1950e0f01782e93a7eaf4f193e9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0222-lean436-20261121-r2/packet-result.json"
+}
