@@ -1,25 +1,14 @@
 --- a/src/Development/AbelianVarietyTheory/Proofs/AbelianSchemeLawProofs/CubeTotalComplexAcyclicOfSlicesInductionOnCard.lean
 +++ b/src/Development/AbelianVarietyTheory/Proofs/AbelianSchemeLawProofs/CubeTotalComplexAcyclicOfSlicesInductionOnCard.lean
-@@ -370,14 +370,16 @@
-     · have : Cube.slice f' s (Cube.lowerFace (otherDirections i) A) =
-           Cube.slice f (s.map (otherDirections i).toEmbedding) A :=
-         Cube.comap_congr (fun _ _ h => Finset.map_subset_map.2 (Cube.monotone_union_map f' s h))
--          _ (hm s) A
-+          _ (fun t => by simpa only using hm s t) A
-       rw [this]
-       exact hA _ (hs s hsI)
-     · have : Cube.slice f' s (Cube.upperFace (otherDirections i) i A) =
-           Cube.slice f (insert i (s.map (otherDirections i).toEmbedding)) A :=
-         Cube.comap_congr (fun _ _ h => Finset.insert_subset_insert i
-           (Finset.map_subset_map.2 (Cube.monotone_union_map f' s h)))
--          _ (fun t => (congrArg (insert i) (hm s t)).trans (Finset.insert_union _ _ _).symm) A
-+          _ (fun t => by
-+            simpa only using
-+              (congrArg (insert i) (hm s t)).trans (Finset.insert_union _ _ _).symm) A
-       rw [this]
-       exact hA _ (Finset.insert_subset hi (hs s hsI))
- 
-@@ -436,7 +438,7 @@
+@@ -357,6 +357,7 @@
+         fun ⟨k, hk⟩ => ⟨k, congrArg Subtype.val hk⟩⟩
+     have hn' : (I.subtype (· ≠ i)).card = n := by
+       rw [Finset.card_subtype, Finset.filter_ne', Finset.card_erase_of_mem hi, hn]; rfl
++    letI : DecidableEq {j : μ // j ≠ i} := LinearOrder.toDecidableEq
+     have hm : ∀ (s : Finset {j : μ // j ≠ i}) (t : Finset κ),
+         (s ∪ t.map f'.toEmbedding).map (otherDirections i).toEmbedding =
+           s.map (otherDirections i).toEmbedding ∪ t.map f.toEmbedding := fun s t => by
+@@ -436,7 +437,7 @@
  
  variable (e f) in
  
