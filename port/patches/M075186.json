@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WHyp",
+  "source_sha256": "04ee7ae7b0bbe48282e3a01e1370dab760374127544f727d4471a03ecce1785c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
