@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorGaussNormUltrametric",
+  "source_sha256": "1a412cab1e7c731083210917d37f9a931abedb59bf0aac7d34946f387b4282a4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Simplify both truncated Witt vector coefficients at once."
+}
