@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IrreducibleSpacePrimeSpectrumAway",
+  "source_sha256": "73e6d93d9248143f0e95c12cbfe1f0b2fd1ef9ecd946d18ee69697ec267e4d0e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0120-lean436-20261121/packet-result.json"
+}
