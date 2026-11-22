@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/DifferentialTranslates/ParamSmooth.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/DifferentialTranslates/ParamSmooth.lean
+@@ -1,7 +1,7 @@
+ import Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.DifferentialTranslates.IntegralityGoodReduction
+ 
+ open Set MeasureTheory Metric Filter Topology
+-open scoped ContDiff
++open scoped ContDiff Pointwise
+ 
+ namespace UpperTheory.V.Lit.Dr
+ 

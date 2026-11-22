@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.RynePlace",
+  "source_sha256": "cc2a0270f0f8efa0b03deac307ea24722bf765d0248e9301d4b8080c0f64c88d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the product bound lemma retaining the original nonnegativity hypothesis. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0199-lean436-20261121/packet-result.json"
+}
