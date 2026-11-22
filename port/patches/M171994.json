@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.Hypotheses.Descent",
+  "source_sha256": "2927e5444fde9b5def822fb84aa40f76eea4c1f96d468397ca4714dbc1023f47",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0290-lean436-20261121/packet-result.json"
+}

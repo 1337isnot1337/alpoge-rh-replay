@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/DualLattices/WtGtRowSubstXSub.lean
++++ b/src/ReciprocityTheory/DualLattices/WtGtRowSubstXSub.lean
+@@ -21,7 +21,7 @@
+ def tor (s : ℂ) : Matrix (Fin ν) (Fin ν) ℂ := Matrix.diagonal fun k => s ^ (2 ^ (ν - 1 - (k : ℕ)))
+ 
+ def comp (d : ℕ) (P : MvPolynomial (Fin ν × ι) ℂ) : MvPolynomial (Fin ν × ι) ℂ :=
+-  ∑ A ∈ P.support.filter (fun A => wt A = d), monomial A (coeff A P)
++  ∑ A ∈ P.support.filter (fun A => wt A = d), monomial A (P.coeff A)
+ 
+ def WtGe (d : ℕ) (P : MvPolynomial (Fin ν × ι) ℂ) : Prop := ∀ A ∈ P.support, d ≤ wt A
+ 

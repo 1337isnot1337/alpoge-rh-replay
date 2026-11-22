@@ -1,0 +1,48 @@
+--- a/src/ReciprocityTheory/L2DbarEstimates/PlurisubharmonicCharts/FourIndep.lean
++++ b/src/ReciprocityTheory/L2DbarEstimates/PlurisubharmonicCharts/FourIndep.lean
+@@ -4,6 +4,8 @@
+ 
+ open MeasureTheory Filter Topology Set
+ open scoped Interval
++
++set_option maxHeartbeats 200000
+ 
+ noncomputable section
+ 
+@@ -37,7 +39,6 @@
+   rw [IntegrableOn, ← Measure.prod_restrict] at hint'
+   rw [← Measure.prod_restrict, integral_prod_symm (fun z => Φ (e z)) hint']
+   simp [e]
+-  rfl
+ 
+ lemma fiG_differentiableOn {f : ℕ} {Ω : Set (Fin f → ℝ)} {h : (Fin f → ℂ) → ℂ}
+     (hh : DifferentiableOn ℂ h (tube f Ω)) (ν : Fin f → ℤ) :
+@@ -53,7 +54,7 @@
+   intro s hs m
+   unfold fiG
+   rw [hper s hs m]
+-  congr 1
++  apply congrArg (fun z : ℂ => h s * z)
+   have hsum : ∑ k, (ν k : ℂ) * (s + fun k => (m k : ℂ)) k =
+       ∑ k, (ν k : ℂ) * s k + ((∑ k, ν k * m k : ℤ) : ℂ) := by
+     push_cast
+@@ -61,7 +62,7 @@
+   rw [hsum, mul_add, Complex.exp_add]
+   have h2 : Complex.exp (-2 * Real.pi * Complex.I * ((∑ k, ν k * m k : ℤ) : ℂ)) = 1 := by
+     rw [← Complex.exp_int_mul_two_pi_mul_I (-(∑ k, ν k * m k))]
+-    congr 1
++    apply congrArg Complex.exp
+     push_cast
+     ring
+   rw [h2, mul_one]
+@@ -167,8 +168,8 @@
+   have hc' : Function.update c a β ∈ Ω := hseg β Set.right_mem_uIcc
+   rw [fourCoeff_eq_fiG, fourCoeff_eq_fiG, fiBox_slices a _ (hcont c hc),
+     fiBox_slices a _ (hcont _ hc')]
+-  congr 1 with y
+-  exact fiSlice_eq hh hper ν a c β hseg y
++  apply integral_congr_ae
++  exact Filter.Eventually.of_forall fun y => fiSlice_eq hh hper ν a c β hseg y
+ 
+ lemma fiBall_const {n : ℕ} {Ω : Set (Fin (n + 1) → ℝ)} {h : (Fin (n + 1) → ℂ) → ℂ}
+     (hΩ : IsOpen Ω) (hh : DifferentiableOn ℂ h (tube (n + 1) Ω))

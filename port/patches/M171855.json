@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.DualLattices.TangentPairingStatement",
+  "source_sha256": "75f000f9d853e209136ab258fcf3648964cd4ae957d2225b155786c3c7dffcd8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0290-lean436-20261121/packet-result.json"
+}

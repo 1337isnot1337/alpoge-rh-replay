@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.DualLattices.UnramifiedCokernelLowerBoundStatement",
+  "source_sha256": "e60c3d06e4b5904a3a7f572483c25d9d4680da21c3e788530eb51cacbf48128a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0290-lean436-20261121/packet-result.json"
+}

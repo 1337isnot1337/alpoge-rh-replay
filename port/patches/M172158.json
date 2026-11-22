@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.PlurisubharmonicCharts.FourIndep",
+  "source_sha256": "5df0c67ff5649219f422e50203cae8aeca71bfed429a1869fe836d041cd0bc52",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Bound elaboration to 200000 heartbeats to localize the interrupted long proof; interrupted results receive no success credit. Use explicit congruence for multiplication, complex exponentials and integration to avoid unfolding real/complex implementations; remove a closed-goal reflexivity step. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0290-lean436-20261121/packet-result.json"
+}

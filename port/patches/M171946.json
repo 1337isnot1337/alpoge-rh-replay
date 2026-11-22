@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.GroupCohomology.CupConnRightStatement",
+  "source_sha256": "ec2eb51747ab52906a341992566f8fa616d149f82338de4977b8f3087b795724",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0290-lean436-20261121/packet-result.json"
+}
