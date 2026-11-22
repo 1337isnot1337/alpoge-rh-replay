@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.ZeroFreeRegion.ZetaLogDerivativeBounds.RiemannZetaOneEqOneSubOfRePos",
+  "source_sha256": "8b209c2a6ba51a44e68050de04b9ab23ad667350deaa0a0d8221f4c3ec7abfa4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0224-lean436-20261122/P0224-receipt.json"
+}

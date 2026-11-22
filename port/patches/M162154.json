@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.YangianSpanCharacter.YangianRTTProofs.DiagonalEntryEqOfModularRelation",
+  "source_sha256": "6be359f38541faf994054426b2f4553de2582985b411dfd271a8a4187dcb1709",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0224-lean436-20261122/P0224-receipt.json"
+}

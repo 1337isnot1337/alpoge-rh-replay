@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.ZetaNonvanishing.Assembly",
+  "source_sha256": "5969bf27615494c7ae37302bfddef82200f0067fb148117a0da916877d10355e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0224-lean436-20261122/P0224-receipt.json"
+}

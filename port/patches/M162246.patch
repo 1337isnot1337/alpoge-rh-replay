@@ -1,0 +1,16 @@
+--- a/src/GroundTheory/ArithmeticGeometry/AbelianVarieties/KernelCard.lean
++++ b/src/GroundTheory/ArithmeticGeometry/AbelianVarieties/KernelCard.lean
+@@ -126,11 +126,11 @@
+   intro h
+   have h3 : (4 : F) = 0 := by rw [← W.coeff_Ψ₂Sq, h, coeff_zero]
+   have h2 : W.b₂ = 0 := by
+-    have := congrArg (coeff · 2) h
++    have := congrArg (AddMonoidAlgebra.coeff · 2) h
+     simp only [Ψ₂Sq, coeff_add, coeff_C_mul, coeff_X_pow, coeff_X, coeff_C, coeff_zero] at this
+     simpa using this
+   have h0 : W.b₆ = 0 := by
+-    have := congrArg (coeff · 0) h
++    have := congrArg (AddMonoidAlgebra.coeff · 0) h
+     simp only [Ψ₂Sq, coeff_add, coeff_C_mul, coeff_X_pow, coeff_X, coeff_C, coeff_zero] at this
+     simpa using this
+   have hΔ : W.Δ = 0 := by

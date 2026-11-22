@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ArithmeticGeometry.ToricVarieties.ToricFaces",
+  "source_sha256": "47cdcf018e6c50d5e62e347247a275c1cfc1ee49fec3139d8a14ac456c93ed8d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0224-lean436-20261122/P0224-receipt.json"
+}

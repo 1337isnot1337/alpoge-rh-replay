@@ -1,0 +1,34 @@
+--- a/src/GroundTheory/ArithmeticGeometry/SchemeCohomology/InvertibleDual.lean
++++ b/src/GroundTheory/ArithmeticGeometry/SchemeCohomology/InvertibleDual.lean
+@@ -21,6 +21,12 @@
+   rw [CategoryTheory.Functor.map_id]
+   rfl
+ 
++/-- The structure sheaf's commutative-ring instance, recovered after forgetting to `RingCat`. -/
++private noncomputable abbrev ringOnCommRing (V : X.Opens) : CommRing (ringOn X V) :=
++  inferInstanceAs (CommRing (X.sheaf.obj.obj (op V)))
++
++attribute [local instance] ringOnCommRing
++
+ namespace DualSec
+ variable {P : PMod X} {U : X.Opens}
+ 
+@@ -259,10 +265,14 @@
+     (Y := ((preMod X).obj (𝟙_ X.Modules)).obj U) (by exact TensorProduct.lift (pairingLin M U.unop))
+   naturality {U V} f := by
+     apply ModuleCat.hom_ext
+-    apply TensorProduct.ext'
+-    intro φ m
+-    change (φ.app V.unop f.unop.le (resM _ f.unop.le m)) = resR f.unop.le (φ.app U.unop le_rfl m)
+-    rw [← φ.compat]
++    apply LinearMap.ext
++    intro x
++    induction x using TensorProduct.induction_on with
++    | zero => exact (map_zero _).trans (map_zero _).symm
++    | tmul φ m =>
++      change (φ.app V.unop f.unop.le (resM _ f.unop.le m)) = resR f.unop.le (φ.app U.unop le_rfl m)
++      rw [← φ.compat]
++    | add x y hx hy => exact (map_add _ x y).trans ((congrArg₂ (· + ·) hx hy).trans (map_add _ x y).symm)
+ 
+ noncomputable def dualEval (M : X.Modules) : dualSheaf M ⊗ M ⟶ 𝟙_ X.Modules :=
+   tensorLift (evalPre M)

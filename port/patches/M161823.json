@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.UnipotentAdelicQuotients.EllipticRegularity.WeakFourier",
+  "source_sha256": "d3f5c7f211d7654693c0e672997d2d948659aa02e79f39bd709bac379927d126",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0224-lean436-20261122/P0224-receipt.json"
+}

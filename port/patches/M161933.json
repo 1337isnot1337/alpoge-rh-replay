@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.WachLatticeTwists.LagrangeExtensionCocycles.ExtensionCocycleProofs.ResidueQuotientHolds",
+  "source_sha256": "7d4468507a815dba1d3fdd5a4449d6a4a4490cd016ad82bd75956edf0fb13b87",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only adaptation: pow_padicValNat_dvd and padicValNat_dvd_iff_le now produce multiplicity, so bridge with Nat.padicValNat_def (as in the merged M061342) and rewrite h back before omega. No statement or definition changed.",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0224-lean436-20261122/P0224-receipt.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ArithmeticGeometry.SchemeCohomology.ProperCohomology.ReesRing",
+  "source_sha256": "4c823196624aee5f720b4b805e2ecca067c1584017d167b561f190aa0a19b1bb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only adaptation: Polynomial.coeff is now the AddMonoidAlgebra.coeff field, so the change uses AddMonoidAlgebra.coeff 1 n, the same term as (1 : R[X]).coeff n. No statement or definition changed.",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0224-lean436-20261122/P0224-receipt.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.PartialDifferential.SobolevMollifier",
+  "source_sha256": "ab73d54419b3a649f9b300b50af2c0b6067d99b16dadab0f17a43ea381deb631",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0224-lean436-20261122/P0224-receipt.json"
+}

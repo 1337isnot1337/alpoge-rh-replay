@@ -1,0 +1,15 @@
+--- a/src/Formalism/WachLatticeTwists/LagrangeExtensionCocycles/ExtensionCocycleProofs/ResidueQuotientHolds.lean
++++ b/src/Formalism/WachLatticeTwists/LagrangeExtensionCocycles/ExtensionCocycleProofs/ResidueQuotientHolds.lean
+@@ -119,9 +119,11 @@
+   unfold aH
+   have hd : ℓ ^ (padicValNat ℓ r.factorial + padicValNat ℓ s.factorial) ∣ (r + s).factorial := by
+     rw [pow_add]
+-    exact (Nat.mul_dvd_mul pow_padicValNat_dvd pow_padicValNat_dvd).trans
++    exact (Nat.mul_dvd_mul (by rw [Nat.padicValNat_def]; exact pow_multiplicity_dvd _ _)
++      (by rw [Nat.padicValNat_def]; exact pow_multiplicity_dvd _ _)).trans
+       (Nat.factorial_mul_factorial_dvd_factorial_add r s)
+   have h := (padicValNat_dvd_iff_le (Nat.factorial_ne_zero _)).mp hd
++  rw [← Nat.padicValNat_def] at h
+   omega
+ 
+ theorem frame_invariance_holds : StatFrameInv := by
