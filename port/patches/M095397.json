@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.IwasawaBlockTriangular",
+  "source_sha256": "06fe456b45c35f17e0b60e97898d1f58ca82b8b945a41bd9e312e6d2d4ea68e0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
