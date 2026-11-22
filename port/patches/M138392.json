@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.HodgeTatePoints.HtatHens",
+  "source_sha256": "f36efca167d66071d6523033838bedd260aa86ecd2583bda52b3840c596498b9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove obsolete zero alternatives from the two tensor induction proofs. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0144-lean436-20261121-r2/packet-result.json"
+}

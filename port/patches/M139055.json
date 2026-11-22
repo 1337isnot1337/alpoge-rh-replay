@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.ConeSectionRestriction.ExistsAwayIsDomainOfSmooth",
+  "source_sha256": "5125437ecabb99c1a2a4a99651064833e180dc213b4fc0839fc12c87978d0dce",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0144-lean436-20261121-r2/packet-result.json"
+}
