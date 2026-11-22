@@ -305,8 +305,10 @@ class WorkerTests(unittest.TestCase):
         github = object.__new__(worker_github.GitHub)
         github.fork = 'volunteer/evidence'
         present = subprocess.CompletedProcess([], 0, json.dumps({'assets': assets[:1]}), '')
+        downloads = {asset['browser_download_url']: p.read_bytes() for asset, p in zip(assets, files)}
         with patch.object(subprocess, 'run', side_effect=[present, None]) as run, \
-                patch.object(worker_github, 'api', return_value={'assets': assets}):
+                patch.object(worker_github, 'api', return_value={'assets': assets}), \
+                patch.object(worker_github, 'urlopen', side_effect=lambda url, **_: io.BytesIO(downloads[url])):
             links = github.publish_assets(7, 'M000001', files)
             self.assertIn('targets.tar.gz', links)
             self.assertEqual(run.call_args_list[1].args[0][-2:], files[1:])
