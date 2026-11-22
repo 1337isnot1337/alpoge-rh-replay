@@ -1,0 +1,15 @@
+--- a/src/GroundTheory/AutomorphicForms/RestrictedHaarProduct.lean
++++ b/src/GroundTheory/AutomorphicForms/RestrictedHaarProduct.lean
+@@ -175,8 +175,10 @@
+   have hZc : IsCompact Z := by
+     rw [(RestrictedProduct.isEmbedding_coe_of_principal (R := G) (A := fun i ↦ (C i : Set (G i)))
+       (S := S)).isCompact_iff, hZ, image_preimage_eq_inter_range, RestrictedProduct.range_coe_principal]
+-    rw [inter_eq_left.2 fun x hx ↦ hx.2]
+-    exact hWc
++    have hWS : W ⊆ S.pi (fun i ↦ (C i : Set (G i))) := by
++      intro x hx
++      exact hx.2
++    simpa only [inter_eq_left.2 hWS] using hWc
+   have heq : (box C T : Set (Πʳ i, [G i, (C i : Set (G i))])) ∩ proj C T ⁻¹' E =
+       RestrictedProduct.inclusion G (fun i ↦ (C i : Set (G i))) hS '' Z := by
+     ext x

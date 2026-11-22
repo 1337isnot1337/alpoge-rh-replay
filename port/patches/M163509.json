@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.Antisymmetric.Statements",
+  "source_sha256": "cb11a2b63d34d68742e5721a2db331fbed9a5f908a0cbf2c1ad0651159dec0d5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the polynomial-first coefficient API in both propositions. The coefficient and polynomial are unchanged.",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-p0081-lean436/packet-result.json"
+}

@@ -1,0 +1,20 @@
+--- a/src/GroundTheory/GlobalFields/TateThesis/DegreeOnePrimes.lean
++++ b/src/GroundTheory/GlobalFields/TateThesis/DegreeOnePrimes.lean
+@@ -16,7 +16,7 @@
+     Fintype.card_eq_sum_ones]
+   refine Finset.sum_le_sum fun q _ => ?_
+   exact Nat.one_le_iff_ne_zero.mpr
+-    (Nat.mul_ne_zero (Ideal.ramificationIdx_pos q.1 R).ne' (Ideal.inertiaDeg_pos q.1 R).ne')
++    (Nat.mul_ne_zero (q.1.ramificationIdx_pos R).ne' (Ideal.inertiaDeg_pos q.1 R).ne')
+ 
+ variable {K L : Type*} [Field L] [NumberField L]
+ 
+@@ -141,7 +141,7 @@
+ 
+ theorem summable_absNorm_rpow_neg_subtype (S : Set (HeightOneSpectrum (𝓞 L))) {s : ℝ}
+     (hs : 1 < s) : Summable fun w : S => (Ideal.absNorm w.1.asIdeal : ℝ) ^ (-s) :=
+-  (summable_absNorm_rpow_neg hs).subtype S
++  (summable_absNorm_rpow_neg hs).subtype (· ∈ S)
+ 
+ section relative
+ 

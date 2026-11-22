@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.ZeroLocusDimHGeo",
+  "source_sha256": "fcd3a03200ac4d18c560a8f586a4020e6dc51c759d48f58abcef44efb289a10c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Supply the constant dependent family to the smooth evaluation lemma.",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-p0081-lean436/packet-result.json"
+}

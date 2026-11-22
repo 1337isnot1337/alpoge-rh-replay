@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/GlobalFields/Adele/IntegersLattice.lean
++++ b/src/GroundTheory/GlobalFields/Adele/IntegersLattice.lean
+@@ -56,7 +56,7 @@
+ omit [NumberField K] in
+ theorem norm_algebraMap_apply (k : K) (w : InfinitePlace K) :
+     ‖algebraMap K K∞ k w‖ = w k := by
+-  simp [InfiniteAdeleRing.algebraMap_apply, WithAbs.norm_toAbs_eq]
++  simp [InfiniteAdeleRing.algebraMap_apply, AbsoluteValue.Completion.norm_coe]
+   rfl
+ 
+ noncomputable def integersInfinite : AddSubgroup K∞ :=

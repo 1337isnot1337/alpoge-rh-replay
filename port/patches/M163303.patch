@@ -1,0 +1,29 @@
+--- a/src/GroundTheory/GlobalFields/SemilocalAlgebras/Infinite.lean
++++ b/src/GroundTheory/GlobalFields/SemilocalAlgebras/Infinite.lean
+@@ -97,7 +97,7 @@
+ theorem tensorPiHom_tmul (x : v.Completion) (l : L) (w : v.placesOver L) :
+     tensorPiHom v (x ⊗ₜ l) w =
+       algebraMap v.Completion _ x * (l : (w : InfinitePlace L).Completion) := by
+-  simp [tensorPiHom]
++  simp [tensorPiHom, AbsoluteValue.Completion.algebraMap_def, WithAbs.algebraMap_right_apply]
+ 
+ variable {v} in
+ 
+@@ -150,7 +150,7 @@
+     (LinearMap.range f).closed_of_finiteDimensional
+   have hsub : Set.range (algebraMap L (PiPlacesOver (L := L) v)) ⊆ LinearMap.range f := by
+     rintro _ ⟨l, rfl⟩
+-    exact ⟨1 ⊗ₜ l, by ext w; simp [f]⟩
++    exact ⟨1 ⊗ₜ l, by ext w; simp [f, AbsoluteValue.Completion.algebraMap_def, WithAbs.algebraMap_right_apply]⟩
+   have huniv : (LinearMap.range f : Set (PiPlacesOver (L := L) v)) = Set.univ := by
+     refine Set.eq_univ_of_univ_subset ?_
+     rw [← (denseRange_algebraMap_piPlacesOver v).closure_range]
+@@ -201,7 +201,7 @@
+   AlgEquiv.ofRingEquiv
+     (f := ((Algebra.TensorProduct.comm K L v.Completion).trans
+       ((tensorPiEquiv (L := L) v).restrictScalars K)).toRingEquiv)
+-    (fun l => by ext w; simp [Algebra.TensorProduct.algebraMap_apply])
++    (fun l => by ext w; simp [Algebra.TensorProduct.algebraMap_apply, AbsoluteValue.Completion.algebraMap_def, WithAbs.algebraMap_right_apply])
+ 
+ @[simp]
+ theorem tensorPiEquivLeft_tmul (l : L) (x : v.Completion) (w : v.placesOver L) :

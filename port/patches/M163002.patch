@@ -1,0 +1,20 @@
+--- a/src/GroundTheory/FunctionField/PlaceDefs.lean
++++ b/src/GroundTheory/FunctionField/PlaceDefs.lean
+@@ -294,7 +294,7 @@
+   exact lt_irrefl _ this
+ 
+ theorem isNoetherianRing [IsFunctionField k K] : IsNoetherianRing v.ring := by
+-  rw [isNoetherianRing_iff, isNoetherian_iff', WellFoundedGT, isWellFounded_iff,
++  rw [isNoetherianRing_iff, isNoetherian_iff', WellFoundedGT,
+     RelEmbedding.wellFounded_iff_isEmpty]
+   refine ⟨fun f => ?_⟩
+   have hf : ∀ n, f n < f (n + 1) := fun n => f.map_rel_iff.2 (Nat.lt_succ_self n)
+@@ -338,7 +338,7 @@
+ 
+ instance [IsFunctionField k K] : IsDiscreteValuationRing v.ring := by
+   have hN := v.isNoetherianRing
+-  have : IsPrincipalIdealRing v.ring := ((IsBezout.TFAE (R := v.ring)).out 0 1).1 hN
++  have : IsPrincipalIdealRing v.ring := ((IsBezout.TFAE (R := v.ring)).out 1 2).1 hN
+   refine { (inferInstance : IsPrincipalIdealRing v.ring), (inferInstance : IsLocalRing v.ring) with
+     not_a_field' := ?_ }
+   obtain ⟨x, hx0, hx⟩ := v.exists_valuation_lt_one_ne_zero

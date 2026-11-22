@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.SphericalLaurent",
+  "source_sha256": "691193eb2646791ca46b0403618a01568f3c6e892f205099e811741f0b04bba8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current algebra equivalence coercion and ideal contraction lemmas.",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-p0081-lean436/packet-result.json"
+}
