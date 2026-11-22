@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.ThetaValues.ExistsMemRowHighestTotalDegreeEqTwo",
+  "source_sha256": "5a2f2883e3c0414a0b34761ed641a0d89fdc82b0ec82cfbbcc7504aaecdffc63",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Apply congrArg with the explicit left multiplication map to avoid expensive generic congruence search."
+}
