@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HeightKernels.StatementsChartEnergyDiagonal",
+  "source_sha256": "d099e504590c52204030c12f38b5fa331babaa815d61b026319db3f754cc5784",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-m166336-lean436/receipt.json"
+}
