@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.DefsOC",
+  "source_sha256": "3bbd95f2af8579c0e341eb2980ec0dd5bf68584f0adf7a1ab4065b655cba7d5d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-M144209-issue-27750/M144209-receipt.json"
+}
