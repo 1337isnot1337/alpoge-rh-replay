@@ -147,16 +147,16 @@ class ClaimsGraphQL:
 
     def apply(self):
         started = time.monotonic()
-        acknowledged = 0
+        changes_in_successful_batches = 0
         try:
             for offset in range(0, len(self.writes), 8):
                 batch = self.writes[offset:offset+8]
                 self.query('mutation{' + '\n'.join(f'm{i}:{item}' for i, item in enumerate(batch)) + '}')
-                acknowledged += len(batch)
+                changes_in_successful_batches += len(batch)
         finally:
             elapsed = time.monotonic() - started
-            print(f'Claim writes acknowledged {acknowledged} of {len(self.writes)} queued changes '
-                  f'in {elapsed:.1f}s.', flush=True)
+            print(f'Claim mutation batches succeeded for {changes_in_successful_batches} of '
+                  f'{len(self.writes)} queued changes in {elapsed:.1f}s.', flush=True)
         print(f'Reconciled {len(self.issues)} claims with {len(self.writes)} changes.', flush=True)
 
 
