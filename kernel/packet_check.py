@@ -284,6 +284,7 @@ def make_nanoda_config(export_path: Path, jobs: int) -> dict:
         "unpermitted_axiom_hard_error": True,
         "nat_extension": True,
         "string_extension": True,
+        "pp_to_stdout": True,
         "print_success_message": True,
     }
 
