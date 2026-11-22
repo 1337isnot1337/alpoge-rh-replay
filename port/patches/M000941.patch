@@ -1,0 +1,28 @@
+--- a/src/CompanionTheory/SpectralGeometry/LocalGlobalProofs/AdelicAnalysis/GaussianChangeOfVariablesIsometry.lean
++++ b/src/CompanionTheory/SpectralGeometry/LocalGlobalProofs/AdelicAnalysis/GaussianChangeOfVariablesIsometry.lean
+@@ -1,5 +1,7 @@
+ import Mathlib
+ import CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SumRhoEqTrace
++
++set_option maxHeartbeats 200000
+ 
+ noncomputable section
+ 
+@@ -75,7 +77,7 @@
+       gauss B ρ P τ (fun w => gi w *ᵥ x w) = gauss B ρ (fun w => (gi w)ᵀ * P w * gi w) τ x := by
+     intro τ x
+     unfold gauss
+-    congr 1
++    apply congrArg Complex.exp
+     refine Finset.sum_congr rfl fun w _ => ?_
+     rw [quad_mulVec, quad_mulVec, hg w]
+   refine ⟨first, fun τ => ?_⟩
+@@ -96,7 +98,7 @@
+   have hint := hmp.integral_comp (measurableEmbedding_mulVec hne) (gauss B ρ P τ)
+   unfold cG
+   rw [← hint]
+-  congr 1
++  apply congrArg (fun z : ℂ => (Real.sqrt |((Algebra.norm ℚ B.det : ℚ) : ℝ)| : ℂ) * z)
+   exact integral_congr_ae (Filter.Eventually.of_forall fun x => (first τ x).symm)
+ 
+ end GlobalTheory.CompanionTheory.SW.ThW.GaussOrth

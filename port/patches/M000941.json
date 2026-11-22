@@ -1,0 +1,8 @@
+{
+  "module": "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GaussianChangeOfVariablesIsometry",
+  "source_sha256": "ebd0ea9e6fd7df7f8cc4681a940bfedfd31a283f1154aa0540022389f7b0d6c7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use explicit exponential and multiplication congruence, avoiding broad congruence elaboration. Retain a finite 200000-heartbeat budget. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0172-lean436-20261121/packet-result.json"
+}
