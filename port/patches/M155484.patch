@@ -1,0 +1,20 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/LFunctionMinors/FintypeColChoice.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/LFunctionMinors/FintypeColChoice.lean
+@@ -32,7 +32,7 @@
+     (ph : Module.Dual ℂ_[l] (MvPolynomial (Lt × ℕ × Fin N0) ℂ_[l]))
+     (G : MvPolynomial (XZ Lt N0 N1) ℤ) : MvPolynomial (Lt × Fin N0 × Fin N1) ℂ_[l] :=
+   ∑ μ ∈ G.support, monomial (Finsupp.sumFinsuppEquivProdFinsupp μ).2
+-    (((coeff μ G : ℤ) : ℂ_[l]) * ph (monomial (Finsupp.sumFinsuppEquivProdFinsupp μ).1 1))
++    (((G.coeff μ : ℤ) : ℂ_[l]) * ph (monomial (Finsupp.sumFinsuppEquivProdFinsupp μ).1 1))
+ 
+ def wt {Lt : Type} (l : ℕ) [Fact l.Prime] (N0 N1 : ℕ) (Th : MvPowerSeries (Lt × Fin N0 × Fin N1) ℂ_[l])
+     (α : (Lt × Fin N0 × Fin N1) →₀ ℕ) : ℂ_[l] :=
+@@ -40,7 +40,7 @@
+ 
+ def Lfun {Lt : Type} (l : ℕ) [Fact l.Prime] (N0 N1 : ℕ) (Th : MvPowerSeries (Lt × Fin N0 × Fin N1) ℂ_[l])
+     (P : MvPolynomial (Lt × Fin N0 × Fin N1) ℂ_[l]) : ℂ_[l] :=
+-  ∑ α ∈ P.support, coeff α P * wt l N0 N1 Th α
++  ∑ α ∈ P.support, P.coeff α * wt l N0 N1 Th α
+ 
+ def EvalH : Prop :=
+   ∀ (Lt : Type) [Fintype Lt] [DecidableEq Lt] (l : ℕ) [Fact l.Prime] (N0 N1 : ℕ)

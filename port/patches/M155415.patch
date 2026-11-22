@@ -1,0 +1,20 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/IsometryDualPair/SymmetricMeasureL2NormEqResolutionL2.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/IsometryDualPair/SymmetricMeasureL2NormEqResolutionL2.lean
+@@ -105,9 +105,14 @@
+   have h3 : l2 (φ : LaC N nu) = 0 := by exact_mod_cast h2
+   exact Subtype.ext (eq_zero_of_l2_eq_zero _ h3)
+ 
+-lemma pairL_surjective : Function.Surjective (pairL (N := N) (nu := nu)) :=
+-  (LinearMap.injective_iff_surjective_of_finrank_eq_finrank
+-    (Subspace.dual_finrank_eq).symm).1 pairL_injective
++lemma pairL_surjective : Function.Surjective (pairL (N := N) (nu := nu)) := by
++  letI : FiniteDimensional ℂ (LaC N nu) := FiniteDimensional.finiteDimensional_pi ℂ
++  letI : FiniteDimensional ℂ (Vnu N nu) :=
++    FiniteDimensional.finiteDimensional_submodule (Vnu N nu)
++  have hdim : Module.finrank ℂ (Vnu N nu) = Module.finrank ℂ (Module.Dual ℂ (Vnu N nu)) :=
++    (Subspace.dual_finrank_eq (K := ℂ) (V := Vnu N nu)).symm
++  exact (LinearMap.injective_iff_surjective_of_finrank_eq_finrank
++    (f := pairL (N := N) (nu := nu)) hdim).1 pairL_injective
+ 
+ theorem isoDualPair : IsoDualPair := by
+   intro Lt _ _ N nu

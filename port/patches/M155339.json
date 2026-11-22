@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.InertUnitProduct.MemQbar",
+  "source_sha256": "ff124e53e6dd2b4c43bc9192f7835d06c00506955e73e671d93656f745936914",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

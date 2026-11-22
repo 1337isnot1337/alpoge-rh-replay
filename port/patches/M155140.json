@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GramIsometryCoefficient.ExCoeffOneNe",
+  "source_sha256": "53c3f4529a05a2e388cbca6badd1698a3f0a8b798679a5e4e789e81eec9f7437",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
