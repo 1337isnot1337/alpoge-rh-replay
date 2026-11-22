@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M008463 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBesselEmbeddingEqLastGLRootExchange` | volunteer-build-reviewed |
+| M008466 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBesselRationalCutoffFundamentalDomainStatement` | volunteer-build-reviewed |
+| M008468 | P2133 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBilinearEquivariantOrthogonalSummandLiftStatement` | volunteer-build-reviewed |
+| M008469 | P0649 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBilinearPositionMiddleVertex` | build-observed |
+| M008470 | P0679 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBilinearPositionMiddleVertexStatement` | build-observed |
+| M008473 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBorelSphericalSameDoubleCosetSumsZonal` | volunteer-build-reviewed |
+| M008474 | P1736 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBorelSphericalSameDoubleCosetSumsZonalStatement` | build-observed |
+| M008476 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBoundAbsLocalLatticeCompletionEntriesStatement` | volunteer-build-reviewed |
+| M008478 | P1956 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBoxFinitePosProductHaarUnitaryGroups` | volunteer-build-reviewed |
+| M008479 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBoxFinitePosProductHaarUnitaryGroupsStatement` | volunteer-build-reviewed |
+| M008480 | P2177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCentralAdaptedElement` | volunteer-build-reviewed |
+| M008484 | P2133 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCentralElementHomotheticGluedCores` | volunteer-build-reviewed |
+| M008485 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCentralElementHomotheticGluedCoresStatement` | volunteer-build-reviewed |
 | M008487 | P2133 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCentralGlueLocalHomothetiesStatement` | volunteer-build-reviewed |
 | M008489 | P1788 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCentralRealPointUnitScalarSinglePlaceStatement` | volunteer-build-reviewed |
 | M008494 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCharExponentInfinityKernelShift` | volunteer-build-reviewed |
@@ -389,16 +402,3 @@
 | M009047 | P2065 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteDatumFactorsOverTwistPrimesLocalStatement` | volunteer-build-reviewed |
 | M009059 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteDimensionalSpanMultilinearValues` | volunteer-build-reviewed |
 | M009060 | P0099 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteDimensionalSpanMultilinearValuesStatement` | volunteer-build-reviewed |
-| M009062 | P1666 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteDimensionalThetaFunctionsLevelFockDegree` | volunteer-build-reviewed |
-| M009063 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteDimensionalThetaFunctionsLevelFockDegreeStatement` | volunteer-build-reviewed |
-| M009064 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteElementsActFockVectorsThroughDatum` | volunteer-build-reviewed |
-| M009065 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteElementsActFockVectorsThroughDatumStatement` | volunteer-build-reviewed |
-| M009066 | P2065 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteFourierExpansionHalfSplitPlaces` | volunteer-build-reviewed |
-| M009068 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteMatrixEntryIntegralOfKeepsStandardLattice` | volunteer-build-reviewed |
-| M009070 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteMonomialsWithPrescribedPlaceDegree` | volunteer-build-reviewed |
-| M009071 | P1788 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteMonomialsWithPrescribedPlaceDegreeStatement` | volunteer-build-reviewed |
-| M009072 | P1666 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FinitePartMemFrameStabilizerIffLocalStabilizer` | volunteer-build-reviewed |
-| M009073 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FinitePartMemFrameStabilizerIffLocalStabilizerStatement` | volunteer-build-reviewed |
-| M009077 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteQuotientAnnihilatorStandardLatticeConjHalf` | volunteer-build-reviewed |
-| M009078 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteQuotientAnnihilatorStandardLatticeConjHalfStatement` | volunteer-build-reviewed |
-| M009081 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FinrankKerPuLeHsDev` | volunteer-build-reviewed |

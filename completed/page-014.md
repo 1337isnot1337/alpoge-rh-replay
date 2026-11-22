@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M009062 | P1666 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteDimensionalThetaFunctionsLevelFockDegree` | volunteer-build-reviewed |
+| M009063 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteDimensionalThetaFunctionsLevelFockDegreeStatement` | volunteer-build-reviewed |
+| M009064 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteElementsActFockVectorsThroughDatum` | volunteer-build-reviewed |
+| M009065 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteElementsActFockVectorsThroughDatumStatement` | volunteer-build-reviewed |
+| M009066 | P2065 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteFourierExpansionHalfSplitPlaces` | volunteer-build-reviewed |
+| M009068 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteMatrixEntryIntegralOfKeepsStandardLattice` | volunteer-build-reviewed |
+| M009070 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteMonomialsWithPrescribedPlaceDegree` | volunteer-build-reviewed |
+| M009071 | P1788 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteMonomialsWithPrescribedPlaceDegreeStatement` | volunteer-build-reviewed |
+| M009072 | P1666 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FinitePartMemFrameStabilizerIffLocalStabilizer` | volunteer-build-reviewed |
+| M009073 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FinitePartMemFrameStabilizerIffLocalStabilizerStatement` | volunteer-build-reviewed |
+| M009077 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteQuotientAnnihilatorStandardLatticeConjHalf` | volunteer-build-reviewed |
+| M009078 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FiniteQuotientAnnihilatorStandardLatticeConjHalfStatement` | volunteer-build-reviewed |
+| M009081 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FinrankKerPuLeHsDev` | volunteer-build-reviewed |
 | M009084 | P2133 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FirstIsotropicVectorCoordinatesNeZero` | volunteer-build-reviewed |
 | M009085 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FirstIsotropicVectorCoordinatesNeZeroStatement` | volunteer-build-reviewed |
 | M009086 | P1666 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.FirstOccurrenceRuleThetaChainStepBothDirections` | volunteer-build-reviewed |
@@ -389,16 +402,3 @@
 | M009577 | P1115 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.HoweDualityUnitarySubstitutionSpanUnit` | volunteer-build-reviewed |
 | M009580 | P1195 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.HoweSpanFamiliesOfPlacesStatement` | volunteer-build-reviewed |
 | M009581 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.HyperbolicZeroEmbeddingId` | volunteer-build-reviewed |
-| M009583 | P1666 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.I0M` | volunteer-build-reviewed |
-| M009584 | P1666 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdeleCharacterEqOneIntegralUnitsUnramifiedAdelic` | volunteer-build-reviewed |
-| M009585 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdeleCharacterEqOneIntegralUnitsUnramifiedAdelicStatement` | volunteer-build-reviewed |
-| M009586 | P1395 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdeleCharacterFinitePlaceComponentEqMulOfSplit` | volunteer-build-reviewed |
-| M009588 | P1395 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdeleCharacterFinitePlaceComponentEqOfInert` | volunteer-build-reviewed |
-| M009590 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdemAtUniqueOrth` | volunteer-build-reviewed |
-| M009591 | P1788 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdemEMulIdemE` | volunteer-build-reviewed |
-| M009592 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdempotentHalfEqRationalAddNsmulStandardHom` | volunteer-build-reviewed |
-| M009593 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdempotentHalfEqRationalAddNsmulStandardHomStatement` | volunteer-build-reviewed |
-| M009594 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdempotentHalfMemCompletedHomLatticeIffLocal` | volunteer-build-reviewed |
-| M009595 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdempotentHalfMemCompletedHomLatticeIffLocalStatement` | volunteer-build-reviewed |
-| M009596 | P1788 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdempotentMulEntryEqZeroOfCutInverse` | volunteer-build-reviewed |
-| M009597 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdempotentSubMulComplementEqComplement` | volunteer-build-reviewed |

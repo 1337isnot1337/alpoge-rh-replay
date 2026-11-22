@@ -2,6 +2,25 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M012950 | P1534 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFormCorrectionNextThickeningLocal` | build-observed |
+| M012951 | P1561 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFormCorrectionNextThickeningLocalStatement` | build-observed |
+| M012952 | P1420 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFormCorrectionOfVanishingAfterBaseChange` | build-observed |
+| M012953 | P1445 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFormCorrectionOfVanishingAfterBaseChangeStatement` | volunteer-build-reviewed |
+| M012955 | P0679 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFormSec` | wave-reused |
+| M012956 | P0617 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFractionEvalSectionAffineNearPoint` | volunteer-build-reviewed |
+| M012958 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFramesOnUniformisedFibreThroughIso` | volunteer-build-reviewed |
+| M012959 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFramesOnUniformisedFibreThroughIsoStatement` | volunteer-build-reviewed |
+| M012960 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFramesOnUniformisedModelFibre` | build-observed |
+| M012961 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFramesOnUniformisedModelFibreStatement` | volunteer-build-reviewed |
+| M012962 | P0679 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFrobGBaseChange` | wave-reused |
+| M012963 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFullAll` | volunteer-build-reviewed |
+| M012964 | P1445 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFullObjectOfThetaPointInAlgClosedSubfield` | volunteer-build-reviewed |
+| M012965 | P1474 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFullObjectOfThetaPointInAlgClosedSubfieldStatement` | volunteer-build-reviewed |
+| M012969 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFunctionFieldOfIsDominant` | build-observed |
+| M012970 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsFunctionFieldOfIsDominantStatement` | volunteer-build-reviewed |
+| M012971 | P1195 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsGenOfFrames` | volunteer-build-reviewed |
+| M012973 | P1085 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsGeneratorNormalisedMulByNIso` | build-observed |
+| M012974 | P1115 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsGeneratorNormalisedMulByNIsoStatement` | volunteer-build-reviewed |
 | M012976 | P1351 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsGeneratorThetaConstantsOverAlgClosedExtensStatement` | volunteer-build-reviewed |
 | M012977 | P1274 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsGeneratorThetaPointNormalisedThetaConstant` | volunteer-build-reviewed |
 | M012978 | P1300 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.ExistsGeneratorThetaPointNormalisedThetaConstantStatement` | volunteer-build-reviewed |
@@ -383,22 +402,3 @@
 | M013605 | P1789 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsFibreSectionValueInFrameLinearUniqueExists` | build-observed |
 | M013607 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsFiniteKerOfSurjPointsSameDimension` | volunteer-build-reviewed |
 | M013609 | P1474 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsFractionRingOfForallDiv` | volunteer-build-reviewed |
-| M013610 | P1247 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsFrameIff` | build-observed |
-| M013612 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsGrpPullbackOfEqId` | volunteer-build-reviewed |
-| M013613 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsHomOpenPart` | volunteer-build-reviewed |
-| M013614 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsImmersionProjSpaceOfLocalLinearChange` | build-observed |
-| M013615 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsImmersionProjSpaceOfLocalLinearChangeStatement` | volunteer-build-reviewed |
-| M013616 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsIntegralOfWeightZeroCoordinateDominates` | wave-reused |
-| M013617 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsIntegralOfWeightZeroCoordinateDominatesStatement` | volunteer-build-reviewed |
-| M013619 | P0947 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsIntegrallyClosedStalkOfRingOn` | build-observed |
-| M013620 | P0550 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsIsoGenericOfDenseFibres` | build-observed |
-| M013621 | P0975 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsIsoMorphismRestrictOfLocalDominantSections` | volunteer-build-reviewed |
-| M013622 | P0759 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsIsoOfIsClosedImmersion` | build-observed |
-| M013623 | P0649 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsIsoOfIsFiniteOfUniqueLiftOfClassicalPoints` | build-observed |
-| M013624 | P1002 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsLevelStructureOfGenericOfFibrewiseIndep` | volunteer-build-reviewed |
-| M013625 | P1030 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsLevelStructureOfGenericOfFibrewiseIndepStatement` | volunteer-build-reviewed |
-| M013626 | P1058 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsLinCombIffPullbackMulGenerator` | volunteer-build-reviewed |
-| M013628 | P0785 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsLocalHomAndIsAdicCompleteOfFiniteDvr` | build-observed |
-| M013631 | P0947 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsMaximalComapMaximalIdealOO` | wave-reused |
-| M013632 | P1116 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsMonHomGenericFibreKernelTorus` | build-observed |
-| M013633 | P1145 | `Development.AbelianVarietyTheory.Proofs.DegenerationProofs.IsMonHomGenericFibreKernelTorusStatement` | volunteer-build-reviewed |

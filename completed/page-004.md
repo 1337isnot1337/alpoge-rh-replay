@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002158 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LiftedCharacterResidue` | volunteer-build-reviewed |
+| M002159 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LinearCoefficientData` | build-observed |
+| M002160 | P1271 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LocalValuationColumns` | volunteer-build-reviewed |
+| M002161 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ModelDdcForms` | volunteer-build-reviewed |
+| M002162 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.MultiplicationKernelIdentity` | wave-reused |
 | M002164 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.OmegaFactorization` | volunteer-build-reviewed |
 | M002165 | P1349 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.OneMeasureSizes` | volunteer-build-reviewed |
 | M002166 | P0891 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.OrthogonalNormSquareSum` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M002827 | P0974 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.NotHasInfExpThird` | build-observed |
 | M002828 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.NotOverAndTriv` | volunteer-build-reviewed |
 | M002832 | P1028 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.StarPurelyImaginaryEqNeg` | build-observed |
-| M002833 | P1056 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.SymplHAddRight` | build-observed |
-| M002836 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.BilLActRight` | build-observed |
-| M002837 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ChartIndepTruncOfExpGauge` | volunteer-build-reviewed |
-| M002838 | P2050 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ConclusionNotEmpty` | volunteer-build-reviewed |
-| M002840 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.EqZeroOfPnorm` | volunteer-build-reviewed |

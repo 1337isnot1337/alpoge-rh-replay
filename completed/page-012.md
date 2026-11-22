@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M007405 | P1974 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.NoBaseComponentShortPolynomialGeneratorStatement` | volunteer-build-reviewed |
+| M007410 | P0296 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.NormProdSignMulDetSubmatrixSubOneLe` | wave-reused |
+| M007420 | P0436 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.NsmulApplyMemOfMemTensorLat` | wave-reused |
+| M007423 | P1002 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.PageRelationDegThree` | volunteer-build-reviewed |
+| M007424 | P1532 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.PageRowsOfLe` | volunteer-build-reviewed |
+| M007425 | P1532 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.PageTwoLeLAndSigns` | volunteer-build-reviewed |
+| M007433 | P0946 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.PolyDerivProdColumnFunctions` | build-observed |
+| M007434 | P0975 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.PolyDerivProdColumnFunctionsStatement` | volunteer-build-reviewed |
+| M007440 | P1057 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ProjAEqSumReps` | volunteer-build-reviewed |
+| M007441 | P0241 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.PushLettersIntCastOfIsHomogeneous` | volunteer-build-reviewed |
+| M007444 | P1532 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.RamifiedPrimePowersSizeBounds` | volunteer-build-reviewed |
+| M007446 | P0839 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.RawChartBaseChangeRigGerm` | build-observed |
+| M007447 | P0866 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.RawChartBaseChangeRigGermStatement` | volunteer-build-reviewed |
 | M007448 | P0891 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.RawChartFormalBiextensionBaseChange` | build-observed |
 | M007449 | P0918 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.RawChartFormalBiextensionBaseChangeStatement` | build-observed |
 | M007450 | P1002 | `Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ReadingOfThetaGroupAction` | volunteer-build-reviewed |
@@ -389,16 +402,3 @@
 | M008454 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsAdelicUnitaryConjSelfDualMajorantLevelsStatement` | volunteer-build-reviewed |
 | M008456 | P2093 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsAdelicUnitaryLiftOfChartBasePointStatement` | volunteer-build-reviewed |
 | M008461 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBasePointCarryingLatticeAndFrames` | volunteer-build-reviewed |
-| M008463 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBesselEmbeddingEqLastGLRootExchange` | volunteer-build-reviewed |
-| M008466 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBesselRationalCutoffFundamentalDomainStatement` | volunteer-build-reviewed |
-| M008468 | P2133 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBilinearEquivariantOrthogonalSummandLiftStatement` | volunteer-build-reviewed |
-| M008469 | P0649 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBilinearPositionMiddleVertex` | build-observed |
-| M008470 | P0679 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBilinearPositionMiddleVertexStatement` | build-observed |
-| M008473 | P1713 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBorelSphericalSameDoubleCosetSumsZonal` | volunteer-build-reviewed |
-| M008474 | P1736 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBorelSphericalSameDoubleCosetSumsZonalStatement` | build-observed |
-| M008476 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBoundAbsLocalLatticeCompletionEntriesStatement` | volunteer-build-reviewed |
-| M008478 | P1956 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBoxFinitePosProductHaarUnitaryGroups` | volunteer-build-reviewed |
-| M008479 | P1974 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsBoxFinitePosProductHaarUnitaryGroupsStatement` | volunteer-build-reviewed |
-| M008480 | P2177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCentralAdaptedElement` | volunteer-build-reviewed |
-| M008484 | P2133 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCentralElementHomotheticGluedCores` | volunteer-build-reviewed |
-| M008485 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ExistsCentralElementHomotheticGluedCoresStatement` | volunteer-build-reviewed |

@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M011363 | P2177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmallPairPairingAtOneGluedPlace` | volunteer-build-reviewed |
+| M011368 | P0177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmoothOfLimitClassStableUnderDirectionalDerivs` | volunteer-build-reviewed |
+| M011369 | P0241 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmoothOfLimitClassStableUnderDirectionalDerivsStatement` | volunteer-build-reviewed |
+| M011371 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmoothVecHeadOfDerivativeFamilyStatement` | volunteer-build-reviewed |
+| M011374 | P2034 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmulColMul` | volunteer-build-reviewed |
+| M011377 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SnocColumnsMovedByUpperUnitriangularIff` | volunteer-build-reviewed |
+| M011381 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SourceLiftAtGluedPlaceProof` | volunteer-build-reviewed |
+| M011383 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SpanRhoTEqTop` | volunteer-build-reviewed |
+| M011384 | P0177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SpanSchwartzBruhatProductEqTop` | volunteer-build-reviewed |
+| M011385 | P0241 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SpanSchwartzBruhatProductEqTopStatement` | volunteer-build-reviewed |
+| M011389 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalHeckeOperatorEqSmulOfLocalParameterStatement` | volunteer-build-reviewed |
+| M011391 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalOperatorEigenvaluesDeterminedByParamsStatement` | volunteer-build-reviewed |
+| M011397 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalParameterBoundSplitPlaceStatement` | volunteer-build-reviewed |
+| M011398 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalParameterTransferAllFinitePlaces` | volunteer-build-reviewed |
+| M011399 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalParameterTransferAllFinitePlacesStatement` | volunteer-build-reviewed |
 | M011400 | P2052 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalParameterTransferSplitPlace` | volunteer-build-reviewed |
 | M011401 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalParameterTransferSplitPlaceStatement` | volunteer-build-reviewed |
 | M011405 | P2177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalSiegelEisensteinModerateGrowthConvergenStatement` | volunteer-build-reviewed |
@@ -229,6 +244,7 @@
 | M011829 | P1561 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaHeisenbergConjugationNegHermitianSpace` | volunteer-build-reviewed |
 | M011831 | P1995 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaInnerFockProductEqProdRealPlaces` | volunteer-build-reviewed |
 | M011832 | P2015 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaInnerFockProductEqProdRealPlacesStatement` | volunteer-build-reviewed |
+| M011833 | P2635 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaInnerProductEqConstMulLValue` | volunteer-build-reviewed |
 | M011835 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaInnerProductFormulaDefiniteOfRallisConverge` | volunteer-build-reviewed |
 | M011839 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaIntegralEqSiegelEisensteinOfWeilRange` | volunteer-build-reviewed |
 | M011840 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.ThetaIntegralEqSiegelEisensteinOfWeilRangeStatement` | volunteer-build-reviewed |
@@ -366,6 +382,8 @@
 | M012123 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeMeasureValueStatement` | volunteer-build-reviewed |
 | M012124 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeOpen` | volunteer-build-reviewed |
 | M012125 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeOpenStatement` | volunteer-build-reviewed |
+| M012126 | P2623 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeRelaxed` | volunteer-build-reviewed |
+| M012127 | P2635 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeRelaxedStatement` | volunteer-build-reviewed |
 | M012128 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeStepRelation` | volunteer-build-reviewed |
 | M012129 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeStepRelationStatement` | volunteer-build-reviewed |
 | M012130 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryLatticeStepValue` | volunteer-build-reviewed |
@@ -384,21 +402,3 @@
 | M012149 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryRowChoiceValueStatement` | volunteer-build-reviewed |
 | M012150 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryRowColumnEntry` | volunteer-build-reviewed |
 | M012151 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryRowColumnEntryStatement` | volunteer-build-reviewed |
-| M012163 | P2067 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryRowPairValue` | volunteer-build-reviewed |
-| M012164 | P2081 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryRowPairValueStatement` | volunteer-build-reviewed |
-| M012165 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryRowStepRelation` | volunteer-build-reviewed |
-| M012173 | P2081 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometrySubspaceProperty` | volunteer-build-reviewed |
-| M012174 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometrySubspacePropertyStatement` | volunteer-build-reviewed |
-| M012175 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryTupleFreeIndex` | volunteer-build-reviewed |
-| M012176 | P2108 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryTupleFreeIndexStatement` | volunteer-build-reviewed |
-| M012177 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryTupleFreeLevel` | volunteer-build-reviewed |
-| M012178 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryTupleFreeLevelStatement` | volunteer-build-reviewed |
-| M012187 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryTwistChainBound` | volunteer-build-reviewed |
-| M012188 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryTwistChainBoundStatement` | volunteer-build-reviewed |
-| M012189 | P2081 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryTwistChainIdentity` | volunteer-build-reviewed |
-| M012190 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryTwistChainIdentityStatement` | volunteer-build-reviewed |
-| M012191 | P2145 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryTwistChainRelation` | volunteer-build-reviewed |
-| M012192 | P2156 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryTwistChainRelationStatement` | volunteer-build-reviewed |
-| M012193 | P2081 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryTwistChainValue` | volunteer-build-reviewed |
-| M012194 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryTwistChainValueStatement` | volunteer-build-reviewed |
-| M012195 | P2081 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.TrueGeometryTwistLocalBound` | volunteer-build-reviewed |

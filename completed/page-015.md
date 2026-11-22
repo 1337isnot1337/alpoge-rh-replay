@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M009583 | P1666 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.I0M` | volunteer-build-reviewed |
+| M009584 | P1666 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdeleCharacterEqOneIntegralUnitsUnramifiedAdelic` | volunteer-build-reviewed |
+| M009585 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdeleCharacterEqOneIntegralUnitsUnramifiedAdelicStatement` | volunteer-build-reviewed |
+| M009586 | P1395 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdeleCharacterFinitePlaceComponentEqMulOfSplit` | volunteer-build-reviewed |
+| M009588 | P1395 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdeleCharacterFinitePlaceComponentEqOfInert` | volunteer-build-reviewed |
+| M009590 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdemAtUniqueOrth` | volunteer-build-reviewed |
+| M009591 | P1788 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdemEMulIdemE` | volunteer-build-reviewed |
+| M009592 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdempotentHalfEqRationalAddNsmulStandardHom` | volunteer-build-reviewed |
+| M009593 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdempotentHalfEqRationalAddNsmulStandardHomStatement` | volunteer-build-reviewed |
+| M009594 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdempotentHalfMemCompletedHomLatticeIffLocal` | volunteer-build-reviewed |
+| M009595 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdempotentHalfMemCompletedHomLatticeIffLocalStatement` | volunteer-build-reviewed |
+| M009596 | P1788 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdempotentMulEntryEqZeroOfCutInverse` | volunteer-build-reviewed |
+| M009597 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdempotentSubMulComplementEqComplement` | volunteer-build-reviewed |
 | M009598 | P1975 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdempotentSumDisjointUnion` | volunteer-build-reviewed |
 | M009599 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdempotentSumPartialProperties` | volunteer-build-reviewed |
 | M009600 | P1029 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.IdentityCosetEntryProportionalColumnDatum` | build-observed |
@@ -389,16 +402,3 @@
 | M010102 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticesSameSplitShapeCarriedByCentral` | volunteer-build-reviewed |
 | M010103 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LatticesSameSplitShapeCarriedByCentralStatement` | volunteer-build-reviewed |
 | M010104 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LawLoc` | volunteer-build-reviewed |
-| M010105 | P1957 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LawsRescaleWithS` | volunteer-build-reviewed |
-| M010106 | P0706 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LazardBinomialNormUltrametric` | build-observed |
-| M010107 | P0732 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LazardBinomialNormUltrametricStatement` | build-observed |
-| M010108 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LcvNonnegOfIntegralFull` | volunteer-build-reviewed |
-| M010109 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevChiLift` | volunteer-build-reviewed |
-| M010110 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevChiWithPOfMem` | volunteer-build-reviewed |
-| M010111 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevDatYZero` | volunteer-build-reviewed |
-| M010112 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevOfMem` | volunteer-build-reviewed |
-| M010114 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelCharacterEqOneOfDeepAtSplitBadPlace` | volunteer-build-reviewed |
-| M010115 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelCharacterEqOneOfDeepAtSplitBadPlaceStatement` | volunteer-build-reviewed |
-| M010118 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelCharacterOnParahoricChartImage` | volunteer-build-reviewed |
-| M010119 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelCharacterOnParahoricChartImageStatement` | volunteer-build-reviewed |
-| M010120 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelCharacterTrivialNearOneOfLocalBadPlaces` | volunteer-build-reviewed |

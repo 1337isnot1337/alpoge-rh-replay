@@ -2,6 +2,20 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M010627 | P0918 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormaliserCore` | build-observed |
+| M010628 | P0811 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormaliserUnipSymCharPattern` | build-observed |
+| M010629 | P0839 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormaliserUnipSymCharPatternStatement` | build-observed |
+| M010630 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormsMatrixStepsCoupledFactorBoundedAnyLevelPrim` | volunteer-build-reviewed |
+| M010631 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormsMatrixStepsCoupledFactorBoundedAnyLevelPrimStatement` | volunteer-build-reviewed |
+| M010635 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NotLevGEmpty` | volunteer-build-reviewed |
+| M010636 | P1300 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NotSqDvdOfRationalPrimeSplitsCompletely` | volunteer-build-reviewed |
+| M010638 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NrmStepZeroEq` | volunteer-build-reviewed |
+| M010639 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NuRowZeroLeThreeMul` | volunteer-build-reviewed |
+| M010641 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OfTensColMem` | volunteer-build-reviewed |
+| M010644 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OffIdempotentMemIdealTwoIntegers` | volunteer-build-reviewed |
+| M010645 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OffIdempotentMemIdealTwoIntegersStatement` | volunteer-build-reviewed |
+| M010646 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OffTypePinnedLocalGroups` | volunteer-build-reviewed |
+| M010647 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OffTypePinnedLocalGroupsStatement` | volunteer-build-reviewed |
 | M010649 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OmPureTensorOComb` | volunteer-build-reviewed |
 | M010650 | P1957 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OmPureTensorOOnb` | volunteer-build-reviewed |
 | M010653 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OmZeroRat` | volunteer-build-reviewed |
@@ -245,6 +259,7 @@
 | M011056 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.RowLineIdealEqInverseDifferentPowStatement` | volunteer-build-reviewed |
 | M011058 | P1995 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.RowsMemBaseChainStageZeroStatement` | volunteer-build-reviewed |
 | M011060 | P1881 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.RowsOfPartHavePartParamsFirstChainMemberStatement` | volunteer-build-reviewed |
+| M011061 | P2623 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.RowsOfPublishedRepresentationTheoryStatement` | volunteer-build-reviewed |
 | M011064 | P1503 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SFiniteCovolumeOneMatrixUnitriangularMeasures` | volunteer-build-reviewed |
 | M011065 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SFiniteCovolumeOneMatrixUnitriangularMeasuresStatement` | volunteer-build-reviewed |
 | M011066 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SatakeDeterminesSphericalHeckeCharacterGL` | volunteer-build-reviewed |
@@ -387,18 +402,3 @@
 | M011356 | P2094 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SliceAlongLineDatumOverVacuumSplitPlace` | volunteer-build-reviewed |
 | M011357 | P2108 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SliceAlongLineDatumOverVacuumSplitPlaceStatement` | volunteer-build-reviewed |
 | M011359 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmallEntriesAndStringsAvoidExcludedNormPowers` | volunteer-build-reviewed |
-| M011363 | P2177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmallPairPairingAtOneGluedPlace` | volunteer-build-reviewed |
-| M011368 | P0177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmoothOfLimitClassStableUnderDirectionalDerivs` | volunteer-build-reviewed |
-| M011369 | P0241 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmoothOfLimitClassStableUnderDirectionalDerivsStatement` | volunteer-build-reviewed |
-| M011371 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmoothVecHeadOfDerivativeFamilyStatement` | volunteer-build-reviewed |
-| M011374 | P2034 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SmulColMul` | volunteer-build-reviewed |
-| M011377 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SnocColumnsMovedByUpperUnitriangularIff` | volunteer-build-reviewed |
-| M011381 | P2144 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SourceLiftAtGluedPlaceProof` | volunteer-build-reviewed |
-| M011383 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SpanRhoTEqTop` | volunteer-build-reviewed |
-| M011384 | P0177 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SpanSchwartzBruhatProductEqTop` | volunteer-build-reviewed |
-| M011385 | P0241 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SpanSchwartzBruhatProductEqTopStatement` | volunteer-build-reviewed |
-| M011389 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalHeckeOperatorEqSmulOfLocalParameterStatement` | volunteer-build-reviewed |
-| M011391 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalOperatorEigenvaluesDeterminedByParamsStatement` | volunteer-build-reviewed |
-| M011397 | P1690 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalParameterBoundSplitPlaceStatement` | volunteer-build-reviewed |
-| M011398 | P2121 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalParameterTransferAllFinitePlaces` | volunteer-build-reviewed |
-| M011399 | P2134 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SphericalParameterTransferAllFinitePlacesStatement` | volunteer-build-reviewed |

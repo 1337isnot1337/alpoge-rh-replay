@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004371 | P1001 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.FormsStable` | volunteer-build-reviewed |
+| M004375 | P0295 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.GoodTopBot` | volunteer-build-reviewed |
+| M004376 | P0891 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.IdxMatNF` | build-observed |
+| M004381 | P0891 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.IsRationalUnitaryDeterminantMap` | build-observed |
+| M004386 | P1001 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LFunctionPositiveConductorFourEight` | build-observed |
+| M004387 | P0295 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LamIdealOfNotPrimePow` | build-observed |
+| M004388 | P0173 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LatIntZero` | volunteer-build-reviewed |
+| M004390 | P1114 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LevelGroupNeTopNeBot` | volunteer-build-reviewed |
+| M004392 | P0095 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LinkExactAff` | volunteer-build-reviewed |
+| M004393 | P1084 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LogCondLeThree` | build-observed |
+| M004394 | P1473 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LowerTieTwAt` | volunteer-build-reviewed |
+| M004395 | P0096 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.MemSplitSeqIff` | volunteer-build-reviewed |
+| M004396 | P0435 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.NegGram` | volunteer-build-reviewed |
 | M004397 | P1956 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.NotLargeBaseConditionDisjoint` | volunteer-build-reviewed |
 | M004401 | P1001 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.PairRowIffQdRows` | build-observed |
 | M004402 | P0002 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.PermRepSingle` | volunteer-build-reviewed |
@@ -389,16 +402,3 @@
 | M005046 | P0003 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.EqZeroOrSingleOfDegreeLtTwo` | wave-reused |
 | M005047 | P0003 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.EventuallyDifferentiableAtOfContDiffAtTwo` | volunteer-build-reviewed |
 | M005048 | P0239 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsAlgebraicIndependentGenericPoint` | volunteer-build-reviewed |
-| M005049 | P0096 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsEventuallyNormRiemannThetaTermLe` | wave-reused |
-| M005050 | P0758 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsFormOfEqRatioPowMul` | wave-reused |
-| M005051 | P0003 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsLinearIndependentNormLeSuccMin` | wave-reused |
-| M005052 | P1114 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsSecNonzeroLocusEqBasicOpen` | wave-reused |
-| M005053 | P1057 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsSecNonzeroLocusEqOfLbIso` | wave-reused |
-| M005054 | P0096 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsSmulMemOfMemSpanLattice` | volunteer-build-reviewed |
-| M005055 | P0003 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.HasSumLocallyUniformlyWeierstrassZetaExcept` | volunteer-build-reviewed |
-| M005057 | P0003 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsAddFundamentalDomainLatticeDomain` | volunteer-build-reviewed |
-| M005058 | P1144 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsAmpleLBOfRelAmpleOfIsAffine` | wave-reused |
-| M005060 | P0436 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsRegularFnIffOfIsAffineOpen` | wave-reused |
-| M005061 | P0003 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsWeightedHomogeneousOfMemOrbitSpan` | wave-reused |
-| M005062 | P1169 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.LocusEqTopOfDualPow` | wave-reused |
-| M005064 | P1084 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.MemNonzeroLocusIffPowFn` | wave-reused |

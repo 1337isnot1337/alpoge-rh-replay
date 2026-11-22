@@ -27,13 +27,18 @@
 | M001376 | P2594 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.EqOfOrbitMarkInCellConeStatement` | volunteer-build-reviewed |
 | M001380 | P2417 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsBalancedFormsDominatingStatement` | volunteer-build-reviewed |
 | M001382 | P2474 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsCarrierDimensionLabelStatement` | volunteer-build-reviewed |
+| M001406 | P2623 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsStarSubdivision` | volunteer-build-reviewed |
+| M001407 | P2635 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsStarSubdivisionStatement` | volunteer-build-reviewed |
+| M001409 | P2623 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.ExistsTwistedCentreSetStatement` | volunteer-build-reviewed |
 | M001428 | P2359 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.MemRationalConeOfPerturbation` | volunteer-build-reviewed |
 | M001430 | P2417 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.MultipleCellsAmongPolyhedralFan` | volunteer-build-reviewed |
 | M001440 | P2446 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.PsdBalancedFormVanishesLowRank` | volunteer-build-reviewed |
 | M001446 | P2359 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.PsdConeExistsMaximalSupport` | volunteer-build-reviewed |
 | M001448 | P2610 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.PsdConeFinitelyManyOrbits` | volunteer-build-reviewed |
+| M001449 | P2623 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.PsdConeFinitelyManyOrbitsStatement` | volunteer-build-reviewed |
 | M001454 | P2446 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.SmoothOfMaxMultiplicityLeOneStatement` | volunteer-build-reviewed |
 | M001456 | P2530 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.StarDepthBoundedDenominatorStatement` | volunteer-build-reviewed |
+| M001477 | P2635 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.ConvexCones.VoronoiFanIsPolyhedral` | volunteer-build-reviewed |
 | M001482 | P0238 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.GlobalTheory.ExistsExpUnitary` | volunteer-build-reviewed |
 | M001489 | P1472 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.NefEffectiveCones.EventuallyEvalNegOfCoeffNeg` | volunteer-build-reviewed |
 | M001490 | P0238 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.NefEffectiveCones.ExistsNsmulMulVecMemHat` | volunteer-build-reviewed |
@@ -397,8 +402,3 @@
 | M002154 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LevelLossDegreeBounds` | volunteer-build-reviewed |
 | M002156 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LieAlgebraMaps` | volunteer-build-reviewed |
 | M002157 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LiftFormsMainTerm` | volunteer-build-reviewed |
-| M002158 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LiftedCharacterResidue` | volunteer-build-reviewed |
-| M002159 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LinearCoefficientData` | build-observed |
-| M002160 | P1271 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LocalValuationColumns` | volunteer-build-reviewed |
-| M002161 | P0173 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.ModelDdcForms` | volunteer-build-reviewed |
-| M002162 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.MultiplicationKernelIdentity` | wave-reused |

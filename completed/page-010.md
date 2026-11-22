@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M006075 | P0616 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.InvertibleEndInnerProductRootPowerSumMobiusStatement` | wave-reused |
+| M006076 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.InvertibleEndomorphismInnerProductPrimitiveMobiu` | wave-reused |
+| M006077 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.InvertibleEndomorphismInnerProductPrimitiveMobiuStatement` | wave-reused |
+| M006078 | P1029 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IrrCharEqOneOfSubsingleton` | build-observed |
+| M006079 | P0348 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IrreducibleCharacterLinearOrInducedAbelianByPrim` | wave-reused |
+| M006080 | P0394 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IrreducibleCharacterLinearOrInducedAbelianByPrimStatement` | wave-reused |
+| M006081 | P0004 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IrreducibleIdempotentEqOneAndCharacterEqWeightAl` | wave-reused |
+| M006082 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IrreducibleIdempotentEqOneAndCharacterEqWeightAlStatement` | wave-reused |
+| M006083 | P0784 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IrreducibleOfVirtualCharacterNormOne` | wave-reused |
+| M006084 | P0811 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IrreducibleOfVirtualCharacterNormOneStatement` | wave-reused |
+| M006085 | P0098 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsAbelianByPrimePowerGroupSubgroup` | wave-reused |
+| M006086 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsAbelianByPrimePowerGroupSubgroupStatement` | wave-reused |
+| M006087 | P0583 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharOfIsPrimitiveRoot` | wave-reused |
 | M006088 | P0176 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharTraceMulIdempotent` | wave-reused |
 | M006089 | P0348 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterBrauerLiftAbelianByPrimePower` | wave-reused |
 | M006090 | P0918 | `Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharacterCuspidalRootSumRegular` | wave-reused |
@@ -389,16 +402,3 @@
 | M006481 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.NormDetMulProdSqLeOfEntryLe` | volunteer-build-reviewed |
 | M006482 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.NormIteratedFDerivApplyLeOfHomogeneousPart` | volunteer-build-reviewed |
 | M006483 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.NormPderivIterLeOfAnalyticAt` | volunteer-build-reviewed |
-| M006484 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.OneLeDetOneAdd` | wave-reused |
-| M006485 | P0648 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ParabolicLineStabilizerLevi` | build-observed |
-| M006486 | P0679 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ParabolicLineStabilizerLeviStatement` | build-observed |
-| M006487 | P0177 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.PderivIterEqPderivListOfDifferentiableOn` | volunteer-build-reviewed |
-| M006488 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.ResidueNormValuationSubringEqZeroIff` | wave-reused |
-| M006489 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.SetIntegralPowEqZeroOfPosFreqEuclidean` | volunteer-build-reviewed |
-| M006490 | P0759 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.SphericalFunctionFunctionalEq` | build-observed |
-| M006491 | P0811 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.SphericalFunctionLeOne` | build-observed |
-| M006492 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.StarInvMulVecDotProductMulVecInvMulVec` | wave-reused |
-| M006493 | P0099 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.SummableLatticeExpNegPiMulNormSqDiv` | wave-reused |
-| M006494 | P0005 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.SummablePiProd` | volunteer-build-reviewed |
-| M006495 | P0839 | `Development.AbelianVarietyTheory.Proofs.CovolumeBounds.XiExistsOfBesselXiIntegrable` | build-observed |
-| M006496 | P1170 | `Development.AbelianVarietyTheory.Proofs.CubicalLineBundles.AbelianSchemeHomExtendsDedekindOfIsGrpPullbackAl` | build-observed |

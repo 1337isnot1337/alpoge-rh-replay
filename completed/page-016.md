@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M010105 | P1957 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LawsRescaleWithS` | volunteer-build-reviewed |
+| M010106 | P0706 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LazardBinomialNormUltrametric` | build-observed |
+| M010107 | P0732 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LazardBinomialNormUltrametricStatement` | build-observed |
+| M010108 | P1002 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LcvNonnegOfIntegralFull` | volunteer-build-reviewed |
+| M010109 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevChiLift` | volunteer-build-reviewed |
+| M010110 | P1689 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevChiWithPOfMem` | volunteer-build-reviewed |
+| M010111 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevDatYZero` | volunteer-build-reviewed |
+| M010112 | P1762 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevOfMem` | volunteer-build-reviewed |
+| M010114 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelCharacterEqOneOfDeepAtSplitBadPlace` | volunteer-build-reviewed |
+| M010115 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelCharacterEqOneOfDeepAtSplitBadPlaceStatement` | volunteer-build-reviewed |
+| M010118 | P1835 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelCharacterOnParahoricChartImage` | volunteer-build-reviewed |
+| M010119 | P1857 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelCharacterOnParahoricChartImageStatement` | volunteer-build-reviewed |
+| M010120 | P1994 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelCharacterTrivialNearOneOfLocalBadPlaces` | volunteer-build-reviewed |
 | M010121 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelCharacterTrivialNearOneOfLocalBadPlacesStatement` | volunteer-build-reviewed |
 | M010124 | P0866 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelCongruenceIffFlagConditions` | volunteer-build-reviewed |
 | M010126 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.LevelGroupPropertyClosedMul` | volunteer-build-reviewed |
@@ -366,6 +379,7 @@
 | M010594 | P1085 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NodesOfSizeData` | volunteer-build-reviewed |
 | M010597 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NonemptyColCh` | volunteer-build-reviewed |
 | M010599 | P1957 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NonemptyConcreteRowDataOfFinitenessBundleStatement` | volunteer-build-reviewed |
+| M010601 | P2623 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NonvanishingFromTruePackStatement` | volunteer-build-reviewed |
 | M010604 | P1420 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormCmExtensionSplitPlaceEqZpow` | volunteer-build-reviewed |
 | M010605 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormCmExtensionSplitPlaceEqZpowStatement` | volunteer-build-reviewed |
 | M010606 | P0006 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormEigenvalueLeOne` | volunteer-build-reviewed |
@@ -388,17 +402,3 @@
 | M010624 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormalCountLineIntegralitySeparationStatement` | volunteer-build-reviewed |
 | M010625 | P2066 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormalFramePlaceYZeroPrimitiveInHomLattice` | volunteer-build-reviewed |
 | M010626 | P2080 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormalFramePlaceYZeroPrimitiveInHomLatticeStatement` | volunteer-build-reviewed |
-| M010627 | P0918 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormaliserCore` | build-observed |
-| M010628 | P0811 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormaliserUnipSymCharPattern` | build-observed |
-| M010629 | P0839 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormaliserUnipSymCharPatternStatement` | build-observed |
-| M010630 | P1587 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormsMatrixStepsCoupledFactorBoundedAnyLevelPrim` | volunteer-build-reviewed |
-| M010631 | P1617 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NormsMatrixStepsCoupledFactorBoundedAnyLevelPrimStatement` | volunteer-build-reviewed |
-| M010635 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NotLevGEmpty` | volunteer-build-reviewed |
-| M010636 | P1300 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NotSqDvdOfRationalPrimeSplitsCompletely` | volunteer-build-reviewed |
-| M010638 | P1445 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NrmStepZeroEq` | volunteer-build-reviewed |
-| M010639 | P1474 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.NuRowZeroLeThreeMul` | volunteer-build-reviewed |
-| M010641 | P1533 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OfTensColMem` | volunteer-build-reviewed |
-| M010644 | P2014 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OffIdempotentMemIdealTwoIntegers` | volunteer-build-reviewed |
-| M010645 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OffIdempotentMemIdealTwoIntegersStatement` | volunteer-build-reviewed |
-| M010646 | P2033 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OffTypePinnedLocalGroups` | volunteer-build-reviewed |
-| M010647 | P2051 | `Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.OffTypePinnedLocalGroupsStatement` | volunteer-build-reviewed |

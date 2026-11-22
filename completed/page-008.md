@@ -2,6 +2,19 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005049 | P0096 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsEventuallyNormRiemannThetaTermLe` | wave-reused |
+| M005050 | P0758 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsFormOfEqRatioPowMul` | wave-reused |
+| M005051 | P0003 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsLinearIndependentNormLeSuccMin` | wave-reused |
+| M005052 | P1114 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsSecNonzeroLocusEqBasicOpen` | wave-reused |
+| M005053 | P1057 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsSecNonzeroLocusEqOfLbIso` | wave-reused |
+| M005054 | P0096 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsSmulMemOfMemSpanLattice` | volunteer-build-reviewed |
+| M005055 | P0003 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.HasSumLocallyUniformlyWeierstrassZetaExcept` | volunteer-build-reviewed |
+| M005057 | P0003 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsAddFundamentalDomainLatticeDomain` | volunteer-build-reviewed |
+| M005058 | P1144 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsAmpleLBOfRelAmpleOfIsAffine` | wave-reused |
+| M005060 | P0436 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsRegularFnIffOfIsAffineOpen` | wave-reused |
+| M005061 | P0003 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsWeightedHomogeneousOfMemOrbitSpan` | wave-reused |
+| M005062 | P1169 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.LocusEqTopOfDualPow` | wave-reused |
+| M005064 | P1084 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.MemNonzeroLocusIffPowFn` | wave-reused |
 | M005065 | P0891 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.MemRangeCompIffOfIsClosedImmersion` | wave-reused |
 | M005067 | P0393 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.NormSqRiemannThetaMulExpPeriodic` | build-observed |
 | M005068 | P0174 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.SmulOneLeAndLeSmulOneIffEigenvalues` | wave-reused |
@@ -389,16 +402,3 @@
 | M005568 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsSmoothHomogeneousHasSumUnitSmul` | build-observed |
 | M005569 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsSubSqLtOneOfTwoLtOne` | wave-reused |
 | M005571 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsSupersetMemSUnits` | wave-reused |
-| M005572 | P0732 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsTensorFiniteAdeleEquiv` | build-observed |
-| M005573 | P0865 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsTensorStabiliserClosedSLOrbit` | build-observed |
-| M005574 | P0891 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsTensorStabiliserClosedSLOrbitStatement` | build-observed |
-| M005575 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsTraceZeroAdjustmentOfHermitianLattice` | volunteer-build-reviewed |
-| M005577 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsTwoPlacesOverOfIsSquareLocal` | wave-reused |
-| M005578 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsTwoPlacesOverOfIsSquareLocalStatement` | wave-reused |
-| M005579 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUniqueIdeleOfLinearEquivQuotientLocal` | wave-reused |
-| M005580 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitEvenOrderQuadraticNormValuesOneModFour` | wave-reused |
-| M005581 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitMulSqQuadraticDefectStep` | wave-reused |
-| M005582 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitMulSqQuadraticDefectStepStatement` | wave-reused |
-| M005583 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitNormEqOfAlgHom` | volunteer-build-reviewed |
-| M005585 | P0516 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitNotLocalKummerNormOfNotPowStatement` | volunteer-build-reviewed |
-| M005586 | P0097 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUnitValuationEqOfAdm` | wave-reused |

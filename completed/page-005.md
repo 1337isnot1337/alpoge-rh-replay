@@ -2,6 +2,11 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002833 | P1056 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.SymplHAddRight` | build-observed |
+| M002836 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.BilLActRight` | build-observed |
+| M002837 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ChartIndepTruncOfExpGauge` | volunteer-build-reviewed |
+| M002838 | P2050 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ConclusionNotEmpty` | volunteer-build-reviewed |
+| M002840 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.EqZeroOfPnorm` | volunteer-build-reviewed |
 | M002841 | P0238 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ExistsIsCayleyUIff` | wave-reused |
 | M002847 | P0865 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ExistsUniquePairIff` | volunteer-build-reviewed |
 | M002848 | P1217 | `Development.AbelianVarietyTheory.Counterexamples.JetSurvey.ExistsUniquePullExpands` | volunteer-build-reviewed |
@@ -377,6 +382,7 @@
 | M003612 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.HasSumZeroOfTwoLe` | build-observed |
 | M003613 | P2747 | `Development.AbelianVarietyTheory.Definitions.Divisors.HasTraitsOnOfHasTraitsP` | volunteer-build-reviewed |
 | M003617 | P0095 | `Development.AbelianVarietyTheory.Definitions.Divisors.HilbertNinetyQuotientHomEqIff` | volunteer-build-reviewed |
+| M003620 | P2635 | `Development.AbelianVarietyTheory.Definitions.Divisors.HoloOcc` | volunteer-build-reviewed |
 | M003621 | P2093 | `Development.AbelianVarietyTheory.Definitions.Divisors.HolomorphicSectionSignatureOneOne` | volunteer-build-reviewed |
 | M003622 | P0515 | `Development.AbelianVarietyTheory.Definitions.Divisors.HopfLaurent` | build-observed |
 | M003624 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.HxiTZeroComb` | build-observed |
@@ -396,9 +402,3 @@
 | M003652 | P2504 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsAmbOfIsArithVar` | volunteer-build-reviewed |
 | M003653 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsBasOpens` | wave-reused |
 | M003654 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsBasisOfBot` | wave-reused |
-| M003657 | P2079 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsCompactIsOpenUnitsAt` | volunteer-build-reviewed |
-| M003659 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsCorrOpOfAvg` | volunteer-build-reviewed |
-| M003660 | P1472 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsCuspSpaceBot` | volunteer-build-reviewed |
-| M003661 | P0002 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsCyclotomicExtensionQI` | volunteer-build-reviewed |
-| M003663 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsDetEltOne` | wave-reused |
-| M003664 | P1444 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsDominantOfSection` | build-observed |
