@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.PublishedTheorems.NadelVanishingPairs.NadelVanishingLemmas.EtaleCoordinatesDifferentials",
+  "source_sha256": "d7f4a671b207cec322dc6c25c8b2df1b0ea5a04b7c6257524d2972526e0c170f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0210-lean436-20261121/packet-result.json"
+}

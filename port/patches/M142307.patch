@@ -1,0 +1,11 @@
+--- a/src/Development/WeilBound/RepresentationTheoryGL/SiegelWeilProof/HolomorphicContinuation/AnalyticDeterminants/DpDual.lean
++++ b/src/Development/WeilBound/RepresentationTheoryGL/SiegelWeilProof/HolomorphicContinuation/AnalyticDeterminants/DpDual.lean
+@@ -39,7 +39,7 @@
+         fun S => (1 : Matrix ι ι ℂ) a b + ∑ c, M a c * S c b := by
+       funext S; simp [Matrix.add_apply, Matrix.mul_apply]
+     rw [e]
+-    exact contDiff_const.add (ContDiff.sum fun c _ => contDiff_const.mul (contDiff_apply_apply ℂ ℂ c b))
++    exact contDiff_const.add (ContDiff.sum fun c _ => contDiff_const.mul (contDiff_apply_apply (E := ℂ) ℂ c b))
+   simp only [Matrix.det_apply]
+   exact ContDiff.sum fun σ _ => (contDiff_prod fun i _ => hent _ _).const_smul _
+ 

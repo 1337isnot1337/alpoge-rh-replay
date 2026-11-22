@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.TorusUniformisation.ChowMahlerFamilies.TestFactsBaseChange",
+  "source_sha256": "6e282693a01d0bd0612998954f7bb12d1b7768f75c0be41dee12fc3962bc183c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0210-lean436-20261121/packet-result.json"
+}
