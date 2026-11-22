@@ -1,0 +1,118 @@
+Packet P0196, partial submission
+Upstream base 3a9aaeff68740027cd5fcb157f549e93b5640224
+Port record commit 8beb22ec5052d325c6ccfaac9ae33c4c39c2d702
+Lean leanprover/lean4:v4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+python3 scripts/port-ci-build.py --workspace <workspace> --src <archive-source> --patch-ids M099726
+
+Elaborated IsLattice audit
+lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FiniteAdeleStrongApproximationModNat
+islattice-audit: 1 module(s), 0 hit(s)
+
+Earlier source builds for reused outputs
+
+Build verification on the upstream base
+Building 1 explicitly requested module(s).
+Resolved 3 transitive project import(s) (4 total module(s) to materialize).
+[FETCH] Materializing 4 SHA-256-verified source file(s)...
+[FETCH] Verified 4/4 source file(s).
+[KEEP]  M003986: unchanged (verified against archive source)
+[KEEP]  M005579: unchanged (verified against archive source)
+[KEEP]  M005936: unchanged (verified against archive source)
+[KEEP]  M099726: unchanged (verified against archive source)
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in <workspace>
+
+[BUILD] Building 1 module(s) with `lake build`...
+        IDs: M099726
+⚠ [18250/18256] Built Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ValuationAlgebraMapEqCount (38s)
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ValuationAlgebraMapEqCount.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ValuationAlgebraMapEqCount.lean:18:31: `FractionalIdeal.count_coe` has been deprecated: Use `FractionalIdeal.count_coeIdeal` instead
+
+Hint: Replace the deprecated name:
+  count_coeI̲d̲e̲a̲l̲
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ValuationAlgebraMapEqCount.lean:31:26: `FractionalIdeal.spanSingleton_mul_spanSingleton` has been deprecated: use `map_mul`
+⚠ [18251/18256] Built Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.Hat1 (10s)
+warning: src/Development/AbelianVarietyTheory/Definitions/ExistenceOfLattices/Hat1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18256] Ran Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.Hat1:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/ExistenceOfLattices/Hat1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18256] Ran Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ValuationAlgebraMapEqCount:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ValuationAlgebraMapEqCount.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18256] Built Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUniqueIdeleOfLinearEquivQuotientLocal (22s)
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:20:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:21:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:22:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:19:84: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:17:4: Unused tactic linter: `exact
+  @_root_.GlobalTheory.AdicValuationCountFactors.valuation_eq_exp_neg_count` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:18:4: Unused tactic linter: `exact
+  _root_.GlobalTheory.AdicValuationCountFactors.valuation_eq_exp_neg_count` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:19:84: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:20:4: Unused tactic linter: `(intros;
+  apply _root_.GlobalTheory.AdicValuationCountFactors.valuation_eq_exp_neg_count <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:21:4: Unused tactic linter: `(intros;
+  apply @_root_.GlobalTheory.AdicValuationCountFactors.valuation_eq_exp_neg_count <;>
+    first
+    | assumption
+    | infer_instance)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:22:4: Unused tactic linter: `(intros;
+  exact _root_.GlobalTheory.AdicValuationCountFactors.valuation_eq_exp_neg_count ..)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:345:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:372:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:580:8: `FractionalIdeal.mem_coe` has been deprecated: Use `FractionalIdeal.mem_coeToSubmodule` instead
+
+Hint: Replace the deprecated name:
+  FractionalIdeal.mem_coeT̲o̲S̲u̲b̲m̲o̲d̲u̲l̲e̲
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:580:35: `FractionalIdeal.mem_coe` has been deprecated: Use `FractionalIdeal.mem_coeToSubmodule` instead
+
+Hint: Replace the deprecated name:
+  FractionalIdeal.mem_coeT̲o̲S̲u̲b̲m̲o̲d̲u̲l̲e̲
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean:756:4: `FractionalIdeal.mem_coe` has been deprecated: Use `FractionalIdeal.mem_coeToSubmodule` instead
+
+Hint: Replace the deprecated name:
+  FractionalIdeal.mem_coeT̲o̲S̲u̲b̲m̲o̲d̲u̲l̲e̲
+⚠ [18255/18256] Ran Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsUniqueIdeleOfLinearEquivQuotientLocal:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsUniqueIdeleOfLinearEquivQuotientLocal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18256] Built Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FiniteAdeleStrongApproximationModNat (10s)
+warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/FiniteAdeleStrongApproximationModNat.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/FiniteAdeleStrongApproximationModNat.lean:56:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/FiniteAdeleStrongApproximationModNat.lean:80:9: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/FiniteAdeleStrongApproximationModNat.lean:83:11: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+Build completed successfully (18256 jobs).
+[PASS]  M099726 (Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FiniteAdeleStrongApproximationModNat)
+
+PORT_BUILD_PASSED all 1 module(s).
