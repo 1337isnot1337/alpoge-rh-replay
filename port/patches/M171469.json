@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.RegularLocalRings.DivSheaf",
+  "source_sha256": "e6a46f9c3e4106d4e2426e19d5c0bbbf5156c80213916cda7475418f458c7b00",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0232-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Lemmata.DetNormLeProdRows.DetNormLeProdRows",
+  "source_sha256": "e9f180d93f34672b0c00800d4eb5586a658ee2066c29892ad81bdb12254e6e6a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the product comparison lemma with the original nonnegativity argument. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0232-lean436-20261121/packet-result.json"
+}

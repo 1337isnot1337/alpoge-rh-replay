@@ -1,0 +1,8 @@
+{
+  "module": "PositivityTheory.AutomorphicForms.PublishedInputs.JacquetLanglands.TorusKernels.KernelTermsInvariantBoundedProof",
+  "source_sha256": "89a3f8e33d7059ddf83ada5f4c025dc9322d2f41816c74c70e61795ad5955aa1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0232-lean436-20261121/packet-result.json"
+}

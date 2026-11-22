@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.ContinuousTmaxShift",
+  "source_sha256": "85e9f0ad7e505787f19d044b1f12d12172122c97c649250d59d45765e80ae1c5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specify the constant dependent family in the coordinate smoothness lemma. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0232-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.MdiscSt",
+  "source_sha256": "6336e2e55a57cb3837482344f65852545be52fefb3a5a0ecc8a4af73cb816737",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The new MultilinearMap scalar parameter is a ring homomorphism; RingHom.id \u2102 recovers exactly the original complex multilinearity in the definition and statement. Reduce the explicit identity scalar homomorphism before finite-product rewrites.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0232-lean436-20261121/packet-result.json"
+}

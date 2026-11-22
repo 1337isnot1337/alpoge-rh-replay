@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.TateCohomology.PGroupFree",
+  "source_sha256": "aa0d972827b9b209a986a2b9e18ee0e6379b89a673ef16edc111dccbe1a754b2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0232-lean436-20261121/packet-result.json"
+}

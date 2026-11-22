@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ProfiniteCohomology.LocalClassFormation.OrderScalars",
+  "source_sha256": "ec138cdefab253077e5a27f70c536f2599724500d0a9447c8a6c839dcbb340d7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Make the existing additive homomorphisms explicit in the kernel-map statement and quotient equivalence definition. Each projection is the same underlying additive map as the old coercion.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0232-lean436-20261121/packet-result.json"
+}
