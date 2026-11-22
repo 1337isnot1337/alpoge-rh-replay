@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TensorComp",
+  "source_sha256": "57a05b1ad1f07b969ab97606e177a8700cafb7293668d428badf50847aa42017",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Bound elaboration to 200000 heartbeats to localize the expensive interrupted proof; no unfinished attempt is treated as successful. Specify the original source and target open sets in derivative expressions, preserving the exported hypotheses while avoiding expensive type inference.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0185-lean436-20261121/packet-result.json"
+}
