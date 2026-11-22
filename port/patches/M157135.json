@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TraceDualLocal.Imports",
+  "source_sha256": "c93c08e02b2cad4e9b89bf44a01bc4bb40475e96e48b09d2f4d4e851f9b58d7e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0220-lean436-20261121-r2/packet-result.json"
+}

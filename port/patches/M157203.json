@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnimodularLocalStandard.RelIdxNeZeroOfLeLeft",
+  "source_sha256": "fc7809c22161ab5de8924551f99054cb842fe26e57d17ff2bf1d3dd7d2383eaa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use smulAddHom for the same scalar-multiplication additive homomorphism. Its application remains definitionally w \u2022 v, as checked by smulHom_apply; all exported meanings are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0220-lean436-20261121-r2/packet-result.json"
+}

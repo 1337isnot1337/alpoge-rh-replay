@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.EventuallySmulSub",
+  "source_sha256": "5955006c6f8524efedd5c695b708d00fd72da38ca2791f05d777d8a07095c17c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed additive homomorphism of scalar multiplication in the exported lattice definitions and statements; its underlying map and mathematical meaning are identical.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0220-lean436-20261121-r2/packet-result.json"
+}
