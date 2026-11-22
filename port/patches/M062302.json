@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.GeomIccOneLeTwoMulSub",
+  "source_sha256": "54a81cddcc36d72ecc558c315e170ca60c9414bafaf693905c08ca63a3418d67",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
