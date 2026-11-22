@@ -1,0 +1,58 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/TaylorDiscriminants/WickVanishing/MonoVal.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/TaylorDiscriminants/WickVanishing/MonoVal.lean
+@@ -22,7 +22,7 @@
+ variable {k : Type} [CommRing k] {σ : Type}
+ 
+ theorem coeff_iter_pderiv (i : σ) (c : ℕ) (g : MvPowerSeries σ k) (n : σ →₀ ℕ) :
+-    coeff n ((pderiv k i)^[c] g) =
++    coeff n ((pderiv (R := k) i)^[c] g) =
+       coeff (n + c • Finsupp.single i 1) g * ((n i + 1).ascFactorial c : k) := by
+   induction c generalizing n g with
+   | zero => simp
+@@ -37,7 +37,7 @@
+ 
+ theorem coeff_fold {ι : Type} (cd : ι → σ) (hc : Function.Injective cd) (m : ι → ℕ) (f : MvPowerSeries σ k) :
+     ∀ (L : List ι), L.Nodup → ∀ n : σ →₀ ℕ,
+-      coeff n (L.foldr (fun l g => (pderiv k (cd l))^[m l] g) f) =
++      coeff n (L.foldr (fun l g => (pderiv (R := k) (cd l))^[m l] g) f) =
+         coeff (n + (L.map fun l => m l • Finsupp.single (cd l) 1).sum) f *
+           (L.map fun l => ((n (cd l) + 1).ascFactorial (m l) : k)).prod := by
+   intro L
+@@ -69,7 +69,7 @@
+   exact h
+ 
+ theorem dof_single (d : ℕ) (i : Fin d) :
+-    (Dof (addF k d) (Pi.single i (1 : k)) : PS k 1 d → PS k 1 d) = pderiv k ((0 : Fin 1), i) := by
++    (Dof (addF k d) (Pi.single i (1 : k)) : PS k 1 d → PS k 1 d) = pderiv (R := k) ((0 : Fin 1), i) := by
+   classical
+   funext f
+   have ev1 : ev (n := 1) ![pt k d 0, 0] (1 : PS k 2 d) = 1 := by
+@@ -78,24 +78,24 @@
+     exact h
+   have ev0 : ev (n := 1) ![pt k d 0, 0] (0 : PS k 2 d) = 0 := ev_zero _
+   have hinner : ∀ j : Fin d, (∑ i' : Fin d, MvPowerSeries.C ((Pi.single i (1 : k) : Fin d → k) i') *
+-      ev (n := 1) ![pt k d 0, 0] (pderiv k ((1 : Fin 2), i') (addF k d j))) =
++      ev (n := 1) ![pt k d 0, 0] (pderiv (R := k) ((1 : Fin 2), i') (addF k d j))) =
+       if j = i then 1 else 0 := by
+     intro j
+     rw [Finset.sum_eq_single j]
+-    · have hd : pderiv k ((1 : Fin 2), j) (addF k d j) = 1 := by
++    · have hd : pderiv (R := k) ((1 : Fin 2), j) (addF k d j) = 1 := by
+         simp [addF, MvPowerSeries.pderiv_X, Pi.single_apply]
+       rw [hd, ev1, mul_one]
+       by_cases hji : j = i
+       · subst hji; simp
+       · simp [Pi.single_apply, hji]
+     · intro b _ hb
+-      have hd : pderiv k ((1 : Fin 2), b) (addF k d j) = 0 := by
++      have hd : pderiv (R := k) ((1 : Fin 2), b) (addF k d j) = 0 := by
+         simp [addF, MvPowerSeries.pderiv_X, Pi.single_apply, Ne.symm hb]
+       rw [hd, ev0, mul_zero]
+     · intro h
+       exact absurd (Finset.mem_univ j) h
+   have hD : Dof (addF k d) (Pi.single i (1 : k)) f =
+-      ∑ j, (if j = i then (1 : PS k 1 d) else 0) * pderiv k ((0 : Fin 1), j) f := by
++      ∑ j, (if j = i then (1 : PS k 1 d) else 0) * pderiv (R := k) ((0 : Fin 1), j) f := by
+     simp only [Dof, hinner]
+   rw [hD]
+   simp [ite_mul, Finset.sum_ite_eq']

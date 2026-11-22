@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantLemmas.DividedPowerIntegrals.NatMulFactorialBound",
+  "source_sha256": "24b101bbad306686d4ebce3d5fd306d4e757e240cff1b086aace0fc4cef12188",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent coefficient API adaptation in the helper statement and proofs: polynomial.coeff index is the same coefficient as the former namespace-level function with reversed arguments. All scalar factors, index increments, submodule powers and hypotheses are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0170-lean436-20261121/packet-result.json"
+}
