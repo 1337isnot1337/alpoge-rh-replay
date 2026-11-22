@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DecoratedLatticeProofs.SpanSchwartzBruhatProductEqTop",
+  "source_sha256": "aeb01d2f4823fbd25ff8a3a71c94c2166b300d757e63b7e8016688021ef7ddb0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current named space argument for the clopen basis lemma."
+}
