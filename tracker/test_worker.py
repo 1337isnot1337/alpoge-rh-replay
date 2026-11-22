@@ -171,6 +171,29 @@ class WorkerTests(unittest.TestCase):
         self.assertEqual(self.launch(fail_first), 1)
         self.assertEqual(self.gh.posts, [2])
 
+    def test_release_probe_failure_preserves_peer_submission(self):
+        failed, peer = 'M000001', 'M000002'
+        self.assignments.write_text(f'{failed} {peer}')
+        self.artifacts(failed, 1)
+        self.artifacts(peer, 2)
+        publish_peer = self.gh.publish_assets
+
+        def publish(number, target, files):
+            if target == failed:
+                return worker_github.GitHub.publish_assets(self.gh, number, target, files)
+            return publish_peer(number, target, files)
+
+        message = 'gh: Bad Gateway (HTTP 502)'
+        probe = subprocess.CompletedProcess([], 1, '', message)
+        with patch.object(self.gh, 'publish_assets', side_effect=publish), \
+                patch.object(subprocess, 'run', return_value=probe), \
+                contextlib.redirect_stderr(io.StringIO()):
+            self.assertEqual(self.launch(self.artifacts, jobs=2), 1)
+        tasks_state = json.loads((self.root / 'state/state.json').read_text())['tasks']
+        self.assertIn(message, tasks_state[failed]['error'])
+        self.assertEqual(tasks_state[peer]['submission'], 'https://example.test/issues/2#comment')
+        self.assertEqual(self.gh.posts, [2])
+
     def test_lost_races_are_not_failures(self):
         self.assignments.write_text('M000001 M000002 M000003')
         self.gh.issues[1] = dict(number=1, title='Claim M000002', state='open', body='', labels=[],
@@ -297,6 +320,18 @@ class WorkerTests(unittest.TestCase):
         self.assignments.write_text('M000001 P0001')
         with self.assertRaisesRegex(ValueError, 'overlapping'):
             worker.plan(self.assignments, self.rows)
+
+    def test_release_probe_failure_does_not_write_to_github(self):
+        github = object.__new__(worker_github.GitHub)
+        github.fork = 'volunteer/evidence'
+        route = 'repos/volunteer/evidence/releases/tags/replay-M000001-issue-7'
+        for message in ('gh: Forbidden (HTTP 403)', 'gh: Bad Gateway (HTTP 502)'):
+            with self.subTest(message=message), patch.object(subprocess, 'run') as run:
+                run.return_value = subprocess.CompletedProcess([], 1, '', message)
+                with self.assertRaisesRegex(OSError, 'Could not inspect release') as failure:
+                    github.publish_assets(7, 'M000001', [self.root / 'receipt.json'])
+                self.assertIn(message, str(failure.exception))
+                run.assert_called_once_with(['gh', 'api', route], capture_output=True, text=True)
 
     def test_release_resume_only_uploads_missing_assets_and_checks_all_digests(self):
         out = self.artifacts('M000001', 1)
