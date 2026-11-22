@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.FibOfZero",
+  "source_sha256": "644a2ec53c2e6cc7e8fef7a19f25a83402af6c910a47a0573f927485273f2a22",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
