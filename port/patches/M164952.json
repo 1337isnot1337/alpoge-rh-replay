@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.CountingLowerBound.PMeanCountBound",
+  "source_sha256": "96a900dca2d37f7af5a480f8c346f9d02fd22856d7bd40541a2581a5d1dcd1e3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: give the finite range and scalar coefficient explicitly in the integrability proof, avoiding unconstrained summand inference. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0163-lean436-20261121/packet-result.json"
+}
