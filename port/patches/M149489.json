@@ -3,6 +3,6 @@
   "source_sha256": "4f15884c07280a2e44dabee4e057cd4a26d415fec2f3c016ef6e5e0f26d880ab",
   "lean": "leanprover/lean4:v4.36.0",
   "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
-  "notes": "unchanged Use the target theorem for the same snoc/cons rotation equality. No exported declaration statements, definitions or instances changed.",
+  "notes": "Use the target theorem for the same snoc/cons rotation equality. No exported declaration statements, definitions or instances changed.",
   "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
 }
