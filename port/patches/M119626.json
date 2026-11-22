@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.WhittakerHecke.SurjectiveEvalBlowupChartOfSpanEq",
+  "source_sha256": "06c9723d583e2ebdd9c0acd047f6d8f8eb4c01d38f1dabfc6b2a66bffb5ba5e2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0203-lean436-20261121-r2/packet-result.json"
+}
