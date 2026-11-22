@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.SelmerTransport.TransgOpen",
+  "source_sha256": "d1b1dd1f48a27143e875fdf1553da504192a01841f7cf6a9a763f84f9dd5bf3a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0261-lean436-20261121/packet-result.json"
+}
