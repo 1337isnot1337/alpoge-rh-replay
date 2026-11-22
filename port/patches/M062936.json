@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.LaurentSeriesAlgebraicConstantStatement",
+  "source_sha256": "b04301cd3d567f6787f656683f6a9d5863fb10543deb0c2b8a912f20f876d2e9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0188-lean436-20261121/packet-result.json"
+}
