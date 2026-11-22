@@ -1,0 +1,25 @@
+--- a/src/GroundTheory/PAdicHodge/LogMul.lean
++++ b/src/GroundTheory/PAdicHodge/LogMul.lean
+@@ -15,16 +15,17 @@
+   set F : ℚ⟦X⟧ := (exp ℚ).subst (log ℚ) with hF
+   set G : ℚ⟦X⟧ := mk (fun n => algebraMap ℚ ℚ ((-1) ^ n)) with hG
+   have h1 : (1 + X : ℚ⟦X⟧) * G = 1 := one_add_X_mul_geom
+-  have hF' : d⁄dX ℚ F = F * G := by
++  have hF' : d⁄dX F = F * G := by
+     rw [hF, derivative_subst hS, derivative_exp, deriv_log]
+-  have hG' : d⁄dX ℚ G = -(G * G) := by
+-    have h := congrArg (d⁄dX ℚ) h1
++    rfl
++  have hG' : d⁄dX G = -(G * G) := by
++    have h := congrArg (d⁄dX) h1
+     rw [Derivation.leibniz, derivative_one, map_add, derivative_one, derivative_X, zero_add,
+       smul_eq_mul, smul_eq_mul, mul_one] at h
+-    calc d⁄dX ℚ G = G * ((1 + X) * d⁄dX ℚ G) := by
++    calc d⁄dX G = G * ((1 + X) * d⁄dX G) := by
+           rw [← mul_assoc, mul_comm G, h1, one_mul]
+       _ = -(G * G) := by
+-          rw [show (1 + X) * d⁄dX ℚ G = -G from eq_neg_of_add_eq_zero_left h]
++          rw [show (1 + X) * d⁄dX G = -G from eq_neg_of_add_eq_zero_left h]
+           ring
+   have hc : constantCoeff F = 1 := by
+     have h0 : MvPowerSeries.constantCoeff (log ℚ) = 0 := constantCoeff_log

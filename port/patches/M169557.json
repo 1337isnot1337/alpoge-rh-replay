@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ThetaKeyFormula.ThetaThreeFamLinearIndependent",
+  "source_sha256": "57b72a958118b9c896f067995242dc5b821aa5c6db96fd77d51214508161ea40",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The congr 2 step in coeffMap_injective now exhausts the pinned heartbeat limit while unfolding autFactor against cexp. Split it into congr 1, an explicit simp only [autFactor] and congr 1, which leaves the same goal for the existing simp and ring_nf. The heartbeat limit is unchanged. Proof-only change.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0166-issue-26976/P0166-receipt.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.LocalFields.UnitsPowers",
+  "source_sha256": "9907e4b71d90742275b8cf40cbc1152f47cdbd760b5c7ed2800c2e7420d3a57c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0166-issue-26976/P0166-receipt.json"
+}
