@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.DualExponentDensity",
+  "source_sha256": "3d764d7ade45ab75efe39354fc4b047dcf73fd40845eeb371aaa0cd5006a997b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

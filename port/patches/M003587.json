@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Divisors.FstTszeSec",
+  "source_sha256": "a6e65dd7900fa021d1db4af1b749d0fea027ef0d515202da5f22281ee3d495ff",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

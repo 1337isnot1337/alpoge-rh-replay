@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Divisors.ExtFormAdjEqNegSecondForm",
+  "source_sha256": "cb9599b27eec14f91e0c2e3de8e4d53c10696afa05a4ff2c64f4c87ef8e2fc64",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify matrix multiplication entries and specify the product space for the smooth coordinate evaluation."
+}

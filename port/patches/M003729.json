@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Divisors.IsStrictlySemistableIff",
+  "source_sha256": "7f75120975f8c24df6812895b0e119ceb8d09536e2aaa924980916a9f14e93fa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use an explicit singleton for the defining polynomial relation."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.RowRawRange",
+  "source_sha256": "2a5413fdf42dbdaf8eeb4a19ab2c442308def385a31d9e901bc5fd04bf545b7a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

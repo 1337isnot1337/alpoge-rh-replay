@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.OpLDOneSubMemTriv",
+  "source_sha256": "9f2032daedeeafb641d5053bedf4b5225de41a504ced8e388d69edaa95fea658",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

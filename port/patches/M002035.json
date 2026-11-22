@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.AbelianSchemeLaw.HomExtendsOverDVR",
+  "source_sha256": "d325b37c96e78d718f6ba2aedf3a0d26e50d98a929f2c18ba2c7c8ffc3b64c73",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

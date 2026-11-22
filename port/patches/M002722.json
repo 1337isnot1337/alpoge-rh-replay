@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.PositiveTwistAverage",
+  "source_sha256": "4c34699bccfb3a2d2c1e51a582564f2997c6615549a895e8bb4d803b3dafdfed",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use IsFullLattice to retain the original spanning and finite-generation assumptions."
+}

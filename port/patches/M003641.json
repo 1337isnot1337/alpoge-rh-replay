@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Divisors.IotaScalarOne",
+  "source_sha256": "9f226a0ac359dac45c015895923d14a534b5d96e2858ad8a7a221e8737255478",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

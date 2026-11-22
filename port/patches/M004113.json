@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.MemSiegelOfIffRightAct",
+  "source_sha256": "5376188c50a6e3a424fd02a87dcffb3f9da7874142e82fe789fb0af1e656352f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

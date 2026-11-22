@@ -1,0 +1,7 @@
+{
+  "module": "CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.TorusStatementStatement",
+  "source_sha256": "8fd2db7089018b3db06ac730e10b3a367ee992a89e6b1cf07baadc0a84e5efa4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Divisors.GalMapMul",
+  "source_sha256": "b5d5b9bebc90607814b67e874b7ed73c0d87d5f7d8c1e1fd4d09842e7c5da2d6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

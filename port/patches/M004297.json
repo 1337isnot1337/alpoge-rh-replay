@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.GaloisGeometry.PreservesFiniteLimitsTensorLeftSheafify",
+  "source_sha256": "5cd2fbfdd5750327fa3fb106297aaa9d604c711287fe91ad6eb720d3f7e3ee62",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass only the equality argument to the current ULift.ext lemma."
+}

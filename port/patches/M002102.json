@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.BoundaryPolynomialFunctions",
+  "source_sha256": "e03d8888dd84fb1bbd3a4518cd20f6c8eba5c3723c686d22ff6f9fd3fd02c5d7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

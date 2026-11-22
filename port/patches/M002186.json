@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.DivisorBase.SiegelReframe",
+  "source_sha256": "4318d1e0cff6d50d745d1fdb9c58443a7109809c0ed3b230f35f16104a255bed",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

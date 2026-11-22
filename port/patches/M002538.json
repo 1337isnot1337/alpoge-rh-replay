@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.GramDensityRealCoordinates",
+  "source_sha256": "53a4c7c7616a673715a1c0838a3f9a6d7dfb4c57b2d2b4cf8a64825afe4788e8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

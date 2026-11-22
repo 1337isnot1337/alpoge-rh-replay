@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.GaloisGeometry.SectionOfFreeOnUnitComp",
+  "source_sha256": "ad89dbc44c69341ee5ecfc6a10b468e4dfe4cea9ca11a6fd39e1af70bca95924",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
