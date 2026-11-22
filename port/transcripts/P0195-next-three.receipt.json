@@ -1,0 +1,439 @@
+{
+  "target": "P0195",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/29912",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "build_base_commit": "e616aa1012a46880bf018e5600135a05efbf1882",
+  "port_record_commit": "04de9c9b7cf00ba9068f7d677566c53fddb91141",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "build_log_sha256": "e7c5b2c40ca53eb04b6bc93f835b78d40d163d78ab2409b3bbf4261a3e2b4aca",
+  "audit": {
+    "command": "lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.EqOfSiegelThetaSeriesRationalEq Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SndFDerivAddSndFDerivIEqZeroOfHarmonicAtLine Development.AbelianVarietyTheory.Proofs.TwistedOperators.ContinuousWittExtendByZero",
+    "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
+    "result": "islattice-audit: 3 module(s), 0 hit(s)"
+  },
+  "modules": [
+    {
+      "id": "M090074",
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.EqOfSiegelThetaSeriesRationalEq",
+      "source_sha256": "333ae5e4f52851f02ce95b8ddde8f7a7bc7cf000212be24e5f3f82856560e8e1",
+      "patch_sha256": null,
+      "built_source_sha256": "333ae5e4f52851f02ce95b8ddde8f7a7bc7cf000212be24e5f3f82856560e8e1",
+      "olean_sha256": "3db0059599b6d9f37af69310f5d1137f3e935f0146958a68ea16cdfd9e553db0",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M090847",
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SndFDerivAddSndFDerivIEqZeroOfHarmonicAtLine",
+      "source_sha256": "fb825eb7dcb3d66629e7d93c1d807db908a52472bcd4976fe8178365dc265ce1",
+      "patch_sha256": "e32c377f9ec492e03e28c14a6218cd6e902fe16b6e60239cf580d510ac233151",
+      "built_source_sha256": "944c0456f7edc85d7c15bdddbfcb254e5a4f304bde7c5ec9bc344f858249c52a",
+      "olean_sha256": "8b365180c452bfb81a090052aeae9ae08791634f140fe95179e0cee5bc5322ea",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M092551",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ContinuousWittExtendByZero",
+      "source_sha256": "c602134106f644240fc53cfa451adf7326fcf8b1613a9d089029647224ea4577",
+      "patch_sha256": "688dc0bff84f051963d559fd2e6c00dcbcf73d0698522a317c30265c8b83f65b",
+      "built_source_sha256": "36097ecaf9d729dcd52e868da1f2b9c855734177bb9c7cb6aec4c3161b6db411",
+      "olean_sha256": "25082d0cd9d634e0d64aa86acd258e098886ee20adc4e88d30eddc634c05e6d3",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    }
+  ],
+  "project_imports": [
+    {
+      "id": "M004105",
+      "module": "Development.AbelianVarietyTheory.Definitions.Foundations.MatrixMeasurableSpace",
+      "source_sha256": "fa6c75518903c431a0ea7c7db484c717d52eb3d4ea6c43781953af865bb8e963",
+      "patch_sha256": null,
+      "built_source_sha256": "fa6c75518903c431a0ea7c7db484c717d52eb3d4ea6c43781953af865bb8e963",
+      "port_record_sha256": "8a587159934adb139132cade5ec9cf5053ef6abda6356cec8c0b434439967523"
+    },
+    {
+      "id": "M004147",
+      "module": "Development.AbelianVarietyTheory.Definitions.Foundations.SimpleSum",
+      "source_sha256": "d4e7b1417cd302140b964b9fb99bd595c530ca5f09cfbefb60626e818e57858d",
+      "patch_sha256": null,
+      "built_source_sha256": "d4e7b1417cd302140b964b9fb99bd595c530ca5f09cfbefb60626e818e57858d",
+      "port_record_sha256": "5e68516165b1ae0e4293f80af107eab11a8fe99357108e383265438cc4efd71c"
+    },
+    {
+      "id": "M005030",
+      "module": "Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IMemSiegel",
+      "source_sha256": "51906fcd1bcee80475c959f613724eb576a62efab157cb90e77312070eeac3d0",
+      "patch_sha256": null,
+      "built_source_sha256": "51906fcd1bcee80475c959f613724eb576a62efab157cb90e77312070eeac3d0",
+      "port_record_sha256": "66847767d05561cc4e9f5d25390b5f279e45cd81877415b1f0599aaad95e7661"
+    },
+    {
+      "id": "M005049",
+      "module": "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsEventuallyNormRiemannThetaTermLe",
+      "source_sha256": "d7ca9cd2bf55e5a162f400c57502bcb03c9f1f2b52145c0e75374f89e7dc907e",
+      "patch_sha256": "8a8b7a64389ec37577cfc5b2131b22f5518d4818a9343b69734f5908458ded3e",
+      "built_source_sha256": "e2438036c8eb277ef1e91681f5c2f71a23c056fd90594a58b47eca0d48594c7e",
+      "port_record_sha256": "fcda745640de56f5f05f34a1c454978d6dd484603882532bd09e33152f268823"
+    },
+    {
+      "id": "M012737",
+      "module": "Development.AbelianVarietyTheory.Proofs.DegenerationProofs.CoeffEqZeroOfHasSumMFourierOrthonormalImage",
+      "source_sha256": "34323fe1c2d2eb5e0b7cdc81a346c64196a285b9b02d4e95397ef66e5fa8777e",
+      "patch_sha256": null,
+      "built_source_sha256": "34323fe1c2d2eb5e0b7cdc81a346c64196a285b9b02d4e95397ef66e5fa8777e",
+      "port_record_sha256": "6f300c45c416cd0f22a98f0b955e489a4a9294905c0b639d107091fa7abe183f"
+    },
+    {
+      "id": "M063391",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.PadicIsNonarchimedeanLocalField",
+      "source_sha256": "6c4187e45f1e0c75143e66dc89bb878b7d1f5c2f8c2ae803d355c2a52ae49794",
+      "patch_sha256": null,
+      "built_source_sha256": "6c4187e45f1e0c75143e66dc89bb878b7d1f5c2f8c2ae803d355c2a52ae49794",
+      "port_record_sha256": "d0d88dd02a6e36b20d50f1d6232416fe119be233232d3c1795feac5a94c64b35"
+    },
+    {
+      "id": "M090403",
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SummableNormSiegelThetaSeriesTerms",
+      "source_sha256": "61d519700d711ce7a76afea993a8e58988853942199334ba4802d6f1a06a0a16",
+      "patch_sha256": null,
+      "built_source_sha256": "61d519700d711ce7a76afea993a8e58988853942199334ba4802d6f1a06a0a16",
+      "port_record_sha256": "bb0fa70e848df2b2ff215e4eefa59ca91d0a48e857bb6766775fb9803b02fc91"
+    },
+    {
+      "id": "M090404",
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SummableProdPi",
+      "source_sha256": "d307041f98de4418c268539524912def4a392de528cc2754727ffdca35406af5",
+      "patch_sha256": "40eea7ca87ccb51d0c0a9890ea34b77ca864055bb93f8475fbee8175e309a9e2",
+      "built_source_sha256": "01e50051fbbdb3b2674da7f9d07f9aa857c35268cacecdccb94a295d4c1a73fc",
+      "port_record_sha256": "ffa8f17d53c790eea9e57400329eba57eb64a6400131570464b81029b76a5972"
+    },
+    {
+      "id": "M173721",
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SymplecticGenerators.IsPluriharmonicSiegel",
+      "source_sha256": "ec02f64f70776b54053c0515a601227fd38e7f01f5eed5d9a660cca8121e5745",
+      "patch_sha256": null,
+      "built_source_sha256": "ec02f64f70776b54053c0515a601227fd38e7f01f5eed5d9a660cca8121e5745",
+      "port_record_sha256": "59f35ef15c6e1f5eab4485a07b976fc59a81216aadd33ee2b85c12229f560607"
+    },
+    {
+      "id": "M175174",
+      "module": "ReciprocityTheory.ThetaQuasiPeriods.PeriodLattice",
+      "source_sha256": "3aa68cbaf6b4374299776532420566499685bb1096ab7a44276cf135b16c070c",
+      "patch_sha256": null,
+      "built_source_sha256": "3aa68cbaf6b4374299776532420566499685bb1096ab7a44276cf135b16c070c",
+      "port_record_sha256": "5effe369cbf838bcddd20eabca7a5c6e916349264eae790e449996295ae95e72"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M087487",
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsNormEqFixedUnitHenselian",
+      "missing_imports": [
+        "M005459"
+      ]
+    },
+    {
+      "id": "M087549",
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsRingOfIntegersTensorPadicEquivAdjoinStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M087601",
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsTensorPadicIntEquivAdjoinOfFreeFiniteStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M087643",
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsWeakApproxUnitFinitePlaceStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M087728",
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.FinrankGroupCohomologyFunRep",
+      "missing_imports": []
+    },
+    {
+      "id": "M087788",
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.FreeOnCechNerveExactAt",
+      "missing_imports": []
+    },
+    {
+      "id": "M087833",
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.GeneralLinearTransitiveOnLatticesOverDVRStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M088215",
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsIndEtaleOverEtaleOfIsIndEtale",
+      "missing_imports": []
+    },
+    {
+      "id": "M088242",
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsNoetherianRingOfDirectedPureUnion",
+      "missing_imports": []
+    },
+    {
+      "id": "M088268",
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsSemisimpleOfLocallyFiniteCompactGroupStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M088592",
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.LengthQuotientSmulLeFinrankOfEmbedding",
+      "missing_imports": []
+    },
+    {
+      "id": "M088930",
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.NotIsUnramifiedAtOfSqEqNegPrimeStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M088960",
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.OpOfAevalExists",
+      "missing_imports": []
+    },
+    {
+      "id": "M089147",
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.PrincipalCongruencePrimePowTorsionFree",
+      "missing_imports": []
+    },
+    {
+      "id": "M089180",
+      "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.QuadraticExistsIntegralGeneratorCommonDenominatoStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M090016",
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.ComplexPhaseCalculusRootOfUnity",
+      "missing_imports": []
+    },
+    {
+      "id": "M090057",
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.DoubledRowTestFunctionProperties",
+      "missing_imports": []
+    },
+    {
+      "id": "M090144",
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.ExistsSymplecticActionOfPeriodLatticeMapStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M090257",
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.IsZeroOrPosMulRootOfUnityFiniteGaussSum",
+      "missing_imports": []
+    },
+    {
+      "id": "M090321",
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.RationalSchwartzBruhatAlgebraIntegralLinear",
+      "missing_imports": []
+    },
+    {
+      "id": "M090344",
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SchwartzBruhatInnerProductSelfNonnegBounds",
+      "missing_imports": []
+    },
+    {
+      "id": "M090346",
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SchwartzBruhatIntegralEqSumResidueRepresentative",
+      "missing_imports": []
+    },
+    {
+      "id": "M090351",
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SchwartzBruhatInvariantIntegralMatrixMulStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M090378",
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SiegelThetaMulConjEqBlockTheta",
+      "missing_imports": []
+    },
+    {
+      "id": "M090411",
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SymplecticEqParabolicJParabolicJParabolicStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M090413",
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.SymplecticSiegelActionMemUpperHalfSpaceAndCocyclStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M090461",
+      "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.TsumSchwartzBruhatLevelEqSumResidueCosets",
+      "missing_imports": []
+    },
+    {
+      "id": "M090565",
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.DiscrEqJacobianOfIntegralPoints",
+      "missing_imports": []
+    },
+    {
+      "id": "M090718",
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.IsCxOfFactor",
+      "missing_imports": []
+    },
+    {
+      "id": "M090766",
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.KoszulExactOfGradedRegularStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M091138",
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.FactorCommutatorEqOfNonvanishing",
+      "missing_imports": []
+    },
+    {
+      "id": "M091266",
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.NonemptyFiniteRootsOfBimul",
+      "missing_imports": []
+    },
+    {
+      "id": "M091319",
+      "module": "Development.AbelianVarietyTheory.Proofs.ThetaShiftProofs.SumReCmTypeEqHalfTrace",
+      "missing_imports": []
+    },
+    {
+      "id": "M091417",
+      "module": "Development.AbelianVarietyTheory.Proofs.ToricGeometry.ExistsTestFunctionsSubsetOfMemNhds",
+      "missing_imports": []
+    },
+    {
+      "id": "M091418",
+      "module": "Development.AbelianVarietyTheory.Proofs.ToricGeometry.ExistsThetaSeriesApplyNeZeroOfLargeForm",
+      "missing_imports": []
+    },
+    {
+      "id": "M091427",
+      "module": "Development.AbelianVarietyTheory.Proofs.ToricGeometry.FourierCoeffUnitCubeTranslateOfEntirePeriodic",
+      "missing_imports": []
+    },
+    {
+      "id": "M091519",
+      "module": "Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.ExistsAlgebraicIndependentRatiosOfGenericZero",
+      "missing_imports": []
+    },
+    {
+      "id": "M091589",
+      "module": "Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.GramDetInequalitiesClosedForms",
+      "missing_imports": []
+    },
+    {
+      "id": "M091606",
+      "module": "Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.InjectiveOfInjectiveCompAevalOfTrdegLe",
+      "missing_imports": []
+    },
+    {
+      "id": "M091653",
+      "module": "Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.NormDetSubmatrixSqLeDetGram",
+      "missing_imports": []
+    },
+    {
+      "id": "M091670",
+      "module": "Development.AbelianVarietyTheory.Proofs.TorusHaarMeasure.PolyImgSuccAbove",
+      "missing_imports": []
+    },
+    {
+      "id": "M091739",
+      "module": "Development.AbelianVarietyTheory.Proofs.TorusSplitting.ExistsBasisSpanEqOfDiscrete",
+      "missing_imports": []
+    },
+    {
+      "id": "M091758",
+      "module": "Development.AbelianVarietyTheory.Proofs.TorusSplitting.ExistsShortIntegralRationalBasis",
+      "missing_imports": []
+    },
+    {
+      "id": "M091773",
+      "module": "Development.AbelianVarietyTheory.Proofs.TorusSplitting.GaussTailOfCardLe",
+      "missing_imports": []
+    },
+    {
+      "id": "M091784",
+      "module": "Development.AbelianVarietyTheory.Proofs.TorusSplitting.NearestPlaneRounding",
+      "missing_imports": []
+    },
+    {
+      "id": "M091841",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.AddCharConductorAndHaarIntegersExist",
+      "missing_imports": []
+    },
+    {
+      "id": "M091927",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.AeExistsPairGroupSmulMemShearedDomainStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M091930",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.AedisjointPairGroupSmulShearedDomainStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M092278",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.CoeffMatrixFamilyBilateralSubstitutionMonomialCo",
+      "missing_imports": [
+        "M082759"
+      ]
+    },
+    {
+      "id": "M092514",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ContinuousMatrixOneParameterGroupEqExpStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M092519",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ContinuousMultilinearMapExtHilbertBasis",
+      "missing_imports": []
+    },
+    {
+      "id": "M092608",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.CountBindWordShuffleByPositionsStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M092794",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.DiagPartMulDiagPart",
+      "missing_imports": []
+    },
+    {
+      "id": "M092938",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.EqTopOfPureTensorsOfFactorGeneratorsStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M093004",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.EventuallyCompSideMulEq",
+      "missing_imports": []
+    },
+    {
+      "id": "M093084",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsBasisTensor",
+      "missing_imports": []
+    },
+    {
+      "id": "M093259",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsFinsetGeneratingOperatorStableBoundedStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M093426",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsIsHilbertSchmidtOrthonormalApply",
+      "missing_imports": []
+    },
+    {
+      "id": "M093531",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMaximalOperatorStableOfFinsetGeneratingStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M093532",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMemSBEqOneOnCompact",
+      "missing_imports": []
+    }
+  ],
+  "pruned": [
+    "M092550"
+  ]
+}
