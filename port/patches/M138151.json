@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.CoreStatements.FlagImmersions.FlagDegreeLinearFunctionals",
+  "source_sha256": "9007e07a830c4b5d054c5f0e3fa81ad1e7a10479f14371a8909ce3eedb3d7ed3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
