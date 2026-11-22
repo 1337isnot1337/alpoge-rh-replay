@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.TraceNormComp",
+  "source_sha256": "7b4e198636be553d5d1fc17bfdced1a44e18e3c0c44ea7c2bc2f33158c829f1b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0225-lean436-20261121/packet-result.json"
+}

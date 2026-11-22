@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.Brauer.Degree",
+  "source_sha256": "861836d8019442f5fa75f750a7e3e3fe0c52ee4ba1173257f07e316e94fe1461",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0225-lean436-20261121/packet-result.json"
+}
