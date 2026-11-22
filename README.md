@@ -37,11 +37,10 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 
 <!-- active-volunteers-start -->
 
-[1,271 entries. View the full table](tracker/volunteer-tables/active/README.md).
+[1,272 entries. View the full table](tracker/volunteer-tables/active/README.md).
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@loremcdmx](https://github.com/loremcdmx) | [M079838](https://github.com/rohanarun/alpoge-rh-replay/issues/27043) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [M140261](https://github.com/rohanarun/alpoge-rh-replay/issues/27044) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [P2600](https://github.com/rohanarun/alpoge-rh-replay/issues/27248) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [M118430](https://github.com/rohanarun/alpoge-rh-replay/issues/27317) | Claimed |
@@ -59,8 +58,9 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 | [@user42245](https://github.com/user42245) | [M163709](https://github.com/rohanarun/alpoge-rh-replay/issues/28973) | Claimed |
 | [@user42245](https://github.com/user42245) | [M168805](https://github.com/rohanarun/alpoge-rh-replay/issues/28987) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2743](https://github.com/rohanarun/alpoge-rh-replay/issues/29098) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P2703](https://github.com/rohanarun/alpoge-rh-replay/issues/29113) | Claimed |
 | [@JamCh01](https://github.com/JamCh01) | [P2712](https://github.com/rohanarun/alpoge-rh-replay/issues/29149) | Claimed |
+| [@emsi](https://github.com/emsi) | [P2840](https://github.com/rohanarun/alpoge-rh-replay/issues/29197) | Claimed |
+| [@hipotures](https://github.com/hipotures) | [P2705](https://github.com/rohanarun/alpoge-rh-replay/issues/29199) | Claimed |
 
 <!-- active-volunteers-end -->
 
@@ -71,23 +71,17 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 
 <!-- pending-volunteers-start -->
 
-[6,200 entries. View the full table](tracker/volunteer-tables/pending/README.md).
+[6,207 entries. View the full table](tracker/volunteer-tables/pending/README.md).
 
 | Contributor | Task | Review |
 |---|---|---|
-| [@1337isnot1337](https://github.com/1337isnot1337) | [M061664](https://github.com/rohanarun/alpoge-rh-replay/issues/29005#issuecomment-7073281513) | Pending review |
-| [@1337isnot1337](https://github.com/1337isnot1337) | [M062053](https://github.com/rohanarun/alpoge-rh-replay/issues/29007#issuecomment-7073268266) | Pending review |
-| [@emsi](https://github.com/emsi) | [M106941](https://github.com/rohanarun/alpoge-rh-replay/issues/29039#issuecomment-7073312739) | Pending review |
-| [@1337isnot1337](https://github.com/1337isnot1337) | [M062744](https://github.com/rohanarun/alpoge-rh-replay/issues/29042#issuecomment-7073302292) | Pending review |
-| [@hipotures](https://github.com/hipotures) | [P2701](https://github.com/rohanarun/alpoge-rh-replay/issues/29053#issuecomment-7073474246) | Pending review |
-| [@1337isnot1337](https://github.com/1337isnot1337) | [M063102](https://github.com/rohanarun/alpoge-rh-replay/issues/29057#issuecomment-7073318130) | Pending review |
-| [@1337isnot1337](https://github.com/1337isnot1337) | [M162221](https://github.com/rohanarun/alpoge-rh-replay/issues/29058#issuecomment-7073335176) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M135441](https://github.com/rohanarun/alpoge-rh-replay/issues/29088#issuecomment-7073348095) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M135976](https://github.com/rohanarun/alpoge-rh-replay/issues/29089#issuecomment-7073336764) | Pending review |
 | [@1337isnot1337](https://github.com/1337isnot1337) | [M063764](https://github.com/rohanarun/alpoge-rh-replay/issues/29090#issuecomment-7073351657) | Pending review |
 | [@1337isnot1337](https://github.com/1337isnot1337) | [M064213](https://github.com/rohanarun/alpoge-rh-replay/issues/29095#issuecomment-7073341107) | Pending review |
 | [@1337isnot1337](https://github.com/1337isnot1337) | [M162224](https://github.com/rohanarun/alpoge-rh-replay/issues/29109#issuecomment-7073433269) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M135977](https://github.com/rohanarun/alpoge-rh-replay/issues/29111#issuecomment-7073380126) | Pending review |
+| [@hipotures](https://github.com/hipotures) | [P2703](https://github.com/rohanarun/alpoge-rh-replay/issues/29113#issuecomment-7073552206) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M136107](https://github.com/rohanarun/alpoge-rh-replay/issues/29115#issuecomment-7073381050) | Pending review |
 | [@1337isnot1337](https://github.com/1337isnot1337) | [M061665](https://github.com/rohanarun/alpoge-rh-replay/issues/29145#issuecomment-7073439423) | Pending review |
 | [@1337isnot1337](https://github.com/1337isnot1337) | [M062745](https://github.com/rohanarun/alpoge-rh-replay/issues/29146#issuecomment-7073407014) | Pending review |
@@ -95,6 +89,12 @@ If anyone has some large machines they would be happy to put CI runners on, plea
 | [@jdenwood](https://github.com/jdenwood) | [M136124](https://github.com/rohanarun/alpoge-rh-replay/issues/29152#issuecomment-7073431608) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M136130](https://github.com/rohanarun/alpoge-rh-replay/issues/29153#issuecomment-7073420788) | Pending review |
 | [@emsi](https://github.com/emsi) | [M034178](https://github.com/rohanarun/alpoge-rh-replay/issues/29156#issuecomment-7073497291) | Pending review |
+| [@jdenwood](https://github.com/jdenwood) | [M136133](https://github.com/rohanarun/alpoge-rh-replay/issues/29159#issuecomment-7073480142) | Pending review |
+| [@1337isnot1337](https://github.com/1337isnot1337) | [M162271](https://github.com/rohanarun/alpoge-rh-replay/issues/29160#issuecomment-7073514624) | Pending review |
+| [@jdenwood](https://github.com/jdenwood) | [M136135](https://github.com/rohanarun/alpoge-rh-replay/issues/29161#issuecomment-7073481291) | Pending review |
+| [@1337isnot1337](https://github.com/1337isnot1337) | [M063765](https://github.com/rohanarun/alpoge-rh-replay/issues/29186#issuecomment-7073505128) | Pending review |
+| [@1337isnot1337](https://github.com/1337isnot1337) | [M105751](https://github.com/rohanarun/alpoge-rh-replay/issues/29193#issuecomment-7073512849) | Pending review |
+| [@1337isnot1337](https://github.com/1337isnot1337) | [M105791](https://github.com/rohanarun/alpoge-rh-replay/issues/29195#issuecomment-7073500704) | Pending review |
 
 <!-- pending-volunteers-end -->
 
