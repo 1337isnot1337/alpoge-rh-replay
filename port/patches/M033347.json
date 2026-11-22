@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.GaloisDescentSemilinearBijective",
+  "source_sha256": "c8952542c834d7431e8b3b7f33029dc5cfb80bafc32d674ffd38d08c89f110f8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
