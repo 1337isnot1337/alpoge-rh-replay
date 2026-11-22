@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FiniteModuleAdicComplete",
+  "source_sha256": "6cbbd13c2a96f18d9ceef562253f3e8aee25e77845edef3a0469937ba78b7992",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0205-lean436-20261121/packet-result.json"
+}

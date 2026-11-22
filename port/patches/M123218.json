@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FiniteDimensionalFixedTensor",
+  "source_sha256": "7fe603d44b47e322383365ca9e4ec78b1387b230f1921108fcab2ce254163b59",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove only the obsolete tensor-induction zero alternatives reported by the compiler; preserve other recursors. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0205-lean436-20261121/packet-result.json"
+}

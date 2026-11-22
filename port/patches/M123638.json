@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.GaussianTubeTransformContinuous",
+  "source_sha256": "79ec3d3bd9456e69ee3bc369e58e18d783757b0f4ff937af7eb165f201c78840",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0205-lean436-20261121/packet-result.json"
+}

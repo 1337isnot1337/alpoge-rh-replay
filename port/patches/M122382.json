@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DisintegrationInjectiveOpenMap",
+  "source_sha256": "42a323129c085081ea1f10ffec3cc0dd55771ca07e05947a372c37c6f8fe92dc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0205-lean436-20261121/packet-result.json"
+}

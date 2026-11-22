@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.HaarMeasureSemidirectProductFormula",
+  "source_sha256": "91a6b0b340a624e002bc6e6174c53112bf3ea9d8b4efde2fde750f52f112b3c6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Infer the canonical subgroup BorelSpace instances and supply the existing measurable maps explicitly to the updated measure scalar-map lemmas. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0205-lean436-20261121/packet-result.json"
+}
