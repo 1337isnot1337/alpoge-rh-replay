@@ -1,19 +1,28 @@
-P0158 port build transcript
-CI run: https://github.com/1337isnot1337/alpoge-rh-replay/actions/runs/44955262476
+P0158 complete target build and IsLattice audit
+CI run: https://github.com/1337isnot1337/alpoge-rh-replay/actions/runs/44961884720
+CI commit: 885d71e85e2087afacc066c4c8c946dbed47fcc3
 Lean: Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)
 Mathlib: fc4f59e577feb1a4956671bc04ac18aaaf8cd842
-Tracker commit: cda8cc07df98803b66cc00b5ae830a71576e6768
+Original CI artifact: 14730048505; 168848 bytes; SHA-256 916c49a41a5bf1faba4b494f990f26cb295dfed1595abe37a4bba5c71fc4c8d4
+Coverage: 64 successful live module builds; 100 pinned source files in the closure.
+IsLattice audit script SHA-256: aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b
+IsLattice audit runner SHA-256: 96fff7b0b1dd4c31c761f81e09fca3670ac6e49f638cc8d00bd5da00a6cb37b7
+The pinned, compiled-source and patch hashes match the previously submitted full build.
+The 58 upstream unchanged records and six remaining packet records/patches are preserved.
+Immutable complete evidence and provenance before review cleanup:
+https://github.com/1337isnot1337/alpoge-rh-replay/tree/ec4426bc61191a1f73a14e8f79390b2154d90960/port/evidence/P0158-islattice-audit
+https://github.com/1337isnot1337/alpoge-rh-replay/tree/ec4426bc61191a1f73a14e8f79390b2154d90960/port/evidence/P0158
 
 ========================================================================
 M161192
 ========================================================================
 Module: M161192 Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.RdBound
-Started: 2026-11-21T22:11:27.443694+00:00
+Started: 2026-11-21T23:29:17.322402+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.RdBound:olean"]
 Pinned source SHA-256: d0070c1265882c9c5af232b2e4f87344d2e1530ce91533a194bf6efdf7ade109
 Compiled source SHA-256: d0070c1265882c9c5af232b2e4f87344d2e1530ce91533a194bf6efdf7ade109
 
-⚠ [18250/18252] Built Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.RdArith (3.2s)
+⚠ [18250/18252] Built Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.RdArith (3.6s)
 warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean:21:4: this tactic is never executed
 
@@ -177,7 +186,7 @@ warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClass
 Note: This linter can be disabled with `set_option linter.unusedTactic false`
 ⚠ [18251/18252] Ran Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.RdArith:irArts
 warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdArith.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.RdBound (4.4s)
+⚠ [18252/18252] Built Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.RdBound (4.2s)
 warning: src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/InertiaGaloisSymmetry/RdBound.lean:97:12: `push_neg` has been deprecated. Prefer using `push Not` instead.
 If you'd rather continue using `push_neg` in your project, you can implement it as follows:
 ```
@@ -223,14 +232,14 @@ Hint: Replace the deprecated name:
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 12.105
+Elapsed seconds: 12.499
 Timed out: False
 
 ========================================================================
 M161222
 ========================================================================
 Module: M161222 Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerAdditivityDegreeZero
-Started: 2026-11-21T22:11:39.550916+00:00
+Started: 2026-11-21T23:29:29.822963+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerAdditivityDegreeZero:olean"]
 Pinned source SHA-256: a52b77d5b1d1f6f1da9e381958b4d0baad222246cb95a5fbadb2496d15c0484d
 Compiled source SHA-256: a52b77d5b1d1f6f1da9e381958b4d0baad222246cb95a5fbadb2496d15c0484d
@@ -239,19 +248,19 @@ Compiled source SHA-256: a52b77d5b1d1f6f1da9e381958b4d0baad222246cb95a5fbadb2496
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerVanishingBelowDimension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerVanishingBelowDimension:irArts
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerVanishingBelowDimension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerAdditivityDegreeZero (2.4s)
+⚠ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerAdditivityDegreeZero (2.5s)
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerAdditivityDegreeZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 9.589
+Elapsed seconds: 9.639
 Timed out: False
 
 ========================================================================
 M161223
 ========================================================================
 Module: M161223 Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerAdditivityExactSequence
-Started: 2026-11-21T22:11:49.140794+00:00
+Started: 2026-11-21T23:29:39.462756+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerAdditivityExactSequence:olean"]
 Pinned source SHA-256: 5fd33751579250be4634b4086bd0b2e7fa8d68535483676bee2b9833b108d1cb
 Compiled source SHA-256: 5fd33751579250be4634b4086bd0b2e7fa8d68535483676bee2b9833b108d1cb
@@ -260,18 +269,18 @@ Compiled source SHA-256: 5fd33751579250be4634b4086bd0b2e7fa8d68535483676bee2b983
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerVanishingBelowDimension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerVanishingBelowDimension:irArts
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerVanishingBelowDimension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-✔ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerAdditivityExactSequence (3.4s)
+✔ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerAdditivityExactSequence (3.5s)
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 7.587
+Elapsed seconds: 7.641
 Timed out: False
 
 ========================================================================
 M161224
 ========================================================================
 Module: M161224 Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerAdditivityInSection
-Started: 2026-11-21T22:11:56.730531+00:00
+Started: 2026-11-21T23:29:47.105937+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerAdditivityInSection:olean"]
 Pinned source SHA-256: 7963e0f30eac568ce7011c7754152271a77c571beb9c226a266224ea0c2124aa
 Compiled source SHA-256: 7963e0f30eac568ce7011c7754152271a77c571beb9c226a266224ea0c2124aa
@@ -280,18 +289,18 @@ Compiled source SHA-256: 7963e0f30eac568ce7011c7754152271a77c571beb9c226a266224e
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerVanishingBelowDimension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerVanishingBelowDimension:irArts
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerVanishingBelowDimension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-✔ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerAdditivityInSection (3.6s)
+✔ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerAdditivityInSection (3.5s)
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 7.686
+Elapsed seconds: 7.684
 Timed out: False
 
 ========================================================================
 M161225
 ========================================================================
 Module: M161225 Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerIndependenceOfOrder
-Started: 2026-11-21T22:12:04.418133+00:00
+Started: 2026-11-21T23:29:54.792643+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerIndependenceOfOrder:olean"]
 Pinned source SHA-256: 85363aa6b2c5fadfc3cf0acce9db49db7be029b5bc304d070f518415b88bac55
 Compiled source SHA-256: 85363aa6b2c5fadfc3cf0acce9db49db7be029b5bc304d070f518415b88bac55
@@ -300,18 +309,18 @@ Compiled source SHA-256: 85363aa6b2c5fadfc3cf0acce9db49db7be029b5bc304d070f51841
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerVanishingBelowDimension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerVanishingBelowDimension:irArts
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerVanishingBelowDimension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-✔ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerIndependenceOfOrder (7.8s)
+✔ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerIndependenceOfOrder (7.9s)
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 11.849
+Elapsed seconds: 12.101
 Timed out: False
 
 ========================================================================
 M161230
 ========================================================================
 Module: M161230 Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleDev
-Started: 2026-11-21T22:12:16.270969+00:00
+Started: 2026-11-21T23:30:06.897558+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleDev:olean"]
 Pinned source SHA-256: 6d28abe585e969beb4d6cfe56563f9aa88b526ca5ce516f95fe55252455ab297
 Compiled source SHA-256: 9bf714f132aa9217ce7db6fa45884f3c018fa8c0f86d6d19867e19f4dc455f56
@@ -320,7 +329,7 @@ Compiled source SHA-256: 9bf714f132aa9217ce7db6fa45884f3c018fa8c0f86d6d19867e19f
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerVanishingBelowDimension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerVanishingBelowDimension:irArts
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerVanishingBelowDimension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleDev (3.3s)
+⚠ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleDev (3.5s)
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/RuleDev.lean:79:27: `if_true` has been deprecated: Use `ite_true` instead
 
 Hint: Replace the deprecated name:
@@ -388,14 +397,14 @@ Hint: Replace the deprecated name:
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 7.382
+Elapsed seconds: 7.737
 Timed out: False
 
 ========================================================================
 M161231
 ========================================================================
 Module: M161231 Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleFin
-Started: 2026-11-21T22:12:23.655422+00:00
+Started: 2026-11-21T23:30:14.636426+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleFin:olean"]
 Pinned source SHA-256: d45ec402c7653904e4f0a4c111ea5e75bfb8f7b24dbfc9c4f0603930105d5ae2
 Compiled source SHA-256: d45ec402c7653904e4f0a4c111ea5e75bfb8f7b24dbfc9c4f0603930105d5ae2
@@ -404,7 +413,7 @@ Compiled source SHA-256: d45ec402c7653904e4f0a4c111ea5e75bfb8f7b24dbfc9c4f060393
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerVanishingBelowDimension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerVanishingBelowDimension:irArts
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerVanishingBelowDimension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleFin (2.9s)
+⚠ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleFin (3.1s)
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/RuleFin.lean:305:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
 
 Hint: Replace the deprecated name:
@@ -412,14 +421,14 @@ Hint: Replace the deprecated name:
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 7.03
+Elapsed seconds: 7.284
 Timed out: False
 
 ========================================================================
 M161232
 ========================================================================
 Module: M161232 Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleGr
-Started: 2026-11-21T22:12:30.687238+00:00
+Started: 2026-11-21T23:30:21.922385+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleGr:olean"]
 Pinned source SHA-256: d72d833fb1ccebbd5c534b9ce1481acb835e3a60af47d165f7addd6015ad33d5
 Compiled source SHA-256: d72d833fb1ccebbd5c534b9ce1481acb835e3a60af47d165f7addd6015ad33d5
@@ -428,7 +437,7 @@ Compiled source SHA-256: d72d833fb1ccebbd5c534b9ce1481acb835e3a60af47d165f7addd6
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerVanishingBelowDimension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerVanishingBelowDimension:irArts
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerVanishingBelowDimension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleGr (3.1s)
+⚠ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleGr (3.2s)
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/RuleGr.lean:269:0: automatically included section variable(s) unused in theorem `Formalism.MainNotions.V.Pf.V2.Calc.range_isHomSub`:
   [GradedAlgebra 𝒜]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -444,14 +453,14 @@ Note: This linter can be disabled with `set_option linter.unusedSectionVars fals
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 7.18
+Elapsed seconds: 7.332
 Timed out: False
 
 ========================================================================
 M161234
 ========================================================================
 Module: M161234 Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleIso
-Started: 2026-11-21T22:12:37.869203+00:00
+Started: 2026-11-21T23:30:29.256540+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleIso:olean"]
 Pinned source SHA-256: 71c3aabfcc789baadd86a390dd4ed2f091e5a346fbcc8aa415e04812d3301ffc
 Compiled source SHA-256: 71c3aabfcc789baadd86a390dd4ed2f091e5a346fbcc8aa415e04812d3301ffc
@@ -464,14 +473,14 @@ warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwis
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 6.828
+Elapsed seconds: 6.88
 Timed out: False
 
 ========================================================================
 M161236
 ========================================================================
 Module: M161236 Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleNzd
-Started: 2026-11-21T22:12:44.698951+00:00
+Started: 2026-11-21T23:30:36.138820+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleNzd:olean"]
 Pinned source SHA-256: 7bb5a0b7e27058f275052e8816bc89f91f9a2470ea685931fa024c72256e40b9
 Compiled source SHA-256: 7bb5a0b7e27058f275052e8816bc89f91f9a2470ea685931fa024c72256e40b9
@@ -480,18 +489,18 @@ Compiled source SHA-256: 7bb5a0b7e27058f275052e8816bc89f91f9a2470ea685931fa024c7
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerVanishingBelowDimension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerVanishingBelowDimension:irArts
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwists/QuotientShiftIrreducible/NoetherianQuotientCalc/EulerVanishingBelowDimension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-✔ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleNzd (2.3s)
+✔ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleNzd (2.4s)
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 6.478
+Elapsed seconds: 6.579
 Timed out: False
 
 ========================================================================
 M161238
 ========================================================================
 Module: M161238 Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleShift
-Started: 2026-11-21T22:12:51.178103+00:00
+Started: 2026-11-21T23:30:42.719398+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleShift:olean"]
 Pinned source SHA-256: 72f1e09142ab081825b7ab3b93354b5989c1b053ec6b064e178e41a4d0fd6805
 Compiled source SHA-256: 72f1e09142ab081825b7ab3b93354b5989c1b053ec6b064e178e41a4d0fd6805
@@ -504,14 +513,14 @@ warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/LeastPrimeTwis
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 6.427
+Elapsed seconds: 6.478
 Timed out: False
 
 ========================================================================
 M161242
 ========================================================================
 Module: M161242 Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.VanishingBelowDimensionRule
-Started: 2026-11-21T22:12:57.607124+00:00
+Started: 2026-11-21T23:30:49.198584+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.VanishingBelowDimensionRule:olean"]
 Pinned source SHA-256: 6dfc95678e0b18252cdabd2dfd1fd932643676d51910f274f62d26b8a12399c5
 Compiled source SHA-256: 6dfc95678e0b18252cdabd2dfd1fd932643676d51910f274f62d26b8a12399c5
@@ -536,23 +545,23 @@ Note: This linter can be disabled with `set_option linter.unusedSectionVars fals
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 7.233
+Elapsed seconds: 7.236
 Timed out: False
 
 ========================================================================
 M161253
 ========================================================================
 Module: M161253 Formalism.SharpRestriction.ValuationFrobeniusEpsilon.ScaledValuations.ValuationApplyLtOneIff
-Started: 2026-11-21T22:13:04.842784+00:00
+Started: 2026-11-21T23:30:56.436941+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SharpRestriction.ValuationFrobeniusEpsilon.ScaledValuations.ValuationApplyLtOneIff:olean"]
 Pinned source SHA-256: 61dea1d8b95a42e5a97669aeeadeca77db08f8f11aa40bbd7d2e166751b821bf
 Compiled source SHA-256: 61dea1d8b95a42e5a97669aeeadeca77db08f8f11aa40bbd7d2e166751b821bf
 
-⚠ [18250/18252] Built Formalism.ConjugateSelfDual.Statement (2.3s)
+⚠ [18250/18252] Built Formalism.ConjugateSelfDual.Statement (2.4s)
 warning: src/Formalism/ConjugateSelfDual/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.ConjugateSelfDual.Statement:irArts
 warning: src/Formalism/ConjugateSelfDual/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.ScaledValuations.ValuationApplyLtOneIff (2.8s)
+⚠ [18252/18252] Built Formalism.SharpRestriction.ValuationFrobeniusEpsilon.ScaledValuations.ValuationApplyLtOneIff (2.9s)
 warning: src/Formalism/SharpRestriction/ValuationFrobeniusEpsilon/ScaledValuations/ValuationApplyLtOneIff.lean:15:0: automatically included section variable(s) unused in theorem `Formalism.MainNotions.V.Lang.mem_Dec`:
   [NumberField F]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -574,23 +583,23 @@ Note: This linter can be disabled with `set_option linter.unusedSectionVars fals
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 9.184
+Elapsed seconds: 9.538
 Timed out: False
 
 ========================================================================
 M161269
 ========================================================================
 Module: M161269 Formalism.SizeWindowBrackets.ChainSlopeWindows.IntersectionFailsForSubmodule
-Started: 2026-11-21T22:13:14.027997+00:00
+Started: 2026-11-21T23:31:05.976467+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SizeWindowBrackets.ChainSlopeWindows.IntersectionFailsForSubmodule:olean"]
 Pinned source SHA-256: 228e4f75f087ddd00692145a493c1bdb6be853f0dc54c983ba0c6086b00bc972
 Compiled source SHA-256: 228e4f75f087ddd00692145a493c1bdb6be853f0dc54c983ba0c6086b00bc972
 
-⚠ [18250/18252] Built Formalism.SizeWindowBrackets.CutFailsForRSubmodule (2.4s)
+⚠ [18250/18252] Built Formalism.SizeWindowBrackets.CutFailsForRSubmodule (2.6s)
 warning: src/Formalism/SizeWindowBrackets/CutFailsForRSubmodule.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SizeWindowBrackets.CutFailsForRSubmodule:irArts
 warning: src/Formalism/SizeWindowBrackets/CutFailsForRSubmodule.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.SizeWindowBrackets.ChainSlopeWindows.IntersectionFailsForSubmodule (3.5s)
+⚠ [18252/18252] Built Formalism.SizeWindowBrackets.ChainSlopeWindows.IntersectionFailsForSubmodule (3.6s)
 warning: src/Formalism/SizeWindowBrackets/ChainSlopeWindows/IntersectionFailsForSubmodule.lean:21:0: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.DiagonalSublatticeLength.mem_diagSub`:
   [IsDomain R]
   [IsDiscreteValuationRing R]
@@ -641,23 +650,23 @@ Note: This linter can be disabled with `set_option linter.unusedSectionVars fals
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 10.038
+Elapsed seconds: 10.394
 Timed out: False
 
 ========================================================================
 M161285
 ========================================================================
 Module: M161285 Formalism.SizeWindowBrackets.ChainSlopeWindows.TraceConjTransposeMulSelf
-Started: 2026-11-21T22:13:24.067750+00:00
+Started: 2026-11-21T23:31:16.372961+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SizeWindowBrackets.ChainSlopeWindows.TraceConjTransposeMulSelf:olean"]
 Pinned source SHA-256: 8b2afe7d7f80e919c8b6317e9236393c96c5dd4251c438ac25bb3e38b8b89acb
 Compiled source SHA-256: 8b2afe7d7f80e919c8b6317e9236393c96c5dd4251c438ac25bb3e38b8b89acb
 
-⚠ [18250/18252] Built Formalism.SizeWindowBrackets.TraceSquareAndDiagBounds (2.5s)
+⚠ [18250/18252] Built Formalism.SizeWindowBrackets.TraceSquareAndDiagBounds (2.6s)
 warning: src/Formalism/SizeWindowBrackets/TraceSquareAndDiagBounds.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SizeWindowBrackets.TraceSquareAndDiagBounds:irArts
 warning: src/Formalism/SizeWindowBrackets/TraceSquareAndDiagBounds.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.SizeWindowBrackets.ChainSlopeWindows.TraceConjTransposeMulSelf (6.7s)
+⚠ [18252/18252] Built Formalism.SizeWindowBrackets.ChainSlopeWindows.TraceConjTransposeMulSelf (6.8s)
 warning: src/Formalism/SizeWindowBrackets/ChainSlopeWindows/TraceConjTransposeMulSelf.lean:45:0: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.HilbertSchmidtNormSquare.Kd_eq`:
   [Fintype ι]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -719,19 +728,19 @@ macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 13.253
+Elapsed seconds: 13.549
 Timed out: False
 
 ========================================================================
 M161287
 ========================================================================
 Module: M161287 Formalism.SizeWindowBrackets.ChainSlopeWindows.WeightedMeanLemmaNeedsDegree
-Started: 2026-11-21T22:13:37.324473+00:00
+Started: 2026-11-21T23:31:29.925892+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SizeWindowBrackets.ChainSlopeWindows.WeightedMeanLemmaNeedsDegree:olean"]
 Pinned source SHA-256: 83471d359a412fa2d4078d4e932bb835a15cbdf5e903e1589b848623c91300af
 Compiled source SHA-256: 83471d359a412fa2d4078d4e932bb835a15cbdf5e903e1589b848623c91300af
 
-⚠ [2130/2132] Built Formalism.SizeWindowBrackets.RealSlopeBoundsSplit (743ms)
+⚠ [2130/2132] Built Formalism.SizeWindowBrackets.RealSlopeBoundsSplit (733ms)
 warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Data.Real.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Algebra.Order.BigOperators.Ring.Finset` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Algebra.Order.Field.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
@@ -744,7 +753,7 @@ warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Ma
 warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Algebra.Order.BigOperators.Ring.Finset` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Algebra.Order.Field.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Data.Finset.Lattice.Fold` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [2132/2132] Built Formalism.SizeWindowBrackets.ChainSlopeWindows.WeightedMeanLemmaNeedsDegree (807ms)
+⚠ [2132/2132] Built Formalism.SizeWindowBrackets.ChainSlopeWindows.WeightedMeanLemmaNeedsDegree (814ms)
 warning: src/Formalism/SizeWindowBrackets/ChainSlopeWindows/WeightedMeanLemmaNeedsDegree.lean: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 warning: src/Formalism/SizeWindowBrackets/ChainSlopeWindows/WeightedMeanLemmaNeedsDegree.lean: imports `Mathlib.Tactic.FieldSimp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 warning: src/Formalism/SizeWindowBrackets/ChainSlopeWindows/WeightedMeanLemmaNeedsDegree.lean: imports `Mathlib.Tactic.NormNum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
@@ -753,23 +762,23 @@ warning: src/Formalism/SizeWindowBrackets/ChainSlopeWindows/WeightedMeanLemmaNee
 Build completed successfully (2132 jobs).
 
 Exit status: 0
-Elapsed seconds: 2.27
+Elapsed seconds: 2.22
 Timed out: False
 
 ========================================================================
 M161288
 ========================================================================
 Module: M161288 Formalism.SizeWindowBrackets.ChainSlopeWindows.WeightedSlopeExcessDecomposition
-Started: 2026-11-21T22:13:39.596036+00:00
+Started: 2026-11-21T23:31:32.147619+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SizeWindowBrackets.ChainSlopeWindows.WeightedSlopeExcessDecomposition:olean"]
 Pinned source SHA-256: 83f6906af0403cd9ea03c6c50d12b436f7fa41c49df4a095faf78f7f4e9b1704
 Compiled source SHA-256: 83f6906af0403cd9ea03c6c50d12b436f7fa41c49df4a095faf78f7f4e9b1704
 
-⚠ [18250/18252] Built Formalism.SizeWindowBrackets.ClaimGaFree (2.5s)
+⚠ [18250/18252] Built Formalism.SizeWindowBrackets.ClaimGaFree (2.4s)
 warning: src/Formalism/SizeWindowBrackets/ClaimGaFree.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SizeWindowBrackets.ClaimGaFree:irArts
 warning: src/Formalism/SizeWindowBrackets/ClaimGaFree.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.SizeWindowBrackets.ChainSlopeWindows.WeightedSlopeExcessDecomposition (4.1s)
+⚠ [18252/18252] Built Formalism.SizeWindowBrackets.ChainSlopeWindows.WeightedSlopeExcessDecomposition (3.8s)
 warning: src/Formalism/SizeWindowBrackets/ChainSlopeWindows/WeightedSlopeExcessDecomposition.lean:9:0: automatically included section variable(s) unused in theorem `Formalism.LFunctionChainParameters.UnitWeightPartition.weightedSlopeExcess_decomposition`:
   [DecidableEq ι]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -809,19 +818,19 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 10.794
+Elapsed seconds: 10.394
 Timed out: False
 
 ========================================================================
 M161306
 ========================================================================
 Module: M161306 Formalism.SizeWindowBrackets.QuotientSlopeBoundsWith
-Started: 2026-11-21T22:13:50.392836+00:00
+Started: 2026-11-21T23:31:42.544287+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SizeWindowBrackets.QuotientSlopeBoundsWith:olean"]
 Pinned source SHA-256: 1bec3441ff655a4bf463b13dc317eec649852fe0b93e5d8dc9dd571cf1660857
 Compiled source SHA-256: 1bec3441ff655a4bf463b13dc317eec649852fe0b93e5d8dc9dd571cf1660857
 
-⚠ [18250/18252] Built Formalism.RankGapBounds.MeanBoundSecondForm (2.7s)
+⚠ [18250/18252] Built Formalism.RankGapBounds.MeanBoundSecondForm (2.6s)
 warning: src/Formalism/RankGapBounds/MeanBoundSecondForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.RankGapBounds.MeanBoundSecondForm:irArts
 warning: src/Formalism/RankGapBounds/MeanBoundSecondForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
@@ -829,19 +838,19 @@ warning: src/Formalism/RankGapBounds/MeanBoundSecondForm.lean: imports `Mathlib`
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 9.339
+Elapsed seconds: 9.287
 Timed out: False
 
 ========================================================================
 M161312
 ========================================================================
 Module: M161312 Formalism.SizeWindowBrackets.SlopeExcessBoundExponentZero
-Started: 2026-11-21T22:13:59.733101+00:00
+Started: 2026-11-21T23:31:51.833256+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SizeWindowBrackets.SlopeExcessBoundExponentZero:olean"]
 Pinned source SHA-256: 4df8cd7b1d0c852de9004508240fb3ed3446d9347e3214eea63bb827d9986f8f
 Compiled source SHA-256: 4df8cd7b1d0c852de9004508240fb3ed3446d9347e3214eea63bb827d9986f8f
 
-⚠ [1977/2199] Replayed Formalism.SizeWindowBrackets.RealSlopeBoundsSplit
+⚠ [1977/2205] Replayed Formalism.SizeWindowBrackets.RealSlopeBoundsSplit
 warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Data.Real.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Algebra.Order.BigOperators.Ring.Finset` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Algebra.Order.Field.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
@@ -849,7 +858,7 @@ warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Ma
 warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean:1:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
 
 import Mathlib.Basic.Real.Basic
-⚠ [1978/2199] Ran Formalism.SizeWindowBrackets.RealSlopeBoundsSplit:irArts
+⚠ [1978/2205] Ran Formalism.SizeWindowBrackets.RealSlopeBoundsSplit:irArts
 warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Data.Real.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Algebra.Order.BigOperators.Ring.Finset` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 warning: src/Formalism/SizeWindowBrackets/RealSlopeBoundsSplit.lean: imports `Mathlib.Algebra.Order.Field.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
@@ -862,100 +871,100 @@ warning: src/Formalism/RankGapBounds/MeanBoundSecondForm.lean: imports `Mathlib`
 Build completed successfully (18254 jobs).
 
 Exit status: 0
-Elapsed seconds: 6.781
+Elapsed seconds: 6.783
 Timed out: False
 
 ========================================================================
 M161320
 ========================================================================
 Module: M161320 Formalism.SmithDeterminants.DefsDVR
-Started: 2026-11-21T22:14:06.515570+00:00
+Started: 2026-11-21T23:31:58.617636+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SmithDeterminants.DefsDVR:olean"]
 Pinned source SHA-256: 10f2495d22548a272a2fb5324faf63dfe59a76647835f7cee2c330a743a8dc5d
 Compiled source SHA-256: 10f2495d22548a272a2fb5324faf63dfe59a76647835f7cee2c330a743a8dc5d
 
-⚠ [18250/18252] Built Formalism.SmithDeterminants.StatementDVR (2.7s)
+⚠ [18250/18252] Built Formalism.SmithDeterminants.StatementDVR (2.9s)
 warning: src/Formalism/SmithDeterminants/StatementDVR.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SmithDeterminants.StatementDVR:irArts
 warning: src/Formalism/SmithDeterminants/StatementDVR.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-✔ [18252/18252] Built Formalism.SmithDeterminants.DefsDVR (2.3s)
+✔ [18252/18252] Built Formalism.SmithDeterminants.DefsDVR (2.4s)
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 9.185
+Elapsed seconds: 9.488
 Timed out: False
 
 ========================================================================
 M161321
 ========================================================================
 Module: M161321 Formalism.SmithDeterminants.DefsGram
-Started: 2026-11-21T22:14:15.702109+00:00
+Started: 2026-11-21T23:32:08.106730+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SmithDeterminants.DefsGram:olean"]
 Pinned source SHA-256: fde3538c793533f6ead274d886696afd9c7d3d2fc966dd9a387ded999490129c
 Compiled source SHA-256: fde3538c793533f6ead274d886696afd9c7d3d2fc966dd9a387ded999490129c
 
-⚠ [18250/18252] Built Formalism.SmithDeterminants.StatementGram (2.3s)
+⚠ [18250/18252] Built Formalism.SmithDeterminants.StatementGram (2.5s)
 warning: src/Formalism/SmithDeterminants/StatementGram.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SmithDeterminants.StatementGram:irArts
 warning: src/Formalism/SmithDeterminants/StatementGram.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-✔ [18252/18252] Built Formalism.SmithDeterminants.DefsGram (2.3s)
+✔ [18252/18252] Built Formalism.SmithDeterminants.DefsGram (2.5s)
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 8.682
+Elapsed seconds: 9.238
 Timed out: False
 
 ========================================================================
 M161326
 ========================================================================
 Module: M161326 Formalism.SobolevGaussianKernels.GaussianKernelBounds.EichlerEquivalenceHolds
-Started: 2026-11-21T22:14:24.385378+00:00
+Started: 2026-11-21T23:32:17.345950+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SobolevGaussianKernels.GaussianKernelBounds.EichlerEquivalenceHolds:olean"]
 Pinned source SHA-256: 602ce7b3d5dc4526649ae4d8c20c7d7333d8c1d440361ff088ba77fd5c6db013
 Compiled source SHA-256: 602ce7b3d5dc4526649ae4d8c20c7d7333d8c1d440361ff088ba77fd5c6db013
 
-⚠ [18250/18252] Built Formalism.SobolevGaussianKernels.StatementEI (2.4s)
+⚠ [18250/18252] Built Formalism.SobolevGaussianKernels.StatementEI (2.5s)
 warning: src/Formalism/SobolevGaussianKernels/StatementEI.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SobolevGaussianKernels.StatementEI:irArts
 warning: src/Formalism/SobolevGaussianKernels/StatementEI.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.SobolevGaussianKernels.GaussianKernelBounds.EichlerEquivalenceHolds (2.7s)
+⚠ [18252/18252] Built Formalism.SobolevGaussianKernels.GaussianKernelBounds.EichlerEquivalenceHolds (2.9s)
 warning: src/Formalism/SobolevGaussianKernels/GaussianKernelBounds/EichlerEquivalenceHolds.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 9.182
+Elapsed seconds: 9.588
 Timed out: False
 
 ========================================================================
 M161327
 ========================================================================
 Module: M161327 Formalism.SobolevGaussianKernels.GaussianKernelBounds.HasDerivAtSphereChartLast
-Started: 2026-11-21T22:14:33.569451+00:00
+Started: 2026-11-21T23:32:26.935960+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SobolevGaussianKernels.GaussianKernelBounds.HasDerivAtSphereChartLast:olean"]
 Pinned source SHA-256: 389520a86a08089e00981d2cd7424fc1f1c9e90eadcd41a58a93550e305c7c88
 Compiled source SHA-256: 389520a86a08089e00981d2cd7424fc1f1c9e90eadcd41a58a93550e305c7c88
 
-⚠ [18250/18254] Built Formalism.SobolevGaussianKernels.StatementSB (2.3s)
+⚠ [18250/18254] Built Formalism.SobolevGaussianKernels.StatementSB (2.5s)
 warning: src/Formalism/SobolevGaussianKernels/StatementSB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18254] Ran Formalism.SobolevGaussianKernels.StatementSB:irArts
 warning: src/Formalism/SobolevGaussianKernels/StatementSB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18254] Built Formalism.SobolevGaussianKernels.StatementLF (2.5s)
+⚠ [18252/18254] Built Formalism.SobolevGaussianKernels.StatementLF (2.7s)
 warning: src/Formalism/SobolevGaussianKernels/StatementLF.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18253/18254] Ran Formalism.SobolevGaussianKernels.StatementLF:irArts
 warning: src/Formalism/SobolevGaussianKernels/StatementLF.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18254/18254] Built Formalism.SobolevGaussianKernels.GaussianKernelBounds.HasDerivAtSphereChartLast (2.3s)
+⚠ [18254/18254] Built Formalism.SobolevGaussianKernels.GaussianKernelBounds.HasDerivAtSphereChartLast (2.4s)
 warning: src/Formalism/SobolevGaussianKernels/GaussianKernelBounds/HasDerivAtSphereChartLast.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 Build completed successfully (18254 jobs).
 
 Exit status: 0
-Elapsed seconds: 8.932
+Elapsed seconds: 9.339
 Timed out: False
 
 ========================================================================
 M161328
 ========================================================================
 Module: M161328 Formalism.SobolevGaussianKernels.GaussianKernelBounds.LfProd
-Started: 2026-11-21T22:14:42.503033+00:00
+Started: 2026-11-21T23:32:36.276303+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SobolevGaussianKernels.GaussianKernelBounds.LfProd:olean"]
 Pinned source SHA-256: 0f5c4b06fb44d13993f9dcd8f2cf6029b5fee1c9245a94155a20cdfe845e2e50
 Compiled source SHA-256: 0f5c4b06fb44d13993f9dcd8f2cf6029b5fee1c9245a94155a20cdfe845e2e50
@@ -964,66 +973,66 @@ Compiled source SHA-256: 0f5c4b06fb44d13993f9dcd8f2cf6029b5fee1c9245a94155a20cdf
 warning: src/Formalism/SobolevGaussianKernels/StatementLF.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SobolevGaussianKernels.StatementLF:irArts
 warning: src/Formalism/SobolevGaussianKernels/StatementLF.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.SobolevGaussianKernels.GaussianKernelBounds.LfProd (2.4s)
+⚠ [18252/18252] Built Formalism.SobolevGaussianKernels.GaussianKernelBounds.LfProd (2.6s)
 warning: src/Formalism/SobolevGaussianKernels/GaussianKernelBounds/LfProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 warning: src/Formalism/SobolevGaussianKernels/GaussianKernelBounds/LfProd.lean:38:8: `Ideal.card_primesOverFinset_le_finrank` has been deprecated: Use results of RingTheory.RamificationInertia.Basic
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 6.526
+Elapsed seconds: 6.731
 Timed out: False
 
 ========================================================================
 M161333
 ========================================================================
 Module: M161333 Formalism.SobolevGaussianKernels.StatementFU
-Started: 2026-11-21T22:14:49.030637+00:00
+Started: 2026-11-21T23:32:43.008435+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SobolevGaussianKernels.StatementFU:olean"]
 Pinned source SHA-256: 840060893aafea54a10bbc51893d2fb6dc987264f186dd03b17beb15e62a2d8b
 Compiled source SHA-256: 840060893aafea54a10bbc51893d2fb6dc987264f186dd03b17beb15e62a2d8b
 
-⚠ [18250/18252] Built Formalism.CorankShare.StatementFR (2.6s)
+⚠ [18250/18252] Built Formalism.CorankShare.StatementFR (2.7s)
 warning: src/Formalism/CorankShare/StatementFR.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.CorankShare.StatementFR:irArts
 warning: src/Formalism/CorankShare/StatementFR.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.SobolevGaussianKernels.StatementFU (2.7s)
+⚠ [18252/18252] Built Formalism.SobolevGaussianKernels.StatementFU (2.9s)
 warning: src/Formalism/SobolevGaussianKernels/StatementFU.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 9.384
+Elapsed seconds: 9.736
 Timed out: False
 
 ========================================================================
 M161341
 ========================================================================
 Module: M161341 Formalism.StatementOC
-Started: 2026-11-21T22:14:58.416178+00:00
+Started: 2026-11-21T23:32:52.746159+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.StatementOC:olean"]
 Pinned source SHA-256: 0249562a8b70df61856f6fdce16afdf17fbe88c9945af4231700503d11027f8a
 Compiled source SHA-256: 0249562a8b70df61856f6fdce16afdf17fbe88c9945af4231700503d11027f8a
 
-⚠ [18250/18252] Built Formalism.Statement (2.3s)
+⚠ [18250/18252] Built Formalism.Statement (2.4s)
 warning: src/Formalism/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.Statement:irArts
 warning: src/Formalism/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-✔ [18252/18252] Built Formalism.StatementOC (2.3s)
+✔ [18252/18252] Built Formalism.StatementOC (2.4s)
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 8.733
+Elapsed seconds: 8.987
 Timed out: False
 
 ========================================================================
 M161344
 ========================================================================
 Module: M161344 Formalism.SubspaceCounting.DetQuotVal
-Started: 2026-11-21T22:15:07.150520+00:00
+Started: 2026-11-21T23:33:01.734372+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.DetQuotVal:olean"]
 Pinned source SHA-256: a448bd3f43b5916576cdad0454a63f75e647ff61b214ef41e9b71926e9c874fe
 Compiled source SHA-256: a448bd3f43b5916576cdad0454a63f75e647ff61b214ef41e9b71926e9c874fe
 
-⚠ [18250/18252] Built Formalism.SubspaceCounting.StatementW (2.3s)
+⚠ [18250/18252] Built Formalism.SubspaceCounting.StatementW (2.4s)
 warning: src/Formalism/SubspaceCounting/StatementW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SubspaceCounting.StatementW:irArts
 warning: src/Formalism/SubspaceCounting/StatementW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
@@ -1031,19 +1040,19 @@ warning: src/Formalism/SubspaceCounting/StatementW.lean: imports `Mathlib` from 
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 8.735
+Elapsed seconds: 8.835
 Timed out: False
 
 ========================================================================
 M161348
 ========================================================================
 Module: M161348 Formalism.SubspaceCounting.StatementC
-Started: 2026-11-21T22:15:15.886832+00:00
+Started: 2026-11-21T23:33:10.570450+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.StatementC:olean"]
 Pinned source SHA-256: 7f99c3ca4f6361ca19c3dc54d51b798ad1e6f2016d714327e733170564d23b36
 Compiled source SHA-256: 7f99c3ca4f6361ca19c3dc54d51b798ad1e6f2016d714327e733170564d23b36
 
-⚠ [18250/18252] Built Formalism.SubspaceCounting.Statement (2.6s)
+⚠ [18250/18252] Built Formalism.SubspaceCounting.Statement (2.5s)
 warning: src/Formalism/SubspaceCounting/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SubspaceCounting.Statement:irArts
 warning: src/Formalism/SubspaceCounting/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
@@ -1051,14 +1060,14 @@ warning: src/Formalism/SubspaceCounting/Statement.lean: imports `Mathlib` from p
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 9.187
+Elapsed seconds: 9.133
 Timed out: False
 
 ========================================================================
 M161349
 ========================================================================
 Module: M161349 Formalism.SubspaceCounting.StatementD
-Started: 2026-11-21T22:15:25.075211+00:00
+Started: 2026-11-21T23:33:19.705046+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.StatementD:olean"]
 Pinned source SHA-256: e017eb1508c6990e2808719be46db74ed207ecdb3fc4652670e50e5c91851fe8
 Compiled source SHA-256: e017eb1508c6990e2808719be46db74ed207ecdb3fc4652670e50e5c91851fe8
@@ -1071,14 +1080,14 @@ warning: src/Formalism/SubspaceCounting/Statement.lean: imports `Mathlib` from p
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 6.479
+Elapsed seconds: 6.429
 Timed out: False
 
 ========================================================================
 M161354
 ========================================================================
 Module: M161354 Formalism.SubspaceCounting.SubspaceCountingProofs.CramerCofactor
-Started: 2026-11-21T22:15:31.555748+00:00
+Started: 2026-11-21T23:33:26.135455+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.SubspaceCountingProofs.CramerCofactor:olean"]
 Pinned source SHA-256: 445560a1c07fb34826ab59d78ba7cc3841a4a76f22722aa9d761ade41ee3153b
 Compiled source SHA-256: 445560a1c07fb34826ab59d78ba7cc3841a4a76f22722aa9d761ade41ee3153b
@@ -1091,14 +1100,14 @@ warning: src/Formalism/SubspaceCounting/StatementW.lean: imports `Mathlib` from 
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 6.379
+Elapsed seconds: 6.479
 Timed out: False
 
 ========================================================================
 M161355
 ========================================================================
 Module: M161355 Formalism.SubspaceCounting.SubspaceCountingProofs.DetDivides
-Started: 2026-11-21T22:15:37.936167+00:00
+Started: 2026-11-21T23:33:32.615325+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.SubspaceCountingProofs.DetDivides:olean"]
 Pinned source SHA-256: a26e8ab9ee8763f921d4de56feef2295c1371e509b921e4fec4ea1a2e258559d
 Compiled source SHA-256: 6d3d17d9cb6fe7ec75a6663bc549dd1b217ed46f6cf16862f1b6118c41b4f4dc
@@ -1107,7 +1116,7 @@ Compiled source SHA-256: 6d3d17d9cb6fe7ec75a6663bc549dd1b217ed46f6cf16862f1b6118
 warning: src/Formalism/SubspaceCounting/StatementW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SubspaceCounting.StatementW:irArts
 warning: src/Formalism/SubspaceCounting/StatementW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.SubspaceCounting.SubspaceCountingProofs.DetDivides (5.0s)
+⚠ [18252/18252] Built Formalism.SubspaceCounting.SubspaceCountingProofs.DetDivides (6.1s)
 warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/DetDivides.lean:98:0: automatically included section variable(s) unused in theorem `Formalism.G0.DetDividesP.aeval_detLetters`:
   [DecidableEq ι]
 consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
@@ -1239,14 +1248,14 @@ Hint: Replace the deprecated name:
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 10.041
+Elapsed seconds: 10.293
 Timed out: False
 
 ========================================================================
 M161357
 ========================================================================
 Module: M161357 Formalism.SubspaceCounting.SubspaceCountingProofs.DetVal
-Started: 2026-11-21T22:15:47.981030+00:00
+Started: 2026-11-21T23:33:42.911098+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.SubspaceCountingProofs.DetVal:olean"]
 Pinned source SHA-256: b5730747c7cf15752aee8ab0ca267c8ac6fba1562156663b9109b8db205fe6e7
 Compiled source SHA-256: b5730747c7cf15752aee8ab0ca267c8ac6fba1562156663b9109b8db205fe6e7
@@ -1267,14 +1276,14 @@ Hint: Replace the deprecated name:
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 7.081
+Elapsed seconds: 7.08
 Timed out: False
 
 ========================================================================
 M161358
 ========================================================================
 Module: M161358 Formalism.SubspaceCounting.SubspaceCountingProofs.LengthLayers
-Started: 2026-11-21T22:15:55.063664+00:00
+Started: 2026-11-21T23:33:49.993421+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.SubspaceCountingProofs.LengthLayers:olean"]
 Pinned source SHA-256: 9dd64761a55b999885eb91fcc8953e6c8bed16acdf8f6f34463692e436ee3eb8
 Compiled source SHA-256: 9dd64761a55b999885eb91fcc8953e6c8bed16acdf8f6f34463692e436ee3eb8
@@ -1287,14 +1296,14 @@ warning: src/Formalism/SubspaceCounting/Statement.lean: imports `Mathlib` from p
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 7.282
+Elapsed seconds: 7.334
 Timed out: False
 
 ========================================================================
 M161362
 ========================================================================
 Module: M161362 Formalism.SubspaceCounting.SubspaceCountingProofs.QVandermonde
-Started: 2026-11-21T22:16:02.348003+00:00
+Started: 2026-11-21T23:33:57.329725+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.SubspaceCountingProofs.QVandermonde:olean"]
 Pinned source SHA-256: bdab6e092816baa758af8920d15a17c39f21daf261a9def1de917fc11636420f
 Compiled source SHA-256: bdab6e092816baa758af8920d15a17c39f21daf261a9def1de917fc11636420f
@@ -1303,18 +1312,18 @@ Compiled source SHA-256: bdab6e092816baa758af8920d15a17c39f21daf261a9def1de917fc
 warning: src/Formalism/SubspaceCounting/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SubspaceCounting.StatementB:irArts
 warning: src/Formalism/SubspaceCounting/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-✔ [18252/18252] Built Formalism.SubspaceCounting.SubspaceCountingProofs.QVandermonde (2.5s)
+✔ [18252/18252] Built Formalism.SubspaceCounting.SubspaceCountingProofs.QVandermonde (2.6s)
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 9.085
+Elapsed seconds: 9.186
 Timed out: False
 
 ========================================================================
 M161363
 ========================================================================
 Module: M161363 Formalism.SubspaceCounting.SubspaceCountingProofs.SaturatedMember
-Started: 2026-11-21T22:16:11.434995+00:00
+Started: 2026-11-21T23:34:06.517669+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.SubspaceCountingProofs.SaturatedMember:olean"]
 Pinned source SHA-256: 38d92e8728060d10dab71b4d4df528fc14d3ded84ea3bd7ade153d733f765a8a
 Compiled source SHA-256: 38d92e8728060d10dab71b4d4df528fc14d3ded84ea3bd7ade153d733f765a8a
@@ -1323,18 +1332,18 @@ Compiled source SHA-256: 38d92e8728060d10dab71b4d4df528fc14d3ded84ea3bd7ade153d7
 warning: src/Formalism/SubspaceCounting/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SubspaceCounting.Statement:irArts
 warning: src/Formalism/SubspaceCounting/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-✔ [18252/18252] Built Formalism.SubspaceCounting.SubspaceCountingProofs.SaturatedMember (2.5s)
+✔ [18252/18252] Built Formalism.SubspaceCounting.SubspaceCountingProofs.SaturatedMember (2.4s)
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 6.579
+Elapsed seconds: 6.528
 Timed out: False
 
 ========================================================================
 M161364
 ========================================================================
 Module: M161364 Formalism.SubspaceCounting.SubspaceCountingProofs.SubspaceCount
-Started: 2026-11-21T22:16:18.015330+00:00
+Started: 2026-11-21T23:34:13.046813+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.SubspaceCountingProofs.SubspaceCount:olean"]
 Pinned source SHA-256: db919a1289e041d96bf354ee249a79cc4b29501c582ce30fb0d96768b8aef516
 Compiled source SHA-256: db919a1289e041d96bf354ee249a79cc4b29501c582ce30fb0d96768b8aef516
@@ -1347,14 +1356,14 @@ warning: src/Formalism/SubspaceCounting/StatementB.lean: imports `Mathlib` from 
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 6.628
+Elapsed seconds: 6.63
 Timed out: False
 
 ========================================================================
 M161365
 ========================================================================
 Module: M161365 Formalism.SubspaceCounting.SubspaceCountingProofs.TailConcavity
-Started: 2026-11-21T22:16:24.645182+00:00
+Started: 2026-11-21T23:34:19.678449+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.SubspaceCountingProofs.TailConcavity:olean"]
 Pinned source SHA-256: 1fc1f340a0ad4ff3f48c87352288d44e75a46dd84b348dd07999ef57ea7f5499
 Compiled source SHA-256: 1fc1f340a0ad4ff3f48c87352288d44e75a46dd84b348dd07999ef57ea7f5499
@@ -1363,7 +1372,7 @@ Compiled source SHA-256: 1fc1f340a0ad4ff3f48c87352288d44e75a46dd84b348dd07999ef5
 warning: src/Formalism/SubspaceCounting/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SubspaceCounting.StatementB:irArts
 warning: src/Formalism/SubspaceCounting/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.SubspaceCounting.SubspaceCountingProofs.TailConcavity (3.4s)
+⚠ [18252/18252] Built Formalism.SubspaceCounting.SubspaceCountingProofs.TailConcavity (3.5s)
 warning: src/Formalism/SubspaceCounting/SubspaceCountingProofs/TailConcavity.lean:145:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
 
 Hint: Replace the deprecated name:
@@ -1375,14 +1384,14 @@ Hint: Replace the deprecated name:
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 7.532
+Elapsed seconds: 7.681
 Timed out: False
 
 ========================================================================
 M161373
 ========================================================================
 Module: M161373 Formalism.SubspaceCounting.SubspaceCountingProofs.WalkSharp
-Started: 2026-11-21T22:16:32.179916+00:00
+Started: 2026-11-21T23:34:27.362077+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.SubspaceCountingProofs.WalkSharp:olean"]
 Pinned source SHA-256: 35274bb4adc362a5685be90d859f738a64ee532f3967dc6edf31351a6d837125
 Compiled source SHA-256: 35274bb4adc362a5685be90d859f738a64ee532f3967dc6edf31351a6d837125
@@ -1603,14 +1612,14 @@ Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 8.385
+Elapsed seconds: 8.485
 Timed out: False
 
 ========================================================================
 M161374
 ========================================================================
 Module: M161374 Formalism.SubspaceCounting.TopsChoiceSecondBound
-Started: 2026-11-21T22:16:40.568542+00:00
+Started: 2026-11-21T23:34:35.850407+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SubspaceCounting.TopsChoiceSecondBound:olean"]
 Pinned source SHA-256: 159f67bab1e7311b595c274588e45d3a47249b896f756acab1c5764d0e47da79
 Compiled source SHA-256: 159f67bab1e7311b595c274588e45d3a47249b896f756acab1c5764d0e47da79
@@ -1623,19 +1632,19 @@ warning: src/Formalism/SubspaceCounting/StatementB.lean: imports `Mathlib` from 
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 6.378
+Elapsed seconds: 6.48
 Timed out: False
 
 ========================================================================
 M161375
 ========================================================================
 Module: M161375 Formalism.SuccessiveMinima.DefsMink
-Started: 2026-11-21T22:16:46.948102+00:00
+Started: 2026-11-21T23:34:42.332007+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SuccessiveMinima.DefsMink:olean"]
 Pinned source SHA-256: f4dfcb8628ec5b371f483bebec64145b89d971cc530e1e210262f6b475b07208
 Compiled source SHA-256: f4dfcb8628ec5b371f483bebec64145b89d971cc530e1e210262f6b475b07208
 
-⚠ [18250/18252] Built Formalism.SuccessiveMinima.StatementMink (2.4s)
+⚠ [18250/18252] Built Formalism.SuccessiveMinima.StatementMink (2.6s)
 warning: src/Formalism/SuccessiveMinima/StatementMink.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SuccessiveMinima.StatementMink:irArts
 warning: src/Formalism/SuccessiveMinima/StatementMink.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
@@ -1643,14 +1652,14 @@ warning: src/Formalism/SuccessiveMinima/StatementMink.lean: imports `Mathlib` fr
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 8.934
+Elapsed seconds: 9.186
 Timed out: False
 
 ========================================================================
 M161376
 ========================================================================
 Module: M161376 Formalism.SuccessiveMinima.DefsNP
-Started: 2026-11-21T22:16:55.883983+00:00
+Started: 2026-11-21T23:34:51.519747+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SuccessiveMinima.DefsNP:olean"]
 Pinned source SHA-256: 7f2b78bdfc23cfdca045eec3ce00f7399ad0ca55a1e7bad45716babf72f4ab77
 Compiled source SHA-256: 7f2b78bdfc23cfdca045eec3ce00f7399ad0ca55a1e7bad45716babf72f4ab77
@@ -1659,18 +1668,18 @@ Compiled source SHA-256: 7f2b78bdfc23cfdca045eec3ce00f7399ad0ca55a1e7bad45716bab
 warning: src/Formalism/SuccessiveMinima/StatementNP.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SuccessiveMinima.StatementNP:irArts
 warning: src/Formalism/SuccessiveMinima/StatementNP.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-✔ [18252/18252] Built Formalism.SuccessiveMinima.DefsNP (2.3s)
+✔ [18252/18252] Built Formalism.SuccessiveMinima.DefsNP (2.4s)
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 8.683
+Elapsed seconds: 8.886
 Timed out: False
 
 ========================================================================
 M161388
 ========================================================================
 Module: M161388 Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NewtonSlope
-Started: 2026-11-21T22:17:04.568223+00:00
+Started: 2026-11-21T23:35:00.407134+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NewtonSlope:olean"]
 Pinned source SHA-256: babd1869b153097cb9782e6195ee84d93a100b978f6fdd83581650aaa34dbdd6
 Compiled source SHA-256: babd1869b153097cb9782e6195ee84d93a100b978f6fdd83581650aaa34dbdd6
@@ -1679,27 +1688,27 @@ Compiled source SHA-256: babd1869b153097cb9782e6195ee84d93a100b978f6fdd83581650a
 warning: src/Formalism/SuccessiveMinima/StatementNP.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SuccessiveMinima.StatementNP:irArts
 warning: src/Formalism/SuccessiveMinima/StatementNP.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-✔ [18252/18252] Built Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NewtonSlope (2.5s)
+✔ [18252/18252] Built Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NewtonSlope (2.6s)
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 6.628
+Elapsed seconds: 6.832
 Timed out: False
 
 ========================================================================
 M161393
 ========================================================================
 Module: M161393 Formalism.TameInertiaTowers.CentralOrderTwo.Groups
-Started: 2026-11-21T22:17:11.198383+00:00
+Started: 2026-11-21T23:35:07.241152+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.TameInertiaTowers.CentralOrderTwo.Groups:olean"]
 Pinned source SHA-256: 90a4c4df1fe90dae6f241ba9f5e5a974ffa3626536649fb8bd143a1f6511d633
 Compiled source SHA-256: bb63e9580e1971e0c1452b48fb52bef65fbc7e3e04686da3057e912eedb22f7b
 
-⚠ [18250/18252] Built Formalism.TameInertiaTowers.StatementGroup (2.8s)
+⚠ [18250/18252] Built Formalism.TameInertiaTowers.StatementGroup (3.0s)
 warning: src/Formalism/TameInertiaTowers/StatementGroup.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.TameInertiaTowers.StatementGroup:irArts
 warning: src/Formalism/TameInertiaTowers/StatementGroup.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.TameInertiaTowers.CentralOrderTwo.Groups (3.2s)
+⚠ [18252/18252] Built Formalism.TameInertiaTowers.CentralOrderTwo.Groups (3.4s)
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/Groups.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/Groups.lean:87:93: Unused tactic linter: there are no goals left for `done`.
 
@@ -1707,14 +1716,14 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 10.187
+Elapsed seconds: 10.545
 Timed out: False
 
 ========================================================================
 M161394
 ========================================================================
 Module: M161394 Formalism.TameInertiaTowers.CentralOrderTwo.MemDecompositionSubgroupIff
-Started: 2026-11-21T22:17:21.387959+00:00
+Started: 2026-11-21T23:35:17.788210+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.TameInertiaTowers.CentralOrderTwo.MemDecompositionSubgroupIff:olean"]
 Pinned source SHA-256: ad8dba0fe36f8e3e44db05f9660151034463fe297741f655a1e30643f5587858
 Compiled source SHA-256: ad8dba0fe36f8e3e44db05f9660151034463fe297741f655a1e30643f5587858
@@ -1723,7 +1732,7 @@ Compiled source SHA-256: ad8dba0fe36f8e3e44db05f9660151034463fe297741f655a1e3064
 warning: src/Formalism/TameInertiaTowers/StatementGroup.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.TameInertiaTowers.StatementGroup:irArts
 warning: src/Formalism/TameInertiaTowers/StatementGroup.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.TameInertiaTowers.CentralOrderTwo.MemDecompositionSubgroupIff (3.7s)
+⚠ [18252/18252] Built Formalism.TameInertiaTowers.CentralOrderTwo.MemDecompositionSubgroupIff (3.8s)
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/MemDecompositionSubgroupIff.lean:16:6: this tactic is never executed
 
@@ -1836,14 +1845,14 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 7.837
+Elapsed seconds: 7.989
 Timed out: False
 
 ========================================================================
 M161399
 ========================================================================
 Module: M161399 Formalism.TameInertiaTowers.CentralOrderTwo.TwoAdic
-Started: 2026-11-21T22:17:29.227430+00:00
+Started: 2026-11-21T23:35:25.779657+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.TameInertiaTowers.CentralOrderTwo.TwoAdic:olean"]
 Pinned source SHA-256: 142d56ed64156395ac3d20b4afafb317ee4d3c2b6ac5714d2cb77e8ba932e53a
 Compiled source SHA-256: a1c536f10bc736718ed863a1bebb9c151559258036b6e88813eb6e2a67260d22
@@ -1852,7 +1861,7 @@ Compiled source SHA-256: a1c536f10bc736718ed863a1bebb9c151559258036b6e88813eb6e2
 warning: src/Formalism/TameInertiaTowers/StatementGroup.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.TameInertiaTowers.StatementGroup:irArts
 warning: src/Formalism/TameInertiaTowers/StatementGroup.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.TameInertiaTowers.CentralOrderTwo.TwoAdic (2.5s)
+⚠ [18252/18252] Built Formalism.TameInertiaTowers.CentralOrderTwo.TwoAdic (2.6s)
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 warning: src/Formalism/TameInertiaTowers/CentralOrderTwo/TwoAdic.lean:7:2: Try this: 
   haveI̵
@@ -1921,14 +1930,14 @@ Note: This linter can be disabled with `set_option linter.style.haveILetI false`
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 6.68
+Elapsed seconds: 6.733
 Timed out: False
 
 ========================================================================
 M161401
 ========================================================================
 Module: M161401 Formalism.TameInertiaTowers.InvLength
-Started: 2026-11-21T22:17:35.909592+00:00
+Started: 2026-11-21T23:35:32.514228+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.TameInertiaTowers.InvLength:olean"]
 Pinned source SHA-256: d8a4eef2986e72ba892d52e13e77266b6f8db5115efd21b0bc746c2b707079ab
 Compiled source SHA-256: d8a4eef2986e72ba892d52e13e77266b6f8db5115efd21b0bc746c2b707079ab
@@ -1941,14 +1950,14 @@ warning: src/Formalism/TameInertiaTowers/StatementGroup.lean: imports `Mathlib` 
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 6.479
+Elapsed seconds: 6.43
 Timed out: False
 
 ========================================================================
 M161402
 ========================================================================
 Module: M161402 Formalism.TameInertiaTowers.StatementField
-Started: 2026-11-21T22:17:42.390067+00:00
+Started: 2026-11-21T23:35:38.946012+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.TameInertiaTowers.StatementField:olean"]
 Pinned source SHA-256: a06694e8193eb9ae7dfc7c0473a28912fc24ec8ea8c238b1b41068ae2cf2c853
 Compiled source SHA-256: a06694e8193eb9ae7dfc7c0473a28912fc24ec8ea8c238b1b41068ae2cf2c853
@@ -1962,55 +1971,55 @@ warning: src/Formalism/TameInertiaTowers/StatementField.lean: imports `Mathlib` 
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 6.681
+Elapsed seconds: 6.781
 Timed out: False
 
 ========================================================================
 M161432
 ========================================================================
 Module: M161432 Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsMod
-Started: 2026-11-21T22:17:49.072648+00:00
+Started: 2026-11-21T23:35:45.728467+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsMod:olean"]
 Pinned source SHA-256: f347f465ac76462358dd33900f7ae6c1256d687bad38642f2e27c2f60fb4548f
 Compiled source SHA-256: 20d2b34d7806f2a9515e81d5a07552946b53fc58443bb0b04dd36f603fdbab4b
 
-⚠ [18250/18252] Built Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsObj (3.2s)
+⚠ [18250/18252] Built Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsObj (3.1s)
 warning: src/Formalism/ThetaLogCoordinates/DualWeylCoordinates/DefsObj.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsObj:irArts
 warning: src/Formalism/ThetaLogCoordinates/DualWeylCoordinates/DefsObj.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-✔ [18252/18252] Built Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsMod (3.5s)
+✔ [18252/18252] Built Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsMod (3.4s)
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 10.845
+Elapsed seconds: 10.69
 Timed out: False
 
 ========================================================================
 M161566
 ========================================================================
 Module: M161566 Formalism.ThetaLogCoordinates.JacobiPathWeights.LiftWord
-Started: 2026-11-21T22:17:59.919687+00:00
+Started: 2026-11-21T23:35:56.420459+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.ThetaLogCoordinates.JacobiPathWeights.LiftWord:olean"]
 Pinned source SHA-256: df95ad7543d073afeebc9a3738f11009497d20046056dcc707a09542def93686
 Compiled source SHA-256: df95ad7543d073afeebc9a3738f11009497d20046056dcc707a09542def93686
 
-⚠ [18250/18252] Built Formalism.ThetaLogCoordinates.JacobiPathWeights.DefsCol (2.4s)
+⚠ [18250/18252] Built Formalism.ThetaLogCoordinates.JacobiPathWeights.DefsCol (2.5s)
 warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/DefsCol.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.ThetaLogCoordinates.JacobiPathWeights.DefsCol:irArts
 warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/DefsCol.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.ThetaLogCoordinates.JacobiPathWeights.LiftWord (2.4s)
+⚠ [18252/18252] Built Formalism.ThetaLogCoordinates.JacobiPathWeights.LiftWord (2.5s)
 warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/LiftWord.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 9.038
+Elapsed seconds: 9.187
 Timed out: False
 
 ========================================================================
 M161569
 ========================================================================
 Module: M161569 Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementB
-Started: 2026-11-21T22:18:08.959377+00:00
+Started: 2026-11-21T23:36:05.609169+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementB:olean"]
 Pinned source SHA-256: fad524c43a25e2156bb55112125730201b56dd0a23c84d6cfb50830455eece9e
 Compiled source SHA-256: fad524c43a25e2156bb55112125730201b56dd0a23c84d6cfb50830455eece9e
@@ -2019,19 +2028,19 @@ Compiled source SHA-256: fad524c43a25e2156bb55112125730201b56dd0a23c84d6cfb50830
 warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/DefsCol.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.ThetaLogCoordinates.JacobiPathWeights.DefsCol:irArts
 warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/DefsCol.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementB (2.4s)
+⚠ [18252/18252] Built Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementB (2.5s)
 warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 6.579
+Elapsed seconds: 6.63
 Timed out: False
 
 ========================================================================
 M161571
 ========================================================================
 Module: M161571 Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementE
-Started: 2026-11-21T22:18:15.540030+00:00
+Started: 2026-11-21T23:36:12.240834+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementE:olean"]
 Pinned source SHA-256: 4086bf191f3f97b8cee9fab823f9b4f09873b4ea0ad5b230fa88e3230485fde3
 Compiled source SHA-256: a066000399bab35ca97788a5ec5164775232794cad6f6f6e50e56cbd37539404
@@ -2045,59 +2054,59 @@ warning: src/Formalism/ThetaLogCoordinates/JacobiPathWeights/StatementE.lean: im
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 9.54
+Elapsed seconds: 9.588
 Timed out: False
 
 ========================================================================
 M161592
 ========================================================================
 Module: M161592 Formalism.ThetaLogCoordinates.ProductIdealMonotone.ProductIdealProofs.LePowOddOfFloorLogbLe
-Started: 2026-11-21T22:18:25.081113+00:00
+Started: 2026-11-21T23:36:21.830415+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.ThetaLogCoordinates.ProductIdealMonotone.ProductIdealProofs.LePowOddOfFloorLogbLe:olean"]
 Pinned source SHA-256: 8d84736f573d336c3a2fe1925bb9a910e44030812b965b6b8eef42755734deae
 Compiled source SHA-256: 8d84736f573d336c3a2fe1925bb9a910e44030812b965b6b8eef42755734deae
 
-⚠ [18250/18252] Built Formalism.ThetaLogCoordinates.ProductIdealMonotone.ParamDefs (2.4s)
+⚠ [18250/18252] Built Formalism.ThetaLogCoordinates.ProductIdealMonotone.ParamDefs (2.3s)
 warning: src/Formalism/ThetaLogCoordinates/ProductIdealMonotone/ParamDefs.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.ThetaLogCoordinates.ProductIdealMonotone.ParamDefs:irArts
 warning: src/Formalism/ThetaLogCoordinates/ProductIdealMonotone/ParamDefs.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-✔ [18252/18252] Built Formalism.ThetaLogCoordinates.ProductIdealMonotone.ProductIdealProofs.LePowOddOfFloorLogbLe (2.5s)
+✔ [18252/18252] Built Formalism.ThetaLogCoordinates.ProductIdealMonotone.ProductIdealProofs.LePowOddOfFloorLogbLe (2.3s)
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 9.036
+Elapsed seconds: 8.835
 Timed out: False
 
 ========================================================================
 M161597
 ========================================================================
 Module: M161597 Formalism.ThetaLogCoordinates.ResidueClassEstimates.StatementT
-Started: 2026-11-21T22:18:34.118585+00:00
+Started: 2026-11-21T23:36:30.667029+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.ThetaLogCoordinates.ResidueClassEstimates.StatementT:olean"]
 Pinned source SHA-256: d6bbb526a5e19872e7c1645d6c37b6093f3fa884d2915ad1f6f03bcdfd9387bd
 Compiled source SHA-256: d6bbb526a5e19872e7c1645d6c37b6093f3fa884d2915ad1f6f03bcdfd9387bd
 
-⚠ [18250/18252] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.Letters (2.5s)
+⚠ [18250/18252] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.Letters (2.4s)
 warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/Letters.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.ThetaLogCoordinates.ResidueClassEstimates.Letters:irArts
 warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/Letters.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-✔ [18252/18252] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.StatementT (2.7s)
+✔ [18252/18252] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.StatementT (2.6s)
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 9.337
+Elapsed seconds: 9.084
 Timed out: False
 
 ========================================================================
 M161599
 ========================================================================
 Module: M161599 Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.AdmissibleSmallRatio
-Started: 2026-11-21T22:18:43.457096+00:00
+Started: 2026-11-21T23:36:39.752733+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.AdmissibleSmallRatio:olean"]
 Pinned source SHA-256: 45974644a4bb587b302305752e07520bc39e48e587a24dd01a2b645b0725e753
 Compiled source SHA-256: 45974644a4bb587b302305752e07520bc39e48e587a24dd01a2b645b0725e753
 
-⚠ [18250/18252] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.StatementN (2.7s)
+⚠ [18250/18252] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.StatementN (2.6s)
 warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/StatementN.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.ThetaLogCoordinates.ResidueClassEstimates.StatementN:irArts
 warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/StatementN.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
@@ -2105,23 +2114,23 @@ warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/StatementN.lean
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 12.346
+Elapsed seconds: 12.296
 Timed out: False
 
 ========================================================================
 M161602
 ========================================================================
 Module: M161602 Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LDigits
-Started: 2026-11-21T22:18:55.804908+00:00
+Started: 2026-11-21T23:36:52.050803+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LDigits:olean"]
 Pinned source SHA-256: 042da847e40599f854a9cb580bc42251f2684f21341eeeb6b44a0a33d17d0b8b
 Compiled source SHA-256: 042da847e40599f854a9cb580bc42251f2684f21341eeeb6b44a0a33d17d0b8b
 
-⚠ [18250/18252] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.StatementL (2.7s)
+⚠ [18250/18252] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.StatementL (2.6s)
 warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/StatementL.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.ThetaLogCoordinates.ResidueClassEstimates.StatementL:irArts
 warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/StatementL.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LDigits (3.7s)
+⚠ [18252/18252] Built Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LDigits (3.5s)
 warning: src/Formalism/ThetaLogCoordinates/ResidueClassEstimates/VandermondeRankEstimates/LDigits.lean:109:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
 
 Hint: Replace the deprecated name:
@@ -2165,34 +2174,34 @@ Note: This linter can be disabled with `set_option linter.unusedTactic false`
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 10.543
+Elapsed seconds: 10.394
 Timed out: False
 
 ========================================================================
 M161639
 ========================================================================
 Module: M161639 Formalism.ThetaLogCoordinates.TraceIsometryWeights.StatementA
-Started: 2026-11-21T22:19:06.350199+00:00
+Started: 2026-11-21T23:37:02.447328+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.ThetaLogCoordinates.TraceIsometryWeights.StatementA:olean"]
 Pinned source SHA-256: 1fadc5f30a279853ccfc4f2dc0d27232cb16d771207ee99d9b0efad5411e242c
 Compiled source SHA-256: 1fadc5f30a279853ccfc4f2dc0d27232cb16d771207ee99d9b0efad5411e242c
 
-⚠ [18250/18252] Built Formalism.ThetaLogCoordinates.TraceIsometryWeights.DivStable (2.6s)
+⚠ [18250/18252] Built Formalism.ThetaLogCoordinates.TraceIsometryWeights.DivStable (2.5s)
 warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/DivStable.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.ThetaLogCoordinates.TraceIsometryWeights.DivStable:irArts
 warning: src/Formalism/ThetaLogCoordinates/TraceIsometryWeights/DivStable.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-✔ [18252/18252] Built Formalism.ThetaLogCoordinates.TraceIsometryWeights.StatementA (2.6s)
+✔ [18252/18252] Built Formalism.ThetaLogCoordinates.TraceIsometryWeights.StatementA (2.4s)
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 9.389
+Elapsed seconds: 9.085
 Timed out: False
 
 ========================================================================
 M161696
 ========================================================================
 Module: M161696 Formalism.ThetaLogCoordinates.UniformThetaSubstitution.StatementC
-Started: 2026-11-21T22:19:15.740847+00:00
+Started: 2026-11-21T23:37:11.534732+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.ThetaLogCoordinates.UniformThetaSubstitution.StatementC:olean"]
 Pinned source SHA-256: 5c8d4730ca724b5e5ae60d4acce1fa1876c6854468b7bc3df31883a86b690f5e
 Compiled source SHA-256: 5c8d4730ca724b5e5ae60d4acce1fa1876c6854468b7bc3df31883a86b690f5e
@@ -2201,40 +2210,40 @@ Compiled source SHA-256: 5c8d4730ca724b5e5ae60d4acce1fa1876c6854468b7bc3df31883a
 warning: src/Formalism/SubspaceCounting/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.SubspaceCounting.StatementB:irArts
 warning: src/Formalism/SubspaceCounting/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.ThetaLogCoordinates.UniformThetaSubstitution.StatementC (2.9s)
+⚠ [18252/18252] Built Formalism.ThetaLogCoordinates.UniformThetaSubstitution.StatementC (2.7s)
 warning: src/Formalism/ThetaLogCoordinates/UniformThetaSubstitution/StatementC.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 7.032
+Elapsed seconds: 6.881
 Timed out: False
 
 ========================================================================
 M161720
 ========================================================================
 Module: M161720 Formalism.ThetaSupremumBounds.StatementA
-Started: 2026-11-21T22:19:22.774964+00:00
+Started: 2026-11-21T23:37:18.417633+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.ThetaSupremumBounds.StatementA:olean"]
 Pinned source SHA-256: 471a2298bf3eab5d7e6846fe1b22d7eb1bc8a2c2942cf55281d0cbe678697d8d
 Compiled source SHA-256: 471a2298bf3eab5d7e6846fe1b22d7eb1bc8a2c2942cf55281d0cbe678697d8d
 
-⚠ [18250/18252] Built Formalism.LogFactorialIndices.StatementSize (2.4s)
+⚠ [18250/18252] Built Formalism.LogFactorialIndices.StatementSize (2.3s)
 warning: src/Formalism/LogFactorialIndices/StatementSize.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.LogFactorialIndices.StatementSize:irArts
 warning: src/Formalism/LogFactorialIndices/StatementSize.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.ThetaSupremumBounds.StatementA (2.8s)
+⚠ [18252/18252] Built Formalism.ThetaSupremumBounds.StatementA (2.7s)
 warning: src/Formalism/ThetaSupremumBounds/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 9.342
+Elapsed seconds: 9.135
 Timed out: False
 
 ========================================================================
 M161721
 ========================================================================
 Module: M161721 Formalism.ThetaSupremumBounds.StatementB
-Started: 2026-11-21T22:19:32.118840+00:00
+Started: 2026-11-21T23:37:27.554204+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.ThetaSupremumBounds.StatementB:olean"]
 Pinned source SHA-256: a9d3f260a8c4e5bff4181cdcf829f618edee5f1ff5b7b88eb29794941082c2b6
 Compiled source SHA-256: a9d3f260a8c4e5bff4181cdcf829f618edee5f1ff5b7b88eb29794941082c2b6
@@ -2243,19 +2252,19 @@ Compiled source SHA-256: a9d3f260a8c4e5bff4181cdcf829f618edee5f1ff5b7b88eb297949
 warning: src/Formalism/LogFactorialIndices/StatementSize.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.LogFactorialIndices.StatementSize:irArts
 warning: src/Formalism/LogFactorialIndices/StatementSize.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.ThetaSupremumBounds.StatementB (2.5s)
+⚠ [18252/18252] Built Formalism.ThetaSupremumBounds.StatementB (2.6s)
 warning: src/Formalism/ThetaSupremumBounds/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 6.68
+Elapsed seconds: 6.73
 Timed out: False
 
 ========================================================================
 M161722
 ========================================================================
 Module: M161722 Formalism.ThetaSupremumBounds.StatementC
-Started: 2026-11-21T22:19:38.801150+00:00
+Started: 2026-11-21T23:37:34.286105+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.ThetaSupremumBounds.StatementC:olean"]
 Pinned source SHA-256: d76e8bdbaa62b8381022075462f4eaf1a560c3ade113cb29f5111e70c0bb4cab
 Compiled source SHA-256: d76e8bdbaa62b8381022075462f4eaf1a560c3ade113cb29f5111e70c0bb4cab
@@ -2264,19 +2273,19 @@ Compiled source SHA-256: d76e8bdbaa62b8381022075462f4eaf1a560c3ade113cb29f5111e7
 warning: src/Formalism/LogFactorialIndices/StatementSize.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.LogFactorialIndices.StatementSize:irArts
 warning: src/Formalism/LogFactorialIndices/StatementSize.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.ThetaSupremumBounds.StatementC (2.6s)
+⚠ [18252/18252] Built Formalism.ThetaSupremumBounds.StatementC (2.5s)
 warning: src/Formalism/ThetaSupremumBounds/StatementC.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 6.732
+Elapsed seconds: 6.63
 Timed out: False
 
 ========================================================================
 M161748
 ========================================================================
 Module: M161748 Formalism.TowerValuationBounds.TowerValuationProofs.SumAdditiveCharacterEqZero
-Started: 2026-11-21T22:19:45.534777+00:00
+Started: 2026-11-21T23:37:40.917542+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.TowerValuationBounds.TowerValuationProofs.SumAdditiveCharacterEqZero:olean"]
 Pinned source SHA-256: 329527ab05e1af0d8aa30b290820398b5848ce5f3c9b973d05241ade4a27eb67
 Compiled source SHA-256: 329527ab05e1af0d8aa30b290820398b5848ce5f3c9b973d05241ade4a27eb67
@@ -2285,7 +2294,7 @@ Compiled source SHA-256: 329527ab05e1af0d8aa30b290820398b5848ce5f3c9b973d05241ad
 warning: src/Formalism/TowerValuationBounds/HermitianSumValuationBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.TowerValuationBounds.HermitianSumValuationBound:irArts
 warning: src/Formalism/TowerValuationBounds/HermitianSumValuationBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18252] Built Formalism.TowerValuationBounds.TowerValuationProofs.SumAdditiveCharacterEqZero (6.0s)
+⚠ [18252/18252] Built Formalism.TowerValuationBounds.TowerValuationProofs.SumAdditiveCharacterEqZero (7.0s)
 warning: src/Formalism/TowerValuationBounds/TowerValuationProofs/SumAdditiveCharacterEqZero.lean:272:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
 
 Hint: Replace the deprecated name:
@@ -2341,19 +2350,19 @@ Hint: Replace the deprecated name:
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 13.849
+Elapsed seconds: 13.851
 Timed out: False
 
 ========================================================================
 M161754
 ========================================================================
 Module: M161754 Formalism.TranslateCocycles.TranslateCocycleProofs.HcBlockSumBounds
-Started: 2026-11-21T22:19:59.389508+00:00
+Started: 2026-11-21T23:37:54.773188+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.TranslateCocycles.TranslateCocycleProofs.HcBlockSumBounds:olean"]
 Pinned source SHA-256: bcdb812eaeb002b6829f0d3a0b786780f7beb90137288f1d059fa8533827c00d
 Compiled source SHA-256: bcdb812eaeb002b6829f0d3a0b786780f7beb90137288f1d059fa8533827c00d
 
-⚠ [18250/18252] Built Formalism.TranslateCocycles.StatementHC (2.7s)
+⚠ [18250/18252] Built Formalism.TranslateCocycles.StatementHC (2.8s)
 warning: src/Formalism/TranslateCocycles/StatementHC.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.TranslateCocycles.StatementHC:irArts
 warning: src/Formalism/TranslateCocycles/StatementHC.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
@@ -2453,54 +2462,61 @@ Hint: Replace the deprecated name:
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 18.223
+Elapsed seconds: 18.675
 Timed out: False
 
 ========================================================================
 M161756
 ========================================================================
 Module: M161756 Formalism.TranslateCocycles.TranslateCocycleProofs.TranslateScale
-Started: 2026-11-21T22:20:17.617678+00:00
+Started: 2026-11-21T23:38:13.453755+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.TranslateCocycles.TranslateCocycleProofs.TranslateScale:olean"]
 Pinned source SHA-256: 2589d80e81d872dd779909fcfe9c3dfcce92c545d1a32b838b85a16acc9a4005
 Compiled source SHA-256: 2589d80e81d872dd779909fcfe9c3dfcce92c545d1a32b838b85a16acc9a4005
 
-⚠ [18250/18252] Built Formalism.TranslateCocycles.Statement (2.5s)
+⚠ [18250/18252] Built Formalism.TranslateCocycles.Statement (2.7s)
 warning: src/Formalism/TranslateCocycles/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 ⚠ [18251/18252] Ran Formalism.TranslateCocycles.Statement:irArts
 warning: src/Formalism/TranslateCocycles/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-✔ [18252/18252] Built Formalism.TranslateCocycles.TranslateCocycleProofs.TranslateScale (2.6s)
+✔ [18252/18252] Built Formalism.TranslateCocycles.TranslateCocycleProofs.TranslateScale (2.8s)
 Build completed successfully (18252 jobs).
 
 Exit status: 0
-Elapsed seconds: 9.233
+Elapsed seconds: 9.79
 Timed out: False
 
 ========================================================================
 M161762
 ========================================================================
 Module: M161762 Formalism.TruncatedSeriesCounting.RamifiedValuationInequality
-Started: 2026-11-21T22:20:26.852426+00:00
+Started: 2026-11-21T23:38:23.245939+00:00
 Command: ["lake", "--no-cache", "build", "+Formalism.TruncatedSeriesCounting.RamifiedValuationInequality:olean"]
 Pinned source SHA-256: d079406ab8a3b3cde8dcd247de26e416d3aee66ef614aaa575c305a149f0ccfc
 Compiled source SHA-256: d079406ab8a3b3cde8dcd247de26e416d3aee66ef614aaa575c305a149f0ccfc
 
-⚠ [18250/18256] Built Formalism.WindowSums.Statement (3.4s)
-warning: src/Formalism/WindowSums/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18251/18256] Ran Formalism.WindowSums.Statement:irArts
-warning: src/Formalism/WindowSums/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18252/18256] Built Formalism.FrobeniusContraction.Statement (4.3s)
+⚠ [18250/18256] Built Formalism.FrobeniusContraction.Statement (4.7s)
 warning: src/Formalism/FrobeniusContraction/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18253/18256] Ran Formalism.FrobeniusContraction.Statement:irArts
+⚠ [18251/18256] Ran Formalism.FrobeniusContraction.Statement:irArts
 warning: src/Formalism/FrobeniusContraction/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18254/18256] Built Formalism.LagrangeIdealLifts.Statement (4.8s)
+⚠ [18252/18256] Built Formalism.LagrangeIdealLifts.Statement (5.5s)
 warning: src/Formalism/LagrangeIdealLifts/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18255/18256] Ran Formalism.LagrangeIdealLifts.Statement:irArts
+⚠ [18253/18256] Ran Formalism.LagrangeIdealLifts.Statement:irArts
 warning: src/Formalism/LagrangeIdealLifts/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
-⚠ [18256/18256] Built Formalism.TruncatedSeriesCounting.RamifiedValuationInequality (2.5s)
+⚠ [18254/18256] Built Formalism.WindowSums.Statement (3.5s)
+warning: src/Formalism/WindowSums/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18255/18256] Ran Formalism.WindowSums.Statement:irArts
+warning: src/Formalism/WindowSums/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18256] Built Formalism.TruncatedSeriesCounting.RamifiedValuationInequality (2.7s)
 warning: src/Formalism/TruncatedSeriesCounting/RamifiedValuationInequality.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
 Build completed successfully (18256 jobs).
 
 Exit status: 0
-Elapsed seconds: 14.745
+Elapsed seconds: 15.157
 Timed out: False
+
+========================================================================
+IsLattice audit
+========================================================================
+Command: ["lake", "env", "lean", "--run", "/home/runner/work/alpoge-rh-replay/alpoge-rh-replay/port-audit-completed-results/P0158/islattice-audit.lean", "Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.InertiaGaloisSymmetry.RdBound", "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerAdditivityDegreeZero", "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerAdditivityExactSequence", "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerAdditivityInSection", "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.EulerIndependenceOfOrder", "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleDev", "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleFin", "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleGr", "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleIso", "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleNzd", "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleShift", "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.VanishingBelowDimensionRule", "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.ScaledValuations.ValuationApplyLtOneIff", "Formalism.SizeWindowBrackets.ChainSlopeWindows.IntersectionFailsForSubmodule", "Formalism.SizeWindowBrackets.ChainSlopeWindows.TraceConjTransposeMulSelf", "Formalism.SizeWindowBrackets.ChainSlopeWindows.WeightedMeanLemmaNeedsDegree", "Formalism.SizeWindowBrackets.ChainSlopeWindows.WeightedSlopeExcessDecomposition", "Formalism.SizeWindowBrackets.QuotientSlopeBoundsWith", "Formalism.SizeWindowBrackets.SlopeExcessBoundExponentZero", "Formalism.SmithDeterminants.DefsDVR", "Formalism.SmithDeterminants.DefsGram", "Formalism.SobolevGaussianKernels.GaussianKernelBounds.EichlerEquivalenceHolds", "Formalism.SobolevGaussianKernels.GaussianKernelBounds.HasDerivAtSphereChartLast", "Formalism.SobolevGaussianKernels.GaussianKernelBounds.LfProd", "Formalism.SobolevGaussianKernels.StatementFU", "Formalism.StatementOC", "Formalism.SubspaceCounting.DetQuotVal", "Formalism.SubspaceCounting.StatementC", "Formalism.SubspaceCounting.StatementD", "Formalism.SubspaceCounting.SubspaceCountingProofs.CramerCofactor", "Formalism.SubspaceCounting.SubspaceCountingProofs.DetDivides", "Formalism.SubspaceCounting.SubspaceCountingProofs.DetVal", "Formalism.SubspaceCounting.SubspaceCountingProofs.LengthLayers", "Formalism.SubspaceCounting.SubspaceCountingProofs.QVandermonde", "Formalism.SubspaceCounting.SubspaceCountingProofs.SaturatedMember", "Formalism.SubspaceCounting.SubspaceCountingProofs.SubspaceCount", "Formalism.SubspaceCounting.SubspaceCountingProofs.TailConcavity", "Formalism.SubspaceCounting.SubspaceCountingProofs.WalkSharp", "Formalism.SubspaceCounting.TopsChoiceSecondBound", "Formalism.SuccessiveMinima.DefsMink", "Formalism.SuccessiveMinima.DefsNP", "Formalism.SuccessiveMinima.SuccessiveMinimaProofs.NewtonSlope", "Formalism.TameInertiaTowers.CentralOrderTwo.Groups", "Formalism.TameInertiaTowers.CentralOrderTwo.MemDecompositionSubgroupIff", "Formalism.TameInertiaTowers.CentralOrderTwo.TwoAdic", "Formalism.TameInertiaTowers.InvLength", "Formalism.TameInertiaTowers.StatementField", "Formalism.ThetaLogCoordinates.DualWeylCoordinates.DefsMod", "Formalism.ThetaLogCoordinates.JacobiPathWeights.LiftWord", "Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementB", "Formalism.ThetaLogCoordinates.JacobiPathWeights.StatementE", "Formalism.ThetaLogCoordinates.ProductIdealMonotone.ProductIdealProofs.LePowOddOfFloorLogbLe", "Formalism.ThetaLogCoordinates.ResidueClassEstimates.StatementT", "Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.AdmissibleSmallRatio", "Formalism.ThetaLogCoordinates.ResidueClassEstimates.VandermondeRankEstimates.LDigits", "Formalism.ThetaLogCoordinates.TraceIsometryWeights.StatementA", "Formalism.ThetaLogCoordinates.UniformThetaSubstitution.StatementC", "Formalism.ThetaSupremumBounds.StatementA", "Formalism.ThetaSupremumBounds.StatementB", "Formalism.ThetaSupremumBounds.StatementC", "Formalism.TowerValuationBounds.TowerValuationProofs.SumAdditiveCharacterEqZero", "Formalism.TranslateCocycles.TranslateCocycleProofs.HcBlockSumBounds", "Formalism.TranslateCocycles.TranslateCocycleProofs.TranslateScale", "Formalism.TruncatedSeriesCounting.RamifiedValuationInequality"]
+islattice-audit: 64 module(s), 0 hit(s)
+Exit status: 0
