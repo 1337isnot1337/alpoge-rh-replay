@@ -199,6 +199,5 @@
 | [@rahulsundar477-star](https://github.com/rahulsundar477-star) | [P2799](https://github.com/rohanarun/alpoge-rh-replay/issues/30353) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2801](https://github.com/rohanarun/alpoge-rh-replay/issues/30421) | Claimed |
 | [@UnityChaos](https://github.com/UnityChaos) | [P2771](https://github.com/rohanarun/alpoge-rh-replay/issues/30424) | Claimed |
-| [@emsi](https://github.com/emsi) | [M056495](https://github.com/rohanarun/alpoge-rh-replay/issues/30458) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P2768](https://github.com/rohanarun/alpoge-rh-replay/issues/30461) | Claimed |
 | [@hipotures](https://github.com/hipotures) | [P2769](https://github.com/rohanarun/alpoge-rh-replay/issues/30463) | Claimed |
+| [@emsi](https://github.com/emsi) | [P2850](https://github.com/rohanarun/alpoge-rh-replay/issues/30464) | Claimed |

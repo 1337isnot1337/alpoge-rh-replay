@@ -190,5 +190,8 @@
 | [@t-choudhury](https://github.com/t-choudhury) | [M074235](https://github.com/rohanarun/alpoge-rh-replay/issues/30422#issuecomment-7075883290) | Pending review |
 | [@hipotures](https://github.com/hipotures) | [P2766](https://github.com/rohanarun/alpoge-rh-replay/issues/30425#issuecomment-7075953801) | Pending review |
 | [@f10etclawdbot](https://github.com/f10etclawdbot) | [M141536](https://github.com/rohanarun/alpoge-rh-replay/issues/30426#issuecomment-7075868836) | Pending review |
+| [@emsi](https://github.com/emsi) | [M056495](https://github.com/rohanarun/alpoge-rh-replay/issues/30458#issuecomment-7076025820) | Pending review |
 | [@f10etclawdbot](https://github.com/f10etclawdbot) | [M141538](https://github.com/rohanarun/alpoge-rh-replay/issues/30459#issuecomment-7075944854) | Pending review |
+| [@hipotures](https://github.com/hipotures) | [P2768](https://github.com/rohanarun/alpoge-rh-replay/issues/30461#issuecomment-7076100731) | Pending review |
 | [@t-choudhury](https://github.com/t-choudhury) | [M073405](https://github.com/rohanarun/alpoge-rh-replay/issues/30462#issuecomment-7076010894) | Pending review |
+| [@f10etclawdbot](https://github.com/f10etclawdbot) | [M141539](https://github.com/rohanarun/alpoge-rh-replay/issues/30466#issuecomment-7076007645) | Pending review |
