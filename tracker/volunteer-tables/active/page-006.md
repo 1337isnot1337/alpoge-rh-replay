@@ -26,7 +26,14 @@
 | [@emsi](https://github.com/emsi) | [P2715](https://github.com/rohanarun/alpoge-rh-replay/issues/27857) | Claimed |
 | [@UnityChaos](https://github.com/UnityChaos) | [M033588](https://github.com/rohanarun/alpoge-rh-replay/issues/27865) | Claimed |
 | [@UnityChaos](https://github.com/UnityChaos) | [M036751](https://github.com/rohanarun/alpoge-rh-replay/issues/27871) | Claimed |
-| [@UnityChaos](https://github.com/UnityChaos) | [M066520](https://github.com/rohanarun/alpoge-rh-replay/issues/27873) | Claimed |
 | [@user42245](https://github.com/user42245) | [M164829](https://github.com/rohanarun/alpoge-rh-replay/issues/27937) | Claimed |
 | [@user42245](https://github.com/user42245) | [M164026](https://github.com/rohanarun/alpoge-rh-replay/issues/27938) | Claimed |
 | [@user42245](https://github.com/user42245) | [M164834](https://github.com/rohanarun/alpoge-rh-replay/issues/27968) | Claimed |
+| [@emsi](https://github.com/emsi) | [P2675](https://github.com/rohanarun/alpoge-rh-replay/issues/28022) | Claimed |
+| [@emsi](https://github.com/emsi) | [M117666](https://github.com/rohanarun/alpoge-rh-replay/issues/28027) | Claimed |
+| [@CubeJerry](https://github.com/CubeJerry) | [P2646](https://github.com/rohanarun/alpoge-rh-replay/issues/28062) | Claimed |
+| [@CubeJerry](https://github.com/CubeJerry) | [P2723](https://github.com/rohanarun/alpoge-rh-replay/issues/28067) | Claimed |
+| [@CubeJerry](https://github.com/CubeJerry) | [P2717](https://github.com/rohanarun/alpoge-rh-replay/issues/28070) | Claimed |
+| [@CubeJerry](https://github.com/CubeJerry) | [P2728](https://github.com/rohanarun/alpoge-rh-replay/issues/28075) | Claimed |
+| [@CubeJerry](https://github.com/CubeJerry) | [P2749](https://github.com/rohanarun/alpoge-rh-replay/issues/28076) | Claimed |
+| [@hipotures](https://github.com/hipotures) | [P2652](https://github.com/rohanarun/alpoge-rh-replay/issues/28079) | Claimed |
