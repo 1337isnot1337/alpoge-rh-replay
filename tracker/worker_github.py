@@ -1,6 +1,10 @@
 """GitHub operations used by the replay dispatcher."""
+from hashlib import sha256
+from http.client import HTTPException
 import json
 import subprocess
+from urllib.error import HTTPError
+from urllib.request import urlopen
 
 from submissions import gh_output, pages
 import tasks
@@ -13,6 +17,24 @@ def api(route):
 def post(route, method='POST', **fields):
     return json.loads(subprocess.check_output(
         ['gh', 'api', '--method', method, route, '--input', '-'], input=json.dumps(fields), text=True))
+
+
+def verify_download(url, path, expected_digest):
+    remaining = path.stat().st_size
+    digest = sha256()
+    try:
+        with urlopen(url, timeout=120) as response:
+            while block := response.read(min(256 * 1024, remaining + 1)):
+                remaining -= len(block)
+                if remaining < 0:
+                    break
+                digest.update(block)
+    except (OSError, HTTPException) as exc:
+        if isinstance(exc, HTTPError):
+            exc.close()
+        raise ValueError(f'Could not download published {path.name}: {exc}') from exc
+    if remaining != 0 or digest.hexdigest() != expected_digest:
+        raise ValueError('Public download digest mismatch: ' + path.name)
 
 
 class GitHub:
@@ -81,9 +103,12 @@ class GitHub:
         links = []
         for path in files:
             asset = assets[path.name]
-            if asset['state'] != 'uploaded' or asset.get('digest') != 'sha256:' + tasks.digest(path):
+            expected = tasks.digest(path)
+            if asset['state'] != 'uploaded' or asset.get('digest') != 'sha256:' + expected:
                 raise ValueError('Published digest mismatch: ' + path.name)
-            links.append(f"[{path.name}]({asset['browser_download_url']})")
+            url = asset['browser_download_url']
+            verify_download(url, path, expected)
+            links.append(f'[{path.name}]({url})')
         return ' · '.join(links)
 
     def submit(self, number, body):

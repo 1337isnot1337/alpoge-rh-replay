@@ -243,7 +243,7 @@ Begin a comment on your claim with `Replay submission` on its own first line. In
 Most pending submissions fail one of these checks. Run all of them before you post.
 
 1. **Use one release per claim.** Publish each claim's assets in its own release on your fork, tagged `replay-<ID>-issue-<NUMBER>`; `tracker/worker.py` does this for you. Don't reuse one release for many claims. GitHub caps a release at 1,000 assets, and files uploaded after that point are never stored, even though the upload command may appear to finish.
-2. **Download every link you post.** For each URL in the comment, run `curl -fL -o FILE URL` and compare `sha256sum FILE` with the receipt or the digest you state. Don't post until every link returns the file with the matching digest.
+2. **Download every link you post.** For each URL in the comment, run `curl -fL -o FILE URL` and compare `sha256sum FILE` with the receipt or the digest you state. Don't post until every link returns the file with the matching digest. Before posting, `tracker/worker.py` downloads each release asset without GitHub credentials and compares its hash with the local file.
 3. **Include `build.log`.** Link the Lake log from the same run as `receipt.json`. The receipt's `log_sha256` must match it.
 4. **Cover every claimed target.** The log needs a `Built` or `Replayed` line for each requested target. If a target was already in your cache and has no build line, also link the `kernel-replay.json` that the builder writes.
 5. **State attachment digests.** For an uploaded attachment or zip, include its SHA-256 in the comment. A missing or mismatched checksum stays pending.

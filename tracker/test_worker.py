@@ -11,6 +11,7 @@ import tarfile
 import tempfile
 import unittest
 from unittest.mock import Mock, patch
+from urllib.error import HTTPError
 
 import replay_evidence as evidence
 import tasks
@@ -305,17 +306,43 @@ class WorkerTests(unittest.TestCase):
         github = object.__new__(worker_github.GitHub)
         github.fork = 'volunteer/evidence'
         present = subprocess.CompletedProcess([], 0, json.dumps({'assets': assets[:1]}), '')
+        downloads = {asset['browser_download_url']: p.read_bytes() for asset, p in zip(assets, files)}
         with patch.object(subprocess, 'run', side_effect=[present, None]) as run, \
-                patch.object(worker_github, 'api', return_value={'assets': assets}):
+                patch.object(worker_github, 'api', return_value={'assets': assets}), \
+                patch.object(worker_github, 'urlopen',
+                             side_effect=lambda url, **_: io.BytesIO(downloads[url])) as download:
             links = github.publish_assets(7, 'M000001', files)
             self.assertIn('targets.tar.gz', links)
             self.assertEqual(run.call_args_list[1].args[0][-2:], files[1:])
+            self.assertEqual([call.args[0] for call in download.call_args_list], list(downloads))
         assets[0]['digest'] = 'sha256:' + '0' * 64
         existing = subprocess.CompletedProcess([], 0, json.dumps({'assets': assets}), '')
         with patch.object(subprocess, 'run', return_value=existing) as run:
             with self.assertRaisesRegex(ValueError, 'Published digest mismatch'):
                 github.publish_assets(7, 'M000001', files)
             run.assert_called_once()
+
+    def test_release_rejects_incorrect_public_downloads_with_matching_metadata(self):
+        path = self.root / 'build.log'
+        path.write_bytes(b'replay')
+        url = 'https://example.test/build.log'
+        asset = dict(name=path.name, state='uploaded', digest='sha256:' + tasks.digest(path),
+                     browser_download_url=url)
+        existing = subprocess.CompletedProcess([], 0, json.dumps({'assets': [asset]}), '')
+        github = object.__new__(worker_github.GitHub)
+        github.fork = 'volunteer/evidence'
+        for payload in (b'wrong!', b'repla', b'replay!'):
+            with self.subTest(payload=payload), patch.object(subprocess, 'run', return_value=existing), \
+                    patch.object(worker_github, 'urlopen', return_value=io.BytesIO(payload)):
+                with self.assertRaisesRegex(ValueError, 'Public download digest mismatch'):
+                    github.publish_assets(7, 'M000001', [path])
+        response = io.BytesIO(b'Not Found')
+        error = HTTPError(url, 404, 'Not Found', None, response)
+        with patch.object(subprocess, 'run', return_value=existing), \
+                patch.object(worker_github, 'urlopen', side_effect=error):
+            with self.assertRaisesRegex(ValueError, 'Could not download published build.log'):
+                github.publish_assets(7, 'M000001', [path])
+        self.assertTrue(response.closed)
 
     def test_receiver_checks_installed_objects_and_platform_before_lake(self):
         out = self.artifacts('M000001', 1)
