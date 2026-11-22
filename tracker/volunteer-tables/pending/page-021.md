@@ -195,6 +195,7 @@
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M168818](https://github.com/rohanarun/alpoge-rh-replay/issues/26259#issuecomment-7069177038) | Pending review |
 | [@RobertBarnettProjects](https://github.com/RobertBarnettProjects) | [M168851](https://github.com/rohanarun/alpoge-rh-replay/issues/26263#issuecomment-7069184082) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M160696](https://github.com/rohanarun/alpoge-rh-replay/issues/26267#issuecomment-7069137374) | Pending review |
+| [@maugomez77](https://github.com/maugomez77) | [M165869](https://github.com/rohanarun/alpoge-rh-replay/issues/26275#issuecomment-7074233179) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M167002](https://github.com/rohanarun/alpoge-rh-replay/issues/26276#issuecomment-7069215826) | Pending review |
 | [@loremcdmx](https://github.com/loremcdmx) | [M167060](https://github.com/rohanarun/alpoge-rh-replay/issues/26277#issuecomment-7069217287) | Pending review |
 | [@f10etclawdbot](https://github.com/f10etclawdbot) | [M057636](https://github.com/rohanarun/alpoge-rh-replay/issues/26281#issuecomment-7069200524) | Pending review |
@@ -253,4 +254,3 @@
 | [@UnityChaos](https://github.com/UnityChaos) | [M063467](https://github.com/rohanarun/alpoge-rh-replay/issues/26399#issuecomment-7069348593) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M054030](https://github.com/rohanarun/alpoge-rh-replay/issues/26400#issuecomment-7069389779) | Pending review |
 | [@UnityChaos](https://github.com/UnityChaos) | [M164206](https://github.com/rohanarun/alpoge-rh-replay/issues/26401#issuecomment-7069406429) | Pending review |
-| [@jdenwood](https://github.com/jdenwood) | [M122997](https://github.com/rohanarun/alpoge-rh-replay/issues/26402#issuecomment-7069321885) | Pending review |

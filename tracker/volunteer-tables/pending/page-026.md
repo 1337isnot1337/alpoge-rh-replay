@@ -4,6 +4,7 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@1337isnot1337](https://github.com/1337isnot1337) | [M061966](https://github.com/rohanarun/alpoge-rh-replay/issues/29354#issuecomment-7073776785) | Pending review |
 | [@sp20262026](https://github.com/sp20262026) | [M101481](https://github.com/rohanarun/alpoge-rh-replay/issues/29357#issuecomment-7073784374) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M136387](https://github.com/rohanarun/alpoge-rh-replay/issues/29358#issuecomment-7073767067) | Pending review |
 | [@jdenwood](https://github.com/jdenwood) | [M136391](https://github.com/rohanarun/alpoge-rh-replay/issues/29359#issuecomment-7073768234) | Pending review |
@@ -31,7 +32,13 @@
 | [@f10etclawdbot](https://github.com/f10etclawdbot) | [M026659](https://github.com/rohanarun/alpoge-rh-replay/issues/29429#issuecomment-7073986598) | Pending review |
 | [@hipotures](https://github.com/hipotures) | [P2713](https://github.com/rohanarun/alpoge-rh-replay/issues/29434#issuecomment-7074117350) | Pending review |
 | [@1337isnot1337](https://github.com/1337isnot1337) | [M165170](https://github.com/rohanarun/alpoge-rh-replay/issues/29439#issuecomment-7074049514) | Pending review |
+| [@hipotures](https://github.com/hipotures) | [P2714](https://github.com/rohanarun/alpoge-rh-replay/issues/29440#issuecomment-7074164059) | Pending review |
 | [@1337isnot1337](https://github.com/1337isnot1337) | [M165175](https://github.com/rohanarun/alpoge-rh-replay/issues/29441#issuecomment-7074042632) | Pending review |
 | [@1337isnot1337](https://github.com/1337isnot1337) | [M162241](https://github.com/rohanarun/alpoge-rh-replay/issues/29442#issuecomment-7074052301) | Pending review |
 | [@1337isnot1337](https://github.com/1337isnot1337) | [M062032](https://github.com/rohanarun/alpoge-rh-replay/issues/29443#issuecomment-7074057901) | Pending review |
 | [@f10etclawdbot](https://github.com/f10etclawdbot) | [M028864](https://github.com/rohanarun/alpoge-rh-replay/issues/29445#issuecomment-7074051243) | Pending review |
+| [@1337isnot1337](https://github.com/1337isnot1337) | [M162227](https://github.com/rohanarun/alpoge-rh-replay/issues/29482#issuecomment-7074116231) | Pending review |
+| [@f10etclawdbot](https://github.com/f10etclawdbot) | [M028926](https://github.com/rohanarun/alpoge-rh-replay/issues/29483#issuecomment-7074117480) | Pending review |
+| [@1337isnot1337](https://github.com/1337isnot1337) | [M062754](https://github.com/rohanarun/alpoge-rh-replay/issues/29487#issuecomment-7074111787) | Pending review |
+| [@1337isnot1337](https://github.com/1337isnot1337) | [M165174](https://github.com/rohanarun/alpoge-rh-replay/issues/29488#issuecomment-7074118465) | Pending review |
+| [@1337isnot1337](https://github.com/1337isnot1337) | [M165183](https://github.com/rohanarun/alpoge-rh-replay/issues/29489#issuecomment-7074108571) | Pending review |
