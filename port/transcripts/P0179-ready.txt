@@ -1,0 +1,119 @@
+Packet P0179, partial submission
+Upstream base cdfdd90acc4cfa12349e8d717fd1c60f624ff266
+Port record commit be308838b2a32a58e5b59e24530f40775d7b6148
+Lean leanprover/lean4:v4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+python3 scripts/port-ci-build.py --workspace <workspace> --src <archive-source> --patch-ids M025128
+
+Elaborated IsLattice audit
+lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsExteriorAlgebraExtensionOfFrobeniusSemilin
+islattice-audit: 1 module(s), 0 hit(s)
+
+Earlier source builds for reused outputs
+⚠ [18254/18256] Built Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsExteriorAlgebraExtensionOfFrobeniusSemilin (12s)
+
+Build verification on the upstream base
+Building 1 explicitly requested module(s).
+Resolved 2 transitive project import(s) (3 total module(s) to materialize).
+[FETCH] Materializing 3 SHA-256-verified source file(s)...
+[FETCH] Verified 3/3 source file(s).
+[KEEP]  M003673: unchanged (verified against archive source)
+[KEEP]  M004896: unchanged (verified against archive source)
+[KEEP]  M025128: unchanged (verified against archive source)
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in <workspace>
+
+[BUILD] Building 1 module(s) with `lake build`...
+        IDs: M025128
+⚠ [18250/18254] Replayed Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.IsIsoTermComparisonRestrictScalars
+warning: src/Development/AbelianVarietyTheory/Definitions/QuasicoherentCohomology/IsIsoTermComparisonRestrictScalars.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/QuasicoherentCohomology/IsIsoTermComparisonRestrictScalars.lean:76:13: This simp argument is unused:
+  this
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [res]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/QuasicoherentCohomology/IsIsoTermComparisonRestrictScalars.lean:135:52: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Definitions/QuasicoherentCohomology/IsIsoTermComparisonRestrictScalars.lean:138:45: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Definitions/QuasicoherentCohomology/IsIsoTermComparisonRestrictScalars.lean:828:4: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/QuasicoherentCohomology/IsIsoTermComparisonRestrictScalars.lean:894:20: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Definitions/QuasicoherentCohomology/IsIsoTermComparisonRestrictScalars.lean:906:20: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Definitions/QuasicoherentCohomology/IsIsoTermComparisonRestrictScalars.lean:921:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/QuasicoherentCohomology/IsIsoTermComparisonRestrictScalars.lean:1015:76: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Definitions/QuasicoherentCohomology/IsIsoTermComparisonRestrictScalars.lean:1051:69: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Definitions/QuasicoherentCohomology/IsIsoTermComparisonRestrictScalars.lean:1219:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18251/18254] Ran Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.IsIsoTermComparisonRestrictScalars:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/QuasicoherentCohomology/IsIsoTermComparisonRestrictScalars.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.IsFlatLift
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/IsFlatLift.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18254] Ran Development.AbelianVarietyTheory.Definitions.Divisors.IsFlatLift:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/IsFlatLift.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Replayed Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsExteriorAlgebraExtensionOfFrobeniusSemilin
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsExteriorAlgebraExtensionOfFrobeniusSemilin.lean:6:12: Variable name `K` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _K
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsExteriorAlgebraExtensionOfFrobeniusSemilin.lean:6:23: Variable name `p` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _p
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (18254 jobs).
+[PASS]  M025128 (Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsExteriorAlgebraExtensionOfFrobeniusSemilin)
+
+PORT_BUILD_PASSED all 1 module(s).
