@@ -67,7 +67,8 @@ class GitHub:
         probe = subprocess.run(['gh', 'api', route], capture_output=True, text=True)
         if probe.returncode:
             if '(HTTP 404)' not in probe.stderr:
-                raise RuntimeError(probe.stderr.strip())
+                reason = probe.stderr.strip() or f'gh exited with status {probe.returncode}'
+                raise OSError(f'Could not inspect release {tag}: {reason}')
             subprocess.run(['gh', 'release', 'create', tag, '--repo', self.fork, '--title', target,
                             '--notes', f'Replay evidence for {tasks.repo}#{number}.'], check=True)
             remote = release()

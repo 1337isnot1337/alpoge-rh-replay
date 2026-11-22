@@ -297,6 +297,18 @@ class WorkerTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'overlapping'):
             worker.plan(self.assignments, self.rows)
 
+    def test_release_probe_failure_does_not_write_to_github(self):
+        github = object.__new__(worker_github.GitHub)
+        github.fork = 'volunteer/evidence'
+        route = 'repos/volunteer/evidence/releases/tags/replay-M000001-issue-7'
+        for message in ('gh: Forbidden (HTTP 403)', 'gh: Bad Gateway (HTTP 502)'):
+            with self.subTest(message=message), patch.object(subprocess, 'run') as run:
+                run.return_value = subprocess.CompletedProcess([], 1, '', message)
+                with self.assertRaisesRegex(OSError, 'Could not inspect release') as failure:
+                    github.publish_assets(7, 'M000001', [self.root / 'receipt.json'])
+                self.assertIn(message, str(failure.exception))
+                run.assert_called_once_with(['gh', 'api', route], capture_output=True, text=True)
+
     def test_release_resume_only_uploads_missing_assets_and_checks_all_digests(self):
         out = self.artifacts('M000001', 1)
         files = [out / name for name in worker.FILES]
