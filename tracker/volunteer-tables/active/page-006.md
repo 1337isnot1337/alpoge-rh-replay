@@ -4,7 +4,6 @@
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@loremcdmx](https://github.com/loremcdmx) | [M004289](https://github.com/rohanarun/alpoge-rh-replay/issues/26993) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [M034703](https://github.com/rohanarun/alpoge-rh-replay/issues/26994) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [M036491](https://github.com/rohanarun/alpoge-rh-replay/issues/27042) | Claimed |
 | [@loremcdmx](https://github.com/loremcdmx) | [M079838](https://github.com/rohanarun/alpoge-rh-replay/issues/27043) | Claimed |
@@ -20,7 +19,4 @@
 | [@CubeJerry](https://github.com/CubeJerry) | [P2728](https://github.com/rohanarun/alpoge-rh-replay/issues/28075) | Claimed |
 | [@CubeJerry](https://github.com/CubeJerry) | [P2749](https://github.com/rohanarun/alpoge-rh-replay/issues/28076) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [M116378](https://github.com/rohanarun/alpoge-rh-replay/issues/28207) | Claimed |
-| [@UnityChaos](https://github.com/UnityChaos) | [M032969](https://github.com/rohanarun/alpoge-rh-replay/issues/28244) | Claimed |
-| [@UnityChaos](https://github.com/UnityChaos) | [M074353](https://github.com/rohanarun/alpoge-rh-replay/issues/28257) | Claimed |
-| [@emsi](https://github.com/emsi) | [M117354](https://github.com/rohanarun/alpoge-rh-replay/issues/28258) | Claimed |
 | [@hipotures](https://github.com/hipotures) | [P2663](https://github.com/rohanarun/alpoge-rh-replay/issues/28262) | Claimed |
