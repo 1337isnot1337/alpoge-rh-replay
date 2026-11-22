@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.FlagUnipotentLattices.IdealCountLeW",
+  "source_sha256": "519d4bb7547e98c4b25b650db39331f10cd19ef7fa148c9e0e58fe9e57dca754",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

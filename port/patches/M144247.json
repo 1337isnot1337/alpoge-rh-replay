@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.DistinguishedUnitIdeals.DistinguishedOrderProofs.RhoMapFunctorial",
+  "source_sha256": "b11b101941a1fd67d0ebdb5ef713ae77f6372bb185c7859be1b007968440f153",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

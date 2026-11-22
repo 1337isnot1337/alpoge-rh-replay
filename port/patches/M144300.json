@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.EisensteinCokernelLengths.FactorialValuationBounds.ToolsB",
+  "source_sha256": "8d1d3e77cc167d6e989b5e37fdd86bb124cbe19349f6bf01bb3d810954ede1e3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

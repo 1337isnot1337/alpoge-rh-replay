@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.FormalDegreeBessel.FormalDegreeRatio.BesselUnitaryEquivHolds",
+  "source_sha256": "b1a22ff477a909a256e8fcbffc19524f24d15a5f2574e776920c981fa37f2b96",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

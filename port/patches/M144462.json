@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.FlagUnipotentLattices.UnitSumBound",
+  "source_sha256": "b357f6981084551070a8250b3ed8bba7715ebbb17a3890938b71376213dedbfa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

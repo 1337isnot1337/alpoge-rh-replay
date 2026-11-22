@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GL3MeanSquares.HookFormulaTorsion.ConditionIffDualEqFunctional",
+  "source_sha256": "dec3d2b507ec48bee087726c3e97f0d73cd14d6c39aca61779624a01b7aa6e66",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GL3MeanSquares.HookFormulaTorsion.HadamardUnitDiagonalDetLeOne",
+  "source_sha256": "fdaa9fcc7f63938b9a0c459f0f785cdd55f985af2e795acae32e3137c8760ae1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the current nonnegative-product lemmas and infers the vector in the same positive-semidefinite vanishing equivalence."
+}

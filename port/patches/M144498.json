@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.FormalDegreeBessel.FormalDegreeRatio.ReverseCauchySchwarzHolds",
+  "source_sha256": "11f3fc4f328960ef24ecd70d0e7f226575abfc69ba246a174e4c29d7f17028b5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

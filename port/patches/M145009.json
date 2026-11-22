@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GL3MeanSquares.IntegralMultipleNormLowerBound",
+  "source_sha256": "0dfb1c834928fe2f4a392e908e580a1e9cec5af9b2e5f0fef4801042636653f2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

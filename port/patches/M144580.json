@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.RealCyclotomicSubfield",
+  "source_sha256": "5834171f7fc864e908e25006aa21282cbc473aeacf7cbf6b1efc7f7cf8282ffe",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.EllipticTorsion.EllipticTorsionProofs.ModelUnitOf",
+  "source_sha256": "4022ce75098a18a7e802d5cb07064add8873163d6f233ad18c5360c228295221",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

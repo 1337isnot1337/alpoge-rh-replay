@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.EllipticTorsion.EllipticTorsionProofs.NDeriv",
+  "source_sha256": "866c66928b1aa9af5466d197fcc849c82c2447f2a524cd072078ef7bff033f26",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Lets the current power-series derivations infer their coefficient ring from the same input series."
+}

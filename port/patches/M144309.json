@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.EllipticTorsion.EllipticTorsionProofs.ConstantCoeffLogOnePlus",
+  "source_sha256": "ac8cf27e59d73ef889ba49f55a38d0bcfbd854e8ea85edce67ec25a129551148",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.FrobeniusOrbits.HostDiffSupport",
+  "source_sha256": "a490384b114e3b7afd7347757c0eb9e887fd6b1a70d70c7cd2840afb0f72d49a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

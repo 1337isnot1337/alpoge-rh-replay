@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.DoubleCosetMeasures.LowerUnipotentOrbits.RelIndexMulMeasure",
+  "source_sha256": "30d8128b2fa0f536c1cf23de4c51668e98d3a95245125f85fb8592cddf5239f5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

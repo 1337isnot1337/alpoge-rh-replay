@@ -1,0 +1,29 @@
+--- a/src/Formalism/GL3MeanSquares/HookFormulaTorsion/HadamardUnitDiagonalDetLeOne.lean
++++ b/src/Formalism/GL3MeanSquares/HookFormulaTorsion/HadamardUnitDiagonalDetLeOne.lean
+@@ -62,7 +62,7 @@
+     simpa using h3
+   rw [h4]
+   calc ∏ i, hh.eigenvalues i ≤ ∏ i, Real.exp (hh.eigenvalues i - 1) :=
+-        Finset.prod_le_prod (fun i _ => hnn i)
++        Finset.prod_le_prod₀ (fun i _ => hnn i)
+           (fun i _ => by linarith [Real.add_one_le_exp (hh.eigenvalues i - 1)])
+     _ = Real.exp (∑ i, (hh.eigenvalues i - 1)) := (Real.exp_sum _ _).symm
+     _ = 1 := by rw [Finset.sum_sub_distrib, htr']; simp
+@@ -78,7 +78,7 @@
+   · obtain ⟨c, hc⟩ := h0
+     have hGc : G c c = 0 := Complex.ext hc (hdiag c).2
+     have hv : G *ᵥ (Pi.single c 1) = 0 := by
+-      apply (hG.dotProduct_mulVec_zero_iff _).mp
++      apply hG.dotProduct_mulVec_zero_iff.mp
+       simp [hGc]
+     have hdet : G.det = 0 :=
+       Matrix.exists_mulVec_eq_zero_iff.mp ⟨Pi.single c 1, by simp, hv⟩
+@@ -244,7 +244,7 @@
+       intro c; rw [hentry c]; positivity
+     have h5 : ‖(U.submatrix e e').det‖ ^ 2 ≤ 1 := by
+       rw [← hdet]
+-      exact h1.trans (Finset.prod_le_one (fun c _ => hcol0 c) (fun c _ => hcol c))
++      exact h1.trans (Finset.prod_le_one₀ (fun c _ => hcol0 c) (fun c _ => hcol c))
+     exact (sq_le_one_iff₀ (norm_nonneg _)).mp h5
+   · obtain ⟨a, b, hab, hne⟩ : ∃ a b, e a = e b ∧ a ≠ b := by
+       simpa [Function.Injective] using he
