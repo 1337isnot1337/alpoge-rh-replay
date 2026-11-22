@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.PrimeLogOverPSqTail",
+  "source_sha256": "9d81f47c19712008654cfaec521ea1d32dc778146c1ebaed41eee6b99ba34fa5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0216-lean436-20261122/P0216-receipt.json"
+}

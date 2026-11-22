@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.KerExtC",
+  "source_sha256": "2de2c52388f6ea22500c7981e84e978fad5d598979c6aeb76fe30d195fe1f943",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0216-lean436-20261122/P0216-receipt.json"
+}

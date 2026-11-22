@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.WwEval",
+  "source_sha256": "e3c7523d559b460001fe2842bf9f335bf502a2277904525f7ead6a69424db709",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0216-lean436-20261122/P0216-receipt.json"
+}

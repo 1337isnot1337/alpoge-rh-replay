@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.KernelLatticeT0Exists",
+  "source_sha256": "d52353f27d6f2ec3cc19c2dd7931e5a37758bbf7b651f1e06ce36306c2fde710",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0216-lean436-20261122/P0216-receipt.json"
+}

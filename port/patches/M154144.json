@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdditiveIntegralGroups.DvCoeffMulEqZeroOfLtOrder",
+  "source_sha256": "14668c39f934f2bc6609d0805dc992fd77601fe752ebb1aad462e934d6c19552",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "MvPowerSeries.pderiv and PowerSeries.derivative now take their coefficient ring implicitly, so pass it by name, (R := R) or (R := ℂ_[p]). The affected statements (for example dv_pderiv_subst_coe) refer to the same derivations over the same ring, so they are equivalent to the pinned ones. No other change.",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0216-lean436-20261122/P0216-receipt.json"
+}

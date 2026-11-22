@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.SelfDualBridge",
+  "source_sha256": "9ba0c0f038d8e1780c445d8670144b538d58dd24d9d7a68a1dd35e8f22f32e5d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0216-lean436-20261122/P0216-receipt.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.GrpChartC",
+  "source_sha256": "e3f71d9be50ee5901af73d4a4d1ab3e8a698382acb5004819918c6055116514f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only adaptation: ContinuousOn.comp no longer infers the source set from the MapsTo lambda, so pass it explicitly as (s := ball 0 ρ ×ˢ ball 0 s) or (s := ball 0 ρ ×ˢ univ), the same sets the pinned proof used. No statement or definition changed.",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0216-lean436-20261122/P0216-receipt.json"
+}

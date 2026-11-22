@@ -1,0 +1,11 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/DetMulRCReal.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/DetMulRCReal.lean
+@@ -99,7 +99,7 @@
+   have hdet : F.det = Complex.normSq A.det ^ c := by
+     rw [hF, LinearMap.det_conj, det_mulLC_real]
+   have hpos : 0 < Complex.normSq A.det ^ c := pow_pos (Complex.normSq_pos.2 hA) _
+-  have hfun : (fun y => reim (A * Matrix.of ((reimE (r := m) (m := c)).symm y))) = F := by
++  have hfun : (fun y => reim (A * Matrix.of ((reimE (r := m) (m := c)).symm y))) = ⇑F := by
+     funext y
+     simp only [hF, LinearMap.coe_comp, Function.comp_apply, LinearEquiv.coe_coe, LinearMap.coe_restrictScalars]
+     rw [mulLC_apply]
