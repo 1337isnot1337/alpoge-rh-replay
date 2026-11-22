@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemOfMemSpanRingOfIntegersMapNumberFieldStatement",
+  "source_sha256": "5a745477a3cf894a1a233690cef778733fc134266f0d6d22fb0628015364b217",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/rohanarun/alpoge-rh-replay/blob/main/port/transcripts/P0111.receipt.json"
+}

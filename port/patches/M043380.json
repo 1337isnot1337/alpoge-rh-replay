@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemSupportQuotientSpanIffOfIsPushout",
+  "source_sha256": "249c5fcf8b32b3512d0d392450751f95980507f42d4856b55ec073e3c402951a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/rohanarun/alpoge-rh-replay/blob/main/port/transcripts/P0111.receipt.json"
+}

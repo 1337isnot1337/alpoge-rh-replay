@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MemSpanOfIsLatticeBasis",
+  "source_sha256": "2a8e5daa6866f81c406d885f5c01fd4a4e7ed3d7e79b1fab2173390dfa7dfc3f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/rohanarun/alpoge-rh-replay/blob/main/port/transcripts/P0111.receipt.json"
+}
