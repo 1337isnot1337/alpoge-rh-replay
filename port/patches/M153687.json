@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.CMTraceOnto",
+  "source_sha256": "26c817abd4b4744301ad0b4d37bb3dc374f2d9883ad30c9827a0f2ca1aafb682",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0215-lean436-20261121-r2/packet-result.json"
+}

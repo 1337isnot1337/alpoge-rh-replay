@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.ASWitt",
+  "source_sha256": "1f75858b589f41cb859cf4be0f38e837423f8f23f1027d1c96c656f2e33b4cd4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0215-lean436-20261121-r2/packet-result.json"
+}

@@ -4,5 +4,5 @@
   "lean": "leanprover/lean4:v4.36.0",
   "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
   "notes": "Elaborate the three existing kernel-checked factorial-ladder certificates sequentially with scoped Elab.async false, preventing concurrent proof tasks from exhausting the 13312 MiB process address-space ceiling. The original proofs, statements, kernel decision procedure and resource limits are unchanged; isolated compilation passes in 25 seconds. No exported declaration statements, definitions or instances changed.",
-  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0215-lean436-20261121/packet-result.json"
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0215-lean436-20261121-r2/packet-result.json"
 }
