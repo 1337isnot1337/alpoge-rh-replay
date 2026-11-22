@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsFrobRestrictScalarsOfPrimeAbsNorm",
+  "source_sha256": "79436593491c26c50a09e5bf2855fe6edb95029d6c24d340a2691c880439fde7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Identify ideal absolute norms with residue quotient cardinalities explicitly. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0254-lean436-20261121/packet-result.json"
+}
