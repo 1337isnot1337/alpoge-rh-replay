@@ -1,0 +1,17 @@
+--- a/src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean
++++ b/src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean
+@@ -136,12 +136,12 @@
+       · intro hy
+         exact ⟨_, hy, by simp⟩
+     rw [h]
+-    exact ho.preimage (continuous_mul_left _)
++    exact ho.preimage (continuous_const.mul continuous_id)
+   · have h : ((mulR R (x : K)) : Set K) = (fun y => (x : K) * y) '' (R : Set K) := by
+       ext y
+       simp [mulR]
+     rw [h]
+-    exact hc.image (continuous_mul_left _)
++    exact hc.image (continuous_const.mul continuous_id)
+ 
+ theorem modK_pos (ho : IsOpen (R : Set K)) (hc : IsCompact (R : Set K)) (x : Kˣ) :
+     0 < modK R (x : K) := by

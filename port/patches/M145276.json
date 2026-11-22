@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GrowthSums.FactorialBaseGrowth.Harmonic",
+  "source_sha256": "ca44ac7894786edab30554146f799c4309c576262092679a88d9db1dd452b0e4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed polynomial coefficient-of-finite-sum lemma. Supply explicit arguments to power-divides and normalize the old padic valuation alias in the integer inequality. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0212-lean436-20261121/packet-result.json"
+}
