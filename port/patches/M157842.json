@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PieriBlockIdeals.PieriColumnMinors.MaxValEqZeroOfLt",
+  "source_sha256": "3923a96d3f4e5d7d49790a066da628e88019322ab2b523ea1974307be0d33098",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0221-lean436-20261121/packet-result.json"
+}

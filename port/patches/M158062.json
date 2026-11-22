@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.ResultantValuation.PrimePairDyadicDisjointAlt",
+  "source_sha256": "0e4c85f30619fb7a2c31ac0c0b438b7d9e1c2522e45d2d2d9d750c66541adf71",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0221-lean436-20261121/packet-result.json"
+}

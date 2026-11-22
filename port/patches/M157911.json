@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PolynomialDimension.MultinomialDepth.SecondParameterSizeBoundsHolds",
+  "source_sha256": "9610bbb8949be27ebe2a1aff6788990dc49a31edcffe1b24929757bef27e4e60",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0221-lean436-20261121/packet-result.json"
+}

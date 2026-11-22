@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.RealPlaceAnalysis.RealPlaceTaylor.LeadingMinorEqDetSubmatrix",
+  "source_sha256": "dd02b846185d8cca8c6ec1714fddb2e852d82d55ac6453ef143c7075c5ae6418",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0221-lean436-20261121/packet-result.json"
+}

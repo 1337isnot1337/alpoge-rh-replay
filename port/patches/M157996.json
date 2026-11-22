@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.RankGapBounds.RankGapProofs.FormsTensorLocalization",
+  "source_sha256": "3a1c3e68d06c9f20c8ebcbb34674a21cbc79d90282dacc26550992f76fa6b28c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Reduce the identity scalar homomorphism before rewriting the product of powers. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0221-lean436-20261121/packet-result.json"
+}
