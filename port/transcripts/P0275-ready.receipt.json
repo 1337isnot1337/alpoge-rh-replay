@@ -1,0 +1,727 @@
+{
+  "target": "P0275",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/28950",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "build_base_commit": "5ca65658b35eb8861f6bb082e83a1f0f5f29909f",
+  "port_record_commit": "ed2a08a7b1d62fefba4661c40c741d05cc600b94",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "build_log_sha256": "ce75d932a466aee85bcb88208e70faed833780eb45906e2bdb8c391228997708",
+  "audit": {
+    "command": "lake env lean --run <repository>/port/islattice_audit.lean Formalism.PeriodIntegrals.BordDefs Formalism.PeriodIntegrals.DatumBlockEigen Formalism.PeriodIntegrals.DatumConjInv Formalism.PeriodIntegrals.HaarDefs Formalism.PeriodIntegrals.OrbitalBoundsConclusion.PowBddInt Formalism.PeriodIntegrals.OrbitalBoundsConclusion.QuotInv Formalism.PeriodIntegrals.OrbitalBoundsConclusion.QuotMeasUniq Formalism.PeriodIntegrals.OrbitalBoundsConclusion.RowLetter Formalism.PeriodIntegrals.OrbitalBoundsConclusion.SmithMat",
+    "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
+    "result": "islattice-audit: 9 module(s), 0 hit(s)"
+  },
+  "modules": [
+    {
+      "id": "M153464",
+      "module": "Formalism.PeriodIntegrals.BordDefs",
+      "source_sha256": "a7d0d8c3066a58bd354a3d241d2b6d07fab173f71a9de0d6d3cb841bf2110b2c",
+      "patch_sha256": null,
+      "built_source_sha256": "a7d0d8c3066a58bd354a3d241d2b6d07fab173f71a9de0d6d3cb841bf2110b2c",
+      "olean_sha256": "56abf650a89ff55df3bb3ce700f19f0ede4fe34281056481d130dc1c5c1f0947",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M153483",
+      "module": "Formalism.PeriodIntegrals.DatumBlockEigen",
+      "source_sha256": "b136bef77698711cd6c5e904ccfe80d095d71bff69d9582406bb0807600ff4d5",
+      "patch_sha256": null,
+      "built_source_sha256": "b136bef77698711cd6c5e904ccfe80d095d71bff69d9582406bb0807600ff4d5",
+      "olean_sha256": "304ddb5d6e6b5d3495c7050e59f1f07abad1bf4657ef7ac62c4a66fbece7da71",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M153484",
+      "module": "Formalism.PeriodIntegrals.DatumConjInv",
+      "source_sha256": "783537904e9ed2e19c0755223e3b8971e57ae2f4a4dc01510e51e54e817b5147",
+      "patch_sha256": null,
+      "built_source_sha256": "783537904e9ed2e19c0755223e3b8971e57ae2f4a4dc01510e51e54e817b5147",
+      "olean_sha256": "27faf90eb4a7a2ccfbd7a8ebed453e8e15cfe3c424534a03d7daf24c3985e181",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M153548",
+      "module": "Formalism.PeriodIntegrals.HaarDefs",
+      "source_sha256": "f2377a55871ec57573de868332dc8055a08ec26366af85507309864a41ff60e7",
+      "patch_sha256": null,
+      "built_source_sha256": "f2377a55871ec57573de868332dc8055a08ec26366af85507309864a41ff60e7",
+      "olean_sha256": "3bc8f8f15fe8869e84a59c500d051a400c8c8eb918fc5071cfd00c8eb53b81ed",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M153875",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.PowBddInt",
+      "source_sha256": "d09b5aee045746117e876dc9c9446c1f483466d2e63f8f04229e634265819c8e",
+      "patch_sha256": null,
+      "built_source_sha256": "d09b5aee045746117e876dc9c9446c1f483466d2e63f8f04229e634265819c8e",
+      "olean_sha256": "2e455bdd1e9bb12f8f90278389bae9149fff72e55c285a6020f869854ff83f61",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M153917",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.QuotInv",
+      "source_sha256": "ae137015c6cbce372a2c88e8bebd739714d7a35fc58b83ce158ad74ec70e9bba",
+      "patch_sha256": null,
+      "built_source_sha256": "ae137015c6cbce372a2c88e8bebd739714d7a35fc58b83ce158ad74ec70e9bba",
+      "olean_sha256": "2c374f386ec8bf1816d22b1135fa8867174efcff9f5295b018ef2452da24279e",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M153918",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.QuotMeasUniq",
+      "source_sha256": "3fb527a0c487aa3369cb6f19b5794a7ccfdbc77b0ca033dfbaf6a6ee60709ad4",
+      "patch_sha256": null,
+      "built_source_sha256": "3fb527a0c487aa3369cb6f19b5794a7ccfdbc77b0ca033dfbaf6a6ee60709ad4",
+      "olean_sha256": "7342150c22612739ab17eab01ec9f1ceae2e9b34a9fddfe73a2e24b716aef938",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M153925",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.RowLetter",
+      "source_sha256": "aa24ce12373fa6c55b597de5040bc6d0b0472e57b823ea4e3665a973235649aa",
+      "patch_sha256": null,
+      "built_source_sha256": "aa24ce12373fa6c55b597de5040bc6d0b0472e57b823ea4e3665a973235649aa",
+      "olean_sha256": "c162790ada0f4d5cb6f0c0f87dab9c1c437fd18eb1781d54d03bc764ee02f9df",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M153948",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.SmithMat",
+      "source_sha256": "289907ae94999c29cfb52acd9b9c5bba857e2206661240d55bd2fa9202da1cb7",
+      "patch_sha256": null,
+      "built_source_sha256": "289907ae94999c29cfb52acd9b9c5bba857e2206661240d55bd2fa9202da1cb7",
+      "olean_sha256": "7d332336cf599b8e475c1ebaca3cb2e0de2bea9963a80579ee2e20a74e5def53",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    }
+  ],
+  "project_imports": [
+    {
+      "id": "M144284",
+      "module": "Formalism.DoubleCosetMeasures.Statement",
+      "source_sha256": "02eab37f3d4d4ba211fc3ff70c478ecff9d86e9ecb996209b29be2e4d7be488a",
+      "patch_sha256": null,
+      "built_source_sha256": "02eab37f3d4d4ba211fc3ff70c478ecff9d86e9ecb996209b29be2e4d7be488a",
+      "port_record_sha256": "c2708ab4c3148154f5984e37d2fcb14fee49f74ee208e8ca6caca55a54412a5f"
+    },
+    {
+      "id": "M144285",
+      "module": "Formalism.DoubleCosetMeasures.StatementV",
+      "source_sha256": "c49cca997f8668e6926eae7347276ef00ebfd98325342014f66ac8a723878833",
+      "patch_sha256": null,
+      "built_source_sha256": "c49cca997f8668e6926eae7347276ef00ebfd98325342014f66ac8a723878833",
+      "port_record_sha256": "505eda331119a78fe5251be677919c64865efc67b188ac01aec0ea57b782c937"
+    },
+    {
+      "id": "M144286",
+      "module": "Formalism.DoubleCosetMeasures.StatementZ",
+      "source_sha256": "8effc3ee359b7b028f06e30ada71592291a87e73778ecddca5c076fa1b401981",
+      "patch_sha256": null,
+      "built_source_sha256": "8effc3ee359b7b028f06e30ada71592291a87e73778ecddca5c076fa1b401981",
+      "port_record_sha256": "0c87ffb9c3e182b8a0e228214ad54dbec7e3a3370afeba96eeb28e4a22a42b88"
+    },
+    {
+      "id": "M144503",
+      "module": "Formalism.FormalDegreeBessel.StatementBF",
+      "source_sha256": "917720f5cf0f73eac5d4ae5aa6950d7fc0db6345583d389af9c78e162e6d5438",
+      "patch_sha256": null,
+      "built_source_sha256": "917720f5cf0f73eac5d4ae5aa6950d7fc0db6345583d389af9c78e162e6d5438",
+      "port_record_sha256": "73fdba0c97de5faee86e3b7136361690ee793321bb4fa6c8ffc94b21ca4c209e"
+    },
+    {
+      "id": "M144505",
+      "module": "Formalism.FormalDegreeBessel.StatementG",
+      "source_sha256": "6e89a4393d81afa0f93b3477f5b48ba4c7681c7ff067105ca2878cb9b338bd60",
+      "patch_sha256": null,
+      "built_source_sha256": "6e89a4393d81afa0f93b3477f5b48ba4c7681c7ff067105ca2878cb9b338bd60",
+      "port_record_sha256": "7cdfe545ff1e881bbf7e589dea58ebdb6c3b545de5743a23bf9c11e0f9afdd41"
+    },
+    {
+      "id": "M154042",
+      "module": "Formalism.PeriodIntegrals.PowBddInt",
+      "source_sha256": "5dfea149cbcedc641d89fc00060a4fcec7a95c21ba0f78805c4bf4e23b1e3b6c",
+      "patch_sha256": null,
+      "built_source_sha256": "5dfea149cbcedc641d89fc00060a4fcec7a95c21ba0f78805c4bf4e23b1e3b6c",
+      "port_record_sha256": "88bb710b9b20751c4fd64455d4741cb50a9a62eae8d97fd0ec1f6ad70fba860c"
+    },
+    {
+      "id": "M154058",
+      "module": "Formalism.PeriodIntegrals.QuotInv",
+      "source_sha256": "6ea1fe81aed4e1dfc48e7998f9bf83e5bb7ce24d847293077b778122f8fb3dfa",
+      "patch_sha256": null,
+      "built_source_sha256": "6ea1fe81aed4e1dfc48e7998f9bf83e5bb7ce24d847293077b778122f8fb3dfa",
+      "port_record_sha256": "e45a5432dc9a7c54199600dff2c92351525c21f407e7409734b61cad607ea78b"
+    },
+    {
+      "id": "M154069",
+      "module": "Formalism.PeriodIntegrals.RowLetter",
+      "source_sha256": "19ad3d4fe5382a42f94b979abef3e263be7dd6db8de8a9927c0cc069f0cdcc97",
+      "patch_sha256": null,
+      "built_source_sha256": "19ad3d4fe5382a42f94b979abef3e263be7dd6db8de8a9927c0cc069f0cdcc97",
+      "port_record_sha256": "57bc93f1884085d34356d7b0e0e2eaa517b6d51482c5ff58726317ef9214d42c"
+    },
+    {
+      "id": "M154091",
+      "module": "Formalism.PeriodIntegrals.SmithMat",
+      "source_sha256": "1052df97a0fa146e5e3563b8f48cafe6960d24e842dbb99b868240c8b5773309",
+      "patch_sha256": null,
+      "built_source_sha256": "1052df97a0fa146e5e3563b8f48cafe6960d24e842dbb99b868240c8b5773309",
+      "port_record_sha256": "fd17de122a04fb417daa4a9cfe673076995a7e755a51626cbcbdadf78d171604"
+    },
+    {
+      "id": "M156334",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PowerBoundedIntegrality.Development",
+      "source_sha256": "3ab1091fc853e67a5142f0da64f2edc049da38717331c8a318e611c8032f1c05",
+      "patch_sha256": null,
+      "built_source_sha256": "3ab1091fc853e67a5142f0da64f2edc049da38717331c8a318e611c8032f1c05",
+      "port_record_sha256": "fc0dc01e9b1806246601a25c9029e25a421cffd2eda71dcadaa91763eeb544f6"
+    },
+    {
+      "id": "M156335",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PowerBoundedIntegrality.EvalIntMapEqZero",
+      "source_sha256": "75fc1b161a0b7135aa26fd3d029dc8421c99bd27fb41e049be7115d1c1bca0a2",
+      "patch_sha256": null,
+      "built_source_sha256": "75fc1b161a0b7135aa26fd3d029dc8421c99bd27fb41e049be7115d1c1bca0a2",
+      "port_record_sha256": "b9bedd986203713476817a531777ee47c549a9e9fea89275308f34fa9b7b9c0b"
+    },
+    {
+      "id": "M156336",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PowerBoundedIntegrality.Imports",
+      "source_sha256": "3aeb6f40db677f1aa10cec0f59be15579358f5cebc8fb1e741459f480ca69214",
+      "patch_sha256": null,
+      "built_source_sha256": "3aeb6f40db677f1aa10cec0f59be15579358f5cebc8fb1e741459f480ca69214",
+      "port_record_sha256": "5b1d738528f5cfd32bb48a85ba3c83291dc76e6154e16a6566b6e2cb73510b64"
+    },
+    {
+      "id": "M156424",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientInvariantMeasurability.MeasurableAvgS",
+      "source_sha256": "231d4f67c46bf91af98a09ba5e2bbb0ede236f667ecc46e6ec02f8ec619175a4",
+      "patch_sha256": null,
+      "built_source_sha256": "231d4f67c46bf91af98a09ba5e2bbb0ede236f667ecc46e6ec02f8ec619175a4",
+      "port_record_sha256": "4a0f8b474855f26e26e860cdacf1905cc352c068b072931f1a953d2db823f593"
+    },
+    {
+      "id": "M156425",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientInvariantMeasurability.MeasurableMmRight",
+      "source_sha256": "82339ebac11376f74a5702c487cb2feaae86c3200b4bf21ee2c450fd235f2d3b",
+      "patch_sha256": null,
+      "built_source_sha256": "82339ebac11376f74a5702c487cb2feaae86c3200b4bf21ee2c450fd235f2d3b",
+      "port_record_sha256": "03ffce13422793b6ebf6f987ed84c4757246e0887bef396e87a6cc7d3e9d68b6"
+    },
+    {
+      "id": "M156426",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientMeasureUniqueness.QLiftIsMulLeftInvariant",
+      "source_sha256": "8acb8424c3101b056593b1195c800bfda679129470e1f69a612a5b4a1f840b4c",
+      "patch_sha256": null,
+      "built_source_sha256": "8acb8424c3101b056593b1195c800bfda679129470e1f69a612a5b4a1f840b4c",
+      "port_record_sha256": "e65586708cbd9bccb05306a5062073c9bdc677ef92c3215bdd7af1a66396952d"
+    },
+    {
+      "id": "M156427",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientMeasureUniqueness.QmuWeight",
+      "source_sha256": "18cd72b3b0cd81ab90110c9bc2e6db6a51a9e04a6fba2cf6f1ea39e0c66e4bfd",
+      "patch_sha256": null,
+      "built_source_sha256": "18cd72b3b0cd81ab90110c9bc2e6db6a51a9e04a6fba2cf6f1ea39e0c66e4bfd",
+      "port_record_sha256": "d4ca19013bc92f82e3ab1d2233671a9804ae3d5a71b1e0b0d984d31d0d46ed52"
+    },
+    {
+      "id": "M156428",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientMeasureUniqueness.Weight",
+      "source_sha256": "54f3977c89ea4294508212d60a11148906e342ef9600172ac83388cabef4e984",
+      "patch_sha256": "f712e5ecef7fbbdf5ec4ef980357e91e47c35cfb219473e7af464016ff3f7e2b",
+      "built_source_sha256": "a3a63926451dfbbf74209142245e3f8d57cbe9bbde8fe956a0356bac064c0511",
+      "port_record_sha256": "6aee65a1c8e96aa264662e3ba4a0547ed46f7944ba79df7065178d4d9308a326"
+    },
+    {
+      "id": "M156429",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientMeasureUniqueness.WqUniqueOf",
+      "source_sha256": "edda89c008da0796e2f03addb8a9cb72b1491a40722d69f7a09f23fc7e08af7c",
+      "patch_sha256": null,
+      "built_source_sha256": "edda89c008da0796e2f03addb8a9cb72b1491a40722d69f7a09f23fc7e08af7c",
+      "port_record_sha256": "8e0233c2d25d921663a3c045b5c0f31d0012972479e457c5bd5806c09980119a"
+    },
+    {
+      "id": "M156516",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RowDerivationChainRule.ChainRule",
+      "source_sha256": "5f210aa945dd6656a7ada0881bea4f8d315e53936af41ba130e14b72ae904c65",
+      "patch_sha256": null,
+      "built_source_sha256": "5f210aa945dd6656a7ada0881bea4f8d315e53936af41ba130e14b72ae904c65",
+      "port_record_sha256": "e51f440a91559528853918c2db41a9c27344121ec780b7a4c61f4df748abd8f1"
+    },
+    {
+      "id": "M156517",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RowDerivationChainRule.DetDer",
+      "source_sha256": "497af5fb5397cdfa39b8499d6936d4931adb9dda9f54e4b7790a49b7d8554c94",
+      "patch_sha256": null,
+      "built_source_sha256": "497af5fb5397cdfa39b8499d6936d4931adb9dda9f54e4b7790a49b7d8554c94",
+      "port_record_sha256": "d1b04f54b2b99b05be50d47c152381a5bcfc3eb029d9af9fb3832ec310a3ecdc"
+    },
+    {
+      "id": "M156518",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RowDerivationChainRule.Development",
+      "source_sha256": "8b8253f67c4aef6736d42f571fd691fae965b20c67d6d5a535f31a1d6194af83",
+      "patch_sha256": null,
+      "built_source_sha256": "8b8253f67c4aef6736d42f571fd691fae965b20c67d6d5a535f31a1d6194af83",
+      "port_record_sha256": "b3295181e13f57f1c14a8b9baeea1f8c59c0dc1c412f1706c37683e350806f73"
+    },
+    {
+      "id": "M156519",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RowDerivationChainRule.NvFalseEq",
+      "source_sha256": "88d4993c5b2a495257d4da12c34e8b6907880001ef17e5d3ef85da30209b197a",
+      "patch_sha256": null,
+      "built_source_sha256": "88d4993c5b2a495257d4da12c34e8b6907880001ef17e5d3ef85da30209b197a",
+      "port_record_sha256": "5369edf3081dbe19e09f92ce71d73a188182be1ad02753746bc104bcbe45229c"
+    },
+    {
+      "id": "M156660",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SmithNormalForm.ExistsMoveRow",
+      "source_sha256": "7a0a379ff258f26ec36ddc49d5a4b3bb206de16dc3183d23529a5f7125ff8777",
+      "patch_sha256": null,
+      "built_source_sha256": "7a0a379ff258f26ec36ddc49d5a4b3bb206de16dc3183d23529a5f7125ff8777",
+      "port_record_sha256": "5c9b9c181d644569a6f454cf4293df80eaa59fca660d42d9c77965024a28410d"
+    },
+    {
+      "id": "M156661",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SmithNormalForm.IsUnitOneAddVecMulVec",
+      "source_sha256": "801863bb1a6a161b132f42c32e0a8f1e4c881e2d8dbf8c12136bb04aeb20d37c",
+      "patch_sha256": null,
+      "built_source_sha256": "801863bb1a6a161b132f42c32e0a8f1e4c881e2d8dbf8c12136bb04aeb20d37c",
+      "port_record_sha256": "da400bb443264bf6020d65c3fb48aef35192f9a6cae8db2b8fe1084168700a1b"
+    },
+    {
+      "id": "M157765",
+      "module": "Formalism.PeriodIntegrals.WeilQuotMeas",
+      "source_sha256": "b5e4aeeb4e17ce9555a82a6f50081fa59ecbf69df338343fd1358630344289d1",
+      "patch_sha256": null,
+      "built_source_sha256": "b5e4aeeb4e17ce9555a82a6f50081fa59ecbf69df338343fd1358630344289d1",
+      "port_record_sha256": "14e810b74cacdce57f9b10acf7a3aeaa64d78b799f886e21243588d16b6cf887"
+    },
+    {
+      "id": "M158005",
+      "module": "Formalism.RealPlaceAnalysis.Complexify",
+      "source_sha256": "462b2cd8d25fd18e2df70aa0abf4bf205b0f2d7f20f29c49bbd2671f03c357c0",
+      "patch_sha256": null,
+      "built_source_sha256": "462b2cd8d25fd18e2df70aa0abf4bf205b0f2d7f20f29c49bbd2671f03c357c0",
+      "port_record_sha256": "04dc43c19847bfe6ffc6e3d7e4af564ac59bdc4502709a8c13a94c2ddcfe5ce7"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M153242",
+      "module": "Formalism.MahlerMeasure.MahlerMeasureProofs.GaussRad",
+      "missing_imports": [
+        "M153264"
+      ]
+    },
+    {
+      "id": "M153249",
+      "module": "Formalism.MahlerMeasure.MahlerMeasureProofs.MahlerK",
+      "missing_imports": [
+        "M153248",
+        "M153264"
+      ]
+    },
+    {
+      "id": "M153251",
+      "module": "Formalism.MahlerMeasure.MahlerMeasureProofs.PhiInt",
+      "missing_imports": [
+        "M153226"
+      ]
+    },
+    {
+      "id": "M153252",
+      "module": "Formalism.MahlerMeasure.MahlerMeasureProofs.RemoveS",
+      "missing_imports": [
+        "M153268"
+      ]
+    },
+    {
+      "id": "M153261",
+      "module": "Formalism.MahlerMeasure.QuotientUpperBoundsOfPowerBounds",
+      "missing_imports": [
+        "M153264"
+      ]
+    },
+    {
+      "id": "M153265",
+      "module": "Formalism.MahlerMeasure.StatementE",
+      "missing_imports": [
+        "M153264"
+      ]
+    },
+    {
+      "id": "M153281",
+      "module": "Formalism.MeanHeightDescent.AverageDegreeBounds.SumComponents",
+      "missing_imports": [
+        "M153271"
+      ]
+    },
+    {
+      "id": "M153320",
+      "module": "Formalism.MoebiusJetDuality.EvDualJet",
+      "missing_imports": [
+        "M153321"
+      ]
+    },
+    {
+      "id": "M153332",
+      "module": "Formalism.NormUnitaryBounds.DetPolynomialWeights.ExistsNeZeroNormLeRankDivOfDualMinimum",
+      "missing_imports": [
+        "M147454",
+        "M147456",
+        "M147465"
+      ]
+    },
+    {
+      "id": "M153357",
+      "module": "Formalism.PadicSubsetSums.CentralIdempotents.StretchedExponentialDominance",
+      "missing_imports": [
+        "M153347"
+      ]
+    },
+    {
+      "id": "M153360",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.BaseChangeIwahoriFactorization",
+      "missing_imports": [
+        "M153356"
+      ]
+    },
+    {
+      "id": "M153362",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.CentralIdempotentsSumOne",
+      "missing_imports": [
+        "M153347",
+        "M153380"
+      ]
+    },
+    {
+      "id": "M153365",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.ConcreteDictionaryHolds",
+      "missing_imports": [
+        "M153349"
+      ]
+    },
+    {
+      "id": "M153368",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.DegreeOneSplit",
+      "missing_imports": [
+        "M153356"
+      ]
+    },
+    {
+      "id": "M153371",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.ExistsNeZeroAevalEqZero",
+      "missing_imports": [
+        "M153356"
+      ]
+    },
+    {
+      "id": "M153373",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.FixedByAutomorphismInField",
+      "missing_imports": [
+        "M153347"
+      ]
+    },
+    {
+      "id": "M153374",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.FourMulSumLeProduct",
+      "missing_imports": [
+        "M153347"
+      ]
+    },
+    {
+      "id": "M153378",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.IRRCentralIdemOrthogonal",
+      "missing_imports": [
+        "M153380"
+      ]
+    },
+    {
+      "id": "M153382",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.IRRCycleProbSum",
+      "missing_imports": [
+        "M153381",
+        "M153389"
+      ]
+    },
+    {
+      "id": "M153393",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.IRRPrimeToPartEqIff",
+      "missing_imports": [
+        "M153394"
+      ]
+    },
+    {
+      "id": "M153396",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.IRRSquarefreeCount",
+      "missing_imports": [
+        "M153388"
+      ]
+    },
+    {
+      "id": "M153397",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.IRRTypeCountExact",
+      "missing_imports": [
+        "M153388"
+      ]
+    },
+    {
+      "id": "M153405",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.ProdPowFactorizationLe",
+      "missing_imports": [
+        "M153347"
+      ]
+    },
+    {
+      "id": "M153411",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.TWBoundedSeriesIntegral",
+      "missing_imports": [
+        "M153346"
+      ]
+    },
+    {
+      "id": "M153412",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.TWCentralIdempotentIntegral",
+      "missing_imports": [
+        "M153346"
+      ]
+    },
+    {
+      "id": "M153415",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.TWHeckeDetFactors",
+      "missing_imports": [
+        "M153346"
+      ]
+    },
+    {
+      "id": "M153416",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.TWIndexAdditive",
+      "missing_imports": [
+        "M153346"
+      ]
+    },
+    {
+      "id": "M153419",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.TWLengthBaseChange",
+      "missing_imports": [
+        "M153346"
+      ]
+    },
+    {
+      "id": "M153421",
+      "module": "Formalism.PadicSubsetSums.StableGradedCounts.TWUnitBallLattice",
+      "missing_imports": [
+        "M153346"
+      ]
+    },
+    {
+      "id": "M153445",
+      "module": "Formalism.PeriodIntegrals.AlgebraMapMemO",
+      "missing_imports": [
+        "M158487"
+      ]
+    },
+    {
+      "id": "M153541",
+      "module": "Formalism.PeriodIntegrals.GaugeGap",
+      "missing_imports": [
+        "M158996"
+      ]
+    },
+    {
+      "id": "M153559",
+      "module": "Formalism.PeriodIntegrals.HermitianGenusExtension.SemilocalHermitianLattices.ExistsIsomFix",
+      "missing_imports": [
+        "M147293"
+      ]
+    },
+    {
+      "id": "M153599",
+      "module": "Formalism.PeriodIntegrals.LatIdxDet",
+      "missing_imports": [
+        "M147293"
+      ]
+    },
+    {
+      "id": "M153609",
+      "module": "Formalism.PeriodIntegrals.LocDensCorank",
+      "missing_imports": [
+        "M158487"
+      ]
+    },
+    {
+      "id": "M153610",
+      "module": "Formalism.PeriodIntegrals.LocDualGen",
+      "missing_imports": [
+        "M158517"
+      ]
+    },
+    {
+      "id": "M153613",
+      "module": "Formalism.PeriodIntegrals.LocHaarRR",
+      "missing_imports": [
+        "M158517"
+      ]
+    },
+    {
+      "id": "M153614",
+      "module": "Formalism.PeriodIntegrals.LocHerm",
+      "missing_imports": [
+        "M158487"
+      ]
+    },
+    {
+      "id": "M153617",
+      "module": "Formalism.PeriodIntegrals.LocLatEq",
+      "missing_imports": [
+        "M158517"
+      ]
+    },
+    {
+      "id": "M153618",
+      "module": "Formalism.PeriodIntegrals.LocLatSat",
+      "missing_imports": [
+        "M158517"
+      ]
+    },
+    {
+      "id": "M153619",
+      "module": "Formalism.PeriodIntegrals.LocProdFormula",
+      "missing_imports": [
+        "M158517"
+      ]
+    },
+    {
+      "id": "M153667",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.AreaLat",
+      "missing_imports": [
+        "M155490"
+      ]
+    },
+    {
+      "id": "M153671",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.BeDiagZp",
+      "missing_imports": [
+        "M154786",
+        "M154787",
+        "M154788",
+        "M154789",
+        "M154790",
+        "M154792"
+      ]
+    },
+    {
+      "id": "M153694",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.CommMult",
+      "missing_imports": [
+        "M154545",
+        "M154546",
+        "M154547",
+        "M154549"
+      ]
+    },
+    {
+      "id": "M153697",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.CubeRelationOfParallelogram",
+      "missing_imports": [
+        "M154749"
+      ]
+    },
+    {
+      "id": "M153711",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.DvFormEq",
+      "missing_imports": [
+        "M157139"
+      ]
+    },
+    {
+      "id": "M153734",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.FglPtW",
+      "missing_imports": [
+        "M155003",
+        "M155006"
+      ]
+    },
+    {
+      "id": "M153736",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.FiltLenF",
+      "missing_imports": [
+        "M154898"
+      ]
+    },
+    {
+      "id": "M153739",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.FlagGramNonneg",
+      "missing_imports": [
+        "M154916"
+      ]
+    },
+    {
+      "id": "M153744",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.FockRaiseLow",
+      "missing_imports": [
+        "M154972",
+        "M154973",
+        "M154974",
+        "M154975",
+        "M154976"
+      ]
+    },
+    {
+      "id": "M153761",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.GelfSpan",
+      "missing_imports": [
+        "M155357"
+      ]
+    },
+    {
+      "id": "M153802",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.KerSplit",
+      "missing_imports": [
+        "M155474"
+      ]
+    },
+    {
+      "id": "M153815",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.LocFramePrim",
+      "missing_imports": [
+        "M155955",
+        "M155956",
+        "M155957"
+      ]
+    },
+    {
+      "id": "M153862",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.PhConvProj",
+      "missing_imports": [
+        "M154587",
+        "M154588"
+      ]
+    },
+    {
+      "id": "M153877",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.PrimeLogOverP",
+      "missing_imports": [
+        "M156122"
+      ]
+    },
+    {
+      "id": "M153947",
+      "module": "Formalism.PeriodIntegrals.OrbitalBoundsConclusion.SimeqPdInt",
+      "missing_imports": [
+        "M154880"
+      ]
+    }
+  ],
+  "pruned": []
+}
