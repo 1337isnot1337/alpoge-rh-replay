@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.DeterminantRepresentations.GenHomog",
+  "source_sha256": "b55869250faca03a540a581aef666b6238b90bc0c333be54fdbc4e6b0d0847a3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use polynomial-first coefficients with unchanged indices in the private helper and qualify coefficient addition. Evaluate the target finitely-supported monomial coefficient and reduce the polynomial constant algebra map explicitly. Evaluate the zero finitely-supported coefficient. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0259-lean436-20261121/packet-result.json"
+}

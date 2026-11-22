@@ -1,0 +1,10 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/WeightNonnegExpOfWeightGeInvPrimeSubOne.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/WeightNonnegExpOfWeightGeInvPrimeSubOne.lean
+@@ -70,6 +70,7 @@
+   have hle := _root_.GlobalTheory.LegendreBounds.upper l hl d
+   have hyr : y = -((d.factorial.factorization l : ℕ) : ℝ) := by linarith
+   rw [Nat.factorization_def _ hl] at hyr
++  simp only [Nat.padicValNat_def] at hle
+   have hdc : (d : ℝ) / ((l : ℝ) - 1) = d * c := by rw [hc]; ring
+   rw [hy]
+   calc (((0 : ℝ) - w α : ℝ) : WithTop ℝ) ≤ ((y + ((d : ℝ) * c - w α) : ℝ) : WithTop ℝ) :=

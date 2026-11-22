@@ -1,0 +1,10 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AdditiveValuationNorms/ImportsAlt.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AdditiveValuationNorms/ImportsAlt.lean
+@@ -16,7 +16,6 @@
+       ext j
+       simp [Matrix.mulVec_single_one]
+       rw [← hs j]
+-      rfl
+     intro v
+     simpa using LinearMap.congr_fun h v
+   set A : Matrix (Fin R) (Fin R) ℤ_[l] := c • (Matrix.of fun i j => s j i) - 1 with hA
