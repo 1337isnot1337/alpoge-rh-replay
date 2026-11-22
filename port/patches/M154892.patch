@@ -1,0 +1,11 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ExponentialTriangular/NormDetConjExp.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ExponentialTriangular/NormDetConjExp.lean
+@@ -34,8 +34,6 @@
+   rw [conjTranspose_mul, conjTranspose_mul, conjTranspose_conjTranspose, diagonal_conjTranspose,
+     Matrix.mul_assoc]
+   congr 3
+-  funext i
+-  simp
+ 
+ lemma exp_conj {W : Matrix (Fin n) (Fin n) ℂ} (hW : W ∈ unitaryGroup (Fin n) ℂ) (d : Fin n → ℝ) :
+     NormedSpace.exp (W * diagonal (fun i => (d i : ℂ)) * Wᴴ) =
