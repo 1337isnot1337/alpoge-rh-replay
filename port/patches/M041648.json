@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LipschitzConstantInverseDifferentEisensteinStatement",
+  "source_sha256": "fe035bfa0f3816f2adcf2eed5f726cf1bb4a42fa17ee63c2618804261ab48161",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0246-lean436-20261121/packet-result.json"
+}
