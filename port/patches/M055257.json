@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.UnitaryConjMapsKerAevalBasisAndGramStatement",
+  "source_sha256": "a74630f2c10e1ff61340216b40cd8de4035d5cdbc0e6200bc547f6fae59f4088",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-m055257-lean436/receipt.json"
+}
