@@ -1,0 +1,2382 @@
+Packet P0095, partial submission
+Upstream base d317e766d6e34ab35a2dd1f25ecbb1d99a164d98
+Port record commit 1dd1c348db8cf7d0fb831091dfafd2db389e4255
+Lean leanprover/lean4:v4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+python3 scripts/port-ci-build.py --workspace <workspace> --src <archive-source> --patch-ids M002386 M002403 M002456 M002460 M002498 M002501 M002502 M002549 M002607 M002720 M002739 M002793 M002794 M002798 M002805 M002857 M002881 M002890 M002977 M002999 M003002 M003370 M003442 M003485 M003498 M003690 M003762 M003776 M003793 M003857 M003917 M003977 M003978 M003992 M004000 M004019 M004022 M004029 M004065 M004075 M004077 M004088 M004092 M004099 M004103 M004106 M004115 M004128 M004134 M004135 M004143 M004147 M004186 M004232 M004245 M004247 M004296 M004392
+
+Elaborated IsLattice audit
+lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.BlockTheory.JetGauges.EndomorphismPullbackRigid Development.AbelianVarietyTheory.BlockTheory.JetGauges.PerfectPairings Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.KernelCharacterDelta Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.OnePlusPowerAssembly Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.RealPointModes Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.TorusMarkingPhase Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.TorusThetaNorms Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.SiegelWeilGramDensity Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.GL2CharacterZeros Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.PlusPolynomialInclusion Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SemilinearExtensionBases Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.LfacDenominatorNeZero Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.LocalConditionsOfGlobal Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.ExistsStrictAnti Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.PremisesModel Development.AbelianVarietyTheory.Counterexamples.JetSurvey.LowKAddStrictAnti Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ChosenEqOfAllRules Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.JetTruncNotInjective Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.WeightEqZeroOfOneIsSec Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.IsHermForm Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.NontrivialTransvection Development.AbelianVarietyTheory.Definitions.CommutativeAlgebra.CompletionDVR Development.AbelianVarietyTheory.Definitions.Divisors.CircleAsphGNontrivial Development.AbelianVarietyTheory.Definitions.Divisors.EllFamNontrivial Development.AbelianVarietyTheory.Definitions.Divisors.ExistsAlgHomOfIsBaseChange Development.AbelianVarietyTheory.Definitions.Divisors.IsKMOne Development.AbelianVarietyTheory.Definitions.Divisors.LeTwoMulOfForallScale Development.AbelianVarietyTheory.Definitions.Divisors.LogAbsVpOfNormalised Development.AbelianVarietyTheory.Definitions.Divisors.MemShaKernelIffLocallyTrivial Development.AbelianVarietyTheory.Definitions.Divisors.PointHeight Development.AbelianVarietyTheory.Definitions.Divisors.SubsingletonComplex Development.AbelianVarietyTheory.Definitions.Divisors.ZeroMemSolSet Development.AbelianVarietyTheory.Definitions.Divisors.ZetaActRefl Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.SmulBasisMemHatIff Development.AbelianVarietyTheory.Definitions.Foundations.AltCoeffRho Development.AbelianVarietyTheory.Definitions.Foundations.CurveCl Development.AbelianVarietyTheory.Definitions.Foundations.DiagUnitsEqLocalIdele Development.AbelianVarietyTheory.Definitions.Foundations.EtaSixProductDifferentiable Development.AbelianVarietyTheory.Definitions.Foundations.Imports Development.AbelianVarietyTheory.Definitions.Foundations.IsHilbertSchmidtOfFiniteDimensional Development.AbelianVarietyTheory.Definitions.Foundations.IsIwasawaOfIsCompact Development.AbelianVarietyTheory.Definitions.Foundations.IsSatFrame Development.AbelianVarietyTheory.Definitions.Foundations.IsTopWTopWOfExists Development.AbelianVarietyTheory.Definitions.Foundations.Letter Development.AbelianVarietyTheory.Definitions.Foundations.LocallyConstantTwoCochain Development.AbelianVarietyTheory.Definitions.Foundations.Mdl Development.AbelianVarietyTheory.Definitions.Foundations.MultipliableAndSgNeZero Development.AbelianVarietyTheory.Definitions.Foundations.NotIsTrDataGaussianIntOne Development.AbelianVarietyTheory.Definitions.Foundations.PetIPSmulRight Development.AbelianVarietyTheory.Definitions.Foundations.PieceEqPieceT Development.AbelianVarietyTheory.Definitions.Foundations.SecondCountableAndT2LocalField Development.AbelianVarietyTheory.Definitions.Foundations.SimpleSum Development.AbelianVarietyTheory.Definitions.GaloisGeometry.CohomZeroEquivContinuous Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsDPMorphismBot Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsSepClosedResidueFieldPowerSeriesComplex Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsStrictlySemistableAlt Development.AbelianVarietyTheory.Definitions.GaloisGeometry.PolyApproxZeroPadic Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LinkExactAff
+islattice-audit: 58 module(s), 0 hit(s)
+
+Earlier source builds for reused outputs
+⚠ [18340/18397] Built Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LinkExactAff (6.6s)
+⚠ [18341/18397] Built Development.AbelianVarietyTheory.Definitions.GaloisGeometry.PolyApproxZeroPadic (5.1s)
+⚠ [18342/18397] Built Development.AbelianVarietyTheory.Definitions.Foundations.PetIPSmulRight (5.1s)
+✔ [18343/18397] Built Development.AbelianVarietyTheory.Definitions.Foundations.PieceEqPieceT (5.0s)
+⚠ [18344/18397] Built Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsDPMorphismBot (15s)
+⚠ [18345/18397] Built Development.AbelianVarietyTheory.Definitions.Foundations.LocallyConstantTwoCochain (4.0s)
+⚠ [18346/18397] Built Development.AbelianVarietyTheory.Definitions.Foundations.NotIsTrDataGaussianIntOne (8.2s)
+⚠ [18347/18397] Built Development.AbelianVarietyTheory.Definitions.Foundations.Letter (7.3s)
+⚠ [18348/18397] Built Development.AbelianVarietyTheory.Definitions.Foundations.Mdl (4.3s)
+⚠ [18349/18397] Built Development.AbelianVarietyTheory.Definitions.Foundations.IsTopWTopWOfExists (6.5s)
+⚠ [18350/18397] Built Development.AbelianVarietyTheory.Definitions.Foundations.IsSatFrame (6.0s)
+⚠ [18351/18397] Built Development.AbelianVarietyTheory.Definitions.Foundations.Imports (6.2s)
+⚠ [18353/18397] Built Development.AbelianVarietyTheory.Definitions.Foundations.EtaSixProductDifferentiable (8.1s)
+⚠ [18354/18397] Built Development.AbelianVarietyTheory.Definitions.Foundations.DiagUnitsEqLocalIdele (7.4s)
+⚠ [18355/18397] Built Development.AbelianVarietyTheory.Definitions.Foundations.AltCoeffRho (6.0s)
+⚠ [18356/18397] Built Development.AbelianVarietyTheory.Definitions.Foundations.CurveCl (7.2s)
+⚠ [18357/18397] Built Development.AbelianVarietyTheory.Definitions.Divisors.ZetaActRefl (5.1s)
+⚠ [18358/18397] Built Development.AbelianVarietyTheory.Definitions.Divisors.ZeroMemSolSet (5.1s)
+⚠ [18359/18397] Built Development.AbelianVarietyTheory.Definitions.Foundations.MultipliableAndSgNeZero (52s)
+⚠ [18360/18397] Built Development.AbelianVarietyTheory.Definitions.Divisors.PointHeight (6.3s)
+⚠ [18361/18397] Built Development.AbelianVarietyTheory.Definitions.Divisors.SubsingletonComplex (6.7s)
+✔ [18362/18397] Built Development.AbelianVarietyTheory.Definitions.Divisors.MemShaKernelIffLocallyTrivial (6.9s)
+⚠ [18363/18397] Built Development.AbelianVarietyTheory.Definitions.GaloisGeometry.CohomZeroEquivContinuous (14s)
+⚠ [18365/18397] Built Development.AbelianVarietyTheory.Definitions.Divisors.LogAbsVpOfNormalised (21s)
+⚠ [18369/18397] Built Development.AbelianVarietyTheory.Definitions.Divisors.CircleAsphGNontrivial (9.3s)
+⚠ [18371/18397] Built Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.NontrivialTransvection (6.6s)
+⚠ [18372/18397] Built Development.AbelianVarietyTheory.Definitions.CommutativeAlgebra.CompletionDVR (5.8s)
+⚠ [18373/18397] Built Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.IsHermForm (6.6s)
+⚠ [18374/18397] Built Development.AbelianVarietyTheory.Definitions.Divisors.IsKMOne (6.4s)
+⚠ [18375/18397] Built Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.SmulBasisMemHatIff (11s)
+⚠ [18376/18397] Built Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.JetTruncNotInjective (12s)
+⚠ [18377/18397] Built Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ChosenEqOfAllRules (11s)
+⚠ [18378/18397] Built Development.AbelianVarietyTheory.Counterexamples.JetSurvey.LowKAddStrictAnti (11s)
+⚠ [18379/18397] Built Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.ExistsStrictAnti (8.8s)
+⚠ [18381/18397] Built Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.LocalConditionsOfGlobal (14s)
+⚠ [18382/18397] Built Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.LfacDenominatorNeZero (10s)
+⚠ [18383/18397] Built Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SemilinearExtensionBases (10s)
+⚠ [18384/18397] Built Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.GL2CharacterZeros (12s)
+⚠ [18385/18397] Built Development.AbelianVarietyTheory.Definitions.Foundations.SecondCountableAndT2LocalField (13s)
+⚠ [18386/18397] Built Development.AbelianVarietyTheory.Definitions.Foundations.SimpleSum (15s)
+⚠ [18387/18397] Built Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.PlusPolynomialInclusion (16s)
+⚠ [18388/18397] Built Development.AbelianVarietyTheory.Definitions.Foundations.IsIwasawaOfIsCompact (14s)
+⚠ [18389/18397] Built Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.SiegelWeilGramDensity (11s)
+⚠ [18390/18397] Built Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.TorusThetaNorms (9.3s)
+⚠ [18391/18397] Built Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.TorusMarkingPhase (7.4s)
+⚠ [18392/18397] Built Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.RealPointModes (8.0s)
+⚠ [18393/18397] Built Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.WeightEqZeroOfOneIsSec (8.6s)
+⚠ [18394/18397] Built Development.AbelianVarietyTheory.BlockTheory.JetGauges.PerfectPairings (8.2s)
+⚠ [18395/18397] Built Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.KernelCharacterDelta (12s)
+⚠ [18396/18397] Built Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.OnePlusPowerAssembly (12s)
+⚠ [18397/18397] Built Development.AbelianVarietyTheory.BlockTheory.JetGauges.EndomorphismPullbackRigid (10s)
+⚠ [18352/18397] Built Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsStrictlySemistableAlt (126s)
+⚠ [18364/18397] Built Development.AbelianVarietyTheory.Definitions.Foundations.IsHilbertSchmidtOfFiniteDimensional (32s)
+⚠ [18366/18397] Built Development.AbelianVarietyTheory.Definitions.Divisors.LeTwoMulOfForallScale (22s)
+⚠ [18369/18397] Built Development.AbelianVarietyTheory.Definitions.Divisors.EllFamNontrivial (32s)
+⚠ [18377/18397] Built Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsSepClosedResidueFieldPowerSeriesComplex (219s)
+⚠ [18393/18397] Built Development.AbelianVarietyTheory.Definitions.Divisors.ExistsAlgHomOfIsBaseChange (12s)
+⚠ [18397/18397] Built Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.PremisesModel (8.9s)
+
+Build verification on the upstream base
+Building 58 explicitly requested module(s).
+Resolved 45 transitive project import(s) (103 total module(s) to materialize).
+[FETCH] Materializing 103 SHA-256-verified source file(s)...
+[FETCH] Verified 103/103 source file(s).
+[KEEP]  M002078: unchanged (verified against archive source)
+[KEEP]  M002386: unchanged (verified against archive source)
+[KEEP]  M002403: unchanged (verified against archive source)
+[KEEP]  M002456: unchanged (verified against archive source)
+[KEEP]  M002460: unchanged (verified against archive source)
+[KEEP]  M002498: unchanged (verified against archive source)
+[KEEP]  M002501: unchanged (verified against archive source)
+[KEEP]  M002502: unchanged (verified against archive source)
+[KEEP]  M002549: unchanged (verified against archive source)
+[KEEP]  M002607: unchanged (verified against archive source)
+[KEEP]  M002720: unchanged (verified against archive source)
+[KEEP]  M002739: unchanged (verified against archive source)
+[KEEP]  M002793: unchanged (verified against archive source)
+[KEEP]  M002794: unchanged (verified against archive source)
+[KEEP]  M002798: unchanged (verified against archive source)
+[PATCH] M002805: applied M002805.patch
+[KEEP]  M002857: unchanged (verified against archive source)
+[KEEP]  M002881: unchanged (verified against archive source)
+[KEEP]  M002890: unchanged (verified against archive source)
+[KEEP]  M002977: unchanged (verified against archive source)
+[KEEP]  M002999: unchanged (verified against archive source)
+[KEEP]  M003000: unchanged (verified against archive source)
+[KEEP]  M003002: unchanged (verified against archive source)
+[KEEP]  M003370: unchanged (verified against archive source)
+[KEEP]  M003412: unchanged (verified against archive source)
+[KEEP]  M003442: unchanged (verified against archive source)
+[KEEP]  M003447: unchanged (verified against archive source)
+[PATCH] M003485: applied M003485.patch
+[PATCH] M003498: applied M003498.patch
+[KEEP]  M003570: unchanged (verified against archive source)
+[KEEP]  M003608: unchanged (verified against archive source)
+[KEEP]  M003690: unchanged (verified against archive source)
+[PATCH] M003762: applied M003762.patch
+[KEEP]  M003776: unchanged (verified against archive source)
+[KEEP]  M003793: unchanged (verified against archive source)
+[KEEP]  M003823: unchanged (verified against archive source)
+[KEEP]  M003857: unchanged (verified against archive source)
+[KEEP]  M003917: unchanged (verified against archive source)
+[KEEP]  M003977: unchanged (verified against archive source)
+[KEEP]  M003978: unchanged (verified against archive source)
+[KEEP]  M003986: unchanged (verified against archive source)
+[KEEP]  M003992: unchanged (verified against archive source)
+[KEEP]  M004000: unchanged (verified against archive source)
+[KEEP]  M004011: unchanged (verified against archive source)
+[KEEP]  M004018: unchanged (verified against archive source)
+[KEEP]  M004019: unchanged (verified against archive source)
+[KEEP]  M004022: unchanged (verified against archive source)
+[KEEP]  M004029: unchanged (verified against archive source)
+[KEEP]  M004049: unchanged (verified against archive source)
+[KEEP]  M004065: unchanged (verified against archive source)
+[KEEP]  M004068: unchanged (verified against archive source)
+[KEEP]  M004071: unchanged (verified against archive source)
+[KEEP]  M004072: unchanged (verified against archive source)
+[PATCH] M004075: applied M004075.patch
+[KEEP]  M004077: unchanged (verified against archive source)
+[KEEP]  M004088: unchanged (verified against archive source)
+[KEEP]  M004092: unchanged (verified against archive source)
+[KEEP]  M004099: unchanged (verified against archive source)
+[KEEP]  M004103: unchanged (verified against archive source)
+[KEEP]  M004105: unchanged (verified against archive source)
+[KEEP]  M004106: unchanged (verified against archive source)
+[KEEP]  M004115: unchanged (verified against archive source)
+[KEEP]  M004122: unchanged (verified against archive source)
+[KEEP]  M004128: unchanged (verified against archive source)
+[KEEP]  M004134: unchanged (verified against archive source)
+[KEEP]  M004135: unchanged (verified against archive source)
+[KEEP]  M004143: unchanged (verified against archive source)
+[KEEP]  M004147: unchanged (verified against archive source)
+[KEEP]  M004149: unchanged (verified against archive source)
+[KEEP]  M004164: unchanged (verified against archive source)
+[KEEP]  M004186: unchanged (verified against archive source)
+[KEEP]  M004232: unchanged (verified against archive source)
+[KEEP]  M004237: unchanged (verified against archive source)
+[PATCH] M004245: applied M004245.patch
+[PATCH] M004247: applied M004247.patch
+[KEEP]  M004288: unchanged (verified against archive source)
+[KEEP]  M004296: unchanged (verified against archive source)
+[KEEP]  M004392: unchanged (verified against archive source)
+[KEEP]  M004411: unchanged (verified against archive source)
+[KEEP]  M004846: unchanged (verified against archive source)
+[KEEP]  M005047: unchanged (verified against archive source)
+[PATCH] M006184: applied M006184.patch
+[PATCH] M063547: applied M063547.patch
+[PATCH] M066417: applied M066417.patch
+[KEEP]  M088874: unchanged (verified against archive source)
+[KEEP]  M144210: unchanged (verified against archive source)
+[KEEP]  M147335: unchanged (verified against archive source)
+[KEEP]  M149412: unchanged (verified against archive source)
+[KEEP]  M150216: unchanged (verified against archive source)
+[KEEP]  M150495: unchanged (verified against archive source)
+[KEEP]  M157754: unchanged (verified against archive source)
+[KEEP]  M158150: unchanged (verified against archive source)
+[KEEP]  M161803: unchanged (verified against archive source)
+[KEEP]  M161804: unchanged (verified against archive source)
+[KEEP]  M161831: unchanged (verified against archive source)
+[KEEP]  M161836: unchanged (verified against archive source)
+[KEEP]  M171369: unchanged (verified against archive source)
+[KEEP]  M171874: unchanged (verified against archive source)
+[PATCH] M172651: applied M172651.patch
+[KEEP]  M173135: unchanged (verified against archive source)
+[KEEP]  M173559: unchanged (verified against archive source)
+[KEEP]  M173615: unchanged (verified against archive source)
+[KEEP]  M175152: unchanged (verified against archive source)
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in <workspace>
+
+[BUILD] Building 58 module(s) with `lake build`...
+        IDs: M002386, M002403, M002456, M002460, M002498, M002501, M002502, M002549, M002607, M002720, M002739, M002793, M002794, M002798, M002805, M002857, M002881, M002890, M002977, M002999, M003002, M003370, M003442, M003485, M003498, M003690, M003762, M003776, M003793, M003857, M003917, M003977, M003978, M003992, M004000, M004019, M004022, M004029, M004065, M004075, M004077, M004088, M004092, M004099, M004103, M004106, M004115, M004128, M004134, M004135, M004143, M004147, M004186, M004232, M004245, M004247, M004296, M004392
+⚠ [18249/18373] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.CubicalStructures.CubeSymmetricSwapFirst
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SemiabelianSchemes/CubicalStructures/CubeSymmetricSwapFirst.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18250/18373] Ran ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.CubicalStructures.CubeSymmetricSwapFirst:irArts
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SemiabelianSchemes/CubicalStructures/CubeSymmetricSwapFirst.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18373] Replayed Development.AbelianVarietyTheory.BlockTheory.JetGauges.EndomorphismPullbackRigid
+warning: src/Development/AbelianVarietyTheory/BlockTheory/JetGauges/EndomorphismPullbackRigid.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/BlockTheory/JetGauges/EndomorphismPullbackRigid.lean:78:0: automatically included section variable(s) unused in theorem `GlobalTheory.IndefiniteRowSideFullHecke.EndomorphismPullbackRigid.lift_transl`:
+  [IsCommMonObj A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsCommMonObj A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18252/18373] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.CocycleRightZeroThd
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/CocycleRightZeroThd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/CocycleRightZeroThd.lean:55:62: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/CocycleRightZeroThd.lean:45:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/CocycleRightZeroThd.lean:46:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/CocycleRightZeroThd.lean:51:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/CocycleRightZeroThd.lean:54:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/CocycleRightZeroThd.lean:45:6: Unused tactic linter: `exact MvPolynomial.coe_injective _ _ h` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/CocycleRightZeroThd.lean:46:6: Unused tactic linter: `exact MvPolynomial.coe_injective _ h` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/CocycleRightZeroThd.lean:51:6: Unused tactic linter: `exact MvPolynomial.eval₂_one _ _` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/CocycleRightZeroThd.lean:54:6: Unused tactic linter: `exact MvPolynomial.eval₂_one _ _` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/CocycleRightZeroThd.lean:87:2: The namespace `G` is duplicated in the declaration `ReciprocityTheory.ChartRestriction.G.Geo.Tor.Germ.FB.G`.
+
+Note: This linter can be disabled with `set_option linter.dupNamespace false`
+⚠ [18253/18373] Ran ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.CocycleRightZeroThd:irArts
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/CocycleRightZeroThd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18373] Replayed Development.AbelianVarietyTheory.BlockTheory.JetGauges.PerfectPairings
+warning: src/Development/AbelianVarietyTheory/BlockTheory/JetGauges/PerfectPairings.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18255/18373] Replayed Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.PowerSeriesOneAddConstMulXMulInv
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/PowerSeriesOneAddConstMulXMulInv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/PowerSeriesOneAddConstMulXMulInv.lean:153:0: automatically included section variable(s) unused in theorem `GlobalTheory.PhiGam.pull_le_pull`:
+  [Module k⸨X⸩ V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Module k⸨X⸩ V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/PowerSeriesOneAddConstMulXMulInv.lean:182:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/PowerSeriesOneAddConstMulXMulInv.lean:183:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/PowerSeriesOneAddConstMulXMulInv.lean:291:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18256/18373] Ran Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.PowerSeriesOneAddConstMulXMulInv:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/PowerSeriesOneAddConstMulXMulInv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18257/18373] Replayed Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.KernelCharacterDelta
+warning: src/Development/AbelianVarietyTheory/BlockTheory/NonGaloisCusps/KernelCharacterDelta.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18258/18373] Replayed Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.OnePlusPowerAssembly
+warning: src/Development/AbelianVarietyTheory/BlockTheory/NonGaloisCusps/OnePlusPowerAssembly.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18259/18373] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.Signature
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/FundamentalDomains/Signature.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18260/18373] Ran ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.Signature:irArts
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/FundamentalDomains/Signature.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18261/18373] Replayed Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.RealPointModes
+warning: src/Development/AbelianVarietyTheory/BlockTheory/PoincareCuspForms/RealPointModes.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18262/18373] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SquareIntegrability.GCauchyStatement
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/GCauchyStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18263/18373] Ran ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SquareIntegrability.GCauchyStatement:irArts
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/GCauchyStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18264/18373] Replayed Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.TorusMarkingPhase
+warning: src/Development/AbelianVarietyTheory/BlockTheory/PoincareCuspForms/TorusMarkingPhase.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18265/18373] Replayed Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.TorusThetaNorms
+warning: src/Development/AbelianVarietyTheory/BlockTheory/PoincareCuspForms/TorusThetaNorms.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18266/18373] Replayed Formalism.UnipotentAdelicQuotients.SWXSDefs
+warning: src/Formalism/UnipotentAdelicQuotients/SWXSDefs.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/UnipotentAdelicQuotients/SWXSDefs.lean:21:0: automatically included section variable(s) unused in theorem `HeckeCharacterZeroLocus.SiegelWeilU.cT_one`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/UnipotentAdelicQuotients/SWXSDefs.lean:111:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Formalism/UnipotentAdelicQuotients/SWXSDefs.lean:115:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [18267/18373] Ran Formalism.UnipotentAdelicQuotients.SWXSDefs:irArts
+warning: src/Formalism/UnipotentAdelicQuotients/SWXSDefs.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18268/18373] Replayed Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.SiegelWeilGramDensity
+warning: src/Development/AbelianVarietyTheory/BlockTheory/SiegelWeilLocal/SiegelWeilGramDensity.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/BlockTheory/SiegelWeilLocal/SiegelWeilGramDensity.lean:95:10: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h, Ne.symm h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18269/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.MatrixMeasurableSpace
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/MatrixMeasurableSpace.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/MatrixMeasurableSpace.lean:13:14: Variable name `f` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _f
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18270/18373] Ran Development.AbelianVarietyTheory.Definitions.Foundations.MatrixMeasurableSpace:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/MatrixMeasurableSpace.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18271/18373] Replayed Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.GL2CharacterZeros
+warning: src/Development/AbelianVarietyTheory/BlockTheory/TorsionBlocks/GL2CharacterZeros.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18272/18373] Replayed Formalism.SatakeDualWeyl.Statement
+warning: src/Formalism/SatakeDualWeyl/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SatakeDualWeyl/Statement.lean:23:0: automatically included section variable(s) unused in theorem `Formalism.UG.cT_one`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18273/18373] Ran Formalism.SatakeDualWeyl.Statement:irArts
+warning: src/Formalism/SatakeDualWeyl/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18274/18373] Replayed Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.PlusPolynomialInclusion
+warning: src/Development/AbelianVarietyTheory/BlockTheory/TwistedDiscreteSeries/PlusPolynomialInclusion.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/BlockTheory/TwistedDiscreteSeries/PlusPolynomialInclusion.lean:21:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/BlockTheory/TwistedDiscreteSeries/PlusPolynomialInclusion.lean:34:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18275/18373] Replayed Formalism.LocalToGlobal.IndefiniteReal.GramCEqTranspose
+warning: src/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean:106:0: automatically included section variable(s) unused in theorem `Formalism.IndefR.Arith.FormsL.pet_self`:
+  [NumberField LL]
+  [IsScalarTower Ks LL WL]
+  [Module (𝓞 LL) WL]
+  [IsScalarTower (𝓞 LL) LL WL]
+  [Module (𝓞 Ks) WL]
+  [IsScalarTower (𝓞 Ks) Ks WL]
+  [Fintype G0]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField
+  LL] [IsScalarTower Ks LL
+  WL] [Module (𝓞 LL)
+  WL] [IsScalarTower (𝓞 LL) LL WL] [Module (𝓞 Ks) WL] [IsScalarTower (𝓞 Ks) Ks WL] [Fintype G0] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean:109:0: automatically included section variable(s) unused in theorem `Formalism.IndefR.Arith.FormsL.pet_add_left`:
+  [NumberField LL]
+  [IsScalarTower Ks LL WL]
+  [Module (𝓞 LL) WL]
+  [IsScalarTower (𝓞 LL) LL WL]
+  [Module (𝓞 Ks) WL]
+  [IsScalarTower (𝓞 Ks) Ks WL]
+  [Fintype G0]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField
+  LL] [IsScalarTower Ks LL
+  WL] [Module (𝓞 LL)
+  WL] [IsScalarTower (𝓞 LL) LL WL] [Module (𝓞 Ks) WL] [IsScalarTower (𝓞 Ks) Ks WL] [Fintype G0] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean:110:22: This simp argument is unused:
+  inner_add_right
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pet, map_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean:112:0: automatically included section variable(s) unused in theorem `Formalism.IndefR.Arith.FormsL.pet_smul_left`:
+  [NumberField LL]
+  [IsScalarTower Ks LL WL]
+  [Module (𝓞 LL) WL]
+  [IsScalarTower (𝓞 LL) LL WL]
+  [Module (𝓞 Ks) WL]
+  [IsScalarTower (𝓞 Ks) Ks WL]
+  [Fintype G0]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField
+  LL] [IsScalarTower Ks LL
+  WL] [Module (𝓞 LL)
+  WL] [IsScalarTower (𝓞 LL) LL WL] [Module (𝓞 Ks) WL] [IsScalarTower (𝓞 Ks) Ks WL] [Fintype G0] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean:113:25: This simp argument is unused:
+  inner_smul_right
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pet, map_smulₛₗ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean:115:0: automatically included section variable(s) unused in theorem `Formalism.IndefR.Arith.FormsL.pet_conj_symm`:
+  [NumberField LL]
+  [IsScalarTower Ks LL WL]
+  [Module (𝓞 LL) WL]
+  [IsScalarTower (𝓞 LL) LL WL]
+  [Module (𝓞 Ks) WL]
+  [IsScalarTower (𝓞 Ks) Ks WL]
+  [Fintype G0]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField
+  LL] [IsScalarTower Ks LL
+  WL] [Module (𝓞 LL)
+  WL] [IsScalarTower (𝓞 LL) LL WL] [Module (𝓞 Ks) WL] [IsScalarTower (𝓞 Ks) Ks WL] [Fintype G0] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean:121:0: automatically included section variable(s) unused in theorem `Formalism.IndefR.Arith.FormsL.gramC_eq_transpose`:
+  [NumberField LL]
+  [IsScalarTower Ks LL WL]
+  [Module (𝓞 LL) WL]
+  [IsScalarTower (𝓞 LL) LL WL]
+  [Module (𝓞 Ks) WL]
+  [IsScalarTower (𝓞 Ks) Ks WL]
+  [Fintype G0]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField
+  LL] [IsScalarTower Ks LL
+  WL] [Module (𝓞 LL)
+  WL] [IsScalarTower (𝓞 LL) LL WL] [Module (𝓞 Ks) WL] [IsScalarTower (𝓞 Ks) Ks WL] [Fintype G0] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean:137:0: automatically included section variable(s) unused in theorem `Formalism.IndefR.Arith.FormsL.mem_MK`:
+  [NumberField LL]
+  [IsScalarTower Ks LL WL]
+  [Module (𝓞 LL) WL]
+  [IsScalarTower (𝓞 LL) LL WL]
+  [Fintype G0]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField
+  LL] [IsScalarTower Ks LL WL] [Module (𝓞 LL) WL] [IsScalarTower (𝓞 LL) LL WL] [Fintype G0] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean:139:0: automatically included section variable(s) unused in theorem `Formalism.IndefR.Arith.FormsL.MK_le_WK`:
+  [NumberField LL]
+  [IsScalarTower Ks LL WL]
+  [Module (𝓞 LL) WL]
+  [IsScalarTower (𝓞 LL) LL WL]
+  [Fintype G0]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField
+  LL] [IsScalarTower Ks LL WL] [Module (𝓞 LL) WL] [IsScalarTower (𝓞 LL) LL WL] [Fintype G0] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean:141:0: automatically included section variable(s) unused in theorem `Formalism.IndefR.Arith.FormsL.mem_typeP`:
+  [NumberField LL]
+  [IsScalarTower Ks LL WL]
+  [Module (𝓞 LL) WL]
+  [IsScalarTower (𝓞 LL) LL WL]
+  [Module (𝓞 Ks) WL]
+  [IsScalarTower (𝓞 Ks) Ks WL]
+  [Fintype G0]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField
+  LL] [IsScalarTower Ks LL
+  WL] [Module (𝓞 LL)
+  WL] [IsScalarTower (𝓞 LL) LL WL] [Module (𝓞 Ks) WL] [IsScalarTower (𝓞 Ks) Ks WL] [Fintype G0] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean:144:0: automatically included section variable(s) unused in theorem `Formalism.IndefR.Arith.FormsL.eOp_apply`:
+  [NumberField LL]
+  [IsScalarTower Ks LL WL]
+  [Module (𝓞 LL) WL]
+  [IsScalarTower (𝓞 LL) LL WL]
+  [Module (𝓞 Ks) WL]
+  [IsScalarTower (𝓞 Ks) Ks WL]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField
+  LL] [IsScalarTower Ks LL
+  WL] [Module (𝓞 LL) WL] [IsScalarTower (𝓞 LL) LL WL] [Module (𝓞 Ks) WL] [IsScalarTower (𝓞 Ks) Ks WL] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean:148:0: automatically included section variable(s) unused in theorem `Formalism.IndefR.Arith.FormsL.Mj_le_Mall`:
+  [NumberField LL]
+  [IsScalarTower Ks LL WL]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField LL] [IsScalarTower Ks LL WL] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean:151:0: automatically included section variable(s) unused in theorem `Formalism.IndefR.Arith.FormsL.Mj_sub_Wgood`:
+  [NumberField LL]
+  [IsScalarTower Ks LL WL]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField LL] [IsScalarTower Ks LL WL] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean:155:0: automatically included section variable(s) unused in theorem `Formalism.IndefR.Arith.FormsL.mem_Mcoord`:
+  [NumberField LL]
+  [IsScalarTower Ks LL WL]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField LL] [IsScalarTower Ks LL WL] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean:159:0: automatically included section variable(s) unused in theorem `Formalism.IndefR.Arith.FormsL.gramV_pos`:
+  [NumberField LL]
+  [IsScalarTower Ks LL WL]
+  [Module (𝓞 LL) WL]
+  [IsScalarTower (𝓞 LL) LL WL]
+  [Module (𝓞 Ks) WL]
+  [IsScalarTower (𝓞 Ks) Ks WL]
+  [Fintype G0]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField
+  LL] [IsScalarTower Ks LL
+  WL] [Module (𝓞 LL)
+  WL] [IsScalarTower (𝓞 LL) LL WL] [Module (𝓞 Ks) WL] [IsScalarTower (𝓞 Ks) Ks WL] [Fintype G0] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18276/18373] Ran Formalism.LocalToGlobal.IndefiniteReal.GramCEqTranspose:irArts
+warning: src/Formalism/LocalToGlobal/IndefiniteReal/GramCEqTranspose.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18277/18373] Replayed Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SemilinearExtensionBases
+warning: src/Development/AbelianVarietyTheory/BlockTheory/TwistedDiscreteSeries/SemilinearExtensionBases.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18278/18373] Replayed Formalism.UnipotentAdelicQuotients.ThmBInHecke
+warning: src/Formalism/UnipotentAdelicQuotients/ThmBInHecke.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18279/18373] Ran Formalism.UnipotentAdelicQuotients.ThmBInHecke:irArts
+warning: src/Formalism/UnipotentAdelicQuotients/ThmBInHecke.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18280/18373] Replayed Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.LfacDenominatorNeZero
+warning: src/Development/AbelianVarietyTheory/Counterexamples/AdelicSplittingExamples/LfacDenominatorNeZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Counterexamples/AdelicSplittingExamples/LfacDenominatorNeZero.lean:42:0: automatically included section variable(s) unused in theorem `GlobalTheory.HeckeObjectExamples.idem_mul_self`:
+  [NumberField E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18281/18373] Replayed Formalism.UnipotentAdelicQuotients.CyclicNormPrinciple
+warning: src/Formalism/UnipotentAdelicQuotients/CyclicNormPrinciple.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18282/18373] Ran Formalism.UnipotentAdelicQuotients.CyclicNormPrinciple:irArts
+warning: src/Formalism/UnipotentAdelicQuotients/CyclicNormPrinciple.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18283/18373] Replayed Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.LocalConditionsOfGlobal
+warning: src/Development/AbelianVarietyTheory/Counterexamples/AdelicSplittingExamples/LocalConditionsOfGlobal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Counterexamples/AdelicSplittingExamples/LocalConditionsOfGlobal.lean:15:20: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+⚠ [18284/18373] Replayed Formalism.JacquetSubsetSums.JacquetSubsetSum
+warning: src/Formalism/JacquetSubsetSums/JacquetSubsetSum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18285/18373] Ran Formalism.JacquetSubsetSums.JacquetSubsetSum:irArts
+warning: src/Formalism/JacquetSubsetSums/JacquetSubsetSum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18286/18373] Replayed Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.ExistsStrictAnti
+warning: src/Development/AbelianVarietyTheory/Counterexamples/DegenerateExamples/ExistsStrictAnti.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Counterexamples/DegenerateExamples/ExistsStrictAnti.lean:9:19: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Counterexamples/DegenerateExamples/ExistsStrictAnti.lean:9:21: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Counterexamples/DegenerateExamples/ExistsStrictAnti.lean:9:30: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Counterexamples/DegenerateExamples/ExistsStrictAnti.lean:9:32: Variable name `j` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _j
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18287/18373] Replayed Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.PremisesModel
+warning: src/Development/AbelianVarietyTheory/Counterexamples/DegenerateExamples/PremisesModel.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Counterexamples/DegenerateExamples/PremisesModel.lean:52:31: `Matrix.det_of_upperTriangular` has been deprecated: Use `Matrix.det_of_isUpperTriangular` instead
+
+Hint: Replace the deprecated name:
+  M̵a̵t̵r̵i̵x̵.̵d̵e̵t̵_̵o̵f̵_̵u̵p̵p̵e̵r̵T̵r̵i̵a̵n̵g̵u̵l̵a̵r̵d̲e̲t̲_̲o̲f̲_̲i̲s̲U̲p̲p̲e̲r̲T̲r̲i̲a̲n̲g̲u̲l̲a̲r̲
+⚠ [18288/18373] Replayed Formalism.PeriodIntegrals.UpqRep
+warning: src/Formalism/PeriodIntegrals/UpqRep.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UpqRep.lean:141:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18289/18373] Ran Formalism.PeriodIntegrals.UpqRep:irArts
+warning: src/Formalism/PeriodIntegrals/UpqRep.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18290/18373] Replayed Development.AbelianVarietyTheory.Counterexamples.JetSurvey.LowKAddStrictAnti
+warning: src/Development/AbelianVarietyTheory/Counterexamples/JetSurvey/LowKAddStrictAnti.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Counterexamples/JetSurvey/LowKAddStrictAnti.lean:68:86: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Development/AbelianVarietyTheory/Counterexamples/JetSurvey/LowKAddStrictAnti.lean:106:64: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Counterexamples/JetSurvey/LowKAddStrictAnti.lean:156:20: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Counterexamples/JetSurvey/LowKAddStrictAnti.lean:168:22: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Counterexamples/JetSurvey/LowKAddStrictAnti.lean:184:66: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+⚠ [18291/18373] Replayed Formalism.LocalToGlobal.ProjectiveLattices.AlgebraMapCAt
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/AlgebraMapCAt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/AlgebraMapCAt.lean:77:21: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18292/18373] Ran Formalism.LocalToGlobal.ProjectiveLattices.AlgebraMapCAt:irArts
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/AlgebraMapCAt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18293/18373] Replayed Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ChosenEqOfAllRules
+warning: src/Development/AbelianVarietyTheory/Counterexamples/LevelGroupExamples/ChosenEqOfAllRules.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18294/18373] Replayed Formalism.LocalToGlobal.ProjectiveLattices.SubConstMemOrig
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/SubConstMemOrig.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/SubConstMemOrig.lean:114:8: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18295/18373] Ran Formalism.LocalToGlobal.ProjectiveLattices.SubConstMemOrig:irArts
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/SubConstMemOrig.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18296/18373] Replayed Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.JetTruncNotInjective
+warning: src/Development/AbelianVarietyTheory/Counterexamples/LevelGroupExamples/JetTruncNotInjective.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Counterexamples/LevelGroupExamples/JetTruncNotInjective.lean:19:8: This simp argument is unused:
+  Nat.lt_succ_iff
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Counterexamples/LevelGroupExamples/JetTruncNotInjective.lean:57:47: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Counterexamples/LevelGroupExamples/JetTruncNotInjective.lean:57:58: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18297/18373] Replayed Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.WeightEqZeroOfOneIsSec
+warning: src/Development/AbelianVarietyTheory/Counterexamples/UpperHalfSurvey/WeightEqZeroOfOneIsSec.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18298/18373] Replayed Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.Hat1
+warning: src/Development/AbelianVarietyTheory/Definitions/ExistenceOfLattices/Hat1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18299/18373] Ran Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.Hat1:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/ExistenceOfLattices/Hat1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18300/18373] Replayed Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.IsHermForm
+warning: src/Development/AbelianVarietyTheory/Definitions/AdelicHermitianForms/IsHermForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18301/18373] Replayed Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.IsHermHyperbolic
+warning: src/Development/AbelianVarietyTheory/Definitions/AdelicHermitianForms/IsHermHyperbolic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18302/18373] Ran Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.IsHermHyperbolic:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/AdelicHermitianForms/IsHermHyperbolic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18303/18373] Replayed Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.NontrivialTransvection
+warning: src/Development/AbelianVarietyTheory/Definitions/AdelicHermitianForms/NontrivialTransvection.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18304/18373] Replayed Development.AbelianVarietyTheory.Proofs.FoundationProofs.RangeAlgebraMapEqIInfDiscreteValuationSubring
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean:11:0: automatically included section variable(s) unused in theorem `GlobalTheory.isArtinianRing_quotient_of_dimensionLEOne`:
+  [IsDomain A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain A] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean:183:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean:187:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean:188:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean:191:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean:202:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean:203:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean:211:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean:212:38: `IsBezout.TFAE` has been deprecated: Use `IsBezout.tfae` instead
+
+Hint: Replace the deprecated name:
+  IsBezout.T̵F̵A̵E̵t̲f̲a̲e̲
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean:212:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean:293:8: `mul_lt_one_of_nonneg_of_lt_one_right` has been deprecated: No replacement, use constituent lemmas from proof.
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean:388:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean:417:4: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean:531:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean:566:0: automatically included section variable(s) unused in theorem `GlobalTheory.exists_discreteValuationSubring_dominating`:
+  [IsDomain R]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain R] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean:577:0: automatically included section variable(s) unused in theorem `GlobalTheory.range_algebraMap_eq_iInf_discreteValuationSubring`:
+  [IsDomain R]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain R] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean:629:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18305/18373] Ran Development.AbelianVarietyTheory.Proofs.FoundationProofs.RangeAlgebraMapEqIInfDiscreteValuationSubring:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/RangeAlgebraMapEqIInfDiscreteValuationSubring.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18306/18373] Replayed Development.AbelianVarietyTheory.Definitions.CommutativeAlgebra.CompletionDVR
+warning: src/Development/AbelianVarietyTheory/Definitions/CommutativeAlgebra/CompletionDVR.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/CommutativeAlgebra/CompletionDVR.lean:26:2: `PowerSeries.X_irreducible` has been deprecated: Use `PowerSeries.irreducible_X` instead
+
+Hint: Replace the deprecated name:
+  PowerSeries.X̵_̵irreducible_̲X̲
+⚠ [18307/18373] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.AltPullApply
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/AltPullApply.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/AltPullApply.lean:48:10: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/AltPullApply.lean:48:10: This simp argument is unused:
+  Module.End.mul_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/AltPullApply.lean:87:86: `Module.End.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : One F} [self : IsOneApplyEqSelf F]
+    (x : α), 1 x = x
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (x : M), 1 x = x
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/AltPullApply.lean:94:64: `AlternatingMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  A̵l̵t̵e̵r̵n̵a̵t̵i̵n̵g̵M̵a̵p̵.̵zero_apply
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/AltPullApply.lean:93:78: This simp argument is unused:
+  LinearMap.coe_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [altOp, zero_smul, Finsupp.sum_single_index, one_smul, altPull, AddHom.coe_mk,
+    AlternatingMap.compLinearMap_apply, LinearMap.zero_apply, AlternatingMap.zero_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/AltPullApply.lean:93:96: This simp argument is unused:
+  AddHom.coe_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [altOp, zero_smul, Finsupp.sum_single_index, one_smul, altPull, LinearMap.coe_mk,
+    AlternatingMap.compLinearMap_apply, LinearMap.zero_apply, AlternatingMap.zero_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/AltPullApply.lean:94:6: This simp argument is unused:
+  AlternatingMap.compLinearMap_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [altOp, zero_smul, Finsupp.sum_single_index, one_smul, altPull, LinearMap.coe_mk, AddHom.coe_mk,
+    LinearMap.zero_apply, AlternatingMap.zero_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18308/18373] Ran Development.AbelianVarietyTheory.Definitions.Divisors.AltPullApply:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/AltPullApply.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18309/18373] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.CircleAsphGNontrivial
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/CircleAsphGNontrivial.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/CircleAsphGNontrivial.lean:16:38: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/CircleAsphGNontrivial.lean:17:39: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+⚠ [18310/18373] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.FderivFnCongr
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/FderivFnCongr.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/FderivFnCongr.lean:144:8: Variable name `p` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _p
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18311/18373] Ran Development.AbelianVarietyTheory.Definitions.Divisors.FderivFnCongr:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/FderivFnCongr.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18312/18373] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.CommAlgFunctorCoboundaryZeroMemCocyclesOne
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/CommAlgFunctorCoboundaryZeroMemCocyclesOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/CommAlgFunctorCoboundaryZeroMemCocyclesOne.lean:232:7: Variable name `T` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _T
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18313/18373] Ran Development.AbelianVarietyTheory.Definitions.Divisors.CommAlgFunctorCoboundaryZeroMemCocyclesOne:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/CommAlgFunctorCoboundaryZeroMemCocyclesOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18314/18373] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.EllFamNontrivial
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/EllFamNontrivial.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18315/18373] Replayed Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.AlternatingMapSumSmulEqDetSmul
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/AlternatingMapSumSmulEqDetSmul.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18316/18373] Ran Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.AlternatingMapSumSmulEqDetSmul:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/AlternatingMapSumSmulEqDetSmul.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18317/18373] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.ExistsAlgHomOfIsBaseChange
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean:181:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean:204:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean:205:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean:206:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean:207:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean:220:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean:234:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean:235:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean:236:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean:237:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean:238:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean:249:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean:250:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean:253:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean:256:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean:257:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean:258:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ExistsAlgHomOfIsBaseChange.lean:265:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18318/18373] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.IsKMOne
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/IsKMOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18319/18373] Replayed ReciprocityTheory.AnalyticForms.MaIntEmpty
+warning: src/ReciprocityTheory/AnalyticForms/MaIntEmpty.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18320/18373] Ran ReciprocityTheory.AnalyticForms.MaIntEmpty:irArts
+warning: src/ReciprocityTheory/AnalyticForms/MaIntEmpty.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18321/18373] Replayed Development.AbelianVarietyTheory.Definitions.ThetaMetrics.EventuallyDifferentiableAtOfContDiffAtTwo
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:111:41: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:113:41: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:123:45: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:125:45: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:214:47: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:215:4: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:220:48: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:221:4: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:283:0: automatically included section variable(s) unused in theorem `GlobalTheory.fderiv_ofReal_apply`:
+  [NormedSpace ℂ E]
+  [IsScalarTower ℝ ℂ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℂ E] [IsScalarTower ℝ ℂ E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:317:0: automatically included section variable(s) unused in theorem `GlobalTheory.differentiableAt_fderiv_of_contDiffAt_two`:
+  [NormedSpace ℂ E]
+  [IsScalarTower ℝ ℂ E]
+  [NormedSpace ℂ F]
+  [IsScalarTower ℝ ℂ F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℂ E] [IsScalarTower ℝ ℂ E] [NormedSpace ℂ F] [IsScalarTower ℝ ℂ F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:321:0: automatically included section variable(s) unused in theorem `GlobalTheory.eventually_differentiableAt_of_contDiffAt_two`:
+  [NormedSpace ℂ E]
+  [NormedSpace ℝ E]
+  [IsScalarTower ℝ ℂ E]
+  [NormedSpace ℂ F]
+  [NormedSpace ℝ F]
+  [IsScalarTower ℝ ℂ F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NormedSpace ℂ
+  E] [NormedSpace ℝ E] [IsScalarTower ℝ ℂ E] [NormedSpace ℂ F] [NormedSpace ℝ F] [IsScalarTower ℝ ℂ F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:343:13: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:343:45: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:366:13: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:366:45: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:385:13: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:385:45: `ContinuousLinearMap.sub_apply` has been deprecated: Use `sub_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sub_apply` to `sub_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵b̵_̵a̵p̵p̵l̵y̵s̲u̲b̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:475:28: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:475:60: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:627:0: automatically included section variable(s) unused in theorem `GlobalTheory.fderiv_normSq_apply`:
+  [IsScalarTower ℝ ℂ H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsScalarTower ℝ ℂ H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:700:20: `ContinuousLinearMap.zero_apply` has been deprecated: Use `zero_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.zero_apply` to `zero_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵zero_apply
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:782:20: `ContinuousLinearMap.neg_apply` has been deprecated: Use `neg_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.neg_apply` to `neg_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵n̵e̵g̵_̵a̵p̵p̵l̵y̵n̲e̲g̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean:782:51: `ContinuousLinearMap.neg_apply` has been deprecated: Use `neg_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.neg_apply` to `neg_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵n̵e̵g̵_̵a̵p̵p̵l̵y̵n̲e̲g̲_̲a̲p̲p̲l̲y̲
+⚠ [18322/18373] Ran Development.AbelianVarietyTheory.Definitions.ThetaMetrics.EventuallyDifferentiableAtOfContDiffAtTwo:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/EventuallyDifferentiableAtOfContDiffAtTwo.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18323/18373] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.LeTwoMulOfForallScale
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/LeTwoMulOfForallScale.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/LeTwoMulOfForallScale.lean:286:51: This simp argument is unused:
+  I_pow_three
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [I_sq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/LeTwoMulOfForallScale.lean:286:30: Unused tactic linter: `try` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/LeTwoMulOfForallScale.lean:359:0: automatically included section variable(s) unused in theorem `GlobalTheory.HermFrame.orthProj_mul_incl`:
+  [DecidableEq l]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq l] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/LeTwoMulOfForallScale.lean:377:0: automatically included section variable(s) unused in theorem `GlobalTheory.HermFrame.form_incl`:
+  [DecidableEq l]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq l] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/LeTwoMulOfForallScale.lean:410:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/LeTwoMulOfForallScale.lean:438:0: automatically included section variable(s) unused in theorem `GlobalTheory.HermFrame.posDef_subGram`:
+  [Fintype m]
+  [Fintype l]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype m] [Fintype l] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18324/18373] Replayed Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.IsLocallyConstantRankAtStalkEigenSub
+warning: src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/IsLocallyConstantRankAtStalkEigenSub.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/IsLocallyConstantRankAtStalkEigenSub.lean:69:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/IsLocallyConstantRankAtStalkEigenSub.lean:91:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/IsLocallyConstantRankAtStalkEigenSub.lean:97:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/IsLocallyConstantRankAtStalkEigenSub.lean:121:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/IsLocallyConstantRankAtStalkEigenSub.lean:174:20: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/IsLocallyConstantRankAtStalkEigenSub.lean:188:10: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/IsLocallyConstantRankAtStalkEigenSub.lean:188:34: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/IsLocallyConstantRankAtStalkEigenSub.lean:198:20: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/IsLocallyConstantRankAtStalkEigenSub.lean:416:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/IsLocallyConstantRankAtStalkEigenSub.lean:422:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/IsLocallyConstantRankAtStalkEigenSub.lean:468:20: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+⚠ [18325/18373] Ran Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.IsLocallyConstantRankAtStalkEigenSub:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/IsLocallyConstantRankAtStalkEigenSub.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18326/18373] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.LogAbsVpOfNormalised
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/LogAbsVpOfNormalised.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/LogAbsVpOfNormalised.lean:230:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/LogAbsVpOfNormalised.lean:231:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/LogAbsVpOfNormalised.lean:232:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/LogAbsVpOfNormalised.lean:254:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/LogAbsVpOfNormalised.lean:256:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/LogAbsVpOfNormalised.lean:257:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/LogAbsVpOfNormalised.lean:318:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [18327/18373] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.NormSub
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/NormSub.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/NormSub.lean:34:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/NormSub.lean:38:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [18328/18373] Ran Development.AbelianVarietyTheory.Definitions.Divisors.NormSub:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/NormSub.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18330/18373] Replayed ReciprocityTheory.SemistableReduction.SphereLogIntegrableStatement
+warning: src/ReciprocityTheory/SemistableReduction/SphereLogIntegrableStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18331/18373] Ran ReciprocityTheory.SemistableReduction.SphereLogIntegrableStatement:irArts
+warning: src/ReciprocityTheory/SemistableReduction/SphereLogIntegrableStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18332/18373] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.PointHeight
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/PointHeight.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18333/18373] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.SubsingletonComplex
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/SubsingletonComplex.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18334/18373] Replayed Formalism.UnipotentAdelicQuotients.EllReg
+warning: src/Formalism/UnipotentAdelicQuotients/EllReg.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18335/18373] Ran Formalism.UnipotentAdelicQuotients.EllReg:irArts
+warning: src/Formalism/UnipotentAdelicQuotients/EllReg.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18336/18373] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.ZeroMemSolSet
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ZeroMemSolSet.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18337/18373] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.HasQIff
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/HasQIff.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18338/18373] Ran Development.AbelianVarietyTheory.Definitions.Divisors.HasQIff:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/HasQIff.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18339/18373] Replayed Development.AbelianVarietyTheory.Definitions.Divisors.ZetaActRefl
+warning: src/Development/AbelianVarietyTheory/Definitions/Divisors/ZetaActRefl.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18340/18373] Replayed Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.SmulBasisMemHatIff
+warning: src/Development/AbelianVarietyTheory/Definitions/ExistenceOfLattices/SmulBasisMemHatIff.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/ExistenceOfLattices/SmulBasisMemHatIff.lean:74:20: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ExistenceOfLattices/SmulBasisMemHatIff.lean:127:20: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Definitions/ExistenceOfLattices/SmulBasisMemHatIff.lean:144:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Definitions/ExistenceOfLattices/SmulBasisMemHatIff.lean:181:20: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [18341/18373] Replayed Formalism.DegreeFormula.FlagDegFormula
+warning: src/Formalism/DegreeFormula/FlagDegFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18342/18373] Ran Formalism.DegreeFormula.FlagDegFormula:irArts
+warning: src/Formalism/DegreeFormula/FlagDegFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18343/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.AltCoeffRho
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/AltCoeffRho.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18344/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.CurveCl
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/CurveCl.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18345/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.ValuedAlgebraMapEqOne
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/ValuedAlgebraMapEqOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18346/18373] Ran Development.AbelianVarietyTheory.Definitions.Foundations.ValuedAlgebraMapEqOne:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/ValuedAlgebraMapEqOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18347/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.DiagUnitsEqLocalIdele
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/DiagUnitsEqLocalIdele.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18348/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.IsDCReps
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsDCReps.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18349/18373] Ran Development.AbelianVarietyTheory.Definitions.Foundations.IsDCReps:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsDCReps.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18350/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.EtaSixProductDifferentiable
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/EtaSixProductDifferentiable.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/EtaSixProductDifferentiable.lean:143:38: This simp argument is unused:
+  Units.ext_iff
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [eta6Group, MonoidHom.mem_ker]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/EtaSixProductDifferentiable.lean:198:24: `Function.Periodic.cuspFunction_eq_of_nonzero` has been deprecated: Use `Function.Periodic.cuspFunction_eq_of_ne_zero` instead
+
+Hint: Replace the deprecated name:
+  Periodic.cuspFunction_eq_of_no̵n̵e̲_̲zero
+⚠ [18351/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.CthFac
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/CthFac.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18352/18373] Ran Development.AbelianVarietyTheory.Definitions.Foundations.CthFac:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/CthFac.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18353/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.Imports
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/Imports.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18354/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.SmoothPartStable
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SmoothPartStable.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SmoothPartStable.lean:36:8: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SmoothPartStable.lean:36:43: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SmoothPartStable.lean:59:10: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SmoothPartStable.lean:59:45: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SmoothPartStable.lean:119:51: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SmoothPartStable.lean:119:78: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SmoothPartStable.lean:123:21: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SmoothPartStable.lean:125:16: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SmoothPartStable.lean:144:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SmoothPartStable.lean:144:60: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SmoothPartStable.lean:146:24: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SmoothPartStable.lean:149:13: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SmoothPartStable.lean:149:71: `Module.End.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : One F} [self : IsOneApplyEqSelf F]
+    (x : α), 1 x = x
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (x : M), 1 x = x
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+⚠ [18355/18373] Ran Development.AbelianVarietyTheory.Definitions.Foundations.SmoothPartStable:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SmoothPartStable.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18356/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.IsHilbertSchmidtOfFiniteDimensional
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean:94:23: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean:164:16: `ContinuousLinearMap.sum_apply` has been deprecated: Use `sum_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sum_apply` to `sum_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵m̵_̵a̵p̵p̵l̵y̵s̲u̲m̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean:167:16: `ContinuousLinearMap.sum_apply` has been deprecated: Use `sum_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sum_apply` to `sum_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵m̵_̵a̵p̵p̵l̵y̵s̲u̲m̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean:189:46: `Submodule.orthogonalProjection` has been deprecated: Use `Submodule.orthogonalProjectionOnto` instead
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean:191:14: `Submodule.orthogonalProjection` has been deprecated: Use `Submodule.orthogonalProjectionOnto` instead
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean:192:4: `Submodule.orthogonalProjection_mem_subspace_eq_self` has been deprecated: Use `Submodule.orthogonalProjectionOnto_mem_subspace_eq_self` instead
+
+Hint: Replace the deprecated name:
+  Submodule.orthogonalProjectionO̲n̲t̲o̲_mem_subspace_eq_self
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean:178:0: automatically included section variable(s) unused in theorem `GlobalTheory.OpTrace.exists_comp_eq_of_norm_le`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean:271:21: `ContinuousLinearMap.sum_apply` has been deprecated: Use `sum_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.sum_apply` to `sum_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵u̵m̵_̵a̵p̵p̵l̵y̵s̲u̲m̲_̲a̲p̲p̲l̲y̲
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean:274:15: This simp argument is unused:
+  inner_smul_right
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [trace, tsum_mul_left]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean:333:8: This simp argument is unused:
+  trace_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [trace_eq_linearMap_trace]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean:359:0: automatically included section variable(s) unused in theorem `GlobalTheory.OpTrace.IsUnitaryRep.inner_apply_left`:
+  [CompleteSpace H]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CompleteSpace H] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean:387:13: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean:524:8: This simp argument is unused:
+  trace_smul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [trace_eq_linearMap_trace]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean:584:28: `FiniteDimensional.complete` has been deprecated: Use `FiniteDimensional.completeSpace` instead
+
+Hint: Replace the deprecated name:
+  FiniteDimensional.completeS̲p̲a̲c̲e̲
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean:668:9: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean:717:0: automatically included section variable(s) unused in theorem `GlobalTheory.OpTrace.integrable_map`:
+  [Group G]
+  [IsTopologicalGroup G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Group G] [IsTopologicalGroup G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean:738:16: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsHilbertSchmidtOfFiniteDimensional.lean:852:8: `LinearMap.restrict_coe_apply` has been deprecated: Use `LinearMap.coe_restrict_apply` instead
+
+Hint: Replace the deprecated name:
+  L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵r̵e̵s̵t̵r̵i̵c̵t̵_̵c̵o̵e̵_̵a̵p̵p̵l̵y̵L̲i̲n̲e̲a̲r̲M̲a̲p̲.̲c̲o̲e̲_̲r̲e̲s̲t̲r̲i̲c̲t̲_̲a̲p̲p̲l̲y̲
+⚠ [18357/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.IsIwasawaOfIsCompact
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsIwasawaOfIsCompact.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsIwasawaOfIsCompact.lean:34:13: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsIwasawaOfIsCompact.lean:90:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18358/18373] Replayed ReciprocityTheory.DualLattices.VEqZeroOfPowEqOne
+warning: src/ReciprocityTheory/DualLattices/VEqZeroOfPowEqOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18359/18373] Ran ReciprocityTheory.DualLattices.VEqZeroOfPowEqOne:irArts
+warning: src/ReciprocityTheory/DualLattices/VEqZeroOfPowEqOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18360/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.IsSatFrame
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsSatFrame.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18361/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.CobOn
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/CobOn.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18362/18373] Ran Development.AbelianVarietyTheory.Definitions.Foundations.CobOn:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/CobOn.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18363/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.IsFirstChernClassOfLineBundle
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsFirstChernClassOfLineBundle.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsFirstChernClassOfLineBundle.lean:90:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18364/18373] Ran Development.AbelianVarietyTheory.Definitions.Foundations.IsFirstChernClassOfLineBundle:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsFirstChernClassOfLineBundle.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18365/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.IsTopWTopWOfExists
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsTopWTopWOfExists.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsTopWTopWOfExists.lean:92:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsTopWTopWOfExists.lean:99:8: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsTopWTopWOfExists.lean:136:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/IsTopWTopWOfExists.lean:137:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18366/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.ExpUpper
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/ExpUpper.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/ExpUpper.lean:116:24: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [mob, ent, toGQ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18367/18373] Ran Development.AbelianVarietyTheory.Definitions.Foundations.ExpUpper:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/ExpUpper.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18368/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.Letter
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/Letter.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18369/18373] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.NotCoboundaryConstantOne
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:174:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:201:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:198:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:222:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:297:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:298:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:315:14: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:412:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:416:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:428:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:447:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:453:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:467:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:476:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:483:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:507:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:516:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean:530:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18370/18373] Ran Development.AbelianVarietyTheory.Definitions.Foundations.NotCoboundaryConstantOne:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotCoboundaryConstantOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18372/18397] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.LocallyConstantTwoCochain
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/LocallyConstantTwoCochain.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18373/18397] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.Mdl
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/Mdl.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18374/18397] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.MultipliableAndSgNeZero
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/MultipliableAndSgNeZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18375/18397] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.NotIsTrDataGaussianIntOne
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotIsTrDataGaussianIntOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotIsTrDataGaussianIntOne.lean:147:59: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotIsTrDataGaussianIntOne.lean:151:17: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotIsTrDataGaussianIntOne.lean:147:59: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotIsTrDataGaussianIntOne.lean:151:17: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotIsTrDataGaussianIntOne.lean:170:17: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotIsTrDataGaussianIntOne.lean:170:17: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/NotIsTrDataGaussianIntOne.lean:222:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18376/18397] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.Integral
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/Integral.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/Integral.lean:54:11: Variable name `N` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _N
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/Integral.lean:60:11: Variable name `N` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _N
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18377/18397] Ran Development.AbelianVarietyTheory.Definitions.Foundations.Integral:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/Integral.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18378/18397] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.PetIPSmulRight
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/PetIPSmulRight.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/PetIPSmulRight.lean:55:0: automatically included section variable(s) unused in theorem `GlobalTheory.EisM.mul_eq_cmul`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18380/18397] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.SecondCountableAndT2LocalField
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SecondCountableAndT2LocalField.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SecondCountableAndT2LocalField.lean:20:38: This simp argument is unused:
+  inv_lt_inv₀
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Padic.mulValuation, hx, hy]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SecondCountableAndT2LocalField.lean:129:0: automatically included section variable(s) unused in theorem `GlobalTheory.SplitWeil.Model.IsUnram.isTame`:
+  [TopologicalSpace k]
+  [IsNonarchimedeanLocalField k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace k] [IsNonarchimedeanLocalField k] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SecondCountableAndT2LocalField.lean:161:0: automatically included section variable(s) unused in theorem `GlobalTheory.SplitWeil.Model.volM_int`:
+  [BorelSpace k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [BorelSpace k] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SecondCountableAndT2LocalField.lean:179:30: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SecondCountableAndT2LocalField.lean:208:60: This simp argument is unused:
+  Set.indicator_of_mem (zero_mem 𝒪[k] : (0 : k) ∈ (𝒪[k] : Set k))
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Measure.real, measure_univ_of_isAddLeftInvariant ν] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18381/18397] Replayed Development.AbelianVarietyTheory.Definitions.Foundations.SimpleSum
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SimpleSum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18382/18397] Replayed Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsMatrixForm
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsMatrixForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsMatrixForm.lean:46:11: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsMatrixForm.lean:46:13: Variable name `y` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _y
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsMatrixForm.lean:47:14: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18383/18397] Ran Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsMatrixForm:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsMatrixForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18384/18397] Replayed Development.AbelianVarietyTheory.Definitions.GaloisGeometry.CohomZeroEquivContinuous
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/CohomZeroEquivContinuous.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/CohomZeroEquivContinuous.lean:29:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/CohomZeroEquivContinuous.lean:56:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18385/18397] Replayed Development.AbelianVarietyTheory.Definitions.GaloisGeometry.OfNatTrans
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/OfNatTrans.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/OfNatTrans.lean:72:11: Variable name `f` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _f
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/OfNatTrans.lean:72:13: Variable name `g` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _g
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/OfNatTrans.lean:72:29: Variable name `s` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _s
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/OfNatTrans.lean:73:12: Variable name `r` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _r
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/OfNatTrans.lean:73:14: Variable name `f` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _f
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/OfNatTrans.lean:73:30: Variable name `s` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _s
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18386/18397] Ran Development.AbelianVarietyTheory.Definitions.GaloisGeometry.OfNatTrans:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/OfNatTrans.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18387/18397] Replayed Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsDPMorphismBot
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsDPMorphismBot.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsDPMorphismBot.lean:443:35: This simp argument is unused:
+  nodeL
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [node, nodePt]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsDPMorphismBot.lean:443:42: This simp argument is unused:
+  node
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [nodeL, nodePt]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsDPMorphismBot.lean:443:48: This simp argument is unused:
+  nodePt
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [nodeL, node]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsDPMorphismBot.lean:471:41: This simp argument is unused:
+  Fin.prod_univ_two
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [nodeL, node, nodePt]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18388/18397] Replayed Development.AbelianVarietyTheory.BlockTheory.CMModuli.ProjectiveSpaceOverSpec
+warning: src/Development/AbelianVarietyTheory/BlockTheory/CMModuli/ProjectiveSpaceOverSpec.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/BlockTheory/CMModuli/ProjectiveSpaceOverSpec.lean:52:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/BlockTheory/CMModuli/ProjectiveSpaceOverSpec.lean:57:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/BlockTheory/CMModuli/ProjectiveSpaceOverSpec.lean:58:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18389/18397] Ran Development.AbelianVarietyTheory.BlockTheory.CMModuli.ProjectiveSpaceOverSpec:irArts
+warning: src/Development/AbelianVarietyTheory/BlockTheory/CMModuli/ProjectiveSpaceOverSpec.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18390/18397] Replayed Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsSepClosedResidueFieldPowerSeriesComplex
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsSepClosedResidueFieldPowerSeriesComplex.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsSepClosedResidueFieldPowerSeriesComplex.lean:147:7: Overlapping instance parameters in `milnor`:
+
+⚠️ There are 2 `[IsAlgClosed K]` instances; one is sufficient.
+⚠️ There are 2 `[IsSepClosed (ResidueField O)]` instances; one is sufficient.
+⚠️ There are 2 `[FaithfulSMul O K]` instances; one is sufficient.
+⚠️ There are 2 `[Algebra.IsAlgebraic O K]` instances; one is sufficient.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsSepClosedResidueFieldPowerSeriesComplex.lean:149:4: Overlapping instance parameters in `stalk`:
+
+⚠️ There are 2 `[IsAlgClosed K]` instances; one is sufficient.
+⚠️ There are 2 `[IsSepClosed (ResidueField O)]` instances; one is sufficient.
+⚠️ There are 2 `[FaithfulSMul O K]` instances; one is sufficient.
+⚠️ There are 2 `[Algebra.IsAlgebraic O K]` instances; one is sufficient.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsSepClosedResidueFieldPowerSeriesComplex.lean:192:7: Overlapping instance parameters in `pushMilnor`:
+
+⚠️ There are 2 `[IsAlgClosed K]` instances; one is sufficient.
+⚠️ There are 2 `[IsSepClosed (ResidueField O)]` instances; one is sufficient.
+⚠️ There are 2 `[FaithfulSMul O K]` instances; one is sufficient.
+⚠️ There are 2 `[Algebra.IsAlgebraic O K]` instances; one is sufficient.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsSepClosedResidueFieldPowerSeriesComplex.lean:195:4: Overlapping instance parameters in `pushStalk`:
+
+⚠️ There are 2 `[IsAlgClosed K]` instances; one is sufficient.
+⚠️ There are 2 `[IsSepClosed (ResidueField O)]` instances; one is sufficient.
+⚠️ There are 2 `[FaithfulSMul O K]` instances; one is sufficient.
+⚠️ There are 2 `[Algebra.IsAlgebraic O K]` instances; one is sufficient.
+
+Note: This linter can be disabled with `set_option linter.overlappingInstances false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsSepClosedResidueFieldPowerSeriesComplex.lean:233:29: This simp argument is unused:
+  pullback.lift_snd_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [pullback.map, Category.assoc, pullback.lift_fst, pullback.lift_snd, pullback.lift_fst_assoc,
+    Category.comp_id]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsSepClosedResidueFieldPowerSeriesComplex.lean:274:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsSepClosedResidueFieldPowerSeriesComplex.lean:304:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18391/18397] Replayed Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsStrictlySemistableAlt
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsStrictlySemistableAlt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsStrictlySemistableAlt.lean:59:0: automatically included section variable(s) unused in theorem `GlobalTheory.Et.Mu.map_id`:
+  [NeZero n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsStrictlySemistableAlt.lean:62:0: automatically included section variable(s) unused in theorem `GlobalTheory.Et.Mu.map_comp`:
+  [NeZero n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18392/18397] Replayed Development.AbelianVarietyTheory.Proofs.SatakeParameters.NormAevalSubLe
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/NormAevalSubLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/NormAevalSubLe.lean:32:27: `mul_le_one₀` has been deprecated: No replacement, use constituent lemmas from proof.
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/NormAevalSubLe.lean:33:27: `mul_le_one₀` has been deprecated: No replacement, use constituent lemmas from proof.
+⚠ [18393/18397] Ran Development.AbelianVarietyTheory.Proofs.SatakeParameters.NormAevalSubLe:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/NormAevalSubLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18394/18397] Replayed Development.AbelianVarietyTheory.Definitions.GaloisGeometry.PolyApproxZeroPadic
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/PolyApproxZeroPadic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/PolyApproxZeroPadic.lean:48:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/PolyApproxZeroPadic.lean:49:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/PolyApproxZeroPadic.lean:50:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/PolyApproxZeroPadic.lean:45:4: Unused tactic linter: `exact @_root_.GlobalTheory.NormAevalSubBound.norm_aeval_sub_le` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/PolyApproxZeroPadic.lean:46:4: Unused tactic linter: `exact _root_.GlobalTheory.NormAevalSubBound.norm_aeval_sub_le` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/PolyApproxZeroPadic.lean:48:4: Unused tactic linter: `(intros;
+  apply _root_.GlobalTheory.NormAevalSubBound.norm_aeval_sub_le <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/PolyApproxZeroPadic.lean:49:4: Unused tactic linter: `(intros;
+  apply @_root_.GlobalTheory.NormAevalSubBound.norm_aeval_sub_le <;>
+    first
+    | assumption
+    | infer_instance)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/PolyApproxZeroPadic.lean:50:4: Unused tactic linter: `(intros; exact _root_.GlobalTheory.NormAevalSubBound.norm_aeval_sub_le ..)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18395/18397] Replayed Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SubClosed
+warning: src/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/SubClosed.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18396/18397] Ran Development.AbelianVarietyTheory.Definitions.GlobalTwisting.SubClosed:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/SubClosed.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18397/18397] Replayed Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LinkExactAff
+warning: src/Development/AbelianVarietyTheory/Definitions/GlobalTwisting/LinkExactAff.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18397 jobs).
+[PASS]  M002386 (Development.AbelianVarietyTheory.BlockTheory.JetGauges.EndomorphismPullbackRigid)
+[PASS]  M002403 (Development.AbelianVarietyTheory.BlockTheory.JetGauges.PerfectPairings)
+[PASS]  M002456 (Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.KernelCharacterDelta)
+[PASS]  M002460 (Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.OnePlusPowerAssembly)
+[PASS]  M002498 (Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.RealPointModes)
+[PASS]  M002501 (Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.TorusMarkingPhase)
+[PASS]  M002502 (Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.TorusThetaNorms)
+[PASS]  M002549 (Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.SiegelWeilGramDensity)
+[PASS]  M002607 (Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.GL2CharacterZeros)
+[PASS]  M002720 (Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.PlusPolynomialInclusion)
+[PASS]  M002739 (Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.SemilinearExtensionBases)
+[PASS]  M002793 (Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.LfacDenominatorNeZero)
+[PASS]  M002794 (Development.AbelianVarietyTheory.Counterexamples.AdelicSplittingExamples.LocalConditionsOfGlobal)
+[PASS]  M002798 (Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.ExistsStrictAnti)
+[PASS]  M002805 (Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.PremisesModel)
+[PASS]  M002857 (Development.AbelianVarietyTheory.Counterexamples.JetSurvey.LowKAddStrictAnti)
+[PASS]  M002881 (Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.ChosenEqOfAllRules)
+[PASS]  M002890 (Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.JetTruncNotInjective)
+[PASS]  M002977 (Development.AbelianVarietyTheory.Counterexamples.UpperHalfSurvey.WeightEqZeroOfOneIsSec)
+[PASS]  M002999 (Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.IsHermForm)
+[PASS]  M003002 (Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.NontrivialTransvection)
+[PASS]  M003370 (Development.AbelianVarietyTheory.Definitions.CommutativeAlgebra.CompletionDVR)
+[PASS]  M003442 (Development.AbelianVarietyTheory.Definitions.Divisors.CircleAsphGNontrivial)
+[PASS]  M003485 (Development.AbelianVarietyTheory.Definitions.Divisors.EllFamNontrivial)
+[PASS]  M003498 (Development.AbelianVarietyTheory.Definitions.Divisors.ExistsAlgHomOfIsBaseChange)
+[PASS]  M003690 (Development.AbelianVarietyTheory.Definitions.Divisors.IsKMOne)
+[PASS]  M003762 (Development.AbelianVarietyTheory.Definitions.Divisors.LeTwoMulOfForallScale)
+[PASS]  M003776 (Development.AbelianVarietyTheory.Definitions.Divisors.LogAbsVpOfNormalised)
+[PASS]  M003793 (Development.AbelianVarietyTheory.Definitions.Divisors.MemShaKernelIffLocallyTrivial)
+[PASS]  M003857 (Development.AbelianVarietyTheory.Definitions.Divisors.PointHeight)
+[PASS]  M003917 (Development.AbelianVarietyTheory.Definitions.Divisors.SubsingletonComplex)
+[PASS]  M003977 (Development.AbelianVarietyTheory.Definitions.Divisors.ZeroMemSolSet)
+[PASS]  M003978 (Development.AbelianVarietyTheory.Definitions.Divisors.ZetaActRefl)
+[PASS]  M003992 (Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.SmulBasisMemHatIff)
+[PASS]  M004000 (Development.AbelianVarietyTheory.Definitions.Foundations.AltCoeffRho)
+[PASS]  M004019 (Development.AbelianVarietyTheory.Definitions.Foundations.CurveCl)
+[PASS]  M004022 (Development.AbelianVarietyTheory.Definitions.Foundations.DiagUnitsEqLocalIdele)
+[PASS]  M004029 (Development.AbelianVarietyTheory.Definitions.Foundations.EtaSixProductDifferentiable)
+[PASS]  M004065 (Development.AbelianVarietyTheory.Definitions.Foundations.Imports)
+[PASS]  M004075 (Development.AbelianVarietyTheory.Definitions.Foundations.IsHilbertSchmidtOfFiniteDimensional)
+[PASS]  M004077 (Development.AbelianVarietyTheory.Definitions.Foundations.IsIwasawaOfIsCompact)
+[PASS]  M004088 (Development.AbelianVarietyTheory.Definitions.Foundations.IsSatFrame)
+[PASS]  M004092 (Development.AbelianVarietyTheory.Definitions.Foundations.IsTopWTopWOfExists)
+[PASS]  M004099 (Development.AbelianVarietyTheory.Definitions.Foundations.Letter)
+[PASS]  M004103 (Development.AbelianVarietyTheory.Definitions.Foundations.LocallyConstantTwoCochain)
+[PASS]  M004106 (Development.AbelianVarietyTheory.Definitions.Foundations.Mdl)
+[PASS]  M004115 (Development.AbelianVarietyTheory.Definitions.Foundations.MultipliableAndSgNeZero)
+[PASS]  M004128 (Development.AbelianVarietyTheory.Definitions.Foundations.NotIsTrDataGaussianIntOne)
+[PASS]  M004134 (Development.AbelianVarietyTheory.Definitions.Foundations.PetIPSmulRight)
+[PASS]  M004135 (Development.AbelianVarietyTheory.Definitions.Foundations.PieceEqPieceT)
+[PASS]  M004143 (Development.AbelianVarietyTheory.Definitions.Foundations.SecondCountableAndT2LocalField)
+[PASS]  M004147 (Development.AbelianVarietyTheory.Definitions.Foundations.SimpleSum)
+[PASS]  M004186 (Development.AbelianVarietyTheory.Definitions.GaloisGeometry.CohomZeroEquivContinuous)
+[PASS]  M004232 (Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsDPMorphismBot)
+[PASS]  M004245 (Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsSepClosedResidueFieldPowerSeriesComplex)
+[PASS]  M004247 (Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsStrictlySemistableAlt)
+[PASS]  M004296 (Development.AbelianVarietyTheory.Definitions.GaloisGeometry.PolyApproxZeroPadic)
+[PASS]  M004392 (Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LinkExactAff)
+
+PORT_BUILD_PASSED all 58 module(s).
