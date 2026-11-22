@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ComapInlMemStLat",
+  "source_sha256": "2c669f7cc6d8ef2bf8c9eece6a17d3e7a7177e3282804e1bf203e2edb309206e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
