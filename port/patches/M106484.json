@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.SymmetricPowerTransfer.TraceFormulaEigenvalues.TraceFibreCardinality.CentFin",
+  "source_sha256": "b15645b671ba3318603e7c6e9a8b5304655957d761ef6233e2a101718deff079",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

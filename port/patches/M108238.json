@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.StickelbergerCharacterEval.Chitheta",
+  "source_sha256": "b04529a5738df3fd47ce537f45c0f9c483de1797a43790808d03090630054a0f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

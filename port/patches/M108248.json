@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.StickelbergerCharacterEval.Mulvec",
+  "source_sha256": "8f8a90b9cf9f7c3595ac6db98c4881abfb29050f81529f6ab85fe055cd0913eb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

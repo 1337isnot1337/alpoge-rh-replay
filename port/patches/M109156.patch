@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/WeakShimuraTheory/RedTanFlow.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/WeakShimuraTheory/RedTanFlow.lean
+@@ -31,7 +31,7 @@
+     exact (Submodule.equivMapOfInjective _ (W ⊓ K p).subtype_injective _).rank_eq
+   have main : ∀ p ≤ max hi lo, Module.rank k ↥(T ⊓ K p) ≤ Module.rank k ↥(U ⊓ K p) := by
+     intro p hp
+-    induction p, hp using Int.le_induction_down with
++    induction p, hp using Int.leInductionDown with
+     | base =>
+       have : T ⊓ K (max hi lo) = ⊥ := by
+         rw [eq_bot_iff]

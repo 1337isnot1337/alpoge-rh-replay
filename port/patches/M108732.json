@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.UnitaryThreeGroups.NormEx",
+  "source_sha256": "2c6373803ffba30b889ac283bdf174c167241b649faf0a4dcb23a9564d734a87",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

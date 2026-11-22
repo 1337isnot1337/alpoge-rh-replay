@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.RedDual",
+  "source_sha256": "7ee8c975777a234a7c7e3baa65b5b6fbd2c0aecffc93ed76325932c3a988b46a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

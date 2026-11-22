@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.StickelbergerElements.Bridge",
+  "source_sha256": "454f8a99203580dd7b2f30289e86f86e6865a66ec1d5aad12c5b7f11342103f1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

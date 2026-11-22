@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.SomeInOfLocZero",
+  "source_sha256": "9fdedc1b25a93fda48fc3d438f1884f80d41d50ac3a7b660ace1caf1c4ed9f26",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
