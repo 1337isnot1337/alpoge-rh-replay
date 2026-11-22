@@ -1,0 +1,19 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/AbelianSchemeLawProofs/CubeTotalComplexAcyclicOfSlicesInductionOnCard.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/AbelianSchemeLawProofs/CubeTotalComplexAcyclicOfSlicesInductionOnCard.lean
+@@ -357,6 +357,7 @@
+         fun ⟨k, hk⟩ => ⟨k, congrArg Subtype.val hk⟩⟩
+     have hn' : (I.subtype (· ≠ i)).card = n := by
+       rw [Finset.card_subtype, Finset.filter_ne', Finset.card_erase_of_mem hi, hn]; rfl
++    letI : DecidableEq {j : μ // j ≠ i} := LinearOrder.toDecidableEq
+     have hm : ∀ (s : Finset {j : μ // j ≠ i}) (t : Finset κ),
+         (s ∪ t.map f'.toEmbedding).map (otherDirections i).toEmbedding =
+           s.map (otherDirections i).toEmbedding ∪ t.map f.toEmbedding := fun s t => by
+@@ -436,7 +437,7 @@
+ 
+ variable (e f) in
+ 
+-def partsIn (Q : Set (Finset ι)) (T : Set (Finset κ)) : Set (Finset μ) :=
++noncomputable def partsIn (Q : Set (Finset ι)) (T : Set (Finset κ)) : Set (Finset μ) :=
+   part e ⁻¹' Q ∩ part f ⁻¹' T
+ 
+ @[simp]
