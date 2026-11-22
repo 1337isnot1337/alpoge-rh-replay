@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SymplecticZmodLift",
+  "source_sha256": "324ec330258d3ba210a947faf4f05502051e61bf67bda82f6d940ef7bf1db24f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0185-lean436-20261121/packet-result.json"
+}

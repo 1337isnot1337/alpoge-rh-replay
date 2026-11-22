@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsorTrivialGenericFibreOfStrictHenselClosedFib",
+  "source_sha256": "5db6c2427f69cde8817bf8716da0fda8e68b3db0ed70f9a6ef83e17e8192ec33",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use renamed localization ideal extension/contraction lemmas for the same algebra maps. Use the renamed local maximal-ideal contraction lemma. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0185-lean436-20261121/packet-result.json"
+}

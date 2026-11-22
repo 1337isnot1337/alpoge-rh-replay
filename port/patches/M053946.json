@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TraceRingOfIntegersActionLatticeEqStatement",
+  "source_sha256": "5ce2d36599457355481f02506d0c18e6820ffed08f5afec8f7337b7dc0d14a05",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The exported statement uses the renamed additive homomorphism of the same scalar action; its function and mathematical assertion are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0185-lean436-20261121/packet-result.json"
+}

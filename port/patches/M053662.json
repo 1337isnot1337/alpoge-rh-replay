@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TorsorsTrivialIff",
+  "source_sha256": "72bcedd642a63ee8a5f9d62a4d3a3eeede9572b6cbaa568a4cb2aa71382b2da5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0185-lean436-20261121/packet-result.json"
+}

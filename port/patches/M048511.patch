@@ -1,0 +1,27 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/RingHomFlatOfCompFlatOfMapMaximalIdeal.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/RingHomFlatOfCompFlatOfMapMaximalIdeal.lean
+@@ -123,7 +123,6 @@
+   have ht : ∀ x, ∃ y, t y = x := by
+     intro x
+     induction x with
+-    | zero => exact ⟨0, map_zero _⟩
+     | add a b ha hb =>
+       obtain ⟨a, rfl⟩ := ha
+       obtain ⟨b, rfl⟩ := hb
+@@ -146,7 +145,6 @@
+       TensorProduct.rid O M (J.subtype.lTensor M y) := by
+     intro y
+     induction y with
+-    | zero => simp
+     | add a b ha hb => simp only [map_add, ha, hb]
+     | tmul m a => simp [t, j]
+   rw [injective_iff_map_eq_zero]
+@@ -169,7 +167,7 @@
+   intro O R' E _ _ _ _ _ _ _ _ _ φ' b _ hm hb hc
+   algebraize [φ', b, b.comp φ']
+   refine LocalFlatMax.flat_of_lTensor_injective E (maximalIdeal R') ?_ ?_
+-  · have h : (maximalIdeal R').map b ≤ maximalIdeal E := ((local_hom_TFAE b).out 0 2).mp hb
++  · have h : (maximalIdeal R').map b ≤ maximalIdeal E := ((local_hom_TFAE b).out 1 3).mp hb
+     exact h.trans (maximalIdeal_le_jacobson _)
+   · rw [← hm]
+     exact LocalFlatMax.lTensor_map_injective (maximalIdeal O)
