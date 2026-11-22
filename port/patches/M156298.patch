@@ -1,0 +1,11 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/PolynomialDifferentialWords/DivideAll.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/PolynomialDifferentialWords/DivideAll.lean
+@@ -50,7 +50,7 @@
+       rw [mem_weightedHomogeneousSubmodule] at h1
+       rw [mul_zero]
+       ext m
+-      rw [coeff_zero]
++      rw [MvPolynomial.coeff_zero, Finsupp.zero_apply]
+       by_contra h
+       have h2 := h1 h
+       have h3 : m = 0 := by

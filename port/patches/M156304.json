@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PolynomialDifferentialWords.PolarizationBihomogeneous",
+  "source_sha256": "5f1a692c3ecb766f2f17fdb6fc0b80af82f642b7159a710400dee8134c7da966",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the equivalent multivariate polynomial coefficient projection and the updated coefficient addition and zero lemmas."
+}

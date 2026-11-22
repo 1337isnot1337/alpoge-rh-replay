@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuadraticDedekindZeta.CoefIdOf",
+  "source_sha256": "4fc28e326d6c765856e1471a90d452c04061d70d0b6d06104cb23b43156fe996",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
