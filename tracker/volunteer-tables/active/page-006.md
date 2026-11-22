@@ -14,12 +14,13 @@
 | [@maugomez77](https://github.com/maugomez77) | [M155317](https://github.com/rohanarun/alpoge-rh-replay/issues/27399) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [M174913](https://github.com/rohanarun/alpoge-rh-replay/issues/27448) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [M166809](https://github.com/rohanarun/alpoge-rh-replay/issues/27563) | Claimed |
-| [@emsi](https://github.com/emsi) | [P2715](https://github.com/rohanarun/alpoge-rh-replay/issues/27857) | Claimed |
 | [@CubeJerry](https://github.com/CubeJerry) | [P2646](https://github.com/rohanarun/alpoge-rh-replay/issues/28062) | Claimed |
 | [@CubeJerry](https://github.com/CubeJerry) | [P2723](https://github.com/rohanarun/alpoge-rh-replay/issues/28067) | Claimed |
 | [@CubeJerry](https://github.com/CubeJerry) | [P2717](https://github.com/rohanarun/alpoge-rh-replay/issues/28070) | Claimed |
 | [@CubeJerry](https://github.com/CubeJerry) | [P2728](https://github.com/rohanarun/alpoge-rh-replay/issues/28075) | Claimed |
 | [@CubeJerry](https://github.com/CubeJerry) | [P2749](https://github.com/rohanarun/alpoge-rh-replay/issues/28076) | Claimed |
-| [@UnityChaos](https://github.com/UnityChaos) | [M104680](https://github.com/rohanarun/alpoge-rh-replay/issues/28177) | Claimed |
-| [@UnityChaos](https://github.com/UnityChaos) | [M078537](https://github.com/rohanarun/alpoge-rh-replay/issues/28178) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [M116378](https://github.com/rohanarun/alpoge-rh-replay/issues/28207) | Claimed |
+| [@UnityChaos](https://github.com/UnityChaos) | [M032969](https://github.com/rohanarun/alpoge-rh-replay/issues/28244) | Claimed |
+| [@UnityChaos](https://github.com/UnityChaos) | [M074353](https://github.com/rohanarun/alpoge-rh-replay/issues/28257) | Claimed |
+| [@emsi](https://github.com/emsi) | [M117354](https://github.com/rohanarun/alpoge-rh-replay/issues/28258) | Claimed |
+| [@hipotures](https://github.com/hipotures) | [P2663](https://github.com/rohanarun/alpoge-rh-replay/issues/28262) | Claimed |
