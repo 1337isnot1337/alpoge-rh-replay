@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GaussValuationBounds.GaussValueContraction.LemmaCVal",
+  "source_sha256": "08e68781a455efc95927a783f6ac8897bad707d33d3eae3aa03f1d99362d92e5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

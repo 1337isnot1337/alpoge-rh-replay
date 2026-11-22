@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.GermExpansionOfSteps",
+  "source_sha256": "18d8fd9373924769e5cbd988cc930713d9cfe72520232f9260140fe272295ff8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

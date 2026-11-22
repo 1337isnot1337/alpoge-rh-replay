@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.HarderNarasimhan.HarderNarasimhanProofs.FinSup",
+  "source_sha256": "2910a49cbf2532d727abbe372ceb7826c8b77c54f7ef97b169f2ad1718f8423d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current finite supremum lemma for a well-founded strict order."
+}

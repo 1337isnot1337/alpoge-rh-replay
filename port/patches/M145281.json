@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GrowthSums.FactorialBaseGrowth.PathBasisOfCount",
+  "source_sha256": "f7b7e33bd9344abb1af4437dc34beba7b2c57844ce9e39f00a4b223ef85deb66",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

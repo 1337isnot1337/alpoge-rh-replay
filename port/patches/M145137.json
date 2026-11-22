@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GaussJetBounds.StatementO",
+  "source_sha256": "4e4deb154cae4ef95855d304da2378697d749b7895c6ea7f578f15c87c2adb17",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

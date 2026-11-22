@@ -1,0 +1,2382 @@
+Packet P0272, partial submission
+Upstream base 5614bb0434d21120bb76a7a249f74869cacde986
+Port record commit ce12d11d9b75fc05e144c7f8630f2c9744985b20
+Lean leanprover/lean4:v4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+python3 scripts/port-ci-build.py --workspace <workspace> --src <archive-source> --patch-ids M145053 M145068 M145082 M145083 M145086 M145091 M145092 M145117 M145121 M145129 M145137 M145151 M145152 M145156 M145279 M145281 M145300 M145352 M145381 M145382 M145390 M145577 M145580 M146265 M146288 M146291 M146359 M146371 M146375 M146415 M146441 M146475
+
+Elaborated IsLattice audit
+lake env lean --run <repository>/port/islattice_audit.lean Formalism.GaloisIrreducibility.NoSolvableTransitive Formalism.GaussJetBounds.GaussJetProofs.ExistsNeZeroOfFinsumNeZero Formalism.GaussJetBounds.GaussJetProofs.MinorProductSupportTop Formalism.GaussJetBounds.GaussJetProofs.NormDetLeOneOfEntries Formalism.GaussJetBounds.GaussJetProofs.OneLetterRadiusIdentity Formalism.GaussJetBounds.GaussJetProofs.Special Formalism.GaussJetBounds.GaussJetProofs.SubstitutionWeightBound Formalism.GaussJetBounds.OneLetterGaussJets.StatementA Formalism.GaussJetBounds.OneLetterGaussJets.StatementN Formalism.GaussJetBounds.StatementE Formalism.GaussJetBounds.StatementO Formalism.GaussValuationBounds.GaussValueContraction.GaussBasic Formalism.GaussValuationBounds.GaussValueContraction.GaussMul Formalism.GaussValuationBounds.GaussValueContraction.LemmaCVal Formalism.GrowthSums.FactorialBaseGrowth.LogCoef Formalism.GrowthSums.FactorialBaseGrowth.PathBasisOfCount Formalism.HarderNarasimhan.HarderNarasimhanProofs.FinSup Formalism.HermitianCurvature.HermitianCurvatureProofs.AdicNeighbourhood Formalism.HermitianCurvature.HermitianCurvatureProofs.AveragedKernelSums Formalism.HermitianCurvature.HermitianCurvatureProofs.AveragedVectorChoices Formalism.HermitianCurvature.HermitianCurvatureProofs.BasePointMemHalfPlane Formalism.HermitianCurvature.HermitianCurvatureProofs.CriticalThresholdLowerBound Formalism.HermitianCurvature.HermitianCurvatureProofs.CuspidalIrreducibleSubrep Formalism.HermitianCurvature.HermitianCurvatureProofs.EqZeroOfIdealCompact Formalism.HermitianCurvature.HermitianCurvatureProofs.FiniteClassesPositiveSums Formalism.HermitianCurvature.HermitianCurvatureProofs.FiniteSumSwap Formalism.HermitianCurvature.HermitianCurvatureProofs.GermExpansionOfSteps Formalism.HermitianCurvature.HermitianCurvatureProofs.GermSumLattices Formalism.HermitianCurvature.HermitianCurvatureProofs.GramKernelHermitian Formalism.HermitianCurvature.HermitianCurvatureProofs.HenselRootsBounded Formalism.HermitianCurvature.HermitianCurvatureProofs.HessianScalingIntegrals Formalism.HermitianCurvature.HermitianCurvatureProofs.IntegralLatticeRefinementIdentity
+islattice-audit: 32 module(s), 0 hit(s)
+
+Earlier source builds for reused outputs
+⚠ [18367/18399] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.CuspidalIrreducibleSubrep (9.0s)
+⚠ [18368/18399] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.IntegralLatticeRefinementIdentity (13s)
+⚠ [18369/18399] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.HessianScalingIntegrals (10s)
+⚠ [18371/18399] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.HenselRootsBounded (22s)
+⚠ [18373/18399] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.GermSumLattices (11s)
+✔ [18374/18399] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.GermExpansionOfSteps (8.3s)
+⚠ [18375/18399] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.FiniteSumSwap (7.0s)
+⚠ [18376/18399] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.FiniteClassesPositiveSums (9.2s)
+⚠ [18377/18399] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.EqZeroOfIdealCompact (10s)
+⚠ [18378/18399] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.AveragedVectorChoices (15s)
+✔ [18380/18399] Built Formalism.GrowthSums.FactorialBaseGrowth.PathBasisOfCount (11s)
+⚠ [18381/18399] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.AveragedKernelSums (41s)
+⚠ [18384/18399] Built Formalism.GaussValuationBounds.GaussValueContraction.LemmaCVal (7.5s)
+⚠ [18386/18399] Built Formalism.GaussValuationBounds.GaussValueContraction.GaussMul (6.6s)
+⚠ [18387/18399] Built Formalism.GaussValuationBounds.GaussValueContraction.GaussBasic (8.0s)
+⚠ [18388/18399] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.BasePointMemHalfPlane (10s)
+✔ [18389/18399] Built Formalism.GaussJetBounds.StatementE (6.7s)
+✔ [18390/18399] Built Formalism.GaussJetBounds.OneLetterGaussJets.StatementN (6.9s)
+✔ [18391/18399] Built Formalism.GaussJetBounds.OneLetterGaussJets.StatementA (6.6s)
+✔ [18392/18399] Built Formalism.GaussJetBounds.StatementO (5.7s)
+⚠ [18393/18399] Built Formalism.GaussJetBounds.GaussJetProofs.SubstitutionWeightBound (5.4s)
+✔ [18395/18399] Built Formalism.GaussJetBounds.GaussJetProofs.OneLetterRadiusIdentity (10s)
+⚠ [18397/18399] Built Formalism.GaussJetBounds.GaussJetProofs.MinorProductSupportTop (5.8s)
+✔ [18398/18399] Built Formalism.GaloisIrreducibility.NoSolvableTransitive (6.2s)
+⚠ [18399/18399] Built Formalism.GaussJetBounds.GaussJetProofs.ExistsNeZeroOfFinsumNeZero (8.4s)
+
+Build verification on the upstream base
+Building 32 explicitly requested module(s).
+Resolved 59 transitive project import(s) (91 total module(s) to materialize).
+[FETCH] Materializing 91 SHA-256-verified source file(s)...
+[FETCH] Verified 91/91 source file(s).
+[KEEP]  M115314: unchanged (verified against archive source)
+[KEEP]  M115821: unchanged (verified against archive source)
+[KEEP]  M144279: unchanged (verified against archive source)
+[KEEP]  M144281: unchanged (verified against archive source)
+[KEEP]  M144284: unchanged (verified against archive source)
+[KEEP]  M144557: unchanged (verified against archive source)
+[KEEP]  M145038: unchanged (verified against archive source)
+[KEEP]  M145039: unchanged (verified against archive source)
+[PATCH] M145040: applied M145040.patch
+[KEEP]  M145041: unchanged (verified against archive source)
+[KEEP]  M145042: unchanged (verified against archive source)
+[KEEP]  M145043: unchanged (verified against archive source)
+[KEEP]  M145044: unchanged (verified against archive source)
+[KEEP]  M145045: unchanged (verified against archive source)
+[KEEP]  M145046: unchanged (verified against archive source)
+[KEEP]  M145047: unchanged (verified against archive source)
+[KEEP]  M145048: unchanged (verified against archive source)
+[KEEP]  M145049: unchanged (verified against archive source)
+[KEEP]  M145050: unchanged (verified against archive source)
+[KEEP]  M145051: unchanged (verified against archive source)
+[KEEP]  M145052: unchanged (verified against archive source)
+[KEEP]  M145053: unchanged (verified against archive source)
+[KEEP]  M145054: unchanged (verified against archive source)
+[KEEP]  M145068: unchanged (verified against archive source)
+[KEEP]  M145082: unchanged (verified against archive source)
+[PATCH] M145083: applied M145083.patch
+[KEEP]  M145086: unchanged (verified against archive source)
+[PATCH] M145091: applied M145091.patch
+[KEEP]  M145092: unchanged (verified against archive source)
+[KEEP]  M145103: unchanged (verified against archive source)
+[KEEP]  M145108: unchanged (verified against archive source)
+[KEEP]  M145117: unchanged (verified against archive source)
+[KEEP]  M145121: unchanged (verified against archive source)
+[KEEP]  M145124: unchanged (verified against archive source)
+[KEEP]  M145125: unchanged (verified against archive source)
+[KEEP]  M145126: unchanged (verified against archive source)
+[KEEP]  M145127: unchanged (verified against archive source)
+[KEEP]  M145128: unchanged (verified against archive source)
+[KEEP]  M145129: unchanged (verified against archive source)
+[KEEP]  M145131: unchanged (verified against archive source)
+[KEEP]  M145137: unchanged (verified against archive source)
+[KEEP]  M145149: unchanged (verified against archive source)
+[KEEP]  M145151: unchanged (verified against archive source)
+[KEEP]  M145152: unchanged (verified against archive source)
+[KEEP]  M145156: unchanged (verified against archive source)
+[KEEP]  M145164: unchanged (verified against archive source)
+[PATCH] M145276: applied M145276.patch
+[PATCH] M145279: applied M145279.patch
+[KEEP]  M145281: unchanged (verified against archive source)
+[KEEP]  M145285: unchanged (verified against archive source)
+[KEEP]  M145287: unchanged (verified against archive source)
+[KEEP]  M145288: unchanged (verified against archive source)
+[KEEP]  M145291: unchanged (verified against archive source)
+[PATCH] M145300: applied M145300.patch
+[KEEP]  M145327: unchanged (verified against archive source)
+[KEEP]  M145337: unchanged (verified against archive source)
+[KEEP]  M145351: unchanged (verified against archive source)
+[PATCH] M145352: applied M145352.patch
+[PATCH] M145372: applied M145372.patch
+[KEEP]  M145381: unchanged (verified against archive source)
+[KEEP]  M145382: unchanged (verified against archive source)
+[KEEP]  M145390: unchanged (verified against archive source)
+[KEEP]  M145572: unchanged (verified against archive source)
+[PATCH] M145577: applied M145577.patch
+[KEEP]  M145580: unchanged (verified against archive source)
+[KEEP]  M146265: unchanged (verified against archive source)
+[KEEP]  M146285: unchanged (verified against archive source)
+[KEEP]  M146288: unchanged (verified against archive source)
+[KEEP]  M146291: unchanged (verified against archive source)
+[KEEP]  M146299: unchanged (verified against archive source)
+[KEEP]  M146359: unchanged (verified against archive source)
+[KEEP]  M146371: unchanged (verified against archive source)
+[PATCH] M146375: applied M146375.patch
+[KEEP]  M146390: unchanged (verified against archive source)
+[KEEP]  M146395: unchanged (verified against archive source)
+[KEEP]  M146415: unchanged (verified against archive source)
+[KEEP]  M146441: unchanged (verified against archive source)
+[KEEP]  M146475: unchanged (verified against archive source)
+[PATCH] M146511: applied M146511.patch
+[KEEP]  M146619: unchanged (verified against archive source)
+[PATCH] M146727: applied M146727.patch
+[KEEP]  M146795: unchanged (verified against archive source)
+[PATCH] M147035: applied M147035.patch
+[KEEP]  M147219: unchanged (verified against archive source)
+[KEEP]  M147240: unchanged (verified against archive source)
+[KEEP]  M147251: unchanged (verified against archive source)
+[KEEP]  M147326: unchanged (verified against archive source)
+[KEEP]  M147452: unchanged (verified against archive source)
+[KEEP]  M147469: unchanged (verified against archive source)
+[KEEP]  M161347: unchanged (verified against archive source)
+[KEEP]  M162144: unchanged (verified against archive source)
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in <workspace>
+
+[BUILD] Building 32 module(s) with `lake build`...
+        IDs: M145053, M145068, M145082, M145083, M145086, M145091, M145092, M145117, M145121, M145129, M145137, M145151, M145152, M145156, M145279, M145281, M145300, M145352, M145381, M145382, M145390, M145577, M145580, M146265, M146288, M146291, M146359, M146371, M146375, M146415, M146441, M146475
+⚠ [18250/18399] Replayed Formalism.GaussJetBounds.StatementH
+warning: src/Formalism/GaussJetBounds/StatementH.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18399] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.WtGeProd
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/WtGeProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/WtGeProd.lean:57:20: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18252/18399] Replayed Formalism.WindowSums.Statement
+warning: src/Formalism/WindowSums/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18399] Replayed Formalism.FrobeniusContraction.Statement
+warning: src/Formalism/FrobeniusContraction/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18399] Replayed Formalism.LatticeSlopes.Statement
+warning: src/Formalism/LatticeSlopes/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18255/18399] Replayed Formalism.DoubleCosetMeasures.Statement
+warning: src/Formalism/DoubleCosetMeasures/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/DoubleCosetMeasures/Statement.lean:164:6: `Matrix.det_of_lowerTriangular` has been deprecated: Use `Matrix.det_of_isLowerTriangular` instead
+
+Hint: Replace the deprecated name:
+  M̵a̵t̵r̵i̵x̵.̵d̵e̵t̵_̵o̵f̵_̵l̵o̵w̵e̵r̵T̵r̵i̵a̵n̵g̵u̵l̵a̵r̵d̲e̲t̲_̲o̲f̲_̲i̲s̲L̲o̲w̲e̲r̲T̲r̲i̲a̲n̲g̲u̲l̲a̲r̲
+warning: src/Formalism/DoubleCosetMeasures/Statement.lean:168:6: `Matrix.det_of_upperTriangular` has been deprecated: Use `Matrix.det_of_isUpperTriangular` instead
+
+Hint: Replace the deprecated name:
+  M̵a̵t̵r̵i̵x̵.̵d̵e̵t̵_̵o̵f̵_̵u̵p̵p̵e̵r̵T̵r̵i̵a̵n̵g̵u̵l̵a̵r̵d̲e̲t̲_̲o̲f̲_̲i̲s̲U̲p̲p̲e̲r̲T̲r̲i̲a̲n̲g̲u̲l̲a̲r̲
+warning: src/Formalism/DoubleCosetMeasures/Statement.lean:174:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/DoubleCosetMeasures/Statement.lean:189:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18256/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.HasDerivAtTMul
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HasDerivAtTMul.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18257/18399] Replayed Formalism.HermitianCurvature.StatementSz
+warning: src/Formalism/HermitianCurvature/StatementSz.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18258/18399] Replayed Formalism.HermitianCurvature.StatementG
+warning: src/Formalism/HermitianCurvature/StatementG.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18259/18399] Replayed Formalism.GaloisIrreducibility.Statement
+warning: src/Formalism/GaloisIrreducibility/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/GaloisIrreducibility/Statement.lean:69:23: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18260/18399] Replayed Formalism.IncomingBounds.IncomingBound
+warning: src/Formalism/IncomingBounds/IncomingBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18261/18399] Ran Formalism.IncomingBounds.IncomingBound:irArts
+warning: src/Formalism/IncomingBounds/IncomingBound.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18262/18399] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.HomWProd
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HomWProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HomWProd.lean:25:46: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HomWProd.lean:41:20: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18263/18399] Ran Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.HomWProd:irArts
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/HomWProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18264/18399] Ran Formalism.GaussJetBounds.StatementH:irArts
+warning: src/Formalism/GaussJetBounds/StatementH.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18265/18399] Ran Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.WtGeProd:irArts
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/WtGeProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18266/18399] Ran Formalism.WindowSums.Statement:irArts
+warning: src/Formalism/WindowSums/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18267/18399] Ran Formalism.FrobeniusContraction.Statement:irArts
+warning: src/Formalism/FrobeniusContraction/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18268/18399] Replayed Formalism.SubspaceCounting.StatementB
+warning: src/Formalism/SubspaceCounting/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18269/18399] Ran Formalism.SubspaceCounting.StatementB:irArts
+warning: src/Formalism/SubspaceCounting/StatementB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18270/18399] Ran Formalism.LatticeSlopes.Statement:irArts
+warning: src/Formalism/LatticeSlopes/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18271/18399] Ran Formalism.DoubleCosetMeasures.Statement:irArts
+warning: src/Formalism/DoubleCosetMeasures/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18272/18399] Ran Formalism.HermitianCurvature.HermitianCurvatureProofs.HasDerivAtTMul:irArts
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HasDerivAtTMul.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18273/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.HasFDerivAtPrim
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HasFDerivAtPrim.lean:74:20: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HasFDerivAtPrim.lean:75:38: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+⚠ [18274/18399] Ran Formalism.HermitianCurvature.StatementSz:irArts
+warning: src/Formalism/HermitianCurvature/StatementSz.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18276/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.SumInvSqLeSub
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/SumInvSqLeSub.lean:342:22: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/SumInvSqLeSub.lean:342:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/SumInvSqLeSub.lean:344:22: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/SumInvSqLeSub.lean:344:33: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/SumInvSqLeSub.lean:609:19: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/SumInvSqLeSub.lean:612:51: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+⚠ [18277/18399] Ran Formalism.HermitianCurvature.StatementG:irArts
+warning: src/Formalism/HermitianCurvature/StatementG.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18278/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.PhaseFunctionCriticalPoints
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/PhaseFunctionCriticalPoints.lean:178:17: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/PhaseFunctionCriticalPoints.lean:280:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18279/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.AffineChangeOfVariables
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AffineChangeOfVariables.lean:194:13: `MeasureTheory.Measure.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  M̵e̵a̵s̵u̵r̵e̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+⚠ [18280/18399] Ran Formalism.GaloisIrreducibility.Statement:irArts
+warning: src/Formalism/GaloisIrreducibility/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18281/18399] Replayed Formalism.HarderNarasimhan.Statement
+warning: src/Formalism/HarderNarasimhan/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18282/18399] Ran Formalism.HarderNarasimhan.Statement:irArts
+warning: src/Formalism/HarderNarasimhan/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18287/18399] Replayed Formalism.DoubleCosetMeasures.LowerUnipotentOrbits.MulInvBlockDiagApplySameBlock
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:16:19: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [revIn] at h
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:28:24: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:29:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:30:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:31:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:40:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:41:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:42:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:43:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:123:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:132:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:141:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:141:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:142:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:142:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:175:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:175:4: Unused tactic linter: `exact hx.1 (show OrderDual.toDual j < OrderDual.toDual i from h)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:181:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:181:4: Unused tactic linter: `(unfold IsUpUni at hy; done)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:258:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:290:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:312:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:316:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:327:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:331:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:359:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:363:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:367:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:369:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:387:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:408:12: Unused tactic linter: `simp only [Function.Involutive.coe_toPerm, revF_revF]` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:434:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:448:43: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:449:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:453:43: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:454:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:455:47: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:464:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:481:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:483:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/MulInvBlockDiagApplySameBlock.lean:487:35: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18289/18399] Replayed Formalism.DoubleCosetMeasures.LowerUnipotentOrbits.LowUniMulVecELast
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/LowUniMulVecELast.lean:62:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/LowUniMulVecELast.lean:63:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/LowUniMulVecELast.lean:65:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/LowUniMulVecELast.lean:70:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/LowUniMulVecELast.lean:112:2: `LinearEquiv.ofLinear` has been deprecated: Use `LinearEquiv.ofLinearMap` instead
+
+Hint: Replace the deprecated name:
+  LinearEquiv.ofLinearM̲a̲p̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/LowUniMulVecELast.lean:176:8: `Matrix.det_of_upperTriangular` has been deprecated: Use `Matrix.det_of_isUpperTriangular` instead
+
+Hint: Replace the deprecated name:
+  M̵a̵t̵r̵i̵x̵.̵d̵e̵t̵_̵o̵f̵_̵u̵p̵p̵e̵r̵T̵r̵i̵a̵n̵g̵u̵l̵a̵r̵d̲e̲t̲_̲o̲f̲_̲i̲s̲U̲p̲p̲e̲r̲T̲r̲i̲a̲n̲g̲u̲l̲a̲r̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/LowUniMulVecELast.lean:197:8: `Matrix.det_of_lowerTriangular` has been deprecated: Use `Matrix.det_of_isLowerTriangular` instead
+
+Hint: Replace the deprecated name:
+  M̵a̵t̵r̵i̵x̵.̵d̵e̵t̵_̵o̵f̵_̵l̵o̵w̵e̵r̵T̵r̵i̵a̵n̵g̵u̵l̵a̵r̵d̲e̲t̲_̲o̲f̲_̲i̲s̲L̲o̲w̲e̲r̲T̲r̲i̲a̲n̲g̲u̲l̲a̲r̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/LowUniMulVecELast.lean:200:8: `Matrix.det_of_upperTriangular` has been deprecated: Use `Matrix.det_of_isUpperTriangular` instead
+
+Hint: Replace the deprecated name:
+  M̵a̵t̵r̵i̵x̵.̵d̵e̵t̵_̵o̵f̵_̵u̵p̵p̵e̵r̵T̵r̵i̵a̵n̵g̵u̵l̵a̵r̵d̲e̲t̲_̲o̲f̲_̲i̲s̲U̲p̲p̲e̲r̲T̲r̲i̲a̲n̲g̲u̲l̲a̲r̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/LowUniMulVecELast.lean:214:21: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/LowUniMulVecELast.lean:238:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/LowUniMulVecELast.lean:273:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/LowUniMulVecELast.lean:274:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/DoubleCosetMeasures/LowerUnipotentOrbits/LowUniMulVecELast.lean:275:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18300/18399] Replayed Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.RestrictRoots
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/RestrictRoots.lean:18:21: `LinearMap.restrict_coe_apply` has been deprecated: Use `LinearMap.coe_restrict_apply` instead
+
+Hint: Replace the deprecated name:
+  L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵r̵e̵s̵t̵r̵i̵c̵t̵_̵c̵o̵e̵_̵a̵p̵p̵l̵y̵L̲i̲n̲e̲a̲r̲M̲a̲p̲.̲c̲o̲e̲_̲r̲e̲s̲t̲r̲i̲c̲t̲_̲a̲p̲p̲l̲y̲
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/RestrictRoots.lean:18:60: `LinearMap.restrict_coe_apply` has been deprecated: Use `LinearMap.coe_restrict_apply` instead
+
+Hint: Replace the deprecated name:
+  L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵r̵e̵s̵t̵r̵i̵c̵t̵_̵c̵o̵e̵_̵a̵p̵p̵l̵y̵L̲i̲n̲e̲a̲r̲M̲a̲p̲.̲c̲o̲e̲_̲r̲e̲s̲t̲r̲i̲c̲t̲_̲a̲p̲p̲l̲y̲
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/RestrictRoots.lean:53:30: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (f g : End R M)
+    (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/RestrictRoots.lean:53:52: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (f g : End R M)
+    (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/RestrictRoots.lean:54:6: `LinearMap.restrict_coe_apply` has been deprecated: Use `LinearMap.coe_restrict_apply` instead
+
+Hint: Replace the deprecated name:
+  L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵r̵e̵s̵t̵r̵i̵c̵t̵_̵c̵o̵e̵_̵a̵p̵p̵l̵y̵L̲i̲n̲e̲a̲r̲M̲a̲p̲.̲c̲o̲e̲_̲r̲e̲s̲t̲r̲i̲c̲t̲_̲a̲p̲p̲l̲y̲
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/RestrictRoots.lean:68:8: `LinearMap.restrict_coe_apply` has been deprecated: Use `LinearMap.coe_restrict_apply` instead
+
+Hint: Replace the deprecated name:
+  L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵r̵e̵s̵t̵r̵i̵c̵t̵_̵c̵o̵e̵_̵a̵p̵p̵l̵y̵L̲i̲n̲e̲a̲r̲M̲a̲p̲.̲c̲o̲e̲_̲r̲e̲s̲t̲r̲i̲c̲t̲_̲a̲p̲p̲l̲y̲
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/RestrictRoots.lean:77:4: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/RestrictRoots.lean:90:14: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (f g : End R M)
+    (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/RestrictRoots.lean:90:43: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (f g : End R M)
+    (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/RestrictRoots.lean:92:29: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (f g : End R M)
+    (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/RestrictRoots.lean:92:58: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (f g : End R M)
+    (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/RestrictRoots.lean:115:61: `Module.End.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : One F} [self : IsOneApplyEqSelf F]
+    (x : α), 1 x = x
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (x : M), 1 x = x
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/RestrictRoots.lean:118:43: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (f g : End R M)
+    (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/RestrictRoots.lean:149:57: `LinearMap.restrict_coe_apply` has been deprecated: Use `LinearMap.coe_restrict_apply` instead
+
+Hint: Replace the deprecated name:
+  L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵r̵e̵s̵t̵r̵i̵c̵t̵_̵c̵o̵e̵_̵a̵p̵p̵l̵y̵L̲i̲n̲e̲a̲r̲M̲a̲p̲.̲c̲o̲e̲_̲r̲e̲s̲t̲r̲i̲c̲t̲_̲a̲p̲p̲l̲y̲
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/RestrictRoots.lean:174:16: `LinearMap.restrict_coe_apply` has been deprecated: Use `LinearMap.coe_restrict_apply` instead
+
+Hint: Replace the deprecated name:
+  L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵r̵e̵s̵t̵r̵i̵c̵t̵_̵c̵o̵e̵_̵a̵p̵p̵l̵y̵L̲i̲n̲e̲a̲r̲M̲a̲p̲.̲c̲o̲e̲_̲r̲e̲s̲t̲r̲i̲c̲t̲_̲a̲p̲p̲l̲y̲
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/RestrictRoots.lean:186:20: `LinearMap.restrict_coe_apply` has been deprecated: Use `LinearMap.coe_restrict_apply` instead
+
+Hint: Replace the deprecated name:
+  L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵r̵e̵s̵t̵r̵i̵c̵t̵_̵c̵o̵e̵_̵a̵p̵p̵l̵y̵L̲i̲n̲e̲a̲r̲M̲a̲p̲.̲c̲o̲e̲_̲r̲e̲s̲t̲r̲i̲c̲t̲_̲a̲p̲p̲l̲y̲
+⚠ [18304/18399] Replayed Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.PermSubSumInv
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/PermSubSumInv.lean:27:0: automatically included section variable(s) unused in theorem `Formalism.GaloisIrreducibility.SubsetSumInvariance.pow_stable`:
+  [Fintype α]
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18310/18399] Replayed Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.OneNonUnit
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:42:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:45:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:42:6: Unused tactic linter: `simp [bord_mul, bord_one]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:45:6: Unused tactic linter: `simp [bord_mul, bord_one]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:54:33: This simp argument is unused:
+  h0
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.diagonal_apply, h0']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:54:37: This simp argument is unused:
+  h0'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.diagonal_apply, h0]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:79:44: This simp argument is unused:
+  Fin.sum_univ_succ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [S, T, S', T', Matrix.mul_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:123:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:127:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:123:6: Unused tactic linter: `simp [← PEquiv.toMatrix_trans, ← Equiv.toPEquiv_trans]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:127:6: Unused tactic linter: `simp [← PEquiv.toMatrix_trans, ← Equiv.toPEquiv_trans]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:164:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:170:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:175:40: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:177:58: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:179:63: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:183:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:174:57: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:176:57: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:178:57: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:180:62: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:164:6: Unused tactic linter: `exact IsUnit.of_mul_eq_one _ h` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:170:6: Unused tactic linter: `exact IsUnit.of_mul_eq_one _ h` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:174:57: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:175:40: Unused tactic linter: `linear_combination (-1 : R) * hb` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:176:57: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:177:58: Unused tactic linter: `linear_combination (A 0 j.succ) * hb` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:178:57: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:179:63: Unused tactic linter: `linear_combination (A i.succ 0 * b) * hb'` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:180:62: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:183:10: Unused tactic linter: `linear_combination (-(A i.succ 0 * b * A 0 j.succ)) * hb'` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/OneNonUnit.lean:212:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [18316/18399] Replayed Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.PrimitiveOfPCycle
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/PrimitiveOfPCycle.lean:48:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/PrimitiveOfPCycle.lean:52:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [18318/18399] Replayed Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.JordanPrime
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/JordanPrime.lean:11:0: automatically included section variable(s) unused in theorem `Formalism.GaloisIrreducibility.CycleCommutantPowers.conj_pow_eq`:
+  [Fintype α]
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/JordanPrime.lean:23:14: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/JordanPrime.lean:23:14: Unused tactic linter: `group` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/JordanPrime.lean:40:0: automatically included section variable(s) unused in theorem `Formalism.GaloisIrreducibility.CycleCommutantPowers.conj_key`:
+  [Fintype α]
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/JordanPrime.lean:55:20: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/JordanPrime.lean:58:20: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/JordanPrime.lean:63:20: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/JordanPrime.lean:55:20: Unused tactic linter: `simp [mul_assoc]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/JordanPrime.lean:58:20: Unused tactic linter: `simp [mul_assoc]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/JordanPrime.lean:63:20: Unused tactic linter: `simp only [mul_inv_rev, inv_inv, mul_assoc]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/JordanPrime.lean:68:0: automatically included section variable(s) unused in theorem `Formalism.GaloisIrreducibility.CycleCommutantPowers.eq_zpow_on_support`:
+  [Fintype α]
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/JordanPrime.lean:90:0: automatically included section variable(s) unused in theorem `Formalism.GaloisIrreducibility.CycleCommutantPowers.exists_agree`:
+  [Fintype α]
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/JordanPrime.lean:107:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/JordanPrime.lean:107:8: Unused tactic linter: `(simp only [Function.Embedding.smul_apply, Subgroup.smul_def, Perm.smul_def] at h;
+  exact h)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18320/18399] Replayed Formalism.GaussJetBounds.Statement
+warning: src/Formalism/GaussJetBounds/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18321/18399] Ran Formalism.GaussJetBounds.Statement:irArts
+warning: src/Formalism/GaussJetBounds/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18322/18399] Replayed Formalism.GaussValuationBounds.Statement
+warning: src/Formalism/GaussValuationBounds/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18323/18399] Ran Formalism.GaussValuationBounds.Statement:irArts
+warning: src/Formalism/GaussValuationBounds/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18324/18399] Replayed Formalism.GrowthSums.StatementA
+warning: src/Formalism/GrowthSums/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18325/18399] Ran Formalism.GrowthSums.StatementA:irArts
+warning: src/Formalism/GrowthSums/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18329/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.FirstKernelPropertiesOfHypotheses
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FirstKernelPropertiesOfHypotheses.lean:188:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FirstKernelPropertiesOfHypotheses.lean:197:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FirstKernelPropertiesOfHypotheses.lean:280:20: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FirstKernelPropertiesOfHypotheses.lean:318:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FirstKernelPropertiesOfHypotheses.lean:320:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FirstKernelPropertiesOfHypotheses.lean:387:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FirstKernelPropertiesOfHypotheses.lean:389:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FirstKernelPropertiesOfHypotheses.lean:391:31: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FirstKernelPropertiesOfHypotheses.lean:453:35: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FirstKernelPropertiesOfHypotheses.lean:453:74: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FirstKernelPropertiesOfHypotheses.lean:454:34: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FirstKernelPropertiesOfHypotheses.lean:454:72: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FirstKernelPropertiesOfHypotheses.lean:460:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FirstKernelPropertiesOfHypotheses.lean:468:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FirstKernelPropertiesOfHypotheses.lean:471:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FirstKernelPropertiesOfHypotheses.lean:483:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FirstKernelPropertiesOfHypotheses.lean:493:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18331/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.KernelNonzeroModulusDeterminantEq
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:21:5: Variable name `hDB` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hDB
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:71:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:74:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:124:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.A5x5.lat_R`:
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:175:8: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.A5x5.mv_apply`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:180:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.A5x5.mem_LL`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:191:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.A5x5.map_mv_mul`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:220:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.A5x5.lat_LL`:
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:278:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.A5x5.blockL_mulVec`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:423:85: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:427:91: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:423:85: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:427:91: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:460:61: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:460:61: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:505:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.A5x5.int_lower`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:513:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.A5x5.int_upper`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:548:65: This simp argument is unused:
+  Matrix.one_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.mul_zero, Matrix.zero_mul, Matrix.mul_one, add_zero, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:629:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:667:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:668:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:707:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.A5x5.good_equiv`:
+  [TopologicalSpace K]
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:794:43: This simp argument is unused:
+  Function.Involutive.coe_toPerm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Formalism.DoubleCosetMeasures.P.Phase.revF_val]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:795:45: This simp argument is unused:
+  Function.Involutive.coe_toPerm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Formalism.DoubleCosetMeasures.P.Phase.revF_val]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:821:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:861:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:866:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/KernelNonzeroModulusDeterminantEq.lean:868:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18333/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.FderivDecomp
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FderivDecomp.lean:35:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FderivDecomp.lean:35:6: Unused tactic linter: `simp [Complex.normSq_eq_norm_sq, Complex.norm_exp]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FderivDecomp.lean:42:17: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FderivDecomp.lean:61:17: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [18337/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.OrbitalIntegralConvergesAbs
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/OrbitalIntegralConvergesAbs.lean:21:17: `MeasureTheory.Measure.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  M̵e̵a̵s̵u̵r̵e̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/OrbitalIntegralConvergesAbs.lean:56:48: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/OrbitalIntegralConvergesAbs.lean:58:48: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/OrbitalIntegralConvergesAbs.lean:231:31: `coe_nnnorm` has been deprecated: Use `coe_nnNorm` instead
+
+Hint: Replace the deprecated name:
+  coe_nnn̵N̲orm
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/OrbitalIntegralConvergesAbs.lean:247:46: `coe_nnnorm` has been deprecated: Use `coe_nnNorm` instead
+
+Hint: Replace the deprecated name:
+  coe_nnn̵N̲orm
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/OrbitalIntegralConvergesAbs.lean:257:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/OrbitalIntegralConvergesAbs.lean:258:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/OrbitalIntegralConvergesAbs.lean:259:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/OrbitalIntegralConvergesAbs.lean:263:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/OrbitalIntegralConvergesAbs.lean:264:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18351/18399] Replayed Formalism.GrowthSums.StatementC
+warning: src/Formalism/GrowthSums/StatementC.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18352/18399] Replayed Formalism.GrowthSums.FactorialBaseGrowth.Harmonic
+warning: src/Formalism/GrowthSums/FactorialBaseGrowth/Harmonic.lean:32:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/GrowthSums/FactorialBaseGrowth/Harmonic.lean:29:46: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Formalism/GrowthSums/FactorialBaseGrowth/Harmonic.lean:39:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/GrowthSums/FactorialBaseGrowth/Harmonic.lean:61:46: `padicValNat.prime_pow` has been deprecated: Use `Nat.multiplicity_prime_pow` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.prime_pow` to `Nat.multiplicity_prime_pow x`).
+
+Hint: Replace the deprecated name:
+  p̵a̵d̵i̵c̵V̵a̵l̵N̵a̵t̵.̵p̵r̵i̵m̵e̵_̵p̵o̵w̵N̲a̲t̲.̲m̲u̲l̲t̲i̲p̲l̲i̲c̲i̲t̲y̲_̲p̲r̲i̲m̲e̲_̲p̲o̲w̲
+⚠ [18354/18399] Replayed Formalism.GrowthSums.StatementG
+warning: src/Formalism/GrowthSums/StatementG.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18355/18399] Ran Formalism.GrowthSums.StatementG:irArts
+warning: src/Formalism/GrowthSums/StatementG.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18357/18399] Replayed Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.IrredOf
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/IrredOf.lean:31:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [18359/18399] Replayed Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.NoSolvableOf
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/NoSolvableOf.lean:13:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/NoSolvableOf.lean:14:8: `solvable_of_solvable_injective` has been deprecated: Use `Group.isSolvable_of_isSolvable_injective` instead
+
+Hint: Replace the deprecated name:
+  s̵o̵l̵v̵a̵b̵l̵e̵_̵o̵f̵_̵s̵o̵l̵v̵a̵b̵l̵e̵_̵i̵n̵j̵e̵c̵t̵i̵v̵e̵G̲r̲o̲u̲p̲.̲i̲s̲S̲o̲l̲v̲a̲b̲l̲e̲_̲o̲f̲_̲i̲s̲S̲o̲l̲v̲a̲b̲l̲e̲_̲i̲n̲j̲e̲c̲t̲i̲v̲e̲
+⚠ [18360/18399] Replayed Formalism.GaussValuationBounds.GaussUnit
+warning: src/Formalism/GaussValuationBounds/GaussUnit.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18361/18399] Replayed Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.LemmaAOf
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/LemmaAOf.lean:15:19: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (f g : End R M)
+    (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/LemmaAOf.lean:15:41: `LinearMap.restrict_coe_apply` has been deprecated: Use `LinearMap.coe_restrict_apply` instead
+
+Hint: Replace the deprecated name:
+  L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵r̵e̵s̵t̵r̵i̵c̵t̵_̵c̵o̵e̵_̵a̵p̵p̵l̵y̵L̲i̲n̲e̲a̲r̲M̲a̲p̲.̲c̲o̲e̲_̲r̲e̲s̲t̲r̲i̲c̲t̲_̲a̲p̲p̲l̲y̲
+warning: src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/LemmaAOf.lean:16:6: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (f g : End R M)
+    (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+⚠ [18362/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.BasePointMemHalfPlane
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/BasePointMemHalfPlane.lean:36:25: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/BasePointMemHalfPlane.lean:36:25: Unused tactic linter: `exact le_top` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/BasePointMemHalfPlane.lean:66:13: `ContinuousLinearMap.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵a̲d̲d̲_̲a̲p̲p̲l̲y̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/BasePointMemHalfPlane.lean:66:44: `ContinuousLinearMap.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+⚠ [18363/18399] Built Formalism.HarderNarasimhan.HarderNarasimhanProofs.FinSup (61s)
+warning: src/Formalism/HarderNarasimhan/HarderNarasimhanProofs/FinSup.lean:16:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HarderNarasimhan/HarderNarasimhanProofs/FinSup.lean:43:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18364/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.CuspidalIrreducibleSubrep
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CuspidalIrreducibleSubrep.lean:47:6: `Matrix.det_of_upperTriangular` has been deprecated: Use `Matrix.det_of_isUpperTriangular` instead
+
+Hint: Replace the deprecated name:
+  M̵a̵t̵r̵i̵x̵.̵d̵e̵t̵_̵o̵f̵_̵u̵p̵p̵e̵r̵T̵r̵i̵a̵n̵g̵u̵l̵a̵r̵d̲e̲t̲_̲o̲f̲_̲i̲s̲U̲p̲p̲e̲r̲T̲r̲i̲a̲n̲g̲u̲l̲a̲r̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CuspidalIrreducibleSubrep.lean:87:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CuspidalIrreducibleSubrep.lean:101:2: Unused tactic linter: there are no goals left for `try ring`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CuspidalIrreducibleSubrep.lean:195:48: `coe_nnnorm` has been deprecated: Use `coe_nnNorm` instead
+
+Hint: Replace the deprecated name:
+  coe_nnn̵N̲orm
+⚠ [18369/18399] Ran Formalism.GaussValuationBounds.GaussUnit:irArts
+warning: src/Formalism/GaussValuationBounds/GaussUnit.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18370/18399] Ran Formalism.GrowthSums.StatementC:irArts
+warning: src/Formalism/GrowthSums/StatementC.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18371/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.HenselRootsBounded
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:473:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:473:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:480:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:480:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:481:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:481:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:488:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:488:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:497:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:497:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:504:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:504:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:505:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:505:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:506:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:506:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:541:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:546:23: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:547:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:552:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:553:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:558:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:891:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:891:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:894:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:894:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:897:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:897:21: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:898:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HenselRootsBounded.lean:898:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18372/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.HessianScalingIntegrals
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HessianScalingIntegrals.lean:186:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HessianScalingIntegrals.lean:188:67: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HessianScalingIntegrals.lean:195:66: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HessianScalingIntegrals.lean:198:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HessianScalingIntegrals.lean:274:30: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HessianScalingIntegrals.lean:276:15: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HessianScalingIntegrals.lean:278:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HessianScalingIntegrals.lean:282:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HessianScalingIntegrals.lean:285:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HessianScalingIntegrals.lean:331:46: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HessianScalingIntegrals.lean:335:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18373/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.IntegralLatticeRefinementIdentity
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/IntegralLatticeRefinementIdentity.lean:56:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.A6x3.lat_iff`:
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/IntegralLatticeRefinementIdentity.lean:293:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.A6x3.nat_mul_mem`:
+  [TopologicalSpace K]
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/IntegralLatticeRefinementIdentity.lean:373:43: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/IntegralLatticeRefinementIdentity.lean:380:34: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+⚠ [18374/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.AveragedKernelSums
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AveragedKernelSums.lean:92:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.AveragedKernelSums.thx_psd`:
+  [TopologicalSpace K]
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AveragedKernelSums.lean:371:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AveragedKernelSums.lean:373:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AveragedKernelSums.lean:394:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AveragedKernelSums.lean:398:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AveragedKernelSums.lean:419:52: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AveragedKernelSums.lean:449:2: Try this: intro aAvg aGH aSt aGP aG aGK aGI aTO aStep hMS hPO hON hPG hGR hEB hPC hBS hLF hILR hIKR hVS hPL hCM hPD hLC
+  hMLC hSU hSM' hRF hRS hEx hHD hGM hGIn hGAS hNS hML hOR hOI hHR hKB hKH hShU hShS hCS hRC hSN hPhD hLoc hCV hXV hCA
+  hUG hUN hCP hUB hAD hCN hTL hTB hTS hSM hC1 hMM hIF hKG hKBD hNSup
+
+Note: This linter can be disabled with `set_option linter.tacticAnalysis.introMerge false`
+⚠ [18375/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.AveragedVectorChoices
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AveragedVectorChoices.lean:292:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AveragedVectorChoices.lean:292:21: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AveragedVectorChoices.lean:319:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AveragedVectorChoices.lean:324:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AveragedVectorChoices.lean:341:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AveragedVectorChoices.lean:342:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AveragedVectorChoices.lean:342:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AveragedVectorChoices.lean:427:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AveragedVectorChoices.lean:430:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18376/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.EqZeroOfIdealCompact
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/EqZeroOfIdealCompact.lean:170:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.A6x5.image_pow_eq_preimage`:
+  [TopologicalSpace K]
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/EqZeroOfIdealCompact.lean:193:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.A6x5.unitBox_mono`:
+  [TopologicalSpace K]
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18377/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.FiniteClassesPositiveSums
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FiniteClassesPositiveSums.lean:145:17: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FiniteClassesPositiveSums.lean:149:17: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FiniteClassesPositiveSums.lean:219:15: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FiniteClassesPositiveSums.lean:224:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18378/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.FiniteSumSwap
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FiniteSumSwap.lean:20:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/FiniteSumSwap.lean:29:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18380/18399] Replayed Formalism.HermitianCurvature.HermitianCurvatureProofs.GermSumLattices
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/GermSumLattices.lean:15:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/GermSumLattices.lean:20:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/GermSumLattices.lean:248:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/GermSumLattices.lean:266:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/GermSumLattices.lean:567:11: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/GermSumLattices.lean:577:11: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18381/18399] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.GramKernelHermitian (25s)
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/GramKernelHermitian.lean:34:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/GramKernelHermitian.lean:34:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/GramKernelHermitian.lean:35:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/GramKernelHermitian.lean:35:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/GramKernelHermitian.lean:195:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.A6x8.near_one`:
+  [TopologicalSpace K]
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/GramKernelHermitian.lean:197:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.A6x8.Near.mul`:
+  [TopologicalSpace K]
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/GramKernelHermitian.lean:214:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.A6x8.near_sum`:
+  [TopologicalSpace K]
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/GramKernelHermitian.lean:266:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.A6x8.shift_alg`:
+  [TopologicalSpace K]
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18382/18399] Replayed Formalism.GaussJetBounds.GaussJetProofs.SubstitutionWeightBound
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:130: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:205: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:273: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:349: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:442: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:524: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:604: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:682: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:757: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:830: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:901: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:970: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:1036: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:1099: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:1158: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:1215: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:10: Unused tactic linter: `exact UpperTheory.Reformulated.B.Qk29.wtGe_prod ..` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:130: Unused tactic linter: `(intros; apply UpperTheory.Reformulated.B.Qk29.wtGe_prod <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:205: Unused tactic linter: `(apply @UpperTheory.Reformulated.B.Qk29.wtGe_prod <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:273: Unused tactic linter: `(intros; apply @UpperTheory.Reformulated.B.Qk29.wtGe_prod <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:349: Unused tactic linter: `(apply @UpperTheory.Reformulated.B.Qk29.wtGe_prod <;>
+    first
+    | assumption
+    | infer_instance)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:442: Unused tactic linter: `exact
+  @UpperTheory.Reformulated.B.Qk29.wtGe_prod K ‹_› ι ‹_› pi h0 r α s wt F h` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:524: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qk29.wtGe_prod K ‹_› ι ‹_› pi h0 r α s wt F` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:604: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qk29.wtGe_prod K ‹_› ι ‹_› pi h0 r α s wt` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:682: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qk29.wtGe_prod K ‹_› ι ‹_› pi h0 r α s` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:757: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qk29.wtGe_prod K ‹_› ι ‹_› pi h0 r α` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:830: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qk29.wtGe_prod K ‹_› ι ‹_› pi h0 r` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:901: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qk29.wtGe_prod K ‹_› ι ‹_› pi h0` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:970: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qk29.wtGe_prod K ‹_› ι ‹_› pi` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:1036: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qk29.wtGe_prod K ‹_› ι ‹_›` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:1099: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qk29.wtGe_prod K ‹_› ι` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:1158: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qk29.wtGe_prod K ‹_›` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/SubstitutionWeightBound.lean:79:1215: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qk29.wtGe_prod K` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18388/18399] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.AdicNeighbourhood (14s)
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AdicNeighbourhood.lean:147:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.AdicNeighbourhood.near_one`:
+  [TopologicalSpace K]
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AdicNeighbourhood.lean:149:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.AdicNeighbourhood.Near.mul`:
+  [TopologicalSpace K]
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AdicNeighbourhood.lean:166:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.AdicNeighbourhood.near_sum`:
+  [TopologicalSpace K]
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AdicNeighbourhood.lean:295:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.AdicNeighbourhood.prod_expand`:
+  [TopologicalSpace K]
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AdicNeighbourhood.lean:313:0: automatically included section variable(s) unused in theorem `Formalism.FourierDecayAlt.P.AdicNeighbourhood.inverse_eq`:
+  [TopologicalSpace K]
+  [IsTopologicalRing K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace K] [IsTopologicalRing K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AdicNeighbourhood.lean:546:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/AdicNeighbourhood.lean:578:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18390/18399] Built Formalism.GaussJetBounds.GaussJetProofs.Special (13s)
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean:42:48: `MvPolynomial.coeff_zero` has been deprecated: Use `AddMonoidAlgebra.coeff_zero` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R], AddMonoidAlgebra.coeff 0 = 0
+instead of
+  ∀ {R : Type u} {σ : Type u_1} [inst : CommSemiring R], AddMonoidAlgebra.coeff 0 = 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coeff_zero` to `AddMonoidAlgebra.coeff_zero x`).
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean:65:41: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean:88:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean:103:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean:105:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean:107:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean:117:0: automatically included section variable(s) unused in theorem `Formalism.DworkPowerSeriesWeights.spLdeg_add`:
+  [Fintype σ]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype σ] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean:124:0: automatically included section variable(s) unused in theorem `Formalism.DworkPowerSeriesWeights.spLdeg_single`:
+  [Fintype σ]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype σ] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean:133:0: automatically included section variable(s) unused in theorem `Formalism.DworkPowerSeriesWeights.spLdeg_zero`:
+  [Fintype σ]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype σ] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean:136:0: automatically included section variable(s) unused in theorem `Formalism.DworkPowerSeriesWeights.spLdeg_eq_zero`:
+  [Fintype σ]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype σ] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean:144:0: automatically included section variable(s) unused in theorem `Formalism.DworkPowerSeriesWeights.spCoeff_lin`:
+  [Fintype σ]
+  [DecidableEq σ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype σ] [DecidableEq σ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean:157:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean:159:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean:222:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean:209:0: automatically included section variable(s) unused in theorem `Formalism.DworkPowerSeriesWeights.spPow_single`:
+  hN
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hN in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean:266:41: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean:268:41: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/Special.lean:279:44: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18391/18399] Replayed Formalism.GaussJetBounds.GaussJetProofs.ExistsNeZeroOfFinsumNeZero
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:130: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:205: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:273: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:349: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:442: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:513: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:582: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:649: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:714: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:777: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:838: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:897: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:954: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:112: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:10: Unused tactic linter: `exact UpperTheory.Reformulated.B.Qi22.homW_prod ..` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:112: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:130: Unused tactic linter: `(intros; apply UpperTheory.Reformulated.B.Qi22.homW_prod <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:205: Unused tactic linter: `(apply @UpperTheory.Reformulated.B.Qi22.homW_prod <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:273: Unused tactic linter: `(intros; apply @UpperTheory.Reformulated.B.Qi22.homW_prod <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:349: Unused tactic linter: `(apply @UpperTheory.Reformulated.B.Qi22.homW_prod <;>
+    first
+    | assumption
+    | infer_instance)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:442: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qi22.homW_prod K ‹_› ι w α s c F h` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:513: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qi22.homW_prod K ‹_› ι w α s c F` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:582: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qi22.homW_prod K ‹_› ι w α s c` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:649: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qi22.homW_prod K ‹_› ι w α s` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:714: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qi22.homW_prod K ‹_› ι w α` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:777: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qi22.homW_prod K ‹_› ι w` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:838: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qi22.homW_prod K ‹_› ι` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:897: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qi22.homW_prod K ‹_›` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/ExistsNeZeroOfFinsumNeZero.lean:176:954: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qi22.homW_prod K` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18392/18399] Replayed Formalism.GaussJetBounds.GaussJetProofs.MinorProductSupportTop
+warning: src/Formalism/GaussJetBounds/GaussJetProofs/MinorProductSupportTop.lean:110:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [18393/18399] Built Formalism.HermitianCurvature.HermitianCurvatureProofs.CriticalThresholdLowerBound (125s)
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:13:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:14:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:13:4: Unused tactic linter: `(rw [← Finset.map_add_right_Ioc, Finset.prod_map]; simp [addRightEmbedding])` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:14:4: Unused tactic linter: `(apply Finset.prod_nbij' (fun j => j - p) (fun j => j + p) <;> intro j hj <;>
+      simp only [Finset.mem_Ioc] at hj ⊢ <;>
+    first
+    | omega
+    | (congr 1; omega))` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:124:24: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:129:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:154:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:154:12: Unused tactic linter: `(unfold Cfg.prodb; rw [Finset.prod_const, Nat.card_Icc, Nat.add_sub_cancel])` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:220:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:221:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:233:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:219:21: Unused tactic linter: there are no goals left for `done`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:220:8: Unused tactic linter: `(field_simp; ring)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:221:8: Unused tactic linter: `(rw [div_div_div_cancel_left' _ _ h1])` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:233:8: Unused tactic linter: `field_simp` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:254:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:249:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:250:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:249:6: Unused tactic linter: `(rw [← Real.exp_nat_mul]; congr 1; norm_num)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:250:6: Unused tactic linter: `(rw [← Real.exp_nat_mul]; congr 1; push_cast; ring)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:270:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:274:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:275:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:290:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:291:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:296:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:297:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:270:6: Unused tactic linter: `exact Real.pow_div_factorial_le_exp hx n` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:274:6: Unused tactic linter: `(rwa [div_le_iff hf] at h1)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:275:6: Unused tactic linter: `(
+  have h1' := mul_le_mul_of_nonneg_right h1 hf.le
+  rwa [div_mul_cancel₀ _ hf.ne'] at h1')` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:290:12: Unused tactic linter: `exact pow_le_pow_left (Real.exp_pos 1).le he1 (n + 2)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:291:12: Unused tactic linter: `gcongr` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:296:6: Unused tactic linter: `exact pow_le_pow_left hE0.le hE (n + 1)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:297:6: Unused tactic linter: `gcongr` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:369:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:370:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:376:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:377:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:378:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:369:12: Unused tactic linter: `exact pow_le_pow_left hE0 hE1 (n + 1)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:370:12: Unused tactic linter: `gcongr` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:376:6: Unused tactic linter: `(rw [div_le_one₀ hα0]; linarith)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:377:6: Unused tactic linter: `(rw [div_le_iff₀ hα0]; linarith)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:378:6: Unused tactic linter: `(rw [div_le_iff hα0]; linarith)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:415:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:416:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:417:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:423:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:424:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:425:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:415:6: Unused tactic linter: `(rw [div_le_one₀ hd]; linarith)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:416:6: Unused tactic linter: `(rw [div_le_iff₀ hd]; linarith)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:417:6: Unused tactic linter: `(rw [div_le_iff hd]; linarith)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:423:6: Unused tactic linter: `(rw [div_le_one₀ hd]; nlinarith)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:424:6: Unused tactic linter: `(rw [div_le_iff₀ hd]; nlinarith)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:425:6: Unused tactic linter: `(rw [div_le_iff hd]; nlinarith)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:476:19: This simp argument is unused:
+  h1'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Cfg.u, h0, h2']
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:504:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:521:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:522:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:523:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:503:19: Unused tactic linter: there are no goals left for `done`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:504:6: Unused tactic linter: `(field_simp; ring)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:521:12: Unused tactic linter: `(rw [Finset.prod_const, Nat.card_Icc, pow_mul])` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:522:12: Unused tactic linter: `(rw [Finset.prod_const, Nat.card_Icc, pow_mul]; congr 1; omega)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:523:12: Unused tactic linter: `(simp [Finset.prod_const, pow_mul])` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:624:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:687:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:624:6: Unused tactic linter: `(rw [div_le_iff hb1pos] at hvth; linarith)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:687:12: Unused tactic linter: `(rw [Finset.prod_const, Nat.card_Ioc]; congr 1; omega)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:702:8: Unused tactic linter: `beta_reduce` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:778:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:786:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:778:6: Unused tactic linter: `(rw [le_div_iff hVu0]; linarith)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:786:12: Unused tactic linter: `exact (Real.pow_nat_rpow_nat_inv hcP0 hk0).symm` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:811:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:811:4: Unused tactic linter: `(
+  apply div_pos _ hVu
+  apply mul_pos _ hVV
+  apply mul_pos _ (pow_pos hg _)
+  exact mul_pos (inv_pos.mpr (pow_pos hka _)) (Real.rpow_pos_of_pos hrd _))` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:841:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:842:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:841:6: Unused tactic linter: `exact pow_lt_pow_right hq hj` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:842:6: Unused tactic linter: `gcongr` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:904:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:912:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:904:6: Unused tactic linter: `(
+  have h5 := mul_pos hR hdu
+  rwa [div_mul_cancel₀ _ hdu.ne'] at h5)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:912:8: Unused tactic linter: `exact Real.log_prod _ _ (fun w _ => (div_pos (hTc w) hTk).ne')` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CriticalThresholdLowerBound.lean:921:4: Unused tactic linter: `try` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [18395/18399] Built Formalism.GaussJetBounds.GaussJetProofs.NormDetLeOneOfEntries (10s)
+⚠ [18396/18399] Replayed Formalism.GaussValuationBounds.GaussValueContraction.GaussBasic
+warning: src/Formalism/GaussValuationBounds/GaussValueContraction/GaussBasic.lean:33:29: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/GaussValuationBounds/GaussValueContraction/GaussBasic.lean:57:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/GaussValuationBounds/GaussValueContraction/GaussBasic.lean:73:10: `ENat.lt_one_iff_eq_zero` has been deprecated: Use `Order.lt_one_iff` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Type u_1} {x : α} [inst : LinearOrder α] [inst_1 : AddMonoidWithOne α] [SuccAddOrder α] [IsBotZeroClass α]
+    [NeZero 1], x < 1 ↔ x = 0
+instead of
+  ∀ {n : ℕ∞}, n < 1 ↔ n = 0
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.lt_one_iff_eq_zero` to `Order.lt_one_iff x`).
+⚠ [18397/18399] Replayed Formalism.GaussValuationBounds.GaussValueContraction.GaussMul
+warning: src/Formalism/GaussValuationBounds/GaussValueContraction/GaussMul.lean:31:8: automatically included section variable(s) unused in theorem `_private.Formalism.GaussValuationBounds.GaussValueContraction.GaussMul.0.Formalism.NOK.exists_coeff_ne_zero`:
+  [IsDomain O]
+  [IsDiscreteValuationRing O]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain O] [IsDiscreteValuationRing O] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18398/18399] Replayed Formalism.GaussValuationBounds.GaussValueContraction.LemmaCVal
+warning: src/Formalism/GaussValuationBounds/GaussValueContraction/LemmaCVal.lean:91:76: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/GaussValuationBounds/GaussValueContraction/LemmaCVal.lean:102:14: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/GaussValuationBounds/GaussValueContraction/LemmaCVal.lean:91:76: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/GaussValuationBounds/GaussValueContraction/LemmaCVal.lean:102:14: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18399/18399] Built Formalism.GrowthSums.FactorialBaseGrowth.LogCoef (8.2s)
+warning: src/Formalism/GrowthSums/FactorialBaseGrowth/LogCoef.lean:19:39: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (18399 jobs).
+[PASS]  M145053 (Formalism.GaloisIrreducibility.NoSolvableTransitive)
+[PASS]  M145068 (Formalism.GaussJetBounds.GaussJetProofs.ExistsNeZeroOfFinsumNeZero)
+[PASS]  M145082 (Formalism.GaussJetBounds.GaussJetProofs.MinorProductSupportTop)
+[PASS]  M145083 (Formalism.GaussJetBounds.GaussJetProofs.NormDetLeOneOfEntries)
+[PASS]  M145086 (Formalism.GaussJetBounds.GaussJetProofs.OneLetterRadiusIdentity)
+[PASS]  M145091 (Formalism.GaussJetBounds.GaussJetProofs.Special)
+[PASS]  M145092 (Formalism.GaussJetBounds.GaussJetProofs.SubstitutionWeightBound)
+[PASS]  M145117 (Formalism.GaussJetBounds.OneLetterGaussJets.StatementA)
+[PASS]  M145121 (Formalism.GaussJetBounds.OneLetterGaussJets.StatementN)
+[PASS]  M145129 (Formalism.GaussJetBounds.StatementE)
+[PASS]  M145137 (Formalism.GaussJetBounds.StatementO)
+[PASS]  M145151 (Formalism.GaussValuationBounds.GaussValueContraction.GaussBasic)
+[PASS]  M145152 (Formalism.GaussValuationBounds.GaussValueContraction.GaussMul)
+[PASS]  M145156 (Formalism.GaussValuationBounds.GaussValueContraction.LemmaCVal)
+[PASS]  M145279 (Formalism.GrowthSums.FactorialBaseGrowth.LogCoef)
+[PASS]  M145281 (Formalism.GrowthSums.FactorialBaseGrowth.PathBasisOfCount)
+[PASS]  M145300 (Formalism.HarderNarasimhan.HarderNarasimhanProofs.FinSup)
+[PASS]  M145352 (Formalism.HermitianCurvature.HermitianCurvatureProofs.AdicNeighbourhood)
+[PASS]  M145381 (Formalism.HermitianCurvature.HermitianCurvatureProofs.AveragedKernelSums)
+[PASS]  M145382 (Formalism.HermitianCurvature.HermitianCurvatureProofs.AveragedVectorChoices)
+[PASS]  M145390 (Formalism.HermitianCurvature.HermitianCurvatureProofs.BasePointMemHalfPlane)
+[PASS]  M145577 (Formalism.HermitianCurvature.HermitianCurvatureProofs.CriticalThresholdLowerBound)
+[PASS]  M145580 (Formalism.HermitianCurvature.HermitianCurvatureProofs.CuspidalIrreducibleSubrep)
+[PASS]  M146265 (Formalism.HermitianCurvature.HermitianCurvatureProofs.EqZeroOfIdealCompact)
+[PASS]  M146288 (Formalism.HermitianCurvature.HermitianCurvatureProofs.FiniteClassesPositiveSums)
+[PASS]  M146291 (Formalism.HermitianCurvature.HermitianCurvatureProofs.FiniteSumSwap)
+[PASS]  M146359 (Formalism.HermitianCurvature.HermitianCurvatureProofs.GermExpansionOfSteps)
+[PASS]  M146371 (Formalism.HermitianCurvature.HermitianCurvatureProofs.GermSumLattices)
+[PASS]  M146375 (Formalism.HermitianCurvature.HermitianCurvatureProofs.GramKernelHermitian)
+[PASS]  M146415 (Formalism.HermitianCurvature.HermitianCurvatureProofs.HenselRootsBounded)
+[PASS]  M146441 (Formalism.HermitianCurvature.HermitianCurvatureProofs.HessianScalingIntegrals)
+[PASS]  M146475 (Formalism.HermitianCurvature.HermitianCurvatureProofs.IntegralLatticeRefinementIdentity)
+
+PORT_BUILD_PASSED all 32 module(s).

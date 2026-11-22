@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GaussValuationBounds.GaussValueContraction.GaussBasic",
+  "source_sha256": "1d0bcdfdb54678ac25a5f0382e4922b0876931732721291d2724c29c0321ea88",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

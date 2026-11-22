@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GaussJetBounds.GaussJetProofs.NormDetLeOneOfEntries",
+  "source_sha256": "2f69256c15d892cdc9bac2e2a3281e8349da9dcd9b033df3f39853dfeecc419f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the nonnegative product upper bound with the existing norm bounds."
+}
