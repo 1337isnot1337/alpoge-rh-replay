@@ -1,0 +1,7 @@
+{
+  "module": "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianMatricesLocallyCompactBorel",
+  "source_sha256": "631245c27b67c99c0866f918d4e7426f3211d19b2ce8398dcde3b22607ff95fc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Lean 4.36 Mathlib's `continuous_finsetSum` theorem name for both finite sums."
+}

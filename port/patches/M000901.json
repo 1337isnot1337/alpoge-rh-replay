@@ -1,0 +1,7 @@
+{
+  "module": "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.ExistsTraceFormGramMatrixInBasis",
+  "source_sha256": "6d3bca19b093464f25e5b32d226191a49b7f0e2753bfb7bfca144f4e2bb8b306",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the renamed coercion lemma for a finite sum of finitely supported functions."
+}

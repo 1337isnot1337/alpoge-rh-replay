@@ -1,0 +1,7 @@
+{
+  "module": "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.SplitAnisotropic",
+  "source_sha256": "9dae57cbc1834aa9764571cd6401ad0d05cb32bdef553f42c39fda6e9063208f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "CompanionTheory.SpectralGeometry.CountingDefinitions.AdelicEulerProducts.HypJ",
+  "source_sha256": "2742d3d6229fdffc2d93bc729ae7a9068972d34723194f17deac5b0565c31aa3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,11 @@
+--- a/src/CompanionTheory/SpectralGeometry/LocalGlobalProofs/AdelicAnalysis/InfiniteAdeleHaarMapEqScaledVolume.lean
++++ b/src/CompanionTheory/SpectralGeometry/LocalGlobalProofs/AdelicAnalysis/InfiniteAdeleHaarMapEqScaledVolume.lean
+@@ -131,7 +131,7 @@
+       rw [hmΨ]
+       exact (hΨalg b).symm
+   have hq : Measure.QuasiMeasurePreserving Ψ lam volume := by
+-    refine hmp.quasiMeasurePreserving.comp ⟨coord_measurable F, ?_⟩
++    refine hmp.quasiMeasurePreserving.comp ⟨(coord_measurable F).aemeasurable, ?_⟩
+     rw [hc]
+     intro s hs
+     simp [hs]

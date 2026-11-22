@@ -1,0 +1,7 @@
+{
+  "module": "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HermitianOneByOneIsScalar",
+  "source_sha256": "66a9c92d070d5f2358d81c15809312bb2f3e7062a37c45416b6eeb77fdb2946b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

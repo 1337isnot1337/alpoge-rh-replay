@@ -1,0 +1,7 @@
+{
+  "module": "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramMatrixLocalGlobal",
+  "source_sha256": "55e1e0d570e122f6451e704ede7136197bcdac4eb84e5e3e0d4619d0417d8bcb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Lean 4.36 tensor-product induction does not expose a zero alternative."
+}
