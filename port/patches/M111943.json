@@ -4,5 +4,5 @@
   "lean": "leanprover/lean4:v4.36.0",
   "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
   "notes": "Use the same explicitly typed polynomial coefficient function inside congrArg. Reduce the zero coefficient function at its argument before applying the quotient membership criterion. Specify the scalar-zero goal after reducing the zero Finsupp coefficient. Close the definitionally zero coefficient application. No exported declaration statements, definitions or instances changed.",
-  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0202-lean436-20261121/packet-result.json"
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0202-lean436-20261121-r2/packet-result.json"
 }

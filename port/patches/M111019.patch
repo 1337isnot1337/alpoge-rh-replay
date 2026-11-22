@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/Foundations/Convolution/PolynomialCoefficientBounds/Taylor.lean
++++ b/src/Development/AutomorphicArithmetic/Foundations/Convolution/PolynomialCoefficientBounds/Taylor.lean
+@@ -60,7 +60,7 @@
+       |M| * A * (A ^ m / (Nat.factorial m : ℝ)) := by
+     intro m
+     have h1 := taylor_mean_remainder_bound (f := g) (a := 0) (b := 1) (x := 1) (n := m)
+-      (C := |M| * A ^ (m + 1)) zero_le_one
++      (C := |M| * A ^ (m + 1))
+       ((hgs.of_le (by exact_mod_cast le_top)).contDiffOn) (by simp) (by
+         intro y hy
+         rw [iteratedDerivWithin_eq_iteratedDeriv (uniqueDiffOn_Icc zero_lt_one)
