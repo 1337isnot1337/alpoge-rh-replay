@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.ThetaSplitting.ActUDiagMonomial",
+  "source_sha256": "61272254b9453eab782d0ef006faae34130bb4cc3fc50dc5bec482a7f7c91f02",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged Qualify matrix multiplication and identity-entry lemmas; use polynomial-first coefficients in the final proof. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0209-lean436-20261121/packet-result.json"
+}

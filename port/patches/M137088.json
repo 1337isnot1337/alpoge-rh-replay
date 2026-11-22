@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.EisensteinSeriesG2.G2HaarMeasure.PhiEqZeroIff",
+  "source_sha256": "3b828c2dbc54537708f15691984da28c65a113e0e634dfda1ae8a05265329b49",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0209-lean436-20261121/packet-result.json"
+}

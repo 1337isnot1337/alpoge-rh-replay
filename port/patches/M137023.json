@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.ArcCellEmbeddings.Imports",
+  "source_sha256": "7125a11961028501574ae8f7ad558b048f178eb9c08eb6c7d5c0959d663c13e9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0209-lean436-20261121/packet-result.json"
+}

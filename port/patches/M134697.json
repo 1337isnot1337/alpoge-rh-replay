@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.TwistedProofs.NormDetLeFactorialMulProd",
+  "source_sha256": "bf60bc298e343e6a96994ff7c4e573792b6eac9aecbe793f776cb3e8da2690f0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the finite-product inequality retaining the original nonnegativity premise. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0209-lean436-20261121/packet-result.json"
+}

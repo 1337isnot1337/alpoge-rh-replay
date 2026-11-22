@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.VacuumIwasawa.FrameLin",
+  "source_sha256": "7f8fff2e161cc50b12a0c8eb877ec6a490110dc44d1b9dd98fa68aad3a57504b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0209-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.AbelianHeightsDuality.ZarhinTrick.QiCharP",
+  "source_sha256": "da743717a287d99a4cc414a4140338f118f7f96503b874c3fa0015374270db3b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0209-lean436-20261121/packet-result.json"
+}

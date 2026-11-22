@@ -1,0 +1,24 @@
+--- a/src/Development/EtaleCohomology/CohomologicalPurity/LeafRootHensPf.lean
++++ b/src/Development/EtaleCohomology/CohomologicalPurity/LeafRootHensPf.lean
+@@ -48,10 +48,10 @@
+     rw [hder, e0]; exact hmk _ hu
+   obtain ⟨c, hc, hca⟩ := hJ.is_henselian (f.map ψ) (hf.map ψ) (ψ a) hev0 hu0
+   have hc1 : IsUnit ((f.derivative.map ψ).eval c) := by
+-    apply hens_isUnit_of_sub J hjac _ (ψ (f.derivative.eval a)) _ (hmk _ hu)
++    apply hens_isUnit_of_sub J (by simpa only [Ideal.jacobson_bot] using hjac) _ (ψ (f.derivative.eval a)) _ (hmk _ hu)
+     rw [← e0]; exact hens_eval_sub_mem J _ c (ψ a) hca
+   have hc2 : IsUnit (((f /ₘ (X - C a)).map ψ).eval c) := by
+-    apply hens_isUnit_of_sub J hjac _ (ψ (f.derivative.eval a)) _ (hmk _ hu)
++    apply hens_isUnit_of_sub J (by simpa only [Ideal.jacobson_bot] using hjac) _ (ψ (f.derivative.eval a)) _ (hmk _ hu)
+     rw [← hens_q_eval f a hf, ← e0]; exact hens_eval_sub_mem J _ c (ψ a) hca
+   refine ⟨c, hc, hca, hc1, hc2, ?_⟩
+   intro c' hc' hc'a
+@@ -63,7 +63,7 @@
+   have hfac : (c' - c) * ((f.map ψ).derivative.eval c + k * (c' - c)) = 0 := by
+     rw [hk]; ring
+   have hunit : IsUnit ((f.map ψ).derivative.eval c + k * (c' - c)) := by
+-    apply hens_isUnit_of_sub J hjac _ ((f.map ψ).derivative.eval c)
++    apply hens_isUnit_of_sub J (by simpa only [Ideal.jacobson_bot] using hjac) _ ((f.map ψ).derivative.eval c)
+     · rw [add_sub_cancel_left]; exact J.mul_mem_left k hd
+     · rw [hder]; exact hc1.map _
+   have : c' - c = 0 := (hunit.mul_left_eq_zero).mp hfac

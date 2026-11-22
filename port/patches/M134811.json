@@ -1,0 +1,8 @@
+{
+  "module": "Development.DiscreteGroups.GlobalIrreducibility.DzDigShift",
+  "source_sha256": "805e72048060253ba27e7f1307c55e216d2f24dbaa418aa45938648f930f3cdb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0209-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.LocalThetaKernels.LocrepSB",
+  "source_sha256": "306d8eabde8473f5e0b02abd5421dc32b069e47e32aafa3c2993462547ed72ff",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0209-lean436-20261121/packet-result.json"
+}
