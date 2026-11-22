@@ -1,0 +1,52 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/DeterminantRepresentations/GenHomog.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/DeterminantRepresentations/GenHomog.lean
+@@ -4,9 +4,8 @@
+ open Polynomial UpperTheory.V.W
+ 
+ private theorem coeff_scale {A : Type} [CommRing A] {m : ℕ} (P : MvPolynomial (Fin m) A) (s : Fin m →₀ ℕ) :
+-    MvPolynomial.coeff s
+-      ((MvPolynomial.aeval (fun j => (X * C (MvPolynomial.X j) : (MvPolynomial (Fin m) A)[X])) P).coeff s.degree)
+-      = MvPolynomial.coeff s P := by
++    ((MvPolynomial.aeval (fun j => (X * C (MvPolynomial.X j) : (MvPolynomial (Fin m) A)[X])) P).coeff s.degree).coeff s
++      = P.coeff s := by
+   induction P using MvPolynomial.induction_on' with
+   | monomial u a =>
+     have h : MvPolynomial.aeval (fun j => (X * C (MvPolynomial.X j) : (MvPolynomial (Fin m) A)[X]))
+@@ -16,14 +15,14 @@
+       simp only [mul_pow, Finset.prod_mul_distrib, ← C_pow, ← map_prod, Finset.prod_pow_eq_pow_sum,
+         Polynomial.algebraMap_apply, MvPolynomial.algebraMap_eq, map_mul]
+       ring
+-    rw [h, Polynomial.C_mul_X_pow_eq_monomial, Polynomial.coeff_monomial, MvPolynomial.coeff_monomial]
++    rw [h, Polynomial.C_mul_X_pow_eq_monomial, Polynomial.coeff_monomial, Finsupp.single_apply, MvPolynomial.coeff_monomial]
+     split_ifs with h1 h2 h2
+     · rw [MvPolynomial.coeff_monomial, if_pos h2]
+     · rw [MvPolynomial.coeff_monomial, if_neg h2]
+     · exact absurd (congrArg Finsupp.degree h2) h1
+-    · rw [MvPolynomial.coeff_zero]
++    · simp only [MvPolynomial.coeff_zero, Finsupp.zero_apply]
+   | add p q hp hq =>
+-    rw [map_add, Polynomial.coeff_add, MvPolynomial.coeff_add, hp, hq, MvPolynomial.coeff_add]
++    rw [map_add, Polynomial.coeff_add, AddMonoidAlgebra.coeff_add, Finsupp.add_apply, hp, hq, AddMonoidAlgebra.coeff_add, Finsupp.add_apply]
+ 
+ theorem UpperTheory.V.AlgebraTools.Det.genHomog :
+     ∀ {n : ℕ} {A G : Type} [CommRing A] [Group G] (D : GDet n A G) (m : ℕ) (y : Fin m → MonoidAlgebra A G),
+@@ -31,7 +30,9 @@
+   intro n A G _ _ D m y
+   have hφ : (MvPolynomial.aeval (fun j => (C (MvPolynomial.X j) : (MvPolynomial (Fin m) A)[X]))) =
+       (Polynomial.CAlgHom : MvPolynomial (Fin m) A →ₐ[A] (MvPolynomial (Fin m) A)[X]) :=
+-    MvPolynomial.algHom_ext fun i => by simp [Polynomial.CAlgHom]
++    MvPolynomial.algHom_ext fun i => by
++      simp only [MvPolynomial.aeval_X]
++      rfl
+   have hC : MvPolynomial.aeval (fun j => (C (MvPolynomial.X j) : (MvPolynomial (Fin m) A)[X]))
+       (D.D (MvPolynomial (Fin m) A) (GDet.gen y)) = C (D.D (MvPolynomial (Fin m) A) (GDet.gen y)) := by
+     rw [hφ]
+@@ -43,7 +44,7 @@
+     simp only [mul_smul]
+   intro d hd
+   have h1 := coeff_scale (D.D (MvPolynomial (Fin m) A) (GDet.gen y)) d
+-  rw [key, mul_comm, Polynomial.C_mul_X_pow_eq_monomial, Polynomial.coeff_monomial] at h1
++  rw [key, mul_comm, Polynomial.C_mul_X_pow_eq_monomial, Polynomial.coeff_monomial, Finsupp.single_apply] at h1
+   have hw : Finsupp.weight 1 d = d.degree := by
+     simp only [Finsupp.weight_apply, Pi.one_apply, smul_eq_mul, mul_one]
+     rfl

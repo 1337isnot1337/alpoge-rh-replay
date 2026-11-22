@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.SelfdualRamified",
+  "source_sha256": "af32502dd218e6c850d41ed97b39b6dfaaf9be883f85a14f5af83743ce39d750",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Preserve the pinned finitely generated and spanning lattice in the proof-local construction. Over the stated fraction field the new IsLattice field follows from finite generation, giving the equivalent IsFullLattice predicate. Supply the inherited lattice parent as a local instance before constructing the spanning field. Specify the coefficient ring of the proof-local finitely generated span. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0259-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.ConnectedPrimeFields.CmFree",
+  "source_sha256": "62561af9589243c60f7fa8e782643fc786c0d07597c471ce94a03b313d122b2f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the integral maximal-ideal contraction theorem for the given algebra. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0259-lean436-20261121/packet-result.json"
+}

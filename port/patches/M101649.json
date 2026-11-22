@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.TowerCompl",
+  "source_sha256": "898c0f5077a5a4efbe05d6dbcfb5f0fbd8754b89d2a407d89560abecf46f5bd9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0259-lean436-20261121/packet-result.json"
+}

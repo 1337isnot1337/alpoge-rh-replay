@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/MSpBasis.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/MSpBasis.lean
+@@ -14,7 +14,7 @@
+   choose bj hbj using hb
+   let f : ∀ j, SplitAlg (P j) n →ₐ[R] MSplitAlg P n := fun j =>
+     SplitAlg.lift (P j) n (MSplitAlg.root P n j) (MSplitAlg.prod_root P n j)
+-  let M : MultilinearMap R (fun j => SplitAlg (P j) n) (MSplitAlg P n) :=
++  let M : MultilinearMap (RingHom.id R) (fun j => SplitAlg (P j) n) (MSplitAlg P n) :=
+     (MultilinearMap.mkPiAlgebra R κ (MSplitAlg P n)).compLinearMap (fun j => (f j).toLinearMap)
+   have hM : ∀ x, M x = ∏ j, f j (x j) := fun x => by
+     simp [M, MultilinearMap.compLinearMap_apply, MultilinearMap.mkPiAlgebra_apply]
