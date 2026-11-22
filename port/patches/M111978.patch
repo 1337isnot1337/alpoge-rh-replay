@@ -1,0 +1,10 @@
+--- a/src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/AnnihilatorModels/PSmoothClosed.lean
++++ b/src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/AnnihilatorModels/PSmoothClosed.lean
+@@ -47,7 +47,6 @@
+           R ⊗[O] Localization.Away (l : O)) := by
+     intro s
+     induction s with
+-    | zero => exact ⟨0, by simp⟩
+     | tmul r y =>
+       obtain ⟨o, ho⟩ := away_closed O (l : O) hl y.1 y.2
+       refine ⟨algebraMap O R o * r, ?_⟩

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.PNormInt",
+  "source_sha256": "ad892fbd2d614ea1fa3d60acce475b68d4aa18793507cce4410e6fc560849a80",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the same coefficient projection in the proof-local integrality assertion. Use the injective algebra-hom integrality equivalence with the existing injectivity proof. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0203-lean436-20261121/packet-result.json"
+}

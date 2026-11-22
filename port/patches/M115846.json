@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.Imports",
+  "source_sha256": "29c542c92a972369848d55a96b39d875b5468d28cbb7a5cd23c2ab6c0dfe9b84",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0203-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.RealBands.OpLeHalf",
+  "source_sha256": "37e33112c44cafe9d70a0f1e551e3ba5a22317d568c39c241273164886dc7003",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0203-lean436-20261121/packet-result.json"
+}

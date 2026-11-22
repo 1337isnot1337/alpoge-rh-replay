@@ -1,0 +1,24 @@
+--- a/src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/EqZeroOfPMulEqZero.lean
++++ b/src/Development/AutomorphicArithmetic/IntegralCasts/CrystallinePeriods/EqZeroOfPMulEqZero.lean
+@@ -173,7 +173,7 @@
+     rw [← map_one (algebraMap (Ainf p R) (AinfInv p R)), ← map_add, sub_add_cancel, map_one,
+       Nat.cast_pow] at this
+     simp only [MulMemClass.coe_mul, SubmonoidClass.coe_pow, SubringClass.coe_natCast,
+-      AddSubmonoidClass.coe_finset_sum, AcrisZero.coe_gamma, AinfInv.gamma,
++      AddSubmonoidClass.coe_finsetSum, AcrisZero.coe_gamma, AinfInv.gamma,
+       AddSubgroupClass.coe_sub, OneMemClass.coe_one, Subalgebra.coe_algebraMap]
+     exact this
+   · rw [eval_log u hu le_rfl, Ideal.Quotient.eq, logPartial, ← Finset.sum_sub_distrib]
+@@ -200,7 +200,11 @@
+   refine ext_eval fun n => ?_
+   obtain ⟨a, ha, ha'⟩ := exists_quot u hu n
+   obtain ⟨b, hb, hb'⟩ := exists_quot v hv n
+-  rw [map_add, ha', hb', eval_log_of_mul_eq _ huv n (a + b + p ^ n * a * b), ← map_add,
++  have hq : Ideal.Quotient.mk (Ideal.span {(p : AcrisZero p R)} ^ n) (a + b) =
++      Ideal.Quotient.mk (Ideal.span {(p : AcrisZero p R)} ^ n) a +
++      Ideal.Quotient.mk (Ideal.span {(p : AcrisZero p R)} ^ n) b :=
++    (Ideal.Quotient.mk (Ideal.span {(p : AcrisZero p R)} ^ n)).map_add' a b
++  rw [map_add, ha', hb', eval_log_of_mul_eq _ huv n (a + b + p ^ n * a * b), ← hq,
+     Ideal.Quotient.eq, AcrisZero.mem_span_pow_iff]
+   · exact ⟨a * b, by ring⟩
+   · rw [map_mul, mul_pow, eq_add_of_sub_eq ha.symm, eq_add_of_sub_eq hb.symm]
