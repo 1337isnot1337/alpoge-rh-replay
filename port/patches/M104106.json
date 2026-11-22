@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Realsurj",
+  "source_sha256": "7f9f606b64b1271655bb853c9307017b395c06e49009131fbd1a7be52539d5f4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0199-lean436-20261121-r2/packet-result.json"
+}

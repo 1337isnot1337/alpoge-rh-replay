@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.LiteratureResults.KTheoryStability.HomologicalStability.LinkExactnessStability.ExactAtUnimodularSeqsOfLinkNilCoordSubspace",
+  "source_sha256": "c6e5cb89c2bcdf4fc4c1ca6db5b71ba6b4d30fee1e27485e26d2ad9386fb7184",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed finite-sum domain map lemma. Use the renamed injective-domain evaluation theorem. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0199-lean436-20261121-r2/packet-result.json"
+}
