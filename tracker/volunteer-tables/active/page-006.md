@@ -19,8 +19,4 @@
 | [@CubeJerry](https://github.com/CubeJerry) | [P2728](https://github.com/rohanarun/alpoge-rh-replay/issues/28075) | Claimed |
 | [@CubeJerry](https://github.com/CubeJerry) | [P2749](https://github.com/rohanarun/alpoge-rh-replay/issues/28076) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [M116378](https://github.com/rohanarun/alpoge-rh-replay/issues/28207) | Claimed |
-| [@t-choudhury](https://github.com/t-choudhury) | [M163051](https://github.com/rohanarun/alpoge-rh-replay/issues/28301) | Claimed |
-| [@emsi](https://github.com/emsi) | [P2698](https://github.com/rohanarun/alpoge-rh-replay/issues/28304) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P2664](https://github.com/rohanarun/alpoge-rh-replay/issues/28305) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [M111760](https://github.com/rohanarun/alpoge-rh-replay/issues/28316) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P2667](https://github.com/rohanarun/alpoge-rh-replay/issues/28329) | Claimed |
