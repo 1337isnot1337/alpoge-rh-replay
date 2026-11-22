@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.Reductions.SiegelHaar",
+  "source_sha256": "7a1eca9f94e78625e16afc8805f8e9900c43710f02aabaa99858f3e2495f59fd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Provide measurability of subgroup coercions to the target lower-integral map bound. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0210-lean436-20261121/packet-result.json"
+}

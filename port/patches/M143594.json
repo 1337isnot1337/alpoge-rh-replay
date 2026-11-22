@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.LocalTheory.ConeShifts.ExistsPowIdem",
+  "source_sha256": "b7c9f77848e8f57e4cb00e24c961311274558dbac76d1c449ededd44d8bfc436",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0210-lean436-20261121/packet-result.json"
+}

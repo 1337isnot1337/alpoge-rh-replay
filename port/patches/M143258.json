@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.EigenvalueEndgame.SignatureSplitting.EmbMMul",
+  "source_sha256": "79ff49169ff8e2e82e894dc0311faa1691ff4de4aeb4819104abd8b8f9b8450d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0210-lean436-20261121/packet-result.json"
+}

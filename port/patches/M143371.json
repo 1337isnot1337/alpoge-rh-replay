@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.LatticeBasics.FinOrbit",
+  "source_sha256": "28649c37c5408d49fba2fb7148df33fbb76fda87bec770f6c0630bd8a2da1c7e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0210-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,14 @@
+--- a/src/Development/WeilBound/CoreStatements/TorusUniformisation/ChowMahlerFamilies/XSummandBc.lean
++++ b/src/Development/WeilBound/CoreStatements/TorusUniformisation/ChowMahlerFamilies/XSummandBc.lean
+@@ -35,10 +35,7 @@
+     | add x y _ _ hx hy => rw [map_add, hx, hy]
+     | smul a x _ hx => rw [map_smul, hx]
+   refine ⟨⟨ρC, fun v => ?_, hid, hmap hρL⟩, ?_⟩
+-  · refine hb.inductionOn v (fun v => ρC v ∈ Submodule.span C (b '' U)) ?_ ?_ ?_ ?_
+-    · show ρC 0 ∈ _
+-      rw [map_zero]
+-      exact zero_mem _
++  · refine hb.inductionOn v (motive := fun v => ρC v ∈ Submodule.span C (b '' U)) ?_ ?_ ?_
+     · intro m
+       show ρC (b m) ∈ _
+       rw [hρC]

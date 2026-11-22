@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.LeviDeterminants.LagrangianUniqueness.Imports",
+  "source_sha256": "dfc2618bede6d57d233899dd7efa8951638906e05332dacb0e2b0d50ebd7bdd1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use continuity of adding a constant with the same left/right translations. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0210-lean436-20261121/packet-result.json"
+}

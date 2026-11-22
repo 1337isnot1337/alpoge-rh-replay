@@ -1,0 +1,13 @@
+--- a/src/Development/WeilBound/ThetaLifts/Reductions/SiegelHaar.lean
++++ b/src/Development/WeilBound/ThetaLifts/Reductions/SiegelHaar.lean
+@@ -282,8 +282,8 @@
+     by_cases ht : t ∈ D <;> simp [ht]
+   rw [e, ← hC _ (hh.indicator hD), ← lintegral_indicator hT.measurableSet]
+   refine mul_le_mul_right ?_ _
+-  refine (lintegral_map_le _ ((↑) : P → G)).trans (lintegral_mono fun p => ?_)
+-  refine (lintegral_map_le _ ((↑) : K → G)).trans ?_
++  refine (lintegral_map_le _ (measurable_subtype_coe : Measurable ((↑) : P → G)).aemeasurable).trans (lintegral_mono fun p => ?_)
++  refine (lintegral_map_le _ (measurable_subtype_coe : Measurable ((↑) : K → G)).aemeasurable).trans ?_
+   refine (lintegral_mono (g := fun _ => T.indicator (fun p => D.indicator h (τ p)) p) fun k => ?_).trans
+     (by rw [lintegral_const, hκ, mul_one])
+   refine (hφ _).trans ?_

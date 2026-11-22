@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.BehrendSets.BehrendVariance.TotientLeOfIsPrimitiveRoot",
+  "source_sha256": "07254bc75f13bd568a7c2009cbb087dd2b645a3642478b8e4285e7c519a4ead1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0210-lean436-20261121/packet-result.json"
+}
