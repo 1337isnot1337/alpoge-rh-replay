@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.CompletionAtPlace",
+  "source_sha256": "dee0bda405172b4b8096b1bad2dfe53e167efbdf8a76ce7bab28bcd3ff2aa717",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Reduce self algebra maps, identify the same ramification indices, and use implicit binders for the existing valuative-extension field. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0225-lean436-20261121/packet-result.json"
+}

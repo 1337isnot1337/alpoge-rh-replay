@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.RestrictedProductMatrix",
+  "source_sha256": "0e745b364eee3500fc8e439796015d658957b72d1e2864169233843077ac7865",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use continuity of matrix entries with the matrix domain explicit. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0225-lean436-20261121/packet-result.json"
+}

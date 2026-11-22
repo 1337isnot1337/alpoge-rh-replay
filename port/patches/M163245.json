@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.IdeleGroups.SIdeleGroups",
+  "source_sha256": "a032500c33eb9d5fef5feca2b8f5ffaf4aed42bd4c2fee4bff68f2d9c2995957",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0225-lean436-20261121/packet-result.json"
+}

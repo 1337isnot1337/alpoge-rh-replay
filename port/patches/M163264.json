@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.KummerTheory.LocalIndexAtPlace",
+  "source_sha256": "7fff07e9334febffaffe2c1542f41a456524ddc7cc325dbbef3642a1baa042d4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0225-lean436-20261121/packet-result.json"
+}

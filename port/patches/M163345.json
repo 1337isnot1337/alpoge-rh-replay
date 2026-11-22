@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.TateThesis.GaussianComplexFourier",
+  "source_sha256": "90e1c0c465813fde99b8d05d68e10b6f88bbc956a105b2ebbc39e8536faffffa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0225-lean436-20261121/packet-result.json"
+}
