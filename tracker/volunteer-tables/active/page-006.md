@@ -23,6 +23,9 @@
 | [@maugomez77](https://github.com/maugomez77) | [M155317](https://github.com/rohanarun/alpoge-rh-replay/issues/27399) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [M174913](https://github.com/rohanarun/alpoge-rh-replay/issues/27448) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [M166809](https://github.com/rohanarun/alpoge-rh-replay/issues/27563) | Claimed |
-| [@emsi](https://github.com/emsi) | [M137079](https://github.com/rohanarun/alpoge-rh-replay/issues/27813) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P2635](https://github.com/rohanarun/alpoge-rh-replay/issues/27815) | Claimed |
 | [@emsi](https://github.com/emsi) | [P2715](https://github.com/rohanarun/alpoge-rh-replay/issues/27857) | Claimed |
+| [@hipotures](https://github.com/hipotures) | [P2636](https://github.com/rohanarun/alpoge-rh-replay/issues/27860) | Claimed |
+| [@t-choudhury](https://github.com/t-choudhury) | [M001181](https://github.com/rohanarun/alpoge-rh-replay/issues/27861) | Claimed |
+| [@UnityChaos](https://github.com/UnityChaos) | [M033588](https://github.com/rohanarun/alpoge-rh-replay/issues/27865) | Claimed |
+| [@UnityChaos](https://github.com/UnityChaos) | [M036751](https://github.com/rohanarun/alpoge-rh-replay/issues/27871) | Claimed |
+| [@UnityChaos](https://github.com/UnityChaos) | [M066520](https://github.com/rohanarun/alpoge-rh-replay/issues/27873) | Claimed |
