@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraInductionGLComm",
+  "source_sha256": "8241424a87d20c0de8ae3d52313f838ce25797a2b823b21676ec2e5ca6a1f373",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
