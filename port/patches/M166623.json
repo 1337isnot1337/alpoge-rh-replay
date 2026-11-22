@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.PEventualPolyLine",
+  "source_sha256": "389feb8266f4397c975bd5c886cbc4a980fa9a64be0407243080e2953d400639",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0286-lean436-20261121/packet-result.json"
+}

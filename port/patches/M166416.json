@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.NoCommonZeroComplex",
+  "source_sha256": "9f00420a81216d4e660fcb6bf88bff9c72222de218cd875eba2bc5b40f64300f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0286-lean436-20261121/packet-result.json"
+}

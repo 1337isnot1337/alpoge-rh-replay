@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HermitianTensor",
+  "source_sha256": "2daf96216be584f2268183ee2c5d79a400174f498d6cd70831c99a2cdf444127",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0286-lean436-20261121/packet-result.json"
+}

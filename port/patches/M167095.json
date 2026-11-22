@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.StatementsMetricChangeDimZero",
+  "source_sha256": "8a83b2c4c56cd88635bf71ac9fe9e9ca4c6aa22c15effe1fd186f5419d5886cb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0286-lean436-20261121/packet-result.json"
+}
