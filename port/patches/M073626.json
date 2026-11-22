@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RelIndexStandardLatticeTransposeInvDvrStatement",
+  "source_sha256": "74259c5c85dd47b3bcaf40a5e2fd7924981a03cae96e7d75da2c4ac3c84a0d9e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0192-lean436-20261121/packet-result.json"
+}

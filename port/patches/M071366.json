@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IntegralRightCosetFunEqFinsum",
+  "source_sha256": "d5ac11806aa30ecab23188fb44c55cf809ace86096e578fba8ef0f5b2bcfbd45",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use continuity of right multiplication by the same constant. Use the renamed finite-sum integral and lower-integral lemmas. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0192-lean436-20261121/packet-result.json"
+}

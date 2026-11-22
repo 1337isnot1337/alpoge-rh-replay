@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.PartialFourierHermitianBlockUnitIndicator",
+  "source_sha256": "e7ff6921ed0a84915ed5730485bfb33b2aedd9a07cf761b4780af90520aeb6d9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Type the unit-window membership hypotheses explicitly before projecting their conjuncts. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0192-lean436-20261121/packet-result.json"
+}
