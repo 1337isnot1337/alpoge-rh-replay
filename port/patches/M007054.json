@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.ConstantCoeffDpolyOfAdditiveTaylorPts",
+  "source_sha256": "69524889879900e07c6db8a124483aca25f6c78ff0c4cd0b15a5ea4e54e7e73d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specify the coefficient ring using the named argument of MvPowerSeries.pderiv."
+}
